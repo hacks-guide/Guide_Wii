@@ -152,27 +152,4 @@ We have many other tutorials that you might like.
 You can now use homebrew such as [USB Loader GX](usbloadergx) and [WiiFlow](wiiflow).
 {: .notice--info}
 
-<script>
-    let tabcontent = document.getElementsByClassName("blanktabcontent");
-    let tablinks = document.getElementsByClassName("tablinks");
-
-    function openTab(evt, tabName) {
-        let element;
-
-        for (element of tabcontent) {
-            element.style.display = "none";
-        }
-
-        for (element of tablinks) {
-            element.className = element.className.replace("btn--primary", "btn--info");
-            if (!element.className.includes('btn--info'))
-                element.className += " btn--info";
-        }
-
-        document.getElementById(tabName).style.display = "block";
-        evt.currentTarget.className = evt.currentTarget.className.replace("btn--info", "btn--primary");
-    }
-
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-</script>
+<script src="/assets/js/tabs.js"></script>

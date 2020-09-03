@@ -109,29 +109,4 @@ If you dumped the disc on a FAT32 formatted, device, you should've got at least 
 To organize the games on your drive properly, you'll need to use [Wii Backup Manager](wiibackupmanager).
 {: .notice--info}
 
-<script>
-    let tabcontent = document.getElementsByClassName("blanktabcontent");
-    let tablinks = document.getElementsByClassName("tablinks");
-
-    for (e of tabcontent) element.style.display = "none";
-
-    function openTab(evt, tabName) {
-        let element;
-
-        for (element of tabcontent) {
-            element.style.display = "none";
-        }
-
-        for (element of tablinks) {
-            element.className = element.className.replace("btn--primary", "btn--info");
-            if (!element.className.includes('btn--info'))
-                element.className += " btn--info";
-        }
-
-        document.getElementById(tabName).style.display = "block";
-        evt.currentTarget.className = evt.currentTarget.className.replace("btn--info", "btn--primary");
-    }
-
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-</script>
+<script src="/assets/js/tabs.js"></script>
