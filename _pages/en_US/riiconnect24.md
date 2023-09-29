@@ -14,8 +14,8 @@ For support (in English) with RiiConnect24, as well as RiiTag, join [RiiConnect2
 {% capture notice-1 %}
 This guide is for regular Wiis only.
 
-- Follow [this tutorial](riiconnect24-vwii) if you'd like to install RiiConnect24 on vWii (Wii Mode on Wii U).
-- Follow [this tutorial](riiconnect24-dolphin) if you'd like to install RiiConnect24 on Dolphin Emulator.
++ Follow [this tutorial](riiconnect24-vwii) if you'd like to install RiiConnect24 on vWii (Wii Mode on Wii U).
++ Follow [this tutorial](riiconnect24-dolphin) if you'd like to install RiiConnect24 on Dolphin Emulator.
   {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -28,11 +28,11 @@ DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick th
 
 #### What you need
 
-- An SD card or USB drive
-- A Wii with an Internet connection
-- A computer
-- [RiiConnect24 Patcher (Windows, Mac and Linux)](https://github.com/RiiConnect24/RiiConnect24-Patcher/releases)
-- [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
+* An SD card or USB drive
+* A Wii with an Internet connection
+* A computer
+* [RiiConnect24 Patcher (Windows, Mac and Linux)](https://github.com/RiiConnect24/RiiConnect24-Patcher/releases)
+* [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
 #### Instructions
 

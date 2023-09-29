@@ -11,11 +11,11 @@ RiiTag is a customizable and dynamic gamertag. By sharing your gamertag (a dynam
 
 #### What you need
 
-- A device capable of interacting with SD cards
-- Softmodded Wii U console with Aroma custom firmware
-    - If you have not softmodded your Wii U yet, [please do so](https://wiiu.hacks.guide). You cannot proceed without.
-- A Discord account
-- The latest release of the [UTag plugin](https://github.com/RiiConnect24/UTag/releases)
+* A device capable of interacting with SD cards
+* Softmodded Wii U console with Aroma custom firmware
+    * If you have not softmodded your Wii U yet, [please do so](https://wiiu.hacks.guide). You cannot proceed without.
+* A Discord account
+* The latest release of the [UTag plugin](https://github.com/RiiConnect24/UTag/releases)
 
 Previously, UTag allowed using other custom firmware (often abbreviated as CFW), but the only supported custom firmware, and the only one you should be using, is Aroma.
 {: .notice--warning}

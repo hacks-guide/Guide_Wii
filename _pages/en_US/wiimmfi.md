@@ -22,7 +22,7 @@ Choose the one that fits your needs best.
 
 #### What you need
 
-- A Wii with Priiloader 0.9 or later installed
+* A Wii with Priiloader 0.9 or later installed
 
 If you have an older version of Priiloader or don't have it installed, follow [this guide](priiloader) to update/install it.
 {: .notice--info}
@@ -30,7 +30,7 @@ If you have an older version of Priiloader or don't have it installed, follow [t
 #### Instructions
 
 1. Hold the RESET button while turning on your Wii.
-    - If you are using a Wii mini, plug in a USB keyboard and hold Escape on it while turning it on.
+    + If you are using a Wii mini, plug in a USB keyboard and hold Escape on it while turning it on.
 
     ![Turn on](/images/Priiloader/on.jpg)
     ![Hold RESET](/images/Priiloader/reset.jpg)
@@ -59,8 +59,8 @@ MrBean35000vr (creator of CTGP-R, a Mario Kart Wii content pack) created a Wiimm
 
 #### What you need
 
-- An SD card or USB drive
-- [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
+* An SD card or USB drive
+* [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
 
 #### Instructions
 
@@ -77,7 +77,7 @@ Thanks to Fullmetal5's str2hax exploit, which Leseratte was able to adapt for th
 
 ##### What you need
 
-- A Wii with an Internet connection
+* A Wii with an Internet connection
 
 ##### Instructions
 
@@ -125,13 +125,13 @@ You may not want to run a patcher each time you want to play on Wiimmfi, and may
 
 #### What you need
 
-- Your copy of your game (WBFS, ISO, cISO, and other forms that a Wii can use are supported).
-- [RiiConnect24 Patcher](https://github.com/RiiConnect24/RiiConnect24-Patcher/releases/) (Windows and Unix)  
+* Your copy of your game (WBFS, ISO, cISO, and other forms that a Wii can use are supported).
+* [RiiConnect24 Patcher](https://github.com/RiiConnect24/RiiConnect24-Patcher/releases/) (Windows and Unix)  
 
 **or**
 
-- [Wiimmfi Patcher (cross-platform)](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
-- A USB Loader, [cIOS](cios), and a USB to store the game on (you should already have these if you're using a USB Loader)
+* [Wiimmfi Patcher (cross-platform)](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
+* A USB Loader, [cIOS](cios), and a USB to store the game on (you should already have these if you're using a USB Loader)
 
 #### Instructions
 
@@ -145,14 +145,14 @@ You can patch WiiWare games in order to play them on Wiimmfi.
 
 #### What you need
 
-- An SD card
-- Your copy of your game (in WAD format)
-- [RiiConnect24 Patcher](https://github.com/RiiConnect24/RiiConnect24-Patcher/releases/) (Windows and Unix)  
+* An SD card
+* Your copy of your game (in WAD format)
+* [RiiConnect24 Patcher](https://github.com/RiiConnect24/RiiConnect24-Patcher/releases/) (Windows and Unix)  
 
 **or**
 
-- [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases) (cross platform)
-- [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
+* [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases) (cross platform)
+* [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
 [If you want to see how to use the WiiWare Patcher, click here!](wiiwarepatcher)
 {: .notice--info}
@@ -171,10 +171,10 @@ Wiimmfi allows you to participate in Mario Kart Wii competitions again.
 
 #### What you need
 
-- An SD card or USB drive
-- Mario Kart Wii Competition Patcher
-  - [Wii](https://oscwii.org/library/app/competition-tool-wii)
-  - [Wii U (vWii)](https://competitions.wiimmfi.de/competition-tool-wiiu.zip)
+* An SD card or USB drive
+* Mario Kart Wii Competition Patcher
+    * [Wii](https://oscwii.org/library/app/competition-tool-wii)
+    * [Wii U (vWii)](https://competitions.wiimmfi.de/competition-tool-wiiu.zip)
 
 #### Instructions (for Wii)
 
@@ -194,7 +194,7 @@ Wiimmfi doesn't only support Wii games, it supports lots of DS games too. Thanks
 
 #### What you need
 
-- A Wi-Fi network with WEP or no security
+* A Wi-Fi network with WEP or no security
 
 Getting a Wi-Fi network with WEP or no security is the hardest part, because DS games don't support newer Wi-Fi security types. However, many routers support creating a guest Wi-Fi connection, or you can make a hotspot on your phone or your computer. There are plenty of resources on the Internet that have information on this, so use your favorite search engine to find them.
 {: .notice--info}

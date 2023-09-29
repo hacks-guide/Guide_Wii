@@ -8,9 +8,9 @@ This is a quick start guide on how to use Nintendont, a popular loader for the W
 
 #### What you need
 
-- A Wii
-- An SD card or USB drive
-- [Nintendont](https://oscwii.org/library/app/Nintendont)
+* A Wii
+* An SD card or USB drive
+* [Nintendont](https://oscwii.org/library/app/Nintendont)
 
 We recommend you copy games over with [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases) if you use Windows.
 
@@ -35,12 +35,12 @@ There is no "guide" to use Nintendont. This is intended to help you learn how to
 
 ###### Key Features
 
-- You can use a GameCube controller to play your games.
-- You can use a Wiimote to play your games, but you will need to use a Classic Controller Pro or a Wii U Pro Controller to use all of the game's features.
-- You can use a Wii U GameCube Controller adapter if your Wii does not have GameCube ports.
-- You can use a USB keyboard to enter text in games that require it.
-- You can use a fan-made patch to enable online play in some games.
-- You can use USB Loader GX or WiiFlow to play GameCube games there.
++ You can use a GameCube controller to play your games.
++ You can use a Wiimote to play your games, but you will need to use a Classic Controller Pro or a Wii U Pro Controller to use all of the game's features.
++ You can use a Wii U GameCube Controller adapter if your Wii does not have GameCube ports.
++ You can use a USB keyboard to enter text in games that require it.
++ You can use a fan-made patch to enable online play in some games.
++ You can use USB Loader GX or WiiFlow to play GameCube games there.
 
 [Continue to site navigation](site-navigation)<br>
 We have many other tutorials that you might like.

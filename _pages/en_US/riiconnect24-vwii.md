@@ -16,8 +16,8 @@ Guide to installing [RiiConnect24](https://rc24.xyz) on vWii (Virtual Wii on Wii
 {% capture notice-1 %}
 This guide is for vWii (Wii Mode on Wii U) only.
 
-- Follow [this tutorial](riiconnect24) if you'd like to install RiiConnect24 on a Wii.
-- Follow [this tutorial](riiconnect24-dolphin) if you'd like to install RiiConnect24 on Dolphin Emulator.
++ Follow [this tutorial](riiconnect24) if you'd like to install RiiConnect24 on a Wii.
++ Follow [this tutorial](riiconnect24-dolphin) if you'd like to install RiiConnect24 on Dolphin Emulator.
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>

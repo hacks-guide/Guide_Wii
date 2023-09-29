@@ -10,7 +10,7 @@ Bricks (a state where either some parts of your Wii software are not working, or
 ### What are the SD card requirements and/or recommendations?
 You will need an SD card with at least 128MB to run an exploit.
 
-- If you are using the BlueBomb, str2hax, or FlashHax exploits, you do not need an SD card.
++ If you are using the BlueBomb, str2hax, or FlashHax exploits, you do not need an SD card.
 
 To store homebrew applications, we recommend an SD card with at least 2 GB.
 

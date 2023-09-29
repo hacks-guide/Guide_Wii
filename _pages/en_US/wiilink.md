@@ -16,9 +16,9 @@ If you installed it previously, please follow the instructions to update it.
 
 #### What you need
 
-- An SD card or USB drive
-- A Wii with an Internet connection
-- A Windows, macOS, or Linux computer
+* An SD card or USB drive
+* A Wii with an Internet connection
+* A Windows, macOS, or Linux computer
 
 #### Instructions
 
@@ -43,7 +43,7 @@ On Linux, open a Terminal, type `bash ` (space included), then drag the file ont
 1. Select your SD card or USB drive accordingly.
 1. If your Wii is not a Japanese region, install `WiiLink_SPD (Wii).wad` or `WiiLink_SPD (vWii).wad` (Depending on console platform) before anything else. This is required so that we know your email address to send files.
 1. Highlight all other WADs with `WiiLink` in the name and press + to select them. When all of them are selected, press A twice to install the WADs.
-    - If you have previously installed the RiiConnect24 versions of the Forecast Channel and the Nintendo Channel, installing WiiLink's will overwrite them.
+    + If you have previously installed the RiiConnect24 versions of the Forecast Channel and the Nintendo Channel, installing WiiLink's will overwrite them.
 
 1. After they are successfully installed, press the HOME Button to exit back to the Homebrew Channel.
 

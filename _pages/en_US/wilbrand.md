@@ -17,8 +17,8 @@ Wilbrand Web is recommended for its ease of use.
 
 #### What you need
 
-- An SD card formatted to FAT32/MS-DOS
-- A Wii on at least version 3.0
+* An SD card formatted to FAT32/MS-DOS
+* A Wii on at least version 3.0
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
@@ -31,12 +31,12 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1.  Click on "Download your .zip".
 1.  Extract the contents of the downloaded ZIP to the root of your SD card.
 1.  Take out your SD card and insert it in your Wii.
-    - The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB adapter plugged into the Wii's USB port will not work.
+    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB adapter plugged into the Wii's USB port will not work.
 1.  On your Wii, return to the Wii Menu and then open the Wii Message Board.
 1.  Load the green letter with the Bob-omb icon.
-    - Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
-    - The mail may have appeared on the previous or next day.
-    - If you don't see the green letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii's SD card reader.
+    + Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
+    + The mail may have appeared on the previous or next day.
+    + If you don't see the green letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii's SD card reader.
         ![Wilbrand in its natural habitat](/images/wilbrand/msgboard.png)
 
 If this didn't work for you, [try another exploit](get-started) or try [Wilbrand CLI](#wilbrand-cli).
@@ -48,11 +48,11 @@ If this didn't work for you, [try another exploit](get-started) or try [Wilbrand
 
 #### What you need
 
-- A PC running Windows, MacOS or Linux
-- An SD card formatted to FAT32/MS-DOS
-- A Wii on at least version 3.0
-- [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
-- [HackMii Installer v1.2](https://bootmii.org/download/)
+* A PC running Windows, MacOS or Linux
+* An SD card formatted to FAT32/MS-DOS
+* A Wii on at least version 3.0
+* [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
+* [HackMii Installer v1.2](https://bootmii.org/download/)
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
@@ -65,25 +65,25 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Open a terminal inside the folder Wilbrand was extracted to.
 1. Using your Wii's version and MAC address, run the following command:
 
-    - Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
-        - `X:` is the drive letter of your SD card.
+    + Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
+        + `X:` is the drive letter of your SD card.
         ![running Wilbrand on Windows](/images/wilbrand/windows.png)
 
-    - Linux/MacOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
-        - If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
-        - `/media/mount_dir` is the folder your SD card is mounted in. This may vary depending on your Linux distro.
+    + Linux/MacOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
+        + If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
+        + `/media/mount_dir` is the folder your SD card is mounted in. This may vary depending on your Linux distro.
         ![running Wilbrand on Linux](/images/wilbrand/linux.png)
 
 1.  Extract the HackMii Installer v1.2 to a folder on your PC.
-    - You may also simply open the zip file in your archive manager.
+    + You may also simply open the zip file in your archive manager.
 1.  Locate the `boot.elf` file, and put it on the root of your SD card.
 1.  Take out your SD card and insert it in your Wii.
-    - The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB adapter plugged into the Wii's USB port will not work.
+    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB adapter plugged into the Wii's USB port will not work.
 1.  On your Wii, return to the Wii Menu and then open the Wii Message Board.
 1.  Load the green letter with the Bob-omb icon.
-    - Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
-    - The mail may have appeared on the previous or next day.
-    - If you don't see the green letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii's SD card reader.
+    + Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
+    + The mail may have appeared on the previous or next day.
+    + If you don't see the green letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii's SD card reader.
     ![Wilbrand in its natural habitat](/images/wilbrand/msgboard.png)
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
