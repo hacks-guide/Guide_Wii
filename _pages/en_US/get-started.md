@@ -4,8 +4,19 @@ title: "Get Started"
 
 {% include toc title="Table of Contents" %}
 
-Even if your Wii has already been softmodded in the past, following these steps can still ensure that your softmod is up to date.
-{: .notice--info}
+These steps will help you softmod your Wii, from stock to BootMii. Before starting this guide, please ensure that your console is on the latest version of the Wii firmware (4.3). If your Wii is already softmodded but is on an older version, follow [this](update) guide to update to latest.
+
+First, identify your console revision:
+
+{% include identify-console.html %}
+
+Next, select the exploit in the guide that corresponds to your console:
+
+| Console Revision  | Reccomended Exploit |
+| ----------------- | ------------------- |
+| Wii/Wii Family Edition  | If you can use an SD card: Proceed to [Letterbomb](letterbomb)<br> If you cannot use an SD card: Proceed to [str2hax](str2hax) |
+| Wii Mini | Proceed to [Bluebomb](bluebomb) |
+| Wii U (vWii)  | If you have not modded your Wii U yet:<br> Proceed to [Introduction (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/)<br> If your Wii U is already modded:<br> Proceed to [vWii Modding (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/vwii-modding) |
 
 All of the exploits run the HackMii Installer, and have the same end result.
 {: .notice--info}
