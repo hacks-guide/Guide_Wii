@@ -6,15 +6,15 @@ Copyright (c) 2015 Luke Jackson
 
 $(function() {
 
-  var $btn1 = $('nav.greedy-nav .greedy-nav__toggle');
-  var $btn2 = $('nav.greedy-nav .greedy-nav__toggle_lang');
+  var $btn = $("nav.greedy-nav .greedy-nav__toggle");
+  var $btn2 = $("nav.greedy-nav .greedy-nav__toggle_lang");
   var $vlinks = $("nav.greedy-nav .visible-links");
-  var $hlinks1 = $('nav.greedy-nav .hidden-links.links-menu');
-  var $hlinks2 = $('nav.greedy-nav .hidden-links.lang-menu');
+  var $hlinks = $("nav.greedy-nav .hidden-links.links-menu");
+  var $hlinks2 = $("nav.greedy-nav .hidden-links.lang-menu");
   var $nav = $("nav.greedy-nav");
-  var $logo = $('nav.greedy-nav .site-logo');
+  // var $logo = $('nav.greedy-nav .site-logo');
   var $logoImg = $('nav.greedy-nav .site-logo img');
-  var $title = $("nav.greedy-nav .site-title");
+  // var $title = $("nav.greedy-nav .site-title");
   var $search = $('nav.greedy-nav button.search__toggle');
 
   var numOfItems, totalSpace, closingTime, breakWidths;
@@ -45,7 +45,7 @@ $(function() {
     }
     // Measure both visible and hidden links widths
     $vlinks.children().outerWidth(addWidth);
-    $hlinks1.children().each(function(){hiddenWidth($(this))});
+    $hlinks.children().each(function(){hiddenWidth($(this))});
   }
   // Get initial state
   measureLinks();
@@ -54,7 +54,7 @@ $(function() {
   // Set the last measured CSS width breakpoint: 0: <768px, 1: <1024px, 2: < 1280px, 3: >= 1280px.
   var lastBreakpoint = winWidth < 768 ? 0 : winWidth < 1024 ? 1 : winWidth < 1280 ? 2 : 3;
 
-  var availableSpace, numOfVisibleItems, requiredSpace, timer1, timer2;
+  var availableSpace, numOfVisibleItems, requiredSpace, timer, timer2;
 
   function check() {
 
@@ -70,28 +70,29 @@ $(function() {
     numOfVisibleItems = $vlinks.children().length;
     // Decrease the width of visible elements from the nav innerWidth to find out the available space for navItems
     availableSpace = /* nav */ $nav.innerWidth()
-                   - /* logo */ ($logo.length !== 0 ? $logo.outerWidth(true) : 0)
-                   - /* title */ $title.outerWidth(true)
+                   - /* logo */ // ($logo.length !== 0 ? $logo.outerWidth(true) : 0)
+                   - /* title */ // $title.outerWidth(true)
                    - /* search */ ($search.length !== 0 ? $search.outerWidth(true) : 0)
-                   - /* toggle */ (numOfVisibleItems !== breakWidths.length ? $btn1.outerWidth(true) : 0);
+                   - /* toggle */ (numOfVisibleItems !== breakWidths.length ? $btn.outerWidth(true) : 0)
+                   - /* toggle-lang */ ($btn2.outerWidth(true));
     requiredSpace = breakWidths[numOfVisibleItems - 1];
 
     // There is not enought space
     if (requiredSpace > availableSpace) {
-      $vlinks.children().last().prependTo($hlinks1);
+      $vlinks.children().last().prependTo($hlinks);
       numOfVisibleItems -= 1;
       check();
       // There is more than enough space. If only one element is hidden, add the toggle width to the available space
-    } else if (availableSpace + (numOfVisibleItems === breakWidths.length - 1?$btn1.outerWidth(true):0) > breakWidths[numOfVisibleItems]) {
-      $hlinks1.children().first().appendTo($vlinks);
+    } else if (availableSpace + (numOfVisibleItems === breakWidths.length - 1?$btn.outerWidth(true):0) > breakWidths[numOfVisibleItems]) {
+      $hlinks.children().first().appendTo($vlinks);
       numOfVisibleItems += 1;
       check();
     }
     // Update the button accordingly
-    $btn1.attr("count", numOfItems - numOfVisibleItems);
+    $btn.attr("count", numOfItems - numOfVisibleItems);
     if (numOfVisibleItems === numOfItems) {
-      $btn1.addClass('hidden');
-    } else $btn1.removeClass('hidden');
+      $btn.addClass('hidden');
+    } else $btn.removeClass('hidden');
   }
 
   // Window listeners
@@ -99,53 +100,53 @@ $(function() {
     check();
   });
 
-  $btn1.on('click', function() {
-    if($hlinks1.is(":visible")){
-      $hlinks1.addClass('hidden');
+  $btn.on('click', function() {
+    if($hlinks.is(":visible")){
+      $hlinks.addClass('hidden');
       $(this).removeClass('close');
+      clearTimeout(timer);
     } else {
-      $hlinks1.removeClass('hidden');
+      $hlinks.removeClass('hidden');
       $(this).addClass('close');
       $hlinks2.addClass('hidden');
       $btn2.removeClass('close');
-      clearTimeout(timer2);
+      clearTimeout(timer);
     }
   });
 
-  $hlinks1.on('mouseleave', function() {
-    // Mouse has left, start the timer1
-    timer1 = setTimeout(function() {
-      $hlinks1.addClass('hidden');
-      $btn1.removeClass('close');
+  $hlinks.on('mouseleave', function() {
+    // Mouse has left, start the timer
+    timer = setTimeout(function() {
+      $hlinks.addClass('hidden');
     }, closingTime);
   }).on('mouseenter', function() {
-    // Mouse is back, cancel the timer1
-    clearTimeout(timer1);
-  });
+    // Mouse is back, cancel the timer
+    clearTimeout(timer);
+  })
 
   $btn2.on('click', function() {
     if($hlinks2.is(":visible")){
       $hlinks2.addClass('hidden');
       $(this).removeClass('close');
+      clearTimeout(timer2);
     } else {
       $hlinks2.removeClass('hidden');
       $(this).addClass('close');
-      $hlinks1.addClass('hidden');
-      $btn1.removeClass('close');
-      clearTimeout(timer1);
+      $hlinks.addClass('hidden');
+      $btn.removeClass('close');
+      clearTimeout(timer2);
     }
   });
 
   $hlinks2.on('mouseleave', function() {
-    // Mouse has left, start the timer2
+    // Mouse has left, start the timer
     timer2 = setTimeout(function() {
       $hlinks2.addClass('hidden');
-      $btn2.removeClass('close');
     }, closingTime);
   }).on('mouseenter', function() {
-    // Mouse is back, cancel the timer2
+    // Mouse is back, cancel the timer
     clearTimeout(timer2);
-  });
+  })
 
   // check if page has a logo
   if($logoImg.length !== 0){
