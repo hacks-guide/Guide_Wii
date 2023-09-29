@@ -41,14 +41,14 @@ And some things to enhance your vWii experience:
 1. Launch the Homebrew Channel on your Wii.
 1. Launch the Priiloader installer.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
-   ![Install Priiloader](/images/Priiloader/installer.png)
-   ![Installing](/images/Priiloader/installing.png)
+    ![Install Priiloader](/images/Priiloader/installer.png)
+    ![Installing](/images/Priiloader/installing.png)
 1. Press A to return to the Homebrew Channel.
 
 ##### Section III - Entering Priiloader
 
 Priiloader will appear automatically after you install it. Simply exit the Homebrew Channel, and you should see the Priiloader menu:
-   ![Priiloader Menu](/images/Priiloader/menu.png)
+    ![Priiloader Menu](/images/Priiloader/menu.png)
 
 To enter it later on, simply run the "Load Priiloader" homebrew app. There are also other ways to enter Priiloader:
 - Holding RESET on a Wii while turning it on.
@@ -60,7 +60,7 @@ To enter it later on, simply run the "Load Priiloader" homebrew app. There are a
 
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 1. Scroll down to `System Menu Hacks` and press `A`.
-   ![System Menu Hacks](/images/Priiloader/menu_hacks.png)
+    ![System Menu Hacks](/images/Priiloader/menu_hacks.png)
 
 If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br>
 This causes Priiloader to fail to find the `hacks_hash.ini` file.
@@ -134,17 +134,17 @@ You will be installing `uneoboot.dol` in step 3.
 
 1. Launch the Homebrew channel, then launch the Load Priiloader app.
 1. Scroll down to `Load/Install file` and press A.
-   ![Load/Install File](/images/Priiloader/menu_install_file.png)
+    ![Load/Install File](/images/Priiloader/menu_install_file.png)
 1. Scroll through the menu until your desired homebrew app is highlighted, and press A to install it.
-   ![Installing a Homebrew App](/images/Priiloader/installing_file.png)
-   ![Installing a Homebrew App OK](/images/Priiloader/installing_file_ok.png)
+    ![Installing a Homebrew App](/images/Priiloader/installing_file.png)
+    ![Installing a Homebrew App OK](/images/Priiloader/installing_file_ok.png)
 1. Press B to go back to the main menu.
 1. Scroll down to `Settings` and press A.
-   ![Settings](/images/Priiloader/menu_settings.png)
+    ![Settings](/images/Priiloader/menu_settings.png)
 1. Press Right to cycle through the Autoboot options until `Installed file` is selected.
-   ![Autoboot: Installed File](/images/Priiloader/autoboot_installed_file.png)
+    ![Autoboot: Installed File](/images/Priiloader/autoboot_installed_file.png)
 1. Scroll down to `save settings` and press A.
-   ![Saving Settings](/images/Priiloader/settings_save.png)
+    ![Saving Settings](/images/Priiloader/settings_save.png)
 1. Press B to return to the main menu.
 1. Scroll back up to `System Menu` and press A.
 
@@ -154,15 +154,15 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 
 1. Launch the Homebrew Channel, then launch the Load Priiloader app.
 1. Scroll down to `Settings` and press A.
-   ![Settings](/images/Priiloader/menu_settings.png)
+    ![Settings](/images/Priiloader/menu_settings.png)
 1. Press Right to cycle through the Autoboot options until your desired option is selected. <br>
 `Disabled` will autoboot to the Priiloader menu.
 
-Please don't set Autoboot to `BootMii IOS`. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.
-{: .notice--warning}
+    Please don't set Autoboot to `BootMii IOS`. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.
+    {: .notice--warning}
 
-   ![Autoboot](/images/Priiloader/autoboot_disabled.png)
+    ![Autoboot](/images/Priiloader/autoboot_disabled.png)
 1. Scroll down to `save settings` and press A.
-   ![Saving Settings](/images/Priiloader/settings_save.png)
+    ![Saving Settings](/images/Priiloader/settings_save.png)
 1. Press B to return to the main menu.
 1. Scroll back up to `System Menu` and press A.

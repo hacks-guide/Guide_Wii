@@ -4,16 +4,16 @@ title: "BootMii Recovery"
 
 #### Requirements
 - An earlier NAND Backup made by [BootMii](https://wii.guide/bootmii)
-- ***A GameCube Controller
+- **A GameCube Controller**
 
 #### Important notes
 
-<strong> Restoring a NAND backup is usually a last resort.</strong>
+**Restoring a NAND backup is usually a last resort.**
 
 If you are even able to enter BootMii, enter the Homebrew Channel instead, and try your best to [identify what caused the brick](bricks) and reverse it.
-  * If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is probably a [Wi-Fi Brick](bricks#wi-fi-brick).
+    * If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is probably a [Wi-Fi Brick](bricks#wi-fi-brick).
 
-<strong>Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.</strong>
+**Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.**
 
 Family edition Wiis released very well after [boot1 was patched](https://wiibrew.org/wiki/Wii_Family_Edition#Changes_carried_over_from_previous_revisions), which means you will not have BootMii as boot2.
 
@@ -21,11 +21,11 @@ If you do not have BootMii as boot2, RestoreMii will prompt you for the Konami c
 
 Family edition Wiis do not have ports for GameCube controllers.
 
-<strong>Restoring an unverified NAND backup may lead to a WORSE BRICK.</strong>
+**Restoring an unverified NAND backup may lead to a WORSE BRICK.**
 
 The same also goes for faulty SD cards.
 
-<strong>Want to restore individual data from your NAND backup?</strong>
+**Want to restore individual data from your NAND backup?**
 
 There is likely a much safer and faster way to bring it back to your Wii, likely involving the use of Dolphin Emulator.
 
@@ -46,8 +46,8 @@ on a GameCube controller. To select, press A.
 {: .notice--info}
 
 3. Select the Options button (the icon with the gears).
-   ![BootMii_Gears_Icon](/images/BootMii/BootMii_Gears_Icon.png)
+    ![BootMii_Gears_Icon](/images/BootMii/BootMii_Gears_Icon.png)
 4. Select the RestoreMii button.
-   ![BootMii_Red_Arrow](/images/BootMii/BootMii_Red_Arrow.png)
+    ![BootMii_Red_Arrow](/images/BootMii/BootMii_Red_Arrow.png)
 5. On your GameCube controller, input the Konami code: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 6. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Hit any button on your Wii console or GCN controller.

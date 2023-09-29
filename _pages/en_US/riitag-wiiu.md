@@ -13,7 +13,7 @@ RiiTag is a customizable and dynamic gamertag. By sharing your gamertag (a dynam
 
 - A device capable of interacting with SD cards
 - Softmodded Wii U console with Aroma custom firmware
-  - If you have not softmodded your Wii U yet, [please do so](https://wiiu.hacks.guide). You cannot proceed without.
+    - If you have not softmodded your Wii U yet, [please do so](https://wiiu.hacks.guide). You cannot proceed without.
 - A Discord account
 - The latest release of the [UTag plugin](https://github.com/RiiConnect24/UTag/releases)
 

@@ -115,11 +115,11 @@ This is automatically done based on your PC's time, so you may be able to skip t
 1. Save the file, eject your SD card/USB drive from your PC, and put it back into your Wii U.
 1. Launch the `Load Priiloader` application from the Homebrew Channel.
 1. In the Priiloader menu, go to `System Menu Hacks`.
-   ![System menu hacks](/images/Priiloader/system_menu_hacks.png)
+    ![System menu hacks](/images/Priiloader/system_menu_hacks.png)
 1. Scroll through the list, and press `A` to enable each of these hacks:
-  + `Always Enable WiiConnect24 for vWii`
-  + `Create Message via Calendar button`
-  + `Fix NWC24iSetUniversalTime (UTC.....`
+    + `Always Enable WiiConnect24 for vWii`
+    + `Create Message via Calendar button`
+    + `Fix NWC24iSetUniversalTime (UTC.....`
 1. Scroll down to `save settings`, press `A`, then press `B` to go back.
 1. Select `System Menu.`
 1. Return to the Wii U Menu, then go right back to Wii Mode.

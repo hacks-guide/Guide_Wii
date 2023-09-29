@@ -48,9 +48,9 @@ Or, you can launch the SysCheck Updater Wizard (`SU`) from ModMii's main menu an
 ## HackMii Solutions Wizard
 
 The HackMii Solutions wizard can help fix symptoms like these:
-  - HackMii Installer not prompting "Press (1) to continue"
-  - HackMii Installer says "no vulnerable IOS found!"
-  - Homebrew Channel is displaying upside-down
+    - HackMii Installer not prompting "Press (1) to continue"
+    - HackMii Installer says "no vulnerable IOS found!"
+    - Homebrew Channel is displaying upside-down
 
 It will install clean IOSs to allow for the HackMii Installer to operate properly.
 

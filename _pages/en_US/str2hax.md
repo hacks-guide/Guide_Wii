@@ -44,9 +44,9 @@ If there are 3 fields instead of 2 (like above), go back and make sure you are o
 1. Select `OK` to perform a connection test.
 ![Connection Test](/images/RiiConnect24/Internet_11.png)
 ![Connection Test Successful](/images/RiiConnect24/Internet_12.png)
-   - If the connection test was successful, select `No` to skip the Wii System Update.
-   - If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
-   - If it is still unsuccessful, please [use another exploit](get-started).
+    - If the connection test was successful, select `No` to skip the Wii System Update.
+    - If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
+    - If it is still unsuccessful, please [use another exploit](get-started).
 
 ##### Section II - Triggering the Exploit
 

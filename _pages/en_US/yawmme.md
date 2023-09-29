@@ -25,10 +25,10 @@ This tutorial will show you how to install WADs.
 1. Select the source device that has the WAD file(s) you would like to install.
 ![Selecting source device](/images/yawmME/source_device.png)
 1. Navigate to the folder that has the WAD files.
-  - If you have a folder named `wad`, it will be opened automatically.
+    - If you have a folder named `wad`, it will be opened automatically.
 ![Selecting WAD file](/images/yawmME/file_selection.png)
 1. Navigate to the WAD file you would like to install and press `A`.
-  - If you would like to install multiple WAD files at once, press `+` on each of them, then press `A`.
+    - If you would like to install multiple WAD files at once, press `+` on each of them, then press `A`.
 ![WAD options](/images/yawmME/install_wad.png)
 1. Press A again to install the WAD(s).
 ![Installing WAD](/images/yawmME/installing_wad.png)

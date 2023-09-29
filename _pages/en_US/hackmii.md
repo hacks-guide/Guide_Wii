@@ -21,9 +21,9 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 1. Insert your SD/USB into your PC.
 1. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
-  - If this folder does not exist, create it.
+    - If this folder does not exist, create it.
 1. Insert the SD/USB into your Wii, and launch the `hackmii_installer_v1.2` app from the Homebrew Channel.
-  - The app will not have an icon.
+    - The app will not have an icon.
 
 [Continue to Homebrew Channel and BootMii installation](hbc)
 {: .notice--info}
@@ -44,7 +44,7 @@ To check if your Wii has Priiloader, hold the RESET button while turning it on.
 
 1. Insert your SD/USB into your PC.
 1. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
-  - If this folder does not exist, create it.
+    - If this folder does not exist, create it.
 1. Insert your SD/USB into your Wii.
 1. Enter Priiloader by holding the RESET button while turning on your Wii.
 1. Go to `Load/Install File`.

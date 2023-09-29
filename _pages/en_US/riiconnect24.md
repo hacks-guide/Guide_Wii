@@ -42,17 +42,17 @@ DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick th
 2. Download `RiiConnect24Patcher.bat` if you are on Windows, and `RiiConnect24Patcher.sh` if you are on a Unix system
 3. On Windows run `RiiConnect24Patcher.bat`. On Unix systems, open Terminal and type `bash`, then drag `RiiConnect24Patcher.sh` into the terminal then press enter. It should look like this: `bash RiiConnect24Patcher.sh`.
 4. Press 1 to choose "`Start`" and confirm your selection by pressing `ENTER`. (NOTE: These screenshots are from the Windows version of the patcher.)
-   ![RiiConnect24 Patcher Main Screen](/images/RC24_Patcher/1.JPG)
+    ![RiiConnect24 Patcher Main Screen](/images/RC24_Patcher/1.JPG)
 5. Select the device you're patching for.
-   ![Select your device](/images/RC24_Patcher/2.JPG)
+    ![Select your device](/images/RC24_Patcher/2.JPG)
 6. For this guide, choose "`Install RiiConnect24 on your Wii`"
-   ![Install RiiConnect24](/images/RC24_Patcher/3.JPG)
+    ![Install RiiConnect24](/images/RC24_Patcher/3.JPG)
 7. Choose "`Express (Recommended)`". It will give you everything you need.
-   ![Express Settings](/images/RC24_Patcher/4.JPG)
+    ![Express Settings](/images/RC24_Patcher/4.JPG)
 8. Select your region.
-   ![Select your region](/images/RC24_Patcher/5.JPG)
+    ![Select your region](/images/RC24_Patcher/5.JPG)
 9. While you're at it, RiiConnect24 Patcher can additionally download some other optional channels that do not use RiiConnect24. `[X]` represents the options that selected. Just press 5 and `ENTER` if you're not interested.
-   ![Additional optional channels](/images/RC24_Patcher/6.JPG)
+    ![Additional optional channels](/images/RC24_Patcher/6.JPG)
 10. Connect your SD Card or USB Drive to your computer and select "`1`".
     ![Enable copying to SD Card](/images/RC24_Patcher/7.JPG)
 11. If your device was detected successfully, select "`1`". If not, make sure there's a folder called `apps` on your SD Card or USB Drive and try again.

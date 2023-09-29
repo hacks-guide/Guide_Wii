@@ -71,8 +71,8 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     ![running Wilbrand on Windows](/images/wilbrand/windows.png)
 
 - Linux/MacOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
-  - If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
-  - `/media/mount_dir` is the folder your SD card is mounted in. This may vary depending on your Linux distro.
+    - If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
+    - `/media/mount_dir` is the folder your SD card is mounted in. This may vary depending on your Linux distro.
     ![running Wilbrand on Linux](/images/wilbrand/linux.png)
 
 1.  Extract the HackMii Installer v1.2 to a folder on your PC.
@@ -85,7 +85,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     - Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
     - The mail may have appeared on the previous or next day.
     - If you don't see the green letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii's SD card reader.
-      ![Wilbrand in its natural habitat](/images/wilbrand/msgboard.png)
+    ![Wilbrand in its natural habitat](/images/wilbrand/msgboard.png)
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}
