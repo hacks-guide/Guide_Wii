@@ -11,19 +11,21 @@
  */
 
 @mixin notice($notice-color) {
-  margin: 2em 0 !important; /* override */
+  margin: 2em 0 !important;  /* override*/
   padding: 1em;
+  color: $text-color;
   font-family: $global-font-family;
   font-size: $type-size-6 !important;
-  text-indent: initial; /* override */
-  font-weight: bold;
-  background-color: mix($background-color, $notice-color, 45%);
+  text-indent: initial; /* override*/
+  font-weight: bold; // guide specific
+  background-color: mix($background-color, $notice-color, $notice-background-mix);
   border-radius: $border-radius;
   box-shadow: 0 1px 1px rgba($notice-color, 0.25);
 
   h4 {
-    margin-top: 0 !important; /* override */
+    margin-top: 0 !important; /* override*/
     margin-bottom: 0.75em;
+    line-height: inherit;
   }
 
   @at-root .page__content #{&} h4 {
@@ -34,7 +36,7 @@
 
   p {
     &:last-child {
-      margin-bottom: 0 !important; /* override */
+      margin-bottom: 0 !important; /* override*/
     }
   }
 
@@ -45,22 +47,26 @@
   }
 
   a {
+    // guide specific linking
     color: mix(#fff, $notice-color, 30%);
-    text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      color: mix(#fff, $notice-color, 70%);
     }
   }
+
+  code {
+    background-color: mix($background-color, $notice-color, $code-notice-background-mix)
+  }
+
+	pre code {
+		background-color: inherit;
+	}
 
   ul {
     &:last-child {
-      margin-bottom: 0; /* override */
+      margin-bottom: 0; /* override*/
     }
-  }
-
-  img {
-    padding-top: 15px;
   }
 }
 

@@ -8,7 +8,8 @@
 
 /* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
 
-.hidden {
+.hidden,
+.is--hidden {
   display: none;
   visibility: hidden;
 }
@@ -46,7 +47,7 @@ body:hover .visually-hidden button {
 /* screen readers */
 
 .screen-reader-text:focus,
-.screen-reader-shortcut:focus  {
+.screen-reader-shortcut:focus {
   clip: auto !important;
   height: auto !important;
   width: auto !important;
@@ -59,7 +60,6 @@ body:hover .visually-hidden button {
   text-decoration: none;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 }
-
 
 /*
    Skip links
@@ -78,7 +78,6 @@ body:hover .visually-hidden button {
   width: 0;
   list-style: none;
 }
-
 
 /*
    Type
@@ -104,6 +103,26 @@ body:hover .visually-hidden button {
   white-space: nowrap;
 }
 
+/*
+   Task lists
+   ========================================================================== */
+
+.task-list {
+  padding:0;
+
+  li {
+    list-style-type: none;
+  }
+
+  .task-list-item-checkbox {
+    margin-right: 0.5em;
+    opacity: 1;
+  }
+}
+
+.task-list .task-list {
+  margin-left: 1em;
+}
 
 /*
    Alignment
@@ -111,14 +130,15 @@ body:hover .visually-hidden button {
 
 /* clearfix */
 
-.cf { clear: both; }
+.cf {
+  clear: both;
+}
 
 .wrapper {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
-
 
 /*
    Images
@@ -161,7 +181,7 @@ body:hover .visually-hidden button {
 /* file page content container */
 
 .full {
-  @include breakpoint($large){
+  @include breakpoint($large) {
     margin-right: -1 * span(2.5 of 12) !important;
   }
 }
@@ -184,7 +204,10 @@ body:hover .visually-hidden button {
 /* social icons*/
 
 .social-icons {
-  .fa {
+  .fas,
+  .fab,
+  .far,
+  .fal {
     color: $text-color;
   }
 
@@ -193,17 +216,18 @@ body:hover .visually-hidden button {
     color: $behance-color;
   }
 
-  .fa-bitbucket,
-  .fa-bitbucket-square {
+  .fa-bitbucket {
     color: $bitbucket-color;
   }
 
-  .fa-dribbble {
+  .fa-dribbble,
+  .fa-dribble-square {
     color: $dribbble-color;
   }
 
   .fa-facebook,
-  .fa-facebook-square {
+  .fa-facebook-square,
+  .fa-facebook-f {
     color: $facebook-color;
   }
 
@@ -221,13 +245,16 @@ body:hover .visually-hidden button {
     color: $github-color;
   }
 
-  .fa-google-plus,
-  .fa-google-plus-square {
-    color: $google-plus-color;
+  .fa-gitlab {
+    color: $gitlab-color;
   }
 
   .fa-instagram {
     color: $instagram-color;
+  }
+
+  .fa-keybase {
+    color: $keybase-color;
   }
 
   .fa-lastfm,
@@ -236,14 +263,23 @@ body:hover .visually-hidden button {
   }
 
   .fa-linkedin,
-  .fa-linkedin-square {
+  .fa-linkedin-in {
     color: $linkedin-color;
+  }
+
+  .fa-mastodon,
+  .fa-mastodon-square {
+    color: $mastodon-color;
   }
 
   .fa-pinterest,
   .fa-pinterest-p,
   .fa-pinterest-square {
     color: $pinterest-color;
+  }
+
+  .fa-reddit {
+    color: $reddit-color;
   }
 
   .fa-rss,
@@ -271,7 +307,8 @@ body:hover .visually-hidden button {
   }
 
   .fa-vimeo,
-  .fa-vimeo-square {
+  .fa-vimeo-square,
+  .fa-vimeo-v {
     color: $vimeo-color;
   }
 
@@ -279,9 +316,7 @@ body:hover .visually-hidden button {
     color: $vine-color;
   }
 
-  .fa-youtube,
-  .fa-youtube-square,
-  .fa-youtube-play {
+  .fa-youtube {
     color: $youtube-color;
   }
 
@@ -291,18 +326,18 @@ body:hover .visually-hidden button {
   }
 }
 
-
 /*
-    Navicons
-    ========================================================================== */
+   Navicons
+   ========================================================================== */
 
 .navicon {
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
-  top: ($navicon-height / 2);
-  background: $text-color;
+  background: $primary-color;
   margin: auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 
   &:before,
   &:after {
@@ -311,7 +346,9 @@ body:hover .visually-hidden button {
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: $text-color;
+    background: $primary-color;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
   }
 
   &:before {
@@ -324,91 +361,71 @@ body:hover .visually-hidden button {
 }
 
 .close .navicon {
+  /* hide the middle line*/
   background: transparent;
 
   /* overlay the lines by setting both their top values to 0*/
-  &:before, &:after{
+  &:before,
+  &:after {
     -webkit-transform-origin: 50% 50%;
-        -ms-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
     top: 0;
     width: $navicon-width;
   }
 
   /* rotate the lines to form the x shape*/
-  &:before{
-    -webkit-transform: rotate3d(0,0,1,45deg);
-            transform: rotate3d(0,0,1,45deg);
-  }
-  &:after{
-    -webkit-transform: rotate3d(0,0,1,-45deg);
-            transform: rotate3d(0,0,1,-45deg);
-  }
-}
-
-/*
-    Langicons
-    ========================================================================== */
-
-.langicon {
-  position: relative;
-  width: $navicon-width;
-  display: inline-block;
-  background: transparent;
-  margin: auto;
-  color: $text-color;
-
-  &:before,
-  &:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: $navicon-width;
-    height: $navicon-height;
-    background: $text-color;
-    display: none;
-  }
-
   &:before {
-    top: (-2 * $navicon-height);
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
   }
-
   &:after {
-    bottom: (-2 * $navicon-height);
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+  }
+}
+/* 
+.greedy-nav__toggle {
+  &:before {
+    @supports (pointer-events: none) {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      background-color: $background-color;
+      -webkit-transition: $global-transition;
+      transition: $global-transition;
+      pointer-events: none;
+    }
+  }
+
+  &.close {
+    &:before {
+      opacity: 0.9;
+      -webkit-transition: $global-transition;
+      transition: $global-transition;
+      pointer-events: auto;
+    }
   }
 }
 
-.close .langicon {
-  /* hide the middle line*/
-  background: transparent;
-
-  .fa-language {
-    display: none;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
+.greedy-nav__toggle:hover {
+  .navicon,
+  .navicon:before,
+  .navicon:after {
+    background: mix(#000, $primary-color, 25%);
   }
 
-  /* overlay the lines by setting both their top values to 0*/
-  &:before, &:after{
-    -webkit-transform-origin: 50% 50%;
-        -ms-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    width: $navicon-width;
-    display: inherit;
-  }
-
-  /* rotate the lines to form the x shape*/
-  &:before{
-    -webkit-transform: rotate3d(0,0,1,45deg);
-            transform: rotate3d(0,0,1,45deg);
-  }
-  &:after{
-    top: (-2 * $navicon-height);
-    -webkit-transform: rotate3d(0,0,1,-45deg);
-            transform: rotate3d(0,0,1,-45deg);
+  &.close {
+    .navicon {
+      background: transparent;
+    }
   }
 }
-
+*/
 
 /*
    Sticky, fixed to top content
@@ -427,7 +444,6 @@ body:hover .visually-hidden button {
   }
 }
 
-
 /*
    Wells
    ========================================================================== */
@@ -441,7 +457,6 @@ body:hover .visually-hidden button {
   border-radius: $border-radius;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
-
 
 /*
    Modals
@@ -497,7 +512,6 @@ body:hover .visually-hidden button {
   }
 }
 
-
 /*
    Footnotes
    ========================================================================== */
@@ -510,7 +524,9 @@ body:hover .visually-hidden button {
 .footnotes {
   color: mix(#fff, $gray, 25%);
 
-  ol, li, p {
+  ol,
+  li,
+  p {
     margin-bottom: 0;
     font-size: $type-size-6;
   }
@@ -525,7 +541,6 @@ a.reversefootnote {
   }
 }
 
-
 /*
    Required
    ========================================================================== */
@@ -535,14 +550,14 @@ a.reversefootnote {
   font-weight: bold;
 }
 
-
 /*
    Google Custom Search Engine
    ========================================================================== */
 
 .gsc-control-cse {
-
-  table, tr, td {
+  table,
+  tr,
+  td {
     border: 0; /* remove table borders widget */
   }
 }
@@ -572,26 +587,71 @@ a.reversefootnote {
 
 // full screen video fixes
 :-webkit-full-screen-ancestor {
-   .masthead,
-   .page__footer {
+  .masthead,
+  .page__footer {
     position: static;
   }
 }
 
 /*
-   Ads
-   ========================================================================== */
+    Langicons
+    ========================================================================== */
 
-.adsbygoogle {
-  border-bottom: none;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+.langicon {
+  position: relative;
+  width: $navicon-width;
+  display: inline-block;
+  background: transparent;
+  margin: auto;
+  color: $text-color;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: $navicon-width;
+    height: $navicon-height;
+    background: $text-color;
+    display: none;
+  }
+
+  &:before {
+    top: (-2 * $navicon-height);
+  }
+
+  &:after {
+    bottom: (-2 * $navicon-height);
+  }
 }
+  
+.close .langicon {
+  /* hide the middle line*/
+  background: transparent;
 
-.adsbygoogle:last-child {
-  margin-bottom: 0;
-}
+  .fa-language {
+    display: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
 
-.adsbygoogle:first-child {
-  margin-top: 0;
+  /* overlay the lines by setting both their top values to 0*/
+  &:before, &:after{
+    -webkit-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    width: $navicon-width;
+    display: inherit;
+  }
+
+  /* rotate the lines to form the x shape*/
+  &:before{
+    -webkit-transform: rotate3d(0,0,1,45deg);
+            transform: rotate3d(0,0,1,45deg);
+  }
+  &:after{
+    top: (-2 * $navicon-height);
+    -webkit-transform: rotate3d(0,0,1,-45deg);
+            transform: rotate3d(0,0,1,-45deg);
+  }
 }

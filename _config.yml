@@ -5,23 +5,33 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "nord"
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "nord" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Wii Guide"
+title                    : "Wii Hacks Guide"
 title_separator          : "-"
-name                     : "RiiConnect24"
-description              : "Wii modding guide"
-url                      : "https://wii.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-enforce_ssl              : "wii.guide"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "Nintendo Homebrew"
+description              : "A complete guide to Wii custom firmware"
+url                      : "https://wii.hacks.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+enforce_ssl              : "wii.hacks.guide"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "RiiConnect24/Wii-Guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : # true, false (default)
+repository               : "hacks-guide/Guide_Wii" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+# breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -31,36 +41,47 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  giscus:
+    repo_id              : # Shown during giscus setup at https://giscus.app
+    category_name        : # Full text name of the category
+    category_id          : # Shown during giscus setup at https://giscus.app
+    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : # '1' for enabled (default), '0' for disabled
+    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+reCaptcha:
+  siteKey                :
+  secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-
+  hide                   : # true, false (default)
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
 # SEO Related
-google_site_verification : NJHNJQvHO4NNbW_2IYtDhRIfX5-4kUpwkxsmVfM7S34
-bing_site_verification   : 229FBDF9FE2F1A36CEDFAB9F171C6A4E
-alexa_site_verification  :
+google_site_verification :
+bing_site_verification   :
 yandex_site_verification :
+naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "RiiConnect24"
+  username               :
 facebook:
-  username               : "RiiConnect24"
+  username               :
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -73,48 +94,67 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "UA-72766480-5"
+    tracking_id          : 
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "RiiConnect24"
-  avatar           : "bio-photo.png"
-  bio              : "WiiConnect24 replacement"
-  location         : "United States"
-  email            : "support@riiconnect24.net"
-  uri              : "https://rc24.xyz"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         : "RiiConnect24"
-  foursquare       :
-  github           : "RiiConnect24"
-  google_plus      : "RiiConnect24"
-  keybase          :
-  instagram        : "RiiConnect24"
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
-  twitter          : "RiiConnect24"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : "RiiConnect24"
+  name             : "Nintendo Homebrew"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Nintendo Homebrew Community"
+  location         : "Nullsec"
+  email            :
+  links:
+    # - label: "Email"
+      # icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    # - label: "Website"
+      # icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    # - label: "Twitter"
+      # icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    # - label: "Facebook"
+      # icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hacks-guide/Guide_Wii"
+    # - label: "Instagram"
+      # icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+# Site Footer
+footer:
+  links:
+    # - label: "Twitter"
+      # icon: "fab fa-fw fa-twitter-square"
+      # url:
+    # - label: "Facebook"
+      # icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hacks-guide/Guide_Wii"
+    # - label: "GitLab"
+      # icon: "fab fa-fw fa-gitlab"
+      # url:
+    # - label: "Bitbucket"
+      # icon: "fab fa-fw fa-bitbucket"
+      # url:
+    # - label: "Instagram"
+      # icon: "fab fa-fw fa-instagram"
+      # url:
 
 
 # Reading Files
 include:
- - .htaccess
- - _pages
- - _pages/en_US
+  - .htaccess
+  - _pages
+  - _pages/en_US
 exclude: [
   "*.sublime-project",
   "*.sublime-workspace",
@@ -126,6 +166,7 @@ exclude: [
   assets/js/plugins,
   assets/js/_main.js,
   assets/js/vendor,
+  banner.js,
   Capfile,
   CHANGELOG,
   config,
@@ -134,20 +175,30 @@ exclude: [
   gulpfile.js,
   LICENSE,
   log,
+  minimal-mistakes-jekyll.gemspec,
   node_modules,
   package.json,
+  package-lock.json,
   Rakefile,
   README,
-  tmp,
+  crowdin.yaml,
+  staticman.yml,
+  _pages/af_ZA,
+  _pages/ar_SA,
   _pages/ca_ES,
   _pages/cs_CZ,
   _pages/da_DK,
   # _pages/de_DE,
-  _ pages/el_GR,
+  _pages/el_GR,
+  # _pages/en_US,
+  _pages/es_419,
+  _pages/es_EM,
   # _pages/es_ES,
+  _pages/es_MX,
   _pages/fi_FI,
   # _pages/fr_FR,
   _pages/he_IL,
+  _pages/hu_HU,
   # _pages/it_IT,
   _pages/ja_JP,
   # _pages/ko_KR,
@@ -156,11 +207,15 @@ exclude: [
   # _pages/pl_PL,
   _pages/pt_BR,
   _pages/pt_PT,
+  _pages/ro_RO,
   _pages/ru_RU,
+  _pages/sr_SP,
   _pages/sv_SE,
   # _pages/tr_TR,
+  _pages/uk_UA,
+  _pages/vi_VN,
   # _pages/zh_CN,
-  _pages/zh_TW
+  _pages/zh_TW,
 ]
 
 keep_files:
@@ -193,19 +248,31 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-# Plugins
+
+# Outputting
+# permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+# timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
 plugins:
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-include-cache
 
 
 # Archives
@@ -216,8 +283,8 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
@@ -238,11 +305,12 @@ tag_archive:
 
 
 # HTML Compression
-# - http://jch.penibelst.de/
+# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 # Defaults
 defaults:
@@ -297,17 +365,17 @@ defaults:
       permalink: /el_GR/:basename:output_ext
       lang: el
   - scope:
-      path: "_pages/en_PT"
-      type: pages
-    values:
-      permalink: /en_PT/:basename:output_ext
-      lang: en-PT
-  - scope:
       path: "_pages/en_US"
       type: pages
     values:
       permalink: /:basename:output_ext
       lang: en
+  - scope:
+      path: "_pages/es_MX"
+      type: pages
+    values:
+      permalink: /es_MX/:basename:output_ext
+      lang: es_MX
   - scope:
       path: "_pages/es_ES"
       type: pages
@@ -339,12 +407,6 @@ defaults:
       permalink: /hu_HU/:basename:output_ext
       lang: hu
   - scope:
-      path: "_pages/id_ID"
-      type: pages
-    values:
-      permalink: /id_ID/:basename:output_ext
-      lang: id
-  - scope:
       path: "_pages/it_IT"
       type: pages
     values:
@@ -363,11 +425,11 @@ defaults:
       permalink: /ko_KR/:basename:output_ext
       lang: ko
   - scope:
-      path: "_pages/ms_MY"
+      path: "_pages/nl_NL"
       type: pages
     values:
-      permalink: /ms_MY/:basename:output_ext
-      lang: ms
+      permalink: /nl_NL/:basename:output_ext
+      lang: nl
   - scope:
       path: "_pages/no_NO"
       type: pages
@@ -375,23 +437,11 @@ defaults:
       permalink: /no_NO/:basename:output_ext
       lang: no-NO
   - scope:
-      path: "_pages/nl_NL"
-      type: pages
-    values:
-      permalink: /nl_NL/:basename:output_ext
-      lang: nl
-  - scope:
       path: "_pages/pl_PL"
       type: pages
     values:
       permalink: /pl_PL/:basename:output_ext
       lang: pl
-  - scope:
-      path: "_pages/es_MX"
-      type: pages
-    values:
-      permalink: /es_MX/:basename:output_ext
-      lang: es_MX
   - scope:
       path: "_pages/pt_BR"
       type: pages
@@ -428,12 +478,6 @@ defaults:
     values:
       permalink: /sv_SE/:basename:output_ext
       lang: sv
-  - scope:
-      path: "_pages/th_TH"
-      type: pages
-    values:
-      permalink: /th_TH/:basename:output_ext
-      lang: th
   - scope:
       path: "_pages/tr_TR"
       type: pages
@@ -500,11 +544,6 @@ defaults:
     values:
       permalink: /el_GR/index:output_ext
   - scope:
-      path: "_pages/en_PT/home.md"
-      type: pages
-    values:
-      permalink: /en_PT/index:output_ext
-  - scope:
       path: "_pages/en_US/home.md"
       type: pages
     values:
@@ -514,6 +553,11 @@ defaults:
       type: pages
     values:
       permalink: /es_ES/index:output_ext
+  - scope:
+      path: "_pages/es_MX/home.md"
+      type: pages
+    values:
+      permalink: /es_MX/index:output_ext
   - scope:
       path: "_pages/fi_FI/home.md"
       type: pages
@@ -535,11 +579,6 @@ defaults:
     values:
       permalink: /hu_HU/index:output_ext
   - scope:
-      path: "_pages/id_ID/home.md"
-      type: pages
-    values:
-      permalink: /id_ID/index:output_ext
-  - scope:
       path: "_pages/it_IT/home.md"
       type: pages
     values:
@@ -555,30 +594,20 @@ defaults:
     values:
       permalink: /ko_KR/index:output_ext
   - scope:
-      path: "_pages/ms_MY/home.md"
+      path: "_pages/nl_NL/home.md"
       type: pages
     values:
-      permalink: /ms_MY/index:output_ext
+      permalink: /nl_NL/index:output_ext
   - scope:
       path: "_pages/no_NO/home.md"
       type: pages
     values:
       permalink: /no_NO/index:output_ext
   - scope:
-      path: "_pages/nl_NL/home.md"
-      type: pages
-    values:
-      permalink: /nl_NL/index:output_ext
-  - scope:
       path: "_pages/pl_PL/home.md"
       type: pages
     values:
       permalink: /pl_PL/index:output_ext
-  - scope:
-      path: "_pages/es_MX/home.md"
-      type: pages
-    values:
-      permalink: /es_MX/index:output_ext
   - scope:
       path: "_pages/pt_BR/home.md"
       type: pages
@@ -609,11 +638,6 @@ defaults:
       type: pages
     values:
       permalink: /sv_SE/index:output_ext
-  - scope:
-      path: "_pages/th_TH/home.md"
-      type: pages
-    values:
-      permalink: /th_TH/index:output_ext
   - scope:
       path: "_pages/tr_TR/home.md"
       type: pages
