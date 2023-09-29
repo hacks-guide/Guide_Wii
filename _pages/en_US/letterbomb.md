@@ -2,32 +2,38 @@
 title: "LetterBomb"
 ---
 
-If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
+![LetterBomb](/images/letterbomb.png)
+
+For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
 {: .notice--info}
 
-![LetterBomb](/images/letterbomb.png)
+Do NOT use any of the MAC address examples given in this guide, as they will simply cause an error on the HackMii website. Use your own!
+{: .notice--warning}
 
 LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
 
 #### What you need
-- An SD card formatted to FAT32/MS-DOS
-- A Wii on System Menu version 4.3
+- An SD card formatted as FAT32
+- A Nintendo Wii on System Menu version 4.3
+- A Windows/MacOS/Linux computer with an Internet connection
 
 #### Instructions
 
-1. On your Wii, go to `Wii Settings` -> `Internet` -> `Console Information` and make note of your MAC address.
-1. Visit [please.hackmii.com](https://please.hackmii.com/), input your Wii MAC and region, ensure `Bundle the HackMii Installer for me!` is checked, and cut either wire.
-
+1. On your Wii, go to `Wii Settings`. At this point, take note in the top right corner that you ARE running Wii System Menu version 4.3, as well as the letter next to the system version. This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+![Wii Region](/images/Wii/SystemMenuVersion.png)
+1. Next, go to `Internet` > `Console Information`, and take note of your FULL MAC address.
+![Mac Address](/images/Wii/MacAddress.png)
+1. Visit [the HackMii website](https://please.hackmii.com/) and input your Wii MAC address and region. Ensure `Bundle the HackMii Installer for me!` is checked, and cut either wire.
 ![HackMii Screen](/images/Wii/LetterBomb-PC.png)
+1. Take your SD card, and make sure that it is formatted as FAT32.
 1. Extract the contents of the downloaded ZIP to the root of your SD card.
 1. Take out your SD card and insert it in your Wii.
-   - The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB adapter plugged into the Wii's USB port will not work.
-1. On your Wii, return to the Wii Menu and then open the Wii Message Board.
-1. Load the red letter with a bomb icon.
+   - The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
+1. On your Wii, return to the Wii Menu and then open the Wii Message Board. Then, open the red letter with a bomb.
    - Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
-   - In various scenarios, you may need to look at the previous or next day to find it.
-   - If you don't see the red letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
-   - If your Wii freezes after clicking on the letter, you probably chose the wrong region when downloading the exploit. Redo Step 2 and select the correct region.
+   - In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
+   - If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
+   - If your Wii freezes after clicking on the letter, you most likely chose the wrong system menu region for LetterBomb. Go back to Step 2 and verify that you chose the right region.
 
 ![LetterBomb Wii Menu](/images/Wii/LetterBomb-Wii.png)
 
