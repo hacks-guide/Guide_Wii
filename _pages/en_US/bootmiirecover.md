@@ -1,10 +1,10 @@
 ---
-title: "BootMii Recovery (RestoreMii)"
+title: "BootMii Recovery"
 ---
 
-#### What you need
+#### Requirements
 - An earlier NAND Backup made by [BootMii](https://wii.guide/bootmii)
-- A GameCube Controller*
+- ***A GameCube Controller
 
 #### Important notes
 

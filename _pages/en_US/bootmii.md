@@ -4,19 +4,16 @@ title: "BootMii Backup"
 
 {% include toc title="Table of Contents" %}
 
-If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
-{: .notice--info}
-
 ![BootMii Logo](/images/bootmii.png)
 
 You need an **SD card** to create a NAND backup using BootMii.
 If you do not have one, you can skip this page, although it is highly recommended to make a NAND backup if you can.
 {: .notice--warning}
 
-BootMii as boot2 is recommended, but only available to install on early Wii consoles. Otherwise, it can only be installed as an IOS.
+BootMii installed as boot2 is only available on Wii's shipped before mid-late-2008. If you don't have one of these Wii's, you will need to install as an IOS.
 {: .notice--info}
 
-One of BootMii's most important features is the ability to backup and restore your Wii's NAND storage. We will be going over how to perform a NAND backup. You can then restore from that backup for any reason. It's a good idea to make a NAND backup regularly or before doing something risky to your console (and if you know what you're doing, you won't have to do anything risky).
+BootMii allows for backing up and restoring your Wii's NAND storage. This page will guide you in backing up your Wii's NAND to an SD Card, which you can then use however you like.
 
 #### Requirements
 
@@ -28,7 +25,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 {: .notice--info}
 
 1. Launch the Homebrew Channel.
-1. Press the HOME Button, then select "Launch BootMii".
+2. Press the HOME Button, then select "Launch BootMii".
    ![BootMii_Main](/images/BootMii/BootMii_Main.png)
 
 If the `Launch BootMii` button does not appear, please [re-launch the HackMii Installer](hackmii) and install BootMii. 
@@ -42,17 +39,17 @@ If the screen stays black and the blue disc drive light is blinking, you are mis
 Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 {: .notice--warning}
 
-1. Select the Options button (the icon with the gears).
+3. Select the Options button (the icon with the gears).
    ![BootMii_Gears_Icon](/images/BootMii/BootMii_Gears_Icon.png)
-1. Select the BackupMii button.
+4. Select the first button to the left.
    ![BootMii_Green_Arrow](/images/BootMii/BootMii_Green_Arrow.png)
    - A NAND backup will start. You can watch the progress on the screen.
    - "Bad Blocks" are normal. Don't worry when you see some on a NAND backup.
    - After this step, it will verify the backup. Ideally, all the blocks should be green after the verification process.
 
-1. When the backup is complete, exit the NAND backup screen by pressing any button.
+5. When the backup is complete, exit the NAND backup screen by pressing any button.
    ![BootMii_NAND_Backup](/images/BootMii/BootMii_NAND_Backup.png)
-1. To exit BootMii, press the Back button (the one with the arrow) and then you can press either the Wii Menu button or the Homebrew Channel button to exit where you want to.
+6. To exit BootMii, press the Back button (the one with the arrow) and then you can press either the Wii Menu button or the Homebrew Channel button to exit where you want to.
    ![BootMii_Return_Arrow](/images/BootMii/BootMii_Return_Arrow.png)
 
 <div id="restore-notice" class="notice" markdown="1">
@@ -63,7 +60,7 @@ Please be reminded that <strong>restoring a NAND backup is usually a last resort
 Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
 </div>
 
-To make sure you don’t lose the files, it's recommended to copy `nand.bin` and `keys.bin` from the root of your SD card to your computer.
+Two files will have been created on the root of your SD Card; `nand.bin` and `keys.bin`. `nand.bin` is your Wii's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
 [Continue to Priiloader Installation](priiloader)<br>
