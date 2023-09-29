@@ -7,7 +7,7 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-table.revisiontable {
+  .revisiontable {
     display: grid;
   }
   
@@ -15,9 +15,9 @@ table.revisiontable {
     grid-auto-columns: minmax(0, 1fr);
   }
 
-  table.revisiontable div {
-  border: 1px solid;
-}
+  .revisiontable div {
+    border: 1px solid;
+  }
   
   .r1 { grid-row: 1; }
   .r2 { grid-row: 2; }
