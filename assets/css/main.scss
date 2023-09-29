@@ -15,9 +15,18 @@
     grid-auto-columns: minmax(0, 1fr);
   }
 
+  .auto-grid-height {
+    grid-template-rows: 0fr;
+  }
+
   .revisiontable div {
     border: 1px solid;
   }
+
+  .console-img {
+    margin-top: auto;
+    margin-bottom: auto;
+ }
   
   .r1 { grid-row: 1; }
   .r2 { grid-row: 2; }
