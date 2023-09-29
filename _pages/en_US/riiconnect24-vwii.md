@@ -4,10 +4,10 @@ title: RiiConnect24 vWii Guide
 
 {% include toc title="Table of Contents" %}
 
-If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
-{: .notice--info}
-
 ![RiiConnect24 Logo](/images/WiiRC24Logo.jpg)
+
+For support (in English) with RiiConnect24, as well as RiiTag, join [RiiConnect24 on Discord](https://discord.gg/rc24).
+{: .notice--primary}
 
 Guide to installing [RiiConnect24](https://rc24.xyz) on vWii (Virtual Wii on Wii U).
 
@@ -58,9 +58,6 @@ After following the vWii modding guide linked above, you should have:
 
 ##### Section I - Running the patcher
 
-If you can't run RiiConnect24 Patcher, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net) for further assistance.
-{: .notice--info}
-
 1. Click the RiiConnect24 Patcher link above to go to the GitHub page where the patcher is.
 2. Download `RiiConnect24Patcher.bat` if you are on Windows, and `RiiConnect24Patcher.sh` if you are on a Unix system
 3. On Windows run `RiiConnect24Patcher.bat`. On Unix systems, open Terminal and type `bash`, then drag `RiiConnect24Patcher.sh` into the terminal then press enter. It should look like this: `bash RiiConnect24Patcher.sh`.
@@ -104,10 +101,7 @@ You will now install the patched IOS and Channel WADs that are required to use R
 You will now patch your `nwc24msg.cfg` file which is required in order to use Wii Mail.
 
 1. Launch the RiiConnect24 Mail Patcher from the Homebrew Channel.
-2. It should only take a few seconds to patch your nwc24msg.cfg. When it's done, press the HOME Button to exit.
-
-If you were unable to patch your nwc24msg.cfg correctly, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net) for further assistance.
-{: .notice--info}
+1. It should only take a few seconds to patch your nwc24msg.cfg. When it's done, press the HOME Button to exit.
 
 ##### Section IV - Using RiiConnect24
 

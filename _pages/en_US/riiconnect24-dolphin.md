@@ -6,10 +6,10 @@ title: "RiiConnect24 for Dolphin"
 
 ![RiiConnect24 Logo](/images/WiiRC24Logo.jpg)
 
-This guide will help you install RiiConnect24 on your Dolphin installation.
+For support (in English) with RiiConnect24, as well as RiiTag, join [RiiConnect24 on Discord](https://discord.gg/rc24).
+{: .notice--primary}
 
-If you need help for anything regarding this tutorial, please directly contact KcrPL#4625 on Discord, join the [RiiConnect24 Discord Server](https://discord.gg/rc24) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
-{: .notice--info}
+This guide will help you install RiiConnect24 on your Dolphin installation.
 
 {% capture notice-1 %}
 This guide is for [Dolphin Emulator](https://dolphin-emu.org) only.

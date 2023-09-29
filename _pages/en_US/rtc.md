@@ -2,9 +2,6 @@
 title: "Setting RTC Time"
 ---
 
-If you need help with anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
-{: .notice--info}
-
 You need an Internet connection in order to use this application.
 {: .notice--warning}
 
