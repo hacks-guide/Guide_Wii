@@ -37,10 +37,10 @@ If you have Dolphin already installed, skip to [Section II](#section-ii---instal
 {: .notice--info}
 
 1. Download the latest Dolphin Beta or Development version.
-2. Extract the .7z file using a program like 7-Zip or WinRAR.
-3. Start Dolphin.
-4. In Dolphin, go to `Tools` -> `Perform Online System Update` -> Choose your region.
-![Perform Online System Update](/images/Dolphin_RC24/1.jpg)
+1. Extract the .7z file using a program like 7-Zip or WinRAR.
+1. Start Dolphin.
+1. In Dolphin, go to `Tools` -> `Perform Online System Update` -> Choose your region.
+    ![Perform Online System Update](/images/Dolphin_RC24/1.jpg)
 
 If you have a homebrewed Wii console, you can use a [BootMii NAND dump](bootmii) instead of installing the system files with the System Update option. See [this page](https://wiki.dolphin-emu.org/index.php?title=NAND_Usage_Guide) for more information.
 {: .notice--info}
@@ -51,24 +51,24 @@ If you use a Windows version before Windows 10, you unfortunately cannot use Wii
 {: .notice--danger}
 
 1. Click the link above to go to the GitHub page where the patcher is.
-2. Download `RiiConnect24Patcher.bat` if you are on Windows, and `RiiConnect24Patcher.sh` if you are on a Unix system
-3. On Windows run `RiiConnect24Patcher.bat`. On Unix systems, open Terminal and type `bash`, then drag `RiiConnect24Patcher.sh` into the terminal then press enter. It should look like this: `bash RiiConnect24Patcher.sh`.
-4. Press 1 to choose "`Start`" and confirm your selection by pressing `ENTER`. (NOTE: These screenshots are from the Windows version of the patcher.)
-5. For this guide, choose "`Install RiiConnect24 on your Dolphin Emulator`"
-![Install RiiConnect24](/images/RC24_Patcher/3.JPG)
-6. Choose "`Express (Recommended)`". It will give you everything you need.
-![Express Settings](/images/RC24_Patcher/4.JPG)
-7. Select your region.
-![Select your region](/images/RC24_Patcher/5.JPG)
-8. While you're at it, RiiConnect24 Patcher can additionally download some other optional channels that do not use RiiConnect24. `[X]` represents the options that selected. Just press 5 and `ENTER` if you're not interested.
-![Additional optional channels](/images/RC24_Patcher/6.JPG)
-9. Press `1` then `ENTER` to start patching.
-10. Be patient...
-![It's patching!](/images/RC24_Patcher/9.JPG)
-11. After it's done, we would appreciate if you take a minute to send anonymous feedback to us.  If you don't want to, close the patcher. All the files should already be on your SD Card.
-![It's done!](/images/RC24_Patcher/10.JPG)
-![Files copied](/images/RC24_Patcher/11.PNG)
-12. In Dolphin, go to `Tools` and then `Install WAD`. Install all the WAD files one by one.
+1. Download `RiiConnect24Patcher.bat` if you are on Windows, and `RiiConnect24Patcher.sh` if you are on a Unix system
+1. On Windows run `RiiConnect24Patcher.bat`. On Unix systems, open Terminal and type `bash`, then drag `RiiConnect24Patcher.sh` into the terminal then press enter. It should look like this: `bash RiiConnect24Patcher.sh`.
+1. Press 1 to choose "`Start`" and confirm your selection by pressing `ENTER`. (NOTE: These screenshots are from the Windows version of the patcher.)
+1. For this guide, choose "`Install RiiConnect24 on your Dolphin Emulator`"
+    ![Install RiiConnect24](/images/RC24_Patcher/3.JPG)
+1. Choose "`Express (Recommended)`". It will give you everything you need.
+    ![Express Settings](/images/RC24_Patcher/4.JPG)
+1. Select your region.
+    ![Select your region](/images/RC24_Patcher/5.JPG)
+1. While you're at it, RiiConnect24 Patcher can additionally download some other optional channels that do not use RiiConnect24. `[X]` represents the options that selected. Just press 5 and `ENTER` if you're not interested.
+    ![Additional optional channels](/images/RC24_Patcher/6.JPG)
+1. Press `1` then `ENTER` to start patching.
+1. Be patient...
+    ![It's patching!](/images/RC24_Patcher/9.JPG)
+1. After it's done, we would appreciate if you take a minute to send anonymous feedback to us.  If you don't want to, close the patcher. All the files should already be on your SD Card.
+    ![It's done!](/images/RC24_Patcher/10.JPG)
+    ![Files copied](/images/RC24_Patcher/11.PNG)
+1. In Dolphin, go to `Tools` and then `Install WAD`. Install all the WAD files one by one.
 
 ##### Section III - Setting your Region
 
@@ -80,9 +80,9 @@ If you have imported your Wii's NAND backup, the default Region Select will prob
 1. Download and unzip [AnyGlobe Changer v1.0](https://github.com/fishguy6564/AnyGlobe-Changer/releases/download/1.0/AnyGlobe.Changer.zip).
 1. Drag the `boot.dol` file on to the Dolphin window.
 1. Wait a few seconds, then press 1 to continue.
-![AnyGlobe Changer Warning Screen](/images/Dolphin_RC24/anyglobe-warning.png)
+    ![AnyGlobe Changer Warning Screen](/images/Dolphin_RC24/anyglobe-warning.png)
 1. Select your region and sub-region, then select `Save`, then `Return`.
-![AnyGlobe Changer Main Menu](/images/Dolphin_RC24/anyglobe-save.png)
+    ![AnyGlobe Changer Main Menu](/images/Dolphin_RC24/anyglobe-save.png)
 
 When you go back to the Everybody Votes Channel, the country & region names will appear blank. This is normal.
 {: .notice--info}

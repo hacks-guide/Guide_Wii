@@ -56,10 +56,10 @@ Adding your email to the Address Information (SPD) settings menu will allow the 
 {: .notice--info}
 
 1. Launch Digicam Print Channel from your Wii's home menu.
-2. On the bottom right, press `Address settings` and then `Yes`.
-3. Click on `Email Address` within the Address Information menu and type in your email address. (make sure you **put it in correctly** or it **will not work!**)
-4. Press `OK` and then `Done`.
-5. Once you are back in the Address Information menu, choose `Digicam` in the `Choose Channel` menu. After you’ve done that, it should work!
+1. On the bottom right, press `Address settings` and then `Yes`.
+1. Click on `Email Address` within the Address Information menu and type in your email address. (make sure you **put it in correctly** or it **will not work!**)
+1. Press `OK` and then `Done`.
+1. Once you are back in the Address Information menu, choose `Digicam` in the `Choose Channel` menu. After you’ve done that, it should work!
 
 For PAL (European Wiis)<br>
 In Wii Settings please set TV Resolution to 60 HZ (480p/480i). You can find this in `Screen -> TV Resolution` If you do not, a pink bar will appear at the bottom of the screen obscuring vision.

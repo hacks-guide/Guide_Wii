@@ -62,9 +62,9 @@ To enter it later on, simply run the "Load Priiloader" homebrew app. There are a
 1. Scroll down to `System Menu Hacks` and press `A`.
     ![System Menu Hacks](/images/Priiloader/menu_hacks.png)
 
-If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br>
-This causes Priiloader to fail to find the `hacks_hash.ini` file.
-{: .notice--warning}
+    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br>
+    This causes Priiloader to fail to find the `hacks_hash.ini` file.
+    {: .notice--warning}
 
 1. Press `A` on each hack you would like to enable. We recommend that you enable "Block Disc Updates", "Block Online Updates", and "Region Free EVERYTHING".
     ![System Menu Hacks List](/images/Priiloader/system_menu_hacks.png)
@@ -121,11 +121,11 @@ Priiloader allows you to automatically boot to the Homebrew Channel, an individu
 
 {% capture UNEO %}
 If you would like to autoboot USB loader GX, do this first:
-  * Download the USB Loader GX forwarder WAD ([Wii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad), [vWii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad)).
-  * Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
-  * Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
-  * Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
-  * Copy `uneoboot.dol` to the root of your SD card.
+    * Download the USB Loader GX forwarder WAD ([Wii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad), [vWii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad)).
+    * Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
+    * Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
+    * Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
+    * Copy `uneoboot.dol` to the root of your SD card.
 
 You will be installing `uneoboot.dol` in step 3.
 {% endcapture %}

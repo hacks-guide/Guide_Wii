@@ -39,15 +39,15 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
 {: .notice}
 
 1. Launch the Homebrew Channel.
-2. Press the HOME Button, then select "Launch BootMii".
+1. Press the HOME Button, then select "Launch BootMii".
 
-You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1. To navigate with a GameCube controller, click left/right on the +Control Pad 
-on a GameCube controller. To select, press A.
-{: .notice--info}
+    You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1. To navigate with a GameCube controller, click left/right on the +Control Pad 
+    on a GameCube controller. To select, press A.
+    {: .notice--info}
 
-3. Select the Options button (the icon with the gears).
+1. Select the Options button (the icon with the gears).
     ![BootMii_Gears_Icon](/images/BootMii/BootMii_Gears_Icon.png)
-4. Select the RestoreMii button.
+1. Select the RestoreMii button.
     ![BootMii_Red_Arrow](/images/BootMii/BootMii_Red_Arrow.png)
-5. On your GameCube controller, input the Konami code: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
-6. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Hit any button on your Wii console or GCN controller.
+1. On your GameCube controller, input the Konami code: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
+1. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Hit any button on your Wii console or GCN controller.

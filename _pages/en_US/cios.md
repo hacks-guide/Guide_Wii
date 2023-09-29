@@ -47,59 +47,60 @@ If you are not on Windows, you may download & run [this script](/assets/files/d2
 The WAD files should be on your SD card like this:
 ![offline IOS files](/images/cios/d2x_offline_ios.png)
 {: .notice--info}
+
 ##### Section II - Installing
 
 1. Download the d2x cIOS installer and extract the zip to the root of your SD card or USB drive.
 1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel
 1. Press A to continue, then set the options to the following:
 
-```
-Select cIOS: d2x-v11-beta1
-Select cIOS base: 38
-Select cIOS slot: 248
-Select cIOS version: 65535
-```
+    ```
+    Select cIOS: d2x-v11-beta1
+    Select cIOS base: 38
+    Select cIOS slot: 248
+    Select cIOS version: 65535
+    ```
 
-If `d2x-v11-beta1` isn't showing up, try select the cIOS base first, then check again. This can also happen if your SD card is locked.
-{: .notice--info}
+    If `d2x-v11-beta1` isn't showing up, try select the cIOS base first, then check again. This can also happen if your SD card is locked.
+    {: .notice--info}
 
-![Install cIOS 248](/images/cios/d2x_v11_248.png)
-
-1. Once set, press A twice to install.
-1. When done installing, press A to return, and set the options to the following:
-
-```
-Select cIOS: d2x-v11-beta1
-Select cIOS base: 56
-Select cIOS slot: 249
-Select cIOS version: 65535
-```
-
-![Install cIOS 249](/images/cios/d2x_v11_249.png)
+    ![Install cIOS 248](/images/cios/d2x_v11_248.png)
 
 1. Once set, press A twice to install.
 1. When done installing, press A to return, and set the options to the following:
 
-```
-Select cIOS: d2x-v11-beta1
-Select cIOS base: 57
-Select cIOS slot: 250
-Select cIOS version: 65535
-```
+    ```
+    Select cIOS: d2x-v11-beta1
+    Select cIOS base: 56
+    Select cIOS slot: 249
+    Select cIOS version: 65535
+    ```
 
-![Install cIOS 250](/images/cios/d2x_v11_250.png)
+    ![Install cIOS 249](/images/cios/d2x_v11_249.png)
 
 1. Once set, press A twice to install.
 1. When done installing, press A to return, and set the options to the following:
 
-```
-Select cIOS: d2x-v11-beta1
-Select cIOS base: 58
-Select cIOS slot: 251
-Select cIOS version: 65535
-```
+    ```
+    Select cIOS: d2x-v11-beta1
+    Select cIOS base: 57
+    Select cIOS slot: 250
+    Select cIOS version: 65535
+    ```
 
-![Install cIOS 251](/images/cios/d2x_v11_251.png)
+    ![Install cIOS 250](/images/cios/d2x_v11_250.png)
+
+1. Once set, press A twice to install.
+1. When done installing, press A to return, and set the options to the following:
+
+    ```
+    Select cIOS: d2x-v11-beta1
+    Select cIOS base: 58
+    Select cIOS slot: 251
+    Select cIOS version: 65535
+    ```
+
+    ![Install cIOS 251](/images/cios/d2x_v11_251.png)
 
 1. Once set, press A twice again to install, and then exit once done.
 
@@ -137,6 +138,7 @@ To change the cIOS used for a specific game, follow these instructions:
     - Try using 250 or 251, if 249 doesn't work.
 1. Press Save and try to load the game.
 </div>
+
 ##### Options once complete
 
 [Continue to the Homebrew Browser](hbb)<br>

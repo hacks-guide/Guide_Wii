@@ -27,11 +27,11 @@ Riivolution requires a working disk drive and a clean physical copy of the disk 
 #### Preparing the files
 
 1. Extract Riivolution and put it in the `apps` folder on your SD card or USB drive.
-2. Extract your mod files according to the diagram below to the SD or USB drive. Depending on the mod you downloaded, it may or may not already come properly structured for you.
-3. Insert your SD card and/or USB drive into your Wii and launch Riivolution from the Homebrew Channel.
-4. Insert the disk into the Wii.
+1. Extract your mod files according to the diagram below to the SD or USB drive. Depending on the mod you downloaded, it may or may not already come properly structured for you.
+1. Insert your SD card and/or USB drive into your Wii and launch Riivolution from the Homebrew Channel.
+1. Insert the disk into the Wii.
     * Optional step: you can install the official riivolution forwarder channel to the Wii menu by selecting the install option to the right. This negates the need for having to launch the homebrew channel every time you want to launch riivolution.
-5. Enable the mod and select Launch. Depending on the mod, you may have different options for it.
+1. Enable the mod and select Launch. Depending on the mod, you may have different options for it.
 
 Pay attention to the region your mod is meant for. NTSC is for U.S and Japan, and PAL is for Europe and Korea.
 {: .notice--info}

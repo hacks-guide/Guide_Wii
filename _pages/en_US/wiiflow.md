@@ -41,7 +41,7 @@ WiiFlow can load games from an SD card or a USB drive.
 ##### Downloading
 
 1. Extract WiiFlow and put the `apps` and `WiiFlow` folders on your USB drive or SD card.
-2. Insert your USB drive, and SD card if you're using one, into your Wii and launch WiiFlow from the Homebrew Channel.
+1. Insert your USB drive, and SD card if you're using one, into your Wii and launch WiiFlow from the Homebrew Channel.
 
 ##### Getting Started
 
