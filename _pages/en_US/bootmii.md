@@ -25,7 +25,7 @@ If the screen stays black and the blue disc drive light is blinking upon launchi
 
 #### Requirements
 
-- An SD card with a minimum 512MB of free space, 1GB or more recommended
+* An SD card with a minimum 512MB of free space, 1GB or more recommended
 
 #### Instructions
 
@@ -34,17 +34,17 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 1. Launch the Homebrew Channel.
 1. Press the HOME Button, then select "Launch BootMii".
-   ![BootMii_Main](/images/bootmii/BootMii_Main.png)
+    ![BootMii_Main](/images/bootmii/BootMii_Main.png)
 1. Select the Options button (the icon with the gears).
-   ![BootMii_Gears_Icon](/images/bootmii/BootMii_Gears_Icon.png)
+    ![BootMii_Gears_Icon](/images/bootmii/BootMii_Gears_Icon.png)
 1. Select the first button to the left. A NAND backup will start. You can watch the progress on the screen.
-   ![BootMii_Green_Arrow](/images/bootmii/BootMii_Green_Arrow.png)
-   - "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup.
-   - After this step, it will verify the backup. Ideally, all the blocks should be green after the verification process.
+    ![BootMii_Green_Arrow](/images/bootmii/BootMii_Green_Arrow.png)
+    + "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup.
+    + After this step, it will verify the backup. Ideally, all the blocks should be green after the verification process.
 1. When the backup is complete, exit the NAND backup screen by pressing any button.
-   ![BootMii_NAND_Backup](/images/bootmii/BootMii_NAND_Backup.png)
+    ![BootMii_NAND_Backup](/images/bootmii/BootMii_NAND_Backup.png)
 1. To exit BootMii, press the Back button (the one with an arrow) and then you can press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
-   ![BootMii_Return_Arrow](/images/bootmii/BootMii_Return_Arrow.png)
+    ![BootMii_Return_Arrow](/images/bootmii/BootMii_Return_Arrow.png)
 
 <div id="restore-notice" class="notice" markdown="1">
 To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover).

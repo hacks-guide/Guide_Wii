@@ -4,9 +4,6 @@ title: "Creating Wii Game Shortcuts"
 
 {% include toc title="Table of Contents" %}
 
-If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
-{: .notice--info}
-
 Do you use a USB Loader and want to create game shortcuts to launch them on your Wii Menu? Then try WiiGSC (Wii Game Shortcut Creator), previously known as Crap.
 
 In the case of a brick, [installing Priiloader is a must](/priiloader). Also, install BootMii (as Boot2 if you have an early Wii). Installing brick protection along with following the guide correctly should keep you safe from bricks. DO NOT CONTINUE UNTIL YOU HAVE INSTALLED PRIILOADER AND BOOTMII!
@@ -26,10 +23,10 @@ Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It
 #### Instructions
 
 1. Install WiiGSC, then right click on it and choose **Run as administrator**. If you do not do this, WiiGSC will throw an error when you open it.
-![Home menu](/images/desktop-apps/wiigsc/wiigsc-home.png)
-2. Select the path to the ISO or WBFS file on your USB drive, and select the USB Loader you use. The other options should be fine the way they are.
-![After selecting the file](/images/desktop-apps/wiigsc/wiigsc-selection.png)
-3. Install the generated WAD with your WAD manager.
+    ![Home menu](/images/desktop-apps/wiigsc/wiigsc-home.png)
+1. Select the path to the ISO or WBFS file on your USB drive, and select the USB Loader you use. The other options should be fine the way they are.
+    ![After selecting the file](/images/desktop-apps/wiigsc/wiigsc-selection.png)
+1. Install the generated WAD with your WAD manager.
 
 <div class="notice--info">
 If you get an error saying "The system files are corrupted", don't panic as long as you installed Priiloader.

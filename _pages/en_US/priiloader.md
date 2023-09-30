@@ -4,9 +4,6 @@ title: "Priiloader"
 
 {% include toc title="Table of Contents" %}
 
-If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
-{: .notice--info}
-
 Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also enable hacks for your Wii Menu, and be used to quickly launch the Homebrew Channel, BootMii, or whatever homebrew you want!
 
 ### Installing Priiloader
@@ -16,21 +13,21 @@ Priiloader adds a level of brick protection to your Wii. It loads before the Wii
 {% capture notice-vwii-priiloader %}
 Priiloader 0.10.0 introduces vWii support! <br>
 There are some important things to take note of:
-- To fix the timestamp issues (FORE000006, wrong News Channel update time), you will need to [generate a timestamp fix hack](https://garyodernichts.github.io/priiloader-patch-gen/). More info on the page.
-- Installing a theme after installing Priiloader **will brick your vWii.**
++ To fix the timestamp issues (FORE000006, wrong News Channel update time), you will need to [generate a timestamp fix hack](https://garyodernichts.github.io/priiloader-patch-gen/). More info on the page.
++ Installing a theme after installing Priiloader **will brick your vWii.**
 
 And some things to enhance your vWii experience:
-- [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) to load Priiloader straight from the Wii U Menu. **This only works on Aroma.**
-- [evWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases) to enhance some extra features for vWii. The features are listed [here](https://github.com/GaryOderNichts/evwii#features).
++ [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) to load Priiloader straight from the Wii U Menu. **This only works on Aroma.**
++ [evWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases) to enhance some extra features for vWii. The features are listed [here](https://github.com/GaryOderNichts/evwii#features).
 {% endcapture %}
 
 <div class="notice--success" markdown="1">{{ notice-vwii-priiloader }} </div>
 
 #### What you need
 
-- An SD card or USB drive
-- [Priiloader installer](https://oscwii.org/library/app/priiloader)
-- [LoadPriiloader](https://oscwii.org/library/app/loadpriiloader)
+* An SD card or USB drive
+* [Priiloader installer](https://oscwii.org/library/app/priiloader)
+* [LoadPriiloader](https://oscwii.org/library/app/loadpriiloader)
 
 #### Instructions
 
@@ -44,18 +41,18 @@ And some things to enhance your vWii experience:
 1. Launch the Homebrew Channel on your Wii.
 1. Launch the Priiloader installer.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
-   ![Install Priiloader](/images/Priiloader/installer.png)
-   ![Installing](/images/Priiloader/installing.png)
+    ![Install Priiloader](/images/Priiloader/installer.png)
+    ![Installing](/images/Priiloader/installing.png)
 1. Press A to return to the Homebrew Channel.
 
 ##### Section III - Entering Priiloader
 
 Priiloader will appear automatically after you install it. Simply exit the Homebrew Channel, and you should see the Priiloader menu:
-   ![Priiloader Menu](/images/Priiloader/menu.png)
+    ![Priiloader Menu](/images/Priiloader/menu.png)
 
 To enter it later on, simply run the "Load Priiloader" homebrew app. There are also other ways to enter Priiloader:
-- Holding RESET on a Wii while turning it on.
-- Holding the ESC key on a USB keyboard while turning on the console.
++ Holding RESET on a Wii while turning it on.
++ Holding the ESC key on a USB keyboard while turning on the console.
 
 ### Configuring Priiloader
 
@@ -63,11 +60,11 @@ To enter it later on, simply run the "Load Priiloader" homebrew app. There are a
 
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 1. Scroll down to `System Menu Hacks` and press `A`.
-   ![System Menu Hacks](/images/Priiloader/menu_hacks.png)
+    ![System Menu Hacks](/images/Priiloader/menu_hacks.png)
 
-If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br>
-This causes Priiloader to fail to find the `hacks_hash.ini` file.
-{: .notice--warning}
+    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br>
+    This causes Priiloader to fail to find the `hacks_hash.ini` file.
+    {: .notice--warning}
 
 1. Press `A` on each hack you would like to enable. We recommend that you enable "Block Disc Updates", "Block Online Updates", and "Region Free EVERYTHING".
     ![System Menu Hacks List](/images/Priiloader/system_menu_hacks.png)
@@ -124,11 +121,11 @@ Priiloader allows you to automatically boot to the Homebrew Channel, an individu
 
 {% capture UNEO %}
 If you would like to autoboot USB loader GX, do this first:
-  * Download the USB Loader GX forwarder WAD ([Wii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad), [vWii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad)).
-  * Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
-  * Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
-  * Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
-  * Copy `uneoboot.dol` to the root of your SD card.
+    * Download the USB Loader GX forwarder WAD ([Wii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad), [vWii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad)).
+    * Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
+    * Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
+    * Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
+    * Copy `uneoboot.dol` to the root of your SD card.
 
 You will be installing `uneoboot.dol` in step 3.
 {% endcapture %}
@@ -137,17 +134,17 @@ You will be installing `uneoboot.dol` in step 3.
 
 1. Launch the Homebrew channel, then launch the Load Priiloader app.
 1. Scroll down to `Load/Install file` and press A.
-   ![Load/Install File](/images/priiloader/menu_install_file.png)
+    ![Load/Install File](/images/priiloader/menu_install_file.png)
 1. Scroll through the menu until your desired homebrew app is highlighted, and press A to install it.
-   ![Installing a Homebrew App](/images/priiloader/installing_file.png)
-   ![Installing a Homebrew App OK](/images/priiloader/installing_file_ok.png)
+    ![Installing a Homebrew App](/images/priiloader/installing_file.png)
+    ![Installing a Homebrew App OK](/images/priiloader/installing_file_ok.png)
 1. Press B to go back to the main menu.
 1. Scroll down to `Settings` and press A.
-   ![Settings](/images/priiloader/menu_settings.png)
+    ![Settings](/images/priiloader/menu_settings.png)
 1. Press Right to cycle through the Autoboot options until `Installed file` is selected.
-   ![Autoboot: Installed File](/images/priiloader/autoboot_installed_file.png)
+    ![Autoboot: Installed File](/images/priiloader/autoboot_installed_file.png)
 1. Scroll down to `save settings` and press A.
-   ![Saving Settings](/images/priiloader/settings_save.png)
+    ![Saving Settings](/images/priiloader/settings_save.png)
 1. Press B to return to the main menu.
 1. Scroll back up to `System Menu` and press A.
 
@@ -157,15 +154,15 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 
 1. Launch the Homebrew Channel, then launch the Load Priiloader app.
 1. Scroll down to `Settings` and press A.
-   ![Settings](/images/priiloader/menu_settings.png)
+    ![Settings](/images/priiloader/menu_settings.png)
 1. Press Right to cycle through the Autoboot options until your desired option is selected. <br>
 `Disabled` will autoboot to the Priiloader menu.
 
-Please don't set Autoboot to `BootMii IOS`. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.
-{: .notice--warning}
+    Please don't set Autoboot to `BootMii IOS`. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.
+    {: .notice--warning}
 
-   ![Autoboot](/images/priiloader/autoboot_disabled.png)
+    ![Autoboot](/images/priiloader/autoboot_disabled.png)
 1. Scroll down to `save settings` and press A.
-   ![Saving Settings](/images/priiloader/settings_save.png)
+    ![Saving Settings](/images/priiloader/settings_save.png)
 1. Press B to return to the main menu.
 1. Scroll back up to `System Menu` and press A.

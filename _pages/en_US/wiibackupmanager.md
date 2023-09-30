@@ -4,10 +4,8 @@ title: "Wii Backup Manager"
 
 {% include toc title="Table of Contents" %}
 
-If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
-{: .notice--info}
-
 Wii Backup Manager is a program to copy Wii games from your computer to a USB drive so you can play the games on your Wii. It also can download game covers from [GameTDB](https://gametdb.com/) and can be used to list what games you have. This tutorial will tell you how to copy over games from your computer to your USB drive. The other features are able to be used in the easy-to-use interface.
+
 #### What you need
 
 * A PC running Windows
@@ -39,14 +37,14 @@ You may format it as NTFS, but it won't work with a majority of apps (eg. The Ho
 ##### Section II - Copying Games Over
 
 1. Go to the `Drive 1` tab, then select the drive that you're putting the Wii games on.
-![Select drive](/images/desktop-apps/WBM/select_drive.png)
+    ![Select drive](/images/desktop-apps/WBM/select_drive.png)
 1. Go to the `Files` tab, then select `Add`. <br>
 Select `Files` to add multiple games to the program, or select `Folder` to add a whole folder of games.
-![Select games](/images/desktop-apps/WBM/select_games.png)
+    ![Select games](/images/desktop-apps/WBM/select_games.png)
 1. Go to `Select`, then click `Games not on drive 1`.
-![Highlight games](/images/desktop-apps/WBM/select_games2.png)
+    ![Highlight games](/images/desktop-apps/WBM/select_games2.png)
 1. Select `Transfer`, then select `Drive 1` to transfer the games over. It might take a while for the games to copy over.
-![Transfer games](/images/desktop-apps/WBM/transfer_todrive.png)
+    ![Transfer games](/images/desktop-apps/WBM/transfer_todrive.png)
 
 ##### Options once complete
 

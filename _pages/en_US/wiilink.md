@@ -16,9 +16,9 @@ If you installed it previously, please follow the instructions to update it.
 
 #### What you need
 
-- An SD card or USB drive
-- A Wii with an Internet connection
-- A Windows, macOS, or Linux computer
+* An SD card or USB drive
+* A Wii with an Internet connection
+* A Windows, macOS, or Linux computer
 
 #### Instructions
 
@@ -43,7 +43,7 @@ On Linux, open a Terminal, type `bash ` (space included), then drag the file ont
 1. Select your SD card or USB drive accordingly.
 1. If your Wii is not a Japanese region, install `WiiLink_SPD (Wii).wad` or `WiiLink_SPD (vWii).wad` (Depending on console platform) before anything else. This is required so that we know your email address to send files.
 1. Highlight all other WADs with `WiiLink` in the name and press + to select them. When all of them are selected, press A twice to install the WADs.
-    - If you have previously installed the RiiConnect24 versions of the Forecast Channel and the Nintendo Channel, installing WiiLink's will overwrite them.
+    + If you have previously installed the RiiConnect24 versions of the Forecast Channel and the Nintendo Channel, installing WiiLink's will overwrite them.
 
 1. After they are successfully installed, press the HOME Button to exit back to the Homebrew Channel.
 
@@ -56,10 +56,10 @@ Adding your email to the Address Information (SPD) settings menu will allow the 
 {: .notice--info}
 
 1. Launch Digicam Print Channel from your Wii's home menu.
-2. On the bottom right, press `Address settings` and then `Yes`.
-3. Click on `Email Address` within the Address Information menu and type in your email address. (make sure you **put it in correctly** or it **will not work!**)
-4. Press `OK` and then `Done`.
-5. Once you are back in the Address Information menu, choose `Digicam` in the `Choose Channel` menu. After you’ve done that, it should work!
+1. On the bottom right, press `Address settings` and then `Yes`.
+1. Click on `Email Address` within the Address Information menu and type in your email address. (make sure you **put it in correctly** or it **will not work!**)
+1. Press `OK` and then `Done`.
+1. Once you are back in the Address Information menu, choose `Digicam` in the `Choose Channel` menu. After you’ve done that, it should work!
 
 For PAL (European Wiis)<br>
 In Wii Settings please set TV Resolution to 60 HZ (480p/480i). You can find this in `Screen -> TV Resolution` If you do not, a pink bar will appear at the bottom of the screen obscuring vision.
