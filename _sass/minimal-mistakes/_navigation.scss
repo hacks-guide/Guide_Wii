@@ -191,14 +191,18 @@
       color: $masthead-link-color-hover;
     }
 
-    // &.site-logo {
-      // margin-left: 0;
-      // margin-right: 0.5rem;
-    // }
+/* hacks-guide change start: disable site logo, site title */
+    /*
+    &.site-logo {
+      margin-left: 0;
+      margin-right: 0.5rem;
+    }
 
-    // &.site-title {
-      // margin-left: 0;
-    // }
+    &.site-title {
+      margin-left: 0;
+    }
+    */
+/* hacks-guide change end */
   }
   
   img{
@@ -216,6 +220,7 @@
     cursor: pointer;
   }
 
+/* hacks-guide change start: add language selector */
   &__toggle_lang {
     -ms-flex-item-align: center;
     align-self: center;
@@ -225,14 +230,17 @@
     background-color: transparent;
     cursor: pointer;
   }
+/* hacks-guide change end */
 
   .visible-links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+/* hacks-guide change start: s/end/start */
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+/* hacks-guide change end */
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -333,9 +341,11 @@
     }
   }
 
+/* hacks-guide change start: adjust links-menu position */
   .links-menu{
     right: 2rem;
   }
+/* hacks-guide change end */
 
 }
 
@@ -458,10 +468,9 @@
 
   a {
     color: inherit;
-    // line-height: 1.6;
   }
 
-  // progress list, guide-specific
+/* hacks-guide change start: Add progress table */
   ol {
     padding-left: 0.9rem;
   }
@@ -474,15 +483,16 @@
     color: $gray;
     text-decoration: line-through;
   }
-  // end guide-specific
+/* hacks-guide change end */
 
+/* hacks-guide change start: disable padding on active */
   .active {
     // margin-left: -0.5em;
     // padding-left: 0.5em;
     // padding-right: 0.5em;
     font-weight: bold;
   }
-
+/* hacks-guide change end */
 
   @include breakpoint(max-width $large - 1px) {
     position: relative;

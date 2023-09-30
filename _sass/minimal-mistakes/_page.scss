@@ -98,7 +98,7 @@ body {
 			-moz-transition: opacity 0.2s ease-in-out 0.1s;
 			-o-transition: opacity 0.2s ease-in-out 0.1s;
 			transition: opacity 0.2s ease-in-out 0.1s;
-      user-select: none;
+      user-select: none; /* hacks-guide change: do not change link colour as it hurts readability */
 		}
 
 		&:hover .header-link {

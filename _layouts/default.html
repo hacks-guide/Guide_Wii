@@ -9,13 +9,13 @@
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 
-<!-- for guide purposes all caching is removed and is separately built. -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
+<!-- hacks-guide change start: Disable caching -->
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include skip-links.html %}
     {% include browser-upgrade.html %}
@@ -37,6 +37,7 @@
         {% include footer.html %}
       </footer>
     </div>
+<!-- hacks-guide change end -->
 
     {% include scripts.html %}
 

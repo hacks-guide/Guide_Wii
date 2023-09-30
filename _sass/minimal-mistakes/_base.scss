@@ -6,10 +6,12 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
+/* hacks-guide change start: add Nord skin */
   ::selection {
     color: $text-color;
     background: $text-highlight-color;
   }
+/* hacks-guide change end */
 }
 
 body {

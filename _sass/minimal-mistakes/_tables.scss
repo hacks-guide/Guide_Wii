@@ -3,13 +3,13 @@
    ========================================================================== */
 
 table {
-  display: table;
+  display: table; /* hacks-guide change */
   margin-bottom: 1em;
   width: 100%;
   font-family: $global-font-family;
   font-size: $type-size-6;
   border-collapse: collapse;
-  border: 1px solid $light-gray; // guide-specific
+  border: 1px solid $light-gray; /* hacks-guide change */
   overflow-x: auto;
 
   & + table {
@@ -19,24 +19,26 @@ table {
 
 thead {
   background-color: $border-color;
+/* hacks-guide change start */
   // border-bottom: 2px solid mix(#000, $border-color, 25%);
-  // guide-specific
   border-bottom: 1px solid $light-gray;
+/* hacks-guide change end */
 }
 
 th {
   padding: 0.5em;
   font-weight: bold;
   text-align: left;
-  border-right: 1px solid $light-gray; // guide-specific
+  border-right: 1px solid $light-gray; /* hacks-guide change */
 }
 
 td {
   padding: 0.5em;
+/* hacks-guide change start */
   // border-bottom: 1px solid mix(#000, $border-color, 25%);
-  // guide-specific
   border-bottom: 1px solid $light-gray;
   border-right: 1px solid $light-gray;
+/* hacks-guide change end */
 }
 
 tr,

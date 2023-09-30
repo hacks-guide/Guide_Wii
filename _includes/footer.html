@@ -11,16 +11,21 @@
         {% endif %}
       {% endfor %}
     {% endif %}
+
+<!-- hacks-guide change start: force disable atom feed-->
 <!--
     {% unless site.atom_feed.hide %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
     {% endunless %}
     </ul>
   -->
+<!-- hacks-guide change end -->
+
 </div>
 
-<!-- custom footer, guide specific -->
+<!-- hacks-guide change start: custom footer -->
 {% assign split_path = page.path | split: "/" %}
 {% assign locale = split_path[1] %}
 {% assign titles = site.data.navigation[locale].footer %}
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. - <a href="site-navigation">{{ titles[1].title }}</a> - <a href="privacy-policy">{{ titles[2].title }}</a> <!-- {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<!-- hacks-guide change end -->

@@ -4,6 +4,8 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2015 Luke Jackson
 */
 
+/* hacks-guide change: add language selector, remove logo */
+
 $(function() {
 
   var $btn = $("nav.greedy-nav .greedy-nav__toggle");

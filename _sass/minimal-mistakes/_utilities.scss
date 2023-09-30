@@ -384,6 +384,8 @@ body:hover .visually-hidden button {
     transform: rotate3d(0, 0, 1, -45deg);
   }
 }
+
+/* hacks-guide change start: disable toggle effects on navigation as it breaks the site in some cases */
 /* 
 .greedy-nav__toggle {
   &:before {
@@ -426,6 +428,7 @@ body:hover .visually-hidden button {
   }
 }
 */
+/* hacks-guide change end */
 
 /*
    Sticky, fixed to top content
@@ -593,6 +596,7 @@ a.reversefootnote {
   }
 }
 
+/* hacks-guide change start: Add language selector */
 /*
     Langicons
     ========================================================================== */
@@ -655,3 +659,4 @@ a.reversefootnote {
             transform: rotate3d(0,0,1,-45deg);
   }
 }
+/* hacks-guide change end */

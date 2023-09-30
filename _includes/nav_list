@@ -1,3 +1,4 @@
+<!-- hacks-guide change start: Refactor entire subsection to allow using translations -->
 {% assign split_path = page.path | split: "/" %}
 {% assign locale = split_path[1] %}
 {% if locale == 'en_US' %}
@@ -30,3 +31,4 @@
     </li>
   </ul>
 </nav>
+<!-- hacks-guide change end -->
