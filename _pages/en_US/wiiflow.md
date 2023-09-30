@@ -4,7 +4,7 @@ title: "WiiFlow"
 
 {% include toc title="Table of Contents" %}
 
-![WiiFlow](/images/wiiflowlogo.png)
+![WiiFlow](/images/homebrew/wiiflow/wiiflowlogo.png)
 
 This is a quick start guide on how to use WiiFlow, a USB loader for the Wii that's used to play games from a USB drive or SD card.
 
@@ -70,7 +70,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 + Disc - Loads game that is in disc drive.
 + House - Will open this menu. This menu can also be launched by pressing the home button.
 
-![WF_menu](images/WFmenu.png)
+![WF_menu](images/homebrew/wiiflow/WFmenu.png)
 
 + Help Guide - Shows all the controls you can use in WiiFlow.
 + Reload Cache - Press this when WiiFlow is not detecting a new game on the USB drive or SD card.

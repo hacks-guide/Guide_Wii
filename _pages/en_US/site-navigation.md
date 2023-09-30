@@ -4,7 +4,7 @@ layout: single
 sitemap: false
 ---
 
-![WiiTutorials](/images/WiiTutorials.jpg)
+![WiiTutorials](/images/main-pages/Wii_Green.jpg)
 
 {% capture notice-1 %}
 **Featured**
@@ -48,7 +48,6 @@ sitemap: false
 + [Relaunching the HackMii Installer](hackmii)
 + [str2hax](str2hax)
 + [Types of Bricks](bricks)
-+ [Wii Mod Lite](wiimodlite)
 + [Wilbrand](wilbrand)
 + [YAWM ModMii Edition](yawmme)
 

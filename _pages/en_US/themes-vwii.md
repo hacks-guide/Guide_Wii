@@ -76,9 +76,9 @@ There are a couple of ways to get the .app files for your vWii System Menu, in t
 
 After selecting the correct version to download, check the box for `Create Decrypted Contents (*.app)`. Then, press the `Start NUS Download` Button on the top of the window.
 
-![The database menu in NUS Downloader.](/images/Themes-vWii/NUSD-vWii_preview-database.png)
+![The database menu in NUS Downloader.](/images/themes-vwii/NUSD-vWii_preview-database.png)
 
-![The main menu of NUS downloader without the database menu open.](/images/Themes-vWii/NUSD-vWii_sysmenu-versions.png)
+![The main menu of NUS downloader without the database menu open.](/images/themes-vwii/NUSD-vWii_sysmenu-versions.png)
 
 After the download has finished, search for the .app file corresponding to your region in the folder where NUS Downloader is.
 
@@ -100,7 +100,7 @@ After you find the .app file, copy it to the main directory of the folder contai
 1. Click on `Create CSM` and select the .app file that you copied to the ThemeMii folder.
 1. Now navigate to the `theme` folder on your SD card and save your theme with the .csm extension.
 
-![ThemeMii Menu](/images/Themes-vWii/ThemeMii-Mod-Preview_vWii.png)
+![ThemeMii Menu](/images/themes-vwii/ThemeMii-Mod-Preview_vWii.png)
 
 ##### Section IV - Installing the Theme
 

@@ -25,3 +25,4 @@ Select the exploit that corresponds to your console and situation the best; if t
 | Wii/Wii Family Edition  | If you can use an SD card: Proceed to [Letterbomb](letterbomb)<br> If you cannot use an SD card: Proceed to [str2hax](str2hax) |
 | Wii Mini | Proceed to [Bluebomb](bluebomb) |
 | Wii U (vWii)  | If you have not modded your Wii U yet:<br> Proceed to [Introduction (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/)<br> If your Wii U is already modded:<br> Proceed to [vWii Modding (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/vwii-modding) |
+| Dolphin Emulator | Proceed to [Homebrew Channel on Dolphin](homebrew-dolphin) |

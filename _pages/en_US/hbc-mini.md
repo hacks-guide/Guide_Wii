@@ -4,7 +4,7 @@ title: "Homebrew Channel - for Wii mini only"
 
 {% include toc title="Table of Contents" %}
 
-![HBC Logo](/images/hbc.png)
+![HBC Logo](/images/homebrew/hbc/hbc.png)
 
 The Homebrew Channel is where you will go to launch homebrew applications.
 

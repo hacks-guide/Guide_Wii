@@ -8,7 +8,7 @@ Priiloader adds a level of brick protection to your Wii. It loads before the Wii
 
 ### Installing Priiloader
 
-![Priiloader icon](/images/Priiloader/icon.png)
+![Priiloader icon](/images/priiloader/icon.png)
 
 {% capture notice-vwii-priiloader %}
 Priiloader 0.10.0 introduces vWii support! <br>
@@ -134,17 +134,17 @@ You will be installing `uneoboot.dol` in step 3.
 
 1. Launch the Homebrew channel, then launch the Load Priiloader app.
 1. Scroll down to `Load/Install file` and press A.
-    ![Load/Install File](/images/Priiloader/menu_install_file.png)
+    ![Load/Install File](/images/priiloader/menu_install_file.png)
 1. Scroll through the menu until your desired homebrew app is highlighted, and press A to install it.
-    ![Installing a Homebrew App](/images/Priiloader/installing_file.png)
-    ![Installing a Homebrew App OK](/images/Priiloader/installing_file_ok.png)
+    ![Installing a Homebrew App](/images/priiloader/installing_file.png)
+    ![Installing a Homebrew App OK](/images/priiloader/installing_file_ok.png)
 1. Press B to go back to the main menu.
 1. Scroll down to `Settings` and press A.
-    ![Settings](/images/Priiloader/menu_settings.png)
+    ![Settings](/images/priiloader/menu_settings.png)
 1. Press Right to cycle through the Autoboot options until `Installed file` is selected.
-    ![Autoboot: Installed File](/images/Priiloader/autoboot_installed_file.png)
+    ![Autoboot: Installed File](/images/priiloader/autoboot_installed_file.png)
 1. Scroll down to `save settings` and press A.
-    ![Saving Settings](/images/Priiloader/settings_save.png)
+    ![Saving Settings](/images/priiloader/settings_save.png)
 1. Press B to return to the main menu.
 1. Scroll back up to `System Menu` and press A.
 
@@ -154,15 +154,15 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 
 1. Launch the Homebrew Channel, then launch the Load Priiloader app.
 1. Scroll down to `Settings` and press A.
-    ![Settings](/images/Priiloader/menu_settings.png)
+    ![Settings](/images/priiloader/menu_settings.png)
 1. Press Right to cycle through the Autoboot options until your desired option is selected. <br>
 `Disabled` will autoboot to the Priiloader menu.
 
     Please don't set Autoboot to `BootMii IOS`. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.
     {: .notice--warning}
 
-    ![Autoboot](/images/Priiloader/autoboot_disabled.png)
+    ![Autoboot](/images/priiloader/autoboot_disabled.png)
 1. Scroll down to `save settings` and press A.
-    ![Saving Settings](/images/Priiloader/settings_save.png)
+    ![Saving Settings](/images/priiloader/settings_save.png)
 1. Press B to return to the main menu.
 1. Scroll back up to `System Menu` and press A.
