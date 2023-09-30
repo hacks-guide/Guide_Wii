@@ -11,7 +11,9 @@ title: "BootMii Recovery"
 **Restoring a NAND backup is usually a last resort.**
 
 If you are even able to enter BootMii, enter the Homebrew Channel instead, and try your best to [identify what caused the brick](bricks) and reverse it.
-    * If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is probably a [Wi-Fi Brick](bricks#wi-fi-brick).
+
+If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is probably a [Wi-Fi Brick](bricks#wi-fi-brick).
+{: .notice--info}
 
 **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.**
 

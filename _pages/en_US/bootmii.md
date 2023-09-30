@@ -57,6 +57,8 @@ To restore from a NAND backup on your SD card, you can follow the instructions f
 Please be reminded that <strong>restoring a NAND backup is usually a last resort,</strong> and that there often better ways to fix your brick.
 
 Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
+
+It is also not possible to restore NAND backups on Family Edition Wiis, due to a lack of GameCube controller ports and BootMii as boot2.
 </div>
 
 Two files will have been created on the root of your SD Card; `nand.bin` and `keys.bin`. `nand.bin` is your Wii's internal memory, while `keys.bin` are your console's keys.
