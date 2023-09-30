@@ -7,7 +7,7 @@ If you need help for anything regarding this tutorial, please join [the RiiConne
 
 If you no longer wish to use RSSMii (maybe because it gives you too much Wii Mail), here's how to remove it.
 
-![Removing RSSMii](/images/rssmii-remove.png)
+![Removing RSSMii](/images/homebrew/rssmii/rssmii-remove.png)
 
 #### What you need
 

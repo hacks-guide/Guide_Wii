@@ -2,10 +2,7 @@
 title: "Wilbrand"
 ---
 
-If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
-{: .notice--info}
-
-![Wilbrand](/images/wilbrand/icon.png)
+![Wilbrand](/images/exploits/wilbrand/icon.png)
 
 Wilbrand, like LetterBomb, is an exploit for the Wii that is triggered using the Wii Message Board.
 
@@ -30,7 +27,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 1.  On your Wii, go to `Wii Settings`, and make note of the version at the top right. Proceed to `Internet` -> `Console Information` and also make note of your MAC address.
 1.  Visit [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/), input your Wii MAC, version, region, ensure `Bundle the HackMii Installer for me!` is checked, and cut either wire.
-![Wilbrand Web](/images/wilbrand/web.png)
+![Wilbrand Web](/images/exploits/wilbrand/web.png)
 1.  Click on "Download your .zip".
 1.  Extract the contents of the downloaded ZIP to the root of your SD card.
 1.  Take out your SD card and insert it in your Wii.
@@ -40,7 +37,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     - Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
     - The mail may have appeared on the previous or next day.
     - If you don't see the green letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii's SD card reader.
-      ![Wilbrand in its natural habitat](/images/wilbrand/msgboard.png)
+      ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
 
 If this didn't work for you, [try another exploit](get-started) or try [Wilbrand CLI](#wilbrand-cli).
 
@@ -71,12 +68,12 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 - Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
 
   - `X:` is the drive letter of your SD card.
-    ![running Wilbrand on Windows](/images/wilbrand/windows.png)
+    ![running Wilbrand on Windows](/images/exploits/wilbrand/windows.png)
 
 - Linux/MacOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
   - If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
   - `/media/mount_dir` is the folder your SD card is mounted in. This may vary depending on your Linux distro.
-    ![running Wilbrand on Linux](/images/wilbrand/linux.png)
+    ![running Wilbrand on Linux](/images/exploits/wilbrand/linux.png)
 
 1.  Extract the HackMii Installer v1.2 to a folder on your PC.
     - You may also simply open the zip file in your archive manager.
@@ -88,7 +85,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     - Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
     - The mail may have appeared on the previous or next day.
     - If you don't see the green letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii's SD card reader.
-      ![Wilbrand in its natural habitat](/images/wilbrand/msgboard.png)
+      ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}

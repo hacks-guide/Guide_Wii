@@ -7,7 +7,7 @@ title: RiiConnect24 vWii Guide
 If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
 {: .notice--info}
 
-![RiiConnect24 Logo](/images/WiiRC24Logo.jpg)
+![RiiConnect24 Logo](/images/riiconnect24/WiiRC24Logo.jpg)
 
 Guide to installing [RiiConnect24](https://rc24.xyz) on vWii (Virtual Wii on Wii U).
 
@@ -40,7 +40,7 @@ We are **NOT** responsible if you brick, or damage your console in any way whats
 * A Wii U with [the vWii modded](https://wiiu.hacks.guide/#/vwii-modding). **This guide requires the latest CFW on your Wii U.**
 * A Nintendo Network ID (NNID) linked to your Wii U
 * [Priiloader](priiloader) installed on your vWii
-* [RiiConnect24 Patcher (Windows, Mac and Linux)](https://github.com/RiiConnect24/RiiConnect24-Patcher/releases)
+* [RiiConnect24 Patcher (Windows, Mac and Linux)](https://github.com/riiconnect24/RiiConnect24-Patcher/releases)
 * [RiiConnect24 Mail Patcher](https://oscwii.org/library/app/Mail-Patcher)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
@@ -65,26 +65,26 @@ If you can't run RiiConnect24 Patcher, please join [the RiiConnect24 Discord ser
 2. Download `RiiConnect24Patcher.bat` if you are on Windows, and `RiiConnect24Patcher.sh` if you are on a Unix system
 3. On Windows run `RiiConnect24Patcher.bat`. On Unix systems, open Terminal and type `bash`, then drag `RiiConnect24Patcher.sh` into the terminal then press enter. It should look like this: `bash RiiConnect24Patcher.sh`.
 4. Press 1 to choose "`Start`" and confirm your selection by pressing `ENTER`. (NOTE: These screenshots are from the Windows version of the patcher.)
-![RiiConnect24 Patcher Main Screen](/images/RC24_Patcher/1.JPG)
+![RiiConnect24 Patcher Main Screen](/images/riiconnect24/patcher/1.JPG)
 5. Select "`2. Wii U (vWii, Wii Mode)`".
-![Select your device](/images/RC24_Patcher/2.JPG)
+![Select your device](/images/riiconnect24/patcher/2.JPG)
 6. For this guide, choose "`Install RiiConnect24 on your Wii`"
-![Install RiiConnect24](/images/RC24_Patcher/3.JPG)
+![Install RiiConnect24](/images/riiconnect24/patcher/3.JPG)
 7. Choose "`Express (Recommended)`". It will give you everything you need.
-![Express Settings](/images/RC24_Patcher/4.JPG)
+![Express Settings](/images/riiconnect24/patcher/4.JPG)
 8. Select your region.
-![Select your region](/images/RC24_Patcher/5.JPG)
+![Select your region](/images/riiconnect24/patcher/5.JPG)
 9. While you're at it, RiiConnect24 Patcher can additionally download some other optional channels that do not use RiiConnect24. `[X]` represents the options that selected. Just press 5 and `ENTER` if you're not interested.
-![Additional optional channels](/images/RC24_Patcher/6.JPG)
+![Additional optional channels](/images/riiconnect24/patcher/6.JPG)
 10. Connect your SD Card or USB Drive to your computer and select "`1`".
-![Enable copying to SD Card](/images/RC24_Patcher/7.JPG)
+![Enable copying to SD Card](/images/riiconnect24/patcher/7.JPG)
 11. If your device was detected successfully, select "`1`". If not, make sure there's a folder called `apps` on your SD Card or USB Drive and try again.
-![Successfully detected](/images/RC24_Patcher/8.JPG)
+![Successfully detected](/images/riiconnect24/patcher/8.JPG)
 12. Be patient...
-![It's patching!](/images/RC24_Patcher/9.JPG)
+![It's patching!](/images/riiconnect24/patcher/9.JPG)
 13. After it's done, we would appreciate if you take a minute to send anonymous feedback to us.  If you don't want to, close the patcher. All the files should already be on your SD Card.
-![It's done!](/images/RC24_Patcher/10.JPG)
-![Files copied](/images/RC24_Patcher/11.PNG)
+![It's done!](/images/riiconnect24/patcher/10.JPG)
+![Files copied](/images/riiconnect24/patcher/11.PNG)
 14. If it did not copy everything automatically to your SD Card or USB Device, copy the `WAD` and `apps` folder next to `RiiConnect24Patcher.bat` to your SD Card or USB Device.
 
 ##### Section II - Installing WADs

@@ -4,10 +4,7 @@ title: "YAWM ModMii Edition"
 
 {% include toc title="Table of Contents" %}
 
-If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
-{: .notice--info}
-
-![yawmME icon](/images/yawmME/icon.png)
+![yawmME icon](/images/homebrew/yawmME/icon.png)
 
 YAWM ModMii Edition is an application that can install WADs and launch homebrew applications.
 This tutorial will show you how to install WADs.
@@ -26,13 +23,13 @@ This tutorial will show you how to install WADs.
 #### Section II - Installing WADs
 
 1. Select the source device that has the WAD file(s) you would like to install.
-![Selecting source device](/images/yawmME/source_device.png)
+![Selecting source device](/images/homebrew/yawmME/source_device.png)
 1. Navigate to the folder that has the WAD files.
   - If you have a folder named `wad`, it will be opened automatically.
-![Selecting WAD file](/images/yawmME/file_selection.png)
+![Selecting WAD file](/images/homebrew/yawmME/file_selection.png)
 1. Navigate to the WAD file you would like to install and press `A`.
   - If you would like to install multiple WAD files at once, press `+` on each of them, then press `A`.
-![WAD options](/images/yawmME/install_wad.png)
+![WAD options](/images/homebrew/yawmME/install_wad.png)
 1. Press A again to install the WAD(s).
-![Installing WAD](/images/yawmME/installing_wad.png)
-![Installing WAD OK](/images/yawmME/installing_wad_ok.png)
+![Installing WAD](/images/homebrew/yawmME/installing_wad.png)
+![Installing WAD OK](/images/homebrew/yawmME/installing_wad_ok.png)

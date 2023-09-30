@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Nintendo Homebrew"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : # path of avatar image, e.g. "/assets/images/site-config/bio-photo.jpg"
   bio              : "Nintendo Homebrew Community"
   location         : "Nullsec"
   email            :

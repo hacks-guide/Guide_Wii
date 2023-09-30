@@ -41,7 +41,7 @@ For the original Wii, we do not recommend using BlueBomb if you intend to instal
 1. Open the Terminal
 1. Run the following commands:
 ```bash
-wget https://wii.guide/assets/files/bluebomb-helper.sh
+wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
 chmod +x bluebomb-helper.sh
 ./bluebomb-helper.sh
 ```

@@ -2,7 +2,7 @@
 title: "LetterBomb"
 ---
 
-![LetterBomb](/images/letterbomb.png)
+![LetterBomb](/images/exploits/letterbomb/letterbomb.png)
 
 For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
 {: .notice--info}
@@ -19,12 +19,12 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
 
 #### Instructions
 
-1. On your Wii, go to `Wii Settings`. At this point, take note in the top right corner that you ARE running Wii System Menu version 4.3, as well as the letter next to the system version. This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
-![Wii Region](/images/Wii/SystemMenuVersion.png)
+1. On your Wii, go to `Wii Settings`. At this point, take note in the top right corner of the letter next to the system version. This letter corresponds to your system menu region, which you will need to know for the corresponding steps. Also, ensure that you are on System Menu version 4.3.
+![Wii Region](/images/wii/SystemMenuVersion.png)
 1. Next, go to `Internet` > `Console Information`, and take note of your FULL MAC address.
-![Mac Address](/images/Wii/MacAddress.png)
+![Mac Address](/images/wii/MacAddress.png)
 1. Visit [the HackMii website](https://please.hackmii.com/) and input your Wii MAC address and region. Ensure `Bundle the HackMii Installer for me!` is checked, and cut either wire.
-![HackMii Screen](/images/Wii/LetterBomb-PC.png)
+![HackMii Screen](/images/exploits/letterbomb/LetterBomb-PC.png)
 1. Take your SD card, and make sure that it is formatted as FAT32.
 1. Extract the contents of the downloaded ZIP to the root of your SD card.
 1. Take out your SD card and insert it in your Wii.
@@ -35,7 +35,7 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
    - If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
    - If your Wii freezes after clicking on the letter, you most likely chose the wrong system menu region for LetterBomb. Go back to Step 2 and verify that you chose the right region.
 
-![LetterBomb Wii Menu](/images/Wii/LetterBomb-Wii.png)
+![LetterBomb Wii Menu](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}

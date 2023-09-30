@@ -26,9 +26,9 @@ Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It
 #### Instructions
 
 1. Install WiiGSC, then right click on it and choose **Run as administrator**. If you do not do this, WiiGSC will throw an error when you open it.
-![Home menu](/images/wiigsc/2023-08-21_20-15-34.png)
+![Home menu](/images/desktop-apps/wiigsc/wiigsc-home.png)
 2. Select the path to the ISO or WBFS file on your USB drive, and select the USB Loader you use. The other options should be fine the way they are.
-![After selecting the file](/images/wiigsc/WiiGSC_2023-08-21_20-11-00.png)
+![After selecting the file](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 3. Install the generated WAD with your WAD manager.
 
 <div class="notice--info">

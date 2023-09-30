@@ -9,7 +9,7 @@ If you need help for anything regarding this tutorial, please join [the RiiConne
 
 Do you want to get RSS feed updates on your Wii Message Board? This tutorial will tell you how to set RSSMii up.
 
-![RSSMii](/images/rssmii.png)
+![RSSMii](/images/homebrew/rssmii/rssmii.png)
 
 #### What you need
 

@@ -3,7 +3,7 @@ layout: splash
 title: "Wii Hacks Guide"
 header:
   overlay_color: "#5e616c"
-  overlay_image: /images/home-page-feature.jpg
+  overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
 excerpt: "The complete guide to modding your Nintendo Wii."
