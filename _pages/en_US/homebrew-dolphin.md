@@ -33,14 +33,3 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
     ![Apps Folder](/images/homebrew-dolphin/apps-folder.png)
 1. Load the Wii Menu and open the Homebrew Channel. Your newly installed apps should appear!
     ![Homebrew Channel Apps Appearing!](/images/homebrew-dolphin/hbc-apps.png)
-
-
-### Post-Installation, installing Priiloader
-
-1. If you installed the Open Shop Channel via Homebrew Browser already, you should be able to install Priiloader directly from there. Otherwise, install it manually using similar instructions to the above.
-1. Launch the Homebrew Channel, then launch the Priiloader installer. Give it a few seconds to prepare, then press + or A to install.
-1. Once the installer finishes, stop the emulation (return to loader may not work correctly).
-    ![Priiloader Installer](/images/homebrew-dolphin/priiloader-installer.png)
-1. Launch the Wii Menu and the Homebrew Channel again.
-1. Press the HOME button, then select Exit to System menu. At this point, the Priiloader menu should open!
-    ![Priiloader Menu](/images/homebrew-dolphin/priiloader.png)

@@ -18,9 +18,9 @@ These steps will help you softmod your Wii, from stock to BootMii. Before starti
 
 ### Select your exploit
 
-Select the exploit that corresponds to your console and situation the best; if the reccomended option does not work for you, check out [alternative exploits]
+Select the exploit that corresponds to your console and situation the best. If the recommended option does not work for you, or if you are curious about other exploits, check out [Legacy Exploits](legacy-exploits).
 
-| Console Revision  | Reccomended Exploit |
+| Console Revision  | Recommended Exploit |
 | ----------------- | ------------------- |
 | Wii/Wii Family Edition  | If you can use an SD card: Proceed to [Letterbomb](letterbomb)<br> If you cannot use an SD card: Proceed to [str2hax](str2hax) |
 | Wii Mini | Proceed to [Bluebomb](bluebomb) |
