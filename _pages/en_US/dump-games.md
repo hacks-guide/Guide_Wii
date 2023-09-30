@@ -28,9 +28,9 @@ Want to dump a GameCube or a Wii disk? There are two ways of doing so, depending
 1. Select your device that you will be dumping the game to - your USB drive or SD card.
     ![Device type](/images/homebrew/CleanRip/2.png)
 1. On this screen, it asks you if you want to download a file with game checksums so you can verify the dump created is a 1:1 copy of the disc. It's your choice whether to say `Yes` or `No` to download this file.
-    [DAT](/images/homebrew/CleanRip/3.png)
+    ![DAT](/images/homebrew/CleanRip/3.png)
 1. Now insert the game you want to dump.
-    [DVD](/images/homebrew/CleanRip/4.png)
+    ![DVD](/images/homebrew/CleanRip/4.png)
     ![Initialising Disc](/images/homebrew/CleanRip/5.png)
 1. Set it as shown on the screen below.
 
