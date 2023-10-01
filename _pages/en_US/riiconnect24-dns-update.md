@@ -2,6 +2,8 @@
 title: "RiiConnect24 DNS Update"
 ---
 
+{% include toc title="Table of Contents" %}
+
 ![RiiConnect24 Logo](/images/logo_blue_warning.png)
 
 For support (in English) with RiiConnect24, as well as RiiTag, join [RiiConnect24 on Discord](https://discord.gg/rc24).

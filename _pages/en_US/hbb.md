@@ -2,6 +2,8 @@
 title: "Open Shop Channel (Homebrew Browser)"
 ---
 
+{% include toc title="Table of Contents" %}
+
 For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
 {: .notice--primary}
 
