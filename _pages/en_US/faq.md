@@ -2,8 +2,6 @@
 title: "FAQ"
 ---
 
-![RiiConnect24 Wii Logo Yellow](/images/main-pages/Wii_Yellow_Gray.jpg)
-
 ### How risky is hacking my console?
 Bricks (a state where either some parts of your Wii software are not working, or your Wii is not working at all) are extremely rare unless you ignore/circumvent all safety checks, or do something risky or naive like installing an older version of the Wii Menu. Make sure you install [BootMii](bootmii) and [Priiloader](priiloader) to protect yourself from bricks!
 

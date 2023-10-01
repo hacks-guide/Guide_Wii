@@ -65,8 +65,6 @@ sitemap: false
 + [Performing a SysCheck](syscheck)
 + [Playing Wii Game Mods](riivolution)
 + [Removing RSSMii](rssmii-remove)
-+ [RiiTag](riitag)
-+ [RiiTag on Wii U](riitag-wiiu)
 + [Setting RTC Time](rtc)
 + [Updating Wii Menu to v4.3](update)
 + [USB Loader GX](usbloadergx)
