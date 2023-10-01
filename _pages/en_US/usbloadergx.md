@@ -9,7 +9,7 @@ This is a quick start guide on how to use USB Loader GX, a popular USB loader fo
 Despite its name, USB Loader GX is also capable of loading games from an SD Card.
 {: .notice--info}
 
-![USB Loader GX](/images/usbloadergx.png)
+![USB Loader GX](/images/homebrew/USBLoaderGX/usbloadergx.png)
 
 #### What you need
 

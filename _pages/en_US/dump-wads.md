@@ -19,13 +19,13 @@ This tutorial will explain you how to dump WADs from your Wii System Memory.
 ##### Section II - Dumping
 
 1. Press the A Button.
-    ![Press A](/images/DumpWADS/2.png)
+    ![Press A](/images/homebrew/DumpWADS/1.png)
 
 1. Choose `Installed Channel Titles`.
-    ![Installed Channel Titles](/images/DumpWADS/3.png)
+    ![Installed Channel Titles](/images/homebrew/DumpWADS/2.png)
 
 1. Find the content you want to dump and press the 1 Button.
-    ![Find channel](/images/DumpWADS/4.png)
+    ![Find channel](/images/homebrew/DumpWADS/3.png)
 
 1. Choose `Backup to WAD`.
 1. At the prompt to `Fakesign the ticket`, choose `Yes`.
@@ -33,4 +33,4 @@ This tutorial will explain you how to dump WADs from your Wii System Memory.
 1. At the prompt to `Change the output WAD region`, choose `No`.
 
 You have now dumped that WAD. It should appear on your SD card.
-![Done](/images/DumpWADS/5.png)
+![Done](/images/homebrew/DumpWADS/4.png)

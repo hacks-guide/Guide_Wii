@@ -4,7 +4,7 @@ title: "Wiimmfi"
 
 {% include toc title="Table of Contents" %}
 
-![Wiimmfi Logo](/images/WiiWiimmfiLogo.jpg)
+![Wiimmfi Logo](/images/wiimmfi/WiiWiimmfiLogo.jpg)
 
 [Wiimmfi](https://wiimmfi.de) is a replacement service for the now-defunct Nintendo Wi-Fi Connection. It has been developed by Wiimm and Leseratte.
 
