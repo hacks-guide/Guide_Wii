@@ -230,14 +230,5 @@ PhillyG has put together a collection of custom tracks and hacks called MKW Hack
 
 Wiimm and Leseratte make a custom track distribution called "Wiimms MKW Fun", which gets updated about three times a year. It is based on the LE-CODE framework by Leseratte, has Wiimmfi support, and lots of other features. You can find out more about it on its [wiki page](http://wiki.tockdom.com/wiki/Wiimms_Mario_Kart_Fun).
 
-[Continue to RiiConnect24](riiconnect24)<br>
-RiiConnect24 allows you to use discontinued services from WiiConnect24, which include the News, Forecast, Everybody Votes, Nintendo and Check Mii Out Channel, along with Wii Mail. This is optional to install.
-{: .notice--info}
-
-[Continue to WiiLink](wiilink)<br>
-WiiLink lets you use the Japanese-exclusive channels known as Wii no Ma and Digicam Print Channel. This is optional to install.
-{: .notice--info}
-
-[Continue to site navigation](site-navigation)<br>
-We have many other tutorials that you might like.
+[Return to site index](site-navigation)<br>
 {: .notice--info}

@@ -103,6 +103,5 @@ If you have previously placed an order, skip to step 4.
 
 **_Happy ordering!_**
 
-[Continue to site navigation](site-navigation)<br>
-We have many other tutorials that you might like.
+[Return to site index](site-navigation)<br>
 {: .notice--info}

@@ -60,7 +60,7 @@ To enter it later on, simply run the "Load Priiloader" homebrew app. There are a
     This causes Priiloader to fail to find the `hacks_hash.ini` file.
     {: .notice--warning}
 
-1. Press `A` on each hack you would like to enable. We recommend that you enable "Block Disc Updates", "Block Online Updates", and "Region Free EVERYTHING".
+1. Press `A` on each hack you would like to enable. This guide advises you to enable "Block Disc Updates", "Block Online Updates", and "Region Free EVERYTHING".
     ![System Menu Hacks List](/images/priiloader/system_menu_hacks.png)
 1. Scroll down to `save settings` and press `A`.
 1. Press `B` to return to the main menu.

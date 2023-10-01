@@ -154,36 +154,27 @@ Screen shows up as listed below on normal boot.
 ![Error 003](/images/bricks/error-003.png)
 
 #### Cause
-
-This brick happens when a non-Korean Wii Menu on 4.2 or 4.3 detects that the Korean common key is present.
+When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. While obviously this failed, they also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. If this check succeeds, the error triggers and the Wii is effectively bricked.
 
 This is usually an immediate follow-up to a Wii System Update on an unsuspecting region-changed Korean Wii.
-#### Solutions
 
+#### Solutions
 Since this brick most often occurs after the Wii Menu updates, Priiloader will not be present.
 
 Korean Wiis also released with Wii Menu 3.3, around the time that Nintendo [fixed the Trucha bug in boot1](https://wiibrew.org/wiki/3.3#Changes), so BootMii as Boot2 cannot be installed to or used on any Korean Wii.
 
-While this brick is infamous and hard to fix, **it is still fixable**. This involves one of two solutions.
-
-##### Recovery Mode
-
-See [recovery mode](recovery-mode.md).
-
-##### BlueBomb
-
-If you have a drive chip on hand, [BlueBomb](bluebomb) is accessible. It is not known exactly why one is needed to use it, but without one, BlueBomb cannot progress past stage 0.
+While these caveats leave the Wii in a particularly dangerous situation, **it is still fixable**. This involves going into [Recovery Mode](recovery-mode), where an exploit can be triggered in order to gain access to the Homebrew Channel and revert the conditions that caused the brick.
 
 ## IOS brick
 
 #### Symptoms
-This brick will appear identical to a low-level brick due to a Wii Menu failure via IOS; however there is not a full low-level NAND corruption, or a low-level hardware failure. Due to this, BootMii as boot2 is still bootable.
+This brick will appear identical to a low-level brick due to a Wii Menu failure via IOS; however there is not a full low-level NAND corruption, or a low-level hardware failure.
 
 #### Cause
-This brick happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS). This is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii Mini, see [Wi-Fi brick](wi-fi-brick).
+This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS). This is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii Mini, see [Wi-Fi brick](wi-fi-brick).
 
 #### Solutions
-You must have BootMii as boot2 to fix this. Recovery mode is not accessible due to a broken IOS, and Priiloader will not work. If these conditions are not met, see [low-level brick](bricks#low-level-brick).
+[Recovery mode](recovery-mode) may or may not be accessible due to the nature of the brick, but Priiloader will almost always not work. If you cannot reach recovery mode, you must have BootMii as boot2 to fix this. If these conditions are not met, see [low-level brick](bricks#low-level-brick).
 
 You can either restore a NAND backup, or do this:
 
@@ -196,8 +187,7 @@ You can either restore a NAND backup, or do this:
 This brick appears identical to a low-level brick, however you can still power on the Wii with a Wiimote, and you can still boot into Recovery Mode on an original revision Wii.
 
 #### Cause
-This brick arises when your Wii's Wi-Fi (or Bluetooth) module is damaged or not inserted properly.
-In such cases, the Wii gets stuck on a black screen while awaiting a response from IOS.
+This brick arises when your Wii's Wi-Fi (or Bluetooth) module is damaged or not inserted properly. In such cases, the Wii gets stuck on a black screen while awaiting a response from IOS.
 
 This will also happen on the Wii Mini if you install a normal Wii IOS, because the Wii Mini doesn't have a Wi-Fi module.
 
@@ -211,7 +201,7 @@ If both fail, see [low-level brick](bricks#low-level-brick).
 ## Low-level brick
 
 #### Symptoms
-Completely black screen, no response to user input. Recovery Mode cannot be booted.
+Completely black screen, no response to user input. Recovery Mode cannot be booted, neither can BootMii as boot2 (or it never existed in the first place), for all intents and purposes the console appears dead.
 
 #### Cause
 This brick occurs when boot1/boot2 is corrupt, or if there is a hardware failure.
@@ -223,4 +213,4 @@ First, troubleshooting must be done to determine if hardware is at fault. In the
 + If on a Wii Mini, and if a normal IOS80 was installed, see [Wi-Fi brick](wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
 + Attempt to boot into [Recovery Mode](recovery-mode) (normal Wiis only). If the Wii boots into Recovery Mode, see [Wi-Fi brick](wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
 + Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
-+ At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Good luck.
++ At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.

@@ -20,7 +20,7 @@ Despite its name, USB Loader GX is also capable of loading games from an SD Card
 Make sure you have installed [cIOS](/cios) before following this!
 {: .notice--info}
 
-We recommend you copy games over with [Wii Backup Manager](/wiibackupmanager) if you use Windows, [Witgui](https://desairem.com/wordpress/category/witgui-download/) if you use macOS, or [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion) for Windows, macOS, and Linux.
+To copy game backups over, use [Wii Backup Manager](/wiibackupmanager) if you use Windows, [Witgui](https://desairem.com/wordpress/category/witgui-download/) if you use macOS, or [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion) for Windows, macOS, and Linux.
 {: .notice--info}
 
 If you want to play games that are in NKit format, use [this program](https://gbatemp.net/download/nkit.36157/) to convert them to ISO first.
@@ -29,7 +29,7 @@ If you want to play games that are in NKit format, use [this program](https://gb
 If you are not copying games using Wii Backup Manager, Witgui, or Wii Backup Fusion, make a folder on the root of the USB drive or SD card named "wbfs" and put the games in there.
 {: .notice--info}
 
-To play games, we recommend using an external hard drive for your Wii. Flash drives are not recommended, and may vary in behavior even between the same product.
+To play games, you are advised to use a large SD card or an external hard drive, flash drives are very sporadic in functionality. See [storage FAQ](faq).
 {: .notice--info}
 
 Make sure your USB drive is formatted as FAT32. Do not format it as other types such as exFAT or extFS. <br>
@@ -86,6 +86,5 @@ There are also other buttons:
 
 On the middle of the bottom of the screen, you can see how much space is free on your USB drive and how many games you have.
 
-[Continue to site navigation](site-navigation)<br>
-We have many other tutorials that you might like.
+[Return to site index](site-navigation)<br>
 {: .notice--info}

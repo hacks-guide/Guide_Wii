@@ -12,12 +12,13 @@ This is a quick start guide on how to use Nintendont, a popular loader for the W
 * An SD card or USB drive
 * [Nintendont](https://oscwii.org/library/app/Nintendont)
 
-We recommend you copy games over with [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases) if you use Windows.
-
-To play games, we recommend using an external hard drive for your Wii. Flash drives are not recommended, and may vary in behavior even between the same product.
+If your main operating system is Windows, [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases) works the best.
 {: .notice--info}
 
-Make sure your USB drive is formatted as FAT32. Do not format it as other types such as exFAT or NTFS.
+To play games, you are advised to use a large SD card or an external hard drive, flash drives are very sporadic in functionality. See [storage FAQ](faq).
+{: .notice--info}
+
+Make sure your storage device is formatted as FAT32. Do not format it to other file systems like NTFS, exFAT, or WBFS.
 {: .notice--info}
 
 
@@ -42,6 +43,5 @@ There is no "guide" to use Nintendont. This is intended to help you learn how to
 + You can use a fan-made patch to enable online play in some games.
 + You can use USB Loader GX or WiiFlow to play GameCube games there.
 
-[Continue to site navigation](site-navigation)<br>
-We have many other tutorials that you might like.
+[Return to site index](site-navigation)<br>
 {: .notice--info}

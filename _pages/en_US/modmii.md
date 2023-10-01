@@ -122,6 +122,5 @@ When following one of the exploit guides above, please avoid replacing the `boot
 
 </details>
 
-[Continue to site navigation](site-navigation)<br>
-We have many other tutorials that you might like.
+[Return to site index](site-navigation)<br>
 {: .notice--info}

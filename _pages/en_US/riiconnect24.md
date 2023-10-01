@@ -131,6 +131,5 @@ WiiLink lets you use the Japanese-exclusive channels known as Wii no Ma and Digi
 Wiimmfi lets you play games online after the discontinuation of Nintendo Wi-Fi Connection. This is optional to install.
 {: .notice--info}
 
-[Continue to site navigation](site-navigation)<br>
-We have many other tutorials that you might like.
+[Return to site index](site-navigation)<br>
 {: .notice--info}

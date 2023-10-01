@@ -10,7 +10,7 @@ You will need an SD card with at least 128MB to run an exploit.
 
 + If you are using the BlueBomb, str2hax, or FlashHax exploits, you do not need an SD card.
 
-To store homebrew applications, we recommend an SD card with at least 2 GB.
+To store homebrew applications, it is recommended that you use an SD card at least 2GB in size.
 
 ### I got error code XXXXXX, how to fix it?
 In order to check what the reason for the error is, please visit the [Wiimmfi error page](https://wiimmfi.de/error).

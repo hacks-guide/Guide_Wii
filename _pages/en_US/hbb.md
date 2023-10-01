@@ -5,6 +5,9 @@ title: "Open Shop Channel (Homebrew Browser)"
 For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
 {: .notice--primary}
 
+Included in the Homebrew Browser download is a guide on how to use the Homebrew Browser.
+{: .notice--info}
+
 Homebrew Browser, which is what the Open Shop Channel is based off on, does work but it can be buggy.
 You can also get homebrew using [osc-dl](https://github.com/dhtdht020/osc-dl/releases/latest) and from the [Open Shop Channel website](https://oscwii.org/).
 {: .notice--info}
@@ -50,9 +53,5 @@ WiiLink lets you use the Japanese-exclusive channels known as Wii no Ma and Digi
 Wiimmfi lets you play games online after the discontinuation of Nintendo Wi-Fi Connection. This is optional to install.
 {: .notice--info}
 
-[Continue to site navigation](site-navigation)<br>
-We have many other tutorials that you might like.
-{: .notice--info}
-
-Included in the Homebrew Browser download is a guide on how to use the Homebrew Browser.
+[Return to site index](site-navigation)<br>
 {: .notice--info}
