@@ -14,7 +14,7 @@ If you have a Wii U (vWii), follow [this guide](https://wiiu.hacks.guide/#/vwii-
 If you have a Wii mini, install [this cIOS](cios-mini) instead. Attempting to install any other cIOS on a Wii mini won't work.
 {: .notice--info}
 
-#### What you need
+#### Requirements
 
 * A Wii
 * An SD card or USB drive

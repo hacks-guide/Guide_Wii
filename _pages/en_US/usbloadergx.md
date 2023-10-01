@@ -11,7 +11,7 @@ Despite its name, USB Loader GX is also capable of loading games from an SD Card
 
 ![USB Loader GX](/images/homebrew/USBLoaderGX/usbloadergx.png)
 
-#### What you need
+#### Requirements
 
 * A Wii
 * A USB drive or SD Card

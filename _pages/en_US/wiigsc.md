@@ -12,7 +12,7 @@ In the case of a brick, [installing Priiloader is a must](/priiloader). Also, in
 Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will brick your Wii.
 {: .notice--warning}
 
-#### What you need
+#### Requirements
 
 * A Wii
 * A USB drive.

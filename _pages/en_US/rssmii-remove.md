@@ -6,7 +6,7 @@ If you no longer wish to use RSSMii (maybe because it gives you too much Wii Mai
 
 ![Removing RSSMii](/images/homebrew/rssmii/rssmii-remove.png)
 
-#### What you need
+#### Requirements
 
 * An SD card
 * [RSSMii Remover](https://oscwii.org/library/app/rssmii-remover)

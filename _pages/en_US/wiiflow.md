@@ -8,7 +8,7 @@ title: "WiiFlow"
 
 This is a quick start guide on how to use WiiFlow, a USB loader for the Wii that's used to play games from a USB drive or SD card.
 
-#### What you need
+#### Requirements
 
 * A Wii
 * A USB drive and/or SD card

@@ -23,7 +23,7 @@ And some things to enhance your vWii experience:
 
 <div class="notice--success" markdown="1">{{ notice-vwii-priiloader }} </div>
 
-#### What you need
+#### Requirements
 
 * An SD card or USB drive
 * [Priiloader installer](https://oscwii.org/library/app/priiloader)

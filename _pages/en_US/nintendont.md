@@ -6,7 +6,7 @@ title: "Nintendont"
 
 This is a quick start guide on how to use Nintendont, a popular loader for the Wii that's used to play GameCube games from a USB drive, SD card, or directly from your disc drive.
 
-#### What you need
+#### Requirements
 
 * A Wii
 * An SD card or USB drive

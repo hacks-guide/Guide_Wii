@@ -14,7 +14,7 @@ You need an Internet connection in order to use this application.
 
 The [Open Shop Channel](https://oscwii.org/) is where you can go to get homebrew apps. It's a revival project for an app called Homebrew Browser.
 
-#### What you need
+#### Requirements
 
 * An SD card or USB drive
 * [Homebrew Browser](/assets/files/homebrew_browser_v0.3.9e.zip)

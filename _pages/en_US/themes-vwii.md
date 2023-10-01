@@ -21,7 +21,7 @@ There are some themes that aren't compatible with the vWii System Menu, they may
 If you somehow happen to brick your vWii, [follow this guide](https://gbatemp.net/threads/guide-vwii-unbrick-guide-by-garyodernichts.528329). ([Archive](https://web.archive.org/web/20200213194233/https://gbatemp.net/threads/guide-vwii-unbrick-guide-by-garyodernichts.528329/))
 {: .notice--info}
 
-#### What You Need
+#### Requirements
 
 * A Wii U with the Homebrew Channel installed.
 * An SD card or USB drive

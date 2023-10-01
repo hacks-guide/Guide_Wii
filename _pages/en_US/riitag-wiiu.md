@@ -9,7 +9,7 @@ For support (in English) with RiiConnect24, as well as RiiTag, join [RiiConnect2
 
 RiiTag is a customizable and dynamic gamertag. By sharing your gamertag (a dynamic image), you can show what you've been playing to your friends! You launch a plugin on your Wii U console via Aroma, and the tag updates on-the-fly.
 
-#### What you need
+#### Requirements
 
 * A device capable of interacting with SD cards
 * Softmodded Wii U console with Aroma custom firmware

@@ -20,7 +20,7 @@ Choose the one that fits your needs best.
 
 ### Automatic patching from the Disc Channel using Priiloader
 
-#### What you need
+#### Requirements
 
 * A Wii with Priiloader 0.9 or later installed
 
@@ -57,7 +57,7 @@ Then, repeat the previous steps.
 
 MrBean35000vr (creator of CTGP-R, a Mario Kart Wii content pack) created a Wiimmfi Disc Patcher that allows you to insert a disc and patch the game on-the-fly for Wiimmfi use, though this must be run every time you start the disc.
 
-#### What you need
+#### Requirements
 
 * An SD card or USB drive
 * [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
@@ -75,7 +75,7 @@ MrBean35000vr (creator of CTGP-R, a Mario Kart Wii content pack) created a Wiimm
 
 Thanks to Fullmetal5's str2hax exploit, which Leseratte was able to adapt for the Wiimmfi patcher, you can run the Wiimmfi patch without having any homebrew on your Wii.
 
-##### What you need
+##### Requirements
 
 * A Wii with an Internet connection
 
@@ -123,7 +123,7 @@ If you are already using USB Loader GX, try updating it to the most recent versi
 
 You may not want to run a patcher each time you want to play on Wiimmfi, and maybe you already use a USB Loader. As such, ISO Patchers were created, some for specific games.
 
-#### What you need
+#### Requirements
 
 * Your copy of your game (WBFS, ISO, cISO, and other forms that a Wii can use are supported).
 * [RiiConnect24 Patcher](https://github.com/RiiConnect24/RiiConnect24-Patcher/releases/) (Windows and Unix)  
@@ -143,7 +143,7 @@ You may not want to run a patcher each time you want to play on Wiimmfi, and may
 
 You can patch WiiWare games in order to play them on Wiimmfi.
 
-#### What you need
+#### Requirements
 
 * An SD card
 * Your copy of your game (in WAD format)
@@ -169,7 +169,7 @@ Steps:
 
 Wiimmfi allows you to participate in Mario Kart Wii competitions again.
 
-#### What you need
+#### Requirements
 
 * An SD card or USB drive
 * Mario Kart Wii Competition Patcher
@@ -192,7 +192,7 @@ If you're using the Wii U, you will have to run the competitions patcher wheneve
 
 Wiimmfi doesn't only support Wii games, it supports lots of DS games too. Thanks to an exploit called nds-constraint, you can play DS games online without patching your games.
 
-#### What you need
+#### Requirements
 
 * A Wi-Fi network with WEP or no security
 

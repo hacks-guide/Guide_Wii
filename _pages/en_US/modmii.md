@@ -21,7 +21,7 @@ You can choose to launch in ModMii skin, which has a more user friendly approach
 Some advanced options may not be accessible in ModMii Skin. A list of the various activities for ModMii Classic can be found at the bottom of the page.
 {: .notice--info}
 
-#### What you need
+#### Requirements
 
 * A Wii
 * A USB drive or SD Card

@@ -17,7 +17,7 @@ BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's 
 For the original Wii, we do not recommend using BlueBomb if you intend to install the Homebrew Channel and BootMii, as there are more convenient exploits available.
 {: .notice--info}
 
-#### Section I - What you need
+#### Section I - Requirements
 * A Linux machine
     * A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
     * If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.

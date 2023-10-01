@@ -15,7 +15,7 @@ Wilbrand Web is recommended for its ease of use.
 
 ### Wilbrand Web (Recommended)
 
-#### What you need
+#### Requirements
 
 * An SD card formatted to FAT32/MS-DOS
 * A Wii on at least version 3.0
@@ -46,7 +46,7 @@ If this didn't work for you, [try another exploit](get-started) or try [Wilbrand
 
 ### Wilbrand CLI
 
-#### What you need
+#### Requirements
 
 * A PC running Windows, MacOS or Linux
 * An SD card formatted to FAT32/MS-DOS
