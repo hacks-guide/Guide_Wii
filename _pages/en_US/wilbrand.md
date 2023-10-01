@@ -2,8 +2,6 @@
 title: "Wilbrand"
 ---
 
-![Wilbrand](/images/exploits/wilbrand/icon.png)
-
 Wilbrand, like LetterBomb, is an exploit for the Wii that is triggered using the Wii Message Board.
 
 Unlike LetterBomb, Wilbrand supports Wii menu versions down to 3.0.

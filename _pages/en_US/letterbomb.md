@@ -2,8 +2,6 @@
 title: "LetterBomb"
 ---
 
-![LetterBomb](/images/exploits/letterbomb/letterbomb.png)
-
 For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
 {: .notice--info}
 
@@ -34,6 +32,7 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
     + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
     + If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
     + If your Wii freezes after clicking on the letter, you most likely chose the wrong system menu region for LetterBomb. Go back to Step 2 and verify that you chose the right region.
+    + If all is correct and there is freezing, keep on trying until it works.
 
 ![LetterBomb Wii Menu](/images/exploits/letterbomb/LetterBomb-Wii.png)
 

@@ -4,12 +4,10 @@ title: "Homebrew Channel and BootMii Installation"
 
 {% include toc title="Table of Contents" %}
 
-![HBC Logo](/images/homebrew/hbc/hbc.png)
-
 The Homebrew Channel is where you will go to launch homebrew applications.
 BootMii is a piece of software that can backup and restore your Wii's NAND storage, and if installed in boot2, provides brick protection.
 
-Regarding BootMii, there are two ways that it can be installed: directly to a part of the Wii bootloader called boot2, and via an IOS. Preferably you would want to install BootMii under boot2 as it provides extended brick protection, however Wiis with a vulnerable boot2 are considerably rare and made mostly before 2009. In most cases, installing BootMii as IOS should be fine, as long as you also install Priiloader.
+Regarding BootMii, there are two ways that it can be installed: directly to a part of the Wii bootloader called boot2, and via an IOS. Preferably you would want to install BootMii under boot2 as it provides extended brick protection, however Wiis with a vulnerable boot2 are considerably rare and made mostly before 2009. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
 {: .notice--info}
 
 If you do not have an SD card, you cannot install nor use BootMii; regardless of whether or not you install it as IOS or boot2.
