@@ -17,20 +17,20 @@ If you need help with anything regarding this tutorial, please join [the Wii min
 This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBaol and custom cIOS was created by Leseratte for the Wii mini. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's Github page can be found [here](https://github.com/Leseratte10/d2xl-cios). Please note that this cIOS is still experimental, though no problem with functionality has been reported.
 {: .notice--info}
 
-#### Requirements
+### Requirements
 
 * A Wii mini with the Homebrew Channel installed
 * A USB drive
 * Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
-#### Instructions
+### Instructions
 
-##### Section I - Downloading
+#### Section I - Downloading
 
 1. Extract the d2xl cIOS Installer to the `apps` folder on your USB drive.
 1. Insert your USB drive into your Wii mini and load the d2xl cIOS Installer from the Homebrew Channel.
 
-##### Section II - Installing
+#### Section II - Installing
 
 1. Press continue, then set the options to the following:
     ```
@@ -43,7 +43,8 @@ Take a note of the version number under notes (`IOS57-64-` ending in either `v31
     + If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
 
 
-##### Enabling Ethernet
+#### Enabling Ethernet
+
 If you wish to use Wiimmfi with Ethernet on a Wii mini, you have to run the [Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) app made by Fullmetal5. To run it, just unzip it in the `apps` folder of your USB drive and run it from the Homebrew Channel.
 
 The Wii and Wii mini consoles are only known to work with Ethernet adapters using the AX88772 chip. Please check that the product is compatible before you buy. This one from UGREEN is known to be compatible: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)

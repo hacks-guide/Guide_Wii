@@ -11,17 +11,17 @@ Want to patch WAD games (WiiWare) to work with Wiimmfi and you don't know how? T
 This tutorial is only for Windows version of WiiWare Patcher.
 {: .notice--info}
 
-#### Requirements
+### Requirements
 
 * A Windows computer
 * [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases)
 
-##### Section I - Downloading WiiWare Patcher
+#### Section I - Downloading WiiWare Patcher
 
 1. Click the link above to go to the GitHub page where the patcher is.
 1. Download `WiiWarePatcher.bat`.
 
-##### Section II - Patching WiiWare games
+#### Section II - Patching WiiWare games
 
 1. On Windows, run `WiiWarePatcher.bat`.
     ![WiiWare Patcher Main Menu](/images/wiimmfi/WiiWare-Patcher/1.JPG)

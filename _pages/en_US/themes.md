@@ -26,7 +26,7 @@ Do not use any other version of ThemeMii than the one linked here, as ThemeMii M
 We recommend you [install cIOS](cios) before continuing.
 {: .notice--info}
 
-#### Requirements
+### Requirements
 
 * A Wii
 * An SD card or USB drive
@@ -34,7 +34,7 @@ We recommend you [install cIOS](cios) before continuing.
 * [MyMenuify Mod](https://oscwii.org/library/app/MyMenuifyMod)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
-#### Theme Links
+### Theme Links
 
 Below are some links to themes.
 
@@ -47,9 +47,9 @@ Below are some links to themes.
 MAKE SURE YOU READ THE WARNINGS ABOVE BEFORE CONTINUING!
 {: .notice--danger}
 
-#### Instructions
+### Instructions
 
-##### Section I - Finding a Theme
+#### Section I - Finding a Theme
 
 * Find a theme you want to install. Some themes have YouTube videos to show what the theme looks like, but unfortunately some of the videos are no longer available.
 * Once you found one you like, click the download link corresponding to your Wii Menu version. **It's very important to pick the correct version to avoid bricks.**
@@ -58,7 +58,7 @@ MAKE SURE YOU READ THE WARNINGS ABOVE BEFORE CONTINUING!
 * There are other resources for Wii Menu themes, but they might be in csm form (ready to install on the Wii). If the csm doesn't match the version and region of your Wii Menu, try to convert it to mym with ThemeMii Mod, and then convert it back to csm with the instructions here using the version and region of your Wii Menu.
 * Once you downloaded the theme you want and double-checked you got the right one, extract the .zip file for ThemeMii Mod and open the application.
 
-##### Section II - Building the Theme
+#### Section II - Building the Theme
 
 1. A dialog box will pop up telling you to only install themes if you have brick protection. If you installed Priiloader and/or BootMii (see the warning at the start of this guide), press OK.
 1. Go to `Tools` > `Download Base App` > Version of your Wii Menu > Region of your Wii Menu
@@ -69,7 +69,7 @@ MAKE SURE YOU READ THE WARNINGS ABOVE BEFORE CONTINUING!
 1. Press `Create csm`, then browse for a directory you want to save the theme in. Give it a moment to build the theme.
 1. A dialog box will pop up asking you if you want to save the .mym. Press `No`.
 
-##### Section III - Installing the Theme
+#### Section III - Installing the Theme
 
 1. Extract MyMenuifyMod.zip to your SD card or USB drive.
 1. Put the .csm file you saved in a folder called `modthemes` on your SD card or USB drive.

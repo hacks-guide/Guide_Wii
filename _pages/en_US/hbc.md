@@ -12,7 +12,7 @@ If you do not have an SD card, you cannot install nor use BootMii; regardless of
 You can always [install it at a later date](hackmii).
 {: .notice--warning}
 
-#### Instructions
+### Instructions
 
 1. You will see a scam warning screen. Wait 30 seconds for the text "Press 1 to continue" to appear, then press 1.
     ![Scam Screen](/images/hackmii/scam.png)
@@ -33,7 +33,7 @@ You can always [install it at a later date](hackmii).
     ![BootMii boot2 Installation](/images/hackmii/bootmii_install4.png)
 1. Select `Exit` to finally open the Homebrew Channel.
 
-#### Required Reading
+### Required Reading
 
 You can now use the Homebrew Channel to launch homebrew apps, as well as BootMii for backing up and restoring your NAND if you were able to install it.
 

@@ -14,15 +14,13 @@ Due to the nature of RSS feeds and the large amount of mail they can generate, t
 If you're not receiving updates after a few days, you might need to subscribe to the RSS feeds again. Launch RSSMii from the Homebrew Channel again and it should create new subscriptions.
 {: .notice--info}
 
-### Installation
-
-#### Requirements
+### Requirements
 
 * An SD card
 * [RSSMii](https://oscwii.org/library/app/rssmii)
 
-#### Instructions
-##### Section I - Downloading/Installing
+### Instructions
+#### Section I - Downloading/Installing
 
 1. Extract RSSMii and put it in the `apps` folder on your SD card.
 1. Create a `feeds.xml` on the root of the SD card so the app can parse your feeds.

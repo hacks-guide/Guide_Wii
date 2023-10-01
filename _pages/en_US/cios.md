@@ -14,7 +14,7 @@ If you have a Wii U (vWii), follow [this guide](https://wiiu.hacks.guide/#/vwii-
 If you have a Wii mini, install [this cIOS](cios-mini) instead. Attempting to install any other cIOS on a Wii mini won't work.
 {: .notice--info}
 
-#### Requirements
+### Requirements
 
 * A Wii
 * An SD card or USB drive
@@ -23,9 +23,9 @@ If you have a Wii mini, install [this cIOS](cios-mini) instead. Attempting to in
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
 {: .notice--warning}
 
-#### Instructions
+### Instructions
 
-##### Section I - Downloading (Only required if your Wii doesn't have Internet)
+#### Section I - Downloading (Only required if your Wii doesn't have Internet)
 
 If your Wii has an Internet connection, you may skip this section.<br/>
 However, If you encounter any errors like `tcp_read timeout` and `net_gethostbyname failed:`, this will allow the Wii to skip the downloading step.
@@ -48,7 +48,7 @@ The WAD files should be on your SD card like this:
 ![offline IOS files](/images/cios/d2x_offline_ios.png)
 {: .notice--info}
 
-##### Section II - Installing
+#### Section II - Installing
 
 1. Download the d2x cIOS installer and extract the zip to the root of your SD card or USB drive.
 1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel
@@ -104,7 +104,7 @@ The WAD files should be on your SD card like this:
 
 1. Once set, press A twice again to install, and then exit once done.
 
-#### Troubleshooting
+### Troubleshooting
 
 {% capture bruh %}
 Although the majority of games should work straight away with the defaults, some may require using a specific cIOS to function, or to utilize certain features within the game.<br>
@@ -139,7 +139,7 @@ To change the cIOS used for a specific game, follow these instructions:
 1. Press Save and try to load the game.
 </div>
 
-##### Options once complete
+### Options once complete
 
 [Continue to the Homebrew Browser](hbb)<br>
 The Homebrew Browser is a good place to get homebrew on your Wii. This is optional to install.

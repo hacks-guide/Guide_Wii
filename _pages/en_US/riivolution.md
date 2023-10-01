@@ -15,7 +15,7 @@ Riivolution requires a working disk drive and a clean physical copy of the disk 
 ![Riivolution](/images/homebrew/riivolution/riivolution.png)
 
 
-#### Requirements
+### Requirements
 
 * A Wii
 * A USB drive or SD Card
@@ -24,7 +24,7 @@ Riivolution requires a working disk drive and a clean physical copy of the disk 
 * A working disk drive
 * [Riivolution](https://oscwii.org/library/app/riivolution)
 
-#### Preparing the files
+### Preparing the files
 
 1. Extract Riivolution and put it in the `apps` folder on your SD card or USB drive.
 1. Extract your mod files according to the diagram below to the SD or USB drive. Depending on the mod you downloaded, it may or may not already come properly structured for you.
@@ -36,7 +36,7 @@ Riivolution requires a working disk drive and a clean physical copy of the disk 
 Pay attention to the region your mod is meant for. NTSC is for U.S and Japan, and PAL is for Europe and Korea.
 {: .notice--info}
 
-#### File Structure
+### File Structure
 
 Every Riivolution mod is different, and depending on which mod you choose, it may include more or less files than shown in this diagram.
 {: .notice--info}

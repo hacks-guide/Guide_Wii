@@ -19,16 +19,16 @@ Currently, only the USA and Canada are supported.
 You cannot use the default Dolphin NAND with this service. You must use your own NAND dump. This can be done in Dolphin by going to the toolbar and clicking `Tools -> Manage NAND -> Import BootMii NAND Backup`.
 {: .notice--warning}
 
-#### Requirements
+### Requirements
 
 * An SD card or USB drive
 * A Wii console with an active internet connection
 * A computer with an active internet connection
 * A Discord account
 
-#### Instructions
+### Instructions
 
-##### Section I - Getting Started
+#### Section I - Getting Started
 
 1. Download the latest version of the WiiLink Patcher, available [here](https://github.com/WiiLink24/WiiLink24-Patcher/tree/csharp-ver).
 1. Make sure to download the version in the README that corresponds to your operating system.
@@ -40,7 +40,7 @@ You cannot use the default Dolphin NAND with this service. You must use your own
 1. After that, you can go through the rest of the process, but once you reach this step, be sure to pick the correct console platform you’re installing this on, as it will matter when using the app.<br><br>
     ![Console Platform](/images/demae-dominos/choose-console-platform.png)
 
-##### Section II - Registering your Console ID
+#### Section II - Registering your Console ID
 
 1. After completing the setup process, go to the [**WiiLink Discord server**](https://discord.gg/wiilink-750581992223146074) to register your Wii's console ID.
 1. Use the `Get Console ID` Homebrew app, that was given by the patcher, to retrieve your system's console ID.
@@ -48,7 +48,7 @@ You cannot use the default Dolphin NAND with this service. You must use your own
 1. Type the command `/dominos <your console ID>` in the chat, replacing `<your console ID>` with your actual console ID. Make sure the ID is in the parameter box, otherwise the command will not work and will be posted publicly on the channel.
 1. Double-check that you've typed the correct console ID, as it can't be re-registered. If you need to re-register, ask a staff member in the server for assistance.
 
-##### Section III - Installing WADs
+#### Section III - Installing WADs
 
 You will now install the Food Delivery Channel and Set Personal Data channels.
 
@@ -62,7 +62,7 @@ You will now install the Food Delivery Channel and Set Personal Data channels.
 If you happen to get `Error -1022` when installing `Food Channel (Domino's) (English).wad`, uninstall the channel by selecting the WAD with `-` and pressing `A`. Then, re-install the WAD.
 {: .notice--warning}
 
-##### Section IV - Setting your address information
+#### Section IV - Setting your address information
 
 WiiLink never stores your personal data. For more information on what is used, read our [Privacy Policy](https://www.wiilink24.com/privacy-policy).
 {: .notice--info}
@@ -78,7 +78,7 @@ In this section you will be setting your address information. This is required f
     ![SPD Page 1](/images/demae-dominos/spd-1.png)<br><br>
     ![SPD Page 2](/images/demae-dominos/spd-2.png)
 
-##### Section V - Placing an order
+#### Section V - Placing an order
 
 This section requires you to have cash to pay for your meal.
 {: .notice--warning}

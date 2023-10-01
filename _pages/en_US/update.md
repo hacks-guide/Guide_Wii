@@ -9,7 +9,7 @@ This tutorial will explain how to update your Wii Menu to version 4.3, if you ha
 It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.3.
 {: .notice--warning}
 
-#### Requirements
+### Requirements
 
 * An SD card or USB drive
 * A computer with Windows on it
@@ -17,9 +17,9 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 * [Priiloader](priiloader)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-#### Instructions
+### Instructions
 
-##### Section I - Downloading
+#### Section I - Downloading
 
 Your Wii must be modded in order to perform this. If it isn't, then it's best to follow [the guide](get-started) first before doing this.
 {: .notice--info}
@@ -39,7 +39,7 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 | Europe | v514 (4.3E)      |
 | Korea  | v518 (4.3K)      |
 
-##### Section II - Installing
+#### Section II - Installing
 
 1. Power off your Wii. Start holding RESET, then turn it back on.
 1. In the Priiloader menu, select `Homebrew Channel`.

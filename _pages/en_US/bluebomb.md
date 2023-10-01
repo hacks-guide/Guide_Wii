@@ -15,7 +15,9 @@ BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's 
 If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
 {: .notice--info}
 
-#### Section I - Requirements
+
+### Requirements
+
 * A Linux machine
     * A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
     * If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
@@ -30,7 +32,8 @@ If you are using the original revision of the Wii, you should probably find [ano
 * A USB flash drive formatted as FAT32.
     * This cannot be the same flash drive used for your Linux Machine.
 
-#### Section II - Performing the exploit
+### Instructions
+
 1. Download the HackMii installer from [the BootMii website](https://bootmii.org/download/).
     + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
 1. Extract it and place the `boot.elf` file in your flash drive. 

@@ -19,10 +19,11 @@ Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. T
 DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same goes for using faulty SD cards.
 {: .notice--danger}
 
-#### Requirements
+### Requirements
+
 * An earlier NAND Backup made by [BootMii](bootmii)
 
-#### Restoring individual data from a NAND backup
+### Restoring individual data from a NAND backup
 
 There is likely a much safer and faster way to bring individual data back to your Wii, likely involving the use of Dolphin Emulator.
 
@@ -30,7 +31,7 @@ For example, if you want to restore your Wii Message Board data, use Dolphin to 
 
 If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools > Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
 
-#### Important preliminary notes
+### Important preliminary notes
 
 + If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is probably a [Wi-Fi Brick](bricks#wi-fi-brick).
 
@@ -38,7 +39,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 + You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad on a GameCube controller. To select, press A.
 
-#### Instructions
+### Instructions
 
 1. Launch the Homebrew Channel.
 1. Press the HOME Button, then select "Launch BootMii".

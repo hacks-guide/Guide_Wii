@@ -21,7 +21,7 @@ You can choose to launch in ModMii skin, which has a more user friendly approach
 Some advanced options may not be accessible in ModMii Skin. A list of the various activities for ModMii Classic can be found at the bottom of the page.
 {: .notice--info}
 
-#### Requirements
+### Requirements
 
 * A Wii
 * A USB drive or SD Card
@@ -30,14 +30,14 @@ Some advanced options may not be accessible in ModMii Skin. A list of the variou
 
 This is a quick start guide on how to use ModMii on your Windows PC.
 
-## ModMii Wizard
+### ModMii Wizard
 
 You can use the ModMii wizard to softmod any Wii. <br>
 Even if the Wii has been softmodded in the past, you can have ModMii overwrite existing softmods by telling ModMii that this is the first time you're modding your Wii (even though it's not).
 
 You can also use this wizard to set up a USB loader at the same time, instead of having to use the USB Loader setup wizard later on.
 
-## SysCheck Updater Wizard
+### SysCheck Updater Wizard
 
 [SysCheck](syscheck) is a homebrew application that analyzes the modifications on a Wii. <br>
 You can give a SysCheck report to ModMii to help identify & update outdated mods.
@@ -45,7 +45,7 @@ You can give a SysCheck report to ModMii to help identify & update outdated mods
 You can have ModMii analyze a SysCheck by dragging the `syscheck.csv` file onto ModMii.exe. 
 Or, you can launch the SysCheck Updater Wizard (`SU`) from ModMii's main menu and manually browse for the file.
 
-## HackMii Solutions Wizard
+### HackMii Solutions Wizard
 
 The HackMii Solutions wizard can help fix symptoms like these:
     + HackMii Installer not prompting "Press (1) to continue"
@@ -54,7 +54,7 @@ The HackMii Solutions wizard can help fix symptoms like these:
 
 It will install clean IOSs to allow for the HackMii Installer to operate properly.
 
-## Abstinence Wizard
+### Abstinence Wizard
 
 This wizard requires an SD card.
 {: .notice--warning}

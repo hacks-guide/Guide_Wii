@@ -29,9 +29,9 @@ DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick th
 * A Beta or Development version of [Dolphin Emulator](https://dolphin-emu.org/download/)
 * [RiiConnect24 Patcher](https://github.com/RiiConnect24/RiiConnect24-Patcher/releases)
 
-#### Instructions
+### Instructions
 
-##### Section I - Installing Dolphin
+#### Section I - Installing Dolphin
 
 If you have Dolphin already installed, skip to [Section II](#section-ii---installing-riiconnect24).
 {: .notice--info}
@@ -45,7 +45,7 @@ If you have Dolphin already installed, skip to [Section II](#section-ii---instal
 If you have a homebrewed Wii console, you can use a [BootMii NAND dump](bootmii) instead of installing the system files with the System Update option. See [this page](https://wiki.dolphin-emu.org/index.php?title=NAND_Usage_Guide) for more information.
 {: .notice--info}
 
-##### Section II - Installing RiiConnect24
+#### Section II - Installing RiiConnect24
 
 If you use a Windows version before Windows 10, you unfortunately cannot use WiiConnect24 inside Dolphin. You can use [this program](https://github.com/RiiConnect24/.VFF-File-Downloader-for-Dolphin) to run it instead.
 {: .notice--danger}
@@ -71,7 +71,7 @@ If you use a Windows version before Windows 10, you unfortunately cannot use Wii
     ![Files copied](/images/RiiConnect24/patcher/11.PNG)
 1. In Dolphin, go to `Tools` and then `Install WAD`. Install all the WAD files one by one.
 
-##### Section III - Setting your Region
+#### Section III - Setting your Region
 
 Setting your region is required to use the Everybody Votes Channel.
 

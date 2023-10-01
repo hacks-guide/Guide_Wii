@@ -28,12 +28,12 @@ It's recommended to set your Wii to the current time before proceeding. Follow [
 DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick the system.
 {: .notice--danger}
 
-#### Warnings
+### Warnings
 
 This guide holds no responsiblity for any problems that may arise on your console upon following it!!!
 {: .notice--warning}
 
-#### Requirements
+### Requirements
 
 * An SD card or USB drive
 * A computer
@@ -54,9 +54,9 @@ After following the vWii modding guide linked above, you should have:
 
 <div class="notice" markdown="1">{{ notice-2 }}</div>
 
-#### Instructions
+### Instructions
 
-##### Section I - Running the patcher
+#### Section I - Running the patcher
 
 1. Click the RiiConnect24 Patcher link above to go to the GitHub page where the patcher is.
 1. Download `RiiConnect24Patcher.bat` if you are on Windows, and `RiiConnect24Patcher.sh` if you are on a Unix system
@@ -84,7 +84,7 @@ After following the vWii modding guide linked above, you should have:
     ![Files copied](/images/riiconnect24/patcher/11.PNG)
 1. If it did not copy everything automatically to your SD Card or USB Device, copy the `WAD` and `apps` folder next to `RiiConnect24Patcher.bat` to your SD Card or USB Device.
 
-##### Section II - Installing WADs
+#### Section II - Installing WADs
 
 You will now install the patched IOS and Channel WADs that are required to use RiiConnect24.
 
@@ -96,14 +96,14 @@ You will now install the patched IOS and Channel WADs that are required to use R
 1. Highlight all the WADs in the `wad` folder by pressing the + Button to select them. When all of the WADs are selected, press A twice to install the WADs.
 1. After they are successfully installed, press the HOME Button to exit back to the Homebrew Channel.
 
-##### Section III - Patching nwc24msg.cfg
+#### Section III - Patching nwc24msg.cfg
 
 You will now patch your `nwc24msg.cfg` file which is required in order to use Wii Mail.
 
 1. Launch the RiiConnect24 Mail Patcher from the Homebrew Channel.
 1. It should only take a few seconds to patch your nwc24msg.cfg. When it's done, press the HOME Button to exit.
 
-##### Section IV - Using RiiConnect24
+#### Section IV - Using RiiConnect24
 
 1. Visit the [vWii Priiloader WC24 UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) page.
 1. Enter your Wii U's time offset from UTC time. <br>
@@ -124,7 +124,7 @@ This is automatically done based on your PC's time, so you may be able to skip t
 1. Select `System Menu.`
 1. Return to the Wii U Menu, then go right back to Wii Mode.
 
-#### What's currently working?
+### What's currently working?
 The following RiiConnect24 services are **working** on the vWii:
 * Forecast Channel 
 * News Channel

@@ -6,7 +6,7 @@ title: "Dos and Don'ts of Wii Modding"
 
 Here's a list of things you should and should not do once you've modded your Wii, to make sure you don't brick it.
 
-#### List
+### List
 
 + **DO** make sure you've installed [BootMii](bootmii) and [Priiloader](priiloader) to make sure you don't brick your Wii.
 + **DO** make a backup of your Wii NAND regularly with [BootMii](bootmii), especially before doing something risky.

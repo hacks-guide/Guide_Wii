@@ -6,18 +6,18 @@ title: "SysCheck"
 
 A SysCheck lists all the IOS and cIOS that are on your Wii, along with some information about each of them. It also gives you some other useful information. When you have IOS-related problems on your Wii, someone might ask you to do a SysCheck.
 
-#### Requirements
+### Requirements
 
 * An SD card or USB drive
 * [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME)
 
-#### Instructions
-##### Section I - Downloading/Installing
+### Instructions
+#### Section I - Downloading/Installing
 
 1. Extract SysCheck ModMii Edition to your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii, and launch SysCheck ModMii Edition from the Homebrew Channel.
 
-##### Section II - Performing a SysCheck
+#### Section II - Performing a SysCheck
 
 1. Wait for the program to get some information about your Wii.
 1. When "This IOS will be tested (Please select)" is shown on the screen, press A.

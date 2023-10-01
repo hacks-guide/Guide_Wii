@@ -9,13 +9,13 @@ Note that if your ISP or networking environment prevents using custom DNS server
 
 str2hax is an exploit for the Wii that is triggered by loading the Wii's End User License Agreement. It requires nothing but an Internet connection that lets you change the DNS on your Wii.
 
-#### Requirements
+### Requirements
 
 * A Wii with an Internet connection
 
-#### Instructions
+### Instructions
 
-##### Section I - Connecting
+#### Section I - Connecting
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
@@ -48,7 +48,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
     + If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
     + If it is still unsuccessful, please [use another exploit](get-started).
 
-##### Section II - Triggering the Exploit
+#### Section II - Triggering the Exploit
 
 1. Go to the `Internet` section, then `User Agreements` or `Agreement/Contact`, then `Yes`.
 1. Click on `Next`. You should be greeted with the following screen:
@@ -60,7 +60,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}
 
-##### Common issues
+#### Common issues
 
 If you get the normal User Agreements, your ISP blocks the use of custom DNS. Please [use another exploit](get-started).
 {: .notice--warning}

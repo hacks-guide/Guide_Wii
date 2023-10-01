@@ -26,7 +26,7 @@ It's recommended to set your Wii to the current time before proceeding. Follow [
 DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick the system.
 {: .notice--danger}
 
-#### Requirements
+### Requirements
 
 * An SD card or USB drive
 * A Wii with an Internet connection
@@ -34,9 +34,9 @@ DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick th
 * [RiiConnect24 Patcher (Windows, Mac and Linux)](https://github.com/riiconnect24/RiiConnect24-Patcher/releases)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-#### Instructions
+### Instructions
 
-##### Section I - Using RiiConnect24 Patcher
+#### Section I - Using RiiConnect24 Patcher
 
 1. Click the link above to go to the GitHub page where the patcher is.
 1. Download `RiiConnect24Patcher.bat` if you are on Windows, and `RiiConnect24Patcher.sh` if you are on a Unix system
@@ -64,7 +64,7 @@ DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick th
     ![Files copied](/images/riiconnect24/patcher/11.PNG)
 1. If it did not copy everything automatically to your SD Card or USB Device, copy the `WAD` and `apps` folder next to `RiiConnect24Patcher.bat` to your SD Card or USB Device.
 
-##### Section II - Installing WADs
+#### Section II - Installing WADs
 
 You will now install the patched IOS and Channel WADs that are required to use RiiConnect24.
 
@@ -76,14 +76,14 @@ You will now install the patched IOS and Channel WADs that are required to use R
 1. Highlight all the WADs in the `wad` folder by pressing the + Button to select them. When all of the WADs are selected, press A twice to install the WADs.
 1. After they are successfully installed, press the HOME Button to exit back to the Homebrew Channel.
 
-##### Section III - Patching nwc24msg.cfg
+#### Section III - Patching nwc24msg.cfg
 
 You will now patch your `nwc24msg.cfg` file which is required in order to use Wii Mail.
 
 1. Launch RiiConnect24 Mail Patcher.
 1. It should only take a few seconds to patch your nwc24msg.cfg. When it's done, press the HOME Button to exit.
 
-##### Section IV - Connecting
+#### Section IV - Connecting
 
 {% capture notice-1 %}
 The old DNS server `164.132.44.106` has been deprecated as of `June 1st, 2023` and is no longer available to use.

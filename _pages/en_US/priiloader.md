@@ -17,20 +17,20 @@ There are some important things to take note of:
 
 <div class="notice--success" markdown="1">{{ notice-vwii-priiloader }} </div>
 
-#### Requirements
+### Requirements
 
 * An SD card or USB drive
 * [Priiloader installer](https://oscwii.org/library/app/priiloader)
 * [LoadPriiloader](https://oscwii.org/library/app/loadpriiloader)
 
-#### Instructions
+### Instructions
 
-##### Section I - Downloading/Installing
+#### Section I - Downloading/Installing
 
 1. Download the Priiloader installer and LoadPriiloader apps.
 1. Extract both apps to the root of your SD card or USB drive.
 
-##### Section II - Installing Priiloader
+#### Section II - Installing Priiloader
 
 1. Launch the Homebrew Channel on your Wii.
 1. Launch the Priiloader installer.
@@ -39,7 +39,7 @@ There are some important things to take note of:
     ![Installing](/images/priiloader/installing.png)
 1. Press A to return to the Homebrew Channel.
 
-##### Section III - Entering Priiloader
+#### Section III - Entering Priiloader
 
 Priiloader will appear automatically after you install it. Simply exit the Homebrew Channel, and you should see the Priiloader menu:
     ![Priiloader Menu](/images/priiloader/menu.png)

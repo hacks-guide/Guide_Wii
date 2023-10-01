@@ -11,7 +11,7 @@ Despite its name, USB Loader GX is also capable of loading games from an SD Card
 
 ![USB Loader GX](/images/homebrew/USBLoaderGX/usbloadergx.png)
 
-#### Requirements
+### Requirements
 
 * A Wii
 * A USB drive or SD Card
@@ -36,14 +36,14 @@ Make sure your USB drive is formatted as FAT32. Do not format it as other types 
 You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 {: .notice--info}
 
-#### Instructions
+### Instructions
 
-##### Downloading
+#### Downloading
 
 1. Extract USB Loader GX and put it in the `apps` folder on your USB drive or SD card.
 1. Insert your USB drive, and SD card if you're using one, into your Wii and launch USB Loader GX from the Homebrew Channel.
 
-##### Getting Started
+#### Getting Started
 
 There is no "guide" to use the USB Loader GX app. This is intended to help you learn how to use it, by giving you a quick start. You should be able to figure out all the great features of USB Loader GX by using it.
 {: .notice--info}
@@ -53,11 +53,11 @@ There is no "guide" to use the USB Loader GX app. This is intended to help you l
 + There are WADs that can open up USB Loader GX if you load it from the Wii Menu. This is called a forwarder WAD. An official forwarder WAD can be found [here](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad), and a version for the vWii (Wii U) can be found [here](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad).
 + GameCube or "custom" Wii games may or may not have a custom banner that USB Loader GX uses. To enable this, find or write `CustomBannersURL = http://banner.rc24.xyz/` in config/GXGlobal.cfg on your USB drive. Then you can use the "Custom Banner" download by pressing the 1 Button on your Wii Remote.
 
-##### User Interface
+#### User Interface
 
 There are multiple buttons in the USB Loader GX interface.
 
-###### Main Menu
+##### Main Menu
 
 These are the functions the buttons found on the top of the main menu do, from left to right:
 

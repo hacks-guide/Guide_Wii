@@ -14,15 +14,15 @@ The Kirby TV Channel is back! <br>
 If you installed it previously, please follow the instructions to update it.
 {: .notice--success}
 
-#### Requirements
+### Requirements
 
 * An SD card or USB drive
 * A Wii with an Internet connection
 * A Windows, macOS, or Linux computer
 
-#### Instructions
+### Instructions
 
-##### Section I - Patching WADs
+#### Section I - Patching WADs
 
 [If you want to see detailed instructions on how to install the WADs, click here!](yawmme)
 {: .notice--info}
@@ -50,7 +50,7 @@ On Linux, open a Terminal, type `bash ` (space included), then drag the file ont
 Want to order Domino's Pizza with WiiLink's Food Delivery Channel?<br>[Follow this guide!](wiilink-demae-dominos)
 {: .notice--info}
 
-##### Section II - Adding your email to Address Information (Set Personal Data)
+#### Section II - Adding your email to Address Information (Set Personal Data)
 
 Adding your email to the Address Information (SPD) settings menu will allow the Digicam Print Channel to send images to your email that you created using it.
 {: .notice--info}

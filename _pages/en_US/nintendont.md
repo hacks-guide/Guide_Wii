@@ -6,7 +6,7 @@ title: "Nintendont"
 
 This is a quick start guide on how to use Nintendont, a popular loader for the Wii that's used to play GameCube games from a USB drive, SD card, or directly from your disc drive.
 
-#### Requirements
+### Requirements
 
 * A Wii
 * An SD card or USB drive
@@ -22,19 +22,19 @@ Make sure your storage device is formatted as FAT32. Do not format it to other f
 {: .notice--info}
 
 
-#### Instructions
+### Instructions
 
-##### Downloading
+#### Downloading
 
 1. Download Nintendont and extract it to the root of your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii, and launch Nintendont from the Homebrew Channel.
 
-##### Getting Started
+#### Getting Started
 
 There is no "guide" to use Nintendont. This is intended to help you learn how to use it, by giving you a quick start. You should be able to figure out all the great features of Nintendont by using it.
 {: .notice--info}
 
-###### Key Features
+#### Key Features
 
 + You can use a GameCube controller to play your games.
 + You can use a Wiimote to play your games, but you will need to use a Classic Controller Pro or a Wii U Pro Controller to use all of the game's features.
