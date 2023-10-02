@@ -18,19 +18,28 @@ This guide covers dumping GameCube or Wii game discs. You can either dump direct
 If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), set `Dual Layer` in Step 6 to `Yes`.
 {: .notice--info}
 
-1. Extract CleanRip and put it in the `apps` folder on your SD card or USB drive.
-1. Insert your SD card into your Wii, and launch CleanRip from the Homebrew Channel.
+1. Power off your console.
+1. Insert your SD card or USB drive into your computer.
+1. Copy the `apps` folder from the CleanRip `.zip` to the root of your SD card or USB drive.
+1. Reinsert your SD card or USB drive into your console.
+1. Power on your console.
+1. Launch the Homebrew Channel.
+1. Launch CleanRip from the list of homebrew.
 1. Select your device that you will be dumping the game to - a USB device or SD card.
     ![Device type](/images/homebrew/CleanRip/2.png)
-1. When prompted, select `Yes` to download the redump.org DAT files. This ensures that your dump is accurate.
+1. When prompted, select `Yes` to download the redump.org DAT files.
+    + This is required to ensure that the resulting dumps are clean/accurate.
+
     You may get an exception error if you do this. If so, simply skip and verify your dump on Dolphin Emulator if needed.
     {: .notice--warning}
+
     ![DAT](/images/homebrew/CleanRip/3.png)
 1. Insert the game disc you would like to dump.
-![DVD](/images/homebrew/CleanRip/4.png)
+    ![DVD](/images/homebrew/CleanRip/4.png)
 1. Set the settings as shown on the screen below, while verifying if your game disc is dual layer or not.
     ![Settings](/images/homebrew/CleanRip/6.png)
-1. CleanRip will now dump your game. This process can take quite some time, since it will dump the full 4.7 GB disc contents (8.5 GB for dual layer discs).
+1. Press A to start dumping the disc.
+    + This process can take quite some time, since it will dump the full 4.7 GB disc contents (8.5 GB for dual layer discs).
     ![Copying](/images/homebrew/CleanRip/7.png)
 1. Proceed to [joining PART files](dump-games#joining-part-files-on-a-fat32-device).
 
@@ -49,18 +58,23 @@ Download speeds will be slow due to limitations in the network hardware of the W
 Your Wii and your computer must be connected to the same local network.
 {: .notice--warning}
 
-1. Extract DVD Dump Tool and put it in the `apps` folder of your SD card or USB device.
-1. Insert the device you downloaded the dump tool on into your Wii, and launch DVD Dump Tool from the Homebrew Channel.
-1. Press right on the D-pad and press A.
+1. Copy the `DVDDumpTool` folder from the DVDDumpTool `.zip` to the root of your SD card or USB drive.
+1. Reinsert your SD card or USB drive into your console.
+1. Power on your console.
+1. Launch the Homebrew Channel.
+1. Launch DVD Dump Tool from the list of homebrew.
+1. Press right on the D-pad, then press A.
 1. Choose the disc that you want to copy (The options are: `GameCube Disc`, `Wii Single-Layer Disc`, `Wii Dual-Layer Disc`) and press "A"
     ![2](/images/homebrew/DumpDiscs_LAN/2.png)
-1. Insert the game disc into your Wii. If it is already inserted, eject and reinsert the disc.
+1. Insert the game disc into your Wii.
+    + If it is already inserted, eject and reinsert the disc.
     ![InsertTheDisc](/images/homebrew/DumpDiscs_LAN/insertthedisc.jpg)
 1. Select the proper disc type.
     ![3](/images/homebrew/DumpDiscs_LAN/3.png)
 1. Press any button to begin the dumping process.
     ![4](/images/homebrew/DumpDiscs_LAN/4.png)
-1. Remember or write down your Wii's URL (IP address). On your computer's web browser, go to your address bar and enter the Wii URL.
+1. Remember or write down your Wii's URL (IP address).
+1. On your computer, open the browser, go to your address bar and enter the Wii URL.
     ![5](/images/homebrew/DumpDiscs_LAN/5.png)
 1. Click on `Click here to download XXXX.iso`.
 1. Proceed to [joining PART files](dump-games#joining-part-files-on-a-fat32-device).
@@ -77,7 +91,8 @@ If you dumped the disc (regardless if it was to a PC or Wii) on a FAT32 formatte
 1. Open a PowerShell or Windows Terminal window.
 1. Run `cd [PATH]`.
 1. Type `copy /b *.part?.iso game.iso` and press enter.
-1. Wait until the merging process finishes. It should end with the terminal outputting `1 file(s) copied`.
+1. Wait until the merging process finishes.
+    + It should end with the terminal outputting `1 file(s) copied`.
 
 #### macOS/Linux
 

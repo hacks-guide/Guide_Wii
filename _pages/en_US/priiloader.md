@@ -20,20 +20,24 @@ There are some important things to take note of:
 ### Requirements
 
 * An SD card or USB drive
-* [Priiloader installer](https://oscwii.org/library/app/priiloader)
-* [LoadPriiloader](https://oscwii.org/library/app/loadpriiloader)
+* [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
+* [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
 ### Instructions
 
-#### Section I - Downloading/Installing
+#### Section I - Prep Work
 
-1. Download the Priiloader installer and LoadPriiloader apps.
-1. Extract both apps to the root of your SD card or USB drive.
+1. Power off your console.
+1. Insert your SD card or USB drive into your computer.
+1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
+1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
+1. Reinsert your SD card or USB drive into your console.
 
 #### Section II - Installing Priiloader
 
-1. Launch the Homebrew Channel on your Wii.
-1. Launch the Priiloader installer.
+1. Power on your console.
+1. Launch the Homebrew Channel.
+1. Launch Priiloader installer from the list of homebrew.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
     ![Install Priiloader](/images/priiloader/installer.png)
     ![Installing](/images/priiloader/installing.png)
@@ -52,7 +56,8 @@ To enter it later on, simply run the "Load Priiloader" homebrew app. There are a
 
 #### System Menu Hacks
 
-1. Launch the Homebrew Channel, and launch the Load Priiloader app.
+1. Launch the Homebrew Channel.
+1. Launch Load Priiloader from the list of homebrew.
 1. Scroll down to `System Menu Hacks` and press `A`.
     ![System Menu Hacks](/images/priiloader/menu_hacks.png)
 
@@ -60,9 +65,10 @@ To enter it later on, simply run the "Load Priiloader" homebrew app. There are a
     This causes Priiloader to fail to find the `hacks_hash.ini` file.
     {: .notice--warning}
 
-1. Press `A` on each hack you would like to enable. This guide advises you to enable "Block Disc Updates", "Block Online Updates", and "Region Free EVERYTHING".
+1. Press `A` on each hack you would like to enable.
+    + This guide advises you to enable "Block Disc Updates", "Block Online Updates", and "Region Free EVERYTHING".
     ![System Menu Hacks List](/images/priiloader/system_menu_hacks.png)
-1. Scroll down to `save settings` and press `A`.
+1. Scroll down to `save settings` and press A.
 1. Press `B` to return to the main menu.
 
 <details id="system-menu-hacks-list" class="notice--info" markdown="1">
@@ -124,31 +130,33 @@ If you would like to autoboot USB loader GX, do this first:
 You will be installing `uneoboot.dol` in step 3.
 </div>
 
-1. Launch the Homebrew channel, then launch the Load Priiloader app.
+1. Launch the Homebrew Channel
+1. Launch Load Priiloader from the list of homebrew.
 1. Scroll down to `Load/Install file` and press A.
     ![Load/Install File](/images/priiloader/menu_install_file.png)
 1. Scroll through the menu until your desired homebrew app is highlighted, and press A to install it.
     ![Installing a Homebrew App](/images/priiloader/installing_file.png)
     ![Installing a Homebrew App OK](/images/priiloader/installing_file_ok.png)
-1. Press B to go back to the main menu.
+1. Press `B` to return to the main menu.
 1. Scroll down to `Settings` and press A.
     ![Settings](/images/priiloader/menu_settings.png)
 1. Press Right to cycle through the Autoboot options until `Installed file` is selected.
     ![Autoboot: Installed File](/images/priiloader/autoboot_installed_file.png)
 1. Scroll down to `save settings` and press A.
     ![Saving Settings](/images/priiloader/settings_save.png)
-1. Press B to return to the main menu.
+1. Press `B` to return to the main menu.
 1. Scroll back up to `System Menu` and press A.
 
 Your Wii should now automatically boot to whichever homebrew app you installed.
 
 ##### Autobooting the Homebrew Channel or Priiloader
 
-1. Launch the Homebrew Channel, then launch the Load Priiloader app.
+1. Launch the Homebrew Channel
+1. Launch Load Priiloader from the list of homebrew.
 1. Scroll down to `Settings` and press A.
     ![Settings](/images/priiloader/menu_settings.png)
-1. Press Right to cycle through the Autoboot options until your desired option is selected. <br>
-`Disabled` will autoboot to the Priiloader menu.
+1. Press Right to cycle through the Autoboot options until your desired option is selected.
+    + Disabled` will autoboot to the Priiloader menu.
 
     Please don't set Autoboot to `BootMii IOS`. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.
     {: .notice--warning}
@@ -156,7 +164,7 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
     ![Autoboot](/images/priiloader/autoboot_disabled.png)
 1. Scroll down to `save settings` and press A.
     ![Saving Settings](/images/priiloader/settings_save.png)
-1. Press B to return to the main menu.
+1. Press `B` to return to the main menu.
 1. Scroll back up to `System Menu` and press A.
 
 [Continue to Open Shop Channel Installation](osc)

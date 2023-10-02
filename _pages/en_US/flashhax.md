@@ -13,16 +13,27 @@ FlashHax is an exploit for the Wii that is triggered by using the Internet Chann
 
 ### Instructions
 
-1. Open up the Internet Channel on your Wii.
-    ![Internet Channel Wii Menu](/images/exploits/flashhax/internet-channel-start.png)
-1. Go to flashhax.com in the browser and select the correct region for your console.
-    ![Flashhax Region Select](/images/exploits/flashhax/select-region.png)
-1. Bookmark the web page, by clicking the star button and pressing `Add Favorite`.
-    ![Bookmark Flashhax](/images/exploits/flashhax/bookmark-page.png)
-1. Open the site from the bookmark. It will then proceed to download and load the HackMii Installer. It may take some time as it is downloading the installer over the Internet.
-    ![Downloading Flashhax](/images/exploits/flashhax/wait-for-download.png)
+#### Section I - Prep Work
 
-If the HackMii Installer doesn't load and it instead freezes (you can't move your cursor), please restart your Wii and repeat step 4 until it works. It might take multiple tries, so be persistent!
+1. Power on your console.
+1. Launch the Internet Channel.
+    ![Internet Channel Wii Menu](/images/exploits/flashhax/internet-channel-start.png)
+1. Go to `flashhax.com`.
+1. Select the correct region for your console.
+    ![Flashhax Region Select](/images/exploits/flashhax/select-region.png)
+1. Press the star button to open the bookmark tab.
+1. Select `Add Favorite`.
+    ![Bookmark Flashhax](/images/exploits/flashhax/bookmark-page.png)
+
+#### Section II - FlashHax
+
+1. Open the site from the bookmark
+1. Wait a while
+    + It may take some time as it is downloading the installer over the Internet.
+    ![Downloading Flashhax](/images/exploits/flashhax/wait-for-download.png)
+1. If the exploit was successful, your device will have loaded the HackMii Installer.
+    + This may take multiple tries.
+    + If the HackMii Installer doesn't load and it instead freezes (you can't move your cursor), restart your Wii, launch the Internet Channel, then retry this section.
 
 If you still can't get it to load, try deleting your cookies or save data for the Internet Channel.
 

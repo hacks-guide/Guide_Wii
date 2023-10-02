@@ -33,31 +33,39 @@ Make sure that the console is close to the computer running the exploit, ideally
     * If you do not have one, make sure to get one compatible with Linux.
 * A USB flash drive formatted as FAT32.
     * This cannot be the same flash drive used for your Linux Machine.
+* [HackMii Installer v1.2](https://bootmii.org/download/)
 
 ### Instructions
 
-1. Download the HackMii installer from [the BootMii website](https://bootmii.org/download/).
+1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive. 
     + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-1. Extract it and place the `boot.elf` file in your flash drive. 
     + (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
-1. Connect the flash drive to the console. For a Wii mini, the USB port is on the back. For a normal Wii, use the bottom port. (or the right port if it's upright).
-1. Turn on your console and navigate to the settings menu. On the top right corner you will see a 4-character code like the one in the picture below. This code is your Wii Menu version, take a note of this as you will need it later. Afterwards, turn your console off.
-    ![SystemMenuVersion](/images/wii/SystemMenuVersion.png)
+1. Reinsert your flash drive into your console.
+    + For a Wii mini, the USB port is on the back.
+    + For a normal Wii, use the bottom port (or the right port if it's upright).
+1. Power on your console.
+1. Go to `Wii Settings`.
+1. Take note in the top right corner of the letter next to the system version.
+    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    ![Wii Region](/images/wii/SystemMenuVersion.png)
+1. Power off your console.
 1. Start your Linux distro, and ensure you are connected to the internet.
 1. Open the Terminal
 1. Run the following commands:
-```bash
-wget https://wii.guide/assets/files/bluebomb-helper.sh
-chmod +x bluebomb-helper.sh
-./bluebomb-helper.sh
-```
+    ```bash
+    wget https://wii.guide/assets/files/bluebomb-helper.sh
+    chmod +x bluebomb-helper.sh
+    ./bluebomb-helper.sh
+    ```
 1. The helper will then download the required files, and ask for information about your console.
     + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
     + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
-1. Turn on your console and **do not** connect any Wii Remotes.
-1. Press the Sync button repeatedly until the terminal shows `got connection handle`. This could take numerous attempts, so don't give up.
-
-The console should now boot to the HackMii installer. You can now shut down your Linux computer if you are not planning to use it later.
+1. Power on your console.
+    + **Do not** connect any Wii Remotes.
+1. Press the Sync button repeatedly until the terminal shows `got connection handle`.
+    + This could take numerous attempts.
+1. If the exploit was successful, your device will have loaded the HackMii Installer.
+    + If you are not planning to use it later, you can now shut down your Linux distro.
 
 If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
 {: .notice--info}

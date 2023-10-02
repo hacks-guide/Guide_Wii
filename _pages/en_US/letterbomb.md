@@ -19,22 +19,33 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
 
 ### Instructions
 
-1. On your Wii, go to `Wii Settings`. At this point, take note in the top right corner of the letter next to the system version. This letter corresponds to your system menu region, which you will need to know for the corresponding steps. Also, ensure that you are on System Menu version 4.3.
+1. Power on your console.
+1. Go to `Wii Settings`.
+1. Take note in the top right corner of the letter next to the system version.
+    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Also, ensure that you are on System Menu version 4.3.
     ![Wii Region](/images/wii/SystemMenuVersion.png)
-1. Next, go to `Internet` > `Console Information`, and take note of your FULL MAC address.
+1. Navigate to `Internet` > `Console Information`.
+1. Take note of your FULL MAC address.
     ![Mac Address](/images/wii/MacAddress.png)
-1. Visit [the HackMii website](https://please.hackmii.com/) and input your Wii MAC address and region. Ensure `Bundle the HackMii Installer for me!` is checked, and cut either wire.
+1. On your computer, open the browser and go to [the HackMii website](https://please.hackmii.com/).
+1. Input your Wii MAC address and region.
+1. Ensure `Bundle the HackMii Installer for me!` is checked.
+1. Cut either wire.
     ![HackMii Screen](/images/exploits/letterbomb/LetterBomb-PC.png)
-1. Take your SD card, and make sure that it is formatted as FAT32.
-1. Extract the contents of the downloaded ZIP to the root of your SD card.
-1. Take out your SD card and insert it in your Wii.
+1. Insert your SD card into your computer.
+1. Copy the `private` folder and the `boot.elf` file from the LetterBomb `.zip` to the root of your SD card.
+1. Reinsert your SD card into your console.
     + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
-1. On your Wii, return to the Wii Menu and then open the Wii Message Board. Then, open the red letter with a bomb.
+1. On your Wii, return to the Wii Menu.
+1. Launch the Wii Message Board.
+1. Open the red letter with a bomb.
     + Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
     + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
     + If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
     + If your Wii freezes after clicking on the letter, you most likely chose the wrong system menu region for LetterBomb. Go back to Step 2 and verify that you chose the right region.
     + If all is correct and there is freezing, keep on trying until it works.
+1. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ![LetterBomb Wii Menu](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
