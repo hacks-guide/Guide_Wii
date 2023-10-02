@@ -4,111 +4,86 @@ title: "Dumping Wii/GameCube games"
 
 {% include toc title="Table of Contents" %}
 
-Want to dump a GameCube or a Wii disk? There are two ways of doing so, depending on the tools you have available with you.
+This guide covers dumping GameCube or Wii game discs. You can either dump directly to an SD card or USB drive, or over the local network.
 
-<button class="tablinks btn btn--large btn--primary" id="defaultOpen" onclick="openTab(event, 'cleanrip')">To the SD card/USB drive</button>
-<button class="tablinks btn btn--large btn--info" onclick="openTab(event, 'dump-smb')">To a PC over the network</button>
-
-<div id="cleanrip" class="blanktabcontent" markdown="1">
-
-### CleanRip
+### Dumping a Disc to SD/USB (CleanRip)
 
 #### Requirements
 
-* An SD card or USB drive with at least 4.7 GB of free space (8.5 GB if dumping a dual layer disc).
-* [CleanRip](https://oscwii.org/library/app/cleanrip)
++ An SD card or USB drive with at least 4.7 GB of free space (8.5 GB if dumping a dual layer disc).
++ [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 #### Instructions
 
-##### Section I - Downloading/Installing
+If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), set `Dual Layer` in Step 6 to `Yes`.
+{: .notice--info}
 
 1. Extract CleanRip and put it in the `apps` folder on your SD card or USB drive.
 1. Insert your SD card into your Wii, and launch CleanRip from the Homebrew Channel.
-
-##### Section II - Ripping
-
-1. Select your device that you will be dumping the game to - your USB drive or SD card.
+1. Select your device that you will be dumping the game to - a USB device or SD card.
     ![Device type](/images/homebrew/CleanRip/2.png)
-1. On this screen, it asks you if you want to download a file with game checksums so you can verify the dump created is a 1:1 copy of the disc. It's your choice whether to say `Yes` or `No` to download this file.
+1. On this screen, CleanRip asks to download a file with game checksums to verify that the dump it creates is a 1:1 copy of the disc. It's recommended that you say `Yes` to this question, but it isn't required for a dump.
     ![DAT](/images/homebrew/CleanRip/3.png)
-1. Now insert the game you want to dump.
-    ![DVD](/images/homebrew/CleanRip/4.png)
-    ![Initialising Disc](/images/homebrew/CleanRip/5.png)
-1. Set it as shown on the screen below.
-
-    If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), set `Dual Layer` to `Yes`.
-    {: .notice--info}
-
+1. Insert the game disc you would like to dump.
+![DVD](/images/homebrew/CleanRip/4.png)
+1. Set the settings as shown on the screen below, while verifying if your game disc is dual layer or not.
     ![Settings](/images/homebrew/CleanRip/6.png)
-
-1. CleanRip will now dump your game. It can take a while, since it will dump the full 4.7 GB disc contents (8.5 GB for dual layer discs).
+1. CleanRip will now dump your game. This process can take quite some time, since it will dump the full 4.7 GB disc contents (8.5 GB for dual layer discs).
     ![Copying](/images/homebrew/CleanRip/7.png)
-</div>
+1. Proceed to [joining PART files](dump-games#joining-part-files-on-a-fat32-device).
 
-<div id="dump-smb" class="blanktabcontent" markdown="1">
-
-### Dumping a game over a local network
+### Dumping a Disc over LAN (Wii DVD Dumper)
 
 #### Requirements
 
-* [DVD Dump Tool](/assets/files/DVDDumpTool.zip)
-
-Your Wii and your computer must be connected to one local network.
-{: .notice--warning}
++ A Windows/Mac OS/Linux PC with an internet connection
++ [DVD Dump Tool](/assets/files/DVDDumpTool.zip)
 
 #### Instructions
 
-##### Section I - Downloading/Installing
+Download speeds will be slow due to limitations in the network hardware of the Wii, but it remains a valid solution if you are willing to be patient.
+{: .notice--info}
 
-1. Extract DVD Dump Tool and put it in the `apps` folder on your SD card or USB drive.
-1. Insert your SD card into your Wii, and launch DVD Dump Tool from the Homebrew Channel.
+Your Wii and your computer must be connected to the same local network.
+{: .notice--warning}
 
-##### Section II - Ripping
-
-1. Press the right on the D-pad and press A.
-    ![1](/images/homebrew/DumpDiscs_LAN/1.png)
-1. Choose the disc that you want to copy (The options are: `GameCube Disc`, `Wii Single-Layer Disc`, `Wii Dual-Layer Disc` and press "A"
+1. Extract DVD Dump Tool and put it in the `apps` folder of your SD card or USB device.
+1. Insert the device you downloaded the dump tool on into your Wii, and launch DVD Dump Tool from the Homebrew Channel.
+1. Press right on the D-pad and press A.
+1. Choose the disc that you want to copy (The options are: `GameCube Disc`, `Wii Single-Layer Disc`, `Wii Dual-Layer Disc`) and press "A"
     ![2](/images/homebrew/DumpDiscs_LAN/2.png)
-1. Now put your game to your Wii. (If it's already in your Wii, eject it and put it back.)
+1. Insert the game disc into your Wii. If it is already inserted, eject and reinsert the disc.
     ![InsertTheDisc](/images/homebrew/DumpDiscs_LAN/insertthedisc.jpg)
+1. Select the proper disc type.
     ![3](/images/homebrew/DumpDiscs_LAN/3.png)
-1. Remember your Wii URL (IP address)
+1. Press any button to begin the dumping process.
     ![4](/images/homebrew/DumpDiscs_LAN/4.png)
-1. On your computer's web browser, go to your address bar and enter the Wii URL.
+1. Remember or write down your Wii's URL (IP address). On your computer's web browser, go to your address bar and enter the Wii URL.
     ![5](/images/homebrew/DumpDiscs_LAN/5.png)
 1. Click on `Click here to download XXXX.iso`.
-    ![6](/images/homebrew/DumpDiscs_LAN/6.jpg)
+1. Proceed to [joining PART files](dump-games#joining-part-files-on-a-fat32-device).
 
-    The transfer speed is not the fastest, but if you can't use anything else, it's better than nothing.
-    {: .notice--info}
+### Joining PART files on a FAT32 device
 
-    ![7](/images/homebrew/DumpDiscs_LAN/7.PNG)
-
-</div>
-
-## Joining split files
-
-If you dumped the disc on a FAT32 formatted, device, you should've got at least 2 files that end with `.partX.iso`. They need to be joined up.
+If you dumped the disc (regardless if it was to a PC or Wii) on a FAT32 formatted device, you should have gotten at least two files that end with `.partX.iso`. They need to be joined.
 {: .notice--info}
 
-## Windows
+#### Windows
 
-1. Copy all the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
-1. Open the folder in File Explorer.
-1. While holding Shift, right click on an empty space within the folder.
-1. Select "Open PowerShell window here".
-1. In the new window that appears, type `cmd` and press enter.
-1. Finally, type `copy /b *.part?.iso game.iso` and press enter.
-1. Wait until it finishes. You can confirm this when "1 file(s) copied." appears.
+1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
+1. In this folder, click the address bar in Windows Explorer and copy its PATH.
+1. Open a PowerShell or Windows Terminal window.
+1. Run `cd [PATH]`.
+1. Type `copy /b *.part?.iso game.iso` and press enter.
+1. Wait until the merging process finishes. It should end with the terminal outputting `1 file(s) copied`.
 
-## macOS/Linux
+#### macOS/Linux
 
-1.  Copy all the files that share the same name and end with `.partX.iso` in a folder on your computer.
-1.  Open up a Terminal.
-1.  Use the `cd <path>` command and replace `<path>` by the path to your `.partX.iso` files.
-1.  Use the following command as is: `cat \*.part?.iso > game.iso`.
+1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
+1. Open up a Terminal.
+1. Run `cd [PATH]`, replacing [PATH] with the folder path to your `.partX.iso` files.
+1. Use the following command as is: `cat \*.part?.iso > game.iso`.
+1. Wait until the merging process finishes.
 
-To organize the games on your drive properly, you'll need to use [Wii Backup Manager](wiibackupmanager).
+To organize the games on your drive properly, you can use [Wii Backup Manager](wiibackupmanager).
 {: .notice--info}
-
-<script src="/assets/js/tabs.js"></script>

@@ -2,15 +2,15 @@
 title: "WiiConnect24"
 ---
 
-This guide provides different means of regaining WiiConnect24 functionality on your console. Although not at all nessecary, it is a "nice to have" feature that brings functionality back to Forecast/News Channel, Wii No Ma, Nintendo Channel, Check Mii Out Channel, and more. Please bear in mind, the functionality you gain depends entirely on what service(s) you use.
+This guide provides different means of regaining WiiConnect24 functionality on your console. Although not at all nessecary, it is a "nice to have" feature that was originally used for online connectivity in certain applications on the console. These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Channel, some Japan-exclusive channels, and more. Please bear in mind, the functionality you gain depends entirely on what service(s) you use.
 
-## Service Overview
+### Service Overview
 
-### Note about service compatability:
+#### Note about service compatability:
 Both services listed below are compatible with one another and can be loaded on the same console. With this said, it should be noted that when installing one channel over the other (WiiLink's Forecast Channel over RiiConect24's Forecast Channel for example), the channel you are installing will overwrite the old one. 
 
-### WiiLink
-A newer WC24/Japanese channel revival service that started in 2020, but is rapidly regained functionality in many different channels. The channels that are revived are listed below:
+#### WiiLink
+A newer WC24/Japanese channel revival service that started in 2020, but is rapidly regaining functionality in many different channels. The channels that are revived are listed below:
 
 + Japan Exclusive
     + Wii no Ma (Wii Room)
@@ -24,7 +24,7 @@ A newer WC24/Japanese channel revival service that started in 2020, but is rapid
     
 Their guide can be found [here](https://www.wiilink24.com/guide/1welcome/).
 
-### RiiConnect24
+#### RiiConnect24
 The oldest extant WC24 revival service, currently only with support for the worldwide WC24 channels as well as mail services. These are listed below:
 
 + Forecast/News Channel

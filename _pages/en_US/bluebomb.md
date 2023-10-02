@@ -15,6 +15,8 @@ BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's 
 If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
 {: .notice--info}
 
+Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+{: .notice--info}
 
 ### Requirements
 
@@ -54,9 +56,6 @@ chmod +x bluebomb-helper.sh
     + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
 1. Turn on your console and **do not** connect any Wii Remotes.
 1. Press the Sync button repeatedly until the terminal shows `got connection handle`. This could take numerous attempts, so don't give up.
-
-Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
-{: .notice--info}
 
 The console should now boot to the HackMii installer. You can now shut down your Linux computer if you are not planning to use it later.
 

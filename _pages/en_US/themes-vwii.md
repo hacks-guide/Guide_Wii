@@ -119,3 +119,6 @@ If you did everything correctly, you should now have your custom theme installed
 1. Select the .app file you copied to the SD card at the end of section 2 as if you were installing a theme.
 1. Select Install and wait until it finishes.
 1. When it's done, you can exit MyMenuify.
+
+[Click here to go back to the site index.](site-navigation)
+{: .notice--info}

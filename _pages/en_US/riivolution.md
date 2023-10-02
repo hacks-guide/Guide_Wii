@@ -61,5 +61,5 @@ Do not get confused with the actual Riivolution app, and the Riivolution folder 
 ```
 </details>
 
-[Return to site index](site-navigation)<br>
+[Click here to go back to the site index.](site-navigation)
 {: .notice--info}

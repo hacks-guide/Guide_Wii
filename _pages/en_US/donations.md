@@ -11,3 +11,6 @@ title: "Donations"
 [https://www.patreon.com/WiiLink24](https://www.patreon.com/WiiLink24)
 {: .text-center}
 {: .notice--info}
+
+[Click here to go back to the site index.](site-navigation)
+{: .notice--info}
