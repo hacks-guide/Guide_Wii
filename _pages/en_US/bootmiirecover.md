@@ -52,3 +52,6 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 If you were restoring a NAND backup in order to repair a brick and this did not fix your issue, please consult [the bricks portion](bricks) of this guide.
 {: .notice--info}
+
+[Click here to go back to the site index.](site-navigation)
+{: .notice--info}

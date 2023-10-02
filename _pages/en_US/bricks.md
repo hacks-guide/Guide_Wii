@@ -14,7 +14,7 @@ Preventing a brick involves many rules that range between common sense and fail-
 + **DO NOT FOLLOW OLD WII MODDING TUTORIALS, USE OLD HOMEBREW, OR USE OLD VIDEO GUIDES ON THE INTERNET UNLESS EXPLICITLY RECOMMENDED BY THE DEVELOPER**.
 + **DO NOT, UNDER ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. IT IS DANGEROUS, AND DOES THINGS THAT HAVE THE ABILITY TO BRICK YOUR WII!**
 + **DO NOT USE NAND BACKUPS FROM OTHER CONSOLES ON BOOTMII**.
-+ **DO NOT USE A NINTENDO WI-FI CONNECTION SERVICE UNLESS IT IS RCE PATCHED, SUCH AS `Wiimmfi`. DOING OTHERWISE COULD PLACE YOUR WII AT RISK OF BEING BRICKED!**
++ **DO NOT USE A NINTENDO WI-FI CONNECTION SERVICE UNLESS IT IS RCE PATCHED, SUCH AS [Wiimmfi](wiimmfi). DOING OTHERWISE COULD PLACE YOUR WII AT RISK OF BEING BRICKED!**
 + **ONLY INSTALL UPDATES FOR YOUR OWN REGION AND PLAY GAMES ONLY FROM YOUR OWN REGION**.
     + In most cases, playing a game from another region should simply cause the game to just not boot, unless you have sufficiently modified the console to do otherwise. With that said, extraordinary events have the potential to cause a brick, so the risk is better left untouched.
     + Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with making system updates to your console, and consider seeking support for help.
@@ -94,7 +94,7 @@ Attempt to start the Wii - warning/press A screen shows up, and when A is presse
 Banner bricks occur if you install a WAD file that has an invalid Wii Menu banner or icon.
 
 #### Solutions
-If you are somehow able to still access the Wii Menu, go into the Homebrew Channel and use [YAWMME](yawmme) or your current WAD manager to uninstall the corrupt channel.
+If you are somehow able to still access the Wii Menu, go into the Homebrew Channel and use [YAWM ModMii Edition](yawmme) or your current WAD manager to uninstall the corrupt channel.
 
 If you cannot access the Wii Menu, and have [Priiloader](priiloader) installed, enter it by holding RESET while turning your Wii on. Select Homebrew Channel, then uninstall the corrupt channel.
 
@@ -110,7 +110,7 @@ Attempt to start the Wii - warning/press A screen shows up, and when A is presse
 A theme brick occurs when a wrongly formatted theme is installed. 
 
 #### Solutions
-To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access MyMenuifyMod to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWMME](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
+To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access MyMenuifyMod to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
 
 ## Mail brick
 
@@ -118,12 +118,12 @@ To resolve this issue, open HBC through Priiloader or BootMii as boot2 and acces
 Attempt to start the Wii - warning/press A screen shows up, and when A is pressed, the screen passes normally; however, beyond this point, nothing happens and the Wii remains on a black screen. Maintenence mode is still accessible.
 
 #### Cause
-A mail brick occurs when a Wii has too much mail to handle, or when malformed mail is in the Wii Message Board, causing a crash upon booting through normal means. Because the Wii Message Board is always drawn below Wii channels, this causes the Wii Menu to fail as it is always open.
+A mail brick occurs when a Wii has too much mail to handle, or when malformed mail is in the Wii Message Board, causing a crash upon booting through normal means. Because the Wii Message Board is always drawn below Wii channels, this causes the Wii Menu to fail before fully loading.
 
 #### Solution
 By entering holding + and - on the warning screen, Maintenence mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed and the system menu is at Wii menu version 2.0 or later, follow [str2hax](str2hax). Otherwise, see [Bluebomb](bluebomb).
 
-From here, the Homebrew Browser can be loaded and mail can be deleted by using WiiXplorer and navigating to `TO BE COMPLETED, INSERT INFORMATION ON HOW TO SOLVE MAIL BRICK`
+From here, the Homebrew Channel can be loaded and the brick can be fixed by deleting Wii Message Board data with [cdbackup](https://oscwii.org/library/app/cdbackup).
 
 ## Wii Menu/Opera brick
 
@@ -214,3 +214,6 @@ First, troubleshooting must be done to determine if hardware is at fault. In the
 + Attempt to boot into [Recovery Mode](recovery-mode) (normal Wiis only). If the Wii boots into Recovery Mode, see [Wi-Fi brick](wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
 + Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
 + At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.
+
+[Click here to go back to the site index.](site-navigation)
+{: .notice--info}

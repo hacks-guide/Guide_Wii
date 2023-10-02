@@ -11,13 +11,6 @@ For support (in English) with RiiConnect24, as well as RiiTag, join [RiiConnect2
 
 [RiiConnect24](https://rc24.xyz/) allows you to use discontinued services from WiiConnect24, which include the News, Forecast, Everybody Votes, Nintendo and Check Mii Out Channel, along with Wii Mail.
 
-{% capture notice-1 %}
-This guide is for regular Wiis only.
-
-+ Follow [this tutorial](riiconnect24-vwii) if you'd like to install RiiConnect24 on vWii (Wii Mode on Wii U).
-+ Follow [this tutorial](riiconnect24-dolphin) if you'd like to install RiiConnect24 on Dolphin Emulator.
-  {% endcapture %}
-
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
 It's recommended to set your Wii to the current time before proceeding. Follow [this tutorial](rtc) in order to set it.
@@ -27,6 +20,9 @@ DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick th
 {: .notice--danger}
 
 ### Requirements
+
+If you are on vWii, you will also need [Priiloader](priiloader) installed with the WC24 hacks.
+{: .notice--primary}
 
 * An SD card or USB drive
 * A Wii with an Internet connection
@@ -59,12 +55,15 @@ DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick th
     ![Successfully detected](/images/riiconnect24/patcher/8.JPG)
 1. Be patient...
     ![It's patching!](/images/riiconnect24/patcher/9.JPG)
-1. After it's done, we would appreciate if you take a minute to send anonymous feedback to us. If you don't want to, close the patcher. All the files should already be on your SD Card.
+1. After it's done, you can send anonymous feedback to RiiConnect24. If you don't want to, close the patcher. All the files should already be on your SD Card.
     ![It's done!](/images/riiconnect24/patcher/10.JPG)
     ![Files copied](/images/riiconnect24/patcher/11.PNG)
 1. If it did not copy everything automatically to your SD Card or USB Device, copy the `WAD` and `apps` folder next to `RiiConnect24Patcher.bat` to your SD Card or USB Device.
 
 #### Section II - Installing WADs
+
+If you are using Dolphin, you are finished the guide. Install the WADs by going to `Tools -> Install WAD` within Dolphin.
+{: .notice--primary}
 
 You will now install the patched IOS and Channel WADs that are required to use RiiConnect24.
 
@@ -87,7 +86,6 @@ You will now patch your `nwc24msg.cfg` file which is required in order to use Wi
 
 {% capture notice-1 %}
 The old DNS server `164.132.44.106` has been deprecated as of `June 1st, 2023` and is no longer available to use.
-[Read more here](riiconnect24-dns-update).
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -123,13 +121,8 @@ If you get error 107304 or you see Nintendo's User Agreement without RiiConnect2
 If you're getting errors such as `WiiConnect24 and Wii Shop Channel currently not being offered in your country`, go to Wii Settings -> Last Page -> Country and change it to United Kingdom. You will get this error when using a country that RiiConnect24 does not support.
 {: .notice--warning}
 
-[Continue to WiiLink](wiilink)<br>
-WiiLink lets you use the Japanese-exclusive channels known as Wii no Ma and Digicam Print Channel. This is optional to install.
+[Return to WiiConnect24](wiiconnect24)
 {: .notice--info}
 
-[Continue to Wiimmfi](wiimmfi)<br>
-Wiimmfi lets you play games online after the discontinuation of Nintendo Wi-Fi Connection. This is optional to install.
-{: .notice--info}
-
-[Return to site index](site-navigation)<br>
+[Click here to go back to the site index.](site-navigation)
 {: .notice--info}

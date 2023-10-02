@@ -99,8 +99,8 @@ To enter it later on, simply run the "Load Priiloader" homebrew app. There are a
 
 </details>
 
-[Continue to the Dos and Don'ts of Wii Modding](dosanddonts)<br>
-These are some guidelines to ensure you don't brick your Wii.
+[View the Brick Prevention Guidelines](bricks#brick-prevention)<br>
+These guidelines list different ways that you can avoid bricking your Wii, beyond BootMii or Priiloader.
 {: .notice--info}
 
 ### Additional options
@@ -158,3 +158,7 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
     ![Saving Settings](/images/priiloader/settings_save.png)
 1. Press B to return to the main menu.
 1. Scroll back up to `System Menu` and press A.
+
+[Continue to Open Shop Channel Installation](osc)
+Now that your Wii has adequate brick protection, you can grab a trusted repository for homebrew that can be accessed both on and off the Wii - the Open Shop Channel.
+{: .notice--info}

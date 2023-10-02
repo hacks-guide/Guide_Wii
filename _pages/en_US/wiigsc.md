@@ -15,8 +15,8 @@ Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It
 ### Requirements
 
 * A Wii
-* A USB drive.
-* A WAD Manager ([YAWM ModMii Edition](yawmme) is recommended).
+* A USB drive
+* [YAWM ModMii Edition](yawmme)
 * A Windows computer.
 * [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
 
@@ -34,3 +34,6 @@ If you get an error saying "The system files are corrupted", don't panic as long
 Turn off your Wii, then hold down the RESET button down and turn on your Wii. You should be able to boot into the Priiloader menu. <br>
 Simply enter the Homebrew Channel, and use your WAD manager to uninstall the WAD.
 </div>
+
+[Click here to go back to the site index.](site-navigation)
+{: .notice--info}

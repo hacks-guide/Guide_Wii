@@ -33,3 +33,6 @@ This tutorial will show you how to install WADs.
 1. Press A again to install the WAD(s).
     ![Installing WAD](/images/homebrew/yawmME/installing_wad.png)
     ![Installing WAD OK](/images/homebrew/yawmME/installing_wad_ok.png)
+
+[Click here to go back to the site index.](site-navigation)
+{: .notice--info}

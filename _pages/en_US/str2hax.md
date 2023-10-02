@@ -15,6 +15,17 @@ str2hax is an exploit for the Wii that is triggered by loading the Wii's End Use
 
 ### Instructions
 
+#### Common issues
+
+If you get the normal User Agreements, your ISP blocks the use of custom DNS. Please [use another exploit](get-started).
+{: .notice--warning}
+
+If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+{: .notice--warning}
+
+If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
+{: .notice--warning}
+
 #### Section I - Connecting
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
@@ -59,14 +70,3 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}
-
-#### Common issues
-
-If you get the normal User Agreements, your ISP blocks the use of custom DNS. Please [use another exploit](get-started).
-{: .notice--warning}
-
-If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
-{: .notice--warning}
-
-If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
-{: .notice--warning}

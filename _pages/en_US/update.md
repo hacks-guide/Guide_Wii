@@ -50,3 +50,6 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 1. Navigate to the Wii Menu WAD and press A twice to install it.
 1. When prompted to retain Priiloader, press A to confirm.
 1. After they are successfully installed, press the HOME Button to exit back to the Homebrew Channel.
+
+[Click here to go back to the site index.](site-navigation)
+{: .notice--info}

@@ -39,7 +39,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + If you don't see the green letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii's SD card reader.
         ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
 
-If this didn't work for you, [try another exploit](get-started) or try [Wilbrand CLI](#wilbrand-cli).
+If this didn't work for you, [try another exploit](get-started) such as Letterbomb or try [Wilbrand CLI](#wilbrand-cli).
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}

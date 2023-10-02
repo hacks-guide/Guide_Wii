@@ -36,3 +36,9 @@ First of all, verify that your Wii can boot into Recovery Mode *at all*. This in
 
 ---
 Under Construction
+
+[Return to Bricks](bricks)
+{: .notice--info}
+
+[Click here to go back to the site index.](site-navigation)
+{: .notice--info}

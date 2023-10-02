@@ -1,30 +1,54 @@
 ---
-title: "Installing Wii Menu Themes"
+title: "Wii Themes"
 ---
 
 {% include toc title="Table of Contents" %}
 
-Are you tired of the boring, plain white theme on your Wii Menu, and want a cool theme instead? This tutorial will help you get a new theme for your Wii Menu!
+This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through MyMenuifyMod, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
 
-To protect against bricks, [make sure you install Priiloader](priiloader). Also, install [BootMii](bootmii) (as Boot2 if you have an early Wii, otherwise IOS). Installing brick protection along with following the guide correctly should keep you safe from bricks. DO NOT CONTINUE UNTIL YOU HAVE INSTALLED PRIILOADER AND BOOTMII!
+DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) AND [PRIILOADER](priiloader)!
 {: .notice--danger}
 
-Only install themes on your Wii that have been formatted specifically for it, and its current region.
-Installing themes from the wrong region or version on your Wii will cause a brick. This tutorial will tell you how to create a .csm file that is safe to install.
-{: .notice--danger}
-
-This guide is intended for regular Wiis only.
-For installing themes on vWii (Wii U), follow [this page](themes-vwii).
-{: .notice--warning}
-
-For safety purposes, please do not use any other version of MyMenuify than the one linked here, as MyMenuify Mod is the safest way to install a theme.
+MyMenuifyMod has built in safety features to prevent from installing bad or corrupt Wii Menu themes, please opt to use it as it is one of the safest methods of installing them.
 {: .notice--warning}
 
 Do not use any other version of ThemeMii than the one linked here, as ThemeMii Mod allows you to make a theme for Wii Menu version 4.3, other versions may not.
 {: .notice--warning}
 
-We recommend you [install cIOS](cios) before continuing.
-{: .notice--info}
+### Wii Menu Themes
+
+Only install themes on your Wii that have been formatted specifically for it, and its current region. Installing themes from the wrong region or version on your Wii will cause a [brick](bricks#theme-brick). This tutorial will tell you how to create a .csm file that is safe to install.
+{: .notice--danger}
+
+### Wii Menu (vWii) Themes
+
+### WiiFlow Lite Themes
+
+### USB Loader GX Themes
+
+### Homebrew Channel Themes
+
+#### Requirements
++ A modded Wii
++ An SD card or USB device
++ A Linux/Mac OS/Windows PC with an internet connection
++ A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
+
+#### Instructions
+1. Download a theme `.zip` file from the website linked above.
+![Example Theme](/images/themes/homebrew-channel-example-theme.png)
+1. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
+![Paste ZIP](/images/themes/homebrew-channel-paste-zip.png)
+1. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
+![Extract ZIP](/images/themes/homebrew-channel-extract-theme.png)
+1. Reinsert the storage device into your Wii and enter the Homebrew Channel.
+1. The theme you just installed can be loaded in the same way that you access a standard app.
+![Load Theme](/images/themes/homebrew-channel-load-theme.png)
+1. The theme should now be loaded, enjoy!
+![Enjoy Theme](/images/themes/homebrew-channel-theme-done.png)
+
+
+### App Forwarders
 
 ### Requirements
 
@@ -79,4 +103,7 @@ MAKE SURE YOU READ THE WARNINGS ABOVE BEFORE CONTINUING!
 1. Highlight the theme you want to install, then press A. Give it a moment to install the theme, then press any button to go to the Wii Menu. Hopefully, the theme installed correctly.
 
 If you get an error saying "The system files are corrupted" or a black screen, don't panic as long as you installed Priiloader. Turn off your Wii, then hold down the RESET button down and turn on your Wii. You should be able to boot into the Priiloader menu, where you have some options to fix your Wii Menu. One of the options is to launch the Homebrew Channel, where you can launch MyMenuify Mod and press a button to download and install the original Wii Menu theme.
+{: .notice--info}
+
+[Click here to go back to the site index.](site-navigation)
 {: .notice--info}
