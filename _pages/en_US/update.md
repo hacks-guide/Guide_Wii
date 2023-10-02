@@ -29,7 +29,7 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 1. Make sure `Pack WAD` is checked.
 1. Press `Start NUS Download!`.
 1. Open the `titles` -> `0000000100000002` -> (Wii Menu version) and copy the .wad file to a folder called `wad` on your SD Card or USB drive.
-1. Repeat steps 2-5 with `IOS` -> `000000010000003A` -> `Latest Version`.
+1. Repeat steps 2-5 with `IOS` -> `000000010000003A` -> `Latest Version` and `IOS` -> `0000000100000050` -> `Latest Version`.
 1. After you have copied all 3 `.wad` files, eject your SD card/USB drive from your PC and put it back into your Wii.
 
 | Region | Wii Menu version |
