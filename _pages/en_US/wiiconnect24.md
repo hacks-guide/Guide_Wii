@@ -36,7 +36,7 @@ The oldest extant WC24 revival service, currently only with support for the worl
 RiiConnect24 currently does not have a self-hosted guide, however you can find ours [here](riiconnect24).
 
 ## Updating RTC Clock
-If you choose to install either of these services on your Wii, it is advised to synchronize its enternal clock in order to prevent various issues that may arise otherwise. The steps to do so can be found below:
+If you choose to install either of these services on your Wii, it is advised to synchronize its external clock in order to prevent various issues that may arise otherwise. The steps to do so can be found below:
 
 #### What you need
 + A working Internet connection on your Wii
@@ -53,5 +53,5 @@ If you choose to install either of these services on your Wii, it is advised to 
 1. Press the HOME Button to exit.
 
 [Proceed to Nintendo Wi-Fi Connection](wiimmfi)<br>
-Thie guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. While there are different private servers and services that allow this, the one covered here will be Wiimmfi.
+This guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. While there are different private servers and services that allow this, the one covered here will be Wiimmfi.
 {: .notice--info}
