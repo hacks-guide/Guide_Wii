@@ -6,9 +6,9 @@ title: "FAQ"
 
 ### How risky is hacking my console?
 
-Bricks (a state where either some or all of your Wii software/hardware is not working) are extremely rare, as long as you install common safeguards like [BootMii](bootmii) and [Priiloader](priiloader). Also attempt to stay within common safety checks, oand try to avoid risky actions when possible such as installing an older version of the Wii Menu. Never, **EVER** install a Korean version of the Wii Menu unless you know what you are doing!
+Bricks (a state where either some or all of your Wii software/hardware is not working) are extremely rare, as long as you install common safeguards like [BootMii](bootmii) and [Priiloader](priiloader). Also attempt to stay within common safety checks, and try to avoid risky actions when possible such as installing an older version of the Wii Menu. Never, **EVER** install a Korean version of the Wii Menu unless you know what you are doing!
 
-### My wii is bricked!!! What do I do?
+### My Wii is bricked! What do I do?
 
 See the [Bricks guide](bricks).
 
