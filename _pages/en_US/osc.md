@@ -15,7 +15,7 @@ There are two methods to use the Open Shop Channel - on your Wii through the Hom
 
 #### Requirements
 
-+ A Windows/Mac OS/Linux computer with an internet connection
++ A Windows/macOS/Linux computer with an internet connection
 + An SD card or USB drive
 + [The Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
@@ -30,7 +30,7 @@ There are two methods to use the Open Shop Channel - on your Wii through the Hom
 
 #### Requirements
 
-+ A Windows/Mac OS/Linux computer with an internet connection
++ A Windows/macOS/Linux computer with an internet connection
 + An SD card or USB drive
 + The latest version of [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)
 
@@ -46,15 +46,19 @@ There are two methods to use the Open Shop Channel - on your Wii through the Hom
 1. A `.zip` file containing your app should download wherever you specified the directory to be. Simply extract the `apps` folder in this archive to the root of your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. Your downloaded piece of homebrew should now display.
 
-#### Instructions for Mac OS/Linux
+#### Instructions for macOS/Linux
 
 UNDER CONSTRUCTION
 
 If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue reading past this point, but bear in mind that the following steps are optional.
 {: .notice--success}
 
-[Continue to Recommended Homebrew](recommended-homebrew)<br>
-This guide outlines selections of homebrew by the guide staff that are notable for being useful, nice to have, or flat out good in a way that warrants a recommendation.
+If using a Wii: [Continue to cIOS](cios)<br>
+This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
+{: .notice--info}
+
+If using a Wii mini: [Continue to Wii mini cIOS](cios-mini)<br>
+This guide provides installation instructions for cIOS on Wii minis.
 {: .notice--info}
 
 [Return to site index](site-navigation)<br>

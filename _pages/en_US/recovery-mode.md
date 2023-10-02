@@ -18,7 +18,7 @@ Recovery Mode is a last resort method for recovering your Wii console from a bri
 + If the Diagnostic Disc Check was not previously removed with Priiloader, and no drive chip is on hand:
     + Super Smash Bros. Melee ([Smash Stack](legacy-exploits#smash-stack))
 + An original revision Nintendo Wii (Family Edition Wiis will not work due to the lack of GameCube ports - otherwise you must solder some on)
-+ A Windows/Mac OS/Linux PC with an Internet connection
++ A Windows/macOS/Linux PC with an Internet connection
 + An SD Card formatted to FAT32
 
 #### Preparation

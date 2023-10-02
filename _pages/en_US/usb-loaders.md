@@ -2,7 +2,9 @@
 title: "USB Loaders"
 ---
 
-This guide will introduce you to USB loaders on the Wii. They can be primarily used to load game backups that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
+{% include toc title="Table of Contents" %}
+
+This guide introduces USB loaders on the Wii. They can be primarily used to load game backups that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
 
 **Note about Configurable USB Loader:**<br>
 Due to the age and lack of support for Configurable USB Loader (last update was in 2011), this guide does not provide dedicated installation instructions. If enough demand is there, it may be added in the future.
@@ -29,6 +31,15 @@ Forwarders to open these loaders on the Wii Menu can be found on the Open Shop C
     + USB Loader GX has no plugin system.
     + USB Loader GX still recieves regular updates.
     ![USB Loader GX UI](/images/usb-loaders/usbloadergx-ui.png)
+
+### Game Directory Structure
+
+```
+💾 SD Card or USB Drives
+| ╸📁 wbfs
+	| ╸📁 GameName [GameID]
+		| ╸📄 GameID.wbfs
+```
 
 ### WiiFlow Lite
 
@@ -146,7 +157,7 @@ To change the cIOS used for a specific game, follow the instructions specific to
     + Try using 250 or 251, if 249 doesn't work.
 1. Press OK and try to load the game.
 
-#### WiiFlow
+#### WiiFlow Lite
 1. Select the game that isn't working.
 1. Click the gear icon.
 1. Go to cIOS and use the arrows to select the IOS slot to use.

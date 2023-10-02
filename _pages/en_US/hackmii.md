@@ -36,8 +36,6 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
 To check if your Wii has Priiloader, hold the RESET button while turning it on.
-![Turn on](/images/Priiloader/on.jpg)
-![Hold RESET](/images/Priiloader/reset.jpg)
 {: .notice--info}
 
 #### Instructions

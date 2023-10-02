@@ -47,9 +47,8 @@ The expected structure for multi disc games is as follows:<br>
 `device:/games/(game name) [game ID]/game.iso`<br>
 `device:/games/(game name) [game ID]/disc2.iso` (so on and so forth)
 
-Here is an example using The Legend of Zelda: The Wind Waker on a USB hard drive:
+Here is an example using The Legend of Zelda: The Wind Waker on a USB hard drive:<br>
 `USB:/games/The Legend of Zelda: The Wind Waker [GZLE01]/game.iso`
-
 
 #### BIOS Setup
 

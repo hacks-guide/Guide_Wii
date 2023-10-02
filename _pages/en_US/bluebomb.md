@@ -59,8 +59,8 @@ chmod +x bluebomb-helper.sh
 
 The console should now boot to the HackMii installer. You can now shut down your Linux computer if you are not planning to use it later.
 
-[If using a Wii, proceed to installing the Homebrew Channel and BootMii](hbc)
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
 {: .notice--info}
 
-[If using a Wii mini, proceed to installing the Homebrew Channel](hbc-mini)
+If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
 {: .notice--info}

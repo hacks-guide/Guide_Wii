@@ -27,7 +27,7 @@ Here are some common examples of what homebrew can do for your Wii:
 + [Patch game disc contents](riivolution), allowing you to load game modifications.
 + Turn your Wii into a [media center](wiimc).
 + Install [themes](themes) both on the Wii Menu and on commonly used homebrew apps.
-+ Install a [USB loader](usb-loader) to launch Wii games and more from an external storage device.
++ Install a [USB loader](usb-loaders) to launch Wii games and more from an external storage device.
 + Back up your [discs](dump-games) and [other installed titles](dump-wads).
 + [Back up and restore](wii-saves) your Wii save files.
 + [Back up and restore](gcsaves) your GameCube save files.
