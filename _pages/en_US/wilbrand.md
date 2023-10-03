@@ -29,15 +29,21 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Go to `Wii Settings`.
 1. Take note in the top right corner of the letter next to the system version.
     + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+
     ![Wii Region](/images/wii/SystemMenuVersion.png)
+
 1. Navigate to `Internet` > `Console Information`.
 1. Take note of your FULL MAC address.
+
     ![Mac Address](/images/wii/MacAddress.png)
+
 1.  On your computer, open the browser and go to [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/).
 1. Input your Wii MAC, version and region.
 1. Ensure `Bundle the HackMii Installer for me!` is checked.
 1. Cut either wire.
+
     ![Wilbrand Web](/images/exploits/wilbrand/web.png)
+
 1. Click on "Download your .zip".
 1. Insert your SD card into your computer.
 1. Copy the `private` folder and the `boot.elf` file from the downloaded `.zip` to the root of your SD card.
@@ -49,7 +55,9 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
     + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
     + If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
+
     ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
+
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
     + If this didn't work for you, [try another exploit](get-started) such as Letterbomb or try [Wilbrand CLI](#wilbrand-cli).
 
@@ -75,10 +83,14 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Go to `Wii Settings`.
 1. Take note in the top right corner of the letter next to the system version.
     + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+
     ![Wii Region](/images/wii/SystemMenuVersion.png)
+
 1. Navigate to `Internet` > `Console Information`.
 1. Take note of your FULL MAC address.
+
     ![Mac Address](/images/wii/MacAddress.png)
+
 1. Copy all files from the Wilbrand `.zip` to a folder on your computer
 1. Insert your SD card into your computer.
 1. Open a terminal inside the folder Wilbrand was extracted to.
@@ -86,11 +98,13 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     + Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
         + `X:` is the drive letter of your SD card.
+
         ![running Wilbrand on Windows](/images/exploits/wilbrand/windows.png)
 
     + Linux/MacOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
         + If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
         + `/media/mount_dir` is the folder your SD card is mounted in. This may vary depending on your Linux distro.
+
         ![running Wilbrand on Linux](/images/exploits/wilbrand/linux.png)
 
 1. Copy all files from the hackmii_installer_v1.2 `.zip` to a folder on your computer.
@@ -104,7 +118,9 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
     + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
     + If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
+
     ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
+
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)

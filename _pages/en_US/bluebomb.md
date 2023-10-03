@@ -47,16 +47,20 @@ Make sure that the console is close to the computer running the exploit, ideally
 1. Go to `Wii Settings`.
 1. Take note in the top right corner of the letter next to the system version.
     + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+
     ![Wii Region](/images/wii/SystemMenuVersion.png)
+
 1. Power off your console.
 1. Start your Linux distro, and ensure you are connected to the internet.
 1. Open the Terminal
 1. Run the following commands:
+
     ```bash
     wget https://wii.guide/assets/files/bluebomb-helper.sh
     chmod +x bluebomb-helper.sh
     ./bluebomb-helper.sh
     ```
+
 1. The helper will then download the required files, and ask for information about your console.
     + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
     + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)

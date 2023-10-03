@@ -109,16 +109,25 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 #### Instructions
 1. Download a theme `.zip` file from the website linked above.
-![Example Theme](/images/themes/homebrew-channel-example-theme.png)
+
+    ![Example Theme](/images/themes/homebrew-channel-example-theme.png)
+
 1. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
-![Paste ZIP](/images/themes/homebrew-channel-paste-zip.png)
+
+    ![Paste ZIP](/images/themes/homebrew-channel-paste-zip.png)
+
 1. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
-![Extract ZIP](/images/themes/homebrew-channel-extract-theme.png)
+
+    ![Extract ZIP](/images/themes/homebrew-channel-extract-theme.png)
+
 1. Reinsert the storage device into your Wii and enter the Homebrew Channel.
 1. The theme you just installed can be loaded in the same way that you access a standard app.
-![Load Theme](/images/themes/homebrew-channel-load-theme.png)
+
+    ![Load Theme](/images/themes/homebrew-channel-load-theme.png)
+
 1. The theme should now be loaded, enjoy!
-![Enjoy Theme](/images/themes/homebrew-channel-theme-done.png)
+
+    ![Enjoy Theme](/images/themes/homebrew-channel-theme-done.png)
 
 ### App Forwarders
 

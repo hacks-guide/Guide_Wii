@@ -37,13 +37,21 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Insert your physical memory card into Slot A or Slot B.
 1. Select the device you want to restore from.
+
     ![Device](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
 1. In GCMM, Press X on a GameCube controller or + on a Wii remote.
+
     ![Menu](/images/homebrew/gcsaves/gcmm-menu.jpg)
+
 1. Select the slot your memory card is in.
+
     ![Memory](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+
 1. Select the save you want to restore. If you have multiple saves to restore, you can press R on the GameCube controller or 1 on the Wii remote to restore all of your saves.
+
     ![Save](/images/homebrew/gcsaves/gcmm-select-save.jpg)
+
 1. When restoration is complete, press any button to continue.
 
 ## Backing Up A Save (.gci File) to an SD or USB From a Physical Memory Card
@@ -66,13 +74,21 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Insert your physical memory card into slot A or slot B.
 1. Select the device you want to backup to.
+
     ![Device](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
 1. In GCMM, Press Y on a GameCube controller or - on a Wii remote.
+
     ![Menu](/images/homebrew/gcsaves/gcmm-menu.jpg)
+
 1. Select the slot your memory card is in.
+
     ![Memory](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+
 1. Select the save you want to backup. If you have multiple saves to backup, you can press R on the GameCube controller or 1 on the Wii remote to backup all of your saves.
+
     ![Save](/images/homebrew/gcsaves/gcmm-select-save.jpg)
+
 1. When backing up is complete, press any button to continue.
 
 ## Backing Up Your Physical Memory Card Into an Emulated Memory Card (.raw file)
@@ -94,9 +110,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Insert your memory card into Slot A or Slot B.
 1. Select the device you want to dump to.
+
     ![Device](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
 1. Press L and Y at the same time on GameCube Controller or B and - at the same time on the Wii remote to backup your to a .raw file and select the slot your memory card is in.
+
     ![Memory](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+
 1. When the dump is complete, press any button to continue. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
 
 ## Restoring an Emulated Memory Save to a Physical Memory Card
@@ -113,10 +133,14 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 1. If you are restoring a Nintendont emulated memory card save, navigate to the `saves` folder on the root of your SD card or USB.
 1. Insert your memory card into Slot A or Slot B.
 1. Select the device you want to restore from.
+
     ![Device](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
 1. Press L and X at the same time on GameCube controller or B and + at the same time on the Wii remote.
 1. Select the slot your memory card is in.
+
     ![Memory](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+
 1. It should restore the .raw file to your memory card. When restoration is complete, press any button to continue.
 
 ## Transferring Saves Between 2 Physical Memory Cards
@@ -130,6 +154,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Insert both memory cards into the Wii.
 1. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
+
     ![sysmenu](/images/homebrew/gcsaves/sysmenu.jpg) <br>
 
     ![settings](/images/homebrew/gcsaves/settings.jpg) <br>

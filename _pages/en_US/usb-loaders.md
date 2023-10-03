@@ -25,11 +25,14 @@ Forwarders to open these loaders on the Wii Menu can be found on the Open Shop C
     + SD cards are fully supported for loading Wii games on WiiFlow Lite.
     + WiiFlow Lite has a plugin system.
     + While the original WiiFlow was last updated in 2014, the WiiFlow Lite fork is still recieving regular updates.
+
     ![WiiFlow UI](/images/usb-loaders//wiiflow-ui.png)
+
 + USB Loader GX is primarily modeled after the Wii Menu, and supports themes.
     + While SD cards were previously unsupported for loading Wii games on USB Loader GX, recent updates have introduced support into the loader. Compatability may be hit or miss.
     + USB Loader GX has no plugin system.
     + USB Loader GX still recieves regular updates.
+
     ![USB Loader GX UI](/images/usb-loaders/usbloadergx-ui.png)
 
 ### Game Directory Structure

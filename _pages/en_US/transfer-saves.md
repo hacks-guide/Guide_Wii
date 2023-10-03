@@ -221,24 +221,35 @@ Make sure you have installed [cIOS](cios) before following this!
 
 1. Open Dolphin Emulator.
 1. In the main menu, select `File > Open User Folder`.
-![Open User Folder](/images/dolphin/open-user-folder.png)
+
+    ![Open User Folder](/images/dolphin/open-user-folder.png)
+
 1. In the folder that opens, navigate to `GC > [Save region] > Card A`.
 1. Copy the `.gci` files you would like to put on your Memory Card.
 1. Create a folder named `MCBACKUP` on your SD card or USB drive, and place the `.gci` files you copied into it.
-{{ dolphin-emu-memcard-manager }}
+
+    {{ dolphin-emu-memcard-manager }}
 
 1. Download and extract GCMM to the root of your SD card or USB drive.
 1. Safely eject the SD/USB from your PC, then insert it into your Wii.
 1. Launch the Homebrew Channel, then launch GCMM.
 1. Select the device you have copied the `.gci` files to.
-![GCMM Select device](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
+    ![GCMM Select device](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
 1. Press `+`/`X` to enter Restore mode.
-![GCMM Main menu](/images/homebrew/gcsaves/gcmm-menu.jpg)
+
+    ![GCMM Main menu](/images/homebrew/gcsaves/gcmm-menu.jpg)
+
 1. Select the slot that has your Memory card.
-![GCMM Select card slot](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
-1. Select the save you would like to restore. <br>
-If you would like to restore all the saves in `MCBACKUP`, press `1`/`R`.
-![GCMM Restore menu](/images/homebrew/gcsaves/gcmm-restore-save.jpg)
+
+    ![GCMM Select card slot](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+
+1. Select the save you would like to restore.
+    + If you would like to restore all the saves in `MCBACKUP`, press `1`/`R`.
+
+    ![GCMM Restore menu](/images/homebrew/gcsaves/gcmm-restore-save.jpg)
+
 1. When restoration is complete, press any button to continue.
 
 </div>
@@ -283,11 +294,17 @@ All methods here require a Wii with GameCube ports.
 1. Safely eject the SD/USB from your PC, then put it into your Wii.
 1. Launch the Homebrew Channel, then launch GCMM.
 1. Select the device you would like to copy the save file to.
-![GCMM Select device](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
+    ![GCMM Select device](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
 1. Press `B` and `-`/`L` and `Y` to enter Raw backup mode.
-![GCMM Main menu](/images/homebrew/gcsaves/gcmm-menu.jpg)
+
+    ![GCMM Main menu](/images/homebrew/gcsaves/gcmm-menu.jpg)
+
 1. Select the slot that has your memory card.
-![GCMM Select card slot](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+
+    ![GCMM Select card slot](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+
 1. When the dump is complete, press any key to continue.
 1. Press HOME/START to exit GCMM.
 1. Insert your SD card/USB drive into your PC.
@@ -309,11 +326,17 @@ All methods here require a Wii with GameCube ports.
 1. Safely eject the SD/USB from your PC, then put it into your Wii.
 1. Launch the Homebrew Channel, then launch GCMM.
 1. Select the device you would like to copy the save file to.
-![GCMM Select device](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
+    ![GCMM Select device](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
 1. Press `B` and `-`/`L` and `Y` to enter Raw backup mode.
-![GCMM Main menu](/images/homebrew/gcsaves/gcmm-menu.jpg)
+
+    ![GCMM Main menu](/images/homebrew/gcsaves/gcmm-menu.jpg)
+
 1. Select the slot that has your memory card.
-![GCMM Select card slot](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+
+    ![GCMM Select card slot](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+
 1. When the dump is complete, press any key to continue.
 1. Press HOME/START to exit GCMM.
 1. Insert your SD card/USB drive into your PC.
@@ -341,10 +364,13 @@ All methods here require a Wii with GameCube ports.
 
 1. Insert both memory cards into your Wii.
 1. Launch the Wii menu and select the Wii Options button at the bottom left.
-![Wii Options](/images/Wii/wii-options.png)
+
+    ![Wii Options](/images/Wii/wii-options.png)
+
 1. Select `Data Management > Save Data > Nintendo GameCube`.
 1. Select the save you would like to copy and select `Copy`.
-![Copying a GameCube save](/images/homebrew/gcsaves/gc-data-management.png)
+
+    ![Copying a GameCube save](/images/homebrew/gcsaves/gc-data-management.png)
 
 
 </div>
@@ -396,14 +422,22 @@ All methods here require a Wii with GameCube ports.
 1. Safely eject the SD/USB from your PC, then insert it into your Wii.
 1. Launch the Homebrew Channel, then launch GCMM.
 1. Select the device you have copied the `.gci` files to.
-![GCMM Select device](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
+    ![GCMM Select device](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
 1. Press `+`/`X` to enter Restore mode.
-![GCMM Main menu](/images/homebrew/gcsaves/gcmm-menu.jpg)
+
+    ![GCMM Main menu](/images/homebrew/gcsaves/gcmm-menu.jpg)
+
 1. Select the slot that has your Memory card.
-![GCMM Select card slot](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
-1. Select the save you would like to restore. <br>
-If you would like to restore all the saves in `MCBACKUP`, press `1`/`R`.
-![GCMM Restore menu](/images/homebrew/gcsaves/gcmm-restore-save.jpg)
+
+    ![GCMM Select card slot](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+
+1. Select the save you would like to restore.
+    + If you would like to restore all the saves in `MCBACKUP`, press `1`/`R`.
+
+    ![GCMM Restore menu](/images/homebrew/gcsaves/gcmm-restore-save.jpg)
+
 1. When restoration is complete, press any button to continue.
 
 <div>

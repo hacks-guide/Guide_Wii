@@ -65,36 +65,47 @@ On each cIOS that you try to install, you will first be shown a grid of active I
     + This should work in nearly all cases.
 1. Now, you will install individual cIOS from 248-251. The exact settings needed are listed below.
     + cIOS 248 Installation
+
         ```
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <38>
         Select cIOS slot <248>
         Select cIOS version <65535>
         ```
+
         ![Install cIOS 248](/images/cios/d2x_v11_248.png)
+
     + cIOS 249 Installation
+
         ```
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <56>
         Select cIOS slot <249>
         Select cIOS version <65535>
         ```
+
         ![Install cIOS 249](/images/cios/d2x_v11_249.png)
+
     + cIOS 250 Installation
+
         ```
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <57>
         Select cIOS slot <250>
         Select cIOS version <65535>
         ```
+
         ![Install cIOS 250](/images/cios/d2x_v11_250.png)
+
     + cIOS 251 Installation
+
         ```
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <58>
         Select cIOS slot <251>
         Select cIOS version <65535>
         ```
+
         ![Install cIOS 251](/images/cios/d2x_v11_251.png)
 
 [Continue to Recommended Homebrew](recommended-homebrew)<br>

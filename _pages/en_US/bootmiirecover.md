@@ -44,9 +44,13 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 1. Launch the Homebrew Channel.
 1. Press the HOME Button, then select "Launch BootMii".
 1. Select the Options button (the icon with the gears).
+
     ![BootMii_Gears_Icon](/images/BootMii/BootMii_Gears_Icon.png)
+
 1. Select the RestoreMii button.
+
     ![BootMii_Red_Arrow](/images/BootMii/BootMii_Red_Arrow.png)
+
 1. If BootMii is installed as IOS, input the Konami code on your GameCube controller: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 1. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Hit any button on your Wii console or GCN controller.
 

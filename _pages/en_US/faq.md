@@ -6,6 +6,7 @@ title: "FAQ and Troubleshooting"
 
 ### What are the limitations in vWii modding?
 The following is a list of things that can potentially **BRICK** your vWii (don't do these things!):
+
 * Installing IOS for a Wii console on vWii.
 * Installing Wii menu themes not formatted correctly for vWii and/or your region.
 * Installing BootMii.
