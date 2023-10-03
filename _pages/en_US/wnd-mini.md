@@ -53,7 +53,7 @@ The `WiiFlash_n_ECC.img` is your NAND image. The other two files are "error" dat
 1. Select `USB device`
     + It should start retriving your console information.
 1. When it is done, press any button to exit.
-    + You will have 4 new files on your USB:
+    + You will have 5 new files on your USB:
 
     ```
     bootmii_keys.bin
