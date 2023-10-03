@@ -193,6 +193,8 @@ $(document).ready(function() {
   }
 
   var devices = {
+    "hbc": "0",
+    "hbc-mini": "1"
   };
 
   // The pages used to lookup which route to display
@@ -245,20 +247,22 @@ $(document).ready(function() {
       "1": ["wilbrand", "hbc", "bootmii", "priiloader", "osc"],
       "2": ["bluebomb", "multiple-options"],
       "3": ["flashhax", "hbc", "bootmii", "priiloader", "osc"],
-      "4": ["str2hax", "hbc", "bootmii", "priiloader", "osc"],
-      "5": ["multiple-options", "hbc", "bootmii", "priiloader", "osc"],
-      "6": ["bluebomb", "hbc-mini", "priiloader", "osc"],
-      "7": ["multiple-options", "hbc", "bootmii", "priiloader", "osc"],
-      "8": ["multiple-options", "priiloader", "osc"],
-      "9": ["multiple-options", "priiloader", "osc"]
+      "4": ["str2hax", "hbc", "bootmii", "priiloader", "osc"]
     }
     // Can add custom routing if necessary but currently both routes are identical
     var device_wii =  Object.assign({}, device_common,{
       // custom routing here
-      // example: "24": ["seedminer", "multiple-options", "installing-boot9strap-(pichaxx)", "finalizing-setup"],
+      // example: "0": ["letterbomb", "hbc", "bootmii", "priiloader", "osc"],
+      "5": ["multiple-options", "hbc", "bootmii", "priiloader", "osc"],
+      "7": ["multiple-options", "hbc", "bootmii", "priiloader", "osc"],
+      "8": ["multiple-options", "hbc", "bootmii", "priiloader", "osc"],
+      "9": ["multiple-options", "hbc", "bootmii", "priiloader", "osc"]
     });
     var device_mini = Object.assign({}, device_common,{
       // custom routing here
+      "6": ["bluebomb", "hbc-mini", "priiloader", "osc"],
+      "8": ["bluebomb", "hbc-mini", "priiloader", "osc"],
+      "9": ["bluebomb", "hbc-mini", "priiloader", "osc"]
     });
     var route = {
       "-1": device_common,
