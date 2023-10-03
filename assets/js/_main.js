@@ -177,4 +177,119 @@ $(document).ready(function() {
     $('nav.greedy-nav').prepend('<style>.hidden-links:after{left:5px !important;}</style>');
   }
 /* hacks-guide change end */
+
+/* hacks-guide change start: add progress table */
+  var sidebar_shown = true;
+  var sidebar_hidden_pages = ["404", "bootmiirecover", "bricks", "donations", "dump-games", "dump-wads", "faq", 
+                              "gcbackupmanager", "gcsaves", "hackmii", "homebrew-dolphin", "modmii", "nintendont",
+                              "recovery-mode", "riiconnect24", "riivolution", "rssmii", "site-navigation", 
+                              "syscheck", "themes-vwii", "themes", "update", "usb-loaders", "wiibackupmanager", 
+                              "wiiconnect24", "wiigsc", "wiimmfi", "yawmme"];
+
+  for(var i = 0; i < sidebar_hidden_pages.length; i++){
+    if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {
+      sidebar_shown = false;
+    }
+  }
+
+  var devices = {
+  };
+
+  // The pages used to lookup which route to display
+  // parsed from the location of the url
+  // the value is the key to the displayed route in the device_common/old/new variable below
+  // 
+  var methods = {
+    "letterbomb": "0",
+    "wilbrand": "1",
+    "bluebomb": "2",
+    "flashhax": "3",
+    "str2hax": "4",
+    "hbc": "5",
+    "hbc-mini": "6",
+    "bootmii": "7",
+    "priiloader": "8",
+    "osc": "9"
+  };
+
+  for(var device in devices){
+    if(window.location.href.indexOf("/" + device) > -1) {
+      localStorage.setItem('device', devices[device]);
+    }
+  }
+
+  for(var method in methods){
+    if(window.location.href.indexOf("/" + method) > -1) {
+      localStorage.setItem('method', methods[method]);
+    }
+  }
+
+  var device, method;
+  if(!(method = localStorage.getItem('method'))){
+    sidebar_shown = false;
+  }
+  if (!(device = localStorage.getItem('device'))) {
+    device = "-1";
+  }
+  if(sidebar_shown){
+    var unhide = [];
+
+    // Common paths for navigation. Added to both routes.
+    // These values of the array will be mapped to the _data/navigation/country_lang.yml files
+    // be sure to add the relevent values to it, in the order of display. (finalizing setup last, for instance)
+    // 
+    // The key/propery name must match the value associated with the page in the methods variable above
+    //
+    var device_common = {
+      "0": ["letterbomb", "hbc", "bootmii", "priiloader", "osc"],
+      "1": ["wilbrand", "hbc", "bootmii", "priiloader", "osc"],
+      "2": ["bluebomb", "multiple-options"],
+      "3": ["flashhax", "hbc", "bootmii", "priiloader", "osc"],
+      "4": ["str2hax", "hbc", "bootmii", "priiloader", "osc"],
+      "5": ["multiple-options", "hbc", "bootmii", "priiloader", "osc"],
+      "6": ["bluebomb", "hbc-mini", "priiloader", "osc"],
+      "7": ["multiple-options", "hbc", "bootmii", "priiloader", "osc"],
+      "8": ["multiple-options", "priiloader", "osc"],
+      "9": ["multiple-options", "priiloader", "osc"]
+    }
+    // Can add custom routing if necessary but currently both routes are identical
+    var device_wii =  Object.assign({}, device_common,{
+      // custom routing here
+      // example: "24": ["seedminer", "multiple-options", "installing-boot9strap-(pichaxx)", "finalizing-setup"],
+    });
+    var device_mini = Object.assign({}, device_common,{
+      // custom routing here
+    });
+    var route = {
+      "-1": device_common,
+      "0": device_wii,
+      "1": device_mini,
+    }
+    unhide = unhide.concat(route[device][method]);
+    if(typeof unhide !== 'undefined' && unhide.length > 0){
+      unhide.push("key-information")
+      unhide.push("get-started");
+      var ol = $('.sidebar.sticky .nav__list .nav__items ol');
+      for (var i = 0; i < unhide.length; i++){
+        ol.children('li[data-name="' + unhide[i] + '"]').css("display", "");
+      }
+      ol.children().each(function(idx, li) {
+        var link = $(li).find("a").attr('href');
+        var name = $(li).attr('data-name');
+        if((window.location.href.endsWith(link) ||
+            window.location.href.endsWith(link + "/") ||
+            window.location.href.indexOf(link + "#") > -1 ||
+            window.location.href.indexOf(link + ".html") > -1)
+            && name !== "home"){
+          $(li).addClass("active");
+          return false;
+        }
+        $(li).addClass("completed");
+      });
+      if (ol.children(".active").css("display") != "none"){
+        $('.sidebar.sticky').css("display", "inherit");
+      }
+    }
+  }
+/* hacks-guide change end */
 });
