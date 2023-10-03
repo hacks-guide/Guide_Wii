@@ -1,10 +1,10 @@
 ---
 main:
   -
-    title: Wii Hacks Guide
+    title: Home
     url: /
   -
-    title: Start Here
+    title: Get Started
     url: get-started
   -
     title: Site Navigation
@@ -21,7 +21,7 @@ bottom:
 footer:
   -
     title: Source
-    url: https://github.com/RiiConnect24/Wii-Guide/
+    url: https://github.com/hacks-guide/Guide_Wii
   -
     title: Site Navigation
     url: site-navigation
