@@ -4,9 +4,7 @@ title: "cIOS"
 
 {% include toc title="Table of Contents" %}
 
-This guide will show you how to install cIOS (custom IOS). This enables the usage of USB Loader GX and WiiFlow. Some homebrew might also work better using cIOS.
-
-![d2x cIOS Installer](/images/cios/cIOS.png)
+While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
 If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting to install other cIOS on a Wii mini will not work.
 {: .notice--warning}
@@ -24,7 +22,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 #### Section I - Downloading (Only required if your Wii doesn't have Internet)
 
-If your Wii has an Internet connection, you may skip this section.<br/>
+If your Wii has an Internet connection, you may skip this section.<br>
 However, If you encounter any errors like `tcp_read timeout` and `net_gethostbyname failed:`, this will allow the Wii to skip the downloading step.
 {: .notice--warning}
 
@@ -47,20 +45,25 @@ The WAD files should be on your SD card like this:
 
 #### Section II - Installing
 
+If `d2x-v11-beta1` isn't showing up, try select the cIOS base first, then check again. This can also happen if your SD card is locked.
+{: .notice--info}
+
+On each cIOS that you try to install, you will first be shown a grid of active IOS on the Wi. Simply press A again, and it will install. Then, you will be shown a results screen, just press A as well and go to the next cIOS.
+{: .notice--info}
+
 1. Download the d2x cIOS installer and extract the zip to the root of your SD card or USB drive.
-1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel
-1. Press A to continue, then set the options to the following:
+1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel.
+1. When asked what IOS you would like to use, select IOS 58. This should work in nearly all cases.
+1. Now, you will install individual cIOS from 248-251. The exact settings needed are listed below.
++ cIOS 248 Installation
     ```
     Select cIOS <d2x-v11-beta1>
-    Select cIOS base: 38
-    Select cIOS slot: 248
+    Select cIOS base <38>
+    Select cIOS slot <248>
     Select cIOS version <65535>
     ```
-    If `d2x-v11-beta1` isn't showing up, try select the cIOS base first, then check again. This can also happen if your SD card is locked.
-    {: .notice--info}
     ![Install cIOS 248](/images/cios/d2x_v11_248.png)
-1. Once set, press A twice to install.
-1. When done installing, press A to return, and set the options to the following:
++ cIOS 249 Installation
     ```
     Select cIOS <d2x-v11-beta1>
     Select cIOS base <56>
@@ -68,8 +71,7 @@ The WAD files should be on your SD card like this:
     Select cIOS version <65535>
     ```
     ![Install cIOS 249](/images/cios/d2x_v11_249.png)
-1. Once set, press A twice to install.
-1. When done installing, press A to return, and set the options to the following:
++ cIOS 250 Installation
     ```
     Select cIOS <d2x-v11-beta1>
     Select cIOS base <57>
@@ -77,8 +79,7 @@ The WAD files should be on your SD card like this:
     Select cIOS version <65535>
     ```
     ![Install cIOS 250](/images/cios/d2x_v11_250.png)
-1. Once set, press A twice to install.
-1. When done installing, press A to return, and set the options to the following:
++ cIOS 251 Installation
     ```
     Select cIOS <d2x-v11-beta1>
     Select cIOS base <58>
@@ -86,7 +87,7 @@ The WAD files should be on your SD card like this:
     Select cIOS version <65535>
     ```
     ![Install cIOS 251](/images/cios/d2x_v11_251.png)
-1. Once set, press A twice again to install, and then exit once done.
 
-[Click here to go back to the site index.](site-navigation)
+[Continue to Recommended Homebrew](recommended-homebrew)<br>
+This guide outlines selections of homebrew that we think are useful to have; these range from utilities to emulators and more.
 {: .notice--info}

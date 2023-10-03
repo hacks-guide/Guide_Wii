@@ -22,7 +22,9 @@ If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.o
 1. Insert your SD card into your Wii, and launch CleanRip from the Homebrew Channel.
 1. Select your device that you will be dumping the game to - a USB device or SD card.
     ![Device type](/images/homebrew/CleanRip/2.png)
-1. On this screen, CleanRip asks to download a file with game checksums to verify that the dump it creates is a 1:1 copy of the disc. It's recommended that you say `Yes` to this question, but it isn't required for a dump.
+1. When prompted, select `Yes` to download the redump.org DAT files. This ensures that your dump is accurate.
+    You may get an exception error if you do this. If so, simply skip and verify your dump on Dolphin Emulator if needed.
+    {: .notice--warning}
     ![DAT](/images/homebrew/CleanRip/3.png)
 1. Insert the game disc you would like to dump.
 ![DVD](/images/homebrew/CleanRip/4.png)
@@ -36,7 +38,7 @@ If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.o
 
 #### Requirements
 
-+ A Windows/Mac OS/Linux PC with an internet connection
++ A Windows/macOS/Linux PC with an internet connection
 + [DVD Dump Tool](/assets/files/DVDDumpTool.zip)
 
 #### Instructions

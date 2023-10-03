@@ -4,8 +4,6 @@ title: "Installing RSSMii"
 
 {% include toc title="Table of Contents" %}
 
-![RSSMii](/images/homebrew/rssmii/rssmii.png)
-
 This guide provides instructions on installing RSSMii, a homebrew app that parses RSS feeds from your SD card and sends them to your Wii Menu.
 
 Due to the nature of RSS feeds and the large amount of mail they can generate, this app has a larger than zero chance of [bricking](bricks#mail-brick) your Wii. Consider using News Channel from a WiiConnect24 revival provider instead, and request an addition to their service should you find out that your intended RSS feed isn't being provided. If you decide to use RSSMii anyway, limit the number of feeds you subscribe to.

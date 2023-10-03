@@ -12,8 +12,6 @@ If you want to use Riivolution on a Wii mini, a WiFi card must be soldered and W
 Riivolution requires a working disk drive and a clean physical copy of the disk the desired mod is for. Scratched disks may or may not work very well or at all.
 {: .notice--info}
 
-![Riivolution](/images/homebrew/riivolution/riivolution.png)
-
 
 ### Requirements
 

@@ -27,6 +27,27 @@ In order to check what the error means, please visit the [Wiimmfi error page](ht
 
 Run an Internet connection test by going to `Wii Settings > Internet > Connection settings > Connection > Test this connection`
 
+#### Error 220602
+
+##### For RiiConnect24 Users
+
+You are using the old DNS server for RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+
+##### For non-RiiConnect24 Users
+
+Your Primary DNS server is incorrect or not working.<br>
+This can also happen if you use a proxy server and it is down.
+
+#### Error 107304
+
+##### For RiiConnect24 Users
+
+If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+
+##### For non-RiiConnect24 Users
+
+If you get this error, the DNS server you chose or your internet as a whole is having issues. Try again later.
+
 #### FORE000006
 
 If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock.

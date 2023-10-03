@@ -4,7 +4,7 @@ title: "Bricks"
 
 {% include toc title="Table of Contents" %}
 
-A "Brick" usually means your Wii has reached a state where its next purpose in existing is likely that of a doorstop, or a display figure. <br>
+A "Brick" usually means your Wii has reached a state where its next purpose in existence is likely that of a doorstop, or a display figure. <br>
 Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
 
 # Brick Prevention
@@ -142,7 +142,7 @@ If you still have [Priiloader](priiloader), use it to enter the Homebrew Channel
 
 In case you do not have Priiloader or your Wii is not modded, you can try [BlueBomb](bluebomb).
 
-Alternatively, Recovery Mode can be used by holding all 4 buttons on the D-Pad of a GameCube controller that is plugged into the fourth controller port of the Wii. 
+Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 
 ## Korean Kii/Error 003 Brick
 

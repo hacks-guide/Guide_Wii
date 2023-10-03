@@ -2,6 +2,8 @@
 title: "Homebrew Channel and BootMii Installation"
 ---
 
+{% include toc title="Table of Contents" %}
+
 The Homebrew Channel is where you will go to launch homebrew applications.
 BootMii is a piece of software that can backup and restore your Wii's NAND storage, and if installed in boot2, provides brick protection.
 

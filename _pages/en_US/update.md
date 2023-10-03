@@ -21,7 +21,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 #### Section I - Downloading
 
-Your Wii must be modded in order to perform this. If it isn't, then it's best to follow [the guide](get-started) first before doing this.
+Your Wii must be modded in order to perform this. If it isn't, then it's best to follow [the guide](get-started) first.
 {: .notice--info}
 
 1. Extract the .zip file for NUS Downloader Wii and open the application.
