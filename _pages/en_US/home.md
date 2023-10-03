@@ -56,5 +56,5 @@ This guide adopts the following steps from start to finish, including optional s
 
 ### Ready?
 
-Get started by [choosing your exploit](get-started)!
+Continue to [Get Started](get-started)
 {: .notice--info}
