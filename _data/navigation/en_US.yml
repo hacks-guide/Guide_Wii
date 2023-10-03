@@ -71,3 +71,12 @@ sidebar_pages:
   -
     title: Open Shop Channel
     url: osc
+  - 
+    title: d2xl cIOS for Wii mini (experimental)
+    url: cios-mini
+  - 
+    title: d2xl cIOS for Wii mini (experimental)
+    url: cios-mini
+  -
+    title: Wii mini NAND Dumper
+    url: wnd-mini

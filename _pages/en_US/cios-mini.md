@@ -53,6 +53,8 @@ This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBao
     + If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
 1. When the process is complete, exit the installer.
 
+[Continue to making a NAND Backup using RealWnd](wnd-mini)
+{: .notice--info}
 
 #### Enabling Ethernet
 

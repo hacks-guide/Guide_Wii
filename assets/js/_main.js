@@ -180,7 +180,7 @@ $(document).ready(function() {
 
 /* hacks-guide change start: add progress table */
   var sidebar_shown = true;
-  var sidebar_hidden_pages = ["404", "bootmiirecover", "bricks", "donations", "dump-games", "dump-wads", "faq", 
+  var sidebar_hidden_pages = ["404", "bootmiirecover", "bricks", "cios", "donations", "dump-games", "dump-wads", "faq", 
                               "gcbackupmanager", "gcsaves", "hackmii", "homebrew-dolphin", "modmii", "nintendont",
                               "recovery-mode", "riiconnect24", "riivolution", "rssmii", "site-navigation", 
                               "syscheck", "themes-vwii", "themes", "update", "usb-loaders", "wiibackupmanager", 
@@ -211,7 +211,9 @@ $(document).ready(function() {
     "hbc-mini": "6",
     "bootmii": "7",
     "priiloader": "8",
-    "osc": "9"
+    "osc": "9",
+    "cios-mini": "10",
+    "wnd-mini": "11"
   };
 
   for(var device in devices){
@@ -260,9 +262,11 @@ $(document).ready(function() {
     });
     var device_mini = Object.assign({}, device_common,{
       // custom routing here
-      "6": ["bluebomb", "hbc-mini", "priiloader", "osc"],
-      "8": ["bluebomb", "hbc-mini", "priiloader", "osc"],
-      "9": ["bluebomb", "hbc-mini", "priiloader", "osc"]
+      "6": ["bluebomb", "hbc-mini", "priiloader", "osc", "cios-mini", "wnd-mini"],
+      "8": ["bluebomb", "hbc-mini", "priiloader", "osc", "cios-mini", "wnd-mini"],
+      "9": ["bluebomb", "hbc-mini", "priiloader", "osc", "cios-mini", "wnd-mini"],
+      "10": ["bluebomb", "hbc-mini", "priiloader", "osc", "cios-mini", "wnd-mini"],
+      "11": ["bluebomb", "hbc-mini", "priiloader", "osc", "cios-mini", "wnd-mini"]
     });
     var route = {
       "-1": device_common,
