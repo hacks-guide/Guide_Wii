@@ -56,5 +56,17 @@ This guide adopts the following steps from start to finish, including optional s
 
 ### Ready?
 
+The guide has nine sections in total. These are listed below:
+
+1. Choosing and using an exploit (REQUIRED)
+1. Installing the Homebrew Channel and BootMii (REQUIRED)
+1. Making a NAND backup with BootMii (REQUIRED)
+1. Installing Priiloader (REQUIRED)
+1. Installing the Open Shop Channel (REQUIRED)
+1. Installing cIOS (OPTIONAL)
+1. Discovering Recommended Homebrew (OPTIONAL)
+1. Regaining WiiConnect24 Functionality (OPTIONAL)
+1. Regaining Nintendo Wi-Fi Connection Functionality (OPTIONAL)
+
 Continue to [Get Started](get-started)
 {: .notice--info}
