@@ -1,0 +1,780 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Priiloader - Wii Hacks Guide</title>
+<meta name="description" content="A complete guide to Wii custom firmware">
+
+
+  <meta name="author" content="Nintendo Homebrew">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wii Hacks Guide">
+<meta property="og:title" content="Priiloader">
+<meta property="og:url" content="https://wii.hacks.guide/priiloader.html">
+
+
+  <meta property="og:description" content="A complete guide to Wii custom firmware">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://wii.hacks.guide/priiloader.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nintendo Homebrew",
+      "url": "https://wii.hacks.guide/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wii Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- hacks-guide change start: cookie consent, favicon, locales -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/site-config/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/site-config/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="manifest" href="/assets/js/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/site-config/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/site-config/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/site-config/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/assets/xml/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#2e3440"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site."
+  }
+})});
+</script>
+<!-- hacks-guide change end -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+<!-- hacks-guide change start: Disable caching -->
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+<!-- hacks-guide change start: disable default masthead title -->
+      <!--
+        <a class="site-title" href="/">
+          Wii Hacks Guide
+          
+        </a>
+      -->
+<!-- hacks-guide change end -->
+        <ul class="visible-links">
+<!-- hacks-guide change start: multi-language configuration -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Home</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/get-started">Get Started</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/site-navigation">Site Navigation</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/faq">FAQ</a></li>
+            
+          
+<!-- hacks-guide change end -->
+        </ul>
+        
+<!-- hacks-guide change start: Add language selector -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/priiloader.html">English</a></li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="greedy-nav__toggle_lang" type="button"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+<!-- hacks-guide change end -->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- hacks-guide change start: Implement progress table, replace existing sidebar -->
+<!--
+
+  <div class="sidebar sticky">
+  
+  
+    
+    
+  
+  </div>
+
+-->
+
+
+
+<div class="sidebar sticky" style="display: none;">
+  <!-- hacks-guide change start: Refactor entire subsection to allow using translations -->
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">Overall Progress</span>
+      <ol>
+        
+          
+            <li style="display: none;" data-name="home"><a href='/'>Home</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="get-started"><a href='/get-started'>Get Started</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="letterbomb"><a href='/letterbomb'>LetterBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bluebomb"><a href='/bluebomb'>BlueBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="flashhax"><a href='/flashhax'>FlashHax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="str2hax"><a href='/str2hax'>str2hax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wilbrand"><a href='/wilbrand'>Wilbrand</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="multiple-options"><i>(Multiple Options)</i></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc"><a href='/hbc'>Homebrew Channel and BootMii Installation</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc-mini"><a href='/hbc-mini'>Homebrew Channel - for Wii mini only</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bootmii"><a href='/bootmii'>BootMii Backup</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="priiloader"><a href='/priiloader'>Priiloader</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="osc"><a href='/osc'>Open Shop Channel</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/cios-mini'>d2xl cIOS for Wii mini (experimental)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/cios-mini'>d2xl cIOS for Wii mini (experimental)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wnd-mini"><a href='/wnd-mini'>Wii mini NAND Dumper</a></li>
+          
+        
+      </ol>
+    </li>
+  </ul>
+</nav>
+<!-- hacks-guide change end -->
+
+</div>
+
+
+<!-- hacks-guide change end-->
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Priiloader">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Priiloader
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+<!-- hacks-guide change start -->
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.</b></div>
+        
+
+        <hr>
+<!-- hacks-guide change end -->
+
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#installing-priiloader" id="markdown-toc-installing-priiloader">Installing Priiloader</a></li>
+  <li><a href="#requirements" id="markdown-toc-requirements">Requirements</a></li>
+  <li><a href="#instructions" id="markdown-toc-instructions">Instructions</a>    <ul>
+      <li><a href="#section-i---prep-work" id="markdown-toc-section-i---prep-work">Section I - Prep Work</a></li>
+      <li><a href="#section-ii---installing-priiloader" id="markdown-toc-section-ii---installing-priiloader">Section II - Installing Priiloader</a></li>
+      <li><a href="#section-iii---entering-priiloader" id="markdown-toc-section-iii---entering-priiloader">Section III - Entering Priiloader</a></li>
+    </ul>
+  </li>
+  <li><a href="#configuring-priiloader" id="markdown-toc-configuring-priiloader">Configuring Priiloader</a>    <ul>
+      <li><a href="#system-menu-hacks" id="markdown-toc-system-menu-hacks">System Menu Hacks</a></li>
+    </ul>
+  </li>
+  <li><a href="#additional-options" id="markdown-toc-additional-options">Additional options</a>    <ul>
+      <li><a href="#autobooting-with-priiloader" id="markdown-toc-autobooting-with-priiloader">Autobooting with Priiloader</a>        <ul>
+          <li><a href="#autobooting-a-homebrew-application" id="markdown-toc-autobooting-a-homebrew-application">Autobooting a Homebrew application</a></li>
+          <li><a href="#autobooting-the-homebrew-channel-or-priiloader" id="markdown-toc-autobooting-the-homebrew-channel-or-priiloader">Autobooting the Homebrew Channel or Priiloader</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<p>Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also enable hacks for your Wii Menu, and be used to quickly launch the Homebrew Channel, BootMii, or whatever homebrew you want.</p>
+
+<h3 id="installing-priiloader">Installing Priiloader</h3>
+
+<!--div class="notice--success" markdown="1">
+Priiloader 0.10.0 introduces vWii support! <br>
+There are some important things to take note of:
++ To fix the timestamp issues (FORE000006, wrong News Channel update time), you will need to [generate a timestamp fix hack](https://garyodernichts.github.io/priiloader-patch-gen/) (more information on the page).
++ Installing a theme after installing Priiloader **will brick your vWii.**
+ </div-->
+
+<h3 id="requirements">Requirements</h3>
+
+<ul>
+  <li>An SD card or USB drive</li>
+  <li><a href="https://oscwii.org/library/app/priiloader">Priiloader Installer</a> (the <code class="language-plaintext highlighter-rouge">.zip</code> file)</li>
+  <li><a href="https://oscwii.org/library/app/loadpriiloader">Load Priiloader</a> (the <code class="language-plaintext highlighter-rouge">.zip</code> file)</li>
+</ul>
+
+<h3 id="instructions">Instructions</h3>
+
+<h4 id="section-i---prep-work">Section I - Prep Work</h4>
+
+<ol>
+  <li>Power off your console.</li>
+  <li>Insert your SD card or USB drive into your computer.</li>
+  <li>Copy the <code class="language-plaintext highlighter-rouge">apps</code> folder from the LoadPriiloader <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card or USB drive.</li>
+  <li>Copy the <code class="language-plaintext highlighter-rouge">apps</code> folder from the priiloader <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card or USB drive.</li>
+  <li>Reinsert your SD card or USB drive into your console.</li>
+</ol>
+
+<h4 id="section-ii---installing-priiloader">Section II - Installing Priiloader</h4>
+
+<ol>
+  <li>Power on your console.</li>
+  <li>Launch the Homebrew Channel.</li>
+  <li>Launch Priiloader installer from the list of homebrew.</li>
+  <li>
+    <p>Press the + Button on Wii Remote or the A Button on a GameCube controller.</p>
+
+    <p><img src="/images/priiloader/installer.png" alt="Install Priiloader" /></p>
+
+    <p><img src="/images/priiloader/installing.png" alt="Installing" /></p>
+  </li>
+  <li>Press A to return to the Homebrew Channel.</li>
+</ol>
+
+<h4 id="section-iii---entering-priiloader">Section III - Entering Priiloader</h4>
+
+<p>Priiloader will appear automatically after you install it. Simply exit the Homebrew Channel, and you should see the Priiloader menu:</p>
+
+<p><img src="/images/priiloader/menu.png" alt="Priiloader Menu" /></p>
+
+<p>To enter it later on, simply run the “Load Priiloader” homebrew app. There are also other ways to enter Priiloader:</p>
+
+<ul>
+  <li>Holding RESET on a Wii while turning it on</li>
+  <li>Holding the ESC key on a USB keyboard while turning on the console</li>
+</ul>
+
+<h3 id="configuring-priiloader">Configuring Priiloader</h3>
+
+<h4 id="system-menu-hacks">System Menu Hacks</h4>
+
+<ol>
+  <li>Open the Homebrew Channel.</li>
+  <li>Launch “Load Priiloader” from the list of homebrew.</li>
+  <li>
+    <p>Scroll down to <code class="language-plaintext highlighter-rouge">System Menu Hacks</code> and press <code class="language-plaintext highlighter-rouge">A</code>.</p>
+
+    <p><img src="/images/priiloader/menu_hacks.png" alt="System Menu Hacks" /></p>
+
+    <p class="notice--warning">If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br />
+ Doing so will cause Priiloader to fail to find the <code class="language-plaintext highlighter-rouge">hacks_hash.ini</code> file.</p>
+  </li>
+  <li>Press <code class="language-plaintext highlighter-rouge">A</code> on each hack you would like to enable.
+    <ul>
+      <li>It is advised to enable “Block Disc Updates”, “Block Online Updates”, and “Region Free EVERYTHING”.</li>
+    </ul>
+
+    <p><img src="/images/priiloader/system_menu_hacks.png" alt="System Menu Hacks List" /></p>
+  </li>
+  <li>Scroll down to <code class="language-plaintext highlighter-rouge">save settings</code> and press A.</li>
+  <li>Press <code class="language-plaintext highlighter-rouge">B</code> to return to the main menu.</li>
+</ol>
+
+<details id="system-menu-hacks-list" class="notice--info">
+  <summary><a>Click here for a full list of available System menu hacks.</a></summary>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Hack</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Block Disc Updates</td>
+        <td>Removes the “Wii System Update” screen included with some games that forces you to update the system before playing the game.</td>
+      </tr>
+      <tr>
+        <td>Block Online Updates</td>
+        <td>Disables updating your Wii. Updates will fail with error 32007.</td>
+      </tr>
+      <tr>
+        <td>Auto-Press A at Health Screen</td>
+        <td>Automatically presses the A Button to get past the initial “Health and Safety” screen.</td>
+      </tr>
+      <tr>
+        <td>Replace Health Screen with Backmenu</td>
+        <td>Changes the “Health and Safety” screen to the animation played when returning to the Wii Menu.</td>
+      </tr>
+      <tr>
+        <td>Move Disc Channel</td>
+        <td>Enables moving the Disc Channel anywhere on the Wii Menu. It’s normally stuck in the top left of the first page.</td>
+      </tr>
+      <tr>
+        <td>Wiimmfi Patch v4</td>
+        <td>Automatically patches all games you run from the Disc Channel for use with Wiimmfi.</td>
+      </tr>
+      <tr>
+        <td>480p graphics fix in system menu</td>
+        <td>Fixes a small issue with 480p on the Wii Menu.</td>
+      </tr>
+      <tr>
+        <td>Remove NoCopy Save File Protection</td>
+        <td>Allows you to copy normally disallowed save files to your SD card from Data Management</td>
+      </tr>
+      <tr>
+        <td>Region Free EVERYTHING</td>
+        <td>Disables region locking for any Wii application, including downloaded ones.</td>
+      </tr>
+      <tr>
+        <td><del>No System Menu Sounds AT ALL</del></td>
+        <td><del>Disables all the Wii Menu sound effects.</del> Currently broken.</td>
+      </tr>
+      <tr>
+        <td>No System Menu Background Music</td>
+        <td>Disables the Wii Menu background music.</td>
+      </tr>
+      <tr>
+        <td>Re-Enable Bannerbomb v2</td>
+        <td>Enables the “Bannerbomb” exploit on the latest Wii version. Not needed when the Homebrew Channel is already installed.</td>
+      </tr>
+      <tr>
+        <td>OSReport to UsbGecko(slot B)</td>
+        <td>Sends Wii Menu logs to a debugging device in memory card slot B.</td>
+      </tr>
+      <tr>
+        <td>OSReport to UsbGecko(GeckoOS,B)</td>
+        <td>Sends Wii Menu logs to a debugging device in memory card slot B, if the Wii Menu is launched by Gecko OS.</td>
+      </tr>
+      <tr>
+        <td>Force boot into Data Management</td>
+        <td>Immediately loads the Wii menu into Data Management.</td>
+      </tr>
+      <tr>
+        <td>Force Standard Recovery Mode</td>
+        <td>Automatically launches the console in recovery mode. Used to launch recovery discs, letting users unbrick their Wii systems.</td>
+      </tr>
+      <tr>
+        <td>Remove Diagnostic Disc Check</td>
+        <td>Removes a check in the Wii to see if an inserted game matches the title ID of the “Wii Startup Disc”.</td>
+      </tr>
+      <tr>
+        <td>No-Delete HAXX,JODI,DVDX,DISC,DISK,RZDx</td>
+        <td>Re-enable channels with these title IDs (originally blocked in system updates due to them being exploits).</td>
+      </tr>
+      <tr>
+        <td>Force Disc Games to run under IOS249</td>
+        <td>Make discs use cIOS 249 as the game’s IOS. While it cannot allow playing of burned games on its own, it is needed to play burned discs. (Can give you Error 002 on a non-burned game)</td>
+      </tr>
+      <tr>
+        <td>Remove Deflicker</td>
+        <td>Removes the deflicker filter and makes the Wii Menu appear clearer.</td>
+      </tr>
+      <tr>
+        <td>Block Disc Autoboot</td>
+        <td>This prevents the Wii from instantly launching discs with title IDs starting with 0 or 1 (0x30, 0x31).</td>
+      </tr>
+      <tr>
+        <td>Allow TitleID RAAE, 408x, 410x</td>
+        <td>Allows the Wii Menu to read the discs with the title IDs RAAE (Wii Startup Disc), 408x and 410x (Wii Backup Disc)</td>
+      </tr>
+      <tr>
+        <td>Remove IOS16 Disc Error</td>
+        <td>Allows the Wii Menu to launch discs (this is only the Wii Backup Disc) that use IOS16.</td>
+      </tr>
+      <tr>
+        <td>Mark Network Connection as Tested</td>
+        <td>Enables the <code class="language-plaintext highlighter-rouge">Use This Connection</code> button in the Internet connection settings, regardless of the results of the last connection test.</td>
+      </tr>
+      <tr>
+        <td>Always enable WiiConnect24 for vWii</td>
+        <td>Enables WiiConnect24 &amp; Standby Connection every time the Wii menu starts. <strong>Requires a reboot after enabling.</strong></td>
+      </tr>
+      <tr>
+        <td>Create message via Calendar button (vWii)</td>
+        <td>Clicking on the Calendar button opens the Create Message menu instead of the Calendar, allowing the user to create Memos, send messages to, and register Wii friends.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</details>
+
+<p class="notice--info"><a href="bricks#brick-prevention">View the Brick Prevention Guidelines</a><br />
+These guidelines list ways that to avoid bricking your Wii, beyond just having BootMii and Priiloader installed.</p>
+
+<h3 id="additional-options">Additional options</h3>
+
+<p>These are some extra things you can do with Priiloader to enhance your homebrew experience. This is optional.</p>
+
+<h4 id="autobooting-with-priiloader">Autobooting with Priiloader</h4>
+
+<p>Priiloader allows you to automatically boot to the Homebrew Channel, an individual homebrew application, or Priiloader itself. This is optional.</p>
+
+<h5 id="autobooting-a-homebrew-application">Autobooting a Homebrew application</h5>
+
+<div id="autobooting-usbloadergx" class="notice--warning">
+  <p>If you would like to autoboot USB loader GX, do this first:</p>
+  <ul>
+    <li>Download the USB Loader GX forwarder WAD (<a href="https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad">Wii</a>, <a href="https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad">vWii</a>).</li>
+    <li>Download the <a href="https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download">UNEO Channel Booter for Priiloader</a>.</li>
+    <li>Install the forwarder WAD with a WAD manager like <a href="yawmme">YAWM ModMii Edition</a>.</li>
+    <li>Extract the <code class="language-plaintext highlighter-rouge">UNEO Channel Booter for Priiloader.zip</code> file anywhere.</li>
+    <li>Copy <code class="language-plaintext highlighter-rouge">uneoboot.dol</code> to the root of your SD card.</li>
+  </ul>
+
+  <p>You will be installing <code class="language-plaintext highlighter-rouge">uneoboot.dol</code> in step 3.</p>
+</div>
+
+<ol>
+  <li>Launch the Homebrew Channel</li>
+  <li>Launch Load Priiloader from the list of homebrew.</li>
+  <li>
+    <p>Scroll down to <code class="language-plaintext highlighter-rouge">Load/Install file</code> and press A.</p>
+
+    <p><img src="/images/priiloader/menu_install_file.png" alt="Load/Install File" /></p>
+  </li>
+  <li>
+    <p>Scroll through the menu until your desired homebrew app is highlighted, and press A to install it.</p>
+
+    <p><img src="/images/priiloader/installing_file.png" alt="Installing a Homebrew App" /></p>
+
+    <p><img src="/images/priiloader/installing_file_ok.png" alt="Installing a Homebrew App OK" /></p>
+  </li>
+  <li>Press <code class="language-plaintext highlighter-rouge">B</code> to return to the main menu.</li>
+  <li>
+    <p>Scroll down to <code class="language-plaintext highlighter-rouge">Settings</code> and press A.</p>
+
+    <p><img src="/images/priiloader/menu_settings.png" alt="Settings" /></p>
+  </li>
+  <li>
+    <p>Press Right to cycle through the Autoboot options until <code class="language-plaintext highlighter-rouge">Installed file</code> is selected.</p>
+
+    <p><img src="/images/priiloader/autoboot_installed_file.png" alt="Autoboot: Installed File" /></p>
+  </li>
+  <li>
+    <p>Scroll down to <code class="language-plaintext highlighter-rouge">save settings</code> and press A.</p>
+
+    <p><img src="/images/priiloader/settings_save.png" alt="Saving Settings" /></p>
+  </li>
+  <li>Press <code class="language-plaintext highlighter-rouge">B</code> to return to the main menu.</li>
+  <li>Scroll back up to <code class="language-plaintext highlighter-rouge">System Menu</code> and press A.</li>
+</ol>
+
+<p>Your Wii should now automatically boot to whichever homebrew app you installed.</p>
+
+<h5 id="autobooting-the-homebrew-channel-or-priiloader">Autobooting the Homebrew Channel or Priiloader</h5>
+
+<ol>
+  <li>Launch the Homebrew Channel</li>
+  <li>Launch Load Priiloader from the list of homebrew.</li>
+  <li>
+    <p>Scroll down to <code class="language-plaintext highlighter-rouge">Settings</code> and press A.</p>
+
+    <p><img src="/images/priiloader/menu_settings.png" alt="Settings" /></p>
+  </li>
+  <li>Press Right to cycle through the Autoboot options until your desired option is selected.
+    <ul>
+      <li>Disabled` will autoboot to the Priiloader menu.</li>
+    </ul>
+
+    <p class="notice--warning">Please don’t set Autoboot to <code class="language-plaintext highlighter-rouge">BootMii IOS</code>. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.</p>
+
+    <p><img src="/images/priiloader/autoboot_disabled.png" alt="Autoboot" /></p>
+  </li>
+  <li>
+    <p>Scroll down to <code class="language-plaintext highlighter-rouge">save settings</code> and press A.</p>
+
+    <p><img src="/images/priiloader/settings_save.png" alt="Saving Settings" /></p>
+  </li>
+  <li>Press <code class="language-plaintext highlighter-rouge">B</code> to return to the main menu.</li>
+  <li>Scroll back up to <code class="language-plaintext highlighter-rouge">System Menu</code> and press A.</li>
+</ol>
+
+<p class="notice--info"><a href="osc">Continue to Open Shop Channel Installation</a>
+Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/hacks-guide/Guide_Wii" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+<!-- hacks-guide change start: force disable atom feed-->
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+<!-- hacks-guide change end -->
+
+</div>
+
+<!-- hacks-guide change start: custom footer -->
+
+
+
+<div class="page__footer-copyright">&copy; 2023 Nintendo Homebrew. - <a href="site-navigation">Site Navigation</a> - <a href="privacy-policy">Privacy Policy</a> - <a href="donations">Donations</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<!-- hacks-guide change end -->
+
+      </footer>
+    </div>
+<!-- hacks-guide change end -->
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- hacks-guide change start: Disable caching -->
+
+<!-- hacks-guide change end -->
+
+
+
+
+
+
+
+  </body>
+</html>

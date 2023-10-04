@@ -1,0 +1,590 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>FAQ and Troubleshooting - Wii Hacks Guide</title>
+<meta name="description" content="A complete guide to Wii custom firmware">
+
+
+  <meta name="author" content="Nintendo Homebrew">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wii Hacks Guide">
+<meta property="og:title" content="FAQ and Troubleshooting">
+<meta property="og:url" content="https://wii.hacks.guide/faq.html">
+
+
+  <meta property="og:description" content="A complete guide to Wii custom firmware">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://wii.hacks.guide/faq.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nintendo Homebrew",
+      "url": "https://wii.hacks.guide/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wii Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- hacks-guide change start: cookie consent, favicon, locales -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/site-config/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/site-config/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="manifest" href="/assets/js/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/site-config/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/site-config/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/site-config/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/assets/xml/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#2e3440"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site."
+  }
+})});
+</script>
+<!-- hacks-guide change end -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+<!-- hacks-guide change start: Disable caching -->
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+<!-- hacks-guide change start: disable default masthead title -->
+      <!--
+        <a class="site-title" href="/">
+          Wii Hacks Guide
+          
+        </a>
+      -->
+<!-- hacks-guide change end -->
+        <ul class="visible-links">
+<!-- hacks-guide change start: multi-language configuration -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Home</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/get-started">Get Started</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/site-navigation">Site Navigation</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/faq">FAQ</a></li>
+            
+          
+<!-- hacks-guide change end -->
+        </ul>
+        
+<!-- hacks-guide change start: Add language selector -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/faq.html">English</a></li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="greedy-nav__toggle_lang" type="button"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+<!-- hacks-guide change end -->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- hacks-guide change start: Implement progress table, replace existing sidebar -->
+<!--
+
+  <div class="sidebar sticky">
+  
+  
+    
+    
+  
+  </div>
+
+-->
+
+
+
+<div class="sidebar sticky" style="display: none;">
+  <!-- hacks-guide change start: Refactor entire subsection to allow using translations -->
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">Overall Progress</span>
+      <ol>
+        
+          
+            <li style="display: none;" data-name="home"><a href='/'>Home</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="get-started"><a href='/get-started'>Get Started</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="letterbomb"><a href='/letterbomb'>LetterBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bluebomb"><a href='/bluebomb'>BlueBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="flashhax"><a href='/flashhax'>FlashHax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="str2hax"><a href='/str2hax'>str2hax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wilbrand"><a href='/wilbrand'>Wilbrand</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="multiple-options"><i>(Multiple Options)</i></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc"><a href='/hbc'>Homebrew Channel and BootMii Installation</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc-mini"><a href='/hbc-mini'>Homebrew Channel - for Wii mini only</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bootmii"><a href='/bootmii'>BootMii Backup</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="priiloader"><a href='/priiloader'>Priiloader</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="osc"><a href='/osc'>Open Shop Channel</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/cios-mini'>d2xl cIOS for Wii mini (experimental)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/cios-mini'>d2xl cIOS for Wii mini (experimental)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wnd-mini"><a href='/wnd-mini'>Wii mini NAND Dumper</a></li>
+          
+        
+      </ol>
+    </li>
+  </ul>
+</nav>
+<!-- hacks-guide change end -->
+
+</div>
+
+
+<!-- hacks-guide change end-->
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="FAQ and Troubleshooting">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">FAQ and Troubleshooting
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+<!-- hacks-guide change start -->
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.</b></div>
+        
+
+        <hr>
+<!-- hacks-guide change end -->
+
+        <h2 id="main-faq">Main FAQ</h2>
+
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#main-faq" id="markdown-toc-main-faq">Main FAQ</a>    <ul>
+      <li><a href="#how-risky-is-hacking-my-console" id="markdown-toc-how-risky-is-hacking-my-console">How risky is hacking my console?</a></li>
+      <li><a href="#i-got-error-code-xxxxxx-how-do-i-fix-it" id="markdown-toc-i-got-error-code-xxxxxx-how-do-i-fix-it">I got error code XXXXXX, how do I fix it?</a>        <ul>
+          <li><a href="#error-0153051330" id="markdown-toc-error-0153051330">Error 01530/51330</a></li>
+          <li><a href="#error-220602" id="markdown-toc-error-220602">Error 220602</a>            <ul>
+              <li><a href="#for-riiconnect24-users" id="markdown-toc-for-riiconnect24-users">For RiiConnect24 Users</a></li>
+              <li><a href="#for-non-riiconnect24-users" id="markdown-toc-for-non-riiconnect24-users">For non-RiiConnect24 Users</a></li>
+            </ul>
+          </li>
+          <li><a href="#error-107304" id="markdown-toc-error-107304">Error 107304</a>            <ul>
+              <li><a href="#for-riiconnect24-users-1" id="markdown-toc-for-riiconnect24-users-1">For RiiConnect24 Users</a></li>
+              <li><a href="#for-non-riiconnect24-users-1" id="markdown-toc-for-non-riiconnect24-users-1">For non-RiiConnect24 Users</a></li>
+            </ul>
+          </li>
+          <li><a href="#fore000006" id="markdown-toc-fore000006">FORE000006</a></li>
+        </ul>
+      </li>
+      <li><a href="#how-can-i-remove-parental-controls" id="markdown-toc-how-can-i-remove-parental-controls">How can I remove parental controls?</a></li>
+      <li><a href="#i-think-my-wii-is-bricked-or-something-is-seriously-wrong-what-do-i-do" id="markdown-toc-i-think-my-wii-is-bricked-or-something-is-seriously-wrong-what-do-i-do">I think my Wii is bricked, or something is seriously wrong, what do I do?</a></li>
+    </ul>
+  </li>
+  <li><a href="#storage-device-faq" id="markdown-toc-storage-device-faq">Storage Device FAQ</a>    <ul>
+      <li><a href="#general-storage-guidelines" id="markdown-toc-general-storage-guidelines">General Storage Guidelines</a></li>
+      <li><a href="#buying-sd-cards" id="markdown-toc-buying-sd-cards">Buying SD Cards</a></li>
+      <li><a href="#buying-usb-devices---hard-drives" id="markdown-toc-buying-usb-devices---hard-drives">Buying USB Devices - Hard Drives</a></li>
+      <li><a href="#buying-usb-devices---solid-state-drives" id="markdown-toc-buying-usb-devices---solid-state-drives">Buying USB Devices - Solid State Drives</a></li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<h3 id="how-risky-is-hacking-my-console">How risky is hacking my console?</h3>
+<p>Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out <a href="bricks#brick-prevention">here</a>, install <a href="bootmii">BootMii</a> and <a href="priiloader">Priiloader</a>, and use common sense, you should be completely fine!</p>
+
+<h3 id="i-got-error-code-xxxxxx-how-do-i-fix-it">I got error code XXXXXX, how do I fix it?</h3>
+<p>In order to check what the error means, please visit the <a href="https://wiimmfi.de/error">Wiimmfi error page</a>. More common errors have fixes listed below:</p>
+
+<h4 id="error-0153051330">Error 01530/51330</h4>
+
+<p>Run an Internet connection test by going to <code class="language-plaintext highlighter-rouge">Wii Settings &gt; Internet &gt; Connection settings &gt; Connection &gt; Test this connection</code></p>
+
+<h4 id="error-220602">Error 220602</h4>
+
+<h5 id="for-riiconnect24-users">For RiiConnect24 Users</h5>
+
+<p>You are using the old DNS server for RiiConnect24. Follow <a href="riiconnect24#section-iv---connecting">this</a> guide for instructions on how to change it.</p>
+
+<h5 id="for-non-riiconnect24-users">For non-RiiConnect24 Users</h5>
+
+<p>Your Primary DNS server is incorrect or not working.<br />
+This can also happen if you use a proxy server and it is down.</p>
+
+<h4 id="error-107304">Error 107304</h4>
+
+<h5 id="for-riiconnect24-users-1">For RiiConnect24 Users</h5>
+
+<p>If you get this error or you see Nintendo’s User Agreement without RiiConnect24’s logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set <code class="language-plaintext highlighter-rouge">Auto-Obtain DNS</code> to <code class="language-plaintext highlighter-rouge">On</code> to solve this. RiiConnect24 will still work without it. Or, you can use the <a href="https://github.com/RiiConnect24/DNS-Server/releases/latest">RiiConnect24 DNS-Server</a> program.</p>
+
+<h5 id="for-non-riiconnect24-users-1">For non-RiiConnect24 Users</h5>
+
+<p>If you get this error, the DNS server you chose or your internet as a whole is having issues. Try again later.</p>
+
+<h4 id="fore000006">FORE000006</h4>
+
+<p>If you get error FORE000006, your Wii’s clock is probably set incorrectly. See <a href="wiiconnect24#updating-rtc-clock">this</a> on instructions for how to properly reset it. If this still fails, remove the Wii’s clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii’s clock.</p>
+
+<h3 id="how-can-i-remove-parental-controls">How can I remove parental controls?</h3>
+<p>The <a href="https://mkey.salthax.org">mkey generator</a> can generate the code required to remove parental controls.</p>
+
+<h3 id="i-think-my-wii-is-bricked-or-something-is-seriously-wrong-what-do-i-do">I think my Wii is bricked, or something is seriously wrong, what do I do?</h3>
+<p>See <a href="bricks">this</a> page.</p>
+
+<h2 id="storage-device-faq">Storage Device FAQ</h2>
+
+<p class="notice--info">For the <a href="bluebomb">BlueBomb</a>, <a href="str2hax">str2hax</a>, or <a href="flashhax">FlashHax</a> exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.</p>
+
+<p class="notice--info">FAT32 is the recommended file system for SD cards, see <a href="https://wiki.hacks.guide/wiki/Formatting_an_SD_card">this guide</a> on formatting instructions.<br />
+For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS was a previously used file system for Wii game backups - today, it is outdated and should not be used.</p>
+
+<p class="notice--warning">For stock Wii Menu versions lower than 4.0, a limitation in the Wii System Software prevents SD cards bigger than 2GB from being used.<br />
+For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.<br />
+Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.</p>
+
+<p class="notice--warning">For USB devices, flash drives have a high rate of not working on Wii consoles. Instead, it is recommended to use a USB hard drive or solid state drive.</p>
+
+<h3 id="general-storage-guidelines">General Storage Guidelines</h3>
+
+<p>When considering buying or using an SD card or USB device, it is worth considering the things that you will be using either storage medium for. Different uses can take up varying amounts of space, some common examples of which are shown below:</p>
+
+<ul>
+  <li>Wii Backups: The largest Wii games (dual-layer DVD) are up to sizes of 9GB, more normal games are closer to sizes of 4GB or lower. The average user for a Wii backup device would probably want 128GB or more of space.</li>
+  <li>GameCube Backups: The largest GameCube games reach sizes of up to 1.3GB. ISO sizes are normally this size regardless of the game, but can be considerably lower if NKIT is used as a format instead. The average user for a GameCube backup device would probably want 64GB or more of space.</li>
+  <li>General Emulation: There are a wide variety of emulators available on the Wii. Because the size of different game ROMs differ dramatically, the average user for an emulation drive would probably want 32GB or more of space.</li>
+  <li>General Homebrew: For homebrew, the average user would want 2GB or more of space.</li>
+  <li>NAND Backups: For backing up your NAND with BootMii, the average user would need a minimum of 512MB of free space, but sizes of 1GB or more are recommended.</li>
+  <li>Bare minimum, exploit only: The minimum amount of space to run an SD-card compatible exploit on a Wii is 128MB.</li>
+</ul>
+
+<h3 id="buying-sd-cards">Buying SD Cards</h3>
+
+<p class="notice--danger">SD cards 2TB or larger currently do not exist, anyone attempting to sell you one is trying to rip you off.</p>
+
+<p>When buying SD cards, it is generally recommended that you stick to well-known brands the more expensive and larger capacity that you get. While you can buy a generic 2GB SD card and most likely be safe, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-20 USD for 256GB and below, whereas 512GB is around 40 USD. When buying off of Amazon, make sure that your card is either <code class="language-plaintext highlighter-rouge">Sold by/Shipped by Amazon</code> or <code class="language-plaintext highlighter-rouge">Sold by [brand], Shipped by Amazon</code>. Be wary when buying storage on eBay.</p>
+
+<p>Recommended brands:</p>
+<ul>
+  <li>Samsung (EVO Select, EVO Plus, PRO Plus)</li>
+  <li>SanDisk (Extreme, Ultra, etc)</li>
+  <li>Lexar (E-Series, Professional)</li>
+  <li>Silicon Power (“3D NAND” cards, higher capacity usually better value)</li>
+  <li>PNY (Elite, Elite-X, etc)</li>
+</ul>
+
+<h3 id="buying-usb-devices---hard-drives">Buying USB Devices - Hard Drives</h3>
+
+<p>When buying USB hard drives, there are only three existing present-day HDD manufacturers: Western Digital, Seagate, and Toshiba. Any and all other hard drive companies are defunct and have either went bankrupt, or were absorbed by the three aformentioned companies. With that said, if you have an extra hard drive lying around made by another company, it should still work! Hard drive technology has remained largely the same within the past 10 or so years. Just make sure to check the S.M.A.R.T data to ensure that the drive isn’t failing before you throw all of your data on there.</p>
+
+<p>For hard drive sizing, 2.5 inch should work fine running off of USB power alone on a Wii; 3.5 inch consumes much more power and will almost always need an external power adapter. Make sure to plan for this when determining what you want to do with an external drive.</p>
+
+<p>As for your choices in shopping, this largely comes down to three different scenarios:</p>
+
+<ul>
+  <li>Buying a new external hard drive from scratch: New external drives come brand new around 60 USD for 2TB, 50 USD for 1TB, around 30 USD for sizes lower than 1TB. Whatever you do, try to stick within the three present manufacturing brands listed above, but bear in mind that offerings are sparse for drive sizes lower than 1TB.</li>
+  <li>Buying a new hard drive, and a new enclosure: New hard drives are decently cheaper than buying a pre-made hard drive, and you can buy an enclosure to house this new hard drive. 2.5 inch enclosures are normally powerable off of USB alone, while 3.5 inch enclosures almost always come with an external adapter for power. An example price is buying a 500GB Western Digital drive and a 2.5 inch drive enclosure off of Amazon - all in all, about 30 USD.</li>
+  <li>Buying an enclosure for an already existing hard drive: If you already have a hard drive laying around, why not put it in an enclosure and use it for your Wii? Enclosures can be found for prices ranging between 10 to 20 USD off of Amazon, as long as you have a drive to supply it with.</li>
+</ul>
+
+<h3 id="buying-usb-devices---solid-state-drives">Buying USB Devices - Solid State Drives</h3>
+
+<p class="notice--warning">For the purpose of using a drive with a Wii, external SSDs are often more expensive than conventional hard drives for no visible gain in speed on a Wii (the console only supports up to USB 2.0 data speeds). If you would like to buy one or already have one lying around, it’s an option, but generally it’s recommended to just go for a hard drive if you don’t already have one.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/hacks-guide/Guide_Wii" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+<!-- hacks-guide change start: force disable atom feed-->
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+<!-- hacks-guide change end -->
+
+</div>
+
+<!-- hacks-guide change start: custom footer -->
+
+
+
+<div class="page__footer-copyright">&copy; 2023 Nintendo Homebrew. - <a href="site-navigation">Site Navigation</a> - <a href="privacy-policy">Privacy Policy</a> - <a href="donations">Donations</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<!-- hacks-guide change end -->
+
+      </footer>
+    </div>
+<!-- hacks-guide change end -->
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- hacks-guide change start: Disable caching -->
+
+<!-- hacks-guide change end -->
+
+
+
+
+
+
+
+  </body>
+</html>

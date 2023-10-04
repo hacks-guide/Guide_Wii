@@ -1,0 +1,705 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>ModMii - Wii Hacks Guide</title>
+<meta name="description" content="A complete guide to Wii custom firmware">
+
+
+  <meta name="author" content="Nintendo Homebrew">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wii Hacks Guide">
+<meta property="og:title" content="ModMii">
+<meta property="og:url" content="https://wii.hacks.guide/modmii.html">
+
+
+  <meta property="og:description" content="A complete guide to Wii custom firmware">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://wii.hacks.guide/modmii.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nintendo Homebrew",
+      "url": "https://wii.hacks.guide/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wii Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- hacks-guide change start: cookie consent, favicon, locales -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/site-config/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/site-config/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="manifest" href="/assets/js/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/site-config/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/site-config/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/site-config/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/assets/xml/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#2e3440"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site."
+  }
+})});
+</script>
+<!-- hacks-guide change end -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+<!-- hacks-guide change start: Disable caching -->
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+<!-- hacks-guide change start: disable default masthead title -->
+      <!--
+        <a class="site-title" href="/">
+          Wii Hacks Guide
+          
+        </a>
+      -->
+<!-- hacks-guide change end -->
+        <ul class="visible-links">
+<!-- hacks-guide change start: multi-language configuration -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Home</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/get-started">Get Started</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/site-navigation">Site Navigation</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/faq">FAQ</a></li>
+            
+          
+<!-- hacks-guide change end -->
+        </ul>
+        
+<!-- hacks-guide change start: Add language selector -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/modmii.html">English</a></li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="greedy-nav__toggle_lang" type="button"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+<!-- hacks-guide change end -->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- hacks-guide change start: Implement progress table, replace existing sidebar -->
+<!--
+
+  <div class="sidebar sticky">
+  
+  
+    
+    
+  
+  </div>
+
+-->
+
+
+
+<div class="sidebar sticky" style="display: none;">
+  <!-- hacks-guide change start: Refactor entire subsection to allow using translations -->
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">Overall Progress</span>
+      <ol>
+        
+          
+            <li style="display: none;" data-name="home"><a href='/'>Home</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="get-started"><a href='/get-started'>Get Started</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="letterbomb"><a href='/letterbomb'>LetterBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bluebomb"><a href='/bluebomb'>BlueBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="flashhax"><a href='/flashhax'>FlashHax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="str2hax"><a href='/str2hax'>str2hax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wilbrand"><a href='/wilbrand'>Wilbrand</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="multiple-options"><i>(Multiple Options)</i></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc"><a href='/hbc'>Homebrew Channel and BootMii Installation</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc-mini"><a href='/hbc-mini'>Homebrew Channel - for Wii mini only</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bootmii"><a href='/bootmii'>BootMii Backup</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="priiloader"><a href='/priiloader'>Priiloader</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="osc"><a href='/osc'>Open Shop Channel</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/cios-mini'>d2xl cIOS for Wii mini (experimental)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/cios-mini'>d2xl cIOS for Wii mini (experimental)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wnd-mini"><a href='/wnd-mini'>Wii mini NAND Dumper</a></li>
+          
+        
+      </ol>
+    </li>
+  </ul>
+</nav>
+<!-- hacks-guide change end -->
+
+</div>
+
+
+<!-- hacks-guide change end-->
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="ModMii">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">ModMii
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+<!-- hacks-guide change start -->
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.</b></div>
+        
+
+        <hr>
+<!-- hacks-guide change end -->
+
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#requirements" id="markdown-toc-requirements">Requirements</a></li>
+  <li><a href="#modmii-wizard" id="markdown-toc-modmii-wizard">ModMii Wizard</a></li>
+  <li><a href="#syscheck-updater-wizard" id="markdown-toc-syscheck-updater-wizard">SysCheck Updater Wizard</a></li>
+  <li><a href="#hackmii-solutions-wizard" id="markdown-toc-hackmii-solutions-wizard">HackMii Solutions Wizard</a></li>
+  <li><a href="#abstinence-wizard" id="markdown-toc-abstinence-wizard">Abstinence Wizard</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<p class="notice--info">If you need help for anything regarding this tutorial, please join <a href="https://discord.gg/cMnBRACQwQ">the ModMii Discord server</a>.</p>
+
+<p class="notice--warning">This Program does NOT come with a warranty, so you are responsible for any potential damage done to your Wii.</p>
+
+<p class="notice--warning">This program is NOT intended to be used for the vWii or the Wii mini. Any usage on vWii or Wii mini is untested.</p>
+
+<p>ModMii is a PC program for Windows created by XFlak that has various helpful tools for modding, including some tutorials that may not be currently available on this website.<br />
+You can choose to launch in ModMii skin, which has a more user-friendly interface, or launch in ModMii Classic, which uses a command-line (Command Prompt/Terminal) interface.</p>
+
+<p class="notice--info">Some advanced options may not be accessible in ModMii Skin. A list of the features available in ModMii Classic can be found at the bottom of the page.</p>
+
+<h3 id="requirements">Requirements</h3>
+
+<ul>
+  <li>A Wii</li>
+  <li>A USB drive or SD Card</li>
+  <li>A Windows PC (a Virtual Machine will work)</li>
+  <li><a href="https://modmii.github.io/">ModMii</a></li>
+</ul>
+
+<p>This is a quick start guide on using ModMii on your Windows PC.</p>
+
+<h3 id="modmii-wizard">ModMii Wizard</h3>
+
+<p>You can use the ModMii wizard to softmod any Wii. <br />
+Even if the Wii has been softmodded in the past, you can have ModMii overwrite existing softmods by telling ModMii that this is the first time you’re modding your Wii (even if it isn’t).</p>
+
+<p>You can also use this wizard to set up a USB loader at the same time, instead of having to use the USB Loader setup wizard later on.</p>
+
+<h3 id="syscheck-updater-wizard">SysCheck Updater Wizard</h3>
+
+<p><a href="syscheck">SysCheck</a> is a homebrew application that analyzes the modifications on a Wii. <br />
+You can give a SysCheck report to ModMii to help identify &amp; update outdated mods.</p>
+
+<p>You can have ModMii analyze a SysCheck by dragging the <code class="language-plaintext highlighter-rouge">syscheck.csv</code> file onto ModMii.exe. 
+Alternatively, you can launch the SysCheck Updater Wizard (<code class="language-plaintext highlighter-rouge">SU</code>) from ModMii’s main menu and manually browse for the file.</p>
+
+<h3 id="hackmii-solutions-wizard">HackMii Solutions Wizard</h3>
+
+<p>The HackMii Solutions wizard can help fix symptoms like these:
+    + HackMii Installer not prompting “Press (1) to continue”
+    + HackMii Installer says “no vulnerable IOS found!”
+    + Homebrew Channel is displaying upside-down</p>
+
+<p>It will install clean IOSs to allow for the HackMii Installer to operate properly.</p>
+
+<h3 id="abstinence-wizard">Abstinence Wizard</h3>
+
+<p class="notice--warning">This wizard requires an SD card.</p>
+
+<p>This wizard allows you to enjoy many of the benefits of a softmodded Wii without installing any permanent modifications to your Wii.
+It will allow you to launch an exploit to boot an from emulated NAND from external storage, rather than use your Wii’s internal NAND.</p>
+
+<p>You can also make a NAND backup without modifying your Wii at all by navigating to ModMii’s “Support” folder and launching <code class="language-plaintext highlighter-rouge">Casper2BootMii.bat</code>. <br />
+It will save some files to a folder named <code class="language-plaintext highlighter-rouge">COPY_TO_SD</code>; copy the files inside it to your SD card and <a href="get-started">launch an exploit</a>.</p>
+
+<p class="notice--warning">When following one of the exploit guides above, avoid replacing the <code class="language-plaintext highlighter-rouge">boot.elf</code> file.</p>
+
+<details id="Modmii-Tools" class="notice--info">
+  <summary><a>Click here for a full list of available tools.</a></summary>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Tool</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>W = ModMii Wizard &lt;– Start Here to Mod Your Wii!</td>
+        <td>This option can be used to mod your Wii for the first time or re-mod a Wii that has been previously modded.</td>
+      </tr>
+      <tr>
+        <td>SU = SysCheck Updater Wizard (update only your outdated softmods)</td>
+        <td>This option is useful for people who have old modifications installed to their wii such as DarkCorp/Ciosspaghetti that can potetially cause problems for the latest homebrew custom firmware.</td>
+      </tr>
+      <tr>
+        <td>U = USB-Loader Setup Wizard</td>
+        <td>This option will help you properly set up your USB loader to be able to load your disk backups from an SD or USB hard drive.</td>
+      </tr>
+      <tr>
+        <td>H = HackMii Solutions Wizard (Upside-Down HBC\No Vulnerable IOS Fix)</td>
+        <td>This option is useful for people who are having trouble getting the HackMii Installer to work, or if they just simply have an upside down homebrew channel, or if DarkCorp/Ciosspaghetti was installed and there was no homebrew channel.</td>
+      </tr>
+      <tr>
+        <td>AW = Abstinence Wizard (Non-permanent Wii Hacks)</td>
+        <td>This option is useful for people who dont want to make any permanent modifications to their Wii but still want to have some of the benefits that homebrew can offer.</td>
+      </tr>
+      <tr>
+        <td>RC = Region Change Wizard</td>
+        <td>This option can be used to change the region of your Wii without bricking it (this is the best region changer tutorial available on the internet!).</td>
+      </tr>
+      <tr>
+        <td>S = SNEEK Installation, EmuNAND Builder\Modifier, Game Bulk Extractor</td>
+        <td>This option will help you properly set up an EmuNAND (aka neek2o) onto your SD or USB. benefits for emunand include extra storage space for save games or channels. and the benefit of not making any permanent modifications to your Wii.</td>
+      </tr>
+      <tr>
+        <td>F = open a File or Folder with ModMii for many more functions!</td>
+        <td>This option is an advanced tool especially helpful for developers.</td>
+      </tr>
+      <tr>
+        <td>1 = Download Page 1 (System Menus, IOSs, MIOSs, Channels, etc.)</td>
+        <td>This option opens the first download page that includes most of the key parts for the system menu (downloaded from NUS).</td>
+      </tr>
+      <tr>
+        <td>2 = Download Page 2 (Apps, USB-Loader Files, CheatCodes, etc.)</td>
+        <td>This option opens the second download page that includes exploits and useful apps for your Wii including some PC programs.</td>
+      </tr>
+      <tr>
+        <td>3 = Download Page 3 (System Menu Themes)</td>
+        <td>This option opens the third download page that includes some system menu themes and items required to install system menu themes (base apps are downloaded from NUS).</td>
+      </tr>
+      <tr>
+        <td>4 = Download Page 4 (cIOSs and cMIOSs)</td>
+        <td>This option opens the fourth download page that includes cIOSes and cMIOSes for use in USB loaders. It is recommended to just install the recommended cioses unless you plan to do some testing.</td>
+      </tr>
+      <tr>
+        <td>A = Advanced Downloads and Forwarder DOL\ISO Builder</td>
+        <td>This option is an advanced tool used to better customize downloads or allow you to build a dol executable useful for fowarders (channels on the system menu to access Wii applications).</td>
+      </tr>
+      <tr>
+        <td>L = Load Download Queue</td>
+        <td>This option will download all of the required titles need for the Wii system menu (titles are downloaded from NUS)</td>
+      </tr>
+      <tr>
+        <td>C = Build Config Files for Bootmii, Wad Manager or Multi-Mod Manager</td>
+        <td>This option will help you build configuration files required for certain applications.</td>
+      </tr>
+      <tr>
+        <td>FC = File Cleanup &amp; App Updater: Update Apps and\or remove un-needed files</td>
+        <td>This option is useful for people who want to clean out their SD or USB of apps deemed outdated, useless, or otherwise depreciated.</td>
+      </tr>
+      <tr>
+        <td>M = ModMii Skin Mode: use your mouse instead of your keyboard!</td>
+        <td>This option will launch ModMii skin mode. Some advanced options may not be available in this view.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</details>
+
+<details id="Modmii-Options" class="notice--info">
+  <summary><a>Click here for a full list of available options.</a></summary>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Option</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>D = Change Drive letter:</td>
+        <td>Changes where your SD files are saved to.</td>
+      </tr>
+      <tr>
+        <td>DU = Change Drive letter for USB:</td>
+        <td>Changes where your USB files are saved to.</td>
+      </tr>
+      <tr>
+        <td>d2x = change d2x cIOS version built:</td>
+        <td>Changes the cios version ModMii downloads.</td>
+      </tr>
+      <tr>
+        <td>H = Hermes cIOSs (202 &amp; 222-224) will also be recommended</td>
+        <td>Enables Hermes IOS to be recommended and downloaded in the syscheck updater (will be stubbed if disabled).</td>
+      </tr>
+      <tr>
+        <td>CM = cMIOS included in recommended cIOSs</td>
+        <td>Enables cMIOS to be recommended and downloaded in the syscheck updater (will install stock MIOS if disabled).</td>
+      </tr>
+      <tr>
+        <td>E = Extra Brick Protection in ModMii Wizard Guides</td>
+        <td>Enables ModMiis Extra Brick Protection IOSes to be recommended and used in the syscheck updater tool.</td>
+      </tr>
+      <tr>
+        <td>U = Update IOSs. Wizard/SysCheck-Updater to update Active IOSs</td>
+        <td>Updates Existing IOSes to the latest version available on NUS.</td>
+      </tr>
+      <tr>
+        <td>AU = Auto-Updating downloads will skip update check if cached</td>
+        <td>Will skip downloading the files if already in the queue.</td>
+      </tr>
+      <tr>
+        <td>FWD = Install USB-Loader Forwarder in ModMii Wizard Guides</td>
+        <td>Will include the USB loader forwarder wad file in the USB loader wizard guides.</td>
+      </tr>
+      <tr>
+        <td>PC = PC Programs Save Location</td>
+        <td>Changes the save location for the downloadable PC programs.</td>
+      </tr>
+      <tr>
+        <td>RS = Root Save: Save IOSs\MIOSs to Root instead of WAD Folder</td>
+        <td>Saves IOSs\MIOSs to Root instead of WAD Folder.</td>
+      </tr>
+      <tr>
+        <td>1 = Do not Keep 00000001 or NUS Folders for IOSs\MIOSs\SMs etc</td>
+        <td>Deletes the folder used for compiling the wad file and just gives you the wad file.</td>
+      </tr>
+      <tr>
+        <td>n2o = neek2o - build mod of s\uneek instead of original</td>
+        <td>Uses a better modified version of neek2o in the EmuNAND builder.</td>
+      </tr>
+      <tr>
+        <td>SSD = SNEEK and SNEEK+DI SD Access</td>
+        <td>Allows for SNEEK and SNEEK+DI access on the SD card.</td>
+      </tr>
+      <tr>
+        <td>F = Font.bin Colour for SNEEK/UNEEK</td>
+        <td>Changes the font color for neek2o.</td>
+      </tr>
+      <tr>
+        <td>SV = SNEEK Verbose Output</td>
+        <td>Displays extra information regarding EmuNAND.</td>
+      </tr>
+      <tr>
+        <td>V = Verbose for ModMii Skin &amp; nandBinCheck</td>
+        <td>Displays another window with extra information regarding a nand check.</td>
+      </tr>
+      <tr>
+        <td>SO = Play sound at Finish</td>
+        <td>Plays a fun jingle after a successful download.</td>
+      </tr>
+      <tr>
+        <td>A = Auto-Update ModMii at program start</td>
+        <td>Will automatically check for updates when ModMii is launched.</td>
+      </tr>
+      <tr>
+        <td>N = Check for New versions of ModMii right now</td>
+        <td>Will check online for a ModMii update.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</details>
+
+<p class="notice--info"><a href="site-navigation">Click here to go back to the site index.</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/hacks-guide/Guide_Wii" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+<!-- hacks-guide change start: force disable atom feed-->
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+<!-- hacks-guide change end -->
+
+</div>
+
+<!-- hacks-guide change start: custom footer -->
+
+
+
+<div class="page__footer-copyright">&copy; 2023 Nintendo Homebrew. - <a href="site-navigation">Site Navigation</a> - <a href="privacy-policy">Privacy Policy</a> - <a href="donations">Donations</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<!-- hacks-guide change end -->
+
+      </footer>
+    </div>
+<!-- hacks-guide change end -->
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- hacks-guide change start: Disable caching -->
+
+<!-- hacks-guide change end -->
+
+
+
+
+
+
+
+  </body>
+</html>

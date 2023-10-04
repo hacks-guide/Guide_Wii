@@ -1,0 +1,621 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Wilbrand - Wii Hacks Guide</title>
+<meta name="description" content="A complete guide to Wii custom firmware">
+
+
+  <meta name="author" content="Nintendo Homebrew">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wii Hacks Guide">
+<meta property="og:title" content="Wilbrand">
+<meta property="og:url" content="https://wii.hacks.guide/wilbrand.html">
+
+
+  <meta property="og:description" content="A complete guide to Wii custom firmware">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://wii.hacks.guide/wilbrand.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nintendo Homebrew",
+      "url": "https://wii.hacks.guide/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wii Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- hacks-guide change start: cookie consent, favicon, locales -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/site-config/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/site-config/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="manifest" href="/assets/js/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/site-config/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/site-config/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/site-config/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/assets/xml/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#2e3440"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site."
+  }
+})});
+</script>
+<!-- hacks-guide change end -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+<!-- hacks-guide change start: Disable caching -->
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+<!-- hacks-guide change start: disable default masthead title -->
+      <!--
+        <a class="site-title" href="/">
+          Wii Hacks Guide
+          
+        </a>
+      -->
+<!-- hacks-guide change end -->
+        <ul class="visible-links">
+<!-- hacks-guide change start: multi-language configuration -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Home</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/get-started">Get Started</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/site-navigation">Site Navigation</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/faq">FAQ</a></li>
+            
+          
+<!-- hacks-guide change end -->
+        </ul>
+        
+<!-- hacks-guide change start: Add language selector -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/wilbrand.html">English</a></li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="greedy-nav__toggle_lang" type="button"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+<!-- hacks-guide change end -->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- hacks-guide change start: Implement progress table, replace existing sidebar -->
+<!--
+
+  <div class="sidebar sticky">
+  
+  
+    
+    
+  
+  </div>
+
+-->
+
+
+
+<div class="sidebar sticky" style="display: none;">
+  <!-- hacks-guide change start: Refactor entire subsection to allow using translations -->
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">Overall Progress</span>
+      <ol>
+        
+          
+            <li style="display: none;" data-name="home"><a href='/'>Home</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="get-started"><a href='/get-started'>Get Started</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="letterbomb"><a href='/letterbomb'>LetterBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bluebomb"><a href='/bluebomb'>BlueBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="flashhax"><a href='/flashhax'>FlashHax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="str2hax"><a href='/str2hax'>str2hax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wilbrand"><a href='/wilbrand'>Wilbrand</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="multiple-options"><i>(Multiple Options)</i></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc"><a href='/hbc'>Homebrew Channel and BootMii Installation</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc-mini"><a href='/hbc-mini'>Homebrew Channel - for Wii mini only</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bootmii"><a href='/bootmii'>BootMii Backup</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="priiloader"><a href='/priiloader'>Priiloader</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="osc"><a href='/osc'>Open Shop Channel</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/cios-mini'>d2xl cIOS for Wii mini (experimental)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/cios-mini'>d2xl cIOS for Wii mini (experimental)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wnd-mini"><a href='/wnd-mini'>Wii mini NAND Dumper</a></li>
+          
+        
+      </ol>
+    </li>
+  </ul>
+</nav>
+<!-- hacks-guide change end -->
+
+</div>
+
+
+<!-- hacks-guide change end-->
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Wilbrand">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Wilbrand
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+<!-- hacks-guide change start -->
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.</b></div>
+        
+
+        <hr>
+<!-- hacks-guide change end -->
+
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#wilbrand-web-recommended" id="markdown-toc-wilbrand-web-recommended">Wilbrand Web (Recommended)</a>    <ul>
+      <li><a href="#requirements" id="markdown-toc-requirements">Requirements</a></li>
+      <li><a href="#instructions" id="markdown-toc-instructions">Instructions</a></li>
+    </ul>
+  </li>
+  <li><a href="#wilbrand-cli" id="markdown-toc-wilbrand-cli">Wilbrand CLI</a>    <ul>
+      <li><a href="#requirements-1" id="markdown-toc-requirements-1">Requirements</a></li>
+      <li><a href="#instructions-1" id="markdown-toc-instructions-1">Instructions</a></li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<p>Wilbrand, like LetterBomb, is an exploit for the Wii that is triggered using the Wii Message Board.</p>
+
+<p class="notice--info">Unlike LetterBomb, Wilbrand supports Wii menu versions down to 3.0.</p>
+
+<p class="notice--info">There are two methods listed on this page used to create the proper Wilbrand exploit.
+Wilbrand Web is recommended for its ease of use.</p>
+
+<h3 id="wilbrand-web-recommended">Wilbrand Web (Recommended)</h3>
+
+<h4 id="requirements">Requirements</h4>
+
+<ul>
+  <li>An SD card formatted to FAT32/MS-DOS (FAT)</li>
+  <li>A Wii on at least version 3.0</li>
+</ul>
+
+<p class="notice--warning">SD cards larger than 2GB will not work on Wii menu versions before 4.0.</p>
+
+<h4 id="instructions">Instructions</h4>
+
+<ol>
+  <li>Power on your console.</li>
+  <li>Go to <code class="language-plaintext highlighter-rouge">Wii Settings</code>.</li>
+  <li>Take note of the letter next to the system version, in the top-right corner of the screen.
+    <ul>
+      <li>This letter corresponds to your system menu region, which you will need to know for the corresponding steps.</li>
+    </ul>
+
+    <p><img src="/images/wii/SystemMenuVersion.png" alt="Wii Region" /></p>
+  </li>
+  <li>Navigate to <code class="language-plaintext highlighter-rouge">Internet</code> &gt; <code class="language-plaintext highlighter-rouge">Console Information</code>.</li>
+  <li>
+    <p>Take note of your FULL MAC address.</p>
+
+    <p><img src="/images/wii/MacAddress.png" alt="Mac Address" /></p>
+  </li>
+  <li>On your computer, open the browser and go to <a href="https://wilbrand.donut.eu.org/">wilbrand.donut.eu.org</a>.</li>
+  <li>Input your Wii MAC, version and region.</li>
+  <li>Ensure <code class="language-plaintext highlighter-rouge">Bundle the HackMii Installer for me!</code> is checked.</li>
+  <li>
+    <p>Cut either wire.</p>
+
+    <p><img src="/images/exploits/wilbrand/web.png" alt="Wilbrand Web" /></p>
+  </li>
+  <li>Click on “Download your .zip”.</li>
+  <li>Insert your SD card into your computer.</li>
+  <li>Copy the <code class="language-plaintext highlighter-rouge">private</code> folder and the <code class="language-plaintext highlighter-rouge">boot.elf</code> file from the downloaded <code class="language-plaintext highlighter-rouge">.zip</code> file to the root of your SD card.</li>
+  <li>Reinsert your SD card into your console.
+    <ul>
+      <li>The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii’s USB port will not work.</li>
+    </ul>
+  </li>
+  <li>On your Wii, return to the Wii Menu.</li>
+  <li>Launch the Wii Message Board on your Wii.</li>
+  <li>Open the green letter with a bomb.
+    <ul>
+      <li>Ensure the date on your Wii is correct, or you might be unable to find the letter.</li>
+      <li>In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.</li>
+      <li>If you don’t see the green letter, check if any errors appear in the SD card section of <code class="language-plaintext highlighter-rouge">Data Management</code>. If there are errors, there may be an issue with the SD card format or the Wii’s SD card reader.</li>
+    </ul>
+
+    <p><img src="/images/exploits/wilbrand/msgboard.png" alt="Wilbrand in its natural habitat" /></p>
+  </li>
+  <li>If the exploit was successful, your device will have loaded the HackMii Installer.
+    <ul>
+      <li>If this didn’t work for you, try <a href="#wilbrand-cli">Wilbrand CLI</a> or <a href="get-started">try another exploit</a> (ie. Letterbomb).</li>
+    </ul>
+  </li>
+</ol>
+
+<p class="notice--info"><a href="hbc">Continue to Homebrew Channel and BootMii Installation</a></p>
+
+<h3 id="wilbrand-cli">Wilbrand CLI</h3>
+
+<h4 id="requirements-1">Requirements</h4>
+
+<ul>
+  <li>A computer running Windows, macOS or Linux</li>
+  <li>An SD card formatted to FAT32/MS-DOS (FAT)</li>
+  <li>A Wii on version 3.0 or newer</li>
+  <li><a href="https://static.wiidatabase.de/Wilbrand.zip">Wilbrand</a></li>
+  <li><a href="https://bootmii.org/download/">HackMii Installer v1.2</a></li>
+</ul>
+
+<p class="notice--warning">SD cards larger than 2GB will not work on Wii menu versions before 4.0.</p>
+
+<h4 id="instructions-1">Instructions</h4>
+
+<ol>
+  <li>Power on your console.</li>
+  <li>Go to <code class="language-plaintext highlighter-rouge">Wii Settings</code>.</li>
+  <li>Take note of the letter next to the system version, in the top-right corner of the screen.
+    <ul>
+      <li>This letter corresponds to your system menu region, which you will need to know for the corresponding steps.</li>
+    </ul>
+
+    <p><img src="/images/wii/SystemMenuVersion.png" alt="Wii Region" /></p>
+  </li>
+  <li>Navigate to <code class="language-plaintext highlighter-rouge">Internet</code> &gt; <code class="language-plaintext highlighter-rouge">Console Information</code>.</li>
+  <li>
+    <p>Take note of your FULL MAC address.</p>
+
+    <p><img src="/images/wii/MacAddress.png" alt="Mac Address" /></p>
+  </li>
+  <li>Copy all files from the Wilbrand <code class="language-plaintext highlighter-rouge">.zip</code> to a folder on your computer</li>
+  <li>Insert your SD card into your computer.</li>
+  <li>Open a terminal inside the folder Wilbrand was extracted to.</li>
+  <li>
+    <p>Using your Wii’s version and MAC address, run the following command:</p>
+
+    <ul>
+      <li>Windows: <code class="language-plaintext highlighter-rouge">.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:</code>
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">X:</code> is the drive letter of your SD card.</li>
+        </ul>
+
+        <p><img src="/images/exploits/wilbrand/windows.png" alt="running Wilbrand on Windows" /></p>
+      </li>
+      <li>Linux/macOS: <code class="language-plaintext highlighter-rouge">./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir</code>
+        <ul>
+          <li>If you have not opened your terminal directly in the folder Wilbrand was extracted to, use <code class="language-plaintext highlighter-rouge">cd</code> to enter it first, eg. <code class="language-plaintext highlighter-rouge">cd ~/Desktop/Wilbrand</code></li>
+          <li><code class="language-plaintext highlighter-rouge">/media/mount_dir</code> is the folder your SD card is mounted in. This may vary depending on your Linux distro.</li>
+        </ul>
+
+        <p><img src="/images/exploits/wilbrand/linux.png" alt="running Wilbrand on Linux" /></p>
+      </li>
+    </ul>
+  </li>
+  <li>Copy all files from the hackmii_installer_v1.2 <code class="language-plaintext highlighter-rouge">.zip</code> to a folder on your computer.</li>
+  <li>Copy <code class="language-plaintext highlighter-rouge">boot.elf</code> from the hackmii_installer_v1.2 <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card.</li>
+  <li>Reinsert your SD card into your console.
+    <ul>
+      <li>The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii’s USB port will not work.</li>
+    </ul>
+  </li>
+  <li>On your Wii, return to the Wii Menu.</li>
+  <li>Launch the Wii Message Board.</li>
+  <li>Open the green letter with a bomb.
+    <ul>
+      <li>Ensure the date on your Wii is correct, or you might be unable to find the letter.</li>
+      <li>In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.</li>
+      <li>If you don’t see the green letter, check if any errors appear in the SD card section of <code class="language-plaintext highlighter-rouge">Data Management</code>. If there are errors, there may be an issue with the SD card format or the Wii’s SD card reader.</li>
+    </ul>
+
+    <p><img src="/images/exploits/wilbrand/msgboard.png" alt="Wilbrand in its natural habitat" /></p>
+  </li>
+  <li>If the exploit was successful, your device will have loaded the HackMii Installer.</li>
+</ol>
+
+<p class="notice--info"><a href="hbc">Continue to Homebrew Channel and BootMii Installation</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/hacks-guide/Guide_Wii" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+<!-- hacks-guide change start: force disable atom feed-->
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+<!-- hacks-guide change end -->
+
+</div>
+
+<!-- hacks-guide change start: custom footer -->
+
+
+
+<div class="page__footer-copyright">&copy; 2023 Nintendo Homebrew. - <a href="site-navigation">Site Navigation</a> - <a href="privacy-policy">Privacy Policy</a> - <a href="donations">Donations</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<!-- hacks-guide change end -->
+
+      </footer>
+    </div>
+<!-- hacks-guide change end -->
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- hacks-guide change start: Disable caching -->
+
+<!-- hacks-guide change end -->
+
+
+
+
+
+
+
+  </body>
+</html>
