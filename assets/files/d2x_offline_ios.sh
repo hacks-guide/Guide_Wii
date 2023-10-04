@@ -60,7 +60,7 @@ fi
 if ! [[ -x "Sharpii" ]]; then chmod +x Sharpii 2> /dev/null; fi
 
 mkdir -p ios
-printf "This script downloads the 4 IOS WADs at wii.guide/cios mentioned at Section I.\n"
+printf "This script downloads the 4 IOS WADs at wii.hacks.guide/cios mentioned at Section I.\n"
 sleep 1
 download_ios 38 4123
 download_ios 56 5661
