@@ -5,6 +5,7 @@ on:
 
 jobs:
   doc-test:
+    if: github.ref_name != 'l10n'   
     runs-on: ubuntu-latest
 
     steps:
