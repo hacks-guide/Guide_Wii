@@ -4,8 +4,6 @@ layout: single
 sitemap: false
 ---
 
-![WiiTutorials](/images/main-pages/Wii_Green.jpg)
-
 {% capture notice-1 %}
 **Site**
 + [Home](/)

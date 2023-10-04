@@ -6,8 +6,6 @@ title: "GameCube Saves"
 
 This is a full guide on how to manage your GameCube saves.
 
-![GCMM](/images/homebrew/gcsaves/gcmm.png)
-
 Use of any GameCube peripheral with a Family Edition Wii or Wii Mini require soldering on GameCube ports and/or memory card slots.
 {: .notice--info}
 
