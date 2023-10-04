@@ -9,10 +9,10 @@ https://wii.hacks.guide/
 This requires the following installed on your system:
 - ruby(-dev)
 - bundler
-- jekyll and its dependencies
 
 To test the website locally, simply run the following commands:
 ```sh
+bundle config set --local path vendor/bundle
 bundle install
 bundle exec jekyll serve --incremental
 ```
