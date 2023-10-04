@@ -1,1 +1,1 @@
-Sitemap: https://wii.guide/sitemap.xml
+Sitemap: https://wii.hacks.guide/sitemap.xml
