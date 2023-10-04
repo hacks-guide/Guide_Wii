@@ -41,7 +41,14 @@ You can now use the Homebrew Channel to launch homebrew apps, as well as BootMii
 
 Here's a tip - when installing homebrew applications on your SD Card or USB drive, your folder structure should look like this:
 
-![Proper SD Card Folder Structure](images/wii/FolderStructure.png)
+```
+💾 SD Card or USB Drive
+| ╸📁 apps
+	| ╸📁 AppName
+		| ╸📄 boot.dol
+		| ╸📄 meta.xml
+		| ╸📄 icon.png
+```
 
 `AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
 
