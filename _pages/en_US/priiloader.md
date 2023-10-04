@@ -4,14 +4,14 @@ title: "Priiloader"
 
 {% include toc title="Table of Contents" %}
 
-Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also enable hacks for your Wii Menu, and be used to quickly launch the Homebrew Channel, BootMii, or whatever homebrew you want!
+Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also enable hacks for your Wii Menu, and be used to quickly launch the Homebrew Channel, BootMii, or whatever homebrew you want.
 
 ### Installing Priiloader
 
 {% capture notice-vwii-priiloader %}
 Priiloader 0.10.0 introduces vWii support! <br>
 There are some important things to take note of:
-+ To fix the timestamp issues (FORE000006, wrong News Channel update time), you will need to [generate a timestamp fix hack](https://garyodernichts.github.io/priiloader-patch-gen/). More info on the page.
++ To fix the timestamp issues (FORE000006, wrong News Channel update time), you will need to [generate a timestamp fix hack](https://garyodernichts.github.io/priiloader-patch-gen/) (more information on the page).
 + Installing a theme after installing Priiloader **will brick your vWii.**
 {% endcapture %}
 
@@ -54,25 +54,25 @@ Priiloader will appear automatically after you install it. Simply exit the Homeb
 
 To enter it later on, simply run the "Load Priiloader" homebrew app. There are also other ways to enter Priiloader:
 
-+ Holding RESET on a Wii while turning it on.
-+ Holding the ESC key on a USB keyboard while turning on the console.
++ Holding RESET on a Wii while turning it on
++ Holding the ESC key on a USB keyboard while turning on the console
 
 ### Configuring Priiloader
 
 #### System Menu Hacks
 
-1. Launch the Homebrew Channel.
-1. Launch Load Priiloader from the list of homebrew.
+1. Open the Homebrew Channel.
+1. Launch "Load Priiloader" from the list of homebrew.
 1. Scroll down to `System Menu Hacks` and press `A`.
 
     ![System Menu Hacks](/images/priiloader/menu_hacks.png)
 
     If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br>
-    This causes Priiloader to fail to find the `hacks_hash.ini` file.
+    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
     {: .notice--warning}
 
 1. Press `A` on each hack you would like to enable.
-    + This guide advises you to enable "Block Disc Updates", "Block Online Updates", and "Region Free EVERYTHING".
+    + It is advised to enable "Block Disc Updates", "Block Online Updates", and "Region Free EVERYTHING".
 
     ![System Menu Hacks List](/images/priiloader/system_menu_hacks.png)
 
@@ -114,7 +114,7 @@ To enter it later on, simply run the "Load Priiloader" homebrew app. There are a
 </details>
 
 [View the Brick Prevention Guidelines](bricks#brick-prevention)<br>
-These guidelines list different ways that you can avoid bricking your Wii, beyond BootMii or Priiloader.
+These guidelines list ways that to avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
 {: .notice--info}
 
 ### Additional options
@@ -192,5 +192,5 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 1. Scroll back up to `System Menu` and press A.
 
 [Continue to Open Shop Channel Installation](osc)
-Now that your Wii has adequate brick protection, you can grab a trusted repository for homebrew that can be accessed both on and off the Wii - the Open Shop Channel.
+Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 {: .notice--info}

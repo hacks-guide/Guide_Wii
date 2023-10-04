@@ -7,10 +7,10 @@ title: "Get Started"
 It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and install many types of homebrew.
 {: .notice--info}
 
-All listed exploits are different methods of achieving the same end-result, getting to the HackMii installer.
+All of the exploits listed here are different methods of achieving the same end-result (getting to the HackMii installer).
 {: .notice--info}
 
-These steps will help you softmod your Wii, from stock to BootMii. Before starting this guide, please ensure that your console is on the latest version of the Wii firmware (4.3). If your Wii is already softmodded but is on an older version, follow [this](update) guide to update to latest.
+These steps will help you softmod your Wii, from stock to BootMii. Before starting this guide, please ensure that your console is on the latest version of the Wii firmware (4.3). If your Wii is already softmodded but is on an older version, follow [this](update) guide to upgrade your setup.
 
 ### Identify your console revision:
 

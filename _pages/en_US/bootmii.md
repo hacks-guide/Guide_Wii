@@ -6,16 +6,16 @@ title: "BootMii Backup"
 
 BootMii allows for backing up and restoring your Wii's NAND storage. This page will guide you in backing up your Wii's NAND to an SD Card, which you can then use however you like.
 
-Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. Please bear this in mind before you make one, even though it is recommended to do so anyway.
+Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. Regardless, it is still recommended to make one on these consoles.
 {: .notice--danger}
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but you are highly recommended to return to this page later to back up your NAND.
+You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
 {: .notice--warning}
 
 Navigating BootMii is not possible using a Wii Remote. You must use the POWER and RESET buttons on your console, or a GameCube controller plugged into port 1. To navigate between options, press POWER on your Wii (or left/right on the +Control Pad on a GameCube controller). To select an option, press RESET on your Wii or A on your GameCube controller. You will NEED to use a GameCube controller to restore a NAND backup in the future if BootMii is installed as IOS.
 {: .notice--info}
 
-If the `Launch BootMii` button does not appear in the Homebrew Channel, please [re-launch the HackMii Installer](hackmii) and install BootMii. 
+If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii. 
 {: .notice--warning}
 
 If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
@@ -23,11 +23,11 @@ If the screen stays black and the blue disc drive light is blinking upon launchi
 
 ### Requirements
 
-* An SD card with a minimum 512MB of free space, 1GB or more recommended
+* An SD card with a minimum 512MB of free space (1GB or more recommended)
 
 ### Instructions
 
-If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
 {: .notice--info}
 
 1. Power on your console.
@@ -56,18 +56,16 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
     ![BootMii_Return_Arrow](/images/bootmii/BootMii_Return_Arrow.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover).
-
-Please be reminded that <strong>restoring a NAND backup is usually a last resort,</strong> and that there often better ways to fix your brick.
+Note: **restoring a NAND backup is usually a last resort**. There often better ways to unbrick your console.
 
 Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
 
-It is also not possible to restore NAND backups on Family Edition Wiis, due to a lack of GameCube controller ports and BootMii as boot2.
+To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover) (Original Wii only).
 </div>
 
-Two files will have been created on the root of your SD Card; `nand.bin` and `keys.bin`. `nand.bin` is your Wii's internal memory, while `keys.bin` are your console's keys.
+Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is your Wii's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
 [Continue to Priiloader Installation](priiloader)<br>
-Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. For BootMii on IOS, it is effectively required to boot in the case of a more severe brick.
+Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.
 {: .notice--info}
