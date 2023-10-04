@@ -15,8 +15,7 @@ Preventing a brick involves many rules that range between common sense and fail-
 + **DO NOT, UNDER ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. IT IS DANGEROUS, AND DOES THINGS THAT HAVE THE ABILITY TO BRICK YOUR WII!**
 + **DO NOT USE NAND BACKUPS FROM OTHER CONSOLES ON BOOTMII**.
 + **DO NOT USE A NINTENDO WI-FI CONNECTION SERVICE UNLESS IT IS RCE PATCHED, SUCH AS [Wiimmfi](wiimmfi). DOING OTHERWISE COULD PLACE YOUR WII AT RISK OF BEING BRICKED!**
-+ **ONLY INSTALL UPDATES FOR YOUR OWN REGION AND PLAY GAMES ONLY FROM YOUR OWN REGION**.
-    + In most cases, playing a game from another region should simply cause the game to just not boot, unless you have sufficiently modified the console to do otherwise. With that said, extraordinary events have the potential to cause a brick, so the risk is better left untouched.
++ **ONLY INSTALL UPDATES FOR YOUR OWN REGION**.
     + Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with making system updates to your console, and consider seeking support for help.
 + **DO NOT DELETE OR MODIFY SYSTEM FILES, AND DO NOT INSTALL SYSTEM FILE MODS UNLESS YOU KNOW ABSOLUTELY WHAT YOU ARE DOING**.
     + An example of this going wrong is replacing IOS80 on Wii Mini - this can easily result in a [Wi-Fi Brick](bricks#wi-fi-brick).
