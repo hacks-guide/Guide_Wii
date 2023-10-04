@@ -9,7 +9,7 @@ html {
 /* hacks-guide change start: add Nord skin */
   ::selection {
     color: $text-color;
-    background: $text-highlight-color;
+    background: $code-background-color;
   }
 /* hacks-guide change end */
 }
