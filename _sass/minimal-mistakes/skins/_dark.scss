@@ -3,7 +3,10 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #252a34 !default;
+/* hacks guide changes begin */
+$background-color: #28282b !default;
+$text-highlight-color: mix(#fff, $background-color, 15%) !default;
+/* hacks guide changes end */
 $text-color: #eaeaea !default;
 $primary-color: #00adb5 !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
