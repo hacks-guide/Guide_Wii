@@ -55,7 +55,6 @@ If you don't want to go through the hassle of using an external program to build
 1. Create a new directory on your SD card or USB device called `modthemes` if it does not already exist.
 1. Copy the theme file to the storage medium under the `modthemes` directory.
 1. Put the storage medium in your Wii and boot it up.
-storage medium, and you should see a selection of your themes.
 1. Go into MyMenuifyMod, and acknowledge the disclaimer. It will ask what IOS you want to use in the app. Select `IOS58`.
     If you get `Exception DSI occured!`, press RESET on your Wii and try again.
     {: .notice--info}
