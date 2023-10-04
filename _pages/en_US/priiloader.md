@@ -15,7 +15,7 @@ There are some important things to take note of:
 + Installing a theme after installing Priiloader **will brick your vWii.**
 {% endcapture %}
 
-<div class="notice--success" markdown="1">{{ notice-vwii-priiloader }} </div>
+<!--div class="notice--success" markdown="1">{{ notice-vwii-priiloader }} </div-->
 
 ### Requirements
 
