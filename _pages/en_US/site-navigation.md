@@ -60,7 +60,6 @@ sitemap: false
 + [Nintendont](nintendont)
 + [Playing Wii Game Mods](riivolution)
 + [Recommended Homebrew](recommended-homebrew)
-+ [Removing RSSMii](rssmii-remove)
 + [USB Loaders](usb-loaders)
 + [Using SysCheck](syscheck)
 + [Wii Backup Manager](wiibackupmanager)
