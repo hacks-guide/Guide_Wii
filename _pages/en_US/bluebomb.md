@@ -56,7 +56,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 1. Run the following commands:
 
     ```bash
-    wget https://wii.guide/assets/files/bluebomb-helper.sh
+    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
     chmod +x bluebomb-helper.sh
     ./bluebomb-helper.sh
     ```
