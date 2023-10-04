@@ -31,11 +31,12 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 + [Wii Themer](http://www.wiithemer.org/) (online theme builder for specific versions and regions, ready to install .csm themes)
 
 #### Requirements
-+ A modded Wii
-+ An SD card or USB device
-+ A Windows/macOS/Linux PC with an Internet connection
-+ [MyMenuifyMod](https://oscwii.org/library/app/mymenuifymod)
-+ [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
+
+* A modded Wii
+* An SD card or USB device
+* A Windows/macOS/Linux PC with an Internet connection
+* [MyMenuifyMod](https://oscwii.org/library/app/mymenuifymod)
+* [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
 #### Building a Theme
 
@@ -56,27 +57,34 @@ If you don't want to go through the hassle of using an external program to build
 1. Copy the theme file to the storage medium under the `modthemes` directory.
 1. Put the storage medium in your Wii and boot it up.
 1. Go into MyMenuifyMod, and acknowledge the disclaimer. It will ask what IOS you want to use in the app. Select `IOS58`.
+
     If you get `Exception DSI occured!`, press RESET on your Wii and try again.
     {: .notice--info}
+
 1. Select your storage medium, and you should now see a selection of your themes.
-![Theme Selection](/images/themes/mym-theme-selection.png)
+
+    ![Theme Selection](/images/themes/mym-theme-selection.png)
+
 1. Select the theme you would like to install. If it is signed, MyMenuifyMod will indicate it to you, otherwise it will warn you. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
 1. Install the theme.
 1. Reboot into the Wii Menu, and see if the theme successfully installed. If all goes well, you will have a result similar to the below!
-![Theme Ready](/images/themes/themed-wii-menu.png)
+
+    ![Theme Ready](/images/themes/themed-wii-menu.png)
 
 ### WiiFlow Lite Theming
 
 Unfortunately, because of the codebase difference between the original WiiFlow and the newer WiiFlow Lite, themes are sparse - in fact, only one theme could be found that confidently works on the newer version. The instructions for installing that theme are below.
 
 #### Requirements
-+ A modded Wii
-+ An SD card or USB device
-+ [WiiFlow Lite](usb-loaders#wiiflow-lite)
-+ A Linux/macOS/Windows PC with an Internet connection
-+ [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
+
+* A modded Wii
+* An SD card or USB device
+* [WiiFlow Lite](usb-loaders#wiiflow-lite)
+* A Linux/macOS/Windows PC with an Internet connection
+* [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
 #### Instructions
+
 1. Have the storage device that holds WiiFlow Lite connected to your PC.
 1. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
 1. Extract and copy the `wiiflow` folder to the root of your storage device, merge all folders and overwrite all files when requested.
@@ -85,13 +93,15 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 ### USB Loader GX Theming
 
 #### Requirements
-+ A modded Wii
-+ An SD card or USB device
-+ [USB Loader GX](usb-loaders#usb-loader-gx)
-+ A Linux/macOS/Windows PC with an Internet connection
-+ A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
+
+* A modded Wii
+* An SD card or USB device
+* [USB Loader GX](usb-loaders#usb-loader-gx)
+* A Linux/macOS/Windows PC with an Internet connection
+* A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
 
 #### Instructions
+
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
 1. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
 1. Put the storage medium in your Wii and boot it up.
@@ -101,12 +111,14 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 ### Homebrew Channel Theming
 
 #### Requirements
-+ A modded Wii
-+ An SD card or USB device
-+ A Linux/macOS/Windows PC with an internet connection
-+ A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
+
+* A modded Wii
+* An SD card or USB device
+* A Linux/macOS/Windows PC with an internet connection
+* A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
 
 #### Instructions
+
 1. Download a theme `.zip` file from the website linked above.
 
     ![Example Theme](/images/themes/homebrew-channel-example-theme.png)

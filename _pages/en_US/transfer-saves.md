@@ -170,11 +170,13 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 
 1. Open Dolphin Emulator.
 1. If you exporting a select game's save, right click the game inside the Dolphin window and select `Export Wii Save`.
-s![Export Wii Save](/images/dolphin/export-wiisave.png)
     + If you are exporting all your Wii saves from Dolphin, select `Tools > Export All Wii Saves`.
+
+    ![Export Wii Save](/images/dolphin/export-wiisave.png)
+
 1. In the folder dialog that pops up, select your SD card. (Don't go inside any other folder!)
 1. Safely eject your SD card, then put it into your Wii/Wii U.
-   - If on a Wii U, be sure to launch Wii Mode.
+    + If on a Wii U, be sure to launch Wii Mode.
 1. Select the `Wii Options` button at the bottom left.
 1. Select `Data Management` (if on Wii), `Save Data`, then `Wii`.
 1. Go to the `SD Card` tab at the top right.
@@ -200,7 +202,7 @@ Make sure you have installed [cIOS](cios) before following this!
     + If you are exporting all your Wii saves from Dolphin, select `Tools > Export All Wii Saves`.
 1. In the folder dialog that pops up, select your SD card/USB drive. (don't go inside any other folder!)
 1. Safely eject your SD card/USB drive, then put it into your Wii/Wii U.
-   - If on a Wii U, be sure to launch Wii Mode.
+    + If on a Wii U, be sure to launch Wii Mode.
 1. Launch the Homebrew Channel, then launch SaveGame Manager GX.
 1. Ensure that the source is set to your SD or USB.
 1. Select each save and click `Install`.
