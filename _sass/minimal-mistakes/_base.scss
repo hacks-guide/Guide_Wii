@@ -6,7 +6,7 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
-/* hacks-guide change start: add Nord skin */
+/* hacks-guide change start: add text selection custom colours */
   ::selection {
     color: $text-color;
     background: $code-background-color;
