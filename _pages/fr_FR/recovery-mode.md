@@ -38,5 +38,5 @@ Under Construction
 [Return to Bricks](bricks)
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Cliquez ici pour revenir à l'index du site.](site-navigation)
 {: .notice--info}
