@@ -35,7 +35,7 @@ Si vous n'êtes pas sous Windows, vous pouvez télécharger & exécuter [ce scri
 1. Exécutez `NUS Downloader.exe`.
 1. Naviguez vers `Database` > `IOS` > `IOS38`, puis sélectionnez `v4123`.
     + Assurez-vous que "Pack WAD" est coché.
-    + *Ne* cochez *pas* "Patch IOS". C'est ce que d2x cIOS Installer va faire.
+    + *NE PAS* cocher "Patch IOS". C'est ce que d2x cIOS Installer va faire.
 1. Cliquez sur `Start NUS Download!`.
 1. Répétez les étapes ci-dessus pour `IOS56 v5661`, `IOS57 v5918` et `IOS58 v6175`.
 1. Une fois le processus terminé, il y aura un dossier nommé `titles` dans le même dossier que NUS Downloader.
