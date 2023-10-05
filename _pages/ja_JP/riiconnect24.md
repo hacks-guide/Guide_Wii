@@ -134,5 +134,5 @@ You will now set your DNS to RiiConnect24 servers. This is optional but recommen
 [Return to WiiConnect24](wiiconnect24)
 {: .notice--info}
 
-[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
+[サイトマップに移動する](site-navigation)
 {: .notice--info}
