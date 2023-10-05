@@ -4,8 +4,7 @@ title: "Bricks"
 
 {% include toc title="Table of Contents" %}
 
-A "Brick" usually means your Wii has reached a state where its next purpose in existence is likely that of a doorstop, or a display figure. <br>
-Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
+A "Brick" usually means your Wii has reached a state where its next purpose in existence is likely that of a doorstop, or a display figure. <br> Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
 
 # Brick Prevention
 
@@ -20,7 +19,7 @@ Preventing a brick involves many rules that range between common sense and fail-
 + **Do NOT delete or modify system files, and do NOT install any system file mods unless you know what you are doing!
     + An example of modifying files going wrong is replacing IOS80 on Wii Mini, which may result in a [Wi-Fi Brick](bricks#wi-fi-brick).
 + **Do NOT install homebrew from untrustworthy sources or if the source code is not available.**
-	+ Software on the [Open Shop Channel](osc) is safe.
+    + Software on the [Open Shop Channel](osc) is safe.
     + There have been incidents of malicious software being developed for the Wii in the past, while other apps are just badly developed. Make sure that you know what you are installing, and only install what you need.
     + Corrupted or unstable forwarders for homebrew could cause a [banner brick](#banner-brick), so try to stick with loading homebrew from the Homebrew Channel unless you really want a forwarder.
 + **Ensure that you know what you are doing when running homebrew apps - especially those with the ability to modify system files.**
@@ -57,7 +56,7 @@ Here is a small section that lists out steps similar to the Wii boot process, an
 + Wii starts, and progresses to the Wii Menu.
     + If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick)
     + If after accessing the Wii settings, you see an error that resembles the Opera web browser, see [semibrick](bricks#semibrick).
-+ Wii starts, and progresses to the Wii Menu. No app is malfunctioning, Wii settings is error free, everything is seemingly fine. Unless you have some other kind of error or brick that does not fall under this umbrella (which if you do, you should come to support about), you're good! 
++ Wii starts, and progresses to the Wii Menu. No app is malfunctioning, Wii settings is error free, everything is seemingly fine. Unless you have some other kind of error or brick that does not fall under this umbrella (which if you do, you should come to support about), you're good!
 
 # Brick Types
 
@@ -109,7 +108,7 @@ If you don't have or can't access Priiloader, Maintenance mode may be worth a tr
 Attempt to start the Wii - warning/press A screen shows up, and when A is pressed, the screen passes normally; however, beyond this point, nothing happens and the Wii remains on a black screen. This happened after installing a theme.
 
 #### Cause
-A theme brick occurs when a wrongly formatted theme is installed. 
+A theme brick occurs when a wrongly formatted theme is installed.
 
 #### Solutions
 To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access MyMenuifyMod to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
@@ -152,8 +151,7 @@ Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 #### Symptoms
 Screen shows up as listed below on normal boot.
 
-`Error:003`<br>
-`unauthorized device has been detected.`<br>
+`Error:003`<br> `unauthorized device has been detected.`<br>
 
 ![Error 003](/images/bricks/error-003.png)
 
