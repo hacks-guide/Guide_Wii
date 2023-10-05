@@ -32,27 +32,27 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     ![Région de la Wii](/images/wii/SystemMenuVersion.png)
 
 1. Navigate to `Internet` > `Console Information`.
-1. Take note of your FULL MAC address.
+1. Prenez note de votre adresse MAC COMPLET.
 
-    ![Mac Address](/images/wii/MacAddress.png)
+    ![Adresse MAC](/images/wii/MacAddress.png)
 
 1. On your computer, open the browser and go to [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/).
 1. Input your Wii MAC, version and region.
-1. Ensure `Bundle the HackMii Installer for me!` is checked.
-1. Cut either wire.
+1. Soyez-sûr que `Bundle the HackMii Installer for me!` est coché.
+1. Cliquez sur un des deux boutons.
 
     ![Wilbrand Web](/images/exploits/wilbrand/web.png)
 
 1. Click on "Download your .zip".
-1. Insert your SD card into your computer.
+1. Insérez votre carte SD dans votre ordinateur.
 1. Copy the `private` folder and the `boot.elf` file from the downloaded `.zip` file to the root of your SD card.
-1. Reinsert your SD card into your console.
-    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
-1. On your Wii, return to the Wii Menu.
+1. Réinsérez votre carte SD dans votre console.
+    + La carte SD doit être insérée dans le port carte SD située devant la Wii. L'utilisation d'un adaptateur SD vers USB branché dans le port USB de la Wii ne marchera pas.
+1. Sur votre Wii, revenez au menu Wii.
 1. Launch the Wii Message Board on your Wii.
 1. Open the green letter with a bomb.
     + Ensure the date on your Wii is correct, or you might be unable to find the letter.
-    + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
+    + Dans certains cas, vous devrez peut-être vérifier les messages du lendemain ou d'hier pour que la lettre apparaisse.
     + If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If there are errors, there may be an issue with the SD card format or the Wii’s SD card reader.
 
     ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
@@ -86,12 +86,12 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     ![Région de la Wii](/images/wii/SystemMenuVersion.png)
 
 1. Navigate to `Internet` > `Console Information`.
-1. Take note of your FULL MAC address.
+1. Prenez note de votre adresse MAC COMPLET.
 
-    ![Mac Address](/images/wii/MacAddress.png)
+    ![Adresse MAC](/images/wii/MacAddress.png)
 
 1. Copy all files from the Wilbrand `.zip` to a folder on your computer
-1. Insert your SD card into your computer.
+1. Insérez votre carte SD dans votre ordinateur.
 1. Open a terminal inside the folder Wilbrand was extracted to.
 1. Using your Wii's version and MAC address, run the following command:
 
@@ -108,13 +108,13 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 1. Copy all files from the hackmii_installer_v1.2 `.zip` to a folder on your computer.
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your SD card.
-1. Reinsert your SD card into your console.
-    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
-1. On your Wii, return to the Wii Menu.
-1. Launch the Wii Message Board.
+1. Réinsérez votre carte SD dans votre console.
+    + La carte SD doit être insérée dans le port carte SD située devant la Wii. L'utilisation d'un adaptateur SD vers USB branché dans le port USB de la Wii ne marchera pas.
+1. Sur votre Wii, revenez au menu Wii.
+1. Allez sur le bureau Wii (bouton avec l'enveloppe).
 1. Open the green letter with a bomb.
     + Ensure the date on your Wii is correct, or you might be unable to find the letter.
-    + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
+    + Dans certains cas, vous devrez peut-être vérifier les messages du lendemain ou d'hier pour que la lettre apparaisse.
     + If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If there are errors, there may be an issue with the SD card format or the Wii’s SD card reader.
 
     ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
