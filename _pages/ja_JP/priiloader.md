@@ -16,13 +16,13 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 <!--div class="notice--success" markdown="1">{{ notice-vwii-priiloader }} </div-->
 
-### 必要条件
+### 必要なもの
 
 * An SD card or USB drive
 * [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
 * [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
-### Instructions
+### 実行方法
 
 #### Section I - Prep Work
 
@@ -34,7 +34,7 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 #### Section II - Installing Priiloader
 
-1. Power on your console.
+1. Wiiの電源を入れます。
 1. Launch the Homebrew Channel.
 1. Launch Priiloader installer from the list of homebrew.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
