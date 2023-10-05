@@ -53,7 +53,7 @@ Make sure you have installed [cIOS](cios) before following this!
 ##### What you need
 
 * The Homebrew Channel on both systems
-* an SD card or USB drive
+* An SD card or USB drive
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
 ##### Instructions
@@ -102,7 +102,7 @@ Make sure you have installed [cIOS](cios) before following this!
 
 * The Homebrew Channel on your Wii/vWii
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
-* an SD card or USB drive
+* An SD card or USB drive
 * Latest beta version of Dolphin Emulator
 
 ##### Instructions
@@ -171,7 +171,7 @@ Make sure you have installed [cIOS](cios) before following this!
 ##### What you need
 
 * The Homebrew Channel on your Wii/vWii
-* an SD card or USB drive
+* An SD card or USB drive
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
 ##### Instructions
@@ -193,7 +193,7 @@ Make sure you have installed [cIOS](cios) before following this!
 ##### What you need
 
 * a Wii with GameCube ports and the Homebrew Channel installed
-* an SD card or USB drive
+* An SD card or USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ##### Instructions
@@ -365,7 +365,7 @@ div id="emumc-gcmc" class="tabcontent to" markdown="1">
 ##### What you need
 
 * The Homebrew Channel installed on your Wii
-* an SD card or USB drive
+* An SD card or USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ##### Individual memcards (.gci files)
