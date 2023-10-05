@@ -44,7 +44,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Select the slot your memory card is in.
 
-    ![Memory](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+    ![Memoria](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 1. Select the save you want to restore. If you have multiple saves to restore, you can press R on the GameCube controller or 1 on the Wii remote to restore all of your saves.
 
@@ -81,7 +81,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Select the slot your memory card is in.
 
-    ![Memory](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+    ![Memoria](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 1. Select the save you want to backup. If you have multiple saves to backup, you can press R on the GameCube controller or 1 on the Wii remote to backup all of your saves.
 
@@ -113,7 +113,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Press L and Y at the same time on GameCube Controller or B and - at the same time on the Wii remote to backup your to a .raw file and select the slot your memory card is in.
 
-    ![Memory](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+    ![Memoria](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 1. When the dump is complete, press any button to continue. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
 
@@ -137,7 +137,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 1. Press L and X at the same time on GameCube controller or B and + at the same time on the Wii remote.
 1. Select the slot your memory card is in.
 
-    ![Memory](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+    ![Memoria](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 1. It should restore the .raw file to your memory card. When restoration is complete, press any button to continue.
 
