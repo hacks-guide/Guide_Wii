@@ -1,5 +1,5 @@
 ---
-title: "Get Started"
+title: "始めに"
 ---
 
 {% include toc title="Table of Contents" %}
