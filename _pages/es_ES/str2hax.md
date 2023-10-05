@@ -11,7 +11,7 @@ str2hax is an exploit for the Wii that is triggered by loading the Wii's End Use
 
 ### Requisitos
 
-* A Wii with an Internet connection
+* Un Wii con una conexión Internet
 
 ### Instrucciones
 
