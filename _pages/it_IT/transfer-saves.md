@@ -324,7 +324,7 @@ All methods here require a Wii with GameCube ports.
 
 1. Insert both memory cards into your Wii.
 1. Launch the Wii menu and select the Wii Options button at the bottom left.
-![Wii Options](/images/Wii/wii-options.png)
+![Opzioni Wii](/images/Wii/wii-options.png)
 
 1. Select `Data Management > Save Data > Nintendo GameCube`.
 1. Select the save you would like to copy and select `Copy`.
