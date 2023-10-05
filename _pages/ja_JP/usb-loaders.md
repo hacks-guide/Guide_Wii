@@ -45,7 +45,7 @@ Forwarders to open these loaders on the Wii Menu can be found on the Open Shop C
 
 ### WiiFlow Lite
 
-#### Requirements
+#### 必要条件
 + A modded Wii
 + Fully installed [cIOS](cios)
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
@@ -92,7 +92,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ### USB Loader GX
 
-#### Requirements
+#### 必要条件
 + A modded Wii
 + Fully installed [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
