@@ -1,32 +1,32 @@
 ---
-title: "BlueBomb"
+title: "ブルーボム"
 ---
 
 {% include toc title="Table of Contents" %}
 
-It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+Wii Miniをブリックさせる可能性が高いため、YouTubeなどにある動画を使ってハックすることはかなり推奨されません。
 {: .notice--warning}
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+チュートリアル中に質問があったら、[ディスコード](https://discord.gg/6ryxnkS)でお問い合わせください。
 {: .notice--info}
 
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well. This exploit also enables recovery from certain bricks, such as Korean Kii/Error 003.
+BlueBombはWiiやWii Miniのブルーツゥース機能を利用したハッキング方法です。 Wii Miniで使える唯一のハッキング方法ですが、通常のWiiでも問題無く使えます。 これを使ってKorean Kiiやエラー003などのブリックを直すこともできます。
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+通常のWiiを使う場合はもっと簡単な方法があるため、[別の方法](get-started)を使うことをおすすめします。 ブリックした場合など、例外はあります。
 {: .notice--info}
 
-Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+ブルーツゥースを繋げる必要があるため、Wii本体とパソコンを近づけるようにしてください。
 {: .notice--info}
 
-### Requirements
+### 必要条件
 
-* A Linux machine
-    * A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
-    * If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
-    * Windows Subsystem for Linux or a Chromebook running Linux mode will *not work* as they don't have direct access to the Bluetooth adapter or USB ports.
-    * If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
-        * 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
-        * For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
+* Linuxが入っているパソコン
+    * バーチャルマシンでも可能ですが、バーチャルマシンでブルーツゥースを使うことは複雑なため、推奨されません。 可能な場合、以下に書いてある通りLiveUSBを使うことをおすすめします。
+    * Raspberry Piがある場合、それをLinux代わりに使えます。
+    * WindowsサブシステムやクロームブックでLinuxモードではブルーツゥースが使えないため、利用できません。
+    * Linuxがない場合、一番使いやすくWindowsやMacで使える[Ubuntu](https://ubuntu.com/download/desktop)を推奨します。
+        * 32ビットの機種では[Ubuntu 16.04](http://releases.ubuntu.com/16.04/)が必要になります。
+        * 64ビットの機種ではバグが少なめのLTS版を勧めますが、最新版でも使えます。
     * You can [flash a Linux Live environment to a USB flash drive](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) instead of installing it to your computer.
 * A Bluetooth adapter.
     * An internal Bluetooth adapter will work.
