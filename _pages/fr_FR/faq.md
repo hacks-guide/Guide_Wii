@@ -2,51 +2,51 @@
 title: "FAQ and Troubleshooting"
 ---
 
-## Main FAQ
+## Foire aux questions
 
 {% include toc title="Table of Contents" %}
 
-### How risky is hacking my console?
-Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+### Quel est le risque de modder ma console ?
+Pas très risqué pour être honnête, ça dépends de votre console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
 
-### I got error code XXXXXX, how do I fix it?
-In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:
+### J'ai le code d'erreur XXXXXX, comment puis-je le corriger ?
+Afin de vérifier ce que signifie l'erreur, veuillez visiter la page [d'erreur Wiimmfi](https://wiimmfi.de/error). Les erreurs les plus courantes ont des solutions listées en dessous:
 
-#### Error 01530/51330
+#### Erreur 01530/51330
 
-Run an Internet connection test by going to `Wii Settings > Internet > Connection settings > Connection > Test this connection`
+Exécutez un test de connexion Internet en allant dans `Paramètres Wii > Internet > Paramètres de connexion > Connexion > Testez cette connexion`
 
-#### Error 220602
+#### Erreur 220602
 
-##### For RiiConnect24 Users
+##### Pour les utilisateurs de RiiConnect24
 
-You are using the old DNS server for RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+Vous utilisez l'ancien serveur DNS de RiiConnect24. Suivez [ce guide](riiconnect24#section-iv---connecting) pour des instructions sur comment le changer.
 
-##### For non-RiiConnect24 Users
+##### Pour les utilisateurs non-RiiConnect24
 
-Your Primary DNS server is incorrect or not working.<br> This can also happen if you use a proxy server and it is down.
+Votre serveur DNS principal est incorrect ou ne fonctionne pas.<br> Cela peut également se produire si vous utilisez un serveur proxy et qu'il est hors service.
 
-#### Error 107304
+#### Erreur 107304
 
-##### For RiiConnect24 Users
+##### Pour les utilisateurs de RiiConnect24
 
-If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+Si vous obtenez cette erreur ou que vous voyez le Contrat d'utilisateur de Nintendo sans le logo de RiiConnect24, Cela signifie que votre FAI (fournisseur d'accès Internet) ou votre réseau bloque l'utilisation des DNS de RiiConnect24. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 fonctionnera toujours même sans. Ou, vous pouvez utiliser le programme [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest).
 
-##### For non-RiiConnect24 Users
+##### Pour les utilisateurs non-RiiConnect24
 
-If you get this error, the DNS server you chose or your internet as a whole is having issues. Try again later.
+Si vous obtenez cette erreur, le serveur DNS que vous avez choisi ou votre internet dans son ensemble ont des problèmes. Réessayez plus tard.
 
 #### FORE000006
 
-If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock.
+Si vous obtenez l'erreur FORE000006, la date ou l'heure de la Wii est probablement mal réglée. Consultez [cette page](wiiconnect24#updating-rtc-clock) pour savoir les régler correctement (via un logiciel). If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Ensuite, réinitialisez l'horloge de la Wii.
 
-### How can I remove parental controls?
-The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls.
+### Comment puis-je supprimer le contrôle parental ?
+Le générateur [mkey](https://mkey.salthax.org) peut générer le code requis pour supprimer le contrôle parental.
 
-### I think my Wii is bricked, or something is seriously wrong, what do I do?
-See [this](bricks) page.
+### Je pense que ma Wii est briquée, ou quelque chose ne va sérieusement pas, que dois-je faire ?
+Consultez [cette page](bricks).
 
-## Storage Device FAQ
+## Les périphériques de stockage
 
 For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
 {: .notice--info}
