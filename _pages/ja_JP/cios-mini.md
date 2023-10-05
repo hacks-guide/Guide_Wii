@@ -1,5 +1,5 @@
 ---
-title: "Wii Miniで使うd2xl cIOS（試験的）"
+title: "d2xl cIOS for Wii Mini(ベータ版)"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -61,5 +61,5 @@ If you wish to use Wiimmfi with Ethernet on a Wii mini, you have to run the [Eth
 The Wii and Wii mini consoles are only known to work with Ethernet adapters using the AX88772 chip. Please check that the product is compatible before you buy. This one from UGREEN is known to be compatible: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
 {: .notice--info}
 
-[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
+[サイトマップに移動する](site-navigation)
 {: .notice--info}
