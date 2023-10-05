@@ -13,7 +13,7 @@ Riivolution requires a working disk drive and a clean physical copy of the disk 
 {: .notice--info}
 
 
-### Requirements
+### 必要条件
 
 * A Wii
 * A USB drive or SD Card
@@ -60,5 +60,5 @@ Do not get confused with the actual Riivolution app, and the Riivolution folder 
 ```
 </details>
 
-[Click here to go back to the site index.](site-navigation)
+[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
 {: .notice--info}
