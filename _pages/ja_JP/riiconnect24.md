@@ -15,7 +15,7 @@ It's recommended to set your Wii to the current time before proceeding. Follow [
 DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick the system.
 {: .notice--danger}
 
-### 必要条件
+### 必要なもの
 
 If you are on vWii, you will also need [Priiloader](priiloader) installed with the WC24 hacks.
 {: .notice--primary}
@@ -26,7 +26,7 @@ If you are on vWii, you will also need [Priiloader](priiloader) installed with t
 + [RiiConnect24 Patcher (Windows, Mac and Linux)](https://github.com/riiconnect24/RiiConnect24-Patcher/releases)
 + [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Instructions
+### 実行方法
 
 #### Section I - Using RiiConnect24 Patcher
 
