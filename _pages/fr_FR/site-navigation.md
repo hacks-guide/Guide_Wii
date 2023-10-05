@@ -35,7 +35,7 @@ sitemap: false
 {% capture notice-4 %}
 **Modding 101 - Wii Essentials**
 + [Sauvegarde avec Bootmii](bootmii)
-+ [BootMii Recovery](bootmiirecover)
++ [Récupération avec BootMii](bootmiirecover)
 + [Brick Overview](bricks)
 + [Brick Prevention](bricks#brick-prevention)
 + [cIOS](cios)
