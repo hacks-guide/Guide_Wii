@@ -2,7 +2,7 @@
 title: "Wii mini NAND Dumper"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 This tutorial will show you how to dump your Wii mini's NAND without having to solder an SD card slot. This was made possible by [nitr8](https://gbatemp.net/members/nitr8.72581/).
 
@@ -16,7 +16,7 @@ If you have a Wii or a Wii mini with an SD card slot soldered, follow [this tuto
 There is no way to restore your NAND backup this way without a hardmod.
 {: .notice--info}
 
-### Requirements
+### 준비물
 
 * A Wii
 * A USB drive
@@ -24,7 +24,7 @@ There is no way to restore your NAND backup this way without a hardmod.
 * [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
 * [Xyzzy Mod](https://oscwii.org/library/app/xyzzy-mod)
 
-### Instructions
+### 진행 방법
 
 #### Section I - Dumping and Patching IOS 36
 
@@ -78,5 +78,5 @@ For now, only the `bootmii_keys.bin` file is required.
 Continue to [Open Shop Channel Installation](osc) Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다.](site-navigation)
 {: .notice--info}
