@@ -1,49 +1,49 @@
 ---
-title: "BootMii Recovery"
+title: "Restauración de BootMii"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Índice" %}
 
-This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
+Esta guía te proporcionará instrucciones sobre cómo restaurar una copia de seguridad de tu NAND con BootMii. Ten en cuenta que este suele ser un <strong>último recurso</strong> para reparar un bloqueo, y que si no se soluciona el problema, puede que tengas que buscar asistencia. Si todavía puedes acceder a BootMii, intenta entrar en el Canal Homebrew para intentar [identificar y reparar el bloqueo](bricks) utilizando otros métodos.
 
-If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+Si tienes BootMii instalado como boot2, tendrás que iniciar BootMii reiniciando la consola. Si es así, sáltate los pasos 1 y 2.
 {: .notice--info}
 
-If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+Si la pantalla se queda en negro y la luz azul del lector de discos parpadea al iniciar BootMii, significa que faltan los archivos de BootMii en la tarjeta SD. Descarga [este archivo zip](https://static.hackmii.com/bootmii_sd_files.zip) y extráelo a la raíz de la tarjeta SD, luego inténtalo de nuevo.
 {: .notice--warning}
 
 
-Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
+Las consolas Wii Family Edition (sin puertos de GameCube) NO PUEDEN restaurar las copias de la NAND. Esto se debe a la falta de puertos de GameCube que son necesarios en las consolas Wii sin compatibilidad Boot2 para introducir el código de confirmación. Si necesitas más ayuda, busca asistencia.
 {: .notice--danger}
 
-DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same goes for using faulty SD cards.
+NO restaures una copia de seguridad de la NAND sin verificar, o una que no sea de tu Wii: esto puede causar un BLOQUEO PEOR. Lo mismo se aplica si usas una tarjeta SD defectuosa.
 {: .notice--danger}
 
-### Requirements
+### Requisitos
 
-* An earlier NAND Backup made by [BootMii](bootmii)
+* Una copia de seguridad de la NAND anterior realizada por [BootMii](bootmii)
 
-### Restoring individual data from a NAND backup
+### Restauración de datos individuales a partir de una copia de seguridad de la NAND
 
-There is likely a much safer and faster way to bring individual data back to your Wii, likely involving the use of Dolphin Emulator.
+Seguramente exista una forma mucho más segura y rápida de recuperar datos individuales de tu Wii, probablemente utilizando el emulador Dolphin.
 
-For example, if you want to restore your Wii Message Board data, use Dolphin to import your NAND backup. In Dolphin, go to `File -> Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
+Por ejemplo, si quieres restaurar los datos del tablón de Wii, utiliza Dolphin para importar la copia de seguridad de la NAND. En Dolphin, ve a `Archivo -> Abrir carpeta de usuario`, busca `Wii/title/00000001/00000002/data/cdb.vff`, cópialo a la tarjeta SD y usa [WiiXplorer](https://oscwii.org/library/app/wiixplorer) para restaurarla en la ubicación correspondiente.
 
-If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools > Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
+Si quieres restaurar los datos de guardado de un juego, utiliza Dolphin para importar tu copia de seguridad de la NAND, utiliza `Herramientas > Exportar todos los datos de guardado de Wii` para exportar todos los datos de guardado a la tarjeta SD y utiliza Gestión de datos para moverlos a tu Wii.
 
-### Important preliminary notes
+### Notas preliminares importantes
 
-+ If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is probably a [Wi-Fi Brick](bricks#wi-fi-brick).
++ Si no has hecho nada para provocar un bloqueo (o estás encendiendo la Wii después de mucho tiempo), probablemente se trate de un [bloqueo de Wi-Fi](bricks#wi-fi-brick).
 
-+ If you have BootMii as IOS installed, RestoreMii will prompt you for the Konami code via a GameCube Controller.
++ Si tienes BootMii instalado como IOS, RestoreMii te pedirá el código Konami a través de un mando de GameCube.
 
 + You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad on a GameCube controller. To select, press A.
 
-### Instructions
+### Instrucciones
 
-1. Launch the Homebrew Channel.
-1. Press the HOME Button, then select "Launch BootMii".
-1. Select the Options button (the icon with the gears).
+1. Inicia el Canal Homebrew.
+1. Pulsa el botón HOME y selecciona "Abrir BootMii".
+1. Selecciona el botón de opciones (el icono con los engranajes).
 
     ![BootMii_Gears_Icon](/images/BootMii/BootMii_Gears_Icon.png)
 
@@ -57,5 +57,5 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 If you were restoring a NAND backup in order to repair a brick and this did not fix your issue, please consult [the bricks portion](bricks) of this guide.
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Haz clic aquí para volver al índice del sitio.](site-navigation)
 {: .notice--info}
