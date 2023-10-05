@@ -15,7 +15,7 @@ It's recommended to set your Wii to the current time before proceeding. Follow [
 DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick the system.
 {: .notice--danger}
 
-### Requirements
+### 必要条件
 
 If you are on vWii, you will also need [Priiloader](priiloader) installed with the WC24 hacks.
 {: .notice--primary}
@@ -134,5 +134,5 @@ You will now set your DNS to RiiConnect24 servers. This is optional but recommen
 [Return to WiiConnect24](wiiconnect24)
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
 {: .notice--info}
