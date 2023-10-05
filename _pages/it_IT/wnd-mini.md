@@ -75,7 +75,7 @@ For now, only the `bootmii_keys.bin` file is required.
 1. Locate your `WiiFlash_n_ECC.img` file and select "open".
 1. Another window will pop up asking for the keys. Locate `bootmii_keys.bin` and select open.
 
-[Continue to the Homebrew Browser](hbb)<br> The Homebrew Browser is a good place to get homebrew on your Wii. This is optional to install. You may need a USB hub that can be externally powered.
+Continue to [Open Shop Channel Installation](osc) Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 {: .notice--info}
 
 [Click here to go back to the site index.](site-navigation)
