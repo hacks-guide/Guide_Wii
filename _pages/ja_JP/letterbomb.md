@@ -12,12 +12,12 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
 
-### 必要条件
+### 必要なもの
 * An SD card formatted as FAT32
 * A Wii on System Menu version 4.3
 * A Windows/MacOS/Linux computer with an Internet connection
 
-### Instructions
+### 実行方法
 
 1. Power on your console.
 1. Go to `Wii Settings`.
