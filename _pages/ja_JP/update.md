@@ -51,5 +51,5 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 1. When prompted to retain Priiloader, press A to confirm.
 1. After they are successfully installed, press the HOME Button to exit back to the Homebrew Channel.
 
-[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
+[サイトマップに移動する](site-navigation)
 {: .notice--info}
