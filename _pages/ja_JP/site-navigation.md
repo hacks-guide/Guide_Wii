@@ -1,14 +1,14 @@
 ---
-title: "Site Navigation"
+title: "サイトガイダンス"
 layout: single
 sitemap: false
 ---
 
 {% capture notice-1 %}
 **Site**
-+ [Home](/)
-+ [Get Started](get-started)
-+ [FAQ](faq)
++ [ホーム](/)
++ [始めに](get-started)
++ [よくある質問](faq)
 + [Donations](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -23,10 +23,10 @@ sitemap: false
 
 {% capture notice-3 %}
 **Modding 101 - Exploits**
-+ [BlueBomb](bluebomb)
-+ [FlashHax](flashhax)
++ [ブルーボム](bluebomb)
++ [フラッシュハック](flashhax)
 + [Legacy Exploits](legacy-exploits)
-+ [LetterBomb](letterbomb)
++ [レターボム](letterbomb)
 + [str2hax](str2hax)
 + [Wilbrand](wilbrand)
 {% endcapture %}
@@ -34,14 +34,14 @@ sitemap: false
 
 {% capture notice-4 %}
 **Modding 101 - Wii Essentials**
-+ [BootMii Backup](bootmii)
++ [BootMiiのバックアップ](bootmii)
 + [BootMii Recovery](bootmiirecover)
 + [Brick Overview](bricks)
 + [Brick Prevention](bricks#brick-prevention)
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
-+ [Open Shop Channel](osc)
++ [オープンショップチャンネル](osc)
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)
