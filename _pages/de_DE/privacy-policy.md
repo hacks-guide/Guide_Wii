@@ -8,13 +8,13 @@ Diese Webseite verwendet Cookies, um Benutzern die Navigation durch die Anleitun
 
 ### Eingebettete Inhalte von anderen Internetseiten
 
-This site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves as if the user has visited the other website.
+Diese Seite kann eingebettete Inhalte (z.B. Videos, Bilder, Artikel, etc.) enthalten. Eingebettete Inhalte von anderen Internetseiten verhalten sich so, als hätte der Benutzer die andere Internetseite besucht.
 
-These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
+Diese Internetseiten können Daten über Sie sammeln, ihre Cookies verwenden, zusätzliches Tracking von Drittanbietern einbetten und Ihre Interaktion mit diesen eingebetteten Inhalten überwachen, einschließlich der Verfolgung Ihrer Interaktion mit dem eingebetteten Inhalt, wenn Sie ein Konto auf dieser Internetseite besitzen und dort eingeloggt sind.
 
-### Analytics
+### Analytik
 
-This site uses Google Analytics to monitor and analyze traffic. This site is hosted by Github Pages, which may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with this site. For more information about Github Pages as it relates to user privacy, see the [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement).
+Diese Seite benutzt Google Analytics, um den Verkehr zu überwachen und zu analysieren. Diese Website wird von Github Pages gehostet, die möglicherweise Daten über dich sammeln, Cookies verwenden, zusätzliches Verfolgen von Dritten einbinden und deine Interaktion mit dieser Website überwachen können. Für mehr Informationen über Github Pages, da es mit Privatsphäre von Nutzern zu tun hat, siehe das [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement).
 
 ### Information Collected
 
