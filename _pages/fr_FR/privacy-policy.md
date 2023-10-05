@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: "Politique de confidentialité"
 ---
 
 ### Cookies
