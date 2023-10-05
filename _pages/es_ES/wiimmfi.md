@@ -77,7 +77,7 @@ A method for Wiimmfi patching which runs on retail disc games, but must be manua
 
 #### Requisitos
 
-+ An SD card or USB drive
++ Una tarjeta SD o unidad USB
 + [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
 
 #### Instrucciones
@@ -116,7 +116,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 #### Requisitos
 
 + A Wii with an internet connection, running in 60Hz mode
-+ The Internet Channel
++ El Canal Internet
 
 #### Instrucciones
 
@@ -132,7 +132,7 @@ A method for Wiimmfi patching which runs on WiiWare games, but must be manually 
 
 #### Requisitos
 
-* An SD card
+* Una tarjeta SD
 * Your copy of your game (in WAD format)
 * [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases/latest) (cross platform)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
