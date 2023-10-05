@@ -2,7 +2,7 @@
 title: "Riivolution"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 This is a quick start guide on how to use Riivolution, an on-the-fly disk patcher for the Wii that is used to play Wii game mods.
 
@@ -13,7 +13,7 @@ Riivolution requires a working disk drive and a clean physical copy of the disk 
 {: .notice--info}
 
 
-### Requirements
+### 준비물
 
 * A Wii
 * A USB drive or SD Card
@@ -60,5 +60,5 @@ Do not get confused with the actual Riivolution app, and the Riivolution folder 
 ```
 </details>
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다.](site-navigation)
 {: .notice--info}
