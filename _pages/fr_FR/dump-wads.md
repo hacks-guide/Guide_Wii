@@ -14,16 +14,16 @@ This guide will show you how to dump WADs from your Wii System Memory.
 
 1. Éteignez votre console.
 1. Insérez votre carte SD ou votre clé USB dans votre ordinateur.
-1. Copy the `apps` folder from the Yet Another BlueDump MOD `.zip` to the root of your SD card or USB drive.
+1. Copiez le dossier `apps` du fichier `Yet Another BlueDump MOD.zip` à la racine de votre carte SD ou de votre clé USB.
 1. Insérez votre carte SD ou votre clé USB dans votre ordinateur.
 1. Allumez votre console.
 1. Lancez la Chaîne Homebrew.
-1. Launch Yet Another BlueDump MOD from the list of homebrew.
-1. Press A.
+1. Lancez Yet Another BlueDump MOD depuis la liste des homebrew.
+1. Appuyez sur A.
 
     ![Press A](/images/homebrew/DumpWADS/1.png)
 
-1. Select `Installed Channel Titles`.
+1. Sélectionnez `Installed Channel Titles`.
 
     ![Installed Channel Titles](/images/homebrew/DumpWADS/2.png)
 
@@ -31,7 +31,7 @@ This guide will show you how to dump WADs from your Wii System Memory.
 
     ![Find channel](/images/homebrew/DumpWADS/3.png)
 
-1. Select `Backup to WAD`.
+1. Sélectionnez `Backup to WAD`.
 1. At the prompt to `Fakesign the ticket`, select `Yes`.
 1. At the prompt to `Fakesign the TMD`, select `No`.
 1. At the prompt to `Change the output WAD region`, select `No`.
