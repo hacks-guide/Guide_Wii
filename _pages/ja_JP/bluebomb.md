@@ -42,18 +42,18 @@ Bluetoothを接続するため、Wii本体とパソコンを近づけるよう�
     + (Wii miniの場合でも、bootmini.elfは機能しません。そのファイルの目的は完全に異なり、無関係のものです。 boot.elfを使用してください。)
 1. USBドライブをWii本体に接続します。
     + Wiiの場合、縦向きの場合は右のUSBポート、横向きの場合は下のUSBポートに接続してください。
-    + For a normal Wii, use the bottom port (or the right port if it's upright).
-1. Power on your console.
-1. Go to `Wii Settings`.
-1. Take note in the top right corner of the letter next to the system version.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Wii miniの場合、背面にあるUSBポートに接続してください。
+1. Wiiの電源を入れます。
+1. `Wii設定`に進みます。
+1. バージョンを確認してください。1ページ目の右上に表示されています。
+    + これはシステムメニュー領域に対応しており、後ほど実行する手順に必要となります。
 
     ![Wii Region](/images/wii/SystemMenuVersion.png)
 
-1. Power off your console.
-1. Start your Linux distro, and ensure you are connected to the internet.
-1. Open the Terminal
-1. Run the following commands:
+1. Wiiの電源を切ります。
+1. Linuxを起動し、インターネットに接続されていることを確認します。
+1. ターミナルを開きます。
+1. 以下のコードを実行します。
 
     ```bash
     wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -61,18 +61,18 @@ Bluetoothを接続するため、Wii本体とパソコンを近づけるよう�
     ./bluebomb-helper.sh
     ```
 
-1. The helper will then download the required files, and ask for information about your console.
-    + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
-    + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
-1. Power on your console.
-    + **Do not** connect any Wii Remotes.
-1. Press the Sync button repeatedly until the terminal shows `got connection handle`.
-    + This could take numerous attempts.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
-    + If you are not planning to use it later, you can now shut down your Linux distro.
+1. コードを実行すると、必要なファイルをダウンロードし、Wiiの情報を求めます。
+    + Wiiを選択した場合、Wiiメニューのバージョンの入力を求められます。 これは、STEP4で確認した番号と同じです。
+    + Wii miniを選択した場合、リージョンを入力するように求められます。これは、STEP4で確認したWiiメニューの最後の文字(UまたはE)です。
+1. Wiiの電源を入れます。
+    + Wiiリモコンの電源は入れないでください。
+1. PCに`got connection handle`が表示されるまで、Wii本体のSyncボタンを押してください。
+    + 何度も押す必要がある場合があります。
+1. 成功すると、WiiはHackMiiインストーラーをロードします。
+    + 後でLinuxを使用しない場合、Linuxをシャットダウンすることができます。
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+Wiiを使用している場合、[Homebrew ChannelとBootMiiのインストール](hbc)を参照してください。<br>
 {: .notice--info}
 
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+Wii miniを使用している場合、[Homebrew Channelのインストール(Wii mini)](hbc-mini)を参照してください。
 {: .notice--info}
