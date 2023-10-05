@@ -12,7 +12,7 @@ To play games, you are advised to use a large SD card or an external hard drive,
 Make sure your storage device is formatted as FAT32. Do not format it to other file systems like NTFS, exFAT, or WBFS.
 {: .notice--info}
 
-### Requirements
+### 必要条件
 
 * A modded Wii
 * An SD card or USB device
@@ -69,5 +69,5 @@ Some games may have native button combinations to reset.
 
 **HID-USB controller or adapter:**<br> You can define the Shutdown button's combination yourself.<br> The Power button is defined in the controller.ini or in the correct controllers/PID_VID.ini file used by your gamepad.<br> Most commonly used combo with default HID settings:<br> Shutdown: L+R+Z+Start
 
-[Click here to go back to the site index.](site-navigation)
+[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
 {: .notice--info}
