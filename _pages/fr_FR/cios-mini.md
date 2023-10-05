@@ -1,10 +1,10 @@
 ---
-title: "d2xl cIOS for Wii mini (experimental)"
+title: "d2xl cIOS pour Wii mini (experimental)"
 ---
 
 {% include toc title="Table of Contents" %}
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Si vous avez besoin d'aide pour tout ce qui concerne ce tutoriel, veuillez rejoindre [le serveur Discord Wii mini Hacking](https://discord.gg/6ryxnkS) (recommandé)
 {: .notice--info}
 
 While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
@@ -61,5 +61,5 @@ If you wish to use Wiimmfi with Ethernet on a Wii mini, you have to run the [Eth
 The Wii and Wii mini consoles are only known to work with Ethernet adapters using the AX88772 chip. Please check that the product is compatible before you buy. This one from UGREEN is known to be compatible: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Cliquez ici pour revenir à l'index du site.](site-navigation)
 {: .notice--info}
