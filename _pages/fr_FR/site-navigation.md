@@ -34,14 +34,14 @@ sitemap: false
 
 {% capture notice-4 %}
 **Modding 101 - Wii Essentials**
-+ [BootMii Backup](bootmii)
++ [Sauvegarde avec Bootmii](bootmii)
 + [BootMii Recovery](bootmiirecover)
 + [Brick Overview](bricks)
 + [Brick Prevention](bricks#brick-prevention)
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
-+ [Open Shop Channel](osc)
++ [Chaine Open Shop](osc)
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)
