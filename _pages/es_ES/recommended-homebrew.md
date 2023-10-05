@@ -2,7 +2,7 @@
 title: Recommended Homebrew
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Índice" %}
 
 This page outlines homebrew that are recommended by the wii.hacks.guide staff for being useful, nice to have, or just flat out good. Take full advantage of the power you now have with your Wii!
 
@@ -50,8 +50,6 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 + [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - A modified and updated verison of WiiMC. Turns your Wii into a fully fledged media center, with the ability to listen to music, watch videos, play DVDs, and more.
 + [Schism Tracker](https://oscwii.org/library/app/schismtracker) - A editor and player for tracked music (IT, XM, S3M, MOD, etc.). You can find music to try out [here](https://modarchive.org/).
 + [Danbo](https://oscwii.org/library/app/danbo) - Danbo
-
-{% include toc title="Table of Contents" %}
 
 [Continue to WiiConnect24](wiiconnect24)<br> WiiConnect24 was originally discontinued in June of 2013, but as of the present, there are now two different services that restore its functionality in several different applications.
 {: .notice--info}
