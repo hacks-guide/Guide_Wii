@@ -1,5 +1,5 @@
 ---
-title: "Wii Miniでホームブルーチャンネルをインストールする"
+title: "Homebrew Channelのインストール(Wii mini)"
 ---
 
 {% include toc title="Table of Contents" %}
