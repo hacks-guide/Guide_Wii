@@ -13,7 +13,7 @@ Riivolution requires a working disk drive and a clean physical copy of the disk 
 {: .notice--info}
 
 
-### 必要条件
+### 必要なもの
 
 * A Wii
 * A USB drive or SD Card
