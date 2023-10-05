@@ -187,5 +187,15 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 1. Press `B` to return to the main menu.
 1. Scroll back up to `System Menu` and press A.
 
-[Continue to Open Shop Channel Installation](osc) Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+### Wii Mini: Next Steps
+
+Continue to [Wii mini cIOS](cios-mini)<br> This guide provides installation instructions for cIOS on Wii minis.
+{: .notice--info}
+
+### Wii: Next Steps
+
+If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
+{: .notice--success}
+
+Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
 {: .notice--info}
