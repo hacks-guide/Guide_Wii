@@ -71,8 +71,8 @@ Assurez-vous que la console est proche de l'ordinateur qui exécute l'exploit, i
 1. Si l'exploit a réussi, votre console aura chargé l'installeur HackMii.
     + Si vous ne prévoyez pas de l'utiliser plus tard, vous pouvez maintenant éteindre votre distribution Linux.
 
-Si vous utilisez une Wii : [Continuez vers l'installation de Homebrew Channel et de BootMii](hbc)<br>
+Si vous utilisez une Wii : [Continuez vers l'installation de la Chaîne Homebrew et de BootMii](hbc)<br>
 {: .notice--info}
 
-Si vous utilisez une Wii Mini: [Continuez vers l'installation de Homebrew Channel](hbc-mini)
+Si vous utilisez une Wii Mini: [Continuez vers l'installation de la Chaîne Homebrew](hbc-mini)
 {: .notice--info}
