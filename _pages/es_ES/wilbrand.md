@@ -44,7 +44,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     ![Wilbrand Web](/images/exploits/wilbrand/web.png)
 
 1. Click on "Download your .zip".
-1. Insert your SD card into your computer.
+1. Inserta tu tarjeta SD en tu ordenador.
 1. Copy the `private` folder and the `boot.elf` file from the downloaded `.zip` file to the root of your SD card.
 1. Reinsert your SD card into your console.
     + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
@@ -91,7 +91,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     ![Mac Address](/images/wii/MacAddress.png)
 
 1. Copy all files from the Wilbrand `.zip` to a folder on your computer
-1. Insert your SD card into your computer.
+1. Inserta tu tarjeta SD en tu ordenador.
 1. Open a terminal inside the folder Wilbrand was extracted to.
 1. Using your Wii's version and MAC address, run the following command:
 
