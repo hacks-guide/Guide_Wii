@@ -4,20 +4,20 @@ main:
     title: ホーム
     url: /
   - 
-    title: 始めに
+    title: はじめに
     url: get-started
   - 
-    title: サイトガイダンス
+    title: サイトマップ
     url: site-navigation
   - 
     title: よくある質問
     url: faq
 top:
   - 
-    title: このサイトはユーザーが使いやすくなるようにクッキーを使います。
+    title: このサイトではサイトバーに現在のガイド状況を表示するためにCookieを使用しています。
 bottom:
   - 
-    title: サポートが必要な場合は、<a href="https://discord.gg/MWxPgEp">ディスコード</a>でお問い合わせください。（英語のみ）
+    title: サポートが必要な場合は、<a href="https://discord.gg/MWxPgEp">Discoad</a>に英語でお問い合わせください。
 footer:
   - 
     title: ソース
@@ -42,40 +42,40 @@ sidebar_pages:
     title: 始めに
     url: get-started
   - 
-    title: レターボム
+    title: LetterBomb
     url: letterbomb
   - 
-    title: ブルーボム
+    title: BlueBomb
     url: bluebomb
   - 
-    title: フラッシュハック
+    title: FlashHax
     url: flashhax
   - 
     title: str2hax
     url: str2hax
   - 
-    title: ウィーブランド
+    title: Wilbrand
     url: wilbrand
   - 
-    title: 選択肢
+    title: さまざまな手段
     url: multiple-options
   - 
-    title: ホームブルーチャンネルとBootMiiのインストール
+    title: Homebrew ChannelとBootMiiのインストール
     url: hbc
   - 
     title: Homebrew Channelのインストール(Wii mini)
     url: hbc-mini
   - 
-    title: BootMiiのバックアップ
+    title: NANDのバックアップ(BootMii)
     url: bootmii
   - 
     title: Priiloader
     url: priiloader
   - 
-    title: オープンショップチャンネル
+    title: Open Shop Channel
     url: osc
   - 
-    title: Wii Miniで使うd2xl cIOS（試験的）
+    title: d2xl cIOS for Wii Mini(ベータ版)
     url: cios-mini
   - 
     title: Wii MiniのNANDダンパー
