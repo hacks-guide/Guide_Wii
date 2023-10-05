@@ -163,5 +163,5 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Find the save you want, select it and select `Move or Copy`.
 
-[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
+[サイトマップに移動する](site-navigation)
 {: .notice--info}
