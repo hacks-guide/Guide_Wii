@@ -187,7 +187,7 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 1. Press `B` to return to the main menu.
 1. Scroll back up to `System Menu` and press A.
 
-### Wii Mini: Next Steps
+### Wii mini: Next Steps
 
 Continue to [Wii mini cIOS](cios-mini)<br> This guide provides installation instructions for cIOS on Wii minis.
 {: .notice--info}
