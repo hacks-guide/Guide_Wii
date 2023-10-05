@@ -20,7 +20,7 @@ title                    : "Wii Hacks Guide"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Nintendo Homebrew"
-description              : "A complete guide to Wii custom firmware"
+description              : "The complete guide to modding your Wii (and Wii mini)"
 url                      : "https://wii.hacks.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "wii.hacks.guide"
 baseurl                  : # the subpath of your site, e.g. "/blog"
