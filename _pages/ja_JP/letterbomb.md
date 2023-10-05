@@ -19,10 +19,10 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
 
 ### 実行方法
 
-1. Power on your console.
-1. Go to `Wii Settings`.
-1. Take note in the top right corner of the letter next to the system version.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+1. Wiiの電源を入れます。
+1. `Wii設定`に進みます。
+1. バージョンを確認してください。1ページ目の右上に表示されています。
+    + これはシステムメニュー領域に対応しており、後ほど実行する手順に必要となります。
     + Also, ensure that you are on System Menu version 4.3.
 
     ![Wii Region](/images/wii/SystemMenuVersion.png)
@@ -51,7 +51,7 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
     + If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
     + If your Wii freezes after clicking on the letter, you most likely chose the wrong system menu region for LetterBomb. Go back to Step 2 and verify that you chose the right region.
     + If all is correct and there is freezing, keep on trying until it works.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 成功すると、WiiはHackMiiインストーラーをロードします。
 
 ![LetterBomb Wii Menu](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
