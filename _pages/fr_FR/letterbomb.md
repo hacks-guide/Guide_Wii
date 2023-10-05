@@ -55,5 +55,5 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
 
 ![LetterBomb Wii Menu](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continuer vers la chaîne Homebrew et l'installation de BootMii](hbc)
 {: .notice--info}
