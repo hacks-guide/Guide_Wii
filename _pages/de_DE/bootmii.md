@@ -30,39 +30,39 @@ If the screen stays black and the blue disc drive light is blinking upon launchi
 If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
 {: .notice--info}
 
-1. Power on your console.
-1. Launch the Homebrew Channel.
+1. Schalte deine Konsole ein.
+1. Starte den Homebrewkanal.
 1. Press the HOME Button, then select "Launch BootMii".
 
     ![BootMii_Main](/images/bootmii/BootMii_Main.png)
 
-1. Select the Options button (the icon with the gears).
+1. Wähle den Optionen-Button (das Icon mit dem Zahnrad).
 
     ![BootMii_Gears_Icon](/images/bootmii/BootMii_Gears_Icon.png)
 
-1. Select the first button to the left.
-    + A NAND backup will start. You can watch the progress on the screen.
-    + "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup.
-    + After this step, it will verify the backup. Ideally, all the blocks should be green after the verification process.
+1. Wähle den ersten Button links.
+    + Ein NAND-Backup wird gestartet. Du kannst den Fortschritt am Bildschirm verfolgen.
+    + "Bad Blocks" sind normal und stammen hauptsächlich aus der Fabrik aufgrund von NAND-Binning. Keine Sorge, wenn du einige auf einem NAND Backup siehst.
+    + Nach diesem Schritt wird die Sicherung überprüft. Idealerweise sollten alle Blöcke nach dem Überprüfungsprozess grün sein.
 
     ![BootMii_Green_Arrow](/images/bootmii/BootMii_Green_Arrow.png)
 
-1. When the process is complete, exit the NAND backup screen by pressing any button.
+1. Wenn der Prozess abgeschlossen ist, verlasse den NAND-Backup-Bildschirm indem du eine Taste drückst.
 
     ![BootMii_NAND_Backup](/images/bootmii/BootMii_NAND_Backup.png)
 
-1. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
+1. Drücke die Zurück-Taste (die mit einem Pfeil), dann drücke entweder die Wii-Menü-Taste oder die Homebrewkanal-Taste, um BootMii zu verlassen.
 
     ![BootMii_Return_Arrow](/images/bootmii/BootMii_Return_Arrow.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-Note: **restoring a NAND backup is usually a last resort**. There often better ways to unbrick your console.
-Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover) (Original Wii only).
+Hinweis: **Wiederherstellen eines NAND-Backups ist in der Regel ein letzter Ausweg**. Es gibt oft bessere Möglichkeiten, deine Konsole zu entbricken.
+Versuche dein Bestes um [deinen Brick-Zustand](bricks) zu identifizieren und die Aktion umzukehren, die es ursprünglich verursacht hat.
+Um von einem NAND-Backup auf deiner SD-Karte wiederherzustellen, folge den Anweisungen für [RestoreMii](bootmiirecover) (nur Originale Wii).
 </div>
 
-Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is your Wii's internal memory, while `keys.bin` are your console's keys.
+Zwei Dateien wurden im Hauptverzeichnis deiner SD-Karte erstellt: `nand.bin` und `keys.bin`. `nand.bin` ist der interne Speicher deiner Wii, während `keys.bin` die Schlüssel deiner Konsole sind.
 {: .notice--info}
 
-[Continue to Priiloader Installation](priiloader)<br> Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.
+[Weiter zur Priiloader Installation](priiloader)<br> Priiloader fügt eine sekundäre Schutzstufe gegen Bricks hinzu und wird sehr empfohlen, auch wenn BootMii als boot2 installiert wurde. Es ist besonders wichtig für Benutzer von BootMii auf IOS.
 {: .notice--info}
