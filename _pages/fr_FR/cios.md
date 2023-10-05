@@ -71,7 +71,7 @@ Sur chaque cIOS que vous essayez d'installer, vous verrez d'abord une grille d'I
         Select cIOS version <65535>
         ```
 
-        ![Install cIOS 248](/images/cios/d2x_v11_248.png)
+        ![Installer cIOS 248](/images/cios/d2x_v11_248.png)
 
     + Installation de cIOS 249
 
@@ -82,7 +82,7 @@ Sur chaque cIOS que vous essayez d'installer, vous verrez d'abord une grille d'I
         Select cIOS version <65535>
         ```
 
-        ![Install cIOS 249](/images/cios/d2x_v11_249.png)
+        ![Installer cIOS 249](/images/cios/d2x_v11_249.png)
 
     + Installation de cIOS 250
 
@@ -93,7 +93,7 @@ Sur chaque cIOS que vous essayez d'installer, vous verrez d'abord une grille d'I
         Select cIOS version <65535>
         ```
 
-        ![Install cIOS 250](/images/cios/d2x_v11_250.png)
+        ![Installer cIOS 250](/images/cios/d2x_v11_250.png)
 
     + Installation de cIOS 251
 
@@ -104,7 +104,7 @@ Sur chaque cIOS que vous essayez d'installer, vous verrez d'abord une grille d'I
         Select cIOS version <65535>
         ```
 
-        ![Install cIOS 251](/images/cios/d2x_v11_251.png)
+        ![Installer cIOS 251](/images/cios/d2x_v11_251.png)
 
 Continuez vers [l'installation du Open Shop Channel](osc), maintenant que votre Wii a une protection de brique suffisante, vous pouvez installer le Open Shop Channel, un répertoire de confiance pour les homebrews qui peuvent être consultés sur et à partir de la Wii.
 {: .notice--info}
