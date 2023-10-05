@@ -45,7 +45,7 @@ sitemap: false
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)
-+ [Wii Mini NAND Dumper](wnd-mini)
++ [Wii mini NAND Dumper](wnd-mini)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
