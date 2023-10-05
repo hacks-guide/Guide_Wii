@@ -19,7 +19,7 @@ Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. T
 DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same goes for using faulty SD cards.
 {: .notice--danger}
 
-### Requirements
+### 必要条件
 
 * An earlier NAND Backup made by [BootMii](bootmii)
 
@@ -57,5 +57,5 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 If you were restoring a NAND backup in order to repair a brick and this did not fix your issue, please consult [the bricks portion](bricks) of this guide.
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
 {: .notice--info}
