@@ -18,7 +18,7 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 ### Prérequis
 
-* An SD card or USB drive
+* Une carte SD ou une clé USB
 * [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
 * [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
@@ -27,10 +27,10 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 #### Section I - Préparation
 
 1. Éteignez votre console.
-1. Insert your SD card or USB drive into your computer.
+1. Insérez votre carte SD ou votre clé USB dans votre ordinateur.
 1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
+1. Insérez votre carte SD ou votre clé USB dans votre ordinateur.
 
 #### Section II - Installing Priiloader
 
