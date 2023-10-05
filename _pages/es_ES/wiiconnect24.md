@@ -43,8 +43,8 @@ If you choose to install either of these services on your Wii, it is advised to 
 
 #### What you need
 + A working Internet connection on your Wii
-+ The Homebrew Channel
-+ An SD card or USB drive
++ El Canal Homebrew
++ Una tarjeta SD o unidad USB
 + [sntp](https://oscwii.org/library/app/sntp)
 
 #### Instrucciones
