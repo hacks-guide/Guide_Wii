@@ -4,15 +4,15 @@ title: "cIOS"
 
 {% include toc title="Table of Contents" %}
 
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Par exemple, cela active les fonctionnalités des lanceurs USB comme USB Loader GX et WiiFlow, ainsi que d'autres homebrew comme SaveGame Manager GX. Vous pouvez sauter ce processus si vous le souhaitez, mais généralement il étend votre Wii avec peu à aucun inconvénient.
 
-If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting to install other cIOS on a Wii mini will not work.
+Si vous avez une Wii Mini, utilisez [ce guide](cios-mini) pour les cIOS au lieu de celui-ci. Tenter d'installer d'autres cIOS sur une Wii mini ne fonctionnera pas.
 {: .notice--warning}
 
 ### Prérequis
 
-* A Wii
-* An SD card or USB drive
+* Une Wii
+* Une carte SD ou une clé USB
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
@@ -20,49 +20,49 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ### Instructions
 
-#### Section I - Downloading (Only required if your Wii doesn't have Internet)
+#### Section I - Téléchargement (uniquement requis si votre Wii n'a pas d'Internet)
 
-If your Wii has an Internet connection, you may skip this section.<br> However, If you encounter any errors like `tcp_read timeout` and `net_gethostbyname failed:`, this will allow the Wii to skip the downloading step.
+Si votre Wii a une connexion Internet, vous pouvez sauter cette section.<br> Cependant, si vous rencontrez des erreurs comme `tcp_read timeout` et `net_gethostbyname failed:`, cela permettra à la Wii de sauter l'étape de téléchargement.
 {: .notice--warning}
 
-If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
+Si vous n'êtes pas sous Windows, vous pouvez télécharger & exécuter [ce script](/assets/files/d2x_offline_ios.sh), et il téléchargera les fichiers WAD pour vous.
 {: .notice--info}
 
 1. Éteignez votre console.
-1. Insert your SD card or USB drive into your computer.
-1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-1. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
-1. Run `NUS Downloader.exe`.
-1. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
-    + Ensure that "Pack WAD" is checked.
-    + *Don't* check "Patch IOS". That is the cIOS Installer's job.
-1. Click `Start NUS Download!`.
-1. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
-1. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
-1. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
-1. Place each WAD file on the root of your SD card or USB drive.
-    + This must be the same device containing the d2x cIOS Installer.
+1. Insérez votre carte SD ou votre clé USB dans votre ordinateur.
+1. Sur votre ordinateur, téléchargez [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
+1. Copiez tous les fichiers de `NUS Downloader.zip` vers un dossier sur votre ordinateur.
+1. Exécutez `NUS Downloader.exe`.
+1. Naviguez vers `Database` > `IOS` > `IOS38`, puis sélectionnez `v4123`.
+    + Assurez-vous que "Pack WAD" est coché.
+    + *Ne* cochez *pas* "Patch IOS". C'est ce que d2x cIOS Installer va faire.
+1. Cliquez sur `Start NUS Download!`.
+1. Répétez les étapes ci-dessus pour `IOS56 v5661`, `IOS57 v5918` et `IOS58 v6175`.
+1. Une fois le processus terminé, il y aura un dossier nommé `titles` dans le même dossier que NUS Downloader.
+1. Ouvrez le dossier `titles` et naviguez entre eux jusqu'à ce que vous trouviez les quatre fichiers WAD que vous avez téléchargés.
+1. Placez chaque fichier WAD à la racine de votre carte SD ou de votre clé USB.
+    + Là où vous placez les fichiers doit être sur le même périphérique contenant d2x cIOS Installer.
 
-The WAD files should be on your SD card like this: ![offline IOS files](/images/cios/d2x_offline_ios.png)
+Les fichiers WAD devraient être sur votre carte SD ou clé USB comme ceci: ![fichiers IOS hors ligne](/images/cios/d2x_offline_ios.png)
 {: .notice--info}
 
-#### Section II - Installing
+#### Section II - Installation
 
-If `d2x-v11-beta1` isn't showing up, try select the cIOS base first, then check again. This can also happen if your SD card is locked.
+Si `d2x-v11-beta1` ne s'affiche pas, essayez d'abord de sélectionner `cIOS base` en premier, puis vérifiez à nouveau. Cela peut également se produire si votre carte SD est verrouillée.
 {: .notice--info}
 
-On each cIOS that you try to install, you will first be shown a grid of active IOS on the Wi. Simply press A again, and it will install. Then, you will be shown a results screen, just press A as well and go to the next cIOS.
+Sur chaque cIOS que vous essayez d'installer, vous verrez d'abord une grille d'IOS actifs sur la Wii. Appuyez simplement à nouveau sur A, et il sera installé. Ensuite, on vous montrera un écran de résultats, appuyez aussi sur A et passez au prochain cIOS.
 {: .notice--info}
 
-1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
+1. Copiez le dossier `apps` du fichier `d2x-cios-installer.zip` à la racine de votre carte SD ou de votre clé USB.
+1. Insérez votre carte SD ou votre clé USB dans votre ordinateur.
 1. Allumez votre console.
 1. Lancez la Chaîne Homebrew.
-1. Launch d2x cIOS Installer from the list of homebrew.
-1. When asked what IOS you would like to use, select IOS 58.
-    + This should work in nearly all cases.
-1. Now, you will install individual cIOS from 248-251. The exact settings needed are listed below.
-    + cIOS 248 Installation
+1. Lancez d2x cIOS Installer à partir de la liste des homebrew.
+1. Si l'application demande quel IOS voulez-vous utiliser, sélectionnez IOS 58.
+    + Cela devrait fonctionner dans presque tous les cas.
+1. Maintenant, vous allez installer individuellement les cIOS de 248 à 251. Les réglages exacts sont listés ci-dessous.
+    + Installation de cIOS 248
 
         ```
         Select cIOS <d2x-v11-beta1>
@@ -73,7 +73,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
 
         ![Install cIOS 248](/images/cios/d2x_v11_248.png)
 
-    + cIOS 249 Installation
+    + Installation de cIOS 249
 
         ```
         Select cIOS <d2x-v11-beta1>
@@ -84,7 +84,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
 
         ![Install cIOS 249](/images/cios/d2x_v11_249.png)
 
-    + cIOS 250 Installation
+    + Installation de cIOS 250
 
         ```
         Select cIOS <d2x-v11-beta1>
@@ -95,7 +95,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
 
         ![Install cIOS 250](/images/cios/d2x_v11_250.png)
 
-    + cIOS 251 Installation
+    + Installation de cIOS 251
 
         ```
         Select cIOS <d2x-v11-beta1>
@@ -106,5 +106,5 @@ On each cIOS that you try to install, you will first be shown a grid of active I
 
         ![Install cIOS 251](/images/cios/d2x_v11_251.png)
 
-Continue to [Open Shop Channel Installation](osc) Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+Continuez vers [l'installation du Open Shop Channel](osc), maintenant que votre Wii a une protection de brique suffisante, vous pouvez installer le Open Shop Channel, un répertoire de confiance pour les homebrews qui peuvent être consultés sur et à partir de la Wii.
 {: .notice--info}
