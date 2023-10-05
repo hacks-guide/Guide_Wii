@@ -31,7 +31,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 * A Bluetooth adapter.
     * An internal Bluetooth adapter will work.
     * If you do not have one, make sure to get one compatible with Linux.
-* A USB flash drive formatted as FAT32.
+* Ein als FAT32 formatierter USB-Stick.
     * This cannot be the same flash drive used for your Linux Machine.
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
