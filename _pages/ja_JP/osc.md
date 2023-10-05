@@ -1,5 +1,5 @@
 ---
-title: "オープンショップチャンネル"
+title: "Open Shop Channel"
 ---
 
 {% include toc title="Table of Contents" %}
