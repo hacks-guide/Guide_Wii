@@ -1,5 +1,5 @@
 ---
-title: "ホームブルーチャンネルとBootMiiのインストール"
+title: "Homebrew ChannelとBootMiiのインストール"
 ---
 
 {% include toc title="Table of Contents" %}
