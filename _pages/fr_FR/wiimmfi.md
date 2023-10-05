@@ -1,5 +1,5 @@
 ---
-title: "Nintendo Wi-Fi Connection"
+title: "Connexion Wi-Fi Nintendo"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -116,7 +116,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 #### Requirements
 
 + A Wii with an internet connection, running in 60Hz mode
-+ The Internet Channel
++ La chaîne Internet
 
 #### Instructions
 
@@ -168,5 +168,5 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 Congrats on making it to the end of the optional section of the main guide! You can go to the site index below if you would like to look for other guides.
 {: .notice--success}
 
-[Click here to go back to the site index.](site-navigation)
+[Cliquez ici pour revenir à l'index du site.](site-navigation)
 {: .notice--info}
