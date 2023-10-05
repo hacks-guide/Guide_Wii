@@ -35,7 +35,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![Wii Options](/images/riiconnect24/Internet_1.png)
 
-1. Go to `Wii Settings`.
+1. `Wii設定`に進みます。
 
     ![Wii Settings](/images/riiconnect24/Internet_2.png)
 
@@ -86,7 +86,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
     ![str2hax EULA page](/images/exploits/str2hax/EULA.png)
 
 1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 成功すると、WiiはHackMiiインストーラーをロードします。
 
     ![HackMii Installer scam screen](/images/hackmii/scam.png)
 
