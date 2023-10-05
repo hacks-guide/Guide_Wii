@@ -80,7 +80,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
 1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
 1. Select `Yes`.
-1. Click on `Next`. 
+1. Click on `Next`.
     + You should be greeted with the following screen:
 
     ![str2hax EULA page](/images/exploits/str2hax/EULA.png)
