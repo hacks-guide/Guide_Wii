@@ -59,5 +59,5 @@ Make sure your USB drive is formatted as FAT32. Do not format it as other types 
 You can now use [USB Loader GX](usbloadergx) or [WiiFlow](wiiflow) to play games from your USB drive or SD card.
 {: .notice--info}
 
-[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
+[サイトマップに移動する](site-navigation)
 {: .notice--info}
