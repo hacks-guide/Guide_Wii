@@ -1,5 +1,5 @@
 ---
-title: "BootMiiのバックアップ"
+title: "NANDのバックアップ(BootMii)"
 ---
 
 {% include toc title="Table of Contents" %}
