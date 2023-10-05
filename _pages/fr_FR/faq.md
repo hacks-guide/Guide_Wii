@@ -48,23 +48,23 @@ Consultez [cette page](bricks).
 
 ## Les périphériques de stockage
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+Pour [BlueBomb](bluebomb), [str2hax](str2hax) ou [FlashHax](flashhax), vous n'avez pas besoin d'une carte SD pour modder votre Wii, par contre, il est recommandé d'en avoir une pour les applications homebrew et tout ce qui a besoin d'une carte SD.
 {: .notice--info}
 
-FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br> For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS was a previously used file system for Wii game backups - today, it is outdated and should not be used.
+FAT32 est le système de fichiers recommandé pour les cartes SD, voir [ce guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) pour savoir comment formatter un périphérique dans ce format.<br> Pour les périphériques USB, FAT32 est également recommandé, bien que les utilisateurs devraient être avertis des limitations du FAT32 qui ne permettent que des volumes de 2 To. WBFS était un système de fichiers précédemment utilisé pour les sauvegardes de jeux Wii - aujourd'hui, il est obsolète et ne doit pas être utilisé.
 {: .notice--info}
 
-For stock Wii Menu versions lower than 4.0, a limitation in the Wii System Software prevents SD cards bigger than 2GB from being used.<br> For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.<br> Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
+Pour les versions de menu Wii inférieures à 4.0, une limitation dans le logiciel de système Wii empêche l'utilisation de cartes SD de plus de 2 Go.<br> Pour les versions du menu Wii 4.0 ou plus, cette limitation est supprimée et des cartes SD de différentes tailles peuvent être utilisées.<br> Votre plus grande chance d'obtenir une carte SD fonctionnelle sur n'importe quelle Wii est de 32 Go ou moins, mais succès a été signalé plusieurs fois sur des cartes allant jusqu'à 256 Go.
 {: .notice--warning}
 
-For USB devices, flash drives have a high rate of not working on Wii consoles. Instead, it is recommended to use a USB hard drive or solid state drive.
+Pour les périphériques USB, les clés USB ont un taux élevé de ne pas fonctionner sur les consoles Wii. Au lieu de cela, il est recommandé d'utiliser un disque dur USB ou un SSD.
 {: .notice--warning}
 
 ### General Storage Guidelines
 
-When considering buying or using an SD card or USB device, it is worth considering the things that you will be using either storage medium for. Different uses can take up varying amounts of space, some common examples of which are shown below:
+Lorsque vous envisagez d'acheter ou d'utiliser une carte SD ou un périphérique USB, Il faut prendre en considération les choses que vous utiliserez pour les deux supports de stockage. Différentes utilisations peuvent prendre différentes quantités d'espace, dont certains exemples communs sont indiqués ci-dessous:
 
-+ Wii Backups: The largest Wii games (dual-layer DVD) are up to sizes of 9GB, more normal games are closer to sizes of 4GB or lower. The average user for a Wii backup device would probably want 128GB or more of space.
++ Les sauvegardes Wii : Les plus grands jeux Wii (DVD double couche) ont une taille de 9 Go, les jeux normaux sont plus proches des tailles de 4 Go ou moins. The average user for a Wii backup device would probably want 128GB or more of space.
 + GameCube Backups: The largest GameCube games reach sizes of up to 1.3GB. ISO sizes are normally this size regardless of the game, but can be considerably lower if NKIT is used as a format instead. The average user for a GameCube backup device would probably want 64GB or more of space.
 + General Emulation: There are a wide variety of emulators available on the Wii. Because the size of different game ROMs differ dramatically, the average user for an emulation drive would probably want 32GB or more of space.
 + General Homebrew: For homebrew, the average user would want 2GB or more of space.
@@ -73,19 +73,19 @@ When considering buying or using an SD card or USB device, it is worth consideri
 
 ### Buying SD Cards
 
-SD cards 2TB or larger currently do not exist, anyone attempting to sell you one is trying to rip you off.
+Les cartes SD de 2To ou plus n'existent pas actuellement, si quelqu'un ou une platforme tente de vous en vendre une c'est une arnaque.
 {: .notice--danger}
 
-When buying SD cards, it is generally recommended that you stick to well-known brands the more expensive and larger capacity that you get. While you can buy a generic 2GB SD card and most likely be safe, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-20 USD for 256GB and below, whereas 512GB is around 40 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be wary when buying storage on eBay.
+Lorsque vous achetez des cartes SD, il est généralement recommandé de s'en tenir à des marques bien connues, plus la capacité est grande plus elle est coûteuse. Vous pouvez acheter une carte SD générique/no-name de 2Go et être probablement en sécurité, On ne peut pas dire la même chose pour une carte SD de 512Go. Le prix pour les cartes SD est d'environ 8-20€ pour 256 Go et moins, alors que pour 512 Go c'est autour de 35€. Lors d'un achat sur Amazon, assurez-vous que votre carte est soit `vendue par/expédiée par Amazon` ou `vendue par [marque], Livré par Amazon`. Méfiez-vous lorsque vous achetez du stockage (clé USB, cartes SD, disques dur, etc...) sur eBay.
 
-Recommended brands:
+Marques recommandées :
 + Samsung (EVO Select, EVO Plus, PRO Plus)
 + SanDisk (Extreme, Ultra, etc)
 + Lexar (E-Series, Professional)
 + Silicon Power ("3D NAND" cards, higher capacity usually better value)
 + PNY (Elite, Elite-X, etc)
 
-### Buying USB Devices - Hard Drives
+### Achat de périphériques USB - Disques durs
 
 When buying USB hard drives, there are only three existing present-day HDD manufacturers: Western Digital, Seagate, and Toshiba. Any and all other hard drive companies are defunct and have either went bankrupt, or were absorbed by the three aformentioned companies. With that said, if you have an extra hard drive lying around made by another company, it should still work! Hard drive technology has remained largely the same within the past 10 or so years. Just make sure to check the S.M.A.R.T data to ensure that the drive isn't failing before you throw all of your data on there.
 
