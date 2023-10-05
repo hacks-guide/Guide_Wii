@@ -21,7 +21,7 @@ This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBao
 ### Requisitos
 
 * A Wii mini with the Homebrew Channel installed
-* A USB drive
+* Una unidad USB
 * Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
 ### Instrucciones
@@ -54,7 +54,7 @@ This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBao
 [Continue to making a NAND Backup using RealWnd](wnd-mini)
 {: .notice--info}
 
-#### Enabling Ethernet
+#### Habilitando Ethernet
 
 If you wish to use Wiimmfi with Ethernet on a Wii mini, you have to run the [Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) app made by Fullmetal5. To run it, just unzip it in the `apps` folder of your USB drive and run it from the Homebrew Channel.
 
