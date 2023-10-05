@@ -44,8 +44,9 @@ sitemap: false
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
-+ [YAWM ModMii Edition](yawmme)
 + [Updating Wii Menu to v4.3](update)
++ [Wii mini NAND Dumper](wnd-mini)
++ [YAWM ModMii Edition](yawmme)
 {% endcapture %}
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 
