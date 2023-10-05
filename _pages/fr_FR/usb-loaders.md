@@ -1,5 +1,5 @@
 ---
-title: "USB Loaders"
+title: "Lanceurs USB"
 ---
 
 {% include toc title="Table of Contents" %}
