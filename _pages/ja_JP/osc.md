@@ -1,5 +1,5 @@
 ---
-title: "Open Shop Channel"
+title: "オープンショップチャンネル"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -13,7 +13,7 @@ There are two methods to use the Open Shop Channel: on your Wii through the Home
 
 ### Method I - Homebrew Browser
 
-#### Requirements
+#### 必要条件
 
 + A Windows/macOS/Linux computer with an internet connection
 + An SD card or USB drive
@@ -30,7 +30,7 @@ There are two methods to use the Open Shop Channel: on your Wii through the Home
 
 ### Method II - OSCDL
 
-#### Requirements
+#### 必要条件
 
 + A Windows/macOS/Linux computer with an internet connection
 + An SD card or USB drive
