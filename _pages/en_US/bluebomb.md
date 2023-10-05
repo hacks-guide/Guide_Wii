@@ -37,7 +37,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 ### Instructions
 
-1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive. 
+1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
     + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
     + (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
 1. Reinsert your flash drive into your console.
