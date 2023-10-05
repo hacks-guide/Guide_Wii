@@ -12,11 +12,11 @@ This guide will show you how to dump WADs from your Wii System Memory.
 
 ### 実行方法
 
-1. Power off your console.
+1. Wiiの電源を切ります。
 1. Insert your SD card or USB drive into your computer.
 1. Copy the `apps` folder from the Yet Another BlueDump MOD `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
+1. Wiiの電源を入れます。
 1. Launch the Homebrew Channel.
 1. Launch Yet Another BlueDump MOD from the list of homebrew.
 1. Press A.
