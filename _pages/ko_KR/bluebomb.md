@@ -2,7 +2,7 @@
 title: "BlueBomb"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
 {: .notice--warning}
@@ -18,7 +18,7 @@ If you are using the original revision of the Wii, you should probably find [ano
 Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
 {: .notice--info}
 
-### Requirements
+### 준비물
 
 * A Linux machine
     * A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
@@ -35,7 +35,7 @@ Make sure that the console is close to the computer running the exploit, ideally
     * This cannot be the same flash drive used for your Linux Machine.
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### Instructions
+### 진행 방법
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
     + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
@@ -43,14 +43,14 @@ Make sure that the console is close to the computer running the exploit, ideally
 1. Reinsert your flash drive into your console.
     + For a Wii mini, the USB port is on the back.
     + For a normal Wii, use the bottom port (or the right port if it's upright).
-1. Power on your console.
+1. 콘솔의 전원을 켜 주세요.
 1. Go to `Wii Settings`.
 1. Take note in the top right corner of the letter next to the system version.
     + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
     ![Wii Region](/images/wii/SystemMenuVersion.png)
 
-1. Power off your console.
+1. 콘솔의 전원을 꺼 주세요.
 1. Start your Linux distro, and ensure you are connected to the internet.
 1. Open the Terminal
 1. Run the following commands:
@@ -64,7 +64,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 1. The helper will then download the required files, and ask for information about your console.
     + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
     + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
-1. Power on your console.
+1. 콘솔의 전원을 켜 주세요.
     + **Do not** connect any Wii Remotes.
 1. Press the Sync button repeatedly until the terminal shows `got connection handle`.
     + This could take numerous attempts.
