@@ -1,5 +1,5 @@
 ---
-title: "Creating Wii Game Shortcuts"
+title: "Création de raccourcis de jeux Wii"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -14,7 +14,7 @@ Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It
 
 ### Prérequis
 
-* A Wii
+* Une Wii
 * A USB drive
 * [YAWM ModMii Edition](yawmme)
 * A Windows computer.
