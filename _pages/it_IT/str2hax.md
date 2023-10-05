@@ -4,29 +4,29 @@ title: "str2hax"
 
 {% include toc title="Table of Contents" %}
 
-Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
+Nota che se il tuo ISP, o il tuo Ambiente di Rete, bloccano l'utilizzo di server DNS personalizzati, str2hax non funzionerà e dovresti [ scegliere un altro exploit da utilizzare](get-started).
 {: .notice--warning}
 
-str2hax is an exploit for the Wii that is triggered by loading the Wii's End User License Agreement. It requires nothing but an Internet connection that lets you change the DNS on your Wii.
+Str2hax è un exploit che viene eseguito caricando l'EULA (Accordo di Licenza con l'Utente Finale) della console Wii. Richiede solamente una connessione a Internet che permette di cambiare i DNS sulla tua Wii.
 
-### Requirements
+### Requisiti
 
-* A Wii with an Internet connection
+* Console Wii con connessione a Internet
 
-### Instructions
+### Istruzioni
 
-#### Common issues
+#### Problemi comuni
 
-If you get the normal User Agreements, your ISP blocks the use of custom DNS. Please [use another exploit](get-started).
+Se ottieni l'EULA normale, il tuo ISP blocca l'uso di DNS personalizzati. Per favore [utilizza un altro exploit](get-started).
 {: .notice--warning}
 
-If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+Se l'Hackmii Installer non viene caricato dopo più di 2 minuti, o ricevi un errore come `Hanging.` oppure `ERROR! if_config (ret = ...)`, riavvia la console Wii e riprova.
 {: .notice--warning}
 
-If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
+Se hai installato una mod come CTGP Revolution o Project+, str2hax potrebbe caricare quella al posto dell'exploit. Se succede, riavvia la console Wii, rimuovi la scheda SD e riprova.
 {: .notice--warning}
 
-#### Section I - Connecting
+#### Sezione I - Connessione
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
