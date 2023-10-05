@@ -7,7 +7,7 @@ sitemap: false
 {% capture notice-1 %}
 **Site**
 + [Home](/)
-+ [Get Started](get-started)
++ [시작하기](get-started)
 + [FAQ](faq)
 + [Donations](donations)
 {% endcapture %}
