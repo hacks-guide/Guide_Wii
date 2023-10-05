@@ -14,7 +14,7 @@ If you're not receiving updates after a few days, you might need to subscribe to
 
 ### Requisitos
 
-* An SD card
+* Una tarjeta SD
 * [RSSMii](https://oscwii.org/library/app/rssmii)
 
 ### Instrucciones
@@ -55,7 +55,7 @@ If you're not receiving updates after a few days, you might need to subscribe to
 
 #### What you need
 
-* An SD card
+* Una tarjeta SD
 * [RSSMii Remover](https://oscwii.org/library/app/rssmii-remover)
 
 #### Instrucciones
