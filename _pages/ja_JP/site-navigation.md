@@ -37,7 +37,7 @@ sitemap: false
 + [NANDのバックアップ(BootMii)](bootmii)
 + [BootMii Recovery](bootmiirecover)
 + [Brick Overview](bricks)
-+ [Brick Prevention](bricks#brick-prevention)
++ [ブリック阻止](bricks#brick-prevention)
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
