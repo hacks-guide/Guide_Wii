@@ -21,7 +21,7 @@ If you are on vWii, you will also need [Priiloader](priiloader) installed with t
 {: .notice--primary}
 
 + An SD card or USB drive
-+ A Wii with an Internet connection
++ Une Wii avec une connexion Internet
 + A PC with an Internet connection
 + [RiiConnect24 Patcher (Windows, Mac and Linux)](https://github.com/riiconnect24/RiiConnect24-Patcher/releases)
 + [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
@@ -134,5 +134,5 @@ You will now set your DNS to RiiConnect24 servers. This is optional but recommen
 [Return to WiiConnect24](wiiconnect24)
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Cliquez ici pour revenir à l'index du site.](site-navigation)
 {: .notice--info}
