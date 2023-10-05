@@ -78,5 +78,5 @@ For now, only the `bootmii_keys.bin` file is required.
 Continue to [Open Shop Channel Installation](osc) Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 {: .notice--info}
 
-[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
+[サイトマップに移動する](site-navigation)
 {: .notice--info}
