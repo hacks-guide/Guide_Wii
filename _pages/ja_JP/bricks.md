@@ -1,17 +1,17 @@
 ---
-title: "Bricks"
+title: "ブリック"
 ---
 
 {% include toc title="Table of Contents" %}
 
-A "Brick" usually means your Wii has reached a state where its next purpose in existence is likely that of a doorstop, or a display figure. <br> Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
+「ブリック」とはWiiが完全に壊れる寸前の状態です。 <br> ブリックはいろんな理由でおきますが、主にソフトのデータ欠損やホームブルーでのWiiの編集でおこることが多いです。
 
-# Brick Prevention
+# ブリック阻止
 
-Preventing a brick involves many rules that range between common sense and fail-safe backups. Here are the general recommendations of what not to do:
+ブリックを阻止することは当たり前のことから念のためのバックアップなどのことからできることです。 基本的にしない方がいいことが複数あります。
 
-+ **Do NOT follow old Wii modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.
-+ **Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. It is DANGEROUS and does things that have the ability to BRICK YOUR WII!
++ ホームブルーの制作者に推奨されない限り、古いガイド、古いホームブルーや動画ガイドはつかわない。
++ `Pimp My Wii`のホームブルーアプリは何があっても使わない。 かなり危険でWiiをブリックさせる可能性もあります。
 + **Do NOT restore NAND backups from other consoles!**
 + **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi). Doing otherwise could allow a malicious actor to BRICK your Wii!
 + **Only install updates for your own region!**.
