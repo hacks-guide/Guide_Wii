@@ -37,7 +37,7 @@ Si quieres restaurar los datos de guardado de un juego, utiliza Dolphin para imp
 
 + Si tienes BootMii instalado como IOS, RestoreMii te pedirá el código Konami a través de un mando de GameCube.
 
-+ You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad on a GameCube controller. To select, press A.
++ Debes utilizar los botones POWER (derecha) y RESET (seleccionar) de tu consola, o un mando de GameCube conectado al puerto 1 para navegar por BootMii. Para navegar con un mando de GameCube, pulsa izquierda/derecha en la cruz de control de un mando de GameCube. Para seleccionar, pulsa A.
 
 ### Instrucciones
 
@@ -47,14 +47,14 @@ Si quieres restaurar los datos de guardado de un juego, utiliza Dolphin para imp
 
     ![BootMii_Gears_Icon](/images/BootMii/BootMii_Gears_Icon.png)
 
-1. Select the RestoreMii button.
+1. Selecciona el botón RestoreMii.
 
     ![BootMii_Red_Arrow](/images/BootMii/BootMii_Red_Arrow.png)
 
-1. If BootMii is installed as IOS, input the Konami code on your GameCube controller: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
-1. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Hit any button on your Wii console or GCN controller.
+1. Si BootMii está instalado como IOS, introduce el código Konami en el mando de GameCube: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
+1. Una vez finalizada la recuperación, deberías ver un texto que diga `I HAZ SUCCESS!`, o de lo contrario, `I HAZ FAIL`. Pulsa cualquier botón de la consola Wii o del mando de GameCube.
 
-If you were restoring a NAND backup in order to repair a brick and this did not fix your issue, please consult [the bricks portion](bricks) of this guide.
+Si has restaurado una copia de seguridad de la NAND para reparar un bloqueo y esto no ha solucionado el problema, consulta [la sección de bloqueos](bricks) de la guía.
 {: .notice--info}
 
 [Haz clic aquí para volver al índice del sitio.](site-navigation)
