@@ -2,7 +2,7 @@
 title: "Wii Themes"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through MyMenuifyMod, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
 
@@ -30,7 +30,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 + [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym file distribution)
 + [Wii Themer](http://www.wiithemer.org/) (online theme builder for specific versions and regions, ready to install .csm themes)
 
-#### Requirements
+#### 준비물
 
 * A modded Wii
 * An SD card or USB device
@@ -75,7 +75,7 @@ If you don't want to go through the hassle of using an external program to build
 
 Unfortunately, because of the codebase difference between the original WiiFlow and the newer WiiFlow Lite, themes are sparse - in fact, only one theme could be found that confidently works on the newer version. The instructions for installing that theme are below.
 
-#### Requirements
+#### 준비물
 
 * A modded Wii
 * An SD card or USB device
@@ -83,7 +83,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * A Linux/macOS/Windows PC with an Internet connection
 * [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
-#### Instructions
+#### 진행 방법
 
 1. Have the storage device that holds WiiFlow Lite connected to your PC.
 1. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
@@ -92,7 +92,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 ### USB Loader GX Theming
 
-#### Requirements
+#### 준비물
 
 * A modded Wii
 * An SD card or USB device
@@ -100,7 +100,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * A Linux/macOS/Windows PC with an Internet connection
 * A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
 
-#### Instructions
+#### 진행 방법
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
 1. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
@@ -110,14 +110,14 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 ### Homebrew Channel Theming
 
-#### Requirements
+#### 준비물
 
 * A modded Wii
 * An SD card or USB device
 * A Linux/macOS/Windows PC with an internet connection
 * A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
 
-#### Instructions
+#### 진행 방법
 
 1. Download a theme `.zip` file from the website linked above.
 
@@ -145,5 +145,5 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 App forwarders can add a bit of extra flair to your Wii Menu - but be careful with them as bad forwarders can cause a [banner brick](bricks#banner-brick). Generally, you can find forwarders on places like [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) for popular apps such as emulators. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme).
 
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다.](site-navigation)
 {: .notice--info}
