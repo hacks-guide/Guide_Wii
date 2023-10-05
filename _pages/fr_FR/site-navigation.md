@@ -22,7 +22,7 @@ sitemap: false
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-3 %}
-**Modding 101 - Exploits**
+**Modding - Exploits**
 + [BlueBomb](bluebomb)
 + [FlashHax](flashhax)
 + [Legacy Exploits](legacy-exploits)
@@ -39,12 +39,12 @@ sitemap: false
 + [Brick Overview](bricks)
 + [Brick Prevention](bricks#brick-prevention)
 + [cIOS](cios)
-+ [Homebrew Channel](hbc)
++ [Chaîne Homebrew](hbc)
 + [ModMii](modmii)
 + [Chaine Open Shop](osc)
 + [Priiloader](priiloader)
-+ [Relaunching the HackMii Installer](hackmii)
-+ [Updating Wii Menu to v4.3](update)
++ [Relancer l'installateur HackMii](hackmii)
++ [Mise à jour du menu Wii vers la v4.3](update)
 + [Dump NAND Wii mini](wnd-mini)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
@@ -52,25 +52,25 @@ sitemap: false
 
 {% capture notice-5 %}
 **Homebrew**
-+ [Creating Wii Game Shortcuts](wiigsc)
++ [Création de raccourcis de jeux Wii](wiigsc)
 + [GameCube Backup Manager](gcbackupmanager)
 + [How to dump Channels (WADs)](dump-wads)
 + [How to dump GameCube/Wii Games](dump-games)
 + [RSSMii](rssmii)
-+ [Managing GameCube Save Files](gcsaves)
++ [Gestion des fichiers de sauvegarde de la GameCube](gcsaves)
 + [Nintendont](nintendont)
-+ [Playing Wii Game Mods](riivolution)
-+ [Recommended Homebrew](recommended-homebrew)
-+ [USB Loaders](usb-loaders)
-+ [Using SysCheck](syscheck)
++ [Jouer à des mods de jeux Wii](riivolution)
++ [Homebrew recommandés](recommended-homebrew)
++ [Lanceurs USB](usb-loaders)
++ [Utiliser SysCheck](syscheck)
 + [Wii Backup Manager](wiibackupmanager)
-+ [Wii Themes Guide](themes)
++ [Guide des thèmes Wii](themes)
 {% endcapture %}
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
-**Wii mini**
-+ [Installing the Homebrew Channel on the Wii mini](hbc-mini)
-+ [Installing cIOS on the Wii mini](cios-mini)
+**Wii Mini**
++ [Installation de la Chaîne Homebrew sur la Wii mini](hbc-mini)
++ [Installation des cIOS sur la Wii mini](cios-mini)
 {% endcapture %}
 <div class="notice--primary">{{ notice-6 | markdownify }}</div>
