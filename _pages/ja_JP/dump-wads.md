@@ -6,7 +6,7 @@ title: "Dumping WADs"
 
 This guide will show you how to dump WADs from your Wii System Memory.
 
-### Requirements
+### 必要条件
 
 + [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
