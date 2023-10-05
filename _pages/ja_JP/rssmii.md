@@ -12,7 +12,7 @@ Due to the nature of RSS feeds and the large amount of mail they can generate, t
 If you're not receiving updates after a few days, you might need to subscribe to the RSS feeds again. Launch RSSMii from the Homebrew Channel again and it should create new subscriptions.
 {: .notice--info}
 
-### Requirements
+### 必要条件
 
 * An SD card
 * [RSSMii](https://oscwii.org/library/app/rssmii)
@@ -64,5 +64,5 @@ If you're not receiving updates after a few days, you might need to subscribe to
 1. Delete the `feeds.xml` file on the root of your SD card.
 1. Launch RSSMii Remover from the Homebrew Channel. It will remove your subscriptions to the RSS feeds.
 
-[Click here to go back to the site index.](site-navigation)
+[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
 {: .notice--info}
