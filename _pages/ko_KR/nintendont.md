@@ -2,7 +2,7 @@
 title: "Nintendont"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 Nintendont is a Wii-mode homebrew application that can be used to play GameCube games, as well as Triforce arcade dumps. Nintendont is an interesting app in that it is like a hybrid between an emulator and a virtual machine - while still running GameCube games near exactly at native quality and performance. Further info can be read [here](https://gbatemp.net/threads/nintendont.349258/).
 
@@ -12,7 +12,7 @@ To play games, you are advised to use a large SD card or an external hard drive,
 Make sure your storage device is formatted as FAT32. Do not format it to other file systems like NTFS, exFAT, or WBFS.
 {: .notice--info}
 
-### Requirements
+### 준비물
 
 * A modded Wii
 * An SD card or USB device
@@ -69,5 +69,5 @@ Some games may have native button combinations to reset.
 
 **HID-USB controller or adapter:**<br> You can define the Shutdown button's combination yourself.<br> The Power button is defined in the controller.ini or in the correct controllers/PID_VID.ini file used by your gamepad.<br> Most commonly used combo with default HID settings:<br> Shutdown: L+R+Z+Start
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다.](site-navigation)
 {: .notice--info}
