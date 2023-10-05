@@ -2,18 +2,18 @@
 title: "str2hax"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
 {: .notice--warning}
 
 str2hax is an exploit for the Wii that is triggered by loading the Wii's End User License Agreement. It requires nothing but an Internet connection that lets you change the DNS on your Wii.
 
-### Requirements
+### 준비물
 
 * A Wii with an Internet connection
 
-### Instructions
+### 진행 방법
 
 #### Common issues
 
@@ -30,7 +30,7 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
-1. Power on your console.
+1. 콘솔의 전원을 켜 주세요.
 1. Go to `Wii Options`.
 
     ![Wii Options](/images/riiconnect24/Internet_1.png)
