@@ -23,8 +23,8 @@ footer:
     title: Source
     url: https://github.com/hacks-guide/Guide_Wii
   - 
-    title: Site Navigation
-    url: site-navigation
+    title: Navigazione del Sito
+    url: navigazione-sito
   - 
     title: Privacy Policy
     url: privacy-policy
@@ -36,11 +36,11 @@ sidebar_title:
     title: Overall Progress
 sidebar_pages:
   - 
-    title: Home
+    title: Menu Principale
     url: /
   - 
-    title: Get Started
-    url: get-started
+    title: Per Iniziare
+    url: per-iniziare
   - 
     title: LetterBomb
     url: letterbomb
