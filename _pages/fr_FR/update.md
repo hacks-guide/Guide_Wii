@@ -11,7 +11,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### Prérequis
 
-* An SD card or USB drive
+* Une carte SD ou une clé USB
 * A computer with Windows on it
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
 * [Priiloader](priiloader)
