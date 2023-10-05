@@ -13,7 +13,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
 
 ### Requisitos
-* An SD card formatted as FAT32
+* Una tarjeta SD formateada como FAT32
 * A Wii on System Menu version 4.3
 * A Windows/MacOS/Linux computer with an Internet connection
 
@@ -39,7 +39,7 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
 
     ![HackMii Screen](/images/exploits/letterbomb/LetterBomb-PC.png)
 
-1. Insert your SD card into your computer.
+1. Inserta tu tarjeta SD en tu ordenador.
 1. Copy the `private` folder and the `boot.elf` file from the LetterBomb `.zip` to the root of your SD card.
 1. Reinsert your SD card into your console.
     + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
