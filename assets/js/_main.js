@@ -245,28 +245,28 @@ $(document).ready(function() {
     // The key/propery name must match the value associated with the page in the methods variable above
     //
     var device_common = {
-      "0": ["letterbomb", "hbc", "bootmii", "priiloader", "osc"],
-      "1": ["wilbrand", "hbc", "bootmii", "priiloader", "osc"],
+      "0": ["letterbomb", "hbc", "bootmii", "priiloader"],
+      "1": ["wilbrand", "hbc", "bootmii", "priiloader"],
       "2": ["bluebomb", "multiple-options"],
-      "3": ["flashhax", "hbc", "bootmii", "priiloader", "osc"],
-      "4": ["str2hax", "hbc", "bootmii", "priiloader", "osc"]
+      "3": ["flashhax", "hbc", "bootmii", "priiloader"],
+      "4": ["str2hax", "hbc", "bootmii", "priiloader"]
     }
     // Can add custom routing if necessary but currently both routes are identical
     var device_wii =  Object.assign({}, device_common,{
       // custom routing here
-      // example: "0": ["letterbomb", "hbc", "bootmii", "priiloader", "osc"],
-      "5": ["multiple-options", "hbc", "bootmii", "priiloader", "osc"],
-      "7": ["multiple-options", "hbc", "bootmii", "priiloader", "osc"],
-      "8": ["multiple-options", "hbc", "bootmii", "priiloader", "osc"],
-      "9": ["multiple-options", "hbc", "bootmii", "priiloader", "osc"]
+      // example: "0": ["letterbomb", "hbc", "bootmii", "priiloader"],
+      "5": ["multiple-options", "hbc", "bootmii", "priiloader"],
+      "7": ["multiple-options", "hbc", "bootmii", "priiloader"],
+      "8": ["multiple-options", "hbc", "bootmii", "priiloader"],
+      "9": ["multiple-options", "hbc", "bootmii", "priiloader"]
     });
     var device_mini = Object.assign({}, device_common,{
       // custom routing here
-      "6": ["bluebomb", "hbc-mini", "priiloader", "osc", "cios-mini", "wnd-mini"],
-      "8": ["bluebomb", "hbc-mini", "priiloader", "osc", "cios-mini", "wnd-mini"],
-      "9": ["bluebomb", "hbc-mini", "priiloader", "osc", "cios-mini", "wnd-mini"],
-      "10": ["bluebomb", "hbc-mini", "priiloader", "osc", "cios-mini", "wnd-mini"],
-      "11": ["bluebomb", "hbc-mini", "priiloader", "osc", "cios-mini", "wnd-mini"]
+      "6": ["bluebomb", "hbc-mini", "priiloader", "cios-mini", "wnd-mini"],
+      "8": ["bluebomb", "hbc-mini", "priiloader", "cios-mini", "wnd-mini"],
+      "9": ["bluebomb", "hbc-mini", "priiloader", "cios-mini", "wnd-mini"],
+      "10": ["bluebomb", "hbc-mini", "priiloader", "cios-mini", "wnd-mini"],
+      "11": ["bluebomb", "hbc-mini", "priiloader", "cios-mini", "wnd-mini"]
     });
     var route = {
       "-1": device_common,
