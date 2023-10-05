@@ -109,7 +109,9 @@ The old DNS server `164.132.44.106` has been deprecated as of `June 1st, 2023` a
 If you're getting errors such as `WiiConnect24 and Wii Shop Channel currently not being offered in your country`, go to Wii Settings -> Last Page -> Country and change it to United Kingdom. You will get this error when using a country that RiiConnect24 does not support.
 {: .notice--warning}
 
-If you get error 107245, you did not install the patched IOS.<br> If you get error 220602, see [this](faq#for-riiconnect24-users) page.<br> If you get error 107304, see [this](faq#for-riiconnect24-users-1) page.<br>
+If you get error 107245, you did not install the patched IOS.<br>
+If you get error 220602, see [this](faq#for-riiconnect24-users) page.<br>
+If you get error 107304, see [this](faq#for-riiconnect24-users-1) page.<br>
 {: .notice--warning}
 
 You will now set your DNS to RiiConnect24 servers. This is optional but recommended, because it enhances the use of RiiConnect24 and Wiimmfi by making some other features available.

@@ -15,7 +15,7 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 Navigating BootMii is not possible using a Wii Remote. You must use the POWER and RESET buttons on your console, or a GameCube controller plugged into port 1. To navigate between options, press POWER on your Wii (or left/right on the +Control Pad on a GameCube controller). To select an option, press RESET on your Wii or A on your GameCube controller. You will NEED to use a GameCube controller to restore a NAND backup in the future if BootMii is installed as IOS.
 {: .notice--info}
 
-If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii. 
 {: .notice--warning}
 
 If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
@@ -57,12 +57,15 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
 
 <div id="restore-notice" class="notice" markdown="1">
 Note: **restoring a NAND backup is usually a last resort**. There often better ways to unbrick your console.
+
 Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
+
 To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover) (Original Wii only).
 </div>
 
 Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is your Wii's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
-[Continue to Priiloader Installation](priiloader)<br> Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.
+[Continue to Priiloader Installation](priiloader)<br>
+Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.
 {: .notice--info}
