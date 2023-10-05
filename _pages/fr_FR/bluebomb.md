@@ -10,20 +10,20 @@ Il est **vivement** déconseillé d'utiliser **n'importe quel** guide vidéo pou
 Si vous avez besoin d'aide pour tout ce qui concerne ce tutoriel, veuillez rejoindre [le serveur Discord Wii mini Hacking](https://discord.gg/6ryxnkS) (recommandé)
 {: .notice--info}
 
-BlueBomb est un exploit qui tire profit d'une faille dans les bibliothèques Bluetooth de la Wii et de la Wii mini. Bien que ce soit le seul exploit qui fonctionne pour la Wii mini, BlueBom peut aussi fonctionner sur la Wii originale. This exploit also enables recovery from certain bricks, such as Korean Kii/Error 003.
+BlueBomb est un exploit qui tire profit d'une faille dans les bibliothèques Bluetooth de la Wii et de la Wii mini. Bien que ce soit le seul exploit qui fonctionne pour la Wii mini, BlueBom peut aussi fonctionner sur la Wii originale. Cet exploit permet également de récupérer certains bricks, tels que le brick coréen Kii/Error 003.
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+Si vous utilisez une révision originale de la Wii, vous devriez probablement trouver un [autre exploit à utiliser](get-started) vu qu'il existe des moyens beaucoup plus faciles d'accéder à l'installer HackMii. Toutefois, des exceptions existent dans des circonstances telles que la récupération de bricks.
 {: .notice--info}
 
-Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+Assurez-vous que la console est proche de l'ordinateur qui exécute l'exploit, idéalement à moins de 1 mètre.
 {: .notice--info}
 
-### Requirements
+### Prérequis
 
-* A Linux machine
-    * A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
-    * If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
-    * Windows Subsystem for Linux or a Chromebook running Linux mode will *not work* as they don't have direct access to the Bluetooth adapter or USB ports.
+* Une machine Linux
+    * Une machine virtuelle peut fonctionner, mais elle n'est pas recommandée dû à la complexité à faire fonctionner le Bluetooth. Si possiblez, utilisez un LiveUSB comme décrit ci-dessous.
+    * Si vous avez un Raspberry Pi, vous pouvez l'utiliser vu qu'il est très probable que Linux soit déjà installé.
+    * Le sous-système Linux pour Windows ou un Chromebook en mode Linux ne *marcheront pas* vu qu'ils n'ont pas d'accès direct à l'adaptateur Bluetooth ou aux ports USB.
     * If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
         * 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
         * For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
