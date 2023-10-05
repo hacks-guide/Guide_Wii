@@ -15,7 +15,7 @@ Riivolution requires a working disk drive and a clean physical copy of the disk 
 
 ### Prérequis
 
-* A Wii
+* Une Wii
 * A USB drive or SD Card
 * The files for your desired mod
 * A clean physical copy of the disk the mod is for
