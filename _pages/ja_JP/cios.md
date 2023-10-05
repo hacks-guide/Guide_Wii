@@ -9,7 +9,7 @@ While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by
 If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting to install other cIOS on a Wii mini will not work.
 {: .notice--warning}
 
-### 必要条件
+### 必要なもの
 
 * A Wii
 * An SD card or USB drive
@@ -18,7 +18,7 @@ If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
 {: .notice--warning}
 
-### Instructions
+### 実行方法
 
 #### Section I - Downloading (Only required if your Wii doesn't have Internet)
 
