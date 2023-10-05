@@ -63,7 +63,7 @@ sidebar_pages:
     title: ホームブルーチャンネルとBootMiiのインストール
     url: hbc
   - 
-    title: Wii Miniでホームブルーチャンネルをインストールする
+    title: Homebrew Channelのインストール(Wii mini)
     url: hbc-mini
   - 
     title: BootMiiのバックアップ
