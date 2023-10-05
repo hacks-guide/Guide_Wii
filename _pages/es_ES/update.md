@@ -11,7 +11,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### Requisitos
 
-* An SD card or USB drive
+* Una tarjeta SD o unidad USB
 * A computer with Windows on it
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
 * [Priiloader](priiloader)
@@ -32,12 +32,12 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 1. Repeat steps 2-5 with `IOS` -> `000000010000003A` -> `Latest Version` and `IOS` -> `0000000100000050` -> `Latest Version`.
 1. After you have copied all 3 `.wad` files, eject your SD card/USB drive from your PC and put it back into your Wii.
 
-| Region | Wii Menu version |
+| Región | Wii Menu version |
 | ------ | ---------------- |
-| Japan  | v512 (4.3J)      |
+| Japón  | v512 (4.3J)      |
 | USA    | v513 (4.3U)      |
-| Europe | v514 (4.3E)      |
-| Korea  | v518 (4.3K)      |
+| Europa | v514 (4.3E)      |
+| Corea  | v518 (4.3K)      |
 
 #### Section II - Installing
 
