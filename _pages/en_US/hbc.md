@@ -19,39 +19,39 @@ You can always [install it later](hackmii).
 1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
     + You will see a scam warning screen.
 
-    ![Scam Screen](/images/hackmii/scam.png)
+    ![](/images/hackmii/scam.png)
 
 1. Wait 30 seconds for the text "Press 1 to continue" to appear, then press 1.
 1. Select `Continue`.
 
-    ![Results](/images/hackmii/test_results.png)
+    ![](/images/hackmii/test_results.png)
 
 1. Select `Install the Homebrew Channel`.
 
-    ![Homebrew Channel installation](/images/hackmii/hbc_install.png)
+    ![](/images/hackmii/hbc_install.png)
 
 1. Once it is completed, select `Continue`.
 
-    ![Homebrew Channel installation OK](/images/hackmii/hbc_install_ok.png)
+    ![](/images/hackmii/hbc_install_ok.png)
 
 1. Select `Back`, then select `BootMii`.
 
-    ![BootMii](/images/hackmii/bootmii_install.png)
+    ![](/images/hackmii/bootmii_install.png)
 
 1. Select `Install BootMii as IOS`.
 
-    ![BootMii installation](/images/hackmii/bootmii_install1.png)
+    ![](/images/hackmii/bootmii_install1.png)
 
-    ![BootMii SD card prompt](/images/hackmii/bootmii_install2.png)
+    ![](/images/hackmii/bootmii_install2.png)
 
-    ![BootMii SD card preparation](/images/hackmii/bootmii_install3.png)
+    ![](/images/hackmii/bootmii_install3.png)
 
-    ![BootMii installation OK](/images/hackmii/bootmii_install_ok.png)
+    ![](/images/hackmii/bootmii_install_ok.png)
 
 1. Once it is completed, select `Continue`.
 1. If you have the option to `Install BootMii as boot2`, please do so as well.
 
-    ![BootMii boot2 Installation](/images/hackmii/bootmii_install4.png)
+    ![](/images/hackmii/bootmii_install4.png)
 
 1. Select `Exit`.
 1. Your console will have booted into the Homebrew Channel.

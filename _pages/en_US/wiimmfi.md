@@ -27,7 +27,7 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 1. Hold the RESET button while turning on your Wii. If you are using a Wii mini, plug in a USB keyboard and hold Escape while turning it ON.
 1. You should see the Priiloader menu.
 
-    ![Menu](/images/Priiloader/mainmenu.jpg)
+    ![](/images/Priiloader/mainmenu.jpg)
 
 1. Go to `System Menu Hacks`.
     If you used a USB drive to install Priiloader, make sure you do not have an SD card inserted at the same time.
@@ -35,7 +35,7 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
     {: .notice--info}
 1. Make sure the `Wiimmfi patch v4` hack is enabled.
 
-    ![System Menu Hacks](/images/Priiloader/hacks.jpg)
+    ![](/images/Priiloader/hacks.jpg)
 
 1. Scroll to `Save Settings` and save your changes.
 1. Return to the main menu, and press `System Menu` to return to the Wii Menu.
@@ -104,7 +104,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 1. Insert your game disc.
 1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
 
-    ![DNS Settings for Wiimmfi x str2hax](/images/wiimmfi/dns-str2hax-wiimmfi.png)
+    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
 1. Let the connection test finish, and do not perform a Wii System Update.
 1. Go back twice to `Internet`, and press `User Agreements`. Then, confirm that you would like to use WC24 and the Wii Shop Channel.
