@@ -12,5 +12,5 @@ title: "寄付"
 {: .text-center}
 {: .notice--info}
 
-[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
+[サイトマップに移動する](site-navigation)
 {: .notice--info}
