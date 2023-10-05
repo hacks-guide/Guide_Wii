@@ -1,5 +1,5 @@
 ---
-title: "フラッシュハック"
+title: "FlashHax"
 ---
 
 {% include toc title="Table of Contents" %}
