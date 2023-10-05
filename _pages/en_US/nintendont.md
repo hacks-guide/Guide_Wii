@@ -39,16 +39,11 @@ Nintendont uses a user interface that is mainly controllable and navigable using
 
 #### Properly Launching Games
 
-Games in Nintendont have to be launched from an external device with a specific folder structure, with the usage of a game ID. Game IDs can be found on [GameTDB](https://www.gametdb.com).<br>
-The expected structure for single disc games is as follows:<br>
-`device:/games/(game name) [game ID]/game.iso`
+Games in Nintendont have to be launched from an external device with a specific folder structure, with the usage of a game ID. Game IDs can be found on [GameTDB](https://www.gametdb.com).<br> The expected structure for single disc games is as follows:<br> `device:/games/(game name) [game ID]/game.iso`
 
-The expected structure for multi disc games is as follows:<br>
-`device:/games/(game name) [game ID]/game.iso`<br>
-`device:/games/(game name) [game ID]/disc2.iso` (so on and so forth)
+The expected structure for multi disc games is as follows:<br> `device:/games/(game name) [game ID]/game.iso`<br> `device:/games/(game name) [game ID]/disc2.iso` (so on and so forth)
 
-Here is an example using The Legend of Zelda: The Wind Waker on a USB hard drive:<br>
-`USB:/games/The Legend of Zelda: The Wind Waker [GZLE01]/game.iso`
+Here is an example using The Legend of Zelda: The Wind Waker on a USB hard drive:<br> `USB:/games/The Legend of Zelda: The Wind Waker [GZLE01]/game.iso`
 
 #### BIOS Setup
 
@@ -64,23 +59,15 @@ By default, Nintendont selects a controller configuration from an internal list 
 
 #### Button combinations for Nintendont in-game
 
-Restart: Resets the game and returns to game's title screen.<br>
-Shutdown: Exits nintendont and returns to the loader.<br>
+Restart: Resets the game and returns to game's title screen.<br> Shutdown: Exits nintendont and returns to the loader.<br>
 
 Some games may have native button combinations to reset.
 
-**GameCube Controller:**<br>
-Restart: R+Z+Start<br>
-Shutdown: R+Z+B+Down (D-pad)
+**GameCube Controller:**<br> Restart: R+Z+Start<br> Shutdown: R+Z+B+Down (D-pad)
 
-**Wiimote + Nunchuck:**<br>
-Shutdown: HOME button on the Wiimote
+**Wiimote + Nunchuck:**<br> Shutdown: HOME button on the Wiimote
 
-**HID-USB controller or adapter:**<br>
-You can define the Shutdown button's combination yourself.<br>
-The Power button is defined in the controller.ini or in the correct controllers/PID_VID.ini file used by your gamepad.<br>
-Most commonly used combo with default HID settings:<br>
-Shutdown: L+R+Z+Start
+**HID-USB controller or adapter:**<br> You can define the Shutdown button's combination yourself.<br> The Power button is defined in the controller.ini or in the correct controllers/PID_VID.ini file used by your gamepad.<br> Most commonly used combo with default HID settings:<br> Shutdown: L+R+Z+Start
 
 [Click here to go back to the site index.](site-navigation)
 {: .notice--info}
