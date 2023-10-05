@@ -1,82 +1,82 @@
 ---
 main:
   - 
-    title: Home
+    title: ホーム
     url: /
   - 
-    title: Get Started
+    title: 始めに
     url: get-started
   - 
-    title: Site Navigation
+    title: サイトガイダンス
     url: site-navigation
   - 
-    title: FAQ
+    title: よくある質問
     url: faq
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: このサイトはユーザーが使いやすくなるようにクッキーを使います。
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: サポートが必要な場合は、<a href="https://discord.gg/MWxPgEp">ディスコード</a>でお問い合わせください。（英語のみ）
 footer:
   - 
-    title: Source
+    title: ソース
     url: https://github.com/hacks-guide/Guide_Wii
   - 
-    title: Site Navigation
+    title: サイトガイダンス
     url: site-navigation
   - 
-    title: Privacy Policy
+    title: プライバシーポリシー
     url: privacy-policy
   - 
-    title: Donations
+    title: 寄付
     url: donations
 sidebar_title:
   - 
-    title: Overall Progress
+    title: 進捗
 sidebar_pages:
   - 
-    title: Home
+    title: ホーム
     url: /
   - 
-    title: Get Started
+    title: 始めに
     url: get-started
   - 
-    title: LetterBomb
+    title: レターボム
     url: letterbomb
   - 
-    title: BlueBomb
+    title: ブルーボム
     url: bluebomb
   - 
-    title: FlashHax
+    title: フラッシュハック
     url: flashhax
   - 
     title: str2hax
     url: str2hax
   - 
-    title: Wilbrand
+    title: ウィーブランド
     url: wilbrand
   - 
-    title: Multiple Options
+    title: 選択肢
     url: multiple-options
   - 
-    title: Homebrew Channel and BootMii Installation
+    title: ホームブルーチャンネルとBootMiiのインストール
     url: hbc
   - 
-    title: Homebrew Channel - for Wii mini only
+    title: Wii Miniでホームブルーチャンネルをインストールする
     url: hbc-mini
   - 
-    title: BootMii Backup
+    title: BootMiiのバックアップ
     url: bootmii
   - 
     title: Priiloader
     url: priiloader
   - 
-    title: Open Shop Channel
+    title: オープンショップチャンネル
     url: osc
   - 
-    title: d2xl cIOS for Wii mini (experimental)
+    title: Wii Miniで使うd2xl cIOS（試験的）
     url: cios-mini
   - 
-    title: Wii mini NAND Dumper
+    title: Wii MiniのNANDダンパー
     url: wnd-mini
