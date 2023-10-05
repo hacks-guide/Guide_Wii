@@ -11,8 +11,8 @@ If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting
 
 ### Requisitos
 
-* A Wii
-* An SD card or USB drive
+* Un Wii
+* Una tarjeta SD o unidad USB
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
@@ -32,7 +32,7 @@ If you are not on Windows, you may download & run [this script](/assets/files/d2
 1. Insert your SD card or USB drive into your computer.
 1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 1. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
-1. Run `NUS Downloader.exe`.
+1. Ejecute `NUS Downloader.exe`.
 1. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
     + Ensure that "Pack WAD" is checked.
     + *Don't* check "Patch IOS". That is the cIOS Installer's job.
@@ -46,7 +46,7 @@ If you are not on Windows, you may download & run [this script](/assets/files/d2
 The WAD files should be on your SD card like this: ![offline IOS files](/images/cios/d2x_offline_ios.png)
 {: .notice--info}
 
-#### Section II - Installing
+#### Sección II - Instalando
 
 If `d2x-v11-beta1` isn't showing up, try select the cIOS base first, then check again. This can also happen if your SD card is locked.
 {: .notice--info}
