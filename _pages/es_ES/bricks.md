@@ -87,135 +87,135 @@ Si estás en pleno proceso de cambio de región, utiliza [ARC-ME](https://github
 ## Bloqueo de banner
 
 #### Síntomas
-Al intentar arrancar la Wii, aparece la pantalla de salud y seguridad y, al pulsar A, la pantalla continúa normalmente; sin embargo, pasado este punto, no ocurre nada y la Wii permanece en una pantalla negra. Esto ocurre después de instalar una WAD y reiniciar o volver al menú de Wii. Alternativamente, todavía se puede acceder al menú de Wii, pero al abrir el canal corrupto la consola se congela. In some cases, you may see the "System files are corrupted" screen.
+Al intentar arrancar la Wii, aparece la pantalla de salud y seguridad y, al pulsar A, la pantalla continúa normalmente; sin embargo, pasado este punto, no ocurre nada y la Wii permanece en una pantalla negra. Esto ocurre después de instalar una WAD y reiniciar o volver al menú de Wii. Alternativamente, todavía se puede acceder al menú de Wii, pero al abrir el canal corrupto la consola se congela. En algunos casos, es posible que aparezca la pantalla "Los archivos de sistema están dañados".
 
-![System files are corrupted](/images/bricks/sysfiles-corrupted.jpg)
+![Los archivos de sistema están dañados](/images/bricks/sysfiles-corrupted.jpg)
 
 #### Causas
-Banner bricks occur if you install a WAD file that has an invalid Wii Menu banner or icon.
+Los bloqueos de banner ocurren si instalas un archivo WAD que tiene un banner o icono del menú de Wii inválido.
 
 #### Soluciones
-If you are somehow able to still access the Wii Menu, go into the Homebrew Channel and use [YAWM ModMii Edition](yawmme) or your current WAD manager to uninstall the corrupt channel.
+Si de algún modo todavía puedes acceder al menú de Wii, entra en el Canal Homebrew y utiliza [YAWM ModMii Edition](yawmme) o tu gestor de WAD actual para desinstalar el canal corrupto.
 
-If you cannot access the Wii Menu, and have [Priiloader](priiloader) installed, enter it by holding RESET while turning your Wii on. Select Homebrew Channel, then uninstall the corrupt channel.
+Si no puedes acceder al menú de Wii pero tienes [Priiloader](priiloader) instalado, entra en él manteniendo pulsado RESET mientras enciendes la Wii. Selecciona Canal Homebrew y desinstala el canal corrupto.
 
-If you don't have or can't access Priiloader, Maintenance mode may be worth a try. Hold down `+` and `-` on the Health and Safety screen (do not press `A`!).
+Si no tienes o no puedes acceder a Priiloader, puede valerte el modo de mantenimiento. Mantén pulsados `+` y `-` en la pantalla de salud y seguridad (no pulses `A`).
 
-## Theme brick
+## Bloqueo de tema
 
 #### Síntomas
 
-Al intentar arrancar la Wii, aparece la pantalla de salud y seguridad y, al pulsar A, la pantalla continúa normalmente; sin embargo, pasado este punto, no ocurre nada y la Wii permanece en una pantalla negra. This happened after installing a theme.
+Al intentar arrancar la Wii, aparece la pantalla de salud y seguridad y, al pulsar A, la pantalla continúa normalmente; sin embargo, pasado este punto, no ocurre nada y la Wii permanece en una pantalla negra. Ocurre después de instalar un tema.
 
 #### Causas
-A theme brick occurs when a wrongly formatted theme is installed.
+El bloqueo de tema se produce cuando se instala un tema con un formato incorrecto.
 
 #### Soluciones
-To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access MyMenuifyMod to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
+Para resolver este problema, abre el Canal Homebrew a través de Priiloader o BootMii en el boot2 y accede a MyMenuifyMod para instalar un tema predefinido como, por ejemplo, el tema de base del menú de Wii. Como alternativa, entra en [YAWM ModMii Edition](yawmme) e instala la WAD del menú de Wii por defecto CORRECTO para tu región y versión.
 
-## Mail brick
-
-#### Síntomas
-Al intentar arrancar la Wii, aparece la pantalla de salud y seguridad y, al pulsar A, la pantalla continúa normalmente; sin embargo, pasado este punto, no ocurre nada y la Wii permanece en una pantalla negra. Maintenence mode is still accessible.
-
-#### Causas
-A mail brick occurs when a Wii has too much mail to handle, or when malformed mail is in the Wii Message Board, causing a crash upon booting through normal means. Because the Wii Message Board is always drawn below Wii channels, this causes the Wii Menu to fail before fully loading.
-
-#### Solution
-By entering holding + and - on the warning screen, Maintenence mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed and the system menu is at Wii menu version 2.0 or later, follow [str2hax](str2hax). Otherwise, see [Bluebomb](bluebomb).
-
-From here, the Homebrew Channel can be loaded and the brick can be fixed by deleting Wii Message Board data with [cdbackup](https://oscwii.org/library/app/cdbackup).
-
-## Wii Menu/Opera brick
+## Bloqueo de correo
 
 #### Síntomas
-When starting the Wii, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` This will happen every time you start the Wii, and cannot be bypassed in any other means.
+Al intentar arrancar la Wii, aparece la pantalla de salud y seguridad y, al pulsar A, la pantalla continúa normalmente; sin embargo, pasado este punto, no ocurre nada y la Wii permanece en una pantalla negra. El modo de mantenimiento es accesible.
 
 #### Causas
-This brick is a more fatal version of a [Semibrick](#semibrick). If your SYSCONF gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
+Un bloqueo de correo ocurre cuando una Wii tiene demasiados mensajes, o cuando hay correo malformado en el tablón de la Wii, causando un bloqueo al arrancar de forma normal. Como el tablón de Wii siempre se carga debajo de los canales, provoca que el menú de Wii falle antes de cargarse por completo.
 
-However, the setup pages are in a similar location to the Wii settings pages. If you have an incorrect region Wii Menu or theme, the Wii cannot find them.
+#### Soluciones
+Si mantienes pulsado + y - en la pantalla de advertencia, podrás entrar en el modo de mantenimiento, en el cual el tablón de Wii no se carga. Si el Canal Homebrew no está instalado y el menú del sistema está en la versión 2.0 o posterior del menú de Wii, sigue [str2hax](str2hax). En caso contrario, consulta [Bluebomb](bluebomb).
 
-![Wii menu brick](/images/bricks/sysmenu-brick.png)
+Desde aquí, se puede cargar el Canal Homebrew y arreglar el bloqueo borrando los datos del tablón de Wii con [cdbackup](https://oscwii.org/library/app/cdbackup).
+
+## Bloqueo del menú de Wii / Opera
+
+#### Síntomas
+Al iniciar la Wii, aparece un error del navegador web Opera del tipo `You tried to access the address (URL), which is currently unavailable.` Esto ocurrirá cada vez que enciendas la Wii, y no se puede evitar de ninguna otra forma.
+
+#### Causas
+Este bloqueo es una versión más grave de un [semibloqueo](#semibrick). Si el SYSCONF está corrupto o dañado, la Wii lo regenerará e iniciará la fase de configuración.
+
+Sin embargo, las páginas de la configuración inicial se encuentran en una ubicación similar a las páginas de Configuración de Wii. Si tienes un menú Wii o un tema de una región incorrecta, la consola Wii no podrá encontrarlos.
+
+![Bloqueo del menú de Wii](/images/bricks/sysmenu-brick.png)
 
 #### Soluciones
 
-If you still have [Priiloader](priiloader), use it to enter the Homebrew Channel and re-install the original theme file/original Wii Menu.
+Si aún tienes [Priiloader](priiloader), úsalo para entrar en el Canal Homebrew y volver a instalar el archivo de tema original/menú de Wii original.
 
-In case you do not have Priiloader or your Wii is not modded, you can try [BlueBomb](bluebomb).
+En caso de que no tengas Priiloader o tu Wii no esté modificada, puedes probar [BlueBomb](bluebomb).
 
-Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
+Alternativamente, puedes usar el [modo de recuperación](recovery-mode) para intentar arreglarlo.
 
-## Korean Kii/Error 003 Brick
+## Bloqueo Korean Kii/Error 003
 
 #### Síntomas
-Screen shows up as listed below on normal boot.
+La pantalla se muestra como se indica a continuación en el arranque normal.
 
 `Error:003`<br> `unauthorized device has been detected.`<br>
 
 ![Error 003](/images/bricks/error-003.png)
 
 #### Causas
-When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. While obviously this failed, they also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. If this check succeeds, the error triggers and the Wii is effectively bricked.
+Al publicar la Wii en Corea, Nintendo cambió la clave de cifrado de estas consolas como un último esfuerzo para impedir el homebrew. Aunque evidentemente no funcionó, también dejaron una verificación en las versiones 4.2/4.3 del menú del sistema para determinar si la clave coreana está presente en las consolas que **no sean** coreanas. Si la verificación es correcta, se activa el error y la Wii queda bloqueada.
 
-This is usually an immediate follow-up to a Wii System Update on an unsuspecting region-changed Korean Wii.
+Suele ser lo que sigue inmediatamente a una actualización de la consola Wii en una Wii coreana de región cambiada.
 
 #### Soluciones
-Since this brick most often occurs after the Wii Menu updates, Priiloader will not be present.
+Como este bloqueo suele producirse después de las actualizaciones del menú de Wii, Priiloader no se encontrará presente.
 
-Korean Wiis also released with Wii Menu 3.3, around the time that Nintendo [fixed the Trucha bug in boot1](https://wiibrew.org/wiki/3.3#Changes), so BootMii as Boot2 cannot be installed to or used on any Korean Wii.
+Las Wii coreanas también salieron a la venta con la versión 3.3 del menú de Wii, más o menos cuando Nintendo [corrigió el error Trucha en el boot1](https://wiibrew.org/wiki/3.3#Changes), por lo que BootMii como Boot2 no se puede instalar ni usar en ninguna Wii coreana.
 
-While these caveats leave the Wii in a particularly dangerous situation, **it is still fixable**. This involves going into [Recovery Mode](recovery-mode), where an exploit can be triggered in order to gain access to the Homebrew Channel and revert the conditions that caused the brick.
+Aunque estos inconvenientes dejan a la Wii en una situación especialmente peligrosa, **aún tiene arreglo**. Esto implica entrar en [modo de recuperación](recovery-mode), donde se puede activar un exploit para acceder al Canal Homebrew y revertir las condiciones que causaron el bloqueo.
 
-## IOS brick
+## Bloqueo de IOS
 
 #### Síntomas
-This brick will appear identical to a low-level brick due to a Wii Menu failure via IOS; however there is not a full low-level NAND corruption, or a low-level hardware failure.
+Este bloqueo parecerá idéntico a uno total debido a un fallo del menú de Wii a través de la IOS; sin embargo, no existe una corrupción total de la NAND ni un fallo de hardware de bajo nivel.
 
 #### Causas
-This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS). This is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](wi-fi-brick).
+Este bloqueo suele ocurrir cuando la IOS del menú de Wii es un [stub](http://wiibrew.org/wiki/Stub_IOS). Esto suele ser consecuencia de intentar desactualizar el menú de la Wii. Si este error empieza a producirse después de instalar una IOS80 normal en una Wii mini, consulta el [blockeo de wifi](wi-fi-brick).
 
 #### Soluciones
-[Recovery mode](recovery-mode) may or may not be accessible due to the nature of the brick, but Priiloader will almost always not work. If you cannot reach recovery mode, you must have BootMii as boot2 to fix this. If these conditions are not met, see [low-level brick](bricks#low-level-brick).
+El [modo de recuperación](recovery-mode) puede ser accesible o no a causa de la naturaleza del bloqueo, pero Priiloader no funcionará en la mayoría de los casos. Si no puedes llegar al modo de recuperación, debes tener BootMii como boot2 para solucionarlo. Si no se cumplen estas condiciones, consulta el [bloqueo de bajo nivel](bricks#low-level-brick).
 
-You can either restore a NAND backup, or do this:
+Puedes o restaurar una copia de seguridad de la NAND, o hacer esto:
 
-1. Use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to pack a WAD of your original Wii Menu.
-1. Use BootMii to enter the Homebrew Channel, and use a WAD manager to install the Wii Menu WAD.
+1. Utiliza [NUS Downloader](https://wiibrew.org/wiki/NUSD) para crear una WAD de tu menú de Wii original.
+1. Utiliza BootMii para entrar en el Canal Homebrew, y utiliza un gestor de WAD para instalar la WAD del menú de Wii.
 
-## Wi-Fi brick
+## Bloqueo de wifi
 
 #### Síntomas
-This brick appears identical to a low-level brick, however you can still power on the Wii with a Wiimote, and you can still boot into Recovery Mode on an original revision Wii.
+Este bloqueo parece idéntico a un bloqueo de bajo nivel, pero puedes encender la Wii con un mando de Wii e iniciar el modo de recuperación en una Wii de la versión original.
 
 #### Causas
-This brick arises when your Wii's Wi-Fi (or Bluetooth) module is damaged or not inserted properly. In such cases, the Wii gets stuck on a black screen while awaiting a response from IOS.
+Este problema surge cuando el módulo wifi (o Bluetooth) de la Wii se estropea o no está bien insertado. En estos casos, la Wii se queda atascada en una pantalla negra mientras espera una respuesta de la IOS.
 
-This will also happen on the Wii mini if you install a normal Wii IOS, because the Wii mini doesn't have a Wi-Fi module.
+Esto también ocurrirá en la Wii mini si instalas una IOS para la Wii normal, porque la Wii mini no tiene un módulo wifi.
 
 #### Soluciones
-To resolve this problem, you can try to reseat or replace the Wi-Fi/Bluetooth module.
+Para resolver este problema, puedes intentar volver a colocar o sustituir el módulo wifi/Bluetooth.
 
-If you are on a Wii mini, you must install a Wi-Fi module.
+Si tienes una Wii mini, deberás instalar un módulo wifi.
 
-If both fail, see [low-level brick](bricks#low-level-brick).
+Si ambos fallan, consulta el [bloqueo de bajo nivel](bricks#low-level-brick).
 
-## Low-level brick
+## Bloqueo de bajo nivel
 
 #### Síntomas
-Completely black screen, no response to user input. Recovery Mode cannot be booted, neither can BootMii as boot2 (or it never existed in the first place), for all intents and purposes the console appears dead.
+Pantalla completamente negra, sin respuesta a la intervención del usuario. El modo de recuperación no se puede arrancar, tampoco BootMii como boot2 (o nunca ha existido en primer lugar), prácticamente la consola parece estar muerta.
 
 #### Causas
-This brick occurs when boot1/boot2 is corrupt, or if there is a hardware failure.
+Este bloqueo se produce cuando boot1/boot2 está dañado, o si hay un fallo de hardware.
 
 #### Soluciones
-First, troubleshooting must be done to determine if hardware is at fault. In the order listed, do the following:
+En primer lugar, se debe determinar si el culpable es el hardware. En el orden indicado, haz lo siguiente:
 
-+ Test to make sure that your Wii actually still functions (it accepts discs as normal, spins up correctly, Wiimotes connect) before attempting the following steps. If this is the case and only video is not being displayed, you may have an exceptionally rare failure of the video port or the GPU.
-+ If on a Wii mini, and if a normal IOS80 was installed, see [Wi-Fi brick](wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
-+ Attempt to boot into [Recovery Mode](recovery-mode) (normal Wiis only). If the Wii boots into Recovery Mode, see [Wi-Fi brick](wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
-+ Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
-+ At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.
++ Asegúrate de que la consola Wii sigue funcionando (acepta discos con normalidad, el lector gira correctamente y los mandos de Wii se conectan) antes de seguir los siguientes pasos. Si este es el caso y solo es el vídeo el que no aparece, puede que tengas un fallo muy raro en el puerto de vídeo o en la GPU.
++ Si estás en una Wii mini, y has instalado una IOS80 normal, consulta el [bloqueo de wifi](wi-fi-brick). Si los pasos para resolver el bloqueo de wifi no funcionan, continúa.
++ Intentar arrancar en modo [recuperación](recovery-mode) (solo Wiis normales). Si la Wii arranca en modo de recuperación, consulta el [bloqueo de wifi](wi-fi-brick). Si los pasos para resolver el bloqueo de wifi no funcionan, continúa.
++ Vuelve a colocar la unidad de disco e intenta arrancar normalmente. Si sigue sin funcionar, sustituye el lector de discos. Si sigue sin funcionar, continúa.
++ Llegados a este punto, o hay una corrupción de bajo nivel en boot0/boot1, un fallo del chip de la NAND, o un fallo de hardware en general desconocido. Pide ayuda en línea o compra otra Wii.
 
 [Haz clic aquí para volver al índice del sitio.](site-navigation)
 {: .notice--info}
