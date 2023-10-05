@@ -1,5 +1,5 @@
 ---
-title: "Site Navigation"
+title: "Seitennavigation"
 layout: single
 sitemap: false
 ---
@@ -7,7 +7,7 @@ sitemap: false
 {% capture notice-1 %}
 **Site**
 + [Home](/)
-+ [Get Started](get-started)
++ [Erste Schritte](get-started)
 + [FAQ](faq)
 + [Donations](donations)
 {% endcapture %}
