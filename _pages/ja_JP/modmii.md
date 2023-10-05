@@ -114,5 +114,5 @@ When following one of the exploit guides above, avoid replacing the `boot.elf` f
 
 </details>
 
-[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
+[サイトマップに移動する](site-navigation)
 {: .notice--info}
