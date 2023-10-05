@@ -39,5 +39,5 @@ YAWM ModMii Edition is an application that can install WADs and launch homebrew 
 
     ![Installing WAD OK](/images/homebrew/yawmME/installing_wad_ok.png)
 
-[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
+[サイトマップに移動する](site-navigation)
 {: .notice--info}
