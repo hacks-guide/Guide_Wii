@@ -35,7 +35,7 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 #### Section II - Installing Priiloader
 
 1. Power on your console.
-1. Launch the Homebrew Channel.
+1. Starte den Homebrewkanal.
 1. Launch Priiloader installer from the list of homebrew.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
 
