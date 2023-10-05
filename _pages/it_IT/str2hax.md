@@ -28,67 +28,67 @@ Se hai installato una mod come CTGP Revolution o Project+, str2hax potrebbe cari
 
 #### Sezione I - Connessione
 
-This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
+Questo exploit richiede di reimpostare il tuo DNS in modo da connettersi a un server che contiene i dati dell'exploit.
 
-1. Power on your console.
-1. Go to `Wii Options`.
+1. Accendi la console.
+1. Vai su `Opzioni Wii`.
 
-    ![Wii Options](/images/riiconnect24/Internet_1.png)
+    ![Opzioni Wii](/images/riiconnect24/Internet_1.png)
 
-1. Go to `Wii Settings`.
+1. Vai su `Impostazioni Console Wii`.
 
-    ![Wii Settings](/images/riiconnect24/Internet_2.png)
+    ![Impostazioni Console Wii](/images/riiconnect24/Internet_2.png)
 
-1. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
+1. Naviga su `Pagina 2`-> `Internet` -> `Impostazioni di Connessione`.
 
     ![Internet](/images/riiconnect24/Internet_3.png)
 
-    ![Connection Settings](/images/riiconnect24/Internet_4.png)
+    ![Impostazioni di Connessione](/images/riiconnect24/Internet_4.png)
 
-1. Click on your network connection slot and navigate to `Change Settings`.
+1. Clicca sul tuo slot connessione corrente, e vai su `Modifica Impostazioni`.
 
-    ![Current Connection](/images/riiconnect24/Internet_5.png)
+    ![Connessione corrente](/images/riiconnect24/Internet_5.png)
 
-    ![Change Settings](/images/riiconnect24/Internet_6.png)
+    ![Modifica Impostazioni](/images/riiconnect24/Internet_6.png)
 
-1. Set `Auto-Obtain DNS` to `No`, then click `Advanced Settings`.
+1. Imposta `Ottieni DNS Automaticamente` su `No`, poi clicca su `Impostazioni Avanzate`.
 
-    ![Auto-Obtain DNS](/images/riiconnect24/Internet_7.png)
+    ![Ottieni DNS Automaticamente](/images/riiconnect24/Internet_7.png)
 
-1. Set the Primary DNS to `18.188.135.9`.
+1. Imposta il DNS Primario a `18.188.135.9`.
 
     ![str2hax DNS](/images/exploits/str2hax/dns.png)
 
-    If there are 3 fields instead of 2 (like above), go back and make sure you are on the `Auto-Obtain DNS` page.
+    Se ci sono 3 campi invece di 2 (come sopra), torna indietro e assicurati di essere nella pagina `Ottieni DNS Automaticamente`.
     {: .notice--warning}
 
-1. Click `Confirm`, then click `Save`.
+1. Seleziona `Conferma`, poi seleziona `Salva`.
 
-    ![Save DNS](/images/riiconnect24/Internet_10.png)
+    ![Salva DNS](/images/riiconnect24/Internet_10.png)
 
-1. When prompted, click `OK` to perform the connection test.
+1. Nella schermata che segue, clicca su `OK` per eseguire la prova di connessione.
 
-    ![Connection Test](/images/riiconnect24/Internet_11.png)
+    ![Prova di Connessione](/images/riiconnect24/Internet_11.png)
 
-    ![Connection Test Successful](/images/riiconnect24/Internet_12.png)
+    ![Prova di Connessione riuscita](/images/riiconnect24/Internet_12.png)
 
-    + If the connection test was successful, select `No` to skip the Wii System Update.
-    + If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
-    + If it is still unsuccessful, please [use another exploit](get-started).
+    + Se la prova di connessione è andata a buon fine, seleziona `No` per rifiutare l'aggiornamento di sistema.
+    + Se la prova di connessione fallisce con un codice di errore nella forma `521xx`, torna indietro e verifica di avere inserito il DNS corretto.
+    + Se il DNS è corretto e la prova continua a fallire, per favore [utilizza un altro exploit](get-started).
 
-#### Section II - Triggering the Exploit
+#### Sezione II - Attivazione dell'Exploit
 
-1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
-1. Select `Yes`.
-1. Click on `Next`.
-    + You should be greeted with the following screen:
+1. Naviga su `Internet` -> `Accordi Utente` oppure `Accordi/Contratto`.
+1. Seleziona `Si`.
+1. Clicca su `Continua`.
+    + Dovrebbe apparire la seguente schermata:
 
-    ![str2hax EULA page](/images/exploits/str2hax/EULA.png)
+    ![str2hax pagina EULA](/images/exploits/str2hax/EULA.png)
 
-1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Dai all'exploit 1-2 minuti per scaricare i file necessari (e non premere `ACCETTO`/`NON ACCETTO`).
+1. Se l'exploit è andato a buon fine, ti ritroverai dentro l'HackMii Installer.
 
     ![HackMii Installer scam screen](/images/hackmii/scam.png)
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Prosegui all'Installazione del Canale Homebrew e di Bootmii](hbc)
 {: .notice--info}
