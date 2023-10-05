@@ -4,28 +4,28 @@ title: "FlashHax"
 
 {% include toc title="Table of Contents" %}
 
-FlashHax is an exploit for the Wii that is triggered by using the Internet Channel. Unlike other exploits, this doesn't require an SD card.
+FlashHax est un exploit pour la Wii qui est déclenché par l'utilisation de la chaîne Internet. Contrairement aux autres exploits, il ne nécessite pas de carte SD.
 
-### Requirements
+### Prérequis
 
-* A Wii with an Internet connection
-* The Internet Channel
+* Une Wii avec une connexion Internet
+* La chaîne Internet
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Préparation
 
-1. Power on your console.
-1. Launch the Internet Channel.
+1. Allumez votre console.
+1. Lancez la chaîne Internet.
 
     ![Internet Channel Wii Menu](/images/exploits/flashhax/internet-channel-start.png)
 
-1. Go to `flashhax.com`.
-1. Select the correct region for your console.
+1. Allez sur `flashhax.com`.
+1. Sélectionnez la bonne région pour votre console.
 
     ![Flashhax Region Select](/images/exploits/flashhax/select-region.png)
 
-1. Press the star button to open the bookmark tab.
+1. Appuyez sur le bouton étoile pour ouvrir l'onglet Signets.
 1. Select `Add Favorite`.
 
     ![Bookmark Flashhax](/images/exploits/flashhax/bookmark-page.png)
@@ -34,19 +34,19 @@ FlashHax is an exploit for the Wii that is triggered by using the Internet Chann
 #### Section II - FlashHax
 
 1. Open the site from the bookmark
-1. Wait a while
+1. Attendez un peu
     + It may take some time as it is downloading the installer over the Internet.
 
     ![Downloading Flashhax](/images/exploits/flashhax/wait-for-download.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Si l'exploit a réussi, votre appareil aura chargé l'installateur HackMii.
     + This may take multiple tries.
     + If the HackMii Installer doesn't load and it instead freezes (you can't move your cursor), restart your Wii, launch the Internet Channel, then retry this section.
 
 If you still can't get it to load, try deleting your cookies or save data for the Internet Channel.
 
-If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
+Si après plusieurs essais, Flashhax ne fonctionne toujours pas, considérez d'essayer un [exploit différent](get-started) à la place.
 
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continuer vers la chaîne Homebrew et l'installation de BootMii](hbc)
 {: .notice--info}
