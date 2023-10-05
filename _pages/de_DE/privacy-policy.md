@@ -1,12 +1,12 @@
 ---
-title: "Privacy Policy"
+title: "Datenschutzerklärung"
 ---
 
 ### Cookies
 
-This site utilizes cookies in order to facilitate routing users through the guide instructions. Cookies allow for the sidebar of the page to display current progress through the site to help users navigate the instructions more easily.
+Diese Webseite verwendet Cookies, um Benutzern die Navigation durch die Anleitung zu erleichtern. Cookies ermöglichen es der Leiste an der Seite der Webseite, den aktuellen Fortschritt auf der Website anzuzeigen, damit es Benutzern leichter fällt sich in der Anleitung zurechtzufinden.
 
-### Embedded Content From Other Websites
+### Eingebettete Inhalte von anderen Internetseiten
 
 This site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves as if the user has visited the other website.
 
