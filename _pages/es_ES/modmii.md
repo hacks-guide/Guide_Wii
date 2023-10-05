@@ -20,8 +20,8 @@ Some advanced options may not be accessible in ModMii Skin. A list of the featur
 
 ### Requisitos
 
-* A Wii
-* A USB drive or SD Card
+* Un Wii
+* Una unidad USB o tarjeta SD
 * A Windows PC (a Virtual Machine will work)
 * [ModMii](https://modmii.github.io/)
 
