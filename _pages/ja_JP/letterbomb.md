@@ -1,5 +1,5 @@
 ---
-title: "レターボム"
+title: "LetterBomb"
 ---
 
 {% include toc title="Table of Contents" %}
