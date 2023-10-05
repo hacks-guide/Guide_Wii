@@ -1,5 +1,5 @@
 ---
-title: "サイトガイダンス"
+title: "サイトマップ"
 layout: single
 sitemap: false
 ---
@@ -7,7 +7,7 @@ sitemap: false
 {% capture notice-1 %}
 **Site**
 + [ホーム](/)
-+ [始めに](get-started)
++ [はじめに](get-started)
 + [よくある質問](faq)
 + [Donations](donations)
 {% endcapture %}
@@ -23,10 +23,10 @@ sitemap: false
 
 {% capture notice-3 %}
 **Modding 101 - Exploits**
-+ [ブルーボム](bluebomb)
-+ [フラッシュハック](flashhax)
++ [BlueBomb](bluebomb)
++ [FlashHax](flashhax)
 + [Legacy Exploits](legacy-exploits)
-+ [レターボム](letterbomb)
++ [LetterBomb](letterbomb)
 + [str2hax](str2hax)
 + [Wilbrand](wilbrand)
 {% endcapture %}
@@ -34,14 +34,14 @@ sitemap: false
 
 {% capture notice-4 %}
 **Modding 101 - Wii Essentials**
-+ [BootMiiのバックアップ](bootmii)
++ [NANDのバックアップ(BootMii)](bootmii)
 + [BootMii Recovery](bootmiirecover)
 + [Brick Overview](bricks)
 + [Brick Prevention](bricks#brick-prevention)
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
-+ [オープンショップチャンネル](osc)
++ [Open Shop Channel](osc)
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)
