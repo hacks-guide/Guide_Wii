@@ -47,25 +47,25 @@ Ce guide vise à faire ce qui suit, y compris les sections facultatives :
 ### Que dois-je savoir avant de commencer?
 
 + Homebrew est 100% gratuit, et le processus de modification de votre Wii est également gratuit. Quiconque essaie de vous convaincre du contraire tente probablement de [vous arnaquer](https://hbc.hackmii.com/scam).
-+ This guide works on all system menu versions depending on the exploit, but **it is recommended that you update to 4.3 (the latest firmware)** if possible.
-+ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered, nor is the Wii U's vWii.
-+ Depending on what you intend to do with your modded Wii, you may have to make some modifications to the system memory that have a risk of bricking (rendering the console inoperable). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
-+ The differences between the Wii and Wii mini are quite significant. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Tread carefully if you are planning to mod one!
-+ Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).
++ Ce guide fonctionne sur toutes les versions du menu du système en fonction de l'exploit, mais **il est recommandé de mettre à jour vers la 4.3 (la dernière version du système) ** si possible.
++ **Ce guide s’applique UNIQUEMENT aux Wiis pour les consommateurs !** Cela veut dire que les consoles dédiées au développement ne sont pas couvert, pas plus que la vWii de la Wii U.
++ Selon ce que vous avez l'intention de faire avec votre Wii moddée, vous devrez peut-être apporter quelques modifications à la mémoire du système qui ont un risque de briquage (rendre la console inopérante). Tant que vous suivez ce guide correctement, vous devriez être bien, mais pour des conseils généralistes sur la prévention de briques, vous pouvez voir [cette page](bricks#brick-prevention).
++ Les différences entre la Wii et la Wii mini sont assez significatives. Cela signifie que dans certains cas, quelque chose qui est normalement inoffensif pour la Wii pourrait causer un [brique sévère](bricks#wi-fi-brick) pour la Wii Mini. Faites donc preuve de prudence si vous prévoyez d'en modder une!
++ Soyez également très prudent si vous moddez une [Wii Coréenne](bricks#korean-kiierror-003-brick).
 
-### Ready?
+### Prêt(e) ?
 
-The guide has nine sections in total. These are listed below:
+Le guide compte neuf sections au total. Celles-ci sont listées ci-dessous:
 
-1. Choosing and using an exploit (REQUIRED)
-1. Installing the Homebrew Channel and BootMii (REQUIRED)
-1. Making a NAND backup with BootMii (REQUIRED)
-1. Installing Priiloader (REQUIRED)
-1. Installing the Open Shop Channel (RECOMMENDED)
-1. Installing cIOS (RECOMMENDED)
-1. Discovering Recommended Homebrew (RECOMMENDED)
-1. Regaining WiiConnect24 Functionality (OPTIONAL)
-1. Regaining Nintendo Wi-Fi Connection Functionality (OPTIONAL)
+1. Choisir et utiliser un exploit (REQUIS)
+1. Installation de la chaîne Homebrew et de BootMii (REQUIS)
+1. Faire une sauvegarde de la NAND avec BootMii (REQUIS)
+1. Installation de Priiloader (REQUIS)
+1. Installation de l'Open Shop Channel (RECOMMANDÉ)
+1. Installation des cIOS (RECOMMANDÉ)
+1. Découvrir les Homebrews recommandés (RECOMMANDÉ)
+1. Re-gagner l'accès aux fonctionnalités de WiiConnect24 (OPTIONNEL)
+1. Re-gagner l'accès aux fonctionnalités du Nintendo Wi-Fi Connection (OPTIONNEL)
 
-Continue to [Get Started](get-started)
+Continuez vers [Pour démarrer](get-started)
 {: .notice--info}
