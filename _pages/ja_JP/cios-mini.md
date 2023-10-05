@@ -1,10 +1,10 @@
 ---
-title: "d2xl cIOS for Wii mini (experimental)"
+title: "Wii Miniで使うd2xl cIOS（試験的）"
 ---
 
 {% include toc title="Table of Contents" %}
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+チュートリアル中に質問があったら、[ディスコード](https://discord.gg/6ryxnkS)でお問い合わせください。
 {: .notice--info}
 
 While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
@@ -18,7 +18,7 @@ Do not attempt to install a Wii IOS or System Menu on the Wii mini. Doing so wil
 This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBaol and custom cIOS was created by Leseratte for the Wii mini. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Please note that this cIOS is still experimental, though no problem with functionality has been reported.
 {: .notice--info}
 
-### Requirements
+### 必要条件
 
 * A Wii mini with the Homebrew Channel installed
 * A USB drive
@@ -61,5 +61,5 @@ If you wish to use Wiimmfi with Ethernet on a Wii mini, you have to run the [Eth
 The Wii and Wii mini consoles are only known to work with Ethernet adapters using the AX88772 chip. Please check that the product is compatible before you buy. This one from UGREEN is known to be compatible: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
 {: .notice--info}
