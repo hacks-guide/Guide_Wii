@@ -18,7 +18,7 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 ### Requisitos
 
-* An SD card or USB drive
+* Una tarjeta SD o unidad USB
 * [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
 * [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
@@ -39,7 +39,7 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 1. Launch Priiloader installer from the list of homebrew.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
 
-    ![Install Priiloader](/images/priiloader/installer.png)
+    ![Instalar Priiloader](/images/priiloader/installer.png)
 
     ![Installing](/images/priiloader/installing.png)
 
@@ -134,7 +134,7 @@ If you would like to autoboot USB loader GX, do this first:
 You will be installing `uneoboot.dol` in step 3.
 </div>
 
-1. Launch the Homebrew Channel
+1. Inicia el Canal Homebrew
 1. Launch Load Priiloader from the list of homebrew.
 1. Scroll down to `Load/Install file` and press A.
 
@@ -166,7 +166,7 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 
 ##### Autobooting the Homebrew Channel or Priiloader
 
-1. Launch the Homebrew Channel
+1. Inicia el Canal Homebrew
 1. Launch Load Priiloader from the list of homebrew.
 1. Scroll down to `Settings` and press A.
 
