@@ -1,45 +1,45 @@
 ---
 main:
   - 
-    title: Home
+    title: Acceuil
     url: /
   - 
-    title: Get Started
+    title: Démarrer
     url: get-started
   - 
-    title: Site Navigation
+    title: Navigation du site
     url: site-navigation
   - 
     title: FAQ
     url: faq
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: Ce site web utilise des cookies pour afficher la progression sur la barre latérale et sinon améliorer le site.
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: Pour du soutien en Anglais, demander de l'aide sur <a href="https://discord.gg/MWxPgEp">le serveur Discord de Nintendo Homebrew</a>.
 footer:
   - 
     title: Source
     url: https://github.com/hacks-guide/Guide_Wii
   - 
-    title: Site Navigation
+    title: Index du site
     url: site-navigation
   - 
-    title: Privacy Policy
+    title: Politique de confidentialité
     url: privacy-policy
   - 
-    title: Donations
+    title: Faire un don
     url: donations
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Progression globale
 sidebar_pages:
   - 
-    title: Home
+    title: Accueil
     url: /
   - 
-    title: Get Started
+    title: Démarrer
     url: get-started
   - 
     title: LetterBomb
@@ -57,26 +57,26 @@ sidebar_pages:
     title: Wilbrand
     url: wilbrand
   - 
-    title: Multiple Options
+    title: Options multiples
     url: multiple-options
   - 
-    title: Homebrew Channel and BootMii Installation
+    title: Installation de la chaine Homebrew et BootMii
     url: hbc
   - 
-    title: Homebrew Channel - for Wii mini only
+    title: Chaine Homebrew - pour Wii mini seulement
     url: hbc-mini
   - 
-    title: BootMii Backup
+    title: Sauvegarde avec Bootmii
     url: bootmii
   - 
     title: Priiloader
     url: priiloader
   - 
-    title: Open Shop Channel
+    title: Chaine Open Shop
     url: osc
   - 
-    title: d2xl cIOS for Wii mini (experimental)
+    title: d2xl cIOS pour Wii mini (experimental)
     url: cios-mini
   - 
-    title: Wii mini NAND Dumper
+    title: Dump NAND Wii mini
     url: wnd-mini
