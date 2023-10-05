@@ -24,12 +24,12 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 #### Instructions
 
-1. Power on your console.
-1. Go to `Wii Settings`.
+1. Allumez votre console.
+1. Allez sur `Paramètres Wii`.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Cette lettre est la région du menu système, que vous devrez connaître pour les étapes qui en ont besoin.
 
-    ![Wii Region](/images/wii/SystemMenuVersion.png)
+    ![Région de la Wii](/images/wii/SystemMenuVersion.png)
 
 1. Navigate to `Internet` > `Console Information`.
 1. Take note of your FULL MAC address.
@@ -57,7 +57,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Si l'exploit a réussi, votre console aura chargé l'installeur HackMii.
     + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started) (ie. Letterbomb).
 
 [Continuer vers la chaîne Homebrew et l'installation de BootMii](hbc)
@@ -78,12 +78,12 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 #### Instructions
 
-1. Power on your console.
-1. Go to `Wii Settings`.
+1. Allumez votre console.
+1. Allez sur `Paramètres Wii`.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Cette lettre est la région du menu système, que vous devrez connaître pour les étapes qui en ont besoin.
 
-    ![Wii Region](/images/wii/SystemMenuVersion.png)
+    ![Région de la Wii](/images/wii/SystemMenuVersion.png)
 
 1. Navigate to `Internet` > `Console Information`.
 1. Take note of your FULL MAC address.
@@ -119,7 +119,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Si l'exploit a réussi, votre console aura chargé l'installeur HackMii.
 
 [Continuer vers la chaîne Homebrew et l'installation de BootMii](hbc)
 {: .notice--info}
