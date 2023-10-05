@@ -19,9 +19,9 @@ If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.o
 {: .notice--info}
 
 1. Éteignez votre console.
-1. Insert your SD card or USB drive into your computer.
+1. Insérez votre carte SD ou votre clé USB dans votre ordinateur.
 1. Copy the `apps` folder from the CleanRip `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
+1. Insérez votre carte SD ou votre clé USB dans votre ordinateur.
 1. Allumez votre console.
 1. Lancez la Chaîne Homebrew.
 1. Launch CleanRip from the list of homebrew.
@@ -68,7 +68,7 @@ Your Wii and your computer must be connected to the same local network.
 {: .notice--warning}
 
 1. Copy the `DVDDumpTool` folder from the DVDDumpTool `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
+1. Insérez votre carte SD ou votre clé USB dans votre ordinateur.
 1. Allumez votre console.
 1. Lancez la Chaîne Homebrew.
 1. Launch DVD Dump Tool from the list of homebrew.
