@@ -77,7 +77,7 @@ A method for Wiimmfi patching which runs on retail disc games, but must be manua
 
 #### Prérequis
 
-+ An SD card or USB drive
++ Une carte SD ou une clé USB
 + [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
 
 #### Instructions
