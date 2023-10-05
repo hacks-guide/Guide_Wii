@@ -6,7 +6,7 @@ header:
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Nintendo Wii (and Wii mini)."
+excerpt: "The complete guide to modding your Wii (and Wii mini)."
 ---
 
 Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
@@ -61,9 +61,9 @@ The guide has nine sections in total. These are listed below:
 1. Installing the Homebrew Channel and BootMii (REQUIRED)
 1. Making a NAND backup with BootMii (REQUIRED)
 1. Installing Priiloader (REQUIRED)
-1. Installing the Open Shop Channel (REQUIRED)
-1. Installing cIOS (OPTIONAL)
-1. Discovering Recommended Homebrew (OPTIONAL)
+1. Installing the Open Shop Channel (RECOMMENDED)
+1. Installing cIOS (RECOMMENDED)
+1. Discovering Recommended Homebrew (RECOMMENDED)
 1. Regaining WiiConnect24 Functionality (OPTIONAL)
 1. Regaining Nintendo Wi-Fi Connection Functionality (OPTIONAL)
 
