@@ -1,13 +1,13 @@
 ---
-title: "Site Navigation"
+title: "Navigazione del Sito"
 layout: single
 sitemap: false
 ---
 
 {% capture notice-1 %}
 **Site**
-+ [Home](/)
-+ [Get Started](get-started)
++ [Menu Principale](/)
++ [Per Iniziare](per-iniziare)
 + [FAQ](faq)
 + [Donations](donations)
 {% endcapture %}
