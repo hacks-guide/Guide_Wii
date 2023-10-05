@@ -106,5 +106,5 @@ On each cIOS that you try to install, you will first be shown a grid of active I
 
         ![Install cIOS 251](/images/cios/d2x_v11_251.png)
 
-[Continue to Recommended Homebrew](recommended-homebrew)<br> This guide outlines selections of homebrew that we think are useful to have; these range from utilities to emulators and more.
+Continue to [Open Shop Channel Installation](osc) Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 {: .notice--info}
