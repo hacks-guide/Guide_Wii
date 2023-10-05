@@ -1,5 +1,5 @@
 ---
-title: "ウィーブランド"
+title: "Wilbrand"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -70,7 +70,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 * A computer running Windows, macOS or Linux
 * An SD card formatted to FAT32/MS-DOS (FAT)
 * A Wii on version 3.0 or newer
-* [ウィーブランド](https://static.wiidatabase.de/Wilbrand.zip)
+* [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
