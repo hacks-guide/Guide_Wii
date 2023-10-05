@@ -39,5 +39,5 @@ Turn off your Wii, then hold down the RESET button down and turn on your Wii. Yo
 Simply enter the Homebrew Channel, and use your WAD manager to uninstall the WAD.
 </div>
 
-[Click here to go back to the site index.](site-navigation)
+[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
 {: .notice--info}
