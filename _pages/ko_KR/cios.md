@@ -2,23 +2,23 @@
 title: "cIOS"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
 If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting to install other cIOS on a Wii mini will not work.
 {: .notice--warning}
 
-### Requirements
+### 준비물
 
 * A Wii
-* An SD card or USB drive
+* SD 카드 또는 USB 드라이브
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
 {: .notice--warning}
 
-### Instructions
+### 진행 방법
 
 #### Section I - Downloading (Only required if your Wii doesn't have Internet)
 
@@ -28,7 +28,7 @@ If your Wii has an Internet connection, you may skip this section.<br> However, 
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
 
-1. Power off your console.
+1. 콘솔의 전원을 꺼 주세요.
 1. Insert your SD card or USB drive into your computer.
 1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 1. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
@@ -56,8 +56,8 @@ On each cIOS that you try to install, you will first be shown a grid of active I
 
 1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
-1. Launch the Homebrew Channel.
+1. 콘솔의 전원을 켜 주세요.
+1. Homebrew Channel을 실행해 주세요.
 1. Launch d2x cIOS Installer from the list of homebrew.
 1. When asked what IOS you would like to use, select IOS 58.
     + This should work in nearly all cases.
