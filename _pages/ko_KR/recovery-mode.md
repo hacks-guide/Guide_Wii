@@ -2,13 +2,13 @@
 title: "Recovery Mode"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 Recovery Mode is a last resort method for recovering your Wii console from a brick before resorting to hard-modding and manual NAND programming. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated in the present with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc, including some retail games. This guide will instruct you on how to recover from bricks (especially Korean Kii/Error 003) with it.
 
-#### Requirements
+#### 준비물
 
-+ A GameCube controller
++ GameCube 컨트롤러
 + If the Diagnostic Disc Check was previously removed with Priiloader, or if a drive chip is on hand:
     + Super Smash Bros. Melee ([Smash Stack](legacy-exploits#smash-stack)) OR
     + Any other exploited Wii game, with the current exploit game save on the console (see [Legacy Exploits](legacy-exploits)) OR
@@ -38,5 +38,5 @@ Under Construction
 [Return to Bricks](bricks)
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다.](site-navigation)
 {: .notice--info}
