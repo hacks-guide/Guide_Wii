@@ -2,7 +2,7 @@
 title: "Open Shop Channel"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
 {: .notice--primary}
@@ -13,13 +13,13 @@ There are two methods to use the Open Shop Channel: on your Wii through the Home
 
 ### Method I - Homebrew Browser
 
-#### Requirements
+#### 준비물
 
 + A Windows/macOS/Linux computer with an internet connection
-+ An SD card or USB drive
++ SD 카드 또는 USB 드라이브
 + [The Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
-#### Instructions
+#### 진행 방법
 
 1. Download the reccomended `.zip` file from the Open Shop Channel website.
 
@@ -30,10 +30,10 @@ There are two methods to use the Open Shop Channel: on your Wii through the Home
 
 ### Method II - OSCDL
 
-#### Requirements
+#### 준비물
 
 + A Windows/macOS/Linux computer with an internet connection
-+ An SD card or USB drive
++ SD 카드 또는 USB 드라이브
 + The latest version of [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)
 
 #### Instructions for Windows
