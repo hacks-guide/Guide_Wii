@@ -34,5 +34,5 @@ Make sure your USB drive is formatted as FAT32. Do not format it as other types 
 Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size.
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
 {: .notice--info}
