@@ -2,7 +2,7 @@
 title: "RiiConnect24"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 For support (in English) with RiiConnect24, as well as RiiTag, join [RiiConnect24 on Discord](https://discord.gg/rc24).
 {: .notice--primary}
@@ -15,18 +15,18 @@ It's recommended to set your Wii to the current time before proceeding. Follow [
 DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick the system.
 {: .notice--danger}
 
-### Requirements
+### 준비물
 
 If you are on vWii, you will also need [Priiloader](priiloader) installed with the WC24 hacks.
 {: .notice--primary}
 
-+ An SD card or USB drive
++ SD 카드 또는 USB 드라이브
 + A Wii with an Internet connection
 + A PC with an Internet connection
 + [RiiConnect24 Patcher (Windows, Mac and Linux)](https://github.com/riiconnect24/RiiConnect24-Patcher/releases)
 + [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Instructions
+### 진행 방법
 
 #### Section I - Using RiiConnect24 Patcher
 
@@ -134,5 +134,5 @@ You will now set your DNS to RiiConnect24 servers. This is optional but recommen
 [Return to WiiConnect24](wiiconnect24)
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다.](site-navigation)
 {: .notice--info}
