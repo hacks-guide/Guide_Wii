@@ -48,11 +48,11 @@ A continuación encontrarás una pequeña sección con una lista de pasos simila
 + No pasa nada, pantalla negra, PERO BootMii en el boot2 es accesible. Se trata de un [bloqueo de IOS](bricks#ios-brick).
 + Error 003. Se trata de un [bloqueo de Korean Kii/Error 003](bricks#error-003-brick).
 + La Wii arranca, PERO INSTANTANEAMENTE aparece un error similar al del navegador web Opera. Se trata de un [bloqueo del menú de Wii / Opera](bricks#wii-menuopera-brick).
-+ La Wii arranca, ves la pantalla de salud y seguridad, pero al pulsar A para arrancar, la pantalla se queda en negro y/o se congela y no continúa. El modo de mantenimiento es accesible. Se trata de un [bloqueo del correo](bricks#mail-brick).
++ La Wii arranca, ves la pantalla de salud y seguridad, pero al pulsar A para arrancar, la pantalla se queda en negro y/o se congela y no continúa. Maintenance mode is accessible. Se trata de un [bloqueo del correo](bricks#mail-brick).
 + La Wii arranca, ves la pantalla de salud y seguridad, pero al pulsar A para arrancar, ves una pantalla negra.
     + Si esto ocurre después de instalar un tema, se trata de un [bloqueo de tema](bricks#theme-brick).
     + Si esto ocurre después de instalar una WAD, se trata de un [bloqueo de banner](bricks#banner-brick).
-    + Si ha empezado a ocurrir de la nada, y puedes acceder al modo de mantenimiento manteniendo pulsado +/- en la pantalla de salud y seguridad, se trata de un [bloqueo del correo](bricks#mail-brick).
+    + If this randomly started happening, and you can access Maintenance Mode by holding +/- on the health/warning screen, see [mail brick](bricks#mail-brick).
 + La Wii se inicia y avanza hasta el menú de Wii.
     + Si después de acceder a un canal en concreto, ves `Los archivos de sistema están dañados.`, se trata de un [bloqueo de banner](bricks#banner-brick).
     + Si al acceder a la Configuración de Wii, aparece un error similar al del navegador web Opera, se trata de un [semibloqueo](bricks#semibrick).
@@ -116,20 +116,20 @@ Para resolver este problema, abre el Canal Homebrew a través de Priiloader o Bo
 ## Bloqueo de correo
 
 #### Síntomas
-Al intentar arrancar la Wii, aparece la pantalla de salud y seguridad y, al pulsar A, la pantalla continúa normalmente; sin embargo, pasado este punto, no ocurre nada y la Wii permanece en una pantalla negra. El modo de mantenimiento es accesible.
+Al intentar arrancar la Wii, aparece la pantalla de salud y seguridad y, al pulsar A, la pantalla continúa normalmente; sin embargo, pasado este punto, no ocurre nada y la Wii permanece en una pantalla negra. Maintenance mode is still accessible.
 
 #### Causas
 Un bloqueo de correo ocurre cuando una Wii tiene demasiados mensajes, o cuando hay correo malformado en el tablón de la Wii, causando un bloqueo al arrancar de forma normal. Como el tablón de Wii siempre se carga debajo de los canales, provoca que el menú de Wii falle antes de cargarse por completo.
 
 #### Soluciones
-Si mantienes pulsado + y - en la pantalla de advertencia, podrás entrar en el modo de mantenimiento, en el cual el tablón de Wii no se carga. Si el Canal Homebrew no está instalado y el menú del sistema está en la versión 2.0 o posterior del menú de Wii, sigue [str2hax](str2hax). En caso contrario, consulta [Bluebomb](bluebomb).
+By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. Si el Canal Homebrew no está instalado y el menú del sistema está en la versión 2.0 o posterior del menú de Wii, sigue [str2hax](str2hax). En caso contrario, consulta [Bluebomb](bluebomb).
 
 Desde aquí, se puede cargar el Canal Homebrew y arreglar el bloqueo borrando los datos del tablón de Wii con [cdbackup](https://oscwii.org/library/app/cdbackup).
 
 ## Bloqueo del menú de Wii / Opera
 
 #### Síntomas
-Al iniciar la Wii, aparece un error del navegador web Opera del tipo `You tried to access the address (URL), which is currently unavailable.` Esto ocurrirá cada vez que enciendas la Wii, y no se puede evitar de ninguna otra forma.
+When starting the Wii, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` This will happen every time you start the Wii, and cannot be bypassed by any other means.
 
 #### Causas
 Este bloqueo es una versión más grave de un [semibloqueo](#semibrick). Si el SYSCONF está corrupto o dañado, la Wii lo regenerará e iniciará la fase de configuración.
