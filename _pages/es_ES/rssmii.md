@@ -64,5 +64,5 @@ If you're not receiving updates after a few days, you might need to subscribe to
 1. Delete the `feeds.xml` file on the root of your SD card.
 1. Launch RSSMii Remover from the Homebrew Channel. It will remove your subscriptions to the RSS feeds.
 
-[Click here to go back to the site index.](site-navigation)
+[Haz clic aquí para volver al índice del sitio.](site-navigation)
 {: .notice--info}
