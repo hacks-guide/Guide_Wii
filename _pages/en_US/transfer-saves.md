@@ -137,15 +137,19 @@ Unfortunately, you can only select one at a time, so you must repeat the last st
 <div id="dol" class="tabcontent" markdown="1">
 
 {% capture dolphin-user-folder %}
+
 `<User Folder>` refers to the folder opened by the `File -> Open User Folder` menu option.
 ![Dolphin user folder](/images/dolphin/dolphin-user-folder.png)
 {: .notice--info}
+
 {% endcapture %}
 
 {% capture dolphin-emu-memcard-manager %}
+
 If Dolphin is set to use a `.raw` memory card, use `Tools > Memory Card Manager` to export your desired saves to `.gci`.
 ![Dolphin Emualator Memory Card Manager](/images/homebrew/gcsaves/dolphin-emu-memcard-manager.png)
 {: .notice--info}
+
 {% endcapture %}
 
 All methods here assume you have the [latest Beta or Development version of Dolphin Emulator](https://dolphin-emu.org/download).
