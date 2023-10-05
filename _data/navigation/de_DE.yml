@@ -4,10 +4,10 @@ main:
     title: Home
     url: /
   - 
-    title: Get Started
+    title: Erste Schritte
     url: get-started
   - 
-    title: Site Navigation
+    title: Seitennavigation
     url: site-navigation
   - 
     title: FAQ
@@ -23,7 +23,7 @@ footer:
     title: Source
     url: https://github.com/hacks-guide/Guide_Wii
   - 
-    title: Site Navigation
+    title: Seitennavigation
     url: site-navigation
   - 
     title: Privacy Policy
@@ -39,7 +39,7 @@ sidebar_pages:
     title: Home
     url: /
   - 
-    title: Get Started
+    title: Erste Schritte
     url: get-started
   - 
     title: LetterBomb
