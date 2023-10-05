@@ -18,7 +18,7 @@ ModMii is a PC program for Windows created by XFlak that has various helpful too
 Some advanced options may not be accessible in ModMii Skin. A list of the features available in ModMii Classic can be found at the bottom of the page.
 {: .notice--info}
 
-### Requirements
+### 必要条件
 
 * A Wii
 * A USB drive or SD Card
@@ -114,5 +114,5 @@ When following one of the exploit guides above, avoid replacing the `boot.elf` f
 
 </details>
 
-[Click here to go back to the site index.](site-navigation)
+[サイトガイダンスに戻るためにはここをクリックしてください。](site-navigation)
 {: .notice--info}
