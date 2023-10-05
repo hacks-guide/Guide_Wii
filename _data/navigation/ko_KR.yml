@@ -4,7 +4,7 @@ main:
     title: Home
     url: /
   - 
-    title: Get Started
+    title: 시작하기
     url: get-started
   - 
     title: Site Navigation
@@ -74,9 +74,6 @@ sidebar_pages:
   - 
     title: Open Shop Channel
     url: osc
-  - 
-    title: d2xl cIOS for Wii mini (experimental)
-    url: cios-mini
   - 
     title: d2xl cIOS for Wii mini (experimental)
     url: cios-mini
