@@ -48,11 +48,11 @@ Here is a small section that lists out steps similar to the Wii boot process, an
 + Nothing happens, black screen, BUT BootMii as boot2 is accessible. See [IOS brick](bricks#ios-brick).
 + Error 003. See [Korean Kii/Error 003 brick](bricks#error-003-brick).
 + Wii starts, BUT you INSTANTLY see an error that resembles the Opera web browser. See [Wii Menu/Opera brick](bricks#wii-menuopera-brick).
-+ Wii starts, you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. Maintenence mode is accessible. See [mail brick](bricks#mail-brick).
++ Wii starts, you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. Maintenance mode is accessible. See [mail brick](bricks#mail-brick).
 + Wii starts, you see the health/warning screen, but upon pressing A to start, you see a black screen.
     + If this happened after installing a theme, see [theme brick](bricks#theme-brick).
     + If this happened after installing a WAD, see [banner brick](bricks#banner-brick).
-    + If this randomly started happening, and you can access Maintenence Mode by holding +/- on the health/warning screen, see [mail brick](bricks#mail-brick).
+    + If this randomly started happening, and you can access Maintenance Mode by holding +/- on the health/warning screen, see [mail brick](bricks#mail-brick).
 + Wii starts, and progresses to the Wii Menu.
     + If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick)
     + If after accessing the Wii settings, you see an error that resembles the Opera web browser, see [semibrick](bricks#semibrick).
@@ -116,20 +116,20 @@ To resolve this issue, open HBC through Priiloader or BootMii as boot2 and acces
 ## Mail brick
 
 #### Symptoms
-Attempt to start the Wii - warning/press A screen shows up, and when A is pressed, the screen passes normally; however, beyond this point, nothing happens and the Wii remains on a black screen. Maintenence mode is still accessible.
+Attempt to start the Wii - warning/press A screen shows up, and when A is pressed, the screen passes normally; however, beyond this point, nothing happens and the Wii remains on a black screen. Maintenance mode is still accessible.
 
 #### Cause
 A mail brick occurs when a Wii has too much mail to handle, or when malformed mail is in the Wii Message Board, causing a crash upon booting through normal means. Because the Wii Message Board is always drawn below Wii channels, this causes the Wii Menu to fail before fully loading.
 
 #### Solution
-By entering holding + and - on the warning screen, Maintenence mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed and the system menu is at Wii menu version 2.0 or later, follow [str2hax](str2hax). Otherwise, see [Bluebomb](bluebomb).
+By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed and the system menu is at Wii menu version 2.0 or later, follow [str2hax](str2hax). Otherwise, see [Bluebomb](bluebomb).
 
 From here, the Homebrew Channel can be loaded and the brick can be fixed by deleting Wii Message Board data with [cdbackup](https://oscwii.org/library/app/cdbackup).
 
 ## Wii Menu/Opera brick
 
 #### Symptoms
-When starting the Wii, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` This will happen every time you start the Wii, and cannot be bypassed in any other means.
+When starting the Wii, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` This will happen every time you start the Wii, and cannot be bypassed by any other means.
 
 #### Cause
 This brick is a more fatal version of a [Semibrick](#semibrick). If your SYSCONF gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
