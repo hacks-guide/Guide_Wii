@@ -39,7 +39,7 @@ This guide aims to do the following, including optional sections:
 + Modify your Wii using one of many exploits, with the end goal of reaching the HackMii installer
 + Install BootMii and the Homebrew Channel
 + Make a backup of critical system files
-+ Install Priiloader
++ Instalar Priiloader
 + Install the Open Shop Channel
 + Recommended homebrew to use on your Wii
 + Restore functionality to WiiConnect24 and Nintendo Wi-Fi Connection
