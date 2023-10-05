@@ -1,21 +1,21 @@
 ---
-title: "Site Navigation"
+title: "Navigation du site"
 layout: single
 sitemap: false
 ---
 
 {% capture notice-1 %}
 **Site**
-+ [Home](/)
-+ [Get Started](get-started)
++ [Accueil](/)
++ [Démarrer](get-started)
 + [FAQ](faq)
 + [Donations](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**Wii Online Services**
-+ [Nintendo Wi-Fi Connection](wiimmfi)
+**Services en ligne Wii**
++ [Connexion Wi-Fi Nintendo](wiimmfi)
 + [Setting RTC Time](wiiconnect24#updating-rtc-clock)
 + [WiiConnect24](wiiconnect24)
 {% endcapture %}
@@ -45,7 +45,7 @@ sitemap: false
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)
-+ [Wii Mini NAND Dumper](wnd-mini)
++ [Dump NAND Wii mini](wnd-mini)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
