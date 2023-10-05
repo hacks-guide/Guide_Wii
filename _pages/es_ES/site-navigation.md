@@ -1,14 +1,14 @@
 ---
-title: "Site Navigation"
+title: "Navegación del sitio"
 layout: single
 sitemap: false
 ---
 
 {% capture notice-1 %}
 **Site**
-+ [Home](/)
-+ [Get Started](get-started)
-+ [FAQ](faq)
++ [Inicio](/)
++ [Comenzar](get-started)
++ [Preguntas frecuentes](faq)
 + [Donations](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -34,7 +34,7 @@ sitemap: false
 
 {% capture notice-4 %}
 **Modding 101 - Wii Essentials**
-+ [BootMii Backup](bootmii)
++ [Copia de seguridad de BootMii](bootmii)
 + [BootMii Recovery](bootmiirecover)
 + [Brick Overview](bricks)
 + [Brick Prevention](bricks#brick-prevention)
