@@ -17,7 +17,7 @@ Preventing a brick involves many rules that range between common sense and fail-
 + **Only install updates for your own region!**.
     + Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
 + **Do NOT delete or modify system files, and do NOT install any system file mods unless you know what you are doing!
-    + An example of modifying files going wrong is replacing IOS80 on Wii Mini, which may result in a [Wi-Fi Brick](bricks#wi-fi-brick).
+    + An example of modifying files going wrong is replacing IOS80 on Wii mini, which may result in a [Wi-Fi Brick](bricks#wi-fi-brick).
 + **Do NOT install homebrew from untrustworthy sources or if the source code is not available.**
     + Software on the [Open Shop Channel](osc) is safe.
     + There have been incidents of malicious software being developed for the Wii in the past, while other apps are just badly developed. Make sure that you know what you are installing, and only install what you need.
@@ -173,7 +173,7 @@ While these caveats leave the Wii in a particularly dangerous situation, **it is
 This brick will appear identical to a low-level brick due to a Wii Menu failure via IOS; however there is not a full low-level NAND corruption, or a low-level hardware failure.
 
 #### Cause
-This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS). This is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii Mini, see [Wi-Fi brick](wi-fi-brick).
+This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS). This is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](wi-fi-brick).
 
 #### Solutions
 [Recovery mode](recovery-mode) may or may not be accessible due to the nature of the brick, but Priiloader will almost always not work. If you cannot reach recovery mode, you must have BootMii as boot2 to fix this. If these conditions are not met, see [low-level brick](bricks#low-level-brick).
@@ -191,12 +191,12 @@ This brick appears identical to a low-level brick, however you can still power o
 #### Cause
 This brick arises when your Wii's Wi-Fi (or Bluetooth) module is damaged or not inserted properly. In such cases, the Wii gets stuck on a black screen while awaiting a response from IOS.
 
-This will also happen on the Wii Mini if you install a normal Wii IOS, because the Wii Mini doesn't have a Wi-Fi module.
+This will also happen on the Wii mini if you install a normal Wii IOS, because the Wii mini doesn't have a Wi-Fi module.
 
 #### Solutions
 To resolve this problem, you can try to reseat or replace the Wi-Fi/Bluetooth module.
 
-If you are on a Wii Mini, you must install a Wi-Fi module.
+If you are on a Wii mini, you must install a Wi-Fi module.
 
 If both fail, see [low-level brick](bricks#low-level-brick).
 
@@ -212,7 +212,7 @@ This brick occurs when boot1/boot2 is corrupt, or if there is a hardware failure
 First, troubleshooting must be done to determine if hardware is at fault. In the order listed, do the following:
 
 + Test to make sure that your Wii actually still functions (it accepts discs as normal, spins up correctly, Wiimotes connect) before attempting the following steps. If this is the case and only video is not being displayed, you may have an exceptionally rare failure of the video port or the GPU.
-+ If on a Wii Mini, and if a normal IOS80 was installed, see [Wi-Fi brick](wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
++ If on a Wii mini, and if a normal IOS80 was installed, see [Wi-Fi brick](wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
 + Attempt to boot into [Recovery Mode](recovery-mode) (normal Wiis only). If the Wii boots into Recovery Mode, see [Wi-Fi brick](wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
 + Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
 + At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.
