@@ -2,7 +2,7 @@
 title: "ModMii"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="목차" %}
 
 If you need help for anything regarding this tutorial, please join [the ModMii Discord server](https://discord.gg/cMnBRACQwQ).
 {: .notice--info}
