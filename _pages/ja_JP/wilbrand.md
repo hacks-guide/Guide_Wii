@@ -25,9 +25,9 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 #### 実行方法
 
 1. Wiiの電源を入れます。
-1. Go to `Wii Settings`.
+1. `Wii設定`に進みます。
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + これはシステムメニュー領域に対応しており、後ほど実行する手順に必要となります。
 
     ![Wii Region](/images/wii/SystemMenuVersion.png)
 
@@ -57,7 +57,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 成功すると、WiiはHackMiiインストーラーをロードします。
     + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started) (ie. Letterbomb).
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
@@ -79,9 +79,9 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 #### 実行方法
 
 1. Wiiの電源を入れます。
-1. Go to `Wii Settings`.
+1. `Wii設定`に進みます。
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + これはシステムメニュー領域に対応しており、後ほど実行する手順に必要となります。
 
     ![Wii Region](/images/wii/SystemMenuVersion.png)
 
@@ -119,7 +119,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 成功すると、WiiはHackMiiインストーラーをロードします。
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}
