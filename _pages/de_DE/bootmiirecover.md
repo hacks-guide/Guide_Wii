@@ -1,10 +1,10 @@
 ---
-title: "BootMii Recovery"
+title: "BootMii-Wiederherstellung"
 ---
 
 {% include toc title="Table of Contents" %}
 
-This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
+Diese Anleitung gibt Anweisungen, wie man ein Backup deines NAND mit BootMii wiederherstellen kann. Bitte beachte, dass dies in der Regel die <strong>letzte</strong> Methode ist, um einen Brick zu reparieren, falls du einen hast und wenn es dein Problem nicht behebt, musst du eventuell nach Unterstützung suchen. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
 
 If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
 {: .notice--info}
@@ -41,9 +41,9 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ### Instructions
 
-1. Launch the Homebrew Channel.
+1. Starte den Homebrewkanal.
 1. Press the HOME Button, then select "Launch BootMii".
-1. Select the Options button (the icon with the gears).
+1. Wähle den Optionen-Button (das Icon mit dem Zahnrad).
 
     ![BootMii_Gears_Icon](/images/BootMii/BootMii_Gears_Icon.png)
 
