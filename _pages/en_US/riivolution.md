@@ -44,6 +44,7 @@ Do not get confused with the actual Riivolution app, and the Riivolution folder 
 
 <details id="Riivolution-Files" class="notice--info" markdown="1">
 <summary><a>Click here for an example file structure.</a></summary>
+
 ```
 💾sd:
  ┣ 📂apps
