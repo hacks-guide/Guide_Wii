@@ -20,8 +20,8 @@ DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick th
 If you are on vWii, you will also need [Priiloader](priiloader) installed with the WC24 hacks.
 {: .notice--primary}
 
-+ An SD card or USB drive
-+ A Wii with an Internet connection
++ Una tarjeta SD o unidad USB
++ Un Wii con una conexión Internet
 + A PC with an Internet connection
 + [RiiConnect24 Patcher (Windows, Mac and Linux)](https://github.com/riiconnect24/RiiConnect24-Patcher/releases)
 + [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
