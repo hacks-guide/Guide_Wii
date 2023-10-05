@@ -1,14 +1,14 @@
 ---
-title: "Site Navigation"
+title: "사이트 탐색"
 layout: single
 sitemap: false
 ---
 
 {% capture notice-1 %}
 **Site**
-+ [Home](/)
++ [홈페이지](/)
 + [시작하기](get-started)
-+ [FAQ](faq)
++ [자주 묻는 질문](faq)
 + [Donations](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
