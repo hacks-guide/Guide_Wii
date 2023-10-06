@@ -2,7 +2,7 @@
 title: "Erste Schritte"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
 It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and install many types of homebrew.
 {: .notice--info}
