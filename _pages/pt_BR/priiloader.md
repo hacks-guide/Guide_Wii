@@ -4,85 +4,85 @@ title: "Priiloader"
 
 {% include toc title="Sumário" %}
 
-Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also enable hacks for your Wii Menu, and be used to quickly launch the Homebrew Channel, BootMii, or whatever homebrew you want.
+O Priiloader adiciona um nível de proteção contra brick ao seu Wii. Ele inicia antes do Menu do Wii (daí o nome). A ferramenta também pode habilitar hacks para seu Menu do Wii e ser usada para iniciar rapidamente o Homebrew Channel, BootMii ou qualquer homebrew que você quiser.
 
-### Installing Priiloader
+### Instalando o Priiloader
 
 {% capture notice-vwii-priiloader %}
-Priiloader 0.10.0 introduces vWii support! <br> There are some important things to take note of:
+Priiloader 0.10.0 introduz suporte ao vWii! <br> There are some important things to take note of:
 + To fix the timestamp issues (FORE000006, wrong News Channel update time), you will need to [generate a timestamp fix hack](https://garyodernichts.github.io/priiloader-patch-gen/) (more information on the page).
-+ Installing a theme after installing Priiloader **will brick your vWii.**
++ Instalar um tema após a instalação do Priiloader **irá brick seu vWii.**
 {% endcapture %}
 
 <!--div class="notice--success" markdown="1">{{ notice-vwii-priiloader }} </div-->
 
 ### Requisitos
 
-* An SD card or USB drive
-* [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
-* [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
+* Um cartão SD ou um armazenamento USB
+* [Priiloader Installer](https://oscwii.org/library/app/priiloader) (arquivo `.zip` file)
+* [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (arquivo `.zip` file)
 
 ### Instruções
 
-#### Section I - Prep Work
+#### Seção I - Preparação
 
 1. Desligue seu console.
-1. Insert your SD card or USB drive into your computer.
-1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
-1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
+1. Insira seu cartão SD ou armazenamento USB no seu computador.
+1. Copie a pasta `apps` do LoadPriiloader `.zip` para a raiz do seu cartão SD ou armazenamento USB.
+1. Copie a pasta `apps` do priiloader `.zip` para a raiz do seu cartão SD ou armazenamento USB.
+1. Reinsira seu cartão SD ou armazenamento USB no seu console.
 
-#### Section II - Installing Priiloader
+#### Seção II - Instalando o Priiloader
 
 1. Ligue o seu console.
 1. Abra o Homebrew Channel.
-1. Launch Priiloader installer from the list of homebrew.
-1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
+1. Inicie o instalador do Priiloader da lista de homebrew.
+1. Pressione o botão + no Wii Remote ou o botão A em um controle do GameCube.
 
     ![](/images/priiloader/installer.png)
 
     ![](/images/priiloader/installing.png)
 
-1. Press A to return to the Homebrew Channel.
+1. Pressione A para retornar ao canal do Homebrew.
 
-#### Section III - Entering Priiloader
+#### Seção III - Entrando no Priiloader
 
-Priiloader will appear automatically after you install it. Simply exit the Homebrew Channel, and you should see the Priiloader menu:
+O Priiloader aparecerá automaticamente após você instalá-lo. Simplesmente saia do Homebrew Channel, e você deve ver o menu do Priiloader:
 
 ![](/images/priiloader/menu.png)
 
-To enter it later on, simply run the "Load Priiloader" homebrew app. There are also other ways to enter Priiloader:
+Para entrar mais tarde, simplesmente execute o homebrew "Load Priiloader". Há também outras maneiras de entrar no Priiloader:
 
-+ Holding RESET on a Wii while turning it on
-+ Holding the ESC key on a USB keyboard while turning on the console
++ Segurando RESET em um Wii ao ligá-lo
++ Segurar a tecla ESC em um teclado USB enquanto ativa o console
 
-### Configuring Priiloader
+### Configurando Priiloader
 
-#### System Menu Hacks
+#### Hacks do Menu do Sistema
 
-1. Open the Homebrew Channel.
-1. Launch "Load Priiloader" from the list of homebrew.
-1. Scroll down to `System Menu Hacks` and press `A`.
+1. Abra o Homebrew Channel.
+1. Abra o "Load Priiloader" da lista de homebrew.
+1. Role para baixo até `System Menu Hacks` e pressione `A`.
 
     ![](/images/priiloader/menu_hacks.png)
 
-    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br> Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
+    Se você colocou o instalador do Priiloader na unidade USB, certifique-se de que não possui um cartão SD inserido ao mesmo tempo. <br> Fazer isso fará com que o Priiloader não encontre o arquivo `hacks_hash.ini`.
     {: .notice--warning}
 
-1. Press `A` on each hack you would like to enable.
-    + It is advised to enable "Block Disc Updates", "Block Online Updates", and "Region Free EVERYTHING".
+1. Pressione `A` em cada hack que você gostaria de ativar.
+    + É recomendável ativar "Block Disc Updates", "Block Online Updates" e "Region Free EVERYTHING".
 
     ![](/images/priiloader/system_menu_hacks.png)
 
-1. Scroll down to `save settings` and press A.
-1. Press `B` to return to the main menu.
+1. Role até `save settings` e pressione A.
+1. Pressione `B` para retornar ao menu principal.
 
 <details id="system-menu-hacks-list" class="notice--info" markdown="1">
-<summary><a>Click here for a full list of available System menu hacks.</a></summary>
+<summary><a>Clique aqui para obter uma lista completa de hacks do menu do sistema disponíveis.</a></summary>
 
-| Hack                                      | Description                                                                                                                                                                           |
+| Hack                                      | Descrição                                                                                                                                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Block Disc Updates                        | Removes the "Wii System Update" screen included with some games that forces you to update the system before playing the game.                                                         |
+| Bloquear Atualizações de Disco            | Remove a tela de "Wii System Update" incluída em alguns jogos que forçam você a atualizar o sistema antes de jogar o jogo.                                                            |
 | Block Online Updates                      | Disables updating your Wii. Updates will fail with error 32007.                                                                                                                       |
 | Auto-Press A at Health Screen             | Automatically presses the A Button to get past the initial "Health and Safety" screen.                                                                                                |
 | Replace Health Screen with Backmenu       | Changes the "Health and Safety" screen to the animation played when returning to the Wii Menu.                                                                                        |
@@ -146,7 +146,7 @@ You will be installing `uneoboot.dol` in step 3.
 
     ![](/images/priiloader/installing_file_ok.png)
 
-1. Press `B` to return to the main menu.
+1. Pressione `B` para retornar ao menu principal.
 1. Scroll down to `Settings` and press A.
 
     ![](/images/priiloader/menu_settings.png)
@@ -155,11 +155,11 @@ You will be installing `uneoboot.dol` in step 3.
 
     ![](/images/priiloader/autoboot_installed_file.png)
 
-1. Scroll down to `save settings` and press A.
+1. Role até `save settings` e pressione A.
 
     ![](/images/priiloader/settings_save.png)
 
-1. Press `B` to return to the main menu.
+1. Pressione `B` para retornar ao menu principal.
 1. Scroll back up to `System Menu` and press A.
 
 Your Wii should now automatically boot to whichever homebrew app you installed.
@@ -180,11 +180,11 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 
     ![](/images/priiloader/autoboot_disabled.png)
 
-1. Scroll down to `save settings` and press A.
+1. Role até `save settings` e pressione A.
 
     ![](/images/priiloader/settings_save.png)
 
-1. Press `B` to return to the main menu.
+1. Pressione `B` para retornar ao menu principal.
 1. Scroll back up to `System Menu` and press A.
 
 ### Wii mini: Next Steps
@@ -192,10 +192,10 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 Continue to [Wii mini cIOS](cios-mini)<br> This guide provides installation instructions for cIOS on Wii minis.
 {: .notice--info}
 
-### Wii: Next Steps
+### Wii: Próximos Passos
 
-If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
+Se você chegou a esse ponto, parabéns! Você terminou com a seção necessária do guia principal! Você pode continuar se quiser aprender mais, mas qualquer coisa depois desse ponto é opcional.
 {: .notice--success}
 
-Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
+Continue para [cIOS](cios)<br> Este guia fornece etapas sobre como obter um conjunto básico de cIOS instalado no seu Wii, Habilitando funcionalidade em apps como Loaders USB.
 {: .notice--info}
