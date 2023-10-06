@@ -25,14 +25,14 @@ Wii Menuでローダーを開くフォーワーダーはそれぞれWii Flow Lit
     + プラグインに対応してます。
     + WiiFlowは2014年に廃止されましたが、WiiFlow Liteは現在でもアップデートされてます。
 
-    ![WiiFlow UI](/images/usb-loaders//wiiflow-ui.png)
+    ![](/images/usb-loaders//wiiflow-ui.png)
 
 + USB Loader GXはWii Menuと同じデザインを使っており、テーマが使えます。
     + SDカード対応はもともとありませんでしたが、最近のアップデートで対応性が追加されました。
     + USb Loader GXはプラグインに対応してません。
     + USB Loader GXは現在もアップデートされてます。
 
-    ![USB Loader GX UI](/images/usb-loaders/usbloadergx-ui.png)
+    ![](/images/usb-loaders/usbloadergx-ui.png)
 
 ### ゲームディレクトリのテンプレート
 
@@ -82,7 +82,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 + Disc - Loads a game that is in the disc drive.
 + House - Opens the menu below. The menu can also be launched by pressing the home button.
 
-![WiiFlow Menu](/images/usb-loaders/wiiflow-menu.png)
+![](/images/usb-loaders/wiiflow-menu.png)
 
 + Help Guide - Shows all the controls you can use in WiiFlow.
 + Reload Cache - Press this to allow WiiFlow to rescan for games on the USB device or SD card.
