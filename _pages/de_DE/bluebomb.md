@@ -48,7 +48,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 1. Take note in the top right corner of the letter next to the system version.
     + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
-    ![Wii Region](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 1. Power off your console.
 1. Start your Linux distro, and ensure you are connected to the internet.
