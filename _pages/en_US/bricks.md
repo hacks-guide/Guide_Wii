@@ -71,7 +71,7 @@ When navigating to Wii Settings, you instead get an error from the Opera web bro
 #### Cause
 A semibrick occurs when a different region Wii Menu or a different region custom theme is installed. As the Wii Settings menu is rendered using HTML pages with Opera, themes often replace these pages and put them in different directories; essentially leading to a `404 Not Found` error but in the form of a console brick.
 
-![Semibrick](/images/bricks/semibrick.png)
+![](/images/bricks/semibrick.png)
 
 #### Solutions
 Verify in AnyRegion Changer that your console region is the same as the theme or Wii Menu that you have installed.
@@ -90,7 +90,7 @@ If you are actually in the process of a region change, use [ARC-ME](https://gith
 #### Symptoms
 Attempt to start the Wii - warning/press A screen shows up, and when A is pressed, the screen passes normally; however, beyond this point, nothing happens and the Wii remains on a black screen. This happened after installing a WAD and rebooting, or returning to the Wii Menu. Alternatively, the Wii Menu can still be accessed, but opening the corrupt channel results in the console freezing. In some cases, you may see the "System files are corrupted" screen.
 
-![System files are corrupted](/images/bricks/sysfiles-corrupted.jpg)
+![](/images/bricks/sysfiles-corrupted.jpg)
 
 #### Cause
 Banner bricks occur if you install a WAD file that has an invalid Wii Menu banner or icon.
@@ -137,7 +137,7 @@ This brick is a more fatal version of a [Semibrick](#semibrick). If your SYSCONF
 
 However, the setup pages are in a similar location to the Wii settings pages. If you have an incorrect region Wii Menu or theme, the Wii cannot find them.
 
-![Wii menu brick](/images/bricks/sysmenu-brick.png)
+![](/images/bricks/sysmenu-brick.png)
 
 #### Solutions
 
@@ -155,7 +155,7 @@ Screen shows up as listed below on normal boot.
 `Error:003`<br>
 `unauthorized device has been detected.`<br>
 
-![Error 003](/images/bricks/error-003.png)
+![](/images/bricks/error-003.png)
 
 #### Cause
 When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. While obviously this failed, they also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. If this check succeeds, the error triggers and the Wii is effectively bricked.
