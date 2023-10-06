@@ -34,35 +34,35 @@ BootMiiをboot2にインストールしている場合、Wii本体を再起動�
 1. Homebrew Channelを起動します。
 1. HOMEボタンを押し、「Launch BootMii」を選択します。
 
-    ![BootMii_Main](/images/bootmii/BootMii_Main.png)
+    ![](/images/bootmii/BootMii_Main.png)
 
 1. オプション(歯車のアイコン)を選択します。
 
-    ![BootMii_Gears_Icon](/images/bootmii/BootMii_Gears_Icon.png)
+    ![](/images/bootmii/BootMii_Gears_Icon.png)
 
 1. 一番左のアイコンを選択します。
     + NANDバックアップが開始します。 進行状況は画面に表示されます。
     + 発生した「Bad Blocks」は正常な動作で発生したものであり、NANDビニングの過程で発生したものです。 NANDバックアップでいくつか表示されても問題はありません。
-    + 書き出しが終わると、書き出しデータの確認を行います。 Ideally, all the blocks should be green after the verification process.
+    + 書き出しが終わると、書き出しデータの確認を行います。 確認が終わった後に全てのブロックが緑色になっていることが望ましいです。
 
-    ![BootMii_Green_Arrow](/images/bootmii/BootMii_Green_Arrow.png)
+    ![](/images/bootmii/BootMii_Green_Arrow.png)
 
-1. When the process is complete, exit the NAND backup screen by pressing any button.
+1. バックアップが終了したら、何らかのボタンを押してメインメニューに戻ります。
 
-    ![BootMii_NAND_Backup](/images/bootmii/BootMii_NAND_Backup.png)
+    ![](/images/bootmii/BootMii_NAND_Backup.png)
 
-1. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
+1. BootMiiを終了するには、矢印のアイコンを選択し、WiiメニューアイコンもしくはHomebrew Channelアイコンのいずれかを選択してください。
 
-    ![BootMii_Return_Arrow](/images/bootmii/BootMii_Return_Arrow.png)
+    ![](/images/bootmii/BootMii_Return_Arrow.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-Note: **restoring a NAND backup is usually a last resort**. There often better ways to unbrick your console.
-Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover) (Original Wii only).
+注意:NANDバックアップのリストアは基本的に最終手段です。 ブリックを解決するためにはほかにも方法があることが多いです。
+[ブリックの原因を特定](bricks)し、その問題を解決することに注力してください。
+SDカードのNANDバックアップをリストアするときは、[NANDのリストア(BootMii)](bootmiirecover)に従ってください。ただし、前述のとおりWii Family EditionではNANDのリストアは出来ません。
 </div>
 
-Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is your Wii's internal memory, while `keys.bin` are your console's keys.
+`nand.bin`と`keys.bin`という2つのファイルがSDカードのルート上に作成されます。 `nand.bin` はWiiの内部メモリで、`keys.bin`はコンソールキーです。
 {: .notice--info}
 
-[Continue to Priiloader Installation](priiloader)<br> Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.
+[Priiloaderをインストール](priiloader)<br> Priiloaderはさらにブリックを予防するためのもので、便利な機能も追加できます。 IOSでしかBootMiiを導入できなかった場合は、必ず導入してください。
 {: .notice--info}
