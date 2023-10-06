@@ -19,10 +19,10 @@ Make sure your USB drive is formatted as FAT32. Do not format it as other types 
 
 ### Instruções
 
-#### Section I - Downloading
+#### Seção I - Baixando
 
 1. Extract GameCube Backup Manager, and launch the program.
-1. Insert your USB drive into your computer.
+1. Insira seu armazenamento USB no seu computador.
 
 #### Section II - Copying Games Over
 
