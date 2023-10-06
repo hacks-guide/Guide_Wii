@@ -48,7 +48,7 @@ Asegúrate de que la consola está cerca del ordenador que ejecutará el exploit
 1. Anota la letra que aparece en la esquina superior derecha, junto a la versión del sistema.
     + Esta letra corresponde a la región del menú de tu consola, que necesitarás saber para los pasos pertinentes.
 
-    ![Región de la Wii](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 1. Apaga la consola.
 1. Inicia tu distribución Linux y asegúrate de que estás conectado a Internet.
