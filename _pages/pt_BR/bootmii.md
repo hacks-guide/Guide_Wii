@@ -2,7 +2,7 @@
 title: "BootMii Backup"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Sumário" %}
 
 BootMii allows for backing up and restoring your Wii's NAND storage. This page will guide you in backing up your Wii's NAND to an SD Card, which you can then use however you like.
 
@@ -21,16 +21,16 @@ If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-laun
 If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 {: .notice--warning}
 
-### Requirements
+### Requisitos
 
 * An SD card with a minimum 512MB of free space (1GB or more recommended)
 
-### Instructions
+### Instruções
 
 If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
 {: .notice--info}
 
-1. Power on your console.
+1. Ligue o seu console.
 1. Launch the Homebrew Channel.
 1. Press the HOME Button, then select "Launch BootMii".
 
