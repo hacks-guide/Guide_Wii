@@ -63,13 +63,13 @@ If you don't want to go through the hassle of using an external program to build
 
 1. Select your storage medium, and you should now see a selection of your themes.
 
-    ![Theme Selection](/images/themes/mym-theme-selection.png)
+    ![](/images/themes/mym-theme-selection.png)
 
 1. Select the theme you would like to install. If it is signed, MyMenuifyMod will indicate it to you, otherwise it will warn you. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
 1. Install the theme.
 1. Reboot into the Wii Menu, and see if the theme successfully installed. If all goes well, you will have a result similar to the below!
 
-    ![Theme Ready](/images/themes/themed-wii-menu.png)
+    ![](/images/themes/themed-wii-menu.png)
 
 ### WiiFlow Lite Theming
 
@@ -121,24 +121,24 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 1. Download a theme `.zip` file from the website linked above.
 
-    ![Example Theme](/images/themes/homebrew-channel-example-theme.png)
+    ![](/images/themes/homebrew-channel-example-theme.png)
 
 1. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
 
-    ![Paste ZIP](/images/themes/homebrew-channel-paste-zip.png)
+    ![](/images/themes/homebrew-channel-paste-zip.png)
 
 1. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
 
-    ![Extract ZIP](/images/themes/homebrew-channel-extract-theme.png)
+    ![](/images/themes/homebrew-channel-extract-theme.png)
 
 1. Reinsert the storage device into your Wii and enter the Homebrew Channel.
 1. The theme you just installed can be loaded in the same way that you access a standard app.
 
-    ![Load Theme](/images/themes/homebrew-channel-load-theme.png)
+    ![](/images/themes/homebrew-channel-load-theme.png)
 
 1. The theme should now be loaded, enjoy!
 
-    ![Enjoy Theme](/images/themes/homebrew-channel-theme-done.png)
+    ![](/images/themes/homebrew-channel-theme-done.png)
 
 ### App Forwarders
 
