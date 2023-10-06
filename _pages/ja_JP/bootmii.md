@@ -4,7 +4,7 @@ title: "NANDのバックアップ(BootMii)"
 
 {% include toc title="Table of Contents" %}
 
-BootMiiはNANDのデータをバックアップしたり、ロードするために使えます。 このページはWiiのNANDをSDカードにバックアップする説明をします。
+BootMiiはWiiのNANDをバックアップしたり、復元するために使えます。 このページではWiiのNANDをSDカードにバックアップする方法の説明をします。
 
 ファミリーエディションのWiiはNANDのロードはできません。（日本のWiiにはありません） This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. Regardless, it is still recommended to make one on these consoles.
 {: .notice--danger}
