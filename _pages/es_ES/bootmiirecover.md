@@ -45,11 +45,11 @@ Si quieres restaurar los datos de guardado de un juego, utiliza Dolphin para imp
 1. Pulsa el botón HOME y selecciona "Abrir BootMii".
 1. Selecciona el botón de opciones (el icono con los engranajes).
 
-    ![BootMii_Gears_Icon](/images/BootMii/BootMii_Gears_Icon.png)
+    ![](/images/BootMii/BootMii_Gears_Icon.png)
 
 1. Selecciona el botón RestoreMii.
 
-    ![BootMii_Red_Arrow](/images/BootMii/BootMii_Red_Arrow.png)
+    ![](/images/BootMii/BootMii_Red_Arrow.png)
 
 1. Si BootMii está instalado como IOS, introduce el código Konami en el mando de GameCube: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 1. Una vez finalizada la recuperación, deberías ver un texto que diga `I HAZ SUCCESS!`, o de lo contrario, `I HAZ FAIL`. Pulsa cualquier botón de la consola Wii o del mando de GameCube.
