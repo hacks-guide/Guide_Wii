@@ -33,44 +33,44 @@ Questo exploit richiede di reimpostare il tuo DNS in modo da connettersi a un se
 1. Accendi la console.
 1. Vai su `Opzioni Wii`.
 
-    ![Opzioni Wii](/images/riiconnect24/Internet_1.png)
+    ![](/images/riiconnect24/Internet_1.png)
 
 1. Vai su `Impostazioni Console Wii`.
 
-    ![Impostazioni Console Wii](/images/riiconnect24/Internet_2.png)
+    ![](/images/riiconnect24/Internet_2.png)
 
 1. Naviga su `Pagina 2`-> `Internet` -> `Impostazioni di Connessione`.
 
-    ![Internet](/images/riiconnect24/Internet_3.png)
+    ![](/images/riiconnect24/Internet_3.png)
 
-    ![Impostazioni di Connessione](/images/riiconnect24/Internet_4.png)
+    ![](/images/riiconnect24/Internet_4.png)
 
 1. Clicca sul tuo slot connessione corrente, e vai su `Modifica Impostazioni`.
 
-    ![Connessione corrente](/images/riiconnect24/Internet_5.png)
+    ![](/images/riiconnect24/Internet_5.png)
 
-    ![Modifica Impostazioni](/images/riiconnect24/Internet_6.png)
+    ![](/images/riiconnect24/Internet_6.png)
 
 1. Imposta `Ottieni DNS Automaticamente` su `No`, poi clicca su `Impostazioni Avanzate`.
 
-    ![Ottieni DNS Automaticamente](/images/riiconnect24/Internet_7.png)
+    ![](/images/riiconnect24/Internet_7.png)
 
 1. Imposta il DNS Primario a `18.188.135.9`.
 
-    ![str2hax DNS](/images/exploits/str2hax/dns.png)
+    ![](/images/exploits/str2hax/dns.png)
 
     Se ci sono 3 campi invece di 2 (come sopra), torna indietro e assicurati di essere nella pagina `Ottieni DNS Automaticamente`.
     {: .notice--warning}
 
 1. Seleziona `Conferma`, poi seleziona `Salva`.
 
-    ![Salva DNS](/images/riiconnect24/Internet_10.png)
+    ![](/images/riiconnect24/Internet_10.png)
 
 1. Nella schermata che segue, clicca su `OK` per eseguire la prova di connessione.
 
-    ![Prova di Connessione](/images/riiconnect24/Internet_11.png)
+    ![](/images/riiconnect24/Internet_11.png)
 
-    ![Prova di Connessione riuscita](/images/riiconnect24/Internet_12.png)
+    ![](/images/riiconnect24/Internet_12.png)
 
     + Se la prova di connessione è andata a buon fine, seleziona `No` per rifiutare l'aggiornamento di sistema.
     + Se la prova di connessione fallisce con un codice di errore nella forma `521xx`, torna indietro e verifica di avere inserito il DNS corretto.
@@ -83,12 +83,12 @@ Questo exploit richiede di reimpostare il tuo DNS in modo da connettersi a un se
 1. Clicca su `Continua`.
     + Dovrebbe apparire la seguente schermata:
 
-    ![str2hax pagina EULA](/images/exploits/str2hax/EULA.png)
+    ![](/images/exploits/str2hax/EULA.png)
 
 1. Dai all'exploit 1-2 minuti per scaricare i file necessari (e non premere `ACCETTO`/`NON ACCETTO`).
 1. Se l'exploit è andato a buon fine, ti ritroverai dentro l'HackMii Installer.
 
-    ![HackMii Installer scam screen](/images/hackmii/scam.png)
+    ![](/images/hackmii/scam.png)
 
 [Prosegui all'Installazione del Canale Homebrew e di Bootmii](hbc)
 {: .notice--info}
