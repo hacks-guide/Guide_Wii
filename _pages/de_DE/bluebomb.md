@@ -2,7 +2,7 @@
 title: "BlueBomb"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
 It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
 {: .notice--warning}
@@ -18,12 +18,12 @@ If you are using the original revision of the Wii, you should probably find [ano
 Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
 {: .notice--info}
 
-### Requirements
+### Anforderungen
 
-* A Linux machine
-    * A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
-    * If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
-    * Windows Subsystem for Linux or a Chromebook running Linux mode will *not work* as they don't have direct access to the Bluetooth adapter or USB ports.
+* Ein Linux Computer
+    * Eine virtuelle Maschine kann funktionieren, ist aber wegen der Komplexität zum Aufsetzen von Bluetooth-Passthrough nicht empfohlen. Wenn möglich, verwende bitte einen LiveUSB wie unten beschrieben.
+    * Wenn du einen Raspberry Pi hast, kannst du den auch verwenden, da wahrscheinlich Linux dort schon installiert ist.
+    * Windows Subsystem für Linux oder ein Chromebook im Linux mode wird *nicht funktionieren*, da sie keinen direkten Zugriff auf den Bluetooth Adapter oder USB Schnittstellen haben.
     * If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
         * 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
         * For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
@@ -35,7 +35,7 @@ Make sure that the console is close to the computer running the exploit, ideally
     * This cannot be the same flash drive used for your Linux Machine.
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### Instructions
+### Anleitung
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
     + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
