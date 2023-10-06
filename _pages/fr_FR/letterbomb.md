@@ -25,19 +25,19 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
     + Cette lettre est la région du menu système, que vous devrez connaître pour les étapes qui en ont besoin.
     + Also, ensure that you are on System Menu version 4.3.
 
-    ![Région de la Wii](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 1. Navigate to `Internet` > `Console Information`.
 1. Prenez note de votre adresse MAC COMPLET.
 
-    ![Adresse MAC](/images/wii/MacAddress.png)
+    ![](/images/wii/MacAddress.png)
 
 1. Sur votre ordinateur, ouvrez le navigateur et allez sur [le site Web de HackMii](https://please.hackmii.com/).
 1. Entrez votre adresse MAC Wii et votre région.
 1. Soyez-sûr que `Bundle the HackMii Installer for me!` est coché.
 1. Cliquez sur un des deux boutons.
 
-    ![HackMii Screen](/images/exploits/letterbomb/LetterBomb-PC.png)
+    ![](/images/exploits/letterbomb/LetterBomb-PC.png)
 
 1. Insérez votre carte SD dans votre ordinateur.
 1. Copiez le dossier `private` et le fichier `boot.elf` de LetterBomb`.zip` à la racine de votre carte SD.
@@ -53,7 +53,7 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
     + Si tout est correct et que la console gèle (freeze) toujours, continuez à re-essayer jusqu'à ce que cela fonctionne.
 1. Si l'exploit a réussi, votre console aura chargé l'installeur HackMii.
 
-![Menu Wii LetterBomb](/images/exploits/letterbomb/LetterBomb-Wii.png)
+![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
 [Continuer vers l'installation de Homebrew Channel et de BootMii](hbc)
 {: .notice--info}
