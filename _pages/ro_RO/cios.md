@@ -43,7 +43,7 @@ If you are not on Windows, you may download & run [this script](/assets/files/d2
 1. Place each WAD file on the root of your SD card or USB drive.
     + This must be the same device containing the d2x cIOS Installer.
 
-The WAD files should be on your SD card like this: ![offline IOS files](/images/cios/d2x_offline_ios.png)
+The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_ios.png)
 {: .notice--info}
 
 #### Section II - Installing
@@ -71,7 +71,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
         Select cIOS version <65535>
         ```
 
-        ![Install cIOS 248](/images/cios/d2x_v11_248.png)
+        ![](/images/cios/d2x_v11_248.png)
 
     + cIOS 249 Installation
 
@@ -82,7 +82,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
         Select cIOS version <65535>
         ```
 
-        ![Install cIOS 249](/images/cios/d2x_v11_249.png)
+        ![](/images/cios/d2x_v11_249.png)
 
     + cIOS 250 Installation
 
@@ -93,7 +93,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
         Select cIOS version <65535>
         ```
 
-        ![Install cIOS 250](/images/cios/d2x_v11_250.png)
+        ![](/images/cios/d2x_v11_250.png)
 
     + cIOS 251 Installation
 
@@ -104,7 +104,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
         Select cIOS version <65535>
         ```
 
-        ![Install cIOS 251](/images/cios/d2x_v11_251.png)
+        ![](/images/cios/d2x_v11_251.png)
 
-[Continue to Recommended Homebrew](recommended-homebrew)<br> This guide outlines selections of homebrew that we think are useful to have; these range from utilities to emulators and more.
+Continue to [Open Shop Channel Installation](osc) Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 {: .notice--info}
