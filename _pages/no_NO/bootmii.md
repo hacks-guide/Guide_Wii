@@ -34,26 +34,26 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
 1. Launch the Homebrew Channel.
 1. Press the HOME Button, then select "Launch BootMii".
 
-    ![BootMii_Main](/images/bootmii/BootMii_Main.png)
+    ![](/images/bootmii/BootMii_Main.png)
 
 1. Select the Options button (the icon with the gears).
 
-    ![BootMii_Gears_Icon](/images/bootmii/BootMii_Gears_Icon.png)
+    ![](/images/bootmii/BootMii_Gears_Icon.png)
 
 1. Select the first button to the left.
     + A NAND backup will start. You can watch the progress on the screen.
     + "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup.
     + After this step, it will verify the backup. Ideally, all the blocks should be green after the verification process.
 
-    ![BootMii_Green_Arrow](/images/bootmii/BootMii_Green_Arrow.png)
+    ![](/images/bootmii/BootMii_Green_Arrow.png)
 
 1. When the process is complete, exit the NAND backup screen by pressing any button.
 
-    ![BootMii_NAND_Backup](/images/bootmii/BootMii_NAND_Backup.png)
+    ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
 
-    ![BootMii_Return_Arrow](/images/bootmii/BootMii_Return_Arrow.png)
+    ![](/images/bootmii/BootMii_Return_Arrow.png)
 
 <div id="restore-notice" class="notice" markdown="1">
 Note: **restoring a NAND backup is usually a last resort**. There often better ways to unbrick your console.
