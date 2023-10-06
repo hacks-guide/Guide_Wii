@@ -2,7 +2,7 @@
 title: "USB Loaders"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
 This guide introduces USB loaders on the Wii. They can be primarily used to load game backups that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
 
@@ -48,7 +48,7 @@ Forwarders to open these loaders on the Wii Menu can be found on the Open Shop C
 
 ### WiiFlow Lite
 
-#### Requirements
+#### Anforderungen
 + A modded Wii
 + Fully installed [cIOS](cios)
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
@@ -95,7 +95,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ### USB Loader GX
 
-#### Requirements
+#### Anforderungen
 + A modded Wii
 + Fully installed [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
