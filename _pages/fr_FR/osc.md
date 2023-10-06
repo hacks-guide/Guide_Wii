@@ -23,7 +23,7 @@ There are two methods to use the Open Shop Channel: on your Wii through the Home
 
 1. Download the reccomended `.zip` file from the Open Shop Channel website.
 
-    ![Homebrew Browser .ZIP download](/images/osc/zip-download-HBB.png)
+    ![](/images/osc/zip-download-HBB.png)
 
 1. Extract the `apps` folder in the archive to the root of your SD card or USB drive. Optionally, the archive also comes with a guide on how to use the Homebrew Browser.
 1. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. The Homebrew Browser should now display.
@@ -40,16 +40,16 @@ There are two methods to use the Open Shop Channel: on your Wii through the Home
 
 1. Download `oscdl-installer.exe` and run the installer. Optionally, you may instead download `oscdl-standalone.exe`, which does not have to be installed and instead runs as a portable executable.
 
-    ![OSCDL executable download](/images/osc/exe-download-OSCDL.png)
+    ![](/images/osc/exe-download-OSCDL.png)
 
 1. If you get a User Account Control pop-up that asks whether or not you would like the program to make changes to your PC, select Yes. Open Shop Channel is a safe application.
 1. Let the installer run, and then launch OSCDL once the process is finished.
 
-    ![OSCDL installer finished](/images/osc/install-finished-OSCDL.png)
+    ![](/images/osc/install-finished-OSCDL.png)
 
 1. Find an application that you would like to get, and press the Download button. Alternatively, you can send the app directly to your Wii (this requires that your computer and Wii be on the same network).
 
-    ![OSCDL app download](/images/osc/app-download-OSCDL.png)
+    ![](/images/osc/app-download-OSCDL.png)
 
 1. A `.zip` file containing your app should download to wherever you specified the directory to be. Extract the `apps` folder in this archive to the root of your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. Your downloaded piece of homebrew should now display.
