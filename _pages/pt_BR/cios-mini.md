@@ -2,9 +2,9 @@
 title: "d2xl cIOS for Wii mini (experimental)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Sumário" %}
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Se você precisar de ajuda com qualquer coisa relacionada a este tutorial, junte-se ao [servidor do Wii Mini Hacking do Discord](https://discord.gg/6ryxnkS) (recomendado)
 {: .notice--info}
 
 While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
@@ -18,22 +18,22 @@ Do not attempt to install a Wii IOS or System Menu on the Wii mini. Doing so wil
 This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBaol and custom cIOS was created by Leseratte for the Wii mini. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Please note that this cIOS is still experimental, though no problem with functionality has been reported.
 {: .notice--info}
 
-### Requirements
+### Requisitos
 
 * A Wii mini with the Homebrew Channel installed
 * A USB drive
 * Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
-### Instructions
+### Instruções
 
 #### Section I - Downloading
 
-1. Power off your console.
+1. Desligue seu console.
 1. Insert your USB drive into your computer.
 1. Create a folder named `apps` on the root of your USB drive if it does not already exist.
 1. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
 1. Reinsert your USB drive into your console.
-1. Power on your console.
+1. Ligue o seu console.
 1. Launch the Homebrew Channel.
 1. Launch d2xl cIOS Installer from the list of homebrew.
 
