@@ -35,7 +35,7 @@ sitemap: false
 {% capture notice-4 %}
 **Modding 101 - Wii Essentials**
 + [NANDのバックアップ(BootMii)](bootmii)
-+ [BootMii Recovery](bootmiirecover)
++ [NANDのリストア(BootMii)](bootmiirecover)
 + [Brick Overview](bricks)
 + [ブリック阻止](bricks#brick-prevention)
 + [cIOS](cios)
