@@ -15,18 +15,18 @@ Les deux services ci-dessous sont compatibles l'un avec l'autre et peuvent être
 #### Service Support Status
 ✅ - Supporté<br> ⚠️ - En développement<br> ⛔ - Pas de support
 
-| Nom du service       | WiiLink | RiiConnect24 |
-| -------------------- | ------- | ------------ |
-| Chaîne météo         | ✅       | ✅            |
-| Chaîne infos         | ⚠️      | ✅            |
-| Wii Mail             | ⚠️      | ✅            |
-| Chaîne votes         | ✅       | ✅            |
-| Chaîne Nintendo      | ✅       | ✅            |
-| Chaîne concours Mii  | ⚠️      | ✅            |
-| Wii Room             | ✅       | ⛔            |
-| Food Channel         | ✅       | ⛔            |
-| Photo Prints Channel | ✅       | ⛔            |
-| Chaîne TV Kirby      | ✅       | ⛔            |
+| Nom du service          | WiiLink | RiiConnect24 |
+| ----------------------- | ------- | ------------ |
+| Chaîne météo            | ✅       | ✅            |
+| Chaîne infos            | ⚠️      | ✅            |
+| Bureau Wii              | ⚠️      | ✅            |
+| Chaîne votes            | ✅       | ✅            |
+| Chaîne Nintendo         | ✅       | ✅            |
+| Chaîne concours Mii     | ⚠️      | ✅            |
+| Wii Room                | ✅       | ⛔            |
+| Food Channel            | ✅       | ⛔            |
+| Chaîne impression photo | ✅       | ⛔            |
+| Chaîne TV Kirby         | ✅       | ⛔            |
 
 #### WiiLink
 A newer WC24/Japanese channel revival service that started in 2020, but is rapidly regaining functionality in many different channels.
@@ -34,7 +34,7 @@ A newer WC24/Japanese channel revival service that started in 2020, but is rapid
 Service support status can be found [here](https://www.wiilink24.com/status).<br> Their guide can be found [here](https://www.wiilink24.com/guide/2installation/).
 
 #### RiiConnect24
-The longest lasting WC24 revival service, currently only with support for the worldwide WC24 channels as well as mail services.
+Le service de relance WC24 le plus ancien, qui ne prend actuellement en charge que les chaînes WC24 mondiales ainsi que le service de messagerie.
 
 Service support status can be found [here](https://rc24.xyz/stats/).<br> RiiConnect24 currently does not have a self-hosted guide, however you can find ours [here](riiconnect24).
 
@@ -55,5 +55,5 @@ If you choose to install either of these services on your Wii, it is advised to 
 1. Use the +Control Pad to select the current time.
 1. Press the HOME Button to exit.
 
-[Proceed to Nintendo Wi-Fi Connection](wiimmfi)<br> This guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. While there are different private servers and services that allow this, the one covered here will be Wiimmfi.
+[Proceed to Nintendo Wi-Fi Connection](wiimmfi)<br> This guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. Bien qu'il y ait différents serveurs et services privés qui le permettent, celui abordé ici sera Wiimmfi.
 {: .notice--info}
