@@ -32,7 +32,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 #### Requirements
 * a Wii with Priiloader (or Preloader) installed
-* an SD card or USB drive formatted to FAT32/MS-DOS
+* An SD card or USB drive formatted to FAT32/MS-DOS
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
 To check if your Wii has Priiloader, hold the RESET button while turning it on.
