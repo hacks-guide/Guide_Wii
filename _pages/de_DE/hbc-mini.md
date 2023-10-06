@@ -2,11 +2,11 @@
 title: "Homebrew Channel - for Wii mini only"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
 The Homebrew Channel is where you will go to launch homebrew applications.
 
-### Instructions
+### Anleitung
 This page is **only** intended for users of the Wii mini. If you have a regular Wii, follow [this guide](hbc) instead.
 {: .notice--info}
 
