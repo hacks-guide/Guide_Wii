@@ -33,7 +33,7 @@ Make sure your storage device is formatted as FAT32. Do not format it to other f
 
 #### User Interface
 
-![Nintendont UI](/images/usb-loaders/nintendont-ui.png)
+![](/images/usb-loaders/nintendont-ui.png)
 
 Nintendont uses a user interface that is mainly controllable and navigable using a gamepad.
 
