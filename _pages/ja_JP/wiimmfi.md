@@ -1,5 +1,5 @@
 ---
-title: "Nintendo Wi-Fi Connection"
+title: "Wi-Fiコネクション"
 ---
 
 {% include toc title="Table of Contents" %}
