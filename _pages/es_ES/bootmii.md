@@ -34,26 +34,26 @@ Si tienes BootMii instalado como boot2, tendrás que iniciar BootMii reiniciando
 1. Inicia el Canal Homebrew.
 1. Pulsa el botón HOME y selecciona "Abrir BootMii".
 
-    ![BootMii_Main](/images/bootmii/BootMii_Main.png)
+    ![](/images/bootmii/BootMii_Main.png)
 
 1. Selecciona el botón de opciones (el icono con los engranajes).
 
-    ![BootMii_Gears_Icon](/images/bootmii/BootMii_Gears_Icon.png)
+    ![](/images/bootmii/BootMii_Gears_Icon.png)
 
 1. Selecciona el primer botón de la izquierda.
     + Se iniciará una copia de seguridad de la NAND. Puedes ver el progreso en la pantalla.
     + Los "Bad Blocks" son normales, y en su mayoría vienen de fábrica debido al binning de la NAND. No te preocupes si ves algo en una copia de seguridad de la NAND.
     + Después de este paso, se verificará la copia de seguridad. Lo ideal es que todos los bloques queden en verde tras el proceso de verificación.
 
-    ![BootMii_Green_Arrow](/images/bootmii/BootMii_Green_Arrow.png)
+    ![](/images/bootmii/BootMii_Green_Arrow.png)
 
 1. Una vez finalizado el proceso, sal de la pantalla de copia de seguridad de la NAND pulsando cualquier botón.
 
-    ![BootMii_NAND_Backup](/images/bootmii/BootMii_NAND_Backup.png)
+    ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. Pulsa el botón de atrás (el de la flecha) y, a continuación, pulsa el botón Menú Wii o el botón Canal Homebrew para salir de BootMii.
 
-    ![BootMii_Return_Arrow](/images/bootmii/BootMii_Return_Arrow.png)
+    ![](/images/bootmii/BootMii_Return_Arrow.png)
 
 <div id="restore-notice" class="notice" markdown="1">
 Nota: **restaurar una copia de seguridad de la NAND suele ser una solución extrema**. Normalmente hay mejores formas de desbloquear la consola.
