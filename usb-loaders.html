@@ -420,7 +420,7 @@ Due to the age and lack of support for Configurable USB Loader (last update was 
   </li>
   <li>USB Loader GX is primarily modeled after the Wii Menu, and supports themes.
     <ul>
-      <li>While SD cards were previously unsupported for loading Wii games on USB Loader GX, recent updates have introduced support into the loader. Compatability may be hit or miss.</li>
+      <li>While SD cards were previously unsupported for loading Wii games on USB Loader GX, recent updates have introduced support into the loader.</li>
       <li>USB Loader GX has no plugin system.</li>
       <li>USB Loader GX still recieves regular updates.</li>
     </ul>
@@ -434,7 +434,10 @@ Due to the age and lack of support for Configurable USB Loader (last update was 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>💾 SD Card or USB Drives
 | ╸📁 wbfs
 	| ╸📁 GameName [GameID]
-		| ╸📄 GameID.wbfs
+	|	| ╸📄 GameID.wbfs (for non-split titles)
+    | ╸📂GameName [GameID]
+        | ╸📄gameid.wbfs
+        | ╸📄gameid.wbf1
 </code></pre></div></div>
 
 <h3 id="wiiflow-lite">WiiFlow Lite</h3>
