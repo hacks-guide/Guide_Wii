@@ -19,7 +19,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### Instruções
 
-#### Section I - Downloading
+#### Seção I - Baixando
 
 Your Wii must be modded in order to perform this. If it isn't, then it's best to follow [the guide](get-started) first.
 {: .notice--info}
@@ -39,7 +39,7 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 | Europe | v514 (4.3E)      |
 | Korea  | v518 (4.3K)      |
 
-#### Section II - Installing
+#### Seção II - Instalando
 
 1. Desligue seu console. Start holding RESET, then turn it back on.
 1. In the Priiloader menu, select `Homebrew Channel`.
