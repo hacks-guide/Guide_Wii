@@ -9,41 +9,41 @@ BootMiiでは、WiiのNANDをバックアップしたり、リストアするこ
 Wii Family EditionではNANDをリストアすることはできません。 Wii Family EditionではIOS版のBootMiiでNANDをリストアするときに必要となるGCコントローラー挿入口が削除されているからです。 いずれにしても、NANDのバックアップを作成することをお勧めします。
 {: .notice--danger}
 
-BootMiiを使用し、NANDバックアップを作成するには、 **SDカード** が必要です。 If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
+BootMiiを使用し、NANDバックアップを作成するには、 **SDカード** が必要です。 SDカードが無い場合、このページをスキップできますが、後で実行することを推奨します。
 {: .notice--warning}
 
-Navigating BootMii is not possible using a Wii Remote. You must use the POWER and RESET buttons on your console, or a GameCube controller plugged into port 1. To navigate between options, press POWER on your Wii (or left/right on the +Control Pad on a GameCube controller). To select an option, press RESET on your Wii or A on your GameCube controller. You will NEED to use a GameCube controller to restore a NAND backup in the future if BootMii is installed as IOS.
+Wiiリモコンを使用してBootMiiを操作することはできません。 Wii本体のPOWER(電源)ボタンとRESET(リセット)ボタンか、ポート1に接続しているGCコントローラーで操作できます。 カーソルを移動させるには、WiiのPOWER(電源)ボタンか、GCコントローラーの十字ボタンを押してください。 選択するには、WiiのRESETボタンかGCコントローラーのAボタンを押してください。 BootMiiがIOSとしてインストールされている場合は、NANDバックアップをリストアするためにはGCコントローラーが必要です。
 {: .notice--info}
 
-If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+`BootMii` ボタンがHomebrew Channelに表示されない場合は、 [HackMii Installer](hackmii) を起動してBootMiiをインストールしてください。
 {: .notice--warning}
 
-If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+BootMiiを起動させたときに、画面が暗くなったままで、ディスクドライブが青色点滅している場合、SDカードにBootMiiのファイルが入っていません。 [BootMiiのファイル](https://static.hackmii.com/bootmii_sd_files.zip)をダウンロードしてSDカードのルートにコピーし、もう一度試してください。
 {: .notice--warning}
 
 ### 必要なもの
 
-* An SD card with a minimum 512MB of free space (1GB or more recommended)
+* SDカード(最低512MB、推奨1GB以上、SDHC、MicroSD(アタブター必要)可)
 
 ### 実行方法
 
-If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+BootMiiをboot2にインストールしている場合、Wii本体を再起動してBootMiiを起動させます。 この場合は、Step4から始めてください。
 {: .notice--info}
 
 1. Wiiの電源を入れます。
-1. Launch the Homebrew Channel.
-1. Press the HOME Button, then select "Launch BootMii".
+1. Homebrew Channelを起動します。
+1. HOMEボタンを押し、「Launch BootMii」を選択します。
 
     ![BootMii_Main](/images/bootmii/BootMii_Main.png)
 
-1. Select the Options button (the icon with the gears).
+1. オプション(歯車のアイコン)を選択します。
 
     ![BootMii_Gears_Icon](/images/bootmii/BootMii_Gears_Icon.png)
 
-1. Select the first button to the left.
-    + A NAND backup will start. You can watch the progress on the screen.
-    + "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup.
-    + After this step, it will verify the backup. Ideally, all the blocks should be green after the verification process.
+1. 一番左のアイコンを選択します。
+    + NANDバックアップが開始します。 進行状況は画面に表示されます。
+    + 発生した「Bad Blocks」は正常な動作で発生したものであり、NANDビニングの過程で発生したものです。 NANDバックアップでいくつか表示されても問題はありません。
+    + 書き出しが終わると、書き出しデータの確認を行います。 Ideally, all the blocks should be green after the verification process.
 
     ![BootMii_Green_Arrow](/images/bootmii/BootMii_Green_Arrow.png)
 
