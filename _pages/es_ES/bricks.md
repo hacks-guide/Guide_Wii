@@ -70,7 +70,7 @@ Al acceder a la Configuración de Wii, aparece un error en el navegador web Oper
 #### Causas
 Se produce un semibloqueo cuando se instala un menú de Wii o un tema de otra región. Como el menú Configuración de Wii se muestra mediante páginas HTML con Opera, los temas a menudo sustituyen estas páginas y las colocan en directorios diferentes, lo que esencialmente conduce a un error `404 No Encontrado` pero en forma de bloqueo de la consola.
 
-![Semibloqueo](/images/bricks/semibrick.png)
+![](/images/bricks/semibrick.png)
 
 #### Soluciones
 Comprueba en AnyRegion Changer que la región de tu consola es la misma que la del tema o menú de Wii que tienes instalado.
@@ -89,7 +89,7 @@ Si estás en pleno proceso de cambio de región, utiliza [ARC-ME](https://github
 #### Síntomas
 Al intentar arrancar la Wii, aparece la pantalla de salud y seguridad y, al pulsar A, la pantalla continúa normalmente; sin embargo, pasado este punto, no ocurre nada y la Wii permanece en una pantalla negra. Esto ocurre después de instalar una WAD y reiniciar o volver al menú de Wii. Alternativamente, todavía se puede acceder al menú de Wii, pero al abrir el canal corrupto la consola se congela. En algunos casos, es posible que aparezca la pantalla "Los archivos de sistema están dañados".
 
-![Los archivos de sistema están dañados](/images/bricks/sysfiles-corrupted.jpg)
+![](/images/bricks/sysfiles-corrupted.jpg)
 
 #### Causas
 Los bloqueos de banner ocurren si instalas un archivo WAD que tiene un banner o icono del menú de Wii inválido.
@@ -136,7 +136,7 @@ Este bloqueo es una versión más grave de un [semibloqueo](#semibrick). Si el S
 
 Sin embargo, las páginas de la configuración inicial se encuentran en una ubicación similar a las páginas de Configuración de Wii. Si tienes un menú Wii o un tema de una región incorrecta, la consola Wii no podrá encontrarlos.
 
-![Bloqueo del menú de Wii](/images/bricks/sysmenu-brick.png)
+![](/images/bricks/sysmenu-brick.png)
 
 #### Soluciones
 
@@ -153,7 +153,7 @@ La pantalla se muestra como se indica a continuación en el arranque normal.
 
 `Error:003`<br> `unauthorized device has been detected.`<br>
 
-![Error 003](/images/bricks/error-003.png)
+![](/images/bricks/error-003.png)
 
 #### Causas
 Al publicar la Wii en Corea, Nintendo cambió la clave de cifrado de estas consolas como un último esfuerzo para impedir el homebrew. Aunque evidentemente no funcionó, también dejaron una verificación en las versiones 4.2/4.3 del menú del sistema para determinar si la clave coreana está presente en las consolas que **no sean** coreanas. Si la verificación es correcta, se activa el error y la Wii queda bloqueada.
