@@ -2,7 +2,7 @@
 title: "ModMii"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
 If you need help for anything regarding this tutorial, please join [the ModMii Discord server](https://discord.gg/cMnBRACQwQ).
 {: .notice--info}
@@ -18,7 +18,7 @@ ModMii is a PC program for Windows created by XFlak that has various helpful too
 Some advanced options may not be accessible in ModMii Skin. A list of the features available in ModMii Classic can be found at the bottom of the page.
 {: .notice--info}
 
-### Requirements
+### Anforderungen
 
 * A Wii
 * A USB drive or SD Card
