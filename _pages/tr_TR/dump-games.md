@@ -27,7 +27,7 @@ If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.o
 1. Launch CleanRip from the list of homebrew.
 1. Select your device that you will be dumping the game to - a USB device or SD card.
 
-    ![Device type](/images/homebrew/CleanRip/2.png)
+    ![](/images/homebrew/CleanRip/2.png)
 
 1. When prompted, select `Yes` to download the redump.org DAT files.
     + This is required to ensure that the resulting dumps are clean/accurate.
@@ -35,20 +35,20 @@ If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.o
     You may get an exception error if you do this. If so, simply skip and verify your dump on Dolphin Emulator if needed.
     {: .notice--warning}
 
-    ![DAT](/images/homebrew/CleanRip/3.png)
+    ![](/images/homebrew/CleanRip/3.png)
 
 1. Insert the game disc you would like to dump.
 
-    ![DVD](/images/homebrew/CleanRip/4.png)
+    ![](/images/homebrew/CleanRip/4.png)
 
 1. Set the settings as shown on the screen below, while verifying if your game disc is dual layer or not.
 
-    ![Settings](/images/homebrew/CleanRip/6.png)
+    ![](/images/homebrew/CleanRip/6.png)
 
 1. Press A to start dumping the disc.
     + This process can take quite some time, since it will dump the full 4.7 GB disc contents (8.5 GB for dual layer discs).
 
-    ![Copying](/images/homebrew/CleanRip/7.png)
+    ![](/images/homebrew/CleanRip/7.png)
 
 1. Proceed to [joining PART files](dump-games#joining-part-files-on-a-fat32-device).
 
@@ -75,21 +75,21 @@ Your Wii and your computer must be connected to the same local network.
 1. Press right on the D-pad, then press A.
 1. Choose the disc that you want to copy (The options are: `GameCube Disc`, `Wii Single-Layer Disc`, `Wii Dual-Layer Disc`) and press "A"
 
-    ![2](/images/homebrew/DumpDiscs_LAN/2.png)
+    ![](/images/homebrew/DumpDiscs_LAN/2.png)
 1. Insert the game disc into your Wii.
     + If it is already inserted, eject and reinsert the disc.
 
-    ![InsertTheDisc](/images/homebrew/DumpDiscs_LAN/insertthedisc.jpg)
+    ![](/images/homebrew/DumpDiscs_LAN/insertthedisc.jpg)
 1. Select the proper disc type.
 
-    ![3](/images/homebrew/DumpDiscs_LAN/3.png)
+    ![](/images/homebrew/DumpDiscs_LAN/3.png)
 1. Press any button to begin the dumping process.
 
-    ![4](/images/homebrew/DumpDiscs_LAN/4.png)
+    ![](/images/homebrew/DumpDiscs_LAN/4.png)
 1. Remember or write down your Wii's URL (IP address).
 1. On your computer, open the browser, go to your address bar and enter the Wii URL.
 
-    ![5](/images/homebrew/DumpDiscs_LAN/5.png)
+    ![](/images/homebrew/DumpDiscs_LAN/5.png)
 1. Click on `Click here to download XXXX.iso`.
 1. Proceed to [joining PART files](dump-games#joining-part-files-on-a-fat32-device).
 
