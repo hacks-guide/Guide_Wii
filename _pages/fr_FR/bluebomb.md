@@ -37,12 +37,12 @@ Assurez-vous que la console est proche de l'ordinateur qui exécute l'exploit, i
 
 ### Instructions
 
-1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
-    + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+1. Copiez `boot.elf` depuis hackmii_installer_v1.2`.zip` vers la racine de votre clé USB.
+    + (Si vous essayez de réparer un brick, vous devrez également copier l'application homebrew que vous souhaitez utiliser dans /apps/)
     + (Même pour une Wii Mini, bootmini.elf ne va **PAS** marcher, son but est complétement différent et n'a aucun lien. Utilisez boot.elf dans tous les cas).
-1. Reinsert your flash drive into your console.
+1. Réinsérez votre clé USB dans votre console.
     + Pour une Wii mini, le port USB est à l'arrière.
-    + For a normal Wii, use the bottom port (or the right port if it's upright).
+    + Pour une Wii normale, utilisez le port inférieur (ou le port de droite si elle est à la verticale).
 1. Allumez votre console.
 1. Allez sur `Paramètres Wii`.
 1. Prenez note dans le coin supérieur droit de la lettre à côté de la version du système.
