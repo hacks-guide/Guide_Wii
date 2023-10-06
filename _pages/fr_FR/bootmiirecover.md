@@ -45,11 +45,11 @@ Si vous voulez restaurer les données de sauvegarde d'un jeu, utilisez Dolphin p
 1. Appuyez sur le bouton HOME, puis sélectionnez "Lancer BootMii".
 1. Sélectionnez le bouton Options (l'icône avec les engrenages).
 
-    ![BootMii_Gears_Icon](/images/BootMii/BootMii_Gears_Icon.png)
+    ![](/images/BootMii/BootMii_Gears_Icon.png)
 
 1. Sélectionnez le bouton RestoreMii.
 
-    ![BootMii_Red_Arrow](/images/BootMii/BootMii_Red_Arrow.png)
+    ![](/images/BootMii/BootMii_Red_Arrow.png)
 
 1. Si BootMii est installé en tant qu'IOS, entrez le code Konami sur votre manette GameCube : ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 1. Une fois la restauration terminée, vous devriez voir un texte dire `I HAZ SUCCESS !` (en cas de succès), sinon `I HAZ FAIL` (en cas d'échec). Appuyez sur n'importe quel bouton de votre console Wii ou de votre manette GameCube.
