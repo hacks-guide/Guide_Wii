@@ -2,16 +2,16 @@
 title: "FlashHax"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
 FlashHax is an exploit for the Wii that is triggered by using the Internet Channel. Unlike other exploits, this doesn't require an SD card.
 
-### Requirements
+### Anforderungen
 
 * A Wii with an Internet connection
 * The Internet Channel
 
-### Instructions
+### Anleitung
 
 #### Section I - Prep Work
 
