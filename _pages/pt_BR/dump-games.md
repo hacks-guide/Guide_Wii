@@ -1,120 +1,120 @@
 ---
-title: "Dumping Wii/GameCube games"
+title: "Fazendo backup de jogos de Wii/GameCube"
 ---
 
-{% include toc title="Sumário" %}
+{% include toc title="Table of Contents" %}
 
-This guide covers dumping GameCube or Wii game discs. You can either dump directly to an SD card or USB drive, or over the local network.
+Este guia cobre fazer backup de discos de jogos de GameCube ou Wii. Você pode fazer backup dos seus jogos diretamente para um cartão SD, dispositivo USB ou rede local.
 
-### Dumping a Disc to SD/USB (CleanRip)
+### Fazendo o backup do disco para SD/USB (CleanRip)
 
 #### Requisitos
 
-+ An SD card or USB drive with at least 4.7 GB of free space (8.5 GB if dumping a dual layer disc).
++ Um cartão SD ou armazenamento USB com, no mínimo, 4.7GB de espaço livre (8.5GB se estiver fazendo backup de um disco de camada dupla).
 + [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 #### Instruções
 
-If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), set `Dual Layer` in Step 6 to `Yes`.
+Se você está fazendo backup de um dos 13 jogos [nesta lista](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), defina `Dual Layer` no Passo 6 para `Yes`.
 {: .notice--info}
 
 1. Desligue seu console.
-1. Insert your SD card or USB drive into your computer.
-1. Copy the `apps` folder from the CleanRip `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
+1. Insira seu cartão SD ou armazenamento USB no seu computador.
+1. Copie a pasta `apps` do CleanRip `.zip` para a raiz do seu cartão SD ou armazenamento USB.
+1. Reinsira seu cartão SD ou armazenamento USB no seu console.
 1. Ligue o seu console.
 1. Abra o Homebrew Channel.
-1. Launch CleanRip from the list of homebrew.
-1. Select your device that you will be dumping the game to - a USB device or SD card.
+1. Abra CleanRip na lista de homebrews.
+1. Selecione o dispositivo para onde você estará fazendo o backup do jogo - dispositivo USB ou cartão SD.
 
-    ![Device type](/images/homebrew/CleanRip/2.png)
+    ![](/images/homebrew/CleanRip/2.png)
 
-1. When prompted, select `Yes` to download the redump.org DAT files.
-    + This is required to ensure that the resulting dumps are clean/accurate.
+1. Quando solicitado, selecione `Sim` para baixar os arquivos DAT do redump.org.
+    + Isto é necessário para garantir que os resultados do backup sejam limpos e precisos.
 
-    You may get an exception error if you do this. If so, simply skip and verify your dump on Dolphin Emulator if needed.
+    Você pode receber um "exception error" se você fizer isso. Se sim, simplesmente pule e verifique seu backup no Emulador Dolphin se necessário.
     {: .notice--warning}
 
-    ![DAT](/images/homebrew/CleanRip/3.png)
+    ![](/images/homebrew/CleanRip/3.png)
 
-1. Insert the game disc you would like to dump.
+1. Insira o disco do jogo que você gostaria de fazer backup.
 
-    ![DVD](/images/homebrew/CleanRip/4.png)
+    ![](/images/homebrew/CleanRip/4.png)
 
-1. Set the settings as shown on the screen below, while verifying if your game disc is dual layer or not.
+1. Defina as configurações como mostradas na tela abaixo, enquanto verifica se seu disco é dupla camada ou não.
 
-    ![Settings](/images/homebrew/CleanRip/6.png)
+    ![](/images/homebrew/CleanRip/6.png)
 
-1. Press A to start dumping the disc.
-    + This process can take quite some time, since it will dump the full 4.7 GB disc contents (8.5 GB for dual layer discs).
+1. Pressione A para começar o backup do disco.
+    + Esse processo pode levar bastante tempo, uma vez que fará um backup de todo o conteúdo de 4.7 GB de disco (8.5 GB para discos de camada dupla).
 
-    ![Copying](/images/homebrew/CleanRip/7.png)
+    ![](/images/homebrew/CleanRip/7.png)
 
-1. Proceed to [joining PART files](dump-games#joining-part-files-on-a-fat32-device).
+1. Prossiga para [juntando os arquivos PART](dump-games#joining-part-files-on-a-fat32-device).
 
-### Dumping a Disc over LAN (Wii DVD Dumper)
+### Fazendo backup de um Disco por LAN (Wii DVD Dumper)
 
 #### Requisitos
 
-+ A Windows/macOS/Linux PC with an internet connection
++ Um computador Windows/macOS/Linux com conexão à internet
 + [DVD Dump Tool](/assets/files/DVDDumpTool.zip)
 
 #### Instruções
 
-Download speeds will be slow due to limitations in the network hardware of the Wii, but it remains a valid solution if you are willing to be patient.
+As velocidades de download serão lentas devido a limitações no hardware de rede do Wii, mas continua a ser uma solução válida se estiver disposto a ser paciente.
 {: .notice--info}
 
-Your Wii and your computer must be connected to the same local network.
+Seu Wii e seu computador devem estar conectados à mesma rede local.
 {: .notice--warning}
 
-1. Copy the `DVDDumpTool` folder from the DVDDumpTool `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
+1. Copie a pasta `DVDDumpTool` do DVDDumpTool `.zip` para a raiz do seu cartão SD ou drive USB.
+1. Reinsira seu cartão SD ou armazenamento USB no seu console.
 1. Ligue o seu console.
 1. Abra o Homebrew Channel.
-1. Launch DVD Dump Tool from the list of homebrew.
-1. Press right on the D-pad, then press A.
-1. Choose the disc that you want to copy (The options are: `GameCube Disc`, `Wii Single-Layer Disc`, `Wii Dual-Layer Disc`) and press "A"
+1. Abra DVD Dump Tool na lista de homebrews.
+1. Pressione direita no D-Pad, então pressione A.
+1. Escolha o disco que você deseja copiar (As opções são: `GameCube Disc`, `Wii Single-Layer Disc`, `Wii Dual-Layer Disc`)
 
-    ![2](/images/homebrew/DumpDiscs_LAN/2.png)
-1. Insert the game disc into your Wii.
-    + If it is already inserted, eject and reinsert the disc.
+    ![](/images/homebrew/DumpDiscs_LAN/2.png)
+1. Insira o disco do jogo no seu Wii.
+    + Se já estiver inserido, ejeta e insira novamente o disco.
 
-    ![InsertTheDisc](/images/homebrew/DumpDiscs_LAN/insertthedisc.jpg)
-1. Select the proper disc type.
+    ![](/images/homebrew/DumpDiscs_LAN/insertthedisc.jpg)
+1. Selecione o tipo de disco adequado.
 
-    ![3](/images/homebrew/DumpDiscs_LAN/3.png)
-1. Press any button to begin the dumping process.
+    ![](/images/homebrew/DumpDiscs_LAN/3.png)
+1. Pressione qualquer botão para iniciar o processo de backup.
 
-    ![4](/images/homebrew/DumpDiscs_LAN/4.png)
-1. Remember or write down your Wii's URL (IP address).
-1. On your computer, open the browser, go to your address bar and enter the Wii URL.
+    ![](/images/homebrew/DumpDiscs_LAN/4.png)
+1. Lembre-se ou anote a URL do seu Wii (endereço de IP).
+1. No seu computador, abra o navegador, vá para sua barra de endereços e insira a URL do Wii.
 
-    ![5](/images/homebrew/DumpDiscs_LAN/5.png)
-1. Click on `Click here to download XXXX.iso`.
-1. Proceed to [joining PART files](dump-games#joining-part-files-on-a-fat32-device).
+    ![](/images/homebrew/DumpDiscs_LAN/5.png)
+1. Clique em `Click here to download XXXX.iso`.
+1. Prossiga para [juntando os arquivos PART](dump-games#joining-part-files-on-a-fat32-device).
 
-### Joining PART files on a FAT32 device
+### Juntando arquivos PART em um dispositivo FAT32
 
-If you dumped the disc (regardless if it was to a PC or Wii) on a FAT32 formatted device, you should have gotten at least two files that end with `.partX.iso`. They need to be joined.
+Se você fez backup do disco (independente se fosse para um PC ou Wii) em um dispositivo formatado em FAT32, você deve ter obtido pelo menos dois arquivos que terminam com `.partX.iso`. Eles precisam ser juntados.
 {: .notice--info}
 
 #### Windows
 
-1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
-1. In this folder, click the address bar in Windows Explorer and copy its PATH.
-1. Open a PowerShell or Windows Terminal window.
-1. Run `cd [PATH]`.
-1. Type `copy /b *.part?.iso game.iso` and press enter.
-1. Wait until the merging process finishes.
-    + It should end with the terminal outputting `1 file(s) copied`.
+1. Copie os arquivos que compartilham o mesmo nome e termine com `.partX.iso` em uma pasta vazia no seu computador.
+1. Nesta pasta, clique na barra de endereços no Windows Explorer e copie seu PATH.
+1. Abra uma janela do Windows Terminal ou PowerShell.
+1. Execute `cd [PATH]`.
+1. Digite `copy /b *.part?.iso game.iso` e pressione enter.
+1. Aguarde até que o processo de fusão termine.
+    + Ele deve terminar com o terminal colocando `1 arquivo(s) copiado(s)` ou `1 file(s) copied`.
 
 #### macOS/Linux
 
-1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
-1. Open up a Terminal.
-1. Run `cd [PATH]`, replacing [PATH] with the folder path to your `.partX.iso` files.
-1. Use the following command as is: `cat \*.part?.iso > game.iso`.
-1. Wait until the merging process finishes.
+1. Copie os arquivos que compartilham o mesmo nome e termine com `.partX.iso` em uma pasta vazia no seu computador.
+1. Abra o Terminal.
+1. Execute `cd [PATH]`, substituindo [PATH] pelo caminho da pasta com seus arquivos `.partX.iso`.
+1. Use o seguinte comando: `cat \*.part?.iso > game.iso`.
+1. Aguarde até que o processo de fusão termine.
 
-To organize the games on your drive properly, you can use [Wii Backup Manager](wiibackupmanager).
+Para organizar os jogos apropriadamente no seu armazenamento, você pode usar o [Wii Backup Manager](wiibackupmanager).
 {: .notice--info}
