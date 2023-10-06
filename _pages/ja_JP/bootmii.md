@@ -4,9 +4,9 @@ title: "NANDのバックアップ(BootMii)"
 
 {% include toc title="Table of Contents" %}
 
-BootMii allows for backing up and restoring your Wii's NAND storage. This page will guide you in backing up your Wii's NAND to an SD Card, which you can then use however you like.
+BootMiiはNANDのデータをバックアップしたり、ロードするために使えます。 このページはWiiのNANDをSDカードにバックアップする説明をします。
 
-Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. Regardless, it is still recommended to make one on these consoles.
+ファミリーエディションのWiiはNANDのロードはできません。（日本のWiiにはありません） This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. Regardless, it is still recommended to make one on these consoles.
 {: .notice--danger}
 
 You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
