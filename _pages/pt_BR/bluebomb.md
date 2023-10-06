@@ -48,7 +48,7 @@ Certifique-se de que o console esteja perto do computador rodando o exploit, o i
 1. Perceba no canto superior direito a letra próxima da versão do sistema.
     + Esta letra corresponde à região de menu do seu sistema, que você precisará saber para os passos correspondentes.
 
-    ![Wii Region](/images/wii/SystemMenuVersion.png)
+    ![Região do Wii](/images/wii/SystemMenuVersion.png)
 
 1. Desligue seu console.
 1. Inicie sua distribuição Linux e verifique se você está conectado à internet.
@@ -74,5 +74,5 @@ Certifique-se de que o console esteja perto do computador rodando o exploit, o i
 Se usando um Wii: [Continuar para o Homebrew Channel e para a Instalação do BootMii](hbc)<br>
 {: .notice--info}
 
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+Se usando um Wii mini: [Continuar para a instalação do Homebrew Channel](hbc-mini)
 {: .notice--info}
