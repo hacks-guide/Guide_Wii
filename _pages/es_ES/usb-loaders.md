@@ -25,14 +25,14 @@ Forwarders to open these loaders on the Wii Menu can be found on the Open Shop C
     + WiiFlow Lite has a plugin system.
     + While the original WiiFlow was last updated in 2014, the WiiFlow Lite fork is still recieving regular updates.
 
-    ![WiiFlow UI](/images/usb-loaders//wiiflow-ui.png)
+    ![](/images/usb-loaders//wiiflow-ui.png)
 
 + USB Loader GX is primarily modeled after the Wii Menu, and supports themes.
     + While SD cards were previously unsupported for loading Wii games on USB Loader GX, recent updates have introduced support into the loader.
     + USB Loader GX has no plugin system.
     + USB Loader GX still recieves regular updates.
 
-    ![USB Loader GX UI](/images/usb-loaders/usbloadergx-ui.png)
+    ![](/images/usb-loaders/usbloadergx-ui.png)
 
 ### Game Directory Structure
 
@@ -82,7 +82,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 + Disc - Loads a game that is in the disc drive.
 + House - Opens the menu below. The menu can also be launched by pressing the home button.
 
-![WiiFlow Menu](/images/usb-loaders/wiiflow-menu.png)
+![](/images/usb-loaders/wiiflow-menu.png)
 
 + Help Guide - Shows all the controls you can use in WiiFlow.
 + Reload Cache - Press this to allow WiiFlow to rescan for games on the USB device or SD card.
