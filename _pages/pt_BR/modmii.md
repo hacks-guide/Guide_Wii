@@ -114,5 +114,5 @@ When following one of the exploit guides above, avoid replacing the `boot.elf` f
 
 </details>
 
-[Click here to go back to the site index.](site-navigation)
+[Clique aqui para voltar ao índice do site.](site-navigation)
 {: .notice--info}
