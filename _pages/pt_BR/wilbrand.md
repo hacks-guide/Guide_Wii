@@ -2,7 +2,7 @@
 title: "Wilbrand"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Sumário" %}
 
 Wilbrand, like LetterBomb, is an exploit for the Wii that is triggered using the Wii Message Board.
 
@@ -14,7 +14,7 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 
 ### Wilbrand Web (Recommended)
 
-#### Requirements
+#### Requisitos
 
 * An SD card formatted to FAT32/MS-DOS (FAT)
 * A Wii on at least version 3.0
@@ -22,14 +22,14 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Instruções
 
-1. Power on your console.
-1. Go to `Wii Settings`.
+1. Ligue o seu console.
+1. Vá para `Wii Settings`.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Esta letra corresponde à região de menu do seu sistema, que você precisará saber para os passos correspondentes.
 
-    ![Wii Region](/images/wii/SystemMenuVersion.png)
+    ![Região do Wii](/images/wii/SystemMenuVersion.png)
 
 1. Navigate to `Internet` > `Console Information`.
 1. Take note of your FULL MAC address.
@@ -57,7 +57,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Se o exploit foi bem sucedido, seu console irá carregar o Instalador HackMii.
     + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started) (ie. Letterbomb).
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
@@ -65,25 +65,25 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 ### Wilbrand CLI
 
-#### Requirements
+#### Requisitos
 
 * A computer running Windows, macOS or Linux
 * An SD card formatted to FAT32/MS-DOS (FAT)
 * A Wii on version 3.0 or newer
 * [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
-* [HackMii Installer v1.2](https://bootmii.org/download/)
+* [Instalador HackMii v1.2](https://bootmii.org/download/)
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Instruções
 
-1. Power on your console.
-1. Go to `Wii Settings`.
+1. Ligue o seu console.
+1. Vá para `Wii Settings`.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Esta letra corresponde à região de menu do seu sistema, que você precisará saber para os passos correspondentes.
 
-    ![Wii Region](/images/wii/SystemMenuVersion.png)
+    ![Região do Wii](/images/wii/SystemMenuVersion.png)
 
 1. Navigate to `Internet` > `Console Information`.
 1. Take note of your FULL MAC address.
@@ -119,7 +119,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Se o exploit foi bem sucedido, seu console irá carregar o Instalador HackMii.
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}
