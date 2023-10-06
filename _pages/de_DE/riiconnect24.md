@@ -37,45 +37,45 @@ If you are on vWii, you will also need [Priiloader](priiloader) installed with t
     + On macOS/Linux systems, open Terminal and type `bash`, then drag `RiiConnect24Patcher.sh` into the terminal then press enter. It should look like this: `bash <directory>/<directory>/RiiConnect24Patcher.sh`.
 1. Press 1 to choose "`Start`" and confirm your selection by pressing `ENTER`.
 
-    ![RiiConnect24 Patcher Main Screen](/images/riiconnect24/patcher/1.JPG)
+    ![](/images/riiconnect24/patcher/1.JPG)
 
 1. Select the device you're patching for.
 
-    ![Select your device](/images/riiconnect24/patcher/2.JPG)
+    ![](/images/riiconnect24/patcher/2.JPG)
 
 1. For this guide, choose "`Install RiiConnect24 on your Wii`"
 
-    ![Install RiiConnect24](/images/riiconnect24/patcher/3.JPG)
+    ![](/images/riiconnect24/patcher/3.JPG)
 
 1. Choose "`Express (Recommended)`". It will give you everything you need.
 
-    ![Express Settings](/images/riiconnect24/patcher/4.JPG)
+    ![](/images/riiconnect24/patcher/4.JPG)
 
 1. Select your region.
 
-    ![Select your region](/images/riiconnect24/patcher/5.JPG)
+    ![](/images/riiconnect24/patcher/5.JPG)
 
 1. While you're at it, RiiConnect24 Patcher can additionally download some other optional channels that do not use RiiConnect24. `[X]` represents the options that selected. Just press 5 and `ENTER` if you're not interested.
 
-    ![Additional optional channels](/images/riiconnect24/patcher/6.JPG)
+    ![](/images/riiconnect24/patcher/6.JPG)
 
 1. Connect your SD Card or USB Drive to your computer and select "`1`".
 
-    ![Enable copying to SD Card](/images/riiconnect24/patcher/7.JPG)
+    ![](/images/riiconnect24/patcher/7.JPG)
 
 1. If your device was detected successfully, select "`1`". If not, make sure there's a folder called `apps` on your SD Card or USB Drive and try again.
 
-    ![Successfully detected](/images/riiconnect24/patcher/8.JPG)
+    ![](/images/riiconnect24/patcher/8.JPG)
 
 1. The patcher will download apps now - please be patient.
 
-    ![It's patching!](/images/riiconnect24/patcher/9.JPG)
+    ![](/images/riiconnect24/patcher/9.JPG)
 
 1. Once you reach the screen that says `Patching done`, you can exit the patcher. All the files should already be on your SD card.
 
-    ![It's done!](/images/riiconnect24/patcher/10.JPG)
+    ![](/images/riiconnect24/patcher/10.JPG)
 
-    ![Files copied](/images/riiconnect24/patcher/11.PNG)
+    ![](/images/riiconnect24/patcher/11.PNG)
 
 1. If it did not copy everything automatically to your SD Card or USB Device, copy the `WAD` and `apps` folder next to `RiiConnect24Patcher.bat` or `RiiConnect24Patcher.sh` to your SD Card or USB Device.
 
