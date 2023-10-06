@@ -1,15 +1,15 @@
 ---
-title: "USB Loaders"
+title: "USBローダー"
 ---
 
 {% include toc title="Table of Contents" %}
 
-This guide introduces USB loaders on the Wii. They can be primarily used to load game backups that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
+ここではUSBローダーをWiiに入れる説明をします。 主にディスクのダンプを遊ぶために使えます。 ローダーにより、Wii以外のゲームを遊ぶメニューにも使えます。 一番使われるローダーはUSB Loader GXとWiiFlow Lite（WiiFlowの更新されたモッド版）で、使い方により使いやすいものが変わるため、両方使われることがお勧めします。
 
-**Note about Configurable USB Loader:**<br> Due to the age and lack of support for Configurable USB Loader (last update was in 2011), this guide does not provide dedicated installation instructions. If enough demand is there, it may be added in the future.
+**Configurable USB Loaderについて**<br> Configurable USB Loaderは長い間サポートされてないため、ここではインストールの説明をしていません。 もし希望が多いそうな場合、追加します。
 {: .notice--warning}
 
-In order for a USB loader to function properly, you must have the correct cIOS installed. Please check [this](cios) guide for instructions if you are on Wii, and [this](cios-mini) guide if you are on Wii mini.
+USBローダーが使えるようにするためには、正しいcIOSのインストールが必要となります。 Wiiで使うためには[この](cios)ガイド、Wii Miniで使う場合は[この](cios-mini)ガイドを使ってください。
 {: .notice--warning}
 
 To play games, you are advised to use a large SD card or an external hard drive, flash drives are very sporadic in functionality. See [storage FAQ](faq).
