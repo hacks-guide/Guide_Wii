@@ -2,7 +2,7 @@
 title: "Wilbrand"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
 Wilbrand, like LetterBomb, is an exploit for the Wii that is triggered using the Wii Message Board.
 
@@ -14,7 +14,7 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 
 ### Wilbrand Web (Recommended)
 
-#### Requirements
+#### Anforderungen
 
 * An SD card formatted to FAT32/MS-DOS (FAT)
 * A Wii on at least version 3.0
@@ -22,7 +22,7 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Anleitung
 
 1. Power on your console.
 1. Go to `Wii Settings`.
@@ -65,7 +65,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 ### Wilbrand CLI
 
-#### Requirements
+#### Anforderungen
 
 * A computer running Windows, macOS or Linux
 * An SD card formatted to FAT32/MS-DOS (FAT)
@@ -76,7 +76,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Anleitung
 
 1. Power on your console.
 1. Go to `Wii Settings`.
