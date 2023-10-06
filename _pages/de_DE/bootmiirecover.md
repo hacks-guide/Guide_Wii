@@ -2,7 +2,7 @@
 title: "BootMii-Wiederherstellung"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
 Diese Anleitung gibt Anweisungen, wie man ein Backup deines NAND mit BootMii wiederherstellen kann. Bitte beachte, dass dies in der Regel die <strong>letzte</strong> Methode ist, um einen Brick zu reparieren, falls du einen hast und wenn es dein Problem nicht behebt, musst du eventuell nach Unterstützung suchen. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
 
@@ -19,7 +19,7 @@ Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. T
 DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same goes for using faulty SD cards.
 {: .notice--danger}
 
-### Requirements
+### Anforderungen
 
 * An earlier NAND Backup made by [BootMii](bootmii)
 
@@ -39,10 +39,10 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 + You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad on a GameCube controller. To select, press A.
 
-### Instructions
+### Anleitung
 
 1. Starte den Homebrewkanal.
-1. Press the HOME Button, then select "Launch BootMii".
+1. Drücke den HOME Knopf, wähle dann "Launch BootMii".
 1. Wähle den Optionen-Button (das Icon mit dem Zahnrad).
 
     ![](/images/BootMii/BootMii_Gears_Icon.png)
