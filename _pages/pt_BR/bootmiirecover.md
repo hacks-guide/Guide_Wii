@@ -6,14 +6,14 @@ title: "BootMii Recovery"
 
 This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
 
-If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+Se você tem o BootMii instalado como boot2, você precisará iniciar o BootMii reiniciando o console. Pule os passos 1 e 2 se for esse o caso.
 {: .notice--info}
 
-If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+Se a tela permanecer preta e a luz azul do disco piscar ao iniciar o BootMii, você não possui os arquivos do BootMii no seu cartão SD. Baixe [esse arquivo zip](https://static.hackmii.com/bootmii_sd_files.zip) e extraia ele para a raiz do seu cartão SD, então, tente novamente.
 {: .notice--warning}
 
 
-Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
+Wiis "Family Edition" (Wiis sem portas GameCube) NÃO PODEM restaurar backups da NAND. Isso ocorre devido à falta de portas GameCube que são necessárias em Wiis sem boot2 para entrar no código de confirmação de restauração. For additional help, please seek support.
 {: .notice--danger}
 
 DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same goes for using faulty SD cards.
@@ -41,11 +41,11 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ### Instruções
 
-1. Launch the Homebrew Channel.
-1. Press the HOME Button, then select "Launch BootMii".
-1. Select the Options button (the icon with the gears).
+1. Abra o Homebrew Channel.
+1. Pressione o botão HOME, depois selecione "Launch BootMii".
+1. Selecione o botão Opções (o ícone com as engrenagens).
 
-    ![BootMii_Gears_Icon](/images/BootMii/BootMii_Gears_Icon.png)
+    ![BootMii_Icone_Engrenagens](/images/BootMii/BootMii_Gears_Icon.png)
 
 1. Select the RestoreMii button.
 
