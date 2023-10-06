@@ -12,57 +12,57 @@ title: "USBローダー"
 USBローダーが使えるようにするためには、正しいcIOSのインストールが必要となります。 Wiiで使うためには[この](cios)ガイド、Wii Miniで使う場合は[この](cios-mini)ガイドを使ってください。
 {: .notice--warning}
 
-To play games, you are advised to use a large SD card or an external hard drive, flash drives are very sporadic in functionality. See [storage FAQ](faq).
+ゲームを遊ぶときはSDカードやハードディスクを使うお勧めします。フラッシュメモリーは利用性が低いため推奨されません。 詳しくは[FAQ](faq)を確認してください。
 {: .notice--info}
 
-Forwarders to open these loaders on the Wii Menu can be found on the Open Shop Channel for [WiiFlow Lite](https://oscwii.org/library/app/wiiflow_channel_installer) or on the official SourceForge page for [USB Loader GX](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad/download). You can install either with [YAWM ModMii Edition](yawmme).
+Wii Menuでローダーを開くフォーワーダーはそれぞれWii Flow Liteは[オープンショップチャンネル](https://oscwii.org/library/app/wiiflow_channel_installer)で、USB Loader GXは[SourceForge](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad/download)からダウンロードできます。 どちらも[YAWM ModMiiエディション](yawmme)でインストールできます。
 {: .notice--info}
 
-### Differences between WiiFlow Lite and USB Loader GX
+### WiiFlow LiteとUSB Loader GXの違い
 
-+ WiiFlow Lite has a more advanced user interface in terms of animation and effects, and supports themes.
-    + SD cards are fully supported for loading Wii games on WiiFlow Lite.
-    + WiiFlow Lite has a plugin system.
-    + While the original WiiFlow was last updated in 2014, the WiiFlow Lite fork is still recieving regular updates.
++ WiiFlow Liteはもっと設定が細かいUIやテーマが使えます。
+    + WiiFlow LiteではSDカードが対応してます。
+    + プラグインに対応してます。
+    + WiiFlowは2014年に廃止されましたが、WiiFlow Liteは現在でもアップデートされてます。
 
     ![WiiFlow UI](/images/usb-loaders//wiiflow-ui.png)
 
-+ USB Loader GX is primarily modeled after the Wii Menu, and supports themes.
-    + While SD cards were previously unsupported for loading Wii games on USB Loader GX, recent updates have introduced support into the loader.
-    + USB Loader GX has no plugin system.
-    + USB Loader GX still recieves regular updates.
++ USB Loader GXはWii Menuと同じデザインを使っており、テーマが使えます。
+    + SDカード対応はもともとありませんでしたが、最近のアップデートで対応性が追加されました。
+    + USb Loader GXはプラグインに対応してません。
+    + USB Loader GXは現在もアップデートされてます。
 
     ![USB Loader GX UI](/images/usb-loaders/usbloadergx-ui.png)
 
-### Game Directory Structure
+### ゲームディレクトリのテンプレート
 
 ```
-💾 SD Card or USB Drives
-| ╸📁 wbfs
-    | ╸📁 GameName [GameID]
-    |   | ╸📄 GameID.wbfs (for non-split titles)
-    | ╸📂GameName [GameID]
-        | ╸📄gameid.wbfs
-        | ╸📄gameid.wbf1
+💾SDカード・ハードディスク
+| ╸📁wbfs
+    | ╸📁 ゲーム名 [ゲームID]
+    |   | ╸📄 ゲームID.wbfs (ファイルがスプリットされてない場合)
+    | ╸📂ゲーム名 [ゲームID]
+        | ╸📄ゲームID.wbfs
+        | ╸📄ゲームID.wbf1
 ```
 
 ### WiiFlow Lite
 
 #### 必要なもの
-+ A modded Wii
-+ Fully installed [cIOS](cios)
++ モッドされたWii
++ インストールされた[cIOS](cios)
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
-#### Installation
+#### インストールの手順
 
-1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
-1. Download WiiFlow and install it on your SD Card or USB device.
+1. WiiにcIOS 248-251がインストールされてることを確認してください。[SysChecker](syscheck)などのアプリやd2x cIOSインストーラで見れます。
+1. WiiFlowをダウンロードしSDカードまたはハードディスクにインストールしてください。
 
-#### Quick Start Guide
+#### クイックスタートガイド
 
-##### General
+##### 基本
 
-+ WiiFlow by default is set to only find games on the SD card. This can be changed by going to `Settings > Startup Settings` to then turn off `Mount SD Only`.
++ WiiFlowは自動的にSDカードに載っているゲームだけ読み取るようになってます。 This can be changed by going to `Settings > Startup Settings` to then turn off `Mount SD Only`.
 + You can toggle the current view in Wiiflow between plugins, games, homebrew, and Wii channels by clicking the button to the left of `Home`, on the bottom right.
 + You can download game covers by going to `Settings` > `Download Covers and Banners`.
 
@@ -97,17 +97,17 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 #### 必要なもの
 + A modded Wii
-+ Fully installed [cIOS](cios)
++ インストールされた[cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
 #### Installation
 
-1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
+1. WiiにcIOS 248-251がインストールされてることを確認してください。[SysChecker](syscheck)などのアプリやd2x cIOSインストーラで見れます。
 1. Download USB Loader GX and install it on your SD Card or USB device.
 
 #### Quick Start Guide
 
-##### General
+##### 基本
 
 + If USB Loader GX says "Waiting for HDD..." with a 20 second countdown, it is very likely that it cannot detect your USB device. Try to exit out of the app, plug your USB device into the opposite port that it is currently in, and relaunch it.
 + You can press the 1 Button on your Wii Remote to open up a dialog to download game covers and artwork from [GameTDB](https://gametdb.com/). It might take a while to download the game covers and artwork, depending the amount of games you have.
