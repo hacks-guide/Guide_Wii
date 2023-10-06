@@ -48,7 +48,7 @@ Assurez-vous que la console est proche de l'ordinateur qui exécute l'exploit, i
 1. Prenez note dans le coin supérieur droit de la lettre à côté de la version du système.
     + Cette lettre est la région du menu système, que vous devrez connaître pour les étapes qui en ont besoin.
 
-    ![Région de la Wii](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 1. Éteignez votre console.
 1. Démarrez votre distribution Linux et assurez-vous que vous êtes connecté à Internet.
