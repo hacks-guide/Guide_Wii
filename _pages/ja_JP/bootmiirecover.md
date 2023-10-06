@@ -13,7 +13,7 @@ If the screen stays black and the blue disc drive light is blinking upon launchi
 {: .notice--warning}
 
 
-Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
+ファミリーエディションのWiiはNANDのロードはできません。（日本のWiiにはありません） This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
 {: .notice--danger}
 
 DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same goes for using faulty SD cards.
