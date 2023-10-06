@@ -1,16 +1,16 @@
 ---
-title: "Privacy Policy"
+title: "Política de Privacidade"
 ---
 
 ### Cookies
 
-This site utilizes cookies in order to facilitate routing users through the guide instructions. Cookies allow for the sidebar of the page to display current progress through the site to help users navigate the instructions more easily.
+Este site utiliza cookies para facilitar o roteamento dos usuários através das instruções guiadas. Cookies permitem que a barra lateral da página exiba o progresso atual através do site para ajudar os usuários a navegar as instruções com mais facilidade.
 
-### Embedded Content From Other Websites
+### Conteúdo incorporado de outros sites
 
-This site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves as if the user has visited the other website.
+Este site pode incluir conteúdo incorporado (por exemplo, vídeos, imagens, artigos, etc.). O conteúdo incorporado de outros sites se comporta como se o usuário tivesse visitado o outro site.
 
-These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
+Esses sites podem coletar dados sobre você, usar cookies, incorporar rastreamento adicional de terceiros e monitorar sua interação com esse conteúdo incorporado. incluindo acompanhar sua interação com o conteúdo incorporado se você tem uma conta e está logado nesse site.
 
 ### Analytics
 
