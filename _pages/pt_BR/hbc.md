@@ -1,55 +1,55 @@
 ---
-title: "Homebrew Channel and BootMii Installation"
+title: "Instalação do Homebrew Channel e BootMii"
 ---
 
 {% include toc title="Sumário" %}
 
-The Homebrew Channel is where you will go to launch homebrew applications. BootMii is a piece of software that can backup and restore your Wii's NAND storage, and if installed in boot2, provide brick protection.
+O Homebrew Channel é onde você irá para executar homebrews. BootMii é um software capaz de fazer backup e restauração da NAND do seu Wii e, se instalado em boot2, fornece proteção contra bricks.
 
-BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot2 are considerably rarer, having been manufactured before 2009. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
+BootMii pode ser instalado de duas maneiras: diretamente em uma parte do bootloader do Wii, chamado boot2, ou através de uma IOS. BootMii sob boot2 é preferido, uma vez que fornece proteção estendida contra brick, mas os Wiis com boot2 vulnerável são consideravelmente mais raros, tendo sido fabricado antes de 2009. Na maioria dos casos, instalar o BootMii como IOS não deve ter problemas, contanto que você também instale o [Priiloader](priiloader).
 {: .notice--info}
 
-If you do not have an SD card, you cannot install nor use BootMii, regardless of whether you install it as IOS or boot2. You can always [install it later](hackmii).
+Se você não tem um cartão SD, você não pode instalar nem usar o BootMii, independente se você o instalar como IOS ou boot2. Você sempre pode [instalá-lo depois](hackmii).
 {: .notice--warning}
 
 ### Instruções
 
-1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
-    + You will see a scam warning screen.
+1. Seu console deve estar ligado e mostrando o HackMii Installer da parte anterior do guia.
+    + Você verá uma tela de aviso de golpe financeiro.
 
-    ![Scam Screen](/images/hackmii/scam.png)
+    ![](/images/hackmii/scam.png)
 
-1. Wait 30 seconds for the text "Press 1 to continue" to appear, then press 1.
-1. Select `Continue`.
+1. Aguarde 30 segundos para que o texto "Press 1 to continue" apareça, então pressione 1.
+1. Selecione `Continue`.
 
-    ![Results](/images/hackmii/test_results.png)
+    ![](/images/hackmii/test_results.png)
 
-1. Select `Install the Homebrew Channel`.
+1. Selecione `Install the Homebrew Channel`.
 
-    ![Homebrew Channel installation](/images/hackmii/hbc_install.png)
+    ![](/images/hackmii/hbc_install.png)
 
 1. Once it is completed, select `Continue`.
 
-    ![Homebrew Channel installation OK](/images/hackmii/hbc_install_ok.png)
+    ![](/images/hackmii/hbc_install_ok.png)
 
 1. Select `Back`, then select `BootMii`.
 
-    ![BootMii](/images/hackmii/bootmii_install.png)
+    ![](/images/hackmii/bootmii_install.png)
 
 1. Select `Install BootMii as IOS`.
 
-    ![BootMii installation](/images/hackmii/bootmii_install1.png)
+    ![](/images/hackmii/bootmii_install1.png)
 
-    ![BootMii SD card prompt](/images/hackmii/bootmii_install2.png)
+    ![](/images/hackmii/bootmii_install2.png)
 
-    ![BootMii SD card preparation](/images/hackmii/bootmii_install3.png)
+    ![](/images/hackmii/bootmii_install3.png)
 
-    ![BootMii installation OK](/images/hackmii/bootmii_install_ok.png)
+    ![](/images/hackmii/bootmii_install_ok.png)
 
 1. Once it is completed, select `Continue`.
 1. If you have the option to `Install BootMii as boot2`, please do so as well.
 
-    ![BootMii boot2 Installation](/images/hackmii/bootmii_install4.png)
+    ![](/images/hackmii/bootmii_install4.png)
 
 1. Select `Exit`.
 1. Your console will have booted into the Homebrew Channel.
