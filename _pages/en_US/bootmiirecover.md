@@ -44,7 +44,9 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 1. Launch the Homebrew Channel.
 1. Press the HOME Button, then select "Launch BootMii".
     + If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
+
     ![](/images/bootmii/BootMii_HBC.png)
+
 1. Select the Options button (the icon with the gears).
 
     ![](/images/bootmii/BootMii_Gears.png)
@@ -60,9 +62,11 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 1. If BootMii is installed as IOS, input the Konami code on your GameCube controller: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 
     ![](/images/bootmii/BootMii_NAND_Konami.png)
+
 1. BootMii will run through the restore process as a simulation, detailing what will be erased and rewritten. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin.
 
     ![](/images/bootmii/BootMii_NAND_Restore.png)
+
 1. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Hit any button on your Wii console or GCN controller.
 
     ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
@@ -70,6 +74,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 1. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
 
     ![](/images/bootmii/BootMii_Return.png)
+
 If you were restoring a NAND backup in order to repair a brick and this did not fix your issue, please consult [the bricks portion](bricks) of this guide.
 {: .notice--info}
 
