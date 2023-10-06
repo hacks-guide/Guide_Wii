@@ -1,10 +1,10 @@
 ---
-title: "BootMii Recovery"
+title: "Recuperação com BootMii"
 ---
 
 {% include toc title="Sumário" %}
 
-This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
+Este guia fornecerá instruções sobre como restaurar um backup da sua NAND com o BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
 
 Se você tem o BootMii instalado como boot2, você precisará iniciar o BootMii reiniciando o console. Pule os passos 1 e 2 se for esse o caso.
 {: .notice--info}
@@ -45,11 +45,11 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 1. Pressione o botão HOME, depois selecione "Launch BootMii".
 1. Selecione o botão Opções (o ícone com as engrenagens).
 
-    ![BootMii_Icone_Engrenagens](/images/BootMii/BootMii_Gears_Icon.png)
+    ![](/images/BootMii/BootMii_Gears_Icon.png)
 
 1. Select the RestoreMii button.
 
-    ![BootMii_Red_Arrow](/images/BootMii/BootMii_Red_Arrow.png)
+    ![](/images/BootMii/BootMii_Red_Arrow.png)
 
 1. If BootMii is installed as IOS, input the Konami code on your GameCube controller: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 1. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Hit any button on your Wii console or GCN controller.
