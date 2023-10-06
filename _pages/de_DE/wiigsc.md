@@ -2,7 +2,7 @@
 title: "Creating Wii Game Shortcuts"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
 Do you use a USB Loader and want to create game shortcuts to launch them on your Wii Menu? Then try WiiGSC (Wii Game Shortcut Creator), previously known as Crap.
 
@@ -12,7 +12,7 @@ In the case of a brick, [installing Priiloader is a must](/priiloader). Also, in
 Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will brick your Wii.
 {: .notice--warning}
 
-### Requirements
+### Anforderungen
 
 * A Wii
 * A USB drive
@@ -20,7 +20,7 @@ Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It
 * A Windows computer.
 * [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
 
-### Instructions
+### Anleitung
 
 1. Install WiiGSC, then right click on it and choose **Run as administrator**. If you do not do this, WiiGSC will throw an error when you open it.
 
