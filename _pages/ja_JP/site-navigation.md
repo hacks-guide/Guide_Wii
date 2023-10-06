@@ -15,17 +15,17 @@ sitemap: false
 
 {% capture notice-2 %}
 **Wiiオンラインサービス**
-+ [Nintendo Wi-Fi Connection](wiimmfi)
-+ [Setting RTC Time](wiiconnect24#updating-rtc-clock)
++ [Wi-Fiコネクション](wiimmfi)
++ [RTC時間の設定](wiiconnect24#updating-rtc-clock)
 + [WiiConnect24](wiiconnect24)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-3 %}
-**Modding 101 - Exploits**
+**ハッキングの基本：ハック手段**
 + [BlueBomb](bluebomb)
 + [FlashHax](flashhax)
-+ [Legacy Exploits](legacy-exploits)
++ [他のハッキング方法](legacy-exploits)
 + [LetterBomb](letterbomb)
 + [str2hax](str2hax)
 + [Wilbrand](wilbrand)
@@ -33,44 +33,44 @@ sitemap: false
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-4 %}
-**Modding 101 - Wii Essentials**
+**ハッキングの基本：ソフト**
 + [NANDのバックアップ(BootMii)](bootmii)
-+ [NANDのリストア(BootMii)](bootmiirecover)
-+ [Brick Overview](bricks)
++ [NANDのロード(BootMii)](bootmiirecover)
++ [ブリックについて](bricks)
 + [ブリック阻止](bricks#brick-prevention)
 + [cIOS](cios)
-+ [Homebrew Channel](hbc)
++ [ホームブルーチャンネル](hbc)
 + [ModMii](modmii)
-+ [Open Shop Channel](osc)
++ [オープンショップチャンネル](osc)
 + [Priiloader](priiloader)
-+ [Relaunching the HackMii Installer](hackmii)
-+ [Updating Wii Menu to v4.3](update)
++ [HackMiiインストーラの再起動](hackmii)
++ [Wiiメニューをv4.3に更新する](update)
 + [Wii MiniのNANDダンパー](wnd-mini)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 
 {% capture notice-5 %}
-**Homebrew**
-+ [Creating Wii Game Shortcuts](wiigsc)
-+ [GameCube Backup Manager](gcbackupmanager)
-+ [How to dump Channels (WADs)](dump-wads)
-+ [How to dump GameCube/Wii Games](dump-games)
+**ホームブルー**
++ [ゲームのショートカットを作る](wiigsc)
++ [ゲームキューブバックアップマネジャー](gcbackupmanager)
++ [チャンネル（WAD）のダンプの仕方](dump-wads)
++ [ゲームキューブ・Wiiのゲームのダンプの仕方](dump-games)
 + [RSSMii](rssmii)
-+ [Managing GameCube Save Files](gcsaves)
++ [ゲームキューブのセーブファイルの管理](gcsaves)
 + [Nintendont](nintendont)
-+ [Playing Wii Game Mods](riivolution)
-+ [Recommended Homebrew](recommended-homebrew)
-+ [USB Loaders](usb-loaders)
-+ [Using SysCheck](syscheck)
-+ [Wii Backup Manager](wiibackupmanager)
-+ [Wii Themes Guide](themes)
++ [Wiiゲームのモッドを使う](riivolution)
++ [推奨されるホームブルー](recommended-homebrew)
++ [USBローダー](usb-loaders)
++ [SysCheckを使う](syscheck)
++ [Wiiバックアップマネジャー](wiibackupmanager)
++ [Wii テーマガイド](themes)
 {% endcapture %}
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
-**Wii mini**
-+ [Installing the Homebrew Channel on the Wii mini](hbc-mini)
-+ [Installing cIOS on the Wii mini](cios-mini)
+**Wii Mini**
++ [Wii Miniでホームブルーチャンネルをインストールする](hbc-mini)
++ [Wii MiniにcIOSをインストールする](cios-mini)
 {% endcapture %}
 <div class="notice--primary">{{ notice-6 | markdownify }}</div>
