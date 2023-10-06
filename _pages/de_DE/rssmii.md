@@ -2,7 +2,7 @@
 title: "Installing RSSMii"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
 This guide provides instructions on installing RSSMii, a homebrew app that parses RSS feeds from your SD card and sends them to your Wii Menu.
 
@@ -12,12 +12,12 @@ Due to the nature of RSS feeds and the large amount of mail they can generate, t
 If you're not receiving updates after a few days, you might need to subscribe to the RSS feeds again. Launch RSSMii from the Homebrew Channel again and it should create new subscriptions.
 {: .notice--info}
 
-### Requirements
+### Anforderungen
 
 * An SD card
 * [RSSMii](https://oscwii.org/library/app/rssmii)
 
-### Instructions
+### Anleitung
 #### Section I - Downloading/Installing
 
 1. Extract RSSMii and put it in the `apps` folder on your SD card.
@@ -58,7 +58,7 @@ If you're not receiving updates after a few days, you might need to subscribe to
 * An SD card
 * [RSSMii Remover](https://oscwii.org/library/app/rssmii-remover)
 
-#### Instructions
+#### Anleitung
 
 1. Extract RSSMii Remover and put it in the `apps` folder on your SD card.
 1. Delete the `feeds.xml` file on the root of your SD card.
