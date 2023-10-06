@@ -29,19 +29,19 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
     + Cette lettre est la région du menu système, que vous devrez connaître pour les étapes qui en ont besoin.
 
-    ![Région de la Wii](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 1. Navigate to `Internet` > `Console Information`.
 1. Prenez note de votre adresse MAC COMPLET.
 
-    ![Adresse MAC](/images/wii/MacAddress.png)
+    ![](/images/wii/MacAddress.png)
 
 1. On your computer, open the browser and go to [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/).
 1. Input your Wii MAC, version and region.
 1. Soyez-sûr que `Bundle the HackMii Installer for me!` est coché.
 1. Cliquez sur un des deux boutons.
 
-    ![Wilbrand Web](/images/exploits/wilbrand/web.png)
+    ![](/images/exploits/wilbrand/web.png)
 
 1. Click on "Download your .zip".
 1. Insérez votre carte SD dans votre ordinateur.
@@ -55,7 +55,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + Dans certains cas, vous devrez peut-être vérifier les messages du lendemain ou d'hier pour que la lettre apparaisse.
     + If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If there are errors, there may be an issue with the SD card format or the Wii’s SD card reader.
 
-    ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
+    ![](/images/exploits/wilbrand/msgboard.png)
 
 1. Si l'exploit a réussi, votre console aura chargé l'installeur HackMii.
     + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started) (ie. Letterbomb).
@@ -83,12 +83,12 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
     + Cette lettre est la région du menu système, que vous devrez connaître pour les étapes qui en ont besoin.
 
-    ![Région de la Wii](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 1. Navigate to `Internet` > `Console Information`.
 1. Prenez note de votre adresse MAC COMPLET.
 
-    ![Adresse MAC](/images/wii/MacAddress.png)
+    ![](/images/wii/MacAddress.png)
 
 1. Copy all files from the Wilbrand `.zip` to a folder on your computer
 1. Insérez votre carte SD dans votre ordinateur.
@@ -98,13 +98,13 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
         + `X:` is the drive letter of your SD card.
 
-        ![running Wilbrand on Windows](/images/exploits/wilbrand/windows.png)
+        ![](/images/exploits/wilbrand/windows.png)
 
     + Linux/macOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
         + If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
         + `/media/mount_dir` is the folder your SD card is mounted in. This may vary depending on your Linux distro.
 
-        ![running Wilbrand on Linux](/images/exploits/wilbrand/linux.png)
+        ![](/images/exploits/wilbrand/linux.png)
 
 1. Copy all files from the hackmii_installer_v1.2 `.zip` to a folder on your computer.
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your SD card.
@@ -117,7 +117,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + Dans certains cas, vous devrez peut-être vérifier les messages du lendemain ou d'hier pour que la lettre apparaisse.
     + If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If there are errors, there may be an issue with the SD card format or the Wii’s SD card reader.
 
-    ![Wilbrand in its natural habitat](/images/exploits/wilbrand/msgboard.png)
+    ![](/images/exploits/wilbrand/msgboard.png)
 
 1. Si l'exploit a réussi, votre console aura chargé l'installeur HackMii.
 
