@@ -25,7 +25,7 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
     + Esta letra corresponde à região de menu do seu sistema, que você precisará saber para os passos correspondentes.
     + Also, ensure that you are on System Menu version 4.3.
 
-    ![Wii Region](/images/wii/SystemMenuVersion.png)
+    ![Região do Wii](/images/wii/SystemMenuVersion.png)
 
 1. Navigate to `Internet` > `Console Information`.
 1. Take note of your FULL MAC address.
