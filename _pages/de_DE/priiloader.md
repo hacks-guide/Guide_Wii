@@ -2,7 +2,7 @@
 title: "Priiloader"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
 Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also enable hacks for your Wii Menu, and be used to quickly launch the Homebrew Channel, BootMii, or whatever homebrew you want.
 
@@ -16,13 +16,13 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 <!--div class="notice--success" markdown="1">{{ notice-vwii-priiloader }} </div-->
 
-### Requirements
+### Anforderungen
 
 * An SD card or USB drive
 * [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
 * [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
-### Instructions
+### Anleitung
 
 #### Section I - Prep Work
 
