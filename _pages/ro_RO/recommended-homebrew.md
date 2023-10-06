@@ -51,7 +51,5 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 + [Schism Tracker](https://oscwii.org/library/app/schismtracker) - A editor and player for tracked music (IT, XM, S3M, MOD, etc.). You can find music to try out [here](https://modarchive.org/).
 + [Danbo](https://oscwii.org/library/app/danbo) - Danbo
 
-{% include toc title="Table of Contents" %}
-
 [Continue to WiiConnect24](wiiconnect24)<br> WiiConnect24 was originally discontinued in June of 2013, but as of the present, there are now two different services that restore its functionality in several different applications.
 {: .notice--info}
