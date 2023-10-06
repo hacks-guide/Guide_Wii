@@ -9,12 +9,12 @@ sitemap: false
 + [ホーム](/)
 + [はじめに](get-started)
 + [よくある質問](faq)
-+ [Donations](donations)
++ [寄付](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**Wii Online Services**
+**Wiiオンラインサービス**
 + [Nintendo Wi-Fi Connection](wiimmfi)
 + [Setting RTC Time](wiiconnect24#updating-rtc-clock)
 + [WiiConnect24](wiiconnect24)
