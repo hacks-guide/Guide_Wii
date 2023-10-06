@@ -4,12 +4,12 @@ title: "NANDのバックアップ(BootMii)"
 
 {% include toc title="Table of Contents" %}
 
-BootMiiはWiiのNANDをバックアップしたり、復元するために使えます。 このページではWiiのNANDをSDカードにバックアップする方法の説明をします。
+BootMiiでは、WiiのNANDをバックアップしたり、リストアすることができます。 このページでは、WiiのNANDをSDカードにバックアップする方法を説明します。
 
-ファミリーエディションのWiiはNANDのロードはできません。（日本のWiiにはありません） This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. Regardless, it is still recommended to make one on these consoles.
+Wii Family EditionではNANDをリストアすることはできません。 Wii Family EditionではIOS版のBootMiiでNANDをリストアするときに必要となるGCコントローラー挿入口が削除されているからです。 いずれにしても、NANDのバックアップを作成することをお勧めします。
 {: .notice--danger}
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
+BootMiiを使用し、NANDバックアップを作成するには、 **SDカード** が必要です。 If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
 {: .notice--warning}
 
 Navigating BootMii is not possible using a Wii Remote. You must use the POWER and RESET buttons on your console, or a GameCube controller plugged into port 1. To navigate between options, press POWER on your Wii (or left/right on the +Control Pad on a GameCube controller). To select an option, press RESET on your Wii or A on your GameCube controller. You will NEED to use a GameCube controller to restore a NAND backup in the future if BootMii is installed as IOS.
