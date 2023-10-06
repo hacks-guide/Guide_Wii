@@ -48,7 +48,7 @@ Bluetoothを接続するため、Wii本体とパソコンを近づけるよう�
 1. バージョンを確認してください。1ページ目の右上に表示されています。
     + これはシステムメニュー領域に対応しており、後ほど実行する手順に必要となります。
 
-    ![Wii Region](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 1. Wiiの電源を切ります。
 1. Linuxを起動し、インターネットに接続されていることを確認します。
