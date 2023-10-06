@@ -2,7 +2,7 @@
 title: "LetterBomb"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Inhalt" %}
 
 For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
 {: .notice--info}
@@ -12,12 +12,12 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
 
-### Requirements
+### Anforderungen
 * An SD card formatted as FAT32
 * A Wii on System Menu version 4.3
 * A Windows/MacOS/Linux computer with an Internet connection
 
-### Instructions
+### Anleitung
 
 1. Power on your console.
 1. Go to `Wii Settings`.
