@@ -4,13 +4,13 @@ title: "Dumping Wii/GameCube games"
 
 {% include toc title="Table of Contents" %}
 
-This guide covers dumping GameCube or Wii game discs. You can either dump directly to an SD card or USB drive, or over the local network.
+Ce guide couvre la copie de disques de jeux GameCube ou Wii. Vous pouvez soit copier directement sur une carte SD ou un disque USB, soit sur le réseau local.
 
-### Dumping a Disc to SD/USB (CleanRip)
+### Copier un disque vers une SD/USB (CleanRip)
 
 #### Prérequis
 
-+ An SD card or USB drive with at least 4.7 GB of free space (8.5 GB if dumping a dual layer disc).
++ Une carte SD ou disque USB avec au moins 4,7 go d'espace libre (8,5 go en cas de copie d'un disque double couche).
 + [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 #### Instructions
