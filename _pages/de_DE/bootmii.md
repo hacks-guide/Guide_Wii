@@ -34,26 +34,26 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
 1. Starte den Homebrewkanal.
 1. Press the HOME Button, then select "Launch BootMii".
 
-    ![BootMii_Main](/images/bootmii/BootMii_Main.png)
+    ![](/images/bootmii/BootMii_Main.png)
 
 1. Wähle den Optionen-Button (das Icon mit dem Zahnrad).
 
-    ![BootMii_Gears_Icon](/images/bootmii/BootMii_Gears_Icon.png)
+    ![](/images/bootmii/BootMii_Gears_Icon.png)
 
 1. Wähle den ersten Button links.
     + Ein NAND-Backup wird gestartet. Du kannst den Fortschritt am Bildschirm verfolgen.
     + "Bad Blocks" sind normal und stammen hauptsächlich aus der Fabrik aufgrund von NAND-Binning. Keine Sorge, wenn du einige auf einem NAND Backup siehst.
     + Nach diesem Schritt wird die Sicherung überprüft. Idealerweise sollten alle Blöcke nach dem Überprüfungsprozess grün sein.
 
-    ![BootMii_Green_Arrow](/images/bootmii/BootMii_Green_Arrow.png)
+    ![](/images/bootmii/BootMii_Green_Arrow.png)
 
 1. Wenn der Prozess abgeschlossen ist, verlasse den NAND-Backup-Bildschirm indem du eine Taste drückst.
 
-    ![BootMii_NAND_Backup](/images/bootmii/BootMii_NAND_Backup.png)
+    ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. Drücke die Zurück-Taste (die mit einem Pfeil), dann drücke entweder die Wii-Menü-Taste oder die Homebrewkanal-Taste, um BootMii zu verlassen.
 
-    ![BootMii_Return_Arrow](/images/bootmii/BootMii_Return_Arrow.png)
+    ![](/images/bootmii/BootMii_Return_Arrow.png)
 
 <div id="restore-notice" class="notice" markdown="1">
 Hinweis: **Wiederherstellen eines NAND-Backups ist in der Regel ein letzter Ausweg**. Es gibt oft bessere Möglichkeiten, deine Konsole zu entbricken.
