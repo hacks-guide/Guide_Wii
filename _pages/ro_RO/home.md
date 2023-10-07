@@ -9,15 +9,15 @@ header:
 excerpt: "The complete guide to modding your Wii (and Wii mini)."
 ---
 
-Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
+Din moment ce acest ghid a fost lansat de curând, încă se lucrează la traduceri. Vă mulțumim pentru răbdare!
 {: .notice--info}
 
-To get the most out of this guide, you should read this page before proceeding.
+Pentru a beneficia cel mai mult de acest ghid, ar trebui să citești această pagină înainte să continui.
 {: .notice--warning}
 
-### What is homebrew?
+### Ce este homebrew?
 
-**Homebrew** refers to software that was not authorized by the original creator of a piece of hardware - in this case, Nintendo. In order to gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
+**Homebrew** se referă la software care nu a fost autorizat de creatorii originali ai unei bucăți de hardware - în acest caz, Nintendo. Pentru a putea rula homebrew pe un Wii, consola trebuie întâi să fie modificată să ruleze cod nesemnat.
 
 Here are some common examples of what homebrew can do for your Wii:
 
