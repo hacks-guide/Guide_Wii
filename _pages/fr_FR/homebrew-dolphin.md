@@ -1,43 +1,43 @@
 ---
-title: "Installing Homebrew Channel on Dolphin Emulator"
+title: "Installer la Chaîne Homebre sur Dolphin Emulator"
 ---
 
 {% include toc title="Table of Contents" %}
 
-On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily installed through Dolphin itself. Once this is done, the Homebrew Channel can be installed, although not in the same manner as a physical Wii.
+Sur Dolphin Emulator version `5.0-4588` ou ultérieur, le Menu Wii peut être facilement installé via Dolphin lui-même. Une fois installé, la Chaîne Homebrew peut être installée, mais pas de la même manière qu'une Wii physique.
 
 ### Prérequis
 
-* A Windows/MacOS/Linux computer with an Internet connection
-* [Dolphin Emulator](https://dolphin-emu.org/download/) version `5.0-4588` or later
-* The latest version of [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
+* Un ordinateur Windows/MacOS/Linux avec une connexion Internet
+* [Dolphin Emulator](https://dolphin-emu.org/download/) version `5.0-4588` ou ultérieur
+* La dernière version de [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
 
 ### Instructions
 
-1. If you have not already done so, install the Wii Menu on Dolphin Emulator by going to `Tools > Perform System Update`.
+1. Si vous ne l'avez pas déjà fait, installez le Menu Wii sur Dolphin Emulator en allant dans `Outils > Effectuer une mise à jour en ligne`.
 
     ![](/images/homebrew-dolphin/system-update.png)
 
-1. Download `Open_HBC_(version)_LULZ.wad` from the page linked above.
-1. Open Dolphin Emulator.
-1. Select `Tools > Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
+1. Téléchargez `Open_HBC_(version)_LULZ.wad` depuis la page mentionnée ci-dessus.
+1. Ouvrez Dolphin Emulator.
+1. Sélectionnez `Outils > Installer un WAD` et sélectionnez `Open_HBC_(version)_LULZ.wad`.
 
     ![](/images/homebrew-dolphin/ohbc-file.png)
 
-1. Select `Tools > Load Wii System Menu`. The channel should now appear.
+1. Sélectionnez `Outils > Charger le Menu Système Wii`. La chaîne devrait maintenant apparaître.
 
     ![](/images/homebrew-dolphin/hbc-installed.png)
 
-### Post-Installation, installing Homebrew Apps through Open Shop Channel
+### Post-installation, installation d'applications Homebrew via Open Shop Channel
 
-1. Download the Open Shop Channel [here](https://oscwii.org/library/app/homebrew_browser) for usage in Dolphin. Alternatively, you can get OSCDL and do this process manually.
-1. Stop the emulation (if running), and open the `Config > Wii` window in Dolphin Emulator.
-1. Enable `Automatically Sync with Folder`. Optionally, you may also want to adjust the `SD Card File Size` to a larger parameter - however in most cases `Auto` should be fine.
-1. Open the `SD Sync Folder`. On Windows, this can easily be done by pasting the folder path into the Start Menu, Windows Explorer, or Run.
-1. Extract any homebrew apps to the `WiiSDSync` folder. The end result should look something like this:
+1. Téléchargez l'Open Shop Channel [ici](https://oscwii.org/library/app/homebrew_browser). Vous pouvez également télécharger OSCDL et faire ce processus manuellement.
+1. Arrêtez l'émulation (si elle est en cours), et ouvrez la fenêtre `Configurer > Wii` dans Dolphin Emulator.
+1. Activez `Synchroniser automatiquement avec le dossier`. Vous pouvez également ajuster la `taille du fichier de carte SD` à un paramètre plus grand - cependant, dans la plupart des cas, `Auto` devrait suffire.
+1. Ouvrez le `Dossier de synchronisation SD`. Sous Windows, il suffit de coller le chemin d'accès au dossier dans le menu Démarrer, l'explorateur Windows ou Exécuter.
+1. Extrayez toutes les applications homebrew dans le dossier `WiiSDSync`. Le résultat final devrait ressembler à ceci :
 
     ![](/images/homebrew-dolphin/apps-folder.png)
 
-1. Load the Wii Menu and open the Homebrew Channel. Your newly installed apps should appear!
+1. Lancez le Menu Wii et ouvrez la Chaîne Homebrew. Vos nouvelles applications installées devraient apparaître !
 
     ![](/images/homebrew-dolphin/hbc-apps.png)
