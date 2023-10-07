@@ -126,12 +126,12 @@ Agora você vai definir seu DNS para servidores RiiConnect24. Isso é opcional, 
 1. Selecione `Confirm`, então selecione `Save`.
 1. Selecione `OK` para executar o teste de conexão.
 1. Se o teste de conexão foi bem-sucedido, selecione `No` para ignorar a atualização do sistema Wii.
-1. Go to `WiiConnect24`, then `WiiConnect24` again, and make sure it is enabled.
-1. Back on the WiiConnect24 menu, go to `Standby Connection` and make sure it is enabled.
-1. At `Slot Illumination`, it is recommend you set the disc light to `Dim` or `Bright`, but this is optional.
-1. Finally, go to the `Internet` section, then `User Agreements` or `Agreement/Contact`, then `Yes`. Please read through this.
+1. Vá para `WiiConnect24`, depois `WiiConnect24` novamente, e certifique-se de que está habilitado.
+1. Volte no menu WiiConnect24, vá para `Standby Connection` e certifique-se de que está habilitada.
+1. Em `Slot Illumination`, é recomendado selecionar `Dim` ou `Bright`, mas isso é opcional.
+1. Finalmente, vá para a seção `Internet` e, em seguida, `User Agreements` ou `Agreement/Contract`, depois `Yes`. Por favor, leia isto.
 
-[Return to WiiConnect24](wiiconnect24)
+[Retorne para WiiConnect24](wiiconnect24)
 {: .notice--info}
 
 [Clique aqui para voltar ao índice do site.](site-navigation)
