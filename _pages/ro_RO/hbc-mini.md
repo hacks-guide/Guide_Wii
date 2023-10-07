@@ -1,8 +1,8 @@
 ---
-title: "Homebrew Channel - for Wii mini only"
+title: "Homebrew Channel - numai pentru Wii mini"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabel de Conținut" %}
 
 The Homebrew Channel is where you will go to launch homebrew applications.
 
