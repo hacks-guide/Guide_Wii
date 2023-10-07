@@ -1,45 +1,45 @@
 ---
 main:
   - 
-    title: Home
+    title: Acasă
     url: /
   - 
-    title: Get Started
+    title: Începe
     url: get-started
   - 
-    title: Site Navigation
+    title: Navigare Site
     url: site-navigation
   - 
-    title: FAQ
+    title: FAQ - Întrebări Frecvente
     url: faq
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: Acest website folosește cookie-uri pentru afișarea curentă a progresului pe bara laterală și pentru îmbunătățirea altfel a site-ului.
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: Pentru suport în Engleză, cereți ajutor pe <a href="https://discord.gg/MWxPgEp">serverul de Discord Nintendo Homebrew</a>.
 footer:
   - 
-    title: Source
+    title: Sursă
     url: https://github.com/hacks-guide/Guide_Wii
   - 
-    title: Site Navigation
+    title: Navigare Site
     url: site-navigation
   - 
-    title: Privacy Policy
+    title: Politica de confidenţialitate
     url: privacy-policy
   - 
-    title: Donations
+    title: Donații
     url: donations
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Progres General
 sidebar_pages:
   - 
-    title: Home
+    title: Acasă
     url: /
   - 
-    title: Get Started
+    title: Începe
     url: get-started
   - 
     title: LetterBomb
@@ -57,13 +57,13 @@ sidebar_pages:
     title: Wilbrand
     url: wilbrand
   - 
-    title: Multiple Options
+    title: Opțiuni Multiple
     url: multiple-options
   - 
-    title: Homebrew Channel and BootMii Installation
+    title: Homebrew Channel și Instalare BootMii
     url: hbc
   - 
-    title: Homebrew Channel - for Wii mini only
+    title: Homebrew Channel - numai pentru Wii mini
     url: hbc-mini
   - 
     title: BootMii Backup
@@ -75,7 +75,7 @@ sidebar_pages:
     title: Open Shop Channel
     url: osc
   - 
-    title: d2xl cIOS for Wii mini (experimental)
+    title: cIOS d2xl pentru Wii mini (experimental)
     url: cios-mini
   - 
     title: Wii mini NAND Dumper
