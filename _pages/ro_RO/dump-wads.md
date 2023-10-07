@@ -2,7 +2,7 @@
 title: "Dumping WADs"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabel de Conținut" %}
 
 This guide will show you how to dump WADs from your Wii System Memory.
 
