@@ -31,7 +31,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Navigate to `Internet` > `Console Information`.
+1. Naviguez vers `Internet` > `Informations générales`.
 1. Prenez note de votre adresse MAC COMPLET.
 
     ![](/images/wii/MacAddress.png)
@@ -85,7 +85,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Navigate to `Internet` > `Console Information`.
+1. Naviguez vers `Internet` > `Informations générales`.
 1. Prenez note de votre adresse MAC COMPLET.
 
     ![](/images/wii/MacAddress.png)
