@@ -4,7 +4,7 @@ title: "cIOS"
 
 {% include toc title="Table of Contents" %}
 
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Par exemple, cela active les fonctionnalités des lanceurs USB comme USB Loader GX et WiiFlow, ainsi que d'autres homebrew comme SaveGame Manager GX. Vous pouvez sauter ce processus si vous le souhaitez, mais généralement il étend votre Wii avec peu à aucun inconvénient.
+Bien que [cIOS](https://wiibrew.org/wiki/Custom_IOS) ait été largement remplacé par AHBPROT, qui donne un accès complet au matériel, il a encore des applications utiles. Par exemple, cela active les fonctionnalités des lanceurs USB comme USB Loader GX et WiiFlow, ainsi que d'autres homebrew comme SaveGame Manager GX. Vous pouvez sauter ce processus si vous le souhaitez, mais généralement il étend votre Wii avec peu à aucun inconvénient.
 
 Si vous avez une Wii Mini, utilisez [ce guide](cios-mini) pour les cIOS au lieu de celui-ci. Tenter d'installer d'autres cIOS sur une Wii mini ne fonctionnera pas.
 {: .notice--warning}
@@ -15,7 +15,7 @@ Si vous avez une Wii Mini, utilisez [ce guide](cios-mini) pour les cIOS au lieu 
 * Une carte SD ou une clé USB
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
+Assurez-vous que, si vous utilisez une carte SD, le verrou est en position déverrouillée, sinon vous ne serez pas en mesure de sélectionner les bonnes options dans l'installeur.
 {: .notice--warning}
 
 ### Instructions
