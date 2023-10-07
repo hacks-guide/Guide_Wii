@@ -4,7 +4,7 @@ title: "Începe"
 
 {% include toc title="Tabel de Conținut" %}
 
-It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and install many types of homebrew.
+Este recomandat să ai cel puțin un card SD în mână după procesul inițial de modificare pentru că acesta îți va permite să creezi un backup NAND folosind BootMii și să instalezi diferite tipuri de homebrew.
 {: .notice--info}
 
 All of the exploits listed here are different methods of achieving the same end-result (getting to the HackMii installer).
