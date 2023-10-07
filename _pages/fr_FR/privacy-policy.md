@@ -8,22 +8,22 @@ Ce site utilise des cookies afin de faciliter le routage des utilisateurs à tra
 
 ### Contenu intégré provenant d'autres sites web
 
-This site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves as if the user has visited the other website.
+Ce site peut inclure du contenu intégré (vidéos, images, articles, etc.). Le contenu intégré provenant d'autres sites web se comporte comme si l'utilisateur a visité l'autre site web.
 
-These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
+Ces sites web peuvent collecter des données vous concernant, utiliser des cookies, intégrer un suivi tiers supplémentaire et surveiller votre interaction avec ce contenu intégré, y compris votre interaction avec le contenu intégré si vous avez un compte et êtes connecté à ce même site.
 
-### Analytics
+### Analyse de données
 
-This site uses Google Analytics to monitor and analyze traffic. This site is hosted by Github Pages, which may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with this site. For more information about Github Pages as it relates to user privacy, see the [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement).
+Ce site utilise Google Analytics pour surveiller et analyser le trafic. Ce site est hébergé sur Github Pages, qui peut collecter des données vous concernant, utiliser des cookies, intégrer un suivi tiers supplémentaire et surveiller votre interaction avec ce site. Pour plus d'informations à propos de Github Pages en ce qui concerne la confidentialité des utilisateurs, consultez la <a href="https://help.github.com/en/articles/github-privacy-statement"Déclaration de confidentialité Github></a>.
 
-### Information Collected
+### Informations collectées
 
-This site does not collect personal information. This site may collect usage information in order to analyze interest in the content and to provide advertisers with information on an aggregate basis. No personally identifiable information is shared with third-party advertising companies.
+Ce site ne collecte pas d'informations personnelles. Ce site peut collecter des informations d'utilisateur afin d'analyser l'intérêt pour le contenu et de fournir aux annonceurs des informations sur une base globale. Aucune information personnellement identifiable n'est partagée avec des sociétés de publicité tierces.
 
-### Third-Party Websites
+### Sites web tiers
 
-This site may link to other sites for users to use or reference. This site is not responsible for the privacy policies of other sites. Users should be aware that the privacy policies of other websites may differ from this one.
+Ce site peut contenir des liens vers d'autres sites que les utilisateurs peuvent utiliser ou auxquels ils peuvent se référer. Ce site n'est pas responsabe des politiques de confidentialité des autres sites. Les utilisateurs doivent savoir que les politiques de confidentialité des autres sites web peuvent différer de celle-ci.
 
-### Changes to Privacy Policy
+### Changements de la politique de confidentialité
 
-The contents of this Privacy Policy may be altered at any time and for any reason.
+Le contenu de la présente politique de confidentialité peut être modifié à tout moment et pour quelque raison que ce soit.
