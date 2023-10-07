@@ -2,7 +2,7 @@
 title: "Riivolution"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabel de Conținut" %}
 
 This is a quick start guide on how to use Riivolution, an on-the-fly disk patcher for the Wii that is used to play Wii game mods.
 
@@ -60,5 +60,5 @@ Do not get confused with the actual Riivolution app, and the Riivolution folder 
 ```
 </details>
 
-[Click here to go back to the site index.](site-navigation)
+[Click aici pentru a reveni la indexul site-ului.](site-navigation)
 {: .notice--info}
