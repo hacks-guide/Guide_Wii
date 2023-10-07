@@ -2,7 +2,7 @@
 title: "Creating Wii Game Shortcuts"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabel de Conținut" %}
 
 Do you use a USB Loader and want to create game shortcuts to launch them on your Wii Menu? Then try WiiGSC (Wii Game Shortcut Creator), previously known as Crap.
 
@@ -39,5 +39,5 @@ Turn off your Wii, then hold down the RESET button down and turn on your Wii. Yo
 Simply enter the Homebrew Channel, and use your WAD manager to uninstall the WAD.
 </div>
 
-[Click here to go back to the site index.](site-navigation)
+[Click aici pentru a reveni la indexul site-ului.](site-navigation)
 {: .notice--info}
