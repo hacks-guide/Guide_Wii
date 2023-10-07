@@ -24,7 +24,7 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Sezione I - Preparazione
 
 1. Power off your console.
 1. Insert your SD card or USB drive into your computer.
