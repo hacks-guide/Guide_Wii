@@ -2,7 +2,7 @@
 title: "ModMii"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabel de Conținut" %}
 
 If you need help for anything regarding this tutorial, please join [the ModMii Discord server](https://discord.gg/cMnBRACQwQ).
 {: .notice--info}
@@ -114,5 +114,5 @@ When following one of the exploit guides above, avoid replacing the `boot.elf` f
 
 </details>
 
-[Click here to go back to the site index.](site-navigation)
+[Click aici pentru a reveni la indexul site-ului.](site-navigation)
 {: .notice--info}
