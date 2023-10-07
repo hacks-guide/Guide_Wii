@@ -4,9 +4,9 @@ title: "Politique de confidentialité"
 
 ### Cookies
 
-This site utilizes cookies in order to facilitate routing users through the guide instructions. Cookies allow for the sidebar of the page to display current progress through the site to help users navigate the instructions more easily.
+Ce site utilise des cookies afin de faciliter le routage des utilisateurs à travers les instructions du guide. Les cookies permettent à la barre latérale de la page d'afficher la progression actuelle sur le site pour aider les utilisateurs à naviguer plus facilement.
 
-### Embedded Content From Other Websites
+### Contenu intégré provenant d'autres sites web
 
 This site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves as if the user has visited the other website.
 
