@@ -2,7 +2,7 @@
 title: "Open Shop Channel"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabel de Conținut" %}
 
 For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
 {: .notice--primary}
