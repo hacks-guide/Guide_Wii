@@ -4,10 +4,10 @@ title: "BlueBomb"
 
 {% include toc title="Tabel de Conținut" %}
 
-It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+Este **foarte** recomandat să nu folosiți **niciun** tutorial video pentru modarea consolei Wii mini, având o șansă extrem de mare de a-l **distruge**.
 {: .notice--warning}
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Dacă ai nevoie de ajutor referitor la acest tutorial, te rog să intri pe [serverul de Discord Wii mini Hacking](https://discord.gg/6ryxnkS) (recomandat)
 {: .notice--info}
 
 BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well. This exploit also enables recovery from certain bricks, such as Korean Kii/Error 003.
