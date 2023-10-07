@@ -2,7 +2,7 @@
 title: "WiiConnect24"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabel de Conținut" %}
 
 This guide provides different means of regaining WiiConnect24 functionality on your console. Although not at all nessecary, it is a "nice to have" feature that was originally used for online connectivity in certain applications on the console. These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Channel, some Japan-exclusive channels, and more. Please bear in mind, the functionality you gain depends entirely on what service(s) you use.
 
