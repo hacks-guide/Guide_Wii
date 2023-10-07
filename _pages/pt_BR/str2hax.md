@@ -31,7 +31,7 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
 1. Ligue o seu console.
-1. Go to `Wii Options`.
+1. Vá para `Wii Options`.
 
     ![](/images/riiconnect24/Internet_1.png)
 
@@ -72,7 +72,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![](/images/riiconnect24/Internet_12.png)
 
-    + If the connection test was successful, select `No` to skip the Wii System Update.
+    + Se o teste de conexão foi bem-sucedido, selecione `No` para ignorar a atualização do sistema Wii.
     + If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
     + If it is still unsuccessful, please [use another exploit](get-started).
 
