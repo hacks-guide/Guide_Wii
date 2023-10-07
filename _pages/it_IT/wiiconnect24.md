@@ -8,7 +8,7 @@ This guide provides different means of regaining WiiConnect24 functionality on y
 
 ### Service Overview
 
-#### Note about service compatibility:
+#### Note sulla compatibilità del servizio:
 Both services listed below are compatible with one another and can be loaded on the same console. With this said, it should be noted that when installing one channel over the other (WiiLink's Forecast Channel over RiiConnect24's Forecast Channel for example), the channel you are installing will overwrite the old one.
 
 
