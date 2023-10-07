@@ -1,14 +1,14 @@
 ---
-title: "Site Navigation"
+title: "Navigare Site"
 layout: single
 sitemap: false
 ---
 
 {% capture notice-1 %}
 **Site**
-+ [Home](/)
-+ [Get Started](get-started)
-+ [FAQ](faq)
++ [Acasă](/)
++ [Începe](get-started)
++ [FAQ - Întrebări Frecvente](faq)
 + [Donations](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
