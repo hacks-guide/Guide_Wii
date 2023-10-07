@@ -25,7 +25,7 @@ sitemap: false
 **Modding 101 - Exploits**
 + [BlueBomb](bluebomb)
 + [FlashHax](flashhax)
-+ [Legacy Exploits](legacy-exploits)
++ [Exploits Antigos](legacy-exploits)
 + [LetterBomb](letterbomb)
 + [str2hax](str2hax)
 + [Wilbrand](wilbrand)
@@ -43,7 +43,7 @@ sitemap: false
 + [ModMii](modmii)
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
-+ [Relaunching the HackMii Installer](hackmii)
++ [Relançando o Instalador HackMii](hackmii)
 + [Updating Wii Menu to v4.3](update)
 + [Wii mini NAND Dumper](wnd-mini)
 + [YAWM ModMii Edition](yawmme)
