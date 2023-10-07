@@ -2,7 +2,7 @@
 title: "Wilbrand"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabel de Conținut" %}
 
 Wilbrand, like LetterBomb, is an exploit for the Wii that is triggered using the Wii Message Board.
 
