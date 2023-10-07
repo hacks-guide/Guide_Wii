@@ -17,23 +17,23 @@ top:
     title: Questo sito web utilizza i cookie per visualizzare l'avanzamento corrente della guida sulla barra laterale e per migliorare il sito.
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: Per supporto in Inglese, chiedere aiuto sul server <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a>.
 footer:
   - 
-    title: Source
+    title: Fonte
     url: https://github.com/hacks-guide/Guide_Wii
   - 
     title: Navigazione del Sito
     url: navigazione-sito
   - 
-    title: Privacy Policy
+    title: Informativa sulla Privacy
     url: privacy-policy
   - 
-    title: Donations
+    title: Donazioni
     url: donations
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Progresso Complessivo
 sidebar_pages:
   - 
     title: Menu Principale
@@ -57,16 +57,16 @@ sidebar_pages:
     title: Wilbrand
     url: wilbrand
   - 
-    title: Multiple Options
+    title: Opzioni Multiple
     url: multiple-options
   - 
-    title: Homebrew Channel and BootMii Installation
+    title: Installazione dell'Homebrew Channel e di BootMii
     url: hbc
   - 
-    title: Homebrew Channel - for Wii mini only
+    title: Homebrew Channel - solo per Wii mini
     url: hbc-mini
   - 
-    title: BootMii Backup
+    title: Backup BootMii
     url: bootmii
   - 
     title: Priiloader
@@ -75,7 +75,7 @@ sidebar_pages:
     title: Open Shop Channel
     url: osc
   - 
-    title: d2xl cIOS for Wii mini (experimental)
+    title: d2xl cIOS per Wii mini (sperimentale)
     url: cios-mini
   - 
     title: Wii mini NAND Dumper
