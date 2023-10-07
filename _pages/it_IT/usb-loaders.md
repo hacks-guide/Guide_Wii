@@ -28,7 +28,7 @@ Forwarders to open these loaders on the Wii Menu can be found on the Open Shop C
     ![](/images/usb-loaders//wiiflow-ui.png)
 
 + USB Loader GX is primarily modeled after the Wii Menu, and supports themes.
-    + While SD cards were previously unsupported for loading Wii games on USB Loader GX, recent updates have introduced support into the loader.
+    + Anche se in passato le schede SD non erano supportate per i giochi Wii su USB Loader GX, recenti aggiornamenti hanno introdotto il loro supporto per questo loader.
     + USB Loader GX has no plugin system.
     + USB Loader GX still recieves regular updates.
 
@@ -37,10 +37,10 @@ Forwarders to open these loaders on the Wii Menu can be found on the Open Shop C
 ### Game Directory Structure
 
 ```
-💾 SD Card or USB Drives
+💾 Schede SD o Dispositivi USB
 | ╸📁 wbfs
     | ╸📁 GameName [GameID]
-    |   | ╸📄 GameID.wbfs (for non-split titles)
+    |   | ╸📄 GameID.wbfs (per titoli a singolo file)
     | ╸📂GameName [GameID]
         | ╸📄gameid.wbfs
         | ╸📄gameid.wbf1
