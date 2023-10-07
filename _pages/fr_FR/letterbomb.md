@@ -4,17 +4,17 @@ title: "LetterBomb"
 
 {% include toc title="Table of Contents" %}
 
-Pour des instructions sur la façon de formater correctement votre carte SD, veuillez consulter [ce guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
+Pour des instructions sur la façon de formater correctement votre carte SD, veuillez consulter [ce guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). Il est fortement recommandé de vérifier en raison de problèmes de formatage en FAT32.
 {: .notice--info}
 
 N'utilisez PAS les adresses MAC d'exemple affichées dans ce guide, car elles provoqueront simplement une erreur sur le site web de HackMii. Utilisez la vôtre !
 {: .notice--warning}
 
-LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
+LetterBomb est un exploit pour la Wii qui est déclenché à l'aide du Bureau Wii.
 
 ### Prérequis
 * Une carte SD formatée en FAT32
-* A Wii on System Menu version 4.3
+* Une Wii sur le menu système version 4.3
 * Un ordinateur Windows/MacOS/Linux avec une connexion Internet
 
 ### Instructions
@@ -23,11 +23,11 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
 1. Allez sur `Paramètres Wii`.
 1. Prenez note dans le coin supérieur droit de la lettre à côté de la version du système.
     + Cette lettre est la région du menu système, que vous devrez connaître pour les étapes qui en ont besoin.
-    + Also, ensure that you are on System Menu version 4.3.
+    + Assurez-vous également que vous êtes sur le menu système version 4.3.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Navigate to `Internet` > `Console Information`.
+1. Naviguez vers `Internet` > `Informations générales`.
 1. Prenez note de votre adresse MAC COMPLET.
 
     ![](/images/wii/MacAddress.png)
@@ -48,7 +48,7 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
 1. Ouvrez la lettre rouge avec une bombe.
     + Assurez-vous que la date sur votre Wii est correcte, sinon vous pourriez ne pas trouver la lettre.
     + Dans certains cas, vous devrez peut-être vérifier les messages du lendemain ou d'hier pour que la lettre apparaisse.
-    + If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. S'il y a une erreur, il peut y avoir un problème avec le format de la carte SD ou le port carte SD de la Wii.
+    + Si vous ne voyez pas la lettre rouge, vérifiez si des erreurs apparaissent dans la section carte SD de `Gestion des données`. S'il y a une erreur, il peut y avoir un problème avec le format de la carte SD ou le port carte SD de la Wii.
     + Si votre Wii gèle (freeze) après avoir cliqué sur la lettre, vous avez probablement choisi la mauvaise région sur le site de LetterBomb. Retournez à l'étape 2 et vérifiez que vous avez choisi la bonne région.
     + Si tout est correct et que la console gèle (freeze) toujours, continuez à re-essayer jusqu'à ce que cela fonctionne.
 1. Si l'exploit a réussi, votre console aura chargé l'installeur HackMii.
