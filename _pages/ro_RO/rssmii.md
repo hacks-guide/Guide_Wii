@@ -2,7 +2,7 @@
 title: "Installing RSSMii"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabel de Conținut" %}
 
 This guide provides instructions on installing RSSMii, a homebrew app that parses RSS feeds from your SD card and sends them to your Wii Menu.
 
@@ -64,5 +64,5 @@ If you're not receiving updates after a few days, you might need to subscribe to
 1. Delete the `feeds.xml` file on the root of your SD card.
 1. Launch RSSMii Remover from the Homebrew Channel. It will remove your subscriptions to the RSS feeds.
 
-[Click here to go back to the site index.](site-navigation)
+[Click aici pentru a reveni la indexul site-ului.](site-navigation)
 {: .notice--info}
