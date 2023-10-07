@@ -2,7 +2,7 @@
 title: "Dumping Wii/GameCube games"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabel de Conținut" %}
 
 This guide covers dumping GameCube or Wii game discs. You can either dump directly to an SD card or USB drive, or over the local network.
 
