@@ -4,7 +4,7 @@ title: "SysCheck"
 
 {% include toc title="Table of Contents" %}
 
-A SysCheck lists all the IOS and cIOS that are on your Wii, along with some information about each of them. It also gives you some other useful information. When you have IOS-related problems on your Wii, someone might ask you to do a SysCheck.
+Un SysCheck elenca tutti gli IOS e cIOS che sono nella tua console Wii, con alcune informazioni riguardanti ciascuno di loro. Oltre a ciò, aggiunge anche altre informazioni utili. Quando hai problemi relativi agli IOS con la tua console Wii, qualcuno potrebbe chiederti di eseguire un SysCheck.
 
 ### Requisiti
 
@@ -29,7 +29,7 @@ A SysCheck lists all the IOS and cIOS that are on your Wii, along with some info
 
     ![](/images/homebrew/syscheck/syscheck_success.png)
 
-1. Se vuoi condividere il Syscheck online, puoi premere il pulsante `A`, che lo mandera a [syscheck.rc24.xyz](http://syscheck.rc24.xyz/) e ti darà il link di un sito web. You can also share the `sysCheck.csv` saved to the root of your SD Card or USB Drive. The `IOSsysCheck.log` file (saved to the root as well) contains additional information about your IOS.
+1. Se vuoi condividere il Syscheck online, puoi premere il pulsante `A`, che lo mandera a [syscheck.rc24.xyz](http://syscheck.rc24.xyz/) e ti darà il link di un sito web. Puoi anche condividere il file `sysCheck.csv` salvato nella root della tua scheda SD o dispositivo USB. Il file `IOSsysCheck.log` (salvato anch'esso nella root), contiene informazioni aggiuntivi sui tuoi IOS.
 
 [Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
 {: .notice--info}
