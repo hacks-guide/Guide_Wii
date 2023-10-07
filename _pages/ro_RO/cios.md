@@ -2,7 +2,7 @@
 title: "cIOS"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabel de Conținut" %}
 
 While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
