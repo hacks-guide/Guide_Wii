@@ -16,7 +16,7 @@ If you have a Wii or a Wii mini with an SD card slot soldered, follow [this tuto
 There is no way to restore your NAND backup this way without a hardmod.
 {: .notice--info}
 
-### Requirements
+### Instrumente necesare
 
 * A Wii
 * A USB drive
