@@ -22,24 +22,24 @@ Asigură-te că consola este aproape de calculator care rulează exploit-ul, ide
 
 * Un calculator cu Linux
     * O mașină virtuală ar merge, dar nu este recomandată din cauza complexității sale în a face ca Bluetooth să funcționeze. Dacă este posibil, te rog să folosești un LiveUSB așa cum este descris mai jos.
-    * If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
-    * Windows Subsystem for Linux or a Chromebook running Linux mode will *not work* as they don't have direct access to the Bluetooth adapter or USB ports.
-    * If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
-        * 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
-        * For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
-    * You can [flash a Linux Live environment to a USB flash drive](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) instead of installing it to your computer.
-* A Bluetooth adapter.
-    * An internal Bluetooth adapter will work.
-    * If you do not have one, make sure to get one compatible with Linux.
-* A USB flash drive formatted as FAT32.
-    * This cannot be the same flash drive used for your Linux Machine.
+    * Dacă ai un Raspberry Pi, îl poți folosi pentru că, cel mai probabil, are Linux instalat deja.
+    * Windows Subsystem pentru Linux sau un Chromebook ce rulează modul Linux *nu va funcționa*, deoarece acestea nu au acces direct către adaptor Bluetooth sau porturi USB.
+    * Dacă nu aveți Linux, [Ubuntu](https://ubuntu.com/download/desktop) este opțiunea cel mai user-friendly ce poate rula pe PC-urile cu Windows sau MacOS.
+        * Dispozitivele 32-bit vor avea nevoie de [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
+        * Pentru dispozitivele 64-bit este recomandat să folosești ediția LTS din cauza stabilității, dar și cele recente vor funcționa.
+    * Poți să [flash-uieși un Linux Live pe un stick USB](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) fără de a-l instala în calculatorul tău.
+* Un adaptor Bluetooth.
+    * Un adaptor Bluetooth intern va funcționa.
+    * Dacă nu ai unul, asigură-te să iei unul compatibil cu Linux.
+* Un stick USB formatat ca FAT32.
+    * Acest stick este folosit anume pentru Wii.
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### Instructions
+### Instrucțiuni
 
-1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
-    + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-    + (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
+1. Copiază fișierul `boot.elf` din arhiva `hackmii_installer_v1.2.zip` în root-ul stick-ului.
+    + (Dacă încerci să repari consola, trebuie să copiezi și aplicațiile homebrew de care ai nevoie în folder-ul /apps/)
+    + (Chiar și pentru un Wii mini, bootmii.elf **nu** va funcționa, motivul acesta fiind cu totul diferit și nerelevant. Folosește fișierul boot.elf în toate cazurile).
 1. Reinsert your flash drive into your console.
     + For a Wii mini, the USB port is on the back.
     + For a normal Wii, use the bottom port (or the right port if it's upright).
