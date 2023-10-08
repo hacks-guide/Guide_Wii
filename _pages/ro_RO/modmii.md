@@ -4,13 +4,13 @@ title: "ModMii"
 
 {% include toc title="Tabel de Conținut" %}
 
-If you need help for anything regarding this tutorial, please join [the ModMii Discord server](https://discord.gg/cMnBRACQwQ).
+Dacă ai nevoie de ajutor pentru orice legat de acest ghid, te rugăm să te alături [serverului de Discord ModMii](https://discord.gg/cMnBRACQwQ).
 {: .notice--info}
 
-This Program does NOT come with a warranty, so you are responsible for any potential damage done to your Wii.
+Acest Program NU vine cu garanție, deci ești responsabil pentru orice daună potențială întâmplată consolei tale Wii.
 {: .notice--warning}
 
-This program is NOT intended to be used for the vWii or the Wii mini. Any usage on vWii or Wii mini is untested.
+Acest program NU este intenționat de a fi folosit pentru vWii sau Wii mini. Orice folosire pe vWii sau Wii mini este netestată.
 {: .notice--warning}
 
 ModMii is a PC program for Windows created by XFlak that has various helpful tools for modding, including some tutorials that may not be currently available on this website.<br> You can choose to launch in ModMii skin, which has a more user-friendly interface, or launch in ModMii Classic, which uses a command-line (Command Prompt/Terminal) interface.
