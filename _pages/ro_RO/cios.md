@@ -18,7 +18,7 @@ If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
 {: .notice--warning}
 
-### Instructions
+### Instrucțiuni
 
 #### Section I - Downloading (Only required if your Wii doesn't have Internet)
 
