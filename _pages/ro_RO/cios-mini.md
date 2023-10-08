@@ -18,7 +18,7 @@ Do not attempt to install a Wii IOS or System Menu on the Wii mini. Doing so wil
 This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBaol and custom cIOS was created by Leseratte for the Wii mini. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Please note that this cIOS is still experimental, though no problem with functionality has been reported.
 {: .notice--info}
 
-### Requirements
+### Instrumente necesare
 
 * A Wii mini with the Homebrew Channel installed
 * A USB drive
