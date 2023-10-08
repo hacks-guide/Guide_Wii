@@ -13,31 +13,31 @@ Acest Program NU vine cu garanție, deci ești responsabil pentru orice daună p
 Acest program NU este intenționat de a fi folosit pentru vWii sau Wii mini. Orice folosire pe vWii sau Wii mini este netestată.
 {: .notice--warning}
 
-ModMii este un program de calculator pentru Windows creat de XFlak care conține numeroase unelte folositoare pentru modificarea consolei și inclusiv niște tutoriale care s-ar putea să nu fie disponibile momentan pe acest website.<br> Poți alege să rulezi în ModMii skin, ce are o interfață mai ușor de înțeles, sau rulează în ModMii Classic, ce folosește o interfață bazată pe linie de comandă (Command Prompt/Terminal).
+ModMii este un program de calculator pentru Windows creat de XFlak care conține numeroase unelte folositoare pentru modificarea consolei și inclusiv niște tutoriale care s-ar putea să nu fie disponibile momentan pe acest website.<br> Poți alege să rulezi în ModMii Skin, ce are o interfață mai ușor de înțeles, sau rulează în ModMii Classic, ce folosește o interfață bazată pe linie de comandă (Command Prompt/Terminal).
 
-Unele opțiuni avansate s-ar putea să nu fie accesibile în ModMii Skin. A list of the features available in ModMii Classic can be found at the bottom of the page.
+Unele opțiuni avansate s-ar putea să nu fie accesibile în ModMii Skin. O listă a funcțiilor prezente în ModMii Classic se poate găsi la sfârșitul acestei pagini.
 {: .notice--info}
 
 ### Instrumente necesare
 
-* A Wii
-* A USB drive or SD Card
-* A Windows PC (a Virtual Machine will work)
+* Un Wii
+* Un stick USB sau un card SD
+* Un calculator Windows (va merge și o Mașină Virtuală)
 * [ModMii](https://modmii.github.io/)
 
-This is a quick start guide on using ModMii on your Windows PC.
+Acesta este un ghid rapid de început despre folosirea ModMii pe calculatorul tău Windows.
 
-### ModMii Wizard
+### Programul ModMii
 
-You can use the ModMii wizard to softmod any Wii. <br> Even if the Wii has been softmodded in the past, you can have ModMii overwrite existing softmods by telling ModMii that this is the first time you're modding your Wii (even if it isn't).
+Poți folosi programul ModMii pentru a modifica orice consolă Wii. <br> Chiar dacă sistemul Wii a mai fost modificat în trecut, ModMii poate înlocui modificări existente dacă îi spui că asta este prima dată când instalezi modificări pentru consolă (chiar dacă nu este).
 
-You can also use this wizard to set up a USB loader at the same time, instead of having to use the USB Loader setup wizard later on.
+Poți de asemenea să folosești acest program să îți setezi un USB loader în același timp în loc să trebuiască să folosești programul de instalare USB Loader în viitor.
 
-### SysCheck Updater Wizard
+### Programul de Actualizare SysCheck
 
-[SysCheck](syscheck) is a homebrew application that analyzes the modifications on a Wii. <br> You can give a SysCheck report to ModMii to help identify & update outdated mods.
+[SysCheck](syscheck) este o aplicație homebrew care analizează modificările instalate pe un Wii. <br> Poți să pui un raport SysCheck în ModMii pentru a putea identifica și actualiza modificații vechi.
 
-You can have ModMii analyze a SysCheck by dragging the `syscheck.csv` file onto ModMii.exe. Alternatively, you can launch the SysCheck Updater Wizard (`SU`) from ModMii's main menu and manually browse for the file.
+Poți analiza un SysCheck folosind ModMii prin tragerea fișierului `syscheck.csv` în ModMii.exe. Alternativ, poți lansa Programul de Actualizare SysCheck (`SU`) din meniul principal ModMii pentru a căuta manual fișierul.
 
 ### HackMii Solutions Wizard
 
