@@ -12,7 +12,7 @@ Due to the nature of RSS feeds and the large amount of mail they can generate, t
 If you're not receiving updates after a few days, you might need to subscribe to the RSS feeds again. Launch RSSMii from the Homebrew Channel again and it should create new subscriptions.
 {: .notice--info}
 
-### Requirements
+### Instrumente necesare
 
 * An SD card
 * [RSSMii](https://oscwii.org/library/app/rssmii)
