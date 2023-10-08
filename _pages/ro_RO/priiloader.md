@@ -26,7 +26,7 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 #### Section I - Prep Work
 
-1. Power off your console.
+1. Oprește consola.
 1. Insert your SD card or USB drive into your computer.
 1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
@@ -34,7 +34,7 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 #### Section II - Installing Priiloader
 
-1. Power on your console.
+1. Pornește consola.
 1. Launch the Homebrew Channel.
 1. Launch Priiloader installer from the list of homebrew.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
