@@ -24,10 +24,10 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 #### Instrucțiuni
 
-1. Power on your console.
-1. Go to `Wii Settings`.
+1. Pornește consola.
+1. Mergi la `Wii Settings`.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Acea literă corespunde cu regiunea consolei, pe care trebuie să-l știi pentru pașii corespunzători.
 
     ![](/images/wii/SystemMenuVersion.png)
 
@@ -78,10 +78,10 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 #### Instrucțiuni
 
-1. Power on your console.
-1. Go to `Wii Settings`.
+1. Pornește consola.
+1. Mergi la `Wii Settings`.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Acea literă corespunde cu regiunea consolei, pe care trebuie să-l știi pentru pașii corespunzători.
 
     ![](/images/wii/SystemMenuVersion.png)
 
