@@ -21,7 +21,7 @@ If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-laun
 If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 {: .notice--warning}
 
-### Requirements
+### Instrumente necesare
 
 * An SD card with a minimum 512MB of free space (1GB or more recommended)
 
