@@ -25,7 +25,7 @@ If the screen stays black and the blue disc drive light is blinking upon launchi
 
 * An SD card with a minimum 512MB of free space (1GB or more recommended)
 
-### Instructions
+### Instrucțiuni
 
 If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
 {: .notice--info}
