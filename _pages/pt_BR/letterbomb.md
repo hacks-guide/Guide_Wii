@@ -4,17 +4,17 @@ title: "LetterBomb"
 
 {% include toc title="Sumário" %}
 
-For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
+Para instruções sobre como formatar seu cartão SD corretamente, por favor veja [este guia](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). É altamente recomendável verificá-lo devido a problemas na formatação como FAT32.
 {: .notice--info}
 
-Do NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Use your own!
+NÃO use nenhum dos exemplos de endereços MAC mostrados neste guia, pois eles simplesmente causarão um erro no site HackMii. Use o seu próprio!
 {: .notice--warning}
 
-LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
+LetterBomb é um exploit para o Wii que é acionado usando o Board de Mensagens do Wii.
 
 ### Requisitos
-* An SD card formatted as FAT32
-* A Wii on System Menu version 4.3
+* Um cartão SD formatado como FAT32
+* Um Wii no Menu do Sistema versão 4.3
 * Um computador Windows/macOS/Linux com conexão à internet
 
 ### Instruções
@@ -23,37 +23,37 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
 1. Vá para `Wii Settings`.
 1. Perceba no canto superior direito a letra próxima da versão do sistema.
     + Esta letra corresponde à região de menu do seu sistema, que você precisará saber para os passos correspondentes.
-    + Also, ensure that you are on System Menu version 4.3.
+    + Além disso, certifique-se de que você está no Menu do Sistema versão 4.3.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Navigate to `Internet` > `Console Information`.
-1. Take note of your FULL MAC address.
+1. Navegue para `Internet` > `Console Information`.
+1. Anote seu endereço MAC INTEIRO.
 
     ![](/images/wii/MacAddress.png)
 
-1. On your computer, open the browser and go to [the HackMii website](https://please.hackmii.com/).
-1. Input your Wii MAC address and region.
-1. Ensure `Bundle the HackMii Installer for me!` is checked.
-1. Cut either wire.
+1. No seu computador, abra o navegador e vá para [o site HackMii](https://please.hackmii.com/).
+1. Digite o endereço MAC e região do seu Wii.
+1. Assegure-se de que `Bundle the HackMii Installer for me!` está verificado.
+1. Corte qualquer "wire".
 
     ![](/images/exploits/letterbomb/LetterBomb-PC.png)
 
-1. Insert your SD card into your computer.
-1. Copy the `private` folder and the `boot.elf` file from the LetterBomb `.zip` to the root of your SD card.
-1. Reinsert your SD card into your console.
-    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
-1. On your Wii, return to the Wii Menu.
-1. Launch the Wii Message Board.
-1. Open the red letter with a bomb.
-    + Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
-    + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
-    + If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
-    + If your Wii freezes after clicking on the letter, you most likely chose the wrong system menu region for LetterBomb. Go back to Step 2 and verify that you chose the right region.
-    + If all is correct and there is freezing, keep on trying until it works.
+1. Insira seu cartão SD no seu computador.
+1. Copie a pasta `private` e o arquivo `boot.elf` do LetterBomb `.zip` para a raiz do seu cartão SD.
+1. Reinsira seu cartão SD no seu console.
+    + O cartão SD deve ser inserido no slot do cartão SD localizado na frente do Wii. O uso de um adaptador USB para SD conectado à porta USB do Wii não funcionará.
+1. No seu Wii, volte ao Menu Wii.
+1. Abra o Wii Message Board.
+1. Abra a carta vermelha com uma bomba.
+    + Verifique se a data no seu Wii está correta, caso contrário você pode não conseguir encontrar a carta.
+    + Em alguns casos, talvez seja necessário verificar as mensagens do dia anterior ou dia seguinte para que a carta apareça.
+    + Se você não ver a carta vermelha, verifique se algum erro aparece na seção do cartão SD do `Data Management`. Se houver, pode haver um problema com o formato do cartão SD ou com o leitor do cartão SD do Wii.
+    + Se o seu Wii congela depois de clicar na carta, você provavelmente escolheu a região de menu do sistema errada para LetterBomb. Volte ao Passo 2 e verifique se você escolheu a região certa.
+    + Se tudo estiver certo e se houver congelamento, continue a tentar até que isso funcione.
 1. Se o exploit foi bem sucedido, seu console irá carregar o Instalador HackMii.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continue para a instalação do Homebrew Channel e BootMii](hbc)
 {: .notice--info}
