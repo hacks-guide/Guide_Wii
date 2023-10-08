@@ -17,7 +17,7 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
 * A Wii on System Menu version 4.3
 * A Windows/MacOS/Linux computer with an Internet connection
 
-### Instructions
+### Instrucțiuni
 
 1. Power on your console.
 1. Go to `Wii Settings`.
