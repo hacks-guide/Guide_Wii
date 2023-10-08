@@ -62,17 +62,17 @@ Asigură-te că consola este aproape de calculator care rulează exploit-ul, ide
     ```
 
 1. Helper-ul va descărca apoi fișierele necesare și îți va cere informații despre consola ta.
-    + Dacă ai selectat Wii mini, îți va cere sa introduci regiunea consolei. Acest lucru poate fi determinat de ultima literă a versiunii Wii Menu (`U` pentru modelul **USA** și `E` pentru modelul **PAL**).
-    + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
+    + Dacă ai selectat Wii mini, îți va cere să introduci regiunea consolei. Acest lucru poate fi determinat de ultima literă a versiunii Wii Menu (`U` pentru modelul **USA** și `E` pentru modelul **PAL**).
+    + Dacă ai selectat Wii, îți va cere să introduci versiunea Wii Menu (Ce ai determinat în pasul 4)
 1. Pornește consola.
-    + **Do not** connect any Wii Remotes.
-1. Press the Sync button repeatedly until the terminal shows `got connection handle`.
-    + This could take numerous attempts.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
-    + If you are not planning to use it later, you can now shut down your Linux distro.
+    + **NU** conecta niciun Wii Remote.
+1. Apasă butonul Sync în mod repetat până ce terminalul afișează `got connection handle` (are conexiune).
+    + Acest lucru ar putea necesita numeroase încercări.
+1. Dacă exploit-ul a funcționat, dispozitivul va intra în HackMii Installer.
+    + Dacă nu intenţionezi să o utilizezi mai târziu, poți închide acum Linux-ul.
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+Dacă folosești un Wii: [Continuă cu Instalarea Homebrew Channel și BootMii](hbc)<br>
 {: .notice--info}
 
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+Dacă folosești un Wii mini: [Continuă cu Instalarea Homebrew Channel](hbc-mini)
 {: .notice--info}
