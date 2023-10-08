@@ -22,7 +22,7 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Instrucțiuni
 
 1. Power on your console.
 1. Go to `Wii Settings`.
@@ -76,7 +76,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Instrucțiuni
 
 1. Power on your console.
 1. Go to `Wii Settings`.
