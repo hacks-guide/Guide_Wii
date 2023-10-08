@@ -13,7 +13,7 @@ This guide covers dumping GameCube or Wii game discs. You can either dump direct
 + An SD card or USB drive with at least 4.7 GB of free space (8.5 GB if dumping a dual layer disc).
 + [CleanRip](https://oscwii.org/library/app/cleanrip)
 
-#### Instructions
+#### Instrucțiuni
 
 If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), set `Dual Layer` in Step 6 to `Yes`.
 {: .notice--info}
@@ -59,7 +59,7 @@ If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.o
 + A Windows/macOS/Linux PC with an internet connection
 + [DVD Dump Tool](/assets/files/DVDDumpTool.zip)
 
-#### Instructions
+#### Instrucțiuni
 
 Download speeds will be slow due to limitations in the network hardware of the Wii, but it remains a valid solution if you are willing to be patient.
 {: .notice--info}
