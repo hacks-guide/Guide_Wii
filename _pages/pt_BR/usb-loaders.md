@@ -37,23 +37,23 @@ Atalhos (Forwarders) para abrir esses Loaders no Menu Wii podem ser encontrados 
 ### Estrutura de diretório dos jogos
 
 ```
-💾 SD Card or USB Drives
-| ╸📁 wbfs
-    | ╸📁 GameName [GameID]
-    |   | ╸📄 GameID.wbfs (for non-split titles)
-    | ╸📂GameName [GameID]
-        | ╸📄gameid.wbfs
-        | ╸📄gameid.wbf1
+💾 Cartão SD ou Armazenamento USB
+➲ 📁 wbfs
+    ├📁 NomeDoJogo [IDdoJogo]
+    ├📄 IDdoJogo.wbfs (para títulos não-divididos)
+    ├📂 NomeDoJogo [IDdoJogo]
+        ├📄IDdoJogo.wbfs
+        ├📄IDdoJogo.wbf1
 ```
 
 ### WiiFlow Lite
 
 #### Requisitos
-+ A modded Wii
-+ Fully installed [cIOS](cios)
++ Um Wii desbloqueado
++ [cIOS](cios) totalmente instaladas
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
-#### Installation
+#### Instalação
 
 1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
 1. Download WiiFlow and install it on your SD Card or USB device.
@@ -97,7 +97,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 #### Requisitos
 + A modded Wii
-+ Fully installed [cIOS](cios)
++ [cIOS](cios) totalmente instaladas
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
 #### Installation
