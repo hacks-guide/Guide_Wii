@@ -1,40 +1,40 @@
 ---
-title: "USB Loaders"
+title: "Loaders USB"
 ---
 
 {% include toc title="Sumário" %}
 
-This guide introduces USB loaders on the Wii. They can be primarily used to load game backups that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
+Este guia introduz Loaders USB no Wii. Eles podem ser usados principalmente para carregar os backups de jogos que foram dumpados de um disco de jogo. Dependendo do Loader, pode haver também extensões que permitam que ele funcione como uma interface para jogos que não sejam do Wii. Os dois loaders mais comumente usados são o USB Loader GX e WiiFlow Lite (um mod atualizado regularmente do WiiFlow) - um loader pode funcionar melhor para você do que o outro, então vale a pena tentar ambas.
 
-**Note about Configurable USB Loader:**<br> Due to the age and lack of support for Configurable USB Loader (last update was in 2011), this guide does not provide dedicated installation instructions. If enough demand is there, it may be added in the future.
+**Nota sobre o Configurable USB Loader:**<br> Devido à idade e falta de suporte para o Configurable USB Loader (a última atualização foi em 2011), este guia não fornece instruções de instalação dedicadas. Se houver demanda suficiente, ele poderá ser acrescentado no futuro.
 {: .notice--warning}
 
-In order for a USB loader to function properly, you must have the correct cIOS installed. Please check [this](cios) guide for instructions if you are on Wii, and [this](cios-mini) guide if you are on Wii mini.
+Para que um Loader USB funcione corretamente, você deve ter as cIOS instalado corretamente. Por favor, consulte [este guia](cios) para obter instruções caso você esteja no Wii, e [este guia](cios-mini) caso você esteja no Wii mini.
 {: .notice--warning}
 
-To play games, you are advised to use a large SD card or an external hard drive, flash drives are very sporadic in functionality. See [storage FAQ](faq).
+Para jogar jogos, é aconselhável usar um cartão SD grande ou um HD externo, Pen Drives são muito esporádicos em funcionalidade. Consulte [FAQ de armazenamento](faq).
 {: .notice--info}
 
-Forwarders to open these loaders on the Wii Menu can be found on the Open Shop Channel for [WiiFlow Lite](https://oscwii.org/library/app/wiiflow_channel_installer) or on the official SourceForge page for [USB Loader GX](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad/download). You can install either with [YAWM ModMii Edition](yawmme).
+Atalhos (Forwarders) para abrir esses Loaders no Menu Wii podem ser encontrados no Open Shop Channel para [WiiFlow Lite](https://oscwii.org/library/app/wiiflow_channel_installer) ou na página oficial do SourceForge para [USB Loader GX](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad/download). Você pode instalar um com o [YAWM ModMii Edition](yawmme).
 {: .notice--info}
 
-### Differences between WiiFlow Lite and USB Loader GX
+### Diferenças entre WiiFlow Lite e USB Loader GX
 
-+ WiiFlow Lite has a more advanced user interface in terms of animation and effects, and supports themes.
-    + SD cards are fully supported for loading Wii games on WiiFlow Lite.
-    + WiiFlow Lite has a plugin system.
-    + While the original WiiFlow was last updated in 2014, the WiiFlow Lite fork is still recieving regular updates.
++ WiiFlow Lite tem uma interface de usuário mais avançada em termos de animação e efeitos, e suporta temas.
+    + Cartões SD são totalmente suportados para carregar jogos do Wii no WiiFlow Lite.
+    + WiiFlow Lite tem um sistema de plugins.
+    + O WiiFlow original foi atualizado pela última vez em 2014, o fork WiiFlow Lite ainda está recebendo atualizações regulares.
 
     ![](/images/usb-loaders//wiiflow-ui.png)
 
-+ USB Loader GX is primarily modeled after the Wii Menu, and supports themes.
-    + While SD cards were previously unsupported for loading Wii games on USB Loader GX, recent updates have introduced support into the loader.
-    + USB Loader GX has no plugin system.
-    + USB Loader GX still recieves regular updates.
++ O USB Loader GX é principalmente modelado como o menu do Wii e suporta temas.
+    + Enquanto os cartões SD anteriormente não eram suportados para carregar jogos Wii no USB Loader GX, as atualizações recentes introduziram suporte ao Loader.
+    + O USB Loader GX não possui um sistema de plugins.
+    + O USB Loader GX ainda recebe atualizações regulares.
 
     ![](/images/usb-loaders/usbloadergx-ui.png)
 
-### Game Directory Structure
+### Estrutura de diretório dos jogos
 
 ```
 💾 SD Card or USB Drives
