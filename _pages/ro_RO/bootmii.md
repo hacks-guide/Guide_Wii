@@ -30,7 +30,7 @@ If the screen stays black and the blue disc drive light is blinking upon launchi
 If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
 {: .notice--info}
 
-1. Power on your console.
+1. Pornește consola.
 1. Launch the Homebrew Channel.
 1. Press the HOME Button, then select "Launch BootMii".
 
