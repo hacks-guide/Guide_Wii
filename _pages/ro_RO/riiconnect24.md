@@ -15,7 +15,7 @@ It's recommended to set your Wii to the current time before proceeding. Follow [
 DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick the system.
 {: .notice--danger}
 
-### Requirements
+### Instrumente necesare
 
 If you are on vWii, you will also need [Priiloader](priiloader) installed with the WC24 hacks.
 {: .notice--primary}
