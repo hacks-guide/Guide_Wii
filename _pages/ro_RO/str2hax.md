@@ -86,7 +86,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
     ![](/images/exploits/str2hax/EULA.png)
 
 1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Dacă exploit-ul a funcționat, dispozitivul va intra în HackMii Installer.
 
     ![](/images/hackmii/scam.png)
 
