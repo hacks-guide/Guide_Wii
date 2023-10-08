@@ -29,7 +29,7 @@ Make sure your storage device is formatted as FAT32. Do not format it to other f
 + You can use various input devices to play GameCube games. These include GameCube controllers (even via a USB adapter), Wiimotes, Classic Controllers, the Konga, HID USB controllers, Bluetooth controllers, and potentially more.
 + Nintendont has support for virtual memory cards that are saved to an external storage device, from sizes of 51 blocks up to 1019 blocks. Despite this, the recommended max size is 251 blocks per virtual card for maximum compatibility.
 + You can use a fan-made patch to enable online play in some games.
-+ Nintendont can be leveraged in either [WiiFlow Lite](usb-loaders#wiiflow-lite) or [USB Loader GX](usb-loaders#usb-loader-gx) for the loading of GameCube games.
++ Nintendont can be leveraged in either [WiiFlow Lite](wii-loaders#wiiflow-lite) or [USB Loader GX](wii-loaders#usb-loader-gx) for the loading of GameCube games.
 
 #### User Interface
 
