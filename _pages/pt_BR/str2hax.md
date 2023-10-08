@@ -4,20 +4,20 @@ title: "str2hax"
 
 {% include toc title="Sumário" %}
 
-Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
+Note que se sua ISP ou sua internet previne que você use servidores DNS customizados, o str2hax não irá funcionar e você deveria [escolher outro exploit para utilizar](get-started).
 {: .notice--warning}
 
-str2hax is an exploit for the Wii that is triggered by loading the Wii's End User License Agreement. It requires nothing but an Internet connection that lets you change the DNS on your Wii.
+O str2hax é um exploit para o Wii que é acionado ao carregar o Contrato de Licença de Usuário Final do Wii. Isso requer nada além de uma conexão de Internet que permite que você altere o DNS no seu Wii.
 
 ### Requisitos
 
-* A Wii with an Internet connection
+* Um Wii com uma conexão à Internet
 
 ### Instruções
 
-#### Common issues
+#### Problemas comuns
 
-If you get the normal User Agreements, your ISP blocks the use of custom DNS. Please [use another exploit](get-started).
+Se você receber os Termos de Usuário normais, seu provedor bloqueia o uso de DNS personalizado. Por favor, [use outro exploit](get-started).
 {: .notice--warning}
 
 If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
