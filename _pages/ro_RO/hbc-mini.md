@@ -6,7 +6,7 @@ title: "Homebrew Channel - numai pentru Wii mini"
 
 The Homebrew Channel is where you will go to launch homebrew applications.
 
-### Instructions
+### Instrucțiuni
 This page is **only** intended for users of the Wii mini. If you have a regular Wii, follow [this guide](hbc) instead.
 {: .notice--info}
 
