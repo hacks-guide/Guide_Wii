@@ -79,11 +79,11 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 * A modded Wii
 * An SD card or USB device
-* [WiiFlow Lite](usb-loaders#wiiflow-lite)
+* [WiiFlow Lite](wii-loaders#wiiflow-lite)
 * A Linux/macOS/Windows PC with an Internet connection
 * [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
-#### Instructions
+#### Instrucțiuni
 
 1. Have the storage device that holds WiiFlow Lite connected to your PC.
 1. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
@@ -96,11 +96,11 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 * A modded Wii
 * An SD card or USB device
-* [USB Loader GX](usb-loaders#usb-loader-gx)
+* [USB Loader GX](wii-loaders#usb-loader-gx)
 * A Linux/macOS/Windows PC with an Internet connection
 * A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
 
-#### Instructions
+#### Instrucțiuni
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
 1. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
@@ -117,7 +117,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * A Linux/macOS/Windows PC with an internet connection
 * A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
 
-#### Instructions
+#### Instrucțiuni
 
 1. Download a theme `.zip` file from the website linked above.
 
