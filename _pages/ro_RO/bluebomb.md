@@ -40,20 +40,20 @@ Asigură-te că consola este aproape de calculator care rulează exploit-ul, ide
 1. Copiază fișierul `boot.elf` din arhiva `hackmii_installer_v1.2.zip` în root-ul stick-ului.
     + (Dacă încerci să repari consola, trebuie să copiezi și aplicațiile homebrew de care ai nevoie în folder-ul /apps/)
     + (Chiar și pentru un Wii mini, bootmii.elf **nu** va funcționa, motivul acesta fiind cu totul diferit și nerelevant. Folosește fișierul boot.elf în toate cazurile).
-1. Reinsert your flash drive into your console.
-    + For a Wii mini, the USB port is on the back.
-    + For a normal Wii, use the bottom port (or the right port if it's upright).
-1. Power on your console.
-1. Go to `Wii Settings`.
-1. Take note in the top right corner of the letter next to the system version.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+1. Re-inserați stick-ul în consolă.
+    + Pentru Wii mini, portul USB este pe spate.
+    + Pentru Wii normal, folosește portul de jos (sau portul din dreapta dacă este în picioare).
+1. Pornește consola.
+1. Mergi la `Wii Settings`.
+1. Notează litera care este notată după versiunea sistemului.
+    + Acea literă corespunde cu regiunea consolei, pe care trebuie să-l știi pentru pașii corespunzători.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Power off your console.
-1. Start your Linux distro, and ensure you are connected to the internet.
-1. Open the Terminal
-1. Run the following commands:
+1. Oprește consola.
+1. Pornește Linux-ul și asigură-te că ești conectat la internet.
+1. Deschide terminalul
+1. Rulează următoarele comenzi:
 
     ```bash
     wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -61,10 +61,10 @@ Asigură-te că consola este aproape de calculator care rulează exploit-ul, ide
     ./bluebomb-helper.sh
     ```
 
-1. The helper will then download the required files, and ask for information about your console.
-    + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
+1. Helper-ul va descărca apoi fișierele necesare și îți va cere informații despre consola ta.
+    + Dacă ai selectat Wii mini, îți va cere sa introduci regiunea consolei. Acest lucru poate fi determinat de ultima literă a versiunii Wii Menu (`U` pentru modelul **USA** și `E` pentru modelul **PAL**).
     + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
-1. Power on your console.
+1. Pornește consola.
     + **Do not** connect any Wii Remotes.
 1. Press the Sync button repeatedly until the terminal shows `got connection handle`.
     + This could take numerous attempts.
