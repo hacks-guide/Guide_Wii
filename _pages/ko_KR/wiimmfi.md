@@ -44,7 +44,7 @@ A method for Wiimmfi patching which automatically patches game backups in the la
 #### 준비물
 
 + A Wii with an internet connection
-+ [USB Loader GX or WiiFlow Lite](usb-loaders)
++ [USB Loader GX or WiiFlow Lite](wii-loaders)
 
 #### 진행 방법
 
