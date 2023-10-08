@@ -10,7 +10,7 @@ This guide will show you how to dump WADs from your Wii System Memory.
 
 + [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-### Instructions
+### Instrucțiuni
 
 1. Power off your console.
 1. Insert your SD card or USB drive into your computer.
