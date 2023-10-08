@@ -59,7 +59,6 @@ sitemap: false
 + [RSSMii](rssmii)
 + [Managing GameCube Save Files](gcsaves)
 + [Nintendont](nintendont)
-+ [Playing Wii Game Mods](riivolution)
 + [Recommended Homebrew](recommended-homebrew)
 + [USB Loaders](usb-loaders)
 + [Using SysCheck](syscheck)
