@@ -115,7 +115,7 @@ If you get error 107245, you did not install the patched IOS.<br> If you get err
 You will now set your DNS to RiiConnect24 servers. This is optional but recommended, because it enhances the use of RiiConnect24 and Wiimmfi by making some other features available.
 
 1. Go to `Wii Options`.
-1. Go to `Wii Settings`.
+1. Mergi la `Wii Settings`.
 1. Go to `Page 2`, then click on `Internet`.
 1. Go to `Connection Settings`.
 1. Select your current connection.
