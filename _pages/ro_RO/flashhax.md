@@ -11,7 +11,7 @@ FlashHax is an exploit for the Wii that is triggered by using the Internet Chann
 * A Wii with an Internet connection
 * The Internet Channel
 
-### Instructions
+### Instrucțiuni
 
 #### Section I - Prep Work
 
