@@ -25,13 +25,13 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 1. Hold the RESET button while turning on your Wii. If you are using a Wii mini, plug in a USB keyboard and hold Escape while turning it ON.
 1. You should see the Priiloader menu.
 
-    ![](/images/Priiloader/mainmenu.jpg)
+    ![](/images/priiloader/mainmenu.jpg)
 
 1. Go to `System Menu Hacks`. If you used a USB drive to install Priiloader, make sure you do not have an SD card inserted at the same time. This will cause Priiloader to be unable to find the hacks_hash.ini file.
     {: .notice--info}
 1. Make sure the `Wiimmfi patch v4` hack is enabled.
 
-    ![](/images/Priiloader/hacks.jpg)
+    ![](/images/priiloader/hacks.jpg)
 
 1. Scroll to `Save Settings` and save your changes.
 1. Return to the main menu, and press `System Menu` to return to the Wii Menu.
