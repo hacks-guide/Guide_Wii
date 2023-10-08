@@ -44,7 +44,7 @@ A method for Wiimmfi patching which automatically patches game backups in the la
 #### Prérequis
 
 + A Wii with an internet connection
-+ [USB Loader GX or WiiFlow Lite](usb-loaders)
++ [USB Loader GX or WiiFlow Lite](wii-loaders)
 
 #### Instructions
 
