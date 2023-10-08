@@ -51,7 +51,7 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
     + If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
     + If your Wii freezes after clicking on the letter, you most likely chose the wrong system menu region for LetterBomb. Go back to Step 2 and verify that you chose the right region.
     + If all is correct and there is freezing, keep on trying until it works.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Dacă exploit-ul a funcționat, dispozitivul va intra în HackMii Installer.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
