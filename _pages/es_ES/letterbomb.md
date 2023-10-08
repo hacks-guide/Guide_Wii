@@ -4,7 +4,7 @@ title: "LetterBomb"
 
 {% include toc title="Índice" %}
 
-For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
+Para obtener instrucciones sobre cómo formatear correctamente tu tarjeta SD, por favor ve [esta guía](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
 {: .notice--info}
 
 Do NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Use your own!
