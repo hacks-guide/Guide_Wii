@@ -28,12 +28,12 @@ This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBao
 
 #### Section I - Downloading
 
-1. Power off your console.
+1. Oprește consola.
 1. Insert your USB drive into your computer.
 1. Create a folder named `apps` on the root of your USB drive if it does not already exist.
 1. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
 1. Reinsert your USB drive into your console.
-1. Power on your console.
+1. Pornește consola.
 1. Launch the Homebrew Channel.
 1. Launch d2xl cIOS Installer from the list of homebrew.
 
