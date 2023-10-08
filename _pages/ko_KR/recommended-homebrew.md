@@ -26,7 +26,7 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 ### Games and Loaders
 
 + [**Riivolution**](https://oscwii.org/library/app/riivolution) - An on-the-fly game patcher for use with retail game discs. It allows users to place content on an SD card or a USB device, which is subsequently read by the game during normal play. Riivolution can be used for custom textures, music, levels, memory patches, game translations, and more!
-+ [USB Loaders](usb-loaders) - A general recommendation for a USB loader of any kind, which allows you to play game backups of retail discs. Further information can be found in our linked guide, which encompasses both Wii and GameCube loaders.
++ [USB Loaders](wii-loaders) - A general recommendation for a USB loader of any kind, which allows you to play game backups of retail discs. Further information can be found in our linked guide, which encompasses both Wii and GameCube loaders.
 + [CavEX](https://oscwii.org/library/app/cavex) - A project aiming to recreate the core survival experience of your favorite block game on the Wii up to Beta 1.7.3.
 + [Sonic CD](https://oscwii.org/library/app/SonicCDWii) - A port of the Sonic CD 2011 re-release from the RSDKv3 decompilation. **The app requires assets from the official release in order to run**.
 + [CTGP-R](https://www.chadsoft.co.uk/download/) - A hefty mod of Mario Kart Wii that adds over **200** new tracks to the game. Requires a retail Mario Kart Wii game disc to run, independent of Riivolution.
