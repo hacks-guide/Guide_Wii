@@ -22,7 +22,7 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 * [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
 * [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
-### Instructions
+### Instrucțiuni
 
 #### Section I - Prep Work
 
