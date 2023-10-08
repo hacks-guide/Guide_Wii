@@ -26,7 +26,7 @@ If you are on vWii, you will also need [Priiloader](priiloader) installed with t
 + [RiiConnect24 Patcher (Windows, Mac and Linux)](https://github.com/riiconnect24/RiiConnect24-Patcher/releases)
 + [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Instructions
+### Instrucțiuni
 
 #### Section I - Using RiiConnect24 Patcher
 
