@@ -16,7 +16,7 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 <!--div class="notice--success" markdown="1">{{ notice-vwii-priiloader }} </div-->
 
-### Requirements
+### Instrumente necesare
 
 * An SD card or USB drive
 * [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
