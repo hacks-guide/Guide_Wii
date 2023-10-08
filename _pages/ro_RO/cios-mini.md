@@ -24,7 +24,7 @@ This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBao
 * A USB drive
 * Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
-### Instructions
+### Instrucțiuni
 
 #### Section I - Downloading
 
