@@ -13,9 +13,9 @@ Acest Program NU vine cu garanție, deci ești responsabil pentru orice daună p
 Acest program NU este intenționat de a fi folosit pentru vWii sau Wii mini. Orice folosire pe vWii sau Wii mini este netestată.
 {: .notice--warning}
 
-ModMii is a PC program for Windows created by XFlak that has various helpful tools for modding, including some tutorials that may not be currently available on this website.<br> You can choose to launch in ModMii skin, which has a more user-friendly interface, or launch in ModMii Classic, which uses a command-line (Command Prompt/Terminal) interface.
+ModMii este un program de calculator pentru Windows creat de XFlak care conține numeroase unelte folositoare pentru modificarea consolei și inclusiv niște tutoriale care s-ar putea să nu fie disponibile momentan pe acest website.<br> Poți alege să rulezi în ModMii skin, ce are o interfață mai ușor de înțeles, sau rulează în ModMii Classic, ce folosește o interfață bazată pe linie de comandă (Command Prompt/Terminal).
 
-Some advanced options may not be accessible in ModMii Skin. A list of the features available in ModMii Classic can be found at the bottom of the page.
+Unele opțiuni avansate s-ar putea să nu fie accesibile în ModMii Skin. A list of the features available in ModMii Classic can be found at the bottom of the page.
 {: .notice--info}
 
 ### Instrumente necesare
