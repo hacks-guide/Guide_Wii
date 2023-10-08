@@ -28,7 +28,7 @@ If your Wii has an Internet connection, you may skip this section.<br> However, 
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
 
-1. Power off your console.
+1. Oprește consola.
 1. Insert your SD card or USB drive into your computer.
 1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 1. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
@@ -56,7 +56,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
 
 1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
+1. Pornește consola.
 1. Launch the Homebrew Channel.
 1. Launch d2x cIOS Installer from the list of homebrew.
 1. When asked what IOS you would like to use, select IOS 58.
