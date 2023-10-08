@@ -9,7 +9,7 @@ This tutorial will explain how to update your Wii Menu to version 4.3, if you ha
 It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.3.
 {: .notice--warning}
 
-### Requirements
+### Instrumente necesare
 
 * An SD card or USB drive
 * A computer with Windows on it
