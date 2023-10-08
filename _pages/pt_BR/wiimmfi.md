@@ -4,9 +4,9 @@ title: "Nintendo Wi-Fi Connection"
 
 {% include toc title="Sumário" %}
 
-Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. While different games were supported for longer than others, all games are no longer able to play through conventional means as of August 2023. To regain Nintendo WFC functionality, this guide provides instructions on installing Wiimmfi. There are several different methods to connect to Wiimmfi listed in order of least to greatest difficulty - choose the method that suits your situation best.
+A Nintendo Wi-Fi Connection foi um serviço que permitia jogar jogos com multiplayer online gratuito no Wii. Enquanto jogos diferentes foram suportados por mais tempo do que outros, todos os jogos já não são capazes de jogar pelos meios convencionais a partir de agosto de 2023. Para recuperar as funcionalidades do Nintendo WFC, este guia fornece instruções sobre como instalar o Wiimmfi. Existem vários métodos diferentes para se conectar ao Wiimmfi listados em ordem de menor dificuldade - escolha o método que melhor se adequa a sua situação.
 
-If you get error 23904 while connecting to Wiimmfi, then you are using an outdated patch.<br> Follow the steps below for the method you're using to connect to Wiimmfi again.<br> See [this page](https://wiimmfi.de/update) for more details.<br>
+Se você receber o erro 23904 enquanto se conecta ao Wiimmfi, então você está usando um patch desatualizado.<br> Siga os passos abaixo para o método que você está usando para se conectar ao Wiimmfi novamente.<br> Consulte [esta página](https://wiimmfi.de/update) para mais detalhes.<br>
 {: .notice--warning}
 
 ### Automatic Disc Patching via Priiloader
