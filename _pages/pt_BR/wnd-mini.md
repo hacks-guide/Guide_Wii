@@ -18,7 +18,7 @@ There is no way to restore your NAND backup this way without a hardmod.
 
 ### Requisitos
 
-* A Wii
+* Um Wii
 * Um armazenamento USB
 * [Simple IOS Patcher for Wii mini](https://oscwii.org/library/app/SimpleIOSPatcher_Mini)
 * [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
@@ -75,7 +75,7 @@ For now, only the `bootmii_keys.bin` file is required.
 1. Locate your `WiiFlash_n_ECC.img` file and select "open".
 1. Another window will pop up asking for the keys. Locate `bootmii_keys.bin` and select open.
 
-Continue to [Open Shop Channel Installation](osc) Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+Continuar para a  [Instalação do Open Shop Channel](osc) Agora que seu Wii tem proteção adequada de bricks, você pode instalar o Open Shop Channel, um repositório confiável para homebrews que pode ser acessado dentro e fora do Wii.
 {: .notice--info}
 
 [Clique aqui para voltar ao índice do site.](site-navigation)
