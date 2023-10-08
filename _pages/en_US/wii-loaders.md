@@ -1,22 +1,18 @@
 ---
-title: "USB Loaders"
+title: "Wii Backup Loaders"
 ---
 
 {% include toc title="Table of Contents" %}
 
-This guide introduces USB loaders on the Wii. They can be primarily used to load game backups that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
+This guide introduces Wii backup loaders. They can be primarily used to load game backups on an SD or USB that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
 
-**Note about Configurable USB Loader:**<br>
-Due to the age and lack of support for Configurable USB Loader (last update was in 2011), this guide does not provide dedicated installation instructions. If enough demand is there, it may be added in the future.
-{: .notice--warning}
-
-In order for a USB loader to function properly, you must have the correct cIOS installed. Please check [this](cios) guide for instructions if you are on Wii, and [this](cios-mini) guide if you are on Wii mini.
+In order for Wii loader to function properly, you must have the latest cIOS installed. Please check [this](cios) guide for instructions if you are on Wii, and [this](cios-mini) guide if you are on Wii mini.
 {: .notice--warning} 
 
-To play games, you are advised to use a large SD card or an external hard drive, flash drives are very sporadic in functionality. See [storage FAQ](faq).
+To play games, you are advised to use a large SD card or an external hard drive, flash drives are not recommended and very sporadic in functionality. See [storage FAQ](faq).
 {: .notice--info}
 
-Forwarders to open these loaders on the Wii Menu can be found on the Open Shop Channel for [WiiFlow Lite](https://oscwii.org/library/app/wiiflow_channel_installer) or on the official SourceForge page for [USB Loader GX](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad/download). You can install either with [YAWM ModMii Edition](yawmme).
+The official Wii menu forwarder installer for Wiiflow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Run the app in the Homebrew Channel to install the forwarder. The USB Loader GX official forwarder can be found on the [SourceForge](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad/download) page. You can install it with [YAWM ModMii Edition](yawmme).
 {: .notice--info}
 
 ### Differences between WiiFlow Lite and USB Loader GX
@@ -37,26 +33,27 @@ Forwarders to open these loaders on the Wii Menu can be found on the Open Shop C
 
 ### Game Directory Structure
 
+Below is a single WBFS example, and a split WBFS example.
+
 ```
-💾 SD Card or USB Drives
-| ╸📁 wbfs
-	| ╸📁 GameName [GameID]
-	|	| ╸📄 GameID.wbfs (for non-split titles)
-    | ╸📂GameName [GameID]
-        | ╸📄gameid.wbfs
-        | ╸📄gameid.wbf1
+💾SD card or USB:
+ ┗ 📂wbfs
+    ┣ 📂GameName [GameID]
+    ┃  ┗ 📜gameid.wbfs (for non-split titles)
+    ┗ 📂GameName [GameID]
+       ┣ 📜gameid.wbfs
+       ┗ 📜gameid.wbf1
 ```
 
 ### WiiFlow Lite
 
 #### Requirements
 + A modded Wii
-+ Fully installed [cIOS](cios)
++ The latest version of [cIOS](cios)
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
 #### Installation
 
-1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
 1. Download WiiFlow and install it on your SD Card or USB device.
 
 #### Quick Start Guide
@@ -99,7 +96,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 #### Requirements
 + A modded Wii
-+ Fully installed [cIOS](cios)
++ The latest version of [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
 #### Installation
@@ -111,7 +108,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ##### General
 
-+ If USB Loader GX says "Waiting for HDD..." with a 20 second countdown, it is very likely that it cannot detect your USB device. Try to exit out of the app, plug your USB device into the opposite port that it is currently in, and relaunch it.
++ If USB Loader GX says "Waiting for HDD..." with a 20 second countdown, it is very likely that it cannot detect your USB device. Try to exit out of the app, ensure your USB device is plugged into the bottom port if Wii is placed horizontally, or the port closest to the edge when the Wii is placed vertically. It may also be formatted incorrectly. Ensure that your USB drive is formatted to FAT32, with the MBR partition table, and 32kb (32768 bytes) allocation unit size/cluster size.
 + You can press the 1 Button on your Wii Remote to open up a dialog to download game covers and artwork from [GameTDB](https://gametdb.com/). It might take a while to download the game covers and artwork, depending the amount of games you have.
 + GameCube or "custom" Wii games may or may not have a custom banner that USB Loader GX uses. To enable this, find or write `CustomBannersURL = http://banner.rc24.xyz/` in `config/GXGlobal.cfg` on the drive you installed the app on. Then, you can use the `Custom Banner` download by pressing the 1 Button on your Wii Remote.
 
@@ -144,13 +141,16 @@ There are also other buttons at the bottom of the screen:
 
 ### Troubleshooting
 
-Although the majority of games should work as-is with default settings, some may require using a specific cIOS to function, or to utilize certain features within the game.
+Some games require using a specific cIOS to function, or to utilize certain features within the game.
 Examples include:
 
 + Using a keyboard in Animal Crossing: City Folk.
 + Running SpongeBob's Boating Bash.
++ Using a USB dongle in Rock Band.
 
 A more comprehensive (although still incomplete) list can be found [here](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
+
+Both USB Loader GX and Wiiflow Lite are programmed to automatically find the best cIOS to use and load the game with it using the default settings.  However, if for whatever reason these loaders pick the wrong cios to use, you have the option to change it yourself.
 
 To change the cIOS used for a specific game, follow the instructions specific to your USB loader:
 
@@ -160,14 +160,14 @@ To change the cIOS used for a specific game, follow the instructions specific to
 1. Select `Game Load`.
 1. Scroll down to `Game IOS`.
 1. Enter the IOS slot to use.
-    + Try using 250 or 251, if 249 doesn't work.
+    + Try using 248, 249, 250 or 251.
 1. Press OK and try to load the game.
 
 #### WiiFlow Lite
 1. Select the game that isn't working.
 1. Click the gear icon.
 1. Go to cIOS and use the arrows to select the IOS slot to use.
-    + Try using 250 or 251, if 249 doesn't work.
+    + Try using 248, 249, 250 or 251.
 1. Press Save and try to load the game.
 
 [Continue to Nintendont](nintendont)
