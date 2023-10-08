@@ -19,7 +19,7 @@ There are two methods to use the Open Shop Channel: on your Wii through the Home
 + An SD card or USB drive
 + [The Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
-#### Instructions
+#### Instrucțiuni
 
 1. Download the reccomended `.zip` file from the Open Shop Channel website.
 
