@@ -61,7 +61,7 @@ sitemap: false
 + [Nintendont](nintendont)
 + [Jouer à des mods de jeux Wii](riivolution)
 + [Homebrew recommandés](recommended-homebrew)
-+ [Lanceurs USB](usb-loaders)
++ [Lanceurs USB](wii-loaders)
 + [Utiliser SysCheck](syscheck)
 + [Wii Backup Manager](wiibackupmanager)
 + [Guide des thèmes Wii](themes)
