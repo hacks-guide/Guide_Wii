@@ -116,5 +116,5 @@ If you dumped the disc (regardless if it was to a PC or Wii) on a FAT32 formatte
 1. Use the following command as is: `cat \*.part?.iso > game.iso`.
 1. Wait until the merging process finishes.
 
-To organize the games on your drive properly, you can use [Wii Backup Manager](wiibackupmanager).
+To organize the games on your drive properly, you can use [Wii Backup Manager](https://wiki.hacks.guide/wiki/Wii:Wii_Backup_Manager).
 {: .notice--info}

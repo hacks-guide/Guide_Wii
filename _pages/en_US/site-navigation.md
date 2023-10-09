@@ -62,7 +62,6 @@ sitemap: false
 + [Recommended Homebrew](recommended-homebrew)
 + [USB Loaders](wii-loaders)
 + [Using SysCheck](syscheck)
-+ [Wii Backup Manager](wiibackupmanager)
 + [Wii Themes Guide](themes)
 {% endcapture %}
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
