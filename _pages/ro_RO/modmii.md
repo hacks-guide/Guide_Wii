@@ -39,32 +39,32 @@ Poți de asemenea să folosești acest program să îți setezi un USB loader î
 
 Poți analiza un SysCheck folosind ModMii prin tragerea fișierului `syscheck.csv` în ModMii.exe. Alternativ, poți lansa Programul de Actualizare SysCheck (`SU`) din meniul principal ModMii pentru a căuta manual fișierul.
 
-### HackMii Solutions Wizard
+### Programul de Soluții HackMii
 
-The HackMii Solutions wizard can help fix symptoms like these:
-    + HackMii Installer not prompting "Press (1) to continue"
-    + HackMii Installer says "no vulnerable IOS found!"
-    + Homebrew Channel is displaying upside-down
+Programul de Soluții HackMii te poate ajuta să repari probleme ca următoarele:
+    + Instalatorul HackMii nu afișează "Press (1) to continue"
+    + Instalatorul HackMii spune "no vulnerable IOS found!"
+    + Homebrew Channel se afișează cu susul în jos
 
-It will install clean IOSs to allow for the HackMii Installer to operate properly.
+Acesta va instala IOS-uri curate pentru a permite Instalatorului HackMii să funcționeze cum trebuie.
 
-### Abstinence Wizard
+### Programul de Abstinență
 
-This wizard requires an SD card.
+Acest program necesită un card SD.
 {: .notice--warning}
 
-This wizard allows you to enjoy many of the benefits of a softmodded Wii without installing any permanent modifications to your Wii. It will allow you to launch an exploit to boot an from emulated NAND from external storage, rather than use your Wii's internal NAND.
+Acest program îți permite să te bucuri de multe dintre beneficiile unui Wii modificat fără să instalezi nici o modificare permanentă pe consola ta Wii. Îți va permite să rulezi un exploit care va porni un NAND emulat din stocarea externă în loc să folosești NAND-ul intern al consolei tale Wii.
 
-You can also make a NAND backup without modifying your Wii at all by navigating to ModMii's "Support" folder and launching `Casper2BootMii.bat`. <br> It will save some files to a folder named `COPY_TO_SD`; copy the files inside it to your SD card and [launch an exploit](get-started).
+Poți de asemenea să creezi un backup NAND fără să îți modifici consola Wii deloc prin navigarea la dosarul "Support" al ModMii-ului și lansarea fișierului `Casper2BootMii.bat`. <br> Acesta va salva niște fișiere într-un dosar numit `COPY_TO_SD`; copiază fișierele din înăuntrul acesteia în cardul tău SD și [rulează un exploit](get-started).
 
-When following one of the exploit guides above, avoid replacing the `boot.elf` file.
+Când urmărești una dintre ghidurile de exploit-uri de mai sus, evită să înlocuiești fișierul `boot.elf`.
 {: .notice--warning}
 
 
 <details id="Modmii-Tools" class="notice--info" markdown="1">
-<summary><a>Click here for a full list of available tools.</a></summary>
+<summary><a>Apasă aici pentru o listă întreagă a uneltelor disponibile.</a></summary>
 
-| Tool                                                                        | Description                                                                                                                                                                                                                                |
+| Unealtă                                                                     | Descriere                                                                                                                                                                                                                                  |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | W = ModMii Wizard <-- Start Here to Mod Your Wii!                           | This option can be used to mod your Wii for the first time or re-mod a Wii that has been previously modded.                                                                                                                                |
 | SU = SysCheck Updater Wizard (update only your outdated softmods)           | This option is useful for people who have old modifications installed to their wii such as DarkCorp/Ciosspaghetti that can potetially cause problems for the latest homebrew custom firmware.                                              |
@@ -87,9 +87,9 @@ When following one of the exploit guides above, avoid replacing the `boot.elf` f
 </details>
 
 <details id="Modmii-Options" class="notice--info" markdown="1">
-<summary><a>Click here for a full list of available options.</a></summary>
+<summary><a>Apasă aici pentru o listă întreagă a opțiunilor disponibile.</a></summary>
 
-| Option                                                           | Description                                                                                                   |
+| Opțiune                                                          | Descriere                                                                                                     |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | D = Change Drive letter:                                         | Changes where your SD files are saved to.                                                                     |
 | DU = Change Drive letter for USB:                                | Changes where your USB files are saved to.                                                                    |
