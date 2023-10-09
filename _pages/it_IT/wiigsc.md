@@ -1,5 +1,5 @@
 ---
-title: "Creating Wii Game Shortcuts"
+title: "Come creare collegamenti per Giochi Wii"
 ---
 
 {% include toc title="Table of Contents" %}
