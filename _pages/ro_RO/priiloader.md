@@ -80,7 +80,7 @@ To enter it later on, simply run the "Load Priiloader" homebrew app. There are a
 <details id="system-menu-hacks-list" class="notice--info" markdown="1">
 <summary><a>Click here for a full list of available System menu hacks.</a></summary>
 
-| Hack                                      | Description                                                                                                                                                                           |
+| Hack                                      | Descriere                                                                                                                                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Block Disc Updates                        | Removes the "Wii System Update" screen included with some games that forces you to update the system before playing the game.                                                         |
 | Block Online Updates                      | Disables updating your Wii. Updates will fail with error 32007.                                                                                                                       |
