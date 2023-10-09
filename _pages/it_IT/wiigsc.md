@@ -4,39 +4,39 @@ title: "Come creare collegamenti per Giochi Wii"
 
 {% include toc title="Table of Contents" %}
 
-Do you use a USB Loader and want to create game shortcuts to launch them on your Wii Menu? Then try WiiGSC (Wii Game Shortcut Creator), previously known as Crap.
+Usi un USB Loader e vuoi creare collegamenti per caricare i tuoi giochi direttamente dal Menu Wii? Allora prova WiiGSC (Wii Game Shortcut Creator), precedentemente noto come Crap.
 
-In the case of a brick, [installing Priiloader is a must](/priiloader). Also, install BootMii (as Boot2 if you have an early Wii). Installing brick protection along with following the guide correctly should keep you safe from bricks. DO NOT CONTINUE UNTIL YOU HAVE INSTALLED PRIILOADER AND BOOTMII!
+Nel caso di un brick, [avere Priiloader installato è fondamentale](/priiloader). Inoltre, installa anche BootMii (specialmente in Boot2 se la tua Wii è pre-2008). Installando i programmi che proteggono dai brick, seguendo correttamente la guida, dovresti non imbatterti in uno di questi ultimi. NON CONTINUARE FINO A CHE NON HAI INSTALLATO PRIILOADER E BOOTMII!
 {: .notice--warning}
 
-Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will brick your Wii.
+NON creare un collegamento per i giochi "Mario Party 9" o "A Boy and His Blob". Causerà un brick.
 {: .notice--warning}
 
-### Requirements
+### Requisiti
 
-* A Wii
-* A USB drive
+* Una console Wii
+* Un dispositivo USB
 * [YAWM ModMii Edition](yawmme)
-* A Windows computer.
+* Un computer Windows.
 * [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
 
-### Instructions
+### Istruzioni
 
-1. Install WiiGSC, then right click on it and choose **Run as administrator**. If you do not do this, WiiGSC will throw an error when you open it.
+1. Installa WiiGSC, poi cliccaci sopra con il tasto destro e seleziona **Esegui come Amministratore**. Se non fai questo passaggio, WiiGSC darà errore quando tenterai di aprirlo.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
-1. Select the path to the ISO or WBFS file on your USB drive, and select the USB Loader you use. The other options should be fine the way they are.
+1. Naviga fino a selezionare il file ISO o WBFS nel tuo dispositivo USB, e seleziona il USB Loader che usi. Le altre opzioni possono essere lasciate così come sono.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
-1. Install the generated WAD with your WAD manager.
+1. Installa il file WAD generato con il tuo WAD manager.
 
 <div class="notice--info">
-If you get an error saying "The system files are corrupted", don't panic as long as you installed Priiloader.
+Se ottieni l'errore "The system files are corrupted", non ci sono problemi se Priiloader è già stato installato.
 
-Turn off your Wii, then hold down the RESET button down and turn on your Wii. You should be able to boot into the Priiloader menu. <br>
-Simply enter the Homebrew Channel, and use your WAD manager to uninstall the WAD.
+Spegni la tua console Wii, poi tieni premuto il pulsante RESET e riaccendila. Dovresti ritrovarti nel menu di Priiloader. <br>
+Basta entrare nell'Homebrew Channel, e usare il tuo WAD manager per disinstallare la WAD problematica.
 </div>
 
 [Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
