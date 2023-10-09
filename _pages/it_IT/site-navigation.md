@@ -5,18 +5,18 @@ sitemap: false
 ---
 
 {% capture notice-1 %}
-**Site**
+**Sito**
 + [Menu Principale](/)
 + [Per Iniziare](per-iniziare)
 + [FAQ](faq)
-+ [Donations](donations)
++ [Donazioni](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**Wii Online Services**
+**Servizi Wii Online**
 + [Nintendo Wi-Fi Connection](wiimmfi)
-+ [Setting RTC Time](wiiconnect24#updating-rtc-clock)
++ [Come impostare il RTC](wiiconnect24#updating-rtc-clock)
 + [WiiConnect24](wiiconnect24)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
@@ -25,7 +25,7 @@ sitemap: false
 **Modding 101 - Exploits**
 + [BlueBomb](bluebomb)
 + [FlashHax](flashhax)
-+ [Legacy Exploits](legacy-exploits)
++ [Vecchi Exploit](legacy-exploits)
 + [LetterBomb](letterbomb)
 + [str2hax](str2hax)
 + [Wilbrand](wilbrand)
@@ -33,17 +33,17 @@ sitemap: false
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-4 %}
-**Modding 101 - Wii Essentials**
-+ [Backup BootMii](bootmii)
-+ [BootMii Recovery](bootmiirecover)
-+ [Brick Overview](bricks)
-+ [Brick Prevention](bricks#brick-prevention)
+**Modding 101 - Link Wii Essenziali**
++ [Backup della Nand con BootMii](bootmii)
++ [Recupero BootMii](bootmiirecover)
++ [Generalità sui Brick](bricks)
++ [Come prevenire i brick](bricks#brick-prevention)
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
-+ [Relaunching the HackMii Installer](hackmii)
++ [Come rieseguire l'HackMii Installer](hackmii)
 + [Aggiornamento del Menu Wii alla versione 4.3](update)
 + [Wii mini NAND Dumper](wnd-mini)
 + [YAWM ModMii Edition](yawmme)
@@ -52,25 +52,25 @@ sitemap: false
 
 {% capture notice-5 %}
 **Homebrew**
-+ [Creating Wii Game Shortcuts](wiigsc)
++ [Come creare collegamenti per Giochi Wii](wiigsc)
 + [GameCube Backup Manager](gcbackupmanager)
-+ [How to dump Channels (WADs)](dump-wads)
-+ [How to dump GameCube/Wii Games](dump-games)
++ [Come scaricare i Canali (WADs)](dump-wads)
++ [Come preservare giochi Wii e GameCube](dump-games)
 + [RSSMii](rssmii)
-+ [Managing GameCube Save Files](gcsaves)
++ [Come gestire i salvataggi GameCube](gcsaves)
 + [Nintendont](nintendont)
-+ [Playing Wii Game Mods](riivolution)
-+ [Recommended Homebrew](recommended-homebrew)
++ [Come giocare a RomHacks di giochi Wii](riivolution)
++ [App Homebrew consigliate](recommended-homebrew)
 + [USB Loaders](wii-loaders)
-+ [Using SysCheck](syscheck)
++ [Come eseguire un SysCheck](syscheck)
 + [Wii Backup Manager](wiibackupmanager)
-+ [Wii Themes Guide](themes)
++ [Guida ai Temi Wii](themes)
 {% endcapture %}
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
 **Wii mini**
-+ [Installing the Homebrew Channel on the Wii mini](hbc-mini)
-+ [Installing cIOS on the Wii mini](cios-mini)
++ [Come installare l'Homebrew Channel su Wii mini](hbc-mini)
++ [Come installare le cIOS su Wii mini](cios-mini)
 {% endcapture %}
 <div class="notice--primary">{{ notice-6 | markdownify }}</div>
