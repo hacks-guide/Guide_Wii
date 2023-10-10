@@ -28,7 +28,7 @@ Iată niște exemple comune de ce poate homebrew să facă pentru consola ta Wii
 + Transformarea consolei tale Wii într-un [centru media](wiimc)
 + Instalarea [temelor de fundal](themes) pentru Meniul Wii și pentru aplicații homebrew folosite des
 + Crearea unui backup pentru [discuri](dump-games) și [alte titluri instalate](dump-wads)
-+ Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
++ Instalarea unui [USB loader](wii-loaders) pentru a rula backup-uri de Wii (și de alte console) de pe un dispozitiv de stocare extern
 + Crearea unui backup și restaurarea fișierelor de salvare [Wii](wii-saves) și [GameCube](gcsaves)
 + Restaurarea funcționalității online atât pentru [WiiConnect24](wiiconnect24) cât și pentru [Nintendo Wi-Fi Connection](wiimmfi)
 
