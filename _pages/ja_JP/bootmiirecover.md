@@ -51,10 +51,10 @@ Wii Family EditionではNANDをリストアすることはできません。 Wii
 
     ![](/images/BootMii/BootMii_Red_Arrow.png)
 
-1. If BootMii is installed as IOS, input the Konami code on your GameCube controller: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
-1. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Hit any button on your Wii console or GCN controller.
+1. IOSとしてBootMiiをインストールし、Homebrew Channnelから起動している場合、GCコントローラーでコナミコマンド(上上下下左右左右BA)を入力します。
+1. リストアが成功すると、「I HAZ SUCCESS!」、失敗した場合は、「I HAZ FAIL」と表示されます。 Wii本体もしくはGCコントローラーのいずれかのボタンを押してください。
 
-If you were restoring a NAND backup in order to repair a brick and this did not fix your issue, please consult [the bricks portion](bricks) of this guide.
+ブリックを解決するためにNANDをリストアし、それでも解決しない場合は、[ブリックの種類と解決法](bricks)を参照してください。
 {: .notice--info}
 
 [サイトマップに移動する](site-navigation)
