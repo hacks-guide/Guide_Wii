@@ -4,7 +4,7 @@ title: "NANDのリストア(BootMii)"
 
 {% include toc title="Table of Contents" %}
 
-This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
+このページでは、BootMiiでNANDのバックアップをリストアする方法について説明します。 ブリックしている場合でも、NANDのリストアは最終手段であることに注意してください。ブリックを修復できない場合は助けを求めてください。 それでもBootMiiを起動できる場合は、Homebrew Channelを起動し、他の方法で[ブリックの原因の特定と修復](bricks)を試してみてください。
 
 BootMiiをboot2にインストールしている場合、Wii本体を再起動してBootMiiを起動させます。 この場合、Homebrew Channalからの起動は不要です。
 {: .notice--info}
@@ -13,31 +13,31 @@ BootMiiを起動させたときに、画面が暗くなったままで、ディ�
 {: .notice--warning}
 
 
-Wii Family EditionではNANDをリストアすることはできません。 Wii Family EditionではIOS版のBootMiiでNANDをリストアするときに必要となるGCコントローラー挿入口が削除されているからです。 For additional help, please seek support.
+Wii Family EditionではNANDをリストアすることはできません。 Wii Family EditionではIOS版のBootMiiでNANDをリストアするときに必要となるGCコントローラー挿入口が削除されているからです。 何か不明な点があれば、ご相談ください。
 {: .notice--danger}
 
-DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same goes for using faulty SD cards.
+検証されていないNANDバックアップや、Wii以外からのNANDバックアップを復元しないでください。ブリックする恐れがあります。 問題のあるSDカードを使用することもブリックを起こす要因になります。
 {: .notice--danger}
 
 ### 必要なもの
 
-* An earlier NAND Backup made by [BootMii](bootmii)
+* [BootMii](bootmii)による以前のNANDバックアップ
 
-### Restoring individual data from a NAND backup
+### NANDバックアップから一部のデータを復元する
 
-There is likely a much safer and faster way to bring individual data back to your Wii, likely involving the use of Dolphin Emulator.
+一部のデータを復元したい場合、Dolphin Emulatorを使用する必要がある可能性があります。
 
-For example, if you want to restore your Wii Message Board data, use Dolphin to import your NAND backup. In Dolphin, go to `File -> Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
+例えば、Wii伝言板のデータを復元する場合、DolphinでNANDバックアップを読み込んでください。 Dolphinを開き、ファイル→Open User Folderと選択し、Wii/title/00000001/00000002/data/cdb.vffをSDカードにコピーします。[WiiXplorer](https://oscwii.org/library/app/wiixplorer)を使用して対応する場所に復元します。
 
-If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools > Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
+ゲームのセーブデータを復元したい場合は、DolphinでNANDバックアップを読み込み、ツール→全てのWiiセーブデータをエクスポートで書き出し、SDカードにコピーします。WiiにSDカードに差し込み、データ管理からWii本体へセーブデータを移動します。
 
-### Important preliminary notes
+### 重要な注意事項
 
-+ If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is probably a [Wi-Fi Brick](bricks#wi-fi-brick).
++ ブリックが起きた際に通常操作のみを行っている(もしくは久しぶりにWiiを起動した場合)は、[Wi-Fi Brick](bricks#wi-fi-brick)が発生している可能性があります。
 
-+ If you have BootMii as IOS installed, RestoreMii will prompt you for the Konami code via a GameCube Controller.
++ IOSとしてBootMiiをインストールし、Homebrew Channnelから起動している場合、NANDバックアップをリストアする場合、GCコントローラーでコナミコマンドを入力する必要があります。
 
-+ You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad on a GameCube controller. To select, press A.
++ Wii本体のPOWER(電源)ボタンとRESET(リセット)ボタンか、ポート1に接続しているGCコントローラーで操作できます。 GCコントローラーでカーソルを移動させる場合は、十字ボタンで移動させます。 選択するには、Aを押します
 
 ### 実行方法
 
@@ -47,7 +47,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
     ![](/images/BootMii/BootMii_Gears_Icon.png)
 
-1. Select the RestoreMii button.
+1. RestoreMii(左から2番目のアイコン)を選択します。
 
     ![](/images/BootMii/BootMii_Red_Arrow.png)
 
