@@ -414,19 +414,48 @@ window.cookieconsent.initialise({
 
 <ol>
   <li>Launch the Homebrew Channel.</li>
-  <li>Press the HOME Button, then select “Launch BootMii”.</li>
+  <li>Press the HOME Button, then select “Launch BootMii”.
+    <ul>
+      <li>If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select <code class="language-plaintext highlighter-rouge">BootMii IOS</code> to load BootMii.</li>
+    </ul>
+
+    <p><img src="/images/bootmii/BootMii_HBC.png" alt="" /></p>
+  </li>
   <li>
     <p>Select the Options button (the icon with the gears).</p>
 
-    <p><img src="/images/BootMii/BootMii_Gears_Icon.png" alt="" /></p>
+    <p><img src="/images/bootmii/BootMii_Gears.png" alt="" /></p>
   </li>
   <li>
     <p>Select the RestoreMii button.</p>
 
-    <p><img src="/images/BootMii/BootMii_Red_Arrow.png" alt="" /></p>
+    <p><img src="/images/bootmii/BootMii_Restore.png" alt="" /></p>
   </li>
-  <li>If BootMii is installed as IOS, input the Konami code on your GameCube controller: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START</li>
-  <li>After the recovery ended, you should see a text say <code class="language-plaintext highlighter-rouge">I HAZ SUCCESS!</code>, otherwise <code class="language-plaintext highlighter-rouge">I HAZ FAIL</code>. Hit any button on your Wii console or GCN controller.</li>
+  <li>
+    <p>BootMii will inform you that it will run in SIMULATION mode, you can press A or Reset to continue.</p>
+
+    <p><img src="/images/bootmii/BootMii_NAND_Simulation.png" alt="" /></p>
+  </li>
+  <li>
+    <p>If BootMii is installed as IOS, input the Konami code on your GameCube controller: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START</p>
+
+    <p><img src="/images/bootmii/BootMii_NAND_Konami.png" alt="" /></p>
+  </li>
+  <li>
+    <p>BootMii will run through the restore process as a simulation, detailing what will be erased and rewritten. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin.</p>
+
+    <p><img src="/images/bootmii/BootMii_NAND_Restore.png" alt="" /></p>
+  </li>
+  <li>
+    <p>After the recovery ended, you should see a text say <code class="language-plaintext highlighter-rouge">I HAZ SUCCESS!</code>, otherwise <code class="language-plaintext highlighter-rouge">I HAZ FAIL</code>. Hit any button on your Wii console or GCN controller.</p>
+
+    <p><img src="/images/bootmii/BootMii_NAND_Restore_Success.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.</p>
+
+    <p><img src="/images/bootmii/BootMii_Return.png" alt="" /></p>
+  </li>
 </ol>
 
 <p class="notice--info">If you were restoring a NAND backup in order to repair a brick and this did not fix your issue, please consult <a href="bricks">the bricks portion</a> of this guide.</p>
