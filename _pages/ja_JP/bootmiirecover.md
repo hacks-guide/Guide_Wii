@@ -43,16 +43,37 @@ Wii Family EditionではNANDをリストアすることはできません。 Wii
 
 1. Homebrew Channelを起動します。
 1. HOMEボタンを押し、「Launch BootMii」を選択します。
+    + If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
+
+    ![](/images/bootmii/BootMii_HBC.png)
+
 1. オプション(歯車のアイコン)を選択します。
 
-    ![](/images/BootMii/BootMii_Gears_Icon.png)
+    ![](/images/bootmii/BootMii_Gears.png)
 
 1. RestoreMii(左から2番目のアイコン)を選択します。
 
-    ![](/images/BootMii/BootMii_Red_Arrow.png)
+    ![](/images/bootmii/BootMii_Restore.png)
+
+1. BootMii will inform you that it will run in SIMULATION mode, you can press A or Reset to continue.
+
+    ![](/images/bootmii/BootMii_NAND_Simulation.png)
 
 1. IOSとしてBootMiiをインストールし、Homebrew Channnelから起動している場合、GCコントローラーでコナミコマンド(上上下下左右左右BA)を入力します。
+
+    ![](/images/bootmii/BootMii_NAND_Konami.png)
+
+1. BootMii will run through the restore process as a simulation, detailing what will be erased and rewritten. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin.
+
+    ![](/images/bootmii/BootMii_NAND_Restore.png)
+
 1. リストアが成功すると、「I HAZ SUCCESS!」、失敗した場合は、「I HAZ FAIL」と表示されます。 Wii本体もしくはGCコントローラーのいずれかのボタンを押してください。
+
+    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
+
+1. BootMiiを終了するには、矢印のアイコンを選択し、WiiメニューアイコンもしくはHomebrew Channelアイコンのいずれかを選択してください。
+
+    ![](/images/bootmii/BootMii_Return.png)
 
 ブリックを解決するためにNANDをリストアし、それでも解決しない場合は、[ブリックの種類と解決法](bricks)を参照してください。
 {: .notice--info}
