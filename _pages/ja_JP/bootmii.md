@@ -34,26 +34,33 @@ BootMiiをboot2にインストールしている場合、Wii本体を再起動�
 1. Homebrew Channelを起動します。
 1. HOMEボタンを押し、「Launch BootMii」を選択します。
 
+    ![](/images/bootmii/BootMii_HBC.png)
+
+1. You should see an image similar to the below now on your screen:
+
     ![](/images/bootmii/BootMii_Main.png)
 
 1. オプション(歯車のアイコン)を選択します。
 
-    ![](/images/bootmii/BootMii_Gears_Icon.png)
+    ![](/images/bootmii/BootMii_Gears.png)
 
 1. 一番左のアイコンを選択します。
-    + NANDバックアップが開始します。 進行状況は画面に表示されます。
+
+    ![](/images/bootmii/BootMii_Backup.png)
+
+1. NANDバックアップが開始します。 進行状況は画面に表示されます。
     + 発生した「Bad Blocks」は正常な動作で発生したものであり、NANDビニングの過程で発生したものです。 NANDバックアップでいくつか表示されても問題はありません。
-    + 書き出しが終わると、書き出しデータの確認を行います。 確認が終わった後に全てのブロックが緑色になっていることが望ましいです。
-
-    ![](/images/bootmii/BootMii_Green_Arrow.png)
-
-1. バックアップが終了したら、何らかのボタンを押してメインメニューに戻ります。
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
+1. After the previous step completes, BootMii will verify the backup. 確認が終わった後に全てのブロックが緑色になっていることが望ましいです。
+    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine.
+
+    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
+
 1. BootMiiを終了するには、矢印のアイコンを選択し、WiiメニューアイコンもしくはHomebrew Channelアイコンのいずれかを選択してください。
 
-    ![](/images/bootmii/BootMii_Return_Arrow.png)
+    ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
 注意:NANDバックアップのリストアは基本的に最終手段です。 ブリックを解決するためにはほかにも方法があることが多いです。
