@@ -34,26 +34,33 @@ Si BootMii est installé en tant que boot2, vous devrez lancer BootMii en redém
 1. Lancez la Chaîne Homebrew.
 1. Appuyez sur le bouton HOME, puis sélectionnez "Lancer BootMii".
 
+    ![](/images/bootmii/BootMii_HBC.png)
+
+1. You should see an image similar to the below now on your screen:
+
     ![](/images/bootmii/BootMii_Main.png)
 
 1. Sélectionnez le bouton Options (l'icône avec les engrenages).
 
-    ![](/images/bootmii/BootMii_Gears_Icon.png)
+    ![](/images/bootmii/BootMii_Gears.png)
 
 1. Sélectionnez le premier bouton à gauche.
-    + La sauvegarde de la NAND va commencer. Vous pouvez regarder la progression sur l'écran.
+
+    ![](/images/bootmii/BootMii_Backup.png)
+
+1. La sauvegarde de la NAND va commencer. Vous pouvez regarder la progression sur l'écran.
     + Les « mauvais blocs » sont normaux et proviennent principalement de l'usine en raison du binage de la NAND. Ne vous inquiétez pas quand vous en voyez sur une sauvegarde.
-    + Après cette étape, il vérifiera la sauvegarde. Idéalement, tous les blocs devraient être verts après le processus de vérification.
-
-    ![](/images/bootmii/BootMii_Green_Arrow.png)
-
-1. Une fois le processus terminé, quittez l'écran de sauvegarde de la NAND en appuyant sur n'importe quel bouton.
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
+1. After the previous step completes, BootMii will verify the backup. Idéalement, tous les blocs devraient être verts après le processus de vérification.
+    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine.
+
+    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
+
 1. Appuyez sur le bouton Retour (celui avec une flèche), puis appuyez sur le bouton Menu Wii ou sur le bouton Homebrew Channel pour quitter BootMii.
 
-    ![](/images/bootmii/BootMii_Return_Arrow.png)
+    ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
 Remarque : **restaurer une sauvegarde de la NAND est généralement un dernier recours**. Il y a souvent de meilleures façons de débriquer votre console.
