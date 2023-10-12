@@ -36,7 +36,7 @@ Si BootMii est installé en tant que boot2, vous devrez lancer BootMii en redém
 
     ![](/images/bootmii/BootMii_HBC.png)
 
-1. You should see an image similar to the below now on your screen:
+1. Vous devriez voir une image similaire à ce qui suit maintenant sur votre écran :
 
     ![](/images/bootmii/BootMii_Main.png)
 
@@ -53,7 +53,7 @@ Si BootMii est installé en tant que boot2, vous devrez lancer BootMii en redém
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
-1. After the previous step completes, BootMii will verify the backup. Idéalement, tous les blocs devraient être verts après le processus de vérification.
+1. Une fois l'étape précédente terminée, BootMii vérifiera la sauvegarde. Idéalement, tous les blocs devraient être verts après le processus de vérification.
     + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
