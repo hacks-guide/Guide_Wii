@@ -36,7 +36,7 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
 
     ![](/images/bootmii/BootMii_HBC.png)
 
-1. You should see an image similar to the below now on your screen:
+1. Dovresti vedere un'immagine a schermo simile a questa qui sotto:
 
     ![](/images/bootmii/BootMii_Main.png)
 
@@ -53,7 +53,7 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
-1. After the previous step completes, BootMii will verify the backup. Ideally, all the blocks should be green after the verification process.
+1. Non appena la prima scan sarà terminata, BootMii verificherà il backup. Ideally, all the blocks should be green after the verification process.
     + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
