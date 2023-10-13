@@ -61,7 +61,7 @@ sitemap: false
 + [Nintendont](nintendont)
 + [Playing Wii Game Mods](riivolution)
 + [Recommended Homebrew](recommended-homebrew)
-+ [USB Loaders](usb-loaders)
++ [USB Loaders](wii-loaders)
 + [Using SysCheck](syscheck)
 + [Wii Backup Manager](wiibackupmanager)
 + [Wii Themes Guide](themes)

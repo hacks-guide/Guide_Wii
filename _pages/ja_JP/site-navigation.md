@@ -61,7 +61,7 @@ sitemap: false
 + [Nintendont](nintendont)
 + [Wiiゲームのモッドを使う](riivolution)
 + [推奨されるホームブルー](recommended-homebrew)
-+ [USBローダー](usb-loaders)
++ [USBローダー](wii-loaders)
 + [SysCheckを使う](syscheck)
 + [Wiiバックアップマネジャー](wiibackupmanager)
 + [Wii テーマガイド](themes)

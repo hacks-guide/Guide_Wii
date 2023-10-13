@@ -79,7 +79,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 * A modded Wii
 * An SD card or USB device
-* [WiiFlow Lite](usb-loaders#wiiflow-lite)
+* [WiiFlow Lite](wii-loaders#wiiflow-lite)
 * A Linux/macOS/Windows PC with an Internet connection
 * [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
@@ -96,7 +96,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 * A modded Wii
 * An SD card or USB device
-* [USB Loader GX](usb-loaders#usb-loader-gx)
+* [USB Loader GX](wii-loaders#usb-loader-gx)
 * A Linux/macOS/Windows PC with an Internet connection
 * A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
 

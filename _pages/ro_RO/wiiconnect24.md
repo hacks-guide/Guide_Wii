@@ -47,7 +47,7 @@ If you choose to install either of these services on your Wii, it is advised to 
 + An SD card or USB drive
 + [sntp](https://oscwii.org/library/app/sntp)
 
-#### Instructions
+#### Instrucțiuni
 1. Download and extract the sntp zip to the root of your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii.
 1. Launch the Homebrew Channel on your Wii.

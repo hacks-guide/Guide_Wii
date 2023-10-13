@@ -10,50 +10,50 @@ Este **foarte** recomandat să nu folosiți **niciun** tutorial video pentru mod
 Dacă ai nevoie de ajutor referitor la acest tutorial, te rog să intri pe [serverul de Discord Wii mini Hacking](https://discord.gg/6ryxnkS) (recomandat)
 {: .notice--info}
 
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well. This exploit also enables recovery from certain bricks, such as Korean Kii/Error 003.
+BlueBomb este un exploit care "profită" de un defect găsit în librăriile Bluetooth folosite în Wii și Wii mini. Chiar dacă este singurul exploit folosit pentru Wii mini, el poate fi rulat și pe un Wii obișnuit (regular Wii). Acest exploit ajută la repararea consolei de la anumite "distrugeri", cum ar fi Korean Kii/Eroare 003.
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+Dacă folosești revizia original a lui Wii, trebuie probabil să cauți [un alt exploit](get-started), deoarece sunt modalități mai ușoare de a ajunge la installer-ul HackMii. Cu toate acestea, există excepții în situații precum recuperarea distrugerii.
 {: .notice--info}
 
-Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+Asigură-te că consola este aproape de calculator care rulează exploit-ul, ideal ar trebui să fie mai puțin de un metru.
 {: .notice--info}
 
-### Requirements
+### Instrumente necesare
 
-* A Linux machine
-    * A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
-    * If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
-    * Windows Subsystem for Linux or a Chromebook running Linux mode will *not work* as they don't have direct access to the Bluetooth adapter or USB ports.
-    * If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
-        * 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
-        * For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
-    * You can [flash a Linux Live environment to a USB flash drive](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) instead of installing it to your computer.
-* A Bluetooth adapter.
-    * An internal Bluetooth adapter will work.
-    * If you do not have one, make sure to get one compatible with Linux.
-* A USB flash drive formatted as FAT32.
-    * This cannot be the same flash drive used for your Linux Machine.
+* Un calculator cu Linux
+    * O mașină virtuală ar merge, dar nu este recomandată din cauza complexității sale în a face ca Bluetooth să funcționeze. Dacă este posibil, te rog să folosești un LiveUSB așa cum este descris mai jos.
+    * Dacă ai un Raspberry Pi, îl poți folosi pentru că, cel mai probabil, are Linux instalat deja.
+    * Windows Subsystem pentru Linux sau un Chromebook ce rulează modul Linux *nu va funcționa*, deoarece acestea nu au acces direct către adaptor Bluetooth sau porturi USB.
+    * Dacă nu aveți Linux, [Ubuntu](https://ubuntu.com/download/desktop) este opțiunea cel mai user-friendly ce poate rula pe PC-urile cu Windows sau MacOS.
+        * Dispozitivele 32-bit vor avea nevoie de [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
+        * Pentru dispozitivele 64-bit este recomandat să folosești ediția LTS din cauza stabilității, dar și cele recente vor funcționa.
+    * Poți să [flash-uieși un Linux Live pe un stick USB](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) fără de a-l instala în calculatorul tău.
+* Un adaptor Bluetooth.
+    * Un adaptor Bluetooth intern va funcționa.
+    * Dacă nu ai unul, asigură-te să iei unul compatibil cu Linux.
+* Un stick USB formatat ca FAT32.
+    * Acest stick este folosit anume pentru Wii.
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### Instructions
+### Instrucțiuni
 
-1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
-    + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-    + (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
-1. Reinsert your flash drive into your console.
-    + For a Wii mini, the USB port is on the back.
-    + For a normal Wii, use the bottom port (or the right port if it's upright).
-1. Power on your console.
-1. Go to `Wii Settings`.
-1. Take note in the top right corner of the letter next to the system version.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+1. Copiază fișierul `boot.elf` din arhiva `hackmii_installer_v1.2.zip` în root-ul stick-ului.
+    + (Dacă încerci să repari consola, trebuie să copiezi și aplicațiile homebrew de care ai nevoie în folder-ul /apps/)
+    + (Chiar și pentru un Wii mini, bootmii.elf **nu** va funcționa, motivul acesta fiind cu totul diferit și nerelevant. Folosește fișierul boot.elf în toate cazurile).
+1. Re-inserați stick-ul în consolă.
+    + Pentru Wii mini, portul USB este pe spate.
+    + Pentru Wii normal, folosește portul de jos (sau portul din dreapta dacă este în picioare).
+1. Pornește consola.
+1. Mergi la `Wii Settings`.
+1. Notează litera care este notată după versiunea sistemului.
+    + Acea literă corespunde cu regiunea consolei, pe care trebuie să-l știi pentru pașii corespunzători.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Power off your console.
-1. Start your Linux distro, and ensure you are connected to the internet.
-1. Open the Terminal
-1. Run the following commands:
+1. Oprește consola.
+1. Pornește Linux-ul și asigură-te că ești conectat la internet.
+1. Deschide terminalul
+1. Rulează următoarele comenzi:
 
     ```bash
     wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -61,18 +61,18 @@ Make sure that the console is close to the computer running the exploit, ideally
     ./bluebomb-helper.sh
     ```
 
-1. The helper will then download the required files, and ask for information about your console.
-    + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
-    + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
-1. Power on your console.
-    + **Do not** connect any Wii Remotes.
-1. Press the Sync button repeatedly until the terminal shows `got connection handle`.
-    + This could take numerous attempts.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
-    + If you are not planning to use it later, you can now shut down your Linux distro.
+1. Helper-ul va descărca apoi fișierele necesare și îți va cere informații despre consola ta.
+    + Dacă ai selectat Wii mini, îți va cere să introduci regiunea consolei. Acest lucru poate fi determinat de ultima literă a versiunii Wii Menu (`U` pentru modelul **USA** și `E` pentru modelul **PAL**).
+    + Dacă ai selectat Wii, îți va cere să introduci versiunea Wii Menu (Ce ai determinat în pasul 4)
+1. Pornește consola.
+    + **NU** conecta niciun Wii Remote.
+1. Apasă butonul Sync în mod repetat până ce terminalul afișează `got connection handle` (are conexiune).
+    + Acest lucru ar putea necesita numeroase încercări.
+1. Dacă exploit-ul a funcționat, dispozitivul va intra în HackMii Installer.
+    + Dacă nu intenţionezi să o utilizezi mai târziu, poți închide acum Linux-ul.
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+Dacă folosești un Wii: [Continuă cu Instalarea Homebrew Channel și BootMii](hbc)<br>
 {: .notice--info}
 
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+Dacă folosești un Wii mini: [Continuă cu Instalarea Homebrew Channel](hbc-mini)
 {: .notice--info}

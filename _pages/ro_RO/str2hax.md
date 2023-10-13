@@ -9,11 +9,11 @@ Note that if your ISP or networking environment prevents using custom DNS server
 
 str2hax is an exploit for the Wii that is triggered by loading the Wii's End User License Agreement. It requires nothing but an Internet connection that lets you change the DNS on your Wii.
 
-### Requirements
+### Instrumente necesare
 
 * A Wii with an Internet connection
 
-### Instructions
+### Instrucțiuni
 
 #### Common issues
 
@@ -30,12 +30,12 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
-1. Power on your console.
+1. Pornește consola.
 1. Go to `Wii Options`.
 
     ![](/images/riiconnect24/Internet_1.png)
 
-1. Go to `Wii Settings`.
+1. Mergi la `Wii Settings`.
 
     ![](/images/riiconnect24/Internet_2.png)
 
@@ -86,7 +86,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
     ![](/images/exploits/str2hax/EULA.png)
 
 1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Dacă exploit-ul a funcționat, dispozitivul va intra în HackMii Installer.
 
     ![](/images/hackmii/scam.png)
 

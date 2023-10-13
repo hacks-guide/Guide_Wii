@@ -28,7 +28,7 @@ Voici quelques exemples communs de ce que les homebrew peuvent faire pour votre 
 + Transformer votre Wii en [Media Center](wiimc)
 + Installer des [thèmes](themes) sur le Menu Wii et sur les homebrew les plus utilisés
 + Sauvegarder vos [disques](dump-games) et vos [autres titres installés](dump-wads)
-+ Installer un lanceur [USB](usb-loaders) pour lancer des sauvegardes de jeux Wii à partir d'un périphérique de stockage externe
++ Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
 + Sauvegarder et restaurer vos sauvegardes de jeux/applications [Wii](wii-saves) et [GameCube](gcsaves)
 + Restaurer les fonctionnalités en ligne de [WiiConnect24](wiiconnect24) et de [Nintendo Wi-Fi Connection](wiimmfi)
 

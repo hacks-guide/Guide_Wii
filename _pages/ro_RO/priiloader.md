@@ -16,17 +16,17 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 <!--div class="notice--success" markdown="1">{{ notice-vwii-priiloader }} </div-->
 
-### Requirements
+### Instrumente necesare
 
 * An SD card or USB drive
 * [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
 * [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
-### Instructions
+### Instrucțiuni
 
 #### Section I - Prep Work
 
-1. Power off your console.
+1. Oprește consola.
 1. Insert your SD card or USB drive into your computer.
 1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
@@ -34,7 +34,7 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 #### Section II - Installing Priiloader
 
-1. Power on your console.
+1. Pornește consola.
 1. Launch the Homebrew Channel.
 1. Launch Priiloader installer from the list of homebrew.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
@@ -80,7 +80,7 @@ To enter it later on, simply run the "Load Priiloader" homebrew app. There are a
 <details id="system-menu-hacks-list" class="notice--info" markdown="1">
 <summary><a>Click here for a full list of available System menu hacks.</a></summary>
 
-| Hack                                      | Description                                                                                                                                                                           |
+| Hack                                      | Descriere                                                                                                                                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Block Disc Updates                        | Removes the "Wii System Update" screen included with some games that forces you to update the system before playing the game.                                                         |
 | Block Online Updates                      | Disables updating your Wii. Updates will fail with error 32007.                                                                                                                       |

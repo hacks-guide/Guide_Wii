@@ -1,13 +1,13 @@
 ---
-title: "FAQ and Troubleshooting"
+title: "FAQ e Solução de Problemas"
 ---
 
-## Main FAQ
+## FAQ Principal
 
 {% include toc title="Sumário" %}
 
-### How risky is hacking my console?
-Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+### O quão arriscado é desbloquear meu console?
+Para ser honesto, não é muito arriscado, dependendo do seu console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
 
 ### I got error code XXXXXX, how do I fix it?
 In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:

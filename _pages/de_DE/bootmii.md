@@ -34,26 +34,33 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
 1. Starte den Homebrewkanal.
 1. Drücke den HOME Knopf, wähle dann "Launch BootMii".
 
+    ![](/images/bootmii/BootMii_HBC.png)
+
+1. You should see an image similar to the below now on your screen:
+
     ![](/images/bootmii/BootMii_Main.png)
 
 1. Wähle den Optionen-Button (das Icon mit dem Zahnrad).
 
-    ![](/images/bootmii/BootMii_Gears_Icon.png)
+    ![](/images/bootmii/BootMii_Gears.png)
 
 1. Wähle den ersten Button links.
-    + Ein NAND-Backup wird gestartet. Du kannst den Fortschritt am Bildschirm verfolgen.
+
+    ![](/images/bootmii/BootMii_Backup.png)
+
+1. Ein NAND-Backup wird gestartet. Du kannst den Fortschritt am Bildschirm verfolgen.
     + "Bad Blocks" sind normal und stammen hauptsächlich aus der Fabrik aufgrund von NAND-Binning. Keine Sorge, wenn du einige auf einem NAND Backup siehst.
-    + Nach diesem Schritt wird die Sicherung überprüft. Idealerweise sollten alle Blöcke nach dem Überprüfungsprozess grün sein.
-
-    ![](/images/bootmii/BootMii_Green_Arrow.png)
-
-1. Wenn der Prozess abgeschlossen ist, verlasse den NAND-Backup-Bildschirm indem du eine Taste drückst.
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
+1. After the previous step completes, BootMii will verify the backup. Idealerweise sollten alle Blöcke nach dem Überprüfungsprozess grün sein.
+    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine.
+
+    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
+
 1. Drücke die Zurück-Taste (die mit einem Pfeil), dann drücke entweder die Wii-Menü-Taste oder die Homebrewkanal-Taste, um BootMii zu verlassen.
 
-    ![](/images/bootmii/BootMii_Return_Arrow.png)
+    ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
 Hinweis: **Wiederherstellen eines NAND-Backups ist in der Regel ein letzter Ausweg**. Es gibt oft bessere Möglichkeiten, deine Konsole zu entbricken.

@@ -11,13 +11,13 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ### Relaunching via the Homebrew Channel
 
-#### Requirements
+#### Instrumente necesare
 
 * The Homebrew Channel
 * An SD card or USB drive formatted to FAT32/MS-DOS
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
-#### Instructions
+#### Instrucțiuni
 
 1. Insert your SD/USB into your PC.
 1. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
@@ -30,7 +30,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ### Relaunching via Priiloader
 
-#### Requirements
+#### Instrumente necesare
 * a Wii with Priiloader (or Preloader) installed
 * An SD card or USB drive formatted to FAT32/MS-DOS
 * [HackMii Installer v1.2](https://bootmii.org/download/)
@@ -38,7 +38,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 To check if your Wii has Priiloader, hold the RESET button while turning it on.
 {: .notice--info}
 
-#### Instructions
+#### Instrucțiuni
 
 1. Insert your SD/USB into your PC.
 1. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.

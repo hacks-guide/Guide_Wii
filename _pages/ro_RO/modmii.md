@@ -4,92 +4,92 @@ title: "ModMii"
 
 {% include toc title="Tabel de Conținut" %}
 
-If you need help for anything regarding this tutorial, please join [the ModMii Discord server](https://discord.gg/cMnBRACQwQ).
+Dacă ai nevoie de ajutor pentru orice legat de acest ghid, te rugăm să te alături [serverului de Discord ModMii](https://discord.gg/cMnBRACQwQ).
 {: .notice--info}
 
-This Program does NOT come with a warranty, so you are responsible for any potential damage done to your Wii.
+Acest Program NU vine cu garanție, deci ești responsabil pentru orice daună potențială întâmplată consolei tale Wii.
 {: .notice--warning}
 
-This program is NOT intended to be used for the vWii or the Wii mini. Any usage on vWii or Wii mini is untested.
+Acest program NU este intenționat de a fi folosit pentru vWii sau Wii mini. Orice folosire pe vWii sau Wii mini este netestată.
 {: .notice--warning}
 
-ModMii is a PC program for Windows created by XFlak that has various helpful tools for modding, including some tutorials that may not be currently available on this website.<br> You can choose to launch in ModMii skin, which has a more user-friendly interface, or launch in ModMii Classic, which uses a command-line (Command Prompt/Terminal) interface.
+ModMii este un program de calculator pentru Windows creat de XFlak care conține numeroase unelte folositoare pentru modificarea consolei și inclusiv niște tutoriale care s-ar putea să nu fie disponibile momentan pe acest website.<br> Poți alege să rulezi în ModMii Skin, ce are o interfață mai ușor de înțeles, sau rulează în ModMii Classic, ce folosește o interfață bazată pe linie de comandă (Command Prompt/Terminal).
 
-Some advanced options may not be accessible in ModMii Skin. A list of the features available in ModMii Classic can be found at the bottom of the page.
+Unele opțiuni avansate s-ar putea să nu fie accesibile în ModMii Skin. O listă a funcțiilor prezente în ModMii Classic se poate găsi la sfârșitul acestei pagini.
 {: .notice--info}
 
-### Requirements
+### Instrumente necesare
 
-* A Wii
-* A USB drive or SD Card
-* A Windows PC (a Virtual Machine will work)
+* Un Wii
+* Un stick USB sau un card SD
+* Un calculator Windows (va merge și o Mașină Virtuală)
 * [ModMii](https://modmii.github.io/)
 
-This is a quick start guide on using ModMii on your Windows PC.
+Acesta este un ghid rapid de început despre folosirea ModMii pe calculatorul tău Windows.
 
-### ModMii Wizard
+### Programul ModMii
 
-You can use the ModMii wizard to softmod any Wii. <br> Even if the Wii has been softmodded in the past, you can have ModMii overwrite existing softmods by telling ModMii that this is the first time you're modding your Wii (even if it isn't).
+Poți folosi programul ModMii pentru a modifica orice consolă Wii. <br> Chiar dacă sistemul Wii a mai fost modificat în trecut, ModMii poate înlocui modificări existente dacă îi spui că asta este prima dată când instalezi modificări pentru consolă (chiar dacă nu este).
 
-You can also use this wizard to set up a USB loader at the same time, instead of having to use the USB Loader setup wizard later on.
+Poți de asemenea să folosești acest program să îți setezi un USB loader în același timp în loc să trebuiască să folosești programul de instalare USB Loader în viitor.
 
-### SysCheck Updater Wizard
+### Programul de Actualizare SysCheck
 
-[SysCheck](syscheck) is a homebrew application that analyzes the modifications on a Wii. <br> You can give a SysCheck report to ModMii to help identify & update outdated mods.
+[SysCheck](syscheck) este o aplicație homebrew care analizează modificările instalate pe un Wii. <br> Poți să pui un raport SysCheck în ModMii pentru a putea identifica și actualiza modificații vechi.
 
-You can have ModMii analyze a SysCheck by dragging the `syscheck.csv` file onto ModMii.exe. Alternatively, you can launch the SysCheck Updater Wizard (`SU`) from ModMii's main menu and manually browse for the file.
+Poți analiza un SysCheck folosind ModMii prin tragerea fișierului `syscheck.csv` în ModMii.exe. Alternativ, poți lansa Programul de Actualizare SysCheck (`SU`) din meniul principal ModMii pentru a căuta manual fișierul.
 
-### HackMii Solutions Wizard
+### Programul de Soluții HackMii
 
-The HackMii Solutions wizard can help fix symptoms like these:
-    + HackMii Installer not prompting "Press (1) to continue"
-    + HackMii Installer says "no vulnerable IOS found!"
-    + Homebrew Channel is displaying upside-down
+Programul de Soluții HackMii te poate ajuta să repari probleme ca următoarele:
+    + Instalatorul HackMii nu afișează "Press (1) to continue"
+    + Instalatorul HackMii spune "no vulnerable IOS found!"
+    + Homebrew Channel se afișează cu susul în jos
 
-It will install clean IOSs to allow for the HackMii Installer to operate properly.
+Acesta va instala IOS-uri curate pentru a permite Instalatorului HackMii să funcționeze cum trebuie.
 
-### Abstinence Wizard
+### Programul de Abstinență
 
-This wizard requires an SD card.
+Acest program necesită un card SD.
 {: .notice--warning}
 
-This wizard allows you to enjoy many of the benefits of a softmodded Wii without installing any permanent modifications to your Wii. It will allow you to launch an exploit to boot an from emulated NAND from external storage, rather than use your Wii's internal NAND.
+Acest program îți permite să te bucuri de multe dintre beneficiile unui Wii modificat fără să instalezi nici o modificare permanentă pe consola ta Wii. Îți va permite să rulezi un exploit care va porni un NAND emulat din stocarea externă în loc să folosești NAND-ul intern al consolei tale Wii.
 
-You can also make a NAND backup without modifying your Wii at all by navigating to ModMii's "Support" folder and launching `Casper2BootMii.bat`. <br> It will save some files to a folder named `COPY_TO_SD`; copy the files inside it to your SD card and [launch an exploit](get-started).
+Poți de asemenea să creezi un backup NAND fără să îți modifici consola Wii deloc prin navigarea la dosarul "Support" al ModMii-ului și lansarea fișierului `Casper2BootMii.bat`. <br> Acesta va salva niște fișiere într-un dosar numit `COPY_TO_SD`; copiază fișierele din înăuntrul acesteia în cardul tău SD și [rulează un exploit](get-started).
 
-When following one of the exploit guides above, avoid replacing the `boot.elf` file.
+Când urmărești una dintre ghidurile de exploit-uri de mai sus, evită să înlocuiești fișierul `boot.elf`.
 {: .notice--warning}
 
 
 <details id="Modmii-Tools" class="notice--info" markdown="1">
-<summary><a>Click here for a full list of available tools.</a></summary>
+<summary><a>Apasă aici pentru o listă întreagă a uneltelor disponibile.</a></summary>
 
-| Tool                                                                        | Description                                                                                                                                                                                                                                |
-| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| W = ModMii Wizard <-- Start Here to Mod Your Wii!                           | This option can be used to mod your Wii for the first time or re-mod a Wii that has been previously modded.                                                                                                                                |
-| SU = SysCheck Updater Wizard (update only your outdated softmods)           | This option is useful for people who have old modifications installed to their wii such as DarkCorp/Ciosspaghetti that can potetially cause problems for the latest homebrew custom firmware.                                              |
-| U = USB-Loader Setup Wizard                                                 | This option will help you properly set up your USB loader to be able to load your disk backups from an SD or USB hard drive.                                                                                                               |
-| H = HackMii Solutions Wizard (Upside-Down HBC\No Vulnerable IOS Fix)       | This option is useful for people who are having trouble getting the HackMii Installer to work, or if they just simply have an upside down homebrew channel, or if DarkCorp/Ciosspaghetti was installed and there was no homebrew channel.  |
-| AW = Abstinence Wizard (Non-permanent Wii Hacks)                            | This option is useful for people who dont want to make any permanent modifications to their Wii but still want to have some of the benefits that homebrew can offer.                                                                       |
-| RC = Region Change Wizard                                                   | This option can be used to change the region of your Wii without bricking it (this is the best region changer tutorial available on the internet!).                                                                                        |
-| S = SNEEK Installation, EmuNAND Builder\Modifier, Game Bulk Extractor      | This option will help you properly set up an EmuNAND (aka neek2o) onto your SD or USB. benefits for emunand include extra storage space for save games or channels. and the benefit of not making any permanent modifications to your Wii. |
-| F = open a File or Folder with ModMii for many more functions!              | This option is an advanced tool especially helpful for developers.                                                                                                                                                                         |
-| 1 = Download Page 1 (System Menus, IOSs, MIOSs, Channels, etc.)             | This option opens the first download page that includes most of the key parts for the system menu (downloaded from NUS).                                                                                                                   |
-| 2 = Download Page 2 (Apps, USB-Loader Files, CheatCodes, etc.)              | This option opens the second download page that includes exploits and useful apps for your Wii including some PC programs.                                                                                                                 |
-| 3 = Download Page 3 (System Menu Themes)                                    | This option opens the third download page that includes some system menu themes and items required to install system menu themes (base apps are downloaded from NUS).                                                                      |
-| 4 = Download Page 4 (cIOSs and cMIOSs)                                      | This option opens the fourth download page that includes cIOSes and cMIOSes for use in USB loaders. It is recommended to just install the recommended cioses unless you plan to do some testing.                                           |
-| A = Advanced Downloads and Forwarder DOL\ISO Builder                       | This option is an advanced tool used to better customize downloads or allow you to build a dol executable useful for fowarders (channels on the system menu to access Wii applications).                                                   |
-| L = Load Download Queue                                                     | This option will download all of the required titles need for the Wii system menu (titles are downloaded from NUS)                                                                                                                         |
-| C = Build Config Files for Bootmii, Wad Manager or Multi-Mod Manager        | This option will help you build configuration files required for certain applications.                                                                                                                                                     |
-| FC = File Cleanup & App Updater: Update Apps and\or remove un-needed files | This option is useful for people who want to clean out their SD or USB of apps deemed outdated, useless, or otherwise depreciated.                                                                                                         |
-| M = ModMii Skin Mode: use your mouse instead of your keyboard!              | This option will launch ModMii skin mode. Some advanced options may not be available in this view.                                                                                                                                         |
+| Unealtă                                                                     | Descriere                                                                                                                                                                                                                                                                                        |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| W = ModMii Wizard <-- Start Here to Mod Your Wii!                           | Această opțiune poate fi folosită să îți modifici consola Wii pentru prima dată sau sa re-modifici un Wii care a fost modificat în trecut.                                                                                                                                                       |
+| SU = SysCheck Updater Wizard (update only your outdated softmods)           | Această opțiune este folositoare pentru persoanele care au modificări vechi instalate în consola Wii precum DarkCorp/Ciosspaghetti care pot cauza probleme cu cel mai recent homebrew custom firmware.                                                                                           |
+| U = USB-Loader Setup Wizard                                                 | Această opțiune te va ajuta să îți setezi USB loader-ul să poată să ruleze backup-urile de disc de pe un card SD sau un hard disk USB.                                                                                                                                                           |
+| H = HackMii Solutions Wizard (Upside-Down HBC\No Vulnerable IOS Fix)       | Această opțiune este folositoare pentru persoanele care întâmpină probleme încercând să facă Instalatorul HackMii să meargă, sau dacă au un homebrew channel cu susul în jos, sau dacă DarkCorp/Ciosspaghetti a fost instalat și nu există niciun homebrew channel.                              |
+| AW = Abstinence Wizard (Non-permanent Wii Hacks)                            | Această opțiune este folositoare pentru persoanele care nu vor să facă modificări permanente consolei lor Wii dar doresc să aibă unele dintre beneficiile pe care le oferă homebrew.                                                                                                             |
+| RC = Region Change Wizard                                                   | Această opțiune poate fi folosită pentru a schimba regiunea consolei tale Wii fără să cauzezi un brick (acesta este cel mai bun ghid de schimbare a regiunii existent pe internet!).                                                                                                             |
+| S = SNEEK Installation, EmuNAND Builder\Modifier, Game Bulk Extractor      | Această opțiune te va ajuta să setezi un EmuNAND (numit și neek2o) cum trebuie în cardul tău SD sau într-un stick USB. Beneficiile EmuNAND-ului includ mai mult spațiu de stocare pentru salvări sau canale. și beneficiul de a nu trebui să faci nicio modificare permanentă consolei tale Wii. |
+| F = open a File or Folder with ModMii for many more functions!              | Această opțiune este o unealtă avansata folositoare în special dezvoltatorilor.                                                                                                                                                                                                                  |
+| 1 = Download Page 1 (System Menus, IOSs, MIOSs, Channels, etc.)             | Această opțiune deschide prima pagină de descărcare care include majoritatea dintre părțile cheie pentru meniul de sistem (descărcate din NUS).                                                                                                                                                  |
+| 2 = Download Page 2 (Apps, USB-Loader Files, CheatCodes, etc.)              | Această opțiune deschide a doua pagină de descărcare care include exploit-uri și aplicații folositoare pentru consola ta Wii precum niște programe de calculator.                                                                                                                                |
+| 3 = Download Page 3 (System Menu Themes)                                    | Această opțiune deschide a treia pagină de descărcare care include niște teme de fundal pentru meniul de sistem și lucruri necesare pentru a instala teme de fundal pentru meniul de sistem (fișierele .app de bază sunt descărcate din NUS).                                                    |
+| 4 = Download Page 4 (cIOSs and cMIOSs)                                      | Această opțiune deschide a patra pagină de descărcare care include cIOS-uri și cMIOS-uri pentru a fi folosite în USB loadere. Este recomandat să instalezi doar cIOS-urile recomandate dacă nu plănuiești să faci niște testare.                                                                 |
+| A = Advanced Downloads and Forwarder DOL\ISO Builder                       | Această opțiune este o unealtă avansată folosită pentru a personaliza descărcările mai bine sau pentru a-ți permite să compilezi un executabil dol folositor pentru forwarder-uri (canale din meniul de sistem care accesează aplicații de Wii).                                                 |
+| L = Load Download Queue                                                     | Această opțiune va descărca toate titlurile necesare pentru meniul de sistem Wii (titlurile sunt instalate din NUS)                                                                                                                                                                              |
+| C = Build Config Files for Bootmii, Wad Manager or Multi-Mod Manager        | Această opțiune te va ajuta să compilezi fișiere de configurare necesare pentru unele aplicații.                                                                                                                                                                                                 |
+| FC = File Cleanup & App Updater: Update Apps and\or remove un-needed files | Această opțiune este folositoare pentru persoanele care vor să își curețe cardul SD sau stickul USB de aplicații considerate vechi, nefolositoare sau depreciate.                                                                                                                                |
+| M = ModMii Skin Mode: use your mouse instead of your keyboard!              | Această opțiune va deschide ModMii în modul skin. Unele opțiuni avansate s-ar putea să nu fie disponibile în acest mod.                                                                                                                                                                          |
 
 </details>
 
 <details id="Modmii-Options" class="notice--info" markdown="1">
-<summary><a>Click here for a full list of available options.</a></summary>
+<summary><a>Apasă aici pentru o listă întreagă a opțiunilor disponibile.</a></summary>
 
-| Option                                                           | Description                                                                                                   |
+| Opțiune                                                          | Descriere                                                                                                     |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | D = Change Drive letter:                                         | Changes where your SD files are saved to.                                                                     |
 | DU = Change Drive letter for USB:                                | Changes where your USB files are saved to.                                                                    |
