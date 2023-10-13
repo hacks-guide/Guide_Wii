@@ -54,7 +54,7 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. Non appena la prima scan sarà terminata, BootMii verificherà il backup. Ideally, all the blocks should be green after the verification process.
-    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine.
+    + Se hai blocchi neri con pagine non correggibili, questi blocchi potrebbero non venire verificati. Finchè però tutti i blocchi verdi sono verificati con successo, non ci dovrebbero essere problemi.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
