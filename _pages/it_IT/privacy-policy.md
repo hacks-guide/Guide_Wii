@@ -4,13 +4,13 @@ title: "Informativa sulla Privacy"
 
 ### Cookies
 
-This site utilizes cookies in order to facilitate routing users through the guide instructions. Cookies allow for the sidebar of the page to display current progress through the site to help users navigate the instructions more easily.
+Questo sito utilizza i cookie al fine di facilitare l'indirizzamento degli utenti attraverso le istruzioni della guida. I cookie consentono alla barra laterale della pagina di visualizzare i progressi attuali attraverso il sito per aiutare gli utenti a navigare le istruzioni più facilmente.
 
-### Embedded Content From Other Websites
+### Contenuti Incorporati da altri Siti Web
 
-This site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves as if the user has visited the other website.
+Questo sito può includere contenuti incorporati (ad esempio video, immagini, articoli, ecc.). I contenuti incorporati da altri siti web si comportano come se l'utente avesse visitato i siti stessi.
 
-These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
+Questi siti web potrebbero raccogliere dati su di te, utilizzare cookie, incorporare ulteriore monitoraggio di terze parti e monitorare la vostra interazione con quel contenuto incorporato, compreso il monitoraggio della tua interazione con il contenuto incorporato se hai un account e sei connesso a quel sito web.
 
 ### Analytics
 
