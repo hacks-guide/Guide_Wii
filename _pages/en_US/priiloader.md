@@ -16,9 +16,11 @@ For more information about Priiloader and its options, you can see the [Priiload
 * [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
 * [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
-#### Additional Requirements (vWii only)
+#### Optional Requirements for vWii (highly recommended)
 
+* An SD card
 * [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
+    * [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
 
 ### Instructions
 
@@ -40,7 +42,6 @@ If you are using a vWii:
 1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
 1. (vWii only) Copy the `wiiu` folder from the PriiloaderWiiUForwarder `.zip` to the root of your SD card.
-    + You must have an SD card for Priiloader Wii U Forwarder to function.
 1. Reinsert your SD card or USB drive into your console.
 
 #### Section II - Installing Priiloader
