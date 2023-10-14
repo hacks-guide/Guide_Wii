@@ -4,7 +4,7 @@ title: "Bricks"
 
 {% include toc title="Table of Contents" %}
 
-A "Brick" usually means your Wii has reached a state where its next purpose in existence is likely that of a doorstop, or a display figure. <br> Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
+Un "Brick" significa, solitamente, che il tuo Wii ha raggiunto uno stato in cui il fine della sua esistenza è, probabilmente, essere un ferma porta o un oggetto da esposizione. <br> Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
 
 # Brick Prevention
 
