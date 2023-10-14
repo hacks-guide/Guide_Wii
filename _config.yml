@@ -169,6 +169,7 @@ exclude: [
   banner.js,
   Capfile,
   CHANGELOG,
+  clean_translations.py,
   config,
   Gemfile,
   Gruntfile.js,
