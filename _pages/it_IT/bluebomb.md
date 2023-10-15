@@ -4,56 +4,56 @@ title: "BlueBomb"
 
 {% include toc title="Table of Contents" %}
 
-It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+È **fortemente** sconsigliato usare **qualsiasi** video guida per modificare il tuo Wii mini, in quanto c'è una possibilità estremamente alta di **brickarlo**.
 {: .notice--warning}
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Se hai bisogno di assistenza riguardo qualunque cose in questo tutorial, entra nel [server Discord di Wii mini Hacking](https://discord.gg/6ryxnkS) (consigliato)
 {: .notice--info}
 
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well. This exploit also enables recovery from certain bricks, such as Korean Kii/Error 003.
+BlueBomb è un exploit che sfrutta un difetto nelle librerie Bluetooth del Wii e del Wii mini. Anche se è l'unico exploit che funziona per il Wii mini, BlueBomb può anche essere eseguito sul Wii originale. Questo exploit permette anche il ripristino da alcuni brick, come il Korean Kii/Errore 003.
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+Se stai usando una Wii originale, dovresti probabilmente trovare [un altro exploit da usare](get-started) in quanto ci sono modi molto più facili per accedere all'installer di HackMii. Esistono, tuttavia, delle eccezioni in situazioni come il ripristino dai brick.
 {: .notice--info}
 
-Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+Assicurati che la console sia vicina al computer che esegue l'exploit, idealmente dovrebbe essere meno di 1 metro.
 {: .notice--info}
 
-### Requirements
+### Requisiti
 
-* A Linux machine
-    * A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
-    * If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
-    * Windows Subsystem for Linux or a Chromebook running Linux mode will *not work* as they don't have direct access to the Bluetooth adapter or USB ports.
-    * If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
-        * 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
-        * For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
-    * You can [flash a Linux Live environment to a USB flash drive](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) instead of installing it to your computer.
-* A Bluetooth adapter.
-    * An internal Bluetooth adapter will work.
-    * If you do not have one, make sure to get one compatible with Linux.
-* A USB flash drive formatted as FAT32.
-    * This cannot be the same flash drive used for your Linux Machine.
+* Un computer Linux
+    * Una macchina virtuale potrebbe funzionare, ma non è consigliato data la complessità di far funzionare il passthrough Bluetooth. Se possibile, usa un LiveUSB come descritto di seguito.
+    * Se hai un Raspberry Pi, puoi usare quello in quanto probabilmente ha Linux già installato.
+    * Windows Subsystem for Linux o un Chromebook che esegue Linux *non funzioneranno* perchè non danno accesso diretto all'adattatore Bluetooth o alle porte USB.
+    * Se non hai Linux, [Ubuntu](https://ubuntu.com/download/desktop) è l'opzione più user-friendly che può essere eseguita su computer che eseguono Windows o Mac.
+        * I dispositivi a 32-bit richiedono [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
+        * Per i dispotivi a 64-bit è consigliato usare l'edizione LTS per la sua stabilità, ma anche la versione più recente funziona.
+    * Puoi [flashare un ambiente Linux Live su un dispotivo USB](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) invece che installarlo sul tuo computer.
+* Un adattatore Bluetooth.
+    * Un adattatore Bluetooth interno funzionerà.
+    * Se non ne hai uno, assicurati di procurartene uno compatibile con Linux.
+* Un dispositivo USB formattato in FAT32.
+    * Questo non può essere lo stesso dispositivo usato per Linux.
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### Instructions
+### Istruzioni
 
-1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
-    + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-    + (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
-1. Reinsert your flash drive into your console.
-    + For a Wii mini, the USB port is on the back.
-    + For a normal Wii, use the bottom port (or the right port if it's upright).
-1. Power on your console.
-1. Go to `Wii Settings`.
-1. Take note in the top right corner of the letter next to the system version.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+1. Copia `boot.elf` da hackmii_installer_v1.2 `.zip` al root del tuo dispositivo.
+    + (Se stai cercando di sistemare un brick, dovresti anche copiare le app homebrew che desideri usare in /apps/)
+    + (Anche per un Wii mini, bootmini.elf **non** funzionerà, il suo scopo è completamente diverso e non collegato. Usa boot.elf in ogni caso).
+1. Reinserisci il tuo dispositivo flash nella tua console.
+    + Per un Wii mini, la porta USB è dietro.
+    + Per un Wii normale, usa la porta inferiore (o la porta a destra se è verticale).
+1. Accendi la console.
+1. Vai sulle `Impostazioni console Wii`.
+1. Prendi nota nell'angolo in alto a destra della lettera vicino alla versione di sistema.
+    + Questa lettera corrisponde alla regione del tuo menu di sistema, che dovrai sapere per i passaggi corrispondenti.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Power off your console.
-1. Start your Linux distro, and ensure you are connected to the internet.
-1. Open the Terminal
-1. Run the following commands:
+1. Spegni la console.
+1. Avvia la tua distro di Linux, e assicurati di avere una connessione a internet.
+1. Apri il terminale
+1. Esegui i seguenti comandi:
 
     ```bash
     wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -61,18 +61,18 @@ Make sure that the console is close to the computer running the exploit, ideally
     ./bluebomb-helper.sh
     ```
 
-1. The helper will then download the required files, and ask for information about your console.
-    + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
-    + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
-1. Power on your console.
-    + **Do not** connect any Wii Remotes.
-1. Press the Sync button repeatedly until the terminal shows `got connection handle`.
-    + This could take numerous attempts.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
-    + If you are not planning to use it later, you can now shut down your Linux distro.
+1. L'helper scaricherà i file richiesti, e chiederà informazioni sulla tua console.
+    + Se hai selezionato Wii mini ti verrà chiesto di inserire la tua regione. Questo può essere determinato dall'ultima lettera della versione del Menu Wii (`U` per **USA** ed `E` per i modelli **PAL**).
+    + Se hai selezionato Wii ti verrà chiesto di fornire la versione del Menu Wii (che hai determinato nel passaggio 4)
+1. Accendi la console.
+    + **Non** connettere alcun telecomando Wii.
+1. Premi il bottone Sync ripetutamente finchè il terminale non mostra `got connection handle`.
+    + Questo passaggio potrebbe richiedere vari tentativi.
+1. Se l'exploit ha avuto successo, il tuo Wii avrà avviato l'HackMii Installer.
+    + Se non vuoi usarla successivamente, puoi spegere la tua distro di Linux.
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+Se stai usado un Wii: [Continua a Homebrew Channel e installazione di BootMii](hbc)<br>
 {: .notice--info}
 
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+Se stai usando un Wii mini: [Continua all'installazione di Homebrew Channel](hbc-mini)
 {: .notice--info}
