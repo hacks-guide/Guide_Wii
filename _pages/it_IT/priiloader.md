@@ -16,17 +16,17 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 <!--div class="notice--success" markdown="1">{{ notice-vwii-priiloader }} </div-->
 
-### Requirements
+### Requisiti
 
 * An SD card or USB drive
 * [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
 * [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
-### Instructions
+### Istruzioni
 
 #### Sezione I - Preparazione
 
-1. Power off your console.
+1. Spegni la console.
 1. Insert your SD card or USB drive into your computer.
 1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
@@ -34,7 +34,7 @@ Priiloader 0.10.0 introduces vWii support! <br> There are some important things 
 
 #### Section II - Installing Priiloader
 
-1. Power on your console.
+1. Accendi la console.
 1. Launch the Homebrew Channel.
 1. Launch Priiloader installer from the list of homebrew.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
