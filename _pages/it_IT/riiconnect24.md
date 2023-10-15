@@ -15,7 +15,7 @@ It's recommended to set your Wii to the current time before proceeding. Follow [
 DO NOT INSTALL RIICONNECT24 ON A WII MINI! It will not work and it will brick the system.
 {: .notice--danger}
 
-### Requirements
+### Requisiti
 
 If you are on vWii, you will also need [Priiloader](priiloader) installed with the WC24 hacks.
 {: .notice--primary}
@@ -26,7 +26,7 @@ If you are on vWii, you will also need [Priiloader](priiloader) installed with t
 + [RiiConnect24 Patcher (Windows, Mac and Linux)](https://github.com/riiconnect24/RiiConnect24-Patcher/releases)
 + [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Instructions
+### Istruzioni
 
 #### Section I - Using RiiConnect24 Patcher
 
@@ -115,7 +115,7 @@ If you get error 107245, you did not install the patched IOS.<br> If you get err
 You will now set your DNS to RiiConnect24 servers. This is optional but recommended, because it enhances the use of RiiConnect24 and Wiimmfi by making some other features available.
 
 1. Go to `Wii Options`.
-1. Go to `Wii Settings`.
+1. Vai sulle `Impostazioni console Wii`.
 1. Go to `Page 2`, then click on `Internet`.
 1. Go to `Connection Settings`.
 1. Select your current connection.
