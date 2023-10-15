@@ -12,7 +12,7 @@ To play games, you are advised to use a large SD card or an external hard drive,
 Make sure your storage device is formatted as FAT32. Do not format it to other file systems like NTFS, exFAT, or WBFS.
 {: .notice--info}
 
-### Requirements
+### Requisiti
 
 * A modded Wii
 * An SD card or USB device
