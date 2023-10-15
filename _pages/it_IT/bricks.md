@@ -36,16 +36,16 @@ La prevenzione dei brick include diverse regole che spaziano dal buon senso a de
 In ogni caso, dovresti assolutamente:
 + Avere BootMii installato su boot2 se disponibile, oppure come IOS.
 + Avere Priiloader installato indipendentemente da come è installato BootMii.
-+ Backup your NAND with BootMii and always have a valid spare copy on hand, but especially before attempting anything risky. Note that in some brick scenarios, BootMii is not accessible, so plan ahead.
++ Esegui i backup della NAND con BootMii e conserva sempre una copia da avere a portata di mano, soprattutto prima di provare qualcosa di rischioso. Tieni a mente che, in alcuni scenari di brick, BootMii non è accessibile.
 
-# Diagnosis
+# Diagnosi
 
-Here is a small section that lists out steps similar to the Wii boot process, and links to the likely corresponding brick if something fails.
+Questa è una piccola sezione che elenca i passaggi simili a quelli di accensione del Wii, e i collegamenti al brick corrispondente se qualcosa va storto.
 
-+ Turn on Wii.
-+ Nothing happens, black screen. Wii cannot be turned on with a Wiimote, Recovery Mode cannot be started, and BootMii as boot2 is not accessible. See [low-level brick](bricks#low-level-brick).
-+ Nothing happens, black screen, BUT Wii can be turned on with a Wiimote/Recovery Mode can be accessed. See [Wi-Fi brick](bricks#wi-fi-brick).
-+ Nothing happens, black screen, BUT BootMii as boot2 is accessible. See [IOS brick](bricks#ios-brick).
++ Accendi il Wii.
++ Non succede nulla, schermo nero. Il Wii non può essere acceso con il Wiimote, la recovery mode non può essere eseguita, e BootMii su boot2 non è accessibile. Vedi [Brick a basso livello](bricks#low-level-brick).
++ Non succede nulla, schermo nero, MA il Wii può essere accesso col Wiimote/la recovery mode può essere eseguita. Vedi [brick Wi-Fi](bricks#wi-fi-brick).
++ Non succede nulla, schermo nero, MA BootMii su boot2 è accessibile. See [IOS brick](bricks#ios-brick).
 + Error 003. See [Korean Kii/Error 003 brick](bricks#error-003-brick).
 + Wii starts, BUT you INSTANTLY see an error that resembles the Opera web browser. See [Wii Menu/Opera brick](bricks#wii-menuopera-brick).
 + Wii starts, you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. Maintenance mode is accessible. See [mail brick](bricks#mail-brick).
