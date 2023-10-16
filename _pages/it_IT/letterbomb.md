@@ -4,18 +4,18 @@ title: "LetterBomb"
 
 {% include toc title="Table of Contents" %}
 
-For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
+Per istruzioni su come formattare la tua scheda SD correttamente, per favore consulta [questa guida](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). È altamente consigliato controllare a causa dei problemi di formattare in FAT32.
 {: .notice--info}
 
-Do NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Use your own!
+NON usare NESSUN indirizzo MAC mostrato negli esempi di questa guida, perchè causeranno semplicemente un errore nel sito di HackMii. Usa il tuo!
 {: .notice--warning}
 
-LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
+LetterBomb è un exploit del Wii che viene provocato usando la Bacheca Wii.
 
 ### Requisiti
-* An SD card formatted as FAT32
-* A Wii on System Menu version 4.3
-* A Windows/MacOS/Linux computer with an Internet connection
+* Una scheda SD formattata in FAT32
+* Un Wii con versione di sistema 4.3
+* Un computer Windows/MacOS/Linux con una connessione a internet
 
 ### Istruzioni
 
@@ -23,7 +23,7 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
 1. Vai sulle `Impostazioni console Wii`.
 1. Prendi nota nell'angolo in alto a destra della lettera vicino alla versione di sistema.
     + Questa lettera corrisponde alla regione del tuo menu di sistema, che dovrai sapere per i passaggi corrispondenti.
-    + Also, ensure that you are on System Menu version 4.3.
+    + Assicurati, anche, che ti trovi sulla versione di sistema 4.3.
 
     ![](/images/wii/SystemMenuVersion.png)
 
