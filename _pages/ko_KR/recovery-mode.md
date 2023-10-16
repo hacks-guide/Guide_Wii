@@ -10,11 +10,11 @@ Recovery Mode is a last resort method for recovering your Wii console from a bri
 
 + GameCube 컨트롤러
 + If the Diagnostic Disc Check was previously removed with Priiloader, or if a drive chip is on hand:
-    + Super Smash Bros. Melee ([Smash Stack](legacy-exploits#smash-stack)) OR
+    + Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OR
     + Any other exploited Wii game, with the current exploit game save on the console (see [Legacy Exploits](legacy-exploits)) OR
     + Any retail game, and access to the [Bluebomb](bluebomb) exploit
 + If the Diagnostic Disc Check was not previously removed with Priiloader, and no drive chip is on hand:
-    + Super Smash Bros. Melee ([Smash Stack](legacy-exploits#smash-stack))
+    + Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack))
 + An original revision Wii (Family Edition Wiis will not work due to the lack of GameCube ports - otherwise you must solder some on)
 + A Windows/macOS/Linux PC with an Internet connection
 + An SD Card formatted to FAT32
