@@ -1,29 +1,29 @@
 ---
 layout: splash
-title: "Wii Hacks Guide"
+title: "Guida per l'Hacking del Wii"
 header:
   overlay_color: "#121212"
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Wii (and Wii mini)."
+excerpt: "La guida omnicomprensiva per modificare il tuo Wii (e Wii mini)."
 ---
 
-Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
+Dal momento che questa guida è stata appena pubblicata, le traduzioni sono ancora in corso d'opera. Grazie per la pazienza!
 {: .notice--info}
 
-To get the most out of this guide, you should read this page before proceeding.
+Per trarre il massimo da questa guida, dovresti leggere questa pagina prima di procedere.
 {: .notice--warning}
 
-### What is homebrew?
+### Cos'è l'homebrew?
 
-**Homebrew** refers to software that was not authorized by the original creator of a piece of hardware - in this case, Nintendo. In order to gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
+Il nome **Homebrew** si riferisce a una tipologia di software non autorizzata dal creatore originale dell'hardware - in questo caso, Nintendo. Per poter avviare software homebrew sul tuo Wii, la console deve essere prima modificata per eseguire codice non firmato.
 
-Here are some common examples of what homebrew can do for your Wii:
+Ecco degli esempi comuni di cosa il software homebrew può fare per il tuo Wii:
 
-+ [Backup](bootmii) and [restore](bootmiirecover) your Wii's NAND (system memory)
-+ Enhance the [brick protection](priiloader) of your Wii
-+ Download new homebrew apps with the [Open Shop Channel](osc)
++ Eseguire [backup](bootmii) e [ripristinare](bootmiirecover) la NAND (memoria di sistema) del tuo Wii
++ Aumentare la [protezione dai brick](priiloader) del tuo Wii
++ Scaricare nuove applicazioni homebrew con [Open Shop Channel](osc)
 + [Patch game disc contents](riivolution) to load game modifications
 + Turn your Wii into a [media center](wiimc)
 + Install [themes](themes) on the Wii Menu and in commonly used homebrew apps
