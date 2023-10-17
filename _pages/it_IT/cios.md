@@ -57,7 +57,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
 1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Accendi la console.
-1. Launch the Homebrew Channel.
+1. Avvia l'Homebrew Channel.
 1. Launch d2x cIOS Installer from the list of homebrew.
 1. When asked what IOS you would like to use, select IOS 58.
     + This should work in nearly all cases.
