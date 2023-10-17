@@ -101,16 +101,16 @@ Quando segui uno degli exploit elencati sopra, non rimpiazzare il file `boot.elf
 | AU = Gli aggiornamenti automatici salteranno il controllo se presenti nella cache | Salterà il download dei file se già nella code.                                                                              |
 | FWD = Installa Forwarder dell'USB-Loader nelle Guide dei Wizard di ModMii         | Includerà il file wad del forwarder dell'USB loader nelle guide dei wizard degli USB loader.                                 |
 | PC = Posizione di Salvataggio Programmi PC                                        | Cambia la posizione di salvataggio per i programmi PC scaricabili.                                                           |
-| RS = Root Save: Salva IOS/MIOS sul root invece che nella cartella dei WAD         | Saves IOSs\MIOSs to Root instead of WAD Folder.                                                                             |
-| 1 = Do not Keep 00000001 or NUS Folders for IOSs\MIOSs\SMs etc                  | Deletes the folder used for compiling the wad file and just gives you the wad file.                                          |
-| n2o = neek2o - build mod of s\uneek instead of original                          | Uses a better modified version of neek2o in the EmuNAND builder.                                                             |
-| SSD = SNEEK and SNEEK+DI SD Access                                                | Allows for SNEEK and SNEEK+DI access on the SD card.                                                                         |
-| F = Font.bin Colour for SNEEK/UNEEK                                               | Changes the font color for neek2o.                                                                                           |
-| SV = SNEEK Verbose Output                                                         | Displays extra information regarding EmuNAND.                                                                                |
-| V = Verbose for ModMii Skin & nandBinCheck                                        | Displays another window with extra information regarding a nand check.                                                       |
-| SO = Play sound at Finish                                                         | Plays a fun jingle after a successful download.                                                                              |
-| A = Auto-Update ModMii at program start                                           | Will automatically check for updates when ModMii is launched.                                                                |
-| N = Check for New versions of ModMii right now                                    | Will check online for a ModMii update.                                                                                       |
+| RS = Root Save: Salva IOS/MIOS sul root invece che nella cartella dei WAD         | Salva gli IOS\MIOS nel root invece che nella cartella WAD.                                                                  |
+| 1 = Non mantenere cartelle 00000001 o NUS per IOS\MIOS\SM etc                   | Elimina le cartelle usate per compilare il file wad e ti dà solamente il file wad.                                           |
+| n2o = neek2o - crea mod di s\uneek invece dell'originale                         | Usa una migliore versione modificata di neek2o nel creatore di EmuNAND.                                                      |
+| SSD = Accesso SD a SNEEK e SNEEK+DI                                               | Permette a SNEEK e SNEEK+DI di accedere alla scheda SD.                                                                      |
+| F = Colore di Font.bin per SNEEK/UNEEK                                            | Cambia il colore del font per neek2o.                                                                                        |
+| SV = Output Verboso di SNEEK                                                      | Mostra informazioni extra riguardo l'EmuNAND.                                                                                |
+| V = Modalità verbosa per ModMii Skin & nandBinCheck                               | Mostra un'altra finestra con informazioni extra riguardanti il controllo della nand.                                         |
+| SO = Riproduci suoni alla Fine                                                    | Riproduce un jingle divertente dopo un download andato a buon fine.                                                          |
+| A = Auto-Update di ModMii all'avvio                                               | Controllerà la presenza di aggiornamenti in automatico all'avvio di ModMii.                                                  |
+| N = Controlla per nuove versioni di ModMii adesso                                 | Verificherè online la presenza di un aggiornamento di ModMii.                                                                |
 
 </details>
 
