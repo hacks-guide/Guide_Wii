@@ -1,19 +1,19 @@
 ---
-title: "BootMii Recovery"
+title: "Ripristino con BootMii"
 ---
 
 {% include toc title="Table of Contents" %}
 
-This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
+Questa guida fornirà istruzioni su come ripristinare un backup della NAND con BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
 
-If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+Se hai BootMii installato come boot2, dovrai riavviare la console per eseguierlo. Salta i passaggi 1 e 2 se è questo il caso.
 {: .notice--info}
 
-If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+Se lo schermo rimane nero e l'unità del disco blu lampeggia mentre provi ad avviare BootMii, ti mandano i file di BootMii sulla scheda SD. Scarica [questo file zip](https://static.hackmii.com/bootmii_sd_files.zip) ed estrailo nel root della tua scheda SD, poi riprova.
 {: .notice--warning}
 
 
-Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
+I Wii Family Edition (senza le porte GameCube) NON POSSONO ripristinare backup della NAND. Questo è dovuto alla mancanza di porte GameCube che servono su Wii non-boot2 per inserire il codice di conferma per il ripristino. For additional help, please seek support.
 {: .notice--danger}
 
 DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same goes for using faulty SD cards.
@@ -41,13 +41,13 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ### Istruzioni
 
-1. Launch the Homebrew Channel.
+1. Avvia l'Homebrew Channel.
 1. Premi il pulsante HOME, poi seleziona "Lancia BootMii".
     + Se l'Homebrew Channel è inaccessibile e hai Priiloader installato, dovresti potere avviare quest'ultimo e selezionare `BootMii IOS` per lanciare BootMii.
 
     ![](/images/bootmii/BootMii_HBC.png)
 
-1. Select the Options button (the icon with the gears).
+1. Seleziona il pulsante delle opzioni (con l'icona delle rotelle).
 
     ![](/images/bootmii/BootMii_Gears.png)
 
