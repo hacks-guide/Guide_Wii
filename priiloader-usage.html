@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Site Navigation - Wii Hacks Guide</title>
+<!-- begin _includes/seo.html --><title>Priiloader Usage - Wii Hacks Guide</title>
 <meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
 
 
@@ -21,8 +21,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Wii Hacks Guide">
-<meta property="og:title" content="Site Navigation">
-<meta property="og:url" content="https://wii.hacks.guide/site-navigation.html">
+<meta property="og:title" content="Priiloader Usage">
+<meta property="og:url" content="https://wii.hacks.guide/priiloader-usage.html">
 
 
   <meta property="og:description" content="The complete guide to modding your Wii (and Wii mini)">
@@ -42,7 +42,7 @@
   
 
 
-<link rel="canonical" href="https://wii.hacks.guide/site-navigation.html">
+<link rel="canonical" href="https://wii.hacks.guide/priiloader-usage.html">
 
 
 
@@ -200,7 +200,7 @@ window.cookieconsent.initialise({
           
           
           
-          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/site-navigation.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/priiloader-usage.html">English</a></li>
         </ul>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle Menu</span>
@@ -326,7 +326,7 @@ window.cookieconsent.initialise({
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Site Navigation">
+    <meta itemprop="headline" content="Priiloader Usage">
     
     
     
@@ -334,7 +334,7 @@ window.cookieconsent.initialise({
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Site Navigation
+          <h1 id="page-title" class="page__title" itemprop="headline">Priiloader Usage
 </h1>
           
 
@@ -359,84 +359,121 @@ window.cookieconsent.initialise({
         <hr>
 <!-- hacks-guide change end -->
 
-        
-<div class="notice--info">
-<p><strong>Site</strong></p>
-<ul>
-  <li><a href="/">Home</a></li>
-  <li><a href="get-started">Get Started</a></li>
-  <li><a href="faq">FAQ</a></li>
-  <li><a href="donations">Donations</a></li>
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#system-menu-hacks" id="markdown-toc-system-menu-hacks">System Menu Hacks</a></li>
+  <li><a href="#additional-options" id="markdown-toc-additional-options">Additional options</a>    <ul>
+      <li><a href="#autobooting-with-priiloader" id="markdown-toc-autobooting-with-priiloader">Autobooting with Priiloader</a>        <ul>
+          <li><a href="#autobooting-a-homebrew-application" id="markdown-toc-autobooting-a-homebrew-application">Autobooting a Homebrew application</a></li>
+          <li><a href="#autobooting-the-homebrew-channel-or-priiloader" id="markdown-toc-autobooting-the-homebrew-channel-or-priiloader">Autobooting the Homebrew Channel or Priiloader</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
+
+  </nav>
+</aside>
+
+<p>Priiloader is an essential tool that adds a level of brick protection to your Wii. It loads before the Wii System Menu does. The tool can also apply hacks that are used to enhance, unlock, and/or fix many System Menu features.</p>
+
+<p>Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.</p>
+
+<p>This page documents some of the useful features of Priiloader that may be of interest.</p>
+
+<h3 id="system-menu-hacks">System Menu Hacks</h3>
+
+<p>Priiloader has a large selection of options that, once enabled, change the behaviour of the Wii to one of your choice. You can find more information on each options <a href="https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks">here</a>.</p>
+
+<h3 id="additional-options">Additional options</h3>
+
+<p>These are some extra things you can do with Priiloader to enhance your homebrew experience. This is optional.</p>
+
+<h4 id="autobooting-with-priiloader">Autobooting with Priiloader</h4>
+
+<p>Priiloader allows you to automatically boot to the Homebrew Channel, an individual homebrew application, or Priiloader itself. This is optional.</p>
+
+<h5 id="autobooting-a-homebrew-application">Autobooting a Homebrew application</h5>
+
+<div id="autobooting-usbloadergx" class="notice--warning">
+  <p>If you would like to autoboot USB loader GX, do this first:</p>
+  <ul>
+    <li>Download the USB Loader GX forwarder WAD (<a href="https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad">Wii</a>, <a href="https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad">vWii</a>).</li>
+    <li>Download the <a href="https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download">UNEO Channel Booter for Priiloader</a>.</li>
+    <li>Install the forwarder WAD with a WAD manager like <a href="yawmme">YAWM ModMii Edition</a>.</li>
+    <li>Extract the <code class="language-plaintext highlighter-rouge">UNEO Channel Booter for Priiloader.zip</code> file anywhere.</li>
+    <li>Copy <code class="language-plaintext highlighter-rouge">uneoboot.dol</code> to the root of your SD card.</li>
+  </ul>
+
+  <p>You will be installing <code class="language-plaintext highlighter-rouge">uneoboot.dol</code> in step 3.</p>
 </div>
 
-<div class="notice--primary">
-<p><strong>Wii Online Services</strong></p>
-<ul>
-  <li><a href="wiimmfi">Nintendo Wi-Fi Connection</a></li>
-  <li><a href="wiiconnect24#updating-rtc-clock">Setting RTC Time</a></li>
-  <li><a href="wiiconnect24">WiiConnect24</a></li>
-</ul>
-</div>
+<ol>
+  <li>Launch the Homebrew Channel</li>
+  <li>Launch Load Priiloader from the list of homebrew.</li>
+  <li>
+    <p>Scroll down to <code class="language-plaintext highlighter-rouge">Load/Install file</code> and press A.</p>
 
-<div class="notice--primary">
-<p><strong>Modding 101 - Exploits</strong></p>
-<ul>
-  <li><a href="bluebomb">BlueBomb</a></li>
-  <li><a href="flashhax">FlashHax</a></li>
-  <li><a href="legacy-exploits">Legacy Exploits</a></li>
-  <li><a href="letterbomb">LetterBomb</a></li>
-  <li><a href="str2hax">str2hax</a></li>
-  <li><a href="wilbrand">Wilbrand</a></li>
-</ul>
-</div>
+    <p><img src="/images/priiloader/menu_install_file.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Scroll through the menu until your desired homebrew app is highlighted, and press A to install it.</p>
 
-<div class="notice--primary">
-<p><strong>Modding 101 - Wii Essentials</strong></p>
-<ul>
-  <li><a href="bootmii">BootMii Backup</a></li>
-  <li><a href="bootmiirecover">BootMii Recovery</a></li>
-  <li><a href="bricks">Brick Overview</a></li>
-  <li><a href="bricks#brick-prevention">Brick Prevention</a></li>
-  <li><a href="cios">cIOS</a></li>
-  <li><a href="hbc">Homebrew Channel</a></li>
-  <li><a href="modmii">ModMii</a></li>
-  <li><a href="osc">Open Shop Channel</a></li>
-  <li><a href="priiloader">Priiloader</a></li>
-  <li><a href="hackmii">Relaunching the HackMii Installer</a></li>
-  <li><a href="update">Updating Wii Menu to v4.3</a></li>
-  <li><a href="wnd-mini">Wii mini NAND Dumper</a></li>
-  <li><a href="yawmme">YAWM ModMii Edition</a></li>
-</ul>
-</div>
+    <p><img src="/images/priiloader/installing_file.png" alt="" /></p>
 
-<div class="notice--primary">
-<p><strong>Homebrew</strong></p>
-<ul>
-  <li><a href="wiigsc">Creating Wii Game Shortcuts</a></li>
-  <li><a href="gcbackupmanager">GameCube Backup Manager</a></li>
-  <li><a href="dump-wads">How to dump Channels (WADs)</a></li>
-  <li><a href="dump-games">How to dump GameCube/Wii Games</a></li>
-  <li><a href="rssmii">RSSMii</a></li>
-  <li><a href="gcsaves">Managing GameCube Save Files</a></li>
-  <li><a href="nintendont">Nintendont</a></li>
-  <li><a href="riivolution">Playing Wii Game Mods</a></li>
-  <li><a href="priiloader-usage">Priiloader Usage</a></li>
-  <li><a href="recommended-homebrew">Recommended Homebrew</a></li>
-  <li><a href="wii-loaders">USB Loaders</a></li>
-  <li><a href="syscheck">Using SysCheck</a></li>
-  <li><a href="wiibackupmanager">Wii Backup Manager</a></li>
-  <li><a href="themes">Wii Themes Guide</a></li>
-</ul>
-</div>
+    <p><img src="/images/priiloader/installing_file_ok.png" alt="" /></p>
+  </li>
+  <li>Press <code class="language-plaintext highlighter-rouge">B</code> to return to the main menu.</li>
+  <li>
+    <p>Scroll down to <code class="language-plaintext highlighter-rouge">Settings</code> and press A.</p>
 
-<div class="notice--primary">
-<p><strong>Wii mini</strong></p>
-<ul>
-  <li><a href="hbc-mini">Installing the Homebrew Channel on the Wii mini</a></li>
-  <li><a href="cios-mini">Installing cIOS on the Wii mini</a></li>
-</ul>
-</div>
+    <p><img src="/images/priiloader/menu_settings.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Press Right to cycle through the Autoboot options until <code class="language-plaintext highlighter-rouge">Installed file</code> is selected.</p>
+
+    <p><img src="/images/priiloader/autoboot_installed_file.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Scroll down to <code class="language-plaintext highlighter-rouge">save settings</code> and press A.</p>
+
+    <p><img src="/images/priiloader/settings_save.png" alt="" /></p>
+  </li>
+  <li>Press <code class="language-plaintext highlighter-rouge">B</code> to return to the main menu.</li>
+  <li>Scroll back up to <code class="language-plaintext highlighter-rouge">System Menu</code> and press A.</li>
+</ol>
+
+<p>Your Wii should now automatically boot to whichever homebrew app you installed.</p>
+
+<h5 id="autobooting-the-homebrew-channel-or-priiloader">Autobooting the Homebrew Channel or Priiloader</h5>
+
+<ol>
+  <li>Launch the Homebrew Channel</li>
+  <li>Launch Load Priiloader from the list of homebrew.</li>
+  <li>
+    <p>Scroll down to <code class="language-plaintext highlighter-rouge">Settings</code> and press A.</p>
+
+    <p><img src="/images/priiloader/menu_settings.png" alt="" /></p>
+  </li>
+  <li>Press Right to cycle through the Autoboot options until your desired option is selected.
+    <ul>
+      <li>Disabled` will autoboot to the Priiloader menu.</li>
+    </ul>
+
+    <p class="notice--warning">Please don’t set Autoboot to <code class="language-plaintext highlighter-rouge">BootMii IOS</code>. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.</p>
+
+    <p><img src="/images/priiloader/autoboot_disabled.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Scroll down to <code class="language-plaintext highlighter-rouge">save settings</code> and press A.</p>
+
+    <p><img src="/images/priiloader/settings_save.png" alt="" /></p>
+  </li>
+  <li>Press <code class="language-plaintext highlighter-rouge">B</code> to return to the main menu.</li>
+  <li>Scroll back up to <code class="language-plaintext highlighter-rouge">System Menu</code> and press A.</li>
+</ol>
 
         
       </section>
