@@ -42,9 +42,10 @@ Puoi far analizzare a ModMii un SysCheck trascinando il file `syscheck.csv` su M
 ### Wizard di HackMii Solutions
 
 Il wizard di HackMii Solutions può aiutarti a risolvere sintomi come questi:
-    + HackMii Installer non chiede "Press (1) to continue"
-    + HackMii Installer dice "no vulnerable IOS found!"
-    + L'Homebrew Channel viene mostrato a testa in giù
+
++ HackMii Installer non chiede "Press (1) to continue"
++ HackMii Installer dice "no vulnerable IOS found!"
++ L'Homebrew Channel viene mostrato a testa in giù
 
 Installerà gli IOS puliti per permettere all'HackMii Installer di operare correttamente.
 
