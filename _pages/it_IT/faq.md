@@ -7,12 +7,12 @@ title: "FAQ and Troubleshooting"
 {% include toc title="Table of Contents" %}
 
 ### Quanto è rischioso modificare la mia console?
-Non molto rischioso onestamente, dipende dalla tua console. Il Wii ha molte meno barriere da oltrepassare rispetto ad altre console, con exploit che richiedono solamente un Wii e una connessione a internet. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+Non molto rischioso onestamente, dipende dalla tua console. Il Wii ha molte meno barriere da oltrepassare rispetto ad altre console, con exploit che richiedono solamente un Wii e una connessione a internet. Finchè segui i consigli generali scritti [qui](bricks#brick-prevention), installi [BootMii](bootmii) e [Priiloader](priiloader), e hai buon senso, tutto dovrebbe essere a posto!
 
-### I got error code XXXXXX, how do I fix it?
-In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:
+### Ricevo un errore XXXXXX, come lo sistemo?
+Per verificare il significato dell'errore, per favore visita [La pagina degli errori di Wiimmfi](https://wiimmfi.de/error). Gli errori più comuni hanno le correzioni elencate sotto:
 
-#### Error 01530/51330
+#### Errore 01530/51330
 
 Run an Internet connection test by going to `Wii Settings > Internet > Connection settings > Connection > Test this connection`
 
