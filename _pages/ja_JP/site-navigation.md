@@ -60,6 +60,7 @@ sitemap: false
 + [ゲームキューブのセーブファイルの管理](gcsaves)
 + [Nintendont](nintendont)
 + [Wiiゲームのモッドを使う](riivolution)
++ [Priiloader Usage](priiloader-usage)
 + [推奨されるホームブルー](recommended-homebrew)
 + [USBローダー](wii-loaders)
 + [SysCheckを使う](syscheck)
