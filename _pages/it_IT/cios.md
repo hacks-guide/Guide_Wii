@@ -4,7 +4,7 @@ title: "cIOS"
 
 {% include toc title="Table of Contents" %}
 
-Nonostante i [cIOS](https://wiibrew.org/wiki/Custom_IOS) siano stati largamenti soppiantati da AHBPROT, che dà accesso hardware completo, essi hanno comunque delle applicazioni utili. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+Nonostante i [cIOS](https://wiibrew.org/wiki/Custom_IOS) siano stati largamenti soppiantati da AHBPROT, che dà accesso hardware completo, essi hanno comunque delle applicazioni utili. Per esempio, questo permette la funzionalità di USB loader come USB Loader GX e WiiFlow, insieme ad altre applicazioni homebrew come SaveGame Manager GX. Puoi saltare questo processo se vuoi, ma normalmente migliore il tuo Wii con quasi nessun lato negativo.
 
 If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting to install other cIOS on a Wii mini will not work.
 {: .notice--warning}
