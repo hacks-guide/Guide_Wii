@@ -8,22 +8,22 @@ This guide covers dumping GameCube or Wii game discs. You can either dump direct
 
 ### Dumping a Disc to SD/USB (CleanRip)
 
-#### Requirements
+#### Requisiti
 
 + An SD card or USB drive with at least 4.7 GB of free space (8.5 GB if dumping a dual layer disc).
 + [CleanRip](https://oscwii.org/library/app/cleanrip)
 
-#### Instructions
+#### Istruzioni
 
 If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), set `Dual Layer` in Step 6 to `Yes`.
 {: .notice--info}
 
-1. Power off your console.
-1. Insert your SD card or USB drive into your computer.
+1. Spegni la console.
+1. Inserisci la scheda SD o dispositivo USB nel tuo computer.
 1. Copy the `apps` folder from the CleanRip `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
-1. Launch the Homebrew Channel.
+1. Reinserisci la tua scheda SD o dispositivo USB nella tua console.
+1. Accendi la console.
+1. Avvia l'Homebrew Channel.
 1. Launch CleanRip from the list of homebrew.
 1. Select your device that you will be dumping the game to - a USB device or SD card.
 
@@ -54,12 +54,12 @@ If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.o
 
 ### Dumping a Disc over LAN (Wii DVD Dumper)
 
-#### Requirements
+#### Requisiti
 
 + A Windows/macOS/Linux PC with an internet connection
 + [DVD Dump Tool](/assets/files/DVDDumpTool.zip)
 
-#### Instructions
+#### Istruzioni
 
 Download speeds will be slow due to limitations in the network hardware of the Wii, but it remains a valid solution if you are willing to be patient.
 {: .notice--info}
@@ -68,9 +68,9 @@ Your Wii and your computer must be connected to the same local network.
 {: .notice--warning}
 
 1. Copy the `DVDDumpTool` folder from the DVDDumpTool `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
-1. Launch the Homebrew Channel.
+1. Reinserisci la tua scheda SD o dispositivo USB nella tua console.
+1. Accendi la console.
+1. Avvia l'Homebrew Channel.
 1. Launch DVD Dump Tool from the list of homebrew.
 1. Press right on the D-pad, then press A.
 1. Choose the disc that you want to copy (The options are: `GameCube Disc`, `Wii Single-Layer Disc`, `Wii Dual-Layer Disc`) and press "A"

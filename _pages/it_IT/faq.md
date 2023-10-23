@@ -2,56 +2,56 @@
 title: "FAQ and Troubleshooting"
 ---
 
-## Main FAQ
+## FAQ Principali
 
 {% include toc title="Table of Contents" %}
 
-### How risky is hacking my console?
-Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+### Quanto è rischioso modificare la mia console?
+Non molto rischioso onestamente, dipende dalla tua console. Il Wii ha molte meno barriere da oltrepassare rispetto ad altre console, con exploit che richiedono solamente un Wii e una connessione a internet. Finchè segui i consigli generali scritti [qui](bricks#brick-prevention), installi [BootMii](bootmii) e [Priiloader](priiloader), e hai buon senso, tutto dovrebbe essere a posto!
 
-### I got error code XXXXXX, how do I fix it?
-In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:
+### Ricevo un errore XXXXXX, come lo sistemo?
+Per verificare il significato dell'errore, per favore visita [La pagina degli errori di Wiimmfi](https://wiimmfi.de/error). Gli errori più comuni hanno le correzioni elencate sotto:
 
-#### Error 01530/51330
+#### Errore 01530/51330
 
-Run an Internet connection test by going to `Wii Settings > Internet > Connection settings > Connection > Test this connection`
+Esegui un test della connessione Internet andando su `Impostazioni Wii > Internet > Impostazioni di Collegamento > Connessione Wi-Fi > Prova di Connessione`
 
-#### Error 220602
+#### Errore 220602
 
-##### For RiiConnect24 Users
+##### Per utenti di RiiConnect24
 
-You are using the old DNS server for RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+Stai usando il vecchio server DNS per RiiConnect24. Segui [questa](riiconnect24#section-iv---connecting) guida per istruzioni su come cambiarlo.
 
-##### For non-RiiConnect24 Users
+##### Per utenti senza RiiConnect24
 
-Your Primary DNS server is incorrect or not working.<br> This can also happen if you use a proxy server and it is down.
+Il tuo erver DNS primario è incorretto o non funzionante.<br> Questo può anche succedere se usi un server proxy e non funziona.
 
-#### Error 107304
+#### Errore 107304
 
-##### For RiiConnect24 Users
+##### Per utenti di RiiConnect24
 
-If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+Se ottieni questo errore o vedi il Nintendo's User Agreement senza il logo di RiiConnect24, significa che il tuo ISP (Internet Service Provider) o la rete sta bloccando l'utilizzo del DNS di RC24. Puoi impostare `Auto-Obtain DNS` su `On` per risolvere. RiiConnect24 funzionerà anche senza di esso. Oppure, puoi usare il programma [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest).
 
-##### For non-RiiConnect24 Users
+##### Per utenti senza RiiConnect24
 
-If you get this error, the DNS server you chose or your internet as a whole is having issues. Try again later.
+Se ottieni questo errore, il server DNS che hai scelto o il tuo internet nella sua interezza sta avendo problemi. Riprova più tardi.
 
 #### FORE000006
 
-If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock.
+Se ottieni l'errore FORE000006, il tuo orologio del Wii è probabilmente impostato incorrettamente. Vedi [qui](wiiconnect24#updating-rtc-clock) per istruzioni su come resettarlo correttamente. Se questo fallisce ancora, rimuovi la batteria dell'orologio del Wii (si torva sulla parte inferiore del sistema dietro a una vita) per un'ora e rimettila dentro dopo. Poi, resetta l'orologio del Wii.
 
-### How can I remove parental controls?
-The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls.
+### Come si rimuove il Filtro Famiglia?
+Il [generatore mkey](https://mkey.salthax.org) può generare il codice richiesto per rimuovere il Filtro Famiglia.
 
-### I think my Wii is bricked, or something is seriously wrong, what do I do?
-See [this](bricks) page.
+### Penso che il mio Wii sia brickato, o che abbia qualcosa di davvero sbagliato, cosa faccio?
+Vedi [questa](bricks) pagina.
 
-## Storage Device FAQ
+## FAQ Dispositivi di Archiviazione
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+Negli exploit [BlueBomb](bluebomb), [str2hax](str2hax), o [FlashHax](flashhax), non ti serve una scheda SD per modificare il tuo Wii; è altamente consigliato averne una comunque per il software homebrew e altre cose.
 {: .notice--info}
 
-FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br> For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS was a previously used file system for Wii game backups - today, it is outdated and should not be used.
+Il File System consigliato per le schede SD è il FAT32, vedi [questa guida](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) per istruzioni su come formattare.<br> Per i dispositivi USB, il FAT32 è sempre consigliato, anche se gli utenti dovrebbero conoscere le limitazioni del FAT32 che permette dispositivi solo fino a 2TB di spazio. WBFS era un File System utilizzato precedentemente per i backup dei giochi Wii - oggi, è obsoleto e non dovrebbe essere usato.
 {: .notice--info}
 
 For stock Wii Menu versions lower than 4.0, a limitation in the Wii System Software prevents SD cards bigger than 2GB from being used.<br> For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.<br> Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.

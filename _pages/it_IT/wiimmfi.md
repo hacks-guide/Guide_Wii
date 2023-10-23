@@ -16,11 +16,11 @@ If the `Wiimmfi Patch` displays as anything other than v4, you do not have the l
 
 A method for Wiimmfi patching which runs on retail disc games automatically via the Disc Channel.
 
-#### Requirements
+#### Requisiti
 + A Wii with an internet connection, on System Menu version 4.3
 + [Priiloader](priiloader) 0.9 or later
 
-#### Instructions
+#### Istruzioni
 
 1. Hold the RESET button while turning on your Wii. If you are using a Wii mini, plug in a USB keyboard and hold Escape while turning it ON.
 1. You should see the Priiloader menu.
@@ -41,12 +41,12 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 
 A method for Wiimmfi patching which automatically patches game backups in the latest versions of USB Loader GX or WiiFlow Lite.
 
-#### Requirements
+#### Requisiti
 
 + A Wii with an internet connection
 + [USB Loader GX or WiiFlow Lite](wii-loaders)
 
-#### Instructions
+#### Istruzioni
 
 1. Open the game or global settings for your specific USB loader and search for the `Private Server` option. By default, it will be set to `Off`.
 1. Set the option to `Wiimmfi` and save the settings. By default, games should now be automatically patched for Wiimmfi.
@@ -61,11 +61,11 @@ If you get error 20100 or 20110, the game you are trying to play is not supporte
 If you get error 23400, your ISP or network is blocking the use of a custom DNS.<br> To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC - you can read about it [here](https://wiimmfi.de/patcher/dnspatch#customdns).
 {: .notice--warning}
 
-#### Requirements
+#### Requisiti
 
 + A Wii with an internet connection
 
-#### Instructions
+#### Istruzioni
 
 1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
 1. Let the connection test finish, and do not perform a Wii System Update.
@@ -75,12 +75,12 @@ If you get error 23400, your ISP or network is blocking the use of a custom DNS.
 
 A method for Wiimmfi patching which runs on retail disc games, but must be manually launched via the Homebrew Channel.
 
-#### Requirements
+#### Requisiti
 
-+ An SD card or USB drive
++ Una scheda SD o dispositivo USB
 + [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
 
-#### Instructions
+#### Istruzioni
 
 1. Simply extract the `apps` folder in this archive to the root of your SD card or USB drive.
 1. Insert your SD Card into your Wii, and launch Auto Wiimmfi Patcher from the Homebrew Channel.
@@ -90,11 +90,11 @@ A method for Wiimmfi patching which runs on retail disc games, but must be manua
 
 A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the EULA User Agreement (derives from [str2hax](str2hax)). Due to the nature of this process, it can be ran on Wiis without homebrew.
 
-#### Requirements
+#### Requisiti
 
 + A Wii with an internet connection
 
-#### Instructions
+#### Istruzioni
 
 1. Insert your game disc.
 1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
@@ -113,12 +113,12 @@ If you run into UPnP-related issues (such as the patcher getting stuch at "Init 
 
 A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). Due to the nature of this process, it can be ran on Wiis without homebrew. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
 
-#### Requirements
+#### Requisiti
 
 + A Wii with an internet connection, running in 60Hz mode
 + Il Canale Internet
 
-#### Instructions
+#### Istruzioni
 
 1. Open the following webpage in the Internet Channel: `http://chadsoft.co.uk/wiimmfi`
 1. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
@@ -130,7 +130,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 A method for Wiimmfi patching which runs on WiiWare games, but must be manually run on a PC via a script.
 
-#### Requirements
+#### Requisiti
 
 * An SD card
 * Your copy of your game (in WAD format)
@@ -140,7 +140,7 @@ A method for Wiimmfi patching which runs on WiiWare games, but must be manually 
 [If you want to see how to use the WiiWare Patcher, click here!](wiiwarepatcher)
 {: .notice--info}
 
-#### Instructions
+#### Istruzioni
 
 1. Extract the .zip of the latest version of WiiWare Patcher, and put your WAD in it.
 1. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. If you're using the RiiConnect24 Patcher, select your device (Wii, vWii, or Dolphin) and choose the WiiWare patcher.
@@ -150,13 +150,13 @@ A method for Wiimmfi patching which runs on WiiWare games, but must be manually 
 
 A method for Wiimmfi patching which runs on game disc images, but must be manually run on a PC via a script.
 
-#### Requirements
+#### Requisiti
 
 + A Linux/macOS/Windows PC with an internet connection
 + A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
 + [Wiimmfi ISO Patcher](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
-#### Instructions
+#### Istruzioni
 
 1. Download the patcher and extract the `.zip` file.
 1. Open the extracted folder and copy your Wii game images into it.

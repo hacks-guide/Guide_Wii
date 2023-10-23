@@ -60,6 +60,7 @@ sitemap: false
 + [Come gestire i salvataggi GameCube](gcsaves)
 + [Nintendont](nintendont)
 + [Come giocare a RomHacks di giochi Wii](riivolution)
++ [Priiloader Usage](priiloader-usage)
 + [App Homebrew consigliate](recommended-homebrew)
 + [USB Loaders](wii-loaders)
 + [Come eseguire un SysCheck](syscheck)

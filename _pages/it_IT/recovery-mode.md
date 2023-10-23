@@ -4,17 +4,17 @@ title: "Recovery Mode"
 
 {% include toc title="Table of Contents" %}
 
-Recovery Mode is a last resort method for recovering your Wii console from a brick before resorting to hard-modding and manual NAND programming. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated in the present with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc, including some retail games. This guide will instruct you on how to recover from bricks (especially Korean Kii/Error 003) with it.
+La Recovery Mode è l'ultima risorsa per recuperare il tuo Wii da un brick prima di passare all'hard-modding e alla programmazione manuale della NAND. Questa modalità era usata dagli impiegati di Nintendo in fabbrica attraverso l'utilizzo di un dongle speciale, ma l'input necessario per accedervi è facilmente riproducibile con un controller GameCube. Essenzialmente, la Recovery Mode mette il Menu Wii in uno stato in cui alcuni programmi, inclusi dei giochi, possono essere eseguiti da un disco. Questa guida ti istruirà su come ripristinare una console brickate (specialmente il Korean Kii/Errore 003).
 
-#### Requirements
+#### Requisiti
 
-+ A GameCube controller
++ Un controller GameCube
 + If the Diagnostic Disc Check was previously removed with Priiloader, or if a drive chip is on hand:
-    + Super Smash Bros. Melee ([Smash Stack](legacy-exploits#smash-stack)) OR
+    + Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OR
     + Any other exploited Wii game, with the current exploit game save on the console (see [Legacy Exploits](legacy-exploits)) OR
     + Any retail game, and access to the [Bluebomb](bluebomb) exploit
 + If the Diagnostic Disc Check was not previously removed with Priiloader, and no drive chip is on hand:
-    + Super Smash Bros. Melee ([Smash Stack](legacy-exploits#smash-stack))
+    + Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack))
 + An original revision Wii (Family Edition Wiis will not work due to the lack of GameCube ports - otherwise you must solder some on)
 + A Windows/macOS/Linux PC with an Internet connection
 + An SD Card formatted to FAT32

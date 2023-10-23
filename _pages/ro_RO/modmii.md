@@ -42,9 +42,10 @@ Poți analiza un SysCheck folosind ModMii prin tragerea fișierului `syscheck.cs
 ### Programul de Soluții HackMii
 
 Programul de Soluții HackMii te poate ajuta să repari probleme ca următoarele:
-    + Instalatorul HackMii nu afișează "Press (1) to continue"
-    + Instalatorul HackMii spune "no vulnerable IOS found!"
-    + Homebrew Channel se afișează cu susul în jos
+
++ Instalatorul HackMii nu afișează "Press (1) to continue"
++ Instalatorul HackMii spune "no vulnerable IOS found!"
++ Homebrew Channel se afișează cu susul în jos
 
 Acesta va instala IOS-uri curate pentru a permite Instalatorului HackMii să funcționeze cum trebuie.
 

@@ -1,71 +1,71 @@
 ---
 layout: splash
-title: "Wii Hacks Guide"
+title: "Guida per l'Hacking del Wii"
 header:
   overlay_color: "#121212"
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Wii (and Wii mini)."
+excerpt: "La guida omnicomprensiva per modificare il tuo Wii (e Wii mini)."
 ---
 
-Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
+Dal momento che questa guida è stata appena pubblicata, le traduzioni sono ancora in corso d'opera. Grazie per la pazienza!
 {: .notice--info}
 
-To get the most out of this guide, you should read this page before proceeding.
+Per trarre il massimo da questa guida, dovresti leggere questa pagina prima di procedere.
 {: .notice--warning}
 
-### What is homebrew?
+### Cos'è l'homebrew?
 
-**Homebrew** refers to software that was not authorized by the original creator of a piece of hardware - in this case, Nintendo. In order to gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
+Il nome **Homebrew** si riferisce a una tipologia di software non autorizzata dal creatore originale dell'hardware - in questo caso, Nintendo. Per poter avviare software homebrew sul tuo Wii, la console deve essere prima modificata per eseguire codice non firmato.
 
-Here are some common examples of what homebrew can do for your Wii:
+Ecco degli esempi comuni di cosa il software homebrew può fare per il tuo Wii:
 
-+ [Backup](bootmii) and [restore](bootmiirecover) your Wii's NAND (system memory)
-+ Enhance the [brick protection](priiloader) of your Wii
-+ Download new homebrew apps with the [Open Shop Channel](osc)
-+ [Patch game disc contents](riivolution) to load game modifications
-+ Turn your Wii into a [media center](wiimc)
-+ Install [themes](themes) on the Wii Menu and in commonly used homebrew apps
-+ Back up your [discs](dump-games) and [other installed titles](dump-wads)
-+ Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
-+ Back up and restore your [Wii](wii-saves) and [GameCube](gcsaves) save files
-+ Restore online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
++ Eseguire [backup](bootmii) e [ripristinare](bootmiirecover) la NAND (memoria di sistema) del tuo Wii
++ Aumentare la [protezione dai brick](priiloader) del tuo Wii
++ Scaricare nuove applicazioni homebrew con [Open Shop Channel](osc)
++ [Modificare il contenuto dei dischi di giochi](riivolution) per avviare delle patch
++ Accendere il tuo Wii in un [media center](wiimc)
++ Installare [temi](themes) sul Menu Wii e nelle applicazioni homebrew più usate
++ Eseguire backup dei tuoi [dischi](dump-games) e di [altri titoli installati](dump-wads)
++ Installare un [USB loader](wii-loaders) per lanciare backup di giochi Wii (e altre console) da un dispositivo di massa esterno
++ Eseguire backup e ripristino dei salvataggi dei giochi [Wii](wii-saves) e [GameCube](gcsaves)
++ Ripristinare la funzionalità online per [WiiConnect24](wiiconnect24) e [Nintendo Wi-Fi Connection](wiimmfi)
 
-### What does the guide install?
+### Che cosa installa questa guida?
 
-This guide aims to do the following, including optional sections:
+Questa guida mira a fare le seguenti azioni, incluse le opzionali:
 
-+ Modify your Wii using one of many exploits, with the end goal of reaching the HackMii installer
-+ Install BootMii and the Homebrew Channel
-+ Make a backup of critical system files
-+ Install Priiloader
-+ Install the Open Shop Channel
-+ Recommended homebrew to use on your Wii
-+ Restore functionality to WiiConnect24 and Nintendo Wi-Fi Connection
++ Modificare il tuo Wii usando uno dei tanti exploit, con lo scopo finale di raggiungere l'HackMii installer
++ Installare BootMii e l'Homebrew Channel
++ Eseguire il backup dei file di sistema più importanti
++ Installare Priiloader
++ Installare l'Open Shop Channel
++ Homebrew consigliati da usare sul tuo Wii
++ Ripristinare funzionalità su WiiConnect24 e Nintendo Wi-Fi Connection
 
-### What should I know before starting?
+### Cosa dovrei sapere prima di iniziare?
 
-+ Homebrew is 100% free, and the process of modifying your Wii is also free. Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam).
-+ This guide works on all system menu versions depending on the exploit, but **it is recommended that you update to 4.3 (the latest firmware)** if possible.
-+ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered, nor is the Wii U's vWii.
-+ Depending on what you intend to do with your modded Wii, you may have to make some modifications to the system memory that have a risk of bricking (rendering the console inoperable). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
-+ The differences between the Wii and Wii mini are quite significant. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Tread carefully if you are planning to mod one!
-+ Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).
++ Il software Homebrew e il processo di modificare il tuo Wii sono entrambi al 100% gratuiti. Chiunque che ti provi a convincere del contrario sta probabilmente provando a [truffarti](https://hbc.hackmii.com/scam).
++ Questa guida funziona su tutte le versioni del menu di sistema in base all'exploit, ma **è fortemente consigliato aggiornare alla 4.3 (versione più recente)** se possibile.
++ **Questa guida si applica SOLAMENTE ai Wii retail/consumer** Questo significa che le unità sviluppatore e i vWii dei Wii U non sono supportati.
++ In base a cosa intendi fare con il tuo Wii modificato, potresti rischiare di apportare delle modifiche alla memoria di sistema che potrebbero provocare un brick (rendendo la console inutilizzabile). Finchè segui esattamente questa guida, dovresti essere a posto, ma per dei consigli generali di prevenzione dei brick vedi [questa](bricks#brick-prevention) pagina.
++ Le differenze tra Wii e Wii mini sono abbastanza significative. Questo significa che in alcuni casi, qualcosa completamente innocuo su un Wii potrebbe causare un [brick grave](bricks#wi-fi-brick) su un Wii mini. Procedi con cautela se pensi di volerne modificare uno!
++ Sii estremamente prudente nel modificare un [Wii Coreano](bricks#korean-kiierror-003-brick).
 
-### Ready?
+### Pronto?
 
-The guide has nine sections in total. These are listed below:
+Questa guida ha nove sezioni in totale. Sono elencate di seguito:
 
-1. Choosing and using an exploit (REQUIRED)
-1. Installing the Homebrew Channel and BootMii (REQUIRED)
-1. Making a NAND backup with BootMii (REQUIRED)
-1. Installing Priiloader (REQUIRED)
-1. Installing the Open Shop Channel (RECOMMENDED)
-1. Installing cIOS (RECOMMENDED)
-1. Discovering Recommended Homebrew (RECOMMENDED)
-1. Regaining WiiConnect24 Functionality (OPTIONAL)
-1. Regaining Nintendo Wi-Fi Connection Functionality (OPTIONAL)
+1. Scegliere e usare un exploit (OBBLIGATORIO)
+1. Installare l'Hombrew Channel e BootMii (OBBLIGATORIO)
+1. Creare un backup della NAND con BootMii (OBBLIGATORIO)
+1. Installare Priiloader (OBBLIGATORIO)
+1. Installare l'Open Shop Channel (CONSIGLIATO)
+1. Installare i cIOS (CONSIGLIATO)
+1. Scoprire l'Homebrew Channel (CONSIGLIATO)
+1. Ripristinare la funzionalità di WiiConnect24 (OPZIONALE)
+1. Ripristinare la funzionalità di Nintendo Wi-Fi Connection (OPZIONALE)
 
-Continue to [Get Started](get-started)
+Prosegui con [Cominiciamo!](get-started)
 {: .notice--info}
