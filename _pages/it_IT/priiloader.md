@@ -12,7 +12,7 @@ For more information about Priiloader and its options, you can see the [Priiload
 
 ### Requisiti
 
-* An SD card or USB drive
+* Una scheda SD o dispositivo USB
 * [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
 * [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
@@ -38,11 +38,11 @@ If you are using a vWii:
 #### Sezione I - Preparazione
 
 1. Spegni la console.
-1. Insert your SD card or USB drive into your computer.
+1. Inserisci la scheda SD o dispositivo USB nel tuo computer.
 1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
 1. (vWii only) Copy the `wiiu` folder from the PriiloaderWiiUForwarder `.zip` to the root of your SD card.
-1. Reinsert your SD card or USB drive into your console.
+1. Reinserisci la tua scheda SD o dispositivo USB nella tua console.
 
 #### Section II - Installing Priiloader
 
