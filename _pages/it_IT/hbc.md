@@ -20,7 +20,7 @@ If you do not have an SD card, you cannot install nor use BootMii, regardless of
     ![](/images/hackmii/scam.png)
 
 1. Wait 30 seconds for the text "Press 1 to continue" to appear, then press 1.
-1. Select `Continue`.
+1. Seleziona `Continue`.
 
     ![](/images/hackmii/test_results.png)
 
