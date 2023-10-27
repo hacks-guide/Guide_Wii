@@ -70,7 +70,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <38>
         Select cIOS slot <248>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
         ![](/images/cios/d2x_v11_248.png)
@@ -81,7 +81,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <56>
         Select cIOS slot <249>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
         ![](/images/cios/d2x_v11_249.png)
@@ -92,7 +92,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <57>
         Select cIOS slot <250>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
         ![](/images/cios/d2x_v11_250.png)
@@ -103,7 +103,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <58>
         Select cIOS slot <251>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
         ![](/images/cios/d2x_v11_251.png)
