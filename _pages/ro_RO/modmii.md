@@ -56,7 +56,7 @@ Acest program necesită un card SD.
 
 Acest program îți permite să te bucuri de multe dintre beneficiile unui Wii modificat fără să instalezi nici o modificare permanentă pe consola ta Wii. Îți va permite să rulezi un exploit care va porni un NAND emulat din stocarea externă în loc să folosești NAND-ul intern al consolei tale Wii.
 
-Poți de asemenea să creezi un backup NAND fără să îți modifici consola Wii deloc prin navigarea la dosarul "Support" al ModMii-ului și lansarea fișierului `Casper2BootMii.bat`. <br> Acesta va salva niște fișiere într-un dosar numit `COPY_TO_SD`; copiază fișierele din înăuntrul acesteia în cardul tău SD și [rulează un exploit](get-started).
+Poți de asemenea să creezi un backup NAND fără să îți modifici consola Wii deloc prin navigarea la dosarul "Support" al ModMii-ului și lansarea fișierului `Casper2BootMii.bat`. <br> It will save some files to a folder named `COPY_TO_SD`; copy the files inside it to your SD card and launch an exploit like [Wilbrand](wilbrand).
 
 Când urmărești una dintre ghidurile de exploit-uri de mai sus, evită să înlocuiești fișierul `boot.elf`.
 {: .notice--warning}
