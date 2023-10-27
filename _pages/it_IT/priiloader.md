@@ -8,7 +8,9 @@ title: "Priiloader"
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
+
 For more information about Priiloader and its options, you can see the [Priiloader Usage](priiloader-usage) page.
+{: .notice--info}
 
 ### Requisiti
 
