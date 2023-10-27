@@ -56,7 +56,7 @@ Questo wizard richiede una scheda SD.
 
 Questo wizard ti permette di goderti i molti benefici di un Wii modificato senza dover installare delle modifiche permanenti al tuo Wii. Ti permette di lanciare un exploit per avviare la console da una NAND emulata da una memoria esterna, invece che usare la NAND della memoria interna del Wii.
 
-Puoi anche fare un backup della NAND senza modificare affatto la tua console navigando nella cartella "Support" di ModMii e lanciando `Casper2BootMii.bat`. <br> Salverà alcuni file in una cartella chiamata `COPY_TO_SD`; copia i file nella tua scheda SD e [lancia un exploit](get-started).
+Puoi anche fare un backup della NAND senza modificare affatto la tua console navigando nella cartella "Support" di ModMii e lanciando `Casper2BootMii.bat`. <br> It will save some files to a folder named `COPY_TO_SD`; copy the files inside it to your SD card and launch an exploit like [Wilbrand](wilbrand).
 
 Quando segui uno degli exploit elencati sopra, non rimpiazzare il file `boot.elf`.
 {: .notice--warning}
