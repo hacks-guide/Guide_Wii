@@ -68,7 +68,7 @@ Per ogni cIOS che vuoi provare a installare, ti verrà prima mostrata una grigli
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <38>
         Select cIOS slot <248>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
         ![](/images/cios/d2x_v11_248.png)
@@ -79,7 +79,7 @@ Per ogni cIOS che vuoi provare a installare, ti verrà prima mostrata una grigli
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <56>
         Select cIOS slot <249>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
         ![](/images/cios/d2x_v11_249.png)
@@ -90,7 +90,7 @@ Per ogni cIOS che vuoi provare a installare, ti verrà prima mostrata una grigli
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <57>
         Select cIOS slot <250>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
         ![](/images/cios/d2x_v11_250.png)
@@ -101,7 +101,7 @@ Per ogni cIOS che vuoi provare a installare, ti verrà prima mostrata una grigli
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <58>
         Select cIOS slot <251>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
         ![](/images/cios/d2x_v11_251.png)
