@@ -52,69 +52,69 @@ Se stai eseguendo il dump di uno dei 13 giochi in [questa lista](https://wiki.do
 
 1. Procedi con [unire i file PART](dump-games#joining-part-files-on-a-fat32-device).
 
-### Dumping a Disc over LAN (Wii DVD Dumper)
+### Dump di un disco su LAN (Wii DVD Dumper)
 
 #### Requisiti
 
-+ A Windows/macOS/Linux PC with an internet connection
++ Un PC Windows/macOS/Linux con una connessione a internet
 + [DVD Dump Tool](/assets/files/DVDDumpTool.zip)
 
 #### Istruzioni
 
-Download speeds will be slow due to limitations in the network hardware of the Wii, but it remains a valid solution if you are willing to be patient.
+Le velocità di download saranno lente a causa delle limitazioni hardware della rete del Wii, ma rimane una soluzione valida se hai pazienza.
 {: .notice--info}
 
-Your Wii and your computer must be connected to the same local network.
+Il tuo Wii e il tuo computer devono essere connessi alla stessa rete locale.
 {: .notice--warning}
 
-1. Copy the `DVDDumpTool` folder from the DVDDumpTool `.zip` to the root of your SD card or USB drive.
+1. Copia la cartella `DVDDumpTool` dal `.zip` di DVDDumpTool al root della tua scheda SD o unità USB.
 1. Reinserisci la tua scheda SD o dispositivo USB nella tua console.
 1. Accendi la console.
 1. Avvia l'Homebrew Channel.
-1. Launch DVD Dump Tool from the list of homebrew.
-1. Press right on the D-pad, then press A.
-1. Choose the disc that you want to copy (The options are: `GameCube Disc`, `Wii Single-Layer Disc`, `Wii Dual-Layer Disc`) and press "A"
+1. Avvia DVD Dump Tool dalla lista degli homebrew.
+1. Premi destra sul D-pad, poi premi A.
+1. Scegli il disco di cui vuoi eseguire il dump (Le opzioni sono: `GameCube Disc`, `Wii Single-Layer Disc`, `Wii Dual-Layer Disc`) e premi "A"
 
     ![](/images/homebrew/DumpDiscs_LAN/2.png)
-1. Insert the game disc into your Wii.
-    + If it is already inserted, eject and reinsert the disc.
+1. Inserisci il disco di gioco nel tuo Wii.
+    + Se è già inserito, espelli il disco e reinserisci il disco.
 
     ![](/images/homebrew/DumpDiscs_LAN/insertthedisc.jpg)
-1. Select the proper disc type.
+1. Seleziona il tipo di disco appropriato.
 
     ![](/images/homebrew/DumpDiscs_LAN/3.png)
-1. Press any button to begin the dumping process.
+1. Premi qualsiasi pulsante per iniziare il processo di dump.
 
     ![](/images/homebrew/DumpDiscs_LAN/4.png)
-1. Remember or write down your Wii's URL (IP address).
-1. On your computer, open the browser, go to your address bar and enter the Wii URL.
+1. Ricorda di segnarti l'URL (indirizzo IP) del tuo Wii.
+1. Sul tuo computer, apri il browser, vai sulla barra degli indirizzi e inserisci l'URL del tuo Wii.
 
     ![](/images/homebrew/DumpDiscs_LAN/5.png)
-1. Click on `Click here to download XXXX.iso`.
+1. Clicca su `Click here to download XXXX.iso`.
 1. Procedi con [unire i file PART](dump-games#joining-part-files-on-a-fat32-device).
 
-### Joining PART files on a FAT32 device
+### Unire i file PART su un dispositivo FAT32
 
-If you dumped the disc (regardless if it was to a PC or Wii) on a FAT32 formatted device, you should have gotten at least two files that end with `.partX.iso`. They need to be joined.
+Se hai eseguito il dump del disco (indipendentemente se era su PC o Wii) su un dispositivo formattato in FAT32, dovresti avere almeno due file che finiscono con `.partX.iso`. Devono essere uniti.
 {: .notice--info}
 
 #### Windows
 
-1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
-1. In this folder, click the address bar in Windows Explorer and copy its PATH.
-1. Open a PowerShell or Windows Terminal window.
-1. Run `cd [PATH]`.
-1. Type `copy /b *.part?.iso game.iso` and press enter.
-1. Wait until the merging process finishes.
-    + It should end with the terminal outputting `1 file(s) copied`.
+1. Copia i file che condividono lo stesso nome e finiscono con `.partX.iso` in una cartella vuota sul tuo computer.
+1. In questa cartella, clicca sulla barra degli indirizzi in Windows Explorer e copia il suo PATH.
+1. Apri una finestra di Powershell o del Terminale di Windows.
+1. Esegui `cd [PATH]`.
+1. Esegui `copy /b *.part?.iso game.iso`.
+1. Aspetta fino a quando il processo non si conclude.
+    + Dovrebbe finire con l'output del terminale `1 file(s) copied`.
 
 #### macOS/Linux
 
-1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
-1. Open up a Terminal.
-1. Run `cd [PATH]`, replacing [PATH] with the folder path to your `.partX.iso` files.
-1. Use the following command as is: `cat \*.part?.iso > game.iso`.
-1. Wait until the merging process finishes.
+1. Copia i file che condividono lo stesso nome e finiscono con `.partX.iso` in una cartella vuota sul tuo computer.
+1. Apri il Terminale.
+1. Esegui `cd [PATH]`, rimpiazzando [PATH] con la `.partX.iso`.
+1. Esegui il seguente comando così com'è: `cat \*.part?.iso > game.iso`.
+1. Aspetta fino a quando il processo non si conclude.
 
-To organize the games on your drive properly, you can use [Wii Backup Manager](wiibackupmanager).
+Per organizzare i giochi sul tuo dispositivo correttamente, puoi usare [Wii Backup Manager](wiibackupmanager).
 {: .notice--info}
