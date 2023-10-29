@@ -54,17 +54,17 @@ Negli exploit [BlueBomb](bluebomb), [str2hax](str2hax), o [FlashHax](flashhax), 
 Il File System consigliato per le schede SD è il FAT32, vedi [questa guida](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) per istruzioni su come formattare.<br> Per i dispositivi USB, il FAT32 è sempre consigliato, anche se gli utenti dovrebbero conoscere le limitazioni del FAT32 che permette dispositivi solo fino a 2TB di spazio. WBFS era un File System utilizzato precedentemente per i backup dei giochi Wii - oggi, è obsoleto e non dovrebbe essere usato.
 {: .notice--info}
 
-For stock Wii Menu versions lower than 4.0, a limitation in the Wii System Software prevents SD cards bigger than 2GB from being used.<br> For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.<br> Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
+Per le versioni stock del Menu Wii inferiori a 4.0, una limitazione nel Software di Sistema della console impedisce alle schede SD più grandi di 2GB di essere usate.<br> Per le versioni stock del Menu Wii 4.0 o superiori, questa limitazione è rimossa e le schede SD di varie dimensioni possono essere usate.<br> Le schede SD di 32GB o inferiori hanno le probabilità più alte più funzionare su ogni Wii, ma è stato riportato il funzionamento di schede SD fino a 256GB.
 {: .notice--warning}
 
-For USB devices, flash drives have a high rate of not working on Wii consoles. Instead, it is recommended to use a USB hard drive or solid state drive.
+Per i dispositivi USB, le unità flash hanno ampie probabilità di non funzionare su console Wii. È consigliato, invece, di usare un disco rigido USB o un'unità a stato solido.
 {: .notice--warning}
 
-### General Storage Guidelines
+### Linee Guida Generali Di Storage
 
-When considering buying or using an SD card or USB device, it is worth considering the things that you will be using either storage medium for. Different uses can take up varying amounts of space, some common examples of which are shown below:
+Quando si considera comprare o usare una scheda SD o unità USB, ha senso tenere in considerazione le cose per cui si sta usando un tipo di memoria rispetto a un'altra. Utilizzi differenti occupane diverse quantità di spazio, alcuni esempi comuni sono mostrati di seguito:
 
-+ Wii Backups: The largest Wii games (dual-layer DVD) are up to sizes of 9GB, more normal games are closer to sizes of 4GB or lower. The average user for a Wii backup device would probably want 128GB or more of space.
++ Backup Wii: I giochi Wii più larghi (DVD a doppio strato) hanno dimensioni fino a 9GB, i giochi normali sono più vicini a 4GB o inferiori. The average user for a Wii backup device would probably want 128GB or more of space.
 + GameCube Backups: The largest GameCube games reach sizes of up to 1.3GB. ISO sizes are normally this size regardless of the game, but can be considerably lower if NKIT is used as a format instead. The average user for a GameCube backup device would probably want 64GB or more of space.
 + General Emulation: There are a wide variety of emulators available on the Wii. Because the size of different game ROMs differ dramatically, the average user for an emulation drive would probably want 32GB or more of space.
 + General Homebrew: For homebrew, the average user would want 2GB or more of space.
