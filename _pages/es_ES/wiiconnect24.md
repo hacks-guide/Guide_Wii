@@ -19,7 +19,7 @@ Both services listed below are compatible with one another and can be loaded on 
 | ----------------------- | ------- | ------------ |
 | Forecast Channel        | ✅       | ✅            |
 | News Channel            | ⚠️      | ✅            |
-| Wii Mail                | ⚠️      | ✅            |
+| Wii Mail                | ✅       | ✅            |
 | Everybody Votes Channel | ✅       | ✅            |
 | Nintendo Channel        | ✅       | ✅            |
 | Check Mii Out Channel   | ⚠️      | ✅            |
