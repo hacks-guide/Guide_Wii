@@ -19,7 +19,7 @@ Les deux services ci-dessous sont compatibles l'un avec l'autre et peuvent être
 | ----------------------- | ------- | ------------ |
 | Chaîne météo            | ✅       | ✅            |
 | Chaîne infos            | ⚠️      | ✅            |
-| Bureau Wii              | ⚠️      | ✅            |
+| Bureau Wii              | ✅       | ✅            |
 | Chaîne votes            | ✅       | ✅            |
 | Chaîne Nintendo         | ✅       | ✅            |
 | Chaîne concours Mii     | ⚠️      | ✅            |
