@@ -41,7 +41,7 @@ Service support status can be found [here](https://rc24.xyz/stats/).<br> RiiConn
 ### Updating RTC Clock
 If you choose to install either of these services on your Wii, it is advised to synchronize its external clock in order to prevent various issues (such as inability to use said services) that may arise otherwise. The steps to do so can be found below:
 
-#### What you need
+#### Di cosa hai bisogno
 + A working Internet connection on your Wii
 + The Homebrew Channel
 + Una scheda SD o dispositivo USB
