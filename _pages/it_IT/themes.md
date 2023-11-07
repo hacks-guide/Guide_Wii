@@ -32,8 +32,8 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 #### Requisiti
 
-* A modded Wii
-* An SD card or USB device
+* Una Wii modificata
+* Una scheda SD o dispositivo USB
 * A Windows/macOS/Linux PC with an Internet connection
 * [MyMenuifyMod](https://oscwii.org/library/app/mymenuifymod)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
@@ -77,8 +77,8 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 #### Requisiti
 
-* A modded Wii
-* An SD card or USB device
+* Una Wii modificata
+* Una scheda SD o dispositivo USB
 * [WiiFlow Lite](wii-loaders#wiiflow-lite)
 * A Linux/macOS/Windows PC with an Internet connection
 * [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
@@ -94,8 +94,8 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 #### Requisiti
 
-* A modded Wii
-* An SD card or USB device
+* Una Wii modificata
+* Una scheda SD o dispositivo USB
 * [USB Loader GX](wii-loaders#usb-loader-gx)
 * A Linux/macOS/Windows PC with an Internet connection
 * A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
@@ -112,8 +112,8 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 #### Requisiti
 
-* A modded Wii
-* An SD card or USB device
+* Una Wii modificata
+* Una scheda SD o dispositivo USB
 * A Linux/macOS/Windows PC with an internet connection
 * A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
 
