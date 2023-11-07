@@ -4,70 +4,70 @@ title: "Nintendont"
 
 {% include toc title="Table of Contents" %}
 
-Nintendont is a Wii-mode homebrew application that can be used to play GameCube games, as well as Triforce arcade dumps. Nintendont is an interesting app in that it is like a hybrid between an emulator and a virtual machine - while still running GameCube games near exactly at native quality and performance. Further info can be read [here](https://gbatemp.net/threads/nintendont.349258/).
+Nintendont è un'applicazione homebrew in modalità Wii che ti consente di giocare a giochi GameCube e dump di arcade Triforce. Nintendont è un'app interessante in quanto è un ibrido tra un emulatore e una macchina virtuale - mentre esegue comunque i giochi GameCube con prestazioni e qualità quasi native. Ulteriori informazioni possono essere trovate [qui](https://gbatemp.net/threads/nintendont.349258/).
 
-To play games, you are advised to use a large SD card or an external hard drive, flash drives are very sporadic in functionality. See [storage FAQ](faq).
+Per giocare ai giochi, si consiglia di utilizzare una scheda SD di grandi dimensioni o un hard drive esterno, poiché le unità flash sono molto sporadiche in funzionalità. Vedi il [FAQ storage](faq).
 {: .notice--info}
 
-Make sure your storage device is formatted as FAT32. Do not format it to other file systems like NTFS, exFAT, or WBFS.
+Assicurati che l'unità di archiviazione sia formattata come FAT32. Non formattarlo ad altri file system come NTFS, exFAT o WBFS.
 {: .notice--info}
 
 ### Requisiti
 
-* A modded Wii
-* An SD card or USB device
+* Una Wii modificata
+* Una scheda SD o dispositivo USB
 * [Nintendont](https://oscwii.org/library/app/Nintendont)
 
-### Installation
-1. Download Nintendont and extract it to the root of your SD card or USB drive.
-1. Insert your SD card or USB device into your Wii, and launch Nintendont from the Homebrew Channel.
+### Installazione
+1. Scarica Nintendont ed estrailo nella root della tua scheda SD o dispositivo USB.
+1. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia Nintendont dall'Homebrew Channel.
 
-### Quick Start Guide
+### Guida rapida
 
-#### Key Features
+#### Funzioni principali
 
-+ You can use various input devices to play GameCube games. These include GameCube controllers (even via a USB adapter), Wiimotes, Classic Controllers, the Konga, HID USB controllers, Bluetooth controllers, and potentially more.
-+ Nintendont has support for virtual memory cards that are saved to an external storage device, from sizes of 51 blocks up to 1019 blocks. Despite this, the recommended max size is 251 blocks per virtual card for maximum compatibility.
-+ You can use a fan-made patch to enable online play in some games.
-+ Nintendont can be leveraged in either [WiiFlow Lite](wii-loaders#wiiflow-lite) or [USB Loader GX](wii-loaders#usb-loader-gx) for the loading of GameCube games.
++ È possibile utilizzare vari dispositivi di input per giocare ai giochi GameCube. Questi includono i controller GameCube (anche tramite un adattatore USB), telecomandi Wii, Controller Tradizionali, i Konga, controller USB HID, controller Bluetooth e potenzialmente altri ancora.
++ Nintendont supporta memory card virtuali che vengono salvate nell'unità di archiviazione esterna, dalle dimensioni di 51 blocchi fino a 1019 blocchi. Nonostante ciò, la dimensione massima consigliata è di 251 blocchi per memory card per garantire la massima compatibilità.
++ Puoi usare una patch creata dalla community per attivare il gioco online in alcuni giochi.
++ Nintendont può essere usato su [WiiFlow Lite](wii-loaders#wiiflow-lite) o [USB Loader GX](wii-loaders#usb-loader-gx) per il caricamento dei giochi GameCube.
 
-#### User Interface
+#### Interfaccia utente
 
 ![](/images/usb-loaders/nintendont-ui.png)
 
-Nintendont uses a user interface that is mainly controllable and navigable using a gamepad.
+Nintendont utilizza un'interfaccia utente che è principalmente controllabile e navigabile utilizzando un controller.
 
-#### Properly Launching Games
+#### Avvio dei giochi
 
-Games in Nintendont have to be launched from an external device with a specific folder structure, with the usage of a game ID. Game IDs can be found on [GameTDB](https://www.gametdb.com).<br> The expected structure for single disc games is as follows:<br> `device:/games/(game name) [game ID]/game.iso`
+I giochi in Nintendont devono essere avviati da un dispositivo esterno con una specifica struttura di cartelle, utilizzando gli ID di gioco. Gli ID di gioco possono essere trovati su [GameTDB](https://www.gametdb.com).<br> La struttura prevista per giochi su disco singolo è la seguente:<br> `dispositivo:/games/(nome gioco) [ID gioco]/game.iso`
 
-The expected structure for multi disc games is as follows:<br> `device:/games/(game name) [game ID]/game.iso`<br> `device:/games/(game name) [game ID]/disc2.iso` (so on and so forth)
+La struttura prevista per giochi su più dischi è la seguente:<br> `dispositivo:/games/(nome gioco) [ID gioco]/game.iso`<br> `dispositivo:/games/(nome gioco) [ID gioco]/disc2.iso` (e così via)
 
-Here is an example using The Legend of Zelda: The Wind Waker on a USB hard drive:<br> `USB:/games/The Legend of Zelda: The Wind Waker [GZLE01]/game.iso`
+Ecco un esempio utilizzando The Legend of Zelda: The Wind Waker su un hard drive USB:<br> `USB:/games/The Legend of Zelda: The Wind Waker [GZLE01]/game.iso`
 
-#### BIOS Setup
+#### Configurazione BIOS
 
-You can use an original GameCube BIOS in Nintendont if you have legally obtained one.
+Puoi usare un BIOS GameCube originale su Nintendont se ne hai ottenuto uno legalmente.
 
-1. Rename the BIOS file `iplusa.bin`/`ipljap.bin`/`iplpal.bin` based on its region.
-1. Copy it to the root of the storage device where Nintendont is installed on.
-1. Go into Nintendont settings and verify that `Load IPL` is turned ON.
+1. Rinomina il file BIOS a `iplusa.bin`/`ipljap.bin`/`iplpal.bin` in base alla sua regione.
+1. Copialo nella root del dispositivo di archiviazione su cui è installato Nintendont.
+1. Vai nelle impostazioni di Nintendont e verifica che `Load IPL` sia impostato su ON.
 
-#### Using a HID USB controller with Nintendont
+#### Utilizzare un controller HID USB con Nintendont
 
-By default, Nintendont selects a controller configuration from an internal list of already mapped controllers. If yours does not automatically work, make sure to check the supported controller list in the article at the top of the page. If you still want to check anyway, you can use [HIDTest](https://oscwii.org/library/app/HIDTest) to determine whether or not your controller will be detected and work with Nintendont.
+Di predefinito, Nintendont seleziona una configurazione di controller da un elenco interno di controller già configurati. Se il tuo dovesse funzionare in automatico, assicurati di controllare l'elenco dei controller supportati nell'articolo in cima alla pagina. Se vuoi comunque controllare, puoi usare [HIDTest](https://oscwii.org/library/app/HIDTest) per controllare se il tuo controller verrà rilevato e funzionerà con Nintendont, o meno.
 
-#### Button combinations for Nintendont in-game
+#### Combinazioni di pulsanti per Nintendont durante il gioco
 
-Restart: Resets the game and returns to game's title screen.<br> Shutdown: Exits nintendont and returns to the loader.<br>
+Riavvia: Riavvia il gioco e torna alla schermata del titolo del gioco.<br> Spegni: Chiude Nintendont e ritorna al loader.<br>
 
-Some games may have native button combinations to reset.
+Alcuni giochi potrebbero avere combinazioni di pulsanti native per il riavvio.
 
-**GameCube Controller:**<br> Restart: R+Z+Start<br> Shutdown: R+Z+B+Down (D-pad)
+**Controller GameCube:**<br> Riavvia: R+Z+Start<br> Spegni: R+Z+B+Giù (croce direzionale)
 
-**Wiimote + Nunchuck:**<br> Shutdown: HOME button on the Wiimote
+**Telecomando Wii + Nunchuck:**<br> Spegni: Pulsante HOME sul telecomando Wii
 
-**HID-USB controller or adapter:**<br> You can define the Shutdown button's combination yourself.<br> The Power button is defined in the controller.ini or in the correct controllers/PID_VID.ini file used by your gamepad.<br> Most commonly used combo with default HID settings:<br> Shutdown: L+R+Z+Start
+**Controller USB-HID o adattatore:**<br> Puoi definire i pulsanti per il spegnimento da te.<br> Il pulsante Power è definito nel file controller.ini o nel file controllers/PID_VID.ini corretto utilizzato per il tuo controller.<br> La combinazione più comune con le impostazioni HID predefinite:<br> Spegni: L+R+Z+Start
 
 [Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
 {: .notice--info}
