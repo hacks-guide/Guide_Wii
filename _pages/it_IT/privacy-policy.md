@@ -14,16 +14,16 @@ Questi siti web potrebbero raccogliere dati su di te, utilizzare cookie, incorpo
 
 ### Analytics
 
-This site uses Google Analytics to monitor and analyze traffic. This site is hosted by Github Pages, which may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with this site. For more information about Github Pages as it relates to user privacy, see the [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement).
+Questo sito usa Google Analytics per monitorare e analizzare il traffico. Questo sito è ospitato da GitHub Pages, che potrebbe raccogliere dati su di te, utilizzare i cookie, incorporare tracking di terze parti e monitorare le tue interazioni con questo sito. Per ulteriori informazioni sulle pagine di Github per quanto riguarda la privacy degli utenti, guarda l'[informativa sulla privacy di GitHub](https://help.github.com/en/articles/github-privacy-statement).
 
-### Information Collected
+### Dati raccolti
 
-This site does not collect personal information. This site may collect usage information in order to analyze interest in the content and to provide advertisers with information on an aggregate basis. No personally identifiable information is shared with third-party advertising companies.
+Questo sito non raccoglie informazioni personali. Questo sito può raccogliere le informazioni sull'utilizzno al fine di analizzare l'interesse per il contenuto e di fornire agli inserzionisti informazioni su base aggregata. Nessuna informazione personalmente identificabile è condivisa con società pubblicitarie di terze parti.
 
-### Third-Party Websites
+### Siti web di terze parti
 
-This site may link to other sites for users to use or reference. This site is not responsible for the privacy policies of other sites. Users should be aware that the privacy policies of other websites may differ from this one.
+Questo sito può includere link ad altri siti purché gli utenti possano utilizzarli o prenderne riferimento. Questo sito non è responsabile per le politiche sulla privacy di altri siti. Gli utenti devo essere consapevoli che le informative sulla privacy degli altri siti possono differire da questo.
 
-### Changes to Privacy Policy
+### Cambiamenti all'informativa sulla privacy
 
-The contents of this Privacy Policy may be altered at any time and for any reason.
+I contenuti della presente informativa sulla privacy possono essere modificati in qualsiasi momento e per qualsiasi motivo.
