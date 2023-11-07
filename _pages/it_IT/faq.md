@@ -1,5 +1,5 @@
 ---
-title: "FAQ and Troubleshooting"
+title: "FAQ e Risoluzione problemi"
 ---
 
 ## FAQ Principali
