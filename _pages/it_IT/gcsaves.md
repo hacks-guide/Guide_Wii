@@ -29,7 +29,7 @@ Se stai cercando gli exploit per i dati di salvataggio per entrare su [Swiss](ht
 
 1. Estrai GCMM e inseriscilo nella cartella `apps` della tua scheda SD.
 1. Sposta il file `.gci` in una cartella chiamata `MCBACKUP` nella root della scheda SD o dell'unità USB.
-1. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia GCMM dal Canale Homebrew.
+1. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia GCMM dall'Homebrew Channel.
 
 #### Effettuare il ripristino
 
@@ -66,7 +66,7 @@ Se stai cercando gli exploit per i dati di salvataggio per entrare su [Swiss](ht
 
 1. Estrai GCMM e inseriscilo nella cartella `apps` della tua scheda SD.
 1. Sposta il file `.gci` in una cartella chiamata `MCBACKUP` nella root della scheda SD o dell'unità USB.
-1. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia GCMM dal Canale Homebrew.
+1. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia GCMM dall'Homebrew Channel.
 
 #### Effettuare il backup
 
@@ -102,7 +102,7 @@ Se stai cercando gli exploit per i dati di salvataggio per entrare su [Swiss](ht
 #### Download
 
 1. Estrai GCMM e inseriscilo nella cartella `apps` della tua scheda SD.
-1. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia GCMM dal Canale Homebrew.
+1. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia GCMM dall'Homebrew Channel.
 
 #### Dump del .raw
 
