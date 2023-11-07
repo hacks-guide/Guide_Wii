@@ -30,12 +30,12 @@ Se non ricevi aggiornamenti dopo alcuni giorni, potrebbe essere necessario iscri
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <rss>
-        <feed name="Example-Feed"><![CDATA[http://example.com/rss-feed]]></feed>
-        <feed name="One more Example-Feed!"><![CDATA[http://example.com/another_rss-feed]]></feed>
+        <feed name="Feed di esempio"><![CDATA[http://example.com/rss-feed]]></feed>
+        <feed name="Un altro feed di esempio!"><![CDATA[http://example.com/another_rss-feed]]></feed>
     </rss>
     ```
 
-    Replace the "name" portion with the title you want to put for the feed. Try to limit its length where possible. Then, replace the link portion with the link to the RSS feed. You can put as many feeds as you want. Don't delete the "CDATA" part.
+    Sostituisci la porzione "name" con il titolo desiderato da inserire per il feed. Cerca di limitarne la lunghezza se puoi. Quindi, sostituisci la porzione del link con il link del feel RSS. Puoi inserire tanti feed quanto ne vuoi. Non eliminare la porzione "CDATA".
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -45,24 +45,24 @@ Se non ricevi aggiornamenti dopo alcuni giorni, potrebbe essere necessario iscri
     </rss>
     ```
 
-    Save the feed you made to the root of your SD Card.
+    Sala il feed che hai creato nella root della tua scheda SD.
 
-1. Launch RSSMii from the Homebrew Channel.
-1. Press A to confirm you want to subscribe to the feeds. Ignore the error about ES_GetTitleID, everything is fine.
-1. Once everything is done, press HOME to go back to the Homebrew Channel. You should soon get RSS feed updates on your Wii, enjoy!
+1. Avvia RSSMii dal Canale Homebrew.
+1. Premi A per confermare che vuoi iscriverti ai feed. Ignora l'errore riguardante ES_GetTitleID, è tutto a posto.
+1. Una volta terminato, premi HOME per tornare al Canale Homebrew. Presto dovresti ottenere gli aggiornamenti dei feed RSS sul tuo Wii, divertiti!
 
-### Removal
+### Rimozione
 
-#### What you need
+#### Di cosa hai bisogno
 
 * Una scheda SD
 * [RSSMii Remover](https://oscwii.org/library/app/rssmii-remover)
 
 #### Istruzioni
 
-1. Extract RSSMii Remover and put it in the `apps` folder on your SD card.
-1. Delete the `feeds.xml` file on the root of your SD card.
-1. Launch RSSMii Remover from the Homebrew Channel. It will remove your subscriptions to the RSS feeds.
+1. Estrai RSSMii Remover e inseriscilo nella cartella `apps` della tua scheda SD.
+1. Elimina il file `feeds.xml` dalla root della tua scheda SD.
+1. Avvia RSSMii Remover dal Canale Homebrew. Rimuoverà le tue iscrizioni ai feed RSS.
 
 [Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
 {: .notice--info}
