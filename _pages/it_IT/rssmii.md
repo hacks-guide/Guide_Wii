@@ -1,31 +1,31 @@
 ---
-title: "Installing RSSMii"
+title: "Installare RSSMii"
 ---
 
 {% include toc title="Table of Contents" %}
 
-This guide provides instructions on installing RSSMii, a homebrew app that parses RSS feeds from your SD card and sends them to your Wii Menu.
+Questa guida fornisce istruzioni per l'installazione di RSSMii, un'app homebrew che analizza i feed RSS dalla tua scheda SD e li invia al tuo Menu Wii.
 
-Due to the nature of RSS feeds and the large amount of mail they can generate, this app has a larger than zero chance of [bricking](bricks#mail-brick) your Wii. Consider using News Channel from a WiiConnect24 revival provider instead, and request an addition to their service should you find out that your intended RSS feed isn't being provided. If you decide to use RSSMii anyway, limit the number of feeds you subscribe to.
+A causa della natura dei feed RSS e della grande quantità di posta che possono generare, è più che probabile che questa app possa causare un [brick](bricks#mail-brick) del tuo Wii. Considera al suo posto di usare il Canale Notizie da un provider di revival di WiiConnect24 e richiedi un'aggiunta al loro servizio in caso il tuo feed RSS non dovesse essere presente. Se tu dovessi comunque decidere di usare RSSMii, limita il numero di feed a cui ti iscrivi.
 {: .notice--danger}
 
-If you're not receiving updates after a few days, you might need to subscribe to the RSS feeds again. Launch RSSMii from the Homebrew Channel again and it should create new subscriptions.
+Se non ricevi aggiornamenti dopo alcuni giorni, potrebbe essere necessario iscriversi nuovamente ai feed RSS. Avvia RSSMii dal Canale Homebrew di nuovo e poi dovrebbe creare nuove iscrizioni.
 {: .notice--info}
 
 ### Requisiti
 
-* An SD card
+* Una scheda SD
 * [RSSMii](https://oscwii.org/library/app/rssmii)
 
 ### Istruzioni
-#### Section I - Downloading/Installing
+#### Sezione I - Download/Installazione
 
-1. Extract RSSMii and put it in the `apps` folder on your SD card.
-1. Create a `feeds.xml` on the root of the SD card so the app can parse your feeds.
+1. Estrai RSSMii e inseriscilo nella cartella `apps` della tua scheda SD.
+1. Crea un file `feeds.xml` nella root della scheda SD in modo che l'app possa analizzare i tuoi feed.
 
-+ If you're using Windows, you can use [RSS Feeds Creator](https://github.com/RiiConnect24/rssmii/releases/download/v1.4.1/RSSFeedsCreator.bat). It will automatically create a `feeds.xml` file and will copy it to your SD card.
++ Se stai usando Windows, puoi usare [RSS Feeds Creator](https://github.com/RiiConnect24/rssmii/releases/download/v1.4.1/RSSFeedsCreator.bat). Creerà automaticamente un file `feeds.xml` e lo copierà nella tua scheda SD.
 
-+ If you don't have a Windows computer, use this template to make the `feeds.xml`.
++ Se non hai un computer Windows, usa questo modello per creare il `feeds.xml`.
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -55,7 +55,7 @@ If you're not receiving updates after a few days, you might need to subscribe to
 
 #### What you need
 
-* An SD card
+* Una scheda SD
 * [RSSMii Remover](https://oscwii.org/library/app/rssmii-remover)
 
 #### Istruzioni
