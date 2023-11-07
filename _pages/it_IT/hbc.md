@@ -28,15 +28,15 @@ Se non hai una scheda SD, non potrai né installare né utilizzare BootMii, indi
 
     ![](/images/hackmii/hbc_install.png)
 
-1. Once it is completed, select `Continue`.
+1. Una volta completato, seleziona `Continue`.
 
     ![](/images/hackmii/hbc_install_ok.png)
 
-1. Select `Back`, then select `BootMii`.
+1. Seleziona `Back`, poi seleziona `BootMii`.
 
     ![](/images/hackmii/bootmii_install.png)
 
-1. Select `Install BootMii as IOS`.
+1. Seleziona `Install BootMii as IOS`.
 
     ![](/images/hackmii/bootmii_install1.png)
 
@@ -46,37 +46,37 @@ Se non hai una scheda SD, non potrai né installare né utilizzare BootMii, indi
 
     ![](/images/hackmii/bootmii_install_ok.png)
 
-1. Once it is completed, select `Continue`.
-1. If you have the option to `Install BootMii as boot2`, please do so as well.
+1. Una volta completato, seleziona `Continue`.
+1. Se hai l'opzione di installare `BootMii as boot2`, si prega di eseguire anche questa.
 
     ![](/images/hackmii/bootmii_install4.png)
 
-1. Select `Exit`.
-1. Your console will have booted into the Homebrew Channel.
+1. Seleziona `Exit`.
+1. La tua console avvierà l'Homebrew Channel.
 
-### Required Reading
+### Leggere attentamente
 
-You can now use the Homebrew Channel to launch homebrew apps, as well as BootMii for backing up and restoring your NAND if you were able to install it.
+Ora puoi usare l'Homebrew Channel per avviare app homebrew e BootMii per fare il backup e ripristino della tua NAND se sei stato in grado di installarlo.
 
-Note: When installing homebrew applications on your SD Card or USB drive, your folder structure should look like this:
+Nota: Quando installi applicazioni homebrew nella tua scheda SD o unità USB, la struttura delle cartelle dovrebbe essere così:
 
 ```
-💾 SD Card or USB Drive
+💾 Scheda SD o unità USB
 | ╸📁 apps
-    | ╸📁 AppName1
+    | ╸📁 NomeApp1
         | ╸📄 boot.dol
         | ╸📄 meta.xml
         | ╸📄 icon.png
-    | ╸📁 AppName2
+    | ╸📁 NomeApp2
         | ╸📄 boot.dol
         | ╸📄 meta.xml
         | ╸📄 icon.png
 ```
 
-`AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
+`NomeApp1` e `NomeApp2` sono nomi temporanei. Non mettere più cartelle `apps` nella cartella `apps` stessa.
 
-[Continue to making a NAND Backup using BootMii](bootmii)<br> Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
+[Continua su come fare un backup della NAND utilizzando BootMii](bootmii)<br> Fare un backup della NAND a questo punto è altamente consigliato, poiché ti consentono di recuperare da brick.
 {: .notice--info}
 
-Tip: If a Wii has BootMii installed as boot2, your disc drive will flash very briefly after the immediate flash that happens when you press the POWER Button.
+Suggerimento: Se un Wii ha BootMii installato come boot2, il lettore dei dischi lampeggia molto brevemente dopo il flash immediato quando premi il pulsante POWER.
 {: .notice--info}
