@@ -132,7 +132,7 @@ A method for Wiimmfi patching which runs on WiiWare games, but must be manually 
 
 #### Requisiti
 
-* An SD card
+* Una scheda SD
 * Your copy of your game (in WAD format)
 * [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases/latest) (cross platform)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
