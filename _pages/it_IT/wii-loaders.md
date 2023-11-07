@@ -9,7 +9,7 @@ This guide introduces Wii backup loaders. They can be primarily used to load gam
 In order for Wii loader to function properly, you must have the latest cIOS installed. Please check [this](cios) guide for instructions if you are on Wii, and [this](cios-mini) guide if you are on Wii mini.
 {: .notice--warning}
 
-To play games, you are advised to use a large SD card or an external hard drive, flash drives are not recommended and very sporadic in functionality. See [storage FAQ](faq).
+To play games, you are advised to use a large SD card or an external hard drive, flash drives are not recommended and very sporadic in functionality. Vedi il [FAQ storage](faq).
 {: .notice--info}
 
 The official Wii menu forwarder installer for Wiiflow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Run the app in the Homebrew Channel to install the forwarder. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme).
@@ -48,15 +48,15 @@ Below is a single WBFS example, and a split WBFS example.
 ### WiiFlow Lite
 
 #### Requisiti
-+ A modded Wii
++ Una Wii modificata
 + The latest version of [cIOS](cios)
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
-#### Installation
+#### Installazione
 
 1. Download WiiFlow and install it on your SD Card or USB device.
 
-#### Quick Start Guide
+#### Guida rapida
 
 ##### General
 
@@ -64,7 +64,7 @@ Below is a single WBFS example, and a split WBFS example.
 + You can toggle the current view in Wiiflow between plugins, games, homebrew, and Wii channels by clicking the button to the left of `Home`, on the bottom right.
 + You can download game covers by going to `Settings` > `Download Covers and Banners`.
 
-##### User Interface
+##### Interfaccia utente
 
 When WiiFlow detects games, they are displayed in flow view.<br> When you click on a game, you are given these options:
 + Star - Adds game to favorites.
@@ -94,16 +94,16 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 ### USB Loader GX
 
 #### Requisiti
-+ A modded Wii
++ Una Wii modificata
 + The latest version of [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
-#### Installation
+#### Installazione
 
 1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
 1. Download USB Loader GX and install it on your SD Card or USB device.
 
-#### Quick Start Guide
+#### Guida rapida
 
 ##### General
 
@@ -111,7 +111,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 + You can press the 1 Button on your Wii Remote to open up a dialog to download game covers and artwork from [GameTDB](https://gametdb.com/). It might take a while to download the game covers and artwork, depending the amount of games you have.
 + GameCube or "custom" Wii games may or may not have a custom banner that USB Loader GX uses. To enable this, find or write `CustomBannersURL = http://banner.rc24.xyz/` in `config/GXGlobal.cfg` on the drive you installed the app on. Then, you can use the `Custom Banner` download by pressing the 1 Button on your Wii Remote.
 
-##### User Interface
+##### Interfaccia utente
 
 On the middle of the bottom of the screen, you can see how much space is free on your USB drive and how many games you have.
 
