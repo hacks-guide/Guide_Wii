@@ -26,7 +26,7 @@ This guide will explain how to transfer save games between:
 
 <div id="wii-vwii-data" class="tabcontent via" markdown="1">
 
-##### What you need
+##### Di cosa hai bisogno
 
 + an SD card formatted to FAT32/MS-DOS
 
@@ -50,7 +50,7 @@ This guide will explain how to transfer save games between:
 Make sure you have installed [cIOS](cios) before following this!
 {: .notice--warning}
 
-##### What you need
+##### Di cosa hai bisogno
 
 * The Homebrew Channel on both systems
 * Una scheda SD o dispositivo USB
@@ -82,7 +82,7 @@ By importing your NAND backup into Dolphin, you effectively copy everything on y
 If you have already done this, consider the SaveGame Manager GX method to save time.
 {: .notice--info}
 
-##### What you need
+##### Di cosa hai bisogno
 
 * [a NAND backup](bootmii)
 * Latest beta version of Dolphin Emulator
@@ -98,7 +98,7 @@ If you have already done this, consider the SaveGame Manager GX method to save t
 Make sure you have installed [cIOS](cios) before following this!
 {: .notice--warning}
 
-##### What you need
+##### Di cosa hai bisogno
 
 * The Homebrew Channel on your Wii/vWii
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
@@ -144,7 +144,7 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 
 <div id="dol-wii-data" class="tabcontent via" markdown="1">
 
-##### What you need
+##### Di cosa hai bisogno
 
 * an SD card
 
@@ -168,7 +168,7 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 Make sure you have installed [cIOS](cios) before following this!
 {: .notice--warning}
 
-##### What you need
+##### Di cosa hai bisogno
 
 * The Homebrew Channel on your Wii/vWii
 * Una scheda SD o dispositivo USB
@@ -190,7 +190,7 @@ Make sure you have installed [cIOS](cios) before following this!
 
 <div id="dol-gcmc" class="tabcontent to" markdown="1">
 
-##### What you need
+##### Di cosa hai bisogno
 
 * a Wii with GameCube ports and the Homebrew Channel installed
 * Una scheda SD o dispositivo USB
@@ -252,7 +252,7 @@ All methods here require a Wii with GameCube ports.
 
 <div id="gcmc-emumc" class="tabcontent to" markdown="1">
 
-##### What you need
+##### Di cosa hai bisogno
 
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
@@ -280,7 +280,7 @@ All methods here require a Wii with GameCube ports.
 
 <div id="gcmc-dol" class="tabcontent to" markdown="1">
 
-##### What you need
+##### Di cosa hai bisogno
 
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
@@ -316,7 +316,7 @@ All methods here require a Wii with GameCube ports.
 
 <div id="gcmc-gcmc" class="tabcontent to" markdown="1">
 
-##### What you need
+##### Di cosa hai bisogno
 
 * a Wii
 
@@ -339,7 +339,7 @@ div id="emumc" class="tabcontent" markdown="1">
 
 <div id="emumc-dol" class="tabcontent to" markdown="1">
 
-##### What you need
+##### Di cosa hai bisogno
 
 * Latest beta or Development version of Dolphin Emulator
 
@@ -362,7 +362,7 @@ div id="emumc" class="tabcontent" markdown="1">
 
 div id="emumc-gcmc" class="tabcontent to" markdown="1">
 
-##### What you need
+##### Di cosa hai bisogno
 
 * The Homebrew Channel installed on your Wii
 * Una scheda SD o dispositivo USB
