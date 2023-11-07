@@ -1,157 +1,157 @@
 ---
-title: "GameCube Saves"
+title: "Salvataggi GameCube"
 ---
 
 {% include toc title="Table of Contents" %}
 
-This is a full guide on how to manage your GameCube saves.
+Questa è una guida completa su come gestire i tuoi salvataggi di GameCube.
 
-Use of any GameCube peripheral with a Family Edition Wii or Wii mini require soldering on GameCube ports and/or memory card slots.
+L'utilizzo di periferiche GameGube su un modello di Wii Family Edition o Wii mini richiederà la saldatura delle porte GameCube e/o i slot per le memory card.
 {: .notice--info}
 
-## Uploading an Individual Save (.gci File) to a Physical Memory Card
+## Caricare un salvataggio individuale (file .gci) su una Memory Card fisica
 
 ### Requisiti
 
-* A Wii with GameCube ports
-* An SD Card or USB
+* Un Wii con porte GameCube
+* Una scheda SD o unità USB
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-If you are looking for 100% completion saves online, you can find them [here](https://gamefaqs.gamespot.com/).
+Se stai cercando salvataggi completati al 100%, li puoi trovare [qui](https://gamefaqs.gamespot.com/).
 {: .notice--info}
 
-If you are looking for save game exploits for booting into [Swiss](https://github.com/emukidid/swiss-gc/releases), you can find a list of them [here](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
+Se stai cercando gli exploit per i dati di salvataggio per entrare su [Swiss](https://github.com/emukidid/swiss-gc/releases), li puoi vedere elencati [qui](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
 {: .notice--info}
 
 ### Istruzioni
 
-#### Downloading
+#### Download
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
-1. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii and launch GCMM from the Homebrew Channel.
+1. Estrai GCMM e inseriscilo nella cartella `apps` della tua scheda SD.
+1. Sposta il file `.gci` in una cartella chiamata `MCBACKUP` nella root della scheda SD o dell'unità USB.
+1. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia GCMM dal Canale Homebrew.
 
-#### Restoring
+#### Effettuare il ripristino
 
-1. Insert your physical memory card into Slot A or Slot B.
-1. Select the device you want to restore from.
+1. Inserisci la memory card fisica nello Slot A o Slot B.
+1. Seleziona il dispositivo da cui vuoi ripristinare.
 
     ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-1. In GCMM, Press X on a GameCube controller or + on a Wii remote.
+1. Su GCMM, premi X su un controller GameCube o + su un telecomando Wii.
 
     ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
-1. Select the slot your memory card is in.
+1. Seleziona lo slot in cui la memory card è inserita.
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. Select the save you want to restore. If you have multiple saves to restore, you can press R on the GameCube controller or 1 on the Wii remote to restore all of your saves.
+1. Seleziona il salvataggio che vuoi ripristinare. Se hai più salvataggi da ripristinare, puoi premere R sul controller GameCube o 1 sul telecomando Wii per ripristinare tutti i tuoi salvataggi.
 
     ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
-1. When restoration is complete, press any button to continue.
+1. Appena completato il ripristino, premi un pulsante qualsiasi per continuare.
 
-## Backing Up A Save (.gci File) to an SD or USB From a Physical Memory Card
+## Backup di un salvataggio (file .gci) su una SD o USB da una Memory Card fisica
 
 ### Requisiti
 
-* A Wii with GameCube ports
-* An SD Card or USB
+* Un Wii con porte GameCube
+* Una scheda SD o unità USB
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ### Istruzioni
 
-#### Downloading
+#### Download
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
-1. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii and launch GCMM from the Homebrew Channel.
+1. Estrai GCMM e inseriscilo nella cartella `apps` della tua scheda SD.
+1. Sposta il file `.gci` in una cartella chiamata `MCBACKUP` nella root della scheda SD o dell'unità USB.
+1. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia GCMM dal Canale Homebrew.
 
-#### Backing Up
+#### Effettuare il backup
 
-1. Insert your physical memory card into slot A or slot B.
-1. Select the device you want to backup to.
+1. Inserisci la memory card fisica nello Slot A o Slot B.
+1. Seleziona il dispositivo su cui vuoi fare il backup.
 
     ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-1. In GCMM, Press Y on a GameCube controller or - on a Wii remote.
+1. Su GCMM, premi Y su un controller GameCube o - su un telecomando Wii.
 
     ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
-1. Select the slot your memory card is in.
+1. Seleziona lo slot in cui la memory card è inserita.
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. Select the save you want to backup. If you have multiple saves to backup, you can press R on the GameCube controller or 1 on the Wii remote to backup all of your saves.
+1. Seleziona il salvataggio di cui vuoi farne il backup. Se hai più salvataggi da cui farne il backup, puoi premere R sul controller GameCube o 1 sul telecomando Wii per fare il backup di tutti i tuoi salvataggi.
 
     ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
-1. When backing up is complete, press any button to continue.
+1. Appena completato il backup, premi un pulsante qualsiasi per continuare.
 
-## Backing Up Your Physical Memory Card Into an Emulated Memory Card (.raw file)
+## Backup della Memory Card fisica in una Memory Card emulata (file .raw)
 
 ### Requisiti
 
-* A Wii with GameCube ports
-* An SD Card or USB
+* Un Wii con porte GameCube
+* Una scheda SD o unità USB
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ### Istruzioni
 
-#### Downloading
+#### Download
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii and launch GCMM from the Homebrew Channel.
+1. Estrai GCMM e inseriscilo nella cartella `apps` della tua scheda SD.
+1. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia GCMM dal Canale Homebrew.
 
-#### Dumping the .raw
+#### Dump del .raw
 
-1. Insert your memory card into Slot A or Slot B.
-1. Select the device you want to dump to.
+1. Inserisci la memory card nello Slot A o Slot B.
+1. Seleziona il dispositivo su cui vuoi fare il dump.
 
     ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-1. Press L and Y at the same time on GameCube Controller or B and - at the same time on the Wii remote to backup your to a .raw file and select the slot your memory card is in.
+1. Premi L e Y simultaneamente sul controller GameCube oppure B e - simultaneamente sul telecomando Wii per fare il backup su file .raw e seleziona lo slot in cui la memory card è inserita.
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. When the dump is complete, press any button to continue. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
+1. Appena completato il dump, premi un pulsante qualsiasi per continuare. Dovrebbe essere salvato in una cartella nella root della tua SD o USB chiamata `MCBACKUP`.
 
-## Restoring an Emulated Memory Save to a Physical Memory Card
+## Ripristino di un salvataggio da Memory Card virtuale a Memory Card fisica
 
 ### Requisiti
 
-* A Wii with GameCube ports
-* An SD Card or USB
+* Un Wii con porte GameCube
+* Una scheda SD o unità USB
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ### Istruzioni
 
-1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
-1. If you are restoring a Nintendont emulated memory card save, navigate to the `saves` folder on the root of your SD card or USB.
-1. Insert your memory card into Slot A or Slot B.
-1. Select the device you want to restore from.
+1. Se stai cercando di ripristinare un salvataggio da Dolphin, vai nella cheda `File` su Dolphin, seleziona Apri Cartella Utente, apri la cartella GC e trova il file `.raw`.
+1. Se stai cercando di ripristinare un salvataggio di Memory Card emulata da Nintendont, vai nella cartella `saves` nella root della tua scheda SD o unità USB.
+1. Inserisci la memory card nello Slot A o Slot B.
+1. Seleziona il dispositivo da cui vuoi ripristinare.
 
     ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-1. Press L and X at the same time on GameCube controller or B and + at the same time on the Wii remote.
-1. Select the slot your memory card is in.
+1. Premi L e X simultaneamente sul controller GameCube oppure B e + simultaneamente sul telecomando Wii.
+1. Seleziona lo slot in cui la memory card è inserita.
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. It should restore the .raw file to your memory card. When restoration is complete, press any button to continue.
+1. Dovrebbe aver ripristinato il file .raw sulla tua memory card. Appena completato il ripristino, premi un pulsante qualsiasi per continuare.
 
-## Transferring Saves Between 2 Physical Memory Cards
+## Trasferire salvataggi tra due Memory Card fisiche
 
 ### Requisiti
 
-* A Wii with GameCube ports
-* At least 2 physical memory cards
+* Un Wii con porte GameCube
+* Almeno due memory card fisiche
 
 ### Istruzioni
 
-1. Insert both memory cards into the Wii.
-1. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
+1. Inserisci entrambe le memory card nel Wii.
+1. Dal menu di sistema, vai su `Opzioni Wii`, `Gestione dati`, `Dati di salvataggio`, `Nintendo GameCube`.
 
     ![](/images/homebrew/gcsaves/sysmenu.jpg) <br>
 
@@ -161,7 +161,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
     ![](/images/homebrew/gcsaves/save-data.jpg)
 
-1. Find the save you want, select it and select `Move or Copy`.
+1. Trova il salvataggio che vuoi, selezionalo e seleziona `Sposta o Copia`.
 
 [Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
 {: .notice--info}
