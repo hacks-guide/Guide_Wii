@@ -1,56 +1,56 @@
 ---
-title: "Relaunching the HackMii Installer"
+title: "Rieseguire l'HackMii Installer"
 ---
 
 {% include toc title="Table of Contents" %}
 
-This guide is intended for situations where you need to relaunch the HackMii Installer to update/reinstall the Homebrew Channel or BootMii.
+Questa guida è intesa per situazioni in cui devi rieseguire l'HackMii Installer per aggiornare/reinstallare l'Homebrew Channel o BootMii.
 
-It is also safe to [redo any exploit](get-started) to get back into the HackMii Installer.
+Puoi anche rieseguire [qualsiasi exploit](get-started) per ritornare nell'HackMii Installer.
 {: .notice--info}
 
-### Relaunching via the Homebrew Channel
+### Rieseguire tramite l'Homebrew Channel
 
 #### Requisiti
 
-* The Homebrew Channel
-* An SD card or USB drive formatted to FAT32/MS-DOS
+* L'Homebrew Channel
+* Una scheda SD o un'unità USB formattata come FAT32/MS-DOS
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
 #### Istruzioni
 
-1. Insert your SD/USB into your PC.
-1. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
-    + If this folder does not exist, create it.
-1. Insert the SD/USB into your Wii, and launch the `hackmii_installer_v1.2` app from the Homebrew Channel.
-    + The app will not have an icon.
+1. Inserisci la tua SD/USB nel tuo PC.
+1. Estrai l'HackMii Installer v1.2 nella cartella `apps` sulla tua SD/USB.
+    + Se la cartella non esiste, creala.
+1. Inserisci l'SD/USB nel tuo Wii e avvia l'app `hackmii_installer_v1.2` dall'Homebrew Channel.
+    + L'app non avrà un'icona.
 
-[Continue to Homebrew Channel and BootMii installation](hbc)
+[Continua all'installazione dell'Homebrew Channel e di BootMii](hbc)
 {: .notice--info}
 
-### Relaunching via Priiloader
+### Rieseguire tramite Priiloader
 
 #### Requisiti
-* a Wii with Priiloader (or Preloader) installed
-* An SD card or USB drive formatted to FAT32/MS-DOS
+* Un Wii con Priiloader (o Preloader) installato
+* Una scheda SD o un'unità USB formattata come FAT32/MS-DOS
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
-To check if your Wii has Priiloader, hold the RESET button while turning it on.
+Per controllare se il tuo Wii ha Priiloader, tieni premuto il pulsante RESET in fase di accensione.
 {: .notice--info}
 
-Preloader and older versions of Priiloader do not seem to support SDHC (>2GB) cards.
+Preloader e versioni più vecchie di Priiloader non sembrano supportare le schede SD (>2GB).
 {: .notice--warning}
 
 #### Istruzioni
 
-1. Insert your SD/USB into your PC.
-1. Copy the `boot.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card or USB drive.
-1. Insert your SD/USB into your Wii.
-1. Enter Priiloader by holding the RESET button while turning on your Wii.
-1. Go to `Load/Install File`.
-1. Navigate to `boot.elf` and press `1` to load it.
+1. Inserisci la tua SD/USB nel tuo PC.
+1. Copia il file `boot.elf` dal `.zip` di HackMii Installer v1.2 al root della tua scheda SD o dispositivo USB.
+1. Inserisci la tua SD/USB nel tuo Wii.
+1. Accedi a Priiloader tenendo premuto il pulsante RESET mentre accendi il Wii.
+1. Vai su `Load/Install File`.
+1. Trova `boot.elf` e premi `1` per caricarlo.
 
-If `Press (1) to continue` does not show up after about 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
+Se il `Press (1) to continue` non dovesse apparire dopo circa 30 secondi, scaricare l'[HackMii Installer v1.0](https://bootmii.org/download/) potrebbe aiutarti.
 {: .notice--info}
 
 [Installazione dell'Homebrew Channel e di BootMii](hbc)
