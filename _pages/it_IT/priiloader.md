@@ -20,7 +20,7 @@ For more information about Priiloader and its options, you can see the [Priiload
 
 #### Optional Requirements for vWii (highly recommended)
 
-* An SD card
+* Una scheda SD
 * [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
     * [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
 
