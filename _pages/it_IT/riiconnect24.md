@@ -109,14 +109,14 @@ A partire dall'`1 giugno 2023`, il vecchio server DNS `164.132.44.106` è stato 
 If you're getting errors such as `WiiConnect24 and Wii Shop Channel currently not being offered in your country`, go to Wii Settings -> Last Page -> Country and change it to United Kingdom. You will get this error when using a country that RiiConnect24 does not support.
 {: .notice--warning}
 
-If you get error 107245, you did not install the patched IOS.<br> If you get error 220602, see [this](faq#for-riiconnect24-users) page.<br> If you get error 107304, see [this](faq#for-riiconnect24-users-1) page.<br>
+Se ottieni l'errore 107245, non hai installato l'IOS patchato.<br> Se ottieni l'errore 220602, apri [questa](faq#for-riiconnect24-users) pagina.<br> Se ottieni l'errore 107304, apri [questa](faq#for-riiconnect24-users-1) pagina.<br>
 {: .notice--warning}
 
-You will now set your DNS to RiiConnect24 servers. This is optional but recommended, because it enhances the use of RiiConnect24 and Wiimmfi by making some other features available.
+Ora imposterai i tuoi DNS ai server RiiConnect24. Questo è facoltativo ma consigliato, poiché migliora l'utilizzo di RiiConnect24 e Wiimmfi rendendo disponibili alcune altre funzionalità.
 
-1. Go to `Wii Options`.
+1. Vai su `Opzioni Wii`.
 1. Vai sulle `Impostazioni console Wii`.
-1. Go to `Page 2`, then click on `Internet`.
+1. Vai alla `pagina 2`, quindi clicca su `Internet`.
 1. Go to `Connection Settings`.
 1. Select your current connection.
 1. Go to `Change Settings`.
