@@ -24,7 +24,7 @@ La Recovery Mode è l'ultima risorsa per recuperare il tuo Wii da un brick prima
 Per far in modo che vengano premuti tutti e quattro i pulsanti della croce direzionale di un controller GameCube, potrebbe essere necessario smontarlo.
 {: .notice--warning}
 
-Per cominciare, verifica che il tuo Wii può avviarsi in Recovery Mode *in alcun modo*. This involves taking a GameCube controller, plugging it into the fourth controller port on a Wii, and simultaneously holding down the 4 individual D-Pad buttons on boot. If everything goes right, you should see a screen similar to the above. Bear in mind that if you are on a System Menu version on 2.0 or prior, you will not see a version number display at all, and you will not be able to boot from discs.
+Per cominciare, verifica che il tuo Wii può avviarsi in Recovery Mode *in alcun modo*. Questo significa prendere un controller GameCube, collegarlo alla porta del giocatore 4 su un Wii e premere simultaneamente tutti e quattro i pulsanti della croce direzionale in fase di avvio. Se tutto va bene, dovresti vedere una schermata simile a quella in alto. Tieni a mente che se ti ritrovi con il Menu di sistema alla versione 2.0 o una precedente, non vedrai alcun numero di versione su schermo e non potrai avviare giochi dai dischi.
 
 #### Method I - Recovery Menu to Smash Stack
 
@@ -33,9 +33,9 @@ Per cominciare, verifica che il tuo Wii può avviarsi in Recovery Mode *in alcun
 #### Method III - Recovery Menu to Bluebomb
 
 ---
-Under Construction
+In Lavorazione
 
-[Return to Bricks](bricks)
+[Ritorna ai brick](bricks)
 {: .notice--info}
 
 [Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
