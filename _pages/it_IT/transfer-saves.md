@@ -1,46 +1,46 @@
 ---
-title: "Transferring Save games"
+title: "Trasferimento dati di salvataggio"
 ---
 
-This guide will explain how to transfer save games between:
+Questa guida ti spiegherà come trasferire i dati di salvataggio dei giochi tra:
 
-+ a Wii/Wii U(vWii),
-+ Dolphin Emulator,
-+ GameCube memory cards,
-+ and (Nintendont) emulated memory cards.
++ un Wii/Wii U (vWii),
++ Emulatore Dolphin,
++ memory card di GameCube
++ e memory card emulate (Nintendont).
 
-<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'wii')">From a Wii/vWii</button>
-<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'dol')">From Dolphin Emulator</button>
-<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'gcmc')">From a GameCube memory card</button>
-<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'emumc')">From Nintendont</button>
+<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'wii')">Da un Wii/vWii</button>
+<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'dol')">Da Emulatore Dolphin</button>
+<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'gcmc')">Da una memory card di GameCube</button>
+<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'emumc')">Da Nintendont</button>
 
 <div id="wii" class="tabcontent" markdown="1">
 
-<button class="btn btn--info btn--large tablinks to" onClick="openTab_to(event, 'wii-vwii')">To another Wii/vWii</button>
-<button class="btn btn--info btn--large tablinks to" onClick="openTab_to(event, 'wii-dol')">To Dolphin Emulator</button>
+<button class="btn btn--info btn--large tablinks to" onClick="openTab_to(event, 'wii-vwii')">A un altro Wii/vWii</button>
+<button class="btn btn--info btn--large tablinks to" onClick="openTab_to(event, 'wii-dol')">All'Emulatore Dolphin</button>
 
 <div id="wii-vwii" class="tabcontent to" markdown="1">
 
-<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-vwii-data')">via Data Management</button>
-<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-vwii-svgm')">via SaveGame Manager GX</button>
+<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-vwii-data')">tramite Gestione dati</button>
+<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-vwii-svgm')">tramite SaveGame Manager GX</button>
 
 <div id="wii-vwii-data" class="tabcontent via" markdown="1">
 
 ##### Di cosa hai bisogno
 
-+ an SD card formatted to FAT32/MS-DOS
++ una scheda SD formattata come FAT32
 
 ##### Istruzioni
 
-1. Insert your SD card into your Wii/Wii U.
-1. In the Wii Menu, select the `Wii Options` at the bottom left.
-1. Select `Data Management` (if on Wii), `Save Data`, then `Wii`.
-1. Select a save you would like to transfer, then select `Copy`.
+1. Inserisci la scheda SD nel tuo Wii/Wii U.
+1. Nel Menu Wii, seleziona `Opzioni Wii` dall'angolo in basso a sinistra.
+1. Selezione `Gestione dati` (se sei su Wii), `Dati di salvataggio` e `Wii`.
+1. Seleziona un salvataggio che vuoi trasferire, poi seleziona `Copia`.
     + If the `Copy` button is greyed out, you will need to [install Priiloader](priiloader) to disable the copy protection.
 1. Repeat the previous step for each save you would like to transfer.
 1. Once you are finished, put the SD card into your other Wii/Wii U.
-1. In the Wii Menu, select the `Wii Options` at the bottom left.
-1. Select `Data Management` (if on Wii), `Save Data`, then `Wii`.
+1. Nel Menu Wii, seleziona `Opzioni Wii` dall'angolo in basso a sinistra.
+1. Selezione `Gestione dati` (se sei su Wii), `Dati di salvataggio` e `Wii`.
 1. Select the `SD Card` tab at the top right.
 1. Select one of the saves you have copied to your SD card, then select `Copy`.
 1. Repeat the previous step for each save you have copied to your SD card.
@@ -159,7 +159,7 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 1. Safely eject your SD card, then put it into your Wii/Wii U.
     + If on a Wii U, be sure to launch Wii Mode.
 1. Select the `Wii Options` button at the bottom left.
-1. Select `Data Management` (if on Wii), `Save Data`, then `Wii`.
+1. Selezione `Gestione dati` (se sei su Wii), `Dati di salvataggio` e `Wii`.
 1. Go to the `SD Card` tab at the top right.
 1. Select each save that you would like to copy to your Wii/Wii U and select `Copy`.
 </div>
