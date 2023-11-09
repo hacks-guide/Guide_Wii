@@ -11,13 +11,13 @@ La Recovery Mode è l'ultima risorsa per recuperare il tuo Wii da un brick prima
 + Un controller GameCube
 + If the Diagnostic Disc Check was previously removed with Priiloader, or if a drive chip is on hand:
     + Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OPPURE
-    + Any other exploited Wii game, with the current exploit game save on the console (see [Legacy Exploits](legacy-exploits)) OR
+    + Qualsiasi altro gioco Wii con exploit, con l'attuale salvataggio di gioco con exploit sulla console (vedi gli [Exploit Legacy](legacy-exploits)) OPPURE
     + Qualsiasi gioco e l'accesso all'exploit [Bluebomb](bluebomb)
 + If the Diagnostic Disc Check was not previously removed with Priiloader, and no drive chip is on hand:
     + Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack))
-+ An original revision Wii (Family Edition Wiis will not work due to the lack of GameCube ports - otherwise you must solder some on)
-+ A Windows/macOS/Linux PC with an Internet connection
-+ An SD Card formatted to FAT32
++ Una revisione di Wii originale (i modelli Family Edition di Wii non si possono usare a causa della mancanza delle porte GameCube - altrimenti le devi saldare)
++ Un PC Windows/macOS/Linux con una connessione a Internet
++ Una scheda SD formattata come FAT32
 
 #### Preparazione
 
