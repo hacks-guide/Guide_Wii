@@ -152,7 +152,7 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 
 #### Requisiti
 
-+ A Linux/macOS/Windows PC with an internet connection
++ Un PC Windows/macOS/Linux con una connessione a internet
 + A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
 + [Wiimmfi ISO Patcher](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
