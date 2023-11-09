@@ -128,8 +128,8 @@ Ora imposterai i tuoi DNS ai server RiiConnect24. Questo è facoltativo ma consi
 1. Se la prova di connessione è andata a buon fine, seleziona `No` per rifiutare l'aggiornamento di sistema.
 1. Vai su `WiiConnect24`e poi di nuovo `WiiConnect24` e assicurati che sia abilitato.
 1. Tornando al menu di WiiConnect24, vai su `Connessione standby` e assicurati che l'opzione è attivata.
-1. At `Slot Illumination`, it is recommend you set the disc light to `Dim` or `Bright`, but this is optional.
-1. Finally, go to the `Internet` section, then `User Agreements` or `Agreement/Contact`, then `Yes`. Please read through this.
+1. Su `Illuminazione slot disco`, si consiglia di impostare la luminosità su `Normale` o `Forte`, ma questo è facoltativo.
+1. Infine, vai alla sezione `Internet`, `Accordi utente` o `Accordo/Contatto`, e poi `Sì`. Si prega di leggerlo attentamente.
 
 [Ritorna a WiiConnect24](wiiconnect24)
 {: .notice--info}
