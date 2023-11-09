@@ -4,36 +4,36 @@ title: "Nintendo Wi-Fi Connection"
 
 {% include toc title="Table of Contents" %}
 
-Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. While different games were supported for longer than others, all games are no longer able to play through conventional means as of August 2023. To regain Nintendo WFC functionality, this guide provides instructions on installing Wiimmfi. There are several different methods to connect to Wiimmfi listed in order of least to greatest difficulty - choose the method that suits your situation best.
+Il Nintendo Wi-Fi Connection era un servizio di giochi multiplayer online per Wii, consentendo il gioco online gratuito. Mentre diversi giochi sono stati supportato più di altri, ad agosto 2023 i giochi non possono più connettersi con mezzi convenzionali. Per ripristinare il funzionamento di Nintendo WFC, questa guida fornisce istruzioni sull'installazione di Wimmfi. Sono elencati diversi metodi per connettersi a Wimmfi, in ordine dal meno complicato al più complicato - scegli il metodo che fa più al tuo caso.
 
-If you get error 23904 while connecting to Wiimmfi, then you are using an outdated patch.<br> Follow the steps below for the method you're using to connect to Wiimmfi again.<br> See [this page](https://wiimmfi.de/update) for more details.<br>
+Se ottieni l'errore 23904 mentre ti connetti a Wiimfi, starai utilizzato una patch obsoleta.<br> Segui i passaggi riportati di seguito per il metodo che utilizzi in modo da connetterti nuovamente a Wiimmfi.<br> Vai su [questa pagina](https://wiimmfi.de/update) per maggiori dettagli.<br>
 {: .notice--warning}
 
-### Automatic Disc Patching via Priiloader
+### Patching automatico del disco tramite Priiloader
 
-If the `Wiimmfi Patch` displays as anything other than v4, you do not have the latest version of the hacks_hash.ini file and the patch will not work. You must reinstall Priiloader, the guide to which can be found in the requirements section.
+Se il `Wiimmfi Patch` è elencato come qualcosa di diverso da v4, non hai l'ultima versione del file hacks_hash.ini e quindi la patch non funzionerà. Devi reinstallare Priiloader, per il quale puoi trovare la guida nella sezione dei requisiti.
 {: .notice--warning}
 
-A method for Wiimmfi patching which runs on retail disc games automatically via the Disc Channel.
+Un metodo per la patch Wiimmfi che viene eseguito automaticamente sui giochi su disco tramite il Canale Disco.
 
 #### Requisiti
-+ A Wii with an internet connection, on System Menu version 4.3
-+ [Priiloader](priiloader) 0.9 or later
++ Un Wii con una connessione Internet e il Menu di sistema versione 4.3
++ [Priiloader](priiloader) 0.9 o più recente
 
 #### Istruzioni
 
-1. Hold the RESET button while turning on your Wii. If you are using a Wii mini, plug in a USB keyboard and hold Escape while turning it ON.
-1. You should see the Priiloader menu.
+1. Tieni premuto il pulsante RESET mentre accendi il tuo Wii. Se stai usando un Wii mini, connetti una tastiera USB e tieni il tasto Esc mentre lo accendi.
+1. Dovresti vedere il menu di Priiloader.
 
     ![](/images/priiloader/mainmenu.jpg)
 
-1. Go to `System Menu Hacks`. If you used a USB drive to install Priiloader, make sure you do not have an SD card inserted at the same time. This will cause Priiloader to be unable to find the hacks_hash.ini file.
+1. Vai su `System Menu Hacks`. Se hai usato un'unità USB per installare Priiloader, assicurati di non avere una scheda SD inserita allo stesso tempo. Altrimenti, Priiloader potrebbe non trovare il file hacks_hash.ini.
     {: .notice--info}
-1. Make sure the `Wiimmfi patch v4` hack is enabled.
+1. Assicurati che l'hack `Wimmfi patch v4` sia attivato.
 
     ![](/images/priiloader/hacks.jpg)
 
-1. Scroll to `Save Settings` and save your changes.
+1. Scorri verso `Save Settings` e salva le modifiche.
 1. Return to the main menu, and press `System Menu` to return to the Wii Menu.
 1. Launch your game through the Disc Channel - it should now be patched with Wiimmfi.
 
