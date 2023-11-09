@@ -131,7 +131,7 @@ Ora imposterai i tuoi DNS ai server RiiConnect24. Questo è facoltativo ma consi
 1. At `Slot Illumination`, it is recommend you set the disc light to `Dim` or `Bright`, but this is optional.
 1. Finally, go to the `Internet` section, then `User Agreements` or `Agreement/Contact`, then `Yes`. Please read through this.
 
-[Return to WiiConnect24](wiiconnect24)
+[Ritorna a WiiConnect24](wiiconnect24)
 {: .notice--info}
 
 [Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
