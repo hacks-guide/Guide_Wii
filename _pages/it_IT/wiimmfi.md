@@ -121,7 +121,7 @@ Un metodo per la patch Wiimmfi che viene eseguito sui giochi su disco, ma deve e
 #### Istruzioni
 
 1. Apri la seguente pagina web nel Canale Internet: `http://chadsoft.co.uk/wimmfi`
-1. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
+1. Aggiungi la pagina tra i preferiti nel browser cliccando l'icona della stella e poi il pulsante `Aggiungi pagina attuale`.
 1. Ritorna al Menu Wii.
 1. Apri nuovamente il Canale Internet e apri il preferito che hai appena aggiunto.
 1. Il patcher di Wiimmfi dovrebbe avviarsi. Sii paziente, poiché Flashhax può essere molto instabile - potrebbero volerci diversi tentativi purché funzioni.
