@@ -106,7 +106,7 @@ Ora patcherai il file `nwc24msg.cfg` che è richiesto per l'utilizzo di Wii Mail
 A partire dall'`1 giugno 2023`, il vecchio server DNS `164.132.44.106` è stato deprecato è non è più possibile utilizzarlo.
 {: .notice--warning}
 
-If you're getting errors such as `WiiConnect24 and Wii Shop Channel currently not being offered in your country`, go to Wii Settings -> Last Page -> Country and change it to United Kingdom. You will get this error when using a country that RiiConnect24 does not support.
+Se stai ricevendo errori tipo `WiiConnect24 e il Canale Wii Shop attualmente non sono disponibili nel tuo paese`, vai su Impostazioni console Wii -> Ultima pagina -> Paese e cambialo in Regno Unito. Questo errore appare quando si utilizza un paese non supportato da RiiConnect24.
 {: .notice--warning}
 
 Se ottieni l'errore 107245, non hai installato l'IOS patchato.<br> Se ottieni l'errore 220602, apri [questa](faq#for-riiconnect24-users) pagina.<br> Se ottieni l'errore 107304, apri [questa](faq#for-riiconnect24-users-1) pagina.<br>
@@ -117,17 +117,17 @@ Ora imposterai i tuoi DNS ai server RiiConnect24. Questo è facoltativo ma consi
 1. Vai su `Opzioni Wii`.
 1. Vai sulle `Impostazioni console Wii`.
 1. Vai alla `pagina 2`, quindi clicca su `Internet`.
-1. Go to `Connection Settings`.
-1. Select your current connection.
-1. Go to `Change Settings`.
-1. Go to `Auto-Obtain DNS` (Not IP Address), then select `No`, then `Advanced Settings`.
-1. Type in `167.86.108.126` as the primary DNS.
-1. Type in `1.1.1.1` as the secondary DNS.
-1. Select `Confirm`, then select `Save`.
-1. Select `OK` to perform a connection test.
-1. If the connection test was successful, select `No` to skip the Wii System Update.
-1. Go to `WiiConnect24`, then `WiiConnect24` again, and make sure it is enabled.
-1. Back on the WiiConnect24 menu, go to `Standby Connection` and make sure it is enabled.
+1. Vai sulle `Impostazioni di collegamento`.
+1. Seleziona la tua connessione attuale.
+1. Vai su `Modifica`.
+1. Vai su `Ottieni automaticamente DNS` (non indirizzo IP) e seleziona `No`, poi `Impostazioni avanzate`.
+1. Inserisci `167.86.108.126` come DNS primario.
+1. Inserisci `1.1.1.1` come DNS secondario.
+1. Seleziona `Conferma`, poi seleziona `Salva`.
+1. Seleziona `OK` per eseguire la prova di connessione.
+1. Se la prova di connessione è andata a buon fine, seleziona `No` per rifiutare l'aggiornamento di sistema.
+1. Vai su `WiiConnect24`e poi di nuovo `WiiConnect24` e assicurati che sia abilitato.
+1. Tornando al menu di WiiConnect24, vai su `Connessione standby` e assicurati che l'opzione è attivata.
 1. At `Slot Illumination`, it is recommend you set the disc light to `Dim` or `Bright`, but this is optional.
 1. Finally, go to the `Internet` section, then `User Agreements` or `Agreement/Contact`, then `Yes`. Please read through this.
 
