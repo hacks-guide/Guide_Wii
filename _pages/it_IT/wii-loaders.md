@@ -1,25 +1,25 @@
 ---
-title: "Wii Backup Loaders"
+title: "Loader di backup Wii"
 ---
 
 {% include toc title="Table of Contents" %}
 
-This guide introduces Wii backup loaders. They can be primarily used to load game backups on an SD or USB that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
+Questa guida introduce i loader di backup Wii. Il loro utilizzo principale è quello di caricare i backup di giochi da SD o USB che sono stati dumpati da un disco di gioco. A seconda del loader, potrebbero anche esserci estensioni che consente al suo utilizzo come frontend per giochi diversi da Wii. I due loader più comunamente utilizzati sono USB Loader GX e WiiFlow Lite (una mod di WiiFlow aggiornata regolarmente) - un loader potrebbe funzionare meglio dell'altro per te, quindi vale la pena di provarli entrambi.
 
-In order for Wii loader to function properly, you must have the latest cIOS installed. Please check [this](cios) guide for instructions if you are on Wii, and [this](cios-mini) guide if you are on Wii mini.
+Per far in modo che il loader Wii funzioni correttamente, è necessario aver installato l'ultimo cIOS. Si prega di dare un'occhiata a [questa](cios) guida per istruzioni se sei su Wii e [questa](cios-mini) guida se sei su Wii mini.
 {: .notice--warning}
 
-To play games, you are advised to use a large SD card or an external hard drive, flash drives are not recommended and very sporadic in functionality. Vedi il [FAQ storage](faq).
+Per giocare ai giochi, si consiglia di utilizzare una scheda SD di grandi dimensioni o un hard drive esterno, poiché le unità flash non sono consigliate e sono molto sporadiche in funzionalità. Vedi il [FAQ storage](faq).
 {: .notice--info}
 
-The official Wii menu forwarder installer for Wiiflow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Run the app in the Homebrew Channel to install the forwarder. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme).
+Il forwarder ufficiale per Menu Wii di WiiFlow Lite può essere trovato sull'[Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Avvia l'app dal canale Homebrew per installare il forwarder. Il forwarder ufficiale di USB Loader GX può essere trovato nella sua pagina [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad). Puoi installarlo con [YAWM ModMii Edition](yawmme).
 {: .notice--info}
 
-### Differences between WiiFlow Lite and USB Loader GX
+### Differenze tra WiiFlow Lite e USB Loader GX
 
-+ WiiFlow Lite has a more advanced user interface in terms of animation and effects, and supports themes.
-    + SD cards are fully supported for loading Wii games on WiiFlow Lite.
-    + WiiFlow Lite has a plugin system.
++ WiiFlow Lite ha un'interfaccia utente più avanzata per quanto riguarda le animazioni e gli effetti e supporta i temi.
+    + Le schede SD sono interamente compatibili per il caricamento dei giochi Wii su WiiFlow Lite.
+    + WiiFlow Lite ha un sistema di plugin.
     + While the original WiiFlow was last updated in 2014, the WiiFlow Lite fork is still recieving regular updates.
 
     ![](/images/usb-loaders//wiiflow-ui.png)
