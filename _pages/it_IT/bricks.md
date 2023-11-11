@@ -191,7 +191,7 @@ Questo brick sembra identico a un brick a basso livello, tuttavia puoi ancora av
 #### Causa
 Questo brick si verifica quando il modulo Wi-Fi (o Bluetooth) del tuo Wii è danneggiato o inserito incorrettamente. In questi casi, il Wii si blocca su uno schermo nero nell'attesa di una risposta dall'IOS.
 
-Questo succede anche se installi un IOS di un Wii normale su un WIi mini, perchè il Wii mini non possiede il modulo Wi-Fi.
+Questo succede anche se installi un IOS di un Wii normale su un Wii mini, poiché il Wii mini non possiede il modulo Wi-Fi.
 
 #### Soluzioni
 Per risolvere questo problema, puoi provare a riposizionare o rimpiazzare il modulo Wi-Fi/Bluetooth.
