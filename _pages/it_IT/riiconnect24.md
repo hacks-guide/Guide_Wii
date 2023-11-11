@@ -12,7 +12,7 @@ Per il supporto (in inglese) per RiiConnect 24, assieme a RiiTag, entra nel [ser
 Si consiglia di impostare l'ora del tuo Wii a quella attuale prima di procedere. Segui [questo tutorial](rtc) per impostarla.
 {: .notice--warning}
 
-NON INSTALLARE RIICONNECT 24 SU UN WII MINI! Non funzionerà e brickerà il sistema.
+NON INSTALLARE RIICONNECT24 SU UN WII MINI! Non funzionerà e brickerà il sistema.
 {: .notice--danger}
 
 ### Requisiti
