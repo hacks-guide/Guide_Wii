@@ -58,7 +58,7 @@ Questo d2x cIOS installer era stato originariamente sviluppato per il vWii del W
 
 Se desideri usare Wiimmfi con Ethernet su un Wii mini, devi eseguire l'[Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) creato da Fullmetal5. Per eseguirlo, unzippalo nella cartella `apps` del tuo dispositivo USB ed eseguilo dall'Homebrew Channel.
 
-Le console del Wii e Wii mini sono note per funzionare solo con adattatori Ethernet che usano il chip AX88772. Perfavore controlla che il prodotto sia compatibile prima di comprarlo. Questo da UGREEN è noto per essere compatibile: [Amazon EU](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
+Le console Wii e Wii mini sono note per funzionare solo con adattatori Ethernet che usano il chip AX88772. Per favore controlla che il prodotto sia compatibile prima di comprarlo. Questo da UGREEN è noto per essere compatibile: [Amazon EU](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
 {: .notice--info}
 
 [Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
