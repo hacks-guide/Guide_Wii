@@ -1,5 +1,5 @@
 ---
-title: "FAQ e Risoluzione problemi"
+title: "FAQ e Risoluzione dei problemi"
 ---
 
 ## FAQ Principali
@@ -30,7 +30,7 @@ Il tuo erver DNS primario è incorretto o non funzionante.<br> Questo può anche
 
 ##### Per utenti di RiiConnect24
 
-Se ottieni questo errore o vedi il Nintendo's User Agreement senza il logo di RiiConnect24, significa che il tuo ISP (Internet Service Provider) o la rete sta bloccando l'utilizzo del DNS di RC24. Puoi impostare `Auto-Obtain DNS` su `On` per risolvere. RiiConnect24 funzionerà anche senza di esso. Oppure, puoi usare il programma [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest).
+Se ottieni questo errore o vedi l'Accordo Utente di Nintendo senza il logo di RiiConnect24, significa che il tuo ISP (Internet Service Provider) o la rete sta bloccando l'utilizzo del DNS di RC24. Puoi impostare `Auto-Obtain DNS` su `On` per risolvere. RiiConnect24 funzionerà anche senza di esso. Oppure, puoi usare il programma [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest).
 
 ##### Per utenti senza RiiConnect24
 
@@ -38,7 +38,7 @@ Se ottieni questo errore, il server DNS che hai scelto o il tuo internet nella s
 
 #### FORE000006
 
-Se ottieni l'errore FORE000006, il tuo orologio del Wii è probabilmente impostato incorrettamente. Vedi [qui](wiiconnect24#updating-rtc-clock) per istruzioni su come resettarlo correttamente. Se questo fallisce ancora, rimuovi la batteria dell'orologio del Wii (si torva sulla parte inferiore del sistema dietro a una vita) per un'ora e rimettila dentro dopo. Poi, resetta l'orologio del Wii.
+Se ottieni l'errore FORE000006, il tuo orologio del Wii è probabilmente impostato incorrettamente. Vedi [qui](wiiconnect24#updating-rtc-clock) per istruzioni su come resettarlo correttamente. Se il problema persiste, rimuovi la batteria dell'orologio del Wii (si trova nella parte inferiore del sistema dietro a una vite) per un'ora e reinseriscila. Poi, resetta l'orologio del Wii.
 
 ### Come si rimuove il Filtro Famiglia?
 Il [generatore mkey](https://mkey.salthax.org) può generare il codice richiesto per rimuovere il Filtro Famiglia.
@@ -48,13 +48,13 @@ Vedi [questa](bricks) pagina.
 
 ## FAQ Dispositivi di Archiviazione
 
-Negli exploit [BlueBomb](bluebomb), [str2hax](str2hax), o [FlashHax](flashhax), non ti serve una scheda SD per modificare il tuo Wii; è altamente consigliato averne una comunque per il software homebrew e altre cose.
+Negli exploit [BlueBomb](bluebomb), [str2hax](str2hax) o [FlashHax](flashhax), non ti serve una scheda SD per modificare il tuo Wii; è comunque altamente consigliato averne una per gli homebrew e altre cose.
 {: .notice--info}
 
 Il File System consigliato per le schede SD è il FAT32, vedi [questa guida](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) per istruzioni su come formattare.<br> Per i dispositivi USB, il FAT32 è sempre consigliato, anche se gli utenti dovrebbero conoscere le limitazioni del FAT32 che permette dispositivi solo fino a 2TB di spazio. WBFS era un File System utilizzato precedentemente per i backup dei giochi Wii - oggi, è obsoleto e non dovrebbe essere usato.
 {: .notice--info}
 
-Per le versioni stock del Menu Wii inferiori a 4.0, una limitazione nel Software di Sistema della console impedisce alle schede SD più grandi di 2GB di essere usate.<br> Per le versioni stock del Menu Wii 4.0 o superiori, questa limitazione è rimossa e le schede SD di varie dimensioni possono essere usate.<br> Le schede SD di 32GB o inferiori hanno le probabilità più alte più funzionare su ogni Wii, ma è stato riportato il funzionamento di schede SD fino a 256GB.
+Per le versioni stock del Menu Wii inferiori a 4.0, una limitazione nel Software di Sistema della console impedisce alle schede SD più grandi di 2GB di essere usate.<br> Per le versioni stock del Menu Wii 4.0 o superiori, questa limitazione è rimossa e le schede SD di varie dimensioni possono essere usate.<br> Le schede SD da 32GB o inferiori sono le più probabili a funzionare su ogni Wii, ma è stato riportato il funzionamento di schede SD fino a 256GB.
 {: .notice--warning}
 
 Per i dispositivi USB, le unità flash hanno ampie probabilità di non funzionare su console Wii. È consigliato, invece, di usare un disco rigido USB o un'unità a stato solido.
