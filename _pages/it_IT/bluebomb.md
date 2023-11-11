@@ -23,7 +23,7 @@ Assicurati che la console sia vicina al computer che esegue l'exploit, idealment
 * Un computer Linux
     * Una macchina virtuale potrebbe funzionare, ma non è consigliato data la complessità di far funzionare il passthrough Bluetooth. Se possibile, usa un LiveUSB come descritto di seguito.
     * Se hai un Raspberry Pi, puoi usare quello in quanto probabilmente ha Linux già installato.
-    * Windows Subsystem for Linux o un Chromebook che esegue Linux *non funzioneranno* perchè non danno accesso diretto all'adattatore Bluetooth o alle porte USB.
+    * Il sottosistema Windows per Linux o un Chromebook che esegue Linux *non funzioneranno* poiché non danno l'accesso diretto all'adattatore Bluetooth o alle porte USB.
     * Se non hai Linux, [Ubuntu](https://ubuntu.com/download/desktop) è l'opzione più user-friendly che può essere eseguita su computer che eseguono Windows o Mac.
         * I dispositivi a 32-bit richiedono [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
         * Per i dispotivi a 64-bit è consigliato usare l'edizione LTS per la sua stabilità, ma anche la versione più recente funziona.
