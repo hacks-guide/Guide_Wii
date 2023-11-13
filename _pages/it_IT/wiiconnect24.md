@@ -27,11 +27,12 @@ Entrami i servizi elencati in basso sono compatibili l'uno con l'altro e possono
 | Food Channel         | ✅       | ⛔            |
 | Photo Prints Channel | ✅       | ⛔            |
 | Canale TV Kirby      | ✅       | ⛔            |
+| TV Guide Channel     | ⚠️      | ⛔            |
 
 #### WiiLink
 Un servizio di revival recente per WC24/canali giapponesi che iniziò nel 2020, ma sta rapidamente riottenendo funzionalità in tanti canali diversi.
 
-Lo stato di supporto del servizio può essere trovato [qui](https://www.wiilink24.com/status).<br> La loro guida può essere trovata [qui](https://www.wiilink24.com/guide/2installation/).
+Service support status can be found [here](https://www.wiilink24.com/status).<br> Their guide can be found [here](https://www.wiilink24.com/guide).
 
 #### RiiConnect24
 Il servizio di revival per WC24 più longevo, attualmente solo supportato con canali WC24 a livello mondiale assieme ai servizi di mail.
