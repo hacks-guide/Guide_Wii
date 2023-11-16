@@ -41,22 +41,37 @@ Nintendont uses a user interface that is mainly controllable and navigable using
 
 Games in Nintendont have to be launched from an external device with a specific folder structure, with the usage of a game ID. Game IDs can be found on [GameTDB](https://www.gametdb.com).<br>
 The expected structure for single disc games is as follows:<br>
-`device:/games/(game name) [game ID]/game.iso`
+```
+💾SD/USB:
+ ┗ 📂games
+    ┗ 📂GameName [gameID]
+       ┗ 📜game.iso or 📜game.ciso
+```
 
 The expected structure for multi disc games is as follows:<br>
-`device:/games/(game name) [game ID]/game.iso`<br>
-`device:/games/(game name) [game ID]/disc2.iso` (so on and so forth)
+```
+💾SD/USB:
+┗ 📂games
+   ┗ 📂GameName [gameID]
+      ┣ 📜game.iso or 📜game.ciso
+      ┗ 📜disc2.iso or 📜disc2.ciso
+```
 
 Here is an example using The Legend of Zelda: The Wind Waker on a USB hard drive:<br>
-`USB:/games/The Legend of Zelda: The Wind Waker [GZLE01]/game.iso`
+```
+💾SD/USB:
+ ┗ 📂games
+    ┗ 📂The Legend of Zelda: The Wind Waker [GZLE01]
+       ┗ 📜game.iso or 📜game.ciso
+```
 
 #### BIOS Setup
 
 You can use an original GameCube BIOS in Nintendont if you have legally obtained one.
 
 1. Rename the BIOS file `iplusa.bin`/`ipljap.bin`/`iplpal.bin` based on its region.
-1. Copy it to the root of the storage device where Nintendont is installed on.
-1. Go into Nintendont settings and verify that `Load IPL` is turned ON.
+1. Copy it to the root of the storage device where your GameCube games are on.
+1. Go into Nintendont settings and verify that `Skip IPL` is turned OFF.
 
 #### Using a HID USB controller with Nintendont
 
