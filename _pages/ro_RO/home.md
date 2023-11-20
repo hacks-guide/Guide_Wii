@@ -25,7 +25,6 @@ Iată niște exemple comune de ce poate homebrew să facă pentru consola ta Wii
 + Îmbunătățirea [protecției anti-brick](priiloader) a consolei
 + Descărcarea a unor noi aplicații homebrew folosind [Open Shop Channel](osc)
 + [Modificarea conținutului unui disc de joc](riivolution) pentru a rula modificări ale jocului
-+ Transformarea consolei tale Wii într-un [centru media](wiimc)
 + Instalarea [temelor de fundal](themes) pentru Meniul Wii și pentru aplicații homebrew folosite des
 + Crearea unui backup pentru [discuri](dump-games) și [alte titluri instalate](dump-wads)
 + Instalarea unui [USB loader](wii-loaders) pentru a rula backup-uri de Wii (și de alte console) de pe un dispozitiv de stocare extern
