@@ -39,19 +39,38 @@ Nintendont utilizza un'interfaccia utente che è principalmente controllabile e 
 
 #### Avvio dei giochi
 
-I giochi in Nintendont devono essere avviati da un dispositivo esterno con una specifica struttura di cartelle, utilizzando gli ID di gioco. Gli ID di gioco possono essere trovati su [GameTDB](https://www.gametdb.com).<br> La struttura prevista per giochi su disco singolo è la seguente:<br> `dispositivo:/games/(nome gioco) [ID gioco]/game.iso`
+I giochi in Nintendont devono essere avviati da un dispositivo esterno con una specifica struttura di cartelle, utilizzando gli ID di gioco. Game IDs can be found on [GameTDB](https://www.gametdb.com).<br> The expected structure for single disc games is as follows:<br>
+```
+💾SD/USB:
+ ┗ 📂games
+    ┗ 📂GameName [gameID]
+       ┗ 📜game.iso or 📜game.ciso
+```
 
-La struttura prevista per giochi su più dischi è la seguente:<br> `dispositivo:/games/(nome gioco) [ID gioco]/game.iso`<br> `dispositivo:/games/(nome gioco) [ID gioco]/disc2.iso` (e così via)
+The expected structure for multi disc games is as follows:<br>
+```
+💾SD/USB:
+┗ 📂games
+   ┗ 📂GameName [gameID]
+      ┣ 📜game.iso or 📜game.ciso
+      ┗ 📜disc2.iso or 📜disc2.ciso
+```
 
-Ecco un esempio utilizzando The Legend of Zelda: The Wind Waker su un hard drive USB:<br> `USB:/games/The Legend of Zelda: The Wind Waker [GZLE01]/game.iso`
+Here is an example using The Legend of Zelda: The Wind Waker on a USB hard drive:<br>
+```
+💾SD/USB:
+ ┗ 📂games
+    ┗ 📂The Legend of Zelda: The Wind Waker [GZLE01]
+       ┗ 📜game.iso or 📜game.ciso
+```
 
 #### Configurazione BIOS
 
 Puoi usare un BIOS GameCube originale su Nintendont se ne hai ottenuto uno legalmente.
 
 1. Rinomina il file BIOS a `iplusa.bin`/`ipljap.bin`/`iplpal.bin` in base alla sua regione.
-1. Copialo nella root del dispositivo di archiviazione su cui è installato Nintendont.
-1. Vai nelle impostazioni di Nintendont e verifica che `Load IPL` sia impostato su ON.
+1. Copy it to the root of the storage device where your GameCube games are on.
+1. Go into Nintendont settings and verify that `Skip IPL` is turned OFF.
 
 #### Utilizzare un controller HID USB con Nintendont
 
