@@ -419,15 +419,27 @@ window.cookieconsent.initialise({
 <h4 id="properly-launching-games">Properly Launching Games</h4>
 
 <p>Games in Nintendont have to be launched from an external device with a specific folder structure, with the usage of a game ID. Game IDs can be found on <a href="https://www.gametdb.com">GameTDB</a>.<br />
-The expected structure for single disc games is as follows:<br />
-<code class="language-plaintext highlighter-rouge">device:/games/(game name) [game ID]/game.iso</code></p>
+The expected structure for single disc games is as follows:<br /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>💾SD/USB:
+ ┗ 📂games
+    ┗ 📂GameName [gameID]
+       ┗ 📜game.iso or 📜game.ciso
+</code></pre></div></div>
 
-<p>The expected structure for multi disc games is as follows:<br />
-<code class="language-plaintext highlighter-rouge">device:/games/(game name) [game ID]/game.iso</code><br />
-<code class="language-plaintext highlighter-rouge">device:/games/(game name) [game ID]/disc2.iso</code> (so on and so forth)</p>
+<p>The expected structure for multi disc games is as follows:<br /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>💾SD/USB:
+┗ 📂games
+   ┗ 📂GameName [gameID]
+      ┣ 📜game.iso or 📜game.ciso
+      ┗ 📜disc2.iso or 📜disc2.ciso
+</code></pre></div></div>
 
-<p>Here is an example using The Legend of Zelda: The Wind Waker on a USB hard drive:<br />
-<code class="language-plaintext highlighter-rouge">USB:/games/The Legend of Zelda: The Wind Waker [GZLE01]/game.iso</code></p>
+<p>Here is an example using The Legend of Zelda: The Wind Waker on a USB hard drive:<br /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>💾SD/USB:
+ ┗ 📂games
+    ┗ 📂The Legend of Zelda: The Wind Waker [GZLE01]
+       ┗ 📜game.iso or 📜game.ciso
+</code></pre></div></div>
 
 <h4 id="bios-setup">BIOS Setup</h4>
 
@@ -435,8 +447,8 @@ The expected structure for single disc games is as follows:<br />
 
 <ol>
   <li>Rename the BIOS file <code class="language-plaintext highlighter-rouge">iplusa.bin</code>/<code class="language-plaintext highlighter-rouge">ipljap.bin</code>/<code class="language-plaintext highlighter-rouge">iplpal.bin</code> based on its region.</li>
-  <li>Copy it to the root of the storage device where Nintendont is installed on.</li>
-  <li>Go into Nintendont settings and verify that <code class="language-plaintext highlighter-rouge">Load IPL</code> is turned ON.</li>
+  <li>Copy it to the root of the storage device where your GameCube games are on.</li>
+  <li>Go into Nintendont settings and verify that <code class="language-plaintext highlighter-rouge">Skip IPL</code> is turned OFF.</li>
 </ol>
 
 <h4 id="using-a-hid-usb-controller-with-nintendont">Using a HID USB controller with Nintendont</h4>
