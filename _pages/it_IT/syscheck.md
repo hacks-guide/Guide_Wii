@@ -29,7 +29,7 @@ Un SysCheck elenca tutti gli IOS e cIOS che sono nella tua console Wii, con alcu
 
     ![](/images/homebrew/syscheck/syscheck_success.png)
 
-1. Se vuoi condividere il Syscheck online, puoi premere il pulsante `A`, che lo mandera a [syscheck.rc24.xyz](http://syscheck.rc24.xyz/) e ti darà il link di un sito web. Puoi anche condividere il file `sysCheck.csv` salvato nella root della tua scheda SD o dispositivo USB. Il file `IOSsysCheck.log` (salvato anch'esso nella root), contiene informazioni aggiuntivi sui tuoi IOS.
+1. If you want to share the SysCheck, you can share the `syscheck.csv` file on the root of your SD card or USB drive. You can also press `A`, which will upload the report to [syscheck.rc24.xyz](http://syscheck.rc24.xyz/).
 
 [Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
 {: .notice--info}
