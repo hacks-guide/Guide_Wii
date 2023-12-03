@@ -18,7 +18,7 @@ Wiiリモコンを使用してBootMiiを操作することはできません。 
 `BootMii` ボタンがHomebrew Channelに表示されない場合は、 [HackMii Installer](hackmii) を起動してBootMiiをインストールしてください。
 {: .notice--warning}
 
-BootMiiを起動させたときに、画面が暗くなったままで、ディスクドライブが青色点滅している場合、SDカードにBootMiiのファイルが入っていません。 [BootMiiのファイル](https://static.hackmii.com/bootmii_sd_files.zip)をダウンロードしてSDカードのルートにコピーし、もう一度試してください。
+BootMiiを起動させたときに、画面が暗くなったままで、ディスクドライブが青色点滅している場合、SDカードにBootMiiのファイルが入っていません。 Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 {: .notice--warning}
 
 ### 必要なもの
@@ -67,6 +67,9 @@ BootMiiをboot2にインストールしている場合、Wii本体を再起動�
 [ブリックの原因を特定](bricks)し、その問題を解決することに注力してください。
 SDカードのNANDバックアップをリストアするときは、[NANDのリストア(BootMii)](bootmiirecover)に従ってください。ただし、前述のとおりWii Family EditionではNANDのリストアは出来ません。
 </div>
+
+As stated earlier, if you have BootMii installed as boot2, it will launch every time you start your console. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
+{: .notice--info}
 
 `nand.bin`と`keys.bin`という2つのファイルがSDカードのルート上に作成されます。 `nand.bin` はWiiの内部メモリで、`keys.bin`はコンソールキーです。
 {: .notice--info}
