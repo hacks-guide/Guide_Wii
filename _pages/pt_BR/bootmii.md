@@ -18,7 +18,7 @@ Navegar pelo BootMii não é possível usando um Wii Remote. Você deve usar os 
 Se o botão `Launch BootMii` não aparecer no Homebrew Channel, [reinicie o Instalador HackMii](hackmii) e instale o BootMii.
 {: .notice--warning}
 
-Se a tela permanecer preta e a luz azul do disco piscar ao iniciar o BootMii, você não possui os arquivos do BootMii no seu cartão SD. Baixe [esse arquivo zip](https://static.hackmii.com/bootmii_sd_files.zip) e extraia ele para a raiz do seu cartão SD, então, tente novamente.
+Se a tela permanecer preta e a luz azul do disco piscar ao iniciar o BootMii, você não possui os arquivos do BootMii no seu cartão SD. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 {: .notice--warning}
 
 ### Requisitos
@@ -67,6 +67,9 @@ Nota: **restaurar um backup da NAND é geralmente a última coisa a se fazer**. 
 Tente o seu melhor para [identificar sua condição de brick](bricks) e reverter a ação que a causou em primeiro lugar.
 Para restaurar de um backup da NAND no seu cartão SD, você pode seguir as instruções para a [RestoreMii](bootmiirecover) (Apenas Wii original).
 </div>
+
+As stated earlier, if you have BootMii installed as boot2, it will launch every time you start your console. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
+{: .notice--info}
 
 Dois arquivos serão criados na raiz do seu cartão SD: `nand.bin` e `keys.bin`. `nand.bin` é a memória interna do seu Wii, enquanto `keys.bin` são as chaves do console.
 {: .notice--info}
