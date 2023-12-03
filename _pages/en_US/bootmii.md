@@ -70,6 +70,10 @@ Try your best to [identify your brick condition](bricks) and reverse the action 
 To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover) (Original Wii only).
 </div>
 
+As stated earlier, if you have BootMii installed as boot2, it will launch every time you start your console.
+If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
+{: .notice--info}
+
 Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is your Wii's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
