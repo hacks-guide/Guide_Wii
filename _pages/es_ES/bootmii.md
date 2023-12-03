@@ -18,7 +18,7 @@ No es posible navegar por BootMii con un mando de Wii. Deberás utilizar los bot
 Si el botón `Abrir BootMii` no aparece en el Canal Homebrew, [vuelve a ejecutar el instalador de HackMii](hackmii) e instala BootMii.
 {: .notice--warning}
 
-Si la pantalla se queda en negro y la luz azul del lector de discos parpadea al iniciar BootMii, significa que faltan los archivos de BootMii en la tarjeta SD. Descarga [este archivo zip](https://static.hackmii.com/bootmii_sd_files.zip) y extráelo a la raíz de la tarjeta SD, luego inténtalo de nuevo.
+Si la pantalla se queda en negro y la luz azul del lector de discos parpadea al iniciar BootMii, significa que faltan los archivos de BootMii en la tarjeta SD. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 {: .notice--warning}
 
 ### Requisitos
@@ -67,6 +67,9 @@ Nota: **restaurar una copia de seguridad de la NAND suele ser una solución extr
 Intenta [identificar la condición de tu bloqueo](bricks) e invierte la acción que lo ha causado.
 Para restaurar desde una copia de seguridad de la NAND que tengas en tu tarjeta SD, puedes seguir las instrucciones de [RestoreMii](bootmiirecover) (solo Wii original).
 </div>
+
+As stated earlier, if you have BootMii installed as boot2, it will launch every time you start your console. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
+{: .notice--info}
 
 Se habrán creado dos archivos en la raíz de la tarjeta SD: `nand.bin` y `keys.bin`. `nand.bin` es la memoria interna de tu Wii, mientras que `keys.bin` son las claves de la consola.
 {: .notice--info}
