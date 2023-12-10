@@ -9,7 +9,7 @@ Per il supporto (in inglese) per RiiConnect 24, assieme a RiiTag, entra nel [ser
 
 [RiiConnect24](https://rc24.xyz/) ti consente di usare i servizi di WiiConnect24 interrotti, che comprendono Canale Meteo, Notizie, Vota Anche Tu, Nintendo, Concorsi Mii e Wii Mail.
 
-Si consiglia di impostare l'ora del tuo Wii a quella attuale prima di procedere. Segui [questo tutorial](rtc) per impostarla.
+Si consiglia di impostare l'ora del tuo Wii a quella attuale prima di procedere. Follow [this tutorial](wiiconnect24#updating-rtc-clock) in order to set it.
 {: .notice--warning}
 
 NON INSTALLARE RIICONNECT24 SU UN WII MINI! Non funzionerà e brickerà il sistema.
