@@ -8,7 +8,7 @@ Questa guida ti mostrerà come preservare file wad dalla Memoria di Sistema dell
 
 ### Requisiti
 
-+ An SD Card or USB drive
++ Una scheda SD o Dispositivo USB
 + [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
 ### Istruzioni
@@ -44,7 +44,7 @@ Questa guida ti mostrerà come preservare file wad dalla Memoria di Sistema dell
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-The WAD has now been dumped, and should appear at the specified directory on your SD card or USB drive.
+La WAD ora è stata dumpata, e dovrebbe apparire nella cartella specifica della tua scheda SD o dispositivo USB.
 
 ![](/images/homebrew/DumpWADS/7.png)
 
