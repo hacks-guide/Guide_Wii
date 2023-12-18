@@ -38,19 +38,19 @@ Também é seguro para [refazer qualquer exploit](get-started) para voltar ao Ha
 Para verificar se o seu Wii tem Priiloader, segure o botão RESET ao ligá-lo.
 {: .notice--info}
 
-Preloader and older versions of Priiloader do not seem to support SDHC (>2GB) cards.
+Preloader e versões antigas do Priiloader não suportam cartões SDHC (>2GB).
 {: .notice--warning}
 
 #### Instruções
 
 1. Insira o seu SD/USB no seu PC.
-1. Copy the `boot.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card or USB drive.
+1. Copie o arquivo `boot.elf` dentro do HackMii Installer v1.2 `.zip` para a raiz do seu cartão SD ou armazenamento USB.
 1. Insira o seu SD/USB no seu Wii.
 1. Entre no Priiloader segurando o botão RESET enquanto liga o seu Wii.
 1. Vá para `Load/Install File`.
-1. Navigate to `boot.elf` and press `1` to load it.
+1. Navegue até o `boot.elf` e pressione `1` para carregá-lo.
 
-If `Press (1) to continue` does not show up after about 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
+Se `Press (1) to continue` não aparecer depois de cerca de 30 segundos, baixar o [HackMii Installer v1.0](https://bootmii.org/download/) pode ajudar.
 {: .notice--info}
 
 [Continue para a instalação do Homebrew Channel e BootMii](hbc)
