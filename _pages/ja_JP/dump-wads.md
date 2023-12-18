@@ -8,6 +8,7 @@ This guide will show you how to dump WADs from your Wii System Memory.
 
 ### 必要なもの
 
++ An SD Card or USB drive
 + [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
 ### 実行方法
@@ -32,10 +33,20 @@ This guide will show you how to dump WADs from your Wii System Memory.
     ![](/images/homebrew/DumpWADS/3.png)
 
 1. Select `Backup to WAD`.
+
+    ![](/images/homebrew/DumpWADS/4.png)
+
 1. At the prompt to `Fakesign the ticket`, select `Yes`.
 1. At the prompt to `Fakesign the TMD`, select `No`.
 1. At the prompt to `Change the output WAD region`, select `No`.
 
-The WAD has now been dumped, and should appear at the specified directory on your SD card.
+    ![](/images/homebrew/DumpWADS/5.png)
 
-![](/images/homebrew/DumpWADS/4.png)
+![](/images/homebrew/DumpWADS/6.png)
+
+The WAD has now been dumped, and should appear at the specified directory on your SD card or USB drive.
+
+![](/images/homebrew/DumpWADS/7.png)
+
+[サイトマップに移動する](site-navigation)
+{: .notice--info}
