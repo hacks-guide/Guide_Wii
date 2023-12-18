@@ -39,29 +39,29 @@ Nintendont utilizza un'interfaccia utente che è principalmente controllabile e 
 
 #### Avvio dei giochi
 
-I giochi in Nintendont devono essere avviati da un dispositivo esterno con una specifica struttura di cartelle, utilizzando gli ID di gioco. Game IDs can be found on [GameTDB](https://www.gametdb.com).<br> The expected structure for single disc games is as follows:<br>
+I giochi in Nintendont devono essere avviati da un dispositivo esterno con una specifica struttura di cartelle, utilizzando gli ID di gioco. Gli ID di gioco possono essere trovati su [GameTDB](https://www.gametdb.com).<br>La struttura prevista per giochi su disco singolo è la seguente:<br>
 ```
 💾SD/USB:
  ┗ 📂games
-    ┗ 📂GameName [gameID]
-       ┗ 📜game.iso or 📜game.ciso
+    ┗ 📂NomeGioco [IDgioco]
+       ┗ 📜game.iso o 📜game.ciso
 ```
 
-The expected structure for multi disc games is as follows:<br>
+La struttura prevista per giochi multi-disco è la seguente:<br>
 ```
 💾SD/USB:
 ┗ 📂games
-   ┗ 📂GameName [gameID]
-      ┣ 📜game.iso or 📜game.ciso
-      ┗ 📜disc2.iso or 📜disc2.ciso
+   ┗ 📂NomeGioco [IDgioco]
+      ┣ 📜game.iso o 📜game.ciso
+      ┗ 📜disc2.iso o 📜disc2.ciso
 ```
 
-Here is an example using The Legend of Zelda: The Wind Waker on a USB hard drive:<br>
+Ecco un esempio in cui viene usato The Legend of Zelda: The Wind Waker in un dispositivo USB:<br>
 ```
 💾SD/USB:
  ┗ 📂games
     ┗ 📂The Legend of Zelda: The Wind Waker [GZLE01]
-       ┗ 📜game.iso or 📜game.ciso
+       ┗ 📜game.iso o 📜game.ciso
 ```
 
 #### Configurazione BIOS
@@ -69,8 +69,8 @@ Here is an example using The Legend of Zelda: The Wind Waker on a USB hard drive
 Puoi usare un BIOS GameCube originale su Nintendont se ne hai ottenuto uno legalmente.
 
 1. Rinomina il file BIOS a `iplusa.bin`/`ipljap.bin`/`iplpal.bin` in base alla sua regione.
-1. Copy it to the root of the storage device where your GameCube games are on.
-1. Go into Nintendont settings and verify that `Skip IPL` is turned OFF.
+1. Copialo nella root del dispositivo di archiviazione in cui si trovano i tuoi giochi GameCube.
+1. Vai nelle impostazioni di Nintendont e controlla che l'opzione `Skip IPL` sia su OFF.
 
 #### Utilizzare un controller HID USB con Nintendont
 
