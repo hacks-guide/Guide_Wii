@@ -9,7 +9,7 @@ Para suporte (em inglês) com RiiConnect24, bem como RiiTag, entre no [RiiConnec
 
 [RiiConnect24](https://rc24.xyz/) permite que você use serviços descontinuados do WiiConnect24, que incluem News, Forecast, Everybody Votes, Nintendo e Check Mii Out Channel, junto com Wii Mail.
 
-Recomenda-se definir seu Wii para a hora atual antes de prosseguir. Follow [this tutorial](wiiconnect24#updating-rtc-clock) in order to set it.
+Recomenda-se definir seu Wii para a hora atual antes de prosseguir. Siga [este tutorial](wiiconnect24#updating-rtc-clock) para configurá-lo.
 {: .notice--warning}
 
 NÃO INSTALE RIICONNECT24 EM UM WII MINI! Não irá funcionar e irá brickar seu console.
