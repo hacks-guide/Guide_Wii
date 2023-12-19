@@ -1,5 +1,5 @@
 ---
-title: "FAQ and Troubleshooting"
+title: "FAQ e Risoluzione dei problemi"
 ---
 
 ## FAQ Principali
@@ -30,7 +30,7 @@ Il tuo erver DNS primario è incorretto o non funzionante.<br> Questo può anche
 
 ##### Per utenti di RiiConnect24
 
-Se ottieni questo errore o vedi il Nintendo's User Agreement senza il logo di RiiConnect24, significa che il tuo ISP (Internet Service Provider) o la rete sta bloccando l'utilizzo del DNS di RC24. Puoi impostare `Auto-Obtain DNS` su `On` per risolvere. RiiConnect24 funzionerà anche senza di esso. Oppure, puoi usare il programma [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest).
+Se ottieni questo errore o vedi l'Accordo Utente di Nintendo senza il logo di RiiConnect24, significa che il tuo ISP (Internet Service Provider) o la rete sta bloccando l'utilizzo del DNS di RC24. Puoi impostare `Auto-Obtain DNS` su `On` per risolvere. RiiConnect24 funzionerà anche senza di esso. Oppure, puoi usare il programma [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest).
 
 ##### Per utenti senza RiiConnect24
 
@@ -38,7 +38,7 @@ Se ottieni questo errore, il server DNS che hai scelto o il tuo internet nella s
 
 #### FORE000006
 
-Se ottieni l'errore FORE000006, il tuo orologio del Wii è probabilmente impostato incorrettamente. Vedi [qui](wiiconnect24#updating-rtc-clock) per istruzioni su come resettarlo correttamente. Se questo fallisce ancora, rimuovi la batteria dell'orologio del Wii (si torva sulla parte inferiore del sistema dietro a una vita) per un'ora e rimettila dentro dopo. Poi, resetta l'orologio del Wii.
+Se ottieni l'errore FORE000006, il tuo orologio del Wii è probabilmente impostato incorrettamente. Vedi [qui](wiiconnect24#updating-rtc-clock) per istruzioni su come resettarlo correttamente. Se il problema persiste, rimuovi la batteria dell'orologio del Wii (si trova nella parte inferiore del sistema dietro a una vite) per un'ora e reinseriscila. Poi, resetta l'orologio del Wii.
 
 ### Come si rimuove il Filtro Famiglia?
 Il [generatore mkey](https://mkey.salthax.org) può generare il codice richiesto per rimuovere il Filtro Famiglia.
@@ -48,56 +48,56 @@ Vedi [questa](bricks) pagina.
 
 ## FAQ Dispositivi di Archiviazione
 
-Negli exploit [BlueBomb](bluebomb), [str2hax](str2hax), o [FlashHax](flashhax), non ti serve una scheda SD per modificare il tuo Wii; è altamente consigliato averne una comunque per il software homebrew e altre cose.
+Negli exploit [BlueBomb](bluebomb), [str2hax](str2hax) o [FlashHax](flashhax), non ti serve una scheda SD per modificare il tuo Wii; è comunque altamente consigliato averne una per gli homebrew e altre cose.
 {: .notice--info}
 
 Il File System consigliato per le schede SD è il FAT32, vedi [questa guida](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) per istruzioni su come formattare.<br> Per i dispositivi USB, il FAT32 è sempre consigliato, anche se gli utenti dovrebbero conoscere le limitazioni del FAT32 che permette dispositivi solo fino a 2TB di spazio. WBFS era un File System utilizzato precedentemente per i backup dei giochi Wii - oggi, è obsoleto e non dovrebbe essere usato.
 {: .notice--info}
 
-For stock Wii Menu versions lower than 4.0, a limitation in the Wii System Software prevents SD cards bigger than 2GB from being used.<br> For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.<br> Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
+Per le versioni stock del Menu Wii inferiori a 4.0, una limitazione nel Software di Sistema della console impedisce alle schede SD più grandi di 2GB di essere usate.<br> Per le versioni stock del Menu Wii 4.0 o superiori, questa limitazione è rimossa e le schede SD di varie dimensioni possono essere usate.<br> Le schede SD da 32GB o inferiori sono le più probabili a funzionare su ogni Wii, ma è stato riportato il funzionamento di schede SD fino a 256GB.
 {: .notice--warning}
 
-For USB devices, flash drives have a high rate of not working on Wii consoles. Instead, it is recommended to use a USB hard drive or solid state drive.
+Per i dispositivi USB, le unità flash hanno ampie probabilità di non funzionare su console Wii. È consigliato, invece, di usare un disco rigido USB o un'unità a stato solido.
 {: .notice--warning}
 
-### General Storage Guidelines
+### Linee Guida Generali Di Storage
 
-When considering buying or using an SD card or USB device, it is worth considering the things that you will be using either storage medium for. Different uses can take up varying amounts of space, some common examples of which are shown below:
+Quando si considera comprare o usare una scheda SD o unità USB, ha senso tenere in considerazione le cose per cui si sta usando un tipo di memoria rispetto a un'altra. Utilizzi differenti occupane diverse quantità di spazio, alcuni esempi comuni sono mostrati di seguito:
 
-+ Wii Backups: The largest Wii games (dual-layer DVD) are up to sizes of 9GB, more normal games are closer to sizes of 4GB or lower. The average user for a Wii backup device would probably want 128GB or more of space.
-+ GameCube Backups: The largest GameCube games reach sizes of up to 1.3GB. ISO sizes are normally this size regardless of the game, but can be considerably lower if NKIT is used as a format instead. The average user for a GameCube backup device would probably want 64GB or more of space.
-+ General Emulation: There are a wide variety of emulators available on the Wii. Because the size of different game ROMs differ dramatically, the average user for an emulation drive would probably want 32GB or more of space.
-+ General Homebrew: For homebrew, the average user would want 2GB or more of space.
-+ NAND Backups: For backing up your NAND with BootMii, the average user would need a minimum of 512MB of free space, but sizes of 1GB or more are recommended.
-+ Bare minimum, exploit only: The minimum amount of space to run an SD-card compatible exploit on a Wii is 128MB.
++ Backup Wii: I giochi Wii più larghi (DVD a doppio strato) hanno dimensioni fino a 9GB, i giochi normali sono più vicini a 4GB o inferiori. L'utente medio per un dispositivo con backup di giochi Wii ha probabilmente bisogno di uno spazio maggiore o uguale a 128GB.
++ Backup GameCube: I backup più grandi di GameCube arrivano a occupare fino a 1.3GB di spazio. I file ISO sono normalmente di queste dimensioni indipendentemente dal gioco, ma può essere decisamente più leggero se viene invece usato il formato NKIT. L'utente medio per un dispositivo con backup di giochi GameCube ha probabilmente bisogno di uno spazio maggiore o uguale a 64GB.
++ Emulazione Generale: Ci sono una varietà di emulatori disponibili sul Wii. Dal momento che le dimensioni tra le ROM dei diversi giochi varia drasticamente, l'utente medio per un dispositivo del genere ha probabilmente bisogno di uno spazio maggiore o uguale a 32GB.
++ Homebrew Generali: Per homebrew, l'utente medio ha probabilmente bisogno di uno spazio maggiore o uguale a 2GB.
++ Backup della NAND: Per eseguire backup della NAND con BootMii, l'utente medio ha probabilmente bisogno di un minimo di 512MB di spazio libero, ma più di 1GB è consigliato.
++ L'essenziale, solo l'exploit: La quantità di spazio minimo per eseguire un exploit compatibile con una scheda SD sul Wii è di 128MB.
 
-### Buying SD Cards
+### Comprare Schede SD
 
-SD cards 2TB or larger currently do not exist, anyone attempting to sell you one is trying to rip you off.
+Attualmente, non esistono schede SD con dimensioni maggiori o uguali a 2TB, chiunque te ne stia cercando di vendere una ti sta truffando.
 {: .notice--danger}
 
-When buying SD cards, it is generally recommended that you stick to well-known brands the more expensive and larger capacity that you get. While you can buy a generic 2GB SD card and most likely be safe, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-20 USD for 256GB and below, whereas 512GB is around 40 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be wary when buying storage on eBay.
+Nell'acquisto delle schede SD, è generalmente consigliato comprare dispositivi di marche ben conosciute e dal prezzo e dimensioni più alte che puoi permetterti. Mentre puoi comprarte una scheda SD generica da 2GB ed essere probabilmente al sicuro, non si può dire lo stesso per le schede SD da 512MB. I prezzi generali per schede SD si aggira attorno a €9.45-€18.91 per schede da 256GB e inferiori, mentre le schede da 512GB costano circa €37.81. Quando compri su Amazon, assicurati che la scheda sia `Venduta da/Spedita da Amazon` o `Venduta da [brand], Venduta da Amazon`. Abbi cautela nel comprare dispositivi di memoria su eBay.
 
-Recommended brands:
+Marche consigliate:
 + Samsung (EVO Select, EVO Plus, PRO Plus)
 + SanDisk (Extreme, Ultra, etc)
 + Lexar (E-Series, Professional)
-+ Silicon Power ("3D NAND" cards, higher capacity usually better value)
++ Silicon Power (schede "3D NAND", normalmente maggiore è la capacità maggiore la qualità)
 + PNY (Elite, Elite-X, etc)
 
-### Buying USB Devices - Hard Drives
+### Comprare dispositivi USB - Dischi Rigidi
 
-When buying USB hard drives, there are only three existing present-day HDD manufacturers: Western Digital, Seagate, and Toshiba. Any and all other hard drive companies are defunct and have either went bankrupt, or were absorbed by the three aformentioned companies. With that said, if you have an extra hard drive lying around made by another company, it should still work! Hard drive technology has remained largely the same within the past 10 or so years. Just make sure to check the S.M.A.R.T data to ensure that the drive isn't failing before you throw all of your data on there.
+Nel comprare dischi rigidi USB, ci sono solo tre produttori di HDD a oggi: Western Digital, Seagate, e Toshiba. Qualsiasi altra compagni è morta ed è andata in bancarotta, o è stata assorbita da una delle tre sopracitate. Detto ciò, se hai un disco rigido in più in giro di un'altra compagnia, dovrebbe comunque funzionare! Le tecnologie dei dischi rigidi sono rimaste le stesse dagli ultimi 10 anni circa. Assicurati solamente di controllare i dati S.M.A.R.T per assicurarti che il dispositivo non stia fallendo prima di buttarci dentro tutti i tuoi dati.
 
-For hard drive sizing, 2.5 inch should work fine running off of USB power alone on a Wii; 3.5 inch consumes much more power and will almost always need an external power adapter. Make sure to plan for this when determining what you want to do with an external drive.
+Per le dimensioni dei dischi rigidi, quelli da 63.5cm dovrebbero funzionare con l'elettricità del cavo USB collegato al Wii da solo; quelli da 88.9cm consumano molta più energia e necessiteranno quasi sicuramente di un alimentatore esterno. Assicurati di tenere questo a mente nel determinare cosa vuoi fare con un dispositivo esterno.
 
-As for your choices in shopping, this largely comes down to three different scenarios:
+Per quanto riguarda le tue scelte nell'acquisto, questo si riassume in tre scenari diversi:
 
-+ Buying a new external hard drive from scratch: New external drives come brand new around 60 USD for 2TB, 50 USD for 1TB, around 30 USD for sizes lower than 1TB. Whatever you do, try to stick within the three present manufacturing brands listed above, but bear in mind that offerings are sparse for drive sizes lower than 1TB.
-+ Buying a new hard drive, and a new enclosure: New hard drives are decently cheaper than buying a pre-made hard drive, and you can buy an enclosure to house this new hard drive. 2.5 inch enclosures are normally powerable off of USB alone, while 3.5 inch enclosures almost always come with an external adapter for power. An example price is buying a 500GB Western Digital drive and a 2.5 inch drive enclosure off of Amazon - all in all, about 30 USD.
-+ Buying an enclosure for an already existing hard drive: If you already have a hard drive laying around, why not put it in an enclosure and use it for your Wii? Enclosures can be found for prices ranging between 10 to 20 USD off of Amazon, as long as you have a drive to supply it with.
++ Comprare un disco rigido esterno da zero: dispositivi nuovi di zecca costano circa €56.72 per 2TB, €47.26 per 1TB, e intorno ai €28.36 per dimensioni inferiori a 1TB. Indipendentemente da cosa faccia, prova a comprare da una delle tre marche sopracitate, ma tieni a mente che le offerte sono scarse per dimensioni inferiori a 1TB.
++ Comprare un nuovo disco rigido, e un nuovo involucro: I dischi rigidi nuovi sono meno costosi dei dischi prefabbricati, e puoi comprare un involucro per chiudere il nuovo disco rigido. Gli involucri da 63.5cm sono di solito dovrebbero funzionare con l'elettricità del solo cavo USB, mentre quelli da 88.9cm richiedono quasi sempre un alimentatore esterno. Un prezzo di esempio è per comprare un disco rigido da 500GB e un involucro di 63.5cm da Amazon - in tutto, circa €28.36.
++ Comprare un involucro per un disco rigido già esistente: Se hai già un disco rigido in giro, perchè non lo metti in un involucri e lo usi per il tuo Wii? Gli involucri possono essere trovati per prezzi che spaziano da €9.45 a €18.91 su Amazon, se hai un disco rigido con cui fornirlo.
 
-### Buying USB Devices - Solid State Drives
+### Comprare dispositivi USB - Unità a Stato Solido
 
-For the purpose of using a drive with a Wii, external SSDs are often more expensive than conventional hard drives for no visible gain in speed on a Wii (the console only supports up to USB 2.0 data speeds). If you would like to buy one or already have one lying around, it's an option, but generally it's recommended to just go for a hard drive if you don't already have one.
+Per lo scopo di un dispositivo da usare su un Wii, gli SSD esterni sono spesso più costosi dei dischi rigidi classici e non c'è un vero guadagno di velocità sul Wii (la console supporta solo velocità fino a quelle di USB 2.0). Se desideri comprarne uno o ne hai uno già in giro, è un'opzione, ma generalmente è consigliato usare un disco rigido se non ne hai già uno.
 {: .notice--warning}

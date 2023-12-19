@@ -12,7 +12,7 @@ Tutti gli exploit elencati qui sono diversi modi di arrivare allo stesso risulta
 
 Questi passaggi ti aiuteranno a modificare il tuo Wii, da zero a BootMii. Prima d'iniziare questa guida, per favore assicurati che il tuo Wii sia sulla versione più recente del firmware (4.3). Se il tuo Wii è già modificato ma è su una versione più vecchia, segui [questa](update) guida per aggiornare la tua configurazione.
 
-### Identificare la revisione della tua console:
+### Identifica la revisione della tua console:
 
 {% include identify-console.html %}<br>
 

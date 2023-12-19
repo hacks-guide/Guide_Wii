@@ -63,7 +63,7 @@ Se vuoi ripristinare i dati di salvataggio di un gioco, usa Dolphin per importar
 
     ![](/images/bootmii/BootMii_NAND_Konami.png)
 
-1. BootMii percorrerà il processo di restore attraverso una simulazione, esponendo cosa verrà cancellato e riscritto. Una volta finita la simulazione, hai un'ultima possibilità per annullare il Nand Restore. Se vuoi continuare, premi START o il bottone Eject per iniziare.
+1. BootMii percorrerà il processo di restore attraverso una simulazione, esponendo cosa verrà cancellato e riscritto. Una volta finita la simulazione, hai un'ultima possibilità per annullare il processo di ripristino. Se vuoi continuare, premi START o il bottone Eject per iniziare.
 
     ![](/images/bootmii/BootMii_NAND_Restore.png)
 

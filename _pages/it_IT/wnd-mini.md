@@ -4,40 +4,40 @@ title: "Wii mini NAND Dumper"
 
 {% include toc title="Table of Contents" %}
 
-This tutorial will show you how to dump your Wii mini's NAND without having to solder an SD card slot. This was made possible by [nitr8](https://gbatemp.net/members/nitr8.72581/).
+Questo tutorial ti mostrerà come effettuare il dump della NAND del tuo Wii mini senza saldare uno slot scheda SD. Questo è stato reso possibile da [nitr8](https://gbatemp.net/members/nitr8.72581/).
 
 
-For support (in English) with Wii mini hacking, join [Wii mini Hacking](https://discord.gg/6ryxnkS) on Discord.
+Per il supporto (in inglese) sull'hacking di Wii mini, unisciti a [Wii mini Hacking](https://discord.gg/6ryxnkS) su Discord.
 {: .notice--info}
 
-If you have a Wii or a Wii mini with an SD card slot soldered, follow [this tutorial](bootmii) to dump your NAND.
+Se hai un Wii o un Wii mini con uno slot scheda SD saldato, segui [questo tutorial](bootmii) per effettuare il dump della NAND.
 {: .notice--info}
 
-There is no way to restore your NAND backup this way without a hardmod.
+Non c'è modo di ripristinare il backup della NAND con questo metodo senza un'hardmod.
 {: .notice--info}
 
 ### Requisiti
 
 * Un Wii
 * Un dispositivo USB
-* [Simple IOS Patcher for Wii mini](https://oscwii.org/library/app/SimpleIOSPatcher_Mini)
-* [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
+* [Simple IOS Patcher per Wii mini](https://oscwii.org/library/app/SimpleIOSPatcher_Mini)
+* [RealWnD per Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
 * [Xyzzy Mod](https://oscwii.org/library/app/xyzzy-mod)
 
 ### Istruzioni
 
-#### Section I - Dumping and Patching IOS 36
+#### Sezione I - Dumping e Patching di IOS 36
 
-1. Download both the Simple IOS Patcher for Wii mini and RealWnD for Wii mini, and extract both zip files to the root of your USB drive.
+1. Scarica sia il Simple IOS Patcher per Wii mini che RealWnD per Wii mini ed estrai entrambi i file zip nel root della tua unità USB.
 
-1. Insert the USB drive into your Wii mini, and launch the Simple IOS Patcher for Wii mini from the Homebrew Channel.
-1. It should start to automatically detect your IOS 36 version and proceed to patch it into slot 236. It will also give you the IOS 236 wad file on your USB.
+1. Inserisci l'unità USB nel tuo Wii mini ed avvia il Simple IOS Patcher per Wii mini dall'Homebrew Channel.
+1. Dovrebbe iniziare a rilevare automaticamente la versione di IOS 36 e procedere con la sua patch nello slot 236. Ti creerà anche un file WAD di IOS 236 nell'USB.
 
-#### Section II - Dumping the NAND
+#### Sezione II - Dumping della NAND
 
-1. Launch RealWnD for Wii mini from the Homebrew Channel.
-1. It should automatically detect IOS 236 on your Wii mini and apply some runtime patches to begin dumping your NAND.
-1. When it is done, you will have 3 new files on your USB:
+1. Avvia RealWnD per Wii mini dall'Homebrew Channel.
+1. Dovrebbe rilevare IOS 236 automaticamente sul tuo Wii mini e applicare alcune patch di runtime per iniziare il dumping della NAND.
+1. Una volta fatto, avrai tre nuovi file nella tua unità USB:
 
 ```
 WiiFlash_n_ECC.img
@@ -45,15 +45,15 @@ WFD_XXX_YY.img
 WiiFlash.log
 ```
 
-The `WiiFlash_n_ECC.img` is your NAND image. The other two files are "error" data, and are useless.
+Il `WiiFlash_n_ECC.img` e l'immagine della NAND. Gli altri due file sono dati "errati" e sono inutili.
 
-#### Section III - Dumping the Wii mini's Keys
+#### Sezione III - Dumping delle chiavi del Wii mini
 
-1. Launch xyzzy mod from the Homebrew Channel.
-1. Select `USB device`
-    + It should start retriving your console information.
-1. When it is done, press any button to exit.
-    + You will have 5 new files on your USB:
+1. Avvia xyzzy mod dall'Homebrew Channel.
+1. Seleziona `USB device`
+    + Dovrebbe iniziare a recuperare le informazioni della tua console.
+1. Una volta finito, premi un pulsante qualsiasi per uscire.
+    + Avrai cinque nuovi file nella tua unità USB:
 
     ```
     bootmii_keys.bin
@@ -63,17 +63,17 @@ The `WiiFlash_n_ECC.img` is your NAND image. The other two files are "error" dat
     seeprom.bin
     ```
 
-For now, only the `bootmii_keys.bin` file is required.
+Per ora, solo il file `bootmii_keys.bin` è richiesto.
 
 
-#### Section IV - Optional: Upload your NAND to Dolphin Emulator
+#### Sezione IV - Facoltativo: Carica la tua NAND nell'Emulatore Dolphin
 
-1. Connect the USB to your PC.
-1. Open Dolphin Emulator on your PC.
-1. Select the tools tab, and in the dropdown menu, go to "manage NAND", and then select "Import BootMii NAND Backup".
-1. Select the dropdown to the right next to the file name bar and then choose the "All Files" option.
-1. Locate your `WiiFlash_n_ECC.img` file and select "open".
-1. Another window will pop up asking for the keys. Locate `bootmii_keys.bin` and select open.
+1. Collega l'USB al tuo PC.
+1. Apri l'Emulatore Dolphin sul tuo PC.
+1. Seleziona la scheda Strumenti, e nel menu a discesa, vai su Gestisci NAND e seleziona "Importa Backup NAND BootMii".
+1. Seleziona il menu a discesa a destr accanto alla barra del nome file e quindi scegli l'opzione "Tutti i file".
+1. Trova il tuo file `WiiFlash_n_ECC.img` e seleziona "Apri".
+1. Un'altra finestra che chiedera le chiavi si aprirà. Trova il `bootmii_keys.bin` e seleziona "Apri".
 
 Continua all'[Installazione dell'Open Shop Channel](osc) Ora che il tuo Wii ha una protezione dai brick adeguata, puoi installare l'Open Shop Channel, una repository affidabile per applicazioni homebrew che possono di cui si può usufruire sia con che senza il Wii.
 {: .notice--info}

@@ -4,9 +4,9 @@ title: "cIOS"
 
 {% include toc title="Table of Contents" %}
 
-Nonostante i [cIOS](https://wiibrew.org/wiki/Custom_IOS) siano stati largamenti soppiantati da AHBPROT, che dà accesso hardware completo, essi hanno comunque delle applicazioni utili. Per esempio, questo permette la funzionalità di USB loader come USB Loader GX e WiiFlow, insieme ad altre applicazioni homebrew come SaveGame Manager GX. Puoi saltare questo processo se vuoi, ma normalmente migliore il tuo Wii con quasi nessun lato negativo.
+Nonostante i [cIOS](https://wiibrew.org/wiki/Custom_IOS) siano stati per la maggior parte soppiantati da AHBPROT, che dà l'accesso completo all'hardware, essi hanno comunque delle applicazioni utili. Per esempio, questo permette la funzionalità di USB loader come USB Loader GX e WiiFlow, insieme ad altre applicazioni homebrew come SaveGame Manager GX. Puoi saltare questo processo se vuoi, ma normalmente migliore il tuo Wii con quasi nessun lato negativo.
 
-Se hai un Wii mini, usa [questa](cios-mini) guida per cIOS invece. Provare a installare altri cIOS su un Wii mini non funzionerà.
+Se hai un Wii mini, usa invece [questa](cios-mini) guida per cIOS. Provare a installare altri cIOS su un Wii mini non funzionerà.
 {: .notice--warning}
 
 ### Requisiti
@@ -68,7 +68,7 @@ Per ogni cIOS che vuoi provare a installare, ti verrà prima mostrata una grigli
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <38>
         Select cIOS slot <248>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
         ![](/images/cios/d2x_v11_248.png)
@@ -79,7 +79,7 @@ Per ogni cIOS che vuoi provare a installare, ti verrà prima mostrata una grigli
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <56>
         Select cIOS slot <249>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
         ![](/images/cios/d2x_v11_249.png)
@@ -90,7 +90,7 @@ Per ogni cIOS che vuoi provare a installare, ti verrà prima mostrata una grigli
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <57>
         Select cIOS slot <250>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
         ![](/images/cios/d2x_v11_250.png)
@@ -101,7 +101,7 @@ Per ogni cIOS che vuoi provare a installare, ti verrà prima mostrata una grigli
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <58>
         Select cIOS slot <251>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
         ![](/images/cios/d2x_v11_251.png)

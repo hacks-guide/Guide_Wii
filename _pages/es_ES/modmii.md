@@ -56,7 +56,7 @@ This wizard requires an SD card.
 
 This wizard allows you to enjoy many of the benefits of a softmodded Wii without installing any permanent modifications to your Wii. It will allow you to launch an exploit to boot an from emulated NAND from external storage, rather than use your Wii's internal NAND.
 
-You can also make a NAND backup without modifying your Wii at all by navigating to ModMii's "Support" folder and launching `Casper2BootMii.bat`. <br> It will save some files to a folder named `COPY_TO_SD`; copy the files inside it to your SD card and [launch an exploit](get-started).
+You can also make a NAND backup without modifying your Wii at all by navigating to ModMii's "Support" folder and launching `Casper2BootMii.bat`. <br> It will save some files to a folder named `COPY_TO_SD`; copy the files inside it to your SD card and launch an exploit like [Wilbrand](wilbrand).
 
 When following one of the exploit guides above, avoid replacing the `boot.elf` file.
 {: .notice--warning}

@@ -9,33 +9,33 @@ La Recovery Mode è l'ultima risorsa per recuperare il tuo Wii da un brick prima
 #### Requisiti
 
 + Un controller GameCube
-+ If the Diagnostic Disc Check was previously removed with Priiloader, or if a drive chip is on hand:
-    + Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OR
-    + Any other exploited Wii game, with the current exploit game save on the console (see [Legacy Exploits](legacy-exploits)) OR
-    + Any retail game, and access to the [Bluebomb](bluebomb) exploit
-+ If the Diagnostic Disc Check was not previously removed with Priiloader, and no drive chip is on hand:
++ Se il Diagnostic Disc Check è stato precedentemente rimosso con Priiloader o se hai un chip dell'unità è a portata di mano:
+    + Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OPPURE
+    + Qualsiasi altro gioco Wii con exploit, con l'attuale salvataggio di gioco con exploit sulla console (vedi gli [Exploit Legacy](legacy-exploits)) OPPURE
+    + Qualsiasi gioco e l'accesso all'exploit [Bluebomb](bluebomb)
++ Se il Diagnostic Disc Check non è stato precedentemente rimosso con Priiloader e se non hai un chip dell'unità è a portata di mano:
     + Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack))
-+ An original revision Wii (Family Edition Wiis will not work due to the lack of GameCube ports - otherwise you must solder some on)
-+ A Windows/macOS/Linux PC with an Internet connection
-+ An SD Card formatted to FAT32
++ Una revisione di Wii originale (i modelli Family Edition di Wii non si possono usare a causa della mancanza delle porte GameCube - altrimenti le devi saldare)
++ Un PC Windows/macOS/Linux con una connessione a Internet
++ Una scheda SD formattata come FAT32
 
-#### Preparation
+#### Preparazione
 
-In order to hold down all 4 individual D-Pad buttons on a GameCube controller, you may be required to take the casing apart.
+Per far in modo che vengano premuti tutti e quattro i pulsanti della croce direzionale di un controller GameCube, potrebbe essere necessario smontarlo.
 {: .notice--warning}
 
-First of all, verify that your Wii can boot into Recovery Mode *at all*. This involves taking a GameCube controller, plugging it into the fourth controller port on a Wii, and simultaneously holding down the 4 individual D-Pad buttons on boot. If everything goes right, you should see a screen similar to the above. Bear in mind that if you are on a System Menu version on 2.0 or prior, you will not see a version number display at all, and you will not be able to boot from discs.
+Per cominciare, verifica che il tuo Wii può avviarsi in Recovery Mode *in alcun modo*. Questo significa prendere un controller GameCube, collegarlo alla porta del giocatore 4 su un Wii e premere simultaneamente tutti e quattro i pulsanti della croce direzionale in fase di avvio. Se tutto va bene, dovresti vedere una schermata simile a quella in alto. Tieni a mente che se ti ritrovi con il Menu di sistema alla versione 2.0 o una precedente, non vedrai alcun numero di versione su schermo e non potrai avviare giochi dai dischi.
 
-#### Method I - Recovery Menu to Smash Stack
+#### Metodo I - Recovery Menu a Smash Stack
 
-#### Method II - Recovery Menu to Save Game Exploit
+#### Metodo II - Recovery Menu a exploit dati di salvataggio
 
-#### Method III - Recovery Menu to Bluebomb
+#### Metodo III - Recovery Menu a Bluebomb
 
 ---
-Under Construction
+In Lavorazione
 
-[Return to Bricks](bricks)
+[Ritorna ai brick](bricks)
 {: .notice--info}
 
 [Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)

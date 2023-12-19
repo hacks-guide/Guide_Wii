@@ -19,7 +19,7 @@ Les deux services ci-dessous sont compatibles l'un avec l'autre et peuvent être
 | ----------------------- | ------- | ------------ |
 | Chaîne météo            | ✅       | ✅            |
 | Chaîne infos            | ⚠️      | ✅            |
-| Bureau Wii              | ⚠️      | ✅            |
+| Bureau Wii              | ✅       | ✅            |
 | Chaîne votes            | ✅       | ✅            |
 | Chaîne Nintendo         | ✅       | ✅            |
 | Chaîne concours Mii     | ⚠️      | ✅            |
@@ -27,11 +27,12 @@ Les deux services ci-dessous sont compatibles l'un avec l'autre et peuvent être
 | Food Channel            | ✅       | ⛔            |
 | Chaîne impression photo | ✅       | ⛔            |
 | Chaîne TV Kirby         | ✅       | ⛔            |
+| TV Guide Channel        | ⚠️      | ⛔            |
 
 #### WiiLink
 A newer WC24/Japanese channel revival service that started in 2020, but is rapidly regaining functionality in many different channels.
 
-Service support status can be found [here](https://www.wiilink24.com/status).<br> Their guide can be found [here](https://www.wiilink24.com/guide/2installation/).
+Service support status can be found [here](https://www.wiilink24.com/status).<br> Their guide can be found [here](https://www.wiilink24.com/guide).
 
 #### RiiConnect24
 Le service de relance WC24 le plus ancien, qui ne prend actuellement en charge que les chaînes WC24 mondiales ainsi que le service de messagerie.

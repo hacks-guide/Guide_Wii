@@ -4,32 +4,34 @@ title: "Priiloader"
 
 {% include toc title="Table of Contents" %}
 
-[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii. It loads before the Wii System Menu does. The tool can also apply hacks that are used to enhance, unlock, and/or fix many System Menu features.
+[Priiloader](https://github.com/DacoTaco/priiloader) è un'utilità essenziale creato da [DacoTaco](https://github.com/DacoTaco) che aggiunge un livello di protezione da brick sul tuo Wii. Si carica prime se si carichi il Menu di Sistema Wii. Può anche applicare hack che possono essere utilizzate per migliorare, sbloccare e/o correggere molte funzioni del Menu di sistema.
 
-Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
+Inoltre, può essere usato per avviare rapidamente titoli e homebrew, oppure per cambiare l'ordine di autoboot del Wii.
 
-For more information about Priiloader and its options, you can see the [Priiloader Usage](priiloader-usage) page.
+
+Per ulteriori informazioni su Priiloader e sulle sue opzioni, puoi vedere la pagina [Usare Priiloader](priiloader-usage).
+{: .notice--info}
 
 ### Requisiti
 
 * Una scheda SD o dispositivo USB
-* [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
-* [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
+* [Priiloader Installer](https://oscwii.org/library/app/priiloader) (il file `.zip`)
+* [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (il file `.zip`)
 
-#### Optional Requirements for vWii (highly recommended)
+#### Requisiti facoltativi per vWii (altamente raccomandati)
 
-* An SD card
-* [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
-    * [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
+* Una scheda SD
+* [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (download diretto)
+    * [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) deve essere installato sulla console affinché il Priiloader Wii U Forwarder possa funzionare.
 
 ### Istruzioni
 
 {% capture vwii-notes %}
 
-If you are using a vWii:
+Se stai usando un vWii:
 
-+ Do NOT install a theme after installing Priiloader, or you will BRICK your vWii!
-+ Priiloader does not have any impact on Wii U VC titles.
++ NON installare un tema dopo aver installato Priiloader, altrimenti c'è il rischio di BRICK sul vWii!
++ Priiloader non avrà effetto su titoli VC per Wii U.
 
 {% endcapture %}
 
@@ -39,75 +41,75 @@ If you are using a vWii:
 
 1. Spegni la console.
 1. Inserisci la scheda SD o dispositivo USB nel tuo computer.
-1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
-1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
-1. (vWii only) Copy the `wiiu` folder from the PriiloaderWiiUForwarder `.zip` to the root of your SD card.
+1. Copia la cartella `apps` dal `.zip` di LoadPriiloader al root della tua scheda SD o unità USB.
+1. Copia la cartella `apps` dal `.zip` di Priiloader al root della tua scheda SD o unità USB.
+1. (Solo per vWii) Copia la cartella `wiiu` dal `.zip` di PriiloaderWiiUForwarder al root della scheda SD.
 1. Reinserisci la tua scheda SD o dispositivo USB nella tua console.
 
-#### Section II - Installing Priiloader
+#### Sezione II - Installazione di Priiloader
 
 1. Accendi la console.
 1. Avvia l'Homebrew Channel.
-1. Launch Priiloader installer from the list of homebrew.
-1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
+1. Avvia Priiloader Installer dalla lista degli homebrew.
+1. Premi il pulsante + sul telecomando Wii oppure il pulsante A su un controller GameCube.
 
     ![](/images/priiloader/installer.png)
 
     ![](/images/priiloader/installing.png)
 
-1. Press A to return to the Homebrew Channel.
+1. Premi A per tornare all'Homebrew Channel.
 
-#### Section III - Entering Priiloader
+#### Sezione III - Avvio di Priiloader
 
-1. Press the HOME button, then select Exit to System Menu to exit the Homebrew Channel.
-1. Your device will have loaded the Priiloader menu.
+1. Premi il pulsante HOME e seleziona Ritorna al Menu di Sistema per uscire dall'Homebrew Channel.
+1. La tua console quindi caricherà il menu di Priiloader.
 
     ![](/images/priiloader/menu.png)
 
-Later on, to enter it you can:
+Successivamente, per entrarci dovrai:
 
-+ Hold the RESET on a Wii while turning it on
-    + Wii Only
-+ Hold the ESC key on a connected USB keyboard while turning on the console
-    + Wii, vWii and Mini
-+ Run the "Load Priiloader" tool from the HBC
-    + Wii, vWii and Mini
-+ Run the "Priiloader Wii U Forwarder" tool
-    + vWii Only
++ Tenere premuto il pulsante RESET sul Wii durante l'accensione
+    + Solo Wii
++ Tenere premuto il tasto ESC su una tastiera USB connessa durante l'accensione della console
+    + Wii, vWii e mini
++ Eseguire "Load Priiloader" dall'HBC
+    + Wii, vWii e mini
++ Usare il "Priiloader Wii U Forwarder"
+    + Solo vWii
 
-#### Section IV - Configuring Priiloader
+#### Sezione III - Configurazione di Priiloader
 
-1. Scroll down to `System Menu Hacks` and press `A`.
+1. Scorri in basso fino a `System Menu Hacks` e premi `A`.
 
     ![](/images/priiloader/menu_hacks.png)
 
-    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br> Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
+    Se hai inserito il Priiloader Installer sulla tua unità USB, assicurati di non avere una scheda SD inserita allo stesso tempo. <br> Altrimenti, Priiloader potrebbe fallire a trovare il file `hacks_hash.ini`.
     {: .notice--warning}
 
-1. Scroll down to each of the following options and press `A`:
+1. Scorri fino a ciascuna delle seguenti opzioni e premi `A`:
     + `Block Online Updates`
-    + If you are NOT using a CRT display: `Remove Deflicker`
-1. For the following options, enable the options according to your console:
+    + Se NON stai usando un display CRT: `Remove Deflicker`
+1. Per le seguenti opzioni, attiva le opzioni in base alla tua console:
     + Wii:
-        + If you are using 480p mode: `480p graphics fix in the system menu`
+        + Se stai usando la modalità 480p: `480p graphics fix in the system menu`
         + Block Disc Updates
     + Wii mini:
-        + Block Disc UPdates
-1. Scroll down to `save settings` and press A.
-1. Press `B` to return to the main menu.
+        + Block Disc Updates
+1. Scorri in basso fino a `save settings` e premi A.
+1. Premi `B` per tornare al menu principale.
 
-### Wii mini: Next Steps
+### Wii mini: I passaggi successivi
 
-Continue to [Wii mini cIOS](cios-mini)<br> This guide provides installation instructions for cIOS on Wii minis.
+Continua su [Wii mini cIOS](cios-mini)<br> Questa guidà fornisce istruzioni di installazione per il cIOS su Wii mini.
 {: .notice--info}
 
-### Wii: Next Steps
+### Wii: I passaggi successivi
 
-If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
+Se sei arrivato a questo punto, congratulazioni! Hai finito con la sezione richiesta della guida principale! Puoi continuare se vuoi sapere di più, ma tutto ciò che è oltre questo punto è facoltativo.
 {: .notice--success}
 
-Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
+Continua su [cIOS](cios)<br> Questa guida fornisce i passaggi su come installare una configurazione base di cIOS sul tuo Wii, attivando funzionalità nelle app tipo loader USB.
 {: .notice--info}
 
-[View the Brick Prevention Guidelines](bricks#brick-prevention)<br> These guidelines list ways that to avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
+[Visualizza le linee guida per Prevenzione dei Brick](bricks#brick-prevention)<br> Queste linee guida elencano modi per evitare il brick sul tuo Wii, oltre alla sola installazione di BootMii e Priiloader.
 {: .notice--info}

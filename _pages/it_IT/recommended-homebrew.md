@@ -1,55 +1,55 @@
 ---
-title: Recommended Homebrew
+title: Homebrew consigliati
 ---
 
 {% include toc title="Table of Contents" %}
 
-This page outlines homebrew that are recommended by the wii.hacks.guide staff for being useful, nice to have, or just flat out good. Take full advantage of the power you now have with your Wii!
+Questa pagina elenca homebrew che sono consigliati dallo staff di wii.hacks.guide per la loro utilità, piacevolezza ad avere, o semplicemente perché sono buoni. Approfitta appieno del potere che ora hai con il tuo Wii!
 
-Homebrew that has the ability to make permanant changes to your Wii are highlighted in **bold**.
+Homebrew che hanno la capacità di apportare modifiche permanenti al tuo Wii sono evidenziati in **grassetto**.
 
-### Utilities
+### Utilità
 
-+ [**YAWM ModMii Edition**](https://oscwii.org/library/app/yawmME) - An extensively supported WAD manager with additional features. Recommended over any other WAD manager due to its extensive anti-brick protection.
-+ [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME) - A homebrew application which checks information about your Wii and pastes it back in a readable, sendable format. Think of it like a "System Information" app but for the Wii.
-+ [**CDBackup**](https://oscwii.org/library/app/cdbackup) - Backup, restore, and delete Wii Message Board data.
-+ [**AnyRegion Changer ME**](https://oscwii.org/library/app/ARCME) - ModMii edition of AnyRegion Changer. While a powerful tool for changing region settings, it can also lead to severe bricks like [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) so **only use this app if you know what you are doing**.
-+ [**WiiXplorer-SS**](https://oscwii.org/library/app/wiixplorer-ss) - A modified and updated version of WiiXplorer. A file manager for the Wii, it allows you to view and customize files both on an SD card, a USB device, and the internal Wii memory. For this reason it is a very powerful but also dangerous tool - don't modify files on the system NAND unless you know what you are doing, as it can lead to various types of [bricks](bricks).
-+ [**SaveGame Manager GX**](https://oscwii.org/library/app/SaveGame_Manager_GX) - A savegame/Mii extractor for the Wii. It supports GameCube memory cards (physical and virtual), emuNANDs, normal and protected saves, themes, and more.
-+ [**MyMenuifyMod**](https://oscwii.org/library/app/mymenuifymod) - An application that allows you to theme the Wii Menu. While quite useful to make your Wii unique, it also has the ability to cause a [minor brick](bricks#theme-brick), so make sure to read our [theme guide](themes) for safe usage instructions.
-+ [CleanRip](https://oscwii.org/library/app/CleanRip) - A tool to backup GameCube and Wii discs. Further information can be found in our [disc dumping guide](dump-games).
-+ [**d2x cIOS installer**](https://oscwii.org/library/app/d2x-cios-installer) - A custom installer for Wii IOS, some of which is required for the functioning of certain software like USB loaders. You can see the guide [here](cios).
-+ [FTPii](https://oscwii.org/library/app/ftpii) - An FTP server for your Wii, allowing you to transfer files across the network.
-
-
-
-### Games and Loaders
-
-+ [**Riivolution**](https://oscwii.org/library/app/riivolution) - An on-the-fly game patcher for use with retail game discs. It allows users to place content on an SD card or a USB device, which is subsequently read by the game during normal play. Riivolution can be used for custom textures, music, levels, memory patches, game translations, and more!
-+ [USB Loaders](wii-loaders) - A general recommendation for a USB loader of any kind, which allows you to play game backups of retail discs. Further information can be found in our linked guide, which encompasses both Wii and GameCube loaders.
-+ [CavEX](https://oscwii.org/library/app/cavex) - A project aiming to recreate the core survival experience of your favorite block game on the Wii up to Beta 1.7.3.
-+ [Sonic CD](https://oscwii.org/library/app/SonicCDWii) - A port of the Sonic CD 2011 re-release from the RSDKv3 decompilation. **The app requires assets from the official release in order to run**.
-+ [CTGP-R](https://www.chadsoft.co.uk/download/) - A hefty mod of Mario Kart Wii that adds over **200** new tracks to the game. Requires a retail Mario Kart Wii game disc to run, independent of Riivolution.
-+ [Newer Super Mario Bros. Wii](https://newerteam.com/wii/download.html) - A significant NSMBW mod that adds **128** brand new levels to the game. Requires a retail NSMBW disc and Riivolution to run.
++ [**YAWM ModMii Edition**](https://oscwii.org/library/app/yawmME) - Un WAD manager ampiamente supportato con funzionalità aggiuntive. Consigliato sopra tutti gli altri WAD manager grazie alla sua ampia protezione anti-brick.
++ [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME) - Un'applicazione homebrew che controlla le informazioni sul tuo Wii e le elenca in un formato leggibile e inviabile. Pensalo come un'applicazione tipo "Informazioni di sistema" ma per Wii.
++ [**CDBackup**](https://oscwii.org/library/app/cdbackup) - Backup, ripristino ed eliminazione dei dati della Bacheca Wii.
++ [**AnyRegion Changer ME**](https://oscwii.org/library/app/ARCME) - Edizione ModMii di AnyRegion Changer. Nonostante sia un'utilità potente per cambiare le impostazioni sulla regione, può anche causare brick seri tipo [Korean Wii/Error 003](bricks#korean-kiierror-003-brick), quindi **usa questa app solo se sai cosa stai facendo**.
++ [**WiiXplorer-SS**](https://oscwii.org/library/app/wiixplorer-ss) - Una versione modificata e migliorata di WiiXplorer. Un gestore file per Wii, ti consente di visualizzare e modificare i file sia su scheda SD, che unità USB, che la memoria interna del Wii. Per questo motivo è uno strumento tanto potente quanto pericoloso - non modificare i file nella NAND del sistema a meno che non sappia quello che stai facendo, poiché può conseguirne vari tipi di [brick](bricks).
++ [**SaveGame Manager GX**](https://oscwii.org/library/app/SaveGame_Manager_GX) - Un estrattore di dati di salvataggio e di Mii per Wii. Supporta le memory card di GameCube (fisiche e virtuali), EmuNAND, salvataggi normali e protetti, temi e altro ancora.
++ [**MyMenuifyMod**](https://oscwii.org/library/app/mymenuifymod) - Un'applicazione che ti permette di personalizzare il Menu Wii con i temi. Anche se è molto utile nel rendere unico il tuo Wii, ha anche la capacità di causare un [brick minore](bricks#theme-brick), quindi assicurati di leggere la nostra [guida sui temi](themes) per un utilizzo adeguato.
++ [CleanRip](https://oscwii.org/library/app/CleanRip) - Un'utilità che crea backup di dischi Wii e GameCube. Ulteriori informazioni sono disponibili nella nostra [guida sui dump di dischi](dump-games).
++ [**d2x cIOS installer**](https://oscwii.org/library/app/d2x-cios-installer) - Un installer personalizzato per Wii IOS, di cui una parte è necessaria per il funzionamento di certi software tipo loader USB. Puoi vedere la guida [qui](cios).
++ [FTPii](https://oscwii.org/library/app/ftpii) - Un server FTP per il tuo Wii che ti permette di trasferire file attraverso la rete.
 
 
 
-### Emulators
+### Giochi e loader
 
-+ [FCE Ultra GX](https://oscwii.org/library/app/fceugx) - A port of FCE Ultra, a Nintendo Entertainment System/Famicom emulator, to the Wii.
-+ [Snex9x RX](https://oscwii.org/library/app/Snes9xRX) - A fork of Snes9x GX, a Super Nintendo Entertainment System/Super Famicom emulator, with extra features and speed improvements.
-+ [Wii64](https://oscwii.org/library/app/wii64) - A port of Mupen64 0.5, a Nintendo 64 emulator, to the Wii.
-+ [Genesis Plus GX](https://oscwii.org/library/app/genplus-gx) - An emulator with support for the Sega SG-1000, Sega Master System, Sega Genesis/Mega Drive, Sega Game Gear, and Sega/Mega CD consoles.
-+ [mGBA](https://oscwii.org/library/app/mgba) - A port of mGBA, a Game Boy/Game Boy Color/Game Boy Advance emulator, to the Wii.
-+ [WiiMednafen](https://oscwii.org/library/app/wiimednafen) - A port of Mednafen, a multi-system emulator, to the Wii. This version supports more obscure consoles such as the Neo Geo Pocket, TurboGrafx 16/PC Engine (CD), and Bandai Wonderswan.
-+ [WiiSX](https://oscwii.org/library/app/wiiSX) - A port of PCSX-ReARMed, a Sony PlayStation emulator, to the Wii.
-+ [DOSBox Wii](https://oscwii.org/library/app/dosbox-wii) - A port of DOSBox, an emulator which runs software for MS-DOS compatible disk operating systems.
++ [**Riivolution**](https://oscwii.org/library/app/riivolution) - Un patcher che applica patch di gioco al volo utilizzando giochi su disco. Consente agli utenti di inserire conenuti su una scheda SD o unità USB che poi verranno letti dal gioco mentre si gioca. Riivolution può essere utilizzato per texture personalizzate, musica, livelli, patch di memoria, traduzioni di gioco e altro ancora!
++ [Loader USB](wii-loaders) - Una raccomandazione generale per un loader USB di qualunque tipo che ti consente di giocare a backup di giochi su disco. Ulteriori informazioni possono essere trovate nella nostra guida, che comprende sia loader Wii che loader GameCube.
++ [CavEX](https://oscwii.org/library/app/cavex) - Un progetto con l'intento di ricreare l'esperienza base di soppravivenza del tuo gioco di blocchi preferito su Wii fino alla Beta 1.7.3.
++ [Sonic CD](https://oscwii.org/library/app/SonicCDWii) - Un port del re-release 2011 di Sonic CD dalla decompilation RSDKv3. **L'app richiede gli asset dal rilascio ufficiale al fine di consentirne l'avvio.**.
++ [CTGP-R](https://www.chadsoft.co.uk/download/) - Una mod abbondante di Mario Kart Wii che aggiunge più di **200** nuovi tracciati al gioco. Richiede un disco per Mario Kart Wii per permetterne l'esecuzione, indipendente da Riivolution.
++ [Newer Super Mario Bros. Wii](https://newerteam.com/wii/download.html) - Una mod significativa di NSMBW che aggiunge **128** nuovi livelli al gioco. Richiede un disco per NSMBW e Riivolution per avviarsi.
 
-### Entertainment
 
-+ [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - A modified and updated verison of WiiMC. Turns your Wii into a fully fledged media center, with the ability to listen to music, watch videos, play DVDs, and more.
-+ [Schism Tracker](https://oscwii.org/library/app/schismtracker) - A editor and player for tracked music (IT, XM, S3M, MOD, etc.). You can find music to try out [here](https://modarchive.org/).
+
+### Emulatori
+
++ [FCE Ultra GX](https://oscwii.org/library/app/fceugx) - Un port di FCE Ultra, un emulatore di Nintendo Entertainment System/Famicom, per Wii.
++ [Snex9x RX](https://oscwii.org/library/app/Snes9xRX) - Un fork di Snes9x GX, un emulatore Super Nintendo Entertainment System/Super Famicom, con funzionalità aggiuntive e miglioramenti della velocità.
++ [Wii64](https://oscwii.org/library/app/wii64) - Un port di Mupen64 0.5, un emulatore Nintendo 64, per Wii.
++ [Genesis Plus GX](https://oscwii.org/library/app/genplus-gx) - Un emulatore con il supporto per le console Sega SG-1000, Sega Master System, Sega Genesis/Mega Drive, Sega Game Gear, e Sega/Mega CD.
++ [mGBA](https://oscwii.org/library/app/mgba) - Un port di mGBA, un emulatore Game Boy/Game Boy Color/Game Boy Advance, per Wii.
++ [WiiMednafen](https://oscwii.org/library/app/wiimednafen) - Un port di Mednafen, un emulatore multi-sistema, per Wii. Questa versione supporta le console più oscure tipo Neo Geo Pocket, TurboGrafx 16/PC Engine (CD) e Bandai Wonderswan.
++ [WiiSX](https://oscwii.org/library/app/wiiSX) - Un port di PCSX-ReARMed, un emulatore Sony PlayStation, per Wii.
++ [DOSBox Wii](https://oscwii.org/library/app/dosbox-wii) - Un port di DOSBox, un emulatore che esegue software per sistemi operativi su disco compatibile con MS-DOS.
+
+### Intrattenimento
+
++ [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - Una versione modificata e migliorata di WiiMC. Trasforma il tuo Wii in un centro multimediale a tutti gli effetti, con la possibilità di ascoltare musica, guardare video, riprodurre DVD e altro ancora.
++ [Schism Tracker](https://oscwii.org/library/app/schismtracker) - Un editor e riproduttore per musica tracker (IT, XM, S3M, MOD, ecc.). Puoi trovare musica da provare [qui](https://modarchive.org/).
 + [Danbo](https://oscwii.org/library/app/danbo) - Danbo
 
-[Continue to WiiConnect24](wiiconnect24)<br> WiiConnect24 was originally discontinued in June of 2013, but as of the present, there are now two different services that restore its functionality in several different applications.
+[Continua verso WiiConnect24](wiiconnect24)<br> WiiConnect24 è stato inizialmente interrotto nel giugno 2013, ma nel presente, ora ci sono due servizi diversi che ripristinano le sue funzionalità in diverse applicazioni.
 {: .notice--info}

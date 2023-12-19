@@ -18,7 +18,7 @@ Naviguer sur BootMii n'est pas possible avec une manette Wii. Vous devez utilise
 Si le bouton `Lancez BootMii` n'apparaît pas dans la Chaîne Homebrew, [relancez l'installateur HackMii](hackmii) et installez BootMii.
 {: .notice--warning}
 
-Si l'écran reste noir et que le voyant du lecteur de disque bleu clignote au lancement de BootMii, il vous manque les fichiers BootMii sur votre carte SD. Téléchargez [ce fichier zip](https://static.hackmii.com/bootmii_sd_files.zip) et extrayez-le à la racine de votre carte SD, puis réessayez.
+Si l'écran reste noir et que le voyant du lecteur de disque bleu clignote au lancement de BootMii, il vous manque les fichiers BootMii sur votre carte SD. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 {: .notice--warning}
 
 ### Prérequis
@@ -67,6 +67,9 @@ Remarque : **restaurer une sauvegarde de la NAND est généralement un dernier r
 Essayez de faire de votre mieux pour [comprendre pourquoi/comment votre console est briqué](bricks) et inverser l'action qui l'a causé en premier lieu.
 Pour restaurer à partir d'une sauvegarde de la NAND sur votre carte SD, vous pouvez suivre les instructions pour [RestoreMii](bootmiirecover) (Wii originale uniquement).
 </div>
+
+As stated earlier, if you have BootMii installed as boot2, it will launch every time you start your console. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
+{: .notice--info}
 
 Deux fichiers ont été créés à la racine de votre carte SD : `nand.bin` et `keys.bin`. `nand.bin` est la mémoire interne de votre Wii, tandis que `keys.bin` sont les clés de votre console.
 {: .notice--info}

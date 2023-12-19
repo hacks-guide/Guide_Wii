@@ -8,6 +8,7 @@ Este guia irá mostrar como você pode fazer backup de WADs da Memória do Siste
 
 ### Requisitos
 
++ An SD Card or USB drive
 + [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
 ### Instruções
@@ -32,10 +33,20 @@ Este guia irá mostrar como você pode fazer backup de WADs da Memória do Siste
     ![](/images/homebrew/DumpWADS/3.png)
 
 1. Selecione `Backup to WAD`.
+
+    ![](/images/homebrew/DumpWADS/4.png)
+
 1. No prompt `Fakesign the ticket`, selecione `Yes`.
 1. No prompt `Fakesign the TMD`, selecione `No`.
 1. No prompt `Change the output WAD region`, selecione `No`.
 
-O WAD agora foi copiado e deve aparecer no diretório especificado no seu cartão SD.
+    ![](/images/homebrew/DumpWADS/5.png)
 
-![](/images/homebrew/DumpWADS/4.png)
+![](/images/homebrew/DumpWADS/6.png)
+
+The WAD has now been dumped, and should appear at the specified directory on your SD card or USB drive.
+
+![](/images/homebrew/DumpWADS/7.png)
+
+[Clique aqui para voltar ao índice do site.](site-navigation)
+{: .notice--info}

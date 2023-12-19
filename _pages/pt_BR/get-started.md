@@ -1,28 +1,28 @@
 ---
-title: "Get Started"
+title: "Começando"
 ---
 
 {% include toc title="Sumário" %}
 
-It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and install many types of homebrew.
+É recomendado ter pelo menos um cartão SD após o processo inicial do desbloqueio, pois isso permitirá que você faça um backup da NAND usando o BootMii e instale vários tipos de homebrew.
 {: .notice--info}
 
-All of the exploits listed here are different methods of achieving the same end-result (getting to the HackMii installer).
+Todos os exploits listados aqui são métodos diferentes de alcançar o mesmo resultado final (chegando ao instalador HackMii).
 {: .notice--info}
 
-These steps will help you softmod your Wii, from stock to BootMii. Before starting this guide, please ensure that your console is on the latest version of the Wii firmware (4.3). If your Wii is already softmodded but is on an older version, follow [this](update) guide to upgrade your setup.
+Essas etapas ajudarão você a desbloquear seu Wii, de fábrica ao BootMii. Antes de iniciar este guia, por favor, certifique-se de que o seu console está na versão mais recente do firmware do Wii (4.3). Se o seu Wii já está desbloqueado, mas está em uma versão mais antiga, siga [este](update) guia para atualizar sua configuração.
 
-### Identify your console revision:
+### Identifique a revisão do console:
 
 {% include identify-console.html %}<br>
 
-### Select your exploit
+### Selecione o seu exploit
 
-Select the exploit that corresponds to your console and situation the best. If the recommended option does not work for you, or if you are curious about other exploits, check out [Legacy Exploits](legacy-exploits).
+Selecione o exploit que corresponde ao seu console e encontre o melhor para você. Se a opção recomendada não funciona para você, ou se você está curioso sobre outros exploits, confira [Legacy Exploits](legacy-exploits).
 
-| Console Revision       | Recommended Exploit                                                                                                                                                                                                                                                                      |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wii/Wii Family Edition | If you can use a Windows PC:<br> Automatic Setup: Proceed to [ModMii](modmii)<br> If you can use an SD card:<br> Manual Setup: Proceed to [Wilbrand](wilbrand)<br> If you cannot use an SD card:<br> Manual Setup: Proceed to [str2hax](str2hax)<br> |
-| Wii mini               | Proceed to [Bluebomb](bluebomb)                                                                                                                                                                                                                                                          |
-| Wii U (vWii)           | If you have not modded your Wii U yet:<br> Proceed to [Introduction (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/)<br> If your Wii U is already modded:<br> Proceed to [vWii Modding (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/vwii-modding)                    |
-| Dolphin Emulator       | Proceed to [Homebrew Channel on Dolphin](homebrew-dolphin)                                                                                                                                                                                                                               |
+| Revisão do console     | Exploits Recomendados                                                                                                                                                                                                                                                                                                                                    |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wii/Wii Family Edition | Se você puder usar um PC Windows:<br> Configuração Automática: Prossiga para [ModMii](modmii)<br> Se você puder usar um cartão SD:<br> Configuração Manual: Prossiga para [Wilbrand](wilbrand)<br> Se você não puder usar um cartão SD:<br> Configuração Manual: Prossiga para [str2hax](str2hax)<br>                |
+| Wii Mini               | Prosseguir para [Bluebomb](bluebomb)                                                                                                                                                                                                                                                                                                                     |
+| Wii U (vWii)           | Se você ainda não desbloqueou seu Wii U:<br> Prossiga para [Introdução (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/)<br> Se seu Wii U já está modificado:<br> Prossiga para [Desbloqueio vWii (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/vwii-modding) (Lembrando que os tutoriais no Wii U não estão disponíveis em português) |
+| Emulador Dolphin       | Prossiga para [Homebrew Channel no Dolphin](homebrew-dolphin)                                                                                                                                                                                                                                                                                            |

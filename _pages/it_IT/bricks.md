@@ -163,7 +163,7 @@ Questo di solito succede subito dopo un aggiornamento della versione del sistema
 #### Soluzioni
 In quanto questo Wii succede soprattutto dopo gli aggiornamenti del Menu Wii, Priiloader non sarà presente.
 
-I Wii coreani sono anche stati rilasciati con il Menu Wii 3.3, all'incirca quando Nintendo [ha corretto il bug Trucha di boot1](https://wiibrew.org/wiki/3.3#Changes), quindi BootMii su boot2 non può essere installato nè usato sui Wii coreani.
+I Wii coreani sono anche stati rilasciati con il Menu Wii 3.3, all'incirca quando Nintendo [ha corretto il bug Trucha di boot1](https://wiibrew.org/wiki/3.3#Changes), quindi BootMii su boot2 non può essere installato né usato sui Wii coreani.
 
 Anche se queste limitazioni lasciano il Wii in una situazione pericolosa, **è comunque sistemabile**. Il procedimento include entrare in [Recovery Mode](recovery-mode), dove un exploit può essere avviato per accedere all'Homebrew Channel e rimuovere le condizioni che hanno causato il brick.
 
@@ -191,7 +191,7 @@ Questo brick sembra identico a un brick a basso livello, tuttavia puoi ancora av
 #### Causa
 Questo brick si verifica quando il modulo Wi-Fi (o Bluetooth) del tuo Wii è danneggiato o inserito incorrettamente. In questi casi, il Wii si blocca su uno schermo nero nell'attesa di una risposta dall'IOS.
 
-Questo succede anche se installi un IOS di un Wii normale su un WIi mini, perchè il Wii mini non possiede il modulo Wi-Fi.
+Questo succede anche se installi un IOS di un Wii normale su un Wii mini, poiché il Wii mini non possiede il modulo Wi-Fi.
 
 #### Soluzioni
 Per risolvere questo problema, puoi provare a riposizionare o rimpiazzare il modulo Wi-Fi/Bluetooth.

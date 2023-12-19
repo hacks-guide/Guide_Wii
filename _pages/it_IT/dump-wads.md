@@ -8,6 +8,7 @@ Questa guida ti mostrerà come preservare file wad dalla Memoria di Sistema dell
 
 ### Requisiti
 
++ Una scheda SD o Dispositivo USB
 + [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
 ### Istruzioni
@@ -32,10 +33,20 @@ Questa guida ti mostrerà come preservare file wad dalla Memoria di Sistema dell
     ![](/images/homebrew/DumpWADS/3.png)
 
 1. Seleziona `Backup to WAD`.
+
+    ![](/images/homebrew/DumpWADS/4.png)
+
 1. All'opzione `Fakesign the ticket`, seleziona `Si`.
 1. All'opzione `Fakesign the TMD`, seleziona `No`.
 1. All'opzione `Change the output WAD region`, seleziona `No`.
 
-Il file WAD è ora stato scaricato, e dovrebbe apparire nella cartella specifica nella tua scheda SD.
+    ![](/images/homebrew/DumpWADS/5.png)
 
-![](/images/homebrew/DumpWADS/4.png)
+![](/images/homebrew/DumpWADS/6.png)
+
+La WAD ora è stata dumpata, e dovrebbe apparire nella cartella specifica della tua scheda SD o dispositivo USB.
+
+![](/images/homebrew/DumpWADS/7.png)
+
+[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+{: .notice--info}
