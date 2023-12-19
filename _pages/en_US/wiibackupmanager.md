@@ -59,7 +59,7 @@ You may format it as NTFS, but it won't work with a majority of apps (eg. The Ho
 cIOS is needed for your Wii to use a USB Loader.
 {: .notice--info}
 
-You can now use [USB Loader GX](usbloadergx) or [WiiFlow](wiiflow) to play games from your USB drive or SD card.
+You can now use [USB Loader GX or WiiFlow](wii-loaders) to play games from your USB drive or SD card.
 {: .notice--info}
 
 [Click here to go back to the site index.](site-navigation)
