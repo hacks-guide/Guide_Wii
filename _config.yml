@@ -197,7 +197,7 @@ exclude: [
   _pages/fr_FR,
   _pages/he_IL,
   _pages/hu_HU,
-  _pages/it_IT,
+  # _pages/it_IT,
   _pages/ja_JP,
   _pages/ko_KR,
   _pages/nl_NL,
@@ -331,3 +331,9 @@ defaults:
       type: pages
     values:
       permalink: /index:output_ext
+  - scope:
+      path: "_pages/it_IT"
+      type: pages
+    values:
+      permalink: /it_IT/:basename:output_ext
+      lang: it
