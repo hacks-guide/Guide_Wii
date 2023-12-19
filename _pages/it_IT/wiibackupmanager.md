@@ -56,7 +56,7 @@ Assicurati che l'unità USB sia formattata come FAT32. Non formattarla come altr
 [Continua con cIOS](cios)<br> Il cIOS è richiesto nel tuo Wii per l'utilizzo dei loader USB.
 {: .notice--info}
 
-Ora puoi usare [USB Loader GX](usbloadergx) oppure [WiiFlow](wiiflow) per giocare ai giochi dalla tua unità USB o scheda SD.
+You can now use [USB Loader GX or WiiFlow](wii-loaders) to play games from your USB drive or SD card.
 {: .notice--info}
 
 [Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
