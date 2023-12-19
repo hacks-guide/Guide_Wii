@@ -1,0 +1,687 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Loader di backup Wii - Wii Hacks Guide</title>
+<meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+  <meta name="author" content="Nintendo Homebrew">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wii Hacks Guide">
+<meta property="og:title" content="Loader di backup Wii">
+<meta property="og:url" content="https://wii.hacks.guide/it_IT/wii-loaders.html">
+
+
+  <meta property="og:description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://wii.hacks.guide/it_IT/wii-loaders.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nintendo Homebrew",
+      "url": "https://wii.hacks.guide/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wii Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- hacks-guide change start: cookie consent, favicon, locales -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/site-config/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/site-config/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="manifest" href="/assets/js/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/site-config/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/site-config/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/site-config/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/assets/xml/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#28282b"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "Questo sito web utilizza i cookie per visualizzare l'avanzamento corrente della guida sulla barra laterale e per migliorare il sito."
+  }
+})});
+</script>
+<!-- hacks-guide change end -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+<!-- hacks-guide change start: Disable caching -->
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+<!-- hacks-guide change start: disable default masthead title -->
+      <!--
+        <a class="site-title" href="/">
+          Wii Hacks Guide
+          
+        </a>
+      -->
+<!-- hacks-guide change end -->
+        <ul class="visible-links">
+<!-- hacks-guide change start: multi-language configuration -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/it_IT/">Menu Principale</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/per-iniziare">Per Iniziare</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/navigazione-sito">Navigazione del Sito</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/faq">FAQ</a></li>
+            
+          
+<!-- hacks-guide change end -->
+        </ul>
+        
+<!-- hacks-guide change start: Add language selector -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/wii-loaders.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/wii-loaders.html">Italiano</a></li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="greedy-nav__toggle_lang" type="button"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+<!-- hacks-guide change end -->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- hacks-guide change start: Implement progress table, replace existing sidebar -->
+<!--
+
+  <div class="sidebar sticky">
+  
+  
+    
+    
+  
+  </div>
+
+-->
+
+
+
+<div class="sidebar sticky" style="display: none;">
+  <!-- hacks-guide change start: Refactor entire subsection to allow using translations -->
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">Progresso Complessivo</span>
+      <ol>
+        
+          
+            <li style="display: none;" data-name="home"><a href='/it_IT/'>Menu Principale</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="get-started"><a href='/it_IT/per-iniziare'>Per Iniziare</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="letterbomb"><a href='/it_IT/letterbomb'>LetterBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bluebomb"><a href='/it_IT/bluebomb'>BlueBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="flashhax"><a href='/it_IT/flashhax'>FlashHax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="str2hax"><a href='/it_IT/str2hax'>str2hax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wilbrand"><a href='/it_IT/wilbrand'>Wilbrand</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="multiple-options"><i>(Opzioni Multiple)</i></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc"><a href='/it_IT/hbc'>Installazione dell'Homebrew Channel e di BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc-mini"><a href='/it_IT/hbc-mini'>Homebrew Channel - solo per Wii mini</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bootmii"><a href='/it_IT/bootmii'>Backup BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="priiloader"><a href='/it_IT/priiloader'>Priiloader</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="osc"><a href='/it_IT/osc'>Open Shop Channel</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/it_IT/cios-mini'>d2xl cIOS per Wii mini (sperimentale)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wnd-mini"><a href='/it_IT/wnd-mini'>Wii mini NAND Dumper</a></li>
+          
+        
+      </ol>
+    </li>
+  </ul>
+</nav>
+<!-- hacks-guide change end -->
+
+</div>
+
+
+<!-- hacks-guide change end-->
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Loader di backup Wii">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Loader di backup Wii
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+<!-- hacks-guide change start -->
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>Per supporto in Inglese, chiedere aiuto sul server <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a>.</b></div>
+        
+
+        <hr>
+<!-- hacks-guide change end -->
+
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#differenze-tra-wiiflow-lite-e-usb-loader-gx" id="markdown-toc-differenze-tra-wiiflow-lite-e-usb-loader-gx">Differenze tra WiiFlow Lite e USB Loader GX</a></li>
+  <li><a href="#struttura-percorsi-di-gioco" id="markdown-toc-struttura-percorsi-di-gioco">Struttura percorsi di gioco</a></li>
+  <li><a href="#wiiflow-lite" id="markdown-toc-wiiflow-lite">WiiFlow Lite</a>    <ul>
+      <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
+      <li><a href="#installazione" id="markdown-toc-installazione">Installazione</a></li>
+      <li><a href="#guida-rapida" id="markdown-toc-guida-rapida">Guida rapida</a>        <ul>
+          <li><a href="#generale" id="markdown-toc-generale">Generale</a></li>
+          <li><a href="#interfaccia-utente" id="markdown-toc-interfaccia-utente">Interfaccia utente</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#usb-loader-gx" id="markdown-toc-usb-loader-gx">USB Loader GX</a>    <ul>
+      <li><a href="#requisiti-1" id="markdown-toc-requisiti-1">Requisiti</a></li>
+      <li><a href="#installazione-1" id="markdown-toc-installazione-1">Installazione</a></li>
+      <li><a href="#guida-rapida-1" id="markdown-toc-guida-rapida-1">Guida rapida</a>        <ul>
+          <li><a href="#generale-1" id="markdown-toc-generale-1">Generale</a></li>
+          <li><a href="#interfaccia-utente-1" id="markdown-toc-interfaccia-utente-1">Interfaccia utente</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#risoluzione-dei-problemi" id="markdown-toc-risoluzione-dei-problemi">Risoluzione dei problemi</a>    <ul>
+      <li><a href="#usb-loader-gx-1" id="markdown-toc-usb-loader-gx-1">USB Loader GX</a></li>
+      <li><a href="#wiiflow-lite-1" id="markdown-toc-wiiflow-lite-1">WiiFlow Lite</a></li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<p>Questa guida introduce i loader di backup Wii. Il loro utilizzo principale è quello di caricare i backup di giochi da SD o USB che sono stati dumpati da un disco di gioco. A seconda del loader, potrebbero anche esserci estensioni che consente al suo utilizzo come frontend per giochi diversi da Wii. I due loader più comunamente utilizzati sono USB Loader GX e WiiFlow Lite (una mod di WiiFlow aggiornata regolarmente) - un loader potrebbe funzionare meglio dell’altro per te, quindi vale la pena di provarli entrambi.</p>
+
+<p class="notice--warning">Per far in modo che il loader Wii funzioni correttamente, è necessario aver installato l’ultimo cIOS. Si prega di dare un’occhiata a <a href="cios">questa</a> guida per istruzioni se sei su Wii e <a href="cios-mini">questa</a> guida se sei su Wii mini.</p>
+
+<p class="notice--info">Per giocare ai giochi, si consiglia di utilizzare una scheda SD di grandi dimensioni o un hard drive esterno, poiché le unità flash non sono consigliate e sono molto sporadiche in funzionalità. Vedi il <a href="faq">FAQ storage</a>.</p>
+
+<p class="notice--info">Il forwarder ufficiale per Menu Wii di WiiFlow Lite può essere trovato sull’<a href="https://oscwii.org/library/app/wiiflow_channel_installer">Open Shop Channel</a>. Avvia l’app dal canale Homebrew per installare il forwarder. Il forwarder ufficiale di USB Loader GX può essere trovato nella sua pagina <a href="https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad">GitHub</a>. Puoi installarlo con <a href="yawmme">YAWM ModMii Edition</a>.</p>
+
+<h3 id="differenze-tra-wiiflow-lite-e-usb-loader-gx">Differenze tra WiiFlow Lite e USB Loader GX</h3>
+
+<ul>
+  <li>WiiFlow Lite ha un’interfaccia utente più avanzata per quanto riguarda le animazioni e gli effetti e supporta i temi.
+    <ul>
+      <li>Le schede SD sono interamente compatibili per il caricamento dei giochi Wii su WiiFlow Lite.</li>
+      <li>WiiFlow Lite ha un sistema di plugin.</li>
+      <li>Mentre il WiiFlow originale è stato aggiornato per l’ultima volta nel 2014, il fork WiiFlow Lite riceve tutt’ora aggiornamenti regolari.</li>
+    </ul>
+
+    <p><img src="/images/usb-loaders//wiiflow-ui.png" alt="" /></p>
+  </li>
+  <li>USB Loader GX è principalmente basato sul Menu Wii e supporta i temi.
+    <ul>
+      <li>Anche se in passato le schede SD non erano supportate per i giochi Wii su USB Loader GX, recenti aggiornamenti hanno introdotto il loro supporto per questo loader.</li>
+      <li>USB Loader GX non ha un sistema di plugin.</li>
+      <li>USB Loader GX riceve ancora aggiornamenti regolari.</li>
+    </ul>
+
+    <p><img src="/images/usb-loaders/usbloadergx-ui.png" alt="" /></p>
+  </li>
+</ul>
+
+<h3 id="struttura-percorsi-di-gioco">Struttura percorsi di gioco</h3>
+
+<p>Di seguito è riportato un esempio di WBFS singolo e WBFS diviso.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>💾Scheda SD o USB:
+ ┗ 📂wbfs
+    ┣ 📂NomeGioco [GameID]
+    ┃  ┗ 📜gameid.wbfs (per titoli non divisi)
+    ┗ 📂NomeGioco [GameID]
+       ┣ 📜gameid.wbfs
+       ┗ 📜gameid.wbf1
+</code></pre></div></div>
+
+<h3 id="wiiflow-lite">WiiFlow Lite</h3>
+
+<h4 id="requisiti">Requisiti</h4>
+<ul>
+  <li>Una Wii modificata</li>
+  <li>L’ultima versione di <a href="cios">cIOS</a></li>
+  <li><a href="https://oscwii.org/library/app/wiiflow">WiiFlow</a></li>
+</ul>
+
+<h4 id="installazione">Installazione</h4>
+
+<ol>
+  <li>Scarica WiiFlow e installalo nella tua scheda SD o unità USB.</li>
+</ol>
+
+<h4 id="guida-rapida">Guida rapida</h4>
+
+<h5 id="generale">Generale</h5>
+
+<ul>
+  <li>Per impostazione predefinita, WiiFlow cerca solo per i giochi su scheda SD. Si può cambiare andando su <code class="language-plaintext highlighter-rouge">Impostazioni &gt; Impostazioni d'avvio</code> per poi disattivare <code class="language-plaintext highlighter-rouge">Monta solo SD</code>.</li>
+  <li>Puoi cambiare la visuale attuale su WiiFlow tra plugin, giochi, homebrew e canali Wii cliccando il pulsante alla destra di <code class="language-plaintext highlighter-rouge">Home</code>, in basso a destra.</li>
+  <li>Puoi scaricare le copertine dei giochi andando su <code class="language-plaintext highlighter-rouge">Impostazioni</code> &gt; <code class="language-plaintext highlighter-rouge">Scarica copertine e banner</code>.</li>
+</ul>
+
+<h5 id="interfaccia-utente">Interfaccia utente</h5>
+
+<p>Quando WiiFlow rileva i giochi, verranno visualizzati nella vista flow.<br /> Quando fai clic su un gioco, ti verranno date queste opzioni:</p>
+<ul>
+  <li>Stella - Aggiunge il gioco ai preferiti.</li>
+  <li>Libreria - Aggiunge il gioco a una di sei categorie di vostra scelta.</li>
+  <li>Ingranaggi - Apre il menu impostazione per il gioco - queste impostazioni sono uniche per quel gioco e solo quel gioco.</li>
+  <li>X - Elimina il gioco dall’unita USB o scheda SD.</li>
+</ul>
+
+<p>Quando sposti il cursore verso l’area in basso dello schermo mentre sei nella vista flow, ci sono sei icone:</p>
+<ul>
+  <li>Libreria - Visualizza i giochi che sono stati aggiunti nelle categorie che hai scelto.</li>
+  <li>Stella - Visualizza i giochi preferiti.</li>
+  <li>Ingranaggi - Apre le impostazioni di WiiFlow.</li>
+  <li>Tipo di gioco - Cambia tra i diversi tipi di app/giochi. Il logo cambia in base a quale tipo di gioco hai selezionato.</li>
+  <li>Disco - Carica un gioco inserito nello slot disco.</li>
+  <li>Casa - Apre il menu mostrato di seguito. Il menu può anche essere aperto premendo il pulsante HOME.</li>
+</ul>
+
+<p><img src="/images/usb-loaders/wiiflow-menu.png" alt="" /></p>
+
+<ul>
+  <li>Comandi - Mostra tutti i comandi che puoi usare su WiiFlow.</li>
+  <li>Ricarica Cache - Premi questo pulsante per consentire a WiiFlow di rilevare giochi nell’unità USB o scheda SD.</li>
+  <li>Esplora File - Ti consente di esplorare i percorsi nell’unità USB o scheda SD e selezionare un gioco o eseguibile.</li>
+  <li>Seleziona plugin - Ti consente di selezionare i plugin.</li>
+  <li>Crediti - Mostra un elenco delle persone che hanno lavorato su WiiFlow.</li>
+  <li>Spegni - Ti consente di effettuare uno spegnimento completo o di entrare in modalità standby.</li>
+  <li>Esci a - Ti consente di uscire al Menu Wii, Homebrew Channel, neek2o, Priiloader o BootMii.</li>
+  <li>Impostazioni - Apre il menu delle impostazioni globali di WiiFlow.</li>
+</ul>
+
+<h3 id="usb-loader-gx">USB Loader GX</h3>
+
+<h4 id="requisiti-1">Requisiti</h4>
+<ul>
+  <li>Una Wii modificata</li>
+  <li>L’ultima versione di <a href="cios">cIOS</a></li>
+  <li><a href="https://oscwii.org/library/app/usbloader_gx">USB Loader GX</a></li>
+</ul>
+
+<h4 id="installazione-1">Installazione</h4>
+
+<ol>
+  <li>Assicurati che il tuo Wii abbia già cIOS 248-251 installati - puoi controllarli con applicazioni tipo <a href="syscheck">SysChecker</a> o d2x cIOS Installer.</li>
+  <li>Scarica USB Loader GX e installalo nella tua scheda SD o unità USB.</li>
+</ol>
+
+<h4 id="guida-rapida-1">Guida rapida</h4>
+
+<h5 id="generale-1">Generale</h5>
+
+<ul>
+  <li>Se USB Loader GX dice “Waiting for HDD…” con un conto alla rovescia di 20 secondi, è molto probabile che non riesce a rilevare l’unità USB. Prova a chiudere l’app, assicurati che l’unità USB sia connessa nella porta inferiore se il Wii è posto orizzontalmente o la porta più vicina al bordo se il Wii è posto verticalmente. Può ache essere che l’unità sia formattata incorrettamente. Assicurati che la tua unità USB sia formattata come FAT32 con la tabella di partizione MBR e un’allocazione unità/dimensione cluster di 32kb (32768 byte).</li>
+  <li>Puoi premere il pulsante 1 sul tuo telecomando Wii per aprire una finestra di dialogo che ti permette di scaricare copertine e artwork da <a href="https://gametdb.com/">GameTDB</a>. In base alla quantità di giochi in tuo possesso, potrebbe volerci un po’ di tempo purché le copertine e artwork si scarichino.</li>
+  <li>I giochi GameCube o giochi Wii “custom” potrebbero o meno avere banner personalizzati che USB Loader GX utilizzerà. Per attivarli, trova o scrivi <code class="language-plaintext highlighter-rouge">CustomBannersURL = http://banner.rc24.xyz/</code> nel <code class="language-plaintext highlighter-rouge">config/GXGlobal.cfg</code> sull’unità in cui l’app è installata. Poi puoi utilizzare il download per <code class="language-plaintext highlighter-rouge">Banner personalizzato</code> premendo 1 sul tuo telecomando Wii.</li>
+</ul>
+
+<h5 id="interfaccia-utente-1">Interfaccia utente</h5>
+
+<p>Al centro della parte inferiore dello schermo, puoi vedere quanto spazio è libero nella tua unità USB e la quantità di giochi installati.</p>
+
+<p>Queste sono le funzioni dei pulsanti che vedi nella barra nella parte alta dello schermo, da sinistra a destra:</p>
+
+<ul>
+  <li>Stella - Mostra i giochi che hai contrassegnato come “preferiti”.</li>
+  <li>Cerca - Ti consente di cercare i giochi per nome.</li>
+  <li>Ordina - Cambia tra i metodi di ordinamento per i giochi.</li>
+  <li>Piattaforma - Ordina i giochi in base alla piattaforma.</li>
+  <li>Categoria - Ordina i giochi per categoria.</li>
+  <li>Elenco - Mostra i giochi in una visuale elenco.</li>
+  <li>Visuale più copertine - Mostra i giochi in una visuale con più copertine.</li>
+  <li>Visuale carosello - Mostra i giochi in una visuale a carosello.</li>
+  <li>Visuale Menu Wii - Mostra i giochi in una visuale tipo Menu Wii.</li>
+  <li>Controllo Genitori - Blocca USB Loader GX.</li>
+  <li>Disco - Carica un gioco inserito nello slot disco.</li>
+</ul>
+
+<p>Ci sono anche altri pulsanti nella parte inferiore dello schermo:</p>
+
+<ul>
+  <li>Icona (+) “Installa” un gioco, cioè caricarlo dal disco e dumparlo sull’unità di archiviazione predefinita.</li>
+  <li>Ingranaggi - Impostazioni globali di USB Loader GX.</li>
+  <li>Scheda SD - Rimonta la scheda SD.</li>
+  <li>Homebrew - Carica app homebrew.</li>
+  <li>Wii - Apri il Menu HOME.</li>
+  <li>Pulsante Power - Spegni il tuo Wii.</li>
+</ul>
+
+<h3 id="risoluzione-dei-problemi">Risoluzione dei problemi</h3>
+
+<p>Alcuni giochi richiedono specifici cIOS per funzionare oppure per utilizzare certe funzioni nel gioco. Alcuni esempio includono:</p>
+
+<ul>
+  <li>Usare una tastiera in Animal Crossing: Let’s Go To The City.</li>
+  <li>Avviare SpongeBob’s Boating Bash.</li>
+  <li>Usare un dongle USB in Rock Band.</li>
+</ul>
+
+<p>Un elenco più comprensivo (anche se ancora incompleto) può essere trovato <a href="https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List">qui</a>.</p>
+
+<p>Sia USB Loader GX che WiiFlow Lite sono programmati per trovare in automatico il miglior cIOS da usare e usarlo per caricare il gioco con le impostazioni predefinite.  Tuttavia, se per qualche motivo questi loader scelgonoo il cIOS da usare sbagliato, hai l’opzione per cambiarlo manualmente.</p>
+
+<p>Per cambiare il cIOS utilizzato per un gioco specifico, segui le istruzioni adatte al tuo loader USB:</p>
+
+<h4 id="usb-loader-gx-1">USB Loader GX</h4>
+<ol>
+  <li>Seleziona il gioco che non funziona.</li>
+  <li>Clicca su Impostazioni.</li>
+  <li>Seleziona <code class="language-plaintext highlighter-rouge">Impost. Gioco</code>.</li>
+  <li>Scorri verso il basso fino a <code class="language-plaintext highlighter-rouge">IOS gioco</code>.</li>
+  <li>Seleziona lo slot IOS da usare.
+    <ul>
+      <li>Prova ad usare 248, 249, 250 o 251.</li>
+    </ul>
+  </li>
+  <li>Premi OK e prova a caricare il gioco.</li>
+</ol>
+
+<h4 id="wiiflow-lite-1">WiiFlow Lite</h4>
+<ol>
+  <li>Seleziona il gioco che non funziona.</li>
+  <li>Clicca sull’icona degli ingranaggi.</li>
+  <li>Vai su cIOS e usa le frecce per cambiare lo slot IOS da usare.
+    <ul>
+      <li>Prova ad usare 248, 249, 250 o 251.</li>
+    </ul>
+  </li>
+  <li>Premi Salva e prova a caricare il gioco.</li>
+</ol>
+
+<p class="notice--info"><a href="nintendont">Continua verso Nintendont</a> Ora che hai installato un loader USB di qualche tipo per i giochi Wii, è possibile installare un tipo simile di applicazione per la riproduzione effettivamente nativa di giochi GameCube.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/hacks-guide/Guide_Wii" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+<!-- hacks-guide change start: force disable atom feed-->
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+<!-- hacks-guide change end -->
+
+</div>
+
+<!-- hacks-guide change start: custom footer -->
+
+
+
+<div class="page__footer-copyright">&copy; 2023 Nintendo Homebrew. - <a href="navigazione-sito">Navigazione del Sito</a> - <a href="privacy-policy">Informativa sulla Privacy</a> - <a href="donations">Donazioni</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<!-- hacks-guide change end -->
+
+      </footer>
+    </div>
+<!-- hacks-guide change end -->
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- hacks-guide change start: Disable caching -->
+
+<!-- hacks-guide change end -->
+
+
+
+
+
+
+
+  </body>
+</html>

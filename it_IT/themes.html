@@ -1,0 +1,646 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Temi Wii - Wii Hacks Guide</title>
+<meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+  <meta name="author" content="Nintendo Homebrew">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wii Hacks Guide">
+<meta property="og:title" content="Temi Wii">
+<meta property="og:url" content="https://wii.hacks.guide/it_IT/themes.html">
+
+
+  <meta property="og:description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://wii.hacks.guide/it_IT/themes.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nintendo Homebrew",
+      "url": "https://wii.hacks.guide/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wii Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- hacks-guide change start: cookie consent, favicon, locales -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/site-config/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/site-config/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="manifest" href="/assets/js/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/site-config/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/site-config/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/site-config/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/assets/xml/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#28282b"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "Questo sito web utilizza i cookie per visualizzare l'avanzamento corrente della guida sulla barra laterale e per migliorare il sito."
+  }
+})});
+</script>
+<!-- hacks-guide change end -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+<!-- hacks-guide change start: Disable caching -->
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+<!-- hacks-guide change start: disable default masthead title -->
+      <!--
+        <a class="site-title" href="/">
+          Wii Hacks Guide
+          
+        </a>
+      -->
+<!-- hacks-guide change end -->
+        <ul class="visible-links">
+<!-- hacks-guide change start: multi-language configuration -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/it_IT/">Menu Principale</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/per-iniziare">Per Iniziare</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/navigazione-sito">Navigazione del Sito</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/faq">FAQ</a></li>
+            
+          
+<!-- hacks-guide change end -->
+        </ul>
+        
+<!-- hacks-guide change start: Add language selector -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/themes.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/themes.html">Italiano</a></li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="greedy-nav__toggle_lang" type="button"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+<!-- hacks-guide change end -->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- hacks-guide change start: Implement progress table, replace existing sidebar -->
+<!--
+
+  <div class="sidebar sticky">
+  
+  
+    
+    
+  
+  </div>
+
+-->
+
+
+
+<div class="sidebar sticky" style="display: none;">
+  <!-- hacks-guide change start: Refactor entire subsection to allow using translations -->
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">Progresso Complessivo</span>
+      <ol>
+        
+          
+            <li style="display: none;" data-name="home"><a href='/it_IT/'>Menu Principale</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="get-started"><a href='/it_IT/per-iniziare'>Per Iniziare</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="letterbomb"><a href='/it_IT/letterbomb'>LetterBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bluebomb"><a href='/it_IT/bluebomb'>BlueBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="flashhax"><a href='/it_IT/flashhax'>FlashHax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="str2hax"><a href='/it_IT/str2hax'>str2hax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wilbrand"><a href='/it_IT/wilbrand'>Wilbrand</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="multiple-options"><i>(Opzioni Multiple)</i></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc"><a href='/it_IT/hbc'>Installazione dell'Homebrew Channel e di BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc-mini"><a href='/it_IT/hbc-mini'>Homebrew Channel - solo per Wii mini</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bootmii"><a href='/it_IT/bootmii'>Backup BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="priiloader"><a href='/it_IT/priiloader'>Priiloader</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="osc"><a href='/it_IT/osc'>Open Shop Channel</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/it_IT/cios-mini'>d2xl cIOS per Wii mini (sperimentale)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wnd-mini"><a href='/it_IT/wnd-mini'>Wii mini NAND Dumper</a></li>
+          
+        
+      </ol>
+    </li>
+  </ul>
+</nav>
+<!-- hacks-guide change end -->
+
+</div>
+
+
+<!-- hacks-guide change end-->
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Temi Wii">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Temi Wii
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+<!-- hacks-guide change start -->
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>Per supporto in Inglese, chiedere aiuto sul server <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a>.</b></div>
+        
+
+        <hr>
+<!-- hacks-guide change end -->
+
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#personalizzazione-del-menu-wii" id="markdown-toc-personalizzazione-del-menu-wii">Personalizzazione del Menu Wii</a>    <ul>
+      <li><a href="#sorgenti-di-temi" id="markdown-toc-sorgenti-di-temi">Sorgenti di Temi</a></li>
+      <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
+      <li><a href="#creazione-di-un-tema" id="markdown-toc-creazione-di-un-tema">Creazione di un tema</a></li>
+      <li><a href="#installazione-del-tema" id="markdown-toc-installazione-del-tema">Installazione del tema</a></li>
+    </ul>
+  </li>
+  <li><a href="#personalizzazione-di-wiiflow-lite" id="markdown-toc-personalizzazione-di-wiiflow-lite">Personalizzazione di WiiFlow Lite</a>    <ul>
+      <li><a href="#requisiti-1" id="markdown-toc-requisiti-1">Requisiti</a></li>
+      <li><a href="#istruzioni" id="markdown-toc-istruzioni">Istruzioni</a></li>
+    </ul>
+  </li>
+  <li><a href="#personalizzazione-di-usb-loader-gx" id="markdown-toc-personalizzazione-di-usb-loader-gx">Personalizzazione di USB Loader GX</a>    <ul>
+      <li><a href="#requisiti-2" id="markdown-toc-requisiti-2">Requisiti</a></li>
+      <li><a href="#istruzioni-1" id="markdown-toc-istruzioni-1">Istruzioni</a></li>
+    </ul>
+  </li>
+  <li><a href="#personalizzazione-dellhomebrew-channel" id="markdown-toc-personalizzazione-dellhomebrew-channel">Personalizzazione dell’Homebrew Channel</a>    <ul>
+      <li><a href="#requisiti-3" id="markdown-toc-requisiti-3">Requisiti</a></li>
+      <li><a href="#istruzioni-2" id="markdown-toc-istruzioni-2">Istruzioni</a></li>
+    </ul>
+  </li>
+  <li><a href="#forwarder-delle-app" id="markdown-toc-forwarder-delle-app">Forwarder delle app</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<p>Questa guida è destinata a essere l’ultima di cui hai bisogno per quanto riguarda la personalizzazione sul Wii, non solo fornendo istruzioni per il Menu Wii con MyMenuifyMod, ma anche i temi su WiiFlow Lite, USB Loader GX e l’Homebrew Channel. Inoltre, tratteremo anche di forwarder.</p>
+
+<p class="notice--danger">NON CONTINUARE CON QUESTA GUIDA A MENO CHE TU ABBIA UNA PROTEZIONE DA BRICK ADEGUATA, NELLO SPECIFICO <a href="bootmii">BOOTMII</a> E <a href="priiloader">PRIILOADER</a>!</p>
+
+<p class="notice--warning">MyMenuifyMod ha funzioni di sicurezza integrate per impedirti di installare temi del Menu Wii danneggati o corrotti, quindi si prega di utilizzarlo invece di altri homebrew per l’installazione di temi.</p>
+
+<p class="notice--warning">Non usare nessun’altra versione di ThemeMii oltre a quella fornita da qui, poiché ThemeMii Mod ti permette di creare un tema per il Menu Wii versione 4.3, le altre versioni non possono.</p>
+
+<h3 id="personalizzazione-del-menu-wii">Personalizzazione del Menu Wii</h3>
+
+<p class="notice--danger">Sul tuo Wii, installa solo i temi che sono creati appositamente per la sua versione e regione attuali. L’installazione di temi della versione o regione sbagliata sul tuo Wii causerà un <a href="bricks#theme-brick">brick</a>. Questo tutorial ti dirà come creare un file .csm che è sicuro da installare.</p>
+
+<p class="notice--info">Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come formati di file utilizzati nella personalizzazione del Menu Wii. Mentre il MYM è creato dal tuo creatore di temi che puoi condividere in giro, il CSM è il risultato della compilazione di un MYM in un Menu di sistema. In altre parole, il MYM principalmente contiene solo gli elementi - il vero e proprio Menu di sistema da installare viene a parte.</p>
+
+<h4 id="sorgenti-di-temi">Sorgenti di Temi</h4>
+
+<ul>
+  <li><a href="https://gbatemp.net/threads/wii-theme-team-creations.260327/">Wii Theme Team Creations</a> (distribuzione file .mym)</li>
+  <li><a href="https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3">Wii Theme Google Drive</a> (distribuzione file .mym)</li>
+  <li><a href="https://gbatemp.net/download/categories/other-files.166/">GBAtemp Other Files for Wii</a> (distribuzione file .mym)</li>
+  <li><a href="http://www.wiithemer.org/">Wii Themer</a> (creatore temi online per specifiche versioni e regioni, temi .csm pronti per l’installazione)</li>
+</ul>
+
+<h4 id="requisiti">Requisiti</h4>
+
+<ul>
+  <li>Una Wii modificata</li>
+  <li>Una scheda SD o dispositivo USB</li>
+  <li>Un PC Windows/macOS/Linux con una connessione a internet</li>
+  <li><a href="https://oscwii.org/library/app/mymenuifymod">MyMenuifyMod</a></li>
+  <li><a href="/assets/files/New_ThemeMii_MOD.zip">ThemeMii Mod</a></li>
+</ul>
+
+<h4 id="creazione-di-un-tema">Creazione di un tema</h4>
+
+<p>Se non ti va di usare un programma esterno per la creazione di un tema, puoi anche creare un tema preimpostato da Wii Themer e saltare all’<a href="themes#theme-installation">Installazione del tema</a>.</p>
+
+<ol>
+  <li>Una volta scaricato il tema che volevi e controllato bene che hai quello giusto per la tua versione del menu di sistema e regione, estrai il file .zip di ThemeMii Mod e avvia l’applicazione.</li>
+  <li>Vai su <code class="language-plaintext highlighter-rouge">Tools</code> &gt; <code class="language-plaintext highlighter-rouge">Download Base App</code> &gt; <code class="language-plaintext highlighter-rouge">Version of your Wii Menu</code> &gt; <code class="language-plaintext highlighter-rouge">Region of your Wii Menu</code>.</li>
+  <li>Una finestra di dialogo si aprirà chiedendoti di inserire un valore per creare una chiave. Inserisci quello che ti dice e creerà una chiave che sarà utilizzare per decifrare i contenuti del Menu Wii dai server di Nintendo.</li>
+  <li>Una finestra di selezione file ti chiederà dove vuoi salvare il file .app (questo è il file dei contenuti del Menu Wii che ha scaricato). Salvalo nel percorso in cui si trova ThemeMii.</li>
+  <li>Vai su <code class="language-plaintext highlighter-rouge">File</code> &gt; <code class="language-plaintext highlighter-rouge">Open</code>, poi cerca il percorso del tuo file .mym.</li>
+  <li>Premi <code class="language-plaintext highlighter-rouge">Create csm</code>, quindi cerca un percorso in cui vuoi salvare il tema. Dagli un momento per la creazione del tema.</li>
+  <li>Una finestra di dialogo si aprirà chiedendoti se vuoi salvare il .mym. Premi <code class="language-plaintext highlighter-rouge">No</code>.</li>
+</ol>
+
+<h4 id="installazione-del-tema">Installazione del tema</h4>
+
+<ol>
+  <li>Installa MyMenuifyMod.</li>
+  <li>Crea un nuovo percorso nella tua scheda SD o unità USB chiamato <code class="language-plaintext highlighter-rouge">modthemes</code> se non è gia presente.</li>
+  <li>Copia il file del tema nel supporto di archiviazione sotto il percorso <code class="language-plaintext highlighter-rouge">modthemes</code>.</li>
+  <li>Inserisci il supporto di archiviazione nel tuo Wii e avvialo.</li>
+  <li>
+    <p>Vai su MyMenuifyMod e tieni a mente l’avvertimento. Ti chiederà quale IOS vuoi usare nell’app. Seleziona <code class="language-plaintext highlighter-rouge">IOS58</code>.</p>
+
+    <p class="notice--info">Se ottieni <code class="language-plaintext highlighter-rouge">Exception DSI occured!</code>, premi RESET sul tuo Wii e riprova.</p>
+  </li>
+  <li>
+    <p>Seleziona il supporto di archiviazione e ora dovresti vedere un elenco dei tuoi temi.</p>
+
+    <p><img src="/images/themes/mym-theme-selection.png" alt="" /></p>
+  </li>
+  <li>Seleziona il tema che vuoi installare. Se è firmato, MyMenuifyMod te lo farà sapere, altrimenti ti avvertirà. A questo punto, devi essere assolutamente sicuro che hai scaricato il tema corretto per la tua versione del Menu di sistema e regione.</li>
+  <li>Installa il tema.</li>
+  <li>
+    <p>Ritorna al Menu Wii e verifica che il tema sia installato correttamente. Se tutto va bene, dovresti avere un risultato simile a quello in basso!</p>
+
+    <p><img src="/images/themes/themed-wii-menu.png" alt="" /></p>
+  </li>
+</ol>
+
+<h3 id="personalizzazione-di-wiiflow-lite">Personalizzazione di WiiFlow Lite</h3>
+
+<p>Purtroppo, a causa delle differenze di codice tra il WiiFlow originale e il più recente WiiFlow Lite, i temi sono sparsi - infatti, potresti trovare solo un tema che funzionerà a dovere con la versione più recente. Le istruzioni per installare quel tema sono qui in basso.</p>
+
+<h4 id="requisiti-1">Requisiti</h4>
+
+<ul>
+  <li>Una Wii modificata</li>
+  <li>Una scheda SD o dispositivo USB</li>
+  <li><a href="wii-loaders#wiiflow-lite">WiiFlow Lite</a></li>
+  <li>Un PC Windows/macOS/Linux con una connessione a internet</li>
+  <li><a href="https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/">Rhapsodii Shima</a></li>
+</ul>
+
+<h4 id="istruzioni">Istruzioni</h4>
+
+<ol>
+  <li>Inserisci il dispositivo di archiviazione che contiene WiiFlow Lite nel tuo PC.</li>
+  <li>Scarica l’archivio Rhapsodii Shima, una delle due versioni del tema funziona e possono essere installate affiancate senza problemi.</li>
+  <li>Estrai e copia la cartella <code class="language-plaintext highlighter-rouge">wiiflow</code> nel root del tuo dispositivo di archiviazione, unisci tutte le cartelle e sovrascrivi tutti i file quando ti viene chiesto.</li>
+  <li>Segui le istruzioni per la configurazione del tema su <code class="language-plaintext highlighter-rouge">installation.txt</code>. Goditi il tema!</li>
+</ol>
+
+<h3 id="personalizzazione-di-usb-loader-gx">Personalizzazione di USB Loader GX</h3>
+
+<h4 id="requisiti-2">Requisiti</h4>
+
+<ul>
+  <li>Una Wii modificata</li>
+  <li>Una scheda SD o dispositivo USB</li>
+  <li><a href="wii-loaders#usb-loader-gx">USB Loader GX</a></li>
+  <li>Un PC Windows/macOS/Linux con una connessione a internet</li>
+  <li>Un <a href="https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/">tema</a>, questo link contiene un assortimento di temi scuri</li>
+</ul>
+
+<h4 id="istruzioni-1">Istruzioni</h4>
+
+<ol>
+  <li>Scarica un file <code class="language-plaintext highlighter-rouge">.zip</code> di un tema dal link fornito in alto oppure ovunque tu possa ottenere un tema adatto.</li>
+  <li>Estrai i contenuti del file <code class="language-plaintext highlighter-rouge">.zip</code> nel percorso <code class="language-plaintext highlighter-rouge">apps\usbloader_gx</code> nel tuo dispositivo di archiviazione dove hai installato USB Loader GX.</li>
+  <li>Inserisci il supporto di archiviazione nel tuo Wii e avvialo.</li>
+  <li>Avvia USB Loader GX, vai al menu <code class="language-plaintext highlighter-rouge">Impostazioni</code> e vai al <code class="language-plaintext highlighter-rouge">Menu temi</code>.</li>
+  <li>Apri il tema e installalo.</li>
+</ol>
+
+<h3 id="personalizzazione-dellhomebrew-channel">Personalizzazione dell’Homebrew Channel</h3>
+
+<h4 id="requisiti-3">Requisiti</h4>
+
+<ul>
+  <li>Una Wii modificata</li>
+  <li>Una scheda SD o dispositivo USB</li>
+  <li>Un PC Windows/macOS/Linux con una connessione a internet</li>
+  <li>Un <a href="https://wiibrew.org/wiki/Homebrew_Channel/Themes">tema</a> da WiiBrew</li>
+</ul>
+
+<h4 id="istruzioni-2">Istruzioni</h4>
+
+<ol>
+  <li>
+    <p>Scarica un file <code class="language-plaintext highlighter-rouge">.zip</code> di un tema dal link fornito in alto.</p>
+
+    <p><img src="/images/themes/homebrew-channel-example-theme.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Incolla il <code class="language-plaintext highlighter-rouge">.zip</code> nella cartella <code class="language-plaintext highlighter-rouge">apps</code> nel tuo dispositivo di archiviazione che usi per caricare gli homebew.</p>
+
+    <p><img src="/images/themes/homebrew-channel-paste-zip.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Estrai i contenuti del <code class="language-plaintext highlighter-rouge">.zip</code> nella cartella <code class="language-plaintext highlighter-rouge">apps</code>, poi elimina l’archivio.</p>
+
+    <p><img src="/images/themes/homebrew-channel-extract-theme.png" alt="" /></p>
+  </li>
+  <li>Reinserisci il dispositivo di archiviazione nel tuo Wii e avvia l’Homebrew Channel.</li>
+  <li>
+    <p>Il tema che hai appena installato può essere caricato nello stesso modo in cui si caricano le app standard.</p>
+
+    <p><img src="/images/themes/homebrew-channel-load-theme.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Ora il tema dovrebbe essere caricato, divertiti!</p>
+
+    <p><img src="/images/themes/homebrew-channel-theme-done.png" alt="" /></p>
+  </li>
+</ol>
+
+<h3 id="forwarder-delle-app">Forwarder delle app</h3>
+
+<p>I forwader delle app danno un po’ di tocchi in più al tuo Menu Wii - ma fai attenzione con loro, poiché forwarder incorretti posso causare un <a href="bricks#banner-brick">banner brick</a>. In generale, puoi trovare forwarder in posti tipo <a href="https://gbatemp.net/threads/wii-forwarder-repository.588781/">GBAtemp</a> per le app più note tipo gli emulatori. Siccome i forwarder vengono in formato .WAD, il processo di installazione è tanto semplice quanto il normale utilizzo di <a href="yawmme">YAWM ModMii Edition</a>.</p>
+
+<p class="notice--info"><a href="navigazione-sito">Clicca qui per tornare alla Navigazione del Sito.</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/hacks-guide/Guide_Wii" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+<!-- hacks-guide change start: force disable atom feed-->
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+<!-- hacks-guide change end -->
+
+</div>
+
+<!-- hacks-guide change start: custom footer -->
+
+
+
+<div class="page__footer-copyright">&copy; 2023 Nintendo Homebrew. - <a href="navigazione-sito">Navigazione del Sito</a> - <a href="privacy-policy">Informativa sulla Privacy</a> - <a href="donations">Donazioni</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<!-- hacks-guide change end -->
+
+      </footer>
+    </div>
+<!-- hacks-guide change end -->
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- hacks-guide change start: Disable caching -->
+
+<!-- hacks-guide change end -->
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,579 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>cIOS - Wii Hacks Guide</title>
+<meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+  <meta name="author" content="Nintendo Homebrew">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wii Hacks Guide">
+<meta property="og:title" content="cIOS">
+<meta property="og:url" content="https://wii.hacks.guide/it_IT/cios.html">
+
+
+  <meta property="og:description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://wii.hacks.guide/it_IT/cios.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nintendo Homebrew",
+      "url": "https://wii.hacks.guide/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wii Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- hacks-guide change start: cookie consent, favicon, locales -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/site-config/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/site-config/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="manifest" href="/assets/js/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/site-config/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/site-config/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/site-config/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/assets/xml/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#28282b"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "Questo sito web utilizza i cookie per visualizzare l'avanzamento corrente della guida sulla barra laterale e per migliorare il sito."
+  }
+})});
+</script>
+<!-- hacks-guide change end -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+<!-- hacks-guide change start: Disable caching -->
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+<!-- hacks-guide change start: disable default masthead title -->
+      <!--
+        <a class="site-title" href="/">
+          Wii Hacks Guide
+          
+        </a>
+      -->
+<!-- hacks-guide change end -->
+        <ul class="visible-links">
+<!-- hacks-guide change start: multi-language configuration -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/it_IT/">Menu Principale</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/per-iniziare">Per Iniziare</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/navigazione-sito">Navigazione del Sito</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/faq">FAQ</a></li>
+            
+          
+<!-- hacks-guide change end -->
+        </ul>
+        
+<!-- hacks-guide change start: Add language selector -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/cios.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/cios.html">Italiano</a></li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="greedy-nav__toggle_lang" type="button"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+<!-- hacks-guide change end -->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- hacks-guide change start: Implement progress table, replace existing sidebar -->
+<!--
+
+  <div class="sidebar sticky">
+  
+  
+    
+    
+  
+  </div>
+
+-->
+
+
+
+<div class="sidebar sticky" style="display: none;">
+  <!-- hacks-guide change start: Refactor entire subsection to allow using translations -->
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">Progresso Complessivo</span>
+      <ol>
+        
+          
+            <li style="display: none;" data-name="home"><a href='/it_IT/'>Menu Principale</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="get-started"><a href='/it_IT/per-iniziare'>Per Iniziare</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="letterbomb"><a href='/it_IT/letterbomb'>LetterBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bluebomb"><a href='/it_IT/bluebomb'>BlueBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="flashhax"><a href='/it_IT/flashhax'>FlashHax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="str2hax"><a href='/it_IT/str2hax'>str2hax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wilbrand"><a href='/it_IT/wilbrand'>Wilbrand</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="multiple-options"><i>(Opzioni Multiple)</i></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc"><a href='/it_IT/hbc'>Installazione dell'Homebrew Channel e di BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc-mini"><a href='/it_IT/hbc-mini'>Homebrew Channel - solo per Wii mini</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bootmii"><a href='/it_IT/bootmii'>Backup BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="priiloader"><a href='/it_IT/priiloader'>Priiloader</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="osc"><a href='/it_IT/osc'>Open Shop Channel</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/it_IT/cios-mini'>d2xl cIOS per Wii mini (sperimentale)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wnd-mini"><a href='/it_IT/wnd-mini'>Wii mini NAND Dumper</a></li>
+          
+        
+      </ol>
+    </li>
+  </ul>
+</nav>
+<!-- hacks-guide change end -->
+
+</div>
+
+
+<!-- hacks-guide change end-->
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="cIOS">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">cIOS
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+<!-- hacks-guide change start -->
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>Per supporto in Inglese, chiedere aiuto sul server <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a>.</b></div>
+        
+
+        <hr>
+<!-- hacks-guide change end -->
+
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
+  <li><a href="#istruzioni" id="markdown-toc-istruzioni">Istruzioni</a>    <ul>
+      <li><a href="#sezione-i---download-solo-richiesto-se-il-tuo-wii-non-ha-internet" id="markdown-toc-sezione-i---download-solo-richiesto-se-il-tuo-wii-non-ha-internet">Sezione I - Download (Solo richiesto se il tuo Wii non ha Internet)</a></li>
+      <li><a href="#sezione-ii---installazione" id="markdown-toc-sezione-ii---installazione">Sezione II - Installazione</a></li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<p>Nonostante i <a href="https://wiibrew.org/wiki/Custom_IOS">cIOS</a> siano stati per la maggior parte soppiantati da AHBPROT, che dà l’accesso completo all’hardware, essi hanno comunque delle applicazioni utili. Per esempio, questo permette la funzionalità di USB loader come USB Loader GX e WiiFlow, insieme ad altre applicazioni homebrew come SaveGame Manager GX. Puoi saltare questo processo se vuoi, ma normalmente migliore il tuo Wii con quasi nessun lato negativo.</p>
+
+<p class="notice--warning">Se hai un Wii mini, usa invece <a href="cios-mini">questa</a> guida per cIOS. Provare a installare altri cIOS su un Wii mini non funzionerà.</p>
+
+<h3 id="requisiti">Requisiti</h3>
+
+<ul>
+  <li>Un Wii</li>
+  <li>Una scheda SD o dispositivo USB</li>
+  <li><a href="/assets/files/d2x-cios-installer.zip">d2x cIOS Installer</a></li>
+</ul>
+
+<p class="notice--warning">Assicurati che, se stai usando la scheda SD, l’interruttore della proteziona scrittura sia in posizione disattivata, altrimenti non potrai selezionare le opzioni corrette nell’installer.</p>
+
+<h3 id="istruzioni">Istruzioni</h3>
+
+<h4 id="sezione-i---download-solo-richiesto-se-il-tuo-wii-non-ha-internet">Sezione I - Download (Solo richiesto se il tuo Wii non ha Internet)</h4>
+
+<p class="notice--warning">Se il tuo Wii ha una connessione a internet, puoi saltare questa sezione. <br /> Tuttavia, se incontri errori come <code class="language-plaintext highlighter-rouge">tcp_read timeout</code> e <code class="language-plaintext highlighter-rouge">net_gethostbyname failed:</code>, questo permetterà al Wii di saltare la fase di download.</p>
+
+<p class="notice--info">Se non sei su Windows, puoi scaricare &amp; eseguire <a href="/assets/files/d2x_offline_ios.sh">questo script</a>, e scaricherà i file WAD per te.</p>
+
+<ol>
+  <li>Spegni la console.</li>
+  <li>Inserisci la scheda SD o dispositivo USB nel tuo computer.</li>
+  <li>Sul tuo computer, scarica <a href="https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip">NUS Downloader</a>.</li>
+  <li>Copia tutti i file dal <code class="language-plaintext highlighter-rouge">.zip</code> di NUS Downloader a una cartella sul tuo computer.</li>
+  <li>Esegui <code class="language-plaintext highlighter-rouge">NUS Downloader.exe</code>.</li>
+  <li>Naviga a <code class="language-plaintext highlighter-rouge">Database</code> &gt; <code class="language-plaintext highlighter-rouge">IOS</code> &gt; <code class="language-plaintext highlighter-rouge">IOS38</code>, poi seleziona <code class="language-plaintext highlighter-rouge">v4123</code>.
+    <ul>
+      <li>Assicurati che “Pack WAD” sia attivato.</li>
+      <li><em>Non</em> attivare “Patch IOS”. Quello è il ruolo del cIOS Installer.</li>
+    </ul>
+  </li>
+  <li>Clicca <code class="language-plaintext highlighter-rouge">Start NUS Download!</code>.</li>
+  <li>Ripeti i passaggi sopra per <code class="language-plaintext highlighter-rouge">IOS56 v5661</code>, <code class="language-plaintext highlighter-rouge">IOS57 v5918</code> e <code class="language-plaintext highlighter-rouge">IOS58 v6175</code>.</li>
+  <li>Quando il processo è completato, ci sarà una cartella chiamata <code class="language-plaintext highlighter-rouge">titles</code> nella stessa cartella del NUS Downloader.</li>
+  <li>Apri la cartella <code class="language-plaintext highlighter-rouge">titles</code> e navigaci finchè non trovi i quattro file WAD che hai scaricato.</li>
+  <li>Piazza ogni file WAD sul root della tua SD o dispositivo USB.
+    <ul>
+      <li>Questo deve essere lo stesso dispositivo che contiene d2x cIOS Installer.</li>
+    </ul>
+  </li>
+</ol>
+
+<p class="notice--info">I file WAD dovrebbe essere sulla scheda SD in questo modo: <img src="/images/cios/d2x_offline_ios.png" alt="" /></p>
+
+<h4 id="sezione-ii---installazione">Sezione II - Installazione</h4>
+
+<p class="notice--info">Se <code class="language-plaintext highlighter-rouge">d2x-v11-beta1</code> non viene mostrato, prova a selezionare la base cIOS prima, poi controlla ancora. Questo può anche succedere se la tua scheda SD è bloccata.</p>
+
+<p class="notice--info">Per ogni cIOS che vuoi provare a installare, ti verrà prima mostrata una griglia degli IOS attivi sul Wii. Basta premere A di nuovo, e lo installerà. Poi, ti verrà mostrata la schermata dei risultati, premi A anche qui e vai al prossimo cIOS.</p>
+
+<ol>
+  <li>Copia la cartella <code class="language-plaintext highlighter-rouge">apps</code> dal <code class="language-plaintext highlighter-rouge">.zip</code> di d2x-cios-installer al root della tua scheda SD o dispositivo USB.</li>
+  <li>Reinserisci la tua scheda SD o dispositivo USB nella tua console.</li>
+  <li>Accendi la console.</li>
+  <li>Avvia l’Homebrew Channel.</li>
+  <li>Avvia d2x cIOS Installer dalla lista degli homebrew.</li>
+  <li>Quando ti viene chiesto che IOS usare, seleziona IOS 58.
+    <ul>
+      <li>Dovrebbe funzionare in quasi tutti i casi.</li>
+    </ul>
+  </li>
+  <li>Ora, installerai i cIOS individuali da 248-251. Le impostazioni esatte sono elencate di seguito.
+    <ul>
+      <li>
+        <p>Installazione del cIOS 248</p>
+
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Select cIOS &lt;d2x-v11-beta1&gt;
+  Select cIOS base &lt;38&gt;
+  Select cIOS slot &lt;248&gt;
+  Select cIOS revision &lt;65535&gt;
+</code></pre></div>        </div>
+
+        <p><img src="/images/cios/d2x_v11_248.png" alt="" /></p>
+      </li>
+      <li>
+        <p>Installazione del cIOS 249</p>
+
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Select cIOS &lt;d2x-v11-beta1&gt;
+  Select cIOS base &lt;56&gt;
+  Select cIOS slot &lt;249&gt;
+  Select cIOS revision &lt;65535&gt;
+</code></pre></div>        </div>
+
+        <p><img src="/images/cios/d2x_v11_249.png" alt="" /></p>
+      </li>
+      <li>
+        <p>Installazione del cIOS 250</p>
+
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Select cIOS &lt;d2x-v11-beta1&gt;
+  Select cIOS base &lt;57&gt;
+  Select cIOS slot &lt;250&gt;
+  Select cIOS revision &lt;65535&gt;
+</code></pre></div>        </div>
+
+        <p><img src="/images/cios/d2x_v11_250.png" alt="" /></p>
+      </li>
+      <li>
+        <p>Installazione del cIOS 251</p>
+
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Select cIOS &lt;d2x-v11-beta1&gt;
+  Select cIOS base &lt;58&gt;
+  Select cIOS slot &lt;251&gt;
+  Select cIOS revision &lt;65535&gt;
+</code></pre></div>        </div>
+
+        <p><img src="/images/cios/d2x_v11_251.png" alt="" /></p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<p class="notice--info">Continua all’<a href="osc">Installazione dell’Open Shop Channel</a> Ora che il tuo Wii ha una protezione dai brick adeguata, puoi installare l’Open Shop Channel, una repository affidabile per applicazioni homebrew che possono di cui si può usufruire sia con che senza il Wii.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/hacks-guide/Guide_Wii" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+<!-- hacks-guide change start: force disable atom feed-->
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+<!-- hacks-guide change end -->
+
+</div>
+
+<!-- hacks-guide change start: custom footer -->
+
+
+
+<div class="page__footer-copyright">&copy; 2023 Nintendo Homebrew. - <a href="navigazione-sito">Navigazione del Sito</a> - <a href="privacy-policy">Informativa sulla Privacy</a> - <a href="donations">Donazioni</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<!-- hacks-guide change end -->
+
+      </footer>
+    </div>
+<!-- hacks-guide change end -->
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- hacks-guide change start: Disable caching -->
+
+<!-- hacks-guide change end -->
+
+
+
+
+
+
+
+  </body>
+</html>

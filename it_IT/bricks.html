@@ -1,0 +1,761 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Bricks - Wii Hacks Guide</title>
+<meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+  <meta name="author" content="Nintendo Homebrew">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wii Hacks Guide">
+<meta property="og:title" content="Bricks">
+<meta property="og:url" content="https://wii.hacks.guide/it_IT/bricks.html">
+
+
+  <meta property="og:description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://wii.hacks.guide/it_IT/bricks.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nintendo Homebrew",
+      "url": "https://wii.hacks.guide/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wii Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- hacks-guide change start: cookie consent, favicon, locales -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/site-config/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/site-config/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="manifest" href="/assets/js/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/site-config/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/site-config/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/site-config/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/assets/xml/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#28282b"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "Questo sito web utilizza i cookie per visualizzare l'avanzamento corrente della guida sulla barra laterale e per migliorare il sito."
+  }
+})});
+</script>
+<!-- hacks-guide change end -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+<!-- hacks-guide change start: Disable caching -->
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+<!-- hacks-guide change start: disable default masthead title -->
+      <!--
+        <a class="site-title" href="/">
+          Wii Hacks Guide
+          
+        </a>
+      -->
+<!-- hacks-guide change end -->
+        <ul class="visible-links">
+<!-- hacks-guide change start: multi-language configuration -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/it_IT/">Menu Principale</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/per-iniziare">Per Iniziare</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/navigazione-sito">Navigazione del Sito</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/faq">FAQ</a></li>
+            
+          
+<!-- hacks-guide change end -->
+        </ul>
+        
+<!-- hacks-guide change start: Add language selector -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/bricks.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/bricks.html">Italiano</a></li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="greedy-nav__toggle_lang" type="button"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+<!-- hacks-guide change end -->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- hacks-guide change start: Implement progress table, replace existing sidebar -->
+<!--
+
+  <div class="sidebar sticky">
+  
+  
+    
+    
+  
+  </div>
+
+-->
+
+
+
+<div class="sidebar sticky" style="display: none;">
+  <!-- hacks-guide change start: Refactor entire subsection to allow using translations -->
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">Progresso Complessivo</span>
+      <ol>
+        
+          
+            <li style="display: none;" data-name="home"><a href='/it_IT/'>Menu Principale</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="get-started"><a href='/it_IT/per-iniziare'>Per Iniziare</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="letterbomb"><a href='/it_IT/letterbomb'>LetterBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bluebomb"><a href='/it_IT/bluebomb'>BlueBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="flashhax"><a href='/it_IT/flashhax'>FlashHax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="str2hax"><a href='/it_IT/str2hax'>str2hax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wilbrand"><a href='/it_IT/wilbrand'>Wilbrand</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="multiple-options"><i>(Opzioni Multiple)</i></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc"><a href='/it_IT/hbc'>Installazione dell'Homebrew Channel e di BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc-mini"><a href='/it_IT/hbc-mini'>Homebrew Channel - solo per Wii mini</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bootmii"><a href='/it_IT/bootmii'>Backup BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="priiloader"><a href='/it_IT/priiloader'>Priiloader</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="osc"><a href='/it_IT/osc'>Open Shop Channel</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/it_IT/cios-mini'>d2xl cIOS per Wii mini (sperimentale)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wnd-mini"><a href='/it_IT/wnd-mini'>Wii mini NAND Dumper</a></li>
+          
+        
+      </ol>
+    </li>
+  </ul>
+</nav>
+<!-- hacks-guide change end -->
+
+</div>
+
+
+<!-- hacks-guide change end-->
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Bricks">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Bricks
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+<!-- hacks-guide change start -->
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>Per supporto in Inglese, chiedere aiuto sul server <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a>.</b></div>
+        
+
+        <hr>
+<!-- hacks-guide change end -->
+
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#prevenzione-dei-brick" id="markdown-toc-prevenzione-dei-brick">Prevenzione dei Brick</a></li>
+  <li><a href="#diagnosi" id="markdown-toc-diagnosi">Diagnosi</a></li>
+  <li><a href="#tipi-di-brick" id="markdown-toc-tipi-di-brick">Tipi di Brick</a>    <ul>
+      <li><a href="#semibrick" id="markdown-toc-semibrick">Semibrick</a>        <ul>
+          <li><a href="#sintomi" id="markdown-toc-sintomi">Sintomi</a></li>
+          <li><a href="#causa" id="markdown-toc-causa">Causa</a></li>
+          <li><a href="#soluzioni" id="markdown-toc-soluzioni">Soluzioni</a></li>
+        </ul>
+      </li>
+      <li><a href="#brick-del-banner" id="markdown-toc-brick-del-banner">Brick del Banner</a>        <ul>
+          <li><a href="#sintomi-1" id="markdown-toc-sintomi-1">Sintomi</a></li>
+          <li><a href="#causa-1" id="markdown-toc-causa-1">Causa</a></li>
+          <li><a href="#soluzioni-1" id="markdown-toc-soluzioni-1">Soluzioni</a></li>
+        </ul>
+      </li>
+      <li><a href="#brick-del-tema" id="markdown-toc-brick-del-tema">Brick del Tema</a>        <ul>
+          <li><a href="#sintomi-2" id="markdown-toc-sintomi-2">Sintomi</a></li>
+          <li><a href="#causa-2" id="markdown-toc-causa-2">Causa</a></li>
+          <li><a href="#soluzioni-2" id="markdown-toc-soluzioni-2">Soluzioni</a></li>
+        </ul>
+      </li>
+      <li><a href="#brick-mail" id="markdown-toc-brick-mail">Brick mail</a>        <ul>
+          <li><a href="#sintomi-3" id="markdown-toc-sintomi-3">Sintomi</a></li>
+          <li><a href="#causa-3" id="markdown-toc-causa-3">Causa</a></li>
+          <li><a href="#soluzione" id="markdown-toc-soluzione">Soluzione</a></li>
+        </ul>
+      </li>
+      <li><a href="#brick-menu-wiiopera" id="markdown-toc-brick-menu-wiiopera">Brick Menu Wii/Opera</a>        <ul>
+          <li><a href="#sintomi-4" id="markdown-toc-sintomi-4">Sintomi</a></li>
+          <li><a href="#causa-4" id="markdown-toc-causa-4">Causa</a></li>
+          <li><a href="#soluzioni-3" id="markdown-toc-soluzioni-3">Soluzioni</a></li>
+        </ul>
+      </li>
+      <li><a href="#brick-korean-kiierrore-003" id="markdown-toc-brick-korean-kiierrore-003">Brick Korean Kii/Errore 003</a>        <ul>
+          <li><a href="#sintomi-5" id="markdown-toc-sintomi-5">Sintomi</a></li>
+          <li><a href="#causa-5" id="markdown-toc-causa-5">Causa</a></li>
+          <li><a href="#soluzioni-4" id="markdown-toc-soluzioni-4">Soluzioni</a></li>
+        </ul>
+      </li>
+      <li><a href="#brick-ios" id="markdown-toc-brick-ios">Brick IOS</a>        <ul>
+          <li><a href="#sintomi-6" id="markdown-toc-sintomi-6">Sintomi</a></li>
+          <li><a href="#causa-6" id="markdown-toc-causa-6">Causa</a></li>
+          <li><a href="#soluzioni-5" id="markdown-toc-soluzioni-5">Soluzioni</a></li>
+        </ul>
+      </li>
+      <li><a href="#brick-wi-fi" id="markdown-toc-brick-wi-fi">Brick Wi-Fi</a>        <ul>
+          <li><a href="#sintomi-7" id="markdown-toc-sintomi-7">Sintomi</a></li>
+          <li><a href="#causa-7" id="markdown-toc-causa-7">Causa</a></li>
+          <li><a href="#soluzioni-6" id="markdown-toc-soluzioni-6">Soluzioni</a></li>
+        </ul>
+      </li>
+      <li><a href="#brick-a-basso-livello" id="markdown-toc-brick-a-basso-livello">Brick a Basso Livello</a>        <ul>
+          <li><a href="#sintomi-8" id="markdown-toc-sintomi-8">Sintomi</a></li>
+          <li><a href="#causa-8" id="markdown-toc-causa-8">Causa</a></li>
+          <li><a href="#soluzioni-7" id="markdown-toc-soluzioni-7">Soluzioni</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<p>Un “Brick” significa, solitamente, che il tuo Wii ha raggiunto uno stato in cui il fine della sua esistenza diventa essere un ferma porta o un oggetto da esposizione. <br /> I brick possono verificarsi per vari motivi, tuttavia di solito sono il risultato di una corruzione del software, o di modifiche improprie effettuate tramite applicazioni homebrew.</p>
+
+<h1 id="prevenzione-dei-brick">Prevenzione dei Brick</h1>
+
+<p>La prevenzione dei brick include diverse regole che spaziano dal buon senso a dei backup dei sicurezza. Ecco i consigli generali su cosa non fare:</p>
+
+<ul>
+  <li>**NON seguire dei tutorial obsoleti di modding del Wii, NON usare software homebrew obsoleto e NON seguire delle video guide su internet a meno che non sia ESPLICITAMENTE INDICATO dallo sviluppatore del software homebrew.</li>
+  <li>**NON USARE MAI, IN NESSUNA CIRCOSTANZA, L’APPLICAZIONE HOMEBREW <code class="language-plaintext highlighter-rouge">Pimp My Wii</code>. È un’applicazione homebrew PERICOLOSA che ha l’abilità di BRICKARE IL TUO WII!</li>
+  <li><strong>NON ripristinare backup della NAND provenienti da altre console!</strong></li>
+  <li>**NON usare un servizio Nintendo Wi-Fi Connection che non sia RCE patched (come <a href="wiimmfi">Wiimmfi</a>). Ignorare questa indicazione potrebbe consentire a un malintenzionato di BRICKARE il tuo Wii!</li>
+  <li><strong>Installa solo aggiornamenti che hanno la stessa regione del tuo Wii!</strong>
+    <ul>
+      <li>Installare aggiornamenti che hanno un’altra regione potrebbe essere innocuo, ma può causare un brick <a href="bricks#korean-kiierror-003-brick">Korean Kii/Errore 003</a> nel peggiore scenario. Per evitare che questo succeda se hai comprato un Wii usato, esegui <a href="syscheck">SysCheck</a> per verificare la regione originaria della tua console. Se la regione è coreana, sii ESTREMAMENTE attento nell’eseguire gli aggiornamenti alla tua console, e considera chiedere ulteriore assistenza.</li>
+    </ul>
+  </li>
+  <li>**NON eliminare o modificare i file di sistema, e NON installare mod dei file di sistema a meno che non tu non sappia esattamente cosa stai facendo!
+    <ul>
+      <li>Un esempio di modifica dei file errata è rimpiazzare l’IOS80 sul Wii mini, che potrebbe portare a un <a href="bricks#wi-fi-brick">Wi-Fi Brick</a>.</li>
+    </ul>
+  </li>
+  <li><strong>NON installare homebrew da fonti poco autorevoli o se il codice sorgente non è disponibile.</strong>
+    <ul>
+      <li>Le applicazioni sull’<a href="osc">Open Shop Channel</a> sono sicure.</li>
+      <li>Ci sono stati varie occasioni in cui applicazioni malevole sono state sviluppate per il Wii in passato, mentre altre sono state semplicemente programmate in modo errato. Assicurati di conoscere ciò che stai installando, e installa solo ciò che è necessario.</li>
+      <li>Dei forwarder per le applicazioni homebrew corrotti o instabili potrebbero causare un <a href="#banner-brick">banner brick</a>, quindi prova ad avviare le applicazioni homebrew solo dall’Homebrew Channel, a meno che non ti serva davvero il forwarder.</li>
+    </ul>
+  </li>
+  <li><strong>Assicurati di sapere quello che stai facendo quando esegui applicazioni homebrew - soprattutto quelle in grado di modificare i file di sistema.</strong></li>
+  <li><strong>Sii PARTICOLARMENTE attento nell’usare applicazioni come:</strong>
+    <ul>
+      <li>AnyTitle Deleter</li>
+      <li>AnyRegion Changer</li>
+      <li>KoreanKii (causa secondaria del brick <a href="bricks#korean-kiierror-003-brick">Korean Kii/Errore 003</a>)</li>
+      <li>Downgraders del Firmware</li>
+      <li>Qualsiasi applicazioni che modifica dei file critici della NAND</li>
+    </ul>
+  </li>
+  <li><strong>NON TOCCARE L’ALIMENTAZIONE O IL TASTO POWER DEL WII MENTRE STAI INSTALLANDO O MODIFICANDO DEL CONTENUTO ESSENZIALE PER LA CONSOLE</strong>.
+    <ul>
+      <li>Se la tua fonte di elettricità è instabile (es. tempesta, blackout), interrompi ogni attività fino alla fine dell’evento di instabilità.</li>
+      <li>Questo si applica a dei processi pericolosi come il ripristino della NAND con BootMi, che potrebbe portare a un <a href="#low-level-brick">brick completo</a> se qualcosa va storto.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>In ogni caso, dovresti assolutamente:</p>
+<ul>
+  <li>Avere BootMii installato su boot2 se disponibile, oppure come IOS.</li>
+  <li>Avere Priiloader installato indipendentemente da come è installato BootMii.</li>
+  <li>Esegui i backup della NAND con BootMii e conserva sempre una copia da avere a portata di mano, soprattutto prima di provare qualcosa di rischioso. Tieni a mente che, in alcuni scenari di brick, BootMii non è accessibile.</li>
+</ul>
+
+<h1 id="diagnosi">Diagnosi</h1>
+
+<p>Questa è una piccola sezione che elenca i passaggi simili a quelli di accensione del Wii, e i collegamenti al brick corrispondente se qualcosa va storto.</p>
+
+<ul>
+  <li>Accendi il Wii.</li>
+  <li>Non succede nulla, schermo nero. Il Wii non può essere acceso con il Wiimote, la Recovery Mode non può essere eseguita, e BootMii su boot2 non è accessibile. Vedi il <a href="bricks#low-level-brick">brick a basso livello</a>.</li>
+  <li>Non succede nulla, schermo nero, MA il Wii può essere accesso col Wiimote/la Recovery Mode può essere eseguita. Vedi il <a href="bricks#wi-fi-brick">brick Wi-Fi</a>.</li>
+  <li>Non succede nulla, schermo nero, MA BootMii su boot2 è accessibile. Vedi il <a href="bricks#ios-brick">brick IOS</a>.</li>
+  <li>Errore 003. Vedi il brick <a href="bricks#error-003-brick">Korean Kii/Errore 003</a>.</li>
+  <li>Il Wii si avvia, MA vedi SUBITO un errore che ricorda il browser Opera. Vedi il brick <a href="bricks#wii-menuopera-brick">Menu Wii/Opera</a>.</li>
+  <li>Il Wii si avvia, vedi l’avviso di salute e sicurezza, ma nel momento in cui premi A, lo schermo diventa nero e/o si blocca e non procede. La modalità manutenzione non è accessibile. Vedi il <a href="bricks#mail-brick">brick mail</a>.</li>
+  <li>Il Wii si avvia, vedi l’avviso di salute e sicurezza, ma nel momento in cui premi A, vedi uno schermo nero.
+    <ul>
+      <li>Se questo succede dopo aver installato un tema, vedi il <a href="bricks#theme-brick">brick del tema</a>.</li>
+      <li>Se questo succede dopo aver installato un WAD, vedi il <a href="bricks#banner-brick">brick del banner</a>.</li>
+      <li>Se questo succede casualmente, e puoi accedere alla modalità manutenzione tenendo premuti i tasti +/- sulla schermata di salute e sicurezza, vedi il <a href="bricks#mail-brick">brick mail</a>.</li>
+    </ul>
+  </li>
+  <li>Il Wii si avvia, e procede avviando il Menu Wii.
+    <ul>
+      <li>Se dopo aver aperto un canale specifico, ottieni l’errore <code class="language-plaintext highlighter-rouge">The system files are corrupted.</code>, vedi il <a href="bricks#banner-brick">brick del banner</a></li>
+      <li>Se dopo aver aperto le impostazioni del Wii, vedi un errore che ricorda il browser Opera, vedi il <a href="bricks#semibrick">semibrick</a>.</li>
+    </ul>
+  </li>
+  <li>Il Wii si avvia, e procede avviando il Menu Wii. Nessuna app presente malfunzionamenti, le impostazioni del Wii non hanno errori, e tutto sembra funzionare correttamente. A meno che tu non abbia qualche altro tipo di errore o brick che non appartiene a queste categorie (per cui dovresti chiedere supporto), sei a posto!</li>
+</ul>
+
+<h1 id="tipi-di-brick">Tipi di Brick</h1>
+
+<p>Qui sono presenti i diversi tipi di brick del Wii che vengono elencati in ordine d’importanza con sintomi, cause, e soluzioni.</p>
+
+<h2 id="semibrick">Semibrick</h2>
+
+<h4 id="sintomi">Sintomi</h4>
+<p>Quando si aprono le impostazioni del Wii, ottieni un errore dal browser Opera simile a <code class="language-plaintext highlighter-rouge">You tried to access the address (URL), which is currently unavailable.</code> In alcuni casi, delle parti delle impostazioni del Wii potrebbero essere sempre accessibili, mentre altre potrebbero non esserlo (come il menu del Paese).</p>
+
+<h4 id="causa">Causa</h4>
+<p>Un semibrick si verifica quando il Menu Wii o un tema personalizzato di una regione diversa è installato. Dal momento che le impostazioni del Wii sono caricate usando delle pagine HTML con Opera, i temi rimpiazzano spesso queste pagine e le mettono in dei dizionari diversi; essenzialmente portando a un errore <code class="language-plaintext highlighter-rouge">404 Not Found</code> ma nella forma di un brick.</p>
+
+<p><img src="/images/bricks/semibrick.png" alt="" /></p>
+
+<h4 id="soluzioni">Soluzioni</h4>
+<p>Verifica in AnyRegion Changer che la regione della tua console sia la stessa del Menu Wii installato.</p>
+
+<p>Se questo brick era causato da un tema che avevi installato, usa MyMenuifyMod per reinstallato il file del tema originale.</p>
+
+<p>Se questo era causato da un WAD del menu Wii che avevi installato, usa <a href="https://wiibrew.org/wiki/NUSD">NUS Downloader</a> per riottenere il Menu Wii originale.</p>
+
+<p class="notice--danger">Sii prudente mentre scarichi il WAD del Menu Wii. Assicurati di scegliere la stessa versione con la regione corretta.</p>
+
+<p>Se stai eseguendo il processo del cambio di regione, usa <a href="https://github.com/modmii/Any-Region-Changer-ModMii-Edition/releases">ARC-ME</a> per far coincidere le impostazioni della tua regione con il tuo Menu Wii automaticamente.</p>
+
+<h2 id="brick-del-banner">Brick del Banner</h2>
+
+<h4 id="sintomi-1">Sintomi</h4>
+<p>Prova ad accendere il Wii - viene mostrato l’avviso di salute e sicurezza, quando premi A lo schermo sparisce normalmente; tuttavia, dopo questo punto, non succede nulla e il Wii rimane su uno schermo nero. Questo succede dopo aver installato un WAD e dopo aver riavviato, o essere tornato al Menu Wii. Alternativamente, il Menu Wii può sempre essere avviato, ma aprire il canale corrotto fa bloccare la console. In alcuni casi, potresti vedere la schermata “System files are corrupted”.</p>
+
+<p><img src="/images/bricks/sysfiles-corrupted.jpg" alt="" /></p>
+
+<h4 id="causa-1">Causa</h4>
+<p>I brick del banner si verificano se installi un file WAD che ha un’icona o un banner del Menu invalido.</p>
+
+<h4 id="soluzioni-1">Soluzioni</h4>
+<p>Se riesci in qualche modo ad accedere al Menu Wii, puoi entrare nell’Homebrew Channel e usare <a href="yawmme">YAWM ModMii Edition</a> o il tuo WAD manager preferito per disinstallare il canale corrotto.</p>
+
+<p>Se non puoi accedere al Menu Wii, e hai <a href="priiloader">Priiloader</a> installato, entrarci tenendo premuto RESET mentre accendi il tuo Wii. Selezione Homebrew Channel, e disinstalla il canale corrotto.</p>
+
+<p>Se non hai accesso a Priiloader, potrebbe valere la pena provare a entrare nella modalità manutenzione. Tieni premuto <code class="language-plaintext highlighter-rouge">+</code> e <code class="language-plaintext highlighter-rouge">-</code> sulla schermata di salute e sicurezza (non premere <code class="language-plaintext highlighter-rouge">A</code>!).</p>
+
+<h2 id="brick-del-tema">Brick del Tema</h2>
+
+<h4 id="sintomi-2">Sintomi</h4>
+
+<p>Prova ad accendere il Wii - viene mostrato l’avviso di salute e sicurezza, quando premi A lo schermo sparisce normalmente; tuttavia, dopo questo punto, non succede nulla e il Wii rimane su uno schermo nero. Questo succede dopo aver installato un tema.</p>
+
+<h4 id="causa-2">Causa</h4>
+<p>Un brick del tema si verifica quando un tema malformato viene installato.</p>
+
+<h4 id="soluzioni-2">Soluzioni</h4>
+<p>Per risolvere questo problema, apri HBC tramite Priiloader o BootMii su boot2 e avvia MyMenuifyMod per installare un tema predefinito come quello del Menu Wii. Alternativamente, entra in <a href="yawmme">YAWM ModMii Edition</a> e installa il WAD del menu Wii predefinito CORRETTO per la tua regione e versione.</p>
+
+<h2 id="brick-mail">Brick mail</h2>
+
+<h4 id="sintomi-3">Sintomi</h4>
+<p>Prova ad accendere il Wii - viene mostrato l’avviso di salute e sicurezza, quando premi A lo schermo sparisce normalmente; tuttavia, dopo questo punto, non succede nulla e il Wii rimane su uno schermo nero. La modalità manutenzione non è accessibile.</p>
+
+<h4 id="causa-3">Causa</h4>
+<p>Un brick mail si verifica nel momento in cui un Wii ha troppa mail da gestire, o quando una mail malformata si trova nella Bacheca Wii, causando un blocco del sistema durante l’avvio. In quanto la Bacheca Wii è sempre presente sotto i canali, questo impedisce al Menu Wii di caricare correttamente.</p>
+
+<h4 id="soluzione">Soluzione</h4>
+<p>Tenendo premuti i tasti + e - sulla schermata di avviso, puoi entrare nella modalità manutenzione, in cui la Bacheca Wii non viene caricata. Se l’Homebrew Channel non è installato e il menu di sistema del Wii è di versione 2.0 o superiore, segui <a href="str2hax">str2hax</a>. Altrimenti, vedi <a href="bluebomb">Bluebomb</a>.</p>
+
+<p>Da qui, l’Homebrew Channel può essere avviato e il brick può essere risolto eliminando i dati della Bacheca Wii con <a href="https://oscwii.org/library/app/cdbackup">cdbackup</a>.</p>
+
+<h2 id="brick-menu-wiiopera">Brick Menu Wii/Opera</h2>
+
+<h4 id="sintomi-4">Sintomi</h4>
+<p>Quando avvii il Wii, ottieni un errore dal browser Opera simile a <code class="language-plaintext highlighter-rouge">You tried to access the address (URL), which is currently unavailable.</code> Questo succede ogni volta che accendi il Wii, e non può essere aggirato con nessun mezzo.</p>
+
+<h4 id="causa-4">Causa</h4>
+<p>Questo brick è una versione più grave del <a href="#semibrick">Semibrick</a>. Se il tuo SYSCONF è corrotto o dennaggiato, il Wii lo rigenererà e avvierà la fase di configurazione.</p>
+
+<p>Tuttavia, la pagina di configurazione ha una posizione simile a quella delle impostazioni del Wii. Se hai un Menu Wii o un tema di regione incorretta, il Wii non può trovarle.</p>
+
+<p><img src="/images/bricks/sysmenu-brick.png" alt="" /></p>
+
+<h4 id="soluzioni-3">Soluzioni</h4>
+
+<p>Se hai ancora <a href="priiloader">Priiloader</a>, usalo per entrare nell’Homebrew Channel e reinstallare il file del tema originale / il Menu Wii originale.</p>
+
+<p>Se non hai Priiloader o il tuo Wii non è modificato, puoi provare <a href="bluebomb">BlueBomb</a>.</p>
+
+<p>Alternativamente, la <a href="recovery-mode">Recovery Mode</a> può essere usata come tentativo di risoluzione.</p>
+
+<h2 id="brick-korean-kiierrore-003">Brick Korean Kii/Errore 003</h2>
+
+<h4 id="sintomi-5">Sintomi</h4>
+<p>Questa schermata viene mostrata nel momento in cui la console si avvia.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Error:003</code><br /> <code class="language-plaintext highlighter-rouge">unauthorized device has been detected.</code><br /></p>
+
+<p><img src="/images/bricks/error-003.png" alt="" /></p>
+
+<h4 id="causa-5">Causa</h4>
+<p>Prima di rilasciare i Wii coreani, Nintendo ha cambiato la chiave di criptazione di quelle unità nello specifico come tentativo disperato di prevenire le applicazioni homebrew. Mentre ovviamente questo tentativo è fallito, hanno anche lasciato un controllo nel Menu di sistema delle versioni 4.2/4.3 per verificare la presenza della chiave coreana su console di regione <strong>non</strong> coreana. Se questo controllo ha successo, l’errore viene mostrato e la Wii viene brickata.</p>
+
+<p>Questo di solito succede subito dopo un aggiornamento della versione del sistema di un Wii coreano con la regione cambiata.</p>
+
+<h4 id="soluzioni-4">Soluzioni</h4>
+<p>In quanto questo Wii succede soprattutto dopo gli aggiornamenti del Menu Wii, Priiloader non sarà presente.</p>
+
+<p>I Wii coreani sono anche stati rilasciati con il Menu Wii 3.3, all’incirca quando Nintendo <a href="https://wiibrew.org/wiki/3.3#Changes">ha corretto il bug Trucha di boot1</a>, quindi BootMii su boot2 non può essere installato né usato sui Wii coreani.</p>
+
+<p>Anche se queste limitazioni lasciano il Wii in una situazione pericolosa, <strong>è comunque sistemabile</strong>. Il procedimento include entrare in <a href="recovery-mode">Recovery Mode</a>, dove un exploit può essere avviato per accedere all’Homebrew Channel e rimuovere le condizioni che hanno causato il brick.</p>
+
+<h2 id="brick-ios">Brick IOS</h2>
+
+<h4 id="sintomi-6">Sintomi</h4>
+<p>Questo brick sembra a un brick a basso livello a causa di un fallimento del Menu Wii via IOS; tuttavia non c’è una completa corruzione della NAND a basso livello, o un fallimento dell’hardware a basso livello.</p>
+
+<h4 id="causa-6">Causa</h4>
+<p>Questo brick si verifica di solito nel momento in cui l’IOS del Menu Wii è uno <a href="http://wiibrew.org/wiki/Stub_IOS">stub</a>. Questa è di solito la consequenza di provare a eseguire un downgrade del tuo Menu Wii. Se questo errore inizia a verificarsi dopo aver installato un IOS80 normale tu un Wii mini, vedi <a href="wi-fi-brick">brick Wi-Fi</a>.</p>
+
+<h4 id="soluzioni-5">Soluzioni</h4>
+<p>Non è sicuro che la <a href="recovery-mode">Recovery Mode</a> sia accessibile data la natura del brick, ma Priiloader non funzionerà quasi sicuramente. Se non puoi raggiungere la Recovery Mode, devi avere BootMii su boot2 per sistemare questo brick. Se queste condizioni non sono soddisfatte, vedi <a href="bricks#low-level-brick">brick a basso livello</a>.</p>
+
+<p>Puoi ripristinare un backup della NAND oppure:</p>
+
+<ol>
+  <li>Usare <a href="https://wiibrew.org/wiki/NUSD">NUS Downloader</a> per costruire un WAD del tuo Menu Wii originale.</li>
+  <li>Usare BootMii per accedere all’Homebrew Channel, poi usare un WAD manager per installare il WAD del Menu Wii.</li>
+</ol>
+
+<h2 id="brick-wi-fi">Brick Wi-Fi</h2>
+
+<h4 id="sintomi-7">Sintomi</h4>
+<p>Questo brick sembra identico a un brick a basso livello, tuttavia puoi ancora avviare il Wii con un Wiimote, e puoi ancora accedere alla Recovery Mode con un Wii originale.</p>
+
+<h4 id="causa-7">Causa</h4>
+<p>Questo brick si verifica quando il modulo Wi-Fi (o Bluetooth) del tuo Wii è danneggiato o inserito incorrettamente. In questi casi, il Wii si blocca su uno schermo nero nell’attesa di una risposta dall’IOS.</p>
+
+<p>Questo succede anche se installi un IOS di un Wii normale su un Wii mini, poiché il Wii mini non possiede il modulo Wi-Fi.</p>
+
+<h4 id="soluzioni-6">Soluzioni</h4>
+<p>Per risolvere questo problema, puoi provare a riposizionare o rimpiazzare il modulo Wi-Fi/Bluetooth.</p>
+
+<p>Se stai usando un Wii mini, devi installare il modulo Wi-Fi.</p>
+
+<p>Se entrambe le soluzioni falliscono, vedi <a href="bricks#low-level-brick">brick a basso livello</a>.</p>
+
+<h2 id="brick-a-basso-livello">Brick a Basso Livello</h2>
+
+<h4 id="sintomi-8">Sintomi</h4>
+<p>Schermo completamente nero, nessuna risposta all’input dell’utente. La Recovery Mode non si avvia, nè BootMii su boot2 (se installato in primo luogo), a tutti gli effetti la console sembra morta.</p>
+
+<h4 id="causa-8">Causa</h4>
+<p>Questo brick di verifica nel momento in cui boot1/boot2 sono corrotti, o se c’è un fallimento dell’hardware.</p>
+
+<h4 id="soluzioni-7">Soluzioni</h4>
+<p>Per prima cosa, deve essere effettuata la risoluzione dei problemi per determinare se c’è un problema hardware. Nell’ordine elencato, procedi come segue:</p>
+
+<ul>
+  <li>Assicurati che il Wii effettivamente funzioni (legga e faccia girare i dischi normalmente, si connetta con i Wiimote) prima di proseguire. Se è questo il caso e solo l’output video non viene mostrato, potresti avere un fallimento della porta video o della GPU molto rara.</li>
+  <li>Se stai usando un Wii mini, e un IOS80 normale è stato installato, vedi <a href="wi-fi-brick">brick Wi-Fi</a>. Se i passaggi per risolvere il brick Wi-Fi falliscono, procedi.</li>
+  <li>Prova ad accedere alla <a href="recovery-mode">Recovery Mode</a> (solo Wii normali). Se la Recovery Mode si avvia, vedi <a href="wi-fi-brick">brick Wi-Fi</a>. Se i passaggi per risolvere il brick Wi-Fi falliscono, procedi.</li>
+  <li>Riposizione l’unità del disco e prova ad avviare la console normalmente. Se ancora non hai successo, rimpiazza l’unità del disco. Se ancora non hai successo, procedi.</li>
+  <li>A questo punto, vi è una corruzione a basso livello di boot0/boot1, un fallimento del chip della NAND, o c’è un fallimento hardware sconosciuto più grave. Considera chiedere aiuto online o comprare un altro Wii.</li>
+</ul>
+
+<p class="notice--info"><a href="navigazione-sito">Clicca qui per tornare alla Navigazione del Sito.</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/hacks-guide/Guide_Wii" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+<!-- hacks-guide change start: force disable atom feed-->
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+<!-- hacks-guide change end -->
+
+</div>
+
+<!-- hacks-guide change start: custom footer -->
+
+
+
+<div class="page__footer-copyright">&copy; 2023 Nintendo Homebrew. - <a href="navigazione-sito">Navigazione del Sito</a> - <a href="privacy-policy">Informativa sulla Privacy</a> - <a href="donations">Donazioni</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<!-- hacks-guide change end -->
+
+      </footer>
+    </div>
+<!-- hacks-guide change end -->
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- hacks-guide change start: Disable caching -->
+
+<!-- hacks-guide change end -->
+
+
+
+
+
+
+
+  </body>
+</html>

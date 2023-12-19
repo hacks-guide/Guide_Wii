@@ -1,0 +1,557 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Nintendont - Wii Hacks Guide</title>
+<meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+  <meta name="author" content="Nintendo Homebrew">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wii Hacks Guide">
+<meta property="og:title" content="Nintendont">
+<meta property="og:url" content="https://wii.hacks.guide/it_IT/nintendont.html">
+
+
+  <meta property="og:description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://wii.hacks.guide/it_IT/nintendont.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nintendo Homebrew",
+      "url": "https://wii.hacks.guide/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wii Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- hacks-guide change start: cookie consent, favicon, locales -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/site-config/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/site-config/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="manifest" href="/assets/js/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/site-config/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/site-config/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/site-config/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/assets/xml/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#28282b"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "Questo sito web utilizza i cookie per visualizzare l'avanzamento corrente della guida sulla barra laterale e per migliorare il sito."
+  }
+})});
+</script>
+<!-- hacks-guide change end -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+<!-- hacks-guide change start: Disable caching -->
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+<!-- hacks-guide change start: disable default masthead title -->
+      <!--
+        <a class="site-title" href="/">
+          Wii Hacks Guide
+          
+        </a>
+      -->
+<!-- hacks-guide change end -->
+        <ul class="visible-links">
+<!-- hacks-guide change start: multi-language configuration -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/it_IT/">Menu Principale</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/per-iniziare">Per Iniziare</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/navigazione-sito">Navigazione del Sito</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/faq">FAQ</a></li>
+            
+          
+<!-- hacks-guide change end -->
+        </ul>
+        
+<!-- hacks-guide change start: Add language selector -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/nintendont.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/nintendont.html">Italiano</a></li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="greedy-nav__toggle_lang" type="button"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+<!-- hacks-guide change end -->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- hacks-guide change start: Implement progress table, replace existing sidebar -->
+<!--
+
+  <div class="sidebar sticky">
+  
+  
+    
+    
+  
+  </div>
+
+-->
+
+
+
+<div class="sidebar sticky" style="display: none;">
+  <!-- hacks-guide change start: Refactor entire subsection to allow using translations -->
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">Progresso Complessivo</span>
+      <ol>
+        
+          
+            <li style="display: none;" data-name="home"><a href='/it_IT/'>Menu Principale</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="get-started"><a href='/it_IT/per-iniziare'>Per Iniziare</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="letterbomb"><a href='/it_IT/letterbomb'>LetterBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bluebomb"><a href='/it_IT/bluebomb'>BlueBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="flashhax"><a href='/it_IT/flashhax'>FlashHax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="str2hax"><a href='/it_IT/str2hax'>str2hax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wilbrand"><a href='/it_IT/wilbrand'>Wilbrand</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="multiple-options"><i>(Opzioni Multiple)</i></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc"><a href='/it_IT/hbc'>Installazione dell'Homebrew Channel e di BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc-mini"><a href='/it_IT/hbc-mini'>Homebrew Channel - solo per Wii mini</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bootmii"><a href='/it_IT/bootmii'>Backup BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="priiloader"><a href='/it_IT/priiloader'>Priiloader</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="osc"><a href='/it_IT/osc'>Open Shop Channel</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/it_IT/cios-mini'>d2xl cIOS per Wii mini (sperimentale)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wnd-mini"><a href='/it_IT/wnd-mini'>Wii mini NAND Dumper</a></li>
+          
+        
+      </ol>
+    </li>
+  </ul>
+</nav>
+<!-- hacks-guide change end -->
+
+</div>
+
+
+<!-- hacks-guide change end-->
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Nintendont">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Nintendont
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+<!-- hacks-guide change start -->
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>Per supporto in Inglese, chiedere aiuto sul server <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a>.</b></div>
+        
+
+        <hr>
+<!-- hacks-guide change end -->
+
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
+  <li><a href="#installazione" id="markdown-toc-installazione">Installazione</a></li>
+  <li><a href="#guida-rapida" id="markdown-toc-guida-rapida">Guida rapida</a>    <ul>
+      <li><a href="#funzioni-principali" id="markdown-toc-funzioni-principali">Funzioni principali</a></li>
+      <li><a href="#interfaccia-utente" id="markdown-toc-interfaccia-utente">Interfaccia utente</a></li>
+      <li><a href="#avvio-dei-giochi" id="markdown-toc-avvio-dei-giochi">Avvio dei giochi</a></li>
+      <li><a href="#configurazione-bios" id="markdown-toc-configurazione-bios">Configurazione BIOS</a></li>
+      <li><a href="#utilizzare-un-controller-hid-usb-con-nintendont" id="markdown-toc-utilizzare-un-controller-hid-usb-con-nintendont">Utilizzare un controller HID USB con Nintendont</a></li>
+      <li><a href="#combinazioni-di-pulsanti-per-nintendont-durante-il-gioco" id="markdown-toc-combinazioni-di-pulsanti-per-nintendont-durante-il-gioco">Combinazioni di pulsanti per Nintendont durante il gioco</a></li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<p>Nintendont è un’applicazione homebrew in modalità Wii che ti consente di giocare a giochi GameCube e dump di arcade Triforce. Nintendont è un’app interessante in quanto è un ibrido tra un emulatore e una macchina virtuale - mentre esegue comunque i giochi GameCube con prestazioni e qualità quasi native. Ulteriori informazioni possono essere trovate <a href="https://gbatemp.net/threads/nintendont.349258/">qui</a>.</p>
+
+<p class="notice--info">Per giocare ai giochi, si consiglia di utilizzare una scheda SD di grandi dimensioni o un hard drive esterno, poiché le unità flash sono molto sporadiche in funzionalità. Vedi il <a href="faq">FAQ storage</a>.</p>
+
+<p class="notice--info">Assicurati che l’unità di archiviazione sia formattata come FAT32. Non formattarlo ad altri file system come NTFS, exFAT o WBFS.</p>
+
+<h3 id="requisiti">Requisiti</h3>
+
+<ul>
+  <li>Una Wii modificata</li>
+  <li>Una scheda SD o dispositivo USB</li>
+  <li><a href="https://oscwii.org/library/app/Nintendont">Nintendont</a></li>
+</ul>
+
+<h3 id="installazione">Installazione</h3>
+<ol>
+  <li>Scarica Nintendont ed estrailo nella root della tua scheda SD o dispositivo USB.</li>
+  <li>Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia Nintendont dall’Homebrew Channel.</li>
+</ol>
+
+<h3 id="guida-rapida">Guida rapida</h3>
+
+<h4 id="funzioni-principali">Funzioni principali</h4>
+
+<ul>
+  <li>È possibile utilizzare vari dispositivi di input per giocare ai giochi GameCube. Questi includono i controller GameCube (anche tramite un adattatore USB), telecomandi Wii, Controller Tradizionali, i Konga, controller USB HID, controller Bluetooth e potenzialmente altri ancora.</li>
+  <li>Nintendont supporta memory card virtuali che vengono salvate nell’unità di archiviazione esterna, dalle dimensioni di 51 blocchi fino a 1019 blocchi. Nonostante ciò, la dimensione massima consigliata è di 251 blocchi per memory card per garantire la massima compatibilità.</li>
+  <li>Puoi usare una patch creata dalla community per attivare il gioco online in alcuni giochi.</li>
+  <li>Nintendont può essere usato su <a href="wii-loaders#wiiflow-lite">WiiFlow Lite</a> o <a href="wii-loaders#usb-loader-gx">USB Loader GX</a> per il caricamento dei giochi GameCube.</li>
+</ul>
+
+<h4 id="interfaccia-utente">Interfaccia utente</h4>
+
+<p><img src="/images/usb-loaders/nintendont-ui.png" alt="" /></p>
+
+<p>Nintendont utilizza un’interfaccia utente che è principalmente controllabile e navigabile utilizzando un controller.</p>
+
+<h4 id="avvio-dei-giochi">Avvio dei giochi</h4>
+
+<p>I giochi in Nintendont devono essere avviati da un dispositivo esterno con una specifica struttura di cartelle, utilizzando gli ID di gioco. Gli ID di gioco possono essere trovati su <a href="https://www.gametdb.com">GameTDB</a>.<br />La struttura prevista per giochi su disco singolo è la seguente:<br /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>💾SD/USB:
+ ┗ 📂games
+    ┗ 📂NomeGioco [IDgioco]
+       ┗ 📜game.iso o 📜game.ciso
+</code></pre></div></div>
+
+<p>La struttura prevista per giochi multi-disco è la seguente:<br /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>💾SD/USB:
+┗ 📂games
+   ┗ 📂NomeGioco [IDgioco]
+      ┣ 📜game.iso o 📜game.ciso
+      ┗ 📜disc2.iso o 📜disc2.ciso
+</code></pre></div></div>
+
+<p>Ecco un esempio in cui viene usato The Legend of Zelda: The Wind Waker in un dispositivo USB:<br /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>💾SD/USB:
+ ┗ 📂games
+    ┗ 📂The Legend of Zelda: The Wind Waker [GZLE01]
+       ┗ 📜game.iso o 📜game.ciso
+</code></pre></div></div>
+
+<h4 id="configurazione-bios">Configurazione BIOS</h4>
+
+<p>Puoi usare un BIOS GameCube originale su Nintendont se ne hai ottenuto uno legalmente.</p>
+
+<ol>
+  <li>Rinomina il file BIOS a <code class="language-plaintext highlighter-rouge">iplusa.bin</code>/<code class="language-plaintext highlighter-rouge">ipljap.bin</code>/<code class="language-plaintext highlighter-rouge">iplpal.bin</code> in base alla sua regione.</li>
+  <li>Copialo nella root del dispositivo di archiviazione in cui si trovano i tuoi giochi GameCube.</li>
+  <li>Vai nelle impostazioni di Nintendont e controlla che l’opzione <code class="language-plaintext highlighter-rouge">Skip IPL</code> sia su OFF.</li>
+</ol>
+
+<h4 id="utilizzare-un-controller-hid-usb-con-nintendont">Utilizzare un controller HID USB con Nintendont</h4>
+
+<p>Di predefinito, Nintendont seleziona una configurazione di controller da un elenco interno di controller già configurati. Se il tuo dovesse funzionare in automatico, assicurati di controllare l’elenco dei controller supportati nell’articolo in cima alla pagina. Se vuoi comunque controllare, puoi usare <a href="https://oscwii.org/library/app/HIDTest">HIDTest</a> per controllare se il tuo controller verrà rilevato e funzionerà con Nintendont, o meno.</p>
+
+<h4 id="combinazioni-di-pulsanti-per-nintendont-durante-il-gioco">Combinazioni di pulsanti per Nintendont durante il gioco</h4>
+
+<p>Riavvia: Riavvia il gioco e torna alla schermata del titolo del gioco.<br /> Spegni: Chiude Nintendont e ritorna al loader.<br /></p>
+
+<p>Alcuni giochi potrebbero avere combinazioni di pulsanti native per il riavvio.</p>
+
+<p><strong>Controller GameCube:</strong><br /> Riavvia: R+Z+Start<br /> Spegni: R+Z+B+Giù (croce direzionale)</p>
+
+<p><strong>Telecomando Wii + Nunchuck:</strong><br /> Spegni: Pulsante HOME sul telecomando Wii</p>
+
+<p><strong>Controller USB-HID o adattatore:</strong><br /> Puoi definire i pulsanti per il spegnimento da te.<br /> Il pulsante Power è definito nel file controller.ini o nel file controllers/PID_VID.ini corretto utilizzato per il tuo controller.<br /> La combinazione più comune con le impostazioni HID predefinite:<br /> Spegni: L+R+Z+Start</p>
+
+<p class="notice--info"><a href="navigazione-sito">Clicca qui per tornare alla Navigazione del Sito.</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/hacks-guide/Guide_Wii" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+<!-- hacks-guide change start: force disable atom feed-->
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+<!-- hacks-guide change end -->
+
+</div>
+
+<!-- hacks-guide change start: custom footer -->
+
+
+
+<div class="page__footer-copyright">&copy; 2023 Nintendo Homebrew. - <a href="navigazione-sito">Navigazione del Sito</a> - <a href="privacy-policy">Informativa sulla Privacy</a> - <a href="donations">Donazioni</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<!-- hacks-guide change end -->
+
+      </footer>
+    </div>
+<!-- hacks-guide change end -->
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- hacks-guide change start: Disable caching -->
+
+<!-- hacks-guide change end -->
+
+
+
+
+
+
+
+  </body>
+</html>

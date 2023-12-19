@@ -1,0 +1,691 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Salvataggi GameCube - Wii Hacks Guide</title>
+<meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+  <meta name="author" content="Nintendo Homebrew">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wii Hacks Guide">
+<meta property="og:title" content="Salvataggi GameCube">
+<meta property="og:url" content="https://wii.hacks.guide/it_IT/gcsaves.html">
+
+
+  <meta property="og:description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://wii.hacks.guide/it_IT/gcsaves.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nintendo Homebrew",
+      "url": "https://wii.hacks.guide/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wii Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- hacks-guide change start: cookie consent, favicon, locales -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/site-config/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/site-config/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="manifest" href="/assets/js/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/site-config/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/site-config/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/site-config/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/assets/xml/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#28282b"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "Questo sito web utilizza i cookie per visualizzare l'avanzamento corrente della guida sulla barra laterale e per migliorare il sito."
+  }
+})});
+</script>
+<!-- hacks-guide change end -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+<!-- hacks-guide change start: Disable caching -->
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+<!-- hacks-guide change start: disable default masthead title -->
+      <!--
+        <a class="site-title" href="/">
+          Wii Hacks Guide
+          
+        </a>
+      -->
+<!-- hacks-guide change end -->
+        <ul class="visible-links">
+<!-- hacks-guide change start: multi-language configuration -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/it_IT/">Menu Principale</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/per-iniziare">Per Iniziare</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/navigazione-sito">Navigazione del Sito</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/faq">FAQ</a></li>
+            
+          
+<!-- hacks-guide change end -->
+        </ul>
+        
+<!-- hacks-guide change start: Add language selector -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/gcsaves.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/gcsaves.html">Italiano</a></li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="greedy-nav__toggle_lang" type="button"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+<!-- hacks-guide change end -->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- hacks-guide change start: Implement progress table, replace existing sidebar -->
+<!--
+
+  <div class="sidebar sticky">
+  
+  
+    
+    
+  
+  </div>
+
+-->
+
+
+
+<div class="sidebar sticky" style="display: none;">
+  <!-- hacks-guide change start: Refactor entire subsection to allow using translations -->
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">Progresso Complessivo</span>
+      <ol>
+        
+          
+            <li style="display: none;" data-name="home"><a href='/it_IT/'>Menu Principale</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="get-started"><a href='/it_IT/per-iniziare'>Per Iniziare</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="letterbomb"><a href='/it_IT/letterbomb'>LetterBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bluebomb"><a href='/it_IT/bluebomb'>BlueBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="flashhax"><a href='/it_IT/flashhax'>FlashHax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="str2hax"><a href='/it_IT/str2hax'>str2hax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wilbrand"><a href='/it_IT/wilbrand'>Wilbrand</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="multiple-options"><i>(Opzioni Multiple)</i></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc"><a href='/it_IT/hbc'>Installazione dell'Homebrew Channel e di BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc-mini"><a href='/it_IT/hbc-mini'>Homebrew Channel - solo per Wii mini</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bootmii"><a href='/it_IT/bootmii'>Backup BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="priiloader"><a href='/it_IT/priiloader'>Priiloader</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="osc"><a href='/it_IT/osc'>Open Shop Channel</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/it_IT/cios-mini'>d2xl cIOS per Wii mini (sperimentale)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wnd-mini"><a href='/it_IT/wnd-mini'>Wii mini NAND Dumper</a></li>
+          
+        
+      </ol>
+    </li>
+  </ul>
+</nav>
+<!-- hacks-guide change end -->
+
+</div>
+
+
+<!-- hacks-guide change end-->
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Salvataggi GameCube">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Salvataggi GameCube
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+<!-- hacks-guide change start -->
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>Per supporto in Inglese, chiedere aiuto sul server <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a>.</b></div>
+        
+
+        <hr>
+<!-- hacks-guide change end -->
+
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#caricare-un-salvataggio-individuale-file-gci-su-una-memory-card-fisica" id="markdown-toc-caricare-un-salvataggio-individuale-file-gci-su-una-memory-card-fisica">Caricare un salvataggio individuale (file .gci) su una Memory Card fisica</a>    <ul>
+      <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
+      <li><a href="#istruzioni" id="markdown-toc-istruzioni">Istruzioni</a>        <ul>
+          <li><a href="#download" id="markdown-toc-download">Download</a></li>
+          <li><a href="#effettuare-il-ripristino" id="markdown-toc-effettuare-il-ripristino">Effettuare il ripristino</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#backup-di-un-salvataggio-file-gci-su-una-sd-o-usb-da-una-memory-card-fisica" id="markdown-toc-backup-di-un-salvataggio-file-gci-su-una-sd-o-usb-da-una-memory-card-fisica">Backup di un salvataggio (file .gci) su una SD o USB da una Memory Card fisica</a>    <ul>
+      <li><a href="#requisiti-1" id="markdown-toc-requisiti-1">Requisiti</a></li>
+      <li><a href="#istruzioni-1" id="markdown-toc-istruzioni-1">Istruzioni</a>        <ul>
+          <li><a href="#download-1" id="markdown-toc-download-1">Download</a></li>
+          <li><a href="#effettuare-il-backup" id="markdown-toc-effettuare-il-backup">Effettuare il backup</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#backup-della-memory-card-fisica-in-una-memory-card-emulata-file-raw" id="markdown-toc-backup-della-memory-card-fisica-in-una-memory-card-emulata-file-raw">Backup della Memory Card fisica in una Memory Card emulata (file .raw)</a>    <ul>
+      <li><a href="#requisiti-2" id="markdown-toc-requisiti-2">Requisiti</a></li>
+      <li><a href="#istruzioni-2" id="markdown-toc-istruzioni-2">Istruzioni</a>        <ul>
+          <li><a href="#download-2" id="markdown-toc-download-2">Download</a></li>
+          <li><a href="#dump-del-raw" id="markdown-toc-dump-del-raw">Dump del .raw</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#ripristino-di-un-salvataggio-da-memory-card-virtuale-a-memory-card-fisica" id="markdown-toc-ripristino-di-un-salvataggio-da-memory-card-virtuale-a-memory-card-fisica">Ripristino di un salvataggio da Memory Card virtuale a Memory Card fisica</a>    <ul>
+      <li><a href="#requisiti-3" id="markdown-toc-requisiti-3">Requisiti</a></li>
+      <li><a href="#istruzioni-3" id="markdown-toc-istruzioni-3">Istruzioni</a></li>
+    </ul>
+  </li>
+  <li><a href="#trasferire-salvataggi-tra-due-memory-card-fisiche" id="markdown-toc-trasferire-salvataggi-tra-due-memory-card-fisiche">Trasferire salvataggi tra due Memory Card fisiche</a>    <ul>
+      <li><a href="#requisiti-4" id="markdown-toc-requisiti-4">Requisiti</a></li>
+      <li><a href="#istruzioni-4" id="markdown-toc-istruzioni-4">Istruzioni</a></li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<p>Questa è una guida completa su come gestire i tuoi salvataggi di GameCube.</p>
+
+<p class="notice--info">L’utilizzo di periferiche GameGube su un modello di Wii Family Edition o Wii mini richiederà la saldatura delle porte GameCube e/o i slot per le memory card.</p>
+
+<h2 id="caricare-un-salvataggio-individuale-file-gci-su-una-memory-card-fisica">Caricare un salvataggio individuale (file .gci) su una Memory Card fisica</h2>
+
+<h3 id="requisiti">Requisiti</h3>
+
+<ul>
+  <li>Un Wii con porte GameCube</li>
+  <li>Una scheda SD o unità USB</li>
+  <li><a href="https://oscwii.org/library/app/gcmm">GCMM</a></li>
+</ul>
+
+<p class="notice--info">Se stai cercando salvataggi completati al 100%, li puoi trovare <a href="https://gamefaqs.gamespot.com/">qui</a>.</p>
+
+<p class="notice--info">Se stai cercando gli exploit per i dati di salvataggio per entrare su <a href="https://github.com/emukidid/swiss-gc/releases">Swiss</a>, li puoi vedere elencati <a href="https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits">qui</a>.</p>
+
+<h3 id="istruzioni">Istruzioni</h3>
+
+<h4 id="download">Download</h4>
+
+<ol>
+  <li>Estrai GCMM e inseriscilo nella cartella <code class="language-plaintext highlighter-rouge">apps</code> della tua scheda SD.</li>
+  <li>Sposta il file <code class="language-plaintext highlighter-rouge">.gci</code> in una cartella chiamata <code class="language-plaintext highlighter-rouge">MCBACKUP</code> nella root della scheda SD o dell’unità USB.</li>
+  <li>Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia GCMM dall’Homebrew Channel.</li>
+</ol>
+
+<h4 id="effettuare-il-ripristino">Effettuare il ripristino</h4>
+
+<ol>
+  <li>Inserisci la memory card fisica nello Slot A o Slot B.</li>
+  <li>
+    <p>Seleziona il dispositivo da cui vuoi ripristinare.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-select-device.jpg" alt="" /></p>
+  </li>
+  <li>
+    <p>Su GCMM, premi X su un controller GameCube o + su un telecomando Wii.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-menu.jpg" alt="" /></p>
+  </li>
+  <li>
+    <p>Seleziona lo slot in cui la memory card è inserita.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-mem-select.jpg" alt="" /></p>
+  </li>
+  <li>
+    <p>Seleziona il salvataggio che vuoi ripristinare. Se hai più salvataggi da ripristinare, puoi premere R sul controller GameCube o 1 sul telecomando Wii per ripristinare tutti i tuoi salvataggi.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-select-save.jpg" alt="" /></p>
+  </li>
+  <li>Appena completato il ripristino, premi un pulsante qualsiasi per continuare.</li>
+</ol>
+
+<h2 id="backup-di-un-salvataggio-file-gci-su-una-sd-o-usb-da-una-memory-card-fisica">Backup di un salvataggio (file .gci) su una SD o USB da una Memory Card fisica</h2>
+
+<h3 id="requisiti-1">Requisiti</h3>
+
+<ul>
+  <li>Un Wii con porte GameCube</li>
+  <li>Una scheda SD o unità USB</li>
+  <li><a href="https://oscwii.org/library/app/gcmm">GCMM</a></li>
+</ul>
+
+<h3 id="istruzioni-1">Istruzioni</h3>
+
+<h4 id="download-1">Download</h4>
+
+<ol>
+  <li>Estrai GCMM e inseriscilo nella cartella <code class="language-plaintext highlighter-rouge">apps</code> della tua scheda SD.</li>
+  <li>Sposta il file <code class="language-plaintext highlighter-rouge">.gci</code> in una cartella chiamata <code class="language-plaintext highlighter-rouge">MCBACKUP</code> nella root della scheda SD o dell’unità USB.</li>
+  <li>Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia GCMM dall’Homebrew Channel.</li>
+</ol>
+
+<h4 id="effettuare-il-backup">Effettuare il backup</h4>
+
+<ol>
+  <li>Inserisci la memory card fisica nello Slot A o Slot B.</li>
+  <li>
+    <p>Seleziona il dispositivo su cui vuoi fare il backup.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-select-device.jpg" alt="" /></p>
+  </li>
+  <li>
+    <p>Su GCMM, premi Y su un controller GameCube o - su un telecomando Wii.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-menu.jpg" alt="" /></p>
+  </li>
+  <li>
+    <p>Seleziona lo slot in cui la memory card è inserita.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-mem-select.jpg" alt="" /></p>
+  </li>
+  <li>
+    <p>Seleziona il salvataggio di cui vuoi farne il backup. Se hai più salvataggi da cui farne il backup, puoi premere R sul controller GameCube o 1 sul telecomando Wii per fare il backup di tutti i tuoi salvataggi.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-select-save.jpg" alt="" /></p>
+  </li>
+  <li>Appena completato il backup, premi un pulsante qualsiasi per continuare.</li>
+</ol>
+
+<h2 id="backup-della-memory-card-fisica-in-una-memory-card-emulata-file-raw">Backup della Memory Card fisica in una Memory Card emulata (file .raw)</h2>
+
+<h3 id="requisiti-2">Requisiti</h3>
+
+<ul>
+  <li>Un Wii con porte GameCube</li>
+  <li>Una scheda SD o unità USB</li>
+  <li><a href="https://oscwii.org/library/app/gcmm">GCMM</a></li>
+</ul>
+
+<h3 id="istruzioni-2">Istruzioni</h3>
+
+<h4 id="download-2">Download</h4>
+
+<ol>
+  <li>Estrai GCMM e inseriscilo nella cartella <code class="language-plaintext highlighter-rouge">apps</code> della tua scheda SD.</li>
+  <li>Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia GCMM dall’Homebrew Channel.</li>
+</ol>
+
+<h4 id="dump-del-raw">Dump del .raw</h4>
+
+<ol>
+  <li>Inserisci la memory card nello Slot A o Slot B.</li>
+  <li>
+    <p>Seleziona il dispositivo su cui vuoi fare il dump.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-select-device.jpg" alt="" /></p>
+  </li>
+  <li>
+    <p>Premi L e Y simultaneamente sul controller GameCube oppure B e - simultaneamente sul telecomando Wii per fare il backup su file .raw e seleziona lo slot in cui la memory card è inserita.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-mem-select.jpg" alt="" /></p>
+  </li>
+  <li>Appena completato il dump, premi un pulsante qualsiasi per continuare. Dovrebbe essere salvato in una cartella nella root della tua SD o USB chiamata <code class="language-plaintext highlighter-rouge">MCBACKUP</code>.</li>
+</ol>
+
+<h2 id="ripristino-di-un-salvataggio-da-memory-card-virtuale-a-memory-card-fisica">Ripristino di un salvataggio da Memory Card virtuale a Memory Card fisica</h2>
+
+<h3 id="requisiti-3">Requisiti</h3>
+
+<ul>
+  <li>Un Wii con porte GameCube</li>
+  <li>Una scheda SD o unità USB</li>
+  <li><a href="https://oscwii.org/library/app/gcmm">GCMM</a></li>
+</ul>
+
+<h3 id="istruzioni-3">Istruzioni</h3>
+
+<ol>
+  <li>Se stai cercando di ripristinare un salvataggio da Dolphin, vai nella cheda <code class="language-plaintext highlighter-rouge">File</code> su Dolphin, seleziona Apri Cartella Utente, apri la cartella GC e trova il file <code class="language-plaintext highlighter-rouge">.raw</code>.</li>
+  <li>Se stai cercando di ripristinare un salvataggio di Memory Card emulata da Nintendont, vai nella cartella <code class="language-plaintext highlighter-rouge">saves</code> nella root della tua scheda SD o unità USB.</li>
+  <li>Inserisci la memory card nello Slot A o Slot B.</li>
+  <li>
+    <p>Seleziona il dispositivo da cui vuoi ripristinare.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-select-device.jpg" alt="" /></p>
+  </li>
+  <li>Premi L e X simultaneamente sul controller GameCube oppure B e + simultaneamente sul telecomando Wii.</li>
+  <li>
+    <p>Seleziona lo slot in cui la memory card è inserita.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-mem-select.jpg" alt="" /></p>
+  </li>
+  <li>Dovrebbe aver ripristinato il file .raw sulla tua memory card. Appena completato il ripristino, premi un pulsante qualsiasi per continuare.</li>
+</ol>
+
+<h2 id="trasferire-salvataggi-tra-due-memory-card-fisiche">Trasferire salvataggi tra due Memory Card fisiche</h2>
+
+<h3 id="requisiti-4">Requisiti</h3>
+
+<ul>
+  <li>Un Wii con porte GameCube</li>
+  <li>Almeno due memory card fisiche</li>
+</ul>
+
+<h3 id="istruzioni-4">Istruzioni</h3>
+
+<ol>
+  <li>Inserisci entrambe le memory card nel Wii.</li>
+  <li>
+    <p>Dal menu di sistema, vai su <code class="language-plaintext highlighter-rouge">Opzioni Wii</code>, <code class="language-plaintext highlighter-rouge">Gestione dati</code>, <code class="language-plaintext highlighter-rouge">Dati di salvataggio</code>, <code class="language-plaintext highlighter-rouge">Nintendo GameCube</code>.</p>
+
+    <p><img src="/images/homebrew/gcsaves/sysmenu.jpg" alt="" /> <br /></p>
+
+    <p><img src="/images/homebrew/gcsaves/settings.jpg" alt="" /> <br /></p>
+
+    <p><img src="/images/homebrew/gcsaves/data-management.jpg" alt="" /> <br /></p>
+
+    <p><img src="/images/homebrew/gcsaves/save-data.jpg" alt="" /></p>
+  </li>
+  <li>Trova il salvataggio che vuoi, selezionalo e seleziona <code class="language-plaintext highlighter-rouge">Sposta o Copia</code>.</li>
+</ol>
+
+<p class="notice--info"><a href="navigazione-sito">Clicca qui per tornare alla Navigazione del Sito.</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/hacks-guide/Guide_Wii" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+<!-- hacks-guide change start: force disable atom feed-->
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+<!-- hacks-guide change end -->
+
+</div>
+
+<!-- hacks-guide change start: custom footer -->
+
+
+
+<div class="page__footer-copyright">&copy; 2023 Nintendo Homebrew. - <a href="navigazione-sito">Navigazione del Sito</a> - <a href="privacy-policy">Informativa sulla Privacy</a> - <a href="donations">Donazioni</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<!-- hacks-guide change end -->
+
+      </footer>
+    </div>
+<!-- hacks-guide change end -->
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- hacks-guide change start: Disable caching -->
+
+<!-- hacks-guide change end -->
+
+
+
+
+
+
+
+  </body>
+</html>

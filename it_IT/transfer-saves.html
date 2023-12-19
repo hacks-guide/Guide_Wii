@@ -1,0 +1,986 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Trasferimento dati di salvataggio - Wii Hacks Guide</title>
+<meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+  <meta name="author" content="Nintendo Homebrew">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wii Hacks Guide">
+<meta property="og:title" content="Trasferimento dati di salvataggio">
+<meta property="og:url" content="https://wii.hacks.guide/it_IT/transfer-saves.html">
+
+
+  <meta property="og:description" content="The complete guide to modding your Wii (and Wii mini)">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://wii.hacks.guide/it_IT/transfer-saves.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nintendo Homebrew",
+      "url": "https://wii.hacks.guide/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wii Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- hacks-guide change start: cookie consent, favicon, locales -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/site-config/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/site-config/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/site-config/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="manifest" href="/assets/js/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/site-config/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/site-config/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/site-config/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/assets/xml/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#28282b"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "Questo sito web utilizza i cookie per visualizzare l'avanzamento corrente della guida sulla barra laterale e per migliorare il sito."
+  }
+})});
+</script>
+<!-- hacks-guide change end -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+<!-- hacks-guide change start: Disable caching -->
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+<!-- hacks-guide change start: disable default masthead title -->
+      <!--
+        <a class="site-title" href="/">
+          Wii Hacks Guide
+          
+        </a>
+      -->
+<!-- hacks-guide change end -->
+        <ul class="visible-links">
+<!-- hacks-guide change start: multi-language configuration -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/it_IT/">Menu Principale</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/per-iniziare">Per Iniziare</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/navigazione-sito">Navigazione del Sito</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/it_IT/faq">FAQ</a></li>
+            
+          
+<!-- hacks-guide change end -->
+        </ul>
+        
+<!-- hacks-guide change start: Add language selector -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/transfer-saves.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/transfer-saves.html">Italiano</a></li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <button class="greedy-nav__toggle_lang" type="button"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+<!-- hacks-guide change end -->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- hacks-guide change start: Implement progress table, replace existing sidebar -->
+<!--
+
+  <div class="sidebar sticky">
+  
+  
+    
+    
+  
+  </div>
+
+-->
+
+
+
+<div class="sidebar sticky" style="display: none;">
+  <!-- hacks-guide change start: Refactor entire subsection to allow using translations -->
+
+
+
+
+
+
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">Progresso Complessivo</span>
+      <ol>
+        
+          
+            <li style="display: none;" data-name="home"><a href='/it_IT/'>Menu Principale</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="get-started"><a href='/it_IT/per-iniziare'>Per Iniziare</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="letterbomb"><a href='/it_IT/letterbomb'>LetterBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bluebomb"><a href='/it_IT/bluebomb'>BlueBomb</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="flashhax"><a href='/it_IT/flashhax'>FlashHax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="str2hax"><a href='/it_IT/str2hax'>str2hax</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wilbrand"><a href='/it_IT/wilbrand'>Wilbrand</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="multiple-options"><i>(Opzioni Multiple)</i></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc"><a href='/it_IT/hbc'>Installazione dell'Homebrew Channel e di BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="hbc-mini"><a href='/it_IT/hbc-mini'>Homebrew Channel - solo per Wii mini</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="bootmii"><a href='/it_IT/bootmii'>Backup BootMii</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="priiloader"><a href='/it_IT/priiloader'>Priiloader</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="osc"><a href='/it_IT/osc'>Open Shop Channel</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="cios-mini"><a href='/it_IT/cios-mini'>d2xl cIOS per Wii mini (sperimentale)</a></li>
+          
+        
+          
+            <li style="display: none;" data-name="wnd-mini"><a href='/it_IT/wnd-mini'>Wii mini NAND Dumper</a></li>
+          
+        
+      </ol>
+    </li>
+  </ul>
+</nav>
+<!-- hacks-guide change end -->
+
+</div>
+
+
+<!-- hacks-guide change end-->
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Trasferimento dati di salvataggio">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Trasferimento dati di salvataggio
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+<!-- hacks-guide change start -->
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>Per supporto in Inglese, chiedere aiuto sul server <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a>.</b></div>
+        
+
+        <hr>
+<!-- hacks-guide change end -->
+
+        <p>Questa guida ti spiegherà come trasferire i dati di salvataggio dei giochi tra:</p>
+
+<ul>
+  <li>un Wii/Wii U (vWii),</li>
+  <li>Emulatore Dolphin,</li>
+  <li>memory card di GameCube</li>
+  <li>e memory card emulate (Nintendont).</li>
+</ul>
+
+<p><button class="btn btn--large btn--info tablinks" onclick="openTab_from(event, 'wii')">Da un Wii/vWii</button>
+<button class="btn btn--large btn--info tablinks" onclick="openTab_from(event, 'dol')">Da Emulatore Dolphin</button>
+<button class="btn btn--large btn--info tablinks" onclick="openTab_from(event, 'gcmc')">Da una memory card di GameCube</button>
+<button class="btn btn--large btn--info tablinks" onclick="openTab_from(event, 'emumc')">Da Nintendont</button></p>
+
+<div id="wii" class="tabcontent">
+
+  <p><button class="btn btn--info btn--large tablinks to" onclick="openTab_to(event, 'wii-vwii')">A un altro Wii/vWii</button>
+<button class="btn btn--info btn--large tablinks to" onclick="openTab_to(event, 'wii-dol')">All’Emulatore Dolphin</button></p>
+
+  <div id="wii-vwii" class="tabcontent to">
+
+    <p><button class="btn btn--info btn--large tablinks via" onclick="openTab_via(event, 'wii-vwii-data')">tramite Gestione dati</button>
+<button class="btn btn--info btn--large tablinks via" onclick="openTab_via(event, 'wii-vwii-svgm')">tramite SaveGame Manager GX</button></p>
+
+    <div id="wii-vwii-data" class="tabcontent via">
+
+      <h5 id="di-cosa-hai-bisogno">Di cosa hai bisogno</h5>
+
+      <ul>
+        <li>una scheda SD formattata come FAT32</li>
+      </ul>
+
+      <h5 id="istruzioni">Istruzioni</h5>
+
+      <ol>
+        <li>Inserisci la scheda SD nel tuo Wii/Wii U.</li>
+        <li>Nel Menu Wii, seleziona <code class="language-plaintext highlighter-rouge">Opzioni Wii</code> dall’angolo in basso a sinistra.</li>
+        <li>Selezione <code class="language-plaintext highlighter-rouge">Gestione dati</code> (se sei su Wii), <code class="language-plaintext highlighter-rouge">Dati di salvataggio</code> e <code class="language-plaintext highlighter-rouge">Wii</code>.</li>
+        <li>Seleziona un salvataggio che vuoi trasferire, poi seleziona <code class="language-plaintext highlighter-rouge">Copia</code>.
+          <ul>
+            <li>Se il pulsante <code class="language-plaintext highlighter-rouge">Copia</code> non è selezionabile, dovrai <a href="priiloader">installare Priiloader</a> per disattivare la protezione della copia.</li>
+          </ul>
+        </li>
+        <li>Ripeti il passaggio precedente per ciascun salvataggio che vuoi trasferire.</li>
+        <li>Una volta che hai finito, inserisci la scheda SD nell’altro Wii/Wii U.</li>
+        <li>Nel Menu Wii, seleziona <code class="language-plaintext highlighter-rouge">Opzioni Wii</code> dall’angolo in basso a sinistra.</li>
+        <li>Selezione <code class="language-plaintext highlighter-rouge">Gestione dati</code> (se sei su Wii), <code class="language-plaintext highlighter-rouge">Dati di salvataggio</code> e <code class="language-plaintext highlighter-rouge">Wii</code>.</li>
+        <li>Seleziona la scheda <code class="language-plaintext highlighter-rouge">Scheda SD</code> dall’angolo in alto a destra.</li>
+        <li>Selezione uno dei salvataggi che hai copiato alla tua scheda SD, poi seleziona <code class="language-plaintext highlighter-rouge">Copia</code>.</li>
+        <li>Ripeti il passaggio precedente per ciascun salvataggio che hai copiato alla tua scheda SD.</li>
+      </ol>
+    </div>
+
+    <div id="wii-vwii-svgm" class="tabcontent via">
+      <p class="notice--warning">Assicurati di aver installato <a href="cios">cIOS</a> prima di seguire!</p>
+
+      <h5 id="di-cosa-hai-bisogno-1">Di cosa hai bisogno</h5>
+
+      <ul>
+        <li>L’Homebrew Channel su entrambi i sistemi</li>
+        <li>Una scheda SD o dispositivo USB</li>
+        <li><a href="https://oscwii.org/library/app/SaveGame_Manager_GX">SaveGame Manager GX</a></li>
+      </ul>
+
+      <h5 id="istruzioni-1">Istruzioni</h5>
+
+      <ol>
+        <li>Estrai SaveGame Manager GX nel root della tua scheda SD o unità USB e inseriscila nel tuo Wii/Wii U.</li>
+        <li>Avvia l’Homebrew Channel e avvia SaveGame Manager GX.</li>
+        <li>Assicurati che la sorgente sia impostata su Wii.</li>
+        <li>Trova e seleziona il tuo salvataggio, poi <code class="language-plaintext highlighter-rouge">Extract</code> e poi <code class="language-plaintext highlighter-rouge">Default</code>.
+          <ul>
+            <li>Ripeti questo passaggio per gli altri salvataggi che vuoi copiare.</li>
+          </ul>
+        </li>
+        <li>Premi il pulsante HOME ed esci da SaveGame Manager GX.</li>
+        <li>Inserisci la scheda SD nel Wii/Wii U di destinazione.</li>
+        <li>Crea un nuovo file di salvataggio per ogni gioco. Questo è necessario in modo che SaveGame Manager GX possa sovrascriverli.</li>
+        <li>Avvia l’Homebrew Channel e avvia SaveGame Manager GX.</li>
+        <li>Assicurati che la sorgente sia impostata su SD o USB.</li>
+        <li>Seleziona ciascuno dei tuoi salvataggi e clicca <code class="language-plaintext highlighter-rouge">Install</code>.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div id="wii-dol" class="tabcontent to">
+
+    <p><button class="btn btn--info btn--large tablinks via" onclick="openTab_via(event, 'wii-dol-nand')">con un backup della NAND (Wii)</button>
+<button class="btn btn--info btn--large tablinks via" onclick="openTab_via(event, 'wii-dol-svgm')">tramite SaveGame Manager GX</button></p>
+
+    <div id="wii-dol-nand" class="tabcontent via">
+      <p class="notice--info">Importando il tuo backup della tua NAND su Dolphin, avrai effettivamente copiato tutto che c’era nel tuo Wii (al momento del backup). Questo ha anche il vantaggio di consentire l’accesso a <a href="https://wiimmfi.de/">Wiimmfi</a> assieme ai canali patchati di RiiConnect24.
+Se l’hai già fatto, considera di utilizzare SaveGame Manager GX per risparmiare tempo.</p>
+
+      <h5 id="di-cosa-hai-bisogno-2">Di cosa hai bisogno</h5>
+
+      <ul>
+        <li><a href="bootmii">un backup della NAND</a></li>
+        <li>L’ultima versione beta dell’Emulatore Dolphin</li>
+      </ul>
+
+      <h5 id="istruzioni-2">Istruzioni</h5>
+
+      <ol>
+        <li>Dopo <a href="bootmii">aver creato il tuo backup della NAND</a>, inserisci la tua scheda SD al tuo PC e apri l’Emulatore Dolphin.</li>
+        <li>Seleziona <code class="language-plaintext highlighter-rouge">Strumenti &gt; Gestisci NAND &gt; Importa Backup NAND BootMii</code>.</li>
+        <li>Nella finestra di dialogo file che si apre, apri la tua scheda SD e seleziona <code class="language-plaintext highlighter-rouge">nand.bin</code>.</li>
+      </ol>
+    </div>
+
+    <div id="wii-dol-svgm" class="tabcontent via">
+      <p class="notice--warning">Assicurati di aver installato <a href="cios">cIOS</a> prima di seguire!</p>
+
+      <h5 id="di-cosa-hai-bisogno-3">Di cosa hai bisogno</h5>
+
+      <ul>
+        <li>L’Homebrew Channel sul tuo Wii/vWii</li>
+        <li><a href="https://oscwii.org/library/app/SaveGame_Manager_GX">SaveGame Manager GX</a></li>
+        <li>Una scheda SD o dispositivo USB</li>
+        <li>L’ultima versione beta dell’Emulatore Dolphin</li>
+      </ul>
+
+      <h5 id="istruzioni-3">Istruzioni</h5>
+
+      <ol class="notice--info">
+        <li>Sul tuo Wii/Wii U, avvia l’Homebrew Channel e avvia SaveGame Manager GX.</li>
+        <li>Trova e seleziona il salvataggio che vuoi trasferire, seleziona <code class="language-plaintext highlighter-rouge">Extract</code> e poi <code class="language-plaintext highlighter-rouge">Default</code>.
+          <ul>
+            <li>Ripeti questo passaggio per gli altri salvataggi che vuoi trasferire.</li>
+          </ul>
+        </li>
+        <li>Una volta estratti tutti i tuoi file di salvataggio, premi HOME ed esci da SaveGame Manager GX.</li>
+        <li>Inserisci la tua scheda SD o unità USB nel tuo PC.</li>
+        <li>Avvia l’Emulatore Dolphin.</li>
+        <li>Seleziona <code class="language-plaintext highlighter-rouge">Strumenti &gt; Importa Salvataggio Wii...</code>.</li>
+        <li>Nella finestra di dialogo file che si apre, vai nella cartella <code class="language-plaintext highlighter-rouge">savegames</code> della tua scheda SD o unità USB e seleziona ciascun file <code class="language-plaintext highlighter-rouge">.bin</code> al suo interno.
+Purtroppo, puoi selezionare solo un file alla volta, quindi dovrai ripetere l’ultimo passaggio per ciascun file .bin.</li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<div id="dol" class="tabcontent">
+
+  <p class="notice--info">Tutti i metodi elencati qui presuppongono che tu abbia l’<a href="https://dolphin-emu.org/download">ultima versione Beta o di sviluppo dell’Emulatore Dolphin</a>.</p>
+
+  <p><button class="btn btn--info btn--large tablinks to" onclick="openTab_to(event, 'dol-wii')">A un Wii/vWii</button>
+<button class="btn btn--info btn--large tablinks to" onclick="openTab_to(event, 'dol-gcmc')">A una memory card di GameCube</button>
+<button class="btn btn--info btn--large tablinks to" onclick="openTab_to(event, 'dol-emumc')">A Nintendont</button></p>
+
+  <div id="dol-wii" class="tabcontent to">
+
+    <p><button class="btn btn--info btn--large tablinks via" onclick="openTab_via(event, 'dol-wii-data')">tramite Gestione dati</button>
+<button class="btn btn--info btn--large tablinks via" onclick="openTab_via(event, 'dol-wii-svgm')">tramite SaveGame Manager GX</button></p>
+
+    <div id="dol-wii-data" class="tabcontent via">
+
+      <h5 id="di-cosa-hai-bisogno-4">Di cosa hai bisogno</h5>
+
+      <ul>
+        <li>una scheda SD</li>
+      </ul>
+
+      <h5 id="istruzioni-4">Istruzioni</h5>
+
+      <ol>
+        <li>Avvia l’Emulatore Dolphin.</li>
+        <li>Se stai esportando un salvataggio di un gioco, fai clic destro sul gioco nella finestra dell’Emulatore Dolphin e seleziona <code class="language-plaintext highlighter-rouge">Esporta Salvataggio Wii</code>.
+          <ul>
+            <li>Se stai esportando tutti i tuoi salvataggi Wii da Dolphin, seleziona <code class="language-plaintext highlighter-rouge">Strumenti &gt; Esporta tutti i Salvataggi Wii</code>.
+<img src="/images/dolphin/export-wiisave.png" alt="" /></li>
+          </ul>
+        </li>
+        <li>Nella finestra di dialogo cartelle che si apre, seleziona la tua scheda SD. (Non entrare nelle altre cartelle!)</li>
+        <li>Espelli la tua scheda SD in modo sicuro, quindi inseriscila nel tuo Wii/Wii U.
+          <ul>
+            <li>Se sei su Wii U, assicurati di avviare la modalità Wii.</li>
+          </ul>
+        </li>
+        <li>Seleziona il pulsante <code class="language-plaintext highlighter-rouge">Opzioni Wii</code> dall’angolo in basso a sinistra.</li>
+        <li>Seleziona <code class="language-plaintext highlighter-rouge">Gestione dati</code> (se sei su Wii), <code class="language-plaintext highlighter-rouge">Dati di salvataggio</code> e poi <code class="language-plaintext highlighter-rouge">Wii</code>.</li>
+        <li>Seleziona la scheda <code class="language-plaintext highlighter-rouge">Scheda SD</code> dall’angolo in alto a destra.</li>
+        <li>Seleziona ciascun salvataggio che vorresti copiare al tuo Wii/Wii U e seleziona <code class="language-plaintext highlighter-rouge">Copia</code>.</li>
+      </ol>
+    </div>
+
+    <div id="dol-wii-svgm" class="tabcontent via">
+      <p class="notice--warning">Assicurati di aver installato <a href="cios">cIOS</a> prima di seguire!</p>
+
+      <h5 id="di-cosa-hai-bisogno-5">Di cosa hai bisogno</h5>
+
+      <ul>
+        <li>L’Homebrew Channel sul tuo Wii/vWii</li>
+        <li>Una scheda SD o dispositivo USB</li>
+        <li><a href="https://oscwii.org/library/app/SaveGame_Manager_GX">SaveGame Manager GX</a></li>
+      </ul>
+
+      <h5 id="istruzioni-5">Istruzioni</h5>
+
+      <ol>
+        <li>Avvia l’Emulatore Dolphin.</li>
+        <li>Se stai esportando un salvataggio di un gioco, fai clic destro sul gioco nella finestra dell’Emulatore Dolphin e seleziona <code class="language-plaintext highlighter-rouge">Esporta Salvataggio Wii</code>.
+          <ul>
+            <li>Se stai esportando tutti i tuoi salvataggi Wii da Dolphin, seleziona <code class="language-plaintext highlighter-rouge">Strumenti &gt; Esporta tutti i Salvataggi Wii</code>.</li>
+          </ul>
+        </li>
+        <li>Nella finestra di dialogo cartelle che si apre, seleziona la tua scheda SD o unità USB. (non entrare nelle altre cartelle!)</li>
+        <li>Espelli la tua scheda SD o unità USB in modo sicuro, quindi inseriscila nel tuo Wii/Wii U.
+          <ul>
+            <li>Se sei su Wii U, assicurati di avviare la modalità Wii.</li>
+          </ul>
+        </li>
+        <li>Avvia l’Homebrew Channel e avvia SaveGame Manager GX.</li>
+        <li>Assicurati che la sorgente sia impostata su SD o USB.</li>
+        <li>Seleziona ciascuno dei tuoi salvataggi e clicca <code class="language-plaintext highlighter-rouge">Install</code>.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div id="dol-gcmc" class="tabcontent to">
+
+    <h5 id="di-cosa-hai-bisogno-6">Di cosa hai bisogno</h5>
+
+    <ul>
+      <li>una Wii con le porte GameCube e l’Homebrew Channel installato</li>
+      <li>Una scheda SD o dispositivo USB</li>
+      <li><a href="https://oscwii.org/library/app/gcmm">GCMM</a></li>
+    </ul>
+
+    <h5 id="istruzioni-6">Istruzioni</h5>
+
+    <ol>
+      <li>Avvia l’Emulatore Dolphin.</li>
+      <li>
+        <p>Nel menu principale, seleziona <code class="language-plaintext highlighter-rouge">File &gt; Apri Cartella Utente</code>.
+<img src="/images/dolphin/open-user-folder.png" alt="" /></p>
+      </li>
+      <li>Nella cartella che si apre, vai su <code class="language-plaintext highlighter-rouge">GC &gt; [Regione salvataggi] &gt; Card A</code>.</li>
+      <li>Copia i file <code class="language-plaintext highlighter-rouge">.gci</code> che vuoi trasferire sulla tua Memory Card.</li>
+      <li>Crea una cartella di nome <code class="language-plaintext highlighter-rouge">MCBACKUP</code> nella tua scheda SD o unità USB e sposta i file <code class="language-plaintext highlighter-rouge">.gci</code> che hai appena copiato al suo interno.</li>
+    </ol>
+
+    <p class="notice--info">Se Dolphin è impostato per l’utilizzo di memory card <code class="language-plaintext highlighter-rouge">.raw</code>, vai su <code class="language-plaintext highlighter-rouge">Strumenti &gt; Memory Card Manager</code> per esportare i tuoi salvataggi in <code class="language-plaintext highlighter-rouge">.gci</code>. <img src="/images/homebrew/gcsaves/dolphin-emu-memcard-manager.png" alt="" /></p>
+
+    <ol>
+      <li>Scarica ed estrai GCMM nel root della tua scheda SD o unità USB.</li>
+      <li>Espelli la tua SD/USB dal tuo PC in modo sicuro, quindi inseriscila nel tuo Wii.</li>
+      <li>Avvia l’Homebrew Channel e avvia GCMM.</li>
+      <li>
+        <p>Seleziona il dispositivo dove sono stati copiati i file <code class="language-plaintext highlighter-rouge">.gci</code>.
+<img src="/images/homebrew/gcsaves/gcmm-select-device.jpg" alt="" /></p>
+      </li>
+      <li>
+        <p>Premi <code class="language-plaintext highlighter-rouge">+</code>/<code class="language-plaintext highlighter-rouge">X</code> per procedere con la modalità di ripristino.
+<img src="/images/homebrew/gcsaves/gcmm-menu.jpg" alt="" /></p>
+      </li>
+      <li>
+        <p>Seleziona lo slot che contiene la tua Memory Card.
+<img src="/images/homebrew/gcsaves/gcmm-mem-select.jpg" alt="" /></p>
+      </li>
+      <li>Seleziona il salvataggio che vuoi ripristinare.
+        <ul>
+          <li>Se vuoi ripristinare tutti i salvataggi all’interno di <code class="language-plaintext highlighter-rouge">MCBACKUP</code>, premi <code class="language-plaintext highlighter-rouge">1</code>/<code class="language-plaintext highlighter-rouge">R</code>.
+<img src="/images/homebrew/gcsaves/gcmm-restore-save.jpg" alt="" /></li>
+        </ul>
+      </li>
+      <li>Appena completato il ripristino, premi un pulsante qualsiasi per continuare.</li>
+    </ol>
+  </div>
+
+  <div id="dol-emumc" class="tabcontent to">
+
+    <h5 id="istruzioni-7">Istruzioni</h5>
+
+    <ol>
+      <li>Apri l’Emulatore Dolphin e seleziona <code class="language-plaintext highlighter-rouge">Strumenti &gt; Memory Card Manager</code> dal menu principale.</li>
+      <li>Clicca il pulsante <code class="language-plaintext highlighter-rouge">Apri</code> che è accanto allo Slot B.</li>
+      <li>Vai nella cartella <code class="language-plaintext highlighter-rouge">saves</code> nella tua scheda SD o unità USB e seleziona il file <code class="language-plaintext highlighter-rouge">.raw</code> con il nome dell’ID del gioco.
+        <ul>
+          <li>Se non hai già creato un salvataggio con Nintendont, seleziona <code class="language-plaintext highlighter-rouge">Crea</code> e imposta la dimensione della Memory Card a 251 blocchi.</li>
+          <li>Se utilizzi una Memory Card per tutti i giochi, apri il file <code class="language-plaintext highlighter-rouge">ninmem.raw</code>/<code class="language-plaintext highlighter-rouge">ninmemj.raw</code> dal root della tua SD/USB.</li>
+        </ul>
+      </li>
+      <li>Se Dolphin archivia i tuoi salvataggi in una cartella GCI (per predefinito):
+        <ul>
+          <li>Clicca <code class="language-plaintext highlighter-rouge">Scambia a B</code>.</li>
+          <li>Clicca <code class="language-plaintext highlighter-rouge">Importa</code> e vai su <code class="language-plaintext highlighter-rouge">&lt;REGION&gt;/Card A/</code>.</li>
+          <li>Seleziona il (oppure i) file <code class="language-plaintext highlighter-rouge">.gci</code> che vuoi importare. Altrimenti, se Dolphin archivia i tuoi salvataggi in file <code class="language-plaintext highlighter-rouge">.raw</code>, semplicemente seleziona i tuoi salvataggi dal lato sinistro e seleziona <code class="language-plaintext highlighter-rouge">Copia su B</code>.</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+</div>
+
+<div id="gcmc" class="tabcontent">
+  <p class="notice--warning">Tutti i metodi elencati qui richiedono un Wii con porte GameCube.</p>
+
+  <p><button class="btn btn--large btn--info tablinks to" onclick="openTab_to(event, 'gcmc-dol')">All’Emulatore Dolphin</button>
+<button class="btn btn--large btn--info tablinks to" onclick="openTab_to(event, 'gcmc-emumc')">A Nintendont</button>
+<button class="btn btn--large btn--info tablinks to" onclick="openTab_to(event, 'gcmc-gcmc')">Ad un’altra Memory Card</button></p>
+
+  <div id="gcmc-emumc" class="tabcontent to">
+
+    <h5 id="di-cosa-hai-bisogno-7">Di cosa hai bisogno</h5>
+
+    <ul>
+      <li><a href="https://oscwii.org/library/app/gcmm">GCMM</a></li>
+    </ul>
+
+    <h5 id="istruzioni-8">Istruzioni</h5>
+
+    <ol>
+      <li>Scarica ed estrai GCMM nel root della tua scheda SD o unità USB.</li>
+      <li>Espelli la tua SD/USB dal tuo PC in modo sicuro, quindi inseriscila nel tuo Wii.</li>
+      <li>Avvia l’Homebrew Channel e avvia GCMM.</li>
+      <li>
+        <p>Seleziona il dispositivo su cui copiare il file di salvataggio.
+<img src="/images/homebrew/gcsaves/gcmm-select-device.jpg" alt="" /></p>
+      </li>
+      <li>
+        <p>Premi <code class="language-plaintext highlighter-rouge">B</code> e <code class="language-plaintext highlighter-rouge">-</code>/<code class="language-plaintext highlighter-rouge">L</code> e<code class="language-plaintext highlighter-rouge">Y</code> per entrare in modalità backup Raw.
+<img src="/images/homebrew/gcsaves/gcmm-menu.jpg" alt="" /></p>
+      </li>
+      <li>
+        <p>Seleziona lo slot che contiene la tua Memory Card.
+<img src="/images/homebrew/gcsaves/gcmm-mem-select.jpg" alt="" /></p>
+      </li>
+      <li>Appena completato il dump, premi un pulsante qualsiasi per continuare.</li>
+      <li>Premi HOME/START per uscire da GCMM.</li>
+      <li>Inserisci la tua scheda SD o unità USB nel tuo PC.</li>
+      <li>Copia il file <code class="language-plaintext highlighter-rouge">.raw</code> all’interno di <code class="language-plaintext highlighter-rouge">MCBACKUP</code> nel root del dispositivo utilizzato per Nintendont e rinominalo in <code class="language-plaintext highlighter-rouge">ninmem.raw</code>.
+        <ul>
+          <li>Se i tuoi giochi sono giapponesi, Nintendont userà <code class="language-plaintext highlighter-rouge">ninmemj.raw</code> perché i giochi giapponesi non funzioneranno tanto bene quando sono presenti salvataggi di altre regioni.</li>
+        </ul>
+      </li>
+      <li>Avvia Nintendont e imposta l’opzione Memcard emulation a Multi [ ? ]</li>
+    </ol>
+  </div>
+
+  <div id="gcmc-dol" class="tabcontent to">
+
+    <h5 id="di-cosa-hai-bisogno-8">Di cosa hai bisogno</h5>
+
+    <ul>
+      <li><a href="https://oscwii.org/library/app/gcmm">GCMM</a></li>
+    </ul>
+
+    <h5 id="istruzioni-9">Istruzioni</h5>
+
+    <ol>
+      <li>Scarica ed estrai GCMM nel root della tua scheda SD o unità USB.</li>
+      <li>Espelli la tua SD/USB dal tuo PC in modo sicuro, quindi inseriscila nel tuo Wii.</li>
+      <li>Avvia l’Homebrew Channel e avvia GCMM.</li>
+      <li>
+        <p>Seleziona il dispositivo su cui copiare il file di salvataggio.
+<img src="/images/homebrew/gcsaves/gcmm-select-device.jpg" alt="" /></p>
+      </li>
+      <li>
+        <p>Premi <code class="language-plaintext highlighter-rouge">B</code> e <code class="language-plaintext highlighter-rouge">-</code>/<code class="language-plaintext highlighter-rouge">L</code> e <code class="language-plaintext highlighter-rouge">Y</code> per entrare in modalità backup Raw.
+<img src="/images/homebrew/gcsaves/gcmm-menu.jpg" alt="" /></p>
+      </li>
+      <li>
+        <p>Seleziona lo slot che contiene la tua Memory Card.
+<img src="/images/homebrew/gcsaves/gcmm-mem-select.jpg" alt="" /></p>
+      </li>
+      <li>Appena completato il dump, premi un pulsante qualsiasi per continuare.</li>
+      <li>Premi HOME/START per uscire da GCMM.</li>
+      <li>Inserisci la tua scheda SD o unità USB nel tuo PC.</li>
+      <li>Apri l’Emulatore Dolphin e seleziona <code class="language-plaintext highlighter-rouge">Strumenti &gt; Memory Card Manager</code> dal menu principale.</li>
+      <li>Clicca il pulsante <code class="language-plaintext highlighter-rouge">Apri</code> che è accanto allo Slot B.</li>
+      <li>Vai nella cartella <code class="language-plaintext highlighter-rouge">MCBACKUP</code> nella tua SD/USB e apri il file <code class="language-plaintext highlighter-rouge">.raw</code> appena creato.</li>
+      <li>Clicca <code class="language-plaintext highlighter-rouge">Scambia a B</code>.</li>
+      <li>Se Dolphin archivia i tuoi salvataggi in una cartella GCI (per predefinito):
+        <ul>
+          <li>Seleziona i salvataggi che vuoi copiare.</li>
+          <li>Clicca su <code class="language-plaintext highlighter-rouge">Esporta come .gci</code>.</li>
+          <li>Esporta i file <code class="language-plaintext highlighter-rouge">.gci</code> in <code class="language-plaintext highlighter-rouge">&lt;REGION&gt;/Card A/</code>.</li>
+        </ul>
+      </li>
+      <li>Altrimenti, se Dolphin archivia i tuoi salvataggi in file <code class="language-plaintext highlighter-rouge">.raw</code>,
+        <ul>
+          <li>Seleziona i salvataggi che vuoi copiare.</li>
+          <li>Clicca <code class="language-plaintext highlighter-rouge">Copia su A</code>.</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <div id="gcmc-gcmc" class="tabcontent to">
+
+    <h5 id="di-cosa-hai-bisogno-9">Di cosa hai bisogno</h5>
+
+    <ul>
+      <li>un Wii</li>
+    </ul>
+
+    <h5 id="istruzioni-10">Istruzioni</h5>
+
+    <ol>
+      <li>Inserisci entrambe le memory card nel tuo Wii.</li>
+      <li>
+        <p>Avvia il Menu Wii seleziona il pulsante Opzioni Wii dall’angolo in basso a sinistra.
+<img src="/images/Wii/wii-options.png" alt="" /></p>
+      </li>
+      <li>Seleziona <code class="language-plaintext highlighter-rouge">Gestione dati &gt; Dati di salvataggio &gt; Nintendo GameCube</code>.</li>
+      <li>Seleziona il salvataggio che vuoi copiare e seleziona <code class="language-plaintext highlighter-rouge">Copia</code>.
+<img src="/images/homebrew/gcsaves/gc-data-management.png" alt="" /></li>
+    </ol>
+  </div>
+</div>
+<p>&lt;
+div id=”emumc” class=”tabcontent” markdown=”1”&gt;</p>
+
+<p><button class="btn btn--large btn--info tablinks to" onclick="openTab_to(event, 'emumc-dol')">All’Emulatore Dolphin</button>
+<button class="btn btn--large btn--info tablinks to" onclick="openTab_to(event, 'emumc-gcmc')">A una Memory Card</button></p>
+
+<div id="emumc-dol" class="tabcontent to">
+
+  <h5 id="di-cosa-hai-bisogno-10">Di cosa hai bisogno</h5>
+
+  <ul>
+    <li>L’ultima versione beta o di sviluppo dell’Emulatore Dolphin</li>
+  </ul>
+
+  <h5 id="istruzioni-11">Istruzioni</h5>
+
+  <ol>
+    <li>Inserisci la tua scheda SD o unità USB nel tuo PC.</li>
+    <li>Apri l’Emulatore Dolphin e seleziona <code class="language-plaintext highlighter-rouge">Strumenti &gt; Memory Card Manager</code> dal menu principale.</li>
+    <li>Clicca il pulsante <code class="language-plaintext highlighter-rouge">Apri</code> che è accanto allo Slot B.</li>
+    <li>Entra nella cartella <code class="language-plaintext highlighter-rouge">saves </code> sulla tua SD/USB e apri il file <code class="language-plaintext highlighter-rouge">.raw</code> con il nome dell’ID del gioco.</li>
+    <li>Clicca <code class="language-plaintext highlighter-rouge">Scambia a B</code>.</li>
+    <li>Se Dolphin archivia i tuoi salvataggi in una cartella GCI (per predefinito):
+      <ul>
+        <li>Seleziona i salvataggi che vuoi copiare.</li>
+        <li>Clicca su <code class="language-plaintext highlighter-rouge">Esporta come .gci</code>.</li>
+        <li>Esporta i file <code class="language-plaintext highlighter-rouge">.gci</code> in <code class="language-plaintext highlighter-rouge">&lt;REGION&gt;/Card A/</code>.</li>
+      </ul>
+    </li>
+    <li>Altrimenti, se Dolphin archivia i tuoi salvataggi in file <code class="language-plaintext highlighter-rouge">.raw</code>:
+      <ul>
+        <li>Seleziona i salvataggi che vuoi copiare.</li>
+        <li>Clicca <code class="language-plaintext highlighter-rouge">Copia su A</code>.</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+<p>&lt;</p>
+
+<p>div id=”emumc-gcmc” class=”tabcontent to” markdown=”1”&gt;</p>
+
+<h5 id="di-cosa-hai-bisogno">Di cosa hai bisogno</h5>
+
+<ul>
+  <li>L’Homebrew Channel installato sul tuo Wii</li>
+  <li>Una scheda SD o dispositivo USB</li>
+  <li><a href="https://oscwii.org/library/app/gcmm">GCMM</a></li>
+</ul>
+
+<h5 id="memcard-individuali-file-gci">Memcard individuali (file .gci)</h5>
+
+<ol>
+  <li>Inserisci la tua scheda SD o unità USB nel tuo PC.</li>
+  <li>Crea una cartella con il nome <code class="language-plaintext highlighter-rouge">MCBACKUP</code>.</li>
+  <li>Copia i file <code class="language-plaintext highlighter-rouge">.gci</code> dentro la cartella <code class="language-plaintext highlighter-rouge">saves</code> nella cartella <code class="language-plaintext highlighter-rouge">MCBACKUP</code>.</li>
+  <li>Scarica ed estrai GCMM nel root della tua scheda SD o unità USB.</li>
+  <li>Espelli la tua SD/USB dal tuo PC in modo sicuro, quindi inseriscila nel tuo Wii.</li>
+  <li>Avvia l’Homebrew Channel e avvia GCMM.</li>
+  <li>
+    <p>Seleziona il dispositivo dove sono stati copiati i file <code class="language-plaintext highlighter-rouge">.gci</code>.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-select-device.jpg" alt="" /></p>
+  </li>
+  <li>
+    <p>Premi <code class="language-plaintext highlighter-rouge">+</code>/<code class="language-plaintext highlighter-rouge">X</code> per procedere con la modalità di ripristino.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-menu.jpg" alt="" /></p>
+  </li>
+  <li>
+    <p>Seleziona lo slot che contiene la tua Memory Card.</p>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-mem-select.jpg" alt="" /></p>
+  </li>
+  <li>Seleziona il salvataggio che vuoi ripristinare.
+    <ul>
+      <li>Se vuoi ripristinare tutti i salvataggi all’interno di <code class="language-plaintext highlighter-rouge">MCBACKUP</code>, premi <code class="language-plaintext highlighter-rouge">1</code>/<code class="language-plaintext highlighter-rouge">R</code>.</li>
+    </ul>
+
+    <p><img src="/images/homebrew/gcsaves/gcmm-restore-save.jpg" alt="" /></p>
+  </li>
+  <li>Appena completato il ripristino, premi un pulsante qualsiasi per continuare.</li>
+</ol>
+
+<div>
+
+</div>
+
+<script>
+    const tablinks     = document.getElementsByClassName('tablinks');
+    const tablinks_to  = document.getElementsByClassName('tablinks to');
+    const tablinks_via = document.getElementsByClassName('tablinks via');
+
+    const tabcontent     = document.getElementsByClassName('tabcontent');
+    const tabcontent_to  = document.getElementsByClassName('tabcontent to');
+    const tabcontent_via = document.getElementsByClassName('tabcontent via');
+
+    for (e of tabcontent) {
+        e.style.display = 'none';
+    }
+
+    function openTab_from(evt, tabName) {
+        for (t of tabcontent) t.style.display = 'none';
+        for (b of tablinks) b.className = b.className.replace('btn--primary', 'btn--info');
+        
+        document.getElementById(tabName).style.display = 'block';
+        evt.currentTarget.className = evt.currentTarget.className.replace('btn--info', 'btn--primary');
+    }
+
+    function openTab_to(evt, tabName) {
+        for (t of tabcontent_to) t.style.display = 'none';
+        for (t of tabcontent_via) t.style.display = 'none';
+        for (b of tablinks_to) b.className = b.className.replace('btn--primary', 'btn--info');
+        for (b of tablinks_via) b.className = b.className.replace('btn--primary', 'btn--info');
+
+        document.getElementById(tabName).style.display = 'block';
+        evt.currentTarget.className = evt.currentTarget.className.replace('btn--info', 'btn--primary');
+    }
+
+    function openTab_via(evt, tabName) {
+        for (t of tabcontent_via) t.style.display = 'none';
+        for (b of tablinks_via) b.className = b.className.replace('btn--primary', 'btn--info');
+
+        document.getElementById(tabName).style.display = 'block';
+        evt.currentTarget.className = evt.currentTarget.className.replace('btn--info', 'btn--primary');
+    }
+</script>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/hacks-guide/Guide_Wii" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+<!-- hacks-guide change start: force disable atom feed-->
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+<!-- hacks-guide change end -->
+
+</div>
+
+<!-- hacks-guide change start: custom footer -->
+
+
+
+<div class="page__footer-copyright">&copy; 2023 Nintendo Homebrew. - <a href="navigazione-sito">Navigazione del Sito</a> - <a href="privacy-policy">Informativa sulla Privacy</a> - <a href="donations">Donazioni</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<!-- hacks-guide change end -->
+
+      </footer>
+    </div>
+<!-- hacks-guide change end -->
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- hacks-guide change start: Disable caching -->
+
+<!-- hacks-guide change end -->
+
+
+
+
+
+
+
+  </body>
+</html>
