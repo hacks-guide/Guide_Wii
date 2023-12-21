@@ -1,10 +1,10 @@
 ---
-title: "GameCube Backup Manager"
+title: "Managing GameCube Backups"
 ---
 
 {% include toc title="Table of Contents" %}
 
-GameCube Backup Manager is a convenient PC software that simplifies the process of transferring GameCube games to your USB drive or SD Card. It functions similar to the popular tool called [Wii Backup Manager](wiibackupmanager), allowing you to easily manage and organize your GameCube game backups. With this program, you can effortlessly copy your favorite GameCube games onto portable storage devices, making them readily accessible for future gaming sessions.
+This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
 
 ### Requirements
 
@@ -27,11 +27,22 @@ Make sure your USB drive is formatted as FAT32. Do not format it as other types 
 #### Section II - Copying Games Over
 
 1. Open the application and locate the folder button in the bottom right corner. Click on it to open the file explorer window.
-1. Navigate to the location of the game file you want to transfer. This could be on your computer's hard drive or an external storage device. Once you find the file, select it by clicking on it.
+
+    ![](/images/desktop-apps/GCBM/folderbutton.png)
+
+1. Navigate to the location of the folder that contains the game file you want to transfer. This could be on your computer's hard drive or an external storage device. Once you find the folder, select it.
+
+    ![](/images/desktop-apps/GCBM/selectfolder.png)
+
 1. Click on the `Files (Destination)` tab, then select the `Inactive` option from the dropdown menu. This will allow you to choose the drive where you want to transfer the game. Select the appropriate drive letter from the list.
+
+    ![](/images/desktop-apps/GCBM/selectdrive.png)
+
 1. Next, go back to the `Files (Source)` tab, select the game you want to transfer, and then click either `Install Game (1:1)` or `Install Game (Scrub)`.
 
-Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size.
+    ![](/images/desktop-apps/GCBM/installgame.png)
+
+Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size. For some games this can be a major reduction, for example with Animal Crossing - going from 1.3GB to around 26MB.
 {: .notice--info}
 
 [Click here to go back to the site index.](site-navigation)
