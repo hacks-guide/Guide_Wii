@@ -26,7 +26,7 @@ Priiloader ti permette l'avvio automatico dell'Homebrew Channel, un'individuale 
 
 <div id="autobooting-usbloadergx" class="notice--warning" markdown="1">
 Se si desidera fare l'autoboot a USB Loader GX, inizia con quanto segue:
-  + Download the USB Loader GX forwarder WAD ([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
+  + Scarica il forwarder WAD per USB Loader GX ([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
   + Scarica l'[UNEO Channel Booter per Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
   + Installa il forwarder WAD con un WAD manager tipo [WAWM ModMii Edition](yawmme).
   + Estrai il file `UNEO Channel Booter for Priiloader.zip` dove desideri.
