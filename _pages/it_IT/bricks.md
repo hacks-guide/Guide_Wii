@@ -10,13 +10,13 @@ Un "Brick" significa, solitamente, che il tuo Wii ha raggiunto uno stato in cui 
 
 La prevenzione dei brick include diverse regole che spaziano dal buon senso a dei backup dei sicurezza. Ecco i consigli generali su cosa non fare:
 
-+ **NON seguire dei tutorial obsoleti di modding del Wii, NON usare software homebrew obsoleto e NON seguire delle video guide su internet a meno che non sia ESPLICITAMENTE INDICATO dallo sviluppatore del software homebrew.
-+ **NON USARE MAI, IN NESSUNA CIRCOSTANZA, L'APPLICAZIONE HOMEBREW `Pimp My Wii`. È un'applicazione homebrew PERICOLOSA che ha l'abilità di BRICKARE IL TUO WII!
++ **Do NOT follow old Wii modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
++ **Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. È un'applicazione homebrew PERICOLOSA che ha l'abilità di BRICKARE IL TUO WII!**
 + **NON ripristinare backup della NAND provenienti da altre console!**
-+ **NON usare un servizio Nintendo Wi-Fi Connection che non sia RCE patched (come [Wiimmfi](wiimmfi)). Ignorare questa indicazione potrebbe consentire a un malintenzionato di BRICKARE il tuo Wii!
++ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi). Ignorare questa indicazione potrebbe consentire a un malintenzionato di BRICKARE il tuo Wii!**
 + **Installa solo aggiornamenti che hanno la stessa regione del tuo Wii!**
     + Installare aggiornamenti che hanno un'altra regione potrebbe essere innocuo, ma può causare un brick [Korean Kii/Errore 003](bricks#korean-kiierror-003-brick) nel peggiore scenario. Per evitare che questo succeda se hai comprato un Wii usato, esegui [SysCheck](syscheck) per verificare la regione originaria della tua console. Se la regione è coreana, sii ESTREMAMENTE attento nell'eseguire gli aggiornamenti alla tua console, e considera chiedere ulteriore assistenza.
-+ **NON eliminare o modificare i file di sistema, e NON installare mod dei file di sistema a meno che non tu non sappia esattamente cosa stai facendo!
++ **Do NOT delete or modify system files, and do NOT install any system file mods unless you know what you are doing!**
     + Un esempio di modifica dei file errata è rimpiazzare l'IOS80 sul Wii mini, che potrebbe portare a un [Wi-Fi Brick](bricks#wi-fi-brick).
 + **NON installare homebrew da fonti poco autorevoli o se il codice sorgente non è disponibile.**
     + Le applicazioni sull'[Open Shop Channel](osc) sono sicure.
