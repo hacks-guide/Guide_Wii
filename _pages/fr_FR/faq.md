@@ -12,7 +12,7 @@ Pas très risqué pour être honnête, ça dépends de votre console. The Wii re
 ### J'ai le code d'erreur XXXXXX, comment puis-je le corriger ?
 Afin de vérifier ce que signifie l'erreur, veuillez visiter la page [d'erreur Wiimmfi](https://wiimmfi.de/error). Les erreurs les plus courantes ont des solutions listées en dessous:
 
-#### Erreur 01530/51330
+#### Error 051330/51330
 
 Exécutez un test de connexion Internet en allant dans `Paramètres Wii > Internet > Paramètres de connexion > Connexion > Testez cette connexion`
 
