@@ -12,7 +12,7 @@ Non molto rischioso onestamente, dipende dalla tua console. Il Wii ha molte meno
 ### Ricevo un errore XXXXXX, come lo sistemo?
 Per verificare il significato dell'errore, per favore visita [La pagina degli errori di Wiimmfi](https://wiimmfi.de/error). Gli errori più comuni hanno le correzioni elencate sotto:
 
-#### Errore 01530/51330
+#### Error 051330/51330
 
 Esegui un test della connessione Internet andando su `Impostazioni Wii > Internet > Impostazioni di Collegamento > Connessione Wi-Fi > Prova di Connessione`
 
