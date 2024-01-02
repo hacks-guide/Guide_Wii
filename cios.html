@@ -366,7 +366,7 @@ window.cookieconsent.initialise({
 <ul class="toc__menu" id="markdown-toc">
   <li><a href="#requirements" id="markdown-toc-requirements">Requirements</a></li>
   <li><a href="#instructions" id="markdown-toc-instructions">Instructions</a>    <ul>
-      <li><a href="#section-i---downloading-only-required-if-your-wii-doesnt-have-internet" id="markdown-toc-section-i---downloading-only-required-if-your-wii-doesnt-have-internet">Section I - Downloading (Only required if your Wii doesn’t have Internet)</a></li>
+      <li><a href="#section-i---downloading" id="markdown-toc-section-i---downloading">Section I - Downloading</a></li>
       <li><a href="#section-ii---installing" id="markdown-toc-section-ii---installing">Section II - Installing</a></li>
     </ul>
   </li>
@@ -391,10 +391,11 @@ window.cookieconsent.initialise({
 
 <h3 id="instructions">Instructions</h3>
 
-<h4 id="section-i---downloading-only-required-if-your-wii-doesnt-have-internet">Section I - Downloading (Only required if your Wii doesn’t have Internet)</h4>
+<h4 id="section-i---downloading">Section I - Downloading</h4>
 
 <p class="notice--warning">If your Wii has an Internet connection, you may skip this section.<br />
-However, If you encounter any errors like <code class="language-plaintext highlighter-rouge">tcp_read timeout</code> and <code class="language-plaintext highlighter-rouge">net_gethostbyname failed:</code>, this will allow the Wii to skip the downloading step.</p>
+However, If you encounter any errors like <code class="language-plaintext highlighter-rouge">net_init failed</code>, <code class="language-plaintext highlighter-rouge">net_gethostbyname failed:</code>, or any other issues during the downloading stage
+this will allow the Wii to skip the downloading step.</p>
 
 <p class="notice--info">If you are not on Windows, you may download &amp; run <a href="/assets/files/d2x_offline_ios.sh">this script</a>, and it will download the WAD files for you.</p>
 
@@ -426,34 +427,46 @@ However, If you encounter any errors like <code class="language-plaintext highli
 
 <h4 id="section-ii---installing">Section II - Installing</h4>
 
-<p class="notice--info">If <code class="language-plaintext highlighter-rouge">d2x-v11-beta1</code> isn’t showing up, try select the cIOS base first, then check again. This can also happen if your SD card is locked.</p>
-
-<p class="notice--info">On each cIOS that you try to install, you will first be shown a grid of active IOS on the Wi. Simply press A again, and it will install. Then, you will be shown a results screen, just press A as well and go to the next cIOS.</p>
-
 <ol>
   <li>Copy the <code class="language-plaintext highlighter-rouge">apps</code> folder in the d2x-cios-installer <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card or USB drive.</li>
   <li>Reinsert your SD card or USB drive into your console.</li>
   <li>Power on your console.</li>
   <li>Launch the Homebrew Channel.</li>
   <li>Launch d2x cIOS Installer from the list of homebrew.</li>
-  <li>When asked what IOS you would like to use, select IOS 58.
-    <ul>
-      <li>This should work in nearly all cases.</li>
-    </ul>
+  <li>
+    <p>Set everything to match the following:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> Select cIOS &lt;d2x-v11-beta1&gt;
+ Select cIOS base &lt;38&gt;
+ Select cIOS slot &lt;248&gt;
+ Select cIOS revision &lt;65535&gt;
+</code></pre></div>    </div>
+
+    <p><img src="/images/cios/d2x_v11_248.png" alt="" /></p>
   </li>
-  <li>Now, you will install individual cIOS from 248-251. The exact settings needed are listed below.
+  <li>
+    <p>Press <code class="language-plaintext highlighter-rouge">A</code>. This will bring you to the slot map:</p>
+
+    <p><img src="/images/cios/d2x_summary.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Press <code class="language-plaintext highlighter-rouge">A</code> again.</p>
+
+    <p><img src="/images/cios/d2x_installation.png" alt="" /></p>
+  </li>
+  <li>
+    <p>After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.</p>
+
+    <p><img src="/images/cios/d2x_log.png" alt="" /></p>
+
+    <p class="notice--info">If the slot is highlighted red, try install the cIOS again. <br />
+ If you are getting an error before/during the downloading stages, press B to exit and continue from <a href="#section-i---downloading">Section I</a>.</p>
+  </li>
+  <li>Press <code class="language-plaintext highlighter-rouge">A</code>. This will return you to the configuration screen.</li>
+  <li>
+    <p>Repeat the previous 5 steps with the following configurations:</p>
+
     <ul>
-      <li>
-        <p>cIOS 248 Installation</p>
-
-        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Select cIOS &lt;d2x-v11-beta1&gt;
-  Select cIOS base &lt;38&gt;
-  Select cIOS slot &lt;248&gt;
-  Select cIOS revision &lt;65535&gt;
-</code></pre></div>        </div>
-
-        <p><img src="/images/cios/d2x_v11_248.png" alt="" /></p>
-      </li>
       <li>
         <p>cIOS 249 Installation</p>
 
@@ -489,9 +502,10 @@ However, If you encounter any errors like <code class="language-plaintext highli
       </li>
     </ul>
   </li>
+  <li>Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.</li>
 </ol>
 
-<p class="notice--info">Continue to <a href="osc">Open Shop Channel Installation</a>
+<p class="notice--info">Continue to <a href="osc">Open Shop Channel Installation</a> <br />
 Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.</p>
 
         
@@ -557,7 +571,7 @@ Now that your Wii has adequate brick protection, you can install the Open Shop C
 
 
 
-<div class="page__footer-copyright">&copy; 2023 Nintendo Homebrew. - <a href="site-navigation">Site Navigation</a> - <a href="privacy-policy">Privacy Policy</a> - <a href="donations">Donations</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+<div class="page__footer-copyright">&copy; 2024 Nintendo Homebrew. - <a href="site-navigation">Site Navigation</a> - <a href="privacy-policy">Privacy Policy</a> - <a href="donations">Donations</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
 <!-- hacks-guide change end -->
 
       </footer>
