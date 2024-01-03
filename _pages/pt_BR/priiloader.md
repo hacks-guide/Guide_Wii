@@ -94,7 +94,7 @@ Later on, to enter it you can:
         + If you are using 480p mode: `480p graphics fix in the system menu`
         + Bloquear Atualizações de Disco
     + Wii mini:
-        + Block Disc UPdates
+        + Bloquear Atualizações de Disco
 1. Role até `save settings` e pressione A.
 1. Pressione `B` para retornar ao menu principal.
 
@@ -111,5 +111,5 @@ Se você chegou a esse ponto, parabéns! Você terminou com a seção necessári
 Continue para [cIOS](cios)<br> Este guia fornece etapas sobre como obter um conjunto básico de cIOS instalado no seu Wii, Habilitando funcionalidade em apps como Loaders USB.
 {: .notice--info}
 
-[View the Brick Prevention Guidelines](bricks#brick-prevention)<br> These guidelines list ways that to avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
+[View the Brick Prevention Guidelines](bricks#brick-prevention)<br> These guidelines list ways that will help avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
 {: .notice--info}
