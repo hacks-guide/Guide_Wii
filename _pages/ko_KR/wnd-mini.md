@@ -18,8 +18,8 @@ There is no way to restore your NAND backup this way without a hardmod.
 
 ### 준비물
 
-* A Wii
-* A USB drive
+* Wii
+* USB 드라이브
 * [Simple IOS Patcher for Wii mini](https://oscwii.org/library/app/SimpleIOSPatcher_Mini)
 * [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
 * [Xyzzy Mod](https://oscwii.org/library/app/xyzzy-mod)
