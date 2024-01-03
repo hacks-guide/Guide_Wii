@@ -10,13 +10,13 @@ title: "ブリック"
 
 ブリックを阻止することは当たり前のことから念のためのバックアップなどのことからできることです。 基本的にしない方がいいことが複数あります。
 
-+ ホームブルーの制作者に推奨されない限り、古いガイド、古いホームブルーや動画ガイドはつかわない。
-+ `Pimp My Wii`のホームブルーアプリは何があっても使わない。 かなり危険でWiiをブリックさせる可能性もあります。
++ **Do NOT follow old Wii modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
++ **Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. かなり危険でWiiをブリックさせる可能性もあります。**
 + **Do NOT restore NAND backups from other consoles!**
-+ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi). Doing otherwise could allow a malicious actor to BRICK your Wii!
++ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi). Doing otherwise could allow a malicious actor to BRICK your Wii!**
 + **Only install updates for your own region!**.
     + Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
-+ **Do NOT delete or modify system files, and do NOT install any system file mods unless you know what you are doing!
++ **Do NOT delete or modify system files, and do NOT install any system file mods unless you know what you are doing!**
     + An example of modifying files going wrong is replacing IOS80 on Wii mini, which may result in a [Wi-Fi Brick](bricks#wi-fi-brick).
 + **Do NOT install homebrew from untrustworthy sources or if the source code is not available.**
     + Software on the [Open Shop Channel](osc) is safe.

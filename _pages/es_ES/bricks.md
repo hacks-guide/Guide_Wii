@@ -10,13 +10,13 @@ Un bloqueo (en inglés "brick", ladrillo) suele significar que la Wii ha acabado
 
 Prevenir un bloqueo implica numerosas medidas que oscilan entre el sentido común y la realización de copias de seguridad. A continuación figuran las recomendaciones generales sobre lo que no se debe hacer:
 
-+ **NO sigas tutoriales antiguos para modificar la Wii, ni utilices homebrew antiguo, ni sigas guías en vídeo de Internet a menos que el desarrollador de ese homebrew en particular lo recomiende EXPLÍCITAMENTE.
-+ NO utilices, bajo NINGUNA CIRCUNSTANCIA, la app de homebrew `Pimp My Wii`. Es PELIGROSA y tiene la capacidad de BLOQUEAR LA Wii.
++ **Do NOT follow old Wii modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
++ **Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. Es PELIGROSA y tiene la capacidad de BLOQUEAR LA Wii.**
 + **NO restaures copias de seguridad de la NAND de otras consolas.**
-+ **NO utilices ningún servicio para la Conexión Wi-Fi de Nintendo a menos que esté parcheado contra RCE o ejecución remota de código (ej. Wiimmfi). Doing otherwise could allow a malicious actor to BRICK your Wii!
++ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi). Doing otherwise could allow a malicious actor to BRICK your Wii!**
 + **Instala solo las actualizaciones de la región correspondiente.**
     + Instalar actualizaciones de otra región en el mejor de los casos no tendrá ningún efecto, y en el peor provocará un bloqueo [Korean Kii/Error 003](bricks#korean-kiierror-003-brick). Si has comprado una Wii de segunda mano, ejecuta [SysCheck](syscheck) para comprobar la región original de tu consola y evitar que esto ocurra. Si la región es coreana, ten MUCHO CUIDADO al aplicar actualizaciones a la consola y considera la posibilidad de buscar asistencia para obtener más ayuda.
-+ **NO elimines ni modifiques los archivos del sistema, y NO instales ninguna modificación de los mismos a menos que sepas lo que estás haciendo.
++ **Do NOT delete or modify system files, and do NOT install any system file mods unless you know what you are doing!**
     + Un ejemplo de una modificación de archivos que sale mal es sustituir IOS80 en la Wii mini, lo que puede producir un [bloqueo de Wi-Fi](bricks#wi-fi-brick).
 + **NO instales homebrew de páginas no fiables o si el código fuente no está disponible.**
     + El software del [Open Shop Channel](osc) es seguro.

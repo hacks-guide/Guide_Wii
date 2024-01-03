@@ -20,9 +20,9 @@ Certifique-se de que se você estiver usando um cartão SD, o switch de bloqueio
 
 ### Instruções
 
-#### Seção I - Baixando (somente necessário se seu Wii não tiver Internet)
+#### Seção I - Baixando
 
-Se o seu Wii tiver uma conexão com a internet, você pode pular esta seção.<br> No entanto, se você encontrar erros como `tcp_read timeout` e `net_gethostbyname failed:`Isso permitirá que o Wii pule a etapa de download.
+If your Wii has an Internet connection, you may skip this section.<br> However, If you encounter any errors like `net_init failed`, `net_gethostbyname failed:`, or any other issues during the downloading stage this will allow the Wii to skip the downloading step.
 {: .notice--warning}
 
 Se você não estiver no Windows, pode baixar & rodar [este script](/assets/files/d2x_offline_ios.sh)e ele vai baixar os arquivos WAD para você.
@@ -48,30 +48,40 @@ Os arquivos WAD devem estar no seu cartão SD assim: ![](/images/cios/d2x_offlin
 
 #### Seção II - Instalando
 
-Se `d2x-v11-beta1` não estiver aparecendo, tente selecionar a base cIOS primeiro e depois verifique novamente. Isso também pode acontecer se o seu cartão SD estiver bloqueado.
-{: .notice--info}
-
-Em cada cIOS que você tenta instalar, você primeiro verá uma grade de IOS ativo no Wii. Basta pressionar A novamente, e ela será instalada. Então, você verá uma tela de resultados, pressione A também e vá para a próxima cIOS.
-{: .notice--info}
 
 1. Copie a pasta `apps` do d2x-cios-installer `.zip` para a raiz do seu cartão SD ou da unidade USB.
 1. Reinsira seu cartão SD ou armazenamento USB no seu console.
 1. Ligue o seu console.
 1. Abra o Homebrew Channel.
 1. Abra o d2x cIOS Installer da lista de homebrews.
-1. Quando perguntar qual IOS você gostaria de usar, selecione IOS 58.
-    + Isso deveria funcionar em quase todos os casos.
-1. Agora, você irá instalar as cIOS individualmente de 248-251. As configurações exatas necessárias estão listadas abaixo.
-    + Instalação do cIOS 248
+1. Set everything to match the following:
 
-        ```
-        Select cIOS <d2x-v11-beta1>
-        Select cIOS base <38>
-        Select cIOS slot <248>
-        Select cIOS revision <65535>
-        ```
+    ```
+    Select cIOS <d2x-v11-beta1>
+    Select cIOS base <38>
+    Select cIOS slot <248>
+    Select cIOS revision <65535>
+    ```
 
-        ![](/images/cios/d2x_v11_248.png)
+    ![](/images/cios/d2x_v11_248.png)
+
+1. Press `A`. This will bring you to the slot map:
+
+    ![](/images/cios/d2x_summary.png)
+
+1. Press `A` again.
+
+    ![](/images/cios/d2x_installation.png)
+
+1. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
+
+    ![](/images/cios/d2x_log.png)
+
+    If the slot is highlighted red, try install the cIOS again. <br> If you are getting an error before/during the downloading stages, press B to exit and continue from [Section I](#section-i---downloading).
+    {: .notice--info}
+
+1. Press `A`. This will return you to the configuration screen.
+1. Repeat the previous 5 steps with the following configurations:
 
     + Instalação do cIOS 249
 
@@ -106,5 +116,7 @@ Em cada cIOS que você tenta instalar, você primeiro verá uma grade de IOS ati
 
         ![](/images/cios/d2x_v11_251.png)
 
-Continuar para a  [Instalação do Open Shop Channel](osc) Agora que seu Wii tem proteção adequada de bricks, você pode instalar o Open Shop Channel, um repositório confiável para homebrews que pode ser acessado dentro e fora do Wii.
+1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+
+Continue to [Open Shop Channel Installation](osc) <br> Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 {: .notice--info}
