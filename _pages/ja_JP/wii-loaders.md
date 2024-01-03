@@ -98,12 +98,12 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 + The latest version of [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
-#### Installation
+#### インストールの手順
 
 1. WiiにcIOS 248-251がインストールされてることを確認してください。[SysChecker](syscheck)などのアプリやd2x cIOSインストーラで見れます。
 1. Download USB Loader GX and install it on your SD Card or USB device.
 
-#### Quick Start Guide
+#### クイックスタートガイド
 
 ##### 基本
 
@@ -168,5 +168,5 @@ To change the cIOS used for a specific game, follow the instructions specific to
     + Try using 248, 249, 250 or 251.
 1. Press Save and try to load the game.
 
-[Continue to Nintendont](nintendont) Now that you have installed a USB loader of some type for Wii games, you can install a similar type of application for effectively native playback of GameCube games.
+[サイトマップに移動する](site-navigation)
 {: .notice--info}
