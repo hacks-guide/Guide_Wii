@@ -36,10 +36,10 @@ sidebar_title:
     title: 전체 진행 상황
 sidebar_pages:
   - 
-    title: 홈페이지
+    title: Wii 가이드
     url: /
   - 
-    title: 시작하기
+    title: 자주 묻는 질문
     url: get-started
   - 
     title: LetterBomb
