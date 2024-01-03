@@ -60,13 +60,13 @@ sidebar_pages:
     title: 다중 옵션
     url: multiple-options
   - 
-    title: Homebrew Channel and BootMii Installation
+    title: 홈브류 채널과 BootMii 설치
     url: hbc
   - 
-    title: Homebrew Channel - for Wii mini only
+    title: 홈브류 채널 - Wii 미니 전용
     url: hbc-mini
   - 
-    title: BootMii Backup
+    title: BootMii 백업
     url: bootmii
   - 
     title: Priiloader
@@ -75,8 +75,8 @@ sidebar_pages:
     title: Open Shop Channel
     url: osc
   - 
-    title: d2xl cIOS for Wii mini (experimental)
+    title: Wii 미니를 위한 d2xl cIOS (실험 단계)
     url: cios-mini
   - 
-    title: Wii mini NAND Dumper
+    title: Wii mini NAND 덤프
     url: wnd-mini
