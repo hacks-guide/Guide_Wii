@@ -41,7 +41,7 @@ Si vous obtenez cette erreur, le serveur DNS que vous avez choisi ou votre inter
 Si vous obtenez l'erreur FORE000006, la date ou l'heure de la Wii est probablement mal réglée. Consultez [cette page](wiiconnect24#updating-rtc-clock) pour savoir les régler correctement (via un logiciel). If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Ensuite, réinitialisez l'horloge de la Wii.
 
 ### Comment puis-je supprimer le contrôle parental ?
-Le générateur [mkey](https://mkey.salthax.org) peut générer le code requis pour supprimer le contrôle parental.
+The [mkey generator](https://mkey.eiphax.tech/) can generate the code required to remove parental controls.
 
 ### Je pense que ma Wii est briquée, ou quelque chose ne va sérieusement pas, que dois-je faire ?
 Consultez [cette page](bricks).
