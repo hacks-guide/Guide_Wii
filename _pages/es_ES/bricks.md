@@ -173,7 +173,7 @@ Aunque estos inconvenientes dejan a la Wii en una situación especialmente pelig
 Este bloqueo parecerá idéntico a uno total debido a un fallo del menú de Wii a través de la IOS; sin embargo, no existe una corrupción total de la NAND ni un fallo de hardware de bajo nivel.
 
 #### Causas
-Este bloqueo suele ocurrir cuando la IOS del menú de Wii es un [stub](http://wiibrew.org/wiki/Stub_IOS). Esto suele ser consecuencia de intentar desactualizar el menú de la Wii. Si este error empieza a producirse después de instalar una IOS80 normal en una Wii mini, consulta el [blockeo de wifi](wi-fi-brick).
+Este bloqueo suele ocurrir cuando la IOS del menú de Wii es un [stub](http://wiibrew.org/wiki/Stub_IOS). Esto suele ser consecuencia de intentar desactualizar el menú de la Wii. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
 
 #### Soluciones
 El [modo de recuperación](recovery-mode) puede ser accesible o no a causa de la naturaleza del bloqueo, pero Priiloader no funcionará en la mayoría de los casos. Si no puedes llegar al modo de recuperación, debes tener BootMii como boot2 para solucionarlo. Si no se cumplen estas condiciones, consulta el [bloqueo de bajo nivel](bricks#low-level-brick).
