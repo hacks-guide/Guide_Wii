@@ -25,7 +25,7 @@ Homebrew che hanno la capacità di apportare modifiche permanenti al tuo Wii son
 
 ### Giochi e loader
 
-+ [**Riivolution**](https://oscwii.org/library/app/riivolution) - Un patcher che applica patch di gioco al volo utilizzando giochi su disco. Consente agli utenti di inserire conenuti su una scheda SD o unità USB che poi verranno letti dal gioco mentre si gioca. Riivolution può essere utilizzato per texture personalizzate, musica, livelli, patch di memoria, traduzioni di gioco e altro ancora!
++ [**Riivolution**](https://wiki.hacks.guide/wiki/Wii:Riivolution) - An on-the-fly game patcher for use with retail game discs. Consente agli utenti di inserire conenuti su una scheda SD o unità USB che poi verranno letti dal gioco mentre si gioca. Riivolution può essere utilizzato per texture personalizzate, musica, livelli, patch di memoria, traduzioni di gioco e altro ancora!
 + [Loader USB](wii-loaders) - Una raccomandazione generale per un loader USB di qualunque tipo che ti consente di giocare a backup di giochi su disco. Ulteriori informazioni possono essere trovate nella nostra guida, che comprende sia loader Wii che loader GameCube.
 + [CavEX](https://oscwii.org/library/app/cavex) - Un progetto con l'intento di ricreare l'esperienza base di soppravivenza del tuo gioco di blocchi preferito su Wii fino alla Beta 1.7.3.
 + [Sonic CD](https://oscwii.org/library/app/SonicCDWii) - Un port del re-release 2011 di Sonic CD dalla decompilation RSDKv3. **L'app richiede gli asset dal rilascio ufficiale al fine di consentirne l'avvio.**.
