@@ -168,5 +168,5 @@ Per cambiare il cIOS utilizzato per un gioco specifico, segui le istruzioni adat
     + Prova ad usare 248, 249, 250 o 251.
 1. Premi Salva e prova a caricare il gioco.
 
-[Continua verso Nintendont](nintendont) Ora che hai installato un loader USB di qualche tipo per i giochi Wii, è possibile installare un tipo simile di applicazione per la riproduzione effettivamente nativa di giochi GameCube.
+[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
 {: .notice--info}
