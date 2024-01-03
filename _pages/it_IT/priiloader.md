@@ -111,5 +111,5 @@ Se sei arrivato a questo punto, congratulazioni! Hai finito con la sezione richi
 Continua su [cIOS](cios)<br> Questa guida fornisce i passaggi su come installare una configurazione base di cIOS sul tuo Wii, attivando funzionalità nelle app tipo loader USB.
 {: .notice--info}
 
-[Visualizza le linee guida per Prevenzione dei Brick](bricks#brick-prevention)<br> Queste linee guida elencano modi per evitare il brick sul tuo Wii, oltre alla sola installazione di BootMii e Priiloader.
+[View the Brick Prevention Guidelines](bricks#brick-prevention)<br> These guidelines list ways that will help avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
 {: .notice--info}
