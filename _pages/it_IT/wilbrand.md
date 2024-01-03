@@ -52,7 +52,7 @@ Le schede SD di dimensioni maggiori a 2GB non funzioneranno su versioni del Menu
 1. Apri la Bacheca Wii sul tuo Wii.
 1. Apri la lettera verde con all'interno una bomba.
     + Assicurati che la data del tuo Wii sia corretta, o potresti non trovare la lettera.
-    + In alcuni casi, la lettera potrebbe trovarsi nei messaggi per domani o ieri.
+    + In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     + Se non vedi la lettera verde, controlla se appaiono degli errori nella sezione della scheda SD della `Gestione dati`. Se appaiono, ci potrebbe essere un problema con il formato della scheda SD o con il lettore SD del Wii.
 
     ![](/images/exploits/wilbrand/msgboard.png)
