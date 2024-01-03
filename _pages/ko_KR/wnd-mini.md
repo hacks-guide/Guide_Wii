@@ -1,5 +1,5 @@
 ---
-title: "Wii mini NAND Dumper"
+title: "Wii mini NAND 덤프"
 ---
 
 {% include toc title="목차" %}
