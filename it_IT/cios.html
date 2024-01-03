@@ -366,7 +366,7 @@ window.cookieconsent.initialise({
 <ul class="toc__menu" id="markdown-toc">
   <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
   <li><a href="#istruzioni" id="markdown-toc-istruzioni">Istruzioni</a>    <ul>
-      <li><a href="#sezione-i---download-solo-richiesto-se-il-tuo-wii-non-ha-internet" id="markdown-toc-sezione-i---download-solo-richiesto-se-il-tuo-wii-non-ha-internet">Sezione I - Download (Solo richiesto se il tuo Wii non ha Internet)</a></li>
+      <li><a href="#sezione-i---download" id="markdown-toc-sezione-i---download">Sezione I - Download</a></li>
       <li><a href="#sezione-ii---installazione" id="markdown-toc-sezione-ii---installazione">Sezione II - Installazione</a></li>
     </ul>
   </li>
@@ -391,9 +391,9 @@ window.cookieconsent.initialise({
 
 <h3 id="istruzioni">Istruzioni</h3>
 
-<h4 id="sezione-i---download-solo-richiesto-se-il-tuo-wii-non-ha-internet">Sezione I - Download (Solo richiesto se il tuo Wii non ha Internet)</h4>
+<h4 id="sezione-i---download">Sezione I - Download</h4>
 
-<p class="notice--warning">Se il tuo Wii ha una connessione a internet, puoi saltare questa sezione. <br /> Tuttavia, se incontri errori come <code class="language-plaintext highlighter-rouge">tcp_read timeout</code> e <code class="language-plaintext highlighter-rouge">net_gethostbyname failed:</code>, questo permetterà al Wii di saltare la fase di download.</p>
+<p class="notice--warning">If your Wii has an Internet connection, you may skip this section.<br /> However, If you encounter any errors like <code class="language-plaintext highlighter-rouge">net_init failed</code>, <code class="language-plaintext highlighter-rouge">net_gethostbyname failed:</code>, or any other issues during the downloading stage this will allow the Wii to skip the downloading step.</p>
 
 <p class="notice--info">Se non sei su Windows, puoi scaricare &amp; eseguire <a href="/assets/files/d2x_offline_ios.sh">questo script</a>, e scaricherà i file WAD per te.</p>
 
@@ -424,34 +424,45 @@ window.cookieconsent.initialise({
 
 <h4 id="sezione-ii---installazione">Sezione II - Installazione</h4>
 
-<p class="notice--info">Se <code class="language-plaintext highlighter-rouge">d2x-v11-beta1</code> non viene mostrato, prova a selezionare la base cIOS prima, poi controlla ancora. Questo può anche succedere se la tua scheda SD è bloccata.</p>
-
-<p class="notice--info">Per ogni cIOS che vuoi provare a installare, ti verrà prima mostrata una griglia degli IOS attivi sul Wii. Basta premere A di nuovo, e lo installerà. Poi, ti verrà mostrata la schermata dei risultati, premi A anche qui e vai al prossimo cIOS.</p>
-
 <ol>
   <li>Copia la cartella <code class="language-plaintext highlighter-rouge">apps</code> dal <code class="language-plaintext highlighter-rouge">.zip</code> di d2x-cios-installer al root della tua scheda SD o dispositivo USB.</li>
   <li>Reinserisci la tua scheda SD o dispositivo USB nella tua console.</li>
   <li>Accendi la console.</li>
   <li>Avvia l’Homebrew Channel.</li>
   <li>Avvia d2x cIOS Installer dalla lista degli homebrew.</li>
-  <li>Quando ti viene chiesto che IOS usare, seleziona IOS 58.
-    <ul>
-      <li>Dovrebbe funzionare in quasi tutti i casi.</li>
-    </ul>
+  <li>
+    <p>Set everything to match the following:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> Select cIOS &lt;d2x-v11-beta1&gt;
+ Select cIOS base &lt;38&gt;
+ Select cIOS slot &lt;248&gt;
+ Select cIOS revision &lt;65535&gt;
+</code></pre></div>    </div>
+
+    <p><img src="/images/cios/d2x_v11_248.png" alt="" /></p>
   </li>
-  <li>Ora, installerai i cIOS individuali da 248-251. Le impostazioni esatte sono elencate di seguito.
+  <li>
+    <p>Press <code class="language-plaintext highlighter-rouge">A</code>. This will bring you to the slot map:</p>
+
+    <p><img src="/images/cios/d2x_summary.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Press <code class="language-plaintext highlighter-rouge">A</code> again.</p>
+
+    <p><img src="/images/cios/d2x_installation.png" alt="" /></p>
+  </li>
+  <li>
+    <p>After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.</p>
+
+    <p><img src="/images/cios/d2x_log.png" alt="" /></p>
+
+    <p class="notice--info">If the slot is highlighted red, try install the cIOS again. <br /> If you are getting an error before/during the downloading stages, press B to exit and continue from <a href="#section-i---downloading">Section I</a>.</p>
+  </li>
+  <li>Press <code class="language-plaintext highlighter-rouge">A</code>. This will return you to the configuration screen.</li>
+  <li>
+    <p>Repeat the previous 5 steps with the following configurations:</p>
+
     <ul>
-      <li>
-        <p>Installazione del cIOS 248</p>
-
-        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Select cIOS &lt;d2x-v11-beta1&gt;
-  Select cIOS base &lt;38&gt;
-  Select cIOS slot &lt;248&gt;
-  Select cIOS revision &lt;65535&gt;
-</code></pre></div>        </div>
-
-        <p><img src="/images/cios/d2x_v11_248.png" alt="" /></p>
-      </li>
       <li>
         <p>Installazione del cIOS 249</p>
 
@@ -487,9 +498,10 @@ window.cookieconsent.initialise({
       </li>
     </ul>
   </li>
+  <li>Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.</li>
 </ol>
 
-<p class="notice--info">Continua all’<a href="osc">Installazione dell’Open Shop Channel</a> Ora che il tuo Wii ha una protezione dai brick adeguata, puoi installare l’Open Shop Channel, una repository affidabile per applicazioni homebrew che possono di cui si può usufruire sia con che senza il Wii.</p>
+<p class="notice--info">Continue to <a href="osc">Open Shop Channel Installation</a> <br /> Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.</p>
 
         
       </section>
