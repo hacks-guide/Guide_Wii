@@ -58,8 +58,6 @@ sitemap: false
 + [How to dump GameCube/Wii Games](dump-games)
 + [RSSMii](rssmii)
 + [Gestion des fichiers de sauvegarde de la GameCube](gcsaves)
-+ [Nintendont](nintendont)
-+ [Jouer à des mods de jeux Wii](riivolution)
 + [Priiloader Usage](priiloader-usage)
 + [Homebrew recommandés](recommended-homebrew)
 + [Lanceurs USB](wii-loaders)
