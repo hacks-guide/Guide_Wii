@@ -24,7 +24,7 @@ Aqui estão alguns exemplos do que homebrew pode fazer no seu Wii:
 + [Fazer backup](bootmii) e [restaurar](bootmiirecover) a NAND do seu Wii (memória do sistema)
 + Melhorar a [proteção contra brick](priiloader) do seu Wii
 + Baixe novos homebrews com o [Open Shop Channel](osc)
-+ [Patchear discos de jogos](riivolution) para jogar modificações
++ [Patch game disc contents](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
 + Instalar [temas](themes) no Menu do Wii e em homebrews comumente utilizadas
 + Faça backup dos seus [discos](dump-games) e [outros títulos instalados](dump-wads)
 + Instalar um [Loader USB](wii-loaders) para jogar backups de jogos do Wii (e de GameCube) através de um armazenamento externo
