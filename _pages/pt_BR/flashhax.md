@@ -1,15 +1,15 @@
 ---
-title: "FlashHax"
+title: "RiiConnect24"
 ---
 
 {% include toc title="Sumário" %}
 
-FlashHax é um exploit para o Wii que é acionado usando o Internet Channel. Ao contrário de outros exploits, ele não requer um cartão SD.
+FlashHax é um exploit para o Wii que é ativado usando o Internet Channel. Diferente de outros exploits, não é necessário ter um cartão SD.
 
 ### Requisitos
 
-* A Wii with an Internet connection
-* The Internet Channel
+* Um Wii conectado a Internet
+* O Internet Channel
 
 ### Instruções
 
@@ -20,7 +20,7 @@ FlashHax é um exploit para o Wii que é acionado usando o Internet Channel. Ao 
 
     ![](/images/exploits/flashhax/internet-channel-start.png)
 
-1. Go to `flashhax.com`.
+1. Vá até flashhax.com no navegador e coloque a página nos favoritos.
 1. Select the correct region for your console.
 
     ![](/images/exploits/flashhax/select-region.png)
@@ -35,18 +35,18 @@ FlashHax é um exploit para o Wii que é acionado usando o Internet Channel. Ao 
 
 1. Open the site from the bookmark
 1. Wait a while
-    + It may take some time as it is downloading the installer over the Internet.
+    + Pode levar algum tempo, pois está fazendo o download do instalador pela Internet.
 
     ![](/images/exploits/flashhax/wait-for-download.png)
 
-1. Se o exploit foi bem sucedido, seu console irá carregar o Instalador HackMii.
+1. Ele fará o download do HackMii Installer e depois será iniciado.
     + This may take multiple tries.
-    + If the HackMii Installer doesn't load and it instead freezes (you can't move your cursor), restart your Wii, launch the Internet Channel, then retry this section.
+    + Abra o Internet Channel no seu Wii.
 
-If you still can't get it to load, try deleting your cookies or save data for the Internet Channel.
+Se você ainda não conseguiu carregá-lo, tente excluir seus cookies ou salvar dados no Internet Channel.
 
 If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
 
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continue para a Instalação do Homebrew Channel e do BootMii](hbc)
 {: .notice--info}
