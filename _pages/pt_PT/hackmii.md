@@ -48,7 +48,7 @@ Preloader and older versions of Priiloader do not seem to support SDHC (>2GB) ca
 1. Insert your SD/USB into your Wii.
 1. Enter Priiloader by holding the RESET button while turning on your Wii.
 1. Go to `Load/Install File`.
-1. Navigate to `boot.elf` and press `1` to load it.
+1. Navigate to `hackmii_installer_v1.2` and press `1` to load it.
 
 If `Press (1) to continue` does not show up after about 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
 {: .notice--info}
