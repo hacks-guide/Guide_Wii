@@ -15,7 +15,7 @@ Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It
 ### 必要なもの
 
 * A Wii
-* A USB drive
+* A USB drive.
 * [YAWM ModMii Edition](yawmme)
 * A Windows computer.
 * [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
