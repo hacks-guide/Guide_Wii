@@ -52,11 +52,15 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 ### Dumping a Wii Disc
 
-If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), set `Dual Layer` in Step 1 to `Yes`.
+As of v2.1.2 of CleanRip, there is an option to auto-detect whether or not the disc you have is dual layer. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
 {: .notice--info}
 
 If you get an unrecovered read error, ensure that the disc you are attempting to dump is clean and can be properly read by the console. Even though you may be able to play the game disc normally, you may still get this error. If the error persists, try to dump another disc and see if the same error happens.
 {: .notice--warning}
+
+1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
+
+    ![](/images/homebrew/CleanRip/dateldisc.png)
 
 1. Set the settings as shown on the screen below, while verifying if your game disc is dual layer or not.
 
