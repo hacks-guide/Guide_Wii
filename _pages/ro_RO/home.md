@@ -1,12 +1,12 @@
 ---
 layout: splash
-title: "Ghid Modificare Wii"
+title: "Wii Guide"
 header:
   overlay_color: "#121212"
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "Ghidul complet pentru modificarea consolei tale Wii (și Wii mini)."
+excerpt: "The complete guide to modding your Nintendo Wii."
 ---
 
 Din moment ce acest ghid a fost lansat de curând, încă se lucrează la traduceri. Vă mulțumim pentru răbdare!
@@ -19,7 +19,7 @@ Pentru a beneficia cel mai mult de acest ghid, ar trebui să citești această p
 
 **Homebrew** se referă la software care nu a fost autorizat de creatorii originali ai unei bucăți de hardware - în acest caz, Nintendo. Pentru a putea rula homebrew pe un Wii, consola trebuie întâi să fie modificată să ruleze cod nesemnat.
 
-Iată niște exemple comune de ce poate homebrew să facă pentru consola ta Wii:
+Get started by [choosing your exploit](get-started)!
 
 + Crearea unei [backup](bootmii) și [restaurarea](bootmiirecover) NAND-ului (memoria internă) consolei tale Wii
 + Îmbunătățirea [protecției anti-brick](priiloader) a consolei
