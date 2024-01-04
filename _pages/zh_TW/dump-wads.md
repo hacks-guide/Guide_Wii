@@ -2,29 +2,29 @@
 title: "Dumping WADs"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
-This guide will show you how to dump WADs from your Wii System Memory.
+This tutorial will explain you how to dump WADs from your Wii System Memory.
 
-### Requirements
+### 前置需求
 
-+ An SD Card or USB drive
++ 一張 SD 卡或 USB 隨身碟
 + [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
 ### Instructions
 
 1. Power off your console.
 1. Insert your SD card or USB drive into your computer.
-1. Copy the `apps` folder from the Yet Another BlueDump MOD `.zip` to the root of your SD card or USB drive.
+1. Extract Yet Another BlueDump MOD to your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Power on your console.
-1. Launch the Homebrew Channel.
-1. Launch Yet Another BlueDump MOD from the list of homebrew.
-1. Press A.
+1. 啟動 Homebrew Channel。
+1. Insert your SD card or USB drive into your Wii, and launch Yet Another BlueDump MOD from the Homebrew Channel.
+1. Press A
 
     ![](/images/homebrew/DumpWADS/1.png)
 
-1. Select `Installed Channel Titles`.
+1. Choose `Installed Channel Titles`.
 
     ![](/images/homebrew/DumpWADS/2.png)
 
@@ -32,19 +32,19 @@ This guide will show you how to dump WADs from your Wii System Memory.
 
     ![](/images/homebrew/DumpWADS/3.png)
 
-1. Select `Backup to WAD`.
+1. Choose `Backup to WAD`.
 
     ![](/images/homebrew/DumpWADS/4.png)
 
-1. At the prompt to `Fakesign the ticket`, select `Yes`.
-1. At the prompt to `Fakesign the TMD`, select `No`.
-1. At the prompt to `Change the output WAD region`, select `No`.
+1. At the prompt to `Fakesign the ticket`, choose `Yes`.
+1. At the prompt to `Fakesign the TMD`, choose `No`.
+1. At the prompt to `Change the output WAD region`, choose `No`.
 
     ![](/images/homebrew/DumpWADS/5.png)
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-The WAD has now been dumped, and should appear at the specified directory on your SD card or USB drive.
+You have now dumped that WAD. It should appear on your SD card.
 
 ![](/images/homebrew/DumpWADS/7.png)
 

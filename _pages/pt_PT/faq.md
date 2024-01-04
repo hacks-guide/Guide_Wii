@@ -1,5 +1,5 @@
 ---
-title: "FAQ and Troubleshooting"
+title: "FAQ"
 ---
 
 ## Main FAQ
@@ -7,10 +7,10 @@ title: "FAQ and Troubleshooting"
 {% include toc title="Table of Contents" %}
 
 ### How risky is hacking my console?
-Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. Make sure you install [BootMii](bootmii) and [Priiloader](priiloader) to protect yourself from bricks!
 
-### I got error code XXXXXX, how do I fix it?
-In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:
+### I got error code XXXXXX, how to fix it?
+In order to check what the reason for the error is, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:
 
 #### Error 051330/51330
 
@@ -30,7 +30,7 @@ Your Primary DNS server is incorrect or not working.<br> This can also happen if
 
 ##### For RiiConnect24 Users
 
-If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. You can join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net) for assistance.
 
 ##### For non-RiiConnect24 Users
 
@@ -48,7 +48,7 @@ See [this](bricks) page.
 
 ## Storage Device FAQ
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+If you are using the BlueBomb, str2hax, or FlashHax exploits, you do not need an SD card.
 {: .notice--info}
 
 FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br> For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS was a previously used file system for Wii game backups - today, it is outdated and should not be used.
@@ -69,7 +69,7 @@ When considering buying or using an SD card or USB device, it is worth consideri
 + General Emulation: There are a wide variety of emulators available on the Wii. Because the size of different game ROMs differ dramatically, the average user for an emulation drive would probably want 32GB or more of space.
 + General Homebrew: For homebrew, the average user would want 2GB or more of space.
 + NAND Backups: For backing up your NAND with BootMii, the average user would need a minimum of 512MB of free space, but sizes of 1GB or more are recommended.
-+ Bare minimum, exploit only: The minimum amount of space to run an SD-card compatible exploit on a Wii is 128MB.
++ You will need an SD card with at least 128MB to run an exploit.
 
 ### Buying SD Cards
 

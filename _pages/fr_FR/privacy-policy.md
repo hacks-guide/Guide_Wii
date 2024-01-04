@@ -1,5 +1,5 @@
 ---
-title: "Politique de confidentialité"
+title: "Donations"
 ---
 
 ### Cookies

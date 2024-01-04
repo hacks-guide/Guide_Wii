@@ -2,7 +2,7 @@
 title: "Recovery Mode"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
 Recovery Mode is a last resort method for recovering your Wii console from a brick before resorting to hard-modding and manual NAND programming. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated in the present with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc, including some retail games. This guide will instruct you on how to recover from bricks (especially Korean Kii/Error 003) with it.
 

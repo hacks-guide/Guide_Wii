@@ -6,8 +6,8 @@ sitemap: false
 
 {% capture notice-1 %}
 **Site**
-+ [Acasă](/)
-+ [Începe](get-started)
++ [Wii Guide](/)
++ [Start Here](get-started)
 + [FAQ - Întrebări Frecvente](faq)
 + [Donations](donations)
 {% endcapture %}
@@ -15,19 +15,18 @@ sitemap: false
 
 {% capture notice-2 %}
 **Wii Online Services**
-+ [Nintendo Wi-Fi Connection](wiimmfi)
++ [RiiConnect24](wiimmfi)
 + [Setting RTC Time](wiiconnect24#updating-rtc-clock)
-+ [WiiConnect24](wiiconnect24)
-{% endcapture %}
++ RiiConnect24 Dolphin
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-3 %}
-**Modding 101 - Exploits**
-+ [BlueBomb](bluebomb)
-+ [FlashHax](flashhax)
+**Modding 101**
++ [Credits](bluebomb)
++ [RiiConnect24](flashhax)
 + [Legacy Exploits](legacy-exploits)
-+ [LetterBomb](letterbomb)
-+ [str2hax](str2hax)
++ [Donations](letterbomb)
++ [Wiimmfi](Wiimmfi)
 + [Wilbrand](wilbrand)
 {% endcapture %}
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
@@ -35,7 +34,7 @@ sitemap: false
 {% capture notice-4 %}
 **Modding 101 - Wii Essentials**
 + [BootMii Backup](bootmii)
-+ [BootMii Recovery](bootmiirecover)
++ [BootMii Recovery (RestoreMii)](bootmiirecover)
 + [Brick Overview](bricks)
 + [Brick Prevention](bricks#brick-prevention)
 + [cIOS](cios)
@@ -45,9 +44,8 @@ sitemap: false
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)
-+ [Wii mini NAND Dumper](wnd-mini)
-+ [YAWM ModMii Edition](yawmme)
-{% endcapture %}
++ [Removing RSSMii](wnd-mini)
++ RiiTag
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 
 {% capture notice-5 %}
@@ -58,8 +56,6 @@ sitemap: false
 + [How to dump GameCube/Wii Games](dump-games)
 + [RSSMii](rssmii)
 + [Managing GameCube Save Files](gcsaves)
-+ [Nintendont](nintendont)
-+ [Playing Wii Game Mods](riivolution)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
 + [USB Loaders](wii-loaders)

@@ -1,77 +1,71 @@
 ---
-title: "Navegación del sitio"
+title: "Homebrew Browser"
 layout: single
 sitemap: false
 ---
 
 {% capture notice-1 %}
-**Site**
-+ [Inicio](/)
-+ [Comenzar](get-started)
+**Sitio**
++ [Casa](/)
++ [Empezar](get-started)
 + [Preguntas frecuentes](faq)
-+ [Donations](donations)
++ [Donaciones](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**Wii Online Services**
+**WiiLink**
 + [Nintendo Wi-Fi Connection](wiimmfi)
 + [Setting RTC Time](wiiconnect24#updating-rtc-clock)
-+ [WiiConnect24](wiiconnect24)
-{% endcapture %}
++ RiiConnect24, WiiLink, and Wiimmfi
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-3 %}
 **Modding 101 - Exploits**
-+ [BlueBomb](bluebomb)
-+ [FlashHax](flashhax)
++ [Créditos](bluebomb)
++ [RiiConnect24](flashhax)
 + [Legacy Exploits](legacy-exploits)
-+ [LetterBomb](letterbomb)
-+ [str2hax](str2hax)
-+ [Wilbrand](wilbrand)
++ [Donaciones](letterbomb)
++ [Wiimmfi](Wiimmfi)
++ [Wiimmfi](wiimmfi)
 {% endcapture %}
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-4 %}
-**Modding 101 - Wii Essentials**
-+ [Copia de seguridad de BootMii](bootmii)
-+ [Restauración de BootMii](bootmiirecover)
-+ [Brick Overview](bricks)
+**Playing Wii Game Mods**
++ [Crear respaldo de NAND con BootMii](bootmii)
++ [BootMii Recovery (RestoreMii)](bootmiirecover)
++ [Types of Bricks](bricks)
 + [Prevención de bloqueos](bricks#brick-prevention)
-+ [cIOS](cios)
++ [rtc](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
-+ [Relaunching the HackMii Installer](hackmii)
++ [Volver a lanzar el HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)
-+ [Wii mini NAND Dumper](wnd-mini)
-+ [YAWM ModMii Edition](yawmme)
-{% endcapture %}
++ [riitag-wiiu](wnd-mini)
++ Instalar WADs con YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 
 {% capture notice-5 %}
 **Homebrew**
-+ [Creating Wii Game Shortcuts](wiigsc)
++ [Creación de accesos directos a juegos de Wii](wiigsc)
 + [GameCube Backup Manager](gcbackupmanager)
 + [How to dump Channels (WADs)](dump-wads)
 + [How to dump GameCube/Wii Games](dump-games)
-+ [RSSMii](rssmii)
++ [Instalar RSSMii](rssmii)
 + [Managing GameCube Save Files](gcsaves)
-+ [Nintendont](nintendont)
-+ [Playing Wii Game Mods](riivolution)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
-+ [USB Loaders](wii-loaders)
-+ [Using SysCheck](syscheck)
++ [USB Loader GX](wii-loaders)
++ [Performing a SysCheck](syscheck)
 + [Wii Backup Manager](wiibackupmanager)
-+ [Wii Themes Guide](themes)
-{% endcapture %}
++ Installing Wii Menu Themes on vWii
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
 **Wii mini**
-+ [Installing the Homebrew Channel on the Wii mini](hbc-mini)
-+ [Installing cIOS on the Wii mini](cios-mini)
-{% endcapture %}
++ [Instalación del Canal Homebrew en el Wii Mini](hbc-mini)
++ Instalación de cIOS en el Wii Mini
 <div class="notice--primary">{{ notice-6 | markdownify }}</div>

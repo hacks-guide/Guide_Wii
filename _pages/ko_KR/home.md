@@ -1,12 +1,12 @@
 ---
 layout: splash
-title: "Wii Hacks Guide"
+title: "Wii 가이드"
 header:
   overlay_color: "#121212"
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Wii (and Wii mini)."
+excerpt: "완벽힌 Wii 해킹 가이드."
 ---
 
 Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
@@ -15,21 +15,21 @@ Since this guide has just been published, translations are a work-in-progress. T
 To get the most out of this guide, you should read this page before proceeding.
 {: .notice--warning}
 
-### What is homebrew?
+### "홈브류"가 무엇인가요?
 
-**Homebrew** refers to software that was not authorized by the original creator of a piece of hardware - in this case, Nintendo. In order to gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
+[**홈브류**](https://en.wikipedia.org/wiki/Homebrew_(video_games))는 닌텐도에서 승인하지 않은 소프트웨어를 의미합니다. 여기에는 게임, 유틸리티, 에뮬레이터 등이 포함될 수 있습니다!
 
 Here are some common examples of what homebrew can do for your Wii:
 
-+ [Backup](bootmii) and [restore](bootmiirecover) your Wii's NAND (system memory)
-+ Enhance the [brick protection](priiloader) of your Wii
-+ Download new homebrew apps with the [Open Shop Channel](osc)
-+ [Patch game disc contents](riivolution) to load game modifications
-+ Install [themes](themes) on the Wii Menu and in commonly used homebrew apps
-+ Back up your [discs](dump-games) and [other installed titles](dump-wads)
-+ Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
-+ Back up and restore your [Wii](wii-saves) and [GameCube](gcsaves) save files
-+ Restore online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
++ [Backup](bootmii) and [restore](bootmiirecover) copies of your Wii system memory (NAND) using [BootMii](hbc).
++ Protect your Wii from bricks then add hacks to your Wii Menu using [Priiloader](priiloader).
++ Download new homebrew apps with the [Open Shop Channel](hbb).
++ Patch game disc contents (allowing you to load game modifications) using [Riivolution](riivolution).
++ [MyMenuify](themes)를 사용하여 Wii 메뉴에 테마를 설치합니다.
++ Back up your discs with [CleanRip](/dump-games) and installed games and titles with [Yet Another BlueDump MOD](dump-wads).
++ Back up and restore your Wii save files with [SaveGame Manager GX](https://oscwii.org/library/app/savegame_manager_gx).
++ Back up and restore your GameCube save files using [GCMM](gcsaves).
++ Restore discontinued online services using [RiiConnect24](riiconnect24), [Wiimmfi](wiimmfi) and [WiiLink](wiilink).
 
 ### What does the guide install?
 
@@ -45,14 +45,14 @@ This guide aims to do the following, including optional sections:
 
 ### What should I know before starting?
 
-+ Homebrew is 100% free, and the process of modifying your Wii is also free. Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam).
++ Wii 소프트웨어의 버그를 이용하면 무료로 닌텐도 Wii에서 홈브류를 실행할 수 있습니다. Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam).
 + This guide works on all system menu versions depending on the exploit, but **it is recommended that you update to 4.3 (the latest firmware)** if possible.
 + **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered, nor is the Wii U's vWii.
 + Depending on what you intend to do with your modded Wii, you may have to make some modifications to the system memory that have a risk of bricking (rendering the console inoperable). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
 + The differences between the Wii and Wii mini are quite significant. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Tread carefully if you are planning to mod one!
 + Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).
 
-### Ready?
+### 준비됐나요?
 
 The guide has nine sections in total. These are listed below:
 
@@ -66,5 +66,5 @@ The guide has nine sections in total. These are listed below:
 1. Regaining WiiConnect24 Functionality (OPTIONAL)
 1. Regaining Nintendo Wi-Fi Connection Functionality (OPTIONAL)
 
-Continue to [Get Started](get-started)
+[취약점 공격을 선택해서](get-started) 시작하세요!
 {: .notice--info}

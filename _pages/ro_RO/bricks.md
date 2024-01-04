@@ -65,7 +65,7 @@ Here, the different Wii bricks will be discussed in order of severity, with symp
 ## Semibrick
 
 #### Symptoms
-When navigating to Wii Settings, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` In some cases, some parts of the Wii Settings menu may still be accessible, but other parts may not (such as the Country menu).
+If you are fortunate enough to get to the Wii Menu, enter the Homebrew Channel and uninstall the faulty WAD.
 
 #### Cause
 A semibrick occurs when a different region Wii Menu or a different region custom theme is installed. As the Wii Settings menu is rendered using HTML pages with Opera, themes often replace these pages and put them in different directories; essentially leading to a `404 Not Found` error but in the form of a console brick.
@@ -75,7 +75,7 @@ A semibrick occurs when a different region Wii Menu or a different region custom
 #### Solutions
 Verify in AnyRegion Changer that your console region is the same as the theme or Wii Menu that you have installed.
 
-If this was caused by a theme you installed, use MyMenuifyMod to reinstall the original theme file.
+If this was caused by a theme you installed, use MyMenuifyMod to re-download the original theme file.
 
 If this was caused by a Wii Menu WAD you installed, use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to re-obtain your original Wii Menu.
 
@@ -95,7 +95,7 @@ Attempt to start the Wii - warning/press A screen shows up, and when A is presse
 Banner bricks occur if you install a WAD file that has an invalid Wii Menu banner or icon.
 
 #### Solutions
-If you are somehow able to still access the Wii Menu, go into the Homebrew Channel and use [YAWM ModMii Edition](yawmme) or your current WAD manager to uninstall the corrupt channel.
+In case you do not have Priiloader, you can try [BlueBomb](bluebomb).
 
 If you cannot access the Wii Menu, and have [Priiloader](priiloader) installed, enter it by holding RESET while turning your Wii on. Select Homebrew Channel, then uninstall the corrupt channel.
 
@@ -124,7 +124,7 @@ A mail brick occurs when a Wii has too much mail to handle, or when malformed ma
 #### Solution
 By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed and the system menu is at Wii menu version 2.0 or later, follow [str2hax](str2hax). Otherwise, see [Bluebomb](bluebomb).
 
-From here, the Homebrew Channel can be loaded and the brick can be fixed by deleting Wii Message Board data with [cdbackup](https://oscwii.org/library/app/cdbackup).
+This is usually an immediate follow-up to a Wii System Update on an unsuspecting region-changed Korean Wii.
 
 ## Wii Menu/Opera brick
 
@@ -142,16 +142,16 @@ However, the setup pages are in a similar location to the Wii settings pages. If
 
 If you still have [Priiloader](priiloader), use it to enter the Homebrew Channel and re-install the original theme file/original Wii Menu.
 
-In case you do not have Priiloader or your Wii is not modded, you can try [BlueBomb](bluebomb).
+{: .notice}
 
 Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 
 ## Korean Kii/Error 003 Brick
 
 #### Symptoms
-Screen shows up as listed below on normal boot.
+This brick occurs when boot1/boot2 is corrupt.
 
-`Error:003`<br> `unauthorized device has been detected.`<br>
+You can only recover by using a NAND programmer.<br>
 
 ![](/images/bricks/error-003.png)
 
@@ -173,7 +173,7 @@ While these caveats leave the Wii in a particularly dangerous situation, **it is
 This brick will appear identical to a low-level brick due to a Wii Menu failure via IOS; however there is not a full low-level NAND corruption, or a low-level hardware failure.
 
 #### Cause
-This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS). This is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](wi-fi-brick).
+This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS). This is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
 
 #### Solutions
 [Recovery mode](recovery-mode) may or may not be accessible due to the nature of the brick, but Priiloader will almost always not work. If you cannot reach recovery mode, you must have BootMii as boot2 to fix this. If these conditions are not met, see [low-level brick](bricks#low-level-brick).
@@ -217,5 +217,5 @@ First, troubleshooting must be done to determine if hardware is at fault. In the
 + Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
 + At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.
 
-[Click aici pentru a reveni la indexul site-ului.](site-navigation)
+[Click here to view all of our tutorials that you can find on this website!](site-navigation)
 {: .notice--info}

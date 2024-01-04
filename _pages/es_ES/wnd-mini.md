@@ -2,7 +2,7 @@
 title: "Wii mini NAND Dumper"
 ---
 
-{% include toc title="Índice" %}
+{% include toc title="Tabla de contenido" %}
 
 This tutorial will show you how to dump your Wii mini's NAND without having to solder an SD card slot. This was made possible by [nitr8](https://gbatemp.net/members/nitr8.72581/).
 
@@ -18,7 +18,7 @@ There is no way to restore your NAND backup this way without a hardmod.
 
 ### Requisitos
 
-* Un Wii
+* Una consola Wii original
 * Una unidad USB
 * [Simple IOS Patcher for Wii mini](https://oscwii.org/library/app/SimpleIOSPatcher_Mini)
 * [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)

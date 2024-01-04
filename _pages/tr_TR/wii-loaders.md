@@ -45,10 +45,10 @@ Below is a single WBFS example, and a split WBFS example.
        ┗ 📜gameid.wbf1
 ```
 
-### WiiFlow Lite
+### http://www.wiithemer.org/
 
 #### Requirements
-+ A modded Wii
++ Some themes have different links for different regions, so pick the one corresponding to your Wii's region.
 + The latest version of [cIOS](cios)
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
@@ -94,7 +94,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 ### USB Loader GX
 
 #### Requirements
-+ A modded Wii
++ Some themes have different links for different regions, so pick the one corresponding to your Wii's region.
 + The latest version of [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
@@ -161,12 +161,12 @@ To change the cIOS used for a specific game, follow the instructions specific to
     + Try using 248, 249, 250 or 251.
 1. Press OK and try to load the game.
 
-#### WiiFlow Lite
+#### http://www.wiithemer.org/
 1. Select the game that isn't working.
 1. Click the gear icon.
 1. Go to cIOS and use the arrows to select the IOS slot to use.
     + Try using 248, 249, 250 or 251.
 1. Press Save and try to load the game.
 
-[Continue to Nintendont](nintendont) Now that you have installed a USB loader of some type for Wii games, you can install a similar type of application for effectively native playback of GameCube games.
+[Click here to go back to the site index.](site-navigation)
 {: .notice--info}

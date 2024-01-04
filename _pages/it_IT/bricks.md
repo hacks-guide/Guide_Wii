@@ -173,7 +173,7 @@ Anche se queste limitazioni lasciano il Wii in una situazione pericolosa, **è c
 Questo brick sembra a un brick a basso livello a causa di un fallimento del Menu Wii via IOS; tuttavia non c'è una completa corruzione della NAND a basso livello, o un fallimento dell'hardware a basso livello.
 
 #### Causa
-Questo brick si verifica di solito nel momento in cui l'IOS del Menu Wii è uno [stub](http://wiibrew.org/wiki/Stub_IOS). Questa è di solito la consequenza di provare a eseguire un downgrade del tuo Menu Wii. Se questo errore inizia a verificarsi dopo aver installato un IOS80 normale tu un Wii mini, vedi [brick Wi-Fi](wi-fi-brick).
+Questo brick si verifica di solito nel momento in cui l'IOS del Menu Wii è uno [stub](http://wiibrew.org/wiki/Stub_IOS). Questa è di solito la consequenza di provare a eseguire un downgrade del tuo Menu Wii. Se questo errore ha iniziato ad accadere dopo avere installato una IOS80 normale su una Wii mini, vedere [Brick Wi-Fi](bricks#wi-fi-brick).
 
 #### Soluzioni
 Non è sicuro che la [Recovery Mode](recovery-mode) sia accessibile data la natura del brick, ma Priiloader non funzionerà quasi sicuramente. Se non puoi raggiungere la Recovery Mode, devi avere BootMii su boot2 per sistemare questo brick. Se queste condizioni non sono soddisfatte, vedi [brick a basso livello](bricks#low-level-brick).

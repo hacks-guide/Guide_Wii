@@ -1,5 +1,5 @@
 ---
-title: "FAQ and Troubleshooting"
+title: "FAQ"
 ---
 
 ## Main FAQ
@@ -9,12 +9,12 @@ title: "FAQ and Troubleshooting"
 ### How risky is hacking my console?
 Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
 
-### I got error code XXXXXX, how do I fix it?
+### Where should I go for support?
 In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:
 
 #### Error 051330/51330
 
-Run an Internet connection test by going to `Wii Settings > Internet > Connection settings > Connection > Test this connection`
+You will need an SD card with at least 128MB to run an exploit.
 
 #### Error 220602
 
@@ -24,7 +24,7 @@ You are using the old DNS server for RiiConnect24. Follow [this](riiconnect24#se
 
 ##### For non-RiiConnect24 Users
 
-Your Primary DNS server is incorrect or not working.<br> This can also happen if you use a proxy server and it is down.
+In order to check what the reason for the error is, please visit the [Wiimmfi error page](https://wiimmfi.de/error).
 
 #### Error 107304
 
@@ -41,9 +41,9 @@ If you get this error, the DNS server you chose or your internet as a whole is h
 If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock.
 
 ### How can I remove parental controls?
-The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls.
+The [mkey generator](https://mkey.eiphax.tech/) can generate the code required to remove parental controls.
 
-### I think my Wii is bricked, or something is seriously wrong, what do I do?
+### I got error code XXXXXX, how to fix it?
 See [this](bricks) page.
 
 ## Storage Device FAQ
@@ -60,7 +60,7 @@ For stock Wii Menu versions lower than 4.0, a limitation in the Wii System Softw
 For USB devices, flash drives have a high rate of not working on Wii consoles. Instead, it is recommended to use a USB hard drive or solid state drive.
 {: .notice--warning}
 
-### General Storage Guidelines
+### What are the limitations in vWii modding?
 
 When considering buying or using an SD card or USB device, it is worth considering the things that you will be using either storage medium for. Different uses can take up varying amounts of space, some common examples of which are shown below:
 
@@ -79,11 +79,11 @@ SD cards 2TB or larger currently do not exist, anyone attempting to sell you one
 When buying SD cards, it is generally recommended that you stick to well-known brands the more expensive and larger capacity that you get. While you can buy a generic 2GB SD card and most likely be safe, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-20 USD for 256GB and below, whereas 512GB is around 40 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be wary when buying storage on eBay.
 
 Recommended brands:
-+ Samsung (EVO Select, EVO Plus, PRO Plus)
-+ SanDisk (Extreme, Ultra, etc)
-+ Lexar (E-Series, Professional)
-+ Silicon Power ("3D NAND" cards, higher capacity usually better value)
-+ PNY (Elite, Elite-X, etc)
++ Installing IOS for a Wii console on vWii.
++ Installing Wii menu themes not formatted correctly for vWii and/or your region.
++ Installing BootMii.
++ Failure during the install of crucial system/IOS titles (e.g. power outage).
++ Modifying the vWii NAND without knowing what you are doing.
 
 ### Buying USB Devices - Hard Drives
 

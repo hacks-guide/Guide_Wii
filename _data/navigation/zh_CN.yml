@@ -1,58 +1,58 @@
 ---
 main:
   - 
-    title: Home
+    title: Wii 指南
     url: /
   - 
-    title: Get Started
+    title: 从这里开始
     url: get-started
   - 
-    title: Site Navigation
+    title: 网站导航
     url: site-navigation
   - 
     title: FAQ
     url: faq
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: 本网站使用 cookie 来在侧边栏显示当前指南进度，并提升网站的其它功能。
 bottom:
   - 
     title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
 footer:
   - 
-    title: Source
+    title: 来源
     url: https://github.com/hacks-guide/Guide_Wii
   - 
-    title: Site Navigation
+    title: 网站导航
     url: site-navigation
   - 
-    title: Privacy Policy
+    title: 捐赠
     url: privacy-policy
   - 
     title: Donations
     url: donations
 sidebar_title:
   - 
-    title: Overall Progress
+    title: 总体进程
 sidebar_pages:
   - 
-    title: Home
+    title: Wii 指南
     url: /
   - 
-    title: Get Started
+    title: FAQ
     url: get-started
   - 
-    title: LetterBomb
+    title: 捐赠
     url: letterbomb
   - 
-    title: BlueBomb
+    title: 制作人员
     url: bluebomb
   - 
-    title: FlashHax
+    title: RiiConnect24
     url: flashhax
   - 
-    title: str2hax
-    url: str2hax
+    title: Wiimmfi
+    url: Wiimmfi
   - 
     title: Wilbrand
     url: wilbrand

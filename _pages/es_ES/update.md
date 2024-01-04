@@ -2,7 +2,7 @@
 title: "Updating Wii Menu to v4.3"
 ---
 
-{% include toc title="Índice" %}
+{% include toc title="Tabla de contenido" %}
 
 This tutorial will explain how to update your Wii Menu to version 4.3, if you have already homebrewed your Wii.
 
@@ -15,13 +15,13 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 * A computer with Windows on it
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
 * [Priiloader](priiloader)
-* [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
+* [Instalar WADs con YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
 ### Instrucciones
 
-#### Section I - Downloading
+#### Sección I - Descarga
 
-Your Wii must be modded in order to perform this. If it isn't, then it's best to follow [the guide](get-started) first.
+Your Wii must be modded in order to perform this. If it isn't, then it's best to follow [the guide](get-started) first before doing this.
 {: .notice--info}
 
 1. Extract the .zip file for NUS Downloader Wii and open the application.
@@ -39,9 +39,9 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 | Europa | v514 (4.3E)      |
 | Corea  | v518 (4.3K)      |
 
-#### Section II - Installing
+#### Sección II - Instalación
 
-1. Apaga la consola. Start holding RESET, then turn it back on.
+1. Power off your Wii. Start holding RESET, then turn it back on.
 1. In the Priiloader menu, select `Homebrew Channel`.
     * If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader is required for this guide.
 1. Launch YAWM ModMii Edition.

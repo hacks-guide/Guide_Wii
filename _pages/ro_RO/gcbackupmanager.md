@@ -22,7 +22,7 @@ Make sure your USB drive is formatted as FAT32. Do not format it as other types 
 #### Section I - Downloading
 
 1. Extract GameCube Backup Manager, and launch the program.
-1. Insert your USB drive into your computer.
+1. Insert your USB drive into your Wii mini and load the d2xl cIOS Installer from the Homebrew Channel.
 
 #### Section II - Copying Games Over
 
@@ -34,5 +34,5 @@ Make sure your USB drive is formatted as FAT32. Do not format it as other types 
 Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size.
 {: .notice--info}
 
-[Click aici pentru a reveni la indexul site-ului.](site-navigation)
+[Click here to view all of our tutorials that you can find on this website!](site-navigation)
 {: .notice--info}

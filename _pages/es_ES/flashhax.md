@@ -1,15 +1,15 @@
 ---
-title: "FlashHax"
+title: "RiiConnect24"
 ---
 
-{% include toc title="Índice" %}
+{% include toc title="Tabla de contenido" %}
 
-FlashHax is an exploit for the Wii that is triggered by using the Internet Channel. Unlike other exploits, this doesn't require an SD card.
+FlashHax es un exploit para la Wii original que se activa mediante el Canal Internet. A diferencia de otros exploits, este no requiere una tarjeta SD.
 
 ### Requisitos
 
-* Un Wii con una conexión Internet
-* El Canal Internet
+* Una Wii con conexión a internet
+* Canal Internet
 
 ### Instrucciones
 
@@ -20,7 +20,7 @@ FlashHax is an exploit for the Wii that is triggered by using the Internet Chann
 
     ![](/images/exploits/flashhax/internet-channel-start.png)
 
-1. Go to `flashhax.com`.
+1. Ingresa a flashhax.com en el navegador y agrega la página a favoritos.
 1. Select the correct region for your console.
 
     ![](/images/exploits/flashhax/select-region.png)
@@ -39,14 +39,14 @@ FlashHax is an exploit for the Wii that is triggered by using the Internet Chann
 
     ![](/images/exploits/flashhax/wait-for-download.png)
 
-1. Si el exploit ha tenido éxito, tu dispositivo habrá ejecutado el instalador de HackMii.
+1. Después de unos segundos, la consola debería de iniciar el HackMii Installer.
     + This may take multiple tries.
-    + If the HackMii Installer doesn't load and it instead freezes (you can't move your cursor), restart your Wii, launch the Internet Channel, then retry this section.
+    + Si HackMii Installer no carga y el sistema se congela (si no puedes mover el cursor), por favor reinicia tu consola y repite el paso 3 hasta que funcione. Esto puede tomar varios intentos, por favor ten paciencia.
 
-If you still can't get it to load, try deleting your cookies or save data for the Internet Channel.
+Si después de varios intentos no consigues ejecutar el exploit, intenta eliminar las cookies o los datos de guardado del Canal Internet.
 
 If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
 
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continuar a la instalación del Canal Homebrew y BootMii](hbc)
 {: .notice--info}

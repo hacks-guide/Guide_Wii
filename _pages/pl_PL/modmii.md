@@ -10,12 +10,12 @@ If you need help for anything regarding this tutorial, please join [the ModMii D
 This Program does NOT come with a warranty, so you are responsible for any potential damage done to your Wii.
 {: .notice--warning}
 
-This program is NOT intended to be used for the vWii or the Wii mini. Any usage on vWii or Wii mini is untested.
+This program is NOT intended to be used for the vWii or the Wii mini. Some tools may or may not work for these platforms.
 {: .notice--warning}
 
-ModMii is a PC program for Windows created by XFlak that has various helpful tools for modding, including some tutorials that may not be currently available on this website.<br> You can choose to launch in ModMii skin, which has a more user-friendly interface, or launch in ModMii Classic, which uses a command-line (Command Prompt/Terminal) interface.
+/images/Modmii/modmii.png
 
-Some advanced options may not be accessible in ModMii Skin. A list of the features available in ModMii Classic can be found at the bottom of the page.
+Some advanced options may not be accessible in ModMii Skin. A list of the various activities for ModMii Classic can be found at the bottom of the page.
 {: .notice--info}
 
 ### Requirements
@@ -25,11 +25,11 @@ Some advanced options may not be accessible in ModMii Skin. A list of the featur
 * A Windows PC (a Virtual Machine will work)
 * [ModMii](https://modmii.github.io/)
 
-This is a quick start guide on using ModMii on your Windows PC.
+This is a quick start guide on how to use ModMii on your Windows PC.
 
 ### ModMii Wizard
 
-You can use the ModMii wizard to softmod any Wii. <br> Even if the Wii has been softmodded in the past, you can have ModMii overwrite existing softmods by telling ModMii that this is the first time you're modding your Wii (even if it isn't).
+You can use the ModMii wizard to softmod any Wii. <br> Even if the Wii has been softmodded in the past, you can have ModMii overwrite existing softmods by telling ModMii that this is the first time you're modding your Wii (even though it's not).
 
 You can also use this wizard to set up a USB loader at the same time, instead of having to use the USB Loader setup wizard later on.
 
@@ -37,7 +37,7 @@ You can also use this wizard to set up a USB loader at the same time, instead of
 
 [SysCheck](syscheck) is a homebrew application that analyzes the modifications on a Wii. <br> You can give a SysCheck report to ModMii to help identify & update outdated mods.
 
-You can have ModMii analyze a SysCheck by dragging the `syscheck.csv` file onto ModMii.exe. Alternatively, you can launch the SysCheck Updater Wizard (`SU`) from ModMii's main menu and manually browse for the file.
+You can have ModMii analyze a SysCheck by dragging the `syscheck.csv` file onto ModMii.exe. Or, you can launch the SysCheck Updater Wizard (`SU`) from ModMii's main menu and manually browse for the file.
 
 ### HackMii Solutions Wizard
 
@@ -54,11 +54,11 @@ It will install clean IOSs to allow for the HackMii Installer to operate properl
 This wizard requires an SD card.
 {: .notice--warning}
 
-This wizard allows you to enjoy many of the benefits of a softmodded Wii without installing any permanent modifications to your Wii. It will allow you to launch an exploit to boot an from emulated NAND from external storage, rather than use your Wii's internal NAND.
+This wizard allows you to enjoy many of the benefits of a softmodded Wii without installing any permanent modifications to your Wii. It will allow you to launch an exploit to boot an from emulated NAND from external storage, instead of your Wii's internal NAND.
 
-You can also make a NAND backup without modifying your Wii at all by navigating to ModMii's "Support" folder and launching `Casper2BootMii.bat`. <br> It will save some files to a folder named `COPY_TO_SD`; copy the files inside it to your SD card and launch an exploit like [Wilbrand](wilbrand).
+On a related note, you can also make a NAND backup without modifying your Wii at all. Find ModMii's "Support" folder and launch `Casper2BootMii.bat`. <br> It will save some files to a folder named `COPY_TO_SD`, copy the files inside it to your SD card and [launch an exploit](get-started).
 
-When following one of the exploit guides above, avoid replacing the `boot.elf` file.
+When following one of the exploit guides above, please avoid replacing the `boot.elf` file.
 {: .notice--warning}
 
 
