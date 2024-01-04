@@ -20,7 +20,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ### Instrucțiuni
 
-#### Section I - Downloading
+#### What you need
 
 If your Wii has an Internet connection, you may skip this section.<br> However, If you encounter any errors like `net_init failed`, `net_gethostbyname failed:`, or any other issues during the downloading stage this will allow the Wii to skip the downloading step.
 {: .notice--warning}
@@ -28,10 +28,10 @@ If your Wii has an Internet connection, you may skip this section.<br> However, 
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
 
-1. Oprește consola.
+1. Download, extract, and run [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 1. Insert your SD card or USB drive into your computer.
 1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-1. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
+1. Repeat the step 2 & 3 for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
 1. Run `NUS Downloader.exe`.
 1. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
     + Ensure that "Pack WAD" is checked.
@@ -49,9 +49,9 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 #### Section II - Installing
 
 
-1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
-1. Pornește consola.
+1. Download the d2x cIOS installer and extract the zip to the root of your SD card or USB drive.
+1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel
+1. Press A to continue, then set the options to the following:
 1. Launch the Homebrew Channel.
 1. Launch d2x cIOS Installer from the list of homebrew.
 1. Set everything to match the following:
@@ -118,5 +118,5 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 
 1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
 
-Continue to [Open Shop Channel Installation](osc) <br> Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+The WAD files should be on your SD card like this:
 {: .notice--info}
