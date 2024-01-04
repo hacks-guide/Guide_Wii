@@ -2,7 +2,7 @@
 title: "Wii Backup Loaders"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
 This guide introduces Wii backup loaders. They can be primarily used to load game backups on an SD or USB that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
 
@@ -45,10 +45,10 @@ Below is a single WBFS example, and a split WBFS example.
        ┗ 📜gameid.wbf1
 ```
 
-### WiiFlow Lite
+### http://www.wiithemer.org/
 
 #### Requirements
-+ A modded Wii
++ There are other resources for Wii Menu themes, but they might be in csm form (ready to install on the Wii). If the csm doesn't match the version and region of your Wii Menu, try to convert it to mym with ThemeMii Mod, and then convert it back to csm with the instructions here using the version and region of your Wii Menu.
 + The latest version of [cIOS](cios)
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
@@ -94,7 +94,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 ### USB Loader GX
 
 #### Requirements
-+ A modded Wii
++ There are other resources for Wii Menu themes, but they might be in csm form (ready to install on the Wii). If the csm doesn't match the version and region of your Wii Menu, try to convert it to mym with ThemeMii Mod, and then convert it back to csm with the instructions here using the version and region of your Wii Menu.
 + The latest version of [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
@@ -161,7 +161,7 @@ To change the cIOS used for a specific game, follow the instructions specific to
     + Try using 248, 249, 250 or 251.
 1. Press OK and try to load the game.
 
-#### WiiFlow Lite
+#### http://www.wiithemer.org/
 1. Select the game that isn't working.
 1. Click the gear icon.
 1. Go to cIOS and use the arrows to select the IOS slot to use.
