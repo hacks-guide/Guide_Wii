@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Wii Backup Manager - Wii Hacks Guide</title>
+<!-- begin _includes/seo.html --><title>Managing GameCube Backups - Wii Hacks Guide</title>
 <meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
 
 
@@ -21,8 +21,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Wii Hacks Guide">
-<meta property="og:title" content="Wii Backup Manager">
-<meta property="og:url" content="https://wii.hacks.guide/wiibackupmanager.html">
+<meta property="og:title" content="Managing GameCube Backups">
+<meta property="og:url" content="https://wii.hacks.guide/gc-backups.html">
 
 
   <meta property="og:description" content="The complete guide to modding your Wii (and Wii mini)">
@@ -42,7 +42,7 @@
   
 
 
-<link rel="canonical" href="https://wii.hacks.guide/wiibackupmanager.html">
+<link rel="canonical" href="https://wii.hacks.guide/gc-backups.html">
 
 
 
@@ -200,8 +200,8 @@ window.cookieconsent.initialise({
           
           
           
-          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/wiibackupmanager.html">English</a></li>
-          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/wiibackupmanager.html">Italiano</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/gc-backups.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/gc-backups.html">Italiano</a></li>
         </ul>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle Menu</span>
@@ -327,7 +327,7 @@ window.cookieconsent.initialise({
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Wii Backup Manager">
+    <meta itemprop="headline" content="Managing GameCube Backups">
     
     
     
@@ -335,7 +335,7 @@ window.cookieconsent.initialise({
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Wii Backup Manager
+          <h1 id="page-title" class="page__title" itemprop="headline">Managing GameCube Backups
 </h1>
           
 
@@ -370,74 +370,59 @@ window.cookieconsent.initialise({
       <li><a href="#section-ii---copying-games-over" id="markdown-toc-section-ii---copying-games-over">Section II - Copying Games Over</a></li>
     </ul>
   </li>
-  <li><a href="#options-once-complete" id="markdown-toc-options-once-complete">Options once complete</a></li>
 </ul>
 
   </nav>
 </aside>
 
-<p>Wii Backup Manager is a program to copy Wii games from your computer to a USB drive so you can play the games on your Wii. It also can download game covers from <a href="https://gametdb.com/">GameTDB</a> and can be used to list what games you have. This tutorial will tell you how to copy over games from your computer to your USB drive. The other features are able to be used in the easy-to-use interface.</p>
+<p>This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to <a href="wii-backups#using-wii-backup-manager">Wii Backup Manager</a>.</p>
 
 <h3 id="requirements">Requirements</h3>
 
 <ul>
-  <li>A PC running Windows</li>
-  <li>A USB drive or SD card</li>
-  <li><a href="https://static.wiidatabase.de/Wii-Backup-Manager.zip">Wii Backup Manager</a></li>
+  <li>An SD card or USB drive</li>
+  <li><a href="https://github.com/AxionDrak/GameCube-Backup-Manager/releases">GameCube Backup Manager</a></li>
 </ul>
 
-<p class="notice--info">It is recommended you copy games over with <a href="https://desairem.com/wordpress/category/witgui-download/">Witgui</a> if you use macOS, or <a href="https://github.com/larsenv/Wii-Backup-Fusion">Wii Backup Fusion</a> for Windows, macOS, and Linux. Wii Backup Manager is only compatible with Windows.</p>
+<p class="notice--info">To play multiple games, it is recommended to use an external hard drive for your Wii. Any external hard drive found on most modern marketplaces should work with your Wii.</p>
 
-<p class="notice--info">For storing multiple games, we recommend an external hard drive for your Wii. We will refer to it as a “USB drive” in this guide. Most of those found on the market should work fine.</p>
-
-<p class="notice--info">A flash drive is not recommended, as they are small and may vary in behavior even between the same product. <br />
-As an alternative, you may simply use an SD card, but the Wii’s SD card slot is slow.</p>
-
-<p class="notice--info">Make sure your USB drive is formatted as FAT32. Do not format it as other types such as exFAT, extFS. <br />
-You may format it as NTFS, but it won’t work with a majority of apps (eg. The Homebrew Channel, Nintendont)</p>
+<p class="notice--info">Make sure your USB drive is formatted as FAT32. Do not format it as other types such as NTFS, exFAT, extFS, or WBFS, the latter being an outdated filesystem for storing Wii games.</p>
 
 <h3 id="instructions">Instructions</h3>
 
 <h4 id="section-i---downloading">Section I - Downloading</h4>
 
 <ol>
-  <li>Extract Wii Backup Manager, and launch the program.</li>
-  <li>Insert your USB drive or SD card into your computer.</li>
+  <li>Extract GameCube Backup Manager, and launch the program.</li>
+  <li>Insert your USB drive into your computer.</li>
 </ol>
 
 <h4 id="section-ii---copying-games-over">Section II - Copying Games Over</h4>
 
 <ol>
   <li>
-    <p>Go to the <code class="language-plaintext highlighter-rouge">Drive 1</code> tab, then select the drive that you’re putting the Wii games on.</p>
+    <p>Open the application and locate the folder button in the bottom right corner. Click on it to open the file explorer window.</p>
 
-    <p><img src="/images/desktop-apps/WBM/select_drive.png" alt="" /></p>
-  </li>
-  <li>Go to the <code class="language-plaintext highlighter-rouge">Files</code> tab, then select <code class="language-plaintext highlighter-rouge">Add</code>.
-    <ul>
-      <li>Select <code class="language-plaintext highlighter-rouge">Files</code> to add multiple games to the program, or select <code class="language-plaintext highlighter-rouge">Folder</code> to add a whole folder of games.</li>
-    </ul>
-
-    <p><img src="/images/desktop-apps/WBM/select_games.png" alt="" /></p>
+    <p><img src="/images/desktop-apps/GCBM/folderbutton.png" alt="" /></p>
   </li>
   <li>
-    <p>Go to <code class="language-plaintext highlighter-rouge">Select</code>, then click <code class="language-plaintext highlighter-rouge">Games not on drive 1</code>.</p>
+    <p>Navigate to the location of the folder that contains the game file you want to transfer. This could be on your computer’s hard drive or an external storage device. Once you find the folder, select it.</p>
 
-    <p><img src="/images/desktop-apps/WBM/select_games2.png" alt="" /></p>
+    <p><img src="/images/desktop-apps/GCBM/selectfolder.png" alt="" /></p>
   </li>
   <li>
-    <p>Select <code class="language-plaintext highlighter-rouge">Transfer</code>, then select <code class="language-plaintext highlighter-rouge">Drive 1</code> to transfer the games over. It might take a while for the games to copy over.</p>
+    <p>Click on the <code class="language-plaintext highlighter-rouge">Files (Destination)</code> tab, then select the <code class="language-plaintext highlighter-rouge">Inactive</code> option from the dropdown menu. This will allow you to choose the drive where you want to transfer the game. Select the appropriate drive letter from the list.</p>
 
-    <p><img src="/images/desktop-apps/WBM/transfer_todrive.png" alt="" /></p>
+    <p><img src="/images/desktop-apps/GCBM/selectdrive.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Next, go back to the <code class="language-plaintext highlighter-rouge">Files (Source)</code> tab, select the game you want to transfer, and then click either <code class="language-plaintext highlighter-rouge">Install Game (1:1)</code> or <code class="language-plaintext highlighter-rouge">Install Game (Scrub)</code>.</p>
+
+    <p><img src="/images/desktop-apps/GCBM/installgame.png" alt="" /></p>
   </li>
 </ol>
 
-<h3 id="options-once-complete">Options once complete</h3>
-
-<p class="notice--info"><a href="cios">Continue to cIOS</a><br />
-cIOS is needed for your Wii to use a USB Loader.</p>
-
-<p class="notice--info">You can now use <a href="wii-loaders">USB Loader GX or WiiFlow</a> to play games from your USB drive or SD card.</p>
+<p class="notice--info">Selecting <code class="language-plaintext highlighter-rouge">Install Game (Scrub)</code> will remove unnecessary data from the game, reducing the game’s file size. For some games this can be a major reduction, for example with Animal Crossing - going from 1.3GB to around 26MB.</p>
 
 <p class="notice--info"><a href="site-navigation">Click here to go back to the site index.</a></p>
 

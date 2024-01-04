@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>GameCube Backup Manager - Wii Hacks Guide</title>
+<!-- begin _includes/seo.html --><title>Managing Wii Backups - Wii Hacks Guide</title>
 <meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
 
 
@@ -21,8 +21,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Wii Hacks Guide">
-<meta property="og:title" content="GameCube Backup Manager">
-<meta property="og:url" content="https://wii.hacks.guide/gcbackupmanager.html">
+<meta property="og:title" content="Managing Wii Backups">
+<meta property="og:url" content="https://wii.hacks.guide/wii-backups.html">
 
 
   <meta property="og:description" content="The complete guide to modding your Wii (and Wii mini)">
@@ -42,7 +42,7 @@
   
 
 
-<link rel="canonical" href="https://wii.hacks.guide/gcbackupmanager.html">
+<link rel="canonical" href="https://wii.hacks.guide/wii-backups.html">
 
 
 
@@ -200,8 +200,8 @@ window.cookieconsent.initialise({
           
           
           
-          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/gcbackupmanager.html">English</a></li>
-          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/gcbackupmanager.html">Italiano</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/wii-backups.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/wii-backups.html">Italiano</a></li>
         </ul>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle Menu</span>
@@ -327,7 +327,7 @@ window.cookieconsent.initialise({
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="GameCube Backup Manager">
+    <meta itemprop="headline" content="Managing Wii Backups">
     
     
     
@@ -335,7 +335,7 @@ window.cookieconsent.initialise({
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">GameCube Backup Manager
+          <h1 id="page-title" class="page__title" itemprop="headline">Managing Wii Backups
 </h1>
           
 
@@ -364,10 +364,21 @@ window.cookieconsent.initialise({
 <nav class="toc">
     <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
 <ul class="toc__menu" id="markdown-toc">
-  <li><a href="#requirements" id="markdown-toc-requirements">Requirements</a></li>
-  <li><a href="#instructions" id="markdown-toc-instructions">Instructions</a>    <ul>
-      <li><a href="#section-i---downloading" id="markdown-toc-section-i---downloading">Section I - Downloading</a></li>
-      <li><a href="#section-ii---copying-games-over" id="markdown-toc-section-ii---copying-games-over">Section II - Copying Games Over</a></li>
+  <li><a href="#joining-part-files-on-a-fat32-device" id="markdown-toc-joining-part-files-on-a-fat32-device">Joining PART files on a FAT32 device</a>    <ul>
+      <li><a href="#windows" id="markdown-toc-windows">Windows</a></li>
+      <li><a href="#macoslinux" id="markdown-toc-macoslinux">macOS/Linux</a></li>
+    </ul>
+  </li>
+  <li><a href="#using-wii-backup-manager" id="markdown-toc-using-wii-backup-manager">Using Wii Backup Manager</a>    <ul>
+      <li><a href="#requirements" id="markdown-toc-requirements">Requirements</a></li>
+      <li><a href="#section-i---installation" id="markdown-toc-section-i---installation">Section I - Installation</a></li>
+      <li><a href="#section-ii---copying-games" id="markdown-toc-section-ii---copying-games">Section II - Copying Games</a></li>
+    </ul>
+  </li>
+  <li><a href="#using-wii-backup-fusion" id="markdown-toc-using-wii-backup-fusion">Using Wii Backup Fusion</a>    <ul>
+      <li><a href="#requirements-1" id="markdown-toc-requirements-1">Requirements</a></li>
+      <li><a href="#section-i---installation-1" id="markdown-toc-section-i---installation-1">Section I - Installation</a></li>
+      <li><a href="#section-ii---copying-games-1" id="markdown-toc-section-ii---copying-games-1">Section II - Copying Games</a></li>
     </ul>
   </li>
 </ul>
@@ -375,38 +386,170 @@ window.cookieconsent.initialise({
   </nav>
 </aside>
 
-<p>GameCube Backup Manager is a convenient PC software that simplifies the process of transferring GameCube games to your USB drive or SD Card. It functions similar to the popular tool called <a href="wiibackupmanager">Wii Backup Manager</a>, allowing you to easily manage and organize your GameCube game backups. With this program, you can effortlessly copy your favorite GameCube games onto portable storage devices, making them readily accessible for future gaming sessions.</p>
+<p>This guide provides instructions on how to manage your Wii backups, from joining .PART files that are output through CleanRip, to shrinking game files that can be copied onto a FAT32 device. Two programs that can be used to manage your Wii backups are Wii Backup Manager (for Windows) and Wii Backup Fusion (for Linux and MacOS) and are covered below.</p>
 
-<h3 id="requirements">Requirements</h3>
+<p class="notice--info">For storing multiple games, we recommend an external hard drive for your Wii. Most of those found on the market should work fine.</p>
+
+<p class="notice--info">A flash drive is not recommended, as they are small and may vary in behavior even between the same product. <br />
+As an alternative, you may simply use an SD card, however the Wii’s SD card slot will be slow.</p>
+
+<p class="notice--info">Make sure your USB drive is formatted as FAT32. Do not format it as other types such as exFAT, extFS. <br />
+You may format it as NTFS, but it won’t work with a majority of apps (eg. The Homebrew Channel, Nintendont)</p>
+
+<h3 id="joining-part-files-on-a-fat32-device">Joining PART files on a FAT32 device</h3>
+
+<p class="notice--info">If your disc was dumped to a FAT32 device, you should have gotten at least two files that end with <code class="language-plaintext highlighter-rouge">.partX.iso</code>, due to filesystem limitations. They need to be joined (on a supported filesystem like NTFS) so the file can be read correctly.</p>
+
+<h4 id="windows">Windows</h4>
+
+<ol>
+  <li>
+    <p>Copy the files that share the same name and end with <code class="language-plaintext highlighter-rouge">.partX.iso</code> into an empty folder on your computer.</p>
+
+    <p><img src="/images/desktop-apps/WBM/dumpedpartfiles.png" alt="" /></p>
+  </li>
+  <li>
+    <p>In this folder, click the address bar in Windows Explorer and type in <code class="language-plaintext highlighter-rouge">cmd</code>, this will open a command prompt window there.</p>
+
+    <p><img src="/images/desktop-apps/WBM/opencmd.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Type <code class="language-plaintext highlighter-rouge">copy /b *.part?.iso game.iso</code> and press enter. Wait for the command to finish, your terminal output should be similar to the below.</p>
+
+    <p><img src="/images/desktop-apps/WBM/joinpartfiles.png" alt="" /></p>
+  </li>
+  <li>
+    <p>If the copy process executed correctly, the checksum from the game dump info file (located where you dumped your disc at) should match the resulting joined file.</p>
+
+    <p><img src="/images/desktop-apps/WBM/filemd5.png" alt="" /></p>
+  </li>
+</ol>
+
+<h4 id="macoslinux">macOS/Linux</h4>
+
+<ol>
+  <li>
+    <p>Copy the files that share the same name and end with <code class="language-plaintext highlighter-rouge">.partX.iso</code> into an empty folder on your computer.</p>
+
+    <p><img src="/images/desktop-apps/WBM/dumpedpartfileslinux.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Open a terminal in the directory where your files are at, or <code class="language-plaintext highlighter-rouge">cd [PATH]</code> to it.</p>
+
+    <p><img src="/images/desktop-apps/WBM/openterminallinux.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Use the following command as is: <code class="language-plaintext highlighter-rouge">cat `ls *.part?.iso | sort` &gt; game.iso</code>. Then, wait for the merging process to finish. Like in Windows, the resulting checksum should match the dump.</p>
+
+    <p><img src="/images/desktop-apps/WBM/mergesuccesslinux.png" alt="" /></p>
+  </li>
+</ol>
+
+<h3 id="using-wii-backup-manager">Using Wii Backup Manager</h3>
+
+<h4 id="requirements">Requirements</h4>
 
 <ul>
-  <li>An SD card or USB drive</li>
-  <li><a href="https://github.com/AxionDrak/GameCube-Backup-Manager/releases">GameCube Backup Manager</a></li>
+  <li>A PC running Windows</li>
+  <li>A USB drive or SD card</li>
+  <li>A dumped ISO from a Wii game disc</li>
+  <li><a href="https://static.wiidatabase.de/Wii-Backup-Manager.zip">Wii Backup Manager</a></li>
 </ul>
 
-<p class="notice--info">To play multiple games, it is recommended to use an external hard drive for your Wii. Any external hard drive found on most modern marketplaces should work with your Wii.</p>
-
-<p class="notice--info">Make sure your USB drive is formatted as FAT32. Do not format it as other types such as NTFS, exFAT, extFS, or WBFS, the latter being an outdated filesystem for storing Wii games.</p>
-
-<h3 id="instructions">Instructions</h3>
-
-<h4 id="section-i---downloading">Section I - Downloading</h4>
+<h4 id="section-i---installation">Section I - Installation</h4>
 
 <ol>
-  <li>Extract GameCube Backup Manager, and launch the program.</li>
-  <li>Insert your USB drive into your computer.</li>
+  <li>Extract Wii Backup Manager, and launch the program.</li>
+  <li>Insert your USB drive or SD card into your computer.</li>
 </ol>
 
-<h4 id="section-ii---copying-games-over">Section II - Copying Games Over</h4>
+<h4 id="section-ii---copying-games">Section II - Copying Games</h4>
 
 <ol>
-  <li>Open the application and locate the folder button in the bottom right corner. Click on it to open the file explorer window.</li>
-  <li>Navigate to the location of the game file you want to transfer. This could be on your computer’s hard drive or an external storage device. Once you find the file, select it by clicking on it.</li>
-  <li>Click on the <code class="language-plaintext highlighter-rouge">Files (Destination)</code> tab, then select the <code class="language-plaintext highlighter-rouge">Inactive</code> option from the dropdown menu. This will allow you to choose the drive where you want to transfer the game. Select the appropriate drive letter from the list.</li>
-  <li>Next, go back to the <code class="language-plaintext highlighter-rouge">Files (Source)</code> tab, select the game you want to transfer, and then click either <code class="language-plaintext highlighter-rouge">Install Game (1:1)</code> or <code class="language-plaintext highlighter-rouge">Install Game (Scrub)</code>.</li>
+  <li>
+    <p>Go to the <code class="language-plaintext highlighter-rouge">Drive 1</code> tab, then select the drive that will hold your backed up Wii games.</p>
+
+    <p><img src="/images/desktop-apps/WBM/select_drive.png" alt="" /></p>
+  </li>
+  <li>Go to the <code class="language-plaintext highlighter-rouge">Files</code> tab, then select <code class="language-plaintext highlighter-rouge">Add</code>.
+    <ul>
+      <li>Select <code class="language-plaintext highlighter-rouge">Files</code> to add multiple games to the program, or select <code class="language-plaintext highlighter-rouge">Folder</code> to add a whole folder of games.</li>
+    </ul>
+
+    <p><img src="/images/desktop-apps/WBM/select_games.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Go to <code class="language-plaintext highlighter-rouge">Select</code>, then click <code class="language-plaintext highlighter-rouge">Games not on drive 1</code>.</p>
+
+    <p><img src="/images/desktop-apps/WBM/select_games2.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select <code class="language-plaintext highlighter-rouge">Transfer</code>, then select <code class="language-plaintext highlighter-rouge">Drive 1</code> to transfer the games over. The progress will be displayed on the right side of the window.</p>
+
+    <p><img src="/images/desktop-apps/WBM/transfer_todrive.png" alt="" /></p>
+  </li>
 </ol>
 
-<p class="notice--info">Selecting <code class="language-plaintext highlighter-rouge">Install Game (Scrub)</code> will remove unnecessary data from the game, reducing the game’s file size.</p>
+<h3 id="using-wii-backup-fusion">Using Wii Backup Fusion</h3>
+
+<h4 id="requirements-1">Requirements</h4>
+
+<ul>
+  <li>A PC running MacOS or Linux</li>
+  <li>A USB drive or SD card</li>
+  <li>A dumped ISO from a Wii game disc</li>
+  <li><a href="https://github.com/larsenv/Wii-Backup-Fusion">Wii Backup Fusion</a></li>
+  <li><a href="https://wit.wiimm.de/download.html">Wiimm’s ISO Tools</a></li>
+</ul>
+
+<h4 id="section-i---installation-1">Section I - Installation</h4>
+
+<ol>
+  <li>
+    <p>Download Wiimm’s ISO tools for your OS and extract the .tar.gz into a folder that you can access with the terminal. The extracted folder should have these files inside:</p>
+
+    <p><img src="/images/desktop-apps/WBM/witinstallfolder.png" alt="" /></p>
+  </li>
+  <li>Open a terminal in the folder that you just extracted, and run <code class="language-plaintext highlighter-rouge">sudo ./install.sh</code>.</li>
+  <li>Download Wii Backup Fusion for your OS and install. If on Linux, you will need to make the appimage executable by running <code class="language-plaintext highlighter-rouge">chmod +x [FILE]</code>.</li>
+</ol>
+
+<h4 id="section-ii---copying-games-1">Section II - Copying Games</h4>
+
+<ol>
+  <li>
+    <p>Open Wii Backup Fusion and press <code class="language-plaintext highlighter-rouge">Load</code>.</p>
+
+    <p><img src="/images/desktop-apps/WBM/loadwbf.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select the directory where your game ISO is at.</p>
+
+    <p><img src="/images/desktop-apps/WBM/opendirectorywbf.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Right click on the game that you want to transfer to a drive, and press <code class="language-plaintext highlighter-rouge">Transfer to image</code>. Use the following settings:</p>
+
+    <p><img src="/images/desktop-apps/WBM/settingswbf.png" alt="" /></p>
+  </li>
+  <li>
+    <p>If there is not already a <code class="language-plaintext highlighter-rouge">wbfs</code> directory on your game drive, make one.</p>
+  </li>
+  <li>
+    <p>Make another directory inside of the <code class="language-plaintext highlighter-rouge">wbfs</code> folder for the game backup. Take note of the Game ID in Wii Backup Fusion as you will need this for the game folder.</p>
+  </li>
+  <li>
+    <p>Make a game folder for your game, formatted as <code class="language-plaintext highlighter-rouge">game name [GAMEID]</code>. For the game dumped as an example in this guide, it would be named <code class="language-plaintext highlighter-rouge">New Super Mario Bros. Wii [SMNE01]</code>.</p>
+
+    <p><img src="/images/desktop-apps/WBM/wbfsname.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Copy the game.wbfs file that was made in Step 3 to this new folder. The drive should be ready to use on a Wii.</p>
+  </li>
+</ol>
+
+<p class="notice--info"><a href="cios">Continue to cIOS</a><br />
+cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use <a href="wii-loaders">USB Loader GX or WiiFlow</a> to play games from your USB drive or SD card.</p>
 
 <p class="notice--info"><a href="site-navigation">Click here to go back to the site index.</a></p>
 

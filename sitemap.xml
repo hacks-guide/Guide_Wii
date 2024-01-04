@@ -67,7 +67,7 @@
 <loc>https://wii.hacks.guide/it_IT/flashhax.html</loc>
 </url>
 <url>
-<loc>https://wii.hacks.guide/gcbackupmanager.html</loc>
+<loc>https://wii.hacks.guide/gc-backups.html</loc>
 </url>
 <url>
 <loc>https://wii.hacks.guide/it_IT/gcbackupmanager.html</loc>
@@ -220,6 +220,9 @@
 <loc>https://wii.hacks.guide/it_IT/usb-loaders.html</loc>
 </url>
 <url>
+<loc>https://wii.hacks.guide/wii-backups.html</loc>
+</url>
+<url>
 <loc>https://wii.hacks.guide/wii-factory-reset.html</loc>
 </url>
 <url>
@@ -227,9 +230,6 @@
 </url>
 <url>
 <loc>https://wii.hacks.guide/it_IT/wii-loaders.html</loc>
-</url>
-<url>
-<loc>https://wii.hacks.guide/wiibackupmanager.html</loc>
 </url>
 <url>
 <loc>https://wii.hacks.guide/it_IT/wiibackupmanager.html</loc>
