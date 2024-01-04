@@ -94,7 +94,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 ### USB Loader GX
 
 #### 必要なもの
-+ A modded Wii
++ A Wii
 + The latest version of [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
@@ -161,7 +161,7 @@ To change the cIOS used for a specific game, follow the instructions specific to
     + Try using 248, 249, 250 or 251.
 1. Press OK and try to load the game.
 
-#### WiiFlow Lite
+#### http://www.wiithemer.org/
 1. Select the game that isn't working.
 1. Click the gear icon.
 1. Go to cIOS and use the arrows to select the IOS slot to use.
