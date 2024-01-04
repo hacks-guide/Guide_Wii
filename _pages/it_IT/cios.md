@@ -22,7 +22,7 @@ Assicurati che, se stai usando la scheda SD, l'interruttore della proteziona scr
 
 #### Sezione I - Download
 
-If your Wii has an Internet connection, you may skip this section.<br> However, If you encounter any errors like `net_init failed`, `net_gethostbyname failed:`, or any other issues during the downloading stage this will allow the Wii to skip the downloading step.
+Se il tuo Wii ha una connessione a internet, puoi saltare questa sezione. <br> Tuttavia, se incontri errori come `net_init failed`, `net_gethostbyname failed:`, o altri problemi durante la fase di download, questo permetterà al tuo Wii di saltare alla fase successiva.
 {: .notice--warning}
 
 Se non sei su Windows, puoi scaricare & eseguire [questo script](/assets/files/d2x_offline_ios.sh), e scaricherà i file WAD per te.
