@@ -14,29 +14,28 @@ sitemap: false
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**Services en ligne Wii**
+**WiiLink**
 + [Connexion Wi-Fi Nintendo](wiimmfi)
 + [Setting RTC Time](wiiconnect24#updating-rtc-clock)
-+ [WiiConnect24](wiiconnect24)
-{% endcapture %}
++ RiiConnect24, WiiLink, and Wiimmfi
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-3 %}
-**Modding - Exploits**
+**Modding 101**
 + [BlueBomb](bluebomb)
 + [FlashHax](flashhax)
 + [Legacy Exploits](legacy-exploits)
 + [LetterBomb](letterbomb)
-+ [str2hax](str2hax)
-+ [Wilbrand](wilbrand)
++ [str2hax](Wiimmfi)
++ [Wiimmfi](wiimmfi)
 {% endcapture %}
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-4 %}
-**Modding 101 - Wii Essentials**
+**Playing Wii Game Mods**
 + [Sauvegarde avec Bootmii](bootmii)
-+ [Récupération avec BootMii](bootmiirecover)
-+ [Brick Overview](bricks)
++ [BootMii Recovery (RestoreMii)](bootmiirecover)
++ [Types of Bricks](bricks)
 + [Brick Prevention](bricks#brick-prevention)
 + [cIOS](cios)
 + [Chaîne Homebrew](hbc)
@@ -45,9 +44,8 @@ sitemap: false
 + [Priiloader](priiloader)
 + [Relancer l'installateur HackMii](hackmii)
 + [Mise à jour du menu Wii vers la v4.3](update)
-+ [Dump NAND Wii mini](wnd-mini)
-+ [YAWM ModMii Edition](yawmme)
-{% endcapture %}
++ [Wii Mod Lite](wnd-mini)
++ YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 
 {% capture notice-5 %}
@@ -56,20 +54,18 @@ sitemap: false
 + [GameCube Backup Manager](gcbackupmanager)
 + [How to dump Channels (WADs)](dump-wads)
 + [How to dump GameCube/Wii Games](dump-games)
-+ [RSSMii](rssmii)
++ [Installing RSSMii](rssmii)
 + [Gestion des fichiers de sauvegarde de la GameCube](gcsaves)
 + [Priiloader Usage](priiloader-usage)
 + [Homebrew recommandés](recommended-homebrew)
-+ [Lanceurs USB](wii-loaders)
-+ [Utiliser SysCheck](syscheck)
++ [USB Loader GX](wii-loaders)
++ [Performing a SysCheck](syscheck)
 + [Wii Backup Manager](wiibackupmanager)
-+ [Guide des thèmes Wii](themes)
-{% endcapture %}
++ Installing Wii Menu Themes on vWii
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
 **Wii Mini**
 + [Installation de la Chaîne Homebrew sur la Wii mini](hbc-mini)
-+ [Installation des cIOS sur la Wii mini](cios-mini)
-{% endcapture %}
++ Installing cIOS on the Wii mini
 <div class="notice--primary">{{ notice-6 | markdownify }}</div>
