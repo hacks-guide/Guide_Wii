@@ -1,10 +1,10 @@
 ---
-title: "BootMii Backup"
+title: "進行 BootMii 備份"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
-BootMii allows for backing up and restoring your Wii's NAND storage. This page will guide you in backing up your Wii's NAND to an SD Card, which you can then use however you like.
+您需要一張 **SD 卡** 才能使用 BootMii 建立 NAND 備份。 如果您沒有任何可用的 SD 卡，您可以跳過此頁面，但強烈建議您盡快進行 NAND 備份。
 
 Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. Regardless, it is still recommended to make one on these consoles.
 {: .notice--danger}
@@ -12,27 +12,27 @@ Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. T
 You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
 {: .notice--warning}
 
-Navigating BootMii is not possible using a Wii Remote. You must use the POWER and RESET buttons on your console, or a GameCube controller plugged into port 1. To navigate between options, press POWER on your Wii (or left/right on the +Control Pad on a GameCube controller). To select an option, press RESET on your Wii or A on your GameCube controller. You will NEED to use a GameCube controller to restore a NAND backup in the future if BootMii is installed as IOS.
+您將無法使用 Wii 控制器來控制 BootMii。 您必須使用主機上的 POWER 和 RESET 按鈕，或者將 GameCube 控制器插入端口 1 來控制 BootMii。 要在選項之間移動，請按 Wii 的 POWER 按鈕 (或 GameCube 控制器的左右十字鍵)。 要選擇選項，請按 Wii 的 RESET 按鈕 (或 GameCube 控制器的 A 鍵)。 BootMii 最重要的功能之一是能夠備份和恢復 Wii 的 NAND 儲存空間。 我們將討論如何執行 NAND 備份。 後續您將可以透過它進行系統還原。
 {: .notice--info}
 
-If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+如果 `Launch BootMii` 按鈕沒有出現的話，請 [重新啟動 HackMii Installer](hackmii) 並安裝 BootMii。
 {: .notice--warning}
 
-If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+如果螢幕保持黑屏且光碟機的指示燈閃爍，那代表您的 SD 卡中缺少 BootMii 所需的檔案。 下載[此壓縮檔](https://static.hackmii.com/bootmii_sd_files.zip)並將其解壓縮到 SD 卡的根目錄，然後重試。
 {: .notice--warning}
 
-### Requirements
+### 前置需求
 
-* An SD card with a minimum 512MB of free space (1GB or more recommended)
+* 至少有 512MB 可用空間的 SD 卡
 
 ### Instructions
 
-If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+如果您的 BootMii 安裝於 boot2 當中，則需要通過重新啟動主機來啟動 BootMii。 如果是這種情況，請跳過步驟1和2。
 {: .notice--info}
 
 1. Power on your console.
-1. Launch the Homebrew Channel.
-1. Press the HOME Button, then select "Launch BootMii".
+1. 啟動 Homebrew Channel。
+1. 按下Home按鈕，選擇『Launch BootMii』。
 
     ![](/images/bootmii/BootMii_HBC.png)
 
@@ -48,31 +48,31 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
 
     ![](/images/bootmii/BootMii_Backup.png)
 
-1. A NAND backup will start. You can watch the progress on the screen.
+1. NAND 備份將開始。 您將在螢幕上看到進度。
     + "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup.
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
-1. After the previous step completes, BootMii will verify the backup. Ideally, all the blocks should be green after the verification process.
+1. 在此步驟之後，BootMii 將驗證此備份。 Ideally, all the blocks should be green after the verification process.
     + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
-1. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
+1. 若要退出 BootMii，請按返回按鈕（帶箭頭的那個），然後您可以按 Wii 選單按鈕或 Homebrew 頻道按鈕退出您想要的地方。
 
     ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-Note: **restoring a NAND backup is usually a last resort**. There often better ways to unbrick your console.
-Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover) (Original Wii only).
+請注意，<strong>還原 NAND 備份通常是不得已的最後手段</strong>，通常有更好的方法來修復您的磚機。 There often better ways to unbrick your console.
+盡可能的[確定您的變磚的問題所在](bricks)，並試著還原您先前的操作。
+要從 SD 卡上的 NAND 備份還原，您可以使用 [RestoreMii](bootmiirecover) 進行操作。
 </div>
 
-As stated earlier, if you have BootMii installed as boot2, it will launch every time you start your console. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
+建議使用 BootMii 作為 boot2，但只能安裝在早期的 Wii 主機中。 If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
 {: .notice--info}
 
-Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is your Wii's internal memory, while `keys.bin` are your console's keys.
+為確保您不會不小心遺失這些檔案，建議您將 `nand.bin` 和 `keys.bin` 從 SD 卡的根目錄複製到您的電腦中。 `nand.bin` is your Wii's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
-[Continue to Priiloader Installation](priiloader)<br> Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.
+[繼續至安裝 Priiloader](priiloader)<br> Priiloader 提供防磚保護，強烈建議安裝，尤其是當您只能將 BootMii 安裝為 IOS 時。 It is especially important for users of BootMii on IOS.
 {: .notice--info}
