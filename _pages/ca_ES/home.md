@@ -1,12 +1,12 @@
 ---
 layout: splash
-title: "Wii Hacks Guide"
+title: "Wii Guide"
 header:
   overlay_color: "#121212"
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Wii (and Wii mini)."
+excerpt: "The complete guide to modding your Nintendo Wii."
 ---
 
 Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
@@ -19,7 +19,7 @@ To get the most out of this guide, you should read this page before proceeding.
 
 **Homebrew** refers to software that was not authorized by the original creator of a piece of hardware - in this case, Nintendo. In order to gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
 
-Here are some common examples of what homebrew can do for your Wii:
+Get started by [choosing your exploit](get-started)!
 
 + [Backup](bootmii) and [restore](bootmiirecover) your Wii's NAND (system memory)
 + Enhance the [brick protection](priiloader) of your Wii
