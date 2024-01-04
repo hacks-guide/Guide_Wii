@@ -12,6 +12,9 @@ excerpt: "The complete guide to modding your Wii (and Wii mini)."
 Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
 {: .notice--info}
 
+The wii.guide URL now redirects here. The wii.guide site was hosted by RiiConnect24, which is now being merged with WiiLink and will no longer maintain its own guide. For more information, see WiiLink's [blog post](https://www.wiilink24.com/news/2023-12-29-issue-19).
+{: .notice--info}
+
 To get the most out of this guide, you should read this page before proceeding.
 {: .notice--warning}
 
