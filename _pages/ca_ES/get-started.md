@@ -1,13 +1,13 @@
 ---
-title: "Get Started"
+title: "Start Here"
 ---
 
 {% include toc title="Table of Contents" %}
 
-It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and install many types of homebrew.
+If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
 {: .notice--info}
 
-All of the exploits listed here are different methods of achieving the same end-result (getting to the HackMii installer).
+Even if your Wii has already been softmodded in the past, following these steps can still ensure that your softmod is up to date.
 {: .notice--info}
 
 These steps will help you softmod your Wii, from stock to BootMii. Before starting this guide, please ensure that your console is on the latest version of the Wii firmware (4.3). If your Wii is already softmodded but is on an older version, follow [this](update) guide to upgrade your setup.
