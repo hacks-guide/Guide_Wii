@@ -4,63 +4,63 @@ title: "cIOS"
 
 {% include toc title="Table of Contents" %}
 
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. 你现在可以使用一些自制软件，例如 [USB Loader GX](usbloadergx) 和 [WiiFlow](wiiflow)。 You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
-If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting to install other cIOS on a Wii mini will not work.
+如果您有 Wii mini，请安装[这个 cIOS](cios-mini)。 尝试在 Wii mini 上安装其它任何 cIOS 都不会工作。
 {: .notice--warning}
 
 ### Requirements
 
-* A Wii
-* An SD card or USB drive
+* 一台 Wii
+* 一张 SD 卡或 U 盘
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
+如果您使用的是 SD 卡，确保锁定开关位于解锁，否则您将无法在安装程序中选择正确的选项。
 {: .notice--warning}
 
 ### Instructions
 
 #### Section I - Downloading
 
-If your Wii has an Internet connection, you may skip this section.<br> However, If you encounter any errors like `net_init failed`, `net_gethostbyname failed:`, or any other issues during the downloading stage this will allow the Wii to skip the downloading step.
+如果您的 Wii 已连接到互联网，您可以跳过此部分。
 {: .notice--warning}
 
-If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
+如果您不使用 Windows，您可以下载 & 运行[这个脚本](/assets/files/d2x_offline_ios.sh)，它会为您下载 WAD 文件。
 {: .notice--info}
 
 1. Power off your console.
 1. Insert your SD card or USB drive into your computer.
-1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
+1. 下载、解压并运行 [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)。
 1. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
-1. Run `NUS Downloader.exe`.
-1. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
-    + Ensure that "Pack WAD" is checked.
-    + *Don't* check "Patch IOS". That is the cIOS Installer's job.
-1. Click `Start NUS Download!`.
-1. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
-1. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
-1. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
-1. Place each WAD file on the root of your SD card or USB drive.
-    + This must be the same device containing the d2x cIOS Installer.
+1. 选择 `Game Load`。
+1. 选择 "Database"，"IOS"，然后选择 "IOS38"，最后选择 "v4123"。
+    + 确保勾选了 "Pack WAD" 选项。
+    + *不要*勾选 "Patch IOS"。 那是 cIOS Installer 的工作。
+1. 点击 `Start NUS Download!`。
+1. 为 `IOS56 v5661`、`IOS57 v5918` 和 `IOS58 v6175` 重复步骤 2 & 3。
+1. 一旦您下载了所有四个 IOS，将会在与 NUS Downloader 相同的文件夹中出现名为 `titles` 的文件夹。
+1. <br/> 打开文件夹并浏览它们，直到找到您下载的四个 WAD 文件。
+1. 将每个 WAD 文件放在 SD 卡或 U 盘的根目录。
+    + 必须与包含 d2x cIOS Installer 的设备相同。
 
-The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_ios.png)
+应该以这种方式将 WAD 文件放在 SD 卡上： ![](/images/cios/d2x_offline_ios.png)
 {: .notice--info}
 
-#### Section II - Installing
+#### 第二部分 - 安装
 
 
 1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Power on your console.
-1. Launch the Homebrew Channel.
-1. Launch d2x cIOS Installer from the list of homebrew.
+1. 启动 Homebrew Channel。
+1. 将 SD 卡或 U 盘插入您的 Wii，并从 Homebrew Channel 启动 d2x cIOS Installer
 1. Set everything to match the following:
 
     ```
-    Select cIOS <d2x-v11-beta1>
-    Select cIOS base <38>
-    Select cIOS slot <248>
-    Select cIOS revision <65535>
+    Select cIOS: d2x-v11-beta1
+Select cIOS base: 38
+Select cIOS slot: 248
+Select cIOS version: 65535
     ```
 
     ![](/images/cios/d2x_v11_248.png)
@@ -83,40 +83,40 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 1. Press `A`. This will return you to the configuration screen.
 1. Repeat the previous 5 steps with the following configurations:
 
-    + cIOS 249 Installation
+    + 安装 cIOS 248
 
         ```
-        Select cIOS <d2x-v11-beta1>
-        Select cIOS base <56>
-        Select cIOS slot <249>
-        Select cIOS revision <65535>
+        Select cIOS: d2x-v11-beta1
+Select cIOS base: 56
+Select cIOS slot: 249
+Select cIOS version: 65535
         ```
 
         ![](/images/cios/d2x_v11_249.png)
 
-    + cIOS 250 Installation
+    + 安装 cIOS 250
 
         ```
-        Select cIOS <d2x-v11-beta1>
-        Select cIOS base <57>
-        Select cIOS slot <250>
-        Select cIOS revision <65535>
+        Select cIOS: d2x-v11-beta1
+Select cIOS base: 57
+Select cIOS slot: 250
+Select cIOS version: 65535
         ```
 
         ![](/images/cios/d2x_v11_250.png)
 
-    + cIOS 251 Installation
+    + 安装 cIOS 251
 
         ```
-        Select cIOS <d2x-v11-beta1>
-        Select cIOS base <58>
-        Select cIOS slot <251>
-        Select cIOS revision <65535>
+        Select cIOS: d2x-v11-beta1
+Select cIOS base: 58
+Select cIOS slot: 251
+Select cIOS version: 65535
         ```
 
         ![](/images/cios/d2x_v11_251.png)
 
 1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
 
-Continue to [Open Shop Channel Installation](osc) <br> Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+[继续安装 Homebrew Browser](hbb)<br> Homebrew Browser 是获取 Wii 自制软件的好地方。 这是可选的安装步骤。
 {: .notice--info}
