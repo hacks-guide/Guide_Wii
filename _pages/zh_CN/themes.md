@@ -6,16 +6,16 @@ title: "安装 Wii 菜单主题"
 
 本指南仅适用于普通的 Wii。 若要在 vWii (Wii U) 上安装主题，请参考[此页面](themes-vwii)。 Additionally, forwarders are covered.
 
+### 转到 `Options` > `Standard System Menu` > Wii 菜单版本 > Wii 菜单区域
+
 DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) AND [PRIILOADER](priiloader)!
 {: .notice--danger}
 
-为了安全起见，请仅使用这里提供的 MyMenuify 版本，因为 MyMenuify Mod 是安装主题最安全的方法。
+csm-installer has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
 {: .notice--warning}
 
 请仅使用这里提供的 ThemeMii 版本，因为 ThemeMii Mod 允许您制作适用于 Wii 菜单版本 4.3 的主题，其他版本可能不兼容。
 {: .notice--warning}
-
-### 转到 `Options` > `Standard System Menu` > Wii 菜单版本 > Wii 菜单区域
 
 请仅安装针对您的 Wii 和其当前区域专门设计过的主题。 安装错误区域或版本的主题会导致您的 Wii 变砖。 本教程将告诉您如何创建一个安全可安装的 .csm 文件。
 {: .notice--danger}
@@ -35,7 +35,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 * 一台 Wii
 * 将您保存的 .csm 文件放入 SD 卡或 U 盘上名为 `modthemes` 的文件夹中。
 * A Windows/macOS/Linux PC with an Internet connection
-* [MyMenuify Mod](https://oscwii.org/library/app/mymenuifymod)
+* [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
 #### 第二部分 - 构建主题
@@ -52,21 +52,13 @@ If you don't want to go through the hassle of using an external program to build
 
 #### 第三部分 - 安装主题
 
-1. 将 MyMenuifyMod.zip 解压到您的 SD 卡或 U 盘。
-1. Create a new directory on your SD card or USB device called `modthemes` if it does not already exist.
-1. Copy the theme file to the storage medium under the `modthemes` directory.
+1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
+1. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
+1. Copy the theme file to the storage medium under the `themes` directory.
 1. 一些主题针对不同区域提供不同的下载链接，因此请选择与您的 Wii 区域对应的链接。
-1. Go into MyMenuifyMod, and acknowledge the disclaimer. 一个介绍信息后，它会问您想在应用中使用什么 IOS。 Select `IOS58`.
-
-    如果前者出现 `Exception DSI occurred!` 错误，请按 Wii 上的 Reset，重新启动，然后尝试使用 `IOS250`。
-    {: .notice--info}
-
-1. Select your storage medium, and you should now see a selection of your themes.
-
-    ![](/images/themes/mym-theme-selection.png)
-
-1. 找到您想要安装的主题。 If it is signed, MyMenuifyMod will indicate it to you, otherwise it will warn you. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
-1. https://rc24.xyz/goodies/themes/
+1. Launch csm-installer, and wait for it to load.
+1. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
+1. Press `+` to install the theme.
 1. 一旦您找到喜欢的主题，请点击与您的 Wii 菜单版本相对应的下载链接。 If all goes well, you will have a result similar to the below!
 
     ![](/images/themes/themed-wii-menu.png)
