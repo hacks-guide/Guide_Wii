@@ -12,13 +12,13 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 For more information about Priiloader and its options, you can see the [Priiloader Usage](priiloader-usage) page.
 {: .notice--info}
 
-### Instrumente necesare
+### Installing Priiloader
 
 * An SD card or USB drive
-* [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
+* Installing a theme after installing Priiloader **will brick your vWii.**
 * [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
-#### Optional Requirements for vWii (highly recommended)
+#### What you need
 
 * An SD card
 * [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
@@ -26,7 +26,7 @@ For more information about Priiloader and its options, you can see the [Priiload
 
 ### Instrucțiuni
 
-{% capture vwii-notes %}
+{% capture notice-vwii-priiloader %}
 
 If you are using a vWii:
 
@@ -37,20 +37,20 @@ If you are using a vWii:
 
 <div class="notice--danger">{{ vwii-notes | markdownify }}</div>
 
-#### Section I - Prep Work
+#### What you need
 
-1. Oprește consola.
-1. Insert your SD card or USB drive into your computer.
+1. Download the Priiloader installer and LoadPriiloader apps.
+1. Extract both apps to the root of your SD card or USB drive.
 1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
 1. (vWii only) Copy the `wiiu` folder from the PriiloaderWiiUForwarder `.zip` to the root of your SD card.
-1. Reinsert your SD card or USB drive into your console.
+1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel
 
 #### Section II - Installing Priiloader
 
-1. Pornește consola.
-1. Launch the Homebrew Channel.
-1. Launch Priiloader installer from the list of homebrew.
+1. Launch the Homebrew Channel on your Wii.
+1. Launch the Priiloader installer.
+1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
 
     ![](/images/priiloader/installer.png)
@@ -61,7 +61,7 @@ If you are using a vWii:
 
 #### Section III - Entering Priiloader
 
-1. Press the HOME button, then select Exit to System Menu to exit the Homebrew Channel.
+1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 1. Your device will have loaded the Priiloader menu.
 
     ![](/images/priiloader/menu.png)
@@ -98,7 +98,7 @@ Later on, to enter it you can:
 1. Scroll down to `save settings` and press A.
 1. Press `B` to return to the main menu.
 
-### Wii mini: Next Steps
+### Additional options
 
 Continue to [Wii mini cIOS](cios-mini)<br> This guide provides installation instructions for cIOS on Wii minis.
 {: .notice--info}
