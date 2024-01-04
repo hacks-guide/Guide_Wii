@@ -12,7 +12,6 @@ This guide will provide instructions on how to restore a backup of your NAND wit
 如果螢幕保持黑屏且光碟機的指示燈閃爍，那代表您的 SD 卡中缺少 BootMii 所需的檔案。 Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 {: .notice--warning}
 
-
 家庭版 Wii（沒有 GameCube 控制器端口的 Wii）無法還原 NAND 備份。 This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
 {: .notice--danger}
 
