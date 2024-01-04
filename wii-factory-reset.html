@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Site Navigation - Wii Hacks Guide</title>
+<!-- begin _includes/seo.html --><title>Restoring The Wii NAND to Stock - Wii Hacks Guide</title>
 <meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
 
 
@@ -21,8 +21,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Wii Hacks Guide">
-<meta property="og:title" content="Site Navigation">
-<meta property="og:url" content="https://wii.hacks.guide/site-navigation.html">
+<meta property="og:title" content="Restoring The Wii NAND to Stock">
+<meta property="og:url" content="https://wii.hacks.guide/wii-factory-reset.html">
 
 
   <meta property="og:description" content="The complete guide to modding your Wii (and Wii mini)">
@@ -42,7 +42,7 @@
   
 
 
-<link rel="canonical" href="https://wii.hacks.guide/site-navigation.html">
+<link rel="canonical" href="https://wii.hacks.guide/wii-factory-reset.html">
 
 
 
@@ -200,8 +200,8 @@ window.cookieconsent.initialise({
           
           
           
-          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/site-navigation.html">English</a></li>
-          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/site-navigation.html">Italiano</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/wii-factory-reset.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/wii-factory-reset.html">Italiano</a></li>
         </ul>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle Menu</span>
@@ -327,7 +327,7 @@ window.cookieconsent.initialise({
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Site Navigation">
+    <meta itemprop="headline" content="Restoring The Wii NAND to Stock">
     
     
     
@@ -335,7 +335,7 @@ window.cookieconsent.initialise({
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Site Navigation
+          <h1 id="page-title" class="page__title" itemprop="headline">Restoring The Wii NAND to Stock
 </h1>
           
 
@@ -360,83 +360,126 @@ window.cookieconsent.initialise({
         <hr>
 <!-- hacks-guide change end -->
 
-        
-<div class="notice--info">
-<p><strong>Site</strong></p>
-<ul>
-  <li><a href="/">Home</a></li>
-  <li><a href="get-started">Get Started</a></li>
-  <li><a href="faq">FAQ</a></li>
-  <li><a href="donations">Donations</a></li>
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#requirements" id="markdown-toc-requirements">Requirements</a></li>
+  <li><a href="#instructions" id="markdown-toc-instructions">Instructions</a>    <ul>
+      <li><a href="#section-i---preparation" id="markdown-toc-section-i---preparation">Section I - Preparation</a></li>
+      <li><a href="#section-ii---creating-a-blank-nand" id="markdown-toc-section-ii---creating-a-blank-nand">Section II - Creating a Blank NAND</a></li>
+      <li><a href="#section-iii---verifying-the-nand" id="markdown-toc-section-iii---verifying-the-nand">Section III - Verifying the NAND</a></li>
+    </ul>
+  </li>
 </ul>
+
+  </nav>
+</aside>
+
+<p>This guide details how to create a stock NAND for your Wii system using a program called Ohneschwanzenegger. Unlike the <code class="language-plaintext highlighter-rouge">Format Wii System Memory</code> option in the Wii settings, this will completely wipe any changes to the NAND by downloading a stock Wii System Menu from NUS servers. If followed correctly, the Wii should have no homebrew left on the system, stock IOSes, and boot up to a factory setup screen when the NAND is flashed.</p>
+
+<p>Please note that this program <strong>needs</strong> an existing (even bricked!) NAND backup to function, as it needs to have a copy of the first 8 blocks of NAND, a bad blocks list, and AES/HMAC keys.</p>
+
+<div class="notice--danger">
+<p>The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and should only be considered as a LAST RESORT or if you are trying to do any of the following:</p>
+
+<ul>
+  <li>Restore the Wii to a state comparable to when it left the factory.</li>
+  <li>Fix a brick where you do not have a functional NAND backup or access to the Homebrew Channel but can still make one using BootMii.</li>
+  <li>You are unable to revert certain changes to the Wii System Memory such as all cIOS with DARKCORP.</li>
+</ul>
+
 </div>
 
-<div class="notice--primary">
-<p><strong>Wii Online Services</strong></p>
-<ul>
-  <li><a href="wiimmfi">Nintendo Wi-Fi Connection</a></li>
-  <li><a href="wiiconnect24#updating-rtc-clock">Setting RTC Time</a></li>
-  <li><a href="wiiconnect24">WiiConnect24</a></li>
-</ul>
-</div>
+<p class="notice--warning">If you are trying to <a href="update">update your Wii to 4.3U</a> with homebrew or update outdated homebrew/IOS, you most likely do not need to follow this guide. Instead, you can use a tool like the SysCheck Updater Wizard built into <a href="modmii#syscheck-updater-wizard">ModMii</a>. If you are confused about this process, consider joining the Nintendo Homebrew discord server for support.</p>
 
-<div class="notice--primary">
-<p><strong>Modding 101 - Exploits</strong></p>
-<ul>
-  <li><a href="bluebomb">BlueBomb</a></li>
-  <li><a href="flashhax">FlashHax</a></li>
-  <li><a href="legacy-exploits">Legacy Exploits</a></li>
-  <li><a href="letterbomb">LetterBomb</a></li>
-  <li><a href="str2hax">str2hax</a></li>
-  <li><a href="wilbrand">Wilbrand</a></li>
-</ul>
-</div>
+<h3 id="requirements">Requirements</h3>
 
-<div class="notice--primary">
-<p><strong>Modding 101 - Wii Essentials</strong></p>
 <ul>
-  <li><a href="bootmii">BootMii Backup</a></li>
-  <li><a href="bootmiirecover">BootMii Recovery</a></li>
-  <li><a href="bricks">Brick Overview</a></li>
-  <li><a href="bricks#brick-prevention">Brick Prevention</a></li>
-  <li><a href="cios">cIOS</a></li>
-  <li><a href="hbc">Homebrew Channel</a></li>
-  <li><a href="modmii">ModMii</a></li>
-  <li><a href="osc">Open Shop Channel</a></li>
-  <li><a href="priiloader">Priiloader</a></li>
-  <li><a href="hackmii">Relaunching the HackMii Installer</a></li>
-  <li><a href="update">Updating Wii Menu to v4.3</a></li>
-  <li><a href="wii-factory-reset">Restoring The Wii NAND to Stock</a></li>
-  <li><a href="wnd-mini">Wii mini NAND Dumper</a></li>
-  <li><a href="yawmme">YAWM ModMii Edition</a></li>
+  <li>An SD card with a minimum 512MB of free space (1GB or more recommended)</li>
+  <li>A <a href="bootmii">NAND backup</a> from the specific system you are trying to flash</li>
+  <li>A Windows computer with an Internet connection</li>
+  <li><a href="https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip">Ohneschwanzenegger</a></li>
+  <li><a href="/assets/files/nandBinCheck.zip">Nand BIN Checker</a></li>
 </ul>
-</div>
 
-<div class="notice--primary">
-<p><strong>Homebrew</strong></p>
-<ul>
-  <li><a href="wiigsc">Creating Wii Game Shortcuts</a></li>
-  <li><a href="gcbackupmanager">GameCube Backup Manager</a></li>
-  <li><a href="dump-wads">How to dump Channels (WADs)</a></li>
-  <li><a href="dump-games">How to dump GameCube/Wii Games</a></li>
-  <li><a href="rssmii">RSSMii</a></li>
-  <li><a href="gcsaves">Managing GameCube Save Files</a></li>
-  <li><a href="priiloader-usage">Priiloader Usage</a></li>
-  <li><a href="recommended-homebrew">Recommended Homebrew</a></li>
-  <li><a href="wii-loaders">USB Loaders</a></li>
-  <li><a href="syscheck">Using SysCheck</a></li>
-  <li><a href="wiibackupmanager">Wii Backup Manager</a></li>
-  <li><a href="themes">Wii Themes Guide</a></li>
-</ul>
-</div>
+<h3 id="instructions">Instructions</h3>
 
-<div class="notice--primary">
-<p><strong>Wii mini</strong></p>
-<ul>
-  <li><a href="hbc-mini">Installing the Homebrew Channel on the Wii mini</a></li>
-  <li><a href="cios-mini">Installing cIOS on the Wii mini</a></li>
-</ul>
-</div>
+<h4 id="section-i---preparation">Section I - Preparation</h4>
+
+<ol>
+  <li>
+    <p>Start Ohneschwanzenegger. You may get a Windows SmartScreen prompt, this is a false positive and you can run the program anyway by pressing <code class="language-plaintext highlighter-rouge">More info</code> and <code class="language-plaintext highlighter-rouge">Run anyway</code>.</p>
+  </li>
+  <li>
+    <p>Press the <code class="language-plaintext highlighter-rouge">Local Cache</code> button, create a new folder for the NUS cache to be output in, and then press OK. An example folder is given below.</p>
+
+    <p><img src="/images/factory-reset/nuscache.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Press <code class="language-plaintext highlighter-rouge">Nand Dump</code> on the toolbar, and then press <code class="language-plaintext highlighter-rouge">New nand</code>. This should open a pop-up window where you can adjust parameters for a new NAND dump. Press the large <code class="language-plaintext highlighter-rouge">Existing Nand...</code> button and find your existing NAND dump from your Wii.</p>
+
+    <p><img src="/images/factory-reset/newnand.png" alt="" /></p>
+  </li>
+  <li>
+    <p>This will fill in information such as the keys, Boot 1/2, and your bad blocks automatically. ONLY change the Destination box to <code class="language-plaintext highlighter-rouge">./blankNand.bin</code>, which will output the NAND to the program folder with the name <code class="language-plaintext highlighter-rouge">blankNand.bin</code>. Then, press OK.</p>
+
+    <p><img src="/images/factory-reset/renamenand.png" alt="" /></p>
+  </li>
+</ol>
+
+<h4 id="section-ii---creating-a-blank-nand">Section II - Creating a Blank NAND</h4>
+
+<ol>
+  <li>
+    <p>Now that the NAND is loaded into the program, select <code class="language-plaintext highlighter-rouge">Content</code> on the toolbar and then press Format. This will initialize your BLANK NAND, not your backup NAND.</p>
+
+    <p><img src="/images/factory-reset/formatnand.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select the top left text box in the program and type in the Wii System Menu version that you need the NAND to have. Note that this should optimally be the version that your NAND was previously using. This NAND was using <code class="language-plaintext highlighter-rouge">4.3U</code>. Other valid examples are <code class="language-plaintext highlighter-rouge">3.2U</code>, <code class="language-plaintext highlighter-rouge">4.3E</code>, or <code class="language-plaintext highlighter-rouge">3.4J</code>.</p>
+
+    <p><img src="/images/factory-reset/sysmenu.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Once you have confirmed you have entered the version of the menu that you want, press enter or <code class="language-plaintext highlighter-rouge">Get It!</code>. This will begin downloading the menu from NUS servers, with the progress displayed in the program.</p>
+
+    <p><img src="/images/factory-reset/menudownload.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Once the menu has finished downloading, a pop-up will display showing the settings appended to the NAND. It will be autofilled depending on what was in your NAND, although the serial number may be incorrect. You can edit this if you would like, otherwise keep everything blank and press OK.</p>
+
+    <p><img src="/images/factory-reset/settings.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Next, press <code class="language-plaintext highlighter-rouge">Content</code> on the taskbar and press <code class="language-plaintext highlighter-rouge">Write meta entries</code>. Then, go back to the menu and press <code class="language-plaintext highlighter-rouge">Flush</code>. You may then close the window.</p>
+
+    <p><img src="/images/factory-reset/finalsteps.png" alt="" /></p>
+  </li>
+</ol>
+
+<h4 id="section-iii---verifying-the-nand">Section III - Verifying the NAND</h4>
+
+<ol>
+  <li>
+    <p>If NAND Bin Checker is not already in the same directory as Ohneschwanzenegger, copy it there now. Then, open a terminal in that directory. Run the following command: <code class="language-plaintext highlighter-rouge">.\nandBinCheck.exe .\blankNand.bin</code>. If you named the NAND something else, adjust the command accordingly. The program will then check the validity of the NAND.</p>
+
+    <p><img src="/images/factory-reset/nandcheck.png" alt="" /></p>
+  </li>
+  <li>
+    <p>If all is well, the result should look similar to the below. If there are ANY errors that stand out, DO NOT use this NAND and try again as it may damage or permanantly brick your Wii. If you continue to get these errors on further attempts, go to the Nintendo Homebrew discord server for support.</p>
+
+    <p><img src="/images/factory-reset/nandcheckresult.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Move the <code class="language-plaintext highlighter-rouge">blankNand.bin</code> to your Wii SD card and rename it to <code class="language-plaintext highlighter-rouge">nand.bin</code> so that it can be flashed by BootMii. Remember not to overwrite your existing NAND!</p>
+
+    <p><img src="/images/factory-reset/nandname.png" alt="" /></p>
+  </li>
+</ol>
+
+<p class="notice--info"><a href="bootmiirecover">Continue to BootMii Recovery</a>
+Now that you have a blank NAND, you can restore it on your Wii using BootMii.</p>
 
         
       </section>
