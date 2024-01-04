@@ -44,6 +44,7 @@ sitemap: false
 + [Priiloader](priiloader)
 + [HackMii 설치 프로그램 다시 시작하기](hackmii)
 + [Wii 메뉴 v4.3으로 업데이트하기](update)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wii U를 위한 RiiTag](wnd-mini)
 + YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
@@ -51,16 +52,16 @@ sitemap: false
 {% capture notice-5 %}
 **Homebrew Browser**
 + [Wii 게임 바로가기 만들기](wiigsc)
-+ [게임큐브 백업 관리자](gcbackupmanager)
 + [채널 (WAD) 을 덤프하는 방법](dump-wads)
 + [GameCube/Wii 게임 삭제 방법](dump-games)
-+ [RSSMii 제거](rssmii)
++ [Managing GameCube Backups](gc-backups)
 + [게임큐브 저장 파일 관리](gcsaves)
++ [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [추천](recommended-homebrew)
++ [RSSMii 제거](rssmii)
 + [USB 로더 GX](wii-loaders)
 + [SysCheck 수행](syscheck)
-+ [Wii Backup Manager](wiibackupmanager)
 + vWii에 Wii 메뉴 테마 설치하기
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
