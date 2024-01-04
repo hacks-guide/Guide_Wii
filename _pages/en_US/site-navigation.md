@@ -54,15 +54,15 @@ sitemap: false
 {% capture notice-5 %}
 **Homebrew**
 + [Creating Wii Game Shortcuts](wiigsc)
-+ [USB Loaders](wii-loaders)
-+ [Managing Wii Backups](wii-backups)
-+ [Managing GameCube Backups](gc-backups)
 + [How to dump Channels (WADs)](dump-wads)
 + [How to dump GameCube/Wii Games](dump-games)
-+ [RSSMii](rssmii)
++ [Managing GameCube Backups](gc-backups)
 + [Managing GameCube Save Files](gcsaves)
++ [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
++ [RSSMii](rssmii)
++ [USB Loaders](wii-loaders)
 + [Using SysCheck](syscheck)
 + [Wii Themes Guide](themes)
 {% endcapture %}
