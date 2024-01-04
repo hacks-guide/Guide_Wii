@@ -12,7 +12,6 @@ Si has instalado BootMii como boot2, apaga y vuelve a encender la consola para i
 Si después de seguir los pasos anteriores, la pantalla se queda en negro y la luz de la ranura para discos comienza a parpadear, significa que faltan los archivos de BootMii que van en la tarjeta SD, o están dañados. Descarga [este archivo zip](https://static.hackmii.com/bootmii_sd_files.zip) y extráelo a la raíz de la tarjeta SD, luego inténtalo de nuevo.
 {: .notice--warning}
 
-
 Family edition Wiis do not have ports for GameCube controllers. Esto se debe a la falta de puertos de GameCube que son necesarios en las consolas Wii sin compatibilidad Boot2 para introducir el código de confirmación. Si necesitas más ayuda, busca asistencia.
 {: .notice--danger}
 
