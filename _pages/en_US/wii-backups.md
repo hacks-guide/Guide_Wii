@@ -28,13 +28,9 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
     ![](/images/desktop-apps/WBM/dumpedpartfiles.png)
 
-1. In this folder, click the address bar in Windows Explorer and copy its PATH.
+1. In this folder, click the address bar in Windows Explorer and type in `cmd`, this will open a command prompt window there.
 
-    ![](/images/desktop-apps/WBM/copypath.png)
-
-1. Open a Command Prompt window, and switch to the drive that the file is on (for example `B:`) and then switch to the PATH you copied earlier using `cd [PATH]`.
-
-    ![](/images/desktop-apps/WBM/terminalcd.png)
+    ![](/images/desktop-apps/WBM/opencmd.png)
 1. Type `copy /b *.part?.iso game.iso` and press enter. Wait for the command to finish, your terminal output should be similar to the below.
 
     ![](/images/desktop-apps/WBM/joinpartfiles.png)
