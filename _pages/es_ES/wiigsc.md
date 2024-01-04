@@ -1,42 +1,42 @@
 ---
-title: "Creating Wii Game Shortcuts"
+title: "Crear accesos directos para juegos de Wii"
 ---
 
-{% include toc title="Índice" %}
+{% include toc title="Tabla de contenido" %}
 
-Do you use a USB Loader and want to create game shortcuts to launch them on your Wii Menu? Then try WiiGSC (Wii Game Shortcut Creator), previously known as Crap.
+En esta guía aprenderás a crear accesos directos para juegos de Wii almacenados en una unidad USB, usando el programa WiiGSC (anteriormente conocido como Crap). Esto es de utilidad si usas un USB loader y deseas ahorrar tiempo al momento de cargar tus juegos. Then try WiiGSC (Wii Game Shortcut Creator), previously known as Crap.
 
-In the case of a brick, [installing Priiloader is a must](/priiloader). Also, install BootMii (as Boot2 if you have an early Wii). Installing brick protection along with following the guide correctly should keep you safe from bricks. DO NOT CONTINUE UNTIL YOU HAVE INSTALLED PRIILOADER AND BOOTMII!
+En caso de un brick, es fundamental tener instalado [Priiloader](/priiloader) para poder repararlo. También es recomendable instalar BootMii (si es posible, como boot2). Si cuentas con dichos requisitos y sigues los pasos de forma correcta, tu consola estará a salvo de un brick. ¡NO CONTINÚES SI NO TIENES PRIILOADER Y BOOTMII INSTALADOS!
 {: .notice--warning}
 
-Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will brick your Wii.
+NO intentes crear un atajo para los juegos Mario Party 9, o A Boy and His Blob. Si instalas alguno de estos atajos, tu consola sufrirá un brick.
 {: .notice--warning}
 
 ### Requisitos
 
-* Un Wii
+* Una Wii
 * Una unidad USB
-* [YAWM ModMii Edition](yawmme)
-* A Windows computer.
+* [Instalar WADs con YAWM ModMii Edition](yawmme)
+* Una PC con Windows
 * [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
 
 ### Instrucciones
 
-1. Install WiiGSC, then right click on it and choose **Run as administrator**. If you do not do this, WiiGSC will throw an error when you open it.
+1. Descarga WiiGSC desde el enlace de arriba y extrae el archivo, luego ejecuta el instalador. Una vez que el programa se haya instalado, haz clic derecho sobre su icono en el escritorio y selecciona **Ejecutar como administrador**. Si no haces esto, WiiGSC dará un error cuando se inicie.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
-1. Select the path to the ISO or WBFS file on your USB drive, and select the USB Loader you use. The other options should be fine the way they are.
+1. Haz clic en el botón `...` que está a la derecha de `ISO/WBFS File` y selecciona el archivo ISO o WBFS ubicado en tu unidad USB. Después haz clic en el botón a la derecha de `Loader` y elige el USB loader que utilizas. The other options should be fine the way they are.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
-1. Install the generated WAD with your WAD manager.
+1. Instala los WADs recién creados usando tu gestor de WADs.
 
 <div class="notice--info">
-If you get an error saying "The system files are corrupted", don't panic as long as you installed Priiloader.
+Si tras instalar el WAD y volver al menú de Wii aparece el mensaje <code>Los archivos del sistema están dañados</code>, no tienes nada de que preocuparte, siempre y cuando hayas instalado Priiloader, o BootMii como boot2.
 
-Turn off your Wii, then hold down the RESET button down and turn on your Wii. You should be able to boot into the Priiloader menu. <br>
-Simply enter the Homebrew Channel, and use your WAD manager to uninstall the WAD.
+Para solucionar esto, apaga la consola, luego oprime el botón POWER mientras mantienes pulsado RESET. Debería aparecer el menú principal de Priiloader. <br>
+Simplemente ingresa al Canal Homebrew y utiliza un gestor de WADs para desinstalar el atajo causante del brick.
 </div>
 
 [Haz clic aquí para volver al índice del sitio.](site-navigation)
