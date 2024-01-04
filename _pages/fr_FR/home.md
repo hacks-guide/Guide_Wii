@@ -1,12 +1,12 @@
 ---
 layout: splash
-title: "Wii Hacks Guide"
+title: "Wii Guide"
 header:
   overlay_color: "#121212"
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "Le guide complet pour modder votre Wii (et votre Wii mini)."
+excerpt: "The complete guide to modding your Nintendo Wii."
 ---
 
 Étant donné que ce guide vient d'être publié, les traductions sont en cours. Merci pour votre patience!
@@ -15,21 +15,21 @@ excerpt: "Le guide complet pour modder votre Wii (et votre Wii mini)."
 Pour tirer le meilleur parti de ce guide, vous devriez lire cette page avant de continuer.
 {: .notice--warning}
 
-### Qu'est-ce que c'est Homebrew ?
+### What is "homebrew"?
 
-**Homebrew** fait référence à un logiciel qui n'a pas été autorisé par le créateur original d'un matériel électronique - dans ce cas, Nintendo. Afin d'obtenir la possibilité d'exécuter des homebrew sur la Wii, la console doit d'abord être modifiée pour exécuter du code non signé.
+[**Homebrew**](https://en.wikipedia.org/wiki/Homebrew_(video_games)) refers to software not authorized by Nintendo. This can include games, utilities, emulators and much more!
 
-Voici quelques exemples communs de ce que les homebrew peuvent faire pour votre Wii:
+Here's a list of things you can do using homebrew.
 
-+ [Sauvegarder](bootmii) et [restaurer](bootmiirecover) la NAND de votre Wii (mémoire système)
-+ Améliorer la [protection en cas de brique](priiloader) de votre Wii
-+ Télécharger de nouvelles applications homebrew avec le [Open Shop Channel](osc)
-+ [Patch game disc contents](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
-+ Installer des [thèmes](themes) sur le Menu Wii et sur les homebrew les plus utilisés
-+ Sauvegarder vos [disques](dump-games) et vos [autres titres installés](dump-wads)
-+ Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
-+ Sauvegarder et restaurer vos sauvegardes de jeux/applications [Wii](wii-saves) et [GameCube](gcsaves)
-+ Restaurer les fonctionnalités en ligne de [WiiConnect24](wiiconnect24) et de [Nintendo Wi-Fi Connection](wiimmfi)
++ [Backup](bootmii) and [restore](bootmiirecover) copies of your Wii system memory (NAND) using [BootMii](hbc).
++ Protect your Wii from bricks then add hacks to your Wii Menu using [Priiloader](priiloader).
++ Download new homebrew apps with the [Open Shop Channel](hbb).
++ Patch game disc contents (allowing you to load game modifications) using [Riivolution](riivolution).
++ Install themes to your Wii Menu using [MyMenuify](themes).
++ Back up your discs with [CleanRip](/dump-games) and installed games and titles with [Yet Another BlueDump MOD](dump-wads).
++ Back up and restore your Wii save files with [SaveGame Manager GX](https://oscwii.org/library/app/savegame_manager_gx).
++ Back up and restore your GameCube save files using [GCMM](gcsaves).
++ Restore discontinued online services using [RiiConnect24](riiconnect24), [Wiimmfi](wiimmfi) and [WiiLink](wiilink).
 
 ### Qu'est-ce que le guide installe ?
 
@@ -45,7 +45,7 @@ Ce guide vise à faire ce qui suit, y compris les sections facultatives :
 
 ### Que dois-je savoir avant de commencer?
 
-+ Homebrew est 100% gratuit, et le processus de modification de votre Wii est également gratuit. Quiconque essaie de vous convaincre du contraire tente probablement de [vous arnaquer](https://hbc.hackmii.com/scam).
++ Running homebrew on your Nintendo Wii can be done for free by exploiting bugs in Wii's software. Quiconque essaie de vous convaincre du contraire tente probablement de [vous arnaquer](https://hbc.hackmii.com/scam).
 + Ce guide fonctionne sur toutes les versions du menu du système en fonction de l'exploit, mais **il est recommandé de mettre à jour vers la 4.3 (la dernière version du système) ** si possible.
 + **Ce guide s’applique UNIQUEMENT aux Wiis pour les consommateurs !** Cela veut dire que les consoles dédiées au développement ne sont pas couvert, pas plus que la vWii de la Wii U.
 + Selon ce que vous avez l'intention de faire avec votre Wii moddée, vous devrez peut-être apporter quelques modifications à la mémoire du système qui ont un risque de briquage (rendre la console inopérante). Tant que vous suivez ce guide correctement, vous devriez être bien, mais pour des conseils généralistes sur la prévention de briques, vous pouvez voir [cette page](bricks#brick-prevention).
@@ -66,5 +66,5 @@ Le guide compte neuf sections au total. Celles-ci sont listées ci-dessous:
 1. Re-gagner l'accès aux fonctionnalités de WiiConnect24 (OPTIONNEL)
 1. Re-gagner l'accès aux fonctionnalités du Nintendo Wi-Fi Connection (OPTIONNEL)
 
-Continuez vers [Pour démarrer](get-started)
+Get started by [choosing your exploit](get-started)!
 {: .notice--info}
