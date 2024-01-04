@@ -9,7 +9,10 @@ If you need help with anything regarding this tutorial, please join [the Wii min
 
 While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
-This guide is only intended for Wii mini users. If you have a Wii, follow [this guide](cios) instead.
+If you have a Wii, use [this](cios) guide for cIOS instead. Attempting to install other cIOS on a Wii will not work.
+{: .notice--warning}
+
+If you have a Wii U (vWii), use [this](cios-vwii) guide for cIOS instead. Attempting to install other cIOS on the vWii will not work.
 {: .notice--warning}
 
 Do not attempt to install a Wii IOS or System Menu on the Wii mini. Doing so will likely [brick](bricks#ios-brick) your console.
