@@ -44,6 +44,7 @@ sitemap: false
 + [Priiloader](priiloader)
 + [HackMiiインストーラの再起動](hackmii)
 + [Wiiメニューをv4.3に更新する](update)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wii Mod Lite](wnd-mini)
 + YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
@@ -51,16 +52,16 @@ sitemap: false
 {% capture notice-5 %}
 **ホームブルー**
 + [ゲームのショートカットを作る](wiigsc)
-+ [ゲームキューブバックアップマネジャー](gcbackupmanager)
 + [チャンネル（WAD）のダンプの仕方](dump-wads)
 + [ゲームキューブ・Wiiのゲームのダンプの仕方](dump-games)
-+ [Installing RSSMii](rssmii)
++ [Managing GameCube Backups](gc-backups)
 + [ゲームキューブのセーブファイルの管理](gcsaves)
++ [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [推奨されるホームブルー](recommended-homebrew)
++ [Installing RSSMii](rssmii)
 + [USB Loader GX](wii-loaders)
 + [Performing a SysCheck](syscheck)
-+ [Wiiバックアップマネジャー](wiibackupmanager)
 + Installing Wii Menu Themes on vWii
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
