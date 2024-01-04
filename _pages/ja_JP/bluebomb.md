@@ -10,9 +10,9 @@ Wii Miniをブリックさせる可能性が高いため、YouTubeなどにあ�
 チュートリアル中に質問があったら、[ディスコード](https://discord.gg/6ryxnkS)でお問い合わせください。
 {: .notice--info}
 
-BlueBombはWiiやWii MiniのBluetooth機能のセキュリティホールを利用した改造方法です。 Wii Miniで唯一使用可能な改造方法ですが、Wiiでも問題無く使えます。 これを使ってKorean KiiやError 003などのブリックを直すこともできます。
+BlueBombはWiiやWii MiniのBluetooth機能のセキュリティホールを利用した改造方法です。 Wii Miniで唯一使用可能な改造方法ですが、Wiiでも問題無く使えます。 This exploit also enables recovery from certain bricks, such as a banner brick.
 
-Wiiを改造する場合はもっと簡単な方法があるため、[別の方法](get-started)を使用することを推奨します。 ブリックを修復する場合などの例外はあります。
+For the original Wii, we do not recommend using BlueBomb if you intend to install the Homebrew Channel and BootMii, as there are more convenient exploits available. ブリックを修復する場合などの例外はあります。
 {: .notice--info}
 
 Bluetoothを接続するため、Wii本体とパソコンを近づけるようにしてください。1m未満の距離が望ましいです。
@@ -37,12 +37,12 @@ Bluetoothを接続するため、Wii本体とパソコンを近づけるよう�
 
 ### 実行方法
 
-1. Hackmii_installer_v1.2`.zip`から`boot.elf`をUSBドライブのルートにコピーします。
+1. Extract it and place the `boot.elf` file in your flash drive.
     + (ブリックを修正する場合、使用するHomeberwアプリをappsフォルダにコピーする必要があります)
-    + (Wii miniの場合でも、bootmini.elfは機能しません。そのファイルの目的は完全に異なり、無関係のものです。 boot.elfを使用してください。)
+    + - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. boot.elfを使用してください。)
 1. USBドライブをWii本体に接続します。
     + Wiiの場合、縦向きの場合は右のUSBポート、横向きの場合は下のUSBポートに接続してください。
-    + Wii miniの場合、背面にあるUSBポートに接続してください。
+    + For a normal Wii, use the bottom port. (or the right port if it's upright).
 1. Wiiの電源を入れます。
 1. `Wii設定`に進みます。
 1. バージョンを確認してください。1ページ目の右上に表示されています。
@@ -65,14 +65,14 @@ Bluetoothを接続するため、Wii本体とパソコンを近づけるよう�
     + Wiiを選択した場合、Wiiメニューのバージョンの入力を求められます。 これは、STEP4で確認した番号と同じです。
     + Wii miniを選択した場合、リージョンを入力するように求められます。これは、STEP4で確認したWiiメニューの最後の文字(U,E,Kのいずれか)です。
 1. Wiiの電源を入れます。
-    + Wiiリモコンの電源は入れないでください。
+    + Turn on your console and **do not** connect any Wii Remotes.
 1. PCに`got connection handle`が表示されるまで、Wii本体のSyncボタンを押してください。
     + 何度も押す必要がある場合があります。
 1. 成功すると、WiiはHackMiiインストーラーをロードします。
-    + 後でLinuxを使用しない場合、Linuxをシャットダウンすることができます。
+    + You can now shut down your Linux computer if you are not planning to use it later.
 
-Wiiを使用している場合、[Homebrew ChannelとBootMiiのインストール](hbc)を参照してください。<br>
+If using a Wii, proceed to installing the Homebrew Channel and BootMii<br>
 {: .notice--info}
 
-Wii miniを使用している場合、[Homebrew Channelのインストール(Wii mini)](hbc-mini)を参照してください。
+If using a Wii mini, proceed to installing the Homebrew Channel
 {: .notice--info}
