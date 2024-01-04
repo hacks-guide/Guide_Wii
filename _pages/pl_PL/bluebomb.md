@@ -1,18 +1,18 @@
 ---
-title: "BlueBomb"
+title: "Credits"
 ---
 
 {% include toc title="Table of Contents" %}
 
-It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+**Zdecydowanie** nie zaleca się stosowanie **żadnego** poradnika wideo do hakowania konsoli Wii Mini, ponieważ jest bardzo duża szansa na **zbrickowanie konsoli**.
 {: .notice--warning}
 
 If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
 {: .notice--info}
 
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well. This exploit also enables recovery from certain bricks, such as Korean Kii/Error 003.
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well. This exploit also enables recovery from certain bricks, such as a banner brick.
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+For the original Wii, we do not recommend using BlueBomb if you intend to install the Homebrew Channel and BootMii, as there are more convenient exploits available. Exceptions however, exist in circumstances like brick recovery.
 {: .notice--info}
 
 Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
@@ -37,12 +37,12 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 ### Instructions
 
-1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
+1. Extract it and place the `boot.elf` file in your flash drive.
     + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-    + (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
+    + - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
 1. Reinsert your flash drive into your console.
     + For a Wii mini, the USB port is on the back.
-    + For a normal Wii, use the bottom port (or the right port if it's upright).
+    + For a normal Wii, use the bottom port. (or the right port if it's upright).
 1. Power on your console.
 1. Go to `Wii Settings`.
 1. Take note in the top right corner of the letter next to the system version.
@@ -65,14 +65,14 @@ Make sure that the console is close to the computer running the exploit, ideally
     + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
     + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
 1. Power on your console.
-    + **Do not** connect any Wii Remotes.
+    + Włącz konsole oraz **nie** podłączaj żadnych Wii Remote'ów.
 1. Press the Sync button repeatedly until the terminal shows `got connection handle`.
     + This could take numerous attempts.
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
-    + If you are not planning to use it later, you can now shut down your Linux distro.
+    + You can now shut down your Linux computer if you are not planning to use it later.
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If using a Wii, proceed to installing the Homebrew Channel and BootMii<br>
 {: .notice--info}
 
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+If using a Wii mini, proceed to installing the Homebrew Channel
 {: .notice--info}

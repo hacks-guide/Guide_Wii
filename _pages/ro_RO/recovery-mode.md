@@ -38,5 +38,5 @@ Under Construction
 [Return to Bricks](bricks)
 {: .notice--info}
 
-[Click aici pentru a reveni la indexul site-ului.](site-navigation)
+[Click here to view all of our tutorials that you can find on this website!](site-navigation)
 {: .notice--info}

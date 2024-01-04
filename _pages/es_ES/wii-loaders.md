@@ -2,7 +2,7 @@
 title: "Wii Backup Loaders"
 ---
 
-{% include toc title="Índice" %}
+{% include toc title="Tabla de contenido" %}
 
 This guide introduces Wii backup loaders. They can be primarily used to load game backups on an SD or USB that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
 
@@ -45,10 +45,10 @@ Below is a single WBFS example, and a split WBFS example.
        ┗ 📜gameid.wbf1
 ```
 
-### WiiFlow Lite
+### http://www.wiithemer.org/
 
 #### Requisitos
-+ A modded Wii
++ Una consola Wii
 + The latest version of [cIOS](cios)
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
@@ -94,7 +94,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 ### USB Loader GX
 
 #### Requisitos
-+ A modded Wii
++ Una consola Wii
 + The latest version of [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
@@ -161,12 +161,12 @@ To change the cIOS used for a specific game, follow the instructions specific to
     + Try using 248, 249, 250 or 251.
 1. Press OK and try to load the game.
 
-#### WiiFlow Lite
+#### http://www.wiithemer.org/
 1. Select the game that isn't working.
 1. Click the gear icon.
 1. Go to cIOS and use the arrows to select the IOS slot to use.
     + Try using 248, 249, 250 or 251.
 1. Press Save and try to load the game.
 
-[Continue to Nintendont](nintendont) Now that you have installed a USB loader of some type for Wii games, you can install a similar type of application for effectively native playback of GameCube games.
+[Haz clic aquí para volver al índice del sitio.](site-navigation)
 {: .notice--info}

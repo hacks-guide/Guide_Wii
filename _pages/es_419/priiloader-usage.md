@@ -26,7 +26,7 @@ Priiloader allows you to automatically boot to the Homebrew Channel, an individu
 
 <div id="autobooting-usbloadergx" class="notice--warning" markdown="1">
 If you would like to autoboot USB loader GX, do this first:
-  + Download the USB Loader GX forwarder WAD ([Wii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad), [vWii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad)).
+  + Download the USB Loader GX forwarder WAD ([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
   + Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
   + Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
   + Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
@@ -46,7 +46,7 @@ You will be installing `uneoboot.dol` in step 3.
 
     ![](/images/priiloader/installing_file_ok.png)
 
-1. Press `B` to return to the main menu.
+1. Scroll down to `save settings` and press A, then press B to go back to the main menu of Priiloader.
 1. Scroll down to `Settings` and press A.
 
     ![](/images/priiloader/menu_settings.png)
@@ -55,11 +55,11 @@ You will be installing `uneoboot.dol` in step 3.
 
     ![](/images/priiloader/autoboot_installed_file.png)
 
-1. Scroll down to `save settings` and press A.
+1. Scroll to `Homebrew Channel` and press A to launch it.
 
     ![](/images/priiloader/settings_save.png)
 
-1. Press `B` to return to the main menu.
+1. Scroll down to `save settings` and press A, then press B to go back to the main menu of Priiloader.
 1. Scroll back up to `System Menu` and press A.
 
 Your Wii should now automatically boot to whichever homebrew app you installed.
@@ -80,9 +80,9 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 
     ![](/images/priiloader/autoboot_disabled.png)
 
-1. Scroll down to `save settings` and press A.
+1. Scroll to `Homebrew Channel` and press A to launch it.
 
     ![](/images/priiloader/settings_save.png)
 
-1. Press `B` to return to the main menu.
+1. Scroll down to `save settings` and press A, then press B to go back to the main menu of Priiloader.
 1. Scroll back up to `System Menu` and press A.

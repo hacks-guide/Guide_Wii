@@ -1,64 +1,64 @@
 ---
-title: "d2xl cIOS for Wii mini (experimental)"
+title: "Wii 미니를 위한 d2xl cIOS (실험 단계)"
 ---
 
 {% include toc title="목차" %}
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+이 자습서와 관련하여 도움이 필요하면 [Wii 미니 해킹 디스코드 서버](https://discord.gg/6ryxnkS) (추천) 에 가입하세요.
 {: .notice--info}
 
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. 이제 [USB Loader GX](usbloadergx) 및 [WiiFlow](wiiflow)와 같은 홈브류를 사용할 수 있습니다. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
-This guide is only intended for Wii mini users. If you have a Wii, follow [this guide](cios) instead.
+이 가이드는 Wii 미니 사용자만 대상으로 합니다. Wii를 사용하는 경우, [이 가이드](cios)를 따르세요.
 {: .notice--warning}
 
-Do not attempt to install a Wii IOS or System Menu on the Wii mini. Doing so will likely [brick](bricks#ios-brick) your console.
+Wii 미니에 Wii IOS 또는 시스템 메뉴를 설치하려고 시도하지 마세요. 그렇게 하면 콘솔이 망가질 가능성이 높습니다.
 {: .notice--warning}
 
-This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBaol and custom cIOS was created by Leseratte for the Wii mini. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Please note that this cIOS is still experimental, though no problem with functionality has been reported.
+이 d2x cIOS 설치 프로그램은 원래 DaveBaol이 Wii U의 vWii용으로 개발했으며, 커스텀 cIOS는 Leseratte가 Wii 미니용으로 만들었습니다. 원본 다운로드 페이지는 [여기](https://wii.leseratte10.de/d2xl-cIOS/)에서 확인할 수 있습니다. Leseratte의 Github 페이지는 [여기](https://github.com/Leseratte10/d2xl-cios)에서 확인할 수 있습니다. 이 cIOS는 아직 실험 단계이지만 기능에 대한 문제는 보고되지 않았습니다.
 {: .notice--info}
 
-### 준비물
+### 필요한 것
 
-* A Wii mini with the Homebrew Channel installed
-* A USB drive
-* Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
+* 홈브류 채널이 설치된 Wii 미니
+* USB 드라이브
+* Leseratte의 [d2xl cIOS 설치 프로그램](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
 ### 진행 방법
 
-#### Section I - Downloading
+#### 섹션 I - 다운로드
 
 1. 콘솔의 전원을 꺼 주세요.
 1. Insert your USB drive into your computer.
 1. Create a folder named `apps` on the root of your USB drive if it does not already exist.
-1. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
+1. USB 드라이브의 `apps` 폴더에 d2xl cIOS 설치 프로그램을 압축 해제합니다.
 1. Reinsert your USB drive into your console.
 1. 콘솔의 전원을 켜 주세요.
 1. Homebrew Channel을 실행해 주세요.
-1. Launch d2xl cIOS Installer from the list of homebrew.
+1. d2x cIOS 설치 프로그램
 
-#### Section II - Installing
+#### 섹션 II - 설치하기
 
 1. Select `Continue`.
-1. Set the options to the following:
+1. 계속을 누르고, 다음 옵션을 다음과 같이 설정합니다:
     ```
     Select cIOS <d2xl-v1-beta2>
     Select cIOS base <57>
     Select cIOS slot <249>
     ```
-    + Take a note of the version number under notes (`IOS57-64-` ending in either `v31776` or `v31775`)
-1. Press A to install.
-    + If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
-1. When the process is complete, exit the installer.
+    + 메모 아래에 버전 번호를 기록합니다(`IOS57-64-`로 끝나는 `v31776` 또는 `v31775`).
+1. 설정이 완료되면 A 버튼을 눌러 설치합니다.
+    + `TMD 버전 불일치` 오류와 함께 설치에 실패하면 이전에 시도한 버전 번호와 다른 버전 번호가 나타날 때까지 `소스코드 선택` 옵션 위에 있는 +컨트롤 패드의 왼쪽 또는 오른쪽을 누릅니다. 숫자 57은 변경되지 않습니다.
+1. 성공적으로 완료되면 설치 프로그램을 종료합니다.
 
 [Continue to making a NAND Backup using RealWnd](wnd-mini)
 {: .notice--info}
 
-#### Enabling Ethernet
+#### 이더넷 활성화
 
-If you wish to use Wiimmfi with Ethernet on a Wii mini, you have to run the [Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) app made by Fullmetal5. To run it, just unzip it in the `apps` folder of your USB drive and run it from the Homebrew Channel.
+Wii 미니에서 이더넷과 함께 Wiimfi를 사용하려면, Fullmetal5가 만든 [Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) 앱을 실행해야 합니다. 실행하려면 USB 드라이브의 `apps` 폴더에 압축을 풀고 홈브류 채널에서 실행하면 됩니다.
 
-The Wii and Wii mini consoles are only known to work with Ethernet adapters using the AX88772 chip. Please check that the product is compatible before you buy. This one from UGREEN is known to be compatible: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
+Wii 및 Wii 미니 콘솔은 AX88772 칩을 사용하는 이더넷 어댑터에서만 작동하는 것으로 알려져 있습니다. 구매하기 전에 제품이 호환되는지 확인하세요. This one from UGREEN is known to be compatible: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
 {: .notice--info}
 
 [여기를 눌러 사이트 탐색으로 돌아갑니다.](site-navigation)

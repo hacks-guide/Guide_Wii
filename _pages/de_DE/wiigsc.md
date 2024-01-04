@@ -1,8 +1,8 @@
 ---
-title: "Creating Wii Game Shortcuts"
+title: "Verknüpfungen für Wii-Spiele erstellen"
 ---
 
-{% include toc title="Inhalt" %}
+{% include toc title="Inhaltsverzeichnis" %}
 
 Do you use a USB Loader and want to create game shortcuts to launch them on your Wii Menu? Then try WiiGSC (Wii Game Shortcut Creator), previously known as Crap.
 
@@ -14,8 +14,8 @@ Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It
 
 ### Anforderungen
 
-* A Wii
-* A USB drive
+* Eine Wii
+* A USB drive.
 * [YAWM ModMii Edition](yawmme)
 * A Windows computer.
 * [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)

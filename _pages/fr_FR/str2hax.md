@@ -1,5 +1,5 @@
 ---
-title: "str2hax"
+title: "Wiimmfi"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -39,34 +39,34 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![](/images/riiconnect24/Internet_2.png)
 
-1. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
+1. Go to `Connection Settings`.
 
     ![](/images/riiconnect24/Internet_3.png)
 
     ![](/images/riiconnect24/Internet_4.png)
 
-1. Click on your network connection slot and navigate to `Change Settings`.
+1. Connection Settings
 
     ![](/images/riiconnect24/Internet_5.png)
 
     ![](/images/riiconnect24/Internet_6.png)
 
-1. Set `Auto-Obtain DNS` to `No`, then click `Advanced Settings`.
+1. Go to `Auto-Obtain DNS` (Not IP Address), then select `No`, then `Advanced Settings`.
 
     ![](/images/riiconnect24/Internet_7.png)
 
-1. Set the Primary DNS to `18.188.135.9`.
+1. Type in `18.188.135.9` as the Primary DNS.
 
     ![](/images/exploits/str2hax/dns.png)
 
     If there are 3 fields instead of 2 (like above), go back and make sure you are on the `Auto-Obtain DNS` page.
     {: .notice--warning}
 
-1. Click `Confirm`, then click `Save`.
+1. Select `Confirm`, then select `Save`.
 
     ![](/images/riiconnect24/Internet_10.png)
 
-1. When prompted, click `OK` to perform the connection test.
+1. Select `OK` to perform a connection test.
 
     ![](/images/riiconnect24/Internet_11.png)
 
@@ -78,9 +78,9 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
 #### Section II - Triggering the Exploit
 
-1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
-1. Select `Yes`.
-1. Click on `Next`.
+1. Go to the `Internet` section, then `User Agreements` or `Agreement/Contact`, then `Yes`.
+1. Go to `Change Settings`.
+1. Go to `Page 2`, then click on `Internet`.
     + You should be greeted with the following screen:
 
     ![](/images/exploits/str2hax/EULA.png)

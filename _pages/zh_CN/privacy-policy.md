@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: "捐赠"
 ---
 
 ### Cookies

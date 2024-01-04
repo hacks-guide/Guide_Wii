@@ -1,30 +1,30 @@
 ---
-title: "Canal Homebrew - solo para Wii mini"
+title: "Instalar el Canal Homebrew (para Wii mini)"
 ---
 
-{% include toc title="Índice" %}
+{% include toc title="Tabla de contenido" %}
 
-The Homebrew Channel is where you will go to launch homebrew applications.
+El Canal Homebrew te permite utilizar las aplicaciones homebrew que descargues.
 
 ### Instrucciones
-This page is **only** intended for users of the Wii mini. If you have a regular Wii, follow [this guide](hbc) instead.
+Esta guía es **solo** para usuarios de Wii mini. Si tienes una Wii original, por favor sigue [esta guía](hbc).
 {: .notice--info}
 
-While it is possible to install BootMii on a Wii mini, you will need to solder an SD card slot. That requires opening up your Wii mini and using special tools, so it is not recommended.
+También es posible instalar BootMii en la Wii mini, aunque necesitarás soldar una ranura para tarjetas SD. Esto requiere desarmar tu consola y usar equipo especial, por lo que no es recomendable.
 {: .notice--info}
 
-1. You will see a scam warning screen. Wait 30 seconds for the text "Press 1 to continue" to appear, then press 1.
+1. Deberías ver una pantalla de advertencia contra estafa. Espera 30 segundos hasta que aparezca el texto `Press 1 to continue`, y después oprime el botón 1.
 
     ![](/images/hackmii/scam.png)
 
-1. Press `Continue`, then select `Install The Homebrew Channel`.
+1. Selecciona `Continue`, después dirígete a `Install The Homebrew Channel`.
 
     ![](/images/hackmii/hbc_install.png)
 
     ![](/images/hackmii/hbc_install_ok.png)
 
-1. Press `Continue` when finished.
-1. Once done, select `Exit` to exit the HackMii installer.
+1. Elige `Continue` cuando el proceso haya finalizado.
+1. Finalmente, selecciona `Exit` para salir de HackMii Installer.
 
-[Continue to installing Priiloader](priiloader) <br> Priiloader offers protection from bricks, and is highly recommended to install.
+[Continuar a la instalación de Priiloader](priiloader)<br> Priiloader ofrece protección contra bricks, por lo que se recomienda su instalación.
 {: .notice--info}

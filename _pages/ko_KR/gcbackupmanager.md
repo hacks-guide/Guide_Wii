@@ -1,37 +1,37 @@
 ---
-title: "GameCube Backup Manager"
+title: "게임큐브 백업 관리자"
 ---
 
 {% include toc title="목차" %}
 
-GameCube Backup Manager is a convenient PC software that simplifies the process of transferring GameCube games to your USB drive or SD Card. It functions similar to the popular tool called [Wii Backup Manager](wiibackupmanager), allowing you to easily manage and organize your GameCube game backups. With this program, you can effortlessly copy your favorite GameCube games onto portable storage devices, making them readily accessible for future gaming sessions.
+게임큐브 백업 관리자는 게임큐브 게임을 USB 드라이브나 SD 카드로 전송하는 과정을 간소화하는 편리한 PC 소프트웨어입니다. 이 도구는 [Wii 백업 관리자](wiibackupmanager)라는 인기 도구와 유사한 기능을 수행하여 게임큐브 게임 백업을 쉽게 관리하고 구성할 수 있습니다. 이 프로그램을 사용하면 좋아하는 게임큐브 게임을 휴대용 저장 장치에 손쉽게 복사하여 나중에 게임 세션에서 쉽게 접속할 수 있습니다.
 
-### 준비물
+### 필요한 것
 
-* SD 카드 또는 USB 드라이브
-* [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
+* SD 카드 및 USB 드라이브
+* [게임큐브 백업 관리자](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
-To play multiple games, it is recommended to use an external hard drive for your Wii. Any external hard drive found on most modern marketplaces should work with your Wii.
+여러 게임을 플레이하려면 Wii용 외장 하드 드라이브를 사용하는 것이 좋습니다. 대부분의 최신 마켓에서 판매되는 외장 하드 드라이브는 Wii와 호환됩니다.
 {: .notice--info}
 
-Make sure your USB drive is formatted as FAT32. Do not format it as other types such as NTFS, exFAT, extFS, or WBFS, the latter being an outdated filesystem for storing Wii games.
+USB 드라이브의 포맷이 FAT32로 되어 있는지 확인합니다. 후자는 Wii 게임을 저장하기 위한 구형 파일 시스템인 NTFS, exFAT, extFS 또는 WBFS와 같은 다른 유형으로 포맷하지 마세요.
 {: .notice--info}
 
 ### 진행 방법
 
-#### Section I - Downloading
+#### 섹션 I - 다운로드
 
-1. Extract GameCube Backup Manager, and launch the program.
-1. Insert your USB drive into your computer.
+1. 게임큐브 백업 관리자의 압축 해제하고 프로그램을 실행합니다.
+1. USB 드라이브를 컴퓨터에 연결하세요.
 
-#### Section II - Copying Games Over
+#### 섹션 II - 게임 복사하기
 
-1. Open the application and locate the folder button in the bottom right corner. Click on it to open the file explorer window.
-1. Navigate to the location of the game file you want to transfer. This could be on your computer's hard drive or an external storage device. Once you find the file, select it by clicking on it.
-1. Click on the `Files (Destination)` tab, then select the `Inactive` option from the dropdown menu. This will allow you to choose the drive where you want to transfer the game. Select the appropriate drive letter from the list.
-1. Next, go back to the `Files (Source)` tab, select the game you want to transfer, and then click either `Install Game (1:1)` or `Install Game (Scrub)`.
+1. 응용 프로그램을 열고 오른쪽 하단에 있는 폴더 버튼을 찾습니다. 클릭하면 파일 탐색기 창이 열립니다.
+1. 전송하려는 게임 파일의 위치로 이동합니다. 컴퓨터의 하드 드라이브나 외부 저장 장치에 저장되어 있을 수 있습니다. 파일을 찾으면 클릭하여 선택합니다.
+1. `파일 (대상)` 탭을 클릭한 다음 드롭다운 메뉴에서 `비활성` 옵션을 선택합니다. 이렇게 하면 게임을 전송할 드라이브를 선택할 수 있습니다. 목록에서 적절한 드라이브 문자를 선택합니다.
+1. 다음으로 `파일 (소스)` 탭으로 돌아가서 전송할 게임을 선택한 다음 `게임 설치 (1:1)` 또는 `게임 설치 (스크럽)` 중 하나를 클릭합니다.
 
-Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size.
+`게임 설치 (스크럽)`을 선택하면 게임에서 불필요한 데이터가 제거되어 게임 파일 크기가 줄어듭니다.
 {: .notice--info}
 
 [여기를 눌러 사이트 탐색으로 돌아갑니다.](site-navigation)

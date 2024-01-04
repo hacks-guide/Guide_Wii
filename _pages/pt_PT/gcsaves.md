@@ -6,7 +6,7 @@ title: "GameCube Saves"
 
 This is a full guide on how to manage your GameCube saves.
 
-Use of any GameCube peripheral with a Family Edition Wii or Wii mini require soldering on GameCube ports and/or memory card slots.
+Use of any GameCube peripheral with a Family Edition Wii or Wii Mini require soldering on GameCube ports and/or memory card slots.
 {: .notice--info}
 
 ## Uploading an Individual Save (.gci File) to a Physical Memory Card
@@ -139,7 +139,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. It should restore the .raw file to your memory card. When restoration is complete, press any button to continue.
+1. It should restore the .raw file to your memory card. When restoration is complete, press any button to continue. When restoration is complete, press any button to continue.
 
 ## Transferring Saves Between 2 Physical Memory Cards
 

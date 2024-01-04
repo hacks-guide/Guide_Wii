@@ -38,7 +38,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 1. On your computer, open the browser and go to [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/).
 1. Input your Wii MAC, version and region.
-1. Ensure `Bundle the HackMii Installer for me!` is checked.
+1. HackMii Screen
 1. Cut either wire.
 
     ![](/images/exploits/wilbrand/web.png)
@@ -46,13 +46,13 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Click on "Download your .zip".
 1. Insert your SD card into your computer.
 1. Copy the `private` folder and the `boot.elf` file from the downloaded `.zip` file to the root of your SD card.
-1. Reinsert your SD card into your console.
-    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
-1. On your Wii, return to the Wii Menu.
+1. Extract the contents of the downloaded ZIP to the root of your SD card.
+    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB adapter plugged into the Wii's USB port will not work.
+1. Take out your SD card and insert it in your Wii.
 1. Launch the Wii Message Board on your Wii.
 1. Open the green letter with a bomb.
     + Ensure the date on your Wii is correct, or you might be unable to find the letter.
-    + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
+    + In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     + If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If there are errors, there may be an issue with the SD card format or the Wii’s SD card reader.
 
     ![](/images/exploits/wilbrand/msgboard.png)
@@ -108,13 +108,13 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 1. Copy all files from the hackmii_installer_v1.2 `.zip` to a folder on your computer.
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your SD card.
-1. Reinsert your SD card into your console.
-    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
-1. On your Wii, return to the Wii Menu.
-1. Launch the Wii Message Board.
+1. Extract the contents of the downloaded ZIP to the root of your SD card.
+    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB adapter plugged into the Wii's USB port will not work.
+1. Take out your SD card and insert it in your Wii.
+1. On your Wii, return to the Wii Menu and then open the Wii Message Board.
 1. Open the green letter with a bomb.
     + Ensure the date on your Wii is correct, or you might be unable to find the letter.
-    + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
+    + In various scenarios, you may need to look at the previous or next day to find it.
     + If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If there are errors, there may be an issue with the SD card format or the Wii’s SD card reader.
 
     ![](/images/exploits/wilbrand/msgboard.png)

@@ -4,7 +4,7 @@ title: "RiiConnect24"
 
 {% include toc title="Table of Contents" %}
 
-For support (in English) with RiiConnect24, as well as RiiTag, join [RiiConnect24 on Discord](https://discord.gg/rc24).
+If you need help with anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
 {: .notice--primary}
 
 [RiiConnect24](https://rc24.xyz/) allows you to use discontinued services from WiiConnect24, which include the News, Forecast, Everybody Votes, Nintendo and Check Mii Out Channel, along with Wii Mail.
@@ -31,7 +31,7 @@ If you are on vWii, you will also need [Priiloader](priiloader) installed with t
 #### Section I - Using RiiConnect24 Patcher
 
 1. Click the link above to go to the GitHub page where the patcher is.
-1. Download `RiiConnect24Patcher.bat` if you are on Windows, and `RiiConnect24Patcher.sh` if you are on a macOS/Linux system.
+1. Download `RiiConnect24Patcher.bat` if you are on Windows, and `RiiConnect24Patcher.sh` if you are on a Unix system
 1. Run the RiiConnect24 patcher.
     + On Windows run `RiiConnect24Patcher.bat`.
     + On macOS/Linux systems, open Terminal and type `bash`, then drag `RiiConnect24Patcher.sh` into the terminal then press enter. It should look like this: `bash <directory>/<directory>/RiiConnect24Patcher.sh`.
@@ -128,11 +128,11 @@ You will now set your DNS to RiiConnect24 servers. This is optional but recommen
 1. If the connection test was successful, select `No` to skip the Wii System Update.
 1. Go to `WiiConnect24`, then `WiiConnect24` again, and make sure it is enabled.
 1. Back on the WiiConnect24 menu, go to `Standby Connection` and make sure it is enabled.
-1. At `Slot Illumination`, it is recommend you set the disc light to `Dim` or `Bright`, but this is optional.
+1. At `Slot Illumination`, we recommend you set the disc light to `Dim` or `Bright`, but this is optional.
 1. Finally, go to the `Internet` section, then `User Agreements` or `Agreement/Contact`, then `Yes`. Please read through this.
 
 [Return to WiiConnect24](wiiconnect24)
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Click here to view all of our tutorials that you can find on this website!](site-navigation)
 {: .notice--info}

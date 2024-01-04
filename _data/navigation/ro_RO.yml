@@ -1,10 +1,10 @@
 ---
 main:
   - 
-    title: Acasă
+    title: Wii Guide
     url: /
   - 
-    title: Începe
+    title: Start Here
     url: get-started
   - 
     title: Navigare Site
@@ -26,7 +26,7 @@ footer:
     title: Navigare Site
     url: site-navigation
   - 
-    title: Politica de confidenţialitate
+    title: Donations
     url: privacy-policy
   - 
     title: Donații
@@ -36,23 +36,23 @@ sidebar_title:
     title: Progres General
 sidebar_pages:
   - 
-    title: Acasă
+    title: Wii Guide
     url: /
   - 
-    title: Începe
+    title: FAQ
     url: get-started
   - 
-    title: LetterBomb
+    title: Donations
     url: letterbomb
   - 
-    title: BlueBomb
+    title: Credits
     url: bluebomb
   - 
-    title: FlashHax
+    title: RiiConnect24
     url: flashhax
   - 
-    title: str2hax
-    url: str2hax
+    title: Wiimmfi
+    url: Wiimmfi
   - 
     title: Wilbrand
     url: wilbrand

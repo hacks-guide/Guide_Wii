@@ -4,7 +4,7 @@ title: "Priiloader"
 
 {% include toc title="목차" %}
 
-[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii. It loads before the Wii System Menu does. The tool can also apply hacks that are used to enhance, unlock, and/or fix many System Menu features.
+Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also enable hacks for your Wii Menu, and be used to quickly launch the Homebrew Channel, BootMii, or whatever homebrew you want!
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
@@ -12,45 +12,45 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 For more information about Priiloader and its options, you can see the [Priiloader Usage](priiloader-usage) page.
 {: .notice--info}
 
-### 준비물
+### 필요한 것
 
-* SD 카드 또는 USB 드라이브
-* [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
-* [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
+* SD 카드 및 USB 드라이브
+* Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
+* https://oscwii.org/library/app/loadpriiloader
 
 #### Optional Requirements for vWii (highly recommended)
 
-* An SD card
-* [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
-    * [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
+* 일반적으로 허용되지 않는 저장 파일을 데이터 관리에서 SD 카드로 복사할 수 있습니다.
+* Download the USB Loader GX forwarder WAD ([Wii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad), [vWii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad)).
+    * Your Wii should now automatically boot to whichever homebrew app you installed.
 
 ### 진행 방법
 
-{% capture vwii-notes %}
+{% capture notice-vwii-priiloader %}
 
 If you are using a vWii:
 
-+ Do NOT install a theme after installing Priiloader, or you will BRICK your vWii!
-+ Priiloader does not have any impact on Wii U VC titles.
++ Installing a theme after installing Priiloader **will brick your vWii.**
++ Priiloader 0.10.0 introduces vWii support!
 
 {% endcapture %}
 
-<div class="notice--danger">{{ vwii-notes | markdownify }}</div>
+<div class="notice--danger">{{ notice-vwii-priiloader }}</div>
 
 #### Section I - Prep Work
 
 1. 콘솔의 전원을 꺼 주세요.
-1. Insert your SD card or USB drive into your computer.
-1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
-1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
-1. (vWii only) Copy the `wiiu` folder from the PriiloaderWiiUForwarder `.zip` to the root of your SD card.
+1. Extract both apps to the root of your SD card or USB drive.
+1. Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
+1. Copy `uneoboot.dol` to the root of your SD card.
+1. 메모리 카드 슬롯 B에 있는 디버깅 장치로 Wii 메뉴 로그를 전송합니다.
 1. Reinsert your SD card or USB drive into your console.
 
-#### Section II - Installing Priiloader
+#### 섹션 II - Priiloader 설치하기
 
 1. 콘솔의 전원을 켜 주세요.
-1. Homebrew Channel을 실행해 주세요.
-1. Launch Priiloader installer from the list of homebrew.
+1. Launch the Homebrew Channel, and launch the Load Priiloader app.
+1. Priiloader 설치 프로그램을 실행합니다.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
 
     ![](/images/priiloader/installer.png)
@@ -68,39 +68,39 @@ If you are using a vWii:
 
 Later on, to enter it you can:
 
-+ Hold the RESET on a Wii while turning it on
++ Holding RESET on a Wii while turning it on.
     + Wii Only
-+ Hold the ESC key on a connected USB keyboard while turning on the console
++ Holding the ESC key on a USB keyboard while turning on the console.
     + Wii, vWii and Mini
 + Run the "Load Priiloader" tool from the HBC
     + Wii, vWii and Mini
-+ Run the "Priiloader Wii U Forwarder" tool
++ Wii에서 홈브류 채널을 실행합니다.
     + vWii Only
 
-#### Section IV - Configuring Priiloader
+#### Priiloader 구성
 
 1. Scroll down to `System Menu Hacks` and press `A`.
 
     ![](/images/priiloader/menu_hacks.png)
 
-    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br> Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
+    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br> This causes Priiloader to fail to find the `hacks_hash.ini` file.
     {: .notice--warning}
 
-1. Scroll down to each of the following options and press `A`:
+1. Scroll down to `Settings` and press A.
     + `Block Online Updates`
     + If you are NOT using a CRT display: `Remove Deflicker`
 1. For the following options, enable the options according to your console:
     + Wii:
-        + If you are using 480p mode: `480p graphics fix in the system menu`
+        + 480p graphics fix in system menu
         + Block Disc Updates
     + Wii mini:
-        + Block Disc UPdates
+        + Block Disc Updates
 1. Scroll down to `save settings` and press A.
 1. Press `B` to return to the main menu.
 
 ### Wii mini: Next Steps
 
-Continue to [Wii mini cIOS](cios-mini)<br> This guide provides installation instructions for cIOS on Wii minis.
+[Continue to the Dos and Don'ts of Wii Modding](dosanddonts)<br> These are some guidelines to ensure you don't brick your Wii.
 {: .notice--info}
 
 ### Wii: Next Steps
@@ -111,5 +111,5 @@ If you have made it to this point, congrats! You are finished with the required 
 Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
 {: .notice--info}
 
-[View the Brick Prevention Guidelines](bricks#brick-prevention)<br> These guidelines list ways that to avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
+Allows the Wii Menu to launch discs (this is only the Wii Backup Disc) that use IOS16.
 {: .notice--info}

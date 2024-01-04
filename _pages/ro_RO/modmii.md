@@ -115,5 +115,5 @@ Când urmărești una dintre ghidurile de exploit-uri de mai sus, evită să în
 
 </details>
 
-[Click aici pentru a reveni la indexul site-ului.](site-navigation)
+[Click here to view all of our tutorials that you can find on this website!](site-navigation)
 {: .notice--info}

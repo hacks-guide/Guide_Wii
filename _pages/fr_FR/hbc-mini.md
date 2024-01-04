@@ -26,5 +26,5 @@ Bien qu'il soit possible d'installer BootMii sur une Wii mini, vous devrez soude
 1. Appuyez sur `Continue` une fois terminé.
 1. Une fois terminé, sélectionnez `Exit` pour quitter l'installateur HackMii.
 
-[Continuer pour installer Priiloader](priiloader) <br> Priiloader offre une protection contre les bricks, et il est fortement recommandé de l'installer.
+[Continue to installing Priiloader](priiloader) <br> Priiloader offers protection from bricks, and is highly recommended to install.
 {: .notice--info}

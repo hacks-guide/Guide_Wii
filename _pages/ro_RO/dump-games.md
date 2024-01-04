@@ -18,12 +18,12 @@ This guide covers dumping GameCube or Wii game discs. You can either dump direct
 If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), set `Dual Layer` in Step 6 to `Yes`.
 {: .notice--info}
 
-1. Oprește consola.
-1. Insert your SD card or USB drive into your computer.
-1. Copy the `apps` folder from the CleanRip `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
-1. Pornește consola.
-1. Launch the Homebrew Channel.
+1. Copy all the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
+1. Open the folder in File Explorer.
+1. While holding Shift, right click on an empty space within the folder.
+1. Select "Open PowerShell window here".
+1. In the new window that appears, type `cmd` and press enter.
+1. Finally, type `copy /b *.part?.iso game.iso` and press enter.
 1. Launch CleanRip from the list of homebrew.
 1. Select your device that you will be dumping the game to - a USB device or SD card.
 
@@ -61,15 +61,15 @@ If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.o
 
 #### Instrucțiuni
 
-Download speeds will be slow due to limitations in the network hardware of the Wii, but it remains a valid solution if you are willing to be patient.
+To organize the games on your drive properly, you'll need to use [Wii Backup Manager](wiibackupmanager).
 {: .notice--info}
 
 Your Wii and your computer must be connected to the same local network.
 {: .notice--warning}
 
-1. Copy the `DVDDumpTool` folder from the DVDDumpTool `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
-1. Pornește consola.
+1. Copy all the files that share the same name and end with `.partX.iso` in a folder on your computer.
+1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel
+1. Use the `cd <path>` command and replace `<path>` by the path to your `.partX.iso` files.
 1. Launch the Homebrew Channel.
 1. Launch DVD Dump Tool from the list of homebrew.
 1. Press right on the D-pad, then press A.

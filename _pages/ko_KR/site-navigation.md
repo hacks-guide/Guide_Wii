@@ -5,20 +5,19 @@ sitemap: false
 ---
 
 {% capture notice-1 %}
-**Site**
-+ [홈페이지](/)
+**사이트**
++ [홈](/)
 + [시작하기](get-started)
-+ [자주 묻는 질문](faq)
-+ [Donations](donations)
++ [자주 묻는 질문(FAQ)](faq)
++ [기부](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**Wii Online Services**
+**Wii자습서**
 + [Nintendo Wi-Fi Connection](wiimmfi)
-+ [Setting RTC Time](wiiconnect24#updating-rtc-clock)
-+ [WiiConnect24](wiiconnect24)
-{% endcapture %}
++ [RTC 시간 설정](wiiconnect24#updating-rtc-clock)
++ RiiConnect24, WiiLink, Wiimmfi
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-3 %}
@@ -28,50 +27,45 @@ sitemap: false
 + [Legacy Exploits](legacy-exploits)
 + [LetterBomb](letterbomb)
 + [str2hax](str2hax)
-+ [Wilbrand](wilbrand)
++ [Wiimmfi](wiimmfi)
 {% endcapture %}
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-4 %}
-**Modding 101 - Wii Essentials**
-+ [BootMii Backup](bootmii)
-+ [BootMii Recovery](bootmiirecover)
-+ [Brick Overview](bricks)
+**Wii Mod Lite**
++ [BootMii 백업](bootmii)
++ [BootMii Recovery (RestoreMii)](bootmiirecover)
++ [Types of Bricks](bricks)
 + [Brick Prevention](bricks#brick-prevention)
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
-+ [Relaunching the HackMii Installer](hackmii)
-+ [Updating Wii Menu to v4.3](update)
-+ [Wii mini NAND Dumper](wnd-mini)
-+ [YAWM ModMii Edition](yawmme)
-{% endcapture %}
++ [HackMii 설치 프로그램 다시 시작하기](hackmii)
++ [Wii 메뉴 v4.3으로 업데이트하기](update)
++ [Wii U를 위한 RiiTag](wnd-mini)
++ YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 
 {% capture notice-5 %}
-**Homebrew**
-+ [Creating Wii Game Shortcuts](wiigsc)
-+ [GameCube Backup Manager](gcbackupmanager)
-+ [How to dump Channels (WADs)](dump-wads)
-+ [How to dump GameCube/Wii Games](dump-games)
-+ [RSSMii](rssmii)
-+ [Managing GameCube Save Files](gcsaves)
-+ [Nintendont](nintendont)
-+ [Playing Wii Game Mods](riivolution)
+**Homebrew Browser**
++ [Wii 게임 바로가기 만들기](wiigsc)
++ [게임큐브 백업 관리자](gcbackupmanager)
++ [채널 (WAD) 을 덤프하는 방법](dump-wads)
++ [GameCube/Wii 게임 삭제 방법](dump-games)
++ [RSSMii 제거](rssmii)
++ [게임큐브 저장 파일 관리](gcsaves)
 + [Priiloader Usage](priiloader-usage)
-+ [Recommended Homebrew](recommended-homebrew)
-+ [USB Loaders](wii-loaders)
-+ [Using SysCheck](syscheck)
++ [추천](recommended-homebrew)
++ [USB 로더 GX](wii-loaders)
++ [SysCheck 수행](syscheck)
 + [Wii Backup Manager](wiibackupmanager)
-+ [Wii Themes Guide](themes)
-{% endcapture %}
++ vWii에 Wii 메뉴 테마 설치하기
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
-**Wii mini**
-+ [Installing the Homebrew Channel on the Wii mini](hbc-mini)
-+ [Installing cIOS on the Wii mini](cios-mini)
-{% endcapture %}
+**Wii 미니**
++ [Wii 미니에 홈브류 채널 설치하기](hbc-mini)
++ Wii 미니에 cIOS 설치하기
 <div class="notice--primary">{{ notice-6 | markdownify }}</div>

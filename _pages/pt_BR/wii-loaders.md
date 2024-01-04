@@ -94,11 +94,11 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 ### USB Loader GX
 
 #### Requisitos
-+ A modded Wii
++ Um Wii
 + The latest version of [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
-#### Installation
+#### Instalação
 
 1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
 1. Download USB Loader GX and install it on your SD Card or USB device.
@@ -161,12 +161,12 @@ To change the cIOS used for a specific game, follow the instructions specific to
     + Try using 248, 249, 250 or 251.
 1. Press OK and try to load the game.
 
-#### WiiFlow Lite
+#### http://www.wiithemer.org/
 1. Select the game that isn't working.
 1. Click the gear icon.
 1. Go to cIOS and use the arrows to select the IOS slot to use.
     + Try using 248, 249, 250 or 251.
 1. Press Save and try to load the game.
 
-[Continue to Nintendont](nintendont) Now that you have installed a USB loader of some type for Wii games, you can install a similar type of application for effectively native playback of GameCube games.
+[Clique aqui para voltar ao índice do site.](site-navigation)
 {: .notice--info}

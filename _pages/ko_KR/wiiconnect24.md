@@ -42,16 +42,16 @@ Service support status can be found [here](https://rc24.xyz/stats/).<br> RiiConn
 ### Updating RTC Clock
 If you choose to install either of these services on your Wii, it is advised to synchronize its external clock in order to prevent various issues (such as inability to use said services) that may arise otherwise. The steps to do so can be found below:
 
-#### What you need
+#### 필요한 것
 + A working Internet connection on your Wii
-+ The Homebrew Channel
++ 홈브류 채널
 + SD 카드 또는 USB 드라이브
 + [sntp](https://oscwii.org/library/app/sntp)
 
 #### 진행 방법
 1. Download and extract the sntp zip to the root of your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii.
-1. Launch the Homebrew Channel on your Wii.
+1. Wii에서 홈브류 채널을 실행합니다.
 1. Launch sntp.
 1. Use the +Control Pad to select the current time.
 1. Press the HOME Button to exit.

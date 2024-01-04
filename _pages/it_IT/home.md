@@ -24,7 +24,7 @@ Ecco degli esempi comuni di cosa il software homebrew può fare per il tuo Wii:
 + Eseguire [backup](bootmii) e [ripristinare](bootmiirecover) la NAND (memoria di sistema) del tuo Wii
 + Aumentare la [protezione dai brick](priiloader) del tuo Wii
 + Scaricare nuove applicazioni homebrew con [Open Shop Channel](osc)
-+ [Modificare il contenuto dei dischi di giochi](riivolution) per avviare delle patch
++ [Modificare il contenuto dei dischi di giochi](https://wiki.hacks.guide/wiki/Wii:Riivolution) per avviare delle patch
 + Installare [temi](themes) sul Menu Wii e nelle applicazioni homebrew più usate
 + Eseguire backup dei tuoi [dischi](dump-games) e di [altri titoli installati](dump-wads)
 + Installare un [USB loader](wii-loaders) per lanciare backup di giochi Wii (e altre console) da un dispositivo di massa esterno

@@ -2,7 +2,7 @@
 title: "WiiConnect24"
 ---
 
-{% include toc title="Inhalt" %}
+{% include toc title="Inhaltsverzeichnis" %}
 
 This guide provides different means of regaining WiiConnect24 functionality on your console. Although not at all nessecary, it is a "nice to have" feature that was originally used for online connectivity in certain applications on the console. These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Channel, some Japan-exclusive channels, and more. Please bear in mind, the functionality you gain depends entirely on what service(s) you use.
 
@@ -45,13 +45,13 @@ If you choose to install either of these services on your Wii, it is advised to 
 #### What you need
 + A working Internet connection on your Wii
 + The Homebrew Channel
-+ An SD card or USB drive
++ Eine SD-Karte oder ein USB-Laufwerk
 + [sntp](https://oscwii.org/library/app/sntp)
 
 #### Anleitung
 1. Download and extract the sntp zip to the root of your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii.
-1. Launch the Homebrew Channel on your Wii.
+1. Starte den Homebrew-Kanal auf deiner Wii.
 1. Launch sntp.
 1. Use the +Control Pad to select the current time.
 1. Press the HOME Button to exit.

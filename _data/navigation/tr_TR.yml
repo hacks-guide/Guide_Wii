@@ -1,10 +1,10 @@
 ---
 main:
   - 
-    title: Home
+    title: Wii Guide
     url: /
   - 
-    title: Get Started
+    title: Start Here
     url: get-started
   - 
     title: Site Navigation
@@ -26,7 +26,7 @@ footer:
     title: Site Navigation
     url: site-navigation
   - 
-    title: Privacy Policy
+    title: Donations
     url: privacy-policy
   - 
     title: Donations
@@ -36,23 +36,23 @@ sidebar_title:
     title: Overall Progress
 sidebar_pages:
   - 
-    title: Home
+    title: Wii Guide
     url: /
   - 
-    title: Get Started
+    title: FAQ
     url: get-started
   - 
-    title: LetterBomb
+    title: Donations
     url: letterbomb
   - 
-    title: BlueBomb
+    title: Credits
     url: bluebomb
   - 
-    title: FlashHax
+    title: RiiConnect24
     url: flashhax
   - 
-    title: str2hax
-    url: str2hax
+    title: Wiimmfi
+    url: Wiimmfi
   - 
     title: Wilbrand
     url: wilbrand

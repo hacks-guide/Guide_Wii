@@ -12,10 +12,10 @@ Bien que [cIOS](https://wiibrew.org/wiki/Custom_IOS) ait été largement remplac
 Ce guide est uniquement pour les Wii Mini. Si vous avez une Wii, suivez [ce guide](cios) à la place.
 {: .notice--warning}
 
-N'essayez pas d'installer un IOS pour Wii ou un Menu Système sur la Wii mini. Cela va probablement [briquer](bricks#ios-brick) votre console.
+N'essayez pas d'installer un IOS pour Wii ou un Menu Système sur la Wii mini. Doing so will likely brick your console.
 {: .notice--warning}
 
-Cette version de `d2x cIOS installer` a été initialement développé pour la vWii de la Wii U par DaveBaol et les cIOS pour la Wii Mini ont étés créés par Leseratte. La page originale de téléchargement peut être trouvée [ici](https://wii.leseratte10.de/d2xl-cIOS/). La page GitHub de Leseratte peut être trouvée [ici](https://github.com/Leseratte10/d2xl-cios). Veuillez noter que ce cIOS est encore expérimental, bien qu'aucun problème de fonctionnalité n'ait été signalé.
+Cette version de `d2x cIOS installer` a été initialement développé pour la vWii de la Wii U par DaveBaol et les cIOS pour la Wii Mini ont étés créés par Leseratte. La page originale de téléchargement peut être trouvée [ici](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's Github page can be found [here](https://github.com/Leseratte10/d2xl-cios). Veuillez noter que ce cIOS est encore expérimental, bien qu'aucun problème de fonctionnalité n'ait été signalé.
 {: .notice--info}
 
 ### Prérequis
@@ -30,8 +30,8 @@ Cette version de `d2x cIOS installer` a été initialement développé pour la v
 
 1. Éteignez votre console.
 1. Insérez votre clé USB dans votre ordinateur.
-1. Créez un dossier nommé `apps` à la racine de votre clé USB s'il n'existe pas déjà.
-1. Copiez le dossier `d2x-cios-installer` du fichier `d2xl_wii_mini_cIOS_installer.zip` vers le dossier `apps` de votre clé USB.
+1. You can now use homebrew such as [USB Loader GX](usbloadergx) and [WiiFlow](wiiflow).
+1. Extract the d2xl cIOS Installer to the `apps` folder on your USB drive.
 1. Réinsérez votre clé USB dans votre console.
 1. Allumez votre console.
 1. Lancez la Chaîne Homebrew.
@@ -40,16 +40,16 @@ Cette version de `d2x cIOS installer` a été initialement développé pour la v
 #### Section II - Installation
 
 1. Sélectionnez `Continue`.
-1. Définissez les options à ce qui suit :
+1. Press continue, then set the options to the following:
     ```
     Select cIOS <d2xl-v1-beta2>
     Select cIOS base <57>
     Select cIOS slot <249>
     ```
     + Prenez note du numéro de version en dessous de "notes" (`IOS57-64-` se termine par `v31776` ou `v31775`)
-1. Appuyez sur A pour installer.
+1. Once set, press A to install.
     + Si l'installation échoue avec une version `TMD version mismatch` , appuyez sur la gauche ou la droite avec la croix directionnelle sur l'option `Select cIOS base` jusqu'à ce que le numéro de version soit différent de celui que vous avez essayé auparavant. Le numéro 57 ne changera pas.
-1. Une fois l'installation terminée, quittez l'installateur.
+1. Once done successfully, exit the installer.
 
 [Continue to making a NAND Backup using RealWnd](wnd-mini)
 {: .notice--info}

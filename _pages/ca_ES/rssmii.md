@@ -4,7 +4,7 @@ title: "Installing RSSMii"
 
 {% include toc title="Table of Contents" %}
 
-This guide provides instructions on installing RSSMii, a homebrew app that parses RSS feeds from your SD card and sends them to your Wii Menu.
+If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
 
 Due to the nature of RSS feeds and the large amount of mail they can generate, this app has a larger than zero chance of [bricking](bricks#mail-brick) your Wii. Consider using News Channel from a WiiConnect24 revival provider instead, and request an addition to their service should you find out that your intended RSS feed isn't being provided. If you decide to use RSSMii anyway, limit the number of feeds you subscribe to.
 {: .notice--danger}
@@ -21,7 +21,7 @@ If you're not receiving updates after a few days, you might need to subscribe to
 #### Section I - Downloading/Installing
 
 1. Extract RSSMii and put it in the `apps` folder on your SD card.
-1. Create a `feeds.xml` on the root of the SD card so the app can parse your feeds.
+1. We need to create a `feeds.xml` on the root of the SD card so the app will know what feeds to subscribe you to.
 
 + If you're using Windows, you can use [RSS Feeds Creator](https://github.com/RiiConnect24/rssmii/releases/download/v1.4.1/RSSFeedsCreator.bat). It will automatically create a `feeds.xml` file and will copy it to your SD card.
 
@@ -64,5 +64,5 @@ If you're not receiving updates after a few days, you might need to subscribe to
 1. Delete the `feeds.xml` file on the root of your SD card.
 1. Launch RSSMii Remover from the Homebrew Channel. It will remove your subscriptions to the RSS feeds.
 
-[Click here to go back to the site index.](site-navigation)
+[Click here to view all of our tutorials that you can find on this website!](site-navigation)
 {: .notice--info}

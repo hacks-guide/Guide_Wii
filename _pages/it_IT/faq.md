@@ -12,7 +12,7 @@ Non molto rischioso onestamente, dipende dalla tua console. Il Wii ha molte meno
 ### Ricevo un errore XXXXXX, come lo sistemo?
 Per verificare il significato dell'errore, per favore visita [La pagina degli errori di Wiimmfi](https://wiimmfi.de/error). Gli errori più comuni hanno le correzioni elencate sotto:
 
-#### Errore 01530/51330
+#### Errore 051330/51330
 
 Esegui un test della connessione Internet andando su `Impostazioni Wii > Internet > Impostazioni di Collegamento > Connessione Wi-Fi > Prova di Connessione`
 
@@ -41,7 +41,7 @@ Se ottieni questo errore, il server DNS che hai scelto o il tuo internet nella s
 Se ottieni l'errore FORE000006, il tuo orologio del Wii è probabilmente impostato incorrettamente. Vedi [qui](wiiconnect24#updating-rtc-clock) per istruzioni su come resettarlo correttamente. Se il problema persiste, rimuovi la batteria dell'orologio del Wii (si trova nella parte inferiore del sistema dietro a una vite) per un'ora e reinseriscila. Poi, resetta l'orologio del Wii.
 
 ### Come si rimuove il Filtro Famiglia?
-Il [generatore mkey](https://mkey.salthax.org) può generare il codice richiesto per rimuovere il Filtro Famiglia.
+Il programma [mkey generator](https://mkey.eiphax.tech/) può generare la chiave richiesta per rimuovere il Filtro Famiglia.
 
 ### Penso che il mio Wii sia brickato, o che abbia qualcosa di davvero sbagliato, cosa faccio?
 Vedi [questa](bricks) pagina.

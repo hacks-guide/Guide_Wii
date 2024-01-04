@@ -2,7 +2,7 @@
 title: "Open Shop Channel"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
 For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
 {: .notice--primary}
@@ -16,7 +16,7 @@ There are two methods to use the Open Shop Channel: on your Wii through the Home
 #### Requirements
 
 + A homebrewed Wii with an active Internet connection
-+ An SD card or USB drive
++ 一張 SD 卡或 USB 隨身碟
 + [The Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
 #### Instructions
@@ -33,7 +33,7 @@ There are two methods to use the Open Shop Channel: on your Wii through the Home
 #### Requirements
 
 + A Windows/macOS/Linux computer with an internet connection
-+ An SD card or USB drive
++ 一張 SD 卡或 USB 隨身碟
 + The latest version of [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)
 
 #### Instructions for Windows

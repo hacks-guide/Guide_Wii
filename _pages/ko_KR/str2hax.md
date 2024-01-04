@@ -4,91 +4,91 @@ title: "str2hax"
 
 {% include toc title="목차" %}
 
-Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
+커스텀 DNS 서버를 막는 ISP (인터넷 서비스 제공자) 나 네트워크 환경인 경우, str2hax는 작동하지 않을 것이며 [다른 취약점을 이용](get-started)해야 합니다.
 {: .notice--warning}
 
-str2hax is an exploit for the Wii that is triggered by loading the Wii's End User License Agreement. It requires nothing but an Internet connection that lets you change the DNS on your Wii.
+str2hax는 Wii의 최종 사용자 라이선스 동의서를 이용해서 실행되는 Wii의 취약점입니다. 아무것도 필요하지 않으나 Wii의 DNS를 변경할 수 있게 하는 인터넷 연결이 필요합니다.
 
-### 준비물
+### 필요한 것
 
-* A Wii with an Internet connection
+* 인터넷 연결이 있는 Wii
 
 ### 진행 방법
 
-#### Common issues
+#### 일반적인 문제
 
-If you get the normal User Agreements, your ISP blocks the use of custom DNS. Please [use another exploit](get-started).
+일반 사용자 동의를 받으면 ISP가 커스텀 DNS 사용을 차단합니다. [다른 취약점 공격을 사용](get-started)하세요.
 {: .notice--warning}
 
-If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+2분 이상 지나도 HackMii Installer가 로딩되지 않거나, `멈춤`과 같은 오류가 발생하면 `오류입니다! if_config (ret = ...)`이면 Wii를 재시작하고 다시 시도합니다.
 {: .notice--warning}
 
-If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
+CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가 대신 해당 Mod를 로드할 수 있습니다. 이 경우 Wii를 재시동하고 SD 카드를 연결하지 않은 상태에서 다시 시도합니다.
 {: .notice--warning}
 
-#### Section I - Connecting
+#### 섹션 I - 연결
 
-This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
+이 취약점 공격을 사용하려면 취약점 공격이 포함된 서버에 연결하기 위해 DNS를 설정해야 합니다.
 
 1. 콘솔의 전원을 켜 주세요.
-1. Go to `Wii Options`.
+1. `Wii 옵션`으로 이동하세요.
 
     ![](/images/riiconnect24/Internet_1.png)
 
-1. Go to `Wii Settings`.
+1. `Wii 설정`으로 이동하세요.
 
     ![](/images/riiconnect24/Internet_2.png)
 
-1. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
+1. `페이지 2`로 이동하고, `인터넷`을 클릭하세요.
 
     ![](/images/riiconnect24/Internet_3.png)
 
     ![](/images/riiconnect24/Internet_4.png)
 
-1. Click on your network connection slot and navigate to `Change Settings`.
+1. `연결 설정`으로 이동합니다.
 
     ![](/images/riiconnect24/Internet_5.png)
 
     ![](/images/riiconnect24/Internet_6.png)
 
-1. Set `Auto-Obtain DNS` to `No`, then click `Advanced Settings`.
+1. `DNS 자동 연결` (IP 주소가 아님) 으로 이동해서 `끄기`를 선택하고, `고급 설정`으로 들어갑니다.
 
     ![](/images/riiconnect24/Internet_7.png)
 
-1. Set the Primary DNS to `18.188.135.9`.
+1. `18.188.135.9`을 기본 DNS로 입력합니다.
 
     ![](/images/exploits/str2hax/dns.png)
 
-    If there are 3 fields instead of 2 (like above), go back and make sure you are on the `Auto-Obtain DNS` page.
+    위와 같이 필드가 2개가 아닌 3개인 경우, 돌아가서 `자동 DNS 가져오기` 페이지에 있는지 확인합니다.
     {: .notice--warning}
 
-1. Click `Confirm`, then click `Save`.
+1. `확인`을 선택한 다음, `저장`을 선택합니다.
 
     ![](/images/riiconnect24/Internet_10.png)
 
-1. When prompted, click `OK` to perform the connection test.
+1. `확인`을 선택하여 연결 테스트를 수행합니다
 
     ![](/images/riiconnect24/Internet_11.png)
 
     ![](/images/riiconnect24/Internet_12.png)
 
-    + If the connection test was successful, select `No` to skip the Wii System Update.
-    + If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
-    + If it is still unsuccessful, please [use another exploit](get-started).
+    + 연결 테스트에 성공했다면 `아니요`를 선택하여 Wii 시스템 업데이트를 건너뜁니다.
+    + 오류 코드 `521xx`으로 실패하면 DNS를 올바르게 입력했는지 확인합니다.
+    + 그래도 성공하지 못하면 [다른 취약점 공격을 사용](get-started)합니다.
 
-#### Section II - Triggering the Exploit
+#### 섹션 II - 취약점 실행하기
 
-1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
-1. Select `Yes`.
-1. Click on `Next`.
-    + You should be greeted with the following screen:
+1. `인터넷` 섹션으로 이동한 다음 `사용자 계약` 또는 `계약/연락처`로 이동한 다음 `예`로 이동합니다.
+1. `다음`을 클릭합니다.
+1. `설정 편집`으로 이동합니다.
+    + 다음과 같은 화면이 표시됩니다:
 
     ![](/images/exploits/str2hax/EULA.png)
 
-1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
+1. 취약점 공격이 다운로드될 때까지 1~2분 정도 기다립니다 (`동의함`/`동의하지 않음`을 누르지 마세요).
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
 
     ![](/images/hackmii/scam.png)
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[홈브류 채널 및 BootMii 설치로 계속 진행하기](hbc)
 {: .notice--info}

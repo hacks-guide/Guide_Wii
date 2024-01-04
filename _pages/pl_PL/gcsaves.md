@@ -6,7 +6,7 @@ title: "GameCube Saves"
 
 This is a full guide on how to manage your GameCube saves.
 
-Use of any GameCube peripheral with a Family Edition Wii or Wii mini require soldering on GameCube ports and/or memory card slots.
+Use of any GameCube peripheral with a Family Edition Wii or Wii Mini require soldering on GameCube ports and/or memory card slots.
 {: .notice--info}
 
 ## Uploading an Individual Save (.gci File) to a Physical Memory Card

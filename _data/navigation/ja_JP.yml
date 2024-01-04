@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: ホーム
+    title: Wii Guide
     url: /
   - 
     title: はじめに
@@ -26,7 +26,7 @@ footer:
     title: サイトガイダンス
     url: site-navigation
   - 
-    title: プライバシーポリシー
+    title: Donations
     url: privacy-policy
   - 
     title: 寄付
@@ -36,23 +36,23 @@ sidebar_title:
     title: 進捗
 sidebar_pages:
   - 
-    title: ホーム
+    title: Wii Guide
     url: /
   - 
-    title: 始めに
+    title: FAQ
     url: get-started
   - 
-    title: LetterBomb
+    title: Donations
     url: letterbomb
   - 
     title: BlueBomb
     url: bluebomb
   - 
-    title: FlashHax
+    title: RiiConnect24
     url: flashhax
   - 
-    title: str2hax
-    url: str2hax
+    title: Wiimmfi
+    url: Wiimmfi
   - 
     title: Wilbrand
     url: wilbrand

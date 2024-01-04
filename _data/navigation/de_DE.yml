@@ -1,58 +1,58 @@
 ---
 main:
   - 
-    title: Home
+    title: Wii Guide
     url: /
   - 
-    title: Erste Schritte
+    title: Beginne hier
     url: get-started
   - 
     title: Seitennavigation
     url: site-navigation
   - 
-    title: FAQ
+    title: FAQ (Häufig gestellte Fragen)
     url: faq
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: Diese Website verwendet Cookies, um den aktuellen Anleitungsfortschritt auf der Seitenleiste anzuzeigen und die Website anderweitig zu verbessern.
 bottom:
   - 
     title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
 footer:
   - 
-    title: Source
+    title: Quellcode
     url: https://github.com/hacks-guide/Guide_Wii
   - 
     title: Seitennavigation
     url: site-navigation
   - 
-    title: Privacy Policy
+    title: Spenden
     url: privacy-policy
   - 
     title: Donations
     url: donations
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Gesamtfortschritt
 sidebar_pages:
   - 
-    title: Home
+    title: Wii Guide
     url: /
   - 
-    title: Erste Schritte
+    title: FAQ (Häufig gestellte Fragen)
     url: get-started
   - 
-    title: LetterBomb
+    title: Spenden
     url: letterbomb
   - 
-    title: BlueBomb
+    title: Credits
     url: bluebomb
   - 
-    title: FlashHax
+    title: RiiConnect24
     url: flashhax
   - 
-    title: str2hax
-    url: str2hax
+    title: Wiimmfi
+    url: Wiimmfi
   - 
     title: Wilbrand
     url: wilbrand

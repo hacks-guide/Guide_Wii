@@ -1,5 +1,5 @@
 ---
-title: "FlashHax"
+title: "RiiConnect24"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -16,11 +16,11 @@ FlashHax is an exploit for the Wii that is triggered by using the Internet Chann
 #### Section I - Prep Work
 
 1. Wiiの電源を入れます。
-1. Launch the Internet Channel.
+1. Open up the Internet Channel on your Wii.
 
     ![](/images/exploits/flashhax/internet-channel-start.png)
 
-1. Go to `flashhax.com`.
+1. Go to flashhax.com in the browser and bookmark the page.
 1. Select the correct region for your console.
 
     ![](/images/exploits/flashhax/select-region.png)
@@ -39,9 +39,9 @@ FlashHax is an exploit for the Wii that is triggered by using the Internet Chann
 
     ![](/images/exploits/flashhax/wait-for-download.png)
 
-1. 成功すると、WiiはHackMiiインストーラーをロードします。
+1. It'll then proceed to download and load the HackMii Installer.
     + This may take multiple tries.
-    + If the HackMii Installer doesn't load and it instead freezes (you can't move your cursor), restart your Wii, launch the Internet Channel, then retry this section.
+    + If the HackMii Installer doesn't load and it instead freezes (you can't move your cursor), please restart your Wii and repeat step 3 until it works. It might take multiple tries, be persistent!
 
 If you still can't get it to load, try deleting your cookies or save data for the Internet Channel.
 

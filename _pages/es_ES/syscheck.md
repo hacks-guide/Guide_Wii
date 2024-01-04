@@ -1,10 +1,10 @@
 ---
-title: "SysCheck"
+title: "Realizar un SysCheck"
 ---
 
-{% include toc title="Índice" %}
+{% include toc title="Tabla de contenido" %}
 
-A SysCheck lists all the IOS and cIOS that are on your Wii, along with some information about each of them. It also gives you some other useful information. When you have IOS-related problems on your Wii, someone might ask you to do a SysCheck.
+Un SysCheck es un diagnóstico que proporciona información sobre todos los IOS y cIOS que están instalados en tu consola. Tambien recopila otros datos útiles sobre el sistema. Cuando tienes problemas con los IOS de tu consola, es posible que debas realizar un SysCheck al momento de solicitar apoyo a alguien.
 
 ### Requisitos
 
@@ -12,24 +12,24 @@ A SysCheck lists all the IOS and cIOS that are on your Wii, along with some info
 * [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME)
 
 ### Instrucciones
-#### Section I - Downloading/Installing
+#### Sección I - Descarga/instalación
 
-1. Extract SysCheck ModMii Edition to your SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii, and launch SysCheck ModMii Edition from the Homebrew Channel.
+1. Extrae el archivo de SysCheck ModMii Edition a la raíz de tu tarjeta SD o unidad USB.
+1. Inserta la tarjeta SD o unidad USB en tu consola, e inicia SysCheck ModMii Edition desde el Canal Homebrew.
 
-#### Section II - Performing a SysCheck
+#### Sección II - Realizando el SysCheck
 
-1. Wait for the program to get some information about your Wii.
-1. When "This IOS will be tested (Please select)" is shown on the screen, press A.
+1. Espera a que la aplicación recopile información sobre tu Wii.
+1. Cuando aparezca el mensaje `This IOS will be tested (Please select)`, oprime A.
 
     ![](/images/homebrew/syscheck/syscheck_chooseios.png)
 
-1. Wait for the program to get some information about your IOS.
+1. Espera a que la aplicación obtenga información sobre tus IOS.
 1. After it finishes, press the `A` Button if you want to view the log.
 
     ![](/images/homebrew/syscheck/syscheck_success.png)
 
-1. If you want to share the SysCheck, you can share the `syscheck.csv` file on the root of your SD card or USB drive. You can also press `A`, which will upload the report to [syscheck.rc24.xyz](http://syscheck.rc24.xyz/).
+1. Tambien puedes compartir el archivo `sysCheck.csv`, el cual se encuentra en la raíz de la tarjeta SD o unidad USB. Si deseas compartir el SysCheck, puedes oprimir A para subir el registro a [syscheck.rc24.xyz](http://syscheck.rc24.xyz/), tras lo cual recibirás un enlace.
 
 [Haz clic aquí para volver al índice del sitio.](site-navigation)
 {: .notice--info}

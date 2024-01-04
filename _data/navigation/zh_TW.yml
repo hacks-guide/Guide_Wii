@@ -1,58 +1,58 @@
 ---
 main:
   - 
-    title: Home
+    title: Wii 改機手冊
     url: /
   - 
-    title: Get Started
+    title: 由此處開始
     url: get-started
   - 
-    title: Site Navigation
+    title: 網站導覽
     url: site-navigation
   - 
-    title: FAQ
+    title: 常見問題
     url: faq
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: 此網站透過 Cookies 來顯示您手冊的操作進度以及提升此網站的使用經驗。
 bottom:
   - 
     title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
 footer:
   - 
-    title: Source
+    title: 原始碼
     url: https://github.com/hacks-guide/Guide_Wii
   - 
-    title: Site Navigation
+    title: 網站導覽
     url: site-navigation
   - 
-    title: Privacy Policy
+    title: 贊助
     url: privacy-policy
   - 
     title: Donations
     url: donations
 sidebar_title:
   - 
-    title: Overall Progress
+    title: 整體進度
 sidebar_pages:
   - 
-    title: Home
+    title: Wii 改機手冊
     url: /
   - 
-    title: Get Started
+    title: 常見問題
     url: get-started
   - 
-    title: LetterBomb
+    title: 贊助
     url: letterbomb
   - 
-    title: BlueBomb
+    title: 製作群
     url: bluebomb
   - 
-    title: FlashHax
+    title: RiiConnect24
     url: flashhax
   - 
-    title: str2hax
-    url: str2hax
+    title: Wiimmfi
+    url: Wiimmfi
   - 
     title: Wilbrand
     url: wilbrand

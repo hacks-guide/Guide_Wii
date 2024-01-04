@@ -58,8 +58,6 @@ sitemap: false
 + [Come preservare giochi Wii e GameCube](dump-games)
 + [RSSMii](rssmii)
 + [Come gestire i salvataggi GameCube](gcsaves)
-+ [Nintendont](nintendont)
-+ [Come giocare a RomHacks di giochi Wii](riivolution)
 + [Usare Priiloader](priiloader-usage)
 + [App Homebrew consigliate](recommended-homebrew)
 + [USB Loaders](wii-loaders)

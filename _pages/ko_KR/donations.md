@@ -1,5 +1,5 @@
 ---
-title: "기부하기"
+title: "기부"
 ---
 
 [![Paypal]({{ base_path }}/images/main-pages/donations/paypal_white.png){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://paypal.me/NintendoHomebrew){: .align-center}
