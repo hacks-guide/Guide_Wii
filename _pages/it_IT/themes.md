@@ -54,8 +54,8 @@ Se non ti va di usare un programma esterno per la creazione di un tema, puoi anc
 
 1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
 1. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
-1. Copy the theme file to the storage medium under the `themes` directory.
-1. Inserisci il supporto di archiviazione nel tuo Wii e avvialo.
+1. Copy your `.csm` file to the `themes` directory.
+1. Insert your SD card or USB drive into your Wii, and launch the Homebrew Channel.
 1. Launch csm-installer, and wait for it to load.
 1. Select the theme you would like to install with `A`. A questo punto, devi essere assolutamente sicuro che hai scaricato il tema corretto per la tua versione del Menu di sistema e regione.
 1. Press `+` to install the theme.
