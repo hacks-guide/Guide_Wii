@@ -54,8 +54,8 @@ If you don't want to go through the hassle of using an external program to build
 
 1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
 1. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
-1. Copy the theme file to the storage medium under the `themes` directory.
-1. Launch MyMenuify Mod from the Homebrew Channel.
+1. Copy your `.csm` file to the `themes` directory.
+1. Insert your SD card or USB drive into your Wii, and launch the Homebrew Channel.
 1. Launch csm-installer, and wait for it to load.
 1. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
 1. Press `+` to install the theme.
