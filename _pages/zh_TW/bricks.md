@@ -75,7 +75,7 @@ A semibrick occurs when a different region Wii Menu or a different region custom
 #### 解決方式
 A semibrick occurs when a different region Wii Menu or a different region custom theme is installed. 這會導致 Wii 無法找到 Wii 設定頁面檔。
 
-If this was caused by a theme you installed, use MyMenuifyMod to re-download the original theme file.
+If this was caused by a theme you installed, use csm-installer to reinstall the original theme.
 
 If this was caused by a Wii Menu WAD you installed, use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to re-obtain your original Wii Menu.
 
