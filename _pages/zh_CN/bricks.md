@@ -75,7 +75,7 @@ Semibrick（半砖）在安装了不同区域的 Wii 菜单或不同区域的自
 #### 解决方案
 Verify in AnyRegion Changer that your console region is the same as the theme or Wii Menu that you have installed.
 
-如果这是由您安装的主题造成的，请使用 MyMenuifyMod 重新下载原始主题文件。
+If this was caused by a theme you installed, use csm-installer to reinstall the original theme.
 
 如果这是由您安装的 Wii 菜单 WAD 引起的，使用 [NUS Downloader](https://wiibrew.org/wiki/NUSD) 重新获取原始 Wii 菜单。
 
