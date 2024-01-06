@@ -76,7 +76,7 @@ A semibrick occurs when a different region Wii Menu or a different region custom
 #### Solutions
 Verify in AnyRegion Changer that your console region is the same as the theme or Wii Menu that you have installed.
 
-If this was caused by a theme you installed, use MyMenuifyMod to reinstall the original theme file.
+If this was caused by a theme you installed, use csm-installer to reinstall the original theme.
 
 If this was caused by a Wii Menu WAD you installed, use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to re-obtain your original Wii Menu.
 
