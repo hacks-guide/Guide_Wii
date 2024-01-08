@@ -60,6 +60,7 @@ sitemap: false
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
 + [RSSMii](rssmii)
++ [Transferring Save Games](transfer-saves)
 + [USB Loaders](wii-loaders)
 + [Using SysCheck](syscheck)
 + [Wii Themes Guide](themes)
