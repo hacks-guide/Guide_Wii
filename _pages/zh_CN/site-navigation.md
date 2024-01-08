@@ -44,6 +44,7 @@ sitemap: false
 + [Priiloader](priiloader)
 + [重新启动 HackMii Installer](hackmii)
 + [更新 Wii 菜单至 v4.3](update)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [riitag-wiiu](wnd-mini)
 + YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
@@ -51,16 +52,17 @@ sitemap: false
 {% capture notice-5 %}
 **Homebrew 自制软件**
 + [制作 Wii 游戏的快捷方式](wiigsc)
-+ [GameCube Backup Manager](gcbackupmanager)
 + [如何转存频道（WAD）](dump-wads)
 + [如何导出 GameCube/Wii 游戏](dump-games)
-+ [安装 RSSMii](rssmii)
++ [Managing GameCube Backups](gc-backups)
 + [管理 GameCube 存档文件](gcsaves)
++ [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
++ [安装 RSSMii](rssmii)
++ [Transferring Save Games](transfer-saves)
 + [USB Loader GX](wii-loaders)
 + [执行 SysCheck](syscheck)
-+ [Wii Backup Manager](wiibackupmanager)
 + 安装 Wii 菜单主题
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 

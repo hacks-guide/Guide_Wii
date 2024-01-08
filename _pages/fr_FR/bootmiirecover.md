@@ -12,7 +12,6 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Téléchargez [ce fichier zip](https://static.hackmii.com/bootmii_sd_files.zip) et extrayez-le à la racine de votre carte SD, puis réessayez.
 {: .notice--warning}
 
-
 Les Wii édition familiale (sans ports pour manettes GameCube) **NE PEUVENT PAS** restaurer une sauvegarde de la NAND. Ceci est dû à l'absence de ports GameCube qui sont requis sur les Wii non-boot2 pour entrer le code de confirmation de restauration. Pour obtenir de l'aide supplémentaire, veuillez demander au support.
 {: .notice--danger}
 

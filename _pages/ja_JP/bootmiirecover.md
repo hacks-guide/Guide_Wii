@@ -12,7 +12,6 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. [BootMiiのファイル](https://static.hackmii.com/bootmii_sd_files.zip)をダウンロードしてSDカードのルートにコピーし、もう一度試してください。
 {: .notice--warning}
 
-
 Wii Family EditionではNANDをリストアすることはできません。 Wii Family EditionではIOS版のBootMiiでNANDをリストアするときに必要となるGCコントローラー挿入口が削除されているからです。 何か不明な点があれば、ご相談ください。
 {: .notice--danger}
 

@@ -75,7 +75,7 @@ Se produce un semibloqueo cuando se instala un menú de Wii o un tema de otra re
 #### Soluciones
 Comprueba en AnyRegion Changer que la región de tu consola es la misma que la del tema o menú de Wii que tienes instalado.
 
-If this was caused by a theme you installed, use MyMenuifyMod to re-download the original theme file.
+If this was caused by a theme you installed, use csm-installer to reinstall the original theme.
 
 Si la causa ha sido una WAD del menú de Wii que has instalado, utiliza [NUS Downloader](https://wiibrew.org/wiki/NUSD) para obtener el menú de Wii original.
 

@@ -43,6 +43,7 @@ sitemap: falso
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [wiilink-demae-dominos](wnd-mini)
 + [Wiimmfi](wiimmfi)
 {% endcapture %}
@@ -51,16 +52,17 @@ sitemap: falso
 {% capture notice-5 %}
 **Homebrew**
 + [Creating Wii Game Shortcuts](wiigsc)
-+ [GameCube Backup Manager](gcbackupmanager)
 + [How to dump Channels (WADs)](dump-wads)
 + [How to dump GameCube/Wii Games](dump-games)
-+ [Installing RSSMii](rssmii)
++ [Managing GameCube Backups](gc-backups)
 + [Managing GameCube Save Files](gcsaves)
++ [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
++ [Installing RSSMii](rssmii)
++ [Transferring Save Games](transfer-saves)
 + [USB Loader GX](wii-loaders)
 + [Performing a SysCheck](syscheck)
-+ [Wii Backup Manager](wiibackupmanager)
 + Installing Wii Menu Themes on vWii
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
