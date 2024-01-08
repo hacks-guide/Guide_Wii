@@ -60,6 +60,7 @@ sitemap: false
 + [Priiloader Usage](priiloader-usage)
 + [추천](recommended-homebrew)
 + [RSSMii 제거](rssmii)
++ [Transferring Save Games](transfer-saves)
 + [USB 로더 GX](wii-loaders)
 + [SysCheck 수행](syscheck)
 + vWii에 Wii 메뉴 테마 설치하기
