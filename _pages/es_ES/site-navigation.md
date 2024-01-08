@@ -60,6 +60,7 @@ sitemap: false
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
 + [Instalar RSSMii](rssmii)
++ [Transferring Save Games](transfer-saves)
 + [USB Loader GX](wii-loaders)
 + [Performing a SysCheck](syscheck)
 + Installing Wii Menu Themes on vWii
