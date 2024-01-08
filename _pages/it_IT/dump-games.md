@@ -94,4 +94,4 @@ Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are o
     ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
 Proceed to [Managing GameCube Backups](gc-backups) to shrink the size of your output file, and manage your dumped games.
-{. notice--info}
+{: .notice--info}
