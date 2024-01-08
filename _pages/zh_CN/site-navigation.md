@@ -60,6 +60,7 @@ sitemap: false
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
 + [安装 RSSMii](rssmii)
++ [Transferring Save Games](transfer-saves)
 + [USB Loader GX](wii-loaders)
 + [执行 SysCheck](syscheck)
 + 安装 Wii 菜单主题
