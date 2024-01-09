@@ -6,16 +6,16 @@ title: "Installing Wii Menu Themes"
 
 This guide is intended for regular Wiis only. For installing themes on vWii (Wii U), follow [this page](themes-vwii). Additionally, forwarders are covered.
 
+### Section I - Finding a Theme
+
 DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) AND [PRIILOADER](priiloader)!
 {: .notice--danger}
 
-For safety purposes, please do not use any other version of MyMenuify than the one linked here, as MyMenuify Mod is the safest way to install a theme.
+csm-installer has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
 {: .notice--warning}
 
 Do not use any other version of ThemeMii than the one linked here, as ThemeMii Mod allows you to make a theme for Wii Menu version 4.3, other versions may not.
 {: .notice--warning}
-
-### Section I - Finding a Theme
 
 Only install themes on your Wii that have been formatted specifically for it, and its current region. Installing themes from the wrong region or version on your Wii will cause a brick. This tutorial will tell you how to create a .csm file that is safe to install.
 {: .notice--danger}
@@ -35,7 +35,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 * Wii Theme Team Creations v2
 * An SD card or USB drive
 * Below are some links to themes.
-* [MyMenuify Mod](https://oscwii.org/library/app/mymenuifymod)
+* [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
 #### Section II - Building the Theme
@@ -52,21 +52,13 @@ If you don't want to go through the hassle of using an external program to build
 
 #### Section III - Installing the Theme
 
-1. Launch MyMenuify Mod from the Homebrew Channel.
-1. Put the .csm file you saved in a folder called `modthemes` on your SD card or USB drive.
-1. Copy the theme file to the storage medium under the `modthemes` directory.
-1. We recommend you [install cIOS](cios) before continuing.
-1. Go into MyMenuifyMod, and acknowledge the disclaimer. After an introduction message, it will ask you what IOS you want to use in the app. Select `IOS58`.
-
-    If the former gives an `Exception DSI occurred!` error, press Reset on the Wii console, launch it again, then try `IOS250`.
-    {: .notice--info}
-
-1. Select your storage medium, and you should now see a selection of your themes.
-
-    ![](/images/themes/mym-theme-selection.png)
-
-1. Find a theme you want to install. If it is signed, MyMenuifyMod will indicate it to you, otherwise it will warn you. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
-1. Install the theme.
+1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
+1. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
+1. Copy your `.csm` file to the `themes` directory.
+1. Insert your SD card or USB drive into your Wii, and launch the Homebrew Channel.
+1. Launch csm-installer, and wait for it to load.
+1. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
+1. Press `+` to install the theme.
 1. Highlight the theme you want to install, then press A. Give it a moment to install the theme, then press any button to go to the Wii Menu. Hopefully, the theme installed correctly. If all goes well, you will have a result similar to the below!
 
     ![](/images/themes/themed-wii-menu.png)

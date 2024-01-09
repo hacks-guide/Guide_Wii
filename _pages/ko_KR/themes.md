@@ -6,16 +6,16 @@ title: "Wii 메뉴 테마 설치하기"
 
 Priiloader 메뉴로 부팅하면 Wii 메뉴를 수정할 수 있는 몇 가지 옵션이 있습니다. 옵션 중 하나는 홈브류 채널을 실행하는 것인데, 여기서 MyMenuify Mod를 실행하고 버튼을 눌러 오리지널 Wii 메뉴 테마를 다운로드하고 설치할 수 있습니다. Additionally, forwarders are covered.
 
+### `옵션` > `표준 시스템 메뉴` > Wii 메뉴의 버전 > Wii 메뉴의 지역으로 이동합니다.
+
 DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) AND [PRIILOADER](priiloader)!
 {: .notice--danger}
 
-안전을 위해 여기에 링크된 MyMenuify Mod가 테마를 설치하는 가장 안전한 방법이므로 여기에 링크된 MyMenuify 버전 이외의 다른 버전을 사용하지 않습니다.
+csm-installer has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
 {: .notice--warning}
 
 4.X라고 표시된 다운로드 링크를 선택하면 해당 테마가 Wii 메뉴의 4.1, 4.2, 4.3 버전에서 작동한다는 의미입니다.
 {: .notice--warning}
-
-### `옵션` > `표준 시스템 메뉴` > Wii 메뉴의 버전 > Wii 메뉴의 지역으로 이동합니다.
 
 Wii와 현재 지역에 맞게 특별히 포맷된 테마만 설치하세요. Wii에 잘못된 지역 또는 버전의 테마를 설치하면 벽돌이 발생할 수 있습니다. 이 자습서는 설치하기에 안전한 .csm 파일을 만드는 방법에 대해 설명합니다.
 {: .notice--danger}
@@ -35,7 +35,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 * Wii
 * MyMenuifyMod.zip을 SD 카드 또는 USB 드라이브에 압축 해제합니다.
 * A Windows/macOS/Linux PC with an Internet connection
-* [MyMenuify Mod](https://oscwii.org/library/app/mymenuifymod)
+* [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
 #### 섹션 II - 테마 빌드하기
@@ -52,21 +52,13 @@ vWii (Wii U) 에 테마를 설치하려면 [이 페이지](themes-vwii)를 참�
 
 #### 섹션 III - 테마 설치하기
 
-1. 홈브류 채널에서 MyMenuify Mod를 실행합니다.
-1. 저장된 .csm 파일을 SD 카드 또는 USB 드라이브의 `modthemes` 폴더에 붙여넣습니다.
-1. Copy the theme file to the storage medium under the `modthemes` directory.
-1. 일부 테마는 지역마다 링크가 다르므로 Wii의 지역에 맞는 테마를 선택합니다.
-1. Go into MyMenuifyMod, and acknowledge the disclaimer. It will ask what IOS you want to use in the app. Select `IOS58`.
-
-    전자가 `예외 DSI가 발생했습니다!` 오류가 발생하면 Wii 콘솔의 RESET  버튼을 누르고, 다시 실행한 다음 `IOS250`을 시도합니다.
-    {: .notice--info}
-
-1. Select your storage medium, and you should now see a selection of your themes.
-
-    ![](/images/themes/mym-theme-selection.png)
-
-1. 설치하려는 테마를 찾습니다. If it is signed, MyMenuifyMod will indicate it to you, otherwise it will warn you. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
-1. Install the theme.
+1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
+1. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
+1. Copy your `.csm` file to the `themes` directory.
+1. Insert your SD card or USB drive into your Wii, and launch the Homebrew Channel.
+1. Launch csm-installer, and wait for it to load.
+1. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
+1. Press `+` to install the theme.
 1. 잠시 기다렸다가 테마를 설치한 다음, 아무 버튼이나 눌러 Wii 메뉴로 이동합니다. 테마가 올바르게 설치되었기를 바랍니다. If all goes well, you will have a result similar to the below!
 
     ![](/images/themes/themed-wii-menu.png)

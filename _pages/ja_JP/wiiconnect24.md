@@ -15,19 +15,19 @@ Both services listed below are compatible with one another and can be loaded on 
 #### Service Support Status
 ✅ - In support<br> ⚠️ - In development<br> ⛔ - No support
 
-| Service Name            | WiiLink | RiiConnect24 |
-| ----------------------- | ------- | ------------ |
-| Forecast Channel        | ✅       | ✅            |
-| News Channel            | ⚠️      | ✅            |
-| Wii Mail                | ✅       | ✅            |
-| Everybody Votes Channel | ✅       | ✅            |
-| Nintendo Channel        | ✅       | ✅            |
-| Check Mii Out Channel   | ⚠️      | ✅            |
-| Wii Room                | ✅       | ⛔            |
-| Food Channel            | ✅       | ⛔            |
-| Photo Prints Channel    | ✅       | ⛔            |
-| Kirby TV Channel        | ✅       | ⛔            |
-| TV Guide Channel        | ⚠️      | ⛔            |
+| Service Name    | WiiLink | RiiConnect24 |
+| --------------- | ------- | ------------ |
+| お天気チャンネル        | ✅       | ✅            |
+| ニュースチャンネル       | ⚠️      | ✅            |
+| Wii Mail        | ✅       | ✅            |
+| みんなで投票チャンネル     | ✅       | ✅            |
+| 任天度チャンネル        | ✅       | ✅            |
+| Miiコンテストチャンネル   | ⚠️      | ✅            |
+| Wiiの間           | ✅       | ⛔            |
+| 出前チャンネル         | ✅       | ⛔            |
+| デジカメプリントチャンネル   | ✅       | ⛔            |
+| 星のカービィTVチャンネル   | ✅       | ⛔            |
+| テレビの友チャンネル Gガイド | ⚠️      | ⛔            |
 
 #### WiiLink
 A newer WC24/Japanese channel revival service that started in 2020, but is rapidly regaining functionality in many different channels.

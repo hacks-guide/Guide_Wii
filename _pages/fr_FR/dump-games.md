@@ -4,7 +4,7 @@ title: "Dumping Wii/GameCube games"
 
 {% include toc title="Table of Contents" %}
 
-Ce guide couvre la copie de disques de jeux GameCube ou Wii. Vous pouvez soit copier directement sur une carte SD ou un disque USB, soit sur le réseau local.
+This guide covers dumping GameCube or Wii game discs to a local SD card or USB drive on your Wii.
 
 ### Copier un disque vers une SD/USB (CleanRip)
 
@@ -13,10 +13,7 @@ Ce guide couvre la copie de disques de jeux GameCube ou Wii. Vous pouvez soit co
 + Une carte SD ou disque USB avec au moins 4,7 go d'espace libre (8,5 go en cas de copie d'un disque double couche).
 + [CleanRip](https://oscwii.org/library/app/cleanrip)
 
-#### Instructions
-
-If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), set `Dual Layer` to `Yes`.
-{: .notice--info}
+#### Preparation
 
 1. Éteignez votre console.
 1. Insérez votre carte SD ou votre clé USB dans votre ordinateur.
@@ -25,96 +22,76 @@ If you are dumping one of the 13 games on [this list](https://wiki.dolphin-emu.o
 1. Allumez votre console.
 1. Lancez la Chaîne Homebrew.
 1. Launch CleanRip from the list of homebrew.
+1. When prompted, select `Yes` to calculate disc checksums.
+
+    ![](/images/homebrew/CleanRip/checksum.png)
+
 1. Select your device that you will be dumping the game to - your USB drive or SD card.
 
-    ![](/images/homebrew/CleanRip/2.png)
+    ![](/images/homebrew/CleanRip/device.png)
+
+1. Select the filesystem type of the device - in most cases it will be FAT (FAT32).
+
+    ![](/images/homebrew/CleanRip/filesystem.png)
+
+1. Ensure that your device is connected to the system and press A to proceed.
+
+    ![](/images/homebrew/CleanRip/insertdevice.png)
 
 1. When prompted, select `Yes` to download the redump.org DAT files.
     + This is required to ensure that the resulting dumps are clean/accurate.
 
-    You may get an exception error if you do this. If so, simply skip and verify your dump on Dolphin Emulator if needed.
+    You may get an exception error if you do this. If so, restart your Wii and try again - but if you continue to get exception errors, dump the disc and verify the checksum in Dolphin instead if needed.
     {: .notice--warning}
 
-    ![](/images/homebrew/CleanRip/3.png)
+    ![](/images/homebrew/CleanRip/redump.png)
 
-1. Now insert the game you want to dump.
+1. Insert the game disc you would like to dump, and press A to continue.
 
-    ![](/images/homebrew/CleanRip/4.png)
+    ![](/images/homebrew/CleanRip/insertdisc.png)
+
+### Dumping a Wii Disc
+
+As of v2.1.2 of CleanRip, there is an option to auto-detect whether or not the disc you have is dual layer. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
+{: .notice--info}
+
+If you get an unrecovered read error, ensure that the disc you are attempting to dump is clean and can be properly read by the console. Even though you may be able to play the game disc normally, you may still get this error. If the error persists, try to dump another disc and see if the same error happens.
+{: .notice--warning}
+
+1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
+
+    ![](/images/homebrew/CleanRip/dateldisc.png)
 
 1. Set the settings as shown on the screen below, while verifying if your game disc is dual layer or not.
 
-    ![](/images/homebrew/CleanRip/6.png)
+    ![](/images/homebrew/CleanRip/wiisettings.png)
 
 1. Press A to start dumping the disc.
-    + It can take a while, since it will dump the full 4.7 GB disc contents (8.5 GB for dual layer discs).
+    + This process can take quite some time, since it will dump all 4.7 GB of the DVD (8.5 GB for dual layer discs).
 
-    ![](/images/homebrew/CleanRip/7.png)
+    ![](/images/homebrew/CleanRip/wiiprogress.png)
 
-1. Proceed to [joining PART files](dump-games#joining-part-files-on-a-fat32-device).
+1. When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.
 
-### Dumping a Disc over LAN (Wii DVD Dumper)
+    ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
 
-#### Prérequis
-
-+ A Windows/macOS/Linux PC with an internet connection
-+ [DVD](/assets/files/DVDDumpTool.zip)
-
-#### Instructions
-
-Download speeds will be slow due to limitations in the network hardware of the Wii, but it remains a valid solution if you are willing to be patient.
+Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are output, and manage your dumped games.
 {: .notice--info}
 
-Dumping a game over a local network
-{: .notice--warning}
+### Dumping a GameCube Disc
 
-1. Extract DVD Dump Tool and put it in the `apps` folder on your SD card or USB drive.
-1. Insert your SD card into your Wii, and launch CleanRip from the Homebrew Channel.
-1. Allumez votre console.
-1. Lancez la Chaîne Homebrew.
-1. Launch DVD Dump Tool from the list of homebrew.
-1. Press the right on the D-pad and press A.
-1. Choose the disc that you want to copy (The options are: `GameCube Disc`, `Wii Single-Layer Disc`, `Wii Dual-Layer Disc` and press "A"
+1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
 
-    ![](/images/homebrew/DumpDiscs_LAN/2.png)
-1. Insert your SD card into your Wii, and launch DVD Dump Tool from the Homebrew Channel.
-    + If it is already inserted, eject and reinsert the disc.
+    ![](/images/homebrew/CleanRip/dateldisc.png)
 
-    ![](/images/homebrew/DumpDiscs_LAN/insertthedisc.jpg)
-1. Select the proper disc type.
+1. Press A to start dumping the disc.
+    + This process can take some time, since it will dump all 1.3 GB of the Mini DVD.
 
-    ![](/images/homebrew/DumpDiscs_LAN/3.png)
-1. Press any button to begin the dumping process.
+    ![](/images/homebrew/CleanRip/gcprogress.png)
 
-    ![](/images/homebrew/DumpDiscs_LAN/4.png)
-1. Remember your Wii URL (IP address)
-1. On your computer's web browser, go to your address bar and enter the Wii URL.
+1. When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.
 
-    ![](/images/homebrew/DumpDiscs_LAN/5.png)
-1. Click on `Click here to download XXXX.iso`.
-1. Proceed to [joining PART files](dump-games#joining-part-files-on-a-fat32-device).
+    ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
-### Joining PART files on a FAT32 device
-
-If you dumped the disc on a FAT32 formatted, device, you should've got at least 2 files that end with `.partX.iso`. They need to be joined up.
-{: .notice--info}
-
-#### Windows
-
-1. Copy all the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
-1. In this folder, click the address bar in Windows Explorer and copy its PATH.
-1. Select "Open PowerShell window here".
-1. Run `cd [PATH]`.
-1. Finally, type `copy /b *.part?.iso game.iso` and press enter.
-1. Wait until the merging process finishes.
-    + It should end with the terminal outputting `1 file(s) copied`.
-
-#### macOS/Linux
-
-1. Copy all the files that share the same name and end with `.partX.iso` in a folder on your computer.
-1. Open up a Terminal.
-1. Use the `cd <path>` command and replace `<path>` by the path to your `.partX.iso` files.
-1. Use the following command as is: `cat \*.part?.iso > game.iso`.
-1. Wait until it finishes.
-
-To organize the games on your drive properly, you'll need to use [Wii Backup Manager](wiibackupmanager).
+Proceed to [Managing GameCube Backups](gc-backups) to shrink the size of your output file, and manage your dumped games.
 {: .notice--info}
