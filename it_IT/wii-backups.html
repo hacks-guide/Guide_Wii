@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Navigazione del Sito - Wii Hacks Guide</title>
+<!-- begin _includes/seo.html --><title>Managing Wii Backups - Wii Hacks Guide</title>
 <meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
 
 
@@ -21,8 +21,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Wii Hacks Guide">
-<meta property="og:title" content="Navigazione del Sito">
-<meta property="og:url" content="https://wii.hacks.guide/it_IT/site-navigation.html">
+<meta property="og:title" content="Managing Wii Backups">
+<meta property="og:url" content="https://wii.hacks.guide/it_IT/wii-backups.html">
 
 
   <meta property="og:description" content="The complete guide to modding your Wii (and Wii mini)">
@@ -42,7 +42,7 @@
   
 
 
-<link rel="canonical" href="https://wii.hacks.guide/it_IT/site-navigation.html">
+<link rel="canonical" href="https://wii.hacks.guide/it_IT/wii-backups.html">
 
 
 
@@ -200,8 +200,8 @@ window.cookieconsent.initialise({
           
           
           
-          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/site-navigation.html">English</a></li>
-          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/site-navigation.html">Italiano</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/wii-backups.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://wii.hacks.guide/it_IT/wii-backups.html">Italiano</a></li>
         </ul>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle Menu</span>
@@ -327,7 +327,7 @@ window.cookieconsent.initialise({
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Navigazione del Sito">
+    <meta itemprop="headline" content="Managing Wii Backups">
     
     
     
@@ -335,7 +335,7 @@ window.cookieconsent.initialise({
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Navigazione del Sito
+          <h1 id="page-title" class="page__title" itemprop="headline">Managing Wii Backups
 </h1>
           
 
@@ -360,84 +360,204 @@ window.cookieconsent.initialise({
         <hr>
 <!-- hacks-guide change end -->
 
-        
-<div class="notice--info">
-<p><strong>Sito</strong></p>
-<ul>
-  <li><a href="/">Menu Principale</a></li>
-  <li><a href="per-iniziare">Per Iniziare</a></li>
-  <li><a href="faq">FAQ</a></li>
-  <li><a href="donations">Donazioni</a></li>
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#unire-i-file-part-su-un-dispositivo-fat32" id="markdown-toc-unire-i-file-part-su-un-dispositivo-fat32">Unire i file PART su un dispositivo FAT32</a>    <ul>
+      <li><a href="#windows" id="markdown-toc-windows">Windows</a></li>
+      <li><a href="#macoslinux" id="markdown-toc-macoslinux">macOS/Linux</a></li>
+    </ul>
+  </li>
+  <li><a href="#using-wii-backup-manager" id="markdown-toc-using-wii-backup-manager">Using Wii Backup Manager</a>    <ul>
+      <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
+      <li><a href="#section-i---installation" id="markdown-toc-section-i---installation">Section I - Installation</a></li>
+      <li><a href="#section-ii---copying-games" id="markdown-toc-section-ii---copying-games">Section II - Copying Games</a></li>
+    </ul>
+  </li>
+  <li><a href="#using-wii-backup-fusion" id="markdown-toc-using-wii-backup-fusion">Using Wii Backup Fusion</a>    <ul>
+      <li><a href="#requisiti-1" id="markdown-toc-requisiti-1">Requisiti</a></li>
+      <li><a href="#section-i---installation-1" id="markdown-toc-section-i---installation-1">Section I - Installation</a></li>
+      <li><a href="#section-ii---copying-games-1" id="markdown-toc-section-ii---copying-games-1">Section II - Copying Games</a></li>
+    </ul>
+  </li>
 </ul>
-</div>
 
-<div class="notice--primary">
-<p><strong>Servizi Wii Online</strong></p>
-<ul>
-  <li><a href="wiimmfi">Nintendo Wi-Fi Connection</a></li>
-  <li><a href="wiiconnect24#updating-rtc-clock">Come impostare il RTC</a></li>
-  <li><a href="wiiconnect24">WiiConnect24</a></li>
-</ul>
-</div>
+  </nav>
+</aside>
 
-<div class="notice--primary">
-<p><strong>Modding 101 - Exploits</strong></p>
-<ul>
-  <li><a href="bluebomb">BlueBomb</a></li>
-  <li><a href="flashhax">FlashHax</a></li>
-  <li><a href="legacy-exploits">Vecchi Exploit</a></li>
-  <li><a href="letterbomb">LetterBomb</a></li>
-  <li><a href="str2hax">str2hax</a></li>
-  <li><a href="wilbrand">Wilbrand</a></li>
-</ul>
-</div>
+<p>This guide provides instructions on how to manage your Wii backups, from joining .PART files that are output through CleanRip, to shrinking game files that can be copied onto a FAT32 device. Two programs that can be used to manage your Wii backups are Wii Backup Manager (for Windows) and Wii Backup Fusion (for Linux and MacOS) and are covered below.</p>
 
-<div class="notice--primary">
-<p><strong>Modding 101 - Link Wii Essenziali</strong></p>
-<ul>
-  <li><a href="bootmii">Backup della Nand con BootMii</a></li>
-  <li><a href="bootmiirecover">Recupero BootMii</a></li>
-  <li><a href="bricks">Generalità sui Brick</a></li>
-  <li><a href="bricks#brick-prevention">Come prevenire i brick</a></li>
-  <li><a href="cios">cIOS</a></li>
-  <li><a href="hbc">Homebrew Channel</a></li>
-  <li><a href="modmii">ModMii</a></li>
-  <li><a href="osc">Open Shop Channel</a></li>
-  <li><a href="priiloader">Priiloader</a></li>
-  <li><a href="hackmii">Come rieseguire l’HackMii Installer</a></li>
-  <li><a href="update">Aggiornamento del Menu Wii alla versione 4.3</a></li>
-  <li><a href="wii-factory-reset">Restoring The Wii NAND to Stock</a></li>
-  <li><a href="wnd-mini">Wii mini NAND Dumper</a></li>
-  <li><a href="yawmme">YAWM ModMii Edition</a></li>
-</ul>
-</div>
+<p class="notice--info">Per memorizzare più giochi, si consiglia di utilizzare un hard drive esterno per il tuo Wii. La maggior parte di essi che si possono trovare in mercato dovrebbero funzionare.</p>
 
-<div class="notice--primary">
-<p><strong>Homebrew</strong></p>
-<ul>
-  <li><a href="wiigsc">Come creare collegamenti per Giochi Wii</a></li>
-  <li><a href="dump-wads">Come scaricare i Canali (WADs)</a></li>
-  <li><a href="dump-games">Come preservare giochi Wii e GameCube</a></li>
-  <li><a href="gc-backups">Managing GameCube Backups</a></li>
-  <li><a href="gcsaves">Come gestire i salvataggi GameCube</a></li>
-  <li><a href="wii-backups">Managing Wii Backups</a></li>
-  <li><a href="priiloader-usage">Usare Priiloader</a></li>
-  <li><a href="recommended-homebrew">App Homebrew consigliate</a></li>
-  <li><a href="rssmii">RSSMii</a></li>
-  <li><a href="transfer-saves">Transferring Save Games</a></li>
-  <li><a href="wii-loaders">USB Loaders</a></li>
-  <li><a href="syscheck">Come eseguire un SysCheck</a></li>
-  <li><a href="themes">Guida ai Temi Wii</a></li>
-</ul>
-</div>
+<p class="notice--info">Un’unità flash non è consigliata, poiché sono piccole e la loro funzionalità può variare anche tra unità identiche. <br />
+As an alternative, you may simply use an SD card, however the Wii’s SD card slot will be slow.</p>
 
-<div class="notice--primary">
-<p><strong>Wii mini</strong></p>
+<p class="notice--info">Assicurati che l’unità USB sia formattata come FAT32. Non formattarla come altri tipi come exFAT, exFS. <br />
+You may format it as NTFS, but it won’t work with a majority of apps (eg. The Homebrew Channel, Nintendont)</p>
+
+<h3 id="unire-i-file-part-su-un-dispositivo-fat32">Unire i file PART su un dispositivo FAT32</h3>
+
+<p class="notice--info">If your disc was dumped to a FAT32 device, you should have gotten at least two files that end with <code class="language-plaintext highlighter-rouge">.partX.iso</code>, due to filesystem limitations. They need to be joined (on a supported filesystem like NTFS) so the file can be read correctly.</p>
+
+<h4 id="windows">Windows</h4>
+
+<ol>
+  <li>
+    <p>Copy the files that share the same name and end with <code class="language-plaintext highlighter-rouge">.partX.iso</code> into an empty folder on your computer.</p>
+
+    <p><img src="/images/desktop-apps/WBM/dumpedpartfiles.png" alt="" /></p>
+  </li>
+  <li>
+    <p>In this folder, click the address bar in Windows Explorer and type in <code class="language-plaintext highlighter-rouge">cmd</code>, this will open a command prompt window there.</p>
+
+    <p><img src="/images/desktop-apps/WBM/opencmd.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Type <code class="language-plaintext highlighter-rouge">copy /b *.part?.iso game.iso</code> and press enter. Wait for the command to finish, your terminal output should be similar to the below.</p>
+
+    <p><img src="/images/desktop-apps/WBM/joinpartfiles.png" alt="" /></p>
+  </li>
+  <li>
+    <p>If the copy process executed correctly, the checksum from the game dump info file (located where you dumped your disc at) should match the resulting joined file.</p>
+
+    <p><img src="/images/desktop-apps/WBM/filemd5.png" alt="" /></p>
+  </li>
+</ol>
+
+<h4 id="macoslinux">macOS/Linux</h4>
+
+<ol>
+  <li>
+    <p>Copy the files that share the same name and end with <code class="language-plaintext highlighter-rouge">.partX.iso</code> into an empty folder on your computer.</p>
+
+    <p><img src="/images/desktop-apps/WBM/dumpedpartfileslinux.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Open a terminal in the directory where your files are at, or <code class="language-plaintext highlighter-rouge">cd [PATH]</code> to it.</p>
+
+    <p><img src="/images/desktop-apps/WBM/openterminallinux.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Use the following command as is: <code class="language-plaintext highlighter-rouge">cat `ls *.part?.iso | sort` &gt; game.iso</code>. Then, wait for the merging process to finish. Like in Windows, the resulting checksum should match the dump.</p>
+
+    <p><img src="/images/desktop-apps/WBM/mergesuccesslinux.png" alt="" /></p>
+  </li>
+</ol>
+
+<h3 id="using-wii-backup-manager">Using Wii Backup Manager</h3>
+
+<h4 id="requisiti">Requisiti</h4>
+
 <ul>
-  <li><a href="hbc-mini">Come installare l’Homebrew Channel su Wii mini</a></li>
-  <li><a href="cios-mini">Come installare le cIOS su Wii mini</a></li>
+  <li>Un PC che esegue Windows</li>
+  <li>Un’unità USB o una scheda SD</li>
+  <li>A dumped ISO from a Wii game disc</li>
+  <li><a href="https://static.wiidatabase.de/Wii-Backup-Manager.zip">Wii Backup Manager</a></li>
 </ul>
-</div>
+
+<h4 id="section-i---installation">Section I - Installation</h4>
+
+<ol>
+  <li>Estrai Wii Backup Manager e avvia il programma.</li>
+  <li>Inserisci la tua unità USB o scheda SD nel tuo computer.</li>
+</ol>
+
+<h4 id="section-ii---copying-games">Section II - Copying Games</h4>
+
+<ol>
+  <li>
+    <p>Go to the <code class="language-plaintext highlighter-rouge">Drive 1</code> tab, then select the drive that will hold your backed up Wii games.</p>
+
+    <p><img src="/images/desktop-apps/WBM/select_drive.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Go to the <code class="language-plaintext highlighter-rouge">Files</code> tab, then select <code class="language-plaintext highlighter-rouge">Add</code>.</p>
+
+    <ul>
+      <li>Select <code class="language-plaintext highlighter-rouge">Files</code> to add multiple games to the program, or select <code class="language-plaintext highlighter-rouge">Folder</code> to add a whole folder of games.</li>
+    </ul>
+
+    <p><img src="/images/desktop-apps/WBM/select_games.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Go to <code class="language-plaintext highlighter-rouge">Select</code>, then click <code class="language-plaintext highlighter-rouge">Games not on drive 1</code>.</p>
+
+    <p><img src="/images/desktop-apps/WBM/select_games2.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select <code class="language-plaintext highlighter-rouge">Transfer</code>, then select <code class="language-plaintext highlighter-rouge">Drive 1</code> to transfer the games over. The progress will be displayed on the right side of the window.</p>
+
+    <p><img src="/images/desktop-apps/WBM/transfer_todrive.png" alt="" /></p>
+  </li>
+</ol>
+
+<h3 id="using-wii-backup-fusion">Using Wii Backup Fusion</h3>
+
+<h4 id="requisiti-1">Requisiti</h4>
+
+<ul>
+  <li>A PC running MacOS or Linux</li>
+  <li>Un’unità USB o una scheda SD</li>
+  <li>A dumped ISO from a Wii game disc</li>
+  <li><a href="https://github.com/larsenv/Wii-Backup-Fusion">Wii Backup Fusion</a></li>
+  <li><a href="https://wit.wiimm.de/download.html">Wiimm’s ISO Tools</a></li>
+</ul>
+
+<h4 id="section-i---installation-1">Section I - Installation</h4>
+
+<ol>
+  <li>
+    <p>Download Wiimm’s ISO tools for your OS and extract the .tar.gz into a folder that you can access with the terminal. The extracted folder should have these files inside:</p>
+
+    <p><img src="/images/desktop-apps/WBM/witinstallfolder.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Open a terminal in the folder that you just extracted, and run <code class="language-plaintext highlighter-rouge">sudo ./install.sh</code>.</p>
+  </li>
+  <li>
+    <p>Download Wii Backup Fusion for your OS and install. If on Linux, you will need to make the appimage executable by running <code class="language-plaintext highlighter-rouge">chmod +x [FILE]</code>.</p>
+  </li>
+</ol>
+
+<h4 id="section-ii---copying-games-1">Section II - Copying Games</h4>
+
+<ol>
+  <li>
+    <p>Open Wii Backup Fusion and press <code class="language-plaintext highlighter-rouge">Load</code>.</p>
+
+    <p><img src="/images/desktop-apps/WBM/loadwbf.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select the directory where your game ISO is at.</p>
+
+    <p><img src="/images/desktop-apps/WBM/opendirectorywbf.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Right click on the game that you want to transfer to a drive, and press <code class="language-plaintext highlighter-rouge">Transfer to image</code>. Use the following settings:</p>
+
+    <p><img src="/images/desktop-apps/WBM/settingswbf.png" alt="" /></p>
+  </li>
+  <li>
+    <p>If there is not already a <code class="language-plaintext highlighter-rouge">wbfs</code> directory on your game drive, make one.</p>
+  </li>
+  <li>
+    <p>Make another directory inside of the <code class="language-plaintext highlighter-rouge">wbfs</code> folder for the game backup. Take note of the Game ID in Wii Backup Fusion as you will need this for the game folder.</p>
+  </li>
+  <li>
+    <p>Make a game folder for your game, formatted as <code class="language-plaintext highlighter-rouge">game name [GAMEID]</code>. For the game dumped as an example in this guide, it would be named <code class="language-plaintext highlighter-rouge">New Super Mario Bros. Wii [SMNE01]</code>.</p>
+
+    <p><img src="/images/desktop-apps/WBM/wbfsname.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Copy the game.wbfs file that was made in Step 3 to this new folder. The drive should be ready to use on a Wii.</p>
+  </li>
+</ol>
+
+<p class="notice--info"><a href="cios">Continue to cIOS</a><br />
+cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use <a href="wii-loaders">USB Loader GX or WiiFlow</a> to play games from your USB drive or SD card.</p>
+
+<p class="notice--info"><a href="site-navigation">Click here to go back to the site index.</a></p>
 
         
       </section>

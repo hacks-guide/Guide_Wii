@@ -70,6 +70,9 @@
 <loc>https://wii.hacks.guide/gc-backups.html</loc>
 </url>
 <url>
+<loc>https://wii.hacks.guide/it_IT/gc-backups.html</loc>
+</url>
+<url>
 <loc>https://wii.hacks.guide/it_IT/gcbackupmanager.html</loc>
 </url>
 <url>
@@ -223,7 +226,13 @@
 <loc>https://wii.hacks.guide/wii-backups.html</loc>
 </url>
 <url>
+<loc>https://wii.hacks.guide/it_IT/wii-backups.html</loc>
+</url>
+<url>
 <loc>https://wii.hacks.guide/wii-factory-reset.html</loc>
+</url>
+<url>
+<loc>https://wii.hacks.guide/it_IT/wii-factory-reset.html</loc>
 </url>
 <url>
 <loc>https://wii.hacks.guide/wii-loaders.html</loc>
