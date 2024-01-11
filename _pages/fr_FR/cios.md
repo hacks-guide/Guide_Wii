@@ -65,6 +65,12 @@ Select cIOS version: 65535
 
     ![](/images/cios/d2x_v11_248.png)
 
+    The warning "`(c)IOS detected in slot ### will be overwriitten`" can be safely ignored.
+    {: .notice--info}
+
+    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.)
+    {: .notice--info}
+
 1. Press `A`. This will bring you to the slot map:
 
     ![](/images/cios/d2x_summary.png)
