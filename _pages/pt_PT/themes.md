@@ -4,7 +4,7 @@ title: "Installing Wii Menu Themes"
 
 {% include toc title="Table of Contents" %}
 
-This guide is intended for regular Wiis only. For installing themes on vWii (Wii U), follow [this page](themes-vwii). Additionally, forwarders are covered.
+This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
 
 ### Section I - Finding a Theme
 
