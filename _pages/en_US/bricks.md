@@ -76,7 +76,7 @@ A semibrick occurs when a different region Wii Menu or a different region custom
 #### Solutions
 Verify in AnyRegion Changer that your console region is the same as the theme or Wii Menu that you have installed.
 
-If this was caused by a theme you installed, use MyMenuifyMod to reinstall the original theme file.
+If this was caused by a theme you installed, use csm-installer to reinstall the original theme.
 
 If this was caused by a Wii Menu WAD you installed, use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to re-obtain your original Wii Menu.
 
@@ -112,7 +112,7 @@ Attempt to start the Wii - warning/press A screen shows up, and when A is presse
 A theme brick occurs when a wrongly formatted theme is installed. 
 
 #### Solutions
-To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access MyMenuifyMod to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
+To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
 
 ## Mail brick
 

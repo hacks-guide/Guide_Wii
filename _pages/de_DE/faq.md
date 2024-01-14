@@ -1,16 +1,16 @@
 ---
-title: "FAQ and Troubleshooting"
+title: "FAQ (Häufig gestellte Fragen)"
 ---
 
 ## Main FAQ
 
-{% include toc title="Inhalt" %}
+{% include toc title="Inhaltsverzeichnis" %}
 
-### How risky is hacking my console?
-Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+### Wie gefährlich ist es meine Konsole zu hacken?
+Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. Stelle daher sicher [BootMii](bootmii) und [Priiloader](priiloader) zu installieren, um dich vor Bricks zu schützen!
 
-### I got error code XXXXXX, how do I fix it?
-In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:
+### I got error code XXXXXX, how to fix it?
+Um den Grund für den Fehlercode zu erfahren, besuche bitte die [Wiimmfi Error Code-Website](https://wiimmfi.de/error). More common errors have fixes listed below:
 
 #### Error 051330/51330
 
@@ -40,15 +40,15 @@ If you get this error, the DNS server you chose or your internet as a whole is h
 
 If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock.
 
-### How can I remove parental controls?
-The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls.
+### Wie entferne ich eine Kindersicherung?
+Der [mkey generator](https://mkey.salthax.org) kann einen Code zum Entfernen der Kindersicherung generieren.
 
 ### I think my Wii is bricked, or something is seriously wrong, what do I do?
 See [this](bricks) page.
 
 ## Storage Device FAQ
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+Wenn du den BlueBomb-, str2hax- oder FlashHax-Exploit verwendest, benötigst du keine SD-Karte.
 {: .notice--info}
 
 FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br> For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS was a previously used file system for Wii game backups - today, it is outdated and should not be used.

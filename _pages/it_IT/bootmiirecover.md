@@ -12,7 +12,6 @@ Se hai BootMii installato come boot2, dovrai riavviare la console per eseguirlo.
 Se lo schermo rimane nero e l'unità del disco blu lampeggia mentre provi ad avviare BootMii, ti mandano i file di BootMii sulla scheda SD. Scarica [questo file zip](https://static.hackmii.com/bootmii_sd_files.zip) ed estrailo nel root della tua scheda SD, poi riprova.
 {: .notice--warning}
 
-
 I Wii Family Edition (senza le porte GameCube) NON POSSONO ripristinare backup della NAND. Questo è dovuto alla mancanza di porte GameCube che servono su Wii non-boot2 per inserire il codice di conferma per il ripristino. Per ulteriore assistenza, per favovre cerca supporto.
 {: .notice--danger}
 

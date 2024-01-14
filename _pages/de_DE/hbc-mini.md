@@ -2,7 +2,7 @@
 title: "Homebrew Channel - for Wii mini only"
 ---
 
-{% include toc title="Inhalt" %}
+{% include toc title="Inhaltsverzeichnis" %}
 
 The Homebrew Channel is where you will go to launch homebrew applications.
 

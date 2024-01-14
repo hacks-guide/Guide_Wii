@@ -2,26 +2,26 @@
 title: "Updating Wii Menu to v4.3"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
 This tutorial will explain how to update your Wii Menu to version 4.3, if you have already homebrewed your Wii.
 
 It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.3.
 {: .notice--warning}
 
-### Requirements
+### 必備項目
 
-* An SD card or USB drive
+* 一張 SD 卡或 USB 隨身碟
 * A computer with Windows on it
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
-* [Priiloader](priiloader)
+* [安裝 Priiloader](priiloader)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
 ### Instructions
 
 #### Section I - Downloading
 
-Your Wii must be modded in order to perform this. If it isn't, then it's best to follow [the guide](get-started) first.
+Your Wii must be modded in order to perform this. If it isn't, then it's best to follow [the guide](get-started) first before doing this. If it isn't, then it's best to follow [the guide](get-started) first.
 {: .notice--info}
 
 1. Extract the .zip file for NUS Downloader Wii and open the application.
@@ -39,11 +39,11 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 | Europe | v514 (4.3E)      |
 | Korea  | v518 (4.3K)      |
 
-#### Section II - Installing
+#### 第二節 — 安裝
 
 1. Power off your console. Start holding RESET, then turn it back on.
 1. In the Priiloader menu, select `Homebrew Channel`.
-    * If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader is required for this guide.
+    * If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader is required for this guide. Priiloader is required for this guide.
 1. Launch YAWM ModMii Edition.
 1. Select your SD card or USB drive.
 1. Press `+` to one the IOS80 and IOS58 WADs to highlight them, then press A twice to install.

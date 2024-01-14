@@ -1,5 +1,5 @@
 ---
-title: "FAQ and Troubleshooting"
+title: "FAQ"
 ---
 
 ## Foire aux questions
@@ -7,10 +7,10 @@ title: "FAQ and Troubleshooting"
 {% include toc title="Table of Contents" %}
 
 ### Quel est le risque de modder ma console ?
-Pas très risqué pour être honnête, ça dépends de votre console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+Pas très risqué pour être honnête, ça dépends de votre console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. Make sure you install [BootMii](bootmii) and [Priiloader](priiloader) to protect yourself from bricks!
 
-### J'ai le code d'erreur XXXXXX, comment puis-je le corriger ?
-Afin de vérifier ce que signifie l'erreur, veuillez visiter la page [d'erreur Wiimmfi](https://wiimmfi.de/error). Les erreurs les plus courantes ont des solutions listées en dessous:
+### I got error code XXXXXX, how to fix it?
+In order to check what the reason for the error is, please visit the [Wiimmfi error page](https://wiimmfi.de/error). Les erreurs les plus courantes ont des solutions listées en dessous:
 
 #### Error 051330/51330
 
@@ -30,7 +30,7 @@ Votre serveur DNS principal est incorrect ou ne fonctionne pas.<br> Cela peut é
 
 ##### Pour les utilisateurs de RiiConnect24
 
-Si vous obtenez cette erreur ou que vous voyez le Contrat d'utilisateur de Nintendo sans le logo de RiiConnect24, Cela signifie que votre FAI (fournisseur d'accès Internet) ou votre réseau bloque l'utilisation des DNS de RiiConnect24. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 fonctionnera toujours même sans. Ou, vous pouvez utiliser le programme [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest).
+Si vous obtenez cette erreur ou que vous voyez le Contrat d'utilisateur de Nintendo sans le logo de RiiConnect24, Cela signifie que votre FAI (fournisseur d'accès Internet) ou votre réseau bloque l'utilisation des DNS de RiiConnect24. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 fonctionnera toujours même sans. You can join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net) for assistance.
 
 ##### Pour les utilisateurs non-RiiConnect24
 
@@ -41,14 +41,14 @@ Si vous obtenez cette erreur, le serveur DNS que vous avez choisi ou votre inter
 Si vous obtenez l'erreur FORE000006, la date ou l'heure de la Wii est probablement mal réglée. Consultez [cette page](wiiconnect24#updating-rtc-clock) pour savoir les régler correctement (via un logiciel). If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Ensuite, réinitialisez l'horloge de la Wii.
 
 ### Comment puis-je supprimer le contrôle parental ?
-Le générateur [mkey](https://mkey.salthax.org) peut générer le code requis pour supprimer le contrôle parental.
+The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls.
 
 ### Je pense que ma Wii est briquée, ou quelque chose ne va sérieusement pas, que dois-je faire ?
 Consultez [cette page](bricks).
 
 ## Les périphériques de stockage
 
-Pour [BlueBomb](bluebomb), [str2hax](str2hax) ou [FlashHax](flashhax), vous n'avez pas besoin d'une carte SD pour modder votre Wii, par contre, il est recommandé d'en avoir une pour les applications homebrew et tout ce qui a besoin d'une carte SD.
+If you are using the BlueBomb, str2hax, or FlashHax exploits, you do not need an SD card.
 {: .notice--info}
 
 FAT32 est le système de fichiers recommandé pour les cartes SD, voir [ce guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) pour savoir comment formatter un périphérique dans ce format.<br> Pour les périphériques USB, FAT32 est également recommandé, bien que les utilisateurs devraient être avertis des limitations du FAT32 qui ne permettent que des volumes de 2 To. WBFS était un système de fichiers précédemment utilisé pour les sauvegardes de jeux Wii - aujourd'hui, il est obsolète et ne doit pas être utilisé.
@@ -69,7 +69,7 @@ Lorsque vous envisagez d'acheter ou d'utiliser une carte SD ou un périphérique
 + General Emulation: There are a wide variety of emulators available on the Wii. Because the size of different game ROMs differ dramatically, the average user for an emulation drive would probably want 32GB or more of space.
 + General Homebrew: For homebrew, the average user would want 2GB or more of space.
 + NAND Backups: For backing up your NAND with BootMii, the average user would need a minimum of 512MB of free space, but sizes of 1GB or more are recommended.
-+ Bare minimum, exploit only: The minimum amount of space to run an SD-card compatible exploit on a Wii is 128MB.
++ You will need an SD card with at least 128MB to run an exploit.
 
 ### Buying SD Cards
 

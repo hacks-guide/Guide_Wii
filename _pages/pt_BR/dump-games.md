@@ -1,120 +1,97 @@
 ---
-title: "Fazendo backup de jogos de Wii/GameCube"
+title: "Extrair jogos do Wii/GameCube"
 ---
 
 {% include toc title="Table of Contents" %}
 
-Este guia cobre fazer backup de discos de jogos de GameCube ou Wii. Você pode fazer backup dos seus jogos diretamente para um cartão SD, dispositivo USB ou rede local.
+This guide covers dumping GameCube or Wii game discs to a local SD card or USB drive on your Wii.
 
 ### Fazendo o backup do disco para SD/USB (CleanRip)
 
 #### Requisitos
 
-+ Um cartão SD ou armazenamento USB com, no mínimo, 4.7GB de espaço livre (8.5GB se estiver fazendo backup de um disco de camada dupla).
++ Um cartão SD ou armazenamento USB com pelo menos 4.7 GB de espaço livre.
 + [CleanRip](https://oscwii.org/library/app/cleanrip)
 
-#### Instruções
-
-Se você está fazendo backup de um dos 13 jogos [nesta lista](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), defina `Dual Layer` no Passo 6 para `Yes`.
-{: .notice--info}
+#### Preparation
 
 1. Desligue seu console.
-1. Insira seu cartão SD ou armazenamento USB no seu computador.
-1. Copie a pasta `apps` do CleanRip `.zip` para a raiz do seu cartão SD ou armazenamento USB.
-1. Reinsira seu cartão SD ou armazenamento USB no seu console.
+1. Insira o Disco
+1. Extraia o CleanRip e coloque dentro da pasta `apps` do seu cartão SD ou armazenamento USB.
+1. Agora insira o jogo que você deseja extrair.
 1. Ligue o seu console.
 1. Abra o Homebrew Channel.
 1. Abra CleanRip na lista de homebrews.
-1. Selecione o dispositivo para onde você estará fazendo o backup do jogo - dispositivo USB ou cartão SD.
+1. When prompted, select `Yes` to calculate disc checksums.
 
-    ![](/images/homebrew/CleanRip/2.png)
+    ![](/images/homebrew/CleanRip/checksum.png)
 
-1. Quando solicitado, selecione `Sim` para baixar os arquivos DAT do redump.org.
+1. Selecione o dispositivo que você irá colocar o jogo - seu armazenamento USB ou cartão SD.
+
+    ![](/images/homebrew/CleanRip/device.png)
+
+1. Select the filesystem type of the device - in most cases it will be FAT (FAT32).
+
+    ![](/images/homebrew/CleanRip/filesystem.png)
+
+1. Ensure that your device is connected to the system and press A to proceed.
+
+    ![](/images/homebrew/CleanRip/insertdevice.png)
+
+1. Fica a seu critério escolher `Yes` ou `No` para baixar esse arquivo.
     + Isto é necessário para garantir que os resultados do backup sejam limpos e precisos.
 
-    Você pode receber um "exception error" se você fizer isso. Se sim, simplesmente pule e verifique seu backup no Emulador Dolphin se necessário.
+    Você pode receber um "exception error" se você fizer isso. If so, restart your Wii and try again - but if you continue to get exception errors, dump the disc and verify the checksum in Dolphin instead if needed.
     {: .notice--warning}
 
-    ![](/images/homebrew/CleanRip/3.png)
+    ![](/images/homebrew/CleanRip/redump.png)
 
-1. Insira o disco do jogo que você gostaria de fazer backup.
+1. Insert the game disc you would like to dump, and press A to continue.
 
-    ![](/images/homebrew/CleanRip/4.png)
+    ![](/images/homebrew/CleanRip/insertdisc.png)
+
+### Dumping a Wii Disc
+
+As of v2.1.2 of CleanRip, there is an option to auto-detect whether or not the disc you have is dual layer. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
+{: .notice--info}
+
+If you get an unrecovered read error, ensure that the disc you are attempting to dump is clean and can be properly read by the console. Even though you may be able to play the game disc normally, you may still get this error. If the error persists, try to dump another disc and see if the same error happens.
+{: .notice--warning}
+
+1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
+
+    ![](/images/homebrew/CleanRip/dateldisc.png)
 
 1. Defina as configurações como mostradas na tela abaixo, enquanto verifica se seu disco é dupla camada ou não.
 
-    ![](/images/homebrew/CleanRip/6.png)
+    ![](/images/homebrew/CleanRip/wiisettings.png)
 
 1. Pressione A para começar o backup do disco.
-    + Esse processo pode levar bastante tempo, uma vez que fará um backup de todo o conteúdo de 4.7 GB de disco (8.5 GB para discos de camada dupla).
+    + This process can take quite some time, since it will dump all 4.7 GB of the DVD (8.5 GB for dual layer discs).
 
-    ![](/images/homebrew/CleanRip/7.png)
+    ![](/images/homebrew/CleanRip/wiiprogress.png)
 
-1. Prossiga para [juntando os arquivos PART](dump-games#joining-part-files-on-a-fat32-device).
+1. When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.
 
-### Fazendo backup de um Disco por LAN (Wii DVD Dumper)
+    ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
 
-#### Requisitos
-
-+ Um computador Windows/macOS/Linux com conexão à internet
-+ [DVD Dump Tool](/assets/files/DVDDumpTool.zip)
-
-#### Instruções
-
-As velocidades de download serão lentas devido a limitações no hardware de rede do Wii, mas continua a ser uma solução válida se estiver disposto a ser paciente.
+Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are output, and manage your dumped games.
 {: .notice--info}
 
-Seu Wii e seu computador devem estar conectados à mesma rede local.
-{: .notice--warning}
+### Dumping a GameCube Disc
 
-1. Copie a pasta `DVDDumpTool` do DVDDumpTool `.zip` para a raiz do seu cartão SD ou drive USB.
-1. Reinsira seu cartão SD ou armazenamento USB no seu console.
-1. Ligue o seu console.
-1. Abra o Homebrew Channel.
-1. Abra DVD Dump Tool na lista de homebrews.
-1. Pressione direita no D-Pad, então pressione A.
-1. Escolha o disco que você deseja copiar (As opções são: `GameCube Disc`, `Wii Single-Layer Disc`, `Wii Dual-Layer Disc`)
+1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
 
-    ![](/images/homebrew/DumpDiscs_LAN/2.png)
-1. Insira o disco do jogo no seu Wii.
-    + Se já estiver inserido, ejeta e insira novamente o disco.
+    ![](/images/homebrew/CleanRip/dateldisc.png)
 
-    ![](/images/homebrew/DumpDiscs_LAN/insertthedisc.jpg)
-1. Selecione o tipo de disco adequado.
+1. Pressione A para começar o backup do disco.
+    + This process can take some time, since it will dump all 1.3 GB of the Mini DVD.
 
-    ![](/images/homebrew/DumpDiscs_LAN/3.png)
-1. Pressione qualquer botão para iniciar o processo de backup.
+    ![](/images/homebrew/CleanRip/gcprogress.png)
 
-    ![](/images/homebrew/DumpDiscs_LAN/4.png)
-1. Lembre-se ou anote a URL do seu Wii (endereço de IP).
-1. No seu computador, abra o navegador, vá para sua barra de endereços e insira a URL do Wii.
+1. When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.
 
-    ![](/images/homebrew/DumpDiscs_LAN/5.png)
-1. Clique em `Click here to download XXXX.iso`.
-1. Prossiga para [juntando os arquivos PART](dump-games#joining-part-files-on-a-fat32-device).
+    ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
-### Juntando arquivos PART em um dispositivo FAT32
-
-Se você fez backup do disco (independente se fosse para um PC ou Wii) em um dispositivo formatado em FAT32, você deve ter obtido pelo menos dois arquivos que terminam com `.partX.iso`. Eles precisam ser juntados.
-{: .notice--info}
-
-#### Windows
-
-1. Copie os arquivos que compartilham o mesmo nome e termine com `.partX.iso` em uma pasta vazia no seu computador.
-1. Nesta pasta, clique na barra de endereços no Windows Explorer e copie seu PATH.
-1. Abra uma janela do Windows Terminal ou PowerShell.
-1. Execute `cd [PATH]`.
-1. Digite `copy /b *.part?.iso game.iso` e pressione enter.
-1. Aguarde até que o processo de fusão termine.
-    + Ele deve terminar com o terminal colocando `1 arquivo(s) copiado(s)` ou `1 file(s) copied`.
-
-#### macOS/Linux
-
-1. Copie os arquivos que compartilham o mesmo nome e termine com `.partX.iso` em uma pasta vazia no seu computador.
-1. Abra o Terminal.
-1. Execute `cd [PATH]`, substituindo [PATH] pelo caminho da pasta com seus arquivos `.partX.iso`.
-1. Use o seguinte comando: `cat \*.part?.iso > game.iso`.
-1. Aguarde até que o processo de fusão termine.
-
-Para organizar os jogos apropriadamente no seu armazenamento, você pode usar o [Wii Backup Manager](wiibackupmanager).
+Proceed to [Managing GameCube Backups](gc-backups) to shrink the size of your output file, and manage your dumped games.
 {: .notice--info}

@@ -1,28 +1,28 @@
 ---
-title: "Get Started"
+title: "开始"
 ---
 
 {% include toc title="Table of Contents" %}
 
-It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and install many types of homebrew.
+尽管您可以在没有SD卡的情况下遵循本指南， 但是您将无法使用 BootMii创建或恢复NAND 备份，并且您将无法使用一些自制程序。
 {: .notice--info}
 
-All of the exploits listed here are different methods of achieving the same end-result (getting to the HackMii installer).
+所有漏洞都能运行 HackMii Installer，并且有相同的最终结果。
 {: .notice--info}
 
-These steps will help you softmod your Wii, from stock to BootMii. Before starting this guide, please ensure that your console is on the latest version of the Wii firmware (4.3). If your Wii is already softmodded but is on an older version, follow [this](update) guide to upgrade your setup.
+本指南仅适用于原始 Wii 和 Wii mini（包括 Wii Family Edition）。 请勿在 Wii U（vWii）上使用此指南！ 如果你想在 Wii U 上安装自制程序，请[按照本指南进行操作](https://wiiu.hacks.guide)。
 
 ### Identify your console revision:
 
 {% include identify-console.html %}<br>
 
-### Select your exploit
+### 选择要使用的漏洞
 
 Select the exploit that corresponds to your console and situation the best. If the recommended option does not work for you, or if you are curious about other exploits, check out [Legacy Exploits](legacy-exploits).
 
 | Console Revision       | Recommended Exploit                                                                                                                                                                                                                                                                      |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Wii/Wii Family Edition | If you can use a Windows PC:<br> Automatic Setup: Proceed to [ModMii](modmii)<br> If you can use an SD card:<br> Manual Setup: Proceed to [Wilbrand](wilbrand)<br> If you cannot use an SD card:<br> Manual Setup: Proceed to [str2hax](str2hax)<br> |
-| Wii mini               | Proceed to [Bluebomb](bluebomb)                                                                                                                                                                                                                                                          |
-| Wii U (vWii)           | If you have not modded your Wii U yet:<br> Proceed to [Introduction (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/)<br> If your Wii U is already modded:<br> Proceed to [vWii Modding (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/vwii/sd-preparation)             |
+| Wii mini               | [BlueBomb](bluebomb) - 利用蓝牙的漏洞                                                                                                                                                                                                                                                           |
+| Wii U (vWii)           | 如果您的 Wii 菜单版本不是 4.3，使用 str2hax、Wilbrand 或 FlashHax 安装 Homebrew Channel，然后按照 [更新指南](update) 更新到 4.3。                                                                                                                                                                                      |
 | Dolphin Emulator       | Proceed to [Homebrew Channel on Dolphin](homebrew-dolphin)                                                                                                                                                                                                                               |

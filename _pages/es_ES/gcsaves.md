@@ -2,11 +2,11 @@
 title: "GameCube Saves"
 ---
 
-{% include toc title="Índice" %}
+{% include toc title="Tabla de contenido" %}
 
 This is a full guide on how to manage your GameCube saves.
 
-Use of any GameCube peripheral with a Family Edition Wii or Wii mini require soldering on GameCube ports and/or memory card slots.
+Use of any GameCube peripheral with a Family Edition Wii or Wii Mini require soldering on GameCube ports and/or memory card slots.
 {: .notice--info}
 
 ## Uploading an Individual Save (.gci File) to a Physical Memory Card
@@ -25,7 +25,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Instrucciones
 
-#### Downloading
+#### Descarga/instalación
 
 1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
 1. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
@@ -62,7 +62,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Instrucciones
 
-#### Downloading
+#### Descarga/instalación
 
 1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
 1. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
@@ -99,7 +99,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Instrucciones
 
-#### Downloading
+#### Descarga/instalación
 
 1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii and launch GCMM from the Homebrew Channel.

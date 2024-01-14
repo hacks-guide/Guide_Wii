@@ -1,16 +1,16 @@
 ---
-title: "FAQ and Troubleshooting"
+title: "Preguntas frecuentes"
 ---
 
-## Main FAQ
+## Preguntas frecuentes
 
-{% include toc title="Índice" %}
+{% include toc title="Tabla de contenido" %}
 
-### How risky is hacking my console?
-Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+### ¿Qué tan arriesgado es modificar mi consola?
+Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. ¡Asegúrate de instalar [BootMii](bootmii) y [Priiloader](priiloader) para proteger tu consola de un posible brick!
 
 ### I got error code XXXXXX, how do I fix it?
-In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:
+Para saber la causa del error y su posible solución, accede a la [página de errores de Wiimmfi](https://wiimmfi.de/error), e ingresa el código que hayas recibido. More common errors have fixes listed below:
 
 #### Error 051330/51330
 
@@ -40,21 +40,21 @@ If you get this error, the DNS server you chose or your internet as a whole is h
 
 If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock.
 
-### How can I remove parental controls?
-The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls.
+### ¿Cómo puedo eliminar el control parental?
+Puedes usar la página [mkey generator](https://mkey.salthax.org) para obtener el código necesario para remover el control parental.
 
-### I think my Wii is bricked, or something is seriously wrong, what do I do?
+### ¿Cuáles son las modificaciones que pueden causar un brick del modo Wii (vWii) en la Wii U?
 See [this](bricks) page.
 
 ## Storage Device FAQ
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+Si vas a utilizar BlueBomb, str2hax, o FlashHax, no necesitarás una tarjeta SD.
 {: .notice--info}
 
 FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br> For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS was a previously used file system for Wii game backups - today, it is outdated and should not be used.
 {: .notice--info}
 
-For stock Wii Menu versions lower than 4.0, a limitation in the Wii System Software prevents SD cards bigger than 2GB from being used.<br> For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.<br> Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
+El riesgo de que tu Wii sufra un brick (estado en el cual el software de la consola no puede arrancar debido a un error) es muy bajo, siempre y cuando sigas las instrucciones con atención, y evites hacer modificaciones arriesgadas a tu consola, como instalar una versión anterior del menú de Wii.
 {: .notice--warning}
 
 For USB devices, flash drives have a high rate of not working on Wii consoles. Instead, it is recommended to use a USB hard drive or solid state drive.
@@ -69,7 +69,7 @@ When considering buying or using an SD card or USB device, it is worth consideri
 + General Emulation: There are a wide variety of emulators available on the Wii. Because the size of different game ROMs differ dramatically, the average user for an emulation drive would probably want 32GB or more of space.
 + General Homebrew: For homebrew, the average user would want 2GB or more of space.
 + NAND Backups: For backing up your NAND with BootMii, the average user would need a minimum of 512MB of free space, but sizes of 1GB or more are recommended.
-+ Bare minimum, exploit only: The minimum amount of space to run an SD-card compatible exploit on a Wii is 128MB.
++ Necesitarás una tarjeta SD de al menos 128 MB para ejecutar un exploit.
 
 ### Buying SD Cards
 

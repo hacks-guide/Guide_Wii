@@ -78,5 +78,5 @@ Note: When installing homebrew applications on your SD Card or USB drive, your f
 [Continue to making a NAND Backup using BootMii](bootmii)<br> Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
 {: .notice--info}
 
-Tip: If a Wii has BootMii installed as boot2, your disc drive will flash very briefly after the immediate flash that happens when you press the POWER Button.
+Here's a tip - when installing homebrew applications on your SD Card or USB drive, your folder structure should look like this:
 {: .notice--info}

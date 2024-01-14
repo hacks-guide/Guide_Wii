@@ -1,5 +1,5 @@
 ---
-title: "Open Shop Channel"
+title: "Redirecting..."
 ---
 
 {% include toc title="Tabel de Conținut" %}

@@ -1,13 +1,13 @@
 ---
-title: "Începe"
+title: "Start Here"
 ---
 
 {% include toc title="Tabel de Conținut" %}
 
-Este recomandat să ai cel puțin un card SD în mână după procesul inițial de modificare pentru că acesta îți va permite să creezi un backup NAND folosind BootMii și să instalezi diferite tipuri de homebrew.
+If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
 {: .notice--info}
 
-Toate exploit-urile listate aici sunt metode diferite de a obține același rezultat final (rularea instalatorului HackMii).
+Even if your Wii has already been softmodded in the past, following these steps can still ensure that your softmod is up to date.
 {: .notice--info}
 
 Acești pași te vor ajută să îți modifici consola Wii, de la statutul din fabrica la BootMii. Înainte să începi acest ghid, te rugăm să te asiguri că versiunea de firmware a consolei tale Wii este cea mai nouă (4.3). Dacă Wii-ul tău este deja modificat dar are instalată o versiune mai veche, urmează [acest](update) ghid pentru a-ți actualiza configurația.

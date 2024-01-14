@@ -23,7 +23,7 @@ If the screen stays black and the blue disc drive light is blinking upon launchi
 
 ### Requirements
 
-* An SD card with a minimum 512MB of free space (1GB or more recommended)
+* An SD card with at least 512MB of free space
 
 ### Instructions
 

@@ -1,23 +1,23 @@
 ---
-title: "Creating Wii Game Shortcuts"
+title: "Criando Atalhos de Jogos no Wii"
 ---
 
 {% include toc title="Sumário" %}
 
-Do you use a USB Loader and want to create game shortcuts to launch them on your Wii Menu? Then try WiiGSC (Wii Game Shortcut Creator), previously known as Crap.
+Você usa um USB Loader e quer criar atalhos de jogos para iniciá-los do seu Menu do Wii? Então tente WiiGSC (Wii Game Shortcut Creator), previamente conhecido como Crap.
 
-In the case of a brick, [installing Priiloader is a must](/priiloader). Also, install BootMii (as Boot2 if you have an early Wii). Installing brick protection along with following the guide correctly should keep you safe from bricks. DO NOT CONTINUE UNTIL YOU HAVE INSTALLED PRIILOADER AND BOOTMII!
+No caso de um brick, [instalar Priiloader é obrigatório](/priiloader). Também, instale BootMii (como Boot2 se você tem um Wii antigo). Instalar proteção de bricks e seguir o guia corretamente deve mantê-lo seguro contra bricks. NÃO CONTINUE COM O GUIA ATÉ VOCÊ TER INSTALADO PRIILOADER E BOOTMII!
 {: .notice--warning}
 
-Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will brick your Wii.
+NÃO faça atalhos para os jogos "Mario Party 9" ou "A Boy and His Blob". Irá causar um brick em seu Wii.
 {: .notice--warning}
 
 ### Requisitos
 
 * Um Wii
-* Um armazenamento USB
+* Um armazenamento USB.
 * [YAWM ModMii Edition](yawmme)
-* A Windows computer.
+* Um computador Windows.
 * [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
 
 ### Instruções
@@ -35,8 +35,7 @@ Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It
 <div class="notice--info">
 If you get an error saying "The system files are corrupted", don't panic as long as you installed Priiloader.
 
-Turn off your Wii, then hold down the RESET button down and turn on your Wii. You should be able to boot into the Priiloader menu. <br>
-Simply enter the Homebrew Channel, and use your WAD manager to uninstall the WAD.
+Turn off your Wii, then hold down the RESET button down and turn on your Wii. You should be able to boot into the Priiloader menu. <br> Simply enter the Homebrew Channel, and use your WAD manager to uninstall the WAD.
 </div>
 
 [Clique aqui para voltar ao índice do site.](site-navigation)

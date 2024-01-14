@@ -44,6 +44,7 @@ sitemap: false
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Updating Wii Menu to v4.3](update)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
@@ -52,7 +53,6 @@ sitemap: false
 {% capture notice-5 %}
 **Homebrew**
 + [Creating Wii Game Shortcuts](wiigsc)
-+ [GameCube Backup Manager](gcbackupmanager)
 + [How to dump Channels (WADs)](dump-wads)
 + [How to dump GameCube/Wii Games](dump-games)
 + [Managing GameCube Backups](gc-backups)
@@ -64,7 +64,6 @@ sitemap: false
 + [Transferring Save Games](transfer-saves)
 + [Wii Backup Loaders](wii-loaders)
 + [Using SysCheck](syscheck)
-+ [Wii Backup Manager](wiibackupmanager)
 + [Wii Themes Guide](themes)
 {% endcapture %}
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>

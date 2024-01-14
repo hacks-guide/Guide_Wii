@@ -45,6 +45,7 @@ sitemap: false
 + [Priiloader](priiloader)
 + [Come rieseguire l'HackMii Installer](hackmii)
 + [Aggiornamento del Menu Wii alla versione 4.3](update)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wii mini NAND Dumper](wnd-mini)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
@@ -53,18 +54,17 @@ sitemap: false
 {% capture notice-5 %}
 **Homebrew**
 + [Come creare collegamenti per Giochi Wii](wiigsc)
-+ [GameCube Backup Manager](gcbackupmanager)
 + [Come scaricare i Canali (WADs)](dump-wads)
 + [Come preservare giochi Wii e GameCube](dump-games)
-+ [RSSMii](rssmii)
++ [Managing GameCube Backups](gc-backups)
 + [Come gestire i salvataggi GameCube](gcsaves)
-+ [Nintendont](nintendont)
-+ [Come giocare a RomHacks di giochi Wii](riivolution)
++ [Managing Wii Backups](wii-backups)
 + [Usare Priiloader](priiloader-usage)
 + [App Homebrew consigliate](recommended-homebrew)
++ [RSSMii](rssmii)
++ [Transferring Save Games](transfer-saves)
 + [USB Loaders](wii-loaders)
 + [Come eseguire un SysCheck](syscheck)
-+ [Wii Backup Manager](wiibackupmanager)
 + [Guida ai Temi Wii](themes)
 {% endcapture %}
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>

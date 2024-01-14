@@ -4,11 +4,11 @@ title: "Dumping WADs"
 
 {% include toc title="Tabel de Conținut" %}
 
-This guide will show you how to dump WADs from your Wii System Memory.
+If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
 
 ### Instrumente necesare
 
-+ An SD Card or USB drive
++ An SD card or USB drive
 + [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
 ### Instrucțiuni
@@ -16,7 +16,7 @@ This guide will show you how to dump WADs from your Wii System Memory.
 1. Oprește consola.
 1. Insert your SD card or USB drive into your computer.
 1. Copy the `apps` folder from the Yet Another BlueDump MOD `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
+1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel
 1. Pornește consola.
 1. Launch the Homebrew Channel.
 1. Launch Yet Another BlueDump MOD from the list of homebrew.
@@ -44,9 +44,9 @@ This guide will show you how to dump WADs from your Wii System Memory.
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-The WAD has now been dumped, and should appear at the specified directory on your SD card or USB drive.
+This tutorial will explain you how to dump WADs from your Wii System Memory.
 
 ![](/images/homebrew/DumpWADS/7.png)
 
-[Click aici pentru a reveni la indexul site-ului.](site-navigation)
+[Click here to view all of our tutorials that you can find on this website!](site-navigation)
 {: .notice--info}

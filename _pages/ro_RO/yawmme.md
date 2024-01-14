@@ -6,8 +6,8 @@ title: "YAWM ModMii Edition"
 
 YAWM ModMii Edition is an application that can install WADs and launch homebrew applications. This tutorial will show you how to install WADs.
 
-### Instrumente necesare
-* An SD card or USB drive
+### What you need
+* an SD card or USB drive
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
 ### Instrucțiuni
@@ -39,5 +39,5 @@ YAWM ModMii Edition is an application that can install WADs and launch homebrew 
 
     ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
-[Click aici pentru a reveni la indexul site-ului.](site-navigation)
+[Click here to view all of our tutorials that you can find on this website!](site-navigation)
 {: .notice--info}

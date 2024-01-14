@@ -1,8 +1,8 @@
 ---
-title: "BootMii Recovery"
+title: "BootMii Recovery (RestoreMii)"
 ---
 
-{% include toc title="Tabel de Conținut" %}
+If you are even able to enter BootMii, enter the Homebrew Channel instead, and try your best to [identify what caused the brick](bricks) and reverse it.
 
 This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
 
@@ -11,7 +11,6 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
 
 If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 {: .notice--warning}
-
 
 Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
 {: .notice--danger}
@@ -78,5 +77,5 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 If you were restoring a NAND backup in order to repair a brick and this did not fix your issue, please consult [the bricks portion](bricks) of this guide.
 {: .notice--info}
 
-[Click aici pentru a reveni la indexul site-ului.](site-navigation)
+[Click here to view all of our tutorials that you can find on this website!](site-navigation)
 {: .notice--info}

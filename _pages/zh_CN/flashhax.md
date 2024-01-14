@@ -1,15 +1,15 @@
 ---
-title: "FlashHax"
+title: "RiiConnect24"
 ---
 
 {% include toc title="Table of Contents" %}
 
-FlashHax is an exploit for the Wii that is triggered by using the Internet Channel. Unlike other exploits, this doesn't require an SD card.
+FlashHax是一个用于 Wii 的漏洞，通过使用 Internet Channel 来触发。 不像其他漏洞，这个漏洞不需要SD卡。
 
 ### Requirements
 
-* A Wii with an Internet connection
-* The Internet Channel
+* 一台有互联网连接的Wii
+* 互联网频道（The Internet Channel）
 
 ### Instructions
 
@@ -35,18 +35,18 @@ FlashHax is an exploit for the Wii that is triggered by using the Internet Chann
 
 1. Open the site from the bookmark
 1. Wait a while
-    + It may take some time as it is downloading the installer over the Internet.
+    + 由于它通过互联网下载 installer（安装程序），可能需要一些时间。
 
     ![](/images/exploits/flashhax/wait-for-download.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 它会下载并且加载HackMii Installer。
     + This may take multiple tries.
-    + If the HackMii Installer doesn't load and it instead freezes (you can't move your cursor), restart your Wii, launch the Internet Channel, then retry this section.
+    + 如果 HackMii Installer 无法加载并且卡住（无法移动光标），请重启 Wii 并重复第 3 步，直到它正常工作。
 
-If you still can't get it to load, try deleting your cookies or save data for the Internet Channel.
+如果仍然无法加载，请尝试删除 Internet Channel 的 Cookie 或保存数据。
 
 If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
 
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[继续到 安装 Homebrew Channel 和 BootMii](hbc)
 {: .notice--info}

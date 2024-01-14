@@ -2,19 +2,19 @@
 title: "GameCube Saves"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
 This is a full guide on how to manage your GameCube saves.
 
-Use of any GameCube peripheral with a Family Edition Wii or Wii mini require soldering on GameCube ports and/or memory card slots.
+Use of any GameCube peripheral with a Family Edition Wii or Wii Mini require soldering on GameCube ports and/or memory card slots.
 {: .notice--info}
 
 ## Uploading an Individual Save (.gci File) to a Physical Memory Card
 
-### Requirements
+### 必備項目
 
 * A Wii with GameCube ports
-* An SD Card or USB
+* 一張 SD 卡或 USB 隨身碟
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 If you are looking for 100% completion saves online, you can find them [here](https://gamefaqs.gamespot.com/).
@@ -46,7 +46,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. Select the save you want to restore. If you have multiple saves to restore, you can press R on the GameCube controller or 1 on the Wii remote to restore all of your saves.
+1. Select the save you want to restore. Select the save you want to restore. If you have multiple saves to restore, you can press R on the GameCube controller or 1 on the Wii remote to restore all of your saves.
 
     ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
@@ -54,10 +54,10 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Backing Up A Save (.gci File) to an SD or USB From a Physical Memory Card
 
-### Requirements
+### 必備項目
 
 * A Wii with GameCube ports
-* An SD Card or USB
+* 一張 SD 卡或 USB 隨身碟
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ### Instructions
@@ -68,7 +68,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 1. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii and launch GCMM from the Homebrew Channel.
 
-#### Backing Up
+#### 備份
 
 1. Insert your physical memory card into slot A or slot B.
 1. Select the device you want to backup to.
@@ -83,7 +83,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. Select the save you want to backup. If you have multiple saves to backup, you can press R on the GameCube controller or 1 on the Wii remote to backup all of your saves.
+1. Select the save you want to backup. Select the save you want to backup. If you have multiple saves to backup, you can press R on the GameCube controller or 1 on the Wii remote to backup all of your saves.
 
     ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
@@ -91,10 +91,10 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Backing Up Your Physical Memory Card Into an Emulated Memory Card (.raw file)
 
-### Requirements
+### 必備項目
 
 * A Wii with GameCube ports
-* An SD Card or USB
+* 一張 SD 卡或 USB 隨身碟
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ### Instructions
@@ -115,14 +115,14 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. When the dump is complete, press any button to continue. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
+1. When the dump is complete, press any button to continue. When the dump is complete, press any button to continue. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
 
 ## Restoring an Emulated Memory Save to a Physical Memory Card
 
-### Requirements
+### 必備項目
 
 * A Wii with GameCube ports
-* An SD Card or USB
+* 一張 SD 卡或 USB 隨身碟
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ### Instructions
@@ -139,11 +139,11 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. It should restore the .raw file to your memory card. When restoration is complete, press any button to continue.
+1. It should restore the .raw file to your memory card. When restoration is complete, press any button to continue. When restoration is complete, press any button to continue.
 
 ## Transferring Saves Between 2 Physical Memory Cards
 
-### Requirements
+### 必備項目
 
 * A Wii with GameCube ports
 * At least 2 physical memory cards
