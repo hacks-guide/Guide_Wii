@@ -4,7 +4,7 @@ title: "安装 Wii 菜单主题"
 
 {% include toc title="Table of Contents" %}
 
-本指南仅适用于普通的 Wii。 若要在 vWii (Wii U) 上安装主题，请参考[此页面](themes-vwii)。 Additionally, forwarders are covered.
+This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
 
 ### 转到 `Options` > `Standard System Menu` > Wii 菜单版本 > Wii 菜单区域
 
