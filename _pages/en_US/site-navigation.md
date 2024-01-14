@@ -45,7 +45,6 @@ sitemap: false
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)
-+ [Wii mini NAND Dumper](wnd-mini)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
@@ -56,11 +55,14 @@ sitemap: false
 + [GameCube Backup Manager](gcbackupmanager)
 + [How to dump Channels (WADs)](dump-wads)
 + [How to dump GameCube/Wii Games](dump-games)
-+ [RSSMii](rssmii)
++ [Managing GameCube Backups](gc-backups)
 + [Managing GameCube Save Files](gcsaves)
++ [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
-+ [USB Loaders](wii-loaders)
++ [RSSMii](rssmii)
++ [Transferring Save Games](transfer-saves)
++ [Wii Backup Loaders](wii-loaders)
 + [Using SysCheck](syscheck)
 + [Wii Backup Manager](wiibackupmanager)
 + [Wii Themes Guide](themes)
@@ -68,8 +70,18 @@ sitemap: false
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
+**vWii**
++ [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
++ [Wii U NAND Dumper](wiiu-nand-dumper)
++ [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
++ [Installing cIOS on the vWii](cios-vwii)
+{% endcapture %}
+<div class="notice--primary">{{ notice-6 | markdownify }}</div>
+
+{% capture notice-7 %} 
 **Wii mini**
 + [Installing the Homebrew Channel on the Wii mini](hbc-mini)
 + [Installing cIOS on the Wii mini](cios-mini)
++ [Wii mini NAND Dumper](wnd-mini)
 {% endcapture %}
-<div class="notice--primary">{{ notice-6 | markdownify }}</div>
+<div class="notice--primary">{{ notice-7 | markdownify }}</div>
