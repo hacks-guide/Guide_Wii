@@ -4,7 +4,7 @@ title: "Wii 메뉴 테마 설치하기"
 
 {% include toc title="목차" %}
 
-Priiloader 메뉴로 부팅하면 Wii 메뉴를 수정할 수 있는 몇 가지 옵션이 있습니다. 옵션 중 하나는 홈브류 채널을 실행하는 것인데, 여기서 MyMenuify Mod를 실행하고 버튼을 눌러 오리지널 Wii 메뉴 테마를 다운로드하고 설치할 수 있습니다. Additionally, forwarders are covered.
+This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
 
 ### `옵션` > `표준 시스템 메뉴` > Wii 메뉴의 버전 > Wii 메뉴의 지역으로 이동합니다.
 
