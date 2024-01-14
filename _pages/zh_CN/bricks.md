@@ -111,7 +111,7 @@ Attempt to start the Wii - warning/press A screen shows up, and when A is presse
 Theme brick（主题砖）在安装了格式错误的主题时发生。
 
 #### 解决方案
-要解决此问题，请通过 Priiloader 打开 HBC 并访问 MyMenuifyMod 以安装默认主题。 Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
+To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
 
 ## Mail brick（邮件砖）
 
