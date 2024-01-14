@@ -4,7 +4,7 @@ title: "Temi Wii"
 
 {% include toc title="Table of Contents" %}
 
-Questa guida è destinata a essere l'ultima di cui hai bisogno per quanto riguarda la personalizzazione sul Wii, non solo fornendo istruzioni per il Menu Wii con MyMenuifyMod, ma anche i temi su WiiFlow Lite, USB Loader GX e l'Homebrew Channel. Inoltre, tratteremo anche di forwarder.
+This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Inoltre, tratteremo anche di forwarder.
 
 ### Personalizzazione del Menu Wii
 
