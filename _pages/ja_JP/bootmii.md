@@ -6,19 +6,7 @@ title: "NANDのバックアップ(BootMii)"
 
 You need an **SD card** to create a NAND backup using BootMii. If you do not have one, you can skip this page, although it is highly recommended to make a NAND backup if you can.
 
-Wii Family EditionではNANDをリストアすることはできません。 Wii Family EditionではIOS版のBootMiiでNANDをリストアするときに必要となるGCコントローラー挿入口が削除されているからです。 いずれにしても、NANDのバックアップを作成することをお勧めします。
-{: .notice--danger}
-
 BootMiiを使用し、NANDバックアップを作成するには、 **SDカード** が必要です。 SDカードが無い場合、このページをスキップできますが、後で実行することを推奨します。
-{: .notice--warning}
-
-Wiiリモコンを使用してBootMiiを操作することはできません。 Wii本体のPOWER(電源)ボタンとRESET(リセット)ボタンか、ポート1に接続しているGCコントローラーで操作できます。 カーソルを移動させるには、WiiのPOWER(電源)ボタンか、GCコントローラーの十字ボタンを押してください。 選択するには、WiiのRESETボタンかGCコントローラーのAボタンを押してください。 One of BootMii's most important features is the ability to backup and restore your Wii's NAND storage. We will be going over how to perform a NAND backup. You can then restore from that backup for any reason.
-{: .notice--info}
-
-If the `Launch BootMii` button does not appear, please [re-launch the HackMii Installer](hackmii) and install BootMii.
-{: .notice--warning}
-
-If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 {: .notice--warning}
 
 ### 必要なもの
@@ -36,9 +24,18 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
     ![](/images/bootmii/BootMii_HBC.png)
 
+    If the `Launch BootMii` button does not appear, please [re-launch the HackMii Installer](hackmii) and install BootMii.
+    {: .notice--warning}
+
+    If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+    {: .notice--warning}
+
 1. You should see an image similar to the below now on your screen:
 
     ![](/images/bootmii/BootMii_Main.png)
+
+    Wiiリモコンを使用してBootMiiを操作することはできません。 Wii本体のPOWER(電源)ボタンとRESET(リセット)ボタンか、ポート1に接続しているGCコントローラーで操作できます。 To navigate between options, press POWER. To select an option, press RESET.
+    {: .notice--info}
 
 1. Select the Options button (the icon with the gears).
 
@@ -65,7 +62,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 <div id="restore-notice" class="notice" markdown="1">
 Please be reminded that <strong>restoring a NAND backup is usually a last resort,</strong> and that there often better ways to fix your brick. ブリックを解決するためにはほかにも方法があることが多いです。
 [ブリックの原因を特定](bricks)し、その問題を解決することに注力してください。
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover).
+To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.**
 </div>
 
 BootMii as boot2 is recommended, but only available to install on early Wii consoles. Otherwise, it can only be installed as an IOS. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
