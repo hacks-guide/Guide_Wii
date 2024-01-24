@@ -11,6 +11,9 @@ This guide is intended to be the last you will ever need when it comes to themin
 NON CONTINUARE CON QUESTA GUIDA A MENO CHE TU ABBIA UNA PROTEZIONE DA BRICK ADEGUATA, NELLO SPECIFICO [BOOTMII](bootmii) E [PRIILOADER](priiloader)!
 {: .notice--danger}
 
+This tutorial does not work on the Wii mini. Do not attempt this tutorial on the Wii mini or it will cause a [brick](bricks#theme-brick).
+{: .notice--warning}
+
 csm-installer has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
 {: .notice--warning}
 
