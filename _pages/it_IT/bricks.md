@@ -111,7 +111,7 @@ Prova ad accendere il Wii - viene mostrato l'avviso di salute e sicurezza, quand
 Un brick del tema si verifica quando un tema malformato viene installato.
 
 #### Soluzioni
-Per risolvere questo problema, apri HBC tramite Priiloader o BootMii su boot2 e avvia MyMenuifyMod per installare un tema predefinito come quello del Menu Wii. Alternativamente, entra in [YAWM ModMii Edition](yawmme) e installa il WAD del menu Wii predefinito CORRETTO per la tua regione e versione.
+To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. Alternativamente, entra in [YAWM ModMii Edition](yawmme) e installa il WAD del menu Wii predefinito CORRETTO per la tua regione e versione.
 
 ## Brick mail
 
