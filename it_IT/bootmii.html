@@ -369,15 +369,7 @@ window.cookieconsent.initialise({
 
 <p>BootMii permette di eseguire il backup e il ripristino della memoria NAND del tuo Wii. Questa pagina ti guiderà su come eseguire il backup della NAND del tuo Wii su una scheda SD, che potrai usare come vuoi.</p>
 
-<p class="notice--danger">I Wii Family Edition (senza le porte GameCube) NON POSSONO ripristinare backup della NAND. Questo è dovuto alla mancanza di porte GameCube che servono su Wii non-boot2 per inserire il codice di conferma per il ripristino. In ogni caso, è sempre consigliato farne uno su queste console.</p>
-
 <p class="notice--warning">Hai bisogno di una <strong>scheda SD</strong> per usare BootMii, ma specialmente per creare backup della NAND. Se non hai una scheda SD a portata di mano in questo momento, puoi saltare questa pagina, ma è FORTEMENTE CONSIGLIATO di tornare su questa pagina dopo per eseguire il backup della tua NAND.</p>
-
-<p class="notice--info">Navigare in BootMii è impossibile usando un Wii Remote. Devi usare i tasti POWER e RESET sulla tua console, o un controller GameCube inserito nella porta 1. Per navigare tra le opzioni, premi power sul tuo Wii (o i tasti sinistra/destra sul +Control Pad del controller GameCube). Per selezionare un’opzione, premi RESET sul tuo Wii o A sul tuo controller GameCube. TI SERVIRÀ un controller GameCube per ripristinare un backup della NAND in futuro se BootMii è installato come IOS.</p>
-
-<p class="notice--warning">Se il pulsante <code class="language-plaintext highlighter-rouge">Launch BootMii</code> non appare nell’Homebrew Channel, <a href="hackmii">rilancia l’HackMii Installer</a> e installa BootMii.</p>
-
-<p class="notice--warning">Se lo schermo rimane nero e l’unità del disco blu lampeggia mentre provi ad avviare BootMii, ti mandano i file di BootMii sulla scheda SD. Scarica <a href="/assets/files/bootmii_sd_files.zip">questo file zip</a> ed estrailo nella root della tua scheda SD, poi riprova.</p>
 
 <h3 id="requisiti">Requisiti</h3>
 
@@ -396,11 +388,17 @@ window.cookieconsent.initialise({
     <p>Premi il tasto HOME, poi seleziona “Launch BootMii”.</p>
 
     <p><img src="/images/bootmii/BootMii_HBC.png" alt="" /></p>
+
+    <p class="notice--warning">Se il pulsante <code class="language-plaintext highlighter-rouge">Launch BootMii</code> non appare nell’Homebrew Channel, <a href="hackmii">rilancia l’HackMii Installer</a> e installa BootMii.</p>
+
+    <p class="notice--warning">Se lo schermo rimane nero e l’unità del disco blu lampeggia mentre provi ad avviare BootMii, ti mandano i file di BootMii sulla scheda SD. Scarica <a href="/assets/files/bootmii_sd_files.zip">questo file zip</a> ed estrailo nella root della tua scheda SD, poi riprova.</p>
   </li>
   <li>
     <p>Dovresti vedere un’immagine a schermo simile a questa qui sotto:</p>
 
     <p><img src="/images/bootmii/BootMii_Main.png" alt="" /></p>
+
+    <p class="notice--info">Navigare in BootMii è impossibile usando un Wii Remote. Devi usare i tasti POWER e RESET sulla tua console, o un controller GameCube inserito nella porta 1. To navigate between options, press POWER. To select an option, press RESET.</p>
   </li>
   <li>
     <p>Seleziona il pulsante delle opzioni (con l’icona delle rotelle).</p>
@@ -436,7 +434,7 @@ window.cookieconsent.initialise({
 <div id="restore-notice" class="notice">
   <p>Nota: <strong>ripristinare un backup della NAND è di solito l’ultima spiaggia</strong>. Ci sono spesso dei modi migliori di ubrickare la tua console.
 Fai del tuo meglio per <a href="bricks">identificare la tua condizione di brick</a> e annullare l’azione che lo ha causato in primo luogo.
-Per ripristinare un backup della NAND dalla tua scheda SD, puoi seguire le istruzioni per <a href="bootmiirecover">RestoreMii</a> (solo Wii Originali).</p>
+To restore from a NAND backup on your SD card, you can follow the instructions for <a href="bootmiirecover">RestoreMii</a>. <strong>Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.</strong></p>
 </div>
 
 <p class="notice--info">Come detto in precedenza, se hai BootMii installato in boot2, si avvierà ogni volta che accenderai la console. Se vuoi modificare questa feature, puoi usare l’app <a href="https://oscwii.org/library/app/BootMiiConfigurationEditor">BootMii Config Editor</a>. Altrimenti, puoi editare il file <code class="language-plaintext highlighter-rouge">sd:/bootmii/bootmii.ini</code> manualmente.</p>
