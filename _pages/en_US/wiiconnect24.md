@@ -11,12 +11,12 @@ These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Ch
 
 [WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather & local news, send messages to friends, participate in Mii contest, and more. WiiConnect24 was discontinued on June 27th, 2013.
 
-## RiiConnect24
-[RiiConnect24](https://rc24.xyz) is a revival service for WiiConnect24 that started in 2015.
+## RiiConnect24 + WiiLink
+[RiiConnect24](https://rc24.xyz) is a revival service for WiiConnect24 that started in 2015, which allows you to regain its functionality on your console.
 As of late 2023, the service is now owned by WiiLink, a project that started in 2020 that was previously aiming at the Japanese-exclusive channels.
 
-RiiConnect24's guide can be found [on WiiLink's website.](https://www.wiilink24.com/guide/).<br>
-Service support status can be found [here](https://rc24.xyz/stats/).
+There is a patcher that ships both of these services together as one - meaning you get all of the international and Japanese-only channels in one package.
+The guide on how to install these services can be found [on WiiLink's website.](https://www.wiilink24.com/guide/)
 
 <!-- move this back to another page? or no -->
 ### Updating RTC Clock
