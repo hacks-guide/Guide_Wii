@@ -24,8 +24,9 @@
   }
 
   .console-img {
-    margin-top: auto;
-    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
   
   .r1 { grid-row: 1; }
