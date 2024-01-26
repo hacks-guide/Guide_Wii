@@ -65,7 +65,7 @@ The chart below will help you determine what can be done in either interface.
 
 </details><br>
 
-When using ModMii, it is important to note that it will generate a custom guide for you depending on the options that you select in it. For this reason, this guide will not be focused on how to mod your Wii, as ModMii handles that function. Instead, it will be a quick start guide show you how to effectively use it with the most common options.
+When using ModMii, it is important to note that it will generate a custom guide for you depending on the options that you select. For this reason, this guide will not be focused on how to mod your Wii, as ModMii handles that function. Instead, it will be a quick start guide show you how to effectively use it with the most common options.
 
 ### Installing ModMii
 
