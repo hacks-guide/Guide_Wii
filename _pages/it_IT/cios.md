@@ -54,7 +54,7 @@ I file WAD dovrebbe essere sulla scheda SD in questo modo: ![](/images/cios/d2x_
 1. Accendi la console.
 1. Avvia l'Homebrew Channel.
 1. Avvia d2x cIOS Installer dalla lista degli homebrew.
-1. Set everything to match the following:
+1. Imposta le opzioni in modo che corrispondano a quanto segue:
 
     ```
     Select cIOS <d2x-v11-beta1>
@@ -65,7 +65,7 @@ I file WAD dovrebbe essere sulla scheda SD in questo modo: ![](/images/cios/d2x_
 
     ![](/images/cios/d2x_v11_248.png)
 
-    The warning "`(c)IOS detected in slot ### will be overwriitten`" can be safely ignored.
+    L'avviso "`(c)IOS detected in slot ### will be overwriitten`" può essere ignorato.
     {: .notice--info}
 
     If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.)
