@@ -4,7 +4,7 @@ title: "BootMii Recovery (RestoreMii)"
 
 {% include toc title="Sumário" %}
 
-Este guia fornecerá instruções sobre como restaurar um backup da sua NAND com o BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
+Este guia fornecerá instruções sobre como restaurar um backup da sua NAND com o BootMii. Por favor, tenha em mente que este é geralmente o  <strong>último método de reparo</strong> para consertar um brick se você tiver um, e se não resolver o seu problema, você pode ter que procurar suporte. Se você ainda puder entrar no BootMii, tente entrar no Homebrew Channel, assim você poderá fazer uma tentativa de [identificar e reparar o brick](bricks) usando outros métodos.
 
 Se você instalou o BootMii como Boot2 na última etapa, será necessário iniciar o BootMii reiniciando o console. Pule as etapas 1-2 se esse for o caso.
 {: .notice--info}
@@ -12,7 +12,7 @@ Se você instalou o BootMii como Boot2 na última etapa, será necessário inici
 Se a tela ficar preta e a luz azul do disco estiver piscando, quer dizer os arquivos do BootMii estão faltando no seu cartão SD. Baixe [esse arquivo zip](https://static.hackmii.com/bootmii_sd_files.zip) e extraia ele para a raiz do seu cartão SD, então, tente novamente.
 {: .notice--warning}
 
-Wiis "Family Edition" (Wiis sem portas GameCube) NÃO PODEM restaurar backups da NAND. Isso ocorre devido à falta de portas GameCube que são necessárias em Wiis sem boot2 para entrar no código de confirmação de restauração. For additional help, please seek support.
+Wiis "Family Edition" (Wiis sem portas GameCube) NÃO PODEM restaurar backups da NAND. Isso ocorre devido à falta de portas GameCube que são necessárias em Wiis sem boot2 para entrar no código de confirmação de restauração. Para ajuda adicional, por favor procure suporte.
 {: .notice--danger}
 
 DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same also goes for faulty SD cards.
