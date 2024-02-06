@@ -54,7 +54,7 @@ I file WAD dovrebbe essere sulla scheda SD in questo modo: ![](/images/cios/d2x_
 1. Accendi la console.
 1. Avvia l'Homebrew Channel.
 1. Avvia d2x cIOS Installer dalla lista degli homebrew.
-1. Set everything to match the following:
+1. Imposta le opzioni in modo che corrispondano a quanto segue:
 
     ```
     Select cIOS <d2x-v11-beta1>
@@ -65,29 +65,29 @@ I file WAD dovrebbe essere sulla scheda SD in questo modo: ![](/images/cios/d2x_
 
     ![](/images/cios/d2x_v11_248.png)
 
-    The warning "`(c)IOS detected in slot ### will be overwriitten`" can be safely ignored.
+    L'avviso "`(c)IOS detected in slot ### will be overwriitten`" può essere ignorato.
     {: .notice--info}
 
-    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.)
+    Se stai vedendo "`Slot ### already used in batch settings`" oppure "`cIOS already added in batch with revision ##### and slot ###`", premi `-` per disabilitare la modalità batch. <br> (Se stai cercando di uscire dall'installer, il pulsante è B, non Home.)
     {: .notice--info}
 
-1. Press `A`. This will bring you to the slot map:
+1. Premi `A`. Questo ti porterà alla mappa degli slot:
 
     ![](/images/cios/d2x_summary.png)
 
-1. Press `A` again.
+1. Premi `A` nuovamente.
 
     ![](/images/cios/d2x_installation.png)
 
-1. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
+1. Appena terminata l'installazione, tornerai alla mappa degli slot. Assicurati che lo slot appena installato sia evidenziato in verde.
 
     ![](/images/cios/d2x_log.png)
 
-    If the slot is highlighted red, try install the cIOS again. <br> If you are getting an error before/during the downloading stages, press B to exit and continue from [Section I](#section-i---downloading).
+    Se lo slot è evidenziato in rosso, ritenta l'installazione del cIOS. <br> Se stai riscontrando un errore prima/durante le fasi di download, premi B per uscire e continua dalla [Sezione I](#section-i---downloading).
     {: .notice--info}
 
-1. Press `A`. This will return you to the configuration screen.
-1. Repeat the previous 5 steps with the following configurations:
+1. Premi `A`. Questo ti riporterà alla schermata di configurazione.
+1. Ripeti i 5 passaggi precedenti con le seguenti configurazioni:
 
     + Installazione del cIOS 249
 
@@ -122,7 +122,7 @@ I file WAD dovrebbe essere sulla scheda SD in questo modo: ![](/images/cios/d2x_
 
         ![](/images/cios/d2x_v11_251.png)
 
-1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+1. Una volta finito con tutti i 4 cIOS, premi B per tornare all'Homebrew Channel.
 
 Continue to [Open Shop Channel Installation](osc) <br> Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 {: .notice--info}

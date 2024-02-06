@@ -4,7 +4,7 @@ title: "Dump di Giochi Wii/GameCube"
 
 {% include toc title="Table of Contents" %}
 
-This guide covers dumping GameCube or Wii game discs to a local SD card or USB drive on your Wii.
+Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda SD locale o unità USB sul tuo Wii.
 
 ### Dump di un Disco su SD/USB (CleanRip)
 
@@ -22,7 +22,7 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 1. Accendi la console.
 1. Avvia l'Homebrew Channel.
 1. Avvia CleanRip dalla lista degli homebrew.
-1. When prompted, select `Yes` to calculate disc checksums.
+1. Quando richiesto, seleziona `Yes` per calcolare i checksum del disco.
 
     ![](/images/homebrew/CleanRip/checksum.png)
 
@@ -41,18 +41,18 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 1. Quando richiesto, seleziona `Yes` per scaricare i file DAT di redump.org.
     + Questo è richiesto per assicurarsi che i dump siano puliti/accurati.
 
-    Potresti ottenere un errore se lo fai. If so, restart your Wii and try again - but if you continue to get exception errors, dump the disc and verify the checksum in Dolphin instead if needed.
+    Potresti ottenere un errore se lo fai. In tal caso, riavvia il Wii e riprova - ma se gli errori di errore di eccezzione persistono, effettua il dump del disco e verifica il checksum su Dolphin se necessario.
     {: .notice--warning}
 
     ![](/images/homebrew/CleanRip/redump.png)
 
-1. Insert the game disc you would like to dump, and press A to continue.
+1. Inserisci il disco di gioco da cui effettuare il dump e premi A per continuare.
 
     ![](/images/homebrew/CleanRip/insertdisc.png)
 
-### Dumping a Wii Disc
+### Dump di un Disco Wii
 
-As of v2.1.2 of CleanRip, there is an option to auto-detect whether or not the disc you have is dual layer. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
+A partire dalla v2.1.2 di CleanRip, c'è un'opzione che rileva automaticamente se il disco è a doppio strato o meno. Se si è su una versione precedente, o semplicemente desider verificare che l'opzione selezionata sia corretta, puoi controllare [questa lista](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) per vedere se il tuo gioco è un disco a doppio strato.
 {: .notice--info}
 
 If you get an unrecovered read error, ensure that the disc you are attempting to dump is clean and can be properly read by the console. Even though you may be able to play the game disc normally, you may still get this error. If the error persists, try to dump another disc and see if the same error happens.
@@ -67,29 +67,29 @@ If you get an unrecovered read error, ensure that the disc you are attempting to
     ![](/images/homebrew/CleanRip/wiisettings.png)
 
 1. Premi A per iniziare il dump del disco.
-    + This process can take quite some time, since it will dump all 4.7 GB of the DVD (8.5 GB for dual layer discs).
+    + Questo processo può metterci un bel po' di tempo, siccome farà il dump di tutti i 4.7 GB del disco (8.5 GB per i dischi a doppio strato).
 
     ![](/images/homebrew/CleanRip/wiiprogress.png)
 
-1. When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.
+1. Una volta finito il dump, dovresti vedere una schermata con il checksum MD5 del disco, in confronto al DAT di Redump se è stato attivato.
 
     ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
 
 Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are output, and manage your dumped games.
 {: .notice--info}
 
-### Dumping a GameCube Disc
+### Dump di un Disco GameCube
 
 1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
 1. Premi A per iniziare il dump del disco.
-    + This process can take some time, since it will dump all 1.3 GB of the Mini DVD.
+    + Questo processo può richiedere un po' di tempo, siccome farà il dump di tutti i 1.3 GB del Mini DVD.
 
     ![](/images/homebrew/CleanRip/gcprogress.png)
 
-1. When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.
+1. Una volta finito il dump, dovresti vedere una schermata con il checksum MD5 del disco, in confronto al DAT di Redump se è stato attivato.
 
     ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
