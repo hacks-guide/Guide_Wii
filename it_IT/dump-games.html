@@ -365,14 +365,14 @@ window.cookieconsent.initialise({
       <li><a href="#preparazione" id="markdown-toc-preparazione">Preparazione</a></li>
     </ul>
   </li>
-  <li><a href="#dumping-a-wii-disc" id="markdown-toc-dumping-a-wii-disc">Dumping a Wii Disc</a></li>
-  <li><a href="#dumping-a-gamecube-disc" id="markdown-toc-dumping-a-gamecube-disc">Dumping a GameCube Disc</a></li>
+  <li><a href="#dump-di-un-disco-wii" id="markdown-toc-dump-di-un-disco-wii">Dump di un Disco Wii</a></li>
+  <li><a href="#dump-di-un-disco-gamecube" id="markdown-toc-dump-di-un-disco-gamecube">Dump di un Disco GameCube</a></li>
 </ul>
 
   </nav>
 </aside>
 
-<p>This guide covers dumping GameCube or Wii game discs to a local SD card or USB drive on your Wii.</p>
+<p>Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda SD locale o unità USB sul tuo Wii.</p>
 
 <h3 id="dump-di-un-disco-su-sdusb-cleanrip">Dump di un Disco su SD/USB (CleanRip)</h3>
 
@@ -394,7 +394,7 @@ window.cookieconsent.initialise({
   <li>Avvia l’Homebrew Channel.</li>
   <li>Avvia CleanRip dalla lista degli homebrew.</li>
   <li>
-    <p>When prompted, select <code class="language-plaintext highlighter-rouge">Yes</code> to calculate disc checksums.</p>
+    <p>Quando richiesto, seleziona <code class="language-plaintext highlighter-rouge">Yes</code> per calcolare i checksum del disco.</p>
 
     <p><img src="/images/homebrew/CleanRip/checksum.png" alt="" /></p>
   </li>
@@ -418,20 +418,20 @@ window.cookieconsent.initialise({
       <li>Questo è richiesto per assicurarsi che i dump siano puliti/accurati.</li>
     </ul>
 
-    <p class="notice--warning">Potresti ottenere un errore se lo fai. If so, restart your Wii and try again - but if you continue to get exception errors, dump the disc and verify the checksum in Dolphin instead if needed.</p>
+    <p class="notice--warning">Potresti ottenere un errore se lo fai. In tal caso, riavvia il Wii e riprova - ma se gli errori di errore di eccezzione persistono, effettua il dump del disco e verifica il checksum su Dolphin se necessario.</p>
 
     <p><img src="/images/homebrew/CleanRip/redump.png" alt="" /></p>
   </li>
   <li>
-    <p>Insert the game disc you would like to dump, and press A to continue.</p>
+    <p>Inserisci il disco di gioco da cui effettuare il dump e premi A per continuare.</p>
 
     <p><img src="/images/homebrew/CleanRip/insertdisc.png" alt="" /></p>
   </li>
 </ol>
 
-<h3 id="dumping-a-wii-disc">Dumping a Wii Disc</h3>
+<h3 id="dump-di-un-disco-wii">Dump di un Disco Wii</h3>
 
-<p class="notice--info">As of v2.1.2 of CleanRip, there is an option to auto-detect whether or not the disc you have is dual layer. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check <a href="https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games">this list</a> to see if your game is a dual layer disc.</p>
+<p class="notice--info">A partire dalla v2.1.2 di CleanRip, c’è un’opzione che rileva automaticamente se il disco è a doppio strato o meno. Se si è su una versione precedente, o semplicemente desider verificare che l’opzione selezionata sia corretta, puoi controllare <a href="https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games">questa lista</a> per vedere se il tuo gioco è un disco a doppio strato.</p>
 
 <p class="notice--warning">If you get an unrecovered read error, ensure that the disc you are attempting to dump is clean and can be properly read by the console. Even though you may be able to play the game disc normally, you may still get this error. If the error persists, try to dump another disc and see if the same error happens.</p>
 
@@ -448,13 +448,13 @@ window.cookieconsent.initialise({
   </li>
   <li>Premi A per iniziare il dump del disco.
     <ul>
-      <li>This process can take quite some time, since it will dump all 4.7 GB of the DVD (8.5 GB for dual layer discs).</li>
+      <li>Questo processo può metterci un bel po’ di tempo, siccome farà il dump di tutti i 4.7 GB del disco (8.5 GB per i dischi a doppio strato).</li>
     </ul>
 
     <p><img src="/images/homebrew/CleanRip/wiiprogress.png" alt="" /></p>
   </li>
   <li>
-    <p>When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.</p>
+    <p>Una volta finito il dump, dovresti vedere una schermata con il checksum MD5 del disco, in confronto al DAT di Redump se è stato attivato.</p>
 
     <p><img src="/images/homebrew/CleanRip/wiidumpcomplete.png" alt="" /></p>
   </li>
@@ -462,7 +462,7 @@ window.cookieconsent.initialise({
 
 <p class="notice--info">Proceed to <a href="wii-backups">Managing Wii Backups</a> to join the PART files that are output, and manage your dumped games.</p>
 
-<h3 id="dumping-a-gamecube-disc">Dumping a GameCube Disc</h3>
+<h3 id="dump-di-un-disco-gamecube">Dump di un Disco GameCube</h3>
 
 <ol>
   <li>
@@ -472,13 +472,13 @@ window.cookieconsent.initialise({
   </li>
   <li>Premi A per iniziare il dump del disco.
     <ul>
-      <li>This process can take some time, since it will dump all 1.3 GB of the Mini DVD.</li>
+      <li>Questo processo può richiedere un po’ di tempo, siccome farà il dump di tutti i 1.3 GB del Mini DVD.</li>
     </ul>
 
     <p><img src="/images/homebrew/CleanRip/gcprogress.png" alt="" /></p>
   </li>
   <li>
-    <p>When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.</p>
+    <p>Una volta finito il dump, dovresti vedere una schermata con il checksum MD5 del disco, in confronto al DAT di Redump se è stato attivato.</p>
 
     <p><img src="/images/homebrew/CleanRip/gcdumpcomplete.png" alt="" /></p>
   </li>
