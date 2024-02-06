@@ -68,7 +68,7 @@ Para restaurar de um backup da NAND no seu cartão SD, você pode seguir as inst
 Como mencionado anteriormente, se você tiver o BootMii instalado como boot2, ele será executado toda vez que você iniciar o console. Se você deseja alterar isto, você pode usar o aplicativo [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Ou, você pode editar `sd:/bootmii/bootmii.ini` manualmente.
 {: .notice--info}
 
-To make sure you don’t lose the files, it's recommended to copy `nand.bin` and `keys.bin` from the root of your SD card to your computer. `nand.bin` é a memória interna do seu Wii, enquanto `keys.bin` são as chaves do console.
+Dois arquivos serão criados na raiz do cartão SD: `nand.bin` e `keys.bin`. `nand.bin` é a memória interna do seu Wii, enquanto `keys.bin` são as chaves do console.
 {: .notice--info}
 
 [Continue to Priiloader Installation](priiloader)<br> Priiloader adds a level of brick protection, and is highly recommended, especially if you were only able to install BootMii as IOS. É especialmente importante para os usuários do BootMii na IOS.
