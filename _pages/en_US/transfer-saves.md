@@ -1,5 +1,5 @@
 ---
-title: "Transferring Save games"
+title: "Transferring Save Games"
 ---
 
 This guide will explain how to transfer save games between:
