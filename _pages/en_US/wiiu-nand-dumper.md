@@ -4,7 +4,7 @@ title: "vWii Modding Guide"
 
 {% include toc title="Table of Contents" %}
 
-This page will guide you through the process of modding your vWii without modding the Wii U side.
+This page will guide you through the process of modding your vWii without modding the Wii U side. Wii U custom firmware will be used for this guide, however, nothing will actually be installed onto the Wii U side itself. You can also visit the [legacy exploits](legacy-exploits) page for more exploits that work on the vWii, though it is recommended to [upgrade the homebrew channel](https://github.com/FIX94/hbc/releases/tag/1.1.4-1) afterwards with a [WAD manager](yawmme) because it includes some fixes specific to the vWii.
 
 If your Wii U side is already modded, proceed to [Installing the Homebrew Channel](vwii-homebrew-channel)
 {: .notice--info}
