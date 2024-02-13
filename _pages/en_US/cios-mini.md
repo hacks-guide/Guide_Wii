@@ -15,7 +15,7 @@ If you have a Wii, use [this](cios) guide for cIOS instead. Attempting to instal
 If you have a Wii U (vWii), use [this](cios-vwii) guide for cIOS instead. Attempting to install other cIOS on the vWii will not work.
 {: .notice--warning}
 
-Do not attempt to install a Wii IOS or System Menu on the Wii mini. Doing so will likely [brick](bricks#ios-brick) your console.
+Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing so will likely [brick](bricks#ios-brick) your console.
 {: .notice--warning}
 
 This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBaol and custom cIOS was created by Leseratte for the Wii mini. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Please note that this cIOS is still experimental, though no problem with functionality has been reported.
