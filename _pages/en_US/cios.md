@@ -12,6 +12,9 @@ If you have a Wii U (vWii), use [this](cios-vwii) guide for cIOS instead. Attemp
 If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting to install other cIOS on a Wii mini will not work.
 {: .notice--warning}
 
+Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely [brick](bricks#ios-brick) your console.
+{: .notice--warning}
+
 ### Requirements
 
 * A Wii
