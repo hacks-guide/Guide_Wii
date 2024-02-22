@@ -7,6 +7,9 @@ title: "Bricks"
 A "Brick" usually means your Wii has reached a state where its next purpose in existence is likely that of a doorstop, or a display figure. <br>
 Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
 
+For bricks on the Wii U's vWii, please navigate to [Unbricking the vWii](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels)
+{: .notice--info}
+
 # Brick Prevention
 
 Preventing a brick involves many rules that range between common sense and fail-safe backups. Here are the general recommendations of what not to do:
