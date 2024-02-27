@@ -4,6 +4,9 @@ title: "str2hax"
 
 {% include toc title="Table of Contents" %}
 
+str2hax servers are currently unavailable. Please use [another exploit](get-started).
+{: .notice--danger}
+
 Nota che se il tuo ISP, o il tuo Ambiente di Rete, bloccano l'utilizzo di server DNS personalizzati, str2hax non funzionerà e dovresti [ scegliere un altro exploit da utilizzare](get-started).
 {: .notice--warning}
 
