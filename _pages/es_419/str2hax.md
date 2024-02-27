@@ -4,6 +4,9 @@ title: "Wiimmfi"
 
 {% include toc title="Tabla de contenido" %}
 
+str2hax servers are currently unavailable. Please use [another exploit](get-started).
+{: .notice--danger}
+
 Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
 {: .notice--warning}
 
