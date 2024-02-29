@@ -4,9 +4,6 @@ title: "str2hax"
 
 {% include toc title="Sumário" %}
 
-str2hax servers are currently unavailable. Please use [another exploit](get-started).
-{: .notice--danger}
-
 Observe que se o seu provedor de internet ou ambiente de rede impede o uso de servidores DNS personalizados, str2hax não funcionará e você deve [escolher outro exploit para usar](get-started).
 {: .notice--warning}
 
