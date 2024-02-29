@@ -4,9 +4,6 @@ title: "Wiimmfi"
 
 {% include toc title="Table of Contents" %}
 
-str2hax servers are currently unavailable. Please use [another exploit](get-started).
-{: .notice--danger}
-
 请注意，如果您的 ISP 或网络禁止自定义 DNS 服务器，str2hax 将无法工作，您应该[选择其它漏洞](get-started)。
 {: .notice--warning}
 
