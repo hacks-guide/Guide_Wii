@@ -4,9 +4,6 @@ title: "Wiimmfi"
 
 {% include toc title="Tabla de contenido" %}
 
-str2hax servers are currently unavailable. Please use [another exploit](get-started).
-{: .notice--danger}
-
 Ten en cuenta que si tu ISP (proveedor de servicios de internet) o entorno de red evitan el uso de DNS alternativos, str2hax no funcionará y deberás [elegir otro exploit](get-started).
 {: .notice--warning}
 
