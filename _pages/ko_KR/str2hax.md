@@ -4,9 +4,6 @@ title: "str2hax"
 
 {% include toc title="목차" %}
 
-str2hax servers are currently unavailable. Please use [another exploit](get-started).
-{: .notice--danger}
-
 커스텀 DNS 서버를 막는 ISP (인터넷 서비스 제공자) 나 네트워크 환경인 경우, str2hax는 작동하지 않을 것이며 [다른 취약점을 이용](get-started)해야 합니다.
 {: .notice--warning}
 
