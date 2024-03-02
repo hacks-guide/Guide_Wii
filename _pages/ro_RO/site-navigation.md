@@ -44,7 +44,7 @@ sitemap: false
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)
-+ [Restoring The Wii NAND to Stock](wii-factory-reset)
++ [Restoring the Wii NAND to Stock](wii-factory-reset)
 + [Removing RSSMii](wnd-mini)
 + RiiTag
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
