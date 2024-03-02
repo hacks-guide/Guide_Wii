@@ -13,7 +13,7 @@ La prevenzione dei brick include diverse regole che spaziano dal buon senso a de
 + **NON seguire tutorial obsoleti di modding del Wii, usare software homebrew obsoleto o seguire video guide su internet a meno che non sia ESPLICITAMENTE INDICATO dallo sviluppatore del software homebrew.**
 + **NON USARE MAI, IN NESSUNA CIRCOSTANZA, L'APPLICAZIONE HOMEBREW `Pimp My Wii`. È un'applicazione homebrew PERICOLOSA che ha l'abilità di BRICKARE IL TUO WII!**
 + **NON ripristinare backup della NAND provenienti da altre console!**
-+ **NON usare un servizio Nintendo Wi-Fi Connection a meno che non si sappia di avere le patch RCE (come [Wiimmfi](wiimmfi). Ignorare questa indicazione potrebbe consentire a un malintenzionato di BRICKARE il tuo Wii!**
++ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi)). Ignorare questa indicazione potrebbe consentire a un malintenzionato di BRICKARE il tuo Wii!**
 + **Installa solo aggiornamenti che hanno la stessa regione del tuo Wii!**
     + Installare aggiornamenti che hanno un'altra regione potrebbe essere innocuo, ma può causare un brick [Korean Kii/Errore 003](bricks#korean-kiierror-003-brick) nel peggiore scenario. Per evitare che questo succeda se hai comprato un Wii usato, esegui [SysCheck](syscheck) per verificare la regione originaria della tua console. Se la regione è coreana, sii ESTREMAMENTE attento nell'eseguire gli aggiornamenti alla tua console, e considera chiedere ulteriore assistenza.
 + **NON eliminare o modificare i file di sistema e NON installare mod dei file di sistema a meno che non tu non sappia esattamente cosa stai facendo!**
@@ -42,7 +42,7 @@ In ogni caso, dovresti assolutamente:
 
 Questa è una piccola sezione che elenca i passaggi simili a quelli di accensione del Wii, e i collegamenti al brick corrispondente se qualcosa va storto.
 
-+ Accendi il Wii.
++ Turn on your Wii.
 + Non succede nulla, schermo nero. Il Wii non può essere acceso con il Wiimote, la Recovery Mode non può essere eseguita, e BootMii su boot2 non è accessibile. Vedi il [brick a basso livello](bricks#low-level-brick).
 + Non succede nulla, schermo nero, MA il Wii può essere accesso col Wiimote/la Recovery Mode può essere eseguita. Vedi il [brick Wi-Fi](bricks#wi-fi-brick).
 + Non succede nulla, schermo nero, MA BootMii su boot2 è accessibile. Vedi il [brick IOS](bricks#ios-brick).
@@ -132,7 +132,7 @@ Da qui, l'Homebrew Channel può essere avviato e il brick può essere risolto el
 Quando avvii il Wii, ottieni un errore dal browser Opera simile a `You tried to access the address (URL), which is currently unavailable.` Questo succede ogni volta che accendi il Wii, e non può essere aggirato con nessun mezzo.
 
 #### Causa
-Questo brick è una versione più grave del [Semibrick](#semibrick). Se il tuo SYSCONF è corrotto o dennaggiato, il Wii lo rigenererà e avvierà la fase di configurazione.
+Questo brick è una versione più grave del [Semibrick](#semibrick). If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
 
 Tuttavia, la pagina di configurazione ha una posizione simile a quella delle impostazioni del Wii. Se hai un Menu Wii o un tema di regione incorretta, il Wii non può trovarle.
 
@@ -146,7 +146,7 @@ Se non hai Priiloader o il tuo Wii non è modificato, puoi provare [BlueBomb](bl
 
 Alternativamente, la [Recovery Mode](recovery-mode) può essere usata come tentativo di risoluzione.
 
-## Brick Korean Kii/Errore 003
+## KoreanKii/Error 003 Brick
 
 #### Sintomi
 Questa schermata viene mostrata nel momento in cui la console si avvia.
