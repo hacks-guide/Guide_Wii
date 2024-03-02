@@ -13,7 +13,7 @@ Prevenir un bloqueo implica numerosas medidas que oscilan entre el sentido comú
 + **Do NOT follow old Wii modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
 + **Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. Es PELIGROSA y tiene la capacidad de BLOQUEAR LA Wii.**
 + **NO restaures copias de seguridad de la NAND de otras consolas.**
-+ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi). Doing otherwise could allow a malicious actor to BRICK your Wii!**
++ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi)). Doing otherwise could allow a malicious actor to BRICK your Wii!**
 + **Instala solo las actualizaciones de la región correspondiente.**
     + Instalar actualizaciones de otra región en el mejor de los casos no tendrá ningún efecto, y en el peor provocará un bloqueo [Korean Kii/Error 003](bricks#korean-kiierror-003-brick). Si has comprado una Wii de segunda mano, ejecuta [SysCheck](syscheck) para comprobar la región original de tu consola y evitar que esto ocurra. Si la región es coreana, ten MUCHO CUIDADO al aplicar actualizaciones a la consola y considera la posibilidad de buscar asistencia para obtener más ayuda.
 + **Do NOT delete or modify system files, and do NOT install any system file mods unless you know what you are doing!**
@@ -42,7 +42,7 @@ En todo caso, siempre deberías:
 
 A continuación encontrarás una pequeña sección con una lista de pasos similares al proceso de arranque de la Wii y enlaces al bloqueo dependiendo de lo que falle.
 
-+ Enciende la Wii.
++ Turn on your Wii.
 + No ocurre nada, pantalla en negro. No se puede encender la Wii con el mando de Wii, no se puede iniciar el modo de recuperación y no se puede acceder a BootMii en el boot2. Se trata de un [bloqueo total](bricks#low-level-brick).
 + No ocurre nada, pantalla en negro, PERO se puede encender la Wii con un mando de Wii o se puede acceder al modo de recuperación. Se trata de un [bloqueo de wifi](bricks#wi-fi-brick).
 + No pasa nada, pantalla negra, PERO BootMii en el boot2 es accesible. Se trata de un [bloqueo de IOS](bricks#ios-brick).
@@ -132,7 +132,7 @@ By entering holding + and - on the warning screen, maintenance mode can be enter
 When starting the Wii, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` This will happen every time you start the Wii, and cannot be bypassed by any other means.
 
 #### Causas
-Este bloqueo es una versión más grave de un [semibloqueo](#semibrick). Si el SYSCONF está corrupto o dañado, la Wii lo regenerará e iniciará la fase de configuración.
+Este bloqueo es una versión más grave de un [semibloqueo](#semibrick). If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
 
 Sin embargo, las páginas de la configuración inicial se encuentran en una ubicación similar a las páginas de Configuración de Wii. Si tienes un menú Wii o un tema de una región incorrecta, la consola Wii no podrá encontrarlos.
 
@@ -146,7 +146,7 @@ In case you do not have Priiloader, you can try [BlueBomb](bluebomb).
 
 Alternativamente, puedes usar el [modo de recuperación](recovery-mode) para intentar arreglarlo.
 
-## Error 003 Brick
+## KoreanKii/Error 003 Brick
 
 #### Síntomas
 La pantalla se muestra como se indica a continuación en el arranque normal.
