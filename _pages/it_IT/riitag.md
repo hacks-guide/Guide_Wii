@@ -2,4 +2,4 @@
 title: Reindirizzamento...
 ---
 
-{% include redirect.html redirect_to="410.html" %}
+{% include redirect.html redirect_to="https\://wiki.hacks.guide/wiki/RiiTag" %}

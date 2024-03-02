@@ -8,7 +8,7 @@ sitemap: false
 **站点**
 + [主页](/)
 + [开始](get-started)
-+ [FAQ](faq)
++ [常见问题指南](faq)
 + [捐赠](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>

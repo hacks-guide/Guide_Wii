@@ -36,7 +36,7 @@ sitemap: false
 + [BootMii Backup](bootmii)
 + [BootMii Recovery (RestoreMii)](bootmiirecover)
 + [Introdução](bricks)
-+ [Brick Prevention](bricks#brick-prevention)
++ [Prevenção de brick](bricks#brick-prevention)
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
