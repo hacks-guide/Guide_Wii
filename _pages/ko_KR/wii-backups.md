@@ -13,7 +13,7 @@ This guide provides instructions on how to manage your Wii backups, from joining
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 {: .notice--info}
 
-USB 드라이브의 포맷이 FAT32로 되어 있는지 확인합니다. exFAT, extFS와 같은 다른 유형으로 포맷하지 않습니다. <br>
+USB 드라이브의 포맷이 FAT32로 되어 있는지 확인합니다. Do not format it as other types such as exFAT or extFS. <br>
 You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 {: .notice--info}
 
