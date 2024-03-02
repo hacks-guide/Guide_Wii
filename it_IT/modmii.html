@@ -360,73 +360,123 @@ window.cookieconsent.initialise({
 <nav class="toc">
     <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
 <ul class="toc__menu" id="markdown-toc">
-  <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
-  <li><a href="#wizard-di-modmii" id="markdown-toc-wizard-di-modmii">Wizard di ModMii</a></li>
+  <li><a href="#modmii-overview" id="markdown-toc-modmii-overview">ModMii Overview</a></li>
+  <li><a href="#installing-modmii" id="markdown-toc-installing-modmii">Installing ModMii</a>    <ul>
+      <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
+      <li><a href="#installazione" id="markdown-toc-installazione">Installazione</a></li>
+    </ul>
+  </li>
+  <li><a href="#using-the-modmii-wizard" id="markdown-toc-using-the-modmii-wizard">Using the ModMii Wizard</a></li>
   <li><a href="#wizard-di-syscheck-updater" id="markdown-toc-wizard-di-syscheck-updater">Wizard di SysCheck Updater</a></li>
   <li><a href="#wizard-di-hackmii-solutions" id="markdown-toc-wizard-di-hackmii-solutions">Wizard di HackMii Solutions</a></li>
-  <li><a href="#wizard-di-astinenza" id="markdown-toc-wizard-di-astinenza">Wizard di Astinenza</a></li>
 </ul>
 
   </nav>
 </aside>
 
-<p class="notice--info">Se hai bisogno di aiuto riguardo qualsiasi parte di questa guida, per favore entra nel <a href="https://discord.gg/cMnBRACQwQ">server Discord di ModMii</a>.</p>
-
 <p class="notice--warning">Questo programma NON viene fornito con una garanzia, sei responsabile per ogni potenziale danno al tuo Wii.</p>
 
 <p class="notice--warning">Questo programma NON è destinato all’uso per il vWii o per il Wii mini. Qualsiasi utilizzo sul vWii o sul Wi mini non è stato testato.</p>
 
-<p>ModMii è un programma per Windows creato da XFlak che possiede vari strumenti utili per il modding, inclusi dei tutorial che potrebbe non essere attualmente disponibili su questo sito.<br /> Puoi scegliere di lanciare ModMii skin, che ha un’interfaccia più user-friendly, oppure lanciare ModMii Classic, che usa un’interfaccia a linea di comando (Prompt dei Comandi/Terminale).</p>
-
-<p class="notice--info">Alcuni opzioni avanzate potrebbero non essere accessibili in ModMii Skin. Una lista di funzionalità disponibili in ModMii Classic può essere trovata in fondo a questa pagina.</p>
-
-<h3 id="requisiti">Requisiti</h3>
+<p>ModMii is an all-in-one Wii hacking tool for Windows created by XFlak that has various helpful tools for modding. It can accomplish the following:</p>
 
 <ul>
-  <li>Un Wii</li>
-  <li>Un’unità USB o una scheda SD</li>
-  <li>Un PC Windows (una macchina virtuale funzionerà)</li>
-  <li><a href="https://modmii.github.io/">ModMii</a></li>
+  <li>Hacking the console for the first time, or re-hacking it</li>
+  <li>Check for and update outdated softmods</li>
+  <li>Fix upside-down Homebrew Channel problems</li>
+  <li>Run homebrew without making any changes to your Wii’s NAND</li>
+  <li>Download homebrew</li>
+  <li>And more!</li>
 </ul>
 
-<p>Questa è una veloce guida per usare ModMii sul tuo PC Windows.</p>
+<h3 id="modmii-overview">ModMii Overview</h3>
 
-<h3 id="wizard-di-modmii">Wizard di ModMii</h3>
+<p>There are two different ways to use ModMii. There is ModMii Classic, which uses a command line interface, but has all of the features available to the program. ModMii Skin has a graphical user interface, on the other hand, but has less options available to the user. If you’re looking to simply mod your Wii for the first time, ModMii Skin should suffice. Otherwise, we reccomend using ModMii Classic where possible. <br /> The chart below will help you determine what can be done in either interface.</p>
 
-<p>Puoi usare il wizard di ModMii per modificare qualsiasi Wii. <br /> Anche se il Wii è stato modificato in passato, puoi far sovrascrivere a ModMii qualsiasi modifica precedente dicendogli che è la prima modifica che si sta effettuando al Wii (anche se non la è).</p>
-
-<p>Puoi anche usare questo wizard per configurare un USB loader allo stesso tempo, invece di dover usare il wizard per configurare l’USB Loader successivamente.</p>
-
-<h3 id="wizard-di-syscheck-updater">Wizard di SysCheck Updater</h3>
-
-<p><a href="syscheck">SysCheck</a> è un’applicazione homebrew che analizza le modifiche di un Wii. <br /> Puoi fornire a ModMii un report di SysCheck per aiutarlo a identificare &amp; aggiornare le mod obsolete.</p>
-
-<p>Puoi far analizzare a ModMii un SysCheck trascinando il file <code class="language-plaintext highlighter-rouge">syscheck.csv</code> su ModMii.exe. In alternativa, puoi lanciare il wizard di SysCheck Updater (<code class="language-plaintext highlighter-rouge">SU</code>) dal menu principale di ModMii e cercare il file manualmente.</p>
-
-<h3 id="wizard-di-hackmii-solutions">Wizard di HackMii Solutions</h3>
-
-<p>Il wizard di HackMii Solutions può aiutarti a risolvere sintomi come questi:</p>
-
-<ul>
-  <li>HackMii Installer non chiede “Press (1) to continue”</li>
-  <li>HackMii Installer dice “no vulnerable IOS found!”</li>
-  <li>L’Homebrew Channel viene mostrato a testa in giù</li>
-</ul>
-
-<p>Installerà gli IOS puliti per permettere all’HackMii Installer di operare correttamente.</p>
-
-<h3 id="wizard-di-astinenza">Wizard di Astinenza</h3>
-
-<p class="notice--warning">Questo wizard richiede una scheda SD.</p>
-
-<p>Questo wizard ti permette di goderti i molti benefici di un Wii modificato senza dover installare delle modifiche permanenti al tuo Wii. Ti permette di lanciare un exploit per avviare la console da una NAND emulata da una memoria esterna, invece che usare la NAND della memoria interna del Wii.</p>
-
-<p>Puoi anche fare un backup della NAND senza modificare affatto la tua console navigando nella cartella “Support” di ModMii e lanciando <code class="language-plaintext highlighter-rouge">Casper2BootMii.bat</code>. <br /> Salverà alcuni file in una cartella chiamata <code class="language-plaintext highlighter-rouge">COPY_TO_SD</code>; copia i file al suo interno nella tua scheda SD e lancia un exploit tipo <a href="wilbrand">Wilbrand</a>.</p>
-
-<p class="notice--warning">Quando segui uno degli exploit elencati sopra, non rimpiazzare il file <code class="language-plaintext highlighter-rouge">boot.elf</code>.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Tools</th>
+      <th>ModMii Classic</th>
+      <th>ModMii Skin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Wizard di ModMii</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Wizard di SysCheck Updater</td>
+      <td>✅</td>
+      <td>⛔</td>
+    </tr>
+    <tr>
+      <td>USB Loader Setup Wizard</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Wizard di HackMii Solutions</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Wizard di Astinenza</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Region Change Wizard</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>SNEEK/EmuNAND Installation</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Open File Function</td>
+      <td>✅</td>
+      <td>⛔</td>
+    </tr>
+    <tr>
+      <td>Load Download Queue</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Download Page 1/2/3/4</td>
+      <td>✅</td>
+      <td>⛔</td>
+    </tr>
+    <tr>
+      <td>Advanced Downloads</td>
+      <td>✅</td>
+      <td>⛔</td>
+    </tr>
+    <tr>
+      <td>Load Download Queue</td>
+      <td>✅</td>
+      <td>⛔</td>
+    </tr>
+    <tr>
+      <td>Build Config Files</td>
+      <td>✅</td>
+      <td>⛔</td>
+    </tr>
+    <tr>
+      <td>File Cleanup &amp; App Updater</td>
+      <td>✅</td>
+      <td>⛔</td>
+    </tr>
+  </tbody>
+</table>
 
 <details id="Modmii-Tools" class="notice--info">
-  <summary><a>Clicca qui per una lista completa di strumenti disponibili.</a></summary>
+  <summary><a>Click here for a detailed explanation of each tool.</a></summary>
 
   <table>
     <thead>
@@ -438,31 +488,31 @@ window.cookieconsent.initialise({
     <tbody>
       <tr>
         <td>W = Wizard di ModMii &lt;– Inizia qui per modificare il tuo Wii!</td>
-        <td>Questa opzions può essere usata per modificare il tuo Wii per la prima volta o per modificare un Wii che è già stato modificato in precedenza.</td>
+        <td>This option can be used to hack your Wii for the first time or re-hack a Wii that has been previously modded.</td>
       </tr>
       <tr>
         <td>SU = Wizard di SysCheck Updater (aggiorna solo le modifiche obsolete)</td>
-        <td>Questa optione è utile per coloro che hanno vecchia modifiche installate sul loro Wii come DarkCorp/Ciosspaghetti che può potenzialmente causare problemi per il custom firmware homebrew di ultima versione.</td>
+        <td>This option checks for and updates old modifications installed to their wii such as DarkCorp/CIOSSPAGHETTI that can potentially cause problems for the latest homebrew custom firmware.</td>
       </tr>
       <tr>
         <td>U = Wizard di Configuratione di USB-Loader</td>
-        <td>Questa opzione di aiuterà a configurare correttamente il tuo USB loader per essere capace di caricare backup di dischi da una scheda SD o unità USB.</td>
+        <td>This option will properly set up your USB loader to be able to load your disk backups from an SD or USB hard drive. This option is not necessary if using the ModMii Wizard.</td>
       </tr>
       <tr>
         <td>H = Wizard di HackMii Solutions (HBC a testa in giù\Soluzione No Vulnerable IOS)</td>
-        <td>Questa options è utile per coloro che stanno avendo problemi nel far funzionare HackMii Installer, o se hanno semplicemente l’homebrew channel a testa in giù, o se DarkCorp/Ciosspaghetti era installato e non c’era nessun homebrew channel.</td>
+        <td>This option is useful for people who are having trouble getting the HackMii Installer to work or have an upside down homebrew channel.</td>
       </tr>
       <tr>
         <td>AW = Wizard di Astinenza (Modifiche Wii non permanenti)</td>
-        <td>Questa opzione è utile per coloro che non vogliono effettuare delle modifiche permanenti al loro Wii ma vogliono comunque avere alcuni dei benefici offerti dal software homebrew.</td>
+        <td>This option allows you to run homebrew on your Wii without making any permanent modifications to the system NAND.</td>
       </tr>
       <tr>
         <td>RC = Wizard del Cambio di Regione</td>
-        <td>Questa opzione può essere usata per cambiare la regione del tuo Wii senza brickarlo (questa è la miglior guida del cambio di regione internet!).</td>
+        <td>This option can be used to change the region of your Wii without bricking it, and is arguably the best region changing wizard on the internet.</td>
       </tr>
       <tr>
         <td>S = Installazione di SNEEK, Creatore\Modificatore di EmuNAND, Estrattore di Massa di Giochi</td>
-        <td>Questa opzione ti aiuterà a configurare correttamente un EmuNAND (cioè neek2o) sulla tua scheda SD o unità USB. i benefici dell’Emunand includono spazio extra per i salvataggi dei giochi o canali. e il beneficio di non effettuare alcuna modifica permanente al tuo Wii.</td>
+        <td>Questa opzione ti aiuterà a configurare correttamente un EmuNAND (cioè neek2o) sulla tua scheda SD o unità USB. Benefits for EmuNAND include extra storage space for save games or channels, as well as running homebrew without making any permanent modifications to the system NAND.</td>
       </tr>
       <tr>
         <td>F = apri un File o Cartella con ModMii per molte altre funzioni!</td>
@@ -470,7 +520,7 @@ window.cookieconsent.initialise({
       </tr>
       <tr>
         <td>1 = Scarica Pagina 1 (Menu di Sistema, IOS, MIOS, Canali etc.)</td>
-        <td>Questa opzione apre la prima pagina di download che include le parti fondamentali del menu di sistema (scaricate dal NUS).</td>
+        <td>This option opens the first download page that includes most of the key parts of the Wii System Menu (downloaded from NUS).</td>
       </tr>
       <tr>
         <td>2 = Scarica Pagina 2 (Applicazioni, File USB-Loader, CheatCodes etc.)</td>
@@ -482,128 +532,194 @@ window.cookieconsent.initialise({
       </tr>
       <tr>
         <td>4 = Scarica Pagina 4 (cIOS e cMIOS)</td>
-        <td>Questa opzione apre la quarta pagina di download che include cIOS e cMIOS per l’uso di USB loaders. È consigliato installare solamente i cIOS a meno che non voglia fare del testing.</td>
+        <td>Questa opzione apre la quarta pagina di download che include cIOS e cMIOS per l’uso di USB loaders.</td>
       </tr>
       <tr>
         <td>A = Download Avanazati e Creatore di Forwarder DOL\ISO</td>
-        <td>Questa opzione è uno strumento avanzato usato per personalizzare ulteriormente i download o per permetterti di creare il tuo file eseguibile dol utile per i forwarder (canali sul menu di sistema per accedere applicazioni del Wii).</td>
+        <td>This option allows you to download any IOS and cIOS and build custom DOL/ISO forwarders. Intended for advanced users only.</td>
       </tr>
       <tr>
         <td>L = Carica Coda di Download</td>
-        <td>Questa opzione scaricherò tutti i titoli richiesti per il menu di sistema del Wii (titoli scaricato dal NUS)</td>
+        <td>This option loads bundled or previously saved download queues.</td>
       </tr>
       <tr>
         <td>C = Crea File di Configurazione per BootMii, Wad Manager o Multi-Mod Manager</td>
-        <td>Questa opzione ti aiuterà a creare i file di configurazione richiesti per certe applicazioni.</td>
+        <td>This option allows you to build customized config files for BootMii, Wad Manager, and Multi-Mod Manager.</td>
       </tr>
       <tr>
         <td>FC = File Cleanup &amp; App Updater: aggiorna applcazioni e/o rimuovi file non necessari</td>
-        <td>Questa opzione è utile per coloro che vogliono ripulire la loro scheda SD o unità USB da applicazioni obsolete, inutili, o comunque deprecate.</td>
-      </tr>
-      <tr>
-        <td>M = Modalità ModMii Skiin: usa il tuo mouse invece della tastiera!</td>
-        <td>Questa opzione lancerà la versione skin di ModMii. Alcuni opzioni avanzate potrebbero non essere accessibili in ModMii Skin.</td>
+        <td>This option removes unnessecary files from your SD Card or Hard Drive after finishing softmodding your Wii.</td>
       </tr>
     </tbody>
   </table>
 
 </details>
+<p><br /></p>
 
-<details id="Modmii-Options" class="notice--info">
-  <summary><a>Clicca qui per una lista completa di opzioni.</a></summary>
+<p>When using ModMii, it is important to note that it will generate a custom guide for you depending on the options that you select. For this reason, this guide will not be focused on how to mod your Wii, as ModMii handles that function. Instead, it will be a quick start guide show you how to effectively use it with the most common options.</p>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Opzione</th>
-        <th>Descrizione</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>D = Cambia lettera dell’unità:</td>
-        <td>Cambia dove i file della tua scheda SD sono salvati.</td>
-      </tr>
-      <tr>
-        <td>DU = Cambia lettera dell’unità per USB:</td>
-        <td>Cambia dove i file della tua unità USB sono salvati.</td>
-      </tr>
-      <tr>
-        <td>d2x = cambia la versione del cIOS d2x generato:</td>
-        <td>Cambia la versione del cios che ModMii scarica.</td>
-      </tr>
-      <tr>
-        <td>H = Hermes cIOS (202 &amp; 222-224) sarà anche consigliato</td>
-        <td>Permette agli IOS di essere consigliati e scaricare nel syscheck updater (starà stubbed se disattivato).</td>
-      </tr>
-      <tr>
-        <td>CM = cMIOS inclusi nei cIOS consigliati</td>
-        <td>Permette ai cMIOS di essere consigliati e scaricati nel syscheck updater (installerà i MIOS stock se disabilitato).</td>
-      </tr>
-      <tr>
-        <td>E = Protezione Brick Extra nelle Guide dei Wizard ModMii</td>
-        <td>Permette agli IOS della protezione extra dai brick di ModMii essere consigliati e usati nello strumento di syscheck updater.</td>
-      </tr>
-      <tr>
-        <td>U = Aggiorna IOS. Wizard/SysCheck-Updater aggiorna gli IOS attivi</td>
-        <td>Aggiorna gli IOS esistenti alla versione più recente disponibile sul NUS.</td>
-      </tr>
-      <tr>
-        <td>AU = Gli aggiornamenti automatici salteranno il controllo se presenti nella cache</td>
-        <td>Salterà il download dei file se già nella code.</td>
-      </tr>
-      <tr>
-        <td>FWD = Installa Forwarder dell’USB-Loader nelle Guide dei Wizard di ModMii</td>
-        <td>Includerà il file wad del forwarder dell’USB loader nelle guide dei wizard degli USB loader.</td>
-      </tr>
-      <tr>
-        <td>PC = Posizione di Salvataggio Programmi PC</td>
-        <td>Cambia la posizione di salvataggio per i programmi PC scaricabili.</td>
-      </tr>
-      <tr>
-        <td>RS = Root Save: Salva IOS/MIOS sul root invece che nella cartella dei WAD</td>
-        <td>Salva gli IOS\MIOS nel root invece che nella cartella WAD.</td>
-      </tr>
-      <tr>
-        <td>1 = Non mantenere cartelle 00000001 o NUS per IOS\MIOS\SM etc</td>
-        <td>Elimina le cartelle usate per compilare il file wad e ti dà solamente il file wad.</td>
-      </tr>
-      <tr>
-        <td>n2o = neek2o - crea mod di s\uneek invece dell’originale</td>
-        <td>Usa una migliore versione modificata di neek2o nel creatore di EmuNAND.</td>
-      </tr>
-      <tr>
-        <td>SSD = Accesso SD a SNEEK e SNEEK+DI</td>
-        <td>Permette a SNEEK e SNEEK+DI di accedere alla scheda SD.</td>
-      </tr>
-      <tr>
-        <td>F = Colore di Font.bin per SNEEK/UNEEK</td>
-        <td>Cambia il colore del font per neek2o.</td>
-      </tr>
-      <tr>
-        <td>SV = Output Verboso di SNEEK</td>
-        <td>Mostra informazioni extra riguardo l’EmuNAND.</td>
-      </tr>
-      <tr>
-        <td>V = Modalità verbosa per ModMii Skin &amp; nandBinCheck</td>
-        <td>Mostra un’altra finestra con informazioni extra riguardanti il controllo della nand.</td>
-      </tr>
-      <tr>
-        <td>SO = Riproduci suoni alla Fine</td>
-        <td>Riproduce un jingle divertente dopo un download andato a buon fine.</td>
-      </tr>
-      <tr>
-        <td>A = Auto-Update di ModMii all’avvio</td>
-        <td>Controllerà la presenza di aggiornamenti in automatico all’avvio di ModMii.</td>
-      </tr>
-      <tr>
-        <td>N = Controlla per nuove versioni di ModMii adesso</td>
-        <td>Verificherè online la presenza di un aggiornamento di ModMii.</td>
-      </tr>
-    </tbody>
-  </table>
+<h3 id="installing-modmii">Installing ModMii</h3>
 
-</details>
+<h4 id="requisiti">Requisiti</h4>
+
+<ul>
+  <li>Un Wii</li>
+  <li>Un’unità USB o una scheda SD</li>
+  <li>Un PC Windows (una macchina virtuale funzionerà)</li>
+  <li><a href="https://modmii.github.io/">ModMii</a></li>
+</ul>
+
+<h4 id="installazione">Installazione</h4>
+
+<ol>
+  <li>
+    <p>Go to the <a href="https://modmii.github.io">ModMii website</a> and scroll down to the Download section. Here, select the <code class="language-plaintext highlighter-rouge">Installer</code> option. Your browser may flag the installer as malware, but it is a <strong>false positive</strong>.</p>
+
+    <p><img src="/images/modmii/modmii-download.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Open the <code class="language-plaintext highlighter-rouge">ModMiiInstaller.exe</code> file and go through the setup process.</p>
+
+    <p><img src="/images/modmii/modmii-install.png" alt="" /></p>
+  </li>
+</ol>
+
+<h3 id="using-the-modmii-wizard">Using the ModMii Wizard</h3>
+
+<p>The ModMii Wizard is tool that can softmod your Wii from start to finish, downloading all necessary files and then generating a guide that you can use to implement the softmod. This tool can also be used to overwrite existing softmods on a previously softmodded Wii.</p>
+
+<ol>
+  <li>
+    <p>Open ModMii Skin or ModMii Classic and select the ModMii Wizard option at the top of the list.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-1.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Answer <code class="language-plaintext highlighter-rouge">Yes</code> to the first question, unless you have a very specific idea of what you would like to do or update to your Wii.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-2.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select your current System Menu version, followed by the System Menu Region, following the instructions in the program. If you are still confused, check the bottom option on each screen for an instructional video.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-3.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select the exploit you would like to use to mod your Wii. The exploits below are outlined throughout this website, but in most cases we would reccommend using Wilbrand if you have an SD card on hand.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-4.png" alt="" /></p>
+  </li>
+  <li>
+    <p>If you selected the Wilbrand option in the previous step, enter your Wii’s MAC address. If you don’t know how to check your Wii’s MAC address, enter <code class="language-plaintext highlighter-rouge">Help</code> in the text box for an instructional video.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-5.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select your desired System Menu version from the list.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-6.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select whether or not you would like to install any of the listed channels - this is an optional step.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-7.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select whether or not you would like to install a custom Wii theme, with the choice of three theme effects. Each effect deals with how much the outline when hovering over a Wii Channel spins.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-8.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select whether or not you would like to set up a USB Loader for use with your Wii.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-9.png" alt="" /></p>
+  </li>
+  <li>
+    <p>If you selected <code class="language-plaintext highlighter-rouge">Yes</code> in the USB Loader menu, select which USB Loader you would like to use. If you choose an individual one, we reccomend either USB Loader GX or WiiFlow as both are covered on this website, or you may optionally download each option.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-10.png" alt="" /></p>
+  </li>
+  <li>
+    <p>If you selected <code class="language-plaintext highlighter-rouge">Yes</code> in the USB Loader menu, select where you would like to save your USB Loader files at.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-11.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Verify where you would like to save files for your SD Card and/or USB Drive.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-12.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Confirm your settings are correct, and then press <code class="language-plaintext highlighter-rouge">Finish</code>. Once you press the button, ModMii will begin to process and download files in the background, and will automatically generate and open a guide for you. From here, you should follow the guide generated by ModMii.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-13.png" alt="" /></p>
+  </li>
+</ol>
+
+<h3 id="wizard-di-syscheck-updater">Wizard di SysCheck Updater</h3>
+
+<p>The SysCheck Updater Wizard is a tool that utilizes the homebrew app <a href="syscheck">SysCheck</a> to analyze any modifications on your Wii, especially IOS and cIOS. It accepts a <code class="language-plaintext highlighter-rouge">syscheck.csv</code> file generated by the app, and then provides any nessecary updates as needed.</p>
+
+<ol>
+  <li>
+    <p>Open ModMii Classic and enter in <code class="language-plaintext highlighter-rouge">SU</code> to open the SysCheck Updater Wizard.</p>
+
+    <p><img src="/images/modmii/syscheck-wizard-1.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Follow the instructions in the window if you don’t already have a SysCheck log, and then drag and drop the <code class="language-plaintext highlighter-rouge">syscheck.csv</code> file from Windows Explorer into the window. This will paste the location of the file, from which you can press Enter.</p>
+
+    <p><img src="/images/modmii/syscheck-wizard-2.png" alt="" /></p>
+  </li>
+  <li>
+    <p>The program will analyze your SysCheck file, and will provide options for you depending on what it sees. In this example instance, the mods on the Wii were up-to-date, but there were several unnecessary IOSes that could be stubbed. If you want to make these changes to your Wii, simply enter in <code class="language-plaintext highlighter-rouge">Y</code> and press Enter. From here, you should follow the guide generated by ModMii.</p>
+
+    <p><img src="/images/modmii/syscheck-wizard-3.png" alt="" /></p>
+  </li>
+</ol>
+
+<h3 id="wizard-di-hackmii-solutions">Wizard di HackMii Solutions</h3>
+
+<p>The HackMii Solutions Wizard is a tool that fixes problems that may arise from things like Darkcorp/CIOSSPAGHETTI by installing clean IOSes. Examples of problems that may arise because of this are listed below:</p>
+
+<ul>
+  <li>HackMii Installer non chiede “Press (1) to continue”</li>
+  <li>HackMii Installer saying “no vulnerable IOS found!”</li>
+  <li>Homebrew Channel displaying upside-down</li>
+</ul>
+
+<ol>
+  <li>
+    <p>Open ModMii Skin or ModMii Classic and select the HackMii Solutions option.</p>
+
+    <p><img src="/images/modmii/hackmii-wizard-1.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select your current System Menu version, followed by the System Menu Region, following the instructions in the program. If you are still confused, check the bottom option on each screen for an instructional video.</p>
+
+    <p><img src="/images/modmii/hackmii-wizard-2.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select the exploit you would like to use to mod your Wii. The exploits below are outlined throughout this website, but in most cases we would reccommend using Wilbrand if you have an SD card on hand.</p>
+
+    <p><img src="/images/modmii/hackmii-wizard-3.png" alt="" /></p>
+  </li>
+  <li>
+    <p>If you selected the Wilbrand option in the previous step, enter your Wii’s MAC address. If you don’t know how to check your Wii’s MAC address, enter <code class="language-plaintext highlighter-rouge">Help</code> in the text box for an instructional video.</p>
+
+    <p><img src="/images/modmii/hackmii-wizard-4.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Verify where you would like to save files for your SD Card and/or USB Drive.</p>
+
+    <p><img src="/images/modmii/modmii-wizard-12.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Confirm your settings are correct, and then press <code class="language-plaintext highlighter-rouge">Finish</code>. Once you press the button, ModMii will begin to process and download files in the background, and will automatically generate and open a guide for you. From here, you should follow the guide generated by ModMii. After finishing this guide, it is recommended that you use the <a href="#syscheck-updater-wizard">SysCheck Updater Wizard</a> to undo any other problematic modifications on your Wii.</p>
+
+    <p><img src="/images/modmii/hackmii-wizard-5.png" alt="" /></p>
+  </li>
+</ol>
 
 <p class="notice--info"><a href="navigazione-sito">Clicca qui per tornare alla Navigazione del Sito.</a></p>
 
