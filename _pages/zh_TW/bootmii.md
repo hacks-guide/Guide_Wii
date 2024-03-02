@@ -60,7 +60,7 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
     ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-請注意，<strong>還原 NAND 備份通常是不得已的最後手段</strong>，通常有更好的方法來修復您的磚機。 There often better ways to unbrick your console.
+請注意，<strong>還原 NAND 備份通常是不得已的最後手段</strong>，通常有更好的方法來修復您的磚機。 There are often better ways to unbrick your console.
 盡可能的[確定您的變磚的問題所在](bricks)，並試著還原您先前的操作。
 To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.**
 </div>
@@ -68,7 +68,7 @@ To restore from a NAND backup on your SD card, you can follow the instructions f
 建議使用 BootMii 作為 boot2，但只能安裝在早期的 Wii 主機中。 If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
 {: .notice--info}
 
-為確保您不會不小心遺失這些檔案，建議您將 `nand.bin` 和 `keys.bin` 從 SD 卡的根目錄複製到您的電腦中。 `nand.bin` is your Wii's internal memory, while `keys.bin` are your console's keys.
+為確保您不會不小心遺失這些檔案，建議您將 `nand.bin` 和 `keys.bin` 從 SD 卡的根目錄複製到您的電腦中。 `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
 [繼續至安裝 Priiloader](priiloader)<br> Priiloader 提供防磚保護，強烈建議安裝，尤其是當您只能將 BootMii 安裝為 IOS 時。 It is especially important for users of BootMii on IOS.
