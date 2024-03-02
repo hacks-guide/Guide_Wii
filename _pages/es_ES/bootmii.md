@@ -60,7 +60,7 @@ Si has instalado BootMii como boot2, apaga y vuelve a encender la consola para i
     ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-Nota: **restaurar una copia de seguridad de la NAND suele ser una solución extrema**. Normalmente hay mejores formas de desbloquear la consola.
+Nota: **restaurar una copia de seguridad de la NAND suele ser una solución extrema**. There are often better ways to unbrick your console.
 Puedes intentar [identificar la causa del brick](bricks) y revertir la acción que lo haya provocado.
 To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.**
 </div>
@@ -68,7 +68,7 @@ To restore from a NAND backup on your SD card, you can follow the instructions f
 As stated earlier, if you have BootMii installed as boot2, it will launch every time you start your console. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
 {: .notice--info}
 
-Se habrán creado dos archivos en la raíz de la tarjeta SD: `nand.bin` y `keys.bin`. `nand.bin` es la memoria interna de tu Wii, mientras que `keys.bin` son las claves de la consola.
+Se habrán creado dos archivos en la raíz de la tarjeta SD: `nand.bin` y `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
 Se recomienda instalar BootMii como boot2 en caso de estar disponible para tu consola. De no ser así, solo podrás instalarlo como un IOS.
