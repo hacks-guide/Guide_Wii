@@ -393,7 +393,7 @@ window.cookieconsent.initialise({
           <li><a href="#solutions-3" id="markdown-toc-solutions-3">Solutions</a></li>
         </ul>
       </li>
-      <li><a href="#korean-kiierror-003-brick" id="markdown-toc-korean-kiierror-003-brick">Korean Kii/Error 003 Brick</a>        <ul>
+      <li><a href="#koreankiierror-003-brick" id="markdown-toc-koreankiierror-003-brick">KoreanKii/Error 003 Brick</a>        <ul>
           <li><a href="#symptoms-5" id="markdown-toc-symptoms-5">Symptoms</a></li>
           <li><a href="#cause-5" id="markdown-toc-cause-5">Cause</a></li>
           <li><a href="#solutions-4" id="markdown-toc-solutions-4">Solutions</a></li>
@@ -435,7 +435,7 @@ Bricks can occur for a variety of reasons, however usually it results through co
   <li><strong>Do NOT follow old Wii modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.</strong></li>
   <li><strong>Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP <code class="language-plaintext highlighter-rouge">Pimp My Wii</code>. It is DANGEROUS and does things that have the ability to BRICK YOUR WII!</strong></li>
   <li><strong>Do NOT restore NAND backups from other consoles!</strong></li>
-  <li><strong>Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as <a href="wiimmfi">Wiimmfi</a>. Doing otherwise could allow a malicious actor to BRICK your Wii!</strong></li>
+  <li><strong>Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as <a href="wiimmfi">Wiimmfi</a>). Doing otherwise could allow a malicious actor to BRICK your Wii!</strong></li>
   <li><strong>Only install updates for your own region!</strong>.
     <ul>
       <li>Installing updates from another region could have no effect at best, but result in a <a href="bricks#korean-kiierror-003-brick">Korean Kii/Error 003</a> brick at worst. To prevent this from happening if you bought a pre-owned Wii, run <a href="syscheck">SysCheck</a> to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.</li>
@@ -483,7 +483,7 @@ Bricks can occur for a variety of reasons, however usually it results through co
 <p>Here is a small section that lists out steps similar to the Wii boot process, and links to the likely corresponding brick if something fails.</p>
 
 <ul>
-  <li>Turn on Wii.</li>
+  <li>Turn on your Wii.</li>
   <li>Nothing happens, black screen. Wii cannot be turned on with a Wiimote, Recovery Mode cannot be started, and BootMii as boot2 is not accessible. See <a href="bricks#low-level-brick">low-level brick</a>.</li>
   <li>Nothing happens, black screen, BUT Wii can be turned on with a Wiimote/Recovery Mode can be accessed. See <a href="bricks#wi-fi-brick">Wi-Fi brick</a>.</li>
   <li>Nothing happens, black screen, BUT BootMii as boot2 is accessible. See <a href="bricks#ios-brick">IOS brick</a>.</li>
@@ -579,7 +579,7 @@ Bricks can occur for a variety of reasons, however usually it results through co
 <p>When starting the Wii, you instead get an error from the Opera web browser along the lines of <code class="language-plaintext highlighter-rouge">You tried to access the address (URL), which is currently unavailable.</code> This will happen every time you start the Wii, and cannot be bypassed by any other means.</p>
 
 <h4 id="cause-4">Cause</h4>
-<p>This brick is a more fatal version of a <a href="#semibrick">Semibrick</a>. If your SYSCONF gets corrupt or damaged, the Wii will regenerate it and start the setup phase.</p>
+<p>This brick is a more fatal version of a <a href="#semibrick">Semibrick</a>. If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.</p>
 
 <p>However, the setup pages are in a similar location to the Wii settings pages. If you have an incorrect region Wii Menu or theme, the Wii cannot find them.</p>
 
@@ -593,7 +593,7 @@ Bricks can occur for a variety of reasons, however usually it results through co
 
 <p>Alternatively, <a href="recovery-mode">Recovery Mode</a> can be used to attempt a fix.</p>
 
-<h2 id="korean-kiierror-003-brick">Korean Kii/Error 003 Brick</h2>
+<h2 id="koreankiierror-003-brick">KoreanKii/Error 003 Brick</h2>
 
 <h4 id="symptoms-5">Symptoms</h4>
 <p>Screen shows up as listed below on normal boot.</p>
