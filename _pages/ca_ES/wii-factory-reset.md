@@ -1,5 +1,5 @@
 ---
-title: Restoring The Wii NAND to Stock
+title: Restoring the Wii NAND to Stock
 ---
 
 If you need help for anything regarding this tutorial, please join <a href="https://discord.gg/rc24">the RiiConnect24 Discord server</a> (recommended) or <a href="mailto:support@riiconnect24.net">e-mail us at support\@riiconnect24.net</a>.
