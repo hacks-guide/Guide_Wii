@@ -34,7 +34,7 @@ This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBao
 1. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
 1. Reinsert your USB drive into your console.
 1. Pornește consola.
-1. Launch the Homebrew Channel.
+1. Rulează Homebrew Channel.
 1. Launch d2xl cIOS Installer from the list of homebrew.
 
 #### Section II - Installing
@@ -61,5 +61,5 @@ If you wish to use Wiimmfi with Ethernet on a Wii mini, you have to run the [Eth
 The Wii and Wii mini consoles are only known to work with Ethernet adapters using the AX88772 chip. Please check that the product is compatible before you buy. This one from UGREEN is known to be compatible: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
 {: .notice--info}
 
-[Click here to view all of our tutorials that you can find on this website!](site-navigation)
+[Apasă aici pentru a vedea toate ghidurile pe care le poți găsi pe acest site!](site-navigation)
 {: .notice--info}
