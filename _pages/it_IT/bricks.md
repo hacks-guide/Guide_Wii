@@ -75,7 +75,7 @@ Un semibrick si verifica quando il Menu Wii o un tema personalizzato di una regi
 #### Soluzioni
 Verifica in AnyRegion Changer che la regione della tua console sia la stessa del Menu Wii installato.
 
-If this was caused by a theme you installed, use csm-installer to reinstall the original theme.
+Se questo brick è causato da un tema che hai installato, usa csm-installer per reinstallare il tema originale.
 
 Se questo era causato da un WAD del menu Wii che avevi installato, usa [NUS Downloader](https://wiibrew.org/wiki/NUSD) per riottenere il Menu Wii originale.
 
@@ -111,7 +111,7 @@ Prova ad accendere il Wii - viene mostrato l'avviso di salute e sicurezza, quand
 Un brick del tema si verifica quando un tema malformato viene installato.
 
 #### Soluzioni
-Per risolvere questo problema, apri HBC tramite Priiloader o BootMii su boot2 e avvia MyMenuifyMod per installare un tema predefinito come quello del Menu Wii. Alternativamente, entra in [YAWM ModMii Edition](yawmme) e installa il WAD del menu Wii predefinito CORRETTO per la tua regione e versione.
+Per risolvere questo problema, apri HBC tramite Priiloader o BootMii su boot2 e avvia csm-installer per installare un tema predefinito come quello del Menu Wii. Alternativamente, entra in [YAWM ModMii Edition](yawmme) e installa il WAD del menu Wii predefinito CORRETTO per la tua regione e versione.
 
 ## Brick mail
 

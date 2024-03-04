@@ -4,9 +4,9 @@ title: "Bricks"
 
 {% include toc title="Sumário" %}
 
-A "Brick" usually means your Wii has reached a state where, its only use is that of a literal [brick](https://wikipedia.org/wiki/Brick). <br> Bricks can occur for a variety of reasons, usually caused by improper system modifications via homebrew.
+Um "brick" geralmente significa que seu Wii atingiu um estado onde seu próximo objetivo existente é provável de uma parada, ou um padrão de exibição. <br> Bricks podem ocorrer por uma variedade de razões, no entanto geralmente resultam em software corrompido ou em modificações impróprias feitas por homebrew.
 
-# Brick Prevention
+# Prevenção de brick
 
 Preventing a brick involves many rules that range between common sense and fail-safe backups. Here are the general recommendations of what not to do:
 
@@ -111,7 +111,7 @@ Attempt to start the Wii - warning/press A screen shows up, and when A is presse
 A theme brick occurs when a wrongly formatted theme is installed.
 
 #### Solutions
-To resolve this issue, open HBC through Priiloader and access MyMenuifyMod to install a default theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
+To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
 
 ## Mail brick
 

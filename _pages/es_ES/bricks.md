@@ -111,7 +111,7 @@ Al intentar arrancar la Wii, aparece la pantalla de salud y seguridad y, al puls
 El bloqueo de tema se produce cuando se instala un tema con un formato incorrecto.
 
 #### Soluciones
-To resolve this issue, open HBC through Priiloader and access MyMenuifyMod to install a default theme. Como alternativa, entra en [YAWM ModMii Edition](yawmme) e instala la WAD del menú de Wii por defecto CORRECTO para tu región y versión.
+To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. Como alternativa, entra en [YAWM ModMii Edition](yawmme) e instala la WAD del menú de Wii por defecto CORRECTO para tu región y versión.
 
 ## Bloqueo de correo
 

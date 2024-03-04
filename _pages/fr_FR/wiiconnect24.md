@@ -3,44 +3,21 @@ title: "WiiConnect24"
 ---
 
 {% include toc title="Table of Contents" %}
+<!--
+This guide provides the means of regaining WiiConnect24 functionality on your console via RiiConnect24.
+Although not at all nessecary, it is a "nice to have" feature that was originally used for online connectivity in certain applications on the console.
+These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Channel, some Japan-exclusive channels, and more.
+-->
 
-Ce guide fournit différents moyens de retrouver les fonctionnalités de WiiConnect24 sur votre console. Bien que pas nécessaire, c'est une fonctionnalité "agréable à avoir" qui a été utilisée à l'origine pour la connectivité en ligne de certaines applications sur la console. Ces applications incluent la Chaîne météo/infos, la Chaîne Nintendo, la Chaîne concours Mii, certaines chaînes exclusives au Japon et plus encore. N'oubliez pas que les fonctionnalités dont vous profiterez dépendent entièrement du ou des services que vous utilisez.
+[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather & local news, send messages to friends, participate in Mii contest, and more. WiiConnect24 was discontinued on June 27th, 2013.
 
-### Aperçu des services
+## RiiConnect24 + WiiLink
+[RiiConnect24](https://rc24.xyz) is a revival service for WiiConnect24 that started in 2015, which allows you to regain its functionality on your console. As of late 2023, the service is now owned by WiiLink, a project that started in 2020 that was previously aiming at the Japanese-exclusive channels.
 
-#### Note sur la compatibilité des services :
-Les deux services ci-dessous sont compatibles l'un avec l'autre et peuvent être installés sur la même console. Ceci étant dit, il convient de noter que lors de l'installation d'une chaîne sur l'autre (la Chaîne météo de WiiLink au lieu de la Chaîne météo de RiiConnect24 par exemple), la chaîne que vous installez remplacera l'ancienne.
+There is a patcher that ships both of these services together as one - meaning you get all of the international and Japanese-only channels in one package. The guide on how to install these services can be found [on WiiLink's website.](https://www.wiilink24.com/guide/)
 
-
-#### Service Support Status
-✅ - Supporté<br> ⚠️ - En développement<br> ⛔ - Pas de support
-
-| Nom du service          | WiiLink | RiiConnect24 |
-| ----------------------- | ------- | ------------ |
-| Chaîne météo            | ✅       | ✅            |
-| Chaîne infos            | ⚠️      | ✅            |
-| Bureau Wii              | ✅       | ✅            |
-| Chaîne votes            | ✅       | ✅            |
-| Chaîne Nintendo         | ✅       | ✅            |
-| Chaîne concours Mii     | ⚠️      | ✅            |
-| Wii Room                | ✅       | ⛔            |
-| Food Channel            | ✅       | ⛔            |
-| Chaîne impression photo | ✅       | ⛔            |
-| Chaîne TV Kirby         | ✅       | ⛔            |
-| TV Guide Channel        | ⚠️      | ⛔            |
-
-#### WiiLink
-A newer WC24/Japanese channel revival service that started in 2020, but is rapidly regaining functionality in many different channels.
-
-Service support status can be found [here](https://www.wiilink24.com/status).<br> Their guide can be found [here](https://www.wiilink24.com/guide).
-
-#### RiiConnect24
-Le service de relance WC24 le plus ancien, qui ne prend actuellement en charge que les chaînes WC24 mondiales ainsi que le service de messagerie.
-
-Service support status can be found [here](https://rc24.xyz/stats/).<br> RiiConnect24 currently does not have a self-hosted guide, however you can find ours [here](riiconnect24).
-
+<!-- move this back to another page? or no -->
 ### Updating RTC Clock
-If you choose to install either of these services on your Wii, it is advised to synchronize its external clock in order to prevent various issues (such as inability to use said services) that may arise otherwise. The steps to do so can be found below:
 
 #### What you need
 + Une connexion Internet fonctionnelle sur votre Wii
