@@ -102,13 +102,10 @@ Later on, to enter it you can:
 ### Wii mini: Next Steps
 
 Continue to [Wii mini cIOS](cios-mini)<br>
-This guide provides installation instructions for cIOS on Wii minis.
+This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
 {: .notice--info}
 
 ### Wii: Next Steps
-
-If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
-{: .notice--success}
 
 Continue to [cIOS](cios)<br>
 This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
@@ -117,3 +114,10 @@ This guide provides steps on how to get a basic set of cIOS installed on your Wi
 [View the Brick Prevention Guidelines](bricks#brick-prevention)<br>
 These guidelines list ways that will help avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
 {: .notice--info}
+
+### vWii: Next Steps
+
+Continue to [vWii cIOS](cios-vwii)<br>
+This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
+{: .notice--info}
+

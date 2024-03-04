@@ -1,0 +1,67 @@
+---
+title: "d2x cIOS for vWii"
+---
+
+{% include toc title="Table of Contents" %}
+
+While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+
+If you have a Wii, use [this](cios) guide for cIOS instead. Attempting to install other cIOS on a Wii will not work.
+{: .notice--warning}
+
+If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting to install other cIOS on a Wii mini will not work.
+{: .notice--warning}
+
+Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing so will likely [brick](bricks#ios-brick) your console.
+{: .notice--warning}
+
+### Requirements
+
+- A Wii U with the Homebrew channel installed on the vWii
+- An SD card
+- The [d2x cIOS Installer](/assets/files/d2x_cIOS_Installer-vWii.zip).
+- (Optional) The [Patched IOS 80 Installer for vWii](/assets/files/Patched_IOS80_Installer_for_vWii.zip)
+
+Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
+{: .notice--warning}
+
+### Instructions
+
+#### Section I - Installing
+
+1. Insert the SD into the Wii U.
+2. Power on your Wii U and launch vWii.
+3. Launch The Homebrew Channel.
+4. Launch d2x cIOS Installer.
+5. Set everything to match the following:
+    - Select cIOS: `d2x-v11-beta1-vWii`
+    - Select cIOS base: `56`
+    - Select cIOS slot: `249`
+6. Press the `A` button to install.
+7. Set everything to match the following:
+    - Select cIOS: `d2x-v11-beta1-vWii`
+    - Select cIOS base: `57`
+    - Select cIOS slot: `250`
+8. Press the `A` button to install.
+9. Set everything to match the following:
+    - Select cIOS: `d2x-v11-beta1-vWii`
+    - Select cIOS base: `58`
+    - Select cIOS slot: `251`
+10. Press the `A` button to install.
+11. Press the `B` button to exit.
+
+- Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+
+#### Optional - IOS 80 Patch
+
+The purpose of this patch is to patch the vWii's system menu IOS (IOS 80) to be able to run custom channels on the SD card menu.
+
+1. Launch Patched IOS 80 Installer for vWii.
+2. Read the warning screen and wait 30 seconds.
+3. Press any buttons to install.
+4. Wait until it says IOS80 Installation is complete!.
+5. Press any button to exit.
+
+Continue to [Open Shop Channel Installation](osc) <br>
+Now that your vWii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+{: .notice--info}
