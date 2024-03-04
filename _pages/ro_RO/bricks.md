@@ -15,28 +15,28 @@ Prevenirea unui brick implică multe reguli care variază între gândire logic�
 + **NU restaura backup-uri NAND create de alte console!**
 + **NU folosi un serviciu Nintendo Wi-Fi Connection care nu este știut să fie reparat RCE. Un exemplu de serviciu sigur de folosit este [Wiimmfi](wiimmfi). Altfel, ai putea permite unei persoane cu intenții rele să CAUZEZE UN BRICK consolei tale!**
 + **Instalează actualizări doar pentru regiunea ta!**.
-    + Instalarea actualizărilor din altă regiune pot să nu aibă niciun efect în cel mai bun caz, dar pot duce la un brick [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) în cel mai rău caz. Pentru a preveni acest lucru, dacă ai cumpărat un Wii care a fost utilizat în trecut, rulează [SysCheck](syscheck) pentru a verifica regiunea originală a consolei tale. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
-+ **Do NOT delete or modify system files, and do NOT install any system file mods unless you know what you are doing!**
-    + An example of modifying files going wrong is replacing IOS80 on Wii mini, which may result in a [Wi-Fi Brick](bricks#wi-fi-brick).
-+ **Do NOT install homebrew from untrustworthy sources or if the source code is not available.**
-    + Software on the [Open Shop Channel](osc) is safe.
-    + There have been incidents of malicious software being developed for the Wii in the past, while other apps are just badly developed. Make sure that you know what you are installing, and only install what you need.
-    + Corrupted or unstable forwarders for homebrew could cause a [banner brick](#banner-brick), so try to stick with loading homebrew from the Homebrew Channel unless you really want a forwarder.
-+ **Ensure that you know what you are doing when running homebrew apps - especially those with the ability to modify system files.**
-+ **Be ESPECIALLY careful when using applications such as:**
+    + Instalarea actualizărilor din altă regiune pot să nu aibă niciun efect în cel mai bun caz, dar pot duce la un brick [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) în cel mai rău caz. Pentru a preveni acest lucru, dacă ai cumpărat un Wii care a fost utilizat în trecut, rulează [SysCheck](syscheck) pentru a verifica regiunea originală a consolei tale. Dacă este Coreean, fii EXTREM de atent când aplici actualizări de sistem în consola ta și consideră solicitarea de ajutor pentru asistență suplimentară.
++ **NU șterge sau modifica fișiere de sistem și NU instala nicio modificare de fișier de sistem decât dacă știi ce faci!**
+    + Un exemplu de modificare a fișierelor mergând prost este înlocuirea IOS80 pe un Wii mini, care poate duce la un [Wi-Fi Brick](bricks#wi-fi-brick).
++ **NU instala homebrew din surse nesigure sau în cazul în care codul sursă nu este disponibil.**
+    + Aplicațiile găsite pe [Open Shop Channel](osc) sunt sigure.
+    + Au existat incidente de aplicații malițioase dezvoltate pentru Wii în trecut, în timp ce unele aplicații sunt doar prost dezvoltate. Asigură-te că știi ce instalezi și că instalezi doar de ce ai nevoie.
+    + Canalele de redirecționare pentru homebrew corupte sau instabile pot cauza un [banner brick](#banner-brick), așa că încearcă să rulezi aplicații homebrew din Homebrew Channel dacă nu vrei neapărat un canal de redirecționare.
++ **Asigură-te că știi ce faci când rulezi aplicații homebrew - în special cele cu capacitatea de a modifică fișierele de sistem.**
++ **Ai FOARTE multă atenție când folosești aplicați precum:**
     + AnyTitle Deleter
     + AnyRegion Changer
-    + KoreanKii (secondary cause of [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) brick)
-    + Firmware Downgraders
-    + Any other app that modifies critical NAND files
-+ **DO NOT TOUCH THE WII'S POWER SOURCE OR POWER BUTTONS WHEN INSTALLING OR MODIFYING CRITICAL SYSTEM CONTENT**.
-    + If your electricity is unstable (e.g. storm, power outage), postpone what you are doing until you have a stable power source.
-    + This applies to dangerous processes such as BootMii NAND restoration, which could lead to a [full brick](#low-level-brick) if anything goes wrong.
+    + KoreanKii (a doua cauză a brick-ului [Korean Kii/Error 003](bricks#korean-kiierror-003-brick))
+    + Retrogradările de firmware
+    + Orice altă aplicație care modifică fișiere NAND critice
++ **NU ATINGE SURSA CONSOLEI WII SAU BUTOANELE DE PORNIRE CÂND INSTALEZI SAU MODIFICI CONȚINUT DE SISTEM CRITIC**.
+    + Dacă electricitatea este instabilă (ex. furtună, pană de curent), amână ce vrei să faci până când ai o sursă de curent stabilă.
+    + Acest lucru se aplică proceselor periculoase precum restaurarea memoriei NAND folosind BootMii, ce ar putea duce la un [brick complet](#low-level-brick) dacă ceva merge prost.
 
-In any case, you should absolutely:
-+ Have BootMii installed as boot2 if available, but otherwise as IOS.
-+ Have Priiloader installed regardless of BootMii installation method.
-+ Backup your NAND with BootMii and always have a valid spare copy on hand, but especially before attempting anything risky. Note that in some brick scenarios, BootMii is not accessible, so plan ahead.
+În orice caz, ar trebui cu siguranță:
++ Să ai BootMii instalat ca boot2 dacă este disponibil, altfel ca IOS.
++ Să ai Priiloader instalat indiferent de metoda de instalare BootMii.
++ Să creezi un backup a memoriei NAND cu BootMii și să ai mereu la îndemână o copie validă de rezervă, dar mai ales înainte să încerci ceva riscant. Ține minte că în unele scenarii de brick, BootMii nu este accesibil, așa că planifică din timp.
 
 # Diagnosis
 
