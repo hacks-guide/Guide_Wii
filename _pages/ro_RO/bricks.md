@@ -213,9 +213,9 @@ Acest brick apare când boot1/boot2 sunt defecte sau dacă există defecțiuni d
 
 + Testează să verifici dacă sistemul Wii încă funcționează (acceptă discuri normal, cititorul de discuri se rotește corect, controlerele Wiimote se conectează) înainte de a încerca următorii pași. Dacă acesta este cazul și doar nu este afișată imaginea video, s-ar putea să ai o defecțiune foarte rară a portului video sau a plăcii video.
 + Dacă ești pe un Wii mini și un IOS80 normal a fost instalat, vezi [brick de Wi-Fi](wi-fi-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi au eșuat, continuă.
-+ Attempt to boot into [Recovery Mode](recovery-mode) (normal Wiis only). If the Wii boots into Recovery Mode, see [Wi-Fi brick](wi-fi-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi au eșuat, continuă.
-+ Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
-+ At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.
++ Încearcă să intri în [Recovery Mode](recovery-mode) (doar pentru console Wii normale). În cazul în care consola Wii pornește în Recovery Mode, vezi [brick de Wi-Fi](wi-fi-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi au eșuat, continuă.
++ Reintrodu unitatea de discuri și încearcă să pornești consola normal. Dacă nu a funcționat, înlocuiește unitatea de discuri. Dacă tot nu a funcționat, continuă.
++ În acest stadiu, problema este ori o corupere de nivel adânc de boot0/boot1, o defecțiune a chipului NAND sau o defecțiune a unei alte componente interne. Consideră cererea în ajutor online sau cumpărarea altui Wii.
 
 [Apasă aici pentru a vedea toate ghidurile pe care le poți găsi pe acest site!](site-navigation)
 {: .notice--info}
