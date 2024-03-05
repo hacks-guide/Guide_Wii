@@ -21,7 +21,7 @@ Prevenirea unui brick implică multe reguli care variază între gândire logic�
 + **NU instala homebrew din surse nesigure sau în cazul în care codul sursă nu este disponibil.**
     + Aplicațiile găsite pe [Open Shop Channel](osc) sunt sigure.
     + Au existat incidente de aplicații malițioase dezvoltate pentru Wii în trecut, în timp ce unele aplicații sunt doar prost dezvoltate. Asigură-te că știi ce instalezi și că instalezi doar de ce ai nevoie.
-    + Canalele de redirecționare pentru homebrew corupte sau instabile pot cauza un [banner brick](#banner-brick), așa că încearcă să rulezi aplicații homebrew din Homebrew Channel dacă nu vrei neapărat un canal de redirecționare.
+    + Corrupted or unstable forwarders for homebrew could cause a [banner brick](#banner-brick), so try to stick with loading homebrew from the Homebrew Channel unless you really want a forwarder.
 + **Asigură-te că știi ce faci când rulezi aplicații homebrew - în special cele cu capacitatea de a modifică fișierele de sistem.**
 + **Ai FOARTE multă atenție când folosești aplicați precum:**
     + AnyTitle Deleter
@@ -38,12 +38,12 @@ Prevenirea unui brick implică multe reguli care variază între gândire logic�
 + Să ai Priiloader instalat indiferent de metoda de instalare BootMii.
 + Să creezi un backup a memoriei NAND cu BootMii și să ai mereu la îndemână o copie validă de rezervă, dar mai ales înainte să încerci ceva riscant. Ține minte că în unele scenarii de brick, BootMii nu este accesibil, așa că planifică din timp.
 
-# Diagnosis
+# Diagnostic
 
-Here is a small section that lists out steps similar to the Wii boot process, and links to the likely corresponding brick if something fails.
+Asta este o secțiune mică unde sunt enumerați pași asemănători procesului de pornire a consolei Wii și care îți arată tipul de brick probabil corespunzător dacă ceva nu merge bine.
 
-+ Turn on your Wii.
-+ Nothing happens, black screen. Wii cannot be turned on with a Wiimote, Recovery Mode cannot be started, and BootMii as boot2 is not accessible. See [low-level brick](bricks#low-level-brick).
++ Pornește-ți consola Wii.
++ Nimic nu se întâmplă, ecran negru. Consola nu poate fi pornită cu un Wiimote, Recovery Mode nu poate fi pornit și BootMii ca boot2 nu este accesibil. Vezi [low-level brick](bricks#low-level-brick).
 + Nothing happens, black screen, BUT Wii can be turned on with a Wiimote/Recovery Mode can be accessed. See [Wi-Fi brick](bricks#wi-fi-brick).
 + Nothing happens, black screen, BUT BootMii as boot2 is accessible. See [IOS brick](bricks#ios-brick).
 + Error 003. See [Korean Kii/Error 003 brick](bricks#error-003-brick).
