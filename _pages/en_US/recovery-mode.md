@@ -49,15 +49,7 @@ First of all, verify that your Wii can boot into Recovery Mode *at all*. This in
 
 #### Method III - Recovery Menu to Bluebomb
 
-1. Follow the instructions on the [Bluebomb](bluebomb) page up to step 10. Ensure that you select the correct system menu version and region for your console, which can be checked via the bottom right of the screen while in Recovery Mode.
-
-1. Boot into Recovery Mode, and insert a game disc. It should boot at this point, ensure that no Wii Remotes are automatically connecting to the console.
-
-1. Press the Sync button repeatedly until the terminal you set up shows `got connection handle`.
-    + This could take numerous attempts.
-
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
-    + If you are not planning to use it later, you can now shut down your Linux distro.
+You can also use Bluebomb as a means of recovery. At this time, we are still drawing up instructions for this section.
 
 At this point, you should be able to install the Homebrew Channel and access homebrew on your SD card that can be used to revert your brick.
 {: .notice--info}
