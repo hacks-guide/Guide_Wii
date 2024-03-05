@@ -4,7 +4,7 @@ title: "Brick-uri"
 
 {% include toc title="Tabel de Conținut" %}
 
-Un "Brick" de obicei înseamnă că sistemul tău Wii a ajuns într-un stadiu unde sunt șanse mari ca următorul său motiv de a exista este ca un opritor de uși, sau pentru display. <br> Brick-urile pot apărea dintr-o varietate de motive, însă de obicei sunt rezultatul unui software corupt sau unei modificări necorespunzătoare făcute prin homebrew.
+Un "Brick" de obicei înseamnă că sistemul tău Wii a ajuns într-un stadiu unde sunt șanse mari ca următorul său motiv de a exista este ca un opritor de uși, sau pentru display. <br> Brick-urile pot apărea dintr-o varietate de motive, însă de obicei sunt rezultatul unui software defect sau unei modificări necorespunzătoare făcute prin homebrew.
 
 # Prevenirea Brick-urilor
 
@@ -142,78 +142,78 @@ Acest brick este o versiune mai gravă a unui [Semibrick](#semibrick). Dacă fi�
 
 În cazul în care încă ai [Priiloader](priiloader), folosește-l pentru a intra în Homebrew Channel și reinstalează tema originală/Meniul Wii original.
 
-{: .notice}
+Dacă nu ai Priiloader instalat sau consola ta Wii nu este modificată, poți încerca [BlueBomb](bluebomb).
 
-Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
+Alternativ, [Recovery Mode](recovery-mode) poate fi încercat pentru a repara consola.
 
-## KoreanKii/Error 003 Brick
+## Brick KoreanKii/Error 003
 
 #### Simptome
-This brick occurs when boot1/boot2 is corrupt.
+Ecranul afișează mesajul de mai jos dupa ce pornești consola.
 
-You can only recover by using a NAND programmer.<br>
+`Error:003`<br> `unauthorized device has been detected.`<br>
 
 ![](/images/bricks/error-003.png)
 
 #### Cauze
-When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. While obviously this failed, they also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. If this check succeeds, the error triggers and the Wii is effectively bricked.
+Când au lansat consolele Wii Coreene, Nintendo a schimbat cheia de criptare pentru aceste unități ca o ultimă încercare de a preveni instalarea homebrew-ului. Deși acest lucru evident că a eșuat, ei au mai lăsat și o verificare în versiunile ale Meniului de Sistem 4.2/4.3 care determină dacă Cheia Coreeană este prezentă pe o regiune a sistemului care **nu** este Coreean. Dacă această verificare are succes, eroarea este declanșată și consola Wii este practic blocată.
 
-This is usually an immediate follow-up to a Wii System Update on an unsuspecting region-changed Korean Wii.
+Acest lucru este de obicei o continuare imediată a unei actualizări a sistemului Wii pe un Wii Coreean căruia i-a fost schimbată regiunea.
 
 #### Soluții
-Since this brick most often occurs after the Wii Menu updates, Priiloader will not be present.
+Deoarece acest brick apare cel mai des în urma unei actualizări a Meniului Wii, Priiloader nu va fi instalat.
 
-Korean Wiis also released with Wii Menu 3.3, around the time that Nintendo [fixed the Trucha bug in boot1](https://wiibrew.org/wiki/3.3#Changes), so BootMii as Boot2 cannot be installed to or used on any Korean Wii.
+Consolele Wii Coreene de asemenea au fost lansate cu Meniul Wii 3.3, în jurul perioadei de timp când Nintendo [a reparat bug-ul Trucha în boot1](https://wiibrew.org/wiki/3.3#Changes), deci BootMii ca boo2 nu poate fi instalat pe sau folosit pe niciun Wii Coreean.
 
-While these caveats leave the Wii in a particularly dangerous situation, **it is still fixable**. This involves going into [Recovery Mode](recovery-mode), where an exploit can be triggered in order to gain access to the Homebrew Channel and revert the conditions that caused the brick.
+Deși aceste limitări lasă consola Wii într-o situație destul de periculoasă, **încă poate fi reparat**. Asta implică intrarea în [Recovery Mode](recovery-mode), unde un exploit poate fi activat pentru a obține access la Homebrew Channel și pentru a inversa condițiile care au cauzat brick-ul.
 
-## IOS brick
+## Brick IOS
 
 #### Simptome
-This brick will appear identical to a low-level brick due to a Wii Menu failure via IOS; however there is not a full low-level NAND corruption, or a low-level hardware failure.
+Acest brick pare să fie identic cu un brick de nivel adânc datorită eșuării Meniului Wii din cauza unui IOS; însă acesta nu este o corupere completă de nivel adânc a memoriei NAND sau o defecțiune de nivel adânc a componentelor sistemului.
 
 #### Cauze
-This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS). This is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
+Acest brick de cele mai multe ori apare când IOS-ul Meniului Wii este un [ciot](http://wiibrew.org/wiki/Stub_IOS). Acest lucru este de obicei consecința încercării de a retrograda meniul tău Wii la o versiune mai veche. Dacă această eroare a început să se întâmple după instalarea unui IOS80 normal într-un Wii mini, vezi [brick de Wi-Fi](bricks#wi-fi-brick).
 
 #### Soluții
-[Recovery mode](recovery-mode) may or may not be accessible due to the nature of the brick, but Priiloader will almost always not work. If you cannot reach recovery mode, you must have BootMii as boot2 to fix this. If these conditions are not met, see [low-level brick](bricks#low-level-brick).
+[Recovery mode](recovery-mode) poate sau poate să nu fie accesibil datorită naturii brick-ului, însă Priiloader nu va funcționa aproape niciodată. Dacă nu poți intra în recovery mode, trebuie să ai BootMii ca boot2 pentru a repara asta. Dacă aceste condiții nu sunt îndeplinite, vezi [brick de nivel adânc](bricks#low-level-brick).
 
-You can either restore a NAND backup, or do this:
+Poți să restaurezi un backup al memoriei NAND sau să faci asta:
 
-1. Use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to pack a WAD of your original Wii Menu.
-1. Use BootMii to enter the Homebrew Channel, and use a WAD manager to install the Wii Menu WAD.
+1. Folosește [NUS Downloader](https://wiibrew.org/wiki/NUSD) pentru a construi un fișier WAD al Meniului tău Wii original.
+1. Folosește BootMii pentru a intra în Homebrew Channel și folosește un manager WAD pentru a instala fișierul WAD de Meniu Wii.
 
-## Wi-Fi brick
+## Brick de Wi-Fi
 
 #### Simptome
-This brick appears identical to a low-level brick, however you can still power on the Wii with a Wiimote, and you can still boot into Recovery Mode on an original revision Wii.
+Acest brick pare identic cu un brick de nivel adânc, însă încă poți să îți pornești consola cu un Wiimote și încă poți să intri în Recovery Mode pe un Wii de revizie originală.
 
 #### Cauze
-This brick arises when your Wii's Wi-Fi (or Bluetooth) module is damaged or not inserted properly. In such cases, the Wii gets stuck on a black screen while awaiting a response from IOS.
+Acest brick apare atunci când modulul Wi-Fi (sau Bluetooth) al consolei tale Wii este defect sau nu este introdus cum trebuie. În astfel de cazuri, consola Wii rămâne blocată pe un ecran negru așteptând un răspuns de la IOS.
 
-This will also happen on the Wii mini if you install a normal Wii IOS, because the Wii mini doesn't have a Wi-Fi module.
+Acest lucru de asemenea se va întâmpla pe un Wii mini dacă instalezi un IOS de Wii normal deoarece consola Wii mini nu are un modul Wi-Fi.
 
 #### Soluții
-To resolve this problem, you can try to reseat or replace the Wi-Fi/Bluetooth module.
+Pentru a rezolva această problemă, poți încerca să reintroduci sau să înlocuiești modulul Wi-Fi/Bluetooth.
 
-If you are on a Wii mini, you must install a Wi-Fi module.
+Dacă ai un Wii mini, trebuie să instalezi un modul Wi-fi.
 
-If both fail, see [low-level brick](bricks#low-level-brick).
+Dacă ambele soluții eșuează, vezi [brick de nivel adânc](bricks#low-level-brick).
 
-## Low-level brick
+## Brick de nivel adânc
 
 #### Simptome
-Completely black screen, no response to user input. Recovery Mode cannot be booted, neither can BootMii as boot2 (or it never existed in the first place), for all intents and purposes the console appears dead.
+Ecran complet negru, niciun răspuns la nicio acțiune. Recovery Mode nu poate fi inițializat și nici BootMii ca boot2 (sau dacă n-a existat deloc), în esență consola pare moartă.
 
 #### Cauze
-This brick occurs when boot1/boot2 is corrupt, or if there is a hardware failure.
+Acest brick apare când boot1/boot2 sunt defecte sau dacă există defecțiuni de hardware.
 
 #### Soluții
-First, troubleshooting must be done to determine if hardware is at fault. In the order listed, do the following:
+În primul rând, trebuie să determinăm dacă problema este legată de hardware. În ordinea listată, urmează acești pași:
 
-+ Test to make sure that your Wii actually still functions (it accepts discs as normal, spins up correctly, Wiimotes connect) before attempting the following steps. If this is the case and only video is not being displayed, you may have an exceptionally rare failure of the video port or the GPU.
-+ If on a Wii mini, and if a normal IOS80 was installed, see [Wi-Fi brick](wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
-+ Attempt to boot into [Recovery Mode](recovery-mode) (normal Wiis only). If the Wii boots into Recovery Mode, see [Wi-Fi brick](wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
++ Testează să verifici dacă sistemul Wii încă funcționează (acceptă discuri normal, cititorul de discuri se rotește corect, controlerele Wiimote se conectează) înainte de a încerca următorii pași. Dacă acesta este cazul și doar nu este afișată imaginea video, s-ar putea să ai o defecțiune foarte rară a portului video sau a plăcii video.
++ Dacă ești pe un Wii mini și un IOS80 normal a fost instalat, vezi [brick de Wi-Fi](wi-fi-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi au eșuat, continuă.
++ Attempt to boot into [Recovery Mode](recovery-mode) (normal Wiis only). If the Wii boots into Recovery Mode, see [Wi-Fi brick](wi-fi-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi au eșuat, continuă.
 + Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
 + At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.
 
