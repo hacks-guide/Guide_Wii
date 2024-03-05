@@ -129,18 +129,18 @@ De aici, Homebrew Channel poate fi rulat și brick-ul poate fi reparat prin ște
 ## Brick de Wii Menu/Opera
 
 #### Simptome
-When starting the Wii, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` This will happen every time you start the Wii, and cannot be bypassed by any other means.
+Când pornești consola vei primi o eroare din browserul web Opera care afișează mesajul `You tried to access the address (URL), which is currently unavailable.` Asta se va întâmpla de fiecare dată când pornești consola Wii și nu poate fi evitată prin alte metode.
 
 #### Cauze
-This brick is a more fatal version of a [Semibrick](#semibrick). If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
+Acest brick este o versiune mai gravă a unui [Semibrick](#semibrick). Dacă fișierul SYSCONF (fișier de configurare a sistemului) este corupt sau eronat, consola o va regenera și va începe faza de configurare inițială.
 
-However, the setup pages are in a similar location to the Wii settings pages. If you have an incorrect region Wii Menu or theme, the Wii cannot find them.
+Însă, paginile de configurare sunt într-o locație similară cu paginile de setări Wii. Dacă ai un Meniu Wii sau o temă de fundal cu regiunea incorectă, consola nu le poate găsi.
 
 ![](/images/bricks/sysmenu-brick.png)
 
 #### Soluții
 
-If you still have [Priiloader](priiloader), use it to enter the Homebrew Channel and re-install the original theme file/original Wii Menu.
+În cazul în care încă ai [Priiloader](priiloader), folosește-l pentru a intra în Homebrew Channel și reinstalează tema originală/Meniul Wii original.
 
 {: .notice}
 
