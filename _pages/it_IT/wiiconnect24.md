@@ -5,11 +5,11 @@ title: "WiiConnect24"
 {% include toc title="Table of Contents" %}
 <!--
 This guide provides the means of regaining WiiConnect24 functionality on your console via RiiConnect24.
-Although not at all nessecary, it is a "nice to have" feature that was originally used for online connectivity in certain applications on the console.
+Although not at all necessary, it is a "nice to have" feature that was originally used for online connectivity in certain applications on the console.
 These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Channel, some Japan-exclusive channels, and more.
 -->
 
-[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) era un servizio che consentiva agli utenti con Wii connessi a Internet di visualizzare il meteo e notizie, inviare messaggi agli amici, partecipare ai concorsi Mii, e altro ancora. WiiConnect24 è stato disattivato il 27 giugno 2013.
+[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather and news, send messages to friends, participate in Mii contests, and more. WiiConnect24 è stato disattivato il 27 giugno 2013.
 
 ## RiiConnect24 + WiiLink
 [RiiConnect24](https://rc24.xyz) is a revival service for WiiConnect24 that started in 2015, which allows you to regain its functionality on your console. A partire dalla fine del 2023, il servizio è ora di proprietà di WiiLink, un progetto iniziato nel 2020 che in precedenza si concentrava sui canali esclusivi al Giappone.

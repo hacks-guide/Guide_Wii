@@ -1,8 +1,8 @@
 ---
-title: "Transferring Save games"
+title: "Transferring Game Saves"
 ---
 
-This guide will explain how to transfer save games between:
+This guide will explain how to transfer game saves between:
 
 + a Wii/Wii U(vWii),
 + Dolphin Emulator,
@@ -53,7 +53,7 @@ Make sure you have installed [cIOS](cios) before following this!
 ##### What you need
 
 * The Homebrew Channel on both systems
-* An SD card or USB drive
+* Un card SD sau o unitate USB
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
 ##### Instrucțiuni
@@ -102,7 +102,7 @@ Make sure you have installed [cIOS](cios) before following this!
 
 * The Homebrew Channel on your Wii/vWii
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
-* An SD card or USB drive
+* Un card SD sau o unitate USB
 * Latest beta version of Dolphin Emulator
 
 ##### Instrucțiuni
@@ -171,7 +171,7 @@ Make sure you have installed [cIOS](cios) before following this!
 ##### What you need
 
 * The Homebrew Channel on your Wii/vWii
-* An SD card or USB drive
+* Un card SD sau o unitate USB
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
 ##### Instrucțiuni
@@ -193,7 +193,7 @@ Make sure you have installed [cIOS](cios) before following this!
 ##### What you need
 
 * a Wii with GameCube ports and the Homebrew Channel installed
-* An SD card or USB drive
+* Un card SD sau o unitate USB
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ##### Instrucțiuni
@@ -365,7 +365,7 @@ div id="emumc-gcmc" class="tabcontent to" markdown="1">
 ##### What you need
 
 * The Homebrew Channel installed on your Wii
-* An SD card or USB drive
+* Un card SD sau o unitate USB
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ##### Individual memcards (.gci files)

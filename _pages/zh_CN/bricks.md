@@ -13,7 +13,7 @@ Preventing a brick involves many rules that range between common sense and fail-
 + **Do NOT follow old Wii modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
 + **Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. It is DANGEROUS and does things that have the ability to BRICK YOUR WII!**
 + **Do NOT restore NAND backups from other consoles!**
-+ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi). Doing otherwise could allow a malicious actor to BRICK your Wii!**
++ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi)). Doing otherwise could allow a malicious actor to BRICK your Wii!**
 + **Only install updates for your own region!**.
     + Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
 + **Do NOT delete or modify system files, and do NOT install any system file mods unless you know what you are doing!**
@@ -42,7 +42,7 @@ In any case, you should absolutely:
 
 Here is a small section that lists out steps similar to the Wii boot process, and links to the likely corresponding brick if something fails.
 
-+ Turn on Wii.
++ Turn on your Wii.
 + Nothing happens, black screen. 解决这个问题的唯一办法是通过恢复菜单启动游戏来启动自制。 只有当您拆开 GameCube 手柄，按住所有 4 个十字键，同时将 GameCube 手柄插入 Wii 的第 4 个插槽，打开 Wii 后才能使用它。 See [low-level brick](bricks#low-level-brick).
 + Nothing happens, black screen, BUT Wii can be turned on with a Wiimote/Recovery Mode can be accessed. See [Wi-Fi brick](bricks#wi-fi-brick).
 + Nothing happens, black screen, BUT BootMii as boot2 is accessible. See [IOS brick](bricks#ios-brick).
@@ -132,7 +132,7 @@ By entering holding + and - on the warning screen, maintenance mode can be enter
 When starting the Wii, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` This will happen every time you start the Wii, and cannot be bypassed by any other means.
 
 #### 原因
-此砖与 [Semibrick（半砖）](#semibrick)相比更为致命。 如果您的 SYSCONF 受损或损坏，Wii 将重新生成它并开始设置阶段。
+此砖与 [Semibrick（半砖）](#semibrick)相比更为致命。 If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
 
 然而，设置页面的位置与 Wii 设置页面类似。 如果Wii 菜单或主题的区域不正确，Wii 将无法找到它们。
 
@@ -146,7 +146,7 @@ When starting the Wii, you instead get an error from the Opera web browser along
 
 Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 
-## Error 003 Brick（错误 003 砖）
+## KoreanKii/Error 003 Brick
 
 #### Symptoms
 Screen shows up as listed below on normal boot.

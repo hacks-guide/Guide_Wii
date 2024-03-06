@@ -1,81 +1,81 @@
 ---
-title: "BootMii Recovery (RestoreMii)"
+title: "Restaurare BootMii (RestoreMii)"
 ---
 
-If you are even able to enter BootMii, enter the Homebrew Channel instead, and try your best to [identify what caused the brick](bricks) and reverse it.
+Dacă reușești să intri în BootMii, intră în schimb în Homebrew Channel și încearcă să [identifici ce a cauzat brick-ul](bricks) și să îl inversezi.
 
-This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
+Acest ghid îți va oferi instrucțiuni despre cum să restaurezi un backup a memoriei NAND folosind BootMii. Te rugăm să reții că aceasta este de obicei o <strong>ultimă metodă</strong> de a repara un brick dacă ai unul, iar dacă nu îți rezolvă problema, va trebui să soliciți ajutor. Dacă încă poți să intri în BootMii, încearcă să intri în schimb în Homebrew Channel pentru a încerca să [identifici și să repari brick-ul](bricks) folosind alte metode.
 
-If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+Dacă ai BootMii instalat ca boot2, va trebui să repornești consola pentru a rula BootMii. Sari peste pașii 1 și 2 dacă acesta este cazul.
 {: .notice--info}
 
-If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+Dacă ecranul rămâne negru și lumina albastră a cititorului de discuri clipește după ce ai deschis BootMii, fișierele BootMii lipsesc din cardul tău SD. Descarcă [acest fișier zip](https://static.hackmii.com/bootmii_sd_files.zip) și extrage-l în rădăcina cardului tău SD și apoi mai încearcă o dată.
 {: .notice--warning}
 
-Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
+Consolele Wii Family Edition (Consolele Wii fără porturi GameCube) NU POT restaura backup-uri ale memoriei NAND. Acest lucru este datorat lipsei de porturi GameCube care sunt necesare pe consolele Wii non-boot2 pentru a introduce codul de confirmare a restaurării. Pentru ajutor suplimentar, te rugăm să soliciți ajutor.
 {: .notice--danger}
 
-DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same goes for using faulty SD cards.
+NU restaura un backup de memorie NAND neverificat sau unul care nu provine din consola ta Wii, acesta s-ar putea să provoace un BRICK MAI GRAV. Același lucru este valabil și pentru cardurile SD defecte.
 {: .notice--danger}
 
 ### Instrumente necesare
 
-* An earlier NAND Backup made by [BootMii](bootmii)
+* Un backup al memoriei NAND creat mai înainte de [BootMii](bootmii)
 
-### Restoring individual data from a NAND backup
+### Restaurarea datelor individuale dintr-un backup a memoriei NAND
 
-There is likely a much safer and faster way to bring individual data back to your Wii, likely involving the use of Dolphin Emulator.
+În multe cazuri există o metodă mult mai sigură și rapidă de a transfera date individuale înapoi în consola ta Wii cu ajutorul emulatorului Dolphin.
 
-For example, if you want to restore your Wii Message Board data, use Dolphin to import your NAND backup. In Dolphin, go to `File -> Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
+De exemplu, dacă vrei să restaurezi datele din Wii Message Board, folosește Dolphin pentru a importa backup-ul NAND. În Dolphin, mergi la `File -> Open User Folder` și găsește `Wii/title/00000001/00000002/data/cdb.vff`, copiază-l în cardul tău SD și folosește [WiiXplorer](https://oscwii.org/library/app/wiixplorer) pentru a-l restaura în locația corespunzătoare.
 
-If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools > Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
+Dacă vrei să restaurezi salvările unui joc, folosește Dolphin pentru a importa backup-ul NAND, folosește `Tools > Export All Wii Saves` pentru a extrage toate salvările tale în cardul tău SD și folosește Data Management pentru a le muta în consola ta Wii.
 
-### Important preliminary notes
+### Mențiuni preliminare importante
 
-+ If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is probably a [Wi-Fi Brick](bricks#wi-fi-brick).
++ Dacă nu ai făcut nimic pentru a cauza un brick (sau dacă ți-ai pornit consola Wii pentru prima dată de ceva timp), atunci este probabil că ai un [Wi-Fi Brick](bricks#wi-fi-brick).
 
-+ If you have BootMii as IOS installed, RestoreMii will prompt you for the Konami code via a GameCube Controller.
++ Dacă ai BootMii ca IOS instalat, RestoreMii te va pune să introduci codul Konami folosind un Controller GameCube.
 
-+ You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad on a GameCube controller. To select, press A.
++ Va trebui să folosești butoanele POWER (dreapta) și RESET (alege) de pe consola ta sau un controller GameCube conectat în portul 1 pentru a naviga. Pentru a naviga cu un controller GameCube, apasă stânga/dreapta pe +Control Pad pe un controller GameCube. Pentru a alege, apasă A.
 
 ### Instrucțiuni
 
-1. Launch the Homebrew Channel.
-1. Press the HOME Button, then select "Launch BootMii".
-    + If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
+1. Rulează Homebrew Channel.
+1. Apasă pe butonul HOME, apoi alege "Launch BootMii".
+    + Dacă Homebrew Channel nu este accesibil și ai Priiloader instalat, poți de asemenea să-l accesezi la pornire și să alegi `BootMii IOS` pentru a rula BootMii.
 
     ![](/images/bootmii/BootMii_HBC.png)
 
-1. Select the Options button (the icon with the gears).
+1. Alege butonul Opțiuni (iconița cu rotițele).
 
     ![](/images/bootmii/BootMii_Gears.png)
 
-1. Select the RestoreMii button.
+1. Alege butonul RestoreMii.
 
     ![](/images/bootmii/BootMii_Restore.png)
 
-1. BootMii will inform you that it will run in SIMULATION mode, you can press A or Reset to continue.
+1. BootMii te va informă că va rula în modul SIMULATION, poți să apeși A sau Reset pentru a continua.
 
     ![](/images/bootmii/BootMii_NAND_Simulation.png)
 
-1. If BootMii is installed as IOS, input the Konami code on your GameCube controller: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
+1. Dacă BootMii este instalat ca IOS, introdu codul Konami pe controller-ul tău GameCube: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 
     ![](/images/bootmii/BootMii_NAND_Konami.png)
 
-1. BootMii will run through the restore process as a simulation, detailing what will be erased and rewritten. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin.
+1. BootMii va simula procesul de restaurare, detaliind ce va fi șters și rescris. Odată ce se finalizează, mai ai o ultimă șansă să anulezi procesul de restaurare. Altfel, apasă START sau butonul EJECT pentru a începe.
 
     ![](/images/bootmii/BootMii_NAND_Restore.png)
 
-1. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Hit any button on your Wii console or GCN controller.
+1. Odată ce restaurarea s-a terminat, ar trebui să vezi un text spunând `I HAZ SUCCESS!`, altfel `I HAZ FAIL`. Apasă orice buton de pe consola ta Wii sau controller-ul GameCube.
 
     ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
-1. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
+1. Apasă pe butonul Înapoi (cel cu săgeata) iar apoi apasă ori pe butonul Wii Menu ori pe butonul Homebrew Channel pentru a ieși din BootMii.
 
     ![](/images/bootmii/BootMii_Return.png)
 
-If you were restoring a NAND backup in order to repair a brick and this did not fix your issue, please consult [the bricks portion](bricks) of this guide.
+Dacă ai restaurat un backup NAND pentru a repara un brick și asta nu ți-a rezolvat problema, te rugăm să consulți [porțiunea legată de brick-uri](bricks) a acestui ghid.
 {: .notice--info}
 
-[Click here to view all of our tutorials that you can find on this website!](site-navigation)
+[Apasă aici pentru a vedea toate ghidurile pe care le poți găsi pe acest site!](site-navigation)
 {: .notice--info}

@@ -1,8 +1,8 @@
 ---
-title: "Trasferimento dati di salvataggio"
+title: "Transferring Game Saves"
 ---
 
-Questa guida ti spiegherà come trasferire i dati di salvataggio dei giochi tra:
+This guide will explain how to transfer game saves between:
 
 + un Wii/Wii U (vWii),
 + Emulatore Dolphin,

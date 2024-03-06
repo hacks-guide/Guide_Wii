@@ -1,5 +1,5 @@
 ---
-title: "Credits"
+title: "Credite"
 ---
 
 {% include toc title="Tabel de Conținut" %}

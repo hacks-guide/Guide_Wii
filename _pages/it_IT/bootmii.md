@@ -60,7 +60,7 @@ Se hai BootMii installato come boot2, dovrai riavviare la console per eseguierlo
     ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-Nota: **ripristinare un backup della NAND è di solito l'ultima spiaggia**. Ci sono spesso dei modi migliori di ubrickare la tua console.
+Nota: **ripristinare un backup della NAND è di solito l'ultima spiaggia**. There are often better ways to unbrick your console.
 Fai del tuo meglio per [identificare la tua condizione di brick](bricks) e annullare l'azione che lo ha causato in primo luogo.
 Per ripristinare un backup della NAND dalla tua scheda SD, puoi seguire le istruzioni per [RestoreMii](bootmiirecover). **I Wii Family Edition (Wii senza le porte GameCube) NON POSSONO ripristinare backup della NAND.**
 </div>
@@ -68,7 +68,7 @@ Per ripristinare un backup della NAND dalla tua scheda SD, puoi seguire le istru
 Come detto in precedenza, se hai BootMii installato in boot2, si avvierà ogni volta che accenderai la console. Se vuoi modificare questa feature, puoi usare l'app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Altrimenti, puoi editare il file `sd:/bootmii/bootmii.ini` manualmente.
 {: .notice--info}
 
-Due file saranno stati creati sul root della tua scheda SD: `nand.bin` e `keys.bin`. `nand.bin` è la memoria interna del tuo Wii, mentre `keys.bin` sono le chiavi della tua console.
+Due file saranno stati creati sul root della tua scheda SD: `nand.bin` e `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
 [Continua all'Installazione di Priiloader](priiloader)<br> Priiloader aggiunge un secondo strato di protezione dai brick, ed è fortemente consigliato anche se BootMii è stato installato su boot2. È specialmente importante per gli utenti di BootMii su IOS.
