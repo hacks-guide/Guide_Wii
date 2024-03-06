@@ -45,7 +45,8 @@ sitemap: false
 + [Priiloader](priiloader)
 + [Come rieseguire l'HackMii Installer](hackmii)
 + [Aggiornamento del Menu Wii alla versione 4.3](update)
-+ [Restoring the Wii NAND to Stock](wii-factory-reset)
++ [Recovery Mode](recovery-mode)
++ [Ripristino della NAND Wii a Stock](wii-factory-reset)
 + [Wii mini NAND Dumper](wnd-mini)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
