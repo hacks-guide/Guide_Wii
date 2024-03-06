@@ -8,7 +8,7 @@ This guide provides instructions on how to manage your GameCube backups, using G
 
 ### Instrumente necesare
 
-* An SD card or USB drive
+* Un card SD sau o unitate USB
 * [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
 To play multiple games, it is recommended to use an external hard drive for your Wii. Any external hard drive found on most modern marketplaces should work with your Wii.
@@ -19,10 +19,10 @@ Make sure your USB drive is formatted as FAT32. Do not format it as other types 
 
 ### Instrucțiuni
 
-#### Section I - Downloading
+#### Secțiunea I - Descărcare
 
 1. Extract GameCube Backup Manager, and launch the program.
-1. Insert your USB drive into your Wii mini and load the d2xl cIOS Installer from the Homebrew Channel.
+1. Introdu unitatea ta USB în calculatorul tău.
 
 #### Section II - Copying Games Over
 
