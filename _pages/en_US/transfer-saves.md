@@ -1,8 +1,8 @@
 ---
-title: "Transferring Save games"
+title: "Transferring Game Saves"
 ---
 
-This guide will explain how to transfer save games between:
+This guide will explain how to transfer game saves between:
 
 + a Wii/Wii U(vWii),
 + Dolphin Emulator,

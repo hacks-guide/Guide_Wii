@@ -34,7 +34,7 @@ Se você instalou o BootMii como Boot2 na última etapa, será necessário inici
 
     ![](/images/bootmii/BootMii_Main.png)
 
-    Não é possível navegar o BootMii usando um Wii Remote. Você deve utilizar os botões POWER e RESET do seu console, ou um controle de Gamecube conectado na porta 1. To navigate between options, press POWER. To select an option, press RESET.
+    Não é possível navegar o BootMii usando um Wii Remote. Você deve utilizar os botões POWER e RESET do seu console, ou um controle de Gamecube conectado na porta 1. Para navegar entre as opções, pressione POWER. Para selecionar uma opção, pressione RESET.
     {: .notice--info}
 
 1. Selecione o botão Options (o ícone com as engrenagens).
@@ -51,7 +51,7 @@ Se você instalou o BootMii como Boot2 na última etapa, será necessário inici
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. Depois desta etapa, o backup irá ser verificado. Idealmente, todos os blocos devem ser verdes após o processo de verificação.
-    + Se você tem bad blocks de fábrica com páginas incorretas, esses blocks podem não ser verificados. As long all non-bad blocks are successfully verified, this should be fine.
+    + Se você tem bad blocks de fábrica com páginas incorretas, esses blocks podem não ser verificados. Uma vez que todos os não-bad blocks sejam verificados com sucesso, está tudo ok.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -62,13 +62,13 @@ Se você instalou o BootMii como Boot2 na última etapa, será necessário inici
 <div id="restore-notice" class="notice" markdown="1">
 Please be reminded that <strong>restoring a NAND backup is usually a last resort,</strong> and that there often better ways to fix your brick. Muitas vezes, existem maneiras melhores de desbricar seu console.
 Tente o seu melhor para [identificar sua condição de brick](bricks) e reverter a ação que a causou em primeiro lugar.
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.**
+Para restaurar de um backup da NAND no seu cartão SD, você pode seguir as instruções para o [RestoreMii](bootmiirecover). Wiis "Family Edition" (Wiis sem portas GameCube) NÃO PODEM restaurar backups da NAND
 </div>
 
-As stated earlier, if you have BootMii installed as boot2, it will launch every time you start your console. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
+Como mencionado anteriormente, se você tiver o BootMii instalado como boot2, ele será executado toda vez que você iniciar o console. Se você deseja alterar isto, você pode usar o aplicativo [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Ou, você pode editar `sd:/bootmii/bootmii.ini` manualmente.
 {: .notice--info}
 
-To make sure you don’t lose the files, it's recommended to copy `nand.bin` and `keys.bin` from the root of your SD card to your computer. `nand.bin` é a memória interna do seu Wii, enquanto `keys.bin` são as chaves do console.
+Dois arquivos serão criados na raiz do cartão SD: `nand.bin` e `keys.bin`. `nand.bin` é a memória interna do seu Wii, enquanto `keys.bin` são as chaves do console.
 {: .notice--info}
 
 [Continue to Priiloader Installation](priiloader)<br> Priiloader adds a level of brick protection, and is highly recommended, especially if you were only able to install BootMii as IOS. É especialmente importante para os usuários do BootMii na IOS.

@@ -34,7 +34,7 @@ Se hai BootMii installato come boot2, dovrai riavviare la console per eseguierlo
 
     ![](/images/bootmii/BootMii_Main.png)
 
-    Navigare in BootMii è impossibile usando un Wii Remote. Devi usare i tasti POWER e RESET sulla tua console, o un controller GameCube inserito nella porta 1. To navigate between options, press POWER. To select an option, press RESET.
+    Navigare in BootMii è impossibile usando un Wii Remote. Devi usare i tasti POWER e RESET sulla tua console, o un controller GameCube inserito nella porta 1. Per navigare tra le opzioni, premi POWER. Per selezionare un'opzione, premi RESET.
     {: .notice--info}
 
 1. Seleziona il pulsante delle opzioni (con l'icona delle rotelle).
@@ -62,7 +62,7 @@ Se hai BootMii installato come boot2, dovrai riavviare la console per eseguierlo
 <div id="restore-notice" class="notice" markdown="1">
 Nota: **ripristinare un backup della NAND è di solito l'ultima spiaggia**. Ci sono spesso dei modi migliori di ubrickare la tua console.
 Fai del tuo meglio per [identificare la tua condizione di brick](bricks) e annullare l'azione che lo ha causato in primo luogo.
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.**
+Per ripristinare un backup della NAND dalla tua scheda SD, puoi seguire le istruzioni per [RestoreMii](bootmiirecover). **I Wii Family Edition (Wii senza le porte GameCube) NON POSSONO ripristinare backup della NAND.**
 </div>
 
 Come detto in precedenza, se hai BootMii installato in boot2, si avvierà ogni volta che accenderai la console. Se vuoi modificare questa feature, puoi usare l'app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Altrimenti, puoi editare il file `sd:/bootmii/bootmii.ini` manualmente.
