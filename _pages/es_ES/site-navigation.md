@@ -44,7 +44,8 @@ sitemap: false
 + [Priiloader](priiloader)
 + [Volver a lanzar el HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)
-+ [Restoring the Wii NAND to Stock](wii-factory-reset)
++ [Recovery Mode](recovery-mode)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [riitag-wiiu](wnd-mini)
 + Instalar WADs con YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
