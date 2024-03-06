@@ -11,7 +11,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### Instrumente necesare
 
-* An SD card or USB drive
+* Un card SD sau o unitate USB
 * A computer with Windows on it
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
 * [Priiloader](priiloader)
@@ -19,7 +19,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### Instrucțiuni
 
-#### Section I - Downloading
+#### Secțiunea I - Descărcare
 
 Your Wii must be modded in order to perform this. If it isn't, then it's best to follow [the guide](get-started) first.
 {: .notice--info}
@@ -39,7 +39,7 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 | Europe | v514 (4.3E)      |
 | Korea  | v518 (4.3K)      |
 
-#### Section II - Installing
+#### Secțiunea II – Instalare
 
 1. Oprește consola. Start holding RESET, then turn it back on.
 1. In the Priiloader menu, select `Homebrew Channel`.
