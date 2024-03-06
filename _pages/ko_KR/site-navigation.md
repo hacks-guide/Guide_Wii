@@ -44,7 +44,8 @@ sitemap: false
 + [Priiloader](priiloader)
 + [HackMii 설치 프로그램 다시 시작하기](hackmii)
 + [Wii 메뉴 v4.3으로 업데이트하기](update)
-+ [Restoring the Wii NAND to Stock](wii-factory-reset)
++ [Recovery Mode](recovery-mode)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wii U를 위한 RiiTag](wnd-mini)
 + YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
