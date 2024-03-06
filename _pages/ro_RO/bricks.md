@@ -12,7 +12,9 @@ Prevenirea unui brick implică multe reguli care variază între gândire logic�
 
 + **NU urma ghiduri vechi de modificare a consolei Wii, folosi homebrew vechi sau folosi ghiduri video de pe Internet, singura excepție fiind când este EXPLICIT RECOMANDAT de dezvoltatorul aplicației homebrew.**
 + **NU FOLOSI, ÎN NICIUN CAZ, APLICAȚIA HOMEBREW `Pimp My Wii`. Este PERICULOASĂ și face chestii care au capacitatea de a CAUZA UN BRICK CONSOLEI TALE!**
++ **Do NOT install IOS packs such as DARKCORP that overwrite most of your IOS with cIOS. It is DANGEROUS and heavily outdated.**
 + **NU restaura backup-uri NAND create de alte console!**
+
 + **NU folosi un serviciu Nintendo Wi-Fi Connection care nu este știut să fie reparat RCE. Un exemplu de serviciu sigur de folosit este [Wiimmfi](wiimmfi). Altfel, ai putea permite unei persoane cu intenții rele să CAUZEZE UN BRICK consolei tale!**
 + **Instalează actualizări doar pentru regiunea ta!**.
     + Instalarea actualizărilor din altă regiune pot să nu aibă niciun efect în cel mai bun caz, dar pot duce la un brick [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) în cel mai rău caz. Pentru a preveni acest lucru, dacă ai cumpărat un Wii care a fost utilizat în trecut, rulează [SysCheck](syscheck) pentru a verifica regiunea originală a consolei tale. Dacă este Coreean, fii EXTREM de atent când aplici actualizări de sistem în consola ta și consideră solicitarea de ajutor pentru asistență suplimentară.
@@ -22,8 +24,7 @@ Prevenirea unui brick implică multe reguli care variază între gândire logic�
     + Aplicațiile găsite pe [Open Shop Channel](osc) sunt sigure.
     + Au existat incidente de aplicații malițioase dezvoltate pentru Wii în trecut, în timp ce unele aplicații sunt doar prost dezvoltate. Asigură-te că știi ce instalezi și că instalezi doar de ce ai nevoie.
     + Canalele forwarder pentru aplicații homebrew corupte sau instabile pot cauza un [brick de banner](#banner-brick), așa că încearcă să rulezi aplicații homebrew din Homebrew Channel dacă nu vrei neapărat un canal forwarder.
-+ **Asigură-te că știi ce faci când rulezi aplicații homebrew - în special cele cu capacitatea de a modifică fișierele de sistem.**
-+ **Ai FOARTE multă atenție când folosești aplicați precum:**
++ **Asigură-te că știi ce faci când rulezi aplicații homebrew - în special cele cu capacitatea de a modifică fișierele de sistem. Ai FOARTE multă atenție când folosești aplicați precum:**
     + AnyTitle Deleter
     + AnyRegion Changer
     + KoreanKii (a doua cauză a brick-ului [Korean Kii/Error 003](bricks#korean-kiierror-003-brick))
@@ -40,23 +41,22 @@ Prevenirea unui brick implică multe reguli care variază între gândire logic�
 
 # Diagnostic
 
-Asta este o secțiune mică unde sunt enumerați pași asemănători procesului de pornire a consolei Wii și care îți arată tipul de brick probabil corespunzător dacă ceva nu merge bine.
+This is a section intended to help you diagnose a potential brick, in order by least to most brick severity. If you seem to have a brick that isn't covered in this section or in the guide, please join the Nintendo Homebrew discord server for support.
 
-+ Pornește-ți consola Wii.
-+ Nimic nu se întâmplă, ecran negru. Consola nu poate fi pornită cu un Wiimote, Recovery Mode nu poate fi pornit și BootMii ca boot2 nu este accesibil. Vezi [brick de nivel adânc](bricks#low-level-brick).
-+ Nimic nu se întâmplă, ecran negru, DAR consola Wii poate fi pornită cu un Wiimote/Recovery Mode poate fi accesat. Vezi [brick de Wi-Fi](bricks#wi-fi-brick).
-+ Nimic nu se întâmplă, ecran negru, DAR BootMii ca boot2 este accesibil. Vezi [brick de IOS](bricks#ios-brick).
-+ Error 003. Vezi [brick Korean Kii/Error 003](bricks#error-003-brick).
-+ Consola pornește, DAR INSTANT vezi o eroare care seamănă cu browserul web Opera. Vezi [brick de Wii Menu/Opera](bricks#wii-menuopera-brick).
-+ Consola pornește, vezi ecranul de sănătate/avertizare, dar odată ce apeși A pentru a începe, ecranul rămâne negru și/sau îngheață și nu continuă. Modul de mentenanță este accesibil. Vezi [brick de mail](bricks#mail-brick).
++ Consola pornește și continuă la Meniul Wii. Nici o aplicație nu este defectă, setările Wii nu au erori, totul pare să fie în regulă. No brick.
++ Consola pornește și continuă la Meniul Wii.
+    + If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
+    + Dacă după ce accesezi setările Wii vezi o eroare care seamănă cu browserul web Opera, vezi [semibrick](bricks#semibrick).
 + Consola pornește, vezi ecranul de sănătate/avertizare, dar odată ce apeși A pentru a începe, vezi un ecran negru.
     + Dacă acest lucru se întâmplă după ce ai instalat o temă de fundal, vezi [brick de temă](bricks#theme-brick).
     + Dacă acest lucru se întâmplă după ce ai instalat un fișier WAD, vezi [brick de banner](bricks#banner-brick).
     + Dacă acest lucru a început să se întâmple aleatoriu și poți accesa Maintenance Mode dacă apeși +/- pe ecranul de sănătate/avertizare, vezi [brick de mail](bricks#mail-brick).
-+ Consola pornește și continuă la Meniul Wii.
-    + Dacă după ce accesezi un canal specific primești mesajul `The system files are corrupted.`, vezi [brick de banner](bricks#banner-brick)
-    + Dacă după ce accesezi setările Wii vezi o eroare care seamănă cu browserul web Opera, vezi [semibrick](bricks#semibrick).
-+ Consola pornește și continuă la Meniul Wii. Nici o aplicație nu este defectă, setările Wii nu au erori, totul pare să fie în regulă. Dacă nu ai un alt tip de eroare sau brick care nu se află în această secțiune (dacă ai, ar trebui să ceri ajutor), ești în regulă!
++ Wii starts, and you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. Modul de mentenanță este accesibil. Vezi [brick de mail](bricks#mail-brick).
++ Consola pornește, DAR INSTANT vezi o eroare care seamănă cu browserul web Opera. Vezi [brick de Wii Menu/Opera](bricks#wii-menuopera-brick).
++ Error 003. Vezi [brick Korean Kii/Error 003](bricks#error-003-brick).
++ Nimic nu se întâmplă, ecran negru, DAR BootMii ca boot2 este accesibil. Vezi [brick de IOS](bricks#ios-brick).
++ Nimic nu se întâmplă, ecran negru, DAR consola Wii poate fi pornită cu un Wiimote/Recovery Mode poate fi accesat. Vezi [brick de Wi-Fi](bricks#wi-fi-brick).
++ Nimic nu se întâmplă, ecran negru. Consola nu poate fi pornită cu un Wiimote, Recovery Mode nu poate fi pornit și BootMii ca boot2 nu este accesibil. Vezi [brick de nivel adânc](bricks#low-level-brick).
 
 # Tipuri de Brick
 
@@ -156,16 +156,16 @@ Ecranul afișează mesajul de mai jos dupa ce pornești consola.
 ![](/images/bricks/error-003.png)
 
 #### Cauze
-Când au lansat consolele Wii Coreene, Nintendo a schimbat cheia de criptare pentru aceste unități ca o ultimă încercare de a preveni instalarea homebrew-ului. Deși acest lucru evident că a eșuat, ei au mai lăsat și o verificare în versiunile ale Meniului de Sistem 4.2/4.3 care determină dacă Cheia Coreeană este prezentă pe o regiune a sistemului care **nu** este Coreean. Dacă această verificare are succes, eroarea este declanșată și consola Wii este practic blocată.
+Când au lansat consolele Wii Coreene, Nintendo a schimbat cheia de criptare pentru aceste unități ca o ultimă încercare de a preveni instalarea homebrew-ului. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. Dacă această verificare are succes, eroarea este declanșată și consola Wii este practic blocată.
 
 Acest lucru este de obicei o continuare imediată a unei actualizări a sistemului Wii pe un Wii Coreean căruia i-a fost schimbată regiunea.
 
 #### Soluții
-Deoarece acest brick apare cel mai des în urma unei actualizări a Meniului Wii, Priiloader nu va fi instalat.
+Deoarece acest brick apare cel mai des în urma unei actualizări a Meniului Wii, Priiloader nu va fi instalat. In the case that Priiloader is present, you can simply fix it by either installing the previous Wii System Menu or removing the key with the KoreanKii homebrew app.
 
 Consolele Wii Coreene de asemenea au fost lansate cu Meniul Wii 3.3, în jurul perioadei de timp când Nintendo [a reparat bug-ul Trucha în boot1](https://wiibrew.org/wiki/3.3#Changes), deci BootMii ca boo2 nu poate fi instalat pe sau folosit pe niciun Wii Coreean.
 
-Deși aceste limitări lasă consola Wii într-o situație destul de periculoasă, **încă poate fi reparat**. Asta implică intrarea în [Recovery Mode](recovery-mode), unde un exploit poate fi activat pentru a obține access la Homebrew Channel și pentru a inversa condițiile care au cauzat brick-ul.
+While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. Asta implică intrarea în [Recovery Mode](recovery-mode), unde un exploit poate fi activat pentru a obține access la Homebrew Channel și pentru a inversa condițiile care au cauzat brick-ul. Note that you must have a drivechip in order for this method to work.
 
 ## Brick IOS
 
@@ -211,9 +211,9 @@ Acest brick apare când boot1/boot2 sunt defecte sau dacă există defecțiuni d
 #### Soluții
 În primul rând, trebuie să determinăm dacă problema este legată de hardware. În ordinea listată, urmează acești pași:
 
-+ Testează să verifici dacă sistemul Wii încă funcționează (acceptă discuri normal, cititorul de discuri se rotește corect, controlerele Wiimote se conectează) înainte de a încerca următorii pași. Dacă acesta este cazul și doar nu este afișată imaginea video, s-ar putea să ai o defecțiune foarte rară a portului video sau a plăcii video.
-+ Dacă ești pe un Wii mini și un IOS80 normal a fost instalat, vezi [brick de Wi-Fi](wi-fi-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi au eșuat, continuă.
-+ Încearcă să intri în [Recovery Mode](recovery-mode) (doar pentru console Wii normale). În cazul în care consola Wii pornește în Recovery Mode, vezi [brick de Wi-Fi](wi-fi-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi au eșuat, continuă.
++ Testează să verifici dacă sistemul Wii încă funcționează (acceptă discuri normal, cititorul de discuri se rotește corect, controlerele Wiimote se conectează) înainte de a încerca următorii pași. If this is the case and only video is not being displayed, you may have a bad video cable, or an exceptionally rare failure of the video port or the GPU.
++ If on a Wii mini, and if a normal IOS80 was installed, see [Wi-Fi brick](bricks#wi-fi-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi au eșuat, continuă.
++ Încearcă să intri în [Recovery Mode](recovery-mode) (doar pentru console Wii normale). If the Wii boots into Recovery Mode, see [Wi-Fi brick](bricks#wi-fi-brick) or [IOS brick](bricks#ios-brick). If steps to resolve the Wi-Fi brick or IOS brick failed, proceed.
 + Reintrodu unitatea de discuri și încearcă să pornești consola normal. Dacă nu a funcționat, înlocuiește unitatea de discuri. Dacă tot nu a funcționat, continuă.
 + În acest stadiu, problema este ori o corupere de nivel adânc de boot0/boot1, o defecțiune a chipului NAND sau o defecțiune a unei alte componente interne. Consideră cererea în ajutor online sau cumpărarea altui Wii.
 
