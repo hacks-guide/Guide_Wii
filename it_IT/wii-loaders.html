@@ -398,7 +398,7 @@ window.cookieconsent.initialise({
 
 <p class="notice--info">Per giocare ai giochi, si consiglia di utilizzare una scheda SD di grandi dimensioni o un hard drive esterno, poiché le unità flash non sono consigliate e sono molto sporadiche in funzionalità. Vedi il <a href="faq">FAQ storage</a>.</p>
 
-<p class="notice--info">Il forwarder ufficiale per Menu Wii di WiiFlow Lite può essere trovato sull’<a href="https://oscwii.org/library/app/wiiflow_channel_installer">Open Shop Channel</a>. Avvia l’app dal canale Homebrew per installare il forwarder. Il forwarder ufficiale di USB Loader GX può essere trovato nella sua pagina <a href="https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad">GitHub</a>. Puoi installarlo con <a href="yawmme">YAWM ModMii Edition</a>.</p>
+<p class="notice--info">The official Wii Menu forwarder installer for WiiFlow Lite can be found on the <a href="https://oscwii.org/library/app/wiiflow_channel_installer">Open Shop Channel</a>. Avvia l’app dal canale Homebrew per installare il forwarder. Il forwarder ufficiale di USB Loader GX può essere trovato nella sua pagina <a href="https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad">GitHub</a>. Puoi installarlo con <a href="yawmme">YAWM ModMii Edition</a>.</p>
 
 <h3 id="differenze-tra-wiiflow-lite-e-usb-loader-gx">Differenze tra WiiFlow Lite e USB Loader GX</h3>
 
@@ -416,7 +416,7 @@ window.cookieconsent.initialise({
     <ul>
       <li>Anche se in passato le schede SD non erano supportate per i giochi Wii su USB Loader GX, recenti aggiornamenti hanno introdotto il loro supporto per questo loader.</li>
       <li>USB Loader GX non ha un sistema di plugin.</li>
-      <li>USB Loader GX riceve ancora aggiornamenti regolari.</li>
+      <li>USB Loader GX still receives regular updates.</li>
     </ul>
 
     <p><img src="/images/usb-loaders/usbloadergx-ui.png" alt="" /></p>
@@ -425,7 +425,7 @@ window.cookieconsent.initialise({
 
 <h3 id="struttura-percorsi-di-gioco">Struttura percorsi di gioco</h3>
 
-<p>Di seguito è riportato un esempio di WBFS singolo e WBFS diviso.</p>
+<p>Di seguito è riportato un esempio di WBFS singolo e WBFS diviso. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>💾Scheda SD o USB:
  ┗ 📂wbfs
@@ -457,7 +457,7 @@ window.cookieconsent.initialise({
 
 <ul>
   <li>Per impostazione predefinita, WiiFlow cerca solo per i giochi su scheda SD. Si può cambiare andando su <code class="language-plaintext highlighter-rouge">Impostazioni &gt; Impostazioni d'avvio</code> per poi disattivare <code class="language-plaintext highlighter-rouge">Monta solo SD</code>.</li>
-  <li>Puoi cambiare la visuale attuale su WiiFlow tra plugin, giochi, homebrew e canali Wii cliccando il pulsante alla destra di <code class="language-plaintext highlighter-rouge">Home</code>, in basso a destra.</li>
+  <li>You can toggle the current view in WiiFlow between plugins, games, homebrew, and Wii channels by clicking the button to the left of <code class="language-plaintext highlighter-rouge">Home</code>, on the bottom right.</li>
   <li>Puoi scaricare le copertine dei giochi andando su <code class="language-plaintext highlighter-rouge">Impostazioni</code> &gt; <code class="language-plaintext highlighter-rouge">Scarica copertine e banner</code>.</li>
 </ul>
 
@@ -563,7 +563,7 @@ window.cookieconsent.initialise({
 
 <p>Un elenco più comprensivo (anche se ancora incompleto) può essere trovato <a href="https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List">qui</a>.</p>
 
-<p>Sia USB Loader GX che WiiFlow Lite sono programmati per trovare in automatico il miglior cIOS da usare e usarlo per caricare il gioco con le impostazioni predefinite.  Tuttavia, se per qualche motivo questi loader scelgonoo il cIOS da usare sbagliato, hai l’opzione per cambiarlo manualmente.</p>
+<p>Both USB Loader GX and WiiFlow Lite are programmed to automatically find the best cIOS to use and load the game with it using the default settings.  Tuttavia, se per qualche motivo questi loader scelgonoo il cIOS da usare sbagliato, hai l’opzione per cambiarlo manualmente.</p>
 
 <p>Per cambiare il cIOS utilizzato per un gioco specifico, segui le istruzioni adatte al tuo loader USB:</p>
 
