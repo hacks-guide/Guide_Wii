@@ -14,9 +14,9 @@ If you need help for anything regarding this tutorial, please join [the RiiConne
 ### Instrucțiuni
 
 1. Oprește consola.
-1. Insert your SD card or USB drive into your computer.
+1. Introdu cardul tău SD sau unitatea ta USB în calculator.
 1. Copy the `apps` folder from the Yet Another BlueDump MOD `.zip` to the root of your SD card or USB drive.
-1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel
+1. Reintrodu cardul tău SD sau unitatea ta USB în consolă.
 1. Pornește consola.
 1. Rulează Homebrew Channel.
 1. Launch Yet Another BlueDump MOD from the list of homebrew.
@@ -48,5 +48,5 @@ This tutorial will explain you how to dump WADs from your Wii System Memory.
 
 ![](/images/homebrew/DumpWADS/7.png)
 
-[Apasă aici pentru a vedea toate ghidurile pe care le poți găsi pe acest site!](site-navigation)
+[Click here to view all of our tutorials that you can find on this website!](site-navigation)
 {: .notice--info}
