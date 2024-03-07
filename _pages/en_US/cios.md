@@ -28,11 +28,6 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 #### Section I - Downloading
 
-If your Wii has an Internet connection, you may skip this section.<br>
-However, If you encounter any errors like `net_init failed`, `net_gethostbyname failed:`, or any other issues during the downloading stage
-this will allow the Wii to skip the downloading step.
-{: .notice--warning}
-
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
 
