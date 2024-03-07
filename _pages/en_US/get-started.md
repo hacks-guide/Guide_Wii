@@ -17,7 +17,7 @@ It is recommended to at least have an SD card on hand after the initial hack pro
 
 ### Select your exploit
 
-Select the exploit that corresponds to your console and situation the best. If the recommended option does not work for you, or if you are curious about other exploits, check out [Legacy Exploits](legacy-exploits).
+Select the exploit that corresponds to your console and situation the best.
 
 | Console Revision  | Recommended Exploit |
 | ----------------- | ------------------- |
@@ -25,3 +25,9 @@ Select the exploit that corresponds to your console and situation the best. If t
 | Wii mini | Proceed to [Bluebomb](bluebomb) |
 | Wii U (vWii)  | If you have not modded your Wii U yet:<br> Proceed to [Introduction (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/)<br> If your Wii U is already modded:<br> Proceed to [vWii Modding (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/vwii/sd-preparation) |
 | Dolphin Emulator | Proceed to [Homebrew Channel on Dolphin](homebrew-dolphin) |
+
+### Alternate methods
+
+If possible, you should follow the method given above.
+
+If the recommended option does not work for you, or if you are curious about other exploits, check out [Legacy Exploits](legacy-exploits).
