@@ -4,10 +4,7 @@ title: "Wilbrand"
 
 {% include toc title="Table of Contents" %}
 
-Wilbrand, like LetterBomb, is an exploit for the Wii that is triggered using the Wii Message Board.
-
-Unlike LetterBomb, Wilbrand supports Wii menu versions down to 3.0.
-{: .notice--info}
+Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board. It is compatible with Wii menu versions 3.0 through 4.3 in all regions.
 
 There are two methods listed on this page used to create the proper Wilbrand exploit.
 Wilbrand Web is recommended for its ease of use.
