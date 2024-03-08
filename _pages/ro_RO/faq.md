@@ -1,38 +1,38 @@
 ---
-title: "FAQ"
+title: "Întrebări Frecvente și Rezolvarea unor probleme"
 ---
 
-## Main FAQ
+## Întrebări Principale
 
 {% include toc title="Tabel de Conținut" %}
 
-### How risky is hacking my console?
-Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+### Cât de riscant este să-mi modific consola?
+Nu este prea riscant să fiu sincer, în funcție de consola ta. Consola Wii are o barieră de intrare mult mai joasă decât alte console, unele exploit-uri necesitând nu mai mult decât un Wii și o conexiune la Internet. Cât timp urmezi sfaturile generale afișate [aici](bricks#brick-prevention), instalezi [BootMii](bootmii) și [Priiloader](priiloader) și gândești logic, ar trebui să fii în regulă!
 
-### Where should I go for support?
-In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:
+### Am primit codul de eroare XXXXXX, cum îl rezolv?
+Pentru a verifica ce înseamnă eroarea, te rugăm accesează [pagina de erori Wiimmfi](https://wiimmfi.de/error). Multe erori comune au rezolvări listate mai jos:
 
-#### Error 051330/51330
+#### Eroarea 051330/51330
 
-You will need an SD card with at least 128MB to run an exploit.
+Rulează un test de conexiune la Internet mergând la `Wii Settings > Internet > Connection settings > Connection > Test this connection`
 
-#### Error 220602
+#### Eroarea 220602
 
-##### For RiiConnect24 Users
+##### Pentru Utilizatorii RiiConnect24
 
-You are using the old DNS server for RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+Folosești serverul DNS vechi pentru RiiConnect24. Urmează [acest](riiconnect24#section-iv---connecting) ghid pentru instrucțiuni legate de cum să-l schimbi.
 
-##### For non-RiiConnect24 Users
+##### Pentru cei care nu folosesc RiiConnect24
 
-In order to check what the reason for the error is, please visit the [Wiimmfi error page](https://wiimmfi.de/error).
+Serverul tău DNS primar este incorect sau nu funcționează.<br> Acest lucru se poate întâmpla și dacă folosești un server proxy care este închis.
 
-#### Error 107304
+#### Eroarea 107304
 
-##### For RiiConnect24 Users
+##### Pentru Utilizatorii RiiConnect24
 
 If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
 
-##### For non-RiiConnect24 Users
+##### Pentru cei care nu folosesc RiiConnect24
 
 If you get this error, the DNS server you chose or your internet as a whole is having issues. Try again later.
 
