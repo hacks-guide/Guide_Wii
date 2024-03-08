@@ -12,13 +12,13 @@ Prevenirea unui brick implică multe reguli care variază între gândire logic�
 
 + **NU urma ghiduri vechi de modificare a consolei Wii, folosi homebrew vechi sau folosi ghiduri video de pe Internet, singura excepție fiind când este EXPLICIT RECOMANDAT de dezvoltatorul aplicației homebrew.**
 + **NU FOLOSI, ÎN NICIUN CAZ, APLICAȚIA HOMEBREW `Pimp My Wii`. Este PERICULOASĂ și face chestii care au capacitatea de a CAUZA UN BRICK CONSOLEI TALE!**
-+ **Do NOT install IOS packs such as DARKCORP that overwrite most of your IOS with cIOS. It is DANGEROUS and heavily outdated.**
++ **NU instala pachete IOS precum DARKCORP care înlocuiesc majoritatea IOS-urilor tale cu cIOS. Este PERICULOS și foarte învechit.**
 + **NU restaura backup-uri NAND create de alte console!**
 
 + **NU folosi un serviciu Nintendo Wi-Fi Connection care nu este știut să fie reparat RCE. Un exemplu de serviciu sigur de folosit este [Wiimmfi](wiimmfi). Altfel, ai putea permite unei persoane cu intenții rele să CAUZEZE UN BRICK consolei tale!**
 + **Instalează actualizări doar pentru regiunea ta!**.
     + Instalarea actualizărilor din altă regiune pot să nu aibă niciun efect în cel mai bun caz, dar pot duce la un brick [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) în cel mai rău caz. Pentru a preveni acest lucru, dacă ai cumpărat un Wii care a fost utilizat în trecut, rulează [SysCheck](syscheck) pentru a verifica regiunea originală a consolei tale. Dacă este Coreean, fii EXTREM de atent când aplici actualizări de sistem în consola ta și consideră solicitarea de ajutor pentru asistență suplimentară.
-+ **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
++ **NU șterge sau modifica fișiere de sistem, instala versiuni vechi ale Meniului Wii sau a unui IOS și NU instala nicio modificare de fișier de sistem decât dacă știi ce faci!**
     + Un exemplu de modificare a fișierelor mergând prost este înlocuirea IOS80 pe un Wii mini, care poate duce la un [Wi-Fi Brick](bricks#wi-fi-brick).
 + **NU instala homebrew din surse nesigure sau în cazul în care codul sursă nu este disponibil.**
     + Aplicațiile găsite pe [Open Shop Channel](osc) sunt sigure.
@@ -41,17 +41,17 @@ Prevenirea unui brick implică multe reguli care variază între gândire logic�
 
 # Diagnostic
 
-This is a section intended to help you diagnose a potential brick, in order by least to most brick severity. If you seem to have a brick that isn't covered in this section or in the guide, please join the Nintendo Homebrew discord server for support.
+Aceasta este o secțiune menită să te ajute să diagnostichezi un brick potențial, în ordine de la cel mai puțin la cel mai sever. Dacă pare că ai un brick care nu este acoperit de aceasta secțiune sau de ghid, te rugăm să te alături serverului de Discord Nintendo Homebrew pentru ajutor.
 
-+ Consola pornește și continuă la Meniul Wii. Nici o aplicație nu este defectă, setările Wii nu au erori, totul pare să fie în regulă. No brick.
++ Consola pornește și continuă la Meniul Wii. Nici o aplicație nu este defectă, setările Wii nu au erori, totul pare să fie în regulă. Niciun brick.
 + Consola pornește și continuă la Meniul Wii.
-    + If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
+    + Dacă după ce accesezi un canal specific, primești mesajul `The system files are corrupted.`, vezi [brick de banner](bricks#banner-brick).
     + Dacă după ce accesezi setările Wii vezi o eroare care seamănă cu browserul web Opera, vezi [semibrick](bricks#semibrick).
 + Consola pornește, vezi ecranul de sănătate/avertizare, dar odată ce apeși A pentru a începe, vezi un ecran negru.
     + Dacă acest lucru se întâmplă după ce ai instalat o temă de fundal, vezi [brick de temă](bricks#theme-brick).
     + Dacă acest lucru se întâmplă după ce ai instalat un fișier WAD, vezi [brick de banner](bricks#banner-brick).
     + Dacă acest lucru a început să se întâmple aleatoriu și poți accesa Maintenance Mode dacă apeși +/- pe ecranul de sănătate/avertizare, vezi [brick de mail](bricks#mail-brick).
-+ Wii starts, and you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. Modul de mentenanță este accesibil. Vezi [brick de mail](bricks#mail-brick).
++ Consola pornește și vezi ecranul de sănătate/avertizare, dar odată ce apeși A pentru a începe, ecranul rămâne negru și/sau îngheață și nu continuă. Modul de mentenanță este accesibil. Vezi [brick de mail](bricks#mail-brick).
 + Consola pornește, DAR INSTANT vezi o eroare care seamănă cu browserul web Opera. Vezi [brick de Wii Menu/Opera](bricks#wii-menuopera-brick).
 + Error 003. Vezi [brick Korean Kii/Error 003](bricks#error-003-brick).
 + Nimic nu se întâmplă, ecran negru, DAR BootMii ca boot2 este accesibil. Vezi [brick de IOS](bricks#ios-brick).
@@ -156,7 +156,7 @@ Ecranul afișează mesajul de mai jos dupa ce pornești consola.
 ![](/images/bricks/error-003.png)
 
 #### Cauze
-Când au lansat consolele Wii Coreene, Nintendo a schimbat cheia de criptare pentru aceste unități ca o ultimă încercare de a preveni instalarea homebrew-ului. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. Dacă această verificare are succes, eroarea este declanșată și consola Wii este practic blocată.
+Când au lansat consolele Wii Coreene, Nintendo a schimbat cheia de criptare pentru aceste unități ca o ultimă încercare de a preveni instalarea homebrew-ului. Deși scopul modificării acesteia a eșuat, Nintendo au mai lăsat și o verificare în versiunile ale Meniului de Sistem 4.2/4.3 care determină dacă Cheia Coreeană este prezentă pe o regiune a sistemului care **nu** este Coreean. Dacă această verificare are succes, eroarea este declanșată și consola Wii este practic blocată.
 
 Acest lucru este de obicei o continuare imediată a unei actualizări a sistemului Wii pe un Wii Coreean căruia i-a fost schimbată regiunea.
 
