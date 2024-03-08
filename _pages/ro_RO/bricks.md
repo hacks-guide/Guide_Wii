@@ -161,13 +161,13 @@ Când au lansat consolele Wii Coreene, Nintendo a schimbat cheia de criptare pen
 Acest lucru este de obicei o continuare imediată a unei actualizări a sistemului Wii pe un Wii Coreean căruia i-a fost schimbată regiunea.
 
 #### Soluții
-Deoarece acest brick apare cel mai des în urma unei actualizări a Meniului Wii, Priiloader nu va fi instalat. In the case that Priiloader is present, you can simply fix it by either installing the previous Wii System Menu or removing the key with the KoreanKii homebrew app.
+Deoarece acest brick apare cel mai des în urma unei actualizări a Meniului Wii, Priiloader nu va fi instalat. În cazul în care Priiloader este prezent, poți să-l repari instalând Meniul de Sistem Wii anterior sau eliminând cheia cu aplicația homebrew KoreanKii.
 
 Consolele Wii Coreene de asemenea au fost lansate cu Meniul Wii 3.3, în jurul perioadei de timp când Nintendo [a reparat bug-ul Trucha în boot1](https://wiibrew.org/wiki/3.3#Changes), deci BootMii ca boo2 nu poate fi instalat pe sau folosit pe niciun Wii Coreean.
 
-While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. Asta implică intrarea în [Recovery Mode](recovery-mode), unde un exploit poate fi activat pentru a obține access la Homebrew Channel și pentru a inversa condițiile care au cauzat brick-ul. Note that you must have a drivechip in order for this method to work.
+Deși acest lucru lasă consola Wii într-o situație destul de periculoasă, **încă poate fi reparat**. Asta implică intrarea în [Recovery Mode](recovery-mode), unde un exploit poate fi activat pentru a obține access la Homebrew Channel și pentru a inversa condițiile care au cauzat brick-ul. Ține minte că ai nevoie de un drivechip pentru ca această metodă să funcționeze.
 
-## Brick IOS
+## Brick de IOS
 
 #### Simptome
 Acest brick pare să fie identic cu un brick de nivel adânc datorită eșuării Meniului Wii din cauza unui IOS; însă acesta nu este o corupere completă de nivel adânc a memoriei NAND sau o defecțiune de nivel adânc a componentelor sistemului.
@@ -211,9 +211,9 @@ Acest brick apare când boot1/boot2 sunt defecte sau dacă există defecțiuni d
 #### Soluții
 În primul rând, trebuie să determinăm dacă problema este legată de hardware. În ordinea listată, urmează acești pași:
 
-+ Testează să verifici dacă sistemul Wii încă funcționează (acceptă discuri normal, cititorul de discuri se rotește corect, controlerele Wiimote se conectează) înainte de a încerca următorii pași. If this is the case and only video is not being displayed, you may have a bad video cable, or an exceptionally rare failure of the video port or the GPU.
-+ If on a Wii mini, and if a normal IOS80 was installed, see [Wi-Fi brick](bricks#wi-fi-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi au eșuat, continuă.
-+ Încearcă să intri în [Recovery Mode](recovery-mode) (doar pentru console Wii normale). If the Wii boots into Recovery Mode, see [Wi-Fi brick](bricks#wi-fi-brick) or [IOS brick](bricks#ios-brick). If steps to resolve the Wi-Fi brick or IOS brick failed, proceed.
++ Testează să verifici dacă sistemul Wii încă funcționează (acceptă discuri normal, cititorul de discuri se rotește corect, controlerele Wiimote se conectează) înainte de a încerca următorii pași. Dacă acesta este cazul și doar nu este afișată imaginea video, s-ar putea să ai un cablu video defect sau o defecțiune foarte rară a portului video sau a plăcii video.
++ Dacă ești pe un Wii mini și un IOS80 normal a fost instalat, vezi [brick de Wi-Fi](bricks#wi-fi-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi au eșuat, continuă.
++ Încearcă să intri în [Recovery Mode](recovery-mode) (doar pentru console Wii normale). În cazul în care consola Wii pornește în Recovery Mode, vezi [brick de Wi-Fi](bricks#wi-fi-brick) sau [brick de IOS](bricks#ios-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi sau brick-ului de IOS au eșuat, continuă.
 + Reintrodu unitatea de discuri și încearcă să pornești consola normal. Dacă nu a funcționat, înlocuiește unitatea de discuri. Dacă tot nu a funcționat, continuă.
 + În acest stadiu, problema este ori o corupere de nivel adânc de boot0/boot1, o defecțiune a chipului NAND sau o defecțiune a unei alte componente interne. Consideră cererea în ajutor online sau cumpărarea altui Wii.
 
