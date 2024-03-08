@@ -1,10 +1,10 @@
 ---
-title: "Dumping WADs"
+title: "Extragerea fișierelor WAD"
 ---
 
 {% include toc title="Tabel de Conținut" %}
 
-If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
+Acest ghid îți va arăta cum să extragi fișiere WAD din Memoria de Sistem Wii.
 
 ### Instrumente necesare
 
@@ -15,38 +15,38 @@ If you need help for anything regarding this tutorial, please join [the RiiConne
 
 1. Oprește consola.
 1. Introdu cardul tău SD sau unitatea ta USB în calculator.
-1. Copy the `apps` folder from the Yet Another BlueDump MOD `.zip` to the root of your SD card or USB drive.
+1. Copiază fișierul `apps` din fișierul `.zip` Yet Another BlueDump MOD către rădăcina cardului tău SD sau unității tale USB.
 1. Reintrodu cardul tău SD sau unitatea ta USB în consolă.
 1. Pornește consola.
 1. Rulează Homebrew Channel.
-1. Launch Yet Another BlueDump MOD from the list of homebrew.
-1. Press A.
+1. Rulează Yet Another BlueDump MOD din lista de aplicații homebrew.
+1. Apasă A.
 
     ![](/images/homebrew/DumpWADS/1.png)
 
-1. Select `Installed Channel Titles`.
+1. Alege `Installed Channel Titles`.
 
     ![](/images/homebrew/DumpWADS/2.png)
 
-1. Find the content you want to dump and press the 1 Button.
+1. Găsește conținutul pe care vrei să-l extragi și apasă Butonul 1.
 
     ![](/images/homebrew/DumpWADS/3.png)
 
-1. Select `Backup to WAD`.
+1. Alege `Backup to WAD`.
 
     ![](/images/homebrew/DumpWADS/4.png)
 
-1. At the prompt to `Fakesign the ticket`, select `Yes`.
-1. At the prompt to `Fakesign the TMD`, select `No`.
-1. At the prompt to `Change the output WAD region`, select `No`.
+1. Când apare opțiunea `Fakesign the ticket`, alege `Yes`.
+1. Când apare opțiunea `Fakesign the TMD`, alege `No`.
+1. Când apare opțiunea `Change the output WAD region`, alege `No`.
 
     ![](/images/homebrew/DumpWADS/5.png)
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-This tutorial will explain you how to dump WADs from your Wii System Memory.
+Fișierul WAD a fost acum extras și ar trebui să apară în dosarul specificat în cardul tău SD sau unitatea ta USB.
 
 ![](/images/homebrew/DumpWADS/7.png)
 
-[Click here to view all of our tutorials that you can find on this website!](site-navigation)
+[Apasă aici pentru a reveni la cuprinsul site-ului.](site-navigation)
 {: .notice--info}
