@@ -53,5 +53,5 @@ To check if your Wii has Priiloader, hold the RESET button while turning it on.
 If `Press (1) to continue` does not show up after about 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
 {: .notice--info}
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continuă la Homebrew Channel și Instalarea BootMii](hbc)
 {: .notice--info}
