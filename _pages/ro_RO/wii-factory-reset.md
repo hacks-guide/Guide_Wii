@@ -25,7 +25,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 ### Instrumente necesare
 
-- Un card SD cu cel puțin 512MB de spațiu liber
+- Un card SD cu cel puțin 512MB de spațiu liber (1GB sau mau mult este recomandat)
 - A [NAND backup](bootmii) from the specific system you are trying to flash
 - A Windows computer with an Internet connection
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
