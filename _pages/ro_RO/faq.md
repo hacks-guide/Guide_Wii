@@ -4,7 +4,7 @@ title: "Întrebări Frecvente și Rezolvarea unor probleme"
 
 ## Întrebări Principale
 
-{% include toc title="Tabel de Conținut" %}
+{% include toc title="Table of Contents" %}
 
 ### Cât de riscant este să-mi modific consola?
 Nu este prea riscant să fiu sincer, în funcție de consola ta. Consola Wii are o barieră de intrare mult mai joasă decât alte console, unele exploit-uri necesitând nu mai mult decât un Wii și o conexiune la Internet. Cât timp urmezi sfaturile generale afișate [aici](bricks#brick-prevention), instalezi [BootMii](bootmii) și [Priiloader](priiloader) și gândești logic, ar trebui să fii în regulă!
@@ -30,15 +30,15 @@ Serverul tău DNS primar este incorect sau nu funcționează.<br> Acest lucru se
 
 ##### Pentru Utilizatorii RiiConnect24
 
-If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+Dacă primești această eroare sau dacă vezi Acordului Utilizatorului Nintendo fără logoul RiiConnect24, asta înseamnă că ISP-ul tău (Furnizorul de Internet) sau rețeaua blochează folosirea DNS-ului RC24. Poți seta `Auto-Obtain DNS` la `ON` pentru a rezolva asta. RiiConnect24 va funcționa și fără aceasta. Altfel, poți folosi aplicația [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest).
 
 ##### Pentru cei care nu folosesc RiiConnect24
 
-If you get this error, the DNS server you chose or your internet as a whole is having issues. Try again later.
+Dacă primești această eroare, serverul DNS pe care l-ai ales sau internetul tău în general are probleme. Reîncearcă mai încolo.
 
 #### FORE000006
 
-If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock.
+Dacă primești eroarea FORE000006, ceasul consolei tale Wii este probabil setat incorect. Vezi [asta](wiiconnect24#updating-rtc-clock) pentru instrucțiuni legate de cum să-l setezi cum trebuie. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock.
 
 ### How can I remove parental controls?
 The [mkey generator](https://mkey.eiphax.tech/) can generate the code required to remove parental controls.
