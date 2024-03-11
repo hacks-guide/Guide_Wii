@@ -7,7 +7,7 @@ sitemap: false
 {% capture notice-1 %}
 **Site**
 + [Wii Guide](/)
-+ [Start Here](get-started)
++ [Începe](get-started)
 + [FAQ - Întrebări Frecvente](faq)
 + [Donations](donations)
 {% endcapture %}
@@ -42,7 +42,7 @@ sitemap: false
 + [ModMii](modmii)
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
-+ [Relaunching the HackMii Installer](hackmii)
++ [Redeschiderea Instalatorului HackMii](hackmii)
 + [Updating Wii Menu to v4.3](update)
 + [Recovery Mode](recovery-mode)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
