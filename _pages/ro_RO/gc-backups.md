@@ -38,12 +38,12 @@ Asigură-te că unitatea ta USB este formatată ca FAT32. Nu o formata ca alte t
 
     ![](/images/desktop-apps/GCBM/selectdrive.png)
 
-1. Next, go back to the `Files (Source)` tab, select the game you want to transfer, and then click either `Install Game (1:1)` or `Install Game (Scrub)`.
+1. Apoi, întoarce-te la secțiunea `Files (Source)`, alege jocul pe care vrei să-l transferi iar apoi apasă pe `Install Game (1:1)` sau `Install Game (Scrub)`.
 
     ![](/images/desktop-apps/GCBM/installgame.png)
 
-Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size. For some games this can be a major reduction, for example with Animal Crossing - going from 1.3GB to around 26MB.
+`Install Game (Scrub)` va elimina datele inutile din joc, micșorând dimensiunea fișierului de joc. Pentru unele jocuri aceasta poate fi o reducere majoră, de exemplu Animal Crossing - ajungând de la 1.3GB la aproximativ 26MB.
 {: .notice--info}
 
-[Click here to view all of our tutorials that you can find on this website!](site-navigation)
+[Apasă aici pentru a reveni la cuprinsul site-ului.](site-navigation)
 {: .notice--info}
