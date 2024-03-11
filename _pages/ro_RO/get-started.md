@@ -1,16 +1,16 @@
 ---
-title: "Start Here"
+title: "Începe"
 ---
 
 {% include toc title="Tabel de Conținut" %}
 
-If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
+Este recomandat să ai cel puțin un card SD la îndemână după procesul inițial de modificare pentru că acesta îți va permite să creezi un backup al memoriei NAND folosind BootMii și să instalezi multe diferite tipuri de homebrew.
 {: .notice--info}
 
-Even if your Wii has already been softmodded in the past, following these steps can still ensure that your softmod is up to date.
+Toate exploit-urile listate aici sunt metode diferite de a obține același rezultat final (rularea instalatorului HackMii).
 {: .notice--info}
 
-Acești pași te vor ajută să îți modifici consola Wii, de la statutul din fabrica la BootMii. Înainte să începi acest ghid, te rugăm să te asiguri că versiunea de firmware a consolei tale Wii este cea mai nouă (4.3). Dacă Wii-ul tău este deja modificat dar are instalată o versiune mai veche, urmează [acest](update) ghid pentru a-ți actualiza configurația.
+Acești pași te vor ajută să îți modifici consola Wii, de la statutul din fabrica la BootMii. Înainte să începi acest ghid, te rugăm să te asiguri că versiunea de firmware a consolei tale Wii este cea mai nouă (4.3). În cazul în care consola ta Wii este deja modificată dar are instalată o versiune mai veche, urmează [acest](update) ghid pentru a-ți actualiza configurația.
 
 ### Identifică-ți revizia consolei:
 
@@ -24,5 +24,5 @@ Alege exploit-ul care corespunde consolei și situației tale cel mai bine. Dac�
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Wii/Wii Family Edition | Dacă poți folosi un calculator Windows:<br> Configurare Automată: Continuă la [ModMii](modmii)<br> Dacă poți folosi un card SD:<br> Configurarea Manuală: Continuă la [Wilbrand](wilbrand)<br> Dacă nu poți folosi un card SD:<br> Configurarea Manuală: Contiună la [str2hax](str2hax)<br> |
 | Wii mini               | Continuă la [Bluebomb](bluebomb)                                                                                                                                                                                                                                                                                                |
-| Wii U (vWii)           | If you have not modded your Wii U yet:<br> Proceed to [Introduction (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/)<br> If your Wii U is already modded:<br> Proceed to [vWii Modding (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/vwii/sd-preparation)                                                    |
-| Dolphin Emulator       | Continuă la [Homebrew Channel pe Dolphin](homebrew-dolphin)                                                                                                                                                                                                                                                                     |
+| Wii U (vWii)           | Dacă nu ți-ai modificat consola Wii U încă:<br> Continuă la [Introducere (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/)<br> Dacă sistemul tău Wii U este deja modificat:<br> Continuă la [Modificarea vWii (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/vwii/sd-preparation)                              |
+| Emulatorul Dolphin     | Continuă la [Homebrew Channel pe Dolphin](homebrew-dolphin)                                                                                                                                                                                                                                                                     |
