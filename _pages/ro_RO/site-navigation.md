@@ -55,7 +55,7 @@ sitemap: false
 + [Creating Wii Game Shortcuts](wiigsc)
 + [How to dump Channels (WADs)](dump-wads)
 + [How to dump GameCube/Wii Games](dump-games)
-+ [Managing GameCube Backups](gc-backups)
++ [Gestionarea Backup-urilor GameCube](gc-backups)
 + [Managing GameCube Save Files](gcsaves)
 + [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
