@@ -75,7 +75,7 @@ Dacă primești o eroare de citire nerecuperată, asigură-te că discul pe care
 
     ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
 
-Continuă la [Configurarea Backup-urilor Wii](wii-backups) pentru a combina fișierele PART rezultate și pentru a configura jocurile extrase.
+Continuă la [Gestionarea Backup-urilor Wii](wii-backups) pentru a combina fișierele PART rezultate și pentru a configura jocurile extrase.
 {: .notice--info}
 
 ### Extragerea unui Disc GameCube
@@ -93,5 +93,5 @@ Continuă la [Configurarea Backup-urilor Wii](wii-backups) pentru a combina fiș
 
     ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
-Continuă la [Configurarea Backup-urilor GameCube](gc-backups) pentru a micșora mărimea fișierului rezultat și pentru a configura jocurile extrase.
+Continuă la [Gestionarea Backup-urilor GameCube](gc-backups) pentru a micșora mărimea fișierului rezultat și pentru a configura jocurile extrase.
 {: .notice--info}
