@@ -7,7 +7,7 @@ title: "Open Shop Channel"
 Per il supporto (in inglese) per l'Open Shop Channel, entra nel [server Discord di Open Shop Channel](https://discord.gg/osc).
 {: .notice--primary}
 
-L'[Open Shop Channel](https://oscwii.org/) è un repository di applicazioni homebrew creato da dhtdht020 ed è attualmente il modo preferito per scaricare homebrew. Non solo è più conveniente grazie all'inclusione degli homebrew più comuni in un unico luogo, ma è anche più sicuro poiché le app vengono aggiunte al reposiotry manualmente. Puoi vedere da dove viene ottenuta un'app controllando il suo [manifest](https://github.com/OpenShopChannel/Apps/tree/master/contents).
+L'[Open Shop Channel](https://oscwii.org/) è un repository di applicazioni homebrew creato da dhtdht020 ed è attualmente il modo preferito per scaricare homebrew.
 
 There are two methods to use the Open Shop Channel: on your Wii through Homebrew Browser, or outside of your Wii through OSCDL.
 
