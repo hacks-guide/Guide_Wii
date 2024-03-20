@@ -4,7 +4,13 @@ title: "安裝 cIOS"
 
 {% include toc title="條目內容" %}
 
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
 While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. You can now use homebrew such as [USB Loader GX](usbloadergx) and [WiiFlow](wiiflow). You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
 
 如果您有 Wii mini，請安裝[此 cIOS](cios-mini)。 Wii mini 上無法正常安裝任何其他 cIOS。
 {: .notice--warning}
@@ -21,10 +27,6 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 ### Instructions
 
 #### Section I - Downloading
-
-However, If you encounter any errors like `tcp_read timeout` and `net_gethostbyname failed:`, this will allow the Wii to skip the downloading step.
-{: .notice--warning}
-{: .notice--warning}
 
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
