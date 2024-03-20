@@ -4,7 +4,13 @@ title: "cIOS"
 
 {% include toc title="Table of Contents" %}
 
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
 While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. 你现在可以使用一些自制软件，例如 [USB Loader GX](usbloadergx) 和 [WiiFlow](wiiflow)。 You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
 
 如果您有 Wii mini，请安装[这个 cIOS](cios-mini)。 尝试在 Wii mini 上安装其它任何 cIOS 都不会工作。
 {: .notice--warning}
@@ -21,9 +27,6 @@ While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by
 ### Instructions
 
 #### Section I - Downloading
-
-如果您的 Wii 已连接到互联网，您可以跳过此部分。
-{: .notice--warning}
 
 如果您不使用 Windows，您可以下载 & 运行[这个脚本](/assets/files/d2x_offline_ios.sh)，它会为您下载 WAD 文件。
 {: .notice--info}
