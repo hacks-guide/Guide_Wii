@@ -4,7 +4,13 @@ title: "cIOS"
 
 {% include toc title="목차" %}
 
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
 While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. 이제 [USB Loader GX](usbloadergx) 및 [WiiFlow](wiiflow)와 같은 홈브류를 사용할 수 있습니다. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
 
 Wii 미니가 있다면, [이 cIOS](cios-mini)를 대신 설치합니다. Wii 미니에 다른 cIOS를 설치하려고 시도하면 작동하지 않습니다.
 {: .notice--warning}
@@ -21,9 +27,6 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 ### 진행 방법
 
 #### 섹션 I - 다운로드
-
-If your Wii has an Internet connection, you may skip this section.
-{: .notice--warning}
 
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
