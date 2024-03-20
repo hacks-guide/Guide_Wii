@@ -4,13 +4,13 @@ title: "制作人员"
 
 {% include toc title="Table of Contents" %}
 
+BlueBomb是一种利用Wii和Wii Mini的蓝牙库中漏洞的破解程序。 尽管BlueBomb是唯一适用于Wii mini的漏洞，但它也可以在原版Wii上运行。 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+
 这个工具会下载需要的文件，然后会要求你的Wii主机的一些信息。
 {: .notice--warning}
 
 如果您需要有关本教程的任何帮助，请加入[Wii mini 破解 Discord 服务器](https://discord.gg/6ryxnkS)（推荐）
 {: .notice--info}
-
-BlueBomb是一种利用Wii和Wii Mini的蓝牙库中漏洞的破解程序。 尽管BlueBomb是唯一适用于Wii mini的漏洞，但它也可以在原版Wii上运行。 此漏洞还可以让某些砖机恢复，如 banner 砖。
 
 If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
 {: .notice--info}
