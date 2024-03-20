@@ -4,13 +4,13 @@ title: "捐赠"
 
 {% include toc title="Table of Contents" %}
 
+LetterBomb是Wii的一种漏洞，它是使用Wii留言板触发的。
+
 For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
 {: .notice--info}
 
 Do NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Use your own!
 {: .notice--warning}
-
-LetterBomb是Wii的一种漏洞，它是使用Wii留言板触发的。
 
 ### Requirements
 * 格式化为 FAT32/MS-DOS 的 SD 卡
