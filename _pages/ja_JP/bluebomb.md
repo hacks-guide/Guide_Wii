@@ -4,7 +4,15 @@ title: "BlueBomb"
 
 {% include toc title="Table of Contents" %}
 
-BlueBombはWiiやWii MiniのBluetooth機能のセキュリティホールを利用した改造方法です。 Wii Miniで唯一使用可能な改造方法ですが、Wiiでも問題無く使えます。 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Wii Miniで唯一使用可能な改造方法ですが、Wiiでも問題無く使えます。
+
+This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
 
 Wii Miniをブリックさせる可能性が高いため、YouTubeなどにある動画を使用して改造しないことを推奨します。
 {: .notice--warning}
