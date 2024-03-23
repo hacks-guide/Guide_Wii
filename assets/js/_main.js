@@ -275,7 +275,6 @@ $(document).ready(function() {
     }
     unhide = unhide.concat(route[device][method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
-      unhide.push("key-information")
       unhide.push("get-started");
       var ol = $('.sidebar.sticky .nav__list .nav__items ol');
       for (var i = 0; i < unhide.length; i++){
