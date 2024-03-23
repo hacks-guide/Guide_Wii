@@ -180,11 +180,11 @@ $(document).ready(function() {
 
 /* hacks-guide change start: add progress table */
   var sidebar_shown = true;
-  var sidebar_hidden_pages = ["404", "bootmiirecover", "bricks", "cios", "donations", "dump-games", "dump-wads", "faq", 
+  var sidebar_hidden_pages = ["404", "bootmiirecover", "bricks", "cios", "donations", "dump-games", "dump-wads", "faq",
                               "gcbackupmanager", "gcsaves", "hackmii", "homebrew-dolphin", "modmii", "nintendont",
-                              "priiloader-usage", "recovery-mode", "riiconnect24", "riivolution", "rssmii",
-                              "site-navigation", "syscheck", "themes-vwii", "themes", "update", "usb-loaders", 
-                              "wiibackupmanager", "wiiconnect24", "wiigsc", "wiimmfi", "yawmme"];
+                              "priiloader-usage", "recovery-mode", "riiconnect24", "riivolution", "site-navigation",
+                              "syscheck", "themes-vwii", "themes", "update", "usb-loaders", "wiibackupmanager",
+                              "wiiconnect24", "wiigsc", "wiimmfi", "yawmme"];
 
   for(var i = 0; i < sidebar_hidden_pages.length; i++){
     if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {

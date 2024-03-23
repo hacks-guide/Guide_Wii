@@ -62,7 +62,6 @@ sitemap: false
 + [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
-+ [RSSMii](rssmii)
 + [Transferring Save Games](transfer-saves)
 + [USB Loaders](wii-loaders)
 + [Using SysCheck](syscheck)
