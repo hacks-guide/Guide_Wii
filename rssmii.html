@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Installing RSSMii - Wii Hacks Guide</title>
+<!-- begin _includes/seo.html --><title>Redirecting… - Wii Hacks Guide</title>
 <meta name="description" content="The complete guide to modding your Wii (and Wii mini)">
 
 
@@ -20,7 +20,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Wii Hacks Guide">
-<meta property="og:title" content="Installing RSSMii">
+<meta property="og:title" content="Redirecting…">
 <meta property="og:url" content="https://wii.hacks.guide/rssmii.html">
 
 
@@ -324,7 +324,7 @@ window.cookieconsent.initialise({
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Installing RSSMii">
+    <meta itemprop="headline" content="Redirecting…">
     
     
     
@@ -332,7 +332,7 @@ window.cookieconsent.initialise({
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Installing RSSMii
+          <h1 id="page-title" class="page__title" itemprop="headline">Redirecting…
 </h1>
           
 
@@ -356,97 +356,10 @@ window.cookieconsent.initialise({
         <hr>
 <!-- hacks-guide change end -->
 
-        <aside class="sidebar__right">
-<nav class="toc">
-    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
-<ul class="toc__menu" id="markdown-toc">
-  <li><a href="#requirements" id="markdown-toc-requirements">Requirements</a></li>
-  <li><a href="#instructions" id="markdown-toc-instructions">Instructions</a>    <ul>
-      <li><a href="#section-i---downloadinginstalling" id="markdown-toc-section-i---downloadinginstalling">Section I - Downloading/Installing</a></li>
-    </ul>
-  </li>
-  <li><a href="#removal" id="markdown-toc-removal">Removal</a>    <ul>
-      <li><a href="#what-you-need" id="markdown-toc-what-you-need">What you need</a></li>
-      <li><a href="#instructions-1" id="markdown-toc-instructions-1">Instructions</a></li>
-    </ul>
-  </li>
-</ul>
+        <meta http-equiv="refresh" content="0; URL=https://wiki.hacks.guide/wiki/Wii:RSSMii" />
 
-  </nav>
-</aside>
+<link rel="canonical" href="https://wiki.hacks.guide/wiki/Wii:RSSMii" />
 
-<p>This guide provides instructions on installing RSSMii, a homebrew app that parses RSS feeds from your SD card and sends them to your Wii Menu.</p>
-
-<p class="notice--danger">Due to the nature of RSS feeds and the large amount of mail they can generate, this app has a larger than zero chance of <a href="bricks#mail-brick">bricking</a> your Wii. Consider using News Channel from a WiiConnect24 revival provider instead, and request an addition to their service should you find out that your intended RSS feed isn’t being provided. If you decide to use RSSMii anyway, limit the number of feeds you subscribe to.</p>
-
-<p class="notice--info">If you’re not receiving updates after a few days, you might need to subscribe to the RSS feeds again. Launch RSSMii from the Homebrew Channel again and it should create new subscriptions.</p>
-
-<h3 id="requirements">Requirements</h3>
-
-<ul>
-  <li>An SD card</li>
-  <li><a href="https://oscwii.org/library/app/rssmii">RSSMii</a></li>
-</ul>
-
-<h3 id="instructions">Instructions</h3>
-<h4 id="section-i---downloadinginstalling">Section I - Downloading/Installing</h4>
-
-<ol>
-  <li>Extract RSSMii and put it in the <code class="language-plaintext highlighter-rouge">apps</code> folder on your SD card.</li>
-  <li>Create a <code class="language-plaintext highlighter-rouge">feeds.xml</code> on the root of the SD card so the app can parse your feeds.</li>
-</ol>
-
-<ul>
-  <li>
-    <p>If you’re using Windows, you can use <a href="https://github.com/RiiConnect24/rssmii/releases/download/v1.4.1/RSSFeedsCreator.bat">RSS Feeds Creator</a>. It will automatically create a <code class="language-plaintext highlighter-rouge">feeds.xml</code> file and will copy it to your SD card.</p>
-  </li>
-  <li>
-    <p>If you don’t have a Windows computer, use this template to make the <code class="language-plaintext highlighter-rouge">feeds.xml</code>.</p>
-
-    <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="cp">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span>
-  <span class="nt">&lt;rss&gt;</span>
-      <span class="nt">&lt;feed</span> <span class="na">name=</span><span class="s">"Example-Feed"</span><span class="nt">&gt;</span><span class="cp">&lt;![CDATA[http://example.com/rss-feed]]&gt;</span><span class="nt">&lt;/feed&gt;</span>
-      <span class="nt">&lt;feed</span> <span class="na">name=</span><span class="s">"One more Example-Feed!"</span><span class="nt">&gt;</span><span class="cp">&lt;![CDATA[http://example.com/another_rss-feed]]&gt;</span><span class="nt">&lt;/feed&gt;</span>
-  <span class="nt">&lt;/rss&gt;</span>
-</code></pre></div>    </div>
-
-    <p>Replace the “name” portion with the title you want to put for the feed. Try to limit its length where possible. Then, replace the link portion with the link to the RSS feed. You can put as many feeds as you want. Don’t delete the “CDATA” part.</p>
-
-    <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="cp">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span>
-  <span class="nt">&lt;rss&gt;</span>
-      <span class="nt">&lt;feed</span> <span class="na">name=</span><span class="s">"RiiConnect24 Medium"</span><span class="nt">&gt;</span><span class="cp">&lt;![CDATA[https://medium.com/feed/riiconnect24]]&gt;</span><span class="nt">&lt;/feed&gt;</span>
-      <span class="nt">&lt;feed</span> <span class="na">name=</span><span class="s">"RiiConnect24 Twitter"</span><span class="nt">&gt;</span><span class="cp">&lt;![CDATA[https://nitter.net/riiconnect24/rss]]&gt;</span><span class="nt">&lt;/feed&gt;</span>
-  <span class="nt">&lt;/rss&gt;</span>
-</code></pre></div>    </div>
-
-    <p>Save the feed you made to the root of your SD Card.</p>
-  </li>
-</ul>
-
-<ol>
-  <li>Launch RSSMii from the Homebrew Channel.</li>
-  <li>Press A to confirm you want to subscribe to the feeds. Ignore the error about ES_GetTitleID, everything is fine.</li>
-  <li>Once everything is done, press HOME to go back to the Homebrew Channel. You should soon get RSS feed updates on your Wii, enjoy!</li>
-</ol>
-
-<h3 id="removal">Removal</h3>
-
-<h4 id="what-you-need">What you need</h4>
-
-<ul>
-  <li>An SD card</li>
-  <li><a href="https://oscwii.org/library/app/rssmii-remover">RSSMii Remover</a></li>
-</ul>
-
-<h4 id="instructions-1">Instructions</h4>
-
-<ol>
-  <li>Extract RSSMii Remover and put it in the <code class="language-plaintext highlighter-rouge">apps</code> folder on your SD card.</li>
-  <li>Delete the <code class="language-plaintext highlighter-rouge">feeds.xml</code> file on the root of your SD card.</li>
-  <li>Launch RSSMii Remover from the Homebrew Channel. It will remove your subscriptions to the RSS feeds.</li>
-</ol>
-
-<p class="notice--info"><a href="site-navigation">Click here to go back to the site index.</a></p>
 
         
       </section>
