@@ -4,7 +4,15 @@ title: "使用 BlueBomb 漏洞"
 
 {% include toc title="條目內容" %}
 
-BlueBomb 是一種利用 Wii 和 Wii mini 藍牙函式庫中缺陷的漏洞。 雖然 Wii Mini 只能夠使用 BlueBomb 漏洞，本漏洞也能夠適用於一般 Wii 型號。 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. 雖然 Wii Mini 只能夠使用 BlueBomb 漏洞，本漏洞也能夠適用於一般 Wii 型號。
+
+This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
 
 由於 Wii Mini **變磚的風險較高**，**強烈建議**您**不要使用任何影片教學**進行與其主機相關的改機工作。
 {: .notice--warning}
