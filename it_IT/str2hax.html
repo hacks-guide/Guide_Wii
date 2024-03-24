@@ -362,7 +362,6 @@ window.cookieconsent.initialise({
 <ul class="toc__menu" id="markdown-toc">
   <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
   <li><a href="#istruzioni" id="markdown-toc-istruzioni">Istruzioni</a>    <ul>
-      <li><a href="#problemi-comuni" id="markdown-toc-problemi-comuni">Problemi comuni</a></li>
       <li><a href="#sezione-i---connessione" id="markdown-toc-sezione-i---connessione">Sezione I - Connessione</a></li>
       <li><a href="#sezione-ii---attivazione-dellexploit" id="markdown-toc-sezione-ii---attivazione-dellexploit">Sezione II - Attivazione dell’Exploit</a></li>
     </ul>
@@ -376,6 +375,8 @@ window.cookieconsent.initialise({
 
 <p>Str2hax è un exploit che viene eseguito caricando l’EULA (Accordo di Licenza con l’Utente Finale) della console Wii. Richiede solamente una connessione a Internet che permette di cambiare i DNS sulla tua Wii.</p>
 
+<p class="notice--warning">Se hai installato una mod come CTGP Revolution o Project+, str2hax potrebbe caricare quella al posto dell’exploit. Se succede, riavvia la console Wii, rimuovi la scheda SD e riprova.</p>
+
 <h3 id="requisiti">Requisiti</h3>
 
 <ul>
@@ -383,14 +384,6 @@ window.cookieconsent.initialise({
 </ul>
 
 <h3 id="istruzioni">Istruzioni</h3>
-
-<h4 id="problemi-comuni">Problemi comuni</h4>
-
-<p class="notice--warning">Se ottieni l’EULA normale, il tuo ISP blocca l’uso di DNS personalizzati. Per favore <a href="get-started">utilizza un altro exploit</a>.</p>
-
-<p class="notice--warning">Se l’Hackmii Installer non viene caricato dopo più di 2 minuti, o ricevi un errore come <code class="language-plaintext highlighter-rouge">Hanging.</code> oppure <code class="language-plaintext highlighter-rouge">ERROR! if_config (ret = ...)</code>, riavvia la console Wii e riprova.</p>
-
-<p class="notice--warning">Se hai installato una mod come CTGP Revolution o Project+, str2hax potrebbe caricare quella al posto dell’exploit. Se succede, riavvia la console Wii, rimuovi la scheda SD e riprova.</p>
 
 <h4 id="sezione-i---connessione">Sezione I - Connessione</h4>
 
@@ -465,12 +458,20 @@ window.cookieconsent.initialise({
     </ul>
 
     <p><img src="/images/exploits/str2hax/EULA.png" alt="" /></p>
+
+    <ul>
+      <li>Se ottieni l’EULA normale, il tuo ISP blocca l’uso di DNS personalizzati. Try another connection, or <a href="get-started">use another exploit</a>.</li>
+    </ul>
   </li>
   <li>Dai all’exploit 1-2 minuti per scaricare i file necessari (e non premere <code class="language-plaintext highlighter-rouge">ACCETTO</code>/<code class="language-plaintext highlighter-rouge">NON ACCETTO</code>).</li>
   <li>
     <p>Se l’exploit è andato a buon fine, ti ritroverai dentro l’HackMii Installer.</p>
 
     <p><img src="/images/hackmii/scam.png" alt="" /></p>
+
+    <ul>
+      <li>Se l’Hackmii Installer non viene caricato dopo più di 2 minuti, o ricevi un errore come <code class="language-plaintext highlighter-rouge">Hanging.</code> oppure <code class="language-plaintext highlighter-rouge">ERROR! if_config (ret = ...)</code>, riavvia la console Wii e riprova.</li>
+    </ul>
   </li>
 </ol>
 

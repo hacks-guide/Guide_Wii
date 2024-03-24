@@ -360,17 +360,34 @@ window.cookieconsent.initialise({
 <nav class="toc">
     <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
 <ul class="toc__menu" id="markdown-toc">
-  <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
-  <li><a href="#preparazione" id="markdown-toc-preparazione">Preparazione</a></li>
-  <li><a href="#metodo-i---recovery-menu-a-smash-stack" id="markdown-toc-metodo-i---recovery-menu-a-smash-stack">Metodo I - Recovery Menu a Smash Stack</a></li>
-  <li><a href="#metodo-ii---recovery-menu-a-exploit-dati-di-salvataggio" id="markdown-toc-metodo-ii---recovery-menu-a-exploit-dati-di-salvataggio">Metodo II - Recovery Menu a exploit dati di salvataggio</a></li>
-  <li><a href="#metodo-iii---recovery-menu-a-bluebomb" id="markdown-toc-metodo-iii---recovery-menu-a-bluebomb">Metodo III - Recovery Menu a Bluebomb</a></li>
+  <li><a href="#how-recovery-mode-works" id="markdown-toc-how-recovery-mode-works">How Recovery Mode Works</a></li>
+  <li><a href="#accessing-and-using-recovery-mode" id="markdown-toc-accessing-and-using-recovery-mode">Accessing and Using Recovery Mode</a>    <ul>
+      <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
+      <li><a href="#preparazione" id="markdown-toc-preparazione">Preparazione</a></li>
+      <li><a href="#metodo-i---recovery-menu-a-smash-stack" id="markdown-toc-metodo-i---recovery-menu-a-smash-stack">Metodo I - Recovery Menu a Smash Stack</a></li>
+      <li><a href="#metodo-ii---recovery-menu-a-exploit-dati-di-salvataggio" id="markdown-toc-metodo-ii---recovery-menu-a-exploit-dati-di-salvataggio">Metodo II - Recovery Menu a exploit dati di salvataggio</a></li>
+      <li><a href="#metodo-iii---recovery-menu-a-bluebomb" id="markdown-toc-metodo-iii---recovery-menu-a-bluebomb">Metodo III - Recovery Menu a Bluebomb</a></li>
+    </ul>
+  </li>
 </ul>
 
   </nav>
 </aside>
 
-<p>La Recovery Mode è l’ultima risorsa per recuperare il tuo Wii da un brick prima di passare all’hard-modding e alla programmazione manuale della NAND. Questa modalità era usata dagli impiegati di Nintendo in fabbrica attraverso l’utilizzo di un dongle speciale, ma l’input necessario per accedervi è facilmente riproducibile con un controller GameCube. Essenzialmente, la Recovery Mode mette il Menu Wii in uno stato in cui alcuni programmi, inclusi dei giochi, possono essere eseguiti da un disco. Questa guida ti istruirà su come ripristinare una console brickate (specialmente il Korean Kii/Errore 003).</p>
+<p>La Recovery Mode è l’ultima risorsa per recuperare il tuo Wii da un brick prima di passare all’hard-modding e alla programmazione manuale della NAND. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc.</p>
+
+<h3 id="how-recovery-mode-works">How Recovery Mode Works</h3>
+
+<p>On System Menu versions 2.1 and upwards, booting into Recovery Mode will yield a verison number display on the bottom right of the screen, and will idle on the screen while waiting for a disc to be inserted. By default, Recovery Mode only boots two types of discs:</p>
+
+<ul>
+  <li>A disc whose title ID starts with a number like 0 or 1 - an autoboot disc. All retail game discs are <strong>not</strong> an autoboot disc and instead start with a letter.</li>
+  <li>A retail game disc that has a valid update partition whose version is higher than the one on the NAND.</li>
+</ul>
+
+<p>This check can be bypassed using Priiloader, which allows Recovery Mode to boot any disc that is inserted into the Wii. Unfortunately, if you can already access Priiloader, then there is no need to use Recovery Mode in the first place as you can fix your brick by booting homebrew apps in it. With this said, if you are in a situation where the only accessible option is using Recovery Mode, you must have a drivechip on hand to bypass the disc check. If are able to bypass this check one way or another, you may follow the instructions below to start from Recovery Mode and get to the HackMii installer.</p>
+
+<h3 id="accessing-and-using-recovery-mode">Accessing and Using Recovery Mode</h3>
 
 <h4 id="requisiti">Requisiti</h4>
 
@@ -383,11 +400,6 @@ window.cookieconsent.initialise({
       <li>Qualsiasi gioco e l’accesso all’exploit <a href="bluebomb">Bluebomb</a></li>
     </ul>
   </li>
-  <li>Se il Diagnostic Disc Check non è stato precedentemente rimosso con Priiloader e se non hai un chip dell’unità è a portata di mano:
-    <ul>
-      <li>Super Smash Bros. Brawl (<a href="legacy-exploits#smash-stack">Smash Stack</a>)</li>
-    </ul>
-  </li>
   <li>Una revisione di Wii originale (i modelli Family Edition di Wii non si possono usare a causa della mancanza delle porte GameCube - altrimenti le devi saldare)</li>
   <li>Un PC Windows/macOS/Linux con una connessione a Internet</li>
   <li>Una scheda SD formattata come FAT32</li>
@@ -397,16 +409,29 @@ window.cookieconsent.initialise({
 
 <p class="notice--warning">Per far in modo che vengano premuti tutti e quattro i pulsanti della croce direzionale di un controller GameCube, potrebbe essere necessario smontarlo.</p>
 
-<p>Per cominciare, verifica che il tuo Wii può avviarsi in Recovery Mode <em>in alcun modo</em>. Questo significa prendere un controller GameCube, collegarlo alla porta del giocatore 4 su un Wii e premere simultaneamente tutti e quattro i pulsanti della croce direzionale in fase di avvio. Se tutto va bene, dovresti vedere una schermata simile a quella in alto. Tieni a mente che se ti ritrovi con il Menu di sistema alla versione 2.0 o una precedente, non vedrai alcun numero di versione su schermo e non potrai avviare giochi dai dischi.</p>
+<p>Per cominciare, verifica che il tuo Wii può avviarsi in Recovery Mode <em>in alcun modo</em>. Questo significa prendere un controller GameCube, collegarlo alla porta del giocatore 4 su un Wii e premere simultaneamente tutti e quattro i pulsanti della croce direzionale in fase di avvio. Se tutto va bene, dovresti vedere una schermata simile a quella in alto. As stated above, if you are on a System Menu version on 2.0 or prior, you will not see a version number display at all and you will not be able to boot from discs.</p>
 
 <h4 id="metodo-i---recovery-menu-a-smash-stack">Metodo I - Recovery Menu a Smash Stack</h4>
 
+<ol>
+  <li>If you have a Super Smash Bros. Brawl game disc, you can use <a href="legacy-exploits#smash-stack">Smash Stack</a> to load the HackMii installer off of your SD card.</li>
+  <li>Boot into Recovery Mode, and insert the Super Smash Bros. Brawl game disc. It should boot at this point.</li>
+  <li>Follow the instructions for the exploit on Wiibrew.</li>
+</ol>
+
 <h4 id="metodo-ii---recovery-menu-a-exploit-dati-di-salvataggio">Metodo II - Recovery Menu a exploit dati di salvataggio</h4>
+
+<ol>
+  <li>If you already have a save game on your Wii for a save game exploit listed in <a href="legacy-exploits">Legacy Exploits</a>, you may use a respective exploit in order to load the HackMii installer.</li>
+  <li>Boot into Recovery Mode, and insert your respective game disc. It should boot at this point.</li>
+  <li>Follow the instructions for the exploit on Wiibrew.</li>
+</ol>
 
 <h4 id="metodo-iii---recovery-menu-a-bluebomb">Metodo III - Recovery Menu a Bluebomb</h4>
 
-<hr />
-<p>In Lavorazione</p>
+<p>You can also use Bluebomb as a means of recovery. At this time, we are still drawing up instructions for this section.</p>
+
+<p class="notice--info">At this point, you should be able to install the Homebrew Channel and access homebrew on your SD card that can be used to revert your brick.</p>
 
 <p class="notice--info"><a href="bricks">Ritorna ai brick</a></p>
 
