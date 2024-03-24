@@ -27,6 +27,7 @@ Here are some common examples of what homebrew can do for your Wii:
 + 使用 [Riivolution](riivolution) 对游戏光盘内容进行修改（允许您加载游戏修改）。
 + 使用 [MyMenuify](themes) 安装 Wii 菜单主题。
 + 使用 [CleanRip](/dump-games) 备份光盘，使用 [Yet Another BlueDump MOD](dump-wads) 备份已安装的游戏和标题。
++ Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
 + 安装 [WiiFlow](wiiflow) 或 [USB Loader GX](usbloadergx) 从 U 盘启动所有您喜爱的游戏。
 + 使用 [GCMM](gcsaves) 备份和恢复您的 GameCube 存档。
 + 使用 [RiiConnect24](riiconnect24)、[Wiimmfi](wiimmfi) 和 [WiiLink](wiilink) 恢复已停止的在线服务。

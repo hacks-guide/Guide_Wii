@@ -27,6 +27,7 @@ Get started by [choosing your exploit](get-started)!
 + [Patch game disc contents](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
 + Install [themes](themes) on the Wii Menu and in commonly used homebrew apps
 + Back up your [discs](dump-games) and [other installed titles](dump-wads)
++ Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
 + Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
 + Back up and restore your [Wii](wii-saves) and [GameCube](gcsaves) save files
 + Restore online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
