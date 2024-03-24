@@ -4,10 +4,7 @@ title: "Wilbrand"
 
 {% include toc title="목차" %}
 
-Wilbrand는 LetterBomb과 마찬가지로 Wii 메시지 게시판을 사용하여 트리거되는 Wii용 취약점 공격입니다.
-
-LetterBomb과 달리 Wilbrand는 Wii 메뉴 버전 3.0까지 지원합니다.
-{: .notice--info}
+Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board. It is compatible with Wii menu versions 3.0 through 4.3 in all regions.
 
 There are two methods listed on this page used to create the proper Wilbrand exploit. Wilbrand Web is recommended for its ease of use.
 {: .notice--info}
@@ -58,7 +55,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     ![](/images/exploits/wilbrand/msgboard.png)
 
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
-    + If this didn't work for you, [try another exploit](get-started) or try [Wilbrand CLI](#wilbrand-cli).
+    + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started).
 
 [홈브류 채널과 BootMii 설치로 계속하기](hbc)
 {: .notice--info}

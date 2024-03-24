@@ -1,8 +1,8 @@
 ---
-title: "Restaurare BootMii (RestoreMii)"
+title: "Restaurare BootMii"
 ---
 
-Dacă reușești să intri în BootMii, intră în schimb în Homebrew Channel și încearcă să [identifici ce a cauzat brick-ul](bricks) și să îl inversezi.
+{% include toc title="Table of Contents" %}
 
 Acest ghid îți va oferi instrucțiuni despre cum să restaurezi un backup a memoriei NAND folosind BootMii. Te rugăm să reții că aceasta este de obicei o <strong>ultimă metodă</strong> de a repara un brick dacă ai unul, iar dacă nu îți rezolvă problema, va trebui să soliciți ajutor. Dacă încă poți să intri în BootMii, încearcă să intri în schimb în Homebrew Channel pentru a încerca să [identifici și să repari brick-ul](bricks) folosind alte metode.
 

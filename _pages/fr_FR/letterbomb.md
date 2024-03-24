@@ -4,13 +4,13 @@ title: "Donations"
 
 {% include toc title="Table of Contents" %}
 
+LetterBomb est un exploit pour la Wii qui est déclenché à l'aide du Bureau Wii.
+
 Pour des instructions sur la façon de formater correctement votre carte SD, veuillez consulter [ce guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). Il est fortement recommandé de vérifier en raison de problèmes de formatage en FAT32.
 {: .notice--info}
 
 N'utilisez PAS les adresses MAC d'exemple affichées dans ce guide, car elles provoqueront simplement une erreur sur le site web de HackMii. Utilisez la vôtre !
 {: .notice--warning}
-
-LetterBomb est un exploit pour la Wii qui est déclenché à l'aide du Bureau Wii.
 
 ### Prérequis
 * An SD card formatted to FAT32/MS-DOS

@@ -44,7 +44,8 @@ sitemap: false
 + [Priiloader](priiloader)
 + [HackMiiインストーラの再起動](hackmii)
 + [Wiiメニューをv4.3に更新する](update)
-+ [Restoring the Wii NAND to Stock](wii-factory-reset)
++ [Recovery Mode](recovery-mode)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wii Mod Lite](wnd-mini)
 + YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
@@ -59,7 +60,6 @@ sitemap: false
 + [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [推奨されるホームブルー](recommended-homebrew)
-+ [Installing RSSMii](rssmii)
 + [Transferring Save Games](transfer-saves)
 + [USB Loader GX](wii-loaders)
 + [Performing a SysCheck](syscheck)

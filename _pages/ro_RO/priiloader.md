@@ -37,7 +37,7 @@ If you are using a vWii:
 
 <div class="notice--danger">{{ vwii-notes | markdownify }}</div>
 
-#### What you need
+#### Secțiunea I - Pregătire
 
 1. Download the Priiloader installer and LoadPriiloader apps.
 1. Extract both apps to the root of your SD card or USB drive.

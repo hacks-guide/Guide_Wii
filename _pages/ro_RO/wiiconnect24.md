@@ -21,7 +21,7 @@ There is a patcher that ships both of these services together as one - meaning y
 
 #### What you need
 + A working Internet connection on your Wii
-+ The Homebrew Channel
++ Homebrew Channel
 + Un card SD sau o unitate USB
 + [sntp](https://oscwii.org/library/app/sntp)
 

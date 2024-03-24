@@ -9,22 +9,14 @@ Ten en cuenta que si tu ISP (proveedor de servicios de internet) o entorno de re
 
 str2hax es un exploit para la Wii que se activa mediante el Contrato de Uso de los Servicios de Red de Wii. Lo único que se requiere es una conexión a internet que te permita cambiar el servidor DNS en los ajustes de la consola.
 
+If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
+{: .notice--warning}
+
 ### Requisitos
 
 * Una Wii con conexión a internet
 
 ### Instrucciones
-
-#### Problemas comunes
-
-Si en lugar de la página del exploit se muestra el Contrato de Uso de los Servicios de Red de Wii, es probable que tu ISP no permita usar DNS alternativos. Por favor [utiliza otro exploit](get-started).
-{: .notice--warning}
-
-En caso de que hayas instalado alguna modificación, como CTGP Revolution o Project+, str2hax podría intentar cargar eso en lugar de HackMii Installer. Si esto sucede, reinicia tu Wii y expulsa la tarjeta SD, luego ejecuta el exploit nuevamente.
-{: .notice--warning}
-
-If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
-{: .notice--warning}
 
 #### Section I - Connecting
 
@@ -85,10 +77,14 @@ Este exploit requiere que cambies tu configuración de DNS para poder conectarte
 
     ![](/images/exploits/str2hax/EULA.png)
 
+    + Si en lugar de la página del exploit se muestra el Contrato de Uso de los Servicios de Red de Wii, es probable que tu ISP no permita usar DNS alternativos. Try another connection, or [use another exploit](get-started).
+
 1. Espera de uno a dos minutos mientras el exploit se descarga. Por favor no elijas `ACEPTO` o `NO ACEPTO`.
 1. Después de unos segundos, la consola debería de iniciar el HackMii Installer.
 
     ![](/images/hackmii/scam.png)
+
+    + En caso de que hayas instalado alguna modificación, como CTGP Revolution o Project+, str2hax podría intentar cargar eso en lugar de HackMii Installer. Si esto sucede, reinicia tu Wii y expulsa la tarjeta SD, luego ejecuta el exploit nuevamente.
 
 [Continuar a la instalación del Canal Homebrew y BootMii](hbc)
 {: .notice--info}

@@ -1,49 +1,49 @@
 ---
-title: "Managing GameCube Backups"
+title: "Gestionarea Backup-urilor GameCube"
 ---
 
 {% include toc title="Tabel de Conținut" %}
 
-This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
+Acest ghid oferă instrucțiuni despre cum să-ți gestionezi backup-urile GameCube folosind GameCube Backup Manager. Acesta funcționează asemănător cu [Wii Backup Manager](wii-backups#using-wii-backup-manager).
 
 ### Instrumente necesare
 
 * Un card SD sau o unitate USB
 * [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
-To play multiple games, it is recommended to use an external hard drive for your Wii. Any external hard drive found on most modern marketplaces should work with your Wii.
+Pentru a juca mai multe jocuri, este recomandat să folosești un hard disk extern pentru consola ta Wii. Orice hard disk extern găsit pe majoritatea piețelor moderne ar trebui să meargă cu sistemul tău Wii.
 {: .notice--info}
 
-Make sure your USB drive is formatted as FAT32. Do not format it as other types such as NTFS, exFAT, extFS, or WBFS, the latter being an outdated filesystem for storing Wii games.
+Asigură-te că unitatea ta USB este formatată ca FAT32. Nu o formata ca alte tipuri precum NTFS, exFAT, extFS sau WBFS, ultima fiind un sistem de fișiere învechit pentru a stoca jocuri Wii.
 {: .notice--info}
 
 ### Instrucțiuni
 
 #### Secțiunea I - Descărcare
 
-1. Extract GameCube Backup Manager, and launch the program.
+1. Extrage GameCube Backup Manager și rulează programul.
 1. Introdu unitatea ta USB în calculatorul tău.
 
-#### Section II - Copying Games Over
+#### Secțiunea II - Copierea Jocurilor
 
-1. Open the application and locate the folder button in the bottom right corner. Click on it to open the file explorer window.
+1. Deschide aplicația și găsește butonul cu dosarul din colțul din dreapta jos. Apasă-l pentru a deschide fereastra exploratorului de fișiere.
 
     ![](/images/desktop-apps/GCBM/folderbutton.png)
 
-1. Navigate to the location of the folder that contains the game file you want to transfer. This could be on your computer's hard drive or an external storage device. Once you find the folder, select it.
+1. Navighează la locația dosarului care conține fișierul de joc pe care vrei să-l transferi. Acesta poate fi pe hard disk-ul calculatorului tău sau pe un dispozitiv de stocare extern. Odată ce găsești dosarul, alege-l.
 
     ![](/images/desktop-apps/GCBM/selectfolder.png)
 
-1. Click on the `Files (Destination)` tab, then select the `Inactive` option from the dropdown menu. This will allow you to choose the drive where you want to transfer the game. Select the appropriate drive letter from the list.
+1. Apasă pe secțiunea `Files (Destination)` iar apoi alege opțiunea `Inactive` din meniul dropdown. Asta îți va permite să alegi unitatea de stocare unde vrei să transferi jocul. Alege litera de unitate adecvată din listă.
 
     ![](/images/desktop-apps/GCBM/selectdrive.png)
 
-1. Next, go back to the `Files (Source)` tab, select the game you want to transfer, and then click either `Install Game (1:1)` or `Install Game (Scrub)`.
+1. Apoi, întoarce-te la secțiunea `Files (Source)`, alege jocul pe care vrei să-l transferi iar apoi apasă pe `Install Game (1:1)` sau `Install Game (Scrub)`.
 
     ![](/images/desktop-apps/GCBM/installgame.png)
 
-Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size. For some games this can be a major reduction, for example with Animal Crossing - going from 1.3GB to around 26MB.
+`Install Game (Scrub)` va elimina datele inutile din joc, micșorând dimensiunea fișierului de joc. Pentru unele jocuri aceasta poate fi o reducere majoră, de exemplu Animal Crossing - ajungând de la 1.3GB la aproximativ 26MB.
 {: .notice--info}
 
-[Click here to view all of our tutorials that you can find on this website!](site-navigation)
+[Apasă aici pentru a reveni la cuprinsul site-ului.](site-navigation)
 {: .notice--info}

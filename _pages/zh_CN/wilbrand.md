@@ -4,10 +4,7 @@ title: "Wilbrand"
 
 {% include toc title="Table of Contents" %}
 
-Wilbrand，就像 LetterBomb 一样，是一种通过 Wii 留言板触发的 Wii 漏洞。
-
-与 LetterBomb 不同，Wilbrand 支持低至 3.0 的 Wii 菜单版本。
-{: .notice--info}
+Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board. It is compatible with Wii menu versions 3.0 through 4.3 in all regions.
 
 本页列出了两种用于创建正确的 Wilbrand 漏洞的方法。 推荐使用 Wilbrand Web，因为它易用。
 {: .notice--info}
@@ -58,7 +55,7 @@ Wilbrand，就像 LetterBomb 一样，是一种通过 Wii 留言板触发的 Wii
     ![](/images/exploits/wilbrand/msgboard.png)
 
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
-    + 如果这对您不起作用，[尝试其它漏洞](get-started)或尝试 [Wilbrand CLI](#wilbrand-cli)。
+    + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started).
 
 [继续到 安装 Homebrew Channel 和 BootMii](hbc)
 {: .notice--info}

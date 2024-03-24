@@ -11,7 +11,7 @@ Ai nevoie de un **card SD** pentru a folosi BootMii în general dar în special 
 
 ### Instrumente necesare
 
-* Un card SD cu cel puțin 512MB de spațiu liber
+* Un card SD cu cel puțin 512MB de spațiu liber (1GB sau mau mult este recomandat)
 
 ### Instrucțiuni
 
