@@ -78,6 +78,9 @@ If you would like to change this, you can use the app [BootMii Config Editor](ht
 Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
+If you are solely modding your Wii to transfer all data to the Dolphin Emulator, put your SD card into your PC/Mac, open Dolphin Emulator, then select `Tools > Manage NAND... > Import BootMii NAND Backup`. In the file dialog that opens, go to your SD card and select `nand.bin`. The operation will transfer almost everything from the Wii (System files, Game Saves, Channels, WiiWare/VC, Wii Mail, Miis, etc), minus the game discs, GameCube memory cards, and [save data stored on the Wii remotes](https://en.wikipedia.org/wiki/Wii_Remote#Memory) used by a few games and the Mii Parade. If you would like to dump game discs, and GameCube memory cards, proceed with the guide.
+{: .notice--info}
+
 [Continue to Priiloader Installation](priiloader)<br>
 Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.
 {: .notice--info}
