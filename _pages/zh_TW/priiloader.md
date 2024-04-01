@@ -4,7 +4,7 @@ title: "安裝 Priiloader"
 
 {% include toc title="條目內容" %}
 
-[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii. Immediately loads the Wii menu into Data Management. The tool can also apply hacks that are used to enhance, unlock, and/or fix many System Menu features.
+[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii. Immediately loads the Wii menu into Data Management. The tool can also apply hacks that are used to enhance, unlock, and/or fix many System Menu features. Immediately loads the Wii menu into Data Management. The tool can also apply hacks that are used to enhance, unlock, and/or fix many System Menu features.
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
@@ -83,7 +83,7 @@ Later on, to enter it you can:
 
     ![](/images/priiloader/menu_hacks.png)
 
-    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br> Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
+    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br> Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file. If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br> This causes Priiloader to fail to find the `hacks_hash.ini` file.
     {: .notice--warning}
 
 1. Scroll down to `Settings` and press A.
@@ -105,7 +105,7 @@ Later on, to enter it you can:
 
 ### Wii: Next Steps
 
-If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
+If you have made it to this point, congrats! You are finished with the required section of the main guide! If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
 {: .notice--success}
 
 Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
