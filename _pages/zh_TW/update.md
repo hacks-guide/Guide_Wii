@@ -41,9 +41,9 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 
 #### 第二節 — 安裝
 
-1. Power off your console. Start holding RESET, then turn it back on.
+1. Power off your console. Power off your console. Start holding RESET, then turn it back on.
 1. In the Priiloader menu, select `Homebrew Channel`.
-    * If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader is required for this guide. Priiloader is required for this guide.
+    * If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader is required for this guide. Priiloader is required for this guide. Priiloader is required for this guide.
 1. Launch YAWM ModMii Edition.
 1. Select your SD card or USB drive.
 1. Press `+` to one the IOS80 and IOS58 WADs to highlight them, then press A twice to install.
