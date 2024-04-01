@@ -111,7 +111,7 @@ Attempt to start the Wii - warning/press A screen shows up, and when A is presse
 A theme brick occurs when a wrongly formatted theme is installed.
 
 #### Solutions
-To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
+Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version. To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme.
 
 ## Mail brick
 
@@ -156,7 +156,7 @@ Screen shows up as listed below on normal boot.
 ![](/images/bricks/error-003.png)
 
 #### Cause
-When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. If this check succeeds, the error triggers and the Wii is effectively bricked.
+When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. If this check succeeds, the error triggers and the Wii is effectively bricked. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean.
 
 This is usually an immediate follow-up to a Wii System Update on an unsuspecting region-changed Korean Wii.
 
@@ -165,7 +165,7 @@ Since this brick most often occurs after the Wii Menu updates, Priiloader will n
 
 Korean Wiis also released with Wii Menu 3.3, around the time that Nintendo [fixed the Trucha bug in boot1](https://wiibrew.org/wiki/3.3#Changes), so BootMii as Boot2 cannot be installed to or used on any Korean Wii.
 
-While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. This involves going into [Recovery Mode](recovery-mode), where an exploit can be triggered in order to gain access to the Homebrew Channel and revert the conditions that caused the brick. Note that you must have a drivechip in order for this method to work.
+This involves going into [Recovery Mode](recovery-mode), where an exploit can be triggered in order to gain access to the Homebrew Channel and revert the conditions that caused the brick. While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. Note that you must have a drivechip in order for this method to work.
 
 ## IOS brick
 
