@@ -4,9 +4,9 @@ title: "BlueBomb"
 
 {% include toc title="목차" %}
 
-{% capture technical_info %}
+이 취약점 공격은 Wii 미니에서 작동하는 유일한 취약점 공격이지만, BlueBomb은 오리지널 Wii에서도 실행할 수 있습니다. {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. 이 취약점 공격은 Wii 미니에서 작동하는 유일한 취약점 공격이지만, BlueBomb은 오리지널 Wii에서도 실행할 수 있습니다.
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries.
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
