@@ -5,10 +5,9 @@ title: "Instalação do Homebrew Channel e do BootMii"
 {% include toc title="Sumário" %}
 
 {% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
-The Homebrew Channel is where you will go to launch homebrew applications. O BootMii é um software que pode fazer backup e restaurar o armazenamento NAND do seu Wii e, se for instalado no boot2, oferece proteção contra bricks.
+<summary><em>Technical Details (optional)</em></summary> The Homebrew Channel is where you will go to launch homebrew applications. O BootMii é um software que pode fazer backup e restaurar o armazenamento NAND do seu Wii e, se for instalado no boot2, oferece proteção contra bricks.
 
-BootMii pode ser instalado de duas maneiras: diretamente em uma parte do bootloader do Wii, chamado boot2, ou através de uma IOS. BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009. Na maioria dos casos, instalar o BootMii como IOS não deve ter problemas, contanto que você também instale o [Priiloader](priiloader).
+BootMii pode ser instalado de duas maneiras: diretamente em uma parte do bootloader do Wii, chamado boot2, ou através de uma IOS. Na maioria dos casos, instalar o BootMii como IOS não deve ter problemas, contanto que você também instale o [Priiloader](priiloader). BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009.
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>
@@ -52,7 +51,7 @@ Se você não tem um cartão SD, você não pode instalar nem usar o BootMii, e 
     ![](/images/hackmii/bootmii_install_ok.png)
 
 1. Assim que concluído, selecione `Continue`.
-1. Se você não conseguiu instalar o BootMii, continue para [Instalando o Priiloader](priiloader).
+1. Selecione `Install BootMii as IOS`.
 
     ![](/images/hackmii/bootmii_install4.png)
 
