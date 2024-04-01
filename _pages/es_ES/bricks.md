@@ -43,7 +43,7 @@ En todo caso, siempre deberías:
 
 This is a section intended to help you diagnose a potential brick, in order by least to most brick severity. If you seem to have a brick that isn't covered in this section or in the guide, please join the Nintendo Homebrew discord server for support.
 
-+ Wii menu brick Ninguna aplicación funciona mal, la Configuración de Wii no tiene errores, todo parece estar correcto. No brick.
++ Wii menu brick Wii menu brick Ninguna aplicación funciona mal, la Configuración de Wii no tiene errores, todo parece estar correcto. No brick.
 + Wii menu brick
     + If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
     + Si al acceder a la Configuración de Wii, aparece un error similar al del navegador web Opera, se trata de un [semibloqueo](bricks#semibrick).
@@ -53,7 +53,7 @@ This is a section intended to help you diagnose a potential brick, in order by l
     + To fix a mail brick, enter Maintenance mode by holding `+` and `-` on the Health and Safety screen.
 + Wii starts, and you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. Maintenance mode is accessible. Se trata de un [bloqueo del correo](bricks#mail-brick).
 + La Wii arranca, PERO INSTANTANEAMENTE aparece un error similar al del navegador web Opera. Se trata de un [bloqueo del menú de Wii / Opera](bricks#wii-menuopera-brick).
-+ Error 003 Se trata de un [bloqueo de Korean Kii/Error 003](bricks#error-003-brick).
++ Error 003 Error 003 Se trata de un [bloqueo de Korean Kii/Error 003](bricks#error-003-brick).
 + No pasa nada, pantalla negra, PERO BootMii en el boot2 es accesible. Se trata de un [bloqueo de IOS](bricks#ios-brick).
 + No ocurre nada, pantalla en negro, PERO se puede encender la Wii con un mando de Wii o se puede acceder al modo de recuperación. Se trata de un [bloqueo de wifi](bricks#wi-fi-brick).
 + No ocurre nada, pantalla en negro. No se puede encender la Wii con el mando de Wii, no se puede iniciar el modo de recuperación y no se puede acceder a BootMii en el boot2. Se trata de un [bloqueo total](bricks#low-level-brick).
@@ -156,7 +156,7 @@ La pantalla se muestra como se indica a continuación en el arranque normal.
 ![](/images/bricks/error-003.png)
 
 #### Causas
-Al publicar la Wii en Corea, Nintendo cambió la clave de cifrado de estas consolas como un último esfuerzo para impedir el homebrew. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. Si la verificación es correcta, se activa el error y la Wii queda bloqueada.
+Al publicar la Wii en Corea, Nintendo cambió la clave de cifrado de estas consolas como un último esfuerzo para impedir el homebrew. Si la verificación es correcta, se activa el error y la Wii queda bloqueada. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean.
 
 This is usually an immediate follow-up to a Wii System Update on an unsuspecting region-changed Korean Wii.
 
@@ -165,7 +165,7 @@ Como este bloqueo suele producirse después de las actualizaciones del menú de 
 
 Korean Wiis also released with Wii Menu 3.3, around the time that Nintendo [fixed the Trucha bug in boot1](https://wiibrew.org/wiki/3.3#Changes), so BootMii as Boot2 cannot be installed to any Korean Wii.
 
-While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. Esto implica entrar en [modo de recuperación](recovery-mode), donde se puede activar un exploit para acceder al Canal Homebrew y revertir las condiciones que causaron el bloqueo. Note that you must have a drivechip in order for this method to work.
+Esto implica entrar en [modo de recuperación](recovery-mode), donde se puede activar un exploit para acceder al Canal Homebrew y revertir las condiciones que causaron el bloqueo. While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. Note that you must have a drivechip in order for this method to work.
 
 ## Bloqueo de IOS
 
