@@ -15,7 +15,7 @@ If the screen stays black and the blue disc drive light is blinking, you are mis
 Wii Family EditionではNANDをリストアすることはできません。 Wii Family EditionではIOS版のBootMiiでNANDをリストアするときに必要となるGCコントローラー挿入口が削除されているからです。 何か不明な点があれば、ご相談ください。
 {: .notice--danger}
 
-検証されていないNANDバックアップや、Wii以外からのNANDバックアップを復元しないでください。ブリックする恐れがあります。 The same also goes for faulty SD cards.
+検証されていないNANDバックアップや、Wii以外からのNANDバックアップを復元しないでください。 ブリックする恐れがあります。 The same also goes for faulty SD cards.
 {: .notice--danger}
 
 ### 必要なもの
@@ -26,9 +26,9 @@ Wii Family EditionではNANDをリストアすることはできません。 Wii
 
 There is likely a much safer and faster way to bring it back to your Wii, likely involving the use of Dolphin Emulator.
 
-例えば、Wii伝言板のデータを復元する場合、DolphinでNANDバックアップを読み込んでください。 Dolphinを開き、ファイル→Open User Folderと選択し、Wii/title/00000001/00000002/data/cdb.vffをSDカードにコピーします。[WiiXplorer](https://oscwii.org/library/app/wiixplorer)を使用して対応する場所に復元します。
+ゲームのセーブデータを復元したい場合は、DolphinでNANDバックアップを読み込み、ツール→全てのWiiセーブデータをエクスポートで書き出し、SDカードにコピーします。 WiiにSDカードに差し込み、データ管理からWii本体へセーブデータを移動します。
 
-ゲームのセーブデータを復元したい場合は、DolphinでNANDバックアップを読み込み、ツール→全てのWiiセーブデータをエクスポートで書き出し、SDカードにコピーします。WiiにSDカードに差し込み、データ管理からWii本体へセーブデータを移動します。
+例えば、Wii伝言板のデータを復元する場合、DolphinでNANDバックアップを読み込んでください。 Dolphinを開き、ファイル→Open User Folderと選択し、Wii/title/00000001/00000002/data/cdb.vffをSDカードにコピーします。 [WiiXplorer](https://oscwii.org/library/app/wiixplorer)を使用して対応する場所に復元します。
 
 ### Important notes
 
