@@ -9,7 +9,7 @@ title: "Wiimmfi"
 
 str2hax 是一种通过加载 Wii 最终用户许可协议触发的 Wii 漏洞。 它只需要一个可以在 Wii 上更改 DNS 的互联网连接。
 
-If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
+If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
 {: .notice--warning}
 
 ### Requirements
