@@ -6,7 +6,7 @@ title: "BootMii 备份"
 
 你需要一张**SD卡**才能使用BootMii创建NAND备份。 如果没有，可以跳过此页，但强烈建议您创建NAND备份。
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
+You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
 {: .notice--warning}
 
 ### 需要
@@ -34,7 +34,7 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
     ![](/images/bootmii/BootMii_Main.png)
 
-    无法使用 Wii 遥控器控制 BootMii。 您必须使用主机上的 POWER 和 RESET 按钮，或第 1 个口的 GameCube 手柄。 To navigate between options, press POWER. To select an option, press RESET.
+    无法使用 Wii 遥控器控制 BootMii。 您必须使用主机上的 POWER 和 RESET 按钮，或第 1 个口的 GameCube 手柄。 To navigate between options, press POWER. To select an option, press RESET. To select an option, press RESET.
     {: .notice--info}
 
 1. 选择选项按钮（带齿轮图标的按钮）。
@@ -51,7 +51,7 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. 在这一步后，它会验证这个备份。 理想情况下，验证过程结束后，所有区块都应为绿色。
-    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine.
+    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine. As long all non-bad blocks are successfully verified, this should be fine.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -60,12 +60,12 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
     ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-请注意，<strong>还原 NAND 备份通常是不得已而为之，</strong>通常有更好的办法来修复您的问题。 There are often better ways to unbrick your console.
+请注意，<strong>还原 NAND 备份通常是不得已而为之，</strong>通常有更好的办法来修复您的问题。 There are often better ways to unbrick your console. 请尽力[确定您的变砖情况](bricks)并撤销导致问题的操作。
 请尽力[确定您的变砖情况](bricks)并撤销导致问题的操作。
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.**
+To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.** **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.**
 </div>
 
-As stated earlier, if you have BootMii installed as boot2, it will launch every time you start your console. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
+As stated earlier, if you have BootMii installed as boot2, it will launch every time you start your console. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
 {: .notice--info}
 
 为确保不会丢失文件，建议将 SD 卡根目录的 `nand.bin` 和 `keys.bin` 复制到您的电脑。 `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
