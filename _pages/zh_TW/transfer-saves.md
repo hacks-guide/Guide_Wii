@@ -49,6 +49,7 @@ This guide will explain how to transfer game saves between:
 <div id="wii-vwii-svgm" class="tabcontent via" markdown="1">
 Make sure you have installed [cIOS](cios) before following this!
 {: .notice--warning}
+{: .notice--warning}
 
 ##### What you need
 
@@ -65,7 +66,7 @@ Make sure you have installed [cIOS](cios) before following this!
     + Repeat this for the rest of the saves you would like to copy.
 1. Press the HOME button and exit SaveGame Manager GX.
 1. Put the SD card into the target Wii/Wii U.
-1. Create a new save file for each game. This is needed so that SaveGame Manager GX can overwrite it.
+1. Create a new save file for each game. Create a new save file for each game. This is needed so that SaveGame Manager GX can overwrite it.
 1. Launch the Homebrew Channel, and launch SaveGame Manager GX.
 1. Ensure that the source is set to your SD or USB.
 1. Select each save you copied and click `Install`.
@@ -78,7 +79,9 @@ Make sure you have installed [cIOS](cios) before following this!
 <button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-dol-svgm')">via SaveGame Manager GX</button>
 
 <div id="wii-dol-nand" class="tabcontent via" markdown="1">
-By importing your NAND backup into Dolphin, you effectively copy everything on your Wii (at the time of the backup). This also has the benefit of allowing access to [Wiimmfi](https://wiimmfi.de/), as well as carrying over RiiConnect24 patched channels.
+By importing your NAND backup into Dolphin, you effectively copy everything on your Wii (at the time of the backup). This also has the benefit of allowing access to [Wiimmfi](https://wiimmfi.de/), as well as carrying over RiiConnect24 patched channels. If you have already done this, consider the SaveGame Manager GX method to save time.
+{: .notice--info}
+This also has the benefit of allowing access to [Wiimmfi](https://wiimmfi.de/), as well as carrying over RiiConnect24 patched channels.
 If you have already done this, consider the SaveGame Manager GX method to save time.
 {: .notice--info}
 
@@ -97,6 +100,7 @@ If you have already done this, consider the SaveGame Manager GX method to save t
 <div id="wii-dol-svgm" class="tabcontent via" markdown="1">
 Make sure you have installed [cIOS](cios) before following this!
 {: .notice--warning}
+{: .notice--warning}
 
 ##### What you need
 
@@ -114,7 +118,8 @@ Make sure you have installed [cIOS](cios) before following this!
 1. Insert your SD card or USB drive into your PC.
 1. Open Dolphin Emulator.
 1. Select `Tools > Import Wii Save...`.
-1. In the file dialog that opens, go to the `savegames` folder on your SD or USB, and select each `.bin` file inside it.
+1. In the file dialog that opens, go to the `savegames` folder on your SD or USB, and select each `.bin` file inside it. Unfortunately, you can only select one at a time, so you must repeat the last step for each .bin file.
+{: .notice--info}
 Unfortunately, you can only select one at a time, so you must repeat the last step for each .bin file.
 {: .notice--info}
 </div>
@@ -126,8 +131,17 @@ Unfortunately, you can only select one at a time, so you must repeat the last st
 `<User Folder>` refers to the folder opened by the `File -> Open User Folder` menu option. ![](/images/dolphin/dolphin-user-folder.png)
 {: .notice--info}
 {% endcapture %}
+{% capture dolphin-user-folder %}
+`<User Folder>` refers to the folder opened by the `File -> Open User Folder` menu option. ![](/images/dolphin/dolphin-user-folder.png)
+{: .notice--info}
+{% endcapture %}
 {% capture dolphin-emu-memcard-manager %}
 If Dolphin is set to use a `.raw` memory card, use `Tools > Memory Card Manager` to export your desired saves to `.gci`. ![](/images/homebrew/gcsaves/dolphin-emu-memcard-manager.png)
+{: .notice--info}
+{% endcapture %}
+All methods here assume you have the [latest Beta or Development version of Dolphin Emulator](https://dolphin-emu.org/download).
+{: .notice--info}
+Select the `.gci` file(s) you would like to import. Otherwise, if Dolphin is storing your saves in a `.raw` file. simply select your saves on the left side and select `Copy to B`. ![](/images/homebrew/gcsaves/dolphin-emu-memcard-manager.png)
 {: .notice--info}
 {% endcapture %}
 All methods here assume you have the [latest Beta or Development version of Dolphin Emulator](https://dolphin-emu.org/download).
@@ -155,7 +169,7 @@ All methods here assume you have the [latest Beta or Development version of Dolp
     + If you are exporting all your Wii saves from Dolphin, select `Tools > Export All Wii Saves`.
 ![](/images/dolphin/export-wiisave.png)
 
-1. In the folder dialog that pops up, select your SD card. (Don't go inside any other folder!)
+1. In the folder dialog that pops up, select your SD card. (Don't go inside any other folder!) (Don't go inside any other folder!)
 1. Safely eject your SD card, then put it into your Wii/Wii U.
     + If on a Wii U, be sure to launch Wii Mode.
 1. Select the `Wii Options` button at the bottom left.
@@ -166,6 +180,7 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 
 <div id="dol-wii-svgm" class="tabcontent via" markdown="1">
 Make sure you have installed [cIOS](cios) before following this!
+{: .notice--warning}
 {: .notice--warning}
 
 ##### What you need
@@ -179,7 +194,7 @@ Make sure you have installed [cIOS](cios) before following this!
 1. Open Dolphin Emulator.
 1. If you exporting a select game's save, right click the game inside the Dolphin window and select `Export Wii Save`.
     + If you are exporting all your Wii saves from Dolphin, select `Tools > Export All Wii Saves`.
-1. In the folder dialog that pops up, select your SD card/USB drive. (don't go inside any other folder!)
+1. In the folder dialog that pops up, select your SD card/USB drive. (don't go inside any other folder!) (don't go inside any other folder!)
 1. Safely eject your SD card/USB drive, then put it into your Wii/Wii U.
     + If on a Wii U, be sure to launch Wii Mode.
 1. Launch the Homebrew Channel, then launch SaveGame Manager GX.
@@ -206,6 +221,7 @@ Make sure you have installed [cIOS](cios) before following this!
 1. Copy the `.gci` files you would like to put on your Memory Card.
 1. Create a folder named `MCBACKUP` on your SD card or USB drive, and place the `.gci` files you copied into it.
 {{ dolphin-emu-memcard-manager }}
+Launch Nintendont and set Memcard emulation to multi [ ? ]
 
 1. Download and extract GCMM to the root of your SD card or USB drive.
 1. Safely eject the SD/USB from your PC, then insert it into your Wii.
@@ -244,6 +260,7 @@ Make sure you have installed [cIOS](cios) before following this!
 
 <div id="gcmc" class="tabcontent" markdown="1">
 All methods here require a Wii with GameCube ports.
+{: .notice--warning}
 {: .notice--warning}
 
 <button class="btn btn--large btn--info tablinks to" onClick="openTab_to(event, 'gcmc-dol')">To Dolphin Emulator</button>
