@@ -36,25 +36,25 @@ NÃO use nenhum dos exemplos de endereços MAC mostrados neste guia, pois eles s
 please.hackmii.</p></li> 
    
    1 Pegue seu cartão SD e insira-o no seu Wii.
-1 Assegure-se de que `Bundle the HackMii Installer for me!` está verificado.
+1 1 Assegure-se de que `Bundle the HackMii Installer for me!` está verificado.
 1 Corte qualquer "wire".
   
   ![](/images/exploits/letterbomb/LetterBomb-PC.png)
 
-1 Insira seu cartão SD no seu computador.
+1 1 Insira seu cartão SD no seu computador.
 
-1 Copie a pasta `private` e o arquivo `boot.elf` do LetterBomb `.zip` para a raiz do seu cartão SD.
-1 Extraia o conteúdo do ZIP baixado para a raiz do seu cartão SD. 
-      + O cartão SD deve ser inserido no slot de cartão SD localizado na frente do Wii. O uso de um adaptador USB conectado à porta USB do Wii não funcionará.
+1 1 Copie a pasta `private` e o arquivo `boot.elf` do LetterBomb `.zip` para a raiz do seu cartão SD.
+1 1 Pegue seu cartão SD e insira-o no seu Wii. 
+      + + O cartão SD deve ser inserido no slot de cartão SD localizado na frente do Wii. O uso de um adaptador USB conectado à porta USB do Wii não funcionará.
 1 Menu do Wii do LetterBomb
-1 No seu Wii, retorne ao Menu do Wii e então abra o Wii Message Board.
+1 1 Menu do Wii do LetterBomb 1 No seu Wii, retorne ao Menu do Wii e então abra o Wii Message Board.
 1 Carregue a carta vermelha com um ícone de bomba. 
-      + Certifique-se que a data em seu Wii está correta, caso contrário você não poderá encontrar a carta.
+      + + Certifique-se que a data em seu Wii está correta, caso contrário você não poderá encontrar a carta.
     + Em alguns casos, talvez seja necessário verificar as mensagens do dia anterior ou dia seguinte para que a carta apareça.
-    + Se você não vê a carta vermelha. cheque se algum erro aparece nas sessões do cartão SD em `Data Management`. Se quaisquer aparecerem, talvez haja um erro com o formato do seu cartão SD ou o leitor de SD do Wii.
-    + Se o seu Wii congela após clicar na carta, você provavelmente escolheu a região errada quando baixou o exploit. Refaça o segundo passo e selecione a região correta.
+    + + Se você não vê a carta vermelha. cheque se algum erro aparece nas sessões do cartão SD em `Data Management`. Se quaisquer aparecerem, talvez haja um erro com o formato do seu cartão SD ou o leitor de SD do Wii.
+    + + Se o seu Wii congela após clicar na carta, você provavelmente escolheu a região errada quando baixou o exploit. Refaça o segundo passo e selecione a região correta.
     + Se tudo estiver certo e se houver congelamento, continue a tentar até que isso funcione.
-1 Se o exploit foi bem sucedido, seu console irá carregar o Instalador HackMii.</ol> 
+1 1 Se o exploit foi bem sucedido, seu console irá carregar o Instalador HackMii.</ol> 
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
