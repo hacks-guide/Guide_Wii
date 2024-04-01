@@ -27,9 +27,9 @@ Ecco degli esempi comuni di cosa il software homebrew può fare per il tuo Wii:
 + [Modificare il contenuto dei dischi di giochi](https://wiki.hacks.guide/wiki/Wii:Riivolution) per avviare delle patch
 + Installare [temi](themes) sul Menu Wii e nelle applicazioni homebrew più usate
 + Eseguire backup dei tuoi [dischi](dump-games) e di [altri titoli installati](dump-wads)
-+ Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
 + Installare un [USB loader](wii-loaders) per lanciare backup di giochi Wii (e altre console) da un dispositivo di massa esterno
 + Eseguire backup e ripristino dei salvataggi dei giochi [Wii](wii-saves) e [GameCube](gcsaves)
++ Ripristinare la funzionalità online per [WiiConnect24](wiiconnect24) e [Nintendo Wi-Fi Connection](wiimmfi)
 + Ripristinare la funzionalità online per [WiiConnect24](wiiconnect24) e [Nintendo Wi-Fi Connection](wiimmfi)
 
 ### Che cosa installa questa guida?
