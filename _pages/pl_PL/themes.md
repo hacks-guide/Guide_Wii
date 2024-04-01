@@ -6,7 +6,7 @@ title: "Installing Wii Menu Themes"
 
 This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
 
-### Section I - Finding a Theme
+### Go to `Options` > `Standard System Menu` > Version of your Wii Menu > Region of your Wii Menu
 
 DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) AND [PRIILOADER](priiloader)!
 {: .notice--danger}
@@ -50,7 +50,7 @@ If you don't want to go through the hassle of using an external program to build
 1. A dialog box will pop up asking you to enter in a value to create a key. Enter in what it says, it will create a key that will be used to decrypt the Wii Menu contents from Nintendo's servers.
 1. A file selection box will ask you where to save the .app file (that is the Wii Menu content file it downloaded). Save it to the directory where ThemeMii is in.
 1. Go to `File` > `Open`, then browse for where your .mym file is.
-1. Press `Create csm`, then browse for a directory you want to save the theme in. Give it a moment to build the theme.
+1. Follow the theme setup and theme configuration instructions in `installation.txt`. Enjoy the theme!
 1. A dialog box will pop up asking you if you want to save the .mym. Press `No`.
 
 #### Section III - Installing the Theme
