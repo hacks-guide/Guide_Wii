@@ -4,7 +4,7 @@ title: "由此處開始"
 
 {% include toc title="條目內容" %}
 
-These steps will help you softmod your Wii, from stock to BootMii. Before starting this guide, please ensure that your console is on the latest version of the Wii firmware (4.3). 即使您的 Wii 過去曾軟改過，透過以下步驟可確保您的軟改是最新的。
+These steps will help you softmod your Wii, from stock to BootMii. Before starting this guide, please ensure that your console is on the latest version of the Wii firmware (4.3). 即使您的 Wii 過去曾軟改過，透過以下步驟可確保您的軟改是最新的。 Before starting this guide, please ensure that your console is on the latest version of the Wii firmware (4.3). 即使您的 Wii 過去曾軟改過，透過以下步驟可確保您的軟改是最新的。
 
 所有的漏洞利用都運行 HackMii 安裝程序，並具有相同的最終結果。
 
