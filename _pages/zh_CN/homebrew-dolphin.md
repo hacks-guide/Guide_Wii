@@ -4,7 +4,7 @@ title: "Installing Homebrew Channel on Dolphin Emulator"
 
 {% include toc title="Table of Contents" %}
 
-On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily installed through Dolphin itself. Once this is done, the Homebrew Channel can be installed, although not in the same manner as a physical Wii.
+On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily installed through Dolphin itself. Once this is done, the Homebrew Channel can be installed, although not in the same manner as a physical Wii. Once this is done, the Homebrew Channel can be installed, although not in the same manner as a physical Wii.
 
 ### Requirements
 
@@ -24,20 +24,20 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
 
     ![](/images/homebrew-dolphin/ohbc-file.png)
 
-1. Select `Tools > Load Wii System Menu`. The channel should now appear.
+1. Select `Tools > Load Wii System Menu`. The channel should now appear. The channel should now appear.
 
     ![](/images/homebrew-dolphin/hbc-installed.png)
 
 ### Post-Installation, installing Homebrew Apps through Open Shop Channel
 
-1. Download the Open Shop Channel [here](https://oscwii.org/library/app/homebrew_browser) for usage in Dolphin. Alternatively, you can get OSCDL and do this process manually.
+1. Download the Open Shop Channel [here](https://oscwii.org/library/app/homebrew_browser) for usage in Dolphin. Alternatively, you can get OSCDL and do this process manually. Alternatively, you can get OSCDL and do this process manually.
 1. Stop the emulation (if running), and open the `Config > Wii` window in Dolphin Emulator.
-1. Enable `Automatically Sync with Folder`. Optionally, you may also want to adjust the `SD Card File Size` to a larger parameter - however in most cases `Auto` should be fine.
-1. Open the `SD Sync Folder`. On Windows, this can easily be done by pasting the folder path into the Start Menu, Windows Explorer, or Run.
-1. Extract any homebrew apps to the `WiiSDSync` folder. The end result should look something like this:
+1. Enable `Automatically Sync with Folder`. Enable `Automatically Sync with Folder`. Optionally, you may also want to adjust the `SD Card File Size` to a larger parameter - however in most cases `Auto` should be fine.
+1. Open the `SD Sync Folder`. Open the `SD Sync Folder`. On Windows, this can easily be done by pasting the folder path into the Start Menu, Windows Explorer, or Run.
+1. Extract any homebrew apps to the `WiiSDSync` folder. The end result should look something like this: The end result should look something like this:
 
     ![](/images/homebrew-dolphin/apps-folder.png)
 
-1. Load the Wii Menu and open the Homebrew Channel. Your newly installed apps should appear!
+1. Load the Wii Menu and open the Homebrew Channel. Your newly installed apps should appear! Your newly installed apps should appear!
 
     ![](/images/homebrew-dolphin/hbc-apps.png)
