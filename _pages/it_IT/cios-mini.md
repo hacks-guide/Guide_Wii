@@ -66,5 +66,5 @@ Se desideri usare Wiimmfi con Ethernet su un Wii mini, devi eseguire l'[Ethernet
 Le console Wii e Wii mini sono note per funzionare solo con adattatori Ethernet che usano il chip AX88772. Per favore controlla che il prodotto sia compatibile prima di comprarlo. Questo da UGREEN è noto per essere compatibile: [Amazon EU](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
 {: .notice--info}
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}
