@@ -41,7 +41,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 1. Inserta tu tarjeta SD en tu ordenador.
 1. Copy the `private` folder and the `boot.elf` file from the LetterBomb `.zip` to the root of your SD card.
-1. Extrae el contenido del archivo ZIP recién descargado a la raíz de la tarjeta SD.
+1. Expulsa la tarjeta SD e insértala en tu Wii.
     + La tarjeta SD debe insertarse en la ranura para tarjetas SD ubicada en la parte frontal de la consola. No es posible usar un adaptador USB conectado a alguno de los puertos USB de la consola.
 1. En tu consola, ingresa al tablón de Wii.
 1. Launch the Wii Message Board.

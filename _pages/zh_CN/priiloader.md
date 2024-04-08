@@ -21,8 +21,8 @@ For more information about Priiloader and its options, you can see the [Priiload
 #### Optional Requirements for vWii (highly recommended)
 
 * 允许您从数据管理中将通常不允许的存档文件复制到 SD 卡中。
-* 下载 USB Loader GX 转发频道 WAD ([Wii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad), [vWii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad))。
-    * 您可以使用 [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) 直接从 Wii U 菜单加载 Priiloader。 **这只适用于 Aroma。</li> </ul></li> </ul>
+* 将 Wii 菜单日志发送到记忆卡槽 B 的调试设备。
+    * 您可以使用 [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) 直接从 Wii U 菜单加载 Priiloader。 **这只适用于 Aroma。
 
 ### Instructions
 
@@ -30,8 +30,8 @@ For more information about Priiloader and its options, you can see the [Priiload
 
 If you are using a vWii:
 
-+ 在安装 Priiloader 后安装主题**会导致您的 vWii 变砖。</li>
-+ Priiloader 0.10.0 引入了 vWii 支持！ <br> 有一些重要事项需要注意：</ul>
++ 在安装 Priiloader 后安装主题**会导致您的 vWii 变砖。
++ Priiloader 0.10.0 引入了 vWii 支持！ <br> 有一些重要事项需要注意：
 
 {% endcapture %}
 
@@ -105,7 +105,7 @@ Continue to [Wii mini cIOS](cios-mini)<br> This guide provides installation inst
 
 ### Wii: Next Steps
 
-If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
+If you have made it to this point, congrats! You are finished with the required section of the main guide! If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
 {: .notice--success}
 
 Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.

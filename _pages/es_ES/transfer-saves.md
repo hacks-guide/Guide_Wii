@@ -47,7 +47,7 @@ This guide will explain how to transfer game saves between:
 </div>
 
 <div id="wii-vwii-svgm" class="tabcontent via" markdown="1">
-Make sure you have installed [cIOS](cios) before following this!
+All methods here require a Wii with GameCube ports.
 {: .notice--warning}
 
 ##### What you need
@@ -97,6 +97,7 @@ If you have already done this, consider the SaveGame Manager GX method to save t
 <div id="wii-dol-svgm" class="tabcontent via" markdown="1">
 Make sure you have installed [cIOS](cios) before following this!
 {: .notice--warning}
+{: .notice--warning}
 
 ##### What you need
 
@@ -123,11 +124,19 @@ Unfortunately, you can only select one at a time, so you must repeat the last st
 
 <div id="dol" class="tabcontent" markdown="1">
 {% capture dolphin-user-folder %}
+{% capture dolphin-user-folder %}
 `<User Folder>` refers to the folder opened by the `File -> Open User Folder` menu option. ![](/images/dolphin/dolphin-user-folder.png)
 {: .notice--info}
 {% endcapture %}
+![](/images/dolphin/dolphin-user-folder.png)
+{: .notice--info}
+{% endcapture %}
 {% capture dolphin-emu-memcard-manager %}
-If Dolphin is set to use a `.raw` memory card, use `Tools > Memory Card Manager` to export your desired saves to `.gci`. ![](/images/homebrew/gcsaves/dolphin-emu-memcard-manager.png)
+If Dolphin is set to use a `.raw` memory card, use `Tools > Memory Card Manager` to export your desired saves to `.gci`.
+Create a folder named `MCBACKUP` on your SD card or USB drive, and place the `.gci` files you copied into it.
+{{ dolphin-emu-memcard-manager }}
+{% endcapture %}
+![](/images/homebrew/gcsaves/dolphin-emu-memcard-manager.png)
 {: .notice--info}
 {% endcapture %}
 All methods here assume you have the [latest Beta or Development version of Dolphin Emulator](https://dolphin-emu.org/download).
@@ -166,6 +175,7 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 
 <div id="dol-wii-svgm" class="tabcontent via" markdown="1">
 Make sure you have installed [cIOS](cios) before following this!
+{: .notice--warning}
 {: .notice--warning}
 
 ##### What you need
@@ -275,7 +285,7 @@ All methods here require a Wii with GameCube ports.
 1. Insert your SD card/USB drive into your PC.
 1. Copy the `.raw` file inside `MCBACKUP` to the root of the device used for Nintendont and name it `ninmem.raw`.
     + If your games are Japanese, Nintendont will use `ninmemj.raw`, because Japanese games do not play very nicely when there are other region saves present.
-1. Launch Nintendont and set Memcard emulation to multi [ ? ]
+1. Launch Nintendont and set Memcard emulation to multi [ ? ] ]
 </div>
 
 <div id="gcmc-dol" class="tabcontent to" markdown="1">

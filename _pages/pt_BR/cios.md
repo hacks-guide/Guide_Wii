@@ -5,8 +5,7 @@ title: "cIOS"
 {% include toc title="Sumário" %}
 
 {% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Por exemplo, isso permite a funcionalidade de Loaders USB como o USB Loader GX e WiiFlow, juntamente com outras partes de homebrew como o SaveGame Manager GX. Você pode ignorar este processo se você quiser, mas, geralmente, ele estende seu Wii com pouco ou nenhum lado negativo.
+<summary><em>Technical Details (optional)</em></summary> While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Por exemplo, isso permite a funcionalidade de Loaders USB como o USB Loader GX e WiiFlow, juntamente com outras partes de homebrew como o SaveGame Manager GX. Você pode ignorar este processo se você quiser, mas, geralmente, ele estende seu Wii com pouco ou nenhum lado negativo.
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>
@@ -42,7 +41,7 @@ Se você não estiver no Windows, pode baixar & rodar [este script](/assets/file
 1. Clique em `Start NUS Download!`.
 1. Repeat the step 2 & 3 for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
 1. Once you have downloaded all four IOS, there will be a folder named `titles` in the same folder as the NUS Downloader.
-1. <br/> Open the folder and navigate through them until you locate the four WAD files you downloaded.
+1. Open the folder and navigate through them until you locate the four WAD files you downloaded.
 1. Você agora poderá usar homebrew como o [USB Loader GX](usbloadergx) e [WiiFlow](wiiflow).
     + Esse deve ser o mesmo dispositivo contendo o d2x cIOS Installer.
 

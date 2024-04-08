@@ -42,7 +42,7 @@ Si tu PC no ejecuta Windows, puedes utilizar [este script](/assets/files/d2x_off
 1. Haz clic en `Start NUS Download!`.
 1. Repite los pasos 2 y 3 para `IOS56 v5661`, `IOS57 v5918`, e `IOS58 v6175`.
 1. Una vez que hayas descargado los cuatro IOS, habrá una carpeta llamada `titles` en el mismo directorio que el programa NUS Downloader.
-1. <br/> Entra a la carpeta hasta encontrar los cuatro archivos WAD que acabas de descargar.
+1. Entra a la carpeta hasta encontrar los cuatro archivos WAD que acabas de descargar.
 1. Archivos WAD para instalar cIOS sin conexión
     + Este deber ser el mismo dispositivo donde vayas a copiar la aplicación d2x cIOS Installer.
 

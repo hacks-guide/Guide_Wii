@@ -31,7 +31,7 @@ La prevenzione dei brick include diverse regole che spaziano dal buon senso a de
     + Downgraders del Firmware
     + Qualsiasi applicazioni che modifica dei file critici della NAND
 + **NON TOCCARE L'ALIMENTAZIONE O IL TASTO POWER DEL WII MENTRE STAI INSTALLANDO O MODIFICANDO DEL CONTENUTO ESSENZIALE PER LA CONSOLE**.
-    + Se la tua fonte di elettricità è instabile (es. tempesta, blackout), interrompi ogni attività fino alla fine dell'evento di instabilità.
+    + Se la tua fonte di elettricità è instabile (es.
     + Questo si applica a dei processi pericolosi come il ripristino della NAND con BootMi, che potrebbe portare a un [brick completo](#low-level-brick) se qualcosa va storto.
 
 In ogni caso, dovresti assolutamente:
@@ -156,7 +156,7 @@ Questa schermata viene mostrata nel momento in cui la console si avvia.
 ![](/images/bricks/error-003.png)
 
 #### Causa
-Prima di rilasciare i Wii coreani, Nintendo ha cambiato la chiave di criptazione di quelle unità nello specifico come tentativo disperato di prevenire le applicazioni homebrew. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. Se questo controllo ha successo, l'errore viene mostrato e la Wii viene brickata.
+Prima di rilasciare i Wii coreani, Nintendo ha cambiato la chiave di criptazione di quelle unità nello specifico come tentativo disperato di prevenire le applicazioni homebrew. Se questo controllo ha successo, l'errore viene mostrato e la Wii viene brickata. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean.
 
 Questo di solito succede subito dopo un aggiornamento della versione del sistema di un Wii coreano con la regione cambiata.
 
@@ -165,7 +165,7 @@ In quanto questo Wii succede soprattutto dopo gli aggiornamenti del Menu Wii, Pr
 
 I Wii coreani sono anche stati rilasciati con il Menu Wii 3.3, all'incirca quando Nintendo [ha corretto il bug Trucha di boot1](https://wiibrew.org/wiki/3.3#Changes), quindi BootMii su boot2 non può essere installato né usato sui Wii coreani.
 
-While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. Il procedimento include entrare in [Recovery Mode](recovery-mode), dove un exploit può essere avviato per accedere all'Homebrew Channel e rimuovere le condizioni che hanno causato il brick. Note that you must have a drivechip in order for this method to work.
+Il procedimento include entrare in [Recovery Mode](recovery-mode), dove un exploit può essere avviato per accedere all'Homebrew Channel e rimuovere le condizioni che hanno causato il brick. While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. Note that you must have a drivechip in order for this method to work.
 
 ## Brick IOS
 

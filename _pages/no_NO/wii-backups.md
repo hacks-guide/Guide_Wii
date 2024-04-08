@@ -2,7 +2,7 @@
 title: Managing Wii Backups
 ---
 
-If you need help for anything regarding this tutorial, please join <a href="https://discord.gg/rc24">the RiiConnect24 Discord server</a> (recommended) or <a href="mailto:support@riiconnect24.net">e-mail us at support\@riiconnect24.net</a>.
+If you need help for anything regarding this tutorial, please join <a href="https://discord.gg/rc24">the RiiConnect24 Discord server</a> (recommended) or <a href="mailto:support@riiconnect24.net">e-mail us at support@riiconnect24.net</a>.
 
 This guide provides instructions on how to manage your Wii backups, from joining .PART files that are output through CleanRip, to shrinking game files that can be copied onto a FAT32 device. Two programs that can be used to manage your Wii backups are Wii Backup Manager (for Windows) and Wii Backup Fusion (for Linux and MacOS) and are covered below.
 

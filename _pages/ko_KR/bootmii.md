@@ -4,9 +4,9 @@ title: "BootMii 백업"
 
 {% include toc title="목차" %}
 
-BootMii를 사용하여 NAND 백업을 생성하려면 **SD 카드**가 필요합니다. 백업이 없는 경우 이 페이지를 건너뛰어도 되지만, 가능하면 NAND 백업을 만드는 것이 좋습니다.
-
 You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
+
+BootMii를 사용하여 NAND 백업을 생성하려면 **SD 카드**가 필요합니다. 백업이 없는 경우 이 페이지를 건너뛰어도 되지만, 가능하면 NAND 백업을 만드는 것이 좋습니다.
 {: .notice--warning}
 
 ### 필요한 것

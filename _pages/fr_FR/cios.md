@@ -42,7 +42,7 @@ Si vous n'êtes pas sous Windows, vous pouvez télécharger & exécuter [ce scri
 1. Cliquez sur `Start NUS Download!`.
 1. Repeat the step 2 & 3 for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
 1. Once you have downloaded all four IOS, there will be a folder named `titles` in the same folder as the NUS Downloader.
-1. <br/> Open the folder and navigate through them until you locate the four WAD files you downloaded.
+1. Open the folder and navigate through them until you locate the four WAD files you downloaded.
 1. You can now use homebrew such as [USB Loader GX](usbloadergx) and [WiiFlow](wiiflow).
     + Là où vous placez les fichiers doit être sur le même périphérique contenant d2x cIOS Installer.
 

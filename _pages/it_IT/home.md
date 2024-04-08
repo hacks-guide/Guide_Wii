@@ -30,6 +30,7 @@ Ecco degli esempi comuni di cosa il software homebrew può fare per il tuo Wii:
 + Installare un [USB loader](wii-loaders) per lanciare backup di giochi Wii (e altre console) da un dispositivo di massa esterno
 + Eseguire backup e ripristino dei salvataggi dei giochi [Wii](wii-saves) e [GameCube](gcsaves)
 + Ripristinare la funzionalità online per [WiiConnect24](wiiconnect24) e [Nintendo Wi-Fi Connection](wiimmfi)
++ Ripristinare la funzionalità online per [WiiConnect24](wiiconnect24) e [Nintendo Wi-Fi Connection](wiimmfi)
 
 ### Che cosa installa questa guida?
 

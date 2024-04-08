@@ -6,7 +6,7 @@ title: "制作人员"
 
 {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. 尽管BlueBomb是唯一适用于Wii mini的漏洞，但它也可以在原版Wii上运行。
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. 尽管BlueBomb是唯一适用于Wii mini的漏洞，但它也可以在原版Wii上运行。 尽管BlueBomb是唯一适用于Wii mini的漏洞，但它也可以在原版Wii上运行。
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
@@ -20,7 +20,7 @@ This exploit also enables recovery from certain bricks, such as banner bricks an
 如果您需要有关本教程的任何帮助，请加入[Wii mini 破解 Discord 服务器](https://discord.gg/6ryxnkS)（推荐）
 {: .notice--info}
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery. Exceptions however, exist in circumstances like brick recovery.
 {: .notice--info}
 
 请确认主机离利用漏洞的电脑很近，理想情况下应小于 3 英尺（0.9144 米）。

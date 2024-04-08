@@ -37,7 +37,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![](/images/riiconnect24/Internet_4.png)
 
-1. Connection Settings
+1. Go to `Change Settings`.
 
     ![](/images/riiconnect24/Internet_5.png)
 

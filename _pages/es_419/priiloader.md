@@ -57,7 +57,7 @@ If you are using a vWii:
 
     ![](/images/priiloader/installing.png)
 
-1. Automatically presses the A Button to get past the initial "Health and Safety" screen.
+1. Scroll to `Homebrew Channel` and press A to launch it.
 
 #### Section III - Entering/Configuring Priiloader
 
@@ -105,7 +105,7 @@ Later on, to enter it you can:
 
 ### Wii: Next Steps
 
-If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
+If you have made it to this point, congrats! If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
 {: .notice--success}
 
 Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.

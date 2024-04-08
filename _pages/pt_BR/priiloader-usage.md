@@ -30,7 +30,7 @@ If you would like to autoboot USB loader GX, do this first:
   + Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
   + Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
   + Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
-  + Copy `uneoboot.dol` to the root of your SD card.
+  + Copy `uneoboot.dol` to the root of your SD card. You will be installing `uneoboot.dol` in step 3.
 You will be installing `uneoboot.dol` in step 3.
 </div>
 

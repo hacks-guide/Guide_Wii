@@ -12,7 +12,7 @@ In order for Wii loader to function properly, you must have the latest cIOS inst
 To play games, you are advised to use a large SD card or an external hard drive, flash drives are not recommended and very sporadic in functionality. Consulte [FAQ de armazenamento](faq).
 {: .notice--info}
 
-The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Run the app in the Homebrew Channel to install the forwarder. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme).
+You can install it with [YAWM ModMii Edition](yawmme). The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. Run the app in the Homebrew Channel to install the forwarder.
 {: .notice--info}
 
 ### Diferenças entre WiiFlow Lite e USB Loader GX
@@ -60,7 +60,7 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ##### General
 
-+ WiiFlow by default is set to only find games on the SD card. This can be changed by going to `Settings > Startup Settings` to then turn off `Mount SD Only`.
++ WiiFlow by default is set to only find games on the SD card. This can be changed by going to `Settings > Startup Settings` to then turn off `Mount SD Only`. This can be changed by going to `Settings > Startup Settings` to then turn off `Mount SD Only`.
 + You can toggle the current view in WiiFlow between plugins, games, homebrew, and Wii channels by clicking the button to the left of `Home`, on the bottom right.
 + You can download game covers by going to `Settings` > `Download Covers and Banners`.
 

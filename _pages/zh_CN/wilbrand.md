@@ -4,7 +4,7 @@ title: "Wilbrand"
 
 {% include toc title="Table of Contents" %}
 
-Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board. It is compatible with Wii menu versions 3.0 through 4.3 in all regions.
+Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board. It is compatible with Wii menu versions 3.0 through 4.3 in all regions. It is compatible with Wii menu versions 3.0 through 4.3 in all regions.
 
 本页列出了两种用于创建正确的 Wilbrand 漏洞的方法。 推荐使用 Wilbrand Web，因为它易用。
 {: .notice--info}
@@ -68,7 +68,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 * 格式化为 FAT32/MS-DOS 的 SD 卡
 * 版本至少为 3.0 的 Wii
 * [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
-* [对于Wii，如果打算安装Homebrew Channel和BootMii，我们不建议您使用BlueBomb，因为有更便捷的方法可以使用。](https://bootmii.org/download/)
+* [将 HackMii Installer v1.2 解压到 PC 的一个文件夹中。](https://bootmii.org/download/)
 
 无法在 4.0 之前的 Wii 菜单版本中使用大于 2GB 的 SD 卡。
 {: .notice--warning}
@@ -98,7 +98,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
         ![](/images/exploits/wilbrand/windows.png)
 
     + Linux/MacOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
-        + 如果您没有直接在打开了 Wilbrand 的文件夹中打开终端，请先使用 `cd` 进入该文件夹，例如： `cd ~/Desktop/Wilbrand` `cd ~/Desktop/Wilbrand`
+        + 如果您没有直接在打开了 Wilbrand 的文件夹中打开终端，请先使用 `cd` 进入该文件夹，例如： `cd ~/Desktop/Wilbrand` `cd ~/Desktop/Wilbrand` `cd ~/Desktop/Wilbrand`
         + `/media/mount_dir` 是您 SD 卡挂载的文件夹。 这可能会因您使用的 Linux 发行版而有所不同。
 
         ![](/images/exploits/wilbrand/linux.png)

@@ -15,13 +15,13 @@ For more information about Priiloader and its options, you can see the [Priiload
 ### Requisitos
 
 * Una tarjeta SD o unidad USB
-* Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
+* Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
 * https://oscwii.org/library/app/loadpriiloader
 
 #### Optional Requirements for vWii (highly recommended)
 
 * Allows you to copy normally disallowed save files to your SD card from Data Management
-* Download the USB Loader GX forwarder WAD ([Wii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad), [vWii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad)).
+* Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
     * Your Wii should now automatically boot to whichever homebrew app you installed.
 
 ### Instrucciones
@@ -105,7 +105,7 @@ Later on, to enter it you can:
 
 ### Wii: Next Steps
 
-If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
+If you have made it to this point, congrats! If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
 {: .notice--success}
 
 Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.

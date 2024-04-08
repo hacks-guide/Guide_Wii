@@ -15,18 +15,18 @@ For more information about Priiloader and its options, you can see the [Priiload
 ### 필요한 것
 
 * SD 카드 및 USB 드라이브
-* Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
+* Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
 * https://oscwii.org/library/app/loadpriiloader
 
 #### Optional Requirements for vWii (highly recommended)
 
 * 일반적으로 허용되지 않는 저장 파일을 데이터 관리에서 SD 카드로 복사할 수 있습니다.
-* Download the USB Loader GX forwarder WAD ([Wii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad), [vWii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad)).
+* Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
     * Your Wii should now automatically boot to whichever homebrew app you installed.
 
 ### 진행 방법
 
-{% capture notice-vwii-priiloader %}
+{% capture vwii-notes %}
 
 If you are using a vWii:
 
