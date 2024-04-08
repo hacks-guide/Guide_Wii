@@ -21,7 +21,7 @@ If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting
 * An SD card or USB drive
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-It is helpful to note that IOS on the Wii is not affiliated with iOS on Apple devices, and does not bare much technical similarities internally. Do not get the Wii IOSs and Apple's iOS mixed up, as it may cause confusion.
+It is helpful to note that IOS on the Wii is not related to iOS on Apple devices, and does not bear much technical similarities internally. Do not get the Wii IOSs and Apple's iOS mixed up.
 {: .notice--info}
 
 
