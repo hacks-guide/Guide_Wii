@@ -7,7 +7,7 @@ sitemap: false
 {% capture notice-1 %}
 **Sito**
 + [Menu Principale](/)
-+ [Per Iniziare](per-iniziare)
++ [Per Iniziare](get-started)
 + [FAQ](faq)
 + [Donazioni](donations)
 {% endcapture %}
