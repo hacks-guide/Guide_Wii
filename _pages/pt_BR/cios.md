@@ -4,7 +4,13 @@ title: "cIOS"
 
 {% include toc title="Sumário" %}
 
-Embora as [cIOS](https://wiibrew.org/wiki/Custom_IOS) tenham sido amplamente suplantadas pela AHBPROT, que oferece acesso completo ao hardware, ele ainda tem aplicativos úteis. Por exemplo, isso permite a funcionalidade de Loaders USB como o USB Loader GX e WiiFlow, juntamente com outras partes de homebrew como o SaveGame Manager GX. Você pode ignorar este processo se você quiser, mas, geralmente, ele estende seu Wii com pouco ou nenhum lado negativo.
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Por exemplo, isso permite a funcionalidade de Loaders USB como o USB Loader GX e WiiFlow, juntamente com outras partes de homebrew como o SaveGame Manager GX. Você pode ignorar este processo se você quiser, mas, geralmente, ele estende seu Wii com pouco ou nenhum lado negativo.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
 
 Se você tem um Wii Mini installe esta [cIOS](cios-mini) ao invés disso. Tentar instalar qualquer outra cIOS em um Wii mini não ira funcionar.
 {: .notice--warning}
@@ -21,9 +27,6 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
 ### Instruções
 
 #### Section I - Downloading (Only required if your Wii doesn't have Internet)
-
-If your Wii has an Internet connection, you may skip this section.
-{: .notice--warning}
 
 Se você não estiver no Windows, pode baixar & rodar [este script](/assets/files/d2x_offline_ios.sh)e ele vai baixar os arquivos WAD para você.
 {: .notice--info}

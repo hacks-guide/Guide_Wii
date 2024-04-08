@@ -9,22 +9,14 @@ title: "str2hax"
 
 str2hax는 Wii의 최종 사용자 라이선스 동의서를 이용해서 실행되는 Wii의 취약점입니다. 아무것도 필요하지 않으나 Wii의 DNS를 변경할 수 있게 하는 인터넷 연결이 필요합니다.
 
+CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가 대신 해당 Mod를 로드할 수 있습니다. 이 경우 Wii를 재시동하고 SD 카드를 연결하지 않은 상태에서 다시 시도합니다.
+{: .notice--warning}
+
 ### 필요한 것
 
 * 인터넷 연결이 있는 Wii
 
 ### 진행 방법
-
-#### 일반적인 문제
-
-일반 사용자 동의를 받으면 ISP가 커스텀 DNS 사용을 차단합니다. [다른 취약점 공격을 사용](get-started)하세요.
-{: .notice--warning}
-
-2분 이상 지나도 HackMii Installer가 로딩되지 않거나, `멈춤`과 같은 오류가 발생하면 `오류입니다! if_config (ret = ...)`이면 Wii를 재시작하고 다시 시도합니다.
-{: .notice--warning}
-
-CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가 대신 해당 Mod를 로드할 수 있습니다. 이 경우 Wii를 재시동하고 SD 카드를 연결하지 않은 상태에서 다시 시도합니다.
-{: .notice--warning}
 
 #### 섹션 I - 연결
 
@@ -85,10 +77,14 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
     ![](/images/exploits/str2hax/EULA.png)
 
+    + 일반 사용자 동의를 받으면 ISP가 커스텀 DNS 사용을 차단합니다. Try another connection, or [use another exploit](get-started).
+
 1. 취약점 공격이 다운로드될 때까지 1~2분 정도 기다립니다 (`동의함`/`동의하지 않음`을 누르지 마세요).
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
 
     ![](/images/hackmii/scam.png)
+
+    + 2분 이상 지나도 HackMii Installer가 로딩되지 않거나, `멈춤`과 같은 오류가 발생하면 `오류입니다! if_config (ret = ...)`이면 Wii를 재시작하고 다시 시도합니다.
 
 [홈브류 채널 및 BootMii 설치로 계속 진행하기](hbc)
 {: .notice--info}

@@ -12,7 +12,7 @@ Per far in modo che il loader Wii funzioni correttamente, è necessario aver ins
 Per giocare ai giochi, si consiglia di utilizzare una scheda SD di grandi dimensioni o un hard drive esterno, poiché le unità flash non sono consigliate e sono molto sporadiche in funzionalità. Vedi il [FAQ storage](faq).
 {: .notice--info}
 
-Il forwarder ufficiale per Menu Wii di WiiFlow Lite può essere trovato sull'[Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Avvia l'app dal canale Homebrew per installare il forwarder. Il forwarder ufficiale di USB Loader GX può essere trovato nella sua pagina [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad). Puoi installarlo con [YAWM ModMii Edition](yawmme).
+The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Avvia l'app dal canale Homebrew per installare il forwarder. Il forwarder ufficiale di USB Loader GX può essere trovato nella sua pagina [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad). Puoi installarlo con [YAWM ModMii Edition](yawmme).
 {: .notice--info}
 
 ### Differenze tra WiiFlow Lite e USB Loader GX
@@ -27,13 +27,13 @@ Il forwarder ufficiale per Menu Wii di WiiFlow Lite può essere trovato sull'[Op
 + USB Loader GX è principalmente basato sul Menu Wii e supporta i temi.
     + Anche se in passato le schede SD non erano supportate per i giochi Wii su USB Loader GX, recenti aggiornamenti hanno introdotto il loro supporto per questo loader.
     + USB Loader GX non ha un sistema di plugin.
-    + USB Loader GX riceve ancora aggiornamenti regolari.
+    + USB Loader GX still receives regular updates.
 
     ![](/images/usb-loaders/usbloadergx-ui.png)
 
 ### Struttura percorsi di gioco
 
-Di seguito è riportato un esempio di WBFS singolo e WBFS diviso.
+Di seguito è riportato un esempio di WBFS singolo e WBFS diviso. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB.
 
 ```
 💾Scheda SD o USB:
@@ -61,7 +61,7 @@ Di seguito è riportato un esempio di WBFS singolo e WBFS diviso.
 ##### Generale
 
 + Per impostazione predefinita, WiiFlow cerca solo per i giochi su scheda SD. Si può cambiare andando su `Impostazioni > Impostazioni d'avvio` per poi disattivare `Monta solo SD`.
-+ Puoi cambiare la visuale attuale su WiiFlow tra plugin, giochi, homebrew e canali Wii cliccando il pulsante alla destra di `Home`, in basso a destra.
++ You can toggle the current view in WiiFlow between plugins, games, homebrew, and Wii channels by clicking the button to the left of `Home`, on the bottom right.
 + Puoi scaricare le copertine dei giochi andando su `Impostazioni` > `Scarica copertine e banner`.
 
 ##### Interfaccia utente
@@ -148,7 +148,7 @@ Alcuni giochi richiedono specifici cIOS per funzionare oppure per utilizzare cer
 
 Un elenco più comprensivo (anche se ancora incompleto) può essere trovato [qui](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
 
-Sia USB Loader GX che WiiFlow Lite sono programmati per trovare in automatico il miglior cIOS da usare e usarlo per caricare il gioco con le impostazioni predefinite.  Tuttavia, se per qualche motivo questi loader scelgonoo il cIOS da usare sbagliato, hai l'opzione per cambiarlo manualmente.
+Both USB Loader GX and WiiFlow Lite are programmed to automatically find the best cIOS to use and load the game with it using the default settings.  Tuttavia, se per qualche motivo questi loader scelgonoo il cIOS da usare sbagliato, hai l'opzione per cambiarlo manualmente.
 
 Per cambiare il cIOS utilizzato per un gioco specifico, segui le istruzioni adatte al tuo loader USB:
 

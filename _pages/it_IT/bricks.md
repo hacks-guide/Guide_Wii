@@ -12,18 +12,19 @@ La prevenzione dei brick include diverse regole che spaziano dal buon senso a de
 
 + **NON seguire tutorial obsoleti di modding del Wii, usare software homebrew obsoleto o seguire video guide su internet a meno che non sia ESPLICITAMENTE INDICATO dallo sviluppatore del software homebrew.**
 + **NON USARE MAI, IN NESSUNA CIRCOSTANZA, L'APPLICAZIONE HOMEBREW `Pimp My Wii`. È un'applicazione homebrew PERICOLOSA che ha l'abilità di BRICKARE IL TUO WII!**
++ **Do NOT install IOS packs such as DARKCORP that overwrite most of your IOS with cIOS. It is DANGEROUS and heavily outdated.**
 + **NON ripristinare backup della NAND provenienti da altre console!**
-+ **NON usare un servizio Nintendo Wi-Fi Connection a meno che non si sappia di avere le patch RCE (come [Wiimmfi](wiimmfi). Ignorare questa indicazione potrebbe consentire a un malintenzionato di BRICKARE il tuo Wii!**
+
++ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi)). Ignorare questa indicazione potrebbe consentire a un malintenzionato di BRICKARE il tuo Wii!**
 + **Installa solo aggiornamenti che hanno la stessa regione del tuo Wii!**
     + Installare aggiornamenti che hanno un'altra regione potrebbe essere innocuo, ma può causare un brick [Korean Kii/Errore 003](bricks#korean-kiierror-003-brick) nel peggiore scenario. Per evitare che questo succeda se hai comprato un Wii usato, esegui [SysCheck](syscheck) per verificare la regione originaria della tua console. Se la regione è coreana, sii ESTREMAMENTE attento nell'eseguire gli aggiornamenti alla tua console, e considera chiedere ulteriore assistenza.
-+ **NON eliminare o modificare i file di sistema e NON installare mod dei file di sistema a meno che non tu non sappia esattamente cosa stai facendo!**
++ **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
     + Un esempio di modifica dei file errata è rimpiazzare l'IOS80 sul Wii mini, che potrebbe portare a un [Wi-Fi Brick](bricks#wi-fi-brick).
 + **NON installare homebrew da fonti poco autorevoli o se il codice sorgente non è disponibile.**
     + Le applicazioni sull'[Open Shop Channel](osc) sono sicure.
     + Ci sono stati varie occasioni in cui applicazioni malevole sono state sviluppate per il Wii in passato, mentre altre sono state semplicemente programmate in modo errato. Assicurati di conoscere ciò che stai installando, e installa solo ciò che è necessario.
     + Dei forwarder per le applicazioni homebrew corrotti o instabili potrebbero causare un [banner brick](#banner-brick), quindi prova ad avviare le applicazioni homebrew solo dall'Homebrew Channel, a meno che non ti serva davvero il forwarder.
-+ **Assicurati di sapere quello che stai facendo quando esegui applicazioni homebrew - soprattutto quelle in grado di modificare i file di sistema.**
-+ **Sii PARTICOLARMENTE attento nell'usare applicazioni come:**
++ **Assicurati di sapere quello che stai facendo quando esegui applicazioni homebrew - soprattutto quelle in grado di modificare i file di sistema. Sii PARTICOLARMENTE attento nell'usare applicazioni come:**
     + AnyTitle Deleter
     + AnyRegion Changer
     + KoreanKii (causa secondaria del brick [Korean Kii/Errore 003](bricks#korean-kiierror-003-brick))
@@ -40,23 +41,22 @@ In ogni caso, dovresti assolutamente:
 
 # Diagnosi
 
-Questa è una piccola sezione che elenca i passaggi simili a quelli di accensione del Wii, e i collegamenti al brick corrispondente se qualcosa va storto.
+This is a section intended to help you diagnose a potential brick, in order by least to most brick severity. If you seem to have a brick that isn't covered in this section or in the guide, please join the Nintendo Homebrew discord server for support.
 
-+ Accendi il Wii.
-+ Non succede nulla, schermo nero. Il Wii non può essere acceso con il Wiimote, la Recovery Mode non può essere eseguita, e BootMii su boot2 non è accessibile. Vedi il [brick a basso livello](bricks#low-level-brick).
-+ Non succede nulla, schermo nero, MA il Wii può essere accesso col Wiimote/la Recovery Mode può essere eseguita. Vedi il [brick Wi-Fi](bricks#wi-fi-brick).
-+ Non succede nulla, schermo nero, MA BootMii su boot2 è accessibile. Vedi il [brick IOS](bricks#ios-brick).
-+ Errore 003. Vedi il brick [Korean Kii/Errore 003](bricks#error-003-brick).
-+ Il Wii si avvia, MA vedi SUBITO un errore che ricorda il browser Opera. Vedi il brick [Menu Wii/Opera](bricks#wii-menuopera-brick).
-+ Il Wii si avvia, vedi l'avviso di salute e sicurezza, ma nel momento in cui premi A, lo schermo diventa nero e/o si blocca e non procede. La modalità manutenzione non è accessibile. Vedi il [brick mail](bricks#mail-brick).
++ Il Wii si avvia, e procede avviando il Menu Wii. Nessuna app presente malfunzionamenti, le impostazioni del Wii non hanno errori, e tutto sembra funzionare correttamente. No brick.
++ Il Wii si avvia, e procede avviando il Menu Wii.
+    + If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
+    + Se dopo aver aperto le impostazioni del Wii, vedi un errore che ricorda il browser Opera, vedi il [semibrick](bricks#semibrick).
 + Il Wii si avvia, vedi l'avviso di salute e sicurezza, ma nel momento in cui premi A, vedi uno schermo nero.
     + Se questo succede dopo aver installato un tema, vedi il [brick del tema](bricks#theme-brick).
     + Se questo succede dopo aver installato un WAD, vedi il [brick del banner](bricks#banner-brick).
     + Se questo succede casualmente, e puoi accedere alla modalità manutenzione tenendo premuti i tasti +/- sulla schermata di salute e sicurezza, vedi il [brick mail](bricks#mail-brick).
-+ Il Wii si avvia, e procede avviando il Menu Wii.
-    + Se dopo aver aperto un canale specifico, ottieni l'errore `The system files are corrupted.`, vedi il [brick del banner](bricks#banner-brick)
-    + Se dopo aver aperto le impostazioni del Wii, vedi un errore che ricorda il browser Opera, vedi il [semibrick](bricks#semibrick).
-+ Il Wii si avvia, e procede avviando il Menu Wii. Nessuna app presente malfunzionamenti, le impostazioni del Wii non hanno errori, e tutto sembra funzionare correttamente. A meno che tu non abbia qualche altro tipo di errore o brick che non appartiene a queste categorie (per cui dovresti chiedere supporto), sei a posto!
++ Wii starts, and you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. La modalità manutenzione non è accessibile. Vedi il [brick mail](bricks#mail-brick).
++ Il Wii si avvia, MA vedi SUBITO un errore che ricorda il browser Opera. Vedi il brick [Menu Wii/Opera](bricks#wii-menuopera-brick).
++ Errore 003. Vedi il brick [Korean Kii/Errore 003](bricks#error-003-brick).
++ Non succede nulla, schermo nero, MA BootMii su boot2 è accessibile. Vedi il [brick IOS](bricks#ios-brick).
++ Non succede nulla, schermo nero, MA il Wii può essere accesso col Wiimote/la Recovery Mode può essere eseguita. Vedi il [brick Wi-Fi](bricks#wi-fi-brick).
++ Non succede nulla, schermo nero. Il Wii non può essere acceso con il Wiimote, la Recovery Mode non può essere eseguita, e BootMii su boot2 non è accessibile. Vedi il [brick a basso livello](bricks#low-level-brick).
 
 # Tipi di Brick
 
@@ -132,7 +132,7 @@ Da qui, l'Homebrew Channel può essere avviato e il brick può essere risolto el
 Quando avvii il Wii, ottieni un errore dal browser Opera simile a `You tried to access the address (URL), which is currently unavailable.` Questo succede ogni volta che accendi il Wii, e non può essere aggirato con nessun mezzo.
 
 #### Causa
-Questo brick è una versione più grave del [Semibrick](#semibrick). Se il tuo SYSCONF è corrotto o dennaggiato, il Wii lo rigenererà e avvierà la fase di configurazione.
+Questo brick è una versione più grave del [Semibrick](#semibrick). If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
 
 Tuttavia, la pagina di configurazione ha una posizione simile a quella delle impostazioni del Wii. Se hai un Menu Wii o un tema di regione incorretta, il Wii non può trovarle.
 
@@ -146,7 +146,7 @@ Se non hai Priiloader o il tuo Wii non è modificato, puoi provare [BlueBomb](bl
 
 Alternativamente, la [Recovery Mode](recovery-mode) può essere usata come tentativo di risoluzione.
 
-## Brick Korean Kii/Errore 003
+## KoreanKii/Error 003 Brick
 
 #### Sintomi
 Questa schermata viene mostrata nel momento in cui la console si avvia.
@@ -156,16 +156,16 @@ Questa schermata viene mostrata nel momento in cui la console si avvia.
 ![](/images/bricks/error-003.png)
 
 #### Causa
-Prima di rilasciare i Wii coreani, Nintendo ha cambiato la chiave di criptazione di quelle unità nello specifico come tentativo disperato di prevenire le applicazioni homebrew. Mentre ovviamente questo tentativo è fallito, hanno anche lasciato un controllo nel Menu di sistema delle versioni 4.2/4.3 per verificare la presenza della chiave coreana su console di regione **non** coreana. Se questo controllo ha successo, l'errore viene mostrato e la Wii viene brickata.
+Prima di rilasciare i Wii coreani, Nintendo ha cambiato la chiave di criptazione di quelle unità nello specifico come tentativo disperato di prevenire le applicazioni homebrew. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. Se questo controllo ha successo, l'errore viene mostrato e la Wii viene brickata.
 
 Questo di solito succede subito dopo un aggiornamento della versione del sistema di un Wii coreano con la regione cambiata.
 
 #### Soluzioni
-In quanto questo Wii succede soprattutto dopo gli aggiornamenti del Menu Wii, Priiloader non sarà presente.
+In quanto questo Wii succede soprattutto dopo gli aggiornamenti del Menu Wii, Priiloader non sarà presente. In the case that Priiloader is present, you can simply fix it by either installing the previous Wii System Menu or removing the key with the KoreanKii homebrew app.
 
 I Wii coreani sono anche stati rilasciati con il Menu Wii 3.3, all'incirca quando Nintendo [ha corretto il bug Trucha di boot1](https://wiibrew.org/wiki/3.3#Changes), quindi BootMii su boot2 non può essere installato né usato sui Wii coreani.
 
-Anche se queste limitazioni lasciano il Wii in una situazione pericolosa, **è comunque sistemabile**. Il procedimento include entrare in [Recovery Mode](recovery-mode), dove un exploit può essere avviato per accedere all'Homebrew Channel e rimuovere le condizioni che hanno causato il brick.
+While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. Il procedimento include entrare in [Recovery Mode](recovery-mode), dove un exploit può essere avviato per accedere all'Homebrew Channel e rimuovere le condizioni che hanno causato il brick. Note that you must have a drivechip in order for this method to work.
 
 ## Brick IOS
 
@@ -211,9 +211,9 @@ Questo brick di verifica nel momento in cui boot1/boot2 sono corrotti, o se c'è
 #### Soluzioni
 Per prima cosa, deve essere effettuata la risoluzione dei problemi per determinare se c'è un problema hardware. Nell'ordine elencato, procedi come segue:
 
-+ Assicurati che il Wii effettivamente funzioni (legga e faccia girare i dischi normalmente, si connetta con i Wiimote) prima di proseguire. Se è questo il caso e solo l'output video non viene mostrato, potresti avere un fallimento della porta video o della GPU molto rara.
-+ Se stai usando un Wii mini, e un IOS80 normale è stato installato, vedi [brick Wi-Fi](wi-fi-brick). Se i passaggi per risolvere il brick Wi-Fi falliscono, procedi.
-+ Prova ad accedere alla [Recovery Mode](recovery-mode) (solo Wii normali). Se la Recovery Mode si avvia, vedi [brick Wi-Fi](wi-fi-brick). Se i passaggi per risolvere il brick Wi-Fi falliscono, procedi.
++ Assicurati che il Wii effettivamente funzioni (legga e faccia girare i dischi normalmente, si connetta con i Wiimote) prima di proseguire. If this is the case and only video is not being displayed, you may have a bad video cable, or an exceptionally rare failure of the video port or the GPU.
++ If on a Wii mini, and if a normal IOS80 was installed, see [Wi-Fi brick](bricks#wi-fi-brick). Se i passaggi per risolvere il brick Wi-Fi falliscono, procedi.
++ Prova ad accedere alla [Recovery Mode](recovery-mode) (solo Wii normali). If the Wii boots into Recovery Mode, see [Wi-Fi brick](bricks#wi-fi-brick) or [IOS brick](bricks#ios-brick). If steps to resolve the Wi-Fi brick or IOS brick failed, proceed.
 + Riposizione l'unità del disco e prova ad avviare la console normalmente. Se ancora non hai successo, rimpiazza l'unità del disco. Se ancora non hai successo, procedi.
 + A questo punto, vi è una corruzione a basso livello di boot0/boot1, un fallimento del chip della NAND, o c'è un fallimento hardware sconosciuto più grave. Considera chiedere aiuto online o comprare un altro Wii.
 

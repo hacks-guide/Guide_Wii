@@ -7,7 +7,7 @@ sitemap: false
 {% capture notice-1 %}
 **Site**
 + [Wii Guide](/)
-+ [Start Here](get-started)
++ [Începe](get-started)
 + [FAQ - Întrebări Frecvente](faq)
 + [Donations](donations)
 {% endcapture %}
@@ -34,16 +34,17 @@ sitemap: false
 {% capture notice-4 %}
 **Modding 101 - Wii Essentials**
 + [BootMii Backup](bootmii)
-+ [BootMii Recovery (RestoreMii)](bootmiirecover)
++ [Restaurare BootMii](bootmiirecover)
 + [Brick Overview](bricks)
-+ [Brick Prevention](bricks#brick-prevention)
++ [Prevenirea Brick-urilor](bricks#brick-prevention)
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
-+ [Relaunching the HackMii Installer](hackmii)
++ [Redeschiderea Instalatorului HackMii](hackmii)
 + [Updating Wii Menu to v4.3](update)
++ [Recovery Mode](recovery-mode)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Removing RSSMii](wnd-mini)
 + RiiTag
@@ -54,12 +55,11 @@ sitemap: false
 + [Creating Wii Game Shortcuts](wiigsc)
 + [How to dump Channels (WADs)](dump-wads)
 + [How to dump GameCube/Wii Games](dump-games)
-+ [Managing GameCube Backups](gc-backups)
++ [Gestionarea Backup-urilor GameCube](gc-backups)
 + [Managing GameCube Save Files](gcsaves)
 + [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
-+ [RSSMii](rssmii)
 + [Transferring Save Games](transfer-saves)
 + [USB Loaders](wii-loaders)
 + [Using SysCheck](syscheck)

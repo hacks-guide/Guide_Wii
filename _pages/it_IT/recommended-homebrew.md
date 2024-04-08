@@ -30,15 +30,15 @@ Homebrew che hanno la capacità di apportare modifiche permanenti al tuo Wii son
 + [CavEX](https://oscwii.org/library/app/cavex) - Un progetto con l'intento di ricreare l'esperienza base di soppravivenza del tuo gioco di blocchi preferito su Wii fino alla Beta 1.7.3.
 + [Sonic CD](https://oscwii.org/library/app/SonicCDWii) - Un port del re-release 2011 di Sonic CD dalla decompilation RSDKv3. **L'app richiede gli asset dal rilascio ufficiale al fine di consentirne l'avvio.**.
 + [CTGP-R](https://www.chadsoft.co.uk/download/) - Una mod abbondante di Mario Kart Wii che aggiunge più di **200** nuovi tracciati al gioco. Richiede un disco per Mario Kart Wii per permetterne l'esecuzione, indipendente da Riivolution.
-+ [Newer Super Mario Bros. Wii](https://newerteam.com/wii/download.html) - Una mod significativa di NSMBW che aggiunge **128** nuovi livelli al gioco. Richiede un disco per NSMBW e Riivolution per avviarsi.
++ [Newer Super Mario Bros. Wii](https://newerteam.com/wii/download.html) - A significant New Super Mario Bros. Wii mod that adds **128** brand new levels to the game. Requires a retail New Super Mario Bros. Wii disc and Riivolution to run.
 
 
 
 ### Emulatori
 
-+ [FCE Ultra GX](https://oscwii.org/library/app/fceugx) - Un port di FCE Ultra, un emulatore di Nintendo Entertainment System/Famicom, per Wii.
++ [FCE Ultra RX](https://oscwii.org/library/app/fceurx) - A fork of FCE Ultra GX, a Nintendo Entertainment System/Famicom emulator, with extra features and speed improvements.
 + [Snex9x RX](https://oscwii.org/library/app/Snes9xRX) - Un fork di Snes9x GX, un emulatore Super Nintendo Entertainment System/Super Famicom, con funzionalità aggiuntive e miglioramenti della velocità.
-+ [Wii64](https://oscwii.org/library/app/wii64) - Un port di Mupen64 0.5, un emulatore Nintendo 64, per Wii.
++ [Not64](https://oscwii.org/library/app/not64) - A port of Mupen64 0.5, a Nintendo 64 emulator, to the Wii.
 + [Genesis Plus GX](https://oscwii.org/library/app/genplus-gx) - Un emulatore con il supporto per le console Sega SG-1000, Sega Master System, Sega Genesis/Mega Drive, Sega Game Gear, e Sega/Mega CD.
 + [mGBA](https://oscwii.org/library/app/mgba) - Un port di mGBA, un emulatore Game Boy/Game Boy Color/Game Boy Advance, per Wii.
 + [WiiMednafen](https://oscwii.org/library/app/wiimednafen) - Un port di Mednafen, un emulatore multi-sistema, per Wii. Questa versione supporta le console più oscure tipo Neo Geo Pocket, TurboGrafx 16/PC Engine (CD) e Bandai Wonderswan.
@@ -49,7 +49,6 @@ Homebrew che hanno la capacità di apportare modifiche permanenti al tuo Wii son
 
 + [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - Una versione modificata e migliorata di WiiMC. Trasforma il tuo Wii in un centro multimediale a tutti gli effetti, con la possibilità di ascoltare musica, guardare video, riprodurre DVD e altro ancora.
 + [Schism Tracker](https://oscwii.org/library/app/schismtracker) - Un editor e riproduttore per musica tracker (IT, XM, S3M, MOD, ecc.). Puoi trovare musica da provare [qui](https://modarchive.org/).
-+ [Danbo](https://oscwii.org/library/app/danbo) - Danbo
 
-[Continua verso WiiConnect24](wiiconnect24)<br> WiiConnect24 è stato inizialmente interrotto nel giugno 2013, ma nel presente, ora ci sono due servizi diversi che ripristinano le sue funzionalità in diverse applicazioni.
+[Continue to WiiConnect24](wiiconnect24)<br> WiiConnect24 was originally discontinued in June 2013, but as of the present, there's now a service that restores its functionality.
 {: .notice--info}

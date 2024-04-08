@@ -1,5 +1,5 @@
 ---
-title: Restoring The Wii NAND to Stock
+title: Restoring the Wii NAND to Stock
 ---
 
 {% include toc title="목차" %}

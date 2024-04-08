@@ -77,7 +77,7 @@ A method for Wiimmfi patching which runs on retail disc games, but must be manua
 
 #### What you need
 
-+ An SD card or USB drive
++ Un card SD sau o unitate USB
 + [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
 
 #### Instrucțiuni
@@ -116,7 +116,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 #### Instructions (for Wii)
 
 + A Wii with an internet connection, running in 60Hz mode
-+ The Internet Channel
++ Internet Channel
 
 #### Instrucțiuni
 

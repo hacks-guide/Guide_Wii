@@ -4,10 +4,7 @@ title: "Wilbrand"
 
 If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
 
-Wilbrand, like LetterBomb, is an exploit for the Wii that is triggered using the Wii Message Board.
-
-Unlike LetterBomb, Wilbrand supports Wii menu versions down to 3.0.
-{: .notice--info}
+Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board. It is compatible with Wii menu versions 3.0 through 4.3 in all regions.
 
 There are two methods listed on this page used to create the proper Wilbrand exploit. Wilbrand Web is recommended for its ease of use.
 {: .notice--info}
@@ -58,9 +55,9 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     ![](/images/exploits/wilbrand/msgboard.png)
 
 1. Dacă exploit-ul a funcționat, dispozitivul va intra în HackMii Installer.
-    + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started) (ie. Letterbomb).
+    + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started).
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continuă la Homebrew Channel și Instalarea BootMii](hbc)
 {: .notice--info}
 
 ### Wilbrand CLI
@@ -121,5 +118,5 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 1. Dacă exploit-ul a funcționat, dispozitivul va intra în HackMii Installer.
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continuă la Homebrew Channel și Instalarea BootMii](hbc)
 {: .notice--info}

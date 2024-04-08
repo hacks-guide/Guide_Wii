@@ -44,6 +44,7 @@ sitemap: false
 + [Featured](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)
++ [Recovery Mode](recovery-mode)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wii Mod Lite](wnd-mini)
 + YAWM ModMii Edition
@@ -59,7 +60,6 @@ sitemap: false
 + [Managing Wii Backups](wii-backups)
 + [安裝 Priiloader](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
-+ [Installing RSSMii](rssmii)
 + [Transferring Save Games](transfer-saves)
 + [USB Loader GX](wii-loaders)
 + [Performing a SysCheck](syscheck)

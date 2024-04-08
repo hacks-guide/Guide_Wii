@@ -7,9 +7,9 @@ title: "Open Shop Channel"
 For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
 {: .notice--primary}
 
-The [Open Shop Channel](https://oscwii.org/) is a homebrew app repository created by dhtdht020, and is currently the preferred way to download homebrew. Not only is it more convenient due to having the most commonly used homebrew in one place, but it is also safer as apps are manually added to the repository. You can see where an app is being obtained from by checking its [manifest](https://github.com/OpenShopChannel/Apps/tree/master/contents).
+The [Open Shop Channel](https://oscwii.org/) is a homebrew app repository created by dhtdht020, and is currently the preferred way to download homebrew.
 
-There are two methods to use the Open Shop Channel: on your Wii through the Homebrew Browser, or outside of your Wii through OSCDL.
+There are two methods to use the Open Shop Channel: on your Wii through Homebrew Browser, or outside of your Wii through OSCDL.
 
 ### Method I - Homebrew Browser
 
@@ -17,16 +17,16 @@ There are two methods to use the Open Shop Channel: on your Wii through the Home
 
 + A homebrewed Wii with an active Internet connection
 + SD 카드 또는 USB 드라이브
-+ [The Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
++ [Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
 #### 진행 방법
 
-1. Download the reccomended `.zip` file from the Open Shop Channel website.
+1. Download the recommended `.zip` file from the Open Shop Channel website.
 
     ![](/images/osc/zip-download-HBB.png)
 
 1. Extract the `apps` folder in the archive to the root of your SD card or USB drive. Optionally, the archive also comes with a guide on how to use the Homebrew Browser.
-1. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. The Homebrew Browser should now display.
+1. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. Homebrew Browser should now display.
 
 ### Method II - OSCDL
 

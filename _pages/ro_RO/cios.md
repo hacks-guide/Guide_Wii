@@ -4,57 +4,60 @@ title: "cIOS"
 
 {% include toc title="Tabel de Conținut" %}
 
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. De exemplu, acesta permite folosirea unor USB loader-e precum USB Loader GX și WiiFlow, precum și alte aplicații homebrew precum SaveGame Manager GX. Poți sări acest proces dacă vrei, dar în general îți îmbunătățește consola Wii fără niciun dezavantaj.
 
-If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting to install other cIOS on a Wii mini will not work.
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+Dacă ai un Wii mini, folosește în schimb [acest](cios-mini) ghid pentru cIOS. Încercarea de a instala alte cIOS-uri pe un Wii mini nu va merge.
 {: .notice--warning}
 
 ### Instrumente necesare
 
-* A Wii
-* An SD card or USB drive
+* Un Wii
+* Un card SD sau o unitate USB
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
+Asigură-te că dacă folosești un card SD, comutatorul de blocare este în poziția deblocată, altfel nu vei putea alege opțiunile corecte în instalator.
 {: .notice--warning}
 
 ### Instrucțiuni
 
-#### What you need
+#### Secțiunea I - Descărcare
 
-If your Wii has an Internet connection, you may skip this section.<br> However, If you encounter any errors like `net_init failed`, `net_gethostbyname failed:`, or any other issues during the downloading stage this will allow the Wii to skip the downloading step.
-{: .notice--warning}
-
-If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
+Dacă nu folosește Windows, poți descărca & rula [acest script](/assets/files/d2x_offline_ios.sh) și îți va descărca fișierele WAD pentru tine.
 {: .notice--info}
 
-1. Download, extract, and run [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-1. Insert your SD card or USB drive into your computer.
-1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-1. Repeat the step 2 & 3 for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
-1. Run `NUS Downloader.exe`.
-1. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
-    + Ensure that "Pack WAD" is checked.
-    + *Don't* check "Patch IOS". That is the cIOS Installer's job.
-1. Click `Start NUS Download!`.
-1. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
-1. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
-1. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
-1. Place each WAD file on the root of your SD card or USB drive.
-    + This must be the same device containing the d2x cIOS Installer.
+1. Oprește-ți consola.
+1. Introdu cardul tău SD sau unitatea ta USB în calculator.
+1. Pe calculator, descarcă [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
+1. Copiază toate fișierele din fișierul `.zip` NUS Downloader într-un dosar din calculatorul tău.
+1. Rulează `NUS Downloader.exe`.
+1. Navighează la `Database` > `IOS` > `IOS38`, apoi alege `v4123`.
+    + Asigură-te că "Pack WAD" este bifat.
+    + *Nu* bifa "Patch IOS". Asta este sarcina Instalatorului de cIOS.
+1. Apasă pe `Start NUS Download!`.
+1. Repetă pașii de mai sus pentru `IOS56 v5661`, `IOS57 v5918` și `IOS58 v6175`.
+1. Odată ce procesul este complet, va apărea un dosar numit `titles` în același dosar cu NUS Downloader.
+1. Deschide dosarul `titles` și navighează prin ele până când găsești cele patru fișiere WAD pe care le-ai descărcat.
+1. Pune fiecare fișier WAD în rădăcina cardului tău SD sau unității tale USB.
+    + Acesta trebuie să fie același dispozitiv care conține aplicația d2x cIOS Installer.
 
-The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_ios.png)
+Fișierele WAD ar trebui să fie în cardul tău SD în felul următor: ![](/images/cios/d2x_offline_ios.png)
 {: .notice--info}
 
-#### Section II - Installing
+#### Secțiunea II – Instalare
 
 
-1. Download the d2x cIOS installer and extract the zip to the root of your SD card or USB drive.
-1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel
-1. Press A to continue, then set the options to the following:
-1. Launch the Homebrew Channel.
-1. Launch d2x cIOS Installer from the list of homebrew.
-1. Set everything to match the following:
+1. Copiază dosarul `apps` din fișierul `.zip` d2x-cios-installer în rădăcina cardului tău SD sau unității tale USB.
+1. Reintrodu cardul tău SD sau unitatea ta USB în consolă.
+1. Pornește-ți consola.
+1. Rulează Homebrew Channel.
+1. Rulează d2x cIOS Installer din lista de aplicații homebrew.
+1. Setează opțiunile astfel:
 
     ```
     Select cIOS <d2x-v11-beta1>
@@ -65,31 +68,31 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 
     ![](/images/cios/d2x_v11_248.png)
 
-    The warning "`(c)IOS detected in slot ### will be overwriitten`" can be safely ignored.
+    Avertismentul "`(c)IOS detected in slot ### will be overwriitten`" poate fi ignorat în siguranță.
     {: .notice--info}
 
-    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.)
+    Dacă vezi mesajul "`Slot ### already used in batch settings`" sau "`cIOS already added in batch with revision ##### and slot ###`", apasă `-` pentru a dezactiva modul batch. <br> (Dacă încerci să ieși din instalator, butonul este B, nu Home.)
     {: .notice--info}
 
-1. Press `A`. This will bring you to the slot map:
+1. Apasă `A`. Acest lucru te va aduce la harta sloturilor:
 
     ![](/images/cios/d2x_summary.png)
 
-1. Press `A` again.
+1. Apasă `A` din nou.
 
     ![](/images/cios/d2x_installation.png)
 
-1. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
+1. Odată ce instalarea este finalizată, vei fi adus înapoi la harta sloturilor. Asigură-te că slotul care tocmai a fost instalat este evidențiat verde.
 
     ![](/images/cios/d2x_log.png)
 
-    If the slot is highlighted red, try install the cIOS again. <br> If you are getting an error before/during the downloading stages, press B to exit and continue from [Section I](#section-i---downloading).
+    Dacă slotul este evidențiat roșu, încearcă să mai instalezi cIOS-ul din nou. <br> Dacă primești o eroare înainte/după etapa de descărcare, apasă B pentru a ieși și întoarce-te la [Secțiunea I](#section-i---downloading).
     {: .notice--info}
 
-1. Press `A`. This will return you to the configuration screen.
-1. Repeat the previous 5 steps with the following configurations:
+1. Apasă `A`. Asta te va întoarce la ecranul de configurare.
+1. Repetă ultimii 5 pași cu următoarele configurații:
 
-    + cIOS 249 Installation
+    + Instalarea cIOS 249
 
         ```
         Select cIOS <d2x-v11-beta1>
@@ -100,7 +103,7 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 
         ![](/images/cios/d2x_v11_249.png)
 
-    + cIOS 250 Installation
+    + Instalarea cIOS 250
 
         ```
         Select cIOS <d2x-v11-beta1>
@@ -111,7 +114,7 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 
         ![](/images/cios/d2x_v11_250.png)
 
-    + cIOS 251 Installation
+    + Instalarea cIOS 251
 
         ```
         Select cIOS <d2x-v11-beta1>
@@ -122,7 +125,7 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 
         ![](/images/cios/d2x_v11_251.png)
 
-1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+1. Odată ce ai terminat cu toate cele 4 cIOS-uri, apasă B pentru a te întoarce în Homebrew Channel.
 
-The WAD files should be on your SD card like this:
+Continuă la [Instalarea Open Shop Channel](osc) <br> Acum că sistemul tău Wii are protecție anti-brick adecvată, poți instala Open Shop Channel, o sursă de încredere pentru aplicații homebrew care poate fi accesată atât din cât și din afara consolei Wii.
 {: .notice--info}

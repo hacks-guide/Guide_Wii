@@ -1,52 +1,52 @@
 ---
-title: "RiiConnect24"
+title: "FlashHax"
 ---
 
-If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
+{% include toc title="Table of Contents" %}
 
-FlashHax is an exploit for the Wii that is triggered by using the Internet Channel. Unlike other exploits, this doesn't require an SD card.
+FlashHax este un exploit pentru Wii care este declanșat folosind Internet Channel. Spre deosebire de alte exploit-uri, acesta nu necesită un card SD.
 
 ### Instrumente necesare
 
-* A Wii with an Internet connection
-* The Internet Channel
+* Un Wii cu o conexiune la Internet
+* Internet Channel
 
 ### Instrucțiuni
 
-#### What you need
+#### Secțiunea I - Pregătire
 
 1. Pornește consola.
-1. Launch the Internet Channel.
+1. Deschide Internet Channel.
 
     ![](/images/exploits/flashhax/internet-channel-start.png)
 
-1. Go to `flashhax.com`.
-1. Select the correct region for your console.
+1. Mergi la `flashhax.com`.
+1. Alege regiunea corectă consolei tale.
 
     ![](/images/exploits/flashhax/select-region.png)
 
-1. Press the star button to open the bookmark tab.
-1. Select `Add Favorite`.
+1. Apasă pe butonul stea pentru a deschide fereastra de marcaje.
+1. Apasă pe `Add Favorite`.
 
     ![](/images/exploits/flashhax/bookmark-page.png)
 
 
-#### Section II - FlashHax
+#### Secțiunea II – FlashHax
 
-1. Open the site from the bookmark
-1. Wait a while
-    + It may take some time as it is downloading the installer over the Internet.
+1. Deschide site-ul din marcajul creat mai devreme
+1. Așteaptă ceva timp
+    + S-ar putea să dureze ceva timp pentru că descarcă instalatorul prin Internet.
 
     ![](/images/exploits/flashhax/wait-for-download.png)
 
 1. Dacă exploit-ul a funcționat, dispozitivul va intra în HackMii Installer.
-    + This may take multiple tries.
-    + If the HackMii Installer doesn't load and it instead freezes (you can't move your cursor), restart your Wii, launch the Internet Channel, then retry this section.
+    + S-ar putea să ai nevoie de mai multe încercări.
+    + Dacă HackMii Installer nu se încarcă și în schimb îngheață (nu poți să-ți miști cursorul), repornește-ți consola, redeschide Internet Channel și reîncearcă această secțiune.
 
-If you still can't get it to load, try deleting your cookies or save data for the Internet Channel.
+Dacă tot nu poți să-l faci să ruleze, încearcă să-ți ștergi cookie-urile sau datele de salvare pentru Internet Channel.
 
-If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
+Dacă după mai multe încercări Flashhax tot nu merge, ar trebui să încerci în schimb un [exploit diferit](get-started).
 
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continuă la Homebrew Channel și Instalarea BootMii](hbc)
 {: .notice--info}

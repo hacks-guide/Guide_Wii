@@ -14,7 +14,7 @@ For more information about Priiloader and its options, you can see the [Priiload
 
 ### Installing Priiloader
 
-* An SD card or USB drive
+* Un card SD sau o unitate USB
 * Installing a theme after installing Priiloader **will brick your vWii.**
 * [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
@@ -37,14 +37,14 @@ If you are using a vWii:
 
 <div class="notice--danger">{{ vwii-notes | markdownify }}</div>
 
-#### What you need
+#### Secțiunea I - Pregătire
 
 1. Download the Priiloader installer and LoadPriiloader apps.
 1. Extract both apps to the root of your SD card or USB drive.
 1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
 1. (vWii only) Copy the `wiiu` folder from the PriiloaderWiiUForwarder `.zip` to the root of your SD card.
-1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel
+1. Reintrodu cardul tău SD sau unitatea ta USB în consolă.
 
 #### Section II - Installing Priiloader
 

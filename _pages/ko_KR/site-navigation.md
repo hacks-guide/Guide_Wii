@@ -44,6 +44,7 @@ sitemap: false
 + [Priiloader](priiloader)
 + [HackMii 설치 프로그램 다시 시작하기](hackmii)
 + [Wii 메뉴 v4.3으로 업데이트하기](update)
++ [Recovery Mode](recovery-mode)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wii U를 위한 RiiTag](wnd-mini)
 + YAWM ModMii Edition
@@ -59,7 +60,6 @@ sitemap: false
 + [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [추천](recommended-homebrew)
-+ [RSSMii 제거](rssmii)
 + [Transferring Save Games](transfer-saves)
 + [USB 로더 GX](wii-loaders)
 + [SysCheck 수행](syscheck)

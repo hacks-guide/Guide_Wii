@@ -1,5 +1,5 @@
 ---
-title: Restoring The Wii NAND to Stock
+title: Restoring the Wii NAND to Stock
 ---
 
 {% include toc title="Tabel de Conținut" %}
@@ -25,7 +25,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 ### Instrumente necesare
 
-- An SD card with at least 512MB of free space
+- Un card SD cu cel puțin 512MB de spațiu liber (1GB sau mau mult este recomandat)
 - A [NAND backup](bootmii) from the specific system you are trying to flash
 - A Windows computer with an Internet connection
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)

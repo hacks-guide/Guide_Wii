@@ -4,13 +4,12 @@ title: "はじめに"
 
 {% include toc title="Table of Contents" %}
 
-Although you can follow this guide without an SD card, you will not be able to create or restore a NAND backup using BootMii, and you won't be able to use some homebrew.
-{: .notice--info}
+This guide is for the original Wii and Wii mini only (including the Wii Family Edition). Do not use this on a Wii U (vWii)! If you want to install homebrew on a Wii U, [follow this guide](https://wiiu.hacks.guide).
 
 All of the exploits run the HackMii Installer, and have the same end result.
-{: .notice--info}
 
-This guide is for the original Wii and Wii mini only (including the Wii Family Edition). Do not use this on a Wii U (vWii)! If you want to install homebrew on a Wii U, [follow this guide](https://wiiu.hacks.guide).
+Although you can follow this guide without an SD card, you will not be able to create or restore a NAND backup using BootMii, and you won't be able to use some homebrew.
+{: .notice--info}
 
 ### Identify your console revision:
 
@@ -18,7 +17,7 @@ This guide is for the original Wii and Wii mini only (including the Wii Family E
 
 ### Choose an exploit to use
 
-Select the exploit that corresponds to your console and situation the best. If the recommended option does not work for you, or if you are curious about other exploits, check out [Legacy Exploits](legacy-exploits).
+Select the exploit that corresponds to your console and situation the best.
 
 | Console Revision       | Recommended Exploit                                                                                                                                                                                                                                                                      |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -26,3 +25,9 @@ Select the exploit that corresponds to your console and situation the best. If t
 | Wii Mini               | [BlueBomb](bluebomb) - Exploit that uses Bluetooth                                                                                                                                                                                                                                       |
 | Wii U (vWii)           | If you have not modded your Wii U yet:<br> Proceed to [Introduction (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/)<br> If your Wii U is already modded:<br> Proceed to [vWii Modding (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/vwii/sd-preparation)             |
 | Dolphin Emulator       | Proceed to [Homebrew Channel on Dolphin](homebrew-dolphin)                                                                                                                                                                                                                               |
+
+### Alternate methods
+
+If possible, you should follow the method given above.
+
+If the recommended option does not work for you, or if you are curious about other exploits, check out [Legacy Exploits](legacy-exploits).

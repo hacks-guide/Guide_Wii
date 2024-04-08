@@ -13,7 +13,7 @@ No se recomienda usar una memoria USB, ya que su capacidad por lo general es lim
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 {: .notice--info}
 
-Asegúrate de que tu unidad USB o tarjeta SD esté formateada como FAT32. No es posible usar otros sistemas de archivos más recientes, como exFAT o extFS. <br>
+Asegúrate de que tu unidad USB o tarjeta SD esté formateada como FAT32. Do not format it as other types such as exFAT or extFS. <br>
 You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 {: .notice--info}
 

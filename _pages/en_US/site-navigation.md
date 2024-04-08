@@ -46,6 +46,8 @@ sitemap: false
 + [Relaunching the HackMii Installer](hackmii)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Updating Wii Menu to v4.3](update)
++ [Recovery Mode](recovery-mode)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
@@ -60,7 +62,6 @@ sitemap: false
 + [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
-+ [RSSMii](rssmii)
 + [Transferring Save Games](transfer-saves)
 + [Wii Backup Loaders](wii-loaders)
 + [Using SysCheck](syscheck)

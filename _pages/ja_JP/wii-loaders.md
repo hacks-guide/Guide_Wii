@@ -12,7 +12,7 @@ In order for Wii loader to function properly, you must have the latest cIOS inst
 To play games, you are advised to use a large SD card or an external hard drive, flash drives are not recommended and very sporadic in functionality. 詳しくは[FAQ](faq)を確認してください。
 {: .notice--info}
 
-The official Wii menu forwarder installer for Wiiflow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Run the app in the Homebrew Channel to install the forwarder. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme).
+The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Run the app in the Homebrew Channel to install the forwarder. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme).
 {: .notice--info}
 
 ### WiiFlow LiteとUSB Loader GXの違い
@@ -27,13 +27,13 @@ The official Wii menu forwarder installer for Wiiflow Lite can be found on the [
 + USB Loader GXはWii Menuと同じデザインを使っており、テーマが使えます。
     + SDカード対応はもともとありませんでしたが、最近のアップデートで対応性が追加されました。
     + USb Loader GXはプラグインに対応してません。
-    + USB Loader GXは現在もアップデートされてます。
+    + USB Loader GX still receives regular updates.
 
     ![](/images/usb-loaders/usbloadergx-ui.png)
 
 ### ゲームディレクトリのテンプレート
 
-Below is a single WBFS example, and a split WBFS example.
+Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB.
 
 ```
 💾SD card or USB:
@@ -61,7 +61,7 @@ Below is a single WBFS example, and a split WBFS example.
 ##### 基本
 
 + WiiFlowは自動的にSDカードに載っているゲームだけ読み取るようになってます。 This can be changed by going to `Settings > Startup Settings` to then turn off `Mount SD Only`.
-+ You can toggle the current view in Wiiflow between plugins, games, homebrew, and Wii channels by clicking the button to the left of `Home`, on the bottom right.
++ You can toggle the current view in WiiFlow between plugins, games, homebrew, and Wii channels by clicking the button to the left of `Home`, on the bottom right.
 + You can download game covers by going to `Settings` > `Download Covers and Banners`.
 
 ##### User Interface
@@ -148,7 +148,7 @@ Some games require using a specific cIOS to function, or to utilize certain feat
 
 A more comprehensive (although still incomplete) list can be found [here](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
 
-Both USB Loader GX and Wiiflow Lite are programmed to automatically find the best cIOS to use and load the game with it using the default settings.  However, if for whatever reason these loaders pick the wrong cios to use, you have the option to change it yourself.
+Both USB Loader GX and WiiFlow Lite are programmed to automatically find the best cIOS to use and load the game with it using the default settings.  However, if for whatever reason these loaders pick the wrong cios to use, you have the option to change it yourself.
 
 To change the cIOS used for a specific game, follow the instructions specific to your USB loader:
 
