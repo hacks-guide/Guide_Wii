@@ -189,5 +189,5 @@ The HackMii Solutions Wizard is a tool that fixes problems that may arise from t
 
     ![](/images/modmii/hackmii-wizard-5.png)
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}
