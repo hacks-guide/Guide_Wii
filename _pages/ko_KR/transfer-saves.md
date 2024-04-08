@@ -127,16 +127,9 @@ Make sure you have installed [cIOS](cios) before following this!
 `<User Folder>` refers to the folder opened by the `File -> Open User Folder` menu option. ![](/images/dolphin/dolphin-user-folder.png)
 {: .notice--info}
 {% endcapture %}
-![](/images/dolphin/dolphin-user-folder.png)
-{: .notice--info}
-{% endcapture %}
 {% capture dolphin-emu-memcard-manager %}
-If Dolphin is set to use a `.raw` memory card, use `Tools > Memory Card Manager` to export your desired saves to `.gci`.
 Create a folder named `MCBACKUP` on your SD card or USB drive, and place the `.gci` files you copied into it.
 {{ dolphin-emu-memcard-manager }}
-{% endcapture %}
-![](/images/homebrew/gcsaves/dolphin-emu-memcard-manager.png)
-{: .notice--info}
 {% endcapture %}
 All methods here assume you have the [latest Beta or Development version of Dolphin Emulator](https://dolphin-emu.org/download).
 {: .notice--info}
