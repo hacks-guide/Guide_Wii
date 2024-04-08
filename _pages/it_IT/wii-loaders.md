@@ -168,5 +168,5 @@ Per cambiare il cIOS utilizzato per un gioco specifico, segui le istruzioni adat
     + Prova ad usare 248, 249, 250 o 251.
 1. Premi Salva e prova a caricare il gioco.
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}
