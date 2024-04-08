@@ -26,7 +26,7 @@ For more information about Priiloader and its options, you can see the [Priiload
 
 ### 진행 방법
 
-{% capture notice-vwii-priiloader %}
+{% capture vwii-notes %}
 
 If you are using a vWii:
 
