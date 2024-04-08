@@ -123,7 +123,6 @@ Assicurati di aver installato [cIOS](cios) prima di seguire!
 
 <div id="dol" class="tabcontent" markdown="1">
 {% capture dolphin-user-folder %}
-{% capture dolphin-user-folder %}
 `<User Folder>` si riferisce alla cartella aperta dall'opzione di menu `File -> Apri Cartella Utente`. ![](/images/dolphin/dolphin-user-folder.png)
 {: .notice--info}
 {% endcapture %}
