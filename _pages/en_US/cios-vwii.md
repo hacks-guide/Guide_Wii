@@ -20,7 +20,6 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 - A Wii U with the Homebrew channel installed on the vWii
 - An SD card
 - The [d2x cIOS Installer](/assets/files/d2x_cIOS_Installer-vWii.zip).
-- (Optional) The [Patched IOS 80 Installer for vWii](/assets/files/Patched_IOS80_Installer_for_vWii.zip)
 
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
 {: .notice--warning}
@@ -50,18 +49,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 10. Press the `A` button to install.
 11. Press the `B` button to exit.
 
-- Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+- Once you have finished with all 3 cIOSes, press B to return to the Homebrew Channel.
 
-#### Optional - IOS 80 Patch
-
-The purpose of this patch is to patch the vWii's system menu IOS (IOS 80) to be able to run custom channels on the SD card menu.
-
-1. Launch Patched IOS 80 Installer for vWii.
-2. Read the warning screen and wait 30 seconds.
-3. Press any buttons to install.
-4. Wait until it says IOS80 Installation is complete!.
-5. Press any button to exit.
-
-Continue to [Open Shop Channel Installation](osc) <br>
-Now that your vWii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+Continue to [Finalizing Setup](vwii-finalizing-setup)
 {: .notice--info}
