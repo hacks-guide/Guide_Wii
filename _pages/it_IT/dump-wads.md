@@ -48,5 +48,5 @@ La WAD ora è stata dumpata, e dovrebbe apparire nella cartella specifica della 
 
 ![](/images/homebrew/DumpWADS/7.png)
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}
