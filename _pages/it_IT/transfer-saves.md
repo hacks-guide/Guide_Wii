@@ -126,11 +126,7 @@ Assicurati di aver installato [cIOS](cios) prima di seguire!
 `<User Folder>` si riferisce alla cartella aperta dall'opzione di menu `File -> Apri Cartella Utente`. ![](/images/dolphin/dolphin-user-folder.png)
 {: .notice--info}
 {% endcapture %}
-![](/images/dolphin/dolphin-user-folder.png)
-{: .notice--info}
-{% endcapture %}
 {% capture dolphin-emu-memcard-manager %}
-Se Dolphin è impostato per l'utilizzo di memory card `.raw`, vai su `Strumenti > Memory Card Manager` per esportare i tuoi salvataggi in `.gci`.
 Crea una cartella di nome `MCBACKUP` nella tua scheda SD o unità USB e sposta i file `.gci` che hai appena copiato al suo interno.
 {{ dolphin-emu-memcard-manager }}
 {% endcapture %}
