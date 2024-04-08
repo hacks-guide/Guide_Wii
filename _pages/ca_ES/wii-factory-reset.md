@@ -2,7 +2,7 @@
 title: Restoring the Wii NAND to Stock
 ---
 
-If you need help for anything regarding this tutorial, please join <a href="https://discord.gg/rc24">the RiiConnect24 Discord server</a> (recommended) or <a href="mailto:support@riiconnect24.net">e-mail us at support\@riiconnect24.net</a>.
+If you need help for anything regarding this tutorial, please join <a href="https://discord.gg/rc24">the RiiConnect24 Discord server</a> (recommended) or <a href="mailto:support@riiconnect24.net">e-mail us at support@riiconnect24.net</a>.
 
 This guide details how to create a stock NAND for your Wii system using a program called Ohneschwanzenegger. Unlike the `Format Wii System Memory` option in the Wii settings, this will completely wipe any changes to the NAND by downloading a stock Wii System Menu from NUS servers. If followed correctly, the Wii should have no homebrew left on the system, stock IOSes, and boot up to a factory setup screen when the NAND is flashed.
 
