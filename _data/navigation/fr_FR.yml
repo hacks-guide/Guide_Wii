@@ -78,5 +78,5 @@ sidebar_pages:
     title: d2xl cIOS pour Wii mini (experimental)
     url: cios-mini
   - 
-    title: Dump NAND Wii mini
+    title: Wii mini NAND Dumper
     url: wnd-mini
