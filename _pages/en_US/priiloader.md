@@ -94,6 +94,10 @@ Later on, to enter it you can:
     + Wii:
         + If you are using 480p mode: `480p graphics fix in the system menu`
         + Block Disc Updates
+        + Block Online Updates
+    + vWii:
+        + Block Online Updates
+        + Wii System Settings via Options Button
     + Wii mini:
         + Block Disc Updates
 1. Scroll down to `save settings` and press A.
