@@ -130,9 +130,6 @@ Assicurati di aver installato [cIOS](cios) prima di seguire!
 Crea una cartella di nome `MCBACKUP` nella tua scheda SD o unità USB e sposta i file `.gci` che hai appena copiato al suo interno.
 {{ dolphin-emu-memcard-manager }}
 {% endcapture %}
-![](/images/homebrew/gcsaves/dolphin-emu-memcard-manager.png)
-{: .notice--info}
-{% endcapture %}
 Tutti i metodi elencati qui presuppongono che tu abbia l'[ultima versione Beta o di sviluppo dell'Emulatore Dolphin](https://dolphin-emu.org/download).
 {: .notice--info}
 
