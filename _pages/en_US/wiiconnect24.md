@@ -49,10 +49,11 @@ The guide on how to install these services can be found [on WiiLink's website.](
 2. Select generate and copy the information.
 3. On your SD Card, navigate to `SD:/apps/priiloader` and open `hacks_hash.ini` with a text editor such as notepad.
 4. Paste the patch at the bottom of the `hacks_hash.ini` and save the changes.
-5. Insert your SD card into your Wii U.
-6. [Boot Priiloader](priiloader#section-iii---entering-priiloader) on the vWii.
-7. Select hacks, and scroll down to enable the Fix NWC24iSetUniversalTime hack.
-8. Return to the vWii menu.
+5. Repeat Steps 1-4 with a new time offset if your location participates in daylight savings time.
+6. Insert your SD card into your Wii U.
+7. [Boot Priiloader](priiloader#section-iii---entering-priiloader) on the vWii.
+8. Select hacks, and scroll down to enable the Fix NWC24iSetUniversalTime hack.
+9. Return to the vWii menu.
 
 [Proceed to Nintendo Wi-Fi Connection](wiimmfi)<br>
 This guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. While there are different private servers and services that allow this, the one covered here will be Wiimmfi.
