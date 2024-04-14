@@ -16,18 +16,18 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 * A Wii with an Internet connection
 
-### Instructions
+### Инструкции
 
 #### Section I - Connecting
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
-1. Power on your console.
+1. Включите вашу консоль.
 1. Go to `Wii Options`.
 
     ![](/images/riiconnect24/Internet_1.png)
 
-1. Go to `Wii Settings`.
+1. Перейдите в `Wii Settings`.
 
     ![](/images/riiconnect24/Internet_2.png)
 
