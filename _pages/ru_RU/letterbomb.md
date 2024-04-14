@@ -12,7 +12,7 @@ For instructions on how to format your SD card correctly, please see [this guide
 Do NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Use your own!
 {: .notice--warning}
 
-### Requirements
+### Требования
 * An SD card formatted to FAT32/MS-DOS
 * A Wii on System Menu version 4.3
 * A Windows/MacOS/Linux computer with an Internet connection
