@@ -2,7 +2,7 @@
 title: "Dumping WADs"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 This tutorial will explain you how to dump WADs from your Wii System Memory.
 
@@ -48,5 +48,5 @@ You have now dumped that WAD. It should appear on your SD card.
 
 ![](/images/homebrew/DumpWADS/7.png)
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться на домашнюю страницу.](site-navigation)
 {: .notice--info}
