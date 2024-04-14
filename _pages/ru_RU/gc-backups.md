@@ -17,7 +17,7 @@ To play multiple games, it is recommended to use an external hard drive for your
 Make sure your USB drive is formatted as FAT32. Do not format it as other types such as NTFS, exFAT, extFS, or WBFS, the latter being an outdated filesystem for storing Wii games.
 {: .notice--info}
 
-### Instructions
+### Инструкции
 
 #### Section I - Downloading
 
