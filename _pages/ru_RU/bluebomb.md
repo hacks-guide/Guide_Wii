@@ -20,17 +20,17 @@ BlueBomb - это эксплоит, который использует уязв
 Если вам нужна помощь, пожалуйста, перейдите на [сервер Wii mini Hacking](https://discord.gg/6ryxnkS) (рекомендуется)
 {: .notice--info}
 
-Если вы используете оригинальную ревизию Wii, вам, вероятно, следует использовать [другой эксплоит](get-started), так как имеются более легкие пути для входа в установщик HackMii. Exceptions however, exist in circumstances like brick recovery.
+Если вы используете оригинальную ревизию Wii, вам, вероятно, следует использовать [другой эксплоит](get-started), так как имеются более легкие пути для входа в установщик HackMii. Однако, существуют исключения в таких обстоятельствах как восстановление окирпиченной консоли.
 {: .notice--info}
 
-Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+Убедитесь, что консоль стоит рядом с компьютером на котором запущен эксплоит, в идеале расстояние должно быть меньше 1 метра.
 {: .notice--info}
 
-### Requirements
+### Требования
 
-* A Linux machine
-    * A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
-    * If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
+* Компьютер с Linux
+    * Виртуальная машина может сработать, но её использование не рекомендуется из-за сложности с пробросом Bluetooth. По возможности, используйте LiveUSB, как описано ниже.
+    * Если у вас есть Raspberry Pi, вы можете использовать её вместо вашего устройства, так как на ней, скорее всего уже установлен Linux.
     * Windows Subsystem for Linux or a Chromebook running Linux mode will *not work* as they don't have direct access to the Bluetooth adapter or USB ports.
     * If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
         * 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
