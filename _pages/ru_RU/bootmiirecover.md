@@ -18,7 +18,7 @@ Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. T
 DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same also goes for faulty SD cards.
 {: .notice--danger}
 
-### Requirements
+### Требования
 
 * An earlier NAND Backup made by [BootMii](https://wii.guide/bootmii)
 
