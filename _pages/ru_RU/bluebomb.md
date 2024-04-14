@@ -1,26 +1,26 @@
 ---
-title: "Credits"
+title: "BlueBomb"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
-Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well. {% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries.
+{% capture technical_info %}
+<summary><em>Технические детали (опционально)</em></summary>
+BlueBomb - это эксплоит, который использует уязвимость в библиотеках Bluetooth Wii и Wii mini. Хоть это и единственный эксплоит который работает с Wii mini, BlueBomb может работать и с обычной Wii.
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+Так же, этот эксплоит может помочь восстановить консоль после бриков, таких, как баннер брики и (некоторые) брики тем.
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+**Настоятельно** рекомендуется не использовать **любые** видео руководства для взлома вашей консоли Wii mini, так как имеется огромный шанс её **окирпичить**.
 {: .notice--warning}
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Если вам нужна помощь, пожалуйста, перейдите на [сервер Wii mini Hacking](https://discord.gg/6ryxnkS) (рекомендуется)
 {: .notice--info}
 
-For the original Wii, we do not recommend using BlueBomb if you intend to install the Homebrew Channel and BootMii, as there are more convenient exploits available. Exceptions however, exist in circumstances like brick recovery.
+Если вы используете оригинальную ревизию Wii, вам, вероятно, следует использовать [другой эксплоит](get-started), так как имеются более легкие пути для входа в установщик HackMii. Exceptions however, exist in circumstances like brick recovery.
 {: .notice--info}
 
 Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
