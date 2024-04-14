@@ -23,7 +23,7 @@ This guide is only intended for Wii mini users. If you have a Wii, follow [this 
 Do not attempt to install a Wii IOS or System Menu on the Wii mini. Doing so will likely brick your console.
 {: .notice--warning}
 
-### Requirements
+### Требования
 
 * A Wii mini with the Homebrew Channel installed
 * A USB drive
