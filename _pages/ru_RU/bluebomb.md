@@ -31,37 +31,37 @@ BlueBomb - это эксплоит, который использует уязв
 * Компьютер с Linux
     * Виртуальная машина может сработать, но её использование не рекомендуется из-за сложности с пробросом Bluetooth. По возможности, используйте LiveUSB, как описано ниже.
     * Если у вас есть Raspberry Pi, вы можете использовать её вместо вашего устройства, так как на ней, скорее всего уже установлен Linux.
-    * Windows Subsystem for Linux or a Chromebook running Linux mode will *not work* as they don't have direct access to the Bluetooth adapter or USB ports.
-    * If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
-        * 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
-        * For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
-    * You can [flash a Linux Live environment to a USB flash drive](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) instead of installing it to your computer.
-* A Bluetooth adapter.
-    * An internal Bluetooth adapter will work.
-    * If you do not have one, make sure to get one compatible with Linux.
-* A USB flash drive formatted as FAT32.
-    * This cannot be the same flash drive used for your Linux Machine.
-* [HackMii Installer v1.2](https://bootmii.org/download/)
+    * Подсистема Linux для Windows или Chromebook запущенный в режиме Linux *не будут работать*, так как они не имеют прямого доступа к Bluetooth адаптеру или USB портам.
+    * Если у вас нет Linux, [Ubuntu](https://ubuntu.com/download/desktop) является самой простой и удобной опцией, а так же может быть запущен на компьютере с установленным Windows или Mac.
+        * Для 32-битных устройств требуется версия [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
+        * Для 64-битных устройств рекомендуется использование LTS версии из-за её стабильности, но последний выпуск так же работает.
+    * Вы можете [записать live-пространство Linux на USB flash диск](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) вместо установки его на свой компьютер.
+* Bluetooth-адаптер.
+    * Внутренний Bluetooth-адаптер будет работать.
+    * Если у вас его нет, убедитесь, что тот который вы будете использовать совместим с Linux.
+* USB flash диск отформатированный в FAT32.
+    * Это не может быть один и тот же USB-накопитель, который используется для загрузки Linux.
+* [Установщик HackMii версии 1.2](https://bootmii.org/download/)
 
-### Instructions
+### Инструкции
 
-1. Extract it and place the `boot.elf` file in your flash drive.
-    + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-    + - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
+1. Скопируйте `boot.elf` из hackmii_installer_v.1.2`.zip` в корень вашего накопителя.
+    + (Если вы пытаетесь восстановить консоль из окирпиченного состояния, вы также должны скопировать homebrew-приложения которые вы хотите использовать в /apps/)
+    + - (Даже для Wii mini, bootmini.elf **не будет** работать, его цель совершенно другая и не связанная. Используйте boot.elf во всех случаях).
 1. Reinsert your flash drive into your console.
-    + For a Wii mini, the USB port is on the back.
-    + For a normal Wii, use the bottom port. (or the right port if it's upright).
-1. Power on your console.
-1. Go to `Wii Settings`.
-1. Take note in the top right corner of the letter next to the system version.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Для Wii mini USB-порт находится на задней стороне.
+    + Для обычной Wii, используйте нижний порт (или правый порт, если она стоит в вертикальном состоянии).
+1. Включите вашу консоль.
+1. Перейдите в `Wii Settings`.
+1. Обратите внимание на букву рядом с системной версией в правом верхнем углу.
+    + Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения последующих инструкций.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Power off your console.
-1. Start your Linux distro, and ensure you are connected to the internet.
-1. Open the Terminal
-1. Run the following commands:
+1. Выключите вашу консоль.
+1. Запустите ваш Linux дистрибутив и убедитесь, что вы подключены к Интернету.
+1. Откройте Терминал
+1. Выполните следующие команды:
 
     ```bash
     wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -69,10 +69,10 @@ BlueBomb - это эксплоит, который использует уязв
     ./bluebomb-helper.sh
     ```
 
-1. The helper will then download the required files, and ask for information about your console.
+1. После этого помощник загрузит необходимые файлы и запросит информацию о вашей консоли.
     + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
     + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
-1. Power on your console.
+1. Включите вашу консоль.
     + Turn on your console and **do not** connect any Wii Remotes.
 1. Press the Sync button repeatedly until the terminal shows `got connection handle`.
     + This could take numerous attempts.
