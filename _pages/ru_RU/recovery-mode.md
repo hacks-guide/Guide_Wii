@@ -2,7 +2,7 @@
 title: "Recovery Mode"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 Recovery Mode is a last resort method for recovering your Wii console from a brick before resorting to hard-modding and manual NAND programming. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc.
 
@@ -57,5 +57,5 @@ At this point, you should be able to install the Homebrew Channel and access hom
 [Return to Bricks](bricks)
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться на домашнюю страницу.](site-navigation)
 {: .notice--info}
