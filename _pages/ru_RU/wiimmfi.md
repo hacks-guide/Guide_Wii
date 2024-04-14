@@ -2,7 +2,7 @@
 title: "Go in the Nintendo DS Wi-Fi settings."
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 [Wiimmfi](https://wiimmfi.de) is a replacement service for the now-defunct Nintendo Wi-Fi Connection. While different games were supported for longer than others, all games are no longer able to play through conventional means as of August 2023. To regain Nintendo WFC functionality, this guide provides instructions on installing Wiimmfi. There are lots of different methods to connect to Wiimmfi. Choose the one that fits your needs best.
 
@@ -168,5 +168,5 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 Congrats on making it to the end of the optional section of the main guide! You can go to the site index below if you would like to look for other guides.
 {: .notice--success}
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться на домашнюю страницу.](site-navigation)
 {: .notice--info}
