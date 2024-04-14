@@ -78,7 +78,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * What you need
 * [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
-#### Instructions
+#### Инструкции
 
 1. Have the storage device that holds WiiFlow Lite connected to your PC.
 1. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
@@ -95,7 +95,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
 * A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
 
-#### Instructions
+#### Инструкции
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
 1. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
@@ -112,7 +112,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * A computer with Windows on it (or using Mono or Wine on Mac/Linux)
 * https://rc24.xyz/goodies/themes/
 
-#### Instructions
+#### Инструкции
 
 1. Download a theme `.zip` file from the website linked above.
 
