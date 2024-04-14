@@ -2,7 +2,7 @@
 title: "Updating Wii Menu to v4.3"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 This tutorial will explain how to update your Wii Menu to version 4.3, if you have already homebrewed your Wii.
 
@@ -51,5 +51,5 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 1. When prompted to retain Priiloader, press A to confirm.
 1. After they are successfully installed, press the HOME Button to exit back to the Homebrew Channel.
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться на домашнюю страницу.](site-navigation)
 {: .notice--info}
