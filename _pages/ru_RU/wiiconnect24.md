@@ -25,7 +25,7 @@ There is a patcher that ships both of these services together as one - meaning y
 + An SD card or USB drive
 + [sntp](https://oscwii.org/library/app/sntp)
 
-#### Instructions
+#### Инструкции
 1. Download and extract the sntp zip to the root of your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii.
 1. Launch the Homebrew Channel on your Wii.
