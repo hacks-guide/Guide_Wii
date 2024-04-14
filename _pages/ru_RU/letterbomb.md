@@ -1,8 +1,8 @@
 ---
-title: "Donations"
+title: "LetterBomb"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
 
