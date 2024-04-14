@@ -24,14 +24,14 @@ If you have a Wii mini, install [this cIOS](cios-mini) instead. Attempting to in
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
 {: .notice--warning}
 
-### Instructions
+### Инструкции
 
 #### Section I - Downloading
 
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
 
-1. Power off your console.
+1. Выключите вашу консоль.
 1. Insert your SD card or USB drive into your computer.
 1. Download, extract, and run [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 1. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
@@ -54,7 +54,7 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 
 1. Download the d2x cIOS installer and extract the zip to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
+1. Включите вашу консоль.
 1. Launch the Homebrew Channel.
 1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel
 1. Set everything to match the following:
