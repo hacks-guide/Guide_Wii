@@ -29,16 +29,16 @@ Do not attempt to install a Wii IOS or System Menu on the Wii mini. Doing so wil
 * A USB drive
 * Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
-### Instructions
+### Инструкции
 
 #### Section I - Downloading
 
-1. Power off your console.
+1. Выключите вашу консоль.
 1. Insert your USB drive into your computer.
 1. You can now use homebrew such as [USB Loader GX](usbloadergx) and [WiiFlow](wiiflow).
 1. Extract the d2xl cIOS Installer to the `apps` folder on your USB drive.
 1. Reinsert your USB drive into your console.
-1. Power on your console.
+1. Включите вашу консоль.
 1. Launch the Homebrew Channel.
 1. Launch d2xl cIOS Installer from the list of homebrew.
 
