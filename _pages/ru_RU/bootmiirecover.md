@@ -38,7 +38,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 + You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1. To navigate with a GameCube controller, click left/right on the +Control Pad on a GameCube controller. To select, press A.
 
-### Instructions
+### Инструкции
 
 1. Launch the Homebrew Channel.
 1. Press the HOME Button, then select "Launch BootMii".
