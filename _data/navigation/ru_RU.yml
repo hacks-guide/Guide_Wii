@@ -7,23 +7,23 @@ main:
     title: Start Here
     url: get-started
   - 
-    title: Site Navigation
+    title: Навигация по сайту
     url: site-navigation
   - 
-    title: FAQ
+    title: ЧаВо
     url: faq
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: Этот сайт использует куки (cookies) для отображения текущего прогресса по руководству на боковой панели и для улучшения сайта.
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: Для поддержки на английском языке, попросите о помощи на <a href="https://discord.gg/MWxPgEp">сервере Nintendo Homebrew в Discord</a>.
 footer:
   - 
     title: Source
     url: https://github.com/hacks-guide/Guide_Wii
   - 
-    title: Site Navigation
+    title: Навигация по сайту
     url: site-navigation
   - 
     title: Donations
