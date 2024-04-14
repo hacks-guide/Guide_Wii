@@ -1,5 +1,5 @@
 ---
-title: "Site Navigation"
+title: "Навигация по сайту"
 layout: single
 sitemap: false
 ---
@@ -8,7 +8,7 @@ sitemap: false
 **Site**
 + [Wii Guide](/)
 + [Start Here](get-started)
-+ [FAQ](faq)
++ [ЧаВо](faq)
 + [Donations](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
