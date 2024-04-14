@@ -17,12 +17,12 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 * A Wii on System Menu version 4.3
 * A Windows/MacOS/Linux computer with an Internet connection
 
-### Instructions
+### Инструкции
 
-1. Power on your console.
+1. Включите вашу консоль.
 1. On your Wii, go to `Wii Settings` -> `Internet` -> `Console Information` and make note of your MAC address.
-1. Take note in the top right corner of the letter next to the system version.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+1. Обратите внимание на букву рядом с системной версией в правом верхнем углу.
+    + Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения последующих инструкций.
     + Also, ensure that you are on System Menu version 4.3.
 
     ![](/images/wii/SystemMenuVersion.png)
