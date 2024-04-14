@@ -1,8 +1,8 @@
 ---
-title: "BootMii Backup"
+title: "Резервная копия через BootMii"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
 
