@@ -12,7 +12,7 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 For more information about Priiloader and its options, you can see the [Priiloader Usage](priiloader-usage) page.
 {: .notice--info}
 
-### Requirements
+### Требования
 
 * An SD card or USB drive
 * Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
