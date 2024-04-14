@@ -6,7 +6,7 @@ sitemap: false
 
 {% capture notice-1 %}
 **Site**
-+ [Wii Guide](/)
++ [Дом](/)
 + [Start Here](get-started)
 + [ЧаВо](faq)
 + [Donations](donations)
@@ -22,18 +22,18 @@ sitemap: false
 
 {% capture notice-3 %}
 **Modding 101**
-+ [Credits](bluebomb)
-+ [RiiConnect24](flashhax)
++ [BlueBomb](bluebomb)
++ [FlashHax](flashhax)
 + [Legacy Exploits](legacy-exploits)
-+ [Donations](letterbomb)
-+ [Wiimmfi](Wiimmfi)
++ [LetterBomb](letterbomb)
++ [str2hax](str2hax)
 + [Wiimmfi](wiimmfi)
 {% endcapture %}
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-4 %}
 **Playing Wii Game Mods**
-+ [BootMii Backup](bootmii)
++ [Резервная копия через BootMii](bootmii)
 + [BootMii Recovery (RestoreMii)](bootmiirecover)
 + [Types of Bricks](bricks)
 + [Brick Prevention](bricks#brick-prevention)
