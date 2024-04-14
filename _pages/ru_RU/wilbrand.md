@@ -19,12 +19,12 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Инструкции
 
-1. Power on your console.
+1. Включите вашу консоль.
 1. On your Wii, go to `Wii Settings`, and make note of the version at the top right.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения последующих инструкций.
 
     ![](/images/wii/SystemMenuVersion.png)
 
@@ -68,17 +68,17 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 * An SD card formatted to FAT32/MS-DOS
 * A Wii on version 3.0 or newer
 * [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
-* [HackMii Installer v1.2](https://bootmii.org/download/)
+* [Установщик HackMii версии 1.2](https://bootmii.org/download/)
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Инструкции
 
-1. Power on your console.
+1. Включите вашу консоль.
 1. On your Wii, go to `Wii Settings`, and make note of the version at the top right.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения последующих инструкций.
 
     ![](/images/wii/SystemMenuVersion.png)
 
