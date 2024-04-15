@@ -70,17 +70,17 @@ BlueBomb - это эксплоит, который использует уязв
     ```
 
 1. После этого помощник загрузит необходимые файлы и запросит информацию о вашей консоли.
-    + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
-    + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
+    + Если вы выбрали Wii mini, вам попросят предоставить ваш регион (системного меню). Это может быть определено последней буквой версии меню Wii (`U` для **USA** и `E` для моделей **PAL**).
+    + Если вы выбрали обычную Wii, вас попросят предоставить вашу версию меню Wii (То, что вы определили в шаге 4)
 1. Включите вашу консоль.
-    + Turn on your console and **do not** connect any Wii Remotes.
-1. Press the Sync button repeatedly until the terminal shows `got connection handle`.
-    + This could take numerous attempts.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
-    + You can now shut down your Linux computer if you are not planning to use it later.
+    + **Не** подключайте ваш(и) Wii Remote(ы).
+1. Нажимайте кнопку синхронизации (Sync), пока терминал не отобразит строку `got connection handle`.
+    + Вам может понадобиться несколько попыток.
+1. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
+    + Вы можете выключить ваш компьютер с загруженным Linux, если вы не планируете дальше его использовать.
 
-If using a Wii, proceed to installing the Homebrew Channel and BootMii<br>
+Если вы используете Wii, [перейдите к установке канала Homebrew и BootMii](hbc)<br>
 {: .notice--info}
 
-If using a Wii mini, proceed to installing the Homebrew Channel
+Если вы используете Wii mini, [перейдите к установке канала Homebrew](hbc-mini)
 {: .notice--info}
