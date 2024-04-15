@@ -5,7 +5,7 @@ sitemap: false
 ---
 
 {% capture notice-1 %}
-**Site**
+**Сайт**
 + [Дом](/)
 + [Start Here](get-started)
 + [ЧаВо](faq)
