@@ -54,7 +54,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
     + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started).
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
@@ -116,7 +116,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}
