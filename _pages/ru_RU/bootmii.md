@@ -4,18 +4,18 @@ title: "Резервная копия через BootMii"
 
 {% include toc title="Оглавление" %}
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
+BootMii позволяет создавать и восстанавливать резервные копии памяти NAND. Эта страница поможет вам создать резервную копию NAND вашей Wii и переместить её на SD карту, которую вы можете использовать в дальнейшем.
 
-You need an **SD card** to create a NAND backup using BootMii. If you do not have one, you can skip this page, although it is highly recommended to make a NAND backup if you can.
+Вам нужна **SD карта** для использования BootMii вообще, но особенно для создания резервной копии NAND. Если у вас сейчас нет SD карты, вы можете пропустить эту страницу, но НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ вернуться к этой странице позже для создания резервной копии.
 {: .notice--warning}
 
 ### Требования
 
-* An SD card with at least 512MB of free space
+* SD-карта с 512 МБ свободного места минимум (рекомендуется иметь 1 ГБ)
 
 ### Инструкции
 
-If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+Если у вас установлен BootMii на boot 2, вам нужно запустить BootMii, перезапустив консоль. В таком случае пропустите шаги 1 и 2.
 {: .notice--info}
 
 1. Включите вашу консоль.
@@ -46,23 +46,23 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
     ![](/images/bootmii/BootMii_Backup.png)
 
 1. Процесс резервного копирования NAND будет запущен. Вы можете увидеть прогресс на экране.
-    + "Bad Blocks" are normal. Don't worry when you see some on a NAND backup.
+    + "Bad Blocks (плохие блоки)" являются нормальными, и в основном происходят с фабрики из-за биннинга NAND. Не волнуйтесь, если вы их увидите на резервной копии NAND.
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
-1. After this step, it will verify the backup. Ideally, all the blocks should be green after the verification process.
-    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine.
+1. После этого шага, BootMii проверит резервную копию на ошибки. В идеале, все блоки должны стать зелеными после процесса проверки.
+    + Если у вас есть заводские плохие блоки с "некорректными страницами (Uncorrectable page)", эти блоки могут не пройти проверку. Если все исправные блоки успешно проверены, все должно быть в порядке.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
-1. To exit BootMii, press the Back button (the one with the arrow) and then you can press either the Wii Menu button or the Homebrew Channel button to exit where you want to.
+1. Нажмите кнопку назад (та, что со стрелкой), затем нажмите кнопку меню Wii (Wii Menu) или homebrew канала (Homebrew Channel) для выхода из BootMii.
 
     ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-Please be reminded that <strong>restoring a NAND backup is usually a last resort,</strong> and that there often better ways to fix your brick. There are often better ways to unbrick your console.
-Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.**
+Примечание: **восстановление резервной копии NAND, как правило, является крайней мерой**. Существуют более хорошие способы для восстановления консоли после окирпичивания.
+Постарайтесь [определить степень брика](bricks) и отменить действие, которое его вызвало.
+Чтобы восстановить резервную копию NAND с SD карты, следуйте инструкциям для [RestoreMii](bootmiirecover). **Версии Wii Family Edition (Wii без портов GameCube) НЕ МОГУТ восстанавливать резервные копии NAND.**
 </div>
 
 BootMii as boot2 is recommended, but only available to install on early Wii consoles. Otherwise, it can only be installed as an IOS. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
