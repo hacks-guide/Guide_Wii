@@ -4,9 +4,9 @@ title: "Резервная копия через BootMii"
 
 {% include toc title="Оглавление" %}
 
-BootMii позволяет создавать и восстанавливать резервные копии памяти NAND. Эта страница поможет вам создать резервную копию NAND вашей Wii и переместить её на SD карту, которую вы можете использовать в дальнейшем.
+BootMii позволяет создавать и восстанавливать резервные копии памяти NAND. Эта страница поможет вам создать резервную копию NAND вашей Wii и переместить её на SD-карту, которую вы можете использовать в дальнейшем.
 
-Вам нужна **SD карта** для использования BootMii вообще, но особенно для создания резервной копии NAND. Если у вас сейчас нет SD карты, вы можете пропустить эту страницу, но НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ вернуться к этой странице позже для создания резервной копии.
+Вам нужна **SD карта** для использования BootMii вообще, но особенно для создания резервной копии NAND. Если у вас сейчас нет SD-карты, вы можете пропустить эту страницу, но НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ вернуться к этой странице позже для создания резервной копии.
 {: .notice--warning}
 
 ### Требования
@@ -62,14 +62,14 @@ BootMii позволяет создавать и восстанавливать 
 <div id="restore-notice" class="notice" markdown="1">
 Примечание: **восстановление резервной копии NAND, как правило, является крайней мерой**. Существуют более хорошие способы для восстановления консоли после окирпичивания.
 Постарайтесь [определить степень брика](bricks) и отменить действие, которое его вызвало.
-Чтобы восстановить резервную копию NAND с SD карты, следуйте инструкциям для [RestoreMii](bootmiirecover). **Версии Wii Family Edition (Wii без портов GameCube) НЕ МОГУТ восстанавливать резервные копии NAND.**
+Чтобы восстановить резервную копию NAND с SD-карты, следуйте инструкциям для [RestoreMii](bootmiirecover). **Версии Wii Family Edition (Wii без портов GameCube) НЕ МОГУТ восстанавливать резервные копии NAND.**
 </div>
 
 Как отмечалось ранее, если на вашей Wii BootMii установлен в boot2, он будет запускаться каждый раз при включении консоли. Если вы хотите изменить это, вы можете использовать приложение [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Или же, вы можете изменить `sd:/bootmi/bootmii.ini` самостоятельно.
 {: .notice--info}
 
-To make sure you don’t lose the files, it's recommended to copy `nand.bin` and `keys.bin` from the root of your SD card to your computer. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+Два файла будет созданы в корне вашей SD-карты: `nand.bin` и `keys.bin`. `nand.bin` — это резервная копия внутренней памяти консоли, а `keys.bin` — ключи вашей консоли.
 {: .notice--info}
 
-[Continue to Priiloader Installation](priiloader)<br> Priiloader adds a level of brick protection, and is highly recommended, especially if you were only able to install BootMii as IOS. It is especially important for users of BootMii on IOS.
+[Продолжить к установке Priiloader](priiloader)<br> Priiloader добавляет второй уровень защиты от окирпичивания, и его установка настоятельно рекомендуется даже если BootMii установлен в качестве boot2. Он особенно важен для пользователей BootMii в IOS.
 {: .notice--info}
