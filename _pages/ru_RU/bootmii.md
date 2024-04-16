@@ -55,7 +55,7 @@ BootMii позволяет создавать и восстанавливать 
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
-1. Нажмите кнопку назад (та, что со стрелкой), затем нажмите кнопку меню Wii (Wii Menu) или homebrew канала (Homebrew Channel) для выхода из BootMii.
+1. Нажмите кнопку назад (та, что со стрелкой), затем нажмите кнопку меню Wii (Wii Menu) или канала Homebrew (Homebrew Channel) для выхода из BootMii.
 
     ![](/images/bootmii/BootMii_Return.png)
 
@@ -65,7 +65,7 @@ BootMii позволяет создавать и восстанавливать 
 Чтобы восстановить резервную копию NAND с SD карты, следуйте инструкциям для [RestoreMii](bootmiirecover). **Версии Wii Family Edition (Wii без портов GameCube) НЕ МОГУТ восстанавливать резервные копии NAND.**
 </div>
 
-BootMii as boot2 is recommended, but only available to install on early Wii consoles. Otherwise, it can only be installed as an IOS. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
+Как отмечалось ранее, если на вашей Wii BootMii установлен в boot2, он будет запускаться каждый раз при включении консоли. Если вы хотите изменить это, вы можете использовать приложение [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Или же, вы можете изменить `sd:/bootmi/bootmii.ini` самостоятельно.
 {: .notice--info}
 
 To make sure you don’t lose the files, it's recommended to copy `nand.bin` and `keys.bin` from the root of your SD card to your computer. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
