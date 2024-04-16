@@ -40,8 +40,8 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ### Инструкции
 
-1. Launch the Homebrew Channel.
-1. Press the HOME Button, then select "Launch BootMii".
+1. Запустите канал Homebrew (Homebrew Channel).
+1. Нажмите кнопку HOME, затем выберите "Launch BootMii".
     + If you are even able to enter BootMii, enter the Homebrew Channel instead, and try your best to [identify what caused the brick](bricks) and reverse it.
 
     ![](/images/bootmii/BootMii_HBC.png)
