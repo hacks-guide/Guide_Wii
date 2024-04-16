@@ -7,36 +7,37 @@ sitemap: false
 {% capture notice-1 %}
 **Сайт**
 + [Дом](/)
-+ [Start Here](get-started)
++ [Начинайте здесь](get-started)
 + [ЧаВо](faq)
-+ [Donations](donations)
++ [Пожертвования](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
 **WiiLink**
 + [Nintendo Wi-Fi Connection](wiimmfi)
-+ [Setting RTC Time](wiiconnect24#updating-rtc-clock)
-+ RiiConnect24, WiiLink, and Wiimmfi
++ [Установка времени через RTC](wiiconnect24#updating-rtc-clock)
++ [WiiConnect24](wiiconnect24)
+{% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-3 %}
-**Modding 101**
+**Моддинг 101 - Эксплоиты**
 + [BlueBomb](bluebomb)
 + [FlashHax](flashhax)
-+ [Legacy Exploits](legacy-exploits)
++ [Устаревшие эксплоиты](legacy-exploits)
 + [LetterBomb](letterbomb)
 + [str2hax](str2hax)
-+ [Wiimmfi](wiimmfi)
++ [Wilbrand](wilbrand)
 {% endcapture %}
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-4 %}
-**Playing Wii Game Mods**
+**Моддинг 101 - Обязательные моды**
 + [Резервная копия через BootMii](bootmii)
-+ [BootMii Recovery (RestoreMii)](bootmiirecover)
-+ [Types of Bricks](bricks)
-+ [Brick Prevention](bricks#brick-prevention)
++ [Восстановление резервной копии BootMii (RestoreMii)](bootmiirecover)
++ [Типы бриков](bricks)
++ [Предотвращение бриков](bricks#brick-prevention)
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
