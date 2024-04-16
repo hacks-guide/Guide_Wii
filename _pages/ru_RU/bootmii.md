@@ -19,8 +19,8 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 {: .notice--info}
 
 1. Включите вашу консоль.
-1. Launch the Homebrew Channel.
-1. Press the HOME Button, then select "Launch BootMii".
+1. Запустите канал Homebrew (Homebrew Channel).
+1. Нажмите кнопку HOME, затем выберите "Launch BootMii".
 
     ![](/images/bootmii/BootMii_HBC.png)
 
@@ -30,22 +30,22 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
     If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
     {: .notice--warning}
 
-1. You should see an image similar to the below now on your screen:
+1. Вы должны увидеть изображение, похожее на приведенное ниже на вашем экране:
 
     ![](/images/bootmii/BootMii_Main.png)
 
-    Navigating BootMii is not possible using a Wii Remote. You must use the POWER and RESET buttons on your console, or a GameCube controller plugged into port 1. To navigate between options, press POWER. To select an option, press RESET.
+    Управление BootMii не возможно через Wii Remote. Вы должны использовать кнопки POWER и RESET на вашей консоли, или контроллер GameCube подключенный к порту 1. Чтобы перемещаться между параметрами, нажмите POWER. Чтобы выбрать опцию, нажмите RESET.
     {: .notice--info}
 
-1. Select the Options button (the icon with the gears).
+1. Выберите кнопку «Options» (значок с шестерёнками).
 
     ![](/images/bootmii/BootMii_Gears.png)
 
-1. Select the first button to the left.
+1. Нажмите первую кнопку слева.
 
     ![](/images/bootmii/BootMii_Backup.png)
 
-1. A NAND backup will start. You can watch the progress on the screen.
+1. Процесс резервного копирования NAND будет запущен. Вы можете увидеть прогресс на экране.
     + "Bad Blocks" are normal. Don't worry when you see some on a NAND backup.
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
