@@ -8,7 +8,7 @@ title: "Установка канала Homebrew и BootMii"
 <summary><em>Технические детали (опционально)</em></summary>
 Канал Homebrew - это место, где вы будете запускать homebrew приложения. BootMii — программа для резервного копирования и восстановления NAND вашей Wii, а если установленная в boot2, обеспечивает защиту от окирпичивания.
 
-BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader). BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009.
+BootMii может быть установлен двумя путями: непосредственно в часть системного загрузчика под названием boot2, и в IOS. BootMii в boot2 предпочтительнее, так как он обеспечивает расширенную защиту от окирпичивания, но консоли Wii с уязвимым boot1 которые позволяют установку в boot2 появляются значительно реже, поскольку они были выпущены до 2009 года. BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009.
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>
