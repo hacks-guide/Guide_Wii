@@ -92,6 +92,7 @@ Later on, to enter it you can:
     + vWii:
         + Block Online Updates
         + Wii System Settings via Options Button
+        + If you are NOT using a CRT display: `Remove Deflicker`
     + Wii mini:
         + Block Disc Updates
         + If you are NOT using a CRT display: `Remove Deflicker`
