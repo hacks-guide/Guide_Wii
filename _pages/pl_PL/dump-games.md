@@ -20,7 +20,7 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 1. Extract CleanRip and put it in the `apps` folder on your SD card or USB drive.
 1. Open the folder in File Explorer.
 1. Power on your console.
-1. Launch the Homebrew Channel.
+1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 1. Launch CleanRip from the list of homebrew.
 1. When prompted, select `Yes` to calculate disc checksums.
 
