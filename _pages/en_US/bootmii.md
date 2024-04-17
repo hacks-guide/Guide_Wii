@@ -81,6 +81,7 @@ If you were able to install BootMii as boot2, but dont want to load the BootMii 
 1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
 1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
 1. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
+1. Save the file and exit.
 
 You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
 {: .notice--info}
