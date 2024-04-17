@@ -62,13 +62,22 @@ Dacă ai BootMii instalat ca boot2, va trebui să repornești consola pentru a r
 <div id="restore-notice" class="notice" markdown="1">
 Mențiune: **restaurarea unui backup a memoriei NAND este de obicei o ultimă soluție**. De multe ori există opțiuni mai bune pentru a-ți repara consola.
 Încearcă să [identifici condiția brick-ului](bricks) și să inversezi acțiunea care a cauzat inițial brick-ul.
-Pentru a restaura un backup a memoriei NAND de pe cardul tău SD, poți urma instrucțiunile pentru [RestoreMii](bootmiirecover). **Consolele Wii Family Edition (Consolele Wii fără porturi GameCube) NU POT restaura backup-uri ale memoriei NAND.**
+Pentru a restaura un backup a memoriei NAND de pe cardul tău SD, poți urma instrucțiunile pentru [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
 </div>
 
-Cum a fost menționat mai sus, dacă ai BootMii instalat ca boot2, acesta va porni de fiecare dată când îți pornești consola. Dacă vrei să schimbi acest lucru, poți folosi aplicația [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Altfel, poți modifica `sd:/bootmii/bootmii.ini` manual.
+Două fișiere vor fi create în rădăcina Cardului tău SD: `nand.bin` și `keys.bin`. `nand.bin` este un backup a memoriei interne a consolei, în timp ce `keys.bin` sunt cheile consolei tale.
 {: .notice--info}
 
-Două fișiere vor fi create în rădăcina Cardului tău SD: `nand.bin` și `keys.bin`. `nand.bin` este un backup a memoriei interne a consolei, în timp ce `keys.bin` sunt cheile consolei tale.
+### Autobooting
+
+If you were able to install BootMii as boot2, but dont want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
+
+1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
+1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
+1. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
+1. Save the file and exit.
+
+You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
 {: .notice--info}
 
 [Continuă la Instalarea Priiloader](priiloader)<br> Priiloader adaugă un nivel secundar de protecție anti-brick și este foarte recomandat chiar dacă BootMii a fost instalat ca boot2. Acesta este deosebit de important pentru utilizatorii de BootMii ca IOS.
