@@ -62,18 +62,18 @@ BootMii позволяет создавать и восстанавливать 
 <div id="restore-notice" class="notice" markdown="1">
 Примечание: **восстановление резервной копии NAND, как правило, является крайней мерой**. Существуют более хорошие способы для восстановления консоли после окирпичивания.
 Постарайтесь [определить степень брика](bricks) и отменить действие, которое его вызвало.
-Чтобы восстановить резервную копию NAND с SD-карты, следуйте инструкциям для [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
+Чтобы восстановить резервную копию NAND с SD-карты, следуйте инструкциям для [RestoreMii](bootmiirecover). **Версии Wii Family Edition (Wii без портов GameCube) НЕ МОГУТ восстанавливать резервные копии NAND без аппаратных модификаций.**
 </div>
 
 Два файла будет созданы в корне вашей SD-карты: `nand.bin` и `keys.bin`. `nand.bin` — это резервная копия внутренней памяти консоли, а `keys.bin` — ключи вашей консоли.
 {: .notice--info}
 
-### Autobooting
+### Автозагрузка
 
-If you were able to install BootMii as boot2, but dont want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
+Если вы смогли установить BootMii в качестве boot2, но не хотите загружать BootMii при каждом включении Wii, у вас есть возможность установить его на автозагрузку в системном меню. This should make it so you don't even notice you have BootMii installed as boot2.
 
-1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
-1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
+1. Откройте `sd:/bootmii/bootmii.ini` через текстовый редактор, например, блокнот.
+1. Измените `#AUTOBOOT=SYSMENU` на `AUTOBOOT=SYSMENU` путем удаления символа `#`.
 1. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
 1. Save the file and exit.
 
