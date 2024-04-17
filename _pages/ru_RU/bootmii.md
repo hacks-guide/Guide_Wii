@@ -70,14 +70,14 @@ BootMii позволяет создавать и восстанавливать 
 
 ### Автозагрузка
 
-Если вы смогли установить BootMii в качестве boot2, но не хотите загружать BootMii при каждом включении Wii, у вас есть возможность установить его на автозагрузку в системном меню. This should make it so you don't even notice you have BootMii installed as boot2.
+Если вы смогли установить BootMii в качестве boot2, но не хотите загружать BootMii при каждом включении Wii, у вас есть возможность установить его на автозагрузку в системном меню. Должно получиться так, что вы даже не заметите что BootMii установлен в boot2.
 
 1. Откройте `sd:/bootmii/bootmii.ini` через текстовый редактор, например, блокнот.
 1. Измените `#AUTOBOOT=SYSMENU` на `AUTOBOOT=SYSMENU` путем удаления символа `#`.
-1. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
-1. Save the file and exit.
+1. Затем замените `#BOOTDELAY=5` на `BOOTDELAY=1` путем удаления символа `#` и заменой цифры `5` на `1`.
+1. Сохраните изменения и выйдите.
 
-You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
+Вы, также, можете использовать homebrew-приложение [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) на Wii для изменения этих настроек.
 {: .notice--info}
 
 [Продолжить к установке Priiloader](priiloader)<br> Priiloader добавляет второй уровень защиты от окирпичивания, и его установка настоятельно рекомендуется даже если BootMii установлен в качестве boot2. Он особенно важен для пользователей BootMii в IOS.
