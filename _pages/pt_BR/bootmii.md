@@ -19,8 +19,8 @@ Se você instalou o BootMii como Boot2 na última etapa, será necessário inici
 {: .notice--info}
 
 1. Ligue o seu console.
-1. Abra o Homebrew Channel.
-1. Press the HOME Button, then select "Launch BootMii".
+1. Launch the Homebrew Channel, and launch the Load Priiloader app.
+1. Pressione o botão HOME, depois selecione "Launch BootMii".
 
     ![](/images/bootmii/BootMii_HBC.png)
 
@@ -62,13 +62,22 @@ Se você instalou o BootMii como Boot2 na última etapa, será necessário inici
 <div id="restore-notice" class="notice" markdown="1">
 Please be reminded that <strong>restoring a NAND backup is usually a last resort,</strong> and that there often better ways to fix your brick. There are often better ways to unbrick your console.
 Tente o seu melhor para [identificar sua condição de brick](bricks) e reverter a ação que a causou em primeiro lugar.
-Para restaurar de um backup da NAND no seu cartão SD, você pode seguir as instruções para o [RestoreMii](bootmiirecover). Wiis "Family Edition" (Wiis sem portas GameCube) NÃO PODEM restaurar backups da NAND
+Para restaurar de um backup da NAND no seu cartão SD, você pode seguir as instruções para o [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
 </div>
 
-Como mencionado anteriormente, se você tiver o BootMii instalado como boot2, ele será executado toda vez que você iniciar o console. Se você deseja alterar isto, você pode usar o aplicativo [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Ou, você pode editar `sd:/bootmii/bootmii.ini` manualmente.
+Dois arquivos serão criados na raiz do cartão SD: `nand.bin` e `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
-Dois arquivos serão criados na raiz do cartão SD: `nand.bin` e `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+### Autobooting
+
+If you were able to install BootMii as boot2, but dont want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
+
+1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
+1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
+1. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
+1. Save the file and exit.
+
+You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
 {: .notice--info}
 
 [Continue to Priiloader Installation](priiloader)<br> Priiloader adds a level of brick protection, and is highly recommended, especially if you were only able to install BootMii as IOS. É especialmente importante para os usuários do BootMii na IOS.
