@@ -4,22 +4,22 @@ title: "Dumping WADs"
 
 {% include toc title="Оглавление" %}
 
-This tutorial will explain you how to dump WADs from your Wii System Memory.
+Это руководство объяснит вам как сделать дамп файлов WAD с системной памяти вашей Wii.
 
 ### Требования
 
-+ An SD card or USB drive
++ SD-карта или USB-накопитель
 + [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
 ### Инструкции
 
 1. Выключите вашу консоль.
-1. Insert your SD card or USB drive into your computer.
-1. Extract Yet Another BlueDump MOD to your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
+1. Вставьте вашу SD-карту или USB-накопитель в ваш компьютер.
+1. Скопируйте папку `apps` из Yet Another BlueDump MOD`.zip` в корень вашей SD-карты или USB-накопителя.
+1. Вставьте вашу SD-карту или USB-накопитель в вашу консоль.
 1. Включите вашу консоль.
 1. Запустите канал Homebrew (Homebrew Channel).
-1. Insert your SD card or USB drive into your Wii, and launch Yet Another BlueDump MOD from the Homebrew Channel.
+1. Запустите Yet Another BlueDump MOD из списка homebrew-приложений.
 1. Press the A Button.
 
     ![](/images/homebrew/DumpWADS/1.png)
