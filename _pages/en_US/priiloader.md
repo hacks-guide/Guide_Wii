@@ -8,10 +8,6 @@ title: "Priiloader"
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
-
-For more information about Priiloader and its options, you can see the [Priiloader Usage](priiloader-usage) page.
-{: .notice--info}
-
 ### Requirements
 
 * An SD card or USB drive
@@ -86,22 +82,24 @@ Later on, to enter it you can:
     If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br>
     Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
     {: .notice--warning}
-
-1. Scroll down to each of the following options and press `A`:
-    + `Block Online Updates`
-    + If you are NOT using a CRT display: `Remove Deflicker`
+    
 1. For the following options, enable the options according to your console:
     + Wii:
         + If you are using 480p mode: `480p graphics fix in the system menu`
         + Block Disc Updates
         + Block Online Updates
+        + If you are NOT using a CRT display: `Remove Deflicker`
     + vWii:
         + Block Online Updates
         + Wii System Settings via Options Button
     + Wii mini:
         + Block Disc Updates
+        + If you are NOT using a CRT display: `Remove Deflicker`
 1. Scroll down to `save settings` and press A.
 1. Press `B` to return to the main menu.
+
+For more information about Priiloader hacks and other options, you can see the [Priiloader Usage](priiloader-usage) page.
+{: .notice--info}
 
 ### Wii mini: Next Steps
 
