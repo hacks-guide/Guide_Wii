@@ -177,11 +177,11 @@ window.cookieconsent.initialise({
             
           
             
-              <li class="masthead__menu-item"><a href="/it_IT/per-iniziare">Per Iniziare</a></li>
+              <li class="masthead__menu-item"><a href="/it_IT/get-started">Per Iniziare</a></li>
             
           
             
-              <li class="masthead__menu-item"><a href="/it_IT/navigazione-sito">Navigazione del Sito</a></li>
+              <li class="masthead__menu-item"><a href="/it_IT/site-navigation">Navigazione del Sito</a></li>
             
           
             
@@ -256,7 +256,7 @@ window.cookieconsent.initialise({
           
         
           
-            <li style="display: none;" data-name="get-started"><a href='/it_IT/per-iniziare'>Per Iniziare</a></li>
+            <li style="display: none;" data-name="get-started"><a href='/it_IT/get-started'>Per Iniziare</a></li>
           
         
           
@@ -362,6 +362,7 @@ window.cookieconsent.initialise({
 <ul class="toc__menu" id="markdown-toc">
   <li><a href="#requisiti" id="markdown-toc-requisiti">Requisiti</a></li>
   <li><a href="#istruzioni" id="markdown-toc-istruzioni">Istruzioni</a></li>
+  <li><a href="#autobooting" id="markdown-toc-autobooting">Autobooting</a></li>
 </ul>
 
   </nav>
@@ -385,7 +386,7 @@ window.cookieconsent.initialise({
   <li>Accendi la console.</li>
   <li>Avvia l’Homebrew Channel.</li>
   <li>
-    <p>Premi il tasto HOME, poi seleziona “Launch BootMii”.</p>
+    <p>Premi il pulsante HOME, poi seleziona “Launch BootMii”.</p>
 
     <p><img src="/images/bootmii/BootMii_HBC.png" alt="" /></p>
 
@@ -425,7 +426,7 @@ window.cookieconsent.initialise({
     <p><img src="/images/bootmii/BootMii_NAND_Backup_Verify.png" alt="" /></p>
   </li>
   <li>
-    <p>Premi il pulsante Back (quello con una freccia), per premi il pulsante del Menu Wii o dell’Homebrew Channel per uscire da BootMii.</p>
+    <p>Premi il pulsante Back (quello con la freccia), poi premi il bottone del Menu Wii o dell’Homebrew Channel per uscire da BootMii.</p>
 
     <p><img src="/images/bootmii/BootMii_Return.png" alt="" /></p>
   </li>
@@ -434,12 +435,23 @@ window.cookieconsent.initialise({
 <div id="restore-notice" class="notice">
   <p>Nota: <strong>ripristinare un backup della NAND è di solito l’ultima spiaggia</strong>. There are often better ways to unbrick your console.
 Fai del tuo meglio per <a href="bricks">identificare la tua condizione di brick</a> e annullare l’azione che lo ha causato in primo luogo.
-Per ripristinare un backup della NAND dalla tua scheda SD, puoi seguire le istruzioni per <a href="bootmiirecover">RestoreMii</a>. <strong>I Wii Family Edition (Wii senza le porte GameCube) NON POSSONO ripristinare backup della NAND.</strong></p>
+Per ripristinare un backup della NAND dalla tua scheda SD, puoi seguire le istruzioni per <a href="bootmiirecover">RestoreMii</a>. <strong>Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.</strong></p>
 </div>
 
-<p class="notice--info">Come detto in precedenza, se hai BootMii installato in boot2, si avvierà ogni volta che accenderai la console. Se vuoi modificare questa feature, puoi usare l’app <a href="https://oscwii.org/library/app/BootMiiConfigurationEditor">BootMii Config Editor</a>. Altrimenti, puoi editare il file <code class="language-plaintext highlighter-rouge">sd:/bootmii/bootmii.ini</code> manualmente.</p>
-
 <p class="notice--info">Due file saranno stati creati sul root della tua scheda SD: <code class="language-plaintext highlighter-rouge">nand.bin</code> e <code class="language-plaintext highlighter-rouge">keys.bin</code>. <code class="language-plaintext highlighter-rouge">nand.bin</code> is a backup of your console’s internal memory, while <code class="language-plaintext highlighter-rouge">keys.bin</code> are your console’s keys.</p>
+
+<h3 id="autobooting">Autobooting</h3>
+
+<p>If you were able to install BootMii as boot2, but dont want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don’t even notice you have BootMii installed as boot2.</p>
+
+<ol>
+  <li>Open <code class="language-plaintext highlighter-rouge">SD:/bootmii/bootmii.ini</code> with a text editor, such as notepad.</li>
+  <li>Change <code class="language-plaintext highlighter-rouge">#AUTOBOOT=SYSMENU</code> to <code class="language-plaintext highlighter-rouge">AUTOBOOT=SYSMENU</code> by deleting the <code class="language-plaintext highlighter-rouge">#</code>.</li>
+  <li>Then change <code class="language-plaintext highlighter-rouge">#BOOTDELAY=5</code> to <code class="language-plaintext highlighter-rouge">BOOTDELAY=1</code> by deleting the <code class="language-plaintext highlighter-rouge">#</code> and turning the <code class="language-plaintext highlighter-rouge">5</code> into a <code class="language-plaintext highlighter-rouge">1</code>.</li>
+  <li>Save the file and exit.</li>
+</ol>
+
+<p class="notice--info">You can also use the <a href="https://oscwii.org/library/app/BootMiiConfigurationEditor">BootMii Config Editor</a> app on the Wii to change these settings.</p>
 
 <p class="notice--info"><a href="priiloader">Continua all’Installazione di Priiloader</a><br /> Priiloader aggiunge un secondo strato di protezione dai brick, ed è fortemente consigliato anche se BootMii è stato installato su boot2. È specialmente importante per gli utenti di BootMii su IOS.</p>
 
