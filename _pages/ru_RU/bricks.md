@@ -1,10 +1,10 @@
 ---
-title: "Bricks"
+title: "Брики"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
-A "Brick" usually means your Wii has reached a state where, its only use is that of a literal [brick](https://wikipedia.org/wiki/Brick). <br> Bricks can occur for a variety of reasons, usually caused by improper system modifications via homebrew.
+"Брик" обычно означает, что ваша Wii достигла состояния, где ее следующий пункт назначения скорее всего ступеньки перед входной дверью, или же полка, как часть дизайна вашего дома. <br> Bricks can occur for a variety of reasons, usually caused by improper system modifications via homebrew.
 
 # Brick Prevention
 
@@ -217,5 +217,5 @@ First, troubleshooting must be done to determine if hardware is at fault. In the
 + Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
 + At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться на домашнюю страницу.](site-navigation)
 {: .notice--info}

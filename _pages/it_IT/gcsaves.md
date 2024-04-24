@@ -163,5 +163,5 @@ Se stai cercando gli exploit per i dati di salvataggio per entrare su [Swiss](ht
 
 1. Trova il salvataggio che vuoi, selezionalo e seleziona `Sposta o Copia`.
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}

@@ -39,5 +39,5 @@ Spegni la tua console Wii, poi tieni premuto il pulsante RESET e riaccendila. Do
 Basta entrare nell'Homebrew Channel, e usare il tuo WAD manager per disinstallare la WAD problematica.
 </div>
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}

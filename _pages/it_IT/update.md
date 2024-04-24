@@ -51,5 +51,5 @@ La tua console Wii deve essere modificata per poter continuare. Se non lo è, al
 1. Quando viene richieste di mantenere Priiloader installato, premere A per confermare.
 1. Dopo aver installato tutti i file, premi il bottone HOME per ritornare all'Homebrew Channel.
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}

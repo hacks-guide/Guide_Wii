@@ -12,5 +12,5 @@ title: "Donazioni"
 {: .text-center}
 {: .notice--info}
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}

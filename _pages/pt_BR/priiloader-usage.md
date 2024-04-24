@@ -12,7 +12,7 @@ This page documents some of the useful features of Priiloader that may be of int
 
 ### Hacks do Menu do Sistema
 
-Priiloader has a large selection of options that, once enabled, change the behaviour of the Wii to one of your choice. You can find more information on each options [here](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks).
+Priiloader has a large selection of options that, once enabled, change the behaviour of the Wii to one of your choice. You can find more information on each options [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html).
 
 ### Additional options
 

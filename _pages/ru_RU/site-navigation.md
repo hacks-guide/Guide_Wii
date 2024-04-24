@@ -1,50 +1,51 @@
 ---
-title: "Site Navigation"
+title: "Навигация по сайту"
 layout: single
 sitemap: false
 ---
 
 {% capture notice-1 %}
-**Site**
-+ [Wii Guide](/)
-+ [Start Here](get-started)
-+ [FAQ](faq)
-+ [Donations](donations)
+**Сайт**
++ [Дом](/)
++ [Начинайте здесь](get-started)
++ [ЧаВо](faq)
++ [Пожертвования](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
 **WiiLink**
 + [Nintendo Wi-Fi Connection](wiimmfi)
-+ [Setting RTC Time](wiiconnect24#updating-rtc-clock)
-+ RiiConnect24, WiiLink, and Wiimmfi
++ [Установка времени через RTC](wiiconnect24#updating-rtc-clock)
++ [WiiConnect24](wiiconnect24)
+{% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-3 %}
-**Modding 101**
-+ [Credits](bluebomb)
-+ [RiiConnect24](flashhax)
-+ [Legacy Exploits](legacy-exploits)
-+ [Donations](letterbomb)
-+ [Wiimmfi](Wiimmfi)
-+ [Wiimmfi](wiimmfi)
+**Моддинг 101 - Эксплоиты**
++ [BlueBomb](bluebomb)
++ [FlashHax](flashhax)
++ [Устаревшие эксплоиты](legacy-exploits)
++ [LetterBomb](letterbomb)
++ [str2hax](str2hax)
++ [Wilbrand](wilbrand)
 {% endcapture %}
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-4 %}
-**Playing Wii Game Mods**
-+ [BootMii Backup](bootmii)
-+ [BootMii Recovery (RestoreMii)](bootmiirecover)
-+ [Types of Bricks](bricks)
-+ [Brick Prevention](bricks#brick-prevention)
+**Моддинг 101 - Обязательные моды**
++ [Резервная копия через BootMii](bootmii)
++ [Восстановление резервной копии BootMii (RestoreMii)](bootmiirecover)
++ [Типы бриков](bricks)
++ [Предотвращение бриков](bricks#brick-prevention)
 + [cIOS](cios)
-+ [Homebrew Channel](hbc)
++ [Канал Homebrew (Homebrew Channel)](hbc)
 + [ModMii](modmii)
-+ [Open Shop Channel](osc)
++ [Канал Open Shop (Open Shop Channel)](osc)
 + [Priiloader](priiloader)
-+ [Relaunching the HackMii Installer](hackmii)
-+ [Updating Wii Menu to v4.3](update)
-+ [Recovery Mode](recovery-mode)
++ [Повторный запуск установщика HackMii](hackmii)
++ [Обновление меню Wii до версии 4.3](update)
++ [Режим восстановления (Recovery Mode)](recovery-mode)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wii Mod Lite](wnd-mini)
 + YAWM ModMii Edition

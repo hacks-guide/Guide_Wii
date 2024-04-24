@@ -2,7 +2,7 @@
 title: "WiiConnect24"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 <!--
 This guide provides the means of regaining WiiConnect24 functionality on your console via RiiConnect24.
 Although not at all necessary, it is a "nice to have" feature that was originally used for online connectivity in certain applications on the console.
@@ -25,7 +25,7 @@ There is a patcher that ships both of these services together as one - meaning y
 + An SD card or USB drive
 + [sntp](https://oscwii.org/library/app/sntp)
 
-#### Instructions
+#### Инструкции
 1. Download and extract the sntp zip to the root of your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii.
 1. Launch the Homebrew Channel on your Wii.

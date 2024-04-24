@@ -2,7 +2,7 @@
 title: "Wii Backup Loaders"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 This guide introduces Wii backup loaders. They can be primarily used to load game backups on an SD or USB that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
 
@@ -33,7 +33,7 @@ You can install it with [YAWM ModMii Edition](yawmme). The official Wii Menu for
 
 ### Game Directory Structure
 
-Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB.
+Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game directory structure correctly.
 
 ```
 💾SD card or USB:
@@ -47,7 +47,7 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ### http://www.wiithemer.org/
 
-#### Requirements
+#### Требования
 + A Wii
 + The latest version of [cIOS](cios)
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
@@ -93,7 +93,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ### USB Loader GX
 
-#### Requirements
+#### Требования
 + A Wii
 + The latest version of [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
@@ -168,5 +168,5 @@ To change the cIOS used for a specific game, follow the instructions specific to
     + Try using 248, 249, 250 or 251.
 1. Press Save and try to load the game.
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться на домашнюю страницу.](site-navigation)
 {: .notice--info}

@@ -77,5 +77,5 @@ Se vuoi ripristinare i dati di salvataggio di un gioco, usa Dolphin per importar
 Se stavi ripristinando un backup della NAND per riparare un brick e questo non ha funzionato, per favore consulta la seziona di questa guida [riguardo ai brick](bricks).
 {: .notice--info}
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}
