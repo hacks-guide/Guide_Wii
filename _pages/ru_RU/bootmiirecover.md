@@ -66,7 +66,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
     ![](/images/bootmii/BootMii_NAND_Restore.png)
 
-1. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Hit any button on your Wii console or GCN controller.
+1. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Нажмите на любую кнопку на консоли Wii или контролере GameCube.
 
     ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
