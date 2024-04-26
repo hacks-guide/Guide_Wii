@@ -46,7 +46,7 @@ sitemap: false
 + [Повторный запуск установщика HackMii](hackmii)
 + [Обновление меню Wii до версии 4.3](update)
 + [Режим восстановления (Recovery Mode)](recovery-mode)
-+ [Restoring The Wii NAND to Stock](wii-factory-reset)
++ [Восстановление Wii NAND до заводских настроек](wii-factory-reset)
 + [Wii Mod Lite](wnd-mini)
 + YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
@@ -59,16 +59,18 @@ sitemap: false
 + [Managing GameCube Backups](gc-backups)
 + [Managing GameCube Save Files](gcsaves)
 + [Managing Wii Backups](wii-backups)
-+ [Priiloader Usage](priiloader-usage)
-+ [Recommended Homebrew](recommended-homebrew)
-+ [Transferring Save Games](transfer-saves)
-+ [USB Loader GX](wii-loaders)
++ [Использование Priiloader](priiloader-usage)
++ [Рекомендуемое Homebrew](recommended-homebrew)
++ [Перемещение сохранения игр](transfer-saves)
++ [Загрузчики игр с USB](wii-loaders)
 + [Performing a SysCheck](syscheck)
-+ Installing Wii Menu Themes on vWii
++ [Темы меню Wii ](themes)
+{% endcapture %}
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
 **Wii mini**
-+ [Installing the Homebrew Channel on the Wii mini](hbc-mini)
-+ Installing cIOS on the Wii mini
++ [Установка Homebrew Channel на Wii mini](hbc-mini)
++ [Установка cIOS на Wii mini](cios-mini)
+{% endcapture %}
 <div class="notice--primary">{{ notice-6 | markdownify }}</div>
