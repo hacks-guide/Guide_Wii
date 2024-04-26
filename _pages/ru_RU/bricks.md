@@ -21,15 +21,15 @@ Preventing a brick involves many rules that range between common sense and fail-
 + **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
     + An example of modifying files going wrong is replacing IOS80 on Wii mini, which may result in a [Wi-Fi Brick](bricks#wi-fi-brick).
 + **Do NOT install homebrew from untrustworthy sources or if the source code is not available.**
-    + Software on the [Open Shop Channel](osc) is safe.
+    + Приложения из [ Open Shop Channel ](osc) безопасно.
     + There have been incidents of malicious software being developed for the Wii in the past, while other apps are just badly developed. Make sure that you know what you are installing, and only install what you need.
     + Corrupted or unstable forwarders for homebrew could cause a [banner brick](#banner-brick), so try to stick with loading homebrew from the Homebrew Channel unless you really want a forwarder.
 + **Ensure that you know what you are doing when running homebrew apps - especially those with the ability to modify system files. Be ESPECIALLY careful when using applications such as:**
     + AnyTitle Deleter
     + AnyRegion Changer
     + KoreanKii (secondary cause of [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) brick)
-    + Firmware Downgraders
-    + Any other app that modifies critical NAND files
+    + Обновления прошивки на старую версию
+    + Другие приложения которые модифицируют важные файлы NAND
 + **DO NOT TOUCH THE WII'S POWER SOURCE OR POWER BUTTONS WHEN INSTALLING OR MODIFYING CRITICAL SYSTEM CONTENT**.
     + If your electricity is unstable (e.g. storm, power outage), postpone what you are doing until you have a stable power source.
     + This applies to dangerous processes such as BootMii NAND restoration, which could lead to a [full brick](#low-level-brick) if anything goes wrong.
