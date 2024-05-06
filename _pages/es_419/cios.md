@@ -55,7 +55,7 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 1. Download the d2x cIOS Installer and extract it to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Power on your console.
-1. Launch the Homebrew Channel.
+1. Launch the Homebrew Channel on your Wii.
 1. Insert your SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel.
 1. Set everything to match the following:
 

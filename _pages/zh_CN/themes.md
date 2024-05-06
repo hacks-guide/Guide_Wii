@@ -4,14 +4,14 @@ title: "安装 Wii 菜单主题"
 
 {% include toc title="Table of Contents" %}
 
-This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
+This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered. Additionally, forwarders are covered.
 
 ### 转到 `Options` > `Standard System Menu` > Wii 菜单版本 > Wii 菜单区域
 
 DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) AND [PRIILOADER](priiloader)!
 {: .notice--danger}
 
-This tutorial does not work on the Wii mini. Do not attempt this tutorial on the Wii mini or it will cause a [brick](bricks#theme-brick).
+This tutorial does not work on the Wii mini. This tutorial does not work on the Wii mini. Do not attempt this tutorial on the Wii mini or it will cause a [brick](bricks#theme-brick).
 {: .notice--warning}
 
 csm-installer has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
@@ -23,7 +23,7 @@ csm-installer has built in safety features to prevent from installing bad or cor
 请仅安装针对您的 Wii 和其当前区域专门设计过的主题。 安装错误区域或版本的主题会导致您的 Wii 变砖。 本教程将告诉您如何创建一个安全可安装的 .csm 文件。
 {: .notice--danger}
 
-Before proceeding, it helps to know the difference between .MYM and .CSM as file formats when used in Wii Menu theming. While the MYM is made by the theme creator which can then be shared around, the CSM is the result from building a MYM into a system menu. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes seperate.
+Before proceeding, it helps to know the difference between .MYM and .CSM as file formats when used in Wii Menu theming. While the MYM is made by the theme creator which can then be shared around, the CSM is the result from building a MYM into a system menu. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes seperate. While the MYM is made by the theme creator which can then be shared around, the CSM is the result from building a MYM into a system menu. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes seperate.
 {: .notice--info}
 
 #### 主题链接
@@ -60,7 +60,7 @@ If you don't want to go through the hassle of using an external program to build
 1. Copy your `.csm` file to the `themes` directory.
 1. Insert your SD card or USB drive into your Wii, and launch the Homebrew Channel.
 1. Launch csm-installer, and wait for it to load.
-1. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
+1. Select the theme you would like to install with `A`. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
 1. Press `+` to install the theme.
 1. 一旦您找到喜欢的主题，请点击与您的 Wii 菜单版本相对应的下载链接。 If all goes well, you will have a result similar to the below!
 
@@ -83,7 +83,7 @@ If you don't want to go through the hassle of using an external program to build
 1. Have the storage device that holds WiiFlow Lite connected to your PC.
 1. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
 1. Extract and copy the `wiiflow` folder to the root of your storage device, merge all folders and overwrite all files when requested.
-1. Follow the theme setup and theme configuration instructions in `installation.txt`. Enjoy the theme!
+1. Follow the theme setup and theme configuration instructions in `installation.txt`. Enjoy the theme! Enjoy the theme!
 
 ### USB Loader GX Theming
 
@@ -93,7 +93,7 @@ If you don't want to go through the hassle of using an external program to build
 * Google Drive 仓库
 * [USB Loader GX](wii-loaders#usb-loader-gx)
 * A Linux/macOS/Windows PC with an Internet connection
-* 以下是一些主题的链接。
+* 您可能会选择标有 4.X 的下载链接，这意味着该主题适用于 Wii 菜单的 4.1、4.2 和 4.3 版本。
 
 #### Instructions
 
@@ -137,7 +137,7 @@ If you don't want to go through the hassle of using an external program to build
 
 ### App Forwarders
 
-App forwarders can add a bit of extra flair to your Wii Menu - but be careful with them as bad forwarders can cause a [banner brick](bricks#banner-brick). Generally, you can find forwarders on places like [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) for popular apps such as emulators. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme).
+App forwarders can add a bit of extra flair to your Wii Menu - but be careful with them as bad forwarders can cause a [banner brick](bricks#banner-brick). Generally, you can find forwarders on places like [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) for popular apps such as emulators. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme). Generally, you can find forwarders on places like [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) for popular apps such as emulators. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme).
 
 
 [Click here to go back to the site index.](site-navigation)

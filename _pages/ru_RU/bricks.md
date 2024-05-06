@@ -1,10 +1,10 @@
 ---
-title: "Bricks"
+title: "Брики"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
-A "Brick" usually means your Wii has reached a state where, its only use is that of a literal [brick](https://wikipedia.org/wiki/Brick). <br> Bricks can occur for a variety of reasons, usually caused by improper system modifications via homebrew.
+"Брик" обычно означает, что ваша Wii достигла состояния, где ее следующий пункт назначения скорее всего ступеньки перед входной дверью, или же полка, как часть дизайна вашего дома. <br> Bricks can occur for a variety of reasons, usually caused by improper system modifications via homebrew.
 
 # Brick Prevention
 
@@ -43,7 +43,7 @@ In any case, you should absolutely:
 
 This is a section intended to help you diagnose a potential brick, in order by least to most brick severity. If you seem to have a brick that isn't covered in this section or in the guide, please join the Nintendo Homebrew discord server for support.
 
-+ Wii menu brick No app is malfunctioning, Wii settings is error free, everything is seemingly fine. No brick.
++ Wii menu brick Wii menu brick No app is malfunctioning, Wii settings is error free, everything is seemingly fine. No brick.
 + Wii menu brick
     + If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
     + If after accessing the Wii settings, you see an error that resembles the Opera web browser, see [semibrick](bricks#semibrick).
@@ -53,7 +53,7 @@ This is a section intended to help you diagnose a potential brick, in order by l
     + To fix a mail brick, enter Maintenance mode by holding `+` and `-` on the Health and Safety screen.
 + Wii starts, and you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. Maintenance mode is accessible. See [mail brick](bricks#mail-brick).
 + Wii starts, BUT you INSTANTLY see an error that resembles the Opera web browser. See [Wii Menu/Opera brick](bricks#wii-menuopera-brick).
-+ Error 003 See [Korean Kii/Error 003 brick](bricks#error-003-brick).
++ Error 003 Error 003 See [Korean Kii/Error 003 brick](bricks#error-003-brick).
 + Nothing happens, black screen, BUT BootMii as boot2 is accessible. See [IOS brick](bricks#ios-brick).
 + Nothing happens, black screen, BUT Wii can be turned on with a Wiimote/Recovery Mode can be accessed. See [Wi-Fi brick](bricks#wi-fi-brick).
 + Nothing happens, black screen. Wii cannot be turned on with a Wiimote, Recovery Mode cannot be started, and BootMii as boot2 is not accessible. See [low-level brick](bricks#low-level-brick).
@@ -111,7 +111,7 @@ Attempt to start the Wii - warning/press A screen shows up, and when A is presse
 A theme brick occurs when a wrongly formatted theme is installed.
 
 #### Solutions
-To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
+Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version. To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme.
 
 ## Mail brick
 
@@ -156,7 +156,7 @@ Screen shows up as listed below on normal boot.
 ![](/images/bricks/error-003.png)
 
 #### Cause
-When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. If this check succeeds, the error triggers and the Wii is effectively bricked.
+When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. If this check succeeds, the error triggers and the Wii is effectively bricked. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean.
 
 This is usually an immediate follow-up to a Wii System Update on an unsuspecting region-changed Korean Wii.
 
@@ -165,7 +165,7 @@ Since this brick most often occurs after the Wii Menu updates, Priiloader will n
 
 Korean Wiis also released with Wii Menu 3.3, around the time that Nintendo [fixed the Trucha bug in boot1](https://wiibrew.org/wiki/3.3#Changes), so BootMii as Boot2 cannot be installed to any Korean Wii.
 
-While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. This involves going into [Recovery Mode](recovery-mode), where an exploit can be triggered in order to gain access to the Homebrew Channel and revert the conditions that caused the brick. Note that you must have a drivechip in order for this method to work.
+This involves going into [Recovery Mode](recovery-mode), where an exploit can be triggered in order to gain access to the Homebrew Channel and revert the conditions that caused the brick. While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. Note that you must have a drivechip in order for this method to work.
 
 ## IOS brick
 
@@ -217,5 +217,5 @@ First, troubleshooting must be done to determine if hardware is at fault. In the
 + Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
 + At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться на домашнюю страницу.](site-navigation)
 {: .notice--info}

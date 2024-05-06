@@ -6,7 +6,7 @@ sitemap: false
 
 {% capture notice-1 %}
 **Site**
-+ [Wii Guide](/)
++ [ホームブルー](/)
 + [はじめに](get-started)
 + [よくある質問](faq)
 + [寄付](donations)

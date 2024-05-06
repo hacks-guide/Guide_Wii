@@ -38,13 +38,13 @@ First of all, verify that your Wii can boot into Recovery Mode *at all*. This in
 #### Method I - Recovery Menu to Smash Stack
 
 1. If you have a Super Smash Bros. Brawl game disc, you can use [Smash Stack](legacy-exploits#smash-stack) to load the HackMii installer off of your SD card.
-1. Boot into Recovery Mode, and insert the Super Smash Bros. Brawl game disc. It should boot at this point.
+1. Boot into Recovery Mode, and insert your respective game disc. It should boot at this point.
 1. Follow the instructions for the exploit on Wiibrew.
 
 #### Method II - Recovery Menu to Save Game Exploit
 
 1. If you already have a save game on your Wii for a save game exploit listed in [Legacy Exploits](legacy-exploits), you may use a respective exploit in order to load the HackMii installer.
-1. Boot into Recovery Mode, and insert your respective game disc. It should boot at this point.
+1. Boot into Recovery Mode, and insert the Super Smash Bros. Brawl game disc. It should boot at this point.
 1. Follow the instructions for the exploit on Wiibrew.
 
 #### Method III - Recovery Menu to Bluebomb

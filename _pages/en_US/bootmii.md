@@ -68,14 +68,22 @@ Note: **restoring a NAND backup is usually a last resort**. There are often bett
 Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
 
 To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover).
-**Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.**
+**Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
 </div>
 
-As stated earlier, if you have BootMii installed as boot2, it will launch every time you start your console.
-If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
+Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
-Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+### Autobooting
+
+If you were able to install BootMii as boot2, but dont want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
+
+1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
+1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
+1. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
+1. Save the file and exit.
+
+You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
 {: .notice--info}
 
 [Continue to Priiloader Installation](priiloader)<br>

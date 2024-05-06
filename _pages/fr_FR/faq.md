@@ -64,7 +64,7 @@ Pour les périphériques USB, les clés USB ont un taux élevé de ne pas foncti
 
 Lorsque vous envisagez d'acheter ou d'utiliser une carte SD ou un périphérique USB, Il faut prendre en considération les choses que vous utiliserez pour les deux supports de stockage. Différentes utilisations peuvent prendre différentes quantités d'espace, dont certains exemples communs sont indiqués ci-dessous:
 
-+ Wii Backups: The largest Wii games (dual-layer DVD) are up to sizes of 8.5GB, more normal games are closer to sizes of 4.7GB or lower. The average user for a Wii backup device would probably want 128GB or more of space.
++ The average user for a Wii backup device would probably want 128GB or more of space. Wii Backups: The largest Wii games (dual-layer DVD) are up to sizes of 8.5GB, more normal games are closer to sizes of 4.7GB or lower.
 + GameCube Backups: The largest GameCube games reach sizes of up to 1.3GB. ISO sizes are normally this size regardless of the game, but can be considerably lower if NKIT is used as a format instead. The average user for a GameCube backup device would probably want 64GB or more of space.
 + General Emulation: There are a wide variety of emulators available on the Wii. Because the size of different game ROMs differ dramatically, the average user wanting to emulate games would probably want 32GB or more of space.
 + General Homebrew: For homebrew, the average user would want 2GB or more of space.

@@ -30,6 +30,7 @@ Iată niște exemple comune de ce poate homebrew să facă pentru consola ta Wii
 + Instalarea unui [USB loader](wii-loaders) pentru a rula backup-uri de Wii (și de alte console) de pe un dispozitiv de stocare extern
 + Crearea unui backup și restaurarea salvărilor [Wii](wii-saves) și [GameCube](gcsaves)
 + Restaurarea funcționalității online atât pentru [WiiConnect24](wiiconnect24) cât și pentru [Nintendo Wi-Fi Connection](wiimmfi)
++ Restaurarea funcționalității online atât pentru [WiiConnect24](wiiconnect24) cât și pentru [Nintendo Wi-Fi Connection](wiimmfi)
 
 ### Ce instalează acest ghid?
 

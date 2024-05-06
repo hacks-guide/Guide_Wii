@@ -27,9 +27,10 @@ Here's a list of things you can do using homebrew.
 + Patch game disc contents (allowing you to load game modifications) using [Riivolution](riivolution).
 + Install themes to your Wii Menu using [MyMenuify](themes).
 + Back up your discs with [CleanRip](/dump-games) and installed games and titles with [Yet Another BlueDump MOD](dump-wads).
++ Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
 + Back up and restore your Wii save files with [SaveGame Manager GX](https://oscwii.org/library/app/savegame_manager_gx).
-+ Back up and restore your GameCube save files using [GCMM](gcsaves).
 + Restore discontinued online services using [RiiConnect24](riiconnect24), [Wiimmfi](wiimmfi) and [WiiLink](wiilink).
++ Back up and restore your GameCube save files using [GCMM](gcsaves).
 
 ### What does the guide install?
 

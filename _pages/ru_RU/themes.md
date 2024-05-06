@@ -2,11 +2,11 @@
 title: "Installing Wii Menu Themes"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
 
-### Section I - Finding a Theme
+### Go to `Options` > `Standard System Menu` > Version of your Wii Menu > Region of your Wii Menu
 
 DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) AND [PRIILOADER](priiloader)!
 {: .notice--danger}
@@ -33,7 +33,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 + https://gbatemp.net/download/categories/other-files.166/
 + [Wii Themer](http://www.wiithemer.org/) (online theme builder for specific versions and regions, ready to install .csm themes)
 
-#### Requirements
+#### Требования
 
 * A Wii
 * Extract MyMenuifyMod.zip to your SD card or USB drive.
@@ -70,7 +70,7 @@ If you don't want to go through the hassle of using an external program to build
 
 Unfortunately, because of the codebase difference between the original WiiFlow and the newer WiiFlow Lite, themes are sparse - in fact, only one theme could be found that confidently works on the newer version. The instructions for installing that theme are below.
 
-#### Requirements
+#### Требования
 
 * Wii Theme Team Creations v2
 * An SD card or USB drive
@@ -78,7 +78,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * What you need
 * [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
-#### Instructions
+#### Инструкции
 
 1. Have the storage device that holds WiiFlow Lite connected to your PC.
 1. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
@@ -87,7 +87,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 ### USB Loader GX Theming
 
-#### Requirements
+#### Требования
 
 * Wii Themer
 * Google Drive Repository
@@ -95,7 +95,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
 * A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
 
-#### Instructions
+#### Инструкции
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
 1. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
@@ -105,14 +105,14 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 ### Homebrew Channel Theming
 
-#### Requirements
+#### Требования
 
 * Some themes have different links for different regions, so pick the one corresponding to your Wii's region.
 * https://drive.google.com/drive/folders/1K1WQe36bGibsF4ZlAxZKU6ngNpjUnh5i
 * A computer with Windows on it (or using Mono or Wine on Mac/Linux)
 * https://rc24.xyz/goodies/themes/
 
-#### Instructions
+#### Инструкции
 
 1. Download a theme `.zip` file from the website linked above.
 
@@ -140,5 +140,5 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 App forwarders can add a bit of extra flair to your Wii Menu - but be careful with them as bad forwarders can cause a [banner brick](bricks#banner-brick). Generally, you can find forwarders on places like [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) for popular apps such as emulators. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme).
 
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться на домашнюю страницу.](site-navigation)
 {: .notice--info}

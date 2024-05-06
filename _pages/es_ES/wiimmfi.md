@@ -67,7 +67,7 @@ Si recibes el código de error 23400, significa que tu proveedor de servicios de
 
 #### Instrucciones (para Wii)
 
-1. Ve a `Opciones de Wii` > `Configuración de Wii` > `Internet` > `Ajustes de conexión` > Elige tu conexión > `Modificar`. Después elige `No` en `Obtener DNS automáticamente`, y selecciona `Configuración avanzada`. Finalmente, ingresa `95.217.77.151` en `DNS primario`, y guarda los cambios.
+1. Ve a `Opciones de Wii` > `Configuración de Wii` > `Internet` > `Ajustes de conexión` > Elige tu conexión > `Modificar`. Después, en la opción `Obtener DNS automáticamete` elige `No`. Ingresa `95.217.77.181` en `DNS primario`.
 1. Si estás usando una Wii U, deberás ejecutar Mario Kart Wii Competition Patcher cada vez que quieras verificar si ha empezado un nuevo torneo, ya que WiiConnect24 no está habilitado en vWii.
 1. Inicia tu juego desde el Canal Disco. Ahora deberías poder acceder a Wiimmfi.
 
@@ -97,7 +97,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 #### Instrucciones
 
 1. Inserta tu disco de juego.
-1. Ve a `Opciones de Wii` > `Configuración de Wii` > `Internet` > `Ajustes de conexión` > Elige tu conexión > `Modificar`. Después, en la opción `Obtener DNS automáticamete` elige `No`. Ingresa `95.217.77.181` en `DNS primario`.
+1. Ve a `Opciones de Wii` > `Configuración de Wii` > `Internet` > `Ajustes de conexión` > Elige tu conexión > `Modificar`. Después elige `No` en `Obtener DNS automáticamente`, y selecciona `Configuración avanzada`. Finalmente, ingresa `95.217.77.151` en `DNS primario`, y guarda los cambios.
 
     ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 

@@ -2,25 +2,25 @@
 title: "Dumping Wii/GameCube games"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 This guide covers dumping GameCube or Wii game discs to a local SD card or USB drive on your Wii.
 
 ### Dumping a Disc to SD/USB (CleanRip)
 
-#### Requirements
+#### Требования
 
 + An SD card or USB drive with at least 4.7 GB of free space (8.5 GB if dumping a dual layer disc).
 + [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 #### Preparation
 
-1. Power off your console.
+1. Выключите вашу консоль.
 1. Insert your SD card or USB drive into your computer.
 1. Extract CleanRip and put it in the `apps` folder on your SD card or USB drive.
 1. Open the folder in File Explorer.
-1. Power on your console.
-1. Launch the Homebrew Channel.
+1. Включите вашу консоль.
+1. Запустите канал Homebrew (Homebrew Channel).
 1. Launch CleanRip from the list of homebrew.
 1. When prompted, select `Yes` to calculate disc checksums.
 

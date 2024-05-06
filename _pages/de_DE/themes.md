@@ -1,5 +1,5 @@
 ---
-title: "RiiConnect24 Themes Page"
+title: "Wii Theme Team Creations v2"
 ---
 
 {% include toc title="Inhaltsverzeichnis" %}

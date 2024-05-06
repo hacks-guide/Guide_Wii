@@ -4,9 +4,9 @@ title: "BlueBomb"
 
 {% include toc title="Table of Contents" %}
 
-{% capture technical_info %}
+Wii Miniで唯一使用可能な改造方法ですが、Wiiでも問題無く使えます。 {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Wii Miniで唯一使用可能な改造方法ですが、Wiiでも問題無く使えます。
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries.
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
@@ -47,7 +47,7 @@ Bluetoothを接続するため、Wii本体とパソコンを近づけるよう�
 
 1. Extract it and place the `boot.elf` file in your flash drive.
     + (ブリックを修正する場合、使用するHomeberwアプリをappsフォルダにコピーする必要があります)
-    + - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. boot.elfを使用してください。)
+    + - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. boot.elfを使用してください。 )
 1. USBドライブをWii本体に接続します。
     + Wiiの場合、縦向きの場合は右のUSBポート、横向きの場合は下のUSBポートに接続してください。
     + For a normal Wii, use the bottom port. (or the right port if it's upright).
@@ -70,8 +70,8 @@ Bluetoothを接続するため、Wii本体とパソコンを近づけるよう�
     ```
 
 1. コードを実行すると、必要なファイルをダウンロードし、Wiiの情報を求めます。
-    + Wiiを選択した場合、Wiiメニューのバージョンの入力を求められます。 これは、STEP4で確認した番号と同じです。
-    + Wii miniを選択した場合、リージョンを入力するように求められます。これは、STEP4で確認したWiiメニューの最後の文字(U,E,Kのいずれか)です。
+    + Wii miniを選択した場合、リージョンを入力するように求められます。 これは、STEP4で確認したWiiメニューの最後の文字(U,E,Kのいずれか)です。
+    + Wiiを選択した場合、Wiiメニューのバージョンの入力を求められます。
 1. Wiiの電源を入れます。
     + Turn on your console and **do not** connect any Wii Remotes.
 1. PCに`got connection handle`が表示されるまで、Wii本体のSyncボタンを押してください。

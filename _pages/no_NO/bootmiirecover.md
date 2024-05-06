@@ -40,7 +40,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ### Instructions
 
-1. Launch the Homebrew Channel.
+1. Launch the Priiloader installer.
 1. Press the HOME Button, then select "Launch BootMii".
     + If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
 

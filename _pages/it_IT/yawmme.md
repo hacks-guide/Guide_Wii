@@ -39,5 +39,5 @@ YAWM ModMii Edition è un'applicazione che permette d'installare file WAD e lanc
 
     ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}

@@ -2,7 +2,7 @@
 title: "ModMii"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 This Program does NOT come with a warranty, so you are responsible for any potential damage done to your Wii.
 {: .notice--warning}
@@ -68,7 +68,7 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ### Installing ModMii
 
-#### Requirements
+#### Требования
 
 * A Wii
 * A USB drive or SD Card
@@ -189,5 +189,5 @@ The HackMii Solutions Wizard is a tool that fixes problems that may arise from t
 
     ![](/images/modmii/hackmii-wizard-5.png)
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться на домашнюю страницу.](site-navigation)
 {: .notice--info}

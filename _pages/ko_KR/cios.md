@@ -42,7 +42,7 @@ If you are not on Windows, you may download & run [this script](/assets/files/d2
 1. Click `Start NUS Download!`.
 1. Repeat the step 2 & 3 for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
 1. Once you have downloaded all four IOS, there will be a folder named `titles` in the same folder as the NUS Downloader.
-1. <br/> Open the folder and navigate through them until you locate the four WAD files you downloaded.
+1. Open the folder and navigate through them until you locate the four WAD files you downloaded.
 1. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 d2x cIOS 설치 프로그램을 실행합니다.
     + 이 장치는 d2x cIOS 설치 프로그램이 포함된 동일한 장치여야 합니다.
 

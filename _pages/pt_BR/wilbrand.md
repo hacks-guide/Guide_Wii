@@ -98,7 +98,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
         ![](/images/exploits/wilbrand/windows.png)
 
     + Linux/MacOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/AAAA VERSION /media/mount_dir`
-        + Se você não abriu o terminal diretamente na pasta que Wilbrand foi extraido, use `cd` para entrar nela primeiro, ex. `cd ~/Desktop/Wilbrand` `cd ~/Desktop/Wilbrand`
+        + Se você não abriu o terminal diretamente na pasta que Wilbrand foi extraido, use `cd` para entrar nela primeiro, ex. `cd ~/Desktop/Wilbrand` `cd ~/Desktop/Wilbrand` `cd ~/Desktop/Wilbrand`
         + `/media/mount_dir` é a pasta que seu cartão SD está montado. Isso talvez mude de acordo com a sua distro do Linux.
 
         ![](/images/exploits/wilbrand/linux.png)

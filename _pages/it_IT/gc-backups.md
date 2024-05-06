@@ -45,5 +45,5 @@ Assicurati che l'unità USB sia formattata come FAT32. Non formattarlo come altr
 L'opzione `Installare il gioco (scrub)` rimuoverà dati non necessari dal gioco, riducendone così le dimensioni del file. For some games this can be a major reduction, for example with Animal Crossing - going from 1.3GB to around 26MB.
 {: .notice--info}
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}
