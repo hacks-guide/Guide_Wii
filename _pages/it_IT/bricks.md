@@ -12,13 +12,13 @@ La prevenzione dei brick include diverse regole che spaziano dal buon senso a de
 
 + **NON seguire tutorial obsoleti di modding del Wii, usare software homebrew obsoleto o seguire video guide su internet a meno che non sia ESPLICITAMENTE INDICATO dallo sviluppatore del software homebrew.**
 + **NON USARE MAI, IN NESSUNA CIRCOSTANZA, L'APPLICAZIONE HOMEBREW `Pimp My Wii`. È un'applicazione homebrew PERICOLOSA che ha l'abilità di BRICKARE IL TUO WII!**
-+ **Do NOT install IOS packs such as DARKCORP that overwrite most of your IOS with cIOS. It is DANGEROUS and heavily outdated.**
++ **NON installare pacchi IOS come DARKCORP che sovrascrive la maggior parte dei tuoi IOS con cIOS. È PERICOLOSO ed estremamente obsoleto.**
 + **NON ripristinare backup della NAND provenienti da altre console!**
 
-+ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi)). Ignorare questa indicazione potrebbe consentire a un malintenzionato di BRICKARE il tuo Wii!**
++ **NON utilizzare un servizio Nintendo Wi-Fi Connection almeno che non sia noto di essere stato corretto per RCE (ad esempio [Wiimmfi](wiimmfi)). Ignorare questa indicazione potrebbe consentire a un malintenzionato di BRICKARE il tuo Wii!**
 + **Installa solo aggiornamenti che hanno la stessa regione del tuo Wii!**
     + Installare aggiornamenti che hanno un'altra regione potrebbe essere innocuo, ma può causare un brick [Korean Kii/Errore 003](bricks#korean-kiierror-003-brick) nel peggiore scenario. Per evitare che questo succeda se hai comprato un Wii usato, esegui [SysCheck](syscheck) per verificare la regione originaria della tua console. Se la regione è coreana, sii ESTREMAMENTE attento nell'eseguire gli aggiornamenti alla tua console, e considera chiedere ulteriore assistenza.
-+ **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
++ **NON eliminare o modificare file di sistema, installare vecchie versioni del menu Wii o IOS, e NON installare nessuna mod dei file di sistema almeno che non sappia che cosa stai facendo!**
     + Un esempio di modifica dei file errata è rimpiazzare l'IOS80 sul Wii mini, che potrebbe portare a un [Wi-Fi Brick](bricks#wi-fi-brick).
 + **NON installare homebrew da fonti poco autorevoli o se il codice sorgente non è disponibile.**
     + Le applicazioni sull'[Open Shop Channel](osc) sono sicure.
@@ -41,9 +41,9 @@ In ogni caso, dovresti assolutamente:
 
 # Diagnosi
 
-This is a section intended to help you diagnose a potential brick, in order by least to most brick severity. If you seem to have a brick that isn't covered in this section or in the guide, please join the Nintendo Homebrew discord server for support.
+Questa è una sezione pensata per aiutarti a diagnosticare un potenziale brick, in ordine, dal meno grave al più grave. Se sembra che tu abbia un brick che non è trattato in questa sezione o nella guida, ti preghiamo di unirti al server Discord di Nintendo Homebrew per ricevere assistenza.
 
-+ Il Wii si avvia, e procede avviando il Menu Wii. Nessuna app presente malfunzionamenti, le impostazioni del Wii non hanno errori, e tutto sembra funzionare correttamente. No brick.
++ Il Wii si avvia, e procede avviando il Menu Wii. Nessuna app presente malfunzionamenti, le impostazioni del Wii non hanno errori, e tutto sembra funzionare correttamente. Nessun brick.
 + Il Wii si avvia, e procede avviando il Menu Wii.
     + If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
     + Se dopo aver aperto le impostazioni del Wii, vedi un errore che ricorda il browser Opera, vedi il [semibrick](bricks#semibrick).
