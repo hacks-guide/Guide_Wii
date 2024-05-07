@@ -165,7 +165,7 @@ In quanto questo Wii succede soprattutto dopo gli aggiornamenti del Menu Wii, Pr
 
 I Wii coreani sono anche stati rilasciati con il Menu Wii 3.3, all'incirca quando Nintendo [ha corretto il bug Trucha di boot1](https://wiibrew.org/wiki/3.3#Changes), quindi BootMii su boot2 non può essere installato né usato sui Wii coreani.
 
-Il procedimento include entrare in [Recovery Mode](recovery-mode), dove un exploit può essere avviato per accedere all'Homebrew Channel e rimuovere le condizioni che hanno causato il brick. While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. Note that you must have a drivechip in order for this method to work.
+Il procedimento include entrare in [Recovery Mode](recovery-mode), dove un exploit può essere avviato per accedere all'Homebrew Channel e rimuovere le condizioni che hanno causato il brick. While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. Nota che è necessario avere una modifica hardware del drivechip affinché questo metodo funzioni.
 
 ## Brick IOS
 
@@ -211,9 +211,9 @@ Questo brick di verifica nel momento in cui boot1/boot2 sono corrotti, o se c'è
 #### Soluzioni
 Per prima cosa, deve essere effettuata la risoluzione dei problemi per determinare se c'è un problema hardware. Nell'ordine elencato, procedi come segue:
 
-+ Assicurati che il Wii effettivamente funzioni (legga e faccia girare i dischi normalmente, si connetta con i Wiimote) prima di proseguire. If this is the case and only video is not being displayed, you may have a bad video cable, or an exceptionally rare failure of the video port or the GPU.
-+ If on a Wii mini, and if a normal IOS80 was installed, see [Wi-Fi brick](bricks#wi-fi-brick). Se i passaggi per risolvere il brick Wi-Fi falliscono, procedi.
-+ Prova ad accedere alla [Recovery Mode](recovery-mode) (solo Wii normali). If the Wii boots into Recovery Mode, see [Wi-Fi brick](bricks#wi-fi-brick) or [IOS brick](bricks#ios-brick). If steps to resolve the Wi-Fi brick or IOS brick failed, proceed.
++ Assicurati che il Wii effettivamente funzioni (legga e faccia girare i dischi normalmente, si connetta con i Wiimote) prima di proseguire. Se questo è il caso e solo il video non viene visto, potresti forse avere un cavo video scadente, o guasto eccezionalmente raro alla porta video o alla GPU.
++ Se stai usando una Wii mini, e un normale IOS80 è stato installato vedi [Wi-Fi brick](bricks#wi-fi-brick). Se i passaggi per risolvere il brick Wi-Fi falliscono, procedi.
++ Prova ad accedere alla [Recovery Mode](recovery-mode) (solo Wii normali). Se la Wii si avvia in Recovery Mode, vedi [Wi-Fi brick](bricks#wi-fi-brick) o [IOS brick](bricks#ios-brick). Se i passaggi per risolvere il Wi-Fi brick o l'IOS brick falliscono, procedi.
 + Riposizione l'unità del disco e prova ad avviare la console normalmente. Se ancora non hai successo, rimpiazza l'unità del disco. Se ancora non hai successo, procedi.
 + A questo punto, vi è una corruzione a basso livello di boot0/boot1, un fallimento del chip della NAND, o c'è un fallimento hardware sconosciuto più grave. Considera chiedere aiuto online o comprare un altro Wii.
 
