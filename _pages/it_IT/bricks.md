@@ -45,13 +45,13 @@ Questa è una sezione pensata per aiutarti a diagnosticare un potenziale brick, 
 
 + Il Wii si avvia, e procede avviando il Menu Wii. Nessuna app presente malfunzionamenti, le impostazioni del Wii non hanno errori, e tutto sembra funzionare correttamente. Nessun brick.
 + Il Wii si avvia, e procede avviando il Menu Wii.
-    + If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
+    + Se dopo accedendo ad un canale specifico, ricevi il messaggio`I file di sistema sono corrotti.`, dai un'occhiata a [brick del banner](bricks#banner-brick).
     + Se dopo aver aperto le impostazioni del Wii, vedi un errore che ricorda il browser Opera, vedi il [semibrick](bricks#semibrick).
 + Il Wii si avvia, vedi l'avviso di salute e sicurezza, ma nel momento in cui premi A, vedi uno schermo nero.
     + Se questo succede dopo aver installato un tema, vedi il [brick del tema](bricks#theme-brick).
     + Se questo succede dopo aver installato un WAD, vedi il [brick del banner](bricks#banner-brick).
     + Se questo succede casualmente, e puoi accedere alla modalità manutenzione tenendo premuti i tasti +/- sulla schermata di salute e sicurezza, vedi il [brick mail](bricks#mail-brick).
-+ Wii starts, and you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. La modalità manutenzione non è accessibile. Vedi il [brick mail](bricks#mail-brick).
++ La Wii si accende, vedi l'avviso di salute e sicurezza, ma dopo aver premuto A per iniziare, lo schermo diventa nero e/o si blocca e non si può procedere. La modalità manutenzione non è accessibile. Vedi il [brick mail](bricks#mail-brick).
 + Il Wii si avvia, MA vedi SUBITO un errore che ricorda il browser Opera. Vedi il brick [Menu Wii/Opera](bricks#wii-menuopera-brick).
 + Errore 003. Vedi il brick [Korean Kii/Errore 003](bricks#error-003-brick).
 + Non succede nulla, schermo nero, MA BootMii su boot2 è accessibile. Vedi il [brick IOS](bricks#ios-brick).
