@@ -132,7 +132,7 @@ Da qui, l'Homebrew Channel può essere avviato e il brick può essere risolto el
 Quando avvii il Wii, ottieni un errore dal browser Opera simile a `You tried to access the address (URL), which is currently unavailable.` Questo succede ogni volta che accendi il Wii, e non può essere aggirato con nessun mezzo.
 
 #### Causa
-Questo brick è una versione più grave del [Semibrick](#semibrick). If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
+Questo brick è una versione più grave del [Semibrick](#semibrick). Se il tuo SYSCONF (file di configurazione di sistema) viene corrotto o danneggiato, la Wii lo rigenererà e avvierà la fase di configurazione.
 
 Tuttavia, la pagina di configurazione ha una posizione simile a quella delle impostazioni del Wii. Se hai un Menu Wii o un tema di regione incorretta, il Wii non può trovarle.
 
@@ -161,7 +161,7 @@ Prima di rilasciare i Wii coreani, Nintendo ha cambiato la chiave di criptazione
 Questo di solito succede subito dopo un aggiornamento della versione del sistema di un Wii coreano con la regione cambiata.
 
 #### Soluzioni
-In quanto questo Wii succede soprattutto dopo gli aggiornamenti del Menu Wii, Priiloader non sarà presente. In the case that Priiloader is present, you can simply fix it by either installing the previous Wii System Menu or removing the key with the KoreanKii homebrew app.
+In quanto questo Wii succede soprattutto dopo gli aggiornamenti del Menu Wii, Priiloader non sarà presente. Nel caso che Priiloader sia presente, puoi semplicemente aggiustarlo installando il menu di sistema Wii precedente o rimuovere la chiave con l'homebrew KoreanKii.
 
 I Wii coreani sono anche stati rilasciati con il Menu Wii 3.3, all'incirca quando Nintendo [ha corretto il bug Trucha di boot1](https://wiibrew.org/wiki/3.3#Changes), quindi BootMii su boot2 non può essere installato né usato sui Wii coreani.
 
