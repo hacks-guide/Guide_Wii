@@ -51,7 +51,7 @@ Vedi [questa](bricks) pagina.
 Negli exploit [BlueBomb](bluebomb), [str2hax](str2hax) o [FlashHax](flashhax), non ti serve una scheda SD per modificare il tuo Wii; è comunque altamente consigliato averne una per gli homebrew e altre cose.
 {: .notice--info}
 
-Il File System consigliato per le schede SD è il FAT32, vedi [questa guida](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) per istruzioni su come formattare.<br> Per i dispositivi USB, il FAT32 è sempre consigliato, anche se gli utenti dovrebbero conoscere le limitazioni del FAT32 che permette dispositivi solo fino a 2TB di spazio. WBFS was a previously used file system for Wii game backups (not to be confused with WBFS files) - today, it is outdated and should not be used.
+Il File System consigliato per le schede SD è il FAT32, vedi [questa guida](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) per istruzioni su come formattare.<br> Per i dispositivi USB, il FAT32 è sempre consigliato, anche se gli utenti dovrebbero conoscere le limitazioni del FAT32 che permette dispositivi solo fino a 2TB di spazio. WBFS era precedentemente un file system usato per backup Wii (da non confondere con file WBFS) - oggi, è obsoleto e non dovrebbe essere usato.
 {: .notice--info}
 
 For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.<br> For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.<br> Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
@@ -66,7 +66,7 @@ Quando si considera comprare o usare una scheda SD o unità USB, ha senso tenere
 
 + L'utente medio per un dispositivo con backup di giochi Wii ha probabilmente bisogno di uno spazio maggiore o uguale a 128GB. Wii Backups: The largest Wii games (dual-layer DVD) are up to sizes of 8.5GB, more normal games are closer to sizes of 4.7GB or lower.
 + Backup GameCube: I backup più grandi di GameCube arrivano a occupare fino a 1.3GB di spazio. I file ISO sono normalmente di queste dimensioni indipendentemente dal gioco, ma può essere decisamente più leggero se viene invece usato il formato NKIT. L'utente medio per un dispositivo con backup di giochi GameCube ha probabilmente bisogno di uno spazio maggiore o uguale a 64GB.
-+ Emulazione Generale: Ci sono una varietà di emulatori disponibili sul Wii. Because the size of different game ROMs differ dramatically, the average user wanting to emulate games would probably want 32GB or more of space.
++ Emulazione Generale: Ci sono una varietà di emulatori disponibili sul Wii. Poiché le dimensioni delle diverse ROM di gioco differiscono drammaticamente, l'utente medio che vuole emulare i giochi probabilmente vorrebbe 32GB o più di spazio.
 + Homebrew Generali: Per homebrew, l'utente medio ha probabilmente bisogno di uno spazio maggiore o uguale a 2GB.
 + Backup della NAND: Per eseguire backup della NAND con BootMii, l'utente medio ha probabilmente bisogno di un minimo di 512MB di spazio libero, ma più di 1GB è consigliato.
 + L'essenziale, solo l'exploit: La quantità di spazio minimo per eseguire un exploit compatibile con una scheda SD sul Wii è di 128MB.
