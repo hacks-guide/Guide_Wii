@@ -13,7 +13,7 @@ NON usare NESSUN indirizzo MAC mostrato negli esempi di questa guida, perchè ca
 {: .notice--warning}
 
 ### Requisiti
-* Una scheda SD formattata in FAT32
+* An SD card formatted as FAT32 that is 32GB or less
 * Un Wii con versione di sistema 4.3
 * Un computer Windows/MacOS/Linux con una connessione a internet
 
