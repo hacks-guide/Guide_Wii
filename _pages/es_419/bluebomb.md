@@ -1,5 +1,5 @@
 ---
-title: "Credits"
+title: "BlueBomb"
 ---
 
 {% include toc title="Table of Contents" %}
