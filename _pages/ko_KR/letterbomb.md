@@ -13,7 +13,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 {: .notice--warning}
 
 ### 필요한 것
-* FAT32/MS-DOS로 포맷된 SD 카드
+* An SD card formatted as FAT32 that is 32GB or less
 * 시스템 메뉴 4.3의 Wii
 * A Windows/MacOS/Linux computer with an Internet connection
 
