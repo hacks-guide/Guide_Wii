@@ -30,7 +30,7 @@ Assicurati che l'unità USB sia formattata come FAT32. Non formattarlo come altr
 
     ![](/images/desktop-apps/GCBM/folderbutton.png)
 
-1. Navigate to the location of the folder that contains the game file you want to transfer. Può essere nell'hard drive del tuo computer o un dispositivo di archiviazione esterno. Once you find the folder, select it.
+1. Naviga verso il percorso della cartella che contiene il file del gioco che vuoi trasferire. Può essere nell'hard drive del tuo computer o un dispositivo di archiviazione esterno. Una volta trovata la cartella, selezionala.
 
     ![](/images/desktop-apps/GCBM/selectfolder.png)
 
@@ -42,7 +42,7 @@ Assicurati che l'unità USB sia formattata come FAT32. Non formattarlo come altr
 
     ![](/images/desktop-apps/GCBM/installgame.png)
 
-L'opzione `Installare il gioco (scrub)` rimuoverà dati non necessari dal gioco, riducendone così le dimensioni del file. For some games this can be a major reduction, for example with Animal Crossing - going from 1.3GB to around 26MB.
+L'opzione `Installare il gioco (scrub)` rimuoverà dati non necessari dal gioco, riducendone così le dimensioni del file. Per alcuni giochi quest può essere una riduzione maggiore, per esempio con Animal Crossing - andando da 1.3GB a circa 26MB.
 {: .notice--info}
 
 [Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
