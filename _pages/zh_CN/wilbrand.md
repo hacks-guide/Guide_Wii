@@ -13,7 +13,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 
 #### Requirements
 
-* 格式化为 FAT32/MS-DOS 的 SD 卡
+* An SD card formatted to FAT32/MS-DOS that is 32GB or less
 * 版本至少为 3.0 的 Wii
 
 无法在 4.0 之前的 Wii 菜单版本中使用大于 2GB 的 SD 卡。
