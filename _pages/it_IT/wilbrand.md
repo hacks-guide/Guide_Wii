@@ -13,7 +13,7 @@ Ci sono due metodi elencati in questa pagina per creare correttamente l'exploit 
 
 #### Requisiti
 
-* Una scheda SD formattata come FAT32/MS-DOS (FAT)
+* An SD card formatted to FAT32/MS-DOS that is 32GB or less
 * Un Wii sulla versione 3.0 o successiva
 
 Le schede SD di dimensioni maggiori a 2GB non funzioneranno su versioni del Menu Wii precedenti alla 4.0.
