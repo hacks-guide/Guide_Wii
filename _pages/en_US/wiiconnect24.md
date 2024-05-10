@@ -11,12 +11,12 @@ These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Ch
 
 [WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather and news, send messages to friends, participate in Mii contests, and more. WiiConnect24 was discontinued on June 27th, 2013.
 
-## RiiConnect24 + WiiLink
-[RiiConnect24](https://rc24.xyz) is a revival service for WiiConnect24 that started in 2015, which allows you to regain its functionality on your console.
-As of late 2023, the service is now owned by WiiLink, a project that started in 2020 that was previously aiming at the Japanese-exclusive channels.
+## WiiLink
+[WiiLink](https://www.wiilink24.com/) is a revival service for WiiConnect24 that allows you to regain and expand its functionality on your console.
+As of late 2023, the service merged with revival project RiiConnect24, and today is just operated under the name WiiLink.
 
-There is a patcher that ships both of these services together as one - meaning you get all of the international and Japanese-only channels in one package.
-The guide on how to install these services can be found [on WiiLink's website.](https://www.wiilink24.com/guide/)
+WiiLink hosts a patcher for the services that it provides, ranging from international channels such as the News Channel to regional exclusives such as Wii Room.
+The guide on how to install these services, as well as the patcher, can be found [on WiiLink's website.](https://www.wiilink24.com/guide/)
 
 <!-- move this back to another page? or no -->
 ### Updating RTC Clock
@@ -54,6 +54,10 @@ The guide on how to install these services can be found [on WiiLink's website.](
 7. [Boot Priiloader](priiloader#section-iii---entering-priiloader) on the vWii.
 8. Select hacks, and scroll down to enable the Fix NWC24iSetUniversalTime hack.
 9. Return to the vWii menu.
+
+### Wiiconnect24 Priiloader Hacks
+
+Some functions for Wiiconnect24 are required to enable via a Priiloader hack for the vWii and the Wii mini. You can view more information on Priiloader hacks [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html).
 
 [Proceed to Nintendo Wi-Fi Connection](wiimmfi)<br>
 This guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. While there are different private servers and services that allow this, the one covered here will be Wiimmfi.
