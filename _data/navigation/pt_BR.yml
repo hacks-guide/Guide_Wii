@@ -63,10 +63,10 @@ sidebar_pages:
     title: Homebrew Channel and BootMii Installation
     url: hbc
   - 
-    title: Homebrew Channel - for Wii mini only
+    title: Homebrew Channel - apenas para Wii mini
     url: hbc-mini
   - 
-    title: BootMii Backup
+    title: Backup com BootMii
     url: bootmii
   - 
     title: Priiloader
