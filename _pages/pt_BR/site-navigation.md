@@ -33,7 +33,7 @@ sitemap: false
 
 {% capture notice-4 %}
 **Playing Wii Game Mods**
-+ [BootMii Backup](bootmii)
++ [Backup com BootMii](bootmii)
 + [BootMii Recovery (RestoreMii)](bootmiirecover)
 + [Introdução](bricks)
 + [Prevenção de brick](bricks#brick-prevention)
