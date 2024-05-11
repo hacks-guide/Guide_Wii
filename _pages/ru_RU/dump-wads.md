@@ -1,5 +1,5 @@
 ---
-title: "Dumping WADs"
+title: "Дампинг файлов NAND"
 ---
 
 {% include toc title="Оглавление" %}
