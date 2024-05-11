@@ -60,24 +60,24 @@ Se hai BootMii installato come boot2, dovrai riavviare la console per eseguierlo
     ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-Nota: **ripristinare un backup della NAND è di solito l'ultima spiaggia**. There are often better ways to unbrick your console.
+Nota: **ripristinare un backup della NAND è di solito l'ultima spiaggia**. Ci sono spesso metodi migliori per unbrickare la tua console.
 Fai del tuo meglio per [identificare la tua condizione di brick](bricks) e annullare l'azione che lo ha causato in primo luogo.
-Per ripristinare un backup della NAND dalla tua scheda SD, puoi seguire le istruzioni per [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
+Per ripristinare un backup della NAND dalla tua scheda SD, puoi seguire le istruzioni per [RestoreMii](bootmiirecover). **Wii Family Edition (Wii senza porte GameCube) NON POSSONO ripristinare backup della NAND senza modifiche hardware.**
 </div>
 
-Due file saranno stati creati sul root della tua scheda SD: `nand.bin` e `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+Due file saranno stati creati sul root della tua scheda SD: `nand.bin` e `keys.bin`. `nand.bin` è il backup della memoria interna della tua console mentre `keys.bin` sono le chiavi d'accesso della tua console.
 {: .notice--info}
 
 ### Autobooting
 
-If you were able to install BootMii as boot2, but dont want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
+Se sei stato in grado di installare BootMii come boot2, ma non vuoi caricare la schermata di BootMii ogni volta che accedi la Wii, hai l'opzione di impostarlo come autoboot al menu di sistema. Questo dovrebbe fare in modo che non ti accorgi nemmeno di avere BootMii installato come boot2.
 
-1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
-1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
-1. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
-1. Save the file and exit.
+1. Apri `SD:/bootmii/bootmii.ini` con un editor di testi, come il blocco note.
+1. Cambia `#AUTOBOOT=SYSMENU` a `AUTOBOOT=SYSMENU` cancellando il `#`.
+1. Poi cambia `#BOOTDELAY=5` a `BOOTDELAY=1` cancellando i `#` cambiando il `5` in un `1`.
+1. Salva il file ed esci.
 
-You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
+Puoi anche usare l'app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) sulla Wii per cambiare queste impostazioni.
 {: .notice--info}
 
 [Continua all'Installazione di Priiloader](priiloader)<br> Priiloader aggiunge un secondo strato di protezione dai brick, ed è fortemente consigliato anche se BootMii è stato installato su boot2. È specialmente importante per gli utenti di BootMii su IOS.

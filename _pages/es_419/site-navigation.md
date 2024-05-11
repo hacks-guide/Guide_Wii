@@ -1,12 +1,12 @@
 ---
-title: "Site Navigation"
+title: "Navegación del Sitio"
 layout: single
 sitemap: falso
 ---
 
 {% capture notice-1 %}
 **Site**
-+ [Wii Guide](/)
++ [Inicio](/)
 + [Start Here](get-started)
 + [Preguntas frecuentes](faq)
 + [Donations](donations)
@@ -22,11 +22,11 @@ sitemap: falso
 
 {% capture notice-3 %}
 **Modding 101**
-+ [Credits](bluebomb)
-+ [RiiConnect24](flashhax)
++ [BlueBomb](bluebomb)
++ [FlashHax](flashhax)
 + [Legacy Exploits](legacy-exploits)
-+ [Donations](letterbomb)
-+ [Wiimmfi](Wiimmfi)
++ [LetterBomb](letterbomb)
++ [str2hax](str2hax)
 + wiilink
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
@@ -39,7 +39,7 @@ sitemap: falso
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
-+ [Open Shop Channel](osc)
++ [Canal Open Shop](osc)
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
 + [Updating Wii Menu to v4.3](update)

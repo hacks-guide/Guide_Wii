@@ -26,8 +26,8 @@ Selecione o exploit que corresponde ao seu console e encontre o melhor para voc�
 | Wii U (vWii)           | Se você ainda não modificou seu Wii U:<br> Prossiga para [Introdução (wiiu.hacks. uide)](https://wiiu.hacks.guide/#/)<br> Se seu Wii U já está modificado:<br> Prossiga para [vWii Modding (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/vwii/sd-preparation)                                                          |
 | Emulador Dolphin       | Prossiga para [Homebrew Channel no Dolphin](homebrew-dolphin)                                                                                                                                                                                                                                                                             |
 
-### Alternate methods
+### Métodos alternativos
 
-If possible, you should follow the method given above.
+Se possível, você deve seguir o método fornecido acima.
 
 Se a opção recomendada não funciona para você, ou se você está curioso sobre outros exploits, confira [Legacy Exploits](legacy-exploits).

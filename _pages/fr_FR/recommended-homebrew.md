@@ -1,12 +1,12 @@
 ---
-title: Recommended Homebrew
+title: Homebrew recommandés
 ---
 
 {% include toc title="Table of Contents" %}
 
-This page outlines homebrew that are recommended by the wii.hacks.guide staff for being useful, nice to have, or just flat out good. Take full advantage of the power you now have with your Wii!
+Cette page décrit les homebrew qui sont recommandés par le personnel de wii.hacks.guide pour être utile, sympa à avoir, ou juste bon. Profitez pleinement des avantages que vous avez maintenant avec votre Wii !
 
-Homebrew that has the ability to make permanant changes to your Wii are highlighted in **bold**.
+Les Homebrew qui ont la possibilité d'apporter des changements permanents à votre Wii sont surlignés en **gras**.
 
 ### Utilities
 

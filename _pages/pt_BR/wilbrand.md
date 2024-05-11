@@ -13,7 +13,7 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 
 #### Requisitos
 
-* Um cartão SD formatado para FAT32/MS-DOS
+* An SD card formatted to FAT32/MS-DOS that is 32GB or less
 * Um Wii pelo menos na versão 3.0
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.

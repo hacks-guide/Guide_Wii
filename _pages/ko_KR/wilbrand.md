@@ -13,7 +13,7 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 
 #### 필요한 것
 
-* FAT32/MS-DOS로 포맷된 SD 카드
+* An SD card formatted to FAT32/MS-DOS that is 32GB or less
 * 버전 3.0 이상의 Wii
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.

@@ -15,7 +15,7 @@ Since this guide has just been published, translations are a work-in-progress. T
 To get the most out of this guide, you should read this page before proceeding.
 {: .notice--warning}
 
-### What is "homebrew"?
+### Что такое "homebrew"?
 
 [**Homebrew**](https://en.wikipedia.org/wiki/Homebrew_(video_games)) refers to software not authorized by Nintendo. This can include games, utilities, emulators and much more!
 

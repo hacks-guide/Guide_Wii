@@ -57,7 +57,7 @@ sitemap: false
 + [Come creare collegamenti per Giochi Wii](wiigsc)
 + [Come scaricare i Canali (WADs)](dump-wads)
 + [Come preservare giochi Wii e GameCube](dump-games)
-+ [Managing GameCube Backups](gc-backups)
++ [Gestire backup GameCube](gc-backups)
 + [Come gestire i salvataggi GameCube](gcsaves)
 + [Managing Wii Backups](wii-backups)
 + [Usare Priiloader](priiloader-usage)

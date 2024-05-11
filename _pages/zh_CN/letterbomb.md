@@ -13,7 +13,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 {: .notice--warning}
 
 ### Requirements
-* 格式化为 FAT32/MS-DOS 的 SD 卡
+* An SD card formatted as FAT32 that is 32GB or less
 * 一台Wii，系统版本为4.3。
 * A Windows/MacOS/Linux computer with an Internet connection
 

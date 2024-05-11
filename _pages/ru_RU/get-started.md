@@ -1,5 +1,5 @@
 ---
-title: "Start Here"
+title: "Начинайте здесь"
 ---
 
 {% include toc title="Оглавление" %}
@@ -11,23 +11,23 @@ All of the exploits run the HackMii Installer, and have the same end result.
 Although you can follow this guide without an SD card, you will not be able to create or restore a NAND backup using BootMii, and you won't be able to use some homebrew.
 {: .notice--info}
 
-### Identify your console revision:
+### Определите вашу консоль:
 
 {% include identify-console.html %}<br>
 
 ### Choose an exploit to use
 
-Select the exploit that corresponds to your console and situation the best.
+Выберите эксплойт, соответствующий вашей консоли и ситуацией.
 
-| Console Revision       | Recommended Exploit                                                                                                                                                                                                                                                                      |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wii/Wii Family Edition | If you can use a Windows PC:<br> Automatic Setup: Proceed to [ModMii](modmii)<br> If you can use an SD card:<br> Manual Setup: Proceed to [Wilbrand](wilbrand)<br> If you cannot use an SD card:<br> Manual Setup: Proceed to [str2hax](str2hax)<br> |
-| Wii mini               | [BlueBomb](bluebomb) - Exploit that uses Bluetooth                                                                                                                                                                                                                                       |
-| Wii U (vWii)           | If you have not modded your Wii U yet:<br> Proceed to [Introduction (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/)<br> If your Wii U is already modded:<br> Proceed to [vWii Modding (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/vwii/sd-preparation)             |
-| Dolphin Emulator       | Proceed to [Homebrew Channel on Dolphin](homebrew-dolphin)                                                                                                                                                                                                                               |
+| Ревизия консоли        | Рекомендуемый эксплоит                                                                                                                                                                                                                                                                                                                          |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wii/Wii Family Edition | Если вы можете использовать ПК на Windows:<br> Автоматическая установка: Перейдите к [ModMii](modmii)<br> Если вы можете использовать SD карту:<br> Ручная установка: Перейдите к [Wilbrand](wilbrand)<br>Если вы не можете использовать SD карту:<br> Ручная установка: Перейдите к [str2hax](str2hax)<br> |
+| Wii mini               | [BlueBomb](bluebomb) - Эксплоит который использует Bluetooth.                                                                                                                                                                                                                                                                                   |
+| Wii U (vWii)           | Если вы еще не модифицировали Wii U:<br> Перейти к [Introduction (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/)<br> Если ваша Wii U уже модифицирована:<br> переходите к [vWii Modding (wiiu.hacks.guide)](https://wiiu.hacks.guide/#/vwii/sd-preparation)                                                                  |
+| Эмулятор Dolphin       | Перейти к [Homebrew Channel на Dolphin](homebrew-dolphin)                                                                                                                                                                                                                                                                                       |
 
-### Alternate methods
+### Альтернативные способы
 
-If possible, you should follow the method given above.
+Если возможно, следует следовать эксплоит, указанный выше.
 
-If the recommended option does not work for you, or if you are curious about other exploits, check out [Legacy Exploits](legacy-exploits).
+Если рекомендуемые эксплоиты не работают для вас, или если вам интересны другие эксплоиты, посмотрите на [Старые Эксплоиты](legacy-exploits).

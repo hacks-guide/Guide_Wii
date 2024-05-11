@@ -1,43 +1,43 @@
 ---
-title: "YAWM ModMii Edition"
+title: "Instalar WADs con YAWM ModMii Edition"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de Contenidos" %}
 
-YAWM ModMii Edition is an application that can install WADs and launch homebrew applications. This tutorial will show you how to install WADs.
+YAWM ModMii Edition es una aplicación que te permite instalar WAD's y ejecutar aplicaciones Homebrew. Este tutorial te enseñará cómo instalar los WADs.
 
-### Requirements
-* An SD card or USB drive
+### Requisitos
+* Una tarjeta SD o unidad USB
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Instructions
+### Instrucciones
 
-#### Section I - Downloading
+#### Sección I - Descarga
 
-1. Download and extract the YAWM ModMii Edition `.zip` to the root of your SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii, and launch YAWM ModMii Edition from the Homebrew Channel.
+1. Descarga y extrae el archivo `.zip` de YAWM ModMii Edition a la raíz de tu tarjeta SD o la unidad USB.
+1. Inserta la tarjeta SD o unidad USB en tu Wii, luego ejecuta YAWM ModMii Edition desde el Canal Homebrew.
 
-#### Section II - Installing WADs
+#### Sección II - Instalando WAD's
 
-1. Select the source device that has the WAD file(s) you would like to install.
+1. Selecciona el dispositivo de almacenamiento donde se encuentran guardados los archivos WAD que desees instalar.
 
     ![](/images/homebrew/yawmME/source_device.png)
 
-1. Navigate to the folder that has the WAD files.
-    + If you have a folder named `wad`, it will be opened automatically.
+1. Ingresa a la carpeta de archivos que contienen los archivos WAD.
+    + Si ya existe una carpeta de nombre `wad`, esta se abrirá automáticamente.
 
     ![](/images/homebrew/yawmME/file_selection.png)
 
-1. Navigate to the WAD file you would like to install and press `A`.
-    + If you would like to install multiple WAD files at once, press `+` on each of them, then press `A`.
+1. Selecciona el archivo WAD que desees instalar, luego presiona el botón `A`.
+    + Si deseas instalar múltiples WADs al mismo tiempo, presiona el botón `+` en cada uno de ellos, luego presiona el botón `A`.
 
     ![](/images/homebrew/yawmME/install_wad.png)
 
-1. Press A again to install the WAD(s).
+1. Presiona el botón A de nuevo para instalar los WADs.
 
     ![](/images/homebrew/yawmME/installing_wad.png)
 
     ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
-[Click here to go back to the site index.](site-navigation)
+[Haz click aquí para regresar al índice del sitio.](site-navigation)
 {: .notice--info}

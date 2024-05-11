@@ -13,7 +13,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 {: .notice--warning}
 
 ### 必要なもの
-* An SD card formatted to FAT32/MS-DOS
+* An SD card formatted as FAT32 that is 32GB or less
 * A Wii on System Menu version 4.3
 * A Windows/MacOS/Linux computer with an Internet connection
 
