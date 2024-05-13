@@ -4,18 +4,21 @@ title: "Wii Themes"
 
 {% include toc title="Table of Contents" %}
 
-This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through MyMenuifyMod, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
+This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
+
+### Wii Menu Theming
 
 DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) AND [PRIILOADER](priiloader)!
 {: .notice--danger}
 
-MyMenuifyMod has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
+This tutorial does not work on the Wii mini. Do not attempt this tutorial on the Wii mini or it will cause a [brick](bricks#theme-brick).
+{: .notice--warning}
+
+csm-installer has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
 {: .notice--warning}
 
 Do not use any other version of ThemeMii than the one linked here, as ThemeMii Mod allows you to make a theme for Wii Menu version 4.3, other versions may not.
 {: .notice--warning}
-
-### Wii Menu Theming
 
 Only install themes on your Wii that have been formatted specifically for its version and current region. Installing themes from the wrong version or region on your Wii will cause a [brick](bricks#theme-brick). This tutorial will tell you how to create a .csm file that is safe to install.
 {: .notice--danger}
@@ -35,7 +38,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 * A modded Wii
 * An SD card or USB device
 * A Windows/macOS/Linux PC with an Internet connection
-* [MyMenuifyMod](https://oscwii.org/library/app/mymenuifymod)
+* [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
 #### Building a Theme
@@ -52,24 +55,16 @@ If you don't want to go through the hassle of using an external program to build
 
 #### Theme Installation
 
-1. Install MyMenuifyMod.
-1. Create a new directory on your SD card or USB device called `modthemes` if it does not already exist.
-1. Copy the theme file to the storage medium under the `modthemes` directory.
-1. Put the storage medium in your Wii and boot it up.
-1. Go into MyMenuifyMod, and acknowledge the disclaimer. It will ask what IOS you want to use in the app. Select `IOS58`.
-
-    If you get `Exception DSI occured!`, press RESET on your Wii and try again.
-    {: .notice--info}
-
-1. Select your storage medium, and you should now see a selection of your themes.
-
-    ![Theme Selection](/images/themes/mym-theme-selection.png)
-
-1. Select the theme you would like to install. If it is signed, MyMenuifyMod will indicate it to you, otherwise it will warn you. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
-1. Install the theme.
+1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
+1. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
+1. Copy your `.csm` file to the `themes` directory.
+1. Insert your SD card or USB drive into your Wii, and launch the Homebrew Channel.
+1. Launch csm-installer, and wait for it to load.
+1. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
+1. Press `+` to install the theme.
 1. Reboot into the Wii Menu, and see if the theme successfully installed. If all goes well, you will have a result similar to the below!
 
-    ![Theme Ready](/images/themes/themed-wii-menu.png)
+    ![](/images/themes/themed-wii-menu.png)
 
 ### WiiFlow Lite Theming
 
@@ -79,7 +74,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 * A modded Wii
 * An SD card or USB device
-* [WiiFlow Lite](usb-loaders#wiiflow-lite)
+* [WiiFlow Lite](wii-loaders#wiiflow-lite)
 * A Linux/macOS/Windows PC with an Internet connection
 * [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
@@ -96,7 +91,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 * A modded Wii
 * An SD card or USB device
-* [USB Loader GX](usb-loaders#usb-loader-gx)
+* [USB Loader GX](wii-loaders#usb-loader-gx)
 * A Linux/macOS/Windows PC with an Internet connection
 * A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
 
@@ -121,24 +116,24 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 1. Download a theme `.zip` file from the website linked above.
 
-    ![Example Theme](/images/themes/homebrew-channel-example-theme.png)
+    ![](/images/themes/homebrew-channel-example-theme.png)
 
 1. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
 
-    ![Paste ZIP](/images/themes/homebrew-channel-paste-zip.png)
+    ![](/images/themes/homebrew-channel-paste-zip.png)
 
 1. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
 
-    ![Extract ZIP](/images/themes/homebrew-channel-extract-theme.png)
+    ![](/images/themes/homebrew-channel-extract-theme.png)
 
 1. Reinsert the storage device into your Wii and enter the Homebrew Channel.
 1. The theme you just installed can be loaded in the same way that you access a standard app.
 
-    ![Load Theme](/images/themes/homebrew-channel-load-theme.png)
+    ![](/images/themes/homebrew-channel-load-theme.png)
 
 1. The theme should now be loaded, enjoy!
 
-    ![Enjoy Theme](/images/themes/homebrew-channel-theme-done.png)
+    ![](/images/themes/homebrew-channel-theme-done.png)
 
 ### App Forwarders
 
