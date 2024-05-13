@@ -1,5 +1,5 @@
 ---
-title: "d2xl cIOS for Wii mini (experimental)"
+title: "d2xl cIOS Wii mini-konzolokra (kísérleti)"
 ---
 
 {% include toc title="Table of Contents" %}
