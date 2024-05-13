@@ -2,7 +2,7 @@
 title: "YAWM ModMii Edition"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tartalomjegyzék" %}
 
 YAWM ModMii Edition is an application that can install WADs and launch homebrew applications. This tutorial will show you how to install WADs.
 
@@ -39,5 +39,5 @@ YAWM ModMii Edition is an application that can install WADs and launch homebrew 
 
     ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
 {: .notice--info}
