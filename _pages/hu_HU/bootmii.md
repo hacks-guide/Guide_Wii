@@ -1,5 +1,5 @@
 ---
-title: "BootMii Backup"
+title: "BootMii biztonsági mentés"
 ---
 
 {% include toc title="Table of Contents" %}
