@@ -2,7 +2,7 @@
 title: "Homebrew Channel – csak Wii mini-konzolokra"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tartalomjegyzék" %}
 
 The Homebrew Channel is where you will go to launch homebrew applications.
 
