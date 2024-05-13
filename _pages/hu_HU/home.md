@@ -6,7 +6,7 @@ header:
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Nintendo Wii (and Wii mini)."
+excerpt: "The complete guide to modding your Wii (and Wii mini)."
 ---
 
 Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
@@ -24,11 +24,11 @@ Here are some common examples of what homebrew can do for your Wii:
 + [Backup](bootmii) and [restore](bootmiirecover) your Wii's NAND (system memory)
 + Enhance the [brick protection](priiloader) of your Wii
 + Download new homebrew apps with the [Open Shop Channel](osc)
-+ [Patch game disc contents](riivolution) to load game modifications
-+ Turn your Wii into a [media center](wiimc)
++ [Patch game disc contents](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
 + Install [themes](themes) on the Wii Menu and in commonly used homebrew apps
 + Back up your [discs](dump-games) and [other installed titles](dump-wads)
-+ Install a [USB loader](usb-loaders) to launch Wii (and other console) backups from an external storage device
++ Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
++ Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
 + Back up and restore your [Wii](wii-saves) and [GameCube](gcsaves) save files
 + Restore online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
 
@@ -61,9 +61,9 @@ The guide has nine sections in total. These are listed below:
 1. Installing the Homebrew Channel and BootMii (REQUIRED)
 1. Making a NAND backup with BootMii (REQUIRED)
 1. Installing Priiloader (REQUIRED)
-1. Installing the Open Shop Channel (REQUIRED)
-1. Installing cIOS (OPTIONAL)
-1. Discovering Recommended Homebrew (OPTIONAL)
+1. Installing the Open Shop Channel (RECOMMENDED)
+1. Installing cIOS (RECOMMENDED)
+1. Discovering Recommended Homebrew (RECOMMENDED)
 1. Regaining WiiConnect24 Functionality (OPTIONAL)
 1. Regaining Nintendo Wi-Fi Connection Functionality (OPTIONAL)
 
