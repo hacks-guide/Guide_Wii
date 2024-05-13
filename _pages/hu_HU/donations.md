@@ -12,5 +12,5 @@ title: "Adományozás"
 {: .text-center}
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
 {: .notice--info}
