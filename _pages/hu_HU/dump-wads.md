@@ -2,7 +2,7 @@
 title: "Dumping WADs"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tartalomjegyzék" %}
 
 This guide will show you how to dump WADs from your Wii System Memory.
 
@@ -48,5 +48,5 @@ The WAD has now been dumped, and should appear at the specified directory on you
 
 ![](/images/homebrew/DumpWADS/7.png)
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
 {: .notice--info}
