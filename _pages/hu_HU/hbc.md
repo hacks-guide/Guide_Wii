@@ -2,7 +2,7 @@
 title: "A Homebrew Channel és BootMii telepítése"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tartalomjegyzék" %}
 
 {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
