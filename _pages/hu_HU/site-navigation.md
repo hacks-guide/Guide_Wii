@@ -1,14 +1,14 @@
 ---
-title: "Site Navigation"
+title: "Honlapnavigáció"
 layout: single
 sitemap: false
 ---
 
 {% capture notice-1 %}
 **Site**
-+ [Home](/)
-+ [Get Started](get-started)
-+ [FAQ](faq)
++ [Kezdőlap](/)
++ [Kezdés](get-started)
++ [GYIK](faq)
 + [Donations](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -34,7 +34,7 @@ sitemap: false
 
 {% capture notice-4 %}
 **Modding 101 - Wii Essentials**
-+ [BootMii Backup](bootmii)
++ [BootMii biztonsági mentés](bootmii)
 + [BootMii Recovery](bootmiirecover)
 + [Brick Overview](bricks)
 + [Brick Prevention](bricks#brick-prevention)
