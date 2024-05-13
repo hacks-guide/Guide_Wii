@@ -4,7 +4,13 @@ title: "cIOS"
 
 {% include toc title="Table of Contents" %}
 
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
 
 If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting to install other cIOS on a Wii mini will not work.
 {: .notice--warning}
@@ -20,10 +26,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ### Instructions
 
-#### Section I - Downloading (Only required if your Wii doesn't have Internet)
-
-If your Wii has an Internet connection, you may skip this section.<br> However, If you encounter any errors like `tcp_read timeout` and `net_gethostbyname failed:`, this will allow the Wii to skip the downloading step.
-{: .notice--warning}
+#### Section I - Downloading
 
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
@@ -43,35 +46,51 @@ If you are not on Windows, you may download & run [this script](/assets/files/d2
 1. Place each WAD file on the root of your SD card or USB drive.
     + This must be the same device containing the d2x cIOS Installer.
 
-The WAD files should be on your SD card like this: ![offline IOS files](/images/cios/d2x_offline_ios.png)
+The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_ios.png)
 {: .notice--info}
 
 #### Section II - Installing
 
-If `d2x-v11-beta1` isn't showing up, try select the cIOS base first, then check again. This can also happen if your SD card is locked.
-{: .notice--info}
-
-On each cIOS that you try to install, you will first be shown a grid of active IOS on the Wi. Simply press A again, and it will install. Then, you will be shown a results screen, just press A as well and go to the next cIOS.
-{: .notice--info}
 
 1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Power on your console.
 1. Launch the Homebrew Channel.
 1. Launch d2x cIOS Installer from the list of homebrew.
-1. When asked what IOS you would like to use, select IOS 58.
-    + This should work in nearly all cases.
-1. Now, you will install individual cIOS from 248-251. The exact settings needed are listed below.
-    + cIOS 248 Installation
+1. Set everything to match the following:
 
-        ```
-        Select cIOS <d2x-v11-beta1>
-        Select cIOS base <38>
-        Select cIOS slot <248>
-        Select cIOS version <65535>
-        ```
+    ```
+    Select cIOS <d2x-v11-beta1>
+    Select cIOS base <38>
+    Select cIOS slot <248>
+    Select cIOS revision <65535>
+    ```
 
-        ![Install cIOS 248](/images/cios/d2x_v11_248.png)
+    ![](/images/cios/d2x_v11_248.png)
+
+    The warning "`(c)IOS detected in slot ### will be overwriitten`" can be safely ignored.
+    {: .notice--info}
+
+    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.)
+    {: .notice--info}
+
+1. Press `A`. This will bring you to the slot map:
+
+    ![](/images/cios/d2x_summary.png)
+
+1. Press `A` again.
+
+    ![](/images/cios/d2x_installation.png)
+
+1. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
+
+    ![](/images/cios/d2x_log.png)
+
+    If the slot is highlighted red, try install the cIOS again. <br> If you are getting an error before/during the downloading stages, press B to exit and continue from [Section I](#section-i---downloading).
+    {: .notice--info}
+
+1. Press `A`. This will return you to the configuration screen.
+1. Repeat the previous 5 steps with the following configurations:
 
     + cIOS 249 Installation
 
@@ -79,10 +98,10 @@ On each cIOS that you try to install, you will first be shown a grid of active I
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <56>
         Select cIOS slot <249>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
-        ![Install cIOS 249](/images/cios/d2x_v11_249.png)
+        ![](/images/cios/d2x_v11_249.png)
 
     + cIOS 250 Installation
 
@@ -90,10 +109,10 @@ On each cIOS that you try to install, you will first be shown a grid of active I
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <57>
         Select cIOS slot <250>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
-        ![Install cIOS 250](/images/cios/d2x_v11_250.png)
+        ![](/images/cios/d2x_v11_250.png)
 
     + cIOS 251 Installation
 
@@ -101,10 +120,12 @@ On each cIOS that you try to install, you will first be shown a grid of active I
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <58>
         Select cIOS slot <251>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
-        ![Install cIOS 251](/images/cios/d2x_v11_251.png)
+        ![](/images/cios/d2x_v11_251.png)
 
-[Continue to Recommended Homebrew](recommended-homebrew)<br> This guide outlines selections of homebrew that we think are useful to have; these range from utilities to emulators and more.
+1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+
+Continue to [Open Shop Channel Installation](osc) <br> Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 {: .notice--info}
