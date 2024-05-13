@@ -2,7 +2,7 @@
 title: "WiiConnect24"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tartalomjegyzék" %}
 <!--
 This guide provides the means of regaining WiiConnect24 functionality on your console via RiiConnect24.
 Although not at all necessary, it is a "nice to have" feature that was originally used for online connectivity in certain applications on the console.
