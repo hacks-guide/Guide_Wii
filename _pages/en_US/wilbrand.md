@@ -14,7 +14,7 @@ Wilbrand Web is recommended for its ease of use.
 
 #### Requirements
 
-* An SD card formatted to FAT32/MS-DOS (FAT)
+* An SD card formatted to FAT32/MS-DOS that is 32GB or less
 * A Wii on at least version 3.0
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
