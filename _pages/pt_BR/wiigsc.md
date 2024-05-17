@@ -26,11 +26,14 @@ NÃO faça atalhos para os jogos "Mario Party 9" ou "A Boy and His Blob". Irá c
 
     ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
-1. Select the path to the ISO or WBFS file on your USB drive, and select the USB Loader you use. The other options should be fine the way they are.
+2. Select the path to the ISO or WBFS file on your USB drive, and select the USB Loader you use. The other options should be fine the way they are.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
-1. Install the generated WAD with your WAD manager.
+If you are on vWii, use the [Wiiforwarder2vWii](https://gbatemp.net/download/wiiforwarder2vwii-wii-forwarder-to-vwii-wii-u-forwarder-converter-beta-version.37254/) tool to convert the WAD for use on the vWii.
+{: .notice--info}
+
+3. Install the generated WAD with your WAD manager.
 
 <div class="notice--info">
 If you get an error saying "The system files are corrupted", don't panic as long as you installed Priiloader.

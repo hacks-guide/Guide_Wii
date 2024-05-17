@@ -8,10 +8,6 @@ Priiloader 为 Wii 添加了一定程度的变砖保护。 它在 Wii 菜单之�
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
-
-For more information about Priiloader and its options, you can see the [Priiloader Usage](priiloader-usage) page.
-{: .notice--info}
-
 ### Requirements
 
 * 一张 SD 卡或 U 盘
@@ -28,10 +24,7 @@ For more information about Priiloader and its options, you can see the [Priiload
 
 {% capture notice-vwii-priiloader %}
 
-If you are using a vWii:
-
-+ 在安装 Priiloader 后安装主题**会导致您的 vWii 变砖。
-+ Priiloader 0.10.0 引入了 vWii 支持！ <br> 有一些重要事项需要注意：
+Priiloader on vWii does not have any impact on Wii U VC titles.
 
 {% endcapture %}
 
@@ -86,30 +79,39 @@ Later on, to enter it you can:
     如果将 Priiloader installer 放在 U 盘上，请确保没有同时插入 SD 卡。 <br> 这将导致 Priiloader 找不到 `hacks_hash.ini` 文件。
     {: .notice--warning}
 
-1. 向下滚动到 `Settings`，然后按 A。
-    + `Block Online Updates`
-    + If you are NOT using a CRT display: `Remove Deflicker`
 1. For the following options, enable the options according to your console:
     + Wii:
         + 480p graphics fix in system menu
         + Block Disc Updates
+        + Block Online Updates
+        + If you are NOT using a CRT display: `Remove Deflicker`
+    + vWii:
+        + Block Online Updates
+        + Wii System Settings via Options Button
+        + If you are NOT using a CRT display: `Remove Deflicker`
     + Wii mini:
         + Block Disc Updates
+        + If you are NOT using a CRT display: `Remove Deflicker`
 1. 向下滚动到 `save settings`，然后按 A。
 1. 按 `B` 回到主菜单。
 
-### Wii mini: Next Steps
+For more information about Priiloader hacks and other options, you can see the [Priiloader Usage](priiloader-usage) page.
+{: .notice--info}
 
-Continue to [Wii mini cIOS](cios-mini)<br> This guide provides installation instructions for cIOS on Wii minis.
+[继续浏览 Wii 破解的注意事项](dosanddonts)<br> 这里是一些准则，确保您的 Wii 不会变砖。
 {: .notice--info}
 
 ### Wii: Next Steps
 
-If you have made it to this point, congrats! You are finished with the required section of the main guide! If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
-{: .notice--success}
-
 Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
 {: .notice--info}
 
-[继续浏览 Wii 破解的注意事项](dosanddonts)<br> 这里是一些准则，确保您的 Wii 不会变砖。
+### vWii: Next Steps
+
+Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
+{: .notice--info}
+
+### Wii mini: Next Steps
+
+Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
 {: .notice--info}

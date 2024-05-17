@@ -8,7 +8,7 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 ### `옵션` > `표준 시스템 메뉴` > Wii 메뉴의 버전 > Wii 메뉴의 지역으로 이동합니다.
 
-DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) AND [PRIILOADER](priiloader)!
+DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) (Wii only) AND [PRIILOADER](priiloader)!
 {: .notice--danger}
 
 This tutorial does not work on the Wii mini. Do not attempt this tutorial on the Wii mini or it will cause a [brick](bricks#theme-brick).
@@ -31,9 +31,11 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 + https://gbatemp.net/threads/wii-theme-team-creations-v2.336596/
 + [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym file distribution)
 + https://gbatemp.net/download/categories/other-files.166/
-+ [Wii Themer](http://www.wiithemer.org/) (online theme builder for specific versions and regions, ready to install .csm themes)
++ [Wii Themer](http://www.wiithemer.org/) (Wii only, online theme builder for specific versions and regions, ready to install .csm themes)
 
 #### 이 자습서와 관련하여 도움이 필요하면 [RiiConnect24 디스코드 서버](https://discord.gg/rc24) (추천)에 가입하시거나, [support@riiconnect24.net](mailto:support@riiconnect24.net)로 이메일을 보내주세요.
+
+##### Wii
 
 * Wii
 * MyMenuifyMod.zip을 SD 카드 또는 USB 드라이브에 압축 해제합니다.
@@ -41,28 +43,76 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 * [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
+##### vWii
+
+* A modded vWii
+* Google Drive Repository
+* A Windows/macOS/Linux PC with an Internet connection
+* [csm-installer](https://oscwii.org/library/app/csm-installer)
+* [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
+* [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
+
 #### 섹션 II - 테마 빌드하기
 
+##### Wii
+
 vWii (Wii U) 에 테마를 설치하려면 [이 페이지](themes-vwii)를 참조하세요.
+{: .notice--info}
 
 1. 원하는 테마를 다운로드하고 올바른 테마를 선택했는지 다시 한 번 확인했으면 ThemeMii Mod용 .zip 파일을 압축을 해제하고 응용 프로그램을 엽니다.
-1. `도구` > `기본 앱 다운로드` > Wii 메뉴의 버전 > Wii 메뉴의 지역으로 이동합니다.
-1. 키를 생성하기 위해 값을 입력하라는 대화 상자가 나타납니다. 여기에 적힌 내용을 입력하면 닌텐도 서버에서 Wii 메뉴 콘텐츠를 해독하는 데 사용되는 키가 생성됩니다.
-1. 파일 선택 상자에 .app 파일 (다운로드한 Wii 메뉴 콘텐츠 파일) 을 어디에 저장할지 묻는 메시지가 표시됩니다. ThemeMii가 있는 디렉토리에 저장합니다.
-1. `파일` > `열기`로 이동한 다음 .mym 파일이 있는 위치를 찾습니다.
-1. `Create csm`을 누른 다음 테마를 저장할 디렉터리를 찾습니다. 테마를 빌드 할 때 까지 기다려 주세요.
-1. A dialog box will pop up asking you if you want to save the .mym. `아니오`를 누르세요.
+2. `도구` > `기본 앱 다운로드` > Wii 메뉴의 버전 > Wii 메뉴의 지역으로 이동합니다.
+3. 키를 생성하기 위해 값을 입력하라는 대화 상자가 나타납니다. 여기에 적힌 내용을 입력하면 닌텐도 서버에서 Wii 메뉴 콘텐츠를 해독하는 데 사용되는 키가 생성됩니다.
+4. 파일 선택 상자에 .app 파일 (다운로드한 Wii 메뉴 콘텐츠 파일) 을 어디에 저장할지 묻는 메시지가 표시됩니다. ThemeMii가 있는 디렉토리에 저장합니다.
+5. `파일` > `열기`로 이동한 다음 .mym 파일이 있는 위치를 찾습니다.
+6. `Create csm`을 누른 다음 테마를 저장할 디렉터리를 찾습니다. 테마를 빌드 할 때 까지 기다려 주세요.
+7. A dialog box will pop up asking you if you want to save the .mym. `아니오`를 누르세요.
+
+##### vWii
+
+Themes from [Wii Themer](http://www.wiithemer.org/) cannot be built automatically for you on the vWii, since it does not use the correct base app. However, you may still download the .mym files from their [theme database](http://wiithemer.org/mym/) to build manually.
+
+Some themes are compatible with the Wii system menu, but aren't compatible with the vWii System Menu, and may result in graphical glitches or even a full [theme brick](bricks#theme-brick).
+{: .notice--warning}
+
+1. Extract the .zip file for NUS Downloader vWii and open the application
+2. Click on `Database...`
+3. Go to `System` > `System Menu` and select the version corresponding to your region as shown in the table below.
+
+| 지역 | vWii Menu version |
+| -- | ----------------- |
+| 일본 | v608              |
+| 북미 | v609              |
+| 유럽 | v610              |
+
+4. After selecting the correct version to download, check the box for `Create Decrypted Contents (*.app)`. Then, press the `Start NUS Download` Button on the top of the window.
+
+![The database menu in NUS Downloader.](/images/themes/NUSD-vWii_preview-database.png)
+
+![The main menu of NUS downloader without the database menu open.](/images/themes/NUSD-vWii_sysmenu-versions.png)
+
+5. When the download has finished, search for the .app file corresponding to your region in the folder where NUS Downloader is.
+
+| 지역 | .app file for your region |
+| -- | ------------------------- |
+| 일본 | 0000001c.app              |
+| 북미 | 0000001f.app              |
+| 유럽 | 00000022.app              |
+
+6. Once you have found the .app file, copy it to the main directory of the folder containing ThemeMii. Then, copy a version of it to the theme folder in your SD card.
+
+If you can't find the .app file, it's possible you have downloaded the wrong version of the Wii Menu and you'll need to try again.
+{: .notice--info}
 
 #### 섹션 III - 테마 설치하기
 
 1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
-1. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
-1. Copy your `.csm` file to the `themes` directory.
-1. Insert your SD card or USB drive into your Wii, and launch the Homebrew Channel.
-1. Launch csm-installer, and wait for it to load.
-1. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
-1. Press `+` to install the theme.
-1. 잠시 기다렸다가 테마를 설치한 다음, 아무 버튼이나 눌러 Wii 메뉴로 이동합니다. 테마가 올바르게 설치되었기를 바랍니다. If all goes well, you will have a result similar to the below!
+2. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
+3. Copy your `.csm` file to the `themes` directory.
+4. Insert your SD card or USB drive into your Wii/Wii U, and launch the Homebrew Channel.
+5. Launch csm-installer, and wait for it to load.
+6. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
+7. Press `+` to install the theme.
+8. 잠시 기다렸다가 테마를 설치한 다음, 아무 버튼이나 눌러 Wii 메뉴로 이동합니다. 테마가 올바르게 설치되었기를 바랍니다. If all goes well, you will have a result similar to the below!
 
     ![](/images/themes/themed-wii-menu.png)
 
@@ -73,7 +123,7 @@ ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3용 테마를 만들 수 있�
 #### 방법
 
 * Wii Theme Team Creations v2
-* Google Drive Repository
+* SD 카드 및 USB 드라이브
 * [RiiConnect24 테마 페이지](wii-loaders#wiiflow-lite)
 * A Linux/macOS/Windows PC with an Internet connection
 * [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
@@ -81,16 +131,16 @@ ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3용 테마를 만들 수 있�
 #### 진행 방법
 
 1. 계속하기 전에 [cIOS](cios)를 설치하는 것이 좋습니다.
-1. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
-1. Extract and copy the `wiiflow` folder to the root of your storage device, merge all folders and overwrite all files when requested.
-1. Follow the theme setup and theme configuration instructions in `installation.txt`. Enjoy the theme!
+2. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
+3. Extract and copy the `wiiflow` folder to the root of your storage device, merge all folders and overwrite all files when requested.
+4. Follow the theme setup and theme configuration instructions in `installation.txt`. Enjoy the theme!
 
 ### USB Loader GX Theming
 
 #### https://drive.google.com/drive/folders/1K1WQe36bGibsF4ZlAxZKU6ngNpjUnh5i
 
 * GBAtemp Download
-* SD 카드 및 USB 드라이브
+* 윈도우즈가 설치된 컴퓨터 (또는 맥/리눅스에서 Mono 또는 Wine 사용)
 * [USB Loader GX](wii-loaders#usb-loader-gx)
 * A Linux/macOS/Windows PC with an Internet connection
 * 아래는 테마에 대한 몇 가지 링크입니다.
@@ -98,17 +148,17 @@ ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3용 테마를 만들 수 있�
 #### 진행 방법
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
-1. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
-1. Wii에 SD 카드나 USB 드라이브를 연결합니다.
-1. Start USB Loader GX, go to the `Settings` menu, and then go to `Theme Menu`.
-1. Open the theme and install it.
+2. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
+3. Wii에 SD 카드나 USB 드라이브를 연결합니다.
+4. Start USB Loader GX, go to the `Settings` menu, and then go to `Theme Menu`.
+5. Open the theme and install it.
 
 ### Homebrew Channel Theming
 
 #### 필요한 것
 
 * Wii Themer
-* 윈도우즈가 설치된 컴퓨터 (또는 맥/리눅스에서 Mono 또는 Wine 사용)
+* MyMenuifyMod.zip을 SD 카드 또는 USB 드라이브에 압축 해제합니다.
 * A Linux/macOS/Windows PC with an internet connection
 * https://rc24.xyz/goodies/themes/
 
@@ -118,20 +168,20 @@ ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3용 테마를 만들 수 있�
 
     ![](/images/themes/homebrew-channel-example-theme.png)
 
-1. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
+2. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
 
     ![](/images/themes/homebrew-channel-paste-zip.png)
 
-1. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
+3. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
 
     ![](/images/themes/homebrew-channel-extract-theme.png)
 
-1. Reinsert the storage device into your Wii and enter the Homebrew Channel.
-1. The theme you just installed can be loaded in the same way that you access a standard app.
+4. Reinsert the storage device into your Wii and enter the Homebrew Channel.
+5. The theme you just installed can be loaded in the same way that you access a standard app.
 
     ![](/images/themes/homebrew-channel-load-theme.png)
 
-1. The theme should now be loaded, enjoy!
+6. The theme should now be loaded, enjoy!
 
     ![](/images/themes/homebrew-channel-theme-done.png)
 

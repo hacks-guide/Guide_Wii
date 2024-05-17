@@ -7,7 +7,7 @@ title: "BlueBomb"
 {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary> BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Embora seja o único exploit que funciona no Wii Mini, BlueBomb também pode ser utilizado no Wii original.
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+Esse exploit também permite a recuperação de certos bricks, como bricks de banner e (alguns) bricks de temas.
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>

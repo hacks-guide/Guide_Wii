@@ -12,7 +12,10 @@ cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While 
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-If you have a Wii mini, install [this cIOS](cios-mini) instead. Attempting to install any other cIOS on a Wii mini won't work.
+This guide is only intended for Wii users. If you have a Wii mini, follow [this guide](cios-mini) instead. If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+{: .notice--warning}
+
+Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely brick your console.
 {: .notice--warning}
 
 ### Requirements

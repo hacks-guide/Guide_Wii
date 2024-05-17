@@ -9,7 +9,7 @@ Si vous avez besoin d'aide pour tout ce qui concerne ce tutoriel, veuillez rejoi
 
 {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Par exemple, cela active les fonctionnalités des lanceurs USB comme USB Loader GX et WiiFlow, ainsi que d'autres homebrew comme SaveGame Manager GX. Vous pouvez sauter ce processus si vous le souhaitez, mais généralement il étend votre Wii avec peu à aucun inconvénient.
+cIOS (Custom IOS) are IOS that are patched to allow custom functionality. Bien que [cIOS](https://wiibrew.org/wiki/Custom_IOS) ait été largement remplacé par AHBPROT, qui donne un accès complet au matériel, il a encore des applications utiles. Par exemple, cela active les fonctionnalités des lanceurs USB comme USB Loader GX et WiiFlow, ainsi que d'autres homebrew comme SaveGame Manager GX. Vous pouvez sauter ce processus si vous le souhaitez, mais généralement il étend votre Wii avec peu à aucun inconvénient.
 
 Cette version de `d2x cIOS installer` a été initialement développé pour la vWii de la Wii U par DaveBaol et les cIOS pour la Wii Mini ont étés créés par Leseratte. La page originale de téléchargement peut être trouvée [ici](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's Github page can be found [here](https://github.com/Leseratte10/d2xl-cios). Veuillez noter que ce cIOS est encore expérimental, bien qu'aucun problème de fonctionnalité n'ait été signalé.
 
@@ -17,10 +17,10 @@ Cette version de `d2x cIOS installer` a été initialement développé pour la v
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-Ce guide est uniquement pour les Wii Mini. Si vous avez une Wii, suivez [ce guide](cios) à la place.
+Ce guide est uniquement pour les Wii Mini. Si vous avez une Wii, suivez [ce guide](cios) à la place. If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
 {: .notice--warning}
 
-N'essayez pas d'installer un IOS pour Wii ou un Menu Système sur la Wii mini. Doing so will likely brick your console.
+Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing so will likely brick your console.
 {: .notice--warning}
 
 ### Prérequis

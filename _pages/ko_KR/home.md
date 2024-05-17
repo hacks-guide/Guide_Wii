@@ -6,7 +6,7 @@ header:
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "완벽힌 Wii 해킹 가이드."
+excerpt: "The complete guide to modding your Wii, vWii, and Wii mini."
 ---
 
 Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!

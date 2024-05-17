@@ -34,7 +34,7 @@ Si has instalado BootMii como boot2, apaga y vuelve a encender la consola para i
 
     ![](/images/bootmii/BootMii_Main.png)
 
-    BootMii no es compatible con el Wii Remote. Para controlar la interfaz, deberás usar los botones POWER y RESET de la consola, o un control de GameCube conectado en el puerto del jugador 1. To navigate between options, press POWER. To select an option, press RESET.
+    BootMii no es compatible con el Wii Remote. Para controlar la interfaz, deberás usar los botones POWER y RESET de la consola, o un control de GameCube conectado en el puerto del jugador 1. To navigate between options, press POWER. Para seleccionar una opción, presiona el botón RESET.
     {: .notice--info}
 
 1. Selecciona el botón de opciones (el que tiene dos engranajes).

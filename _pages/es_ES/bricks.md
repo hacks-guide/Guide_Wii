@@ -10,12 +10,13 @@ A "Brick" usually means your Wii has reached a state where, its only use is that
 
 Prevenir un bloqueo implica numerosas medidas que oscilan entre el sentido común y la realización de copias de seguridad. A continuación figuran las recomendaciones generales sobre lo que no se debe hacer:
 
-+ **Do NOT follow old Wii modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
-+ **Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. Es PELIGROSA y tiene la capacidad de BLOQUEAR LA Wii.**
++ **Do NOT follow old modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
++ **Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. It is DANGEROUS and does things that have the ability to BRICK YOUR CONSOLE!**
 + **Do NOT install IOS packs such as DARKCORP that overwrite most of your IOS with cIOS. It is DANGEROUS and heavily outdated.**
 + **NO restaures copias de seguridad de la NAND de otras consolas.**
-
-+ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi)). Doing otherwise could allow a malicious actor to BRICK your Wii!**
++ **Do NOT install any IOS that isn't meant for your system** (example: Wii IOS on Wii mini)
++ **Do NOT attempt region changing methods meant for Wii on the vWii or Wii mini**
++ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi)). Doing otherwise could allow a malicious actor to BRICK your Console!**
 + **Instala solo las actualizaciones de la región correspondiente.**
     + Instalar actualizaciones de otra región en el mejor de los casos no tendrá ningún efecto, y en el peor provocará un bloqueo [Korean Kii/Error 003](bricks#korean-kiierror-003-brick). Si has comprado una Wii de segunda mano, ejecuta [SysCheck](syscheck) para comprobar la región original de tu consola y evitar que esto ocurra. Si la región es coreana, ten MUCHO CUIDADO al aplicar actualizaciones a la consola y considera la posibilidad de buscar asistencia para obtener más ayuda.
 + **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
@@ -173,7 +174,7 @@ Esto implica entrar en [modo de recuperación](recovery-mode), donde se puede ac
 Este bloqueo parecerá idéntico a uno total debido a un fallo del menú de Wii a través de la IOS; sin embargo, no existe una corrupción total de la NAND ni un fallo de hardware de bajo nivel.
 
 #### Causas
-This brick happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS). Esto suele ser consecuencia de intentar desactualizar el menú de la Wii. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
+This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. A stubbed system menu IOS is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
 
 #### Soluciones
 El [modo de recuperación](recovery-mode) puede ser accesible o no a causa de la naturaleza del bloqueo, pero Priiloader no funcionará en la mayoría de los casos. You must have BootMii as boot2 to fix this brick. Si no se cumplen estas condiciones, consulta el [bloqueo de bajo nivel](bricks#low-level-brick).
@@ -182,6 +183,8 @@ Puedes o restaurar una copia de seguridad de la NAND, o hacer esto:
 
 1. Utiliza [NUS Downloader](https://wiibrew.org/wiki/NUSD) para crear una WAD de tu menú de Wii original.
 1. Utiliza BootMii para entrar en el Canal Homebrew, y utiliza un gestor de WAD para instalar la WAD del menú de Wii.
+
+For vWii, See [Recover a vWii IOS/Channel](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels)
 
 ## Bloqueo de wifi
 

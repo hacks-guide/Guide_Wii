@@ -6,7 +6,7 @@ header:
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "破解任天堂 Wii 的完整指南。"
+excerpt: "The complete guide to modding your Wii, vWii, and Wii mini."
 ---
 
 Since this guide has just been published, translations are a work-in-progress. Thank you for your patience! Thank you for your patience!

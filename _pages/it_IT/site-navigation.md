@@ -44,10 +44,10 @@ sitemap: false
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
 + [Come rieseguire l'HackMii Installer](hackmii)
++ [Ripristino della NAND Wii a Stock](wii-factory-reset)
 + [Aggiornamento del Menu Wii alla versione 4.3](update)
 + [Recovery Mode](recovery-mode)
 + [Ripristino della NAND Wii a Stock](wii-factory-reset)
-+ [Wii mini NAND Dumper](wnd-mini)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
@@ -63,15 +63,25 @@ sitemap: false
 + [Usare Priiloader](priiloader-usage)
 + [App Homebrew consigliate](recommended-homebrew)
 + [Transferring Save Games](transfer-saves)
-+ [USB Loaders](wii-loaders)
++ [Loader di backup Wii](wii-loaders)
 + [Come eseguire un SysCheck](syscheck)
 + [Guida ai Temi Wii](themes)
 {% endcapture %}
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
-**Wii mini**
-+ [Come installare l'Homebrew Channel su Wii mini](hbc-mini)
-+ [Come installare le cIOS su Wii mini](cios-mini)
+**vWii**
++ [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
++ [Wii U NAND Dumper](wiiu-nand-dumper)
++ [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
++ [Installing cIOS on the vWii](cios-vwii)
 {% endcapture %}
 <div class="notice--primary">{{ notice-6 | markdownify }}</div>
+
+{% capture notice-7 %}
+**Wii mini**
++ [Come installare l'Homebrew Channel su Wii mini](hbc-mini)
++ [Installing cIOS on the Wii mini](cios-mini)
++ [Wii mini NAND Dumper](wnd-mini)
+{% endcapture %}
+<div class="notice--primary">{{ notice-7 | markdownify }}</div>

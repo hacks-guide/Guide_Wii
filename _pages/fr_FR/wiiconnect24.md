@@ -19,6 +19,8 @@ WiiLink hosts a patcher for the services that it provides, ranging from internat
 <!-- move this back to another page? or no -->
 ### Updating RTC Clock
 
+### Wii
+
 #### What you need
 + Une connexion Internet fonctionnelle sur votre Wii
 + La Chaîne Homebrew
@@ -32,6 +34,36 @@ WiiLink hosts a patcher for the services that it provides, ranging from internat
 1. Launch sntp.
 1. Use the +Control Pad to select the current time.
 1. Press the HOME Button to exit.
+
+### vWii
+
+#### What you need
++ La Chaîne Homebrew
++ An SD card
++ [Priiloader](priiloader)
+
+#### Instructions
+1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
+2. Select generate and copy the information.
+3. On your SD Card, navigate to `SD:/apps/priiloader` and open `hacks_hash.ini` with a text editor such as notepad.
+4. Paste the patch at the bottom of the `hacks_hash.ini` and save the changes.
+5. Repeat Steps 1-4 with a new time offset if your location participates in daylight savings time.
+6. Insert your SD card into your Wii U.
+7. [Boot Priiloader](priiloader#section-iii---entering-priiloader) on the vWii.
+8. Select hacks, and scroll down to enable the Fix NWC24iSetUniversalTime hack.
+9. Return to the vWii menu.
+
+### Wiiconnect24 Priiloader Hacks
+
+Some Priiloader hacks need to be enabled on the vWii and the Wii mini so the WiiConnect24 functions could work properly:
+
++ [Create message via Calendar button (vWii, Mini)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)
++ [Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)
++ [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii)
++ [Fix NWC24iSetUniversalTime (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)
+
+[Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) and [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) cannot be enabled at the same time. More information on how to use Permanent vWii System Settings can be found [here](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii)
+{: .notice--info}
 
 [Proceed to Nintendo Wi-Fi Connection](wiimmfi)<br> This guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. Bien qu'il y ait différents serveurs et services privés qui le permettent, celui abordé ici sera Wiimmfi.
 {: .notice--info}

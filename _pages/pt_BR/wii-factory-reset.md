@@ -8,6 +8,9 @@ This guide details how to create a stock NAND for your Wii system using a progra
 
 Please note that this program **needs** an existing (even bricked!) NAND backup to function, as it needs to have a copy of the first 8 blocks of NAND, a bad blocks list, and AES/HMAC keys.
 
+Do not attempt this tutorial on the Wii U's vWii.
+{: .notice--info}
+
 {% capture here-be-dragons %}
 
 The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and should only be considered as a LAST RESORT or if you are trying to do any of the following:
