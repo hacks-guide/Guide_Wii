@@ -8,10 +8,6 @@ Priiloader adds a level of brick protection to your Wii. It loads before the Wii
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
-
-For more information about Priiloader and its options, you can see the [Priiloader Usage](priiloader-usage) page.
-{: .notice--info}
-
 ### Requirements
 
 * An SD card or USB drive
@@ -86,30 +82,40 @@ Later on, to enter it you can:
     If you are using a USB drive to install Priiloader, make sure you do not have an SD card inserted at the same time. This will cause Priiloader to be unable to find the hacks_hash.ini file.
     {: .notice--warning}
 
-1. Scroll down to each of the following options and press `A`:
-    + `Block Online Updates`
-    + If you are NOT using a CRT display: `Remove Deflicker`
 1. For the following options, enable the options according to your console:
     + Wii:
         + 480p graphics fix in system menu
         + Block Disc Updates
+        + Block Online Updates
+        + If you are NOT using a CRT display: `Remove Deflicker`
+    + vWii:
+        + Block Online Updates
+        + Wii System Settings via Options Button
+        + If you are NOT using a CRT display: `Remove Deflicker`
     + Wii mini:
         + Block Disc Updates
+        + If you are NOT using a CRT display: `Remove Deflicker`
 1. Scroll to `Homebrew Channel` and press A to launch it.
 1. Scroll down to `save settings` and press A, then press B to go back to the main menu of Priiloader.
 
+For more information about Priiloader hacks and other options, you can see the [Priiloader Usage](priiloader-usage) page.
+{: .notice--info}
+
 ### Wii mini: Next Steps
 
-[Continue to the Dos and Don'ts of Wii Modding](dosanddonts)<br> These are some guidelines to ensure you don't brick your Wii.
+Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
 {: .notice--info}
 
 ### Wii: Next Steps
-
-If you have made it to this point, congrats! If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
-{: .notice--success}
 
 Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
 {: .notice--info}
 
 Removes the "Wii System Update" screen included with some games that forces you to update the system before playing the game.
 {: .notice--info}
+
+### vWii: Next Steps
+
+Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
+{: .notice--info}
+
