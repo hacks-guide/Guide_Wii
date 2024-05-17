@@ -24,10 +24,7 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 {% capture notice-vwii-priiloader %}
 
-If you are using a vWii:
-
-+ 在安装 Priiloader 后安装主题**会导致您的 vWii 变砖。
-+ Priiloader 0.10.0 引入了 vWii 支持！ <br> 有一些重要事项需要注意：
+Priiloader on vWii does not have any impact on Wii U VC titles.
 
 {% endcapture %}
 
@@ -101,9 +98,7 @@ Later on, to enter it you can:
 For more information about Priiloader hacks and other options, you can see the [Priiloader Usage](priiloader-usage) page.
 {: .notice--info}
 
-### Wii mini: Next Steps
-
-Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
+[继续浏览 Wii 破解的注意事项](dosanddonts)<br> 这里是一些准则，确保您的 Wii 不会变砖。
 {: .notice--info}
 
 ### Wii: Next Steps
@@ -111,11 +106,12 @@ Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to g
 Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
 {: .notice--info}
 
-[继续浏览 Wii 破解的注意事项](dosanddonts)<br> 这里是一些准则，确保您的 Wii 不会变砖。
-{: .notice--info}
-
 ### vWii: Next Steps
 
 Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
 {: .notice--info}
 
+### Wii mini: Next Steps
+
+Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
+{: .notice--info}
