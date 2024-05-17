@@ -86,9 +86,9 @@ Some themes are compatible with the Wii system menu, but aren't compatible with 
 
 4. After selecting the correct version to download, check the box for `Create Decrypted Contents (*.app)`. Then, press the `Start NUS Download` Button on the top of the window.
 
-![The database menu in NUS Downloader.](/images/Themes/NUSD-vWii_preview-database.png)
+![The database menu in NUS Downloader.](/images/themes/NUSD-vWii_preview-database.png)
 
-![The main menu of NUS downloader without the database menu open.](/images/Themes/NUSD-vWii_sysmenu-versions.png)
+![The main menu of NUS downloader without the database menu open.](/images/themes/NUSD-vWii_sysmenu-versions.png)
 
 5. When the download has finished, search for the .app file corresponding to your region in the folder where NUS Downloader is.
 
