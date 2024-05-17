@@ -58,8 +58,8 @@ All homebrew apps are loaded from the Homebrew Channel.
 Running Wii virtual console games on the Wii U menu will overwrite the SYSCONF, which may affect some priiloader hacks such as the ones used for enabling WiiConnect24.
 {: .notice--info}
 
-If the evWii Aroma plugin is not installed, and a homebrew app hangs, the only way to shut off the Wii U is by pulling the power cord. Pulling the power cord in some cases can cause a memory corruption so it is important to have the plugin installed.
-{: .notice--info}
+If the evWii Aroma plugin is not installed, and a homebrew app hangs, the only way to shut off the Wii U is by pulling the power cord. Pulling the power cord in some cases can cause a memory corruption so it is highly recomended to have the plugin installed.
+{: .notice--warning}
 
 Continue to [Open Shop Channel Installation](osc) <br>
 Now that your main vWii setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
