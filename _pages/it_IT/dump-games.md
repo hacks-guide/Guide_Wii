@@ -80,6 +80,9 @@ Procedere a [Gestire i backup Wii](wii-backups) per unire i file PART che sono i
 
 ### Dump di un Disco GameCube
 
+Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping GameCube games. The Wii Family Edition can dump GameCube games if the disk drive is swapped with one made for an original model Wii.
+{: .notice--info}
+
 1. Quando richiesto, seleziona se il tuo disco è un disco Datel senza licenza. Se si è incerti, seleziona `No`.
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
