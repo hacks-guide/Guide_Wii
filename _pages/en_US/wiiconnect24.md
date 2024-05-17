@@ -57,7 +57,7 @@ The guide on how to install these services, as well as the patcher, can be found
 
 ### Wiiconnect24 Priiloader Hacks
 
-Some functions for Wiiconnect24 are required to enable via a Priiloader hack for the vWii and the Wii mini. You can view more information on Priiloader hacks [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Here are the hacks available pertaining to Wiiconnect24:
+Some Priiloader hacks need to be enabled on the vWii and the Wii mini so the WiiConnect24 functions could work properly:
 
 + [Create message via Calendar button (vWii, Mini)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)
 + [Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)
