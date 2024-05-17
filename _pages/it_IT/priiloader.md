@@ -8,10 +8,6 @@ title: "Priiloader"
 
 Inoltre, può essere usato per avviare rapidamente titoli e homebrew, oppure per cambiare l'ordine di autoboot del Wii.
 
-
-Per ulteriori informazioni su Priiloader e sulle sue opzioni, puoi vedere la pagina [Usare Priiloader](priiloader-usage).
-{: .notice--info}
-
 ### Requisiti
 
 * Una scheda SD o dispositivo USB
@@ -86,30 +82,40 @@ Successivamente, per entrarci dovrai:
     Se hai inserito il Priiloader Installer sulla tua unità USB, assicurati di non avere una scheda SD inserita allo stesso tempo. <br> Altrimenti, Priiloader potrebbe fallire a trovare il file `hacks_hash.ini`.
     {: .notice--warning}
 
-1. Scorri fino a ciascuna delle seguenti opzioni e premi `A`:
-    + `Block Online Updates`
-    + Se NON stai usando un display CRT: `Remove Deflicker`
 1. Per le seguenti opzioni, attiva le opzioni in base alla tua console:
     + Wii:
         + Se stai usando la modalità 480p: `480p graphics fix in the system menu`
         + Block Disc Updates
+        + Block Online Updates
+        + Se NON stai usando un display CRT: `Remove Deflicker`
+    + vWii:
+        + Block Online Updates
+        + Wii System Settings via Options Button
+        + Se NON stai usando un display CRT: `Remove Deflicker`
     + Wii mini:
         + Blocca Aggiornamenti da Disco
+        + Se NON stai usando un display CRT: `Remove Deflicker`
 1. Scorri in basso fino a `save settings` e premi A.
 1. Premi `B` per tornare al menu principale.
 
+For more information about Priiloader hacks and other options, you can see the [Priiloader Usage](priiloader-usage) page.
+{: .notice--info}
+
 ### Wii mini: I passaggi successivi
 
-Continua su [Wii mini cIOS](cios-mini)<br> Questa guidà fornisce istruzioni di installazione per il cIOS su Wii mini.
+Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
 {: .notice--info}
 
 ### Wii: I passaggi successivi
-
-Se sei arrivato a questo punto, congratulazioni! Hai finito con la sezione richiesta della guida principale! Puoi continuare se vuoi sapere di più, ma tutto ciò che è oltre questo punto è facoltativo.
-{: .notice--success}
 
 Continua su [cIOS](cios)<br> Questa guida fornisce i passaggi su come installare una configurazione base di cIOS sul tuo Wii, attivando funzionalità nelle app tipo loader USB.
 {: .notice--info}
 
 [Guarda le Linee Guida per la Prevenzione di Brick](bricks#brick-prevention)<br> Queste linee guida elencano buone abitudini che ti aiuteranno a prevenire un brick al tuo Wii, che vanno oltre l'installazione di BootMii e Priiloader.
 {: .notice--info}
+
+### vWii: Next Steps
+
+Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
+{: .notice--info}
+
