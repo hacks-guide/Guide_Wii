@@ -24,10 +24,7 @@ Inoltre, può essere usato per avviare rapidamente titoli e homebrew, oppure per
 
 {% capture vwii-notes %}
 
-Se stai usando un vWii:
-
-+ NON installare un tema dopo aver installato Priiloader, altrimenti c'è il rischio di BRICK sul vWii!
-+ Priiloader non avrà effetto su titoli VC per Wii U.
+Priiloader on vWii does not have any impact on Wii U VC titles.
 
 {% endcapture %}
 
@@ -101,9 +98,7 @@ Successivamente, per entrarci dovrai:
 For more information about Priiloader hacks and other options, you can see the [Priiloader Usage](priiloader-usage) page.
 {: .notice--info}
 
-### Wii mini: I passaggi successivi
-
-Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
+[Guarda le Linee Guida per la Prevenzione di Brick](bricks#brick-prevention)<br> Queste linee guida elencano buone abitudini che ti aiuteranno a prevenire un brick al tuo Wii, che vanno oltre l'installazione di BootMii e Priiloader.
 {: .notice--info}
 
 ### Wii: I passaggi successivi
@@ -111,11 +106,12 @@ Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to g
 Continua su [cIOS](cios)<br> Questa guida fornisce i passaggi su come installare una configurazione base di cIOS sul tuo Wii, attivando funzionalità nelle app tipo loader USB.
 {: .notice--info}
 
-[Guarda le Linee Guida per la Prevenzione di Brick](bricks#brick-prevention)<br> Queste linee guida elencano buone abitudini che ti aiuteranno a prevenire un brick al tuo Wii, che vanno oltre l'installazione di BootMii e Priiloader.
-{: .notice--info}
-
 ### vWii: Next Steps
 
 Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
 {: .notice--info}
 
+### Wii mini: I passaggi successivi
+
+Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
+{: .notice--info}
