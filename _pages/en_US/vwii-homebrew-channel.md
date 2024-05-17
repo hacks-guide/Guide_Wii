@@ -21,6 +21,9 @@ If you haven't already, make sure you did a [nand backup](https://wiiu.hacks.gui
 - The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
 - (Optional) The [Enhanced vWii Aroma Plugin](https://hb-app.store/wiiu/evWii)
 
+If the evWii Aroma plugin is not installed, and a homebrew app hangs, the only way to shut off the Wii U is by pulling the power cord. Pulling the power cord in some cases can cause a memory corruption so it is important to have the plugin installed.
+{: .notice--info}
+
 ### Instructions
 
 #### Section I - Files
