@@ -80,6 +80,9 @@ Continuă la [Gestionarea Backup-urilor Wii](wii-backups) pentru a combina fiși
 
 ### Extragerea unui Disc GameCube
 
+Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping GameCube games. The Wii Family Edition can dump GameCube games if the disk drive is swapped with one made for an original model Wii.
+{: .notice--info}
+
 1. Când ești întrebat, alege dacă discul tău este un disc Datel nelicențiat. Dacă nu ești sigur, alege `No`.
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
