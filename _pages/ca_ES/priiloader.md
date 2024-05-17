@@ -24,10 +24,7 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 {% capture notice-vwii-priiloader %}
 
-Priiloader 0.10.0 introduces vWii support! <br> There are some important things to take note of:
-
-+ Do NOT install a theme after installing Priiloader, or you will BRICK your vWii!
-+ Priiloader does not have any impact on Wii U VC titles.
+Priiloader on vWii does not have any impact on Wii U VC titles.
 
 {% endcapture %}
 
@@ -101,9 +98,7 @@ Later on, to enter it you can:
 For more information about Priiloader hacks and other options, you can see the [Priiloader Usage](priiloader-usage) page.
 {: .notice--info}
 
-### Additional options
-
-Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
+[View the Brick Prevention Guidelines](bricks#brick-prevention)<br> These guidelines list ways that will help avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
 {: .notice--info}
 
 ### Wii: Next Steps
@@ -111,11 +106,12 @@ Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to g
 Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
 {: .notice--info}
 
-[View the Brick Prevention Guidelines](bricks#brick-prevention)<br> These guidelines list ways that will help avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
-{: .notice--info}
-
 ### vWii: Next Steps
 
 Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
 {: .notice--info}
 
+### Additional options
+
+Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
+{: .notice--info}
