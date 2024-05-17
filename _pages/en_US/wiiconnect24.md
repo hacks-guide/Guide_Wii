@@ -57,7 +57,12 @@ The guide on how to install these services, as well as the patcher, can be found
 
 ### Wiiconnect24 Priiloader Hacks
 
-Some functions for Wiiconnect24 are required to enable via a Priiloader hack for the vWii and the Wii mini. You can view more information on Priiloader hacks [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html).
+Some functions for Wiiconnect24 are required to enable via a Priiloader hack for the vWii and the Wii mini. You can view more information on Priiloader hacks [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Here are the hacks available pertaining to Wiiconnect24:
+
++ [Create message via Calendar button (vWii, Mini)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)
++ [Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)
++ [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii)
++ [Fix NWC24iSetUniversalTime (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)
 
 [Proceed to Nintendo Wi-Fi Connection](wiimmfi)<br>
 This guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. While there are different private servers and services that allow this, the one covered here will be Wiimmfi.
