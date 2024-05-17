@@ -8,10 +8,6 @@ Priiloader adds a level of brick protection to your Wii. It loads before the Wii
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
-
-For more information about Priiloader and its options, you can see the [Priiloader Usage](priiloader-usage) page.
-{: .notice--info}
-
 ### Requisitos
 
 * Um cartão SD ou armazenamento USB
@@ -86,30 +82,40 @@ Later on, to enter it you can:
     Se você colocou o instalador do Priiloader na unidade USB, certifique-se de que não possui um cartão SD inserido ao mesmo tempo. <br> This causes Priiloader to fail to find the `hacks_hash.ini` file.
     {: .notice--warning}
 
-1. Scroll down to `Settings` and press A.
-    + `Block Online Updates`
-    + If you are NOT using a CRT display: `Remove Deflicker`
 1. For the following options, enable the options according to your console:
     + Wii:
         + 480p graphics fix in system menu
         + Bloquear Atualizações de Disco
+        + Block Online Updates
+        + If you are NOT using a CRT display: `Remove Deflicker`
+    + vWii:
+        + Block Online Updates
+        + Wii System Settings via Options Button
+        + If you are NOT using a CRT display: `Remove Deflicker`
     + Wii mini:
         + Bloquear Atualizações de Disco
+        + If you are NOT using a CRT display: `Remove Deflicker`
 1. Role até `save settings` e pressione A.
 1. Pressione `B` para retornar ao menu principal.
 
+For more information about Priiloader hacks and other options, you can see the [Priiloader Usage](priiloader-usage) page.
+{: .notice--info}
+
 ### Wii mini: Next Steps
 
-[Continue to the Dos and Don'ts of Wii Modding](dosanddonts)<br> These are some guidelines to ensure you don't brick your Wii.
+Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
 {: .notice--info}
 
 ### Wii: Próximos Passos
-
-Se você chegou a esse ponto, parabéns! Você terminou com a seção necessária do guia principal! Você pode continuar se quiser aprender mais, mas qualquer coisa depois desse ponto é opcional.
-{: .notice--success}
 
 Continue para [cIOS](cios)<br> Este guia fornece etapas sobre como obter um conjunto básico de cIOS instalado no seu Wii, Habilitando funcionalidade em apps como Loaders USB.
 {: .notice--info}
 
 Allows the Wii Menu to launch discs (this is only the Wii Backup Disc) that use IOS16.
 {: .notice--info}
+
+### vWii: Next Steps
+
+Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
+{: .notice--info}
+
