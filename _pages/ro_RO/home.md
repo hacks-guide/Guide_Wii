@@ -6,7 +6,7 @@ header:
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "Ghidul complet pentru modificarea consolei tale Wii (și Wii mini)."
+excerpt: "The complete guide to modding your Wii, vWii, and Wii mini."
 ---
 
 Din moment ce acest ghid a fost lansat de curând, încă se lucrează la traduceri. Vă mulțumim pentru răbdare!
