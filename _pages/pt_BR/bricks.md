@@ -10,12 +10,13 @@ Um "brick" geralmente significa que seu Wii atingiu um estado onde seu próximo 
 
 A prevenção de um brick envolve muitas regras que variam entre o bom senso e backups seguros de falência. Aqui estão as recomendações gerais do que não fazer:
 
-+ **NÃO siga antigos tutoriais de modding do Wii, use homebrew antigo, ou use guias de vídeo na Internet, a menos que seja EXPLICITAMENTE RECOMENDADO pelo desenvolvedor de homebrews.**
-+ **NÃO, sob QUALQUER CIRCIANÇAS, USE O APLICATIVO HOMEBREW `Pimp My Wii`. Ele É PERIGOSO e faz coisas que têm a capacidade de BRICKAR O SEU WII!**
++ **Do NOT follow old modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
++ **NÃO, sob QUALQUER CIRCIANÇAS, USE O APLICATIVO HOMEBREW `Pimp My Wii`. It is DANGEROUS and does things that have the ability to BRICK YOUR CONSOLE!**
 + **NÃO instale pacotes IOS, como DARKCORP que substituem a maioria do seu IOS com cIOS. É PERIGOSO e está muito desatualizado.**
 + **NÃO restaure backups da NAND de outros consoles!**
-
-+ **NÃO use um serviço de conexão Wi-Fi Nintendo a menos que seja conhecido por ser RCE corrigido (como o [Wiimmfi](wiimmfi)). Caso contrário, você poderá permitir que um ator mal-intencionado BRICKE o seu Wii!**
++ **Do NOT install any IOS that isn't meant for your system** (example: Wii IOS on Wii mini)
++ **Do NOT attempt region changing methods meant for Wii on the vWii or Wii mini**
++ **NÃO use um serviço de conexão Wi-Fi Nintendo a menos que seja conhecido por ser RCE corrigido (como o [Wiimmfi](wiimmfi)). Doing otherwise could allow a malicious actor to BRICK your Console!**
 + **Só instale atualizações para sua própria região!**.
     + Instalar atualizações de outra região não poderia, no máximo, ter nenhum efeito, mas resultar em um brick [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) no pior. Para evitar que isso aconteça se você comprou um Wii pré proprietário, execute [SysCheck](syscheck) para verificar a região original do seu console. Se for coreano, seja EXTREMAMENTE cuidadoso ao aplicar atualizações do sistema ao seu console, e considere procurar suporte para assistência adicional.
 + **Não exclua ou modifique arquivos do sistema, instale versões antigas do seu Menu do Wii ou IOS, e NÃO instale nenhum mod nos arquivos do sistema a menos que você saiba o que está fazendo!**
@@ -173,7 +174,7 @@ This involves going into [Recovery Mode](recovery-mode), where an exploit can be
 This brick will appear identical to a low-level brick due to a Wii Menu failure via IOS; however there is not a full low-level NAND corruption, or a low-level hardware failure.
 
 #### Cause
-This brick happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS). This is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
+This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. A stubbed system menu IOS is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
 
 #### Solutions
 [Recovery mode](recovery-mode) may or may not be accessible due to the nature of the brick, but Priiloader will almost always not work. You must have BootMii as boot2 to fix this brick. If these conditions are not met, see [low-level brick](bricks#low-level-brick).
@@ -182,6 +183,8 @@ You can either restore a NAND backup, or do this:
 
 1. Use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to pack a WAD of your original Wii Menu.
 1. Use BootMii to enter the Homebrew Channel, and use a WAD manager to install the Wii Menu WAD.
+
+For vWii, See [Recover a vWii IOS/Channel](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels)
 
 ## Wi-Fi brick
 
