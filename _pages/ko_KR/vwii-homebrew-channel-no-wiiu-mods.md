@@ -43,3 +43,4 @@ You can now use the Homebrew Channel to launch Wii homebrew apps.
 Do not Get confused with the `apps` folder inside of the `wiiu` folder and the `apps` folder on the root of the SD card.
 
 [Continue to installing Priiloader](priiloader)<br>
+{: .notice--info}
