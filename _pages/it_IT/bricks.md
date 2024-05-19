@@ -4,13 +4,13 @@ title: "Bricks"
 
 {% include toc title="Table of Contents" %}
 
-Un "Brick" significa, solitamente, che il tuo Wii ha raggiunto uno stato in cui il fine della sua esistenza diventa essere un ferma porta o un oggetto da esposizione. <br> I brick possono verificarsi per vari motivi, tuttavia di solito sono il risultato di una corruzione del software, o di modifiche improprie effettuate tramite applicazioni homebrew.
+Un "Brick" significa, solitamente, che la tua Wii ha raggiunto uno stato dove può essere usata come ferma porta o oggetto da esposizione. <br> I brick possono verificarsi per vari motivi, tuttavia di solito sono il risultato di una corruzione del software, o di modifiche improprie effettuate tramite applicazioni Homebrew.
 
-# Prevenzione dei Brick
+# Prevenzione dai Brick
 
-La prevenzione dei brick include diverse regole che spaziano dal buon senso a dei backup dei sicurezza. Ecco i consigli generali su cosa non fare:
+La prevenzione dai brick include diverse regole che spaziano dal buon senso a dei backup dei sicurezza. Ecco i consigli generali su cosa non fare:
 
-+ **Do NOT follow old modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
++ **NON seguire vecchi tutorial per moddare console, usare vecchie applicazioni Homebrew, o usare guide video a meno che non sia CALDAMENTE CONSIGLIATO dallo sviluppatore.**
 + **NON USARE MAI, IN NESSUNA CIRCOSTANZA, L'APPLICAZIONE HOMEBREW `Pimp My Wii`. It is DANGEROUS and does things that have the ability to BRICK YOUR CONSOLE!**
 + **NON installare pacchi IOS come DARKCORP che sovrascrive la maggior parte dei tuoi IOS con cIOS. È PERICOLOSO ed estremamente obsoleto.**
 + **NON ripristinare backup della NAND provenienti da altre console!**
