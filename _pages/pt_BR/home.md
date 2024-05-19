@@ -48,7 +48,7 @@ Este guia visa fazer os seguintes, incluindo seções opcionais:
 
 + Executar homebrew no seu Nintendo Wii pode ser feito gratuitamente, explorando bugs no software do Wii. Qualquer um que tenta convencê-lo do contrário provavelmente está tentando [enganá-lo](https://hbc.hackmii.com/scam).
 + Este guia funciona em todas as versões do menu do sistema dependendo do exploit, mas ** é recomendado que você atualize para a versão 4.3 (última versão do firmware)** se possível.
-+ **Este guia se aplica apenas a Wiis de consumidores APENAS!** Isso significa que as unidades de desenvolvimento não estão cobertas, nem o vWii do Wii U.
++ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
 + Dependendo do que você pretende fazer com seu Wii modificado, você pode ter que fazer algumas modificações na memória do sistema que tem o risco de brick (deixando o console inoperável). Contanto que você siga o guia exatamente, você deve estar bem, mas para dicas gerais de prevenção contra brick, veja [esta](bricks#brick-prevention) página.
 + As diferenças entre Wii e Wii mini são bastante significativas. Isso significa que, em alguns casos, algo que é normalmente inofensivo para o Wii poderia causar um [ brick severo](bricks#wi-fi-brick) para o Wii mini. Seja cuidadoso se você está planejando desbloquear um!
 + Seja extremamente cuidadoso ao modificar um [Wii coreano](bricks#korean-kiierror-003-brick).
