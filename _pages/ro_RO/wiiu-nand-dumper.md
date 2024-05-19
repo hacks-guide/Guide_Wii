@@ -92,3 +92,4 @@ In case anything goes wrong in the later process and your vWii ends up bricked, 
 6. Take the SD Card out of your computer and plug it into your Wii U console.
 
 [Continue to installing the Homebrew Channel](vwii-homebrew-channel-no-wiiu-mods)<br>
+{: .notice--info}
