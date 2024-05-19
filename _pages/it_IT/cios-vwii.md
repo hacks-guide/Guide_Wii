@@ -1,5 +1,5 @@
 ---
-title: d2x cIOS for vWii
+title: d2x cIOS per vWii
 ---
 
 {% include toc title="Table of Contents" %}

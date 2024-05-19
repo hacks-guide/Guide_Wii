@@ -43,3 +43,4 @@ Nota: Quando installi applicazioni homebrew nella tua scheda SD o unità USB, la
 Do not Get confused with the `apps` folder inside of the `wiiu` folder and the `apps` folder on the root of the SD card.
 
 [Continue to installing Priiloader](priiloader)<br>
+{: .notice--info}

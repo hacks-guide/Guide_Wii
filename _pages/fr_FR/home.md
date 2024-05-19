@@ -48,7 +48,7 @@ Ce guide vise à faire ce qui suit, y compris les sections facultatives :
 
 + Running homebrew on your Nintendo Wii can be done for free by exploiting bugs in Wii's software. Quiconque essaie de vous convaincre du contraire tente probablement de [vous arnaquer](https://hbc.hackmii.com/scam).
 + Ce guide fonctionne sur toutes les versions du menu du système en fonction de l'exploit, mais **il est recommandé de mettre à jour vers la 4.3 (la dernière version du système) ** si possible.
-+ **Ce guide s’applique UNIQUEMENT aux Wiis pour les consommateurs !** Cela veut dire que les consoles dédiées au développement ne sont pas couvert, pas plus que la vWii de la Wii U.
++ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
 + Selon ce que vous avez l'intention de faire avec votre Wii moddée, vous devrez peut-être apporter quelques modifications à la mémoire du système qui ont un risque de briquage (rendre la console inopérante). Tant que vous suivez ce guide correctement, vous devriez être bien, mais pour des conseils généralistes sur la prévention de briques, vous pouvez voir [cette page](bricks#brick-prevention).
 + Les différences entre la Wii et la Wii mini sont assez significatives. Cela signifie que dans certains cas, quelque chose qui est normalement inoffensif pour la Wii pourrait causer un [brique sévère](bricks#wi-fi-brick) pour la Wii Mini. Faites donc preuve de prudence si vous prévoyez d'en modder une!
 + Soyez également très prudent si vous moddez une [Wii Coréenne](bricks#korean-kiierror-003-brick).

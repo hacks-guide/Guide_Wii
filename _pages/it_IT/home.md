@@ -48,7 +48,7 @@ Questa guida mira a fare le seguenti azioni, incluse le opzionali:
 
 + Il software Homebrew e il processo di modificare il tuo Wii sono entrambi al 100% gratuiti. Chiunque che ti provi a convincere del contrario sta probabilmente provando a [truffarti](https://hbc.hackmii.com/scam).
 + Questa guida funziona su tutte le versioni del menu di sistema in base all'exploit, ma **è fortemente consigliato aggiornare alla 4.3 (versione più recente)** se possibile.
-+ **Questa guida si applica SOLAMENTE ai Wii retail/consumer** Questo significa che le unità sviluppatore e i vWii dei Wii U non sono supportati.
++ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
 + In base a cosa intendi fare con il tuo Wii modificato, potresti rischiare di apportare delle modifiche alla memoria di sistema che potrebbero provocare un brick (rendendo la console inutilizzabile). Finchè segui esattamente questa guida, dovresti essere a posto, ma per dei consigli generali di prevenzione dei brick vedi [questa](bricks#brick-prevention) pagina.
 + Le differenze tra Wii e Wii mini sono abbastanza significative. Questo significa che in alcuni casi, qualcosa completamente innocuo su un Wii potrebbe causare un [brick grave](bricks#wi-fi-brick) su un Wii mini. Procedi con cautela se pensi di volerne modificare uno!
 + Sii estremamente prudente nel modificare un [Wii Coreano](bricks#korean-kiierror-003-brick).
