@@ -11,20 +11,20 @@ Un "Brick" significa, solitamente, che la tua Wii ha raggiunto uno stato dove pu
 La prevenzione dai brick include diverse regole che spaziano dal buon senso a dei backup dei sicurezza. Ecco i consigli generali su cosa non fare:
 
 + **NON seguire vecchi tutorial per moddare console, usare vecchie applicazioni Homebrew, o usare guide video a meno che non sia CALDAMENTE CONSIGLIATO dallo sviluppatore.**
-+ **NON USARE MAI, IN NESSUNA CIRCOSTANZA, L'APPLICAZIONE HOMEBREW `Pimp My Wii`. It is DANGEROUS and does things that have the ability to BRICK YOUR CONSOLE!**
++ **NON USARE MAI, IN NESSUNA CIRCOSTANZA, L'APPLICAZIONE HOMEBREW `Pimp My Wii`. È PERICOLOSA e può fare cose che possono anche BRICKARE LA TUA CONSOLE!**
 + **NON installare pacchi IOS come DARKCORP che sovrascrive la maggior parte dei tuoi IOS con cIOS. È PERICOLOSO ed estremamente obsoleto.**
 + **NON ripristinare backup della NAND provenienti da altre console!**
-+ **Do NOT install any IOS that isn't meant for your system** (example: Wii IOS on Wii mini)
++ **NON installare pacchi IOS di altre console** (esempio: IOS della Wii sulla Wii Mini)
 + **Do NOT attempt region changing methods meant for Wii on the vWii or Wii mini**
-+ **NON utilizzare un servizio Nintendo Wi-Fi Connection almeno che non sia noto di essere stato corretto per RCE (ad esempio [Wiimmfi](wiimmfi)). Doing otherwise could allow a malicious actor to BRICK your Console!**
++ **NON utilizzare un servizio Nintendo Wi-Fi Connection almeno che non sia noto di essere stato corretto per RCE (ad esempio [Wiimmfi](wiimmfi)). Fare il contrario potrebbe eseguire programmi maligni che possono BRICKARE la tua Wii!**
 + **Installa solo aggiornamenti che hanno la stessa regione del tuo Wii!**
-    + Installare aggiornamenti che hanno un'altra regione potrebbe essere innocuo, ma può causare un brick [Korean Kii/Errore 003](bricks#korean-kiierror-003-brick) nel peggiore scenario. Per evitare che questo succeda se hai comprato un Wii usato, esegui [SysCheck](syscheck) per verificare la regione originaria della tua console. Se la regione è coreana, sii ESTREMAMENTE attento nell'eseguire gli aggiornamenti alla tua console, e considera chiedere ulteriore assistenza.
+    + Installare aggiornamenti che hanno un'altra regione potrebbe essere innocuo, ma può causare un brick [Korean Kii/Errore 003](bricks#korean-kiierror-003-brick) nel peggiore scenario. Per evitare che questo succeda se hai comprato un Wii usato, esegui [SysCheck](syscheck) per verificare la regione originaria della tua console. Se la regione è Coreana, sii ESTREMAMENTE attento nell'eseguire gli aggiornamenti alla tua console, e considera chiedere ulteriore assistenza.
 + **NON eliminare o modificare file di sistema, installare vecchie versioni del menu Wii o IOS, e NON installare nessuna mod dei file di sistema almeno che non sappia che cosa stai facendo!**
     + Un esempio di modifica dei file errata è rimpiazzare l'IOS80 sul Wii mini, che potrebbe portare a un [Wi-Fi Brick](bricks#wi-fi-brick).
-+ **NON installare homebrew da fonti poco autorevoli o se il codice sorgente non è disponibile.**
++ **NON installare Homebrew da fonti poco autorevoli o se il codice sorgente non è disponibile.**
     + Le applicazioni sull'[Open Shop Channel](osc) sono sicure.
     + Ci sono stati varie occasioni in cui applicazioni malevole sono state sviluppate per il Wii in passato, mentre altre sono state semplicemente programmate in modo errato. Assicurati di conoscere ciò che stai installando, e installa solo ciò che è necessario.
-    + Dei forwarder per le applicazioni homebrew corrotti o instabili potrebbero causare un [banner brick](#banner-brick), quindi prova ad avviare le applicazioni homebrew solo dall'Homebrew Channel, a meno che non ti serva davvero il forwarder.
+    + Dei forwarder per le applicazioni Homebrew corrotti o instabili potrebbero causare un [banner brick](#banner-brick), quindi prova ad avviare le applicazioni homebrew solo dall'Homebrew Channel, a meno che non ti serva davvero il forwarder.
 + **Assicurati di sapere quello che stai facendo quando esegui applicazioni homebrew - soprattutto quelle in grado di modificare i file di sistema. Sii PARTICOLARMENTE attento nell'usare applicazioni come:**
     + AnyTitle Deleter
     + AnyRegion Changer
@@ -32,7 +32,7 @@ La prevenzione dai brick include diverse regole che spaziano dal buon senso a de
     + Downgraders del Firmware
     + Qualsiasi applicazioni che modifica dei file critici della NAND
 + **NON TOCCARE L'ALIMENTAZIONE O IL TASTO POWER DEL WII MENTRE STAI INSTALLANDO O MODIFICANDO DEL CONTENUTO ESSENZIALE PER LA CONSOLE**.
-    + Se la tua fonte di elettricità è instabile (es.
+    + Se la tua fonte di elettricità è instabile (esempio: temporale) rimanda l'attività per un secondo momento.
     + Questo si applica a dei processi pericolosi come il ripristino della NAND con BootMi, che potrebbe portare a un [brick completo](#low-level-brick) se qualcosa va storto.
 
 In ogni caso, dovresti assolutamente:
