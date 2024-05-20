@@ -12,11 +12,11 @@ str2hax is an exploit for the Wii that is triggered by loading the Wii's End Use
 If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
 {: .notice--warning}
 
-### Requirements
+### Követelmények
 
 * A Wii with an Internet connection
 
-### Instructions
+### Útmutató
 
 #### Section I - Connecting
 
