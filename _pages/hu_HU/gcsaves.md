@@ -13,8 +13,8 @@ Use of any GameCube peripheral with a Family Edition Wii or Wii mini require sol
 
 ### Követelmények
 
-* A Wii with GameCube ports
-* An SD Card or USB
+* Egy Wii GameCube portokkal
+* Egy SD kártya vagy USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 If you are looking for 100% completion saves online, you can find them [here](https://gamefaqs.gamespot.com/).
@@ -56,8 +56,8 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Követelmények
 
-* A Wii with GameCube ports
-* An SD Card or USB
+* Egy Wii GameCube portokkal
+* Egy SD kártya vagy USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ### Útmutató
@@ -93,8 +93,8 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Követelmények
 
-* A Wii with GameCube ports
-* An SD Card or USB
+* Egy Wii GameCube portokkal
+* Egy SD kártya vagy USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ### Útmutató
@@ -121,8 +121,8 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Követelmények
 
-* A Wii with GameCube ports
-* An SD Card or USB
+* Egy Wii GameCube portokkal
+* Egy SD kártya vagy USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ### Útmutató
@@ -145,7 +145,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Követelmények
 
-* A Wii with GameCube ports
+* Egy Wii GameCube portokkal
 * At least 2 physical memory cards
 
 ### Útmutató
