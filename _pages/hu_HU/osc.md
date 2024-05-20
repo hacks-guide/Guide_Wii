@@ -11,12 +11,12 @@ The [Open Shop Channel](https://oscwii.org/) is a homebrew app repository create
 
 There are two methods to use the Open Shop Channel: on your Wii through Homebrew Browser, or outside of your Wii through OSCDL.
 
-### Method I - Homebrew Browser
+### I. metódus - Homebrew Browser
 
 #### Követelmények
 
 + A homebrewed Wii with an active Internet connection
-+ An SD card or USB drive
++ Egy SD kártya vagy egy USB drive
 + [Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
 #### Útmutató
@@ -28,15 +28,15 @@ There are two methods to use the Open Shop Channel: on your Wii through Homebrew
 1. Extract the `apps` folder in the archive to the root of your SD card or USB drive. Optionally, the archive also comes with a guide on how to use the Homebrew Browser.
 1. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. Homebrew Browser should now display.
 
-### Method II - OSCDL
+### II. metódus - OSCDL
 
 #### Követelmények
 
 + A Windows/macOS/Linux computer with an internet connection
-+ An SD card or USB drive
++ Egy SD kártya vagy egy USB drive
 + The latest version of [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)
 
-#### Instructions for Windows
+#### Windows lépések
 
 1. Download `oscdl-installer.exe` and run the installer. Optionally, you may instead download `oscdl-standalone.exe`, which does not have to be installed and instead runs as a portable executable.
 
@@ -56,7 +56,7 @@ There are two methods to use the Open Shop Channel: on your Wii through Homebrew
 
 #### Instructions for macOS/Linux
 
-UNDER CONSTRUCTION
+KÉSZÍTÉS ALATT
 
 Continue to [Recommended Homebrew](recommended-homebrew)<br> This guide outlines selections of homebrew that we think are useful to have; these range from utilities to emulators and more.
 {: .notice--info}
