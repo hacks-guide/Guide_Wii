@@ -26,7 +26,7 @@ This guide will explain how to transfer game saves between:
 
 <div id="wii-vwii-data" class="tabcontent via" markdown="1">
 
-##### What you need
+##### Amire szükséged van
 
 + an SD card formatted to FAT32/MS-DOS
 
@@ -50,10 +50,10 @@ This guide will explain how to transfer game saves between:
 Make sure you have installed [cIOS](cios) before following this!
 {: .notice--warning}
 
-##### What you need
+##### Amire szükséged van
 
 * The Homebrew Channel on both systems
-* An SD card or USB drive
+* Egy SD kártya vagy egy USB drive
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
 ##### Útmutató
@@ -82,7 +82,7 @@ By importing your NAND backup into Dolphin, you effectively copy everything on y
 If you have already done this, consider the SaveGame Manager GX method to save time.
 {: .notice--info}
 
-##### What you need
+##### Amire szükséged van
 
 * [a NAND backup](bootmii)
 * Latest beta version of Dolphin Emulator
@@ -98,11 +98,11 @@ If you have already done this, consider the SaveGame Manager GX method to save t
 Make sure you have installed [cIOS](cios) before following this!
 {: .notice--warning}
 
-##### What you need
+##### Amire szükséged van
 
 * The Homebrew Channel on your Wii/vWii
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
-* An SD card or USB drive
+* Egy SD kártya vagy egy USB drive
 * Latest beta version of Dolphin Emulator
 
 ##### Útmutató
@@ -144,7 +144,7 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 
 <div id="dol-wii-data" class="tabcontent via" markdown="1">
 
-##### What you need
+##### Amire szükséged van
 
 * an SD card
 
@@ -168,10 +168,10 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 Make sure you have installed [cIOS](cios) before following this!
 {: .notice--warning}
 
-##### What you need
+##### Amire szükséged van
 
 * The Homebrew Channel on your Wii/vWii
-* An SD card or USB drive
+* Egy SD kártya vagy egy USB drive
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
 ##### Útmutató
@@ -190,10 +190,10 @@ Make sure you have installed [cIOS](cios) before following this!
 
 <div id="dol-gcmc" class="tabcontent to" markdown="1">
 
-##### What you need
+##### Amire szükséged van
 
 * a Wii with GameCube ports and the Homebrew Channel installed
-* An SD card or USB drive
+* Egy SD kártya vagy egy USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ##### Útmutató
@@ -252,7 +252,7 @@ All methods here require a Wii with GameCube ports.
 
 <div id="gcmc-emumc" class="tabcontent to" markdown="1">
 
-##### What you need
+##### Amire szükséged van
 
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
@@ -280,7 +280,7 @@ All methods here require a Wii with GameCube ports.
 
 <div id="gcmc-dol" class="tabcontent to" markdown="1">
 
-##### What you need
+##### Amire szükséged van
 
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
@@ -316,7 +316,7 @@ All methods here require a Wii with GameCube ports.
 
 <div id="gcmc-gcmc" class="tabcontent to" markdown="1">
 
-##### What you need
+##### Amire szükséged van
 
 * a Wii
 
@@ -339,7 +339,7 @@ div id="emumc" class="tabcontent" markdown="1">
 
 <div id="emumc-dol" class="tabcontent to" markdown="1">
 
-##### What you need
+##### Amire szükséged van
 
 * Latest beta or Development version of Dolphin Emulator
 
@@ -362,10 +362,10 @@ div id="emumc" class="tabcontent" markdown="1">
 
 div id="emumc-gcmc" class="tabcontent to" markdown="1">
 
-##### What you need
+##### Amire szükséged van
 
 * The Homebrew Channel installed on your Wii
-* An SD card or USB drive
+* Egy SD kártya vagy egy USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ##### Individual memcards (.gci files)
