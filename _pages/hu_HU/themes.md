@@ -1,5 +1,5 @@
 ---
-title: "Wii Themes"
+title: "Wii témák"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -78,11 +78,11 @@ Some themes are compatible with the Wii system menu, but aren't compatible with 
 2. Click on `Database...`
 3. Go to `System` > `System Menu` and select the version corresponding to your region as shown in the table below.
 
-| Region | vWii Menu version |
-| ------ | ----------------- |
-| Japan  | v608              |
-| USA    | v609              |
-| Europe | v610              |
+| Regió  | vWii Menu verzió |
+| ------ | ---------------- |
+| Japán  | v608             |
+| USA    | v609             |
+| Európa | v610             |
 
 4. After selecting the correct version to download, check the box for `Create Decrypted Contents (*.app)`. Then, press the `Start NUS Download` Button on the top of the window.
 
@@ -92,11 +92,11 @@ Some themes are compatible with the Wii system menu, but aren't compatible with 
 
 5. When the download has finished, search for the .app file corresponding to your region in the folder where NUS Downloader is.
 
-| Region | .app file for your region |
-| ------ | ------------------------- |
-| Japan  | 0000001c.app              |
-| USA    | 0000001f.app              |
-| Europe | 00000022.app              |
+| Regió  | .app fájl a régiódhoz |
+| ------ | --------------------- |
+| Japán  | 0000001c.app          |
+| USA    | 0000001f.app          |
+| Európa | 00000022.app          |
 
 6. Once you have found the .app file, copy it to the main directory of the folder containing ThemeMii. Then, copy a version of it to the theme folder in your SD card.
 
@@ -157,7 +157,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 #### Követelmények
 
-* A modded Wii
+* Egy moddolt Wii
 * An SD card or USB device
 * A Linux/macOS/Windows PC with an internet connection
 * A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
