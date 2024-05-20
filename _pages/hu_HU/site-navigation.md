@@ -22,10 +22,10 @@ sitemap: false
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-3 %}
-**Modding 101 - Exploits**
+**Modding 101 - Exploit-ok**
 + [BlueBomb](bluebomb)
 + [FlashHax](flashhax)
-+ [Legacy Exploits](legacy-exploits)
++ [Legacy Exploit-ok](legacy-exploits)
 + [LetterBomb](letterbomb)
 + [str2hax](str2hax)
 + [Wilbrand](wilbrand)
@@ -33,11 +33,11 @@ sitemap: false
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-4 %}
-**Modding 101 - Wii Essentials**
+**Modding 101 - Wii alapismeretek**
 + [BootMii biztonsági mentés](bootmii)
 + [BootMii Recovery](bootmiirecover)
-+ [Brick Overview](bricks)
-+ [Brick Prevention](bricks#brick-prevention)
++ [Brick áttekintés](bricks)
++ [Brick megelőzés](bricks#brick-prevention)
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
@@ -60,7 +60,7 @@ sitemap: false
 + [Managing GameCube Backups](gc-backups)
 + [Managing GameCube Save Files](gcsaves)
 + [Managing Wii Backups](wii-backups)
-+ [Priiloader Usage](priiloader-usage)
++ [A Priiloader használata](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
 + [Transferring Save Games](transfer-saves)
 + [Wii Backup Loaders](wii-loaders)
