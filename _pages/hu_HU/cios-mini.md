@@ -39,7 +39,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 1. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
 1. Reinsert your USB drive into your console.
 1. Kapcsold be a konzolt!
-1. Launch the Homebrew Channel.
+1. Indítsd el a Homebrew Channelt.
 1. Launch d2xl cIOS Installer from the list of homebrew.
 
 #### II. rész - Telepítés
