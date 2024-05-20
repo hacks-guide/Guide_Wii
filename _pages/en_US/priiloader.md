@@ -4,7 +4,7 @@ title: "Priiloader"
 
 {% include toc title="Table of Contents" %}
 
-[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii. It loads before the Wii System Menu does. The tool can also apply hacks that are used to enhance, unlock, and/or fix many System Menu features.
+[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii. It loads before the Wii System Menu does. The tool can also apply hacks that are used to enhance, unlock, and fix many System Menu features.
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
@@ -96,7 +96,7 @@ Later on, to enter it you can:
 1. Scroll down to `save settings` and press A.
 1. Press `B` to return to the main menu.
 
-For more information about Priiloader hacks and other options, you can see the [Priiloader Usage](priiloader-usage) page.
+You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
 {: .notice--info}
 
 [View the Brick Prevention Guidelines](bricks#brick-prevention)<br>
@@ -118,5 +118,5 @@ This guide provides steps on how to get a basic set of cIOS installed on the vWi
 ### Wii mini: Next Steps
 
 Continue to [Wii mini cIOS](cios-mini)<br>
-This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
+This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders.
 {: .notice--info}
