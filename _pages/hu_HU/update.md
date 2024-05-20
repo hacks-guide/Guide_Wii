@@ -11,7 +11,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### Követelmények
 
-* An SD card or USB drive
+* Egy SD kártya vagy egy USB drive
 * A computer with Windows on it
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
 * [Priiloader](priiloader)
@@ -39,9 +39,9 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 | Europe | v514 (4.3E)      |
 | Korea  | v518 (4.3K)      |
 
-#### Section II - Installing
+#### II. rész - Telepítés
 
-1. Power off your console. Start holding RESET, then turn it back on.
+1. Kapcsold ki a konzolt! Start holding RESET, then turn it back on.
 1. In the Priiloader menu, select `Homebrew Channel`.
     * If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader is required for this guide.
 1. Launch YAWM ModMii Edition.
