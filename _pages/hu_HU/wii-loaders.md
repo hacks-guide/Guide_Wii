@@ -47,7 +47,7 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ### WiiFlow Lite
 
-#### Requirements
+#### Követelmények
 + A modded Wii
 + The latest version of [cIOS](cios)
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
@@ -93,7 +93,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ### USB Loader GX
 
-#### Requirements
+#### Követelmények
 + A modded Wii
 + The latest version of [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
