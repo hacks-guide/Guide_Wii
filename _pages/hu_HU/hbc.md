@@ -5,43 +5,43 @@ title: "A Homebrew Channel és BootMii telepítése"
 {% include toc title="Tartalomjegyzék" %}
 
 {% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
-The Homebrew Channel is where you will go to launch homebrew applications. BootMii is a piece of software that can backup and restore your Wii's NAND storage, and if installed in boot2, provide brick protection.
+<summary><em>Technikai részletek (nem kötelező)</em></summary>
+A Homebrew Channel egy olyan program, ami listázza és képes elindítani a konzolon található nemhivatalos („homebrew”) alkalmazásokat. A BootMii egy olyan program, ami képes biztonsági mentést készíteni vagy visszatölteni a Wii belső tárhelyéről. Ha a rendszer boot2-es részébe telepíted, még védelmet is nyújthat a konzol elrontása ellen.
 
-BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
+A BootMiit kétféle módon telepítheted: közvetlenül a Wii bootloaderének boot2-es részébe, vagy egy IOS-on keresztül. A programot javasolt a boot2-be telepíteni, ugyanis így szélesebb körű védelmet nyújthat. Ehhez egy olyan Wiivel kell rendelkezned, ami egy olyan biztonsági réssel rendelkezik a boot1-es részében, amely csak a 2009 előtt gyártott példányokon fordul elő. A legtöbb esetben elégséges az IOS-es telepítés a [Priiloader](priiloader) mellett.
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-If you do not have an SD card, you cannot install nor use BootMii, regardless of whether you install it as IOS or boot2. You can always [install it later](hackmii).
+SD kártya nélkül a módszertől függetlenül nem telepítheted a BootMiit. A későbbi telepítés viszont lehetséges.
 {: .notice--warning}
 
 ### Útmutató
 
-1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
-    + You will see a scam warning screen.
+1. Ennél a lépésnél a konzolodnak már mutatnia kell az előző részben elindított HackMii-telepítőt.
+    + A telepítő fel fog mutatni egy átverésekre figyelmeztető üzenetet.
 
     ![](/images/hackmii/scam.png)
 
-1. Wait 30 seconds for the text "Press 1 to continue" to appear, then press 1.
-1. Select `Continue`.
+1. Várj 30 másodpercet, amíg meg nem jelenik a „Press 1 to continue”-üzenet, majd nyomd meg az 1-es gombot!
+1. Nyomd meg a „`Continue`”-gombot!
 
     ![](/images/hackmii/test_results.png)
 
-1. Select `Install the Homebrew Channel`.
+1. Nyomd meg az „`Install the Homebrew Channel`”-gombot!
 
     ![](/images/hackmii/hbc_install.png)
 
-1. Once it is completed, select `Continue`.
+1. Miután a folyamat lezáródott, nyomd meg a „`Continue`”-gombot!
 
     ![](/images/hackmii/hbc_install_ok.png)
 
-1. Select `Back`, then select `BootMii`.
+1. Nyomd meg a „`Back`”, majd a „`BootMii`”-gombot!
 
     ![](/images/hackmii/bootmii_install.png)
 
-1. Select `Install BootMii as IOS`.
+1. Nyomd meg az „`Install BootMii as IOS`”-gombot!
 
     ![](/images/hackmii/bootmii_install1.png)
 
@@ -51,15 +51,15 @@ If you do not have an SD card, you cannot install nor use BootMii, regardless of
 
     ![](/images/hackmii/bootmii_install_ok.png)
 
-1. Once it is completed, select `Continue`.
-1. If you have the option to `Install BootMii as boot2`, please do so as well.
+1. Miután a folyamat lezáródott, nyomd meg a „`Continue`”-gombot!
+1. Ha a konzolod megfelel a korábban leírt boot2-s követelményeknek, nyomd meg az „`Install BootMii as boot2`”-gombot!
 
     ![](/images/hackmii/bootmii_install4.png)
 
-1. Select `Exit`.
-1. Your console will have booted into the Homebrew Channel.
+1. Nyomd meg az „`Exit`”-gombot!
+1. Ezután a konzol el fogja indítani a Homebrew Channelt.
 
-### Required Reading
+### Olvass el!
 
 You can now use the Homebrew Channel to launch homebrew apps, as well as BootMii for backing up and restoring your NAND if you were able to install it.
 
