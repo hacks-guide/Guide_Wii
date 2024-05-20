@@ -18,7 +18,7 @@ This guide is only intended for Wii users. If you have a Wii mini, follow [this 
 Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely [brick](bricks#ios-brick) your console.
 {: .notice--warning}
 
-### Requirements
+### Követelmények
 
 * A Wii
 * An SD card or USB drive
@@ -27,7 +27,7 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
 {: .notice--warning}
 
-### Instructions
+### Útmutató
 
 #### Section I - Downloading
 
