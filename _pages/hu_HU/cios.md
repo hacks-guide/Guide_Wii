@@ -20,8 +20,8 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 
 ### Követelmények
 
-* A Wii
-* An SD card or USB drive
+* Egy Wii
+* Egy SD kártya vagy egy USB drive
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
@@ -29,12 +29,12 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ### Útmutató
 
-#### Section I - Downloading
+#### I. rész - Letöltés
 
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
 
-1. Power off your console.
+1. Kapcsold ki a konzolt!
 1. Insert your SD card or USB drive into your computer.
 1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 1. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
@@ -52,12 +52,12 @@ If you are not on Windows, you may download & run [this script](/assets/files/d2
 The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_ios.png)
 {: .notice--info}
 
-#### Section II - Installing
+#### II. rész - Telepítés
 
 
 1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
+1. Kapcsold be a konzolt!
 1. Launch the Homebrew Channel.
 1. Launch d2x cIOS Installer from the list of homebrew.
 1. Set everything to match the following:
@@ -77,11 +77,11 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
     If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.)
     {: .notice--info}
 
-1. Press `A`. This will bring you to the slot map:
+1. Nyomj `A`-t. This will bring you to the slot map:
 
     ![](/images/cios/d2x_summary.png)
 
-1. Press `A` again.
+1. Nyomj `A`-t újra.
 
     ![](/images/cios/d2x_installation.png)
 
@@ -92,7 +92,7 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
     If the slot is highlighted red, try install the cIOS again. <br> If you are getting an error before/during the downloading stages, press B to exit and continue from [Section I](#section-i---downloading).
     {: .notice--info}
 
-1. Press `A`. This will return you to the configuration screen.
+1. Nyomj `A`-t. This will return you to the configuration screen.
 1. Repeat the previous 5 steps with the following configurations:
 
     + cIOS 249 Installation
