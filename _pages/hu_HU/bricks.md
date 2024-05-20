@@ -1,5 +1,5 @@
 ---
-title: "Bricks"
+title: "Elrontás"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
