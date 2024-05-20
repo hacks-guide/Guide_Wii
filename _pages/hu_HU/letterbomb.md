@@ -12,12 +12,12 @@ For instructions on how to format your SD card correctly, please see [this guide
 Do NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Use your own!
 {: .notice--warning}
 
-### Requirements
+### Követelmények
 * An SD card formatted as FAT32 that is 32GB or less
 * A Wii on System Menu version 4.3
 * A Windows/MacOS/Linux computer with an Internet connection
 
-### Instructions
+### Útmutató
 
 1. Power on your console.
 1. Go to `Wii Settings`.
