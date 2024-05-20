@@ -39,7 +39,7 @@ WiiLink hosts a patcher for the services that it provides, ranging from internat
 
 #### Amire szükséged van
 + The Homebrew Channel
-+ An SD card
++ Egy SD kártya
 + [Priiloader](priiloader)
 
 #### Útmutató
