@@ -18,7 +18,7 @@ Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. T
 DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same goes for using faulty SD cards.
 {: .notice--danger}
 
-### Requirements
+### Követelmények
 
 * An earlier NAND Backup made by [BootMii](bootmii)
 
@@ -38,7 +38,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 + You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad on a GameCube controller. To select, press A.
 
-### Instructions
+### Útmutató
 
 1. Launch the Homebrew Channel.
 1. Press the HOME Button, then select "Launch BootMii".
