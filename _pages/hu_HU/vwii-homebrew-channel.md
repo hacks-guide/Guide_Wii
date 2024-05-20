@@ -40,7 +40,7 @@ If the evWii Aroma plugin is not installed, and a homebrew app hangs, the only w
 4. Launch vWii (the Wii Menu icon).
    - If the installation has succeeded, you should see the Homebrew Channel in your Wii Menu.
 
-### Required Reading
+### Olvass el!
 
 You can now use the Homebrew Channel to launch Wii homebrew apps.
 
