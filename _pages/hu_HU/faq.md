@@ -1,8 +1,8 @@
 ---
-title: "FAQ and Troubleshooting"
+title: "GYIK és hibaelhárítás"
 ---
 
-## Main FAQ
+## Fő GYIK
 
 {% include toc title="Tartalomjegyzék" %}
 
@@ -34,7 +34,7 @@ If you get this error or you see Nintendo's User Agreement without RiiConnect24'
 
 ##### For non-RiiConnect24 Users
 
-If you get this error, the DNS server you chose or your internet as a whole is having issues. Try again later.
+If you get this error, the DNS server you chose or your internet as a whole is having issues. Próbáld később újra.
 
 #### FORE000006
 
