@@ -129,17 +129,17 @@ From here, the Homebrew Channel can be loaded and the brick can be fixed by dele
 
 ## Wii Menu/Opera brick
 
-#### Symptoms
+#### Tünetek
 When starting the Wii, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` This will happen every time you start the Wii, and cannot be bypassed by any other means.
 
-#### Cause
+#### Ok
 This brick is a more fatal version of a [Semibrick](#semibrick). If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
 
 However, the setup pages are in a similar location to the Wii settings pages. If you have an incorrect region Wii Menu or theme, the Wii cannot find them.
 
 ![](/images/bricks/sysmenu-brick.png)
 
-#### Solutions
+#### Megoldás
 
 If you still have [Priiloader](priiloader), use it to enter the Homebrew Channel and re-install the original theme file/original Wii Menu.
 
@@ -149,14 +149,14 @@ Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 
 ## KoreanKii/Error 003 Brick
 
-#### Symptoms
+#### Tünetek
 Screen shows up as listed below on normal boot.
 
 `Error:003`<br> `unauthorized device has been detected.`<br>
 
 ![](/images/bricks/error-003.png)
 
-#### Cause
+#### Ok
 When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. If this check succeeds, the error triggers and the Wii is effectively bricked.
 
 This is usually an immediate follow-up to a Wii System Update on an unsuspecting region-changed Korean Wii.
@@ -170,10 +170,10 @@ While this leaves the Wii in a particularly dangerous situation, **it is still f
 
 ## IOS brick
 
-#### Symptoms
+#### Tünetek
 This brick will appear identical to a low-level brick due to a Wii Menu failure via IOS; however there is not a full low-level NAND corruption, or a low-level hardware failure.
 
-#### Cause
+#### Ok
 This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. A stubbed system menu IOS is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
 
 #### Solutions
@@ -188,10 +188,10 @@ For vWii, See [Recover a vWii IOS/Channel](https://wiiu.hacks.guide/#/recover-vw
 
 ## Wi-Fi brick
 
-#### Symptoms
+#### Tünetek
 This brick appears identical to a low-level brick, however you can still power on the Wii with a Wiimote, and you can still boot into Recovery Mode on an original revision Wii.
 
-#### Cause
+#### Ok
 This brick arises when your Wii's Wi-Fi (or Bluetooth) module is damaged or not inserted properly. In such cases, the Wii gets stuck on a black screen while awaiting a response from IOS.
 
 This will also happen on the Wii mini if you install a normal Wii IOS, because the Wii mini doesn't have a Wi-Fi module.
@@ -208,10 +208,10 @@ If both fail, see [low-level brick](bricks#low-level-brick).
 #### Symptoms
 Completely black screen, no response to user input. Recovery Mode cannot be booted, neither can BootMii as boot2 (or it never existed in the first place), for all intents and purposes the console appears dead.
 
-#### Cause
+#### Ok
 This brick occurs when boot1/boot2 is corrupt, or if there is a hardware failure.
 
-#### Solutions
+#### Megoldás
 First, troubleshooting must be done to determine if hardware is at fault. In the order listed, do the following:
 
 + Test to make sure that your Wii actually still functions (it accepts discs as normal, spins up correctly, Wiimotes connect) before attempting the following steps. If this is the case and only video is not being displayed, you may have a bad video cable, or an exceptionally rare failure of the video port or the GPU.
