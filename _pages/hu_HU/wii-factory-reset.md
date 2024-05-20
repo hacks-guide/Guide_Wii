@@ -36,7 +36,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 ### Útmutató
 
-#### Section I - Preparation
+#### I. rész - Előkészületek
 
 1. Start Ohneschwanzenegger. You may get a Windows SmartScreen prompt, this is a false positive and you can run the program anyway by pressing `More info` and `Run anyway`.
 
@@ -48,7 +48,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
    ![](/images/factory-reset/newnand.png)
 
-4. This will fill in information such as the keys, Boot 1/2, and your bad blocks automatically. ONLY change the Destination box to `./blankNand.bin`, which will output the NAND to the program folder with the name `blankNand.bin`. Then, press OK.
+4. This will fill in information such as the keys, Boot 1/2, and your bad blocks automatically. ONLY change the Destination box to `./blankNand.bin`, which will output the NAND to the program folder with the name `blankNand.bin`. Aztán nyomj OK-t.
 
    ![](/images/factory-reset/renamenand.png)
 
