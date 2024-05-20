@@ -1,5 +1,5 @@
 ---
-title: Priiloader Usage
+title: A Priiloader használata
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -20,7 +20,7 @@ These are some extra things you can do with Priiloader to enhance your homebrew 
 
 #### Autobooting with Priiloader
 
-Priiloader allows you to automatically boot to the Homebrew Channel, an individual homebrew application, or Priiloader itself. This is optional.
+Priiloader allows you to automatically boot to the Homebrew Channel, an individual homebrew application, or Priiloader itself. Ez opcionális.
 
 ##### Autobooting a Homebrew application
 
@@ -46,7 +46,7 @@ You will be installing `uneoboot.dol` in step 3.
 
     ![](/images/priiloader/installing_file_ok.png)
 
-1. Press `B` to return to the main menu.
+1. Végezetül, nyomd meg a `B`-gombot a főmenübe való visszatéréshez!
 1. Scroll down to `Settings` and press A.
 
     ![](/images/priiloader/menu_settings.png)
@@ -55,11 +55,11 @@ You will be installing `uneoboot.dol` in step 3.
 
     ![](/images/priiloader/autoboot_installed_file.png)
 
-1. Scroll down to `save settings` and press A.
+1. Ha végeztél, a mentéshez görgess le és válaszd ki a „`save settings”`-menüpontot az A-gombbal!
 
     ![](/images/priiloader/settings_save.png)
 
-1. Press `B` to return to the main menu.
+1. Végezetül, nyomd meg a `B`-gombot a főmenübe való visszatéréshez!
 1. Scroll back up to `System Menu` and press A.
 
 Your Wii should now automatically boot to whichever homebrew app you installed.
@@ -80,9 +80,9 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 
     ![](/images/priiloader/autoboot_disabled.png)
 
-1. Scroll down to `save settings` and press A.
+1. Ha végeztél, a mentéshez görgess le és válaszd ki a „`save settings”`-menüpontot az A-gombbal!
 
     ![](/images/priiloader/settings_save.png)
 
-1. Press `B` to return to the main menu.
+1. Végezetül, nyomd meg a `B`-gombot a főmenübe való visszatéréshez!
 1. Scroll back up to `System Menu` and press A.
