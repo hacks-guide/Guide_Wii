@@ -98,20 +98,20 @@ A későbbi indításhoz kövesd az alábbi lépéseket:
 A Priiloader további lehetőségeiről és javításairól való tájékozódáshoz keresd fel a [Priiloader használata](priiloader-usage)-oldalt!
 {: .notice--info}
 
-[View the Brick Prevention Guidelines](bricks#brick-prevention)<br> These guidelines list ways that will help avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
+[Az elrontáskiküszöbölési segédlet megtekintése](bricks#brick-prevention)<br> Ebben a segédletben elolvashatod, hogy mit tehetsz a Wiid elrontásának elkerüléséhez, a BootMii és Priiloader telepítésén kívül.
 {: .notice--info}
 
 ### Wii: További lépések
 
-Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
+Folytatás [cIOS-sel](cios)<br> Ez az útmutató végigvezet az alap cIOS-ek telepítésén, ami további funkciókat fog lehetővé tenni, többek között az USB-betöltőknél.
 {: .notice--info}
 
 ### vWii: További lépések
 
-Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
+Folytatás [vWii cIOS-sel](cios-vwii)<br> Ez az útmutató végigvezet az alap cIOS-ek telepítésén, ami további funkciókat fog lehetővé tenni, többek között az USB-betöltőknél.
 {: .notice--info}
 
 ### Wii mini: További lépések
 
-Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders.
+Folytatás [Wii mini cIOS-sel](cios-mini)<br> Ez az útmutató végigvezet az alap cIOS-ek telepítésén, ami további funkciókat fog lehetővé tenni, többek között az USB-betöltőknél.
 {: .notice--info}
