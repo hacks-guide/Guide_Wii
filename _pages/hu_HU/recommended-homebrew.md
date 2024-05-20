@@ -8,7 +8,7 @@ This page outlines homebrew that are recommended by the wii.hacks.guide staff fo
 
 Homebrew that has the ability to make permanant changes to your Wii are highlighted in **bold**.
 
-### Utilities
+### Segédeszközök
 
 + [**YAWM ModMii Edition**](https://oscwii.org/library/app/yawmME) - An extensively supported WAD manager with additional features. Recommended over any other WAD manager due to its extensive anti-brick protection.
 + [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME) - A homebrew application which checks information about your Wii and pastes it back in a readable, sendable format. Think of it like a "System Information" app but for the Wii.
@@ -23,7 +23,7 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 
 
 
-### Games and Loaders
+### Játékok és Betöltők
 
 + [**Riivolution**](https://wiki.hacks.guide/wiki/Wii:Riivolution) - An on-the-fly game patcher for use with retail game discs. It allows users to place content on an SD card or a USB device, which is subsequently read by the game during normal play. Riivolution can be used for custom textures, music, levels, memory patches, game translations, and more!
 + [USB Loaders](wii-loaders) - A general recommendation for a USB loader of any kind, which allows you to play game backups of retail discs. Further information can be found in our linked guide, which encompasses both Wii and GameCube loaders.
@@ -34,7 +34,7 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 
 
 
-### Emulators
+### Emulátorok
 
 + [FCE Ultra RX](https://oscwii.org/library/app/fceurx) - A fork of FCE Ultra GX, a Nintendo Entertainment System/Famicom emulator, with extra features and speed improvements.
 + [Snex9x RX](https://oscwii.org/library/app/Snes9xRX) - A fork of Snes9x GX, a Super Nintendo Entertainment System/Super Famicom emulator, with extra features and speed improvements.
@@ -45,7 +45,7 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 + [WiiSX](https://oscwii.org/library/app/wiiSX) - A port of PCSX-ReARMed, a Sony PlayStation emulator, to the Wii.
 + [DOSBox Wii](https://oscwii.org/library/app/dosbox-wii) - A port of DOSBox, an emulator which runs software for MS-DOS compatible disk operating systems.
 
-### Entertainment
+### Szórakoztatás
 
 + [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - A modified and updated verison of WiiMC. Turns your Wii into a fully fledged media center, with the ability to listen to music, watch videos, play DVDs, and more.
 + [Schism Tracker](https://oscwii.org/library/app/schismtracker) - A editor and player for tracked music (IT, XM, S3M, MOD, etc.). You can find music to try out [here](https://modarchive.org/).
