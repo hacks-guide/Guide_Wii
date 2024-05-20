@@ -9,11 +9,11 @@ BootMii allows for backing up and restoring your Wii's NAND storage. This page w
 You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
 {: .notice--warning}
 
-### Requirements
+### Követelmények
 
 * An SD card with a minimum 512MB of free space (1GB or more recommended)
 
-### Instructions
+### Útmutató
 
 If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
 {: .notice--info}
