@@ -58,17 +58,17 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 #### Követelmények
 
-- A PC running Windows
-- A USB drive or SD card
+- Egy PC Windows-szal
+- Egy SD kártya vagy egy USB drive
 - A dumped ISO from a Wii game disc
 - [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
-#### Section I - Installation
+#### I. rész - Telepítés
 
-1. Extract Wii Backup Manager, and launch the program.
-2. Insert your USB drive or SD card into your computer.
+1. Csomagold kis és indítsd el a Wii Backup Manager-t.
+2. Csatlakoztasd az USB drive-od, vagy az SD kártyád a számítógépedhez.
 
-#### Section II - Copying Games
+#### II. rész - Játékok másolása
 
 1. Go to the `Drive 1` tab, then select the drive that will hold your backed up Wii games.
 
@@ -93,12 +93,12 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 #### Követelmények
 
 - A PC running MacOS or Linux
-- A USB drive or SD card
+- Egy SD kártya vagy egy USB drive
 - A dumped ISO from a Wii game disc
 - [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
-#### Section I - Installation
+#### I. rész - Telepítés
 
 1. Download Wiimm's ISO tools for your OS and extract the .tar.gz into a folder that you can access with the terminal. The extracted folder should have these files inside:
 
@@ -108,7 +108,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 3. Download Wii Backup Fusion for your OS and install. If on Linux, you will need to make the appimage executable by running `chmod +x [FILE]`.
 
-#### Section II - Copying Games
+#### II. rész - Játékok másolása
 
 1. Open Wii Backup Fusion and press `Load`.
 
