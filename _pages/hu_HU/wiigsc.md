@@ -14,7 +14,7 @@ Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It
 
 ### Követelmények
 
-* A Wii
+* Egy Wii
 * A USB drive
 * [YAWM ModMii Edition](yawmme)
 * A Windows computer.
