@@ -11,7 +11,7 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 
 ### Wilbrand Web (Recommended)
 
-#### Requirements
+#### Követelmények
 
 * An SD card formatted to FAT32/MS-DOS that is 32GB or less
 * A Wii on at least version 3.0
@@ -19,7 +19,7 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Útmutató
 
 1. Power on your console.
 1. Go to `Wii Settings`.
@@ -62,18 +62,18 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 ### Wilbrand CLI
 
-#### Requirements
+#### Követelmények
 
 * A computer running Windows, macOS or Linux
 * An SD card formatted to FAT32/MS-DOS (FAT)
 * A Wii on version 3.0 or newer
 * [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
-* [HackMii Installer v1.2](https://bootmii.org/download/)
+* [A HackMii-telepítő 1.2-es verziója](https://bootmii.org/download/)
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Útmutató
 
 1. Power on your console.
 1. Go to `Wii Settings`.
