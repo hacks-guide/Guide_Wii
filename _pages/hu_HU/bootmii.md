@@ -19,7 +19,7 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
 {: .notice--info}
 
 1. Kapcsold be a konzolt!
-1. Launch the Homebrew Channel.
+1. Indítsd el a Homebrew Channelt.
 1. Press the HOME Button, then select "Launch BootMii".
 
     ![](/images/bootmii/BootMii_HBC.png)
@@ -68,7 +68,7 @@ To restore from a NAND backup on your SD card, you can follow the instructions f
 Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
-### Autobooting
+### Autobootolás
 
 If you were able to install BootMii as boot2, but dont want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
 
