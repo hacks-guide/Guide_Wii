@@ -4,7 +4,7 @@ title: "Transferring Game Saves"
 
 This guide will explain how to transfer game saves between:
 
-+ a Wii/Wii U(vWii),
++ egy Wii/Wii U(vWii),
 + Dolphin Emulator,
 + GameCube memory cards,
 + and (Nintendont) emulated memory cards.
@@ -146,7 +146,7 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 
 ##### Amire szükséged van
 
-* an SD card
+* egy SD kártya
 
 ##### Útmutató
 
@@ -318,7 +318,7 @@ All methods here require a Wii with GameCube ports.
 
 ##### Amire szükséged van
 
-* a Wii
+* egy Wii
 
 ##### Útmutató
 
