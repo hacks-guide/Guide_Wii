@@ -22,12 +22,12 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
-1. Power on your console.
+1. Kapcsold be a konzolt!
 1. Go to `Wii Options`.
 
     ![](/images/riiconnect24/Internet_1.png)
 
-1. Go to `Wii Settings`.
+1. Nyisd meg a konzol beállításait (`Wii Settings`)!
 
     ![](/images/riiconnect24/Internet_2.png)
 
@@ -80,7 +80,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
     + If you get the normal User Agreements, your ISP blocks the use of custom DNS. Try another connection, or [use another exploit](get-started).
 
 1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
 
     ![](/images/hackmii/scam.png)
 
