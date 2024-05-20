@@ -75,7 +75,7 @@ When using ModMii, it is important to note that it will generate a custom guide 
 * A Windows PC (a Virtual Machine will work)
 * [ModMii](https://modmii.github.io/)
 
-#### Installation
+#### Telepítés
 
 1. Go to the [ModMii website](https://modmii.github.io) and scroll down to the Download section. Here, select the `Installer` option. Your browser may flag the installer as malware, but it is a **false positive**.
 
