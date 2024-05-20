@@ -21,10 +21,10 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 #### Útmutató
 
-1. Power on your console.
-1. Go to `Wii Settings`.
+1. Kapcsold be a konzolt!
+1. Nyisd meg a konzol beállításait (`Wii Settings`)!
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Ez a betű jelzi a rendszermenü régióját, amire később szükséged lesz.
 
     ![](/images/wii/SystemMenuVersion.png)
 
@@ -54,7 +54,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
     + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started).
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
@@ -75,10 +75,10 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 #### Útmutató
 
-1. Power on your console.
-1. Go to `Wii Settings`.
+1. Kapcsold be a konzolt!
+1. Nyisd meg a konzol beállításait (`Wii Settings`)!
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Ez a betű jelzi a rendszermenü régióját, amire később szükséged lesz.
 
     ![](/images/wii/SystemMenuVersion.png)
 
@@ -116,7 +116,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}
