@@ -70,7 +70,7 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 #### Követelmények
 
-* A Wii
+* Egy Wii
 * A USB drive or SD Card
 * A Windows PC (a Virtual Machine will work)
 * [ModMii](https://modmii.github.io/)
@@ -85,7 +85,7 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
     ![](/images/modmii/modmii-install.png)
 
-### Using the ModMii Wizard
+### A ModMii Wizard használata
 
 The ModMii Wizard is tool that can softmod your Wii from start to finish, downloading all necessary files and then generating a guide that you can use to implement the softmod. This tool can also be used to overwrite existing softmods on a previously softmodded Wii.
 
