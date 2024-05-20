@@ -9,7 +9,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 There are two methods listed on this page used to create the proper Wilbrand exploit. Wilbrand Web is recommended for its ease of use.
 {: .notice--info}
 
-### Wilbrand Web (Recommended)
+### Wilbrand Web (Ajánlott)
 
 #### Követelmények
 
