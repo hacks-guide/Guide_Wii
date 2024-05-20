@@ -21,10 +21,10 @@ WiiLink hosts a patcher for the services that it provides, ranging from internat
 
 ### Wii
 
-#### What you need
+#### Amire szükséged van
 + A working Internet connection on your Wii
 + The Homebrew Channel
-+ An SD card or USB drive
++ Egy SD kártya vagy egy USB drive
 + [sntp](https://oscwii.org/library/app/sntp)
 
 #### Útmutató
@@ -37,7 +37,7 @@ WiiLink hosts a patcher for the services that it provides, ranging from internat
 
 ### vWii
 
-#### What you need
+#### Amire szükséged van
 + The Homebrew Channel
 + An SD card
 + [Priiloader](priiloader)
