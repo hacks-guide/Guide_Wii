@@ -61,27 +61,27 @@ SD kártya nélkül a módszertől függetlenül nem telepítheted a BootMiit. A
 
 ### Olvass el!
 
-You can now use the Homebrew Channel to launch homebrew apps, as well as BootMii for backing up and restoring your NAND if you were able to install it.
+Az útmutató befejezése után képes leszel nemhivatalos alkalmazásokat futtatni – ezek között, ha sikerült telepítened, a BootMiit is, amellyel biztonsági mentéseket készíthetsz és tölthetsz vissza a Wii belső tárhelyéről.
 
-Note: When installing homebrew applications on your SD Card or USB drive, your folder structure should look like this:
+Megjegyzés: Ha nemhivatalos alkalmazásokat telepítesz SD kártyára vagy pendrive-ra, a könyvtárfelépítésed így kell, hogy kinézzen:
 
 ```
-💾 SD Card or USB Drive
+💾 SD kártya vagy pendrive
 | ╸📁 apps
-    | ╸📁 AppName1
+    | ╸📁 EgyikAlkalmazás
         | ╸📄 boot.dol
         | ╸📄 meta.xml
         | ╸📄 icon.png
-    | ╸📁 AppName2
+    | ╸📁 MásikAlkalmazás
         | ╸📄 boot.dol
         | ╸📄 meta.xml
         | ╸📄 icon.png
 ```
 
-`AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
+Az `Egyik-` és `MásikAlkalmazás` csak helyettesítő nevek. Az `apps`-mappában ne hozz létre egy másik `apps`-nevű mappát!
 
-[Continue to making a NAND Backup using BootMii](bootmii)<br> Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
+[Folytatás a BootMiivel való biztonságimentés-készítéshez](bootmii)<br> Ezen a ponton erősen ajánlott biztonsági mentést készíteni a Wii belső tárhelyéről, ugyanis ha elromlik a konzolod, ezzel megjavíthatod.
 {: .notice--info}
 
-Tip: If a Wii has BootMii installed as boot2, your disc drive will flash very briefly after the immediate flash that happens when you press the POWER Button.
+Tipp: Ha egy Wiire telepítve van a BootMii boot2 alatt, akkor a lemezolvasó ismét felvillan a HOME-gomb megnyomása utáni első villanást követően.
 {: .notice--info}
