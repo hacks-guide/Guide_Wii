@@ -12,7 +12,7 @@ In the case of a brick, [installing Priiloader is a must](/priiloader). Also, in
 Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will brick your Wii.
 {: .notice--warning}
 
-### Requirements
+### Követelmények
 
 * A Wii
 * A USB drive
@@ -20,7 +20,7 @@ Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It
 * A Windows computer.
 * [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
 
-### Instructions
+### Útmutató
 
 1. Install WiiGSC, then right click on it and choose **Run as administrator**. If you do not do this, WiiGSC will throw an error when you open it.
 
