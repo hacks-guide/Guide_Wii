@@ -34,7 +34,7 @@ The Mii Channel on the vWii lacks some features, such as connecting to a DS and 
 
 1. You can install `Mii Channel v6 (Wii).wad` with [YAWM Modmii Edition](yawmme)
 
-### Additional Homebrew Apps
+### További Homebrew App-ok
 
 All homebrew apps are loaded from the Homebrew Channel.
 {: .notice--info}
