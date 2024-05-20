@@ -16,7 +16,7 @@ If you have a Wii or a Wii mini with an SD card slot soldered, follow [this tuto
 There is no way to restore your NAND backup this way without a hardmod.
 {: .notice--info}
 
-### Requirements
+### Követelmények
 
 * A Wii
 * A USB drive
@@ -24,7 +24,7 @@ There is no way to restore your NAND backup this way without a hardmod.
 * [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
 * [Xyzzy Mod](https://oscwii.org/library/app/xyzzy-mod)
 
-### Instructions
+### Útmutató
 
 #### Section I - Dumping and Patching IOS 36
 
