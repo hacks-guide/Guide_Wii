@@ -45,22 +45,22 @@ Az optimális működés érdekében ajánlott a konzolt és a telepítőt futta
 ### Útmutató
 
 1. Helyezd át a hackmii_installer_v1.2 `.zip`-ben található `boot.elf`-fájlt a pendrive gyökerére!
-    + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-    + (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
-1. Reinsert your flash drive into your console.
-    + For a Wii mini, the USB port is on the back.
-    + For a normal Wii, use the bottom port (or the right port if it's upright).
-1. Power on your console.
-1. Go to `Wii Settings`.
-1. Take note in the top right corner of the letter next to the system version.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + (Ha egy elromlott konzolt kívánsz megjavítani, akkor másold a használni kívánt alkalmazást az /apps/ könyvtárba!)
+    + (Ugyan ez az útmutató a Wii miniről szól, megjegyezzük, hogy a bootmini.elf **nem** helyettesíti a boot.elf-fájlt. Ennek a fájlnak teljesen más szerepe van, amire most nincs szükségünk. Minden esetben a boot.elf-fájlt használd!)
+1. Helyezd be a pendrive-ot a konzolba!
+    + Ha Wii minivel dolgozol, az USB-csatlakozó hátul található.
+    + Egy sima Wii esetén az alsó csatlakozót használd (ha a konzol fel van állítva, akkor ez a jobb oldali)!
+1. Kapcsold be a konzolt!
+1. Nyisd meg a konzol beállításait (`Wii Settings`)!
+1. Jegyezd meg a jobb felső sarokban megjelenő betűjelet, ami a rendszer verziószáma mellett van!
+    + Ez a betű jelzi a rendszermenü régióját, amire később szükséged lesz.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Power off your console.
-1. Start your Linux distro, and ensure you are connected to the internet.
-1. Open the Terminal
-1. Run the following commands:
+1. Kapcsold ki a konzolt!
+1. Indítsd el a Linuxos számítógépedet és csatlakozz az internetre!
+1. Nyisd meg a terminált!
+1. Futtasd az alábbi parancsokat:
 
     ```bash
     wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -68,18 +68,18 @@ Az optimális működés érdekében ajánlott a konzolt és a telepítőt futta
     ./bluebomb-helper.sh
     ```
 
-1. The helper will then download the required files, and ask for information about your console.
-    + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
-    + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
-1. Power on your console.
-    + **Do not** connect any Wii Remotes.
-1. Press the Sync button repeatedly until the terminal shows `got connection handle`.
-    + This could take numerous attempts.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
-    + If you are not planning to use it later, you can now shut down your Linux distro.
+1. A telepítő most letölti a szükséges fájlokat, majd a konzolodról fog érdeklődni.
+    + Ha Wii minit adtál meg, akkor a régió felől fog érdeklődni. Ezt a Wii Menü verziószámának utolsó betűje határozza meg (**PAL**-régiós konzolok esetén `E`, **USA**-régiós konzolok esetén `U`).
+    + Ha Wiit adtál meg, akkor a Wii Menü verziószámát kell megadnod (ezt a 4. lépésben tudtad meg).
+1. Kapcsold be a konzolt!
+    + **Ne** csatlakoztass egy Wii Remote-ot sem!
+1. Nyomogasd a konzol Sync gombját, amíg a terminálon nem látod ezt az üzenetet: `got connection handle`!
+    + Lehetséges, hogy ezt többször is meg kell próbálnod.
+1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
+    + Ha a későbbiekben már nem tervezed használni, akkor leállíthatod a Linuxot.
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+Ha sima Wiivel dolgozol, [folytasd a Homebrew Channel- és a BootMii telepítésével](hbc)!<br>
 {: .notice--info}
 
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+Ha Wii minivel dolgozol, [folytasd a Homebrew Channel telepítésével](hbc-mini)!
 {: .notice--info}
