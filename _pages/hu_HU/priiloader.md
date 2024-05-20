@@ -10,14 +10,14 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 ### Követelmények
 
-* An SD card or USB drive
+* Egy SD kártya vagy egy USB drive
 * [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
 * [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
 #### Optional Requirements for vWii (highly recommended)
 
 * An SD card
-* [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
+* [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (közvetlen letöltés)
     * [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
 
 ### Útmutató
@@ -30,10 +30,10 @@ Priiloader on vWii does not have any impact on Wii U VC titles.
 
 <div class="notice--danger">{{ vwii-notes | markdownify }}</div>
 
-#### Section I - Prep Work
+#### I. rész - Előkészületek
 
-1. Power off your console.
-1. Insert your SD card or USB drive into your computer.
+1. Kapcsold ki a konzolt!
+1. Csatlakoztasd az USB drive-od, vagy az SD kártyád a számítógépedhez.
 1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
 1. (vWii only) Copy the `wiiu` folder from the PriiloaderWiiUForwarder `.zip` to the root of your SD card.
@@ -41,7 +41,7 @@ Priiloader on vWii does not have any impact on Wii U VC titles.
 
 #### Section II - Installing Priiloader
 
-1. Power on your console.
+1. Kapcsold be a konzolt!
 1. Launch the Homebrew Channel.
 1. Launch Priiloader installer from the list of homebrew.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
@@ -62,13 +62,13 @@ Priiloader on vWii does not have any impact on Wii U VC titles.
 Later on, to enter it you can:
 
 + Hold the RESET on a Wii while turning it on
-    + Wii Only
+    + csak Wii
 + Hold the ESC key on a connected USB keyboard while turning on the console
     + Wii, vWii and Mini
 + Run the "Load Priiloader" tool from the HBC
     + Wii, vWii and Mini
 + Run the "Priiloader Wii U Forwarder" tool
-    + vWii Only
+    + csak vWii
 
 #### Section IV - Configuring Priiloader
 
@@ -101,17 +101,17 @@ You can see the [Priiloader Usage](priiloader-usage) page for more information a
 [View the Brick Prevention Guidelines](bricks#brick-prevention)<br> These guidelines list ways that will help avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
 {: .notice--info}
 
-### Wii: Next Steps
+### Wii: További lépések
 
 Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
 {: .notice--info}
 
-### vWii: Next Steps
+### vWii: További lépések
 
 Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
 {: .notice--info}
 
-### Wii mini: Next Steps
+### Wii mini: További lépések
 
 Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders.
 {: .notice--info}
