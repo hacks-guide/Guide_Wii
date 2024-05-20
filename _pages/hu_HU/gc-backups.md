@@ -6,7 +6,7 @@ title: "Managing GameCube Backups"
 
 This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
 
-### Requirements
+### Követelmények
 
 * An SD card or USB drive
 * [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
@@ -17,7 +17,7 @@ To play multiple games, it is recommended to use an external hard drive for your
 Make sure your USB drive is formatted as FAT32. Do not format it as other types such as NTFS, exFAT, extFS, or WBFS, the latter being an outdated filesystem for storing Wii games.
 {: .notice--info}
 
-### Instructions
+### Útmutató
 
 #### Section I - Downloading
 
