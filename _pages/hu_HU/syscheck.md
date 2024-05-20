@@ -8,7 +8,7 @@ A SysCheck lists all the IOS and cIOS that are on your Wii, along with some info
 
 ### Követelmények
 
-* An SD card or USB drive
+* Egy SD kártya vagy egy USB drive
 * [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME)
 
 ### Útmutató
