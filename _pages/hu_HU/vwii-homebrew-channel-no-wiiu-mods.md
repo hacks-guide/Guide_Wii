@@ -20,7 +20,7 @@ This page will guide you through the process of installing the Homebrew Channel 
 
 You may delete the `wiiu` folder on your SD card if you so choose.
 
-### Required Reading
+### Olvass el!
 
 You can now use the Homebrew Channel to launch Wii homebrew apps.
 
