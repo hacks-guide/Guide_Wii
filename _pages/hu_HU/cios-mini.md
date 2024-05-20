@@ -33,26 +33,26 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 #### Section I - Downloading
 
-1. Power off your console.
+1. Kapcsold ki a konzolt!
 1. Insert your USB drive into your computer.
 1. Create a folder named `apps` on the root of your USB drive if it does not already exist.
 1. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
 1. Reinsert your USB drive into your console.
-1. Power on your console.
+1. Kapcsold be a konzolt!
 1. Launch the Homebrew Channel.
 1. Launch d2xl cIOS Installer from the list of homebrew.
 
-#### Section II - Installing
+#### II. rész - Telepítés
 
-1. Select `Continue`.
-1. Set the options to the following:
+1. Válaszd a `Continue`-t.
+1. Állítsd be az opciókat a következőre:
     ```
     Select cIOS <d2xl-v1-beta2>
     Select cIOS base <57>
     Select cIOS slot <249>
     ```
     + Take a note of the version number under notes (`IOS57-64-` ending in either `v31776` or `v31775`)
-1. Press A to install.
+1. Nyomj A gombot a telepítéshez.
     + If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
 1. When the process is complete, exit the installer.
 
