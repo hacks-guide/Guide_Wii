@@ -1,12 +1,12 @@
 ---
-title: vWii Modding Guide
+title: vWii Modding útmutató
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
-This page will guide you through the process of modding your vWii.
+Ez az oldal végig vezet a vWii-d moddolásának folyamatán.
 
-## SD Preparations
+## SD előkészítés
 
 If you have hacked your Wii U in the past, you can use the same SD Card for this process.
 {: .notice--info}
@@ -16,35 +16,35 @@ If you haven't already, make sure you did a [nand backup](https://wiiu.hacks.gui
 
 ### Követelmények
 
-- A modded Wii U
-- The [Aroma Enviorment](https://aroma.foryour.cafe/)
-- The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
-- (Optional) The [Enhanced vWii Aroma Plugin](https://hb-app.store/wiiu/evWii)
+- Egy moddolt Wii
+- Az [Aroma környezet](https://aroma.foryour.cafe/)
+- A [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller) legutolsó kiadása.
+- (Opcionális) Az [Enhanced vWii Aroma Plugin](https://hb-app.store/wiiu/evWii)
 
 If the evWii Aroma plugin is not installed, and a homebrew app hangs, the only way to shut off the Wii U is by pulling the power cord. Pulling the power cord in some cases can cause a memory corruption so it is highly recomended to have the plugin installed.
 {: .notice--warning}
 
 ### Útmutató
 
-#### Section I - Files
+#### I. rész - Fájlok
 
-1. Insert your Wii U's SD Card into your PC.
+1. Helyezd be a Wii U-d SD kártyáját a PC-dbe.
 2. Copy the contents of the `CompatTitleInstaller.zip` file to the root of your SD Card.
 3. Copy the contents of the `evWii.zip` file to the root of your SD Card.
 
-#### Section II - Installing the Homebrew Channel
+#### II. rész - A Homebrew Channel telepítése
 
-1. Boot into [Aroma](https://wiiu.hacks.guide/#/aroma/finalizing-setup).
-2. Launch the vWii Compat Installer on the Wii U menu.
+1. Bootolj [Aroma](https://wiiu.hacks.guide/#/aroma/finalizing-setup)-ba.
+2. Indítsd el a vWii Compat Installer-t a Wii U Menu-ből.
 3. Press `A` to install the Homebrew Channel and wait until you see `Install succeeded`. Then press the HOME button to return to the Wii U Menu.
-4. Launch vWii (the Wii Menu icon).
-   - If the installation has succeeded, you should see the Homebrew Channel in your Wii Menu.
+4. Indítsd el a vWii-t (a Wii Menu ikon).
+   - Ha a telepítés sikeres volt, látnod kell a Homebrew Channel-t a Wii Menu-dben.
 
 ### Olvass el!
 
-You can now use the Homebrew Channel to launch Wii homebrew apps.
+Most már tudod használni a Homebrew Channel-t arra, hogy Wii homebrew appokat indítsd.
 
-Note: When installing Wii homebrew applications on your SD Card or USB drive, your folder structure should look like this:
+Megjegyzés: Ha homebrew Wii alkalmazásokat telepítesz SD kártyára vagy USB drive-ra, a könyvtár felépítésed így kell, hogy kinézzen:
 
 ```
 💾 SD Card
@@ -59,8 +59,8 @@ Note: When installing Wii homebrew applications on your SD Card or USB drive, yo
      ┗ 📄 icon.png
 ```
 
-`AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
-Do not Get confused with the `apps` folder inside of the `wiiu` folder and the `apps` folder on the root of the SD card.
+`AppName1` és `AppName2` helyfoglaló nevek. Az `apps` mappában ne hozz létre egy másik `apps` nevű mappát.
+Ne keverd össze az `apps` mappát a `wiiu` mappában és az `apps` mappával az SD kártya gyökerében.
 
-[Continue to installing Priiloader](priiloader)<br>
+[Folytatás a Priiloader telepítésével](priiloader)<br>
 {: .notice--info}
