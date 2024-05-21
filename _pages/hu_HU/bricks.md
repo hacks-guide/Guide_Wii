@@ -6,19 +6,19 @@ title: "Elrontás"
 
 Ha elromlott a Wiid, akkor már nem sok hasznod lesz rá, hacsak nem kell egy papírnehezék. <br> Egy Wii számos okból kifolyólag elromolhat, de ez általában sérült programok vagy rosszul elvégzett nemhivatalos módosítások okozzák.
 
-# Brick Prevention
+# Az elrontás kiküszöbölése
 
-Preventing a brick involves many rules that range between common sense and fail-safe backups. Here are the general recommendations of what not to do:
+Az elrontás megelőzésének több módja van, amelyek a józan paraszti észtől a biztonsági mentésig terjednek. Az általánosan elkerülendő dolgokat alább olvashatod:
 
-+ **Do NOT follow old modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
-+ **Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. It is DANGEROUS and does things that have the ability to BRICK YOUR CONSOLE!**
-+ **Do NOT install IOS packs such as DARKCORP that overwrite most of your IOS with cIOS. It is DANGEROUS and heavily outdated.**
-+ **Do NOT restore NAND backups from other consoles!**
-+ **Do NOT install any IOS that isn't meant for your system** (example: Wii IOS on Wii mini)
-+ **Do NOT attempt region changing methods meant for Wii on the vWii or Wii mini**
-+ **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi)). Doing otherwise could allow a malicious actor to BRICK your Console!**
-+ **Only install updates for your own region!**.
-    + Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
++ **NE kövess régi útmutatókat, NE használj régi programokat és NE kövess videós utmutatókat, hacsak a projram fejlesztője KÜLÖN NEM KÉRI!**
++ **SEMMILYEN KÖRÜLMÉNYEK KÖZÖTT NE HASZNÁLD a `Pimp My Wii`-alkalmazást! Ez VESZÉLYES, mert a program működése képes véletlenül ELRONTANI A KONZOLOD!**
++ **NE telepíts IOS-csomagokat, mint a DARKCORP, mert felülírják a legtöbb IOS-edet cIOS-ekkel! Ez a módszer VESZÉLYES és elavult.**
++ **NE tölts vissza más konzolokról származó biztonsági mentéseket!**
++ **NE telepíts olyan IOS-eket, amelyeket nem a konzolodra terveztek!** (Pl.: Wii-s IOS-eket Wii minire.)
++ **A Wiire tervezett régióváltási módszereket NE próbáld ki vWiin vagy Wii minin!**
++ **NE használj olyan Nintendo Wi-Fi Connection-szolgáltatást, amit nem távoli kódfuttatási javításokkal terveztek (egy biztonságos példa a [Wiimmfi](wiimmfi))! Ha mégis így tennél, akkor megkockáztatod a Wiidbe való rosszindulatú belépést és annak az elrontását!**
++ **Csak a saját régiódhoz tartozó frissítéseket telepíts!**.
+    + A más régióból származó frissítések telepítése esetén legjobb esetben semmi sem történik, legrosszabb esetben a [koreai Kii / 003-as hibás](bricks#korean-kiierror-003-brick) elromlásban végződhet. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
 + **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
     + An example of modifying files going wrong is replacing IOS80 on Wii mini, which may result in a [Wi-Fi Brick](bricks#wi-fi-brick).
 + **Do NOT install homebrew from untrustworthy sources or if the source code is not available.**
