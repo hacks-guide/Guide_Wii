@@ -112,7 +112,7 @@ A Wii bekapcsolásakor megejelennek az egészségügyi figyelmeztetések, majd a
 A témarontás akkor következik be, ha a telepített téma rossz formátummal rendelkezik.
 
 #### Megoldás
-To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
+Nyisd meg a Homebrew Channelt a Priiloaderen vagy a boot2 alá telepített BootMiin keresztül, majd a csm-installer használatával telepíts egy alapértelmezett témát, pl. az alap Wii menü témát! Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
 
 ## Üzenetrontás
 
