@@ -61,22 +61,22 @@ Ez a rész a lehetséges elrontások diagnózisában segít és súlyosság szer
 
 # Az elromlások típusai
 
-Here, the different Wii bricks will be discussed in order of severity, with symptoms, causes, and solutions.
+Alább olvashatsz a Wii elromlásának különböző tüneteiről, okairól és megoldásairól, súlyosság szerint sorba rendezve.
 
 ## Részleges elromlás
 
 #### Tünetek
-When navigating to Wii Settings, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` In some cases, some parts of the Wii Settings menu may still be accessible, but other parts may not (such as the Country menu).
+A Wii-beállítások megnyitásakor egy Opera-internetböngészőben megjelenített hibaüzenetet látsz, ami valahogy így néz ki: „`You tried to access the address (URL), which is currently unavailable`” („A megadott webcím jelenleg nem elérhető”). Bizonyos esetekben előfordulhat, hogy a Wii-beállítások bizonyos oldalai elérhetőek, mások viszont nem (pl. az országválasztó lap).
 
 #### Ok
-A semibrick occurs when a different region Wii Menu or a different region custom theme is installed. As the Wii Settings menu is rendered using HTML pages with Opera, themes often replace these pages and put them in different directories; essentially leading to a `404 Not Found` error but in the form of a console brick.
+A részleges elromlás akkor következik be, ha a konzol régiójától éltérő Wii menüt vagy témát telepítesz. A Wii beállításai HTML-dokumentumokként vannak eltárolva, amelyeket az Opera jelenít meg. A témák gyakran kicserélik ezeket az oldalakat és más könyvtárakban helyezik el őket, ami gyakorlatban egy „`404 – A keresett oldal nem található`”-hibát eredményez egy elrontott konzol formájában.
 
 ![](/images/bricks/semibrick.png)
 
 #### Megoldás
-Verify in AnyRegion Changer that your console region is the same as the theme or Wii Menu that you have installed.
+Nyisd meg az AnyRegion Changert és ellenőrizd, hogy a konzolod régiója ugyanaz-e, mint a telepített Wii menüé!
 
-If this was caused by a theme you installed, use csm-installer to reinstall the original theme.
+Ha a hibát egy téma okozta, használd a csm-installer-programot az eredeti téma visszaállításához!
 
 If this was caused by a Wii Menu WAD you installed, use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to re-obtain your original Wii Menu.
 
