@@ -112,61 +112,61 @@ A Wii bekapcsolásakor megejelennek az egészségügyi figyelmeztetések, majd a
 A témarontás akkor következik be, ha a telepített téma rossz formátummal rendelkezik.
 
 #### Megoldás
-Nyisd meg a Homebrew Channelt a Priiloaderen vagy a boot2 alá telepített BootMiin keresztül, majd a csm-installer használatával telepíts egy alapértelmezett témát, pl. az alap Wii menü témát! Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
+Nyisd meg a Homebrew Channelt a Priiloaderen vagy a boot2 alá telepített BootMiin keresztül, majd a csm-installer használatával telepíts egy alapértelmezett témát, pl. az alap Wii menü témát! A javításhoz egy másik módszer a [YAWM ModMii Edition](yawmme) elindítása és a régiódnak és verziódnak MEGFELELŐ alap Wii menü WAD újratelepítése.
 
 ## Üzenetrontás
 
 #### Tünetek
-A Wii bekapcsolásakor megejelennek az egészségügyi figyelmeztetések, majd amikor megnyomod az A-gombot, a képernyő elsötétül és nem történik semmi. Maintenance mode is still accessible.
+A Wii bekapcsolásakor megejelennek az egészségügyi figyelmeztetések, majd amikor megnyomod az A-gombot, a képernyő elsötétül és nem történik semmi. A karbantartási mód hozzáférhető.
 
 #### Ok
-A mail brick occurs when a Wii has too much mail to handle, or when malformed mail is in the Wii Message Board, causing a crash upon booting through normal means. Because the Wii Message Board is always drawn below Wii channels, this causes the Wii Menu to fail before fully loading.
+Az üzenetrontás akkor következik be, ha a Wiinek túl sok üzenetet kell feldolgoznia, vagy ha nem megfelelő üzenetek érkeztek a Wii Üzenőfalra. Ez megakadályozza a normális indítást. Mivel a Wii Üzenőfal a csatornák alatt jelenik meg, ez a Wii menü betöltésének meghiúsulását eredményezi.
 
-#### Solution
-By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed and the system menu is at Wii menu version 2.0 or later, follow [str2hax](str2hax). Otherwise, see [Bluebomb](bluebomb).
+#### Megoldás
+Tartsd nyomva a + és - gombokat az egészségügyi figyelmeztetések képernyőjén a karbantartási módba való belépéshez, ahol a Wii Üzenőfalat nem tölti be a rendszer! Ha a Homebrew Channel nincs telepítve és a rendszermenü legalább 2.0-s verziószámú, akkor ld. [str2hax](str2hax). Egyéb esetben ld. [Bluebomb](bluebomb).
 
-From here, the Homebrew Channel can be loaded and the brick can be fixed by deleting Wii Message Board data with [cdbackup](https://oscwii.org/library/app/cdbackup).
+Ezután nyisd meg a Homebrew Channelt és a [cdbackup](https://oscwii.org/library/app/cdbackup) segítségével töröld ki a Wii Üzenőfal adatait!
 
 ## Wii menü- / Operarontás
 
 #### Tünetek
-When starting the Wii, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` This will happen every time you start the Wii, and cannot be bypassed by any other means.
+A Wii indításakor egy Opera-internetböngészőben megjelenített hibaüzenetet látsz, ami valahogy így néz ki: „`You tried to access the address (URL), which is currently unavailable`” („A megadott webcím jelenleg nem elérhető”). Ez a Wii minden indításakor megjelenik és nem lehet átlépni.
 
 #### Ok
-This brick is a more fatal version of a [Semibrick](#semibrick). If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
+Ez a [részleges rontás](#semibrick) rosszabbik verziója. Ha s SYSCONF (rendszerkonfigurációs) fájl megsérül, akkor a Wii törli és újra létrehozza azt, majd elindítja az első beállítási folyamatot.
 
-However, the setup pages are in a similar location to the Wii settings pages. If you have an incorrect region Wii Menu or theme, the Wii cannot find them.
+Viszont ez a fájl a Wii-beállítások oldalaihoz hasonló helyen van tárolva. Ha a régiódnak nem megfelelő Wii menü vagy téma van telepítve, akkor a rendszer nem fogja megtalálni.
 
 ![](/images/bricks/sysmenu-brick.png)
 
 #### Megoldás
 
-If you still have [Priiloader](priiloader), use it to enter the Homebrew Channel and re-install the original theme file/original Wii Menu.
+Ha hozzáférsz a [Priiloaderhez](priiloader), indítsd el rajta keresztül a Homebrew Channelt és telepítsd újra az eredeti témát vagy Wii menüt!
 
-In case you do not have Priiloader or your Wii is not modded, you can try [BlueBomb](bluebomb).
+Ha nem férsz hozzá a Priiloaderhez vagy a Wiid nincs modolva, akkor próbáld meg a [BlueBomb](bluebomb)-módszert!
 
-Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
+Egyéb esetben [karbantartási módban](recovery-mode) is megkísérelheted a megjavítást.
 
 ## KoreanKii / 003-as hibás rontás
 
 #### Tünetek
-Screen shows up as listed below on normal boot.
+Az alábbi hibaüzenet fogad a rendszer indításakor:
 
-`Error:003`<br> `unauthorized device has been detected.`<br>
+`Error:003`<br> `unauthorized device has been detected.` („A rendszer egy nem engedélyezett készüléket érzékelt.”)<br>
 
 ![](/images/bricks/error-003.png)
 
 #### Ok
-When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. If this check succeeds, the error triggers and the Wii is effectively bricked.
+A később megjelent koreai Wiik forgalmazásánál a Nintendo megváltoztatta a rendszer titkosítási kulcsát a nemhivatalos programok futtatásának kiküszöbölése érdekében. Ugyan ez nem sikerült, de később, a rendszermenü 4.2/4.3-as verziójának megjelenésekor beleprogramoztak egy funkciót, ami ellenőrzi, hogy a **nem**-koreai gépeken megjelenik-e a koreai titkosítási kulcs. Ha igen, akkor a konzol ezt a hibát jeleníti meg és gyakorlatilag használhatatlanná válik.
 
-This is usually an immediate follow-up to a Wii System Update on an unsuspecting region-changed Korean Wii.
+Ez általában rögtön azután következik be, amikor egy régióváltott koreai Wiin frissítik a rendszert.
 
 #### Megoldás
-Since this brick most often occurs after the Wii Menu updates, Priiloader will not be present. In the case that Priiloader is present, you can simply fix it by either installing the previous Wii System Menu or removing the key with the KoreanKii homebrew app.
+Mivel ez a rontás leggyakrabban a rendszermenü frissítése után jelenik meg, ilyenkor a Priiloader nincs telepítve. Ha mégis úgy jelent volna meg a probléma, hogy a Priiloader hozzáférhető, akkor egyszerű megjavítani az előző rendszermenü újratelepítésével vagy a KoreanKii megnyitásával és a koreai kulcs törlésével.
 
-Korean Wiis also released with Wii Menu 3.3, around the time that Nintendo [fixed the Trucha bug in boot1](https://wiibrew.org/wiki/3.3#Changes), so BootMii as Boot2 cannot be installed to or used on any Korean Wii.
+A koreai Wiik eredetileg a Wii menü 3.3-as verziójával jelentek meg, ami ugyanaz a kiadás volt, ahol a Nintendo [kijavította a boot1 „Trucha”-hibáját](https://wiibrew.org/wiki/3.3#Changes), ezért a BootMii boot2 alatt egy koreai Wiin sem telepíthető.
 
-While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. This involves going into [Recovery Mode](recovery-mode), where an exploit can be triggered in order to gain access to the Homebrew Channel and revert the conditions that caused the brick. Note that you must have a drivechip in order for this method to work.
+Ugyan ez az állípot különösen kiszolgáltatottan hagyja a konzolt, **még javítható**. Ehhez [karbantartási módba](recovery-mode) kell lépned, ahol egy program futtatásával hozzáférhetsz a Homebrew Channelhez és visszafordíthatod az elromlást. Megjegyzés: Ehhez a módszerhez egy lemezolvasó-chippel kell rendelkezned.
 
 ## IOS-rontás
 
