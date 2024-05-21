@@ -78,38 +78,38 @@ Nyisd meg az AnyRegion Changert és ellenőrizd, hogy a konzolod régiója ugyan
 
 Ha a hibát egy téma okozta, használd a csm-installer-programot az eredeti téma visszaállításához!
 
-If this was caused by a Wii Menu WAD you installed, use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to re-obtain your original Wii Menu.
+Ha a hibát egy telepített Wii menü WAD okozta, töltsd le és telepítsd az eredeti Wii menüt az [NUS Downloader](https://wiibrew.org/wiki/NUSD) segítségével!
 
-Be cautious when downloading the Wii Menu WAD. Make sure to pick the same version with the corrected region.
+A Wii menü letöltésekor légy óvatos! Ellenőrizd, hogy a konzolodnak megfelelő verziót töltötted le!
 {: .notice--danger}
 
-If you are actually in the process of a region change, use [ARC-ME](https://github.com/modmii/Any-Region-Changer-ModMii-Edition/releases) to automatically fix all your region settings to match your Wii Menu.
+Ha éppen egy szándékos régióváltás közepén vagy, akkor futtasd le az [ARC-ME](https://github.com/modmii/Any-Region-Changer-ModMii-Edition/releases)-programot, ami automatikusan a Wii menünek megfelelő régióbeállításokat fogja alkalmazni!
 
 ## Bannerrontás
 
 #### Tünetek
-Attempt to start the Wii - warning/press A screen shows up, and when A is pressed, the screen passes normally; however, beyond this point, nothing happens and the Wii remains on a black screen. This happened after installing a WAD and rebooting, or returning to the Wii Menu. Alternatively, the Wii Menu can still be accessed, but opening the corrupt channel results in the console freezing. In some cases, you may see the "System files are corrupted" screen.
+A Wii bekapcsolásakor megejelennek az egészségügyi figyelmeztetések, majd amikor megnyomod az A-gombot, a képernyő elsötétül és nem történik semmi. Ez egy WAD telepítése után történt, amit követően visszatértél a Wii menübe vagy újraindítottad a konzolt. Az is lehetséges, hogy a Wii menü még hozzáférhető, de a sérült csatorna megnyitásakor a konzol lefagy. Bizonyos esetekben a konzol „System files are corrupted” („A rendszerfájlok sérültek”)-üzenetet mutat.
 
 ![](/images/bricks/sysfiles-corrupted.jpg)
 
 #### Ok
-Banner bricks occur if you install a WAD file that has an invalid Wii Menu banner or icon.
+A bannerrontás akkor következik be, ha egy olyan WAD-fájlt telepítettél, aminek érvénytelen Wii menüs ikonja vagy bannerje van.
 
 #### Megoldás
-If you are somehow able to still access the Wii Menu, go into the Homebrew Channel and use [YAWM ModMii Edition](yawmme) or your current WAD manager to uninstall the corrupt channel.
+Ha még képes vagy hozzáférni a Wii menühöz, nyisd meg a Homebrew Channelt és az [YAWM ModMii Edition](yawmme) segítségével vagy a jelenlegi WAD-kezelőddel távolítsd el a sérült csatornát!
 
-If you cannot access the Wii Menu, and have [Priiloader](priiloader) installed, enter it by holding RESET while turning your Wii on. Select Homebrew Channel, then uninstall the corrupt channel.
+Ha nem vagy képes hozzáférni a Wii menühöz, de telepítve van a konzolodra a <0>Priiloader</0>, akkor a konzol bekapcsolása közben tartsd nyomva a RESET-gombot a megnyitásához! Onnan nyisd meg a Homebrew Channelt és távolítsd el a sérült csatornát!
 
-If you don't have or can't access Priiloader, Maintenance mode may be worth a try. Hold down `+` and `-` on the Health and Safety screen (do not press `A`!).
+Ha nem férsz hozzá a Priiloaderhez, egy próbát megérhet a karbantartási mód. A módba való belépéshez az egészségügyi figyelmeztetések megjelenése közben tartsd nyomva a `+` és `-` gombokat (az `A` megnyomása nélkül)!
 
 ## Témarontás
 
 #### Tünetek
 
-Attempt to start the Wii - warning/press A screen shows up, and when A is pressed, the screen passes normally; however, beyond this point, nothing happens and the Wii remains on a black screen. This happened after installing a theme.
+A Wii bekapcsolásakor megejelennek az egészségügyi figyelmeztetések, majd amikor megnyomod az A-gombot, a képernyő elsötétül és nem történik semmi. Ez egy téma telepítése után történt.
 
 #### Ok
-A theme brick occurs when a wrongly formatted theme is installed.
+A témarontás akkor következik be, ha a telepített téma rossz formátummal rendelkezik.
 
 #### Megoldás
 To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
@@ -117,7 +117,7 @@ To resolve this issue, open HBC through Priiloader or BootMii as boot2 and acces
 ## Üzenetrontás
 
 #### Tünetek
-Attempt to start the Wii - warning/press A screen shows up, and when A is pressed, the screen passes normally; however, beyond this point, nothing happens and the Wii remains on a black screen. Maintenance mode is still accessible.
+A Wii bekapcsolásakor megejelennek az egészségügyi figyelmeztetések, majd amikor megnyomod az A-gombot, a képernyő elsötétül és nem történik semmi. Maintenance mode is still accessible.
 
 #### Ok
 A mail brick occurs when a Wii has too much mail to handle, or when malformed mail is in the Wii Message Board, causing a crash upon booting through normal means. Because the Wii Message Board is always drawn below Wii channels, this causes the Wii Menu to fail before fully loading.
