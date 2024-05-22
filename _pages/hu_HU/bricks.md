@@ -171,17 +171,17 @@ Ugyan ez az állípot különösen kiszolgáltatottan hagyja a konzolt, **még j
 ## IOS-rontás
 
 #### Tünetek
-This brick will appear identical to a low-level brick due to a Wii Menu failure via IOS; however there is not a full low-level NAND corruption, or a low-level hardware failure.
+Ez a rontás ugyanolyan tünetekkel rendelkezik, mint az alapszintű elromlás a Wii menü IOS-es elromlása miatt, viszont nem egy alapszintű belső tárhelyes- vagy hardveres sérülés okozza.
 
 #### Ok
-This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. A stubbed system menu IOS is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
+Az IOS-rontás akkor következik be, amikor a Wii menü IOS-e [csonk](http://wiibrew.org/wiki/Stub_IOS), vagy ha rossz típusú IOS-t telepítettek a konzolra. Egy megcsonkolt rendszermenü ISO általában akkor jelenik meg, ha a Wii menü korábbi verzióját próbálod visszatelepíteni. Ha ez a probléma egy sima IOS80 Wii minis telepítése után lépett fel, ld. [Wi-Fi-rontás](bricks#wi-fi-brick).
 
 #### Megoldás
-[Recovery mode](recovery-mode) may or may not be accessible due to the nature of the brick, but Priiloader will almost always not work. If you cannot reach recovery mode, you must have BootMii as boot2 to fix this. If these conditions are not met, see [low-level brick](bricks#low-level-brick).
+A [karbantartási mód](recovery-mode) az elromlás természete miatt vagy hozzáférhető vagy nem, de a Priiloader általában mindig elérhető. Ha a karbantartási mód nem hozzáférhető, akkor a megjavításhoz boot2 alá telepített BootMiire van szükséged. Ha a fenti lehetőségek egyike sem elérhető a számodra, ld. [Alapszintű elromlás](bricks#low-level-brick).
 
-You can either restore a NAND backup, or do this:
+Tölts vissza egy biztonsági mentést vagy kövesd az alábbi lépéseket:
 
-1. Use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to pack a WAD of your original Wii Menu.
+1. Az [NUS Downloader](https://wiibrew.org/wiki/NUSD) segítségével tömörítsd az eredeti Wii menüdet egy WAD-fájlba!
 1. Use BootMii to enter the Homebrew Channel, and use a WAD manager to install the Wii Menu WAD.
 
 For vWii, See [Recover a vWii IOS/Channel](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels)
