@@ -33,7 +33,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 + https://gbatemp.net/download/categories/other-files.166/
 + [Wii Themer](http://www.wiithemer.org/) (Wii only, online theme builder for specific versions and regions, ready to install .csm themes)
 
-#### Requirements
+#### Gereksinimler
 
 ##### Wii
 
@@ -120,7 +120,7 @@ If you can't find the .app file, it's possible you have downloaded the wrong ver
 
 Unfortunately, because of the codebase difference between the original WiiFlow and the newer WiiFlow Lite, themes are sparse - in fact, only one theme could be found that confidently works on the newer version. The instructions for installing that theme are below.
 
-#### Requirements
+#### Gereksinimler
 
 * Wii Theme Team Creations v2
 * Extract MyMenuifyMod.zip to your SD card or USB drive.
@@ -137,7 +137,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 ### USB Loader GX Theming
 
-#### Requirements
+#### Gereksinimler
 
 * A Wii
 * Google Drive Repository
@@ -155,7 +155,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 ### Homebrew Channel Theming
 
-#### Requirements
+#### Gereksinimler
 
 * Wii Themer
 * An SD card or USB drive
@@ -190,5 +190,5 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 App forwarders can add a bit of extra flair to your Wii Menu - but be careful with them as bad forwarders can cause a [banner brick](bricks#banner-brick). Generally, you can find forwarders on places like [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) for popular apps such as emulators. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme).
 
 
-[Click here to go back to the site index.](site-navigation)
+[Site dizinine geri dönmek için burayı tıklayın.](site-navigation)
 {: .notice--info}
