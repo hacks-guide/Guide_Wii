@@ -16,7 +16,7 @@ If you have a Wii or a Wii mini with an SD card slot soldered, follow [this tuto
 There is no way to restore your NAND backup this way without a hardmod.
 {: .notice--info}
 
-### Requirements
+### Gereksinimler
 
 * A Wii
 * A USB drive
@@ -82,5 +82,5 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 Continue to [Open Shop Channel Installation](osc) Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Site dizinine geri dönmek için burayı tıklayın.](site-navigation)
 {: .notice--info}
