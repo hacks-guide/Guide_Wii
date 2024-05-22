@@ -8,7 +8,7 @@ Priiloader adds a level of brick protection to your Wii. It loads before the Wii
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
-### Requirements
+### Gereksinimler
 
 * An SD card or USB drive
 * Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
