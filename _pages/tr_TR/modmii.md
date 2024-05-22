@@ -68,7 +68,7 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ### Installing ModMii
 
-#### Requirements
+#### Gereksinimler
 
 * A Wii
 * A USB drive or SD Card
@@ -189,5 +189,5 @@ The HackMii Solutions Wizard is a tool that fixes problems that may arise from t
 
     ![](/images/modmii/hackmii-wizard-5.png)
 
-[Click here to go back to the site index.](site-navigation)
+[Site dizinine geri dönmek için burayı tıklayın.](site-navigation)
 {: .notice--info}
