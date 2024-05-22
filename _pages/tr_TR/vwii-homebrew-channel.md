@@ -14,7 +14,7 @@ If you have hacked your Wii U in the past, you can use the same SD Card for this
 If you haven't already, make sure you did a [nand backup](https://wiiu.hacks.guide/#/aroma/nand-backup) and have the [Aroma Enviorment](https://aroma.foryour.cafe/) installed on your Wii U. Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
 {: .notice--info}
 
-### Requirements
+### Gereksinimler
 
 - A modded Wii U
 - The [Aroma Enviorment](https://aroma.foryour.cafe/)
