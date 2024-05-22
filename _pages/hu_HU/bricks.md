@@ -182,43 +182,43 @@ A [karbantartási mód](recovery-mode) az elromlás természete miatt vagy hozz�
 Tölts vissza egy biztonsági mentést vagy kövesd az alábbi lépéseket:
 
 1. Az [NUS Downloader](https://wiibrew.org/wiki/NUSD) segítségével tömörítsd az eredeti Wii menüdet egy WAD-fájlba!
-1. Use BootMii to enter the Homebrew Channel, and use a WAD manager to install the Wii Menu WAD.
+1. A BootMii segítségével nyisd meg a Homebrew Channelt és egy WAD-kezelővel telepítsd újra a Wii menü WAD-ot!
 
-For vWii, See [Recover a vWii IOS/Channel](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels)
+Ha vWiivel dolgozol, ld. [a kapcsolódó szócikket a Wii U hackelési segédletben](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels).
 
 ## Wi-Fi-rontás
 
 #### Tünetek
-This brick appears identical to a low-level brick, however you can still power on the Wii with a Wiimote, and you can still boot into Recovery Mode on an original revision Wii.
+Ez a rontás ugyanolyan tünetekkel rendelkezik, mint az alapszintű elromlás, de még be tudod kapcsolni a Wiit egy Wii Remote-tal és egy eredeti kiadású Wiin még hozzáférhető a karbantartási mód.
 
 #### Ok
-This brick arises when your Wii's Wi-Fi (or Bluetooth) module is damaged or not inserted properly. In such cases, the Wii gets stuck on a black screen while awaiting a response from IOS.
+A Wi-Fi-rontás akkor következik be, ha a Wii Wi-Fi- (vagy Bluetooth) modulja sérült vagy nincs jól csatlakoztatva. Emiatt a konzol megtorpan egy fekete képernyőn, amíg az IOS-es válaszra vár.
 
-This will also happen on the Wii mini if you install a normal Wii IOS, because the Wii mini doesn't have a Wi-Fi module.
+Továbbá, ez egy Wii minin akkor is megtörténhet, ha egy sima Wii-re tervezett IOS-t telepítesz, mivel a Wii mini nem rendelkezik Wi-Fi-modullal.
 
 #### Megoldás
-To resolve this problem, you can try to reseat or replace the Wi-Fi/Bluetooth module.
+Próbáld megigazítani vagy kicserélni a Wi-Fi/Bluetooth modult a konzolban!
 
-If you are on a Wii mini, you must install a Wi-Fi module.
+Ha Wii minivel dolgozol, akkor be kell szerelned egy Wi-Fi-modult.
 
-If both fail, see [low-level brick](bricks#low-level-brick).
+Ha ez nem sikerül, ld. [Alapszintű elromlás](bricks#low-level-brick).
 
 ## Alapszintű elromlás
 
 #### Tünetek
-Completely black screen, no response to user input. Recovery Mode cannot be booted, neither can BootMii as boot2 (or it never existed in the first place), for all intents and purposes the console appears dead.
+A konzol nem válaszol és nem mutat képet. A karbantartási mód hozzáférhetetlen. A boot2 alá telepített BootMii hozzáférhetetlen (feltéve, hogy telepítve van). A konzol teljesen halottnak tűnik.
 
 #### Ok
-This brick occurs when boot1/boot2 is corrupt, or if there is a hardware failure.
+Az alapszintű elromlás akkor következik be, ha a rendszer boot1/boot2 része sérült, vagy hardveres hiba történt.
 
 #### Megoldás
-First, troubleshooting must be done to determine if hardware is at fault. In the order listed, do the following:
+Először is, meg kell állapítanod, hogy hardveres hiba okozza-e a problémát! Sorban ellenőrizd az alábbiakat:
 
-+ Test to make sure that your Wii actually still functions (it accepts discs as normal, spins up correctly, Wiimotes connect) before attempting the following steps. If this is the case and only video is not being displayed, you may have a bad video cable, or an exceptionally rare failure of the video port or the GPU.
-+ If on a Wii mini, and if a normal IOS80 was installed, see [Wi-Fi brick](bricks#wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
-+ Attempt to boot into [Recovery Mode](recovery-mode) (normal Wiis only). If the Wii boots into Recovery Mode, see [Wi-Fi brick](bricks#wi-fi-brick) or [IOS brick](bricks#ios-brick). If steps to resolve the Wi-Fi brick or IOS brick failed, proceed.
-+ Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
-+ At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.
++ Először is, bizonyosodj meg róla, hogy a konzol működik-e még: Befogad egy lemezt? A lemez felpörög? A Wii Remote-ok csatlakoznak? Ha igen, akkor ez azt jelenti, hogy a képi jel nem éri el a kijelzőt. Ebben az esetben lehetséges, hogy rossz a videókábeled, vagy egy nagyon ritka probléma kelezkezett a Wii videócsatlakozójával vagy a videókártyájával.
++ Ha Wii minivel dolgozol és egy sima Wiihez készült IOS80-at telepítettél, ld. [Wi-Fi-rontás](bricks#wi-fi-brick). Ha ezt már megpróbáltad és a probléma továbbra is fennáll, folytasd a következő ellenőrzéssel!
++ (Sima Wii esetén) próbálj [karbantartási módba](recovery-mode) lépni! Ha ez sikerült, ld. [Wi-Fi-rontás](bricks#wi-fi-brick) és [IOS-rontás](bricks#ios-brick). Ha ezt már megpróbáltad és a probléma továbbra is fennáll, folytasd a következő ellenőrzéssel!
++ Húzd ki és dugd vissza a lemezolvasót, majd próbáld a bekapcsolni a konzolt! Ha ez nem sikerült, cseréld ki a lemezolvasót! Ha a probléma továbbra is fennáll, olvass tovább!
++ Ha idáig eljutottál, akkor vagy egy alapszintű boot0/boot1-sérülésről, a belső tárhely hibájáról, vagy egy ismeretlen hardverhibáról van szó. Próbálj internetes segítséget kérni vagy fontold meg egy új Wii megvásárlását!
 
 [Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
 {: .notice--info}
