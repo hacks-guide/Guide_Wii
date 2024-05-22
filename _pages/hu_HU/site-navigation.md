@@ -46,7 +46,7 @@ sitemap: false
 + [Relaunching the HackMii Installer](hackmii)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Updating Wii Menu to v4.3](update)
-+ [Recovery Mode](recovery-mode)
++ [Karbantartási mód](recovery-mode)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
