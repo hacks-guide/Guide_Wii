@@ -11,7 +11,7 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 
 ### Wilbrand Web (Recommended)
 
-#### Requirements
+#### Gereksinimler
 
 * An SD card formatted to FAT32/MS-DOS that is 32GB or less
 * A Wii on at least version 3.0
@@ -62,7 +62,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 ### Wilbrand CLI
 
-#### Requirements
+#### Gereksinimler
 
 * A PC running Windows, MacOS or Linux
 * An SD card formatted to FAT32/MS-DOS
