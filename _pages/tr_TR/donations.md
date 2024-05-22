@@ -12,5 +12,5 @@ title: "Bağışlar"
 {: .text-center}
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Site dizinine geri dönmek için burayı tıklayın.](site-navigation)
 {: .notice--info}
