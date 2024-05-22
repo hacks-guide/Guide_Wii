@@ -1,12 +1,12 @@
 ---
-title: "Recovery Mode"
+title: "Karbantartási mód"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
 Recovery Mode is a last resort method for recovering your Wii console from a brick before resorting to hard-modding and manual NAND programming. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc.
 
-### How Recovery Mode Works
+### A karbantartási mód működése
 
 On System Menu versions 2.1 and upwards, booting into Recovery Mode will yield a verison number display on the bottom right of the screen, and will idle on the screen while waiting for a disc to be inserted. By default, Recovery Mode only boots two types of discs:
 
@@ -19,7 +19,7 @@ This check can be bypassed using Priiloader, which allows Recovery Mode to boot 
 
 #### Követelmények
 
-+ Egy GameCube controller
++ Egy GameCube-vezérlő
 + If the Diagnostic Disc Check was previously removed with Priiloader, or if a drive chip is on hand:
     + Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OR
     + Any other exploited Wii game, with the current exploit game save on the console (see [Legacy Exploits](legacy-exploits)) OR
