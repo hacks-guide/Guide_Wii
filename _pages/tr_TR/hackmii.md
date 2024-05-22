@@ -11,7 +11,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ### Relaunching via the Homebrew Channel
 
-#### Requirements
+#### Gereksinimler
 
 * The Homebrew Channel
 * An SD card or USB drive formatted to FAT32/MS-DOS
@@ -30,7 +30,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ### Relaunching via Priiloader
 
-#### Requirements
+#### Gereksinimler
 * a Wii with Priiloader (or Preloader) installed
 * An SD card or USB drive formatted to FAT32/MS-DOS
 * [HackMii Installer v1.2](https://bootmii.org/download/)
