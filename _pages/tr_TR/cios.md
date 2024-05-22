@@ -18,7 +18,7 @@ This guide is only intended for Wii users. If you have a Wii mini, follow [this 
 Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely brick your console.
 {: .notice--warning}
 
-### Requirements
+### Gereksinimler
 
 * A Wii
 * An SD card or USB drive
