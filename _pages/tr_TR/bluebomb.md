@@ -1,32 +1,32 @@
 ---
-title: "Credits"
+title: "BlueBomb"
 ---
 
 {% include toc title="Table of Contents" %}
 
-Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well. {% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries.
+{% capture technical_info %}
+<summary><em>Teknik Detaylar (isteğe bağlı)</em></summary>
+BlueBomb, Wii ve Wii mini'nin Bluetooth kitaplıklarındaki bir kusurdan yararlanan bir exploit'tir. Her ne kadar Wii mini'de işe yarayan tek exploit olsa da BlueBomb orijinal Wii'de de çalışabilir.
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+Bu exploit aynı zamanda banner brick'leri ve (bazı) tema brick'leri gibi belirli brick'lerden kurtarmayı da mümkün kılar.
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+Wii mini konsolunuzu hack'lemek için **herhangi bir** video rehberini kullanmamanız **şiddetle** tavsiye edilir, çünkü onu **brick moduna sokma** şansı çok yüksektir.
 {: .notice--warning}
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Bu eğitimle ilgili herhangi bir konuda yardıma ihtiyacınız olursa lütfen [Wii mini Hacking Discord sunucusuna](https://discord.gg/6ryxnkS) katılın (önerilir)
 {: .notice--info}
 
-For the original Wii, we do not recommend using BlueBomb if you intend to install the Homebrew Channel and BootMii, as there are more convenient exploits available. Exceptions however, exist in circumstances like brick recovery.
+Wii'nin orijinal revizyonunu kullanıyorsanız, HackMii yükleyicisine ulaşmanın çok daha kolay yolları olduğundan muhtemelen [kullanılacak başka bir exploit](get-started) bulmalısınız. Ancak brick recovery gibi durumlarda istisnalar mevcuttur.
 {: .notice--info}
 
-Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+Konsolun, exploit'i çalıştıran bilgisayara yakın olduğundan emin olun; ideal olarak 3 metreden kısa olmalıdır.
 {: .notice--info}
 
-### Requirements
+### Gereksinimler
 
 * A Linux machine
     * A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
