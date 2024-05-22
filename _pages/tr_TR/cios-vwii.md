@@ -20,7 +20,7 @@ This guide is only intended for Wii U (vWii) users. If you have a Wii, follow [t
 Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing so will likely [brick](bricks#ios-brick) your console.
 {: .notice--warning}
 
-### Requirements
+### Gereksinimler
 
 - A Wii U with the Homebrew channel installed on the vWii
 - An SD card
