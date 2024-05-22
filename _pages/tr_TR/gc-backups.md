@@ -6,7 +6,7 @@ title: "Managing GameCube Backups"
 
 This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
 
-### Requirements
+### Gereksinimler
 
 * An SD card or USB drive
 * [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
@@ -45,5 +45,5 @@ Make sure your USB drive is formatted as FAT32. Do not format it as other types 
 Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size. For some games this can be a major reduction, for example with Animal Crossing - going from 1.3GB to around 26MB.
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Site dizinine geri dönmek için burayı tıklayın.](site-navigation)
 {: .notice--info}
