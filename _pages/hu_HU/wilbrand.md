@@ -57,7 +57,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
     + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started).
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 {: .notice--info}
 
 ### Wilbrand CLI
@@ -118,5 +118,5 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 {: .notice--info}
