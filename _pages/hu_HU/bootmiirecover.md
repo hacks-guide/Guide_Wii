@@ -9,7 +9,7 @@ This guide will provide instructions on how to restore a backup of your NAND wit
 Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell megnyitnod azt. Ha ez a követelmény teljesül, akkor kihagyhatod az 1. és 2. lépést.
 {: .notice--info}
 
-If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 {: .notice--warning}
 
 Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
@@ -41,7 +41,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 ### Útmutató
 
 1. Indítsd el a Homebrew Channelt!
-1. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” („BootMii indítása”)-menüpontot!
+1. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” („A BootMii indítása”)-menüpontot!
     + If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
 
     ![](/images/bootmii/BootMii_HBC.png)
