@@ -1,39 +1,39 @@
 ---
-title: "Karbantartási mód"
+title: "Helyreállítási mód"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
-A karbantartási mód egy Wii megmentésének a végső eseti módja hardveres módosításon vagy belsőmemória-programozáson kívül. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc.
+A helyreállítási mód egy Wii megmentésének a végső eseti módja hardveres módosításon vagy belsőmemória-programozáson kívül. Ezt a módot a konzol gyárában használták egy különleges hardverkulccsal, de a hozzáféréshez szükséges gombkombináció egy GameCube-vezérlőn is elvégezhető. A helyreállítási mód olyan helyzetbe állítja a Wii menüt, amelyben lemezről lehet programokat futtatni.
 
 ### A karbantartási mód működése
 
-On System Menu versions 2.1 and upwards, booting into Recovery Mode will yield a verison number display on the bottom right of the screen, and will idle on the screen while waiting for a disc to be inserted. By default, Recovery Mode only boots two types of discs:
+A rendszermenü 2.1-es és afölötti verzióin a helyreállítási mód kiírja a menü verziószámát a jobb alsó sarokban és egy lemez behelyezésére vár. A helyreállítási mód alapértelmezésből csak kétféle lemezt tud futtatni:
 
-+ A disc whose title ID starts with a number like 0 or 1 - an autoboot disc. All retail game discs are **not** an autoboot disc and instead start with a letter.
-+ A retail game disc that has a valid update partition whose version is higher than the one on the NAND.
++ egy ún. autoboot („automatikus indítási”) lemezt, aminek a termékazonosítója 0-val vagy 1-gyel kezdődik (a boltokban árult lemezek **egyike sem** autoboot lemez, mert mindegyiknek egy betűjellel kezdődik a termékazonosítója);
++ vagy egy boltban vásárolt játéklemez, amely érvényes frissítési partícióval rendelkezik és a konzol verziójánál frissebbet tartalmaz.
 
-This check can be bypassed using Priiloader, which allows Recovery Mode to boot any disc that is inserted into the Wii. Unfortunately, if you can already access Priiloader, then there is no need to use Recovery Mode in the first place as you can fix your brick by booting homebrew apps in it. With this said, if you are in a situation where the only accessible option is using Recovery Mode, you must have a drivechip on hand to bypass the disc check. If are able to bypass this check one way or another, you may follow the instructions below to start from Recovery Mode and get to the HackMii installer.
+Ezt a korlátozást a Priiloaderrel ki lehet kerülni, ami lehetővé teszi bármilyen lemez futtatását helyreállítási módból. Viszont sajnos, ha már amúgy is hozzáférnél a Priiloaderhez, akkor nem lenne okod a helyreállítási módot használni, ugyanis a Priiloaderből elindítható a Homebrew Channel, amivel megkezdhető a javítási folyamat. Ha olyan helyzetben vagy, hogy már csak a helyreállítási mód segíthet, akkor egy lemezolvasó-chippel is rendelkezned kell a lemezkorlátozás kikerüléséhez. Ha bármilyen módon képes voltál kikerülni a korlátozást, akkor folytathatod az olvasást, hogy eljuss a HackMii-telepítőhöz.
 
-### Accessing and Using Recovery Mode
+### A helyreállítási mód indítása és használata
 
 #### Követelmények
 
 + Egy GameCube-vezérlő
-+ If the Diagnostic Disc Check was previously removed with Priiloader, or if a drive chip is on hand:
-    + Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OR
-    + Any other exploited Wii game, with the current exploit game save on the console (see [Legacy Exploits](legacy-exploits)) OR
-    + Any retail game, and access to the [Bluebomb](bluebomb) exploit
-+ An original revision Wii (Family Edition Wiis will not work due to the lack of GameCube ports - otherwise you must solder some on)
-+ A Windows/macOS/Linux PC with an Internet connection
-+ An SD Card formatted to FAT32
++ Ha a lemezkorlátozást korábban eltávolítottad Priiloaderrel vagy ha van kéznél lemezolvasó-chiped:
+    + Egy Super Smash Bros. Brawl-lemez ([Smash Stack](legacy-exploits#smash-stack)) VAGY
+    + bármely más módszerhez kapcsolódó Wii-játék, aminek a sérültségét kihasználó játékmentés a konzolon van (ld. [Örökölt módszerek](legacy-exploits)) VAGY
+    + bármely más játék és hozzáférés a [Bluebombhoz](bluebomb).
++ Egy eredeti kiadású Wii (a Family Edition-konzolok nem megfelelők, mert nem rendelkeznek GameCube-csatlakozókkal – hacsak nem hegeszted fel őket)
++ Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
++ Egy FAT32-re formázott SD kártya
 
-#### Preparation
+#### Előkészítés
 
-In order to hold down all 4 individual D-Pad buttons on a GameCube controller, you may be required to take the casing apart.
+Megjegyzés: Lehetséges, hogy szét kell szerelned a GameCube-vezérlőt, hogy mind a négy nyílgombot egyszerre lenyomhasd.
 {: .notice--warning}
 
-First of all, verify that your Wii can boot into Recovery Mode *at all*. This involves taking a GameCube controller, plugging it into the fourth controller port on a Wii, and simultaneously holding down the 4 individual D-Pad buttons on boot. If everything goes right, you should see a screen similar to the above. As stated above, if you are on a System Menu version on 2.0 or prior, you will not see a version number display at all and you will not be able to boot from discs.
+Először is, ellenőrizzük, hogy a Wiid képes-e egyáltalán helyreállítási módba lépni! This involves taking a GameCube controller, plugging it into the fourth controller port on a Wii, and simultaneously holding down the 4 individual D-Pad buttons on boot. If everything goes right, you should see a screen similar to the above. As stated above, if you are on a System Menu version on 2.0 or prior, you will not see a version number display at all and you will not be able to boot from discs.
 
 #### Method I - Recovery Menu to Smash Stack
 
