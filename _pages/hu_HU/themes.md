@@ -39,7 +39,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 * A modded Wii
 * An SD card or USB device
-* A Windows/macOS/Linux PC with an Internet connection
+* Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 * [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
@@ -47,7 +47,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 * A modded vWii
 * An SD card or USB device
-* A Windows/macOS/Linux PC with an Internet connection
+* Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 * [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 * [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
