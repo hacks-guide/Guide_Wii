@@ -56,8 +56,8 @@ Ez a rész a lehetséges elrontások diagnózisában segít és súlyosság szer
 + A Wii elindul, de RÖGTÖN egy olyan hibát látsz, ami látszólag az Opera-internetböngészőre hasonlít: ld. [Wii menü- / Operarontás](bricks#wii-menuopera-brick).
 + 003-as hibát látsz: ld. [KoreanKii / 003-as hibás rontás](bricks#error-003-brick).
 + Semmi sem történik, fekete a képernyő, DE a boot2 alá telepített BootMii hozzáférhető: ld. [IOS-rontás](bricks#ios-brick).
-+ Semmi sem történik, fekete a képernyő, DE a Wii bekapcsolható egy Wii Remote-tal és a karbantartási mód hozzáférhető: ld. [Wi-Fi-rontás](bricks#wi-fi-brick).
-+ Semmi sem történik, fekete a képernyő. A Wii nem kapcsolható be egy Wii Remote-tal, és a karbantartási mód és a boot2 alá telepített BootMii nem hozzáférhető: ld. [Alapszintű elromlás](bricks#low-level-brick).
++ Semmi sem történik, fekete a képernyő, DE a Wii bekapcsolható egy Wii Remote-tal és a helyreállítási mód hozzáférhető: ld. [Wi-Fi-rontás](bricks#wi-fi-brick).
++ Semmi sem történik, fekete a képernyő. A Wii nem kapcsolható be egy Wii Remote-tal, és a helyreállítási mód és a boot2 alá telepített BootMii nem hozzáférhető: ld. [Alapszintű elromlás](bricks#low-level-brick).
 
 # Az elromlások típusai
 
@@ -145,7 +145,7 @@ Ha hozzáférsz a [Priiloaderhez](priiloader), indítsd el rajta keresztül a Ho
 
 Ha nem férsz hozzá a Priiloaderhez vagy a Wiid nincs modolva, akkor próbáld meg a [BlueBomb](bluebomb)-módszert!
 
-Egyéb esetben [karbantartási módban](recovery-mode) is megkísérelheted a megjavítást.
+Egyéb esetben [helyreállítási módban](recovery-mode) is megkísérelheted a megjavítást.
 
 ## KoreanKii / 003-as hibás rontás
 
@@ -166,7 +166,7 @@ Mivel ez a rontás leggyakrabban a rendszermenü frissítése után jelenik meg,
 
 A koreai Wiik eredetileg a Wii menü 3.3-as verziójával jelentek meg, ami ugyanaz a kiadás volt, ahol a Nintendo [kijavította a boot1 „Trucha”-hibáját](https://wiibrew.org/wiki/3.3#Changes), ezért a BootMii boot2 alatt egy koreai Wiin sem telepíthető.
 
-Ugyan ez az állípot különösen kiszolgáltatottan hagyja a konzolt, **még javítható**. Ehhez [karbantartási módba](recovery-mode) kell lépned, ahol egy program futtatásával hozzáférhetsz a Homebrew Channelhez és visszafordíthatod az elromlást. Megjegyzés: Ehhez a módszerhez egy lemezolvasó-chippel kell rendelkezned.
+Ugyan ez az állípot különösen kiszolgáltatottan hagyja a konzolt, **még javítható**. Ehhez [helyreállítási módba](recovery-mode) kell lépned, ahol egy program futtatásával hozzáférhetsz a Homebrew Channelhez és visszafordíthatod az elromlást. Megjegyzés: Ehhez a módszerhez egy lemezolvasó-chippel kell rendelkezned.
 
 ## IOS-rontás
 
@@ -177,7 +177,7 @@ Ez a rontás ugyanolyan tünetekkel rendelkezik, mint az alapszintű elromlás a
 Az IOS-rontás akkor következik be, amikor a Wii menü IOS-e [csonk](http://wiibrew.org/wiki/Stub_IOS), vagy ha rossz típusú IOS-t telepítettek a konzolra. Egy megcsonkolt rendszermenü ISO általában akkor jelenik meg, ha a Wii menü korábbi verzióját próbálod visszatelepíteni. Ha ez a probléma egy sima IOS80 Wii minis telepítése után lépett fel, ld. [Wi-Fi-rontás](bricks#wi-fi-brick).
 
 #### Megoldás
-A [karbantartási mód](recovery-mode) az elromlás természete miatt vagy hozzáférhető vagy nem, de a Priiloader általában mindig elérhető. Ha a karbantartási mód nem hozzáférhető, akkor a megjavításhoz boot2 alá telepített BootMiire van szükséged. Ha a fenti lehetőségek egyike sem elérhető a számodra, ld. [Alapszintű elromlás](bricks#low-level-brick).
+A [helyreállítási mód](recovery-mode) az elromlás természete miatt vagy hozzáférhető vagy nem, de a Priiloader általában mindig elérhető. Ha a helyreállítási mód nem hozzáférhető, akkor a megjavításhoz boot2 alá telepített BootMiire van szükséged. Ha a fenti lehetőségek egyike sem elérhető a számodra, ld. [Alapszintű elromlás](bricks#low-level-brick).
 
 Tölts vissza egy biztonsági mentést vagy kövesd az alábbi lépéseket:
 
@@ -189,7 +189,7 @@ Ha vWiivel dolgozol, ld. [a kapcsolódó szócikket a Wii U hackelési segédlet
 ## Wi-Fi-rontás
 
 #### Tünetek
-Ez a rontás ugyanolyan tünetekkel rendelkezik, mint az alapszintű elromlás, de még be tudod kapcsolni a Wiit egy Wii Remote-tal és egy eredeti kiadású Wiin még hozzáférhető a karbantartási mód.
+Ez a rontás ugyanolyan tünetekkel rendelkezik, mint az alapszintű elromlás, de még be tudod kapcsolni a Wiit egy Wii Remote-tal és egy eredeti kiadású Wiin még hozzáférhető a helyreállítási mód.
 
 #### Ok
 A Wi-Fi-rontás akkor következik be, ha a Wii Wi-Fi- (vagy Bluetooth) modulja sérült vagy nincs jól csatlakoztatva. Emiatt a konzol megtorpan egy fekete képernyőn, amíg az IOS-es válaszra vár.
@@ -206,7 +206,7 @@ Ha ez nem sikerül, ld. [Alapszintű elromlás](bricks#low-level-brick).
 ## Alapszintű elromlás
 
 #### Tünetek
-A konzol nem válaszol és nem mutat képet. A karbantartási mód hozzáférhetetlen. A boot2 alá telepített BootMii hozzáférhetetlen (feltéve, hogy telepítve van). A konzol teljesen halottnak tűnik.
+A konzol nem válaszol és nem mutat képet. A helyreállítási mód hozzáférhetetlen. A boot2 alá telepített BootMii hozzáférhetetlen (feltéve, hogy telepítve van). A konzol teljesen halottnak tűnik.
 
 #### Ok
 Az alapszintű elromlás akkor következik be, ha a rendszer boot1/boot2 része sérült, vagy hardveres hiba történt.
@@ -216,7 +216,7 @@ Először is, meg kell állapítanod, hogy hardveres hiba okozza-e a problémát
 
 + Először is, bizonyosodj meg róla, hogy a konzol működik-e még: Befogad egy lemezt? A lemez felpörög? A Wii Remote-ok csatlakoznak? Ha igen, akkor ez azt jelenti, hogy a képi jel nem éri el a kijelzőt. Ebben az esetben lehetséges, hogy rossz a videókábeled, vagy egy nagyon ritka probléma kelezkezett a Wii videócsatlakozójával vagy a videókártyájával.
 + Ha Wii minivel dolgozol és egy sima Wiihez készült IOS80-at telepítettél, ld. [Wi-Fi-rontás](bricks#wi-fi-brick). Ha ezt már megpróbáltad és a probléma továbbra is fennáll, folytasd a következő ellenőrzéssel!
-+ (Sima Wii esetén) próbálj [karbantartási módba](recovery-mode) lépni! Ha ez sikerült, ld. [Wi-Fi-rontás](bricks#wi-fi-brick) és [IOS-rontás](bricks#ios-brick). Ha ezt már megpróbáltad és a probléma továbbra is fennáll, folytasd a következő ellenőrzéssel!
++ (Sima Wii esetén) próbálj [helyreállítási módba](recovery-mode) lépni! Ha ez sikerült, ld. [Wi-Fi-rontás](bricks#wi-fi-brick) és [IOS-rontás](bricks#ios-brick). Ha ezt már megpróbáltad és a probléma továbbra is fennáll, folytasd a következő ellenőrzéssel!
 + Húzd ki és dugd vissza a lemezolvasót, majd próbáld a bekapcsolni a konzolt! Ha ez nem sikerült, cseréld ki a lemezolvasót! Ha a probléma továbbra is fennáll, olvass tovább!
 + Ha idáig eljutottál, akkor vagy egy alapszintű boot0/boot1-sérülésről, a belső tárhely hibájáról, vagy egy ismeretlen hardverhibáról van szó. Próbálj internetes segítséget kérni vagy fontold meg egy új Wii megvásárlását!
 
