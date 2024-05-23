@@ -6,7 +6,7 @@ title: "BootMii Recovery"
 
 This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
 
-If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell megnyitnod azt. Ha ez a követelmény teljesül, akkor kihagyhatod az 1. és 2. lépést.
 {: .notice--info}
 
 If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
@@ -40,8 +40,8 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ### Útmutató
 
-1. Indítsd el a Homebrew Channelt.
-1. Press the HOME Button, then select "Launch BootMii".
+1. Indítsd el a Homebrew Channelt!
+1. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” („BootMii indítása”)-menüpontot!
     + If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
 
     ![](/images/bootmii/BootMii_HBC.png)
