@@ -4,7 +4,7 @@ title: "Karbantartási mód"
 
 {% include toc title="Tartalomjegyzék" %}
 
-Recovery Mode is a last resort method for recovering your Wii console from a brick before resorting to hard-modding and manual NAND programming. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc.
+A karbantartási mód egy Wii megmentésének a végső eseti módja hardveres módosításon vagy belsőmemória-programozáson kívül. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc.
 
 ### A karbantartási mód működése
 
