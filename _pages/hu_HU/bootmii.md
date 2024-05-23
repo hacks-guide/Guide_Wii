@@ -4,22 +4,22 @@ title: "BootMii biztonsági mentés"
 
 {% include toc title="Tartalomjegyzék" %}
 
-BootMii allows for backing up and restoring your Wii's NAND storage. This page will guide you in backing up your Wii's NAND to an SD Card, which you can then use however you like.
+A BootMii lehetővé teszi, hogy biztonsági mentést készíts a Wiid belső tárhelyéről és visszatöltsd azt. Ezen az oldalon megismerkedhetsz a biztonsági mentés készítéséről az SD kártyára, amivel aztán úgy cselekedhetsz, ahogy szeretnél.
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
+A BootMii használatához szükséged lesz egy **SD kártyára**. A biztonsági mentést is erre fogjuk másolni. Ha jelenleg nem rendelkezel egy SD kártyával, akkor kihagyhatod ezt az oldalt, de ERŐSEN AJÁNLJUK, hogy később térj vissza és készíts egy biztonsági mentést a Wiid belső tárhelyéről!
 {: .notice--warning}
 
 ### Követelmények
 
-* An SD card with a minimum 512MB of free space (1GB or more recommended)
+* Egy SD kártya legalább 512 MB szabad hellyel (1 GB vagy több ajánlott)
 
 ### Útmutató
 
-If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell megnyitnod azt. Ha ez a követelmény teljesül, akkor kihagyhatod az 1. és 2. lépést.
 {: .notice--info}
 
 1. Kapcsold be a konzolt!
-1. Indítsd el a Homebrew Channelt.
+1. Indítsd el a Homebrew Channelt!
 1. Press the HOME Button, then select "Launch BootMii".
 
     ![](/images/bootmii/BootMii_HBC.png)
