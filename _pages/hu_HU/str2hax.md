@@ -14,7 +14,7 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 ### Követelmények
 
-* A Wii with an Internet connection
+* Egy internetkapcsolattal rendelkező Wii
 
 ### Útmutató
 
@@ -86,5 +86,5 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     + If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 {: .notice--info}
