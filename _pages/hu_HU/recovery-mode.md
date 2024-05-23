@@ -33,28 +33,28 @@ Ezt a korlátozást a Priiloaderrel ki lehet kerülni, ami lehetővé teszi bár
 Megjegyzés: Lehetséges, hogy szét kell szerelned a GameCube-vezérlőt, hogy mind a négy nyílgombot egyszerre lenyomhasd.
 {: .notice--warning}
 
-Először is, ellenőrizzük, hogy a Wiid képes-e egyáltalán helyreállítási módba lépni! This involves taking a GameCube controller, plugging it into the fourth controller port on a Wii, and simultaneously holding down the 4 individual D-Pad buttons on boot. If everything goes right, you should see a screen similar to the above. As stated above, if you are on a System Menu version on 2.0 or prior, you will not see a version number display at all and you will not be able to boot from discs.
+Először is, ellenőrizzük, hogy a Wiid képes-e egyáltalán helyreállítási módba lépni! Ennek a módja a következő: Dugj be egy GameCube-vezérlőt a 4. vezérlőcsatlakozóba, majd egyszerre tartsd lenyomva mind a négy nyílgombot, miközben bekapcsolod a Wiit! Ha minden jól ment, akkor a Wii egy a fent leírtakhoz hasonló képernyőt fog mutatni. Ha a rendszered 2.0-ás vagy korábbi verzión fut, akkor nem fogod a verziószámot látni a képernyőn és nem fogsz tudni lemezről programokat futtatni.
 
-#### Method I - Recovery Menu to Smash Stack
+#### I. módszer – Smash Stack
 
-1. If you have a Super Smash Bros. Brawl game disc, you can use [Smash Stack](legacy-exploits#smash-stack) to load the HackMii installer off of your SD card.
-1. Boot into Recovery Mode, and insert the Super Smash Bros. Brawl game disc. It should boot at this point.
-1. Follow the instructions for the exploit on Wiibrew.
+1. Ha rendelkezel egy Super Smash Bros. Brawl-játéklemezzel, akkor a [Smash Stack](legacy-exploits#smash-stack)-módszerrel betöltheted a HackMii-telepítőt az SD kártyáról.
+1. Lépj helyreállítási módba és helyezd be a Super Smash Bros. Brawl-lemezt! Ha minden jól megy, akkor a játék elindul.
+1. A folytatáshoz kövesd a Wiibrew-on leírt lépéseket!
 
-#### Method II - Recovery Menu to Save Game Exploit
+#### II. módszer – Játékmentés
 
-1. If you already have a save game on your Wii for a save game exploit listed in [Legacy Exploits](legacy-exploits), you may use a respective exploit in order to load the HackMii installer.
-1. Boot into Recovery Mode, and insert your respective game disc. It should boot at this point.
-1. Follow the instructions for the exploit on Wiibrew.
+1. Ha már korábban használtál egy [örökölt módszert](legacy-exploits), akkor azt ismét felhasználhatod a HackMii-telepítőhöz való hozzáféréshez.
+1. Lépj helyreállítási módba és helyezd be a játéklemezt! Ha minden jól megy, akkor a játék elindul.
+1. A folytatáshoz kövesd a Wiibrew-on leírt lépéseket!
 
-#### Method III - Recovery Menu to Bluebomb
+#### III. módszer – Bluebomb
 
-You can also use Bluebomb as a means of recovery. At this time, we are still drawing up instructions for this section.
+A Bluebomb is egy lehetséges javítási módszer. Jelenleg még dolgozunk ezen a részen. Az útmutatód később itt olvashatod.
 
-At this point, you should be able to install the Homebrew Channel and access homebrew on your SD card that can be used to revert your brick.
+Ezek után telepítheted a Homebrew Channelt és hozzáférhetsz az SD kártyádon tárolt nemhivatalos programokhoz, hogy helyreállítsd a konzolod.
 {: .notice--info}
 
-[Return to Bricks](bricks)
+[Vissza az Elrontás-oldalra](bricks)
 {: .notice--info}
 
 [Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
