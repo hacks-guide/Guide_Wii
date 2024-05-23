@@ -20,21 +20,21 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
 
 1. Kapcsold be a konzolt!
 1. Indítsd el a Homebrew Channelt!
-1. Press the HOME Button, then select "Launch BootMii".
+1. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” („A BootMii indítása”)-menüpontot!
 
     ![](/images/bootmii/BootMii_HBC.png)
 
-    If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+    Ha a `Launch BootMii`-menüpont nem jelenik meg a Homebew Channelben, [indítsd újra a HackMii-telepítőt](hackmii) és telepítsd újra a BootMiit!
     {: .notice--warning}
 
-    If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+    Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Töltsd le [ezt a .zip-fájlt](/assets/files/bootmii_sd_files.zip), csomagold ki az SD kártyád gyökérmappájába és próbáld újra!
     {: .notice--warning}
 
-1. You should see an image similar to the below now on your screen:
+1. Ezek után az alábbihoz hasonló képernyőt fogsz látni a Wii képernyőjén:
 
     ![](/images/bootmii/BootMii_Main.png)
 
-    Navigating BootMii is not possible using a Wii Remote. You must use the POWER and RESET buttons on your console, or a GameCube controller plugged into port 1. To navigate between options, press POWER. To select an option, press RESET.
+    A BootMii irányítása nem lehetséges Wii Remote-tal. Vagy a konzolba épített POWER- és RESET-gombokat, vagy egy 1. csatlakozóba dugott GameCube-vezérlőt kell használnod! A következő menüpontra a POWER-gombbal léphetsz át. A kiválasztáshoz nyomd meg a RESET-gombot!
     {: .notice--info}
 
 1. Select the Options button (the icon with the gears).
