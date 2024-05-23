@@ -55,5 +55,5 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 {: .notice--info}
