@@ -1,16 +1,16 @@
 ---
-title: Recommended Homebrew
+title: Ajánlott nemhivatalos programok
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
-This page outlines homebrew that are recommended by the wii.hacks.guide staff for being useful, nice to have, or just flat out good. Take full advantage of the power you now have with your Wii!
+Ezen az oldalon olvashatsz azokról a programokról, amelyeket a wii.hacks.guide csapata hasznosnak, érdemesnek vagy simán jónak ítél. Használd ki a Wiid újdonsült erejét!
 
-Homebrew that has the ability to make permanant changes to your Wii are highlighted in **bold**.
+A végleges módosításokra képes programok **vastagon** vannak kiemelve.
 
 ### Segédeszközök
 
-+ [**YAWM ModMii Edition**](https://oscwii.org/library/app/yawmME) - An extensively supported WAD manager with additional features. Recommended over any other WAD manager due to its extensive anti-brick protection.
++ [**YAWM ModMii Edition**](https://oscwii.org/library/app/yawmME) – Egy kitűnően támogatott WAD-kezelő további funkciókkal. Ezt minden WAD-kezelőnél jobban javasoljuk, mert széleskörű védelmet is nyújt.
 + [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME) - A homebrew application which checks information about your Wii and pastes it back in a readable, sendable format. Think of it like a "System Information" app but for the Wii.
 + [**CDBackup**](https://oscwii.org/library/app/cdbackup) - Backup, restore, and delete Wii Message Board data.
 + [**AnyRegion Changer ME**](https://oscwii.org/library/app/ARCME) - ModMii edition of AnyRegion Changer. While a powerful tool for changing region settings, it can also lead to severe bricks like [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) so **only use this app if you know what you are doing**.
@@ -23,7 +23,7 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 
 
 
-### Játékok és Betöltők
+### Játékok és betöltők
 
 + [**Riivolution**](https://wiki.hacks.guide/wiki/Wii:Riivolution) - An on-the-fly game patcher for use with retail game discs. It allows users to place content on an SD card or a USB device, which is subsequently read by the game during normal play. Riivolution can be used for custom textures, music, levels, memory patches, game translations, and more!
 + [USB Loaders](wii-loaders) - A general recommendation for a USB loader of any kind, which allows you to play game backups of retail discs. Further information can be found in our linked guide, which encompasses both Wii and GameCube loaders.
@@ -45,7 +45,7 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 + [WiiSX](https://oscwii.org/library/app/wiiSX) - A port of PCSX-ReARMed, a Sony PlayStation emulator, to the Wii.
 + [DOSBox Wii](https://oscwii.org/library/app/dosbox-wii) - A port of DOSBox, an emulator which runs software for MS-DOS compatible disk operating systems.
 
-### Szórakoztatás
+### Szórakozás
 
 + [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - A modified and updated verison of WiiMC. Turns your Wii into a fully fledged media center, with the ability to listen to music, watch videos, play DVDs, and more.
 + [Schism Tracker](https://oscwii.org/library/app/schismtracker) - A editor and player for tracked music (IT, XM, S3M, MOD, etc.). You can find music to try out [here](https://modarchive.org/).
