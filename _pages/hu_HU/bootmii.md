@@ -45,40 +45,40 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
 
     ![](/images/bootmii/BootMii_Backup.png)
 
-1. Ezután el fog kezdődni a belső tárhely biztonsági mentése. You can watch the progress on the screen.
-    + "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup.
+1. Ezután el fog kezdődni a belső tárhely biztonsági mentése. A folyamatot a képernyőn figyelemmel követheted.
+    + Lehetséges, hogy az ábra néhány feketével jelölt sérült blokkot („Bad block”) fog mutatni. Ne aggódj – ez a gyárban történő adatosztályozás természetes mellékterméke és nem azt jelenti, hogy baj van.
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
-1. After the previous step completes, BootMii will verify the backup. Ideally, all the blocks should be green after the verification process.
-    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine.
+1. Miután a folyamat lezáródott, a BootMii ellenőrizni fogja a biztonsági mentés minőségét. Ha minden jól sikerült, akkor az összes blokk zölden fog megjelenni az ábrán.
+    + Ha a mentés tartalmaz olyan gyárilag sérült blokkokat, amelyekben vannak javíthatatlan oldalak, akkor azok nem fognak átmenni az ellenőrzésen. Amíg az összes sértetlen blokk átmegy, addig minden rendben.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
-1. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
+1. Ha végeztél, nyomd meg a jobb szélen található vissza-gombot, majd a kilépéshez nyomd meg a Wii menü vagy a Homebrew Channel-gombot!
 
     ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-Note: **restoring a NAND backup is usually a last resort**. There are often better ways to unbrick your console.
-Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
+Megjegyzés: **Egy biztonsági mentés visszatöltése általában a legvégső mentési módszer.** Sokszor jobb módja is van a konzol megjavításának.
+Ha elrontod a konzolod, próbáld minél jobban [azonosítani az elromlás okát](bricks) és visszafordítani a problémát!
+Az SD kártyás biztonsági mentés visszaállításához ld. [RestoreMii](bootmiirecover). **A Family Edition Wiiken (ezek azok, amelyek nem rendelkeznek GameCube-csatlakozókkal) NEM LEHETSÉGES biztonsági mentéseket visszaállítani hardveres módosítások nélkül.**
 </div>
 
-Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+A mentési folyamat befejeztével két fájl lesz létrehozva az SD kártyád gyökerén: a `nand.bin` és a `keys.bin`. A `nand.bin` a belső tárhely másolata, míg a `keys.bin` tartalmazza a konzol biztonsági kulcsait.
 {: .notice--info}
 
-### Autobootolás
+### Automatikus indítás
 
-If you were able to install BootMii as boot2, but dont want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
+Ha képes voltál boot2 alá telepíteni a BootMiit és nem szeretnéd, hogy bekapcsoláskor a konzol mindig a BootMii-képernyőt mutassa, lehetőséged van azt automatikusan a rendszermenübe indítani. Így fel sem fog tűnni, a boot2 alá telepített BootMii.
 
-1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
-1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
-1. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
-1. Save the file and exit.
+1. Nyisd meg az SD kártya bootmii-mappájában található `bootmii.ini`-fájlt egy szövegszerkesztővel, pl. a Jegyzettömbbel!
+1. A `#AUTOBOOT=SYSMENU`-sor elejéről töröld ki a kettőskeresztet, hogy `AUTOBOOT=SYSMENU` legyen!
+1. Ezután a `#BOOTDELAY=5`-sor elejéről töröld ki a kettőskeresztet és írd át az `5`-öst `1`-esre, hogy ez legyen odaírva: `BOOTDELAY=1`!
+1. Ha végeztél, mentsd el a fájlt és zárd be!
 
-You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
+Ezeket a beállításokat a [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor)-alkalmazással is megváltoztathatod.
 {: .notice--info}
 
-[Continue to Priiloader Installation](priiloader)<br> Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.
+[Folytatás a Priiloader telepítésével](priiloader)<br> A Priiloader egy második réteg védelemmel látja el a Wiit és erősen javasolt a beállítása, még ha boot2 alá is telepítetted a BootMiit. A BootMii IOS-es felhasználóinak számára kiemelten fontos.
 {: .notice--info}
