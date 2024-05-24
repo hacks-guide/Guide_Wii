@@ -73,28 +73,28 @@ Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
     A „`(c)IOS detected in slot ### will be overwritten`” („Az x. helyen található (c)IOS felül lesz írva”)-figyelmeztetést figyelmen kívül hagyhatod.
     {: .notice--info}
 
-    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.)
+    Ha a telepítő a „`Slot ### already used in batch settings`” („Az x. hely már meg van határozva a kötegbeállításokban”) vagy a „`cIOS already added in batch with revision ##### and slot ###`” („Ez a cIOS már meg van határozva az x. verzió y. helyén”)-figyelmeztetést írja ki, akkor nyomd meg a `-`-gombot a kötegelt mód kikapcsolásához! <br> (Ha ki szeretnél lépni, azt a HOME-gomb helyett a B-gombbal teheted meg!)
     {: .notice--info}
 
-1. Nyomj `A`-t. This will bring you to the slot map:
+1. Nyomd meg az `A`-gombot! Erre a program meg fogja mutatni a helykiosztást:
 
     ![](/images/cios/d2x_summary.png)
 
-1. Nyomj `A`-t újra.
+1. Ismét nyomd meg az `A`-gombot!
 
     ![](/images/cios/d2x_installation.png)
 
-1. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
+1. A telepítés befejezése után ismét a helykiosztást fogod látni. Ellenőrizd, hogy az imént telepített IOS helye zölden van kiemelve!
 
     ![](/images/cios/d2x_log.png)
 
-    If the slot is highlighted red, try install the cIOS again. <br> If you are getting an error before/during the downloading stages, press B to exit and continue from [Section I](#section-i---downloading).
+    Ha pirossal van kiemelve, próbáld újra a telepítést! <br> Ha a letöltési szakasz előtt vagy közben a program hibát jelez, nyomd meg a B-gombot és kezdd újra a folyamatot az [I. résztől](#section-i---downloading)!
     {: .notice--info}
 
-1. Nyomj `A`-t. This will return you to the configuration screen.
-1. Repeat the previous 5 steps with the following configurations:
+1. Nyomd meg az `A`-gombot! Ezzel visszajutsz a konfigurációs képernyőre.
+1. Ismételd meg az előző 5 lépést az alábbi beállításokkal:
 
-    + cIOS 249 Installation
+    + A cIOS 249 telepítéséhez
 
         ```
         Select cIOS <d2x-v11-beta1>
@@ -105,7 +105,7 @@ Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
 
         ![](/images/cios/d2x_v11_249.png)
 
-    + cIOS 250 Installation
+    + A cIOS 250 telepítéséhez
 
         ```
         Select cIOS <d2x-v11-beta1>
@@ -116,7 +116,7 @@ Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
 
         ![](/images/cios/d2x_v11_250.png)
 
-    + cIOS 251 Installation
+    + A cIOS 251 telepítéséhez
 
         ```
         Select cIOS <d2x-v11-beta1>
@@ -127,7 +127,7 @@ Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
 
         ![](/images/cios/d2x_v11_251.png)
 
-1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+1. Ha végeztél mind a négy cIOS telepítésével, nyomd meg a B-gombot a Homebrew Channelbe való visszatéréshez!
 
-Continue to [Open Shop Channel Installation](osc) <br> Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+Folytatás az [Open Shop Channel telepítésével](osc) <br> Most, hogy a konzol megfelelő védelemmel rendelkezik, telepítheted az Open Shop Channelt, ami a nemhivatalos programok megbízható tárháza és hozzáférhető mind egy Wiiről vagy egy számítógépről.
 {: .notice--info}
