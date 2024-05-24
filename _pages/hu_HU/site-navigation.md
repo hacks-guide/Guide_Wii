@@ -35,7 +35,7 @@ sitemap: false
 {% capture notice-4 %}
 **Modding 101 - Wii alapismeretek**
 + [BootMii biztonsági mentés](bootmii)
-+ [BootMii Recovery](bootmiirecover)
++ [BootMii biztonsági mentés visszatöltése](bootmiirecover)
 + [Brick áttekintés](bricks)
 + [Brick megelőzés](bricks#brick-prevention)
 + [cIOS](cios)
@@ -46,7 +46,7 @@ sitemap: false
 + [Relaunching the HackMii Installer](hackmii)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Updating Wii Menu to v4.3](update)
-+ [Karbantartási mód](recovery-mode)
++ [Helyreállítási mód](recovery-mode)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
