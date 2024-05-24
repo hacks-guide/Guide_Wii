@@ -1,65 +1,65 @@
 ---
-title: "Open Shop Channel"
+title: "Az Open Shop Channel telepítése"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
-For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
+Az angol nyelvű Open Shop Channel-támogatáshoz csatlakozz az [Open Shop Channel Discord-szerverére](https://discord.gg/osc)!
 {: .notice--primary}
 
-The [Open Shop Channel](https://oscwii.org/) is a homebrew app repository created by dhtdht020, and is currently the preferred way to download homebrew.
+Az [Open Shop Channel](https://oscwii.org/) egy dhtdht020 által készített program, ami a nemhivatalos alkalmazások jelenleg legmegbízhatóbb forrása.
 
-There are two methods to use the Open Shop Channel: on your Wii through Homebrew Browser, or outside of your Wii through OSCDL.
+Az Open Shop Channel használatához két módszer közül választhatsz: futtathatod közvetlenül a Wiin a Homebrew Channelen keresztül vagy a számítógépeden az OSCDL-en keresztül.
 
-### I. metódus - Homebrew Browser
+### I. módszer – Homebrew Browser
 
 #### Követelmények
 
-+ A homebrewed Wii with an active Internet connection
-+ Egy SD kártya vagy egy USB drive
-+ [Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
++ Egy internetkapcsolattal rendelkező, feltört Wii
++ Egy SD kártya vagy pendrive
++ [A Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
 #### Útmutató
 
-1. Download the recommended `.zip` file from the Open Shop Channel website.
+1. Töltsd le a „RECOMMENDED DOWNLOAD” („ajánlott letöltés”)-címke alatt található `.zip`-fájlt az Open Shop Channel honlapjáról!
 
     ![](/images/osc/zip-download-HBB.png)
 
-1. Extract the `apps` folder in the archive to the root of your SD card or USB drive. Optionally, the archive also comes with a guide on how to use the Homebrew Browser.
-1. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. Homebrew Browser should now display.
+1. Helyezd át az `apps`-mappát a .zip-fájlból az SD kártya vagy pendrive gyökerére! Ha szeretnéd, elolvashatod a .zip-fájlban található (angol nyelvű) útmutatót a Homebrew Browser használatáról.
+1. Csatlakoztasd az SD kártyát vagy a pendrive-ot a Wiihez és nyisd meg a Homebrew Channelt! Ha minden jól sikerült, a Homebrew Browser most el fog indulni.
 
-### II. metódus - OSCDL
+### II. módszer – OSCDL
 
 #### Követelmények
 
-+ A Windows/macOS/Linux computer with an internet connection
-+ Egy SD kártya vagy egy USB drive
-+ The latest version of [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)
++ Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
++ Egy SD kártya vagy pendrive
++ Az [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest) legújabb verziója
 
-#### Windows lépések
+#### Windowsos lépések
 
-1. Download `oscdl-installer.exe` and run the installer. Optionally, you may instead download `oscdl-standalone.exe`, which does not have to be installed and instead runs as a portable executable.
+1. Töltsd le az `oscdl-installer.exe`-fájlt és futtasd a telepítőt! Ha szeretnéd, ehelyett letöltheted az `oscdl-standalone.exe`-fájlt, ami nem igényel telepítést és egy hordozható végrehajtható fájlként viselkedik.
 
     ![](/images/osc/exe-download-OSCDL.png)
 
-1. If you get a User Account Control pop-up that asks whether or not you would like the program to make changes to your PC, select Yes. Open Shop Channel is a safe application.
-1. Let the installer run, and then launch OSCDL once the process is finished.
+1. Ha felugrik egy Felhasználói Fiókok Felügyelete-ablak, ami megkérdezi, hogy szeretnéd-e megengedni, hogy a program módosításokat hajtson végre a számítógépen, válaszolj igennel! Az Open Shop Channel egy biztonságos alkalmazás.
+1. Miután befejeződött a telepítés, futtasd az OSCDL-t!
 
     ![](/images/osc/install-finished-OSCDL.png)
 
-1. Find an application that you would like to get, and press the Download button. Alternatively, you can send the app directly to your Wii (this requires that your computer and Wii be on the same network).
+1. Keress meg egy alkalmazást, amit le szeretnél tölteni, majd nyomd meg a „Download” („letöltés”)-gombot! Ha szeretnéd, akkor a „Send to Wii”-gombbal egyenesen a Wiire küldheted az alkalmazást (ehhez a Wiinek és a számítógépnek ugyanazon a hálózaton kell lennie).
 
     ![](/images/osc/app-download-OSCDL.png)
 
-1. A `.zip` file containing your app should download to wherever you specified the directory to be. Extract the `apps` folder in this archive to the root of your SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. Your downloaded piece of homebrew should now display.
+1. A program az általad meghatározott könyvtárba fogja letölteni a választott alkalmazást, `.zip`-fájlba csomagolva. Helyezd át az `apps`-mappát a .zip-fájlból az SD kártya vagy pendrive gyökerére!
+1. Csatlakoztasd az SD kártyát vagy a pendrive-ot a Wiihez és nyisd meg a Homebrew Channelt! Ha minden jól ment, akkor a letöltött program meg fog jelenni a listán.
 
-#### Instructions for macOS/Linux
+#### macOS-es/Linuxos lépések
 
 KÉSZÍTÉS ALATT
 
-Continue to [Recommended Homebrew](recommended-homebrew)<br> This guide outlines selections of homebrew that we think are useful to have; these range from utilities to emulators and more.
+Tovább az [ajánlott nemhivatalos programokhoz](recommended-homebrew)<br> Ebben az útmutatóban listázzuk a szerintünk beszerezni érdemes nemhivatalos alkalmazásokat. Ezek között vannak segédeszközök, emulátorok és még sok más.
 {: .notice--info}
 
-[Return to site index](site-navigation)<br>
+[Vissza a tartalomjegyzékhez](site-navigation)<br>
 {: .notice--info}
