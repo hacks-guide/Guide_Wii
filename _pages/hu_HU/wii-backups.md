@@ -1,5 +1,5 @@
 ---
-title: Managing Wii Backups
+title: Wii-másolatok kezelése
 ---
 
 {% include toc title="Tartalomjegyzék" %}
