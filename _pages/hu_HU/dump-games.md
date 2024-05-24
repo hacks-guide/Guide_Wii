@@ -4,37 +4,37 @@ title: "Wii- és GameCube-játékok másolása"
 
 {% include toc title="Tartalomjegyzék" %}
 
-This guide covers dumping GameCube or Wii game discs to a local SD card or USB drive on your Wii.
+Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának módjával, hogy az adatokat egy SD kártyán vagy pendrive-on tárolhasd.
 
-### Dumping a Disc to SD/USB (CleanRip)
+### Lemez másolása SD kártyára / pendrive-ra CleanRippel
 
 #### Követelmények
 
-+ An SD card or USB drive with at least 4.7 GB of free space (8.5 GB if dumping a dual layer disc).
-+ [CleanRip](https://oscwii.org/library/app/cleanrip)
++ Egy SD kártya vagy pendrive legalább 4,7 GB szabad hellyel (ha kétrétegű lemezt másolsz le, akkor 8,5 GB szabad hellyel)
++ [A CleanRip](https://oscwii.org/library/app/cleanrip)
 
 #### Előkészítés
 
 1. Kapcsold ki a konzolt!
 1. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
-1. Copy the `apps` folder from the CleanRip `.zip` to the root of your SD card or USB drive.
+1. Helyezd át az `apps`-mappát a CleanRip `.zip`-fájlból az SD kártya vagy pendrive gyökerére!
 1. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 1. Kapcsold be a konzolt!
 1. Indítsd el a Homebrew Channelt!
-1. Launch CleanRip from the list of homebrew.
-1. When prompted, select `Yes` to calculate disc checksums.
+1. Indítsd el a listáról a CleanRipet!
+1. Amikor a program megkérdezi, hogy „Enable checksum calculations?” („Szeretnéd engedélyezni az ellenőrzőösszeg-kiszámítást?”), válaszolj igennel („`Yes`”)!
 
     ![](/images/homebrew/CleanRip/checksum.png)
 
-1. Select your device that you will be dumping the game to - a USB device or SD card.
+1. Válaszd ki, hogy USB-eszközre vagy SD kártyára szeretnéd másolni a játékot!
 
     ![](/images/homebrew/CleanRip/device.png)
 
-1. Select the filesystem type of the device - in most cases it will be FAT (FAT32).
+1. Válaszd ki az eszköz fájlrendszer-típusát – a legtöbb esetben ez FAT (FAT32)!
 
     ![](/images/homebrew/CleanRip/filesystem.png)
 
-1. Ensure that your device is connected to the system and press A to proceed.
+1. Ellenőrizd, hogy az eszköz jól csatlakozik-e a Wiihez, majd a folytatáshoz nyomd meg az A-gombot!
 
     ![](/images/homebrew/CleanRip/insertdevice.png)
 
