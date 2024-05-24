@@ -1,5 +1,5 @@
 ---
-title: "Managing GameCube Backups"
+title: "GameCube-másolatok kezelése"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
