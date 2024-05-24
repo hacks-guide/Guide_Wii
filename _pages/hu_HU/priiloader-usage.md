@@ -4,54 +4,54 @@ title: A Priiloader használata
 
 {% include toc title="Tartalomjegyzék" %}
 
-Priiloader is an essential tool that adds a level of brick protection to your Wii. It loads before the Wii System Menu does. The tool can also apply hacks that are used to enhance, unlock, and/or fix many System Menu features.
+A Priiloader egy elengedhetetlen eszköz, ami egy réteg védelemmel látja el a Wiit. A program még a Wii rendszermenü betöltése előtt indul el. A programot arra is felhasználhatod, hogy különböző javításokat alkalmazz a rendszermenüre.
 
-Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
+Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii indításának befolyásolására is használható.
 
-This page documents some of the useful features of Priiloader that may be of interest.
+Ez az oldal a Priiloader különböző hasznos funkcióiról nyújt magyarázatot.
 
-### System Menu Hacks
+### Rendszermenü-módosítások
 
-Priiloader has a large selection of options that, once enabled, change the behaviour of the Wii to one of your choice. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks). Addditionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
+A Priiloader széleskörű lehetőségekkel rendelkezik a Wii viselkedésének módosítására. A különböző módosításokról részletesebben [itt](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks) olvashatsz (angol nyelven). Továbbá, meglátogathatod a [Priiloader GYIK](https://dacotaco.github.io/priiloader/docs/FAQ.html)-et, ami további információt tartalmaz a rendszermenü-módosításokról (angol nyelven).
 
-### Additional options
+### További lehetőségek
 
-These are some extra things you can do with Priiloader to enhance your homebrew experience. This is optional.
+A Priiloader még néhány egyéb dologra is képes, amelyek javíthatnak a Wii-élményeden. Ez nem kötelező.
 
-#### Autobooting with Priiloader
+#### Automatikus indítás Priiloaderrel
 
-Priiloader allows you to automatically boot to the Homebrew Channel, an individual homebrew application, or Priiloader itself. Ez nem kötelező.
+A Priiloader segítségével a Wii bekapcsolásakor lehetőséged van egyből a Homebrew Channelbe, egy adott alkalmazásba vagy magába a Priiloaderbe indítani a konzolt. Ez nem kötelező.
 
-##### Autobooting a Homebrew application
+##### Egy nemhivatalos program automatikus indítása
 
 <div id="autobooting-usbloadergx" class="notice--warning" markdown="1">
-If you would like to autoboot USB loader GX, do this first:
-  + Download the USB Loader GX forwarder WAD ([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
-  + Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
-  + Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
-  + Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
-  + Copy `uneoboot.dol` to the root of your SD card.
-You will be installing `uneoboot.dol` in step 3.
+Ha szeretnéd az USB Loader GX-et automatikusan indítani, először is végezd el az alábbi lépéseket:
+  + Töltsd le az USB Loader GX átirányító WAD-ot ([Wii esetén](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii esetén](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad))!
+  + Töltsd le az [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download)-alkalmazást!
+  + Telepítsd az átirányító WAD-ot egy WAD-kezelővel, mint pl. a [YAWM ModMii Edition](yawmme)-nel!
+  + Csomagold ki valahova az `UNEO Channel Booter for Priiloader.zip`-fájlt!
+  + Másold le az `uneoboot.dol`-fájlt az SD kártya gyökerére!
+A 3. lépésben fogod telepíteni az `uneoboot.dol`-t.
 </div>
 
-1. Launch the Homebrew Channel
-1. Launch Load Priiloader from the list of homebrew.
-1. Scroll down to `Load/Install file` and press A.
+1. Indítsd el a Homebrew Channelt!
+1. Indítsd el a listáról a „Load Priiloader”-t!
+1. Görgess le a „`Load/Install file`” („fájl megnyitása/telepítése”)-menüponthoz és nyomd meg az A-gombot!
 
     ![](/images/priiloader/menu_install_file.png)
 
-1. Scroll through the menu until your desired homebrew app is highlighted, and press A to install it.
+1. Görgess le a listán, amíg meg nem látod a kívánt programot, majd telepítsd az A-gombbal!
 
     ![](/images/priiloader/installing_file.png)
 
     ![](/images/priiloader/installing_file_ok.png)
 
 1. Végezetül, nyomd meg a `B`-gombot a főmenübe való visszatéréshez!
-1. Scroll down to `Settings` and press A.
+1. Görgess le és válaszd ki a „`Settings`” („beállítások”)-menüpontot az A-gombbal!
 
     ![](/images/priiloader/menu_settings.png)
 
-1. Press Right to cycle through the Autoboot options until `Installed file` is selected.
+1. Görgess át az „Autoboot options” („automatikus indítási lehetőségek”)-menün a jobb nyílgombbal, amíg meg nem látod az „`Installed file`” („telepített fájl”)-menüpontot!
 
     ![](/images/priiloader/autoboot_installed_file.png)
 
@@ -60,22 +60,22 @@ You will be installing `uneoboot.dol` in step 3.
     ![](/images/priiloader/settings_save.png)
 
 1. Végezetül, nyomd meg a `B`-gombot a főmenübe való visszatéréshez!
-1. Scroll back up to `System Menu` and press A.
+1. Görgess vissza a „`System Menu`” („rendszermenü”)-menüponthoz és válaszd ki az A-gombbal!
 
-Your Wii should now automatically boot to whichever homebrew app you installed.
+A beállítás befejeztével a Wii bekapcsoláskor automatikusan a kiválasztott programot fogja elindítani.
 
-##### Autobooting the Homebrew Channel or Priiloader
+##### Automatikus indítás a Homebrew Channelbe vagy a Priiloaderbe
 
-1. Launch the Homebrew Channel
-1. Launch Load Priiloader from the list of homebrew.
-1. Scroll down to `Settings` and press A.
+1. Indítsd el a Homebrew Channelt!
+1. Indítsd el a listáról a „Load Priiloader”-t!
+1. Görgess le és válaszd ki a „`Settings`” („beállítások”)-menüpontot az A-gombbal!
 
     ![](/images/priiloader/menu_settings.png)
 
-1. Press Right to cycle through the Autoboot options until your desired option is selected.
-    + Disabled` will autoboot to the Priiloader menu.
+1. Görgess át az „Autoboot options” („automatikus indítási lehetőségek”)-menün a jobb nyílgombbal, amíg meg nem látod a kívánt menüpontot!
+    + A „Disabled” („letiltva”)-lehetőség a Priiloader menüjébe fogja indítani a konzolt.
 
-    Please don't set Autoboot to `BootMii IOS`. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.
+    Ne válaszd ki a „`BootMii IOS`”-t automatikus indításhoz! Ettől egy végtelen ciklusban fogsz ragadni, amíg nyomva nem tartod a RESET-gombot a Priiloader menüjének megnyitásához.
     {: .notice--warning}
 
     ![](/images/priiloader/autoboot_disabled.png)
@@ -85,4 +85,4 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
     ![](/images/priiloader/settings_save.png)
 
 1. Végezetül, nyomd meg a `B`-gombot a főmenübe való visszatéréshez!
-1. Scroll back up to `System Menu` and press A.
+1. Görgess vissza a „`System Menu`” („rendszermenü”)-menüponthoz és válaszd ki az A-gombbal!
