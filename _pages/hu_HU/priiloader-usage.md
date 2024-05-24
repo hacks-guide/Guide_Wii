@@ -20,7 +20,7 @@ These are some extra things you can do with Priiloader to enhance your homebrew 
 
 #### Autobooting with Priiloader
 
-Priiloader allows you to automatically boot to the Homebrew Channel, an individual homebrew application, or Priiloader itself. Ez opcionális.
+Priiloader allows you to automatically boot to the Homebrew Channel, an individual homebrew application, or Priiloader itself. Ez nem kötelező.
 
 ##### Autobooting a Homebrew application
 
