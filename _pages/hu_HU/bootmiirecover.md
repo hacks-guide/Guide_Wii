@@ -30,19 +30,19 @@ Pl.: Ha csak a Wii Üzenőfal adatait szeretnéd visszaállítani, akkor nyisd m
 
 Ha egy játék mentését szeretnéd visszaállítani, importáld a Dolphinba a biztonsági mentést, majd kattints az `Eszközök -> Minden Wii mentés exportálása`-menüpontokra a mentéseid SD kártyára való másolásához! Ezután a Wii beépített adatkezelési eszközeivel („Data Management“) áthelyezheted őket a célkönyvtárba.
 
-### Important preliminary notes
+### Fontos előzetes megjegyzések
 
-+ If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is probably a [Wi-Fi Brick](bricks#wi-fi-brick).
++ Ha nem csináltál semmit, ami elromláshoz vezetne (vagy hosszú idő óta először kapcsolod be a konzolod), akkor valószínűleg [Wi-Fi-rontásról](bricks#wi-fi-brick) van szó.
 
-+ If you have BootMii as IOS installed, RestoreMii will prompt you for the Konami code via a GameCube Controller.
++ Ha IOS-ként van telepítve a BootMii, akkor a RestoreMii a mentés visszaállítása előtt a Konami-kód megadását fogja kérni, amihez egy GameCube-vezérlő kell.
 
-+ You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad on a GameCube controller. To select, press A.
++ Vagy a konzolba épített POWER- (következő menüpont) és RESET (kiválasztás)-gombokat, vagy egy 1. csatlakozóba dugott GameCube-vezérlőt kell használnod! Egy GameCube-vezérlőn a jobb- és bal nyílgombokkal lépkedhetsz a menüpontok között és az A-gombbal erősítheted meg a választásod.
 
 ### Útmutató
 
 1. Indítsd el a Homebrew Channelt!
 1. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” („A BootMii indítása”)-menüpontot!
-    + If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
+    + Ha a Homebrew Channel nem hozzáférhető és telepítve van a Priiloader, akkor azt is elindíthatod a konzol bekapcsolásakor, majd a `BootMii IOS`-menüponttal megnyithatod a BootMiit.
 
     ![](/images/bootmii/BootMii_HBC.png)
 
@@ -50,23 +50,23 @@ Ha egy játék mentését szeretnéd visszaállítani, importáld a Dolphinba a 
 
     ![](/images/bootmii/BootMii_Gears.png)
 
-1. Select the RestoreMii button.
+1. Válaszd ki a RestoreMii-menüpontot!
 
     ![](/images/bootmii/BootMii_Restore.png)
 
-1. BootMii will inform you that it will run in SIMULATION mode, you can press A or Reset to continue.
+1. A BootMii jelenteni fogja, hogy először szimulációs módban fogja kipróbálni a visszatöltést. Az A- vagy Reset-gombbal elindíthatod a folyamatot.
 
     ![](/images/bootmii/BootMii_NAND_Simulation.png)
 
-1. If BootMii is installed as IOS, input the Konami code on your GameCube controller: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
+1. Ha a BootMii IOS-ként van telepítve, meg kell adnod a Konami kódot egy GameCube-vezérlő használatával: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 
     ![](/images/bootmii/BootMii_NAND_Konami.png)
 
-1. BootMii will run through the restore process as a simulation, detailing what will be erased and rewritten. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin.
+1. A BootMii először szimulációs módban végigmegy a visszatöltési folyamaton és jelenti, hogy mit fog törölni és felülírni. Miután ez befejeződött, még egy utolsó lehetőséged lesz a folyamat megszakítására. A START- vagy Eject-gomb megnyomásával elindul a folyamat – bármely másik gomb megnyomásával megszakad.
 
     ![](/images/bootmii/BootMii_NAND_Restore.png)
 
-1. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Hit any button on your Wii console or GCN controller.
+1. A folyamat befejeztével a program jelenteni fogja, hogy a visszaállítás sikerült-e („`I HAZ SUCCESS!`”) vagy nem („`I HAZ FAIL`”). Ezután nyomj meg egy gombot a konzolon vagy a vezérlőn!
 
     ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
@@ -74,7 +74,7 @@ Ha egy játék mentését szeretnéd visszaállítani, importáld a Dolphinba a 
 
     ![](/images/bootmii/BootMii_Return.png)
 
-If you were restoring a NAND backup in order to repair a brick and this did not fix your issue, please consult [the bricks portion](bricks) of this guide.
+Ha javítási szándékból akartál visszaállítani egy biztonsági mentést és nem sikerült, olvasd el a segédlet [elromlásokkal kapcsolatos részét](bricks)!
 {: .notice--info}
 
 [Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
