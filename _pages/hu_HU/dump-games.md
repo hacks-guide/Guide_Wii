@@ -1,5 +1,5 @@
 ---
-title: "Dumping Wii/GameCube games"
+title: "Wii- és GameCube-játékok másolása"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
