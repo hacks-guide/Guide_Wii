@@ -8,7 +8,7 @@ This guide provides instructions on how to manage your GameCube backups, using G
 
 ### Követelmények
 
-* Egy SD kártya vagy egy USB drive
+* Egy SD kártya vagy pendrive
 * [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
 To play multiple games, it is recommended to use an external hard drive for your Wii. Any external hard drive found on most modern marketplaces should work with your Wii.
@@ -22,7 +22,7 @@ Make sure your USB drive is formatted as FAT32. Do not format it as other types 
 #### I. rész - Letöltés
 
 1. Extract GameCube Backup Manager, and launch the program.
-1. Insert your USB drive into your computer.
+1. Csatlakoztasd a pendrive-ot a számítógépedbe!
 
 #### Section II - Copying Games Over
 
