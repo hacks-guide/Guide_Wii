@@ -52,9 +52,9 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
    - Select cIOS base: `58`
    - Select cIOS slot: `251`
 10. A telepítés indításához nyomd meg az `A`-gombot!
-11. Press the `B` button to exit.
+11. A kilépéshez nyomd meg a `B`-gombot!
 
-- Once you have finished with all 3 cIOSes, press B to return to the Homebrew Channel.
+- Ha végeztél mind a három cIOS telepítésével, nyomd meg a B-gombot a Homebrew Channelbe való visszatéréshez!
 
-Continue to [Finalizing Setup](vwii-finalizing-setup)
+Folytatás a [telepítés befejezésével](vwii-finalizing-setup)
 {: .notice--info}
