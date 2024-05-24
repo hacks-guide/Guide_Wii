@@ -1,5 +1,5 @@
 ---
-title: d2x cIOS for vWii
+title: d2xl cIOS vWiire (kísérleti)
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -26,7 +26,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 - An SD card
 - The [d2x cIOS Installer](/assets/files/d2x_cIOS_Installer-vWii.zip).
 
-Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
+Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-kapcsoló nyitott állásban legyen, különben a telepítőben nem fogod tudni kiválasztani a helyes beállításokat!
 {: .notice--warning}
 
 ### Útmutató
@@ -42,12 +42,12 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
    - cIOS base: `56`
    - cIOS slot: `249`
 6. Nyomj `A` gombot a telepítéshez.
-7. Set everything to match the following:
+7. Állíts be mindent az alábbiak szerint:
    - cIOS: `d2x-v11-beta1-vWii`
    - Select cIOS base: `57`
    - Select cIOS slot: `250`
 8. Nyomj `A` gombot a telepítéshez.
-9. Set everything to match the following:
+9. Állíts be mindent az alábbiak szerint:
    - cIOS: `d2x-v11-beta1-vWii`
    - Select cIOS base: `58`
    - Select cIOS slot: `251`
