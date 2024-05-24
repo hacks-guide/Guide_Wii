@@ -1,5 +1,5 @@
 ---
-title: "Wii témák"
+title: "Wii-témák"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
