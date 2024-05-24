@@ -1,34 +1,34 @@
 ---
-title: "BootMii Recovery"
+title: "BootMii biztonsági mentés visszatöltése"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
-This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
+Ez az útmutató végigvezet egy biztonsági mentés visszatöltésén a BootMii segítségével. A biztonsági mentés visszatöltését általában csak a <strong>legvégső esetben</strong> szokás megkísérelni, ha egy Wii javításra szorul. Ha ezután is fennmarad a problémád, akkor lehet, hogy külső segítséget kell kérned. Ha még hozzáférsz a BootMiihez, először próbáld meg elindítani a Homebrew Channelt és [azonosítani az elromlás okát](bricks)!
 
 Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell megnyitnod azt. Ha ez a követelmény teljesül, akkor kihagyhatod az 1. és 2. lépést.
 {: .notice--info}
 
-Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Töltsd le [ezt a .zip-fájlt](https://static.hackmii.com/bootmii_sd_files.zip), csomagold ki az SD kártyád gyökérmappájába és próbáld újra!
 {: .notice--warning}
 
-Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
+A Family Edition Wiiken (ezek azok, amelyek nem rendelkeznek GameCube-csatlakozókkal) NEM LEHETSÉGES biztonsági mentéseket visszaállítani. A biztonsági mentés visszaállításához egy olyan megerősítő kódot kell megadnod, amihez egy GameCube-vezérlő szükséges. Ha további segítségre van szükséged, kérj segítséget!
 {: .notice--danger}
 
-DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same goes for using faulty SD cards.
+NE állíts vissza olyan biztonsági mentést, ami nem ment át az ellenőrzési szakaszon vagy ami nem a saját Wiidről származik – EZ ROSSZABBÍTHATJA A HELYZETET! Továbbá, csak egészséges SD kártyát használj a folyamathoz!
 {: .notice--danger}
 
 ### Követelmények
 
-* An earlier NAND Backup made by [BootMii](bootmii)
+* Egy [BootMii](bootmii)vel készült korábbi biztonsági mentés
 
-### Restoring individual data from a NAND backup
+### Konkrét adatok visszaállítása egy biztonsági mentésből
 
-There is likely a much safer and faster way to bring individual data back to your Wii, likely involving the use of Dolphin Emulator.
+Ha csak konkrét adatokat szeretnél visszaállítani, akkor arra egy sokkal gyorsabb és biztonságosabb módszer is van, amihez valószínűleg a Dolphin emulátorra lesz szükséged.
 
-For example, if you want to restore your Wii Message Board data, use Dolphin to import your NAND backup. In Dolphin, go to `File -> Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
+Pl.: Ha csak a Wii Üzenőfal adatait szeretnéd visszaállítani, akkor nyisd meg a Dolphin emulátort és importáld a biztonsági mentést! Ezután kattints a `Fájl -> Felhasználói mappa megnyitása`-menüpontokra! A megjelenő ablakban navigálj a `Wii/title/00000001/00000002/data/`-mappába és másold a <0>cdb.vff</0>-fájlt az SD kártyádra! Ezután a [WiiXplorer](https://oscwii.org/library/app/wiixplorer) segítségével átmásolhatod a megfelelő helyre.
 
-If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools > Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
+Ha egy játék mentését szeretnéd visszaállítani, importáld a Dolphinba a biztonsági mentést, majd kattints az `Eszközök -> Minden Wii mentés exportálása`-menüpontokra a mentéseid SD kártyára való másolásához! Ezután a Wii beépített adatkezelési eszközeivel („Data Management“) áthelyezheted őket a célkönyvtárba.
 
 ### Important preliminary notes
 
@@ -70,7 +70,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
     ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
-1. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
+1. Ha végeztél, nyomd meg a jobb szélen található vissza-gombot, majd a kilépéshez nyomd meg a Wii menü vagy a Homebrew Channel-gombot!
 
     ![](/images/bootmii/BootMii_Return.png)
 
