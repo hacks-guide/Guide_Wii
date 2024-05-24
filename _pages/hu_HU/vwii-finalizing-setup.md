@@ -1,20 +1,20 @@
 ---
-title: Finalizing Setup
+title: A telepítés befejezése
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
-## Finalizing Setup
+## A telepítés befejezése
 
-Now that the Homebrew Channel, Priiloader, and cIOS are installed, we are going to finalize the setup.
+Most, hogy befejeztük a Homebrew Channel, a Priiloader és a cIOS-ek telepítését, ideje pár utolsó lépéssel lezárni a folyamatot!
 
-### Downloading and Installing the Wii Mii Channel
+### A Wiis Mii Channel letöltése és telepítése
 
-The Mii Channel on the vWii lacks some features, such as connecting to a DS and moving Mii's onto a Wii remote. You have the option of downloading the original Mii Channel WAD from Nintendo and installing it with a [WAD manager](yawmme).
+A Mii Channel vWiis verziója bizonyos szempontokból hiányos: pl. nem képes DS-hez csatlakozni vagy Wii Remote-ra másolni Miiket. Ha szeretnéd, letöltheted az eredeti Mii Channel WAD-ját a Nintendo-szerverekről és telepítheted a [WAD Managerrel](yawmme).
 
-1. Download this script for [Windows](/assets/files/Wii_Mii_Channel_Windows.ps1) or [Mac/Linux](/assets/files/Wii_Mii_Channel_Unix.command)
+1. Töltsd le ezt a parancsfájlt [Windowsra](/assets/files/Wii_Mii_Channel_Windows.ps1) vagy [Mac-re/Linuxra](/assets/files/Wii_Mii_Channel_Unix.command)!
 
-#### Windows
+#### Windowson
 
 1. Right click the file and select `Run With PowerShell`
 2. Type `R` to run the script
