@@ -16,48 +16,48 @@ A Mii Channel vWiis verziója bizonyos szempontokból hiányos: pl. nem képes D
 
 #### Windowson
 
-1. Right click the file and select `Run With PowerShell`
-2. Type `R` to run the script
-3. When it is done, place the `Mii Channel v6 (Wii).wad` in a folder on your SD card titled `WAD`. You can make one if it does not exist.
+1. Kattints jobb gombbal a fájlra és válaszd ki a „`Run With PowerShell`” („Futtatás a PowerShellben”)-menüpontot!
+2. Gépelj be egy `R`-karaktert a parancsfájl futtatásához!
+3. Ha a parancsfájl lefutott, helyezd át a `Mii Channel v6 (Wii).wad`-fájlt az SD kártyára egy `WAD`-nevű mappába! Ha a mappa még nem létezik, hozd létre!
 
-#### Mac
+#### Mac-en
 
-1. Double click on the file. It should automatically run.
-2. When it is done, place the `Mii Channel v6 (Wii).wad` in a folder on your SD card titled `WAD`. You can make one if it does not exist.
+1. Kattints kétszer a fájlra! Ezek után automatikusan le fog futni.
+2. Ha a parancsfájl lefutott, helyezd át a `Mii Channel v6 (Wii).wad`-fájlt az SD kártyára egy `WAD`-nevű mappába! Ha a mappa még nem létezik, hozd létre!
 
-#### Linux
+#### Linuxon
 
-1. Open a terminal in the directory of the file, then type `./Wii_Mii_Channel_Unix.command`
-2. When it is done, place the `Mii Channel v6 (Wii).wad` in a folder on your SD card titled `WAD`. You can make one if it does not exist.
+1. Nyiss meg egy terminálablakot a fájl könyvtárában és a futtatáshoz gépeld be a `./Wii_Mii_Channel_Unix.command`-parancsot!
+2. Ha a parancsfájl lefutott, helyezd át a `Mii Channel v6 (Wii).wad`-fájlt az SD kártyára egy `WAD`-nevű mappába! Ha a mappa még nem létezik, hozd létre!
 
-#### Installing
+#### Telepítés
 
-1. You can install `Mii Channel v6 (Wii).wad` with [YAWM Modmii Edition](yawmme)
+1. A `Mii Channel v6 (Wii).wad`-fájlt a [YAWM Modmii Edition](yawmme)-nel telepítheted.
 
-### További Homebrew App-ok
+### További nemhivatalos alkalmazások
 
-All homebrew apps are loaded from the Homebrew Channel.
+Minden nemhivatalos alkalmazást a Homebrew Channelről lehet elindítani.
 {: .notice--info}
 
-- Patched IOS 80 Installer for vWii is a homebrew app that will take your current install of IOS 80 and patch it to be able to use fakesigned channels on the SD card menu.
-- Photo Upgrader is a homebrew app that allows photo channel 1.1 to be installed on the vWii even though it is normally not possible.
-- 43db patcher is a homebrew app that will patch your WiiWare and virtual console titles to force the 16:9 aspect ratio.
+- A „Patched IOS 80 Installer for vWii” egy olyan alkalmazás, ami módosítja a konzol létező IOS 80-ját, hogy lehetővé tegye a hamisított aláírással rendelkező csatornák futtatását az SD kártya-menüből.
+- A „Photo Upgrader” egy olyan alkalmazás, ami lehetővé teszi a Photo Channel 1.1-es verziójának telepítését a vWiire.
+- A „43db patcher” egy olyan alkalmazás, ami módosítja a WiiWare- és Virtual Console-alkalmazásokat, hogy a 16:9-es képarányú megjelenítésre kényszerítse őket.
 
-### Additional Homebrew Apps - What You Need
+### További nemhivatalos alkalmazások – Letöltések
 
 - [Patched IOS 80 Installer for vWii](https://oscwii.org/library/app/Patched_IOS80_Installer_for_vWii)
 - [Photo Upgrader](https://oscwii.org/library/app/photo_upgrader)
 - [WW-43DB-Patcher](https://oscwii.org/library/app/ww-43db-patcher)
 
-### Additional Homebrew Apps - Extracting Files to the SD Card
+### További nemhivatalos alkalmazások – Fájlok kicsomagolása az SD kártyára
 
-1. Copy the contents of the Patched IOS 80 Installer for vWii to the root of the SD.
-2. Copy the contents of the Photo Upgrader to the root of the SD.
-3. Copy the contents of the WW-43DB-Patcher to the root of the SD.
+1. Másold át a Patched IOS 80 Installer fájljait az SD kártya gyökerére!
+2. Másold át a Photo Upgrader fájljait az SD kártya gyökerére!
+3. Másold át a WW-43DB-Patcher fájljait az SD kártya gyökerére!
 
-Running Wii virtual console games on the Wii U menu will overwrite the SYSCONF, which may affect some priiloader hacks such as the ones used for enabling WiiConnect24.
+A Wii Virtual Console-játékok Wii U-n történő futtatása felülírja a SYSCONF (rendszerkonfigurációs) fájlt, ami befolyásol bizonyos Priiloader-módosításokat, pl. a WiiConnect24 aktiválásához szükséges javításokat.
 {: .notice--info}
 
-Continue to [Open Shop Channel Installation](osc) <br>
-Now that your main vWii setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+Folytatás az <a href="osc">Open Shop Channel telepítésével</a> <br>
+Most, hogy befejezted a vWii beállítását, telepítheted az Open Shop Channelt, ami a nemhivatalos programok megbízható tárháza és hozzáférhető mind egy Wiiről vagy egy számítógépről.
 {: .notice--info}
