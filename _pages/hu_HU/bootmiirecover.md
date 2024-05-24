@@ -46,7 +46,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
     ![](/images/bootmii/BootMii_HBC.png)
 
-1. Select the Options button (the icon with the gears).
+1. Válaszd ki az „Options” („beállítások”)-menüpontot! (Ez az, amelyiken egy fogaskerék van.)
 
     ![](/images/bootmii/BootMii_Gears.png)
 
