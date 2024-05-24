@@ -16,11 +16,11 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 #### Előkészítés
 
 1. Kapcsold ki a konzolt!
-1. Insert your SD card or USB drive into your computer.
+1. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 1. Copy the `apps` folder from the CleanRip `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
+1. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 1. Kapcsold be a konzolt!
-1. Indítsd el a Homebrew Channelt.
+1. Indítsd el a Homebrew Channelt!
 1. Launch CleanRip from the list of homebrew.
 1. When prompted, select `Yes` to calculate disc checksums.
 
