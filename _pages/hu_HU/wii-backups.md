@@ -4,18 +4,17 @@ title: Wii-másolatok kezelése
 
 {% include toc title="Tartalomjegyzék" %}
 
-This guide provides instructions on how to manage your Wii backups, from joining .PART files that are output through CleanRip, to shrinking game files that can be copied onto a FAT32 device. Two programs that can be used to manage your Wii backups are Wii Backup Manager (for Windows) and Wii Backup Fusion (for Linux and MacOS) and are covered below.
+Ez az útmutató végigvezet a Wii-másolatok kezelésének különböző részletein, a CleanRip által kiadott .PART-fájlok összekapcsolásától a játékfájlok zsugorításáig, hogy ráférjenek egy FAT32-eszközre. A továbbiakban két programot fogunk kiemelni: a Wii Backup Managert (Windowsra) és a Wii Backup Fusiont (Linuxra és Mac-re).
 
-For storing multiple games, we recommend an external hard drive for your Wii. Most of those found on the market should work fine.
+Ha több játékot akarsz tárolni, javasoljuk egy külső háttértár beszerzését a Wiihez. Szinte bármilyen merevlemez vagy SSD valószínűleg megfelel.
 {: .notice--info}
 
-A flash drive is not recommended, as they are small and may vary in behavior even between the same product. <br>
-As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
+Egy pendrive használatát nem ajánljuk, mert nagyon kicsik és még ugyanannak a terméknek a különböző példányai is máshogy viselkedhetnek. <br>
+Ha szeretnéd, ehelyett használhatsz egy SD kártyát is, de figyelmeztetünk, hogy a Wii SD kártya-olvasója lassú!
 {: .notice--info}
 
-Make sure your USB drive is formatted as FAT32. Do not format it as other types such as exFAT or extFS. <br>
-You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
-{: .notice--info}
+Ellenőrizd, hogy a külső háttértárad FAT32-formátumra van-e formázva! Ne formázd más típusokra, mint az exFAT vagy az extFS! <br>
+NTFS-ként formázhatod, de a legtöbb nemhivatalos alkalmazás (pl.: a Homebrew Channel és a Nintendont) ezt nem támogatja.
 
 ### Joining PART files on a FAT32 device
 
