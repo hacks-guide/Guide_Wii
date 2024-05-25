@@ -13,15 +13,15 @@ Egy pendrive használatát nem ajánljuk, mert nagyon kicsik és még ugyanannak
 Ha szeretnéd, ehelyett használhatsz egy SD kártyát is, de figyelmeztetünk, hogy a Wii SD kártya-olvasója lassú!
 {: .notice--info}
 
-Ellenőrizd, hogy a külső háttértárad FAT32-formátumra van-e formázva! Ne formázd más típusokra, mint az exFAT vagy az extFS! <br>
+Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva! Ne formázd más típusokra, mint az exFAT vagy az extFS! <br>
 NTFS-ként formázhatod, de a legtöbb nemhivatalos alkalmazás (pl.: a Homebrew Channel és a Nintendont) ezt nem támogatja.
 
-### Joining PART files on a FAT32 device
+### .PART-fájlok összekapcsolása FAT32-eszközökhöz
 
-If your disc was dumped to a FAT32 device, you should have gotten at least two files that end with `.partX.iso`, due to filesystem limitations. They need to be joined (on a supported filesystem like NTFS) so the file can be read correctly.
+Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó eséllyel legalább két fájlt adott vissza a fájlrendszer korlátozásai miatt, amelyek `.partX.iso`-ban végződnek. Ezeket a fájlokat össze kell kapcsolni (egy támogatott fájlrendszer alatt, mint pl. az NTFS), hogy helyesen be lehessen olvasni őket.
 {: .notice--info}
 
-#### Windows
+#### Windowson
 
 1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
 
