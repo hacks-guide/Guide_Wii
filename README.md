@@ -1,6 +1,6 @@
 # wii.hacks.guide
 
-The complete guide to modding your Nintendo Wii.
+The complete guide to modding your Wii, vWii, and Wii mini.
 
 https://wii.hacks.guide/
 
