@@ -39,7 +39,7 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
    ![](/images/desktop-apps/WBM/filemd5.png)
 
-#### macOS/Linux
+#### macOS-en/Linuxon
 
 1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
 
@@ -57,8 +57,8 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
 #### Követelmények
 
-- Egy PC Windows-szal
-- Egy SD kártya vagy egy USB drive
+- Egy Windowsos számítógép
+- Egy SD kártya vagy pendrive
 - A dumped ISO from a Wii game disc
 - [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
@@ -92,7 +92,7 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 #### Követelmények
 
 - A PC running MacOS or Linux
-- Egy SD kártya vagy egy USB drive
+- Egy SD kártya vagy pendrive
 - A dumped ISO from a Wii game disc
 - [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
