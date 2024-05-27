@@ -29,7 +29,7 @@ sitemap: false
 + [LetterBomb](letterbomb)
 + [str2hax](str2hax)
 + [Wilbrand](wilbrand)
-+ [szsHaxx](szshaxx)
++ [szsHaxx](szshaxx.md)
 {% endcapture %}
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
