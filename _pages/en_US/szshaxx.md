@@ -32,7 +32,7 @@ This exploit requires you to download szsHaxx off the Github page.
 
     ![](/images/exploits/szshaxx/files3.png)
 
-4. Place the `boot.elf` on the root of your SD card to be executed. For this, we will be using the `HackMii Installer` found at `https://bootmii.org/download/`
+4. Place the `boot.elf` on the root of your SD card to be executed. For this, we will be using the `HackMii Installer` found at `![](https://bootmii.org/download/)`
 
     ![](/images/exploits/szshaxx/bootelf.png)
 
