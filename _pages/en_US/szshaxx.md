@@ -44,7 +44,7 @@ This exploit requires you to download szsHaxx off the Github page.
 
     ![](/images/exploits/szshaxx/deleted.png))
 
-    We would recommend moving any data you would like to keep to the SD card before doing this exploit
+    This will erase ALL OF YOUR SAVE DATA with no restoration. Only do this method if you do not mind losing save data.
     {: .notice--warning}
 
 7. Move the save data from the SD card to the Wii's internal storage.
