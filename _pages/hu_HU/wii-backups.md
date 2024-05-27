@@ -23,51 +23,51 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
 #### Windowson
 
-1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
+1. Másold át a `.partX.iso`-ban végződő, egyforma nevű fájlokat egy üres mappába a számítógépeden!
 
    ![](/images/desktop-apps/WBM/dumpedpartfiles.png)
 
-2. In this folder, click the address bar in Windows Explorer and type in `cmd`, this will open a command prompt window there.
+2. Kattints bele a Windows Intéző címsorába, írd be, hogy `cmd` és nyomd meg az Enter-billentyűt! Ezzel megnyithatsz egy Parancssor-ablakot a mappában.
 
    ![](/images/desktop-apps/WBM/opencmd.png)
 
-3. Type `copy /b *.part?.iso game.iso` and press enter. Wait for the command to finish, your terminal output should be similar to the below.
+3. Írd be a Parancssorba, hogy `copy /b *.part?.iso game.iso`, majd nyomd meg az Enter-billentyűt! Légy türelemmel, amíg a folyamat befejeződik! A parancssor kimenete az alábbiképpen fog kinézni:
 
    ![](/images/desktop-apps/WBM/joinpartfiles.png)
 
-4. If the copy process executed correctly, the checksum from the game dump info file (located where you dumped your disc at) should match the resulting joined file.
+4. Ha a másolási folyamat sikeresen befejeződött, akkor a kimeneti fájl ellenőrzőértéke meg fog egyezni a játékmásolási információs fájlban találhatóval (ezt az eredeti másolási folyamat kimeneti mappájában találod meg).
 
    ![](/images/desktop-apps/WBM/filemd5.png)
 
 #### macOS-en/Linuxon
 
-1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
+1. Másold át a `.partX.iso`-ban végződő, egyforma nevű fájlokat egy üres mappába a számítógépeden!
 
    ![](/images/desktop-apps/WBM/dumpedpartfileslinux.png)
 
-2. Open a terminal in the directory where your files are at, or `cd [PATH]` to it.
+2. Nyiss meg egy terminálablakot a fájlokat tartalmazó mappában vagy `cd`-zz bele!
 
    ![](/images/desktop-apps/WBM/openterminallinux.png)
 
-3. Use the following command as is: ``cat `ls *.part?.iso | sort` > game.iso``. Then, wait for the merging process to finish. Like in Windows, the resulting checksum should match the dump.
+3. Futtasd le a következő parancsot: ``cat `ls *.part?.iso | sort` > game.iso``! Légy türelemmel, amíg az összekapcsolási folyamat befejeződik! Ha a másolási folyamat sikeresen befejeződött, akkor a kimeneti fájl ellenőrzőértéke meg fog egyezni a játékmásolási információs fájlban találhatóval (ezt az eredeti másolási folyamat kimeneti mappájában találod meg).
 
    ![](/images/desktop-apps/WBM/mergesuccesslinux.png)
 
-### Using Wii Backup Manager
+### A Wii Backup Manager használata
 
 #### Követelmények
 
 - Egy Windowsos számítógép
 - Egy SD kártya vagy pendrive
-- A dumped ISO from a Wii game disc
-- [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
+- Egy Wii-játéklemez .iso-formátumú másolata
+- A [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
-#### I. rész - Telepítés
+#### I. rész – Telepítés
 
-1. Csomagold kis és indítsd el a Wii Backup Manager-t.
-2. Csatlakoztasd az USB drive-od, vagy az SD kártyád a számítógépedhez.
+1. Csomagold ki és indítsd el a Wii Backup Managert!
+2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedhez!
 
-#### II. rész - Játékok másolása
+#### II. rész – Játékok másolása
 
 1. Go to the `Drive 1` tab, then select the drive that will hold your backed up Wii games.
 
@@ -93,11 +93,11 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
 - A PC running MacOS or Linux
 - Egy SD kártya vagy pendrive
-- A dumped ISO from a Wii game disc
+- Egy Wii-játéklemez .iso-formátumú másolata
 - [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
-#### I. rész - Telepítés
+#### I. rész – Telepítés
 
 1. Download Wiimm's ISO tools for your OS and extract the .tar.gz into a folder that you can access with the terminal. The extracted folder should have these files inside:
 
@@ -107,7 +107,7 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
 3. Download Wii Backup Fusion for your OS and install. If on Linux, you will need to make the appimage executable by running `chmod +x [FILE]`.
 
-#### II. rész - Játékok másolása
+#### II. rész – Játékok másolása
 
 1. Open Wii Backup Fusion and press `Load`.
 
