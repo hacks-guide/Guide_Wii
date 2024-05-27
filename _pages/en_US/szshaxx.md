@@ -18,7 +18,7 @@ You will need a copy of Mario Kart Wii.
 
 #### Section I - Preparing
 
-This exploit requires you to download szsHaxx off Github. 
+This exploit requires you to download szsHaxx off the Github page. 
 
 1. Head to `https://github.com/MikeIsAStar/szsHaxx`
 2. Select the `Releases`. button and download the latest version. At the time of writing, it is 1.0.0.0.
