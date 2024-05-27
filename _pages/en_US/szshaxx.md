@@ -36,7 +36,7 @@ This exploit requires you to download szsHaxx off the Github page.
 
     ![](/images/exploits/szshaxx/bootelf.png)
 
-5. Make sure `WiiConnect24` is enabled on your Wii before performing the exploit
+5. Make sure `WiiConnect24` is enabled on your Wii before performing the exploit. It can be enabled by going to `WiiConnect24` in page 2 of Wii Settings.
 
     ![](/images/exploits/szshaxx/wiiconnect24.png))
 
