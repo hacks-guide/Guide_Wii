@@ -28,8 +28,8 @@ sitemap: false
 + [Legacy Exploits](legacy-exploits)
 + [LetterBomb](letterbomb)
 + [str2hax](str2hax)
-+ [Wilbrand](wilbrand)
 + [szsHaxx](szshaxx)
++ [Wilbrand](wilbrand)
 {% endcapture %}
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
