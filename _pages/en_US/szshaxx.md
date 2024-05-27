@@ -25,31 +25,29 @@ This exploit requires you to download szsHaxx off the Github page.
 
     ![](/images/exploits/szshaxx/szsHaxx.png)
 
-3. Create the filepath `sd:/private/wii/title/RMC[E|P|J|K]`. The final character should match the region of the game.
-    ![](/images/exploits/szshaxx/files.png)
 
-4. Extract `szsHaxx-v1.0.0.0.zip`, and move the `data.bin` in the folder that matches your region to the folder you have just created
+3. Extract `szsHaxx-v1.0.0.0.zip`, and copy the folder with your region code (E|J|K|P) to the root of your SD card.
 
     ![](/images/exploits/szshaxx/files2.png)
 
     ![](/images/exploits/szshaxx/files3.png)
 
-5. Place the `boot.elf` on the root of your SD card to be executed. For this, we will be using the `HackMii Installer` found at `https://bootmii.org/download/`
+4. Place the `boot.elf` on the root of your SD card to be executed. For this, we will be using the `HackMii Installer` found at `https://bootmii.org/download/`
 
     ![](/images/exploits/szshaxx/bootelf.png)
 
-6. Make sure `WiiConnect24` is enabled on your Wii before performing the exploit
+5. Make sure `WiiConnect24` is enabled on your Wii before performing the exploit
 
     ![](/images/exploits/szshaxx/wiiconnect24.png))
 
-7. Delete any save data that exists for Mario Kart Wii. 
+6. Delete any save data that exists for Mario Kart Wii. 
 
     ![](/images/exploits/szshaxx/deleted.png))
 
     If there is data you would like to keep, we would recommend moving the data to a seperate SD card first.
     {: .notice--warning}
 
-8. Move the save data from the SD card to the Wii's internal storage.
+7. Move the save data from the SD card to the Wii's internal storage.
 
     ![](/images/exploits/szshaxx/moved.png))
 
