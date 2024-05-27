@@ -6,6 +6,8 @@ title: "szsHaxx"
 
 szsHaxx is an exploit for the Wii that is triggered by overflowing the buffer allowing arbitary code injection using Mario Kart Wii competition data.
 
+This works on the Wii, and vWii with modifications to allow WiiConnect24 to be enabled.
+
 You will need a copy of Mario Kart Wii.
 {: .notice--warning}
 
@@ -13,6 +15,9 @@ You will need a copy of Mario Kart Wii.
 
 * A copy of Mario Kart Wii
 * An SD card with a capacity of <2GB formatted to FAT16/FAT32
+
+  This will not work on SD cards with a capacity larger than 2GB, formatted to FAT32 or not.
+  {: .notice--warning}
 
 ### Instructions
 
