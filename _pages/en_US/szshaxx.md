@@ -47,8 +47,6 @@ This exploit requires you to download szsHaxx off the Github page.
 
 6. Delete any save data that exists for Mario Kart Wii. 
 
-    ![](/images/exploits/szshaxx/deleted.png))
-
     This will erase ALL OF YOUR SAVE DATA with no restoration. Only do this method if you do not mind losing save data.
     {: .notice--warning}
 
