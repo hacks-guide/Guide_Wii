@@ -58,6 +58,8 @@ This exploit requires you to download szsHaxx off the Github page.
 
 + You are now ready to perform the exploit!
 
+If you recieve a message telling you that you must play the game first before moving data, you have not selected the right region or have not launched the game atleast once. Please try checking the region (indicated by the region code on the data icon) and launching the game once.
+{: .notice--warning}
 
 #### Section II - Triggering the Exploit
 
