@@ -69,7 +69,7 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
 #### II. rész – Játékok másolása
 
-1. Go to the `Drive 1` tab, then select the drive that will hold your backed up Wii games.
+1. Kattints az `1. lemez`-fülre és a legördülő menüből válaszd ki a Wii-játékokat tartalmazó háttértárat!
 
    ![](/images/desktop-apps/WBM/select_drive.png)
 
