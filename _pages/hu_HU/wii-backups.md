@@ -91,15 +91,15 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
 #### Követelmények
 
-- A PC running MacOS or Linux
+- Egy macOS-es vagy Linuxos számítógép
 - Egy SD kártya vagy pendrive
 - Egy Wii-játéklemez .iso-formátumú másolata
-- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
-- [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
+- A [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
+- A [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)-eszközkészlet
 
 #### I. rész – Telepítés
 
-1. Download Wiimm's ISO tools for your OS and extract the .tar.gz into a folder that you can access with the terminal. The extracted folder should have these files inside:
+1. Töltsd le a Wiimm's ISO Tools operációs rendszerednek megfelelő változatát és csomagold ki a .tar.gz-fájlt egy olyan mappába, amelyhez a Terminálból hozzáférsz! Kicsomagolás után a mappa így fog kinézni:
 
    ![](/images/desktop-apps/WBM/witinstallfolder.png)
 
