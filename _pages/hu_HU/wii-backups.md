@@ -109,31 +109,31 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
 #### II. rész – Játékok másolása
 
-1. Open Wii Backup Fusion and press `Load`.
+1. Nyisd meg a Wii Backup Fusiont és kattints a `Load` („Megnyitás”)-gombra!
 
    ![](/images/desktop-apps/WBM/loadwbf.png)
 
-2. Select the directory where your game ISO is at.
+2. Add meg az .iso mappáját!
 
    ![](/images/desktop-apps/WBM/opendirectorywbf.png)
 
-3. Right click on the game that you want to transfer to a drive, and press `Transfer to image`. Use the following settings:
+3. Kattints jobb gombbal a lemezre áthelyezendő játékra és válaszd ki a `Transfer to image` („Áthelyezés lemezképre”)-menüpontot! Add meg az alábbi beállításokat:
 
    ![](/images/desktop-apps/WBM/settingswbf.png)
 
-4. If there is not already a `wbfs` directory on your game drive, make one.
+4. Ha még nincs a lemezen egy `wbfs`-könyvtár, akkor hozz létre egyet!
 
-5. Make another directory inside of the `wbfs` folder for the game backup. Take note of the Game ID in Wii Backup Fusion as you will need this for the game folder.
+5. A `wbfs`-mappán belül hozz létre egy mappát a játékmásolatnak! Ellenőrizd a Wii Backup Fusionon belül a játék azonosítóját („ID”-oszlop), mert szükséged lesz rá a mappanévhez!
 
-6. Make a game folder for your game, formatted as `game name [GAMEID]`. For the game dumped as an example in this guide, it would be named `New Super Mario Bros. Wii [SMNE01]`.
+6. Hozz létre egy új mappát a játék számára és nevezd el az alábbi módon: `játék címe [JÁTÉKAZONOSÍTÓ]`! Pl.: Az ebben az útmutatóban lemásolt játék mappájának a neve `New Super Mario Bros. Wii [SMNE01]`.
 
    ![](/images/desktop-apps/WBM/wbfsname.png)
 
-7. Copy the game.wbfs file that was made in Step 3 to this new folder. The drive should be ready to use on a Wii.
+7. Másold át a 3. lépésben létrehozott game.wbfs-fájlt az imént létrehozott mappába! Ezek után a lemez használatra kész.
 
-[Continue to cIOS](cios)<br>
-cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use [USB Loader GX or WiiFlow](wii-loaders) to play games from your USB drive or SD card.
+Folytatás a [cIOS-ek telepítéséhez](cios)<br>
+Az USB-betöltők használatához cIOS-ekre lesz szükséged. Ha ezeket telepíted, készen fogsz állni az [USB Loader GX vagy WiiFlow](wii-loaders) használatára, amelyek segítségével játékokat tölthetsz be egy USB-eszközről vagy SD kártyáról.
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
 {: .notice--info}
