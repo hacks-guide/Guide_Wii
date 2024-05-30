@@ -73,21 +73,21 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
    ![](/images/desktop-apps/WBM/select_drive.png)
 
-2. Go to the `Files` tab, then select `Add`.
+2. Válts át a `Fájlok`-fülre és kattints a `Hozzáadás`-gombra!
 
-   - Select `Files` to add multiple games to the program, or select `Folder` to add a whole folder of games.
+   - Ha adott játékokat szeretnél hozzáadni a listához, kattints a `Fájlok`-menüpontra! Ha viszont egy egész mappát, akkor a `Mappa`-menüpontra!
 
    ![](/images/desktop-apps/WBM/select_games.png)
 
-3. Go to `Select`, then click `Games not on drive 1`.
+3. Nyisd meg a `Kijelölés`-menüt és kattints `Az 1. lemezen nem szereplő elemek`-menüpontra!
 
    ![](/images/desktop-apps/WBM/select_games2.png)
 
-4. Select `Transfer`, then select `Drive 1` to transfer the games over. The progress will be displayed on the right side of the window.
+4. Ezek után nyisd meg az `Áthelyezés`-menüt és kattints az `1. lemez`-menüpontra a játékok áthelyezéséhez! A folyamatot az ablak jobb oldalán követheted figyelemmel.
 
    ![](/images/desktop-apps/WBM/transfer_todrive.png)
 
-### Using Wii Backup Fusion
+### A Wii Backup Fusion használata
 
 #### Követelmények
 
