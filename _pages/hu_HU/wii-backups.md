@@ -103,9 +103,9 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
    ![](/images/desktop-apps/WBM/witinstallfolder.png)
 
-2. Open a terminal in the folder that you just extracted, and run `sudo ./install.sh`.
+2. Nyiss meg egy Terminálablakot ugyanebben a mappában és futtasd a `sudo ./install.sh`-parancsot!
 
-3. Download Wii Backup Fusion for your OS and install. If on Linux, you will need to make the appimage executable by running `chmod +x [FILE]`.
+3. Töltsd le a Wii Backup Fusion operációs rendszerednek megfelelő változatát és telepítsd! Ha Linuxszal dolgozol, akkor futtathatóvá kell tenned az AppImage-fájlt a `chmod +x [FILE]`-parancs futtatásával.
 
 #### II. rész – Játékok másolása
 
