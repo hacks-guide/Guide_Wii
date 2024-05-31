@@ -53,7 +53,7 @@ Make sure you have installed [cIOS](cios) before following this!
 ##### Amire szükséged van
 
 * The Homebrew Channel on both systems
-* Egy SD kártya vagy egy USB drive
+* Egy SD kártya vagy pendrive
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
 ##### Útmutató
@@ -102,7 +102,7 @@ Make sure you have installed [cIOS](cios) before following this!
 
 * The Homebrew Channel on your Wii/vWii
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
-* Egy SD kártya vagy egy USB drive
+* Egy SD kártya vagy pendrive
 * Latest beta version of Dolphin Emulator
 
 ##### Útmutató
@@ -171,7 +171,7 @@ Make sure you have installed [cIOS](cios) before following this!
 ##### Amire szükséged van
 
 * The Homebrew Channel on your Wii/vWii
-* Egy SD kártya vagy egy USB drive
+* Egy SD kártya vagy pendrive
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
 ##### Útmutató
@@ -193,7 +193,7 @@ Make sure you have installed [cIOS](cios) before following this!
 ##### Amire szükséged van
 
 * a Wii with GameCube ports and the Homebrew Channel installed
-* Egy SD kártya vagy egy USB drive
+* Egy SD kártya vagy pendrive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ##### Útmutató
@@ -365,7 +365,7 @@ div id="emumc-gcmc" class="tabcontent to" markdown="1">
 ##### Amire szükséged van
 
 * The Homebrew Channel installed on your Wii
-* Egy SD kártya vagy egy USB drive
+* Egy SD kártya vagy pendrive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ##### Individual memcards (.gci files)
