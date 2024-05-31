@@ -77,7 +77,7 @@ A method for Wiimmfi patching which runs on retail disc games, but must be manua
 
 #### Követelmények
 
-+ Egy SD kártya vagy egy USB drive
++ Egy SD kártya vagy pendrive
 + [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
 
 #### Útmutató
