@@ -74,7 +74,7 @@ Fișierele WAD ar trebui să fie în cardul tău SD în felul următor: ![](/ima
 
     ![](/images/cios/d2x_v11_248.png)
 
-    Avertismentul "`(c)IOS detected in slot ### will be overwriitten`" poate fi ignorat în siguranță.
+    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
     {: .notice--info}
 
     Dacă vezi mesajul "`Slot ### already used in batch settings`" sau "`cIOS already added in batch with revision ##### and slot ###`", apasă `-` pentru a dezactiva modul batch. <br> (Dacă încerci să ieși din instalator, butonul este B, nu Home.)
