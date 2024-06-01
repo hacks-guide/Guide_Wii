@@ -47,7 +47,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + La tarjeta SD debe insertarse en la ranura para tarjetas SD ubicada en la parte frontal de la consola. No es posible usar un adaptador USB conectado a alguno de los puertos USB de la consola.
 1. En tu consola, ingresa al tablón de Wii.
 1. Open the Wii Message Board.
-1. Load the green letter with the Bob-omb icon. In most cases, yo
+1. Load the green letter with the Bob-omb icon.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
