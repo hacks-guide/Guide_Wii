@@ -34,6 +34,9 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
 Se você não estiver no Windows, pode baixar & rodar [este script](/assets/files/d2x_offline_ios.sh)e ele vai baixar os arquivos WAD para você.
 {: .notice--info}
 
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+{: .notice--info}
+
 1. Desligue seu console.
 1. Insira seu cartão SD ou armazenamento USB no seu computador.
 1. Baixe, extraia e execute o [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
