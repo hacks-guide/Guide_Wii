@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-Sharpii_DL="https://noahpistilli.github.io/RC24_Patcher/Sharpii"
+Sharpii_DL="https://naim2000.github.io/res/exe/Sharpii"
+ios_output="$(dirname $0)/ios"
 
 epicfail () {
 	printf "
@@ -42,7 +43,7 @@ download_ios () {
 		return
 	fi
 	printf "Downloading IOS${1}...\n"
-	./Sharpii nusd -ios ${1} -v ${2} -wad -o ios/IOS${1}-64-v${2}.wad &>/dev/null
+	./Sharpii nusd -ios ${1} -v ${2} -wad -o "$ios_output/IOS${1}-64-v${2}.wad" # &>/dev/null
 }
 
 if [[ -f "sharpii($sys)" ]]; then mv "sharpii($sys)" "Sharpii"; fi
@@ -54,12 +55,12 @@ if ! [[ -f "Sharpii" ]]; then
 		exit
 	else
 		printf "Downloading Sharpii...\n"
-		curl -f -s -o "Sharpii" "$Sharpii_DL/sharpii($sys)"
+		curl -f -sS -o "Sharpii" "$Sharpii_DL/sharpii($sys)"
 	fi
 fi
-if ! [[ -x "Sharpii" ]]; then chmod +x Sharpii 2> /dev/null; fi
+if ! [[ -x "Sharpii" ]]; then chmod +x Sharpii; fi
 
-mkdir -p ios
+mkdir $ios_output
 printf "This script downloads the 4 IOS WADs at wii.hacks.guide/cios mentioned at Section I.\n"
 sleep 1
 download_ios 38 4123
@@ -68,10 +69,7 @@ download_ios 57 5918
 download_ios 58 6175
 
 printf "\n\x1b[1;34mAll done!\x1b[0m\n"
-if [[ -f "d2x_offline_ios.sh" ]]; then
-	printf "There should be an ios folder located next to this script.\n"
-else
-	printf "There should be an ios folder located in $(pwd).\n"
-fi
-printf "Move the four WAD files in it to the root of the device \nthat contains the d2x-cIOS-installer.\n\n"
+printf "There should be an ios folder located next to this script.\n"
+printf "Move the four WAD files in it to the root of the device \n"
+printf "that contains the d2x-cIOS-installer.\n\n"
 
