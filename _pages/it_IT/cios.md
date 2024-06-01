@@ -34,6 +34,9 @@ Assicurati che, se stai usando la scheda SD, l'interruttore della proteziona scr
 Se non sei su Windows, puoi scaricare & eseguire [questo script](/assets/files/d2x_offline_ios.sh), e scaricherà i file WAD per te.
 {: .notice--info}
 
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+{: .notice--info}
+
 1. Spegni la console.
 1. Inserisci la scheda SD o dispositivo USB nel tuo computer.
 1. Sul tuo computer, scarica [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
