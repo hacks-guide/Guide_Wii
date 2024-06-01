@@ -47,7 +47,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB adapter plugged into the Wii's USB port will not work.
 1. 리눅스에서 Wilbrand 실행
 1. Open the Wii Message Board.
-1. 폭탄 아이콘이 있는 녹색 편지 봉투를 엽니다. In most cases, yo
+1. 폭탄 아이콘이 있는 녹색 편지 봉투를 엽니다.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
