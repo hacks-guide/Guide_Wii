@@ -73,7 +73,7 @@ Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
 
     ![](/images/cios/d2x_v11_248.png)
 
-    A „`(c)IOS detected in slot ### will be overwritten`” („Az x. helyen található (c)IOS felül lesz írva”)-figyelmeztetést figyelmen kívül hagyhatod.
+    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
     {: .notice--info}
 
     Ha a telepítő a „`Slot ### already used in batch settings`” („Az x. hely már meg van határozva a kötegbeállításokban”) vagy a „`cIOS already added in batch with revision ##### and slot ###`” („Ez a cIOS már meg van határozva az x. verzió y. helyén”)-figyelmeztetést írja ki, akkor nyomd meg a `-`-gombot a kötegelt mód kikapcsolásához! <br> (Ha ki szeretnél lépni, azt a HOME-gomb helyett a B-gombbal teheted meg!)
