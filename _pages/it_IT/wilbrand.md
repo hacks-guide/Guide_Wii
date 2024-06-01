@@ -47,7 +47,7 @@ Le schede SD di dimensioni maggiori a 2GB non funzioneranno su versioni del Menu
     + La scheda SD deve essere inserita nello slot SD posizionato nella parte anteriore del Wii. Usare un adattatore da USB a SD inserito nella porta USB del Wii non funzionerà.
 1. Sul tuo Wii, ritorna al Menu Wii.
 1. Open the Wii Message Board.
-1. Apri la lettera verde con all'interno una bomba. In most cases, yo
+1. Apri la lettera verde con all'interno una bomba.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
