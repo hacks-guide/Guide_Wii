@@ -47,7 +47,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + O cartão SD deve ser inserido no slot de cartão SD localizado na frente do Wii. O uso de um adaptador USB conectado à porta USB do Wii não funcionará.
 1. Pegue seu cartão SD e insira-o no seu Wii.
 1. Open the Wii Message Board.
-1. Open the green letter with a bomb. In most cases, yo
+1. Open the green letter with a bomb.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
