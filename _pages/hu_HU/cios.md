@@ -33,6 +33,9 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 Ha Windowssal dolgozol, letöltheted és futtathatod [ezt a parancsfájlt](/assets/files/d2x_offline_ios.sh) a WAD-fájlok automatikus beszerzéséhez.
 {: .notice--info}
 
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+{: .notice--info}
+
 1. Kapcsold ki a konzolt!
 1. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 1. Töltsd le az [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)t a számítógépedre!
