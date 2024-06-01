@@ -34,6 +34,9 @@ Si vas a usar una tarjeta SD, asegúrate de que no esté protegida contra escrit
 Si tu PC no ejecuta Windows, puedes utilizar [este script](/assets/files/d2x_offline_ios.sh), el cual descargará los archivos WAD necesarios de forma automática.
 {: .notice--info}
 
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+{: .notice--info}
+
 1. Apaga la consola.
 1. Insert your SD card or USB drive into your computer.
 1. Descarga, extrae y ejecuta [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
