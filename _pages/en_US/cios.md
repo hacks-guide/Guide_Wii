@@ -34,6 +34,9 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
 
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+{: .notice--info}
+
 1. Power off your console.
 1. Insert your SD card or USB drive into your computer.
 1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
