@@ -47,7 +47,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
     + 必须将 SD 卡插入 Wii 前面的 SD 卡槽中。 使用插入到 Wii USB 接口的 USB 读卡器是无效的。
 1. 将 HackMii Installer v1.2 解压到 PC 的一个文件夹中。
 1. Open the Wii Message Board.
-1. Open the green letter with a bomb. In most cases, yo
+1. Open the green letter with a bomb.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
