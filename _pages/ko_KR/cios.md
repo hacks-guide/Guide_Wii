@@ -34,6 +34,9 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
 
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+{: .notice--info}
+
 1. 콘솔의 전원을 꺼 주세요.
 1. Insert your SD card or USB drive into your computer.
 1. [NUS 다운로더](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)를 다운로드하여 압축 해제하고 실행합니다.
