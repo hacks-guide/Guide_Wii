@@ -4,12 +4,12 @@ title: "GameCube-másolatok kezelése"
 
 {% include toc title="Tartalomjegyzék" %}
 
-This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
+Ebben az útmutatóban bemutatjuk, hogyan használhatod a GameCube Backup Managert a GameCube-másolataid kezelésére. Ez a program hasonlóan működik a [Wii Backup Managerhez](wii-backups#using-wii-backup-manager).
 
 ### Követelmények
 
 * Egy SD kártya vagy pendrive
-* [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
+* [A GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
 To play multiple games, it is recommended to use an external hard drive for your Wii. Any external hard drive found on most modern marketplaces should work with your Wii.
 {: .notice--info}
