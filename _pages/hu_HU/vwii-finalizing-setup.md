@@ -34,6 +34,9 @@ A Mii Channel vWiis verziója bizonyos szempontokból hiányos: pl. nem képes D
 
 1. A `Mii Channel v6 (Wii).wad`-fájlt a [YAWM Modmii Edition](yawmme)-nel telepítheted.
 
+If you get error -1029 while installing, uninstall the wad, then reinstall it. This does not affect your Miis as they are stored in a different place on the NAND.
+{: .notice--info}
+
 ### További nemhivatalos alkalmazások
 
 Minden nemhivatalos alkalmazást a Homebrew Channelről lehet elindítani.
