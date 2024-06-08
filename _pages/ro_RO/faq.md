@@ -7,7 +7,7 @@ title: "Întrebări Frecvente și Rezolvarea unor probleme"
 {% include toc title="Table of Contents" %}
 
 ### Cât de riscant este să-mi modific consola?
-Not very risky depending on your console. Consola Wii are o barieră de intrare mult mai joasă decât alte console, unele exploit-uri necesitând nu mai mult decât un Wii și o conexiune la Internet. Cât timp urmezi sfaturile generale afișate [aici](bricks#brick-prevention), instalezi [BootMii](bootmii) și [Priiloader](priiloader) și gândești logic, ar trebui să fii în regulă!
+Nu prea riscant, în funcție de consola ta. Consola Wii are o barieră de intrare mult mai joasă decât alte console, unele exploit-uri necesitând nu mai mult decât un Wii și o conexiune la Internet. Cât timp urmezi sfaturile generale afișate [aici](bricks#brick-prevention), instalezi [BootMii](bootmii) și [Priiloader](priiloader) și gândești logic, ar trebui să fii în regulă!
 
 ### Am primit codul de eroare XXXXXX, cum îl rezolv?
 Pentru a verifica ce înseamnă eroarea, te rugăm accesează [pagina de erori Wiimmfi](https://wiimmfi.de/error). Multe erori comune au rezolvări listate mai jos:
@@ -95,7 +95,7 @@ Pentru mărimea hard disk-ului, 2.5 inch ar trebui să funcționeze în regulă 
 
 + Cumpărarea unui hard disk extern nou de la zero: Unitățiile externe noi costă în jur de €56 (300 RON) pentru 2TB, €46 (250 RON) pentru 1TB și în jur de €28 (150 RON) pentru mărimi mai scăzute de 1TB. Orice ai face, încearcă să rămâi cu cele trei mărci prezente listate mai sus, dar ține minte că ofertele sunt destul de rare pentru mărimile de mai puțin de 1TB.
 + Cumpărarea unui hard disk nou și o carcasă nouă: Hard disk-urile noi sunt mai ieftine decât hard disk-urile preconstruite în fabrică și poți cumpăra o carcasă pentru a acoperi acest hard disk nou. Carcasele de 2.5 inch normal pot fi alimentate numai din USB, în timp ce carcasele de 3.5 inch aproape mereu vin cu un adaptor extern pentru alimentare. Un exemplu de preț ar fi cumpărarea unui hard disk Western Digital de 500GB și o carcasă de 2.5 inch de pe Amazon - în total, în jur de €28 (150 RON).
-+ Buying an enclosure for an already existing hard drive: If you already have a hard drive laying around, you can put it in an enclosure and use it for your Wii. Carcasele pot fi găsite pentru prețuri cuprinse între €9-19 (45-100 RON) de pe Amazon, cât timp ai o unitate cu care s-o folosești.
++ Cumpărarea unei carcase pentru un hard disk deja existent: Dacă ai un hard drive la îndemână, ai putea pune într-o carcasă și o poți folosi pentru Wii-ul tău. Carcasele pot fi găsite pentru prețuri cuprinse între €9-19 (45-100 RON) de pe Amazon, cât timp ai o unitate cu care s-o folosești.
 
 ### Cumpărarea Dispozitivelor USB - Unitățile SSD
 
