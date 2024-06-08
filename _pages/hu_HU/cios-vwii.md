@@ -33,26 +33,27 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 #### I. rész – Telepítés
 
-1. Helyezd be az SD kártyát a Wii U-ba!
-2. Kapcsold be a Wii U-t és lépj vWii módba!
-3. Indítsd el a Homebrew Channelt!
-4. Indítsd el a d2x cIOS Installert!
-5. Állíts be mindent az alábbiak szerint:
+1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card.
+2. Eject the SD card from your PC and insert it into the Wii U.
+3. Kapcsold be a Wii U-t és lépj vWii módba!
+4. Indítsd el a Homebrew Channelt!
+5. Indítsd el a d2x cIOS Installert!
+6. Állíts be mindent az alábbiak szerint:
    - Select cIOS: `d2x-v11-beta1-vWii`
    - Select cIOS base: `56`
    - Select cIOS slot: `249`
-6. A telepítés indításához nyomd meg az `A`-gombot!
-7. Állíts be mindent az alábbiak szerint:
+7. A telepítés indításához nyomd meg az `A`-gombot!
+8. Állíts be mindent az alábbiak szerint:
    - Select cIOS: `d2x-v11-beta1-vWii`
    - Select cIOS base: `57`
    - Select cIOS slot: `250`
-8. A telepítés indításához nyomd meg az `A`-gombot!
-9. Állíts be mindent az alábbiak szerint:
-   - Select cIOS: `d2x-v11-beta1-vWii`
-   - Select cIOS base: `58`
-   - Select cIOS slot: `251`
-10. A telepítés indításához nyomd meg az `A`-gombot!
-11. A kilépéshez nyomd meg a `B`-gombot!
+9. A telepítés indításához nyomd meg az `A`-gombot!
+10. Állíts be mindent az alábbiak szerint:
+    - Select cIOS: `d2x-v11-beta1-vWii`
+    - Select cIOS base: `58`
+    - Select cIOS slot: `251`
+11. A telepítés indításához nyomd meg az `A`-gombot!
+12. A kilépéshez nyomd meg a `B`-gombot!
 
 - Ha végeztél mind a három cIOS telepítésével, nyomd meg a B-gombot a Homebrew Channelbe való visszatéréshez!
 
