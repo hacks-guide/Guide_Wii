@@ -33,26 +33,27 @@ Asigură-te că dacă folosești un card SD, comutatorul de blocare este în poz
 
 #### Secțiunea I – Instalarea
 
-1. Introdu cardul SD în Wii U.
-2. Pornește Wii U și deschide vWii.
-3. Deschide Homebrew Channel.
-4. Deschide d2x cIOS Installer.
-5. Setează opțiunile astfel:
+1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card.
+2. Eject the SD card from your PC and insert it into the Wii U.
+3. Pornește Wii U și deschide vWii.
+4. Deschide Homebrew Channel.
+5. Deschide d2x cIOS Installer.
+6. Setează opțiunile astfel:
    - Selectează ca cIOS: `d2x-v11-beta1-vWii`
    - Selectează ca cIOS base: `56`
    - Selectează ca cIOS slot: `249`
-6. Apasă butonul `A` pentru a instala.
-7. Setează opțiunile astfel:
+7. Apasă butonul `A` pentru a instala.
+8. Setează opțiunile astfel:
    - Selectează ca cIOS: `d2x-v11-beta1-vWii`
    - Selectează ca cIOS base: `57`
    - Selectează ca cIOS slot: `250`
-8. Apasă butonul `A` pentru a instala.
-9. Setează opțiunile astfel:
-   - Selectează ca cIOS: `d2x-v11-beta1-vWii`
-   - Selectează ca cIOS base: `58`
-   - Selectează ca cIOS slot: `251`
-10. Apasă butonul `A` pentru a instala.
-11. Apasă butonul `B` pentru a ieși.
+9. Apasă butonul `A` pentru a instala.
+10. Setează opțiunile astfel:
+    - Selectează ca cIOS: `d2x-v11-beta1-vWii`
+    - Selectează ca cIOS base: `58`
+    - Selectează ca cIOS slot: `251`
+11. Apasă butonul `A` pentru a instala.
+12. Apasă butonul `B` pentru a ieși.
 
 - Odată ce ai terminat cu toate cele 3 cIOS-uri, apasă B pentru a te întoarce în Homebrew Channel.
 
