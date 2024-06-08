@@ -34,7 +34,7 @@ Asigură-te că dacă folosești un card SD, comutatorul de blocare este în poz
 Dacă nu folosește Windows, poți descărca & rula [acest script](/assets/files/d2x_offline_ios.sh) și îți va descărca fișierele WAD pentru tine.
 {: .notice--info}
 
-If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+Dacă poți conecta Wii-ul la internet, poți sări la [Secțiunea II](cios#section-ii---installing)
 {: .notice--info}
 
 1. Oprește-ți consola.
@@ -74,7 +74,7 @@ Fișierele WAD ar trebui să fie în cardul tău SD în felul următor: ![](/ima
 
     ![](/images/cios/d2x_v11_248.png)
 
-    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
+    Avertismentul "`(c)IOS detected in slot ### will be overwritten`" poate fi ignorat în siguranță.
     {: .notice--info}
 
     Dacă vezi mesajul "`Slot ### already used in batch settings`" sau "`cIOS already added in batch with revision ##### and slot ###`", apasă `-` pentru a dezactiva modul batch. <br> (Dacă încerci să ieși din instalator, butonul este B, nu Home.)
