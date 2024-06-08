@@ -5,17 +5,17 @@ title: "cIOS"
 {% include toc title="Tabel de Conținut" %}
 
 {% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
-cIOS (Custom IOS) are IOS that are patched to allow custom functionality. Chiar dacă [cIOS](https://wiibrew.org/wiki/Custom_IOS) a fost în mare înlocuit de AHBPROT, care oferă acces complet a hardware-ului, acesta încă are aplicații folositoare. De exemplu, acesta permite folosirea unor USB loader-e precum USB Loader GX și WiiFlow, precum și alte aplicații homebrew precum SaveGame Manager GX. Poți sări acest proces dacă vrei, dar în general îți îmbunătățește consola Wii fără niciun dezavantaj.
+<summary><em>Detalii Tehnice (opțional)</em></summary>
+cIOS (IOS Custom) sunt IOS-uri modificate, care permit funcționalitatea custom. Chiar dacă [cIOS](https://wiibrew.org/wiki/Custom_IOS) a fost în mare înlocuit de AHBPROT, care oferă acces complet a hardware-ului, acesta încă are aplicații folositoare. De exemplu, acesta permite folosirea unor USB loader-e precum USB Loader GX și WiiFlow, precum și alte aplicații homebrew precum SaveGame Manager GX. Poți sări acest proces dacă vrei, dar în general îți îmbunătățește consola Wii fără niciun dezavantaj.
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-This guide is only intended for Wii users. If you have a Wii mini, follow [this guide](cios-mini) instead. Dacă ai un Wii U (vWii), urmărește în schimb [acest ghid](cios-vwii).
+Acest ghid este destinat numai utilizatorilor Wii. Dacă ai un Wii mini, urmărește în schimb [acest ghid](cios-mini). Dacă ai un Wii U (vWii), urmărește în schimb [acest ghid](cios-vwii).
 {: .notice--warning}
 
-Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Făcând acest lucru este foarte probabil să cauzezi [brick](bricks#ios-brick) consolei tale.
+Nu încerca să instalezi un IOS vWii/Wii mini sau System Menu pe un vWii. Făcând acest lucru este foarte probabil să cauzezi [brick](bricks#ios-brick) consolei tale.
 {: .notice--warning}
 
 ### Instrumente necesare
