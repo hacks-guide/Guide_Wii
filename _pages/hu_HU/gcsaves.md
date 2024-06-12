@@ -1,5 +1,5 @@
 ---
-title: "GameCube Saves"
+title: "GameCube mentések"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -62,13 +62,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Útmutató
 
-#### Downloading
+#### Letöltés
 
 1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
 1. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii and launch GCMM from the Homebrew Channel.
 
-#### Backing Up
+#### Mentés
 
 1. Insert your physical memory card into slot A or slot B.
 1. Select the device you want to backup to.
@@ -99,7 +99,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Útmutató
 
-#### Downloading
+#### Letöltés
 
 1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii and launch GCMM from the Homebrew Channel.
