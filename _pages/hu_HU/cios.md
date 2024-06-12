@@ -33,7 +33,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 Ha Windowssal dolgozol, letöltheted és futtathatod [ezt a parancsfájlt](/assets/files/d2x_offline_ios.sh) a WAD-fájlok automatikus beszerzéséhez.
 {: .notice--info}
 
-If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+Ha képes vagy csatlakoztatni a Wii-t az internetre, átugorgatod a [II. részt](cios#section-ii---installing)
 {: .notice--info}
 
 1. Kapcsold ki a konzolt!
@@ -73,7 +73,7 @@ Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
 
     ![](/images/cios/d2x_v11_248.png)
 
-    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
+    A „`(c)IOS detected in slot ### will be overwritten`” („Az x. helyen található (c)IOS felül lesz írva”) figyelmeztetést figyelmen kívül hagyhatod.
     {: .notice--info}
 
     Ha a telepítő a „`Slot ### already used in batch settings`” („Az x. hely már meg van határozva a kötegbeállításokban”) vagy a „`cIOS already added in batch with revision ##### and slot ###`” („Ez a cIOS már meg van határozva az x. verzió y. helyén”)-figyelmeztetést írja ki, akkor nyomd meg a `-`-gombot a kötegelt mód kikapcsolásához! <br> (Ha ki szeretnél lépni, azt a HOME-gomb helyett a B-gombbal teheted meg!)
