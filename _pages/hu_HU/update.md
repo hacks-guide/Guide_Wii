@@ -1,5 +1,5 @@
 ---
-title: "Updating Wii Menu to v4.3"
+title: "A Wii Menu frissítése v4.3-ra"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -12,7 +12,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 ### Követelmények
 
 * Egy SD kártya vagy pendrive
-* A computer with Windows on it
+* Egy számítógép Windows-szal
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
 * [Priiloader](priiloader)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
