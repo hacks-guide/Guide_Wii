@@ -9,7 +9,7 @@ title: "GYIK és hibaelhárítás"
 ### How risky is hacking my console?
 Not very risky depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
 
-### I got error code XXXXXX, how do I fix it?
+### Az XXXXXX hibakódot kapom, hogyan tudom javítani?
 In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:
 
 #### Error 051330/51330
@@ -18,7 +18,7 @@ Run an Internet connection test by going to `Wii Settings > Internet > Connectio
 
 #### Error 220602
 
-##### For RiiConnect24 Users
+##### RiiConnect24 felhasználók számára
 
 You are using the old DNS server for RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
 
@@ -28,11 +28,11 @@ Your Primary DNS server is incorrect or not working.<br> This can also happen if
 
 #### Error 107304
 
-##### For RiiConnect24 Users
+##### RiiConnect24 felhasználók számára
 
 If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
 
-##### For non-RiiConnect24 Users
+##### Nem RiiConnect24 felhasználók számára
 
 If you get this error, the DNS server you chose or your internet as a whole is having issues. Próbáld később újra.
 
@@ -46,7 +46,7 @@ The [mkey generator](https://mkey.eiphax.tech/) can generate the code required t
 ### I think my Wii is bricked, or something is seriously wrong, what do I do?
 See [this](bricks) page.
 
-## Storage Device FAQ
+## Tároló eszköz GYIK
 
 For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
 {: .notice--info}
@@ -71,21 +71,21 @@ When considering buying or using an SD card or USB device, it is worth consideri
 + NAND Backups: For backing up your NAND with BootMii, the average user would need a minimum of 512MB of free space, but sizes of 1GB or more are recommended.
 + Bare minimum, exploit only: The minimum amount of space to run an SD-card compatible exploit on a Wii is 128MB.
 
-### Buying SD Cards
+### SD kártyák vásárlása
 
 SD cards 2TB or larger currently do not exist, anyone attempting to sell you one is trying to rip you off.
 {: .notice--danger}
 
 When buying SD cards, it is generally recommended that you stick to well-known brands the more expensive and larger capacity that you get. While you can buy a generic 2GB SD card and most likely be safe, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-20 USD for 256GB and below, whereas 512GB is around 40 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be wary when buying storage on eBay.
 
-Recommended brands:
+Ajánlott márkák:
 + Samsung (EVO Select, EVO Plus, PRO Plus)
-+ SanDisk (Extreme, Ultra, etc)
++ SanDisk (Extreme, Ultra, stb.)
 + Lexar (E-Series, Professional)
-+ Silicon Power ("3D NAND" cards, higher capacity usually better value)
-+ PNY (Elite, Elite-X, etc)
++ Silicon Power ("3D NAND" kártyák, a nagyobb kapacitás általában jobb érték)
++ PNY (Elite, Elite-X, stb.)
 
-### Buying USB Devices - Hard Drives
+### USB eszközök - merevelemezek vásárlása
 
 When buying USB hard drives, there are only three existing present-day HDD manufacturers: Western Digital, Seagate, and Toshiba. Any and all other hard drive companies are defunct and have either went bankrupt, or were absorbed by the three aformentioned companies. With that said, if you have an extra hard drive lying around made by another company, it should still work! Hard drive technology has remained largely the same within the past 10 or so years. Just make sure to check the S.M.A.R.T data to ensure that the drive isn't failing before you throw all of your data on there.
 
@@ -97,7 +97,7 @@ As for your choices in shopping, this largely comes down to three different scen
 + Buying a new hard drive, and a new enclosure: New hard drives are decently cheaper than buying a pre-made hard drive, and you can buy an enclosure to house this new hard drive. 2.5 inch enclosures are normally powerable off of USB alone, while 3.5 inch enclosures almost always come with an external adapter for power. An example price is buying a 500GB Western Digital drive and a 2.5 inch drive enclosure off of Amazon - all in all, about 30 USD.
 + Buying an enclosure for an already existing hard drive: If you already have a hard drive laying around, you can put it in an enclosure and use it for your Wii. Enclosures can be found for prices ranging between 10 to 20 USD off of Amazon, as long as you have a drive to supply it with.
 
-### Buying USB Devices - Solid State Drives
+### USB eszközök - SSD-k vásárlása
 
 For the purpose of using a drive with a Wii, external SSDs are often more expensive than conventional hard drives for no visible gain in speed on a Wii (the console only supports up to USB 2.0 data speeds). If you would like to buy one or already have one lying around, it's an option, but generally it's recommended to just go for a hard drive if you don't already have one.
 {: .notice--warning}
