@@ -45,7 +45,7 @@ sitemap: false
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
-+ [Updating Wii Menu to v4.3](update)
++ [A Wii Menu frissítése v4.3-ra](update)
 + [Helyreállítási mód](recovery-mode)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [YAWM ModMii Edition](yawmme)
