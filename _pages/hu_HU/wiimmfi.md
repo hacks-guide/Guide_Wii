@@ -1,5 +1,5 @@
 ---
-title: "Nintendo Wi-Fi Connection"
+title: "Nintendo Wi-Fi kapcsolat"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -152,7 +152,7 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 
 #### Követelmények
 
-+ A Linux/macOS/Windows PC with an internet connection
++ Egy Windows/macOS/Linux számítógép internet kapcsolattal
 + A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
 + [Wiimmfi ISO Patcher](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
