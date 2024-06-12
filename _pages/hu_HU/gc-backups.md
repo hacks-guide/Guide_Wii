@@ -24,13 +24,13 @@ Make sure your USB drive is formatted as FAT32. Do not format it as other types 
 1. Extract GameCube Backup Manager, and launch the program.
 1. Csatlakoztasd a pendrive-ot a számítógépedbe!
 
-#### Section II - Copying Games Over
+#### II. rész – Játékok átmásolása
 
-1. Open the application and locate the folder button in the bottom right corner. Click on it to open the file explorer window.
+1. Open the application and locate the folder button in the bottom right corner. Kattins rá a Fájlkezelő ablak megnyitásához.
 
     ![](/images/desktop-apps/GCBM/folderbutton.png)
 
-1. Navigate to the location of the folder that contains the game file you want to transfer. This could be on your computer's hard drive or an external storage device. Once you find the folder, select it.
+1. Navigate to the location of the folder that contains the game file you want to transfer. This could be on your computer's hard drive or an external storage device. Ha megtaláltad a mappát, válaszd ki.
 
     ![](/images/desktop-apps/GCBM/selectfolder.png)
 
