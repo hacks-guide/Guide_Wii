@@ -26,7 +26,7 @@ Only install themes on your Wii that have been formatted specifically for its ve
 Before proceeding, it helps to know the difference between .MYM and .CSM as file formats when used in Wii Menu theming. While the MYM is made by the theme creator which can then be shared around, the CSM is the result from building a MYM into a system menu. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes seperate.
 {: .notice--info}
 
-#### Theme Sources
+#### Téma források
 
 + [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (.mym file distribution)
 + [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym file distribution)
@@ -37,22 +37,22 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ##### Wii
 
-* A modded Wii
-* An SD card or USB device
+* Egy moddolt Wii
+* Egy SD kártya vagy USB drive
 * Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 * [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
 ##### vWii
 
-* A modded vWii
-* An SD card or USB device
+* Egy moddolt vWii
+* Egy SD kártya vagy USB drive
 * Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 * [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 * [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
 
-#### Building a Theme
+#### Téma készítése
 
 ##### Wii
 
@@ -103,7 +103,7 @@ Some themes are compatible with the Wii system menu, but aren't compatible with 
 If you can't find the .app file, it's possible you have downloaded the wrong version of the Wii Menu and you'll need to try again.
 {: .notice--info}
 
-#### Téma telepítés
+#### Téma telepítése
 
 1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
 2. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
@@ -123,7 +123,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 #### Követelmények
 
 * Egy moddolt Wii
-* An SD card or USB device
+* Egy SD kártya vagy USB drive
 * [WiiFlow Lite](wii-loaders#wiiflow-lite)
 * A Linux/macOS/Windows PC with an Internet connection
 * [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
@@ -135,12 +135,12 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 3. Extract and copy the `wiiflow` folder to the root of your storage device, merge all folders and overwrite all files when requested.
 4. Follow the theme setup and theme configuration instructions in `installation.txt`. Enjoy the theme!
 
-### USB Loader GX Theming
+### USB Loader GX témázás
 
 #### Követelmények
 
-* A modded Wii
-* An SD card or USB device
+* Egy moddolt Wii
+* Egy SD kártya vagy USB drive
 * [USB Loader GX](wii-loaders#usb-loader-gx)
 * A Linux/macOS/Windows PC with an Internet connection
 * A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
@@ -158,9 +158,9 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 #### Követelmények
 
 * Egy moddolt Wii
-* An SD card or USB device
-* A Linux/macOS/Windows PC with an internet connection
-* A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
+* Egy SD kártya vagy USB drive
+* Egy Windows/macOS/Linux számítógép internet kapcsolattal
+* Egy [téma](https://wiibrew.org/wiki/Homebrew_Channel/Themes) a WiiBrew-ról
 
 #### Útmutató
 
