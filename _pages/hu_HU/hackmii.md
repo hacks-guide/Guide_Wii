@@ -9,7 +9,7 @@ This guide is intended for situations where you need to relaunch the HackMii Ins
 It is also safe to [redo any exploit](get-started) to get back into the HackMii Installer.
 {: .notice--info}
 
-### Relaunching via the Homebrew Channel
+### Újraindítás a Homebrew Channel-lel
 
 #### Követelmények
 
@@ -28,11 +28,11 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 [Continue to Homebrew Channel and BootMii installation](hbc)
 {: .notice--info}
 
-### Relaunching via Priiloader
+### Újraindítás Priiloader-rel
 
 #### Követelmények
-* a Wii with Priiloader (or Preloader) installed
-* An SD card or USB drive formatted to FAT32/MS-DOS
+* egy Wii telepített Priiloader-rel (vagy Preloader-rel)
+* Egy FAT32/MS-DOS-ra formázott SD kártya vagy USB drive
 * [A HackMii-telepítő 1.2-es verziója](https://bootmii.org/download/)
 
 To check if your Wii has Priiloader, hold the RESET button while turning it on.
