@@ -13,7 +13,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 #### Követelmények
 
-* The Homebrew Channel
+* A Homebrew Channel
 * An SD card or USB drive formatted to FAT32/MS-DOS
 * [A HackMii-telepítő 1.2-es verziója](https://bootmii.org/download/)
 
