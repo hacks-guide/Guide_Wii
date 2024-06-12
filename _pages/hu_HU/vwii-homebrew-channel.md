@@ -8,10 +8,10 @@ Ez az oldal végig vezet a vWii-d moddolásának folyamatán.
 
 ## SD előkészítés
 
-If you have hacked your Wii U in the past, you can use the same SD Card for this process.
+Ha már hackelted a Wii U-dat a múltban, akkor használhatod ugyanazt az SD kártyát ehhez a folyamathoz.
 {: .notice--info}
 
-If you haven't already, make sure you did a [nand backup](https://wiiu.hacks.guide/#/aroma/nand-backup) and have the [Aroma Enviorment](https://aroma.foryour.cafe/) installed on your Wii U. Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
+Ha még nem tetted meg, akkor készíts egy [nand backup](https://wiiu.hacks.guide/#/aroma/nand-backup)-ot és telepítsd az [Aroma Environment](https://aroma.foryour.cafe/) a Wii U-dre . Egyébként folytasd az [Aroma teleptésével](https://wiiu.hacks.guide/#/aroma/getting-started) vagy [A vWii moddolása a Wii U oldal moddolása nélkül](wiiu-nand-dumper)
 {: .notice--info}
 
 ### Követelmények
@@ -21,7 +21,7 @@ If you haven't already, make sure you did a [nand backup](https://wiiu.hacks.gui
 - A [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller) legutolsó kiadása.
 - (Opcionális) Az [Enhanced vWii Aroma Plugin](https://hb-app.store/wiiu/evWii)
 
-If the evWii Aroma plugin is not installed, and a homebrew app hangs, the only way to shut off the Wii U is by pulling the power cord. Pulling the power cord in some cases can cause a memory corruption so it is highly recomended to have the plugin installed.
+Ha az evWii Aroma plugin nem telepített, és a homebrew alkalmazás lefagy, az egyetlen mód a Wii U kikapcsolására a tápkábel kihúzása. A tápkábel kihúzása néhány esetben memória sérüléshez vezet, így erősen ajánlott a plugin telepítése.
 {: .notice--warning}
 
 ### Útmutató
@@ -29,14 +29,14 @@ If the evWii Aroma plugin is not installed, and a homebrew app hangs, the only w
 #### I. rész - Fájlok
 
 1. Helyezd be a Wii U-d SD kártyáját a PC-dbe.
-2. Copy the contents of the `CompatTitleInstaller.zip` file to the root of your SD Card.
-3. Copy the contents of the `evWii.zip` file to the root of your SD Card.
+2. Másold a tartalmát a `CompatTitleInstaller.zip` fájlnak az SD kártyád gyökerébe.
+3. Másold a tartalmát a `evWii.zip` fájlnak az SD kártyád gyökerébe.
 
 #### II. rész - A Homebrew Channel telepítése
 
 1. Bootolj [Aroma](https://wiiu.hacks.guide/#/aroma/finalizing-setup)-ba.
 2. Indítsd el a vWii Compat Installer-t a Wii U Menu-ből.
-3. Press `A` to install the Homebrew Channel and wait until you see `Install succeeded`. Then press the HOME button to return to the Wii U Menu.
+3. Nyomj `A`-t a Homebrew Channel telepítéséhez és várj amíg azt nem látod, hogy `Install succeeded`. Utána nyomd meg a HOME gombot, hogy vissza tért a Wii U Menu-be.
 4. Indítsd el a vWii-t (a Wii Menu ikon).
    - Ha a telepítés sikeres volt, látnod kell a Homebrew Channel-t a Wii Menu-dben.
 
