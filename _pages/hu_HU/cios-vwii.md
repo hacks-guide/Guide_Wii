@@ -33,8 +33,8 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 #### I. rész – Telepítés
 
-1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card.
-2. Eject the SD card from your PC and insert it into the Wii U.
+1. Másold át az `apps` mappát a d2x-cios-installer `.zip` fájlból az SD kártyád gyökerébe.
+2. Vedd ki az SD kártyát a PC-dből és rakd be a Wii U-ba.
 3. Kapcsold be a Wii U-t és lépj vWii módba!
 4. Indítsd el a Homebrew Channelt!
 5. Indítsd el a d2x cIOS Installert!
