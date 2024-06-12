@@ -27,7 +27,7 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
 
 1. Helyezd be a Wii U-d SD kártyáját a PC-dbe.
 2. Copy the contents of the downloaded Aroma _`.zip`_ files to the root of your SD Card.
-3. Copy the contents of the `CompatTitleInstaller.zip` file to the root of your SD Card.
+3. Másold a tartalmát a `CompatTitleInstaller.zip` fájlnak az SD kártyád gyökerébe.
 
 SD kártya kiosztás
 
