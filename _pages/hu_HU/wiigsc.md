@@ -1,5 +1,5 @@
 ---
-title: "Creating Wii Game Shortcuts"
+title: "Wii játék shortcut-ok létrehozása"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
