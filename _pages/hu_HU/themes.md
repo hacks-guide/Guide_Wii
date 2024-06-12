@@ -103,7 +103,7 @@ Some themes are compatible with the Wii system menu, but aren't compatible with 
 If you can't find the .app file, it's possible you have downloaded the wrong version of the Wii Menu and you'll need to try again.
 {: .notice--info}
 
-#### Theme Installation
+#### Téma telepítés
 
 1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
 2. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
@@ -122,7 +122,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 #### Követelmények
 
-* A modded Wii
+* Egy moddolt Wii
 * An SD card or USB device
 * [WiiFlow Lite](wii-loaders#wiiflow-lite)
 * A Linux/macOS/Windows PC with an Internet connection
