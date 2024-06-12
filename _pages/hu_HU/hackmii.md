@@ -1,5 +1,5 @@
 ---
-title: "Relaunching the HackMii Installer"
+title: "A HackMii Installer újraindítása"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -14,12 +14,12 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 #### Követelmények
 
 * A Homebrew Channel
-* An SD card or USB drive formatted to FAT32/MS-DOS
+* Egy FAT32/MS-DOS-ra formázott SD kártya vagy USB drive
 * [A HackMii-telepítő 1.2-es verziója](https://bootmii.org/download/)
 
 #### Útmutató
 
-1. Insert your SD/USB into your PC.
+1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
 1. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
     + If this folder does not exist, create it.
 1. Insert the SD/USB into your Wii, and launch the `hackmii_installer_v1.2` app from the Homebrew Channel.
@@ -35,15 +35,15 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 * Egy FAT32/MS-DOS-ra formázott SD kártya vagy USB drive
 * [A HackMii-telepítő 1.2-es verziója](https://bootmii.org/download/)
 
-To check if your Wii has Priiloader, hold the RESET button while turning it on.
+Ahhoz, hogy ellenőrizd, hogy a Wii-odon van-e Priiloader, tartsd nyomva a RESET gombot bekapcsoláskor.
 {: .notice--info}
 
-Preloader and older versions of Priiloader do not seem to support SDHC (>2GB) cards.
+A Preloader és Priiloader régi verziói úgy tűnik, hogy nem támogatják az SDHC (>2GB) kártyákat.
 {: .notice--warning}
 
 #### Útmutató
 
-1. Insert your SD/USB into your PC.
+1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
 1. Copy the `boot.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card or USB drive.
 1. Insert your SD/USB into your Wii.
 1. Enter Priiloader by holding the RESET button while turning on your Wii.
