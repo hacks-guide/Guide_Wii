@@ -19,12 +19,12 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
     ![](/images/homebrew-dolphin/system-update.png)
 
 1. Download `Open_HBC_(version)_LULZ.wad` from the page linked above.
-1. Open Dolphin Emulator.
+1. Dolphin Emulátor megnyitása.
 1. Select `Tools > Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
 
     ![](/images/homebrew-dolphin/ohbc-file.png)
 
-1. Select `Tools > Load Wii System Menu`. The channel should now appear.
+1. Select `Tools > Load Wii System Menu`. A csatornának most meg kell jelennie.
 
     ![](/images/homebrew-dolphin/hbc-installed.png)
 
