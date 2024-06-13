@@ -26,17 +26,17 @@ The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and sh
 If you are trying to [update your Wii to 4.3U](update) with homebrew or update outdated homebrew/IOS, you most likely do not need to follow this guide. Instead, you can use a tool like the SysCheck Updater Wizard built into [ModMii](modmii#syscheck-updater-wizard). If you are confused about this process, consider joining the Nintendo Homebrew discord server for support.
 {: .notice--warning}
 
-### Requirements
+### Követelmények
 
-- An SD card with a minimum 512MB of free space (1GB or more recommended)
+- Egy SD kártya legalább 512 MB szabad hellyel (1 GB vagy több ajánlott)
 - A [NAND backup](bootmii) from the specific system you are trying to flash
 - A Windows computer with an Internet connection
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
 - [Nand BIN Checker](/assets/files/nandBinCheck.zip)
 
-### Instructions
+### Útmutató
 
-#### Section I - Preparation
+#### I. rész - Előkészületek
 
 1. Start Ohneschwanzenegger. You may get a Windows SmartScreen prompt, this is a false positive and you can run the program anyway by pressing `More info` and `Run anyway`.
 
@@ -48,7 +48,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
    ![](/images/factory-reset/newnand.png)
 
-4. This will fill in information such as the keys, Boot 1/2, and your bad blocks automatically. ONLY change the Destination box to `./blankNand.bin`, which will output the NAND to the program folder with the name `blankNand.bin`. Then, press OK.
+4. This will fill in information such as the keys, Boot 1/2, and your bad blocks automatically. ONLY change the Destination box to `./blankNand.bin`, which will output the NAND to the program folder with the name `blankNand.bin`. Aztán nyomj OK-t.
 
    ![](/images/factory-reset/renamenand.png)
 

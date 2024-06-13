@@ -12,7 +12,7 @@ If your Wii U side is already modded, proceed to [Installing the Homebrew Channe
 Your SD Card will need to be formatted as FAT32. If your SD Card is not formatted to FAT32, use [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) with 32k (32768) Allocation unit size to format it. **Do not** label the SD Card as `wiiu` or it will cause issues with homebrew.
 {: .notice--info}
 
-### Requirements
+### Gereksinimler
 
 - The latest files from [Aroma for your café](https://aroma.foryour.cafe/).
   - Review the preliminal steps, then check all 4 boxes.

@@ -5,10 +5,10 @@ title: "Credite"
 {% include toc title="Tabel de Conținut" %}
 
 {% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Chiar dacă este singurul exploit folosit pentru Wii mini, el poate fi rulat și pe un Wii obișnuit (regular Wii).
+<summary>Detalii Tehnice (opțional)</em></summary>
+BlueBomb este un exploit care profită de un flaw din librăriile Bluetooth pentru Wii și Wii mini. Chiar dacă este singurul exploit folosit pentru Wii mini, el poate fi rulat și pe un Wii obișnuit (regular Wii).
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+Acest exploit ajută și repararea consolei din anumite stricări, cum ar fi defecțiuni de banner și (unor) defecțiuni de teme.
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>

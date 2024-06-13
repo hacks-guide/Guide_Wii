@@ -34,6 +34,9 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
 Se você não estiver no Windows, pode baixar & rodar [este script](/assets/files/d2x_offline_ios.sh)e ele vai baixar os arquivos WAD para você.
 {: .notice--info}
 
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+{: .notice--info}
+
 1. Desligue seu console.
 1. Insira seu cartão SD ou armazenamento USB no seu computador.
 1. Baixe, extraia e execute o [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
@@ -68,7 +71,7 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 
     ![](/images/cios/d2x_v11_248.png)
 
-    The warning "`(c)IOS detected in slot ### will be overwriitten`" can be safely ignored.
+    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
     {: .notice--info}
 
     If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.)

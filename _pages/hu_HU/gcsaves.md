@@ -1,5 +1,5 @@
 ---
-title: "GameCube Saves"
+title: "GameCube mentések"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -11,10 +11,10 @@ Use of any GameCube peripheral with a Family Edition Wii or Wii mini require sol
 
 ## Uploading an Individual Save (.gci File) to a Physical Memory Card
 
-### Requirements
+### Követelmények
 
-* A Wii with GameCube ports
-* An SD Card or USB
+* Egy Wii GameCube portokkal
+* Egy SD kártya vagy USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 If you are looking for 100% completion saves online, you can find them [here](https://gamefaqs.gamespot.com/).
@@ -23,7 +23,7 @@ If you are looking for 100% completion saves online, you can find them [here](ht
 If you are looking for save game exploits for booting into [Swiss](https://github.com/emukidid/swiss-gc/releases), you can find a list of them [here](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
 {: .notice--info}
 
-### Instructions
+### Útmutató
 
 #### Downloading
 
@@ -54,21 +54,21 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Backing Up A Save (.gci File) to an SD or USB From a Physical Memory Card
 
-### Requirements
+### Követelmények
 
-* A Wii with GameCube ports
-* An SD Card or USB
+* Egy Wii GameCube portokkal
+* Egy SD kártya vagy USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instructions
+### Útmutató
 
-#### Downloading
+#### Letöltés
 
 1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
 1. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii and launch GCMM from the Homebrew Channel.
 
-#### Backing Up
+#### Mentés
 
 1. Insert your physical memory card into slot A or slot B.
 1. Select the device you want to backup to.
@@ -91,15 +91,15 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Backing Up Your Physical Memory Card Into an Emulated Memory Card (.raw file)
 
-### Requirements
+### Követelmények
 
-* A Wii with GameCube ports
-* An SD Card or USB
+* Egy Wii GameCube portokkal
+* Egy SD kártya vagy USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instructions
+### Útmutató
 
-#### Downloading
+#### Letöltés
 
 1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii and launch GCMM from the Homebrew Channel.
@@ -119,13 +119,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Restoring an Emulated Memory Save to a Physical Memory Card
 
-### Requirements
+### Követelmények
 
-* A Wii with GameCube ports
-* An SD Card or USB
+* Egy Wii GameCube portokkal
+* Egy SD kártya vagy USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instructions
+### Útmutató
 
 1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
 1. If you are restoring a Nintendont emulated memory card save, navigate to the `saves` folder on the root of your SD card or USB.
@@ -143,12 +143,12 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Transferring Saves Between 2 Physical Memory Cards
 
-### Requirements
+### Követelmények
 
-* A Wii with GameCube ports
+* Egy Wii GameCube portokkal
 * At least 2 physical memory cards
 
-### Instructions
+### Útmutató
 
 1. Insert both memory cards into the Wii.
 1. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.

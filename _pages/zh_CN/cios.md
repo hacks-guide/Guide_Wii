@@ -34,6 +34,9 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. 这样�
 如果您不使用 Windows，您可以下载 & 运行[这个脚本](/assets/files/d2x_offline_ios.sh)，它会为您下载 WAD 文件。
 {: .notice--info}
 
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+{: .notice--info}
+
 1. Power off your console.
 1. Insert your SD card or USB drive into your computer.
 1. 下载、解压并运行 [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)。
@@ -71,7 +74,7 @@ Select cIOS version: 65535
 
     ![](/images/cios/d2x_v11_248.png)
 
-    The warning "`(c)IOS detected in slot ### will be overwriitten`" can be safely ignored.
+    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
     {: .notice--info}
 
     If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.) <br> (If you are trying to exit the installer, the button is B, not Home.)

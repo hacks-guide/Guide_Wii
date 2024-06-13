@@ -1,60 +1,61 @@
 ---
-title: d2x cIOS for vWii
+title: d2xl cIOS vWiire (kísérleti)
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
 {% capture technical_info %}
 
-<summary><em>Technical Details (optional)</em></summary>
-cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+<summary><em>Technikai részletek (nem kötelező)</em></summary>
+A cIOS („custom IOS” / „egyéni IOS”)-ek egyéni rendszerfunkciók igénybevételét teszik lehetővé. Ugyan a [cIOS](https://wiibrew.org/wiki/Custom_IOS)-eket nagyrészt kiváltotta az AHBPROT, amely teljes hardveres hozzáférést biztosít, az előbbi továbbra is rendelkezik néhány hasznos képességgel. A cIOS-ek pl. lehetővé teszik az USB-betöltők, mint az USB Loader GX és a WiiFlow, és néhány más program, mint a SaveGame Manager GX működését. Az útmutató ezen része nem kötelező, de ajánlott végigcsinálni, hiszen hátrányok nélkül kiterjeszti a Wiid funkcionalitását.
 
 {% endcapture %}
 
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-This guide is only intended for Wii U (vWii) users. If you have a Wii, follow [this guide](cios) instead. If you have a Wii mini, follow [this guide](cios-mini) instead.
+Az útmutató ezen része csak Wii U (vWii)-felhasználóknak szól. Ha egy sima Wiid van, [ezt az útmutatót](cios) kövesd! Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd!
 {: .notice--warning}
 
-Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing so will likely [brick](bricks#ios-brick) your console.
+Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telepíteni! Ha mégis így tennél, azzal [elronthatod](bricks#ios-brick) a konzolod!
 {: .notice--warning}
 
-### Requirements
+### Követelmények
 
-- A Wii U with the Homebrew channel installed on the vWii
-- An SD card
-- The [d2x cIOS Installer](/assets/files/d2x_cIOS_Installer-vWii.zip).
+- Egy Wii U, aminek a vWiijére telepítve van a Homebrew Channel
+- Egy SD kártya
+- A [d2x cIOS-telepítő](/assets/files/d2x_cIOS_Installer-vWii.zip)
 
-Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
+Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-kapcsoló nyitott állásban legyen, különben a telepítőben nem fogod tudni kiválasztani a helyes beállításokat!
 {: .notice--warning}
 
-### Instructions
+### Útmutató
 
-#### Section I - Installing
+#### I. rész – Telepítés
 
-1. Insert the SD into the Wii U.
-2. Power on your Wii U and launch vWii.
-3. Launch The Homebrew Channel.
-4. Launch d2x cIOS Installer.
-5. Set everything to match the following:
+1. Másold át az `apps` mappát a d2x-cios-installer `.zip` fájlból az SD kártyád gyökerébe.
+2. Vedd ki az SD kártyát a PC-dből és rakd be a Wii U-ba.
+3. Kapcsold be a Wii U-t és lépj vWii módba!
+4. Indítsd el a Homebrew Channelt!
+5. Indítsd el a d2x cIOS Installert!
+6. Állíts be mindent az alábbiak szerint:
    - Select cIOS: `d2x-v11-beta1-vWii`
    - Select cIOS base: `56`
    - Select cIOS slot: `249`
-6. Press the `A` button to install.
-7. Set everything to match the following:
+7. A telepítés indításához nyomd meg az `A`-gombot!
+8. Állíts be mindent az alábbiak szerint:
    - Select cIOS: `d2x-v11-beta1-vWii`
    - Select cIOS base: `57`
    - Select cIOS slot: `250`
-8. Press the `A` button to install.
-9. Set everything to match the following:
-   - Select cIOS: `d2x-v11-beta1-vWii`
-   - Select cIOS base: `58`
-   - Select cIOS slot: `251`
-10. Press the `A` button to install.
-11. Press the `B` button to exit.
+9. A telepítés indításához nyomd meg az `A`-gombot!
+10. Állíts be mindent az alábbiak szerint:
+    - Select cIOS: `d2x-v11-beta1-vWii`
+    - Select cIOS base: `58`
+    - Select cIOS slot: `251`
+11. A telepítés indításához nyomd meg az `A`-gombot!
+12. A kilépéshez nyomd meg a `B`-gombot!
 
-- Once you have finished with all 3 cIOSes, press B to return to the Homebrew Channel.
+- Ha végeztél mind a három cIOS telepítésével, nyomd meg a B-gombot a Homebrew Channelbe való visszatéréshez!
 
-Continue to [Finalizing Setup](vwii-finalizing-setup)
+Folytatás a [telepítés befejezésével](vwii-finalizing-setup)
 {: .notice--info}

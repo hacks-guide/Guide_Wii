@@ -18,7 +18,7 @@ This guide is only intended for Wii users. If you have a Wii mini, follow [this 
 Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely brick your console.
 {: .notice--warning}
 
-### Requirements
+### Gereksinimler
 
 * A Wii
 * An SD card or USB drive
@@ -32,6 +32,9 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 #### Section I - Downloading
 
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
+{: .notice--info}
+
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
 {: .notice--info}
 
 1. Power off your console.
@@ -71,7 +74,7 @@ Select cIOS version: 65535
 
     ![](/images/cios/d2x_v11_248.png)
 
-    The warning "`(c)IOS detected in slot ### will be overwriitten`" can be safely ignored.
+    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
     {: .notice--info}
 
     If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.)

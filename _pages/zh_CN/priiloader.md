@@ -4,7 +4,7 @@ title: "Priiloader"
 
 {% include toc title="Table of Contents" %}
 
-Priiloader 为 Wii 添加了一定程度的变砖保护。 它在 Wii 菜单之前加载（因此得名）。 该工具还能为 Wii 菜单启用修改，并可用于快速启动 Homebrew Channel、BootMii 或任何您想要的自制软件！
+Priiloader 为 Wii 添加了一定程度的变砖保护。 它在 Wii 菜单之前加载（因此得名）。 The tool can also apply hacks that are used to enhance, unlock, and fix many System Menu features.
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
@@ -95,7 +95,7 @@ Later on, to enter it you can:
 1. 向下滚动到 `save settings`，然后按 A。
 1. 按 `B` 回到主菜单。
 
-For more information about Priiloader hacks and other options, you can see the [Priiloader Usage](priiloader-usage) page.
+You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
 {: .notice--info}
 
 [继续浏览 Wii 破解的注意事项](dosanddonts)<br> 这里是一些准则，确保您的 Wii 不会变砖。
@@ -113,5 +113,5 @@ Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a
 
 ### Wii mini: Next Steps
 
-Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
+Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders.
 {: .notice--info}

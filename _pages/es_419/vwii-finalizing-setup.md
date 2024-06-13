@@ -34,6 +34,9 @@ The Mii Channel on the vWii lacks some features, such as connecting to a DS and 
 
 1. You can install `Mii Channel v6 (Wii).wad` with [YAWM Modmii Edition](yawmme)
 
+If you get error -1029 while installing, uninstall the wad, then reinstall it. This does not affect your Miis as they are stored in a different place on the NAND.
+{: .notice--info}
+
 ### Additional Homebrew Apps
 
 All homebrew apps are loaded from the Homebrew Channel.

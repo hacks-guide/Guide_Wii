@@ -16,7 +16,7 @@ If you see the hack `Wiimmfi patch v2` or `Wiimmfi patch v3` instead, then you d
 
 A method for Wiimmfi patching which runs on retail disc games automatically via the Disc Channel.
 
-#### Requirements
+#### Gereksinimler
 + A Wii with an internet connection, on System Menu version 4.3
 + [Priiloader](priiloader) 0.9 or later
 
@@ -41,7 +41,7 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 
 There's an easy method to patch games to use Wiimmfi that can be used whether or not you have homebrew on your Wii.
 
-#### Requirements
+#### Gereksinimler
 
 + Mario Kart Wii Competitions
 + [A Wii with Priiloader 0.9 or later installed](wii-loaders)
@@ -61,7 +61,7 @@ If you get error 20100 or 20110, that means the game is too new for this method.
 Wiimmfi allows you to participate in Mario Kart Wii competitions again.
 {: .notice--warning}
 
-#### Requirements
+#### Gereksinimler
 
 + A Wii with an Internet connection
 
@@ -75,7 +75,7 @@ Wiimmfi allows you to participate in Mario Kart Wii competitions again.
 
 A method for Wiimmfi patching which runs on retail disc games, but must be manually launched via the Homebrew Channel.
 
-#### Requirements
+#### Gereksinimler
 
 + An SD card or USB drive
 + [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
@@ -90,7 +90,7 @@ A method for Wiimmfi patching which runs on retail disc games, but must be manua
 
 A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the EULA User Agreement (derives from [str2hax](str2hax)). Due to the nature of this process, it can be ran on Wiis without homebrew.
 
-#### Requirements
+#### Gereksinimler
 
 + Wii U (vWii)
 
@@ -113,7 +113,7 @@ If you run into UPnP-related issues (such as the patcher getting stuch at "Init 
 
 A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). Due to the nature of this process, it can be ran on Wiis without homebrew. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
 
-#### Requirements
+#### Gereksinimler
 
 + A Wii with an internet connection, running in 60Hz mode
 + The Internet Channel
@@ -130,7 +130,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 A method for Wiimmfi patching which runs on WiiWare games, but must be manually run on a PC via a script.
 
-#### Requirements
+#### Gereksinimler
 
 * An SD card
 * Your copy of your game (in WAD format)
@@ -150,7 +150,7 @@ A method for Wiimmfi patching which runs on WiiWare games, but must be manually 
 
 A method for Wiimmfi patching which runs on game disc images, but must be manually run on a PC via a script.
 
-#### Requirements
+#### Gereksinimler
 
 + A computer with Windows on it (or using Mono or Wine on Mac/Linux)
 + A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
@@ -168,5 +168,5 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 Congrats on making it to the end of the optional section of the main guide! You can go to the site index below if you would like to look for other guides.
 {: .notice--success}
 
-[Click here to go back to the site index.](site-navigation)
+[Site dizinine geri dönmek için burayı tıklayın.](site-navigation)
 {: .notice--info}

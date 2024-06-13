@@ -4,11 +4,11 @@ title: "Priiloader"
 
 {% include toc title="Table of Contents" %}
 
-Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also enable hacks for your Wii Menu, and be used to quickly launch the Homebrew Channel, BootMii, or whatever homebrew you want!
+Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also apply hacks that are used to enhance, unlock, and fix many System Menu features.
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
-### Requirements
+### Gereksinimler
 
 * An SD card or USB drive
 * Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
@@ -95,7 +95,7 @@ Later on, to enter it you can:
 1. Scroll down to `save settings` and press A.
 1. Press `B` to return to the main menu.
 
-For more information about Priiloader hacks and other options, you can see the [Priiloader Usage](priiloader-usage) page.
+You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
 {: .notice--info}
 
 Allows the Wii Menu to launch discs (this is only the Wii Backup Disc) that use IOS16.
@@ -113,5 +113,5 @@ Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a
 
 ### Wii mini: Next Steps
 
-Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders..
+Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders.
 {: .notice--info}

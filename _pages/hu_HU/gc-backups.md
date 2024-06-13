@@ -1,15 +1,15 @@
 ---
-title: "Managing GameCube Backups"
+title: "GameCube-másolatok kezelése"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
-This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
+Ebben az útmutatóban bemutatjuk, hogyan használhatod a GameCube Backup Managert a GameCube-másolataid kezelésére. Ez a program hasonlóan működik a [Wii Backup Managerhez](wii-backups#using-wii-backup-manager).
 
-### Requirements
+### Követelmények
 
-* An SD card or USB drive
-* [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
+* Egy SD kártya vagy pendrive
+* [A GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
 To play multiple games, it is recommended to use an external hard drive for your Wii. Any external hard drive found on most modern marketplaces should work with your Wii.
 {: .notice--info}
@@ -17,20 +17,20 @@ To play multiple games, it is recommended to use an external hard drive for your
 Make sure your USB drive is formatted as FAT32. Do not format it as other types such as NTFS, exFAT, extFS, or WBFS, the latter being an outdated filesystem for storing Wii games.
 {: .notice--info}
 
-### Instructions
+### Útmutató
 
-#### Section I - Downloading
+#### I. rész - Letöltés
 
 1. Extract GameCube Backup Manager, and launch the program.
-1. Insert your USB drive into your computer.
+1. Csatlakoztasd a pendrive-ot a számítógépedbe!
 
-#### Section II - Copying Games Over
+#### II. rész – Játékok átmásolása
 
-1. Open the application and locate the folder button in the bottom right corner. Click on it to open the file explorer window.
+1. Open the application and locate the folder button in the bottom right corner. Kattins rá a Fájlkezelő ablak megnyitásához.
 
     ![](/images/desktop-apps/GCBM/folderbutton.png)
 
-1. Navigate to the location of the folder that contains the game file you want to transfer. This could be on your computer's hard drive or an external storage device. Once you find the folder, select it.
+1. Navigate to the location of the folder that contains the game file you want to transfer. This could be on your computer's hard drive or an external storage device. Ha megtaláltad a mappát, válaszd ki.
 
     ![](/images/desktop-apps/GCBM/selectfolder.png)
 

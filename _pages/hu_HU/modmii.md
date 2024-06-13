@@ -23,7 +23,7 @@ ModMii is an all-in-one Wii hacking tool for Windows created by XFlak that has v
 
 There are two different ways to use ModMii. There is ModMii Classic, which uses a command line interface, but has all of the features available to the program. ModMii Skin has a graphical user interface, on the other hand, but has less options available to the user. If you're looking to simply mod your Wii for the first time, ModMii Skin should suffice. Otherwise, we reccomend using ModMii Classic where possible. <br> The chart below will help you determine what can be done in either interface.
 
-| Tools                      | ModMii Classic | ModMii Skin |
+| Eszközök                   | ModMii Classic | ModMii Skin |
 | -------------------------- | -------------- | ----------- |
 | ModMii Wizard              | ✅              | ✅           |
 | SysCheck Updater Wizard    | ✅              | ⛔           |
@@ -68,14 +68,14 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ### Installing ModMii
 
-#### Requirements
+#### Követelmények
 
-* A Wii
-* A USB drive or SD Card
-* A Windows PC (a Virtual Machine will work)
+* Egy Wii
+* Egy SD kártya vagy USB drive
+* Egy Windows PC (Egy virtuális gép is működni fog.)
 * [ModMii](https://modmii.github.io/)
 
-#### Installation
+#### Telepítés
 
 1. Go to the [ModMii website](https://modmii.github.io) and scroll down to the Download section. Here, select the `Installer` option. Your browser may flag the installer as malware, but it is a **false positive**.
 
@@ -85,7 +85,7 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
     ![](/images/modmii/modmii-install.png)
 
-### Using the ModMii Wizard
+### A ModMii Wizard használata
 
 The ModMii Wizard is tool that can softmod your Wii from start to finish, downloading all necessary files and then generating a guide that you can use to implement the softmod. This tool can also be used to overwrite existing softmods on a previously softmodded Wii.
 

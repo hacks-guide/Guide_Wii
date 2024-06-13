@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Channel and BootMii Installation"
+title: "Homebrew Channel ve BootMii Kurulumu"
 ---
 
 {% include toc title="Table of Contents" %}

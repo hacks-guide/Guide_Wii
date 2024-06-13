@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Wii Hacks Guide"
+title: "Wii Hack útmutató"
 header:
   overlay_color: "#121212"
   overlay_image: /images/main-pages/home-page-feature.jpg
@@ -15,7 +15,7 @@ Since this guide has just been published, translations are a work-in-progress. T
 To get the most out of this guide, you should read this page before proceeding.
 {: .notice--warning}
 
-### What is homebrew?
+### Mi a homebrew?
 
 **Homebrew** refers to software that was not authorized by the original creator of a piece of hardware - in this case, Nintendo. In order to gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
 
@@ -39,8 +39,8 @@ This guide aims to do the following, including optional sections:
 + Modify your Wii using one of many exploits, with the end goal of reaching the HackMii installer
 + Install BootMii and the Homebrew Channel
 + Make a backup of critical system files
-+ Install Priiloader
-+ Install the Open Shop Channel
++ A Priiloader telepítése
++ Az Open Shop Channel telepítése
 + Recommended homebrew to use on your Wii
 + Restore functionality to WiiConnect24 and Nintendo Wi-Fi Connection
 
@@ -53,7 +53,7 @@ This guide aims to do the following, including optional sections:
 + The differences between the Wii and Wii mini are quite significant. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Tread carefully if you are planning to mod one!
 + Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).
 
-### Ready?
+### Kész?
 
 The guide has nine sections in total. These are listed below:
 

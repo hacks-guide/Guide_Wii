@@ -1,5 +1,5 @@
 ---
-title: vWii Modding Guide
+title: vWii Modding útmutató
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -12,24 +12,24 @@ If your Wii U side is already modded, proceed to [Installing the Homebrew Channe
 Your SD Card will need to be formatted as FAT32. If your SD Card is not formatted to FAT32, use [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) with 32k (32768) Allocation unit size to format it. **Do not** label the SD Card as `wiiu` or it will cause issues with homebrew.
 {: .notice--info}
 
-### Requirements
+### Követelmények
 
 - The latest files from [Aroma for your café](https://aroma.foryour.cafe/).
   - Review the preliminal steps, then check all 4 boxes.
   - Double check that nanddumper is selected.
   - Click on `Download Payloads`.
   - Click on `Download Base Aroma`.
-- The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
+- A [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller) legutolsó kiadása.
 
-### Instructions
+### Útmutató
 
 #### Section I - SD Preparations
 
-1. Insert your Wii U's SD Card into your PC.
+1. Helyezd be a Wii U-d SD kártyáját a PC-dbe.
 2. Copy the contents of the downloaded Aroma _`.zip`_ files to the root of your SD Card.
-3. Copy the contents of the `CompatTitleInstaller.zip` file to the root of your SD Card.
+3. Másold a tartalmát a `CompatTitleInstaller.zip` fájlnak az SD kártyád gyökerébe.
 
-SD Card Layout
+SD kártya kiosztás
 
 <details id="Aroma Layout" class="notice--info" markdown="1">
 <summary><a>Click here to show the final SD Card layout.</a></summary>
@@ -73,9 +73,9 @@ Make sure your Wii U has internet access for this step.
 2. Launch the Internet Browser and navigate to the website `wiiuexploit.xyz`.
 3. Click on `Run Exploit!` and hold the B button until you see a screen that says `Please choose your payload:`, this will be necessary for the next steps.
    - If your Wii U gets stuck on a white or otherwise frozen screen, wait a few seconds. If nothing happens, reboot the console, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again.
-   - If you see the EnvironmentLoader, you did not hold down B long enough. Try again.
+   - If you see the EnvironmentLoader, you did not hold down B long enough. Próbáld újra.
 
-#### Section III - NAND Backup
+#### III. rész - NAND mentés
 
 In case anything goes wrong in the later process and your vWii ends up bricked, restoring a previously made NAND backup can fix it.
 

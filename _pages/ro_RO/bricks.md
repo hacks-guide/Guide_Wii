@@ -10,13 +10,13 @@ Un "Brick" de obicei înseamnă că sistemul tău Wii a ajuns într-un stadiu un
 
 Prevenirea unui brick implică multe reguli care variază între gândire logică și backup-uri de rezervă. Iată recomandările generale referitoare la ce să nu faci:
 
-+ **Do NOT follow old modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
-+ **NU FOLOSI, ÎN NICIUN CAZ, APLICAȚIA HOMEBREW `Pimp My Wii`. It is DANGEROUS and does things that have the ability to BRICK YOUR CONSOLE!**
++ **NU urmări tutorialele vechi, folosi homebrew vechi, sau folosi tutoriale video de pe Internet, singura excepție fiind cele care sunt EXPLICIT RECOMANDATE de către dezvoltatorul homebrew.**
++ **NU FOLOSI, ÎN NICIUN CAZ, APLICAȚIA HOMEBREW `Pimp My Wii`. Este PERICULOS și face chestii care au abilitatea de a CAUZA UN BRICK CONSOLEI TALE!**
 + **NU instala pachete IOS precum DARKCORP care înlocuiesc majoritatea IOS-urilor tale cu cIOS. Este PERICULOS și foarte învechit.**
 + **NU restaura backup-uri NAND create de alte console!**
-+ **Do NOT install any IOS that isn't meant for your system** (example: Wii IOS on Wii mini)
-+ **Do NOT attempt region changing methods meant for Wii on the vWii or Wii mini**
-+ **NU folosi un serviciu Nintendo Wi-Fi Connection care nu este știut să fie reparat RCE. Un exemplu de serviciu sigur de folosit este [Wiimmfi](wiimmfi). Doing otherwise could allow a malicious actor to BRICK your Console!**
++ **NU instala niciun IOS care nu este făcut pentru sistemul tău** (exemplu: IOS de la Wii pe Wii mini)
++ **NU încerca să schimbi regiunea prin metode concepute pentru Wii, vWii sau Wii mini**
++ **NU folosi un serviciu Nintendo Wi-Fi Connection care nu este știut să fie reparat RCE. Un exemplu de serviciu sigur de folosit este [Wiimmfi](wiimmfi). Făcând acest lucru permite ca un actor malițios să îți distrugă consola!**
 + **Instalează actualizări doar pentru regiunea ta!**.
     + Instalarea actualizărilor din altă regiune pot să nu aibă niciun efect în cel mai bun caz, dar pot duce la un brick [Korean Kii/Error 003](bricks#korean-kiierror-003-brick) în cel mai rău caz. Pentru a preveni acest lucru, dacă ai cumpărat un Wii care a fost utilizat în trecut, rulează [SysCheck](syscheck) pentru a verifica regiunea originală a consolei tale. Dacă este Coreean, fii EXTREM de atent când aplici actualizări de sistem în consola ta și consideră solicitarea de ajutor pentru asistență suplimentară.
 + **NU șterge sau modifica fișiere de sistem, instala versiuni vechi ale Meniului Wii sau a unui IOS și NU instala nicio modificare de fișier de sistem decât dacă știi ce faci!**
@@ -174,7 +174,7 @@ Deși acest lucru lasă consola Wii într-o situație destul de periculoasă, **
 Acest brick pare să fie identic cu un brick de nivel adânc datorită eșuării Meniului Wii din cauza unui IOS; însă acesta nu este o corupere completă de nivel adânc a memoriei NAND sau o defecțiune de nivel adânc a componentelor sistemului.
 
 #### Cauze
-This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. A stubbed system menu IOS is usually the consequence of attempting to downgrade your Wii menu. Dacă această eroare a început să se întâmple după instalarea unui IOS80 normal într-un Wii mini, vezi [brick de Wi-Fi](bricks#wi-fi-brick).
+Acest brick se întâmplă cel mai des atunci când sistemul IOS al meniului Wii este unul [stub](http://wiibrew.org/wiki/Stub_IOS), sau în cazul în care pe consolă este instalat un tip greșit de IOS. Un IOS stub pentru system menu este de obicei consecința încercării de a face downgrade la Wii menu. Dacă această eroare a început să se întâmple după instalarea unui IOS80 normal într-un Wii mini, vezi [brick de Wi-Fi](bricks#wi-fi-brick).
 
 #### Soluții
 [Recovery mode](recovery-mode) poate sau poate să nu fie accesibil datorită naturii brick-ului, însă Priiloader nu va funcționa aproape niciodată. Dacă nu poți intra în recovery mode, trebuie să ai BootMii ca boot2 pentru a repara asta. Dacă aceste condiții nu sunt îndeplinite, vezi [brick de nivel adânc](bricks#low-level-brick).
@@ -184,7 +184,7 @@ Poți să restaurezi un backup al memoriei NAND sau să faci asta:
 1. Folosește [NUS Downloader](https://wiibrew.org/wiki/NUSD) pentru a construi un fișier WAD al Meniului tău Wii original.
 1. Folosește BootMii pentru a intra în Homebrew Channel și folosește un manager WAD pentru a instala fișierul WAD de Meniu Wii.
 
-For vWii, See [Recover a vWii IOS/Channel](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels)
+Pentru vWii, Vezi [Recuperarea unui Canal/IOS vWii](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels)
 
 ## Brick de Wi-Fi
 

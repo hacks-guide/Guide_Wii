@@ -1,100 +1,100 @@
 ---
-title: "Dumping Wii/GameCube games"
+title: "Wii- és GameCube-játékok másolása"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
-This guide covers dumping GameCube or Wii game discs to a local SD card or USB drive on your Wii.
+Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának módjával, hogy az adatokat egy SD kártyán vagy pendrive-on tárolhasd.
 
-### Dumping a Disc to SD/USB (CleanRip)
+### Lemez másolása SD kártyára / pendrive-ra CleanRippel
 
-#### Requirements
+#### Követelmények
 
-+ An SD card or USB drive with at least 4.7 GB of free space (8.5 GB if dumping a dual layer disc).
-+ [CleanRip](https://oscwii.org/library/app/cleanrip)
++ Egy SD kártya vagy pendrive legalább 4,7 GB szabad hellyel (ha kétrétegű lemezt másolsz le, akkor 8,5 GB szabad hellyel)
++ [A CleanRip](https://oscwii.org/library/app/cleanrip)
 
-#### Preparation
+#### Előkészítés
 
-1. Power off your console.
-1. Insert your SD card or USB drive into your computer.
-1. Copy the `apps` folder from the CleanRip `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
-1. Launch the Homebrew Channel.
-1. Launch CleanRip from the list of homebrew.
-1. When prompted, select `Yes` to calculate disc checksums.
+1. Kapcsold ki a konzolt!
+1. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
+1. Helyezd át az `apps`-mappát a CleanRip `.zip`-fájlból az SD kártya vagy pendrive gyökerére!
+1. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
+1. Kapcsold be a konzolt!
+1. Indítsd el a Homebrew Channelt!
+1. Indítsd el a listáról a CleanRipet!
+1. Amikor a program megkérdezi, hogy „Enable checksum calculations?” („Szeretnéd engedélyezni az ellenőrzőösszeg-kiszámítást?”), válaszolj igennel („`Yes`”)!
 
     ![](/images/homebrew/CleanRip/checksum.png)
 
-1. Select your device that you will be dumping the game to - a USB device or SD card.
+1. Válaszd ki, hogy USB-eszközre vagy SD kártyára szeretnéd másolni a játékot!
 
     ![](/images/homebrew/CleanRip/device.png)
 
-1. Select the filesystem type of the device - in most cases it will be FAT (FAT32).
+1. Válaszd ki az eszköz fájlrendszer-típusát – a legtöbb esetben ez FAT (FAT32)!
 
     ![](/images/homebrew/CleanRip/filesystem.png)
 
-1. Ensure that your device is connected to the system and press A to proceed.
+1. Ellenőrizd, hogy az eszköz jól csatlakozik-e a Wiihez, majd a folytatáshoz nyomd meg az A-gombot!
 
     ![](/images/homebrew/CleanRip/insertdevice.png)
 
-1. When prompted, select `Yes` to download the redump.org DAT files.
-    + This is required to ensure that the resulting dumps are clean/accurate.
+1. Amikor a program megkérdezi, válaszolj igennel („`Yes`”) a redump.org DAT-fájlok leötltésére!
+    + A másolat készítése után ezeknek a fájloknak a segítségével lehet igazolni, hogy a másolatok tiszták/pontosak-e.
 
-    You may get an exception error if you do this. If so, restart your Wii and try again - but if you continue to get exception errors, dump the disc and verify the checksum in Dolphin instead if needed.
+    Lehetséges, hogy a program hibát ír ki, a letöltés megkísérlésénél. Ha ez így történik, akkor indítsd újra a konzolod és próbáld újra! Ha többször is hibát kapsz, akkor a fájlok letöltése nélkül másold le a lemezt, majd később a Dolphin emulátorral ellenőrizd a másolat tisztaságát!
     {: .notice--warning}
 
     ![](/images/homebrew/CleanRip/redump.png)
 
-1. Insert the game disc you would like to dump, and press A to continue.
+1. Helyezd be a másolni kívánt lemezt, majd a folytatáshoz nyomd meg az A-gombot!
 
     ![](/images/homebrew/CleanRip/insertdisc.png)
 
-### Dumping a Wii Disc
+### Egy Wii-lemez lemásolása
 
-As of v2.1.2 of CleanRip, there is an option to auto-detect whether or not the disc you have is dual layer. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
+A CleanRip a 2.1.2-es verziójától kezdve képes automatikusan felismerni, hogy kétrétegű lemezt próbálsz-e lemásolni. Ha egy korábbi verziót használsz és szeretnéd ellenőrizni, hogy a helyes beállításokat adod-e meg, akkor [a kétrétegű lemezes játékok listája](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) a hasznodra válhat.
 {: .notice--info}
 
-If you get an unrecovered read error, ensure that the disc you are attempting to dump is clean and can be properly read by the console. Even though you may be able to play the game disc normally, you may still get this error. If the error persists, try to dump another disc and see if the same error happens.
+Ha a program hibát ír ki, ellenőrizd, hogy a másolni kívánt lemez tiszta-e és, hogy a konzol be tudja-e olvasni! Lehetséges, hogy ezt a hibát a program akkor is kiírja, ha egyébként tudsz játszani a játékkal. Ha a probléma fennáll, próbálj lemásolni egy másik lemezt és ellenőrizni, hogy ott is előjön a hiba!
 {: .notice--warning}
 
-1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
+1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e! Ha nem vagy benne biztos, válaszolj nemmel („`No`”)!
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
-1. Set the settings as shown on the screen below, while verifying if your game disc is dual layer or not.
+1. Állítsd be a lehetőségeket az alábbi képernyőmentés szerint és még egyszer ellenőrizd, hogy a lemezed kétrétegű vagy sem!
 
     ![](/images/homebrew/CleanRip/wiisettings.png)
 
-1. Press A to start dumping the disc.
-    + This process can take quite some time, since it will dump all 4.7 GB of the DVD (8.5 GB for dual layer discs).
+1. A másolási folyamat indításához nyomd meg az A-gombot!
+    + Ez a folyamat eltarthat egy darabig, mivel a program lemásolja a lemez teljes, 4,7 GB-nyi tartalmát (kétrétegű lemezeken 8,5 GB).
 
     ![](/images/homebrew/CleanRip/wiiprogress.png)
 
-1. When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.
+1. Ha korábban engedélyezted a Redump DAT-fájlok letöltését, akkor a másolás befejeztével a program megmutatja a másolat MD5-ellenőrzőösszegét, amit összehasonlíthatsz a Redumpéval.
 
     ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
 
-Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are output, and manage your dumped games.
+A kimeneti PART-fájlok összekapcsolásához és a lemásolt Wii-játékok kezeléséhez ld. a [Wii-másolatok kezelése](wii-backups)-oldalt!
 {: .notice--info}
 
-### Dumping a GameCube Disc
+### Egy GameCube-lemez lemásolása
 
-Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping GameCube games. The Wii Family Edition can dump GameCube games if the disk drive is swapped with one made for an original model Wii.
+Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról másolatot készíteni. Egy Family Editionös Wii csak akkor képes GameCube-játékokról másolatot készíteni, ha a lemezolvasóját kicseréled egy eredeti Wiiből származóra.
 {: .notice--info}
 
-1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
+1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e! Ha nem vagy benne biztos, válaszolj nemmel („`No`”)!
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
-1. Press A to start dumping the disc.
-    + This process can take some time, since it will dump all 1.3 GB of the Mini DVD.
+1. A másolási folyamat indításához nyomd meg az A-gombot!
+    + Ez a folyamat eltarthat egy darabig, mivel a program lemásolja a Mini DVD teljes, 1,3 GB-nyi tartalmát.
 
     ![](/images/homebrew/CleanRip/gcprogress.png)
 
-1. When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.
+1. Ha korábban engedélyezted a Redump DAT-fájlok letöltését, akkor a másolás befejeztével a program megmutatja a másolat MD5-ellenőrzőösszegét, amit összehasonlíthatsz a Redumpéval.
 
     ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
-Proceed to [Managing GameCube Backups](gc-backups) to shrink the size of your output file, and manage your dumped games.
+A kimeneti fájl méretének csökkentéséhez és a lemásolt GameCube-játékok kezeléséhez ld. a [GameCube-másolatok kezelése](gc-backups)-oldalt!
 {: .notice--info}

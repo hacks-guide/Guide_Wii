@@ -16,15 +16,15 @@ If you have a Wii or a Wii mini with an SD card slot soldered, follow [this tuto
 There is no way to restore your NAND backup this way without a hardmod.
 {: .notice--info}
 
-### Requirements
+### Követelmények
 
-* A Wii
-* A USB drive
+* Egy Wii
+* Egy USB drive
 * [Simple IOS Patcher for Wii mini](https://oscwii.org/library/app/SimpleIOSPatcher_Mini)
 * [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
 * [Xyzzy Mod](https://oscwii.org/library/app/xyzzy-mod)
 
-### Instructions
+### Útmutató
 
 #### Section I - Dumping and Patching IOS 36
 
@@ -33,7 +33,7 @@ There is no way to restore your NAND backup this way without a hardmod.
 1. Insert the USB drive into your Wii mini, and launch the Simple IOS Patcher for Wii mini from the Homebrew Channel.
 1. It should start to automatically detect your IOS 36 version and proceed to patch it into slot 236. It will also give you the IOS 236 wad file on your USB.
 
-#### Section II - Dumping the NAND
+#### II. rész - A NAND dumpolása
 
 1. Launch RealWnD for Wii mini from the Homebrew Channel.
 1. It should automatically detect IOS 236 on your Wii mini and apply some runtime patches to begin dumping your NAND.

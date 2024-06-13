@@ -12,7 +12,7 @@ In the case of a brick, [installing Priiloader is a must](/priiloader). Also, in
 Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will brick your Wii.
 {: .notice--warning}
 
-### Requirements
+### Gereksinimler
 
 * A Wii
 * A USB drive.
@@ -42,5 +42,5 @@ Turn off your Wii, then hold down the RESET button down and turn on your Wii. Yo
 Simply enter the Homebrew Channel, and use your WAD manager to uninstall the WAD.
 </div>
 
-[Click here to go back to the site index.](site-navigation)
+[Site dizinine geri dönmek için burayı tıklayın.](site-navigation)
 {: .notice--info}

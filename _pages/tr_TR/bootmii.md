@@ -1,5 +1,5 @@
 ---
-title: "BootMii Backup"
+title: "BootMii Yedekleme"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -9,7 +9,7 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 You need an **SD card** to create a NAND backup using BootMii. If you do not have one, you can skip this page, although it is highly recommended to make a NAND backup if you can.
 {: .notice--warning}
 
-### Requirements
+### Gereksinimler
 
 * An SD card with at least 512MB of free space
 

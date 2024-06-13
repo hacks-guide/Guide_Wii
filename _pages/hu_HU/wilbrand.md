@@ -2,29 +2,29 @@
 title: "Wilbrand"
 ---
 
-{% include toc title="Tartalomjegyzék" %}
-
 Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board. It is compatible with Wii menu versions 3.0 through 4.3 in all regions.
 
 There are two methods listed on this page used to create the proper Wilbrand exploit. Wilbrand Web is recommended for its ease of use.
 {: .notice--info}
 
-### Wilbrand Web (Recommended)
+{% capture wilbrand-web %}
 
-#### Requirements
+### Wilbrand Web
 
-* An SD card formatted to FAT32/MS-DOS that is 32GB or less
-* A Wii on at least version 3.0
+#### Követelmények
+
+* An SD card formatted to FAT32/MS-DOS
+* A Wii on version 3.0 or newer
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Útmutató
 
-1. Power on your console.
-1. Go to `Wii Settings`.
+1. Kapcsold be a konzolt!
+1. Nyisd meg a konzol beállításait (`Wii Settings`)!
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Ez a betű jelzi a rendszermenü régióját, amire később szükséged lesz.
 
     ![](/images/wii/SystemMenuVersion.png)
 
@@ -46,39 +46,46 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Reinsert your SD card into your console.
     + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
 1. On your Wii, return to the Wii Menu.
-1. Launch the Wii Message Board on your Wii.
+1. Open the Wii Message Board.
 1. Open the green letter with a bomb.
+
+    ![](/images/exploits/wilbrand/msgboard.png)
+
     + Ensure the date on your Wii is correct, or you might be unable to find the letter.
     + In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     + If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If there are errors, there may be an issue with the SD card format or the Wii’s SD card reader.
 
-    ![](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
-    + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started).
+1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
+    + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
+    + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 {: .notice--info}
+
+{% endcapture %}
+
+{% capture wilbrand-cli %}
 
 ### Wilbrand CLI
 
-#### Requirements
+#### Követelmények
 
 * A computer running Windows, macOS or Linux
-* An SD card formatted to FAT32/MS-DOS (FAT)
+* An SD card formatted to FAT32/MS-DOS
 * A Wii on version 3.0 or newer
 * [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
-* [HackMii Installer v1.2](https://bootmii.org/download/)
+* [A HackMii-telepítő 1.2-es verziója](https://bootmii.org/download/)
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Útmutató
 
-1. Power on your console.
-1. Go to `Wii Settings`.
+1. Kapcsold be a konzolt!
+1. Nyisd meg a konzol beállításait (`Wii Settings`)!
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Ez a betű jelzi a rendszermenü régióját, amire később szükséged lesz.
 
     ![](/images/wii/SystemMenuVersion.png)
 
@@ -108,7 +115,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Reinsert your SD card into your console.
     + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
 1. On your Wii, return to the Wii Menu.
-1. Launch the Wii Message Board.
+1. Open the Wii Message Board.
 1. Open the green letter with a bomb.
     + Ensure the date on your Wii is correct, or you might be unable to find the letter.
     + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
@@ -116,7 +123,39 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
+    + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
+    + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 {: .notice--info}
+
+{% endcapture %}
+
+<button class="btn btn--large btn--primary tabLink" onClick="select_tab(event, 'wilbrand-web')"> Wilbrand Web </button>
+<button class="btn btn--large btn--info tabLink" onClick="select_tab(event, 'wilbrand-cli')"> Wilbrand CLI </button>
+
+<div class="tabContent tabDefualt" id="wilbrand-web" markdown="1">
+
+{{ wilbrand-web }}
+</div>
+<div class="tabContent" id="wilbrand-cli" markdown="1">
+{{ wilbrand-cli }}
+</div>
+
+<script>
+    const tabContents = document.getElementsByClassName('tabContent');
+    const tabLinks    = document.getElementsByClassName('tabLink');
+
+    for (tab of tabContents) { tab.style.display = 'none'; }
+    document.getElementsByClassName('tabDefualt')[0].style.display = 'block';
+
+    function select_tab(event, tab_id)
+    {
+        for (tab of tabContents) { tab.style.display = 'none'; }
+        for (btn of tabLinks) { btn.className = btn.className.replace('btn--primary', 'btn--info'); }
+
+        document.getElementById(tab_id).style.display = 'block';
+        event.currentTarget.className = event.currentTarget.className.replace('btn--info', 'btn--primary');
+    }
+</script>

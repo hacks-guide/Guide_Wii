@@ -1,14 +1,14 @@
 ---
-title: "Site Navigation"
+title: "Site Navigasyonu"
 layout: single
 sitemap: false
 ---
 
 {% capture notice-1 %}
 **Site**
-+ [Wii Guide](/)
++ [Ana Menü](/)
 + [Start Here](get-started)
-+ [FAQ](faq)
++ [SSS](faq)
 + [Donations](donations)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -22,18 +22,18 @@ sitemap: false
 
 {% capture notice-3 %}
 **Modding 101**
-+ [Credits](bluebomb)
-+ [RiiConnect24](flashhax)
++ [BlueBomb](bluebomb)
++ [FlashHax](flashhax)
 + [Legacy Exploits](legacy-exploits)
-+ [Donations](letterbomb)
-+ [Wiimmfi](Wiimmfi)
++ [LetterBomb](letterbomb)
++ [str2hax](str2hax)
 + [Wiimmfi](wiimmfi)
 {% endcapture %}
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-4 %}
 **Playing Wii Game Mods**
-+ [BootMii Backup](bootmii)
++ [BootMii Yedekleme](bootmii)
 + [BootMii Recovery (RestoreMii)](bootmiirecover)
 + [Types of Bricks](bricks)
 + [Brick Prevention](bricks#brick-prevention)

@@ -2,18 +2,18 @@
 title: "Wilbrand"
 ---
 
-{% include toc title="Sumário" %}
-
 Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board. It is compatible with Wii menu versions 3.0 through 4.3 in all regions.
 
 There are two methods listed on this page used to create the proper Wilbrand exploit. Wilbrand Web is recommended for its ease of use.
 {: .notice--info}
 
-### Wilbrand Web (Recommended)
+{% capture wilbrand-web %}
+
+### Wilbrand Web
 
 #### Requisitos
 
-* An SD card formatted to FAT32/MS-DOS that is 32GB or less
+* An SD card formatted to FAT32/MS-DOS
 * Um Wii pelo menos na versão 3.0
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
@@ -46,26 +46,33 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Extraia o conteúdo do ZIP baixado para a raiz do seu cartão SD.
     + O cartão SD deve ser inserido no slot de cartão SD localizado na frente do Wii. O uso de um adaptador USB conectado à porta USB do Wii não funcionará.
 1. Pegue seu cartão SD e insira-o no seu Wii.
-1. No seu Wii, retorne ao Menu do Wii e então abra o Wii Message Board.
+1. Open the Wii Message Board.
 1. Open the green letter with a bomb.
+
+    ![](/images/exploits/wilbrand/msgboard.png)
+
     + Certifique-se que a data em seu Wii está correta, caso contrário você não poderá encontrar a carta.
     + In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     + Se você não vê a carta verde, cheque se algum erro aparece nas sessões do cartão SD em `Data Management`. Se quaisquer aparecerem, talvez haja um erro com o formato do seu cartão SD ou o leitor de SD do Wii.
 
-    ![](/images/exploits/wilbrand/msgboard.png)
 
 1. O console deverá iniciar o instalador do HackMii.
-    + If this didn't work for you, try [Wilbrand CLI](#wilbrand-cli) or [try another exploit](get-started).
+    + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
+    + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
 [Continue para a Instalação do Homebrew Channel e do BootMii](hbc)
 {: .notice--info}
+
+{% endcapture %}
+
+{% capture wilbrand-cli %}
 
 ### Wilbrand CLI
 
 #### Requisitos
 
 * Um PC executando Windows, MacOS ou Linux
-* Um cartão SD formatado para FAT32/MS-DOS
+* An SD card formatted to FAT32/MS-DOS
 * Um Wii pelo menos na versão 3.0
 * [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 * [Para o Wii original, nós não recomendamos utilizar BlueBomb se você pretende instalar o Homebrew Channel e BootMii, já que existem exploits mais convenientes disponíveis.](https://bootmii.org/download/)
@@ -108,7 +115,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Pegue seu cartão SD e insira-o no seu Wii.
     + O cartão SD deve ser inserido no slot de cartão SD localizado na frente do Wii. O uso de um adaptador USB conectado à porta USB do Wii não funcionará.
 1. No seu Wii, retorne ao Menu do Wii e então abra o Wii Message Board.
-1. Carregue a carta verde com um ícone de Bob-omb.
+1. Open the Wii Message Board.
 1. Open the green letter with a bomb.
     + Certifique-se que a data em seu Wii está correta, caso contrário você não poderá encontrar a carta.
     + Em alguns casos, talvez seja necessário verificar as mensagens do dia anterior ou dia seguinte para que a carta apareça.
@@ -117,6 +124,38 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     ![](/images/exploits/wilbrand/msgboard.png)
 
 1. O console deverá iniciar o instalador do HackMii.
+    + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
+    + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
 [Continue para a Instalação do Homebrew Channel e do BootMii](hbc)
 {: .notice--info}
+
+{% endcapture %}
+
+<button class="btn btn--large btn--primary tabLink" onClick="select_tab(event, 'wilbrand-web')"> Wilbrand Web </button>
+<button class="btn btn--large btn--info tabLink" onClick="select_tab(event, 'wilbrand-cli')"> Wilbrand CLI </button>
+
+<div class="tabContent tabDefualt" id="wilbrand-web" markdown="1">
+
+{{ wilbrand-web }}
+</div>
+<div class="tabContent" id="wilbrand-cli" markdown="1">
+{{ wilbrand-cli }}
+</div>
+
+<script>
+    const tabContents = document.getElementsByClassName('tabContent');
+    const tabLinks    = document.getElementsByClassName('tabLink');
+
+    for (tab of tabContents) { tab.style.display = 'none'; }
+    document.getElementsByClassName('tabDefualt')[0].style.display = 'block';
+
+    function select_tab(event, tab_id)
+    {
+        for (tab of tabContents) { tab.style.display = 'none'; }
+        for (btn of tabLinks) { btn.className = btn.className.replace('btn--primary', 'btn--info'); }
+
+        document.getElementById(tab_id).style.display = 'block';
+        event.currentTarget.className = event.currentTarget.className.replace('btn--info', 'btn--primary');
+    }
+</script>

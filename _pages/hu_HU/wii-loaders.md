@@ -47,12 +47,12 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ### WiiFlow Lite
 
-#### Requirements
-+ A modded Wii
-+ The latest version of [cIOS](cios)
+#### Követelmények
++ Egy moddolt Wii
++ A [cIOS](cios) legutolsó verziója
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
-#### Installation
+#### Telepítés
 
 1. Download WiiFlow and install it on your SD Card or USB device.
 
@@ -93,12 +93,12 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ### USB Loader GX
 
-#### Requirements
-+ A modded Wii
-+ The latest version of [cIOS](cios)
+#### Követelmények
++ Egy moddolt Wii
++ A [cIOS](cios) legutolsó verziója
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
-#### Installation
+#### Telepítés
 
 1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
 1. Download USB Loader GX and install it on your SD Card or USB device.

@@ -1,5 +1,5 @@
 ---
-title: "Donations"
+title: "Gizlilik Politikası"
 ---
 
 ### Cookies
