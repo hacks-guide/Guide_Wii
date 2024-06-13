@@ -18,12 +18,12 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 ### Útmutató
 
-#### Section I - Connecting
+#### I. rész – Csatlakozás
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
 1. Kapcsold be a konzolt!
-1. Go to `Wii Options`.
+1. Menj a `Wii Options`-höz.
 
     ![](/images/riiconnect24/Internet_1.png)
 
@@ -43,22 +43,22 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![](/images/riiconnect24/Internet_6.png)
 
-1. Set `Auto-Obtain DNS` to `No`, then click `Advanced Settings`.
+1. Állítsd be az `Auto-Obtain DNS`-t `No`-ra, majd kattints az `Advanced Settings`-re.
 
     ![](/images/riiconnect24/Internet_7.png)
 
-1. Set the Primary DNS to `18.188.135.9`.
+1. Állítsd be a Primary DNS-t `18.188.135.9`-re.
 
     ![](/images/exploits/str2hax/dns.png)
 
     If there are 3 fields instead of 2 (like above), go back and make sure you are on the `Auto-Obtain DNS` page.
     {: .notice--warning}
 
-1. Click `Confirm`, then click `Save`.
+1. Kattints a `Confirm`-ra, majd a `Save`-re.
 
     ![](/images/riiconnect24/Internet_10.png)
 
-1. When prompted, click `OK` to perform the connection test.
+1. Ha kérdezi, kattints az `OK`-ra, hogy végrehajtsd a csatlakozási tesztet.
 
     ![](/images/riiconnect24/Internet_11.png)
 
@@ -68,12 +68,12 @@ This exploit requires you to set your DNS in order to connect to a server that c
     + If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
     + If it is still unsuccessful, please [use another exploit](get-started).
 
-#### Section II - Triggering the Exploit
+#### II. rész - Az exploit kiváltása
 
 1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
-1. Select `Yes`.
-1. Click on `Next`.
-    + You should be greeted with the following screen:
+1. Válaszd a `Yes`-t.
+1. Kattints a `Next`-re.
+    + A következő képpel kell üdvözöljön:
 
     ![](/images/exploits/str2hax/EULA.png)
 
