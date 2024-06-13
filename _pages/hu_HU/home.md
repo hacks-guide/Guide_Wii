@@ -55,7 +55,7 @@ This guide aims to do the following, including optional sections:
 
 ### Kész?
 
-The guide has nine sections in total. These are listed below:
+Az útmutató összese 9 fejezettel rendelkezik. Ezek az alábbiak:
 
 1. Choosing and using an exploit (REQUIRED)
 1. Installing the Homebrew Channel and BootMii (REQUIRED)
