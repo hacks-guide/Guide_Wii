@@ -6,7 +6,7 @@ title: "Wii-témák"
 
 This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
 
-### Wii Menu Theming
+### Wii Menu témázás
 
 DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) (Wii only) AND [PRIILOADER](priiloader)!
 {: .notice--danger}
@@ -28,10 +28,10 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 #### Téma források
 
-+ [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (.mym file distribution)
-+ [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym file distribution)
-+ [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym file distribution)
-+ [Wii Themer](http://www.wiithemer.org/) (Wii only, online theme builder for specific versions and regions, ready to install .csm themes)
++ [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (.mym fájlok terjesztése)
++ [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym fájlok terjesztése)
++ [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym fájlok terjesztése)
++ [Wii Themer](http://www.wiithemer.org/) (csak Wii, online téma készítő különböző verziókhoz, és régiókhoz, képes a .csm témák telepítésére)
 
 #### Követelmények
 
@@ -86,7 +86,7 @@ Some themes are compatible with the Wii system menu, but aren't compatible with 
 
 4. After selecting the correct version to download, check the box for `Create Decrypted Contents (*.app)`. Then, press the `Start NUS Download` Button on the top of the window.
 
-![The database menu in NUS Downloader.](/images/themes/NUSD-vWii_preview-database.png)
+![Az adatbázis menü a NUS Downloader-ben.](/images/themes/NUSD-vWii_preview-database.png)
 
 ![The main menu of NUS downloader without the database menu open.](/images/themes/NUSD-vWii_sysmenu-versions.png)
 
@@ -142,8 +142,8 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * Egy moddolt Wii
 * Egy SD kártya vagy USB drive
 * [USB Loader GX](wii-loaders#usb-loader-gx)
-* A Linux/macOS/Windows PC with an Internet connection
-* A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
+* Egy Windows/macOS/Linux számítógép internet kapcsolattal
+* Egy [téma](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), ez a link vegyes sötét témákat tartalmaz
 
 #### Útmutató
 
@@ -153,7 +153,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 4. Start USB Loader GX, go to the `Settings` menu, and then go to `Theme Menu`.
 5. Open the theme and install it.
 
-### Homebrew Channel Theming
+### Homebrew Channel témázás
 
 #### Követelmények
 
