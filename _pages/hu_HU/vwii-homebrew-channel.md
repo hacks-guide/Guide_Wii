@@ -11,13 +11,13 @@ Ez az oldal végig vezet a vWii-d moddolásának folyamatán.
 Ha már hackelted a Wii U-dat a múltban, akkor használhatod ugyanazt az SD kártyát ehhez a folyamathoz.
 {: .notice--info}
 
-Ha még nem tetted meg, akkor készíts egy [nand backup](https://wiiu.hacks.guide/#/aroma/nand-backup)-ot és telepítsd az [Aroma Environment](https://aroma.foryour.cafe/) a Wii U-dre . Egyébként folytasd az [Aroma teleptésével](https://wiiu.hacks.guide/#/aroma/getting-started) vagy [A vWii moddolása a Wii U oldal moddolása nélkül](wiiu-nand-dumper)
+If you haven't already, make sure you did a [nand backup](https://wiiu.hacks.guide/#/aroma/nand-backup) and have the [Aroma Environment](https://aroma.foryour.cafe/) installed on your Wii U. Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
 {: .notice--info}
 
 ### Követelmények
 
 - Egy moddolt Wii
-- Az [Aroma környezet](https://aroma.foryour.cafe/)
+- The [Aroma Environment](https://aroma.foryour.cafe/)
 - A [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller) legutolsó kiadása.
 - (Opcionális) Az [Enhanced vWii Aroma Plugin](https://hb-app.store/wiiu/evWii)
 
