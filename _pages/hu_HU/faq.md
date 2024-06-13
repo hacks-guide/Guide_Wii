@@ -22,7 +22,7 @@ Run an Internet connection test by going to `Wii Settings > Internet > Connectio
 
 You are using the old DNS server for RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
 
-##### For non-RiiConnect24 Users
+##### Nem RiiConnect24 felhasználók számára
 
 Your Primary DNS server is incorrect or not working.<br> This can also happen if you use a proxy server and it is down.
 
@@ -30,7 +30,7 @@ Your Primary DNS server is incorrect or not working.<br> This can also happen if
 
 ##### RiiConnect24 felhasználók számára
 
-If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. A RiiConnect24 továbbra is működni fog nélküle. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
 
 ##### Nem RiiConnect24 felhasználók számára
 
