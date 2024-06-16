@@ -80,5 +80,15 @@ Se você conseguiu instalar o BootMii como boot2, mas não quer carregar a tela 
 Você também pode usar o aplicativo [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) no Wii para alterar essas configurações.
 {: .notice--info}
 
+### Uploading NAND Backup to Dolphin Emulator
+
+Your NAND backup can be utilized in Dolphin Emulator.
+
+1. Get the latest beta or developement release of Dolphin Emulator from the [Dolphin Webiste](https://dolphin-emu.org/) and install it to your device.
+1. Open dolphin emulator
+1. Click on the `Tools` tab, scroll down to `Manage NAND`, then select `Import BootMii NAND backup...`.
+1. Locate the `nand.bin` found on the root of your SD card and select open.
+1. If it asks for a `keys.bin`, locate it on the root of your SD and select open.
+
 [Continue to Priiloader Installation](priiloader)<br> Priiloader adds a level of brick protection, and is highly recommended, especially if you were only able to install BootMii as IOS. É especialmente importante para os usuários do BootMii na IOS.
 {: .notice--info}
