@@ -80,5 +80,15 @@ Ha képes voltál boot2 alá telepíteni a BootMiit és nem szeretnéd, hogy bek
 Ezeket a beállításokat a [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor)-alkalmazással is megváltoztathatod.
 {: .notice--info}
 
+### Uploading NAND Backup to Dolphin Emulator
+
+Your NAND backup can be utilized in Dolphin Emulator.
+
+1. Get the latest beta or developement release of Dolphin Emulator from the [Dolphin Webiste](https://dolphin-emu.org/) and install it to your device.
+1. Open dolphin emulator
+1. Click on the `Tools` tab, scroll down to `Manage NAND`, then select `Import BootMii NAND backup...`.
+1. Locate the `nand.bin` found on the root of your SD card and select open.
+1. If it asks for a `keys.bin`, locate it on the root of your SD and select open.
+
 [Folytatás a Priiloader telepítésével](priiloader)<br> A Priiloader egy második réteg védelemmel látja el a Wiit és erősen javasolt a beállítása, még ha boot2 alá is telepítetted a BootMiit. A BootMii IOS-es felhasználóinak számára kiemelten fontos.
 {: .notice--info}
