@@ -80,5 +80,15 @@ BootMii позволяет создавать и восстанавливать 
 Вы, также, можете использовать homebrew-приложение [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) на Wii для изменения этих настроек.
 {: .notice--info}
 
+### Uploading NAND Backup to Dolphin Emulator
+
+Your NAND backup can be utilized in Dolphin Emulator.
+
+1. Get the latest beta or developement release of Dolphin Emulator from the [Dolphin Webiste](https://dolphin-emu.org/) and install it to your device.
+1. Open dolphin emulator
+1. Click on the `Tools` tab, scroll down to `Manage NAND`, then select `Import BootMii NAND backup...`.
+1. Locate the `nand.bin` found on the root of your SD card and select open.
+1. If it asks for a `keys.bin`, locate it on the root of your SD and select open.
+
 [Продолжить к установке Priiloader](priiloader)<br> Priiloader добавляет второй уровень защиты от окирпичивания, и его установка настоятельно рекомендуется даже если BootMii установлен в качестве boot2. Он особенно важен для пользователей BootMii в IOS.
 {: .notice--info}
