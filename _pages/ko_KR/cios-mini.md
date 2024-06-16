@@ -7,16 +7,21 @@ title: "Wii 미니를 위한 d2xl cIOS (실험 단계)"
 이 자습서와 관련하여 도움이 필요하면 [Wii 미니 해킹 디스코드 서버](https://discord.gg/6ryxnkS) (추천) 에 가입하세요.
 {: .notice--info}
 
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. 이제 [USB Loader GX](usbloadergx) 및 [WiiFlow](wiiflow)와 같은 홈브류를 사용할 수 있습니다. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
-
-이 가이드는 Wii 미니 사용자만 대상으로 합니다. Wii를 사용하는 경우, [이 가이드](cios)를 따르세요.
-{: .notice--warning}
-
-Wii 미니에 Wii IOS 또는 시스템 메뉴를 설치하려고 시도하지 마세요. 그렇게 하면 콘솔이 망가질 가능성이 높습니다.
-{: .notice--warning}
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. 이제 [USB Loader GX](usbloadergx) 및 [WiiFlow](wiiflow)와 같은 홈브류를 사용할 수 있습니다. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
 이 d2x cIOS 설치 프로그램은 원래 DaveBaol이 Wii U의 vWii용으로 개발했으며, 커스텀 cIOS는 Leseratte가 Wii 미니용으로 만들었습니다. 원본 다운로드 페이지는 [여기](https://wii.leseratte10.de/d2xl-cIOS/)에서 확인할 수 있습니다. Leseratte의 Github 페이지는 [여기](https://github.com/Leseratte10/d2xl-cios)에서 확인할 수 있습니다. 이 cIOS는 아직 실험 단계이지만 기능에 대한 문제는 보고되지 않았습니다.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
+
+이 가이드는 Wii 미니 사용자만 대상으로 합니다. Wii를 사용하는 경우, [이 가이드](cios)를 따르세요. If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+{: .notice--warning}
+
+Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. 그렇게 하면 콘솔이 망가질 가능성이 높습니다.
+{: .notice--warning}
 
 ### 필요한 것
 

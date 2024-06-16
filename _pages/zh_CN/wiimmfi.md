@@ -4,7 +4,7 @@ title: "转到 NDS Wi-Fi 设置。"
 
 {% include toc title="Table of Contents" %}
 
-Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. While different games were supported for longer than others, all games are no longer able to play through conventional means as of August 2023. To regain Nintendo WFC functionality, this guide provides instructions on installing Wiimmfi. 有许多不同的方法可以连接到 Wiimmfi。 选择最适合您需求的方法。
+Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. While different games were supported for longer than others, all games are no longer able to play through conventional means as of August 2023. To regain Nintendo WFC functionality, this guide provides instructions on installing Wiimmfi. 有许多不同的方法可以连接到 Wiimmfi。 While different games were supported for longer than others, all games are no longer able to play through conventional means as of August 2023. To regain Nintendo WFC functionality, this guide provides instructions on installing Wiimmfi. 有许多不同的方法可以连接到 Wiimmfi。 选择最适合您需求的方法。
 
 完成后，从 `wiimmfi-images` 文件夹中获取版本（它可能位于 patcher 外部的文件夹中 - ../wiimmfi-images），然后将其复制回您的 USB。<br>
 {: .notice--warning}
@@ -14,7 +14,7 @@ Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, 
 如果您看到 hack `Wiimmfi patch v2` 或 `Wiimmfi patch v3` ，那么您的 hacks_hash.ini 文件版本不是最新的，您需要[重新安装 Priiloader](priiloader)。 You must reinstall Priiloader, the guide to which can be found in the requirements section.
 {: .notice--warning}
 
-通过光盘频道启动您的游戏。 它应该已用 Wiimmfi 修补。
+A method for Wiimmfi patching which runs on retail game discs automatically through the usage of a custom DNS server. While convinient, it only works with a small selection of games including Mario Kart Wii and SSBB. Due to the nature of this process, it can be run on Wiis without homebrew.
 
 #### Requirements
 + A Wii with an internet connection, on System Menu version 4.3
@@ -22,7 +22,7 @@ Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, 
 
 #### Instructions
 
-1. Hold the RESET button while turning on your Wii. 如果使用 Wii Mini，插入 USB 键盘并在打开时按住 Esc。
+1. Hold the RESET button while turning on your Wii. 如果使用 Wii Mini，插入 USB 键盘并在打开时按住 Esc。 如果使用 Wii Mini，插入 USB 键盘并在打开时按住 Esc。
 1. 你应该会看到 Priiloader 菜单。
 
     ![](/images/priiloader/mainmenu.jpg)
@@ -35,11 +35,11 @@ Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, 
 
 1. 转到 `Change Settings（更改设置）`。
 1. Return to the main menu, and press `System Menu` to return to the Wii Menu.
-1. MrBean35000vr（CTGP-R 的作者，马里奥赛车 Wii 的自定义纹理包）创建了 Wiimmfi Disc Patcher，它允许你插入光盘并即时对游戏打 Wiimmfi 补丁，不过每次启动光盘都需要运行该补丁。
+1. A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the EULA User Agreement (derives from [str2hax](str2hax)). Due to the nature of this process, it can be ran on Wiis without homebrew.
 
 ### 使用 USB Loader 自动修补
 
-有一种简单的方法可以为游戏应用 Wiimmfi 补丁，无论您的 Wii 上是否有自制软件都可以使用。 此方法适用于一些旧游戏，比如《马里奥赛车Wii》和《任天堂明星大乱斗X》，但并非适用于所有游戏。
+A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). Due to the nature of this process, it can be ran on Wiis without homebrew. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
 
 #### Requirements
 
@@ -48,8 +48,8 @@ Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, 
 
 #### Instructions
 
-1. Open the game or global settings for your specific USB loader and search for the `Private Server` option. By default, it will be set to `Off`.
-1. Set the option to `Wiimmfi` and save the settings. By default, games should now be automatically patched for Wiimmfi.
+1. Open the game or global settings for your specific USB loader and search for the `Private Server` option. By default, it will be set to `Off`. By default, it will be set to `Off`.
+1. Set the option to `Wiimmfi` and save the settings. Set the option to `Wiimmfi` and save the settings. By default, games should now be automatically patched for Wiimmfi.
 
 ### Automatic Disc Patching via Custom DNS
 
@@ -67,7 +67,7 @@ A method for Wiimmfi patching which runs on retail game discs automatically thro
 
 #### Instructions
 
-1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. 将主要 DNS 设置为 `95.217.77.181`。
+1. 转到 `Wii Settings（Wii 设置）`。 转到 `Auto-Obtain DNS（自动获取 DNS）`（不是 IP 地址），然后选择 `否`，然后选择 `Advanced Settings（高级设置）`。 Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
 1. 如果您使用 Wii U，每当您想检查比赛时，您将不得不运行 competitions patcher，因为 Wii U 未启用 WiiConnect24。
 1. 现在，游戏应该在包含 Wiimmfi 补丁的情况下启动。
 
@@ -97,14 +97,14 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 #### Instructions
 
 1. 插入您的游戏光盘。
-1. 转到 `Wii Settings（Wii 设置）`。 转到 `Auto-Obtain DNS（自动获取 DNS）`（不是 IP 地址），然后选择 `否`，然后选择 `Advanced Settings（高级设置）`。 Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
+1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. 将主要 DNS 设置为 `95.217.77.181`。 转到 `Auto-Obtain DNS（自动获取 DNS）`（不是 IP 地址），然后选择 `否`，然后选择 `Advanced Settings（高级设置）`。 Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
 
     ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
 1. 如果连接测试成功，请选择 `否` 以跳过 Wii 系统更新。
-1. Go back twice to `Internet`, and press `User Agreements`. 确认您要使用 WC24 和 shop channel
+1. Go back twice to `Internet`, and press `User Agreements`. 确认您要使用 WC24 和 shop channel 确认您要使用 WC24 和 shop channel
 1. 应该显示 Wiimmfi patcher 页面。 如果没有显示出来，而是仍然看到默认的许可协议，那么您的路由器可能不兼容这种方法。
-1. 解压 Auto Wiimmfi Patcher 到 SD 卡或 U 盘的根目录。
+1. The Wiimmfi patcher should begin. Be patient, as Flashhax can be very unreliable - it may take several tries to get right.
 
 ### Manual Disc Patching via Internet Channel
 
@@ -124,7 +124,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 1. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
 1. 打开 Wii 的同时按住 RESET 按钮。
 1. Open the Internet Channel again and access the favorite you just made.
-1. The Wiimmfi patcher should begin. Be patient, as Flashhax can be very unreliable - it may take several tries to get right.
+1. 它应该已用 Wiimmfi 修补。 Be patient, as Flashhax can be very unreliable - it may take several tries to get right.
 
 ### 修补 WiiWare
 
@@ -160,12 +160,12 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 
 1. Download the patcher and extract the `.zip` file.
 1. 您的游戏副本（支持 WBFS、ISO、cISO 等 Wii 支持的其它格式）。
-    + If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
+    + If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
     + If you're on MacOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
     + If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
-1. If the above was successful, you should see a window pop-up that displays the patching process. Once the process finishes, you will find the patched images in a folder called `wiimmfi-images`.
+1. If the above was successful, you should see a window pop-up that displays the patching process. If the above was successful, you should see a window pop-up that displays the patching process. Once the process finishes, you will find the patched images in a folder called `wiimmfi-images`.
 
-Congrats on making it to the end of the optional section of the main guide! You can go to the site index below if you would like to look for other guides.
+Congrats on making it to the end of the optional section of the main guide! You can go to the site index below if you would like to look for other guides. You can go to the site index below if you would like to look for other guides.
 {: .notice--success}
 
 [Click here to go back to the site index.](site-navigation)

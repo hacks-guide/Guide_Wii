@@ -5,10 +5,10 @@ main:
     url: /
   - 
     title: Per Iniziare
-    url: per-iniziare
+    url: get-started
   - 
     title: Navigazione del Sito
-    url: navigazione-sito
+    url: site-navigation
   - 
     title: FAQ
     url: faq
@@ -24,7 +24,7 @@ footer:
     url: https://github.com/hacks-guide/Guide_Wii
   - 
     title: Navigazione del Sito
-    url: navigazione-sito
+    url: site-navigation
   - 
     title: Informativa sulla Privacy
     url: privacy-policy
@@ -40,7 +40,7 @@ sidebar_pages:
     url: /
   - 
     title: Per Iniziare
-    url: per-iniziare
+    url: get-started
   - 
     title: LetterBomb
     url: letterbomb

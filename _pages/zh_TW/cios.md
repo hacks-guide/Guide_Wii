@@ -4,9 +4,18 @@ title: "安裝 cIOS"
 
 {% include toc title="條目內容" %}
 
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. You can now use homebrew such as [USB Loader GX](usbloadergx) and [WiiFlow](wiiflow). You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. You can now use homebrew such as [USB Loader GX](usbloadergx) and [WiiFlow](wiiflow). You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
-如果您有 Wii mini，請安裝[此 cIOS](cios-mini)。 Wii mini 上無法正常安裝任何其他 cIOS。
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+This guide is only intended for Wii users. If you have a Wii mini, follow [this guide](cios-mini) instead. If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+{: .notice--warning}
+
+Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely [brick](bricks#ios-brick) your console.
 {: .notice--warning}
 
 ### 必備項目
@@ -22,11 +31,10 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 #### Section I - Downloading
 
-However, If you encounter any errors like `tcp_read timeout` and `net_gethostbyname failed:`, this will allow the Wii to skip the downloading step.
-{: .notice--warning}
-{: .notice--warning}
-
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
+{: .notice--info}
+
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
 {: .notice--info}
 
 1. Power off your console.
@@ -36,7 +44,7 @@ If you are not on Windows, you may download & run [this script](/assets/files/d2
 1. Run `NUS Downloader.exe`.
 1. Select "Database", "IOS", then "IOS38", and select "v4123".
     + Ensure that "Pack WAD" is checked.
-    + *Don't* check "Patch IOS". That is the cIOS Installer's job. That is the cIOS Installer's job.
+    + *Don't* check "Patch IOS". That is the cIOS Installer's job. That is the cIOS Installer's job. That is the cIOS Installer's job.
 1. Click `Start NUS Download!`.
 1. Repeat the step 2 & 3 for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
 1. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
@@ -66,13 +74,13 @@ Select cIOS version: 65535
 
     ![](/images/cios/d2x_v11_248.png)
 
-    The warning "`(c)IOS detected in slot ### will be overwriitten`" can be safely ignored.
+    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
     {: .notice--info}
 
-    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.)
+    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.) <br> (If you are trying to exit the installer, the button is B, not Home.)
     {: .notice--info}
 
-1. Press `A`. This will bring you to the slot map:
+1. Press `A`. Press `A`. This will bring you to the slot map:
 
     ![](/images/cios/d2x_summary.png)
 
@@ -80,14 +88,14 @@ Select cIOS version: 65535
 
     ![](/images/cios/d2x_installation.png)
 
-1. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
+1. After the installation has finished, you will be brought back to the slot map. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
 
     ![](/images/cios/d2x_log.png)
 
-    If the slot is highlighted red, try install the cIOS again. <br> If you are getting an error before/during the downloading stages, press B to exit and continue from [Section I](#section-i---downloading).
+    If the slot is highlighted red, try install the cIOS again. <br> If you are getting an error before/during the downloading stages, press B to exit and continue from [Section I](#section-i---downloading). <br> If you are getting an error before/during the downloading stages, press B to exit and continue from [Section I](#section-i---downloading).
     {: .notice--info}
 
-1. Press `A`. This will return you to the configuration screen.
+1. Press `A`. Press `A`. This will return you to the configuration screen.
 1. Repeat the previous 5 steps with the following configurations:
 
     + Install cIOS 249

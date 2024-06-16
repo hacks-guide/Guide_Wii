@@ -7,16 +7,21 @@ title: "d2xl cIOS per Wii mini (sperimentale)"
 Se hai bisogno di assistenza riguardo qualunque cosa in questo tutorial, entra nel [server Discord di Wii mini Hacking](https://discord.gg/6ryxnkS) (consigliato)
 {: .notice--info}
 
-Nonostante i [cIOS](https://wiibrew.org/wiki/Custom_IOS) siano stati largamenti soppiantati da AHBPROT, che dà accesso hardware completo, essi hanno comunque delle applicazioni utili. Per esempio, questo permette la funzionalità di USB loader come USB Loader GX e WiiFlow, insieme ad altre applicazioni homebrew come SaveGame Manager GX. Puoi saltare questo processo se vuoi, ma normalmente migliore il tuo Wii con quasi nessun lato negativo.
-
-Questa guida è destinata solo agli utenti del Wii mini. Se hai un Wii, segui [questa guida](cios) invece.
-{: .notice--warning}
-
-Non provare a installare degli IOS o il Menu di Sistema del Wii sul Wii Mini. Farlo [brickerà](bricks#ios-brick) probabilmente la tua console.
-{: .notice--warning}
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+cIOS (Custom IOS) are IOS that are patched to allow custom functionality. Nonostante i [cIOS](https://wiibrew.org/wiki/Custom_IOS) siano stati per la maggior parte soppiantati da AHBPROT, che dà l'accesso completo all'hardware, essi hanno comunque delle applicazioni utili. Per esempio, questo permette la funzionalità di USB loader come USB Loader GX e WiiFlow, insieme ad altre applicazioni homebrew come SaveGame Manager GX. Puoi saltare questo processo se vuoi, ma normalmente migliore il tuo Wii con quasi nessun lato negativo.
 
 Questo d2x cIOS installer era stato originariamente sviluppato per il vWii del Wii U da DaveBaol e il cIOS personalizzato era stato creato da Leseratte per il Wii mini. La pagina originale di download può essere trovata [qui](https://wii.leseratte10.de/d2xl-cIOS/). La pagina GitHub di Leseratte può essere trovata [qui](https://github.com/Leseratte10/d2xl-cios). Per favore nota che questo cIOS è sempre sperimentale, anche se non sono stati segnalati problemi di funzionalità.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
+
+Questa guida è destinata solo agli utenti del Wii mini. Se hai un Wii, segui [questa guida](cios) invece. If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+{: .notice--warning}
+
+Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Farlo [brickerà](bricks#ios-brick) probabilmente la tua console.
+{: .notice--warning}
 
 ### Requisiti
 
@@ -61,5 +66,5 @@ Se desideri usare Wiimmfi con Ethernet su un Wii mini, devi eseguire l'[Ethernet
 Le console Wii e Wii mini sono note per funzionare solo con adattatori Ethernet che usano il chip AX88772. Per favore controlla che il prodotto sia compatibile prima di comprarlo. Questo da UGREEN è noto per essere compatibile: [Amazon EU](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
 {: .notice--info}
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}

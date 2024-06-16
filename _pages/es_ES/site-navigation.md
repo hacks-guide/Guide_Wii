@@ -43,9 +43,10 @@ sitemap: false
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
 + [Volver a lanzar el HackMii Installer](hackmii)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Updating Wii Menu to v4.3](update)
-+ [Restoring the Wii NAND to Stock](wii-factory-reset)
-+ [riitag-wiiu](wnd-mini)
++ [Recovery Mode](recovery-mode)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + Instalar WADs con YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 
@@ -59,15 +60,25 @@ sitemap: false
 + [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
-+ [Instalar RSSMii](rssmii)
 + [Transferring Save Games](transfer-saves)
-+ [USB Loader GX](wii-loaders)
++ [Wii Backup Loaders](wii-loaders)
 + [Performing a SysCheck](syscheck)
 + Installing Wii Menu Themes on vWii
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
+**vWii**
++ [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
++ [Wii U NAND Dumper](wiiu-nand-dumper)
++ [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
++ [Installing cIOS on the vWii](cios-vwii)
+{% endcapture %}
+<div class="notice--primary">{{ notice-6 | markdownify }}</div>
+
+{% capture notice-7 %}
 **Wii mini**
 + [Instalación del Canal Homebrew en el Wii Mini](hbc-mini)
-+ Instalación de cIOS en el Wii Mini
-<div class="notice--primary">{{ notice-6 | markdownify }}</div>
++ [Installing cIOS on the Wii mini](cios-mini)
++ [Wii mini NAND Dumper](wnd-mini)
+{% endcapture %}
+<div class="notice--primary">{{ notice-7 | markdownify }}</div>

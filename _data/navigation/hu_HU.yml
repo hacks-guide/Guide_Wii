@@ -1,45 +1,45 @@
 ---
 main:
   - 
-    title: Home
+    title: Kezdőlap
     url: /
   - 
-    title: Get Started
+    title: Kezdés
     url: get-started
   - 
-    title: Site Navigation
+    title: Honlapnavigáció
     url: site-navigation
   - 
-    title: FAQ
+    title: GYIK
     url: faq
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: Ez a honlap sütiket használ az útmutatókban való haladás mutatásához és a honlap egyéb funkciójaihoz.
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: Angol nyelvű segítségkéréshez keresd fel a <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew Discord-szervert</a>!
 footer:
   - 
-    title: Source
+    title: Forráskód
     url: https://github.com/hacks-guide/Guide_Wii
   - 
-    title: Site Navigation
+    title: Honlapnavigáció
     url: site-navigation
   - 
-    title: Privacy Policy
+    title: Adatvédelmi irányelvek
     url: privacy-policy
   - 
-    title: Donations
+    title: Adományozás
     url: donations
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Teljes haladás
 sidebar_pages:
   - 
-    title: Home
+    title: Kezdőlap
     url: /
   - 
-    title: Get Started
+    title: Kezdés
     url: get-started
   - 
     title: LetterBomb
@@ -57,16 +57,16 @@ sidebar_pages:
     title: Wilbrand
     url: wilbrand
   - 
-    title: Multiple Options
+    title: Több lehetőség
     url: multiple-options
   - 
-    title: Homebrew Channel and BootMii Installation
+    title: A Homebrew Channel és BootMii telepítése
     url: hbc
   - 
-    title: Homebrew Channel - for Wii mini only
+    title: Homebrew Channel – csak Wii mini-konzolokra
     url: hbc-mini
   - 
-    title: BootMii Backup
+    title: BootMii biztonsági mentés
     url: bootmii
   - 
     title: Priiloader
@@ -75,11 +75,8 @@ sidebar_pages:
     title: Open Shop Channel
     url: osc
   - 
-    title: d2xl cIOS for Wii mini (experimental)
+    title: d2xl cIOS Wii mini-konzolokra (kísérleti)
     url: cios-mini
   - 
-    title: d2xl cIOS for Wii mini (experimental)
-    url: cios-mini
-  - 
-    title: Wii mini NAND Dumper
+    title: Wii mini NAND-leképező
     url: wnd-mini

@@ -4,17 +4,17 @@ title: "Managing GameCube Backups"
 
 {% include toc title="條目內容" %}
 
-This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
+This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager). It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
 
 ### 必備項目
 
 * 一張 SD 卡或 USB 隨身碟
 * [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
-To play multiple games, it is recommended to use an external hard drive for your Wii. Any external hard drive found on most modern marketplaces should work with your Wii. Any external hard drive found on most modern marketplaces should work with your Wii.
+To play multiple games, it is recommended to use an external hard drive for your Wii. Any external hard drive found on most modern marketplaces should work with your Wii. To play multiple games, it is recommended to use an external hard drive for your Wii. Any external hard drive found on most modern marketplaces should work with your Wii. Any external hard drive found on most modern marketplaces should work with your Wii.
 {: .notice--info}
 
-Make sure your USB drive is formatted as FAT32. Make sure your USB drive is formatted as FAT32. Do not format it as other types such as NTFS, exFAT, extFS, or WBFS, the latter being an outdated filesystem for storing Wii games.
+Make sure your USB drive is formatted as FAT32. Make sure your USB drive is formatted as FAT32. Make sure your USB drive is formatted as FAT32. Do not format it as other types such as NTFS, exFAT, extFS, or WBFS, the latter being an outdated filesystem for storing Wii games.
 {: .notice--info}
 
 ### Instructions
@@ -26,11 +26,11 @@ Make sure your USB drive is formatted as FAT32. Make sure your USB drive is form
 
 #### 第二節 — 複製遊戲至主機中
 
-1. Open the application and locate the folder button in the bottom right corner. Click on it to open the file explorer window. Click on it to open the file explorer window.
+1. Open the application and locate the folder button in the bottom right corner. Click on it to open the file explorer window. Open the application and locate the folder button in the bottom right corner. Click on it to open the file explorer window. Click on it to open the file explorer window.
 
     ![](/images/desktop-apps/GCBM/folderbutton.png)
 
-1. Navigate to the location of the folder that contains the game file you want to transfer. This could be on your computer's hard drive or an external storage device. Once you find the folder, select it.
+1. Navigate to the location of the folder that contains the game file you want to transfer. This could be on your computer's hard drive or an external storage device. Once you find the folder, select it. This could be on your computer's hard drive or an external storage device. Once you find the folder, select it.
 
     ![](/images/desktop-apps/GCBM/selectfolder.png)
 
@@ -42,7 +42,7 @@ Make sure your USB drive is formatted as FAT32. Make sure your USB drive is form
 
     ![](/images/desktop-apps/GCBM/installgame.png)
 
-Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size. For some games this can be a major reduction, for example with Animal Crossing - going from 1.3GB to around 26MB.
+Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size. For some games this can be a major reduction, for example with Animal Crossing - going from 1.3GB to around 26MB. For some games this can be a major reduction, for example with Animal Crossing - going from 1.3GB to around 26MB.
 {: .notice--info}
 
 [Click here to go back to the site index.](site-navigation)

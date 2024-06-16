@@ -43,9 +43,10 @@ sitemap: false
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
 + [重新启动 HackMii Installer](hackmii)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [更新 Wii 菜单至 v4.3](update)
-+ [Restoring the Wii NAND to Stock](wii-factory-reset)
-+ [riitag-wiiu](wnd-mini)
++ [Recovery Mode](recovery-mode)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 
@@ -59,15 +60,25 @@ sitemap: false
 + [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
-+ [安装 RSSMii](rssmii)
 + [Transferring Save Games](transfer-saves)
-+ [USB Loader GX](wii-loaders)
++ [Wii Backup Loaders](wii-loaders)
 + [执行 SysCheck](syscheck)
 + 安装 Wii 菜单主题
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
+**vWii**
++ [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
++ [Wii U NAND Dumper](wiiu-nand-dumper)
++ [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
++ [Installing cIOS on the vWii](cios-vwii)
+{% endcapture %}
+<div class="notice--primary">{{ notice-6 | markdownify }}</div>
+
+{% capture notice-7 %}
 **Wii mini**
 + [在 Wii mini 上安装 Homebrew Channel](hbc-mini)
-+ 在 Wii mini 上安装 cIOS
-<div class="notice--primary">{{ notice-6 | markdownify }}</div>
++ [Installing cIOS on the Wii mini](cios-mini)
++ [Wii mini NAND Dumper](wnd-mini)
+{% endcapture %}
+<div class="notice--primary">{{ notice-7 | markdownify }}</div>

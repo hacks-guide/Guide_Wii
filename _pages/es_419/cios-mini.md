@@ -1,5 +1,5 @@
 ---
-title: "d2xl cIOS for Wii mini (experimental)"
+title: "d2xl cIOS para Wii mini (experimental)"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -7,16 +7,21 @@ title: "d2xl cIOS for Wii mini (experimental)"
 If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
 {: .notice--info}
 
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
-
-This guide is only intended for Wii mini users. If you have a Wii, follow [this guide](cios) instead.
-{: .notice--warning}
-
-Do not attempt to install a Wii IOS or System Menu on the Wii mini. Doing so will likely brick your console.
-{: .notice--warning}
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
 This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBaol and custom cIOS was created by Leseratte for the Wii mini. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's Github page can be found [here](https://github.com/Leseratte10/d2xl-cios). Please note that this cIOS is still experimental, though no problem with functionality has been reported.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
+
+This guide is only intended for Wii mini users. If you have a Wii, follow [this guide](cios) instead. If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+{: .notice--warning}
+
+Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing so will likely brick your console.
+{: .notice--warning}
 
 ### Requirements
 
@@ -34,7 +39,7 @@ This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBao
 1. Extract the d2xl cIOS Installer to the `apps` folder on your USB drive.
 1. Reinsert your USB drive into your console.
 1. Power on your console.
-1. Launch the Homebrew Channel.
+1. Launch the Homebrew Channel on your Wii.
 1. Launch d2xl cIOS Installer from the list of homebrew.
 
 #### Section II - Installing

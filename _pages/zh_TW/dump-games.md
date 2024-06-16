@@ -41,7 +41,7 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 1. When prompted, select `Yes` to download the redump.org DAT files.
     + This is required to ensure that the resulting dumps are clean/accurate.
 
-    You may get an exception error if you do this. If so, restart your Wii and try again - but if you continue to get exception errors, dump the disc and verify the checksum in Dolphin instead if needed.
+    You may get an exception error if you do this. You may get an exception error if you do this. If so, restart your Wii and try again - but if you continue to get exception errors, dump the disc and verify the checksum in Dolphin instead if needed.
     {: .notice--warning}
 
     ![](/images/homebrew/CleanRip/redump.png)
@@ -52,13 +52,13 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 ### Dumping a Wii Disc
 
-As of v2.1.2 of CleanRip, there is an option to auto-detect whether or not the disc you have is dual layer. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
+As of v2.1.2 of CleanRip, there is an option to auto-detect whether or not the disc you have is dual layer. As of v2.1.2 of CleanRip, there is an option to auto-detect whether or not the disc you have is dual layer. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
 {: .notice--info}
 
-If you get an unrecovered read error, ensure that the disc you are attempting to dump is clean and can be properly read by the console. Even though you may be able to play the game disc normally, you may still get this error. If the error persists, try to dump another disc and see if the same error happens.
+If you get an unrecovered read error, ensure that the disc you are attempting to dump is clean and can be properly read by the console. Even though you may be able to play the game disc normally, you may still get this error. If the error persists, try to dump another disc and see if the same error happens. Even though you may be able to play the game disc normally, you may still get this error. If the error persists, try to dump another disc and see if the same error happens.
 {: .notice--warning}
 
-1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
+1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`. If unsure, select `No`.
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
@@ -80,7 +80,10 @@ Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are o
 
 ### Dumping a GameCube Disc
 
-1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
+Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping GameCube games. The Wii Family Edition can dump GameCube games if the disk drive is swapped with one made for an original model Wii.
+{: .notice--info}
+
+1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`. If unsure, select `No`.
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 

@@ -2,32 +2,29 @@
 title: "Wilbrand"
 ---
 
-{% include toc title="Table of Contents" %}
-
-Wilbrand, like LetterBomb, is an exploit for the Wii that is triggered using the Wii Message Board.
-
-Unlike LetterBomb, Wilbrand supports Wii menu versions down to 3.0.
-{: .notice--info}
+Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board. It is compatible with Wii menu versions 3.0 through 4.3 in all regions.
 
 There are two methods listed on this page used to create the proper Wilbrand exploit. Wilbrand Web is recommended for its ease of use.
 {: .notice--info}
 
-### Wilbrand Web (Recommended)
+{% capture wilbrand-web %}
 
-#### Requirements
+### Wilbrand Web
+
+#### Требования
 
 * An SD card formatted to FAT32/MS-DOS
-* A Wii on at least version 3.0
+* A Wii on version 3.0 or newer
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Инструкции
 
-1. Power on your console.
+1. Включите вашу консоль.
 1. On your Wii, go to `Wii Settings`, and make note of the version at the top right.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения последующих инструкций.
 
     ![](/images/wii/SystemMenuVersion.png)
 
@@ -49,39 +46,46 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Take out your SD card and insert it in your Wii.
     + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB adapter plugged into the Wii's USB port will not work.
 1. On your Wii, return to the Wii Menu and then open the Wii Message Board.
-1. running Wilbrand on Linux
+1. Open the Wii Message Board.
 1. Load the green letter with the Bob-omb icon.
+
+    ![](/images/exploits/wilbrand/msgboard.png)
+
     + Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
     + In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     + If you don't see the green letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii's SD card reader.
 
-    ![](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
-    + If this didn't work for you, [try another exploit](get-started) or try [Wilbrand CLI](#wilbrand-cli).
+1. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
+    + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
+    + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}
 
+{% endcapture %}
+
+{% capture wilbrand-cli %}
+
 ### Wilbrand CLI
 
-#### Requirements
+#### Требования
 
 * A PC running Windows, MacOS or Linux
 * An SD card formatted to FAT32/MS-DOS
 * A Wii on version 3.0 or newer
 * [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
-* [HackMii Installer v1.2](https://bootmii.org/download/)
+* [Установщик HackMii версии 1.2](https://bootmii.org/download/)
 
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Инструкции
 
-1. Power on your console.
+1. Включите вашу консоль.
 1. On your Wii, go to `Wii Settings`, and make note of the version at the top right.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения последующих инструкций.
 
     ![](/images/wii/SystemMenuVersion.png)
 
@@ -111,7 +115,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Take out your SD card and insert it in your Wii.
     + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB adapter plugged into the Wii's USB port will not work.
 1. On your Wii, return to the Wii Menu and then open the Wii Message Board.
-1. running Wilbrand on Windows
+1. Open the Wii Message Board.
 1. Load the green letter with the Bob-omb icon.
     + Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
     + In various scenarios, you may need to look at the previous or next day to find it.
@@ -119,7 +123,39 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
+    + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
+    + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}
+
+{% endcapture %}
+
+<button class="btn btn--large btn--primary tabLink" onClick="select_tab(event, 'wilbrand-web')"> Wilbrand Web </button>
+<button class="btn btn--large btn--info tabLink" onClick="select_tab(event, 'wilbrand-cli')"> Wilbrand CLI </button>
+
+<div class="tabContent tabDefualt" id="wilbrand-web" markdown="1">
+
+{{ wilbrand-web }}
+</div>
+<div class="tabContent" id="wilbrand-cli" markdown="1">
+{{ wilbrand-cli }}
+</div>
+
+<script>
+    const tabContents = document.getElementsByClassName('tabContent');
+    const tabLinks    = document.getElementsByClassName('tabLink');
+
+    for (tab of tabContents) { tab.style.display = 'none'; }
+    document.getElementsByClassName('tabDefualt')[0].style.display = 'block';
+
+    function select_tab(event, tab_id)
+    {
+        for (tab of tabContents) { tab.style.display = 'none'; }
+        for (btn of tabLinks) { btn.className = btn.className.replace('btn--primary', 'btn--info'); }
+
+        document.getElementById(tab_id).style.display = 'block';
+        event.currentTarget.className = event.currentTarget.className.replace('btn--info', 'btn--primary');
+    }
+</script>

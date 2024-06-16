@@ -4,9 +4,18 @@ title: "cIOS"
 
 {% include toc title="Tabla de contenido" %}
 
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. You can now use homebrew such as [USB Loader GX](usbloadergx) and [WiiFlow](wiiflow). You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. You can now use homebrew such as [USB Loader GX](usbloadergx) and [WiiFlow](wiiflow). You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
-If you have a Wii mini, install [this cIOS](cios-mini) instead. Attempting to install any other cIOS on a Wii mini won't work.
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+This guide is only intended for Wii users. If you have a Wii mini, follow [this guide](cios-mini) instead. If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+{: .notice--warning}
+
+Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely brick your console.
 {: .notice--warning}
 
 ### Requirements
@@ -22,10 +31,10 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 #### Section I - Downloading
 
-If your Wii has an Internet connection, you may skip this section.<br> However, If you encounter any errors like `net_init failed`, `net_gethostbyname failed:`, or any other issues during the downloading stage this will allow the Wii to skip the downloading step.
-{: .notice--warning}
-
 If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
+{: .notice--info}
+
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
 {: .notice--info}
 
 1. Power off your console.
@@ -52,7 +61,7 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 1. Download the d2x cIOS Installer and extract it to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Power on your console.
-1. Launch the Homebrew Channel.
+1. Launch the Homebrew Channel on your Wii.
 1. Insert your SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel.
 1. Set everything to match the following:
 
@@ -65,7 +74,7 @@ Select cIOS version: 65535
 
     ![](/images/cios/d2x_v11_248.png)
 
-    The warning "`(c)IOS detected in slot ### will be overwriitten`" can be safely ignored.
+    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
     {: .notice--info}
 
     If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br> (If you are trying to exit the installer, the button is B, not Home.)

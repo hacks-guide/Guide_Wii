@@ -1,72 +1,72 @@
 ---
 main:
   - 
-    title: Wii Guide
+    title: Дом
     url: /
   - 
-    title: Start Here
+    title: Первые шаги
     url: get-started
   - 
-    title: Site Navigation
+    title: Навигация по сайту
     url: site-navigation
   - 
-    title: FAQ
+    title: ЧаВо
     url: faq
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: Этот сайт использует куки (cookies) для отображения текущего прогресса по руководству на боковой панели и для улучшения сайта.
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: Для поддержки на английском языке, попросите о помощи на <a href="https://discord.gg/MWxPgEp">сервере Nintendo Homebrew в Discord</a>.
 footer:
   - 
-    title: Source
+    title: Исходный код
     url: https://github.com/hacks-guide/Guide_Wii
   - 
-    title: Site Navigation
+    title: Навигация по сайту
     url: site-navigation
   - 
-    title: Donations
+    title: Политика конфиденциальности
     url: privacy-policy
   - 
-    title: Donations
+    title: Пожертвования
     url: donations
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Общий прогресс
 sidebar_pages:
   - 
-    title: Wii Guide
+    title: Дом
     url: /
   - 
-    title: FAQ
+    title: Первые шаги
     url: get-started
   - 
-    title: Donations
+    title: LetterBomb
     url: letterbomb
   - 
-    title: Credits
+    title: BlueBomb
     url: bluebomb
   - 
-    title: RiiConnect24
+    title: FlashHax
     url: flashhax
   - 
-    title: Wiimmfi
-    url: Wiimmfi
+    title: str2hax
+    url: str2hax
   - 
     title: Wilbrand
     url: wilbrand
   - 
-    title: Multiple Options
+    title: Несколько опций
     url: multiple-options
   - 
-    title: Homebrew Channel and BootMii Installation
+    title: Установка канала Homebrew и BootMii
     url: hbc
   - 
-    title: Homebrew Channel - for Wii mini only
+    title: Канал Homebrew - только для Wii mini
     url: hbc-mini
   - 
-    title: BootMii Backup
+    title: Резервная копия через BootMii
     url: bootmii
   - 
     title: Priiloader
@@ -75,8 +75,8 @@ sidebar_pages:
     title: Open Shop Channel
     url: osc
   - 
-    title: d2xl cIOS for Wii mini (experimental)
+    title: d2xl cIOS для Wii mini (экспериментальная функция)
     url: cios-mini
   - 
-    title: Wii mini NAND Dumper
+    title: Дампер NAND для Wii mini
     url: wnd-mini

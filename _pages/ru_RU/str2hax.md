@@ -1,41 +1,33 @@
 ---
-title: "Wiimmfi"
+title: "str2hax"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
 {: .notice--warning}
 
 str2hax is an exploit for the Wii that is triggered by loading the Wii's End User License Agreement. It requires nothing but an Internet connection that lets you change the DNS on your Wii.
 
-### Requirements
+If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
+{: .notice--warning}
+
+### Требования
 
 * A Wii with an Internet connection
 
-### Instructions
-
-#### Common issues
-
-If you get the normal User Agreements, your ISP blocks the use of custom DNS. Please [use another exploit](get-started).
-{: .notice--warning}
-
-If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
-{: .notice--warning}
-
-If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
-{: .notice--warning}
+### Инструкции
 
 #### Section I - Connecting
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
-1. Power on your console.
+1. Включите вашу консоль.
 1. Go to `Wii Options`.
 
     ![](/images/riiconnect24/Internet_1.png)
 
-1. Go to `Wii Settings`.
+1. Перейдите в `Wii Settings`.
 
     ![](/images/riiconnect24/Internet_2.png)
 
@@ -45,7 +37,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![](/images/riiconnect24/Internet_4.png)
 
-1. Connection Settings
+1. Go to `Change Settings`.
 
     ![](/images/riiconnect24/Internet_5.png)
 
@@ -85,10 +77,14 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![](/images/exploits/str2hax/EULA.png)
 
+    + If you get the normal User Agreements, your ISP blocks the use of custom DNS. Try another connection, or [use another exploit](get-started).
+
 1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
 
     ![](/images/hackmii/scam.png)
+
+    + If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}

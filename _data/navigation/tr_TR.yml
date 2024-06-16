@@ -1,72 +1,72 @@
 ---
 main:
   - 
-    title: Wii Guide
+    title: Ana Menü
     url: /
   - 
-    title: Start Here
+    title: Buradan Başlayın
     url: get-started
   - 
-    title: Site Navigation
+    title: Site Navigasyonu
     url: site-navigation
   - 
-    title: FAQ
+    title: SSS
     url: faq
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: Bu web sitesi, kenar çubuğunda mevcut rehber ilerlemesini görüntülemek ve siteyi başka şekilde geliştirmek için çerezleri kullanır.
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: İngilizce destek için <a href="https://discord.gg/MWxPgEp">Discord'daki Nintendo Homebrew</a> adresinden yardım isteyin.
 footer:
   - 
-    title: Source
+    title: Kaynak
     url: https://github.com/hacks-guide/Guide_Wii
   - 
-    title: Site Navigation
+    title: Site Navigasyonu
     url: site-navigation
   - 
-    title: Donations
+    title: Gizlilik Politikası
     url: privacy-policy
   - 
-    title: Donations
+    title: Bağışlar
     url: donations
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Genel İlerleme
 sidebar_pages:
   - 
-    title: Wii Guide
+    title: Ana Menü
     url: /
   - 
-    title: FAQ
+    title: Buradan Başlayın
     url: get-started
   - 
-    title: Donations
+    title: LetterBomb
     url: letterbomb
   - 
-    title: Credits
+    title: BlueBomb
     url: bluebomb
   - 
-    title: RiiConnect24
+    title: FlashHax
     url: flashhax
   - 
-    title: Wiimmfi
-    url: Wiimmfi
+    title: str2hax
+    url: str2hax
   - 
     title: Wilbrand
     url: wilbrand
   - 
-    title: Multiple Options
+    title: Çoklu Seçenekler
     url: multiple-options
   - 
-    title: Homebrew Channel and BootMii Installation
+    title: Homebrew Channel ve BootMii Kurulumu
     url: hbc
   - 
-    title: Homebrew Channel - for Wii mini only
+    title: Homebrew Channel - yalnızca Wii mini için
     url: hbc-mini
   - 
-    title: BootMii Backup
+    title: BootMii Yedekleme
     url: bootmii
   - 
     title: Priiloader
@@ -75,7 +75,7 @@ sidebar_pages:
     title: Open Shop Channel
     url: osc
   - 
-    title: d2xl cIOS for Wii mini (experimental)
+    title: Wii mini için d2xl cIOS (deneysel)
     url: cios-mini
   - 
     title: Wii mini NAND Dumper

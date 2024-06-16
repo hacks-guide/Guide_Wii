@@ -12,7 +12,7 @@ In order for Wii loader to function properly, you must have the latest cIOS inst
 To play games, you are advised to use a large SD card or an external hard drive, flash drives are not recommended and very sporadic in functionality. See [storage FAQ](faq).
 {: .notice--info}
 
-The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Run the app in the Homebrew Channel to install the forwarder. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme).
+You can install it with [YAWM ModMii Edition](yawmme). The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. Run the app in the Homebrew Channel to install the forwarder.
 {: .notice--info}
 
 ### Differences between WiiFlow Lite and USB Loader GX
@@ -33,7 +33,7 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 
 ### Game Directory Structure
 
-Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB.
+Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game directory structure correctly.
 
 ```
 💾SD card or USB:
@@ -47,7 +47,7 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ### http://www.wiithemer.org/
 
-#### Requirements
+#### Gereksinimler
 + Some themes have different links for different regions, so pick the one corresponding to your Wii's region.
 + The latest version of [cIOS](cios)
 + [WiiFlow](https://oscwii.org/library/app/wiiflow)
@@ -93,7 +93,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ### USB Loader GX
 
-#### Requirements
+#### Gereksinimler
 + Some themes have different links for different regions, so pick the one corresponding to your Wii's region.
 + The latest version of [cIOS](cios)
 + [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
@@ -168,5 +168,5 @@ To change the cIOS used for a specific game, follow the instructions specific to
     + Try using 248, 249, 250 or 251.
 1. Press Save and try to load the game.
 
-[Click here to go back to the site index.](site-navigation)
+[Site dizinine geri dönmek için burayı tıklayın.](site-navigation)
 {: .notice--info}

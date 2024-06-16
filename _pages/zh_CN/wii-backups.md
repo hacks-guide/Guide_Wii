@@ -7,13 +7,14 @@ title: Managing Wii Backups
 This guide provides instructions on how to manage your Wii backups, from joining .PART files that are output through CleanRip, to shrinking game files that can be copied onto a FAT32 device. Two programs that can be used to manage your Wii backups are Wii Backup Manager (for Windows) and Wii Backup Fusion (for Linux and MacOS) and are covered below.
 
 为存储多个游戏，推荐为 Wii 使用移动硬盘。 市面上的大多数移动硬盘应该都能正常工作。
+{: .notice--info} 市面上的大多数移动硬盘应该都能正常工作。
 {: .notice--info}
 
-不建议使用 U 盘，因为它们很小，即使同一款产品之间行为也可能有所不同。 <br>
+不建议使用 U 盘，因为它们很小，即使同一款产品之间行为也可能有所不同。 不建议使用 U 盘，因为它们很小，即使同一款产品之间行为也可能有所不同。 <br>
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 {: .notice--info}
 
-确保已将 移动硬盘/U 盘格式化为 FAT32 格式。 Do not format it as other types such as exFAT or extFS. <br>
+确保已将 移动硬盘/U 盘格式化为 FAT32 格式。 确保已将 移动硬盘/U 盘格式化为 FAT32 格式。 Do not format it as other types such as exFAT or extFS. <br>
 You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 {: .notice--info}
 

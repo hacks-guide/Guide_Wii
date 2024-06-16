@@ -4,16 +4,16 @@ title: "捐赠"
 
 {% include toc title="Table of Contents" %}
 
-For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
-{: .notice--info}
-
-Do NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Use your own!
-{: .notice--warning}
-
 LetterBomb是Wii的一种漏洞，它是使用Wii留言板触发的。
 
+For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32. It is highly recommended to check it due to problems with formatting as FAT32.
+{: .notice--info}
+
+Do NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Use your own! Use your own!
+{: .notice--warning}
+
 ### Requirements
-* 格式化为 FAT32/MS-DOS 的 SD 卡
+* An SD card formatted as FAT32 that is 32GB or less
 * 一台Wii，系统版本为4.3。
 * A Windows/MacOS/Linux computer with an Internet connection
 
@@ -41,7 +41,7 @@ LetterBomb是Wii的一种漏洞，它是使用Wii留言板触发的。
 
 1. Insert your SD card into your computer.
 1. Copy the `private` folder and the `boot.elf` file from the LetterBomb `.zip` to the root of your SD card.
-1. 将下载的 ZIP 的内容解压到您 SD 卡的根目录中。
+1. 取出 SD 卡并将其插入 Wii 中。
     + 必须将 SD 卡插入 Wii 前面的 SD 卡槽中。 使用插入到 Wii USB 接口的 USB 读卡器是无效的。
 1. 取出 SD 卡并将其插入 Wii 中。
 1. 在 Wii 上，回到 Wii 菜单，然后打开 Wii 留言板。

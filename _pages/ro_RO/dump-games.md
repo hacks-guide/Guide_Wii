@@ -1,97 +1,100 @@
 ---
-title: "Dumping Wii/GameCube games"
+title: "Extragerea jocurilor Wii/Gamecube"
 ---
 
 {% include toc title="Tabel de Conținut" %}
 
-This guide covers dumping GameCube or Wii game discs to a local SD card or USB drive on your Wii.
+Acest ghid acoperă extragerea discurilor de joc Wii sau Gamecube către un card SD sau o unitate USB locală pe consola ta Wii.
 
-### Dumping a Disc to SD/USB (CleanRip)
+### Extragerea unui Disc în SD/USB (CleanRip)
 
 #### Instrumente necesare
 
-+ An SD card or USB drive with at least 4.7 GB of free space (8.5 GB if dumping a dual layer disc).
++ Un card SD sau unitate USB cu cel puțin 4.7GB de spațiu liber (8.5GB dacă extragi un disc dublu strat).
 + [CleanRip](https://oscwii.org/library/app/cleanrip)
 
-#### Preparation
+#### Preparație
 
-1. Copy all the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
-1. Open the folder in File Explorer.
-1. While holding Shift, right click on an empty space within the folder.
-1. Select "Open PowerShell window here".
-1. In the new window that appears, type `cmd` and press enter.
-1. Finally, type `copy /b *.part?.iso game.iso` and press enter.
-1. Launch CleanRip from the list of homebrew.
-1. When prompted, select `Yes` to calculate disc checksums.
+1. Oprește-ți consola.
+1. Introdu cardul tău SD sau unitatea ta USB în calculator.
+1. Copiază fișierul `apps` din fișierul `.zip` CleanRip către rădăcina cardului tău SD sau unității tale USB.
+1. Reintrodu cardul tău SD sau unitatea ta USB în consolă.
+1. Pornește-ți consola.
+1. Rulează Homebrew Channel.
+1. Rulează CleanRip din lista de aplicații homebrew.
+1. Când ești întrebat, alege `Yes` pentru a calcula checksum-ul discului.
 
     ![](/images/homebrew/CleanRip/checksum.png)
 
-1. Select your device that you will be dumping the game to - a USB device or SD card.
+1. Alege dispozitivul unde îți vei extrage jocul - un dispozitiv USB sau un card SD.
 
     ![](/images/homebrew/CleanRip/device.png)
 
-1. Select the filesystem type of the device - in most cases it will be FAT (FAT32).
+1. Alege tipul sistemului de fișiere a dispozitivului - în majoritatea cazurilor va fi FAT (FAT32).
 
     ![](/images/homebrew/CleanRip/filesystem.png)
 
-1. Ensure that your device is connected to the system and press A to proceed.
+1. Asigură-te că dispozitivul tău este conectat în consolă și apasă A pentru a continua.
 
     ![](/images/homebrew/CleanRip/insertdevice.png)
 
-1. When prompted, select `Yes` to download the redump.org DAT files.
-    + This is required to ensure that the resulting dumps are clean/accurate.
+1. Când ești întrebat, alege `Yes` pentru a descărca fișierele DAT redump.org.
+    + Acest lucru este necesar pentru a te asigura că extragerile rezultate sunt curate/corecte.
 
-    You may get an exception error if you do this. If so, restart your Wii and try again - but if you continue to get exception errors, dump the disc and verify the checksum in Dolphin instead if needed.
+    Este posibil să primești o eroare dacă faci acest lucru. Dacă acesta este cazul, repornește-ți consola și încearcă din nou - dar în cazul în care primești erori în continuare, extrage discul și verifică checksum-ul folosind Dolphin în schimb dacă este necesar.
     {: .notice--warning}
 
     ![](/images/homebrew/CleanRip/redump.png)
 
-1. Insert the game disc you would like to dump, and press A to continue.
+1. Introdu discul de joc pe care vrei să-l extragi și apasă A pentru a continua.
 
     ![](/images/homebrew/CleanRip/insertdisc.png)
 
-### Dumping a Wii Disc
+### Extragerea unui Disc Wii
 
-As of v2.1.2 of CleanRip, there is an option to auto-detect whether or not the disc you have is dual layer. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
+Începând cu CleanRip v2.1.2 există o opțiune de a detecta automat dacă discul tău este dublu strat. Dacă ești pe o versiune mai veche sau dacă doar vrei să verifici că opțiunea corectă este selectată, poți verifica [această listă](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) pentru a verifica dacă jocul tău este dublu strat.
 {: .notice--info}
 
-If you get an unrecovered read error, ensure that the disc you are attempting to dump is clean and can be properly read by the console. Even though you may be able to play the game disc normally, you may still get this error. If the error persists, try to dump another disc and see if the same error happens.
+Dacă primești o eroare de citire nerecuperată, asigură-te că discul pe care încerci să-l extragi este curat și poate fi citit cum trebuie de către consolă. Poți să primești această eroare chiar dacă poți juca discul de joc normal. Dacă eroarea persistă, încearcă să extragi alt disc și vezi dacă apare aceeași eroare.
 {: .notice--warning}
 
-1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
+1. Când ești întrebat, alege dacă discul tău este un disc Datel nelicențiat. Dacă nu ești sigur, alege `No`.
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
-1. Set the settings as shown on the screen below, while verifying if your game disc is dual layer or not.
+1. Modifică setările așa cum sunt pe ecranul de mai jos și verifică dacă discul tău de joc este dublu strat sau nu.
 
     ![](/images/homebrew/CleanRip/wiisettings.png)
 
-1. Press A to start dumping the disc.
-    + This process can take quite some time, since it will dump all 4.7 GB of the DVD (8.5 GB for dual layer discs).
+1. Apasă A pentru a începe să extragi discul.
+    + Acest proces poate dura destul de mult timp pentru că extrage toți cei 4.7GB ai DVD-ului (8.5GB pentru discuri dublu strat).
 
     ![](/images/homebrew/CleanRip/wiiprogress.png)
 
-1. When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.
+1. Odată ce extragerea este finalizată, ar trebui să vezi un ecran cu checksum-ul MD5 al discului tău, comparat cu fișierul DAT Redump dacă l-ai activat.
 
     ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
 
-Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are output, and manage your dumped games.
+Continuă la [Gestionarea Backup-urilor Wii](wii-backups) pentru a combina fișierele PART rezultate și pentru a configura jocurile extrase.
 {: .notice--info}
 
-### Dumping a GameCube Disc
+### Extragerea unui Disc GameCube
 
-1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
+Ediția de Familie Wii, Wii mini-uri și vWii-ul de la Wii U nu au capabilitatea de extragere a jocurilor GameCube. Wii-ul Ediția de Familie pot extrage jocuri GameCube dacă disk drive-ul este schimbat cu cea făcută pentru modelul original Wii.
+{: .notice--info}
+
+1. Când ești întrebat, alege dacă discul tău este un disc Datel nelicențiat. Dacă nu ești sigur, alege `No`.
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
-1. Press A to start dumping the disc.
-    + This process can take some time, since it will dump all 1.3 GB of the Mini DVD.
+1. Apasă A pentru a începe să extragi discul.
+    + Acest proces poate dura ceva timp pentru că extrage toți cei 1.3GB ai Mini DVD-ului.
 
     ![](/images/homebrew/CleanRip/gcprogress.png)
 
-1. When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.
+1. Odată ce extragerea este finalizată, ar trebui să vezi un ecran cu checksum-ul MD5 al discului tău, comparat cu fișierul DAT Redump dacă l-ai activat.
 
     ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
-Proceed to [Managing GameCube Backups](gc-backups) to shrink the size of your output file, and manage your dumped games.
+Continuă la [Gestionarea Backup-urilor GameCube](gc-backups) pentru a micșora mărimea fișierului rezultat și pentru a configura jocurile extrase.
 {: .notice--info}

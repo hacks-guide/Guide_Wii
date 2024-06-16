@@ -116,7 +116,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 #### Instructions (for Wii)
 
 + A Wii with an internet connection, running in 60Hz mode
-+ The Internet Channel
++ Internet Channel
 
 #### Instrucțiuni
 

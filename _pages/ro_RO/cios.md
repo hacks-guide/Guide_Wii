@@ -4,9 +4,18 @@ title: "cIOS"
 
 {% include toc title="Tabel de Conținut" %}
 
-Chiar dacă [cIOS](https://wiibrew.org/wiki/Custom_IOS) a fost în mare înlocuit de AHBPROT, care oferă acces complet a hardware-ului, acesta încă are aplicații folositoare. De exemplu, acesta permite folosirea unor USB loader-e precum USB Loader GX și WiiFlow, precum și alte aplicații homebrew precum SaveGame Manager GX. Poți sări acest proces dacă vrei, dar în general îți îmbunătățește consola Wii fără niciun dezavantaj.
+{% capture technical_info %}
+<summary><em>Detalii Tehnice (opțional)</em></summary>
+cIOS (IOS Custom) sunt IOS-uri modificate, care permit funcționalitatea custom. Chiar dacă [cIOS](https://wiibrew.org/wiki/Custom_IOS) a fost în mare înlocuit de AHBPROT, care oferă acces complet a hardware-ului, acesta încă are aplicații folositoare. De exemplu, acesta permite folosirea unor USB loader-e precum USB Loader GX și WiiFlow, precum și alte aplicații homebrew precum SaveGame Manager GX. Poți sări acest proces dacă vrei, dar în general îți îmbunătățește consola Wii fără niciun dezavantaj.
 
-Dacă ai un Wii mini, folosește în schimb [acest](cios-mini) ghid pentru cIOS. Încercarea de a instala alte cIOS-uri pe un Wii mini nu va merge.
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+Acest ghid este destinat numai utilizatorilor Wii. Dacă ai un Wii mini, urmărește în schimb [acest ghid](cios-mini). Dacă ai un Wii U (vWii), urmărește în schimb [acest ghid](cios-vwii).
+{: .notice--warning}
+
+Nu încerca să instalezi un IOS vWii/Wii mini sau System Menu pe un vWii. Făcând acest lucru este foarte probabil să cauzezi [brick](bricks#ios-brick) consolei tale.
 {: .notice--warning}
 
 ### Instrumente necesare
@@ -22,10 +31,10 @@ Asigură-te că dacă folosești un card SD, comutatorul de blocare este în poz
 
 #### Secțiunea I - Descărcare
 
-În cazul în care consola ta Wii are o conexiune la Internet, poți sări peste această secțiune.<br> Însă, dacă întâmpini o eroare precum `net_init failed`, `net_gethostbyname failed:` sau alte probleme în timpul etapei de descărcare acestae vor permite consolei Wii să sară peste etapa de descărcare.
-{: .notice--warning}
-
 Dacă nu folosește Windows, poți descărca & rula [acest script](/assets/files/d2x_offline_ios.sh) și îți va descărca fișierele WAD pentru tine.
+{: .notice--info}
+
+Dacă poți conecta Wii-ul la internet, poți sări la [Secțiunea II](cios#section-ii---installing)
 {: .notice--info}
 
 1. Oprește-ți consola.
@@ -65,7 +74,7 @@ Fișierele WAD ar trebui să fie în cardul tău SD în felul următor: ![](/ima
 
     ![](/images/cios/d2x_v11_248.png)
 
-    Avertismentul "`(c)IOS detected in slot ### will be overwriitten`" poate fi ignorat în siguranță.
+    Avertismentul "`(c)IOS detected in slot ### will be overwritten`" poate fi ignorat în siguranță.
     {: .notice--info}
 
     Dacă vezi mesajul "`Slot ### already used in batch settings`" sau "`cIOS already added in batch with revision ##### and slot ###`", apasă `-` pentru a dezactiva modul batch. <br> (Dacă încerci să ieși din instalator, butonul este B, nu Home.)

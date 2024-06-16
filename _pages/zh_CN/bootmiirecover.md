@@ -4,7 +4,7 @@ title: "BootMii 还原 (RestoreMii)"
 
 {% include toc title="Table of Contents" %}
 
-This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
+This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
 
 如果您已将 BootMii 安装为 boot2，则需要重启主机来启动 BootMii。 如果是这种情况，请跳过步骤1和2。
 {: .notice--info}
@@ -12,10 +12,10 @@ This guide will provide instructions on how to restore a backup of your NAND wit
 如果一直黑屏且光驱的蓝灯闪烁，说明您的 SD 卡上缺少 BootMii 文件。 Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 {: .notice--warning}
 
-Family edition Wii（不带 GameCube 接口的 Wii）不能还原 NAND 备份。 This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
+Family edition Wii（不带 GameCube 接口的 Wii）不能还原 NAND 备份。 This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support. For additional help, please seek support.
 {: .notice--danger}
 
-DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. 有问题的 SD 卡也是如此。
+DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. 有问题的 SD 卡也是如此。 有问题的 SD 卡也是如此。
 {: .notice--danger}
 
 ### Requirements
@@ -26,7 +26,7 @@ DO NOT restore an unverified NAND backup, or one that is not from your Wii: this
 
 很可能有一种更安全且更快的方法将其重新放回 Wii，可能涉及使用 Dolphin Emulator。
 
-For example, if you want to restore your Wii Message Board data, use Dolphin to import your NAND backup. In Dolphin, go to `File -> Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
+For example, if you want to restore your Wii Message Board data, use Dolphin to import your NAND backup. For example, if you want to restore your Wii Message Board data, use Dolphin to import your NAND backup. In Dolphin, go to `File -> Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
 
 如果您想还原游戏的存档，使用 Dolphin 导入 NAND 备份，使用 `工具 > 导出所有 Wii 存档` 将所有存档导出到 SD 卡，然后使用数据管理将其移动到 Wii 上。
 
@@ -62,7 +62,7 @@ For example, if you want to restore your Wii Message Board data, use Dolphin to 
 
     ![](/images/bootmii/BootMii_NAND_Konami.png)
 
-1. BootMii will run through the restore process as a simulation, detailing what will be erased and rewritten. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin.
+1. BootMii will run through the restore process as a simulation, detailing what will be erased and rewritten. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin.
 
     ![](/images/bootmii/BootMii_NAND_Restore.png)
 

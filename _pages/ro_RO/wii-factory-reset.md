@@ -8,6 +8,9 @@ This guide details how to create a stock NAND for your Wii system using a progra
 
 Please note that this program **needs** an existing (even bricked!) NAND backup to function, as it needs to have a copy of the first 8 blocks of NAND, a bad blocks list, and AES/HMAC keys.
 
+Do not attempt this tutorial on the Wii U's vWii.
+{: .notice--info}
+
 {% capture here-be-dragons %}
 
 The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and should only be considered as a LAST RESORT or if you are trying to do any of the following:
@@ -25,7 +28,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 ### Instrumente necesare
 
-- An SD card with at least 512MB of free space
+- Un card SD cu cel puțin 512MB de spațiu liber (1GB sau mau mult este recomandat)
 - A [NAND backup](bootmii) from the specific system you are trying to flash
 - A Windows computer with an Internet connection
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)

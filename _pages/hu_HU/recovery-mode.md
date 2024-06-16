@@ -1,42 +1,61 @@
 ---
-title: "Recovery Mode"
+title: "Helyreállítási mód"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tartalomjegyzék" %}
 
-Recovery Mode is a last resort method for recovering your Wii console from a brick before resorting to hard-modding and manual NAND programming. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated in the present with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc, including some retail games. This guide will instruct you on how to recover from bricks (especially Korean Kii/Error 003) with it.
+A helyreállítási mód egy Wii megmentésének a végső eseti módja hardveres módosításon vagy belsőmemória-programozáson kívül. Ezt a módot a konzol gyárában használták egy különleges hardverkulccsal, de a hozzáféréshez szükséges gombkombináció egy GameCube-vezérlőn is elvégezhető. A helyreállítási mód olyan helyzetbe állítja a Wii menüt, amelyben lemezről lehet programokat futtatni.
 
-#### Requirements
+### A karbantartási mód működése
 
-+ A GameCube controller
-+ If the Diagnostic Disc Check was previously removed with Priiloader, or if a drive chip is on hand:
-    + Super Smash Bros. Melee ([Smash Stack](legacy-exploits#smash-stack)) OR
-    + Any other exploited Wii game, with the current exploit game save on the console (see [Legacy Exploits](legacy-exploits)) OR
-    + Any retail game, and access to the [Bluebomb](bluebomb) exploit
-+ If the Diagnostic Disc Check was not previously removed with Priiloader, and no drive chip is on hand:
-    + Super Smash Bros. Melee ([Smash Stack](legacy-exploits#smash-stack))
-+ An original revision Nintendo Wii (Family Edition Wiis will not work due to the lack of GameCube ports - otherwise you must solder some on)
-+ A Windows/macOS/Linux PC with an Internet connection
-+ An SD Card formatted to FAT32
+A rendszermenü 2.1-es és afölötti verzióin a helyreállítási mód kiírja a menü verziószámát a jobb alsó sarokban és egy lemez behelyezésére vár. A helyreállítási mód alapértelmezésből csak kétféle lemezt tud futtatni:
 
-#### Preparation
++ egy ún. autoboot („automatikus indítási”) lemezt, aminek a termékazonosítója 0-val vagy 1-gyel kezdődik (a boltokban árult lemezek **egyike sem** autoboot lemez, mert mindegyiknek egy betűjellel kezdődik a termékazonosítója);
++ vagy egy boltban vásárolt játéklemez, amely érvényes frissítési partícióval rendelkezik és a konzol verziójánál frissebbet tartalmaz.
 
-In order to hold down all 4 individual D-Pad buttons on a GameCube controller, you may be required to take the casing apart.
+Ezt a korlátozást a Priiloaderrel ki lehet kerülni, ami lehetővé teszi bármilyen lemez futtatását helyreállítási módból. Viszont sajnos, ha már amúgy is hozzáférnél a Priiloaderhez, akkor nem lenne okod a helyreállítási módot használni, ugyanis a Priiloaderből elindítható a Homebrew Channel, amivel megkezdhető a javítási folyamat. Ha olyan helyzetben vagy, hogy már csak a helyreállítási mód segíthet, akkor egy lemezolvasó-chippel is rendelkezned kell a lemezkorlátozás kikerüléséhez. Ha bármilyen módon képes voltál kikerülni a korlátozást, akkor folytathatod az olvasást, hogy eljuss a HackMii-telepítőhöz.
+
+### A helyreállítási mód indítása és használata
+
+#### Követelmények
+
++ Egy GameCube-vezérlő
++ Ha a lemezkorlátozást korábban eltávolítottad Priiloaderrel vagy ha van kéznél lemezolvasó-chiped:
+    + Egy Super Smash Bros. Brawl-lemez ([Smash Stack](legacy-exploits#smash-stack)) VAGY
+    + bármely más módszerhez kapcsolódó Wii-játék, aminek a sérültségét kihasználó játékmentés a konzolon van (ld. [Örökölt módszerek](legacy-exploits)) VAGY
+    + bármely más játék és hozzáférés a [Bluebombhoz](bluebomb).
++ Egy eredeti kiadású Wii (a Family Edition-konzolok nem megfelelők, mert nem rendelkeznek GameCube-csatlakozókkal – hacsak nem hegeszted fel őket)
++ Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
++ Egy FAT32-re formázott SD kártya
+
+#### Előkészítés
+
+Megjegyzés: Lehetséges, hogy szét kell szerelned a GameCube-vezérlőt, hogy mind a négy nyílgombot egyszerre lenyomhasd.
 {: .notice--warning}
 
-First of all, verify that your Wii can boot into Recovery Mode *at all*. This involves taking a GameCube controller, plugging it into the fourth controller port on a Wii, and simultaneously holding down the 4 individual D-Pad buttons on boot. If everything goes right, you should see a screen similar to the above. Bear in mind that if you are on a System Menu version on 2.0 or prior, you will not see a version number display at all, and you will not be able to boot from discs.
+Először is, ellenőrizzük, hogy a Wiid képes-e egyáltalán helyreállítási módba lépni! Ennek a módja a következő: Dugj be egy GameCube-vezérlőt a 4. vezérlőcsatlakozóba, majd egyszerre tartsd lenyomva mind a négy nyílgombot, miközben bekapcsolod a Wiit! Ha minden jól ment, akkor a Wii egy a fent leírtakhoz hasonló képernyőt fog mutatni. Ha a rendszered 2.0-ás vagy korábbi verzión fut, akkor nem fogod a verziószámot látni a képernyőn és nem fogsz tudni lemezről programokat futtatni.
 
-#### Method I - Recovery Menu to Smash Stack
+#### I. módszer – Smash Stack
 
-#### Method II - Recovery Menu to Save Game Exploit
+1. Ha rendelkezel egy Super Smash Bros. Brawl-játéklemezzel, akkor a [Smash Stack](legacy-exploits#smash-stack)-módszerrel betöltheted a HackMii-telepítőt az SD kártyáról.
+1. Lépj helyreállítási módba és helyezd be a Super Smash Bros. Brawl-lemezt! Ha minden jól megy, akkor a játék elindul.
+1. A folytatáshoz kövesd a Wiibrew-on leírt lépéseket!
 
-#### Method III - Recovery Menu to Bluebomb
+#### II. módszer – Játékmentés
 
----
-Under Construction
+1. Ha már korábban használtál egy [örökölt módszert](legacy-exploits), akkor azt ismét felhasználhatod a HackMii-telepítőhöz való hozzáféréshez.
+1. Lépj helyreállítási módba és helyezd be a játéklemezt! Ha minden jól megy, akkor a játék elindul.
+1. A folytatáshoz kövesd a Wiibrew-on leírt lépéseket!
 
-[Return to Bricks](bricks)
+#### III. módszer – Bluebomb
+
+A Bluebomb is egy lehetséges javítási módszer. Jelenleg még dolgozunk ezen a részen. Az útmutatód később itt olvashatod.
+
+Ezek után telepítheted a Homebrew Channelt és hozzáférhetsz az SD kártyádon tárolt nemhivatalos programokhoz, hogy helyreállítsd a konzolod.
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Vissza az Elrontás-oldalra](bricks)
+{: .notice--info}
+
+[Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
 {: .notice--info}

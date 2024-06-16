@@ -2,7 +2,7 @@
 title: "GameCube Saves"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 This is a full guide on how to manage your GameCube saves.
 
@@ -11,7 +11,7 @@ Use of any GameCube peripheral with a Family Edition Wii or Wii Mini require sol
 
 ## Uploading an Individual Save (.gci File) to a Physical Memory Card
 
-### Requirements
+### Требования
 
 * A Wii with GameCube ports
 * An SD Card or USB
@@ -23,7 +23,7 @@ If you are looking for 100% completion saves online, you can find them [here](ht
 If you are looking for save game exploits for booting into [Swiss](https://github.com/emukidid/swiss-gc/releases), you can find a list of them [here](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
 {: .notice--info}
 
-### Instructions
+### Инструкции
 
 #### Downloading
 
@@ -54,13 +54,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Backing Up A Save (.gci File) to an SD or USB From a Physical Memory Card
 
-### Requirements
+### Требования
 
 * A Wii with GameCube ports
 * An SD Card or USB
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instructions
+### Инструкции
 
 #### Downloading
 
@@ -91,13 +91,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Backing Up Your Physical Memory Card Into an Emulated Memory Card (.raw file)
 
-### Requirements
+### Требования
 
 * A Wii with GameCube ports
 * An SD Card or USB
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instructions
+### Инструкции
 
 #### Downloading
 
@@ -119,13 +119,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Restoring an Emulated Memory Save to a Physical Memory Card
 
-### Requirements
+### Требования
 
 * A Wii with GameCube ports
 * An SD Card or USB
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instructions
+### Инструкции
 
 1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
 1. If you are restoring a Nintendont emulated memory card save, navigate to the `saves` folder on the root of your SD card or USB.
@@ -143,12 +143,12 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Transferring Saves Between 2 Physical Memory Cards
 
-### Requirements
+### Требования
 
 * A Wii with GameCube ports
 * At least 2 physical memory cards
 
-### Instructions
+### Инструкции
 
 1. Insert both memory cards into the Wii.
 1. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
@@ -163,5 +163,5 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Find the save you want, select it and select `Move or Copy`.
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться на домашнюю страницу.](site-navigation)
 {: .notice--info}

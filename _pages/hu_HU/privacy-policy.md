@@ -1,8 +1,8 @@
 ---
-title: "Privacy Policy"
+title: "Adatvédelmi irányelvek"
 ---
 
-### Cookies
+### Sütik
 
 This site utilizes cookies in order to facilitate routing users through the guide instructions. Cookies allow for the sidebar of the page to display current progress through the site to help users navigate the instructions more easily.
 

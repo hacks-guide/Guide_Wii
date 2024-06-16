@@ -12,7 +12,7 @@ In the case of a brick, [installing Priiloader is a must](/priiloader). Also, in
 Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will brick your Wii.
 {: .notice--warning}
 
-### Requirements
+### Gereksinimler
 
 * A Wii
 * A USB drive.
@@ -26,11 +26,14 @@ Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It
 
     ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
-1. Select the path to the ISO or WBFS file on your USB drive, and select the USB Loader you use. The other options should be fine the way they are.
+2. Select the path to the ISO or WBFS file on your USB drive, and select the USB Loader you use. The other options should be fine the way they are.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
-1. Install the generated WAD with your WAD manager.
+If you are on vWii, use the [Wiiforwarder2vWii](https://gbatemp.net/download/wiiforwarder2vwii-wii-forwarder-to-vwii-wii-u-forwarder-converter-beta-version.37254/) tool to convert the WAD for use on the vWii.
+{: .notice--info}
+
+3. Install the generated WAD with your WAD manager.
 
 <div class="notice--info">
 If you get an error saying "The system files are corrupted", don't panic as long as you installed Priiloader.
@@ -39,5 +42,5 @@ Turn off your Wii, then hold down the RESET button down and turn on your Wii. Yo
 Simply enter the Homebrew Channel, and use your WAD manager to uninstall the WAD.
 </div>
 
-[Click here to go back to the site index.](site-navigation)
+[Site dizinine geri dönmek için burayı tıklayın.](site-navigation)
 {: .notice--info}

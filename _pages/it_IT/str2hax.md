@@ -9,22 +9,14 @@ Nota che se il tuo ISP, o il tuo Ambiente di Rete, bloccano l'utilizzo di server
 
 Str2hax è un exploit che viene eseguito caricando l'EULA (Accordo di Licenza con l'Utente Finale) della console Wii. Richiede solamente una connessione a Internet che permette di cambiare i DNS sulla tua Wii.
 
+Se hai installato una mod come CTGP Revolution o Project+, str2hax potrebbe caricare quella al posto dell'exploit. Se succede, riavvia la console Wii, rimuovi la scheda SD e riprova.
+{: .notice--warning}
+
 ### Requisiti
 
 * Console Wii con connessione a Internet
 
 ### Istruzioni
-
-#### Problemi comuni
-
-Se ottieni l'EULA normale, il tuo ISP blocca l'uso di DNS personalizzati. Per favore [utilizza un altro exploit](get-started).
-{: .notice--warning}
-
-Se l'Hackmii Installer non viene caricato dopo più di 2 minuti, o ricevi un errore come `Hanging.` oppure `ERROR! if_config (ret = ...)`, riavvia la console Wii e riprova.
-{: .notice--warning}
-
-Se hai installato una mod come CTGP Revolution o Project+, str2hax potrebbe caricare quella al posto dell'exploit. Se succede, riavvia la console Wii, rimuovi la scheda SD e riprova.
-{: .notice--warning}
 
 #### Sezione I - Connessione
 
@@ -85,10 +77,14 @@ Questo exploit richiede di reimpostare il tuo DNS in modo da connettersi a un se
 
     ![](/images/exploits/str2hax/EULA.png)
 
+    + Se ottieni l'EULA normale, il tuo ISP blocca l'uso di DNS personalizzati. Try another connection, or [use another exploit](get-started).
+
 1. Dai all'exploit 1-2 minuti per scaricare i file necessari (e non premere `ACCETTO`/`NON ACCETTO`).
 1. Se l'exploit è andato a buon fine, ti ritroverai dentro l'HackMii Installer.
 
     ![](/images/hackmii/scam.png)
+
+    + Se l'Hackmii Installer non viene caricato dopo più di 2 minuti, o ricevi un errore come `Hanging.` oppure `ERROR! if_config (ret = ...)`, riavvia la console Wii e riprova.
 
 [Prosegui all'Installazione del Canale Homebrew e di Bootmii](hbc)
 {: .notice--info}

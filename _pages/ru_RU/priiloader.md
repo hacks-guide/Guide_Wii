@@ -2,36 +2,29 @@
 title: "Priiloader"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
-Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also enable hacks for your Wii Menu, and be used to quickly launch the Homebrew Channel, BootMii, or whatever homebrew you want!
+Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also apply hacks that are used to enhance, unlock, and fix many System Menu features.
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
-
-For more information about Priiloader and its options, you can see the [Priiloader Usage](priiloader-usage) page.
-{: .notice--info}
-
-### Requirements
+### Требования
 
 * An SD card or USB drive
-* Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
+* Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
 * https://oscwii.org/library/app/loadpriiloader
 
 #### Optional Requirements for vWii (highly recommended)
 
 * An SD card
-* Download the USB Loader GX forwarder WAD ([Wii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad), [vWii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad)).
+* Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
     * Your Wii should now automatically boot to whichever homebrew app you installed.
 
-### Instructions
+### Инструкции
 
 {% capture notice-vwii-priiloader %}
 
-If you are using a vWii:
-
-+ Installing a theme after installing Priiloader **will brick your vWii.**
-+ Priiloader 0.10.0 introduces vWii support!
+Priiloader on vWii does not have any impact on Wii U VC titles.
 
 {% endcapture %}
 
@@ -39,7 +32,7 @@ If you are using a vWii:
 
 #### Section I - Prep Work
 
-1. Power off your console.
+1. Выключите вашу консоль.
 1. Extract both apps to the root of your SD card or USB drive.
 1. Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
 1. Copy `uneoboot.dol` to the root of your SD card.
@@ -48,7 +41,7 @@ If you are using a vWii:
 
 #### Section II - Installing Priiloader
 
-1. Power on your console.
+1. Включите вашу консоль.
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 1. Launch the Priiloader installer.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
@@ -86,30 +79,39 @@ Later on, to enter it you can:
     If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br> This causes Priiloader to fail to find the `hacks_hash.ini` file.
     {: .notice--warning}
 
-1. Scroll down to `Settings` and press A.
-    + `Block Online Updates`
-    + If you are NOT using a CRT display: `Remove Deflicker`
 1. For the following options, enable the options according to your console:
     + Wii:
         + 480p graphics fix in system menu
         + Block Disc Updates
+        + Block Online Updates
+        + If you are NOT using a CRT display: `Remove Deflicker`
+    + vWii:
+        + Block Online Updates
+        + Wii System Settings via Options Button
+        + If you are NOT using a CRT display: `Remove Deflicker`
     + Wii mini:
         + Block Disc Updates
+        + If you are NOT using a CRT display: `Remove Deflicker`
 1. Scroll down to `save settings` and press A.
 1. Press `B` to return to the main menu.
 
-### Wii mini: Next Steps
+You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
+{: .notice--info}
 
-[Continue to the Dos and Don'ts of Wii Modding](dosanddonts)<br> These are some guidelines to ensure you don't brick your Wii.
+Allows the Wii Menu to launch discs (this is only the Wii Backup Disc) that use IOS16.
 {: .notice--info}
 
 ### Wii: Next Steps
 
-If you have made it to this point, congrats! You are finished with the required section of the main guide! You can continue if you want to learn more, but anything past this point is optional.
-{: .notice--success}
-
 Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
 {: .notice--info}
 
-Allows the Wii Menu to launch discs (this is only the Wii Backup Disc) that use IOS16.
+### vWii: Next Steps
+
+Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
+{: .notice--info}
+
+### Wii mini: Next Steps
+
+Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders.
 {: .notice--info}

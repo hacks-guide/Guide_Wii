@@ -6,7 +6,7 @@ header:
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Nintendo Wii."
+excerpt: "The complete guide to modding your Wii, vWii, and Wii mini."
 ---
 
 Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
@@ -27,8 +27,9 @@ Here's a list of things you can do using homebrew.
 + Patch game disc contents (allowing you to load game modifications) using [Riivolution](http://www.wiibrew.org/wiki/Riivolution).
 + Install themes to your Wii Menu using [MyMenuify](themes).
 + Back up your discs with [CleanRip](/dump-games) and installed games and titles with [YABDM](dump-wads)
-+ Install a USB Loader like [WiiFlow](wiiflow) or [USB Loader GX](usbloadergx) to launch all your favorite titles from a USB storage device and more.
++ Turn your Wii into a media player with [WiiMC](https://oscwii.org/library/app/wiimc-ss).
 + Back up and restore your save files with [SaveGame Manager GX](https://wiidatabase.de/downloads/wii-tools/savegame-manager-gx-beta/)
++ Restore discontinued online services, such as [WiiConnect24](riiconnect24) & [Nintendo WFC services](wiimmfi).
 + Restore discontinued online services, such as [WiiConnect24](riiconnect24) & [Nintendo WFC services](wiimmfi).
 
 ### What does the guide install?
@@ -47,7 +48,7 @@ This guide aims to do the following, including optional sections:
 
 + Running homebrew on your Nintendo Wii can be done for free by exploiting bugs in Wii's software. Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam).
 + This guide works on all system menu versions depending on the exploit, but **it is recommended that you update to 4.3 (the latest firmware)** if possible.
-+ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered, nor is the Wii U's vWii.
++ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
 + Depending on what you intend to do with your modded Wii, you may have to make some modifications to the system memory that have a risk of bricking (rendering the console inoperable). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
 + The differences between the Wii and Wii mini are quite significant. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Tread carefully if you are planning to mod one!
 + Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).

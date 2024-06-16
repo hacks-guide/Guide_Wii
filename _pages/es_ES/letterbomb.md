@@ -4,16 +4,16 @@ title: "Donaciones"
 
 {% include toc title="Tabla de contenido" %}
 
+LetterBomb es un exploit para la Wii que se activa mediante el tablón de Wii.
+
 Para obtener instrucciones sobre cómo formatear correctamente tu tarjeta SD, por favor ve [esta guía](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
 {: .notice--info}
 
 Do NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Use your own!
 {: .notice--warning}
 
-LetterBomb es un exploit para la Wii que se activa mediante el tablón de Wii.
-
 ### Requisitos
-* Una tarjeta SD formateada como FAT32
+* An SD card formatted as FAT32 that is 32GB or less
 * Una Wii con la versión del sistema 4.3
 * A Windows/MacOS/Linux computer with an Internet connection
 
@@ -41,7 +41,7 @@ LetterBomb es un exploit para la Wii que se activa mediante el tablón de Wii.
 
 1. Inserta tu tarjeta SD en tu ordenador.
 1. Copy the `private` folder and the `boot.elf` file from the LetterBomb `.zip` to the root of your SD card.
-1. Extrae el contenido del archivo ZIP recién descargado a la raíz de la tarjeta SD.
+1. Expulsa la tarjeta SD e insértala en tu Wii.
     + La tarjeta SD debe insertarse en la ranura para tarjetas SD ubicada en la parte frontal de la consola. No es posible usar un adaptador USB conectado a alguno de los puertos USB de la consola.
 1. En tu consola, ingresa al tablón de Wii.
 1. Launch the Wii Message Board.

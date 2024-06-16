@@ -6,7 +6,7 @@ header:
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Nintendo Wii."
+excerpt: "The complete guide to modding your Wii, vWii, and Wii mini."
 ---
 
 Étant donné que ce guide vient d'être publié, les traductions sont en cours. Merci pour votre patience!
@@ -27,9 +27,10 @@ Here's a list of things you can do using homebrew.
 + Patch game disc contents (allowing you to load game modifications) using [Riivolution](riivolution).
 + Install themes to your Wii Menu using [MyMenuify](themes).
 + Back up your discs with [CleanRip](/dump-games) and installed games and titles with [Yet Another BlueDump MOD](dump-wads).
++ Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
 + Back up and restore your Wii save files with [SaveGame Manager GX](https://oscwii.org/library/app/savegame_manager_gx).
-+ Back up and restore your GameCube save files using [GCMM](gcsaves).
 + Restore discontinued online services using [RiiConnect24](riiconnect24), [Wiimmfi](wiimmfi) and [WiiLink](wiilink).
++ Back up and restore your GameCube save files using [GCMM](gcsaves).
 
 ### Qu'est-ce que le guide installe ?
 
@@ -47,7 +48,7 @@ Ce guide vise à faire ce qui suit, y compris les sections facultatives :
 
 + Running homebrew on your Nintendo Wii can be done for free by exploiting bugs in Wii's software. Quiconque essaie de vous convaincre du contraire tente probablement de [vous arnaquer](https://hbc.hackmii.com/scam).
 + Ce guide fonctionne sur toutes les versions du menu du système en fonction de l'exploit, mais **il est recommandé de mettre à jour vers la 4.3 (la dernière version du système) ** si possible.
-+ **Ce guide s’applique UNIQUEMENT aux Wiis pour les consommateurs !** Cela veut dire que les consoles dédiées au développement ne sont pas couvert, pas plus que la vWii de la Wii U.
++ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
 + Selon ce que vous avez l'intention de faire avec votre Wii moddée, vous devrez peut-être apporter quelques modifications à la mémoire du système qui ont un risque de briquage (rendre la console inopérante). Tant que vous suivez ce guide correctement, vous devriez être bien, mais pour des conseils généralistes sur la prévention de briques, vous pouvez voir [cette page](bricks#brick-prevention).
 + Les différences entre la Wii et la Wii mini sont assez significatives. Cela signifie que dans certains cas, quelque chose qui est normalement inoffensif pour la Wii pourrait causer un [brique sévère](bricks#wi-fi-brick) pour la Wii Mini. Faites donc preuve de prudence si vous prévoyez d'en modder une!
 + Soyez également très prudent si vous moddez une [Wii Coréenne](bricks#korean-kiierror-003-brick).

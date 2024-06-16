@@ -1,5 +1,5 @@
 ---
-title: "Open Shop Channel"
+title: "Canal Open Shop"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -7,7 +7,7 @@ title: "Open Shop Channel"
 For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
 {: .notice--primary}
 
-The [Open Shop Channel](https://oscwii.org/) is a homebrew app repository created by dhtdht020, and is currently the preferred way to download homebrew. Not only is it more convenient due to having the most commonly used homebrew in one place, but it is also safer as apps are manually added to the repository. You can see where an app is being obtained from by checking its [manifest](https://github.com/OpenShopChannel/Apps/tree/master/contents).
+The [Open Shop Channel](https://oscwii.org/) is a homebrew app repository created by dhtdht020, and is currently the preferred way to download homebrew.
 
 There are two methods to use the Open Shop Channel: on your Wii through Homebrew Browser, or outside of your Wii through OSCDL.
 

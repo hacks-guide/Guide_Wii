@@ -30,11 +30,11 @@ Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda 
 
     ![](/images/homebrew/CleanRip/device.png)
 
-1. Select the filesystem type of the device - in most cases it will be FAT (FAT32).
+1. Selezionare il tipo di filesystem del dispositivo - nella maggior parte dei casi sarà FAT (FAT32).
 
     ![](/images/homebrew/CleanRip/filesystem.png)
 
-1. Ensure that your device is connected to the system and press A to proceed.
+1. Assicurati che il tuo dispositivo sia connesso al sistema e premi A per procedere.
 
     ![](/images/homebrew/CleanRip/insertdevice.png)
 
@@ -55,10 +55,10 @@ Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda 
 A partire dalla v2.1.2 di CleanRip, c'è un'opzione che rileva automaticamente se il disco è a doppio strato o meno. Se si è su una versione precedente, o semplicemente desider verificare che l'opzione selezionata sia corretta, puoi controllare [questa lista](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) per vedere se il tuo gioco è un disco a doppio strato.
 {: .notice--info}
 
-If you get an unrecovered read error, ensure that the disc you are attempting to dump is clean and can be properly read by the console. Even though you may be able to play the game disc normally, you may still get this error. If the error persists, try to dump another disc and see if the same error happens.
+Se ottieni un errore di lettura non recuperato, assicurati che il disco su cui si esegue il dumping sia pulito e più essere propriamente letto dalla console. Anche se potresti avviare il disco normalmente, potresti sempre ottenere questo errore. Se l'errore persiste, prova ad eseguire il dumping su un altro disco e controlla se si ottiene lo stesso errore.
 {: .notice--warning}
 
-1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
+1. Quando richiesto, seleziona se il tuo disco è un disco Datel senza licenza. Se si è incerti, seleziona `No`.
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
@@ -75,12 +75,15 @@ If you get an unrecovered read error, ensure that the disc you are attempting to
 
     ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
 
-Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are output, and manage your dumped games.
+Procedere a [Gestire i backup Wii](wii-backups) per unire i file PART che sono in uscita e gestire i tuoi giochi eseguiti con il dump.
 {: .notice--info}
 
 ### Dump di un Disco GameCube
 
-1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
+Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping GameCube games. The Wii Family Edition can dump GameCube games if the disk drive is swapped with one made for an original model Wii.
+{: .notice--info}
+
+1. Quando richiesto, seleziona se il tuo disco è un disco Datel senza licenza. Se si è incerti, seleziona `No`.
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
@@ -93,5 +96,5 @@ Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are o
 
     ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
-Proceed to [Managing GameCube Backups](gc-backups) to shrink the size of your output file, and manage your dumped games.
+Procedi a [Gestire i backup GameCube](gc-backups) per ridurre le dimensioni del tuo file di output e gestire i tuoi giochi eseguiti con il dump.
 {: .notice--info}

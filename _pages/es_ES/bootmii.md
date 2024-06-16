@@ -19,7 +19,7 @@ Si has instalado BootMii como boot2, apaga y vuelve a encender la consola para i
 {: .notice--info}
 
 1. Enciende la consola.
-1. Inicia el Canal Homebrew.
+1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 1. Presiona el botón HOME y selecciona `Lanzar BootMii`.
 
     ![](/images/bootmii/BootMii_HBC.png)
@@ -34,7 +34,7 @@ Si has instalado BootMii como boot2, apaga y vuelve a encender la consola para i
 
     ![](/images/bootmii/BootMii_Main.png)
 
-    BootMii no es compatible con el Wii Remote. Para controlar la interfaz, deberás usar los botones POWER y RESET de la consola, o un control de GameCube conectado en el puerto del jugador 1. To navigate between options, press POWER. To select an option, press RESET.
+    BootMii no es compatible con el Wii Remote. Para controlar la interfaz, deberás usar los botones POWER y RESET de la consola, o un control de GameCube conectado en el puerto del jugador 1. To navigate between options, press POWER. Para seleccionar una opción, presiona el botón RESET.
     {: .notice--info}
 
 1. Selecciona el botón de opciones (el que tiene dos engranajes).
@@ -62,13 +62,22 @@ Si has instalado BootMii como boot2, apaga y vuelve a encender la consola para i
 <div id="restore-notice" class="notice" markdown="1">
 Nota: **restaurar una copia de seguridad de la NAND suele ser una solución extrema**. There are often better ways to unbrick your console.
 Puedes intentar [identificar la causa del brick](bricks) y revertir la acción que lo haya provocado.
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups.**
+To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
 </div>
 
-As stated earlier, if you have BootMii installed as boot2, it will launch every time you start your console. If you would like to change this, you can use the app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor). Or, you can edit `sd:/bootmii/bootmii.ini` manually.
+Se habrán creado dos archivos en la raíz de la tarjeta SD: `nand.bin` y `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
 {: .notice--info}
 
-Se habrán creado dos archivos en la raíz de la tarjeta SD: `nand.bin` y `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+### Autobooting
+
+If you were able to install BootMii as boot2, but dont want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
+
+1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
+1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
+1. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
+1. Save the file and exit.
+
+You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
 {: .notice--info}
 
 Se recomienda instalar BootMii como boot2 en caso de estar disponible para tu consola. De no ser así, solo podrás instalarlo como un IOS.

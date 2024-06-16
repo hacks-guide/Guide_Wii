@@ -3,3 +3,5 @@ files:
     translation: /_data/navigation/%locale_with_underscore%.yml
   - source: /_pages/en_US/*.md
     translation: /_pages/%locale_with_underscore%/%original_file_name%
+  - source: /_pages/en_US/include/*.md
+    translation: /_pages/%locale_with_underscore%/include/%original_file_name%

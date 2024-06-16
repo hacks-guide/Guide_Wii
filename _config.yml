@@ -15,7 +15,7 @@ theme                    : "minimal-mistakes-hacks-guide"
 # Site Settings
 title                    : "Wii Hacks Guide"
 name                     : "Nintendo Homebrew"
-description              : "The complete guide to modding your Wii (and Wii mini)"
+description              : "The complete guide to modding your Wii, vWii, and Wii mini"
 url                      : "https://wii.hacks.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "wii.hacks.guide"
 repository               : "hacks-guide/Guide_Wii" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

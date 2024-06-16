@@ -2,7 +2,7 @@
 title: Managing Wii Backups
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 This guide provides instructions on how to manage your Wii backups, from joining .PART files that are output through CleanRip, to shrinking game files that can be copied onto a FAT32 device. Two programs that can be used to manage your Wii backups are Wii Backup Manager (for Windows) and Wii Backup Fusion (for Linux and MacOS) and are covered below.
 
@@ -56,7 +56,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ### Using Wii Backup Manager
 
-#### Requirements
+#### Требования
 
 - A PC running Windows
 - A USB drive or SD card
@@ -90,7 +90,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ### Using Wii Backup Fusion
 
-#### Requirements
+#### Требования
 
 - A PC running MacOS or Linux
 - A USB drive or SD card

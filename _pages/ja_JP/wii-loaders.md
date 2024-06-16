@@ -12,7 +12,7 @@ In order for Wii loader to function properly, you must have the latest cIOS inst
 To play games, you are advised to use a large SD card or an external hard drive, flash drives are not recommended and very sporadic in functionality. 詳しくは[FAQ](faq)を確認してください。
 {: .notice--info}
 
-The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Run the app in the Homebrew Channel to install the forwarder. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme).
+You can install it with [YAWM ModMii Edition](yawmme). The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. Run the app in the Homebrew Channel to install the forwarder.
 {: .notice--info}
 
 ### WiiFlow LiteとUSB Loader GXの違い
@@ -33,7 +33,7 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 
 ### ゲームディレクトリのテンプレート
 
-Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB.
+Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game directory structure correctly.
 
 ```
 💾SD card or USB:
@@ -100,7 +100,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 #### インストールの手順
 
-1. WiiにcIOS 248-251がインストールされてることを確認してください。[SysChecker](syscheck)などのアプリやd2x cIOSインストーラで見れます。
+1. WiiにcIOS 248-251がインストールされてることを確認してください。 [SysChecker](syscheck)などのアプリやd2x cIOSインストーラで見れます。
 1. Download USB Loader GX and install it on your SD Card or USB device.
 
 #### クイックスタートガイド

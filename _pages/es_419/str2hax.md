@@ -1,5 +1,5 @@
 ---
-title: "Wiimmfi"
+title: "str2hax"
 ---
 
 {% include toc title="Tabla de contenido" %}
@@ -9,22 +9,14 @@ Note that if your ISP or networking environment prevents using custom DNS server
 
 str2hax is an exploit for the Wii that is triggered by loading the Wii's End User License Agreement. It requires nothing but an Internet connection that lets you change the DNS on your Wii.
 
+If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
+{: .notice--warning}
+
 ### Requirements
 
 * A Wii with an Internet connection
 
 ### Instrucciones
-
-#### Common issues
-
-If you get the normal User Agreements, your ISP blocks the use of custom DNS. Please [use another exploit](get-started).
-{: .notice--warning}
-
-If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
-{: .notice--warning}
-
-If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
-{: .notice--warning}
 
 #### Section I - Connecting
 
@@ -85,10 +77,14 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![](/images/exploits/str2hax/EULA.png)
 
+    + If you get the normal User Agreements, your ISP blocks the use of custom DNS. Try another connection, or [use another exploit](get-started).
+
 1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 1. The exploit will download the HackMii Installer so you can continue.
 
     ![](/images/hackmii/scam.png)
+
+    + If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again. if_config (ret = ...)</code>, please restart your Wii and try again.
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 {: .notice--info}

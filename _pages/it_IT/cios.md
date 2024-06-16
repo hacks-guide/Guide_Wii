@@ -4,9 +4,18 @@ title: "cIOS"
 
 {% include toc title="Table of Contents" %}
 
-Nonostante i [cIOS](https://wiibrew.org/wiki/Custom_IOS) siano stati per la maggior parte soppiantati da AHBPROT, che dà l'accesso completo all'hardware, essi hanno comunque delle applicazioni utili. Per esempio, questo permette la funzionalità di USB loader come USB Loader GX e WiiFlow, insieme ad altre applicazioni homebrew come SaveGame Manager GX. Puoi saltare questo processo se vuoi, ma normalmente migliore il tuo Wii con quasi nessun lato negativo.
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+cIOS (Custom IOS) are IOS that are patched to allow custom functionality. Nonostante i [cIOS](https://wiibrew.org/wiki/Custom_IOS) siano stati per la maggior parte soppiantati da AHBPROT, che dà l'accesso completo all'hardware, essi hanno comunque delle applicazioni utili. Per esempio, questo permette la funzionalità di USB loader come USB Loader GX e WiiFlow, insieme ad altre applicazioni homebrew come SaveGame Manager GX. Puoi saltare questo processo se vuoi, ma normalmente migliore il tuo Wii con quasi nessun lato negativo.
 
-Se hai un Wii mini, usa invece [questa](cios-mini) guida per cIOS. Provare a installare altri cIOS su un Wii mini non funzionerà.
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+This guide is only intended for Wii users. If you have a Wii mini, follow [this guide](cios-mini) instead. If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+{: .notice--warning}
+
+Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Farlo [brickerà](bricks#ios-brick) probabilmente la tua console.
 {: .notice--warning}
 
 ### Requisiti
@@ -22,10 +31,10 @@ Assicurati che, se stai usando la scheda SD, l'interruttore della proteziona scr
 
 #### Sezione I - Download
 
-Se il tuo Wii ha una connessione a internet, puoi saltare questa sezione. <br> Tuttavia, se incontri errori come `net_init failed`, `net_gethostbyname failed:`, o altri problemi durante la fase di download, questo permetterà al tuo Wii di saltare alla fase successiva.
-{: .notice--warning}
-
 Se non sei su Windows, puoi scaricare & eseguire [questo script](/assets/files/d2x_offline_ios.sh), e scaricherà i file WAD per te.
+{: .notice--info}
+
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
 {: .notice--info}
 
 1. Spegni la console.
@@ -65,7 +74,7 @@ I file WAD dovrebbe essere sulla scheda SD in questo modo: ![](/images/cios/d2x_
 
     ![](/images/cios/d2x_v11_248.png)
 
-    L'avviso "`(c)IOS detected in slot ### will be overwriitten`" può essere ignorato.
+    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
     {: .notice--info}
 
     Se stai vedendo "`Slot ### already used in batch settings`" oppure "`cIOS already added in batch with revision ##### and slot ###`", premi `-` per disabilitare la modalità batch. <br> (Se stai cercando di uscire dall'installer, il pulsante è B, non Home.)

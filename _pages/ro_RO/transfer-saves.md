@@ -223,7 +223,7 @@ Make sure you have installed [cIOS](cios) before following this!
     + If you would like to restore all the saves in `MCBACKUP`, press `1`/`R`.
 ![](/images/homebrew/gcsaves/gcmm-restore-save.jpg)
 
-1. When restoration is complete, press any button to continue.
+1. Odată ce restaurarea este completă, apasă orice buton pentru a continua.
 </div>
 
 <div id="dol-emumc" class="tabcontent to" markdown="1">
@@ -393,7 +393,7 @@ div id="emumc-gcmc" class="tabcontent to" markdown="1">
 
     ![](/images/homebrew/gcsaves/gcmm-restore-save.jpg)
 
-1. When restoration is complete, press any button to continue.
+1. Odată ce restaurarea este completă, apasă orice buton pentru a continua.
 
 <div>
 

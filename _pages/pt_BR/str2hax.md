@@ -9,22 +9,14 @@ Observe que se o seu provedor de internet ou ambiente de rede impede o uso de se
 
 str2hax é um exploit para o Wii que é acionado ao carregar o End User License Agreement do Wii. Isso requer nada além de uma conexão de Internet que permite alterar o DNS no seu Wii.
 
+Se você instalou um mod como CTGP Revolution ou Project+, str2hax vai carregar ao invés disso. Caso positivo, reinicie o seu Wii e tente novamente sem seu cartão SD inserido.
+{: .notice--warning}
+
 ### Requisitos
 
 * Um Wii com conexão à Internet
 
 ### Instruções
-
-#### Problemas Comuns
-
-Se você receber o User Agreement normal, seu provedor de acesso à internet bloqueia o uso de um DNS customizado. Por favor escolha [outro exploit](get-started).
-{: .notice--warning}
-
-Se o HackMii Installer não carregar após mais de 2 minutos, ou você receber um erro como `Hanging.` ou `ERROR! if_config (ret = ...)`, por favor reinicie o seu Wii e tente novamente.
-{: .notice--warning}
-
-Se você instalou um mod como CTGP Revolution ou Project+, str2hax vai carregar ao invés disso. Caso positivo, reinicie o seu Wii e tente novamente sem seu cartão SD inserido.
-{: .notice--warning}
 
 #### Seção I - Conectando
 
@@ -45,7 +37,7 @@ Este exploit exige que você configure seu DNS para se conectar a um servidor qu
 
     ![](/images/riiconnect24/Internet_4.png)
 
-1. Configurações de conexão
+1. Vá em `Change Settings`.
 
     ![](/images/riiconnect24/Internet_5.png)
 
@@ -85,10 +77,14 @@ Este exploit exige que você configure seu DNS para se conectar a um servidor qu
 
     ![](/images/exploits/str2hax/EULA.png)
 
+    + Se você receber o User Agreement normal, seu provedor de acesso à internet bloqueia o uso de um DNS customizado. Try another connection, or [use another exploit](get-started).
+
 1. Dê ao exploit 1-2 minutos para baixar (e não pressione `I ACCEPT`/`I DO NOT ACCEPT`).
 1. Se o exploit foi bem sucedido, seu console irá carregar o Instalador HackMii.
 
     ![](/images/hackmii/scam.png)
+
+    + Se o HackMii Installer não carregar após mais de 2 minutos, ou você receber um erro como `Hanging.` ou `ERROR! if_config (ret = ...)`, por favor reinicie o seu Wii e tente novamente.
 
 [Continue para a Instalação do Homebrew Channel e do BootMii](hbc)
 {: .notice--info}

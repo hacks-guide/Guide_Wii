@@ -4,7 +4,7 @@ title: "RiiConnect24"
 
 {% include toc title="條目內容" %}
 
-FlashHax is an exploit for the Wii that is triggered by using the Internet Channel. Unlike other exploits, this doesn't require an SD card. Unlike other exploits, this doesn't require an SD card.
+FlashHax is an exploit for the Wii that is triggered by using the Internet Channel. Unlike other exploits, this doesn't require an SD card. Unlike other exploits, this doesn't require an SD card. Unlike other exploits, this doesn't require an SD card.
 
 ### 必備項目
 

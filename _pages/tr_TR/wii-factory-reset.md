@@ -8,6 +8,9 @@ This guide details how to create a stock NAND for your Wii system using a progra
 
 Please note that this program **needs** an existing (even bricked!) NAND backup to function, as it needs to have a copy of the first 8 blocks of NAND, a bad blocks list, and AES/HMAC keys.
 
+Do not attempt this tutorial on the Wii U's vWii.
+{: .notice--info}
+
 {% capture here-be-dragons %}
 
 The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and should only be considered as a LAST RESORT or if you are trying to do any of the following:
@@ -23,7 +26,7 @@ The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and sh
 If you are trying to [update your Wii to 4.3U](update) with homebrew or update outdated homebrew/IOS, you most likely do not need to follow this guide. Instead, you can use a tool like the SysCheck Updater Wizard built into [ModMii](modmii#syscheck-updater-wizard). If you are confused about this process, consider joining the Nintendo Homebrew discord server for support.
 {: .notice--warning}
 
-### Requirements
+### Gereksinimler
 
 - An SD card with at least 512MB of free space
 - A [NAND backup](bootmii) from the specific system you are trying to flash

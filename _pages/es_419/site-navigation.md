@@ -1,12 +1,12 @@
 ---
-title: "Site Navigation"
+title: "Navegación del Sitio"
 layout: single
 sitemap: falso
 ---
 
 {% capture notice-1 %}
 **Site**
-+ [Wii Guide](/)
++ [Inicio](/)
 + [Start Here](get-started)
 + [Preguntas frecuentes](faq)
 + [Donations](donations)
@@ -22,11 +22,11 @@ sitemap: falso
 
 {% capture notice-3 %}
 **Modding 101**
-+ [Credits](bluebomb)
-+ [RiiConnect24](flashhax)
++ [BlueBomb](bluebomb)
++ [FlashHax](flashhax)
 + [Legacy Exploits](legacy-exploits)
-+ [Donations](letterbomb)
-+ [Wiimmfi](Wiimmfi)
++ [LetterBomb](letterbomb)
++ [str2hax](str2hax)
 + wiilink
 <div class="notice--primary">{{ notice-3 | markdownify }}</div>
 
@@ -39,12 +39,13 @@ sitemap: falso
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
-+ [Open Shop Channel](osc)
++ [Canal Open Shop](osc)
 + [Priiloader](priiloader)
 + [Relaunching the HackMii Installer](hackmii)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Updating Wii Menu to v4.3](update)
-+ [Restoring the Wii NAND to Stock](wii-factory-reset)
-+ [wiilink-demae-dominos](wnd-mini)
++ [Recovery Mode](recovery-mode)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wiimmfi](wiimmfi)
 {% endcapture %}
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
@@ -59,15 +60,25 @@ sitemap: falso
 + [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
-+ [Installing RSSMii](rssmii)
 + [Transferring Save Games](transfer-saves)
-+ [USB Loader GX](wii-loaders)
++ [Wii Backup Loaders](wii-loaders)
 + [Performing a SysCheck](syscheck)
 + Installing Wii Menu Themes on vWii
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
+**vWii**
++ [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
++ [Wii U NAND Dumper](wiiu-nand-dumper)
++ [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
++ [Installing cIOS on the vWii](cios-vwii)
+{% endcapture %}
+<div class="notice--primary">{{ notice-6 | markdownify }}</div>
+
+{% capture notice-7 %}
 **Wii mini**
 + [Installing the Homebrew Channel on the Wii mini](hbc-mini)
-+ Installing cIOS on the Wii mini
-<div class="notice--primary">{{ notice-6 | markdownify }}</div>
++ [Installing cIOS on the Wii mini](cios-mini)
++ [Wii mini NAND Dumper](wnd-mini)
+{% endcapture %}
+<div class="notice--primary">{{ notice-7 | markdownify }}</div>

@@ -2,190 +2,116 @@
 title: "Priiloader"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tartalomjegyzék" %}
 
-Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also enable hacks for your Wii Menu, and be used to quickly launch the Homebrew Channel, BootMii, or whatever homebrew you want.
+A [Priiloader](https://github.com/DacoTaco/priiloader) egy elhanyagolhatatlan alkalmazás, amelyet [DacoTaco](https://github.com/DacoTaco) fejlesztett ki a Wiik valamilyen szintű elromlásbiztosítása érdekében. A program még a Wii rendszermenü betöltése előtt indul el. A programot arra is felhasználhatod, hogy különböző javításokat alkalmazz a rendszermenüre.
 
-### Installing Priiloader
+Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii indításának befolyásolására is használható.
 
-{% capture notice-vwii-priiloader %}
-Priiloader 0.10.0 introduces vWii support! <br> There are some important things to take note of:
-+ To fix the timestamp issues (FORE000006, wrong News Channel update time), you will need to [generate a timestamp fix hack](https://garyodernichts.github.io/priiloader-patch-gen/) (more information on the page).
-+ Installing a theme after installing Priiloader **will brick your vWii.**
+### Követelmények
+
+* Egy SD kártya vagy pendrive
+* A [Priiloader-telepítő](https://oscwii.org/library/app/priiloader) (méghozzá a `.zip`-fájl)
+* A [Priiloader-betöltő](https://oscwii.org/library/app/loadpriiloader) (ugyancsak a `.zip`-fájl)
+
+#### Egyéb követelmények vWiihez (nem kötelező, de erősen ajánlott)
+
+* Egy SD kártya
+* A [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (közvetlen letöltés)
+    * A Priiloader Wii U Forwarder működéséhez az [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) is szükséges.
+
+### Útmutató
+
+{% capture vwii-notes %}
+
+A vWiire telepített Priiloader nem befolyásolja a Wii U VC-programokat.
+
 {% endcapture %}
 
-<!--div class="notice--success" markdown="1">{{ notice-vwii-priiloader }} </div-->
+<div class="notice--danger">{{ vwii-notes | markdownify }}</div>
 
-### Requirements
+#### I. rész – Előkészületek
 
-* An SD card or USB drive
-* [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
-* [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
+1. Kapcsold ki a konzolt!
+1. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
+1. Helyezd át az `apps`-mappát a LoadPriiloader `.zip`-fájlból az SD kártya vagy pendrive gyökerére!
+1. Helyezd át az `apps`-mappát a priiloader `.zip`-fájlból az SD kártya vagy pendrive gyökerére!
+1. (Csak ha vWii-vel dolgozol:) Helyezd át a `wiiu`-mappát a PriiloaderWiiUForwarder `.zip`-fájlból az SD kártya gyökerére!
+1. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
-### Instructions
+#### II. rész – A Priiloader telepítése
 
-#### Section I - Prep Work
+1. Kapcsold be a konzolt!
+1. Indítsd el a Homebrew Channelt!
+1. Indítsd el a listáról a „Priiloader Installer”-t!
+1. Nyomd meg a +-gombot a Wii Remote-on vagy az A-gombot a GameCube-vezérlőn!
 
-1. Power off your console.
-1. Insert your SD card or USB drive into your computer.
-1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
-1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
+    ![](/images/priiloader/installer.png)
 
-#### Section II - Installing Priiloader
+    ![](/images/priiloader/installing.png)
 
-1. Power on your console.
-1. Launch the Homebrew Channel.
-1. Launch Priiloader installer from the list of homebrew.
-1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
+1. Nyomd meg az A-gombot a Homebrew Channelbe való visszatéréshez!
 
-    ![Install Priiloader](/images/priiloader/installer.png)
+#### III. rész – A Priiloader indítása
 
-    ![Installing](/images/priiloader/installing.png)
+1. Nyomd meg a HOME-gombot, majd válaszd ki az „Exit to System Menu”-gombot a Homebrew Channelbe való visszatéréshez!
+1. A konzol most meg fogja nyitni a Priiloader menüjét.
 
-1. Press A to return to the Homebrew Channel.
+    ![](/images/priiloader/menu.png)
 
-#### Section III - Entering Priiloader
+A későbbi indításhoz kövesd az alábbi lépéseket:
 
-Priiloader will appear automatically after you install it. Simply exit the Homebrew Channel, and you should see the Priiloader menu:
++ A Wii bekapcsolása közben tartsd nyomva a RESET-gombot!
+    + Csak Wii-konzolokon
++ A konzol bekapcsolása közben tartsd nyomva az Esc-gombot egy csatlakoztatott USB-s billentyűzeten!
+    + Wii, Wii mini és Wii U konzolokon
++ Indítsd el a „Load Priiloader”-programot a Homebrew Channelből!
+    + Wii, Wii mini és Wii U konzolokon
++ Indítsd el a „Priiloader Wii U Forwarder”-programot!
+    + Csak Wii U konzolokon
 
-![Priiloader Menu](/images/priiloader/menu.png)
+#### IV. rész – A Priiloader beállítása
 
-To enter it later on, simply run the "Load Priiloader" homebrew app. There are also other ways to enter Priiloader:
+1. Görgess le, amíg meg nem látod a „`System Menu Hacks`”-menüpontot és válaszd ki az `A`-gombbal!
 
-+ Holding RESET on a Wii while turning it on
-+ Holding the ESC key on a USB keyboard while turning on the console
+    ![](/images/priiloader/menu_hacks.png)
 
-### Configuring Priiloader
-
-#### System Menu Hacks
-
-1. Open the Homebrew Channel.
-1. Launch "Load Priiloader" from the list of homebrew.
-1. Scroll down to `System Menu Hacks` and press `A`.
-
-    ![System Menu Hacks](/images/priiloader/menu_hacks.png)
-
-    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br> Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
+    Ha a Priiloader-telepítőt a pendrive-odra helyezted, bizonyosodj meg róla, hogy ne legyen behelyezve egy SD kártya is! <br> Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a `hacks_hash.ini`-fájlt.
     {: .notice--warning}
 
-1. Press `A` on each hack you would like to enable.
-    + It is advised to enable "Block Disc Updates", "Block Online Updates", and "Region Free EVERYTHING".
+1. A konzolod típusa alapján az alábbi beállításokat kell engedélyezned:
+    + Wii:
+        + Ha 480p-s módban vagy: `480p graphics fix in the system menu` (480p-s grafikus javítások a rendszermenühöz)
+        + Block Disc Updates (lemezes frissítések letiltása)
+        + Block Online Updates (internetes frissítések letiltása)
+        + Ha NEM katódsugárcsöves kijelzőt használsz: `Remove Deflicker` (villódzáscsökkentő szűrő eltávolítása)
+    + vWii:
+        + Block Online Updates (internetes frissítések letiltása)
+        + Wii System Settings via Options Button (Wii-rendszerbeállítások megnyitása az Options-gombbal)
+        + Ha NEM katódsugárcsöves kijelzőt használsz: `Remove Deflicker` (villódzáscsökkentő szűrő eltávolítása)
+    + Wii mini:
+        + Block Disc Updates (lemezes frissítések letiltása)
+        + Ha NEM katódsugárcsöves kijelzőt használsz: `Remove Deflicker` (villódzáscsökkentő szűrő eltávolítása)
+1. Ha végeztél, a mentéshez görgess le és válaszd ki a „`save settings”`-menüpontot az A-gombbal!
+1. Végezetül, nyomd meg a `B`-gombot a főmenübe való visszatéréshez!
 
-    ![System Menu Hacks List](/images/priiloader/system_menu_hacks.png)
-
-1. Scroll down to `save settings` and press A.
-1. Press `B` to return to the main menu.
-
-<details id="system-menu-hacks-list" class="notice--info" markdown="1">
-<summary><a>Click here for a full list of available System menu hacks.</a></summary>
-
-| Hack                                      | Description                                                                                                                                                                           |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Block Disc Updates                        | Removes the "Wii System Update" screen included with some games that forces you to update the system before playing the game.                                                         |
-| Block Online Updates                      | Disables updating your Wii. Updates will fail with error 32007.                                                                                                                       |
-| Auto-Press A at Health Screen             | Automatically presses the A Button to get past the initial "Health and Safety" screen.                                                                                                |
-| Replace Health Screen with Backmenu       | Changes the "Health and Safety" screen to the animation played when returning to the Wii Menu.                                                                                        |
-| Move Disc Channel                         | Enables moving the Disc Channel anywhere on the Wii Menu. It's normally stuck in the top left of the first page.                                                                      |
-| Wiimmfi Patch v4                          | Automatically patches all games you run from the Disc Channel for use with Wiimmfi.                                                                                                   |
-| 480p graphics fix in system menu          | Fixes a small issue with 480p on the Wii Menu.                                                                                                                                        |
-| Remove NoCopy Save File Protection        | Allows you to copy normally disallowed save files to your SD card from Data Management                                                                                                |
-| Region Free EVERYTHING                    | Disables region locking for any Wii application, including downloaded ones.                                                                                                           |
-| ~~No System Menu Sounds AT ALL~~          | ~~Disables all the Wii Menu sound effects.~~ Currently broken.                                                                                                                        |
-| No System Menu Background Music           | Disables the Wii Menu background music.                                                                                                                                               |
-| Re-Enable Bannerbomb v2                   | Enables the "Bannerbomb" exploit on the latest Wii version. Not needed when the Homebrew Channel is already installed.                                                                |
-| OSReport to UsbGecko(slot B)              | Sends Wii Menu logs to a debugging device in memory card slot B.                                                                                                                      |
-| OSReport to UsbGecko(GeckoOS,B)           | Sends Wii Menu logs to a debugging device in memory card slot B, if the Wii Menu is launched by Gecko OS.                                                                             |
-| Force boot into Data Management           | Immediately loads the Wii menu into Data Management.                                                                                                                                  |
-| Force Standard Recovery Mode              | Automatically launches the console in recovery mode. Used to launch recovery discs, letting users unbrick their Wii systems.                                                          |
-| Remove Diagnostic Disc Check              | Removes a check in the Wii to see if an inserted game matches the title ID of the "Wii Startup Disc".                                                                                 |
-| No-Delete HAXX,JODI,DVDX,DISC,DISK,RZDx   | Re-enable channels with these title IDs (originally blocked in system updates due to them being exploits).                                                                            |
-| Force Disc Games to run under IOS249      | Make discs use cIOS 249 as the game's IOS. While it cannot allow playing of burned games on its own, it is needed to play burned discs. (Can give you Error 002 on a non-burned game) |
-| Remove Deflicker                          | Removes the deflicker filter and makes the Wii Menu appear clearer.                                                                                                                   |
-| Block Disc Autoboot                       | This prevents the Wii from instantly launching discs with title IDs starting with 0 or 1 (0x30, 0x31).                                                                                |
-| Allow TitleID RAAE, 408x, 410x            | Allows the Wii Menu to read the discs with the title IDs RAAE (Wii Startup Disc), 408x and 410x (Wii Backup Disc)                                                                     |
-| Remove IOS16 Disc Error                   | Allows the Wii Menu to launch discs (this is only the Wii Backup Disc) that use IOS16.                                                                                                |
-| Mark Network Connection as Tested         | Enables the `Use This Connection` button in the Internet connection settings, regardless of the results of the last connection test.                                                  |
-| Always enable WiiConnect24 for vWii       | Enables WiiConnect24 & Standby Connection every time the Wii menu starts. **Requires a reboot after enabling.**                                                                       |
-| Create message via Calendar button (vWii) | Clicking on the Calendar button opens the Create Message menu instead of the Calendar, allowing the user to create Memos, send messages to, and register Wii friends.                 |
-
-</details>
-
-[View the Brick Prevention Guidelines](bricks#brick-prevention)<br> These guidelines list ways that to avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
+A Priiloader további lehetőségeiről és javításairól való tájékozódáshoz keresd fel a [Priiloader használata](priiloader-usage)-oldalt!
 {: .notice--info}
 
-### Additional options
+[Az elrontáskiküszöbölési segédlet megtekintése](bricks#brick-prevention)<br> Ebben a segédletben elolvashatod, hogy mit tehetsz a Wiid elrontásának elkerüléséhez, a BootMii és Priiloader telepítésén kívül.
+{: .notice--info}
 
-These are some extra things you can do with Priiloader to enhance your homebrew experience. This is optional.
+### Wii: További lépések
 
-#### Autobooting with Priiloader
+Folytatás [cIOS-sel](cios)<br> Ez az útmutató végigvezet az alap cIOS-ek telepítésén, ami további funkciókat fog lehetővé tenni, többek között az USB-betöltőknél.
+{: .notice--info}
 
-Priiloader allows you to automatically boot to the Homebrew Channel, an individual homebrew application, or Priiloader itself. This is optional.
+### vWii: További lépések
 
-##### Autobooting a Homebrew application
+Folytatás [vWii cIOS-sel](cios-vwii)<br> Ez az útmutató végigvezet az alap cIOS-ek telepítésén, ami további funkciókat fog lehetővé tenni, többek között az USB-betöltőknél.
+{: .notice--info}
 
-<div id="autobooting-usbloadergx" class="notice--warning" markdown="1">
-If you would like to autoboot USB loader GX, do this first:
-  + Download the USB Loader GX forwarder WAD ([Wii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT.wad), [vWii](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders/USB%20Loader%20GX-UNEO_Forwarder_5_1_AHBPROT_vWii%20%28Fix%29.wad)).
-  + Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
-  + Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
-  + Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
-  + Copy `uneoboot.dol` to the root of your SD card.
-You will be installing `uneoboot.dol` in step 3.
-</div>
+### Wii mini: További lépések
 
-1. Launch the Homebrew Channel
-1. Launch Load Priiloader from the list of homebrew.
-1. Scroll down to `Load/Install file` and press A.
-
-    ![Load/Install File](/images/priiloader/menu_install_file.png)
-
-1. Scroll through the menu until your desired homebrew app is highlighted, and press A to install it.
-
-    ![Installing a Homebrew App](/images/priiloader/installing_file.png)
-
-    ![Installing a Homebrew App OK](/images/priiloader/installing_file_ok.png)
-
-1. Press `B` to return to the main menu.
-1. Scroll down to `Settings` and press A.
-
-    ![Settings](/images/priiloader/menu_settings.png)
-
-1. Press Right to cycle through the Autoboot options until `Installed file` is selected.
-
-    ![Autoboot: Installed File](/images/priiloader/autoboot_installed_file.png)
-
-1. Scroll down to `save settings` and press A.
-
-    ![Saving Settings](/images/priiloader/settings_save.png)
-
-1. Press `B` to return to the main menu.
-1. Scroll back up to `System Menu` and press A.
-
-Your Wii should now automatically boot to whichever homebrew app you installed.
-
-##### Autobooting the Homebrew Channel or Priiloader
-
-1. Launch the Homebrew Channel
-1. Launch Load Priiloader from the list of homebrew.
-1. Scroll down to `Settings` and press A.
-
-    ![Settings](/images/priiloader/menu_settings.png)
-
-1. Press Right to cycle through the Autoboot options until your desired option is selected.
-    + Disabled` will autoboot to the Priiloader menu.
-
-    Please don't set Autoboot to `BootMii IOS`. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.
-    {: .notice--warning}
-
-    ![Autoboot](/images/priiloader/autoboot_disabled.png)
-
-1. Scroll down to `save settings` and press A.
-
-    ![Saving Settings](/images/priiloader/settings_save.png)
-
-1. Press `B` to return to the main menu.
-1. Scroll back up to `System Menu` and press A.
-
-[Continue to Open Shop Channel Installation](osc) Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+Folytatás [Wii mini cIOS-sel](cios-mini)<br> Ez az útmutató végigvezet az alap cIOS-ek telepítésén, ami további funkciókat fog lehetővé tenni, többek között az USB-betöltőknél.
 {: .notice--info}

@@ -4,9 +4,17 @@ title: "安装Homebrew Channel和BootMii"
 
 {% include toc title="Table of Contents" %}
 
-Homebrew Channel 是您启动自制应用的地方。 BootMii 是一个可以备份和恢复Wii的 NAND 存储的软件，如果安装在 boot2 中还可以提供变砖保护。
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+The Homebrew Channel is where you will go to launch homebrew applications.
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+The Homebrew Channel is where you will go to launch homebrew applications. BootMii 是一个可以备份和恢复Wii的 NAND 存储的软件，如果安装在 boot2 中还可以提供变砖保护。
 
-BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009. 如果您无法安装 BootMii，请继续[安装 Priiloader](priiloader)。
+BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009. 如果您无法安装 BootMii，请继续[安装 Priiloader](priiloader)。 BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009. 如果您无法安装 BootMii，请继续[安装 Priiloader](priiloader)。
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
 如果您没有 SD 卡，您无法安装也不能使用 BootMii，因此也就无法享受到上述任何好处。 <br> 您可以随时[在以后安装它](hackmii)。

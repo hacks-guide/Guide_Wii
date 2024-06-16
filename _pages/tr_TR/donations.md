@@ -1,5 +1,5 @@
 ---
-title: "Donations"
+title: "Bağışlar"
 ---
 
 [![Paypal]({{ base_path }}/images/main-pages/donations/paypal_white.png){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://paypal.me/NintendoHomebrew){: .align-center}
@@ -12,5 +12,5 @@ title: "Donations"
 {: .text-center}
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Site dizinine geri dönmek için burayı tıklayın.](site-navigation)
 {: .notice--info}

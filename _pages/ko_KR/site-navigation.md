@@ -43,9 +43,10 @@ sitemap: false
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
 + [HackMii 설치 프로그램 다시 시작하기](hackmii)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wii 메뉴 v4.3으로 업데이트하기](update)
-+ [Restoring the Wii NAND to Stock](wii-factory-reset)
-+ [Wii U를 위한 RiiTag](wnd-mini)
++ [Recovery Mode](recovery-mode)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 
@@ -59,15 +60,25 @@ sitemap: false
 + [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [추천](recommended-homebrew)
-+ [RSSMii 제거](rssmii)
 + [Transferring Save Games](transfer-saves)
-+ [USB 로더 GX](wii-loaders)
++ [Wii Backup Loaders](wii-loaders)
 + [SysCheck 수행](syscheck)
 + vWii에 Wii 메뉴 테마 설치하기
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
+**vWii**
++ [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
++ [Wii U NAND Dumper](wiiu-nand-dumper)
++ [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
++ [Installing cIOS on the vWii](cios-vwii)
+{% endcapture %}
+<div class="notice--primary">{{ notice-6 | markdownify }}</div>
+
+{% capture notice-7 %}
 **Wii 미니**
 + [Wii 미니에 홈브류 채널 설치하기](hbc-mini)
-+ Wii 미니에 cIOS 설치하기
-<div class="notice--primary">{{ notice-6 | markdownify }}</div>
++ [Installing cIOS on the Wii mini](cios-mini)
++ [Wii mini NAND Dumper](wnd-mini)
+{% endcapture %}
+<div class="notice--primary">{{ notice-7 | markdownify }}</div>

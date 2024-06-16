@@ -26,11 +26,14 @@ title: "创建Wii游戏快捷方式"
 
     ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
-1. 选择 U 盘上 ISO 或 WBFS 文件的目录，并选择使用的 USB Loader。 其它选项应该保持默认即可。
+2. 选择 U 盘上 ISO 或 WBFS 文件的目录，并选择使用的 USB Loader。 其它选项应该保持默认即可。
 
     ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
-1. 使用 WAD 管理器安装生成的 WAD。
+If you are on vWii, use the [Wiiforwarder2vWii](https://gbatemp.net/download/wiiforwarder2vwii-wii-forwarder-to-vwii-wii-u-forwarder-converter-beta-version.37254/) tool to convert the WAD for use on the vWii.
+{: .notice--info}
+
+3. 使用 WAD 管理器安装生成的 WAD。
 
 <div class="notice--info">
 如果出现 "The system files are corrupted" 错误，不要惊慌，只要您安装了 Priiloader 就没有问题。

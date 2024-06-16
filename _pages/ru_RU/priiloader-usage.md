@@ -2,7 +2,7 @@
 title: Priiloader Usage
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Оглавление" %}
 
 Priiloader is an essential tool that adds a level of brick protection to your Wii. It loads before the Wii System Menu does. The tool can also apply hacks that are used to enhance, unlock, and/or fix many System Menu features.
 
@@ -12,7 +12,7 @@ This page documents some of the useful features of Priiloader that may be of int
 
 ### System Menu Hacks
 
-Priiloader has a large selection of options that, once enabled, change the behaviour of the Wii to one of your choice. You can find more information on each options [here](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks).
+Priiloader has a large selection of options that, once enabled, change the behaviour of the Wii to one of your choice. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks). Addditionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
 
 ### Additional options
 

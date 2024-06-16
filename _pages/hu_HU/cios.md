@@ -1,110 +1,136 @@
 ---
-title: "cIOS"
+title: "cIOS-ek telepítése"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tartalomjegyzék" %}
 
-While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+{% capture technical_info %}
+<summary><em>Technikai részletek (nem kötelező)</em></summary> a cIOS („custom IOS” / „egyéni IOS”)-ek egyéni rendszerfunkciók igénybevételét teszik lehetővé. Ugyan a [cIOS](https://wiibrew.org/wiki/Custom_IOS)-eket nagyrészt kiváltotta az AHBPROT, amely teljes hardveres hozzáférést biztosít, az előbbi továbbra is rendelkezik néhány hasznos képességgel. A cIOS-ek pl. lehetővé teszik az USB-betöltők, mint az USB Loader GX és a WiiFlow, és néhány más program, mint a SaveGame Manager GX működését. Az útmutató ezen része nem kötelező, de ajánlott végigcsinálni, hiszen hátrányok nélkül kiterjeszti a Wiid funkcionalitását.
 
-If you have a Wii mini, use [this](cios-mini) guide for cIOS instead. Attempting to install other cIOS on a Wii mini will not work.
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+Az útmutató ezen része csak Wii-felhasználóknak szól. Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd! Ha egy Wii U-d (vWii) van, [ezt az útmutatót](cios-vwii) kövesd!
 {: .notice--warning}
 
-### Requirements
-
-* A Wii
-* An SD card or USB drive
-* [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
-
-Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
+Ne próbálj meg vWii/Wii minire tervezett IOS-t vagy rendszermenüt Wiire telepíteni! Ha mégis így tennél, azzal [elronthatod](bricks#ios-brick) a konzolod!
 {: .notice--warning}
 
-### Instructions
+### Követelmények
 
-#### Section I - Downloading (Only required if your Wii doesn't have Internet)
+* Egy Wii
+* Egy SD kártya vagy pendrive
+* [A d2x cIOS-telepítő](/assets/files/d2x-cios-installer.zip)
 
-If your Wii has an Internet connection, you may skip this section.<br> However, If you encounter any errors like `tcp_read timeout` and `net_gethostbyname failed:`, this will allow the Wii to skip the downloading step.
+Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-kapcsoló nyitott állásban legyen, különben a telepítőben nem fogod tudni kiválasztani a helyes beállításokat!
 {: .notice--warning}
 
-If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
+### Útmutató
+
+#### I. rész – Letöltés
+
+Ha Windowssal dolgozol, letöltheted és futtathatod [ezt a parancsfájlt](/assets/files/d2x_offline_ios.sh) a WAD-fájlok automatikus beszerzéséhez.
 {: .notice--info}
 
-1. Power off your console.
-1. Insert your SD card or USB drive into your computer.
-1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-1. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
-1. Run `NUS Downloader.exe`.
-1. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
-    + Ensure that "Pack WAD" is checked.
-    + *Don't* check "Patch IOS". That is the cIOS Installer's job.
-1. Click `Start NUS Download!`.
-1. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
-1. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
-1. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
-1. Place each WAD file on the root of your SD card or USB drive.
-    + This must be the same device containing the d2x cIOS Installer.
-
-The WAD files should be on your SD card like this: ![offline IOS files](/images/cios/d2x_offline_ios.png)
+Ha képes vagy csatlakoztatni a Wii-t az internetre, átugorgatod a [II. részt](cios#section-ii---installing)
 {: .notice--info}
 
-#### Section II - Installing
+1. Kapcsold ki a konzolt!
+1. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
+1. Töltsd le az [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)t a számítógépedre!
+1. Másold ki az NUS Downloader `.zip`-fájljának tartalmát egy mappába!
+1. Futtasd az `NUS Downloader.exe`-fájlt!
+1. Kattints a `Database` -> `IOS` -> `IOS38`-menüpontokra, majd válaszd ki a `v4123`-at!
+    + Pipáld ki a „Pack WAD” („WAD becsomagolása”)-lehetőséget!
+    + *Vedd ki* a pipát a „Patch IOS” („IOS módosítása”)-lehetőségtől! Ezt majd a cIOS-telepítő megteszi.
+1. Kattints a „`Start NUS Download!`” („NUS-letöltés indítása”)-gombra!
+1. Ismételd meg a fenti lépéseket az `IOS56 v5661`, `IOS57 v5918` és `IOS58 v6175` beszerzéséhez is!
+1. A folyamat végén találni fogsz egy `titles`-mappát a NUS Downloader mappájában.
+1. Nyisd meg a `titles`-mappát és keresd meg az imént letöltött WAD-fájlokat!
+1. Helyezd az összes WAD-fájlt az SD kártya vagy pendrive gyökerére!
+    + Ezen az eszközön legyen a d2x cIOS-telepítő is!
 
-If `d2x-v11-beta1` isn't showing up, try select the cIOS base first, then check again. This can also happen if your SD card is locked.
+Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
 {: .notice--info}
 
-On each cIOS that you try to install, you will first be shown a grid of active IOS on the Wi. Simply press A again, and it will install. Then, you will be shown a results screen, just press A as well and go to the next cIOS.
-{: .notice--info}
+#### II. rész – Telepítés
 
-1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
-1. Launch the Homebrew Channel.
-1. Launch d2x cIOS Installer from the list of homebrew.
-1. When asked what IOS you would like to use, select IOS 58.
-    + This should work in nearly all cases.
-1. Now, you will install individual cIOS from 248-251. The exact settings needed are listed below.
-    + cIOS 248 Installation
 
-        ```
-        Select cIOS <d2x-v11-beta1>
-        Select cIOS base <38>
-        Select cIOS slot <248>
-        Select cIOS version <65535>
-        ```
+1. Helyezd át az `apps`-mappát a d2x-cios-installer `.zip`-fájlból az SD kártya vagy pendrive gyökerére!
+1. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
+1. Kapcsold be a konzolt!
+1. Indítsd el a Homebrew Channelt!
+1. Indítsd el a listáról a „d2x cIOS Installer”-t!
+1. Állíts be mindent az alábbiak szerint:
 
-        ![Install cIOS 248](/images/cios/d2x_v11_248.png)
+    ```
+    Select cIOS <d2x-v11-beta1>
+    Select cIOS base <38>
+    Select cIOS slot <248>
+    Select cIOS revision <65535>
+    ```
 
-    + cIOS 249 Installation
+    ![](/images/cios/d2x_v11_248.png)
+
+    A „`(c)IOS detected in slot ### will be overwritten`” („Az x. helyen található (c)IOS felül lesz írva”) figyelmeztetést figyelmen kívül hagyhatod.
+    {: .notice--info}
+
+    Ha a telepítő a „`Slot ### already used in batch settings`” („Az x. hely már meg van határozva a kötegbeállításokban”) vagy a „`cIOS already added in batch with revision ##### and slot ###`” („Ez a cIOS már meg van határozva az x. verzió y. helyén”)-figyelmeztetést írja ki, akkor nyomd meg a `-`-gombot a kötegelt mód kikapcsolásához! <br> (Ha ki szeretnél lépni, azt a HOME-gomb helyett a B-gombbal teheted meg!)
+    {: .notice--info}
+
+1. Nyomd meg az `A`-gombot! Erre a program meg fogja mutatni a helykiosztást:
+
+    ![](/images/cios/d2x_summary.png)
+
+1. Ismét nyomd meg az `A`-gombot!
+
+    ![](/images/cios/d2x_installation.png)
+
+1. A telepítés befejezése után ismét a helykiosztást fogod látni. Ellenőrizd, hogy az imént telepített IOS helye zölden van kiemelve!
+
+    ![](/images/cios/d2x_log.png)
+
+    Ha pirossal van kiemelve, próbáld újra a telepítést! <br> Ha a letöltési szakasz előtt vagy közben a program hibát jelez, nyomd meg a B-gombot és kezdd újra a folyamatot az [I. résztől](#section-i---downloading)!
+    {: .notice--info}
+
+1. Nyomd meg az `A`-gombot! Ezzel visszajutsz a konfigurációs képernyőre.
+1. Ismételd meg az előző 5 lépést az alábbi beállításokkal:
+
+    + A cIOS 249 telepítéséhez
 
         ```
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <56>
         Select cIOS slot <249>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
-        ![Install cIOS 249](/images/cios/d2x_v11_249.png)
+        ![](/images/cios/d2x_v11_249.png)
 
-    + cIOS 250 Installation
+    + A cIOS 250 telepítéséhez
 
         ```
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <57>
         Select cIOS slot <250>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
-        ![Install cIOS 250](/images/cios/d2x_v11_250.png)
+        ![](/images/cios/d2x_v11_250.png)
 
-    + cIOS 251 Installation
+    + A cIOS 251 telepítéséhez
 
         ```
         Select cIOS <d2x-v11-beta1>
         Select cIOS base <58>
         Select cIOS slot <251>
-        Select cIOS version <65535>
+        Select cIOS revision <65535>
         ```
 
-        ![Install cIOS 251](/images/cios/d2x_v11_251.png)
+        ![](/images/cios/d2x_v11_251.png)
 
-[Continue to Recommended Homebrew](recommended-homebrew)<br> This guide outlines selections of homebrew that we think are useful to have; these range from utilities to emulators and more.
+1. Ha végeztél mind a négy cIOS telepítésével, nyomd meg a B-gombot a Homebrew Channelbe való visszatéréshez!
+
+Folytatás az [Open Shop Channel telepítésével](osc) <br> Most, hogy a konzol megfelelő védelemmel rendelkezik, telepítheted az Open Shop Channelt, ami a nemhivatalos programok megbízható tárháza és hozzáférhető mind egy Wiiről vagy egy számítógépről.
 {: .notice--info}

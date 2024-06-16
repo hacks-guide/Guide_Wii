@@ -69,14 +69,18 @@ Per ora, solo il file `bootmii_keys.bin` è richiesto.
 #### Sezione IV - Facoltativo: Carica la tua NAND nell'Emulatore Dolphin
 
 1. Collega l'USB al tuo PC.
+1. Find the `bootmii_keys.bin` on your USB and rename it to `keys.bin`
 1. Apri l'Emulatore Dolphin sul tuo PC.
 1. Seleziona la scheda Strumenti, e nel menu a discesa, vai su Gestisci NAND e seleziona "Importa Backup NAND BootMii".
 1. Seleziona il menu a discesa a destr accanto alla barra del nome file e quindi scegli l'opzione "Tutti i file".
 1. Trova il tuo file `WiiFlash_n_ECC.img` e seleziona "Apri".
-1. Un'altra finestra che chiedera le chiavi si aprirà. Trova il `bootmii_keys.bin` e seleziona "Apri".
+1. Un'altra finestra che chiedera le chiavi si aprirà. Locate `keys.bin` and select "open".
+
+If you would like to play Wii games online inside of dolphin with your Wii mini NAND, follow [this tutorial](https://dolphin-emu.org/docs/guides/wii-network-guide/) to retrive the files needed for online, even if you are already using the latest beta or development version of dolphin emulator.
+{: .notice--info}
 
 Continua all'[Installazione dell'Open Shop Channel](osc) Ora che il tuo Wii ha una protezione dai brick adeguata, puoi installare l'Open Shop Channel, una repository affidabile per applicazioni homebrew che possono di cui si può usufruire sia con che senza il Wii.
 {: .notice--info}
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}

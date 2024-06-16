@@ -168,5 +168,5 @@ Un metodo per la patch Wiimmfi che viene eseguito su immagini di giochi su disco
 Complimenti per aver raggiunto la fine della sezione facoltativa della guida principale! Puoi andare all'indice del sito qui in basso se vuoi cercare altre guide.
 {: .notice--success}
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}

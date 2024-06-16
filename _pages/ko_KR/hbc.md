@@ -4,9 +4,14 @@ title: "홈브류 채널과 BootMii 설치"
 
 {% include toc title="목차" %}
 
-홈브류 채널은 홈브류 응용 프로그램을 실행할 수 있는 곳입니다. BootMii는 Wii의 NAND 저장소를 백업 및 복원할 수 있는 소프트웨어로, boot2에 설치하면 벽돌 보호 기능을 제공합니다.
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+The Homebrew Channel is where you will go to launch homebrew applications. BootMii는 Wii의 NAND 저장소를 백업 및 복원할 수 있는 소프트웨어로, boot2에 설치하면 벽돌 보호 기능을 제공합니다.
 
-BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
+BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader). BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
 SD 카드가 없는 경우 BootMii를 설치하거나 사용할 수 없으므로 언급된 혜택을 이용할 수 없습니다. <br> 언제든지 [나중에 설치할 수 있습니다](hackmii).
@@ -47,7 +52,7 @@ SD 카드가 없는 경우 BootMii를 설치하거나 사용할 수 없으므로
     ![](/images/hackmii/bootmii_install_ok.png)
 
 1. 완료되면 `계속`을 선택합니다.
-1. BootMii를 설치할 수 없다면 [Priiloader 설치](priiloader)를 계속 진행합니다.
+1. `IOS`로 BootMii 설치를 선택합니다.
 
     ![](/images/hackmii/bootmii_install4.png)
 

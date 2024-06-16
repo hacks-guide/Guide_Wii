@@ -33,7 +33,7 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 
 ### Game Directory Structure
 
-Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB.
+Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game directory structure correctly.
 
 ```
 💾SD card or USB:

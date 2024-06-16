@@ -4,9 +4,14 @@ title: "Instalar el Canal Homebrew y BootMii"
 
 {% include toc title="Tabla de contenido" %}
 
-El Canal Homebrew te permite utilizar las aplicaciones homebrew que descargues. BootMii es un software que te permite copiar y restaurar los contenidos de la memoria interna (NAND) de tu consola, y en caso de estar instalado como boot2, también brinda protección contra bricks.
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+The Homebrew Channel is where you will go to launch homebrew applications. BootMii es un software que te permite copiar y restaurar los contenidos de la memoria interna (NAND) de tu consola, y en caso de estar instalado como boot2, también brinda protección contra bricks.
 
-BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
+BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader). BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
 Si no dispones de una tarjeta SD, no serás capaz de instalar ni utilizar BootMii, y por tanto tampoco podrás aprovechar ninguna de las ventajas que ofrece. <br> Aunque siempre puedes [instalarlo más adelante](hackmii).
@@ -47,7 +52,7 @@ Si no dispones de una tarjeta SD, no serás capaz de instalar ni utilizar BootMi
     ![](/images/hackmii/bootmii_install_ok.png)
 
 1. Cuando el proceso haya terminado, selecciona `Continue`.
-1. Si no has podido instalar BootMii, continua a la [instalación de Priiloader](priiloader).
+1. Elige `Install BootMii as IOS`.
 
     ![](/images/hackmii/bootmii_install4.png)
 

@@ -4,7 +4,7 @@ title: "Managing GameCube Backups"
 
 {% include toc title="Table of Contents" %}
 
-This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
+This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager). It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
 
 ### Requirements
 

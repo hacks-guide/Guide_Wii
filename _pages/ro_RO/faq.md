@@ -1,103 +1,103 @@
 ---
-title: "FAQ"
+title: "Întrebări Frecvente și Rezolvarea unor probleme"
 ---
 
-## Main FAQ
+## Întrebări Principale
 
-{% include toc title="Tabel de Conținut" %}
+{% include toc title="Table of Contents" %}
 
-### How risky is hacking my console?
-Not very risky to be honest, depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+### Cât de riscant este să-mi modific consola?
+Nu prea riscant, în funcție de consola ta. Consola Wii are o barieră de intrare mult mai joasă decât alte console, unele exploit-uri necesitând nu mai mult decât un Wii și o conexiune la Internet. Cât timp urmezi sfaturile generale afișate [aici](bricks#brick-prevention), instalezi [BootMii](bootmii) și [Priiloader](priiloader) și gândești logic, ar trebui să fii în regulă!
 
-### Where should I go for support?
-In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:
+### Am primit codul de eroare XXXXXX, cum îl rezolv?
+Pentru a verifica ce înseamnă eroarea, te rugăm accesează [pagina de erori Wiimmfi](https://wiimmfi.de/error). Multe erori comune au rezolvări listate mai jos:
 
-#### Error 051330/51330
+#### Eroarea 051330/51330
 
-You will need an SD card with at least 128MB to run an exploit.
+Rulează un test de conexiune la Internet mergând la `Wii Settings > Internet > Connection settings > Connection > Test this connection`
 
-#### Error 220602
+#### Eroarea 220602
 
-##### For RiiConnect24 Users
+##### Pentru Utilizatorii RiiConnect24
 
-You are using the old DNS server for RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+Folosești serverul DNS vechi pentru RiiConnect24. Urmează [acest](riiconnect24#section-iv---connecting) ghid pentru instrucțiuni legate de cum să-l schimbi.
 
-##### For non-RiiConnect24 Users
+##### Pentru cei care nu folosesc RiiConnect24
 
-In order to check what the reason for the error is, please visit the [Wiimmfi error page](https://wiimmfi.de/error).
+Serverul tău DNS primar este incorect sau nu funcționează.<br> Acest lucru se poate întâmpla și dacă folosești un server proxy care este închis.
 
-#### Error 107304
+#### Eroarea 107304
 
-##### For RiiConnect24 Users
+##### Pentru Utilizatorii RiiConnect24
 
-If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+Dacă primești această eroare sau dacă vezi Acordului Utilizatorului Nintendo fără logoul RiiConnect24, asta înseamnă că ISP-ul tău (Furnizorul de Internet) sau rețeaua blochează folosirea DNS-ului RC24. Poți seta `Auto-Obtain DNS` la `ON` pentru a rezolva asta. RiiConnect24 va funcționa și fără aceasta. Altfel, poți folosi aplicația [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest).
 
-##### For non-RiiConnect24 Users
+##### Pentru cei care nu folosesc RiiConnect24
 
-If you get this error, the DNS server you chose or your internet as a whole is having issues. Try again later.
+Dacă primești această eroare, serverul DNS pe care l-ai ales sau internetul tău în general are probleme. Reîncearcă mai încolo.
 
 #### FORE000006
 
-If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock.
+Dacă primești eroarea FORE000006, ceasul consolei tale Wii este probabil setat incorect. Vezi [asta](wiiconnect24#updating-rtc-clock) pentru instrucțiuni legate de cum să-l setezi cum trebuie. Dacă acest lucru tot eșuează, scoate bateria ceas a consolei (aflată pe fundul consolei sub un șurub) pentru o oră și apoi reintroduce-l. Apoi, resetează ceasul consolei Wii.
 
-### How can I remove parental controls?
-The [mkey generator](https://mkey.eiphax.tech/) can generate the code required to remove parental controls.
+### Cum pot elimina controlul parental?
+[Generatorul mkey](https://mkey.eiphax.tech/) poate genera codul necesar pentru a elimina controlul parental.
 
-### I got error code XXXXXX, how to fix it?
-See [this](bricks) page.
+### Cred că sistemul meu Wii are un brick sau ceva este foarte în neregulă, ce ar trebui să fac?
+Vezi [această](bricks) pagină.
 
-## Storage Device FAQ
+## Întrebări Frecvente despre Dispozitivele de Stocare
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+Pentru exploit-urile [BlueBomb](bluebomb), [str2hax](str2hax) sau [FlashHax](flashhax), nu ai nevoie de un card SD pentru a-ți modifica sistemul Wii; este totuși foarte recomandat să folosești unul pentru aplicații homebrew și pentru alte sarcini.
 {: .notice--info}
 
-FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br> For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS was a previously used file system for Wii game backups (not to be confused with WBFS files) - today, it is outdated and should not be used.
+FAT32 este sistemul de fișiere recomandat pentru cardurile SD, vezi [acest ghid](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) pentru instrucțiuni de formatare.<br> Pentru dispozitive USB, FAT32 este de asemenea recomandat, deși utilizatorii ar trebui să știe limitările FAT32 care permit mărimi de maxim 2TB în spațiu. WBFS a fost un sistem de fișiere folosit anterior pentru backup-uri de jocuri Wii (nu de a fi confundate cu fișierele WBFS) - astăzi, este învechit și nu ar trebui să fie folosit.
 {: .notice--info}
 
-For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.<br> For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.<br> Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
+Pentru versiunile nemodificate ale Meniului Wii cu versiunea mai veche de 4.0, o limitare în software-ul sistemului Wii previne folosirea cardurilor SD mai mari de 2GB.<br> Pentru versiunile nemodificate ale Meniului Wii cu versiunea 4.0 sau mai nouă, această limitare a fost eliminată iar carduri SD de mărimi variate pot fi folosite.<br> Șansele cele mai mari să obții un card SD care merge cu orice Wii sunt la mărimile de 32GB sau mai mici, însă a fost raportat succesul de mai multe ori și folosind carduri care ajung până la 256GB.
 {: .notice--warning}
 
-For USB devices, flash drives have a high rate of not working on Wii consoles. Instead, it is recommended to use a USB hard drive or solid state drive.
+Pentru dispozitivele USB, stick-urile USB au o șansă mare să nu meargă corespunzător cu sistemele Wii. În schimb, este recomandat să folosești un hard disk USB sau o unitate SSD.
 {: .notice--warning}
 
-### What are the limitations in vWii modding?
+### Reguli Generale de Stocare
 
-When considering buying or using an SD card or USB device, it is worth considering the things that you will be using either storage medium for. Different uses can take up varying amounts of space, some common examples of which are shown below:
+Când vrei să cumperi sau să folosești un card SD sau o unitate USB, merită să iei în considerare lucrurile pe care vei folosi oricare dintre mediile de stocare. Diferite utilizări pot ocupa variate cantități de spațiu, unele exemple comune fiind afișate mai jos:
 
-+ Wii Backups: The largest Wii games (dual-layer DVD) are up to sizes of 8.5GB, more normal games are closer to sizes of 4.7GB or lower. The average user for a Wii backup device would probably want 128GB or more of space.
-+ GameCube Backups: The largest GameCube games reach sizes of up to 1.3GB. ISO sizes are normally this size regardless of the game, but can be considerably lower if NKIT is used as a format instead. The average user for a GameCube backup device would probably want 64GB or more of space.
-+ General Emulation: There are a wide variety of emulators available on the Wii. Because the size of different game ROMs differ dramatically, the average user wanting to emulate games would probably want 32GB or more of space.
-+ General Homebrew: For homebrew, the average user would want 2GB or more of space.
-+ NAND Backups: For backing up your NAND with BootMii, the average user would need a minimum of 512MB of free space, but sizes of 1GB or more are recommended.
-+ Bare minimum, exploit only: The minimum amount of space to run an SD-card compatible exploit on a Wii is 128MB.
++ Backup-urile Wii: Cele mai mari jocuri Wii (DVD-urile dublu strat) pot ajunge la mărimea de 8.5GB, jocurile mai normale sunt mai apropiate de mărimea de 4.7GB sau mai puțin. Utilizatorul obișnuit de un dispozitiv de backup-uri Wii probabil că ar dori 128GB sau mai mult de spațiu.
++ Backup-uri GameCube: Cele mai mari jocuri GameCube ajung la mărimea de până la 1.3GB. Mărimile ISO sunt normal această mărime indiferent de joc, dar acestea pot fi scăzute considerabil dacă formatul NKIT este folosit în schimb. Utilizatorul obișnuit de un dispozitiv de backup-uri GameCube probabil că ar dori 64GB sau mai mult de spațiu.
++ Emulare Generală: Există o mare varietate de emulatoare disponibile pentru Wii. Deoarece mărimea diferitelor ROM-uri de jocuri diferă drastic, utilizatorul obișnuit care vrea să emuleze jocuri probabil că ar dori 32GB sau mai mult de spațiu.
++ Homebrew General: Pentru aplicații homebrew, utilizatorul obișnuit ar dori 2GB sau mai mult de spațiu.
++ Backup-uri ale memoriei NAND: Pentru a crea un backup a memoriei tale NAND folosind BootMii, utilizatorul obișnuit ar avea nevoie de minim 512MB de spațiu liber, însă mărimi de 1GB sau mai mult sunt recomandate.
++ Minimul necesar, doar exploit-ul: Cantitatea minimă de spațiu necesară pentru a rula un exploit compatibil cu cardul SD este 128MB.
 
-### Buying SD Cards
+### Cumpărarea Cardurilor SD
 
-SD cards 2TB or larger currently do not exist, anyone attempting to sell you one is trying to rip you off.
+Cardurile SD de 2TB sau mai mult momentan nu există, oricine care încearcă să-ți vândă unul vrea să te păcălească.
 {: .notice--danger}
 
-When buying SD cards, it is generally recommended that you stick to well-known brands the more expensive and larger capacity that you get. While you can buy a generic 2GB SD card and most likely be safe, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-20 USD for 256GB and below, whereas 512GB is around 40 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be wary when buying storage on eBay.
+Când cumperi carduri SD, este în general recomandat să rămâi la mărci de încredere cu cât crește prețul și mărimea cardului pe care vrei să-l cumperi. În timp ce poți cumpăra un card SD de 2GB generic și cel mai probabil vei fi în regulă, același lucru nu poate fi spus și pentru lucruri precum un card SD de 512GB. Prețul general curent pentru cardurile SD este în jur de €9-20 (45-100 RON) pentru 256GB și sub, în timp ce 512GB costă în jur de €38 (200 RON). Când cumperi de pe Amazon, asigură-te că cardul SD este ori `Vândut de/Livrat de Amazon` sau `Vândut de [marcă], Livrat de Amazon`. Asigură-te când cumperi unități de stocare de pe eBay.
 
-Recommended brands:
-+ Installing IOS for a Wii console on vWii.
-+ Installing Wii menu themes not formatted correctly for vWii and/or your region.
-+ Installing BootMii.
-+ Silicon Power ("3D NAND" cards, higher capacity usually better value)
-+ Modifying the vWii NAND without knowing what you are doing.
+Mărci recomandate:
++ Samsung (EVO Select, EVO Plus, PRO Plus)
++ SanDisk (Extreme, Ultra, etc)
++ Lexar (E-Series, Professional)
++ Silicon Power (carduri "3D NAND", capacitate mărită de obicei cu raportul calitate-preț mai bun)
++ PNY (Elite, Elite-X, etc)
 
-### Buying USB Devices - Hard Drives
+### Cumpărarea Unităților USB - Hard Disk-urilor
 
-When buying USB hard drives, there are only three existing present-day HDD manufacturers: Western Digital, Seagate, and Toshiba. Any and all other hard drive companies are defunct and have either went bankrupt, or were absorbed by the three aformentioned companies. With that said, if you have an extra hard drive lying around made by another company, it should still work! Hard drive technology has remained largely the same within the past 10 or so years. Just make sure to check the S.M.A.R.T data to ensure that the drive isn't failing before you throw all of your data on there.
+Când cumperi hard disk-uri USB, există în prezent numai trei producători de HDD: Western Digital, Seagate și Toshiba. Oricare și toate celelalte companii de hard disk-uri sunt desființate și ori au dat faliment, ori au fost absorbite de cele trei companii menționate anterior. Acestea fiind spuse, dacă ai la îndemână un hard disk în plus făcut de altă companie, ar trebui încă să funcționeze! Tehnologia hard disk-urilor a rămas în întregime neschimbată în ultimii circa 10 ani. Doar ține minte să verifici datele S.M.A.R.T pentru a te asigura că unitatea nu are probleme înainte să îți pui toate datele pe el.
 
-For hard drive sizing, 2.5 inch should work fine running off of USB power alone on a Wii; 3.5 inch consumes much more power and will almost always need an external power adapter. Make sure to plan for this when determining what you want to do with an external drive.
+Pentru mărimea hard disk-ului, 2.5 inch ar trebui să funcționeze în regulă mergând doar pe alimentarea din USB pentru un Wii, 3.5 inch consumă mult mai multă putere și în majoritatea cazurilor va avea nevoie de un alimentator extern. Asigură-te să plănuiești acest lucru atunci când stabilești ce vrei să faci cu o unitate externă.
 
-As for your choices in shopping, this largely comes down to three different scenarios:
+În ceea ce privește opțiunile tale, acest lucru în mare se rezumă la trei scenarii diferite:
 
-+ Buying a new external hard drive from scratch: New external drives come brand new around 60 USD for 2TB, 50 USD for 1TB, around 30 USD for sizes lower than 1TB. Whatever you do, try to stick within the three present manufacturing brands listed above, but bear in mind that offerings are sparse for drive sizes lower than 1TB.
-+ Buying a new hard drive, and a new enclosure: New hard drives are decently cheaper than buying a pre-made hard drive, and you can buy an enclosure to house this new hard drive. 2.5 inch enclosures are normally powerable off of USB alone, while 3.5 inch enclosures almost always come with an external adapter for power. An example price is buying a 500GB Western Digital drive and a 2.5 inch drive enclosure off of Amazon - all in all, about 30 USD.
-+ Buying an enclosure for an already existing hard drive: If you already have a hard drive laying around, why not put it in an enclosure and use it for your Wii? Enclosures can be found for prices ranging between 10 to 20 USD off of Amazon, as long as you have a drive to supply it with.
++ Cumpărarea unui hard disk extern nou de la zero: Unitățiile externe noi costă în jur de €56 (300 RON) pentru 2TB, €46 (250 RON) pentru 1TB și în jur de €28 (150 RON) pentru mărimi mai scăzute de 1TB. Orice ai face, încearcă să rămâi cu cele trei mărci prezente listate mai sus, dar ține minte că ofertele sunt destul de rare pentru mărimile de mai puțin de 1TB.
++ Cumpărarea unui hard disk nou și o carcasă nouă: Hard disk-urile noi sunt mai ieftine decât hard disk-urile preconstruite în fabrică și poți cumpăra o carcasă pentru a acoperi acest hard disk nou. Carcasele de 2.5 inch normal pot fi alimentate numai din USB, în timp ce carcasele de 3.5 inch aproape mereu vin cu un adaptor extern pentru alimentare. Un exemplu de preț ar fi cumpărarea unui hard disk Western Digital de 500GB și o carcasă de 2.5 inch de pe Amazon - în total, în jur de €28 (150 RON).
++ Cumpărarea unei carcase pentru un hard disk deja existent: Dacă ai un hard drive la îndemână, ai putea pune într-o carcasă și o poți folosi pentru Wii-ul tău. Carcasele pot fi găsite pentru prețuri cuprinse între €9-19 (45-100 RON) de pe Amazon, cât timp ai o unitate cu care s-o folosești.
 
-### Buying USB Devices - Solid State Drives
+### Cumpărarea Dispozitivelor USB - Unitățile SSD
 
-For the purpose of using a drive with a Wii, external SSDs are often more expensive than conventional hard drives for no visible gain in speed on a Wii (the console only supports up to USB 2.0 data speeds). If you would like to buy one or already have one lying around, it's an option, but generally it's recommended to just go for a hard drive if you don't already have one.
+Pentru scopurile utilizării unui dispozitiv de stocare cu un Wii, SSD-urile externe sunt de obicei mai scumpe decât hard disk-urile convenționale fără niciun câștig în viteză observabil pentru un Wii (consola suportă maxim viteze de transfer USB 2.0). Dacă vrei să cumperi unul sau deja ai unul la îndemână, este o opțiune, dar în general este recomandat pur și simplu să iei un hard disk dacă nu ai deja unul.
 {: .notice--warning}

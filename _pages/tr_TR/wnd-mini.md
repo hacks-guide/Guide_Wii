@@ -16,7 +16,7 @@ If you have a Wii or a Wii mini with an SD card slot soldered, follow [this tuto
 There is no way to restore your NAND backup this way without a hardmod.
 {: .notice--info}
 
-### Requirements
+### Gereksinimler
 
 * A Wii
 * A USB drive
@@ -69,14 +69,18 @@ For now, only the `bootmii_keys.bin` file is required.
 #### Section IV - Optional: Upload your NAND to Dolphin Emulator
 
 1. Connect the USB to your PC.
+1. Find the `bootmii_keys.bin` on your USB and rename it to `keys.bin`
 1. Open Dolphin Emulator on your PC.
 1. Select the tools tab, and in the dropdown menu, go to "manage NAND", and then select "Import BootMii NAND Backup".
 1. Select the dropdown to the right next to the file name bar and then choose the "All Files" option.
 1. Locate your `WiiFlash_n_ECC.img` file and select "open".
-1. Another window will pop up asking for the keys. Locate `bootmii_keys.bin` and select open.
+1. Another window will pop up asking for the keys. Locate `keys.bin` and select "open".
+
+If you would like to play Wii games online inside of dolphin with your Wii mini NAND, follow [this tutorial](https://dolphin-emu.org/docs/guides/wii-network-guide/) to retrive the files needed for online, even if you are already using the latest beta or development version of dolphin emulator.
+{: .notice--info}
 
 Continue to [Open Shop Channel Installation](osc) Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Site dizinine geri dönmek için burayı tıklayın.](site-navigation)
 {: .notice--info}

@@ -30,7 +30,7 @@ This guide will explain how to transfer game saves between:
 
 + an SD card formatted to FAT32/MS-DOS
 
-##### Instructions
+##### Инструкции
 
 1. Insert your SD card into your Wii/Wii U.
 1. In the Wii Menu, select the `Wii Options` at the bottom left.
@@ -56,7 +56,7 @@ Make sure you have installed [cIOS](cios) before following this!
 * An SD card or USB drive
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
-##### Instructions
+##### Инструкции
 
 1. Extract SaveGame Manager GX to the root of your SD card or USB drive, and put it into your source Wii/Wii U.
 1. Launch the Homebrew Channel, then launch SaveGame Manager GX.
@@ -79,7 +79,7 @@ Make sure you have installed [cIOS](cios) before following this!
 
 <div id="wii-dol-nand" class="tabcontent via" markdown="1">
 By importing your NAND backup into Dolphin, you effectively copy everything on your Wii (at the time of the backup). This also has the benefit of allowing access to [Wiimmfi](https://wiimmfi.de/), as well as carrying over RiiConnect24 patched channels.
-If you have already done this, consider the SaveGame Manager GX method to save time.
+All methods here require a Wii with GameCube ports.
 {: .notice--info}
 
 ##### What you need
@@ -87,7 +87,7 @@ If you have already done this, consider the SaveGame Manager GX method to save t
 * [a NAND backup](bootmii)
 * Latest beta version of Dolphin Emulator
 
-##### Instructions
+##### Инструкции
 
 1. After [making your NAND backup](bootmii), put your SD card into your PC and open Dolphin Emulator.
 1. Select `Tools > Manage NAND... > Import BootMii NAND Backup`.
@@ -105,7 +105,7 @@ Make sure you have installed [cIOS](cios) before following this!
 * An SD card or USB drive
 * Latest beta version of Dolphin Emulator
 
-##### Instructions
+##### Инструкции
 
 1. On your Wii/Wii U, launch the Homebrew Channel, then launch SaveGame Manager GX.
 1. Find and select the save you would like to transfer, select `Extract`, then select `Default`.
@@ -115,7 +115,7 @@ Make sure you have installed [cIOS](cios) before following this!
 1. Open Dolphin Emulator.
 1. Select `Tools > Import Wii Save...`.
 1. In the file dialog that opens, go to the `savegames` folder on your SD or USB, and select each `.bin` file inside it.
-Unfortunately, you can only select one at a time, so you must repeat the last step for each .bin file.
+Make sure you have installed [cIOS](cios) before following this!
 {: .notice--info}
 </div>
 </div>
@@ -123,11 +123,19 @@ Unfortunately, you can only select one at a time, so you must repeat the last st
 
 <div id="dol" class="tabcontent" markdown="1">
 {% capture dolphin-user-folder %}
+{% capture dolphin-user-folder %}
 `<User Folder>` refers to the folder opened by the `File -> Open User Folder` menu option. ![](/images/dolphin/dolphin-user-folder.png)
 {: .notice--info}
 {% endcapture %}
+![](/images/dolphin/dolphin-user-folder.png)
+{: .notice--info}
+{% endcapture %}
 {% capture dolphin-emu-memcard-manager %}
-If Dolphin is set to use a `.raw` memory card, use `Tools > Memory Card Manager` to export your desired saves to `.gci`. ![](/images/homebrew/gcsaves/dolphin-emu-memcard-manager.png)
+If Dolphin is set to use a `.raw` memory card, use `Tools > Memory Card Manager` to export your desired saves to `.gci`.
+Create a folder named `MCBACKUP` on your SD card or USB drive, and place the `.gci` files you copied into it.
+{{ dolphin-emu-memcard-manager }}
+{% endcapture %}
+![](/images/homebrew/gcsaves/dolphin-emu-memcard-manager.png)
 {: .notice--info}
 {% endcapture %}
 All methods here assume you have the [latest Beta or Development version of Dolphin Emulator](https://dolphin-emu.org/download).
@@ -148,7 +156,7 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 
 * an SD card
 
-##### Instructions
+##### Инструкции
 
 1. Open Dolphin Emulator.
 1. If you exporting a select game's save, right click the game inside the Dolphin window and select `Export Wii Save`.
@@ -174,7 +182,7 @@ Make sure you have installed [cIOS](cios) before following this!
 * An SD card or USB drive
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
-##### Instructions
+##### Инструкции
 
 1. Open Dolphin Emulator.
 1. If you exporting a select game's save, right click the game inside the Dolphin window and select `Export Wii Save`.
@@ -196,7 +204,7 @@ Make sure you have installed [cIOS](cios) before following this!
 * An SD card or USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-##### Instructions
+##### Инструкции
 
 1. Open Dolphin Emulator.
 1. In the main menu, select `File > Open User Folder`.
@@ -228,7 +236,7 @@ Make sure you have installed [cIOS](cios) before following this!
 
 <div id="dol-emumc" class="tabcontent to" markdown="1">
 
-##### Instructions
+##### Инструкции
 
 1. Open Dolphin Emulator and select `Tools > Memory Card Manager` from the main menu.
 1. Click the `Open` button next to Slot B.
@@ -256,7 +264,7 @@ All methods here require a Wii with GameCube ports.
 
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-##### Instructions
+##### Инструкции
 
 1. Download and extract GCMM to the root of your SD card or USB drive.
 1. Safely eject the SD/USB from your PC, then put it into your Wii.
@@ -284,7 +292,7 @@ All methods here require a Wii with GameCube ports.
 
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-##### Instructions
+##### Инструкции
 
 1. Download and extract GCMM to the root of your SD card or USB drive.
 1. Safely eject the SD/USB from your PC, then put it into your Wii.
@@ -320,7 +328,7 @@ All methods here require a Wii with GameCube ports.
 
 * a Wii
 
-##### Instructions
+##### Инструкции
 
 1. Insert both memory cards into your Wii.
 1. Launch the Wii menu and select the Wii Options button at the bottom left.
@@ -343,7 +351,7 @@ div id="emumc" class="tabcontent" markdown="1">
 
 * Latest beta or Development version of Dolphin Emulator
 
-##### Instructions
+##### Инструкции
 
 1. Insert your SD card or USB drive into your PC.
 1. Open Dolphin Emulator, and select `Tools > Memory Card Manager` from the main menu.

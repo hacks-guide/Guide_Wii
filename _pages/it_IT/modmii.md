@@ -10,20 +10,20 @@ Questo programma NON viene fornito con una garanzia, sei responsabile per ogni p
 Questo programma NON è destinato all'uso per il vWii o per il Wii mini. Qualsiasi utilizzo sul vWii o sul Wi mini non è stato testato.
 {: .notice--warning}
 
-ModMii is an all-in-one Wii hacking tool for Windows created by XFlak that has various helpful tools for modding. It can accomplish the following:
+ModMii è uno strumento di hacking per Wii per Windows tutto in uno creato da XFlak che ha vari strumenti utili per il modding. Può realizzare quanto segue:
 
-+ Hacking the console for the first time, or re-hacking it
-+ Check for and update outdated softmods
-+ Fix upside-down Homebrew Channel problems
-+ Run homebrew without making any changes to your Wii's NAND
-+ Download homebrew
-+ And more!
++ Effettuando l'hacking della console per la prima volta, o ri-effettuarlo
++ Controlla e aggiorna softmods obsoleti
++ Risolvere i problemi del Canale Homebrew capovolto
++ Avvia homebrew senza effettuare nessun cambiamento alla NAND della tua Wii
++ Scarica homebrew
++ Ed altro!
 
-### ModMii Overview
+### Panoramica di ModMii
 
-There are two different ways to use ModMii. There is ModMii Classic, which uses a command line interface, but has all of the features available to the program. ModMii Skin has a graphical user interface, on the other hand, but has less options available to the user. If you're looking to simply mod your Wii for the first time, ModMii Skin should suffice. Otherwise, we reccomend using ModMii Classic where possible. <br> The chart below will help you determine what can be done in either interface.
+Ci sono due modi differenti per usare ModMii. C'è ModMii Classic, che usa un'interfaccia a riga di comando, ma ha tutte le funzionalità disponibili per il programma. ModMii Skin ha un'interfaccia utente grafica, d'altra parte, ma ha meno funzionalità disponibili per l'utente. Se stai cercando semplicemente di effettuare l'hacking della tua Wii per la prima volta, ModMii Skin dovrebbe bastare. In caso contrario, consigliamo usare ModMii Classic dove possibile. <br> The chart below will help you determine what can be done in either interface.
 
-| Tools                       | ModMii Classic | ModMii Skin |
+| Strumenti                   | ModMii Classic | ModMii Skin |
 | --------------------------- | -------------- | ----------- |
 | Wizard di ModMii            | ✅              | ✅           |
 | Wizard di SysCheck Updater  | ✅              | ⛔           |
@@ -189,5 +189,5 @@ The HackMii Solutions Wizard is a tool that fixes problems that may arise from t
 
     ![](/images/modmii/hackmii-wizard-5.png)
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}

@@ -139,7 +139,7 @@ Se stai cercando gli exploit per i dati di salvataggio per entrare su [Swiss](ht
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. Dovrebbe aver ripristinato il file .raw sulla tua memory card. Appena completato il ripristino, premi un pulsante qualsiasi per continuare.
+1. Dovrebbe aver ripristinato il file .raw sulla tua memory card. Appena completato il ripristino, premi un pulsante qualsiasi per continuare. Appena completato il ripristino, premi un pulsante qualsiasi per continuare.
 
 ## Trasferire salvataggi tra due Memory Card fisiche
 
@@ -163,5 +163,5 @@ Se stai cercando gli exploit per i dati di salvataggio per entrare su [Swiss](ht
 
 1. Trova il salvataggio che vuoi, selezionalo e seleziona `Sposta o Copia`.
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}

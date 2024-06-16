@@ -79,7 +79,7 @@ Assicurati di aver installato [cIOS](cios) prima di seguire!
 
 <div id="wii-dol-nand" class="tabcontent via" markdown="1">
 Importando il tuo backup della tua NAND su Dolphin, avrai effettivamente copiato tutto che c'era nel tuo Wii (al momento del backup). Questo ha anche il vantaggio di consentire l'accesso a [Wiimmfi](https://wiimmfi.de/) assieme ai canali patchati di RiiConnect24.
-Se l'hai già fatto, considera di utilizzare SaveGame Manager GX per risparmiare tempo.
+Tutti i metodi elencati qui richiedono un Wii con porte GameCube.
 {: .notice--info}
 
 ##### Di cosa hai bisogno
@@ -115,7 +115,7 @@ Assicurati di aver installato [cIOS](cios) prima di seguire!
 1. Avvia l'Emulatore Dolphin.
 1. Seleziona `Strumenti > Importa Salvataggio Wii...`.
 1. Nella finestra di dialogo file che si apre, vai nella cartella `savegames` della tua scheda SD o unità USB e seleziona ciascun file `.bin` al suo interno.
-Purtroppo, puoi selezionare solo un file alla volta, quindi dovrai ripetere l'ultimo passaggio per ciascun file .bin.
+Assicurati di aver installato [cIOS](cios) prima di seguire!
 {: .notice--info}
 </div>
 </div>
@@ -127,8 +127,8 @@ Purtroppo, puoi selezionare solo un file alla volta, quindi dovrai ripetere l'ul
 {: .notice--info}
 {% endcapture %}
 {% capture dolphin-emu-memcard-manager %}
-Se Dolphin è impostato per l'utilizzo di memory card `.raw`, vai su `Strumenti > Memory Card Manager` per esportare i tuoi salvataggi in `.gci`. ![](/images/homebrew/gcsaves/dolphin-emu-memcard-manager.png)
-{: .notice--info}
+Crea una cartella di nome `MCBACKUP` nella tua scheda SD o unità USB e sposta i file `.gci` che hai appena copiato al suo interno.
+{{ dolphin-emu-memcard-manager }}
 {% endcapture %}
 Tutti i metodi elencati qui presuppongono che tu abbia l'[ultima versione Beta o di sviluppo dell'Emulatore Dolphin](https://dolphin-emu.org/download).
 {: .notice--info}
@@ -238,7 +238,7 @@ Assicurati di aver installato [cIOS](cios) prima di seguire!
 1. Se Dolphin archivia i tuoi salvataggi in una cartella GCI (per predefinito):
     + Clicca `Scambia a B`.
     + Clicca `Importa` e vai su `<REGION>/Card A/`.
-    + Seleziona il (oppure i) file `.gci` che vuoi importare. Altrimenti, se Dolphin archivia i tuoi salvataggi in file `.raw`, semplicemente seleziona i tuoi salvataggi dal lato sinistro e seleziona `Copia su B`.
+    + Seleziona il (oppure i) file `.gci` che vuoi importare. Altrimenti, se Dolphin archivia i tuoi salvataggi in file `.raw`, Altrimenti, se Dolphin archivia i tuoi salvataggi in file `.raw`, semplicemente seleziona i tuoi salvataggi dal lato sinistro e seleziona `Copia su B`.
 </div>
 </div>
 
@@ -348,7 +348,7 @@ div id="emumc" class="tabcontent" markdown="1">
 1. Inserisci la tua scheda SD o unità USB nel tuo PC.
 1. Apri l'Emulatore Dolphin e seleziona `Strumenti > Memory Card Manager` dal menu principale.
 1. Clicca il pulsante `Apri` che è accanto allo Slot B.
-1. Entra nella cartella `saves ` sulla tua SD/USB e apri il file `.raw` con il nome dell'ID del gioco.
+1. Entra nella cartella `saves` sulla tua SD/USB e apri il file `.raw` con il nome dell'ID del gioco.
 1. Clicca `Scambia a B`.
 1. Se Dolphin archivia i tuoi salvataggi in una cartella GCI (per predefinito):
     + Seleziona i salvataggi che vuoi copiare.

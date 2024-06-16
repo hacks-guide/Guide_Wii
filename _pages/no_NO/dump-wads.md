@@ -18,7 +18,7 @@ If you need help for anything regarding this tutorial, please join [the RiiConne
 1. Copy the `apps` folder from the Yet Another BlueDump MOD `.zip` to the root of your SD card or USB drive.
 1. Insert the SD card or USB drive into your Wii, and launch the d2x cIOS Installer from the Homebrew Channel
 1. Power on your console.
-1. Launch the Homebrew Channel.
+1. Launch the Priiloader installer.
 1. Launch Yet Another BlueDump MOD from the list of homebrew.
 1. Press A.
 

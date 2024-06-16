@@ -179,18 +179,7 @@ $(document).ready(function() {
 /* hacks-guide change end */
 
 /* hacks-guide change start: add progress table */
-  var sidebar_shown = true;
-  var sidebar_hidden_pages = ["404", "bootmiirecover", "bricks", "cios", "donations", "dump-games", "dump-wads", "faq", 
-                              "gcbackupmanager", "gcsaves", "hackmii", "homebrew-dolphin", "modmii", "nintendont",
-                              "priiloader-usage", "recovery-mode", "riiconnect24", "riivolution", "rssmii",
-                              "site-navigation", "syscheck", "themes-vwii", "themes", "update", "usb-loaders", 
-                              "wiibackupmanager", "wiiconnect24", "wiigsc", "wiimmfi", "yawmme"];
-
-  for(var i = 0; i < sidebar_hidden_pages.length; i++){
-    if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {
-      sidebar_shown = false;
-    }
-  }
+  var sidebar_shown = false;
 
   var devices = {
     "hbc": "0",
@@ -219,13 +208,20 @@ $(document).ready(function() {
   for(var device in devices){
     if(window.location.href.indexOf("/" + device) > -1) {
       localStorage.setItem('device', devices[device]);
+      sidebar_shown = true;
     }
   }
 
   for(var method in methods){
     if(window.location.href.indexOf("/" + method) > -1) {
       localStorage.setItem('method', methods[method]);
+      sidebar_shown = true;
     }
+  }
+
+  if(window.location.href.indexOf("/" + "get-started") > -1) {
+    localStorage.setItem('method', methods[method]);
+    sidebar_shown = true;
   }
 
   var device, method;
@@ -275,7 +271,6 @@ $(document).ready(function() {
     }
     unhide = unhide.concat(route[device][method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
-      unhide.push("key-information")
       unhide.push("get-started");
       var ol = $('.sidebar.sticky .nav__list .nav__items ol');
       for (var i = 0; i < unhide.length; i++){

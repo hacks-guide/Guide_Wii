@@ -4,13 +4,21 @@ title: "BlueBomb"
 
 {% include toc title="목차" %}
 
+이 취약점 공격은 Wii 미니에서 작동하는 유일한 취약점 공격이지만, BlueBomb은 오리지널 Wii에서도 실행할 수 있습니다. {% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries.
+
+This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
 Wii 미니 콘솔을 해킹하기 위해 **아무** 비디오 가이드를 사용하는 것은 **벽돌**이 될 가능성이 매우 커서 사용하지 않는 것을 **강력히** 권장합니다.
 {: .notice--warning}
 
 튜토리얼에 관한 질문이 있다면, [Wii Mini 해킹 디스코드 서버](https://discord.gg/6ryxnkS) 에 가입해 주세요.(권장)
 {: .notice--info}
-
-BlueBomb은 Wii 및 Wii 미니의 블루투스 라이브러리의 결함을 이용하는 취약점 공격입니다. 이 취약점 공격은 Wii 미니에서 작동하는 유일한 취약점 공격이지만, BlueBomb은 오리지널 Wii에서도 실행할 수 있습니다. 이 취약점 공격을 통해 배너 벽돌과 같은 특정 벽돌을 복구할 수도 있습니다.
 
 If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
 {: .notice--info}

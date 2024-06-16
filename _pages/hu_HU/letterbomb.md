@@ -2,7 +2,9 @@
 title: "LetterBomb"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tartalomjegyzék" %}
+
+LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
 
 For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). It is highly recommended to check it due to problems with formatting as FAT32.
 {: .notice--info}
@@ -10,34 +12,32 @@ For instructions on how to format your SD card correctly, please see [this guide
 Do NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Use your own!
 {: .notice--warning}
 
-LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
-
-### Requirements
-* An SD card formatted as FAT32
-* A Nintendo Wii on System Menu version 4.3
+### Követelmények
+* An SD card formatted as FAT32 that is 32GB or less
+* A Wii on System Menu version 4.3
 * A Windows/MacOS/Linux computer with an Internet connection
 
-### Instructions
+### Útmutató
 
-1. Power on your console.
-1. Go to `Wii Settings`.
-1. Take note in the top right corner of the letter next to the system version.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+1. Kapcsold be a konzolt!
+1. Nyisd meg a konzol beállításait (`Wii Settings`)!
+1. Jegyezd meg a jobb felső sarokban megjelenő betűjelet, ami a rendszer verziószáma mellett van!
+    + Ez a betű jelzi a rendszermenü régióját, amire később szükséged lesz.
     + Also, ensure that you are on System Menu version 4.3.
 
-    ![Wii Region](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 1. Navigate to `Internet` > `Console Information`.
 1. Take note of your FULL MAC address.
 
-    ![Mac Address](/images/wii/MacAddress.png)
+    ![](/images/wii/MacAddress.png)
 
 1. On your computer, open the browser and go to [the HackMii website](https://please.hackmii.com/).
 1. Input your Wii MAC address and region.
 1. Ensure `Bundle the HackMii Installer for me!` is checked.
 1. Cut either wire.
 
-    ![HackMii Screen](/images/exploits/letterbomb/LetterBomb-PC.png)
+    ![](/images/exploits/letterbomb/LetterBomb-PC.png)
 
 1. Insert your SD card into your computer.
 1. Copy the `private` folder and the `boot.elf` file from the LetterBomb `.zip` to the root of your SD card.
@@ -51,9 +51,9 @@ LetterBomb is an exploit for the Wii that is triggered using the Wii Message Boa
     + If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
     + If your Wii freezes after clicking on the letter, you most likely chose the wrong system menu region for LetterBomb. Go back to Step 2 and verify that you chose the right region.
     + If all is correct and there is freezing, keep on trying until it works.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
 
-![LetterBomb Wii Menu](/images/exploits/letterbomb/LetterBomb-Wii.png)
+![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 {: .notice--info}

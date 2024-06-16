@@ -4,13 +4,21 @@ title: "BlueBomb"
 
 {% include toc title="Table of Contents" %}
 
+Anche se è l'unico exploit che funziona per il Wii mini, BlueBomb può anche essere eseguito sul Wii originale. {% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries.
+
+Questo exploit permette anche di riparare alcuni brick, come i banner bricks e (alcuni) theme bricks.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
 È **fortemente** sconsigliato usare **qualsiasi** video guida per modificare il tuo Wii mini, in quanto c'è una possibilità estremamente alta di **brickarlo**.
 {: .notice--warning}
 
 Se hai bisogno di assistenza riguardo qualunque cose in questo tutorial, entra nel [server Discord di Wii mini Hacking](https://discord.gg/6ryxnkS) (consigliato)
 {: .notice--info}
-
-BlueBomb è un exploit che sfrutta un difetto nelle librerie Bluetooth del Wii e del Wii mini. Anche se è l'unico exploit che funziona per il Wii mini, BlueBomb può anche essere eseguito sul Wii originale. Questo exploit permette anche il ripristino da alcuni brick, come il Korean Kii/Errore 003.
 
 Se stai usando una Wii originale, dovresti probabilmente trovare [un altro exploit da usare](get-started) in quanto ci sono modi molto più facili per accedere all'installer di HackMii. Esistono, tuttavia, delle eccezioni in situazioni come il ripristino dai brick.
 {: .notice--info}

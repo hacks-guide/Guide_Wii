@@ -4,13 +4,21 @@ title: "Credite"
 
 {% include toc title="Tabel de Conținut" %}
 
+{% capture technical_info %}
+<summary>Detalii Tehnice (opțional)</em></summary>
+BlueBomb este un exploit care profită de un flaw din librăriile Bluetooth pentru Wii și Wii mini. Chiar dacă este singurul exploit folosit pentru Wii mini, el poate fi rulat și pe un Wii obișnuit (regular Wii).
+
+Acest exploit ajută și repararea consolei din anumite stricări, cum ar fi defecțiuni de banner și (unor) defecțiuni de teme.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
 Este **foarte** recomandat să nu folosiți **niciun** tutorial video pentru modarea consolei Wii mini, având o șansă extrem de mare de a-l **distruge**.
 {: .notice--warning}
 
 Dacă ai nevoie de ajutor referitor la acest tutorial, te rog să intri pe [serverul de Discord Wii mini Hacking](https://discord.gg/6ryxnkS) (recomandat)
 {: .notice--info}
-
-BlueBomb este un exploit care "profită" de un defect găsit în librăriile Bluetooth folosite în Wii și Wii mini. Chiar dacă este singurul exploit folosit pentru Wii mini, el poate fi rulat și pe un Wii obișnuit (regular Wii). Acest exploit ajută la repararea consolei de la anumite "distrugeri", cum ar fi Korean Kii/Eroare 003.
 
 Dacă folosești revizia original a lui Wii, trebuie probabil să cauți [un alt exploit](get-started), deoarece sunt modalități mai ușoare de a ajunge la installer-ul HackMii. Cu toate acestea, există excepții în situații precum recuperarea distrugerii.
 {: .notice--info}

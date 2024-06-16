@@ -6,10 +6,10 @@ header:
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "破解任天堂 Wii 的完整指南。"
+excerpt: "The complete guide to modding your Wii, vWii, and Wii mini."
 ---
 
-Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
+Since this guide has just been published, translations are a work-in-progress. Thank you for your patience! Thank you for your patience!
 {: .notice--info}
 
 To get the most out of this guide, you should read this page before proceeding.
@@ -27,8 +27,9 @@ Here are some common examples of what homebrew can do for your Wii:
 + 使用 [Riivolution](riivolution) 对游戏光盘内容进行修改（允许您加载游戏修改）。
 + 使用 [MyMenuify](themes) 安装 Wii 菜单主题。
 + 使用 [CleanRip](/dump-games) 备份光盘，使用 [Yet Another BlueDump MOD](dump-wads) 备份已安装的游戏和标题。
++ Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
 + 安装 [WiiFlow](wiiflow) 或 [USB Loader GX](usbloadergx) 从 U 盘启动所有您喜爱的游戏。
-+ 使用 [GCMM](gcsaves) 备份和恢复您的 GameCube 存档。
++ 使用 [RiiConnect24](riiconnect24)、[Wiimmfi](wiimmfi) 和 [WiiLink](wiilink) 恢复已停止的在线服务。
 + 使用 [RiiConnect24](riiconnect24)、[Wiimmfi](wiimmfi) 和 [WiiLink](wiilink) 恢复已停止的在线服务。
 
 ### What does the guide install?
@@ -45,16 +46,16 @@ This guide aims to do the following, including optional sections:
 
 ### What should I know before starting?
 
-+ Homebrew is 100% free, and the process of modifying your Wii is also free. Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam).
++ Homebrew is 100% free, and the process of modifying your Wii is also free. Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam). Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam).
 + This guide works on all system menu versions depending on the exploit, but **it is recommended that you update to 4.3 (the latest firmware)** if possible.
-+ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered, nor is the Wii U's vWii.
-+ Depending on what you intend to do with your modded Wii, you may have to make some modifications to the system memory that have a risk of bricking (rendering the console inoperable). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
-+ The differences between the Wii and Wii mini are quite significant. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Tread carefully if you are planning to mod one!
++ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
++ Depending on what you intend to do with your modded Wii, you may have to make some modifications to the system memory that have a risk of bricking (rendering the console inoperable). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page. As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
++ The differences between the Wii and Wii mini are quite significant. The differences between the Wii and Wii mini are quite significant. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Tread carefully if you are planning to mod one! Tread carefully if you are planning to mod one!
 + Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).
 
 ### 准备好了吗？
 
-The guide has nine sections in total. These are listed below:
+The guide has nine sections in total. These are listed below: These are listed below:
 
 1. Choosing and using an exploit (REQUIRED)
 1. Installing the Homebrew Channel and BootMii (REQUIRED)

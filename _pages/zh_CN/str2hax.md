@@ -9,22 +9,14 @@ title: "Wiimmfi"
 
 str2hax 是一种通过加载 Wii 最终用户许可协议触发的 Wii 漏洞。 它只需要一个可以在 Wii 上更改 DNS 的互联网连接。
 
+If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
+{: .notice--warning}
+
 ### Requirements
 
 * 一台连接互联网的Wii
 
 ### Instructions
-
-#### 常见问题
-
-如果您看到了正常的用户协议，这意味着您的 ISP 阻止了使用自定义 DNS。 请[使用其它漏洞](get-started)。
-{: .notice--warning}
-
-如果您安装了类似 CTGP Revolution 或 Project+ 的修改版，str2hax 可能会加载该修改版而不是 HackMii Installer。 如果发生这种情况，请重启 Wii，并在没有插入 SD 卡的情况下再次尝试。
-{: .notice--warning}
-
-If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
-{: .notice--warning}
 
 #### 第一部分 - 连接
 
@@ -85,10 +77,14 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
     ![](/images/exploits/str2hax/EULA.png)
 
+    + 如果您看到了正常的用户协议，这意味着您的 ISP 阻止了使用自定义 DNS。 Try another connection, or [use another exploit](get-started).
+
 1. 请给漏洞 1-2 分钟的时间下载（不要点击 `I ACCEPT`/`I DO NOT ACCEPT`）。
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
 
     ![](/images/hackmii/scam.png)
+
+    + 如果您安装了类似 CTGP Revolution 或 Project+ 的修改版，str2hax 可能会加载该修改版而不是 HackMii Installer。 如果发生这种情况，请重启 Wii，并在没有插入 SD 卡的情况下再次尝试。
 
 [继续到 安装 Homebrew Channel 和 BootMii](hbc)
 {: .notice--info}

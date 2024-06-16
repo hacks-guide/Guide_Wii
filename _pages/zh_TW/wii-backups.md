@@ -9,7 +9,7 @@ This guide provides instructions on how to manage your Wii backups, from joining
 For storing multiple games, we recommend an external hard drive for your Wii. We will refer to it as a "USB drive" in this guide. Most of those found on the market should work fine. Most of those found on the market should work fine.
 {: .notice--info}
 
-A flash drive is not recommended, as they are small and may vary in behavior even between the same product. <br> 作為替代方案，您也可以選擇使用 SD 卡，但 Wii 的 SD 卡插槽速度較慢。 <br>
+A flash drive is not recommended, as they are small and may vary in behavior even between the same product. <br> 作為替代方案，您也可以選擇使用 SD 卡，但 Wii 的 SD 卡插槽速度較慢。 <br> 作為替代方案，您也可以選擇使用 SD 卡，但 Wii 的 SD 卡插槽速度較慢。 <br>
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 {: .notice--info}
 

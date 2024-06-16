@@ -33,7 +33,7 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 
 ### Struttura percorsi di gioco
 
-Di seguito è riportato un esempio di WBFS singolo e WBFS diviso. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB.
+Di seguito è riportato un esempio di WBFS singolo e WBFS diviso. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game directory structure correctly.
 
 ```
 💾Scheda SD o USB:
@@ -168,5 +168,5 @@ Per cambiare il cIOS utilizzato per un gioco specifico, segui le istruzioni adat
     + Prova ad usare 248, 249, 250 o 251.
 1. Premi Salva e prova a caricare il gioco.
 
-[Clicca qui per tornare alla Navigazione del Sito.](navigazione-sito)
+[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}

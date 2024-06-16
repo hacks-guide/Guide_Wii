@@ -6,7 +6,7 @@ sitemap: false
 
 {% capture notice-1 %}
 **Site**
-+ [Wii Guide](/)
++ [ホームブルー](/)
 + [はじめに](get-started)
 + [よくある質問](faq)
 + [寄付](donations)
@@ -43,9 +43,10 @@ sitemap: false
 + [オープンショップチャンネル](osc)
 + [Priiloader](priiloader)
 + [HackMiiインストーラの再起動](hackmii)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wiiメニューをv4.3に更新する](update)
-+ [Restoring the Wii NAND to Stock](wii-factory-reset)
-+ [Wii Mod Lite](wnd-mini)
++ [Recovery Mode](recovery-mode)
++ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 
@@ -59,15 +60,25 @@ sitemap: false
 + [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [推奨されるホームブルー](recommended-homebrew)
-+ [Installing RSSMii](rssmii)
 + [Transferring Save Games](transfer-saves)
-+ [USB Loader GX](wii-loaders)
++ [Wii Backup Loaders](wii-loaders)
 + [Performing a SysCheck](syscheck)
 + Installing Wii Menu Themes on vWii
 <div class="notice--primary">{{ notice-5 | markdownify }}</div>
 
 {% capture notice-6 %}
+**vWii**
++ [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
++ [Wii U NAND Dumper](wiiu-nand-dumper)
++ [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
++ [Installing cIOS on the vWii](cios-vwii)
+{% endcapture %}
+<div class="notice--primary">{{ notice-6 | markdownify }}</div>
+
+{% capture notice-7 %}
 **Wii Mini**
 + [Wii Miniでホームブルーチャンネルをインストールする](hbc-mini)
-+ Installing cIOS on the Wii mini
-<div class="notice--primary">{{ notice-6 | markdownify }}</div>
++ [Installing cIOS on the Wii mini](cios-mini)
++ [Wii mini NAND Dumper](wnd-mini)
+{% endcapture %}
+<div class="notice--primary">{{ notice-7 | markdownify }}</div>

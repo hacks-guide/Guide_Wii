@@ -46,7 +46,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. Select the save you want to restore. Select the save you want to restore. If you have multiple saves to restore, you can press R on the GameCube controller or 1 on the Wii remote to restore all of your saves.
+1. Select the save you want to restore. Select the save you want to restore. Select the save you want to restore. If you have multiple saves to restore, you can press R on the GameCube controller or 1 on the Wii remote to restore all of your saves.
 
     ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
@@ -83,7 +83,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. Select the save you want to backup. Select the save you want to backup. If you have multiple saves to backup, you can press R on the GameCube controller or 1 on the Wii remote to backup all of your saves.
+1. Select the save you want to backup. Select the save you want to backup. Select the save you want to backup. If you have multiple saves to backup, you can press R on the GameCube controller or 1 on the Wii remote to backup all of your saves.
 
     ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
@@ -115,7 +115,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. When the dump is complete, press any button to continue. When the dump is complete, press any button to continue. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
+1. When the dump is complete, press any button to continue. When the dump is complete, press any button to continue. When the dump is complete, press any button to continue. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
 
 ## Restoring an Emulated Memory Save to a Physical Memory Card
 
@@ -139,7 +139,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. It should restore the .raw file to your memory card. When restoration is complete, press any button to continue. When restoration is complete, press any button to continue.
+1. It should restore the .raw file to your memory card. When restoration is complete, press any button to continue. It should restore the .raw file to your memory card. When restoration is complete, press any button to continue. When restoration is complete, press any button to continue.
 
 ## Transferring Saves Between 2 Physical Memory Cards
 
