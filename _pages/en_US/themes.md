@@ -35,84 +35,34 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 #### Requirements
 
-##### Wii
-
-* A modded Wii
 * An SD card or USB device
-* A Windows/macOS/Linux PC with an Internet connection
+* A Windows PC with an Internet connection
 * [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
-
-##### vWii
-
-* A modded vWii
-* An SD card or USB device
-* A Windows/macOS/Linux PC with an Internet connection
-* [csm-installer](https://oscwii.org/library/app/csm-installer)
-* [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
-* [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
 
 #### Building a Theme
 
-##### Wii
-
-If you don't want to go through the hassle of using an external program to build a theme, you can also download a prebuilt theme from Wii Themer and skip to [Theme Installation](themes#theme-installation).
-{: .notice--info}
-
-1. Once you download the theme you want and double-check that you have the right one for your system menu version and region, extract the .zip file for ThemeMii Mod and open the application.
-2. Go to `Tools` > `Download Base App` > `Version of your Wii Menu` > `Region of your Wii Menu`.
-3. A dialog box will pop-up asking you to enter in a value to create a key. Enter what it says, and it will create a key that will be used to decrypt the Wii Menu contents from Nintendo's servers.
-4. A file selection box will ask you where to save the .app file (that is the Wii Menu content file that it downloaded). Save it to the directory where ThemeMii is in.
-5. Go to `File` > `Open`, then browse for where your .mym file is.
-6. Press `Create csm`, then browse for a directory you want to save the theme in. Give it a moment to build the theme.
-7. A dialog box will pop up asking you if you want to save the .mym. Press `No`.
-
-##### vWii
-
-Themes from [Wii Themer](http://www.wiithemer.org/) cannot be built automatically for you on the vWii, since it does not use the correct base app. However, you may still download the .mym files from their [theme database](http://wiithemer.org/mym/) to build manually.
-
-Some themes are compatible with the Wii system menu, but aren't compatible with the vWii System Menu, and may result in graphical glitches or even a full [theme brick](bricks#theme-brick).
-{: .notice--warning}
-
-1. Extract the .zip file for NUS Downloader vWii and open the application
-2. Click on `Database...`
-3. Go to `System` > `System Menu` and select the version corresponding to your region as shown in the table below.
-
-| Region	| vWii Menu version		|
-| ---------	| --------------------	|
-| Japan 	| v608 					|
-| USA   	| v609					|
-| Europe	| v610 					|
-
-4. After selecting the correct version to download, check the box for `Create Decrypted Contents (*.app)`. Then, press the `Start NUS Download` Button on the top of the window.
-
-![The database menu in NUS Downloader.](/images/themes/NUSD-vWii_preview-database.png)
-
-![The main menu of NUS downloader without the database menu open.](/images/themes/NUSD-vWii_sysmenu-versions.png)
-
-5. When the download has finished, search for the .app file corresponding to your region in the folder where NUS Downloader is.
-
-| Region 	| .app file for your region	|
-| ---------	| -------------------------	|
-| Japan		| 0000001c.app				|
-| USA		| 0000001f.app				|
-| Europe	| 00000022.app				|
-
-6. Once you have found the .app file, copy it to the main directory of the folder containing ThemeMii. Then, copy a version of it to the theme folder in your SD card.
-
-If you can't find the .app file, it's possible you have downloaded the wrong version of the Wii Menu and you'll need to try again.
-{: .notice--info}
+1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
+1. Create a `themes` folder on the root of your SD card/USB device.
+1. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
+1. Launch csm-installer, and hold `+` while the app is loading. If done right, the app will begin downloading the base theme for your Wii menu.
+1. Once the base theme has finished saving, press HOME to exit the app.
+1. Insert your SD card/USB device back into your PC.
+1. Extract the ThemeMii MOD `.zip` to a location on your PC.
+1. Launch the ThemeMii applciation.
+1. Go to `File` -> `Open`, and select the `.mym` file for the theme you want to build.
+1. Press `Create csm`.
+1. When asked to select an `.app` file, select the newly downloaded base theme on the root of your SD card or USB drive.
+1. When asked to save the `.csm` file, save it in the `themes` folder.
+1. After the theme finishes building, you will be prompted to save the .mym. Press `No`.
 
 #### Theme Installation
 
-1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
-2. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
-3. Copy your `.csm` file to the `themes` directory.
-4. Insert your SD card or USB drive into your Wii/Wii U, and launch the Homebrew Channel.
-5. Launch csm-installer, and wait for it to load.
-6. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
-7. Press `+` to install the theme.
-8. Reboot into the Wii Menu, and see if the theme successfully installed. If all goes well, you will have a result similar to the below!
+1. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
+1. Launch csm-installer, and wait for it to load.
+1. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
+1. Press `+` to install the theme.
+1. Reboot into the Wii Menu, and see if the theme successfully installed. If all goes well, you will have a result similar to the below!
 
     ![](/images/themes/themed-wii-menu.png)
 
