@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 Sharpii_DL="https://naim2000.github.io/res/exe/Sharpii"
-ios_output="$(dirname $0)/ios"
 
 epicfail () {
 	printf "
@@ -43,8 +42,12 @@ download_ios () {
 		return
 	fi
 	printf "Downloading IOS${1}...\n"
-	./Sharpii nusd -ios ${1} -v ${2} -wad -o "$ios_output/IOS${1}-64-v${2}.wad" # &>/dev/null
+	./Sharpii nusd -ios ${1} -v ${2} -wad -o "ios/IOS${1}-64-v${2}.wad" # &>/dev/null
 }
+
+#######
+
+cd $(dirname $0)
 
 if [[ -f "sharpii($sys)" ]]; then mv "sharpii($sys)" "Sharpii"; fi
 
@@ -60,7 +63,7 @@ if ! [[ -f "Sharpii" ]]; then
 fi
 if ! [[ -x "Sharpii" ]]; then chmod +x Sharpii; fi
 
-mkdir $ios_output
+mkdir -p ios
 printf "This script downloads the 4 IOS WADs at wii.hacks.guide/cios mentioned at Section I.\n"
 sleep 1
 download_ios 38 4123
