@@ -4,30 +4,30 @@ title: "Начинайте здесь"
 
 {% include toc title="Оглавление" %}
 
-This guide is for the original Wii and Wii mini only (including the Wii Family Edition). Do not use this on a Wii U (vWii)! If you want to install homebrew on a Wii U, [follow this guide](https://wiiu.hacks.guide).
+Это руководство поможет вам установить softmod на вашу Wii, с заводского состояния до BootMii. Перед началом чтения этого руководства, пожалуйста, убедитесь что ваша консоль находится на последней версии прошивки (4.3). Если на вашей Wii уже установлен softmod который устарел, прочтите [это](update) руководство для обновления вашего софтмода.
 
-All of the exploits run the HackMii Installer, and have the same end result.
+Все перечисленные эксплойты являются различными методами достижения одного и того же конечного результата (запуска установщика HackMii).
 
-Although you can follow this guide without an SD card, you will not be able to create or restore a NAND backup using BootMii, and you won't be able to use some homebrew.
+Перед началом процесса рекомендуется иметь SD-карту, так как она позволит вам создать резервную копию NAND используя BootMii и устанавливать различные homebrew-приложения.
 {: .notice--info}
 
-### Определите вашу консоль:
+### Определите ревизию вашей консоли:
 
 {% include identify-console.html %}<br>
 
-### Choose an exploit to use
+### Выберите ваш эксплойт
 
-Выберите эксплойт, соответствующий вашей консоли и ситуацией.
+Выберите эксплойт, соответствующий вашей консоли, и вашим текущим инструментам.
 
-| Ревизия консоли        | Рекомендуемый эксплоит                                                                                                                                                                                                                                                                                                                                     |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wii/Wii Family Edition | Если вы можете использовать ПК на Windows:<br> Автоматическая установка: Перейдите к [ModMii](modmii)<br> Если вы можете использовать SD карту:<br> Ручная установка: Перейдите к [Wilbrand](wilbrand)<br>Если вы не можете использовать SD карту:<br> Ручная установка: Перейдите к [str2hax](str2hax)<br>            |
-| Wii mini               | [BlueBomb](bluebomb) - Эксплоит который использует Bluetooth.                                                                                                                                                                                                                                                                                              |
-| Wii U (vWii)           | If you have already modded your Wii U:<br> Proceed to [Modding the vWii](vwii-homebrew-channel)<br> If you havent modded the Wii U but want to:<br> Proceed to [Modding the Wii U](https://wiiu.hacks.guide)<br> If you do not want to mod the Wii U:<br> Proceed to [Modding the vWii Without Wii U Mods](wiiu-nand-dumper) |
-| Эмулятор Dolphin       | Перейти к [Homebrew Channel на Dolphin](homebrew-dolphin)                                                                                                                                                                                                                                                                                                  |
+| Ревизия консоли        | Рекомендуемый эксплоит                                                                                                                                                                                                                                                                                                                                |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wii/Wii Family Edition | Если вы можете использовать ПК c Windows:<br> Автоматическая установка: Перейдите к [BootMii](modmii)<br> Если вы можете использовать SD-карту:<br> Ручная установка: Перейдите к [Wilbrand](wilbrand)<br> Если вы не можете использовать SD-карту:<br> Ручная установка: Перейдите к [str2hax](str2hax)<br>      |
+| Wii mini               | [BlueBomb](bluebomb) - Эксплоит который использует Bluetooth.                                                                                                                                                                                                                                                                                         |
+| Wii U (vWii)           | Если вы уже прошили вашу Wii U:<br> Перейдите к [Прошивке vWii](vwii-homebrew-channel)<br> Если вы еще не прошили Wii U, но хотите сделать это:<br> Перейдите к [Прошивке Wii U](https://wiiu.hacks.guide)<br> Если вы не хотите прошивать Wii U:<br> Перейдите к [ Прошивке vWii без прошивки Wii U](wiiu-nand-dumper) |
+| Эмулятор Dolphin       | Перейти к [Homebrew Channel на Dolphin](homebrew-dolphin)                                                                                                                                                                                                                                                                                             |
 
 ### Альтернативные способы
 
-Если возможно, следует следовать эксплоит, указанный выше.
+Если возможно, следует следовать эксплойт, указанный выше.
 
-Если рекомендуемые эксплоиты не работают для вас, или если вам интересны другие эксплоиты, посмотрите на [Старые Эксплоиты](legacy-exploits).
+Если рекомендуемые эксплойты не работают для вас, или если вам интересны другие эксплойты, взгляните на [Старые Эксплойты](legacy-exploits).
