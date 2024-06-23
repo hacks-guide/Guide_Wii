@@ -33,8 +33,8 @@ Asigură-te că dacă folosești un card SD, comutatorul de blocare este în poz
 
 #### Secțiunea I – Instalarea
 
-1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card.
-2. Eject the SD card from your PC and insert it into the Wii U.
+1. Copiază folderul `apps` în `.zip`-ul d2x-cios-installer din directorul principal al cardului tău SD.
+2. Scoate cardul SD din PC-ul tău și inserează-l în Wii U.
 3. Pornește Wii U și deschide vWii.
 4. Deschide Homebrew Channel.
 5. Deschide d2x cIOS Installer.
