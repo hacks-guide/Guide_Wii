@@ -80,13 +80,13 @@ Dacă poți instala BootMii ca boot2, dar nu vrei să afișeze ecranul BootMii c
 Poți folosi, de asemenea, aplicația [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) în Wii pentru a schimba aceste setări.
 {: .notice--info}
 
-### Uploading NAND Backup to Dolphin Emulator
+### Încărcarea backup-ului NAND în Dolphin Emulator
 
-Your NAND backup can be utilized in Dolphin Emulator.
+Backup-ul tău NAND poate fi utilizat în Dolphin Emulator.
 
-1. Get the latest beta or developement release of Dolphin Emulator from the [Dolphin Webiste](https://dolphin-emu.org/) and install it to your device.
-1. Open dolphin emulator
-1. Click on the `Tools` tab, scroll down to `Manage NAND`, then select `Import BootMii NAND backup...`.
+1. Descarcă cea mai recentă versiune beta sau developement a Dolphin Emulator de pe [pagina oficiala](https://dolphin-emu.org/) și instalează-l pe dispozitivul tău.
+1. Deschide Dolphin Emulator
+1. Click pe tab-ul `Tools`, scroll jos către `Manage NAND`, apoi selectează `Import BootMii NAND backup...`.
 1. Locate the `nand.bin` found on the root of your SD card and select open.
 1. If it asks for a `keys.bin`, locate it on the root of your SD and select open.
 
