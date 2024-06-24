@@ -42,5 +42,5 @@ Notă: Când instalezi aplicații homebrew pe cardul tău SD sau unitatea ta USB
 `AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
 Do not Get confused with the `apps` folder inside of the `wiiu` folder and the `apps` folder on the root of the SD card.
 
-[Continue to installing Priiloader](priiloader)<br>
+[Continuați să instalați Priiloader](priiloader)<br>
 {: .notice--info}
