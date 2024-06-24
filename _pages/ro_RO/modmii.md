@@ -23,22 +23,22 @@ ModMii is an all-in-one Wii hacking tool for Windows created by XFlak that has v
 
 There are two different ways to use ModMii. There is ModMii Classic, which uses a command line interface, but has all of the features available to the program. ModMii Skin has a graphical user interface, on the other hand, but has less options available to the user. If you're looking to simply mod your Wii for the first time, ModMii Skin should suffice. Otherwise, we reccomend using ModMii Classic where possible. <br> The chart below will help you determine what can be done in either interface.
 
-| Tools                             | ModMii Classic | ModMii Skin |
-| --------------------------------- | -------------- | ----------- |
-| Programul ModMii                  | ✅              | ✅           |
-| Programul de Actualizare SysCheck | ✅              | ⛔           |
-| USB Loader Setup Wizard           | ✅              | ✅           |
-| Programul de Soluții HackMii      | ✅              | ✅           |
-| Programul de Abstinență           | ✅              | ✅           |
-| Region Change Wizard              | ✅              | ✅           |
-| SNEEK/EmuNAND Installation        | ✅              | ✅           |
-| Open File Function                | ✅              | ⛔           |
-| Load Download Queue               | ✅              | ✅           |
-| Download Page 1/2/3/4             | ✅              | ⛔           |
-| Advanced Downloads                | ✅              | ⛔           |
-| Load Download Queue               | ✅              | ⛔           |
-| Build Config Files                | ✅              | ⛔           |
-| File Cleanup & App Updater        | ✅              | ⛔           |
+| Tools                                                        | ModMii Classic | ModMii Skin |
+| ------------------------------------------------------------ | -------------- | ----------- |
+| Programul ModMii                                             | ✅              | ✅           |
+| Programul de Actualizare SysCheck                            | ✅              | ⛔           |
+| USB Loader Setup Wizard (Asistent de configurare USB Loader) | ✅              | ✅           |
+| Programul de Soluții HackMii                                 | ✅              | ✅           |
+| Programul de Abstinență                                      | ✅              | ✅           |
+| Region Change Wizard (Asistent Schimbării Regiunii)          | ✅              | ✅           |
+| SNEEK/EmuNAND Installation (Instalare SNEEK/EmuNAND)         | ✅              | ✅           |
+| Open File Function (Deschide Funcția Fișierului)             | ✅              | ⛔           |
+| Load Download Queue (Încarcă Lista cu Descărcări)            | ✅              | ✅           |
+| Download Page (Pagina Descărcare) 1/2/3/4                    | ✅              | ⛔           |
+| Advanced Downloads                                           | ✅              | ⛔           |
+| Load Download Queue (Încarcă Lista cu Descărcări)            | ✅              | ⛔           |
+| Build Config Files                                           | ✅              | ⛔           |
+| File Cleanup & App Updater                                   | ✅              | ⛔           |
 
 <details id="Modmii-Tools" class="notice--info" markdown="1">
 <summary><a>Click here for a detailed explanation of each tool.</a></summary>
