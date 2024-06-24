@@ -1,53 +1,53 @@
 ---
-title: vWii Modding Guide
+title: Ghid de modificare vWii
 ---
 
 {% include toc title="Tabel de Conținut" %}
 
-This page will guide you through the process of modding your vWii.
+Această pagină vă va ghida prin procesul de modificare a vWii-ului.
 
-## SD Preparations
+## Preparație
 
-If you have hacked your Wii U in the past, you can use the same SD Card for this process.
+Dacă ați modat Wii U în trecut, puteți folosi același card SD pentru acest proces.
 {: .notice--info}
 
-If you haven't already, make sure you did a [nand backup](https://wiiu.hacks.guide/#/aroma/nand-backup) and have the [Aroma Environment](https://aroma.foryour.cafe/) installed on your Wii U. Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
+Dacă nu ați făcut deja, asigurați-vă că ați făcut o [copie de rezervă](https://wiiu.hacks.guide/#/aroma/nand-backup) și că aveți [Aroma Environment](https://aroma.foryour.cafe/) instalat pe Wii U. Altfel, treceți la [Instalarea Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) sau [Modding the vWii fără a modifica latura Wii U](wiiu-nand-dumper)
 {: .notice--info}
 
 ### Instrumente necesare
 
-- A modded Wii U
-- The [Aroma Environment](https://aroma.foryour.cafe/)
-- The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
-- (Optional) The [Enhanced vWii Aroma Plugin](https://hb-app.store/wiiu/evWii)
+- Un Wii U modificat
+- [Aroma Environment]](https://aroma.foryour.cafe/)
+- Ultima versiune a [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
+- (Opțional) [Plugin-ul Enhanced vWii Aroma](https://hb-app.store/wiiu/evWii)
 
-If the evWii Aroma plugin is not installed, and a homebrew app hangs, the only way to shut off the Wii U is by pulling the power cord. Pulling the power cord in some cases can cause a memory corruption so it is highly recomended to have the plugin installed.
+Dacă plugin-ul evWii Aroma nu este instalat și aplicația homebrew se blochează, singurul mod de a închide Wii U este prin tragerea cordonului electric. În unele cazuri, tragerea cordonului electric poate cauza o corupție de memorie, astfel încât este foarte bine recomandat pentru ca plugin-ul să fie instalat.
 {: .notice--warning}
 
 ### Instrucțiuni
 
-#### Section I - Files
+#### Secțiunea I - Fișiere
 
-1. Insert your Wii U's SD Card into your PC.
-2. Copy the contents of the `CompatTitleInstaller.zip` file to the root of your SD Card.
-3. Copy the contents of the `evWii.zip` file to the root of your SD Card.
+1. Introduceți cardul SD al Wii U în PC-ul tău.
+2. Copiați conținutul fișierului `CompatTitleInstaller.zip` în directorul principal al cardului SD.
+3. Copiați conținutul fișierului `evWii.zip` în directorul principal al cardului SD.
 
-#### Section II - Installing the Homebrew Channel
+#### Secțiunea II - Instalarea Homebrew Channel
 
-1. Boot into [Aroma](https://wiiu.hacks.guide/#/aroma/finalizing-setup).
-2. Launch the vWii Compat Installer on the Wii U menu.
-3. Press `A` to install the Homebrew Channel and wait until you see `Install succeeded`. Then press the HOME button to return to the Wii U Menu.
-4. Launch vWii (the Wii Menu icon).
-   - If the installation has succeeded, you should see the Homebrew Channel in your Wii Menu.
+1. Porniți în [Aroma](https://wiiu.hacks.guide/#/aroma/finalizing-setup).
+2. Lansați vWii Compat Installer pe meniul Wii U.
+3. Apasă `A` pentru a instala Homebrew Channel și așteptați până când vedeți `Install succeeded`. Apoi apasă butonul HOME pentru a reveni la meniul Wii U.
+4. Lansează vWii (pictograma Wii Menu).
+   - Dacă instalarea a reușit, ar trebui să vedeți Homebrew Channel în meniul Wii.
 
 ### Citire necesară
 
-You can now use the Homebrew Channel to launch Wii homebrew apps.
+Acum puteți folosi Homebrew Channel pentru a porni aplicațiile homebrew Wii.
 
-Note: When installing Wii homebrew applications on your SD Card or USB drive, your folder structure should look like this:
+Notă: Când instalezi aplicații homebrew pe cardul tău SD sau unitatea ta USB, structura dosarului tău ar trebui să arate astfel:
 
 ```
-💾 SD Card
+💾 Card SD
  ┗ 📁 apps
    ┣ 📁 AppName1
    ┃ ┣ 📄 boot.dol
@@ -59,8 +59,8 @@ Note: When installing Wii homebrew applications on your SD Card or USB drive, yo
      ┗ 📄 icon.png
 ```
 
-`AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
-Do not Get confused with the `apps` folder inside of the `wiiu` folder and the `apps` folder on the root of the SD card.
+`AppName1` și `AppName2` sunt nume înlocuitoare. Nu crea mai multe dosare `apps` înăuntrul dosarului `apps` în sine.
+Nu vă confundați cu folderul `apps` din folderul `wiiu` și folderul `apps` de pe directorul principal al cardului SD.
 
-[Continue to installing Priiloader](priiloader)<br>
+[Continuați să instalați Priiloader](priiloader)<br>
 {: .notice--info}
