@@ -48,8 +48,8 @@ NU folosi niciun exemplu de adrese MAC afișate în acest ghid, deoarece acestea
 1. Deschide plicul roșu cu o bombă.
     + Asigură-te că data de pe Wii este corectă, altfel este posibil să nu găsești scrisoarea.
     + În unele cazuri, trebuie să verifici mesajele pentru ziua de mâine sau ieri ca scrisoarea să apară.
-    + Dacă nu vezi scrisoarea roșie, verifică daca apar erori în secțiunea card SD a `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
-    + If your Wii freezes after clicking on the letter, you most likely chose the wrong system menu region for LetterBomb. Go back to Step 2 and verify that you chose the right region.
+    + Dacă nu vezi scrisoarea roșie, verifică daca apar erori în secțiunea card SD `Data Management`. Dacă apare o eroare, s-ar putea să existe o problemă cu formatul cardului SD sau cu cititorul de carduri SD a consolei Wii.
+    + Dacă sistemul Wii îngheață după ce apeși pe scrisoare, cel mai probabil ai ales regiunea greșită a meniului de sistem pentru LetterBomb. Întoarce-te la Pasul 2 și verifică dacă ai ales regiunea corectă.
     + If all is correct and there is freezing, keep on trying until it works.
 1. Dacă exploit-ul a funcționat, dispozitivul va intra în HackMii Installer.
 
