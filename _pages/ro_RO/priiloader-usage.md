@@ -75,7 +75,7 @@ Wii-ul tău ar trebui să pornească automat în oricare aplicație de homebrew 
 1. Apasă dreapta pentru a parcurge opțiunile Autoboot până ce opțiunea dorită este selectat.
     + Dezactivat va autoboota în meniul Priiloader.
 
-    Please don't set Autoboot to `BootMii IOS`. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.
+    Te rog nu seta Autoboot la `BootMii IOS`. Vei rămâne blocat într-o buclă până când ții continuu butonul RESET pentru a intra în meniul Priiloader.
     {: .notice--warning}
 
     ![](/images/priiloader/autoboot_disabled.png)
