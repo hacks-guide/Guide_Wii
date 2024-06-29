@@ -24,7 +24,7 @@ sitemap: false
 **Modding 101**
 + [Credits](bluebomb)
 + [RiiConnect24](flashhax)
-+ [Legacy Exploits](legacy-exploits)
++ [Metode Legacy](legacy-exploits)
 + [Donations](letterbomb)
 + [Wiimmfi](Wiimmfi)
 + [Wilbrand](wilbrand)
@@ -58,7 +58,7 @@ sitemap: false
 + [Gestionarea Backup-urilor GameCube](gc-backups)
 + [Managing GameCube Save Files](gcsaves)
 + [Managing Wii Backups](wii-backups)
-+ [Priiloader Usage](priiloader-usage)
++ [Folosirea Priiloader](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
 + [Transferring Save Games](transfer-saves)
 + [Wii Backup Loaders](wii-loaders)

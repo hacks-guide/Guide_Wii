@@ -51,7 +51,7 @@ Ez a rész a lehetséges elrontások diagnózisában segít és súlyosság szer
 + A Wii elindul és megjeleníti az egészségügyi figyelmeztetéseket, de az A-gomb megnyomása után csak feketét mutat.
     + Ha ez egy téma telepítése után történt: ld. [Témarontás](bricks#theme-brick).
     + Ha ez egy WAD-fájl telepítése után történt: ld. [Bannerrontás](bricks#banner-brick).
-    + Ha ez látszólag minden ok nélkül keződött el és képes vagy hozzáférni a Wii karbantartási módjához a + és - gombok nyomvatartásával az egészgégügyi figyelmeztetések-képernyőn: ld. [Üzenetrontás](bricks#mail-brick).
+    + Ha ez látszólag minden ok nélkül keződött el és képes vagy hozzáférni a Wii karbantartási módjához a + és - gombok nyomvatartásával az egészségügyi figyelmeztetések-képernyőn: ld. [Üzenetrontás](bricks#mail-brick).
 + A Wii elindul és megjeleníti az egészségügyi figyelmeztetéseket, de az A-gomb megnyomása után csak feketét mutat és/vagy lefagy. A karbantartási mód hozzáférhető: ld. [Üzenetrontás](bricks#mail-brick).
 + A Wii elindul, de RÖGTÖN egy olyan hibát látsz, ami látszólag az Opera-internetböngészőre hasonlít: ld. [Wii menü- / Operarontás](bricks#wii-menuopera-brick).
 + 003-as hibát látsz: ld. [KoreanKii / 003-as hibás rontás](bricks#error-003-brick).

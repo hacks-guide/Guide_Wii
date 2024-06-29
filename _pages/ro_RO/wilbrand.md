@@ -28,24 +28,24 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Navigate to `Internet` > `Console Information`.
-1. Take note of your FULL MAC address.
+1. Navighează spre `Internet` > `Console Information`.
+1. Notează adresa MAC completă.
 
     ![](/images/wii/MacAddress.png)
 
 1. On your computer, open the browser and go to [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/).
 1. Input your Wii MAC, version and region.
-1. Ensure `Bundle the HackMii Installer for me!` is checked.
-1. Cut either wire.
+1. Asigură-te `Bundle the HackMii Installer for me!` este bifată.
+1. Taie oricare din fire.
 
     ![](/images/exploits/wilbrand/web.png)
 
 1. Click on "Download your .zip".
-1. Insert your SD card into your computer.
+1. Introdu cardul tău SD în calculator.
 1. Copy the `private` folder and the `boot.elf` file from the downloaded `.zip` file to the root of your SD card.
-1. Reinsert your SD card into your console.
-    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
-1. On your Wii, return to the Wii Menu.
+1. Re-introdu cardul tău SD în calculator.
+    + Cardul SD trebuie introdus în slotul SD localizat pe partea de față a consolei Wii. Utilizarea adaptorului USB la SD, introdus în portul USB din Wii nu va funcționa.
+1. Pe Wii, întoarce-te la meniul Wii.
 1. Open the Wii Message Board.
 1. Open the green letter with a bomb.
 
@@ -89,13 +89,13 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Navigate to `Internet` > `Console Information`.
-1. Take note of your FULL MAC address.
+1. Navighează spre `Internet` > `Console Information`.
+1. Notează adresa MAC completă.
 
     ![](/images/wii/MacAddress.png)
 
 1. Copy all files from the Wilbrand `.zip` to a folder on your computer
-1. Insert your SD card into your computer.
+1. Introdu cardul tău SD în calculator.
 1. Open a terminal inside the folder Wilbrand was extracted to.
 1. Using your Wii's version and MAC address, run the following command:
 
@@ -113,12 +113,12 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Copy all files from the hackmii_installer_v1.2 `.zip` to a folder on your computer.
 1. Locate the `boot.elf` file, and put it on the root of your SD card.
 1. Take out your SD card and insert it in your Wii.
-    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
+    + Cardul SD trebuie introdus în slotul SD localizat pe partea de față a consolei Wii. Utilizarea adaptorului USB la SD, introdus în portul USB din Wii nu va funcționa.
 1. On your Wii, return to the Wii Menu and then open the Wii Message Board.
 1. Open the Wii Message Board.
 1. Open the green letter with a bomb.
     + Ensure the date on your Wii is correct, or you might be unable to find the letter.
-    + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
+    + În unele cazuri, trebuie să verifici mesajele pentru ziua de mâine sau ieri ca scrisoarea să apară.
     + If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If there are errors, there may be an issue with the SD card format or the Wii’s SD card reader.
 
     ![](/images/exploits/wilbrand/msgboard.png)

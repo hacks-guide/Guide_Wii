@@ -6,7 +6,7 @@ header:
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Wii, vWii, and Wii mini."
+excerpt: "Ghidul complet pentru modificarea consolei tale Wii, vWii și Wii mini."
 ---
 
 Din moment ce acest ghid a fost lansat de curând, încă se lucrează la traduceri. Vă mulțumim pentru răbdare!
@@ -48,7 +48,7 @@ Acest ghid își propune să facă următoarele lucruri, inclusiv secțiuni opț
 
 + Homebrew este 100% gratis și procesul modificării consolei tale Wii este de asemenea gratis. Oricine care încearcă să te convingă opusul cel mai probabil încearcă [să te înșele](https://hbc.hackmii.com/scam).
 + Acest ghid funcționează pentru toate versiunile ale meniului de sistem în funcție de exploit, dar **este recomandat să îți actualizezi sistemul la versiunea 4.3 (cel mai nou firmware)** dacă este posibil.
-+ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
++ **Acest ghid se aplică NUMAI pentru consolele Wii retail!** Asta înseamna că unitățile de dezvoltare nu sunt acoperite.
 + În funcție de ce intenționezi să faci cu sistemul tău Wii modificat, s-ar putea să trebuiască să faci niște modificări în memoria internă care au riscul de a cauza un "brick" (lăsând întreaga consola nefuncționala). Cât timp urmezi acest ghid cu exactitate, ar trebui să fii în regulă, dar pentru sfaturi de prevenție a brick-urilor vezi [această pagină](bricks#brick-prevention).
 + Diferențele dintre Wii și Wii mini sunt destul de mari. Asta înseamnă că în unele cazuri, ceva care este normal inofensiv pentru consola Wii poate cauza un [brick sever](bricks#wi-fi-brick) pentru Wii mini. Ai multă atenție dacă plănuiești să modifici unul!
 + Ai foarte multă atenție când modifici un [Wii Coreean](bricks#korean-kiierror-003-brick).

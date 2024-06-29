@@ -1,5 +1,5 @@
 ---
-title: "Wii mini NAND Dumper"
+title: "Wii U NAND Dumper"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -49,8 +49,8 @@ The `WiiFlash_n_ECC.img` is your NAND image. The other two files are "error" dat
 
 #### Section III - Dumping the Wii mini's Keys
 
-1. Launch xyzzy mod from the Homebrew Channel.
-1. Select `USB device`
+1. Indítsd el az xyzzy mod-t a Homebrew Channel-ről.
+1. Válaszd az `USB device` opciót
     + It should start retriving your console information.
 1. When it is done, press any button to exit.
     + You will have 5 new files on your USB:

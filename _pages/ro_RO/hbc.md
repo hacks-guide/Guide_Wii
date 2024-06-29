@@ -6,7 +6,7 @@ title: "Homebrew Channel și Instalare BootMii"
 
 {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
-The Homebrew Channel is where you will go to launch homebrew applications. BootMii este o bucată de software care poate crea un backup și restaura memoria NAND a consolei tale Wii, iar dacă este instalată în boot2, poate oferi protecție anti-brick.
+Homebrew Channel este locul unde poți lansa aplicații homebrew. BootMii este o bucată de software care poate crea un backup și restaura memoria NAND a consolei tale Wii, iar dacă este instalată în boot2, poate oferi protecție anti-brick.
 
 BootMii poate fi instalat în două moduri: direct pe o parte a bootloader-ului consolei Wii numit boot2 sau către un IOS. BootMii ca boot2 este preferat deoarece oferă o protecție anti-brick puternică, însă consolele Wii cu un boot1 vulnerabil care permite această instalare sunt destul de rare, acestea fiind fabricate înainte de 2009. În majoritatea cazurilor, instalarea BootMii ca IOS ar trebui să fie în regulă cât timp instalezi și [Priiloader](priiloader).
 

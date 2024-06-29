@@ -1,29 +1,29 @@
 ---
-title: "Donations"
+title: "Politica de confidenţialitate"
 ---
 
-### Cookies
+### Cookie-uri
 
-This site utilizes cookies in order to facilitate routing users through the guide instructions. Cookies allow for the sidebar of the page to display current progress through the site to help users navigate the instructions more easily.
+Acest site folosește cookie-uri pentru a facilita direcționarea utilizatorilor prin instrucțiunile ghidului. Cookie-urile permit ca bara laterală a paginii să afișeze progresul curent prin site pentru a ajuta utilizatorii să navigheze mai ușor instrucțiunile.
 
-### Embedded Content From Other Websites
+### Conținut încorporat de pe alte site-uri
 
-This site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves as if the user has visited the other website.
+Acest site poate include conținut încorporat (de ex. videoclipuri, imagini, articole, etc.). Conținutul încorporat de pe alte site-uri se comportă ca și cum utilizatorul a vizitat celălalt site.
 
-These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
+Aceste site-uri pot colecta date despre tine, folosi cookie-uri, încorpora urmărirea de către terți a altor persoane și vă pot monitoriza interacțiunea cu acel conținut încorporat, inclusiv urmărirea interacțiunii cu conținutul încorporat în cazul în care aveți un cont și sunteți autentificat pe site-ul respectiv.
 
-### Analytics
+### Analize
 
-This site uses Google Analytics to monitor and analyze traffic. This site is hosted by Github Pages, which may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with this site. For more information about Github Pages as it relates to user privacy, see the [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement).
+Acest site folosește Google Analytics pentru a monitoriza și analiza traficul. Acest site este găzduit de Github Pages, care poate colecta date despre tine, folosi cookie-uri, a încorporat urmărirea de către terţe părţi şi a monitorizat interacţiunea dumneavoastră cu acest site. Pentru mai multe informații despre Github Pages în legătură cu confidențialitatea utilizatorilor, consultați [GitHub Privacy Declaration](https://help.github.com/en/articles/github-privacy-statement).
 
-### Information Collected
+### Informații colectate
 
-This site does not collect personal information. This site may collect usage information in order to analyze interest in the content and to provide advertisers with information on an aggregate basis. No personally identifiable information is shared with third-party advertising companies.
+Acest site nu colectează informaţii personale. Acest site poate colecta informații de utilizare pentru a analiza interesul pentru conținut și pentru a furniza informații agregate agenților de publicitate. Nicio informație identificabilă personal nu este împărtășită cu companii de publicitate terțe.
 
-### Third-Party Websites
+### Site-uri terțe
 
-This site may link to other sites for users to use or reference. This site is not responsible for the privacy policies of other sites. Users should be aware that the privacy policies of other websites may differ from this one.
+Acest site se poate conecta la alte site-uri pentru ca utilizatorii să le utilizeze sau să le poată trimite. Acest site nu este responsabil pentru politicile de confidențialitate ale altor site-uri. Utilizatorii ar trebui să fie conştienţi de faptul că politicile de confidenţialitate ale altor site-uri web pot diferi de acesta.
 
-### Changes to Privacy Policy
+### Modificări ale Politicii de confidenţialitate
 
-The contents of this Privacy Policy may be altered at any time and for any reason.
+Conținutul acestei Politici de Confidențialitate poate fi modificat oricând și din orice motiv.

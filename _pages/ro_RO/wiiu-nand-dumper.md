@@ -1,5 +1,5 @@
 ---
-title: vWii Modding Guide
+title: Ghid de modificare vWii
 ---
 
 {% include toc title="Tabel de Conținut" %}
@@ -19,15 +19,15 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
   - Double check that nanddumper is selected.
   - Click on `Download Payloads`.
   - Click on `Download Base Aroma`.
-- The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
+- Ultima versiune a [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
 
 ### Instrucțiuni
 
 #### Section I - SD Preparations
 
-1. Insert your Wii U's SD Card into your PC.
+1. Introduceți cardul SD al Wii U în PC-ul tău.
 2. Copy the contents of the downloaded Aroma _`.zip`_ files to the root of your SD Card.
-3. Copy the contents of the `CompatTitleInstaller.zip` file to the root of your SD Card.
+3. Copiați conținutul fișierului `CompatTitleInstaller.zip` în directorul principal al cardului SD.
 
 SD Card Layout
 

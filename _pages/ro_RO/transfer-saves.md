@@ -112,7 +112,7 @@ Make sure you have installed [cIOS](cios) before following this!
     + Repeat this for all the saves you would like to transferred.
 1. Once you have extracted all your save files, press HOME and exit SaveGame Manager GX.
 1. Insert your SD card or USB drive into your PC.
-1. Open Dolphin Emulator.
+1. Deschide Dolphin Emulator.
 1. Select `Tools > Import Wii Save...`.
 1. In the file dialog that opens, go to the `savegames` folder on your SD or USB, and select each `.bin` file inside it.
 Unfortunately, you can only select one at a time, so you must repeat the last step for each .bin file.
@@ -150,7 +150,7 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 
 ##### Instrucțiuni
 
-1. Open Dolphin Emulator.
+1. Deschide Dolphin Emulator.
 1. If you exporting a select game's save, right click the game inside the Dolphin window and select `Export Wii Save`.
     + If you are exporting all your Wii saves from Dolphin, select `Tools > Export All Wii Saves`.
 ![](/images/dolphin/export-wiisave.png)
@@ -176,7 +176,7 @@ Make sure you have installed [cIOS](cios) before following this!
 
 ##### Instrucțiuni
 
-1. Open Dolphin Emulator.
+1. Deschide Dolphin Emulator.
 1. If you exporting a select game's save, right click the game inside the Dolphin window and select `Export Wii Save`.
     + If you are exporting all your Wii saves from Dolphin, select `Tools > Export All Wii Saves`.
 1. In the folder dialog that pops up, select your SD card/USB drive. (don't go inside any other folder!)
@@ -198,7 +198,7 @@ Make sure you have installed [cIOS](cios) before following this!
 
 ##### Instrucțiuni
 
-1. Open Dolphin Emulator.
+1. Deschide Dolphin Emulator.
 1. In the main menu, select `File > Open User Folder`.
 ![](/images/dolphin/open-user-folder.png)
 

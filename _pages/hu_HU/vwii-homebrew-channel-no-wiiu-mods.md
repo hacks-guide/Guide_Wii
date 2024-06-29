@@ -9,7 +9,7 @@ This page will guide you through the process of installing the Homebrew Channel 
 #### I. rész - bootolás Aromába
 
 1. Execute the web browser exploit as [previously explained](wiiu-nand-dumper) but this time, you will need to hold the X button to open the Environment Loader menu.
-2. Once you are there, boot into the Aroma enviornemnt by selecting it inside the payload loader.
+2. Once you are there, boot into the Aroma environment by selecting it inside the payload loader.
 
 #### II. rész - A Homebrew Channel telepítése
 

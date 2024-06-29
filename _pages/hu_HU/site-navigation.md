@@ -59,7 +59,7 @@ sitemap: false
 + [Hogyan dumpolj GameCube/Wii játékokat](dump-games)
 + [GameCube-másolatok kezelése](gc-backups)
 + [A GameCube mentés fájlok kezelése](gcsaves)
-+ [Wii-másolatok kezelése](wii-backups)
++ [Wii mentések kezelése](wii-backups)
 + [A Priiloader használata](priiloader-usage)
 + [Ajánlott nemhivatalos programok](recommended-homebrew)
 + [A játék mentések átvitele](transfer-saves)
