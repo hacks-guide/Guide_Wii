@@ -12,19 +12,19 @@ De asemenea, poate fi folosit pentru a rula rapid orice aplicație Wii sau aplic
 
 * Un card SD sau o unitate USB
 * Installing a theme after installing Priiloader **will brick your vWii.**
-* [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
+* [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (fișierul `.zip`)
 
 #### What you need
 
-* An SD card
-* [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
-    * [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
+* Un card SD
+* [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (descărcare directă)
+    * [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) trebuie să fie instalat pe consola ta pentru ca Priiloader Wii U Forwader să funcționeze.
 
 ### Instrucțiuni
 
 {% capture notice-vwii-priiloader %}
 
-Priiloader on vWii does not have any impact on Wii U VC titles.
+Priiloader pe vWii nu afectează aplicațiile Wii U VC.
 
 {% endcapture %}
 
@@ -34,84 +34,84 @@ Priiloader on vWii does not have any impact on Wii U VC titles.
 
 1. Download the Priiloader installer and LoadPriiloader apps.
 1. Extract both apps to the root of your SD card or USB drive.
-1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
-1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
-1. (vWii only) Copy the `wiiu` folder from the PriiloaderWiiUForwarder `.zip` to the root of your SD card.
+1. Copiază dosarul `apps` din fișierul `.zip` LoadPriiloader către rădăcina cardului tău SD sau unității tale USB.
+1. Copiază dosarul `apps` din fișierul `.zip` priiloader către rădăcina cardului tău SD sau unității tale USB.
+1. (Doar pentru vWii) Copiază dosarul `wiiu` din fișierul `.zip` PriiloaderWiiUForwarder către rădăcina cardului tău SD.
 1. Reintrodu cardul tău SD sau unitatea ta USB în consolă.
 
-#### Section II - Installing Priiloader
+#### Secțiunea II – Instalarea Priiloader
 
 1. Launch the Homebrew Channel on your Wii.
 1. Launch the Priiloader installer.
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
-1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
+1. Apasă butonul + pe Wii Remote sau butonul A pe un controller GameCube.
 
     ![](/images/priiloader/installer.png)
 
     ![](/images/priiloader/installing.png)
 
-1. Press A to return to the Homebrew Channel.
+1. Apasă A pentru a te întoarce în Homebrew Channel.
 
-#### Section III - Entering Priiloader
+#### Secțiunea III - Intrarea în Priiloader
 
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
-1. Your device will have loaded the Priiloader menu.
+1. Dispozitivul tău va încărca meniul Priiloader.
 
     ![](/images/priiloader/menu.png)
 
-Later on, to enter it you can:
+În viitor, pentru a intra în Priiloader vei putea:
 
-+ Hold the RESET on a Wii while turning it on
-    + Wii Only
-+ Hold the ESC key on a connected USB keyboard while turning on the console
-    + Wii, vWii and Mini
-+ Run the "Load Priiloader" tool from the HBC
-    + Wii, vWii and Mini
-+ Run the "Priiloader Wii U Forwarder" tool
-    + vWii Only
++ Ține apăsat RESET pe un Wii în timp ce îl pornești
+    + Doar pentru Wii
++ Ține apăsat tasta ESC pe o tastatură USB conectată în timp ce pornești consola
+    + Wii, vWii și Mini
++ Rula unealta "Load Priiloader" din HBC
+    + Wii, vWii și Mini
++ Rula unealta "Priiloader Wii U Forwarder"
+    + Doar pentru vWii
 
-#### Section IV - Configuring Priiloader
+#### Secțiunea IV - Configurarea Priiloader
 
-1. Scroll down to `System Menu Hacks` and press `A`.
+1. Derulează în jos până la `System Menu Hacks` și apasă `A`.
 
     ![](/images/priiloader/menu_hacks.png)
 
-    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br> Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
+    Dacă ai pus instalatorul Priiloader pe o unitate USB, asigură-te că nu ai un card SD introdus în același timp. <br> Dacă faci asta, Priiloader va eșua să găsească fișierul `hacks_hash.ini`.
     {: .notice--warning}
 
-1. For the following options, enable the options according to your console:
+1. Pentru următoarele opțiuni, activează opțiunile în funcție de consola ta:
     + Wii:
-        + If you are using 480p mode: `480p graphics fix in the system menu`
+        + Dacă folosești modul 480p: `480p graphics fix in the system menu`
         + Block Disc Updates
         + Block Online Updates
-        + If you are NOT using a CRT display: `Remove Deflicker`
+        + Dacă NU folosești un monitor CRT: `Remove Deflicker`
     + vWii:
         + Block Online Updates
         + Wii System Settings via Options Button
-        + If you are NOT using a CRT display: `Remove Deflicker`
+        + Dacă NU folosești un monitor CRT: `Remove Deflicker`
     + Wii mini:
         + Block Disc Updates
-        + If you are NOT using a CRT display: `Remove Deflicker`
-1. Scroll down to `save settings` and press A.
-1. Press `B` to return to the main menu.
+        + Dacă NU folosești un monitor CRT: `Remove Deflicker`
+1. Derulează în jos până la `save settings` și apasă A.
+1. Apasă `B` pentru a te întoarce în meniul principal.
 
-You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
+Poți vedea pagina [Folosirea Priiloader](priiloader-usage) pentru mai multe informații despre celelalte opțiuni din Priiloader și System Menu Hacks.
 {: .notice--info}
 
 [View the Brick Prevention Guidelines](bricks#brick-prevention)<br> These guidelines list ways that will help avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
 {: .notice--info}
 
-### Wii: Next Steps
+### Wii: Următorii Pași
 
 Continue to [cIOS](cios)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
 {: .notice--info}
 
-### vWii: Next Steps
+### vWii: Următorii Pași
 
-Continue to [vWii cIOS](cios-vwii)<br> This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
+Continuă la [vWii cIOS](cios-vwii)<br> Acest ghid oferă pași despre cum să instalezi un set de cIOS-uri pe vWii, activând funcționalitatea pentru aplicații precum USB loadere.
 {: .notice--info}
 
 ### Additional options
 
-Continue to [Wii mini cIOS](cios-mini)<br> This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders.
+Continuă la [vWii cIOS](cios-mini)<br> Acest ghid oferă pași despre cum să instalezi un set de cIOS-uri pe Wii mini, activând funcționalitatea pentru aplicații precum USB loadere.
 {: .notice--info}
