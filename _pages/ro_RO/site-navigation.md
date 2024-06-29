@@ -24,7 +24,7 @@ sitemap: false
 **Modding 101**
 + [Credits](bluebomb)
 + [RiiConnect24](flashhax)
-+ [Exploit-uri legacy](legacy-exploits)
++ [Metode Legacy](legacy-exploits)
 + [Donations](letterbomb)
 + [Wiimmfi](Wiimmfi)
 + [Wilbrand](wilbrand)
