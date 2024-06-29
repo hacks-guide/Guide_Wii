@@ -1,5 +1,5 @@
 ---
-title: Priiloader Usage
+title: Folosirea Priiloader
 ---
 
 {% include toc title="Tabel de Conținut" %}
@@ -46,7 +46,7 @@ You will be installing `uneoboot.dol` in step 3.
 
     ![](/images/priiloader/installing_file_ok.png)
 
-1. Press `B` to return to the main menu.
+1. Apasă `B` pentru a te întoarce în meniul principal.
 1. Scroll down to `Settings` and press A.
 
     ![](/images/priiloader/menu_settings.png)
@@ -55,11 +55,11 @@ You will be installing `uneoboot.dol` in step 3.
 
     ![](/images/priiloader/autoboot_installed_file.png)
 
-1. Scroll down to `save settings` and press A.
+1. Derulează în jos până la `save settings` și apasă A.
 
     ![](/images/priiloader/settings_save.png)
 
-1. Press `B` to return to the main menu.
+1. Apasă `B` pentru a te întoarce în meniul principal.
 1. Scroll back up to `System Menu` and press A.
 
 Your Wii should now automatically boot to whichever homebrew app you installed.
@@ -80,9 +80,9 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 
     ![](/images/priiloader/autoboot_disabled.png)
 
-1. Scroll down to `save settings` and press A.
+1. Derulează în jos până la `save settings` și apasă A.
 
     ![](/images/priiloader/settings_save.png)
 
-1. Press `B` to return to the main menu.
+1. Apasă `B` pentru a te întoarce în meniul principal.
 1. Scroll back up to `System Menu` and press A.
