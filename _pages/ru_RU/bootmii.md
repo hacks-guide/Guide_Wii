@@ -84,7 +84,7 @@ BootMii позволяет создавать и восстанавливать 
 
 Ваша резервная копия NAND может быть использована в эмуляторе Dolphin.
 
-1. Скачайте последний бета или dev релиз эмулятора Dolphin с [веб-сайта Dolphin](https://dolphin-emu.org/) и установите его на ваше устройство.
+1. Get the latest beta or developement release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
 1. Откройте эмулятор Dolphin
 1. Нажмите на вкладку `Tools`, прокрутите вниз до `Manage NAND`, затем выберите `Import BootMii NAND backup...`.
 1. Найдите `nand.bin` в корне вашей SD-карты и выберите <0>Open</0>.
