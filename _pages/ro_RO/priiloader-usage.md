@@ -4,9 +4,9 @@ title: Folosirea Priiloader
 
 {% include toc title="Tabel de Conținut" %}
 
-Priiloader is an essential tool that adds a level of brick protection to your Wii. It loads before the Wii System Menu does. The tool can also apply hacks that are used to enhance, unlock, and/or fix many System Menu features.
+Priiloader este un tool esențial care adaugă un nivel de protecție la „brick” consolei tale Wii. Acesta se încarcă înaintea lui Wii System Menu. Acest tool poate aplica și modificări ce sunt folosite pentru îmbunătățirea, deblocare și/sau repararea unor funcții din System Menu.
 
-Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
+În plus, poate fi folosit pentru lansarea rapidă a orice Titlu sau Homebrew, sau pentru a schimba modul în care Wii autobootează.
 
 This page documents some of the useful features of Priiloader that may be of interest.
 
