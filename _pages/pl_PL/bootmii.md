@@ -84,11 +84,11 @@ You can also use the [BootMii Config Editor](https://oscwii.org/library/app/Boot
 
 Your NAND backup can be utilized in Dolphin Emulator.
 
-1. Get the latest beta or developement release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
-1. Open dolphin emulator
+1. Get the latest beta or development release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
+1. Open Dolphin Emulator.
 1. Click on the `Tools` tab, scroll down to `Manage NAND`, then select `Import BootMii NAND backup...`.
-1. Locate the `nand.bin` found on the root of your SD card and select open.
-1. If it asks for a `keys.bin`, locate it on the root of your SD and select open.
+1. Locate the `nand.bin` found on the root of your SD card and select Open.
+1. If it asks for a `keys.bin`, locate it on the root of your SD and select Open.
 
 [Continue to Priiloader Installation](priiloader)<br> Priiloader adds a level of brick protection, and is highly recommended, especially if you were only able to install BootMii as IOS. It is especially important for users of BootMii on IOS.
 {: .notice--info}
