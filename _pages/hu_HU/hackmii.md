@@ -6,7 +6,7 @@ title: "A HackMii Installer újraindítása"
 
 Ez az útmutató arra van, hogy ha szeretnéd újra futtatni a HackMii Installer-t, hogy frissítsd/újratelepítsd a Homebrew Channel-t vagy a BootMii-t.
 
-It is also safe to [redo any exploit](get-started) to get back into the HackMii Installer.
+Továbbá az is biztonságos [hogy újra csinálj bármilyen exploitot](get-started), hogy visszakerülj a HackMii Installer-be.
 {: .notice--info}
 
 ### Újraindítás a Homebrew Channel-lel
@@ -20,12 +20,12 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 #### Útmutató
 
 1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
-1. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
-    + If this folder does not exist, create it.
-1. Insert the SD/USB into your Wii, and launch the `hackmii_installer_v1.2` app from the Homebrew Channel.
-    + The app will not have an icon.
+1. Csomagold ki a HackMii Installer v1.2-t az SD kártyád/USB drive-od `apps` mappájába.
+    + Ha a mappa nem létezik, hozd létre.
+1. Helyezd be az SD kártyád/USB-d a Wii-odba, majd indítsd el a `hackmii_installer_v1.2` appot a Homebrew Channel-ből.
+    + Az appnak nem lesz ikonja.
 
-[Continue to Homebrew Channel and BootMii installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 {: .notice--info}
 
 ### Újraindítás Priiloader-rel
