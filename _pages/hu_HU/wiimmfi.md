@@ -18,7 +18,7 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 
 #### Követelmények
 + A Wii with an internet connection, on System Menu version 4.3
-+ [Priiloader](priiloader) 0.9 or later
++ [Priiloader](priiloader) 0.9 vagy későbbi
 
 #### Útmutató
 
@@ -63,7 +63,7 @@ If you get error 23400, your ISP or network is blocking the use of a custom DNS.
 
 #### Követelmények
 
-+ A Wii with an internet connection
++ Egy internetkapcsolattal rendelkező Wii
 
 #### Útmutató
 
@@ -92,7 +92,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 #### Követelmények
 
-+ A Wii with an internet connection
++ Egy internetkapcsolattal rendelkező Wii
 
 #### Útmutató
 
@@ -126,13 +126,13 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 1. Open the Internet Channel again and access the favorite you just made.
 1. The Wiimmfi patcher should begin. Be patient, as Flashhax can be very unreliable - it may take several tries to get right.
 
-### Manual WiiWare Patching via PC
+### Kézi WiiWare patchelés PC-vel
 
 A method for Wiimmfi patching which runs on WiiWare games, but must be manually run on a PC via a script.
 
 #### Követelmények
 
-* An SD card
+* Egy SD kártya
 * Your copy of your game (in WAD format)
 * [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases/latest) (cross platform)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
