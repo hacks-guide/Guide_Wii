@@ -1,33 +1,33 @@
 ---
-title: Installing the Homebrew Channel
+title: A Homebrew Channel telepítése
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
-This page will guide you through the process of installing the Homebrew Channel to the vWii without modding the Wii U side.
+Ez az útmutató végig vezet a Homebrew Channel telepítésén a vWii-re a Wii U oldal módosítása nélkül.
 
 #### I. rész - bootolás Aromába
 
-1. Execute the web browser exploit as [previously explained](wiiu-nand-dumper) but this time, you will need to hold the X button to open the Environment Loader menu.
-2. Once you are there, boot into the Aroma environment by selecting it inside the payload loader.
+1. Futtasd a web böngésző exploitot, ami [korábban kifejtésre került](wiiu-nand-dumper), de ez alkalommal tartsd nyomva az X gombot, hogy az Environment Loader menüt nyisd meg.
+2. Ha már ott vagy bootolj Aroma környzetbe, annak kiválasztásával a payload loader-ben.
 
 #### II. rész - A Homebrew Channel telepítése
 
-1. Launch the vWii Compat Installer on the Wii U menu.
-2. Press `A` to install the Homebrew Channel and wait until you see `Install succeeded`. Then press the HOME button to return to the Wii U Menu.
-3. Launch vWii (the Wii Menu icon).
-   - If the installation has succeeded, you should see the Homebrew Channel in your Wii Menu.
+1. Indítsd el a vWii Compat Installer-t a Wii U Menu-ből.
+2. Nyomj `A`-t a Homebrew Channel telepítéséhez és várj amíg azt nem látod, hogy `Install succeeded`. Utána nyomd meg a HOME gombot, hogy vissza térj a Wii U Menu-be.
+3. Indítsd el a vWii-t (a Wii Menu ikon).
+   - Ha a telepítés sikeres volt, látnod kell a Homebrew Channel-t a Wii Menu-dben.
 
-You may delete the `wiiu` folder on your SD card if you so choose.
+Letörölheted a`wiiu` mappát az SD kártyádról, ha azt szeretnéd.
 
 ### Olvass el!
 
-You can now use the Homebrew Channel to launch Wii homebrew apps.
+Most már tudod használni a Homebrew Channel-t arra, hogy Wii homebrew appokat indítsd.
 
 Megjegyzés: Ha nemhivatalos alkalmazásokat telepítesz SD kártyára vagy pendrive-ra, a könyvtárfelépítésed így kell, hogy kinézzen:
 
 ```
-💾 SD Card
+💾 SD kártya
  ┗ 📁 apps
    ┣ 📁 AppName1
    ┃ ┣ 📄 boot.dol
@@ -39,8 +39,8 @@ Megjegyzés: Ha nemhivatalos alkalmazásokat telepítesz SD kártyára vagy pend
      ┗ 📄 icon.png
 ```
 
-`AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
-Do not Get confused with the `apps` folder inside of the `wiiu` folder and the `apps` folder on the root of the SD card.
+`AppName1` és `AppName2` helyfoglaló nevek. Az `apps` mappában ne hozz létre egy másik `apps` nevű mappát.
+Ne keverd össze az `apps` mappát a `wiiu` mappában és az `apps` mappával az SD kártya gyökerében.
 
 [Folytatás a Priiloader telepítésével](priiloader)<br>
 {: .notice--info}
