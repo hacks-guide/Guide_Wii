@@ -14,7 +14,7 @@ In order to check what the error means, please visit the [Wiimmfi error page](ht
 
 #### Error 051330/51330
 
-Futtas Internet kapcsolat tesztet a `Wii Settings > Internet > Connection settings > Connection > Test this connection` alól indítva
+Futtass Internet kapcsolat tesztet a `Wii Settings > Internet > Connection settings > Connection > Test this connection` alól indítva
 
 #### Error 220602
 
