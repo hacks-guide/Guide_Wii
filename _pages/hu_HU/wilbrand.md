@@ -2,9 +2,9 @@
 title: "Wilbrand"
 ---
 
-Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board. It is compatible with Wii menu versions 3.0 through 4.3 in all regions.
+A Wilbrand egy exploit a Wii-hoz ami a Wii Message Board-on keresztül kerül kiváltásra. Kompatibilis a Wii menu 3.0-4.3 verziókkal minden régióban.
 
-There are two methods listed on this page used to create the proper Wilbrand exploit. Wilbrand Web is recommended for its ease of use.
+Két féle metódusa kerül ismertetésre ezen az oldalon egy helyes Wilbrand exploit létrehozásának. A Wilbrand Web ajánlott, a könnyebb használhatósága miatt.
 {: .notice--info}
 
 {% capture wilbrand-web %}
@@ -13,52 +13,52 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 
 #### Követelmények
 
-* An SD card formatted to FAT32/MS-DOS
-* A Wii on version 3.0 or newer
+* Egy FAT32/MS-DOS-ra formázott SD kártya
+* Egy Wii 3.0 vagy újabb verzióval
 
-SD cards larger than 2GB will not work on Wii menu versions before 4.0.
+A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korábbi verzióival.
 {: .notice--warning}
 
 #### Útmutató
 
 1. Kapcsold be a konzolt!
 1. Nyisd meg a konzol beállításait (`Wii Settings`)!
-1. Take note of the letter next to the system version, in the top-right corner of the screen.
+1. Jegyezd fel a betüt a system version mellett a jobb felső sarkában a képernyőnek.
     + Ez a betű jelzi a rendszermenü régióját, amire később szükséged lesz.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Navigate to `Internet` > `Console Information`.
-1. Take note of your FULL MAC address.
+1. Navigálj az `Internet` > `Console Information` opcióhoz.
+1. Jegyezd fel a FULL MAC address-ed.
 
     ![](/images/wii/MacAddress.png)
 
-1. On your computer, open the browser and go to [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/).
-1. Input your Wii MAC, version and region.
-1. Ensure `Bundle the HackMii Installer for me!` is checked.
-1. Cut either wire.
+1. A számítógépeden nyiss meg egy böngészőt és menj a [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/) oldalra.
+1. Add meg a Wii-od MAC-jét, verzióját és régióját.
+1. Ügyelj rá, hogy a `Bundle the HackMii Installer for me!` opció bepipálva legyen.
+1. Vágd el mindkét drótot.
 
     ![](/images/exploits/wilbrand/web.png)
 
-1. Click on "Download your .zip".
-1. Insert your SD card into your computer.
-1. Copy the `private` folder and the `boot.elf` file from the downloaded `.zip` file to the root of your SD card.
-1. Reinsert your SD card into your console.
-    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
-1. On your Wii, return to the Wii Menu.
-1. Open the Wii Message Board.
-1. Open the green letter with a bomb.
+1. Kattints a "Download your .zip"-re.
+1. Csatlakoztasd az SD kártyád a számítógépedhez.
+1. Másold a `private` mappát és a `boot.elf` fájlt a letöltött `.zip` fájlból az SD kártyád gyökerébe.
+1. Helyezd vissza az SD kártyád a konzolodba.
+    + Az SD kártyát a SD kártya slot-ba kell belerakni a Wii elején. Egy USB > SD kártya átalakító az Wii USB portjába dugva nem fog működni.
+1. Nyisd meg a Wii-od és térj vissza a Wii Menu-be.
+1. Nyisd meg a Wii Message Board-ot.
+1. Nyisd meg a zöld levelet a bombával.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-    + Ensure the date on your Wii is correct, or you might be unable to find the letter.
-    + In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
-    + If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If there are errors, there may be an issue with the SD card format or the Wii’s SD card reader.
+    + Biztosítsd, hogy a Wii-odon a dátum helyes, különben nem fogod megtalálni a levelet.
+    + Bizonyos esetekben szükséges lehet a holnapi vagy a tegnapi levelek ellenőrzése is a levél megtalálásához.
+    + Ha nem látod a zöld levelet, nézd meg, hogy jelenik e meg valamilyen hiba az SD kártya szekciónak a `Data Management`-ben. Ha hibák vannak itt, lehet, hogy probléma van at SD kártya formátumával vagy a Wii SD kártya olvasójával.
 
 
 1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
-    + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
-    + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
+    + Ha a Wii egy fekete képernyőn ragad, kapcsold ki a PWER gomb nyomva tartásával, majd próbáld újra.
+    + Ha visszakerültél a Wii Menu-be a levél megnyitását követően. biztosítsd, hogy az írásvédelem az SD kártyádon kikapcsolt pozícióban van.
 
 [Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 {: .notice--info}
@@ -71,61 +71,61 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 #### Követelmények
 
-* A computer running Windows, macOS or Linux
-* An SD card formatted to FAT32/MS-DOS
-* A Wii on version 3.0 or newer
+* Egy Windows, macOS vagy Linux számítógép
+* Egy FAT32/MS-DOS-ra formázott SD kártya
+* Egy Wii 3.0 vagy újabb verzióval
 * [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 * [A HackMii-telepítő 1.2-es verziója](https://bootmii.org/download/)
 
-SD cards larger than 2GB will not work on Wii menu versions before 4.0.
+A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korábbi verzióival.
 {: .notice--warning}
 
 #### Útmutató
 
 1. Kapcsold be a konzolt!
 1. Nyisd meg a konzol beállításait (`Wii Settings`)!
-1. Take note of the letter next to the system version, in the top-right corner of the screen.
+1. Jegyezd fel a betüt a system version mellett a jobb felső sarkában a képernyőnek.
     + Ez a betű jelzi a rendszermenü régióját, amire később szükséged lesz.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Navigate to `Internet` > `Console Information`.
-1. Take note of your FULL MAC address.
+1. Navigálj az `Internet` > `Console Information` opcióhoz.
+1. Jegyezd fel a FULL MAC address-ed.
 
     ![](/images/wii/MacAddress.png)
 
-1. Copy all files from the Wilbrand `.zip` to a folder on your computer
-1. Insert your SD card into your computer.
-1. Open a terminal inside the folder Wilbrand was extracted to.
-1. Using your Wii's version and MAC address, run the following command:
+1. Másold ki a Wilbrand `.zip` fájl tartalmát egy mappába a számítógépeden
+1. Csatlakoztasd az SD kártyád a számítógépedhez.
+1. Nyiss meg eg terminal-t a mappába ahova a Wilbrand kicsomagolásra került.
+1. A Wii-od verziójával és MAC címével futtasd az alábbi parancsot:
 
     + Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
-        + `X:` is the drive letter of your SD card.
+        + `X:` az SD kártyád meghajtó betüjele.
 
         ![](/images/exploits/wilbrand/windows.png)
 
     + Linux/macOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
-        + If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
-        + `/media/mount_dir` is the folder your SD card is mounted in. This may vary depending on your Linux distro.
+        + Ha nem abban a mappában indítottad a terminált amibe a Wilbrand kicsomagolásra került használd a `cd`, hogy előbb belépj oda, pl. `cd ~/Desktop/Wilbrand`
+        + `/media/mount_dir`a mappa ahova az SD kártyád csatolásra került. Ez változhat a Linux distro-tól függően.
 
         ![](/images/exploits/wilbrand/linux.png)
 
-1. Copy all files from the hackmii_installer_v1.2 `.zip` to a folder on your computer.
-1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your SD card.
-1. Reinsert your SD card into your console.
-    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
-1. On your Wii, return to the Wii Menu.
-1. Open the Wii Message Board.
-1. Open the green letter with a bomb.
-    + Ensure the date on your Wii is correct, or you might be unable to find the letter.
-    + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
-    + If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If there are errors, there may be an issue with the SD card format or the Wii’s SD card reader.
+1. Másold ki a hackmii_installer_v1.2 `.zip` fájl tartalmát egy mappába a számítógépeden.
+1. Másold a `boot.elf` fájlt a HackMii Installer v1.2 `.zip`-ből az SD kártyád gyökerébe.
+1. Helyezd vissza az SD kártyád a konzolodba.
+    + Az SD kártyát a SD kártya slot-ba kell belerakni a Wii elején. Egy USB > SD kártya átalakító az Wii USB portjába dugva nem fog működni.
+1. A Wii-odon térj vissza a Wii Menu-be.
+1. Nyisd meg a Wii Message Board-ot.
+1. Nyisd meg a zöld levelet a bombával.
+    + Biztosítsd, hogy a Wii-odon a dátum helyes, különben nem fogod megtalálni a levelet.
+    + Bizonyos esetekben szükséges lehet a holnapi vagy a tegnapi levelek ellenőrzése is a levél megtalálásához.
+    + Ha nem látod a zöld levelet, nézd meg, hogy jelenik e meg valamilyen hiba az SD kártya szekciónak a `Data Management`-ben. Ha hibák vannak itt, lehet, hogy probléma van at SD kártya formátumával vagy a Wii SD kártya olvasójával.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
 1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
-    + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
-    + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
+    + Ha a Wii egy fekete képernyőn ragad, kapcsold ki a PWER gomb nyomva tartásával, majd próbáld újra.
+    + Ha visszakerültél a Wii Menu-be a levél megnyitását követően. biztosítsd, hogy az írásvédelem az SD kártyádon kikapcsolt pozícióban van.
 
 [Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 {: .notice--info}
