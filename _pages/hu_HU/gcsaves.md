@@ -25,7 +25,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Útmutató
 
-#### Downloading
+#### Letöltés
 
 1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
 1. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
