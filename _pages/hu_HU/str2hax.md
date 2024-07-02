@@ -20,7 +20,7 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 #### I. rész – Csatlakozás
 
-This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
+Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, hogy ahhoz a szerverhez csatlakozzon, ami tartalmazza az exploitot.
 
 1. Kapcsold be a konzolt!
 1. Menj a `Wii Options`-höz.
@@ -31,13 +31,13 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![](/images/riiconnect24/Internet_2.png)
 
-1. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
+1. Navigálj a `Page 2` -> `Internet` -> `Connection Settings` opcióig.
 
     ![](/images/riiconnect24/Internet_3.png)
 
     ![](/images/riiconnect24/Internet_4.png)
 
-1. Click on your network connection slot and navigate to `Change Settings`.
+1. Kattints a hálózati kapcsolatod slot-jára és navigálj a `Change Settings` opcióhoz.
 
     ![](/images/riiconnect24/Internet_5.png)
 
