@@ -66,7 +66,7 @@ There are two different ways to use ModMii. There is ModMii Classic, which uses 
 
 When using ModMii, it is important to note that it will generate a custom guide for you depending on the options that you select. For this reason, this guide will not be focused on how to mod your Wii, as ModMii handles that function. Instead, it will be a quick start guide show you how to effectively use it with the most common options.
 
-### Installing ModMii
+### A ModMii telepítése
 
 #### Követelmények
 
