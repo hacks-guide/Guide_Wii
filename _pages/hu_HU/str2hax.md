@@ -4,12 +4,12 @@ title: "str2hax"
 
 {% include toc title="Tartalomjegyzék" %}
 
-Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
+Fontos tudnod, hogyha az ISP-d vagy a hálózati környezeted nem engedi, hogy egyéni DNS szervert használj, az str2hax nem fog működni és [egy másik exploitot kell választanod](get-started).
 {: .notice--warning}
 
-str2hax is an exploit for the Wii that is triggered by loading the Wii's End User License Agreement. It requires nothing but an Internet connection that lets you change the DNS on your Wii.
+Az str2hax egy exploit a Wii-hoz amit a Wii End User License Agreement betöltése vált ki. Nincs szüksége másra csak internet kapcsolatra, ami lehetővé teszi, hogy módosítsd a DNS-t a Wii-n.
 
-If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
+Ha telepítettél modokat, mint a CTGP Revolution vagy Project+, az str2hax előfordulhat, hogy elindul helyettük. Ha ez előfordul, indtsd újra a Wii-t és próbáld újra behelyzett SD kártya nélkül.
 {: .notice--warning}
 
 ### Követelmények
@@ -51,7 +51,7 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
     ![](/images/exploits/str2hax/dns.png)
 
-    If there are 3 fields instead of 2 (like above), go back and make sure you are on the `Auto-Obtain DNS` page.
+    Ha három mező van 2 helyett (mint fent), menj vissza és ellenőrizd, hogy az `Auto-Obtain DNS` oldalon vagy-e.
     {: .notice--warning}
 
 1. Kattints a `Confirm`-ra, majd a `Save`-re.
@@ -64,20 +64,20 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
     ![](/images/riiconnect24/Internet_12.png)
 
-    + If the connection test was successful, select `No` to skip the Wii System Update.
-    + If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
-    + If it is still unsuccessful, please [use another exploit](get-started).
+    + Ha a catlakozái teszt sikeres volt, válaszd a `No`-t, hogy átugord a Wii System Update-et.
+    + Ha hibára fut `521xx` hibakóddal, kérjülk ellenőrizd, hogy pontosan adtad-e meg a DNS-t.
+    + Ha továbbra is sikertelen, kérjük [használj egy másik exploitot](get-started).
 
 #### II. rész - Az exploit kiváltása
 
-1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
+1. Navigálj az `Internet` -> `User Agreements` vagy `Agreement/Contact` opcióhoz.
 1. Válaszd a `Yes`-t.
 1. Kattints a `Next`-re.
     + A következő képpel kell üdvözöljön:
 
     ![](/images/exploits/str2hax/EULA.png)
 
-    + If you get the normal User Agreements, your ISP blocks the use of custom DNS. Try another connection, or [use another exploit](get-started).
+    + Ha a nomrál User Agreements-et kapod, az ISP-d blokkolja az egyedi DNS-t. Try another connection, or [use another exploit](get-started).
 
 1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
