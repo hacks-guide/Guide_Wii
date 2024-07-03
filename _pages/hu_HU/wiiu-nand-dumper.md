@@ -4,12 +4,12 @@ title: vWii Modding útmutató
 
 {% include toc title="Tartalomjegyzék" %}
 
-This page will guide you through the process of modding your vWii without modding the Wii U side. Wii U custom firmware will be used for this guide, however, nothing will actually be installed onto the Wii U side itself. You can also visit the [legacy exploits](legacy-exploits) page for more exploits that work on the vWii.
+Ez az útmutató végig vezet a vWii moddolásán a Wii U oldal móddolása nélkül. A Wii U egyéni firmware-ét fogjuk használni ehhez az útmutatóhoz, azonban magára a Wii U oldalra nem lesz telepítve semmi. A [legacy exploits](legacy-exploits) oldalra is ellátogathatsz, ahol további, a vWii-n működő exploitokat találsz.
 
 Ha a Wii U oldal már moddolt, folytasd a [Homebrew Channel telepítésével](vwii-homebrew-channel)
 {: .notice--info}
 
-Az SD kártyád FAT32 kell formázva legyen. If your SD Card is not formatted to FAT32, use [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) with 32k (32768) Allocation unit size to format it. **Do not** label the SD Card as `wiiu` or it will cause issues with homebrew.
+Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32 formátumra lett formázva, használd a GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)-ot 32k (32768) allokációs egységmérettel a formázáshoz. **Ne** címkézd fel az SD kártyát `wiiu`-ként, különben problémákat okoz a homebrew-val.
 {: .notice--info}
 
 ### Követelmények
