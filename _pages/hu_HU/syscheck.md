@@ -4,7 +4,7 @@ title: "SysCheck"
 
 {% include toc title="Tartalomjegyzék" %}
 
-A SysCheck lists all the IOS and cIOS that are on your Wii, along with some information about each of them. It also gives you some other useful information. When you have IOS-related problems on your Wii, someone might ask you to do a SysCheck.
+A SysCheck felsorolja a Wii-n található összes IOS-t és cIOS-t, valamint néhány információt mindegyikről. Továbbá ad néhány hasznos információt. Ha IOS-kapcoslatos problémád van a Wii-jal, valaki megkérhet rá, hogy futtass Syscheck-et.
 
 ### Követelmények
 
@@ -14,18 +14,18 @@ A SysCheck lists all the IOS and cIOS that are on your Wii, along with some info
 ### Útmutató
 #### I. rész - Letöltés/telepítés
 
-1. Extract SysCheck ModMii Edition to your SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii, and launch SysCheck ModMii Edition from the Homebrew Channel.
+1. Csomagold ki a SysCheck ModMii Editiont az SD-kártyádra vagy USB-meghajtódra.
+1. Csatlakoztasd az SD kártyád vagy USB-drive-od a Wii-odhoz, majd indítsd el a SysCheck ModMii Edition-t a Homebrew Channel-ről.
 
-#### Section II - Performing a SysCheck
+#### II. rész - A SysCheck futtatása
 
-1. Wait for the program to get some information about your Wii.
-1. When "This IOS will be tested (Please select)" is shown on the screen, press A.
+1. Várj amíg a program beszerez néhány információt a Wii-odról.
+1. Amikor megjelenik a "This IOS will be tested (Please select)" szöveg, nyomj A gombot.
 
     ![](/images/homebrew/syscheck/syscheck_chooseios.png)
 
-1. Wait for the program to get some information about your IOS.
-1. After it finishes, press the `A` Button if you want to view the log.
+1. Várj amíg a program beszerez néhány információt a ISO-odról.
+1. Miután befejezte nyomj `A` gombot, ha meg szeretnéd tekinteni a logot.
 
     ![](/images/homebrew/syscheck/syscheck_success.png)
 
