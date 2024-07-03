@@ -19,7 +19,7 @@ ModMii is an all-in-one Wii hacking tool for Windows created by XFlak that has v
 + Download homebrew
 + And more!
 
-### ModMii Overview
+### ModMii áttekintés
 
 There are two different ways to use ModMii. There is ModMii Classic, which uses a command line interface, but has all of the features available to the program. ModMii Skin has a graphical user interface, on the other hand, but has less options available to the user. If you're looking to simply mod your Wii for the first time, ModMii Skin should suffice. Otherwise, we reccomend using ModMii Classic where possible. <br> The chart below will help you determine what can be done in either interface.
 
