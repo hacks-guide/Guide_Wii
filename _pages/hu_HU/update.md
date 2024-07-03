@@ -4,9 +4,9 @@ title: "A Wii Menu frissítése v4.3-ra"
 
 {% include toc title="Tartalomjegyzék" %}
 
-This tutorial will explain how to update your Wii Menu to version 4.3, if you have already homebrewed your Wii.
+Ez a útmutató elmagyarázza, hogyan frissítheted a Wii menüt a 4.3-as verzióra, ha már homebrew-olt a Wii-od.
 
-It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.3.
+Sokkal biztonságosabb a [ModMii](modmii) (csak Windows) segítségével frissíteni a Wii-t a 4.3-as verzióra.
 {: .notice--warning}
 
 ### Követelmények
@@ -21,16 +21,16 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 #### I. rész - Letöltés
 
-Your Wii must be modded in order to perform this. If it isn't, then it's best to follow [the guide](get-started) first.
+A Wii-odnak moddoltnak kell lennie ennek a végrehajtásához. Ha még nem az, kövesd ezt az [útmutatót](get-started) először.
 {: .notice--info}
 
-1. Extract the .zip file for NUS Downloader Wii and open the application.
-1. Go to `Database...` > `System` > `0000000100000002 - System Menu` and select the version corresponding to your region as shown in the table below.
-1. Make sure `Pack WAD` is checked.
-1. Press `Start NUS Download!`.
-1. Open the `titles` -> `0000000100000002` -> (Wii Menu version) and copy the .wad file to a folder called `wad` on your SD Card or USB drive.
-1. Repeat steps 2-5 with `IOS` -> `000000010000003A` -> `Latest Version` and `IOS` -> `0000000100000050` -> `Latest Version`.
-1. After you have copied all 3 `.wad` files, eject your SD card/USB drive from your PC and put it back into your Wii.
+1. Csomagold ki a .zip fájlját a NUS Downloader Wii-nak és nyisd meg az alkalmazást.
+1. Navigálj a `Database...` > `System` > `0000000100000002 - System Menu` opcióhoz és válaszd a verziót, ami kapcsolódik a régiódhoz az alábbi táblázatból.
+1. Biztosítsd, hogy a `Pack WAD` be legyen pipálva.
+1. Nyomd meg a `Start NUS Download!`-ot.
+1. Nyisd meg a `titles` -> `0000000100000002` -> (Wii Menu verzió) könyvtárat és másold a .wad fájtl egy `wad` nevű mappába az SD kártyádon/USB drive-on.
+1. Ismételd meg a 2-5 lépéseket az `IOS` -> `000000010000003A` -> `Latest Version` és `IOS` -> `0000000100000050` -> `Latest Version` útvonalakon.
+1. Ha felmásoltad mind a 3 `.wad` fájlt, add ki az SD kártyád USB drive-od a PC-ből és tedd vissza a Wii-odba.
 
 | Regió  | Wii Menu verzió |
 | ------ | --------------- |
@@ -41,15 +41,15 @@ Your Wii must be modded in order to perform this. If it isn't, then it's best to
 
 #### II. rész – Telepítés
 
-1. Kapcsold ki a konzolt! Start holding RESET, then turn it back on.
-1. In the Priiloader menu, select `Homebrew Channel`.
-    * If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader is required for this guide.
+1. Kapcsold ki a konzolt! Tartsd nyomva a RESET gombot és kapcsold be.
+1. A Priiloader menu-be nválaszd a `Homebrew Channel`-t.
+    * Ha a Priiloader menu nem jelenik meg, [telepítsd azonnal](priiloader). A Priiloader szükséges ehhez az útmutatóhoz.
 1. Idítsd el a YAWM ModMii Edition-t.
 1. Válaszd ki az SD kártyád vagy az USD drive-od.
-1. Press `+` to one the IOS80 and IOS58 WADs to highlight them, then press A twice to install.
-1. Navigate to the Wii Menu WAD and press A twice to install it.
-1. When prompted to retain Priiloader, press A to confirm.
-1. After they are successfully installed, press the HOME Button to exit back to the Homebrew Channel.
+1. Nyomdj `+` jelet az IOS80 és az IOS58 WAD-ra, hogy kijelöld őket, nyomj A gombot kétszer a telepítésükhöz.
+1. Navigálj a Wii Menu WAD-hoz és nyomj A gombot kétszer a telepítéshez.
+1. Amikor a Priiloader megtartására kér, nyomd meg az A gombot a megerősítéshez.
+1. A sikeres telepítést követően a nyomd meg a HOME gombot, hogy kilépj a Homebrew Channel-hez.
 
 [Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
 {: .notice--info}
