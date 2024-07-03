@@ -14,7 +14,7 @@ NE FOLYTASD EZT AZ ÚTMUTATÓt, HA NINCS MEGFELELŐ BRiCKELÉS VÉDELMED, KÜLÖ
 Ez z útmutató nem működik a Wii mini-vel. Ne próbáld meg Wii mini-vel használni ezt az útmutatót, mert [brickelődést](bricks#theme-brick) fog okozni.
 {: .notice--warning}
 
-csm-installer has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
+A csm-installer tartalmaz beépített biztonsági funkciókat, hogy megakadályozza, hogy hibás vagy sérült Wii Menu témákat telepíts, így javasolt, hogy ezt használd más téma telepítő homebrew helyett.
 {: .notice--warning}
 
 Do not use any other version of ThemeMii than the one linked here, as ThemeMii Mod allows you to make a theme for Wii Menu version 4.3, other versions may not.
@@ -36,7 +36,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 #### Követelmények
 
 * Egy SD kártya vagy USB drive
-* A Windows PC with an Internet connection
+* Egy internetkapcsolattal rendelkező Windows PC
 * [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
@@ -75,7 +75,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * Egy moddolt Wii
 * Egy SD kártya vagy USB drive
 * [WiiFlow Lite](wii-loaders#wiiflow-lite)
-* A Linux/macOS/Windows PC with an Internet connection
+* Egy Windows/macOS/Linux számítógép internet kapcsolattal
 * [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
 #### Útmutató
