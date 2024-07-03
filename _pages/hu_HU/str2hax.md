@@ -77,14 +77,14 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
     ![](/images/exploits/str2hax/EULA.png)
 
-    + Ha a nomrál User Agreements-et kapod, az ISP-d blokkolja az egyedi DNS-t. Try another connection, or [use another exploit](get-started).
+    + Ha a nomrál User Agreements-et kapod, az ISP-d blokkolja az egyedi DNS-t. Próbálj meg egy másik kapcsolatot vagy [használj egy másik exploit-ot](get-started).
 
-1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
+1. Adj az exploitnak 1-2 percet a letöltésre (és ne nyomd meg az `I ACCEPT`/`I DO NOT ACCEPT`-et).
 1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
 
     ![](/images/hackmii/scam.png)
 
-    + If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+    + Ha a HackMii Installer nem tölt be 2 perc után vagy hibát kapsz, mint `Hanging.` vagy `ERROR! if_config (ret = ...)`, kérjük indítsd újra a Wii-od és próbáld újra.
 
 [Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 {: .notice--info}
