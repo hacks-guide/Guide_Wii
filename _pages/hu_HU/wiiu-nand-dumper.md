@@ -6,10 +6,10 @@ title: vWii Modding útmutató
 
 This page will guide you through the process of modding your vWii without modding the Wii U side. Wii U custom firmware will be used for this guide, however, nothing will actually be installed onto the Wii U side itself. You can also visit the [legacy exploits](legacy-exploits) page for more exploits that work on the vWii.
 
-If your Wii U side is already modded, proceed to [Installing the Homebrew Channel](vwii-homebrew-channel)
+Ha a Wii U oldal már moddolt, folytasd a [Homebrew Channel telepítésével](vwii-homebrew-channel)
 {: .notice--info}
 
-Your SD Card will need to be formatted as FAT32. If your SD Card is not formatted to FAT32, use [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) with 32k (32768) Allocation unit size to format it. **Do not** label the SD Card as `wiiu` or it will cause issues with homebrew.
+Az SD kártyád FAT32 kell formázva legyen. If your SD Card is not formatted to FAT32, use [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) with 32k (32768) Allocation unit size to format it. **Do not** label the SD Card as `wiiu` or it will cause issues with homebrew.
 {: .notice--info}
 
 ### Követelmények
@@ -70,9 +70,9 @@ Biztosítsd, hogy a Wii U-dnak legyen internet hozzáférése ennél a lépésn�
 {: .notice--info}
 
 1. Vedd ki az SD kártyád a számítógépedből, majd dugd vissza a Wii U konzolodba.
-2. Launch the Internet Browser and navigate to the website `wiiuexploit.xyz`.
-3. Click on `Run Exploit!` and hold the B button until you see a screen that says `Please choose your payload:`, this will be necessary for the next steps.
-   - If your Wii U gets stuck on a white or otherwise frozen screen, wait a few seconds. If nothing happens, reboot the console, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again.
+2. Indítsd el az Internet Browser-t és navogált a `wiiuexploit.xyz` weboldalra.
+3. Kattints a `Run Exploit!`-ra és tartsd nyomva a B gombot, amíg az nem mondja a képernyő, hogy `Please choose your payload:`, ez szükséges lesz a következő lépésekhez.
+   - Ha a Wii U-d megál egy fehér vagy más módon lefagyott képernyőnél, várj pár másodpercet. Ha semmi nem történi, bootold újra a konzolt, [és töröld a böngésző mentés adatát](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history), majd próbáld újra.
    - Ha az EnvironmentLoader-t látod, nem tartottad elég hosszan nyomva a B gombot. Próbáld újra.
 
 #### III. rész - NAND mentés
@@ -87,7 +87,7 @@ Ha valami rosszul sül el a későbbi folyamatban és a vWii brickelődik, a vis
    - Dump SEEPROM: **optional**
 2. Nyomj A gombot a dumpolás elkezdéséhez.
 3. Ha a folyamat végzett, kapcsold ki a Wii U-dat, vedd ki az SD kártyád a Wii U-ból és csatlakoztasd a PC-dhez.
-4. To make sure you don't lose the files, copy the `slccmpt.bin` and `otp.bin` files (and if you chose to go with a full backup, `seeprom.bin`, `slc.bin`, and `every mlc.bin.part` file) to your computer.
+4. Hogy biztosan ne veszd el a fájlokat, másold az `slccmpt.bin` és `otp.bin` fájlokat (és ha teljes mentést választottál a `seeprom.bin`, `slc.bin`, és `minden mlc.bin.part` fájlt) a számítógépedre.
 5. Töröld a fájloat az SD kártyádról hely felszabadításához.
 6. Vedd ki az SD kártyád a számítógépedből, majd dugd vissza a Wii U konzolodba.
 
