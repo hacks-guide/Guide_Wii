@@ -31,7 +31,7 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 
     ![](/images/usb-loaders/usbloadergx-ui.png)
 
-### Game Directory Structure
+### Játék könyvtár struktúra
 
 Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if your storage device is formatted as FAT32 and is over 4 GB. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game directory structure correctly.
 
@@ -58,7 +58,7 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 #### Quick Start Guide
 
-##### General
+##### Általános
 
 + WiiFlow by default is set to only find games on the SD card. This can be changed by going to `Settings > Startup Settings` to then turn off `Mount SD Only`.
 + You can toggle the current view in WiiFlow between plugins, games, homebrew, and Wii channels by clicking the button to the left of `Home`, on the bottom right.
@@ -105,7 +105,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 #### Quick Start Guide
 
-##### General
+##### Általános
 
 + If USB Loader GX says "Waiting for HDD..." with a 20 second countdown, it is very likely that it cannot detect your USB device. Try to exit out of the app, ensure your USB device is plugged into the bottom port if Wii is placed horizontally, or the port closest to the edge when the Wii is placed vertically. It may also be formatted incorrectly. Ensure that your USB drive is formatted to FAT32, with the MBR partition table, and 32kb (32768 bytes) allocation unit size/cluster size.
 + You can press the 1 Button on your Wii Remote to open up a dialog to download game covers and artwork from [GameTDB](https://gametdb.com/). It might take a while to download the game covers and artwork, depending the amount of games you have.
