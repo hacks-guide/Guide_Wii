@@ -8,10 +8,10 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 ### Wii Menu témázás
 
-DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) (Wii only) AND [PRIILOADER](priiloader)!
+NE FOLYTASD EZT AZ ÚTMUTATÓt, HA NINCS MEGFELELŐ BRiCKELÉS VÉDELMED, KÜLÖNÖSEN [BOOTMII](bootmii) (csak Wii) ÉS [PRIILOADER](priiloader)!
 {: .notice--danger}
 
-This tutorial does not work on the Wii mini. Do not attempt this tutorial on the Wii mini or it will cause a [brick](bricks#theme-brick).
+Ez z útmutató nem működik a Wii mini-vel. Ne próbáld meg Wii mini-vel használni ezt az útmutatót, mert [brickelődést](bricks#theme-brick) fog okozni.
 {: .notice--warning}
 
 csm-installer has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
