@@ -48,7 +48,7 @@ See [this](bricks) page.
 
 ## Tároló eszköz GYIK
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+A [BlueBomb](bluebomb), [str2hax](str2hax) vagy [FlashHax](flashhax) exploitok esetében nincs szükséged SD-kártyára a Wii feltöréséhez; a homebrew és egyéb feladatok elvégzéséhez mindenképpen ajánlott egyet beszerezni.
 {: .notice--info}
 
 FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br> For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS was a previously used file system for Wii game backups (not to be confused with WBFS files) - today, it is outdated and should not be used.
@@ -60,23 +60,23 @@ For stock Wii Menu versions lower than 4.0, a limitation in the Wii system softw
 For USB devices, flash drives have a high rate of not working on Wii consoles. Instead, it is recommended to use a USB hard drive or solid state drive.
 {: .notice--warning}
 
-### General Storage Guidelines
+### Általános tárolási irányelvek
 
-When considering buying or using an SD card or USB device, it is worth considering the things that you will be using either storage medium for. Different uses can take up varying amounts of space, some common examples of which are shown below:
+Amikor SD-kártya vagy USB-eszköz vásárlását vagy használatát fontolgatod, érdemes átgondolnod, hogy mire fogod használni a tárolóeszközt. A különböző felhasználási módok különböző mennyiségű helyet foglalhatnak el, az alábbiakban néhány gyakori példát mutatunk be:
 
-+ Wii Backups: The largest Wii games (dual-layer DVD) are up to sizes of 8.5GB, more normal games are closer to sizes of 4.7GB or lower. The average user for a Wii backup device would probably want 128GB or more of space.
-+ GameCube Backups: The largest GameCube games reach sizes of up to 1.3GB. ISO sizes are normally this size regardless of the game, but can be considerably lower if NKIT is used as a format instead. The average user for a GameCube backup device would probably want 64GB or more of space.
-+ General Emulation: There are a wide variety of emulators available on the Wii. Because the size of different game ROMs differ dramatically, the average user wanting to emulate games would probably want 32GB or more of space.
-+ General Homebrew: For homebrew, the average user would want 2GB or more of space.
-+ NAND Backups: For backing up your NAND with BootMii, the average user would need a minimum of 512MB of free space, but sizes of 1GB or more are recommended.
-+ Bare minimum, exploit only: The minimum amount of space to run an SD-card compatible exploit on a Wii is 128MB.
++ Wii biztonsági mentések: A legnagyobb Wii-játékok (kétrétegű DVD) akár 8,5 GB-os méretűek is lehetnek, a szokásosabb játékok inkább a 4,7 GB-os vagy annál kisebb mérethez állnak közelebb. Az átlagos felhasználó egy Wii biztonsági másolatot készítő eszköz esetében valószínűleg 128 Gb vagy annál nagyobb tárhelyet szeretne.
++ GameCube biztonsági mentések: A legnagyobb GameCube-játékok mérete eléri az 1,3 Gb-ot. Az ISO-méretek általában a játéktól függetlenül ekkora méretűek, de lényegesen kisebbek lehetnek, ha helyette NKIT formátumot használnak. Az átlagos felhasználó egy GameCube biztonsági mentést készítő eszköz esetében valószínűleg 64 Gb vagy annál nagyobb tárhelyet szeretne.
++ Általános emuláció: A Wii-n sokféle emulátor áll rendelkezésre. Mivel a különböző játék ROM-ok mérete drámaian eltérő, az átlagos felhasználónak, aki játékokat szeretne emulálni, valószínűleg 32 GB vagy annál nagyobb tárhelyre lenne szüksége.
++ Általános homebrew: A homebrew-hoz az átlagos felhasználónak 2 Gb vagy annál nagyobb tárhelyre van szüksége.
++ NAND biztonsági mentések: A BootMii-vel történő NAND biztonsági mentéshez az átlagos felhasználónak legalább 512 MB szabad helyre van szüksége, de 1 GB vagy annál nagyobb méret ajánlott.
++ Puszta minimum, csak exploit: Az SD-kártyával kompatibilis exploit futtatásához a Wii-n legalább 128 MB hely szükséges.
 
 ### SD kártyák vásárlása
 
-SD cards 2TB or larger currently do not exist, anyone attempting to sell you one is trying to rip you off.
+2 TB-os vagy nagyobb SD-kártyák jelenleg nem léteznek, bárki, aki ilyet próbál eladni neked, megpróbálja átverni Önt.
 {: .notice--danger}
 
-When buying SD cards, it is generally recommended that you stick to well-known brands the more expensive and larger capacity that you get. While you can buy a generic 2GB SD card and most likely be safe, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-20 USD for 256GB and below, whereas 512GB is around 40 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be wary when buying storage on eBay.
+SD-kártyák vásárlásakor általában ajánlott, hogy minél drágább és nagyobb kapacitású, annál inkább ragaszkodjon a jól ismert márkákhoz. Míg egy általános 2 GB-os SD-kártyát vásárolhatsz, és valószínűleg biztonságban vagy, ugyanez nem mondható el egy 512 GB-os SD-kártyáról. Az SD-kártyák általános jelenlegi árazása a 256 GB-os és az alatti kártyák esetében 10-20 USD körül van, míg az 512 GB-os kártyák ára 40 USD körül van. Ha az Amazonról vásárolsz, győződj meg róla, hogy a kártya vagy az `Sold by/Shipped by Amazon` vagy `Sold by [brand], Shipped by Amazon`. Légy óvatos, ha az eBay-en vásárolsz merevlemezt.
 
 Ajánlott márkák:
 + Samsung (EVO Select, EVO Plus, PRO Plus)
@@ -94,10 +94,10 @@ A merevlemezek méretezését tekintve a 2,5 hüvelykes merevlemezeknek jól kel
 Ami a vásárlási lehetőségeket illeti, ez nagyrészt három különböző forgatókönyv határozható meg:
 
 + Új külső merevlemez vásárlása a semmiből: Az új külső meghajtók vadonatújként körülbelül 60 USD a 2TB, 50 USD az 1TB, körülbelül 30 USD az 1TB-nél kisebb méreteknél. Bármit is teszel, próbálj meg a fent felsorolt három jelenlegi gyártó márkánál maradni, de ne feledd, hogy az 1 Tb-nál kisebb méretű meghajtók esetében a kínálat gyér.
-+ Új merevlemez és új ház vásárlása: Az új merevlemezek decens módon olcsóbbak, mintha előre gyártott merevlemezt vásárolnál, és az új merevlemez elhelyezéséhez vásárolhatsz házakat is. 2.5 inch enclosures are normally powerable off of USB alone, while 3.5 inch enclosures almost always come with an external adapter for power. An example price is buying a 500GB Western Digital drive and a 2.5 inch drive enclosure off of Amazon - all in all, about 30 USD.
-+ Buying an enclosure for an already existing hard drive: If you already have a hard drive laying around, you can put it in an enclosure and use it for your Wii. Enclosures can be found for prices ranging between 10 to 20 USD off of Amazon, as long as you have a drive to supply it with.
++ Új merevlemez és új ház vásárlása: Az új merevlemezek decens módon olcsóbbak, mintha előre gyártott merevlemezt vásárolnál, és az új merevlemez elhelyezéséhez vásárolhatsz házakat is. A 2,5 hüvelykes házak általában csak USB-ről táplálhatóak, míg a 3,5 hüvelykes házakhoz szinte mindig külső adapter is jár a tápellátáshoz. Egy példa ára egy 500 GB-os Western Digital meghajtó és egy 2,5 hüvelykes meghajtóház vásárlása az Amazonról - összességében körülbelül 30 USD.
++ Burkolat vásárlása egy már meglévő merevlemezhez: Ha már van egy merevlemeze, akkor azt egy házba helyezheti, és használhatja a Wii számára. Az Amazonon 10 és 20 USD közötti áron találhat burkolatokat, feltéve, hogy van egy meghajtó, amellyel elláthatja.
 
 ### USB eszközök - SSD-k vásárlása
 
-For the purpose of using a drive with a Wii, external SSDs are often more expensive than conventional hard drives for no visible gain in speed on a Wii (the console only supports up to USB 2.0 data speeds). If you would like to buy one or already have one lying around, it's an option, but generally it's recommended to just go for a hard drive if you don't already have one.
+Ha egy meghajtót a Wii-vel akarsz használni, a külső SSD-k gyakran drágábbak, mint a hagyományos merevlemezek, de a Wii-n nem tapasztalható sebességnövekedés (a konzol csak USB 2.0 adatsebességet támogat). Ha szeretnél vásárolni egyet, vagy már van egy, akkor ez is egy lehetőség, de általában ajánlott merevlemezt választani, ha még nincs.
 {: .notice--warning}
