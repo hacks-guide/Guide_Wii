@@ -32,7 +32,7 @@ Here are some common examples of what homebrew can do for your Wii:
 + Back up and restore your [Wii](wii-saves) and [GameCube](gcsaves) save files
 + Restore online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
 
-### What does the guide install?
+### Mit telepít ez az útmutató?
 
 This guide aims to do the following, including optional sections:
 
@@ -41,7 +41,7 @@ This guide aims to do the following, including optional sections:
 + Make a backup of critical system files
 + A Priiloader telepítése
 + Az Open Shop Channel telepítése
-+ Recommended homebrew to use on your Wii
++ Ajánlott Homebrew-ok a Wii-odra
 + Restore functionality to WiiConnect24 and Nintendo Wi-Fi Connection
 
 ### What should I know before starting?
@@ -55,17 +55,17 @@ This guide aims to do the following, including optional sections:
 
 ### Kész?
 
-The guide has nine sections in total. These are listed below:
+Az útmutató összese 9 fejezettel rendelkezik. Ezek az alábbiak:
 
-1. Choosing and using an exploit (REQUIRED)
-1. Installing the Homebrew Channel and BootMii (REQUIRED)
-1. Making a NAND backup with BootMii (REQUIRED)
-1. Installing Priiloader (REQUIRED)
-1. Installing the Open Shop Channel (RECOMMENDED)
-1. Installing cIOS (RECOMMENDED)
-1. Discovering Recommended Homebrew (RECOMMENDED)
-1. Regaining WiiConnect24 Functionality (OPTIONAL)
-1. Regaining Nintendo Wi-Fi Connection Functionality (OPTIONAL)
+1. Exploit kiválasztása és használata (KÖTELEZŐ)
+1. A Homebrew Channel és a BootMii telepítése (KÖTELEZŐ)
+1. NAND mentés készítése a BootMii-vel (KÖTELEZŐ)
+1. A Priiloader telepítése (KÖTELEZŐ)
+1. Az Open Shop Channel telepítése (AJÁNLOTT)
+1. A cIOS telepítése (AJÁNLOTT)
+1. Az ajánlott Homebrew-ok felfedezése (AJÁNLOTT)
+1. A WiiConnect24 funkcionalitás visszaszerzése (OPCIONÁLIS)
+1. A Nintendo Wi-Fi Connection funkcionalitás visszaszerzése (OPCIONÁLIS)
 
-Continue to [Get Started](get-started)
+Folytatás a [Kezdeti lépésekkel](get-started)
 {: .notice--info}

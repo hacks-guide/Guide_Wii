@@ -4,62 +4,62 @@ title: "Redirecting..."
 
 {% include toc title="Tabel de Conținut" %}
 
-For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
+Pentru a primi ajutor (în Engleză) pentru Open Shop Channel, alătură-te [serverului Open Shop Channel pe Discord](https://discord.gg/osc).
 {: .notice--primary}
 
-The [Open Shop Channel](https://oscwii.org/) is a homebrew app repository created by dhtdht020, and is currently the preferred way to download homebrew.
+[Open Shop Channel](https://oscwii.org/) este un depozit de aplicații homebrew creată de dhtdht020 și este în prezent metoda preferată de a descărca aplicații homebrew.
 
-There are two methods to use the Open Shop Channel: on your Wii through Homebrew Browser, or outside of your Wii through OSCDL.
+Există două metode de a folosi Open Shop Channel: pe consola ta Wii prin Homebrew Browser sau în afară consolei Wii folosind OSCDL.
 
-### Method I - Homebrew Browser
+### Metoda I - Homebrew Browser
 
 #### Instrumente necesare
 
-+ A homebrewed Wii with an active Internet connection
++ Un Wii cu homebrew instalat și cu o conexiune activă la Internet
 + Un card SD sau o unitate USB
 + [Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
 #### Instrucțiuni
 
-1. Download the recommended `.zip` file from the Open Shop Channel website.
+1. Descarcă fișierul `.zip` recomandat de pe site-ul Open Shop Channel.
 
     ![](/images/osc/zip-download-HBB.png)
 
-1. Extract the `apps` folder in the archive to the root of your SD card or USB drive. Optionally, the archive also comes with a guide on how to use the Homebrew Browser.
-1. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. Homebrew Browser should now display.
+1. Extrage dosarul `apps` din arhivă în rădăcina cardului tău SD sau unității tale USB. Opțional, arhiva conține de asemenea un ghid despre cum să folosești Homebrew Browser.
+1. Introdu cardul SD sau unitatea USB în Wii și intră în Homebrew Channel. Homebrew Browser ar trebui să apară.
 
-### Method II - OSCDL
+### Metoda II - OSCDL
 
 #### Instrumente necesare
 
-+ A Windows/macOS/Linux computer with an internet connection
++ Un calculator Windows/macOS/Linux cu o conexiune la Internet
 + Un card SD sau o unitate USB
-+ The latest version of [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)
++ Ultima versiune de [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)
 
-#### Instructions for Windows
+#### Instrucțiuni pentru Windows
 
-1. Download `oscdl-installer.exe` and run the installer. Optionally, you may instead download `oscdl-standalone.exe`, which does not have to be installed and instead runs as a portable executable.
+1. Descarcă `oscdl-installer.exe` și rulează instalatorul. Opțional, poți în schimb să descarci `oscdl-standalone.exe`, care nu trebuie să fie instalat și rulează doar ca un executabil portabil.
 
     ![](/images/osc/exe-download-OSCDL.png)
 
-1. If you get a User Account Control pop-up that asks whether or not you would like the program to make changes to your PC, select Yes. Open Shop Channel is a safe application.
-1. Let the installer run, and then launch OSCDL once the process is finished.
+1. Dacă primești o fereastră User Account Control care te întreabă dacă vrei sau nu ca programul să facă schimbări în calculatorul tău, alege Da. Open Shop Channel este o aplicație sigură.
+1. Lasă instalatorul să ruleze iar apoi deschide OSCDL odată ce procesul este finalizat.
 
     ![](/images/osc/install-finished-OSCDL.png)
 
-1. Find an application that you would like to get, and press the Download button. Alternatively, you can send the app directly to your Wii (this requires that your computer and Wii be on the same network).
+1. Găsește o aplicație pe care ai vrea să o primești și apasă pe butonul Download. Altfel poți trimite aplicația direct către consola ta Wii (acest lucru necesită calculatorul și consola să fie conectate pe aceeași rețea).
 
     ![](/images/osc/app-download-OSCDL.png)
 
-1. A `.zip` file containing your app should download to wherever you specified the directory to be. Extract the `apps` folder in this archive to the root of your SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. Your downloaded piece of homebrew should now display.
+1. Un fișier `.zip` care conține aplicația ta ar trebui să se descarce unde ai specificat că vrei să fie locația. Extrage dosarul `apps` din această arhivă în rădăcina cardului tău SD sau unității tale USB.
+1. Introdu cardul SD sau unitatea USB în Wii și intră în Homebrew Channel. Aplicația homebrew descărcata ar trebui să fie afișată acum.
 
-#### Instructions for macOS/Linux
+#### Instrucţiuni pentru macOS/Linux
 
-UNDER CONSTRUCTION
+ÎN CONSTRUCȚIE
 
 Continue to [Recommended Homebrew](recommended-homebrew)<br> This guide outlines selections of homebrew that we think are useful to have; these range from utilities to emulators and more.
 {: .notice--info}
 
-[Return to site index](site-navigation)<br>
+[Întoarce-te la cuprinsul site-ului](site-navigation)<br>
 {: .notice--info}

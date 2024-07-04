@@ -4,35 +4,35 @@ title: vWii Modding útmutató
 
 {% include toc title="Tartalomjegyzék" %}
 
-This page will guide you through the process of modding your vWii without modding the Wii U side. Wii U custom firmware will be used for this guide, however, nothing will actually be installed onto the Wii U side itself. You can also visit the [legacy exploits](legacy-exploits) page for more exploits that work on the vWii.
+Ez az útmutató végig vezet a vWii moddolásán a Wii U oldal móddolása nélkül. A Wii U egyéni firmware-ét fogjuk használni ehhez az útmutatóhoz, azonban magára a Wii U oldalra nem lesz telepítve semmi. A [legacy exploits](legacy-exploits) oldalra is ellátogathatsz, ahol további, a vWii-n működő exploitokat találsz.
 
-If your Wii U side is already modded, proceed to [Installing the Homebrew Channel](vwii-homebrew-channel)
+Ha a Wii U oldal már moddolt, folytasd a [Homebrew Channel telepítésével](vwii-homebrew-channel)
 {: .notice--info}
 
-Your SD Card will need to be formatted as FAT32. If your SD Card is not formatted to FAT32, use [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) with 32k (32768) Allocation unit size to format it. **Do not** label the SD Card as `wiiu` or it will cause issues with homebrew.
+Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32 formátumra lett formázva, használd a GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)-ot 32k (32768) allokációs egységmérettel a formázáshoz. **Ne** címkézd fel az SD kártyát `wiiu`-ként, különben problémákat okoz a homebrew-val.
 {: .notice--info}
 
 ### Követelmények
 
-- The latest files from [Aroma for your café](https://aroma.foryour.cafe/).
-  - Review the preliminal steps, then check all 4 boxes.
-  - Double check that nanddumper is selected.
-  - Click on `Download Payloads`.
-  - Click on `Download Base Aroma`.
+- A legutolsó fájlok az [Aroma for your café](https://aroma.foryour.cafe/) oldalról.
+  - Olvasd el a megelőző lépéseket, majd pipáld be mind a négy dobozt.
+  - Duplán ellenőrizd, hogy a nanddumper van kiválasztva.
+  - Kattints a `Download Payloads`-ra.
+  - Kattints a `Download Base Aroma`-ra.
 - A [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller) legutolsó kiadása.
 
 ### Útmutató
 
-#### Section I - SD Preparations
+#### I. rész - SD kártya előkészítés
 
 1. Helyezd be a Wii U-d SD kártyáját a PC-dbe.
-2. Copy the contents of the downloaded Aroma _`.zip`_ files to the root of your SD Card.
+2. Másold a tartalmát a letöltött Aroma _`.zip`_ fájlnak az SD kártyád gyökerébe.
 3. Másold a tartalmát a `CompatTitleInstaller.zip` fájlnak az SD kártyád gyökerébe.
 
 SD kártya kiosztás
 
 <details id="Aroma Layout" class="notice--info" markdown="1">
-<summary><a>Click here to show the final SD Card layout.</a></summary>
+<summary><a>Kattints ide végső SD kártya kiosztás megtekintéséhez.</a></summary>
 
 ```
 💾sd:
@@ -64,32 +64,32 @@ SD kártya kiosztás
 
 </details>
 
-#### Section II - Launching the Exploit
+#### II. rész - Az exploit indítása
 
-Make sure your Wii U has internet access for this step.
+Biztosítsd, hogy a Wii U-dnak legyen internet hozzáférése ennél a lépésnél.
 {: .notice--info}
 
-1. Take the SD Card out of your computer and plug it into your Wii U console.
-2. Launch the Internet Browser and navigate to the website `wiiuexploit.xyz`.
-3. Click on `Run Exploit!` and hold the B button until you see a screen that says `Please choose your payload:`, this will be necessary for the next steps.
-   - If your Wii U gets stuck on a white or otherwise frozen screen, wait a few seconds. If nothing happens, reboot the console, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again.
-   - If you see the EnvironmentLoader, you did not hold down B long enough. Próbáld újra.
+1. Vedd ki az SD kártyád a számítógépedből, majd dugd vissza a Wii U konzolodba.
+2. Indítsd el az Internet Browser-t és navogált a `wiiuexploit.xyz` weboldalra.
+3. Kattints a `Run Exploit!`-ra és tartsd nyomva a B gombot, amíg az nem mondja a képernyő, hogy `Please choose your payload:`, ez szükséges lesz a következő lépésekhez.
+   - Ha a Wii U-d megál egy fehér vagy más módon lefagyott képernyőnél, várj pár másodpercet. Ha semmi nem történi, bootold újra a konzolt, [és töröld a böngésző mentés adatát](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history), majd próbáld újra.
+   - Ha az EnvironmentLoader-t látod, nem tartottad elég hosszan nyomva a B gombot. Próbáld újra.
 
 #### III. rész - NAND mentés
 
-In case anything goes wrong in the later process and your vWii ends up bricked, restoring a previously made NAND backup can fix it.
+Ha valami rosszul sül el a későbbi folyamatban és a vWii brickelődik, a visszaállítása egy korábban készített NAND mentésből megjavítja azt.
 
-1. Use the Wii U GamePad's D-Pad to enter the following configuration:
+1. Használd a Wii U GamePad D-Pad-jét a kövtkező konfiguráció beviteléhez:
    - Dump SLC: **optional**
    - Dump SLCCMPT: **yes**
    - Dump MLC: **optional**
    - Dump OTP: **yes**
    - Dump SEEPROM: **optional**
-2. Press the A button to start the dumping process.
-3. When the process completed, power off your Wii U, take your SD Card out of the Wii U and plug it into your PC.
-4. To make sure you don't lose the files, copy the `slccmpt.bin` and `otp.bin` files (and if you chose to go with a full backup, `seeprom.bin`, `slc.bin`, and `every mlc.bin.part` file) to your computer.
-5. Delete the files from your SD Card to free up space.
-6. Take the SD Card out of your computer and plug it into your Wii U console.
+2. Nyomj A gombot a dumpolás elkezdéséhez.
+3. Ha a folyamat végzett, kapcsold ki a Wii U-dat, vedd ki az SD kártyád a Wii U-ból és csatlakoztasd a PC-dhez.
+4. Hogy biztosan ne veszd el a fájlokat, másold az `slccmpt.bin` és `otp.bin` fájlokat (és ha teljes mentést választottál a `seeprom.bin`, `slc.bin`, és `minden mlc.bin.part` fájlt) a számítógépedre.
+5. Töröld a fájloat az SD kártyádról hely felszabadításához.
+6. Vedd ki az SD kártyád a számítógépedből, majd dugd vissza a Wii U konzolodba.
 
-[Continue to installing the Homebrew Channel](vwii-homebrew-channel-no-wiiu-mods)<br>
+[Folytatás a Homebrew Channel telepítésével](vwii-homebrew-channel-no-wiiu-mods)<br>
 {: .notice--info}

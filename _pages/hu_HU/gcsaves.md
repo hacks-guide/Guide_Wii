@@ -25,32 +25,32 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Útmutató
 
-#### Downloading
+#### Letöltés
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
-1. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii and launch GCMM from the Homebrew Channel.
+1. Csomagold ki a GCMM-et, és tedd az SD-kártyán vagy USB-meghajtón lévő `apps` mappába.
+1. Helyezd a `.gci` fájlt az SD-kártya vagy USB-meghajtó gyökerében lévő `MCBACKUP` nevű mappába.
+1. Csatlakoztasaz SD-kártyát vagy az USB-meghajtót a Wii-hoz, és indítsd el a GCMM-et a Homebrew Channel-ről.
 
-#### Restoring
+#### Visszaállítás
 
-1. Insert your physical memory card into Slot A or Slot B.
-1. Select the device you want to restore from.
+1. Csatlakoztasd a fizikai memória kártyádat a Slot A-hoz vagy a Slot B-hez.
+1. Válaszd ki az eszközt, amiről helyreállítani szeretnél.
 
     ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-1. In GCMM, Press X on a GameCube controller or + on a Wii remote.
+1. A GCMM-ben nyomd meg az X gombot a GameCube kontrolleren vagy a + gombot a Wii távirányítón.
 
     ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
-1. Select the slot your memory card is in.
+1. Válaszd ki a Slot-ot amelyikben a memóriakártya található.
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. Select the save you want to restore. If you have multiple saves to restore, you can press R on the GameCube controller or 1 on the Wii remote to restore all of your saves.
+1. Válaszd ki a mentést, amit helyreállítani szeretnél. Ha több mentést szeretnél visszaállítani, akkor az összes mentés visszaállításához nyomd meg az R gombot a GameCube kontrolleren vagy az 1-et a Wii távirányítón.
 
     ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
-1. When restoration is complete, press any button to continue.
+1. Amikor a visszaállítás megtörtént, nyomj tetszőleges gombot a folytatáshoz.
 
 ## Backing Up A Save (.gci File) to an SD or USB From a Physical Memory Card
 
@@ -64,22 +64,22 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 #### Letöltés
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
-1. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii and launch GCMM from the Homebrew Channel.
+1. Csomagold ki a GCMM-et, és tedd az SD-kártyán vagy USB-meghajtón lévő `apps` mappába.
+1. Helyezd a `.gci` fájlt az SD-kártya vagy USB-meghajtó gyökerében lévő `MCBACKUP` nevű mappába.
+1. Csatlakoztasaz SD-kártyát vagy az USB-meghajtót a Wii-hoz, és indítsd el a GCMM-et a Homebrew Channel-ről.
 
 #### Mentés
 
-1. Insert your physical memory card into slot A or slot B.
-1. Select the device you want to backup to.
+1. Csatlakoztasd a fizikai memória kártyádat a Slot A-hoz vagy a Slot B-hez.
+1. Válaszd ki az eszközt, amire menteni szeretnél.
 
     ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-1. In GCMM, Press Y on a GameCube controller or - on a Wii remote.
+1. A GCMM-ben nyomd meg az Y gombot a GameCube kontrolleren vagy a - gombot a Wii távirányítón.
 
     ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
-1. Select the slot your memory card is in.
+1. Válaszd ki a Slot-ot amelyikben a memóriakártya található.
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
@@ -101,12 +101,12 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 #### Letöltés
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii and launch GCMM from the Homebrew Channel.
+1. Csomagold ki a GCMM-et, és tedd az SD-kártyán vagy USB-meghajtón lévő `apps` mappába.
+1. Csatlakoztasaz SD-kártyát vagy az USB-meghajtót a Wii-hoz, és indítsd el a GCMM-et a Homebrew Channel-ről.
 
 #### Dumping the .raw
 
-1. Insert your memory card into Slot A or Slot B.
+1. Csatlakoztasd a memória kártyádat a Slot A-hoz vagy a Slot B-hez.
 1. Select the device you want to dump to.
 
     ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
@@ -129,17 +129,17 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
 1. If you are restoring a Nintendont emulated memory card save, navigate to the `saves` folder on the root of your SD card or USB.
-1. Insert your memory card into Slot A or Slot B.
-1. Select the device you want to restore from.
+1. Csatlakoztasd a memória kártyádat a Slot A-hoz vagy a Slot B-hez.
+1. Válaszd ki az eszközt, amiről helyreállítani szeretnél.
 
     ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 1. Press L and X at the same time on GameCube controller or B and + at the same time on the Wii remote.
-1. Select the slot your memory card is in.
+1. Válaszd ki a Slot-ot amelyikben a memóriakártya található.
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. It should restore the .raw file to your memory card. When restoration is complete, press any button to continue.
+1. It should restore the .raw file to your memory card. Amikor a visszaállítás megtörtént, nyomj tetszőleges gombot a folytatáshoz.
 
 ## Transferring Saves Between 2 Physical Memory Cards
 

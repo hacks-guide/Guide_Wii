@@ -52,7 +52,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
    ![](/images/factory-reset/renamenand.png)
 
-#### Section II - Creating a Blank NAND
+#### II. rész - Üres NAND készítése
 
 1. Now that the NAND is loaded into the program, select `Content` on the toolbar and then press Format. This will initialize your BLANK NAND, not your backup NAND.
 
@@ -74,7 +74,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
    ![](/images/factory-reset/finalsteps.png)
 
-#### Section III - Verifying the NAND
+#### III. rész - A NAND ellenőrzése
 
 1. If NAND Bin Checker is not already in the same directory as Ohneschwanzenegger, copy it there now. Then, open a terminal in that directory. Run the following command: `.\nandBinCheck.exe .\blankNand.bin`. If you named the NAND something else, adjust the command accordingly. The program will then check the validity of the NAND.
 

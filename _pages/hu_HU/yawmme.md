@@ -4,7 +4,7 @@ title: "YAWM ModMii Edition"
 
 {% include toc title="Tartalomjegyzék" %}
 
-YAWM ModMii Edition is an application that can install WADs and launch homebrew applications. This tutorial will show you how to install WADs.
+A YAWM ModMii Edition egy alkalmazás, ami telepíteni tud WAD fájlokat és elindítani homebrew alkalmazásokat. Ez az útmutató az mutatja be, hogyan telepíthetsz WAD fájlokat.
 
 ### Követelmények
 * Egy SD kártya vagy pendrive
@@ -14,26 +14,26 @@ YAWM ModMii Edition is an application that can install WADs and launch homebrew 
 
 #### I. rész – Letöltés
 
-1. Download and extract the YAWM ModMii Edition `.zip` to the root of your SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii, and launch YAWM ModMii Edition from the Homebrew Channel.
+1. Töltsd le és csomagold ki a YAWM ModMii Edition `.zip` fájlt az SD kártya vagy pendrive gyökerére.
+1. Csatlakoztasd az SD kártyát vagy a pendrive-ot a Wiihez, majd indítsd el a YAWM ModMii Edition-t.
 
-#### Section II - Installing WADs
+#### II. rész – WAD-ok telepítése
 
-1. Select the source device that has the WAD file(s) you would like to install.
+1. Válaszd ki a forrás eszközt, ahol megtalálhatók a WAD fájlok, amiket telepteni szeretnél.
 
     ![](/images/homebrew/yawmME/source_device.png)
 
-1. Navigate to the folder that has the WAD files.
-    + If you have a folder named `wad`, it will be opened automatically.
+1. Navigálj a mappába ahol a WAD fájlok vannak.
+    + Ha van már `wad`, mappád, akkor automatikusan megnyílik.
 
     ![](/images/homebrew/yawmME/file_selection.png)
 
-1. Navigate to the WAD file you would like to install and press `A`.
-    + If you would like to install multiple WAD files at once, press `+` on each of them, then press `A`.
+1. Navigálj a WAD fájlhoz, amit telepteni szeretnél, majd nyomj `A` gombot.
+    + Ha szeretnél több WAD fájl telepíteni egyszerre, nyomj `+`-t mindegyiken, majd nyomj `A` gombot.
 
     ![](/images/homebrew/yawmME/install_wad.png)
 
-1. Press A again to install the WAD(s).
+1. Nyomj A gombot újra a WAD-ok telepítéséhez.
 
     ![](/images/homebrew/yawmME/installing_wad.png)
 

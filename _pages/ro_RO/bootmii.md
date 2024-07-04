@@ -65,7 +65,7 @@ Mențiune: **restaurarea unui backup a memoriei NAND este de obicei o ultimă so
 Pentru a restaura un backup a memoriei NAND de pe cardul tău SD, poți urma instrucțiunile pentru [RestoreMii](bootmiirecover). **Edițiile Family la Wii (Wii fără porturi GameCube) NU POT restaura backup-uri NAND fără modificări hardware.**
 </div>
 
-Două fișiere vor fi create în rădăcina Cardului tău SD: `nand.bin` și `keys.bin`. `nand.bin` este un backup a memoriei interne a consolei, în timp ce `keys.bin` sunt cheile consolei tale.
+Două fișiere vor fi create în directorul principal al cardului tău SD: `nand.bin` și `keys.bin`. `nand.bin` este un backup a memoriei interne a consolei, în timp ce `keys.bin` sunt cheile consolei tale.
 {: .notice--info}
 
 ### Autobootare
@@ -79,6 +79,16 @@ Dacă poți instala BootMii ca boot2, dar nu vrei să afișeze ecranul BootMii c
 
 Poți folosi, de asemenea, aplicația [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) în Wii pentru a schimba aceste setări.
 {: .notice--info}
+
+### Încărcarea backup-ului NAND în Dolphin Emulator
+
+Backup-ul tău NAND poate fi utilizat în Dolphin Emulator.
+
+1. Descarcă cea mai recentă versiune beta sau development a Dolphin Emulator de pe [pagina oficiala](https://dolphin-emu.org/) și instalează-l pe dispozitivul tău.
+1. Deschide Dolphin Emulator.
+1. Click pe tab-ul `Tools`, scroll jos către `Manage NAND`, apoi selectează `Import BootMii NAND backup...`.
+1. Localizează fișierul `nand.bin` găsit la directorul principal al cardului tău SD și deschide-l.
+1. Dacă îți cere `keys.bin`, localizează-l la directorul principal al cardului tău SD și deschide-l.
 
 [Continuă la Instalarea Priiloader](priiloader)<br> Priiloader adaugă un nivel secundar de protecție anti-brick și este foarte recomandat chiar dacă BootMii a fost instalat ca boot2. Acesta este deosebit de important pentru utilizatorii de BootMii ca IOS.
 {: .notice--info}

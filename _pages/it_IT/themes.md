@@ -35,84 +35,34 @@ Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come
 
 #### Requisiti
 
-##### Wii
-
-* Una Wii modificata
 * Una scheda SD o dispositivo USB
-* Un PC Windows/macOS/Linux con una connessione a internet
+* A Windows PC with an Internet connection
 * [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
-
-##### vWii
-
-* A modded vWii
-* Una scheda SD o dispositivo USB
-* Un PC Windows/macOS/Linux con una connessione a Internet
-* [csm-installer](https://oscwii.org/library/app/csm-installer)
-* [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
-* [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
 
 #### Creazione di un tema
 
-##### Wii
-
-Se non ti va di usare un programma esterno per la creazione di un tema, puoi anche creare un tema preimpostato da Wii Themer e saltare all'[Installazione del tema](themes#theme-installation).
-{: .notice--info}
-
-1. Una volta scaricato il tema che volevi e controllato bene che hai quello giusto per la tua versione del menu di sistema e regione, estrai il file .zip di ThemeMii Mod e avvia l'applicazione.
-2. Vai su `Tools` > `Download Base App` > `Version of your Wii Menu` > `Region of your Wii Menu`.
-3. Una finestra di dialogo si aprirà chiedendoti di inserire un valore per creare una chiave. Inserisci quello che ti dice e creerà una chiave che sarà utilizzare per decifrare i contenuti del Menu Wii dai server di Nintendo.
-4. Una finestra di selezione file ti chiederà dove vuoi salvare il file .app (questo è il file dei contenuti del Menu Wii che ha scaricato). Salvalo nel percorso in cui si trova ThemeMii.
-5. Vai su `File` > `Open`, poi cerca il percorso del tuo file .mym.
-6. Premi `Create csm`, quindi cerca un percorso in cui vuoi salvare il tema. Dagli un momento per la creazione del tema.
-7. Una finestra di dialogo si aprirà chiedendoti se vuoi salvare il .mym. Premi `No`.
-
-##### vWii
-
-Themes from [Wii Themer](http://www.wiithemer.org/) cannot be built automatically for you on the vWii, since it does not use the correct base app. However, you may still download the .mym files from their [theme database](http://wiithemer.org/mym/) to build manually.
-
-Some themes are compatible with the Wii system menu, but aren't compatible with the vWii System Menu, and may result in graphical glitches or even a full [theme brick](bricks#theme-brick).
-{: .notice--warning}
-
-1. Extract the .zip file for NUS Downloader vWii and open the application
-2. Click on `Database...`
-3. Go to `System` > `System Menu` and select the version corresponding to your region as shown in the table below.
-
-| Regione  | vWii Menu version |
-| -------- | ----------------- |
-| Giappone | v608              |
-| USA      | v609              |
-| Europa   | v610              |
-
-4. After selecting the correct version to download, check the box for `Create Decrypted Contents (*.app)`. Then, press the `Start NUS Download` Button on the top of the window.
-
-![The database menu in NUS Downloader.](/images/themes/NUSD-vWii_preview-database.png)
-
-![The main menu of NUS downloader without the database menu open.](/images/themes/NUSD-vWii_sysmenu-versions.png)
-
-5. When the download has finished, search for the .app file corresponding to your region in the folder where NUS Downloader is.
-
-| Regione  | .app file for your region |
-| -------- | ------------------------- |
-| Giappone | 0000001c.app              |
-| USA      | 0000001f.app              |
-| Europa   | 00000022.app              |
-
-6. Once you have found the .app file, copy it to the main directory of the folder containing ThemeMii. Then, copy a version of it to the theme folder in your SD card.
-
-If you can't find the .app file, it's possible you have downloaded the wrong version of the Wii Menu and you'll need to try again.
-{: .notice--info}
+1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
+1. Create a `themes` folder on the root of your SD card/USB device.
+1. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
+1. Launch csm-installer, and hold `+` while the app is loading. If done right, the app will begin downloading the base theme for your Wii menu.
+1. Once the base theme has finished saving, press HOME to exit the app.
+1. Insert your SD card/USB device back into your PC.
+1. Extract the ThemeMii MOD `.zip` to a location on your PC.
+1. Launch the ThemeMii applciation.
+1. Go to `File` -> `Open`, and select the `.mym` file for the theme you want to build.
+1. Press `Create csm`.
+1. When asked to select an `.app` file, select the newly downloaded base theme on the root of your SD card or USB drive.
+1. When asked to save the `.csm` file, save it in the `themes` folder.
+1. After the theme finishes building, you will be prompted to save the .mym. Premi `No`.
 
 #### Installazione del tema
 
-1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
-2. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
-3. Copy your `.csm` file to the `themes` directory.
-4. Insert your SD card or USB drive into your Wii/Wii U, and launch the Homebrew Channel.
-5. Launch csm-installer, and wait for it to load.
-6. Select the theme you would like to install with `A`. A questo punto, devi essere assolutamente sicuro che hai scaricato il tema corretto per la tua versione del Menu di sistema e regione.
-7. Press `+` to install the theme.
-8. Ritorna al Menu Wii e verifica che il tema sia installato correttamente. Se tutto va bene, dovresti avere un risultato simile a quello in basso!
+1. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
+1. Launch csm-installer, and wait for it to load.
+1. Select the theme you would like to install with `A`. A questo punto, devi essere assolutamente sicuro che hai scaricato il tema corretto per la tua versione del Menu di sistema e regione.
+1. Press `+` to install the theme.
+1. Ritorna al Menu Wii e verifica che il tema sia installato correttamente. Se tutto va bene, dovresti avere un risultato simile a quello in basso!
 
     ![](/images/themes/themed-wii-menu.png)
 

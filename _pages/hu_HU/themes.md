@@ -4,115 +4,65 @@ title: "Wii-témák"
 
 {% include toc title="Tartalomjegyzék" %}
 
-This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
+Ez az útmutató az utolsó, amire valaha is szükséged lesz, ha a Wii témázásáról van szó, nem csak a csm-installer segítségével a Wii menüjéhez ad útmutatást, hanem a WiiFlow Lite, az USB Loader GX és a Homebrew Channel témáival is. Ezenkívül a forwarderek is le vannak fedve.
 
-### Wii Menu Theming
+### Wii Menu témázás
 
-DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) (Wii only) AND [PRIILOADER](priiloader)!
+NE FOLYTASD EZT AZ ÚTMUTATÓt, HA NINCS MEGFELELŐ BRiCKELÉS VÉDELMED, KÜLÖNÖSEN [BOOTMII](bootmii) (csak Wii) ÉS [PRIILOADER](priiloader)!
 {: .notice--danger}
 
-This tutorial does not work on the Wii mini. Do not attempt this tutorial on the Wii mini or it will cause a [brick](bricks#theme-brick).
+Ez z útmutató nem működik a Wii mini-vel. Ne próbáld meg Wii mini-vel használni ezt az útmutatót, mert [brickelődést](bricks#theme-brick) fog okozni.
 {: .notice--warning}
 
-csm-installer has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
+A csm-installer tartalmaz beépített biztonsági funkciókat, hogy megakadályozza, hogy hibás vagy sérült Wii Menu témákat telepíts, így javasolt, hogy ezt használd más téma telepítő homebrew helyett.
 {: .notice--warning}
 
 Do not use any other version of ThemeMii than the one linked here, as ThemeMii Mod allows you to make a theme for Wii Menu version 4.3, other versions may not.
 {: .notice--warning}
 
-Only install themes on your Wii that have been formatted specifically for its version and current region. Installing themes from the wrong version or region on your Wii will cause a [brick](bricks#theme-brick). This tutorial will tell you how to create a .csm file that is safe to install.
+Csak olyan témákat telepíts a Wii-re, amelyek kifejezetten a Wii verziójához és az aktuális régióhoz lettek formázva. Ha rossz verziójú vagy régiójú témákat telepítesz a Wii-re, az [brickelődik](bricks#theme-brick). Ez a útmutató leírja, hogyan hozhatsz létre egy .csm fájlt, amelyet aztán biztonságosan telepíthetsz.
 {: .notice--danger}
 
-Before proceeding, it helps to know the difference between .MYM and .CSM as file formats when used in Wii Menu theming. While the MYM is made by the theme creator which can then be shared around, the CSM is the result from building a MYM into a system menu. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes seperate.
+Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM fájlformátumok között, amikor a Wii menü témázása során használják őket. Míg a MYM-et a téma készítője készíti, amelyet aztán körbe lehet osztani, addig a CSM a MYM rendszermenübe építésének eredménye. Más szóval, a MYM elsősorban csak eszközöket tartalmaz - maga a tényleges rendszermenü, amelyet telepíteni kell, különálló.
 {: .notice--info}
 
 #### Téma források
 
-+ [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (.mym file distribution)
-+ [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym file distribution)
-+ [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym file distribution)
-+ [Wii Themer](http://www.wiithemer.org/) (Wii only, online theme builder for specific versions and regions, ready to install .csm themes)
++ [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (.mym fájlok terjesztése)
++ [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym fájlok terjesztése)
++ [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym fájlok terjesztése)
++ [Wii Themer](http://www.wiithemer.org/) (csak Wii, online téma készítő különböző verziókhoz, és régiókhoz, képes a .csm témák telepítésére)
 
 #### Követelmények
 
-##### Wii
-
-* Egy moddolt Wii
 * Egy SD kártya vagy USB drive
-* Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
+* Egy internetkapcsolattal rendelkező Windows PC
 * [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
-
-##### vWii
-
-* Egy moddolt vWii
-* Egy SD kártya vagy USB drive
-* Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
-* [csm-installer](https://oscwii.org/library/app/csm-installer)
-* [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
-* [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
 
 #### Téma készítése
 
-##### Wii
-
-If you don't want to go through the hassle of using an external program to build a theme, you can also download a prebuilt theme from Wii Themer and skip to [Theme Installation](themes#theme-installation).
-{: .notice--info}
-
-1. Once you download the theme you want and double-check that you have the right one for your system menu version and region, extract the .zip file for ThemeMii Mod and open the application.
-2. Go to `Tools` > `Download Base App` > `Version of your Wii Menu` > `Region of your Wii Menu`.
-3. A dialog box will pop-up asking you to enter in a value to create a key. Enter what it says, and it will create a key that will be used to decrypt the Wii Menu contents from Nintendo's servers.
-4. A file selection box will ask you where to save the .app file (that is the Wii Menu content file that it downloaded). Save it to the directory where ThemeMii is in.
-5. Go to `File` > `Open`, then browse for where your .mym file is.
-6. Press `Create csm`, then browse for a directory you want to save the theme in. Give it a moment to build the theme.
-7. A dialog box will pop up asking you if you want to save the .mym. Press `No`.
-
-##### vWii
-
-Themes from [Wii Themer](http://www.wiithemer.org/) cannot be built automatically for you on the vWii, since it does not use the correct base app. However, you may still download the .mym files from their [theme database](http://wiithemer.org/mym/) to build manually.
-
-Some themes are compatible with the Wii system menu, but aren't compatible with the vWii System Menu, and may result in graphical glitches or even a full [theme brick](bricks#theme-brick).
-{: .notice--warning}
-
-1. Extract the .zip file for NUS Downloader vWii and open the application
-2. Click on `Database...`
-3. Go to `System` > `System Menu` and select the version corresponding to your region as shown in the table below.
-
-| Regió  | vWii Menu verzió |
-| ------ | ---------------- |
-| Japán  | v608             |
-| USA    | v609             |
-| Európa | v610             |
-
-4. After selecting the correct version to download, check the box for `Create Decrypted Contents (*.app)`. Then, press the `Start NUS Download` Button on the top of the window.
-
-![The database menu in NUS Downloader.](/images/themes/NUSD-vWii_preview-database.png)
-
-![The main menu of NUS downloader without the database menu open.](/images/themes/NUSD-vWii_sysmenu-versions.png)
-
-5. When the download has finished, search for the .app file corresponding to your region in the folder where NUS Downloader is.
-
-| Regió  | .app fájl a régiódhoz |
-| ------ | --------------------- |
-| Japán  | 0000001c.app          |
-| USA    | 0000001f.app          |
-| Európa | 00000022.app          |
-
-6. Once you have found the .app file, copy it to the main directory of the folder containing ThemeMii. Then, copy a version of it to the theme folder in your SD card.
-
-If you can't find the .app file, it's possible you have downloaded the wrong version of the Wii Menu and you'll need to try again.
-{: .notice--info}
+1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
+1. Create a `themes` folder on the root of your SD card/USB device.
+1. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
+1. Launch csm-installer, and hold `+` while the app is loading. If done right, the app will begin downloading the base theme for your Wii menu.
+1. Once the base theme has finished saving, press HOME to exit the app.
+1. Insert your SD card/USB device back into your PC.
+1. Extract the ThemeMii MOD `.zip` to a location on your PC.
+1. Launch the ThemeMii applciation.
+1. Go to `File` -> `Open`, and select the `.mym` file for the theme you want to build.
+1. Press `Create csm`.
+1. When asked to select an `.app` file, select the newly downloaded base theme on the root of your SD card or USB drive.
+1. When asked to save the `.csm` file, save it in the `themes` folder.
+1. After the theme finishes building, you will be prompted to save the .mym. Press `No`.
 
 #### Téma telepítése
 
-1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
-2. Create a new directory on your SD card or USB device called `themes` if it does not already exist.
-3. Copy your `.csm` file to the `themes` directory.
-4. Insert your SD card or USB drive into your Wii/Wii U, and launch the Homebrew Channel.
-5. Launch csm-installer, and wait for it to load.
-6. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
-7. Press `+` to install the theme.
-8. Reboot into the Wii Menu, and see if the theme successfully installed. If all goes well, you will have a result similar to the below!
+1. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
+1. Launch csm-installer, and wait for it to load.
+1. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
+1. Press `+` to install the theme.
+1. Reboot into the Wii Menu, and see if the theme successfully installed. If all goes well, you will have a result similar to the below!
 
     ![](/images/themes/themed-wii-menu.png)
 
@@ -125,7 +75,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * Egy moddolt Wii
 * Egy SD kártya vagy USB drive
 * [WiiFlow Lite](wii-loaders#wiiflow-lite)
-* A Linux/macOS/Windows PC with an Internet connection
+* Egy Windows/macOS/Linux számítógép internet kapcsolattal
 * [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
 #### Útmutató
@@ -142,8 +92,8 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * Egy moddolt Wii
 * Egy SD kártya vagy USB drive
 * [USB Loader GX](wii-loaders#usb-loader-gx)
-* A Linux/macOS/Windows PC with an Internet connection
-* A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
+* Egy Windows/macOS/Linux számítógép internet kapcsolattal
+* Egy [téma](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), ez a link vegyes sötét témákat tartalmaz
 
 #### Útmutató
 
@@ -153,7 +103,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 4. Start USB Loader GX, go to the `Settings` menu, and then go to `Theme Menu`.
 5. Open the theme and install it.
 
-### Homebrew Channel Theming
+### Homebrew Channel témázás
 
 #### Követelmények
 

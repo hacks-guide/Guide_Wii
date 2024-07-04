@@ -80,5 +80,15 @@ Ha képes voltál boot2 alá telepíteni a BootMiit és nem szeretnéd, hogy bek
 Ezeket a beállításokat a [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor)-alkalmazással is megváltoztathatod.
 {: .notice--info}
 
+### A NAND mentés feltöltése a Dolphin Emulátorba
+
+A NAND mentésed felhasználható a Dolphin Emulátorban.
+
+1. Töltsd le a legutolsó béta vagy fejlesztői verzióját a Dolphin Emulátornak a [Dolphin Weboldaláról](https://dolphin-emu.org/) és telepítsd az eszközödre.
+1. Nyisd meg a Dolphint Emulátort.
+1. Kattints a `Tools` fülre, görgess le a `Manage NAND`-ig majd válaszd az `Import BootMii NAND backup...` opciót.
+1. Keresd meg és jelöld ki a `nand.bin` fájlt, amit az SD kártyád gyökerében találtál és válaszd az Open-t.
+1. Ha egy `keys.bin` állományt kér, keresd meg az SD kártyádon és válaszd az Open-t.
+
 [Folytatás a Priiloader telepítésével](priiloader)<br> A Priiloader egy második réteg védelemmel látja el a Wiit és erősen javasolt a beállítása, még ha boot2 alá is telepítetted a BootMiit. A BootMii IOS-es felhasználóinak számára kiemelten fontos.
 {: .notice--info}

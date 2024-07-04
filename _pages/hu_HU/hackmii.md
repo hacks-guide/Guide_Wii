@@ -4,9 +4,9 @@ title: "A HackMii Installer újraindítása"
 
 {% include toc title="Tartalomjegyzék" %}
 
-This guide is intended for situations where you need to relaunch the HackMii Installer to update/reinstall the Homebrew Channel or BootMii.
+Ez az útmutató arra van, hogy ha szeretnéd újra futtatni a HackMii Installer-t, hogy frissítsd/újratelepítsd a Homebrew Channel-t vagy a BootMii-t.
 
-It is also safe to [redo any exploit](get-started) to get back into the HackMii Installer.
+Továbbá az is biztonságos [hogy újra csinálj bármilyen exploitot](get-started), hogy visszakerülj a HackMii Installer-be.
 {: .notice--info}
 
 ### Újraindítás a Homebrew Channel-lel
@@ -20,12 +20,12 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 #### Útmutató
 
 1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
-1. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
-    + If this folder does not exist, create it.
-1. Insert the SD/USB into your Wii, and launch the `hackmii_installer_v1.2` app from the Homebrew Channel.
-    + The app will not have an icon.
+1. Csomagold ki a HackMii Installer v1.2-t az SD kártyád/USB drive-od `apps` mappájába.
+    + Ha a mappa nem létezik, hozd létre.
+1. Helyezd be az SD kártyád/USB-d a Wii-odba, majd indítsd el a `hackmii_installer_v1.2` appot a Homebrew Channel-ből.
+    + Az appnak nem lesz ikonja.
 
-[Continue to Homebrew Channel and BootMii installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 {: .notice--info}
 
 ### Újraindítás Priiloader-rel
@@ -44,13 +44,13 @@ A Preloader és Priiloader régi verziói úgy tűnik, hogy nem támogatják az 
 #### Útmutató
 
 1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
-1. Copy the `boot.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card or USB drive.
-1. Insert your SD/USB into your Wii.
-1. Enter Priiloader by holding the RESET button while turning on your Wii.
-1. Go to `Load/Install File`.
-1. Navigate to `boot.elf` and press `1` to load it.
+1. Másold a `boot.elf` fájlt a HackMii Installer v1.2 `.zip`-ből az SD kártya vagy USB drive gyökerébe.
+1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
+1. Lépj be a Priiloader a RESET gomb nyomva tartásával miközben bekapcsolod a Wii-t.
+1. Mend a `Load/Install File` opcióhoz.
+1. Navigálj a `boot.elf`-hez és nyomj `1`-et a betöltéséhez.
 
-If `Press (1) to continue` does not show up after about 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
+Ha a `Press (1) to continue` nem jelenik meg kb. 30 másodperc után a [HackMii Installer v1.0](https://bootmii.org/download/) segíthet.
 {: .notice--info}
 
 [Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)

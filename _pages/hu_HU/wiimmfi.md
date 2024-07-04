@@ -18,7 +18,7 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 
 #### Követelmények
 + A Wii with an internet connection, on System Menu version 4.3
-+ [Priiloader](priiloader) 0.9 or later
++ [Priiloader](priiloader) 0.9 vagy későbbi
 
 #### Útmutató
 
@@ -63,7 +63,7 @@ If you get error 23400, your ISP or network is blocking the use of a custom DNS.
 
 #### Követelmények
 
-+ A Wii with an internet connection
++ Egy internetkapcsolattal rendelkező Wii
 
 #### Útmutató
 
@@ -92,16 +92,16 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 #### Követelmények
 
-+ A Wii with an internet connection
++ Egy internetkapcsolattal rendelkező Wii
 
 #### Útmutató
 
-1. Insert your game disc.
-1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
+1. Helyezd be a játék lemezed.
+1. Menj a `Wii Settings > Internet > Connection Settings` és válaszd ki a kapcsolatot amit használsz. Majd `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Állítsd be elsődleges (primary) DNS-nek a `95.217.77.151` címet és másodlagos (secondary) DNS-nek az `1.1.1.1`-et.
 
     ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
-1. Let the connection test finish, and do not perform a Wii System Update.
+1. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
 1. Go back twice to `Internet`, and press `User Agreements`. Then, confirm that you would like to use WC24 and the Wii Shop Channel.
 1. The Wiimmfi patcher page should now display. If it doesn't, and you still see the default license agreement, your router might not be compatible with this method.
 1. Wait a while for the patcher to load (usually about 1.5 minutes) and the inserted game should boot with a Wiimmfi patch.
@@ -126,13 +126,13 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 1. Open the Internet Channel again and access the favorite you just made.
 1. The Wiimmfi patcher should begin. Be patient, as Flashhax can be very unreliable - it may take several tries to get right.
 
-### Manual WiiWare Patching via PC
+### Kézi WiiWare patchelés PC-vel
 
 A method for Wiimmfi patching which runs on WiiWare games, but must be manually run on a PC via a script.
 
 #### Követelmények
 
-* An SD card
+* Egy SD kártya
 * Your copy of your game (in WAD format)
 * [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases/latest) (cross platform)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
