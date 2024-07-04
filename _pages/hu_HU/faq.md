@@ -20,44 +20,44 @@ Futtass Internet kapcsolat tesztet a `Wii Settings > Internet > Connection setti
 
 ##### RiiConnect24 felhasználók számára
 
-You are using the old DNS server for RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+A RiiConnect24 régi DNS-kiszolgálóját használod. Kövesse [ezt](riiconnect24#section-iv---connecting) az útmutatót a módosításhoz szükséges lépésekért.
 
 ##### Nem RiiConnect24 felhasználók számára
 
-Your Primary DNS server is incorrect or not working.<br> This can also happen if you use a proxy server and it is down.
+Az elsődleges DNS-kiszolgálód hibás vagy nem működik.<br> Ez akkor is előfordulhat, ha proxyt használsz, és az nem működik.
 
 #### Error 107304
 
 ##### RiiConnect24 felhasználók számára
 
-If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. A RiiConnect24 továbbra is működni fog nélküle. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+Ha ezt a hibát kapod, vagy a Nintendo felhasználói megállapodását látod a RiiConnect24 logója nélkül, az azt jelenti, hogy az internet szolgáltatód vagy hálózatod blokkolja az RC24 DNS használatát. Beállíthatod az `Auto-Obtain DNS`-t `On`-ra ennek megoldásához. A RiiConnect24 továbbra is működni fog nélküle. Vagy használhatod a [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) programot.
 
 ##### Nem RiiConnect24 felhasználók számára
 
-If you get this error, the DNS server you chose or your internet as a whole is having issues. Próbáld később újra.
+Ha ezt a hibát kapod, a DNS szerver amit választottá vagy az interneted teljességében hibás. Próbáld később újra.
 
 #### FORE000006
 
-If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock.
+Ha a FORE000006 hibaüzenetet kapod, a Wii órája valószínűleg rosszul van beállítva. A helyes visszaállításhoz lásd [ezt az útmutatót](wiiconnect24#updating-rtc-clock). Ha ez sem sikerül, akkor vedd ki a Wii óraelemét (a rendszer alján található egy csavar mögött) egy órára, majd tedd vissza. Ezután reseteld Wii óráját.
 
-### How can I remove parental controls?
-The [mkey generator](https://mkey.eiphax.tech/) can generate the code required to remove parental controls.
+### Hogyan távolíthatom el a szülői felügyeletet?
+Az [mkey generator](https://mkey.eiphax.tech/) képes a szülői felügyelet eltávolításához szükséges kódot generálni.
 
-### I think my Wii is bricked, or something is seriously wrong, what do I do?
-See [this](bricks) page.
+### Úgy gondolom, hogy a Wii-om brickelt, vagy valami komoly baja van, mit tegyek?
+Lásd [ezt az oldalt](bricks).
 
 ## Tároló eszköz GYIK
 
 A [BlueBomb](bluebomb), [str2hax](str2hax) vagy [FlashHax](flashhax) exploitok esetében nincs szükséged SD-kártyára a Wii feltöréséhez; a homebrew és egyéb feladatok elvégzéséhez mindenképpen ajánlott egyet beszerezni.
 {: .notice--info}
 
-FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br> For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS was a previously used file system for Wii game backups (not to be confused with WBFS files) - today, it is outdated and should not be used.
+A FAT32 az ajánlott fájlrendszer az SD-kártyákhoz, a formázási utasításokat lásd [ebben az útmutatóban](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). <br>USB-eszközökhöz szintén a FAT32 ajánlott, bár a felhasználóknak tisztában kell lenniük a FAT32 korlátaival, amelyek csak 2 TB-os kötetek méretéig engedélyezik a tárolást. A WBFS korábban a Wii-játékok biztonsági mentéséhez használt fájlrendszer volt (nem tévesztendő össze a WBFS fájlokkal) - ma már elavult, és nem szabad használni.
 {: .notice--info}
 
-For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.<br> For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.<br> Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
+A 4.0-nál alacsonyabb verziószámú Wii menüben a Wii rendszerszoftverének egy korlátozása megakadályozza a 2 GB-nál nagyobb SD-kártyák használatát.<br> A 4.0-s vagy magasabb verziószámú stock Wii Menü esetében ez a korlátozás megszűnik, és különböző méretű SD-kártyák használhatók.<br> A legnagyobb esélyed arra, hogy működőképes SD-kártyát kapj bármelyik Wii-n, a 32 GB-os vagy annál kisebb méretnél van, de többször jelentettek már sikereket 256 GB-ig terjedő kártyákkal is.
 {: .notice--warning}
 
-For USB devices, flash drives have a high rate of not working on Wii consoles. Instead, it is recommended to use a USB hard drive or solid state drive.
+Az USB-eszközök esetében a pendrive-ok nagy arányban nem működnek a Wii konzolokon. Ehelyett ajánlott USB-s merevlemezt vagy SSD-meghajtót használni.
 {: .notice--warning}
 
 ### Általános tárolási irányelvek
