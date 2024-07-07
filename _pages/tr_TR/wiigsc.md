@@ -12,6 +12,9 @@ In the case of a brick, [installing Priiloader is a must](/priiloader). Also, in
 Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will brick your Wii.
 {: .notice--warning}
 
+The Wii Menu is hard limited to a maximum of 48 channels and 6 of them are taken by channels you cannot remove, like the Wii shop. If you need more channels, the standard solution is to use one of the [Wii Loaders](wii-loaders).
+{: .notice--warning}
+
 ### Gereksinimler
 
 * A Wii
