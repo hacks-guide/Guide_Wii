@@ -17,41 +17,41 @@ Ahhoz, hogy a legtöbbet hozd ki ebből az útmutatóból, olvasd el ezt az olda
 
 ### Mi a homebrew?
 
-**Homebrew** refers to software that was not authorized by the original creator of a piece of hardware - in this case, Nintendo. In order to gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
+A **homebrew** olyan szoftverre utal, amelyet nem a hardver eredeti készítője - ebben az esetben a Nintendo - engedélyezett. Ahhoz, hogy a homebrew futtatására a Wii konzolon képessé váljon, a konzolt először módosítani kell, hogy a nem aláírt kódot futtathassa.
 
-Here are some common examples of what homebrew can do for your Wii:
+Íme néhány általános példa arra, hogy a homebrew mit tud a Wii-n:
 
-+ [Backup](bootmii) and [restore](bootmiirecover) your Wii's NAND (system memory)
-+ Enhance the [brick protection](priiloader) of your Wii
-+ Download new homebrew apps with the [Open Shop Channel](osc)
-+ [Patch game disc contents](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
-+ Install [themes](themes) on the Wii Menu and in commonly used homebrew apps
-+ Back up your [discs](dump-games) and [other installed titles](dump-wads)
-+ Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
-+ Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
-+ Back up and restore your [Wii](wii-saves) and [GameCube](gcsaves) save files
-+ Restore online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
++ A Wii NAND (rendszermemória) biztonsági [mentése](bootmii) és [visszaállítása](bootmiirecover)
++ A Wii [brickelés védelmének](priiloader) javítása
++ Új homebrew alkalmazások letöltése az [Open Shop Channel](osc) csatornán keresztül
++ A [játéklemezek tartalmának patchelése](https://wiki.hacks.guide/wiki/Wii:Riivolution) a játékmódosítások betöltéséhez
++ [Témák](themes) telepítése a Wii menüjébe és a gyakran használt homebrew alkalmazásokba
++ Biztonsági mentés a [lemezekről](dump-games) és [más telepített címekről](dump-wads)
++ [DVD](recommended-homebrew#entertainment)-k megtekintése és külső médiafájlok lejátszása a Wii-n
++ [USB-töltő](wii-loaders) telepítése a Wii (és más konzolok) biztonsági mentéseinek külső tárolóeszközről történő elindításához
++ A [Wii](wii-saves) és a [GameCube](gcsaves) mentési fájljainak biztonsági mentése és visszaállítása
++ Az online funkciók helyreállítása a [WiiConnect24](wiiconnect24) és a [Nintendo Wi-Fi Connection](wiimmfi) esetében is
 
 ### Mit telepít ez az útmutató?
 
-This guide aims to do the following, including optional sections:
+Ez az útmutató a következőkre törekszik, beleértve a választható szakaszokat is:
 
-+ Modify your Wii using one of many exploits, with the end goal of reaching the HackMii installer
-+ Install BootMii and the Homebrew Channel
-+ Make a backup of critical system files
++ Módosítsa a Wii-t a számos exploit egyikének segítségével, azzal a céllal, hogy elérje a HackMii telepítőjét
++ A BootMii és a Homebrew Channel telepítése
++ Biztonsági mentés készítése a kritikus rendszerfájlokról
 + A Priiloader telepítése
 + Az Open Shop Channel telepítése
 + Ajánlott Homebrew-ok a Wii-odra
-+ Restore functionality to WiiConnect24 and Nintendo Wi-Fi Connection
++ A WiiConnect24 és a Nintendo Wi-Fi Connection funkcióinak visszaállítása
 
-### What should I know before starting?
+### Mit kell tudni a kezdés előtt?
 
-+ Homebrew is 100% free, and the process of modifying your Wii is also free. Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam).
-+ This guide works on all system menu versions depending on the exploit, but **it is recommended that you update to 4.3 (the latest firmware)** if possible.
-+ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
-+ Depending on what you intend to do with your modded Wii, you may have to make some modifications to the system memory that have a risk of bricking (rendering the console inoperable). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
-+ The differences between the Wii and Wii mini are quite significant. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Tread carefully if you are planning to mod one!
-+ Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).
++ A Homebrew 100%-ban ingyenes, és a Wii módosítása is ingyenes. Bárki, aki ennek ellenkezőjéről próbál meggyőzni, valószínűleg [át akar verni](https://hbc.hackmii.com/scam).
++ Ez az útmutató az exploittól függően minden rendszermenü-verzióval működik, de **ajánlott a 4.3-as verzióra (a legújabb firmware-re) frissíteni,** ha lehetséges.
++ **Ez az útmutató CSAK a kiskereskedelmi/fogyasztói Wiire vonatkozik!** Ez azt jelenti, hogy a fejlesztői egységekre nem vonatkozik.
++ Attól függően, hogy mit szándékozol csinálni a módosított Wii-vel, előfordulhat, hogy a rendszermemóriában olyan módosításokat kell végrehajtanod, amelyek a brickelés (a konzol működésképtelenné válása) kockázatával járnak. Amíg pontosan követed ezt az útmutatót, addig minden rendben lesz, de általános tippeket a tönkremenetel megelőzésére [ezen](bricks#brick-prevention) az oldalon találsz.
++ A Wii és a Wii mini közötti különbségek igen jelentősek. Ez azt jelenti, hogy bizonyos esetekben az, ami a Wii-re normális esetben ártalmatlan, a Wii mininél [súlyos brickelést](bricks#wi-fi-brick) okozhat. Légy óvatos, ha tervezed, hogy módosítod az egyiket!
++ Légy rendkívül óvatos, ha egy [koreai Wii](bricks#korean-kiierror-003-brick)-t módosítasz.
 
 ### Kész?
 
