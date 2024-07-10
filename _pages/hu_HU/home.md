@@ -6,13 +6,13 @@ header:
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Wii, vWii, and Wii mini."
+excerpt: "A teljes útmutató a Wii, vWii és Wii mini moddingjához."
 ---
 
-Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
+Mivel ez az útmutató most jelent meg, a fordítások még folyamatban vannak. Köszönjük a türelmedet!
 {: .notice--info}
 
-To get the most out of this guide, you should read this page before proceeding.
+Ahhoz, hogy a legtöbbet hozd ki ebből az útmutatóból, olvasd el ezt az oldalt, mielőtt folytatnád.
 {: .notice--warning}
 
 ### Mi a homebrew?
