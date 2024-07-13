@@ -11,7 +11,8 @@ Ez az oldal végig vezet a vWii-d moddolásának folyamatán.
 Ha már hackelted a Wii U-dat a múltban, akkor használhatod ugyanazt az SD kártyát ehhez a folyamathoz.
 {: .notice--info}
 
-Ha még nem tetted meg, akkor készíts egy [nand backup](https://wiiu.hacks.guide/#/aroma/nand-backup)-ot és telepítsd az [Aroma Environment](https://aroma.foryour.cafe/) a Wii U-dre . Egyébként folytasd az [Aroma teleptésével](https://wiiu.hacks.guide/#/aroma/getting-started) vagy [A vWii moddolása a Wii U oldal moddolása nélkül](wiiu-nand-dumper)
+If you haven't already, make sure you did a [NAND backup](https://wiiu.hacks.guide/#/aroma/nand-backup) and have the [Aroma Environment](https://aroma.foryour.cafe/) installed on your Wii U.
+Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
 {: .notice--info}
 
 ### Követelmények
@@ -62,5 +63,5 @@ Megjegyzés: Ha homebrew Wii alkalmazásokat telepítesz SD kártyára vagy USB 
 `AppName1` és `AppName2` helyfoglaló nevek. Az `apps` mappában ne hozz létre egy másik `apps` nevű mappát.
 Ne keverd össze az `apps` mappát a `wiiu` mappában és az `apps` mappával az SD kártya gyökerében.
 
-[Folytatás a Priiloader telepítésével](priiloader)<br>
+Continue to [Installing Priiloader](priiloader)<br>
 {: .notice--info}
