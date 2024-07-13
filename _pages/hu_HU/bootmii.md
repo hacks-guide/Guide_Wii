@@ -51,7 +51,7 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. Miután a folyamat lezáródott, a BootMii ellenőrizni fogja a biztonsági mentés minőségét. Ha minden jól sikerült, akkor az összes blokk zölden fog megjelenni az ábrán.
-    + Ha a mentés tartalmaz olyan gyárilag sérült blokkokat, amelyekben vannak javíthatatlan oldalak, akkor azok nem fognak átmenni az ellenőrzésen. Amíg az összes sértetlen blokk átmegy, addig minden rendben.
+    + Ha a mentés tartalmaz olyan gyárilag sérült blokkokat, amelyekben vannak javíthatatlan oldalak, akkor azok nem fognak átmenni az ellenőrzésen. As long as all non-bad blocks are successfully verified, this should be fine.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -70,7 +70,7 @@ A mentési folyamat befejeztével két fájl lesz létrehozva az SD kártyád gy
 
 ### Automatikus indítás
 
-Ha képes voltál boot2 alá telepíteni a BootMiit és nem szeretnéd, hogy bekapcsoláskor a konzol mindig a BootMii-képernyőt mutassa, lehetőséged van azt automatikusan a rendszermenübe indítani. Így fel sem fog tűnni, a boot2 alá telepített BootMii.
+If you were able to install BootMii as boot2, but don't want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. Így fel sem fog tűnni, a boot2 alá telepített BootMii.
 
 1. Nyisd meg az SD kártya bootmii-mappájában található `bootmii.ini`-fájlt egy szövegszerkesztővel, pl. a Jegyzettömbbel!
 1. A `#AUTOBOOT=SYSMENU`-sor elejéről töröld ki a kettőskeresztet, hogy `AUTOBOOT=SYSMENU` legyen!
