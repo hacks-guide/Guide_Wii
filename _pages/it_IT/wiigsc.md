@@ -4,7 +4,7 @@ title: "Come creare collegamenti per Giochi Wii"
 
 {% include toc title="Table of Contents" %}
 
-Usi un USB Loader e vuoi creare collegamenti per caricare i tuoi giochi direttamente dal Menu Wii? Allora prova WiiGSC (Wii Game Shortcut Creator), precedentemente noto come Crap.
+Do you use a Wii backup loader and want to create game shortcuts to launch them on your Wii Menu? Allora prova WiiGSC (Wii Game Shortcut Creator), precedentemente noto come Crap.
 
 Nel caso di un brick, [avere Priiloader installato è fondamentale](/priiloader). Inoltre, installa anche BootMii (specialmente in Boot2 se la tua Wii è pre-2008). Installando i programmi che proteggono dai brick, seguendo correttamente la guida, dovresti non imbatterti in uno di questi ultimi. NON CONTINUARE FINO A CHE NON HAI INSTALLATO PRIILOADER E BOOTMII!
 {: .notice--warning}
@@ -12,10 +12,13 @@ Nel caso di un brick, [avere Priiloader installato è fondamentale](/priiloader)
 NON creare un collegamento per i giochi "Mario Party 9" o "A Boy and His Blob". Causerà un brick.
 {: .notice--warning}
 
+The Wii Menu is limited to 48 channels, not including existing system channels.
+{: .notice--info}
+
 ### Requisiti
 
 * Una console Wii
-* Un dispositivo USB
+* An SD or USB drive
 * [YAWM ModMii Edition](yawmme)
 * Un computer Windows.
 * [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
@@ -26,20 +29,17 @@ NON creare un collegamento per i giochi "Mario Party 9" o "A Boy and His Blob". 
 
     ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
-2. Naviga fino a selezionare il file ISO o WBFS nel tuo dispositivo USB, e seleziona il USB Loader che usi. Le altre opzioni possono essere lasciate così come sono.
+2. Select the path to the ISO or WBFS file on your SD or USB drive, and select the loader you use. Le altre opzioni possono essere lasciate così come sono.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
 If you are on vWii, use the [Wiiforwarder2vWii](https://gbatemp.net/download/wiiforwarder2vwii-wii-forwarder-to-vwii-wii-u-forwarder-converter-beta-version.37254/) tool to convert the WAD for use on the vWii.
 {: .notice--info}
 
-3. Installa il file WAD generato con il tuo WAD manager.
+3. Install the generated WAD with your [WAD manager](yawmme).
 
 <div class="notice--info">
-Se ottieni l'errore "The system files are corrupted", non ci sono problemi se Priiloader è già stato installato.
-
-Spegni la tua console Wii, poi tieni premuto il pulsante RESET e riaccendila. Dovresti ritrovarti nel menu di Priiloader. <br>
-Basta entrare nell'Homebrew Channel, e usare il tuo WAD manager per disinstallare la WAD problematica.
+Se ottieni l'errore "The system files are corrupted", non ci sono problemi se Priiloader è già stato installato. Spegni la tua console Wii, poi tieni premuto il pulsante RESET e riaccendila. Dovresti ritrovarti nel menu di Priiloader. Enter the Homebrew Channel and launch your WAD manager to uninstall the WAD. If priiloader was not installed, proceed to [BlueBomb](bluebomb).
 </div>
 
 [Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
