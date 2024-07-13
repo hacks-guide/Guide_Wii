@@ -43,11 +43,10 @@ sitemap: false
 + [ModMii](modmii)
 + [Канал Open Shop (Open Shop Channel)](osc)
 + [Priiloader](priiloader)
++ [Recovery mode](recovery-mode)
 + [Повторный запуск установщика HackMii](hackmii)
 + [Восстановление Wii NAND до заводских настроек](wii-factory-reset)
 + [Обновление меню Wii до версии 4.3](update)
-+ [Режим восстановления (Recovery Mode)](recovery-mode)
-+ [Восстановление Wii NAND до заводских настроек](wii-factory-reset)
 + YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 
