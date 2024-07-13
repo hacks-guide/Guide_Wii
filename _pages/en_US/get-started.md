@@ -4,7 +4,7 @@ title: "Get Started"
 
 {% include toc title="Table of Contents" %}
 
-These steps will help you softmod your Wii, from stock to BootMii. Before starting this guide, please ensure that your console is on the latest version of the Wii firmware (4.3). If your Wii is already softmodded but is on an older version, follow [this](update) guide to upgrade your setup.
+If your Wii is already softmodded and you would like to update the softmods, follow [this](hackmii) guide to upgrade your setup.
 
 All of the exploits listed here are different methods of achieving the same end-result (getting to the HackMii installer).
 
