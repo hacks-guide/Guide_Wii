@@ -12,26 +12,22 @@ cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While 
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-This guide is only intended for Wii users. If you have a Wii mini, follow [this guide](cios-mini) instead. If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
-{: .notice--warning}
-
-Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely [brick](bricks#ios-brick) your console.
-{: .notice--warning}
-
 ### Requirements
+
+This guide is only intended for Wii users. <br/>
+If you have a Wii U (vWii), follow [this guide](cios-vwii) instead. <br/>
+If you have a Wii mini, follow [this guide](cios-mini) instead.
+{: .notice--warning}
 
 * A Wii
 * An SD card or USB drive
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
-{: .notice--warning}
-
 ### Instructions
 
 #### Section I - Downloading
 
-If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
+If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
 
 If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
@@ -58,7 +54,6 @@ The WAD files should be on your SD card like this:
 
 #### Section II - Installing
 
-
 1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Power on your console.
@@ -74,6 +69,9 @@ The WAD files should be on your SD card like this:
     ```
 
     ![](/images/cios/d2x_v11_248.png)
+
+    If you do not see `d2x-v11-beta1`, exit the installer with B, and make sure your SD card is unlocked.
+    {: .notice--info}
     
     The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
     {: .notice--info}
@@ -136,6 +134,9 @@ The WAD files should be on your SD card like this:
         ![](/images/cios/d2x_v11_251.png)
         
 1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+
+If you downloaded the 4 WAD files in Section I, you may now delete them from your SD card/USB drive.
+{: .notice--info}
 
 Continue to [Open Shop Channel Installation](osc) <br>
 Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
