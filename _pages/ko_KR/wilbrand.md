@@ -118,7 +118,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Open the Wii Message Board.
 1. 폭탄 아이콘이 있는 녹색 편지 봉투를 엽니다.
     + Wii의 날짜가 정확하지 않으면 편지를 찾지 못할 수 있습니다.
-    + In various scenarios, you may need to look at the previous or next day to find it.
+    + In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     + 녹색 편지 봉투가 보이지 않으면 `데이터 관리`에서 SD 카드 섹션에 오류가 표시되는지 확인하세요. 이 경우 SD 카드 형식 또는 Wii의 SD 카드 리더기에 문제가 있는 것일 수 있습니다.
 
     ![](/images/exploits/wilbrand/msgboard.png)
