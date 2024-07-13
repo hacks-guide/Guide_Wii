@@ -41,11 +41,10 @@ sitemap: falso
 + [ModMii](modmii)
 + [Canal Open Shop](osc)
 + [Priiloader](priiloader)
++ [Recovery mode](recovery-mode)
 + [Relaunching the HackMii Installer](hackmii)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Updating Wii Menu to v4.3](update)
-+ [Recovery Mode](recovery-mode)
-+ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wiimmfi](wiimmfi)
 {% endcapture %}
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
