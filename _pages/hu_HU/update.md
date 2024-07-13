@@ -11,6 +11,8 @@ Sokkal biztonságosabb a [ModMii](modmii) (csak Windows) segítségével frissí
 
 ### Követelmények
 
+* a Wii with The Homebrew Channel 1.0.8 or later
+    + If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
 * Egy SD kártya vagy pendrive
 * Egy számítógép Windows-szal
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
@@ -20,9 +22,6 @@ Sokkal biztonságosabb a [ModMii](modmii) (csak Windows) segítségével frissí
 ### Útmutató
 
 #### I. rész - Letöltés
-
-A Wii-odnak moddoltnak kell lennie ennek a végrehajtásához. Ha még nem az, kövesd ezt az [útmutatót](get-started) először.
-{: .notice--info}
 
 1. Csomagold ki a .zip fájlját a NUS Downloader Wii-nak és nyisd meg az alkalmazást.
 1. Navigálj a `Database...` > `System` > `0000000100000002 - System Menu` opcióhoz és válaszd a verziót, ami kapcsolódik a régiódhoz az alábbi táblázatból.
