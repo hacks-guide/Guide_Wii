@@ -51,7 +51,7 @@ Si has instalado BootMii como boot2, apaga y vuelve a encender la consola para i
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. After the previous step completes, BootMii will verify the backup. Lo ideal sería que todos los bloques aparezcan en verde tras finalizar la verificación.
-    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine.
+    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long as all non-bad blocks are successfully verified, this should be fine.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -70,7 +70,7 @@ Se habrán creado dos archivos en la raíz de la tarjeta SD: `nand.bin` y `keys.
 
 ### Autobooting
 
-If you were able to install BootMii as boot2, but dont want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
+If you were able to install BootMii as boot2, but don't want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
 
 1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
 1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
