@@ -12,26 +12,20 @@ cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While 
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-This guide is only intended for Wii users. If you have a Wii mini, follow [this guide](cios-mini) instead. If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
-{: .notice--warning}
-
-Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. 그렇게 하면 콘솔이 망가질 가능성이 높습니다.
-{: .notice--warning}
-
 ### 필요한 것
+
+This guide is only intended for Wii users. <br/> If you have a Wii U (vWii), follow [this guide](cios-vwii) instead. <br/> If you have a Wii mini, follow [this guide](cios-mini) instead.
+{: .notice--warning}
 
 * Wii
 * SD 카드 또는 USB 드라이브
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있는지 확인합니다. 그렇지 않으면 설치 프로그램에서 올바른 옵션을 선택할 수 없습니다.
-{: .notice--warning}
-
 ### 진행 방법
 
 #### 섹션 I - 다운로드
 
-If you are not on Windows, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
+If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
 
 If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
@@ -57,7 +51,6 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 
 #### 섹션 II - 설치하기
 
-
 1. d2x cIOS 설치 프로그램을 다운로드하고 압축 파일을 SD 카드 또는 USB 드라이브의 루트에 압축 해제합니다.
 1. Reinsert your SD card or USB drive into your console.
 1. 콘솔의 전원을 켜 주세요.
@@ -73,6 +66,9 @@ cIOS 버전 선택: 65535
     ```
 
     ![](/images/cios/d2x_v11_248.png)
+
+    If you do not see `d2x-v11-beta1`, exit the installer with B, and make sure your SD card is unlocked.
+    {: .notice--info}
 
     The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
     {: .notice--info}
@@ -132,6 +128,9 @@ cIOS 버전 선택: 65535
         ![](/images/cios/d2x_v11_251.png)
 
 1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+
+If you downloaded the 4 WAD files in Section I, you may now delete them from your SD card/USB drive.
+{: .notice--info}
 
 [Continue to the Homebrew Browser](hbb)<br> The Homebrew Browser is a good place to get homebrew on your Wii. 설치는 선택 사항입니다.
 {: .notice--info}
