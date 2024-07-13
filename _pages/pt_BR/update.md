@@ -11,6 +11,8 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### Requisitos
 
+* a Wii with The Homebrew Channel 1.0.8 or later
+    + If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
 * Um cartão SD ou armazenamento USB
 * Um computador com Windows nele
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
@@ -20,9 +22,6 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 ### Instruções
 
 #### Seção I - Baixando
-
-Seu Wii deve estar com hacks para fazer isso. Se não estiver, é melhor seguir [o guia](get-started) primeiro antes de fazer isso.
-{: .notice--info}
 
 1. Extraia o .zip para o NUS Downloader Wii e abra o aplicativo.
 1. Vá para `System` > `System` > `000000100000002 - System Menu` e selecione a versão correspondente a sua região como mostrada na tabela abaixo.
