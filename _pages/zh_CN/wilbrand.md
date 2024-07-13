@@ -118,7 +118,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 1. Open the Wii Message Board.
 1. Open the green letter with a bomb.
     + 请确保 Wii 的日期正确，否则您可能找不到信。
-    + In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
+    + In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     + 如果您没有看到绿色信，请检查 `数据管理` 中的 SD 卡部分是否有任何错误。 如果有任何问题，可能是由于 SD 卡格式或 Wii 的 SD 卡槽出现问题。
 
     ![](/images/exploits/wilbrand/msgboard.png)
