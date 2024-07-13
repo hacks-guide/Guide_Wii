@@ -39,7 +39,7 @@ If you are on vWii, use the [Wiiforwarder2vWii](https://gbatemp.net/download/wii
 3. Install the generated WAD with your [WAD manager](yawmme).
 
 <div class="notice--info">
-If you get an error saying "The system files are corrupted", don't panic as long as you installed Priiloader. Turn off your Wii, then hold down the RESET button down and turn on your Wii. You should be able to boot into the Priiloader menu. Enter the Homebrew Channel and launch your WAD manager to uninstall the WAD. If priiloader was not installed, proceed to [BlueBomb](bluebomb).
+If you get an error saying "The system files are corrupted", don't panic as long as you installed Priiloader. Turn off your Wii, then [boot into Priiloader](priiloader#section-iii---entering-priiloader) using one of the available methods for your console. Enter the Homebrew Channel and launch your WAD manager to uninstall the WAD. If priiloader was not installed, proceed to [BlueBomb](bluebomb).
 </div>
 
 [Нажмите здесь, что бы вернуться на домашнюю страницу.](site-navigation)
