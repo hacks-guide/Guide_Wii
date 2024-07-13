@@ -11,7 +11,8 @@ This page will guide you through the process of modding your vWii.
 If you have hacked your Wii U in the past, you can use the same SD Card for this process.
 {: .notice--info}
 
-If you haven't already, make sure you did a [nand backup](https://wiiu.hacks.guide/#/aroma/nand-backup) and have the [Aroma Environment](https://aroma.foryour.cafe/) installed on your Wii U. Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
+If you haven't already, make sure you did a [NAND backup](https://wiiu.hacks.guide/#/aroma/nand-backup) and have the [Aroma Environment](https://aroma.foryour.cafe/) installed on your Wii U.
+Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
 {: .notice--info}
 
 ### 需要
@@ -62,5 +63,5 @@ Note: When installing Wii homebrew applications on your SD Card or USB drive, yo
 `AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
 Do not Get confused with the `apps` folder inside of the `wiiu` folder and the `apps` folder on the root of the SD card.
 
-[Continue to installing Priiloader](priiloader)<br>
+Continue to [Installing Priiloader](priiloader)<br>
 {: .notice--info}
