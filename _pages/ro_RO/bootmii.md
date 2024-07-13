@@ -51,7 +51,7 @@ Dacă ai BootMii instalat ca boot2, va trebui să repornești consola pentru a r
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. Odată ce ultimul pas este completat, BootMii va verifica backup-ul. Ideal, toate blocurile ar trebui să fie verzi după procesul de verificare.
-    + Dacă ai bad block-uri cu pagini necorectabile din fabrică, aceste blocuri s-ar putea să eșueze verificarea. Cât timp toate blocurile verzi sunt verificate cu succes, totul ar trebui să fie în regulă.
+    + Dacă ai bad block-uri cu pagini necorectabile din fabrică, aceste blocuri s-ar putea să eșueze verificarea. As long as all non-bad blocks are successfully verified, this should be fine.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -70,7 +70,7 @@ Două fișiere vor fi create în directorul principal al cardului tău SD: `nand
 
 ### Autobootare
 
-Dacă poți instala BootMii ca boot2, dar nu vrei să afișeze ecranul BootMii când pornești de fiecare data consola, ai opțiunea de a seta ca BootMii să autobooteze in system menu. Acest lucru ar trebui făcut astfel încât să nu observi că BootMii este instalat ca boot2.
+If you were able to install BootMii as boot2, but don't want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. Acest lucru ar trebui făcut astfel încât să nu observi că BootMii este instalat ca boot2.
 
 1. Deschide `SD:/bootmii/bootmii.ini` cu un editor de text, cum ar fi notepad.
 1. Schimbă `#AUTOBOOT=SYSMENU` în `AUTOBOOT=SYSMENU` prin ștergerea `#`-ului.
