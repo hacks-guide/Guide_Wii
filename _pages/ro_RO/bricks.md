@@ -177,7 +177,7 @@ Acest brick pare să fie identic cu un brick de nivel adânc datorită eșuării
 Acest brick se întâmplă cel mai des atunci când sistemul IOS al meniului Wii este unul [stub](http://wiibrew.org/wiki/Stub_IOS), sau în cazul în care pe consolă este instalat un tip greșit de IOS. Un IOS stub pentru system menu este de obicei consecința încercării de a face downgrade la Wii menu. Dacă această eroare a început să se întâmple după instalarea unui IOS80 normal într-un Wii mini, vezi [brick de Wi-Fi](bricks#wi-fi-brick).
 
 #### Soluții
-[Recovery mode](recovery-mode) poate sau poate să nu fie accesibil datorită naturii brick-ului, însă Priiloader nu va funcționa aproape niciodată. Dacă nu poți intra în recovery mode, trebuie să ai BootMii ca boot2 pentru a repara asta. Dacă aceste condiții nu sunt îndeplinite, vezi [brick de nivel adânc](bricks#low-level-brick).
+You must have BootMii as boot2 to fix this.
 
 Poți să restaurezi un backup al memoriei NAND sau să faci asta:
 
