@@ -177,7 +177,7 @@ Este bloqueo parecerá idéntico a uno total debido a un fallo del menú de Wii 
 This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. A stubbed system menu IOS is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
 
 #### Soluciones
-El [modo de recuperación](recovery-mode) puede ser accesible o no a causa de la naturaleza del bloqueo, pero Priiloader no funcionará en la mayoría de los casos. You must have BootMii as boot2 to fix this brick. Si no se cumplen estas condiciones, consulta el [bloqueo de bajo nivel](bricks#low-level-brick).
+You must have BootMii as boot2 to fix this.
 
 Puedes o restaurar una copia de seguridad de la NAND, o hacer esto:
 
