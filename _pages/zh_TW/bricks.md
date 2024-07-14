@@ -177,7 +177,7 @@ This brick happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/S
 This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. A stubbed system menu IOS is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
 
 #### 解決方式
-[Recovery mode](recovery-mode) may or may not be accessible due to the nature of the brick, but Priiloader will almost always not work. [Recovery mode](recovery-mode) may or may not be accessible due to the nature of the brick, but Priiloader will almost always not work. If you cannot reach recovery mode, you must have BootMii as boot2 to fix this. If these conditions are not met, see [low-level brick](bricks#low-level-brick). If these conditions are not met, see [low-level brick](bricks#low-level-brick).
+You must have BootMii as boot2 to fix this.
 
 You can either restore a NAND backup, or do this:
 
