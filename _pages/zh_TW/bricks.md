@@ -123,7 +123,7 @@ Attempt to start the Wii - warning/press A screen shows up, and when A is presse
 A mail brick happens when your Wii has a lot of mail. This will make the Wii crash. Because the Wii Message Board is always drawn below Wii channels, this causes the Wii Menu to fail before fully loading. Because the Wii Message Board is always drawn below Wii channels, this causes the Wii Menu to fail before fully loading.
 
 #### 解決方式
-By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed and the system menu is at Wii menu version 2.0 or later, follow [str2hax](str2hax). Otherwise, see [Bluebomb](bluebomb). Otherwise, see [Bluebomb](bluebomb).
+By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed, follow [Bluebomb](bluebomb).
 
 To fix a mail brick, enter Maintenance mode by holding `+` and `-` on the Health and Safety screen. (不要按 `A`!) <br> Enter the Homebrew Channel, and use [cdbackup](https://oscwii.org/library/app/cdbackup) to delete your Wii Message Board data.
 
