@@ -123,7 +123,7 @@ A Wii bekapcsolásakor megejelennek az egészségügyi figyelmeztetések, majd a
 Az üzenetrontás akkor következik be, ha a Wiinek túl sok üzenetet kell feldolgoznia, vagy ha nem megfelelő üzenetek érkeztek a Wii Üzenőfalra. Ez megakadályozza a normális indítást. Mivel a Wii Üzenőfal a csatornák alatt jelenik meg, ez a Wii menü betöltésének meghiúsulását eredményezi.
 
 #### Megoldás
-Tartsd nyomva a + és - gombokat az egészségügyi figyelmeztetések képernyőjén a karbantartási módba való belépéshez, ahol a Wii Üzenőfalat nem tölti be a rendszer! Ha a Homebrew Channel nincs telepítve és a rendszermenü legalább 2.0-s verziószámú, akkor ld. [str2hax](str2hax). Egyéb esetben ld. [Bluebomb](bluebomb).
+Tartsd nyomva a + és - gombokat az egészségügyi figyelmeztetések képernyőjén a karbantartási módba való belépéshez, ahol a Wii Üzenőfalat nem tölti be a rendszer! If the Homebrew Channel is not installed, follow [Bluebomb](bluebomb).
 
 Ezután nyisd meg a Homebrew Channelt és a [cdbackup](https://oscwii.org/library/app/cdbackup) segítségével töröld ki a Wii Üzenőfal adatait!
 
