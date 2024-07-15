@@ -123,7 +123,7 @@ Al intentar arrancar la Wii, aparece la pantalla de salud y seguridad y, al puls
 A mail brick happens when your Wii has a lot of mail. This will make the Wii crash.
 
 #### Soluciones
-By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. Si el Canal Homebrew no está instalado y el menú del sistema está en la versión 2.0 o posterior del menú de Wii, sigue [str2hax](str2hax). En caso contrario, consulta [Bluebomb](bluebomb).
+By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed, follow [Bluebomb](bluebomb).
 
 (do not press `A`!) <br> Enter the Homebrew Channel, and use [cdbackup](https://oscwii.org/library/app/cdbackup) to delete your Wii Message Board data.
 
