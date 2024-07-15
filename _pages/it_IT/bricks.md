@@ -123,7 +123,7 @@ Prova ad accendere il Wii - viene mostrato l'avviso di salute e sicurezza, quand
 Un brick mail si verifica nel momento in cui un Wii ha troppa mail da gestire, o quando una mail malformata si trova nella Bacheca Wii, causando un blocco del sistema durante l'avvio. In quanto la Bacheca Wii è sempre presente sotto i canali, questo impedisce al Menu Wii di caricare correttamente.
 
 #### Soluzione
-Tenendo premuti i tasti + e - sulla schermata di avviso, puoi entrare nella modalità manutenzione, in cui la Bacheca Wii non viene caricata. Se l'Homebrew Channel non è installato e il menu di sistema del Wii è di versione 2.0 o superiore, segui [str2hax](str2hax). Altrimenti, vedi [Bluebomb](bluebomb).
+Tenendo premuti i tasti + e - sulla schermata di avviso, puoi entrare nella modalità manutenzione, in cui la Bacheca Wii non viene caricata. If the Homebrew Channel is not installed, follow [Bluebomb](bluebomb).
 
 Da qui, l'Homebrew Channel può essere avviato e il brick può essere risolto eliminando i dati della Bacheca Wii con [cdbackup](https://oscwii.org/library/app/cdbackup).
 
