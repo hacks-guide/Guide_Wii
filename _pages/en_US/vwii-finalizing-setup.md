@@ -20,6 +20,9 @@ The Mii Channel on the vWii lacks some features, such as connecting to a DS and 
 2. Type `R` to run the script
 3. When it is done, place the `Mii Channel v6 (Wii).wad` in a folder on your SD card titled `WAD`. You can make one if it does not exist.
 
+If you have issues running the script, open up a normal powershell and run `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`. Then, right click the script files, open properties, and click unblock if the button is present. Try the script again.
+{: .notice--info}
+
 #### Mac
 
 1. Double click on the file. It should automatically run.
