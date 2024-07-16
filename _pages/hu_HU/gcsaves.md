@@ -4,12 +4,12 @@ title: "GameCube mentések"
 
 {% include toc title="Tartalomjegyzék" %}
 
-This is a full guide on how to manage your GameCube saves.
+Ez egy teljes útmutató arról, hogy hogyan kezeld a GameCube mentéseidet.
 
-Use of any GameCube peripheral with a Family Edition Wii or Wii mini require soldering on GameCube ports and/or memory card slots.
+Bármilyen GameCube periféria a Family Edition Wii vagy Wii mini esetén forrasztást igényel a GameCube portjain és/vagy memória kártya slotokon.
 {: .notice--info}
 
-## Uploading an Individual Save (.gci File) to a Physical Memory Card
+## Egy mentés fájl (.gci fájl) másolása egy Physical Memory Card-ra
 
 ### Követelmények
 
@@ -17,10 +17,10 @@ Use of any GameCube peripheral with a Family Edition Wii or Wii mini require sol
 * Egy SD kártya vagy USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-If you are looking for 100% completion saves online, you can find them [here](https://gamefaqs.gamespot.com/).
+Ha 100% teljesítettségű mentéseket keresel, [itt](https://gamefaqs.gamespot.com/) megtalálhtod őket.
 {: .notice--info}
 
-If you are looking for save game exploits for booting into [Swiss](https://github.com/emukidid/swiss-gc/releases), you can find a list of them [here](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
+Ha játékmentés exploitokat keresel, a [Swiss](https://github.com/emukidid/swiss-gc/releases)-be bootoláshoz, a listájukat megtalálhatod [itt](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
 {: .notice--info}
 
 ### Útmutató
@@ -52,7 +52,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Amikor a visszaállítás megtörtént, nyomj tetszőleges gombot a folytatáshoz.
 
-## Backing Up A Save (.gci File) to an SD or USB From a Physical Memory Card
+## Egy mentés fájl (.gci fájl) másolása egy SD kártyára vagy egy USB drive-ra a Physical Memory Card-ról
 
 ### Követelmények
 
@@ -83,13 +83,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. Select the save you want to backup. If you have multiple saves to backup, you can press R on the GameCube controller or 1 on the Wii remote to backup all of your saves.
+1. Válaszd ki a mentést, amit másolni szeretnél. Ha több mentést is szeretnél másolni, nyomj R gombot a Gamecube controlleren vagy 1-et a Wii remote-on az összes játék mentésének másolásához.
 
     ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
-1. When backing up is complete, press any button to continue.
+1. Ha a mentés elkészült nyomj tetszőleges gombot.
 
-## Backing Up Your Physical Memory Card Into an Emulated Memory Card (.raw file)
+## A Physical Memory Card másolása egy Emulált Memória kártyára (.raw filel)
 
 ### Követelmények
 
@@ -104,10 +104,10 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 1. Csomagold ki a GCMM-et, és tedd az SD-kártyán vagy USB-meghajtón lévő `apps` mappába.
 1. Csatlakoztasaz SD-kártyát vagy az USB-meghajtót a Wii-hoz, és indítsd el a GCMM-et a Homebrew Channel-ről.
 
-#### Dumping the .raw
+#### A .raw dumpolása
 
 1. Csatlakoztasd a memória kártyádat a Slot A-hoz vagy a Slot B-hez.
-1. Select the device you want to dump to.
+1. Válaszd ki az eszközt, amire menteni szeretnél.
 
     ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
@@ -146,11 +146,11 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 ### Követelmények
 
 * Egy Wii GameCube portokkal
-* At least 2 physical memory cards
+* Legalább 2 fizikai memória kártya
 
 ### Útmutató
 
-1. Insert both memory cards into the Wii.
+1. Csatlakoztasd mindkettő kártyát a Wii-hez.
 1. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
 
     ![](/images/homebrew/gcsaves/sysmenu.jpg) <br>
