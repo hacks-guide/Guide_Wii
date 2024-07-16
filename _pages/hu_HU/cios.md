@@ -13,7 +13,7 @@ title: "cIOS-ek telepítése"
 
 ### Követelmények
 
-Az útmutató ezen része csak Wii-felhasználóknak szól. <br/> If you have a Wii U (vWii), follow [this guide](cios-vwii) instead. <br/> If you have a Wii mini, follow [this guide](cios-mini) instead.
+Az útmutató ezen része csak Wii-felhasználóknak szól. <br/> Ha egy Wii U-d (vWii) van, [ezt az útmutatót](cios-vwii) kövesd. <br/>Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd.
 {: .notice--warning}
 
 * Egy Wii
@@ -24,7 +24,7 @@ Az útmutató ezen része csak Wii-felhasználóknak szól. <br/> If you have a 
 
 #### I. rész – Letöltés
 
-If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
+Ha macOS vagy Linux rendszerel dolgozol, letöltheted és futtathatod [szkriptet](/assets/files/d2x_offline_ios.sh), ami letölti neked a WAD fájlokat.
 {: .notice--info}
 
 Ha képes vagy csatlakoztatni a Wii-t az internetre, átugorgatod a [II. részt](cios#section-ii---installing)
@@ -66,7 +66,7 @@ Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
 
     ![](/images/cios/d2x_v11_248.png)
 
-    If you do not see `d2x-v11-beta1`, exit the installer with B, and make sure your SD card is unlocked.
+    Ha nem látod a `d2x-v11-beta1`-et, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
     {: .notice--info}
 
     A „`(c)IOS detected in slot ### will be overwritten`” („Az x. helyen található (c)IOS felül lesz írva”) figyelmeztetést figyelmen kívül hagyhatod.
@@ -128,7 +128,7 @@ Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
 
 1. Ha végeztél mind a négy cIOS telepítésével, nyomd meg a B-gombot a Homebrew Channelbe való visszatéréshez!
 
-If you downloaded the 4 WAD files in Section I, you may now delete them from your SD card/USB drive.
+Ha letöltötted a 4 WAD fájlt az I. részben, most törölheted őket az SD kártyádról/USB drive-odról.
 {: .notice--info}
 
 Folytatás az [Open Shop Channel telepítésével](osc) <br> Most, hogy a konzol megfelelő védelemmel rendelkezik, telepítheted az Open Shop Channelt, ami a nemhivatalos programok megbízható tárháza és hozzáférhető mind egy Wiiről vagy egy számítógépről.
