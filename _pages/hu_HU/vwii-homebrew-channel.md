@@ -63,5 +63,5 @@ Megjegyzés: Ha homebrew Wii alkalmazásokat telepítesz SD kártyára vagy USB 
 `AppName1` és `AppName2` helyfoglaló nevek. Az `apps` mappában ne hozz létre egy másik `apps` nevű mappát.
 Ne keverd össze az `apps` mappát a `wiiu` mappában és az `apps` mappával az SD kártya gyökerében.
 
-Continue to [Installing Priiloader](priiloader)<br>
+Folytatás a [Priiloader telepítésével](priiloader)<br>
 {: .notice--info}
