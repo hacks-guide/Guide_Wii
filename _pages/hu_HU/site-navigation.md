@@ -43,7 +43,7 @@ sitemap: false
 + [ModMii](modmii)
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
-+ [Recovery mode](recovery-mode)
++ [Helyreállítási mód](recovery-mode)
 + [A HackMii Installer újraindítása](hackmii)
 + [A Wii NAND visszaállítása gyárira](wii-factory-reset)
 + [A Wii Menu frissítése v4.3-ra](update)
