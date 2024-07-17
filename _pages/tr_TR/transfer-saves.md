@@ -30,7 +30,7 @@ This guide will explain how to transfer game saves between:
 
 + an SD card formatted to FAT32/MS-DOS
 
-##### Instructions
+##### Talimatlar
 
 1. Insert your SD card into your Wii/Wii U.
 1. In the Wii Menu, select the `Wii Options` at the bottom left.
@@ -56,7 +56,7 @@ Make sure you have installed [cIOS](cios) before following this!
 * An SD card or USB drive
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
-##### Instructions
+##### Talimatlar
 
 1. Extract SaveGame Manager GX to the root of your SD card or USB drive, and put it into your source Wii/Wii U.
 1. Launch the Homebrew Channel, then launch SaveGame Manager GX.
@@ -87,7 +87,7 @@ All methods here require a Wii with GameCube ports.
 * [a NAND backup](bootmii)
 * Latest beta version of Dolphin Emulator
 
-##### Instructions
+##### Talimatlar
 
 1. After [making your NAND backup](bootmii), put your SD card into your PC and open Dolphin Emulator.
 1. Select `Tools > Manage NAND... > Import BootMii NAND Backup`.
@@ -105,7 +105,7 @@ Make sure you have installed [cIOS](cios) before following this!
 * An SD card or USB drive
 * Latest beta version of Dolphin Emulator
 
-##### Instructions
+##### Talimatlar
 
 1. On your Wii/Wii U, launch the Homebrew Channel, then launch SaveGame Manager GX.
 1. Find and select the save you would like to transfer, select `Extract`, then select `Default`.
@@ -156,7 +156,7 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 
 * an SD card
 
-##### Instructions
+##### Talimatlar
 
 1. Open Dolphin Emulator.
 1. If you exporting a select game's save, right click the game inside the Dolphin window and select `Export Wii Save`.
@@ -182,7 +182,7 @@ Make sure you have installed [cIOS](cios) before following this!
 * An SD card or USB drive
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
-##### Instructions
+##### Talimatlar
 
 1. Open Dolphin Emulator.
 1. If you exporting a select game's save, right click the game inside the Dolphin window and select `Export Wii Save`.
@@ -204,7 +204,7 @@ Make sure you have installed [cIOS](cios) before following this!
 * An SD card or USB drive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-##### Instructions
+##### Talimatlar
 
 1. Open Dolphin Emulator.
 1. In the main menu, select `File > Open User Folder`.
@@ -236,7 +236,7 @@ Make sure you have installed [cIOS](cios) before following this!
 
 <div id="dol-emumc" class="tabcontent to" markdown="1">
 
-##### Instructions
+##### Talimatlar
 
 1. Open Dolphin Emulator and select `Tools > Memory Card Manager` from the main menu.
 1. Click the `Open` button next to Slot B.
@@ -264,7 +264,7 @@ All methods here require a Wii with GameCube ports.
 
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-##### Instructions
+##### Talimatlar
 
 1. Download and extract GCMM to the root of your SD card or USB drive.
 1. Safely eject the SD/USB from your PC, then put it into your Wii.
@@ -292,7 +292,7 @@ All methods here require a Wii with GameCube ports.
 
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-##### Instructions
+##### Talimatlar
 
 1. Download and extract GCMM to the root of your SD card or USB drive.
 1. Safely eject the SD/USB from your PC, then put it into your Wii.
@@ -328,7 +328,7 @@ All methods here require a Wii with GameCube ports.
 
 * a Wii
 
-##### Instructions
+##### Talimatlar
 
 1. Insert both memory cards into your Wii.
 1. Launch the Wii menu and select the Wii Options button at the bottom left.
@@ -351,7 +351,7 @@ div id="emumc" class="tabcontent" markdown="1">
 
 * Latest beta or Development version of Dolphin Emulator
 
-##### Instructions
+##### Talimatlar
 
 1. Insert your SD card or USB drive into your PC.
 1. Open Dolphin Emulator, and select `Tools > Memory Card Manager` from the main menu.
