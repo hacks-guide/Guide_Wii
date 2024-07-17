@@ -19,12 +19,12 @@ There are two methods listed on this page used to create the proper Wilbrand exp
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Talimatlar
 
-1. Power on your console.
+1. Konsolunuzu açın.
 1. On your Wii, go to `Wii Settings`, and make note of the version at the top right.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Bu harf sistem menüsü bölgenizi temsil eder, bir sonraki adımlar için bilmeniz gerekir.
 
     ![](/images/wii/SystemMenuVersion.png)
 
@@ -56,7 +56,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + If you don't see the green letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii's SD card reader.
 
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Eğer exploit başarılı olmuşsa, cihazınız HackMii Installer'ı yüklemiş olmalıdır.
     + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
@@ -80,12 +80,12 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 {: .notice--warning}
 
-#### Instructions
+#### Talimatlar
 
-1. Power on your console.
+1. Konsolunuzu açın.
 1. On your Wii, go to `Wii Settings`, and make note of the version at the top right.
 1. Take note of the letter next to the system version, in the top-right corner of the screen.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    + Bu harf sistem menüsü bölgenizi temsil eder, bir sonraki adımlar için bilmeniz gerekir.
 
     ![](/images/wii/SystemMenuVersion.png)
 
@@ -123,7 +123,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Eğer exploit başarılı olmuşsa, cihazınız HackMii Installer'ı yüklemiş olmalıdır.
     + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
