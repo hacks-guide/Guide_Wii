@@ -111,13 +111,13 @@ Ha játékmentés exploitokat keresel, a [Swiss](https://github.com/emukidid/swi
 
     ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-1. Press L and Y at the same time on GameCube Controller or B and - at the same time on the Wii remote to backup your to a .raw file and select the slot your memory card is in.
+1. Nyomd meg az L és Y gombot egyszerre a a GameCube kontrolleren vagy B és - gombot egyszerre a Wii remote-on a .raw fájlod mentéséhe és válaszd ki a slot-ot amelyikben a memória kártyád van.
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. When the dump is complete, press any button to continue. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
+1. Amikor a dump megtörtént, nyomj tetszőleges gombot a folytatáshoz. Az `MCBACKUP` nevű mappában kell lennie az SD kártyád vagy az USB drive-od gyökerében.
 
-## Restoring an Emulated Memory Save to a Physical Memory Card
+## Egy emulált memória mentés visszaállítása egy fizikai memória kártyára
 
 ### Követelmények
 
@@ -127,21 +127,21 @@ Ha játékmentés exploitokat keresel, a [Swiss](https://github.com/emukidid/swi
 
 ### Útmutató
 
-1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
-1. If you are restoring a Nintendont emulated memory card save, navigate to the `saves` folder on the root of your SD card or USB.
+1. Ha egy Dolphin mentést próbálsz helyreálltani, menj a `File` fülre a Dolphin-ba és válaszd a user mappa megnyitását, a GC mappa megnyitását, majd keresd meg a `.raw` fájlt.
+1. Ha egy Nintendont emulált memória kártya mentést próbálsz helyreállítani, akkor navigálj a `saves` mappába az SD kártyád vagy USB drive-od gyökerében.
 1. Csatlakoztasd a memória kártyádat a Slot A-hoz vagy a Slot B-hez.
 1. Válaszd ki az eszközt, amiről helyreállítani szeretnél.
 
     ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-1. Press L and X at the same time on GameCube controller or B and + at the same time on the Wii remote.
+1. Nyomd meg az L és X gombot egyszerre a a GameCube kontrolleren vagy B és + gombot egyszerre a Wii remoteon.
 1. Válaszd ki a Slot-ot amelyikben a memóriakártya található.
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. It should restore the .raw file to your memory card. Amikor a visszaállítás megtörtént, nyomj tetszőleges gombot a folytatáshoz.
+1. Helyre kell állítania a .raw fájlt a memória kártyádra. Amikor a visszaállítás megtörtént, nyomj tetszőleges gombot a folytatáshoz.
 
-## Transferring Saves Between 2 Physical Memory Cards
+## Mentések átvitelek két fizikai memória kártya között
 
 ### Követelmények
 
@@ -151,7 +151,7 @@ Ha játékmentés exploitokat keresel, a [Swiss](https://github.com/emukidid/swi
 ### Útmutató
 
 1. Csatlakoztasd mindkettő kártyát a Wii-hez.
-1. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
+1. A System menüből navigálj a `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube` opcióhoz.
 
     ![](/images/homebrew/gcsaves/sysmenu.jpg) <br>
 
@@ -161,7 +161,7 @@ Ha játékmentés exploitokat keresel, a [Swiss](https://github.com/emukidid/swi
 
     ![](/images/homebrew/gcsaves/save-data.jpg)
 
-1. Find the save you want, select it and select `Move or Copy`.
+1. Keresd meg a mentést amit szeretnél, válaszd ki majd válaszd a `Move or Copy` opciót.
 
 [Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
 {: .notice--info}
