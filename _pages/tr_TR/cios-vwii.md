@@ -2,7 +2,7 @@
 title: d2x cIOS for vWii
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 {% capture technical_info %}
 
@@ -29,7 +29,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
 {: .notice--warning}
 
-### Instructions
+### Talimatlar
 
 #### Section I - Installing
 
