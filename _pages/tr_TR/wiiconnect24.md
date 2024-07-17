@@ -2,7 +2,7 @@
 title: "WiiConnect24"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 <!--
 This guide provides the means of regaining WiiConnect24 functionality on your console via RiiConnect24.
 Although not at all necessary, it is a "nice to have" feature that was originally used for online connectivity in certain applications on the console.
@@ -27,7 +27,7 @@ WiiLink hosts a patcher for the services that it provides, ranging from internat
 + An SD card or USB drive
 + [sntp](https://oscwii.org/library/app/sntp)
 
-#### Instructions
+#### Talimatlar
 1. Download and extract the sntp zip to the root of your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii.
 1. Launch the Homebrew Channel on your Wii.
@@ -42,7 +42,7 @@ WiiLink hosts a patcher for the services that it provides, ranging from internat
 + An SD card
 + [Priiloader](priiloader)
 
-#### Instructions
+#### Talimatlar
 1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
 2. Select generate and copy the information.
 3. On your SD Card, navigate to `SD:/apps/priiloader` and open `hacks_hash.ini` with a text editor such as notepad.
