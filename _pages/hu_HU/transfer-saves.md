@@ -272,7 +272,7 @@ All methods here require a Wii with GameCube ports.
 
 1. When the dump is complete, press any key to continue.
 1. Press HOME/START to exit GCMM.
-1. Insert your SD card/USB drive into your PC.
+1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
 1. Copy the `.raw` file inside `MCBACKUP` to the root of the device used for Nintendont and name it `ninmem.raw`.
     + If your games are Japanese, Nintendont will use `ninmemj.raw`, because Japanese games do not play very nicely when there are other region saves present.
 1. Launch Nintendont and set Memcard emulation to multi [ ? ]
@@ -300,7 +300,7 @@ All methods here require a Wii with GameCube ports.
 
 1. When the dump is complete, press any key to continue.
 1. Press HOME/START to exit GCMM.
-1. Insert your SD card/USB drive into your PC.
+1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
 1. Open Dolphin Emulator, and select `Tools > Memory Card Manager` from the main menu.
 1. Click `Open` next to slot B.
 1. Go into the `MCBACKUP` folder on your SD/USB, and open the newly created `.raw` file.
@@ -364,7 +364,7 @@ div id="emumc-gcmc" class="tabcontent to" markdown="1">
 
 ##### Amire szükséged van
 
-* The Homebrew Channel installed on your Wii
+* A Homebrew Channel telepíítésre került a Wii-odra
 * Egy SD kártya vagy pendrive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
