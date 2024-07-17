@@ -138,7 +138,7 @@ There are also other buttons at the bottom of the screen:
 + Wii - Open the HOME Menu.
 + Power Button - Turn off your Wii.
 
-### Troubleshooting
+### Hibaelhárítás
 
 Some games require using a specific cIOS to function, or to utilize certain features within the game. Examples include:
 
@@ -153,19 +153,19 @@ Both USB Loader GX and WiiFlow Lite are programmed to automatically find the bes
 To change the cIOS used for a specific game, follow the instructions specific to your USB loader:
 
 #### USB Loader GX
-1. Select the game that isn't working.
-1. Click Settings.
-1. Select `Game Load`.
-1. Scroll down to `Game IOS`.
-1. Enter the IOS slot to use.
-    + Try using 248, 249, 250 or 251.
-1. Press OK and try to load the game.
+1. Válaszd ki a játékot, ami nem működik.
+1. Kattints a Settings-re.
+1. Válaszd a `Game Load` opciót.
+1. Görgess le a `Game IOS` opcióig.
+1. Add meg a használandó IOS slot-ot.
+    + Próbáld meg a 248, 249, 250 vagy 251-gyel.
+1. Nyomj OK-t és próbáld meg betölteni a játékot.
 
 #### WiiFlow Lite
-1. Select the game that isn't working.
+1. Válaszd ki a játékot, ami nem működik.
 1. Click the gear icon.
 1. Go to cIOS and use the arrows to select the IOS slot to use.
-    + Try using 248, 249, 250 or 251.
+    + Próbáld meg a 248, 249, 250 vagy 251-gyel.
 1. Press Save and try to load the game.
 
 [Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
