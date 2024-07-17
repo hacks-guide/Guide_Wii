@@ -2,7 +2,7 @@
 title: "Homebrew Channel ve BootMii Kurulumu"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
@@ -17,7 +17,7 @@ BootMii can be installed in two ways: directly to a part of the Wii bootloader c
 If you do not have an SD card, you cannot install nor use BootMii, and therefore will not be able to utilize any of the mentioned benefits. <br> You can always [install it at a later date](hackmii).
 {: .notice--warning}
 
-### Instructions
+### Talimatlar
 
 1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
     + You will see a scam warning screen.
