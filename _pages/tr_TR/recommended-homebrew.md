@@ -2,7 +2,7 @@
 title: Recommended Homebrew
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 This page outlines homebrew that are recommended by the wii.hacks.guide staff for being useful, nice to have, or just flat out good. Take full advantage of the power you now have with your Wii!
 
