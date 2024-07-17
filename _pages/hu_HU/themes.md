@@ -66,7 +66,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
     ![](/images/themes/themed-wii-menu.png)
 
-### WiiFlow Lite Theming
+### WiiFlow Lite témázás
 
 Unfortunately, because of the codebase difference between the original WiiFlow and the newer WiiFlow Lite, themes are sparse - in fact, only one theme could be found that confidently works on the newer version. The instructions for installing that theme are below.
 
