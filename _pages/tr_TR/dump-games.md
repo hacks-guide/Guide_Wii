@@ -2,7 +2,7 @@
 title: "Dumping Wii/GameCube games"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 This guide covers dumping GameCube or Wii game discs to a local SD card or USB drive on your Wii.
 
@@ -15,11 +15,11 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 #### Preparation
 
-1. Power off your console.
+1. Konsolunuzu kapatın.
 1. Insert your SD card or USB drive into your computer.
 1. Extract CleanRip and put it in the `apps` folder on your SD card or USB drive.
 1. Open the folder in File Explorer.
-1. Power on your console.
+1. Konsolunuzu açın.
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 1. Launch CleanRip from the list of homebrew.
 1. When prompted, select `Yes` to calculate disc checksums.
