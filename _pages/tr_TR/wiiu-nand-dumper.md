@@ -2,7 +2,7 @@
 title: vWii Modding Guide
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 This page will guide you through the process of modding your vWii without modding the Wii U side. Wii U custom firmware will be used for this guide, however, nothing will actually be installed onto the Wii U side itself. You can also visit the [legacy exploits](legacy-exploits) page for more exploits that work on the vWii.
 
@@ -21,7 +21,7 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
   - Click on `Download Base Aroma`.
 - The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
 
-### Instructions
+### Talimatlar
 
 #### Section I - SD Preparations
 
