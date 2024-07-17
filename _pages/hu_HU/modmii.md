@@ -32,11 +32,11 @@ A ModMii kétféleképpen használható. Van a ModMii Classic, amely parancssori
 | Abstinence Wizard          | ✅              | ✅           |
 | Region Change Wizard       | ✅              | ✅           |
 | SNEEK/EmuNAND Installation | ✅              | ✅           |
-| Open File Function         | ✅              | ⛔           |
-| Load Download Queue        | ✅              | ✅           |
+| Fájl megnyitás funkció     | ✅              | ⛔           |
+| Letöltési sor betöltése    | ✅              | ✅           |
 | Download Page 1/2/3/4      | ✅              | ⛔           |
-| Advanced Downloads         | ✅              | ⛔           |
-| Load Download Queue        | ✅              | ⛔           |
+| Speciális letöltések       | ✅              | ⛔           |
+| Letöltési sor betöltése    | ✅              | ⛔           |
 | Build Config Files         | ✅              | ⛔           |
 | File Cleanup & App Updater | ✅              | ⛔           |
 
