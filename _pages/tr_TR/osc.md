@@ -2,7 +2,7 @@
 title: "Open Shop Channel"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
 {: .notice--primary}
@@ -19,7 +19,7 @@ There are two methods to use the Open Shop Channel: on your Wii through Homebrew
 + An SD card or USB drive
 + [Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
-#### Instructions
+#### Talimatlar
 
 1. Download the recommended `.zip` file from the Open Shop Channel website.
 
