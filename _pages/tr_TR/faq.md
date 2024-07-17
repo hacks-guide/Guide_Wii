@@ -4,7 +4,7 @@ title: "FAQ"
 
 ## Main FAQ
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 ### How risky is hacking my console?
 Not very risky depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. Make sure you install [BootMii](bootmii) and [Priiloader](priiloader) to protect yourself from bricks!
