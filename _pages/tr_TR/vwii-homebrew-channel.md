@@ -2,7 +2,7 @@
 title: vWii Modding Guide
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 This page will guide you through the process of modding your vWii.
 
@@ -25,7 +25,7 @@ Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/gettin
 If the evWii Aroma plugin is not installed, and a homebrew app hangs, the only way to shut off the Wii U is by pulling the power cord. Pulling the power cord in some cases can cause a memory corruption so it is highly recomended to have the plugin installed.
 {: .notice--warning}
 
-### Instructions
+### Talimatlar
 
 #### Section I - Files
 
