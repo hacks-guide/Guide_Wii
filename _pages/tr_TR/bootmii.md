@@ -30,11 +30,11 @@ Eğer BootMii'yi boot2 olarak kurduysanız, BootMii'yi konsolunuzu kapatıp aça
     If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
     {: .notice--warning}
 
-1. You should see an image similar to the below now on your screen:
+1. Şimdi buna benzer bir ekran görmüş olmanız gerekir:
 
     ![](/images/bootmii/BootMii_Main.png)
 
-    Navigating BootMii is not possible using a Wii Remote. You must use the POWER and RESET buttons on your console, or a GameCube controller plugged into port 1. To navigate between options, press POWER. To select an option, press RESET.
+    Bir Wiimote ile BootMii'yi kontrol etmek mümkün değildir. Konsolunuzdaki POWER ve RESET butonlarını, veya birinci girişe takılmış bir GameCube kumandası kullanmalısınız. To navigate between options, press POWER. To select an option, press RESET.
     {: .notice--info}
 
 1. Select the Options button (the icon with the gears).
