@@ -2,23 +2,23 @@
 title: "BootMii Yedekleme"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
+BootMii Wii'nizin NAND depolamasını yedekleme ve geri yükleme için imkan sağlar. Bu sayfa size Wii'nizin NAND depolamasını bir SD card'a yedeklemeniz konusunda yardımcı olur, böylece istediğiniz zaman istediğiniz gibi kullanabilirsiniz.
 
-You need an **SD card** to create a NAND backup using BootMii. If you do not have one, you can skip this page, although it is highly recommended to make a NAND backup if you can.
+BootMii'yi kullanmak için bir **SD card** gereklidir, ama özellikle bir NAND yedeklemesi yapmak için. Eğer şu anda bir SD card'ınız yoksa bu sayfayı atlayabilirsiniz, ama en tez zamanda buraya dönüp NAND depolamanızı yedeklemeniz ŞİDDETLE ÖNERİLİR.
 {: .notice--warning}
 
 ### Gereksinimler
 
-* An SD card with at least 512MB of free space
+* En az 512 MB boş alanı olan bir SD card (1GB veya fazlası önerilir)
 
-### Instructions
+### Talimatlar
 
-If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+Eğer BootMii'yi boot2 olarak kurduysanız, BootMii'yi konsolunuzu kapatıp açarak başlatmanız gerekir. Eğer durumunuz bu ise, birinci ve ikinci aşamaları atlayabilirsiniz.
 {: .notice--info}
 
-1. Power on your console.
+1. Konsolunuzu açın.
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 1. Press the HOME Button, then select "Launch BootMii".
 
