@@ -2,7 +2,7 @@
 title: "str2hax"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
 {: .notice--warning}
@@ -16,18 +16,18 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 * A Wii with an Internet connection
 
-### Instructions
+### Talimatlar
 
 #### Section I - Connecting
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
-1. Power on your console.
+1. Konsolunuzu açın.
 1. Go to `Wii Options`.
 
     ![](/images/riiconnect24/Internet_1.png)
 
-1. Go to `Wii Settings`.
+1. `Wii Settings`'e gidin.
 
     ![](/images/riiconnect24/Internet_2.png)
 
@@ -80,7 +80,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
     + If you get the normal User Agreements, your ISP blocks the use of custom DNS. Try another connection, or [use another exploit](get-started).
 
 1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Eğer exploit başarılı olmuşsa, cihazınız HackMii Installer'ı yüklemiş olmalıdır.
 
     ![](/images/hackmii/scam.png)
 
