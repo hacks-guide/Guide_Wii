@@ -2,7 +2,7 @@
 title: "Start Here"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 If your Wii is already softmodded and you would like to update the softmods, follow [this](hackmii) guide to upgrade your setup.
 
