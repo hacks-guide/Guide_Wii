@@ -4,22 +4,22 @@ title: "Mod de recuperare (Recovery Mode)"
 
 {% include toc title="Tabel de Conținut" %}
 
-Modul de recuperare este o metodă ca ultima șansă pentru repararea consolei Wii de la un brick înainte de a ajunge la hard-modding și programarea manuala al NAND-ului. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc.
+Modul de recuperare este o metodă ca ultima șansă pentru repararea consolei Wii de la un brick înainte de a ajunge la hard-modding și programarea manuala al NAND-ului. Acest mod a fost accesat de angajații Nintendo din fabrici prin utilizarea unui adaptor special, dar acest lucru poate fi reprodusă cu ajutorul controller-ului GameCube. În esență, Recovery Mode pune un meniu Wii într-o stare în care programele pot fi executate dintr-un disc.
 
-### How Recovery Mode Works
+### Cum funcționează modul de recuperare
 
-On System Menu versions 2.1 and upwards, booting into Recovery Mode will yield a verison number display on the bottom right of the screen, and will idle on the screen while waiting for a disc to be inserted. By default, Recovery Mode only boots two types of discs:
+La System Menu versiunea 2.1 până la ultima, pornirea în modul de așteptare va afișa numărul versiunii pe partea de dreapta-jos al ecranului, și va sta pe acel ecran în timp ce așteaptă să introduci un disc. În mod implicit, modul de recuperare pornește doar două tipuri de discuri:
 
-+ A disc whose title ID starts with a number like 0 or 1 - an autoboot disc. All retail game discs are **not** an autoboot disc and instead start with a letter.
-+ A retail game disc that has a valid update partition whose version is higher than the one on the NAND.
++ Un disc al cărui title ID începe cu un număr ca 0 sau 1 - un disc autoboot. Toate discurile de joc comerciale **nu** sunt discuri autoboot și încep cu o literă în schimb.
++ Un disc de joc comercial care are o partiție validă de actualizare a cărei versiune este mai mare decât cea de pe NAND.
 
-This check can be bypassed using Priiloader, which allows Recovery Mode to boot any disc that is inserted into the Wii. Unfortunately, if you can already access Priiloader, then there is no need to use Recovery Mode in the first place as you can fix your brick by booting homebrew apps in it. With this said, if you are in a situation where the only accessible option is using Recovery Mode, you must have a drivechip on hand to bypass the disc check. If are able to bypass this check one way or another, you may follow the instructions below to start from Recovery Mode and get to the HackMii installer.
+Această verificare poate fi evitată folosind Priiloader, care permite modului de recuperare să pornească orice disc care este inserat în Wii. Din păcate, dacă poți deja accesa Priiloader, atunci nu este nevoie să utilizezi Modul de recuperare în primul rând pentru că puteți repara brick-ul pornind aplicațiile homebrew în el. Cu toate acestea, dacă te afli într-o situație în care singura opțiune accesibilă este modul de recuperare, trebuie să ai un drivechip la îndemână pentru a sări peste verificarea discului. Dacă ești în măsură să sari peste această verificare într-un fel sau altul, poți urma instrucțiunile de mai jos pentru a porni din Modul Recuperare și pentru a ajunge la HackMii installer.
 
-### Accessing and Using Recovery Mode
+### Accesarea și utilizarea modului de recuperare
 
 #### Instrumente necesare
 
-+ A GameCube controller
++ Un controler GameCube
 + If the Diagnostic Disc Check was previously removed with Priiloader, or if a drive chip is on hand:
     + Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OR
     + Any other exploited Wii game, with the current exploit game save on the console (see [Legacy Exploits](legacy-exploits)) OR
