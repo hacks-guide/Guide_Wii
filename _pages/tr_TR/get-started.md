@@ -4,7 +4,7 @@ title: "Buradan Başlayın"
 
 {% include toc title="İçerikler" %}
 
-If your Wii is already softmodded and you would like to update the softmods, follow [this](hackmii) guide to upgrade your setup.
+Eğer Wii'niz zaten hacklenmişse ve hackleri güncellemek istiyorsanız, [bu](hackmii) rehberi takip edip güncelleyebilirsiniz.
 
 All of the exploits run the HackMii Installer, and have the same end result.
 
