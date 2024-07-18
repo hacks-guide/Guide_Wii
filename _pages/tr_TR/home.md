@@ -40,11 +40,11 @@ Bu rehber şunları yapmayı hedef alır:
 + BootMii ve Homebrew Channel'ı kurmak
 + Önemli sistem dosyalarını yedeklemek
 + Priiloader'ı kurmak
-+ Install the Open Shop Channel
-+ Recommended homebrew to use on your Wii
-+ Restore functionality to WiiConnect24 and Nintendo Wi-Fi Connection
++ Open Shop Channel'ı kurmak
++ Wii'de kullanmak için önerilen homebrew uygulamalarını keşfetmek
++ WiiConnect24 ve Nintendo Wi-Fi Connection hizmetlerini geri kazanmak
 
-### What should I know before starting?
+### Başlamadan önce neleri bilmeliyim?
 
 + Running homebrew on your Nintendo Wii can be done for free by exploiting bugs in Wii's software. Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam).
 + This guide works on all system menu versions depending on the exploit, but **it is recommended that you update to 4.3 (the latest firmware)** if possible.
