@@ -46,26 +46,26 @@ Bu rehber şunları yapmayı hedef alır:
 
 ### Başlamadan önce neleri bilmeliyim?
 
-+ Running homebrew on your Nintendo Wii can be done for free by exploiting bugs in Wii's software. Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam).
-+ This guide works on all system menu versions depending on the exploit, but **it is recommended that you update to 4.3 (the latest firmware)** if possible.
-+ **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
-+ Depending on what you intend to do with your modded Wii, you may have to make some modifications to the system memory that have a risk of bricking (rendering the console inoperable). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
-+ The differences between the Wii and Wii mini are quite significant. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Tread carefully if you are planning to mod one!
-+ Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).
++ Homebrew 100% ücretsizdir, ve Wii'nizi modifiye etme süreci de tamamen ücretsizdir. Bunun aksini iddia eden birisi sizi muhtemelen [dolandırmaya](https://hbc.hackmii.com/scam) çalışıyordur.
++ Bu rehber exploit'e bağlı olarak bütün sistem menüsü versiyonlarında çalışır, fakat **eğer mümkünse 4.3'e (en son yazılıma) güncellemeniz tavsiye edilir**.
++ **Bu rehber SADECE perakende/tüketici Wiileri içindir!** Bu demek oluyor ki geliştirici üniteleri dahil değildir.
++ Modifiye edilmiş Wii'niz ile ne yapmak istediğinize bağlı olarak, sisteme brickleme (konsolu kullanılamayacak bir duruma getirmek) riski olan bazı modifikasyonlar yapmak zorunda kalabilirsiniz. Eğer bu rehberi harfi harfine yerine getirirseniz, bir sorun olmayacaktır, ama genel brick önleme önerileri için [bu sayfaya](bricks#brick-prevention) bakabilirsiniz.
++ Wii ve Wii mini arasındaki farklar kayda değerdir. Bu demek ki bazı durumlarda, normalde Wii'ye zararı olmayan bir şey Wii mini'de [ciddi bir brick vakasına](bricks#wi-fi-brick) sebep olabilir. Eğer bir Wii mini'yi modifiye edecekseniz dikkatli olun!
++ Bir [Koreli Wii](bricks#korean-kiierror-003-brick)'yi modifiye ederken son derece dikkatli olun.
 
-### Ready?
+### Hazır mısınız?
 
-The guide has nine sections in total. These are listed below:
+Bu rehber toplam dokuz bölüm içeriyor. Aşağıda yazılılar:
 
-1. Choosing and using an exploit (REQUIRED)
-1. Installing the Homebrew Channel and BootMii (REQUIRED)
-1. Making a NAND backup with BootMii (REQUIRED)
-1. Installing Priiloader (REQUIRED)
-1. Installing the Open Shop Channel (RECOMMENDED)
-1. Installing cIOS (RECOMMENDED)
-1. Discovering Recommended Homebrew (RECOMMENDED)
-1. Regaining WiiConnect24 Functionality (OPTIONAL)
-1. Regaining Nintendo Wi-Fi Connection Functionality (OPTIONAL)
+1. Bir exploit seçmek ve kullanmak (GEREKLİ)
+1. Homebrew Channel ve BootMii'yi kurmak (GEREKLİ)
+1. BootMii ile bir NAND yedeği oluşturmak (GEREKLİ)
+1. Priiloader'ı kurmak (GEREKLİ)
+1. Open Shop Channel'ı kurmak (ÖNERİLİR)
+1. cIOS'ları kurmak (ÖNERİLİR)
+1. Önerilen homebrew uygulamalarını keşfetmek (ÖNERİLİR)
+1. WiiConnect24 özelliklerini geri kazanmak (İSTEĞE BAĞLI)
+1. Nintendo Wi-Fi Connection özelliklerini geri kazanmak (İSTEĞE BAĞLI)
 
-Get started by [choosing your exploit](get-started)!
+[Başlayın](get-started)'a devam edin
 {: .notice--info}
