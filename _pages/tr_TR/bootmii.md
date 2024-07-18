@@ -34,18 +34,18 @@ Eğer BootMii'yi boot2 olarak kurduysanız, BootMii'yi konsolunuzu kapatıp aça
 
     ![](/images/bootmii/BootMii_Main.png)
 
-    Bir Wiimote ile BootMii'yi kontrol etmek mümkün değildir. Konsolunuzdaki POWER ve RESET butonlarını, veya birinci girişe takılmış bir GameCube kumandası kullanmalısınız. To navigate between options, press POWER. To select an option, press RESET.
+    Bir Wiimote ile BootMii'yi kontrol etmek mümkün değildir. Konsolunuzdaki POWER ve RESET butonlarını, veya birinci girişe takılmış bir GameCube kumandası kullanmalısınız. Seçenekler arasında gezinmek için, POWER butonuna basın. Bir seçeneği seçmek için, RESET butonuna tıklayın.
     {: .notice--info}
 
 1. Select the Options button (the icon with the gears).
 
     ![](/images/bootmii/BootMii_Gears.png)
 
-1. Select the first button to the left.
+1. Soldan ilk butonu seçin.
 
     ![](/images/bootmii/BootMii_Backup.png)
 
-1. A NAND backup will start. You can watch the progress on the screen.
+1. Bir NAND yedeklemesi başlayacaktır. Ekranda süreci izleyebilirsiniz.
     + "Bad Blocks" are normal. Don't worry when you see some on a NAND backup.
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
