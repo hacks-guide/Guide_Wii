@@ -1,10 +1,10 @@
 ---
-title: "Recovery Mode"
+title: "Mod de recuperare (Recovery Mode)"
 ---
 
 {% include toc title="Tabel de Conținut" %}
 
-Recovery Mode is a last resort method for recovering your Wii console from a brick before resorting to hard-modding and manual NAND programming. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc.
+Modul de recuperare este o metodă ca ultima șansă pentru repararea consolei Wii de la un brick înainte de a ajunge la hard-modding și programarea manuala al NAND-ului. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc.
 
 ### How Recovery Mode Works
 
