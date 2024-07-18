@@ -1,45 +1,45 @@
 ---
 layout: splash
-title: "Wii Guide"
+title: "Wii Hacks Guide"
 header:
   overlay_color: "#121212"
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Wii, vWii, and Wii mini."
+excerpt: "Wii, vWii ve Wii mini'nizi hacklemek için eksiksiz bir rehber."
 ---
 
-Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
+Bu rehber paylaşıldığından beri, çeviriler üzerinde çalışılıyor. Sabrınız için teşekkürler!
 {: .notice--info}
 
-To get the most out of this guide, you should read this page before proceeding.
+Bu rehberi en iyi şekilde kullanmak için, başlamadan önce bu sayfayı okumalısınız.
 {: .notice--warning}
 
-### What is "homebrew"?
+### Homebrew nedir?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/Homebrew_(video_games)) refers to software not authorized by Nintendo. This can include games, utilities, emulators and much more!
+**Homebrew** bir donanımın orijinal üreticisinin çalıştırılmasına yetki vermediği yazılımlardır - Bu durumda, Nintendo. Wii'de homebrew çalıştırabilme yeteneği kazanmak için, konsol ilk önce bunları çalıştırılacak şekilde modifiye edilmiş olmalıdır.
 
-Here's a list of things you can do using homebrew.
+Aşağıda homebrew yazılımlarının Wii'niz için neler yapabileceğinin bazı örnekleri vardır:
 
-+ [Backup](bootmii) and [restore](bootmiirecover) copies of your Wii system memory (NAND) using [BootMii](hbc).
-+ Protect your Wii from bricks then add hacks to your Wii Menu using [Priiloader](priiloader).
-+ Download new homebrew apps with the [Open Shop Channel](hbb).
-+ Patch game disc contents (allowing you to load game modifications) using [Riivolution](riivolution).
-+ Install themes to your Wii Menu using [MyMenuify](themes).
-+ Back up your discs with [CleanRip](/dump-games) and installed games and titles with [Yet Another BlueDump MOD](dump-wads).
-+ Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
-+ Back up and restore your Wii save files with [SaveGame Manager GX](https://oscwii.org/library/app/savegame_manager_gx).
-+ Restore discontinued online services using [RiiConnect24](riiconnect24), [Wiimmfi](wiimmfi) and [WiiLink](wiilink).
-+ Back up and restore your GameCube save files using [GCMM](gcsaves).
++ Wii'nizin NAND (dahili depolaması)'nı [yedeklemek](bootmii) ve [geri yüklemek](bootmiirecover)
++ Wii'nizin [brick korumasını](priiloader) yükseltmek
++ [Open Shop Channel](osc)'dan yeni homebrew uygulamaları indirmek
++ Oyun modifikasyonlarını yüklemek için [oyun disklerini yamamak](https://wiki.hacks.guide/wiki/Wii:Riivolution)
++ Wii menüsüne [temalar](themes) kurmak
++ [Disklerinizi](dump-games) ve [diğer kurulu uygulamaları](dump-wads) yedeklemek
++ Wii'nizde [DVD'ler](recommended-homebrew#entertainment) izlemek ve medya dosyaları oynatmak
++ Oyunlarınızın yedeklerini harici bir kaynaktan oynamak için bir [USB yükleyici](wii-loaders) kurmak
++ [Wii](wii-saves) ve [GameCube](gcsaves) oyun kayıtı dosyalarınızı yedeklemek ve geri yüklemek
++ [WiiConnect24](wiiconnect24) ve [Nintendo Wi-Fi Connection](wiimmfi) için çevrimiçi özellikleri geri getirmek
 
-### What does the guide install?
+### Bu rehber ne kurar?
 
-This guide aims to do the following, including optional sections:
+Bu rehber şunları yapmayı hedef alır:
 
-+ Modify your Wii using one of many exploits, with the end goal of reaching the HackMii installer
-+ Install BootMii and the Homebrew Channel
-+ Make a backup of critical system files
-+ Install Priiloader
++ Hedefleri HackMii Installer'ı yüklemek olan exploitlerden birisiyle Wii'nizi modifiye etmek
++ BootMii ve Homebrew Channel'ı kurmak
++ Önemli sistem dosyalarını yedeklemek
++ Priiloader'ı kurmak
 + Install the Open Shop Channel
 + Recommended homebrew to use on your Wii
 + Restore functionality to WiiConnect24 and Nintendo Wi-Fi Connection
