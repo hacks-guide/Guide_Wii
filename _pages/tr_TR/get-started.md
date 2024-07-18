@@ -1,5 +1,5 @@
 ---
-title: "Start Here"
+title: "Buradan Başlayın"
 ---
 
 {% include toc title="İçerikler" %}
