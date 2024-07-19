@@ -84,8 +84,8 @@ If you have already done this, consider the SaveGame Manager GX method to save t
 
 ##### Amire szükséged van
 
-* [a NAND backup](bootmii)
-* Latest beta version of Dolphin Emulator
+* [egy NAND mentés](bootmii)
+* A Dolphin Emulator legutolsó béta verziója
 
 ##### Útmutató
 
@@ -103,7 +103,7 @@ Make sure you have installed [cIOS](cios) before following this!
 * The Homebrew Channel on your Wii/vWii
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 * Egy SD kártya vagy pendrive
-* Latest beta version of Dolphin Emulator
+* A Dolphin Emulator legutolsó béta verziója
 
 ##### Útmutató
 
