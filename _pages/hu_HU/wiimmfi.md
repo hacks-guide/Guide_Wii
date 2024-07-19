@@ -27,23 +27,23 @@ A Wiimmfi patchelés módszere, amely a kiskereskedelmi lemezes játékokon auto
 
     ![](/images/priiloader/mainmenu.jpg)
 
-1. Menj a` System Menu Hacks` menüpontra. If you used a USB drive to install Priiloader, make sure you do not have an SD card inserted at the same time. This will cause Priiloader to be unable to find the hacks_hash.ini file.
+1. Menj a` System Menu Hacks` menüpontra. Ha USB drive-ot használtál a Priiloader telepítéséhez, győződj meg róla, hogy nincs-e SD kártya behelyezve ezzel egyidejűleg. Ez azt okozhatja, hogy a Priiloader nem fogja tudni megtalálni a hacks_hash.ini fájlt.
     {: .notice--info}
-1. Make sure the `Wiimmfi patch v4` hack is enabled.
+1. Győződj meg róla, hogy a `Wiimmfi patch v4 hack` engedélyezve van.
 
     ![](/images/priiloader/hacks.jpg)
 
-1. Scroll to `Save Settings` and save your changes.
-1. Return to the main menu, and press `System Menu` to return to the Wii Menu.
-1. Launch your game through the Disc Channel - it should now be patched with Wiimmfi.
+1. Görgess a `Save Settings` menüpontra, és mentsd el a módosításokat.
+1. Térjen vissza a főmenübe, és nyomjd meg a `System Menu`-t a Wii menübe való visszatéréshez.
+1. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
-### Automatic Backup Patching via USB Loader
+### Automatikus mentés patchelés USB Loader-en keresztül
 
 A method for Wiimmfi patching which automatically patches game backups in the latest versions of USB Loader GX or WiiFlow Lite.
 
 #### Követelmények
 
-+ A Wii with an internet connection
++ Egy internetkapcsolattal rendelkező Wii
 + [USB Loader GX or WiiFlow Lite](wii-loaders)
 
 #### Útmutató
@@ -69,7 +69,7 @@ If you get error 23400, your ISP or network is blocking the use of a custom DNS.
 
 1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
 1. Let the connection test finish, and do not perform a Wii System Update.
-1. Launch your game through the Disc Channel - it should now be patched with Wiimmfi.
+1. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
 ### Manual Disc Patching via Homebrew Channel
 
