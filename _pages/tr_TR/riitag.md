@@ -1,5 +1,5 @@
 ---
-title: Redirecting...
+title: Yönlendiriliyor...
 ---
 
-{% include redirect.html redirect_to="https\://wiki.hacks.guide/wiki/RiiTag" %}
+{% include_relative include/redirect-wiki.md redirect_to="https://wiki.hacks.guide/wiki/RiiTag" %}
