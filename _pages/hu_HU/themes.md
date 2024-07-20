@@ -11,9 +11,6 @@ Ez az útmutató az utolsó, amire valaha is szükséged lesz, ha a Wii témáz�
 NE FOLYTASD EZT AZ ÚTMUTATÓt, HA NINCS MEGFELELŐ BRiCKELÉS VÉDELMED, KÜLÖNÖSEN [BOOTMII](bootmii) (csak Wii) ÉS [PRIILOADER](priiloader)!
 {: .notice--danger}
 
-Ez z útmutató nem működik a Wii mini-vel. Ne próbáld meg Wii mini-vel használni ezt az útmutatót, mert [brickelődést](bricks#theme-brick) fog okozni.
-{: .notice--warning}
-
 A csm-installer tartalmaz beépített biztonsági funkciókat, hogy megakadályozza, hogy hibás vagy sérült Wii Menu témákat telepíts, így javasolt, hogy ezt használd más téma telepítő homebrew helyett.
 {: .notice--warning}
 
@@ -31,7 +28,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 + [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (.mym fájlok terjesztése)
 + [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym fájlok terjesztése)
 + [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym fájlok terjesztése)
-+ [Wii Themer](http://www.wiithemer.org/) (csak Wii, online téma készítő különböző verziókhoz, és régiókhoz, képes a .csm témák telepítésére)
++ [Wii Themer](http://www.wiithemer.org/) (This site can build a .csm ready to install for Wii and vWii only, but for Wii mini you may dowmnload the .mym files from their [Theme Database](http://wiithemer.org/mym/))
 
 #### Követelmények
 
