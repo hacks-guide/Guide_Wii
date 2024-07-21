@@ -44,7 +44,7 @@ A method for Wiimmfi patching which automatically patches game backups in the la
 #### Követelmények
 
 + Egy internetkapcsolattal rendelkező Wii
-+ [USB Loader GX or WiiFlow Lite](wii-loaders)
++ [USB Loader GX vagy WiiFlow Lite](wii-loaders)
 
 #### Útmutató
 
