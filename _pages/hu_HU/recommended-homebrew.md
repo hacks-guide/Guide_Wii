@@ -50,5 +50,5 @@ A végleges módosításokra képes programok **vastagon** vannak kiemelve.
 + [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) – A WiiMC módosított és továbbfejlesztett változata. Egy teljes médiaközponttá képes változtatni a Wiidet, ami képes zenét-, videókat-, DVD-ket és sok mást lejátszani.
 + [Schism Tracker](https://oscwii.org/library/app/schismtracker) – Egy sávos zenét (IT, XM, S3M, MOD, stb.) visszajátszó program. [Itt](https://modarchive.org/) találhatsz rajta lejátszható zenéket.
 
-[Continue to WiiConnect24](wiiconnect24)<br> Although WiiConnect24 was discontinued by Nintendo in June 2013, there is a fan-hosted revival service that restores and expands its functionality.
+[Folytatás a WiiConnect24-gyel](wiiconnect24)<br> Habár a WiiConnect24-et leállította a Nintendo 2013 júniusában, létezik egy rajongók által üzemeltetett túlélő szolgáltatás, ami helyreállítja és kibővíti a funkcionalitást.
 {: .notice--info}
