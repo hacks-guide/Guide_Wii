@@ -30,7 +30,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 - Egy SD kártya legalább 512 MB szabad hellyel (1 GB vagy több ajánlott)
 - A [NAND backup](bootmii) from the specific system you are trying to flash
-- A Windows computer with an Internet connection
+- Egy internetkapcsolattal rendelkező Windows PC
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
 - [Nand BIN Checker](/assets/files/nandBinCheck.zip)
 
