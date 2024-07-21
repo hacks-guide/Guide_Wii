@@ -134,7 +134,7 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 
 ### App Forwarder-ek
 
-Az App forwarderek egy kis extra hangulatot adhatnak a Wii menüjének - de légy óvatos velük, mivel a rossz forwarderek [banner bricket](bricks#banner-brick) okozhatnak. Általában olyan helyeken találhatsz forwardereket, mint a [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) a népszerű alkalmazásokhoz, például emulátorokhoz. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme).
+Az App forwarderek egy kis extra hangulatot adhatnak a Wii menüjének - de légy óvatos velük, mivel a rossz forwarderek [banner bricket](bricks#banner-brick) okozhatnak. Általában olyan helyeken találhatsz forwardereket, mint a [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) a népszerű alkalmazásokhoz, például emulátorokhoz. Mivel a forwarderek .WAD formátumban érkeznek, a telepítésük ugyanolyan egyszerű, mint a [YAWM ModMii Edition](yawmme) normál használata.
 
 
 [Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
