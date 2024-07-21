@@ -4,41 +4,41 @@ title: "ModMii"
 
 {% include toc title="Tartalomjegyzék" %}
 
-This Program does NOT come with a warranty, so you are responsible for any potential damage done to your Wii.
+Erre a programra NEM vállalunk garanciát, így a Wii-t ért esetleges károkért Te felelsz.
 {: .notice--warning}
 
-This program is NOT intended to be used for the vWii or the Wii mini. Any usage on vWii or Wii mini is untested.
+Ez a program NEM a vWii vagy a Wii mini használatára készült. A vWii-n vagy a Wii minin történő használatot nem teszteltük.
 {: .notice--warning}
 
-ModMii is an all-in-one Wii hacking tool for Windows created by XFlak that has various helpful tools for modding. It can accomplish the following:
+A ModMii egy mindenre kiterjedő Wii hacker eszköz Windowsra, amelyet XFlak készített, és különböző hasznos eszközöket tartalmaz a moddinghoz. A következőket tudja megvalósítani:
 
-+ Hacking the console for the first time, or re-hacking it
-+ Check for and update outdated softmods
-+ Fix upside-down Homebrew Channel problems
-+ Run homebrew without making any changes to your Wii's NAND
-+ Download homebrew
-+ And more!
++ A konzol első alkalommal történő feltörése vagy újbóli feltörése
++ Az elavult softmodok ellenőrzése és frissítése
++ Felfordított Homebrew Channel csatorna problémák kijavítása
++ A homebrew futtatása a Wii NAND-jának módosítása nélkül
++ Homebrew letöltése
++ És még több!
 
 ### ModMii áttekintés
 
 A ModMii kétféleképpen használható. Van a ModMii Classic, amely parancssori felületet használ, de a program minden funkciója rendelkezésre áll. A ModMii Skin ezzel szemben grafikus felhasználói felülettel rendelkezik, de kevesebb lehetőség áll a felhasználó rendelkezésére. Ha egyszerűen csak a Wii-od szeretnéd először módosítani, a ModMii Skin elegendő lehet. Ellenkező esetben a ModMii Classic használatát javasoljuk, ha lehetséges. <br> Az alábbi táblázat segít meghatározni, hogy mit lehet csinálni az egyes felületeken.
 
-| Eszközök                   | ModMii Classic | ModMii Skin |
-| -------------------------- | -------------- | ----------- |
-| ModMii Wizard              | ✅              | ✅           |
-| SysCheck Updater Wizard    | ✅              | ⛔           |
-| USB Loader Setup Wizard    | ✅              | ✅           |
-| HackMii Solutions Wizard   | ✅              | ✅           |
-| Abstinence Wizard          | ✅              | ✅           |
-| Region Change Wizard       | ✅              | ✅           |
-| SNEEK/EmuNAND Installation | ✅              | ✅           |
-| Fájl megnyitás funkció     | ✅              | ⛔           |
-| Letöltési sor betöltése    | ✅              | ✅           |
-| Download Page 1/2/3/4      | ✅              | ⛔           |
-| Speciális letöltések       | ✅              | ⛔           |
-| Letöltési sor betöltése    | ✅              | ⛔           |
-| Build Config Files         | ✅              | ⛔           |
-| File Cleanup & App Updater | ✅              | ⛔           |
+| Eszközök                       | ModMii Classic | ModMii Skin |
+| ------------------------------ | -------------- | ----------- |
+| ModMii Wizard                  | ✅              | ✅           |
+| SysCheck frissítő varázsló     | ✅              | ⛔           |
+| USB Loader telepítő varázsló   | ✅              | ✅           |
+| HackMii megoldások varázsló    | ✅              | ✅           |
+| Abstinence Wizard              | ✅              | ✅           |
+| Régió módosítás varázsló       | ✅              | ✅           |
+| SNEEK/EmuNAND telepítés        | ✅              | ✅           |
+| Fájl megnyitás funkció         | ✅              | ⛔           |
+| Letöltési sor betöltése        | ✅              | ✅           |
+| Letöltés oldal 1/2/3/4         | ✅              | ⛔           |
+| Speciális letöltések           | ✅              | ⛔           |
+| Letöltési sor betöltése        | ✅              | ⛔           |
+| Konfig fájlok buildelése       | ✅              | ⛔           |
+| Fájl takarítás & app frissítés | ✅              | ⛔           |
 
 <details id="Modmii-Tools" class="notice--info" markdown="1">
 <summary><a>Click here for a detailed explanation of each tool.</a></summary>
@@ -64,7 +64,7 @@ A ModMii kétféleképpen használható. Van a ModMii Classic, amely parancssori
 
 </details><br>
 
-When using ModMii, it is important to note that it will generate a custom guide for you depending on the options that you select. For this reason, this guide will not be focused on how to mod your Wii, as ModMii handles that function. Instead, it will be a quick start guide show you how to effectively use it with the most common options.
+A ModMii használatakor fontos megjegyezni, hogy a program a kiválasztott beállításoktól függően egyéni útmutatót készít számodra. Emiatt ez az útmutató nem fog arra összpontosítani, hogy hogyan moddolja a Wii-t, mivel a ModMii kezeli ezt a funkciót. Ehelyett ez egy gyors útmutató lesz, amely megmutatja, hogyan lehet hatékonyan használni a leggyakoribb opciókkal.
 
 ### A ModMii telepítése
 
@@ -87,105 +87,105 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ### A ModMii Wizard használata
 
-The ModMii Wizard is tool that can softmod your Wii from start to finish, downloading all necessary files and then generating a guide that you can use to implement the softmod. This tool can also be used to overwrite existing softmods on a previously softmodded Wii.
+A ModMii Wizard egy olyan eszköz, amely képes a Wii-t az elejétől a végéig softmodolni, letölti az összes szükséges fájlt, majd létrehoz egy útmutatót, amelyet a softmod megvalósításához használhatsz. Ez az eszköz arra is használható, hogy felülírja a már meglévő softmodokat egy korábban softmodolt Wii-n.
 
-1. Open ModMii Skin or ModMii Classic and select the ModMii Wizard option at the top of the list.
+1. Nyisd meg a ModMii Skin vagy a ModMii Classic programot, és válaszd a ModMii Wizard opciót a lista tetején.
 
     ![](/images/modmii/modmii-wizard-1.png)
 
-1. Answer `Yes` to the first question, unless you have a very specific idea of what you would like to do or update to your Wii.
+1. Az első kérdésre válaszolj `Yes`-szel, hacsak nincs nagyon konkrét elképzelésed arról, hogy mit szeretnél tenni vagy frissíteni a Wii-den.
 
     ![](/images/modmii/modmii-wizard-2.png)
 
-1. Select your current System Menu version, followed by the System Menu Region, following the instructions in the program. If you are still confused, check the bottom option on each screen for an instructional video.
+1. Válaszd ki az aktuális System Menu verziód, majd a System Menu Region-od, a program utasításait követve. Ha még mindig zavarban vagy, nézd meg az egyes képernyők alsó opcióját, ahol egy oktatóvideót találsz.
 
     ![](/images/modmii/modmii-wizard-3.png)
 
-1. Select the exploit you would like to use to mod your Wii. The exploits below are outlined throughout this website, but in most cases we would reccommend using Wilbrand if you have an SD card on hand.
+1. Válaszd ki azt az exploitot, amellyel módosítani szeretnéd a Wii-d. Az alábbi exploitok az egész weboldalon szerepelnek, de a legtöbb esetben a Wilbrand használatát javasoljuk, ha van kéznél SD-kártya.
 
     ![](/images/modmii/modmii-wizard-4.png)
 
-1. If you selected the Wilbrand option in the previous step, enter your Wii's MAC address. If you don't know how to check your Wii's MAC address, enter `Help` in the text box for an instructional video.
+1. Ha az előző lépésben a Wilbrand opciót választottad, add meg a Wii MAC-címét. Ha nem tudod, hogyan nézd meg a Wii MAC-címét, írd be a szövegmezőbe a `Help` szót egy oktatóvideó megtekintéséhez.
 
     ![](/images/modmii/modmii-wizard-5.png)
 
-1. Select your desired System Menu version from the list.
+1. Válaszd ki a kívánt System Menu verziót a listából.
 
     ![](/images/modmii/modmii-wizard-6.png)
 
-1. Select whether or not you would like to install any of the listed channels - this is an optional step.
+1. Válaszd ki, hogy szeretnéd-e telepíteni a felsorolt csatornák valamelyikét - ez egy opcionális lépés.
 
     ![](/images/modmii/modmii-wizard-7.png)
 
-1. Select whether or not you would like to install a custom Wii theme, with the choice of three theme effects. Each effect deals with how much the outline when hovering over a Wii Channel spins.
+1. Válaszd ki, hogy szeretnél-e egyéni Wii-témát telepíteni, három témaeffektus közül választási lehetőséggel. Az egyes effektek azzal foglalkoznak, hogy a körvonal mennyit pörög, amikor a Wii-csatorna felett lebeg.
 
     ![](/images/modmii/modmii-wizard-8.png)
 
-1. Select whether or not you would like to set up a USB Loader for use with your Wii.
+1. Válaszd ki, hogy szeretnél-e USB Loader-t beállítani a Wii-hez.
 
     ![](/images/modmii/modmii-wizard-9.png)
 
-1. If you selected `Yes` in the USB Loader menu, select which USB Loader you would like to use. If you choose an individual one, we reccomend either USB Loader GX or WiiFlow as both are covered on this website, or you may optionally download each option.
+1. Ha az USB Loader menüben a `Yes` lehetőséget választottad, válaszd ki, hogy melyik USB Loader-t szeretnéd használni. Ha egyedit választasz, akkor vagy az USB Loader GX-et vagy a WiiFlow-t ajánljuk, mivel mindkettővel foglalkozunk ezen a weboldalon, vagy opcionálisan letöltheted az összes opciót.
 
     ![](/images/modmii/modmii-wizard-10.png)
 
-1. If you selected `Yes` in the USB Loader menu, select where you would like to save your USB Loader files at.
+1. Ha az USB Loader menüben az `Yes` lehetőséget választottad, válaszd ki, hogy hová szeretnéd menteni az USB Loader fájlokat.
 
     ![](/images/modmii/modmii-wizard-11.png)
 
-1. Verify where you would like to save files for your SD Card and/or USB Drive.
+1. Ellenőrizd, hogy hová szeretnéd menteni a fájlokat az SD-kártyára és/vagy az USB-meghajtóra.
 
     ![](/images/modmii/modmii-wizard-12.png)
 
-1. Confirm your settings are correct, and then press `Finish`. Once you press the button, ModMii will begin to process and download files in the background, and will automatically generate and open a guide for you. From here, you should follow the guide generated by ModMii.
+1. Erősítsd meg a beállítások helyességét, majd nyomd meg a `Finish` gombot. A gomb megnyomása után a ModMii elkezdi feldolgozni és letölteni a fájlokat a háttérben, és automatikusan létrehoz és megnyit egy útmutatót számodra. Innentől kezdve kövesd a ModMii által generált útmutatót.
 
     ![](/images/modmii/modmii-wizard-13.png)
 
 ### SysCheck Updater Wizard
 
-The SysCheck Updater Wizard is a tool that utilizes the homebrew app [SysCheck](syscheck) to analyze any modifications on your Wii, especially IOS and cIOS. It accepts a `syscheck.csv` file generated by the app, and then provides any nessecary updates as needed.
+A SysCheck Updater Wizard egy olyan eszköz, amely a [SysCheck](syscheck) nevű homebrew alkalmazást használja a Wii-n végzett módosítások elemzésére, különösen az IOS és a cIOS esetében. Elfogadja az alkalmazás által generált `syscheck.csv` fájlt, majd szükség szerint biztosítja a szükséges frissítéseket.
 
-1. Open ModMii Classic and enter in `SU` to open the SysCheck Updater Wizard.
+1. Nyisd meg a ModMii Classic-ot és írd be az `SU`-t a SysCheck Updater Wizard megnyitásához.
 
     ![](/images/modmii/syscheck-wizard-1.png)
 
-1. Follow the instructions in the window if you don't already have a SysCheck log, and then drag and drop the `syscheck.csv` file from Windows Explorer into the window. This will paste the location of the file, from which you can press Enter.
+1. Kövesd az ablakban található utasításokat, ha még nincs SysCheck logod, majd húzd be a Windows Intézőből a `syscheck.csv` fájlt az ablakba. Ez beilleszti a fájl útvonalát, így már csak az Enter-t kell megnyomnod.
 
     ![](/images/modmii/syscheck-wizard-2.png)
 
-1. The program will analyze your SysCheck file, and will provide options for you depending on what it sees. In this example instance, the mods on the Wii were up-to-date, but there were several unnecessary IOSes that could be stubbed. If you want to make these changes to your Wii, simply enter in `Y` and press Enter. From here, you should follow the guide generated by ModMii.
+1. A program elemezni fogja a SysCheck fájlt, és a látottak függvényében választási lehetőségeket kínál Önnek. Ebben a példában például a Wii modjai naprakészek voltak, de több felesleges IOS volt, amit ki lehetne dobni. Ha ezeket a módosításokat szeretnéd elvégezni a Wii-n, egyszerűen írj be az `Y`-t, és nyomj Entert. Innentől kezdve kövesd a ModMii által generált útmutatót.
 
     ![](/images/modmii/syscheck-wizard-3.png)
 
 ### HackMii Solutions Wizard
 
-The HackMii Solutions Wizard is a tool that fixes problems that may arise from things like Darkcorp/CIOSSPAGHETTI by installing clean IOSes. Examples of problems that may arise because of this are listed below:
+A HackMii Solutions Wizard egy olyan eszköz, amely a Darkcorp/CIOSSPAGHETTI-hez hasonló dolgok miatt felmerülő problémákat javítja a tiszta IOS-ek telepítésével. Az alábbiakban példák vannak az emiatt felmerülő problémákra:
 
-+ HackMii Installer not prompting "Press (1) to continue"
-+ HackMii Installer saying "no vulnerable IOS found!"
-+ Homebrew Channel displaying upside-down
++ A HackMii telepítő nem kéri a "Press (1) to continue"-t
++ A HackMii telepítő azt mondja, hogy "no vulnerable IOS found!"
++ A Homebrew csatorna fejjel lefelé jelenik meg
 
-1. Open ModMii Skin or ModMii Classic and select the HackMii Solutions option.
+1. Nyisd meg a ModMii Skin vagy ModMii Classic programot, és válaszd a HackMii Solutions opciót.
 
     ![](/images/modmii/hackmii-wizard-1.png)
 
-1. Select your current System Menu version, followed by the System Menu Region, following the instructions in the program. If you are still confused, check the bottom option on each screen for an instructional video.
+1. Válaszd ki az aktuális System Menu verziód, majd a System Menu Region-od, a program utasításait követve. Ha még mindig zavarban vagy, nézd meg az egyes képernyők alsó opcióját, ahol egy oktatóvideót találsz.
 
     ![](/images/modmii/hackmii-wizard-2.png)
 
-1. Select the exploit you would like to use to mod your Wii. The exploits below are outlined throughout this website, but in most cases we would reccommend using Wilbrand if you have an SD card on hand.
+1. Válaszd ki azt az exploitot, amellyel módosítani szeretnéd a Wii-d. Az alábbi exploitok az egész weboldalon szerepelnek, de a legtöbb esetben a Wilbrand használatát javasoljuk, ha van kéznél SD-kártya.
 
     ![](/images/modmii/hackmii-wizard-3.png)
 
-1. If you selected the Wilbrand option in the previous step, enter your Wii's MAC address. If you don't know how to check your Wii's MAC address, enter `Help` in the text box for an instructional video.
+1. Ha az előző lépésben a Wilbrand opciót választottad, add meg a Wii MAC-címét. Ha nem tudod, hogyan nézd meg a Wii MAC-címét, írd be a szövegmezőbe a `Help` szót egy oktatóvideó megtekintéséhez.
 
     ![](/images/modmii/hackmii-wizard-4.png)
 
-1. Verify where you would like to save files for your SD Card and/or USB Drive.
+1. Ellenőrizd, hogy hová szeretnéd menteni a fájlokat az SD-kártyára és/vagy az USB-meghajtóra.
 
     ![](/images/modmii/modmii-wizard-12.png)
 
-1. Confirm your settings are correct, and then press `Finish`. Once you press the button, ModMii will begin to process and download files in the background, and will automatically generate and open a guide for you. From here, you should follow the guide generated by ModMii. After finishing this guide, it is recommended that you use the [SysCheck Updater Wizard](#syscheck-updater-wizard) to undo any other problematic modifications on your Wii.
+1. Erősítsd meg a beállítások helyességét, majd nyomd meg a `Finish` gombot. A gomb megnyomása után a ModMii elkezdi feldolgozni és letölteni a fájlokat a háttérben, és automatikusan létrehoz és megnyit egy útmutatót számodra. Innentől kezdve kövesd a ModMii által generált útmutatót. Miután befejezted ezt az útmutatót, ajánlott a [SysCheck Updater Wizard](#syscheck-updater-wizard)-ot használni a Wii egyéb problémás módosításainak visszavonásához.
 
     ![](/images/modmii/hackmii-wizard-5.png)
 
