@@ -8,7 +8,7 @@ Ez az útmutató az utolsó, amire valaha is szükséged lesz, ha a Wii témáz�
 
 ### Wii Menu témázás
 
-NE FOLYTASD EZT AZ ÚTMUTATÓt, HA NINCS MEGFELELŐ BRiCKELÉS VÉDELMED, KÜLÖNÖSEN [BOOTMII](bootmii) (csak Wii) ÉS [PRIILOADER](priiloader)!
+NE FOLYTASD EZT AZ ÚTMUTATÓT, HA NINCS MEGFELELŐ BRICKELÉS VÉDELMED, KÜLÖNÖSEN [BOOTMII](bootmii) (csak Wii) ÉS [PRIILOADER](priiloader)!
 {: .notice--danger}
 
 A csm-installer tartalmaz beépített biztonsági funkciókat, hogy megakadályozza, hogy hibás vagy sérült Wii Menu témákat telepíts, így javasolt, hogy ezt használd más téma telepítő homebrew helyett.
@@ -94,11 +94,11 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 
 #### Útmutató
 
-1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
-2. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
-3. Put the storage medium in your Wii and boot it up.
-4. Start USB Loader GX, go to the `Settings` menu, and then go to `Theme Menu`.
-5. Open the theme and install it.
+1. Töltsd le a téma `.zip` fájlját a fentebb linkelt weboldalról, vagy bárhonnan máshonnan, ahol megfelelő témát kaphatsz.
+2. Csomagold ki a `.zip` fájl tartalmát az `apps\usbloader_gx` könyvtárba azon a tárolóeszközön, ahová az USB Loader GX-et telepítetted.
+3. Tedd a tárolóeszközt a Wii-be, és indítsd el.
+4. Indítsd el az USB Loader GX-et, lépj a `Settings` menübe, majd a `Theme Menu`opcióhoz.
+5. Nyissd meg a témát, és telepítsd azt.
 
 ### Homebrew Channel témázás
 
@@ -111,30 +111,30 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 
 #### Útmutató
 
-1. Download a theme `.zip` file from the website linked above.
+1. Töltsd le a téma `.zip` fájlját a fent említett weboldalról.
 
     ![](/images/themes/homebrew-channel-example-theme.png)
 
-2. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
+2. Illesszd be a `.zip` fájlt az `apps` mappába a tárolóeszközén, ahová a homebrew-ot betölti.
 
     ![](/images/themes/homebrew-channel-paste-zip.png)
 
-3. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
+3. Csomagold ki a `.zip` tartalmát az `apps` mappába, majd töröld az archívum fájlt.
 
     ![](/images/themes/homebrew-channel-extract-theme.png)
 
-4. Reinsert the storage device into your Wii and enter the Homebrew Channel.
-5. The theme you just installed can be loaded in the same way that you access a standard app.
+4. Csatlakoztasd vissza a tárolóeszközt a Wii-be, és lépj be a Homebrew Channel csatornába.
+5. A téma amít telepítettél betölthető úgyanolyan módon, mint ahogy egy standard appot érsz el.
 
     ![](/images/themes/homebrew-channel-load-theme.png)
 
-6. The theme should now be loaded, enjoy!
+6. A témának most már be kell töltődnie, jó szórakozást!
 
     ![](/images/themes/homebrew-channel-theme-done.png)
 
 ### App Forwarder-ek
 
-App forwarders can add a bit of extra flair to your Wii Menu - but be careful with them as bad forwarders can cause a [banner brick](bricks#banner-brick). Generally, you can find forwarders on places like [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) for popular apps such as emulators. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme).
+Az App forwarderek egy kis extra hangulatot adhatnak a Wii menüjének - de légy óvatos velük, mivel a rossz forwarderek [banner bricket](bricks#banner-brick) okozhatnak. Általában olyan helyeken találhatsz forwardereket, mint a [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) a népszerű alkalmazásokhoz, például emulátorokhoz. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme).
 
 
 [Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
