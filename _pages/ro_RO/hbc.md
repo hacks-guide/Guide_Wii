@@ -59,6 +59,8 @@ Dacă nu ai un card SD, nu poți instala sau folosi BootMii, indiferent că îl 
 1. Alege `Exit`.
 1. Consola ta va rula Homebrew Channel.
 
+    ![](/images/hbc/blank.png)
+
 ### Citire necesară
 
 Acum poți să folosești Homebrew Channel pentru a rula aplicații homebrew cât și BootMii pentru a crea un backup și a restaura memoria ta NAND în cazul în care ai putut să-l instalezi.
