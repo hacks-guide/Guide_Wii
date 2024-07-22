@@ -58,6 +58,8 @@ If you do not have an SD card, you cannot install nor use BootMii, and therefore
 1. If BootMii says that it `can only be installed as an IOS`, that's normal.
 1. Your console will have booted into the Homebrew Channel.
 
+    ![](/images/hbc/blank.png)
+
 ### Required Reading
 
 You can now use the Homebrew Channel to launch homebrew apps.
