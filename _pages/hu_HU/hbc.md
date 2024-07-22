@@ -59,6 +59,8 @@ SD kártya nélkül a módszertől függetlenül nem telepítheted a BootMiit. A
 1. Nyomd meg az „`Exit`”-gombot!
 1. Ezután a konzol el fogja indítani a Homebrew Channelt.
 
+    ![](/images/hbc/blank.png)
+
 ### Olvass el!
 
 Az útmutató befejezése után képes leszel nemhivatalos alkalmazásokat futtatni – ezek között, ha sikerült telepítened, a BootMiit is, amellyel biztonsági mentéseket készíthetsz és tölthetsz vissza a Wii belső tárhelyéről.
