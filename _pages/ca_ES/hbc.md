@@ -59,6 +59,8 @@ If you do not have an SD card, you cannot install nor use BootMii, regardless of
 1. Select `Exit`.
 1. Your console will have booted into the Homebrew Channel.
 
+    ![](/images/hbc/blank.png)
+
 ### Required Reading
 
 You can now use the Homebrew Channel to launch homebrew apps, as well as BootMii for backing up and restoring your NAND if you were able to install it.
