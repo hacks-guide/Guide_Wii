@@ -62,6 +62,8 @@ If you do not have an SD card, you cannot install nor use BootMii, and therefore
 1. Select `Exit` to finally open the Homebrew Channel.
 1. Your console will have booted into the Homebrew Channel.
 
+    ![](/images/hbc/blank.png)
+
 ### Required Reading
 
 The Homebrew Channel is where you will go to launch homebrew applications. BootMii is a piece of software that can backup and restore your Wii's NAND storage, and if installed in boot2, provides brick protection.
