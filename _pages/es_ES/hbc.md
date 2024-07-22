@@ -59,6 +59,8 @@ Si no dispones de una tarjeta SD, no serás capaz de instalar ni utilizar BootMi
 1. Selecciona `Exit` para iniciar el Canal Homebrew.
 1. Your console will have booted into the Homebrew Channel.
 
+    ![](/images/hbc/blank.png)
+
 ### Required Reading
 
 Ahora puedes iniciar el Canal Homebrew desde el menú de Wii para ejecutar aplicaciones homebrew.
