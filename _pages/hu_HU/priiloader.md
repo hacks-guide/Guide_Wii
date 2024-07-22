@@ -22,14 +22,6 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 
 ### Útmutató
 
-{% capture vwii-notes %}
-
-A vWiire telepített Priiloader nem befolyásolja a Wii U VC-programokat.
-
-{% endcapture %}
-
-<div class="notice--danger">{{ vwii-notes | markdownify }}</div>
-
 #### I. rész – Előkészületek
 
 1. Kapcsold ki a konzolt!
@@ -43,7 +35,10 @@ A vWiire telepített Priiloader nem befolyásolja a Wii U VC-programokat.
 
 1. Kapcsold be a konzolt!
 1. Indítsd el a Homebrew Channelt!
-1. Indítsd el a listáról a „Priiloader Installer”-t!
+1. Launch Priiloader Installer from the list of homebrew.
+
+    ![](/images/hbc/priiloader-and-loadpriiloader.png)
+
 1. Nyomd meg a +-gombot a Wii Remote-on vagy az A-gombot a GameCube-vezérlőn!
 
     ![](/images/priiloader/installer.png)
