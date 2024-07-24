@@ -6,7 +6,7 @@ title: A Homebrew Channel telepítése
 
 Ez az útmutató végig vezet a Homebrew Channel telepítésén a vWii-re a Wii U oldal módosítása nélkül.
 
-#### I. rész - bootolás Aromába
+#### Section I - Booting into Aroma
 
 1. Futtasd a web böngésző exploitot, ami [korábban kifejtésre került](wiiu-nand-dumper), de ez alkalommal tartsd nyomva az X gombot, hogy az Environment Loader menüt nyisd meg.
 2. Ha már ott vagy bootolj Aroma környzetbe, annak kiválasztásával a payload loader-ben.
@@ -27,20 +27,20 @@ Most már tudod használni a Homebrew Channel-t arra, hogy Wii homebrew appokat 
 Megjegyzés: Ha nemhivatalos alkalmazásokat telepítesz SD kártyára vagy pendrive-ra, a könyvtárfelépítésed így kell, hogy kinézzen:
 
 ```
-💾 SD kártya
+💾 SD Card
  ┗ 📁 apps
-   ┣ 📁 AppName1
+   ┣ 📁 <AppName1>
    ┃ ┣ 📄 boot.dol
    ┃ ┣ 📄 meta.xml
    ┃ ┗ 📄 icon.png
-   ┗ 📁 AppName2
-	 ┣ 📄 boot.dol
+   ┗ 📁 <AppName2>
+     ┣ 📄 boot.dol
      ┣ 📄 meta.xml
      ┗ 📄 icon.png
 ```
 
 `AppName1` és `AppName2` helyfoglaló nevek. Az `apps` mappában ne hozz létre egy másik `apps` nevű mappát.
-Ne keverd össze az `apps` mappát a `wiiu` mappában és az `apps` mappával az SD kártya gyökerében.
+Do not get confused with the `apps` folder inside of the `wiiu` folder and the `apps` folder on the root of the SD card.
 
 [Folytatás a Priiloader telepítésével](priiloader)<br>
 {: .notice--info}
