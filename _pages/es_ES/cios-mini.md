@@ -17,7 +17,7 @@ El instalador de este cIOS originalmente fue desarrollado para la vWii de Wii U 
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-Esta guía solo aplica para usuarios de Wii mini. Si tienes una Wii original, por favor sigue [esta guía](cios). If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+This guide is only intended for Wii Mini users. <br/> If you have a Wii, follow [this guide](cios) instead. <br/> If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
 {: .notice--warning}
 
 Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Hacer esto conlleva un gran riesgo de que tu consola sufra un brick.
