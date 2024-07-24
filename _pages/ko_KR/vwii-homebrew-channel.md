@@ -50,12 +50,12 @@ Note: When installing Wii homebrew applications on your SD Card or USB drive, yo
 ```
 💾 SD Card
  ┗ 📁 apps
-   ┣ 📁 AppName1
+   ┣ 📁 <AppName1>
    ┃ ┣ 📄 boot.dol
    ┃ ┣ 📄 meta.xml
    ┃ ┗ 📄 icon.png
-   ┗ 📁 AppName2
-	 ┣ 📄 boot.dol
+   ┗ 📁 <AppName2>
+     ┣ 📄 boot.dol
      ┣ 📄 meta.xml
      ┗ 📄 icon.png
 ```
