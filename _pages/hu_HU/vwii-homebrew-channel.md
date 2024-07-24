@@ -49,12 +49,12 @@ Megjegyzés: Ha homebrew Wii alkalmazásokat telepítesz SD kártyára vagy USB 
 ```
 💾 SD Card
  ┗ 📁 apps
-   ┣ 📁 AppName1
+   ┣ 📁 <AppName1>
    ┃ ┣ 📄 boot.dol
    ┃ ┣ 📄 meta.xml
    ┃ ┗ 📄 icon.png
-   ┗ 📁 AppName2
-	 ┣ 📄 boot.dol
+   ┗ 📁 <AppName2>
+     ┣ 📄 boot.dol
      ┣ 📄 meta.xml
      ┗ 📄 icon.png
 ```
