@@ -80,9 +80,9 @@ If you were able to install BootMii as boot2, but don't want to load the BootMii
 Puoi anche usare l'app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) sulla Wii per cambiare queste impostazioni.
 {: .notice--info}
 
-### Uploading NAND Backup to Dolphin Emulator
+### Caricare un backup della NAND su Dolphin Emulator
 
-Your NAND backup can be utilized in Dolphin Emulator.
+Il tuo backup della NAND può essere usato sull'emulatore Dolphin.
 
 1. Get the latest beta or development release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
 1. Avvia l'Emulatore Dolphin.
