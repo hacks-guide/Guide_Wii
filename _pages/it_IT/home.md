@@ -6,7 +6,7 @@ header:
   overlay_image: /images/main-pages/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Wii, vWii, and Wii mini."
+excerpt: "La guida completa per moddare la tua Wii, vWii e Wii Mini."
 ---
 
 Dal momento che questa guida è stata appena pubblicata, le traduzioni sono ancora in corso d'opera. Grazie per la pazienza!
