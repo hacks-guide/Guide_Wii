@@ -2,23 +2,23 @@
 title: "BootMii Yedekleme"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
+BootMii Wii'nizin NAND depolamasını yedekleme ve geri yükleme için imkan sağlar. Bu sayfa size Wii'nizin NAND depolamasını bir SD card'a yedeklemeniz konusunda yardımcı olur, böylece istediğiniz zaman istediğiniz gibi kullanabilirsiniz.
 
-You need an **SD card** to create a NAND backup using BootMii. If you do not have one, you can skip this page, although it is highly recommended to make a NAND backup if you can.
+BootMii'yi kullanmak için bir **SD card** gereklidir, ama özellikle bir NAND yedeklemesi yapmak için. Eğer şu anda bir SD card'ınız yoksa bu sayfayı atlayabilirsiniz, ama en tez zamanda buraya dönüp NAND depolamanızı yedeklemeniz ŞİDDETLE ÖNERİLİR.
 {: .notice--warning}
 
 ### Gereksinimler
 
-* An SD card with at least 512MB of free space
+* En az 512 MB boş alanı olan bir SD card (1GB veya fazlası önerilir)
 
-### Instructions
+### Talimatlar
 
-If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+Eğer BootMii'yi boot2 olarak kurduysanız, BootMii'yi konsolunuzu kapatıp açarak başlatmanız gerekir. Eğer durumunuz bu ise, birinci ve ikinci aşamaları atlayabilirsiniz.
 {: .notice--info}
 
-1. Power on your console.
+1. Konsolunuzu açın.
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 1. Press the HOME Button, then select "Launch BootMii".
 
@@ -30,28 +30,28 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
     If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
     {: .notice--warning}
 
-1. You should see an image similar to the below now on your screen:
+1. Şimdi buna benzer bir ekran görmüş olmanız gerekir:
 
     ![](/images/bootmii/BootMii_Main.png)
 
-    Navigating BootMii is not possible using a Wii Remote. You must use the POWER and RESET buttons on your console, or a GameCube controller plugged into port 1. To navigate between options, press POWER. To select an option, press RESET.
+    Bir Wiimote ile BootMii'yi kontrol etmek mümkün değildir. Konsolunuzdaki POWER ve RESET butonlarını, veya birinci girişe takılmış bir GameCube kumandası kullanmalısınız. Seçenekler arasında gezinmek için, POWER butonuna basın. Bir seçeneği seçmek için, RESET butonuna tıklayın.
     {: .notice--info}
 
 1. Select the Options button (the icon with the gears).
 
     ![](/images/bootmii/BootMii_Gears.png)
 
-1. Select the first button to the left.
+1. Soldan ilk butonu seçin.
 
     ![](/images/bootmii/BootMii_Backup.png)
 
-1. A NAND backup will start. You can watch the progress on the screen.
-    + "Bad Blocks" are normal. Don't worry when you see some on a NAND backup.
+1. Bir NAND yedeklemesi başlayacaktır. Ekranda süreci izleyebilirsiniz.
+    + "Bad Blocks" are normal. Bunları bir NAND yedeklemesinde gördüğünüzde endişelenmeyin.
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
-1. After this step, it will verify the backup. Ideally, all the blocks should be green after the verification process.
-    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine.
+1. After this step, it will verify the backup. İdeal olarak, bütün bloklar doğrulama sürecinden sonra yeşil olmalıdır.
+    + Eğer düzeltilemeyecek kötü bloklarınız var ise, bu bloklar doğrulanamayabilir. Bütün kötü olmayan bloklar doğrulandığı sürece, hiçbir sorun olmayacaktır.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -60,35 +60,35 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
     ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-Please be reminded that <strong>restoring a NAND backup is usually a last resort,</strong> and that there often better ways to fix your brick. There are often better ways to unbrick your console.
-Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover). **Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
+Not: **bir NAND yedeklemesini geri yüklemek genellikle son çaredir**. Genellikle konsolunuzu bir brick'ten kurtarmak için daha iyi yollar vardır.
+[Brick durumunuzu tanımlamak](bricks) için elinizden gelenin en iyisini yapın ve ilk etapta buna neden olan eylemi tersine çevirin.
+SD card'ınızdan bir NAND yedeklemesini geri yüklemek için, [RestoreMii](bootmiirecover) talimatlarını uygulayabilirsiniz. **Family edition Wiiler (GameCube girişleri olmayan Wiiler) donanım modifikasyonu olmadan NAND yedeklemelerini geri YÜKLEYEMEZLER.**
 </div>
 
-To make sure you don’t lose the files, it's recommended to copy `nand.bin` and `keys.bin` from the root of your SD card to your computer. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+SD card'ınızın kök dizininde iki tane dosya oluşturulmuş olacaktır: `nand.bin` ve `keys.bin`. `nand.bin` konsolunuzun dahili depolamasının bir yedeği iken, `keys.bin` konsolunuzun anahtarlarıdır.
 {: .notice--info}
 
-### Autobooting
+### Otomatik önyükleme
 
-If you were able to install BootMii as boot2, but dont want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
+Eğer BootMii'yi boot2 olarak kurabilmişseniz, ancak Wiinizi her açtığınızda BootMii ekranını görmek istemiyorsanız, otomatik olarak sistem menüsünü açma seçeneğiniz vardır. Böylece BootMii'yi boot2 olarak kurduğunuzun farkına bile varmazsınız.
 
-1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
-1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
-1. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
-1. Save the file and exit.
+1. `SD:/bootmii/bootmii.ini` dosyasını not defteri gibi bir metin düzenleyicisi ile açın.
+1. `#`'i silerek `#AUTOBOOT=SYSMENU` yazısını `AUTOBOOT=SYSMENU` olarak değiştirin.
+1. Sonra da `#`'i silerek ve `5`'i `1` yaparak `#BOOTDELAY=5` yazısını `BOOTDELAY=1` olarak değiştirin.
+1. Dosyayı kaydedin ve çıkın.
 
-You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
+Ayrıca Wii'de [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) uygulamaı ile de bu ayarları değiştirebilirsiniz.
 {: .notice--info}
 
-### Uploading NAND Backup to Dolphin Emulator
+### Dolphin Emulator'a NAND yedeklemesini yüklemek
 
-Your NAND backup can be utilized in Dolphin Emulator.
+NAND yedeklemeniz Dolphin Emulator'da kullanılabilir.
 
-1. Get the latest beta or development release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
-1. Open Dolphin Emulator.
-1. Click on the `Tools` tab, scroll down to `Manage NAND`, then select `Import BootMii NAND backup...`.
-1. Locate the `nand.bin` found on the root of your SD card and select Open.
-1. If it asks for a `keys.bin`, locate it on the root of your SD and select Open.
+1. [Dolphin web sitesinden](https://dolphin-emu.org/) en yeni sürümü ya da geliştirici sürümünü indirin ve cihazınıza kurun.
+1. Dolphin Emulator'ü açın.
+1. `Tools` sekmesine tıklayın, ardından `Manage NAND` seçeneğinin üstüne gelin, sonra da `Import BootMii NAND backup...`'a tıklayın.
+1. `nand.bin` dosyasını bulun ve Aç butonuna tıklayın.
+1. Eğer `keys.bin` dosyasını da isterse, onu da bulun ve Aç butonuna tıklayın.
 
-[Continue to Priiloader Installation](priiloader)<br> Priiloader adds a level of brick protection, and is highly recommended, especially if you were only able to install BootMii as IOS. It is especially important for users of BootMii on IOS.
+[Priiloader kurulumu'na devam edin](priiloader)<br> Priiloader ikinci bir brick'ten koruma katmanıdır, ve BootMii'yi boot2 olarak kurmuş olsanız bile önerilir. BootMii'yi sadece bir IOS olarak kurabildiyseniz çok önemlidir.
 {: .notice--info}

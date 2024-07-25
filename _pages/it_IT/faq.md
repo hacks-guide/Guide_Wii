@@ -7,7 +7,7 @@ title: "FAQ e Risoluzione dei problemi"
 {% include toc title="Table of Contents" %}
 
 ### Quanto è rischioso modificare la mia console?
-Not very risky depending on your console. Il Wii ha molte meno barriere da oltrepassare rispetto ad altre console, con exploit che richiedono solamente un Wii e una connessione a internet. Finchè segui i consigli generali scritti [qui](bricks#brick-prevention), installi [BootMii](bootmii) e [Priiloader](priiloader), e hai buon senso, tutto dovrebbe essere a posto!
+Non molto rischioso, dipende dalla tua console. Il Wii ha molte meno barriere da oltrepassare rispetto ad altre console, con exploit che richiedono solamente un Wii e una connessione a internet. Finchè segui i consigli generali scritti [qui](bricks#brick-prevention), installi [BootMii](bootmii) e [Priiloader](priiloader), e hai buon senso, tutto dovrebbe essere a posto!
 
 ### Ricevo un errore XXXXXX, come lo sistemo?
 Per verificare il significato dell'errore, per favore visita [La pagina degli errori di Wiimmfi](https://wiimmfi.de/error). Gli errori più comuni hanno le correzioni elencate sotto:

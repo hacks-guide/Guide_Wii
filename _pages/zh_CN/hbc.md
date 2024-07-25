@@ -62,6 +62,8 @@ BootMii can be installed in two ways: directly to a part of the Wii bootloader c
 1. 选择 `Continue`。
 1. Homebrew Channel 安装成功
 
+    ![](/images/hbc/blank.png)
+
 ### 必读
 
 您现在可以使用 Homebrew Channel 启动自制应用程序。

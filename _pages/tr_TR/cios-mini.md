@@ -2,7 +2,7 @@
 title: "Wii mini için d2xl cIOS (deneysel)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 Bu eğitimle ilgili herhangi bir konuda yardıma ihtiyacınız olursa lütfen [Wii mini Hacking Discord sunucusuna](https://discord.gg/6ryxnkS) katılın (önerilir)
 {: .notice--info}
@@ -17,7 +17,7 @@ This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBao
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-This guide is only intended for Wii mini users. If you have a Wii, follow [this guide](cios) instead. If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+This guide is only intended for Wii Mini users. <br/> If you have a Wii, follow [this guide](cios) instead. <br/> If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
 {: .notice--warning}
 
 Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing so will likely brick your console.
@@ -29,16 +29,16 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 * A USB drive
 * Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
-### Instructions
+### Talimatlar
 
 #### Section I - Downloading
 
-1. Power off your console.
+1. Konsolunuzu kapatın.
 1. Insert your USB drive into your computer.
 1. You can now use homebrew such as [USB Loader GX](usbloadergx) and [WiiFlow](wiiflow).
 1. Extract the d2xl cIOS Installer to the `apps` folder on your USB drive.
 1. Reinsert your USB drive into your console.
-1. Power on your console.
+1. Konsolunuzu açın.
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 1. Launch d2xl cIOS Installer from the list of homebrew.
 

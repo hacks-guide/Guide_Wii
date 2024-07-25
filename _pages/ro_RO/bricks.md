@@ -123,7 +123,7 @@ După ce pornești consola Wii, ecranul de avertizare/apasă A apare, iar când 
 Un brick de mail apare atunci când un Wii are mai mult mail decât poate face față sau când mail defect se află în Wii Message Board, cauzând o înghețare a sistemului odată ce o pornești normal. Pentru că Wii Message Board este mereu afișat sub canalele Wii, asta cauzează Meniul Wii să eșueze înainte să se încarce complet.
 
 #### Soluție
-Dacă ții apăsat + și - pe ecranul de avertizare, maintenance mode poate fi accesat, unde Wii Message Board-ul nu este încărcat deloc. Dacă Homebrew Channel nu este instalat și meniul de sistem este la versiunea meniului Wii 2.0 sau mai nou, urmează [str2hax](str2hax). Altfel, vezi [Bluebomb](bluebomb).
+Dacă ții apăsat + și - pe ecranul de avertizare, maintenance mode poate fi accesat, unde Wii Message Board-ul nu este încărcat deloc. If the Homebrew Channel is not installed, follow [Bluebomb](bluebomb).
 
 De aici, Homebrew Channel poate fi rulat și brick-ul poate fi reparat prin ștergerea datelor Wii Message Board folosind [cdbackup](https://oscwii.org/library/app/cdbackup).
 
@@ -177,7 +177,7 @@ Acest brick pare să fie identic cu un brick de nivel adânc datorită eșuării
 Acest brick se întâmplă cel mai des atunci când sistemul IOS al meniului Wii este unul [stub](http://wiibrew.org/wiki/Stub_IOS), sau în cazul în care pe consolă este instalat un tip greșit de IOS. Un IOS stub pentru system menu este de obicei consecința încercării de a face downgrade la Wii menu. Dacă această eroare a început să se întâmple după instalarea unui IOS80 normal într-un Wii mini, vezi [brick de Wi-Fi](bricks#wi-fi-brick).
 
 #### Soluții
-[Recovery mode](recovery-mode) poate sau poate să nu fie accesibil datorită naturii brick-ului, însă Priiloader nu va funcționa aproape niciodată. Dacă nu poți intra în recovery mode, trebuie să ai BootMii ca boot2 pentru a repara asta. Dacă aceste condiții nu sunt îndeplinite, vezi [brick de nivel adânc](bricks#low-level-brick).
+You must have BootMii as boot2 to fix this.
 
 Poți să restaurezi un backup al memoriei NAND sau să faci asta:
 

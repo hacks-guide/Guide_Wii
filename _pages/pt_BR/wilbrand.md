@@ -118,7 +118,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Open the Wii Message Board.
 1. Open the green letter with a bomb.
     + Certifique-se que a data em seu Wii está correta, caso contrário você não poderá encontrar a carta.
-    + Em alguns casos, talvez seja necessário verificar as mensagens do dia anterior ou dia seguinte para que a carta apareça.
+    + In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     + Se você não vê a carta verde, cheque se algum erro aparece nas sessões do cartão SD em `Data Management`. Se quaisquer aparecerem, talvez haja um erro com o formato do seu cartão SD ou o leitor de SD do Wii.
 
     ![](/images/exploits/wilbrand/msgboard.png)

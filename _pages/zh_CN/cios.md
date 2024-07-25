@@ -12,26 +12,20 @@ cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While 
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-This guide is only intended for Wii users. If you have a Wii mini, follow [this guide](cios-mini) instead. If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
-{: .notice--warning}
-
-Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. 这样做会使你的Wii mini砖机。
-{: .notice--warning}
-
 ### Requirements
+
+This guide is only intended for Wii users. <br/> If you have a Wii U (vWii), follow [this guide](cios-vwii) instead. <br/> If you have a Wii mini, follow [this guide](cios-mini) instead.
+{: .notice--warning}
 
 * 一台 Wii
 * 一张 SD 卡或 U 盘
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-如果您使用的是 SD 卡，确保锁定开关位于解锁，否则您将无法在安装程序中选择正确的选项。
-{: .notice--warning}
-
 ### Instructions
 
 #### Section I - Downloading
 
-如果您不使用 Windows，您可以下载 & 运行[这个脚本](/assets/files/d2x_offline_ios.sh)，它会为您下载 WAD 文件。
+If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
 
 If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
@@ -57,7 +51,6 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 #### 第二部分 - 安装
 
-
 1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Power on your console.
@@ -73,6 +66,9 @@ Select cIOS version: 65535
     ```
 
     ![](/images/cios/d2x_v11_248.png)
+
+    If you do not see `d2x-v11-beta1`, exit the installer with B, and make sure your SD card is unlocked.
+    {: .notice--info}
 
     The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
     {: .notice--info}
@@ -132,6 +128,9 @@ Select cIOS version: 65535
         ![](/images/cios/d2x_v11_251.png)
 
 1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+
+If you downloaded the 4 WAD files in Section I, you may now delete them from your SD card/USB drive.
+{: .notice--info}
 
 [继续安装 Homebrew Browser](hbb)<br> Homebrew Browser 是获取 Wii 自制软件的好地方。 这是可选的安装步骤。
 {: .notice--info}

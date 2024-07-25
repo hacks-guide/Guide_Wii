@@ -43,11 +43,10 @@ sitemap: false
 + [ModMii](modmii)
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
++ [Helyreállítási mód](recovery-mode)
 + [A HackMii Installer újraindítása](hackmii)
 + [A Wii NAND visszaállítása gyárira](wii-factory-reset)
 + [A Wii Menu frissítése v4.3-ra](update)
-+ [Helyreállítási mód](recovery-mode)
-+ [A Wii NAND visszaállítása gyárira](wii-factory-reset)
 + [YAWM ModMii Edition](yawmme)
 {% endcapture %}
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>

@@ -2,7 +2,7 @@
 title: d2x cIOS for vWii
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 {% capture technical_info %}
 
@@ -14,7 +14,9 @@ cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While 
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-This guide is only intended for Wii U (vWii) users. If you have a Wii, follow [this guide](cios) instead. If you have a Wii mini, follow [this guide](cios-mini) instead.
+This guide is only intended for Wii U users. <br/>
+If you have a Wii, follow [this guide](cios) instead. <br/>
+If you have a Wii mini, follow [this guide](cios-mini) instead.
 {: .notice--warning}
 
 Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing so will likely [brick](bricks#ios-brick) your console.
@@ -22,14 +24,14 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 
 ### Gereksinimler
 
-- A Wii U with the Homebrew channel installed on the vWii
+- A Wii U with the Homebrew Channel installed on the vWii
 - An SD card
 - The [d2x cIOS Installer](/assets/files/d2x_cIOS_Installer-vWii.zip).
 
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
 {: .notice--warning}
 
-### Instructions
+### Talimatlar
 
 #### Section I - Installing
 

@@ -51,7 +51,7 @@ Se hai BootMii installato come boot2, dovrai riavviare la console per eseguierlo
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. Non appena la prima scan sarà terminata, BootMii verificherà il backup. Idealmente, tutti i blocchi dovrebbero essere verdi dopo il processo di verifica.
-    + Se hai blocchi neri con pagine non correggibili, questi blocchi potrebbero non venire verificati. Finchè però tutti i blocchi verdi sono verificati con successo, non ci dovrebbero essere problemi.
+    + Se hai blocchi neri con pagine non correggibili, questi blocchi potrebbero non venire verificati. As long as all non-bad blocks are successfully verified, this should be fine.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -70,7 +70,7 @@ Due file saranno stati creati sul root della tua scheda SD: `nand.bin` e `keys.b
 
 ### Autobooting
 
-Se sei stato in grado di installare BootMii come boot2, ma non vuoi caricare la schermata di BootMii ogni volta che accedi la Wii, hai l'opzione di impostarlo come autoboot al menu di sistema. Questo dovrebbe fare in modo che non ti accorgi nemmeno di avere BootMii installato come boot2.
+If you were able to install BootMii as boot2, but don't want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. Questo dovrebbe fare in modo che non ti accorgi nemmeno di avere BootMii installato come boot2.
 
 1. Apri `SD:/bootmii/bootmii.ini` con un editor di testi, come il blocco note.
 1. Cambia `#AUTOBOOT=SYSMENU` a `AUTOBOOT=SYSMENU` cancellando il `#`.
@@ -80,9 +80,9 @@ Se sei stato in grado di installare BootMii come boot2, ma non vuoi caricare la 
 Puoi anche usare l'app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) sulla Wii per cambiare queste impostazioni.
 {: .notice--info}
 
-### Uploading NAND Backup to Dolphin Emulator
+### Caricare un backup della NAND su Dolphin Emulator
 
-Your NAND backup can be utilized in Dolphin Emulator.
+Il tuo backup della NAND può essere usato sull'emulatore Dolphin.
 
 1. Get the latest beta or development release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
 1. Avvia l'Emulatore Dolphin.

@@ -59,6 +59,8 @@ SD 카드가 없는 경우 BootMii를 설치하거나 사용할 수 없으므로
 1. `IOS`로 BootMii 설치를 선택합니다.
 1. Your console will have booted into the Homebrew Channel.
 
+    ![](/images/hbc/blank.png)
+
 ### 필수 읽기
 
 You can now use the Homebrew Channel to launch homebrew apps, as well as BootMii for backing up and restoring your NAND if you were able to install it.

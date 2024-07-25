@@ -1,50 +1,50 @@
 ---
-title: "Dumping WADs"
+title: "WADları yedeklemek"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
-This tutorial will explain you how to dump WADs from your Wii System Memory.
+Bu rehber size nasıl Wii'nizin depolamasından WADları yedekleyeceğinizi öğretecektir.
 
 ### Gereksinimler
 
-+ An SD card or USB drive
++ Bir SD card veya USB yığın depolama aygıtı
 + [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-### Instructions
+### Talimatlar
 
-1. Power off your console.
-1. Insert your SD card or USB drive into your computer.
-1. Extract Yet Another BlueDump MOD to your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
-1. Launch the Homebrew Channel, and launch the Load Priiloader app.
-1. Insert your SD card or USB drive into your Wii, and launch Yet Another BlueDump MOD from the Homebrew Channel.
-1. Press the A Button.
+1. Konsolunuzu kapatın.
+1. SD card veya USB cihazınızı bilgisayarınıza takın.
+1. Yet Another BlueDump MOD`.zip` dosyasının içinden `apps` klasörünü SD card'ınızın veya USB cihazınızın kök dizinine yapıştırın.
+1. SD card veya USB cihazınızı yeniden konsolunuza takın.
+1. Konsolunuzu açın.
+1. Homebrew Channel'ı açın.
+1. Homebrew uygulamalarının arasından Yet Another BlueDump MOD uygulamasını açın.
+1. A butonuna tıklayın.
 
     ![](/images/homebrew/DumpWADS/1.png)
 
-1. Choose `Installed Channel Titles`.
+1. `Installed Channel Titles`'ı seçin.
 
     ![](/images/homebrew/DumpWADS/2.png)
 
-1. Find the content you want to dump and press the 1 Button.
+1. Yedeklemek istediğiniz içeriği seçin ve 1 butonuna tıklayın.
 
     ![](/images/homebrew/DumpWADS/3.png)
 
-1. Choose `Backup to WAD`.
+1. `Backup to WAD`'ı seçin.
 
     ![](/images/homebrew/DumpWADS/4.png)
 
-1. At the prompt to `Fakesign the ticket`, choose `Yes`.
-1. At the prompt to `Fakesign the TMD`, choose `No`.
-1. At the prompt to `Change the output WAD region`, choose `No`.
+1. `Fakesign the ticket` sorusunda `Yes`'i seçin.
+1. `Fakesign the TMD` sorusunda `No`'yu seçin.
+1. `Change the output WAD region` sorusunda `No`'yu seçin.
 
     ![](/images/homebrew/DumpWADS/5.png)
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-You have now dumped that WAD. It should appear on your SD card.
+WAD şu anda yedeklenmiş ve SD card ya da USB cihazınızda olmalıdır.
 
 ![](/images/homebrew/DumpWADS/7.png)
 

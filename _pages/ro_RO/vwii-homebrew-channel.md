@@ -11,7 +11,8 @@ Această pagină vă va ghida prin procesul de modificare a vWii-ului.
 Dacă ați modat Wii U în trecut, puteți folosi același card SD pentru acest proces.
 {: .notice--info}
 
-Dacă nu ați făcut deja, asigurați-vă că ați făcut o [copie de rezervă](https://wiiu.hacks.guide/#/aroma/nand-backup) și că aveți [Aroma Environment](https://aroma.foryour.cafe/) instalat pe Wii U. Altfel, treceți la [Instalarea Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) sau [Modding the vWii fără a modifica latura Wii U](wiiu-nand-dumper)
+If you haven't already, make sure you did a [NAND backup](https://wiiu.hacks.guide/#/aroma/nand-backup) and have the [Aroma Environment](https://aroma.foryour.cafe/) installed on your Wii U.
+Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
 {: .notice--info}
 
 ### Instrumente necesare
@@ -47,14 +48,14 @@ Acum puteți folosi Homebrew Channel pentru a porni aplicațiile homebrew Wii.
 Notă: Când instalezi aplicații homebrew pe cardul tău SD sau unitatea ta USB, structura dosarului tău ar trebui să arate astfel:
 
 ```
-💾 Card SD
+💾 SD Card
  ┗ 📁 apps
-   ┣ 📁 AppName1
+   ┣ 📁 <AppName1>
    ┃ ┣ 📄 boot.dol
    ┃ ┣ 📄 meta.xml
    ┃ ┗ 📄 icon.png
-   ┗ 📁 AppName2
-	 ┣ 📄 boot.dol
+   ┗ 📁 <AppName2>
+     ┣ 📄 boot.dol
      ┣ 📄 meta.xml
      ┗ 📄 icon.png
 ```
@@ -62,5 +63,5 @@ Notă: Când instalezi aplicații homebrew pe cardul tău SD sau unitatea ta USB
 `AppName1` și `AppName2` sunt nume înlocuitoare. Nu crea mai multe dosare `apps` înăuntrul dosarului `apps` în sine.
 Nu vă confundați cu folderul `apps` din folderul `wiiu` și folderul `apps` de pe directorul principal al cardului SD.
 
-[Continuați să instalați Priiloader](priiloader)<br>
+Continue to [Installing Priiloader](priiloader)<br>
 {: .notice--info}

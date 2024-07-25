@@ -123,7 +123,7 @@ Attempt to start the Wii - warning/press A screen shows up, and when A is presse
 A mail brick happens when your Wii has a lot of mail. This will make the Wii crash.
 
 #### Solution
-By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed and the system menu is at Wii menu version 2.0 or later, follow [str2hax](str2hax). Otherwise, see [Bluebomb](bluebomb).
+By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed, follow [Bluebomb](bluebomb).
 
 Enter the Homebrew Channel, and use [cdbackup](https://oscwii.org/library/app/cdbackup) to delete your Wii Message Board data.
 
@@ -177,7 +177,7 @@ This brick will appear identical to a low-level brick due to a Wii Menu failure 
 This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. A stubbed system menu IOS is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
 
 #### Solutions
-[Recovery mode](recovery-mode) may or may not be accessible due to the nature of the brick, but Priiloader will almost always not work. You must have BootMii as boot2 to fix this brick. If these conditions are not met, see [low-level brick](bricks#low-level-brick).
+You must have BootMii as boot2 to fix this.
 
 You can either restore a NAND backup, or do this:
 

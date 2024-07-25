@@ -1,14 +1,14 @@
 ---
-title: Restoring the Wii NAND to Stock
+title: A Wii NAND visszaállítása gyárira
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
-This guide details how to create a stock NAND for your Wii system using a program called Ohneschwanzenegger. Unlike the `Format Wii System Memory` option in the Wii settings, this will completely wipe any changes to the NAND by downloading a stock Wii System Menu from NUS servers. If followed correctly, the Wii should have no homebrew left on the system, stock IOSes, and boot up to a factory setup screen when the NAND is flashed.
+Ez az útmutató részletesen bemutatja, hogyan hozhatsz létre egy alap NAND-ot a Wii rendszeredhez az Ohneschwanzenegger nevű program segítségével. A Wii beállításaiban található `Format Wii System Memory` opcióval ellentétben ez teljesen törli a NAND minden módosítását a NUS szerverekről letöltött alap Wii System Menu segítségével. Ha helyesen követed, a Wii-n nem marad homebrew a rendszeren, stock IOS-eket tartalmaz és egy gyári beállítási képernyőre kell bootolnia, ha a NAND flashelve lett.
 
 Please note that this program **needs** an existing (even bricked!) NAND backup to function, as it needs to have a copy of the first 8 blocks of NAND, a bad blocks list, and AES/HMAC keys.
 
-Do not attempt this tutorial on the Wii U's vWii.
+Ne próbáld meg ezt az útmutatót a Wii U vWii rendszerénél.
 {: .notice--info}
 
 {% capture here-be-dragons %}
@@ -30,7 +30,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 - Egy SD kártya legalább 512 MB szabad hellyel (1 GB vagy több ajánlott)
 - A [NAND backup](bootmii) from the specific system you are trying to flash
-- A Windows computer with an Internet connection
+- Egy internetkapcsolattal rendelkező Windows PC
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
 - [Nand BIN Checker](/assets/files/nandBinCheck.zip)
 

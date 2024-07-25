@@ -2,7 +2,7 @@
 title: "Updating Wii Menu to v4.3"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 This tutorial will explain how to update your Wii Menu to version 4.3, if you have already homebrewed your Wii.
 
@@ -11,18 +11,17 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### Gereksinimler
 
+* a Wii with The Homebrew Channel 1.0.8 or later
+    + If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
 * An SD card or USB drive
 * A computer with Windows on it
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
 * [Priiloader](priiloader)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Instructions
+### Talimatlar
 
 #### Section I - Downloading
-
-Your Wii must be modded in order to perform this. If it isn't, then it's best to follow [the guide](get-started) first before doing this.
-{: .notice--info}
 
 1. Extract the .zip file for NUS Downloader Wii and open the application.
 1. Go to `Database...` > `System` > `0000000100000002 - System Menu` and select the version corresponding to your region as shown in the table below.

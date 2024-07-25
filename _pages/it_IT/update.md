@@ -11,6 +11,8 @@ Questa guida spiegherà come aggiornare il tuo Menu Wii alla versione 4.3, se ha
 
 ### Requisiti
 
+* a Wii with The Homebrew Channel 1.0.8 or later
+    + If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
 * Una scheda SD o dispositivo USB
 * Un computer Windows
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
@@ -20,9 +22,6 @@ Questa guida spiegherà come aggiornare il tuo Menu Wii alla versione 4.3, se ha
 ### Istruzioni
 
 #### Sezione I - Download
-
-La tua console Wii deve essere modificata per poter continuare. Se non lo è, allora è meglio prima seguire [la guida](get-started).
-{: .notice--info}
 
 1. Estrai il file .zip per NUS Downloader Wii e apri l'applicazione.
 1. Vai su `Database...` > `System` > `0000000100000002 - System Menu` e seleziona la versione corrispondente a quella mostrata nella tabella sottostante.

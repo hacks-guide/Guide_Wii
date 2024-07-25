@@ -123,7 +123,7 @@ Attempt to start the Wii - warning/press A screen shows up, and when A is presse
 当 Wii 收到大量邮件时，就会出现 "mail brick（邮件砖）"。 这会导致 Wii 崩溃。
 
 #### 解决方案
-By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed and the system menu is at Wii menu version 2.0 or later, follow [str2hax](str2hax). Otherwise, see [Bluebomb](bluebomb). Otherwise, see [Bluebomb](bluebomb).
+By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed, follow [Bluebomb](bluebomb).
 
 （不要按 `A`！） <br> 进入 Homebrew Channel，使用 [cdbackup](https://oscwii.org/library/app/cdbackup) 删除 Wii 留言板数据。
 
@@ -177,7 +177,7 @@ This brick will appear identical to a low-level brick due to a Wii Menu failure 
 This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. A stubbed system menu IOS is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
 
 #### 解决方案
-[Recovery mode](recovery-mode) may or may not be accessible due to the nature of the brick, but Priiloader will almost always not work. 必须将 BootMii 安装为 boot2 才能解决这个问题。 If these conditions are not met, see [low-level brick](bricks#low-level-brick).
+You must have BootMii as boot2 to fix this.
 
 您可以还原 NAND 备份，或执行以下步骤：
 

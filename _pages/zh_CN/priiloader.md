@@ -22,14 +22,6 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 ### Instructions
 
-{% capture notice-vwii-priiloader %}
-
-Priiloader on vWii does not have any impact on Wii U VC titles.
-
-{% endcapture %}
-
-<div class="notice--danger">{{ notice-vwii-priiloader }}</div>
-
 #### Section I - Prep Work
 
 1. Power off your console.
@@ -43,7 +35,10 @@ Priiloader on vWii does not have any impact on Wii U VC titles.
 
 1. Power on your console.
 1. 启动 Wii 上的 Homebrew Channel。
-1. 启动 Priiloader installer。
+1. Launch Priiloader Installer from the list of homebrew.
+
+    ![](/images/hbc/priiloader-and-loadpriiloader.png)
+
 1. 按 Wii 遥控器的 + 按钮或 GameCube 手柄的 A 按钮。
 
     ![](/images/priiloader/installer.png)

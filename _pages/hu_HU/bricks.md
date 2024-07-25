@@ -123,7 +123,7 @@ A Wii bekapcsolásakor megejelennek az egészségügyi figyelmeztetések, majd a
 Az üzenetrontás akkor következik be, ha a Wiinek túl sok üzenetet kell feldolgoznia, vagy ha nem megfelelő üzenetek érkeztek a Wii Üzenőfalra. Ez megakadályozza a normális indítást. Mivel a Wii Üzenőfal a csatornák alatt jelenik meg, ez a Wii menü betöltésének meghiúsulását eredményezi.
 
 #### Megoldás
-Tartsd nyomva a + és - gombokat az egészségügyi figyelmeztetések képernyőjén a karbantartási módba való belépéshez, ahol a Wii Üzenőfalat nem tölti be a rendszer! Ha a Homebrew Channel nincs telepítve és a rendszermenü legalább 2.0-s verziószámú, akkor ld. [str2hax](str2hax). Egyéb esetben ld. [Bluebomb](bluebomb).
+Tartsd nyomva a + és - gombokat az egészségügyi figyelmeztetések képernyőjén a karbantartási módba való belépéshez, ahol a Wii Üzenőfalat nem tölti be a rendszer! Ha a Homebrew Channel nem telepített, kövesd a [Bluebomb](bluebomb) útmutatót.
 
 Ezután nyisd meg a Homebrew Channelt és a [cdbackup](https://oscwii.org/library/app/cdbackup) segítségével töröld ki a Wii Üzenőfal adatait!
 
@@ -177,7 +177,7 @@ Ez a rontás ugyanolyan tünetekkel rendelkezik, mint az alapszintű elromlás a
 Az IOS-rontás akkor következik be, amikor a Wii menü IOS-e [csonk](http://wiibrew.org/wiki/Stub_IOS), vagy ha rossz típusú IOS-t telepítettek a konzolra. Egy megcsonkolt rendszermenü ISO általában akkor jelenik meg, ha a Wii menü korábbi verzióját próbálod visszatelepíteni. Ha ez a probléma egy sima IOS80 Wii minis telepítése után lépett fel, ld. [Wi-Fi-rontás](bricks#wi-fi-brick).
 
 #### Megoldás
-A [helyreállítási mód](recovery-mode) az elromlás természete miatt vagy hozzáférhető vagy nem, de a Priiloader általában mindig elérhető. Ha a helyreállítási mód nem hozzáférhető, akkor a megjavításhoz boot2 alá telepített BootMiire van szükséged. Ha a fenti lehetőségek egyike sem elérhető a számodra, ld. [Alapszintű elromlás](bricks#low-level-brick).
+Szükséged van a BootMii-re, mint boot2 ennek a javításához.
 
 Tölts vissza egy biztonsági mentést vagy kövesd az alábbi lépéseket:
 

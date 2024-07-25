@@ -4,26 +4,26 @@ title: "Adatvédelmi irányelvek"
 
 ### Sütik
 
-This site utilizes cookies in order to facilitate routing users through the guide instructions. Cookies allow for the sidebar of the page to display current progress through the site to help users navigate the instructions more easily.
+Ez az oldal cookie-kat használ annak érdekében, hogy megkönnyítse a felhasználóknak az útmutató lépésein keresztül történő átvezetését. A sütik lehetővé teszik, hogy az oldal oldalsávjában megjelenjen az aktuális előrehaladás az oldalon, hogy a felhasználók könnyebben navigálhassanak az útmutatóban.
 
-### Embedded Content From Other Websites
+### Beágyazott tartalom más webhelyekről
 
-This site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves as if the user has visited the other website.
+Ez az oldal beágyazott tartalmakat (pl. videókat, képeket, cikkeket stb.) tartalmazhat. A más webhelyekről származó beágyazott tartalom úgy viselkedik, mintha a felhasználó meglátogatta volna a másik webhelyet.
 
-These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
+Ezek a webhelyek adatokat gyűjthetnek Önről, cookie-kat használhatnak, további harmadik féltől származó nyomkövetést ágyazhatnak be, és nyomon követhetik az Ön interakcióját a beágyazott tartalommal, beleértve a beágyazott tartalommal való interakciójának nyomon követését, ha Ön rendelkezik fiókkal és be van jelentkezve az adott webhelyre.
 
-### Analytics
+### Analitika
 
-This site uses Google Analytics to monitor and analyze traffic. This site is hosted by Github Pages, which may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with this site. For more information about Github Pages as it relates to user privacy, see the [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement).
+Ez a webhely a Google Analytics szolgáltatást használja a forgalom nyomon követésére és elemzésére. Ezt a webhelyet a Github Pages üzemelteti, amely adatokat gyűjthet Önről, cookie-kat használhat, további harmadik féltől származó nyomon követést ágyazhat be, és nyomon követheti az Ön és a webhely közötti interakciókat. A Github Pages felhasználói adatvédelemmel kapcsolatos további információiért lásd a [GitHub adatvédelmi nyilatkozatát](https://help.github.com/en/articles/github-privacy-statement).
 
-### Information Collected
+### Begyűjtött információk
 
-This site does not collect personal information. This site may collect usage information in order to analyze interest in the content and to provide advertisers with information on an aggregate basis. No personally identifiable information is shared with third-party advertising companies.
+Ez az oldal nem gyűjt személyes adatokat. Ez az oldal használati információkat gyűjthet a tartalom iránti érdeklődés elemzése és a hirdetők összesített alapon történő tájékoztatása érdekében. Személyesen azonosítható adatokat nem osztunk meg harmadik fél reklámcégekkel.
 
-### Third-Party Websites
+### Harmadik fél weboldak
 
-This site may link to other sites for users to use or reference. This site is not responsible for the privacy policies of other sites. Users should be aware that the privacy policies of other websites may differ from this one.
+Ez a webhely más webhelyekre hivatkozhat, amelyeket a felhasználók használhatnak vagy amelyekre hivatkozhatnak. Ez az oldal nem felelős más oldalak adatvédelmi irányelveiért. A felhasználóknak tisztában kell lenniük azzal, hogy más webhelyek adatvédelmi irányelvei eltérhetnek ettől.
 
-### Changes to Privacy Policy
+### Az adatvédelmi irányelvek változásai
 
-The contents of this Privacy Policy may be altered at any time and for any reason.
+A jelen Adatvédelmi szabályzat tartalma bármikor és bármilyen okból módosítható.

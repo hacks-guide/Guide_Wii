@@ -1,45 +1,45 @@
 ---
-title: "Transferring Game Saves"
+title: "A játék mentések átvitele"
 ---
 
-This guide will explain how to transfer game saves between:
+Ez az útmutató lerja, hogyan viszel át játék mentéseket a következők között:
 
 + egy Wii/Wii U(vWii),
-+ Dolphin Emulator,
-+ GameCube memory cards,
-+ and (Nintendont) emulated memory cards.
++ Dolphin Emulátor,
++ GameCube memória kártyák,
++ és (Nintendont) emulált memória kártyák.
 
-<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'wii')">From a Wii/vWii</button>
-<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'dol')">From Dolphin Emulator</button>
-<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'gcmc')">From a GameCube memory card</button>
-<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'emumc')">From Nintendont</button>
+<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'wii')">Egy Wii/vWii-ról</button>
+<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'dol')">A Dolphin Emulator-ból</button>
+<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'gcmc')">Egy GameCube memória kártyáról</button>
+<button class="btn btn--large btn--info tablinks" onClick="openTab_from(event, 'emumc')">A Nintendont-ról</button>
 
 <div id="wii" class="tabcontent" markdown="1">
 
-<button class="btn btn--info btn--large tablinks to" onClick="openTab_to(event, 'wii-vwii')">To another Wii/vWii</button>
-<button class="btn btn--info btn--large tablinks to" onClick="openTab_to(event, 'wii-dol')">To Dolphin Emulator</button>
+<button class="btn btn--info btn--large tablinks to" onClick="openTab_to(event, 'wii-vwii')">egy másik Wii/vWii-ra</button>
+<button class="btn btn--info btn--large tablinks to" onClick="openTab_to(event, 'wii-dol')">a Dolphin Emulator-ba</button>
 
 <div id="wii-vwii" class="tabcontent to" markdown="1">
 
-<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-vwii-data')">via Data Management</button>
-<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-vwii-svgm')">via SaveGame Manager GX</button>
+<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-vwii-data')">a Data Management-tel</button>
+<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-vwii-svgm')">a SaveGame Manager GX-szel</button>
 
 <div id="wii-vwii-data" class="tabcontent via" markdown="1">
 
 ##### Amire szükséged van
 
-+ an SD card formatted to FAT32/MS-DOS
++ egy FAT32/MS-DOS-ra formázott SD kártya
 
 ##### Útmutató
 
-1. Insert your SD card into your Wii/Wii U.
-1. In the Wii Menu, select the `Wii Options` at the bottom left.
+1. Helyezd be az SD kártyát a Wii/Wii U-ba.
+1. A Wii Menu-ben válaszd a `Wii Options`-t baloldalt alul.
 1. Select `Data Management` (if on Wii), `Save Data`, then `Wii`.
 1. Select a save you would like to transfer, then select `Copy`.
     + If the `Copy` button is greyed out, you will need to [install Priiloader](priiloader) to disable the copy protection.
 1. Repeat the previous step for each save you would like to transfer.
 1. Once you are finished, put the SD card into your other Wii/Wii U.
-1. In the Wii Menu, select the `Wii Options` at the bottom left.
+1. A Wii Menu-ben válaszd a `Wii Options`-t baloldalt alul.
 1. Select `Data Management` (if on Wii), `Save Data`, then `Wii`.
 1. Select the `SD Card` tab at the top right.
 1. Select one of the saves you have copied to your SD card, then select `Copy`.
@@ -52,7 +52,7 @@ Make sure you have installed [cIOS](cios) before following this!
 
 ##### Amire szükséged van
 
-* The Homebrew Channel on both systems
+* A Homebrew Channel csatornára mindkét rendszeren
 * Egy SD kártya vagy pendrive
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
@@ -74,8 +74,8 @@ Make sure you have installed [cIOS](cios) before following this!
 
 <div id="wii-dol" class="tabcontent to" markdown="1">
 
-<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-dol-nand')">with a NAND backup (Wii)</button>
-<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-dol-svgm')">via SaveGame Manager GX</button>
+<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-dol-nand')">egy NAND mentéssel (Wii)</button>
+<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'wii-dol-svgm')">a SaveGame Manager GX-szel</button>
 
 <div id="wii-dol-nand" class="tabcontent via" markdown="1">
 By importing your NAND backup into Dolphin, you effectively copy everything on your Wii (at the time of the backup). This also has the benefit of allowing access to [Wiimmfi](https://wiimmfi.de/), as well as carrying over RiiConnect24 patched channels.
@@ -84,26 +84,26 @@ If you have already done this, consider the SaveGame Manager GX method to save t
 
 ##### Amire szükséged van
 
-* [a NAND backup](bootmii)
-* Latest beta version of Dolphin Emulator
+* [egy NAND mentés](bootmii)
+* A Dolphin Emulator legutolsó béta verziója
 
 ##### Útmutató
 
-1. After [making your NAND backup](bootmii), put your SD card into your PC and open Dolphin Emulator.
-1. Select `Tools > Manage NAND... > Import BootMii NAND Backup`.
-1. In the file dialog that opens, go to your SD card and select `nand.bin`.
+1. Miután [elkészítetted a NAND biztonsági mentésed](bootmii), helyezd az SD-kártyád a számítógépedbe, és nyissa meg a Dolphin Emulator-t.
+1. Válassza az `Tools > Manage NAND... > Import BootMii NAND Backup` lehetőséget.
+1. A megnyíló fájl párbeszédpanelen keresd meg az SD-kártyád, és válaszd ki a `nand.bin` fájlt.
 </div>
 
 <div id="wii-dol-svgm" class="tabcontent via" markdown="1">
-Make sure you have installed [cIOS](cios) before following this!
+Győződj meg róla, hogy telepítetted a [cIOS](cios)-t, mielőtt ezt a lépéssorozatot követnéd!
 {: .notice--warning}
 
 ##### Amire szükséged van
 
-* The Homebrew Channel on your Wii/vWii
+* A Homebrew Channel csatornára a Wii/vWii-den
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 * Egy SD kártya vagy pendrive
-* Latest beta version of Dolphin Emulator
+* A Dolphin Emulator legutolsó béta verziója
 
 ##### Útmutató
 
@@ -112,7 +112,7 @@ Make sure you have installed [cIOS](cios) before following this!
     + Repeat this for all the saves you would like to transferred.
 1. Once you have extracted all your save files, press HOME and exit SaveGame Manager GX.
 1. Insert your SD card or USB drive into your PC.
-1. Dolphin Emulátor megnyitása.
+1. Indítsd el a Dolphin Emulátort.
 1. Select `Tools > Import Wii Save...`.
 1. In the file dialog that opens, go to the `savegames` folder on your SD or USB, and select each `.bin` file inside it.
 Unfortunately, you can only select one at a time, so you must repeat the last step for each .bin file.
@@ -139,8 +139,8 @@ All methods here assume you have the [latest Beta or Development version of Dolp
 
 <div id="dol-wii" class="tabcontent to" markdown="1">
 
-<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'dol-wii-data')">via Data Management</button>
-<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'dol-wii-svgm')">via SaveGame Manager GX</button>
+<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'dol-wii-data')">a Data Management-tel</button>
+<button class="btn btn--info btn--large tablinks via" onClick="openTab_via(event, 'dol-wii-svgm')">a SaveGame Manager GX-szel</button>
 
 <div id="dol-wii-data" class="tabcontent via" markdown="1">
 
@@ -170,13 +170,13 @@ Make sure you have installed [cIOS](cios) before following this!
 
 ##### Amire szükséged van
 
-* The Homebrew Channel on your Wii/vWii
+* A Homebrew Channel csatornára a Wii/vWii-den
 * Egy SD kártya vagy pendrive
 * [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX)
 
 ##### Útmutató
 
-1. Dolphin Emulátor megnyitása.
+1. Indítsd el a Dolphin Emulátort.
 1. If you exporting a select game's save, right click the game inside the Dolphin window and select `Export Wii Save`.
     + If you are exporting all your Wii saves from Dolphin, select `Tools > Export All Wii Saves`.
 1. In the folder dialog that pops up, select your SD card/USB drive. (don't go inside any other folder!)
@@ -198,7 +198,7 @@ Make sure you have installed [cIOS](cios) before following this!
 
 ##### Útmutató
 
-1. Dolphin Emulátor megnyitása.
+1. Indítsd el a Dolphin Emulátort.
 1. In the main menu, select `File > Open User Folder`.
 ![](/images/dolphin/open-user-folder.png)
 
@@ -272,7 +272,7 @@ All methods here require a Wii with GameCube ports.
 
 1. When the dump is complete, press any key to continue.
 1. Press HOME/START to exit GCMM.
-1. Insert your SD card/USB drive into your PC.
+1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
 1. Copy the `.raw` file inside `MCBACKUP` to the root of the device used for Nintendont and name it `ninmem.raw`.
     + If your games are Japanese, Nintendont will use `ninmemj.raw`, because Japanese games do not play very nicely when there are other region saves present.
 1. Launch Nintendont and set Memcard emulation to multi [ ? ]
@@ -300,7 +300,7 @@ All methods here require a Wii with GameCube ports.
 
 1. When the dump is complete, press any key to continue.
 1. Press HOME/START to exit GCMM.
-1. Insert your SD card/USB drive into your PC.
+1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
 1. Open Dolphin Emulator, and select `Tools > Memory Card Manager` from the main menu.
 1. Click `Open` next to slot B.
 1. Go into the `MCBACKUP` folder on your SD/USB, and open the newly created `.raw` file.
@@ -364,7 +364,7 @@ div id="emumc-gcmc" class="tabcontent to" markdown="1">
 
 ##### Amire szükséged van
 
-* The Homebrew Channel installed on your Wii
+* A Homebrew Channel telepíítésre került a Wii-odra
 * Egy SD kártya vagy pendrive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 

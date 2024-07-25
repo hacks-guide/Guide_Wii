@@ -22,14 +22,6 @@ De asemenea, poate fi folosit pentru a rula rapid orice aplicație Wii sau aplic
 
 ### Instrucțiuni
 
-{% capture notice-vwii-priiloader %}
-
-Priiloader pe vWii nu afectează aplicațiile Wii U VC.
-
-{% endcapture %}
-
-<div class="notice--danger">{{ vwii-notes | markdownify }}</div>
-
 #### Secțiunea I - Pregătire
 
 1. Download the Priiloader installer and LoadPriiloader apps.
@@ -43,7 +35,10 @@ Priiloader pe vWii nu afectează aplicațiile Wii U VC.
 
 1. Launch the Homebrew Channel on your Wii.
 1. Launch the Priiloader installer.
-1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
+1. Launch Priiloader Installer from the list of homebrew.
+
+    ![](/images/hbc/priiloader-and-loadpriiloader.png)
+
 1. Apasă butonul + pe Wii Remote sau butonul A pe un controller GameCube.
 
     ![](/images/priiloader/installer.png)

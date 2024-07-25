@@ -16,7 +16,7 @@ A d2x cIOS-telepítő ezen változatát eredetileg a Wii U vWiijére készített
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-Az útmutató ezen része csak Wii mini-felhasználóknak szól. Ha egy sima Wiid van, [ezt az útmutatót](cios) kövesd! Ha egy Wii U-d (vWii) van, [ezt az útmutatót](cios-vwii) kövesd!
+This guide is only intended for Wii Mini users. <br/> If you have a Wii, follow [this guide](cios) instead. <br/> Ha egy Wii U-d (vWii) van, [ezt az útmutatót](cios-vwii) kövesd.
 {: .notice--warning}
 
 Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telepíteni! Ha mégis így tennél, azzal [elronthatod](bricks#ios-brick) a konzolod!

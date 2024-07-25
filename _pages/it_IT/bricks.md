@@ -11,7 +11,7 @@ Un "Brick" significa, solitamente, che il tuo Wii ha raggiunto uno stato in cui 
 La prevenzione dei brick include diverse regole che spaziano dal buon senso a dei backup dei sicurezza. Ecco i consigli generali su cosa non fare:
 
 + **Do NOT follow old modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
-+ **NON USARE MAI, IN NESSUNA CIRCOSTANZA, L'APPLICAZIONE HOMEBREW `Pimp My Wii`. It is DANGEROUS and does things that have the ability to BRICK YOUR CONSOLE!**
++ **NON USARE MAI, IN NESSUNA CIRCOSTANZA, L'APPLICAZIONE HOMEBREW `Pimp My Wii`. È pericoloso e può fare cose che possono anche BRICKARE LA TUA CONSOLE!**
 + **NON installare pacchi IOS come DARKCORP che sovrascrive la maggior parte dei tuoi IOS con cIOS. È PERICOLOSO ed estremamente obsoleto.**
 + **NON ripristinare backup della NAND provenienti da altre console!**
 + **Do NOT install any IOS that isn't meant for your system** (example: Wii IOS on Wii mini)
@@ -123,7 +123,7 @@ Prova ad accendere il Wii - viene mostrato l'avviso di salute e sicurezza, quand
 Un brick mail si verifica nel momento in cui un Wii ha troppa mail da gestire, o quando una mail malformata si trova nella Bacheca Wii, causando un blocco del sistema durante l'avvio. In quanto la Bacheca Wii è sempre presente sotto i canali, questo impedisce al Menu Wii di caricare correttamente.
 
 #### Soluzione
-Tenendo premuti i tasti + e - sulla schermata di avviso, puoi entrare nella modalità manutenzione, in cui la Bacheca Wii non viene caricata. Se l'Homebrew Channel non è installato e il menu di sistema del Wii è di versione 2.0 o superiore, segui [str2hax](str2hax). Altrimenti, vedi [Bluebomb](bluebomb).
+Tenendo premuti i tasti + e - sulla schermata di avviso, puoi entrare nella modalità manutenzione, in cui la Bacheca Wii non viene caricata. Se il canale Homebrew non è installato, vedi [Bluebomb](bluebomb).
 
 Da qui, l'Homebrew Channel può essere avviato e il brick può essere risolto eliminando i dati della Bacheca Wii con [cdbackup](https://oscwii.org/library/app/cdbackup).
 
@@ -177,7 +177,7 @@ Questo brick sembra a un brick a basso livello a causa di un fallimento del Menu
 This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. A stubbed system menu IOS is usually the consequence of attempting to downgrade your Wii menu. Se questo errore ha iniziato ad accadere dopo avere installato una IOS80 normale su una Wii mini, vedere [Brick Wi-Fi](bricks#wi-fi-brick).
 
 #### Soluzioni
-Non è sicuro che la [Recovery Mode](recovery-mode) sia accessibile data la natura del brick, ma Priiloader non funzionerà quasi sicuramente. Se non puoi raggiungere la Recovery Mode, devi avere BootMii su boot2 per sistemare questo brick. Se queste condizioni non sono soddisfatte, vedi [brick a basso livello](bricks#low-level-brick).
+Ti serve BootMii come boot2 per aggiustarlo.
 
 Puoi ripristinare un backup della NAND oppure:
 

@@ -51,7 +51,7 @@ BootMii позволяет создавать и восстанавливать 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. После этого шага, BootMii проверит резервную копию на ошибки. В идеале, все блоки должны стать зелеными после процесса проверки.
-    + Если у вас есть заводские плохие блоки с "некорректными страницами (Uncorrectable page)", эти блоки могут не пройти проверку. Если все исправные блоки успешно проверены, все должно быть в порядке.
+    + Если у вас есть заводские плохие блоки с "некорректными страницами (Uncorrectable page)", эти блоки могут не пройти проверку. As long as all non-bad blocks are successfully verified, this should be fine.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -70,7 +70,7 @@ BootMii позволяет создавать и восстанавливать 
 
 ### Автозагрузка
 
-Если вы смогли установить BootMii в качестве boot2, но не хотите загружать BootMii при каждом включении Wii, у вас есть возможность установить его на автозагрузку в системном меню. Должно получиться так, что вы даже не заметите что BootMii установлен в boot2.
+If you were able to install BootMii as boot2, but don't want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. Должно получиться так, что вы даже не заметите что BootMii установлен в boot2.
 
 1. Откройте `sd:/bootmii/bootmii.ini` через текстовый редактор, например, блокнот.
 1. Измените `#AUTOBOOT=SYSMENU` на `AUTOBOOT=SYSMENU` путем удаления символа `#`.

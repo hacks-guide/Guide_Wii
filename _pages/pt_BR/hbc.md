@@ -58,6 +58,8 @@ Se você não tem um cartão SD, você não pode instalar nem usar o BootMii, e 
 1. Selecione `Install BootMii as IOS`.
 1. Seu console terá iniciado o Homebrew Channel.
 
+    ![](/images/hbc/blank.png)
+
 ### Leitura Obrigatória
 
 Agora você pode usar o Homebrew Channel para iniciar aplicativos homebrew.

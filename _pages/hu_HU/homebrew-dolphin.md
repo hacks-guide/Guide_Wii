@@ -1,43 +1,43 @@
 ---
-title: "Installing Homebrew Channel on Dolphin Emulator"
+title: "A Homebrew Channel telepítése Dolphin Emulátorra"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
-On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily installed through Dolphin itself. Once this is done, the Homebrew Channel can be installed, although not in the same manner as a physical Wii.
+A Dolphin Emulator `5.0-4588-as`vagy újabb verziójánál a Wii menü egyszerűen telepíthető a Dolphinon keresztül. Ha ez megtörtént, a Homebrew Channel is telepíthető, bár nem ugyanúgy, mint a fizikai Wii esetében.
 
 ### Követelmények
 
-* A Windows/MacOS/Linux computer with an Internet connection
-* [Dolphin Emulator](https://dolphin-emu.org/download/) version `5.0-4588` or later
-* The latest version of [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
+* Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
+* [Dolphin Emulator](https://dolphin-emu.org/download/) v `5.0-4588` vagy későbbi verzió
+* Az [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases) legutolsó verziója
 
 ### Útmutató
 
-1. If you have not already done so, install the Wii Menu on Dolphin Emulator by going to `Tools > Perform System Update`.
+1. Ha még nem tetted meg, telepítsd a Wii menüt a Dolphin Emulatorra a `Tools > Perform System Update` menüpont alatt.
 
     ![](/images/homebrew-dolphin/system-update.png)
 
-1. Download `Open_HBC_(version)_LULZ.wad` from the page linked above.
-1. Dolphin Emulátor megnyitása.
-1. Select `Tools > Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
+1. Töltsd le az `Open_HBC_(version)_LULZ.wad` -ot a fenti linkről.
+1. Indítsd el a Dolphin Emulátort.
+1. Válaszd a `Tools > Install WAD` opciót és válaszd ki az `Open_HBC_(version)_LULZ.wad` fájl, amit letöltöttél.
 
     ![](/images/homebrew-dolphin/ohbc-file.png)
 
-1. Select `Tools > Load Wii System Menu`. A csatornának most meg kell jelennie.
+1. Válaszd a `Tools > Load Wii System Menu` opciót. A csatornának most meg kell jelennie.
 
     ![](/images/homebrew-dolphin/hbc-installed.png)
 
-### Post-Installation, installing Homebrew Apps through Open Shop Channel
+### Telepítés utáni, Homebrew alkalmazások telepítése az Open Shop Channel-en keresztül
 
-1. Download the Open Shop Channel [here](https://oscwii.org/library/app/homebrew_browser) for usage in Dolphin. Alternatively, you can get OSCDL and do this process manually.
-1. Stop the emulation (if running), and open the `Config > Wii` window in Dolphin Emulator.
-1. Enable `Automatically Sync with Folder`. Optionally, you may also want to adjust the `SD Card File Size` to a larger parameter - however in most cases `Auto` should be fine.
-1. Open the `SD Sync Folder`. On Windows, this can easily be done by pasting the folder path into the Start Menu, Windows Explorer, or Run.
-1. Extract any homebrew apps to the `WiiSDSync` folder. The end result should look something like this:
+1. Töltsd le az Open Shop Channel-t [innen](https://oscwii.org/library/app/homebrew_browser) a Dolphinban való használathoz. Alternatívaként beszerezheted az OSCDL-t, és elvégezheted ezt a folyamatot manuálisan.
+1. Állítsd le az emulációt (ha fut), és nyisd meg a Dolphin Emulatorban a `Config > Wii` ablakot.
+1. Engedélyezd az `Automatically Sync with Folder` opciót. Opcionálisan az `SD Card File Size` (SD kártya fájlmérete) paramétert is nagyobbra állíthatod - a legtöbb esetben azonban az `Auto` is jó lesz.
+1. Nyisd meg az `SD Sync` mappát. Windowson ez könnyen megtehető a mappa elérési útvonalának beillesztésével a Start menübe, a Windows Intézőbe vagy a Futtatásba.
+1. Csomagolj ki minden homebrew alkalmazást a `WiiSDSync` mappába. A végeredménynek valahogy így kell kinéznie:
 
     ![](/images/homebrew-dolphin/apps-folder.png)
 
-1. Load the Wii Menu and open the Homebrew Channel. Your newly installed apps should appear!
+1. Töltsd be a Wii menüt, és nyissd meg a Homebrew csatornát. Az újonnan telepített alkalmazásoknak meg kell jelenniük!
 
     ![](/images/homebrew-dolphin/hbc-apps.png)

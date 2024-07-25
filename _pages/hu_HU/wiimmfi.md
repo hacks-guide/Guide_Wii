@@ -4,47 +4,47 @@ title: "Nintendo Wi-Fi kapcsolat"
 
 {% include toc title="Tartalomjegyzék" %}
 
-Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. While different games were supported for longer than others, all games are no longer able to play through conventional means as of August 2023. To regain Nintendo WFC functionality, this guide provides instructions on installing Wiimmfi. There are several different methods to connect to Wiimmfi listed in order of least to greatest difficulty - choose the method that suits your situation best.
+A Nintendo Wi-Fi Connection egy online multiplayer játékszolgáltatás volt a Wii számára, amely ingyenes online játékot tett lehetővé. Bár különböző játékok hosszabb ideig voltak támogatva, mint mások, 2023 augusztusától már nem lehet minden játékot hagyományos úton játszani. A Nintendo WFC funkcionalitás visszaszerzéséhez ez az útmutató nyújt útmutatást a Wiimmfi telepítésével. A Wiimmfihez való csatlakozáshoz többféle módszer is kerül itt listázásra a legkisebb nehézségűtől a legnagyobbig terjedő sorrendben - válaszd a helyzetednek leginkább megfelelő módszert.
 
-If you get error 23904 while connecting to Wiimmfi, then you are using an outdated patch.<br> Follow the steps below for the method you're using to connect to Wiimmfi again.<br> See [this page](https://wiimmfi.de/update) for more details.<br>
+Ha a Wiimmfihez való csatlakozás során a 23904-es hibaüzenetet kapok, akkor elavult javítást használsz.<br> Kövesd az alábbi lépéseket az által használt módszerhez, hogy újra csatlakozhass a Wiimmfi-hez.<br> További részletekért lásd [ezt az oldalt](https://wiimmfi.de/update).<br>
 {: .notice--warning}
 
-### Automatic Disc Patching via Priiloader
+### Automatikus lemez patchelés a Priiloader segítségével
 
-If the `Wiimmfi Patch` displays as anything other than v4, you do not have the latest version of the hacks_hash.ini file and the patch will not work. You must reinstall Priiloader, the guide to which can be found in the requirements section.
+Ha a `Wiimmfi Patch` a v4-től eltérő értéket jelenít meg, akkor nem a hacks_hash.ini fájl legújabb verziója van meg, és a patch nem fog működni. Újra kell telepítened a Priiloader-t, az ehhez szükséges útmutatót a követelmények részben találod.
 {: .notice--warning}
 
-A method for Wiimmfi patching which runs on retail disc games automatically via the Disc Channel.
+A Wiimmfi patchelés módszere, amely a kiskereskedelmi lemezes játékokon automatikusan fut a Disc Channel csatornán keresztül.
 
 #### Követelmények
-+ A Wii with an internet connection, on System Menu version 4.3
++ Egy internetkapcsolattal rendelkező Wii, a System Menu 4.3-as verzióján
 + [Priiloader](priiloader) 0.9 vagy későbbi
 
 #### Útmutató
 
-1. Hold the RESET button while turning on your Wii. If you are using a Wii mini, plug in a USB keyboard and hold Escape while turning it ON.
-1. You should see the Priiloader menu.
+1. Tartsd lenyomva a RESET gombot a Wii bekapcsolása közben. Ha Wii mini-t használsz, csatlakoztass egy USB-billentyűzetet, és tartsd lenyomva az Escape gombot bekapcsolás közben.
+1. A Priiloader menüt kell látnod.
 
     ![](/images/priiloader/mainmenu.jpg)
 
-1. Go to `System Menu Hacks`. If you used a USB drive to install Priiloader, make sure you do not have an SD card inserted at the same time. This will cause Priiloader to be unable to find the hacks_hash.ini file.
+1. Menj a` System Menu Hacks` menüpontra. Ha USB drive-ot használtál a Priiloader telepítéséhez, győződj meg róla, hogy nincs-e SD kártya behelyezve ezzel egyidejűleg. Ez azt okozhatja, hogy a Priiloader nem fogja tudni megtalálni a hacks_hash.ini fájlt.
     {: .notice--info}
-1. Make sure the `Wiimmfi patch v4` hack is enabled.
+1. Győződj meg róla, hogy a `Wiimmfi patch v4 hack` engedélyezve van.
 
     ![](/images/priiloader/hacks.jpg)
 
-1. Scroll to `Save Settings` and save your changes.
-1. Return to the main menu, and press `System Menu` to return to the Wii Menu.
-1. Launch your game through the Disc Channel - it should now be patched with Wiimmfi.
+1. Görgess a `Save Settings` menüpontra, és mentsd el a módosításokat.
+1. Térjen vissza a főmenübe, és nyomjd meg a `System Menu`-t a Wii menübe való visszatéréshez.
+1. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
-### Automatic Backup Patching via USB Loader
+### Automatikus mentés patchelés USB Loader-en keresztül
 
 A method for Wiimmfi patching which automatically patches game backups in the latest versions of USB Loader GX or WiiFlow Lite.
 
 #### Követelmények
 
-+ A Wii with an internet connection
-+ [USB Loader GX or WiiFlow Lite](wii-loaders)
++ Egy internetkapcsolattal rendelkező Wii
++ [USB Loader GX vagy WiiFlow Lite](wii-loaders)
 
 #### Útmutató
 
@@ -69,7 +69,7 @@ If you get error 23400, your ISP or network is blocking the use of a custom DNS.
 
 1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
 1. Let the connection test finish, and do not perform a Wii System Update.
-1. Launch your game through the Disc Channel - it should now be patched with Wiimmfi.
+1. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
 ### Manual Disc Patching via Homebrew Channel
 

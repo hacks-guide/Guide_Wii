@@ -51,7 +51,7 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. 在这一步后，它会验证这个备份。 理想情况下，验证过程结束后，所有区块都应为绿色。
-    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine. As long all non-bad blocks are successfully verified, this should be fine.
+    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine. As long as all non-bad blocks are successfully verified, this should be fine.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -70,7 +70,7 @@ To restore from a NAND backup on your SD card, you can follow the instructions f
 
 ### Autobooting
 
-If you were able to install BootMii as boot2, but dont want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
+If you were able to install BootMii as boot2, but don't want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
 
 1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
 1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.

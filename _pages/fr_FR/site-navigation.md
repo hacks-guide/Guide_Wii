@@ -42,11 +42,10 @@ sitemap: false
 + [ModMii](modmii)
 + [Chaine Open Shop](osc)
 + [Priiloader](priiloader)
++ [Recovery mode](recovery-mode)
 + [Relancer l'installateur HackMii](hackmii)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Mise à jour du menu Wii vers la v4.3](update)
-+ [Recovery Mode](recovery-mode)
-+ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 

@@ -59,6 +59,8 @@ Se non hai una scheda SD, non potrai né installare né utilizzare BootMii, indi
 1. Seleziona `Exit`.
 1. La tua console avvierà l'Homebrew Channel.
 
+    ![](/images/hbc/blank.png)
+
 ### Leggere attentamente
 
 Ora puoi usare l'Homebrew Channel per avviare app homebrew e BootMii per fare il backup e ripristino della tua NAND se sei stato in grado di installarlo.

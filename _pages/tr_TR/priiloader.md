@@ -2,7 +2,7 @@
 title: "Priiloader"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also apply hacks that are used to enhance, unlock, and fix many System Menu features.
 
@@ -20,19 +20,11 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 * Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
     * Your Wii should now automatically boot to whichever homebrew app you installed.
 
-### Instructions
-
-{% capture notice-vwii-priiloader %}
-
-Priiloader on vWii does not have any impact on Wii U VC titles.
-
-{% endcapture %}
-
-<div class="notice--danger">{{ notice-vwii-priiloader }}</div>
+### Talimatlar
 
 #### Section I - Prep Work
 
-1. Power off your console.
+1. Konsolunuzu kapatın.
 1. Extract both apps to the root of your SD card or USB drive.
 1. Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
 1. Copy `uneoboot.dol` to the root of your SD card.
@@ -41,9 +33,12 @@ Priiloader on vWii does not have any impact on Wii U VC titles.
 
 #### Section II - Installing Priiloader
 
-1. Power on your console.
+1. Konsolunuzu açın.
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
-1. Launch the Priiloader installer.
+1. Launch Priiloader Installer from the list of homebrew.
+
+    ![](/images/hbc/priiloader-and-loadpriiloader.png)
+
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
 
     ![](/images/priiloader/installer.png)

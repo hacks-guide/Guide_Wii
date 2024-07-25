@@ -59,6 +59,8 @@ If you do not have an SD card, you cannot install nor use BootMii, and therefore
 1. Select `Exit`.
 1. Install the Homebrew Channel
 
+    ![](/images/hbc/blank.png)
+
 ### Required Reading
 
 When at the HackMii installer, you are able to install the Homebrew Channel and BootMii.

@@ -51,7 +51,7 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. Miután a folyamat lezáródott, a BootMii ellenőrizni fogja a biztonsági mentés minőségét. Ha minden jól sikerült, akkor az összes blokk zölden fog megjelenni az ábrán.
-    + Ha a mentés tartalmaz olyan gyárilag sérült blokkokat, amelyekben vannak javíthatatlan oldalak, akkor azok nem fognak átmenni az ellenőrzésen. Amíg az összes sértetlen blokk átmegy, addig minden rendben.
+    + Ha a mentés tartalmaz olyan gyárilag sérült blokkokat, amelyekben vannak javíthatatlan oldalak, akkor azok nem fognak átmenni az ellenőrzésen. Addig amíg a nem-hibás blokkok sikeresen ellenőrzésre kerülnek, ez nem probléma.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 

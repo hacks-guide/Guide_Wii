@@ -2,7 +2,7 @@
 title: "Installing Wii Menu Themes"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
 
@@ -10,9 +10,6 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) (Wii only) AND [PRIILOADER](priiloader)!
 {: .notice--danger}
-
-This tutorial does not work on the Wii mini. Do not attempt this tutorial on the Wii mini or it will cause a [brick](bricks#theme-brick).
-{: .notice--warning}
 
 csm-installer has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
 {: .notice--warning}
@@ -31,7 +28,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 + https://gbatemp.net/threads/wii-theme-team-creations-v2.336596/
 + [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym file distribution)
 + https://gbatemp.net/download/categories/other-files.166/
-+ [Wii Themer](http://www.wiithemer.org/) (Wii only, online theme builder for specific versions and regions, ready to install .csm themes)
++ [Wii Themer](http://www.wiithemer.org/) (This site can build a .csm ready to install for Wii and vWii only, but for Wii mini you may dowmnload the .mym files from their [Theme Database](http://wiithemer.org/mym/))
 
 #### Gereksinimler
 
@@ -78,7 +75,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * What you need
 * [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
-#### Instructions
+#### Talimatlar
 
 1. Have the storage device that holds WiiFlow Lite connected to your PC.
 2. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
@@ -95,7 +92,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * If you need help for anything regarding this tutorial, please join [the RiiConnect24 Discord server](https://discord.gg/rc24) (recommended) or [e-mail us at support@riiconnect24.net](mailto:support@riiconnect24.net).
 * A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
 
-#### Instructions
+#### Talimatlar
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
 2. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
@@ -112,7 +109,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 * A computer with Windows on it (or using Mono or Wine on Mac/Linux)
 * https://rc24.xyz/goodies/themes/
 
-#### Instructions
+#### Talimatlar
 
 1. Download a theme `.zip` file from the website linked above.
 

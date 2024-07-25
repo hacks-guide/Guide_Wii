@@ -2,7 +2,7 @@
 title: "ModMii"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 This Program does NOT come with a warranty, so you are responsible for any potential damage done to your Wii.
 {: .notice--warning}

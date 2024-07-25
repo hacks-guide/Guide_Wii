@@ -118,7 +118,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 1. Open the Wii Message Board.
 1. Load the green letter with the Bob-omb icon.
     + Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
-    + In various scenarios, you may need to look at the previous or next day to find it.
+    + In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     + If you don't see the green letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii's SD card reader.
 
     ![](/images/exploits/wilbrand/msgboard.png)

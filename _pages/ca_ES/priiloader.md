@@ -22,14 +22,6 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 ### Instructions
 
-{% capture notice-vwii-priiloader %}
-
-Priiloader on vWii does not have any impact on Wii U VC titles.
-
-{% endcapture %}
-
-<div class="notice--danger">{{ vwii-notes | markdownify }}</div>
-
 #### What you need
 
 1. Download the Priiloader installer and LoadPriiloader apps.
@@ -43,7 +35,10 @@ Priiloader on vWii does not have any impact on Wii U VC titles.
 
 1. Launch the Homebrew Channel on your Wii.
 1. Launch the Priiloader installer.
-1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
+1. Launch Priiloader Installer from the list of homebrew.
+
+    ![](/images/hbc/priiloader-and-loadpriiloader.png)
+
 1. Press the + Button on Wii Remote or the A Button on a GameCube controller.
 
     ![](/images/priiloader/installer.png)

@@ -11,26 +11,20 @@ title: "cIOS-ek telepítése"
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-Az útmutató ezen része csak Wii-felhasználóknak szól. Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd! Ha egy Wii U-d (vWii) van, [ezt az útmutatót](cios-vwii) kövesd!
-{: .notice--warning}
-
-Ne próbálj meg vWii/Wii minire tervezett IOS-t vagy rendszermenüt Wiire telepíteni! Ha mégis így tennél, azzal [elronthatod](bricks#ios-brick) a konzolod!
-{: .notice--warning}
-
 ### Követelmények
+
+Az útmutató ezen része csak Wii-felhasználóknak szól. <br/> Ha egy Wii U-d (vWii) van, [ezt az útmutatót](cios-vwii) kövesd. <br/>Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd.
+{: .notice--warning}
 
 * Egy Wii
 * Egy SD kártya vagy pendrive
 * [A d2x cIOS-telepítő](/assets/files/d2x-cios-installer.zip)
 
-Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-kapcsoló nyitott állásban legyen, különben a telepítőben nem fogod tudni kiválasztani a helyes beállításokat!
-{: .notice--warning}
-
 ### Útmutató
 
 #### I. rész – Letöltés
 
-Ha Windowssal dolgozol, letöltheted és futtathatod [ezt a parancsfájlt](/assets/files/d2x_offline_ios.sh) a WAD-fájlok automatikus beszerzéséhez.
+Ha macOS vagy Linux rendszerel dolgozol, letöltheted és futtathatod [szkriptet](/assets/files/d2x_offline_ios.sh), ami letölti neked a WAD fájlokat.
 {: .notice--info}
 
 Ha képes vagy csatlakoztatni a Wii-t az internetre, átugorgatod a [II. részt](cios#section-ii---installing)
@@ -56,7 +50,6 @@ Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
 
 #### II. rész – Telepítés
 
-
 1. Helyezd át az `apps`-mappát a d2x-cios-installer `.zip`-fájlból az SD kártya vagy pendrive gyökerére!
 1. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 1. Kapcsold be a konzolt!
@@ -72,6 +65,9 @@ Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
     ```
 
     ![](/images/cios/d2x_v11_248.png)
+
+    Ha nem látod a `d2x-v11-beta1`-et, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
+    {: .notice--info}
 
     A „`(c)IOS detected in slot ### will be overwritten`” („Az x. helyen található (c)IOS felül lesz írva”) figyelmeztetést figyelmen kívül hagyhatod.
     {: .notice--info}
@@ -131,6 +127,9 @@ Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
         ![](/images/cios/d2x_v11_251.png)
 
 1. Ha végeztél mind a négy cIOS telepítésével, nyomd meg a B-gombot a Homebrew Channelbe való visszatéréshez!
+
+Ha letöltötted a 4 WAD fájlt az I. részben, most törölheted őket az SD kártyádról/USB drive-odról.
+{: .notice--info}
 
 Folytatás az [Open Shop Channel telepítésével](osc) <br> Most, hogy a konzol megfelelő védelemmel rendelkezik, telepítheted az Open Shop Channelt, ami a nemhivatalos programok megbízható tárháza és hozzáférhető mind egy Wiiről vagy egy számítógépről.
 {: .notice--info}

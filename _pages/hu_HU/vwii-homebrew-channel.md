@@ -11,7 +11,7 @@ Ez az oldal végig vezet a vWii-d moddolásának folyamatán.
 Ha már hackelted a Wii U-dat a múltban, akkor használhatod ugyanazt az SD kártyát ehhez a folyamathoz.
 {: .notice--info}
 
-Ha még nem tetted meg, akkor készíts egy [nand backup](https://wiiu.hacks.guide/#/aroma/nand-backup)-ot és telepítsd az [Aroma Environment](https://aroma.foryour.cafe/) a Wii U-dre . Egyébként folytasd az [Aroma teleptésével](https://wiiu.hacks.guide/#/aroma/getting-started) vagy [A vWii moddolása a Wii U oldal moddolása nélkül](wiiu-nand-dumper)
+Ha még nem tetted meg, akkor készíts egy [NAND mentést](https://wiiu.hacks.guide/#/aroma/nand-backup)-ot és telepítsd az [Aroma Environment](https://aroma.foryour.cafe/)-et a Wii U-dra . Egyébként folytasd az [Aroma telepítésével](https://wiiu.hacks.guide/#/aroma/getting-started) vagy [A vWii moddolása a Wii U oldal moddolása nélkül](wiiu-nand-dumper) fejezettel
 {: .notice--info}
 
 ### Követelmények
@@ -49,12 +49,12 @@ Megjegyzés: Ha homebrew Wii alkalmazásokat telepítesz SD kártyára vagy USB 
 ```
 💾 SD Card
  ┗ 📁 apps
-   ┣ 📁 AppName1
+   ┣ 📁 <AppName1>
    ┃ ┣ 📄 boot.dol
    ┃ ┣ 📄 meta.xml
    ┃ ┗ 📄 icon.png
-   ┗ 📁 AppName2
-	 ┣ 📄 boot.dol
+   ┗ 📁 <AppName2>
+     ┣ 📄 boot.dol
      ┣ 📄 meta.xml
      ┗ 📄 icon.png
 ```
@@ -62,5 +62,5 @@ Megjegyzés: Ha homebrew Wii alkalmazásokat telepítesz SD kártyára vagy USB 
 `AppName1` és `AppName2` helyfoglaló nevek. Az `apps` mappában ne hozz létre egy másik `apps` nevű mappát.
 Ne keverd össze az `apps` mappát a `wiiu` mappában és az `apps` mappával az SD kártya gyökerében.
 
-[Folytatás a Priiloader telepítésével](priiloader)<br>
+Folytatás a [Priiloader telepítésével](priiloader)<br>
 {: .notice--info}

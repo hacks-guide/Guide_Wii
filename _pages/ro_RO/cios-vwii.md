@@ -14,7 +14,9 @@ cIOS (IOS Custom) sunt IOS-uri modificate, care permit funcționalitatea custom.
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-Acest ghid este destinat numai pentru utilizatorii Wii U (vWii). Dacă ai un Wii, urmărește în schimb [acest ghid](cios). Dacă ai un Wii mini, urmărește în schimb [acest ghid](cios-mini).
+This guide is only intended for Wii U users. <br/>
+If you have a Wii, follow [this guide](cios) instead. <br/>
+If you have a Wii mini, follow [this guide](cios-mini) instead.
 {: .notice--warning}
 
 Nu încerca să instalezi un IOS Wii/Wii mini sau System Menu pe un vWii. Făcând acest lucru este foarte probabil să cauzezi [brick](bricks#ios-brick) consolei tale.
@@ -22,7 +24,7 @@ Nu încerca să instalezi un IOS Wii/Wii mini sau System Menu pe un vWii. Făcâ
 
 ### Instrumente necesare
 
-- Un Wii U cu Homebrew Channel instalat în vWii
+- A Wii U with the Homebrew Channel installed on the vWii
 - Un card SD
 - [d2x cIOS Installer](/assets/files/d2x_cIOS_Installer-vWii.zip).
 

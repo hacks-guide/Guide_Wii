@@ -12,26 +12,20 @@ cIOS (IOS Custom) sunt IOS-uri modificate, care permit funcționalitatea custom.
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-Acest ghid este destinat numai utilizatorilor Wii. Dacă ai un Wii mini, urmărește în schimb [acest ghid](cios-mini). Dacă ai un Wii U (vWii), urmărește în schimb [acest ghid](cios-vwii).
-{: .notice--warning}
-
-Nu încerca să instalezi un IOS vWii/Wii mini sau System Menu pe un vWii. Făcând acest lucru este foarte probabil să cauzezi [brick](bricks#ios-brick) consolei tale.
-{: .notice--warning}
-
 ### Instrumente necesare
+
+Acest ghid este destinat numai utilizatorilor Wii. <br/> If you have a Wii U (vWii), follow [this guide](cios-vwii) instead. <br/> If you have a Wii mini, follow [this guide](cios-mini) instead.
+{: .notice--warning}
 
 * Un Wii
 * Un card SD sau o unitate USB
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-Asigură-te că dacă folosești un card SD, comutatorul de blocare este în poziția deblocată, altfel nu vei putea alege opțiunile corecte în instalator.
-{: .notice--warning}
-
 ### Instrucțiuni
 
 #### Secțiunea I - Descărcare
 
-Dacă nu folosește Windows, poți descărca & rula [acest script](/assets/files/d2x_offline_ios.sh) și îți va descărca fișierele WAD pentru tine.
+If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
 {: .notice--info}
 
 Dacă poți conecta Wii-ul la internet, poți sări la [Secțiunea II](cios#section-ii---installing)
@@ -57,7 +51,6 @@ Fișierele WAD ar trebui să fie în cardul tău SD în felul următor: ![](/ima
 
 #### Secțiunea II – Instalare
 
-
 1. Copiază dosarul `apps` din fișierul `.zip` d2x-cios-installer în rădăcina cardului tău SD sau unității tale USB.
 1. Reintrodu cardul tău SD sau unitatea ta USB în consolă.
 1. Pornește-ți consola.
@@ -73,6 +66,9 @@ Fișierele WAD ar trebui să fie în cardul tău SD în felul următor: ![](/ima
     ```
 
     ![](/images/cios/d2x_v11_248.png)
+
+    If you do not see `d2x-v11-beta1`, exit the installer with B, and make sure your SD card is unlocked.
+    {: .notice--info}
 
     Avertismentul "`(c)IOS detected in slot ### will be overwritten`" poate fi ignorat în siguranță.
     {: .notice--info}
@@ -132,6 +128,9 @@ Fișierele WAD ar trebui să fie în cardul tău SD în felul următor: ![](/ima
         ![](/images/cios/d2x_v11_251.png)
 
 1. Odată ce ai terminat cu toate cele 4 cIOS-uri, apasă B pentru a te întoarce în Homebrew Channel.
+
+If you downloaded the 4 WAD files in Section I, you may now delete them from your SD card/USB drive.
+{: .notice--info}
 
 Continuă la [Instalarea Open Shop Channel](osc) <br> Acum că sistemul tău Wii are protecție anti-brick adecvată, poți instala Open Shop Channel, o sursă de încredere pentru aplicații homebrew care poate fi accesată atât din cât și din afara consolei Wii.
 {: .notice--info}

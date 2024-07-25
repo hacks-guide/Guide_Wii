@@ -8,16 +8,13 @@ Ez az útmutató az utolsó, amire valaha is szükséged lesz, ha a Wii témáz�
 
 ### Wii Menu témázás
 
-NE FOLYTASD EZT AZ ÚTMUTATÓt, HA NINCS MEGFELELŐ BRiCKELÉS VÉDELMED, KÜLÖNÖSEN [BOOTMII](bootmii) (csak Wii) ÉS [PRIILOADER](priiloader)!
+NE FOLYTASD EZT AZ ÚTMUTATÓT, HA NINCS MEGFELELŐ BRICKELÉS VÉDELMED, KÜLÖNÖSEN [BOOTMII](bootmii) (csak Wii) ÉS [PRIILOADER](priiloader)!
 {: .notice--danger}
-
-Ez z útmutató nem működik a Wii mini-vel. Ne próbáld meg Wii mini-vel használni ezt az útmutatót, mert [brickelődést](bricks#theme-brick) fog okozni.
-{: .notice--warning}
 
 A csm-installer tartalmaz beépített biztonsági funkciókat, hogy megakadályozza, hogy hibás vagy sérült Wii Menu témákat telepíts, így javasolt, hogy ezt használd más téma telepítő homebrew helyett.
 {: .notice--warning}
 
-Do not use any other version of ThemeMii than the one linked here, as ThemeMii Mod allows you to make a theme for Wii Menu version 4.3, other versions may not.
+Ne használj az itt linkeltnél régebbi ThemeMii verziót, mivel a ThemeMii Mod teszi lehetővé hogy témát készíts a Wii Menu 4.3 verziójához, míg a többi verzió lehet, hogy nem.
 {: .notice--warning}
 
 Csak olyan témákat telepíts a Wii-re, amelyek kifejezetten a Wii verziójához és az aktuális régióhoz lettek formázva. Ha rossz verziójú vagy régiójú témákat telepítesz a Wii-re, az [brickelődik](bricks#theme-brick). Ez a útmutató leírja, hogyan hozhatsz létre egy .csm fájlt, amelyet aztán biztonságosan telepíthetsz.
@@ -31,7 +28,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 + [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (.mym fájlok terjesztése)
 + [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym fájlok terjesztése)
 + [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym fájlok terjesztése)
-+ [Wii Themer](http://www.wiithemer.org/) (csak Wii, online téma készítő különböző verziókhoz, és régiókhoz, képes a .csm témák telepítésére)
++ [Wii Themer](http://www.wiithemer.org/) (Ez az oldal csak a Wii és a vWii számára tud egy telepítésre kész .csm fájlt készíteni, de a Wii mini számára a .mym fájlokat a téma adatbázisukból ([Theme Database](http://wiithemer.org/mym/)) töltheted le.)
 
 #### Követelmények
 
@@ -42,33 +39,33 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 #### Téma készítése
 
-1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
-1. Create a `themes` folder on the root of your SD card/USB device.
-1. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
-1. Launch csm-installer, and hold `+` while the app is loading. If done right, the app will begin downloading the base theme for your Wii menu.
-1. Once the base theme has finished saving, press HOME to exit the app.
-1. Insert your SD card/USB device back into your PC.
-1. Extract the ThemeMii MOD `.zip` to a location on your PC.
-1. Launch the ThemeMii applciation.
-1. Go to `File` -> `Open`, and select the `.mym` file for the theme you want to build.
-1. Press `Create csm`.
-1. When asked to select an `.app` file, select the newly downloaded base theme on the root of your SD card or USB drive.
-1. When asked to save the `.csm` file, save it in the `themes` folder.
-1. After the theme finishes building, you will be prompted to save the .mym. Press `No`.
+1. Csomagold ki a csm-installer `.zip` fájlt az SD-kártya vagy USB eszköz gyökerébe.
+1. Hozz létre egy `themes` mappát az SD-kártya/USB-eszköz gyökerén.
+1. Csatlakoztasd az SD-kártyát vagy az USB-eszközt a konzolodhoz, és indítsd el a Homebrew Channel csatornát.
+1. Indítsd el a csm-installert, és tartsa lenyomva a `+` billentyűt, amíg az alkalmazás betöltődik. Ha jól csináltad, az alkalmazás elkezdi letölteni az alaptémát a Wii menüdhöz.
+1. Miután az alaptéma befejezte a mentést, nyomd meg a HOME gombot az alkalmazásból való kilépéshez.
+1. Csatlakoztasd vissza az SD-kártyát/USB-eszközt a számítógépedhez.
+1. Csomagold ki a ThemeMii MOD `.zip` fájlt egy helyre a számítógépeden.
+1. Indítsd el a ThemeMii alkalmazást.
+1. Navigálj a `File` -> `Open` opcihoz, majd válaszd ki a létrehozni kívánt téma `.mym` fájlját.
+1. Nyomjd meg a `Create csm` gombot.
+1. Amikor egy `.app` fájl kiválasztását kell megtenned, válaszd ki az SD-kártyád vagy USB-meghajtód gyökerén lévő, újonnan letöltött alaptémát.
+1. Amikor a `.csm` fájl mentését kell megtenned, mentsd azt a `themes` mappába.
+1. Miután a téma felépítése elkészül, a .mym fájl mentésétre vonakozó kérdésre kell válaszolnod. Nyomj `No` gombot.
 
 #### Téma telepítése
 
-1. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
-1. Launch csm-installer, and wait for it to load.
-1. Select the theme you would like to install with `A`. Be absolutely sure at this point that you have downloaded the correct theme for your system menu version and region.
-1. Press `+` to install the theme.
-1. Reboot into the Wii Menu, and see if the theme successfully installed. If all goes well, you will have a result similar to the below!
+1. Csatlakoztasd az SD-kártyát vagy az USB-eszközt a konzolodhoz, és indítsd el a Homebrew Channel csatornát.
+1. Indítsd el a csm-installert, és várd meg, amíg betöltődik.
+1. Válaszd ki a telepíteni kívánt témát `A` -val. Ezen a ponton feltétlenül győződj meg arról, hogy a rendszermenü verziódnak és régiódnak megfelelő témát töltöted le.
+1. Nyomj `+` gombot a téma telepítéséhez.
+1. Indítsd újra a Wii menüt, és nézd meg, hogy a téma sikeresen települt-e. Ha minden jól ment, akkor az alábbihoz hasonló eredményt fogsz kapni!
 
     ![](/images/themes/themed-wii-menu.png)
 
-### WiiFlow Lite Theming
+### WiiFlow Lite témázás
 
-Unfortunately, because of the codebase difference between the original WiiFlow and the newer WiiFlow Lite, themes are sparse - in fact, only one theme could be found that confidently works on the newer version. The instructions for installing that theme are below.
+Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli különbség miatt a témák ritkák - valójában csak egyetlen olyan témát találtunk, amely biztosan működik az újabb verzióval. A téma telepítésének utasításai alább találhatók.
 
 #### Követelmények
 
@@ -80,10 +77,10 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 #### Útmutató
 
-1. Have the storage device that holds WiiFlow Lite connected to your PC.
-2. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
-3. Extract and copy the `wiiflow` folder to the root of your storage device, merge all folders and overwrite all files when requested.
-4. Follow the theme setup and theme configuration instructions in `installation.txt`. Enjoy the theme!
+1. A WiiFlow Lite-ot tartalmazó tárolóeszköz legyen csatlakoztatva a számítógépedhez.
+2. Töltsd le a Rhapsodii Shima archívumot, a téma mindkét verziója működik, és gond nélkül telepíthető egymás mellé.
+3. Csomagold ki és másold a `wiiflow` mappát a tárolóeszköz gyökerébe, egyesítve az összes mappát, és kérésre felülírva az összes fájlt.
+4. Kövesd a téma telepítési és beállítási utasításait az `installation.txt`.fájlban. Élvezd a témát!
 
 ### USB Loader GX témázás
 
@@ -97,11 +94,11 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 #### Útmutató
 
-1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
-2. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
-3. Put the storage medium in your Wii and boot it up.
-4. Start USB Loader GX, go to the `Settings` menu, and then go to `Theme Menu`.
-5. Open the theme and install it.
+1. Töltsd le a téma `.zip` fájlját a fentebb linkelt weboldalról, vagy bárhonnan máshonnan, ahol megfelelő témát kaphatsz.
+2. Csomagold ki a `.zip` fájl tartalmát az `apps\usbloader_gx` könyvtárba azon a tárolóeszközön, ahová az USB Loader GX-et telepítetted.
+3. Tedd a tárolóeszközt a Wii-be, és indítsd el.
+4. Indítsd el az USB Loader GX-et, lépj a `Settings` menübe, majd a `Theme Menu`opcióhoz.
+5. Nyissd meg a témát, és telepítsd azt.
 
 ### Homebrew Channel témázás
 
@@ -114,30 +111,30 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 #### Útmutató
 
-1. Download a theme `.zip` file from the website linked above.
+1. Töltsd le a téma `.zip` fájlját a fent említett weboldalról.
 
     ![](/images/themes/homebrew-channel-example-theme.png)
 
-2. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
+2. Illesszd be a `.zip` fájlt az `apps` mappába a tárolóeszközén, ahová a homebrew-ot betölti.
 
     ![](/images/themes/homebrew-channel-paste-zip.png)
 
-3. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
+3. Csomagold ki a `.zip` tartalmát az `apps` mappába, majd töröld az archívum fájlt.
 
     ![](/images/themes/homebrew-channel-extract-theme.png)
 
-4. Reinsert the storage device into your Wii and enter the Homebrew Channel.
-5. The theme you just installed can be loaded in the same way that you access a standard app.
+4. Csatlakoztasd vissza a tárolóeszközt a Wii-be, és lépj be a Homebrew Channel csatornába.
+5. A téma amít telepítettél betölthető úgyanolyan módon, mint ahogy egy standard appot érsz el.
 
     ![](/images/themes/homebrew-channel-load-theme.png)
 
-6. The theme should now be loaded, enjoy!
+6. A témának most már be kell töltődnie, jó szórakozást!
 
     ![](/images/themes/homebrew-channel-theme-done.png)
 
 ### App Forwarder-ek
 
-App forwarders can add a bit of extra flair to your Wii Menu - but be careful with them as bad forwarders can cause a [banner brick](bricks#banner-brick). Generally, you can find forwarders on places like [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) for popular apps such as emulators. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme).
+Az App forwarderek egy kis extra hangulatot adhatnak a Wii menüjének - de légy óvatos velük, mivel a rossz forwarderek [banner bricket](bricks#banner-brick) okozhatnak. Általában olyan helyeken találhatsz forwardereket, mint a [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) a népszerű alkalmazásokhoz, például emulátorokhoz. Mivel a forwarderek .WAD formátumban érkeznek, a telepítésük ugyanolyan egyszerű, mint a [YAWM ModMii Edition](yawmme) normál használata.
 
 
 [Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)

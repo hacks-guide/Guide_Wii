@@ -2,7 +2,7 @@
 title: "LetterBomb"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
 
@@ -17,12 +17,12 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 * A Wii on System Menu version 4.3
 * A Windows/MacOS/Linux computer with an Internet connection
 
-### Instructions
+### Talimatlar
 
-1. Power on your console.
+1. Konsolunuzu açın.
 1. On your Wii, go to `Wii Settings` -> `Internet` -> `Console Information` and make note of your MAC address.
-1. Take note in the top right corner of the letter next to the system version.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+1. Ekranın sağ üst köşesindeki, sistem versiyonunun yanındaki harfi not alın.
+    + Bu harf sistem menüsü bölgenizi temsil eder, bir sonraki adımlar için bilmeniz gerekir.
     + Also, ensure that you are on System Menu version 4.3.
 
     ![](/images/wii/SystemMenuVersion.png)
@@ -51,7 +51,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
     + If you don't see the red letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
     + If your Wii freezes after clicking on the letter, you probably chose the wrong region when downloading the exploit. Redo Step 2 and select the correct region.
     + If all is correct and there is freezing, keep on trying until it works.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Eğer exploit başarılı olmuşsa, cihazınız HackMii Installer'ı yüklemiş olmalıdır.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 

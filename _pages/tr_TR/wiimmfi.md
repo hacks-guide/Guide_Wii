@@ -2,7 +2,7 @@
 title: "Go in the Nintendo DS Wi-Fi settings."
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçerikler" %}
 
 [Wiimmfi](https://wiimmfi.de) is a replacement service for the now-defunct Nintendo Wi-Fi Connection. While different games were supported for longer than others, all games are no longer able to play through conventional means as of August 2023. To regain Nintendo WFC functionality, this guide provides instructions on installing Wiimmfi. There are lots of different methods to connect to Wiimmfi. Choose the one that fits your needs best.
 
@@ -20,7 +20,7 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 + A Wii with an internet connection, on System Menu version 4.3
 + [Priiloader](priiloader) 0.9 or later
 
-#### Instructions
+#### Talimatlar
 
 1. Hold the RESET button while turning on your Wii. If you are using a Wii mini, plug in a USB keyboard and hold Escape on it while turning it on.
 1. You should see the Priiloader menu.
@@ -46,7 +46,7 @@ There's an easy method to patch games to use Wiimmfi that can be used whether or
 + Mario Kart Wii Competitions
 + [A Wii with Priiloader 0.9 or later installed](wii-loaders)
 
-#### Instructions
+#### Talimatlar
 
 1. Open the game or global settings for your specific USB loader and search for the `Private Server` option. By default, it will be set to `Off`.
 1. Set the option to `Wiimmfi` and save the settings. By default, games should now be automatically patched for Wiimmfi.
@@ -65,7 +65,7 @@ Wiimmfi allows you to participate in Mario Kart Wii competitions again.
 
 + A Wii with an Internet connection
 
-#### Instructions
+#### Talimatlar
 
 1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Type in `95.217.77.181` as the primary DNS.
 1. If you're using the Wii U, you will have to run the competitions patcher whenever you want to check for a competition, because WiiConnect24 is not enabled on the Wii U.
@@ -80,7 +80,7 @@ A method for Wiimmfi patching which runs on retail disc games, but must be manua
 + An SD card or USB drive
 + [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
 
-#### Instructions
+#### Talimatlar
 
 1. Extract Auto Wiimmfi Patcher to the root of your SD card or USB drive.
 1. Insert your SD Card into your Wii, and launch Auto Wiimmfi Patcher from the Homebrew Channel.
@@ -94,7 +94,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 + Wii U (vWii)
 
-#### Instructions
+#### Talimatlar
 
 1. Insert your game disc.
 1. Go to `Wii Settings`. Go to `Auto-Obtain DNS` (Not IP Address), then select `No`, then `Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
@@ -118,7 +118,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 + A Wii with an internet connection, running in 60Hz mode
 + The Internet Channel
 
-#### Instructions
+#### Talimatlar
 
 1. Open the following webpage in the Internet Channel: `http://chadsoft.co.uk/wiimmfi`
 1. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
@@ -140,7 +140,7 @@ A method for Wiimmfi patching which runs on WiiWare games, but must be manually 
 [If you want to see how to use the WiiWare Patcher, click here!](wiiwarepatcher)
 {: .notice--info}
 
-#### Instructions
+#### Talimatlar
 
 1. Extract the .zip of the latest version of WiiWare Patcher, and put your WAD in it.
 1. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. If you're using the RiiConnect24 Patcher, select your device (Wii, vWii, or Dolphin) and choose the WiiWare patcher.
@@ -156,7 +156,7 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 + A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
 + [ISO Patching](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
-#### Instructions
+#### Talimatlar
 
 1. Download the patcher and extract the `.zip` file.
 1. Insert your SD card or USB drive into the Wii.

@@ -11,6 +11,8 @@ title: "更新 Wii 菜单至 v4.3"
 
 ### Requirements
 
+* a Wii with The Homebrew Channel 1.0.8 or later
+    + If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
 * 一张 SD 卡或 U 盘
 * 一台装有 Windows 的电脑
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
@@ -20,9 +22,6 @@ title: "更新 Wii 菜单至 v4.3"
 ### Instructions
 
 #### 第一部分 - 下载
-
-您的 Wii 必须破解才能执行此操作。 如果您的 Wii 尚未破解，最好先按照[此指南](get-started)进行操作。
-{: .notice--info}
 
 1. 解压 NUS Downloader Wii 的 .zip 文件，并打开应用程序。
 1. 前往 `Database...` > `System` > `0000000100000002 - System Menu`，根据下表选择与您区域对应的版本。

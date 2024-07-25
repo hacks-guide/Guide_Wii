@@ -42,11 +42,10 @@ sitemap: false
 + [ModMii](modmii)
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
++ [Recovery mode](recovery-mode)
 + [HackMii 설치 프로그램 다시 시작하기](hackmii)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Wii 메뉴 v4.3으로 업데이트하기](update)
-+ [Recovery Mode](recovery-mode)
-+ [Restoring The Wii NAND to Stock](wii-factory-reset)
 + YAWM ModMii Edition
 <div class="notice--primary">{{ notice-4 | markdownify }}</div>
 
