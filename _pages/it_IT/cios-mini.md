@@ -17,7 +17,7 @@ Questo d2x cIOS installer era stato originariamente sviluppato per il vWii del W
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-This guide is only intended for Wii Mini users. <br/> If you have a Wii, follow [this guide](cios) instead. <br/> If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+Questa guida è solo per gli utenti Wii Mini. <br/> If you have a Wii, follow [this guide](cios) instead. <br/> If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
 {: .notice--warning}
 
 Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Farlo [brickerà](bricks#ios-brick) probabilmente la tua console.
