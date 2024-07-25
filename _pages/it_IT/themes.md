@@ -4,14 +4,14 @@ title: "Temi Wii"
 
 {% include toc title="Table of Contents" %}
 
-This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Inoltre, tratteremo anche di forwarder.
+Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installare temi su Wii, contenendo non solo istruzioni per il menu Wii con csm-installer, ma anche per l'installazione di temi su WiiFlow Lite, USB Loader GX, e il Canale Homebrew. Inoltre, tratteremo anche di forwarder.
 
-### Personalizzazione del Menu Wii
+### Applicare temi sul Menu Wii
 
-DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) (Wii only) AND [PRIILOADER](priiloader)!
+NON SEGUIRE QUESTA GUIDA SE NON HAI DELLA PROTEZIONE ADEGUATA AL BRICK, SPECIFICATAMENTE [BOOTMII](bootmii) (Solo per Wii) e [PRIILOADER](priiloader)!
 {: .notice--danger}
 
-csm-installer has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
+csm-installer ha delle funzioni di sicurezza incorporate per evitare l'installazione di temi per il menu Wii corrotti, quindi si prega di utilizzare quello invece di altre applicazioni homebrew per installare i temi sul menu Wii.
 {: .notice--warning}
 
 Non usare nessun'altra versione di ThemeMii oltre a quella fornita da qui, poiché ThemeMii Mod ti permette di creare un tema per il Menu Wii versione 4.3, le altre versioni non possono.
@@ -28,37 +28,37 @@ Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come
 + [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (distribuzione file .mym)
 + [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (distribuzione file .mym)
 + [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (distribuzione file .mym)
-+ [Wii Themer](http://www.wiithemer.org/) (This site can build a .csm ready to install for Wii and vWii only, but for Wii mini you may dowmnload the .mym files from their [Theme Database](http://wiithemer.org/mym/))
++ [Wii Themer](http://www.wiithemer.org/) (Questo sito può costruire un file .csm già installabile solo per Wii e vWii, per la Wii mini puoi scaricare i file mym dal loro [Database dei Temi](http://wiithemer.org/mym/))
 
 #### Requisiti
 
 * Una scheda SD o dispositivo USB
-* A Windows PC with an Internet connection
+* Un computer Windows con una connessione ad internet
 * [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
 #### Creazione di un tema
 
-1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
-1. Create a `themes` folder on the root of your SD card/USB device.
-1. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
-1. Launch csm-installer, and hold `+` while the app is loading. If done right, the app will begin downloading the base theme for your Wii menu.
-1. Once the base theme has finished saving, press HOME to exit the app.
-1. Insert your SD card/USB device back into your PC.
-1. Extract the ThemeMii MOD `.zip` to a location on your PC.
-1. Launch the ThemeMii applciation.
-1. Go to `File` -> `Open`, and select the `.mym` file for the theme you want to build.
-1. Press `Create csm`.
-1. When asked to select an `.app` file, select the newly downloaded base theme on the root of your SD card or USB drive.
-1. When asked to save the `.csm` file, save it in the `themes` folder.
-1. After the theme finishes building, you will be prompted to save the .mym. Premi `No`.
+1. Estrai il file csm-installer `.zip` nella radice della tua scheda SD o del tuo dispositivo USB.
+1. Crea una cartella chiamata `themes` nella radice della tua scheda SD o dispositivo USB.
+1. Inserisci la tua scheda SD o il tuo dispositivo USB nella console, e avvia il Canale Homebrew.
+1. Avvia csm-installer, e tieni premuto `+` mentre l'app sta caricando. Se eseguito correttamente, l'app comincerà a scaricare il tema base per il menu Wii.
+1. Quando il tema base finisce di scaricarsi, premi HOME per uscire dall'applicazione.
+1. Inserisci di nuovo la scheda SD/dispositivo USB nel tuo PC.
+1. Estrai il file ThemeMii MOD `.zip` in qualunque luogo sul tuo PC.
+1. Avvia l'app di ThemeMii.
+1. Clicca su `File` -> `Open`, e seleziona il file `.mym` del tema che vuoi applicare.
+1. Clicca `Create csm`.
+1. Quando viene chiesto di selezionare un file `.app`, selezionare il tema base già scaricato nella radice della tua scheda SD o dispositivo USB.
+1. Quando viene chiesto di salvare il file `.csm`, salvalo nella cartella `themes`.
+1. Dopo che il tema finisce di crearsi, sarà chiesto di salvare il file .mym. Premi `No`.
 
 #### Installazione del tema
 
-1. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
-1. Launch csm-installer, and wait for it to load.
-1. Select the theme you would like to install with `A`. A questo punto, devi essere assolutamente sicuro che hai scaricato il tema corretto per la tua versione del Menu di sistema e regione.
-1. Press `+` to install the theme.
+1. Inserisci la tua scheda SD o il tuo dispositivo USB nella console, e avvia il Canale Homebrew.
+1. Avvia csm-installer, e attendi che si carichi.
+1. Seleziona il tema che vuoi installare con `A`. A questo punto, devi essere assolutamente sicuro che hai scaricato il tema corretto per la tua versione del Menu di sistema e regione.
+1. Premi `+` per installare il tema.
 1. Ritorna al Menu Wii e verifica che il tema sia installato correttamente. Se tutto va bene, dovresti avere un risultato simile a quello in basso!
 
     ![](/images/themes/themed-wii-menu.png)
