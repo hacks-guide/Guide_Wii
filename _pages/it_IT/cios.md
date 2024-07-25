@@ -25,7 +25,7 @@ Questa guida è solo per gli utenti Wii. <br/> If you have a Wii U (vWii), follo
 
 #### Sezione I - Download
 
-If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
+If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
 {: .notice--info}
 
 If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
