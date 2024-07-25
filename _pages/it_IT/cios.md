@@ -14,7 +14,7 @@ cIOS (Custom IOS) are IOS that are patched to allow custom functionality. Nonost
 
 ### Requisiti
 
-This guide is only intended for Wii users. <br/> If you have a Wii U (vWii), follow [this guide](cios-vwii) instead. <br/> If you have a Wii mini, follow [this guide](cios-mini) instead.
+Questa guida è solo per gli utenti Wii. <br/> If you have a Wii U (vWii), follow [this guide](cios-vwii) instead. <br/> If you have a Wii mini, follow [this guide](cios-mini) instead.
 {: .notice--warning}
 
 * Un Wii
