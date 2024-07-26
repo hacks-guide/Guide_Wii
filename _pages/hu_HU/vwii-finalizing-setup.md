@@ -21,13 +21,13 @@ Minden nemhivatalos alkalmazást a Homebrew Channelről lehet elindítani.
 
 - [Patched IOS 80 Installer for vWii](https://oscwii.org/library/app/Patched_IOS80_Installer_for_vWii)
 - [system-channel-restorer](https://oscwii.org/library/app/system-channel-restorer)
-- [WW-43DB-Patcher](https://oscwii.org/library/app/ww-43db-patcher)
+- [ww-43db-patcher](https://oscwii.org/library/app/ww-43db-patcher)
 
 ### További nemhivatalos alkalmazások – Fájlok kicsomagolása az SD kártyára
 
 1. Másold át a Patched IOS 80 Installer fájljait az SD kártya gyökerére!
-2. Másold át a Photo Upgrader fájljait az SD kártya gyökerére!
-3. Másold át a WW-43DB-Patcher fájljait az SD kártya gyökerére!
+2. Copy the contents of the system-channel-restorer to the root of the SD.
+3. Copy the contents of the ww-43db-patcher to the root of the SD.
 
 Folytatás az <a href="osc">Open Shop Channel telepítésével</a> <br>
 Most, hogy befejezted a vWii beállítását, telepítheted az Open Shop Channelt, ami a nemhivatalos programok megbízható tárháza és hozzáférhető mind egy Wiiről vagy egy számítógépről.
