@@ -9,12 +9,12 @@ Although not at all necessary, it is a "nice to have" feature that was originall
 These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Channel, some Japan-exclusive channels, and more.
 -->
 
-[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather and news, send messages to friends, participate in Mii contests, and more. WiiConnect24 è stato disattivato il 27 giugno 2013.
+[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) era un servizio che permetteva agli utenti con una Wii connessa a internet di controllare le notizie e il meteo, inviare dei messaggi ad amici, partecipare ai concorsi Mii, e altro ancora. WiiConnect24 è stato disattivato il 27 giugno 2013.
 
 ## WiiLink
-[WiiLink](https://www.wiilink24.com/) is a revival service for WiiConnect24 that allows you to regain and expand its functionality on your console. As of late 2023, the service merged with revival project RiiConnect24, and today is just operated under the name WiiLink.
+[WiiLink](https://www.wiilink24.com/) è un revival (una resurrezione) di WiiConnect24 che ti permette di recuperare ed espandere la sua funzionalità sulla tua console. Nel tardo 2023, il servizio si è fuso con il progetto revival RiiConnect24, e a oggi è gestito solo con il nome WiiLink.
 
-WiiLink hosts a patcher for the services that it provides, ranging from international channels such as the News Channel to regional exclusives such as Wii Room. The guide on how to install these services, as well as the patcher, can be found [on WiiLink's website.](https://www.wiilink24.com/guide/)
+WiiLink ospita una patcher per i servizi fornisce, dai canali internazionali come il Canale Notizie a delle esclusive regionali come Wii Room. Una guida su come installare questi servizi, come anche la patcher, può essere trovata sul [sito web di WiiLink.](https://www.wiilink24.com/guide/)
 
 <!-- move this back to another page? or no -->
 ### Aggiornare l'orologio RTC
@@ -23,7 +23,7 @@ WiiLink hosts a patcher for the services that it provides, ranging from internat
 
 #### Di cosa hai bisogno
 + Una connessione Internet funzionante sul tuo Wii
-+ L'Homebrew Channel
++ Il Canale Homebrew
 + Una scheda SD o dispositivo USB
 + [sntp](https://oscwii.org/library/app/sntp)
 
@@ -38,31 +38,31 @@ WiiLink hosts a patcher for the services that it provides, ranging from internat
 ### vWii
 
 #### Di cosa hai bisogno
-+ L'Homebrew Channel
++ Il Canale Homebrew
 + Una scheda SD
 + [Priiloader](priiloader)
 
 #### Istruzioni
-1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
-2. Select generate and copy the information.
-3. On your SD Card, navigate to `SD:/apps/priiloader` and open `hacks_hash.ini` with a text editor such as notepad.
-4. Paste the patch at the bottom of the `hacks_hash.ini` and save the changes.
-5. Repeat Steps 1-4 with a new time offset if your location participates in daylight savings time.
-6. Insert your SD card into your Wii U.
-7. [Boot Priiloader](priiloader#section-iii---entering-priiloader) on the vWii.
-8. Select hacks, and scroll down to enable the Fix NWC24iSetUniversalTime hack.
-9. Return to the vWii menu.
+1. Visita il sito di [UTC Patche Generator](https://garyodernichts.github.io/priiloader-patch-gen/) e compila le informazioni.
+2. Seleziona "Generate" e copia le informazioni.
+3. Sulla tua scheda SD, vai su `SD:/apps/prilloader` e apri `hacks_hash.ini` con un editor di testo come blocco note.
+4. Incolla la patch in fondo a `hacks_hash.ini` e salva le modifiche.
+5. Ripeti i passaggi 1-4 con un nuovo offset di tempo se la tua posizione partecipa al risparmio di tempo legale.
+6. Inserisci la tua scheda SD nella tua Wii U.
+7. [Avvia Priiloader](priiloader#section-iii---entering-priiloader) sulla vWii.
+8. Seleziona hacks e scorri in basso per abilitare l'hack Fix NWC24iSetUniversalTime.
+9. Ritorna al Menu vWii.
 
-### Wiiconnect24 Priiloader Hacks
+### Hack di WiiConnect24 su Priiloader
 
-Some Priiloader hacks need to be enabled on the vWii and the Wii mini so the WiiConnect24 functions could work properly:
+Alcune hack di Priiloader devono essere abilitate sulla vWii e la Wii mini in modo che le funzioni di WiiConnect24 possano funzionare correttamente:
 
-+ [Create message via Calendar button (vWii, Mini)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)
++ [Crea un messaggio tramite il pulsante del calendario (vWii, Wii mini)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)
 + [Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)
 + [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii)
 + [Fix NWC24iSetUniversalTime (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)
 
-[Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) and [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) cannot be enabled at the same time. More information on how to use Permanent vWii System Settings can be found [here](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii)
+[Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) and [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) non possono essere abilitati allo stesso tempo. Più informazioni su come utilizzare le impostazioni di sistema vWii permanenti (Permanent vWii System Settings) sono disponibili [qui](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii)
 {: .notice--info}
 
 [Procedi alla Nintendo Wi-Fi Connection](wiimmfi)<br> Questa guida porta avanti il processo per riottenere le funzionalità online del tuo Wii - consentendo di far funzionare nuovamente i servizi Nintendo Wi-Fi Connection su certi giochi come Mario Kart Wii. Seppur ci sono diversi server privati e servizi che lo permettono, il servizio trattato qui sarà Wiimmfi.
