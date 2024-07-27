@@ -158,14 +158,14 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 
 #### Útmutató
 
-1. Download the patcher and extract the `.zip` file.
-1. Open the extracted folder and copy your Wii game images into it.
-    + If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
-    + If you're on MacOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
-    + If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
-1. If the above was successful, you should see a window pop-up that displays the patching process. Once the process finishes, you will find the patched images in a folder called `wiimmfi-images`.
+1. Töltsd le a patchert, és csomagold ki a `.zip` fájlt.
+1. Nyisd meg a kicsomagolt mappát, és másold bele a Wii játék képeit.
+    + Ha Windows rendszeren vagy, kattints duplán a `patch-images.bat` fájlra (ez „patch-images” Batch File néven is megjelenhet). Ha Cygwin-hez kapcsolódó problémákba ütközöl, próbáld meg helyette a `patch-images-32.bat` fájlt.
+    + Ha MacOS-t használsz, nyiss parancssort az aktuális mappában, a `chmod +x *.sh` paranccsal tedd futtathatóvá a shell jszkriptet, majd futtasd a `./patch-images.sh` fájlt.
+    + Ha Linuxon vagy, kattints duplán a `patch-images.desktop` fájlra (ez „Patch Images” néven is megjelenhet), vagy futtasd a `./patch-images.sh` fájlt egy terminálban, miután a `chmod +x *.sh` paranccsal futtathatóvá tetted.
+1. Ha a fentiek sikeresek voltak, akkor egy ablaknak kell felugrania, amely a patch folyamatot jeleníti meg. Ha a folyamat befejeződött, a javított képeket a `wiimmfi-images` nevű mappában találja.
 
-Congrats on making it to the end of the optional section of the main guide! You can go to the site index below if you would like to look for other guides.
+Gratulálunk, hogy eljutottál a fő útmutató opcionális részének végére! Az oldal indexére nézve megtekinthetsz más útmutatókat is.
 {: .notice--success}
 
 [Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
