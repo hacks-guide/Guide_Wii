@@ -22,7 +22,7 @@ sitemap: false
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-3 %}
-**Modding 101 - Exploits**
+**Modding 101 - Gli Exploit**
 + [BlueBomb](bluebomb)
 + [FlashHax](flashhax)
 + [Vecchi Exploit](legacy-exploits)
@@ -58,7 +58,7 @@ sitemap: false
 + [Come preservare giochi Wii e GameCube](dump-games)
 + [Gestire backup GameCube](gc-backups)
 + [Come gestire i salvataggi GameCube](gcsaves)
-+ [Managing Wii Backups](wii-backups)
++ [Gestire i backup Wii](wii-backups)
 + [Usare Priiloader](priiloader-usage)
 + [App Homebrew consigliate](recommended-homebrew)
 + [Transferring Save Games](transfer-saves)
