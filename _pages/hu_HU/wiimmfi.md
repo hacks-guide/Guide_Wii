@@ -48,17 +48,17 @@ Egy módszer a Wiimmfi patcheléshez, amely automatikusan foltozza a játék má
 
 #### Útmutató
 
-1. Open the game or global settings for your specific USB loader and search for the `Private Server` option. By default, it will be set to `Off`.
-1. Set the option to `Wiimmfi` and save the settings. By default, games should now be automatically patched for Wiimmfi.
+1. Nyisd meg a játék vagy a globális beállításokat az adott USB loader-hez, és keresd meg a `Private Server` opciót. Alapértelmezés szerint kikapcsoltra lesz ( `Off`) állítva.
+1. Állítsd az opciót `Wiimmfi`-re, és mentsd el a beállításokat. Alapértelmezés szerint a játékoknak mostantól automatikusan patch-elődnie kell a Wiimmfihez.
 
-### Automatic Disc Patching via Custom DNS
+### Automatikus lemezfoltozás egyéni DNS-en keresztül
 
-A method for Wiimmfi patching which runs on retail game discs automatically through the usage of a custom DNS server. While convinient, it only works with a small selection of games including Mario Kart Wii and SSBB. Due to the nature of this process, it can be run on Wiis without homebrew.
+Egy patchelési módszer a Wiimmfi-hez f, amely a kiskereskedelmi játéklemezeken automatikusan fut egy egyéni DNS-kiszolgáló használatával. Bár kényelmes, csak a játékok egy kis választékával működik, köztük a Mario Kart Wii és az SSBB játékokkal. A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken.
 
-If you get error 20100 or 20110, the game you are trying to play is not supported by this method.
+Ha a 20100 vagy 20110 hibaát kapod, akkor a játék, amellyel játszani próbálsz, nem támogatott ezzel a módszerrel.
 {: .notice--warning}
 
-If you get error 23400, your ISP or network is blocking the use of a custom DNS.<br> To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC - you can read about it [here](https://wiimmfi.de/patcher/dnspatch#customdns).
+Ha a 23400-as hibát kapod, az internetszolgáltatód vagy a hálózatod blokkolja az egyéni DNS használatát.<br> Ennek a problémának a megoldására a Wiimmfi rendelkezik egy egyéni DNS-kiszolgálóval, amelyet a számítógépeden futtathatsz - erről [itt olvashatsz](https://wiimmfi.de/patcher/dnspatch#customdns).
 {: .notice--warning}
 
 #### Követelmények
@@ -67,13 +67,13 @@ If you get error 23400, your ISP or network is blocking the use of a custom DNS.
 
 #### Útmutató
 
-1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
-1. Let the connection test finish, and do not perform a Wii System Update.
+1. Menj a `Wii Settings > Internet > Connection Settings` és válaszd ki a kapcsolatot amit használsz. Majd `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Állítsd be elsődleges (primary) DNS-nek a `95.217.77.181` címet és másodlagos (secondary) DNS-nek az `1.1.1.1`-et.
+1. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
 1. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
-### Manual Disc Patching via Homebrew Channel
+### Kézi lemezpatchelésa Homebrew Channel csatornán keresztül
 
-A method for Wiimmfi patching which runs on retail disc games, but must be manually launched via the Homebrew Channel.
+A Wiimmfi egy patchelési módszere, amely a kiskereskedelmi lemezes játékokon fut, de manuálisan kell elindítani a Homebrew Channel csatornán keresztül.
 
 #### Követelmények
 
@@ -82,13 +82,13 @@ A method for Wiimmfi patching which runs on retail disc games, but must be manua
 
 #### Útmutató
 
-1. Simply extract the `apps` folder in this archive to the root of your SD card or USB drive.
-1. Insert your SD Card into your Wii, and launch Auto Wiimmfi Patcher from the Homebrew Channel.
-1. Insert the game disc (if it is not already inserted), wait for the patch to complete, and the game should start.
+1. Csomagold ki az `apps`-mappát a tömörített fájlból az SD kártyád vagy USB drive-od gyökerére.
+1. Helyezd be az SD-kártyád a Wii-be, és indítsd el az Auto Wiimmfi Patchert a Homebrew Channel-ről.
+1. Helyezd be a játéklemezt (ha még nem lenne), várd meg, amíg a patchelés befejeződik, és a játék elindul.
 
-### Manual Disc Patching via EULA User Agreement
+### Kézi lemez patchelés az EULA felhasználói megállapodáson keresztül
 
-A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the EULA User Agreement (derives from [str2hax](str2hax)). Due to the nature of this process, it can be ran on Wiis without homebrew.
+A Wiimmfi egy patchelési módszere, amely kiskereskedelmi játéklemezeken fut, de manuálisan kell elindítani az EULA felhasználói megállapodáson keresztül (a str2hax-ból származik). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken.
 
 #### Követelmények
 
@@ -111,7 +111,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 If you run into UPnP-related issues (such as the patcher getting stuch at "Init network..." or "add UPnP port forward" steps for more than 10 seconds), you can press the - button on your Wii Remote, or the Y button on your GameCube controller as soon as the patcher loads to circumvent this.
 {: .notice--warning}
 
-A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). Due to the nature of this process, it can be ran on Wiis without homebrew. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
+A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
 
 #### Követelmények
 
