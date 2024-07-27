@@ -39,7 +39,7 @@ A Wiimmfi patchelés módszere, amely a kiskereskedelmi lemezes játékokon auto
 
 ### Automatikus mentés patchelés USB Loader-en keresztül
 
-A method for Wiimmfi patching which automatically patches game backups in the latest versions of USB Loader GX or WiiFlow Lite.
+Egy módszer a Wiimmfi patcheléshez, amely automatikusan foltozza a játék másolatait az USB Loader GX vagy a WiiFlow Lite legújabb verzióiban.
 
 #### Követelmények
 
