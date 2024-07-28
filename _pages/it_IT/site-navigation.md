@@ -22,7 +22,7 @@ sitemap: false
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-3 %}
-**Modding 101 - Exploits**
+**Modding 101 - Gli Exploit**
 + [BlueBomb](bluebomb)
 + [FlashHax](flashhax)
 + [Vecchi Exploit](legacy-exploits)
@@ -58,10 +58,10 @@ sitemap: false
 + [Come preservare giochi Wii e GameCube](dump-games)
 + [Gestire backup GameCube](gc-backups)
 + [Come gestire i salvataggi GameCube](gcsaves)
-+ [Managing Wii Backups](wii-backups)
++ [Gestire i backup Wii](wii-backups)
 + [Usare Priiloader](priiloader-usage)
 + [App Homebrew consigliate](recommended-homebrew)
-+ [Transferring Save Games](transfer-saves)
++ [Trasferire i file di salvataggio dei giochi](transfer-saves)
 + [Loader di backup Wii](wii-loaders)
 + [Come eseguire un SysCheck](syscheck)
 + [Guida ai Temi Wii](themes)
@@ -70,17 +70,17 @@ sitemap: false
 
 {% capture notice-6 %}
 **vWii**
-+ [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
++ [Installare il Canale Homebrew sulla vWii](vwii-homebrew-channel)
 + [Wii U NAND Dumper](wiiu-nand-dumper)
-+ [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
-+ [Installing cIOS on the vWii](cios-vwii)
++ [Installare il Canale Homebrew sulla vWii senza modificare la Wii U](vwii-homebrew-channel-no-wiiu-mods)
++ [Installare cIOS sulla vWii](cios-vwii)
 {% endcapture %}
 <div class="notice--primary">{{ notice-6 | markdownify }}</div>
 
 {% capture notice-7 %}
 **Wii mini**
 + [Come installare l'Homebrew Channel su Wii mini](hbc-mini)
-+ [Installing cIOS on the Wii mini](cios-mini)
++ [Installare cIOS sulla Wii mini](cios-mini)
 + [Wii mini NAND Dumper](wnd-mini)
 {% endcapture %}
 <div class="notice--primary">{{ notice-7 | markdownify }}</div>

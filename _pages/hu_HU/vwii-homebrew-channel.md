@@ -47,7 +47,7 @@ Most már tudod használni a Homebrew Channel-t arra, hogy Wii homebrew appokat 
 Megjegyzés: Ha homebrew Wii alkalmazásokat telepítesz SD kártyára vagy USB drive-ra, a könyvtár felépítésed így kell, hogy kinézzen:
 
 ```
-💾 SD Card
+💾 SD kártya
  ┗ 📁 apps
    ┣ 📁 <AppName1>
    ┃ ┣ 📄 boot.dol

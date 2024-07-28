@@ -47,7 +47,7 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
     ![](/images/riiconnect24/Internet_7.png)
 
-1. `18.188.135.9`을 기본 DNS로 입력합니다.
+1. Set the Primary DNS to `3.143.163.250`.
 
     ![](/images/exploits/str2hax/dns.png)
 

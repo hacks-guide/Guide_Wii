@@ -24,7 +24,7 @@ Az útmutató ezen része csak Wii-felhasználóknak szól. <br/> Ha egy Wii U-d
 
 #### I. rész – Letöltés
 
-Ha macOS vagy Linux rendszerel dolgozol, letöltheted és futtathatod [szkriptet](/assets/files/d2x_offline_ios.sh), ami letölti neked a WAD fájlokat.
+Ha macOS vagy Linux rendszerel dolgozol, letöltheted és futtathatod [szkriptet](/assets/files/d2x_offline_ios.zip), ami letölti neked a WAD fájlokat.
 {: .notice--info}
 
 Ha képes vagy csatlakoztatni a Wii-t az internetre, átugorgatod a [II. részt](cios#section-ii---installing)

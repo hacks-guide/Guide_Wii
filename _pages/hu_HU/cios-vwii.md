@@ -14,9 +14,8 @@ A cIOS („custom IOS” / „egyéni IOS”)-ek egyéni rendszerfunkciók igén
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-This guide is only intended for Wii U users. <br/>
-If you have a Wii, follow [this guide](cios) instead. <br/>
-If you have a Wii mini, follow [this guide](cios-mini) instead.
+Ez az útmutató csak Wii U felhasználóknak szól. <br/>
+Ha Wii-od van [ezt az útmutatót](cios) kövesd. <br/>Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd.
 {: .notice--warning}
 
 Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telepíteni! Ha mégis így tennél, azzal [elronthatod](bricks#ios-brick) a konzolod!
@@ -24,7 +23,7 @@ Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telep
 
 ### Követelmények
 
-- A Wii U with the Homebrew Channel installed on the vWii
+- Egy Wii U, aminek a vWii-jére telepítve van a Homebrew Channel
 - Egy SD kártya
 - A [d2x cIOS-telepítő](/assets/files/d2x_cIOS_Installer-vWii.zip)
 

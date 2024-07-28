@@ -35,7 +35,7 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 
 1. Kapcsold be a konzolt!
 1. Indítsd el a Homebrew Channelt!
-1. Launch Priiloader Installer from the list of homebrew.
+1. Indítsd el a homebrew listáról a „Priiloader Installer”-t.
 
     ![](/images/hbc/priiloader-and-loadpriiloader.png)
 

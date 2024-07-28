@@ -14,20 +14,20 @@ Minden nemhivatalos alkalmazást a Homebrew Channelről lehet elindítani.
 {: .notice--info}
 
 - A „Patched IOS 80 Installer for vWii” egy olyan alkalmazás, ami módosítja a konzol létező IOS 80-ját, hogy lehetővé tegye a hamisított aláírással rendelkező csatornák futtatását az SD kártya-menüből.
-- System Channel Restorer is a homebrew app that allows some channels usually only available on Wii to be easily installed on vWii.
-- ww-43db-patcher is a homebrew app that will patch your WiiWare and virtual console titles to force the 16:9 aspect ratio.
+- A System Channel Restorer egy homebrew app ami lehetővé teszi, hogy néhány csatorna ami általában csak Wii-on elérhető, könyen telepíthető legyen a vWii-re.
+- A ww-43db-patcher egy olyan homebrew alkalmazás, ami módosítja a WiiWare- és Virtual Console-alkalmazásokat, hogy a 16:9-es képarányú megjelenítésre kényszerítse őket.
 
 ### További nemhivatalos alkalmazások – Letöltések
 
 - [Patched IOS 80 Installer for vWii](https://oscwii.org/library/app/Patched_IOS80_Installer_for_vWii)
 - [system-channel-restorer](https://oscwii.org/library/app/system-channel-restorer)
-- [WW-43DB-Patcher](https://oscwii.org/library/app/ww-43db-patcher)
+- [ww-43db-patcher](https://oscwii.org/library/app/ww-43db-patcher)
 
 ### További nemhivatalos alkalmazások – Fájlok kicsomagolása az SD kártyára
 
 1. Másold át a Patched IOS 80 Installer fájljait az SD kártya gyökerére!
-2. Másold át a Photo Upgrader fájljait az SD kártya gyökerére!
-3. Másold át a WW-43DB-Patcher fájljait az SD kártya gyökerére!
+2. Másold a system-channel-restorer fájljait az SD kártya gyökerébe.
+3. Másold át a ww-43db-patcher fájljait az SD kártya gyökerébe.
 
 Folytatás az <a href="osc">Open Shop Channel telepítésével</a> <br>
 Most, hogy befejezted a vWii beállítását, telepítheted az Open Shop Channelt, ami a nemhivatalos programok megbízható tárháza és hozzáférhető mind egy Wiiről vagy egy számítógépről.

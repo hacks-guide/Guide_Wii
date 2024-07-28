@@ -47,7 +47,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![](/images/riiconnect24/Internet_7.png)
 
-1. Set the Primary DNS to `18.188.135.9`.
+1. Set the Primary DNS to `3.143.163.250`.
 
     ![](/images/exploits/str2hax/dns.png)
 

@@ -25,7 +25,7 @@ Acest ghid este destinat numai utilizatorilor Wii. <br/> If you have a Wii U (vW
 
 #### Secțiunea I - Descărcare
 
-If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.sh), and it will download the WAD files for you.
+If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
 {: .notice--info}
 
 Dacă poți conecta Wii-ul la internet, poți sări la [Secțiunea II](cios#section-ii---installing)
