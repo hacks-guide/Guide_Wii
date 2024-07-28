@@ -47,7 +47,7 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
     ![](/images/riiconnect24/Internet_7.png)
 
-1. 将主要 DNS 设置为 `18.188.135.9`.
+1. Set the Primary DNS to `3.143.163.250`.
 
     ![](/images/exploits/str2hax/dns.png)
 
