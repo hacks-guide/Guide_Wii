@@ -47,7 +47,7 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
     ![](/images/riiconnect24/Internet_7.png)
 
-1. Állítsd be a Primary DNS-t `18.188.135.9`-re.
+1. Set the Primary DNS to `3.143.163.250`.
 
     ![](/images/exploits/str2hax/dns.png)
 
