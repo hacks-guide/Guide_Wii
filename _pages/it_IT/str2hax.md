@@ -47,7 +47,7 @@ Questo exploit richiede di reimpostare il tuo DNS in modo da connettersi a un se
 
     ![](/images/riiconnect24/Internet_7.png)
 
-1. Imposta il DNS Primario a `18.188.135.9`.
+1. Set the Primary DNS to `3.143.163.250`.
 
     ![](/images/exploits/str2hax/dns.png)
 
