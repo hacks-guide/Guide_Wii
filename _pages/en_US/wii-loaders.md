@@ -6,13 +6,13 @@ title: "Wii Backup Loaders"
 
 This guide introduces Wii backup loaders. They can be primarily used to load game backups on an SD or USB that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
 
-In order for Wii loader to function properly, you must have the latest cIOS installed. Please check [this](cios) guide for instructions if you are on Wii, and [this](cios-mini) guide if you are on Wii mini.
+In order for Wii loader to function properly, you must have the latest cIOS installed. Please check [this](cios) guide for instructions if you are on Wii, [this](cios-mini) guide if you are on Wii mini, and [this](cios-vwii) guide if you are on vWii.
 {: .notice--warning} 
 
 To play games, you are advised to use a large SD card or an external hard drive, flash drives are not recommended and very sporadic in functionality. See [storage FAQ](faq).
 {: .notice--info}
 
-The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Run the app in the Homebrew Channel to install the forwarder. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme).
+The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Run the app in the Homebrew Channel to install the forwarder. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme). Note that these forwarders are NOT made for vWii.
 {: .notice--info}
 
 ### Differences between WiiFlow Lite and USB Loader GX
