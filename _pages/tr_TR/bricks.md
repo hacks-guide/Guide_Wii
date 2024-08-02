@@ -1,10 +1,10 @@
 ---
-title: "Bricks"
+title: "Brick senaryoları"
 ---
 
 {% include toc title="İçerikler" %}
 
-A "Brick" usually means your Wii has reached a state where, its only use is that of a literal [brick](https://wikipedia.org/wiki/Brick). <br> Bricks can occur for a variety of reasons, usually caused by improper system modifications via homebrew.
+Bir "brick" genelde Wii'nizin bir sonraki var olma amacının bir kapı durdurucusu veya sadece bir süs olabileceği durumlardır. <br> Bricks can occur for a variety of reasons, usually caused by improper system modifications via homebrew.
 
 # Brick Prevention
 
