@@ -36,7 +36,7 @@ sitemap: false
 + [BootMii Yedekleme](bootmii)
 + [BootMii Recovery (RestoreMii)](bootmiirecover)
 + [Types of Bricks](bricks)
-+ [Brick Prevention](bricks#brick-prevention)
++ [Brick Önleme](bricks#brick-prevention)
 + [cIOS](cios)
 + [Homebrew Channel](hbc)
 + [ModMii](modmii)
