@@ -4,9 +4,9 @@ title: "Brick senaryoları"
 
 {% include toc title="İçerikler" %}
 
-Bir "brick" genelde Wii'nizin bir sonraki var olma amacının bir kapı durdurucusu veya sadece bir süs olabileceği durumlardır. <br> Bricks can occur for a variety of reasons, usually caused by improper system modifications via homebrew.
+Bir "brick" genelde Wii'nizin bir sonraki var olma amacının bir kapı durdurucusu veya sadece bir süs olabileceği durumlardır. <br> Brickler birçok sebepten dolayı olmuş olabilir, ama genellikle yozlaşmış (bozulmuş) yazılımlar nedeniyle, veya homebrew aracılığı ile yapılmış düzgün olmayan düzenlemeler sebebiyle olabilir.
 
-# Brick Prevention
+# Brick Önleme
 
 Preventing a brick involves many rules that range between common sense and fail-safe backups. Here are the general recommendations of what not to do:
 
