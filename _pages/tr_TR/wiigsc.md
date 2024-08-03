@@ -1,12 +1,12 @@
 ---
-title: "Creating Wii Game Shortcuts"
+title: "Wii Oyun Kısayolları Oluşturmak"
 ---
 
 {% include toc title="İçerikler" %}
 
-Do you use a Wii backup loader and want to create game shortcuts to launch them on your Wii Menu? Then try WiiGSC (Wii Game Shortcut Creator), previously known as Crap.
+Bir Wii yedekleme yöneticisi kullanıyor ve sistem menüsünde kısayollar oluşturmak mı istiyorsunuz? Eskiden Crap olarak bilinen WiiGSC'yi (Wii Oyun Kısayolu Yaratıcısı) deneyin.
 
-In the case of a brick, [installing Priiloader is a must](/priiloader). Also, install BootMii (as Boot2 if you have an early Wii). Installing brick protection along with following the guide correctly should keep you safe from bricks. DO NOT CONTINUE UNTIL YOU HAVE INSTALLED PRIILOADER AND BOOTMII!
+Bir brickten korunmak için, [Priiloader olması zorunludur](/priiloader). Ayrıca, BootMii'yi de kurun (eğer eski bir Wiiniz varsa boot2 olarak). Installing brick protection along with following the guide correctly should keep you safe from bricks. DO NOT CONTINUE UNTIL YOU HAVE INSTALLED PRIILOADER AND BOOTMII!
 {: .notice--warning}
 
 Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will brick your Wii.
