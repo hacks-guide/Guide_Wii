@@ -230,15 +230,15 @@ Győződj meg róla, hogy telepítetted a [cIOS](cios)-t, mielőtt ezt a lépés
 
 ##### Útmutató
 
-1. Open Dolphin Emulator and select `Tools > Memory Card Manager` from the main menu.
-1. Click the `Open` button next to Slot B.
-1. Go to the `saves` folder on your SD card or USB drive, and select the `.raw` file named after the game's ID.
-    + If you do not already have a save on Nintendont, select `Create` and set the Card size to 251 blocks.
-    + If you are using one memory card for all games, open the `ninmem.raw`/`ninmemj.raw` file on the root of your SD/USB.
-1. If Dolphin is storing your saves in a GCI folder (default):
-    + Click `Switch to B`.
-    + Click `Import`, and navigate to `<REGION>/Card A/`.
-    + Select the `.gci` file(s) you would like to import. Otherwise, if Dolphin is storing your saves in a `.raw` file. simply select your saves on the left side and select `Copy to B`.
+1. Nyisd meg a Dolphin Emulátort, és válaszd a főmenüben a `Tools > Memory Card Manager` menüpontot.
+1. Kattints az `Open` gombra a Slot B mellett.
+1. Menj az SD-kártyán vagy USB-meghajtón található `saves` mappába, és válaszd ki a játék azonosítója után elnevezett `.raw` fájlt.
+    + Ha még nincs mentésed a Nintendont-on, válaszd a `Create` lehetőséget, és állítsd a Card size-ot 251 blokkra.
+    + Ha egy memóriakártyát használsz az összes játékhoz, nyisd meg a `ninmem.raw`/`ninmemj.raw` fájlt az SD-kártya/USB-drive gyökerén.
+1. Ha a Dolphin a mentéseket egy GCI mappában tárolja (alapértelmezett):
+    + Kattints a `Switch to B` lehetőségre.
+    + Kattints az `Import` gombra, és navigálj a `<REGION>/Card A/` helyre.
+    + Válaszd ki az importálni kívánt `.gci` fájl(oka)t. Ellenkező esetben, ha a Dolphin a mentéseket `.raw` fájlban tárolja. egyszerűen válaszd ki a mentéseket a bal oldalon, és válaszd a `Copy to B` lehetőséget.
 </div>
 </div>
 
@@ -259,23 +259,23 @@ Minden metódusnak szükségve van egy Wii-ra GameCube portokkal.
 ##### Útmutató
 
 1. Töltsd le és csomagold ki a GCMM-et az SD-kártya vagy USB-meghajtó gyökerébe.
-1. Safely eject the SD/USB from your PC, then put it into your Wii.
+1. Biztonságosan válaszd le az SD kártyát/USB drive-ot a számítógépről, majd helyezd be a Wii-be.
 1. Indítsd el a Homebrew Channel csatornát, majd indítsd el a GCMM-et.
-1. Select the device you would like to copy the save file to.
+1. Válaszd ki az eszközt, amire mentés fájlt másolnád.
 ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-1. Press `B` and `-`/`L` and `Y` to enter Raw backup mode.
+1. Nyomj `B` és `-`/`L` és `Y` gombokat, hogy belépj a Raw backup módba.
 ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
 1. Válaszd ki a memóriakártyát tartalmazó slot-ot.
 ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. When the dump is complete, press any key to continue.
-1. Press HOME/START to exit GCMM.
+1. Amikor a dump megtörtént, nyomj tetszőleges gombot a folytatáshoz.
+1. Nyomj HOME/START gombot a GCMM-ből való kilépéshez.
 1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
-1. Copy the `.raw` file inside `MCBACKUP` to the root of the device used for Nintendont and name it `ninmem.raw`.
-    + If your games are Japanese, Nintendont will use `ninmemj.raw`, because Japanese games do not play very nicely when there are other region saves present.
-1. Launch Nintendont and set Memcard emulation to multi [ ? ]
+1. Másold a `.raw` fájlt az `MCBACKUP`-on belül a Nintendont használt eszköz gyökerébe, és nevezd el `ninmem.raw`-nak.
+    + Ha a játékaid japánok, a Nintendont a `ninmemj.raw` fájlt fogja használni, mert a japán játékok nem játszanak túl szépen, ha más régió mentések vannak jelen.
+1. Indítsd el a Nintendont-ot, és állítsd a Memcard emulációt multi-ra [ ? ]
 </div>
 
 <div id="gcmc-dol" class="tabcontent to" markdown="1">
@@ -287,31 +287,31 @@ Minden metódusnak szükségve van egy Wii-ra GameCube portokkal.
 ##### Útmutató
 
 1. Töltsd le és csomagold ki a GCMM-et az SD-kártya vagy USB-meghajtó gyökerébe.
-1. Safely eject the SD/USB from your PC, then put it into your Wii.
+1. Biztonságosan válaszd le az SD kártyát/USB drive-ot a számítógépről, majd helyezd be a Wii-be.
 1. Indítsd el a Homebrew Channel csatornát, majd indítsd el a GCMM-et.
-1. Select the device you would like to copy the save file to.
+1. Válaszd ki az eszközt, amire mentés fájlt másolnád.
 ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-1. Press `B` and `-`/`L` and `Y` to enter Raw backup mode.
+1. Nyomj `B` és `-`/`L` és `Y` gombokat, hogy belépj a Raw backup módba.
 ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
 1. Válaszd ki a memóriakártyát tartalmazó slot-ot.
 ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. When the dump is complete, press any key to continue.
-1. Press HOME/START to exit GCMM.
+1. Amikor a dump megtörtént, nyomj tetszőleges gombot a folytatáshoz.
+1. Nyomj HOME/START gombot a GCMM-ből való kilépéshez.
 1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
-1. Open Dolphin Emulator, and select `Tools > Memory Card Manager` from the main menu.
-1. Click `Open` next to slot B.
-1. Go into the `MCBACKUP` folder on your SD/USB, and open the newly created `.raw` file.
-1. Click `Switch to B`.
-1. If Dolphin is set to store saves in a GCI folder (default):
-    + Select the saves you would like to copy.
-    + Click `Export as .gci`.
-    + Export the `.gci` files to `<REGION>/Card A/`.
-1. Otherwise, if Dolphin is set to store saves in a `.raw` file,
-    + Select the saves you would like to copy.
-    + Click `Copy to A`.
+1. Nyisd meg a Dolphin Emulátort, és válaszd a főmenüben a `Tools > Memory Card Manager` menüpontot.
+1. Kattints az `Open` gombra a Slot B mellett.
+1. Menj az `MCBACKUP` mappába az SD-kártyádon/USB-drive-odon, és nyisd meg a frissen létrejött `.raw` fájlt.
+1. Kattints a `Switch to B` lehetőségre.
+1. Ha a Dolphin úgyvan beálltva, hogy a mentéseket egy GCI mappában tárolja (alapértelmezett):
+    + Válaszd ki a másolni kívánt mentéseket.
+    + Kattints az `Export as .gci`-re.
+    + Exportáld a `.gci` fájlokat a `<REGION>/Card A/` útvonalra.
+1. Ellenkező esetben, ha a Dolphin a mentéseidet `.raw` fájlban tárolja,
+    + Válaszd ki a másolni kívánt mentéseket.
+    + Kattints a `Copy to A` lehetőségre.
 </div>
 
 <div id="gcmc-gcmc" class="tabcontent to" markdown="1">
@@ -322,20 +322,20 @@ Minden metódusnak szükségve van egy Wii-ra GameCube portokkal.
 
 ##### Útmutató
 
-1. Insert both memory cards into your Wii.
-1. Launch the Wii menu and select the Wii Options button at the bottom left.
+1. Csatlakoztasd mindkettő memória kártyát a Wii-dhez.
+1. Indtsd el a Wii Menu-t és válaszd a Wii Options-t baloldalt alul.
 ![](/images/Wii/wii-options.png)
 
-1. Select `Data Management > Save Data > Nintendo GameCube`.
-1. Select the save you would like to copy and select `Copy`.
+1. Válaszd a `Data Management > Save Data > Nintendo GameCube` lehetőséget.
+1. Válaszd ki az másolni kívánt mentést, majd válaszd a `Copy` lehetőséget.
 ![](/images/homebrew/gcsaves/gc-data-management.png)
 </div>
 </div>
 <
 div id="emumc" class="tabcontent" markdown="1">
 
-<button class="btn btn--large btn--info tablinks to" onClick="openTab_to(event, 'emumc-dol')">To Dolphin Emulator</button>
-<button class="btn btn--large btn--info tablinks to" onClick="openTab_to(event, 'emumc-gcmc')">To a memory card</button>
+<button class="btn btn--large btn--info tablinks to" onClick="openTab_to(event, 'emumc-dol')">Dolphin Emulator-ra</button>
+<button class="btn btn--large btn--info tablinks to" onClick="openTab_to(event, 'emumc-gcmc')">memóriakártyára</button>
 
 <div id="emumc-dol" class="tabcontent to" markdown="1">
 
@@ -346,17 +346,17 @@ div id="emumc" class="tabcontent" markdown="1">
 ##### Útmutató
 
 1. Csatlakoztasd a pendrive-ot vagy az SD kártyát a PC-dhez.
-1. Open Dolphin Emulator, and select `Tools > Memory Card Manager` from the main menu.
-1. Click `Open` next to slot B.
-1. Navigate to the `saves` folder on your SD/USB, and open the `.raw` file named after the game ID of your game.
-1. Click `Switch to B`.
-1. If Dolphin is set to store saves in a GCI folder (default):
-    + Select the saves you would like to copy.
-    + Click `Export as .gci`.
-    + Export the `.gci` files to `<REGION>/Card A/`.
-1. Otherwise, if Dolphin is set to store saves in a `.raw` file:
-    + Select the saves you would like to copy.
-    + Click `Copy to A`.
+1. Nyisd meg a Dolphin Emulátort, és válaszd a főmenüben a `Tools > Memory Card Manager` menüpontot.
+1. Kattints az `Open` gombra a Slot B mellett.
+1. Navigáljon az SD-kártyán/USB drive-on található `saves` mappába, és nyisd meg a `.raw` fájlt, amelyet a játékod azonosítója után neveztek el.
+1. Kattints a `Switch to B` lehetőségre.
+1. Ha a Dolphin úgyvan beálltva, hogy a mentéseket egy GCI mappában tárolja (alapértelmezett):
+    + Válaszd ki a másolni kívánt mentéseket.
+    + Kattints az `Export as .gci`-re.
+    + Exportáld a `.gci` fájlokat a `<REGION>/Card A/` útvonalra.
+1. Ellenkező esetben, ha a Dolphin a mentéseidet `.raw` fájlban tárolja:
+    + Válaszd ki a másolni kívánt mentéseket.
+    + Kattints a `Copy to A` lehetőségre.
 </div>
 <
 
@@ -368,11 +368,11 @@ div id="emumc-gcmc" class="tabcontent to" markdown="1">
 * Egy SD kártya vagy pendrive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
-##### Individual memcards (.gci files)
+##### Független memóriakártyák (.gci files)
 
 1. Csatlakoztasd a pendrive-ot vagy az SD kártyát a PC-dhez.
-1. Create a folder named `MCBACKUP`.
-1. Copy the `.gci` files inside the `saves` folder to the `MCBACKUP` folder.
+1. Hozz létre egy mappát `MCBACKUP` néven.
+1. Másold a `.gci` fájlokat a `saves` mappából az `MCBACKUP` mappába.
 1. Töltsd le és csomagold ki a GCMM-et az SD-kártya vagy USB-meghajtó gyökerébe.
 1. Biztonságosan válaszd le az SD kártyát/USB drive-ot a számítógépről, majd helyezd be a Wii-be.
 1. Indítsd el a Homebrew Channel csatornát, majd indítsd el a GCMM-et.
