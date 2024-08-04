@@ -108,10 +108,10 @@ A Wiimmfi egy patchelési módszere, amely kiskereskedelmi játéklemezeken fut,
 
 ### Kézi lemezkép javítás az Internet Channel csatornán keresztül
 
-If you run into UPnP-related issues (such as the patcher getting stuch at "Init network..." or "add UPnP port forward" steps for more than 10 seconds), you can press the - button on your Wii Remote, or the Y button on your GameCube controller as soon as the patcher loads to circumvent this.
+Ha UPnP-vel kapcsolatos problémákba ütközöl (például a patcher 10 másodpercnél tovább megáll a ""Init network..." vagy az "add UPnP port forward" lépéseknél), akkor a Wii Remote - gombját vagy a GameCube kontroller Y gombját nyomd meg, amint a patcher betöltődik, hogy ezt megkerüld.
 {: .notice--warning}
 
-A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
+A Wiimmfi patchelés egy módszere, amely a kiskereskedelmi játéklemezeken fut, de manuálisan kell elindítani az internetes csatornán keresztül (a [Flashhax](flashhax)-ból származik). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken. [Ez a módszer](wiimmfi#manual-disc-patching-via-eula-user-agreement) általában megbízhatóbb, és ajánlott helyette.
 
 #### Követelmények
 
