@@ -150,18 +150,18 @@ Minden módszer feltételezi, hogy a [Dolphin Emulator legújabb béta vagy fejl
 
 ##### Útmutató
 
-1. Open Dolphin Emulator.
-1. If you exporting a select game's save, right click the game inside the Dolphin window and select `Export Wii Save`.
-    + If you are exporting all your Wii saves from Dolphin, select `Tools > Export All Wii Saves`.
+1. Indítsd el a Dolphin Emulátort.
+1. Ha egy kiválasztott játék mentését exportálod, kattints a jobb gombbal a játékra a Dolphin ablakban, és válaszd az `Export Wii Save` lehetőséget.
+    + Ha az összes Wii mentést exportálod a Dolphinból, válaszd a `Tools > Export All Wii Saves` lehetőséget.
 ![](/images/dolphin/export-wiisave.png)
 
-1. In the folder dialog that pops up, select your SD card. (Don't go inside any other folder!)
-1. Safely eject your SD card, then put it into your Wii/Wii U.
-    + If on a Wii U, be sure to launch Wii Mode.
-1. Select the `Wii Options` button at the bottom left.
+1. A felugró mappa párbeszédpanelen válaszd ki az SD-kártyát. (Ne menj bele más mappába!)
+1. Biztonságosan válaszd le az SD-kártyát, majd tedd be a Wii/Wii U-ba.
+    + Ha Wii U-n vagy, mindenképpen indítsd el a Wii Mode-ot.
+1. Válaszd ki a `Wii Options` gombot a bal alsó sarokban.
 1. Válaszd a `Data Management` (ha a Wii-n vagy), `Save Data`, majd `Wii` opciót.
-1. Go to the `SD Card` tab at the top right.
-1. Select each save that you would like to copy to your Wii/Wii U and select `Copy`.
+1. Menj a jobb felső sarokban lévő `SD Card` fülre.
+1. Jelöld ki az egyes mentéseket, amelyeket a Wii/Wii U-ra szeretne másolni, és válaszd a `Copy` lehetőséget.
 </div>
 
 <div id="dol-wii-svgm" class="tabcontent via" markdown="1">
@@ -177,14 +177,14 @@ Győződj meg róla, hogy telepítetted a [cIOS](cios)-t, mielőtt ezt a lépés
 ##### Útmutató
 
 1. Indítsd el a Dolphin Emulátort.
-1. If you exporting a select game's save, right click the game inside the Dolphin window and select `Export Wii Save`.
-    + If you are exporting all your Wii saves from Dolphin, select `Tools > Export All Wii Saves`.
-1. In the folder dialog that pops up, select your SD card/USB drive. (don't go inside any other folder!)
-1. Safely eject your SD card/USB drive, then put it into your Wii/Wii U.
-    + If on a Wii U, be sure to launch Wii Mode.
+1. Ha egy kiválasztott játék mentését exportálod, kattints a jobb gombbal a játékra a Dolphin ablakban, és válaszd az `Export Wii Save` lehetőséget.
+    + Ha az összes Wii mentést exportálod a Dolphinból, válaszd a `Tools > Export All Wii Saves` lehetőséget.
+1. A felugró mappa párbeszédpanelen válaszd ki az SD-kártyát/USB drive-ot. (ne menj bele más mappába!)
+1. Biztonságosan válaszd le az SD-kártyát/USB drive-ot, majd tedd be a Wii/Wii U-ba.
+    + Ha Wii U-n vagy, mindenképpen indítsd el a Wii Mode-ot.
 1. Indítsd el a Homebrew Channel csatornát, majd indítsd el a SaveGame Manager GX-et.
 1. Győződj meg róla, hogy a forrásként az SD vagy az USB van beállítva.
-1. Select each save and click `Install`.
+1. Válaszd ki az egyes másolt mentéseket, és kattints az `Install` gombra.
 </div>
 </div>
 
@@ -192,35 +192,35 @@ Győződj meg róla, hogy telepítetted a [cIOS](cios)-t, mielőtt ezt a lépés
 
 ##### Amire szükséged van
 
-* a Wii with GameCube ports and the Homebrew Channel installed
+* egy Wii, GameCube portokkal és a Homebrew Channel telepítéssel
 * Egy SD kártya vagy pendrive
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
 ##### Útmutató
 
 1. Indítsd el a Dolphin Emulátort.
-1. In the main menu, select `File > Open User Folder`.
+1. A főmenüben válaszd a `File > Open User Folder` menüpontot.
 ![](/images/dolphin/open-user-folder.png)
 
-1. In the folder that opens, navigate to `GC > [Save region] > Card A`.
-1. Copy the `.gci` files you would like to put on your Memory Card.
-1. Create a folder named `MCBACKUP` on your SD card or USB drive, and place the `.gci` files you copied into it.
+1. A megnyíló mappában navigálj a `GC > [Save region] > Card A` lehetőséghez.
+1. Másold ki azokat a `.gci` fájlokat, amelyeket a memóriakártyára szeretnél helyezni.
+1. Hozz létre egy `MCBACKUP` nevű mappát az SD-kártyán vagy USB-meghajtón, és helyezd el a másolt `.gci` fájlokat ebbe a mappába.
 {{ dolphin-emu-memcard-manager }}
 
-1. Download and extract GCMM to the root of your SD card or USB drive.
-1. Safely eject the SD/USB from your PC, then insert it into your Wii.
-1. Launch the Homebrew Channel, then launch GCMM.
-1. Select the device you have copied the `.gci` files to.
+1. Töltsd le és csomagold ki a GCMM-et az SD-kártya vagy USB-meghajtó gyökerébe.
+1. Biztonságosan válaszd le az SD kártyát/USB drive-ot a számítógépről, majd helyezd be a Wii-be.
+1. Indítsd el a Homebrew Channel csatornát, majd indítsd el a GCMM-et.
+1. Válaszd ki azt az eszközt, amelyre a `.gci` fájlokat másoltad.
 ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-1. Press `+`/`X` to enter Restore mode.
+1. Nyomd meg a `+`/`X` billentyűt a visszaállítási módba való belépéshez.
 ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
-1. Select the slot that has your Memory card.
+1. Válaszd ki a memóriakártyát tartalmazó slot-ot.
 ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. Select the save you would like to restore.
-    + If you would like to restore all the saves in `MCBACKUP`, press `1`/`R`.
+1. Válaszd ki a visszaállítani kívánt mentést.
+    + Ha az `MCBACKUP` összes mentését vissza szeretnéd állítani, nyomd meg az `1`/`R` gombot.
 ![](/images/homebrew/gcsaves/gcmm-restore-save.jpg)
 
 1. Amikor a visszaállítás megtörtént, nyomj tetszőleges gombot a folytatáshoz.
@@ -243,12 +243,12 @@ Győződj meg róla, hogy telepítetted a [cIOS](cios)-t, mielőtt ezt a lépés
 </div>
 
 <div id="gcmc" class="tabcontent" markdown="1">
-All methods here require a Wii with GameCube ports.
+Minden metódusnak szükségve van egy Wii-ra GameCube portokkal.
 {: .notice--warning}
 
-<button class="btn btn--large btn--info tablinks to" onClick="openTab_to(event, 'gcmc-dol')">To Dolphin Emulator</button>
-<button class="btn btn--large btn--info tablinks to" onClick="openTab_to(event, 'gcmc-emumc')">To Nintendont</button>
-<button class="btn btn--large btn--info tablinks to" onClick="openTab_to(event, 'gcmc-gcmc')">To another memory card</button>
+<button class="btn btn--large btn--info tablinks to" onClick="openTab_to(event, 'gcmc-dol')">Dolphin Emulator-ra</button>
+<button class="btn btn--large btn--info tablinks to" onClick="openTab_to(event, 'gcmc-emumc')">Nintendont</button>
+<button class="btn btn--large btn--info tablinks to" onClick="openTab_to(event, 'gcmc-gcmc')">másik memóriakártyára</button>
 
 <div id="gcmc-emumc" class="tabcontent to" markdown="1">
 
@@ -258,16 +258,16 @@ All methods here require a Wii with GameCube ports.
 
 ##### Útmutató
 
-1. Download and extract GCMM to the root of your SD card or USB drive.
+1. Töltsd le és csomagold ki a GCMM-et az SD-kártya vagy USB-meghajtó gyökerébe.
 1. Safely eject the SD/USB from your PC, then put it into your Wii.
-1. Launch the Homebrew Channel, then launch GCMM.
+1. Indítsd el a Homebrew Channel csatornát, majd indítsd el a GCMM-et.
 1. Select the device you would like to copy the save file to.
 ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 1. Press `B` and `-`/`L` and `Y` to enter Raw backup mode.
 ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
-1. Select the slot that has your memory card.
+1. Válaszd ki a memóriakártyát tartalmazó slot-ot.
 ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 1. When the dump is complete, press any key to continue.
@@ -286,16 +286,16 @@ All methods here require a Wii with GameCube ports.
 
 ##### Útmutató
 
-1. Download and extract GCMM to the root of your SD card or USB drive.
+1. Töltsd le és csomagold ki a GCMM-et az SD-kártya vagy USB-meghajtó gyökerébe.
 1. Safely eject the SD/USB from your PC, then put it into your Wii.
-1. Launch the Homebrew Channel, then launch GCMM.
+1. Indítsd el a Homebrew Channel csatornát, majd indítsd el a GCMM-et.
 1. Select the device you would like to copy the save file to.
 ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 1. Press `B` and `-`/`L` and `Y` to enter Raw backup mode.
 ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
-1. Select the slot that has your memory card.
+1. Válaszd ki a memóriakártyát tartalmazó slot-ot.
 ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 1. When the dump is complete, press any key to continue.
@@ -341,7 +341,7 @@ div id="emumc" class="tabcontent" markdown="1">
 
 ##### Amire szükséged van
 
-* Latest beta or Development version of Dolphin Emulator
+* A Dolphin Emulator legutolsó béta vagy fejlesztői verziója
 
 ##### Útmutató
 
@@ -373,23 +373,23 @@ div id="emumc-gcmc" class="tabcontent to" markdown="1">
 1. Csatlakoztasd a pendrive-ot vagy az SD kártyát a PC-dhez.
 1. Create a folder named `MCBACKUP`.
 1. Copy the `.gci` files inside the `saves` folder to the `MCBACKUP` folder.
-1. Download and extract GCMM to the root of your SD card or USB drive.
-1. Safely eject the SD/USB from your PC, then insert it into your Wii.
-1. Launch the Homebrew Channel, then launch GCMM.
-1. Select the device you have copied the `.gci` files to.
+1. Töltsd le és csomagold ki a GCMM-et az SD-kártya vagy USB-meghajtó gyökerébe.
+1. Biztonságosan válaszd le az SD kártyát/USB drive-ot a számítógépről, majd helyezd be a Wii-be.
+1. Indítsd el a Homebrew Channel csatornát, majd indítsd el a GCMM-et.
+1. Válaszd ki azt az eszközt, amelyre a `.gci` fájlokat másoltad.
 
     ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-1. Press `+`/`X` to enter Restore mode.
+1. Nyomd meg a `+`/`X` billentyűt a visszaállítási módba való belépéshez.
 
     ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
-1. Select the slot that has your Memory card.
+1. Válaszd ki a memóriakártyát tartalmazó slot-ot.
 
     ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-1. Select the save you would like to restore.
-    + If you would like to restore all the saves in `MCBACKUP`, press `1`/`R`.
+1. Válaszd ki a visszaállítani kívánt mentést.
+    + Ha az `MCBACKUP` összes mentését vissza szeretnéd állítani, nyomd meg az `1`/`R` gombot.
 
     ![](/images/homebrew/gcsaves/gcmm-restore-save.jpg)
 
