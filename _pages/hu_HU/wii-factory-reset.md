@@ -38,56 +38,56 @@ Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult 
 
 #### I. rész - Előkészületek
 
-1. Indítsd el az Ohneschwanzenegger-t. You may get a Windows SmartScreen prompt, this is a false positive and you can run the program anyway by pressing `More info` and `Run anyway`.
+1. Indítsd el az Ohneschwanzenegger-t. Előfordulhat, hogy a Windows SmartScreen promptot kapsz, ez egy téves pozitív találat; a programot a `További információk` és a `Futtatás` gomb megnyomásával mindenképpen indítsd el.
 
-2. Press the `Local Cache` button, create a new folder for the NUS cache to be output in, and then press OK. An example folder is given below.
+2. Nyomd meg a `Local Cache` gombot, és hozz létre egy új mappát a NUS gyorsítótár kimenetéhez, majd nyomd meg az OK gombot. Egy példamappa az alábbiakban látható.
 
    ![](/images/factory-reset/nuscache.png)
 
-3. Press `Nand Dump` on the toolbar, and then press `New nand`. This should open a pop-up window where you can adjust parameters for a new NAND dump. Press the large `Existing Nand...` button and find your existing NAND dump from your Wii.
+3. Nyomja meg az eszköztáron a `Nand Dump` gombot, majd az `New nand` gombot. Ez megnyit egy felugró ablakot, ahol beállíthaod az új NAND-dump paramétereit. Nyomja meg a nagy meglévő `Existing Nand...` gombot, és keresd meg a meglévő NAND-dumpod a Wii-dről.
 
    ![](/images/factory-reset/newnand.png)
 
-4. This will fill in information such as the keys, Boot 1/2, and your bad blocks automatically. ONLY change the Destination box to `./blankNand.bin`, which will output the NAND to the program folder with the name `blankNand.bin`. Aztán nyomj OK-t.
+4. Ez automatikusan kitölti az olyan információkat, mint a kulcsok, a Boot 1/2 és a rossz blokkok. CSAK a Destination mezőt változtasd meg `./blankNand.bin`-re, ami a NAND-ot a program mappájába fogja kiadni `blankNand.bin` néven. Aztán nyomj OK-t.
 
    ![](/images/factory-reset/renamenand.png)
 
 #### II. rész - Üres NAND készítése
 
-1. Now that the NAND is loaded into the program, select `Content` on the toolbar and then press Format. This will initialize your BLANK NAND, not your backup NAND.
+1. Most, hogy a NAND be van töltve a programba, válaszd a `Content` lehetőséget az eszköztáron, majd nyomd meg a Format gombot. Ez a BLANK NAND-od inicializálja, nem pedig a NAND mentésed.
 
    ![](/images/factory-reset/formatnand.png)
 
-2. Select the top left text box in the program and type in the Wii System Menu version that you need the NAND to have. Note that this should optimally be the version that your NAND was previously using. This NAND was using `4.3U`. Other valid examples are `3.2U`, `4.3E`, or `3.4J`.
+2. Válaszd ki a program bal felső szövegmezőjét, és írd be a Wii System Menu verziót, amelyet a NAND-nak kell tartalmaznia. Vedd figyelembe, hogy ennek optimális esetben annak a verziónak kell lennie, amelyet a NAND-od korábban használt. Ez a NAND a `4.3U` verziót használta. Más érvényes példák a `3.2U`, `4.3E` vagy `3.4J`.
 
    ![](/images/factory-reset/sysmenu.png)
 
-3. Once you have confirmed you have entered the version of the menu that you want, press enter or `Get It!`. This will begin downloading the menu from NUS servers, with the progress displayed in the program.
+3. Miután megerősítette, hogy megadtad a kívánt menüverziót, nyomd meg az Entert vagy a `Get It!` gombot. Ekkor megkezdődik a menü letöltése a NUS szerveréről, és a programban megjelenik folyamat előrehaladása.
 
    ![](/images/factory-reset/menudownload.png)
 
-4. Once the menu has finished downloading, a pop-up will display showing the settings appended to the NAND. It will be autofilled depending on what was in your NAND, although the serial number may be incorrect. You can edit this if you would like, otherwise keep everything blank and press OK.
+4. Amint a menü letöltése befejeződött, egy felugró ablakban megjelennek a NAND-hoz csatolt beállítások. Ez automatikusan kitöltődik attól függően, hogy mi volt a NAND-ban, bár a sorozatszám lehet, hogy hibás. Ezt szerkesztheted, ha szeretnéd, egyébként hagyj mindent üresen, és nyomd meg az OK gombot.
 
    ![](/images/factory-reset/settings.png)
 
-5. Next, press `Content` on the taskbar and press `Write meta entries`. Then, go back to the menu and press `Flush`. You may then close the window.
+5. Ezután nyomd meg a `Content` gombot a tálcán, majd nyomd meg a `Write meta entries` gombot. Ezután menj vissza a menübe, és nyomd meg a `Flush` gombot. Ezután bezárhatod az ablakot.
 
    ![](/images/factory-reset/finalsteps.png)
 
 #### III. rész - A NAND ellenőrzése
 
-1. If NAND Bin Checker is not already in the same directory as Ohneschwanzenegger, copy it there now. Then, open a terminal in that directory. Run the following command: `.\nandBinCheck.exe .\blankNand.bin`. If you named the NAND something else, adjust the command accordingly. The program will then check the validity of the NAND.
+1. Ha a NAND Bin Checker még nincs az Ohneschwanzeneggerrel azonos könyvtárban, másold oda most. Ezután nyiss terminált ebben a könyvtárban. Futtasd a következő parancsot: `.\nandBinCheck.exe .\blankNand.bin`. Ha a NAND-ot máshogy nevezted el, a parancsot ennek megfelelően módosítsd. A program ezután ellenőrizni fogja a NAND érvényességét.
 
    ![](/images/factory-reset/nandcheck.png)
 
-2. If all is well, the result should look similar to the below. If there are ANY errors that stand out, DO NOT use this NAND and try again as it may damage or permanantly brick your Wii. If you continue to get these errors on further attempts, go to the Nintendo Homebrew discord server for support.
+2. Ha minden rendben van, az eredménynek az alábbihoz hasonlóan kell kinéznie. Ha BÁRMILYEN hiba feltűnik, NE HASZNÁLD ezt a NAND-ot, és ne próbáld meg újra, mert ez károsíthatja vagy brickelhet a Wii-odat. Ha a további próbálkozásoknál is ilyen hibákat kapsz, menj a Nintendo Homebrew discord szerverére támogatásért.
 
    ![](/images/factory-reset/nandcheckresult.png)
 
-3. Move the `blankNand.bin` to your Wii SD card and rename it to `nand.bin` so that it can be flashed by BootMii. Remember not to overwrite your existing NAND!
+3. Helyezd át a `blankNand.bin` fájlt a Wii-od SD-kártyájára, és nevezd át `nand.bin`-re, hogy a BootMii segítségével flashelni lehessen. Ne feledd, hogy ne írd felül a meglévő NAND-ot!
 
    ![](/images/factory-reset/nandname.png)
 
-[Continue to BootMii Recovery](bootmiirecover)
-Now that you have a blank NAND, you can restore it on your Wii using BootMii.
+Tovább a [BootMii helyreállításához](bootmiirecover)
+Most, hogy van egy üres NAND-od, visszaállíthatod a Wii-n a BootMii segítségével.
 {: .notice--info}
