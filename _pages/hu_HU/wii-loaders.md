@@ -1,5 +1,5 @@
 ---
-title: "Wii Backup Loaders"
+title: "Wii mentés betöltők"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -140,17 +140,17 @@ There are also other buttons at the bottom of the screen:
 
 ### Hibaelhárítás
 
-Some games require using a specific cIOS to function, or to utilize certain features within the game. Examples include:
+Egyes játékok működéséhez vagy a játék bizonyos funkcióinak használatához egy adott cIOS használata szükséges. Például:
 
-+ Using a keyboard in Animal Crossing: City Folk.
-+ Running SpongeBob's Boating Bash.
-+ Using a USB dongle in Rock Band.
++ A billentyűzet használata az Animal Crossing: City Folk játékban.
++ A Spongyabob's Boating Bash futtatása.
++ USB-dongle használata a Rock Bandben.
 
-A more comprehensive (although still incomplete) list can be found [here](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
+Egy átfogóbb (bár még mindig nem teljes) lista [itt](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List) található.
 
-Both USB Loader GX and WiiFlow Lite are programmed to automatically find the best cIOS to use and load the game with it using the default settings.  However, if for whatever reason these loaders pick the wrong cios to use, you have the option to change it yourself.
+Mind az USB Loader GX, mind a WiiFlow Lite úgy van programozva, hogy automatikusan megtalálja a legjobb cIOS-t, és az alapértelmezett beállításokkal töltse be a játékot.  Ha azonban valamilyen oknál fogva ezek a betöltők rossz cIOS-t választanak, akkor lehetőséged van arra, hogy te magad változtasd meg.
 
-To change the cIOS used for a specific game, follow the instructions specific to your USB loader:
+Egy adott játékhoz használt cIOS megváltoztatásához kövesd az USB-töltőre vonatkozó utasításokat:
 
 #### USB Loader GX
 1. Válaszd ki a játékot, ami nem működik.
@@ -163,10 +163,10 @@ To change the cIOS used for a specific game, follow the instructions specific to
 
 #### WiiFlow Lite
 1. Válaszd ki a játékot, ami nem működik.
-1. Click the gear icon.
-1. Go to cIOS and use the arrows to select the IOS slot to use.
+1. Kattints a kerék ikonra.
+1. Menj a cIOS-hoz és használd a nyilakat, hogy kiválaszt a használandó IOS slot-ot.
     + Próbáld meg a 248, 249, 250 vagy 251-gyel.
-1. Press Save and try to load the game.
+1. Nyomj Save-et és próbáld meg betölteni a játékot.
 
 [Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
 {: .notice--info}
