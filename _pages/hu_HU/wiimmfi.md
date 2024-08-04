@@ -102,11 +102,11 @@ A Wiimmfi egy patchelési módszere, amely kiskereskedelmi játéklemezeken fut,
     ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
 1. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
-1. Go back twice to `Internet`, and press `User Agreements`. Then, confirm that you would like to use WC24 and the Wii Shop Channel.
-1. The Wiimmfi patcher page should now display. If it doesn't, and you still see the default license agreement, your router might not be compatible with this method.
-1. Wait a while for the patcher to load (usually about 1.5 minutes) and the inserted game should boot with a Wiimmfi patch.
+1. Menj vissza kétszer az `Internet`-hez, és nyomd meg a `User Agreements` gombot. Ezután erősítsd meg, hogy szeretnéd használni a WC24-et és a Wii Shop Channel csatornát.
+1. A Wiimmfi patcher oldalnak most meg kell jelennie. Ha nem, és továbbra is az alapértelmezett licencszerződés jelenik meg, akkor lehet, hogy a routered nem kompatibilis ezzel a módszerrel.
+1. Várj egy kicsit, amíg a patcher betöltődik (általában kb. 1,5 percig), és a behelyezett játéknak a Wiimmfi patch-el együtt kell elindulnia.
 
-### Manual Disc Patching via Internet Channel
+### Kézi lemezkép javítás az Internet Channel csatornán keresztül
 
 If you run into UPnP-related issues (such as the patcher getting stuch at "Init network..." or "add UPnP port forward" steps for more than 10 seconds), you can press the - button on your Wii Remote, or the Y button on your GameCube controller as soon as the patcher loads to circumvent this.
 {: .notice--warning}
@@ -115,7 +115,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 #### Követelmények
 
-+ A Wii with an internet connection, running in 60Hz mode
++ Egy Wii internet kapcsolattal 60Hz módban futva
 + Az Internet Channel
 
 #### Útmutató
@@ -133,11 +133,11 @@ A method for Wiimmfi patching which runs on WiiWare games, but must be manually 
 #### Követelmények
 
 * Egy SD kártya
-* Your copy of your game (in WAD format)
+* A játékod másolata (WAD formátumban)
 * [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases/latest) (cross platform)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-[If you want to see how to use the WiiWare Patcher, click here!](wiiwarepatcher)
+[Ha szeretnéd megtudni, hogyan használd a WiiWare Patcher-t, kattints ide!](wiiwarepatcher)
 {: .notice--info}
 
 #### Útmutató
