@@ -1,14 +1,14 @@
 ---
-title: Restoring the Wii NAND to Stock
+title: Ripristinare la NAND della Wii all'originale (stock)
 ---
 
 {% include toc title="Table of Contents" %}
 
-This guide details how to create a stock NAND for your Wii system using a program called Ohneschwanzenegger. Unlike the `Format Wii System Memory` option in the Wii settings, this will completely wipe any changes to the NAND by downloading a stock Wii System Menu from NUS servers. If followed correctly, the Wii should have no homebrew left on the system, stock IOSes, and boot up to a factory setup screen when the NAND is flashed.
+Questa guida spiega come creare una NAND stock per il tuo sistema Wii utilizzando un programma chiamato Ohneschwanzenegger. Unlike the `Format Wii System Memory` option in the Wii settings, this will completely wipe any changes to the NAND by downloading a stock Wii System Menu from NUS servers. If followed correctly, the Wii should have no homebrew left on the system, stock IOSes, and boot up to a factory setup screen when the NAND is flashed.
 
 Please note that this program **needs** an existing (even bricked!) NAND backup to function, as it needs to have a copy of the first 8 blocks of NAND, a bad blocks list, and AES/HMAC keys.
 
-Do not attempt this tutorial on the Wii U's vWii.
+Non eseguire le istruzioni di questo tutorial sulla vWii della Wii U.
 {: .notice--info}
 
 {% capture here-be-dragons %}
