@@ -120,15 +120,15 @@ A Wiimmfi patchelés egy módszere, amely a kiskereskedelmi játéklemezeken fut
 
 #### Útmutató
 
-1. Open the following webpage in the Internet Channel: `http://chadsoft.co.uk/wiimmfi`
-1. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
-1. Exit back to the Wii Menu.
-1. Open the Internet Channel again and access the favorite you just made.
-1. The Wiimmfi patcher should begin. Be patient, as Flashhax can be very unreliable - it may take several tries to get right.
+1. Nyisd meg a következő weboldalt az Internet Channel-ben: `http://chadsoft.co.uk/wiimmfi`
+1. Add hozzá az oldalt a böngésző kedvenceihez a csillag ikonra, majd az `Add Favorite` gombra kattintva.
+1. Lépjen vissza a Wii menübe.
+1. Nyisd meg újra az Internet Channel-t, és lépj be az imént létrehozott kedvenchez.
+1. A Wiimmfi patchernek el kell indulnia. Légy türelmes, mivel a Flashhax nagyon megbízhatatlan tud lenni - több próbálkozásra is szükség lehet, hogy sikerüljön.
 
 ### Kézi WiiWare patchelés PC-vel
 
-A method for Wiimmfi patching which runs on WiiWare games, but must be manually run on a PC via a script.
+A Wiimmfi patchelés egy módszere, amely a WiiWare játékokon fut, de kézzel kell futtatni a PC-n egy szkript segítségével.
 
 #### Követelmények
 
@@ -142,18 +142,18 @@ A method for Wiimmfi patching which runs on WiiWare games, but must be manually 
 
 #### Útmutató
 
-1. Extract the .zip of the latest version of WiiWare Patcher, and put your WAD in it.
-1. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. If you're using the RiiConnect24 Patcher, select your device (Wii, vWii, or Dolphin) and choose the WiiWare patcher.
-1. If it completed successfully, install the WAD that was made in `wiiware-wads` with YAWM ModMii Edition.
+1. Csomagold ki a WiiWare Patcher legújabb verziójának .zip csomagját, és tedd bele a WAD-edet.
+1. Futtasd le az operációs rendszeredhez tartozó patch scriptet: Windows esetén általában `.bat`, Mac/Linux esetén `.sh` végződésű. Ha a RiiConnect24 Patchert használod, válaszd ki a készülékedet (Wii, vWii vagy Dolphin), és válaszd a WiiWare patchert.
+1. Ha sikeresen befejeződött, telepítsd a `wiiware-wads`-ben a YAWM ModMii Editionnel készített WAD-ot.
 
-### Manual Disc Image Patching via PC
+### Kézi lemezkép-foltozás PC-n keresztül
 
-A method for Wiimmfi patching which runs on game disc images, but must be manually run on a PC via a script.
+A Wiimmfi patchelés egy módszere, amely játék-lemezképeken fut, de kézzel kell futtatni a PC-n egy szkript segítségével.
 
 #### Követelmények
 
 + Egy Windows/macOS/Linux számítógép internet kapcsolattal
-+ A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
++ A javítani kívánt játék egy példánya - támogatott formátumok: `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ` és `FST` - az `NKIT` NEM támogatott
 + [Wiimmfi ISO Patcher](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
 #### Útmutató
