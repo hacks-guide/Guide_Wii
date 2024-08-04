@@ -47,7 +47,7 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
     ![](/images/riiconnect24/Internet_7.png)
 
-1. Set the Primary DNS to `3.143.163.250`.
+1. Állítsd be a Primary DNS-t `3.143.163.250`-re.
 
     ![](/images/exploits/str2hax/dns.png)
 
@@ -73,7 +73,7 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 1. Navigálj az `Internet` -> `User Agreements` vagy `Agreement/Contact` opcióhoz.
 1. Válaszd a `Yes`-t.
 1. Kattints a `Next`-re.
-    + A következő képpel kell üdvözöljön:
+    + A következő képernyővel kell üdvözöljön:
 
     ![](/images/exploits/str2hax/EULA.png)
 
