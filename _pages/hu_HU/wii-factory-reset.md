@@ -6,30 +6,30 @@ title: A Wii NAND visszaállítása gyárira
 
 Ez az útmutató részletesen bemutatja, hogyan hozhatsz létre egy alap NAND-ot a Wii rendszeredhez az Ohneschwanzenegger nevű program segítségével. A Wii beállításaiban található `Format Wii System Memory` opcióval ellentétben ez teljesen törli a NAND minden módosítását a NUS szerverekről letöltött alap Wii System Menu segítségével. Ha helyesen követed, a Wii-n nem marad homebrew a rendszeren, stock IOS-eket tartalmaz és egy gyári beállítási képernyőre kell bootolnia, ha a NAND flashelve lett.
 
-Please note that this program **needs** an existing (even bricked!) NAND backup to function, as it needs to have a copy of the first 8 blocks of NAND, a bad blocks list, and AES/HMAC keys.
+Kérjük, vedd figyelembe, hogy ennek a programnak **szüksége van** egy meglévő (akár brickelt!) NAND biztonsági mentésre a működéshez, mivel szüksége van a NAND első 8 blokkjának másolatára, a rossz blokkok listájára és az AES/HMAC kulcsokra.
 
 Ne próbáld meg ezt az útmutatót a Wii U vWii rendszerénél.
 {: .notice--info}
 
 {% capture here-be-dragons %}
 
-The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and should only be considered as a LAST RESORT or if you are trying to do any of the following:
+Az ebben az útmutatóban részletezett utasítások TÖRÖLNI fogják a WII-od RENDSZERMEMÓRIÁJÁT, és csak UTOLSÓ MEGOLDÁSKÉNT vagy ha a következők bármelyikét szeretnéd elvégezni használd:
 
-- Restore the Wii to a state comparable to when it left the factory.
-- Fix a brick where you do not have a functional NAND backup or access to the Homebrew Channel but can still make one using BootMii.
-- You are unable to revert certain changes to the Wii System Memory such as all cIOS with DARKCORP.
+- A Wii-t visszaállítani a gyári állapothoz hasonló állapotba.
+- Egy olyan brick javítása, ahol nincs működő NAND biztonsági mentés vagy hozzáférés a Homebrew Channel csatornához, de a BootMii segítségével mégis tusz készíteni egyet.
+- A Wii rendszermemóriájának bizonyos módosításait, például az összes cIOS-t nem tudtad visszaállítani a DARKCORP segítségével.
 
 {% endcapture %}
 
 <div class="notice--danger">{{ here-be-dragons | markdownify }}</div>
 
-If you are trying to [update your Wii to 4.3U](update) with homebrew or update outdated homebrew/IOS, you most likely do not need to follow this guide. Instead, you can use a tool like the SysCheck Updater Wizard built into [ModMii](modmii#syscheck-updater-wizard). If you are confused about this process, consider joining the Nintendo Homebrew discord server for support.
+Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult homebrew/IOS-t frissíteni, akkor valószínűleg nem kell követned ezt az útmutatót. Ehelyett használhatsz egy olyan eszközt, mint a [ModMii](modmii#syscheck-updater-wizard)-be épített SysCheck Updater Wizard. Ha zavarban vagy ezzel a folyamattal kapcsolatban, fontold meg, hogy csatlakozol a Nintendo Homebrew discord szerverhez, ahol támogatást kaphatsz.
 {: .notice--warning}
 
 ### Követelmények
 
 - Egy SD kártya legalább 512 MB szabad hellyel (1 GB vagy több ajánlott)
-- A [NAND backup](bootmii) from the specific system you are trying to flash
+- Egy [NAND mentés](bootmii) arról az eszközről, amit flash-elni próbálsz
 - Egy internetkapcsolattal rendelkező Windows PC
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
 - [Nand BIN Checker](/assets/files/nandBinCheck.zip)
@@ -38,7 +38,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 #### I. rész - Előkészületek
 
-1. Start Ohneschwanzenegger. You may get a Windows SmartScreen prompt, this is a false positive and you can run the program anyway by pressing `More info` and `Run anyway`.
+1. Indítsd el az Ohneschwanzenegger-t. You may get a Windows SmartScreen prompt, this is a false positive and you can run the program anyway by pressing `More info` and `Run anyway`.
 
 2. Press the `Local Cache` button, create a new folder for the NUS cache to be output in, and then press OK. An example folder is given below.
 
