@@ -8,26 +8,26 @@ Eğer Wii'niz zaten hacklenmişse ve hackleri güncellemek istiyorsanız, [bu](h
 
 Burada listelenen bütün exploitler aynı sonuca ulaşmak (HackMii Installer'a girmek) için farklı yöntemlerdir.
 
-Although you can follow this guide without an SD card, you will not be able to create or restore a NAND backup using BootMii, and you won't be able to use some homebrew.
+Hackleme işleminden sonra bir SD kartınızın olması önerilir, çünkü böylece BootMii ile bir NAND yedeklemesi yapıp çeşitli homebrew uygulamaları kurabilirsiniz.
 {: .notice--info}
 
-### Identify your console revision:
+### Konsol versiyonunuzu tanımlayın:
 
 {% include identify-console.html %}<br>
 
-### Choose an exploit to use
+### Bir exploit seçin
 
-Select the exploit that corresponds to your console and situation the best.
+Konsolunuza ve durumunuza en uygun exploiti seçin.
 
-| Console Revision       | Recommended Exploit                                                                                                                                                                                                                                                                                                                                         |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wii/Wii Family Edition | If you can use a Windows PC:<br> Automatic Setup: Proceed to [ModMii](modmii)<br> If you can use an SD card:<br> Manual Setup: Proceed to [Wilbrand](wilbrand)<br> If you cannot use an SD card:<br> Manual Setup: Proceed to [str2hax](str2hax)<br>                                                                    |
-| Wii mini               | [BlueBomb](bluebomb) - Exploit that uses Bluetooth                                                                                                                                                                                                                                                                                                          |
-| Wii U (vWii)           | If you have already modded your Wii U:<br> Proceed to [Modding the vWii](vwii-homebrew-channel)<br> If you haven't modded the Wii U but want to:<br> Proceed to [Modding the Wii U](https://wiiu.hacks.guide)<br> If you do not want to mod the Wii U:<br> Proceed to [Modding the vWii Without Wii U Mods](wiiu-nand-dumper) |
-| Dolphin Emulator       | Proceed to [Homebrew Channel on Dolphin](homebrew-dolphin)                                                                                                                                                                                                                                                                                                  |
+| Konsol Versiyonu       | Önerilen Exploit                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Wii/Wii Family Edition | Eğer bir Windows bilgisayar kullanabiliyorsanız: <br>Otomatik Kurulum: [ModMii'ye](modmii) devam edin<br>Eğer bir SD card kullanabiliyorsanız: <br>Manuel Kurulum: [Wilbrand'e](wilbrand) devam edin<br>Eğer bir SD card kullanamıyorsanız:<br>Manuel Kurulum: [str2hax'e](str2hax) devam edin<br>                                                                                         |
+| Wii mini               | [Bluebomb'a](bluebomb) devam edin                                                                                                                                                                                                                                                                                                                                                                                              |
+| Wii U (vWii)           | Hali hazırda Wii U'nuzu modifiye etmişseniz: <br>[vWii'yi modifiye etmeye](vwii-homebrew-channel) devam edin<br> Eğer Wii U'nuzu daha modifiye etmemişseniz ama etmek istiyorsanız: <br>[Wii U'yu modifiye etmeye](https://wiiu.hacks.guide)  devam edin<br> Eğer Wii U'nuzu modifiye etmek istemiyorsanız:<br>[ Wii U'yu modifiye etmeden vWii'yi modifiye etmeye](wiiu-nand-dumper) devam edin |
+| Dolphin Emulator       | [Dolphin'de Homebrew Channel'a](homebrew-dolphin) devam edin                                                                                                                                                                                                                                                                                                                                                                   |
 
-### Alternate methods
+### Alternatif yöntemler
 
-If possible, you should follow the method given above.
+Eğer mümkünse yukarıdaki yöntemlerden birini tercih etmelisiniz.
 
-If the recommended option does not work for you, or if you are curious about other exploits, check out [Legacy Exploits](legacy-exploits).
+Eğer önerilen yöntem çalışmazsa, veya başka exploitleri merak ediyorsanız, [Eski Exploitler](legacy-exploits) bölümüne bakın.
