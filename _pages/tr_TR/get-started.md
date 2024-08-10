@@ -6,7 +6,7 @@ title: "Buradan Başlayın"
 
 Eğer Wii'niz zaten hacklenmişse ve hackleri güncellemek istiyorsanız, [bu](hackmii) rehberi takip edip güncelleyebilirsiniz.
 
-All of the exploits run the HackMii Installer, and have the same end result.
+Burada listelenen bütün exploitler aynı sonuca ulaşmak (HackMii Installer'a girmek) için farklı yöntemlerdir.
 
 Although you can follow this guide without an SD card, you will not be able to create or restore a NAND backup using BootMii, and you won't be able to use some homebrew.
 {: .notice--info}
