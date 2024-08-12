@@ -137,14 +137,11 @@ A Wiimmfi patchelés egy módszere, amely a WiiWare játékokon fut, de kézzel 
 * [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases/latest) (cross platform)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-[Ha szeretnéd megtudni, hogyan használd a WiiWare Patcher-t, kattints ide!](wiiwarepatcher)
-{: .notice--info}
-
 #### Útmutató
 
 1. Csomagold ki a WiiWare Patcher legújabb verziójának .zip csomagját, és tedd bele a WAD-edet.
 1. Futtasd le az operációs rendszeredhez tartozó patch scriptet: Windows esetén általában `.bat`, Mac/Linux esetén `.sh` végződésű. Ha a RiiConnect24 Patchert használod, válaszd ki a készülékedet (Wii, vWii vagy Dolphin), és válaszd a WiiWare patchert.
-1. Ha sikeresen befejeződött, telepítsd a `wiiware-wads`-ben a YAWM ModMii Editionnel készített WAD-ot.
+1. If it completed successfully, install the WAD that was made in `wiiware-wads` with [YAWM ModMii Edition](yawmme).
 
 ### Kézi lemezkép-foltozás PC-n keresztül
 
