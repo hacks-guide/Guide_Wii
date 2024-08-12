@@ -137,14 +137,11 @@ If you get error 20100 or 20110, that means the game is too new for this method.
 * [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases/latest) (cross platform)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-[If you want to see how to use the WiiWare Patcher, click here!](wiiwarepatcher)
-{: .notice--info}
-
 #### Instrucțiuni
 
 1. Extract the .zip of the latest version of WiiWare Patcher, and put your WAD in it.
 1. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. If you're using the RiiConnect24 Patcher, select your device (Wii, vWii, or Dolphin) and choose the WiiWare patcher.
-1. If it completed successfully, install the WAD that was made in `wiiware-wads` with YAWM ModMii Edition.
+1. If it completed successfully, install the WAD that was made in `wiiware-wads` with [YAWM ModMii Edition](yawmme).
 
 ### DS Games
 

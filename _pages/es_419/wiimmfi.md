@@ -137,14 +137,11 @@ A method for Wiimmfi patching which runs on WiiWare games, but must be manually 
 * [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases) (cross platform)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-[If you want to see how to use the WiiWare Patcher, click here!](wiiwarepatcher)
-{: .notice--info}
-
 #### Instructions (for Wii)
 
 1. Extract the .zip of the latest version of WiiWare Patcher, and put your WAD in it.
 1. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. If you're using the RiiConnect24 Patcher, select your device (Wii, vWii, or Dolphin) and choose the WiiWare patcher.
-1. If it completed successfully, install the WAD that was made in `wiiware-wads` with Wii Mod Lite.
+1. If it completed successfully, install the WAD that was made in `wiiware-wads` with [YAWM ModMii Edition](yawmme).
 
 ### Manual Disc Image Patching via PC
 

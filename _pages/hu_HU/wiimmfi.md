@@ -102,58 +102,55 @@ A Wiimmfi egy patchelési módszere, amely kiskereskedelmi játéklemezeken fut,
     ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
 1. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
-1. Go back twice to `Internet`, and press `User Agreements`. Then, confirm that you would like to use WC24 and the Wii Shop Channel.
-1. The Wiimmfi patcher page should now display. If it doesn't, and you still see the default license agreement, your router might not be compatible with this method.
-1. Wait a while for the patcher to load (usually about 1.5 minutes) and the inserted game should boot with a Wiimmfi patch.
+1. Menj vissza kétszer az `Internet`-hez, és nyomd meg a `User Agreements` gombot. Ezután erősítsd meg, hogy szeretnéd használni a WC24-et és a Wii Shop Channel csatornát.
+1. A Wiimmfi patcher oldalnak most meg kell jelennie. Ha nem, és továbbra is az alapértelmezett licencszerződés jelenik meg, akkor lehet, hogy a routered nem kompatibilis ezzel a módszerrel.
+1. Várj egy kicsit, amíg a patcher betöltődik (általában kb. 1,5 percig), és a behelyezett játéknak a Wiimmfi patch-el együtt kell elindulnia.
 
-### Manual Disc Patching via Internet Channel
+### Kézi lemezkép javítás az Internet Channel csatornán keresztül
 
-If you run into UPnP-related issues (such as the patcher getting stuch at "Init network..." or "add UPnP port forward" steps for more than 10 seconds), you can press the - button on your Wii Remote, or the Y button on your GameCube controller as soon as the patcher loads to circumvent this.
+Ha UPnP-vel kapcsolatos problémákba ütközöl (például a patcher 10 másodpercnél tovább megáll a ""Init network..." vagy az "add UPnP port forward" lépéseknél), akkor a Wii Remote - gombját vagy a GameCube kontroller Y gombját nyomd meg, amint a patcher betöltődik, hogy ezt megkerüld.
 {: .notice--warning}
 
-A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
+A Wiimmfi patchelés egy módszere, amely a kiskereskedelmi játéklemezeken fut, de manuálisan kell elindítani az internetes csatornán keresztül (a [Flashhax](flashhax)-ból származik). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken. [Ez a módszer](wiimmfi#manual-disc-patching-via-eula-user-agreement) általában megbízhatóbb, és ajánlott helyette.
 
 #### Követelmények
 
-+ A Wii with an internet connection, running in 60Hz mode
++ Egy Wii internet kapcsolattal 60Hz módban futva
 + Az Internet Channel
 
 #### Útmutató
 
-1. Open the following webpage in the Internet Channel: `http://chadsoft.co.uk/wiimmfi`
-1. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
-1. Exit back to the Wii Menu.
-1. Open the Internet Channel again and access the favorite you just made.
-1. The Wiimmfi patcher should begin. Be patient, as Flashhax can be very unreliable - it may take several tries to get right.
+1. Nyisd meg a következő weboldalt az Internet Channel-ben: `http://chadsoft.co.uk/wiimmfi`
+1. Add hozzá az oldalt a böngésző kedvenceihez a csillag ikonra, majd az `Add Favorite` gombra kattintva.
+1. Lépjen vissza a Wii menübe.
+1. Nyisd meg újra az Internet Channel-t, és lépj be az imént létrehozott kedvenchez.
+1. A Wiimmfi patchernek el kell indulnia. Légy türelmes, mivel a Flashhax nagyon megbízhatatlan tud lenni - több próbálkozásra is szükség lehet, hogy sikerüljön.
 
 ### Kézi WiiWare patchelés PC-vel
 
-A method for Wiimmfi patching which runs on WiiWare games, but must be manually run on a PC via a script.
+A Wiimmfi patchelés egy módszere, amely a WiiWare játékokon fut, de kézzel kell futtatni a PC-n egy szkript segítségével.
 
 #### Követelmények
 
 * Egy SD kártya
-* Your copy of your game (in WAD format)
+* A játékod másolata (WAD formátumban)
 * [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases/latest) (cross platform)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-[If you want to see how to use the WiiWare Patcher, click here!](wiiwarepatcher)
-{: .notice--info}
-
 #### Útmutató
 
-1. Extract the .zip of the latest version of WiiWare Patcher, and put your WAD in it.
-1. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. If you're using the RiiConnect24 Patcher, select your device (Wii, vWii, or Dolphin) and choose the WiiWare patcher.
-1. If it completed successfully, install the WAD that was made in `wiiware-wads` with YAWM ModMii Edition.
+1. Csomagold ki a WiiWare Patcher legújabb verziójának .zip csomagját, és tedd bele a WAD-edet.
+1. Futtasd le az operációs rendszeredhez tartozó patch scriptet: Windows esetén általában `.bat`, Mac/Linux esetén `.sh` végződésű. Ha a RiiConnect24 Patchert használod, válaszd ki a készülékedet (Wii, vWii vagy Dolphin), és válaszd a WiiWare patchert.
+1. If it completed successfully, install the WAD that was made in `wiiware-wads` with [YAWM ModMii Edition](yawmme).
 
-### Manual Disc Image Patching via PC
+### Kézi lemezkép-foltozás PC-n keresztül
 
-A method for Wiimmfi patching which runs on game disc images, but must be manually run on a PC via a script.
+A Wiimmfi patchelés egy módszere, amely játék-lemezképeken fut, de kézzel kell futtatni a PC-n egy szkript segítségével.
 
 #### Követelmények
 
 + Egy Windows/macOS/Linux számítógép internet kapcsolattal
-+ A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
++ A javítani kívánt játék egy példánya - támogatott formátumok: `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ` és `FST` - az `NKIT` NEM támogatott
 + [Wiimmfi ISO Patcher](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
 #### Útmutató

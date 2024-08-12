@@ -34,7 +34,7 @@ Aşağıda homebrew yazılımlarının Wii'niz için neler yapabileceğinin baz�
 
 ### Bu rehber ne kurar?
 
-Bu rehber şunları yapmayı hedef alır:
+Bu rehber şunları yapmayı hedefler:
 
 + Hedefleri HackMii Installer'ı yüklemek olan exploitlerden birisiyle Wii'nizi modifiye etmek
 + BootMii ve Homebrew Channel'ı kurmak

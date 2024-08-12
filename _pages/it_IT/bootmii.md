@@ -51,7 +51,7 @@ Se hai BootMii installato come boot2, dovrai riavviare la console per eseguierlo
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. Non appena la prima scan sarà terminata, BootMii verificherà il backup. Idealmente, tutti i blocchi dovrebbero essere verdi dopo il processo di verifica.
-    + Se hai blocchi neri con pagine non correggibili, questi blocchi potrebbero non venire verificati. As long as all non-bad blocks are successfully verified, this should be fine.
+    + Se hai blocchi neri con pagine non correggibili, questi blocchi potrebbero non venire verificati. Finché i blocchi buoni (verdi) sono stati verificati correttamente, dovrebbe andare tutto a posto.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -60,8 +60,8 @@ Se hai BootMii installato come boot2, dovrai riavviare la console per eseguierlo
     ![](/images/bootmii/BootMii_Return.png)
 
 <div id="restore-notice" class="notice" markdown="1">
-Nota: **ripristinare un backup della NAND è di solito l'ultima spiaggia**. Ci sono spesso metodi migliori per unbrickare la tua console.
-Fai del tuo meglio per [identificare la tua condizione di brick](bricks) e annullare l'azione che lo ha causato in primo luogo.
+Nota: **ripristinare un backup della NAND è di solito l'ultima risorsa**. Ci sono spesso metodi migliori per unbrickare la tua console.
+Fai del tuo meglio per [identificare la tua condizione di brick](bricks) e annullare l'azione che lo ha causato.
 Per ripristinare un backup della NAND dalla tua scheda SD, puoi seguire le istruzioni per [RestoreMii](bootmiirecover). **Wii Family Edition (Wii senza porte GameCube) NON POSSONO ripristinare backup della NAND senza modifiche hardware.**
 </div>
 
@@ -70,7 +70,7 @@ Due file saranno stati creati sul root della tua scheda SD: `nand.bin` e `keys.b
 
 ### Autobooting
 
-If you were able to install BootMii as boot2, but don't want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. Questo dovrebbe fare in modo che non ti accorgi nemmeno di avere BootMii installato come boot2.
+Se sei riuscito a installare BootMii come boot2, ma non vuoi che appaia la schermata di BootMii ogni volta che accendi la Wii, puoi impostarlo ad avviarsi automaticamente al Menu di sistema. Questo dovrebbe fare in modo che non ti accorgi nemmeno di avere BootMii installato come boot2.
 
 1. Apri `SD:/bootmii/bootmii.ini` con un editor di testi, come il blocco note.
 1. Cambia `#AUTOBOOT=SYSMENU` a `AUTOBOOT=SYSMENU` cancellando il `#`.
@@ -84,11 +84,11 @@ Puoi anche usare l'app [BootMii Config Editor](https://oscwii.org/library/app/Bo
 
 Il tuo backup della NAND può essere usato sull'emulatore Dolphin.
 
-1. Get the latest beta or development release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
+1. Ottieni la versione beta o di sviluppo di Dolphin Emulator più recente dal [sito web di Dolphin](https://dolphin-emu.org/) e installala sul tuo dispositivo.
 1. Avvia l'Emulatore Dolphin.
-1. Click on the `Tools` tab, scroll down to `Manage NAND`, then select `Import BootMii NAND backup...`.
-1. Locate the `nand.bin` found on the root of your SD card and select Open.
-1. If it asks for a `keys.bin`, locate it on the root of your SD and select Open.
+1. Clicca sulla scheda `Tools`, scorri in basso per trovare e cliccare `Manage NAND`, e poi seleziona `Import BootMii NAND backup...`.
+1. Trova il file `nand.bin` che si trova nella radice della tua scheda SD e seleziona Open.
+1. Se chiede un file `keys.bin`, trovalo nella radice della tua scheda SD e seleziona Open.
 
 [Continua all'Installazione di Priiloader](priiloader)<br> Priiloader aggiunge un secondo strato di protezione dai brick, ed è fortemente consigliato anche se BootMii è stato installato su boot2. È specialmente importante per gli utenti di BootMii su IOS.
 {: .notice--info}
