@@ -4,6 +4,86 @@ title: "使用 BlueBomb 漏洞"
 
 {% include toc title="條目內容" %}
 
+## BlueBomb Micro
+
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+BlueBomb Micro is a port of Fullmetal5's BlueBomb exploit for the Rasperry Pi Pico W or ESP32, thus bypassing the need for a Linux system. It takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. This port was made possible by [GaryOderNichts](https://github.com/GaryOderNichts)
+
+This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+由於 Wii Mini **變磚的風險較高**，**強烈建議**您**不要使用任何影片教學**進行與其主機相關的改機工作。
+{: .notice--warning}
+
+若您需要任何幫助，建議您移至 [Wii mini 改機 Discord 伺服器](https://discord.gg/6ryxnkS)
+{: .notice--info}
+
+If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery. Exceptions however, exist in circumstances like brick recovery.
+{: .notice--info}
+
+Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+{: .notice--info}
+
+### Requirements
+* A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
+* 一個格式化為 FAT32 的隨身碟。
+* [The HackMii Installer](https://bootmii.org/download/)
+
+A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
+{: .notice--info}
+
+### Instructions
+
+1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
+    + （如果您正試圖修復變磚，您還應該將您希望使用的自製軟體複製到 /apps/ 中）
+    + - (即使您的主機為 Wii Mini，您還是**不能**使用 bootmini.elf；它的用途與此完全無關。 請一律使用 boot.elf）。
+1. Reinsert your flash drive into your console.
+    + Wii mini 的 USB 端口在主機背面。
+    + 一般的 Wii 請使用下方的 USB 端口。 (豎置時使用右邊的接口)。
+1. Power on your console.
+1. Go to `Wii Settings`.
+1. Take note in the top right corner of the letter next to the system version.
+    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+
+    ![](/images/wii/SystemMenuVersion.png)
+
+1. Power off your console.
+
+#### Rasperry Pi Pico W
+
+1. Download [The latest Pre-Compiled Binaries](https://github.com/GaryOderNichts/bluebomb_micro/releases) from the releases page, and extract it to your PC.
+1. Plug in your Pico W to your PC while holding down the `BOOTSEL` button. Your Pico should now show up as a drive on your PC.
+1. Unzip the downloaded file and copy the file which matches your Wii or Wii mini to the drive. For example, if you have a European Wii running version 4.3, you would copy bluebomb_WII_SM4_3E.uf2, or if you have a European Wii Mini, you would copy bluebomb_MINI_SM_PAL.uf2, etc...
+1. The drive should disconnect and your Pico is ready. You may unplug the device from your PC.
+
+#### ESP32
+
+1. Set up the latest [ESP IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html).
+1. Build the binary [from source](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#building-from-source).
+1. [Flash the binary](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#flashing) to your ESP32.
+1. Your device is now ready. You may unplug the device from your PC.
+
+### Performing the Exploit
+
+1. Plug your flashed device back into your PC.
+1. Power on your console.
+    + 打開您的主機，但請**不要**連接任何 Wii 控制器。
+1. Press the Sync button repeatedly until the bluebomb screen shows up.
+    + This could take numerous attempts.
+1. 您的主機現在應該啟動到 HackMii 安裝程序中。
+
+如果您的主機為一般的 Wii，請繼續安裝 Homebrew Channel 和 BootMii<br>
+{: .notice--info}
+
+如果您的主機為 Wii mini，請繼續安裝 Homebrew Channel
+{: .notice--info}
+
+## BlueBomb Classic
+
 {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
 BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. 雖然 Wii Mini 只能夠使用 BlueBomb 漏洞，本漏洞也能夠適用於一般 Wii 型號。 雖然 Wii Mini 只能夠使用 BlueBomb 漏洞，本漏洞也能夠適用於一般 Wii 型號。
@@ -26,7 +106,7 @@ If you are using the original revision of the Wii, you should probably find [ano
 Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
 {: .notice--info}
 
-### Requirements
+### 操作說明
 
 * 一台搭載 Linux 的電腦
     * 您也可以試試看使用虛擬機，但由於藍芽直通相關問題可能較於複雜，較不推薦。 如果可以，請使用下述的 LiveUSB 方式。
@@ -52,7 +132,7 @@ Make sure that the console is close to the computer running the exploit, ideally
     + Wii mini 的 USB 端口在主機背面。
     + 一般的 Wii 請使用下方的 USB 端口。 (豎置時使用右邊的接口)。
 1. Power on your console.
-1. Go to `Wii Settings`.
+1. On your Wii, go to `Wii Settings`, and make note of the version at the top right. Proceed to `Internet` -> `Console Information` and also make note of your MAC address.
 1. Take note in the top right corner of the letter next to the system version.
     + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
