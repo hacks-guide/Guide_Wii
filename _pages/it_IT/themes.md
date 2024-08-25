@@ -37,19 +37,85 @@ Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come
 * [csm-installer](https://oscwii.org/library/app/csm-installer)
 * [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
-#### Creazione di un tema
+#### Downloading the Base Theme
+
+<button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "csm-installer")' >Via csm-installer</button>
+<button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "nus-downloader-wii")' >(Wii) Via NUS Downloader</button>
+<button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "nus-downloader-vwii")' >(vWii) Via NUS Downloader</button>
+<button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "thememii")' >(Wii) Via ThemeMii</button>
+
+<div id="csm-installer" class="tabContent tabDefault" markdown="1">
 
 1. Estrai il file csm-installer `.zip` nella radice della tua scheda SD o del tuo dispositivo USB.
-1. Crea una cartella chiamata `themes` nella radice della tua scheda SD o dispositivo USB.
 1. Inserisci la tua scheda SD o il tuo dispositivo USB nella console, e avvia il Canale Homebrew.
-1. Avvia csm-installer, e tieni premuto `+` mentre l'app sta caricando. Se eseguito correttamente, l'app comincerà a scaricare il tema base per il menu Wii.
+1. Launch csm-installer, then select `Download original Wii theme (Base theme)`
 1. Quando il tema base finisce di scaricarsi, premi HOME per uscire dall'applicazione.
-1. Inserisci di nuovo la scheda SD/dispositivo USB nel tuo PC.
+1. Inserisci di nuovo la scheda SD/dispositivo USB nel tuo PC. The base app will be saved to a folder named `themes`.
+</div>
+
+<div id="nus-downloader-wii" class="tabContent" markdown="1">
+
+1. Sul tuo computer, scarica [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
+1. Copia tutti i file dal `.zip` di NUS Downloader a una cartella sul tuo computer.
+1. Esegui `NUS Downloader.exe`.
+1. Navigate to `Database` -> `System` -> `System Menu`.
+1. Select the version that corresponds to your Wii menu version.
+1. Check the `Create decrypted contents (*.app)` box.
+1. Clicca `Start NUS Download!`.
+1. Once the download is finished, there will be a folder named `titles` in the same folder as the NUS Downloader.
+1. Open the `titles` folder, then the `0000000100000002` folder inside it.
+1. Find the **largest .app file** (usually 6~7MB) inside the folder.
+1. Crea una cartella chiamata `themes` nella radice della tua scheda SD o dispositivo USB.
+1. Copy the .app file to the newly created `themes` folder. This is the base theme you will use to build your custom theme.
+</div>
+
+<div id="nus-downloader-vwii" class="tabContent" markdown="1">
+
+1. On your computer, download [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
+1. Copy all files from the vWii NUS Downloader `.zip` to a folder on your computer.
+1. Esegui `NUS Downloader.exe`.
+1. Navigate to `Database` -> `System` -> `System Menu`.
+1. Select the version that corresponds to your Wii U's region in the table below:
+
+| Regione  | vWii Menu version |
+| -------- | ----------------- |
+| Giappone | v608              |
+| USA      | v609              |
+| Europa   | v610              |
+
+1. Check the `Create decrypted contents (*.app)` box.
+1. Clicca `Start NUS Download!`.
+1. Once the download is finished, there will be a folder named `titles` in the same folder as the NUS Downloader.
+1. Open the `titles` folder, then the `0000000100000002` folder inside it.
+1. Find the .app file that corresponds to your Wii U's region in the table below:
+
+| Regione  | .app file    |
+| -------- | ------------ |
+| Giappone | 0000001c.app |
+| USA      | 0000001f.app |
+| Europa   | 00000022.app |
+
+1. Crea una cartella chiamata `themes` nella radice della tua scheda SD o dispositivo USB.
+1. Copy the .app file to the newly created `themes` folder. This is the base theme you will use to build your custom theme.
+</div>
+
+<div id="thememii" class="tabContent" markdown="1">
+
+1. Crea una cartella chiamata `themes` nella radice della tua scheda SD o dispositivo USB.
+1. Estrai il file ThemeMii MOD `.zip` in qualunque luogo sul tuo PC.
+1. Avvia l'app di ThemeMii.
+1. Go to `Tools` -> `Download Base App` -> `Version of your Wii Menu` -> `Region of your Wii Menu`.
+1. Una finestra di dialogo si aprirà chiedendoti di inserire un valore per creare una chiave. Inserisci quello che ti dice e creerà una chiave che sarà utilizzare per decifrare i contenuti del Menu Wii dai server di Nintendo.
+1. A file selection box will ask you where to save the .app file. Save it to the `themes` folder on your SD card/USB device.
+</div>
+
+#### Creazione di un tema
+
 1. Estrai il file ThemeMii MOD `.zip` in qualunque luogo sul tuo PC.
 1. Avvia l'app di ThemeMii.
 1. Clicca su `File` -> `Open`, e seleziona il file `.mym` del tema che vuoi applicare.
 1. Clicca `Create csm`.
-1. Quando viene chiesto di selezionare un file `.app`, selezionare il tema base già scaricato nella radice della tua scheda SD o dispositivo USB.
+1. When asked to select an `.app` file, select the newly downloaded base theme in the `themes` of your SD card or USB device.
 1. Quando viene chiesto di salvare il file `.csm`, salvalo nella cartella `themes`.
 1. Dopo che il tema finisce di crearsi, sarà chiesto di salvare il file .mym. Premi `No`.
 
@@ -139,3 +205,20 @@ I forwader delle app danno un po' di tocchi in più al tuo Menu Wii - ma fai att
 
 [Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
 {: .notice--info}
+
+<script>
+    const tabContents = document.getElementsByClassName('tabContent');
+    const tabLinks    = document.getElementsByClassName('tabLink');
+
+    for (tab of tabContents) { tab.style.display = 'none'; }
+    document.getElementsByClassName('tabDefault')[0].style.display = 'block';
+
+    function select_tab(event, tab_id)
+    {
+        for (tab of tabContents) { tab.style.display = 'none'; }
+        for (btn of tabLinks) { btn.className = btn.className.replace('btn--primary', 'btn--info'); }
+
+        document.getElementById(tab_id).style.display = 'block';
+        event.currentTarget.className = event.currentTarget.className.replace('btn--info', 'btn--primary');
+    }
+</script>
