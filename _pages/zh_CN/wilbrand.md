@@ -148,7 +148,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
     const tabLinks    = document.getElementsByClassName('tabLink');
 
     for (tab of tabContents) { tab.style.display = 'none'; }
-    document.getElementsByClassName('tabDefualt')[0].style.display = 'block';
+    document.getElementsByClassName('tabDefault')[0].style.display = 'block';
 
     function select_tab(event, tab_id)
     {
