@@ -28,7 +28,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 + [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (.mym fájlok terjesztése)
 + [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym fájlok terjesztése)
 + [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym fájlok terjesztése)
-+ [Wii Themer](http://www.wiithemer.org/) (Ez az oldal csak a Wii és a vWii számára tud egy telepítésre kész .csm fájlt készíteni, de a Wii mini számára a .mym fájlokat a téma adatbázisukból ([Theme Database](http://wiithemer.org/mym/)) töltheted le.)
++ [Wii Themer](http://www.wiithemer.org/) (This site can build a .csm ready to install for Wii and vWii only, but for Wii mini you may download the .mym files from their [Theme Database](http://wiithemer.org/mym/))
 
 #### Követelmények
 
