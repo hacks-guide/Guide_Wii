@@ -28,7 +28,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 + A Wii
 + An SD card or USB drive
 + A computer with Windows on it (or using Mono or Wine on Mac/Linux)
-+ [Wii Themer](http://www.wiithemer.org/) (This site can build a .csm ready to install for Wii and vWii only, but for Wii mini you may dowmnload the .mym files from their [Theme Database](http://wiithemer.org/mym/))
++ [Wii Themer](http://www.wiithemer.org/) (This site can build a .csm ready to install for Wii and vWii only, but for Wii mini you may download the .mym files from their [Theme Database](http://wiithemer.org/mym/))
 
 #### Theme Links
 
