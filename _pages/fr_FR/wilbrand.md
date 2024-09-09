@@ -148,7 +148,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     const tabLinks    = document.getElementsByClassName('tabLink');
 
     for (tab of tabContents) { tab.style.display = 'none'; }
-    document.getElementsByClassName('tabDefualt')[0].style.display = 'block';
+    document.getElementsByClassName('tabDefault')[0].style.display = 'block';
 
     function select_tab(event, tab_id)
     {

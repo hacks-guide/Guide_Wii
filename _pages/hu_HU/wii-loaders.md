@@ -33,7 +33,7 @@ A WiiFlow Lite hivatalos Wii Menu forwarder telepítője megtalálható az [Open
 
 ### Játék könyvtár struktúra
 
-Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható. A WBFS-t fel kell osztani, ha a tárolóeszköz FAT32 formátumú és 4 GB-nál nagyobb. Az olyan szoftverek, mint a [Wii Backup Manager](wii-backups#using-wii-backup-manager) vagy a [Wii Backup Fusion](wii-backups#using-wii-backup-fusion), képesek ezt elvégezni neked, és automatikusan helyesen állítják be a játék könyvtárszerkezetét.
+Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható. A WBFS needs to be split if it is over 4 GB and your storage device is formatted as FAT32. Az olyan szoftverek, mint a [Wii Backup Manager](wii-backups#using-wii-backup-manager) vagy a [Wii Backup Fusion](wii-backups#using-wii-backup-fusion), képesek ezt elvégezni neked, és automatikusan helyesen állítják be a játék könyvtárszerkezetét.
 
 ```
 💾SD kártya vagy USB:

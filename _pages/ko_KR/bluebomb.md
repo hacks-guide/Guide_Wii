@@ -4,6 +4,86 @@ title: "BlueBomb"
 
 {% include toc title="목차" %}
 
+## BlueBomb Micro
+
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+BlueBomb Micro is a port of Fullmetal5's BlueBomb exploit for the Rasperry Pi Pico W or ESP32, thus bypassing the need for a Linux system. It takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. This port was made possible by [GaryOderNichts](https://github.com/GaryOderNichts)
+
+This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+Wii 미니 콘솔을 해킹하기 위해 **아무** 비디오 가이드를 사용하는 것은 **벽돌**이 될 가능성이 매우 커서 사용하지 않는 것을 **강력히** 권장합니다.
+{: .notice--warning}
+
+튜토리얼에 관한 질문이 있다면, [Wii Mini 해킹 디스코드 서버](https://discord.gg/6ryxnkS) 에 가입해 주세요.(권장)
+{: .notice--info}
+
+If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+{: .notice--info}
+
+콘솔이 취약점 공격을 실행하는 컴퓨터와 가까운지 확인하고, 이상적으로는 약 1미터 이내여야 합니다.
+{: .notice--info}
+
+### 준비물
+* A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
+* FAT32로 포맷된 USB 플래시 드라이브
+* [The HackMii Installer](https://bootmii.org/download/)
+
+A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
+{: .notice--info}
+
+### 진행 방법
+
+1. 압축을 해제하고 플래시 드라이브에 `boot.elf`를 넣으세요.
+    + (벽돌을 고치려 한다면, /apps/에서 사용할 홈브루 앱도 복사해야 합니다)
+    + - (Wii 미니의 경우에도 bootmini.elf는 작동하지 **않으며**, 그 목적은 완전히 다르고 관련이 없습니다. 모든 경우에 boot.elf 사용).
+1. Reinsert your flash drive into your console.
+    + Wii 미니의 경우 USB 포트는 뒷면에 있습니다.
+    + 일반 Wii의 경우 하단 포트를 사용합니다. (또는 똑바로 세워진 경우 오른쪽 포트).
+1. 콘솔의 전원을 켜 주세요.
+1. Go to `Wii Settings`.
+1. Take note in the top right corner of the letter next to the system version.
+    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+
+    ![](/images/wii/SystemMenuVersion.png)
+
+1. 콘솔의 전원을 꺼 주세요.
+
+#### Rasperry Pi Pico W
+
+1. Download [The latest Pre-Compiled Binaries](https://github.com/GaryOderNichts/bluebomb_micro/releases) from the releases page, and extract it to your PC.
+1. Plug in your Pico W to your PC while holding down the `BOOTSEL` button. Your Pico should now show up as a drive on your PC.
+1. Unzip the downloaded file and copy the file which matches your Wii or Wii mini to the drive. For example, if you have a European Wii running version 4.3, you would copy bluebomb_WII_SM4_3E.uf2, or if you have a European Wii Mini, you would copy bluebomb_MINI_SM_PAL.uf2, etc...
+1. The drive should disconnect and your Pico is ready. You may unplug the device from your PC.
+
+#### ESP32
+
+1. Set up the latest [ESP IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html).
+1. Build the binary [from source](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#building-from-source).
+1. [Flash the binary](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#flashing) to your ESP32.
+1. Your device is now ready. You may unplug the device from your PC.
+
+### Performing the Exploit
+
+1. Plug your flashed device back into your PC.
+1. 콘솔의 전원을 켜 주세요.
+    + 콘솔을 켜고 어떤 리모컨도 연결하지 **마세요**.
+1. Press the Sync button repeatedly until the bluebomb screen shows up.
+    + This could take numerous attempts.
+1. If the exploit was successful, your device will have loaded the HackMii Installer.
+
+Wii를 사용하는 경우, 홈브류 채널 및 BootMii 설치를 진행합니다.<br>
+{: .notice--info}
+
+Wii 미니를 사용하는 경우, 홈브류 채널 설치를 진행합니다.
+{: .notice--info}
+
+## BlueBomb Classic
+
 이 취약점 공격은 Wii 미니에서 작동하는 유일한 취약점 공격이지만, BlueBomb은 오리지널 Wii에서도 실행할 수 있습니다. {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
 BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries.
@@ -52,7 +132,7 @@ If you are using the original revision of the Wii, you should probably find [ano
     + Wii 미니의 경우 USB 포트는 뒷면에 있습니다.
     + 일반 Wii의 경우 하단 포트를 사용합니다. (또는 똑바로 세워진 경우 오른쪽 포트).
 1. 콘솔의 전원을 켜 주세요.
-1. Go to `Wii Settings`.
+1. Wii에서 `Wii 설정`으로 이동하여 오른쪽 상단에 있는 버전을 기록합니다.
 1. Take note in the top right corner of the letter next to the system version.
     + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
@@ -76,7 +156,7 @@ If you are using the original revision of the Wii, you should probably find [ano
     + 콘솔을 켜고 어떤 리모컨도 연결하지 **마세요**.
 1. 터미널에서 `got connection handle`이 나타날 때 까지 SYNC 버튼을 계속 누르세요.
     + This could take numerous attempts.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 그런 다음 HackMii 설치 프로그램을 다운로드하고 로드합니다.
     + 이제 나중에 사용할 계획이 없는 경우 리눅스 컴퓨터를 종료할 수 있습니다.
 
 Wii를 사용하는 경우, 홈브류 채널 및 BootMii 설치를 진행합니다.<br>

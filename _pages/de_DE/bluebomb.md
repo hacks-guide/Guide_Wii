@@ -4,6 +4,86 @@ title: "BlueBomb"
 
 {% include toc title="Inhaltsverzeichnis" %}
 
+## BlueBomb Micro
+
+{% capture technical_info %}
+<summary><em>Technical Details (optional)</em></summary>
+BlueBomb Micro is a port of Fullmetal5's BlueBomb exploit for the Rasperry Pi Pico W or ESP32, thus bypassing the need for a Linux system. It takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. This port was made possible by [GaryOderNichts](https://github.com/GaryOderNichts)
+
+This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+Es wird **dringend** empfohlen, **keine** Video-Anleitung zum Hacken deiner Wii mini-Konsole zu verwenden, da hierbei ein extrem großes Risiko besteht deine Konsole zu **Bricken**.
+{: .notice--warning}
+
+Solltest du hinsichtlich dieses Tutorials Hilfe benötigen, trete bitte dem [Wii mini Hacking-Discordserver](https://discord.gg/6ryxnkS) bei (empfohlen)
+{: .notice--info}
+
+If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+{: .notice--info}
+
+Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+{: .notice--info}
+
+### Anforderungen
+* A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
+* Ein USB-Stick, der mit FAT32 formatiert ist.
+* [The HackMii Installer](https://bootmii.org/download/)
+
+A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
+{: .notice--info}
+
+### Anleitung
+
+1. Extract it and place the `boot.elf` file in your flash drive.
+    + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+    + - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
+1. Reinsert your flash drive into your console.
+    + For a Wii mini, the USB port is on the back.
+    + For a normal Wii, use the bottom port. (or the right port if it's upright).
+1. Power on your console.
+1. Go to `Wii Settings`.
+1. Take note in the top right corner of the letter next to the system version.
+    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+
+    ![](/images/wii/SystemMenuVersion.png)
+
+1. Power off your console.
+
+#### Rasperry Pi Pico W
+
+1. Download [The latest Pre-Compiled Binaries](https://github.com/GaryOderNichts/bluebomb_micro/releases) from the releases page, and extract it to your PC.
+1. Plug in your Pico W to your PC while holding down the `BOOTSEL` button. Your Pico should now show up as a drive on your PC.
+1. Unzip the downloaded file and copy the file which matches your Wii or Wii mini to the drive. For example, if you have a European Wii running version 4.3, you would copy bluebomb_WII_SM4_3E.uf2, or if you have a European Wii Mini, you would copy bluebomb_MINI_SM_PAL.uf2, etc...
+1. The drive should disconnect and your Pico is ready. You may unplug the device from your PC.
+
+#### ESP32
+
+1. Set up the latest [ESP IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html).
+1. Build the binary [from source](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#building-from-source).
+1. [Flash the binary](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#flashing) to your ESP32.
+1. Your device is now ready. You may unplug the device from your PC.
+
+### Performing the Exploit
+
+1. Plug your flashed device back into your PC.
+1. Power on your console.
+    + Schalte deine Konsole ein und verbinde **keine** Wii-Fernbedienungen mit ihr.
+1. Press the Sync button repeatedly until the bluebomb screen shows up.
+    + This could take numerous attempts.
+1. Die Konsole sollte nun den HackMii Installer starten.
+
+Falls du eine Wii verwendest, fahre damit fort den Homebrew-Kanal und BootMii zu installieren<br>
+{: .notice--info}
+
+Falls du eine Wii mini verwendest, fahre damit fort den Homebrew-Kanal zu installieren
+{: .notice--info}
+
+## BlueBomb Classic
+
 Obwohl er als einziger Exploit auf der Wii mini funktioniert, kann BlueBomb auch auf der originalen Wii ausgeführt werden. {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
 BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries.
@@ -51,14 +131,14 @@ Make sure that the console is close to the computer running the exploit, ideally
 1. Reinsert your flash drive into your console.
     + For a Wii mini, the USB port is on the back.
     + For a normal Wii, use the bottom port. (or the right port if it's upright).
-1. Power on your console.
-1. Go to `Wii Settings`.
+1. Schalte deine Konsole ein.
+1. On your Wii, go to `Wii Settings`, and make note of the version at the top right.
 1. Take note in the top right corner of the letter next to the system version.
     + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Power off your console.
+1. Power off your Wii.
 1. Start your Linux distro, and ensure you are connected to the internet.
 1. Open the Terminal
 1. Run the following commands:
@@ -72,7 +152,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 1. The helper will then download the required files, and ask for information about your console.
     + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
     + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
-1. Power on your console.
+1. Schalte deine Konsole ein.
     + Schalte deine Konsole ein und verbinde **keine** Wii-Fernbedienungen mit ihr.
 1. Drücke wiederholt den SYNCHRO-Knopf (SYNC.), bis das Terminal `got connection handle` anzeigt.
     + This could take numerous attempts.
