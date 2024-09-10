@@ -38,8 +38,8 @@ Eğer bir vWii kullanıyorsanız vWii'de kullanılabilir WAD oluşturmak için [
 
 3. Oluşturulmuş WAD dosyasını [WAD yöneticiniz ile kurun](yawmme).
 
-<div class="notice--info">
-Eğer "The system files are corrupted" (Sistem dosyaları bozulmuş) diyen bir hata alırsanız, Priiloader kurulu olduğu sürece paniklemeyin. Wii'nizi kapatın, sonra da konsolunuz için uygun olan yöntemlerden birisini kullanarak [Priiloader'ı açın.](priiloader#section-iii---entering-priiloader) Homebrew Channel'a girin ve WAD'ı kaldırmak için WAD yöneticinizi açın. Eğer Priiloader kurulu değilse, [BlueBomb](bluebomb)
+<div class="notice--info" markdown="1">
+Eğer "The system files are corrupted" (Sistem dosyaları bozulmuş) diyen bir hata alırsanız, Priiloader kurulu olduğu sürece paniklemeyin. Turn off your Wii, then [boot into Priiloader](priiloader#section-iii---entering-priiloader) using one of the available methods for your console. Homebrew Channel'a girin ve WAD'ı kaldırmak için WAD yöneticinizi açın. If priiloader was not installed, proceed to [BlueBomb](bluebomb).
 </div>
 
 [Site dizinine geri dönmek için burayı tıklayın.](site-navigation)
