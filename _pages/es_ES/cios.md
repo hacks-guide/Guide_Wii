@@ -88,7 +88,7 @@ Select cIOS version: 65535
 
     ![](/images/cios/d2x_log.png)
 
-    If the slot is highlighted red, try install the cIOS again. <br> If you are getting an error before/during the downloading stages, press B to exit and continue from [Section I](#section-i---downloading).
+    If the slot is highlighted red, try install the cIOS again. <br> If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
     {: .notice--info}
 
 1. Dirígete a `Settings`. This will return you to the configuration screen.
