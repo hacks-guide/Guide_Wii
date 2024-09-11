@@ -88,7 +88,7 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 
     ![](/images/cios/d2x_log.png)
 
-    If the slot is highlighted red, try install the cIOS again. <br> If you are getting an error before/during the downloading stages, press B to exit and continue from [Section I](#section-i---downloading).
+    If the slot is highlighted red, try install the cIOS again. <br> If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
     {: .notice--info}
 
 1. Press `A`. This will return you to the configuration screen.
