@@ -87,7 +87,7 @@ Az SD kártyád gyökere így fog kinézni:![](/images/cios/d2x_offline_ios.png)
 
     ![](/images/cios/d2x_log.png)
 
-    Ha pirossal van kiemelve, próbáld újra a telepítést! <br> Ha a letöltési szakasz előtt vagy közben a program hibát jelez, nyomd meg a B-gombot és kezdd újra a folyamatot az [I. résztől](#section-i---downloading)!
+    Ha pirossal van kiemelve, próbáld újra a telepítést! <br> If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
     {: .notice--info}
 
 1. Nyomd meg az `A`-gombot! Ezzel visszajutsz a konfigurációs képernyőre.
