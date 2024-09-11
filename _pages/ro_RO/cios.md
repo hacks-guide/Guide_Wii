@@ -88,7 +88,7 @@ Fișierele WAD ar trebui să fie în cardul tău SD în felul următor: ![](/ima
 
     ![](/images/cios/d2x_log.png)
 
-    Dacă slotul este evidențiat roșu, încearcă să mai instalezi cIOS-ul din nou. <br> Dacă primești o eroare înainte/după etapa de descărcare, apasă B pentru a ieși și întoarce-te la [Secțiunea I](#section-i---downloading).
+    Dacă slotul este evidențiat roșu, încearcă să mai instalezi cIOS-ul din nou. <br> If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
     {: .notice--info}
 
 1. Apasă `A`. Asta te va întoarce la ecranul de configurare.
