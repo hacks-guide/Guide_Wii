@@ -39,7 +39,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 #### Downloading the Base Theme
 
-<button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "csm-installer")' >Via csm-installer</button>
+<button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "csm-installer")' >(All) Via csm-installer</button>
 <button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "nus-downloader-wii")' >(Wii) Via NUS Downloader</button>
 <button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "nus-downloader-vwii")' >(vWii) Via NUS Downloader</button>
 <button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "thememii")' >(Wii) Via ThemeMii</button>
@@ -86,7 +86,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 1. Check the `Create decrypted contents (*.app)` box.
 1. 点击 `Start NUS Download!`。
 1. Once the download is finished, there will be a folder named `titles` in the same folder as the NUS Downloader.
-1. Open the `titles` folder, then the `0000000100000002` folder inside it.
+1. Open the `titles` folder, then the `0000000700000002` folder inside it.
 1. Find the .app file that corresponds to your Wii U's region in the table below:
 
 | 区域 | .app file    |
