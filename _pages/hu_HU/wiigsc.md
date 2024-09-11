@@ -38,8 +38,8 @@ Ha vWii-n vagy, használd a [Wiiforwarder2vWii](https://gbatemp.net/download/wii
 
 3. Telepítsd a generált WAD-et a [WAD manager](yawmme)-eddel.
 
-<div class="notice--info">
-Ha hibaüzenetet kapsz "The system files are corrupted", ne ess pánikba, ha telepítetted a Priiloader-t. Kapcsold ki a Wii-t, majd [bootolj a Priiloader-be](priiloader#section-iii---entering-priiloader) a konzolodhoz rendelkezésre álló módszerek egyikével. Lépj be a Homebrew Channel csatornába, és indítsd el a WAD managert a WAD eltávolításához. Ha a priiloader nem volt telepítve, folytasd a [BlueBomb](bluebomb) lépéssel.
+<div class="notice--info" markdown="1">
+Ha hibaüzenetet kapsz "The system files are corrupted", ne ess pánikba, ha telepítetted a Priiloader-t. Turn off your Wii, then [boot into Priiloader](priiloader#section-iii---entering-priiloader) using one of the available methods for your console. Lépj be a Homebrew Channel csatornába, és indítsd el a WAD managert a WAD eltávolításához. If priiloader was not installed, proceed to [BlueBomb](bluebomb).
 </div>
 
 [Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
