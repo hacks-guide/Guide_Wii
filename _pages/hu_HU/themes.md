@@ -39,7 +39,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 #### Downloading the Base Theme
 
-<button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "csm-installer")' >Via csm-installer</button>
+<button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "csm-installer")' >(All) Via csm-installer</button>
 <button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "nus-downloader-wii")' >(Wii) Via NUS Downloader</button>
 <button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "nus-downloader-vwii")' >(vWii) Via NUS Downloader</button>
 <button class="btn btn--large btn--info tabLink" onclick='select_tab(event, "thememii")' >(Wii) Via ThemeMii</button>
@@ -86,7 +86,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 1. Check the `Create decrypted contents (*.app)` box.
 1. Kattints a „`Start NUS Download!`” („NUS-letöltés indítása”)-gombra!
 1. Once the download is finished, there will be a folder named `titles` in the same folder as the NUS Downloader.
-1. Open the `titles` folder, then the `0000000100000002` folder inside it.
+1. Open the `titles` folder, then the `0000000700000002` folder inside it.
 1. Find the .app file that corresponds to your Wii U's region in the table below:
 
 | Regió  | .app file    |
