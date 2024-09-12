@@ -56,7 +56,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + 녹색 편지 봉투가 보이지 않으면 `데이터 관리`에서 SD 카드 섹션에 오류가 표시되는지 확인하세요. 이 경우 SD 카드 형식 또는 Wii의 SD 카드 리더기에 문제가 있는 것일 수 있습니다.
 
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 그런 다음 HackMii 설치 프로그램을 다운로드하고 로드합니다.
     + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
@@ -123,7 +123,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 그런 다음 HackMii 설치 프로그램을 다운로드하고 로드합니다.
     + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
