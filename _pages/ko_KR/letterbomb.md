@@ -51,7 +51,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
     + If you don't see the red letter, check if any errors appear in the SD card sections in `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
     + If your Wii freezes after clicking on the letter, you probably chose the wrong region when downloading the exploit. Redo Step 2 and select the correct region.
     + If all is correct and there is freezing, keep on trying until it works.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 그런 다음 HackMii 설치 프로그램을 다운로드하고 로드합니다.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
