@@ -56,7 +56,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
     + 如果您没有看到绿色信，请检查 `数据管理` 中的 SD 卡部分是否有任何错误。 如果有任何问题，可能是由于 SD 卡格式或 Wii 的 SD 卡槽出现问题。
 
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 它会下载并且加载HackMii Installer。
     + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
@@ -123,7 +123,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 它会下载并且加载HackMii Installer。
     + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
