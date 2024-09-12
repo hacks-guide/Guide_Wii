@@ -80,7 +80,7 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
     + 일반 사용자 동의를 받으면 ISP가 커스텀 DNS 사용을 차단합니다. Try another connection, or [use another exploit](get-started).
 
 1. 취약점 공격이 다운로드될 때까지 1~2분 정도 기다립니다 (`동의함`/`동의하지 않음`을 누르지 마세요).
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 그런 다음 HackMii 설치 프로그램을 다운로드하고 로드합니다.
 
     ![](/images/hackmii/scam.png)
 
