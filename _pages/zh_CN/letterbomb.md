@@ -51,7 +51,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
     + 如果您没有看到红色信，请检查 `数据管理` 中的 SD 卡部分是否有任何错误。 如果有任何问题，可能是由于 SD 卡格式或 Wii 的 SD 卡槽出现问题。
     + 如果 Wii 在点击信后卡住，可能是在下载时选择了错误的区域。 重新进行第 2 步，并选择正确的区域。
     + If all is correct and there is freezing, keep on trying until it works.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 它会下载并且加载HackMii Installer。
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
