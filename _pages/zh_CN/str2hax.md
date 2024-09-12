@@ -80,7 +80,7 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
     + 如果您看到了正常的用户协议，这意味着您的 ISP 阻止了使用自定义 DNS。 Try another connection, or [use another exploit](get-started).
 
 1. 请给漏洞 1-2 分钟的时间下载（不要点击 `I ACCEPT`/`I DO NOT ACCEPT`）。
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. 它会下载并且加载HackMii Installer。
 
     ![](/images/hackmii/scam.png)
 
