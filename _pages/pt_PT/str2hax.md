@@ -80,7 +80,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
     + If you get the normal User Agreements, your ISP blocks the use of custom DNS. Try another connection, or [use another exploit](get-started).
 
 1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. It'll then proceed to download and load the HackMii Installer.
 
     ![](/images/hackmii/scam.png)
 
