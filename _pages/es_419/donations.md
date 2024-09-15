@@ -12,5 +12,5 @@ title: "Donaciones"
 {: .text-center}
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Toca aqui para regresar al index.](site-navigation)
 {: .notice--info}
