@@ -6,13 +6,13 @@ title: "BlueBomb"
 
 {% capture bluebomb-classic %}
 
-## BlueBomb Classic
+## BlueBomb Classico
 
 Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well. {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
 BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries.
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+Este hack tambien permite recuperar la Wii de ciertos bricks, como banner bricks y algunos theme bricks.
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>
@@ -99,7 +99,7 @@ If using a Wii mini, proceed to installing the Homebrew Channel
 <summary><em>Technical Details (optional)</em></summary>
 BlueBomb Micro is a port of Fullmetal5's BlueBomb exploit for the Rasperry Pi Pico W or ESP32, thus bypassing the need for a Linux system. It takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. This port was made possible by [GaryOderNichts](https://github.com/GaryOderNichts)
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+Este hack tambien permite recuperar la Wii de ciertos bricks, como banner bricks y algunos theme bricks.
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>
