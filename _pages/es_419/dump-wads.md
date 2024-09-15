@@ -48,5 +48,5 @@ You have now dumped that WAD. It should appear on your SD card.
 
 ![](/images/homebrew/DumpWADS/7.png)
 
-[Click here to go back to the site index.](site-navigation)
+[Toca aqui para regresar al index.](site-navigation)
 {: .notice--info}
