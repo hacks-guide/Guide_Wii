@@ -9,8 +9,8 @@ title: "Preguntas frecuentes"
 ### ¿Qué tan arriesgado es modificar mi consola?
 Not very risky depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. ¡Asegúrate de instalar [BootMii](bootmii) y [Priiloader](priiloader) para proteger tu consola de un posible brick!
 
-### I got error code XXXXXX, how do I fix it?
-Para saber la causa del error y su posible solución, accede a la [página de errores de Wiimmfi](https://wiimmfi.de/error), e ingresa el código que hayas recibido. More common errors have fixes listed below:
+### Tengo el código de error XXXXXX, como lo soluciono?
+Para saber la causa del error y su posible solución, accede a la [página de errores de Wiimmfi](https://wiimmfi.de/error), e ingresa el código que hayas recibido. Más errores comunes tienen arreglos listados más abajo:
 
 #### Error 051330/51330
 
@@ -18,9 +18,9 @@ Run an Internet connection test by going to `Wii Settings > Internet > Connectio
 
 #### Error 220602
 
-##### For RiiConnect24 Users
+##### Para usuarios de RiiConnect24
 
-You are using the old DNS server for RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+Estás usando el servidor DNS antiguo para RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
 
 ##### For non-RiiConnect24 Users
 
@@ -28,7 +28,7 @@ Your Primary DNS server is incorrect or not working.<br> This can also happen if
 
 #### Error 107304
 
-##### For RiiConnect24 Users
+##### Para usuarios de RiiConnect24
 
 If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
 
