@@ -165,5 +165,5 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 Congrats on making it to the end of the optional section of the main guide! You can go to the site index below if you would like to look for other guides.
 {: .notice--success}
 
-[Click here to go back to the site index.](site-navigation)
+[Toca aqui para regresar al index.](site-navigation)
 {: .notice--info}
