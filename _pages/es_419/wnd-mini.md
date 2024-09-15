@@ -82,5 +82,5 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 Continue to [Open Shop Channel Installation](osc) Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 {: .notice--info}
 
-[Click here to go back to the site index.](site-navigation)
+[Toca aqui para regresar al index.](site-navigation)
 {: .notice--info}
