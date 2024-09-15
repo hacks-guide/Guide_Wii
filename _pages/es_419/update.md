@@ -50,5 +50,5 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 1. When prompted to retain Priiloader, press A to confirm.
 1. After they are successfully installed, press the HOME Button to exit back to the Homebrew Channel.
 
-[Click here to go back to the site index.](site-navigation)
+[Toca aqui para regresar al index.](site-navigation)
 {: .notice--info}
