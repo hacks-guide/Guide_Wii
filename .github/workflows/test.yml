@@ -5,20 +5,22 @@ on:
 
 jobs:
   doc-test:
-    if: github.ref_name != 'l10n_master'   
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           persist-credentials: false
           submodules: recursive
 
-      - uses: ruby/setup-ruby@v1
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          ruby-version: '3.2'
-          bundler-cache: true
+          node-version: 20
+          cache: npm
 
-      - name: Run Jekyll
-        # Build the site using Jekyll
-        run: JEKYLL_ENV=production bundle exec jekyll build
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run docs:build
