@@ -20,7 +20,7 @@ Run an Internet connection test by going to `Wii Settings > Internet > Connectio
 
 ##### Para usuarios de RiiConnect24
 
-Estás usando el servidor DNS antiguo para RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+Estás usando el servidor DNS antiguo para RiiConnect24. Sigue [esta](riiconnect24#section-iv---connecting) guía para las instrucciones de como cambiarlo.
 
 ##### For non-RiiConnect24 Users
 
