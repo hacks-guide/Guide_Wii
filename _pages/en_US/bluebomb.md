@@ -65,13 +65,11 @@ Make sure that the console is close to the computer running the exploit, ideally
 1. Power off your console.
 1. Start your Linux distro, and ensure you are connected to the internet.
 1. Open the Terminal
-1. Run the following commands:
+1. Run the following command:
 
-    ```bash
-    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
-    chmod +x bluebomb-helper.sh
-    ./bluebomb-helper.sh
-    ```
+   ```bash
+	wget -qO- https://wii.hacks.guide/assets/files/bluebomb-helper.sh | sh
+   ```
 
 1. The helper will then download the required files, and ask for information about your console.
     + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
