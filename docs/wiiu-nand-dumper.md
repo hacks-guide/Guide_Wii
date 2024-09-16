@@ -66,8 +66,11 @@ SD Card Layout
 
 ### Section II - Launching the Exploit
 
+::: info
+
 Make sure your Wii U has internet access for this step.
-{: .notice--info}
+
+:::
 
 1. Take the SD Card out of your computer and plug it into your Wii U console.
 1. Launch the Internet Browser and navigate to the website `wiiuexploit.xyz`.

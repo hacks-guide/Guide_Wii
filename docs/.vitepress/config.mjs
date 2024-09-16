@@ -8,9 +8,14 @@ import { defineConfig } from 'vitepress'
 
 import container from 'markdown-it-container'
 
+import * as i18n from './i18n'
+
 export default defineConfig({
   title: "Wii Hacks Guide",
   description: "The complete guide to modding your Wii, vWii, and Wii mini",
+  locales: {
+    root: i18n.en_US
+  },
   vite: {
     resolve: {
       alias: [
