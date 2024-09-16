@@ -72,5 +72,6 @@ export default defineConfig({
         }
       });
     }
-  }
+  },
+  srcExclude: ['**/_include/**']
 })
