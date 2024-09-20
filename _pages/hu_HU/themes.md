@@ -103,7 +103,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 1. Hozz létre egy `themes` mappát az SD-kártya/USB-eszköz gyökerén.
 1. Csomagold ki a ThemeMii MOD `.zip` fájlt egy helyre a számítógépeden.
-1. Indítsd el a ThemeMii alkalmazást.
+1. Launch the ThemeMii application.
 1. Go to `Tools` -> `Download Base App` -> `Version of your Wii Menu` -> `Region of your Wii Menu`.
 1. A dialog box will pop-up asking you to enter in a value to create a key. Enter what it says, and it will create a key that will be used to decrypt the Wii Menu contents from Nintendo's servers.
 1. A file selection box will ask you where to save the .app file. Save it to the `themes` folder on your SD card/USB device.
@@ -112,7 +112,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 #### Téma készítése
 
 1. Csomagold ki a ThemeMii MOD `.zip` fájlt egy helyre a számítógépeden.
-1. Indítsd el a ThemeMii alkalmazást.
+1. Launch the ThemeMii application.
 1. Navigálj a `File` -> `Open` opcihoz, majd válaszd ki a létrehozni kívánt téma `.mym` fájlját.
 1. Nyomjd meg a `Create csm` gombot.
 1. When asked to select an `.app` file, select the newly downloaded base theme in the `themes` of your SD card or USB device.
