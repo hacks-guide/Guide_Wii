@@ -13,6 +13,7 @@ import * as i18n from './i18n'
 export default defineConfig({
   title: "Wii Hacks Guide",
   description: "The complete guide to modding your Wii, vWii, and Wii mini",
+  head: [['link', { rel: 'icon', href: '/images/site-config/favicon.ico' }]],
   locales: {
     root: i18n.en_US
   },
