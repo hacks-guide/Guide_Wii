@@ -8,7 +8,7 @@ Modul de recuperare este o metodă ca ultima șansă pentru repararea consolei W
 
 ### Cum funcționează modul de recuperare
 
-La System Menu versiunea 2.1 până la ultima, pornirea în modul de așteptare va afișa numărul versiunii pe partea de dreapta-jos al ecranului, și va sta pe acel ecran în timp ce așteaptă să introduci un disc. În mod implicit, modul de recuperare pornește doar două tipuri de discuri:
+On System Menu versions 2.1 and upwards, booting into Recovery Mode will yield a version number display on the bottom right of the screen, and will idle on the screen while waiting for a disc to be inserted. În mod implicit, modul de recuperare pornește doar două tipuri de discuri:
 
 + Un disc al cărui title ID începe cu un număr ca 0 sau 1 - un disc autoboot. Toate discurile de joc comerciale **nu** sunt discuri autoboot și încep cu o literă în schimb.
 + Un disc de joc comercial care are o partiție validă de actualizare a cărei versiune este mai mare decât cea de pe NAND.
