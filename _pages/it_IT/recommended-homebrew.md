@@ -47,7 +47,7 @@ Homebrew che hanno la capacità di apportare modifiche permanenti al tuo Wii son
 
 ### Intrattenimento
 
-+ [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - Una versione modificata e migliorata di WiiMC. Trasforma il tuo Wii in un centro multimediale a tutti gli effetti, con la possibilità di ascoltare musica, guardare video, riprodurre DVD e altro ancora.
++ [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - A modified and updated version of WiiMC. Trasforma il tuo Wii in un centro multimediale a tutti gli effetti, con la possibilità di ascoltare musica, guardare video, riprodurre DVD e altro ancora.
 + [Schism Tracker](https://oscwii.org/library/app/schismtracker) - Un editor e riproduttore per musica tracker (IT, XM, S3M, MOD, ecc.). Puoi trovare musica da provare [qui](https://modarchive.org/).
 
 [Continue to WiiConnect24](wiiconnect24)<br> Although WiiConnect24 was discontinued by Nintendo in June 2013, there is a fan-hosted revival service that restores and expands its functionality.
