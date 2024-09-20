@@ -8,7 +8,7 @@ A helyreállítási mód egy Wii megmentésének a végső eseti módja hardvere
 
 ### A karbantartási mód működése
 
-A rendszermenü 2.1-es és afölötti verzióin a helyreállítási mód kiírja a menü verziószámát a jobb alsó sarokban és egy lemez behelyezésére vár. A helyreállítási mód alapértelmezésből csak kétféle lemezt tud futtatni:
+On System Menu versions 2.1 and upwards, booting into Recovery Mode will yield a version number display on the bottom right of the screen, and will idle on the screen while waiting for a disc to be inserted. A helyreállítási mód alapértelmezésből csak kétféle lemezt tud futtatni:
 
 + egy ún. autoboot („automatikus indítási”) lemezt, aminek a termékazonosítója 0-val vagy 1-gyel kezdődik (a boltokban árult lemezek **egyike sem** autoboot lemez, mert mindegyiknek egy betűjellel kezdődik a termékazonosítója);
 + vagy egy boltban vásárolt játéklemez, amely érvényes frissítési partícióval rendelkezik és a konzol verziójánál frissebbet tartalmaz.
