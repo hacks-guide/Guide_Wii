@@ -8,7 +8,7 @@ Recovery Mode is a last resort method for recovering your Wii console from a bri
 
 ### How Recovery Mode Works
 
-On System Menu versions 2.1 and upwards, booting into Recovery Mode will yield a verison number display on the bottom right of the screen, and will idle on the screen while waiting for a disc to be inserted. By default, Recovery Mode only boots two types of discs: By default, Recovery Mode only boots two types of discs:
+On System Menu versions 2.1 and upwards, booting into Recovery Mode will yield a version number display on the bottom right of the screen, and will idle on the screen while waiting for a disc to be inserted. By default, Recovery Mode only boots two types of discs:
 
 + A disc whose title ID starts with a number like 0 or 1 - an autoboot disc. A disc whose title ID starts with a number like 0 or 1 - an autoboot disc. All retail game discs are **not** an autoboot disc and instead start with a letter.
 + A retail game disc that has a valid update partition whose version is higher than the one on the NAND.
