@@ -103,7 +103,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 1. Create a `themes` folder on the root of your SD card/USB device.
 1. Extract the ThemeMii MOD `.zip` to a location on your PC.
-1. Launch the ThemeMii applciation.
+1. Launch the ThemeMii application.
 1. Go to `Tools` -> `Download Base App` -> `Version of your Wii Menu` -> `Region of your Wii Menu`.
 1. 키를 생성하기 위해 값을 입력하라는 대화 상자가 나타납니다. 여기에 적힌 내용을 입력하면 닌텐도 서버에서 Wii 메뉴 콘텐츠를 해독하는 데 사용되는 키가 생성됩니다.
 1. A file selection box will ask you where to save the .app file. Save it to the `themes` folder on your SD card/USB device.
@@ -112,7 +112,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 #### 섹션 II - 테마 빌드하기
 
 1. Extract the ThemeMii MOD `.zip` to a location on your PC.
-1. Launch the ThemeMii applciation.
+1. Launch the ThemeMii application.
 1. Go to `File` -> `Open`, and select the `.mym` file for the theme you want to build.
 1. Press `Create csm`.
 1. When asked to select an `.app` file, select the newly downloaded base theme in the `themes` of your SD card or USB device.
