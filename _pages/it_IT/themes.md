@@ -103,7 +103,7 @@ Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come
 
 1. Crea una cartella chiamata `themes` nella radice della tua scheda SD o dispositivo USB.
 1. Estrai il file ThemeMii MOD `.zip` in qualunque luogo sul tuo PC.
-1. Avvia l'app di ThemeMii.
+1. Launch the ThemeMii application.
 1. Go to `Tools` -> `Download Base App` -> `Version of your Wii Menu` -> `Region of your Wii Menu`.
 1. Una finestra di dialogo si aprirà chiedendoti di inserire un valore per creare una chiave. Inserisci quello che ti dice e creerà una chiave che sarà utilizzare per decifrare i contenuti del Menu Wii dai server di Nintendo.
 1. A file selection box will ask you where to save the .app file. Save it to the `themes` folder on your SD card/USB device.
@@ -112,7 +112,7 @@ Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come
 #### Creazione di un tema
 
 1. Estrai il file ThemeMii MOD `.zip` in qualunque luogo sul tuo PC.
-1. Avvia l'app di ThemeMii.
+1. Launch the ThemeMii application.
 1. Clicca su `File` -> `Open`, e seleziona il file `.mym` del tema che vuoi applicare.
 1. Clicca `Create csm`.
 1. When asked to select an `.app` file, select the newly downloaded base theme in the `themes` of your SD card or USB device.
