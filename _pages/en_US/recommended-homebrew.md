@@ -47,7 +47,7 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 
 ### Entertainment
 
-+ [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - A modified and updated verison of WiiMC. Turns your Wii into a fully fledged media center, with the ability to listen to music, watch videos, play DVDs, and more.
++ [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - A modified and updated version of WiiMC. Turns your Wii into a fully fledged media center, with the ability to listen to music, watch videos, play DVDs, and more.
 + [Schism Tracker](https://oscwii.org/library/app/schismtracker) - A editor and player for tracked music (IT, XM, S3M, MOD, etc.). You can find music to try out [here](https://modarchive.org/).
 
 [Continue to WiiConnect24](wiiconnect24)<br>
