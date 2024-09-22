@@ -1,14 +1,3 @@
-The MIT License (MIT)
-
-(Jekyll theme)
-Copyright (c) 2013-2020 Michael Rose and contributors
-Copyright (c) 2016-2017 Plailect
-
-(Nord skin)
-Copyright (c) 2016-2021 Arctic Ice Studio development@arcticicestudio.com (https://www.arcticicestudio.com)
-Copyright (c) 2016-2021 Sven Greb development@svengreb.de (https://www.svengreb.de)
-
-(Guide)
 Copyright (c) 2017-2023 RiiConnect24
 Copyright (c) 2023 Nintendo Homebrew
 
