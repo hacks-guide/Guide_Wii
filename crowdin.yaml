@@ -1,7 +1,5 @@
 files:
-  - source: /_data/navigation/en_US.yml
-    translation: /_data/navigation/%locale_with_underscore%.yml
-  - source: /_pages/en_US/*.md
-    translation: /_pages/%locale_with_underscore%/%original_file_name%
-  - source: /_pages/en_US/include/*.md
-    translation: /_pages/%locale_with_underscore%/include/%original_file_name%
+  - source: /docs/*.md
+    translation: /docs/%locale_with_underscore%/%original_file_name%
+  - source: /docs/.vitepress/i18n/strings/en_US.json
+    translation: /docs/.vitepress/i18n/strings/%locale_with_underscore%.json
