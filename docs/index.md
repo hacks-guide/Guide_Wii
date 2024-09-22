@@ -34,7 +34,6 @@ Here are some common examples of what homebrew can do for your Wii:
 + Back up your [discs](dump-games) and [other installed titles](dump-wads)
 + Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
 + Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
-+ Back up and restore your [Wii](wii-saves) and [GameCube](gcsaves) save files
 + Restore online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
 
 ## What does the guide install?
