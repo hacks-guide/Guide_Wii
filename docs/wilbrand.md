@@ -1,26 +1,33 @@
----
-title: "Wilbrand"
----
+# Wilbrand
 
 Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board. It is compatible with Wii menu versions 3.0 through 4.3 in all regions.
 
+::: info
+
 There are two methods listed on this page used to create the proper Wilbrand exploit.
+
 Wilbrand Web is recommended for its ease of use.
-{: .notice--info}
 
-{% capture wilbrand-web %}
+:::
 
-### Wilbrand Web
+::::: tabs
 
-#### Requirements
+:::: tab Wilbrand Web
+
+## Wilbrand Web
+
+### Requirements
 
 * An SD card formatted to FAT32/MS-DOS
 * A Wii on version 3.0 or newer
 
-SD cards larger than 2GB will not work on Wii menu versions before 4.0.
-{: .notice--warning}
+::: warning
 
-#### Instructions
+SD cards larger than 2GB will not work on Wii menu versions before 4.0.
+
+:::
+
+### Instructions
 
 1. Power on your console.
 1. Go to `Wii Settings`.
@@ -61,16 +68,19 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
+::: tip
+
 [Continue to Homebrew Channel and BootMii Installation](hbc)
-{: .notice--info}
 
-{% endcapture %}
+:::
 
-{% capture wilbrand-cli %}
+::::
 
-### Wilbrand CLI
+:::: tab Wilbrand CLI
 
-#### Requirements
+## Wilbrand CLI
+
+### Requirements
 
 * A computer running Windows, macOS or Linux
 * An SD card formatted to FAT32/MS-DOS
@@ -78,10 +88,13 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 * [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
-SD cards larger than 2GB will not work on Wii menu versions before 4.0.
-{: .notice--warning}
+::: warning
 
-#### Instructions
+SD cards larger than 2GB will not work on Wii menu versions before 4.0.
+
+:::
+
+### Instructions
 
 1. Power on your console.
 1. Go to `Wii Settings`.
@@ -128,30 +141,12 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     + If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     + If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
+::: tip
+
 [Continue to Homebrew Channel and BootMii Installation](hbc)
-{: .notice--info}
 
-{% endcapture %}
+:::
 
-<button class="btn btn--large btn--primary tabLink" onClick="select_tab(event, 'wilbrand-web')"> Wilbrand Web </button>
-<button class="btn btn--large btn--info tabLink" onClick="select_tab(event, 'wilbrand-cli')"> Wilbrand CLI </button>
+::::
 
-<div class="tabContent tabDefualt" id="wilbrand-web" markdown="1"> {{ wilbrand-web }} </div>
-<div class="tabContent" id="wilbrand-cli" markdown="1"> {{ wilbrand-cli }} </div>
-
-<script>
-    const tabContents = document.getElementsByClassName('tabContent');
-    const tabLinks    = document.getElementsByClassName('tabLink');
-
-    for (tab of tabContents) { tab.style.display = 'none'; }
-    document.getElementsByClassName('tabDefault')[0].style.display = 'block';
-
-    function select_tab(event, tab_id)
-    {
-        for (tab of tabContents) { tab.style.display = 'none'; }
-        for (btn of tabLinks) { btn.className = btn.className.replace('btn--primary', 'btn--info'); }
-
-        document.getElementById(tab_id).style.display = 'block';
-        event.currentTarget.className = event.currentTarget.className.replace('btn--info', 'btn--primary');
-    }
-</script>
+:::::

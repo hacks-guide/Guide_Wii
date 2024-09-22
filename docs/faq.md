@@ -1,10 +1,6 @@
----
-title: "FAQ and Troubleshooting"
----
+# FAQ and Troubleshooting
 
 ## Main FAQ
-
-{% include toc title="Table of Contents" %}
 
 ### How risky is hacking my console?
 Not very risky depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
@@ -49,20 +45,32 @@ See [this](bricks) page.
 
 ## Storage Device FAQ
 
+::: info
+
 For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
-{: .notice--info}
+
+:::
+
+::: info
 
 FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br>
 For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS was a previously used file system for Wii game backups (not to be confused with WBFS files) - today, it is outdated and should not be used.
-{: .notice--info}
+
+:::
+
+::: warning
 
 For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.<br>
 For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.<br>
 Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
-{: .notice--warning}
+
+:::
+
+::: warning
 
 For USB devices, flash drives have a high rate of not working on Wii consoles. Instead, it is recommended to use a USB hard drive or solid state drive.
-{: .notice--warning}
+
+:::
 
 ### General Storage Guidelines
 
@@ -77,8 +85,11 @@ When considering buying or using an SD card or USB device, it is worth consideri
 
 ### Buying SD Cards
 
+::: danger
+
 SD cards 2TB or larger currently do not exist, anyone attempting to sell you one is trying to rip you off.
-{: .notice--danger}
+
+:::
 
 When buying SD cards, it is generally recommended that you stick to well-known brands the more expensive and larger capacity that you get. While you can buy a generic 2GB SD card and most likely be safe, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-20 USD for 256GB and below, whereas 512GB is around 40 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be wary when buying storage on eBay.
 
@@ -103,5 +114,8 @@ As for your choices in shopping, this largely comes down to three different scen
 
 ### Buying USB Devices - Solid State Drives
 
+::: warning
+
 For the purpose of using a drive with a Wii, external SSDs are often more expensive than conventional hard drives for no visible gain in speed on a Wii (the console only supports up to USB 2.0 data speeds). If you would like to buy one or already have one lying around, it's an option, but generally it's recommended to just go for a hard drive if you don't already have one.
-{: .notice--warning}
+
+:::

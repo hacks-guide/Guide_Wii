@@ -1,34 +1,42 @@
----
-title: "BlueBomb"
----
+# BlueBomb
 
-{% include toc title="Table of Contents" %}
+::::: tabs
 
-{% capture bluebomb-classic %}
+:::: tab BlueBomb Classic
 
 ## BlueBomb Classic
 
-{% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
+::: details Technical Details (optional)
+
 BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
-{% endcapture %}
-<details>{{ technical_info | markdownify }}</details>
-{: .notice--info}
+:::
+
+::: warning
 
 It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
-{: .notice--warning}
+
+:::
+
+::: info
 
 If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
-{: .notice--info}
+
+:::
+
+::: info
 
 If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
-{: .notice--info}
+
+:::
+
+::: info
 
 Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
-{: .notice--info}
+
+:::
 
 ### Requirements
 
@@ -83,47 +91,65 @@ Make sure that the console is close to the computer running the exploit, ideally
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
     + If you are not planning to use it later, you can now shut down your Linux distro.
 
+::: info
+
 If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
-{: .notice--info}
+
+:::
+
+::: info
 
 If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
-{: .notice--info}
 
-{% endcapture %}
+:::
 
-{% capture bluebomb-micro %}
+::::
+
+:::: tab BlueBomb Micro
 
 ## BlueBomb Micro
 
-{% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
+::: details Technical Details (optional)
 BlueBomb Micro is a port of Fullmetal5's BlueBomb exploit for the Rasperry Pi Pico W or ESP32, thus bypassing the need for a Linux system. It takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. This port was made possible by [GaryOderNichts](https://github.com/GaryOderNichts)
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
-{% endcapture %}
-<details>{{ technical_info | markdownify }}</details>
-{: .notice--info}
+:::
+
+::: warning
 
 It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
-{: .notice--warning}
+
+:::
+
+::: info
 
 If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
-{: .notice--info}
+
+:::
+
+::: info
 
 If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
-{: .notice--info}
+
+:::
+
+::: info
 
 Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
-{: .notice--info}
+
+:::
 
 ### Requirements
 * A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
 * A USB flash drive formatted as FAT32.
 * [The HackMii Installer](https://bootmii.org/download/)
 
+::: info
+
 A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
-{: .notice--info}
+
+:::
 
 ### Instructions
 
@@ -165,33 +191,18 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
     + This could take numerous attempts.
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
 
+::: tip
+
 If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
-{: .notice--info}
+
+:::
+
+::: tip
 
 If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
-{: .notice--info}
 
-{% endcapture %}
+:::
 
-<button class="btn btn--large btn--primary tabLink" onClick="select_tab(event, 'bluebomb-classic')"> BlueBomb Classic </button>
-<button class="btn btn--large btn--info tabLink" onClick="select_tab(event, 'bluebomb-micro')"> BlueBomb Micro </button>
+::::
 
-<div class="tabContent tabDefualt" id="bluebomb-classic" markdown="1"> {{ bluebomb-classic }} </div>
-<div class="tabContent" id="bluebomb-micro" markdown="1"> {{ bluebomb-micro }} </div>
-
-<script>
-    const tabContents = document.getElementsByClassName('tabContent');
-    const tabLinks    = document.getElementsByClassName('tabLink');
-
-    for (tab of tabContents) { tab.style.display = 'none'; }
-    document.getElementsByClassName('tabDefault')[0].style.display = 'block';
-
-    function select_tab(event, tab_id)
-    {
-        for (tab of tabContents) { tab.style.display = 'none'; }
-        for (btn of tabLinks) { btn.className = btn.className.replace('btn--primary', 'btn--info'); }
-
-        document.getElementById(tab_id).style.display = 'block';
-        event.currentTarget.className = event.currentTarget.className.replace('btn--info', 'btn--primary');
-    }
-</script>
+:::::

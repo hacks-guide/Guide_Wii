@@ -1,37 +1,42 @@
----
-title: "cIOS"
----
+# cIOS
 
-{% include toc title="Table of Contents" %}
+::: details Technical Details (optional)
 
-{% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
-{% endcapture %}
-<details>{{ technical_info | markdownify }}</details>
-{: .notice--info}
+:::
 
-### Requirements
+## Requirements
 
-This guide is only intended for Wii users. <br/>
-If you have a Wii U (vWii), follow [this guide](cios-vwii) instead. <br/>
+::: warning
+
+This guide is only intended for Wii users.
+
+If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+
 If you have a Wii mini, follow [this guide](cios-mini) instead.
-{: .notice--warning}
+
+:::
 
 * A Wii
 * An SD card or USB drive
 * [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-### Instructions
+## Instructions
 
-#### Section I - Downloading
+### Section I - Downloading
+
+::: info
 
 If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
-{: .notice--info}
+
+:::
+
+::: info
 
 If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
-{: .notice--info}
+
+:::
 
 1. Power off your console.
 1. Insert your SD card or USB drive into your computer.
@@ -48,11 +53,15 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 1. Place each WAD file on the root of your SD card or USB drive.
     + This must be the same device containing the d2x cIOS Installer.
 
-The WAD files should be on your SD card like this:
-![](/images/cios/d2x_offline_ios.png)
-{: .notice--info}
+::: info
 
-#### Section II - Installing
+The WAD files should be on your SD card like this:
+
+![](/images/cios/d2x_offline_ios.png)
+
+:::
+
+### Section II - Installing
 
 1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
@@ -70,16 +79,25 @@ The WAD files should be on your SD card like this:
 
     ![](/images/cios/d2x_v11_248.png)
 
+    ::: info
+
     If you do not see `d2x-v11-beta1`, exit the installer with B, and make sure your SD card is unlocked.
-    {: .notice--info}
-    
+
+    :::
+
+    ::: info
+
     The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
-    {: .notice--info}
+
+    :::
+
+    ::: info
     
-    If you are seeing "`Slot ### already used in batch settings`" or
-    "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode. <br>
+    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
+
     (If you are trying to exit the installer, the button is B, not Home.)
-    {: .notice--info}
+
+    :::
     
 1. Press `A`. This will bring you to the slot map:
 
@@ -92,10 +110,14 @@ The WAD files should be on your SD card like this:
 1. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
 
     ![](/images/cios/d2x_log.png)
-    
-    If the slot is highlighted red, try install the cIOS again. <br>
+
+    ::: info
+
+    If the slot is highlighted red, try install the cIOS again.
+
     If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
-    {: .notice--info}
+
+    :::
     
 1. Press `A`. This will return you to the configuration screen.
 1. Repeat the previous 5 steps with the following configurations:
@@ -135,9 +157,16 @@ The WAD files should be on your SD card like this:
         
 1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
 
-If you downloaded the 4 WAD files in Section I, you may now delete them from your SD card/USB drive.
-{: .notice--info}
+::: info
 
-Continue to [Open Shop Channel Installation](osc) <br>
+If you downloaded the 4 WAD files in Section I, you may now delete them from your SD card/USB drive.
+
+:::
+
+::: tip
+
+Continue to [Open Shop Channel Installation](osc)
+
 Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
-{: .notice--info}
+
+:::

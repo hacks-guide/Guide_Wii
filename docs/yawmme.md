@@ -1,24 +1,21 @@
----
-title: "YAWM ModMii Edition"
----
-
-{% include toc title="Table of Contents" %}
+# YAWM ModMii Edition
 
 YAWM ModMii Edition is an application that can install WADs and launch homebrew applications.
 This tutorial will show you how to install WADs.
 
-### Requirements
+## Requirements
+
 * An SD card or USB drive
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Instructions
+## Instructions
 
-#### Section I - Downloading
+### Section I - Downloading
 
 1. Download and extract the YAWM ModMii Edition `.zip` to the root of your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii, and launch YAWM ModMii Edition from the Homebrew Channel.
 
-#### Section II - Installing WADs
+### Section II - Installing WADs
 
 1. Select the source device that has the WAD file(s) you would like to install.
 
@@ -40,5 +37,8 @@ This tutorial will show you how to install WADs.
 
     ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
+::: tip
+
 [Click here to go back to the site index.](site-navigation)
-{: .notice--info}
+
+:::

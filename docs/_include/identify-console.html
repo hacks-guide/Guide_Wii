@@ -9,12 +9,44 @@
         Wii U
     </div>
     <div class="r2 c1 console-img auto-grid-height">
-        <img src="../images/get-started/wii.png" alt="Wii Console">
+        <img src="/images/get-started/wii.png" alt="Wii Console">
     </div>
     <div class="r2 c2 console-img auto-grid-height">
-        <img src="../images/get-started/wii-mini.png" alt="Wii Mini Console">
+        <img src="/images/get-started/wii-mini.png" alt="Wii Mini Console">
     </div>
     <div class="r2 c3 console-img auto-grid-height">
-        <img src="../images/get-started/wii-u.png" alt="Wii U Console">
+        <img src="/images/get-started/wii-u.png" alt="Wii U Console">
     </div>
 </div>
+
+<style>
+.revisiontable {
+  display: grid;
+}
+
+.auto-grid-width {
+  grid-auto-columns: minmax(0, 1fr);
+}
+
+.auto-grid-height {
+  grid-template-rows: 0fr;
+}
+
+.revisiontable div {
+  border: 1px solid;
+}
+
+.console-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.r1 { grid-row: 1; }
+.r2 { grid-row: 2; }
+.c1 { grid-column: 1; }
+.c2 { grid-column: 2; }
+.c3 { grid-column: 3; }
+.c4 { grid-column: 4; }
+
+</style>

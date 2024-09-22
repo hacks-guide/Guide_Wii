@@ -1,24 +1,26 @@
----
-title: "str2hax"
----
+# str2hax
 
-{% include toc title="Table of Contents" %}
+::: warning
 
 Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
-{: .notice--warning}
+
+:::
 
 str2hax is an exploit for the Wii that is triggered by loading the Wii's End User License Agreement. It requires nothing but an Internet connection that lets you change the DNS on your Wii.
 
-If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
-{: .notice--warning}
+::: warning
 
-### Requirements
+If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
+
+:::
+
+## Requirements
 
 * A Wii with an Internet connection
 
-### Instructions
+## Instructions
 
-#### Section I - Connecting
+### Section I - Connecting
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
@@ -51,8 +53,11 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![](/images/exploits/str2hax/dns.png)
 
+    ::: warning
+
     If there are 3 fields instead of 2 (like above), go back and make sure you are on the `Auto-Obtain DNS` page.
-    {: .notice--warning}
+
+    :::
 
 1. Click `Confirm`, then click `Save`.
 
@@ -68,7 +73,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
     + If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
     + If it is still unsuccessful, please [use another exploit](get-started).
 
-#### Section II - Triggering the Exploit
+### Section II - Triggering the Exploit
 
 1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
 1. Select `Yes`.
@@ -86,5 +91,8 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     + If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
 
+::: tip
+
 [Continue to Homebrew Channel and BootMii Installation](hbc)
-{: .notice--info}
+
+:::

@@ -1,21 +1,20 @@
----
-title: "Get Started"
----
-
-{% include toc title="Table of Contents" %}
+# Get Started
 
 If your Wii is already softmodded and you would like to update the softmods, follow [this](hackmii) guide to upgrade your setup.
 
 All of the exploits listed here are different methods of achieving the same end-result (getting to the HackMii installer).
 
+::: info
+
 It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and install many types of homebrew.
-{: .notice--info}
 
-### Identify your console revision:
+:::
 
-{% include identify-console.html %}<br>
+## Identify your console revision:
 
-### Select your exploit
+<!--@include: @/_include/identify-console.html -->
+
+## Select your exploit
 
 Select the exploit that corresponds to your console and situation the best.
 
@@ -26,7 +25,7 @@ Select the exploit that corresponds to your console and situation the best.
 | Wii U (vWii)  | If you have already modded your Wii U:<br> Proceed to [Modding the vWii](vwii-homebrew-channel)<br> If you haven't modded the Wii U but want to:<br> Proceed to [Modding the Wii U](https://wiiu.hacks.guide)<br> If you do not want to mod the Wii U:<br> Proceed to [Modding the vWii Without Wii U Mods](wiiu-nand-dumper) |
 | Dolphin Emulator | Proceed to [Homebrew Channel on Dolphin](homebrew-dolphin) |
 
-### Alternate methods
+## Alternate methods
 
 If possible, you should follow the method given above.
 

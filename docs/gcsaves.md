@@ -1,13 +1,12 @@
----
-title: "GameCube Saves"
----
-
-{% include toc title="Table of Contents" %}
+# GameCube Saves
 
 This is a full guide on how to manage your GameCube saves.
 
+::: info
+
 Use of any GameCube peripheral with a Family Edition Wii or Wii mini require soldering on GameCube ports and/or memory card slots.
-{: .notice--info}
+
+:::
 
 ## Uploading an Individual Save (.gci File) to a Physical Memory Card
 
@@ -17,11 +16,17 @@ Use of any GameCube peripheral with a Family Edition Wii or Wii mini require sol
 * An SD Card or USB
 * [GCMM](https://oscwii.org/library/app/gcmm)
 
+::: info
+
 If you are looking for 100% completion saves online, you can find them [here](https://gamefaqs.gamespot.com/).
-{: .notice--info}
+
+:::
+
+::: info
 
 If you are looking for save game exploits for booting into [Swiss](https://github.com/emukidid/swiss-gc/releases), you can find a list of them [here](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
-{: .notice--info}
+
+:::
 
 ### Instructions
 
@@ -163,5 +168,8 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Find the save you want, select it and select `Move or Copy`.
 
+::: tip
+
 [Click here to go back to the site index.](site-navigation)
-{: .notice--info}
+
+:::

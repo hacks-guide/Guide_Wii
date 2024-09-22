@@ -1,30 +1,32 @@
----
-title: "Managing GameCube Backups"
----
-
-{% include toc title="Table of Contents" %}
+# Managing GameCube Backups
 
 This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
 
-### Requirements
+## Requirements
 
 * An SD card or USB drive
 * [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
+::: info
+
 To play multiple games, it is recommended to use an external hard drive for your Wii. Any external hard drive found on most modern marketplaces should work with your Wii.
-{: .notice--info}
+
+:::
+
+::: info
 
 Make sure your USB drive is formatted as FAT32. Do not format it as other types such as NTFS, exFAT, extFS, or WBFS, the latter being an outdated filesystem for storing Wii games.
-{: .notice--info}
 
-### Instructions
+:::
 
-#### Section I - Downloading
+## Instructions
+
+### Section I - Downloading
 
 1. Extract GameCube Backup Manager, and launch the program.
 1. Insert your USB drive into your computer.
 
-#### Section II - Copying Games Over
+### Section II - Copying Games Over
 
 1. Open the application and locate the folder button in the bottom right corner. Click on it to open the file explorer window.
 
@@ -42,8 +44,14 @@ Make sure your USB drive is formatted as FAT32. Do not format it as other types 
 
     ![](/images/desktop-apps/GCBM/installgame.png)
 
+::: info
+
 Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size. For some games this can be a major reduction, for example with Animal Crossing - going from 1.3GB to around 26MB.
-{: .notice--info}
+
+:::
+
+::: tip
 
 [Click here to go back to the site index.](site-navigation)
-{: .notice--info}
+
+:::

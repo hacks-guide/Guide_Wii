@@ -1,8 +1,4 @@
----
-title: Priiloader Usage
----
-
-{% include toc title="Table of Contents" %}
+# Priiloader Usage
 
 Priiloader is an essential tool that adds a level of brick protection to your Wii. It loads before the Wii System Menu does. The tool can also apply hacks that are used to enhance, unlock, and/or fix many System Menu features.
 
@@ -10,21 +6,22 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 This page documents some of the useful features of Priiloader that may be of interest.
 
-### System Menu Hacks
+## System Menu Hacks
 
 Priiloader has a large selection of options that, once enabled, change the behaviour of the Wii to one of your choice. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks). Addditionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
 
-### Additional options
+## Additional options
 
 These are some extra things you can do with Priiloader to enhance your homebrew experience. This is optional.
 
-#### Autobooting with Priiloader
+### Autobooting with Priiloader
 
 Priiloader allows you to automatically boot to the Homebrew Channel, an individual homebrew application, or Priiloader itself. This is optional.
 
-##### Autobooting a Homebrew application
+#### Autobooting a Homebrew application
 
-<div id="autobooting-usbloadergx" class="notice--warning" markdown="1">
+::: warning
+
 If you would like to autoboot USB loader GX, do this first:
   + Download the USB Loader GX forwarder WAD ([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
   + Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
@@ -33,7 +30,8 @@ If you would like to autoboot USB loader GX, do this first:
   + Copy `uneoboot.dol` to the root of your SD card.
 
 You will be installing `uneoboot.dol` in step 3.
-</div>
+
+:::
 
 1. Launch the Homebrew Channel
 1. Launch Load Priiloader from the list of homebrew.
@@ -65,7 +63,7 @@ You will be installing `uneoboot.dol` in step 3.
 
 Your Wii should now automatically boot to whichever homebrew app you installed.
 
-##### Autobooting the Homebrew Channel or Priiloader
+#### Autobooting the Homebrew Channel or Priiloader
 
 1. Launch the Homebrew Channel
 1. Launch Load Priiloader from the list of homebrew.
@@ -76,8 +74,11 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 1. Press Right to cycle through the Autoboot options until your desired option is selected.
     + Disabled` will autoboot to the Priiloader menu.
 
+    ::: warning
+
     Please don't set Autoboot to `BootMii IOS`. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.
-    {: .notice--warning}
+
+    :::
 
     ![](/images/priiloader/autoboot_disabled.png)
 

@@ -1,18 +1,14 @@
----
-title: "Installing Homebrew Channel on Dolphin Emulator"
----
-
-{% include toc title="Table of Contents" %}
+# Installing Homebrew Channel on Dolphin Emulator
 
 On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily installed through Dolphin itself. Once this is done, the Homebrew Channel can be installed, although not in the same manner as a physical Wii.
 
-### Requirements
+## Requirements
 
 * A Windows/MacOS/Linux computer with an Internet connection
 * [Dolphin Emulator](https://dolphin-emu.org/download/) version `5.0-4588` or later
 * The latest version of [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
 
-### Instructions
+## Instructions
 
 1. If you have not already done so, install the Wii Menu on Dolphin Emulator by going to `Tools > Perform System Update`.
 
@@ -28,7 +24,7 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
 
     ![](/images/homebrew-dolphin/hbc-installed.png)
 
-### Post-Installation, installing Homebrew Apps through Open Shop Channel
+## Post-Installation, installing Homebrew Apps through Open Shop Channel
 
 1. Download the Open Shop Channel [here](https://oscwii.org/library/app/homebrew_browser) for usage in Dolphin. Alternatively, you can get OSCDL and do this process manually.
 1. Stop the emulation (if running), and open the `Config > Wii` window in Dolphin Emulator.

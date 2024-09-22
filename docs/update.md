@@ -1,27 +1,26 @@
----
-title: "Updating Wii Menu to v4.3"
----
-
-{% include toc title="Table of Contents" %}
+# Updating Wii Menu to v4.3
 
 This tutorial will explain how to update your Wii Menu to version 4.3, if you have already homebrewed your Wii.
 
-It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.3.
-{: .notice--warning}
+::: warning
 
-### Requirements
+It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.3.
+
+:::
+
+## Requirements
 
 * a Wii with The Homebrew Channel 1.0.8 or later
-    + If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
+    * If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
 * An SD card or USB drive
 * A computer with Windows on it
 * [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
 * [Priiloader](priiloader)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Instructions
+## Instructions
 
-#### Section I - Downloading
+### Section I - Downloading
 
 1. Extract the .zip file for NUS Downloader Wii and open the application.
 1. Go to `Database...` > `System` > `0000000100000002 - System Menu` and select the version corresponding to your region as shown in the table below.
@@ -38,7 +37,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 | Europe | v514 (4.3E)      |
 | Korea  | v518 (4.3K)      |
 
-#### Section II - Installing
+### Section II - Installing
 
 1. Power off your console. Start holding RESET, then turn it back on.
 1. In the Priiloader menu, select `Homebrew Channel`.
@@ -50,5 +49,8 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 1. When prompted to retain Priiloader, press A to confirm.
 1. After they are successfully installed, press the HOME Button to exit back to the Homebrew Channel.
 
+::: tip
+
 [Click here to go back to the site index.](site-navigation)
-{: .notice--info}
+
+:::
