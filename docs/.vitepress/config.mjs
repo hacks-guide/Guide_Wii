@@ -73,5 +73,37 @@ export default defineConfig({
       });
     }
   },
-  srcExclude: ['**/_include/**']
+  srcExclude: [
+    '**/_include/**',
+    'af_ZA/**',
+    'ar_SA/**',
+    'ca_ES/**',
+    'cs_CZ/**',
+    'da_DK/**',
+    'de_DE/**',
+    'el_GR/**',
+    'es_419/**',
+    'es_ES/**',
+    'fi_FI/**',
+    'fr_FR/**',
+    'he_IL/**',
+    'hu_HU/**',
+    'it_IT/**',
+    'ja_JP/**',
+    'ko_KR/**',
+    'nl_NL/**',
+    'no_NO/**',
+    'pl_PL/**',
+    'pt_BR/**',
+    'pt_PT/**',
+    'ro_RO/**',
+    'ru_RU/**',
+    'sr_Cyrl/**',
+    'sv_SE/**',
+    'tr_TR/**',
+    'uk_UA/**',
+    'vi_VN/**',
+    'zh_CN/**',
+    'zh_TW/**'
+  ]
 })
