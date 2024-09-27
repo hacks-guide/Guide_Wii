@@ -38,8 +38,8 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 :::
 
-1. Oprește consola.
-2. Introdu cardul tău SD sau unitatea ta USB în calculator.
+1. Download the Priiloader installer and LoadPriiloader apps.
+2. Extract both apps to the root of your SD card or USB drive.
 3. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
 5. Run `NUS Downloader.exe`.
@@ -69,7 +69,7 @@ The WAD files should be on your SD card like this:
 
 3. Pornește consola.
 
-4. Rulează Homebrew Channel.
+4. Launch the Priiloader installer.
 
 5. Rulează d2x cIOS Installer din lista de aplicații homebrew.
 
