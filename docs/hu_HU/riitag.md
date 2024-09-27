@@ -1,5 +1,12 @@
 ---
-title: Átirányítás…
+head:
+  - - meta
+    - http-equiv: refresh
+      content: 5; URL=https://wiki.hacks.guide/wiki/RiiTag
 ---
 
-{% include_relative include/redirect-wiki.md redirect_to="https://wiki.hacks.guide/wiki/RiiTag" %}
+# Redirecting
+
+Átirányítunk a Hacks Guide wikire.
+
+If the page doesn't refresh, click [here](https://wiki.hacks.guide/wiki/RiiTag).
