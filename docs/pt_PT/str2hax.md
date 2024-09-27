@@ -1,90 +1,103 @@
----
-title: "Wiimmfi"
----
+# Wiimmfi
 
-{% include toc title="Table of Contents" %}
+::: warning
 
 Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
-{: .notice--warning}
+
+:::
 
 str2hax is an exploit for the Wii that is triggered by loading the Wii's End User License Agreement. It requires nothing but an Internet connection that lets you change the DNS on your Wii.
 
+::: warning
+
 If you have installed a mod like CTGP Revolution or Project+, str2hax may load that instead. If it does, restart your Wii and try again without your SD card inserted.
-{: .notice--warning}
 
-### Requirements
+:::
 
-* A Wii with an Internet connection
+## Requirements
 
-### Instructions
+- A Wii with an Internet connection
 
-#### Section I - Connecting
+## Instructions
+
+### Section I - Connecting
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
 1. Power on your console.
-1. Go to `Wii Options`.
 
-    ![](/images/riiconnect24/Internet_1.png)
+2. Go to `Wii Options`.
 
-1. Go to `Wii Settings`.
+   ![](/images/riiconnect24/Internet_1.png)
 
-    ![](/images/riiconnect24/Internet_2.png)
+3. Go to `Wii Settings`.
 
-1. Go to `Connection Settings`.
+   ![](/images/riiconnect24/Internet_2.png)
 
-    ![](/images/riiconnect24/Internet_3.png)
+4. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
 
-    ![](/images/riiconnect24/Internet_4.png)
+   ![](/images/riiconnect24/Internet_3.png)
 
-1. Go to `Change Settings`.
+   ![](/images/riiconnect24/Internet_4.png)
 
-    ![](/images/riiconnect24/Internet_5.png)
+5. Click on your network connection slot and navigate to `Change Settings`.
 
-    ![](/images/riiconnect24/Internet_6.png)
+   ![](/images/riiconnect24/Internet_5.png)
 
-1. Go to `Auto-Obtain DNS` (Not IP Address), then select `No`, then `Advanced Settings`.
+   ![](/images/riiconnect24/Internet_6.png)
 
-    ![](/images/riiconnect24/Internet_7.png)
+6. Set `Auto-Obtain DNS` to `No`, then click `Advanced Settings`.
 
-1. Set the Primary DNS to `3.143.163.250`.
+   ![](/images/riiconnect24/Internet_7.png)
 
-    ![](/images/exploits/str2hax/dns.png)
+7. Set the Primary DNS to `3.143.163.250`.
 
-    If there are 3 fields instead of 2 (like above), go back and make sure you are on the `Auto-Obtain DNS` page.
-    {: .notice--warning}
+   ![](/images/exploits/str2hax/dns.png)
 
-1. Select `Confirm`, then select `Save`.
+   ::: warning
 
-    ![](/images/riiconnect24/Internet_10.png)
+   If there are 3 fields instead of 2 (like above), go back and make sure you are on the `Auto-Obtain DNS` page.
 
-1. Select `OK` to perform a connection test.
+   :::
 
-    ![](/images/riiconnect24/Internet_11.png)
+8. Click `Confirm`, then click `Save`.
 
-    ![](/images/riiconnect24/Internet_12.png)
+   ![](/images/riiconnect24/Internet_10.png)
 
-    + If the connection test was successful, select `No` to skip the Wii System Update.
-    + If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
-    + If it is still unsuccessful, please [use another exploit](get-started).
+9. When prompted, click `OK` to perform the connection test.
 
-#### Section II - Triggering the Exploit
+   ![](/images/riiconnect24/Internet_11.png)
 
-1. Go to the `Internet` section, then `User Agreements` or `Agreement/Contact`, then `Yes`.
-1. Go to `Change Settings`.
-1. Go to `Page 2`, then click on `Internet`.
-    + You should be greeted with the following screen:
+   ![](/images/riiconnect24/Internet_12.png)
 
-    ![](/images/exploits/str2hax/EULA.png)
+   - If the connection test was successful, select `No` to skip the Wii System Update.
+   - If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
+   - If it is still unsuccessful, please [use another exploit](get-started).
 
-    + If you get the normal User Agreements, your ISP blocks the use of custom DNS. Try another connection, or [use another exploit](get-started).
+### Section II - Triggering the Exploit
 
-1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
 
-    ![](/images/hackmii/scam.png)
+2. Select `Yes`.
 
-    + If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+3. Click on `Next`.
+
+   - You should be greeted with the following screen:
+
+   ![](/images/exploits/str2hax/EULA.png)
+
+   - If you get the normal User Agreements, your ISP blocks the use of custom DNS. Try another connection, or [use another exploit](get-started).
+
+4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
+
+5. It'll then proceed to download and load the HackMii Installer.
+
+   ![](/images/hackmii/scam.png)
+
+   - If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+
+::: tip
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
-{: .notice--info}
+
+:::
