@@ -1,38 +1,42 @@
----
-title: d2xl cIOS vWiire (kísérleti)
----
+# d2xl cIOS vWiire (kísérleti)
 
-{% include toc title="Tartalomjegyzék" %}
+:::details Technical Details (optional)
 
-{% capture technical_info %}
+cIOS (Custom IOS) are IOS that are patched to allow custom functionality. Ugyan a [cIOS](https://wiibrew.org/wiki/Custom_IOS)-eket nagyrészt kiváltotta az AHBPROT, amely teljes hardveres hozzáférést biztosít, az előbbi továbbra is rendelkezik néhány hasznos képességgel. A cIOS-ek pl. lehetővé teszik az USB-betöltők, mint az USB Loader GX és a WiiFlow, és néhány más program, mint a SaveGame Manager GX működését. Az útmutató ezen része nem kötelező, de ajánlott végigcsinálni, hiszen hátrányok nélkül kiterjeszti a Wiid funkcionalitását.
 
-<summary><em>Technikai részletek (nem kötelező)</em></summary>
-A cIOS („custom IOS” / „egyéni IOS”)-ek egyéni rendszerfunkciók igénybevételét teszik lehetővé. Ugyan a [cIOS](https://wiibrew.org/wiki/Custom_IOS)-eket nagyrészt kiváltotta az AHBPROT, amely teljes hardveres hozzáférést biztosít, az előbbi továbbra is rendelkezik néhány hasznos képességgel. A cIOS-ek pl. lehetővé teszik az USB-betöltők, mint az USB Loader GX és a WiiFlow, és néhány más program, mint a SaveGame Manager GX működését. Az útmutató ezen része nem kötelező, de ajánlott végigcsinálni, hiszen hátrányok nélkül kiterjeszti a Wiid funkcionalitását.
+:::
 
-{% endcapture %}
+::: warning
 
-<details>{{ technical_info | markdownify }}</details>
-{: .notice--info}
+Ez az útmutató csak Wii U felhasználóknak szól.
 
-Ez az útmutató csak Wii U felhasználóknak szól. <br/>
-Ha Wii-od van [ezt az útmutatót](cios) kövesd. <br/>Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd.
-{: .notice--warning}
+Ha egy sima Wiid van, [ezt az útmutatót](cios) kövesd!
+
+Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd!
+
+:::
+
+::: warning
 
 Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telepíteni! Ha mégis így tennél, azzal [elronthatod](bricks#ios-brick) a konzolod!
-{: .notice--warning}
 
-### Követelmények
+:::
+
+## Követelmények
 
 - Egy Wii U, aminek a vWii-jére telepítve van a Homebrew Channel
 - Egy SD kártya
 - A [d2x cIOS-telepítő](/assets/files/d2x_cIOS_Installer-vWii.zip)
 
+::: warning
+
 Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-kapcsoló nyitott állásban legyen, különben a telepítőben nem fogod tudni kiválasztani a helyes beállításokat!
-{: .notice--warning}
 
-### Útmutató
+:::
 
-#### I. rész – Telepítés
+## Útmutató
+
+### I. rész – Telepítés
 
 1. Másold át az `apps` mappát a d2x-cios-installer `.zip` fájlból az SD kártyád gyökerébe.
 2. Vedd ki az SD kártyát a PC-dből és rakd be a Wii U-ba.
@@ -58,5 +62,8 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 - Ha végeztél mind a három cIOS telepítésével, nyomd meg a B-gombot a Homebrew Channelbe való visszatéréshez!
 
-Folytatás a [telepítés befejezésével](vwii-finalizing-setup)
-{: .notice--info}
+::: tip
+
+Continue to [Finalizing Setup](vwii-finalizing-setup)
+
+:::
