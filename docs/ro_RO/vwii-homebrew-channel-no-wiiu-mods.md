@@ -1,28 +1,26 @@
----
-title: Installing the Homebrew Channel
----
-
-{% include toc title="Tabel de Conținut" %}
+# Installing the Homebrew Channel
 
 This page will guide you through the process of installing the Homebrew Channel to the vWii without modding the Wii U side.
 
-#### Section I - Booting into Aroma
+## Instrucțiuni
+
+### Section I - Booting into Aroma
 
 1. Execute the web browser exploit as [previously explained](wiiu-nand-dumper) but this time, you will need to hold the X button to open the Environment Loader menu.
 2. Once you are there, boot into the Aroma environment by selecting it inside the payload loader.
 
-#### Section II - Installing the Homebrew Channel
+### Secțiunea II - Instalarea Homebrew Channel
 
-1. Launch the vWii Compat Installer on the Wii U menu.
-2. Press `A` to install the Homebrew Channel and wait until you see `Install succeeded`. Then press the HOME button to return to the Wii U Menu.
-3. Launch vWii (the Wii Menu icon).
-   - If the installation has succeeded, you should see the Homebrew Channel in your Wii Menu.
+1. Lansați vWii Compat Installer pe meniul Wii U.
+2. Apasă `A` pentru a instala Homebrew Channel și așteptați până când vedeți `Install succeeded`. Apoi apasă butonul HOME pentru a reveni la meniul Wii U.
+3. Lansează vWii (pictograma Wii Menu).
+   - Dacă instalarea a reușit, ar trebui să vedeți Homebrew Channel în meniul Wii.
 
 You may delete the `wiiu` folder on your SD card if you so choose.
 
-### Citire necesară
+## Citire necesară
 
-You can now use the Homebrew Channel to launch Wii homebrew apps.
+Acum puteți folosi Homebrew Channel pentru a porni aplicațiile homebrew Wii.
 
 Notă: Când instalezi aplicații homebrew pe cardul tău SD sau unitatea ta USB, structura dosarului tău ar trebui să arate astfel:
 
@@ -39,8 +37,11 @@ Notă: Când instalezi aplicații homebrew pe cardul tău SD sau unitatea ta USB
      ┗ 📄 icon.png
 ```
 
-`AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
+`AppName1` și `AppName2` sunt nume înlocuitoare. Nu crea mai multe dosare `apps` înăuntrul dosarului `apps` în sine.
 Do not get confused with the `apps` folder inside of the `wiiu` folder and the `apps` folder on the root of the SD card.
 
-[Continuați să instalați Priiloader](priiloader)<br>
-{: .notice--info}
+::: tip
+
+[Continue to installing Priiloader](priiloader)
+
+:::
