@@ -1,18 +1,18 @@
----
-title: vWii Modding Guide
----
-
-{% include toc title="Table of Contents" %}
+# vWii Modding Guide
 
 This page will guide you through the process of modding your vWii without modding the Wii U side. Wii U custom firmware will be used for this guide, however, nothing will actually be installed onto the Wii U side itself. You can also visit the [legacy exploits](legacy-exploits) page for more exploits that work on the vWii.
 
+::: info
+
 If your Wii U side is already modded, proceed to [Installing the Homebrew Channel](vwii-homebrew-channel)
-{: .notice--info}
+
+:::
+
+::: info
 
 Your SD Card will need to be formatted as FAT32. If your SD Card is not formatted to FAT32, use [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) with 32k (32768) Allocation unit size to format it. **Do not** label the SD Card as `wiiu` or it will cause issues with homebrew.
-{: .notice--info}
 
-### Requisiti
+## Requisiti
 
 - The latest files from [Aroma for your café](https://aroma.foryour.cafe/).
   - Review the preliminal steps, then check all 4 boxes.
@@ -21,9 +21,9 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
   - Click on `Download Base Aroma`.
 - The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
 
-### Istruzioni
+## Istruzioni
 
-#### Section I - SD Preparations
+### Section I - SD Preparations
 
 1. Insert your Wii U's SD Card into your PC.
 2. Copy the contents of the downloaded Aroma _`.zip`_ files to the root of your SD Card.
@@ -31,8 +31,7 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
 
 SD Card Layout
 
-<details id="Aroma Layout" class="notice--info" markdown="1">
-<summary><a>Click here to show the final SD Card layout.</a></summary>
+::: details Click here to show the final SD Card layout.
 
 ```
 💾sd:
@@ -62,12 +61,15 @@ SD Card Layout
    ┗ 📄 payload.elf
 ```
 
-</details>
+:::
 
-#### Section II - Launching the Exploit
+### Section II - Launching the Exploit
+
+::: info
 
 Make sure your Wii U has internet access for this step.
-{: .notice--info}
+
+:::
 
 1. Take the SD Card out of your computer and plug it into your Wii U console.
 2. Launch the Internet Browser and navigate to the website `wiiuexploit.xyz`.
@@ -75,7 +77,7 @@ Make sure your Wii U has internet access for this step.
    - If your Wii U gets stuck on a white or otherwise frozen screen, wait a few seconds. If nothing happens, reboot the console, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again.
    - If you see the EnvironmentLoader, you did not hold down B long enough. Try again.
 
-#### Section III - NAND Backup
+### Section III - NAND Backup
 
 In case anything goes wrong in the later process and your vWii ends up bricked, restoring a previously made NAND backup can fix it.
 
@@ -91,5 +93,8 @@ In case anything goes wrong in the later process and your vWii ends up bricked, 
 5. Delete the files from your SD Card to free up space.
 6. Take the SD Card out of your computer and plug it into your Wii U console.
 
-[Continue to installing the Homebrew Channel](vwii-homebrew-channel-no-wiiu-mods)<br>
-{: .notice--info}
+::: tip
+
+[Continue to installing the Homebrew Channel](vwii-homebrew-channel-no-wiiu-mods)
+
+:::
