@@ -1,30 +1,39 @@
----
-title: "Homebrew Channel – csak Wii mini-konzolokra"
----
-
-{% include toc title="Tartalomjegyzék" %}
+# Homebrew Channel – csak Wii mini-konzolokra
 
 A Homebrew Channelből lehet nemhivatalos alkalmazásokat futtatni.
 
-### Útmutató
-Ez az oldal **csak** a Wii mini-felhasználóknak szól. Ha egy sima Wiid van, [ezt az útmutatót](hbc) kövesd!
-{: .notice--info}
+## Útmutató
+
+::: warning
+
+This page is **only** intended for users of the Wii mini. If you have a regular Wii, follow [this guide](hbc) instead.
+
+:::
+
+::: info
 
 Ugyan egy Wii minire is lehetséges telepíteni a BootMiit, de egy SD kártya-olvasó felhegesztését igényli. Ehhez különleges szerszámokkal kell kinyitnod a Wii minidet, ezért nem ajánlott.
-{: .notice--info}
+
+:::
 
 1. A telepítő fel fog mutatni egy átverésekre figyelmeztető üzenetet. Várj 30 másodpercet, amíg meg nem jelenik a „Press 1 to continue”-üzenet, majd nyomd meg az 1-es gombot!
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
-1. Nyomd meg a „`Continue`”-gombot, majd az „`Install The Homebrew Channel`”-gombot!
+2. Press `Continue`, then select `Install The Homebrew Channel`.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
-1. A folyamat befejeztével nyomd meg a „`Continue`”-gombot!
-1. Ha végeztél, az „`Exit`”-gombbal kiléphetsz a HackMii-telepítőből.
+3. Press `Continue` when finished.
 
-[Folytatás a Priiloader telepítésével](priiloader) <br> A Priiloader védelmet nyújt a konzol elromlása ellen, ezért erősen javasolt a telepítése.
-{: .notice--info}
+4. Once done, select `Exit` to exit the HackMii installer.
+
+::: tip
+
+[Continue to installing Priiloader](priiloader)
+
+Priiloader offers protection from bricks, and is highly recommended to install.
+
+:::
