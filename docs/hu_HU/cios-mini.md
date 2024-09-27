@@ -1,69 +1,84 @@
----
-title: "d2xl cIOS Wii mini-konzolokra (kísérleti)"
----
+# d2xl cIOS Wii mini-konzolokra (kísérleti)
 
-{% include toc title="Tartalomjegyzék" %}
+::: info
 
-Ha az útmutatóval kapcsolatban segítségre lenne szükséged (angol nyelven), kérjük [csatlakozz a „Wii mini Hacking”-Discord szerverhez](https://discord.gg/6ryxnkS)! (ajánlott)
-{: .notice--info}
+If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
 
-{% capture technical_info %}
-<summary><em>Technikai részletek (nem kötelező)</em></summary> a cIOS („custom IOS” / „egyéni IOS”)-ek egyéni rendszerfunkciók igénybevételét teszik lehetővé. Ugyan a [cIOS](https://wiibrew.org/wiki/Custom_IOS)-eket nagyrészt kiváltotta az AHBPROT, amely teljes hardveres hozzáférést biztosít, az előbbi továbbra is rendelkezik néhány hasznos képességgel. A cIOS-ek pl. lehetővé teszik az USB-betöltők, mint az USB Loader GX és a WiiFlow, és néhány más program, mint a SaveGame Manager GX működését. Az útmutató ezen része nem kötelező, de ajánlott végigcsinálni, hiszen hátrányok nélkül kiterjeszti a Wiid funkcionalitását.
+:::
 
-A d2x cIOS-telepítő ezen változatát eredetileg a Wii U vWiijére készítette DaveBaol, amit a Wii minire Leseratte ültetett át. Az eredeti letöltési oldalt [itt](https://wii.leseratte10.de/d2xl-cIOS/) találhatod meg. Leseratte GitHub-oldalát [itt](https://github.com/Leseratte10/d2xl-cios) találhatod meg. Ugyan ez a cIOS még kísérleti fázisban áll, de még senki sem jelentett a működésével kapcsolatos hibát.
+:::details Technical Details (optional)
 
-{% endcapture %}
-<details>{{ technical_info | markdownify }}</details>
-{: .notice--info}
+A d2x cIOS-telepítő ezen változatát eredetileg a Wii U vWiijére készítette DaveBaol, amit a Wii minire Leseratte ültetett át. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Ugyan ez a cIOS még kísérleti fázisban áll, de még senki sem jelentett a működésével kapcsolatos hibát.
 
-Ez az útmutató csak Wii Mini felhasználóknak szól. <br/> Ha egy Wii-od van, [ezt az útmutatót](cios) kövesd. <br/> Ha egy Wii U-d (vWii) van, [ezt az útmutatót](cios-vwii) kövesd.
-{: .notice--warning}
+:::
+
+::: warning
+
+Ez az útmutató csak Wii Mini felhasználóknak szól.
+
+Ha egy sima Wiid van, [ezt az útmutatót](cios) kövesd!
+
+If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+
+:::
+
+::: warning
 
 Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telepíteni! Ha mégis így tennél, azzal [elronthatod](bricks#ios-brick) a konzolod!
-{: .notice--warning}
 
-### Követelmények
+:::
 
-* Egy Wii mini, amire telepítve van a Homebrew Channel
-* Egy pendrive
-* Leseratte [d2xl cIOS-telepítője](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
+## Követelmények
 
-### Útmutató
+- Egy Wii mini, amire telepítve van a Homebrew Channel
+- Egy USB drive
+- Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
-#### I. rész – Letöltés
+## Útmutató
+
+### I. rész - Letöltés
 
 1. Kapcsold ki a konzolt!
-1. Csatlakoztasd a pendrive-ot a számítógépedbe!
-1. Ha még nem létezik, hozz létre egy `apps`-nevű mappát a pendrive gyökerén!
-1. Másold át a d2xl cIOS Installer `.zip`-fájlban található `d2x-cios-installer`-mappát a pendrive `apps`-mappájába!
-1. Helyezd be a pendrive-ot a konzolba!
-1. Kapcsold be a konzolt!
-1. Indítsd el a Homebrew Channelt!
-1. Indítsd el a listáról a „d2x cIOS Installer”-t!
+2. Csatlakoztasd a pendrive-ot a számítógépedbe!
+3. Create a folder named `apps` on the root of your USB drive if it does not already exist.
+4. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
+5. Helyezd be a pendrive-ot a konzolba!
+6. Kapcsold be a konzolt!
+7. Indítsd el a Homebrew Channelt!
+8. Indítsd el a listáról a „d2x cIOS Installer”-t!
 
-#### II. rész – Telepítés
+### II. rész – Telepítés
 
-1. Nyomd meg a „`Continue`”-gombot!
-1. Állíts be mindent az alábbiak szerint:
-    ```
-    Select cIOS <d2xl-v1-beta2>
-    Select cIOS base <57>
-    Select cIOS slot <249>
-    ```
-    + Jegyezd fel a megjelenő verziószámot (`IOS57-64-`-gyel kezdődik és `v31776`-tal vagy `v31775`-tel ér véget)!
-1. A telepítés indításához nyomd meg az A-gombot!
-    + Ha a telepítés megszakad és a program „`TMD version mismatch`” („Helytelen TMD-verzió”)-hibát ír ki, akkor a vezérlő jobb- és bal nyílgombjaival állítsd át a „`Select cIOS base`” („cIOS alap kiválasztása”)-lehetőséget, amíg meg nem egyezik a korábban felírttal! Az 57-es szám nem változik.
-1. A folyamat végén lépj ki a telepítőből!
+1. Select `Continue`.
+2. Állíts be mindent az alábbiak szerint:
+   ```
+   Select cIOS <d2xl-v1-beta2>
+   Select cIOS base <57>
+   Select cIOS slot <249>
+   ```
+   - Take a note of the version number under notes (`IOS57-64-` ending in either `v31776` or `v31775`)
+3. A telepítés indításához nyomd meg az A-gombot!
+   - If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. Az 57-es szám nem változik.
+4. A folyamat végén lépj ki a telepítőből!
 
-[Folytatás a biztonsági mentés készítésével a RealWnd segítségével](wnd-mini)
-{: .notice--info}
+::: tip
 
-#### A vezetékes internet felállítása
+[Continue to making a NAND Backup using RealWnd](wnd-mini)
 
-Ha a Wii minin vezetékes internettel szeretnéd használni a Wiimmfit, akkor futtatnod kell a Fullmetal5 által készített „[Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip)”-alkalmazást! A futtatáshoz csomagold ki a pendrive-od `apps`-mappájába, majd indítsd el a Homebrew Channelből!
+:::
 
-Minden jelenleg ismert működő vezetékesinternet-adapter az AX88772 chipet használja. Vásárlás előtt ellenőrizd, hogy a termék ilyen chippel rendelkezik! Ez az UGREEN-márkájú adapter biztosan működni fog: [európai Amazon](https://www.amazon.de/dp/B00MYT481C) / [amerikai Amazon](https://a.co/d/3OcSJDS)
-{: .notice--info}
+### A vezetékes internet felállítása
 
-[Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
-{: .notice--info}
+If you wish to use Wiimmfi with Ethernet on a Wii mini, you have to run the [Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) app made by Fullmetal5. To run it, just unzip it in the `apps` folder of your USB drive and run it from the Homebrew Channel.
+
+::: info
+
+Minden jelenleg ismert működő vezetékesinternet-adapter az AX88772 chipet használja. Vásárlás előtt ellenőrizd, hogy a termék ilyen chippel rendelkezik! This one from UGREEN is known to be compatible: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
+
+:::
+
+::: tip
+
+[Click here to go back to the site index.](site-navigation)
+
+:::
