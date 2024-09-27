@@ -1,5 +1,12 @@
 ---
-title: Reindirizzamento...
+head:
+  - - meta
+    - http-equiv: refresh
+      content: 5; URL=https://wiki.hacks.guide/wiki/Wii:Nintendont
 ---
 
-{% include redirect.html redirect_to="410.html" %}
+# Redirecting
+
+Stai per essere reindirizzato alla Hacks Guide Wiki.
+
+If the page doesn't refresh, click [here](https://wiki.hacks.guide/wiki/Wii:Nintendont).
