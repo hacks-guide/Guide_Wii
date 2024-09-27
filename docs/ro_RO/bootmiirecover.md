@@ -48,7 +48,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ## Instrucțiuni
 
-1. Rulează Homebrew Channel.
+1. Launch the Priiloader installer.
 
 2. Apasă pe butonul HOME, apoi alege "Launch BootMii".
 
