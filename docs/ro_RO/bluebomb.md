@@ -75,7 +75,7 @@ Asigură-te că consola este aproape de calculator care rulează exploit-ul, ide
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Oprește consola.
+6. Download the Priiloader installer and LoadPriiloader apps.
 
 7. Pornește Linux-ul și asigură-te că ești conectat la internet.
 
@@ -182,7 +182,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Oprește consola.
+6. Download the Priiloader installer and LoadPriiloader apps.
 
 #### Rasperry Pi Pico W
 
