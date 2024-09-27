@@ -1,5 +1,8 @@
 ---
-title: Redirecting...
+head:
+  - - meta
+    - http-equiv: refresh
+      content: '{% include redirect.html redirect_to="faq.html" %}'
 ---
 
-{% include redirect.html redirect_to="faq.html" %}
+# Redirecting...
