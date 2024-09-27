@@ -1,167 +1,183 @@
----
-title: "Salvări GameCube"
----
-
-{% include toc title="Tabel de Conținut" %}
+# Salvări GameCube
 
 Acesta este un ghid complet despre cum să-ți gestionezi salvările GameCube.
 
+::: info
+
 Folosirea oricărui dispozitiv GameCube cu un Wii Family Edition sau Wii mini necesită sudarea unor porturi GameCube sau/și unor sloturi de card de memorie.
-{: .notice--info}
+
+:::
 
 ## Încărcarea unei Salvări Individuale (Fișier .gci) pe un Card de Memorie Fizic
 
 ### Instrumente necesare
 
-* Un Wii cu porturi GameCube
-* Un Card SD sau USB
-* [GCMM](https://oscwii.org/library/app/gcmm)
+- Un Wii cu porturi GameCube
+- Un Card SD sau USB
+- [GCMM](https://oscwii.org/library/app/gcmm)
 
-Dacă ești în căutarea unor salvări cu completare 100%, le poți găsi [aici](https://gamefaqs.gamespot.com/).
-{: .notice--info}
+::: info
 
-Dacă ești în căutarea unor exploit-uri pentru a rula [Swiss](https://github.com/emukidid/swiss-gc/releases), poți găsi o listă [aici](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
-{: .notice--info}
+If you are looking for 100% completion saves online, you can find them [here](https://gamefaqs.gamespot.com/).
+
+:::
+
+::: info
+
+If you are looking for save game exploits for booting into [Swiss](https://github.com/emukidid/swiss-gc/releases), you can find a list of them [here](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
+
+:::
 
 ### Instrucțiuni
 
 #### Descărcare
 
-1. Extrage GCMM și pune-l în dosarul `apps` din cardul tău SD sau unitatea ta USB.
-1. Pune fișierul `.gci` într-un dosar numit `MCBACKUP` în rădăcina cardului SD sau unității USB.
-1. Introdu cardul SD sau unitatea USB în Wii și rulează GCMM din Homebrew Channel.
+1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
+2. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
+3. Introdu cardul SD sau unitatea USB în Wii și rulează GCMM din Homebrew Channel.
 
 #### Restaurare
 
 1. Introdu cardul tău de memorie fizic în Slot A sau Slot B.
-1. Alege dispozitivul de pe care vrei să restaurezi.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+2. Alege dispozitivul de pe care vrei să restaurezi.
 
-1. În GCMM, apasă X pe un controller GameCube sau + pe un Wii Remote.
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-    ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
+3. În GCMM, apasă X pe un controller GameCube sau + pe un Wii Remote.
 
-1. Alege slotul în care se află cardul tău de memorie.
+   ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+4. Alege slotul în care se află cardul tău de memorie.
 
-1. Alege salvarea pe care vrei s-o restaurezi. Dacă ai mai multe salvări de restaurat, poți apăsa R pe un controller GameCube sau 1 pe un Wii Remote pentru a restaura toate salvările tale.
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-    ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
+5. Alege salvarea pe care vrei s-o restaurezi. Dacă ai mai multe salvări de restaurat, poți apăsa R pe un controller GameCube sau 1 pe un Wii Remote pentru a restaura toate salvările tale.
 
-1. Odată ce restaurarea este completă, apasă orice buton pentru a continua.
+   ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
+
+6. Odată ce restaurarea este completă, apasă orice buton pentru a continua.
 
 ## Crearea unui Backup de Salvare (Fișier .gci) către un SD sau USB de pe un Card de Memorie Fizic
 
 ### Instrumente necesare
 
-* Un Wii cu porturi GameCube
-* Un Card SD sau USB
-* [GCMM](https://oscwii.org/library/app/gcmm)
+- Un Wii cu porturi GameCube
+- Un Card SD sau USB
+- [GCMM](https://oscwii.org/library/app/gcmm)
 
 ### Instrucțiuni
 
 #### Descărcare
 
-1. Extrage GCMM și pune-l în dosarul `apps` din cardul tău SD sau unitatea ta USB.
-1. Pune fișierul `.gci` într-un dosar numit `MCBACKUP` în rădăcina cardului SD sau unității USB.
-1. Introdu cardul SD sau unitatea USB în Wii și rulează GCMM din Homebrew Channel.
+1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
+2. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
+3. Introdu cardul SD sau unitatea USB în Wii și rulează GCMM din Homebrew Channel.
 
 #### Crearea Backup-ului
 
 1. Introdu cardul tău de memorie fizic în Slot A sau Slot B.
-1. Alege dispozitivul unde vrei să creezi backup-ul.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+2. Alege dispozitivul unde vrei să creezi backup-ul.
 
-1. În GCMM, apasă Y pe un controller GameCube sau - pe un Wii Remote.
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-    ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
+3. În GCMM, apasă Y pe un controller GameCube sau - pe un Wii Remote.
 
-1. Alege slotul în care se află cardul tău de memorie.
+   ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+4. Alege slotul în care se află cardul tău de memorie.
 
-1. Alege salvarea căruia vrei să-i creați un backup. Dacă ai mai multe salvări cărora vrei sa le creezi un backup, poți apăsa R pe un controller GameCube sau 1 pe un Wii Remote pentru a crea un backup pentru toate salvările tale.
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-    ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
+5. Alege salvarea căruia vrei să-i creați un backup. Dacă ai mai multe salvări cărora vrei sa le creezi un backup, poți apăsa R pe un controller GameCube sau 1 pe un Wii Remote pentru a crea un backup pentru toate salvările tale.
 
-1. Odată ce procesul de backup este complet, apasă orice buton pentru a continua.
+   ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
+
+6. Odată ce procesul de backup este complet, apasă orice buton pentru a continua.
 
 ## Crearea unui Backup a Cardului tău de Memorie către un Card de Memorie Emulat (fișier .raw)
 
 ### Instrumente necesare
 
-* Un Wii cu porturi GameCube
-* Un Card SD sau USB
-* [GCMM](https://oscwii.org/library/app/gcmm)
+- Un Wii cu porturi GameCube
+- Un Card SD sau USB
+- [GCMM](https://oscwii.org/library/app/gcmm)
 
 ### Instrucțiuni
 
 #### Descărcare
 
-1. Extrage GCMM și pune-l în dosarul `apps` din cardul tău SD sau unitatea ta USB.
-1. Introdu cardul SD sau unitatea USB în Wii și rulează GCMM din Homebrew Channel.
+1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
+2. Introdu cardul SD sau unitatea USB în Wii și rulează GCMM din Homebrew Channel.
 
 #### Extragerea fișierului .raw
 
 1. Introdu cardul tău de memorie în Slot A sau Slot B.
-1. Alege dispozitivul unde vrei să extragi.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+2. Alege dispozitivul unde vrei să extragi.
 
-1. Apasă L și Y în același timp pe un Controller GameCube sau B și - în același timp pe un Wii Remote pentru a crea un backup într-un fișier .raw și alege slotul în care se află cardul tău de memorie.
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+3. Apasă L și Y în același timp pe un Controller GameCube sau B și - în același timp pe un Wii Remote pentru a crea un backup într-un fișier .raw și alege slotul în care se află cardul tău de memorie.
 
-1. Odată ce extragerea este completă, apasă orice buton pentru a continua. Ar trebui să fie salvat într-un dosar din rădăcina cardului tău SD sau unității tale USB numit `MCBACKUP`.
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+
+4. Odată ce extragerea este completă, apasă orice buton pentru a continua. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
 
 ## Restaurarea unei Salvări de Memorie Emulată către un Card de Memorie Fizic
 
 ### Instrumente necesare
 
-* Un Wii cu porturi GameCube
-* Un Card SD sau USB
-* [GCMM](https://oscwii.org/library/app/gcmm)
+- Un Wii cu porturi GameCube
+- Un Card SD sau USB
+- [GCMM](https://oscwii.org/library/app/gcmm)
 
 ### Instrucțiuni
 
-1. Dacă încerci să restaurezi o salvare din Dolphin, mergi la secțiunea `File` în Dolphin, alege "open user folder", deschide dosarul GC și găsește fișierul `.raw`.
-1. Dacă restaurezi o salvare dintr-un card de memorie emulat Nintendont, navighează la dosarul `saves` din rădăcina cardului tău SD sau USB.
-1. Introdu cardul tău de memorie în Slot A sau Slot B.
-1. Alege dispozitivul de pe care vrei să restaurezi.
+1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+2. If you are restoring a Nintendont emulated memory card save, navigate to the `saves` folder on the root of your SD card or USB.
 
-1. Apasă L și X în același timp pe un controller GameCube sau B și + în același timp pe un Wii Remote.
-1. Alege slotul în care se află cardul tău de memorie.
+3. Introdu cardul tău de memorie în Slot A sau Slot B.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+4. Alege dispozitivul de pe care vrei să restaurezi.
 
-1. Ar trebui să restaureze fișierul .raw în cardul tău de memorie. Odată ce restaurarea este completă, apasă orice buton pentru a continua.
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+
+5. Apasă L și X în același timp pe un controller GameCube sau B și + în același timp pe un Wii Remote.
+
+6. Alege slotul în care se află cardul tău de memorie.
+
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+
+7. Ar trebui să restaureze fișierul .raw în cardul tău de memorie. Odată ce restaurarea este completă, apasă orice buton pentru a continua.
 
 ## Transferarea Salvărilor Între 2 Carduri de Memorie Fizice
 
 ### Instrumente necesare
 
-* Un Wii cu porturi GameCube
-* Cel puțin 2 carduri de memorie fizice
+- Un Wii cu porturi GameCube
+- Cel puțin 2 carduri de memorie fizice
 
 ### Instrucțiuni
 
 1. Introdu ambele carduri de memorie în Wii.
-1. Din meniul de Sistem, navighează la `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
 
-    ![](/images/homebrew/gcsaves/sysmenu.jpg) <br>
+2. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
 
-    ![](/images/homebrew/gcsaves/settings.jpg) <br>
+   ![](/images/homebrew/gcsaves/sysmenu.jpg) <br>
 
-    ![](/images/homebrew/gcsaves/data-management.jpg) <br>
+   ![](/images/homebrew/gcsaves/settings.jpg) <br>
 
-    ![](/images/homebrew/gcsaves/save-data.jpg)
+   ![](/images/homebrew/gcsaves/data-management.jpg) <br>
 
-1. Găsește salvarea pe care o vrei, alege-o și apasă pe `Move or Copy`.
+   ![](/images/homebrew/gcsaves/save-data.jpg)
 
-[Apasă aici pentru a reveni la cuprinsul site-ului.](site-navigation)
-{: .notice--info}
+3. Find the save you want, select it and select `Move or Copy`.
+
+::: tip
+
+[Click here to go back to the site index.](site-navigation)
+
+:::
