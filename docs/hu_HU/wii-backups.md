@@ -1,27 +1,36 @@
----
-title: Wii mentések kezelése
----
-
-{% include toc title="Tartalomjegyzék" %}
+# Wii mentések kezelése
 
 Ez az útmutató végigvezet a Wii mentések kezelésének különböző részletein, a CleanRip által kiadott .PART-fájlok összekapcsolásától a játékfájlok zsugorításáig, hogy ráférjenek egy FAT32-eszközre. A továbbiakban két programot fogunk kiemelni: a Wii Backup Managert (Windowsra) és a Wii Backup Fusiont (Linuxra és Mac-re).
 
+::: info
+
 Ha több játékot akarsz tárolni, javasoljuk egy külső háttértár beszerzését a Wiihez. Szinte bármilyen merevlemez vagy SSD valószínűleg megfelel.
-{: .notice--info}
+
+:::
+
+::: info
 
 Egy pendrive használatát nem ajánljuk, mert nagyon kicsik és még ugyanannak a terméknek a különböző példányai is máshogy viselkedhetnek. <br>
 Ha szeretnéd, ehelyett használhatsz egy SD kártyát is, de figyelmeztetünk, hogy a Wii SD kártya-olvasója lassú!
-{: .notice--info}
 
-Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva! Ne formázd más típusokra, mint az exFAT vagy az extFS! <br>
-NTFS-ként formázhatod, de a legtöbb nemhivatalos alkalmazás (pl.: a Homebrew Channel és a Nintendont) ezt nem támogatja.
+:::
 
-### .PART-fájlok összekapcsolása FAT32-eszközökhöz
+::: info
+
+Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva. Ne formázd más típusokra, mint az exFAT vagy az extFS! <br>
+You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
+
+:::
+
+## .PART-fájlok összekapcsolása FAT32-eszközökhöz
+
+::: info
 
 Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó eséllyel legalább két fájlt adott vissza a fájlrendszer korlátozásai miatt, amelyek `.partX.iso`-ban végződnek. Ezeket a fájlokat össze kell kapcsolni (egy támogatott fájlrendszer alatt, mint pl. az NTFS), hogy helyesen be lehessen olvasni őket.
-{: .notice--info}
 
-#### Windowson
+:::
+
+### Windowson
 
 1. Másold át a `.partX.iso`-ban végződő, egyforma nevű fájlokat egy üres mappába a számítógépeden!
 
@@ -39,7 +48,7 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
    ![](/images/desktop-apps/WBM/filemd5.png)
 
-#### macOS-en/Linuxon
+### macOS-en/Linuxon
 
 1. Másold át a `.partX.iso`-ban végződő, egyforma nevű fájlokat egy üres mappába a számítógépeden!
 
@@ -53,14 +62,16 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
    ![](/images/desktop-apps/WBM/mergesuccesslinux.png)
 
-### A Wii Backup Manager használata
+## A Wii Backup Manager használata
 
-#### Követelmények
+### Követelmények
 
 - Egy Windowsos számítógép
 - Egy SD kártya vagy pendrive
 - Egy Wii-játéklemez .iso-formátumú másolata
 - A [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
+
+### Útmutató
 
 #### I. rész – Telepítés
 
@@ -87,15 +98,17 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
    ![](/images/desktop-apps/WBM/transfer_todrive.png)
 
-### A Wii Backup Fusion használata
+## A Wii Backup Fusion használata
 
-#### Követelmények
+### Követelmények
 
 - Egy macOS-es vagy Linuxos számítógép
 - Egy SD kártya vagy pendrive
 - Egy Wii-játéklemez .iso-formátumú másolata
 - A [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
 - A [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)-eszközkészlet
+
+### Útmutató
 
 #### I. rész – Telepítés
 
@@ -131,9 +144,16 @@ Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó esé
 
 7. Másold át a 3. lépésben létrehozott game.wbfs-fájlt az imént létrehozott mappába! Ezek után a lemez használatra kész.
 
-Folytatás a [cIOS-ek telepítéséhez](cios)<br>
-Az USB-betöltők használatához cIOS-ekre lesz szükséged. Ha ezeket telepíted, készen fogsz állni az [USB Loader GX vagy WiiFlow](wii-loaders) használatára, amelyek segítségével játékokat tölthetsz be egy USB-eszközről vagy SD kártyáról.
-{: .notice--info}
+::: tip
 
-[Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
-{: .notice--info}
+[Continue to cIOS](cios)
+
+cIOS is needed for your Wii to use a USB Loader. Ha ezeket telepíted, készen fogsz állni az [USB Loader GX vagy WiiFlow](wii-loaders) használatára, amelyek segítségével játékokat tölthetsz be egy USB-eszközről vagy SD kártyáról.
+
+:::
+
+::: tip
+
+[Click here to go back to the site index.](site-navigation)
+
+:::
