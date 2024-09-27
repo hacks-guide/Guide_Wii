@@ -1,52 +1,54 @@
----
-title: "FlashHax"
----
-
-{% include toc title="Tartalomjegyzék" %}
+# FlashHax
 
 A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül lehet elindítani. A többi módszerrel ellentétben ez nem igényel SD kártyát.
 
-### Követelmények
+## Követelmények
 
-* Egy internetkapcsolattal rendelkező Wii
-* Az Internet Channel
+- Egy internetkapcsolattal rendelkező Wii
+- Az Internet Channel
 
-### Útmutató
+## Útmutató
 
-#### I. rész – Előkészületek
+### I. rész – Előkészületek
 
 1. Kapcsold be a konzolt!
-1. Indítsd el az Internet Channelt!
 
-    ![](/images/exploits/flashhax/internet-channel-start.png)
+2. Indítsd el az Internet Channelt!
 
-1. Látogasd meg a `flashhax.com`-címet!
-1. Válaszd ki a konzolod régióját!
+   ![](/images/exploits/flashhax/internet-channel-start.png)
 
-    ![](/images/exploits/flashhax/select-region.png)
+3. Go to `flashhax.com`.
 
-1. A csillag-gombbal nyisd meg a könyvjelzőkezelőt!
-1. Nyomd meg az `Add Favourite` („Könyvjelző hozzáadása”)-gombot!
+4. Válaszd ki a konzolod régióját!
 
-    ![](/images/exploits/flashhax/bookmark-page.png)
+   ![](/images/exploits/flashhax/select-region.png)
 
+5. A csillag-gombbal nyisd meg a könyvjelzőkezelőt!
 
-#### II. rész – FlashHax
+6. Select `Add Favorite`.
+
+   ![](/images/exploits/flashhax/bookmark-page.png)
+
+### II. rész – FlashHax
 
 1. Nyisd meg az oldalt a könyvjelzőből!
-1. Légy türelemmel!
-    + Eltarthat egy darabig, amíg a telepítő letöltődik.
 
-    ![](/images/exploits/flashhax/wait-for-download.png)
+2. Légy türelemmel!
 
-1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
-    + Lehetséges, hogy ez több próbálkozást is igényelni fog.
-    + Ha a HackMii-telepítő nem indul el és a konzol lefagy (ezt onnan tudod, hogy a mutató megtorpan és nem mozdul meg), akkor indítsd újra a Wiit és kezdd előről ezt a részt!
+   - Eltarthat egy darabig, amíg a telepítő letöltődik.
+
+   ![](/images/exploits/flashhax/wait-for-download.png)
+
+3. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
+   - Lehetséges, hogy ez több próbálkozást is igényelni fog.
+   - Ha a HackMii-telepítő nem indul el és a konzol lefagy (ezt onnan tudod, hogy a mutató megtorpan és nem mozdul meg), akkor indítsd újra a Wiit és kezdd előről ezt a részt!
 
 Ha több próbálkozás után sem működik, próbáld törölni a böngésző sütijeit vagy az Internet Channel játékmentését!
 
-Ha további próbálkozások után sem működik, javasoljuk, hogy próbálj meg [egy másik módszert](get-started)!
+If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
 
+::: tip
 
-[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
-{: .notice--info}
+[Continue to Homebrew Channel and BootMii Installation](hbc)
+
+:::
