@@ -1,44 +1,49 @@
----
-title: "转储 WAD"
----
-
-{% include toc title="Table of Contents" %}
+# 转储 WAD
 
 本教程将向您解释如何从 Wii 系统内存中转储 WAD。
 
-### 需要
+## 需要
 
-+ 一张 SD 卡或 U 盘
-+ [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
+- 一张 SD 卡或 U 盘
+- [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-### Instructions
+## 步骤
 
-1. Power off your console.
-1. Insert your SD card or USB drive into your computer.
-1. 将 Yet Another BlueDump MOD 解压到 SD 卡或 U 盘。
-1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
-1. 启动 Homebrew Channel。
-1. 将 SD 卡或 U 盘插入 Wii，并从 Homebrew Channel 启动 Yet Another BlueDump MOD。
-1. 请按 A 键。
+1. 关闭 Wii。
 
-    ![](/images/homebrew/DumpWADS/1.png)
+2. Insert your SD card or USB drive into your computer.
 
-1. 选择 `Installed Channel Titles`。
+3. Copy the `apps` folder from the Yet Another BlueDump MOD `.zip` to the root of your SD card or USB drive.
 
-    ![](/images/homebrew/DumpWADS/2.png)
+4. 将 SD 卡插入 Wii，然后从 Homebrew Channel 启动 CleanRip。
 
-1. 找到您想要转储的内容，然后按 1。
+5. Power on your console.
+
+6. 启动 Wii 上的 Homebrew Channel。
+
+7. 将 SD 卡或 U 盘插入 Wii，并从 Homebrew Channel 启动 Yet Another BlueDump MOD。
+
+8. 请按 A 键。
+
+   ![](/images/homebrew/DumpWADS/1.png)
+
+9. Select `Installed Channel Titles`.
+
+   ![](/images/homebrew/DumpWADS/2.png)
+
+10. 找到您想要转储的内容，然后按 1。
 
     ![](/images/homebrew/DumpWADS/3.png)
 
-1. 选择 `Backup to WAD`。
+11. Select `Backup to WAD`.
 
     ![](/images/homebrew/DumpWADS/4.png)
 
-1. 在提示您进行 `Fakesign the ticket` 时，请选择 `Yes`。
-1. 在提示您进行 `Fakesign the TMD` 时，请选择 `No`。
-1. 在提示您是否要 `Change the output WAD region` 时，请选择 `No`。
+12. At the prompt to `Fakesign the ticket`, select `Yes`.
+
+13. At the prompt to `Fakesign the TMD`, select `No`.
+
+14. At the prompt to `Change the output WAD region`, select `No`.
 
     ![](/images/homebrew/DumpWADS/5.png)
 
@@ -48,5 +53,8 @@ The WAD has now been dumped, and should appear at the specified directory on you
 
 ![](/images/homebrew/DumpWADS/7.png)
 
+::: tip
+
 [Click here to go back to the site index.](site-navigation)
-{: .notice--info}
+
+:::
