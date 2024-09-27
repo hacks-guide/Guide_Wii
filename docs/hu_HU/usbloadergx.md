@@ -1,5 +1,8 @@
 ---
-title: Átirányítás…
+head:
+  - - meta
+    - http-equiv: refresh
+      content: 0; URL=wii-loaders.html
 ---
 
-{% include redirect.html redirect_to="wii-loaders.html" %}
+# Redirecting

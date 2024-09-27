@@ -1,90 +1,103 @@
----
-title: "str2hax"
----
+# str2hax
 
-{% include toc title="Tartalomjegyzék" %}
+::: warning
 
-Fontos tudnod, hogyha az ISP-d vagy a hálózati környezeted nem engedi, hogy egyéni DNS szervert használj, az str2hax nem fog működni és [egy másik exploitot kell választanod](get-started).
-{: .notice--warning}
+Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
+
+:::
 
 Az str2hax egy exploit a Wii-hoz amit a Wii End User License Agreement betöltése vált ki. Nincs szüksége másra csak internet kapcsolatra, ami lehetővé teszi, hogy módosítsd a DNS-t a Wii-n.
 
+::: warning
+
 Ha telepítettél modokat, mint a CTGP Revolution vagy Project+, az str2hax előfordulhat, hogy elindul helyettük. Ha ez előfordul, indtsd újra a Wii-t és próbáld újra behelyzett SD kártya nélkül.
-{: .notice--warning}
 
-### Követelmények
+:::
 
-* Egy internetkapcsolattal rendelkező Wii
+## Követelmények
 
-### Útmutató
+- Egy internetkapcsolattal rendelkező Wii
 
-#### I. rész – Csatlakozás
+## Útmutató
+
+### I. rész – Csatlakozás
 
 Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, hogy ahhoz a szerverhez csatlakozzon, ami tartalmazza az exploitot.
 
 1. Kapcsold be a konzolt!
-1. Menj a `Wii Options`-höz.
 
-    ![](/images/riiconnect24/Internet_1.png)
+2. Go to `Wii Options`.
 
-1. Nyisd meg a konzol beállításait (`Wii Settings`)!
+   ![](/images/riiconnect24/Internet_1.png)
 
-    ![](/images/riiconnect24/Internet_2.png)
+3. Go to `Wii Settings`.
 
-1. Navigálj a `Page 2` -> `Internet` -> `Connection Settings` opcióig.
+   ![](/images/riiconnect24/Internet_2.png)
 
-    ![](/images/riiconnect24/Internet_3.png)
+4. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
 
-    ![](/images/riiconnect24/Internet_4.png)
+   ![](/images/riiconnect24/Internet_3.png)
 
-1. Kattints a hálózati kapcsolatod slot-jára és navigálj a `Change Settings` opcióhoz.
+   ![](/images/riiconnect24/Internet_4.png)
 
-    ![](/images/riiconnect24/Internet_5.png)
+5. Click on your network connection slot and navigate to `Change Settings`.
 
-    ![](/images/riiconnect24/Internet_6.png)
+   ![](/images/riiconnect24/Internet_5.png)
 
-1. Állítsd be az `Auto-Obtain DNS`-t `No`-ra, majd kattints az `Advanced Settings`-re.
+   ![](/images/riiconnect24/Internet_6.png)
 
-    ![](/images/riiconnect24/Internet_7.png)
+6. Set `Auto-Obtain DNS` to `No`, then click `Advanced Settings`.
 
-1. Állítsd be a Primary DNS-t `3.143.163.250`-re.
+   ![](/images/riiconnect24/Internet_7.png)
 
-    ![](/images/exploits/str2hax/dns.png)
+7. Set the Primary DNS to `3.143.163.250`.
 
-    Ha három mező van 2 helyett (mint fent), menj vissza és ellenőrizd, hogy az `Auto-Obtain DNS` oldalon vagy-e.
-    {: .notice--warning}
+   ![](/images/exploits/str2hax/dns.png)
 
-1. Kattints a `Confirm`-ra, majd a `Save`-re.
+   ::: warning
 
-    ![](/images/riiconnect24/Internet_10.png)
+   If there are 3 fields instead of 2 (like above), go back and make sure you are on the `Auto-Obtain DNS` page.
 
-1. Ha kérdezi, kattints az `OK`-ra, hogy végrehajtsd a csatlakozási tesztet.
+   :::
 
-    ![](/images/riiconnect24/Internet_11.png)
+8. Click `Confirm`, then click `Save`.
 
-    ![](/images/riiconnect24/Internet_12.png)
+   ![](/images/riiconnect24/Internet_10.png)
 
-    + Ha a catlakozái teszt sikeres volt, válaszd a `No`-t, hogy átugord a Wii System Update-et.
-    + Ha hibára fut `521xx` hibakóddal, kérjülk ellenőrizd, hogy pontosan adtad-e meg a DNS-t.
-    + Ha továbbra is sikertelen, kérjük [használj egy másik exploitot](get-started).
+9. When prompted, click `OK` to perform the connection test.
 
-#### II. rész - Az exploit kiváltása
+   ![](/images/riiconnect24/Internet_11.png)
 
-1. Navigálj az `Internet` -> `User Agreements` vagy `Agreement/Contact` opcióhoz.
-1. Válaszd a `Yes`-t.
-1. Kattints a `Next`-re.
-    + A következő képernyővel kell üdvözöljön:
+   ![](/images/riiconnect24/Internet_12.png)
 
-    ![](/images/exploits/str2hax/EULA.png)
+   - If the connection test was successful, select `No` to skip the Wii System Update.
+   - If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
+   - If it is still unsuccessful, please [use another exploit](get-started).
 
-    + Ha a nomrál User Agreements-et kapod, az ISP-d blokkolja az egyedi DNS-t. Próbálj meg egy másik kapcsolatot vagy [használj egy másik exploit-ot](get-started).
+### II. rész - Az exploit kiváltása
 
-1. Adj az exploitnak 1-2 percet a letöltésre (és ne nyomd meg az `I ACCEPT`/`I DO NOT ACCEPT`-et).
-1. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
+1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
 
-    ![](/images/hackmii/scam.png)
+2. Select `Yes`.
 
-    + Ha a HackMii Installer nem tölt be 2 perc után vagy hibát kapsz, mint `Hanging.` vagy `ERROR! if_config (ret = ...)`, kérjük indítsd újra a Wii-od és próbáld újra.
+3. Click on `Next`.
 
-[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
-{: .notice--info}
+   - A következő képernyővel kell üdvözöljön:
+
+   ![](/images/exploits/str2hax/EULA.png)
+
+   - Ha a nomrál User Agreements-et kapod, az ISP-d blokkolja az egyedi DNS-t. Try another connection, or [use another exploit](get-started).
+
+4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
+
+5. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
+
+   ![](/images/hackmii/scam.png)
+
+   - If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+
+::: tip
+
+[Continue to Homebrew Channel and BootMii Installation](hbc)
+
+:::

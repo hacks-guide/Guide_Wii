@@ -1,59 +1,78 @@
----
-title: "LetterBomb"
----
-
-{% include toc title="Table of Contents" %}
+# LetterBomb
 
 LetterBomb è un exploit del Wii che viene provocato usando la Bacheca Wii.
 
-Per istruzioni su come formattare la tua scheda SD correttamente, per favore consulta [questa guida](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). È altamente consigliato controllare a causa dei problemi di formattare in FAT32.
-{: .notice--info}
+::: info
+
+For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). È altamente consigliato controllare a causa dei problemi di formattare in FAT32.
+
+:::
+
+::: warning
 
 NON usare NESSUN indirizzo MAC mostrato negli esempi di questa guida, perchè causeranno semplicemente un errore nel sito di HackMii. Usa il tuo!
-{: .notice--warning}
 
-### Requisiti
-* An SD card formatted as FAT32 that is 32GB or less
-* Un Wii con versione di sistema 4.3
-* Un computer Windows/MacOS/Linux con una connessione a internet
+:::
 
-### Istruzioni
+## Requisiti
+
+- An SD card formatted as FAT32 that is 32GB or less
+- Un Wii con versione di sistema 4.3
+- Un computer Windows/MacOS/Linux con una connessione a internet
+
+## Istruzioni
 
 1. Accendi la console.
-1. Vai sulle `Impostazioni console Wii`.
-1. Prendi nota nell'angolo in alto a destra della lettera vicino alla versione di sistema.
-    + Questa lettera corrisponde alla regione del tuo menu di sistema, che dovrai sapere per i passaggi corrispondenti.
-    + Assicurati, anche, che ti trovi sulla versione di sistema 4.3.
 
-    ![](/images/wii/SystemMenuVersion.png)
+2. Go to `Wii Settings`.
 
-1. Naviga in `Internet` > `Informazioni console Wii`.
-1. Prendi nota del tuo indirizzo MAC COMPLETO.
+3. Prendi nota nell'angolo in alto a destra della lettera vicino alla versione di sistema.
 
-    ![](/images/wii/MacAddress.png)
+   - Questa lettera corrisponde alla regione del tuo menu di sistema, che dovrai sapere per i passaggi corrispondenti.
+   - Assicurati, anche, che ti trovi sulla versione di sistema 4.3.
 
-1. Sul tuo computer, apri il tuo browser e vai sul [sito di HackMii](https://please.hackmii.com/).
-1. Inserisci l'indirizzo MAC e la regione del tuo Wii.
-1. Assicurati che `Bundle the HackMii Installer for me!` sia attivato.
-1. Taglia entrambi i cavi.
+   ![](/images/wii/SystemMenuVersion.png)
 
-    ![](/images/exploits/letterbomb/LetterBomb-PC.png)
+4. Navigate to `Internet` > `Console Information`.
 
-1. Inserisci la scheda SD nel tuo computer.
-1. Copia la cartella `private` e il file `boot.elf` dall'archivio `.zip` di LetterBomb al root della tua scheda SD.
-1. Reinserisci la scheda SD nella tua console.
-    + La scheda SD deve essere inserita nello slot SD posizionato nella parte anteriore del Wii. Usare un adattatore da USB a SD inserito nella porta USB del Wii non funzionerà.
-1. Sul tuo Wii, ritorna al Menu Wii.
-1. Avvia la Bacheca Wii.
-1. Apri la lettera rossa con all'interno una bomba.
-    + Assicurate che la data del tuo Wii sia corretta, o potresti non trovare la lettera.
-    + In alcuni casi, la lettera potrebbe trovarsi nei messaggi per domani o ieri.
-    + Se non vedi la lettera rossa, controlla se appaiono degli errori nella sezione della scheda SD della `Gestione Dati`. Se appaiono, ci potrebbe essere un problema con il formato della scheda SD o con il lettore SD del Wii.
-    + Se il tuo Wii si blocca dopo aver cliccato sulla lettera, hai probabilmente scelto la regione sbagliata del menu di sistema per LetterBomb. Torna al Passaggio 2 e verifica di aver scelto la regione giusta.
-    + Se è tutto corretto e il blocco persiste, riprova finchè non funziona.
-1. Se l'exploit ha avuto successo, il tuo Wii avrà avviato l'HackMii Installer.
+5. Prendi nota del tuo indirizzo MAC COMPLETO.
+
+   ![](/images/wii/MacAddress.png)
+
+6. On your computer, open the browser and go to [the HackMii website](https://please.hackmii.com/).
+
+7. Inserisci l'indirizzo MAC e la regione del tuo Wii.
+
+8. Ensure `Bundle the HackMii Installer for me!` is checked.
+
+9. Taglia entrambi i cavi.
+
+   ![](/images/exploits/letterbomb/LetterBomb-PC.png)
+
+10. Inserisci la scheda SD nel tuo computer.
+
+11. Copy the `private` folder and the `boot.elf` file from the LetterBomb `.zip` to the root of your SD card.
+
+12. Reinserisci la scheda SD nella tua console.
+    - La scheda SD deve essere inserita nello slot SD posizionato nella parte anteriore del Wii. Usare un adattatore da USB a SD inserito nella porta USB del Wii non funzionerà.
+
+13. Sul tuo Wii, ritorna al Menu Wii.
+
+14. Avvia la Bacheca Wii.
+
+15. Apri la lettera rossa con all'interno una bomba.
+    - Assicurate che la data del tuo Wii sia corretta, o potresti non trovare la lettera.
+    - In alcuni casi, la lettera potrebbe trovarsi nei messaggi per domani o ieri.
+    - If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. Se appaiono, ci potrebbe essere un problema con il formato della scheda SD o con il lettore SD del Wii.
+    - Se il tuo Wii si blocca dopo aver cliccato sulla lettera, hai probabilmente scelto la regione sbagliata del menu di sistema per LetterBomb. Torna al Passaggio 2 e verifica di aver scelto la regione giusta.
+    - Se è tutto corretto e il blocco persiste, riprova finchè non funziona.
+
+16. Se l'exploit è andato a buon fine, ti ritroverai dentro l'HackMii Installer.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
-[Continua all'Installazione dell'Homebrew Channel e di BootMii](hbc)
-{: .notice--info}
+::: tip
+
+[Continue to Homebrew Channel and BootMii Installation](hbc)
+
+:::

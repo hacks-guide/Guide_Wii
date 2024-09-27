@@ -1,112 +1,139 @@
----
-title: "Priiloader"
----
+# Priiloader
 
-{% include toc title="Tartalomjegyzék" %}
-
-A [Priiloader](https://github.com/DacoTaco/priiloader) egy elhanyagolhatatlan alkalmazás, amelyet [DacoTaco](https://github.com/DacoTaco) fejlesztett ki a Wiik valamilyen szintű elromlásbiztosítása érdekében. A program még a Wii rendszermenü betöltése előtt indul el. A programot arra is felhasználhatod, hogy különböző javításokat alkalmazz a rendszermenüre.
+[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii. A program még a Wii rendszermenü betöltése előtt indul el. A programot arra is felhasználhatod, hogy különböző javításokat alkalmazz a rendszermenüre.
 
 Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii indításának befolyásolására is használható.
 
-### Követelmények
+## Követelmények
 
-* Egy SD kártya vagy pendrive
-* A [Priiloader-telepítő](https://oscwii.org/library/app/priiloader) (méghozzá a `.zip`-fájl)
-* A [Priiloader-betöltő](https://oscwii.org/library/app/loadpriiloader) (ugyancsak a `.zip`-fájl)
+- Egy SD kártya vagy pendrive
+- [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
+- [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
 
-#### Egyéb követelmények vWiihez (nem kötelező, de erősen ajánlott)
+### Egyéb követelmények vWiihez (nem kötelező, de erősen ajánlott)
 
-* Egy SD kártya
-* A [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (közvetlen letöltés)
-    * A Priiloader Wii U Forwarder működéséhez az [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) is szükséges.
+- Egy SD kártya
+- [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
+  - [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
 
-### Útmutató
+## Útmutató
 
-#### I. rész – Előkészületek
+### I. rész – Előkészületek
 
 1. Kapcsold ki a konzolt!
-1. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
-1. Helyezd át az `apps`-mappát a LoadPriiloader `.zip`-fájlból az SD kártya vagy pendrive gyökerére!
-1. Helyezd át az `apps`-mappát a priiloader `.zip`-fájlból az SD kártya vagy pendrive gyökerére!
-1. (Csak ha vWii-vel dolgozol:) Helyezd át a `wiiu`-mappát a PriiloaderWiiUForwarder `.zip`-fájlból az SD kártya gyökerére!
-1. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
+2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
+3. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
+4. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
+5. (vWii only) Copy the `wiiu` folder from the PriiloaderWiiUForwarder `.zip` to the root of your SD card.
+6. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
-#### II. rész – A Priiloader telepítése
+### II. rész – A Priiloader telepítése
 
 1. Kapcsold be a konzolt!
-1. Indítsd el a Homebrew Channelt!
-1. Indítsd el a homebrew listáról a „Priiloader Installer”-t.
 
-    ![](/images/hbc/priiloader-and-loadpriiloader.png)
+2. Indítsd el a Homebrew Channelt!
 
-1. Nyomd meg a +-gombot a Wii Remote-on vagy az A-gombot a GameCube-vezérlőn!
+3. Indítsd el a homebrew listáról a „Priiloader Installer”-t.
 
-    ![](/images/priiloader/installer.png)
+   ![](/images/hbc/priiloader-and-loadpriiloader.png)
 
-    ![](/images/priiloader/installing.png)
+4. Nyomd meg a +-gombot a Wii Remote-on vagy az A-gombot a GameCube-vezérlőn!
 
-1. Nyomd meg az A-gombot a Homebrew Channelbe való visszatéréshez!
+   ![](/images/priiloader/installer.png)
 
-#### III. rész – A Priiloader indítása
+   ![](/images/priiloader/installing.png)
+
+5. Nyomd meg az A-gombot a Homebrew Channelbe való visszatéréshez!
+
+### III. rész – A Priiloader indítása
 
 1. Nyomd meg a HOME-gombot, majd válaszd ki az „Exit to System Menu”-gombot a Homebrew Channelbe való visszatéréshez!
-1. A konzol most meg fogja nyitni a Priiloader menüjét.
+2. A konzol most meg fogja nyitni a Priiloader menüjét.
 
-    ![](/images/priiloader/menu.png)
+   ![](/images/priiloader/menu.png)
 
 A későbbi indításhoz kövesd az alábbi lépéseket:
 
-+ A Wii bekapcsolása közben tartsd nyomva a RESET-gombot!
-    + Csak Wii-konzolokon
-+ A konzol bekapcsolása közben tartsd nyomva az Esc-gombot egy csatlakoztatott USB-s billentyűzeten!
-    + Wii, Wii mini és Wii U konzolokon
-+ Indítsd el a „Load Priiloader”-programot a Homebrew Channelből!
-    + Wii, Wii mini és Wii U konzolokon
-+ Indítsd el a „Priiloader Wii U Forwarder”-programot!
-    + Csak Wii U konzolokon
+- A Wii bekapcsolása közben tartsd nyomva a RESET-gombot!
+  - Csak Wii-konzolokon
+- A konzol bekapcsolása közben tartsd nyomva az Esc-gombot egy csatlakoztatott USB-s billentyűzeten!
+  - Wii, Wii mini és Wii U konzolokon
+- Indítsd el a „Load Priiloader”-programot a Homebrew Channelből!
+  - Wii, Wii mini és Wii U konzolokon
+- Indítsd el a „Priiloader Wii U Forwarder”-programot!
+  - Csak Wii U konzolokon
 
-#### IV. rész – A Priiloader beállítása
+### IV. rész – A Priiloader beállítása
 
-1. Görgess le, amíg meg nem látod a „`System Menu Hacks`”-menüpontot és válaszd ki az `A`-gombbal!
+1. Scroll down to `System Menu Hacks` and press `A`.
 
-    ![](/images/priiloader/menu_hacks.png)
+   ![](/images/priiloader/menu_hacks.png)
 
-    Ha a Priiloader-telepítőt a pendrive-odra helyezted, bizonyosodj meg róla, hogy ne legyen behelyezve egy SD kártya is! <br> Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a `hacks_hash.ini`-fájlt.
-    {: .notice--warning}
+   ::: warning
 
-1. A konzolod típusa alapján az alábbi beállításokat kell engedélyezned:
-    + Wii:
-        + Ha 480p-s módban vagy: `480p graphics fix in the system menu` (480p-s grafikus javítások a rendszermenühöz)
-        + Block Disc Updates (lemezes frissítések letiltása)
-        + Block Online Updates (internetes frissítések letiltása)
-        + Ha NEM katódsugárcsöves kijelzőt használsz: `Remove Deflicker` (villódzáscsökkentő szűrő eltávolítása)
-    + vWii:
-        + Block Online Updates (internetes frissítések letiltása)
-        + Wii System Settings via Options Button (Wii-rendszerbeállítások megnyitása az Options-gombbal)
-        + Ha NEM katódsugárcsöves kijelzőt használsz: `Remove Deflicker` (villódzáscsökkentő szűrő eltávolítása)
-    + Wii mini:
-        + Block Disc Updates (lemezes frissítések letiltása)
-        + Ha NEM katódsugárcsöves kijelzőt használsz: `Remove Deflicker` (villódzáscsökkentő szűrő eltávolítása)
-1. Ha végeztél, a mentéshez görgess le és válaszd ki a „`save settings”`-menüpontot az A-gombbal!
-1. Végezetül, nyomd meg a `B`-gombot a főmenübe való visszatéréshez!
+   Ha a Priiloader-telepítőt a pendrive-odra helyezted, bizonyosodj meg róla, hogy ne legyen behelyezve egy SD kártya is! <br>
+   Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
-A Priiloader további lehetőségeiről és javításairól való tájékozódáshoz keresd fel a [Priiloader használata](priiloader-usage)-oldalt!
-{: .notice--info}
+   :::
 
-[Az elrontáskiküszöbölési segédlet megtekintése](bricks#brick-prevention)<br> Ebben a segédletben elolvashatod, hogy mit tehetsz a Wiid elrontásának elkerüléséhez, a BootMii és Priiloader telepítésén kívül.
-{: .notice--info}
+2. A konzolod típusa alapján az alábbi beállításokat kell engedélyezned:
+   - Wii:
+     - If you are using 480p mode: `480p graphics fix in the system menu`
+     - Block Disc Updates (lemezes frissítések letiltása)
+     - Block Online Updates (internetes frissítések letiltása)
+     - If you are NOT using a CRT display: `Remove Deflicker`
+   - vWii:
+     - Block Online Updates (internetes frissítések letiltása)
+     - Wii System Settings via Options Button (Wii-rendszerbeállítások megnyitása az Options-gombbal)
+     - If you are NOT using a CRT display: `Remove Deflicker`
+   - Wii mini:
+     - Block Disc Updates (lemezes frissítések letiltása)
+     - If you are NOT using a CRT display: `Remove Deflicker`
 
-### Wii: További lépések
+3. Scroll down to `save settings` and press A.
 
-Folytatás [cIOS-sel](cios)<br> Ez az útmutató végigvezet az alap cIOS-ek telepítésén, ami további funkciókat fog lehetővé tenni, többek között az USB-betöltőknél.
-{: .notice--info}
+4. Press `B` to return to the main menu.
 
-### vWii: További lépések
+::: info
 
-Folytatás [vWii cIOS-sel](cios-vwii)<br> Ez az útmutató végigvezet az alap cIOS-ek telepítésén, ami további funkciókat fog lehetővé tenni, többek között az USB-betöltőknél.
-{: .notice--info}
+You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
 
-### Wii mini: További lépések
+:::
 
-Folytatás [Wii mini cIOS-sel](cios-mini)<br> Ez az útmutató végigvezet az alap cIOS-ek telepítésén, ami további funkciókat fog lehetővé tenni, többek között az USB-betöltőknél.
-{: .notice--info}
+::: info
+
+[View the Brick Prevention Guidelines](bricks#brick-prevention)
+
+These guidelines list ways that will help avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
+
+:::
+
+## Wii: További lépések
+
+::: tip
+
+Continue to [cIOS](cios)
+
+This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
+
+:::
+
+## vWii: További lépések
+
+::: tip
+
+Continue to [vWii cIOS](cios-vwii)
+
+This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
+
+:::
+
+## Wii mini: További lépések
+
+::: tip
+
+Continue to [Wii mini cIOS](cios-mini)
+
+This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders.
+
+:::

@@ -1,17 +1,16 @@
----
-title: Ripristinare la NAND della Wii all'originale (stock)
----
-
-{% include toc title="Table of Contents" %}
+# Ripristinare la NAND della Wii all'originale (stock)
 
 Questa guida spiega come creare una NAND stock per il tuo sistema Wii utilizzando un programma chiamato Ohneschwanzenegger. Unlike the `Format Wii System Memory` option in the Wii settings, this will completely wipe any changes to the NAND by downloading a stock Wii System Menu from NUS servers. If followed correctly, the Wii should have no homebrew left on the system, stock IOSes, and boot up to a factory setup screen when the NAND is flashed.
 
 Please note that this program **needs** an existing (even bricked!) NAND backup to function, as it needs to have a copy of the first 8 blocks of NAND, a bad blocks list, and AES/HMAC keys.
 
-Non eseguire le istruzioni di questo tutorial sulla vWii della Wii U.
-{: .notice--info}
+::: info
 
-{% capture here-be-dragons %}
+Non eseguire le istruzioni di questo tutorial sulla vWii della Wii U.
+
+:::
+
+::: danger
 
 The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and should only be considered as a LAST RESORT or if you are trying to do any of the following:
 
@@ -19,14 +18,15 @@ The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and sh
 - Fix a brick where you do not have a functional NAND backup or access to the Homebrew Channel but can still make one using BootMii.
 - You are unable to revert certain changes to the Wii System Memory such as all cIOS with DARKCORP.
 
-{% endcapture %}
+:::
 
-<div class="notice--danger">{{ here-be-dragons | markdownify }}</div>
+::: warning
 
 If you are trying to [update your Wii to 4.3U](update) with homebrew or update outdated homebrew/IOS, you most likely do not need to follow this guide. Instead, you can use a tool like the SysCheck Updater Wizard built into [ModMii](modmii#syscheck-updater-wizard). If you are confused about this process, consider joining the Nintendo Homebrew discord server for support.
-{: .notice--warning}
 
-### Requisiti
+:::
+
+## Requisiti
 
 - Una scheda SD con un spazio disponibile minimo di 512MB (1GB o più sono consigliati)
 - A [NAND backup](bootmii) from the specific system you are trying to flash
@@ -34,9 +34,9 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
 - [Nand BIN Checker](/assets/files/nandBinCheck.zip)
 
-### Istruzioni
+## Istruzioni
 
-#### Section I - Preparation
+### Section I - Preparation
 
 1. Start Ohneschwanzenegger. You may get a Windows SmartScreen prompt, this is a false positive and you can run the program anyway by pressing `More info` and `Run anyway`.
 
@@ -52,7 +52,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
    ![](/images/factory-reset/renamenand.png)
 
-#### Section II - Creating a Blank NAND
+### Section II - Creating a Blank NAND
 
 1. Now that the NAND is loaded into the program, select `Content` on the toolbar and then press Format. This will initialize your BLANK NAND, not your backup NAND.
 
@@ -74,7 +74,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
    ![](/images/factory-reset/finalsteps.png)
 
-#### Section III - Verifying the NAND
+### Section III - Verifying the NAND
 
 1. If NAND Bin Checker is not already in the same directory as Ohneschwanzenegger, copy it there now. Then, open a terminal in that directory. Run the following command: `.\nandBinCheck.exe .\blankNand.bin`. If you named the NAND something else, adjust the command accordingly. The program will then check the validity of the NAND.
 
@@ -88,6 +88,10 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
    ![](/images/factory-reset/nandname.png)
 
+::: tip
+
 [Continue to BootMii Recovery](bootmiirecover)
+
 Now that you have a blank NAND, you can restore it on your Wii using BootMii.
-{: .notice--info}
+
+:::

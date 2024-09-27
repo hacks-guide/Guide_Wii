@@ -1,8 +1,4 @@
----
-title: Folosirea Priiloader
----
-
-{% include toc title="Tabel de Conținut" %}
+# Folosirea Priiloader
 
 Priiloader este un tool esențial care adaugă un nivel de protecție la „brick” consolei tale Wii. Acesta se încarcă înaintea lui Wii System Menu. Acest tool poate aplica și modificări ce sunt folosite pentru îmbunătățirea, deblocare și/sau repararea unor funcții din System Menu.
 
@@ -10,79 +6,94 @@ Priiloader este un tool esențial care adaugă un nivel de protecție la „bric
 
 Această pagină prezintă câteva funcții utile ale Priiloader care ar putea fi de interes.
 
-### Hack-uri pentru System Menu
+## Hack-uri pentru System Menu
 
-Priiloader are o selecție mare de opțiuni care, odată activată, schimbă modul de folosire a console Wii la una din alegerile tale. Mai multe informații despre fiecare hack [aici](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks). În plus, poți vizita [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) care conține informații mai relevante despre hack-urile din System Menu.
+Priiloader are o selecție mare de opțiuni care, odată activată, schimbă modul de folosire a console Wii la una din alegerile tale. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks). Addditionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
 
-### Opțiuni suplimentare
+## Opțiuni suplimentare
 
 Acestea sunt niște lucruri suplimentare pe care le poți face cu Priiloader pentru a îmbunătăți experiența de homebrew. Acest lucru este opţional.
 
-#### Autobotare cu Priiloader
+### Autobotare cu Priiloader
 
 Priiloader îți permite să pornești automat în Homebrew Channel, o aplicație de homebrew sau Priiloader în sine. Acest lucru este opţional.
 
-##### Autobootare o aplicatie Hoembrew
+#### Autobootare o aplicatie Hoembrew
 
-<div id="autobooting-usbloadergx" class="notice--warning" markdown="1">
+::: warning
+
 Dacă ți-ar plăcea să autobootezi USB loader GX, fă acest lucru mai întâi:
-  + Descarcă WAD-ul USB Loader GX ([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
-  + Descarcă [UNEO Channel Booter pentru Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
-  + Instalează WAD-ul cu un WAD manager ca [YAWM ModMii Edition](yawmme).
-  + Extrage fișierul `UNEO Channel Booter for Priiloader.zip` oriunde.
-  + Copiază `uneoboot.dol` în directorul principal al cardului SD.
-Vei instala `uneoboot.dol` în pasul 3.
-</div>
+
+- Download the USB Loader GX forwarder WAD ([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
+- Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
+- Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
+- Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
+- Copy `uneoboot.dol` to the root of your SD card.
+
+You will be installing `uneoboot.dol` in step 3.
+
+:::
 
 1. Deschide Homebrew Channel
-1. Deschide „Load Priiloader” din lista de aplicații homebrew.
-1. Mergi la opțiunea `Load/Install file` și apasă A.
 
-    ![](/images/priiloader/menu_install_file.png)
+2. Deschide „Load Priiloader” din lista de aplicații homebrew.
 
-1. Mergi prin meniu până când aplicația homebrew dorită este evidențiată, apoi apasă A pentru instalare.
+3. Scroll down to `Load/Install file` and press A.
 
-    ![](/images/priiloader/installing_file.png)
+   ![](/images/priiloader/menu_install_file.png)
 
-    ![](/images/priiloader/installing_file_ok.png)
+4. Mergi prin meniu până când aplicația homebrew dorită este evidențiată, apoi apasă A pentru instalare.
 
-1. Apasă `B` pentru a te întoarce în meniul principal.
-1. Derulează în jos până la `Settings` și apasă A.
+   ![](/images/priiloader/installing_file.png)
 
-    ![](/images/priiloader/menu_settings.png)
+   ![](/images/priiloader/installing_file_ok.png)
 
-1. Apasă dreapta pentru a parcurge opțiunile Autoboot până ce opțiunea `Installed file` este selectat.
+5. Press `B` to return to the main menu.
 
-    ![](/images/priiloader/autoboot_installed_file.png)
+6. Scroll down to `Settings` and press A.
 
-1. Derulează în jos până la `save settings` și apasă A.
+   ![](/images/priiloader/menu_settings.png)
 
-    ![](/images/priiloader/settings_save.png)
+7. Press Right to cycle through the Autoboot options until `Installed file` is selected.
 
-1. Apasă `B` pentru a te întoarce în meniul principal.
-1. Scroll înapoi la `System Menu` apoi apasă A.
+   ![](/images/priiloader/autoboot_installed_file.png)
+
+8. Scroll down to `save settings` and press A.
+
+   ![](/images/priiloader/settings_save.png)
+
+9. Press `B` to return to the main menu.
+
+10. Scroll back up to `System Menu` and press A.
 
 Wii-ul tău ar trebui să pornească automat în oricare aplicație de homebrew instalată.
 
-##### Autobootare Homebrew Channel sau Priiloader
+#### Autobootare Homebrew Channel sau Priiloader
 
 1. Deschide Homebrew Channel
-1. Deschide „Load Priiloader” din lista de aplicații homebrew.
-1. Derulează în jos până la `Settings` și apasă A.
 
-    ![](/images/priiloader/menu_settings.png)
+2. Deschide „Load Priiloader” din lista de aplicații homebrew.
 
-1. Apasă dreapta pentru a parcurge opțiunile Autoboot până ce opțiunea dorită este selectat.
-    + Dezactivat va autoboota în meniul Priiloader.
+3. Scroll down to `Settings` and press A.
 
-    Te rog nu seta Autoboot la `BootMii IOS`. Vei rămâne blocat într-o buclă până când ții continuu butonul RESET pentru a intra în meniul Priiloader.
-    {: .notice--warning}
+   ![](/images/priiloader/menu_settings.png)
 
-    ![](/images/priiloader/autoboot_disabled.png)
+4. Apasă dreapta pentru a parcurge opțiunile Autoboot până ce opțiunea dorită este selectat.
 
-1. Derulează în jos până la `save settings` și apasă A.
+   - Dezactivat va autoboota în meniul Priiloader.
 
-    ![](/images/priiloader/settings_save.png)
+   ::: warning
 
-1. Apasă `B` pentru a te întoarce în meniul principal.
-1. Scroll înapoi la `System Menu` apoi apasă A.
+   Please don't set Autoboot to `BootMii IOS`. Vei rămâne blocat într-o buclă până când ții continuu butonul RESET pentru a intra în meniul Priiloader.
+
+   :::
+
+   ![](/images/priiloader/autoboot_disabled.png)
+
+5. Scroll down to `save settings` and press A.
+
+   ![](/images/priiloader/settings_save.png)
+
+6. Press `B` to return to the main menu.
+
+7. Scroll back up to `System Menu` and press A.

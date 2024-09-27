@@ -1,43 +1,45 @@
----
-title: "Instalarea Homebrew Channel pe Dolphin Emulator"
----
+# Instalarea Homebrew Channel pe Dolphin Emulator
 
-{% include toc title="Tabel de Conținut" %}
+On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily installed through Dolphin itself. Odată ce este gata, Homebrew Channel poate fi instalat, deși nu în aceeași manieră ca un Wii fizic.
 
-Pe versiunea Dolphin Emulator `5.0-4588` sau mai târziu, Wii Menu poate fi instalat ușor cu acesta. Odată ce este gata, Homebrew Channel poate fi instalat, deși nu în aceeași manieră ca un Wii fizic.
+## Instrumente necesare
 
-### Instrumente necesare
+- Un calculator Windows/MacOS/Linux cu conexiune la Internet
+- [Dolphin Emulator](https://dolphin-emu.org/download/) version `5.0-4588` or later
+- The latest version of [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
 
-* Un calculator Windows/MacOS/Linux cu conexiune la Internet
-* [Dolphin Emulator](https://dolphin-emu.org/download/) versiunea `5.0-4588` sau mai târziu
-* Cea mai recentă versiune de [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
+## Instrucțiuni
 
-### Instrucțiuni
+1. If you have not already done so, install the Wii Menu on Dolphin Emulator by going to `Tools > Perform System Update`.
 
-1. Dacă nu ai făcut deja acest lucru, instalează Wii Menu în Dolphin Emulator mergând la `Tools > Perform System Update`.
+   ![](/images/homebrew-dolphin/system-update.png)
 
-    ![](/images/homebrew-dolphin/system-update.png)
+2. Download `Open_HBC_(version)_LULZ.wad` from the page linked above.
 
-1. Descarcă `Open_HBC_(version)_LULZ.wad` din pagina de mai sus.
-1. Deschide Dolphin Emulator.
-1. Selectează `Tools > Install WAD` și selectează fișierul `Open_HBC_(version)_LULZ.wad` care a fost descărcat.
+3. Deschide Dolphin Emulator.
 
-    ![](/images/homebrew-dolphin/ohbc-file.png)
+4. Select `Tools > Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
 
-1. Selectează `Tools >  Load Wii System Menu`. Canalul trebuie să apară acum.
+   ![](/images/homebrew-dolphin/ohbc-file.png)
 
-    ![](/images/homebrew-dolphin/hbc-installed.png)
+5. Select `Tools > Load Wii System Menu`. Canalul trebuie să apară acum.
 
-### Post-instalare, instalarea aplicațiilor homebrew prin Open Shop Channel
+   ![](/images/homebrew-dolphin/hbc-installed.png)
 
-1. Descarcă Open Shop Channel [here](https://oscwii.org/library/app/homebrew_browser) pentru utilizarea în Dolphin. Alternativ, poți obține OSCDL și să faci acest proces manual.
-1. Oprește emulatorul (dacă rulează), și deschide fereastra `Config > Wii` în Dolphin Emulator.
-1. Activează `Automatically Sync with Folder`. Opțional, poate dorești să adjustezi `Dimensiunea Fișierului cu Cardul SD` la un parametru mai mare - cu toate acestea, opțiunea `Auto` ar trebui să fie în regulă.
-1. Deschide `SD Sync Folder`. În Windows, acest lucru poate fi făcut cu ușurință prin inserarea folder-ului path în Start Menu, Windows Explorere, sau Run.
-1. Extrage orice aplicație homebrew în folder-ul `WiiSDSync`. Rezultatul final ar trebui să arate cam așa:
+## Post-instalare, instalarea aplicațiilor homebrew prin Open Shop Channel
 
-    ![](/images/homebrew-dolphin/apps-folder.png)
+1. Download the Open Shop Channel [here](https://oscwii.org/library/app/homebrew_browser) for usage in Dolphin. Alternativ, poți obține OSCDL și să faci acest proces manual.
 
-1. Deschide Wii Menu apoi Homebrew Channel. Noile aplicații instalate ar trebui să apară!
+2. Stop the emulation (if running), and open the `Config > Wii` window in Dolphin Emulator.
 
-    ![](/images/homebrew-dolphin/hbc-apps.png)
+3. Enable `Automatically Sync with Folder`. Optionally, you may also want to adjust the `SD Card File Size` to a larger parameter - however in most cases `Auto` should be fine.
+
+4. Open the `SD Sync Folder`. În Windows, acest lucru poate fi făcut cu ușurință prin inserarea folder-ului path în Start Menu, Windows Explorere, sau Run.
+
+5. Extract any homebrew apps to the `WiiSDSync` folder. Rezultatul final ar trebui să arate cam așa:
+
+   ![](/images/homebrew-dolphin/apps-folder.png)
+
+6. Deschide Wii Menu apoi Homebrew Channel. Noile aplicații instalate ar trebui să apară!
+
+   ![](/images/homebrew-dolphin/hbc-apps.png)

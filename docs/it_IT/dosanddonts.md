@@ -1,5 +1,8 @@
 ---
-title: Reindirizzamento...
+head:
+  - - meta
+    - http-equiv: refresh
+      content: 0; URL=faq.html
 ---
 
-{% include redirect.html redirect_to="faq.html" %}
+# Redirecting

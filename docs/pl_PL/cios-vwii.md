@@ -1,39 +1,42 @@
----
-title: d2x cIOS for vWii
----
+# d2x cIOS for vWii
 
-{% include toc title="Table of Contents" %}
+:::details Technical Details (optional)
 
-{% capture technical_info %}
-
-<summary><em>Technical Details (optional)</em></summary>
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
-{% endcapture %}
+:::
 
-<details>{{ technical_info | markdownify }}</details>
-{: .notice--info}
+::: warning
 
-This guide is only intended for Wii U users. <br/>
-If you have a Wii, follow [this guide](cios) instead. <br/>
+This guide is only intended for Wii U users.
+
+If you have a Wii, follow [this guide](cios) instead.
+
 If you have a Wii mini, follow [this guide](cios-mini) instead.
-{: .notice--warning}
+
+:::
+
+::: warning
 
 Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing so will likely [brick](bricks#ios-brick) your console.
-{: .notice--warning}
 
-### Requirements
+:::
+
+## Requirements
 
 - A Wii U with the Homebrew Channel installed on the vWii
 - An SD card
 - The [d2x cIOS Installer](/assets/files/d2x_cIOS_Installer-vWii.zip).
 
+::: warning
+
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
-{: .notice--warning}
 
-### Instructions
+:::
 
-#### Section I - Installing
+## Instructions
+
+### Section I - Installing
 
 1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card.
 2. Eject the SD card from your PC and insert it into the Wii U.
@@ -59,5 +62,8 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 - Once you have finished with all 3 cIOSes, press B to return to the Homebrew Channel.
 
+::: tip
+
 Continue to [Finalizing Setup](vwii-finalizing-setup)
-{: .notice--info}
+
+:::

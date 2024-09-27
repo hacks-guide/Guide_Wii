@@ -1,43 +1,45 @@
----
-title: "Installare l'Hombrew Channel sull'Emulatore Dolphin"
----
+# Installare l'Hombrew Channel sull'Emulatore Dolphin
 
-{% include toc title="Table of Contents" %}
+On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily installed through Dolphin itself. Una volta fatto ciò, l'Homebrew Channel può essere installato, anche se non con lo stesso procedimento di un Wii fisico.
 
-Sulle versioni `5.0-4588` o superiori dell'Emulatore Dolphin, il Menu Wii può essere facilmente installato attraverso Dolphin stesso. Una volta fatto ciò, l'Homebrew Channel può essere installato, anche se non con lo stesso procedimento di un Wii fisico.
+## Requisiti
 
-### Requisiti
+- Un computer Windows/MacOS/Linux con una connessione a internet
+- [Dolphin Emulator](https://dolphin-emu.org/download/) version `5.0-4588` or later
+- The latest version of [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
 
-* Un computer Windows/MacOS/Linux con una connessione a internet
-* L'[Emulatore Dolphin](https://dolphin-emu.org/download/) versione `5.0-4588` o superiore
-* La versione più recente di [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
+## Istruzioni
 
-### Istruzioni
+1. If you have not already done so, install the Wii Menu on Dolphin Emulator by going to `Tools > Perform System Update`.
 
-1. Se non lo hai ancora fatto, installa il Menu Wii sull'Emulatore Dolphin andando su `Tools > Perform System Update`.
+   ![](/images/homebrew-dolphin/system-update.png)
 
-    ![](/images/homebrew-dolphin/system-update.png)
+2. Download `Open_HBC_(version)_LULZ.wad` from the page linked above.
 
-1. Scarica `Open_HBC_(version)_LULZ.wad` dal link sopracitato.
-1. Avvia l'Emulatore Dolphin.
-1. Seleziona `Tools > Install WAD` e seleziona il file `Open_HBC_(version)_LULZ.wad` che hai scaricato prima.
+3. Avvia l'Emulatore Dolphin.
 
-    ![](/images/homebrew-dolphin/ohbc-file.png)
+4. Select `Tools > Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
 
-1. Seleziona `Tools > Load Wii System Menu`. Adesso il canale dovrebbe apparire.
+   ![](/images/homebrew-dolphin/ohbc-file.png)
 
-    ![](/images/homebrew-dolphin/hbc-installed.png)
+5. Select `Tools > Load Wii System Menu`. Adesso il canale dovrebbe apparire.
 
-### Post-Installazione, installare Applicazioni Homebrew con l'Open Shop Channel
+   ![](/images/homebrew-dolphin/hbc-installed.png)
 
-1. Scarica [qui](https://oscwii.org/library/app/homebrew_browser) l'Open Shop Channel per l'utilizzo in Dolphin. In alternativa, puoi ottenere OSCDL ed eseguire questo processo manualmente.
-1. Ferma l'emulazione (se è in esecuzione) e apri la finestra `Config > Wii` nell'Emulatore Dolphin.
-1. Abilita `Automatically Sync with Folder`. Opzionalmente, puoi anche inserire un parametro più alto in `SD Card File Size` - anche se in molti casi `Auto` dovrebbe andare bene.
-1. Apri `SD Sync Folder`. Su Windows, questo può essere fatto facilmente incollando il percorso della cartella nel Menu Start, Windows Explorer, o Esegui.
-1. Estrai qualsiasi applicazione homebrew tu voglia nella cartella `WiiSDSync`. Il risultato finale dovrebbe assomigliare a questo:
+## Post-Installazione, installare Applicazioni Homebrew con l'Open Shop Channel
 
-    ![](/images/homebrew-dolphin/apps-folder.png)
+1. Download the Open Shop Channel [here](https://oscwii.org/library/app/homebrew_browser) for usage in Dolphin. In alternativa, puoi ottenere OSCDL ed eseguire questo processo manualmente.
 
-1. Avvia il Menu Wii e apri l'Homebrew Channel. Le tue nuove applicazioni installate dovrebbero apparire!
+2. Stop the emulation (if running), and open the `Config > Wii` window in Dolphin Emulator.
 
-    ![](/images/homebrew-dolphin/hbc-apps.png)
+3. Enable `Automatically Sync with Folder`. Optionally, you may also want to adjust the `SD Card File Size` to a larger parameter - however in most cases `Auto` should be fine.
+
+4. Open the `SD Sync Folder`. Su Windows, questo può essere fatto facilmente incollando il percorso della cartella nel Menu Start, Windows Explorer, o Esegui.
+
+5. Extract any homebrew apps to the `WiiSDSync` folder. Il risultato finale dovrebbe assomigliare a questo:
+
+   ![](/images/homebrew-dolphin/apps-folder.png)
+
+6. Avvia il Menu Wii e apri l'Homebrew Channel. Le tue nuove applicazioni installate dovrebbero apparire!
+
+   ![](/images/homebrew-dolphin/hbc-apps.png)

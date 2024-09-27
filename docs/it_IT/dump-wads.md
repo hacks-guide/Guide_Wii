@@ -1,44 +1,49 @@
----
-title: "Come eseguire backup digitali di file WAD"
----
-
-{% include toc title="Table of Contents" %}
+# Come eseguire backup digitali di file WAD
 
 Questa guida ti mostrerà come preservare file wad dalla Memoria di Sistema della console Wii.
 
-### Requisiti
+## Requisiti
 
-+ Una scheda SD o Dispositivo USB
-+ [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
+- Una scheda SD o Dispositivo USB
+- [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-### Istruzioni
+## Istruzioni
 
-1. Spegni la tua console.
-1. Inserisci la scheda SD o il dispositivo USB nel tuo computer.
-1. Copia la cartella `apps` dall'archivio `.zip` di Yet Another BlueDump MOD nella root della tua scheda SD o dispositivo USB.
-1. Reinserisci la scheda SD o dispositivo USB nella tua console.
-1. Accendi la console.
-1. Avvia l'Homebrew Channel.
-1. Avvia l'app Yet Another BlueDump MOD.
-1. Premi A.
+1. Spegni la console.
 
-    ![](/images/homebrew/DumpWADS/1.png)
+2. Inserisci la scheda SD o dispositivo USB nel tuo computer.
 
-1. Seleziona `Installed Channel Titles`.
+3. Copy the `apps` folder from the Yet Another BlueDump MOD `.zip` to the root of your SD card or USB drive.
 
-    ![](/images/homebrew/DumpWADS/2.png)
+4. Reinserisci la tua scheda SD o dispositivo USB nella tua console.
 
-1. Trova il contenuto che vuoi scaricare e premi 1 sul telecomando Wii.
+5. Accendi la console.
+
+6. Avvia l'Homebrew Channel.
+
+7. Avvia l'app Yet Another BlueDump MOD.
+
+8. Premi A.
+
+   ![](/images/homebrew/DumpWADS/1.png)
+
+9. Select `Installed Channel Titles`.
+
+   ![](/images/homebrew/DumpWADS/2.png)
+
+10. Trova il contenuto che vuoi scaricare e premi 1 sul telecomando Wii.
 
     ![](/images/homebrew/DumpWADS/3.png)
 
-1. Seleziona `Backup to WAD`.
+11. Select `Backup to WAD`.
 
     ![](/images/homebrew/DumpWADS/4.png)
 
-1. All'opzione `Fakesign the ticket`, seleziona `Si`.
-1. All'opzione `Fakesign the TMD`, seleziona `No`.
-1. All'opzione `Change the output WAD region`, seleziona `No`.
+12. At the prompt to `Fakesign the ticket`, select `Yes`.
+
+13. At the prompt to `Fakesign the TMD`, select `No`.
+
+14. At the prompt to `Change the output WAD region`, select `No`.
 
     ![](/images/homebrew/DumpWADS/5.png)
 
@@ -48,5 +53,8 @@ La WAD ora è stata dumpata, e dovrebbe apparire nella cartella specifica della 
 
 ![](/images/homebrew/DumpWADS/7.png)
 
-[Clicca qui per tornare alla Navigazione del Sito.](site-navigation)
-{: .notice--info}
+::: tip
+
+[Click here to go back to the site index.](site-navigation)
+
+:::

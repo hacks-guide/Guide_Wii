@@ -1,43 +1,46 @@
----
-title: "YAWM ModMii Edition"
----
+# YAWM ModMii Edition
 
-{% include toc title="Tartalomjegyzék" %}
+A YAWM ModMii Edition egy alkalmazás, ami telepíteni tud WAD fájlokat és elindítani homebrew alkalmazásokat.
+Ez az útmutató az mutatja be, hogyan telepíthetsz WAD fájlokat.
 
-A YAWM ModMii Edition egy alkalmazás, ami telepíteni tud WAD fájlokat és elindítani homebrew alkalmazásokat. Ez az útmutató az mutatja be, hogyan telepíthetsz WAD fájlokat.
+## Követelmények
 
-### Követelmények
-* Egy SD kártya vagy pendrive
-* [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
+- Egy SD kártya vagy pendrive
+- [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Útmutató
+## Útmutató
 
-#### I. rész – Letöltés
+### I. rész - Letöltés
 
-1. Töltsd le és csomagold ki a YAWM ModMii Edition `.zip` fájlt az SD kártya vagy pendrive gyökerére.
-1. Csatlakoztasd az SD kártyát vagy a pendrive-ot a Wiihez, majd indítsd el a YAWM ModMii Edition-t.
+1. Download and extract the YAWM ModMii Edition `.zip` to the root of your SD card or USB drive.
+2. Csatlakoztasd az SD kártyát vagy a pendrive-ot a Wiihez, majd indítsd el a YAWM ModMii Edition-t.
 
-#### II. rész – WAD-ok telepítése
+### II. rész – WAD-ok telepítése
 
 1. Válaszd ki a forrás eszközt, ahol megtalálhatók a WAD fájlok, amiket telepteni szeretnél.
 
-    ![](/images/homebrew/yawmME/source_device.png)
+   ![](/images/homebrew/yawmME/source_device.png)
 
-1. Navigálj a mappába ahol a WAD fájlok vannak.
-    + Ha van már `wad`, mappád, akkor automatikusan megnyílik.
+2. Navigálj a mappába ahol a WAD fájlok vannak.
 
-    ![](/images/homebrew/yawmME/file_selection.png)
+   - If you have a folder named `wad`, it will be opened automatically.
 
-1. Navigálj a WAD fájlhoz, amit telepteni szeretnél, majd nyomj `A` gombot.
-    + Ha szeretnél több WAD fájl telepíteni egyszerre, nyomj `+`-t mindegyiken, majd nyomj `A` gombot.
+   ![](/images/homebrew/yawmME/file_selection.png)
 
-    ![](/images/homebrew/yawmME/install_wad.png)
+3. Navigate to the WAD file you would like to install and press `A`.
 
-1. Nyomj A gombot újra a WAD-ok telepítéséhez.
+   - If you would like to install multiple WAD files at once, press `+` on each of them, then press `A`.
 
-    ![](/images/homebrew/yawmME/installing_wad.png)
+   ![](/images/homebrew/yawmME/install_wad.png)
 
-    ![](/images/homebrew/yawmME/installing_wad_ok.png)
+4. Nyomj A gombot újra a WAD-ok telepítéséhez.
 
-[Kattints ide a tartalomjegyzékhez való visszatéréshez!](site-navigation)
-{: .notice--info}
+   ![](/images/homebrew/yawmME/installing_wad.png)
+
+   ![](/images/homebrew/yawmME/installing_wad_ok.png)
+
+::: tip
+
+[Click here to go back to the site index.](site-navigation)
+
+:::

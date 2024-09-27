@@ -1,30 +1,39 @@
----
-title: "Homebrew Channel - for Wii mini only"
----
+# Homebrew Channel - for Wii mini only
 
-{% include toc title="條目內容" %}
+You can now use the Homebrew Channel to launch homebrew apps. Open Shop Channel is a one-stop shop for downloading homebrew, which you will learn how to install further in this guide.
 
-The Homebrew Channel is where you will go to launch homebrew applications.
+## Instructions
 
-### Instructions
-This page is **only** intended for users of the Wii mini. If you have a regular Wii, follow [this guide](hbc) instead. This page is **only** intended for users of the Wii mini. If you have a regular Wii, follow [this guide](hbc) instead. If you have a regular Wii, follow [this guide](hbc) instead.
-{: .notice--info}
+::: warning
+
+This page is **only** intended for users of the Wii mini. If you have a regular Wii, follow [this guide](hbc) instead.
+
+:::
+
+::: info
 
 While it is possible to install BootMii on a Wii mini, you will need to solder an SD card slot. That requires opening up your Wii mini and using special tools, so it is not recommended. That requires opening up your Wii mini and using special tools, so it is not recommended. That requires opening up your Wii mini and using special tools, so it is not recommended.
-{: .notice--info}
+
+:::
 
 1. You will see a scam warning screen. You will see a scam warning screen. You will see a scam warning screen. Wait 30 seconds for the text "Press 1 to continue" to appear, then press 1.
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
-1. Press `Continue`, then select `Install The Homebrew Channel`.
+2. Press `Continue`, then select `Install The Homebrew Channel`.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
-1. Press `Continue` when finished.
-1. Once done, select `Exit` to exit the HackMii installer.
+3. Press `Continue` when finished.
 
-[繼續至安裝 Priiloader](priiloader) <br> Priiloader 提供防磚保護，強烈建議安裝。
-{: .notice--info}
+4. Once done, select `Exit` to exit the HackMii installer.
+
+::: tip
+
+[Continue to installing Priiloader](priiloader)
+
+Priiloader offers protection from bricks, and is highly recommended to install.
+
+:::
