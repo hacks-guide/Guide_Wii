@@ -23,7 +23,7 @@ Dacă ai BootMii instalat ca boot2, va trebui să repornești consola pentru a r
 
 1. Pornește consola.
 
-2. Rulează Homebrew Channel.
+2. Launch the Priiloader installer.
 
 3. Apasă pe butonul HOME, apoi alege "Launch BootMii".
 
