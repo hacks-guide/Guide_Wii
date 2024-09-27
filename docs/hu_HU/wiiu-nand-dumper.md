@@ -1,18 +1,18 @@
----
-title: vWii Modding útmutató
----
-
-{% include toc title="Tartalomjegyzék" %}
+# vWii Modding útmutató
 
 Ez az útmutató végig vezet a vWii moddolásán a Wii U oldal móddolása nélkül. A Wii U egyéni firmware-ét fogjuk használni ehhez az útmutatóhoz, azonban magára a Wii U oldalra nem lesz telepítve semmi. A [legacy exploits](legacy-exploits) oldalra is ellátogathatsz, ahol további, a vWii-n működő exploitokat találsz.
 
-Ha a Wii U oldal már moddolt, folytasd a [Homebrew Channel telepítésével](vwii-homebrew-channel)
-{: .notice--info}
+::: info
+
+If your Wii U side is already modded, proceed to [Installing the Homebrew Channel](vwii-homebrew-channel)
+
+:::
+
+::: info
 
 Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32 formátumra lett formázva, használd a GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)-ot 32k (32768) allokációs egységmérettel a formázáshoz. **Ne** címkézd fel az SD kártyát `wiiu`-ként, különben problémákat okoz a homebrew-val.
-{: .notice--info}
 
-### Követelmények
+## Követelmények
 
 - A legutolsó fájlok az [Aroma for your café](https://aroma.foryour.cafe/) oldalról.
   - Olvasd el a megelőző lépéseket, majd pipáld be mind a négy dobozt.
@@ -21,9 +21,9 @@ Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32 formá
   - Kattints a `Download Base Aroma`-ra.
 - A [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller) legutolsó kiadása.
 
-### Útmutató
+## Útmutató
 
-#### I. rész - SD kártya előkészítés
+### I. rész - SD kártya előkészítés
 
 1. Helyezd be a Wii U-d SD kártyáját a PC-dbe.
 2. Másold a tartalmát a letöltött Aroma _`.zip`_ fájlnak az SD kártyád gyökerébe.
@@ -31,8 +31,7 @@ Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32 formá
 
 SD kártya kiosztás
 
-<details id="Aroma Layout" class="notice--info" markdown="1">
-<summary><a>Kattints ide végső SD kártya kiosztás megtekintéséhez.</a></summary>
+::: details Click here to show the final SD Card layout.
 
 ```
 💾sd:
@@ -62,12 +61,15 @@ SD kártya kiosztás
    ┗ 📄 payload.elf
 ```
 
-</details>
+:::
 
-#### II. rész - Az exploit indítása
+### II. rész - Az exploit indítása
+
+::: info
 
 Biztosítsd, hogy a Wii U-dnak legyen internet hozzáférése ennél a lépésnél.
-{: .notice--info}
+
+:::
 
 1. Vedd ki az SD kártyád a számítógépedből, majd dugd vissza a Wii U konzolodba.
 2. Indítsd el az Internet Browser-t és navogált a `wiiuexploit.xyz` weboldalra.
@@ -75,7 +77,7 @@ Biztosítsd, hogy a Wii U-dnak legyen internet hozzáférése ennél a lépésn�
    - Ha a Wii U-d megál egy fehér vagy más módon lefagyott képernyőnél, várj pár másodpercet. Ha semmi nem történi, bootold újra a konzolt, [és töröld a böngésző mentés adatát](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history), majd próbáld újra.
    - Ha az EnvironmentLoader-t látod, nem tartottad elég hosszan nyomva a B gombot. Próbáld újra.
 
-#### III. rész - NAND mentés
+### III. rész - NAND mentés
 
 Ha valami rosszul sül el a későbbi folyamatban és a vWii brickelődik, a visszaállítása egy korábban készített NAND mentésből megjavítja azt.
 
@@ -91,5 +93,8 @@ Ha valami rosszul sül el a későbbi folyamatban és a vWii brickelődik, a vis
 5. Töröld a fájloat az SD kártyádról hely felszabadításához.
 6. Vedd ki az SD kártyád a számítógépedből, majd dugd vissza a Wii U konzolodba.
 
-[Folytatás a Homebrew Channel telepítésével](vwii-homebrew-channel-no-wiiu-mods)<br>
-{: .notice--info}
+::: tip
+
+[Continue to installing the Homebrew Channel](vwii-homebrew-channel-no-wiiu-mods)
+
+:::
