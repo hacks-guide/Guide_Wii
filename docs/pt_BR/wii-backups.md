@@ -1,28 +1,35 @@
----
-title: Managing Wii Backups
----
-
-{% include toc title="Sumário" %}
+# Managing Wii Backups
 
 This guide provides instructions on how to manage your Wii backups, from joining .PART files that are output through CleanRip, to shrinking game files that can be copied onto a FAT32 device. Two programs that can be used to manage your Wii backups are Wii Backup Manager (for Windows) and Wii Backup Fusion (for Linux and MacOS) and are covered below.
 
+::: info
+
 Para armazenar vários jogos, é recomendado o uso de um armazenamento externo para seu Wii. A maioria encontrados no mercado deve funcionar normalmente.
-{: .notice--info}
+
+:::
+
+::: info
 
 Drives de flash não são recomendados, por serem pequenos e poderem variar de comportamento mesmo entre o mesmo produto. <br>
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
-{: .notice--info}
 
-Certifique-se de que seu armazenamento USB está formatado como FAT32. Do not format it as other types such as exFAT or extFS. <br>
-You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
-{: .notice--info}
+:::
 
-### Juntando arquivos PART em um dispositivo FAT32
+::: info
+
+Certifique-se de que seu armazenamento USB está formatado como FAT32. Do not format it as other types such as exFAT or extFS. <br> Você pode formatá-lo para NTFS, mas não vai funcionar com a maioria dos apps (ex. Homebrew Channel, Nintendont)
+
+:::
+
+## Juntando arquivos PART em um dispositivo FAT32
+
+::: info
 
 If your disc was dumped to a FAT32 device, you should have gotten at least two files that end with `.partX.iso`, due to filesystem limitations. They need to be joined (on a supported filesystem like NTFS) so the file can be read correctly.
-{: .notice--info}
 
-#### Windows
+:::
+
+### Windows
 
 1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
 
@@ -40,7 +47,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
    ![](/images/desktop-apps/WBM/filemd5.png)
 
-#### macOS/Linux
+### macOS/Linux
 
 1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
 
@@ -54,14 +61,16 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
    ![](/images/desktop-apps/WBM/mergesuccesslinux.png)
 
-### Using Wii Backup Manager
+## Using Wii Backup Manager
 
-#### Requisitos
+### Requisitos
 
 - Um PC executando Windows
 - Um armazenamento USB ou cartão SD
 - A dumped ISO from a Wii game disc
 - [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
+
+### Instruções
 
 #### Section I - Installation
 
@@ -88,15 +97,17 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
    ![](/images/desktop-apps/WBM/transfer_todrive.png)
 
-### Using Wii Backup Fusion
+## Using Wii Backup Fusion
 
-#### Requisitos
+### Requisitos
 
 - A PC running MacOS or Linux
 - Um armazenamento USB ou cartão SD
 - A dumped ISO from a Wii game disc
 - [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
+
+### Instruções
 
 #### Section I - Installation
 
@@ -132,9 +143,16 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 7. Copy the game.wbfs file that was made in Step 3 to this new folder. The drive should be ready to use on a Wii.
 
-[Continue to cIOS](cios)<br>
+::: tip
+
+[Continue to cIOS](cios)
+
 cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use [USB Loader GX or WiiFlow](wii-loaders) to play games from your USB drive or SD card.
-{: .notice--info}
+
+:::
+
+::: tip
 
 [Click here to go back to the site index.](site-navigation)
-{: .notice--info}
+
+:::
