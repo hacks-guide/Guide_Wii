@@ -1,39 +1,42 @@
----
-title: d2x cIOS pentru vWii
----
+# d2x cIOS pentru vWii
 
-{% include toc title="Tabel de Conținut" %}
+:::details Technical Details (optional)
 
-{% capture technical_info %}
+cIOS (Custom IOS) are IOS that are patched to allow custom functionality. Chiar dacă [cIOS-ul](https://wiibrew.org/wiki/Custom_IOS) a fost în mare înlocuit de AHBPROT, care oferă acces complet a hardware-ului, acesta încă are aplicații folositoare. De exemplu, acesta permite folosirea unor USB loader-e precum USB Loader GX și WiiFlow, precum și alte aplicații homebrew precum SaveGame Manager GX. Poți sări acest proces dacă vrei, dar în general îți îmbunătățește consola Wii fără niciun dezavantaj.
 
-<summary><em>Detalii Tehnice (opțional)</em></summary>
-cIOS (IOS Custom) sunt IOS-uri modificate, care permit funcționalitatea custom. Chiar dacă [cIOS-ul](https://wiibrew.org/wiki/Custom_IOS) a fost în mare înlocuit de AHBPROT, care oferă acces complet a hardware-ului, acesta încă are aplicații folositoare. De exemplu, acesta permite folosirea unor USB loader-e precum USB Loader GX și WiiFlow, precum și alte aplicații homebrew precum SaveGame Manager GX. Poți sări acest proces dacă vrei, dar în general îți îmbunătățește consola Wii fără niciun dezavantaj.
+:::
 
-{% endcapture %}
+::: warning
 
-<details>{{ technical_info | markdownify }}</details>
-{: .notice--info}
+This guide is only intended for Wii U users.
 
-This guide is only intended for Wii U users. <br/>
-If you have a Wii, follow [this guide](cios) instead. <br/>
-If you have a Wii mini, follow [this guide](cios-mini) instead.
-{: .notice--warning}
+Dacă ai un Wii, urmărește în schimb [acest ghid](cios).
+
+Dacă ai un Wii mini, urmărește în schimb [acest ghid](cios-mini).
+
+:::
+
+::: warning
 
 Nu încerca să instalezi un IOS Wii/Wii mini sau System Menu pe un vWii. Făcând acest lucru este foarte probabil să cauzezi [brick](bricks#ios-brick) consolei tale.
-{: .notice--warning}
 
-### Instrumente necesare
+:::
+
+## Instrumente necesare
 
 - A Wii U with the Homebrew Channel installed on the vWii
 - Un card SD
 - [d2x cIOS Installer](/assets/files/d2x_cIOS_Installer-vWii.zip).
 
+::: warning
+
 Asigură-te că dacă folosești un card SD, comutatorul de blocare este în poziția deblocată, altfel nu vei putea alege opțiunile corecte în instalator.
-{: .notice--warning}
 
-### Instrucțiuni
+:::
 
-#### Secțiunea I – Instalarea
+## Instrucțiuni
+
+### Secțiunea I – Instalarea
 
 1. Copiază folderul `apps` în `.zip`-ul d2x-cios-installer din directorul principal al cardului tău SD.
 2. Scoate cardul SD din PC-ul tău și inserează-l în Wii U.
@@ -59,5 +62,8 @@ Asigură-te că dacă folosești un card SD, comutatorul de blocare este în poz
 
 - Odată ce ai terminat cu toate cele 3 cIOS-uri, apasă B pentru a te întoarce în Homebrew Channel.
 
-Continuă cu [Finalizarea Instalării(vwii-finalizing-setup)
-{: .notice--info}
+::: tip
+
+Continue to [Finalizing Setup](vwii-finalizing-setup)
+
+:::
