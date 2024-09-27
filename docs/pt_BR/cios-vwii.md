@@ -1,39 +1,42 @@
----
-title: d2x cIOS for vWii
----
+# d2x cIOS for vWii
 
-{% include toc title="Sumário" %}
+:::details Technical Details (optional)
 
-{% capture technical_info %}
+cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Por exemplo, isso permite a funcionalidade de Loaders USB como o USB Loader GX e WiiFlow, juntamente com outras partes de homebrew como o SaveGame Manager GX. Você pode ignorar este processo se você quiser, mas, geralmente, ele estende seu Wii com pouco ou nenhum lado negativo.
 
-<summary><em>Technical Details (optional)</em></summary>
-cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Você agora poderá usar homebrew como o <a href="usbloadergx">USB Loader GX</a> e <a href="wiiflow">WiiFlow</a>. Você pode ignorar este processo se você quiser, mas, geralmente, ele estende seu Wii com pouco ou nenhum lado negativo.
+:::
 
-{% endcapture %}
+::: warning
 
-<details>{{ technical_info | markdownify }}</details>
-{: .notice--info}
+This guide is only intended for Wii U users.
 
-This guide is only intended for Wii U users. <br/>
-If you have a Wii, follow [this guide](cios) instead. <br/>
+If you have a Wii, follow [this guide](cios) instead.
+
 If you have a Wii mini, follow [this guide](cios-mini) instead.
-{: .notice--warning}
+
+:::
+
+::: warning
 
 Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing so will likely [brick](bricks#ios-brick) your console.
-{: .notice--warning}
 
-### Requisitos
+:::
+
+## Requisitos
 
 - A Wii U with the Homebrew Channel installed on the vWii
 - Um cartão SD
 - The [d2x cIOS Installer](/assets/files/d2x_cIOS_Installer-vWii.zip).
 
+::: warning
+
 Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio está na posição desbloqueada, caso contrário, você não será capaz de selecionar as opções corretas no instalador.
-{: .notice--warning}
 
-### Instruções
+:::
 
-#### Section I - Installing
+## Instruções
+
+### Section I - Installing
 
 1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card.
 2. Eject the SD card from your PC and insert it into the Wii U.
@@ -59,5 +62,8 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
 
 - Once you have finished with all 3 cIOSes, press B to return to the Homebrew Channel.
 
+::: tip
+
 Continue to [Finalizing Setup](vwii-finalizing-setup)
-{: .notice--info}
+
+:::
