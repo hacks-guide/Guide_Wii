@@ -1,6 +1,8 @@
 # Bricks
 
-A "Brick" usually means your Wii has reached a state where, its only use is that of a literal [brick](https://wikipedia.org/wiki/Brick). <br> Bricks can occur for a variety of reasons, usually caused by improper system modifications via homebrew.
+A "Brick" usually means your Wii has reached a state where, its only use is that of a literal [brick](https://wikipedia.org/wiki/Brick).
+
+Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
 
 # Brick Prevention
 
@@ -41,7 +43,7 @@ In any case, you should absolutely:
 
 This is a section intended to help you diagnose a potential brick, in order by least to most brick severity. If you seem to have a brick that isn't covered in this section or in the guide, please join the Nintendo Homebrew discord server for support.
 
-- This will make the Wii crash. Wii menu brick Wii menu brick No app is malfunctioning, Wii settings is error free, everything is seemingly fine. No brick.
+- Wii menu brick Wii menu brick Wii menu brick No app is malfunctioning, Wii settings is error free, everything is seemingly fine. No brick.
 - Wii menu brick
   - If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
   - If after accessing the Wii settings, you see an error that resembles the Opera web browser, see [semibrick](bricks#semibrick).
@@ -166,7 +168,10 @@ Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 
 Screen shows up as listed below on normal boot.
 
-`Error:003`<br> `unauthorized device has been detected.`<br>
+```
+Error:003
+unauthorized device has been detected.
+```
 
 ![](/images/bricks/error-003.png)
 
@@ -247,7 +252,7 @@ First, troubleshooting must be done to determine if hardware is at fault. In the
 
 ::: tip
 
-[Cliquez ici pour revenir à l'index du site.](site-navigation)
+[Click here to go back to the site index.](site-navigation)
 {: .notice--info}
 
 :::
