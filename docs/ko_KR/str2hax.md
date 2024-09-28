@@ -14,7 +14,7 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
 :::
 
-## 필요한 것
+## 메뉴
 
 - 인터넷 연결이 있는 Wii
 
