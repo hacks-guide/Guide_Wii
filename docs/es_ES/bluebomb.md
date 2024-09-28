@@ -1,3 +1,7 @@
+---
+outline: false
+---
+
 # Créditos
 
 ::::: tabs
@@ -76,7 +80,7 @@ Asegúrate de que la consola se encuentre cerca de tu PC al momento de ejecutar 
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Apaga la consola.
+6. Power off your Wii.
 
 7. Inicia tu distribución Linux y asegúrate de que estás conectado a Internet.
 
@@ -183,7 +187,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Apaga la consola.
+6. Power off your Wii.
 
 #### Rasperry Pi Pico W
 
