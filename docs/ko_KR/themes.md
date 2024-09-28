@@ -41,7 +41,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 - [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym file distribution)
 - [Wii Themer](http://www.wiithemer.org/) (This site can build a .csm ready to install for Wii and vWii only, but for Wii mini you may download the .mym files from their [Theme Database](http://wiithemer.org/mym/))
 
-### 필요한 것
+### 메뉴
 
 - MyMenuifyMod.zip을 SD 카드 또는 USB 드라이브에 압축 해제합니다.
 - A Windows PC with an Internet connection
@@ -147,7 +147,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3용 테마를 만들 수 있지만, 다른 버전은 그렇지 않을 수 있기 때문입니다. The instructions for installing that theme are below.
 
-### 필요한 것
+### 메뉴
 
 - Wii
 - MyMenuifyMod.zip을 SD 카드 또는 USB 드라이브에 압축 해제합니다.
@@ -164,7 +164,7 @@ ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3용 테마를 만들 수 있�
 
 ## USB Loader GX Theming
 
-### 필요한 것
+### 메뉴
 
 - Wii
 - MyMenuifyMod.zip을 SD 카드 또는 USB 드라이브에 압축 해제합니다.
@@ -182,7 +182,7 @@ ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3용 테마를 만들 수 있�
 
 ## Homebrew Channel Theming
 
-### 필요한 것
+### 메뉴
 
 - Wii
 - MyMenuifyMod.zip을 SD 카드 또는 USB 드라이브에 압축 해제합니다.
