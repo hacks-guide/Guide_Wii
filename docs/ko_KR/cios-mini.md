@@ -28,7 +28,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 :::
 
-## 필요한 것
+## 메뉴
 
 - 홈브류 채널이 설치된 Wii 미니
 - USB 드라이브
@@ -38,7 +38,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 ### 섹션 I - 다운로드
 
-1. 콘솔의 전원을 꺼 주세요.
+1. Power off your Wii.
 2. USB 드라이브를 컴퓨터에 연결하세요.
 3. Create a folder named `apps` on the root of your USB drive if it does not already exist.
 4. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
