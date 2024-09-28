@@ -79,6 +79,6 @@ Wii 및 Wii 미니 콘솔은 AX88772 칩을 사용하는 이더넷 어댑터에�
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
 
 :::
