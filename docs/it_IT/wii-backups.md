@@ -10,15 +10,17 @@ Per memorizzare più giochi, si consiglia di utilizzare un hard drive esterno pe
 
 ::: info
 
-Un'unità flash non è consigliata, poiché sono piccole e la loro funzionalità può variare anche tra unità identiche. <br>
+Un'unità flash non è consigliata, poiché sono piccole e la loro funzionalità può variare anche tra unità identiche.
+
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
 :::
 
 ::: info
 
-Assicurati che l'unità USB sia formattata come FAT32. Do not format it as other types such as exFAT or extFS. <br>
-Puoi formattarla come NTFS, ma non funzionerà con la maggior parte delle app (ad esempio Homebrew Channel, Nintendont)
+Assicurati che l'unità USB sia formattata come FAT32. Do not format it as other types such as exFAT or extFS.
+
+You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 
 :::
 
