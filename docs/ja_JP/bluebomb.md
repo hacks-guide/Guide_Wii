@@ -1,3 +1,7 @@
+---
+outline: false
+---
+
 # BlueBomb
 
 ::::: tabs
@@ -76,7 +80,7 @@ Bluetoothを接続するため、Wii本体とパソコンを近づけるよう�
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Wiiの電源を切ります。
+6. Power off your Wii.
 
 7. Linuxを起動し、インターネットに接続されていることを確認します。
 
@@ -183,7 +187,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Wiiの電源を切ります。
+6. Power off your Wii.
 
 #### Rasperry Pi Pico W
 
