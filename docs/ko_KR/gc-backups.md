@@ -2,7 +2,7 @@
 
 This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
 
-## 필요한 것
+## 메뉴
 
 - SD 카드 및 USB 드라이브
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
