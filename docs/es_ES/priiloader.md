@@ -20,7 +20,7 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 ### Section I - Prep Work
 
-1. Apaga la consola.
+1. Power off your Wii.
 2. Extract both apps to the root of your SD card or USB drive.
 3. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 4. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
