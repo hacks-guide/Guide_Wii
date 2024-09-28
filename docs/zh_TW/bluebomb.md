@@ -1,3 +1,7 @@
+---
+outline: false
+---
+
 # 使用 BlueBomb 漏洞
 
 ::::: tabs
