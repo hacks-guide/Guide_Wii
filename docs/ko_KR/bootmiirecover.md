@@ -26,7 +26,7 @@ DO NOT restore an unverified NAND backup, or one that is not from your Wii: this
 
 :::
 
-## 필요한 것
+## 메뉴
 
 - An earlier NAND Backup made by [BootMii](bootmii)
 
