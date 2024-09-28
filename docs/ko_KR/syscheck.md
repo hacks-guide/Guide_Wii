@@ -32,6 +32,6 @@ SysCheck는 Wii에 있는 모든 IOS 및 cIOS가 표시되며, 각 항목에 대
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
 
 :::
