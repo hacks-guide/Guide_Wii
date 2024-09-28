@@ -9,7 +9,7 @@ This tutorial will explain you how to dump WADs from your Wii System Memory.
 
 ## 実行方法
 
-1. Wiiの電源を切ります。
+1. Power off your Wii.
 
 2. Extract both apps to the root of your SD card or USB drive.
 
