@@ -62,13 +62,14 @@ Există două metode de a folosi Open Shop Channel: pe consola ta Wii prin Homeb
 
 ::: tip
 
-Continue to [Recommended Homebrew](recommended-homebrew)<br>
+Continue to [Recommended Homebrew](recommended-homebrew)
+
 This guide outlines selections of homebrew that we think are useful to have; these range from utilities to emulators and more.
 
 :::
 
 ::: tip
 
-[Return to site index](site-navigation)<br>
+[Return to site index](site-navigation)
 
 :::
