@@ -1,3 +1,7 @@
+---
+outline: false
+---
+
 # Créditos
 
 ::::: tabs
@@ -75,7 +79,7 @@ Certifique-se que o console está perto do computador executando o exploit, idea
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Desligue seu console.
+6. Power off your Wii.
 
 7. Inicie sua distribuição Linux e verifique se você está conectado à internet.
 
@@ -99,7 +103,7 @@ Certifique-se que o console está perto do computador executando o exploit, idea
 12. Press the Sync button repeatedly until the terminal shows `got connection handle`.
     - Isto pode levar inúmeras tentativas.
 
-13. Ele fará o download do HackMii Installer e depois será iniciado.
+13. 1 Se o exploit foi bem sucedido, seu console irá carregar o Instalador HackMii.
     - Você pode desligar seu computador Linux se não estiver planejando utilizá-lo depois.
 
 ::: info
@@ -182,7 +186,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Desligue seu console.
+6. Power off your Wii.
 
 #### Rasperry Pi Pico W
 
@@ -205,7 +209,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
    - **Do not** connect any Wii Remotes.
 3. Press the Sync button repeatedly until the bluebomb screen shows up.
    - Isto pode levar inúmeras tentativas.
-4. Ele fará o download do HackMii Installer e depois será iniciado.
+4. 1 Se o exploit foi bem sucedido, seu console irá carregar o Instalador HackMii.
 
 ::: tip
 
