@@ -4,14 +4,14 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 ## Dumping a Disc to SD/USB (CleanRip)
 
-### 필요한 것
+### 메뉴
 
 - 최소 4.7GB의 여유 공간 (듀얼 레이어 디스크를 덤프하는 경우 8.5GB) 이 있는 SD 카드 또는 USB 드라이브
 - [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 ### Preparation
 
-1. 콘솔의 전원을 꺼 주세요.
+1. Power off your Wii.
 
 2. Extract both apps to the root of your SD card or USB drive.
 
