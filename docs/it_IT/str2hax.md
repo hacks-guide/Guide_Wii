@@ -90,7 +90,7 @@ Questo exploit richiede di reimpostare il tuo DNS in modo da connettersi a un se
 
 4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 
-5. Se l'exploit è andato a buon fine, ti ritroverai dentro l'HackMii Installer.
+5. Se l'exploit ha avuto successo, il tuo Wii avrà avviato l'HackMii Installer.
 
    ![](/images/hackmii/scam.png)
 
