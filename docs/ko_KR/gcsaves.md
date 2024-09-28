@@ -10,7 +10,7 @@
 
 ## 개별 저장 (.gci 파일) 을 물리적 메모리 카드에 업로드하기
 
-### 필요한 것
+### 메뉴
 
 - 게임큐브 포트가 있는 Wii
 - SD 카드 또는 USB
@@ -60,7 +60,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## 물리적 메모리 카드에서 저장 (.gci 파일) 을 SD 또는 USB에 백업하기
 
-### 필요한 것
+### 메뉴
 
 - 게임큐브 포트가 있는 Wii
 - SD 카드 또는 USB
@@ -98,7 +98,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## 실제 메모리 카드를 에뮬레이트된 메모리 카드 (.raw 파일) 로 백업하기
 
-### 필요한 것
+### 메뉴
 
 - 게임큐브 포트가 있는 Wii
 - SD 카드 또는 USB
@@ -127,7 +127,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## 에뮬레이트된 메모리 저장을 실제 메모리 카드로 복원하기
 
-### 필요한 것
+### 메뉴
 
 - 게임큐브 포트가 있는 Wii
 - SD 카드 또는 USB
@@ -155,7 +155,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## 2개의 물리적 메모리 카드 간에 저장 내용 전송
 
-### 필요한 것
+### 메뉴
 
 - 게임큐브 포트가 있는 Wii
 - 최소 2개의 물리적 메모리 카드
