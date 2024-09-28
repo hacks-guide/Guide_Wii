@@ -71,7 +71,8 @@ A későbbi indításhoz kövesd az alábbi lépéseket:
 
    ::: warning
 
-   Ha a Priiloader-telepítőt a pendrive-odra helyezted, bizonyosodj meg róla, hogy ne legyen behelyezve egy SD kártya is! <br>
+   Ha a Priiloader-telepítőt a pendrive-odra helyezted, bizonyosodj meg róla, hogy ne legyen behelyezve egy SD kártya is!
+
    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
    :::
