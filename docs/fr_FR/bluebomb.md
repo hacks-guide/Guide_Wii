@@ -1,4 +1,8 @@
-# BlueBomb
+---
+outline: false
+---
+
+# Credits
 
 ::::: tabs
 
@@ -67,9 +71,9 @@ Assurez-vous que la console est proche de l'ordinateur qui exécute l'exploit, i
    - Pour une Wii mini, le port USB est à l'arrière.
    - For a normal Wii, use the bottom port.
 
-3. Allumez votre console.
+3. Éteignez votre console.
 
-4. Allez sur `Paramètres Wii`.
+4. On your Wii, go to `Wii Settings` -> `Internet` -> `Console Information` and make note of your MAC address.
 
 5. Prenez note dans le coin supérieur droit de la lettre à côté de la version du système.
 
@@ -95,13 +99,13 @@ Assurez-vous que la console est proche de l'ordinateur qui exécute l'exploit, i
     - Si vous avez sélectionné une Wii Mini, il vous sera demandé de fournir votre région. Ceci est déterminé par la dernière lettre de la version du menu Wii (`U` pour **USA** et `E` pour les modèles **PAL**).
     - Si vous avez sélectionné une Wii, il vous sera demandé de fournir la version de votre menu Wii (Ce que vous avez déterminé à l'étape 4)
 
-11. Allumez votre console.
+11. Éteignez votre console.
     - Turn on your console and **do not** connect any Wii Remotes.
 
 12. Appuyez sur le bouton **Sync** plusieurs fois jusqu'à que le terminal affiche `got connection handle`.
     - Cela peut demander de nombreuses tentatives.
 
-13. Si l'exploit a réussi, votre console aura chargé l'installeur HackMii.
+13. It'll then proceed to download and load the HackMii Installer.
     - You can now shut down your Linux computer if you are not planning to use it later.
 
 ::: info
@@ -176,9 +180,9 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
    - Pour une Wii mini, le port USB est à l'arrière.
    - For a normal Wii, use the bottom port.
 
-3. Allumez votre console.
+3. Éteignez votre console.
 
-4. Allez sur `Paramètres Wii`.
+4. On your Wii, go to `Wii Settings` -> `Internet` -> `Console Information` and make note of your MAC address.
 
 5. Prenez note dans le coin supérieur droit de la lettre à côté de la version du système.
 
@@ -209,7 +213,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
    - Turn on your console and **do not** connect any Wii Remotes.
 3. Press the Sync button repeatedly until the bluebomb screen shows up.
    - Cela peut demander de nombreuses tentatives.
-4. Si l'exploit a réussi, votre console aura chargé l'installeur HackMii.
+4. It'll then proceed to download and load the HackMii Installer.
 
 ::: tip
 
