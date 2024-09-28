@@ -74,8 +74,9 @@ Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható.
 
 #### Felhasználói felület
 
-Amikor a WiiFlow játékokat észlel, azok megjelennek az flow nézetben.<br>
-Ha rákattintasz egy játékra, a következő lehetőségek jelennek meg:
+When WiiFlow detects games, they are displayed in flow view.
+
+When you click on a game, you are given these options:
 
 - Csillag - A játék hozzáadása a kedvencekhez.
 - Könyvespolc - Hozzáadja a játékot az általad választott 6 kategória egyikéhez.
