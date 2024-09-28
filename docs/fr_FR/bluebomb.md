@@ -106,8 +106,7 @@ Assurez-vous que la console est proche de l'ordinateur qui exécute l'exploit, i
 
 ::: info
 
-If using a Wii, proceed to installing the Homebrew Channel and BootMii<br>
-{: .notice--info}
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 
@@ -214,8 +213,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 ::: tip
 
-If using a Wii, proceed to installing the Homebrew Channel and BootMii<br>
-{: .notice--info}
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 
