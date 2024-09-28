@@ -9,7 +9,7 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
 :::
 
-## 필요한 것
+## 메뉴
 
 - 적어도 512MB 이상의 SD 카드
 
