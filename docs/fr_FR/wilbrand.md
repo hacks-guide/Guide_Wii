@@ -29,9 +29,9 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 ### Instructions
 
-1. Allumez votre console.
+1. Éteignez votre console.
 
-2. Allez sur `Paramètres Wii`.
+2. On your Wii, go to `Wii Settings` -> `Internet` -> `Console Information` and make note of your MAC address.
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
@@ -76,7 +76,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     - In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     - If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii's SD card reader.
 
-17. Si l'exploit a réussi, votre console aura chargé l'installeur HackMii.
+17. It'll then proceed to download and load the HackMii Installer.
     - If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     - If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
@@ -109,9 +109,9 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 ### Instructions
 
-1. Allumez votre console.
+1. Éteignez votre console.
 
-2. Allez sur `Paramètres Wii`.
+2. On your Wii, go to `Wii Settings` -> `Internet` -> `Console Information` and make note of your MAC address.
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
@@ -165,7 +165,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-16. Si l'exploit a réussi, votre console aura chargé l'installeur HackMii.
+16. It'll then proceed to download and load the HackMii Installer.
     - If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     - If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
