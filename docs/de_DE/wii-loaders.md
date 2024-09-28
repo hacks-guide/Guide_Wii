@@ -74,7 +74,9 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 #### User Interface
 
-When WiiFlow detects games, they are displayed in flow view.<br> When you click on a game, you are given these options:
+When WiiFlow detects games, they are displayed in flow view.
+
+When you click on a game, you are given these options:
 
 - Star - Adds game to favorites.
 - Bookshelf - Adds the game to 1 of 6 categories of your choosing.
