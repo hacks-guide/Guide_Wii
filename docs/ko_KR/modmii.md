@@ -71,7 +71,7 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ## Installing ModMii
 
-### 필요한 것
+### 메뉴
 
 - Wii
 - USB 드라이브 또는 SD 카드
