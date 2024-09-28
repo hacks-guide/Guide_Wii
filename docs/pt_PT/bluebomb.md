@@ -1,3 +1,7 @@
+---
+outline: false
+---
+
 # Credits
 
 ::::: tabs
