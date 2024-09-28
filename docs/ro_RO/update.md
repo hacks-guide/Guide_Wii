@@ -39,7 +39,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### Secțiunea II – Instalare
 
-1. Download the Priiloader installer and LoadPriiloader apps. Start holding RESET, then turn it back on.
+1. Oprește-ți consola. Start holding RESET, then turn it back on.
 2. In the Priiloader menu, select `Homebrew Channel`.
    - If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader is required for this guide.
 3. Launch YAWM ModMii Edition.
