@@ -1,6 +1,8 @@
 # Брики
 
-"Брик" обычно означает, что ваша Wii достигла состояния, где ее следующий пункт назначения скорее всего ступеньки перед входной дверью, или же полка, как часть дизайна вашего дома. <br> Bricks can occur for a variety of reasons, usually caused by improper system modifications via homebrew.
+"Брик" обычно означает, что ваша Wii достигла состояния, где ее следующий пункт назначения скорее всего ступеньки перед входной дверью, или же полка, как часть дизайна вашего дома.
+
+Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
 
 # Предотвращение бриков
 
@@ -166,8 +168,10 @@ Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 
 Screen shows up as listed below on normal boot.
 
-`Error:003`<br>
-`unauthorized device has been detected.`<br>
+```
+Error:003
+unauthorized device has been detected.
+```
 
 ![](/images/bricks/error-003.png)
 
