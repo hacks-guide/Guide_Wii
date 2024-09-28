@@ -74,7 +74,9 @@ Di seguito è riportato un esempio di WBFS singolo e WBFS diviso. A WBFS needs t
 
 #### Interfaccia utente
 
-Quando WiiFlow rileva i giochi, verranno visualizzati nella vista flow.<br> Quando fai clic su un gioco, ti verranno date queste opzioni:
+When WiiFlow detects games, they are displayed in flow view.
+
+When you click on a game, you are given these options:
 
 - Stella - Aggiunge il gioco ai preferiti.
 - Libreria - Aggiunge il gioco a una di sei categorie di vostra scelta.
