@@ -10,14 +10,17 @@ This guide provides instructions on how to manage your Wii backups, from joining
 
 ::: info
 
-플래시 드라이브는 크기가 작고 같은 제품 간에도 동작이 다를 수 있으므로 권장하지 않습니다. <br>
+플래시 드라이브는 크기가 작고 같은 제품 간에도 동작이 다를 수 있으므로 권장하지 않습니다.
+
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
 :::
 
 ::: info
 
-USB 드라이브의 포맷이 FAT32로 되어 있는지 확인합니다. Do not format it as other types such as exFAT or extFS. <br> NTFS로 포맷할 수 있지만 대부분의 앱 (예: 홈브류 채널, Nintendont) 에서는 작동하지 않습니다.
+USB 드라이브의 포맷이 FAT32로 되어 있는지 확인합니다. Do not format it as other types such as exFAT or extFS.
+
+You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 
 :::
 
@@ -153,6 +156,6 @@ cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
 
 :::
