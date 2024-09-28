@@ -66,7 +66,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Manager
 
-### 필요한 것
+### 메뉴
 
 - 윈도우즈를 실행하는 PC
 - USB 드라이브 또는 SD 카드
@@ -102,7 +102,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Fusion
 
-### 필요한 것
+### 메뉴
 
 - A PC running MacOS or Linux
 - USB 드라이브 또는 SD 카드
