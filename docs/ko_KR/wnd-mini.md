@@ -20,7 +20,7 @@ There is no way to restore your NAND backup this way without a hardmod.
 
 :::
 
-## 필요한 것
+## 메뉴
 
 - Wii
 - USB 드라이브
