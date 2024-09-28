@@ -16,7 +16,7 @@ Wilbrand Web is recommended for its ease of use.
 
 ## Wilbrand Web
 
-### 필요한 것
+### 메뉴
 
 - An SD card formatted to FAT32/MS-DOS
 - 버전 3.0 이상의 Wii
@@ -92,7 +92,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 ## Wilbrand CLI
 
-### 필요한 것
+### 메뉴
 
 - 윈도우즈, 맥OS, 리눅스를 실행하는 PC
 - An SD card formatted to FAT32/MS-DOS
