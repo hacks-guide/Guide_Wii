@@ -104,7 +104,7 @@ Az optimális működés érdekében ajánlott a konzolt és a telepítőt futta
 
 ::: info
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 
@@ -209,7 +209,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 ::: tip
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 
