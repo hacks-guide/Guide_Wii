@@ -1,7 +1,8 @@
 # Brick-uri
 
-Un "Brick" de obicei înseamnă că sistemul tău Wii a ajuns într-un stadiu unde sunt șanse mari ca următorul său motiv de a exista este ca un opritor de uși, sau pentru display. <br>
-Brick-urile pot apărea dintr-o varietate de motive, însă de obicei sunt rezultatul unui software defect sau unei modificări necorespunzătoare făcute prin homebrew.
+Un "Brick" de obicei înseamnă că sistemul tău Wii a ajuns într-un stadiu unde sunt șanse mari ca următorul său motiv de a exista este ca un opritor de uși, sau pentru display.
+
+Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
 
 # Prevenirea Brick-urilor
 
@@ -121,25 +122,25 @@ Un brick de temă apare atunci când o temă de fundal formatată greșit este i
 
 ### Soluții
 
-Pentru a repara această problemă, deschide HBC folosind Priiloader sau BootMii ca boot2 și accesează csm-installer pentru a instala o temă prestabilită precum temă de bază a Meniului Wii. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
+To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
 
-## Brick de mail
+## Mail brick
 
 ### Simptome
 
-După ce pornești consola Wii, ecranul de avertizare/apasă A apare, iar când A este apăsat, ecranul continuă normal, însă dincolo de acest punct nimic nu se întâmplă și consola rămâne pe un ecran negru. Maintenance mode încă este accesibil.
+După ce pornești consola Wii, ecranul de avertizare/apasă A apare, iar când A este apăsat, ecranul continuă normal, însă dincolo de acest punct nimic nu se întâmplă și consola rămâne pe un ecran negru. Maintenance mode is still accessible.
 
 ### Cauze
 
-Un brick de mail apare atunci când un Wii are mai mult mail decât poate face față sau când mail defect se află în Wii Message Board, cauzând o înghețare a sistemului odată ce o pornești normal. Pentru că Wii Message Board este mereu afișat sub canalele Wii, asta cauzează Meniul Wii să eșueze înainte să se încarce complet.
+A mail brick occurs when a Wii has too much mail to handle, or when malformed mail is in the Wii Message Board, causing a crash upon booting through normal means. Because the Wii Message Board is always drawn below Wii channels, this causes the Wii Menu to fail before fully loading.
 
-### Soluție
+### Solution
 
-Dacă ții apăsat + și - pe ecranul de avertizare, maintenance mode poate fi accesat, unde Wii Message Board-ul nu este încărcat deloc. If the Homebrew Channel is not installed, follow [Bluebomb](bluebomb).
+By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed, follow [Bluebomb](bluebomb).
 
 From here, the Homebrew Channel can be loaded and the brick can be fixed by deleting Wii Message Board data with [cdbackup](https://oscwii.org/library/app/cdbackup).
 
-## Brick de Wii Menu/Opera
+## Wii Menu/Opera brick
 
 ### Simptome
 
@@ -147,9 +148,9 @@ When starting the Wii, you instead get an error from the Opera web browser along
 
 ### Cauze
 
-This brick is a more fatal version of a [Semibrick](#semibrick). Dacă fișierul SYSCONF (fișier de configurare a sistemului) este corupt sau eronat, consola o va regenera și va începe faza de configurare inițială.
+This brick is a more fatal version of a [Semibrick](#semibrick). If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
 
-Însă, paginile de configurare sunt într-o locație similară cu paginile de setări Wii. Dacă ai un Meniu Wii sau o temă de fundal cu regiunea incorectă, consola nu le poate găsi.
+However, the setup pages are in a similar location to the Wii settings pages. If you have an incorrect region Wii Menu or theme, the Wii cannot find them.
 
 ![](/images/bricks/sysmenu-brick.png)
 
@@ -161,91 +162,93 @@ In case you do not have Priiloader or your Wii is not modded, you can try [BlueB
 
 Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 
-## Brick KoreanKii/Error 003
+## KoreanKii/Error 003 Brick
 
 ### Simptome
 
-Ecranul afișează mesajul de mai jos dupa ce pornești consola.
+Screen shows up as listed below on normal boot.
 
-`Error:003`<br>
-`unauthorized device has been detected.`<br>
+```
+Error:003
+unauthorized device has been detected.
+```
 
 ![](/images/bricks/error-003.png)
 
 ### Cauze
 
-Când au lansat consolele Wii Coreene, Nintendo a schimbat cheia de criptare pentru aceste unități ca o ultimă încercare de a preveni instalarea homebrew-ului. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. Dacă această verificare are succes, eroarea este declanșată și consola Wii este practic blocată.
+When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. If this check succeeds, the error triggers and the Wii is effectively bricked.
 
-Acest lucru este de obicei o continuare imediată a unei actualizări a sistemului Wii pe un Wii Coreean căruia i-a fost schimbată regiunea.
+This is usually an immediate follow-up to a Wii System Update on an unsuspecting region-changed Korean Wii.
 
 ### Soluții
 
-Deoarece acest brick apare cel mai des în urma unei actualizări a Meniului Wii, Priiloader nu va fi instalat. În cazul în care Priiloader este prezent, poți să-l repari instalând Meniul de Sistem Wii anterior sau eliminând cheia cu aplicația homebrew KoreanKii.
+Since this brick most often occurs after the Wii Menu updates, Priiloader will not be present. In the case that Priiloader is present, you can simply fix it by either installing the previous Wii System Menu or removing the key with the KoreanKii homebrew app.
 
 Korean Wiis also released with Wii Menu 3.3, around the time that Nintendo [fixed the Trucha bug in boot1](https://wiibrew.org/wiki/3.3#Changes), so BootMii as Boot2 cannot be installed to or used on any Korean Wii.
 
-While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. This involves going into [Recovery Mode](recovery-mode), where an exploit can be triggered in order to gain access to the Homebrew Channel and revert the conditions that caused the brick. Ține minte că ai nevoie de un drivechip pentru ca această metodă să funcționeze.
+While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. This involves going into [Recovery Mode](recovery-mode), where an exploit can be triggered in order to gain access to the Homebrew Channel and revert the conditions that caused the brick. Note that you must have a drivechip in order for this method to work.
 
-## Brick de IOS
+## IOS brick
 
 ### Simptome
 
-Acest brick pare să fie identic cu un brick de nivel adânc datorită eșuării Meniului Wii din cauza unui IOS; însă acesta nu este o corupere completă de nivel adânc a memoriei NAND sau o defecțiune de nivel adânc a componentelor sistemului.
+This brick will appear identical to a low-level brick due to a Wii Menu failure via IOS; however there is not a full low-level NAND corruption, or a low-level hardware failure.
 
 ### Cauze
 
-This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. Un IOS stub pentru system menu este de obicei consecința încercării de a face downgrade la Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
+This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. A stubbed system menu IOS is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
 
 ### Soluții
 
 You must have BootMii as boot2 to fix this.
 
-Poți să restaurezi un backup al memoriei NAND sau să faci asta:
+You can either restore a NAND backup, or do this:
 
 1. Use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to pack a WAD of your original Wii Menu.
-2. Folosește BootMii pentru a intra în Homebrew Channel și folosește un manager WAD pentru a instala fișierul WAD de Meniu Wii.
+2. Use BootMii to enter the Homebrew Channel, and use a WAD manager to install the Wii Menu WAD.
 
 For vWii, See [Recover a vWii IOS/Channel](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels)
 
-## Brick de Wi-Fi
+## Wi-Fi brick
 
 ### Simptome
 
-Acest brick pare identic cu un brick de nivel adânc, însă încă poți să îți pornești consola cu un Wiimote și încă poți să intri în Recovery Mode pe un Wii de revizie originală.
+This brick appears identical to a low-level brick, however you can still power on the Wii with a Wiimote, and you can still boot into Recovery Mode on an original revision Wii.
 
 ### Cauze
 
-Acest brick apare atunci când modulul Wi-Fi (sau Bluetooth) al consolei tale Wii este defect sau nu este introdus cum trebuie. În astfel de cazuri, consola Wii rămâne blocată pe un ecran negru așteptând un răspuns de la IOS.
+This brick arises when your Wii's Wi-Fi (or Bluetooth) module is damaged or not inserted properly. In such cases, the Wii gets stuck on a black screen while awaiting a response from IOS.
 
-Acest lucru de asemenea se va întâmpla pe un Wii mini dacă instalezi un IOS de Wii normal deoarece consola Wii mini nu are un modul Wi-Fi.
+This will also happen on the Wii mini if you install a normal Wii IOS, because the Wii mini doesn't have a Wi-Fi module.
 
 ### Soluții
 
-Pentru a rezolva această problemă, poți încerca să reintroduci sau să înlocuiești modulul Wi-Fi/Bluetooth.
+To resolve this problem, you can try to reseat or replace the Wi-Fi/Bluetooth module.
 
-Dacă ai un Wii mini, trebuie să instalezi un modul Wi-fi.
+If you are on a Wii mini, you must install a Wi-Fi module.
 
 If both fail, see [low-level brick](bricks#low-level-brick).
 
-## Brick de nivel adânc
+## Low-level brick
 
 ### Simptome
 
-Ecran complet negru, niciun răspuns la nicio acțiune. Recovery Mode nu poate fi inițializat și nici BootMii ca boot2 (sau dacă n-a existat deloc), în esență consola pare moartă.
+Completely black screen, no response to user input. Recovery Mode cannot be booted, neither can BootMii as boot2 (or it never existed in the first place), for all intents and purposes the console appears dead.
 
 ### Cauze
 
-Acest brick apare când boot1/boot2 sunt defecte sau dacă există defecțiuni de hardware.
+This brick occurs when boot1/boot2 is corrupt, or if there is a hardware failure.
 
 ### Soluții
 
-În primul rând, trebuie să determinăm dacă problema este legată de hardware. În ordinea listată, urmează acești pași:
+First, troubleshooting must be done to determine if hardware is at fault. In the order listed, do the following:
 
-- Testează să verifici dacă sistemul Wii încă funcționează (acceptă discuri normal, cititorul de discuri se rotește corect, controlerele Wiimote se conectează) înainte de a încerca următorii pași. Dacă acesta este cazul și doar nu este afișată imaginea video, s-ar putea să ai un cablu video defect sau o defecțiune foarte rară a portului video sau a plăcii video.
-- If on a Wii mini, and if a normal IOS80 was installed, see [Wi-Fi brick](bricks#wi-fi-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi au eșuat, continuă.
-- Attempt to boot into [Recovery Mode](recovery-mode) (normal Wiis only). If the Wii boots into Recovery Mode, see [Wi-Fi brick](bricks#wi-fi-brick) or [IOS brick](bricks#ios-brick). Dacă pașii pentru repararea brick-ului de Wi-Fi sau brick-ului de IOS au eșuat, continuă.
-- Reintrodu unitatea de discuri și încearcă să pornești consola normal. Dacă nu a funcționat, înlocuiește unitatea de discuri. Dacă tot nu a funcționat, continuă.
-- În acest stadiu, problema este ori o corupere de nivel adânc de boot0/boot1, o defecțiune a chipului NAND sau o defecțiune a unei alte componente interne. Consideră cererea în ajutor online sau cumpărarea altui Wii.
+- Test to make sure that your Wii actually still functions (it accepts discs as normal, spins up correctly, Wiimotes connect) before attempting the following steps. If this is the case and only video is not being displayed, you may have a bad video cable, or an exceptionally rare failure of the video port or the GPU.
+- If on a Wii mini, and if a normal IOS80 was installed, see [Wi-Fi brick](bricks#wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
+- Attempt to boot into [Recovery Mode](recovery-mode) (normal Wiis only). If the Wii boots into Recovery Mode, see [Wi-Fi brick](bricks#wi-fi-brick) or [IOS brick](bricks#ios-brick). If steps to resolve the Wi-Fi brick or IOS brick failed, proceed.
+- Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
+- At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.
 
 ::: tip
 
