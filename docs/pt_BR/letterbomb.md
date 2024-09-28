@@ -68,7 +68,7 @@ NÃO use nenhum dos exemplos de endereços MAC mostrados neste guia, pois eles s
     - - Se o seu Wii congela após clicar na carta, você provavelmente escolheu a região errada quando baixou o exploit. Refaça o segundo passo e selecione a região correta.
     - Se tudo estiver certo e se houver congelamento, continue a tentar até que isso funcione.
 
-16. Ele fará o download do HackMii Installer e depois será iniciado.
+16. 1 Se o exploit foi bem sucedido, seu console irá carregar o Instalador HackMii.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
