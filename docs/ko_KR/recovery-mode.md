@@ -64,6 +64,6 @@ At this point, you should be able to install the Homebrew Channel and access hom
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
 
 :::
