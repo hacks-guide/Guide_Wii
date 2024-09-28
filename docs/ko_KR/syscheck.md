@@ -2,7 +2,7 @@
 
 SysCheck는 Wii에 있는 모든 IOS 및 cIOS가 표시되며, 각 항목에 대한 몇 가지 정보도 함께 표시됩니다. 또한 다른 유용한 정보도 제공합니다. Wii에서 IOS 관련 문제가 발생하면 누군가 SysCheck을 요청할 수 있습니다.
 
-## 필요한 것
+## 메뉴
 
 - SD 카드 및 USB 드라이브
 - [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME)
