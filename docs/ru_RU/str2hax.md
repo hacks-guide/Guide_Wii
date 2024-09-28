@@ -90,7 +90,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
 4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 
-5. It'll then proceed to download and load the HackMii Installer.
+5. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
 
    ![](/images/hackmii/scam.png)
 
