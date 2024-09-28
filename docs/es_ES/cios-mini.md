@@ -38,7 +38,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 ### Sección I - Descarga
 
-1. Apaga la consola.
+1. Power off your Wii.
 2. Inserta la unidad USB o tarjeta SD en tu PC.
 3. Create a folder named `apps` on the root of your USB drive if it does not already exist.
 4. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
