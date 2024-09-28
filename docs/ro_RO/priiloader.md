@@ -71,7 +71,8 @@
 
    ::: warning
 
-   Dacă ai pus instalatorul Priiloader pe o unitate USB, asigură-te că nu ai un card SD introdus în același timp. <br>
+   If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
+
    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
    :::
