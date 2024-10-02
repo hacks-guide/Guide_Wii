@@ -2,16 +2,16 @@
 
 A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül lehet elindítani. A többi módszerrel ellentétben ez nem igényel SD kártyát.
 
-## Követelmények
+## Requirements
 
 - Egy internetkapcsolattal rendelkező Wii
 - Az Internet Channel
 
-## Útmutató
+## Instructions
 
 ### I. rész – Előkészületek
 
-1. Kapcsold be a konzolt!
+1. Power on your console.
 
 2. Indítsd el az Internet Channelt!
 
@@ -39,7 +39,7 @@ A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül
 
    ![](/images/exploits/flashhax/wait-for-download.png)
 
-3. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
+3. If the exploit was successful, your device will have loaded the HackMii Installer.
    - Lehetséges, hogy ez több próbálkozást is igényelni fog.
    - Ha a HackMii-telepítő nem indul el és a konzol lefagy (ezt onnan tudod, hogy a mutató megtorpan és nem mozdul meg), akkor indítsd újra a Wiit és kezdd előről ezt a részt!
 
