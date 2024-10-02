@@ -13,7 +13,7 @@ Ezt a korlátozást a Priiloaderrel ki lehet kerülni, ami lehetővé teszi bár
 
 ## A helyreállítási mód indítása és használata
 
-### Követelmények
+### Requirements
 
 - Egy GameCube-vezérlő
 - Ha a lemezkorlátozást korábban eltávolítottad Priiloaderrel vagy ha van kéznél lemezolvasó-chiped:
