@@ -41,7 +41,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 - [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym file distribution)
 - [Wii Themer](http://www.wiithemer.org/) (This site can build a .csm ready to install for Wii and vWii only, but for Wii mini you may download the .mym files from their [Theme Database](http://wiithemer.org/mym/))
 
-### 메뉴
+### Requirements
 
 - MyMenuifyMod.zip을 SD 카드 또는 USB 드라이브에 압축 해제합니다.
 - A Windows PC with an Internet connection
@@ -147,7 +147,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3용 테마를 만들 수 있지만, 다른 버전은 그렇지 않을 수 있기 때문입니다. The instructions for installing that theme are below.
 
-### 메뉴
+### Requirements
 
 - Wii
 - MyMenuifyMod.zip을 SD 카드 또는 USB 드라이브에 압축 해제합니다.
@@ -155,7 +155,7 @@ ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3용 테마를 만들 수 있�
 - A Linux/macOS/Windows PC with an Internet connection
 - [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
-### 진행 방법
+### Instructions
 
 1. 계속하기 전에 <a href="cios">cIOS</a>를 설치하는 것이 좋습니다.
 2. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
@@ -164,7 +164,7 @@ ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3용 테마를 만들 수 있�
 
 ## USB Loader GX Theming
 
-### 메뉴
+### Requirements
 
 - Wii
 - MyMenuifyMod.zip을 SD 카드 또는 USB 드라이브에 압축 해제합니다.
@@ -172,7 +172,7 @@ ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3용 테마를 만들 수 있�
 - A Linux/macOS/Windows PC with an Internet connection
 - A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
 
-### 진행 방법
+### Instructions
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
 2. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
@@ -182,14 +182,14 @@ ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3용 테마를 만들 수 있�
 
 ## Homebrew Channel Theming
 
-### 메뉴
+### Requirements
 
 - Wii
 - MyMenuifyMod.zip을 SD 카드 또는 USB 드라이브에 압축 해제합니다.
 - A Linux/macOS/Windows PC with an internet connection
 - A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
 
-### 진행 방법
+### Instructions
 
 1. Download a theme `.zip` file from the website linked above.
 
