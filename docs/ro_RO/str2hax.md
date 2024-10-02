@@ -14,17 +14,17 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 :::
 
-## Instrumente necesare
+## Requirements
 
 - Un Wii cu o conexiune la Internet
 
-## Instrucțiuni
+## Instructions
 
 ### Section I - Connecting
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
-1. Pornește consola.
+1. Power on your console.
 
 2. Go to `Wii Options`.
 
@@ -90,7 +90,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
 4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 
-5. Dacă exploit-ul a funcționat, dispozitivul va intra în HackMii Installer.
+5. If the exploit was successful, your device will have loaded the HackMii Installer.
 
    ![](/images/hackmii/scam.png)
 
