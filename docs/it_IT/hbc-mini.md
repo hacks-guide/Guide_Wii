@@ -2,7 +2,7 @@
 
 L'Homebrew Channel è dove andrai ad avviare applicazioni homebrew.
 
-## Istruzioni
+## Instructions
 
 ::: warning
 
