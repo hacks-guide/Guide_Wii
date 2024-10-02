@@ -54,7 +54,7 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ## http://www.wiithemer.org/
 
-### Gereksinimler
+### Requirements
 
 - Some themes have different links for different regions, so pick the one corresponding to your Wii's region.
 - The latest version of [cIOS](cios)
@@ -105,7 +105,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ## USB Loader GX
 
-### Gereksinimler
+### Requirements
 
 - Some themes have different links for different regions, so pick the one corresponding to your Wii's region.
 - The latest version of [cIOS](cios)
