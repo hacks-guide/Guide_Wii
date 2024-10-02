@@ -54,13 +54,13 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ## http://www.wiithemer.org/
 
-### Requisitos
+### Requirements
 
 - Um Wii
 - The latest version of [cIOS](cios)
 - [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
-### Instalação
+### Installation
 
 1. Download WiiFlow and install it on your SD Card or USB device.
 
@@ -105,13 +105,13 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ## USB Loader GX
 
-### Requisitos
+### Requirements
 
 - Um Wii
 - The latest version of [cIOS](cios)
 - [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
-### Instalação
+### Installation
 
 1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
 2. Download USB Loader GX and install it on your SD Card or USB device.
