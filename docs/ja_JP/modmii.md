@@ -71,14 +71,14 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ## Installing ModMii
 
-### 必要なもの
+### Requirements
 
 - A Wii
 - A USB drive or SD Card
 - A Windows PC (a Virtual Machine will work)
 - [ModMii](https://modmii.github.io/)
 
-### インストールの手順
+### Installation
 
 1. Go to the [ModMii website](https://modmii.github.io) and scroll down to the Download section. Here, select the `Installer` option. Your browser may flag the installer as malware, but it is a **false positive**.
 
