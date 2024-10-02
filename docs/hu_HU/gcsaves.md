@@ -10,7 +10,7 @@ Bármilyen GameCube periféria a Family Edition Wii vagy Wii mini esetén forras
 
 ## Egy mentés fájl (.gci fájl) másolása egy Physical Memory Card-ra
 
-### Követelmények
+### Requirements
 
 - Egy Wii GameCube portokkal
 - Egy SD kártya vagy USB drive
@@ -28,7 +28,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 :::
 
-### Útmutató
+### Instructions
 
 #### Letöltés
 
@@ -60,13 +60,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Egy mentés fájl (.gci fájl) másolása egy SD kártyára vagy egy USB drive-ra a Physical Memory Card-ról
 
-### Követelmények
+### Requirements
 
 - Egy Wii GameCube portokkal
 - Egy SD kártya vagy USB drive
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Útmutató
+### Instructions
 
 #### Letöltés
 
@@ -98,13 +98,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## A Physical Memory Card másolása egy Emulált Memória kártyára (.raw filel)
 
-### Követelmények
+### Requirements
 
 - Egy Wii GameCube portokkal
 - Egy SD kártya vagy USB drive
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Útmutató
+### Instructions
 
 #### Letöltés
 
@@ -127,13 +127,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Egy emulált memória mentés visszaállítása egy fizikai memória kártyára
 
-### Követelmények
+### Requirements
 
 - Egy Wii GameCube portokkal
 - Egy SD kártya vagy USB drive
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Útmutató
+### Instructions
 
 1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
 
@@ -155,12 +155,12 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Mentések átvitelek két fizikai memória kártya között
 
-### Követelmények
+### Requirements
 
 - Egy Wii GameCube portokkal
 - Legalább 2 fizikai memória kártya
 
-### Útmutató
+### Instructions
 
 1. Csatlakoztasd mindkettő kártyát a Wii-hez.
 
