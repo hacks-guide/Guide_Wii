@@ -67,7 +67,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
     - 如果 Wii 在点击信后卡住，可能是在下载时选择了错误的区域。 重新进行第 2 步，并选择正确的区域。
     - If all is correct and there is freezing, keep on trying until it works.
 
-16. 它会下载并且加载HackMii Installer。
+16. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
