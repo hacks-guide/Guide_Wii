@@ -18,7 +18,7 @@ Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/gettin
 
 :::
 
-## Követelmények
+## Requirements
 
 - Egy moddolt Wii
 - Az [Aroma környezet](https://aroma.foryour.cafe/)
@@ -31,7 +31,7 @@ Ha az evWii Aroma plugin nem telepített, és a homebrew alkalmazás lefagy, az 
 
 :::
 
-## Útmutató
+## Instructions
 
 ### I. rész - Fájlok
 
