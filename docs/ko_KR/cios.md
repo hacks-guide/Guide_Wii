@@ -6,7 +6,7 @@ cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While 
 
 :::
 
-## 메뉴
+## Requirements
 
 ::: warning
 
@@ -22,7 +22,7 @@ If you have a Wii mini, follow [this guide](cios-mini) instead.
 - SD 카드 및 USB 드라이브
 - [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-## 진행 방법
+## Instructions
 
 ### 섹션 I - 다운로드
 
@@ -38,7 +38,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 :::
 
-1. Power off your Wii.
+1. Power off your console.
 2. Extract both apps to the root of your SD card or USB drive.
 3. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
@@ -67,7 +67,7 @@ The WAD files should be on your SD card like this:
 
 2. Wii에 SD 카드를 연결하고, 홈브류 채널에서 CleanRip을 실행합니다.
 
-3. 콘솔의 전원을 켜 주세요.
+3. Power on your console.
 
 4. Launch the Homebrew Channel, and launch the Load Priiloader app.
 
