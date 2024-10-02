@@ -1,3 +1,7 @@
+---
+outline: false
+---
+
 # BlueBomb
 
 ::::: tabs
@@ -100,12 +104,12 @@ Assicurati che la console sia vicina al computer che esegue l'exploit, idealment
 12. Press the Sync button repeatedly until the terminal shows `got connection handle`.
     - Questo passaggio potrebbe richiedere vari tentativi.
 
-13. Se l'exploit è andato a buon fine, ti ritroverai dentro l'HackMii Installer.
+13. Se l'exploit ha avuto successo, il tuo Wii avrà avviato l'HackMii Installer.
     - Se non vuoi usarla successivamente, puoi spegere la tua distro di Linux.
 
 ::: info
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 
@@ -206,11 +210,11 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
    - **Do not** connect any Wii Remotes.
 3. Press the Sync button repeatedly until the bluebomb screen shows up.
    - Questo passaggio potrebbe richiedere vari tentativi.
-4. Se l'exploit è andato a buon fine, ti ritroverai dentro l'HackMii Installer.
+4. Se l'exploit ha avuto successo, il tuo Wii avrà avviato l'HackMii Installer.
 
 ::: tip
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 

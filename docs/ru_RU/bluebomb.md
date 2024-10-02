@@ -1,3 +1,7 @@
+---
+outline: false
+---
+
 # BlueBomb
 
 ::::: tabs
@@ -99,12 +103,12 @@ If you are using the original revision of the Wii, you should probably find [ano
 12. Press the Sync button repeatedly until the terminal shows `got connection handle`.
     - Вам может понадобиться несколько попыток.
 
-13. It'll then proceed to download and load the HackMii Installer.
+13. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
     - Вы можете выключить ваш компьютер с загруженным Linux, если вы не планируете дальше его использовать.
 
 ::: info
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 
@@ -205,11 +209,11 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
    - **Do not** connect any Wii Remotes.
 3. Press the Sync button repeatedly until the bluebomb screen shows up.
    - Вам может понадобиться несколько попыток.
-4. It'll then proceed to download and load the HackMii Installer.
+4. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
 
 ::: tip
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 

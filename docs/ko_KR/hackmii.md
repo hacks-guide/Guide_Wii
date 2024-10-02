@@ -10,7 +10,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ## 홈브류 채널을 통해 다시 시작하기
 
-### 필요한 것
+### 메뉴
 
 - 홈브류 채널
 - FAT32/MS-DOS로 포맷된 SD 카드 또는 USB 드라이브
@@ -32,7 +32,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ## Priiloader를 통한 재실행
 
-### 필요한 것
+### 메뉴
 
 - Priiloader (또는 Priiloader) 가 설치된 Wii
 - FAT32/MS-DOS로 포맷된 SD 카드 또는 USB 드라이브

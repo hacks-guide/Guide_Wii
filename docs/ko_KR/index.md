@@ -3,7 +3,7 @@ layout: home
 title: Wii 가이드
 hero:
   text: Wii 가이드
-  tagline: The complete guide to modding your Wii, vWii, and Wii mini.
+  tagline: 완벽한 Wii, vWii, Wii mini 해킹 가이드.
   image:
     src: /images/main-pages/home-page-feature.jpg
 ---
@@ -36,7 +36,7 @@ Here are some common examples of what homebrew can do for your Wii:
 - Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
 - Restore online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
 
-## What does the guide install?
+## 이 가이드는 무엇을 설치하는 가이드입니까?
 
 This guide aims to do the following, including optional sections:
 
@@ -73,6 +73,6 @@ The guide has nine sections in total. These are listed below:
 
 ::: tip
 
-Continue to [Get Started](get-started)
+[시작하기](get-started)로 계속합니다
 
 :::

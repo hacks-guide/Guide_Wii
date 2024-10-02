@@ -10,14 +10,17 @@ Para armazenar vários jogos, é recomendado o uso de um armazenamento externo p
 
 ::: info
 
-Drives de flash não são recomendados, por serem pequenos e poderem variar de comportamento mesmo entre o mesmo produto. <br>
+Drives de flash não são recomendados, por serem pequenos e poderem variar de comportamento mesmo entre o mesmo produto.
+
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
 :::
 
 ::: info
 
-Certifique-se de que seu armazenamento USB está formatado como FAT32. Do not format it as other types such as exFAT or extFS. <br> Você pode formatá-lo para NTFS, mas não vai funcionar com a maioria dos apps (ex. Homebrew Channel, Nintendont)
+Certifique-se de que seu armazenamento USB está formatado como FAT32. Do not format it as other types such as exFAT or extFS.
+
+You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 
 :::
 

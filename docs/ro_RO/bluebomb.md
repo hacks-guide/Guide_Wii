@@ -1,4 +1,8 @@
-# Credits
+---
+outline: false
+---
+
+# Credite
 
 ::::: tabs
 
@@ -75,7 +79,7 @@ Asigură-te că consola este aproape de calculator care rulează exploit-ul, ide
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Download the Priiloader installer and LoadPriiloader apps.
+6. Oprește-ți consola.
 
 7. Pornește Linux-ul și asigură-te că ești conectat la internet.
 
@@ -104,7 +108,7 @@ Asigură-te că consola este aproape de calculator care rulează exploit-ul, ide
 
 ::: info
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 
@@ -182,7 +186,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Download the Priiloader installer and LoadPriiloader apps.
+6. Oprește-ți consola.
 
 #### Rasperry Pi Pico W
 
@@ -209,7 +213,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 ::: tip
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 

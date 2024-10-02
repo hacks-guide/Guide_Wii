@@ -4,7 +4,7 @@
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
-## 필요한 것
+## 메뉴
 
 - SD 카드 및 USB 드라이브
 - [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
@@ -20,7 +20,7 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 ### Section I - Prep Work
 
-1. 콘솔의 전원을 꺼 주세요.
+1. Power off your Wii.
 2. Extract both apps to the root of your SD card or USB drive.
 3. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 4. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
@@ -71,7 +71,8 @@ Later on, to enter it you can:
 
    ::: warning
 
-   If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br>
+   If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
+
    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
    :::

@@ -9,7 +9,7 @@ En esta guía aprenderás a extraer canales instalados en la memoria de la conso
 
 ## Instrucciones
 
-1. Apaga la consola.
+1. Power off your Wii.
 
 2. Extract both apps to the root of your SD card or USB drive.
 

@@ -9,7 +9,7 @@ Este tutorial explica como extrair WADs instaladas na memória do Sistema do Wii
 
 ## Instruções
 
-1. Desligue seu console.
+1. Power off your Wii.
 
 2. Extract both apps to the root of your SD card or USB drive.
 

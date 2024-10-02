@@ -20,7 +20,7 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 ### Seção I - Preparação
 
-1. Desligue seu console.
+1. Power off your Wii.
 2. Extract both apps to the root of your SD card or USB drive.
 3. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 4. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
@@ -71,7 +71,8 @@ Later on, to enter it you can:
 
    ::: warning
 
-   Se você colocou o instalador do Priiloader na unidade USB, certifique-se de que não possui um cartão SD inserido ao mesmo tempo. <br>
+   Se você colocou o instalador do Priiloader na unidade USB, certifique-se de que não possui um cartão SD inserido ao mesmo tempo.
+
    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
    :::

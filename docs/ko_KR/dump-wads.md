@@ -2,14 +2,14 @@
 
 이 자습서는 Wii 시스템 메모리에서 WAD를 덤프하는 방법을 설명합니다.
 
-## 필요한 것
+## 메뉴
 
 - SD 카드 및 USB 드라이브
 - [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
 ## 진행 방법
 
-1. 콘솔의 전원을 꺼 주세요.
+1. Power off your Wii.
 
 2. Extract both apps to the root of your SD card or USB drive.
 
@@ -55,6 +55,6 @@
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
 
 :::

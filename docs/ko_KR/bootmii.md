@@ -1,7 +1,7 @@
 # BootMii 백업
 
-You need an <strong x-id="1">SD card</strong> to use BootMii at all, but especially to create a NAND backup.
-If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
+BootMii를 사용하여 NAND 백업을 생성하려면 <strong x-id="1">SD 카드</strong>가 필요합니다.
+백업이 없는 경우 이 페이지를 건너뛰어도 되지만, 가능하면 NAND 백업을 만드는 것이 좋습니다.
 
 ::: warning
 
@@ -9,7 +9,7 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
 :::
 
-## 필요한 것
+## 메뉴
 
 - 적어도 512MB 이상의 SD 카드
 

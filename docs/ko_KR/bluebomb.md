@@ -1,3 +1,7 @@
+---
+outline: false
+---
+
 # BlueBomb
 
 ::::: tabs
@@ -38,7 +42,7 @@ If you are using the original revision of the Wii, you should probably find [ano
 
 :::
 
-### 필요한 것
+### 메뉴
 
 - 리눅스 기기
   - 가상 머신을 사용할 수도 있지만 블루투스 패스스루를 작동시키는 데 복잡하므로 권장하지 않습니다. 가능하면 아래 설명된 대로 LiveUSB를 사용하세요.
@@ -75,7 +79,7 @@ If you are using the original revision of the Wii, you should probably find [ano
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. 콘솔의 전원을 꺼 주세요.
+6. Power off your Wii.
 
 7. Start your Linux distro, and ensure you are connected to the internet.
 
@@ -104,7 +108,7 @@ If you are using the original revision of the Wii, you should probably find [ano
 
 ::: info
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 
@@ -150,7 +154,7 @@ If you are using the original revision of the Wii, you should probably find [ano
 
 :::
 
-### 필요한 것
+### 메뉴
 
 - A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
 - FAT32로 포맷된 USB 플래시 드라이브
@@ -182,7 +186,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. 콘솔의 전원을 꺼 주세요.
+6. Power off your Wii.
 
 #### Rasperry Pi Pico W
 
@@ -209,7 +213,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 ::: tip
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 

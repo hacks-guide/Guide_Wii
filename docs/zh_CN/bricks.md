@@ -1,6 +1,8 @@
 # 变砖
 
-“变砖” 通常意味着您的 Wii 已经到了只能作为<a href="https://wikipedia.org/wiki/Brick">砖块</a>使用的地步。 <br> 变砖的原因很多，通常是由于通过自制对系统进行的不当修改所致。
+“变砖” 通常意味着您的 Wii 已经到了只能作为<a href="https://wikipedia.org/wiki/Brick">砖块</a>使用的地步。
+
+Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
 
 # Brick Prevention
 
@@ -166,8 +168,10 @@ Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 
 Screen shows up as listed below on normal boot.
 
-`Error:003`<br>
-`unauthorized device has been detected.`<br>
+```
+Error:003
+unauthorized device has been detected.
+```
 
 ![](/images/bricks/error-003.png)
 

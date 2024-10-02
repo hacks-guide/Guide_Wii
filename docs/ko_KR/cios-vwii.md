@@ -22,7 +22,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 
 :::
 
-## 필요한 것
+## 메뉴
 
 - A Wii U with the Homebrew Channel installed on the vWii
 - SD 카드

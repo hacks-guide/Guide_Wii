@@ -9,7 +9,7 @@ Acest ghid îți va arăta cum să extragi fișiere WAD din Memoria de Sistem Wi
 
 ## Instrucțiuni
 
-1. Download the Priiloader installer and LoadPriiloader apps.
+1. Oprește-ți consola.
 
 2. Extract both apps to the root of your SD card or USB drive.
 

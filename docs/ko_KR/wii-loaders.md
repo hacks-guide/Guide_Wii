@@ -54,7 +54,7 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ## RiiConnect24 테마 페이지
 
-### 필요한 것
+### 메뉴
 
 - Wii
 - The latest version of [cIOS](cios)
@@ -74,7 +74,9 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 #### User Interface
 
-When WiiFlow detects games, they are displayed in flow view.<br> When you click on a game, you are given these options:
+When WiiFlow detects games, they are displayed in flow view.
+
+When you click on a game, you are given these options:
 
 - Star - Adds game to favorites.
 - Bookshelf - Adds the game to 1 of 6 categories of your choosing.
@@ -103,7 +105,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ## USB Loader GX
 
-### 필요한 것
+### 메뉴
 
 - Wii
 - The latest version of [cIOS](cios)
@@ -184,6 +186,6 @@ To change the cIOS used for a specific game, follow the instructions specific to
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
 
 :::

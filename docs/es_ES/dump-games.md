@@ -11,7 +11,7 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 ### Preparation
 
-1. Apaga la consola.
+1. Power off your Wii.
 
 2. Extract both apps to the root of your SD card or USB drive.
 

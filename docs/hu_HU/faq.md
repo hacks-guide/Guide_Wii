@@ -22,8 +22,9 @@ A RiiConnect24 régi DNS-kiszolgálóját használod. Follow [this](riiconnect24
 
 ##### Nem RiiConnect24 felhasználók számára
 
-Az elsődleges DNS-kiszolgálód hibás vagy nem működik.<br>
-Ez akkor is előfordulhat, ha proxyt használsz, és az nem működik.
+Your Primary DNS server is incorrect or not working.
+
+This can also happen if you use a proxy server and it is down.
 
 #### Error 107304
 
@@ -57,16 +58,19 @@ For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploi
 
 ::: info
 
-FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br>
+FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.
+
 For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. A WBFS korábban a Wii-játékok biztonsági mentéséhez használt fájlrendszer volt (nem tévesztendő össze a WBFS fájlokkal) - ma már elavult, és nem szabad használni.
 
 :::
 
 ::: warning
 
-A 4.0-nál alacsonyabb verziószámú Wii menüben a Wii rendszerszoftverének egy korlátozása megakadályozza a 2 GB-nál nagyobb SD-kártyák használatát.<br>
-A 4.0-s vagy magasabb verziószámú stock Wii Menü esetében ez a korlátozás megszűnik, és különböző méretű SD-kártyák használhatók.<br>
-A legnagyobb esélyed arra, hogy működőképes SD-kártyát kapj bármelyik Wii-n, a 32 GB-os vagy annál kisebb méretnél van, de többször jelentettek már sikereket 256 GB-ig terjedő kártyákkal is.
+For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.
+
+For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.
+
+Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
 
 :::
 

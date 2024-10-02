@@ -10,14 +10,17 @@ Si deseas guardar múltiples juegos, te recomendamos adquirir un disco duro exte
 
 ::: info
 
-No se recomienda usar una memoria USB, ya que su capacidad por lo general es limitada y pueden variar en funcionalidad incluso entre unidades del mismo modelo. <br>
+No se recomienda usar una memoria USB, ya que su capacidad por lo general es limitada y pueden variar en funcionalidad incluso entre unidades del mismo modelo.
+
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
 :::
 
 ::: info
 
-Asegúrate de que tu unidad USB o tarjeta SD esté formateada como FAT32. Do not format it as other types such as exFAT or extFS. <br> Puedes formatearla a NTFS, pero no funcionará con la mayoría de aplicaciones homebrew (por ejemplo, el Canal Homebrew, o Nintendont)
+Asegúrate de que tu unidad USB o tarjeta SD esté formateada como FAT32. Do not format it as other types such as exFAT or extFS.
+
+You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 
 :::
 

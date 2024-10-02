@@ -1,7 +1,8 @@
 # Brick-uri
 
-Un "Brick" de obicei înseamnă că sistemul tău Wii a ajuns într-un stadiu unde sunt șanse mari ca următorul său motiv de a exista este ca un opritor de uși, sau pentru display. <br>
-Brick-urile pot apărea dintr-o varietate de motive, însă de obicei sunt rezultatul unui software defect sau unei modificări necorespunzătoare făcute prin homebrew.
+Un "Brick" de obicei înseamnă că sistemul tău Wii a ajuns într-un stadiu unde sunt șanse mari ca următorul său motiv de a exista este ca un opritor de uși, sau pentru display.
+
+Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
 
 # Prevenirea Brick-urilor
 
@@ -167,8 +168,10 @@ Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 
 Ecranul afișează mesajul de mai jos dupa ce pornești consola.
 
-`Error:003`<br>
-`unauthorized device has been detected.`<br>
+```
+Error:003
+unauthorized device has been detected.
+```
 
 ![](/images/bricks/error-003.png)
 

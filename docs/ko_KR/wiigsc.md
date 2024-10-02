@@ -20,7 +20,7 @@ The Wii Menu is limited to 48 channels, not including existing system channels.
 
 :::
 
-## 필요한 것
+## 메뉴
 
 - Wii
 - An SD or USB drive
@@ -54,6 +54,6 @@ If you get an error saying "The system files are corrupted", don't panic as long
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
 
 :::

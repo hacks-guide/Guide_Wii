@@ -22,7 +22,9 @@ Folosești serverul DNS vechi pentru RiiConnect24. Follow [this](riiconnect24#se
 
 ##### Pentru cei care nu folosesc RiiConnect24
 
-Serverul tău DNS primar este incorect sau nu funcționează.<br> Acest lucru se poate întâmpla și dacă folosești un server proxy care este închis.
+Your Primary DNS server is incorrect or not working.
+
+This can also happen if you use a proxy server and it is down.
 
 #### Eroarea 107304
 
@@ -56,14 +58,19 @@ For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploi
 
 ::: info
 
-FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br>
+FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.
+
 For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS a fost un sistem de fișiere folosit anterior pentru backup-uri de jocuri Wii (nu de a fi confundate cu fișierele WBFS) - astăzi, este învechit și nu ar trebui să fie folosit.
 
 :::
 
 ::: warning
 
-Pentru versiunile nemodificate ale Meniului Wii cu versiunea mai veche de 4.0, o limitare în software-ul sistemului Wii previne folosirea cardurilor SD mai mari de 2GB.<br> Pentru versiunile nemodificate ale Meniului Wii cu versiunea 4.0 sau mai nouă, această limitare a fost eliminată iar carduri SD de mărimi variate pot fi folosite.<br> Șansele cele mai mari să obții un card SD care merge cu orice Wii sunt la mărimile de 32GB sau mai mici, însă a fost raportat succesul de mai multe ori și folosind carduri care ajung până la 256GB.
+For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.
+
+For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.
+
+Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
 
 :::
 

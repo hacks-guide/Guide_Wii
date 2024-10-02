@@ -23,8 +23,9 @@ ModMii este un instrument de Wii hacking complet pentru Windows creat de XFlak c
 
 ## Prezentare ModMii
 
-Există două moduri diferite de a folosi ModMii. Există ModMii Classic, care folosește o interfață a liniei de comandă, dar are toate caracteristicile disponibile pentru program. Skin ModMii are o interfață grafică de utilizator (GUI), pe de altă parte, dar are mai puține opțiuni disponibile utilizatorului. Dacă dorești să modezi pur și simplu Wii pentru prima dată, ModMii Skin ar trebui să fie suficient. Altfel, recomandăm folosind ModMii Classic acolo unde este posibil. <br>
-Graficul de mai jos vă va ajuta să determinați ce se poate face în fiecare interfață.
+Există două moduri diferite de a folosi ModMii. Există ModMii Classic, care folosește o interfață a liniei de comandă, dar are toate caracteristicile disponibile pentru program. Skin ModMii are o interfață grafică de utilizator (GUI), pe de altă parte, dar are mai puține opțiuni disponibile utilizatorului. Dacă dorești să modezi pur și simplu Wii pentru prima dată, ModMii Skin ar trebui să fie suficient. Altfel, recomandăm folosind ModMii Classic acolo unde este posibil.
+
+The chart below will help you determine what can be done in either interface.
 
 | Unelte                                                                          | ModMii Classic | ModMii Skin |
 | ------------------------------------------------------------------------------- | -------------- | ----------- |

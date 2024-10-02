@@ -20,7 +20,7 @@ There is no way to restore your NAND backup this way without a hardmod.
 
 :::
 
-## 필요한 것
+## 메뉴
 
 - Wii
 - USB 드라이브
@@ -97,6 +97,6 @@ Now that your Wii has adequate brick protection, you can install the Open Shop C
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
 
 :::

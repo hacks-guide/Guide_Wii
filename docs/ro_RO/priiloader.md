@@ -20,7 +20,7 @@
 
 ### Secțiunea I - Pregătire
 
-1. Download the Priiloader installer and LoadPriiloader apps.
+1. Oprește-ți consola.
 2. Extract both apps to the root of your SD card or USB drive.
 3. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 4. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
@@ -71,7 +71,8 @@
 
    ::: warning
 
-   Dacă ai pus instalatorul Priiloader pe o unitate USB, asigură-te că nu ai un card SD introdus în același timp. <br>
+   Dacă ai pus instalatorul Priiloader pe o unitate USB, asigură-te că nu ai un card SD introdus în același timp.
+
    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
    :::

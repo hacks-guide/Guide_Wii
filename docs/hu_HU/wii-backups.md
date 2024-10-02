@@ -10,14 +10,16 @@ Ha több játékot akarsz tárolni, javasoljuk egy külső háttértár beszerz�
 
 ::: info
 
-Egy pendrive használatát nem ajánljuk, mert nagyon kicsik és még ugyanannak a terméknek a különböző példányai is máshogy viselkedhetnek. <br>
-Ha szeretnéd, ehelyett használhatsz egy SD kártyát is, de figyelmeztetünk, hogy a Wii SD kártya-olvasója lassú!
+Egy pendrive használatát nem ajánljuk, mert nagyon kicsik és még ugyanannak a terméknek a különböző példányai is máshogy viselkedhetnek.
+
+As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
 :::
 
 ::: info
 
-Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva. Ne formázd más típusokra, mint az exFAT vagy az extFS! <br>
+Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva. Ne formázd más típusokra, mint az exFAT vagy az extFS!
+
 You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 
 :::

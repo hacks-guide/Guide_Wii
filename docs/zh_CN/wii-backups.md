@@ -11,14 +11,17 @@ This guide provides instructions on how to manage your Wii backups, from joining
 
 ::: info
 
-不建议使用 U 盘，因为它们很小，即使同一款产品之间行为也可能有所不同。 不建议使用 U 盘，因为它们很小，即使同一款产品之间行为也可能有所不同。 <br>
+不建议使用 U 盘，因为它们很小，即使同一款产品之间行为也可能有所不同。
+
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
 :::
 
 ::: info
 
-确保已将 移动硬盘/U 盘格式化为 FAT32 格式。 确保已将 移动硬盘/U 盘格式化为 FAT32 格式。 Do not format it as other types such as exFAT or extFS. <br>您可以将其格式化为 NTFS，但它不能与大多数应用程序（如 Homebrew Channel 和 Nintendont）配合使用。
+确保已将 移动硬盘/U 盘格式化为 FAT32 格式。 确保已将 移动硬盘/U 盘格式化为 FAT32 格式。 Do not format it as other types such as exFAT or extFS.
+
+You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 
 :::
 

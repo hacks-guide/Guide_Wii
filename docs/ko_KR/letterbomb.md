@@ -14,7 +14,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 :::
 
-## 필요한 것
+## 메뉴
 
 - An SD card formatted as FAT32 that is 32GB or less
 - 시스템 메뉴 4.3의 Wii

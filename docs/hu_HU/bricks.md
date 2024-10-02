@@ -1,9 +1,10 @@
 # Elrontás
 
-Ha elromlott a Wiid, akkor már nem sok hasznod lesz rá, hacsak nem kell egy papírnehezék. <br>
-Egy Wii számos okból kifolyólag elromolhat, de ez általában sérült programok vagy rosszul elvégzett nemhivatalos módosítások okozzák.
+Ha elromlott a Wiid, akkor már nem sok hasznod lesz rá, hacsak nem kell egy papírnehezék.
 
-# Brick megelőzés
+Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
+
+# Az elrontás kiküszöbölése
 
 Az elrontás megelőzésének több módja van, amelyek a józan paraszti észtől a biztonsági mentésig terjednek. Az általánosan elkerülendő dolgokat alább olvashatod:
 
@@ -167,8 +168,10 @@ Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 
 Az alábbi hibaüzenet fogad a rendszer indításakor:
 
-`Error:003`<br>
-`unauthorized device has been detected.`<br>
+```
+Error:003
+unauthorized device has been detected.
+```
 
 ![](/images/bricks/error-003.png)
 

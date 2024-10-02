@@ -22,7 +22,7 @@ If the `Wiimmfi Patch` displays as anything other than v4, you do not have the l
 
 A method for Wiimmfi patching which runs on retail disc games automatically via the Disc Channel.
 
-### 필요한 것
+### 메뉴
 
 - A Wii with an internet connection, on System Menu version 4.3
 - [Priiloader](priiloader) 0.9 or later
@@ -58,7 +58,7 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 
 If you are already using USB Loader GX, try updating it to the most recent version. Then, there should be a "private server" setting (both in the global loader options and in the game options) which you can set to "Wiimmfi" to make the USB Loader automatically patch every game you start to work with Wiimmfi.
 
-### 필요한 것
+### 메뉴
 
 - Mario Kart Wii Competitions
 - [USB Loader GX or WiiFlow Lite](wii-loaders)
@@ -86,7 +86,7 @@ To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC 
 
 :::
 
-### 필요한 것
+### 메뉴
 
 - Mario Kart Wii Competitions
 
@@ -100,7 +100,7 @@ To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC 
 
 A method for Wiimmfi patching which runs on retail disc games, but must be manually launched via the Homebrew Channel.
 
-### 필요한 것
+### 메뉴
 
 - SD 카드 및 USB 드라이브
 - [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
@@ -115,7 +115,7 @@ A method for Wiimmfi patching which runs on retail disc games, but must be manua
 
 A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the EULA User Agreement (derives from [str2hax](str2hax)). Due to the nature of this process, it can be ran on Wiis without homebrew.
 
-### 필요한 것
+### 메뉴
 
 - Mario Kart Wii Competitions
 
@@ -145,7 +145,7 @@ If you run into UPnP-related issues (such as the patcher getting stuch at "Init 
 
 A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). Due to the nature of this process, it can be ran on Wiis without homebrew. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
 
-### 필요한 것
+### 메뉴
 
 - A Wii with an internet connection, running in 60Hz mode
 - 인터넷 채널
@@ -162,7 +162,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 A method for Wiimmfi patching which runs on WiiWare games, but must be manually run on a PC via a script.
 
-### 필요한 것
+### 메뉴
 
 - SD 카드
 - 게임 복사본 (WAD 형식)
@@ -179,7 +179,7 @@ A method for Wiimmfi patching which runs on WiiWare games, but must be manually 
 
 A method for Wiimmfi patching which runs on game disc images, but must be manually run on a PC via a script.
 
-### 필요한 것
+### 메뉴
 
 - A Linux/macOS/Windows PC with an internet connection
 - A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
@@ -202,6 +202,6 @@ Congrats on making it to the end of the optional section of the main guide! You 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
 
 :::

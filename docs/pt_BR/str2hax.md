@@ -90,7 +90,7 @@ Este exploit exige que você configure seu DNS para se conectar a um servidor qu
 
 4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 
-5. Ele fará o download do HackMii Installer e depois será iniciado.
+5. 1 Se o exploit foi bem sucedido, seu console irá carregar o Instalador HackMii.
 
    ![](/images/hackmii/scam.png)
 

@@ -67,7 +67,7 @@ NON usare NESSUN indirizzo MAC mostrato negli esempi di questa guida, perchè ca
     - Se il tuo Wii si blocca dopo aver cliccato sulla lettera, hai probabilmente scelto la regione sbagliata del menu di sistema per LetterBomb. Torna al Passaggio 2 e verifica di aver scelto la regione giusta.
     - Se è tutto corretto e il blocco persiste, riprova finchè non funziona.
 
-16. Se l'exploit è andato a buon fine, ti ritroverai dentro l'HackMii Installer.
+16. Se l'exploit ha avuto successo, il tuo Wii avrà avviato l'HackMii Installer.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 

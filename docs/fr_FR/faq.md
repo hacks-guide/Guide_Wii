@@ -22,7 +22,9 @@ Vous utilisez l'ancien serveur DNS de RiiConnect24. Suivez [ce guide](riiconnect
 
 ##### Pour les utilisateurs non-RiiConnect24
 
-Votre serveur DNS principal est incorrect ou ne fonctionne pas.<br> Cela peut également se produire si vous utilisez un serveur proxy et qu'il est hors service.
+Your Primary DNS server is incorrect or not working.
+
+This can also happen if you use a proxy server and it is down.
 
 #### Erreur 107304
 
@@ -56,13 +58,19 @@ If you are using the BlueBomb, str2hax, or FlashHax exploits, you do not need an
 
 ::: info
 
-FAT32 est le système de fichiers recommandé pour les cartes SD, voir [ce guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) pour savoir comment formatter un périphérique dans ce format.<br> Pour les périphériques USB, FAT32 est également recommandé, bien que les utilisateurs devraient être avertis des limitations du FAT32 qui ne permettent que des volumes de 2 To. WBFS was a previously used file system for Wii game backups (not to be confused with WBFS files) - today, it is outdated and should not be used.
+FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.
+
+For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS was a previously used file system for Wii game backups (not to be confused with WBFS files) - today, it is outdated and should not be used.
 
 :::
 
 ::: warning
 
-For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.<br> For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.<br> Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
+For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.
+
+For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.
+
+Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
 
 :::
 

@@ -23,7 +23,9 @@ ModMii è uno strumento di hacking per Wii per Windows tutto in uno creato da XF
 
 ## Panoramica di ModMii
 
-Ci sono due modi differenti per usare ModMii. C'è ModMii Classic, che usa un'interfaccia a riga di comando, ma ha tutte le funzionalità disponibili per il programma. ModMii Skin ha un'interfaccia utente grafica, d'altra parte, ma ha meno funzionalità disponibili per l'utente. Se stai cercando semplicemente di effettuare l'hacking della tua Wii per la prima volta, ModMii Skin dovrebbe bastare. In caso contrario, consigliamo usare ModMii Classic dove possibile. <br> The chart below will help you determine what can be done in either interface.
+Ci sono due modi differenti per usare ModMii. C'è ModMii Classic, che usa un'interfaccia a riga di comando, ma ha tutte le funzionalità disponibili per il programma. ModMii Skin ha un'interfaccia utente grafica, d'altra parte, ma ha meno funzionalità disponibili per l'utente. Se stai cercando semplicemente di effettuare l'hacking della tua Wii per la prima volta, ModMii Skin dovrebbe bastare. In caso contrario, consigliamo usare ModMii Classic dove possibile.
+
+The chart below will help you determine what can be done in either interface.
 
 | Strumenti                                      | ModMii Classic | ModMii Skin |
 | ---------------------------------------------- | -------------- | ----------- |

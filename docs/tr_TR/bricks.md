@@ -1,7 +1,8 @@
 # Brick senaryoları
 
-Bir "brick" genelde Wii'nizin bir sonraki var olma amacının bir kapı durdurucusu veya sadece bir süs olabileceği durumlardır. <br>
-Brickler birçok sebepten dolayı olmuş olabilir, ama genellikle yozlaşmış (bozulmuş) yazılımlar nedeniyle, veya homebrew aracılığı ile yapılmış düzgün olmayan düzenlemeler sebebiyle olabilir.
+Bir "brick" genelde Wii'nizin bir sonraki var olma amacının bir kapı durdurucusu veya sadece bir süs olabileceği durumlardır.
+
+Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
 
 # Brick Önleme
 
@@ -167,8 +168,10 @@ Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 
 Screen shows up as listed below on normal boot.
 
-`Error:003`<br>
-`unauthorized device has been detected.`<br>
+```
+Error:003
+unauthorized device has been detected.
+```
 
 ![](/images/bricks/error-003.png)
 

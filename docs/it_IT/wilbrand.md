@@ -76,7 +76,7 @@ Le schede SD di dimensioni maggiori a 2GB non funzioneranno su versioni del Menu
     - In alcuni casi, la lettera potrebbe trovarsi nei giorni successivi o precedenti a quello corrente.
     - If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. Se appaiono, ci potrebbe essere un problema con il formato della scheda SD o con il lettore SD del Wii.
 
-17. Se l'exploit è andato a buon fine, ti ritroverai dentro l'HackMii Installer.
+17. Se l'exploit ha avuto successo, il tuo Wii avrà avviato l'HackMii Installer.
     - If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     - If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
@@ -164,7 +164,7 @@ Le schede SD di dimensioni maggiori a 2GB non funzioneranno su versioni del Menu
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-16. Se l'exploit è andato a buon fine, ti ritroverai dentro l'HackMii Installer.
+16. Se l'exploit ha avuto successo, il tuo Wii avrà avviato l'HackMii Installer.
     - If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     - If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
