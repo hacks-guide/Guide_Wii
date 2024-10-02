@@ -16,7 +16,7 @@ Wilbrand Web is recommended for its ease of use.
 
 ## Wilbrand Web
 
-### 메뉴
+### Requirements
 
 - An SD card formatted to FAT32/MS-DOS
 - 버전 3.0 이상의 Wii
@@ -27,9 +27,9 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 :::
 
-### 진행 방법
+### Instructions
 
-1. 콘솔의 전원을 켜 주세요.
+1. Power on your console.
 
 2. Go to `Wii Settings`.
 
@@ -76,7 +76,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     - In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     - If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. 이 경우 SD 카드 형식 또는 Wii의 SD 카드 리더기에 문제가 있는 것일 수 있습니다.
 
-17. 그런 다음 HackMii 설치 프로그램을 다운로드하고 로드합니다.
+17. If the exploit was successful, your device will have loaded the HackMii Installer.
     - If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     - If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
@@ -92,7 +92,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 ## Wilbrand CLI
 
-### 메뉴
+### Requirements
 
 - 윈도우즈, 맥OS, 리눅스를 실행하는 PC
 - An SD card formatted to FAT32/MS-DOS
@@ -106,9 +106,9 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 :::
 
-### 진행 방법
+### Instructions
 
-1. 콘솔의 전원을 켜 주세요.
+1. Power on your console.
 
 2. Go to `Wii Settings`.
 
@@ -164,7 +164,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-16. 그런 다음 HackMii 설치 프로그램을 다운로드하고 로드합니다.
+16. If the exploit was successful, your device will have loaded the HackMii Installer.
     - If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     - If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
