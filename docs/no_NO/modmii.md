@@ -71,7 +71,7 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ## Installing ModMii
 
-### str2hax Method
+### Requirements
 
 - A Wii
 - A USB drive or SD Card
