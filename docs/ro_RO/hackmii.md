@@ -10,13 +10,13 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ## Redeschiderea prin Homebrew Channel
 
-### Instrumente necesare
+### Requirements
 
 - Homebrew Channel
 - Un card SD sau unitate USB formatată ca FAT32/MS-DOS
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### Instrucțiuni
+### Instructions
 
 1. Introdu cardul tău SD/unitatea ta USB în calculatorul tău.
 2. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
@@ -32,7 +32,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ## Redeschiderea prin Priiloader
 
-### Instrumente necesare
+### Requirements
 
 - Un Wii cu Priiloader (sau Preloader) instalat
 - Un card SD sau unitate USB formatată ca FAT32/MS-DOS
@@ -50,7 +50,7 @@ Preloader and older versions of Priiloader do not seem to support SDHC (>2GB) ca
 
 :::
 
-### Instrucțiuni
+### Instructions
 
 1. Introdu cardul tău SD/unitatea ta USB în calculatorul tău.
 2. Copy the `boot.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card or USB drive.
