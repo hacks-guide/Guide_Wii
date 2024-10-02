@@ -2,14 +2,14 @@
 
 이 자습서는 Wii 시스템 메모리에서 WAD를 덤프하는 방법을 설명합니다.
 
-## 메뉴
+## Requirements
 
 - SD 카드 및 USB 드라이브
 - [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-## 진행 방법
+## Instructions
 
-1. Power off your Wii.
+1. Power off your console.
 
 2. Extract both apps to the root of your SD card or USB drive.
 
@@ -17,7 +17,7 @@
 
 4. Wii에 SD 카드를 연결하고, 홈브류 채널에서 CleanRip을 실행합니다.
 
-5. 콘솔의 전원을 켜 주세요.
+5. Power on your console.
 
 6. Launch the Homebrew Channel, and launch the Load Priiloader app.
 
