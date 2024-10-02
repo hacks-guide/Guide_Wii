@@ -26,7 +26,7 @@ Restoring an unverified NAND backup may lead to a WORSE BRICK. The same also goe
 
 :::
 
-## Requisitos
+## Requirements
 
 - An earlier NAND Backup made by [BootMii](bootmii)
 
@@ -46,7 +46,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 - You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1. Para navegar con un mando de GameCube, pulsa izquierda/derecha en la cruz de control de un mando de GameCube. Para seleccionar, pulsa A.
 
-## Instrucciones
+## Instructions
 
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 
