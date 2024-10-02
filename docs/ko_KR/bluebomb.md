@@ -12,7 +12,7 @@ outline: false
 
 :::details Technical Details (optional)
 
-BlueBomb은 Wii 및 Wii 미니의 블루투스 라이브러리의 결함을 이용하는 취약점 공격입니다. 이 취약점 공격은 Wii 미니에서 작동하는 유일한 취약점 공격이지만, BlueBomb은 오리지널 Wii에서도 실행할 수 있습니다.
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
@@ -38,38 +38,38 @@ If you are using the original revision of the Wii, you should probably find [ano
 
 ::: info
 
-콘솔이 취약점 공격을 실행하는 컴퓨터와 가까운지 확인하고, 이상적으로는 약 1미터 이내여야 합니다.
+Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
 
 :::
 
-### 메뉴
+### Requirements
 
-- 리눅스 기기
-  - 가상 머신을 사용할 수도 있지만 블루투스 패스스루를 작동시키는 데 복잡하므로 권장하지 않습니다. 가능하면 아래 설명된 대로 LiveUSB를 사용하세요.
-  - 라즈베리 파이가 있다면 이미 리눅스가 설치되어 있을 가능성이 높으므로 이를 대신 사용할 수 있습니다.
+- A Linux machine
+  - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
+  - If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
   - Windows Subsystem for Linux or a Chromebook running Linux mode will _not work_ as they don't have direct access to the Bluetooth adapter or USB ports.
   - If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
     - 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
-    - 64비트 장치의 경우 안정성을 위해 LTS 버전을 사용하는 것이 좋지만 최신 릴리스도 작동합니다.
+    - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
   - You can [flash a Linux Live environment to a USB flash drive](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) instead of installing it to your computer.
-- 블루투스 어댑터
-  - 내장 블루투스 어댑터도 작동합니다.
-  - 만약 없다면, 리눅스와 호환되는 것으로 구매하세요.
-- FAT32로 포맷된 USB 플래시 드라이브
-  - 리눅스 기기에 사용되는 플래시 드라이브와는 달라야 합니다.
+- A Bluetooth adapter.
+  - An internal Bluetooth adapter will work.
+  - If you do not have one, make sure to get one compatible with Linux.
+- A USB flash drive formatted as FAT32.
+  - This cannot be the same flash drive used for your Linux Machine.
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### 진행 방법
+### Instructions
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
-   - (벽돌을 고치려 한다면, /apps/에서 사용할 홈브루 앱도 복사해야 합니다)
-   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. 모든 경우에 boot.elf 사용).
+   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
 
 2. Reinsert your flash drive into your console.
-   - Wii 미니의 경우 USB 포트는 뒷면에 있습니다.
-   - 일반 Wii의 경우 하단 포트를 사용합니다. (또는 똑바로 세워진 경우 오른쪽 포트).
+   - For a Wii mini, the USB port is on the back.
+   - For a normal Wii, use the bottom port (or the right port if it's upright).
 
-3. 콘솔의 전원을 켜 주세요.
+3. Power on your console.
 
 4. Go to `Wii Settings`.
 
@@ -79,7 +79,7 @@ If you are using the original revision of the Wii, you should probably find [ano
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Power off your Wii.
+6. Power off your console.
 
 7. Start your Linux distro, and ensure you are connected to the internet.
 
@@ -93,18 +93,18 @@ If you are using the original revision of the Wii, you should probably find [ano
    ./bluebomb-helper.sh
    ```
 
-10. 그 다음 도우미는 필요한 파일을 받고 콘솔의 정보에 관해 물을겁니다.
-    - Wii 미니를 선택했다면, 지역을 물어볼 겁니다. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
-    - Wii를 선택했다면 Wii 메뉴 버전을 선택하라고 물어볼 겁니다 (4단계에서 선택한 것)
+10. The helper will then download the required files, and ask for information about your console.
+    - If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
+    - If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
 
-11. 콘솔의 전원을 켜 주세요.
+11. Power on your console.
     - **Do not** connect any Wii Remotes.
 
 12. Press the Sync button repeatedly until the terminal shows `got connection handle`.
     - This could take numerous attempts.
 
-13. 그런 다음 HackMii 설치 프로그램을 다운로드하고 로드합니다.
-    - 이제 나중에 사용할 계획이 없는 경우 리눅스 컴퓨터를 종료할 수 있습니다.
+13. If the exploit was successful, your device will have loaded the HackMii Installer.
+    - If you are not planning to use it later, you can now shut down your Linux distro.
 
 ::: info
 
@@ -150,14 +150,14 @@ If you are using the original revision of the Wii, you should probably find [ano
 
 ::: info
 
-콘솔이 취약점 공격을 실행하는 컴퓨터와 가까운지 확인하고, 이상적으로는 약 1미터 이내여야 합니다.
+Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
 
 :::
 
-### 메뉴
+### Requirements
 
 - A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
-- FAT32로 포맷된 USB 플래시 드라이브
+- A USB flash drive formatted as FAT32.
 - [The HackMii Installer](https://bootmii.org/download/)
 
 ::: info
@@ -166,17 +166,17 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 :::
 
-### 진행 방법
+### Instructions
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
-   - (벽돌을 고치려 한다면, /apps/에서 사용할 홈브루 앱도 복사해야 합니다)
-   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. 모든 경우에 boot.elf 사용).
+   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
 
 2. Reinsert your flash drive into your console.
-   - Wii 미니의 경우 USB 포트는 뒷면에 있습니다.
-   - 일반 Wii의 경우 하단 포트를 사용합니다. (또는 똑바로 세워진 경우 오른쪽 포트).
+   - For a Wii mini, the USB port is on the back.
+   - For a normal Wii, use the bottom port (or the right port if it's upright).
 
-3. 콘솔의 전원을 켜 주세요.
+3. Power on your console.
 
 4. Go to `Wii Settings`.
 
@@ -186,7 +186,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Power off your Wii.
+6. Power off your console.
 
 #### Rasperry Pi Pico W
 
@@ -205,11 +205,11 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 ### Performing the Exploit
 
 1. Plug your flashed device back into your PC.
-2. 콘솔의 전원을 켜 주세요.
+2. Power on your console.
    - **Do not** connect any Wii Remotes.
 3. Press the Sync button repeatedly until the bluebomb screen shows up.
    - This could take numerous attempts.
-4. 그런 다음 HackMii 설치 프로그램을 다운로드하고 로드합니다.
+4. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ::: tip
 
