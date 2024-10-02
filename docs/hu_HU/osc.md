@@ -12,13 +12,13 @@ Az Open Shop Channel használatához két módszer közül választhatsz: futtat
 
 ## I. módszer – Homebrew Browser
 
-### Követelmények
+### Requirements
 
 - Egy internetkapcsolattal rendelkező, feltört Wii
 - Egy SD kártya vagy pendrive
 - [Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
-### Útmutató
+### Instructions
 
 1. Download the recommended `.zip` file from the Open Shop Channel website.
 
@@ -30,7 +30,7 @@ Az Open Shop Channel használatához két módszer közül választhatsz: futtat
 
 ## II. módszer – OSCDL
 
-### Követelmények
+### Requirements
 
 - Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 - Egy SD kártya vagy pendrive
