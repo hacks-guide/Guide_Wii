@@ -54,13 +54,13 @@ Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható.
 
 ## WiiFlow Lite
 
-### Követelmények
+### Requirements
 
 - Egy moddolt Wii
 - The latest version of [cIOS](cios)
 - [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
-### Telepítés
+### Installation
 
 1. Töltsd le a WiiFlow-t, és telepítsd az SD-kártyára vagy USB-eszközre.
 
@@ -105,13 +105,13 @@ Amikor a kurzort a képernyő aljára viszed, miközben az flow nézetben vagy, 
 
 ## USB Loader GX
 
-### Követelmények
+### Requirements
 
 - Egy moddolt Wii
 - The latest version of [cIOS](cios)
 - [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
-### Telepítés
+### Installation
 
 1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
 2. Töltsd le az USB Loader GX-et, és telepítsd az SD-kártyára vagy USB-eszközre.
