@@ -22,12 +22,12 @@ If the `Wiimmfi Patch` displays as anything other than v4, you do not have the l
 
 Un metodo per la patch Wiimmfi che viene eseguito automaticamente sui giochi su disco tramite il Canale Disco.
 
-### Requisiti
+### Requirements
 
 - Un Wii con una connessione Internet e il Menu di sistema versione 4.3
 - [Priiloader](priiloader) 0.9 or later
 
-### Istruzioni
+### Instructions
 
 1. Tieni premuto il pulsante RESET mentre accendi il tuo Wii. Se stai usando un Wii mini, connetti una tastiera USB e tieni il tasto Esc mentre lo accendi.
 
@@ -58,12 +58,12 @@ Un metodo per la patch Wiimmfi che viene eseguito automaticamente sui giochi su 
 
 Un metodo per la patch Wiimmfi che applica la patch automaticamente su backup di giochi nelle ultime versioni di USB Loader GX o WiiFlow Lite.
 
-### Requisiti
+### Requirements
 
 - Un Wii con connessione a Internet
 - [USB Loader GX or WiiFlow Lite](wii-loaders)
 
-### Istruzioni
+### Instructions
 
 1. Open the game or global settings for your specific USB loader and search for the `Private Server` option. By default, it will be set to `Off`.
 2. Set the option to `Wiimmfi` and save the settings. Per impostazione predefinita, ora la patch per Wiimmfi si applicherà sui giochi automaticamente.
@@ -86,11 +86,11 @@ To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC 
 
 :::
 
-### Requisiti
+### Requirements
 
 - Un Wii con connessione a Internet
 
-### Istruzioni
+### Instructions
 
 1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
 2. Lascia che si completi la prova di connessione e non effettuare un aggiornamento di sistema Wii.
@@ -100,12 +100,12 @@ To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC 
 
 Un metodo per la patch Wiimmfi che viene eseguito sui giochi su disco, ma deve essere eseguito manualmente tramite l'Homebrew Channel.
 
-### Requisiti
+### Requirements
 
 - Una scheda SD o dispositivo USB
 - [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
 
-### Istruzioni
+### Instructions
 
 1. Simply extract the `apps` folder in this archive to the root of your SD card or USB drive.
 2. Inserisci la tua scheda SD o unità USB nella la tua console Wii e avvia Auto Wiimmfi Patcher dall'Homebrew Channel.
@@ -115,11 +115,11 @@ Un metodo per la patch Wiimmfi che viene eseguito sui giochi su disco, ma deve e
 
 A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the EULA User Agreement (derives from [str2hax](str2hax)). Per via della natura di questo processo, si può effettuare su Wii senza homebrew.
 
-### Requisiti
+### Requirements
 
 - Un Wii con connessione a Internet
 
-### Istruzioni
+### Instructions
 
 1. Inserisci il tuo disco di gioco.
 
@@ -145,12 +145,12 @@ Se riscontri problemi relativi all'UPnP (tipo il patcher che si blocca su "Init 
 
 A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). Per via della natura di questo processo, si può effettuare su Wii senza homebrew. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
 
-### Requisiti
+### Requirements
 
 - Un Wii con una connessione Internet in modalità video a 60Hz
 - Il Canale Internet
 
-### Istruzioni
+### Instructions
 
 1. Open the following webpage in the Internet Channel: `http://chadsoft.co.uk/wiimmfi`
 2. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
@@ -162,14 +162,14 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 Un metodo per la patch Wiimmfi che viene eseguito sui giochi WiiWare, ma deve essere eseguito manualmente su un PC tramite uno script.
 
-### Requisiti
+### Requirements
 
 - Una scheda SD
 - La copia del tuo gioco (in formato WAD)
 - [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases/latest) (cross platform)
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Istruzioni
+### Instructions
 
 1. Estra il .zip dell'ultima versione del WiiWare Patcher e inserisci il WAD al suo interno.
 2. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. Se stai usando il RiiConnect24 Patcher, seleziona il tuo dispositivo (Wii, vWii o Dolphin) e seleziona il patcher WiiWare.
@@ -179,13 +179,13 @@ Un metodo per la patch Wiimmfi che viene eseguito sui giochi WiiWare, ma deve es
 
 Un metodo per la patch Wiimmfi che viene eseguito su immagini di giochi su disco, ma deve essere eseguito manualmente su un PC tramite uno script.
 
-### Requisiti
+### Requirements
 
 - Un PC Windows/macOS/Linux con una connessione a internet
 - A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
 - [Wiimmfi ISO Patcher](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
-### Istruzioni
+### Instructions
 
 1. Download the patcher and extract the `.zip` file.
 2. Apri la cartella appena estratta e copia le tue immagini di gioco Wii al suo interno.
