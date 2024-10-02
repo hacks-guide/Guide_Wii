@@ -4,14 +4,14 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 ## Lemez másolása SD kártyára / pendrive-ra CleanRippel
 
-### Követelmények
+### Requirements
 
 - Egy SD kártya vagy pendrive legalább 4,7 GB szabad hellyel (ha kétrétegű lemezt másolsz le, akkor 8,5 GB szabad hellyel)
 - [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 ### Előkészítés
 
-1. Kapcsold ki a konzolt!
+1. Power off your console.
 
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 
@@ -19,7 +19,7 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 4. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
-5. Kapcsold be a konzolt!
+5. Power on your console.
 
 6. Indítsd el a Homebrew Channelt!
 
