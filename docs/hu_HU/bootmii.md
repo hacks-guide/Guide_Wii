@@ -9,11 +9,11 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
 :::
 
-## Követelmények
+## Requirements
 
 - Egy SD kártya legalább 512 MB szabad hellyel (1 GB vagy több ajánlott)
 
-## Útmutató
+## Instructions
 
 ::: info
 
@@ -21,7 +21,7 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
 
 :::
 
-1. Kapcsold be a konzolt!
+1. Power on your console.
 
 2. Indítsd el a Homebrew Channelt!
 
