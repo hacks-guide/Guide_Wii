@@ -2,7 +2,7 @@
 outline: false
 ---
 
-# Credits
+# BlueBomb
 
 ::::: tabs
 
@@ -67,7 +67,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 2. Reinsert your flash drive into your console.
    - For a Wii mini, the USB port is on the back.
-   - For a normal Wii, use the bottom port. (or the right port if it's upright).
+   - For a normal Wii, use the bottom port (or the right port if it's upright).
 
 3. Power on your console.
 
@@ -79,7 +79,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Power off your Wii.
+6. Power off your console.
 
 7. Start your Linux distro, and ensure you are connected to the internet.
 
@@ -103,8 +103,8 @@ Make sure that the console is close to the computer running the exploit, ideally
 12. Press the Sync button repeatedly until the terminal shows `got connection handle`.
     - This could take numerous attempts.
 
-13. It'll then proceed to download and load the HackMii Installer.
-    - You can now shut down your Linux computer if you are not planning to use it later.
+13. If the exploit was successful, your device will have loaded the HackMii Installer.
+    - If you are not planning to use it later, you can now shut down your Linux distro.
 
 ::: info
 
@@ -174,7 +174,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 2. Reinsert your flash drive into your console.
    - For a Wii mini, the USB port is on the back.
-   - For a normal Wii, use the bottom port. (or the right port if it's upright).
+   - For a normal Wii, use the bottom port (or the right port if it's upright).
 
 3. Power on your console.
 
@@ -186,7 +186,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Power off your Wii.
+6. Power off your console.
 
 #### Rasperry Pi Pico W
 
@@ -209,7 +209,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
    - **Do not** connect any Wii Remotes.
 3. Press the Sync button repeatedly until the bluebomb screen shows up.
    - This could take numerous attempts.
-4. It'll then proceed to download and load the HackMii Installer.
+4. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ::: tip
 
