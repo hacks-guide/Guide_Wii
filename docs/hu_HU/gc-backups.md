@@ -2,7 +2,7 @@
 
 Ebben az útmutatóban bemutatjuk, hogyan használhatod a GameCube Backup Managert a GameCube-másolataid kezelésére. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
 
-## Követelmények
+## Requirements
 
 - Egy SD kártya vagy pendrive
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
@@ -19,7 +19,7 @@ Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva
 
 :::
 
-## Útmutató
+## Instructions
 
 ### I. rész - Letöltés
 
