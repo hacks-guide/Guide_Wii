@@ -13,7 +13,7 @@ You can always [install it later](hackmii).
 
 :::
 
-## Instruções
+## Instructions
 
 1. Seu console deve estar ligado e mostrando o HackMii Installer da parte anterior do guia.
 
