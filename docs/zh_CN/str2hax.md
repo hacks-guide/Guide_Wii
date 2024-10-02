@@ -90,7 +90,7 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 
-5. 它会下载并且加载HackMii Installer。
+5. If the exploit was successful, your device will have loaded the HackMii Installer.
 
    ![](/images/hackmii/scam.png)
 
