@@ -41,7 +41,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 - [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym file distribution)
 - [Wii Themer](http://www.wiithemer.org/) (This site can build a .csm ready to install for Wii and vWii only, but for Wii mini you may download the .mym files from their [Theme Database](http://wiithemer.org/mym/))
 
-### 必要なもの
+### Requirements
 
 - Extract MyMenuifyMod.zip to your SD card or USB drive.
 - A Windows PC with an Internet connection
@@ -147,7 +147,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 Unfortunately, because of the codebase difference between the original WiiFlow and the newer WiiFlow Lite, themes are sparse - in fact, only one theme could be found that confidently works on the newer version. The instructions for installing that theme are below.
 
-### 必要なもの
+### Requirements
 
 - A Wii
 - Extract MyMenuifyMod.zip to your SD card or USB drive.
@@ -155,7 +155,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 - What you need
 - [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
-### 実行方法
+### Instructions
 
 1. Have the storage device that holds WiiFlow Lite connected to your PC.
 2. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
@@ -164,7 +164,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 ## USB Loader GX Theming
 
-### 必要なもの
+### Requirements
 
 - A Wii
 - Extract MyMenuifyMod.zip to your SD card or USB drive.
@@ -172,7 +172,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 - What you need
 - A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
 
-### 実行方法
+### Instructions
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
 2. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
@@ -182,14 +182,14 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 ## Homebrew Channel Theming
 
-### 必要なもの
+### Requirements
 
 - A Wii
 - Extract MyMenuifyMod.zip to your SD card or USB drive.
 - A computer with Windows on it (or using Mono or Wine on Mac/Linux)
 - A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
 
-### 実行方法
+### Instructions
 
 1. Download a theme `.zip` file from the website linked above.
 
