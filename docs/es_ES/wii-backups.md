@@ -10,7 +10,7 @@ Si deseas guardar múltiples juegos, te recomendamos adquirir un disco duro exte
 
 ::: info
 
-No se recomienda usar una memoria USB, ya que su capacidad por lo general es limitada y pueden variar en funcionalidad incluso entre unidades del mismo modelo.
+A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
 
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
@@ -50,7 +50,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
    ![](/images/desktop-apps/WBM/filemd5.png)
 
-### Instrucciones para macOS y Linux
+### macOS/Linux
 
 1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
 
@@ -66,19 +66,19 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Manager
 
-### Requisitos
+### Requirements
 
-- Una PC con Windows instalado
-- Una unidad USB o tarjeta SD
+- A PC running Windows
+- A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
-### Instrucciones
+### Instructions
 
 #### Section I - Installation
 
-1. Extrae el archivo de Wii Backup Manager recién descargado y ejecuta el programa.
-2. Inserta la unidad USB o tarjeta SD en tu PC.
+1. Extract Wii Backup Manager, and launch the program.
+2. Insert your USB drive or SD card into your computer.
 
 #### Section II - Copying Games
 
@@ -102,15 +102,15 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Fusion
 
-### Requisitos
+### Requirements
 
 - A PC running MacOS or Linux
-- Una unidad USB o tarjeta SD
+- A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
-### Instrucciones
+### Instructions
 
 #### Section I - Installation
 
