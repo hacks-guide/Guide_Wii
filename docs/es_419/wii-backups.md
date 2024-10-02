@@ -66,19 +66,19 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Manager
 
-### Requisitos
+### Requirements
 
 - A PC running Windows
-- Una unidad USB
+- A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
-### Instrucciones
+### Instructions
 
 #### Section I - Installation
 
 1. Extract Wii Backup Manager, and launch the program.
-2. Insert your USB drive into your computer.
+2. Insert your USB drive or SD card into your computer.
 
 #### Section II - Copying Games
 
@@ -102,15 +102,15 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Fusion
 
-### Requisitos
+### Requirements
 
 - A PC running MacOS or Linux
-- Una unidad USB
+- A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
-### Instrucciones
+### Instructions
 
 #### Section I - Installation
 
