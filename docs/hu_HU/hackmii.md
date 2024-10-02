@@ -10,13 +10,13 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ## Újraindítás a Homebrew Channel-lel
 
-### Követelmények
+### Requirements
 
 - A Homebrew Channel
 - Egy FAT32/MS-DOS-ra formázott SD kártya vagy USB drive
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### Útmutató
+### Instructions
 
 1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
 2. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
@@ -32,7 +32,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ## Újraindítás Priiloader-rel
 
-### Követelmények
+### Requirements
 
 - egy Wii telepített Priiloader-rel (vagy Preloader-rel)
 - Egy FAT32/MS-DOS-ra formázott SD kártya vagy USB drive
@@ -50,7 +50,7 @@ Preloader and older versions of Priiloader do not seem to support SDHC (>2GB) ca
 
 :::
 
-### Útmutató
+### Instructions
 
 1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
 2. Copy the `boot.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card or USB drive.
