@@ -10,7 +10,7 @@ This guide provides instructions on how to manage your Wii backups, from joining
 
 ::: info
 
-플래시 드라이브는 크기가 작고 같은 제품 간에도 동작이 다를 수 있으므로 권장하지 않습니다.
+A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
 
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
@@ -32,7 +32,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 :::
 
-### 윈도우즈
+### Windows
 
 1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
 
@@ -50,7 +50,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
    ![](/images/desktop-apps/WBM/filemd5.png)
 
-### 맥OS/리눅스
+### macOS/Linux
 
 1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
 
@@ -66,19 +66,19 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Manager
 
-### 메뉴
+### Requirements
 
-- 윈도우즈를 실행하는 PC
-- USB 드라이브 또는 SD 카드
+- A PC running Windows
+- A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
-### 진행 방법
+### Instructions
 
 #### Section I - Installation
 
-1. Wii Backup Manager를 압축 해제하고 프로그램을 실행합니다.
-2. USB 드라이브 또는 SD 카드를 컴퓨터에 연결합니다.
+1. Extract Wii Backup Manager, and launch the program.
+2. Insert your USB drive or SD card into your computer.
 
 #### Section II - Copying Games
 
@@ -102,15 +102,15 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Fusion
 
-### 메뉴
+### Requirements
 
 - A PC running MacOS or Linux
-- USB 드라이브 또는 SD 카드
+- A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
-### 진행 방법
+### Instructions
 
 #### Section I - Installation
 
