@@ -22,7 +22,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 
 :::
 
-## 메뉴
+## Requirements
 
 - A Wii U with the Homebrew Channel installed on the vWii
 - SD 카드
@@ -34,7 +34,7 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 
 :::
 
-## 진행 방법
+## Instructions
 
 ### Section I - Installing
 
