@@ -186,6 +186,6 @@ To change the cIOS used for a specific game, follow the instructions specific to
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[点击此处返回站点索引。](site-navigation)
 
 :::
