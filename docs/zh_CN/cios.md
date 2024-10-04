@@ -1,6 +1,6 @@
 # cIOS
 
-:::details Technical Details (optional)
+:::details 技术细节 (可选)
 
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. 你现在可以使用一些自制软件，例如 <a href="usbloadergx">USB Loader GX</a> 和 <a href="wiiflow">WiiFlow</a>。 You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
