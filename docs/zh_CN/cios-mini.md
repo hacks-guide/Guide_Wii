@@ -79,6 +79,6 @@ Wii 和 Wii mini 主机仅与AX88772芯片的网络适配器工作。 请在购�
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[点击此处返回站点索引。](site-navigation)
 
 :::
