@@ -6,33 +6,33 @@ outline: false
 
 ::::: tabs
 
-:::: tab BlueBomb Classic
+:::: tab BlueBomb 经典
 
-## BlueBomb Classic
+## BlueBomb 经典
 
-:::details Technical Details (optional)
+:::details 技术细节 (可选)
 
 BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+此漏洞也可以启用部分变砖时的恢复模式，例如 banner 变砖和 (一些) 主题变砖。
 
 :::
 
 ::: warning
 
-It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+**特别**建议不要查看**任何**魔改你的 Wii mini 主机的视频教程，因为它们都有很大的可能会让其**变砖**。
 
 :::
 
 ::: info
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+如果您需要有关本教程的任何帮助，请加入 [Wii mini 破解 Discord 服务器](https://discord.gg/6ryxnkS) (推荐)
 
 :::
 
 ::: info
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+如果你正在使用原版的 Wii，你应该寻找[另一个漏洞来使用](get-started)，因为他们通常有更简单的方法进入 HackMii 安装程序。 Exceptions however, exist in circumstances like brick recovery.
 
 :::
 
@@ -124,27 +124,27 @@ If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
 
 ## BlueBomb Micro
 
-:::details Technical Details (optional)
+:::details 技术细节 (可选)
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+此漏洞也可以启用部分变砖时的恢复模式，例如 banner 变砖和 (一些) 主题变砖。
 
 :::
 
 ::: warning
 
-It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+**特别**建议不要查看**任何**魔改你的 Wii mini 主机的视频教程，因为它们都有很大的可能会让其**变砖**。
 
 :::
 
 ::: info
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+如果您需要有关本教程的任何帮助，请加入 [Wii mini 破解 Discord 服务器](https://discord.gg/6ryxnkS) (推荐)
 
 :::
 
 ::: info
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+如果你正在使用原版的 Wii，你应该寻找[另一个漏洞来使用](get-started)，因为他们通常有更简单的方法进入 HackMii 安装程序。 Exceptions however, exist in circumstances like brick recovery.
 
 :::
 
