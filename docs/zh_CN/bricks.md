@@ -252,6 +252,6 @@ First, troubleshooting must be done to determine if hardware is at fault. In the
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[点击此处返回站点索引。](site-navigation)
 
 :::
