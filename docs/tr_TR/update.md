@@ -51,6 +51,6 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Site haritasına geri dönmek için tıklayın.](site-navigation)
 
 :::
