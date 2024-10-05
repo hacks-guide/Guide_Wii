@@ -41,6 +41,6 @@ This tutorial will show you how to install WADs.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Site haritasına geri dönmek için tıklayın.](site-navigation)
 
 :::
