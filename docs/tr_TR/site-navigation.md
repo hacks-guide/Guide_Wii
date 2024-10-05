@@ -1,4 +1,4 @@
-# Site Navigasyonu
+# Site Haritası
 
 ::: tip
 
