@@ -54,6 +54,6 @@ Eğer "The system files are corrupted" (Sistem dosyaları bozulmuş) diyen bir h
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Site haritasına geri dönmek için tıklayın.](site-navigation)
 
 :::
