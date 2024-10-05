@@ -55,6 +55,6 @@ WAD şu anda yedeklenmiş ve SD card ya da USB cihazınızda olmalıdır.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Site haritasına geri dönmek için tıklayın.](site-navigation)
 
 :::
