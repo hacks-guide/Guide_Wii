@@ -22,7 +22,7 @@ Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telep
 
 :::
 
-## Követelmények
+## Requirements
 
 - Egy Wii U, aminek a vWii-jére telepítve van a Homebrew Channel
 - Egy SD kártya
@@ -34,7 +34,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 :::
 
-## Útmutató
+## Instructions
 
 ### I. rész – Telepítés
 

@@ -20,7 +20,7 @@ Nincs lehetősége a NAND mentésed visszaálltására ezen a módon hardmod né
 
 :::
 
-## Követelmények
+## Requirements
 
 - Egy Wii
 - Egy USB drive
@@ -28,7 +28,7 @@ Nincs lehetősége a NAND mentésed visszaálltására ezen a módon hardmod né
 - [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
 - [Xyzzy Mod](https://oscwii.org/library/app/xyzzy-mod)
 
-## Útmutató
+## Instructions
 
 ### I. rész - Az IOS 36 dumpolása és patchelése
 

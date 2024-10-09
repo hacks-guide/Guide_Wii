@@ -26,7 +26,7 @@ NE állíts vissza olyan biztonsági mentést, ami nem ment át az ellenőrzési
 
 :::
 
-## Követelmények
+## Requirements
 
 - An earlier NAND Backup made by [BootMii](bootmii)
 
@@ -46,7 +46,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 - Vagy a konzolba épített POWER- (következő menüpont) és RESET (kiválasztás)-gombokat, vagy egy 1. csatlakozóba dugott GameCube-vezérlőt kell használnod! Egy GameCube-vezérlőn a jobb- és bal nyílgombokkal lépkedhetsz a menüpontok között és az A-gombbal erősítheted meg a választásod.
 
-## Útmutató
+## Instructions
 
 1. Indítsd el a Homebrew Channelt!
 

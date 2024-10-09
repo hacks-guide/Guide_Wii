@@ -2,7 +2,7 @@
 
 This page will guide you through the process of installing the Homebrew Channel to the vWii without modding the Wii U side.
 
-## 実行方法
+## Instructions
 
 ### Section I - Booting into Aroma
 

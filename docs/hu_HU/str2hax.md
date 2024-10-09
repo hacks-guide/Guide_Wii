@@ -14,17 +14,17 @@ Ha telepítettél modokat, mint a CTGP Revolution vagy Project+, az str2hax elő
 
 :::
 
-## Követelmények
+## Requirements
 
 - Egy internetkapcsolattal rendelkező Wii
 
-## Útmutató
+## Instructions
 
 ### I. rész – Csatlakozás
 
 Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, hogy ahhoz a szerverhez csatlakozzon, ami tartalmazza az exploitot.
 
-1. Kapcsold be a konzolt!
+1. Power on your console.
 
 2. Go to `Wii Options`.
 
@@ -90,7 +90,7 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
 4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 
-5. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
+5. If the exploit was successful, your device will have loaded the HackMii Installer.
 
    ![](/images/hackmii/scam.png)
 

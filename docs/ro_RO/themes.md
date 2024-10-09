@@ -41,7 +41,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 - [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym file distribution)
 - [Wii Themer](http://www.wiithemer.org/) (This site can build a .csm ready to install for Wii and vWii only, but for Wii mini you may download the .mym files from their [Theme Database](http://wiithemer.org/mym/))
 
-### Instrumente necesare
+### Requirements
 
 - An SD card or USB device
 - A Windows PC with an Internet connection
@@ -52,7 +52,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ::::: tabs
 
-:::: tab csm-installer
+:::: tab (All) Via csm-installer
 
 1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
 2. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
@@ -62,7 +62,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ::::
 
-:::: tab nus-downloader-wii
+:::: tab (Wii) Via NUS Downloader
 
 1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 2. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
@@ -79,7 +79,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ::::
 
-:::: tab nus-downloader-vwii
+:::: tab (vWii) Via NUS Downloader
 
 1. On your computer, download [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
 2. Copy all files from the vWii NUS Downloader `.zip` to a folder on your computer.
@@ -110,7 +110,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ::::
 
-:::: tab thememii
+:::: tab (Wii) Via ThemeMii
 
 1. Create a `themes` folder on the root of your SD card/USB device.
 2. Extract the ThemeMii MOD `.zip` to a location on your PC.
@@ -147,7 +147,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 Unfortunately, because of the codebase difference between the original WiiFlow and the newer WiiFlow Lite, themes are sparse - in fact, only one theme could be found that confidently works on the newer version. The instructions for installing that theme are below.
 
-### Instrumente necesare
+### Requirements
 
 - A modded Wii
 - An SD card or USB device
@@ -155,7 +155,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 - Some themes have different links for different regions, so pick the one corresponding to your Wii's region.
 - [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
-### Instrucțiuni
+### Instructions
 
 1. Have the storage device that holds WiiFlow Lite connected to your PC.
 2. Download the Rhapsodii Shima archive, either version of the theme works and can be installed side-by-side with no issues.
@@ -164,7 +164,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 ## USB Loader GX Theming
 
-### Instrumente necesare
+### Requirements
 
 - A modded Wii
 - An SD card or USB device
@@ -172,7 +172,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 - Some themes have different links for different regions, so pick the one corresponding to your Wii's region.
 - A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
 
-### Instrucțiuni
+### Instructions
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
 2. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
@@ -182,14 +182,14 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 ## Homebrew Channel Theming
 
-### Instrumente necesare
+### Requirements
 
 - A modded Wii
 - An SD card or USB device
 - A Linux/macOS/Windows PC with an internet connection
 - A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
 
-### Instrucțiuni
+### Instructions
 
 1. Download a theme `.zip` file from the website linked above.
 

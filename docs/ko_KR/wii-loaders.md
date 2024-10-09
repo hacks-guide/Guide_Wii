@@ -54,7 +54,7 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ## RiiConnect24 테마 페이지
 
-### 메뉴
+### Requirements
 
 - Wii
 - The latest version of [cIOS](cios)
@@ -105,7 +105,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ## USB Loader GX
 
-### 메뉴
+### Requirements
 
 - Wii
 - The latest version of [cIOS](cios)

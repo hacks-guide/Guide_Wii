@@ -8,7 +8,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 :::
 
-## Követelmények
+## Requirements
 
 - egy Wii a The Homebrew Channel 1.0.8-cal vagy későbbivel
   - If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
@@ -18,7 +18,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 - [Priiloader](priiloader)
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-## Útmutató
+## Instructions
 
 ### I. rész - Letöltés
 
@@ -39,7 +39,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### II. rész – Telepítés
 
-1. Kapcsold ki a konzolt! Tartsd nyomva a RESET gombot és kapcsold be.
+1. Power off your console. Tartsd nyomva a RESET gombot és kapcsold be.
 2. In the Priiloader menu, select `Homebrew Channel`.
    - If the Priiloader menu does not appear, please [install it immediately](priiloader). A Priiloader szükséges ehhez az útmutatóhoz.
 3. Idítsd el a YAWM ModMii Edition-t.

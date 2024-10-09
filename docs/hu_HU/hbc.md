@@ -13,7 +13,7 @@ You can always [install it later](hackmii).
 
 :::
 
-## Útmutató
+## Instructions
 
 1. Ennél a lépésnél a konzolodnak már mutatnia kell az előző részben elindított HackMii-telepítőt.
 

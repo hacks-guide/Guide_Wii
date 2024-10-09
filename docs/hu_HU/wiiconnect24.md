@@ -29,7 +29,7 @@ The guide on how to install these services, as well as the patcher, can be found
 - Egy SD kártya vagy pendrive
 - [sntp](https://oscwii.org/library/app/sntp)
 
-#### Útmutató
+#### Instructions
 
 1. Töltsd le és csomagold ki az sntp .zip-fájlt az SD kártya vagy pendrive gyökerére!
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a Wiidhez!
@@ -46,7 +46,7 @@ The guide on how to install these services, as well as the patcher, can be found
 - Egy SD kártya
 - [Priiloader](priiloader)
 
-#### Útmutató
+#### Instructions
 
 1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
 2. Kattints a „Generate” („generálás”)-gombra, majd másold ki a megjelenő információt kézileg vagy a „Copy” („másolás”)-gombbal!

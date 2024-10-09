@@ -2,12 +2,12 @@
 
 Un SysCheck es un diagnóstico que proporciona información sobre todos los IOS y cIOS que están instalados en tu consola. Tambien recopila otros datos útiles sobre el sistema. Cuando tienes problemas con los IOS de tu consola, es posible que debas realizar un SysCheck al momento de solicitar apoyo a alguien.
 
-## Requisitos
+## Requirements
 
 - Una tarjeta SD o unidad USB
 - [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME)
 
-## Instrucciones
+## Instructions
 
 ### Sección I - Descarga/instalación
 

@@ -20,7 +20,7 @@ Wii Menüsü 48 kanal limitine sahiptir, sistem kanallarını saymazsak.
 
 :::
 
-## Gereksinimler
+## Requirements
 
 - Bir Wii
 - Bir SD card veya USB yığın depolama aygıtı
@@ -28,7 +28,7 @@ Wii Menüsü 48 kanal limitine sahiptir, sistem kanallarını saymazsak.
 - Bir Windows bilgisayar.
 - [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
 
-## Talimatlar
+## Instructions
 
 1. Install WiiGSC, then right click on it and choose **Run as administrator**. Eğer bunu yapmazsanız, WiiGSC açmaya çalıştığınızda hata verecektir.
 
@@ -54,6 +54,6 @@ Eğer "The system files are corrupted" (Sistem dosyaları bozulmuş) diyen bir h
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Site haritasına geri dönmek için tıklayın.](site-navigation)
 
 :::

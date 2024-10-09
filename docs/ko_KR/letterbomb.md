@@ -14,15 +14,15 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 :::
 
-## 메뉴
+## Requirements
 
 - An SD card formatted as FAT32 that is 32GB or less
 - 시스템 메뉴 4.3의 Wii
 - A Windows/MacOS/Linux computer with an Internet connection
 
-## 진행 방법
+## Instructions
 
-1. 콘솔의 전원을 켜 주세요.
+1. Power on your console.
 
 2. Go to `Wii Settings`.
 
@@ -67,7 +67,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
     - If your Wii freezes after clicking on the letter, you probably chose the wrong region when downloading the exploit. Redo Step 2 and select the correct region.
     - If all is correct and there is freezing, keep on trying until it works.
 
-16. 그런 다음 HackMii 설치 프로그램을 다운로드하고 로드합니다.
+16. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 

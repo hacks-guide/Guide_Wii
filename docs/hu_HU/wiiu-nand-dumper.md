@@ -12,7 +12,7 @@ If your Wii U side is already modded, proceed to [Installing the Homebrew Channe
 
 Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32 formátumra lett formázva, használd a GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)-ot 32k (32768) allokációs egységmérettel a formázáshoz. **Ne** címkézd fel az SD kártyát `wiiu`-ként, különben problémákat okoz a homebrew-val.
 
-## Követelmények
+## Requirements
 
 - A legutolsó fájlok az [Aroma for your café](https://aroma.foryour.cafe/) oldalról.
   - Olvasd el a megelőző lépéseket, majd pipáld be mind a négy dobozt.
@@ -21,7 +21,7 @@ Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32 formá
   - Kattints a `Download Base Aroma`-ra.
 - A [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller) legutolsó kiadása.
 
-## Útmutató
+## Instructions
 
 ### I. rész - SD kártya előkészítés
 

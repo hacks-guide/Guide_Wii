@@ -4,14 +4,14 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 ## Dumping a Disc to SD/USB (CleanRip)
 
-### Требования
+### Requirements
 
 - An SD card or USB drive with at least 4.7 GB of free space (8.5 GB if dumping a dual layer disc).
 - [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 ### Preparation
 
-1. Выключите вашу консоль.
+1. Power off your console.
 
 2. Вставьте вашу SD-карту или USB-накопитель в ваш компьютер.
 
@@ -19,7 +19,7 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 4. Вставьте вашу SD-карту или USB-накопитель в вашу консоль.
 
-5. Включите вашу консоль.
+5. Power on your console.
 
 6. Launch the Homebrew Channel, and launch the Load Priiloader app.
 

@@ -2,13 +2,13 @@
 
 On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily installed through Dolphin itself. Ha ez megtörtént, a Homebrew Channel is telepíthető, bár nem ugyanúgy, mint a fizikai Wii esetében.
 
-## Követelmények
+## Requirements
 
 - Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 - [Dolphin Emulator](https://dolphin-emu.org/download/) version `5.0-4588` or later
 - The latest version of [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
 
-## Útmutató
+## Instructions
 
 1. If you have not already done so, install the Wii Menu on Dolphin Emulator by going to `Tools > Perform System Update`.
 

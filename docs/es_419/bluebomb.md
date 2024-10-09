@@ -8,14 +8,13 @@ outline: false
 
 :::: tab BlueBomb Classic
 
-## BlueBomb Classico
+## BlueBomb Classic
 
 :::details Technical Details (optional)
 
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. {% capture technical_info %}<summary line-breaks-before="1" mark="crwd-mark"><em>Technical Details (optional)</em></summary>
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries.
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
-Este hack tambien permite recuperar la Wii de ciertos bricks, como banner bricks y algunos theme bricks.
+This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
 :::
 
@@ -43,7 +42,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 :::
 
-### Requisitos
+### Requirements
 
 - A Linux machine
   - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
@@ -60,7 +59,7 @@ Make sure that the console is close to the computer running the exploit, ideally
   - This cannot be the same flash drive used for your Linux Machine.
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### Instrucciones
+### Instructions
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
@@ -68,7 +67,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 2. Reinsert your flash drive into your console.
    - For a Wii mini, the USB port is on the back.
-   - For a normal Wii, use the bottom port. (or the right port if it's upright).
+   - For a normal Wii, use the bottom port (or the right port if it's upright).
 
 3. Power on your console.
 
@@ -104,8 +103,8 @@ Make sure that the console is close to the computer running the exploit, ideally
 12. Press the Sync button repeatedly until the terminal shows `got connection handle`.
     - This could take numerous attempts.
 
-13. The exploit will download the HackMii Installer so you can continue.
-    - You can now shut down your Linux computer if you are not planning to use it later.
+13. If the exploit was successful, your device will have loaded the HackMii Installer.
+    - If you are not planning to use it later, you can now shut down your Linux distro.
 
 ::: info
 
@@ -127,7 +126,7 @@ If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
 
 :::details Technical Details (optional)
 
-Este hack tambien permite recuperar la Wii de ciertos bricks, como banner bricks y algunos theme bricks.
+This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
 :::
 
@@ -155,7 +154,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 :::
 
-### Requisitos
+### Requirements
 
 - A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
 - A USB flash drive formatted as FAT32.
@@ -167,7 +166,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 :::
 
-### Instrucciones
+### Instructions
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
@@ -175,7 +174,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 2. Reinsert your flash drive into your console.
    - For a Wii mini, the USB port is on the back.
-   - For a normal Wii, use the bottom port. (or the right port if it's upright).
+   - For a normal Wii, use the bottom port (or the right port if it's upright).
 
 3. Power on your console.
 
@@ -210,7 +209,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
    - **Do not** connect any Wii Remotes.
 3. Press the Sync button repeatedly until the bluebomb screen shows up.
    - This could take numerous attempts.
-4. The exploit will download the HackMii Installer so you can continue.
+4. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ::: tip
 

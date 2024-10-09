@@ -54,13 +54,13 @@ Di seguito è riportato un esempio di WBFS singolo e WBFS diviso. A WBFS needs t
 
 ## WiiFlow Lite
 
-### Requisiti
+### Requirements
 
 - Una Wii modificata
 - The latest version of [cIOS](cios)
 - [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
-### Installazione
+### Installation
 
 1. Scarica WiiFlow e installalo nella tua scheda SD o unità USB.
 
@@ -105,13 +105,13 @@ Quando sposti il cursore verso l'area in basso dello schermo mentre sei nella vi
 
 ## USB Loader GX
 
-### Requisiti
+### Requirements
 
 - Una Wii modificata
 - The latest version of [cIOS](cios)
 - [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
 
-### Installazione
+### Installation
 
 1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
 2. Scarica USB Loader GX e installalo nella tua scheda SD o unità USB.

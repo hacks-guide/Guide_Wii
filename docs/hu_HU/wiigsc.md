@@ -20,7 +20,7 @@ A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszerc
 
 :::
 
-## Követelmények
+## Requirements
 
 - Egy Wii
 - Egy SD kártya vagy USB drive
@@ -28,7 +28,7 @@ A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszerc
 - Egy Windows számítógép.
 - [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
 
-## Útmutató
+## Instructions
 
 1. Install WiiGSC, then right click on it and choose **Run as administrator**. Ha ezt nem teszed meg, a WiiGSC hibát fog dobni, amikor megnyitod.
 

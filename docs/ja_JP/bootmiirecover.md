@@ -26,7 +26,7 @@ Wii Family EditionではNANDをリストアすることはできません。 Wii
 
 :::
 
-## 必要なもの
+## Requirements
 
 - An earlier NAND Backup made by [BootMii](bootmii)
 
@@ -46,7 +46,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 - You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1. GCコントローラーでカーソルを移動させる場合は、十字ボタンで移動させます。 選択するには、Aを押します
 
-## 実行方法
+## Instructions
 
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 

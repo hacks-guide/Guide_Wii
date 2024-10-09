@@ -6,7 +6,7 @@ cIOS (Custom IOS) are IOS that are patched to allow custom functionality. Ugyan 
 
 :::
 
-## Követelmények
+## Requirements
 
 ::: warning
 
@@ -22,7 +22,7 @@ Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd!
 - Egy SD kártya vagy pendrive
 - [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-## Útmutató
+## Instructions
 
 ### I. rész - Letöltés
 
@@ -38,7 +38,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 :::
 
-1. Kapcsold ki a konzolt!
+1. Power off your console.
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 3. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
@@ -67,7 +67,7 @@ The WAD files should be on your SD card like this:
 
 2. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
-3. Kapcsold be a konzolt!
+3. Power on your console.
 
 4. Indítsd el a Homebrew Channelt!
 

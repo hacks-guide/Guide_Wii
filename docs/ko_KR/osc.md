@@ -12,13 +12,13 @@ There are two methods to use the Open Shop Channel: on your Wii through Homebrew
 
 ## Method I - Homebrew Browser
 
-### 메뉴
+### Requirements
 
 - A homebrewed Wii with an active Internet connection
 - SD 카드 및 USB 드라이브
 - [Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
-### 진행 방법
+### Instructions
 
 1. Download the recommended `.zip` file from the Open Shop Channel website.
 
@@ -30,7 +30,7 @@ There are two methods to use the Open Shop Channel: on your Wii through Homebrew
 
 ## Method II - OSCDL
 
-### 메뉴
+### Requirements
 
 - A Windows/macOS/Linux computer with an internet connection
 - SD 카드 및 USB 드라이브

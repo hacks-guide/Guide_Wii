@@ -18,7 +18,7 @@ Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/gettin
 
 :::
 
-## Instrumente necesare
+## Requirements
 
 - Un Wii U modificat
 - [Aroma Environment]](https://aroma.foryour.cafe/)
@@ -31,7 +31,7 @@ Dacă plugin-ul evWii Aroma nu este instalat și aplicația homebrew se blocheaz
 
 :::
 
-## Instrucțiuni
+## Instructions
 
 ### Secțiunea I - Fișiere
 
