@@ -103,7 +103,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 ### Requirements
 * A modded Wii
 * The latest version of [cIOS](cios)
-* [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
+* [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
 ### Installation
 
