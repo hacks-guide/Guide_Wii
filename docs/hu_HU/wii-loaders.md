@@ -109,7 +109,7 @@ Amikor a kurzort a képernyő aljára viszed, miközben az flow nézetben vagy, 
 
 - Egy moddolt Wii
 - The latest version of [cIOS](cios)
-- [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
+- [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
 ### Installation
 
