@@ -109,7 +109,7 @@ Quando sposti il cursore verso l'area in basso dello schermo mentre sei nella vi
 
 - Una Wii modificata
 - The latest version of [cIOS](cios)
-- [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
+- [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
 ### Installation
 
