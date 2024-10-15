@@ -6,7 +6,7 @@ If you need help with anything regarding this tutorial, please join [the Wii min
 
 :::
 
-:::details Technical Details (optional)
+:::details Technikai részletek (opcionális)
 
 A d2x cIOS-telepítő ezen változatát eredetileg a Wii U vWiijére készítette DaveBaol, amit a Wii minire Leseratte ültetett át. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Ugyan ez a cIOS még kísérleti fázisban áll, de még senki sem jelentett a működésével kapcsolatos hibát.
 
@@ -28,13 +28,13 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telep
 
 :::
 
-## Requirements
+## Követelmények
 
 - Egy Wii mini, amire telepítve van a Homebrew Channel
 - Egy USB drive
 - Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
-## Instructions
+## Lépések
 
 ### I. rész - Letöltés
 
