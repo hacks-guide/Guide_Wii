@@ -2,12 +2,12 @@
 
 Ez az útmutató azt mutatja be, hogy hogyan dumpolhatsz WAD-okat Wii-od rendszer memóriájából.
 
-## Requirements
+## Követelmények
 
 - Egy SD kártya vagy USB drive
 - [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-## Instructions
+## Lépések
 
 1. Power off your console.
 
