@@ -22,12 +22,12 @@ If the `Wiimmfi Patch` displays as anything other than v4, you do not have the l
 
 A Wiimmfi patchelés módszere, amely a kiskereskedelmi lemezes játékokon automatikusan fut a Disc Channel csatornán keresztül.
 
-### Requirements
+### Követelmények
 
 - Egy internetkapcsolattal rendelkező Wii, a System Menu 4.3-as verzióján
 - [Priiloader](priiloader) 0.9 or later
 
-### Instructions
+### Lépések
 
 1. Tartsd lenyomva a RESET gombot a Wii bekapcsolása közben. Ha Wii mini-t használsz, csatlakoztass egy USB-billentyűzetet, és tartsd lenyomva az Escape gombot bekapcsolás közben.
 
@@ -58,12 +58,12 @@ A Wiimmfi patchelés módszere, amely a kiskereskedelmi lemezes játékokon auto
 
 Egy módszer a Wiimmfi patcheléshez, amely automatikusan foltozza a játék másolatait az USB Loader GX vagy a WiiFlow Lite legújabb verzióiban.
 
-### Requirements
+### Követelmények
 
 - Egy internetkapcsolattal rendelkező Wii
 - [USB Loader GX or WiiFlow Lite](wii-loaders)
 
-### Instructions
+### Lépések
 
 1. Open the game or global settings for your specific USB loader and search for the `Private Server` option. By default, it will be set to `Off`.
 2. Set the option to `Wiimmfi` and save the settings. Alapértelmezés szerint a játékoknak mostantól automatikusan patch-elődnie kell a Wiimmfihez.
@@ -86,13 +86,13 @@ To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC 
 
 :::
 
-### Requirements
+### Követelmények
 
 - Egy internetkapcsolattal rendelkező Wii
 
-### Instructions
+### Lépések
 
-1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
+1. Menj a `Wii Settings > Internet > Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
 2. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
 3. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
@@ -100,12 +100,12 @@ To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC 
 
 A Wiimmfi egy patchelési módszere, amely a kiskereskedelmi lemezes játékokon fut, de manuálisan kell elindítani a Homebrew Channel csatornán keresztül.
 
-### Requirements
+### Követelmények
 
 - Egy SD kártya vagy pendrive
 - [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
 
-### Instructions
+### Lépések
 
 1. Simply extract the `apps` folder in this archive to the root of your SD card or USB drive.
 2. Helyezd be az SD-kártyád a Wii-be, és indítsd el az Auto Wiimmfi Patchert a Homebrew Channel-ről.
@@ -115,15 +115,15 @@ A Wiimmfi egy patchelési módszere, amely a kiskereskedelmi lemezes játékokon
 
 A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the EULA User Agreement (derives from [str2hax](str2hax)). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken.
 
-### Requirements
+### Követelmények
 
 - Egy internetkapcsolattal rendelkező Wii
 
-### Instructions
+### Lépések
 
 1. Helyezd be a játék lemezed.
 
-2. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
+2. Menj a `Wii Settings > Internet > Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
 
    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
@@ -145,12 +145,12 @@ Ha UPnP-vel kapcsolatos problémákba ütközöl (például a patcher 10 másodp
 
 A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
 
-### Requirements
+### Követelmények
 
 - Egy Wii internet kapcsolattal 60Hz módban futva
 - Az Internet Channel
 
-### Instructions
+### Lépések
 
 1. Open the following webpage in the Internet Channel: `http://chadsoft.co.uk/wiimmfi`
 2. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
@@ -162,14 +162,14 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 A Wiimmfi patchelés egy módszere, amely a WiiWare játékokon fut, de kézzel kell futtatni a PC-n egy szkript segítségével.
 
-### Requirements
+### Követelmények
 
 - Egy SD kártya
 - A játékod másolata (WAD formátumban)
 - [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases/latest) (cross platform)
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Instructions
+### Lépések
 
 1. Csomagold ki a WiiWare Patcher legújabb verziójának .zip csomagját, és tedd bele a WAD-edet.
 2. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. Ha a RiiConnect24 Patchert használod, válaszd ki a készülékedet (Wii, vWii vagy Dolphin), és válaszd a WiiWare patchert.
@@ -179,13 +179,13 @@ A Wiimmfi patchelés egy módszere, amely a WiiWare játékokon fut, de kézzel 
 
 A Wiimmfi patchelés egy módszere, amely játék-lemezképeken fut, de kézzel kell futtatni a PC-n egy szkript segítségével.
 
-### Requirements
+### Követelmények
 
 - Egy Windows/macOS/Linux számítógép internet kapcsolattal
 - A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
 - [Wiimmfi ISO Patcher](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
-### Instructions
+### Lépések
 
 1. Download the patcher and extract the `.zip` file.
 2. Nyisd meg a kicsomagolt mappát, és másold bele a Wii játék képeit.
