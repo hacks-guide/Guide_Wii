@@ -12,13 +12,13 @@ Az Open Shop Channel használatához két módszer közül választhatsz: futtat
 
 ## I. módszer – Homebrew Browser
 
-### Requirements
+### Követelmények
 
 - Egy internetkapcsolattal rendelkező, feltört Wii
 - Egy SD kártya vagy pendrive
 - [Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
-### Instructions
+### Lépések
 
 1. Download the recommended `.zip` file from the Open Shop Channel website.
 
@@ -30,7 +30,7 @@ Az Open Shop Channel használatához két módszer közül választhatsz: futtat
 
 ## II. módszer – OSCDL
 
-### Requirements
+### Követelmények
 
 - Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 - Egy SD kártya vagy pendrive
@@ -38,7 +38,7 @@ Az Open Shop Channel használatához két módszer közül választhatsz: futtat
 
 ### Windowsos lépések
 
-1. Download `oscdl-installer.exe` and run the installer. Optionally, you may instead download `oscdl-standalone.exe`, which does not have to be installed and instead runs as a portable executable.
+1. Download `oscdl-installer.exe` and run the installer. Ha szeretnéd, ehelyett letöltheted az `oscdl-standalone.exe` fájlt, ami nem igényel telepítést és egy hordozható végrehajtható fájlként viselkedik.
 
    ![](/images/osc/exe-download-OSCDL.png)
 
