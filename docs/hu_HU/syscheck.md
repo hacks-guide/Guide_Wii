@@ -32,6 +32,6 @@ A SysCheck felsorolja a Wii-n található összes IOS-t és cIOS-t, valamint né
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
 
 :::
