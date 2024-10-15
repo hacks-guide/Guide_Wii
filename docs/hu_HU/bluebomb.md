@@ -10,7 +10,7 @@ outline: false
 
 ## BlueBomb Classic
 
-:::details Technical Details (optional)
+:::details Technikai részletek (opcionális)
 
 BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
@@ -71,7 +71,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 3. Power on your console.
 
-4. Go to `Wii Settings`.
+4. Menj a `Wii Settings`-hez.
 
 5. Take note in the top right corner of the letter next to the system version.
 
@@ -124,7 +124,7 @@ If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
 
 ## BlueBomb Micro
 
-:::details Technical Details (optional)
+:::details Technikai részletek (opcionális)
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
@@ -178,7 +178,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 3. Power on your console.
 
-4. Go to `Wii Settings`.
+4. Menj a `Wii Settings`-hez.
 
 5. Take note in the top right corner of the letter next to the system version.
 
