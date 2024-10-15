@@ -5,7 +5,7 @@ head:
       content: 5; URL=https://wiki.hacks.guide/wiki/RiiTag
 ---
 
-# Redirecting
+# Átirányítás
 
 Átirányítunk a Hacks Guide wikire.
 
