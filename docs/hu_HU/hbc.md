@@ -1,6 +1,6 @@
 # A Homebrew Channel és BootMii telepítése
 
-:::details Technical Details (optional)
+:::details Technikai részletek (opcionális)
 
 A BootMiit kétféle módon telepítheted: közvetlenül a Wii bootloaderének boot2-es részébe, vagy egy IOS-on keresztül. A programot javasolt a boot2-be telepíteni, ugyanis így szélesebb körű védelmet nyújthat. Ehhez egy olyan Wiivel kell rendelkezned, ami egy olyan biztonsági réssel rendelkezik a boot1-es részében, amely csak a 2009 előtt gyártott példányokon fordul elő. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
 
@@ -13,7 +13,7 @@ You can always [install it later](hackmii).
 
 :::
 
-## Instructions
+## Lépések
 
 1. Ennél a lépésnél a konzolodnak már mutatnia kell az előző részben elindított HackMii-telepítőt.
 
