@@ -1,8 +1,8 @@
 # GameCube-másolatok kezelése
 
-Ebben az útmutatóban bemutatjuk, hogyan használhatod a GameCube Backup Managert a GameCube-másolataid kezelésére. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
+Ebben az útmutatóban bemutatjuk, hogyan használhatod a GameCube Backup Managert a GameCube-másolataid kezelésére. Hasonlóan működik, mint a [Wii Backup Manager](wii-backups#using-wii-backup-manager).
 
-## Requirements
+## Követelmények
 
 - Egy SD kártya vagy pendrive
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
@@ -19,7 +19,7 @@ Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva
 
 :::
 
-## Instructions
+## Lépések
 
 ### I. rész - Letöltés
 
@@ -36,17 +36,17 @@ Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva
 
    ![](/images/desktop-apps/GCBM/selectfolder.png)
 
-3. Click on the `Files (Destination)` tab, then select the `Inactive` option from the dropdown menu. Ez lehetővé teszi, hogy kiválaszd a drive-ot. amire át szeretnéd vinni a játékot. Válaszd ki a megfelelő drive betút a listából.
+3. Kattints a `Files (Destination)` fülre, majd válaszd az `Inactive` opciót lenyíló menüből. Ez lehetővé teszi, hogy kiválaszd a drive-ot. amire át szeretnéd vinni a játékot. Válaszd ki a megfelelő drive betút a listából.
 
    ![](/images/desktop-apps/GCBM/selectdrive.png)
 
-4. Next, go back to the `Files (Source)` tab, select the game you want to transfer, and then click either `Install Game (1:1)` or `Install Game (Scrub)`.
+4. Utána menj vissza a `Files (Source)` fülre és válaszd ki a játékot, amit átvinnél, majd kattints vagy az `Install Game (1:1)` vagy az `Install Game (Scrub)` opcióra.
 
    ![](/images/desktop-apps/GCBM/installgame.png)
 
 ::: info
 
-Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size. Ez bizonyos játékoknál jelentős csökkené, például az Animal Crossing 1.3GB-ról 26MB-ra megy le.
+Az `Install Game (Scrub)` választása eltávolítja az összes felesleges adatot a játékból, csökkentve a játék fájlméretét. Ez bizonyos játékoknál jelentős csökken, például az Animal Crossing 1.3GB-ról 26MB-ra megy le.
 
 :::
 
