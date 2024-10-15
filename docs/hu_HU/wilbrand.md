@@ -16,7 +16,7 @@ A Wilbrand Web ajánlott, a könnyebb használhatósága miatt.
 
 ## Wilbrand Web
 
-### Requirements
+### Követelmények
 
 - Egy FAT32/MS-DOS-ra formázott SD kártya
 - Egy Wii 3.0 vagy újabb verzióval
@@ -27,11 +27,11 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 :::
 
-### Instructions
+### Lépések
 
 1. Power on your console.
 
-2. Go to `Wii Settings`.
+2. Menj a `Wii Settings`-hez.
 
 3. Jegyezd fel a betüt a system version mellett a jobb felső sarkában a képernyőnek.
 
@@ -82,7 +82,7 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 
 :::
 
@@ -92,7 +92,7 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 ## Wilbrand CLI
 
-### Requirements
+### Követelmények
 
 - Egy Windows, macOS vagy Linux számítógép
 - Egy FAT32/MS-DOS-ra formázott SD kártya
@@ -106,11 +106,11 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 :::
 
-### Instructions
+### Lépések
 
 1. Power on your console.
 
-2. Go to `Wii Settings`.
+2. Menj a `Wii Settings`-hez.
 
 3. Jegyezd fel a betüt a system version mellett a jobb felső sarkában a képernyőnek.
 
@@ -170,7 +170,7 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 
 :::
 
