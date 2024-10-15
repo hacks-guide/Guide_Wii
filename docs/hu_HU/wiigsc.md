@@ -54,6 +54,6 @@ Ha hibaüzenetet kapsz "The system files are corrupted", ne ess pánikba, ha tel
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
 
 :::
