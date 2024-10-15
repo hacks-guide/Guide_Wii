@@ -14,11 +14,11 @@ Ha telepítettél modokat, mint a CTGP Revolution vagy Project+, az str2hax elő
 
 :::
 
-## Requirements
+## Követelmények
 
 - Egy internetkapcsolattal rendelkező Wii
 
-## Instructions
+## Lépések
 
 ### I. rész – Csatlakozás
 
@@ -30,7 +30,7 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
    ![](/images/riiconnect24/Internet_1.png)
 
-3. Go to `Wii Settings`.
+3. Menj a `Wii Settings`-hez.
 
    ![](/images/riiconnect24/Internet_2.png)
 
@@ -98,6 +98,6 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 
 :::
