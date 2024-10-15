@@ -4,7 +4,7 @@
 
 Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii indításának befolyásolására is használható.
 
-## Requirements
+## Követelmények
 
 - Egy SD kártya vagy pendrive
 - [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
@@ -16,11 +16,11 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
   - [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
 
-## Instructions
+## Lépések
 
 ### I. rész – Előkészületek
 
-1. Power off your console.
+1. Kapcsold ki a konzolod.
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 3. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 4. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
