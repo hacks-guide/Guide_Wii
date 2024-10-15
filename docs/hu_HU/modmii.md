@@ -71,7 +71,7 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ## Installing ModMii
 
-### Requirements
+### Követelmények
 
 - Egy Wii
 - A USB drive or SD Card
@@ -108,7 +108,7 @@ The ModMii Wizard is tool that can softmod your Wii from start to finish, downlo
 
    ![](/images/modmii/modmii-wizard-4.png)
 
-5. If you selected the Wilbrand option in the previous step, enter your Wii's MAC address. If you don't know how to check your Wii's MAC address, enter `Help` in the text box for an instructional video.
+5. If you selected the Wilbrand option in the previous step, enter your Wii's MAC address. Ha nem tudod, hogyan nézd meg a Wii MAC-címét, írd be a szövegmezőbe a `Help` szót egy oktatóvideó megtekintéséhez.
 
    ![](/images/modmii/modmii-wizard-5.png)
 
@@ -128,11 +128,11 @@ The ModMii Wizard is tool that can softmod your Wii from start to finish, downlo
 
    ![](/images/modmii/modmii-wizard-9.png)
 
-10. If you selected `Yes` in the USB Loader menu, select which USB Loader you would like to use. If you choose an individual one, we reccomend either USB Loader GX or WiiFlow as both are covered on this website, or you may optionally download each option.
+10. Ha az USB Loader menüben a `Yes` lehetőséget választottad, válaszd ki, hogy melyik USB Loader-t szeretnéd használni. If you choose an individual one, we reccomend either USB Loader GX or WiiFlow as both are covered on this website, or you may optionally download each option.
 
     ![](/images/modmii/modmii-wizard-10.png)
 
-11. If you selected `Yes` in the USB Loader menu, select where you would like to save your USB Loader files at.
+11. Ha az USB Loader menüben a `Yes` lehetőséget választottad, válaszd ki, hogy hová szeretnéd menteni az USB Loader fájlokat.
 
     ![](/images/modmii/modmii-wizard-11.png)
 
@@ -180,7 +180,7 @@ The HackMii Solutions Wizard is a tool that fixes problems that may arise from t
 
    ![](/images/modmii/hackmii-wizard-3.png)
 
-4. If you selected the Wilbrand option in the previous step, enter your Wii's MAC address. If you don't know how to check your Wii's MAC address, enter `Help` in the text box for an instructional video.
+4. If you selected the Wilbrand option in the previous step, enter your Wii's MAC address. Ha nem tudod, hogyan nézd meg a Wii MAC-címét, írd be a szövegmezőbe a `Help` szót egy oktatóvideó megtekintéséhez.
 
    ![](/images/modmii/hackmii-wizard-4.png)
 
