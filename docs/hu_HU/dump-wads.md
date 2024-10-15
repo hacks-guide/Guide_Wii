@@ -55,6 +55,6 @@ A WAD most már dumpolt, és meg kell jelennie a megadott könyvtárában az SD 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
 
 :::
