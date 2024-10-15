@@ -2,12 +2,12 @@
 
 A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül lehet elindítani. A többi módszerrel ellentétben ez nem igényel SD kártyát.
 
-## Requirements
+## Követelmények
 
 - Egy internetkapcsolattal rendelkező Wii
 - Az Internet Channel
 
-## Instructions
+## Lépések
 
 ### I. rész – Előkészületek
 
@@ -49,6 +49,6 @@ If after several tries Flashhax still does not work, you should try a [different
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 
 :::
