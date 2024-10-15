@@ -2,12 +2,12 @@
 
 A SysCheck felsorolja a Wii-n található összes IOS-t és cIOS-t, valamint néhány információt mindegyikről. Továbbá ad néhány hasznos információt. Ha IOS-kapcoslatos problémád van a Wii-jal, valaki megkérhet rá, hogy futtass Syscheck-et.
 
-## Requirements
+## Követelmények
 
 - Egy SD kártya vagy pendrive
 - [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME)
 
-## Instructions
+## Lépések
 
 ### I. rész - Letöltés/telepítés
 
