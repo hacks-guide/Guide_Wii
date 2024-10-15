@@ -66,14 +66,14 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Manager
 
-### Requirements
+### Követelmények
 
 - A PC running Windows
 - A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
-### Instructions
+### Lépések
 
 #### Section I - Installation
 
@@ -102,7 +102,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Fusion
 
-### Requirements
+### Követelmények
 
 - A PC running MacOS or Linux
 - A USB drive or SD card
@@ -110,7 +110,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 - [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
-### Instructions
+### Lépések
 
 #### Section I - Installation
 
