@@ -6,7 +6,7 @@ Ez az útmutató az utolsó, amire valaha is szükséged lesz, ha a Wii témáz�
 
 ::: danger
 
-DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) (Wii only) AND [PRIILOADER](priiloader)!
+NE FOLYTASD EZT AZ ÚTMUTATÓT, HA NINCS MEGFELELŐ BRICKELÉS VÉDELMED, KÜLÖNÖSEN [BOOTMII](bootmii) (csak Wii) ÉS [PRIILOADER](priiloader)!
 
 :::
 
@@ -24,7 +24,7 @@ Ne használj az itt linkeltnél régebbi ThemeMii verziót, mivel a ThemeMii Mod
 
 ::: danger
 
-Csak olyan témákat telepíts a Wii-re, amelyek kifejezetten a Wii verziójához és az aktuális régióhoz lettek formázva. Installing themes from the wrong version or region on your Wii will cause a [brick](bricks#theme-brick). Ez a útmutató leírja, hogyan hozhatsz létre egy .csm fájlt, amelyet aztán biztonságosan telepíthetsz.
+Csak olyan témákat telepíts a Wii-re, amelyek kifejezetten a Wii verziójához és az aktuális régióhoz lettek formázva. Ha rossz verziójú vagy régiójú témákat telepítesz a Wii-re, az [brickelődik](bricks#theme-brick). Ez a útmutató leírja, hogyan hozhatsz létre egy .csm fájlt, amelyet aztán biztonságosan telepíthetsz.
 
 :::
 
@@ -36,12 +36,12 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 ### Téma források
 
-- [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (.mym file distribution)
-- [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym file distribution)
-- [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym file distribution)
-- [Wii Themer](http://www.wiithemer.org/) (This site can build a .csm ready to install for Wii and vWii only, but for Wii mini you may download the .mym files from their [Theme Database](http://wiithemer.org/mym/))
+- [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (.mym fájl terjesztés)
+- [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym fájl terjesztés)
+- [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym fájl terjesztés)
+- [Wii Themer](http://www.wiithemer.org/) (Ez az oldal csak a Wii és a vWii számára tud egy telepítésre kész .csm fájlt készíteni, de a Wii mini számára a .mym fájlokat a téma adatbázisukból a [Theme Database](http://wiithemer.org/mym/)-ből töltheted le.)
 
-### Requirements
+### Követelmények
 
 - Egy SD kártya vagy USB drive
 - Egy internetkapcsolattal rendelkező Windows PC
@@ -147,7 +147,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli különbség miatt a témák ritkák - valójában csak egyetlen olyan témát találtunk, amely biztosan működik az újabb verzióval. A téma telepítésének utasításai alább találhatók.
 
-### Requirements
+### Követelmények
 
 - Egy moddolt Wii
 - Egy SD kártya vagy USB drive
@@ -155,16 +155,16 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 - Egy Windows/macOS/Linux számítógép internet kapcsolattal
 - [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
-### Instructions
+### Lépések
 
 1. A WiiFlow Lite-ot tartalmazó tárolóeszköz legyen csatlakoztatva a számítógépedhez.
 2. Töltsd le a Rhapsodii Shima archívumot, a téma mindkét verziója működik, és gond nélkül telepíthető egymás mellé.
 3. Extract and copy the `wiiflow` folder to the root of your storage device, merge all folders and overwrite all files when requested.
-4. Follow the theme setup and theme configuration instructions in `installation.txt`. Élvezd a témát!
+4. Kövesd a téma telepítési és beállítási utasításait az `installation.txt` fájlban. Élvezd a témát!
 
 ## USB Loader GX témázás
 
-### Requirements
+### Követelmények
 
 - Egy moddolt Wii
 - Egy SD kártya vagy USB drive
@@ -172,7 +172,7 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 - Egy Windows/macOS/Linux számítógép internet kapcsolattal
 - A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
 
-### Instructions
+### Lépések
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
 2. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
@@ -182,14 +182,14 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 
 ## Homebrew Channel témázás
 
-### Requirements
+### Követelmények
 
 - Egy moddolt Wii
 - Egy SD kártya vagy USB drive
 - Egy Windows/macOS/Linux számítógép internet kapcsolattal
 - A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
 
-### Instructions
+### Lépések
 
 1. Download a theme `.zip` file from the website linked above.
 
