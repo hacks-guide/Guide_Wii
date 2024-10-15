@@ -4,7 +4,7 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 ## Lemez másolása SD kártyára / pendrive-ra CleanRippel
 
-### Requirements
+### Követelmények
 
 - Egy SD kártya vagy pendrive legalább 4,7 GB szabad hellyel (ha kétrétegű lemezt másolsz le, akkor 8,5 GB szabad hellyel)
 - [CleanRip](https://oscwii.org/library/app/cleanrip)
