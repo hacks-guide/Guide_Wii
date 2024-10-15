@@ -26,7 +26,7 @@ Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult 
 
 :::
 
-## Requirements
+## Követelmények
 
 - Egy SD kártya legalább 512 MB szabad hellyel (1 GB vagy több ajánlott)
 - Egy [NAND mentés](bootmii) arról az eszközről, amit flash-elni próbálsz
@@ -34,7 +34,7 @@ Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult 
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
 - [Nand BIN Checker](/assets/files/nandBinCheck.zip)
 
-## Instructions
+## Lépések
 
 ### I. rész - Előkészületek
 
