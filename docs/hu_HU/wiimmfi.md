@@ -202,6 +202,6 @@ Gratulálunk, hogy eljutottál a fő útmutató opcionális részének végére!
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
 
 :::
