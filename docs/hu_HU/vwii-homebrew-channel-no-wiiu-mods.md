@@ -2,7 +2,7 @@
 
 Ez az útmutató végig vezet a Homebrew Channel telepítésén a vWii-re a Wii U oldal módosítása nélkül.
 
-## Instructions
+## Lépések
 
 ### I. rész - Bootolás Aromába
 
