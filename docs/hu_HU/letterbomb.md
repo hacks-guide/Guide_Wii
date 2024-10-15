@@ -14,17 +14,17 @@ NE használd a példákban megadott MAC cmeket, mert azok simán hibát okoznak 
 
 :::
 
-## Requirements
+## Követelmények
 
 - Egy 32GB vagy annál kisebb FAT32-re formázott SD kártya
 - Egy Wii System Menu 4.3 verzióval
 - Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 
-## Instructions
+## Lépések
 
-1. Power on your console.
+1. Kapcsold be a konzolod.
 
-2. Go to `Wii Settings`.
+2. Menj a `Wii Settings`-hez.
 
 3. Take note in the top right corner of the letter next to the system version.
 
@@ -73,6 +73,6 @@ NE használd a példákban megadott MAC cmeket, mert azok simán hibát okoznak 
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 
 :::
