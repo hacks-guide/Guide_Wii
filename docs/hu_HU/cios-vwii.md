@@ -1,8 +1,8 @@
 # d2xl cIOS vWiire (kísérleti)
 
-:::details Technical Details (optional)
+:::details Technikai részletek (opcionális)
 
-cIOS (Custom IOS) are IOS that are patched to allow custom functionality. Ugyan a [cIOS](https://wiibrew.org/wiki/Custom_IOS)-eket nagyrészt kiváltotta az AHBPROT, amely teljes hardveres hozzáférést biztosít, az előbbi továbbra is rendelkezik néhány hasznos képességgel. A cIOS-ek pl. lehetővé teszik az USB-betöltők, mint az USB Loader GX és a WiiFlow, és néhány más program, mint a SaveGame Manager GX működését. Az útmutató ezen része nem kötelező, de ajánlott végigcsinálni, hiszen hátrányok nélkül kiterjeszti a Wiid funkcionalitását.
+a cIOS („custom IOS” / „egyéni IOS”)-ek egyéni rendszerfunkciók igénybevételét teszik lehetővé. Ugyan a [cIOS](https://wiibrew.org/wiki/Custom_IOS)-eket nagyrészt kiváltotta az AHBPROT, amely teljes hardveres hozzáférést biztosít, az előbbi továbbra is rendelkezik néhány hasznos képességgel. A cIOS-ek pl. lehetővé teszik az USB-betöltők, mint az USB Loader GX és a WiiFlow, és néhány más program, mint a SaveGame Manager GX működését. Az útmutató ezen része nem kötelező, de ajánlott végigcsinálni, hiszen hátrányok nélkül kiterjeszti a Wiid funkcionalitását.
 
 :::
 
@@ -22,7 +22,7 @@ Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telep
 
 :::
 
-## Requirements
+## Követelmények
 
 - Egy Wii U, aminek a vWii-jére telepítve van a Homebrew Channel
 - Egy SD kártya
@@ -34,7 +34,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 :::
 
-## Instructions
+## Lépések
 
 ### I. rész – Telepítés
 
@@ -64,6 +64,6 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 ::: tip
 
-Continue to [Finalizing Setup](vwii-finalizing-setup)
+Folytatás a [telepítés befejezésével](vwii-finalizing-setup)
 
 :::
