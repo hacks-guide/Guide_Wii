@@ -10,7 +10,7 @@ For storing multiple games, we recommend an external hard drive for your Wii. We
 
 ::: info
 
-A flash drive is not recommended, as they are small and may vary in behavior even between the same product. <br> 作為替代方案，您也可以選擇使用 SD 卡，但 Wii 的 SD 卡插槽速度較慢。
+A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
 
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
@@ -66,9 +66,9 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Manager
 
-### 操作說明
+### Requirements
 
-- 一台運行 Windows 的電腦
+- A PC running Windows
 - A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
@@ -102,7 +102,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Fusion
 
-### 操作說明
+### Requirements
 
 - A PC running MacOS or Linux
 - A USB drive or SD card

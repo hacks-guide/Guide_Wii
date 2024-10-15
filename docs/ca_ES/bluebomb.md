@@ -2,7 +2,7 @@
 outline: false
 ---
 
-# Credits
+# BlueBomb
 
 ::::: tabs
 
@@ -42,7 +42,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 :::
 
-### str2hax Method
+### Requirements
 
 - A Linux machine
   - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
@@ -69,7 +69,7 @@ Make sure that the console is close to the computer running the exploit, ideally
    - For a Wii mini, the USB port is on the back.
    - For a normal Wii, use the bottom port (or the right port if it's upright).
 
-3. Launch the Homebrew Channel on your Wii.
+3. Power on your console.
 
 4. Go to `Wii Settings`.
 
@@ -79,7 +79,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Download the Priiloader installer and LoadPriiloader apps.
+6. Power off your console.
 
 7. Start your Linux distro, and ensure you are connected to the internet.
 
@@ -97,7 +97,7 @@ Make sure that the console is close to the computer running the exploit, ideally
     - If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
     - If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
 
-11. Launch the Homebrew Channel on your Wii.
+11. Power on your console.
     - **Do not** connect any Wii Remotes.
 
 12. Press the Sync button repeatedly until the terminal shows `got connection handle`.
@@ -154,7 +154,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 :::
 
-### str2hax Method
+### Requirements
 
 - A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
 - A USB flash drive formatted as FAT32.
@@ -176,7 +176,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
    - For a Wii mini, the USB port is on the back.
    - For a normal Wii, use the bottom port (or the right port if it's upright).
 
-3. Launch the Homebrew Channel on your Wii.
+3. Power on your console.
 
 4. Go to `Wii Settings`.
 
@@ -186,7 +186,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Download the Priiloader installer and LoadPriiloader apps.
+6. Power off your console.
 
 #### Rasperry Pi Pico W
 
@@ -205,7 +205,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 ### Performing the Exploit
 
 1. Plug your flashed device back into your PC.
-2. Launch the Homebrew Channel on your Wii.
+2. Power on your console.
    - **Do not** connect any Wii Remotes.
 3. Press the Sync button repeatedly until the bluebomb screen shows up.
    - This could take numerous attempts.

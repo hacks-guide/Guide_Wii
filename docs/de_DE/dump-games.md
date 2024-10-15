@@ -4,7 +4,7 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 ## Dumping a Disc to SD/USB (CleanRip)
 
-### Anforderungen
+### Requirements
 
 - An SD card or USB drive with at least 4.7 GB of free space (8.5 GB if dumping a dual layer disc).
 - [CleanRip](https://oscwii.org/library/app/cleanrip)

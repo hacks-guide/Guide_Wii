@@ -31,7 +31,7 @@ Ha az evWii Aroma plugin nem telepített, és a homebrew alkalmazás lefagy, az 
 
 :::
 
-## Útmutató
+## Lépések
 
 ### I. rész - Fájlok
 

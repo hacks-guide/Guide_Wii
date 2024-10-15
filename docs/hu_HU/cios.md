@@ -1,8 +1,8 @@
 # cIOS-ek telepítése
 
-:::details Technical Details (optional)
+:::details Technikai részletek (opcionális)
 
-cIOS (Custom IOS) are IOS that are patched to allow custom functionality. Ugyan a [cIOS](https://wiibrew.org/wiki/Custom_IOS)-eket nagyrészt kiváltotta az AHBPROT, amely teljes hardveres hozzáférést biztosít, az előbbi továbbra is rendelkezik néhány hasznos képességgel. A cIOS-ek pl. lehetővé teszik az USB-betöltők, mint az USB Loader GX és a WiiFlow, és néhány más program, mint a SaveGame Manager GX működését. Az útmutató ezen része nem kötelező, de ajánlott végigcsinálni, hiszen hátrányok nélkül kiterjeszti a Wiid funkcionalitását.
+a cIOS („custom IOS” / „egyéni IOS”)-ek egyéni rendszerfunkciók igénybevételét teszik lehetővé. Ugyan a [cIOS](https://wiibrew.org/wiki/Custom_IOS)-eket nagyrészt kiváltotta az AHBPROT, amely teljes hardveres hozzáférést biztosít, az előbbi továbbra is rendelkezik néhány hasznos képességgel. A cIOS-ek pl. lehetővé teszik az USB-betöltők, mint az USB Loader GX és a WiiFlow, és néhány más program, mint a SaveGame Manager GX működését. Az útmutató ezen része nem kötelező, de ajánlott végigcsinálni, hiszen hátrányok nélkül kiterjeszti a Wiid funkcionalitását.
 
 :::
 
@@ -22,7 +22,7 @@ Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd!
 - Egy SD kártya vagy pendrive
 - [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-## Útmutató
+## Lépések
 
 ### I. rész - Letöltés
 
@@ -38,7 +38,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 :::
 
-1. Kapcsold ki a konzolt!
+1. Power off your console.
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 3. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
@@ -67,7 +67,7 @@ The WAD files should be on your SD card like this:
 
 2. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
-3. Kapcsold be a konzolt!
+3. Power on your console.
 
 4. Indítsd el a Homebrew Channelt!
 
@@ -171,7 +171,7 @@ Ha letöltötted a 4 WAD fájlt az I. részben, most törölheted őket az SD k�
 
 ::: tip
 
-Continue to [Open Shop Channel Installation](osc)
+Folytatás az [Open Shop Channel telepítés](osc)-ével
 
 Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 

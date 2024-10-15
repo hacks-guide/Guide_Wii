@@ -109,7 +109,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 - 一台 Wii
 - The latest version of [cIOS](cios)
-- [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
+- [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
 ### Installation
 
@@ -186,6 +186,6 @@ To change the cIOS used for a specific game, follow the instructions specific to
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[点击此处返回站点索引。](site-navigation)
 
 :::

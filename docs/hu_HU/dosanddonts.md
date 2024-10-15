@@ -5,4 +5,4 @@ head:
       content: 0; URL=faq.html
 ---
 
-# Redirecting
+# Átirányítás

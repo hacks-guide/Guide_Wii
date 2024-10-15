@@ -2,7 +2,7 @@
 
 A Homebrew Channelből lehet nemhivatalos alkalmazásokat futtatni.
 
-## Útmutató
+## Lépések
 
 ::: warning
 

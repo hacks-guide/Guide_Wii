@@ -46,7 +46,7 @@ The chart below will help you determine what can be done in either interface.
 
 :::details Click here for a detailed explanation of each tool.
 
-| Tool                                                                                                           | 설명                                                                                                                                                                                                                                                                                                                |
+| Tool                                                                                                           | Description                                                                                                                                                                                                                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | W = ModMii Wizard <-- Start Here to Mod Your Wii!                                     | This option can be used to hack your Wii for the first time or re-hack a Wii that has been previously modded.                                                                                                                                                                                     |
 | SU = SysCheck Updater Wizard (update only your outdated softmods)                           | This option checks for and updates old modifications installed to their wii such as DarkCorp/CIOSSPAGHETTI that can potentially cause problems for the latest homebrew custom firmware.                                                                                                           |
@@ -71,10 +71,10 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ## Installing ModMii
 
-### 메뉴
+### Requirements
 
 - Wii
-- USB 드라이브 또는 SD 카드
+- A USB drive or SD Card
 - A Windows PC (a Virtual Machine will work)
 - [ModMii](https://modmii.github.io/)
 

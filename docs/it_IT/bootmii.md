@@ -9,11 +9,11 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
 :::
 
-## Requisiti
+## Requirements
 
 - Una scheda SD con un spazio disponibile minimo di 512MB (1GB o più sono consigliati)
 
-## Istruzioni
+## Instructions
 
 ::: info
 
@@ -21,7 +21,7 @@ Se hai BootMii installato come boot2, dovrai riavviare la console per eseguirlo.
 
 :::
 
-1. Accendi la console.
+1. Power on your console.
 
 2. Avvia l'Homebrew Channel.
 

@@ -67,7 +67,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
     - If your Wii freezes after clicking on the letter, you probably chose the wrong region when downloading the exploit. Redo Step 2 and select the correct region.
     - If all is correct and there is freezing, keep on trying until it works.
 
-16. It'll then proceed to download and load the HackMii Installer.
+16. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 

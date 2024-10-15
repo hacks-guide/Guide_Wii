@@ -20,7 +20,7 @@ The Wii Menu is limited to 48 channels, not including existing system channels.
 
 :::
 
-## Prérequis
+## Requirements
 
 - Une Wii
 - An SD or USB drive

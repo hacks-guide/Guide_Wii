@@ -2,11 +2,11 @@
 
 ::: info
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+如果您需要有关本教程的任何帮助，请加入 [Wii mini 破解 Discord 服务器](https://discord.gg/6ryxnkS) (推荐)
 
 :::
 
-:::details Technical Details (optional)
+:::details 技术细节 (可选)
 
 这个d2x cIOS installer原先是为WiiU的vWii系统而开发的，由DaveBaol制作，自定义cIOS是由Laseratte为Wii mini设计的。 The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). 请注意，这个cIOS依然是实验性的，即使没有关于功能的错误反馈。
 
@@ -79,6 +79,6 @@ Wii 和 Wii mini 主机仅与AX88772芯片的网络适配器工作。 请在购�
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[点击此处返回站点索引。](site-navigation)
 
 :::

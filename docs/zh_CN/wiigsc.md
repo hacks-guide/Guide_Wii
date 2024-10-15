@@ -54,6 +54,6 @@ The Wii Menu is limited to 48 channels, not including existing system channels.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[点击此处返回站点索引。](site-navigation)
 
 :::

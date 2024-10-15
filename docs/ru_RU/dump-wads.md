@@ -2,14 +2,14 @@
 
 Это руководство объяснит вам как сделать дамп файлов WAD с системной памяти вашей Wii.
 
-## Требования
+## Requirements
 
 - SD-карта или USB-накопитель
 - [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-## Инструкции
+## Instructions
 
-1. Выключите вашу консоль.
+1. Power off your console.
 
 2. Вставьте вашу SD-карту или USB-накопитель в ваш компьютер.
 
@@ -17,7 +17,7 @@
 
 4. Вставьте вашу SD-карту или USB-накопитель в вашу консоль.
 
-5. Включите вашу консоль.
+5. Power on your console.
 
 6. Launch the Homebrew Channel, and launch the Load Priiloader app.
 

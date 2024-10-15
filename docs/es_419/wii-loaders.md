@@ -109,7 +109,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 - You probably will pick the download link that says 4.X, that means the theme will work on version 4.1, 4.2 and 4.3 of the Wii Menu.
 - The latest version of [cIOS](cios)
-- [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
+- [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
 ### Installation
 

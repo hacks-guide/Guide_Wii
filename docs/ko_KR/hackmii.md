@@ -10,13 +10,13 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ## 홈브류 채널을 통해 다시 시작하기
 
-### 메뉴
+### Requirements
 
 - 홈브류 채널
 - FAT32/MS-DOS로 포맷된 SD 카드 또는 USB 드라이브
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### 진행 방법
+### Instructions
 
 1. SD/USB를 PC에 연결합니다.
 2. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
@@ -32,7 +32,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ## Priiloader를 통한 재실행
 
-### 메뉴
+### Requirements
 
 - Priiloader (또는 Priiloader) 가 설치된 Wii
 - FAT32/MS-DOS로 포맷된 SD 카드 또는 USB 드라이브
@@ -50,7 +50,7 @@ Preloader and older versions of Priiloader do not seem to support SDHC (>2GB) ca
 
 :::
 
-### 진행 방법
+### Instructions
 
 1. SD/USB를 PC에 연결합니다.
 2. Copy the `boot.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card or USB drive.

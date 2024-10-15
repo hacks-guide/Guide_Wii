@@ -54,7 +54,7 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ## http://www.wiithemer.org/
 
-### Gereksinimler
+### Requirements
 
 - Some themes have different links for different regions, so pick the one corresponding to your Wii's region.
 - The latest version of [cIOS](cios)
@@ -105,11 +105,11 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ## USB Loader GX
 
-### Gereksinimler
+### Requirements
 
 - Some themes have different links for different regions, so pick the one corresponding to your Wii's region.
 - The latest version of [cIOS](cios)
-- [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
+- [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
 ### Installation
 
@@ -186,6 +186,6 @@ To change the cIOS used for a specific game, follow the instructions specific to
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Site haritasına geri dönmek için tıklayın.](site-navigation)
 
 :::

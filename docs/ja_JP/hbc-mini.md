@@ -2,7 +2,7 @@
 
 The Homebrew Channel is where you will go to launch homebrew applications.
 
-## 実行方法
+## Instructions
 
 ::: warning
 
