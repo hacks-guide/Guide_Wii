@@ -4,7 +4,7 @@ Ez az útmutató bemutatja, hogy hogyan dumpolhatod a Wii mini NAND-ját, a nél
 
 ::: info
 
-For support (in English) with Wii mini hacking, join [Wii mini Hacking](https://discord.gg/6ryxnkS) on Discord.
+Támogatásért (angolul) a Wii mini hacking-gel kapcsolatosan csatlakozz a [Wii mini Hacking](https://discord.gg/6ryxnkS)-hez Discord-on.
 
 :::
 
@@ -97,6 +97,6 @@ Now that your Wii has adequate brick protection, you can install the Open Shop C
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
 
 :::
