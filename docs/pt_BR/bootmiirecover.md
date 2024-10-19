@@ -26,7 +26,7 @@ NÃO restaure um backup da NAND não verificado, ou um que não seja do seu Wii:
 
 :::
 
-## Requisitos
+## Requirements
 
 - An earlier NAND Backup made by [BootMii](bootmii)
 
@@ -46,7 +46,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 - Você deve usar os botões POWER (direita) e RESET (selecionar) no seu console, ou um controle de GameCube conectado na porta 1 para navegar no BootMii. Para navegar com um controle de GameCube, clique esquerda/direita no +Control Pad em um controle de GameCube. Para selecionar, pressione A.
 
-## Instruções
+## Instructions
 
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 

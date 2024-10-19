@@ -1,4 +1,4 @@
-# Навигация по сайту
+# Site Navigation
 
 ::: tip
 

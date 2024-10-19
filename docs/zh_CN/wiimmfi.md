@@ -202,6 +202,6 @@ Congrats on making it to the end of the optional section of the main guide! You 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[点击此处返回站点索引。](site-navigation)
 
 :::

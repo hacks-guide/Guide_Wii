@@ -20,7 +20,7 @@ There is no way to restore your NAND backup this way without a hardmod.
 
 :::
 
-## Prérequis
+## Requirements
 
 - Une Wii
 - Une clé USB

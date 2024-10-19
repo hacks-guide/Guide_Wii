@@ -166,7 +166,7 @@ Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
 
 ### Symptoms
 
-This brick occurs when boot1/boot2 is corrupt.
+Screen shows up as listed below on normal boot.
 
 ```
 Error:003

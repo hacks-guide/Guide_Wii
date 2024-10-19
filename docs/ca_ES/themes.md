@@ -52,7 +52,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ::::: tabs
 
-:::: tab csm-installer
+:::: tab (All) Via csm-installer
 
 1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
 2. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
@@ -62,7 +62,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ::::
 
-:::: tab nus-downloader-wii
+:::: tab (Wii) Via NUS Downloader
 
 1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 2. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
@@ -79,7 +79,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ::::
 
-:::: tab nus-downloader-vwii
+:::: tab (vWii) Via NUS Downloader
 
 1. On your computer, download [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
 2. Copy all files from the vWii NUS Downloader `.zip` to a folder on your computer.
@@ -110,7 +110,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ::::
 
-:::: tab thememii
+:::: tab (Wii) Via ThemeMii
 
 1. Create a `themes` folder on the root of your SD card/USB device.
 2. Extract the ThemeMii MOD `.zip` to a location on your PC.

@@ -22,7 +22,7 @@ If the `Wiimmfi Patch` displays as anything other than v4, you do not have the l
 
 A method for Wiimmfi patching which runs on retail disc games automatically via the Disc Channel.
 
-### Prérequis
+### Requirements
 
 - A Wii with an internet connection, on System Menu version 4.3
 - [Priiloader](priiloader) 0.9 or later
@@ -58,7 +58,7 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 
 There's an easy method to patch games to use Wiimmfi that can be used whether or not you have homebrew on your Wii.
 
-### Prérequis
+### Requirements
 
 - Mario Kart Wii Competitions
 - [USB Loader GX or WiiFlow Lite](wii-loaders)
@@ -86,7 +86,7 @@ To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC 
 
 :::
 
-### Prérequis
+### Requirements
 
 - Mario Kart Wii Competitions
 
@@ -100,7 +100,7 @@ To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC 
 
 A method for Wiimmfi patching which runs on retail disc games, but must be manually launched via the Homebrew Channel.
 
-### Prérequis
+### Requirements
 
 - Une carte SD ou une clé USB
 - [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
@@ -115,7 +115,7 @@ A method for Wiimmfi patching which runs on retail disc games, but must be manua
 
 A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the EULA User Agreement (derives from [str2hax](str2hax)). Due to the nature of this process, it can be ran on Wiis without homebrew.
 
-### Prérequis
+### Requirements
 
 - Mario Kart Wii Competitions
 
@@ -145,7 +145,7 @@ If you run into UPnP-related issues (such as the patcher getting stuch at "Init 
 
 A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). Due to the nature of this process, it can be ran on Wiis without homebrew. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
 
-### Prérequis
+### Requirements
 
 - A Wii with an internet connection, running in 60Hz mode
 - La chaîne Internet
@@ -162,7 +162,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 A method for Wiimmfi patching which runs on WiiWare games, but must be manually run on a PC via a script.
 
-### Prérequis
+### Requirements
 
 - An SD card
 - Your copy of your game (in WAD format)
@@ -179,7 +179,7 @@ A method for Wiimmfi patching which runs on WiiWare games, but must be manually 
 
 A method for Wiimmfi patching which runs on game disc images, but must be manually run on a PC via a script.
 
-### Prérequis
+### Requirements
 
 - A computer with Windows on it (or using Mono or Wine on Mac/Linux)
 - A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported

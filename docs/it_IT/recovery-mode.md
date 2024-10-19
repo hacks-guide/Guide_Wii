@@ -13,7 +13,7 @@ This check can be bypassed using Priiloader, which allows Recovery Mode to boot 
 
 ## Accessing and Using Recovery Mode
 
-### Requisiti
+### Requirements
 
 - Un controller GameCube
 - Se il Diagnostic Disc Check è stato precedentemente rimosso con Priiloader o se hai un chip dell'unità è a portata di mano:

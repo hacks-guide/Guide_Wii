@@ -9,11 +9,11 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
 :::
 
-## Требования
+## Requirements
 
 - An SD card with at least 512MB of free space
 
-## Инструкции
+## Instructions
 
 ::: info
 
@@ -21,7 +21,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 :::
 
-1. Включите вашу консоль.
+1. Power on your console.
 
 2. Launch the Homebrew Channel, and launch the Load Priiloader app.
 

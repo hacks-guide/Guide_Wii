@@ -3,12 +3,12 @@
 YAWM ModMii Edition - это приложение, которое позволяет устанавливать файлы WAD и запускать homebrew приложения.
 Это руководство покажем вам, как устанавливать файлы WAD.
 
-## Требования
+## Requirements
 
 - SD-карта или USB-накопитель
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-## Инструкции
+## Instructions
 
 ### Часть I - Загрузка
 
@@ -41,6 +41,6 @@ YAWM ModMii Edition - это приложение, которое позволя
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
 
 :::

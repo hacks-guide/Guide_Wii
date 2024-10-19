@@ -66,7 +66,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Manager
 
-### str2hax Method
+### Requirements
 
 - A PC running Windows
 - A USB drive or SD card
@@ -102,7 +102,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Fusion
 
-### str2hax Method
+### Requirements
 
 - A PC running MacOS or Linux
 - A USB drive or SD card

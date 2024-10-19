@@ -6,7 +6,7 @@ If you need help with anything regarding this tutorial, please join [the Wii min
 
 :::
 
-:::details Technical Details (optional)
+:::details Technikai részletek (opcionális)
 
 A d2x cIOS-telepítő ezen változatát eredetileg a Wii U vWiijére készítette DaveBaol, amit a Wii minire Leseratte ültetett át. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Ugyan ez a cIOS még kísérleti fázisban áll, de még senki sem jelentett a működésével kapcsolatos hibát.
 
@@ -34,16 +34,16 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telep
 - Egy USB drive
 - Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
-## Útmutató
+## Lépések
 
 ### I. rész - Letöltés
 
-1. Kapcsold ki a konzolt!
+1. Power off your console.
 2. Csatlakoztasd a pendrive-ot a számítógépedbe!
 3. Create a folder named `apps` on the root of your USB drive if it does not already exist.
 4. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
 5. Helyezd be a pendrive-ot a konzolba!
-6. Kapcsold be a konzolt!
+6. Power on your console.
 7. Indítsd el a Homebrew Channelt!
 8. Indítsd el a listáról a „d2x cIOS Installer”-t!
 
@@ -79,6 +79,6 @@ Minden jelenleg ismert működő vezetékesinternet-adapter az AX88772 chipet ha
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
 
 :::

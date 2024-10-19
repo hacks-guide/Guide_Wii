@@ -4,14 +4,14 @@ Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda 
 
 ## Dump di un Disco su SD/USB (CleanRip)
 
-### Requisiti
+### Requirements
 
 - Una scheda SD o unità USB con almeno 4.7 GB di spazio disponibile (8.5 GB per il dump di un disco a doppio strato).
 - [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 ### Preparazione
 
-1. Spegni la console.
+1. Power off your console.
 
 2. Inserisci la scheda SD o dispositivo USB nel tuo computer.
 
@@ -19,7 +19,7 @@ Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda 
 
 4. Reinserisci la tua scheda SD o dispositivo USB nella tua console.
 
-5. Accendi la console.
+5. Power on your console.
 
 6. Avvia l'Homebrew Channel.
 

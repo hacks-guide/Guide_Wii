@@ -9,11 +9,11 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
 :::
 
-## Anforderungen
+## Requirements
 
 - An SD card with at least 512MB of free space
 
-## Anleitung
+## Instructions
 
 ::: info
 

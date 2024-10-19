@@ -18,7 +18,7 @@ Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/gettin
 
 :::
 
-## Prérequis
+## Requirements
 
 - A modded Wii U
 - The [Aroma Environment](https://aroma.foryour.cafe/)

@@ -1,12 +1,12 @@
 # cIOS
 
-:::details Technical Details (optional)
+:::details Технические детали (опционально)
 
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
 :::
 
-## Требования
+## Requirements
 
 ::: warning
 
@@ -22,7 +22,7 @@ If you have a Wii mini, follow [this guide](cios-mini) instead.
 - SD-карта или USB-накопитель
 - [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-## Инструкции
+## Instructions
 
 ### Часть I - Загрузка
 
@@ -38,7 +38,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 :::
 
-1. Выключите вашу консоль.
+1. Power off your console.
 2. Вставьте вашу SD-карту или USB-накопитель в ваш компьютер.
 3. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
@@ -67,7 +67,7 @@ The WAD files should be on your SD card like this:
 
 2. Вставьте вашу SD-карту или USB-накопитель в вашу консоль.
 
-3. Включите вашу консоль.
+3. Power on your console.
 
 4. Launch the Homebrew Channel, and launch the Load Priiloader app.
 

@@ -1,6 +1,6 @@
 # 安装Homebrew Channel和BootMii
 
-:::details Technical Details (optional)
+:::details 技术细节 (可选)
 
 BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009. 如果您无法安装 BootMii，请继续<a href="priiloader">安装 Priiloader</a>。 BootMii under boot2 is preferred as it provides extended brick protection, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer, having been manufactured before 2009. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
 

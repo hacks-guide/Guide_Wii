@@ -2,11 +2,11 @@
 
 ::: info
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Если вам нужна помощь, пожалуйста, присоединяйтесь к Discord-серверу [Wii mini Hacking](https://discord.gg/6ryxnkS) (рекомендуется)
 
 :::
 
-:::details Technical Details (optional)
+:::details Технические детали (опционально)
 
 This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBaol and custom cIOS was created by Leseratte for the Wii mini. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Please note that this cIOS is still experimental, though no problem with functionality has been reported.
 
@@ -28,22 +28,22 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 :::
 
-## Требования
+## Requirements
 
 - A Wii mini with the Homebrew Channel installed
 - A USB drive.
 - Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
-## Инструкции
+## Instructions
 
 ### Часть I - Загрузка
 
-1. Выключите вашу консоль.
+1. Power off your console.
 2. Insert your USB drive into your computer.
 3. Create a folder named `apps` on the root of your USB drive if it does not already exist.
 4. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
 5. Reinsert your USB drive into your console.
-6. Включите вашу консоль.
+6. Power on your console.
 7. Launch the Homebrew Channel, and launch the Load Priiloader app.
 8. Launch d2xl cIOS Installer from the list of homebrew.
 
@@ -79,6 +79,6 @@ The Wii and Wii mini consoles are only known to work with Ethernet adapters usin
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
 
 :::

@@ -14,21 +14,21 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 :::
 
-## 必要なもの
+## Requirements
 
 - An SD card formatted as FAT32 that is 32GB or less
 - A Wii on System Menu version 4.3
 - A Windows/MacOS/Linux computer with an Internet connection
 
-## 実行方法
+## Instructions
 
-1. Wiiの電源を入れます。
+1. Power on your console.
 
 2. Go to `Wii Settings`.
 
-3. バージョンを確認してください。1ページ目の右上に表示されています。
+3. Take note in the top right corner of the letter next to the system version.
 
-   - これはシステムメニュー領域に対応しており、後ほど実行する手順に必要となります。
+   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
    - Also, ensure that you are on System Menu version 4.3.
 
    ![](/images/wii/SystemMenuVersion.png)
@@ -67,7 +67,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
     - If your Wii freezes after clicking on the letter, you probably chose the wrong region when downloading the exploit. Redo Step 2 and select the correct region.
     - If all is correct and there is freezing, keep on trying until it works.
 
-16. It'll then proceed to download and load the HackMii Installer.
+16. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 

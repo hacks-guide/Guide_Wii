@@ -14,17 +14,17 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
 :::
 
-## 메뉴
+## Requirements
 
 - 인터넷 연결이 있는 Wii
 
-## 진행 방법
+## Instructions
 
 ### 섹션 I - 연결
 
 이 취약점 공격을 사용하려면 취약점 공격이 포함된 서버에 연결하기 위해 DNS를 설정해야 합니다.
 
-1. 콘솔의 전원을 켜 주세요.
+1. Power on your console.
 
 2. Go to `Wii Options`.
 
@@ -90,7 +90,7 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
 4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 
-5. 그런 다음 HackMii 설치 프로그램을 다운로드하고 로드합니다.
+5. If the exploit was successful, your device will have loaded the HackMii Installer.
 
    ![](/images/hackmii/scam.png)
 

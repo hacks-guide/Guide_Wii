@@ -2,16 +2,16 @@
 
 FlashHax es un exploit para la Wii original que se activa mediante el Canal Internet. A diferencia de otros exploits, este no requiere una tarjeta SD.
 
-## Requisitos
+## Requirements
 
 - Una Wii con conexión a internet
 - Canal Internet
 
-## Instrucciones
+## Instructions
 
 ### Section I - Prep Work
 
-1. Enciende la consola.
+1. Power on your console.
 
 2. Launch the Internet Channel.
 
@@ -39,7 +39,7 @@ FlashHax es un exploit para la Wii original que se activa mediante el Canal Inte
 
    ![](/images/exploits/flashhax/wait-for-download.png)
 
-3. Después de unos segundos, la consola debería de iniciar el HackMii Installer.
+3. If the exploit was successful, your device will have loaded the HackMii Installer.
    - This may take multiple tries.
    - Si HackMii Installer no carga y el sistema se congela (si no puedes mover el cursor), por favor reinicia tu consola y repite el paso 3 hasta que funcione. Esto puede tomar varios intentos, por favor ten paciencia.
 

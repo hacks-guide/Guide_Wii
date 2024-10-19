@@ -13,7 +13,7 @@ Această verificare poate fi evitată folosind Priiloader, care permite modului 
 
 ## Accesarea și utilizarea modului de recuperare
 
-### Instrumente necesare
+### Requirements
 
 - Un controler GameCube
 - If the Diagnostic Disc Check was previously removed with Priiloader, or if a drive chip is on hand:

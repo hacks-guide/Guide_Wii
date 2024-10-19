@@ -2,7 +2,7 @@
 
 Homebrew Channel este locul unde te duci pentru a rula aplicații homebrew.
 
-## Instrucțiuni
+## Instructions
 
 ::: warning
 

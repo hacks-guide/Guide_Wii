@@ -12,8 +12,7 @@ outline: false
 
 :::details Technical Details (optional)
 
-BlueBombはWiiやWii MiniのBluetooth機能のセキュリティホールを利用した改造方法です。 {% capture technical_info %}<summary line-breaks-before="1" mark="crwd-mark"><em>Technical Details (optional)</em></summary>
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries.
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
@@ -33,60 +32,60 @@ If you need help with anything regarding this tutorial, please join [the Wii min
 
 ::: info
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. ブリックを修復する場合などの例外はあります。
+If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
 
 :::
 
 ::: info
 
-Bluetoothを接続するため、Wii本体とパソコンを近づけるようにしてください。1m未満の距離が望ましいです。
+Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
 
 :::
 
-### 必要なもの
+### Requirements
 
-- Linuxがインストールされているパソコン
-  - 仮想環境でも可能ですが、仮想環境でBluetoothを使うことは複雑であるため、推奨されません。 後述のLiveUSBを利用することを推奨します。
-  - Raspberry Piがある場合、Linuxがインストールされているパソコンの代わりに利用できます。
+- A Linux machine
+  - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
+  - If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
   - Windows Subsystem for Linux or a Chromebook running Linux mode will _not work_ as they don't have direct access to the Bluetooth adapter or USB ports.
   - If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
     - 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
-    - 64ビットのPCでは不具合が起きづらいLTS(長期サポート)版のUbuntuを推奨しますが、最新版のUbuntuでも使えます。
+    - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
   - You can [flash a Linux Live environment to a USB flash drive](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) instead of installing it to your computer.
-- Bluetoothアダプター
-  - 内臓Bluetoothアダプターも使用できます。
-  - 外付けBuletoothアタブターを使用する場合、Linuxと互換性のあるもの使用してください。
-- FAT32でフォーマットされたUSBドライブ
-  - LinuxをダウンロードしたUSDドライブとは別の物を使用してください。
+- A Bluetooth adapter.
+  - An internal Bluetooth adapter will work.
+  - If you do not have one, make sure to get one compatible with Linux.
+- A USB flash drive formatted as FAT32.
+  - This cannot be the same flash drive used for your Linux Machine.
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### 実行方法
+### Instructions
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
-   - (ブリックを修正する場合、使用するHomeberwアプリをappsフォルダにコピーする必要があります)
-   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. boot.elfを使用してください。 )
+   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
 
-2. USBドライブをWii本体に接続します。
-   - Wiiの場合、縦向きの場合は右のUSBポート、横向きの場合は下のUSBポートに接続してください。
-   - For a normal Wii, use the bottom port. (or the right port if it's upright).
+2. Reinsert your flash drive into your console.
+   - For a Wii mini, the USB port is on the back.
+   - For a normal Wii, use the bottom port (or the right port if it's upright).
 
-3. Wiiの電源を入れます。
+3. Power on your console.
 
 4. Go to `Wii Settings`.
 
-5. バージョンを確認してください。1ページ目の右上に表示されています。
+5. Take note in the top right corner of the letter next to the system version.
 
-   - これはシステムメニュー領域に対応しており、後ほど実行する手順に必要となります。
+   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Power off your Wii.
+6. Power off your console.
 
-7. Linuxを起動し、インターネットに接続されていることを確認します。
+7. Start your Linux distro, and ensure you are connected to the internet.
 
-8. ターミナルを開きます。
+8. Open the Terminal
 
-9. 以下のコードを実行します。
+9. Run the following commands:
 
    ```bash
    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -94,18 +93,18 @@ Bluetoothを接続するため、Wii本体とパソコンを近づけるよう�
    ./bluebomb-helper.sh
    ```
 
-10. コードを実行すると、必要なファイルをダウンロードし、Wiiの情報を求めます。
-    - Wii miniを選択した場合、リージョンを入力するように求められます。 This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
-    - Wiiを選択した場合、Wiiメニューのバージョンの入力を求められます。
+10. The helper will then download the required files, and ask for information about your console.
+    - If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
+    - If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
 
-11. Wiiの電源を入れます。
+11. Power on your console.
     - **Do not** connect any Wii Remotes.
 
 12. Press the Sync button repeatedly until the terminal shows `got connection handle`.
-    - 何度も押す必要がある場合があります。
+    - This could take numerous attempts.
 
-13. It'll then proceed to download and load the HackMii Installer.
-    - You can now shut down your Linux computer if you are not planning to use it later.
+13. If the exploit was successful, your device will have loaded the HackMii Installer.
+    - If you are not planning to use it later, you can now shut down your Linux distro.
 
 ::: info
 
@@ -145,20 +144,20 @@ If you need help with anything regarding this tutorial, please join [the Wii min
 
 ::: info
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. ブリックを修復する場合などの例外はあります。
+If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
 
 :::
 
 ::: info
 
-Bluetoothを接続するため、Wii本体とパソコンを近づけるようにしてください。1m未満の距離が望ましいです。
+Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
 
 :::
 
-### 必要なもの
+### Requirements
 
 - A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
-- FAT32でフォーマットされたUSBドライブ
+- A USB flash drive formatted as FAT32.
 - [The HackMii Installer](https://bootmii.org/download/)
 
 ::: info
@@ -167,27 +166,27 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 :::
 
-### 実行方法
+### Instructions
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
-   - (ブリックを修正する場合、使用するHomeberwアプリをappsフォルダにコピーする必要があります)
-   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. boot.elfを使用してください。 )
+   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
 
-2. USBドライブをWii本体に接続します。
-   - Wiiの場合、縦向きの場合は右のUSBポート、横向きの場合は下のUSBポートに接続してください。
-   - For a normal Wii, use the bottom port. (or the right port if it's upright).
+2. Reinsert your flash drive into your console.
+   - For a Wii mini, the USB port is on the back.
+   - For a normal Wii, use the bottom port (or the right port if it's upright).
 
-3. Wiiの電源を入れます。
+3. Power on your console.
 
 4. Go to `Wii Settings`.
 
-5. バージョンを確認してください。1ページ目の右上に表示されています。
+5. Take note in the top right corner of the letter next to the system version.
 
-   - これはシステムメニュー領域に対応しており、後ほど実行する手順に必要となります。
+   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Power off your Wii.
+6. Power off your console.
 
 #### Rasperry Pi Pico W
 
@@ -206,11 +205,11 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 ### Performing the Exploit
 
 1. Plug your flashed device back into your PC.
-2. Wiiの電源を入れます。
+2. Power on your console.
    - **Do not** connect any Wii Remotes.
 3. Press the Sync button repeatedly until the bluebomb screen shows up.
-   - 何度も押す必要がある場合があります。
-4. It'll then proceed to download and load the HackMii Installer.
+   - This could take numerous attempts.
+4. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ::: tip
 

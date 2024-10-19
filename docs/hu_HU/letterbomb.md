@@ -20,15 +20,15 @@ NE használd a példákban megadott MAC cmeket, mert azok simán hibát okoznak 
 - Egy Wii System Menu 4.3 verzióval
 - Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 
-## Útmutató
+## Lépések
 
-1. Kapcsold be a konzolt!
+1. Kapcsold be a konzolod.
 
-2. Go to `Wii Settings`.
+2. Menj a `Wii Settings`-hez.
 
-3. Jegyezd meg a jobb felső sarokban megjelenő betűjelet, ami a rendszer verziószáma mellett van!
+3. Take note in the top right corner of the letter next to the system version.
 
-   - Ez a betű jelzi a rendszermenü régióját, amire később szükséged lesz.
+   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
    - Továbbá biztosítsd, hogy System Menu 4.3-on vagy.
 
    ![](/images/wii/SystemMenuVersion.png)
@@ -67,12 +67,12 @@ NE használd a példákban megadott MAC cmeket, mert azok simán hibát okoznak 
     - Ha a Wii-od lefagy a levélre kattintás után, valószíműleg rossz system menu regiót válsztottál a LetterBomb-hoz. Menj vissza a 2. lépshez, és ellenőriz, hogy a jó régiót választottad-e.
     - Ha minden megfelelő és van fagyás, próbáld addig, amíg nem sikerül.
 
-16. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
+16. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 
 :::

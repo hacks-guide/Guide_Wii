@@ -20,7 +20,7 @@ There is no way to restore your NAND backup this way without a hardmod.
 
 :::
 
-## Требования
+## Requirements
 
 - A Wii
 - A USB drive.
@@ -28,7 +28,7 @@ There is no way to restore your NAND backup this way without a hardmod.
 - [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
 - [Xyzzy Mod](https://oscwii.org/library/app/xyzzy-mod)
 
-## Инструкции
+## Instructions
 
 ### Section I - Dumping and Patching IOS 36
 
@@ -97,6 +97,6 @@ Now that your Wii has adequate brick protection, you can install the Open Shop C
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
 
 :::
