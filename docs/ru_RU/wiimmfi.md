@@ -202,6 +202,6 @@ Congrats on making it to the end of the optional section of the main guide! You 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
 
 :::
