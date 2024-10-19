@@ -30,7 +30,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
    ![](/images/riiconnect24/Internet_1.png)
 
-3. Go to `Wii Settings`.
+3. Перейдите в `Wii Settings` (Параметры Wii).
 
    ![](/images/riiconnect24/Internet_2.png)
 
