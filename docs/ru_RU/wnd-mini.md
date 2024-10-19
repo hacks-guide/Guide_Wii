@@ -97,6 +97,6 @@ Now that your Wii has adequate brick protection, you can install the Open Shop C
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
 
 :::
