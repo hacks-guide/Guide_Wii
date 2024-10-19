@@ -79,6 +79,6 @@ The Wii and Wii mini consoles are only known to work with Ethernet adapters usin
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
 
 :::
