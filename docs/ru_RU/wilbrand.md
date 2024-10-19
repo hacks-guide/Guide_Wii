@@ -31,7 +31,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 1. Power on your console.
 
-2. Go to `Wii Settings`.
+2. Перейдите в `Wii Settings` (Параметры Wii).
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
@@ -98,7 +98,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 - An SD card formatted to FAT32/MS-DOS
 - A Wii on version 3.0 or newer
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
-- [HackMii Installer v1.2](https://bootmii.org/download/)
+- [Установщик HackMii v1.2](https://bootmii.org/download/)
 
 ::: warning
 
@@ -110,7 +110,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 1. Power on your console.
 
-2. Go to `Wii Settings`.
+2. Перейдите в `Wii Settings` (Параметры Wii).
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
