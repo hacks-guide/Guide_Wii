@@ -1,6 +1,6 @@
-# Установка канала Homebrew и BootMii
+# Homebrew Channel and BootMii Installation
 
-:::details Technical Details (optional)
+:::details Технические детали (опционально)
 
 BootMii может быть установлен двумя путями: непосредственно в часть системного загрузчика под названием boot2, и в IOS. BootMii в boot2 предпочтительнее, так как он обеспечивает расширенную защиту от окирпичивания, но консоли Wii с уязвимым boot1 которые позволяют установку в boot2 появляются значительно реже, поскольку они были выпущены до 2009 года. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
 
