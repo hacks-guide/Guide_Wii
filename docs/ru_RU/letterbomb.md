@@ -1,4 +1,4 @@
-# LetterBomb
+# Donations
 
 LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
 
@@ -24,7 +24,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 1. Power on your console.
 
-2. Go to `Wii Settings`.
+2. Перейдите в `Wii Settings` (Параметры Wii).
 
 3. Take note in the top right corner of the letter next to the system version.
 
