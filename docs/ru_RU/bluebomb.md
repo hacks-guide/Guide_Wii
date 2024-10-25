@@ -12,7 +12,7 @@ outline: false
 
 :::details Технические детали (опционально)
 
-BlueBomb - это эксплойт, который использует уязвимости в библиотеках Bluetooth Wii и Wii mini. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
+BlueBomb - это эксплойт, который использует уязвимости в библиотеках Bluetooth Wii и Wii mini. Хоть это и единственный эксплойт который работает на Wii mini, BlueBomb так же может быть использован и для оригинальной Wii.
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
@@ -98,7 +98,7 @@ Make sure that the console is close to the computer running the exploit, ideally
     - If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
 
 11. Power on your console.
-    - **Не** подключайте любые контроллеры Wii (Wii Remote).
+    - **Do not** connect any Wii Remotes.
 
 12. Нажимайте кнопку синхронизации (Sync), пока терминал не отобразит строку `got connection handle`.
     - This could take numerous attempts.
@@ -191,23 +191,23 @@ Make sure that the console is close to the computer running the exploit, ideally
 #### Rasperry Pi Pico W
 
 1. Скачайте [последние скомпилированные библиотеки](https://github.com/GaryOderNichts/bluebomb_micro/releases) со страницы "Releases", и распакуйте их на ваш ПК.
-2. Plug in your Pico W to your PC while holding down the `BOOTSEL` button. Your Pico should now show up as a drive on your PC.
-3. Unzip the downloaded file and copy the file which matches your Wii or Wii mini to the drive. For example, if you have a European Wii running version 4.3, you would copy bluebomb_WII_SM4_3E.uf2, or if you have a European Wii Mini, you would copy bluebomb_MINI_SM_PAL.uf2, etc...
-4. The drive should disconnect and your Pico is ready. You may unplug the device from your PC.
+2. Подключите ваш Pico W к ПК, удерживая кнопку `BOOTSEL`. Теперь ваш Pico должен отображаться в качестве диска на вашем компьютере.
+3. Разархивируйте загруженный файл и скопируйте на диск файл, который соответствует вашей Wii или Wii mini. Например, если у вас европейская Wii с версией SM 4.3, вы должны скопировать `bluebomb_WII_SM4_3E.uf2`, или если у вас европейская Wii mini, вы должны скопировать `bluebomb_MINI_SM_PAL.uf2`, и так далее...
+4. Диск должен отключиться, и ваш Pico готов. Вы можете отключить устройство от вашего компьютера.
 
 #### ESP32
 
-1. Set up the latest [ESP IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html).
-2. Build the binary [from source](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#building-from-source).
-3. [Flash the binary](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#flashing) to your ESP32.
-4. Your device is now ready. You may unplug the device from your PC.
+1. Установите последнюю [ESP IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html).
+2. Соберите бинарник [из исходника](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#building-from-source).
+3. [Запишите бинарник](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#flashing) на ваш ESP32.
+4. Ваше устройство готово. Вы можете отключить устройство от вашего компьютера.
 
-### Performing the Exploit
+### Выполнение эксплойта
 
-1. Plug your flashed device back into your PC.
+1. Подключите устройство обратно к вашему ПК.
 2. Power on your console.
-   - **Не** подключайте любые контроллеры Wii (Wii Remote).
-3. Press the Sync button repeatedly until the bluebomb screen shows up.
+   - **Не** подключайте никакие контроллеры Wii (Wii Remote).
+3. Нажимайте кнопку синхронизации (Sync), пока не появится экран BlueBomb.
    - This could take numerous attempts.
 4. If the exploit was successful, your device will have loaded the HackMii Installer.
 
