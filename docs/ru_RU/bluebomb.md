@@ -100,7 +100,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 11. Power on your console.
     - **Не** подключайте любые контроллеры Wii (Wii Remote).
 
-12. Press the Sync button repeatedly until the terminal shows `got connection handle`.
+12. Нажимайте кнопку синхронизации (Sync), пока терминал не отобразит строку `got connection handle`.
     - This could take numerous attempts.
 
 13. If the exploit was successful, your device will have loaded the HackMii Installer.
@@ -108,13 +108,13 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 ::: info
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
+Если используется Wii: [Перейти к установке Homebrew Channel и BootMii](hbc)
 
 :::
 
 ::: info
 
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+Если используется Wii mini: [Перейти к установке Homebrew Channel](hbc-mini)
 
 :::
 
@@ -156,13 +156,13 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 ### Requirements
 
-- A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
+- Raspberry Pi Pico W или ESP32 с поддержкой BR/EDR (Classic).
 - A USB flash drive formatted as FAT32.
-- [The HackMii Installer](https://bootmii.org/download/)
+- [Установщик HackMii](https://bootmii.org/download/)
 
 ::: info
 
-A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
+Обычная Raspberry Pi Pico не будет работать. Вам нужна беспроводная модель. Кроме того, ESP32 с контроллером только BLE тоже не будет работать.
 
 :::
 
@@ -190,7 +190,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 #### Rasperry Pi Pico W
 
-1. Download [The latest Pre-Compiled Binaries](https://github.com/GaryOderNichts/bluebomb_micro/releases) from the releases page, and extract it to your PC.
+1. Скачайте [последние скомпилированные библиотеки](https://github.com/GaryOderNichts/bluebomb_micro/releases) со страницы "Releases", и распакуйте их на ваш ПК.
 2. Plug in your Pico W to your PC while holding down the `BOOTSEL` button. Your Pico should now show up as a drive on your PC.
 3. Unzip the downloaded file and copy the file which matches your Wii or Wii mini to the drive. For example, if you have a European Wii running version 4.3, you would copy bluebomb_WII_SM4_3E.uf2, or if you have a European Wii Mini, you would copy bluebomb_MINI_SM_PAL.uf2, etc...
 4. The drive should disconnect and your Pico is ready. You may unplug the device from your PC.
@@ -213,13 +213,13 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 ::: tip
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
+Если используется Wii: [Перейти к установке Homebrew Channel и BootMii](hbc)
 
 :::
 
 ::: tip
 
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+Если используется Wii mini: [Перейти к установке Homebrew Channel](hbc-mini)
 
 :::
 
