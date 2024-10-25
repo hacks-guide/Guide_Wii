@@ -17,23 +17,23 @@ YAWM ModMii Edition - это приложение, которое позволя
 
 ### Часть II - Установка файлов WAD
 
-1. Select the source device that has the WAD file(s) you would like to install.
+1. Выберите устройство, которое имеет WAD файл(ы) для установки.
 
    ![](/images/homebrew/yawmME/source_device.png)
 
-2. Navigate to the folder that has the WAD files.
+2. Перейдите в папку, в которой есть файлы WAD.
 
-   - If you have a folder named `wad`, it will be opened automatically.
+   - Если у вас есть папка с именем `wad`, она будет открыта автоматически.
 
    ![](/images/homebrew/yawmME/file_selection.png)
 
-3. Navigate to the WAD file you would like to install and press `A`.
+3. Перейдите к WAD файлу, который вы желаете установить и нажмите кнопку `A`.
 
-   - If you would like to install multiple WAD files at once, press `+` on each of them, then press `A`.
+   - Если вы хотите установить несколько WAD файлов сразу, нажмите кнопку `+` на каждом из них, затем нажмите кнопку `A`.
 
    ![](/images/homebrew/yawmME/install_wad.png)
 
-4. Press A again to install the WAD(s).
+4. Нажмите `A` снова, что бы установить файл(ы) WAD.
 
    ![](/images/homebrew/yawmME/installing_wad.png)
 
