@@ -17,11 +17,11 @@ You can always [install it later](hackmii).
 
 1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
 
-   - You will see a scam warning screen.
+   - Вы увидите экран предупреждения о мошенничестве.
 
    ![](/images/hackmii/scam.png)
 
-2. Wait 30 seconds for the text "Press 1 to continue" to appear, then press 1.
+2. Подождите 30 секунд, пока не появится текст "Press 1 to continue", затем нажмите 1.
 
 3. Select `Continue`.
 
