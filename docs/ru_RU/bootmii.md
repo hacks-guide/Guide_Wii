@@ -5,15 +5,15 @@ BootMii позволяет создавать и восстанавливать 
 
 ::: warning
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. Если у вас сейчас нет SD-карты, вы можете пропустить эту страницу, но НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ вернуться к этой странице позже для создания резервной копии.
+Вам нужна **SD-карта** для использования BootMii, но особенно для создания резервной копии NAND. Если у вас сейчас нет SD-карты, вы можете пропустить эту страницу, но НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ вернуться к этой странице позже для создания резервной копии.
 
 :::
 
-## Requirements
+## Требования
 
-- An SD card with at least 512MB of free space
+- SD-карта с минимум 512 МБ свободного места (рекомендуется 1ГБ или более)
 
-## Instructions
+## Инструкции
 
 ::: info
 
@@ -21,7 +21,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 :::
 
-1. Power on your console.
+1. Включите вашу консоль.
 
 2. Launch the Homebrew Channel, and launch the Load Priiloader app.
 
@@ -31,13 +31,13 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
    ::: warning
 
-   If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+   Если кнопка `Launch BootMii` не появляется в Homebrew Channel, [перезапустите установщик HackMii](hackmii) и установите BootMii.
 
    :::
 
    ::: warning
 
-   If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+   If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Скачайте [этот zip архив](/assets/files/bootmii_sd_files.zip) и распакуйте его в корень SD карты, а затем повторите попытку.
 
    :::
 
@@ -69,7 +69,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 8. После этого шага, BootMii проверит резервную копию на ошибки. В идеале, все блоки должны стать зелеными после процесса проверки.
 
-   - Если у вас есть заводские плохие блоки с "некорректными страницами (Uncorrectable page)", эти блоки могут не пройти проверку. As long as all non-bad blocks are successfully verified, this should be fine.
+   - Если у вас есть заводские плохие блоки с "некорректными страницами (Uncorrectable page)", эти блоки могут не пройти проверку. До тех пор, пока все исправные блоки успешно проверены, все должно быть в порядке.
 
    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -79,18 +79,18 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 ::: info
 
-Note: **restoring a NAND backup is usually a last resort**. Существуют более хорошие способы для восстановления консоли после окирпичивания.
+Примечание: **восстановление резервной копии NAND, как правило, является крайней мерой**. Обычно существуют способы лучше для восстановления вашей консоли после окирпичивания.
 
-Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
+Постарайтесь [определить степень окирпичивания](bricks) и отменить действие, которое его вызвало.
 
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover).
-**Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
+Чтобы восстановить резервную копию NAND с SD-карты, следуйте инструкциям для [RestoreMii](bootmiirecover).
+**Версии Wii Family Edition (Wii без портов GameCube) НЕ МОГУТ восстанавливать резервные копии NAND без аппаратных модификаций.**
 
 :::
 
 ::: info
 
-Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+Два файла будет созданы в корне вашей SD-карты: `nand.bin` и `keys.bin`. `nand.bin` — это резервная копия внутренней памяти консоли, а `keys.bin` — ключи вашей консоли.
 
 :::
 
