@@ -99,13 +99,13 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 Если вы смогли установить BootMii в качестве boot2, но не хотите загружать BootMii при каждом включении Wii, у вас есть возможность настроить автозагрузку в системное меню. Должно получиться так, что вы даже не заметите что BootMii установлен в boot2.
 
 1. Откройте `SD:/bootmii/bootmii.init` через текстовый редактор, например, блокнот.
-2. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
-3. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
+2. Замените `#AUTOBOOT=SYSMENU` на `AUTOBOOT=SYSMENU` путем удаления символа `#`.
+3. Затем замените `#BOOTDELAY=5` на `BOOTDELAY=1` путем удаления символа `#` и заменой цифры `5` на `1`.
 4. Сохраните изменения и выйдите.
 
 ::: info
 
-You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
+Вы также можете использовать [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) на Wii для изменения этих настроек.
 
 :::
 
