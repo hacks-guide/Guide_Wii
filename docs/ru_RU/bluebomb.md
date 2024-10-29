@@ -98,7 +98,7 @@ Make sure that the console is close to the computer running the exploit, ideally
     - If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
 
 11. Power on your console.
-    - **Do not** connect any Wii Remotes.
+    - **Не** подключайте никакие контроллеры Wii (Wii Remote).
 
 12. Нажимайте кнопку синхронизации (Sync), пока терминал не отобразит строку `got connection handle`.
     - This could take numerous attempts.
