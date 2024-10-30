@@ -28,13 +28,13 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 :::
 
-## Requirements
+## Требования
 
 - A Wii mini with the Homebrew Channel installed
 - A USB drive.
 - Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
-## Instructions
+## Инструкции
 
 ### Часть I - Загрузка
 
