@@ -16,7 +16,7 @@ Wilbrand Web is recommended for its ease of use.
 
 ## Wilbrand Web
 
-### Requirements
+### Требования
 
 - An SD card formatted to FAT32/MS-DOS
 - A Wii on version 3.0 or newer
@@ -27,7 +27,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 :::
 
-### Instructions
+### Инструкции
 
 1. Power on your console.
 
@@ -92,7 +92,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 ## Wilbrand CLI
 
-### Requirements
+### Требования
 
 - A PC running Windows, MacOS or Linux
 - An SD card formatted to FAT32/MS-DOS
@@ -106,7 +106,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 :::
 
-### Instructions
+### Инструкции
 
 1. Power on your console.
 
