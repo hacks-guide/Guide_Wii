@@ -71,7 +71,7 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ## Installing ModMii
 
-### Requirements
+### Требования
 
 - A Wii
 - A USB drive or SD Card
