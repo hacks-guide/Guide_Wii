@@ -14,11 +14,11 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 :::
 
-## Requirements
+## Требования
 
 - A Wii with an Internet connection
 
-## Instructions
+## Инструкции
 
 ### Section I - Connecting
 
