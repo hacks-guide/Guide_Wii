@@ -6,7 +6,7 @@ cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While 
 
 :::
 
-## Requirements
+## Требования
 
 ::: warning
 
@@ -22,7 +22,7 @@ If you have a Wii mini, follow [this guide](cios-mini) instead.
 - SD-карта или USB-накопитель
 - [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
-## Instructions
+## Инструкции
 
 ### Часть I - Загрузка
 
