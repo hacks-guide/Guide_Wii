@@ -4,7 +4,7 @@
 
 Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
 
-## Requirements
+## Требования
 
 - SD-карта или USB-накопитель
 - [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
@@ -16,7 +16,7 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
   - [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
 
-## Instructions
+## Инструкции
 
 ### Section I - Prep Work
 
