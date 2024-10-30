@@ -14,7 +14,7 @@ outline: false
 
 BlueBomb - это эксплойт, который использует уязвимости в библиотеках Bluetooth Wii и Wii mini. Хоть это и единственный эксплойт который работает на Wii mini, BlueBomb так же может быть использован и для оригинальной Wii.
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+Этот эксплоит также позволяет восстановить консоль после некоторых бриков, таких, как баннер брики и (некоторые) брики тем консоли.
 
 :::
 
@@ -32,34 +32,34 @@ This exploit also enables recovery from certain bricks, such as banner bricks an
 
 ::: info
 
-Если вы используете оригинальную ревизию Wii, вы, вероятно, можете использовать [другой эксплойт](get-started), так как существуют более простые способы запустить установщик HackMii. Exceptions however, exist in circumstances like brick recovery.
+Если вы используете оригинальную ревизию Wii, вы, вероятно, можете использовать [другой эксплойт](get-started), так как существуют более простые способы запустить установщик HackMii. Однако, существуют исключения в таких обстоятельствах как восстановление окирпиченной консоли.
 
 :::
 
 ::: info
 
-Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+Убедитесь, что консоль стоит рядом с компьютером на котором запущен эксплоит, в идеале расстояние должно быть меньше 1 метра.
 
 :::
 
-### Requirements
+### Требования
 
-- A Linux machine
-  - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
-  - If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
+- Компьютер с Linux
+  - Виртуальная машина может сработать, но её использование не рекомендуется из-за сложности с пробросом Bluetooth. По возможности, используйте LiveUSB, как описано ниже.
+  - Если у вас есть Raspberry Pi, вы можете использовать её вместо вашего устройства, так как на ней, скорее всего уже установлен Linux.
   - Windows Subsystem for Linux или Chromebook запущенный в режиме Linux **не будут** работать, так как они не имеют прямого доступа к адаптеру Bluetooth или портам USB.
   - Если у вас нет Linux, [Ubuntu](https://ubuntu.com/download/desktop) является самым простым вариантом, и он может быть запущен на компьютерах с Windows или Mac.
     - На 32-битных устройствах требуется использовать [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
-    - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
+    - Для 64-битных устройств рекомендуется использование LTS версии из-за её стабильности, но последний выпуск так же работает.
   - Вы можете [записать Live-пространство Ubuntu на USB накопитель](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) вместо установки на ваш компьютер.
-- A Bluetooth adapter.
-  - An internal Bluetooth adapter will work.
-  - If you do not have one, make sure to get one compatible with Linux.
-- A USB flash drive formatted as FAT32.
-  - This cannot be the same flash drive used for your Linux Machine.
+- Bluetooth-адаптер.
+  - Внутренний Bluetooth-адаптер будет работать.
+  - Если у вас его нет, убедитесь, что тот который вы будете использовать совместим с Linux.
+- USB-накопитель отформатированный в FAT32.
+  - Это не может быть один и тот же USB-накопитель, который используется для загрузки Linux.
 - [Установщик HackMii v1.2](https://bootmii.org/download/)
 
-### Instructions
+### Инструкции
 
 1. Скопируйте `boot.elf` из backmii_installer_v1.2 `.zip` в корень вашего USB-накопителя.
    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
@@ -126,7 +126,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 :::details Технические детали (опционально)
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+Этот эксплоит также позволяет восстановить консоль после некоторых бриков, таких, как баннер брики и (некоторые) брики тем консоли.
 
 :::
 
@@ -144,20 +144,20 @@ This exploit also enables recovery from certain bricks, such as banner bricks an
 
 ::: info
 
-Если вы используете оригинальную ревизию Wii, вы, вероятно, можете использовать [другой эксплойт](get-started), так как существуют более простые способы запустить установщик HackMii. Exceptions however, exist in circumstances like brick recovery.
+Если вы используете оригинальную ревизию Wii, вы, вероятно, можете использовать [другой эксплойт](get-started), так как существуют более простые способы запустить установщик HackMii. Однако, существуют исключения в таких обстоятельствах как восстановление окирпиченной консоли.
 
 :::
 
 ::: info
 
-Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+Убедитесь, что консоль стоит рядом с компьютером на котором запущен эксплоит, в идеале расстояние должно быть меньше 1 метра.
 
 :::
 
-### Requirements
+### Требования
 
 - Raspberry Pi Pico W или ESP32 с поддержкой BR/EDR (Classic).
-- A USB flash drive formatted as FAT32.
+- USB-накопитель отформатированный в FAT32.
 - [Установщик HackMii](https://bootmii.org/download/)
 
 ::: info
@@ -166,7 +166,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 :::
 
-### Instructions
+### Инструкции
 
 1. Скопируйте `boot.elf` из backmii_installer_v1.2 `.zip` в корень вашего USB-накопителя.
    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
