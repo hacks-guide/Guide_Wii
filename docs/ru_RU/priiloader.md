@@ -18,7 +18,7 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 ## Инструкции
 
-### Section I - Prep Work
+### Часть I - Подготовка
 
 1. Power off your console.
 2. Вставьте вашу SD-карту или USB-накопитель в ваш компьютер.
