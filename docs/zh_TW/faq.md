@@ -42,7 +42,7 @@ If you get error FORE000006, your Wii's clock is probably set incorrectly. See <
 
 ### How can I remove parental controls?
 
-The [mkey generator](https://mkey.eiphax.tech/) can generate the code required to remove parental controls.
+The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
 
 ### Bricks (a state where either some parts of your Wii software are not working, or your Wii is not working at all) are extremely rare unless you ignore/circumvent all safety checks, or do something risky or naive like installing an older version of the Wii Menu. Make sure you install <a href="bootmii">BootMii</a> and <a href="priiloader">Priiloader</a> to protect yourself from bricks!
 
