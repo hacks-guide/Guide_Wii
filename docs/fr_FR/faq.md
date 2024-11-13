@@ -42,7 +42,7 @@ Si vous obtenez l'erreur FORE000006, la date ou l'heure de la Wii est probableme
 
 ### Comment puis-je supprimer le contrôle parental ?
 
-The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls.
+The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
 
 ### Je pense que ma Wii est briquée, ou quelque chose ne va sérieusement pas, que dois-je faire ?
 
