@@ -55,7 +55,7 @@ Questa guida mira a fare le seguenti azioni, incluse le opzionali:
 - **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
 - In base a cosa intendi fare con il tuo Wii modificato, potresti rischiare di apportare delle modifiche alla memoria di sistema che potrebbero provocare un brick (rendendo la console inutilizzabile). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
 - Le differenze tra Wii e Wii mini sono abbastanza significative. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Procedi con cautela se pensi di volerne modificare uno!
-- Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).
+- Be extremely careful when modifying a [Korean Wii](bricks#koreankii-error-003-brick).
 
 ## Pronto?
 
