@@ -55,7 +55,7 @@ Bu rehber şunları yapmayı hedefler:
 - **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
 - Modifiye edilmiş Wii'niz ile ne yapmak istediğinize bağlı olarak, sisteme brickleme (konsolu kullanılamayacak bir duruma getirmek) riski olan bazı modifikasyonlar yapmak zorunda kalabilirsiniz. As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
 - Wii ve Wii mini arasındaki farklar kayda değerdir. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Eğer bir Wii mini'yi modifiye edecekseniz dikkatli olun!
-- Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).
+- Be extremely careful when modifying a [Korean Wii](bricks#koreankii-error-003-brick).
 
 ## Hazır mısınız?
 
