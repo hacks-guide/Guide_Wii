@@ -42,7 +42,7 @@ If you get error FORE000006, your Wii's clock is probably set incorrectly. See <
 
 ### 如何移除亲子管理功能？
 
-The [mkey generator](https://mkey.eiphax.tech/) can generate the code required to remove parental controls.
+The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
 
 ### I think my Wii is bricked, or something is seriously wrong, what do I do?
 
