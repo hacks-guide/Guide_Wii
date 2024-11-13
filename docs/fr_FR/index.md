@@ -55,7 +55,7 @@ Ce guide vise à faire ce qui suit, y compris les sections facultatives :
 - **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
 - Selon ce que vous avez l'intention de faire avec votre Wii moddée, vous devrez peut-être apporter quelques modifications à la mémoire du système qui ont un risque de briquage (rendre la console inopérante). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
 - Les différences entre la Wii et la Wii mini sont assez significatives. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Faites donc preuve de prudence si vous prévoyez d'en modder une!
-- Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).
+- Be extremely careful when modifying a [Korean Wii](bricks#koreankii-error-003-brick).
 
 ## Prêt(e) ?
 
