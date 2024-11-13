@@ -42,7 +42,7 @@ Ha a FORE000006 hibaüzenetet kapod, a Wii órája valószínűleg rosszul van b
 
 ### Hogyan távolíthatom el a szülői felügyeletet?
 
-The [mkey generator](https://mkey.eiphax.tech/) can generate the code required to remove parental controls.
+The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
 
 ### Úgy gondolom, hogy a Wii-om brickelt, vagy valami komoly baja van, mit tegyek?
 
