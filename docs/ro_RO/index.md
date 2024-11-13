@@ -55,7 +55,7 @@ Acest ghid își propune să facă următoarele lucruri, inclusiv secțiuni opț
 - **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
 - În funcție de ce intenționezi să faci cu sistemul tău Wii modificat, s-ar putea să trebuiască să faci niște modificări în memoria internă care au riscul de a cauza un "brick" (lăsând întreaga consola nefuncționala). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
 - Diferențele dintre Wii și Wii mini sunt destul de mari. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Ai multă atenție dacă plănuiești să modifici unul!
-- Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).
+- Be extremely careful when modifying a [Korean Wii](bricks#koreankii-error-003-brick).
 
 ## Pregătit?
 
