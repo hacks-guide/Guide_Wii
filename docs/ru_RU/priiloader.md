@@ -20,7 +20,7 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 ### Часть I - Подготовка
 
-1. Power off your console.
+1. Выключите вашу консоль.
 2. Вставьте вашу SD-карту или USB-накопитель в ваш компьютер.
 3. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 4. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
@@ -29,7 +29,7 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 ### Section II - Installing Priiloader
 
-1. Power on your console.
+1. Включите вашу консоль.
 
 2. Launch the Homebrew Channel, and launch the Load Priiloader app.
 
