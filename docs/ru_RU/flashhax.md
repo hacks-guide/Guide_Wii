@@ -39,16 +39,16 @@ FlashHax является эксплоитом для Wii, который зап
 
    ![](/images/exploits/flashhax/wait-for-download.png)
 
-3. If the exploit was successful, your device will have loaded the HackMii Installer.
+3. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
    - Взлом может получиться не с первого раза.
    - Если установщик HackMii не загружается и вместо этого зависает (вы не можете двигать курсором), перезагрузите вашу Wii, запустите Internet Channel, а затем повторите шаг 1.
 
-If you still can't get it to load, try deleting your cookies or save data for the Internet Channel.
+Если эксплоит все еще не загружается, попробуйте удалить файлы cookie или данные сохранения для Internet Channel.
 
-If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
+Если после нескольких попыток FlashHax все еще не работает, попробуйте использовать [другой эксплоит](get-started).
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Перейти к установке Homebrew Channel и BootMii](hbc)
 
 :::
