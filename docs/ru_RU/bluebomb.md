@@ -62,30 +62,30 @@ BlueBomb - это эксплойт, который использует уязв
 ### Инструкции
 
 1. Скопируйте `boot.elf` из backmii_installer_v1.2 `.zip` в корень вашего USB-накопителя.
-   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-   - (bootmini.elf **не** будет работать даже на Wii mini, его назначение совершенно другое и не связано с этим руководством.  Use boot.elf in all cases).
+   - (Если вы пытаетесь восстановить консоль из окирпиченного состояния, вы также должны скопировать homebrew-приложения которые вы хотите использовать в /apps/)
+   - (bootmini.elf **не** будет работать даже на Wii mini, его назначение совершенно другое и не связано с этим руководством.  Используйте boot.elf во всех случаях).
 
-2. Reinsert your flash drive into your console.
-   - For a Wii mini, the USB port is on the back.
-   - For a normal Wii, use the bottom port (or the right port if it's upright).
+2. Вставьте флэш-накопитель обратно в вашу консоль.
+   - У Wii mini USB-порт находится на задней стороне.
+   - Для обычной Wii, используйте нижний порт (или правый порт, если она стоит в вертикальном состоянии).
 
-3. Power on your console.
+3. Включите вашу консоль.
 
 4. Перейдите в `Wii Settings` (Параметры Wii).
 
-5. Take note in the top right corner of the letter next to the system version.
+5. Обратите внимание на букву рядом с системной версией в правом верхнем углу.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Power off your console.
+6. Выключите вашу консоль.
 
-7. Start your Linux distro, and ensure you are connected to the internet.
+7. Запустите ваш дистрибутив Linux и убедитесь, что вы подключены к Интернету.
 
-8. Open the Terminal
+8. Откройте Терминал
 
-9. Run the following commands:
+9. Выполните следующие команды:
 
    ```bash
    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -97,7 +97,7 @@ BlueBomb - это эксплойт, который использует уязв
     - If you have selected a Wii mini you will be asked to provide your region. Это можно определить по последней букве версии Wii Menu (`U` для **США** и `E` для **европейских** (PAL) моделей).
     - If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
 
-11. Power on your console.
+11. Включите вашу консоль.
     - **Не** подключайте никакие контроллеры Wii (Wii Remote).
 
 12. Нажимайте кнопку синхронизации (Sync), пока терминал не отобразит строку `got connection handle`.
@@ -169,24 +169,24 @@ BlueBomb - это эксплойт, который использует уязв
 ### Инструкции
 
 1. Скопируйте `boot.elf` из backmii_installer_v1.2 `.zip` в корень вашего USB-накопителя.
-   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-   - (bootmini.elf **не** будет работать даже на Wii mini, его назначение совершенно другое и не связано с этим руководством.  Use boot.elf in all cases).
+   - (Если вы пытаетесь восстановить консоль из окирпиченного состояния, вы также должны скопировать homebrew-приложения которые вы хотите использовать в /apps/)
+   - (bootmini.elf **не** будет работать даже на Wii mini, его назначение совершенно другое и не связано с этим руководством.  Используйте boot.elf во всех случаях).
 
-2. Reinsert your flash drive into your console.
-   - For a Wii mini, the USB port is on the back.
-   - For a normal Wii, use the bottom port (or the right port if it's upright).
+2. Вставьте флэш-накопитель обратно в вашу консоль.
+   - У Wii mini USB-порт находится на задней стороне.
+   - Для обычной Wii, используйте нижний порт (или правый порт, если она стоит в вертикальном состоянии).
 
-3. Power on your console.
+3. Включите вашу консоль.
 
 4. Перейдите в `Wii Settings` (Параметры Wii).
 
-5. Take note in the top right corner of the letter next to the system version.
+5. Обратите внимание на букву рядом с системной версией в правом верхнем углу.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Power off your console.
+6. Выключите вашу консоль.
 
 #### Rasperry Pi Pico W
 
@@ -205,7 +205,7 @@ BlueBomb - это эксплойт, который использует уязв
 ### Выполнение эксплойта
 
 1. Подключите устройство обратно к вашему ПК.
-2. Power on your console.
+2. Включите вашу консоль.
    - **Не** подключайте никакие контроллеры Wii (Wii Remote).
 3. Нажимайте кнопку синхронизации (Sync), пока не появится экран BlueBomb.
    - This could take numerous attempts.
