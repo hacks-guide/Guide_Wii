@@ -90,7 +90,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
 4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 
-5. If the exploit was successful, your device will have loaded the HackMii Installer.
+5. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
 
    ![](/images/hackmii/scam.png)
 
@@ -98,6 +98,6 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Перейти к установке Homebrew Channel и BootMii](hbc)
 
 :::
