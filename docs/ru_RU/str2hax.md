@@ -24,7 +24,7 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 This exploit requires you to set your DNS in order to connect to a server that contains the exploit.
 
-1. Power on your console.
+1. Включите вашу консоль.
 
 2. Go to `Wii Options`.
 
