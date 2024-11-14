@@ -22,13 +22,13 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 ## Инструкции
 
-1. Power on your console.
+1. Включите вашу консоль.
 
 2. Перейдите в `Wii Settings` (Параметры Wii).
 
-3. Take note in the top right corner of the letter next to the system version.
+3. Обратите внимание на букву рядом с системной версией в правом верхнем углу.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
    - Also, ensure that you are on System Menu version 4.3.
 
    ![](/images/wii/SystemMenuVersion.png)
