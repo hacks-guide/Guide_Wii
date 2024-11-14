@@ -11,7 +11,7 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 ### Preparation
 
-1. Power off your console.
+1. Выключите вашу консоль.
 
 2. Вставьте вашу SD-карту или USB-накопитель в ваш компьютер.
 
@@ -19,7 +19,7 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 4. Вставьте вашу SD-карту или USB-накопитель в вашу консоль.
 
-5. Power on your console.
+5. Включите вашу консоль.
 
 6. Launch the Homebrew Channel, and launch the Load Priiloader app.
 
