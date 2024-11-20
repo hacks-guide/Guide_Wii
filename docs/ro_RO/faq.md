@@ -42,7 +42,7 @@ Dacă primești eroarea FORE000006, ceasul consolei tale Wii este probabil setat
 
 ### Cum pot elimina controlul parental?
 
-The [mkey generator](https://mkey.eiphax.tech/) can generate the code required to remove parental controls.
+The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
 
 ### Cred că sistemul meu Wii are un brick sau ceva este foarte în neregulă, ce ar trebui să fac?
 

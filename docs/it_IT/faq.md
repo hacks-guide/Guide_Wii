@@ -42,7 +42,7 @@ Se ottieni l'errore FORE000006, il tuo orologio del Wii è probabilmente imposta
 
 ### Come si rimuove il Filtro Famiglia?
 
-The [mkey generator](https://mkey.eiphax.tech/) can generate the code required to remove parental controls.
+The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
 
 ### Penso che il mio Wii sia brickato, o che abbia qualcosa di davvero sbagliato, cosa faccio?
 

@@ -28,7 +28,7 @@ A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszerc
 - Egy Windows számítógép.
 - [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
 
-## Útmutató
+## Lépések
 
 1. Install WiiGSC, then right click on it and choose **Run as administrator**. Ha ezt nem teszed meg, a WiiGSC hibát fog dobni, amikor megnyitod.
 
@@ -54,6 +54,6 @@ Ha hibaüzenetet kapsz "The system files are corrupted", ne ess pánikba, ha tel
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
 
 :::

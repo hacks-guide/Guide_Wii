@@ -21,7 +21,7 @@ Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32 formá
   - Kattints a `Download Base Aroma`-ra.
 - A [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller) legutolsó kiadása.
 
-## Útmutató
+## Lépések
 
 ### I. rész - SD kártya előkészítés
 

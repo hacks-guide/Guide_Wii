@@ -10,13 +10,13 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ## Iniciar desde el Canal Homebrew
 
-### Requisitos
+### Requirements
 
 - El Canal Homebrew
 - Una tarjeta SD o unidad USB formateada como FAT32
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### Instrucciones
+### Instructions
 
 1. Inserta la tarjeta SD o unidad USB en tu PC.
 2. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
@@ -32,7 +32,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ## Iniciar desde Priiloader
 
-### Requisitos
+### Requirements
 
 - Una Wii con Priiloader (o Preloader) instalado
 - Una tarjeta SD o unidad USB formateada como FAT32
@@ -50,7 +50,7 @@ Preloader and older versions of Priiloader do not seem to support SDHC (>2GB) ca
 
 :::
 
-### Instrucciones
+### Instructions
 
 1. Inserta la tarjeta SD o unidad USB en tu PC.
 2. Copy the `boot.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card or USB drive.

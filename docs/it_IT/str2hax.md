@@ -14,17 +14,17 @@ Se hai installato una mod come CTGP Revolution o Project+, str2hax potrebbe cari
 
 :::
 
-## Requisiti
+## Requirements
 
 - Una console Wii con connessione a Internet
 
-## Istruzioni
+## Instructions
 
 ### Sezione I - Connessione
 
 Questo exploit richiede di reimpostare il tuo DNS in modo da connettersi a un server che contiene i dati dell'exploit.
 
-1. Accendi la console.
+1. Power on your console.
 
 2. Go to `Wii Options`.
 
@@ -90,7 +90,7 @@ Questo exploit richiede di reimpostare il tuo DNS in modo da connettersi a un se
 
 4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 
-5. Se l'exploit ha avuto successo, il tuo Wii avrà avviato l'HackMii Installer.
+5. If the exploit was successful, your device will have loaded the HackMii Installer.
 
    ![](/images/hackmii/scam.png)
 

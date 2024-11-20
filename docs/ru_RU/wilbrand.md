@@ -31,11 +31,11 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 1. Включите вашу консоль.
 
-2. Go to `Wii Settings`.
+2. Перейдите в `Wii Settings` (Параметры Wii).
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения последующих инструкций.
+   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
 
    ![](/images/wii/SystemMenuVersion.png)
 
@@ -82,7 +82,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Перейти к установке Homebrew Channel и BootMii](hbc)
 
 :::
 
@@ -98,7 +98,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 - An SD card formatted to FAT32/MS-DOS
 - A Wii on version 3.0 or newer
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
-- [HackMii Installer v1.2](https://bootmii.org/download/)
+- [Установщик HackMii v1.2](https://bootmii.org/download/)
 
 ::: warning
 
@@ -110,11 +110,11 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 1. Включите вашу консоль.
 
-2. Go to `Wii Settings`.
+2. Перейдите в `Wii Settings` (Параметры Wii).
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения последующих инструкций.
+   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
 
    ![](/images/wii/SystemMenuVersion.png)
 
@@ -170,7 +170,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Перейти к установке Homebrew Channel и BootMii](hbc)
 
 :::
 

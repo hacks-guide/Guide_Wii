@@ -66,14 +66,14 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Manager
 
-### Gereksinimler
+### Requirements
 
 - A PC running Windows
 - A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
-### Talimatlar
+### Instructions
 
 #### Section I - Installation
 
@@ -102,7 +102,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Fusion
 
-### Gereksinimler
+### Requirements
 
 - A PC running MacOS or Linux
 - A USB drive or SD card
@@ -110,7 +110,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 - [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
-### Talimatlar
+### Instructions
 
 #### Section I - Installation
 
@@ -156,6 +156,6 @@ cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Site haritasına geri dönmek için tıklayın.](site-navigation)
 
 :::

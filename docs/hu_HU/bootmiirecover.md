@@ -46,7 +46,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 - Vagy a konzolba épített POWER- (következő menüpont) és RESET (kiválasztás)-gombokat, vagy egy 1. csatlakozóba dugott GameCube-vezérlőt kell használnod! Egy GameCube-vezérlőn a jobb- és bal nyílgombokkal lépkedhetsz a menüpontok között és az A-gombbal erősítheted meg a választásod.
 
-## Útmutató
+## Lépések
 
 1. Indítsd el a Homebrew Channelt!
 
@@ -92,6 +92,6 @@ If you were restoring a NAND backup in order to repair a brick and this did not 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
 
 :::

@@ -22,7 +22,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 
 :::
 
-## 必要なもの
+## Requirements
 
 - A Wii U with the Homebrew Channel installed on the vWii
 - An SD card
@@ -34,7 +34,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 :::
 
-## 実行方法
+## Instructions
 
 ### Section I - Installing
 

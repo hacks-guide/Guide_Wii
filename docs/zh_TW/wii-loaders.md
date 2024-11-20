@@ -109,7 +109,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 - There are other resources for Wii Menu themes, but they might be in csm form (ready to install on the Wii). If the csm doesn't match the version and region of your Wii Menu, try to convert it to mym with ThemeMii Mod, and then convert it back to csm with the instructions here using the version and region of your Wii Menu.
 - The latest version of [cIOS](cios)
-- [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
+- [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
 ### Installation
 

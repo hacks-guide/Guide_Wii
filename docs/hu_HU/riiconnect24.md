@@ -5,7 +5,7 @@ head:
       content: 5; URL=https://www.wiilink24.com/guide/install/
 ---
 
-# Redirecting
+# Átirányítás
 
 You are being redirected to the WiiLink24.
 

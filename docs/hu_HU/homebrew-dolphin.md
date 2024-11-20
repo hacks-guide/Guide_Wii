@@ -8,7 +8,7 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
 - [Dolphin Emulator](https://dolphin-emu.org/download/) version `5.0-4588` or later
 - The latest version of [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
 
-## Útmutató
+## Lépések
 
 1. If you have not already done so, install the Wii Menu on Dolphin Emulator by going to `Tools > Perform System Update`.
 

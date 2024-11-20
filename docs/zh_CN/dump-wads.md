@@ -55,6 +55,6 @@ The WAD has now been dumped, and should appear at the specified directory on you
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[点击此处返回站点索引。](site-navigation)
 
 :::

@@ -2,7 +2,7 @@
 
 O Homebrew Channel é onde você irá abrir aplicativos homebrew.
 
-## Instruções
+## Instructions
 
 ::: warning
 

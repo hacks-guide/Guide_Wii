@@ -26,7 +26,7 @@ NON ripristinare un backup della NAND non verificato o che non proviene dal tuo 
 
 :::
 
-## Requisiti
+## Requirements
 
 - An earlier NAND Backup made by [BootMii](bootmii)
 
@@ -46,7 +46,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 - Devi usare i tasti POWER (destra) e RESET (select) sulla tua console, o su un controller GameCube collegato alla porta 1 per navigare in BootMii. Per navigare con un controller GameCube, clicca sinistra/destra sul +Control Pad sul controller GameCube. Per selezionare, premi A.
 
-## Istruzioni
+## Instructions
 
 1. Avvia l'Homebrew Channel.
 

@@ -5,13 +5,13 @@ BootMii позволяет создавать и восстанавливать 
 
 ::: warning
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. Если у вас сейчас нет SD-карты, вы можете пропустить эту страницу, но НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ вернуться к этой странице позже для создания резервной копии.
+Вам нужна **SD-карта** для использования BootMii, но особенно для создания резервной копии NAND. Если у вас сейчас нет SD-карты, вы можете пропустить эту страницу, но НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ вернуться к этой странице позже для создания резервной копии.
 
 :::
 
 ## Требования
 
-- An SD card with at least 512MB of free space
+- SD-карта с минимум 512 МБ свободного места (рекомендуется 1ГБ или более)
 
 ## Инструкции
 
@@ -31,13 +31,13 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
    ::: warning
 
-   If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+   Если кнопка `Launch BootMii` не появляется в Homebrew Channel, [перезапустите установщик HackMii](hackmii) и установите BootMii.
 
    :::
 
    ::: warning
 
-   If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+   If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Скачайте [этот zip архив](/assets/files/bootmii_sd_files.zip) и распакуйте его в корень SD карты, а затем повторите попытку.
 
    :::
 
@@ -69,7 +69,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 8. После этого шага, BootMii проверит резервную копию на ошибки. В идеале, все блоки должны стать зелеными после процесса проверки.
 
-   - Если у вас есть заводские плохие блоки с "некорректными страницами (Uncorrectable page)", эти блоки могут не пройти проверку. As long as all non-bad blocks are successfully verified, this should be fine.
+   - Если у вас есть заводские плохие блоки с "некорректными страницами (Uncorrectable page)", эти блоки могут не пройти проверку. До тех пор, пока все исправные блоки успешно проверены, все должно быть в порядке.
 
    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -79,50 +79,50 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 ::: info
 
-Note: **restoring a NAND backup is usually a last resort**. Существуют более хорошие способы для восстановления консоли после окирпичивания.
+Примечание: **восстановление резервной копии NAND, как правило, является крайней мерой**. Обычно существуют способы лучше для восстановления вашей консоли после окирпичивания.
 
-Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
+Постарайтесь [определить степень окирпичивания](bricks) и отменить действие, которое его вызвало.
 
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover).
-**Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
+Чтобы восстановить резервную копию NAND с SD-карты, следуйте инструкциям для [RestoreMii](bootmiirecover).
+**Версии Wii Family Edition (Wii без портов GameCube) НЕ МОГУТ восстанавливать резервные копии NAND без аппаратных модификаций.**
 
 :::
 
 ::: info
 
-Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+Два файла будет созданы в корне вашей SD-карты: `nand.bin` и `keys.bin`. `nand.bin` — это резервная копия внутренней памяти консоли, а `keys.bin` — ключи вашей консоли.
 
 :::
 
 ## Автозагрузка
 
-If you were able to install BootMii as boot2, but don't want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. Должно получиться так, что вы даже не заметите что BootMii установлен в boot2.
+Если вы смогли установить BootMii в качестве boot2, но не хотите загружать BootMii при каждом включении Wii, у вас есть возможность настроить автозагрузку в системное меню. Должно получиться так, что вы даже не заметите что BootMii установлен в boot2.
 
-1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
-2. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
-3. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
+1. Откройте `SD:/bootmii/bootmii.init` через текстовый редактор, например, блокнот.
+2. Замените `#AUTOBOOT=SYSMENU` на `AUTOBOOT=SYSMENU` путем удаления символа `#`.
+3. Затем замените `#BOOTDELAY=5` на `BOOTDELAY=1` путем удаления символа `#` и заменой цифры `5` на `1`.
 4. Сохраните изменения и выйдите.
 
 ::: info
 
-You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
+Вы также можете использовать [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) на Wii для изменения этих настроек.
 
 :::
 
-## Uploading NAND Backup to Dolphin Emulator
+## Загрузка резервной копии NAND в эмулятор Dolphin
 
 Ваша резервная копия NAND может быть использована в эмуляторе Dolphin.
 
-1. Get the latest beta or development release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
-2. Open Dolphin Emulator.
-3. Click on the `Tools` tab, scroll down to `Manage NAND`, then select `Import BootMii NAND backup...`.
-4. Locate the `nand.bin` found on the root of your SD card and select Open.
-5. If it asks for a `keys.bin`, locate it on the root of your SD and select Open.
+1. Скачайте последний бета или dev-релиз эмулятора Dolphin с [веб-сайта Dolphin](https://dolphin-emu.org/) и установите его на ваше устройство.
+2. Откройте эмулятор Dolphin.
+3. Нажмите на вкладку `Tools`, прокрутите вниз до `Manage NAND`, затем выберите `Import BootMii NAND backup...`.
+4. Найдите `nand.bin` в корне вашей SD-карты и нажмите Open.
+5. Если эмулятор требует файл `keys.bin`, найдите его в корне вашей SD-карты и нажмите Open.
 
 ::: tip
 
-[Continue to Priiloader Installation](priiloader)
+[Перейти к установке Priiloader](priiloader)
 
-Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. Он особенно важен для пользователей BootMii в IOS.
+Priiloader добавляет второй уровень защиты от окирпичивания. Priiloader настоятельно рекомендуется к установке даже если BootMii установлен в boot2. Он особенно важен для пользователей BootMii в IOS.
 
 :::

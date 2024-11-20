@@ -20,7 +20,7 @@ Non c'è modo di ripristinare il backup della NAND con questo metodo senza un'ha
 
 :::
 
-## Requisiti
+## Requirements
 
 - Un Wii
 - Un dispositivo USB
@@ -28,7 +28,7 @@ Non c'è modo di ripristinare il backup della NAND con questo metodo senza un'ha
 - [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
 - [Xyzzy Mod](https://oscwii.org/library/app/xyzzy-mod)
 
-## Istruzioni
+## Instructions
 
 ### Sezione I - Dumping e Patching di IOS 36
 

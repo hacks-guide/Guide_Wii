@@ -14,21 +14,21 @@ NU folosi niciun exemplu de adrese MAC afișate în acest ghid, deoarece acestea
 
 :::
 
-## Instrumente necesare
+## Requirements
 
 - Un card SD formatat ca FAT32 care este 32GB sau mai puțin
 - Un Wii cu System Menu versiunea 4.3
 - Un calculator Windows/MacOS/Linux cu conexiune la Internet
 
-## Instrucțiuni
+## Instructions
 
-1. Pornește consola.
+1. Power on your console.
 
 2. Go to `Wii Settings`.
 
-3. Notează litera care este notată după versiunea sistemului.
+3. Take note in the top right corner of the letter next to the system version.
 
-   - Acea literă corespunde cu regiunea consolei, pe care trebuie să-l știi pentru pașii corespunzători.
+   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
    - Asigură-te că ești pe System Menu versiunea 4.3.
 
    ![](/images/wii/SystemMenuVersion.png)
@@ -67,7 +67,7 @@ NU folosi niciun exemplu de adrese MAC afișate în acest ghid, deoarece acestea
     - Dacă sistemul Wii îngheață după ce apeși pe scrisoare, cel mai probabil ai ales regiunea greșită a meniului de sistem pentru LetterBomb. Întoarce-te la Pasul 2 și verifică dacă ai ales regiunea corectă.
     - Dacă totul este corect și consola tot îngheață, continuă să încerci până funcționează.
 
-16. Dacă exploit-ul a funcționat, dispozitivul va intra în HackMii Installer.
+16. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 

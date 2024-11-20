@@ -2,14 +2,14 @@
 
 Questa guida ti mostrerà come preservare file wad dalla Memoria di Sistema della console Wii.
 
-## Requisiti
+## Requirements
 
 - Una scheda SD o Dispositivo USB
 - [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-## Istruzioni
+## Instructions
 
-1. Spegni la console.
+1. Power off your console.
 
 2. Inserisci la scheda SD o dispositivo USB nel tuo computer.
 
@@ -17,7 +17,7 @@ Questa guida ti mostrerà come preservare file wad dalla Memoria di Sistema dell
 
 4. Reinserisci la tua scheda SD o dispositivo USB nella tua console.
 
-5. Accendi la console.
+5. Power on your console.
 
 6. Avvia l'Homebrew Channel.
 

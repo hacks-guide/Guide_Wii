@@ -13,48 +13,48 @@
 
 2. Вставьте вашу SD-карту или USB-накопитель в ваш компьютер.
 
-3. Copy the `apps` folder from the Yet Another BlueDump MOD `.zip` to the root of your SD card or USB drive.
+3. Скопируйте папку `apps` из Yet Another BlueDump MOD `.zip` в корень вашей SD карты или USB накопителя.
 
 4. Вставьте вашу SD-карту или USB-накопитель в вашу консоль.
 
 5. Включите вашу консоль.
 
-6. Launch the Homebrew Channel, and launch the Load Priiloader app.
+6. Запустите Homebrew Channel.
 
-7. Запустите Yet Another BlueDump MOD из списка homebrew-приложений.
+7. Запустите Yet Another BlueDump MOD из списка homebrew приложений.
 
-8. Press the A Button.
+8. Нажмите кнопку A.
 
    ![](/images/homebrew/DumpWADS/1.png)
 
-9. Select `Installed Channel Titles`.
+9. Выберите `Installed Channel Titles`.
 
    ![](/images/homebrew/DumpWADS/2.png)
 
-10. Find the content you want to dump and press the 1 Button.
+10. Найдите содержимое, которое вы хотите задампить и нажмите кнопку 1.
 
     ![](/images/homebrew/DumpWADS/3.png)
 
-11. Select `Backup to WAD`.
+11. Нажмите `Backup to WAD`.
 
     ![](/images/homebrew/DumpWADS/4.png)
 
-12. At the prompt to `Fakesign the ticket`, select `Yes`.
+12. Выберите `Yes` рядом с вопросом `Fakesign the ticket`.
 
-13. At the prompt to `Fakesign the TMD`, select `No`.
+13. Выбертие `No` рядом с вопросом `Fakesign the TMD`.
 
-14. At the prompt to `Change the output WAD region`, select `No`.
+14. Выберите `No` рядом с вопросом `Change the output WAD region`.
 
     ![](/images/homebrew/DumpWADS/5.png)
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-You have now dumped that WAD. It should appear on your SD card.
+WAD был дампнут и должен появиться в указанном каталоге на SD карте или USB накопителе.
 
 ![](/images/homebrew/DumpWADS/7.png)
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
 
 :::

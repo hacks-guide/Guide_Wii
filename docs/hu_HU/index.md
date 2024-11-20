@@ -55,7 +55,7 @@ Ez az útmutató a következőkre törekszik, beleértve a választható szakasz
 - **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
 - Attól függően, hogy mit szándékozol csinálni a módosított Wii-vel, előfordulhat, hogy a rendszermemóriában olyan módosításokat kell végrehajtanod, amelyek a brickelés (a konzol működésképtelenné válása) kockázatával járnak. As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
 - A Wii és a Wii mini közötti különbségek igen jelentősek. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Légy óvatos, ha tervezed, hogy módosítod az egyiket!
-- Be extremely careful when modifying a [Korean Wii](bricks#korean-kiierror-003-brick).
+- Be extremely careful when modifying a [Korean Wii](bricks#koreankii-error-003-brick).
 
 ## Kész?
 

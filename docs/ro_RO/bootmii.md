@@ -9,11 +9,11 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
 :::
 
-## Instrumente necesare
+## Requirements
 
 - Un card SD cu cel puțin 512MB de spațiu liber (1GB sau mau mult este recomandat)
 
-## Instrucțiuni
+## Instructions
 
 ::: info
 
@@ -21,7 +21,7 @@ Dacă ai BootMii instalat ca boot2, va trebui să repornești consola pentru a r
 
 :::
 
-1. Pornește consola.
+1. Power on your console.
 
 2. Launch the Priiloader installer.
 

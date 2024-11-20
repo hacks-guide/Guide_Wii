@@ -13,7 +13,7 @@ You can always [install it later](hackmii).
 
 :::
 
-## Instrucțiuni
+## Instructions
 
 1. Consola ta ar trebui să fie pornită și să afișeze Instalatorul HackMii din partea trecută a ghidului.
 

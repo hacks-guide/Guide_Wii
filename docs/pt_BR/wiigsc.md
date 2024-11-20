@@ -20,7 +20,7 @@ The Wii Menu is limited to 48 channels, not including existing system channels.
 
 :::
 
-## Requisitos
+## Requirements
 
 - Um Wii
 - An SD or USB drive
@@ -28,7 +28,7 @@ The Wii Menu is limited to 48 channels, not including existing system channels.
 - Um computador Windows.
 - [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
 
-## Instruções
+## Instructions
 
 1. Install WiiGSC, then right click on it and choose **Run as administrator**. If you do not do this, WiiGSC will throw an error when you open it.
 

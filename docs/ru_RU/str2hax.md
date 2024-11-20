@@ -16,7 +16,7 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 ## Требования
 
-- A Wii with an Internet connection
+- Wii с подключением к интернету
 
 ## Инструкции
 
@@ -30,7 +30,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
    ![](/images/riiconnect24/Internet_1.png)
 
-3. Go to `Wii Settings`.
+3. Перейдите в `Wii Settings` (Параметры Wii).
 
    ![](/images/riiconnect24/Internet_2.png)
 
@@ -98,6 +98,6 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Перейти к установке Homebrew Channel и BootMii](hbc)
 
 :::

@@ -156,6 +156,6 @@ cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
 
 :::

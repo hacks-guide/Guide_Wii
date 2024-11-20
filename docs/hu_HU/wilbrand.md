@@ -27,15 +27,15 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 :::
 
-### Útmutató
+### Lépések
 
-1. Kapcsold be a konzolt!
+1. Power on your console.
 
-2. Go to `Wii Settings`.
+2. Menj a `Wii Settings`-hez.
 
 3. Jegyezd fel a betüt a system version mellett a jobb felső sarkában a képernyőnek.
 
-   - Ez a betű jelzi a rendszermenü régióját, amire később szükséged lesz.
+   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
    ![](/images/wii/SystemMenuVersion.png)
 
@@ -76,13 +76,13 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
     - Bizonyos esetekben szükséges lehet a holnapi vagy a tegnapi levelek ellenőrzése is a levél megtalálásához.
     - If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. Ha hibák vannak itt, lehet, hogy probléma van at SD kártya formátumával vagy a Wii SD kártya olvasójával.
 
-17. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
+17. If the exploit was successful, your device will have loaded the HackMii Installer.
     - Ha a Wii egy fekete képernyőn ragad, kapcsold ki a PWER gomb nyomva tartásával, majd próbáld újra.
     - Ha visszakerültél a Wii Menu-be a levél megnyitását követően. biztosítsd, hogy az írásvédelem az SD kártyádon kikapcsolt pozícióban van.
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 
 :::
 
@@ -106,15 +106,15 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 :::
 
-### Útmutató
+### Lépések
 
-1. Kapcsold be a konzolt!
+1. Power on your console.
 
-2. Go to `Wii Settings`.
+2. Menj a `Wii Settings`-hez.
 
 3. Jegyezd fel a betüt a system version mellett a jobb felső sarkában a képernyőnek.
 
-   - Ez a betű jelzi a rendszermenü régióját, amire később szükséged lesz.
+   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
    ![](/images/wii/SystemMenuVersion.png)
 
@@ -164,13 +164,13 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-16. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
+16. If the exploit was successful, your device will have loaded the HackMii Installer.
     - Ha a Wii egy fekete képernyőn ragad, kapcsold ki a PWER gomb nyomva tartásával, majd próbáld újra.
     - Ha visszakerültél a Wii Menu-be a levél megnyitását követően. biztosítsd, hogy az írásvédelem az SD kártyádon kikapcsolt pozícióban van.
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 
 :::
 

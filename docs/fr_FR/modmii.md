@@ -44,7 +44,7 @@ The chart below will help you determine what can be done in either interface.
 | Build Config Files                             | ✅              | ⛔           |
 | File Cleanup & App Updater | ✅              | ⛔           |
 
-:::details<summary><a>Click here for a detailed explanation of each tool.</a></summary>
+:::details Click here for a detailed explanation of each tool.
 
 | Tool                                                                                                           | Description                                                                                                                                                                                                                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -71,7 +71,7 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ## Installing ModMii
 
-### Prérequis
+### Requirements
 
 - Une Wii
 - A USB drive or SD Card

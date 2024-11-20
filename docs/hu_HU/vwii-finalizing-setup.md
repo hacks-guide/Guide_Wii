@@ -28,7 +28,7 @@ Minden nemhivatalos alkalmazást a Homebrew Channelről lehet elindítani.
 
 ::: tip
 
-Continue to [Open Shop Channel Installation](osc)
+Folytatás az [Open Shop Channel telepítés](osc)-ével
 
 Now that your main vWii setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 

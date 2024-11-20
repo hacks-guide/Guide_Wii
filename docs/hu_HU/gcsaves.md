@@ -28,7 +28,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 :::
 
-### Útmutató
+### Lépések
 
 #### Letöltés
 
@@ -66,7 +66,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 - Egy SD kártya vagy USB drive
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Útmutató
+### Lépések
 
 #### Letöltés
 
@@ -104,7 +104,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 - Egy SD kártya vagy USB drive
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Útmutató
+### Lépések
 
 #### Letöltés
 
@@ -133,7 +133,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 - Egy SD kártya vagy USB drive
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Útmutató
+### Lépések
 
 1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
 
@@ -160,7 +160,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 - Egy Wii GameCube portokkal
 - Legalább 2 fizikai memória kártya
 
-### Útmutató
+### Lépések
 
 1. Csatlakoztasd mindkettő kártyát a Wii-hez.
 
@@ -178,6 +178,6 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
 
 :::

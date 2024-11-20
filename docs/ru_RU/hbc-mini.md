@@ -1,39 +1,39 @@
-# Канал Homebrew - только для Wii mini
+# Homebrew Channel - только для Wii mini
 
-The Homebrew Channel is where you will go to launch homebrew applications.
+Homebrew Channel - это место, где вы будете запускать homebrew приложения.
 
 ## Инструкции
 
 ::: warning
 
-This page is **only** intended for users of the Wii mini. If you have a regular Wii, follow [this guide](hbc) instead.
+Эта страница предназначена **только** для пользователей Wii mini. Если у вас обычная Wii, следуйте [этому руководству](hbc).
 
 :::
 
 ::: info
 
-While it is possible to install BootMii on a Wii mini, you will need to solder an SD card slot. That requires opening up your Wii mini and using special tools, so it is not recommended.
+Хотя установить BootMii на Wii mini возможно, для этого потребуется припаять слот для SD карты. Это требует вскрытия вашей Wii mini и использования специальных инструментов, поэтому данный способ не рекомендуется.
 
 :::
 
-1. You will see a scam warning screen. Wait 30 seconds for the text "Press 1 to continue" to appear, then press 1.
+1. Вы увидите экран предупреждения о мошенничестве. Подождите 30 секунд, пока не появится текст "Press 1 to continue", затем нажмите 1.
 
    ![](/images/hackmii/scam.png)
 
-2. Press `Continue`, then select `Install The Homebrew Channel`.
+2. Нажмите `Continue`, затем выберите `Install The Homebrew Channel`.
 
    ![](/images/hackmii/hbc_install.png)
 
    ![](/images/hackmii/hbc_install_ok.png)
 
-3. Press `Continue` when finished.
+3. Нажмите `Continue` после завершения установки.
 
-4. Once done, select `Exit` to exit the HackMii installer.
+4. После завершения выберите `Exit` для выхода из установщика HackMii.
 
 ::: tip
 
-[Continue to installing Priiloader](priiloader)
+[Перейти к установке Priiloader](priiloader)
 
-Priiloader offers protection from bricks, and is highly recommended to install.
+Priiloader обеспечивает защиту от окирпичивания и настоятельно рекомендуется для установки.
 
 :::

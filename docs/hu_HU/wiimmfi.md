@@ -27,7 +27,7 @@ A Wiimmfi patchelés módszere, amely a kiskereskedelmi lemezes játékokon auto
 - Egy internetkapcsolattal rendelkező Wii, a System Menu 4.3-as verzióján
 - [Priiloader](priiloader) 0.9 or later
 
-### Útmutató
+### Lépések
 
 1. Tartsd lenyomva a RESET gombot a Wii bekapcsolása közben. Ha Wii mini-t használsz, csatlakoztass egy USB-billentyűzetet, és tartsd lenyomva az Escape gombot bekapcsolás közben.
 
@@ -63,7 +63,7 @@ Egy módszer a Wiimmfi patcheléshez, amely automatikusan foltozza a játék má
 - Egy internetkapcsolattal rendelkező Wii
 - [USB Loader GX or WiiFlow Lite](wii-loaders)
 
-### Útmutató
+### Lépések
 
 1. Open the game or global settings for your specific USB loader and search for the `Private Server` option. By default, it will be set to `Off`.
 2. Set the option to `Wiimmfi` and save the settings. Alapértelmezés szerint a játékoknak mostantól automatikusan patch-elődnie kell a Wiimmfihez.
@@ -90,9 +90,9 @@ To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC 
 
 - Egy internetkapcsolattal rendelkező Wii
 
-### Útmutató
+### Lépések
 
-1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
+1. Menj a `Wii Settings > Internet > Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
 2. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
 3. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
@@ -105,7 +105,7 @@ A Wiimmfi egy patchelési módszere, amely a kiskereskedelmi lemezes játékokon
 - Egy SD kártya vagy pendrive
 - [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
 
-### Útmutató
+### Lépések
 
 1. Simply extract the `apps` folder in this archive to the root of your SD card or USB drive.
 2. Helyezd be az SD-kártyád a Wii-be, és indítsd el az Auto Wiimmfi Patchert a Homebrew Channel-ről.
@@ -119,11 +119,11 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 - Egy internetkapcsolattal rendelkező Wii
 
-### Útmutató
+### Lépések
 
 1. Helyezd be a játék lemezed.
 
-2. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
+2. Menj a `Wii Settings > Internet > Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
 
    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
@@ -150,7 +150,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 - Egy Wii internet kapcsolattal 60Hz módban futva
 - Az Internet Channel
 
-### Útmutató
+### Lépések
 
 1. Open the following webpage in the Internet Channel: `http://chadsoft.co.uk/wiimmfi`
 2. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
@@ -169,7 +169,7 @@ A Wiimmfi patchelés egy módszere, amely a WiiWare játékokon fut, de kézzel 
 - [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases/latest) (cross platform)
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Útmutató
+### Lépések
 
 1. Csomagold ki a WiiWare Patcher legújabb verziójának .zip csomagját, és tedd bele a WAD-edet.
 2. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. Ha a RiiConnect24 Patchert használod, válaszd ki a készülékedet (Wii, vWii vagy Dolphin), és válaszd a WiiWare patchert.
@@ -185,7 +185,7 @@ A Wiimmfi patchelés egy módszere, amely játék-lemezképeken fut, de kézzel 
 - A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
 - [Wiimmfi ISO Patcher](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
-### Útmutató
+### Lépések
 
 1. Download the patcher and extract the `.zip` file.
 2. Nyisd meg a kicsomagolt mappát, és másold bele a Wii játék képeit.
@@ -202,6 +202,6 @@ Gratulálunk, hogy eljutottál a fő útmutató opcionális részének végére!
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
 
 :::

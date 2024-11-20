@@ -1,4 +1,4 @@
-# LetterBomb
+# Donations
 
 LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
 
@@ -24,11 +24,11 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 1. Включите вашу консоль.
 
-2. Go to `Wii Settings`.
+2. Перейдите в `Wii Settings` (Параметры Wii).
 
 3. Обратите внимание на букву рядом с системной версией в правом верхнем углу.
 
-   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения последующих инструкций.
+   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
    - Also, ensure that you are on System Menu version 4.3.
 
    ![](/images/wii/SystemMenuVersion.png)
@@ -73,6 +73,6 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Перейти к установке Homebrew Channel и BootMii](hbc)
 
 :::

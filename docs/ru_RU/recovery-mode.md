@@ -64,6 +64,6 @@ At this point, you should be able to install the Homebrew Channel and access hom
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
 
 :::

@@ -2,7 +2,7 @@
 outline: false
 ---
 
-# 使用 BlueBomb 漏洞
+# BlueBomb
 
 ::::: tabs
 
@@ -12,7 +12,7 @@ outline: false
 
 :::details Technical Details (optional)
 
-BlueBomb 是一種利用 Wii 和 Wii mini 藍牙函式庫中缺陷的漏洞。 雖然 Wii Mini 只能夠使用 BlueBomb 漏洞，本漏洞也能夠適用於一般 Wii 型號。
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
@@ -42,32 +42,32 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 :::
 
-### 操作說明
+### Requirements
 
-- 一台搭載 Linux 的電腦
-  - 您也可以試試看使用虛擬機，但由於藍芽直通相關問題可能較於複雜，較不推薦。 如果可以，請使用下述的 LiveUSB 方式。
-  - 如果您有樹梅派 (Raspberry Pi) 的話，您也可以直接用它，因為大部分情況下它早已搭載了 Linux。
+- A Linux machine
+  - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
+  - If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
   - Windows Subsystem for Linux or a Chromebook running Linux mode will _not work_ as they don't have direct access to the Bluetooth adapter or USB ports.
   - If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
     - 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
-    - 64 位元的裝置因穩定性的關係，建議使用 LTS 版本，但若您想要使用最新版本也是可以的。
+    - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
   - You can [flash a Linux Live environment to a USB flash drive](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) instead of installing it to your computer.
-- 藍牙轉接器
-  - 也可以使用內建的藍芽轉接器。
+- A Bluetooth adapter.
+  - An internal Bluetooth adapter will work.
   - If you do not have one, make sure to get one compatible with Linux.
-- 一個格式化為 FAT32 的隨身碟。
-  - 這不能與您的 Linux 機器使用的隨身碟相同。
+- A USB flash drive formatted as FAT32.
+  - This cannot be the same flash drive used for your Linux Machine.
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
 ### Instructions
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
-   - （如果您正試圖修復變磚，您還應該將您希望使用的自製軟體複製到 /apps/ 中）
-   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. 請一律使用 boot.elf）。
+   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
 
 2. Reinsert your flash drive into your console.
-   - Wii mini 的 USB 端口在主機背面。
-   - 一般的 Wii 請使用下方的 USB 端口。 (豎置時使用右邊的接口)。
+   - For a Wii mini, the USB port is on the back.
+   - For a normal Wii, use the bottom port (or the right port if it's upright).
 
 3. Power on your console.
 
@@ -94,8 +94,8 @@ Make sure that the console is close to the computer running the exploit, ideally
    ```
 
 10. The helper will then download the required files, and ask for information about your console.
-    - 如果您選擇了 Wii mini，您將被要求提供您主機所屬的區碼。 This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
-    - 如果您選擇了 Wii，您將被要求提供您的 Wii 選單版本（您在第 4 步中確定的版本）
+    - If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
+    - If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
 
 11. Power on your console.
     - **Do not** connect any Wii Remotes.
@@ -103,8 +103,8 @@ Make sure that the console is close to the computer running the exploit, ideally
 12. Press the Sync button repeatedly until the terminal shows `got connection handle`.
     - This could take numerous attempts.
 
-13. 您的主機現在應該啟動到 HackMii 安裝程序中。
-    - 如果您不打算繼續使用，您現在可以將您的 Linux 電腦關機。
+13. If the exploit was successful, your device will have loaded the HackMii Installer.
+    - If you are not planning to use it later, you can now shut down your Linux distro.
 
 ::: info
 
@@ -154,10 +154,10 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 :::
 
-### 操作說明
+### Requirements
 
 - A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
-- 一個格式化為 FAT32 的隨身碟。
+- A USB flash drive formatted as FAT32.
 - [The HackMii Installer](https://bootmii.org/download/)
 
 ::: info
@@ -169,12 +169,12 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 ### Instructions
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
-   - （如果您正試圖修復變磚，您還應該將您希望使用的自製軟體複製到 /apps/ 中）
-   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. 請一律使用 boot.elf）。
+   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
 
 2. Reinsert your flash drive into your console.
-   - Wii mini 的 USB 端口在主機背面。
-   - 一般的 Wii 請使用下方的 USB 端口。 (豎置時使用右邊的接口)。
+   - For a Wii mini, the USB port is on the back.
+   - For a normal Wii, use the bottom port (or the right port if it's upright).
 
 3. Power on your console.
 
@@ -209,7 +209,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
    - **Do not** connect any Wii Remotes.
 3. Press the Sync button repeatedly until the bluebomb screen shows up.
    - This could take numerous attempts.
-4. 您的主機現在應該啟動到 HackMii 安裝程序中。
+4. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ::: tip
 

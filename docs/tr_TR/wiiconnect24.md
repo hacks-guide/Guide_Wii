@@ -29,7 +29,7 @@ The guide on how to install these services, as well as the patcher, can be found
 - an SD card or USB drive
 - [sntp](https://oscwii.org/library/app/sntp)
 
-#### Talimatlar
+#### Instructions
 
 1. Download and extract the sntp zip to the root of your SD card or USB drive.
 2. Insert your SD card or USB drive into your Wii.
@@ -46,7 +46,7 @@ The guide on how to install these services, as well as the patcher, can be found
 - An SD card
 - [Priiloader](priiloader)
 
-#### Talimatlar
+#### Instructions
 
 1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
 2. Select generate and copy the information.

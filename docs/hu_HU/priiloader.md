@@ -16,11 +16,11 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
   - [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
 
-## Útmutató
+## Lépések
 
 ### I. rész – Előkészületek
 
-1. Kapcsold ki a konzolt!
+1. Kapcsold ki a konzolod.
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 3. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 4. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
@@ -29,7 +29,7 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 
 ### II. rész – A Priiloader telepítése
 
-1. Kapcsold be a konzolt!
+1. Power on your console.
 
 2. Indítsd el a Homebrew Channelt!
 
@@ -71,7 +71,7 @@ A későbbi indításhoz kövesd az alábbi lépéseket:
 
    ::: warning
 
-   Ha a Priiloader-telepítőt a pendrive-odra helyezted, bizonyosodj meg róla, hogy ne legyen behelyezve egy SD kártya is!
+   If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
 
    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
