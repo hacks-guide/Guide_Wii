@@ -17,6 +17,9 @@ export default defineConfig({
   locales: {
     root: i18n.en_US
   },
+  sitemap: {
+    hostname: 'https://wii.hacks.guide'
+  },
   themeConfig: {
     outline: {
       level: 'deep'
