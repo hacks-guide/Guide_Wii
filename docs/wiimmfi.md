@@ -32,7 +32,7 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 1. Hold the RESET button while turning on your Wii. If you are using a Wii mini, plug in a USB keyboard and hold Escape while turning it ON.
 1. You should see the Priiloader menu.
 
-    ![](/images/priiloader/mainmenu.jpg)
+    ![](/images/priiloader/mainmenu.png)
 
 1. Go to `System Menu Hacks`.
 
@@ -45,7 +45,7 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 
 1. Make sure the `Wiimmfi patch v4` hack is enabled.
 
-    ![](/images/priiloader/hacks.jpg)
+    ![](/images/priiloader/hacks.png)
 
 1. Scroll to `Save Settings` and save your changes.
 1. Return to the main menu, and press `System Menu` to return to the Wii Menu.
