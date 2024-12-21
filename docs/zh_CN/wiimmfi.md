@@ -33,7 +33,7 @@ A method for Wiimmfi patching which runs on retail game discs automatically thro
 
 2. 你应该会看到 Priiloader 菜单。
 
-   ![](/images/priiloader/mainmenu.jpg)
+   ![](/images/priiloader/mainmenu.png)
 
 3. Go to `System Menu Hacks`.
 
@@ -46,7 +46,7 @@ A method for Wiimmfi patching which runs on retail game discs automatically thro
 
 4. Make sure the `Wiimmfi patch v4` hack is enabled.
 
-   ![](/images/priiloader/hacks.jpg)
+   ![](/images/priiloader/hacks.png)
 
 5. Scroll to `Save Settings` and save your changes.
 

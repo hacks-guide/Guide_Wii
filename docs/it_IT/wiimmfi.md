@@ -33,7 +33,7 @@ Un metodo per la patch Wiimmfi che viene eseguito automaticamente sui giochi su 
 
 2. Dovresti vedere il menu di Priiloader.
 
-   ![](/images/priiloader/mainmenu.jpg)
+   ![](/images/priiloader/mainmenu.png)
 
 3. Go to `System Menu Hacks`.
 
@@ -46,7 +46,7 @@ Un metodo per la patch Wiimmfi che viene eseguito automaticamente sui giochi su 
 
 4. Make sure the `Wiimmfi patch v4` hack is enabled.
 
-   ![](/images/priiloader/hacks.jpg)
+   ![](/images/priiloader/hacks.png)
 
 5. Scroll to `Save Settings` and save your changes.
 

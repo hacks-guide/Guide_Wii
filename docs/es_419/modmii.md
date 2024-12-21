@@ -80,6 +80,12 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ### Installation
 
+::: warning
+
+Your browser or antivirus software may flag ModMii as malware - this is a false positive. ModMii does NOT contain any malware.
+
+:::
+
 1. Go to the [ModMii website](https://modmii.github.io) and scroll down to the Download section. Here, select the `Installer` option. Your browser may flag the installer as malware, but it is a **false positive**.
 
    ![](/images/modmii/modmii-download.png)

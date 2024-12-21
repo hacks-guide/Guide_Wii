@@ -62,8 +62,11 @@ BlueBomb - это эксплойт, который использует уязв
 ### Инструкции
 
 1. Скопируйте `boot.elf` из backmii_installer_v1.2 `.zip` в корень вашего USB-накопителя.
+
    - (Если вы пытаетесь восстановить консоль из окирпиченного состояния, вы также должны скопировать homebrew-приложения которые вы хотите использовать в /apps/)
    - (bootmini.elf **не** будет работать даже на Wii mini, его назначение совершенно другое и не связано с этим руководством.  Используйте boot.elf во всех случаях).
+
+   ![](/images/exploits/bluebomb/usb-exploit.png)
 
 2. Вставьте флэш-накопитель обратно в вашу консоль.
    - У Wii mini USB-порт находится на задней стороне.
@@ -83,9 +86,7 @@ BlueBomb - это эксплойт, который использует уязв
 
 7. Запустите ваш дистрибутив Linux и убедитесь, что вы подключены к Интернету.
 
-8. Откройте Терминал
-
-9. Выполните следующие команды:
+8. Open the Terminal, and run the following commands:
 
    ```bash
    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -93,18 +94,36 @@ BlueBomb - это эксплойт, который использует уязв
    ./bluebomb-helper.sh
    ```
 
-10. После этого помощник загрузит необходимые файлы и запросит информацию о вашей консоли.
-    - Если вы выбрали Wii mini, вас попросят предоставить регион системного меню вашей консоли. Это можно определить по последней букве версии системного меню (`U` для **США** и `E` для **PAL**).
-    - Если вы выбрали обычную Wii, вас попросят предоставить версию системного меню (То, что вы определили в шаге 4)
+   ![](/images/exploits/bluebomb/run-commands.png)
 
-11. Включите вашу консоль.
+9. После этого помощник загрузит необходимые файлы и запросит информацию о вашей консоли.
+
+   ![](/images/exploits/bluebomb/console-type.png)
+
+   - Если вы выбрали Wii mini, вас попросят предоставить регион системного меню вашей консоли. Это можно определить по последней букве версии системного меню (`U` для **США** и `E` для **PAL**).
+
+   ![](/images/exploits/bluebomb/wii-mini-options.png)
+
+   - If you have selected a Wii you will be asked to provide your Wii Menu version (what you determined in step 4).
+
+   ![](/images/exploits/bluebomb/wii-options.png)
+
+10. Включите вашу консоль.
     - **Не** подключайте никакие контроллеры Wii (Wii Remote).
 
+11. Type `yes` in the script to proceed if you have not already done so, and make sure that `Waiting to accept` is displaying.
+
 12. Нажимайте кнопку синхронизации (Sync), пока терминал не отобразит строку `got connection handle`.
+
     - Вам может понадобиться несколько попыток.
 
-13. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
+    ![](/images/exploits/bluebomb/got-connection-handle.png)
+
+13. If the exploit was successful, you should see a similar screen to the below, after which the HackMii installer should load.
+
     - Вы можете выключить ваш компьютер с загруженным Linux, если вы не планируете дальше его использовать.
+
+    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ::: info
 
