@@ -64,6 +64,9 @@ Make sure that the console is close to the computer running the exploit, ideally
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive. 
     + (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
     + (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
+
+    ![](/images/exploits/bluebomb/usb-exploit.png)
+
 1. Reinsert your flash drive into your console.
     + For a Wii mini, the USB port is on the back.
     + For a normal Wii, use the bottom port (or the right port if it's upright).
@@ -76,8 +79,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 1. Power off your console.
 1. Start your Linux distro, and ensure you are connected to the internet.
-1. Open the Terminal
-1. Run the following commands:
+1. Open the Terminal, and run the following commands:
 
     ```bash
     wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -85,15 +87,32 @@ Make sure that the console is close to the computer running the exploit, ideally
     ./bluebomb-helper.sh
     ```
 
+    ![](/images/exploits/bluebomb/run-commands.png)
+
 1. The helper will then download the required files, and ask for information about your console.
+
+    ![](/images/exploits/bluebomb/console-type.png)
+
     + If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
-    + If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
+
+    ![](/images/exploits/bluebomb/wii-mini-options.png)
+
+    + If you have selected a Wii you will be asked to provide your Wii Menu version (what you determined in step 4).
+
+    ![](/images/exploits/bluebomb/wii-options.png)
+
 1. Power on your console.
     + **Do not** connect any Wii Remotes.
+1. Type `yes` in the script to proceed if you have not already done so, and make sure that `Waiting to accept` is displaying.
 1. Press the Sync button repeatedly until the terminal shows `got connection handle`.
     + This could take numerous attempts.
-1. If the exploit was successful, your device will have loaded the HackMii Installer.
+
+    ![](/images/exploits/bluebomb/got-connection-handle.png)
+
+1. If the exploit was successful, you should see a similar screen to the below, after which the HackMii installer should load.
     + If you are not planning to use it later, you can now shut down your Linux distro.
+
+    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ::: info
 
