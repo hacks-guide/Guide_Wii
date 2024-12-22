@@ -169,27 +169,30 @@ If you are using the original revision of the Wii, you should probably find [ano
 
 ::: info
 
-Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+Make sure that the microcontroller is close to the computer running the exploit, ideally it should be less than 3 feet.
 
 :::
 
 ### Requirements
 
-- A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
+- A Raspberry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
 - A USB flash drive formatted as FAT32.
 - [The HackMii Installer](https://bootmii.org/download/)
 
 ::: info
 
-A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
+A normal Raspberry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
 
 :::
 
 ### Instructions
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
+
    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
    - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
+
+   ![](/images/exploits/bluebomb/usb-exploit.png)
 
 2. Reinsert your flash drive into your console.
    - For a Wii mini, the USB port is on the back.
@@ -207,12 +210,24 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 6. Power off your console.
 
-#### Rasperry Pi Pico W
+#### Raspberry Pi Pico W
 
 1. Download [The latest Pre-Compiled Binaries](https://github.com/GaryOderNichts/bluebomb_micro/releases) from the releases page, and extract it to your PC.
+
+   ![](/images/exploits/bluebomb/pico-download.png)
+
 2. Plug in your Pico W to your PC while holding down the `BOOTSEL` button. Your Pico should now show up as a drive on your PC.
+
+   ![](/images/exploits/bluebomb/pico-button.jpg)
+   ![](/images/exploits/bluebomb/pico-drive.png)
+
 3. Unzip the downloaded file and copy the file which matches your Wii or Wii mini to the drive. For example, if you have a European Wii running version 4.3, you would copy bluebomb_WII_SM4_3E.uf2, or if you have a European Wii Mini, you would copy bluebomb_MINI_SM_PAL.uf2, etc...
-4. The drive should disconnect and your Pico is ready. You may unplug the device from your PC.
+
+   ![](/images/exploits/bluebomb/pico-files.png)
+
+4. The drive should disconnect and begin to flash a green LED. This means your Pico W is ready - you may unplug the device from your PC.
+
+   ![](/images/exploits/bluebomb/pico-ready.jpg)
 
 #### ESP32
 
@@ -226,9 +241,17 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 1. Plug your flashed device back into your PC.
 2. Power on your console.
    - **Do not** connect any Wii Remotes.
-3. Press the Sync button repeatedly until the bluebomb screen shows up.
+3. Press the Sync button repeatedly until the Pico W LED begins to rapidly flash, at which point it will start uploading the exploit.
    - This could take numerous attempts.
-4. If the exploit was successful, your device will have loaded the HackMii Installer.
+4. If the exploit was successful, you should see a similar screen to the below, after which the HackMii installer should load.
+
+   ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
+
+::: tip
+
+If you get an error `Exception 0700 occurred!` or similar, try the exploit again. If this continues to happen, join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) for support.
+
+:::
 
 ::: tip
 
