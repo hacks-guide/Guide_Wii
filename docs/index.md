@@ -24,7 +24,7 @@ Homebrew is 100% free, and the process of modifying your Wii is also free. Anyon
 
 **Homebrew** refers to software that was not authorized to run on a video game console by its manufacturer. To gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
 
-Common examples of homebrew usage on the Wii includes:
+Common examples of homebrew usage on the Wii include:
 
 + [Backing up](bootmii) and [restoring](bootmiirecover) your Wii's NAND (system memory)
 + [Patching game discs](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
@@ -34,7 +34,7 @@ Common examples of homebrew usage on the Wii includes:
 + Restoring online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
 + and more!
 
-## What does this guide let me do?
+## What does this guide do?
 
 With certain variations depending on the path you take, this guide has the end goal of:
 
