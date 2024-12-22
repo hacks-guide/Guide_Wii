@@ -133,7 +133,7 @@ If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
 ## BlueBomb Micro
 
 ::: details Technical Details (optional)
-BlueBomb Micro is a port of Fullmetal5's BlueBomb exploit for the Rasperry Pi Pico W or ESP32, thus bypassing the need for a Linux system. It takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. This port was made possible by [GaryOderNichts](https://github.com/GaryOderNichts)
+BlueBomb Micro is a port of Fullmetal5's BlueBomb exploit for the Raspberry Pi Pico W or ESP32, thus bypassing the need for a Linux system. It takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. This port was made possible by [GaryOderNichts](https://github.com/GaryOderNichts)
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
@@ -164,13 +164,13 @@ Make sure that the microcontroller is close to the computer running the exploit,
 :::
 
 ### Requirements
-* A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
+* A Raspberry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
 * A USB flash drive formatted as FAT32.
 * [The HackMii Installer](https://bootmii.org/download/)
 
 ::: info
 
-A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
+A normal Raspberry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
 
 :::
 
@@ -194,7 +194,7 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
 1. Power off your console.
 
-#### Rasperry Pi Pico W
+#### Raspberry Pi Pico W
 
 1. Download [The latest Pre-Compiled Binaries](https://github.com/GaryOderNichts/bluebomb_micro/releases) from the releases page, and extract it to your PC.
 
