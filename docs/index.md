@@ -57,19 +57,7 @@ This guide aims to do the following, including optional sections:
 + The differences between the Wii and Wii mini are quite significant. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Tread carefully if you are planning to mod one!
 + Be extremely careful when modifying a [Korean Wii](bricks#koreankii-error-003-brick).
 
-## Ready?
-
-The guide has nine sections in total. These are listed below:
-
-1. Choosing and using an exploit (REQUIRED)
-1. Installing the Homebrew Channel and BootMii (REQUIRED)
-1. Making a NAND backup with BootMii (REQUIRED)
-1. Installing Priiloader (REQUIRED)
-1. Installing the Open Shop Channel (RECOMMENDED)
-1. Installing cIOS (RECOMMENDED)
-1. Discovering Recommended Homebrew (RECOMMENDED)
-1. Regaining WiiConnect24 Functionality (OPTIONAL)
-1. Regaining Nintendo Wi-Fi Connection Functionality (OPTIONAL)
+## Ready to start?
 
 ::: tip
 
