@@ -10,13 +10,7 @@ hero:
 
 ::: info
 
-Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
-
-:::
-
-::: warning
-
-To get the most out of this guide, you should read this page before proceeding.
+Please thoroughly read this introductory page before proceeding.
 
 :::
 
