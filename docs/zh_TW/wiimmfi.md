@@ -33,7 +33,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 2. You should see the Priiloader menu.
 
-   ![](/images/priiloader/mainmenu.jpg)
+   ![](/images/priiloader/mainmenu.png)
 
 3. Go to `System Menu Hacks`.
 
@@ -46,7 +46,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 4. Make sure the `Wiimmfi patch v4` hack is enabled.
 
-   ![](/images/priiloader/hacks.jpg)
+   ![](/images/priiloader/hacks.png)
 
 5. Scroll to `Save Settings` and save your changes.
 
