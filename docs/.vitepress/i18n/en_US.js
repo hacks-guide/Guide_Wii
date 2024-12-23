@@ -5,7 +5,6 @@ const sidebar_common = {
 	items: [
 		{ text: localeData.pages["donations"], link: `/donations` },
 		{ text: localeData.pages["privacy-policy"], link: `/privacy-policy` },
-		{ text: localeData.pages["site-navigation"], link: `/site-navigation` }
 	]
 }
 
@@ -18,8 +17,17 @@ const themeConfig = {
 	returnToTopLabel: localeData.returnToTopLabel,
 
 	nav: [
-		{ text: localeData.pages["get-started"], link: `/key-information` },
-		{ text: localeData.pages["faq"], link: `/faq` }
+		{ text: localeData.pages["site-navigation"], link: `/site-navigation` },
+		{ text: localeData.pages["faq"], link: `/faq` },
+		{
+			text: localeData.extras,
+			items: [
+				{ text: localeData.pages["priiloader-usage"], link: `/priiloader-usage` },
+				{ text: localeData.pages["dump-games"], link: `/dump-games` },
+				{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
+				{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` },
+			]
+		}
 	],
 	sidebar: {
 		[`/bluebomb`]: [
