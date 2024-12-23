@@ -62,6 +62,8 @@ The Wii is an aging console, and as such, may have difficulties connecting to mo
 
 Its network hardware is based on 802.11g (retroactively named WiFi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use WiFi with your Wii.
 
+For the Wii U, vWii uses the internet settings set in the Wii U's main settings.
+
 Please consult [the network FAQ](faq#networking-faq) for more information.
 
 ## Getting Help
