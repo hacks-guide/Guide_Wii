@@ -123,3 +123,22 @@ As for your choices in shopping, this largely comes down to three different scen
 For the purpose of using a drive with a Wii, external SSDs are often more expensive than conventional hard drives for no visible gain in speed on a Wii (the console only supports up to USB 2.0 data speeds). If you would like to buy one or already have one lying around, it's an option, but generally it's recommended to just go for a hard drive if you don't already have one.
 
 :::
+
+## Networking FAQ
+
+The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named WiFi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points:
+
++ APs enforcing WPA enterprise encryption, or WPA3 only
++ APs not backwards compatible with WiFi 3, or broadcasting only on the 5 GHz band
+
+ISPs known to provide routers incompatible with these settings:
+
++ Xfinity
++ Spectrum
++ Cox
+
+If your ISP will not let you change these settings, or your current networking hardware is not supported, you have a few options:
+
++ You can try to use a cellular hotspot. This is not recommended as it usually results in an unstable connection.
++ You can use a LAN adapter. It must have the `ASIX AX88772` chipset or say “compatible with Wii”. Here is a [recommended LAN adapter by uGreen](https://a.co/d/3OcSJDS).
++ Alternatively, you can buy a secondary router and continue to use the network you already have, like a mesh. Any cheap router meeting the above standards (such as the Linksys WRT54G) will work.
