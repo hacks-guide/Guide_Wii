@@ -43,7 +43,7 @@ Make sure to install the vWii version of homebrew and IOS whenever available to 
 :::: details What if I own a Wii mini?
 
 Wii Mini is supported and has compatibility with the most existing homebrew.
-A LAN adapter and USB hub are recommended.
+Missing Wii features can be restored. A LAN adapter and USB hub are recommended.
 Be especially cautious with IOS to avoid bricking.
 
 ::::
