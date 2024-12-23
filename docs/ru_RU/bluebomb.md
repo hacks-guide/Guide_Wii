@@ -175,7 +175,7 @@ Make sure that the microcontroller is close to the computer running the exploit,
 
 ### Требования
 
-- A Raspberry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
+- A Raspberry Pi Pico W 1/2 or an ESP32 with BR/EDR (Classic) support.
 - USB-накопитель отформатированный в FAT32.
 - [Установщик HackMii](https://bootmii.org/download/)
 
@@ -212,7 +212,9 @@ A normal Raspberry Pi Pico will not work. Вам нужна беспроводн
 
 #### Raspberry Pi Pico W
 
-1. Скачайте [последние скомпилированные библиотеки](https://github.com/GaryOderNichts/bluebomb_micro/releases) со страницы "Releases", и распакуйте их на ваш ПК.
+1. Download the latest [Pre-Compiled Binaries](https://github.com/GaryOderNichts/bluebomb_micro/releases) from the releases page, and extract it to your PC.
+
+   - Select the appropriate binaries for your device. `bluebomb_micro_pico2_w_version` is for the Pico 2 W, while `bluebomb_micro_pico_w_version` is for the Pico 1 W.
 
    ![](/images/exploits/bluebomb/pico-download.png)
 
@@ -221,7 +223,9 @@ A normal Raspberry Pi Pico will not work. Вам нужна беспроводн
    ![](/images/exploits/bluebomb/pico-button.jpg)
    ![](/images/exploits/bluebomb/pico-drive.png)
 
-3. Разархивируйте загруженный файл и скопируйте на диск файл, который соответствует вашей Wii или Wii mini. Например, если у вас европейская Wii с версией SM 4.3, вы должны скопировать `bluebomb_WII_SM4_3E.uf2`, или если у вас европейская Wii mini, вы должны скопировать `bluebomb_MINI_SM_PAL.uf2`, и так далее...
+3. Unzip the downloaded archive and copy the file which matches your Wii or Wii mini to the drive.
+
+   - If you have a European Wii running version 4.3, you would copy bluebomb_WII_SM4_3E.uf2, or if you have a European Wii Mini, you would copy bluebomb_MINI_SM_PAL.uf2, etc...
 
    ![](/images/exploits/bluebomb/pico-files.png)
 
