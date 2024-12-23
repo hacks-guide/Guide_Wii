@@ -14,12 +14,6 @@ Please thoroughly read the introductory pages before proceeding.
 
 :::
 
-::: danger
-
-Homebrew is 100% free, and the process of modifying your Wii is also free. Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam).
-
-:::
-
 ## What is homebrew?
 
 **Homebrew** refers to software that was not authorized to run on a video game console by its manufacturer. To gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
