@@ -29,7 +29,7 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 
 ### II. rész – A Priiloader telepítése
 
-1. Power on your console.
+1. Kapcsold be a konzolod.
 
 2. Indítsd el a Homebrew Channelt!
 
@@ -65,7 +65,7 @@ A későbbi indításhoz kövesd az alábbi lépéseket:
 
 ### IV. rész – A Priiloader beállítása
 
-1. Scroll down to `System Menu Hacks` and press `A`.
+1. Görgess le a `System Menu Hacks` menüponthoz és nyomj `A` gombot.
 
    ![](/images/priiloader/menu_hacks.png)
 
