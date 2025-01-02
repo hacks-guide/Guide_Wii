@@ -4,11 +4,11 @@ A Nintendo Wi-Fi Connection egy online multiplayer játékszolgáltatás volt a 
 
 ::: warning
 
-If you get error 23904 while connecting to Wiimmfi, then you are using an outdated patch.
+Ha error 23904-t kapsz a Wiimmfi-hez csatlakozáshoz, akkor egy régi patchet használsz.
 
-Follow the steps below for the method you're using to connect to Wiimmfi again.
+Kövesd az általad használt metódushoz kapcsolódó lépéseket, hogy csatlakozz a Wiimmfi-hez újra.
 
-See [this page](https://wiimmfi.de/update) for more details.
+Tekintsd meg [ezt az oldalt](https://wiimmfi.de/update).
 
 :::
 
@@ -16,7 +16,7 @@ See [this page](https://wiimmfi.de/update) for more details.
 
 ::: warning
 
-If the `Wiimmfi Patch` displays as anything other than v4, you do not have the latest version of the hacks_hash.ini file and the patch will not work. Újra kell telepítened a Priiloader-t, az ehhez szükséges útmutatót a követelmények részben találod.
+Ha a `Wiimmfi Patch` a v4-től eltérő értéket jelenít meg, akkor nem a hacks_hash.ini fájl legújabb verziója van meg, és a patch nem fog működni. Újra kell telepítened a Priiloader-t, az ehhez szükséges útmutatót a követelmények részben találod.
 
 :::
 
@@ -65,8 +65,8 @@ Egy módszer a Wiimmfi patcheléshez, amely automatikusan foltozza a játék má
 
 ### Lépések
 
-1. Open the game or global settings for your specific USB loader and search for the `Private Server` option. By default, it will be set to `Off`.
-2. Set the option to `Wiimmfi` and save the settings. Alapértelmezés szerint a játékoknak mostantól automatikusan patch-elődnie kell a Wiimmfihez.
+1. Nyisd meg a játék vagy a globális beállításokat az adott USB loader-hez, és keresd meg a `Private Server` opciót. Alapértelmezetten ez kikapcsolt (`Off`).
+2. Állítsd az opciót `Wiimmfi`-re, és mentsd el a beállításokat. Alapértelmezés szerint a játékoknak mostantól automatikusan patch-elődnie kell a Wiimmfi-hez.
 
 ## Automatikus lemezfoltozás egyéni DNS-en keresztül
 
@@ -74,15 +74,15 @@ Egy patchelési módszer a Wiimmfi-hez f, amely a kiskereskedelmi játéklemezek
 
 ::: warning
 
-Ha a 20100 vagy 20110 hibaát kapod, akkor a játék, amellyel játszani próbálsz, nem támogatott ezzel a módszerrel.
+Ha a 20100 vagy 20110 hibát kapod, akkor a játék, amellyel játszani próbálsz, nem támogatott ezzel a módszerrel.
 
 :::
 
 ::: warning
 
-If you get error 23400, your ISP or network is blocking the use of a custom DNS.
+Ha a 23400 hibát kapod, akkor az internet szolgáltatód vagy a hálózatod blokkolja az egyéni DNS használatát.
 
-To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC - you can read about it [here](https://wiimmfi.de/patcher/dnspatch#customdns).
+Azért, hogy megoldja ezt a problémát a Wiimmfi tartalmaz egy egyedi DNS szervert, ami futtatható a PC-den - erről [itt](https://wiimmfi.de/patcher/dnspatch#customdns) olvashatsz.
 
 :::
 
@@ -143,7 +143,7 @@ Ha UPnP-vel kapcsolatos problémákba ütközöl (például a patcher 10 másodp
 
 :::
 
-A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
+A Wiimmfi patchelés egy módszere, amely a kiskereskedelmi játéklemezeken fut, de manuálisan kell elindítani az internetes csatornán keresztül (a [Flashhax](flashhax)-ból származik). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken. [Ez](wiimmfi#manual-disc-patching-via-eula-user-agreement) a metódus általábban jobban megbízható és ajánlott helyette.
 
 ### Követelmények
 
