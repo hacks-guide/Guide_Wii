@@ -32,7 +32,7 @@ Megjegyzés: Lehetséges, hogy szét kell szerelned a GameCube-vezérlőt, hogy 
 
 :::
 
-First of all, verify that your Wii can boot into Recovery Mode _at all_. Ennek a módja a következő: Dugj be egy GameCube-vezérlőt a 4. vezérlőcsatlakozóba, majd egyszerre tartsd lenyomva mind a négy nyílgombot, miközben bekapcsolod a Wiit! Ha minden jól ment, akkor a Wii egy a fent leírtakhoz hasonló képernyőt fog mutatni. Ha a rendszered 2.0-ás vagy korábbi verzión fut, akkor nem fogod a verziószámot látni a képernyőn és nem fogsz tudni lemezről programokat futtatni.
+Először is, ellenőrizd, hogy a Wii-od képes-e _egyáltalán_ helyreállítási módba lépni. Ennek a módja a következő: Dugj be egy GameCube-vezérlőt a 4. vezérlőcsatlakozóba, majd egyszerre tartsd lenyomva mind a négy nyílgombot, miközben bekapcsolod a Wiit! Ha minden jól ment, akkor a Wii egy a fent leírtakhoz hasonló képernyőt fog mutatni. Ha a rendszered 2.0-ás vagy korábbi verzión fut, akkor nem fogod a verziószámot látni a képernyőn és nem fogsz tudni lemezről programokat futtatni.
 
 ### I. módszer – Smash Stack
 
@@ -58,7 +58,7 @@ Ezek után telepítheted a Homebrew Channelt és hozzáférhetsz az SD kártyád
 
 ::: tip
 
-[Return to Bricks](bricks)
+[Vissza a Brick-ekhez](bricks)
 
 :::
 
