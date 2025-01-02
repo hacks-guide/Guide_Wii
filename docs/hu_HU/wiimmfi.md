@@ -25,7 +25,7 @@ A Wiimmfi patchelés módszere, amely a kiskereskedelmi lemezes játékokon auto
 ### Követelmények
 
 - Egy internetkapcsolattal rendelkező Wii, a System Menu 4.3-as verzióján
-- [Priiloader](priiloader) 0.9 or later
+- [Priiloader](priiloader) 0.9 vagy későbbi
 
 ### Lépések
 
@@ -35,7 +35,7 @@ A Wiimmfi patchelés módszere, amely a kiskereskedelmi lemezes játékokon auto
 
    ![](/images/priiloader/mainmenu.png)
 
-3. Go to `System Menu Hacks`.
+3. Menj a `System Menu Hacks` menüpontra.
 
    ::: info
 
@@ -44,13 +44,13 @@ A Wiimmfi patchelés módszere, amely a kiskereskedelmi lemezes játékokon auto
 
    :::
 
-4. Make sure the `Wiimmfi patch v4` hack is enabled.
+4. Győződj meg róla, hogy a `Wiimmfi patch v4` hack engedélyezve van.
 
    ![](/images/priiloader/hacks.png)
 
-5. Scroll to `Save Settings` and save your changes.
+5. Görgess a `Save Settings` menüpontra, és mentsd el a módosításokat.
 
-6. Return to the main menu, and press `System Menu` to return to the Wii Menu.
+6. Térjvissza a főmenübe, és nyomd meg a `System Menu`-t a Wii menübe való visszatéréshez.
 
 7. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
@@ -61,7 +61,7 @@ Egy módszer a Wiimmfi patcheléshez, amely automatikusan foltozza a játék má
 ### Követelmények
 
 - Egy internetkapcsolattal rendelkező Wii
-- [USB Loader GX or WiiFlow Lite](wii-loaders)
+- [USB Loader GX vagy WiiFlow Lite](wii-loaders)
 
 ### Lépések
 
@@ -92,7 +92,7 @@ To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC 
 
 ### Lépések
 
-1. Menj a `Wii Settings > Internet > Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
+1. Menj a `Wii Settings > Internet > Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Majd `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Állítsd be elsődleges (primary) DNS-nek a `95.217.77.181` címet és másodlagos (secondary) DNS-nek az `1.1.1.1`-et.
 2. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
 3. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
@@ -107,13 +107,13 @@ A Wiimmfi egy patchelési módszere, amely a kiskereskedelmi lemezes játékokon
 
 ### Lépések
 
-1. Simply extract the `apps` folder in this archive to the root of your SD card or USB drive.
+1. Egyszerűen csomagold ki az `apps` mappát a tömörített fájlból az SD kártyád vagy USB drive-od gyökerébe.
 2. Helyezd be az SD-kártyád a Wii-be, és indítsd el az Auto Wiimmfi Patchert a Homebrew Channel-ről.
 3. Helyezd be a játéklemezt (ha még nem lenne), várd meg, amíg a patchelés befejeződik, és a játék elindul.
 
 ## Kézi lemez patchelés az EULA felhasználói megállapodáson keresztül
 
-A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the EULA User Agreement (derives from [str2hax](str2hax)). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken.
+A Wiimmfi egy patchelési módszere, amely kiskereskedelmi játéklemezeken fut, de manuálisan kell elindítani az EULA felhasználói megállapodáson keresztül (az [str2hax](str2hax)-ból származik). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken.
 
 ### Követelmények
 
@@ -123,13 +123,13 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 1. Helyezd be a játék lemezed.
 
-2. Menj a `Wii Settings > Internet > Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
+2. Menj a `Wii Settings > Internet > Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Majd `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Állítsd be elsődleges (primary) DNS-nek a `95.217.77.151` címet és másodlagos (secondary) DNS-nek az `1.1.1.1`-et.
 
    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
 3. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
 
-4. Go back twice to `Internet`, and press `User Agreements`. Ezután erősítsd meg, hogy szeretnéd használni a WC24-et és a Wii Shop Channel csatornát.
+4. Menj vissza kétszer az `Internet`-hez, és nyomd meg a `User Agreements` gombot. Ezután erősítsd meg, hogy szeretnéd használni a WC24-et és a Wii Shop Channel csatornát.
 
 5. A Wiimmfi patcher oldalnak most meg kell jelennie. Ha nem, és továbbra is az alapértelmezett licencszerződés jelenik meg, akkor lehet, hogy a routered nem kompatibilis ezzel a módszerrel.
 
@@ -152,9 +152,9 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 ### Lépések
 
-1. Open the following webpage in the Internet Channel: `http://chadsoft.co.uk/wiimmfi`
-2. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
-3. Lépjen vissza a Wii menübe.
+1. Nyisd meg a következő weboldalt az Internet Channel-ben: `http://chadsoft.co.uk/wiimmfi`
+2. Add hozzá az oldalt a böngésző kedvenceidhez a csillag ikonra, majd az `Add Favorite` gombra kattintva.
+3. Lépj vissza a Wii menübe.
 4. Nyisd meg újra az Internet Channel-t, és lépj be az imént létrehozott kedvenchez.
 5. A Wiimmfi patchernek el kell indulnia. Légy türelmes, mivel a Flashhax nagyon megbízhatatlan tud lenni - több próbálkozásra is szükség lehet, hogy sikerüljön.
 
@@ -172,8 +172,8 @@ A Wiimmfi patchelés egy módszere, amely a WiiWare játékokon fut, de kézzel 
 ### Lépések
 
 1. Csomagold ki a WiiWare Patcher legújabb verziójának .zip csomagját, és tedd bele a WAD-edet.
-2. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. Ha a RiiConnect24 Patchert használod, válaszd ki a készülékedet (Wii, vWii vagy Dolphin), és válaszd a WiiWare patchert.
-3. If it completed successfully, install the WAD that was made in `wiiware-wads` with [YAWM ModMii Edition](yawmme).
+2. Futtasd le az operációs rendszeredhez tartozó patch scriptet: Windows esetén általában `.bat`, Mac/Linux esetén `.sh` végződésű. Ha a RiiConnect24 Patchert használod, válaszd ki a készülékedet (Wii, vWii vagy Dolphin), és válaszd a WiiWare patchert.
+3. Ha sikeresen befejeződött, telepítsd a `wiiware-wads`-szel készük WAD fájl a [YAWM ModMii Edition](yawmme)-nel.
 
 ## Kézi lemezkép-foltozás PC-n keresztül
 
@@ -182,17 +182,17 @@ A Wiimmfi patchelés egy módszere, amely játék-lemezképeken fut, de kézzel 
 ### Követelmények
 
 - Egy Windows/macOS/Linux számítógép internet kapcsolattal
-- A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
+- A patchelni kívánt játék egy példánya - támogatott formátumok: `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ` és `FST` - az `NKIT` NEM támogatott
 - [Wiimmfi ISO Patcher](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
 ### Lépések
 
-1. Download the patcher and extract the `.zip` file.
+1. Töltsd le a patchert, és csomagold ki a `.zip` fájlt.
 2. Nyisd meg a kicsomagolt mappát, és másold bele a Wii játék képeit.
-   - If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
-   - If you're on MacOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
-   - If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
-3. Ha a fentiek sikeresek voltak, akkor egy ablaknak kell felugrania, amely a patch folyamatot jeleníti meg. Once the process finishes, you will find the patched images in a folder called `wiimmfi-images`.
+   - Ha Windows rendszeren vagy, kattints duplán a `patch-images.bat` fájlra (ez „patch-images” Batch File néven is megjelenhet). Ha Cygwin-hez kapcsolódó problémákba ütközöl, próbáld meg helyette a `patch-images-32.bat` fájlt.
+   - Ha MacOS-t használsz, nyiss parancssort az aktuális mappában és a `chmod +x *.sh` paranccsal tedd futtathatóvá a shell szkriptet, majd futtasd a `./patch-images.sh` fájlt.
+   - Ha Linuxon vagy, kattints duplán a `patch-images.desktop` fájlra (ez „Patch Images” néven is megjelenhet), vagy futtasd a `./patch-images.sh` fájlt egy terminálban, miután a `chmod +x *.sh` paranccsal futtathatóvá tetted.
+3. Ha a fentiek sikeresek voltak, akkor egy ablaknak kell felugrania, amely a patch folyamatot jeleníti meg. Ha a folyamat befejeződött, a javított képfájlokat a `wiimmfi-images` nevű mappában találod.
 
 ::: tip
 
