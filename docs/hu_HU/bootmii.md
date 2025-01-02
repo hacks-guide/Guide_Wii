@@ -79,18 +79,18 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
 
 ::: info
 
-Note: **restoring a NAND backup is usually a last resort**. Sokszor jobb módja is van a konzol megjavításának.
+Megjegyzés: **egy biztonsági mentés visszatöltése általában a legvégső megoldás**. Sokszor jobb módja is van a konzol megjavításának.
 
-Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
+Próbáld minél jobban a [brickelés okát](bricks) és először próbáld visszafelé végre hajtani a lépéseket, amik okozták.
 
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover).
-**Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
+Egy az SD kártyádon található NAND mentésből visszaálláshoz kövesd a [RestoreMii](bootmiirecover) lépéseit.
+**A Family Edition Wii-kon (ezek azok, amelyek nem rendelkeznek GameCube-csatlakozókkal) NEM LEHETSÉGES NAND mentéseket visszaállítani hardveres módosítások nélkül.**
 
 :::
 
 ::: info
 
-Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+A mentési folyamat befejeztével két fájl lesz létrehozva az SD kártyád gyökerén: a `nand.bin` és a `keys.bin`. A `nand.bin` a belső tárhely másolata, míg a `keys`.bin tartalmazza a konzol biztonsági kulcsait.
 
 :::
 
