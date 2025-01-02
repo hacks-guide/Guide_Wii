@@ -57,7 +57,7 @@ Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható.
 ### Követelmények
 
 - Egy moddolt Wii
-- The latest version of [cIOS](cios)
+- A [cIOS](cios) legutolsó verziója
 - [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
 ### Telepítés
@@ -108,7 +108,7 @@ Amikor a kurzort a képernyő aljára viszed, miközben az flow nézetben vagy, 
 ### Követelmények
 
 - Egy moddolt Wii
-- The latest version of [cIOS](cios)
+- A [cIOS](cios) legutolsó verziója
 - [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
 ### Telepítés
@@ -170,8 +170,8 @@ Egy adott játékhoz használt cIOS megváltoztatásához kövesd az USB-töltő
 
 1. Válaszd ki a játékot, ami nem működik.
 2. Kattints a Settings-re.
-3. Select `Game Load`.
-4. Scroll down to `Game IOS`.
+3. Válaszd a `Game Load` opciót.
+4. Görgess le a `Game IOS` opcióig.
 5. Add meg a használandó IOS slot-ot.
    - Próbáld meg a 248, 249, 250 vagy 251-gyel.
 6. Nyomj OK-t és próbáld meg betölteni a játékot.
