@@ -46,7 +46,7 @@ The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code r
 
 ### Úgy gondolom, hogy a Wii-om brickelt, vagy valami komoly baja van, mit tegyek?
 
-See [this](bricks) page.
+Tekintsd meg [ezt](bricks) az oldalt.
 
 ## Tároló eszköz GYIK
 
