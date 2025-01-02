@@ -42,6 +42,6 @@ Ne keverd össze az `apps` mappát a `wiiu` mappában és az `apps` mappával az
 
 ::: tip
 
-[Continue to installing Priiloader](priiloader)
+[Folytatás a Priiloader telepítésével](priiloader)
 
 :::
