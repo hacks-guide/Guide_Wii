@@ -40,11 +40,11 @@ A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszerc
 
    ::: info
 
-   If you are on vWii, use the [Wiiforwarder2vWii](https://gbatemp.net/download/wiiforwarder2vwii-wii-forwarder-to-vwii-wii-u-forwarder-converter-beta-version.37254/) tool to convert the WAD for use on the vWii.
+   Ha vWii-n vagy, használd a [Wiiforwarder2vWii](https://gbatemp.net/download/wiiforwarder2vwii-wii-forwarder-to-vwii-wii-u-forwarder-converter-beta-version.37254/) eszközt a WAD fájl vWii-n használhatóvá konvertálásához.
 
    :::
 
-3. Install the generated WAD with your [WAD manager](yawmme).
+3. Telepítsd a generált WAD-et a [WAD manager](yawmme)-eddel.
 
 ::: info
 
