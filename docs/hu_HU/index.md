@@ -28,9 +28,9 @@ Ahhoz, hogy a legtöbbet hozd ki ebből az útmutatóból, olvasd el ezt az olda
 
 - [Backup](bootmii) and [restore](bootmiirecover) your Wii's NAND (system memory)
 - Enhance the [brick protection](priiloader) of your Wii
-- Download new homebrew apps with the [Open Shop Channel](osc)
+- Új homebrew alkalmazások letöltése az Open Shop Channel](osc) csatornán keresztül
 - [Patch game disc contents](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
-- Install [themes](themes) on the Wii Menu and in commonly used homebrew apps
+- [Témák](themes) telepítése a Wii menüjébe és a gyakran használt homebrew alkalmazásokba
 - Back up your [discs](dump-games) and [other installed titles](dump-wads)
 - Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
 - Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
