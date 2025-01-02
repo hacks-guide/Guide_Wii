@@ -48,9 +48,9 @@ A szolgáltatások telepítési útmutatója a patcherrel együtt a [WiiLink] ho
 
 #### Lépések
 
-1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
+1. Látogasd meg az [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) oldalt és töltsd ki az információkat.
 2. Kattints a „Generate” („generálás”)-gombra, majd másold ki a megjelenő információt kézileg vagy a „Copy” („másolás”)-gombbal!
-3. On your SD Card, navigate to `SD:/apps/priiloader` and open `hacks_hash.ini` with a text editor such as notepad.
+3. Helyezd be az SD kártyát a számítógépbe és nyisd meg az `SD:/apps/priiloader` mappában található `hacks_hash.ini`-fájlt egy szövegszerkesztőben, pl. a Jegyzettömbben.
 4. Illeszd be a kimásolt adatokat a `hacks_hash.ini` fájl legaljára és mentsd el a változtatásokat.
 5. Ha a régiódban van nyári időszámítás, akkor ismételd meg az 1–4. lépést a másik időzónával is!
 6. Helyezd be az SD kártyát a Wii U-ba!
