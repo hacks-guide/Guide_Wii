@@ -92,6 +92,6 @@ Making a NAND backup at this point is highly recommended, as they can be used to
 
 ::: tip
 
-Tipp: Ha egy Wiire telepítve van a BootMii boot2 alatt, akkor a lemezolvasó ismét felvillan a HOME-gomb megnyomása utáni első villanást követően.
+Tipp: Ha egy Wii-re telepítve van a BootMii boot2 néven, akkor a lemezegység ismét felvillan a POWER gomb megnyomása utáni első villanást követően.
 
 :::
