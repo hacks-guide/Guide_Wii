@@ -10,7 +10,7 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
 
 ::: warning
 
-Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Töltsd le [ezt a zip fájlt](https://static.hackmii.com/bootmii_sd_files.zip) és csomagold ki az SD kártyád gyökerébe, majd próbáld újra.
 
 :::
 
@@ -28,7 +28,7 @@ NE állíts vissza olyan biztonsági mentést, ami nem ment át az ellenőrzési
 
 ## Követelmények
 
-- An earlier NAND Backup made by [BootMii](bootmii)
+- Egy [BootMii](bootmii)-vel készült korábbi biztonsági mentés
 
 ## Konkrét adatok visszaállítása egy biztonsági mentésből
 
@@ -52,7 +52,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 2. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” („A BootMii indítása”)-menüpontot!
 
-   - If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
+   - Ha a Homebrew Channel nem hozzáférhető és telepítve van a Priiloader, akkor azt is elindíthatod a konzol bekapcsolásakor, majd a `BootMii IOS` menüponttal megnyithatod a BootMiit.
 
    ![](/images/bootmii/BootMii_HBC.png)
 
@@ -76,7 +76,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
    ![](/images/bootmii/BootMii_NAND_Restore.png)
 
-8. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Ezután nyomj meg egy gombot a konzolon vagy a vezérlőn!
+8. A folyamat befejeztével a program jelenteni fogja, hogy a visszaállítás sikerült-e (`I HAZ SUCCESS!`) vagy sem (`I HAZ FAIL`). Ezután nyomj meg egy gombot a konzolon vagy a vezérlőn!
 
    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
@@ -86,7 +86,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ::: info
 
-If you were restoring a NAND backup in order to repair a brick and this did not fix your issue, please consult [the bricks portion](bricks) of this guide.
+Ha azért állítasz vissza egy NAND biztonsági mentést, hogy javatsd a brickelést, és ez nem segít a problémádon, kérjük olvasd el a segédlet [brickeléssel](bricks) kapcsolatos részét.
 
 :::
 
