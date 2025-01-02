@@ -64,13 +64,13 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 :::: tab (Wii) Via NUS Downloader
 
-1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-2. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
+1. A számítógépeden töltsd le a [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)-t.
+2. Másold ki az NUS Downloader `.zip` fájljának tartalmát egy mappába.
 3. Run `NUS Downloader.exe`.
 4. Navigate to `Database` -> `System` -> `System Menu`.
 5. Select the version that corresponds to your Wii menu version.
 6. Check the `Create decrypted contents (*.app)` box.
-7. Click `Start NUS Download!`.
+7. Kattints a `Start NUS Download!` gombra.
 8. Once the download is finished, there will be a folder named `titles` in the same folder as the NUS Downloader.
 9. Open the `titles` folder, then the `0000000100000002` folder inside it.
 10. Find the **largest .app file** (usually 6~7MB) inside the folder.
@@ -94,7 +94,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 | Európa | v610             |
 
 1. Check the `Create decrypted contents (*.app)` box.
-2. Click `Start NUS Download!`.
+2. Kattints a `Start NUS Download!` gombra.
 3. Once the download is finished, there will be a folder named `titles` in the same folder as the NUS Downloader.
 4. Open the `titles` folder, then the `0000000700000002` folder inside it.
 5. Find the .app file that corresponds to your Wii U's region in the table below:
