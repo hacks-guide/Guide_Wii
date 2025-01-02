@@ -4,7 +4,7 @@ Használsz Wii backup betöltőt, és szeretnél játék parancsikonokat létreh
 
 ::: warning
 
-In the case of a brick, [installing Priiloader is a must](/priiloader). Továbbá telepítsd a BootMii-t (Boot2-ként, ha korai Wii-d van). A brickvédelem telepítése az útmutató helyes követésével együtt megóv a brickelődéstől. NE FOLYTASD, AMÍG NEM TELEPÍTETTED A PRIILOADER-T ÉS A BOOTMII-T!
+Brick esetén a [Priiloader telepítése elengedhetetlen](/priiloader). Továbbá telepítsd a BootMii-t (Boot2-ként, ha korai Wii-d van). A brickvédelem telepítése az útmutató helyes követésével együtt megóv a brickelődéstől. NE FOLYTASD, AMÍG NEM TELEPÍTETTED A PRIILOADER-T ÉS A BOOTMII-T!
 
 :::
 
@@ -30,7 +30,7 @@ A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszerc
 
 ## Lépések
 
-1. Install WiiGSC, then right click on it and choose **Run as administrator**. Ha ezt nem teszed meg, a WiiGSC hibát fog dobni, amikor megnyitod.
+1. Telepítsd a WiiGSC-t, majd kattints rá a jobb gombbal, és válaszd a **Futtatás rendszergazdaként** lehetőséget. Ha ezt nem teszed meg, a WiiGSC hibát fog dobni, amikor megnyitod.
 
    ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
