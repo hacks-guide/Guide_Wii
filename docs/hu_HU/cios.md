@@ -12,7 +12,7 @@ a cIOS („custom IOS” / „egyéni IOS”)-ek egyéni rendszerfunkciók igén
 
 Az útmutató ezen része csak Wii-felhasználóknak szól.
 
-If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+Ha egy Wii U-d (vWii) van, [ezt](cios-vwii) az útmutatót kövesd helyette.
 
 Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd!
 
@@ -40,14 +40,14 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 1. Kapcsold ki a konzolod.
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
-3. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
+3. A számítógépeden töltsd le a [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)-t.
+4. Másold ki az NUS Downloader `.zip` fájljának tartalmát egy mappába.
 5. Run `NUS Downloader.exe`.
 6. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
    - Pipáld ki a „Pack WAD” („WAD becsomagolása”)-lehetőséget!
    - _Don't_ check "Patch IOS". Ezt majd a cIOS-telepítő megteszi.
-7. Click `Start NUS Download!`.
-8. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
+7. Kattints a `Start NUS Download!` gombra.
+8. Ismételd meg a fenti lépéseket az `IOS56 v5661`, `IOS57 v5918` és az `IOS58 v6175` beszerzéséhez is.
 9. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
 10. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
 11. Helyezd az összes WAD-fájlt az SD kártya vagy pendrive gyökerére!
