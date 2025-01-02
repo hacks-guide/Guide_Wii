@@ -1,6 +1,6 @@
 # Wii U NAND Dumper
 
-Ez az útmutató bemutatja, hogy hogyan dumpolhatod a Wii mini NAND-ját, a nélkül, hogy forrasztanod kellene rá egy SD kártya foglalatot. This was made possible by [nitr8](https://gbatemp.net/members/nitr8.72581/).
+Ez az útmutató bemutatja, hogy hogyan dumpolhatod a Wii mini NAND-ját, a nélkül, hogy forrasztanod kellene rá egy SD kártya foglalatot. Ezt [nitr8](https://gbatemp.net/members/nitr8.72581/) miatt lehetséges.
 
 ::: info
 
