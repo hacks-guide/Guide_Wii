@@ -18,7 +18,7 @@ Bármilyen GameCube periféria a Family Edition Wii vagy Wii mini esetén forras
 
 ::: info
 
-If you are looking for 100% completion saves online, you can find them [here](https://gamefaqs.gamespot.com/).
+Ha 100% teljesítettségű mentéseket keresel, [itt](https://gamefaqs.gamespot.com/) megtalálhatod őket.
 
 :::
 
@@ -32,8 +32,8 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 #### Letöltés
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
-2. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
+1. Csomagold ki a GCMM-et, és tedd az SD-kártyán vagy USB-meghajtón lévő `apps` mappába.
+2. Helyezd a `.gci` fájlt az SD-kártya vagy USB-meghajtó gyökerében lévő `MCBACKUP` nevű mappába.
 3. Csatlakoztasaz SD-kártyát vagy az USB-meghajtót a Wii-hoz, és indítsd el a GCMM-et a Homebrew Channel-ről.
 
 #### Visszaállítás
@@ -70,8 +70,8 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 #### Letöltés
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
-2. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
+1. Csomagold ki a GCMM-et, és tedd az SD-kártyán vagy USB-meghajtón lévő `apps` mappába.
+2. Helyezd a `.gci` fájlt az SD-kártya vagy USB-meghajtó gyökerében lévő `MCBACKUP` nevű mappába.
 3. Csatlakoztasaz SD-kártyát vagy az USB-meghajtót a Wii-hoz, és indítsd el a GCMM-et a Homebrew Channel-ről.
 
 #### Mentés
@@ -108,7 +108,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 #### Letöltés
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
+1. Csomagold ki a GCMM-et, és tedd az SD-kártyán vagy USB-meghajtón lévő `apps` mappába.
 2. Csatlakoztasaz SD-kártyát vagy az USB-meghajtót a Wii-hoz, és indítsd el a GCMM-et a Homebrew Channel-ről.
 
 #### A .raw dumpolása
