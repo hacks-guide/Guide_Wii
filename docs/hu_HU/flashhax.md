@@ -13,7 +13,7 @@ A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül
 
 1. Kapcsold be a konzolod.
 
-2. Indítsd el az Internet Channelt!
+2. Indítsd el az Internet Channel-t.
 
    ![](/images/exploits/flashhax/internet-channel-start.png)
 
