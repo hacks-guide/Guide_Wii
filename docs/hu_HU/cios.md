@@ -38,7 +38,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 :::
 
-1. Power off your console.
+1. Kapcsold ki a konzolod.
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 3. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
@@ -67,7 +67,7 @@ The WAD files should be on your SD card like this:
 
 2. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
-3. Power on your console.
+3. Kapcsold be a konzolod.
 
 4. Indítsd el a Homebrew Channelt!
 
@@ -92,7 +92,7 @@ The WAD files should be on your SD card like this:
 
    ::: info
 
-   The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
+   A „`(c)IOS detected in slot ### will be overwritten`” figyelmeztetést figyelmen kívül hagyhatod.
 
    :::
 
@@ -124,7 +124,7 @@ The WAD files should be on your SD card like this:
 
    :::
 
-10. Press `A`. Ezzel visszajutsz a konfigurációs képernyőre.
+10. Nyomj `A`-t. Ezzel visszajutsz a konfigurációs képernyőre.
 
 11. Ismételd meg az előző 5 lépést az alábbi beállításokkal:
 
@@ -173,6 +173,6 @@ Ha letöltötted a 4 WAD fájlt az I. részben, most törölheted őket az SD k�
 
 Folytatás az [Open Shop Channel telepítés](osc)-ével
 
-Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+Most, hogy a konzol megfelelő védelemmel rendelkezik, telepítheted az Open Shop Channelt, ami a nemhivatalos programok megbízható tárháza és hozzáférhető mind egy Wiiről vagy egy számítógépről.
 
 :::
