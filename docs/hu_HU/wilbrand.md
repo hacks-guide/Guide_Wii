@@ -29,7 +29,7 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 ### Lépések
 
-1. Power on your console.
+1. Kapcsold be a konzolod.
 
 2. Menj a `Wii Settings`-hez.
 
@@ -45,21 +45,21 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
    ![](/images/wii/MacAddress.png)
 
-6. On your computer, open the browser and go to [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/).
+6. A számítógépeden nyiss meg egy böngészőt és menj a [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org) oldalra.
 
 7. Add meg a Wii-od MAC-jét, verzióját és régióját.
 
-8. Ensure `Bundle the HackMii Installer for me!` is checked.
+8. Ügyelj rá, hogy a `Bundle the HackMii Installer for me!` opció bepipálva legyen.
 
 9. Vágd el mindkét drótot.
 
    ![](/images/exploits/wilbrand/web.png)
 
-10. Kattints a "Download your .zip"-re.
+10. Kattints a `Download your .zip`-re.
 
 11. Csatlakoztasd az SD kártyád a számítógépedhez.
 
-12. Copy the `private` folder and the `boot.elf` file from the downloaded `.zip` file to the root of your SD card.
+12. Másold a `private` mappát és a boot.elf`fájlt a letöltött`.zip\` fájlból az SD kártyád gyökerébe.
 
 13. Helyezd vissza az SD kártyád a konzolodba.
     - Az SD kártyát a SD kártya slot-ba kell belerakni a Wii elején. Egy USB > SD kártya átalakító az Wii USB portjába dugva nem fog működni.
@@ -74,7 +74,7 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
     - Biztosítsd, hogy a Wii-odon a dátum helyes, különben nem fogod megtalálni a levelet.
     - Bizonyos esetekben szükséges lehet a holnapi vagy a tegnapi levelek ellenőrzése is a levél megtalálásához.
-    - If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. Ha hibák vannak itt, lehet, hogy probléma van at SD kártya formátumával vagy a Wii SD kártya olvasójával.
+    - Ha nem látod a zöld levelet, nézd meg, hogy jelenik-e meg valamilyen hiba az SD kártya szekcióban a `Data Management`-ben. Ha hibák vannak itt, lehet, hogy probléma van at SD kártya formátumával vagy a Wii SD kártya olvasójával.
 
 17. If the exploit was successful, your device will have loaded the HackMii Installer.
     - Ha a Wii egy fekete képernyőn ragad, kapcsold ki a PWER gomb nyomva tartásával, majd próbáld újra.
@@ -108,7 +108,7 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 ### Lépések
 
-1. Power on your console.
+1. Kapcsold be a konzolod.
 
 2. Menj a `Wii Settings`-hez.
 
@@ -160,7 +160,7 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
     - Biztosítsd, hogy a Wii-odon a dátum helyes, különben nem fogod megtalálni a levelet.
     - Bizonyos esetekben szükséges lehet a holnapi vagy a tegnapi levelek ellenőrzése is a levél megtalálásához.
-    - If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. Ha hibák vannak itt, lehet, hogy probléma van at SD kártya formátumával vagy a Wii SD kártya olvasójával.
+    - Ha nem látod a zöld levelet, nézd meg, hogy jelenik-e meg valamilyen hiba az SD kártya szekcióban a `Data Management`-ben. Ha hibák vannak itt, lehet, hogy probléma van at SD kártya formátumával vagy a Wii SD kártya olvasójával.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
