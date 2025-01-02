@@ -11,13 +11,13 @@ A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül
 
 ### I. rész – Előkészületek
 
-1. Power on your console.
+1. Kapcsold be a konzolod.
 
 2. Indítsd el az Internet Channelt!
 
    ![](/images/exploits/flashhax/internet-channel-start.png)
 
-3. Go to `flashhax.com`.
+3. Látogasd meg a `flashhax.com` címet.
 
 4. Válaszd ki a konzolod régióját!
 
@@ -25,7 +25,7 @@ A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül
 
 5. A csillag-gombbal nyisd meg a könyvjelzőkezelőt!
 
-6. Select `Add Favorite`.
+6. Válaszd ki az `Add Favorite` opciót.
 
    ![](/images/exploits/flashhax/bookmark-page.png)
 
@@ -45,7 +45,7 @@ A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül
 
 Ha több próbálkozás után sem működik, próbáld törölni a böngésző sütijeit vagy az Internet Channel játékmentését!
 
-If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
+Ha további próbálkozások után sem működik a Flashhax, javasoljuk, hogy próbálj meg egy [másik exploitot](get-started) helyette.
 
 ::: tip
 
