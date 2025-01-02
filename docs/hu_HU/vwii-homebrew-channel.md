@@ -12,9 +12,9 @@ Ha már hackelted a Wii U-dat a múltban, akkor használhatod ugyanazt az SD ká
 
 ::: info
 
-If you haven't already, make sure you did a [NAND backup](https://wiiu.hacks.guide/#/aroma/nand-backup) and have the [Aroma Environment](https://aroma.foryour.cafe/) installed on your Wii U.
+Legyél biztos abban, hogy csináltál [egy NAND mentést](https://wiiu.hacks.guide/#/aroma/nand-backup) és telepítettél [Aroma Environment](https://aroma.foryour.cafe/)-et a Wii U-dra.
 
-Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
+Ha ez még nem történt meg, akkor folytasd az [Aroma telepítésével](https://wiiu.hacks.guide/#/aroma/getting-started) vagy [A vWii moddolása Wii U oldal nélkül](wiiu-nand-dumper) fejezetekkel
 
 :::
 
