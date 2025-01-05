@@ -52,7 +52,7 @@ Be especially cautious with IOS to avoid bricking, since they are specifically d
 
 For SD cards, you will want a minimum of 128MB to run an exploit. On average, however, you will want a card that is sized 2GB or more. Format instructions are listed [here](https://wiki.hacks.guide/wiki/Formatting_an_SD_card).
 
-For USB devices, you will want to use a USB hard drive or solid state drive formatted as either FAT32 or NTFS. We do not recommend using flash drives as they are prone to not working as intended with a Wii.
+For USB devices, you will want to use a USB hard drive or solid state drive formatted as FAT32. We do not recommend using flash drives as they are prone to not working as intended with a Wii.
 
 Please consult [the storage FAQ](faq#storage-device-faq) for more information.
 
