@@ -16,7 +16,7 @@ Please consult the [bricks guide](bricks) for more information.
 
 ## Console Compatibility
 
-This guide works with all off-the-shelf retail Wiis, as well as the Wii U vWii.
+This guide works with all off-the-shelf retail Wiis, including the Wii U vWii and Wii mini.
 It does **NOT** work with development Wiis, including models:
 
 + RVT-001 (NDEV)
@@ -34,8 +34,8 @@ Exercise caution when modifying region data and follow guides carefully to avoid
 
 :::: details What if I own a Wii U (vWii)?
 
-vWii (Wii mode on Wii U) is fully supported but it is recommended to setup an Aroma environment.
-Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew).
+Wii mode on Wii U (called vWii in the homebrew community) is fully supported but it is recommended to setup an Aroma environment.
+Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew). A USB hub is recommended.
 If there are multiple versions of homebrew, make sure you are using the version designed for vWii.
 Be especially cautious with IOS to avoid bricking, since they are specifically designed for vWii.
 
@@ -55,6 +55,8 @@ Be especially cautious with IOS to avoid bricking, since they are specifically d
 For SD cards, you will want a minimum of 128MB to run an exploit. On average, however, you will want a card that is sized 2GB or more. Format instructions are listed [here](https://wiki.hacks.guide/wiki/Formatting_an_SD_card).
 
 For USB devices, you will want to use a USB hard drive or solid state drive formatted as FAT32. We do not recommend using flash drives as they are prone to failure or not working as intended with a Wii.
+
+2.5 inch drives should work fine running off of USB power alone on a Wii; 3.5 inch consumes more power and will almost always need an external power adapter. For Wii U and Wii mini users, you will probably want to use an externally powered USB hub for drives that operate off of USB power alone.
 
 Please consult [the storage FAQ](faq#storage-device-faq) for more information.
 
