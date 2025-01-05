@@ -49,7 +49,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
    Navigating BootMii is not possible using a Wii Remote.
    You must use the POWER and RESET buttons on your console, or a GameCube controller plugged into port 1.
-   To navigate between options, press POWER. To select an option, press RESET.
+   Um zwischen Optionen zu navigieren, drücke POWER. To select an option, press RESET.
 
    :::
 
@@ -69,7 +69,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 8. After this step, it will verify the backup. Idealerweise sollten alle Blöcke nach dem Überprüfungsprozess grün sein.
 
-   - If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long as all non-bad blocks are successfully verified, this should be fine.
+   - If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. Solange alle nicht-schlechten Blocks erfolgreich verifiziert wurden, sollte alles gut sein.
 
    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -79,7 +79,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 ::: info
 
-Note: **restoring a NAND backup is usually a last resort**. There are often better ways to unbrick your console.
+Hinweis: **ein NAND-Backup wiederherzustellen ist meistens die letzte Lösung**. Es gibt oft bessere Wege, deine Konsole zu unbricken.
 
 Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
 
