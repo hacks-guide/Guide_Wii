@@ -25,7 +25,7 @@ Common examples of homebrew usage on the Wii include:
 + Installing [themes](themes) on the Wii Menu and in commonly used homebrew apps
 + Backing up your [discs](dump-games) and [other installed titles](dump-wads)
 + Installing a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
-+ Restoring online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
++ Restoring online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](nintendowfc)
 + and more!
 
 ## What does this guide do?
