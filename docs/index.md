@@ -32,9 +32,8 @@ Common examples of homebrew usage on the Wii include:
 
 With certain variations depending on the path you take, this guide has the end goal of:
 
-+ Exploiting your Wii to reach the HackMii installer
++ Exploiting your Wii and Installing the Homebrew Channel
 + Putting safeguards in place to help prevent bricks
-+ Installing the Homebrew Channel
 + Installing other homebrew that can enhance your experience, should you choose
 
 ## Ready to start?
