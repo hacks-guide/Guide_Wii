@@ -186,6 +186,6 @@ To change the cIOS used for a specific game, follow the instructions specific to
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Klicke hier, um zum Seitenindex zurückzugelangen.](site-navigation)
 
 :::
