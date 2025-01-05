@@ -7,7 +7,7 @@
 if [[ -n $(uname -a | grep -i "Microsoft\|MSYS\|CYGWIN\|Darwin") ]]; then printf "\033[1;91mNOTICE\033[0m:\n======\n\nBlueBomb does NOT work under MacOS, Windows, nor the \"Windows Subsystem for Linux\"."; exit; fi
 
 version="0.1.3"
-helpmsg="Need further help? You can either join the Wii Mini Hacking Discord server (recommended) at https://discord.gg/6ryxnkS, the RiiConnect24 Discord server at https://discord.gg/b4Y7jfD or you can send an e-mail to support@riiconnect24.net and we'll try to assist. "
+helpmsg="Need further help? You can either join the Wii Mini Hacking Discord server (recommended) at https://discord.gg/6ryxnkS, or the Nintendo Homebrew Discord server at https://discord.gg/MWxPgEp. "
 
 # set variable $sudo if the user is not root, so sudo is only used if absolutely needed
 [[ $USER != "root" ]] && sudo0="sudo" || true
