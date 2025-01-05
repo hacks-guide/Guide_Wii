@@ -25,7 +25,7 @@ const themeConfig = {
 				{ text: localeData.pages["priiloader-usage"], link: `/priiloader-usage` },
 				{ text: localeData.pages["dump-games"], link: `/dump-games` },
 				{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-				{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` },
+				{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` },
 			]
 		}
 	],
@@ -56,7 +56,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -97,7 +97,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -115,7 +115,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -134,7 +134,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -175,7 +175,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -194,7 +194,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -213,7 +213,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -243,7 +243,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -306,7 +306,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -332,7 +332,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -374,7 +374,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -404,7 +404,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -456,7 +456,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -475,7 +475,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -493,7 +493,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -508,7 +508,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -524,7 +524,7 @@ const themeConfig = {
 			},
 			sidebar_common
 		],
-		[`/wiimmfi`]: [
+		[`/nintendowfc`]: [
 			{
 				text: localeData.guide,
 				items: [
@@ -534,7 +534,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -586,7 +586,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -605,7 +605,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
@@ -624,7 +624,7 @@ const themeConfig = {
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["wiimmfi"], link: `/wiimmfi` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
 				]
 			},
 			sidebar_common
