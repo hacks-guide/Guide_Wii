@@ -126,7 +126,7 @@ For the purpose of using a drive with a Wii, external SSDs are often more expens
 
 ## Networking FAQ
 
-The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named WiFi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points:
+The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named WiFi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points (APs):
 
 + APs enforcing WPA enterprise encryption, or WPA3 only
 + APs not backwards compatible with WiFi 3, or broadcasting only on the 5 GHz band
