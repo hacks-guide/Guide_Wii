@@ -35,8 +35,9 @@ Exercise caution when modifying region data and follow guides carefully to avoid
 :::: details What if I own a Wii U (vWii)?
 
 vWii (Wii mode on Wii U) is fully supported but it is recommended to setup an Aroma environment.
-Missing Wii features can be restored. Almost all existing homebrew is currently supported.
-Make sure to install the vWii version of homebrew and IOS whenever available to avoid bricking.
+Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew).
+If there are multiple versions of homebrew, make sure you are using the version designed for vWii.
+Be especially cautious with IOS to avoid bricking, since they are specifically designed for vWii.
 
 ::::
 
@@ -44,6 +45,7 @@ Make sure to install the vWii version of homebrew and IOS whenever available to 
 
 Wii Mini is supported and has compatibility with the most existing homebrew.
 Missing Wii features can be restored. A LAN adapter and USB hub are recommended.
+If there are multiple versions of homebrew, make sure you are using the one designed for Wii mini.
 Be especially cautious with IOS to avoid bricking, since they are specifically designed for Wii mini.
 
 ::::
@@ -52,7 +54,7 @@ Be especially cautious with IOS to avoid bricking, since they are specifically d
 
 For SD cards, you will want a minimum of 128MB to run an exploit. On average, however, you will want a card that is sized 2GB or more. Format instructions are listed [here](https://wiki.hacks.guide/wiki/Formatting_an_SD_card).
 
-For USB devices, you will want to use a USB hard drive or solid state drive formatted as FAT32. We do not recommend using flash drives as they are prone to not working as intended with a Wii.
+For USB devices, you will want to use a USB hard drive or solid state drive formatted as FAT32. We do not recommend using flash drives as they are prone to failure or not working as intended with a Wii.
 
 Please consult [the storage FAQ](faq#storage-device-faq) for more information.
 
@@ -62,7 +64,7 @@ The Wii is an aging console, and as such, may have difficulties connecting to mo
 
 Its network hardware is based on 802.11g (retroactively named WiFi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use WiFi with your Wii.
 
-For the Wii U, vWii uses the internet settings set in the Wii U's main settings.
+For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the `Wii VC Launch` Aroma plugin.
 
 Please consult [the network FAQ](faq#networking-faq) for more information.
 
