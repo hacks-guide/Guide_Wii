@@ -44,13 +44,13 @@ Make sure to install the vWii version of homebrew and IOS whenever available to 
 
 Wii Mini is supported and has compatibility with the most existing homebrew.
 Missing Wii features can be restored. A LAN adapter and USB hub are recommended.
-Be especially cautious with IOS to avoid bricking.
+Be especially cautious with IOS to avoid bricking, since they are specifically designed for Wii mini.
 
 ::::
 
 ## Storage Compatibility
 
-For SD cards, you will want a minimum of 128MB to run an exploit. On average, however, you will want a card that is sized 2GB or more. Format as FAT32.
+For SD cards, you will want a minimum of 128MB to run an exploit. On average, however, you will want a card that is sized 2GB or more. Format instructions are listed [here](https://wiki.hacks.guide/wiki/Formatting_an_SD_card).
 
 For USB devices, you will want to use a USB hard drive or solid state drive formatted as either FAT32 or NTFS. We do not recommend using flash drives as they are prone to not working as intended with a Wii.
 

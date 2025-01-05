@@ -91,7 +91,7 @@ When considering buying or using an SD card or USB device, it is worth consideri
 
 ::: danger
 
-SD cards 2TB or larger currently do not exist, anyone attempting to sell you one is trying to rip you off.
+SD cards larger than 2TB currently do not exist, anyone attempting to sell you one is trying to rip you off.
 
 :::
 
