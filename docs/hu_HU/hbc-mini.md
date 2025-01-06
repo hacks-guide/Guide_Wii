@@ -6,7 +6,7 @@ A Homebrew Channelből lehet nemhivatalos alkalmazásokat futtatni.
 
 ::: warning
 
-This page is **only** intended for users of the Wii mini. If you have a regular Wii, follow [this guide](hbc) instead.
+Ez az oldal **csak** a Wii mini felhasználóknak szól. Ha egy normál Wii-od van, [ezt az útmutatót](hbc) kövesd.
 
 :::
 
