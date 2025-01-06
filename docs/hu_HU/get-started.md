@@ -1,6 +1,6 @@
 # Kezdés
 
-If your Wii is already softmodded and you would like to update the softmods, follow [this](hackmii) guide to upgrade your setup.
+Ha a Wii már rendelkezik softmoddal, és szeretnéd frissíteni a softmodokat, kövesd [ezt](hackmii) az útmutatót a frissítéshez.
 
 Az itt felsorolt exploitok mindegyike különböző módszer ugyanannak a végeredménynek az elérésére (a HackMii telepítőjéhez való eljutás).
 
