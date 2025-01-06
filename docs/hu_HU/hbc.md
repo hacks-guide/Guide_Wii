@@ -27,11 +27,11 @@ You can always [install it later](hackmii).
 
    ![](/images/hackmii/test_results.png)
 
-4. Select `Install the Homebrew Channel`.
+4. Válaszd az `Install the Homebrew Channel`-t.
 
    ![](/images/hackmii/hbc_install.png)
 
-5. Once it is completed, select `Continue`.
+5. Miután befejeződött, nyomd meg a `Continue` gombot.
 
    ![](/images/hackmii/hbc_install_ok.png)
 
@@ -49,13 +49,13 @@ You can always [install it later](hackmii).
 
    ![](/images/hackmii/bootmii_install_ok.png)
 
-8. Once it is completed, select `Continue`.
+8. Miután befejeződött, nyomd meg a `Continue` gombot.
 
 9. If you have the option to `Install BootMii as boot2`, please do so as well.
 
    ![](/images/hackmii/bootmii_install4.png)
 
-10. Select `Exit`.
+10. Válaszd az `Exit`-et.
 
 11. Ezután a konzol el fogja indítani a Homebrew Channelt.
 
@@ -68,7 +68,7 @@ Az útmutató befejezése után képes leszel nemhivatalos alkalmazásokat futta
 Megjegyzés: Ha nemhivatalos alkalmazásokat telepítesz SD kártyára vagy pendrive-ra, a könyvtárfelépítésed így kell, hogy kinézzen:
 
 ```
-💾 SD Card or USB Drive
+💾 SD kártya vagy USB Drive
 | ╸📁 apps
 	| ╸📁 AppName1
 		| ╸📄 boot.dol
