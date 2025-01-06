@@ -68,9 +68,9 @@ Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható.
 
 #### Általános
 
-- A WiiFlow alapértelmezés szerint csak az SD-kártyán lévő játékokat keresi. This can be changed by going to `Settings > Startup Settings` to then turn off `Mount SD Only`.
-- You can toggle the current view in WiiFlow between plugins, games, homebrew, and Wii channels by clicking the button to the left of `Home`, on the bottom right.
-- You can download game covers by going to `Settings` > `Download Covers and Banners`.
+- A WiiFlow alapértelmezés szerint csak az SD-kártyán lévő játékokat keresi. Ez megváltoztatható a `Settings > Startup Settings` menüpontban, ahol `Mount SD Only` opciót kell kikapcsolni.
+- A WiiFlow-ban az aktuális nézetet a jobb alsó sarokban, a `Home`-tól balra található gombra kattintva válthatod át a pluginok, játékok, homebrew és Wii-csatornák között.
+- A játékborítókat a `Settings` > `Download Covers and Banners` menüpontban töltheted le.
 
 #### Felhasználói felület
 
@@ -113,7 +113,7 @@ Amikor a kurzort a képernyő aljára viszed, miközben az flow nézetben vagy, 
 
 ### Telepítés
 
-1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
+1. Győződj meg róla, hogy a Wii-den már telepítve van a cIOS 248-251 - ezt olyan alkalmazásokkal ellenőrizheted, mint a [SysChecker](syscheck) vagy a d2x cIOS telepítő.
 2. Töltsd le az USB Loader GX-et, és telepítsd az SD-kártyára vagy USB-eszközre.
 
 ### Gyorsindítási útmutató
@@ -121,8 +121,8 @@ Amikor a kurzort a képernyő aljára viszed, miközben az flow nézetben vagy, 
 #### Általános
 
 - Ha az USB Loader GX azt írja, hogy "Waiting for HDD..." 20 másodperces visszaszámlálással, akkor nagy valószínűséggel nem tudja felismerni az USB-eszközt. Próbálj meg kilépni az alkalmazásból, és győződj meg arról, hogy az USB-eszközöd az alsó portba csatlakoztattad, ha a Wii vízszintesen van elhelyezve, vagy a széléhez legközelebbi portba, ha a Wii függőlegesen van elhelyezve. Az is lehet, hogy rosszul van formázva. Győződj meg róla, hogy az USB-meghajtó FAT32 formátumban van formázva, MBR partíciós táblával és 32 kB (32768 bájt) kiosztási egységmérettel/fürtmérettel.
-- You can press the 1 Button on your Wii Remote to open up a dialog to download game covers and artwork from [GameTDB](https://gametdb.com/). A játékborítók és grafikák letöltése eltarthat egy ideig, attól függően, hogy mennyi játékod van.
-- A GameCube vagy "egyedi" Wii játékokhoz vagy van vagy lehet hogy nincs egyedi banner, amit az USB Loader GX használ. To enable this, find or write `CustomBannersURL = http://banner.rc24.xyz/` in `config/GXGlobal.cfg` on the drive you installed the app on. Then, you can use the `Custom Banner` download by pressing the 1 Button on your Wii Remote.
+- A Wii távirányító 1 gombjának megnyomásával megnyithatod a [GameTDB](https://gametdb.com/)-ből a játékborítók és grafikák letöltésére szolgáló párbeszédpanelt. A játékborítók és grafikák letöltése eltarthat egy ideig, attól függően, hogy mennyi játékod van.
+- A GameCube vagy "egyedi" Wii játékokhoz vagy van vagy lehet hogy nincs egyedi banner, amit az USB Loader GX használ. Ennek engedélyezéséhez keresd meg vagy írd be a `CustomBannersURL = http://banner.rc24.xyz/` értéket a `config/GXGlobal.cfg` fájlban azon a meghajtón, amelyre telepítetted az alkalmazást. Ezután a `Custom Banner` letöltését a Wii Remote 1 gombjának megnyomásával használhatod.
 
 #### Felhasználói felület
 
