@@ -11,7 +11,7 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 ### Előkészítés
 
-1. Power off your console.
+1. Kapcsold ki a konzolod.
 
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 
@@ -19,7 +19,7 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 4. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
-5. Power on your console.
+5. Kapcsold be a konzolod.
 
 6. Indítsd el a Homebrew Channelt!
 
@@ -41,7 +41,7 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
     ![](/images/homebrew/CleanRip/insertdevice.png)
 
-12. When prompted, select `Yes` to download the redump.org DAT files.
+12. Amikor a program megkérdezi, válaszolj igennel ( `Yes`) a redump.org DAT-fájlok letöltésére.
 
     - A másolat készítése után ezeknek a fájloknak a segítségével lehet igazolni, hogy a másolatok tiszták/pontosak-e.
 
@@ -71,7 +71,7 @@ Ha a program hibát ír ki, ellenőrizd, hogy a másolni kívánt lemez tiszta-e
 
 :::
 
-1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e! If unsure, select `No`.
+1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e! Ha nem vagy benne biztos, válaszolj nemmel (`No`).
 
    ![](/images/homebrew/CleanRip/dateldisc.png)
 
@@ -103,7 +103,7 @@ Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról másolatot ké
 
 :::
 
-1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e! If unsure, select `No`.
+1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e! Ha nem vagy benne biztos, válaszolj nemmel (`No`).
 
    ![](/images/homebrew/CleanRip/dateldisc.png)
 
