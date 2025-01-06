@@ -15,7 +15,7 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 
-3. Copy the `apps` folder from the CleanRip `.zip` to the root of your SD card or USB drive.
+3. Másold át az `apps` mappát a CleanRip `.zip` fájlból az SD kártya vagy az USB drive gyökerébe.
 
 4. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
@@ -25,7 +25,7 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 7. Indítsd el a listáról a CleanRipet!
 
-8. When prompted, select `Yes` to calculate disc checksums.
+8. Amikor a program megkérdezi, hogy „Enable checksum calculations?”, válaszolj igennel (`Yes`).
 
    ![](/images/homebrew/CleanRip/checksum.png)
 
