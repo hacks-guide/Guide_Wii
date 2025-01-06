@@ -4,19 +4,19 @@ Ez az útmutató bemutatja a Wii mentés betöltőit. Ezek elsősorban a kiskere
 
 ::: warning
 
-Ahhoz, hogy a Wii loader megfelelően működjön, a legújabb cIOS-t kell telepíteni. Please check [this](cios) guide for instructions if you are on Wii, and [this](cios-mini) guide if you are on Wii mini.
+Ahhoz, hogy a Wii loader megfelelően működjön, a legújabb cIOS-t kell telepíteni. Kérjük, nézd meg [ezt](cios) az útmutatót az utasításokért, ha Wii-t használsz, és [ezt az útmutatót, ha Wii mini-t](cios-mini).
 
 :::
 
 ::: info
 
-A játékok lejátszásához ajánlott egy nagy SD-kártyát vagy egy külső merevlemezt használni, a flash meghajtók nem ajánlottak, és nagyon szórványosan működnek. See [storage FAQ](faq).
+A játékok lejátszásához ajánlott egy nagy SD-kártyát vagy egy külső merevlemezt használni, a flash meghajtók nem ajánlottak, és nagyon szórványosan működnek. Lásd a [tárolási GYIK-et](faq).
 
 :::
 
 ::: info
 
-The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). A forwarder telepítéséhez futtasd az alkalmazást a Homebrew Channel csatornán. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme).
+The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). A forwarder telepítéséhez futtasd az alkalmazást a Homebrew Channel csatornán. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. A [YAWM ModMii Edition](yawmme) segítségével telepítheted.
 
 :::
 
@@ -74,9 +74,9 @@ Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható.
 
 #### Felhasználói felület
 
-When WiiFlow detects games, they are displayed in flow view.
+Amikor a WiiFlow játékokat észlel, azok flow nézetben jelennek meg.
 
-When you click on a game, you are given these options:
+Ha rákattintasz egy játékra a következő opciókat érheted el:
 
 - Csillag - A játék hozzáadása a kedvencekhez.
 - Könyvespolc - Hozzáadja a játékot az általad választott 6 kategória egyikéhez.
