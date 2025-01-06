@@ -160,7 +160,7 @@ Például:
 - A Spongyabob's Boating Bash futtatása.
 - USB-dongle használata a Rock Bandben.
 
-A more comprehensive (although still incomplete) list can be found [here](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
+Egy sokkal teljesebb (de még mindig nem teljes) lista megtalálható [itt](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
 
 Mind az USB Loader GX, mind a WiiFlow Lite úgy van programozva, hogy automatikusan megtalálja a legjobb cIOS-t, és az alapértelmezett beállításokkal töltse be a játékot.  Ha azonban valamilyen oknál fogva ezek a betöltők rossz cIOS-t választanak, akkor lehetőséged van arra, hogy te magad változtasd meg.
 
