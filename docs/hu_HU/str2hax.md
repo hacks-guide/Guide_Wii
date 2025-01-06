@@ -2,7 +2,7 @@
 
 ::: warning
 
-Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
+Fontos tudnod, hogyha az ISP-d vagy a hálózati környezeted nem engedi, hogy egyéni DNS szervert használj, az str2hax nem fog működni és [egy másik exploitot kell választanod](get-started).
 
 :::
 
@@ -94,7 +94,7 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
    ![](/images/hackmii/scam.png)
 
-   - If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+   - If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, kérjük indítsd újra a Wii-od és próbáld újra.
 
 ::: tip
 
