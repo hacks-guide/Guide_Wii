@@ -23,7 +23,7 @@ You can always [install it later](hackmii).
 
 2. Várj 30 másodpercet, amíg meg nem jelenik a „Press 1 to continue”-üzenet, majd nyomd meg az 1-es gombot!
 
-3. Select `Continue`.
+3. Válaszd a `Continue`-t.
 
    ![](/images/hackmii/test_results.png)
 
@@ -35,11 +35,11 @@ You can always [install it later](hackmii).
 
    ![](/images/hackmii/hbc_install_ok.png)
 
-6. Select `Back`, then select `BootMii`.
+6. Nyomd meg a `Back`, majd a `BootMii` gombot.
 
    ![](/images/hackmii/bootmii_install.png)
 
-7. Select `Install BootMii as IOS`.
+7. Nyomd meg `Install BootMii as IOS` gombot.
 
    ![](/images/hackmii/bootmii_install1.png)
 
