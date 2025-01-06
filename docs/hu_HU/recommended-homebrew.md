@@ -28,9 +28,9 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 
 ## Emulátorok
 
-- [FCE Ultra RX](https://oscwii.org/library/app/fceurx) - A fork of FCE Ultra GX, a Nintendo Entertainment System/Famicom emulator, with extra features and speed improvements.
-- [Snex9x RX](https://oscwii.org/library/app/Snes9xRX) - A fork of Snes9x GX, a Super Nintendo Entertainment System/Super Famicom emulator, with extra features and speed improvements.
-- [Not64](https://oscwii.org/library/app/not64) - A port of Mupen64 0.5, a Nintendo 64 emulator, to the Wii.
+- [FCE Ultra RX](https://oscwii.org/library/app/fceurx) – Az FCE Ultra GX forkja, egy NES/Famicom-emulátor, ami extra funkciókkal és teljesítményjavításokkal rendelkezik.
+- [Snex9x RX](https://oscwii.org/library/app/Snes9xRX) – Az Snes9x GX SNES / Super Famicom-emulátor forkja, ami extra funkciókkal és teljesítményjavításokkal rendelkezik.
+- [Not64](https://oscwii.org/library/app/not64) - A Mupen64 0.5 portja, egy Nintendo 64 emulator a Wii-re.
 - [Genesis Plus GX](https://oscwii.org/library/app/genplus-gx) - An emulator with support for the Sega SG-1000, Sega Master System, Sega Genesis/Mega Drive, Sega Game Gear, and Sega/Mega CD consoles.
 - [mGBA](https://oscwii.org/library/app/mgba) - A port of mGBA, a Game Boy/Game Boy Color/Game Boy Advance emulator, to the Wii.
 - [WiiMednafen](https://oscwii.org/library/app/wiimednafen) - A port of Mednafen, a multi-system emulator, to the Wii. Ez a verzió több ritkább konzolt is támogat, mint a Neo Geo Pocket, TurboGrafx 16/PC Engine (CD) és a Bandai Wonderswan.
