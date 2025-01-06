@@ -62,11 +62,11 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 ::::
 
-:::: tab (Wii) Via NUS Downloader
+:::: tab (Wii) NUS Downloader-rel
 
 1. A számítógépeden töltsd le a [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)-t.
 2. Másold ki az NUS Downloader `.zip` fájljának tartalmát egy mappába.
-3. Run `NUS Downloader.exe`.
+3. Futtasd a `NUS Downloader.exe` fájlt.
 4. Navigate to `Database` -> `System` -> `System Menu`.
 5. Select the version that corresponds to your Wii menu version.
 6. Check the `Create decrypted contents (*.app)` box.
@@ -74,16 +74,16 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 8. Once the download is finished, there will be a folder named `titles` in the same folder as the NUS Downloader.
 9. Open the `titles` folder, then the `0000000100000002` folder inside it.
 10. Find the **largest .app file** (usually 6~7MB) inside the folder.
-11. Create a `themes` folder on the root of your SD card/USB device.
+11. Hozz létre egy `themes` mappát az SD-kártya/USB-eszköz gyökerében.
 12. Copy the .app file to the newly created `themes` folder. This is the base theme you will use to build your custom theme.
 
 ::::
 
-:::: tab (vWii) Via NUS Downloader
+:::: tab (vWii) NUS Downloader-rel
 
 1. On your computer, download [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
 2. Copy all files from the vWii NUS Downloader `.zip` to a folder on your computer.
-3. Run `NUS Downloader.exe`.
+3. Futtasd a `NUS Downloader.exe` fájlt.
 4. Navigate to `Database` -> `System` -> `System Menu`.
 5. Select the version that corresponds to your Wii U's region in the table below:
 
@@ -99,22 +99,22 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 4. Open the `titles` folder, then the `0000000700000002` folder inside it.
 5. Find the .app file that corresponds to your Wii U's region in the table below:
 
-| Regió  | .app file    |
+| Regió  | .app fájl    |
 | ------ | ---------------------------- |
 | Japán  | 0000001c.app |
 | USA    | 0000001f.app |
 | Európa | 00000022.app |
 
-1. Create a `themes` folder on the root of your SD card/USB device.
+1. Hozz létre egy `themes` mappát az SD-kártya/USB-eszköz gyökerében.
 2. Copy the .app file to the newly created `themes` folder. This is the base theme you will use to build your custom theme.
 
 ::::
 
 :::: tab (Wii) Via ThemeMii
 
-1. Create a `themes` folder on the root of your SD card/USB device.
+1. Hozz létre egy `themes` mappát az SD-kártya/USB-eszköz gyökerében.
 2. Extract the ThemeMii MOD `.zip` to a location on your PC.
-3. Launch the ThemeMii application.
+3. Indítsd el a ThemeMii alkalmazást.
 4. Go to `Tools` -> `Download Base App` -> `Version of your Wii Menu` -> `Region of your Wii Menu`.
 5. A dialog box will pop-up asking you to enter in a value to create a key. Enter what it says, and it will create a key that will be used to decrypt the Wii Menu contents from Nintendo's servers.
 6. A file selection box will ask you where to save the .app file. Save it to the `themes` folder on your SD card/USB device.
@@ -126,19 +126,19 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 ### Téma készítése
 
 1. Extract the ThemeMii MOD `.zip` to a location on your PC.
-2. Launch the ThemeMii application.
+2. Indítsd el a ThemeMii alkalmazást.
 3. Go to `File` -> `Open`, and select the `.mym` file for the theme you want to build.
-4. Press `Create csm`.
+4. Nyomjd meg a `Create csm` gombot.
 5. When asked to select an `.app` file, select the newly downloaded base theme in the `themes` of your SD card or USB device.
 6. When asked to save the `.csm` file, save it in the `themes` folder.
-7. Miután a téma felépítése elkészül, a .mym fájl mentésétre vonakozó kérdésre kell válaszolnod. Press `No`.
+7. Miután a téma felépítése elkészül, a .mym fájl mentésétre vonakozó kérdésre kell válaszolnod. Nyomj `No`-t.
 
 ### Téma telepítése
 
 1. Csatlakoztasd az SD-kártyát vagy az USB-eszközt a konzolodhoz, és indítsd el a Homebrew Channel csatornát.
 2. Indítsd el a csm-installert, és várd meg, amíg betöltődik.
 3. Select the theme you would like to install with `A`. Ezen a ponton feltétlenül győződj meg arról, hogy a rendszermenü verziódnak és régiódnak megfelelő témát töltöted le.
-4. Press `+` to install the theme.
+4. Nyomj `+` gombot a téma telepítéséhez.
 5. Indítsd újra a Wii menüt, és nézd meg, hogy a téma sikeresen települt-e. Ha minden jól ment, akkor az alábbihoz hasonló eredményt fogsz kapni!
 
    ![](/images/themes/themed-wii-menu.png)
@@ -187,19 +187,19 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 - Egy moddolt Wii
 - Egy SD kártya vagy USB drive
 - Egy Windows/macOS/Linux számítógép internet kapcsolattal
-- A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
+- Egy [téma](https://wiibrew.org/wiki/Homebrew_Channel/Themes) a WiiBrew-ból
 
 ### Lépések
 
-1. Download a theme `.zip` file from the website linked above.
+1. Töltsd le a téma `.zip` fájlját a fent említett weboldalról.
 
    ![](/images/themes/homebrew-channel-example-theme.png)
 
-2. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
+2. Illesszd be a `.zip` fájlt az `apps` mappába a tárolóeszközödön, ahová a homebrew-okat töltöd.
 
    ![](/images/themes/homebrew-channel-paste-zip.png)
 
-3. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
+3. Csomagold ki a `.zip` tartalmát az `apps` mappába, majd töröld az archívum fájlt.
 
    ![](/images/themes/homebrew-channel-extract-theme.png)
 
