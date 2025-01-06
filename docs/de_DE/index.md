@@ -10,7 +10,7 @@ hero:
 
 ::: info
 
-Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
+Since this guide has just been published, translations are a work-in-progress. Danke für deine Geduld!
 
 :::
 
@@ -22,16 +22,16 @@ To get the most out of this guide, you should read this page before proceeding.
 
 ## What is "homebrew"?
 
-**Homebrew** refers to software that was not authorized by the original creator of a piece of hardware - in this case, Nintendo. This can include games, utilities, emulators and much more!
+**Homebrew** beschreibt Software, die nicht von dem eigentlichen Entwickler der Hardware autorisiert worden ist - in diesem Fall, Nintendo. This can include games, utilities, emulators and much more!
 
 Here's a list of things you can do using homebrew.
 
 - [Backup](bootmii) and [restore](bootmiirecover) your Wii's NAND (system memory)
 - Enhance the [brick protection](priiloader) of your Wii
-- Download new homebrew apps with the [Open Shop Channel](osc)
-- [Patch game disc contents](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
-- Install [themes](themes) on the Wii Menu and in commonly used homebrew apps
-- Back up your [discs](dump-games) and [other installed titles](dump-wads)
+- Lade neue Homebrew-Apps mit dem [Open Shop Channel](osc) herunter
+- [Patche die Spiel-Disc-Inhalte](https://wiki.hacks.guide/wiki/Wii:Riivolution), um Modifikationen zu laden
+- Installiere [Themes](themes) für das Wii-Menü und für häufig genutzte Homebrew-Apps
+- Mache ein Backup deiner [Discs](dump-games) und [anderer installierter Titel](dump-wads)
 - Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
 - Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
 - Restore online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
