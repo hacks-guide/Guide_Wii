@@ -22,19 +22,19 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 - [**Riivolution**](https://wiki.hacks.guide/wiki/Wii:Riivolution) - An on-the-fly game patcher for use with retail game discs. Lehetővé teszi a cserefájlok SD kártyán vagy pendrive-on való tárolását, amelyeket a játék futás közben olvas be. A Riivolution lehetővé teszi az egyedi textúrák, zene, pályák, memóriamódosítások, fordítások és sok más egyszerű betöltését.
 - [USB Loaders](wii-loaders) - A general recommendation for a USB loader of any kind, which allows you to play game backups of retail discs. További információt a hivatkozott útmutatóban találsz, ami mind a Wii-, mind a GameCube-betöltőkről is beszél.
 - [CavEX](https://oscwii.org/library/app/cavex) - A project aiming to recreate the core survival experience of your favorite block game on the Wii up to Beta 1.7.3.
-- [Sonic CD](https://oscwii.org/library/app/SonicCDWii) - A port of the Sonic CD 2011 re-release from the RSDKv3 decompilation. **The app requires assets from the official release in order to run**.
-- [CTGP-R](https://www.chadsoft.co.uk/download/) - A hefty mod of Mario Kart Wii that adds over **200** new tracks to the game. A Riivolutiontől független. A futtatáshoz szükséged lesz a játéklemezre. Magyar nyelven is játszható.
-- [Newer Super Mario Bros. Wii](https://newerteam.com/wii/download.html) - A significant New Super Mario Bros. Wii mod that adds **128** brand new levels to the game. A futtatáshoz szükséged lesz a Riivolutionre és egy New Super Mario Bros. Wii-lemezre.
+- [Sonic CD](https://oscwii.org/library/app/SonicCDWii) - A port of the Sonic CD 2011 re-release from the RSDKv3 decompilation. **A játéknak szüksége van fájlokra a hivatalos kiadásból a futáshoz**.
+- [CTGP-R](https://www.chadsoft.co.uk/download/) - Egy izmos mod-ja a Mario Kart Wii-nak, amit **200** új pályát ad a játékhoz. A Riivolutiontől független. A futtatáshoz szükséged lesz a játéklemezre. Magyar nyelven is játszható.
+- [Newer Super Mario Bros. Wii](https://newerteam.com/wii/download.html) – A New Super Mario Bros. Wii modja, ami hozzáad **128** teljesen új pályát a játékhoz. A futtatáshoz szükséged lesz a Riivolutionre és egy New Super Mario Bros. Wii-lemezre.
 
 ## Emulátorok
 
 - [FCE Ultra RX](https://oscwii.org/library/app/fceurx) – Az FCE Ultra GX forkja, egy NES/Famicom-emulátor, ami extra funkciókkal és teljesítményjavításokkal rendelkezik.
 - [Snex9x RX](https://oscwii.org/library/app/Snes9xRX) – Az Snes9x GX SNES / Super Famicom-emulátor forkja, ami extra funkciókkal és teljesítményjavításokkal rendelkezik.
 - [Not64](https://oscwii.org/library/app/not64) - A Mupen64 0.5 portja, egy Nintendo 64 emulator a Wii-re.
-- [Genesis Plus GX](https://oscwii.org/library/app/genplus-gx) - An emulator with support for the Sega SG-1000, Sega Master System, Sega Genesis/Mega Drive, Sega Game Gear, and Sega/Mega CD consoles.
+- [Genesis Plus GX](https://oscwii.org/library/app/genplus-gx) - Emulátor a Sega SG-1000, Sega Master System, Sega Genesis/Mega Drive, Sega Game Gear és Sega/Mega CD konzolokhoz.
 - [mGBA](https://oscwii.org/library/app/mgba) - A port of mGBA, a Game Boy/Game Boy Color/Game Boy Advance emulator, to the Wii.
-- [WiiMednafen](https://oscwii.org/library/app/wiimednafen) - A port of Mednafen, a multi-system emulator, to the Wii. Ez a verzió több ritkább konzolt is támogat, mint a Neo Geo Pocket, TurboGrafx 16/PC Engine (CD) és a Bandai Wonderswan.
-- [WiiSX](https://oscwii.org/library/app/wiiSX) - A port of PCSX-ReARMed, a Sony PlayStation emulator, to the Wii.
+- [WiiMednafen](https://oscwii.org/library/app/wiimednafen) - A Mednafen, egy több rendszeres emulátor, egy portja a Wii-ra. Ez a verzió több ritkább konzolt is támogat, mint a Neo Geo Pocket, TurboGrafx 16/PC Engine (CD) és a Bandai Wonderswan.
+- [WiiSX](https://oscwii.org/library/app/wiiSX) - A PCSX-ReARMed, egy Sony PlayStation emulátor, portja Wii-ra.
 - [DOSBox Wii](https://oscwii.org/library/app/dosbox-wii) - A port of DOSBox, an emulator which runs software for MS-DOS compatible disk operating systems.
 
 ## Szórakozás
