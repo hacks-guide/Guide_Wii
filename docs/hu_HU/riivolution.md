@@ -9,4 +9,4 @@ head:
 
 Átirányítunk a Hacks Guide wikire.
 
-If the page doesn't refresh, click [here](https://wiki.hacks.guide/wiki/Wii:Riivolution).
+Ha az oldal nem jelenik meg, kattints [ide](https://wiki.hacks.guide/wiki/Wii:Riivolution).
