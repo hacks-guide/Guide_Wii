@@ -9,17 +9,17 @@ Ez az útmutató azt mutatja be, hogy hogyan dumpolhatsz WAD-okat Wii-od rendsze
 
 ## Lépések
 
-1. Power off your console.
+1. Kapcsold ki a konzolod.
 
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 
-3. Copy the `apps` folder from the Yet Another BlueDump MOD `.zip` to the root of your SD card or USB drive.
+3. Másold az `apps` mappát a Yet Another BlueDump MOD `.zip`-ből az SD kártyád vagy USB drive-od gyökerébe.
 
 4. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
-5. Power on your console.
+5. Kapcsold be a konzolod.
 
-6. Indítsd el a Homebrew Channelt!
+6. Indítsd el a Homebrew Channelt.
 
 7. Indítsd el a Yet Another BlueDump MOD-ot a homebrew-ok listájáról.
 
@@ -27,7 +27,7 @@ Ez az útmutató azt mutatja be, hogy hogyan dumpolhatsz WAD-okat Wii-od rendsze
 
    ![](/images/homebrew/DumpWADS/1.png)
 
-9. Select `Installed Channel Titles`.
+9. Válaszd az `Installed Channel Titles` opciót.
 
    ![](/images/homebrew/DumpWADS/2.png)
 
@@ -35,15 +35,15 @@ Ez az útmutató azt mutatja be, hogy hogyan dumpolhatsz WAD-okat Wii-od rendsze
 
     ![](/images/homebrew/DumpWADS/3.png)
 
-11. Select `Backup to WAD`.
+11. Válaszd a `Backup to WAD` opciót.
 
     ![](/images/homebrew/DumpWADS/4.png)
 
-12. At the prompt to `Fakesign the ticket`, select `Yes`.
+12. A `Fakesign the ticket`, kérdésnél válaszd a `Yes`-t.
 
-13. At the prompt to `Fakesign the TMD`, select `No`.
+13. A `Fakesign the TMD` kérdésnél válaszd a `No`-t.
 
-14. At the prompt to `Change the output WAD region`, select `No`.
+14. A `Change the output WAD region` kérdésnél válaszd a `No`-t.
 
     ![](/images/homebrew/DumpWADS/5.png)
 
