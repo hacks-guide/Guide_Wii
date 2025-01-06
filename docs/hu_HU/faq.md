@@ -8,7 +8,7 @@ A konzoltól függően nem túl kockázatos. A Wii esetében sokkal kisebb a bel
 
 ### Az XXXXXX hibakódot kapom, hogyan tudom javítani?
 
-In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). A gyakoribb hibák javításai az alábbiakban vannak felsorolva:
+Ha ellenőrizni szeretnéd, hogy mit jelent a hiba, kérjük, látogass el a [Wiimmfi hiba oldalra](https://wiimmfi.de/error). A gyakoribb hibák javításai az alábbiakban vannak felsorolva:
 
 #### Error 051330/51330
 
@@ -18,11 +18,11 @@ Run an Internet connection test by going to `Wii Settings > Internet > Connectio
 
 ##### RiiConnect24 felhasználók számára
 
-A RiiConnect24 régi DNS-kiszolgálóját használod. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+A RiiConnect24 régi DNS-kiszolgálóját használod. Kövesd [ezt](riiconnect24#section-iv---connecting) az útmutatót a lépésekért, hogy hogyan módosíthatod.
 
 ##### Nem RiiConnect24 felhasználók számára
 
-Your Primary DNS server is incorrect or not working.
+Az elsődleges DNS szerver vagy helytelen vagy nem működik.
 
 This can also happen if you use a proxy server and it is down.
 
@@ -30,7 +30,7 @@ This can also happen if you use a proxy server and it is down.
 
 ##### RiiConnect24 felhasználók számára
 
-Ha ezt a hibát kapod, vagy a Nintendo felhasználói megállapodását látod a RiiConnect24 logója nélkül, az azt jelenti, hogy az internet szolgáltatód vagy hálózatod blokkolja az RC24 DNS használatát. You can set `Auto-Obtain DNS` to `On` to solve this. A RiiConnect24 továbbra is működni fog nélküle. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+Ha ezt a hibát kapod, vagy a Nintendo felhasználói megállapodását látod a RiiConnect24 logója nélkül, az azt jelenti, hogy az internet szolgáltatód vagy hálózatod blokkolja az RC24 DNS használatát. Beállíthatod az `Auto-Obtain DNS`-t `On`-ra ennek megoldásához. A RiiConnect24 továbbra is működni fog nélküle. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
 
 ##### Nem RiiConnect24 felhasználók számára
 
@@ -99,7 +99,7 @@ Amikor SD-kártya vagy USB-eszköz vásárlását vagy használatát fontolgatod
 
 :::
 
-SD-kártyák vásárlásakor általában ajánlott, hogy minél drágább és nagyobb kapacitású, annál inkább ragaszkodjon a jól ismert márkákhoz. Míg egy általános 2 GB-os SD-kártyát vásárolhatsz, és valószínűleg biztonságban vagy, ugyanez nem mondható el egy 512 GB-os SD-kártyáról. Az SD-kártyák általános jelenlegi árazása a 256 GB-os és az alatti kártyák esetében 10-20 USD körül van, míg az 512 GB-os kártyák ára 40 USD körül van. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Légy óvatos, ha az eBay-en vásárolsz merevlemezt.
+SD-kártyák vásárlásakor általában ajánlott, hogy minél drágább és nagyobb kapacitású, annál inkább ragaszkodjon a jól ismert márkákhoz. Míg egy általános 2 GB-os SD-kártyát vásárolhatsz, és valószínűleg biztonságban vagy, ugyanez nem mondható el egy 512 GB-os SD-kártyáról. Az SD-kártyák általános jelenlegi árazása a 256 GB-os és az alatti kártyák esetében 10-20 USD körül van, míg az 512 GB-os kártyák ára 40 USD körül van. Ha az Amazonról vásárolsz, győződj meg róla, hogy a kártya vagy `Sold by/Shipped by Amazon` vagy `Sold by [brand], Shipped by Amazon`. Légy óvatos, ha az eBay-en vásárolsz merevlemezt.
 
 Ajánlott márkák:
 
