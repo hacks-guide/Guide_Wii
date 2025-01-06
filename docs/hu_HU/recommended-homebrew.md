@@ -44,8 +44,8 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 
 ::: tip
 
-[Continue to WiiConnect24](wiiconnect24)
+[Folytatás a WiiConnect24-gyel](wiiconnect24)
 
-Although WiiConnect24 was discontinued by Nintendo in June 2013, there is a fan-hosted revival service that restores and expands its functionality.
+Habár a WiiConnect24-et leállította a Nintendo 2013 júniusában, létezik egy rajongók által üzemeltetett túlélő szolgáltatás, ami helyreállítja és kibővíti a funkcionalitást.
 
 :::
