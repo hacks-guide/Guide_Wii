@@ -148,7 +148,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ::: tip
 
-[Continue to cIOS](cios)
+[Folytatás a cIOS-sal](cios)
 
 cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use [USB Loader GX or WiiFlow](wii-loaders) to play games from your USB drive or SD card.
 
