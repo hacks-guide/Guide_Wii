@@ -48,7 +48,7 @@ You will be installing `uneoboot.dol` in step 3.
 
    ![](/images/priiloader/installing_file_ok.png)
 
-5. Press `B` to return to the main menu.
+5. Nyomj `B` gombot a főmenübe való visszatéréshez.
 
 6. Scroll down to `Settings` and press A.
 
@@ -58,11 +58,11 @@ You will be installing `uneoboot.dol` in step 3.
 
    ![](/images/priiloader/autoboot_installed_file.png)
 
-8. Scroll down to `save settings` and press A.
+8. Görgess le a `save settings` menüponthoz, és nyomj 'A' gombot.
 
    ![](/images/priiloader/settings_save.png)
 
-9. Press `B` to return to the main menu.
+9. Nyomj `B` gombot a főmenübe való visszatéréshez.
 
 10. Scroll back up to `System Menu` and press A.
 
@@ -74,7 +74,7 @@ A beállítás befejeztével a Wii bekapcsoláskor automatikusan a kiválasztott
 
 2. Indítsd el a listáról a „Load Priiloader”-t!
 
-3. Scroll down to `Settings` and press A.
+3. Görgess le a `Settings` menüponthoz, és nyomj 'A' gombot.
 
    ![](/images/priiloader/menu_settings.png)
 
@@ -90,10 +90,10 @@ A beállítás befejeztével a Wii bekapcsoláskor automatikusan a kiválasztott
 
    ![](/images/priiloader/autoboot_disabled.png)
 
-5. Scroll down to `save settings` and press A.
+5. Görgess le a `save settings` menüponthoz, és nyomj 'A' gombot.
 
    ![](/images/priiloader/settings_save.png)
 
-6. Press `B` to return to the main menu.
+6. Nyomj `B` gombot a főmenübe való visszatéréshez.
 
 7. Scroll back up to `System Menu` and press A.
