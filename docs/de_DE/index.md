@@ -3,20 +3,20 @@ layout: home
 title: Wii Guide
 hero:
   text: Wii Guide
-  tagline: The complete guide to modding your Wii, vWii, and Wii mini.
+  tagline: Der vollständige Guide zum modden deiner Wii, vWii, und Wii mini.
   image:
     src: /images/main-pages/home-page-feature.jpg
 ---
 
 ::: info
 
-Since this guide has just been published, translations are a work-in-progress. Danke für deine Geduld!
+Da dieser Guide gerade veröffentlicht worden ist, sind Übersetzungen in Arbeit. Danke für deine Geduld!
 
 :::
 
 ::: warning
 
-To get the most out of this guide, you should read this page before proceeding.
+Um das Meiste aus diesem Guide zu bekommen, solltest du diese Seite lesen, bevor du weitermachst.
 
 :::
 
@@ -26,31 +26,31 @@ To get the most out of this guide, you should read this page before proceeding.
 
 Here's a list of things you can do using homebrew.
 
-- [Backup](bootmii) and [restore](bootmiirecover) your Wii's NAND (system memory)
-- Enhance the [brick protection](priiloader) of your Wii
+- Mache ein [Backup](bootmii) von dem NAND (Systemspeicher) deiner Wii und [stelle ihn wieder her](bootmiirecover)
+- Verbessere den [Brick-Schutz](Priiloader) deiner Wii
 - Lade neue Homebrew-Apps mit dem [Open Shop Channel](osc) herunter
 - [Patche die Spiel-Disc-Inhalte](https://wiki.hacks.guide/wiki/Wii:Riivolution), um Modifikationen zu laden
 - Installiere [Themes](themes) für das Wii-Menü und für häufig genutzte Homebrew-Apps
 - Mache ein Backup deiner [Discs](dump-games) und [anderer installierter Titel](dump-wads)
-- Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
-- Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
-- Restore online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
+- Sehe dir [DVDs](recommended-homebrew#entertainment) und spiele externe Mediendateien auf deiner Wii
+- Installiere einen [USB-Loader](wii-loaders), um Wii-Backups (und Backups von anderen Konsolen) von einem externen Speichergerät auszuführen
+- Stelle Online-Funktionalitäten von sowohl [WiiConnect24](wiiconnect24) und der [Nintendo Wi-Fi Connection](wiimmfi) wieder her
 
-## What does the guide install?
+## Was installiert dieser Guide?
 
-This guide aims to do the following, including optional sections:
+Dieser Guide richtet sich auf das Folgende, optionale Abschnitte einbezogen:
 
-- Modify your Wii using one of many exploits, with the end goal of reaching the HackMii installer
-- Install BootMii and the Homebrew Channel
-- Make a backup of critical system files
-- Install Priiloader
-- Install the Open Shop Channel
-- Recommended homebrew to use on your Wii
-- Restore functionality to WiiConnect24 and Nintendo Wi-Fi Connection
+- Modifiziere deine Wii mit einem von vielen Exploits, mit dem Ziel den HackMii-Installer zu erreichen
+- Installiere BootMii und den Homebrew Channel
+- Mache ein Backup von kritischen Systemdateien
+- Installiere Priiloader
+- Installiere den Open Shop Channel
+- Empfohlener Homebrew für deine Wii
+- Stelle die Funktionalität von WiiConnect24 und der Nintendo Wi-Fi Connection wieder her
 
-## What should I know before starting?
+## Was sollte ich vor dem Anfangen wissen?
 
-- Running homebrew on your Nintendo Wii can be done for free by exploiting bugs in Wii's software. Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam).
+- Running homebrew on your Nintendo Wii can be done for free by exploiting bugs in Wii's software. Jeder, der von etwas anderem überzeugen möchte, versucht dich wahrscheinlich zu [betrügen](https://hbc.hackmii.com/scam).
 - This guide works on all system menu versions depending on the exploit, but **it is recommended that you update to 4.3 (the latest firmware)** if possible.
 - **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
 - Depending on what you intend to do with your modded Wii, you may have to make some modifications to the system memory that have a risk of bricking (rendering the console inoperable). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
