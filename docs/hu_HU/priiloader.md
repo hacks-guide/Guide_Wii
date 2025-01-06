@@ -7,13 +7,13 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 ## Követelmények
 
 - Egy SD kártya vagy pendrive
-- [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
-- [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (the `.zip` file)
+- [Priiloader Installer](https://oscwii.org/library/app/priiloader) (a `.zip` fájl)
+- [Load Priiloader](https://oscwii.org/library/app/loadpriiloader) (a `.zip` fájl)
 
 ### Egyéb követelmények vWiihez (nem kötelező, de erősen ajánlott)
 
 - Egy SD kártya
-- [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
+- [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (közvetlen letöltés)
   - [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
 
 ## Lépések
@@ -82,18 +82,18 @@ A későbbi indításhoz kövesd az alábbi lépéseket:
      - If you are using 480p mode: `480p graphics fix in the system menu`
      - Block Disc Updates (lemezes frissítések letiltása)
      - Block Online Updates (internetes frissítések letiltása)
-     - If you are NOT using a CRT display: `Remove Deflicker`
+     - Ha NEM katódsugárcsöves kijelzőt használsz: `Remove Deflicker` (villódzáscsökkentő szűrő eltávolítása)
    - vWii:
      - Block Online Updates (internetes frissítések letiltása)
      - Wii System Settings via Options Button (Wii-rendszerbeállítások megnyitása az Options-gombbal)
-     - If you are NOT using a CRT display: `Remove Deflicker`
+     - Ha NEM katódsugárcsöves kijelzőt használsz: `Remove Deflicker` (villódzáscsökkentő szűrő eltávolítása)
    - Wii mini:
      - Block Disc Updates (lemezes frissítések letiltása)
-     - If you are NOT using a CRT display: `Remove Deflicker`
+     - Ha NEM katódsugárcsöves kijelzőt használsz: `Remove Deflicker` (villódzáscsökkentő szűrő eltávolítása)
 
-3. Scroll down to `save settings` and press A.
+3. Görgess le a `save settings` menüponthoz, és nyomj 'A' gombot.
 
-4. Press `B` to return to the main menu.
+4. Nyomj `B` gombot a főmenübe való visszatéréshez.
 
 ::: info
 
