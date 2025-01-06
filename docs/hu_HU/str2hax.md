@@ -24,9 +24,9 @@ Ha telepítettél modokat, mint a CTGP Revolution vagy Project+, az str2hax elő
 
 Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, hogy ahhoz a szerverhez csatlakozzon, ami tartalmazza az exploitot.
 
-1. Power on your console.
+1. Kapcsold be a konzolod.
 
-2. Go to `Wii Options`.
+2. Menj a `Wii Options`-höz.
 
    ![](/images/riiconnect24/Internet_1.png)
 
@@ -50,21 +50,21 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
    ![](/images/riiconnect24/Internet_7.png)
 
-7. Set the Primary DNS to `3.143.163.250`.
+7. Állítsd be a Primary DNS-t `3.143.163.250`-re.
 
    ![](/images/exploits/str2hax/dns.png)
 
    ::: warning
 
-   If there are 3 fields instead of 2 (like above), go back and make sure you are on the `Auto-Obtain DNS` page.
+   Ha 3 mező van 2 helyett (mint fent), menj vissza és ellenőrizd, hogy az `Auto-Obtain DNS` oldalon vagy-e.
 
    :::
 
-8. Click `Confirm`, then click `Save`.
+8. Kattints a `Confirm`-ra, majd a `Save`-re.
 
    ![](/images/riiconnect24/Internet_10.png)
 
-9. When prompted, click `OK` to perform the connection test.
+9. Ha kérdezi, kattints az `OK`-ra, hogy végrehajtsd a csatlakozási tesztet.
 
    ![](/images/riiconnect24/Internet_11.png)
 
@@ -78,15 +78,15 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
 1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
 
-2. Select `Yes`.
+2. Válaszd a `Yes`-t.
 
-3. Click on `Next`.
+3. Kattints a `Next`-re.
 
    - A következő képernyővel kell üdvözöljön:
 
    ![](/images/exploits/str2hax/EULA.png)
 
-   - Ha a nomrál User Agreements-et kapod, az ISP-d blokkolja az egyedi DNS-t. Try another connection, or [use another exploit](get-started).
+   - Ha a nomrál User Agreements-et kapod, az ISP-d blokkolja az egyedi DNS-t. Próbálj meg egy másik kapcsolatot vagy használj [egy másik exploit](get-started)-ot.
 
 4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 
