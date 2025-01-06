@@ -32,24 +32,24 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telep
 
 - Egy Wii mini, amire telepítve van a Homebrew Channel
 - Egy USB drive
-- Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
+- Leseratte [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)-je
 
 ## Lépések
 
 ### I. rész - Letöltés
 
-1. Power off your console.
+1. Kapcsold ki a konzolod.
 2. Csatlakoztasd a pendrive-ot a számítógépedbe!
 3. Create a folder named `apps` on the root of your USB drive if it does not already exist.
-4. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
+4. Másold át a d2xl cIOS Installer `.zip` fájlban található `d2x-cios-installer` mappát az USB drive `apps` mappájába.
 5. Helyezd be a pendrive-ot a konzolba!
-6. Power on your console.
+6. Kapcsold be a konzolod.
 7. Indítsd el a Homebrew Channelt!
 8. Indítsd el a listáról a „d2x cIOS Installer”-t!
 
 ### II. rész – Telepítés
 
-1. Select `Continue`.
+1. Válaszd a `Continue`-t.
 2. Állíts be mindent az alábbiak szerint:
    ```
    Select cIOS <d2xl-v1-beta2>
