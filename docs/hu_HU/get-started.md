@@ -29,4 +29,4 @@ Válaszd ki azt az exploitot, ami a konzolodnak és a helyzetednek leginkább me
 
 Ha lehetséges, kövesse a fenti módszert.
 
-If the recommended option does not work for you, or if you are curious about other exploits, check out [Legacy Exploits](legacy-exploits).
+Ha az ajánlott lehetőség nem működik, vagy ha kíváncsi vagy más exploitokra, nézd meg a [Legacy Exploits](legacy-exploits) oldalt.
