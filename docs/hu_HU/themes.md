@@ -48,11 +48,11 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 - [csm-installer](https://oscwii.org/library/app/csm-installer)
 - [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
-### Downloading the Base Theme
+### Az Alap téma letöltése
 
 ::::: tabs
 
-:::: tab (All) Via csm-installer
+:::: tab (Mind) csm-installer-rel
 
 1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
 2. Csatlakoztasd az SD-kártyát vagy az USB-eszközt a konzolodhoz, és indítsd el a Homebrew Channel csatornát.
@@ -67,7 +67,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 1. A számítógépeden töltsd le a [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)-t.
 2. Másold ki az NUS Downloader `.zip` fájljának tartalmát egy mappába.
 3. Futtasd a `NUS Downloader.exe` fájlt.
-4. Navigate to `Database` -> `System` -> `System Menu`.
+4. Navigálja a `Database` -> `System` -> `System Menu` opcióhoz.
 5. Select the version that corresponds to your Wii menu version.
 6. Check the `Create decrypted contents (*.app)` box.
 7. Kattints a `Start NUS Download!` gombra.
@@ -84,7 +84,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 1. On your computer, download [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
 2. Copy all files from the vWii NUS Downloader `.zip` to a folder on your computer.
 3. Futtasd a `NUS Downloader.exe` fájlt.
-4. Navigate to `Database` -> `System` -> `System Menu`.
+4. Navigálja a `Database` -> `System` -> `System Menu` opcióhoz.
 5. Select the version that corresponds to your Wii U's region in the table below:
 
 | Regió  | vWii Menu verzió |
@@ -110,10 +110,10 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 ::::
 
-:::: tab (Wii) Via ThemeMii
+:::: tab (Wii) ThemeMii-vel
 
 1. Hozz létre egy `themes` mappát az SD-kártya/USB-eszköz gyökerében.
-2. Extract the ThemeMii MOD `.zip` to a location on your PC.
+2. Csomagold ki a ThemeMii MOD `.zip` fájlt egy helyre a számítógépeden.
 3. Indítsd el a ThemeMii alkalmazást.
 4. Go to `Tools` -> `Download Base App` -> `Version of your Wii Menu` -> `Region of your Wii Menu`.
 5. A dialog box will pop-up asking you to enter in a value to create a key. Enter what it says, and it will create a key that will be used to decrypt the Wii Menu contents from Nintendo's servers.
@@ -125,7 +125,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 ### Téma készítése
 
-1. Extract the ThemeMii MOD `.zip` to a location on your PC.
+1. Csomagold ki a ThemeMii MOD `.zip` fájlt egy helyre a számítógépeden.
 2. Indítsd el a ThemeMii alkalmazást.
 3. Go to `File` -> `Open`, and select the `.mym` file for the theme you want to build.
 4. Nyomjd meg a `Create csm` gombot.
