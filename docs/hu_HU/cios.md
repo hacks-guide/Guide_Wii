@@ -42,10 +42,10 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 3. A számítógépeden töltsd le a [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)-t.
 4. Másold ki az NUS Downloader `.zip` fájljának tartalmát egy mappába.
-5. Run `NUS Downloader.exe`.
+5. Futtasd a `NUS Downloader.exe` fájlt.
 6. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
    - Pipáld ki a „Pack WAD” („WAD becsomagolása”)-lehetőséget!
-   - _Don't_ check "Patch IOS". Ezt majd a cIOS-telepítő megteszi.
+   - _Vedd ki a pipát_ a „Patch IOS” lehetőségtől. Ezt majd a cIOS-telepítő megteszi.
 7. Kattints a `Start NUS Download!` gombra.
 8. Ismételd meg a fenti lépéseket az `IOS56 v5661`, `IOS57 v5918` és az `IOS58 v6175` beszerzéséhez is.
 9. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
@@ -86,7 +86,7 @@ The WAD files should be on your SD card like this:
 
    ::: info
 
-   If you do not see `d2x-v11-beta1`, exit the installer with B, and make sure your SD card is unlocked.
+   Ha nem látod a `d2x-v11-beta1`-et, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
 
    :::
 
@@ -104,11 +104,11 @@ The WAD files should be on your SD card like this:
 
    :::
 
-7. Press `A`. Erre a program meg fogja mutatni a helykiosztást:
+7. Nyomj `A`-t. Erre a program meg fogja mutatni a helykiosztást:
 
    ![](/images/cios/d2x_summary.png)
 
-8. Press `A` again.
+8. Ismét nyomd meg az `A` gombot.
 
    ![](/images/cios/d2x_installation.png)
 
