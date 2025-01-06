@@ -2,18 +2,18 @@
 
 ::: tip
 
-**Site**
+**Weboldal**
 
-- [Home](/)
+- [Kezdőoldal](/)
 - [Get Started](get-started)
-- [FAQ](faq)
-- [Donations](donations)
+- [GYIK](faq)
+- [Adományok](donations)
 
 :::
 
 ::: info
 
-**Wii Online Services**
+**Wii Online szolgáltatások**
 
 - [Nintendo Wi-Fi Connection](wiimmfi)
 - [Setting RTC Time](wiiconnect24#updating-rtc-clock)
@@ -23,11 +23,11 @@
 
 ::: info
 
-**Modding 101 - Exploits**
+**Moddolás 101 - Exploit-ok**
 
 - [BlueBomb](bluebomb)
 - [FlashHax](flashhax)
-- [Legacy Exploits](legacy-exploits)
+- [Legacy Exploit-ok](legacy-exploits)
 - [LetterBomb](letterbomb)
 - [str2hax](str2hax)
 - [Wilbrand](wilbrand)
@@ -36,10 +36,10 @@
 
 ::: info
 
-**Modding 101 - Wii Essentials**
+**Moddolás 101 - Wii alapismeretek**
 
-- [BootMii Backup](bootmii)
-- [BootMii Recovery](bootmiirecover)
+- [BootMii mentés](bootmii)
+- [BootMii helyreállítás](bootmiirecover)
 - [Brick Overview](bricks)
 - [Brick Prevention](bricks#brick-prevention)
 - [cIOS](cios)
@@ -47,7 +47,7 @@
 - [ModMii](modmii)
 - [Open Shop Channel](osc)
 - [Priiloader](priiloader)
-- [Recovery mode](recovery-mode)
+- [Recovery mód](recovery-mode)
 - [Relaunching the HackMii Installer](hackmii)
 - [Restoring The Wii NAND to Stock](wii-factory-reset)
 - [Updating Wii Menu to v4.3](update)
@@ -59,9 +59,9 @@
 
 **Homebrew**
 
-- [Creating Wii Game Shortcuts](wiigsc)
+- [Wii játék shortcut-ok létrehozása](wiigsc)
 - [How to dump Channels (WADs)](dump-wads)
-- [How to dump GameCube/Wii Games](dump-games)
+- [Hogyan dumpolj GameCube/Wii játékokat](dump-games)
 - [Managing GameCube Backups](gc-backups)
 - [Managing GameCube Save Files](gcsaves)
 - [Managing Wii Backups](wii-backups)
@@ -69,7 +69,7 @@
 - [Recommended Homebrew](recommended-homebrew)
 - [Transferring Save Games](transfer-saves)
 - [Wii Backup Loaders](wii-loaders)
-- [Using SysCheck](syscheck)
+- [A SysCheck használata](syscheck)
 - [Wii Themes Guide](themes)
 
 :::
@@ -90,7 +90,7 @@
 **Wii mini**
 
 - [Installing the Homebrew Channel on the Wii mini](hbc-mini)
-- [Installing cIOS on the Wii mini](cios-mini)
+- [A cIOS telepítése Wii mini](cios-mini)-re
 - [Wii mini NAND Dumper](wnd-mini)
 
 :::
