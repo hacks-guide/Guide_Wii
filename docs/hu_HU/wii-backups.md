@@ -12,7 +12,7 @@ Ha több játékot akarsz tárolni, javasoljuk egy külső háttértár beszerz�
 
 A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
 
-As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
+Alternatívaként használhatsz egy SD kártyát is, de figyelmeztetünk, hogy a Wii SD kártya-olvasója lassú.
 
 :::
 
@@ -20,7 +20,7 @@ As an alternative, you may simply use an SD card, however the Wii's SD card slot
 
 Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva. Do not format it as other types such as exFAT or extFS.
 
-You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
+NTFS-ként is formázhatod, de a legtöbb nemhivatalos alkalmazás (pl.: a Homebrew Channel és a Nintendont) ezt nem támogatja
 
 :::
 
@@ -34,7 +34,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ### Windows
 
-1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
+1. Másold át a `.partX.iso`-ban végződő, egyforma nevű fájlokat egy üres mappába a számítógépeden.
 
    ![](/images/desktop-apps/WBM/dumpedpartfiles.png)
 
@@ -150,7 +150,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 [Folytatás a cIOS-sal](cios)
 
-cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use [USB Loader GX or WiiFlow](wii-loaders) to play games from your USB drive or SD card.
+cIOS-ra van szüksége a Wii-odnak egy USB Loader használatához. Once this is done, you can use [USB Loader GX or WiiFlow](wii-loaders) to play games from your USB drive or SD card.
 
 :::
 
