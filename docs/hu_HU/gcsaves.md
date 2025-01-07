@@ -164,7 +164,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Csatlakoztasd mindkettő kártyát a Wii-hez.
 
-2. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
+2. A System menüből navigálj a `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube` opcióhoz.
 
    ![](/images/homebrew/gcsaves/sysmenu.jpg)
 
