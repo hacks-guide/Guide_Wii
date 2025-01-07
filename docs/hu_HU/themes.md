@@ -54,7 +54,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 :::: tab (Mind) csm-installer-rel
 
-1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
+1. Csomagold ki a csm-installer `.zip` fájlt az SD-kártya vagy USB eszköz gyökerébe.
 2. Csatlakoztasd az SD-kártyát vagy az USB-eszközt a konzolodhoz, és indítsd el a Homebrew Channel csatornát.
 3. Launch csm-installer, then select `Download original Wii theme (Base theme)`
 4. Miután az alaptéma befejezte a mentést, nyomd meg a HOME gombot az alkalmazásból való kilépéshez.
@@ -69,7 +69,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 3. Futtasd a `NUS Downloader.exe` fájlt.
 4. Navigálja a `Database` -> `System` -> `System Menu` opcióhoz.
 5. Select the version that corresponds to your Wii menu version.
-6. Check the `Create decrypted contents (*.app)` box.
+6. Jelöld be a`Create decrypted contents (*.app)` dobozt.
 7. Kattints a `Start NUS Download!` gombra.
 8. Once the download is finished, there will be a folder named `titles` in the same folder as the NUS Downloader.
 9. Open the `titles` folder, then the `0000000100000002` folder inside it.
@@ -81,8 +81,8 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 :::: tab (vWii) NUS Downloader-rel
 
-1. On your computer, download [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
-2. Copy all files from the vWii NUS Downloader `.zip` to a folder on your computer.
+1. A számítógépeden töltsd le a [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)-t
+2. Másold ki az vWii NUS Downloader `.zip` fájljának tartalmát egy mappába a számítógépeden.
 3. Futtasd a `NUS Downloader.exe` fájlt.
 4. Navigálja a `Database` -> `System` -> `System Menu` opcióhoz.
 5. Select the version that corresponds to your Wii U's region in the table below:
@@ -93,7 +93,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 | USA    | v609             |
 | Európa | v610             |
 
-1. Check the `Create decrypted contents (*.app)` box.
+1. Jelöld be a`Create decrypted contents (*.app)` dobozt.
 2. Kattints a `Start NUS Download!` gombra.
 3. Once the download is finished, there will be a folder named `titles` in the same folder as the NUS Downloader.
 4. Open the `titles` folder, then the `0000000700000002` folder inside it.
@@ -127,17 +127,17 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 1. Csomagold ki a ThemeMii MOD `.zip` fájlt egy helyre a számítógépeden.
 2. Indítsd el a ThemeMii alkalmazást.
-3. Go to `File` -> `Open`, and select the `.mym` file for the theme you want to build.
+3. Navigálj a `File` -> `Open` opcióhoz, majd válaszd ki a létrehozni kívánt téma `.mym` fájlját.
 4. Nyomjd meg a `Create csm` gombot.
-5. When asked to select an `.app` file, select the newly downloaded base theme in the `themes` of your SD card or USB device.
-6. When asked to save the `.csm` file, save it in the `themes` folder.
+5. Amikor egy `.app` fájl kiválasztását kell megtenned, válaszd ki az SD-kártyád vagy USB-meghajtód `themes` mappájában lévő, újonnan letöltött alaptémát.
+6. Amikor a `.csm` fájl mentését kell megtenned, mentsd azt a `themes` mappába.
 7. Miután a téma felépítése elkészül, a .mym fájl mentésétre vonakozó kérdésre kell válaszolnod. Nyomj `No`-t.
 
 ### Téma telepítése
 
 1. Csatlakoztasd az SD-kártyát vagy az USB-eszközt a konzolodhoz, és indítsd el a Homebrew Channel csatornát.
 2. Indítsd el a csm-installert, és várd meg, amíg betöltődik.
-3. Select the theme you would like to install with `A`. Ezen a ponton feltétlenül győződj meg arról, hogy a rendszermenü verziódnak és régiódnak megfelelő témát töltöted le.
+3. Válaszd ki a telepíteni kívánt témát `A`-val. Ezen a ponton feltétlenül győződj meg arról, hogy a rendszermenü verziódnak és régiódnak megfelelő témát töltöted le.
 4. Nyomj `+` gombot a téma telepítéséhez.
 5. Indítsd újra a Wii menüt, és nézd meg, hogy a téma sikeresen települt-e. Ha minden jól ment, akkor az alábbihoz hasonló eredményt fogsz kapni!
 
@@ -159,7 +159,7 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 
 1. A WiiFlow Lite-ot tartalmazó tárolóeszköz legyen csatlakoztatva a számítógépedhez.
 2. Töltsd le a Rhapsodii Shima archívumot, a téma mindkét verziója működik, és gond nélkül telepíthető egymás mellé.
-3. Extract and copy the `wiiflow` folder to the root of your storage device, merge all folders and overwrite all files when requested.
+3. Csomagold ki és másold a `wiiflow` mappát a tárolóeszköz gyökerébe, egyesítve az összes mappát, és kérésre felülírva az összes fájlt.
 4. Kövesd a téma telepítési és beállítási utasításait az `installation.txt` fájlban. Élvezd a témát!
 
 ## USB Loader GX témázás
@@ -170,14 +170,14 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 - Egy SD kártya vagy USB drive
 - [USB Loader GX](wii-loaders#usb-loader-gx)
 - Egy Windows/macOS/Linux számítógép internet kapcsolattal
-- A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
+- Egy [téma](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), ez a link vegyes sötét témákat tartalmaz
 
 ### Lépések
 
-1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
-2. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
+1. Töltsd le a téma `.zip` fájlját a fentebb linkelt weboldalról, vagy bárhonnan máshonnan, ahol megfelelő témát kaphatsz.
+2. Csomagold ki a `.zip` fájl tartalmát az `apps\usbloader_gx` könyvtárba azon a tárolóeszközön, ahová az USB Loader GX-et telepítetted.
 3. Tedd a tárolóeszközt a Wii-be, és indítsd el.
-4. Start USB Loader GX, go to the `Settings` menu, and then go to `Theme Menu`.
+4. Indítsd el az USB Loader GX-et, lépj a `Settings` menübe, majd a `Theme Menu` opcióhoz.
 5. Nyissd meg a témát, és telepítsd azt.
 
 ## Homebrew Channel témázás
