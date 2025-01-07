@@ -36,7 +36,7 @@ Először is, ellenőrizd, hogy a Wii-od képes-e _egyáltalán_ helyreállítá
 
 ### I. módszer – Smash Stack
 
-1. If you have a Super Smash Bros. Brawl game disc, you can use [Smash Stack](legacy-exploits#smash-stack) to load the HackMii installer off of your SD card.
+1. Ha rendelkezel egy Super Smash Bros. Brawl játéklemezzel, akkor a [Smash Stack](legacy-exploits#smash-stack)-módszerrel betöltheted a HackMii-telepítőt az SD kártyádról.
 2. Lépj helyreállítási módba és helyezd be a Super Smash Bros. Brawl-lemezt! Ha minden jól megy, akkor a játék elindul.
 3. A folytatáshoz kövesd a Wiibrew-on leírt lépéseket!
 
