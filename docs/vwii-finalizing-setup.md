@@ -17,19 +17,17 @@ All homebrew apps are loaded from the Homebrew Channel.
 ## Additional Homebrew Apps - What You Need
 
 * [Patched IOS 80 Installer for vWii](https://oscwii.org/library/app/Patched_IOS80_Installer_for_vWii)
-* [system-channel-restorer](https://oscwii.org/library/app/system-channel-restorer)
 * [ww-43db-patcher](https://oscwii.org/library/app/ww-43db-patcher)
 
 ## Additional Homebrew Apps - Extracting Files to the SD Card
 
 1. Copy the contents of the Patched IOS 80 Installer for vWii to the root of the SD.
-1. Copy the contents of the system-channel-restorer to the root of the SD.
 1. Copy the contents of the ww-43db-patcher to the root of the SD.
 
 ::: tip
 
-Continue to [Open Shop Channel Installation](osc)
+Continue to [System Channel Restorer](system-channel-restorer)
 
-Now that your main vWii setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+Now that your main setup is complete, you can install System Channel Restorer, an application which allows you to (re)install system channels on your console.
 
 :::
