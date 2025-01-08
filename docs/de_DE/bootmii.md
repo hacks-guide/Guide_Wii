@@ -5,19 +5,19 @@ This page will guide you in backing up your Wii's NAND to an SD Card, which you 
 
 ::: warning
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have one, you can skip this page, although it is highly recommended to make a NAND backup if you can.
+Du benötigst eine **SD-Karte**, um BootMii überhaupt nutzen zu können, aber besonders, wenn du ein NAND-Backup machen möchtest. If you do not have one, you can skip this page, although it is highly recommended to make a NAND backup if you can.
 
 :::
 
-## Requirements
+## Anforderungen
 
 - An SD card with at least 512MB of free space
 
-## Instructions
+## Anleitung
 
 ::: info
 
-If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Überspringe Schritt 1 und 2 in diesem Fall.
 
 :::
 
@@ -31,7 +31,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
    ::: warning
 
-   If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+   Wenn der `Launch BootMii`-Button nicht im Homebrew-Channel erscheint, [starte den HackMii-Installer nochmal](hackmii) und installiere BootMii.
 
    :::
 
