@@ -31,11 +31,11 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 1. Power on your console.
 
-2. Go to `Wii Settings`.
+2. `Wii 설정`으로 갑니다.
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - 이 문자는 여러분의 시스템 메뉴 지역에 해당하며, 해당 단계를 진행하기 위해 해당 시스템 메뉴 지역을 알아야 합니다.
 
    ![](/images/wii/SystemMenuVersion.png)
 
@@ -110,11 +110,11 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 1. Power on your console.
 
-2. Go to `Wii Settings`.
+2. `Wii 설정`으로 갑니다.
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - 이 문자는 여러분의 시스템 메뉴 지역에 해당하며, 해당 단계를 진행하기 위해 해당 시스템 메뉴 지역을 알아야 합니다.
 
    ![](/images/wii/SystemMenuVersion.png)
 
