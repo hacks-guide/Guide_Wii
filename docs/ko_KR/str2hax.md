@@ -30,7 +30,7 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
    ![](/images/riiconnect24/Internet_1.png)
 
-3. Go to `Wii Settings`.
+3. `Wii 설정`으로 갑니다.
 
    ![](/images/riiconnect24/Internet_2.png)
 
