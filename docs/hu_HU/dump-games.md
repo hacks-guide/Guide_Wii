@@ -61,7 +61,7 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 ::: info
 
-A CleanRip a 2.1.2-es verziójától kezdve képes automatikusan felismerni, hogy kétrétegű lemezt próbálsz-e lemásolni. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
+A CleanRip a 2.1.2-es verziójától kezdve képes automatikusan felismerni, hogy kétrétegű lemezt próbálsz-e lemásolni. Ha egy korábbi verzión vagy vagy csak szeretnéd ellenőrizni, hogy a megfelelő opció kiválaszott-e, ellenőrizheted [ebben a listában](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), hogy a játékod kétrétegű lemezzel rendelkezik-e.
 
 :::
 
@@ -91,7 +91,7 @@ Ha a program hibát ír ki, ellenőrizd, hogy a másolni kívánt lemez tiszta-e
 
 ::: tip
 
-Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are output, and manage your dumped games.
+A kimeneti PART fájlok összekapcsolásához és a lemásolt Wii-játékok kezeléséhez lásd. a [Wii-mentések kezelése](wii-backups) oldalt.
 
 :::
 
@@ -99,7 +99,7 @@ Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are o
 
 ::: info
 
-Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról másolatot készíteni. Egy Family Editionös Wii csak akkor képes GameCube-játékokról másolatot készíteni, ha a lemezolvasóját kicseréled egy eredeti Wiiből származóra.
+Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról másolatot készíteni. Egy Family Edition-ös Wii csak akkor képes GameCube-játékokról másolatot készíteni, ha a lemezolvasóját kicseréled egy eredeti Wiiből származóra.
 
 :::
 
@@ -119,6 +119,6 @@ Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról másolatot ké
 
 ::: tip
 
-Proceed to [Managing GameCube Backups](gc-backups) to shrink the size of your output file, and manage your dumped games.
+A kimeneti fájl méretének csökkentéséhez és a lemásolt GameCube-játékok kezeléséhez lásd a [GameCube-másolatok kezelése](gc-backups) oldalt.
 
 :::
