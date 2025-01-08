@@ -24,11 +24,11 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 1. Power on your console.
 
-2. Go to `Wii Settings`.
+2. `Wii 설정`으로 갑니다.
 
-3. Take note in the top right corner of the letter next to the system version.
+3. 시스템 버전 옆에 있는 글자의 오른쪽 상단에 적혀 있는 내용을 참고하세요.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - 이 문자는 여러분의 시스템 메뉴 지역에 해당하며, 해당 단계를 진행하기 위해 해당 시스템 메뉴 지역을 알아야 합니다.
    - Also, ensure that you are on System Menu version 4.3.
 
    ![](/images/wii/SystemMenuVersion.png)
