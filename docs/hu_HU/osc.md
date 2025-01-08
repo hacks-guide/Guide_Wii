@@ -2,11 +2,11 @@
 
 ::: info
 
-For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
+Az angol nyelvű Open Shop Channel-támogatáshoz csatlakozz az [Open Shop Channel Discord](https://discord.gg/osc) szerverére.
 
 :::
 
-The [Open Shop Channel](https://oscwii.org/) is a homebrew app repository created by dhtdht020, and is currently the preferred way to download homebrew.
+Az [Open Shop Channel](https://oscwii.org/) egy dhtdht020 által készített program, ami a nemhivatalos alkalmazások jelenleg legmegbízhatóbb forrása.
 
 Az Open Shop Channel használatához két módszer közül választhatsz: futtathatod közvetlenül a Wiin a Homebrew Channelen keresztül vagy a számítógépeden az OSCDL-en keresztül.
 
