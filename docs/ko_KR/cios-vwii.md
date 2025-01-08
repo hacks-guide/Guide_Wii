@@ -1,6 +1,6 @@
 # d2x cIOS for vWii
 
-:::details Technical Details (optional)
+:::details 기술 세부사항 (선택 사항)
 
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. 이제 <a href="usbloadergx">USB Loader GX</a> 및 <a href="wiiflow">WiiFlow</a>와 같은 홈브류를 사용할 수 있습니다. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
