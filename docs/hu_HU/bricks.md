@@ -13,14 +13,14 @@ Preventing a brick involves many rules that range between common sense and fail-
 - **Do NOT install IOS packs such as DARKCORP that overwrite most of your IOS with cIOS. It is DANGEROUS and heavily outdated.**
 - **Do NOT restore NAND backups from other consoles!**
 - **Do NOT install any IOS that isn't meant for your system** (example: Wii IOS on Wii mini)
-- **Do NOT attempt region changing methods meant for Wii on the vWii or Wii mini**
-- **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](wiimmfi)). Doing otherwise could allow a malicious actor to BRICK your Console!**
-- **Only install updates for your own region!**.
+- **A Wii-re készült régióváltási módszereket NE próbáld ki vWii-n vagy Wii mini-n**
+- NE használj Nintendo Wi-Fi Connection-szolgáltatást, kivéve ha rendelkezik távoli kódfuttatási javításokkal (mint például a [Wiimmfi](wiimmfi)). Doing otherwise could allow a malicious actor to BRICK your Console!\*\*
+- **Csak a saját régiódhoz tartozó frissítéseket telepíts!**.
   - Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
 - **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
   - An example of modifying files going wrong is replacing IOS80 on Wii mini, which may result in a [Wi-Fi Brick](bricks#wi-fi-brick).
-- **Do NOT install homebrew from untrustworthy sources or if the source code is not available.**
-  - Software on the [Open Shop Channel](osc) is safe.
+- **Ne telepíts nem megbízható forrásokból származó homebrew programokat vagy ha a forráskód nem elérhető.**
+  - Az [Open Shop Channel](osc)-en található programok biztonságosak.
   - There have been incidents of malicious software being developed for the Wii in the past, while other apps are just badly developed. Make sure that you know what you are installing, and only install what you need.
   - Corrupted or unstable forwarders for homebrew could cause a [banner brick](#banner-brick), so try to stick with loading homebrew from the Homebrew Channel unless you really want a forwarder.
 - **Ensure that you know what you are doing when running homebrew apps - especially those with the ability to modify system files. Be ESPECIALLY careful when using applications such as:**
@@ -29,7 +29,7 @@ Preventing a brick involves many rules that range between common sense and fail-
   - KoreanKii (secondary cause of [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brick)
   - Firmware Downgraders
   - Any other app that modifies critical NAND files
-- **DO NOT TOUCH THE WII'S POWER SOURCE OR POWER BUTTONS WHEN INSTALLING OR MODIFYING CRITICAL SYSTEM CONTENT**.
+- **NE NYÚLJ HOZZÁ A WII ÁRAMFORRÁSÁHOZ VAGY A BEKAPCSOLÓGOMBJÁHOZ, MIKÖZBEN LÉTFONTOSSÁGÚ RENDSZERFÁJLOKAT TELEPÍTESZ VAGY MÓDOSÍTASZ**.
   - If your electricity is unstable (e.g. storm, power outage), postpone what you are doing until you have a stable power source.
   - This applies to dangerous processes such as BootMii NAND restoration, which could lead to a [full brick](#low-level-brick) if anything goes wrong.
 
