@@ -2,7 +2,7 @@
 
 A "Brick" usually means your Wii has reached a state where its next purpose in existence is likely that of a doorstop, or a display figure.
 
-Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
+Egy Wii számos okból kifolyólag brickelődhet, de ez általában sérült programok vagy rosszul elvégzett nemhivatalos módosítások okozzák.
 
 # Brick Prevention
 
