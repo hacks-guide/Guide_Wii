@@ -135,11 +135,11 @@ USB Loader GX 또는 WiiFlow Lite의 최신 버전에서 게임 백업을 자동
 
 6. 패처가 로드될 때까지 잠시 기다리세요. (보통 1.5분 정도 소요) 그러면 삽입한 게임이 Wiimmfi 패치로 부팅될 것입니다.
 
-## Manual Disc Patching via Internet Channel
+## 인터넷 채널을 통한 수동 디스크 패치
 
 ::: warning
 
-If you run into UPnP-related issues (such as the patcher getting stuch at "Init network..." or "add UPnP port forward" steps for more than 10 seconds), you can press the - button on your Wii Remote, or the Y button on your GameCube controller as soon as the patcher loads to circumvent this.
+UPnP 관련 문제 (패처가 "네트워크 초기화..." 또는 "UPnP 포트 전달 추가" 단계에서 10초 이상 멈추는 경우)가 발생하는 경우, 패처가 로드되자마자 Wii 리모컨의 - 버튼이나 게임큐브 컨트롤러의 Y 버튼을 눌러 이를 해결할 수 있습니다.
 
 :::
 
@@ -185,18 +185,18 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 - A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
 - [Wiimmfi ISO 패처](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
-### Instructions
+### 지침
 
-1. Download the patcher and extract the `.zip` file.
-2. Open the extracted folder and copy your Wii game images into it.
-   - If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
-   - If you're on MacOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
-   - If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
-3. If the above was successful, you should see a window pop-up that displays the patching process. Once the process finishes, you will find the patched images in a folder called `wiimmfi-images`.
+1. 패처를 다운로드하고 `.zip` 파일을 압축 해제합니다.
+2. 압축 해제된 폴더를 열고 Wii ​​게임 이미지를 복사합니다.
+   - 윈도우를 사용하는 경우 `patch-images.bat` 파일을 두 번 클릭합니다. (이 파일은 "patch-images" 배치 파일로 표시될 수도 있음) Cygwin 관련 문제가 발생하면 대신 `patch-images-32.bat` 파일을 사용해 봅니다.
+   - 맥OS를 사용하는 경우 현재 폴더에서 명령줄 프롬프트를 열고 `chmod +x *.sh` 명령을 통해 셸 스크립트를 실행 가능하게 만든 다음 `./patch-images.sh`를 실행합니다.
+   - 리눅스를 사용하는 경우 `patch-images.desktop` 파일을 두 번 클릭합니다. (이 파일은 "패치 이미지"로 표시될 수도 있음) 또는 `chmod +x *.sh` 명령으로 실행 가능하게 만든 후 터미널에서 `./patch-images.sh` 파일을 실행합니다.
+3. 위의 과정이 성공적이라면 패치 과정을 표시하는 창 팝업이 나타날 것입니다. 이 과정이 완료되면 `wiimmfi-images`라는 폴더에서 패치된 이미지를 찾을 수 있습니다.
 
 ::: tip
 
-Congrats on making it to the end of the optional section of the main guide! You can go to the site index below if you would like to look for other guides.
+메인 가이드의 선택 섹션을 끝까지 읽은 것을 축하합니다! 다른 가이드를 찾고 싶다면 아래 사이트 인덱스로 이동합니다.
 
 :::
 
