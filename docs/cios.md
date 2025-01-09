@@ -165,7 +165,7 @@ If you downloaded the 4 WAD files in Section I, you may now delete them from you
 
 ::: tip
 
-Continue to [System Channel Restorer](system-channel-restorer)
+Continue to [Restoring Features](system-channel-restorer)
 
 Now that your main setup is complete, you can install System Channel Restorer, an application which allows you to (re)install system channels on your console.
 

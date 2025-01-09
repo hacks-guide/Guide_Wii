@@ -1,4 +1,4 @@
-# System Channel Restorer
+# Restoring Features
 
 System Channel Restorer is an application which allows you to (re)install system channels on your console, including Photo Channel 1.1 and the Internet Channel. This tutorial will show you how to install channels with this application.
 
@@ -14,7 +14,7 @@ System Channel Restorer is an application which allows you to (re)install system
 1. Download and extract the System Channel Restorer `.zip` to the root of your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii, and launch System Channel Restorer from the Homebrew Channel.
 
-### Section II - Installing channels
+### Section II - Installing Channels
 
 1. Using the D-Pad, scroll through the channels listed, and press `A` to select the channels you'd like to install.
 

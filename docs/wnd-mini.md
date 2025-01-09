@@ -88,7 +88,7 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 
 ::: tip
 
-Continue to [System Channel Restorer](system-channel-restorer)
+Continue to [Restoring Features](system-channel-restorer)
 
 Now that your main setup is complete, you can install System Channel Restorer, an application which allows you to (re)install system channels on your console.
 

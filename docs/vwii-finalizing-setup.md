@@ -11,13 +11,12 @@ All homebrew apps are loaded from the Homebrew Channel.
 :::
 
 + Patched IOS 80 Installer for vWii is a homebrew app that will take your current install of IOS 80 and patch it to be able to use fakesigned channels on the SD card menu.
-+ System Channel Restorer is a homebrew app that allows some channels usually only available on Wii to be easily installed on vWii.
 + ww-43db-patcher is a homebrew app that will patch your WiiWare and virtual console titles to force the 16:9 aspect ratio.
 
 ## Additional Homebrew Apps - What You Need
 
-* [Patched IOS 80 Installer for vWii](https://oscwii.org/library/app/Patched_IOS80_Installer_for_vWii)
-* [ww-43db-patcher](https://oscwii.org/library/app/ww-43db-patcher)
+* [ww-43db-patcher](https://oscwii.org/library/app/ww-43db-patcher) (Recommended)
+* [Patched IOS 80 Installer for vWii](https://oscwii.org/library/app/Patched_IOS80_Installer_for_vWii) (Optional)
 
 ## Additional Homebrew Apps - Extracting Files to the SD Card
 
@@ -26,7 +25,7 @@ All homebrew apps are loaded from the Homebrew Channel.
 
 ::: tip
 
-Continue to [System Channel Restorer](system-channel-restorer)
+Continue to [Restoring Features](system-channel-restorer)
 
 Now that your main setup is complete, you can install System Channel Restorer, an application which allows you to (re)install system channels on your console.
 
