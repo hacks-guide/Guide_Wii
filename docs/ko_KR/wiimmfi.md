@@ -1,14 +1,14 @@
 # 닌텐도 DS Wi-Fi 설정으로 이동합니 온라인에서 플레이하려는 게임 내에서 접속할 수 있습니다.
 
-<a href="https://wiimmfi.de">Wiimmfi</a>는 현재 사용되지 않는 닌텐도 Wi-Fi 연결을 대체하는 서비스입니다. Wiimm과 Leseratte가 개발했습니다. While different games were supported for longer than others, all games are no longer able to play through conventional means as of August 2023. To regain Nintendo WFC functionality, this guide provides instructions on installing Wiimmfi. Wiimmfi에 연결하는 방법에는 여러 가지가 있습니다. 사용 목적에 가장 적합한 것을 선택합니다.
+<a href="https://wiimmfi.de">Wiimmfi</a>는 현재 사용되지 않는 닌텐도 Wi-Fi 연결을 대체하는 서비스입니다. Wiimm과 Leseratte가 개발했습니다. 일부 게임은 다른 게임보다 더 오랫동안 지원되었지만, 모든 게임은 2023년 8월부터 기존 방식으로 플레이할 수 없게 되었습니다. 닌텐도 WFC 기능을 다시 사용하기 위해 이 가이드에서는 Wiimmfi를 설치하는 방법을 설명합니다. Wiimmfi에 연결하는 방법에는 여러 가지가 있습니다. 사용 목적에 가장 적합한 것을 선택합니다.
 
 ::: warning
 
-If you get error 23904 while connecting to Wiimmfi, then you are using an outdated patch.
+Wiimmfi에 연결하는 동안 오류 23904가 발생하면 오래된 패치를 사용하고 있는 것입니다.
 
-Follow the steps below for the method you're using to connect to Wiimmfi again.
+Wiimmfi에 다시 연결하는 데 사용하는 방법에 대한 아래 단계를 따릅니다.
 
-See [this page](https://wiimmfi.de/update) for more details.
+자세한 내용은 [이 페이지](https://wiimmfi.de/update)를 참조합니다.
 
 :::
 
@@ -16,26 +16,26 @@ See [this page](https://wiimmfi.de/update) for more details.
 
 ::: warning
 
-If the `Wiimmfi Patch` displays as anything other than v4, you do not have the latest version of the hacks_hash.ini file and the patch will not work. You must reinstall Priiloader, the guide to which can be found in the requirements section.
+`Wiimmfi Patch`가 v4가 아닌 다른 것으로 표시되면 hacks_hash.ini 파일의 최신 버전이 없으므로 패치가 작동하지 않습니다. Priiloader를 다시 설치해야 합니다. 이에 대한 가이드는 요구 사항 섹션에서 확인할 수 있습니다.
 
 :::
 
-A method for Wiimmfi patching which runs on retail disc games automatically via the Disc Channel.
+디스크 채널을 통해 자동으로 판매용 디스크 게임에서 실행되는 Wiimmfi 패치 방법입니다.
 
-### Requirements
+### 요구 사항
 
-- A Wii with an internet connection, on System Menu version 4.3
-- [Priiloader](priiloader) 0.9 or later
+- 시스템 메뉴 버전 4.3의 인터넷 연결이 가능한 Wii
+- [Priiloader](priiloader) 0.9 이상
 
-### Instructions
+### 지침
 
-1. Hold the RESET button while turning on your Wii. Wii 미니를 사용하는 경우 USB 키보드를 연결하고 전원을 켠 상태에서 Escape 키를 길게 누릅니다.
+1. Wii를 켜는 동안 RESET 버튼을 누릅니다. Wii 미니를 사용하는 경우 USB 키보드를 연결하고 Esc 키를 누른 채로 전원을 켭니다.
 
 2. Priiloader 메뉴가 보일 것입니다.
 
    ![](/images/priiloader/mainmenu.png)
 
-3. Go to `System Menu Hacks`.
+3. `System Menu Hacks`으로 갑니다.
 
    ::: info
 
@@ -44,96 +44,96 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 
    :::
 
-4. Make sure the `Wiimmfi patch v4` hack is enabled.
+4. `Wiimmfi patch v4` 해킹이 활성화되어 있는지 확인합니다.
 
    ![](/images/priiloader/hacks.png)
 
-5. Scroll to `Save Settings` and save your changes.
+5. `Save Settings`으로 스크롤하여 변경 사항을 저장합니다.
 
-6. Return to the main menu, and press `System Menu` to return to the Wii Menu.
+6. 메인 메뉴로 돌아가서 `System Menu`를 눌러 Wii 메뉴로 돌아갑니다.
 
-7. MrBean35000vr (마리오 카트 Wii 콘텐츠 팩인 CTGP-R 제작자) 은 Wiimmfi 사용을 위해 디스크를 삽입하고 게임을 즉석에서 패치할 수 있는 Wiimmfi 디스크 패치 관리자를 만들었지만, 디스크를 시작할 때마다 이 패치 관리자를 실행해야 합니다.
+7. 디스크 채널을 통해 게임을 실행하세요. 이제 Wiimmfi 패치가 적용되었을 것입니다.
 
-## Automatic patching using a USB Loader
+## USB 로더를 통한 자동 백업 패치
 
-If you are already using USB Loader GX, try updating it to the most recent version. Then, there should be a "private server" setting (both in the global loader options and in the game options) which you can set to "Wiimmfi" to make the USB Loader automatically patch every game you start to work with Wiimmfi.
+USB Loader GX 또는 WiiFlow Lite의 최신 버전에서 게임 백업을 자동으로 패치하는 Wiimmfi 패치 방법입니다.
 
-### Requirements
+### 요구 사항
 
-- Mario Kart Wii Competitions
-- [USB Loader GX or WiiFlow Lite](wii-loaders)
+- 인터넷 연결이 가능한 Wii
+- [USB Loader GX 또는 WiiFlow Lite](wii-loaders)
 
-### Instructions
+### 지침
 
-1. Open the game or global settings for your specific USB loader and search for the `Private Server` option. By default, it will be set to `Off`.
-2. Set the option to `Wiimmfi` and save the settings. By default, games should now be automatically patched for Wiimmfi.
+1. 특정 USB 로더에 대한 게임이나 글로벌 설정을 열고 `사설 서버` 옵션을 검색합니다. 기본적으로는 `끔`으로 설정됩니다.
+2. 옵션을 `Wiimmfi`로 설정하고 설정을 저장합니다. 기본적으로 게임은 이제 Wiimmfi에 대해 자동으로 패치됩니다.
 
-## Automatic Disc Patching via Custom DNS
+## 커스텀 DNS를 통한 자동 디스크 패치
 
-A method for Wiimmfi patching which runs on retail game discs automatically through the usage of a custom DNS server. It works on some older games, such as Mario Kart Wii and Super Smash Bros. Brawl, but not every game. Due to the nature of this process, it can be run on Wiis without homebrew.
+커스텀 DNS 서버를 사용하여 판매용 게임 디스크에서 자동으로 실행되는 Wiimmfi 패치 방법입니다. 편리하지만 마리오카트 Wii, SSBB 등 일부 게임에서만 작동합니다. 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다.
 
 ::: warning
 
-If you get error 20100 or 20110, that means the game is too new for this method.
+오류 20100 또는 20110이 발생하는 경우, 플레이하려는 게임은 이 방법을 지원하지 않습니다.
 
 :::
 
 ::: warning
 
-If you get error 23400, your ISP or network is blocking the use of a custom DNS.
+오류 23400이 발생하면, ISP나 네트워크에서 커스텀 DNS 사용을 차단하고 있는 것입니다.
 
-To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC - you can read about it [here](https://wiimmfi.de/patcher/dnspatch#customdns).
+이 문제를 해결하기 위해 Wiimmfi는 PC에서 실행할 수 있는 커스텀 DNS 서버를 제공합니다. 자세한 내용은 [여기](https://wiimmfi.de/patcher/dnspatch#customdns)에서 확인할 수 있습니다.
 
 :::
 
-### Requirements
+### 요구 사항
 
-- Mario Kart Wii Competitions
+- 인터넷 연결이 가능한 Wii
 
-### Instructions
+### 지침
 
-1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
-2. (Wiimfi 패치가 적용되지 않은) 오리지널 마리오 카트 Wii 게임을 실행합니다.
-3. MrBean35000vr (마리오 카트 Wii 콘텐츠 팩인 CTGP-R 제작자) 은 Wiimmfi 사용을 위해 디스크를 삽입하고 게임을 즉석에서 패치할 수 있는 Wiimmfi 디스크 패치 관리자를 만들었지만, 디스크를 시작할 때마다 이 패치 관리자를 실행해야 합니다.
+1. `Wii 설정 > 인터넷 > 연결 설정`으로 가서 현재 사용하고 있는 연결을 선택합니다. 그런 다음 `설정 변경 > 자동 획득 DNS 없음 > 고급 설정`을 선택합니다. 기본 DNS를 `95.217.77.181`로 설정하고 보조 DNS를 `1.1.1.1`로 설정합니다.
+2. 연결 테스트가 완료될 때까지 Wii 시스템 업데이트를 실행하지 않습니다.
+3. 디스크 채널을 통해 게임을 실행합니다. 이제 Wiimmfi 패치가 적용되었을 것입니다.
 
-## Manual Disc Patching via Homebrew Channel
+## 홈브류 채널을 통한 수동 디스크 패치
 
-A method for Wiimmfi patching which runs on retail disc games, but must be manually launched via the Homebrew Channel.
+판매용 디스크 게임에서 실행되는 Wiimmfi 패치 방법이지만, 홈브류 채널을 통해 수동으로 실행해야 합니다.
 
-### Requirements
+### 요구 사항
 
 - SD 카드 및 USB 드라이브
 - [Auto Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher)
 
-### Instructions
+### 지침
 
-1. Simply extract the `apps` folder in this archive to the root of your SD card or USB drive.
+1. 이 보관 파일의 `apps` 폴더를 SD 카드나 USB 드라이브의 루트에 추출하기만 하면 됩니다.
 2. Wii에 SD 카드를 연결하고 홈브류 채널에서 자동 Wiimmfi 패치 관리자를 실행합니다.
 3. 게임 디스크를 삽입합니다 (실행 전이나 후에 삽입해도 상관없습니다).
 
-## Manual Disc Patching via EULA User Agreement
+## EULA 사용자 계약을 통한 수동 디스크 패치
 
-A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the EULA User Agreement (derives from [str2hax](str2hax)). Due to the nature of this process, it can be ran on Wiis without homebrew.
+판매용 게임 디스크에서 실행되는 Wiimmfi 패치 방법이지만 EULA 사용자 계약을 통해 수동으로 실행해야 합니다([str2hax](str2hax)에서 파생). 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다.
 
-### Requirements
+### 요구 사항
 
-- Mario Kart Wii Competitions
+- 인터넷 연결이 가능한 Wii
 
-### Instructions
+### 지침
 
 1. 게임 디스크를 넣습니다.
 
-2. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
+2. `Wii 설정 > 인터넷 > 연결 설정`으로 가서 현재 사용하고 있는 연결을 선택합니다. 그런 다음 `설정 변경 > 자동 획득 DNS 없음 > 고급 설정`을 선택합니다. 기본 DNS를 `95.217.77.151`로 설정하고 보조 DNS를 `1.1.1.1`로 설정합니다.
 
    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
-3. (Wiimfi 패치가 적용되지 않은) 오리지널 마리오 카트 Wii 게임을 실행합니다.
+3. 연결 테스트가 완료될 때까지 Wii 시스템 업데이트를 실행하지 않습니다.
 
-4. Go back twice to `Internet`, and press `User Agreements`. WC24 및 쇼핑 채널을 사용할 것인지 확인합니다.
+4. `인터넷`으로 두 번 돌아가서 `사용자 계약`을 누릅니다. WC24 및 쇼핑 채널을 사용할 것인지 확인합니다.
 
 5. Wiimmfi 패치 관리자 페이지가 표시되어야 합니다. 그렇지 않은데도 기본 사용권 계약이 계속 표시된다면 라우터가 이 방법과 호환되지 않는 것일 수 있습니다.
 
-6. You can patch WiiWare games in order to play them on Wiimmfi.
+6. 패처가 로드될 때까지 잠시 기다리세요. (보통 1.5분 정도 소요) 그러면 삽입한 게임이 Wiimmfi 패치로 부팅될 것입니다.
 
 ## Manual Disc Patching via Internet Channel
 
@@ -143,7 +143,7 @@ If you run into UPnP-related issues (such as the patcher getting stuch at "Init 
 
 :::
 
-A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). Due to the nature of this process, it can be ran on Wiis without homebrew. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
+A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
 
 ### Requirements
 
@@ -154,11 +154,11 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 1. Open the following webpage in the Internet Channel: `http://chadsoft.co.uk/wiimmfi`
 2. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
-3. Wii를 켜는 동안 RESET 버튼을 길게 누릅니다.
+3. Wii 메뉴로 돌아갑니다.
 4. Open the Internet Channel again and access the favorite you just made.
-5. It should be patched with Wiimmfi. Be patient, as Flashhax can be very unreliable - it may take several tries to get right.
+5. Wiimmfi Patcher가 시작됩니다. Be patient, as Flashhax can be very unreliable - it may take several tries to get right.
 
-## WiiWare Patching
+## PC를 통한 수동 WiiWare 패치
 
 A method for Wiimmfi patching which runs on WiiWare games, but must be manually run on a PC via a script.
 
@@ -166,13 +166,13 @@ A method for Wiimmfi patching which runs on WiiWare games, but must be manually 
 
 - SD 카드
 - 게임 복사본 (WAD 형식)
-- [WiiWare Patcher](https://github.com/RiiConnect24/WiiWare-Patcher/releases/latest) (cross platform)
+- UPnP 관련 문제 (패처가 "네트워크 초기화..." 또는 "UPnP 포트 전달 추가" 단계에서 10초 이상 멈추는 경우)가 발생하는 경우, 패처가 로드되자마자 Wii 리모컨의 - 버튼이나 게임큐브 컨트롤러의 Y 버튼을 눌러 이를 해결할 수 있습니다.
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
 ### Instructions
 
-1. 최신 버전의 WiiWare 패치 관리자의 .zip 파일을 압축 해제하고 WAD를 그 안에 넣습니다.
-2. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. RiiConnect24 패치 관리자를 사용하는 경우, 장치 (Wii, vWii 또는 Dolphin) 를 선택하고 WiiWare 패치 관리자를 선택합니다.
+1. WiiWare 패처 최신 버전의 .zip 파일을 추출한 후, WAD를 넣습니다.
+2. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. RiiConnect24 패처를 사용하는 경우 장치 (Wii, vWii 또는 Dolphin)를 선택하고 WiiWare 패처를 선택하세요.
 3. If it completed successfully, install the WAD that was made in `wiiware-wads` with [YAWM ModMii Edition](yawmme).
 
 ## Manual Disc Image Patching via PC
@@ -183,7 +183,7 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 
 - A Linux/macOS/Windows PC with an internet connection
 - A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
-- [Wiimmfi ISO Patcher](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
+- [Wiimmfi ISO 패처](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
 ### Instructions
 
