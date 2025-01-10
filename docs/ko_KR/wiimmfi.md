@@ -143,14 +143,14 @@ UPnP 관련 문제 (패처가 "네트워크 초기화..." 또는 "UPnP 포트 �
 
 :::
 
-A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the Internet Channel (derives from [Flashhax](flashhax)). 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다. [This](wiimmfi#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
+판매용 게임 디스크에서 실행되는 Wiimmfi 패치 방법이지만 인터넷 채널을 통해 수동으로 실행해야 합니다([Flashhax](flashhax)에서 파생). 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다. [이](wiimmfi#manual-disc-patching-via-eula-user-agreement) 방법은 일반적으로 더 안정적이므로 대신 권장됩니다.
 
-### Requirements
+### 요구 사항
 
-- A Wii with an internet connection, running in 60Hz mode
+- 인터넷에 연결되어 60Hz 모드로 실행되는 Wii
 - 인터넷 채널
 
-### Instructions
+### 지침
 
 1. Open the following webpage in the Internet Channel: `http://chadsoft.co.uk/wiimmfi`
 2. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
