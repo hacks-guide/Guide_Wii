@@ -174,7 +174,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
    ![](/images/homebrew/gcsaves/save-data.jpg)
 
-3. Find the save you want, select it and select `Move or Copy`.
+3. Keresd meg a mentést amit szeretnél, válaszd ki majd válaszd a `Move or Copy` opciót.
 
 ::: tip
 
