@@ -48,9 +48,9 @@ Wiimmfi에 다시 연결하는 데 사용하는 방법에 대한 아래 단계�
 
    ![](/images/priiloader/hacks.png)
 
-5. `Save Settings`으로 스크롤하여 변경 사항을 저장합니다.
+5. `설정 저장`으로 스크롤하여 변경 사항을 저장합니다.
 
-6. 메인 메뉴로 돌아가서 `System Menu`를 눌러 Wii 메뉴로 돌아갑니다.
+6. 메인 메뉴로 돌아가서 \`System Menu'를 눌러 Wii 메뉴로 돌아갑니다.
 
 7. 디스크 채널을 통해 게임을 실행하세요. 이제 Wiimmfi 패치가 적용되었을 것입니다.
 
@@ -152,37 +152,37 @@ UPnP 관련 문제 (패처가 "네트워크 초기화..." 또는 "UPnP 포트 �
 
 ### 지침
 
-1. Open the following webpage in the Internet Channel: `http://chadsoft.co.uk/wiimmfi`
-2. Add the page to the browser favorites by clicking the Star icon, then the `Add Favorite` button.
+1. 인터넷 채널에서 다음 웹페이지를 엽니다: `http://chadsoft.co.uk/wiimmfi`
+2. 별표 아이콘을 클릭한 다음 `즐겨찾기 추가` 버튼을 클릭하여 해당 페이지를 브라우저 즐겨찾기에 추가합니다.
 3. Wii 메뉴로 돌아갑니다.
-4. Open the Internet Channel again and access the favorite you just made.
-5. Wiimmfi Patcher가 시작됩니다. Be patient, as Flashhax can be very unreliable - it may take several tries to get right.
+4. 인터넷 채널을 다시 열어서 방금 만든 즐겨찾기에 접속합니다.
+5. Wiimmfi Patcher가 시작됩니다. 인내심을 가지세요. Flashhax는 매우 신뢰할 수 없습니다. 제대로 작동하려면 여러 번 시도해야 할 수도 있습니다.
 
 ## PC를 통한 수동 WiiWare 패치
 
-A method for Wiimmfi patching which runs on WiiWare games, but must be manually run on a PC via a script.
+WiiWare 게임에서 실행되는 Wiimmfi 패치 방법이지만, 스크립트를 통해 PC에서 수동으로 실행해야 합니다.
 
-### Requirements
+### 요구 사항
 
 - SD 카드
 - 게임 복사본 (WAD 형식)
 - UPnP 관련 문제 (패처가 "네트워크 초기화..." 또는 "UPnP 포트 전달 추가" 단계에서 10초 이상 멈추는 경우)가 발생하는 경우, 패처가 로드되자마자 Wii 리모컨의 - 버튼이나 게임큐브 컨트롤러의 Y 버튼을 눌러 이를 해결할 수 있습니다.
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-### Instructions
+### 지침
 
 1. WiiWare 패처 최신 버전의 .zip 파일을 추출한 후, WAD를 넣습니다.
-2. Run the patch script for your OS: usually it will end in `.bat` for Windows and `.sh` for Mac/Linux. RiiConnect24 패처를 사용하는 경우 장치 (Wii, vWii 또는 Dolphin)를 선택하고 WiiWare 패처를 선택하세요.
-3. If it completed successfully, install the WAD that was made in `wiiware-wads` with [YAWM ModMii Edition](yawmme).
+2. 사용하는 OS에 맞는 패치 스크립트를 실행합니다: 일반적으로 윈도우의 경우 `.bat`로 끝나고, 맥/리눅스의 경우 `.sh`로 끝납니다. RiiConnect24 패처를 사용하는 경우 장치 (Wii, vWii 또는 Dolphin)를 선택하고 WiiWare 패처를 선택하세요.
+3. 성공적으로 완료되면 [YAWM ModMii Edition](yawmme)을 사용하여 `wiiware-wads`에서 만들어진 WAD를 설치합니다.
 
-## Manual Disc Image Patching via PC
+## PC를 통한 수동 디스크 이미지 패치
 
-A method for Wiimmfi patching which runs on game disc images, but must be manually run on a PC via a script.
+게임 디스크 이미지에서 실행되는 Wiimmfi 패치 방법이지만, 스크립트를 통해 PC에서 수동으로 실행해야 합니다.
 
-### Requirements
+### 요구 사항
 
-- A Linux/macOS/Windows PC with an internet connection
-- A copy of the game you want to patch - supported formats are `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, and `FST` - `NKIT` is NOT supported
+- 인터넷 연결이 가능한 리눅스/맥OS/윈도우 PC
+- 패치하려는 게임의 사본 - 지원되는 형식은 `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ`, `FST`입니다. `NKIT`는 지원되지 않습니다.
 - [Wiimmfi ISO 패처](https://download.wiimmfi.de/patcher/wiimmfi-patcher-latest.zip)
 
 ### 지침
