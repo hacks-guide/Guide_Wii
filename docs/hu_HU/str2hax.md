@@ -34,19 +34,19 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
    ![](/images/riiconnect24/Internet_2.png)
 
-4. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
+4. Navigálj a Page 2`->`Internet`->`Connection Settings\` opcióig.
 
    ![](/images/riiconnect24/Internet_3.png)
 
    ![](/images/riiconnect24/Internet_4.png)
 
-5. Click on your network connection slot and navigate to `Change Settings`.
+5. Kattints a hálózati kapcsolatod slot-jára és navigálj a `Change Settings` opcióhoz.
 
    ![](/images/riiconnect24/Internet_5.png)
 
    ![](/images/riiconnect24/Internet_6.png)
 
-6. Set `Auto-Obtain DNS` to `No`, then click `Advanced Settings`.
+6. Állítsd be az `Auto-Obtain DNS`-t `No`-ra, majd kattints az `Advanced Settings`-re.
 
    ![](/images/riiconnect24/Internet_7.png)
 
@@ -70,9 +70,9 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
    ![](/images/riiconnect24/Internet_12.png)
 
-   - If the connection test was successful, select `No` to skip the Wii System Update.
-   - If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
-   - If it is still unsuccessful, please [use another exploit](get-started).
+   - Ha a csatlakozási teszt sikeres volt, válaszd a `No`-t, hogy átugord a Wii System Update-et.
+   - Ha hibára fut `521xx` hibakóddal, kérjük ellenőrizd, hogy pontosan adtad-e meg a DNS-t.
+   - Ha továbbra is sikertelen, kérjük [használj egy másik exploitot](get-started).
 
 ### II. rész - Az exploit kiváltása
 
