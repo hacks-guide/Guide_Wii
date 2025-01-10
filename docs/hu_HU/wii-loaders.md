@@ -16,7 +16,7 @@ A játékok lejátszásához ajánlott egy nagy SD-kártyát vagy egy külső me
 
 ::: info
 
-A hivatalos Wii Menu forwarder telepítő WiiFlow Lite-hoz megtalálható az [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer) csatornán. A forwarder telepítéséhez futtasd az alkalmazást a Homebrew Channel csatornán. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. A [YAWM ModMii Edition](yawmme) segítségével telepítheted.
+A hivatalos Wii Menu forwarder telepítő WiiFlow Lite-hoz megtalálható az [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer) csatornán. A forwarder telepítéséhez futtasd az alkalmazást a Homebrew Channel csatornán. A hivatalos USB Loader GX forwarder megtalállható a [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) oldalon. A [YAWM ModMii Edition](yawmme) segítségével telepítheted.
 
 :::
 
