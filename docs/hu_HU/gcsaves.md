@@ -24,7 +24,7 @@ Ha 100% teljesítettségű mentéseket keresel, [itt](https://gamefaqs.gamespot.
 
 ::: info
 
-If you are looking for save game exploits for booting into [Swiss](https://github.com/emukidid/swiss-gc/releases), you can find a list of them [here](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
+Ha játékméntés exploitokat keresel a [Swiss](https://github.com/emukidid/swiss-gc/releases)-be bootoláshoz, [itt](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits) találhatsz róluk egy listát.
 
 :::
 
@@ -123,7 +123,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-4. Amikor a dump megtörtént, nyomj tetszőleges gombot a folytatáshoz. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
+4. Amikor a dump megtörtént, nyomj tetszőleges gombot a folytatáshoz. Az `MCBACKUP` nevű mappában kell lennie az SD kártyád vagy az USB drive-od gyökerében.
 
 ## Egy emulált memória mentés visszaállítása egy fizikai memória kártyára
 
@@ -135,9 +135,9 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Lépések
 
-1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
+1. Ha egy Dolphin-ban készült mentést próbálsz helyreállítani, menj a `File` fülre a Dolphin-ba és válaszd a user mappa megnyitását, a GC mappa megnyitását, majd keresd meg a `.raw ` fájlt.
 
-2. If you are restoring a Nintendont emulated memory card save, navigate to the `saves` folder on the root of your SD card or USB.
+2. Ha egy Nintendont emulált memória kártya mentést próbálsz helyreállítani, akkor navigálj a `saves` mappába az SD kártyád vagy USB drive-od gyökerében.
 
 3. Csatlakoztasd a memória kártyádat a Slot A-hoz vagy a Slot B-hez.
 
