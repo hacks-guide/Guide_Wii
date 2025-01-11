@@ -2,7 +2,7 @@
 
 ::: warning
 
-Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
+ISP나 네트워크 환경이 커스컴 DNS 서버를 사용하는 것을 방해하는 경우 str2hax는 작동하지 않으며 [다른 익스플로잇을 선택](get-started)해야 합니다.
 
 :::
 
@@ -14,19 +14,19 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
 :::
 
-## Requirements
+## 요구 사항
 
 - 인터넷 연결이 있는 Wii
 
-## Instructions
+## 지침
 
 ### 섹션 I - 연결
 
 이 취약점 공격을 사용하려면 취약점 공격이 포함된 서버에 연결하기 위해 DNS를 설정해야 합니다.
 
-1. Power on your console.
+1. 콘솔의 전원을 켭니다.
 
-2. Go to `Wii Options`.
+2. `Wii 옵션`으로 갑니다.
 
    ![](/images/riiconnect24/Internet_1.png)
 
@@ -34,7 +34,7 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
    ![](/images/riiconnect24/Internet_2.png)
 
-4. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
+4. `페이지 2` -> `인터넷` -> `연결 설정`으로 이동합니다.
 
    ![](/images/riiconnect24/Internet_3.png)
 
