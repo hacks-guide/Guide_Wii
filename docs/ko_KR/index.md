@@ -1,45 +1,45 @@
 ---
 layout: home
-title: Wii 가이드
+title: Wii 해킹 가이드
 hero:
-  text: Wii 가이드
-  tagline: 완벽한 Wii, vWii, Wii mini 해킹 가이드.
+  text: Wii 해킹 가이드
+  tagline: 완벽한 Wii, vWii, Wii 미니 해킹 가이드.
   image:
     src: /images/main-pages/home-page-feature.jpg
 ---
 
 ::: info
 
-Please thoroughly read the introductory pages before proceeding.
+계속하기 전에 지침 페이지를 자세히 읽어봅니다.
 
 :::
 
 ## "홈브류"가 무엇인가요?
 
-**Homebrew** refers to software that was not authorized to run on a video game console by its manufacturer. To gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
+**홈브류**는 제조업체에서 비디오 게임 콘솔에서 실행하도록 승인하지 않은 소프트웨어를 말합니다. Wii에서 홈브류를 실행하려면 먼저 콘솔을 수정하여 서명되지 않은 코드를 실행해야 합니다.
 
-Common examples of homebrew usage on the Wii include:
+Wii에서 홈브류를 사용하는 일반적인 예는 다음과 같습니다:
 
-- [Backing up](bootmii) and [restoring](bootmiirecover) your Wii's NAND (system memory)
-- [Patching game discs](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
-- Installing [themes](themes) on the Wii Menu and in commonly used homebrew apps
-- Backing up your [discs](dump-games) and [other installed titles](dump-wads)
-- Installing a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
-- Restoring online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](nintendowfc)
-- and more!
+- Wii의 낸드 (시스템 메모리)를 [백업](bootmii)하고 [복원](bootmiirecover)합니다.
+- 게임 수정 사항을 로드하기 위한 [게임 디스크 패치](https://wiki.hacks.guide/wiki/Wii:Riivolution)
+- Wii 메뉴와 일반적으로 사용되는 홈브류 앱에 [테마](themes) 설치
+- [디스크](dump-games) 및 [기타 설치된 타이틀](dump-wads) 백업
+- 외부 저장 장치에서 Wii (및 기타 콘솔) 백업을 실행하기 위한 [USB 로더](wii-loaders) 설치
+- [WiiConnect24](wiiconnect24)와 [닌텐도 Wi-Fi 연결](nintendowfc) 모두에서 온라인 기능 복원
+- 그리고 더 많은 것들!
 
-## What does this guide do?
+## 이 가이드는 어떤 역할을 합니까?
 
-With certain variations depending on the path you take, this guide has the end goal of:
+이 가이드의 최종 목표는 다음과 같습니다. 경로에 따라 약간의 차이가 있을 수 있지만, 이 가이드의 최종 목표는 다음과 같습니다:
 
-- Exploiting your Wii and Installing the Homebrew Channel
-- Putting safeguards in place to help prevent bricks
-- Installing other homebrew that can enhance your experience, should you choose
+- Wii 활용 및 홈브류 채널 설치
+- 벽돌을 예방하기 위한 안전 장치 마련
+- 여러분의 경험을 향상시킬 수 있는 다른 홈브류 설치 (선택 사항)
 
-## Ready to start?
+## 시작할 준비가 되었나요?
 
 ::: tip
 
-Continue to [Key Information](key-information)
+[키 정보](key-information)로 계속하기
 
 :::
