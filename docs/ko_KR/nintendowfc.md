@@ -143,7 +143,7 @@ UPnP 관련 문제 (패처가 "네트워크 초기화..." 또는 "UPnP 포트 �
 
 :::
 
-판매용 게임 디스크에서 실행되는 Wiimmfi 패치 방법이지만 인터넷 채널을 통해 수동으로 실행해야 합니다([Flashhax](flashhax)에서 파생). 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다. [This](nintendowfc#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
+판매용 게임 디스크에서 실행되는 Wiimmfi 패치 방법이지만 인터넷 채널을 통해 수동으로 실행해야 합니다([Flashhax](flashhax)에서 파생). 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다. [이](nintendowfc#manual-disc-patching-via-eula-user-agreement) 방법은 일반적으로 더 안정적이므로 대신 권장됩니다.
 
 ### 요구 사항
 
