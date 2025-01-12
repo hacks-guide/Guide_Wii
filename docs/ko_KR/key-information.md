@@ -1,84 +1,84 @@
-# Key Information
+# 키 정보
 
-This page includes important disclaimers and information regarding the modding process that you should know before starting.
+이 페이지에는 개조 과정을 시작하기 전에 알아야 할 중요한 면책 조항과 정보가 포함되어 있습니다.
 
-## Bricks and Common Risks
+## 벽돌과 일반적인 위험
 
-When following the guide or using specific kinds of homebrew, there is a risk that you may brick your console - or put it into a state where it is partially or fully unusable. To prevent this, please follow the guide **exactly as written** and follow precautions when stated. Common risks for bricking are slated as below:
+가이드를 따르거나 특정 종류의 홈브류를 사용할 경우 콘솔이 망가지거나 일부 또는 전부 사용할 수 없는 상태가 될 위험이 있습니다. 이를 방지하려면 가이드에 적힌 대로 **정확히** 따르고, 명시된 예방 조치를 따릅니다. 벽돌 쌓기에 따른 일반적인 위험은 다음과 같습니다:
 
-- Following old modding tutorials or video guides unless explicitly recommended due to outdated or incorrect information
-- Restoring NAND backups from other consoles
-- Installing cIOS packs like DARKCORP
-- Installing updates intended for another region, or region changing your console
-- Modifying system files
+- 오래되었거나 잘못된 정보로 인해 명시적으로 권장되지 않는 한 오래된 개조 자습서나 비디오 가이드를 따르지 마십시오.
+- 다른 콘솔에서 낸드 백업 복원
+- DARKCORP와 같은 cIOS 팩 설치
+- 다른 지역을 위한 업데이트 설치 또는 콘솔 지역 변경
+- 시스템 파일 수정
 
-Please consult the [bricks guide](bricks) for more information.
+자세한 내용은 [벽돌 가이드](bricks)를 참조합니다.
 
-## Console Compatibility
+## 콘솔 호환성
 
-This guide works with all off-the-shelf retail Wiis, including the Wii U vWii and Wii mini.
-It does **NOT** work with development Wiis, including models:
+이 가이드는 Wii U vWii, Wii 미니를 포함한 모든 시중 판매용 Wii에 적용됩니다.
+개발용 Wii (모델 포함)에서는 **작동하지 않습니다.**
 
 - RVT-001 (NDEV)
-- RVT-002 (green frontplate)
-- RVT-005 (red frontplate)
+- RVT-002 (초록색 전면판)
+- RVT-005 (빨간색 전면판)
 
-Important notes relating to specific Wiis are below.
+특정 Wii와 관련된 중요 참고 사항은 아래와 같습니다.
 
-:::: details What if I own a Korean Wii?
+:::: details 한국어 Wii를 가지고 있다면?
 
-A Korean Wii is fully supported, and can also be region changed.
-Exercise caution when modifying region data and follow guides carefully to avoid a brick.
-
-::::
-
-:::: details What if I own a Wii U (vWii)?
-
-Wii mode on Wii U (called vWii in the homebrew community) is fully supported but it is recommended to setup an Aroma environment.
-Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew). A USB hub is recommended.
-If there are multiple versions of homebrew, make sure you are using the version designed for vWii.
-Be especially cautious with IOS to avoid bricking, since they are specifically designed for vWii.
+한국어 Wii는 완벽히 지원되며 지역 변경도 가능합니다.
+지역 데이터를 수정할 때는 주의하고 지침을 주의 깊게 따르면 문제가 발생하지 않습니다.
 
 ::::
 
-:::: details What if I own a Wii mini?
+:::: details Wii U (vWii)를 가지고 있다면?
 
-Wii Mini is supported and has compatibility with the most existing homebrew.
-Missing Wii features can be restored. A LAN adapter and USB hub are recommended.
-If there are multiple versions of homebrew, make sure you are using the one designed for Wii mini.
-Be especially cautious with IOS to avoid bricking, since they are specifically designed for Wii mini.
+Wii U의 Wii 모드 (홈브류 커뮤니티에서는 vWii라고 함)는 완벽히 지원되지만 아로마 환경을 설정하는 것이 좋습니다.
+누락된 Wii 기능을 복구할 수 있습니다. 현재 거의 모든 홈브류가 지원됩니다. (게임큐브 홈브류 제외) USB 허브를 권장합니다.
+홈브류에 여러 버전이 있는 경우, vWii용으로 설계된 버전을 사용하고 있는지 확인합니다.
+특히 iOS는 vWii용으로 특별히 설계되었으므로, 벽돌 현상이 발생하지 않도록 주의합니다.
 
 ::::
 
-## Storage Compatibility
+:::: details Wii 미니를 가지고 있다면?
 
-For SD cards, you will want a minimum of 128MB to run an exploit. On average, however, you will want a card that is sized 2GB or more. Format instructions are listed [here](https://wiki.hacks.guide/wiki/Formatting_an_SD_card).
+Wii 미니는 대부분의 기존 홈브류 게임과 호환되며 지원됩니다.
+누락된 Wii 기능을 복구할 수 있습니다. LAN 어댑터와 USB 허브를 권장합니다.
+홈브류에 여러 버전이 있는 경우, Wii 미니용으로 설계된 버전을 사용해야 합니다.
+Wii 미니용으로 특별히 설계된 iOS의 경우, 벽돌을 피하기 위해 특히 조심해야 합니다.
 
-For USB devices, you will want to use a USB hard drive or solid state drive formatted as FAT32. We do not recommend using flash drives as they are prone to failure or not working as intended with a Wii.
+::::
 
-2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. For Wii U and Wii mini users, you will probably want to use an externally powered USB hub or a Y cable for drives that operate off of USB power alone, due to power draw.
+## 저장소 호환성
 
-Please consult [the storage FAQ](faq#storage-device-faq) for more information.
+SD 카드의 경우, 익스플로잇을 실행하려면 최소 128MB가 필요합니다. 하지만, 평균적으로 2GB 이상 크기의 카드가 필요합니다. 포맷 지침은 [여기](https://wiki.hacks.guide/wiki/SD_card_포맷)에서 확인할 수 있습니다.
 
-## Network Compatibility
+USB 장치의 경우 FAT32로 포맷된 USB 하드 드라이브나 솔리드 스테이트 (SSD) 드라이브를 사용해야 합니다. 플래시 드라이브는 Wii에서 고장이 나거나 의도한 대로 작동하지 않을 수 있으므로 사용하지 않는 것이 좋습니다.
 
-The Wii is an aging console, and as such, may have difficulties connecting to modern wireless networks.
+2.5인치 드라이브는 대부분의 경우 Wii에서 USB 전원만으로 작동하면 잘 작동하지만, 3.5인치는 더 많은 전력을 소모하므로 항상 외부 전원 어댑터가 필요합니다. Wii U와 Wii 미니 사용자의 경우, 전력 소모가 크기 때문에 USB 전원만으로 작동하는 드라이브의 경우 외부 전원 공급 USB 허브나 Y 케이블을 사용하는 것이 좋습니다.
 
-Its network hardware is based on 802.11g (retroactively named WiFi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use WiFi with your Wii.
+자세한 내용은 [저장소 자주 묻는 질문](faq#storage-device-faq)를 참조합니다.
 
-For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the `Wii VC Launch` Aroma plugin.
+## 네트워크 호환성
 
-Please consult [the network FAQ](faq#networking-faq) for more information.
+Wii는 오래된 콘솔이기 때문에 최신 무선 네트워크에 연결하는 데 어려움이 있을 수 있습니다.
 
-## Getting Help
+네트워크 하드웨어는 2.4GHz 대역에서 작동하는 802.11g (이전 명칭은 WiFi 3)를 기반으로 합니다. 또한 최대 WPA2-PSK (AES) 개인 네트워크 암호화도 지원합니다. Wii에서 WiFi를 사용하려면 네트워크가 이러한 표준을 지원하는지 확인해야 합니다.
 
-Ran into an issue while following the guide, already have an issue on your modded Wii, or just plain need answers?
+Wii U의 경우, vWii는 Wii U의 기본 설정에서 설정된 인터넷 설정을 사용하지만, `Wii VC 실행` 아로마 플러그인을 사용하여 선택적으로 분리할 수 있습니다.
 
-- If your question isn't already answered on this page, it may be answered in the [FAQs](faq) section of the guide.
-- If your question still isn't answered and you need support, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel.
+자세한 내용은 [네트워크 자주 묻는 질문](faq#networking-faq)를 참조합니다.
+
+## 도움 받기
+
+가이드를 따라가는 동안 문제가 생겼나요? 이미 개조된 Wii에서 문제가 생겼나요? 아니면 그냥 답변이 필요하세요?
+
+- 이 페이지에 질문에 대한 답변이 없는 경우 가이드의 [자주 묻는 질문](faq) 섹션에서 답변을 찾아볼 수 있습니다.
+- 여전히 질문에 대한 답변을 받지 못하고 지원이 필요한 경우 [닌텐도 홈브류 디스코드](https://discord.gg/C29hYvh)에 가입하여 `#wii-vwii-assistance` 채널로 이동합니다.
 
 ::: tip
 
-[시작하기](get-started)로 계속합니다
+[시작하기](get-started)로 계속하기
 
 :::
