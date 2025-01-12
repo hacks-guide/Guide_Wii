@@ -107,7 +107,7 @@ WiiFlow가 게임을 감지하면 플로우 뷰에 표시됩니다.
 
 ### 요구 사항
 
-- Wii
+- 개조된 Wii
 - [cIOS](cios)의 최신 버전
 - [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
