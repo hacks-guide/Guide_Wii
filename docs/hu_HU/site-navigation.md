@@ -15,7 +15,7 @@
 
 **Wii Online szolgáltatások**
 
-- [Nintendo Wi-Fi Connection](wiimmfi)
+- [Nintendo Wi-Fi Connection](nintendowfc)
 - [Az RTC Time beállítása](wiiconnect24#updating-rtc-clock)
 - [WiiConnect24](wiiconnect24)
 
