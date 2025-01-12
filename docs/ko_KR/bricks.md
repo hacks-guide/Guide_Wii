@@ -1,20 +1,20 @@
-# Bricks
+# 벽돌
 
 A "Brick" usually means your Wii has reached a state where its next purpose in existence is likely that of a doorstop, or a display figure.
 
-Bricks can occur for a variety of reasons, however usually it results through corrupted software, or from improper modifications made through homebrew.
+벽돌 현상은 다양한 이유로 발생할 수 있지만 일반적으로는 소프트웨어가 손상되거나 홈브류에서 부적절하게 수정한 경우 발생합니다.
 
-# Brick Prevention
+# 벽돌 방지
 
-Preventing a brick involves many rules that range between common sense and fail-safe backups. Here are the general recommendations of what not to do:
+문제가 발생하는 것을 방지하려면 상식적인 측면에서 안전한 백업에 이르기까지 다양한 규칙이 필요합니다. 하지 말아야 할 일에 대한 일반적인 권장 사항은 다음과 같습니다:
 
-- **Do NOT follow old modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
-- **Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. It is DANGEROUS and does things that have the ability to BRICK YOUR CONSOLE!**
-- **Do NOT install IOS packs such as DARKCORP that overwrite most of your IOS with cIOS. It is DANGEROUS and heavily outdated.**
-- **Do NOT restore NAND backups from other consoles!**
-- **Do NOT install any IOS that isn't meant for your system** (example: Wii IOS on Wii mini)
-- **Do NOT attempt region changing methods meant for Wii on the vWii or Wii mini**
-- **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](nintendowfc)). Doing otherwise could allow a malicious actor to BRICK your Console!**
+- **홈브류 개발자가 명확히 권장하지 않는 한 오래된 개조 자습서를 따르거나 오래된 홈브류를 사용하거나 인터넷의 비디오 가이드를 사용하지 마세요.**
+- **어떤 경우에도 홈브류 앱인 `Pimp My Wii`를 사용하지 마세요. 이 프로그램은 위험하며 콘솔을 벽돌로 만들 수 있는 능력을 가지고 있습니다!**
+- \*\* cIOS로 IOS의 대부분을 덮어쓰는 DARKCORP 등의 IOS 팩을 설치하지 마세요. 위험하고 매우 오래되었습니다.\*\*
+- **다른 콘솔에서 낸드 백업을 복원하지 마세요!**
+- **시스템에 맞지 않는 IOS는 설치하지 마세요** (예: Wii 미니에 설치된 Wii IOS)
+- **vWii 또는 Wii 미니에서 Wii용 지역 변경 방법을 시도하지 마세요.**
+- **RCE 패치가 적용된 것으로 알려진 경우(예: [Wiimmfi](nintendowfc))를 제외하고는 닌텐도 Wi-Fi 연결 서비스를 사용하지 마십시오. 그렇지 않으면 악의적인 공격자가 여러분의 콘솔을 파괴할 수 있습니다!**
 - **Only install updates for your own region!**.
   - Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
 - **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
