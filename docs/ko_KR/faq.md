@@ -1,123 +1,123 @@
-# FAQ and Troubleshooting
+# 자주 묻는 질문 및 문제 해결
 
-## Main FAQ
+## 주요 자주 묻는 질문
 
 ### 콘솔 해킹은 얼마나 위험한가요?
 
-Not very risky depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+콘솔에 따라 크게 위험하지는 않습니다. Wii는 다른 콘솔에 비해 진입 장벽이 훨씬 낮으며, 일부 게임을 플레이하는 데는 Wii와 인터넷 연결만 있으면 됩니다. [여기](bricks#brick-prevention)에 나와 있는 일반적인 조언을 따르고 [BootMii](bootmii)와 [Priiloader](priiloader)를 설치하고 상식에 따라 행동한다면 아무런 문제가 없을 겁니다!
 
 ### I got error code XXXXXX, how to fix it?
 
-In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). More common errors have fixes listed below:
+오류의 의미를 확인하려면 [Wiimmfi 오류 페이지](https://wiimmfi.de/error)를 방문합니다. 더 일반적인 오류에 대한 해결책은 아래와 같습니다:
 
-#### Error 051330/51330
+#### 오류 051330/51330
 
-Run an Internet connection test by going to `Wii Settings > Internet > Connection settings > Connection > Test this connection`
+`Wii 설정 > 인터넷 > 연결 설정 > 연결 > 이 연결 테스트`로 이동하여 인터넷 연결 테스트를 실행합니다.
 
-#### Error 220602
+#### 오류 220602
 
-##### For RiiConnect24 Users
+##### RiiConnect24 사용자용
 
-You are using the old DNS server for RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+RiiConnect24의 이전 DNS 서버를 사용하고 있습니다. 변경 방법에 대한 지침은 [이](riiconnect24#section-iv---connecting) 가이드를 따릅니다.
 
-##### For non-RiiConnect24 Users
+##### 비 RiiConnect24 사용자용
 
-Your Primary DNS server is incorrect or not working.
+기본 DNS 서버가 잘못되었거나 작동하지 않습니다.
 
-This can also happen if you use a proxy server and it is down.
+프록시 서버를 사용하고 해당 서버가 다운된 경우에도 이런 일이 발생할 수 있습니다.
 
-#### Error 107304
+#### 오류 107304
 
-##### For RiiConnect24 Users
+##### RiiConnect24 사용자용
 
-If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+이러한 오류가 발생하거나 RiiConnect24 로고 없이 닌텐도 사용자 계약이 표시되는 경우, 여러분의 ISP (인터넷 서비스 제공업체) 또는 네트워크가 RC24 DNS 사용을 차단하고 있다는 의미입니다. 이 문제를 해결하려면 '자동으로 DNS 가져오기'를 '켜기'로 설정하면 됩니다. RiiConnect24는 이것 없이도 작동합니다. 또는 [RiiConnect24 DNS 서버](https://github.com/RiiConnect24/DNS-Server/releases/latest) 프로그램을 사용할 수 있습니다.
 
-##### For non-RiiConnect24 Users
+##### 비 RiiConnect24 사용자용
 
-If you get this error, the DNS server you chose or your internet as a whole is having issues. Try again later.
+이 오류가 발생하면 선택한 DNS 서버나 인터넷 전체에 문제가 있는 것입니다. 나중에 다시 시도합니다.
 
 #### FORE000006
 
-If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock.
+오류 FORE000006이 발생하면 Wii의 시계가 잘못 설정되었을 가능성이 큽니다. 올바르게 재설정하는 방법에 대한 지침은 [이것](wiiconnect24#updating-rtc-clock)을 참조합니다. 그래도 문제가 해결되지 않으면 Wii 시계 배터리(시스템 하단의 나사 뒤에 있음)를 한 시간 동안 제거한 다음 다시 넣습니다. 그런 다음 Wii의 시계를 재설정합니다.
 
 ### 자녀 보호는 어떻게 해제하나요?
 
-The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
+[mkey 생성기](https://mkey.nintendohomebrew.com/)를 사용하면 보호자 통제 기능을 제거하는 데 필요한 코드를 생성할 수 있습니다.
 
-### I think my Wii is bricked, or something is seriously wrong, what do I do?
+### 내 Wii가 고장난 것 같거나 심각한 문제가 있는 경우 어떻게 해야 하나요?
 
-See [this](bricks) page.
+[이](bricks) 페이지를 참조합니다.
 
-## Storage Device FAQ
+## 저장 장치 자주 묻는 질문
 
 ::: info
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+[BlueBomb](bluebomb), [str2hax](str2hax), 또는 [FlashHax](flashhax) 익스플로잇의 경우 Wii 해킹에 SD 카드가 필요하지 않습니다. 홈브류 및 기타 작업을 위해 SD 카드를 하나 구입하는 것이 좋습니다.
 
 :::
 
 ::: info
 
-FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.
+SD 카드에는 FAT32가 권장되는 파일 시스템이고, 포맷 지침은 [이 가이드](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)를 참조합니다.
 
-For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS was a previously used file system for Wii game backups (not to be confused with WBFS files) - today, it is outdated and should not be used.
+USB 장치의 경우 FAT32도 권장되지만, 사용자는 최대 2TB 크기의 볼륨만 허용하는 FAT32 제한 사항을 알고 있어야 합니다. WBFS는 이전에 Wii 게임 백업에 사용된 파일 시스템이었습니다 (WBFS 파일과 혼동하지 마세요) - 오늘날에는 오래되어서 사용해서는 안 됩니다.
 
 :::
 
 ::: warning
 
-For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.
+Wii 메뉴 버전이 4.0 미만인 경우, Wii 시스템 소프트웨어의 제한으로 인해 2GB가 넘는 SD 카드를 사용할 수 없습니다.
 
-For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.
+기존 Wii 메뉴 버전 4.0 이상의 경우 이러한 제한이 제거되어 다양한 크기의 SD 카드를 사용할 수 있습니다.
 
-Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
+Wii에서 작동하는 SD 카드를 얻을 수 있는 가장 큰 가능성은 크기가 32GB 이하일 때이지만, 최대 256GB 범위의 카드에서도 성공한 사례가 여러 번 보고되었습니다.
 
 :::
 
 ::: warning
 
-For USB devices, flash drives have a high rate of not working on Wii consoles. Instead, it is recommended to use a USB hard drive or solid state drive.
+USB 장치의 경우, 플래시 드라이브는 Wii 콘솔에서 작동하지 않을 확률이 높습니다. 대신 USB 하드 드라이브나 솔리드 스테이트 드라이브(SSD)를 사용하는 것이 좋습니다.
 
 :::
 
-### General Storage Guidelines
+### 일반 저장 지침
 
-When considering buying or using an SD card or USB device, it is worth considering the things that you will be using either storage medium for. Different uses can take up varying amounts of space, some common examples of which are shown below:
+SD 카드나 USB 장치를 구매하거나 사용할 때, 각 저장 매체를 어떤 용도로 사용할 것인지 고려해 보는 것이 좋습니다. 다양한 용도로 인해 차지하는 공간의 양이 달라지는데, 아래에 몇 가지 일반적인 예를 보여드립니다:
 
 - The average user for a Wii backup device would probably want 128GB or more of space. Wii Backups: The largest Wii games (dual-layer DVD) are up to sizes of 8.5GB, more normal games are closer to sizes of 4.7GB or lower.
-- GameCube Backups: The largest GameCube games reach sizes of up to 1.3GB. ISO sizes are normally this size regardless of the game, but can be considerably lower if NKIT is used as a format instead. The average user for a GameCube backup device would probably want 64GB or more of space.
-- General Emulation: There are a wide variety of emulators available on the Wii. Because the size of different game ROMs differ dramatically, the average user wanting to emulate games would probably want 32GB or more of space.
-- General Homebrew: For homebrew, the average user would want 2GB or more of space.
-- NAND Backups: For backing up your NAND with BootMii, the average user would need a minimum of 512MB of free space, but sizes of 1GB or more are recommended.
+- 게임큐브 백업: 가장 큰 게임큐브 게임의 크기는 최대 1.3GB에 이릅니다. ISO 크기는 일반적으로 게임에 관계없이 이 크기이지만, 대신 NKIT를 형식으로 사용하면 상당히 작아질 수 있습니다. 게임큐브 백업 장치를 사용하는 일반 사용자는 아마도 64GB 이상의 공간을 원할 것입니다.
+- 일반 에뮬레이션: Wii에는 다양한 종류의 에뮬레이터가 있습니다. 다양한 게임 롬의 크기는 상당히 다르므로, 게임을 에뮬레이션하려는 일반 사용자는 아마도 32GB 이상의 공간이 필요할 것입니다.
+- 일반 홈브류: 홈브류의 경우 일반 사용자는 2GB 이상의 공간이 필요합니다.
+- 낸드 백업: BootMii로 낸드를 백업하려면 일반 사용자에게 최소 512MB의 여유 공간이 필요하지만, 1GB 이상의 공간이 권장됩니다.
 - 취약점 공격을 실행하려면 최소 128MB의 SD 카드가 필요합니다.
 
-### Buying SD Cards
+### SD 카드 구매
 
 ::: danger
 
-SD cards larger than 2TB currently do not exist, anyone attempting to sell you one is trying to rip you off.
+현재 2TB보다 큰 SD 카드는 존재하지 않습니다. 이 카드를 판매하려는 사람은 당신을 속이려는 것입니다.
 
 :::
 
-When buying SD cards, it is generally recommended that you stick to well-known brands the more expensive and larger capacity that you get. While you can buy a generic 2GB SD card and most likely be safe, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-20 USD for 256GB and below, whereas 512GB is around 40 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be wary when buying storage on eBay.
+SD 카드를 구매할 때는 일반적으로 가격이 비싸고 용량이 클수록 잘 알려진 브랜드를 고수하는 것이 좋습니다. 일반적인 2GB SD 카드를 사면 안전할 가능성이 높지만 512GB SD 카드 등은 그렇지 않습니다. 일반적으로 SD 카드의 현재 가격은 256GB 이하일 경우 10~20 달러 정도이고, 512GB일 경우 40 달러 정도입니다. 아마존에서 구매할 경우, 카드가 `아마존에서 판매/아마존에서 배송` 또는 `[브랜드]에서 판매, 아마존에서 배송` 중 하나인지 확인합니다. 이베이에서 저장 장치를 구매할 때는 주의합니다.
 
-Recommended brands:
+추천 브랜드:
 
-- Samsung (EVO Select, EVO Plus, PRO Plus)
-- SanDisk (Extreme, Ultra, etc)
-- Lexar (E-Series, Professional)
-- Silicon Power ("3D NAND" cards, higher capacity usually better value)
-- PNY (Elite, Elite-X, etc)
+- Samsung (EVO 선택, EVO 플러스, 프로 플러스)
+- SanDisk (익스트림, 울트라 등)
+- Lexar (E-시리즈, 프로페셔널)
+- Silicon Power ("3D 낸드" 카드, 일반적으로 용량이 클수록 가치가 더 좋음)
+- PNY (엘리트, 엘리트-X, 등)
 
-### Buying USB Devices - Hard Drives
+### USB 장치 구매 - 하드 드라이브
 
-When buying USB hard drives, there are only three existing present-day HDD manufacturers: Western Digital, Seagate, and Toshiba. Any and all other hard drive companies are defunct and have either went bankrupt, or were absorbed by the three aformentioned companies. With that said, if you have an extra hard drive lying around made by another company, it should still work! Hard drive technology has remained largely the same within the past 10 or so years. Just make sure to check the S.M.A.R.T data to ensure that the drive isn't failing before you throw all of your data on there.
+USB 하드 드라이브를 구매할 때 현재 판매되는 HDD 제조업체는 Western Digital, Seagate, Toshiba의 세 곳 뿐입니다. 다른 모든 하드 드라이브 회사는 더 이상 존재하지 않거나 파산했거나 앞서 언급한 세 회사에 흡수되었습니다. 즉, 다른 회사에서 만든 추가 하드 드라이브가 있다면 여전히 작동할 것입니다! 하드 드라이브 기술은 지난 10여 년간 크게 변하지 않았습니다. 모든 데이터를 드라이브에 넣기 전에 S.M.A.R.T 데이터를 확인하여 드라이브에 오류가 없는지 확인합니다.
 
-For hard drive sizing, 2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. Make sure to plan for this when determining what you want to do with an external drive.
+하드 드라이브 크기의 경우, 2.5인치 드라이브는 Wii에서 USB 전원만으로 작동할 경우 대부분 잘 작동하지만, 3.5인치는 더 많은 전력을 소모하므로 항상 외부 전원 어댑터가 필요합니다. Make sure to plan for this when determining what you want to do with an external drive.
 
-For Wii U users, it is highly recommended to have a hard drive that takes external power, or to use a powered USB hub and/or Y cable for 2.5 inch drives.
+Wii U 사용자의 경우, 외부 전원을 사용하는 하드 드라이브를 사용하거나 2.5인치 드라이브의 경우 전원이 공급되는 USB 허브 및/또는 Y 케이블을 사용하는 것이 좋습니다.
 
-For Wii mini users, it is recommended to have an externally powered USB hub in order to have external storage, internet adapters, and other peripherals connected simultaneously. You may also want to use a Y cable for drive power.
+Wii 미니 사용자의 경우 외부 저장장치, 인터넷 어댑터 및 기타 주변 장치를 동시에 연결할 수 있도록 외부 전원 공급 USB 허브를 사용하는 것이 좋습니다. 구동 전원을 위해 Y 케이블을 사용할 수도 있습니다.
 
 As for your choices in shopping, this largely comes down to three different scenarios:
 
@@ -149,7 +149,7 @@ ISPs known to provide routers incompatible with these settings:
 If your ISP will not let you change these settings, or your current networking hardware is not supported, you have a few options:
 
 - You can try to use a cellular hotspot. This is not recommended as it usually results in an unstable connection.
-- You can use a LAN adapter. It must have the `ASIX AX88772` chipset or say “compatible with Wii”. Here is a [recommended LAN adapter by uGreen](https://a.co/d/3OcSJDS).
-- Alternatively, you can buy a secondary router and continue to use the network you already have, like a mesh. Any cheap router meeting the above standards (such as the Linksys WRT54G) will work.
+- LAN 어댑터를 사용할 수 있습니다. `ASIX AX88772` 칩셋이 있어야 하거나 "Wii와 호환"되어야 합니다. [uGreen이 추천하는 LAN 어댑터](https://a.co/d/3OcSJDS)는 다음과 같습니다.
+- 혹은 보조 라우터를 구매해서 메시처럼 이미 가지고 있는 네트워크를 계속 사용할 수도 있습니다. 위의 기준을 충족하는 저렴한 라우터 (예: Linksys WRT54G)라면 모두 작동합니다.
 
 Wii U의 경우, vWii는 Wii U의 기본 설정에서 설정된 인터넷 설정을 사용하지만, `Wii VC 실행` 아로마 플러그인을 사용하여 선택적으로 분리할 수 있습니다.
