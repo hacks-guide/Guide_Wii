@@ -113,42 +113,42 @@ SD 카드를 구매할 때는 일반적으로 가격이 비싸고 용량이 클�
 
 USB 하드 드라이브를 구매할 때 현재 판매되는 HDD 제조업체는 Western Digital, Seagate, Toshiba의 세 곳 뿐입니다. 다른 모든 하드 드라이브 회사는 더 이상 존재하지 않거나 파산했거나 앞서 언급한 세 회사에 흡수되었습니다. 즉, 다른 회사에서 만든 추가 하드 드라이브가 있다면 여전히 작동할 것입니다! 하드 드라이브 기술은 지난 10여 년간 크게 변하지 않았습니다. 모든 데이터를 드라이브에 넣기 전에 S.M.A.R.T 데이터를 확인하여 드라이브에 오류가 없는지 확인합니다.
 
-하드 드라이브 크기의 경우, 2.5인치 드라이브는 Wii에서 USB 전원만으로 작동할 경우 대부분 잘 작동하지만, 3.5인치는 더 많은 전력을 소모하므로 항상 외부 전원 어댑터가 필요합니다. Make sure to plan for this when determining what you want to do with an external drive.
+하드 드라이브 크기의 경우, 2.5인치 드라이브는 Wii에서 USB 전원만으로 작동할 경우 대부분 잘 작동하지만, 3.5인치는 더 많은 전력을 소모하므로 항상 외부 전원 어댑터가 필요합니다. 외장 드라이브로 무엇을 할지 결정할 때 이 점도 꼭 고려합니다.
 
 Wii U 사용자의 경우, 외부 전원을 사용하는 하드 드라이브를 사용하거나 2.5인치 드라이브의 경우 전원이 공급되는 USB 허브 및/또는 Y 케이블을 사용하는 것이 좋습니다.
 
 Wii 미니 사용자의 경우 외부 저장장치, 인터넷 어댑터 및 기타 주변 장치를 동시에 연결할 수 있도록 외부 전원 공급 USB 허브를 사용하는 것이 좋습니다. 구동 전원을 위해 Y 케이블을 사용할 수도 있습니다.
 
-As for your choices in shopping, this largely comes down to three different scenarios:
+쇼핑할 때 선택할 수 있는 것은 크게 세 가지 시나리오로 나뉩니다:
 
-- Buying a new external hard drive from scratch: New external drives come brand new around 60 USD for 2TB, 50 USD for 1TB, around 30 USD for sizes lower than 1TB. Whatever you do, try to stick within the three present manufacturing brands listed above, but bear in mind that offerings are sparse for drive sizes lower than 1TB.
-- Buying a new hard drive, and a new enclosure: New hard drives are decently cheaper than buying a pre-made hard drive, and you can buy an enclosure to house this new hard drive. 2.5 inch enclosures are normally powerable off of USB alone, while 3.5 inch enclosures almost always come with an external adapter for power. An example price is buying a 500GB Western Digital drive and a 2.5 inch drive enclosure off of Amazon - all in all, about 30 USD.
-- Buying an enclosure for an already existing hard drive: If you already have a hard drive laying around, you can put it in an enclosure and use it for your Wii. Enclosures can be found for prices ranging between 10 to 20 USD off of Amazon, as long as you have a drive to supply it with.
+- 새 외장 하드 드라이브를 처음부터 구매하는 경우: 새 외장 드라이브는 2TB의 경우 60 달러, 1TB의 경우 50 달러, 1TB보다 작은 크기의 경우 30 달러 정도에 새 제품으로 출시됩니다. 무엇을 하든 위에 나열된 현재 제조 중인 3 개의 브랜드를 고수하도록 노력하세요. 하지만 1TB보다 작은 드라이브 크기의 경우 제공되는 제품이 드물다는 점을 명심합니다.
+- 새 하드 드라이브와 새 케이스를 구입합니다. 새 하드 드라이브는 기성품 하드 드라이브를 구입하는 것보다 상당히 저렴하며, 이 새 하드 드라이브를 넣을 케이스를 구입할 수 있습니다. 2.5인치 인클로저는 일반적으로 USB로만 전원을 공급받지만, 3.5인치 인클로저는 거의 항상 외부 전원 어댑터가 함께 제공됩니다. 예를 들어 아마존에서 500GB Western Digital 드라이브와 2.5인치 드라이브 인클로저를 구입하는 경우의 가격은 모두 30 달러 정도입니다.
+- 기존 하드 드라이브용 케이스 구매: 이미 하드 드라이브가 있다면 케이스에 넣어 Wii에 사용할 수 있습니다. 아마존에서 10~20 달러 사이의 가격으로 인클로저를 구입할 수 있지만, 이를 공급할 드라이브가 있어야 합니다.
 
-### Buying USB Devices - Solid State Drives
+### USB 장치 구매 - 솔리드 스테이트 드라이브 (SSD)
 
 ::: warning
 
-For the purpose of using a drive with a Wii, external SSDs are often more expensive than conventional hard drives for no visible gain in speed on a Wii (the console only supports up to USB 2.0 data speeds). If you would like to buy one or already have one lying around, it's an option, but generally it's recommended to just go for a hard drive if you don't already have one.
+Wii에서 드라이브를 사용하려면 외장형 SSD가 기존 하드 드라이브보다 가격이 비싼 편이며, Wii에서는 눈에 띄는 속도 향상이 없습니다. (콘솔은 최대 USB 2.0 데이터 속도만 지원) 구입하고 싶거나 이미 가지고 있다면 선택 사항이지만, 일반적으로 하드 드라이브가 없다면 그냥 구매하는 것이 좋습니다.
 
 :::
 
-## Networking FAQ
+## 네트워킹 자주 묻는 질문
 
-The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named WiFi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points (APs):
+Wii의 무선 네트워크 하드웨어는 2.4GHz 대역에서 최대 표준인 802.11g (이전 명칭은 WiFi 3)를 지원하며, 최대 보안 수준은 WPA2-PSK (AES)입니다. 따라서 Wii는 다음 액세스 포인트 (AP)에 연결할 수 없습니다.
 
-- APs enforcing WPA enterprise encryption, or WPA3 only
-- APs not backwards compatible with WiFi 3, or broadcasting only on the 5 GHz band
+- WPA 엔터프라이즈 암호화 또는 WPA3만 적용하는 AP
+- WiFi 3와 이전 버전과 호환되지 않거나 5GHz 대역에서만 브로드캐스팅하는 AP
 
-ISPs known to provide routers incompatible with these settings:
+다음 설정과 호환되지 않는 라우터를 제공하는 것으로 알려진 ISP:
 
 - Xfinity
 - Spectrum
 - Cox
 
-If your ISP will not let you change these settings, or your current networking hardware is not supported, you have a few options:
+ISP에서 이러한 설정을 변경하지 못하게 하거나 현재 네트워크 하드웨어가 지원되지 않는 경우 몇 가지 옵션이 있습니다:
 
-- You can try to use a cellular hotspot. This is not recommended as it usually results in an unstable connection.
+- 셀룰러 핫스팟을 사용해 봅니다. 이 방법은 일반적으로 연결이 불안정해지므로 권장하지 않습니다.
 - LAN 어댑터를 사용할 수 있습니다. `ASIX AX88772` 칩셋이 있어야 하거나 "Wii와 호환"되어야 합니다. [uGreen이 추천하는 LAN 어댑터](https://a.co/d/3OcSJDS)는 다음과 같습니다.
 - 혹은 보조 라우터를 구매해서 메시처럼 이미 가지고 있는 네트워크를 계속 사용할 수도 있습니다. 위의 기준을 충족하는 저렴한 라우터 (예: Linksys WRT54G)라면 모두 작동합니다.
 
