@@ -1,12 +1,12 @@
 # 추천
 
-This page outlines homebrew that are recommended by the wii.hacks.guide staff for being useful, nice to have, or just flat out good. Take full advantage of the power you now have with your Wii!
+이 페이지에서는 wii.hacks.guide 스탭이 유용하다고 추천하는 홈브류, 있으면 좋다고 추천하는 홈브류, 그저 괜찮은 홈브류를 설명합니다. Wii의 강력한 성능을 최대한 활용해 보세요!
 
-Homebrew that has the ability to make permanant changes to your Wii are highlighted in **bold**.
+Wii를 영구적으로 변경할 수 있는 홈브류는 **굵은 글씨**로 강조 표시되어 있습니다.
 
-## Utilities
+## 유틸리티
 
-- [**YAWM ModMii Edition**](https://oscwii.org/library/app/yawmME) - An extensively supported WAD manager with additional features. Recommended over any other WAD manager due to its extensive anti-brick protection.
+- [**YAWM ModMii Edition**](https://oscwii.org/library/app/yawmME) - 추가 기능이 탑재된 광범위한 지원의 WAD 매니저입니다. Recommended over any other WAD manager due to its extensive anti-brick protection.
 - [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME) - A homebrew application which checks information about your Wii and pastes it back in a readable, sendable format. Think of it like a "System Information" app but for the Wii.
 - [**CDBackup**](https://oscwii.org/library/app/cdbackup) - Backup, restore, and delete Wii Message Board data.
 - [**AnyRegion Changer ME**](https://oscwii.org/library/app/ARCME) - ModMii edition of AnyRegion Changer. While a powerful tool for changing region settings, it can also lead to severe bricks like [Korean Kii/Error 003](bricks#koreankii-error-003-brick) so **only use this app if you know what you are doing**.
