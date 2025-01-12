@@ -15,7 +15,7 @@
 
 **Wii 온라인 서비스**
 
-- [Nintendo Wi-Fi Connection](nintendowfc)
+- [닌텐도 Wi-Fi 커넥션](nintendowfc)
 - [RTC 시간 설정](wiiconnect24#updating-rtc-clock)
 - [WiiConnect24](wiiconnect24)
 
