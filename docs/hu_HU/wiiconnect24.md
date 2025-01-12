@@ -75,7 +75,7 @@ A WiiConnect24 vWiin és Wii minin való működéséhez bizonyos módosítások
 
 ::: tip
 
-[Folytatás a Nintendo Wi-Fi Connectionnel](wiimmfi)
+[Proceed to Nintendo Wi-Fi Connection](nintendowfc)
 
 Ez az útmutató végigvezet a Wiid ismételt internetre való csatlakoztatásának a folyamatán. Az útmutató végén újra képes leszel online játékokat játszani, mint pl. a Mario Kart Wiit. Ugyan több különböző privát szerver is létezik, mi a Wiimmfit fogjuk megemlíteni.
 
