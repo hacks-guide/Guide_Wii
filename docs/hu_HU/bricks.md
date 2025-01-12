@@ -14,7 +14,7 @@ Preventing a brick involves many rules that range between common sense and fail-
 - **Do NOT restore NAND backups from other consoles!**
 - **Do NOT install any IOS that isn't meant for your system** (example: Wii IOS on Wii mini)
 - **A Wii-re készült régióváltási módszereket NE próbáld ki vWii-n vagy Wii mini-n**
-- NE használj Nintendo Wi-Fi Connection-szolgáltatást, kivéve ha rendelkezik távoli kódfuttatási javításokkal (mint például a [Wiimmfi](wiimmfi)). Doing otherwise could allow a malicious actor to BRICK your Console!\*\*
+- **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](nintendowfc)). Doing otherwise could allow a malicious actor to BRICK your Console!**
 - **Csak a saját régiódhoz tartozó frissítéseket telepíts!**.
   - Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
 - **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
