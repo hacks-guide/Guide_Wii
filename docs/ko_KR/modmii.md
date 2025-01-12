@@ -39,9 +39,9 @@ ModMii를 사용하는 방법에는 두 가지가 있습니다. 명령줄 인터
 | 파일 열기 기능                                       | ✅          | ⛔         |
 | 다운로드 대기열 로드                                    | ✅          | ✅         |
 | 다운로드 페이지 1/2/3/4                               | ✅          | ⛔         |
-| Advanced Downloads                             | ✅          | ⛔         |
+| 고급 다운로드                                        | ✅          | ⛔         |
 | 다운로드 대기열 로드                                    | ✅          | ⛔         |
-| Build Config Files                             | ✅          | ⛔         |
+| 구성 파일 빌드                                       | ✅          | ⛔         |
 | File Cleanup & App Updater | ✅          | ⛔         |
 
 :::details Click here for a detailed explanation of each tool.
