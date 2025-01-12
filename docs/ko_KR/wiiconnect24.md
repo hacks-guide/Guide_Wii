@@ -75,7 +75,7 @@ WiiConnect24 기능이 제대로 작동하려면 일부 Priiloader 핵을 vWii�
 
 ::: tip
 
-[닌텐도 Wi-Fi 연결로 이동](wiimmfi)
+[Proceed to Nintendo Wi-Fi Connection](nintendowfc)
 
 이 가이드에서는 Wii의 온라인 기능을 다시 얻는 과정을 한 단계 더 발전시켜, 마리오카트 Wii와 같은 특정 게임에서 닌텐도 Wi-Fi 연결 서비스를 다시 작동시킬 수 있도록 합니다. 이를 허용하는 개인 서버와 서비스는 다양하지만, 여기서 다룰 것은 Wiimmfi입니다.
 
