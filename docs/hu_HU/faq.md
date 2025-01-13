@@ -12,7 +12,7 @@ Ha ellenőrizni szeretnéd, hogy mit jelent a hiba, kérjük, látogass el a [Wi
 
 #### Error 051330/51330
 
-Run an Internet connection test by going to `Wii Settings > Internet > Connection settings > Connection > Test this connection`
+Futtass Internet kapcsolat tesztet a `Wii Settings > Internet > Connection settings > Connection > Test this connection` opciót indítva
 
 #### Error 220602
 
@@ -30,7 +30,7 @@ This can also happen if you use a proxy server and it is down.
 
 ##### RiiConnect24 felhasználók számára
 
-Ha ezt a hibát kapod, vagy a Nintendo felhasználói megállapodását látod a RiiConnect24 logója nélkül, az azt jelenti, hogy az internet szolgáltatód vagy hálózatod blokkolja az RC24 DNS használatát. Beállíthatod az `Auto-Obtain DNS`-t `On`-ra ennek megoldásához. A RiiConnect24 továbbra is működni fog nélküle. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+Ha ezt a hibát kapod, vagy a Nintendo felhasználói megállapodását látod a RiiConnect24 logója nélkül, az azt jelenti, hogy az internet szolgáltatód vagy hálózatod blokkolja az RC24 DNS használatát. Beállíthatod az `Auto-Obtain DNS`-t `On`-ra ennek megoldásához. A RiiConnect24 továbbra is működni fog nélküle. Vagy használhatod a [RiiConnect24 DNS Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) programot.
 
 ##### Nem RiiConnect24 felhasználók számára
 
@@ -133,7 +133,7 @@ Ha egy meghajtót a Wii-vel akarsz használni, a külső SSD-k gyakran drágább
 
 :::
 
-## Networking FAQ
+## Hálózati GYIK
 
 The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named WiFi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points (APs):
 
