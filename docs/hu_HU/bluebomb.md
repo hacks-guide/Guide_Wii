@@ -12,7 +12,7 @@ outline: false
 
 :::details Technikai részletek (opcionális)
 
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
+A BlueBomb egy exploit, ami a Wii és a Wii mini Bluetooth-könyvtárainak egy biztonsági rését használja ki. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
@@ -20,19 +20,19 @@ This exploit also enables recovery from certain bricks, such as banner bricks an
 
 ::: warning
 
-It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+A konzol **brickelésének** magas esélye miatt **erősen** ajánljuk, hogy messze kerülj el **bármilyen** Wii mini hackeléssel kapcsolatos oktatóvideót.
 
 :::
 
 ::: info
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Ha az útmutatóval kapcsolatban segítségre lenne szükséged (angol nyelven), kérjük csatlakozz a [Wii mini Hacking Discord server](https://discord.gg/6ryxnkS)-hez! (ajánlott)
 
 :::
 
 ::: info
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploitot használj](get-started), mert a HackMii telepítő előkészítésének sokkal egyszerűbb módjai is vannak. Exceptions however, exist in circumstances like brick recovery.
 
 :::
 
@@ -133,7 +133,7 @@ If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 ::: info
 
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+Ha Wii minivel dolgozol, folytasd a [Homebrew Channel telepítésével.](hbc-mini)
 
 :::
 
@@ -151,19 +151,19 @@ This exploit also enables recovery from certain bricks, such as banner bricks an
 
 ::: warning
 
-It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+A konzol **brickelésének** magas esélye miatt **erősen** ajánljuk, hogy messze kerülj el **bármilyen** Wii mini hackeléssel kapcsolatos oktatóvideót.
 
 :::
 
 ::: info
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Ha az útmutatóval kapcsolatban segítségre lenne szükséged (angol nyelven), kérjük csatlakozz a [Wii mini Hacking Discord server](https://discord.gg/6ryxnkS)-hez! (ajánlott)
 
 :::
 
 ::: info
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploitot használj](get-started), mert a HackMii telepítő előkészítésének sokkal egyszerűbb módjai is vannak. Exceptions however, exist in circumstances like brick recovery.
 
 :::
 
@@ -240,7 +240,7 @@ A normal Raspberry Pi Pico will not work. It MUST to be the wireless model. Addi
 3. [Flash the binary](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#flashing) to your ESP32.
 4. Your device is now ready. You may unplug the device from your PC.
 
-### Performing the Exploit
+### Az exploit végrehajtása
 
 1. Plug your flashed device back into your PC.
 2. Power on your console.
@@ -259,13 +259,13 @@ If you get an error `Exception 0700 occurred!` or similar, try the exploit again
 
 ::: tip
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
+Ha sima Wiivel dolgozol, folytasd a [Homebrew Channel és a BootMii telepítésével](hbc)
 
 :::
 
 ::: tip
 
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+Ha Wii minivel dolgozol, folytasd a [Homebrew Channel telepítésével.](hbc-mini)
 
 :::
 
