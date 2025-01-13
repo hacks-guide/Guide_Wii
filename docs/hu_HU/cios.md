@@ -63,7 +63,7 @@ The WAD files should be on your SD card like this:
 
 ### II. rész – Telepítés
 
-1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
+1. Másold az `apps` mappát a d2x-cios-installer `.zip` fájlból az SD kártya vagy az USB drive gyökerébe.
 
 2. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
