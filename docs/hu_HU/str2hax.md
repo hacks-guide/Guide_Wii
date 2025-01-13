@@ -76,7 +76,7 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
 ### II. rész - Az exploit kiváltása
 
-1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
+1. Navigálj az `Internet` -> `User Agreements` or `Agreement/Contact`opcióhoz.
 
 2. Válaszd a `Yes`-t.
 
@@ -88,13 +88,13 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
    - Ha a nomrál User Agreements-et kapod, az ISP-d blokkolja az egyedi DNS-t. Próbálj meg egy másik kapcsolatot vagy használj [egy másik exploit](get-started)-ot.
 
-4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
+4. Adj az exploitnak 1-2 percet a letöltésre (és ne nyomd meg az `I ACCEPT`/`I DO NOT ACCEPT`-et).
 
 5. If the exploit was successful, your device will have loaded the HackMii Installer.
 
    ![](/images/hackmii/scam.png)
 
-   - If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, kérjük indítsd újra a Wii-od és próbáld újra.
+   - Ha a HackMii Installer nem tölt be 2 perc után vagy hibát kapsz, mint `Hanging.` vagy `ERROR!` if_config (ret = ...)\`, kérjük indítsd újra a Wii-od és próbáld újra.
 
 ::: tip
 
