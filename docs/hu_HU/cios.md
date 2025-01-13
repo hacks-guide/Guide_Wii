@@ -28,13 +28,13 @@ Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd!
 
 ::: info
 
-If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
+Ha macOS vagy Linux rendszerel dolgozol, letöltheted és futtathatod [ezt a szkriptet](/assets/files/d2x_offline_ios.zip), ami letölti neked a WAD fájlokat.
 
 :::
 
 ::: info
 
-If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+Ha képes vagy csatlakoztatni a Wii-odat az internetre, átugorgathatsz a [II. részre](cios#section-ii---installing)
 
 :::
 
@@ -43,19 +43,19 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 3. A számítógépeden töltsd le a [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)-t.
 4. Másold ki az NUS Downloader `.zip` fájljának tartalmát egy mappába.
 5. Futtasd a `NUS Downloader.exe` fájlt.
-6. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
+6. Navigálj a `Database` > `IOS` > `IOS38` opcióhoz, majd válaszd a `v4123` opciót.
    - Pipáld ki a „Pack WAD” („WAD becsomagolása”)-lehetőséget!
    - _Vedd ki a pipát_ a „Patch IOS” lehetőségtől. Ezt majd a cIOS-telepítő megteszi.
 7. Kattints a `Start NUS Download!` gombra.
 8. Ismételd meg a fenti lépéseket az `IOS56 v5661`, `IOS57 v5918` és az `IOS58 v6175` beszerzéséhez is.
-9. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
-10. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
+9. A folyamat végén találni fogsz egy `titles` mappát ugyanabban a mappában, mint ahol a NUS Downloader van.
+10. Nyisd meg a `titles` mappát és keresd meg az imént letöltött WAD-fájlokat.
 11. Helyezd az összes WAD-fájlt az SD kártya vagy pendrive gyökerére!
     - Ezen az eszközön legyen a d2x cIOS-telepítő is!
 
 ::: info
 
-The WAD files should be on your SD card like this:
+A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
 ![](/images/cios/d2x_offline_ios.png)
 
@@ -98,13 +98,13 @@ The WAD files should be on your SD card like this:
 
    ::: info
 
-   If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
+   Ha a telepítő a "`Slot ### already used in batch settings`" vagy a "`cIOS already added in batch with revision ##### and slot ###`" figyelmeztetést írja ki, akkor nyomd meg a `-` gombot a kötegelt mód kikapcsolásához.
 
-   (If you are trying to exit the installer, the button is B, not Home.)
+   (Ha ki szeretnél lépni a telepítőből, azt a Home gomb helyett a B gombbal teheted meg.)
 
    :::
 
-7. Nyomj `A`-t. Erre a program meg fogja mutatni a helykiosztást:
+7. Nyomj `A` gombot. Erre a program meg fogja mutatni a helykiosztást:
 
    ![](/images/cios/d2x_summary.png)
 
@@ -120,11 +120,11 @@ The WAD files should be on your SD card like this:
 
    Ha pirossal van kiemelve, próbáld újra a telepítést!
 
-   If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
+   Ha hibát kapsz a letöltési fázisok előtt/alatt, (pl. `tcp_connect timeout`, `net_gethostbyname failed: ...`), nyomj B gombot a kilépéshez és folytasd az [I. résszel](#section-i---downloading).
 
    :::
 
-10. Nyomj `A`-t. Ezzel visszajutsz a konfigurációs képernyőre.
+10. Nyomj `A` gombot. Ezzel visszajutsz a konfigurációs képernyőre.
 
 11. Ismételd meg az előző 5 lépést az alábbi beállításokkal:
 
