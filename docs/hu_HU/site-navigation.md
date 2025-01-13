@@ -49,7 +49,7 @@
 - [Priiloader](priiloader)
 - [Recovery mód](recovery-mode)
 - [A HackMii Installer újraindítása](hackmii)
-- [Restoring The Wii NAND to Stock](wii-factory-reset)
+- [A Wii NAND gyárira visszaállítása](wii-factory-reset)
 - [A Wii Menu frissítése v4.3-ra](update)
 - [YAWM ModMii Edition](yawmme)
 
@@ -80,7 +80,7 @@
 
 - [A Homebrew Channel telepítése vWii-re](vwii-homebrew-channel)
 - [Wii U NAND Dumper](wiiu-nand-dumper)
-- [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
+- [A Homebrew Channel telepítése a vWii-re a Wii U oldal moddolása nélkül](vwii-homebrew-channel-no-wiiu-mods)
 - [A cIOS telepítése vWii-ra](cios-vwii)
 
 :::
