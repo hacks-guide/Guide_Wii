@@ -5,7 +5,7 @@ head:
       content: 5; URL=https://www.wiilink24.com/guide/install/
 ---
 
-# 리디렉션 중
+# 리디렉션
 
 WiiLink24로 리디렉션되고 있습니다.
 
