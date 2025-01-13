@@ -1,4 +1,4 @@
-# Nintendo Wi-Fi kapcsolat
+# Nintendo Wi-Fi Connection
 
 A Nintendo Wi-Fi Connection egy online multiplayer játékszolgáltatás volt a Wii számára, amely ingyenes online játékot tett lehetővé. Bár különböző játékok hosszabb ideig voltak támogatva, mint mások, 2023 augusztusától már nem lehet minden játékot hagyományos úton játszani. A Nintendo WFC funkcionalitás visszaszerzéséhez ez az útmutató nyújt útmutatást a Wiimmfi telepítésével. A Wiimmfihez való csatlakozáshoz többféle módszer is kerül itt listázásra a legkisebb nehézségűtől a legnagyobbig terjedő sorrendben - válaszd a helyzetednek leginkább megfelelő módszert.
 
@@ -143,7 +143,7 @@ Ha UPnP-vel kapcsolatos problémákba ütközöl (például a patcher 10 másodp
 
 :::
 
-A Wiimmfi patchelés egy módszere, amely a kiskereskedelmi játéklemezeken fut, de manuálisan kell elindítani az internetes csatornán keresztül (a [Flashhax](flashhax)-ból származik). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken. [This](nintendowfc#manual-disc-patching-via-eula-user-agreement) method is generally more reliable, and is recommended instead.
+A Wiimmfi patchelés egy módszere, amely a kiskereskedelmi játéklemezeken fut, de manuálisan kell elindítani az internetes csatornán keresztül (a [Flashhax](flashhax)-ból származik). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken. [Ez](nintendowfc#manual-disc-patching-via-eula-user-agreement) a metódus általábban jobban megbízható és ajánlott is helyette.
 
 ### Követelmények
 
