@@ -8,10 +8,10 @@ Egy Wii számos okból kifolyólag brickelődhet, de ez általában sérült pro
 
 Preventing a brick involves many rules that range between common sense and fail-safe backups. Here are the general recommendations of what not to do:
 
-- **Do NOT follow old modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
-- **Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. It is DANGEROUS and does things that have the ability to BRICK YOUR CONSOLE!**
-- **Do NOT install IOS packs such as DARKCORP that overwrite most of your IOS with cIOS. It is DANGEROUS and heavily outdated.**
-- **Do NOT restore NAND backups from other consoles!**
+- **NE kövess régi útmutatókat, NE használj régi homebrew programokat és NE kövess videós utmutatókat az interneten, hacsak a program fejlesztője KÜLÖN NEM KÉRI!**
+- \*\* SEMMILYEN KÖRÜLMÉNYEK KÖZÖTT NE HASZNÁLD a `Pimp My Wii` HOMEBREW ALKALMAZÁST. Ez VESZÉLYES, mert a program működése képes véletlenül BRICKELNI A KONZOLOD!\*\*
+- NE telepíts olyan IOS csomagokat, mint a DARKCORP, mert felülírják a legtöbb IOS-edet cIOS-ekkel. Ez a módszer VESZÉLYES és elavult.\*\*
+- **NE tölts vissza más konzolokról származó NAND biztonsági mentéseket!**
 - **Do NOT install any IOS that isn't meant for your system** (example: Wii IOS on Wii mini)
 - **A Wii-re készült régióváltási módszereket NE próbáld ki vWii-n vagy Wii mini-n**
 - **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](nintendowfc)). Doing otherwise could allow a malicious actor to BRICK your Console!**
