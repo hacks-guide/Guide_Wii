@@ -8,7 +8,7 @@ Ez az oldal a Priiloader különböző hasznos funkcióiról nyújt magyarázato
 
 ## Rendszermenü-módosítások
 
-A Priiloader széleskörű lehetőségekkel rendelkezik a Wii viselkedésének módosítására. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks). Addditionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
+A Priiloader széleskörű lehetőségekkel rendelkezik a Wii viselkedésének módosítására. További információt minden egyes hackről [itt találhatsz](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks). Továbbá meglátogadthatod a [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html)-ot, ami sokkal relevánsabb információt tartalmaz a System Menu hackekről.
 
 ## További lehetőségek
 
@@ -24,10 +24,10 @@ A Priiloader segítségével a Wii bekapcsolásakor lehetőséged van egyből a 
 
 Ha szeretnéd az USB Loader GX-et automatikusan indítani, először is végezd el az alábbi lépéseket:
 
-- Download the USB Loader GX forwarder WAD ([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
-- Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
-- Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
-- Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
+- Töltsd le az USB Loader GX forwarder WADot ([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
+- Töltsd le az [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download)-t.
+- Telepítsd az forwarder WAD-ot egy WAD kezelővel, mint például a [YAWM ModMii Edition](yawmme).
+- Csomagold ki valahova az `UNEO Channel Booter for Priiloader.zip` fájlt.
 - Másold az `uneoboot.dol` fájlt az SD kártya gyökerébe.
 
 A 3. lépésben fogod telepíteni az `uneoboot.dol`-t.
@@ -54,7 +54,7 @@ A 3. lépésben fogod telepíteni az `uneoboot.dol`-t.
 
    ![](/images/priiloader/menu_settings.png)
 
-7. Press Right to cycle through the Autoboot options until `Installed file` is selected.
+7. Görgess végig az „Autoboot options” menün a jobb gombbal, amíg azt nem látod, hogy az `Installed file` a kiválasztott.
 
    ![](/images/priiloader/autoboot_installed_file.png)
 
