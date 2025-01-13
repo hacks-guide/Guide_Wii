@@ -18,8 +18,8 @@ Ezt a korlátozást a Priiloaderrel ki lehet kerülni, ami lehetővé teszi bár
 - Egy GameCube-vezérlő
 - Ha a lemezkorlátozást korábban eltávolítottad Priiloaderrel vagy ha van kéznél lemezolvasó-chiped:
   - Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OR
-  - Any other exploited Wii game, with the current exploit game save on the console (see [Legacy Exploits](legacy-exploits)) OR
-  - Any retail game, and access to the [Bluebomb](bluebomb) exploit
+  - Bármely más módszerhez kapcsolódó Wii-játék, aminek a sérülékenységét kihasználó játékmentése a konzolon van (ld. [Örökölt módszerek](legacy-exploits)) VAGY
+  - Bármely más játék és hozzáférés a [Bluebomb](bluebomb) exploithoz
 - Egy eredeti kiadású Wii (a Family Edition-konzolok nem megfelelők, mert nem rendelkeznek GameCube-csatlakozókkal – hacsak nem hegeszted fel őket)
 - Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 - Egy FAT32-re formázott SD kártya
@@ -42,7 +42,7 @@ Először is, ellenőrizd, hogy a Wii-od képes-e _egyáltalán_ helyreállítá
 
 ### II. módszer – Játékmentés
 
-1. If you already have a save game on your Wii for a save game exploit listed in [Legacy Exploits](legacy-exploits), you may use a respective exploit in order to load the HackMii installer.
+1. Ha van már egy játékmentése a Wii-dhez, egy olyan exploittal, ami listázott a [Legacy Exploits](legacy-exploits)-ok között, akkor azt ismét felhasználhatod a HackMii-telepítő betöltéséhez.
 2. Lépj helyreállítási módba és helyezd be a játéklemezt! Ha minden jól megy, akkor a játék elindul.
 3. A folytatáshoz kövesd a Wiibrew-on leírt lépéseket!
 
