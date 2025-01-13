@@ -36,7 +36,7 @@ With certain variations depending on the path you take, this guide has the end g
 - Putting safeguards in place to help prevent bricks
 - Installing other homebrew that can enhance your experience, should you choose
 
-## Ready to start?
+## Készen vagy a kezdésre?
 
 ::: tip
 
