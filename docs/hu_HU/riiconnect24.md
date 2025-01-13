@@ -7,6 +7,6 @@ head:
 
 # Átirányítás
 
-You are being redirected to the WiiLink24.
+Átirányításra fogsz kerülni a WiiLink24-re.
 
 Ha az oldal nem jelenik meg, kattints [ide](https://www.wiilink24.com/guide/install/).
