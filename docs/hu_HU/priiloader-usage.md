@@ -28,9 +28,9 @@ Ha szeretnéd az USB Loader GX-et automatikusan indítani, először is végezd 
 - Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
 - Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
 - Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
-- Copy `uneoboot.dol` to the root of your SD card.
+- Másold az `uneoboot.dol` fájlt az SD kártya gyökerébe.
 
-You will be installing `uneoboot.dol` in step 3.
+A 3. lépésben fogod telepíteni az `uneoboot.dol`-t.
 
 :::
 
@@ -38,7 +38,7 @@ You will be installing `uneoboot.dol` in step 3.
 
 2. Indítsd el a listáról a „Load Priiloader”-t!
 
-3. Scroll down to `Load/Install file` and press A.
+3. Görgess le a `Load/Install file` menüponthoz és nyomj A gombot.
 
    ![](/images/priiloader/menu_install_file.png)
 
@@ -50,7 +50,7 @@ You will be installing `uneoboot.dol` in step 3.
 
 5. Nyomj `B` gombot a főmenübe való visszatéréshez.
 
-6. Scroll down to `Settings` and press A.
+6. Görgess le a `Settings` menüponthoz, és nyomj 'A' gombot.
 
    ![](/images/priiloader/menu_settings.png)
 
@@ -64,7 +64,7 @@ You will be installing `uneoboot.dol` in step 3.
 
 9. Nyomj `B` gombot a főmenübe való visszatéréshez.
 
-10. Scroll back up to `System Menu` and press A.
+10. Görgess vissza a `System Menu` menüponthoz és nyomj A gombot.
 
 A beállítás befejeztével a Wii bekapcsoláskor automatikusan a kiválasztott programot fogja elindítani.
 
@@ -84,7 +84,7 @@ A beállítás befejeztével a Wii bekapcsoláskor automatikusan a kiválasztott
 
    ::: warning
 
-   Please don't set Autoboot to `BootMii IOS`. Ettől egy végtelen ciklusban fogsz ragadni, amíg nyomva nem tartod a RESET-gombot a Priiloader menüjének megnyitásához.
+   Kérjük ne állítsd be azAutoboot-ot `BootMii IOS`-ra. Ettől egy végtelen ciklusban fogsz ragadni, amíg nyomva nem tartod a RESET-gombot a Priiloader menüjének megnyitásához.
 
    :::
 
@@ -96,4 +96,4 @@ A beállítás befejeztével a Wii bekapcsoláskor automatikusan a kiválasztott
 
 6. Nyomj `B` gombot a főmenübe való visszatéréshez.
 
-7. Scroll back up to `System Menu` and press A.
+7. Görgess vissza a `System Menu` menüponthoz és nyomj A gombot.
