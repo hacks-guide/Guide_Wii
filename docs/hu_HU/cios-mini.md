@@ -8,7 +8,7 @@ If you need help with anything regarding this tutorial, please join [the Wii min
 
 :::details Technikai részletek (opcionális)
 
-A d2x cIOS-telepítő ezen változatát eredetileg a Wii U vWiijére készítette DaveBaol, amit a Wii minire Leseratte ültetett át. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Ugyan ez a cIOS még kísérleti fázisban áll, de még senki sem jelentett a működésével kapcsolatos hibát.
+A d2x cIOS-telepítő ezen változatát eredetileg a Wii U vWiijére készítette DaveBaol, amit a Wii minire Leseratte ültetett át. Az eredeti oldal [itt](https://wii.leseratte10.de/d2xl-cIOS/) található. Leseratte GitHub oldala [itt](https://github.com/Leseratte10/d2xl-cios) található. Ugyan ez a cIOS még kísérleti fázisban áll, de még senki sem jelentett a működésével kapcsolatos hibát.
 
 :::
 
@@ -18,13 +18,13 @@ Ez az útmutató csak Wii Mini felhasználóknak szól.
 
 Ha egy sima Wiid van, [ezt az útmutatót](cios) kövesd!
 
-If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+Ha egy Wii U-d (vWii) van, [ezt](cios-vwii) az útmutatót kövesd helyette.
 
 :::
 
 ::: warning
 
-Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telepíteni! Ha mégis így tennél, azzal [elronthatod](bricks#ios-brick) a konzolod!
+Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telepíteni! Ha mégis így tennél, azzal [brickelheted](bricks#ios-brick) a konzolod.
 
 :::
 
@@ -40,7 +40,7 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telep
 
 1. Kapcsold ki a konzolod.
 2. Csatlakoztasd a pendrive-ot a számítógépedbe!
-3. Create a folder named `apps` on the root of your USB drive if it does not already exist.
+3. Ha még nem létezik, hozz létre egy `apps` nevű mappát az USB drive gyökerén.
 4. Másold át a d2xl cIOS Installer `.zip` fájlban található `d2x-cios-installer` mappát az USB drive `apps` mappájába.
 5. Helyezd be a pendrive-ot a konzolba!
 6. Kapcsold be a konzolod.
@@ -56,9 +56,9 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telep
    Select cIOS base <57>
    Select cIOS slot <249>
    ```
-   - Take a note of the version number under notes (`IOS57-64-` ending in either `v31776` or `v31775`)
-3. A telepítés indításához nyomd meg az A-gombot!
-   - If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. Az 57-es szám nem változik.
+   - Jegyezd fel a megjelenő verziószámot (`IOS57-64-`-gyel kezdődik és `v31776`-tal vagy `v31775`-tel ér véget)
+3. A telepítés indításához nyomd meg az A gombot.
+   - Ha a telepítés megszakad `TMD version mismatch` hibával, akkor a Control Pad jobb- és bal nyílgombjaival állítsd át a `Select cIOS base` opciót amíg verziószám más nem lesz, mint amit korábban próbáltál. Az 57-es szám nem változik.
 4. A folyamat végén lépj ki a telepítőből!
 
 ::: tip
