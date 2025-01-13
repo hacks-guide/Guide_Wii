@@ -6,7 +6,7 @@ A Homebrew Channelből lehet nemhivatalos alkalmazásokat futtatni.
 
 ::: warning
 
-Ez az oldal **csak** a Wii mini felhasználóknak szól. Ha egy normál Wii-od van, [ezt az útmutatót](hbc) kövesd.
+Ez az oldal **csak** a Wii mini felhasználóknak szól. Ha egy normál Wii-od van, [ezt az útmutatót](hbc) kövesd helyette.
 
 :::
 
@@ -26,14 +26,14 @@ Ugyan egy Wii minire is lehetséges telepíteni a BootMiit, de egy SD kártya-ol
 
    ![](/images/hackmii/hbc_install_ok.png)
 
-3. Press `Continue` when finished.
+3. A folyamat befejeztével nyomd meg a `Continue` gombot.
 
-4. Once done, select `Exit` to exit the HackMii installer.
+4. Ha végeztél, válaszd azaz `Exit`opciót a HackMii telepítőből kilépéshez.
 
 ::: tip
 
-[Continue to installing Priiloader](priiloader)
+[Folytatás a Priiloader telepítésével](priiloader)
 
-Priiloader offers protection from bricks, and is highly recommended to install.
+A Priiloader brick elleni védelmet biztosít, így erősen ajánlott a telepítése.
 
 :::
