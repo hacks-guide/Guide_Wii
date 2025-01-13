@@ -24,7 +24,7 @@ Az Open Shop Channel használatához két módszer közül választhatsz: futtat
 
    ![](/images/osc/zip-download-HBB.png)
 
-2. Extract the `apps` folder in the archive to the root of your SD card or USB drive. Ha szeretnéd, elolvashatod a .zip-fájlban található (angol nyelvű) útmutatót a Homebrew Browser használatáról.
+2. Csomagold ki az `apps` mappát a tömörített fájlból az SD kártyád vagy USB drive-od gyökerébe. Ha szeretnéd, elolvashatod a .zip-fájlban található (angol nyelvű) útmutatót a Homebrew Browser használatáról.
 
 3. Csatlakoztasd az SD kártyát vagy a pendrive-ot a Wiihez és nyisd meg a Homebrew Channelt! Ha minden jól sikerült, a Homebrew Browser most el fog indulni.
 
@@ -86,7 +86,7 @@ You will need Python 3 installed in order to use OSCDL on these platforms.
 
    ![](/images/osc/satisfy-requirements-OSCDL.png)
 
-4. Run the command `python3 oscdl.py`. This will open the program. Optionally, you can also create a desktop shortcut that runs this command for easier access.
+4. Futtasd a `python3 oscdl.py` parancsot. This will open the program. Optionally, you can also create a desktop shortcut that runs this command for easier access.
 
    ![](/images/osc/run-OSCDL-terminal.png)
 
