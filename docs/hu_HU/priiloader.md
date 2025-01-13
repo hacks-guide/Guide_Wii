@@ -22,9 +22,9 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 
 1. Kapcsold ki a konzolod.
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
-3. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
-4. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
-5. (vWii only) Copy the `wiiu` folder from the PriiloaderWiiUForwarder `.zip` to the root of your SD card.
+3. Másold az `apps` mappát a LoadPriiloader `.zip` fájlból az SD kártya vagy az USB drive gyökerébe.
+4. Másold az `apps` mappát a priiloader `.zip` fájlból az SD kártya vagy az USB drive gyökerébe.
+5. (Csak vWii) Másold a `wiiu` mappát a PriiloaderWiiUForwarder `.zip` fájlból az SD kártya gyökerébe.
 6. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
 ### II. rész – A Priiloader telepítése
@@ -103,7 +103,7 @@ You can see the [Priiloader Usage](priiloader-usage) page for more information a
 
 ::: info
 
-[View the Brick Prevention Guidelines](bricks#brick-prevention)
+[Olvasd el a brick megelőzési útmutatást](bricks#brick-prevention)
 
 These guidelines list ways that will help avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
 
@@ -113,9 +113,9 @@ These guidelines list ways that will help avoid bricking your Wii, beyond just h
 
 ::: tip
 
-Continue to [cIOS](cios)
+[Folytatás a cIOS-sal](cios)
 
-This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
+Ez az útmutató végigvezet az alap cIOS-ok telepítésén, ami további funkciókat fog elérhetővé tenni, mint például az USB Loaderek.
 
 :::
 
