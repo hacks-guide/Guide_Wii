@@ -40,6 +40,6 @@ Wii에서 홈브류를 사용하는 일반적인 예는 다음과 같습니다:
 
 ::: tip
 
-[키 정보](key-information)로 계속하기
+[중요 정보](key-information)로 계속하기
 
 :::
