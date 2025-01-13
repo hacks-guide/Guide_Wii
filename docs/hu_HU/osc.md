@@ -20,7 +20,7 @@ Az Open Shop Channel használatához két módszer közül választhatsz: futtat
 
 ### Lépések
 
-1. Download the recommended `.zip` file from the Open Shop Channel website.
+1. Töltsd le a „RECOMMENDED DOWNLOAD” címke alatt található `.zip` fájlt az Open Shop Channel honlapjáról.
 
    ![](/images/osc/zip-download-HBB.png)
 
@@ -34,13 +34,13 @@ Az Open Shop Channel használatához két módszer közül választhatsz: futtat
 
 - Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 - Egy SD kártya vagy pendrive
-- The latest version of [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)
+- Az [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest) legutolsó verziója
 
 ### Windowsos lépések
 
 ::: info
 
-You may get a Microsoft SmartScreen window. This is a false positive, ignore and run anyway.
+Microsoft SmartScreen képernyőt kaphatsz. Ez egy hamis pozitív, ignorált és futtasd mindenféleképpen.
 
 :::
 
@@ -50,7 +50,7 @@ Ha felugrik egy Felhasználói Fiókok Felügyelete-ablak, ami megkérdezi, hogy
 
 :::
 
-1. Download `oscdl-installer.exe` and run the installer. Ha szeretnéd, ehelyett letöltheted az `oscdl-standalone.exe` fájlt, ami nem igényel telepítést és egy hordozható végrehajtható fájlként viselkedik.
+1. Töltsd le az `oscdl-installer.exe` fájlt és futtasd a telepítőt. Ha szeretnéd, ehelyett letöltheted az `oscdl-standalone.exe` fájlt, ami nem igényel telepítést és egy hordozható végrehajtható fájlként viselkedik.
 
    ![](/images/osc/exe-download-OSCDL.png)
 
@@ -102,9 +102,9 @@ You will need Python 3 installed in order to use OSCDL on these platforms.
 
 ::: tip
 
-Continue to [Recommended Homebrew](recommended-homebrew)
+Folytatás az [ajánlott Homebrew](recommended-homebrew)-okkal
 
-This guide outlines selections of homebrew that we think are useful to have; these range from utilities to emulators and more.
+Ebben az útmutatóban listázzuk a szerintünk beszerezni érdemes homebrew alkalmazásokat. Ezek között vannak segédeszközök, emulátorok és még sok más.
 
 :::
 
