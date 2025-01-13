@@ -5,4 +5,4 @@ head:
       content: 0; URL=wii-backups.html
 ---
 
-# 리디렉션 중
+# 리디렉션
