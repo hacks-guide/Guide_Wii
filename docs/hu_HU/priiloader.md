@@ -1,6 +1,6 @@
 # Priiloader
 
-[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii. A program még a Wii rendszermenü betöltése előtt indul el. A programot arra is felhasználhatod, hogy különböző javításokat alkalmazz a rendszermenüre.
+A [Priiloader](https://github.com/DacoTaco/priiloader) egy alapvető eszköz amit [DacoTaco](https://github.com/DacoTaco) készített, és egy brick védelmi szintet ad a Wii-odhoz. A program még a Wii rendszermenü betöltése előtt indul el. A programot arra is felhasználhatod, hogy különböző javításokat alkalmazz a rendszermenüre.
 
 Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii indításának befolyásolására is használható.
 
@@ -14,7 +14,7 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 
 - Egy SD kártya
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (közvetlen letöltés)
-  - [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
+  - Az [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started)-nak telepítve kell lennie a konzolodra, hogy a Priiloader Wii U Forwarder működjön.
 
 ## Lépések
 
@@ -73,23 +73,23 @@ A későbbi indításhoz kövesd az alábbi lépéseket:
 
    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
 
-   Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
+   Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a hacks_hash.ini\` fájlt.
 
    :::
 
 2. A konzolod típusa alapján az alábbi beállításokat kell engedélyezned:
    - Wii:
-     - If you are using 480p mode: `480p graphics fix in the system menu`
-     - Block Disc Updates (lemezes frissítések letiltása)
+     - Ha 480p-s módban vagy: `480p graphics fix in the system menu`
+     - Block Disc Updates
      - Block Online Updates (internetes frissítések letiltása)
-     - Ha NEM katódsugárcsöves kijelzőt használsz: `Remove Deflicker` (villódzáscsökkentő szűrő eltávolítása)
+     - Ha NEM CRT kijelzőt használsz: `Remove Deflicker`
    - vWii:
      - Block Online Updates (internetes frissítések letiltása)
      - Wii System Settings via Options Button (Wii-rendszerbeállítások megnyitása az Options-gombbal)
-     - Ha NEM katódsugárcsöves kijelzőt használsz: `Remove Deflicker` (villódzáscsökkentő szűrő eltávolítása)
+     - Ha NEM CRT kijelzőt használsz: `Remove Deflicker`
    - Wii mini:
-     - Block Disc Updates (lemezes frissítések letiltása)
-     - Ha NEM katódsugárcsöves kijelzőt használsz: `Remove Deflicker` (villódzáscsökkentő szűrő eltávolítása)
+     - Block Disc Updates
+     - Ha NEM CRT kijelzőt használsz: `Remove Deflicker`
 
 3. Görgess le a `save settings` menüponthoz, és nyomj 'A' gombot.
 
@@ -97,7 +97,7 @@ A későbbi indításhoz kövesd az alábbi lépéseket:
 
 ::: info
 
-You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
+A Priiloader további használati lehetőségeiről és System Menu hackekről a [Priiloader használat](priiloader-usage) oldalon találhatsz további információt.
 
 :::
 
@@ -105,7 +105,7 @@ You can see the [Priiloader Usage](priiloader-usage) page for more information a
 
 [Olvasd el a brick megelőzési útmutatást](bricks#brick-prevention)
 
-These guidelines list ways that will help avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
+Ez az úmtutató segédlet segít elkerülni a Wii-od brickelését, ha több van rajta, mint egy BootMii és egy Priiloader telepítés.
 
 :::
 
@@ -113,9 +113,9 @@ These guidelines list ways that will help avoid bricking your Wii, beyond just h
 
 ::: tip
 
-[Folytatás a cIOS-sal](cios)
+Folytatás a [cIOS-sal](cios)
 
-Ez az útmutató végigvezet az alap cIOS-ok telepítésén, ami további funkciókat fog elérhetővé tenni, mint például az USB Loaderek.
+Ez az útmutató végigvezet az alap cIOS-ok Wii-ra telepítésén, ami további funkciókat fog elérhetővé tenni, mint például az USB Loaderek.
 
 :::
 
@@ -123,9 +123,9 @@ Ez az útmutató végigvezet az alap cIOS-ok telepítésén, ami további funkci
 
 ::: tip
 
-Continue to [vWii cIOS](cios-vwii)
+Folytatás a [vWii cIOS-sal](cios-vwii)
 
-This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
+Ez az útmutató végigvezet az alap cIOS-ok vWii-re telepítésén, ami további funkciókat fog elérhetővé tenni, mint például az USB Loaderek.
 
 :::
 
@@ -133,8 +133,8 @@ This guide provides steps on how to get a basic set of cIOS installed on the vWi
 
 ::: tip
 
-Continue to [Wii mini cIOS](cios-mini)
+Folytatás a [vWii cIOS-sal](cios-vwii)
 
-This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders.
+Ez az útmutató végigvezet az alap cIOS-ok Wii mini-re telepítésén, ami további funkciókat fog elérhetővé tenni, mint például az USB Loaderek.
 
 :::
