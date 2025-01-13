@@ -28,7 +28,7 @@ Common examples of homebrew usage on the Wii include:
 - Restoring online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](nintendowfc)
 - and more!
 
-## What does this guide do?
+## Mit csinál ez az útmutató?
 
 With certain variations depending on the path you take, this guide has the end goal of:
 
