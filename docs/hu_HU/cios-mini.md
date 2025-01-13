@@ -2,7 +2,7 @@
 
 ::: info
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Ha az útmutatóval kapcsolatban segítségre lenne szükséged (angol nyelven), kérjük csatlakozz a Wii mini Hacking Discord szerver](https://discord.gg/6ryxnkS)-hez! (ajánlott)
 
 :::
 
@@ -63,17 +63,17 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telep
 
 ::: tip
 
-[Continue to making a NAND Backup using RealWnd](wnd-mini)
+[Folytatás a NAND biztonsági mentés készítése a [RealWnd segítségével](wnd-mini) fejezettel
 
 :::
 
 ### A vezetékes internet felállítása
 
-If you wish to use Wiimmfi with Ethernet on a Wii mini, you have to run the [Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) app made by Fullmetal5. To run it, just unzip it in the `apps` folder of your USB drive and run it from the Homebrew Channel.
+Ha a Wii minin vezetékes internettel szeretnéd használni a Wiimmfit, akkor futtatnod kell a Fullmetal5 által készített Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) alkalmazást. A futtatáshoz csak csomagold ki az USB drive-od `apps` mappájába, majd indítsd el a Homebrew Channelből.
 
 ::: info
 
-Minden jelenleg ismert működő vezetékesinternet-adapter az AX88772 chipet használja. Vásárlás előtt ellenőrizd, hogy a termék ilyen chippel rendelkezik! This one from UGREEN is known to be compatible: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
+A Wii és a Wii mini konzolok ismertek arról, hogy csak az AX88772 chipet használó Ethernet adapterrel működnek. Vásárlás előtt ellenőrizd, hogy a termék ilyen chippel rendelkezik. Ez a UGREEN-től ismert, hogy kompatibilis: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
 
 :::
 
