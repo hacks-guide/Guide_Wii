@@ -2,14 +2,14 @@
 
 :::details Technikai részletek (opcionális)
 
-A BootMiit kétféle módon telepítheted: közvetlenül a Wii bootloaderének boot2-es részébe, vagy egy IOS-on keresztül. A programot javasolt a boot2-be telepíteni, ugyanis így szélesebb körű védelmet nyújthat. Ehhez egy olyan Wiivel kell rendelkezned, ami egy olyan biztonsági réssel rendelkezik a boot1-es részében, amely csak a 2009 előtt gyártott példányokon fordul elő. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
+A BootMiit kétféle módon telepítheted: közvetlenül a Wii bootloaderének boot2-es részébe, vagy egy IOS-on keresztül. A programot javasolt a boot2-be telepíteni, ugyanis így szélesebb körű védelmet nyújthat. Ehhez egy olyan Wiivel kell rendelkezned, ami egy olyan biztonsági réssel rendelkezik a boot1-es részében, amely csak a 2009 előtt gyártott példányokon fordul elő. A legtöbb esetben elégséges a BootMii telepítés IOS-ként, egészen addig, amíg a [Priiloader](priiloader) is telepítve van.
 
 :::
 
 ::: warning
 
-SD kártya nélkül a módszertől függetlenül nem telepítheted a BootMiit.
-You can always [install it later](hackmii).
+SD kártya nélkül nem telepítheted a BootMii-t, függetlenül attól, hogy IOS-ként vagy boot2-ként telepítetted.
+Bármikor telepítheted később](hackmii).
 
 :::
 
@@ -51,7 +51,7 @@ You can always [install it later](hackmii).
 
 8. Miután befejeződött, nyomd meg a `Continue` gombot.
 
-9. If you have the option to `Install BootMii as boot2`, please do so as well.
+9. Ha van `Install BootMii as boot2` opciód, azt is hatjsd végre.
 
    ![](/images/hackmii/bootmii_install4.png)
 
@@ -84,9 +84,9 @@ Megjegyzés: Ha nemhivatalos alkalmazásokat telepítesz SD kártyára vagy pend
 
 ::: tip
 
-[Continue to making a NAND Backup using BootMii](bootmii)
+[Folytatás a NAND biztonsági mentés készítése a BootMii segítségével](bootmii) fejezettel
 
-Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
+A NAND biztonsági mentés ezen a ponton erősen ajánlott, mivel használható arra, hogy helyreállitsunk vele brickelésből.
 
 :::
 
