@@ -6,7 +6,7 @@ Az angol nyelvű Open Shop Channel-támogatáshoz csatlakozz az [Open Shop Chann
 
 :::
 
-Az [Open Shop Channel](https://oscwii.org/) egy dhtdht020 által készített program, ami a nemhivatalos alkalmazások jelenleg legmegbízhatóbb forrása.
+Az [Open Shop Channel](https://oscwii.org/) egy dhtdht020 által készített program, ami a homebrew alkalmazások jelenleg legmegbízhatóbb forrása.
 
 Az Open Shop Channel használatához két módszer közül választhatsz: futtathatod közvetlenül a Wiin a Homebrew Channelen keresztül vagy a számítógépeden az OSCDL-en keresztül.
 
@@ -26,7 +26,7 @@ Az Open Shop Channel használatához két módszer közül választhatsz: futtat
 
 2. Csomagold ki az `apps` mappát a tömörített fájlból az SD kártyád vagy USB drive-od gyökerébe. Ha szeretnéd, elolvashatod a .zip-fájlban található (angol nyelvű) útmutatót a Homebrew Browser használatáról.
 
-3. Csatlakoztasd az SD kártyát vagy a pendrive-ot a Wiihez és nyisd meg a Homebrew Channelt! Ha minden jól sikerült, a Homebrew Browser most el fog indulni.
+3. Csatlakoztasd az SD kártyát vagy az USB drive-ot a Wiihez és nyisd meg a Homebrew Channelt. Ha minden jól sikerült, a Homebrew Browser most el fog indulni.
 
 ## II. módszer – OSCDL
 
@@ -66,7 +66,7 @@ Ha felugrik egy Felhasználói Fiókok Felügyelete-ablak, ami megkérdezi, hogy
 
    ![](/images/osc/download-prompt-OSCDL.png)
 
-5. Csatlakoztasd az SD kártyát vagy a pendrive-ot a Wiihez és nyisd meg a Homebrew Channelt! Ha minden jól ment, akkor a letöltött program meg fog jelenni a listán.
+5. Csatlakoztasd az SD kártyát vagy az USB drive-ot a Wiihez és nyisd meg a Homebrew Channelt. Ha minden jól ment, akkor a letöltött program meg fog jelenni a listán.
 
 ### macOS-es/Linuxos lépések
 
@@ -98,7 +98,7 @@ Python 3 telepítésre van szükséged az OSCDL haszmálatához ezeken a platfor
 
    ![](/images/osc/download-prompt-OSCDL-linux.png)
 
-7. Csatlakoztasd az SD kártyát vagy a pendrive-ot a Wiihez és nyisd meg a Homebrew Channelt! Ha minden jól ment, akkor a letöltött program meg fog jelenni a listán.
+7. Csatlakoztasd az SD kártyát vagy az USB drive-ot a Wiihez és nyisd meg a Homebrew Channelt. Ha minden jól ment, akkor a letöltött program meg fog jelenni a listán.
 
 ::: tip
 
