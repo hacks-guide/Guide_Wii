@@ -52,7 +52,7 @@ A Bluebomb is egy lehetséges javítási módszer. Jelenleg még dolgozunk ezen 
 
 ::: info
 
-Ezek után telepítheted a Homebrew Channelt és hozzáférhetsz az SD kártyádon tárolt nemhivatalos programokhoz, hogy helyreállítsd a konzolod.
+Ezek után telepítheted a Homebrew Channelt és hozzáférhetsz az SD kártyádon tárolt homebrew programokhoz, hogy helyreállítsd a konzolod.
 
 :::
 
