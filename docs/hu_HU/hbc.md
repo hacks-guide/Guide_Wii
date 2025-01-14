@@ -63,9 +63,9 @@ Bármikor telepítheted később](hackmii).
 
 ## Olvass el!
 
-Az útmutató befejezése után képes leszel nemhivatalos alkalmazásokat futtatni – ezek között, ha sikerült telepítened, a BootMiit is, amellyel biztonsági mentéseket készíthetsz és tölthetsz vissza a Wii belső tárhelyéről.
+Az útmutató befejezése után képes leszel homebrew alkalmazásokat futtatni – ezek között, ha sikerült telepítened, a BootMiit is, amellyel biztonsági mentéseket készíthetsz és tölthetsz vissza a Wii belső tárhelyéről.
 
-Megjegyzés: Ha nemhivatalos alkalmazásokat telepítesz SD kártyára vagy USB drive-ra, a könyvtárfelépítésed így kell, hogy kinézzen:
+Megjegyzés: Ha homebrew alkalmazásokat telepítesz SD kártyára vagy USB drive-ra, a könyvtárfelépítésed így kell, hogy kinézzen:
 
 ```
 💾 SD kártya vagy USB Drive
