@@ -50,7 +50,7 @@ Ha képes vagy csatlakoztatni a Wii-odat az internetre, átugorgathatsz a [II. r
 8. Ismételd meg a fenti lépéseket az `IOS56 v5661`, `IOS57 v5918` és az `IOS58 v6175` beszerzéséhez is.
 9. A folyamat végén találni fogsz egy `titles` mappát ugyanabban a mappában, mint ahol a NUS Downloader van.
 10. Nyisd meg a `titles` mappát és keresd meg az imént letöltött WAD-fájlokat.
-11. Helyezd az összes WAD-fájlt az SD kártya vagy pendrive gyökerére!
+11. Helyezd az összes WAD-fájlt az SD kártya vagy USB drive gyökerére.
     - Ezen az eszközön legyen a d2x cIOS-telepítő is!
 
 ::: info
