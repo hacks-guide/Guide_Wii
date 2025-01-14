@@ -1,6 +1,6 @@
 # BootMii biztonsági mentés visszatöltése
 
-Ez az útmutató végigvezet egy biztonsági mentés visszatöltésén a BootMii segítségével. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
+Ez az útmutató végigvezet egy biztonsági mentés visszatöltésén a BootMii segítségével. A biztonsági mentés visszatöltését általában csak a <strong>legvégső esetben</strong> szokás megkísérelni, ha egy Wii javításra szorul. Ha ezután is fennmarad a problémád, akkor lehet, hogy külső segítséget kell kérned. Ha még hozzáférsz a BootMiihez, először próbáld meg elindítani a Homebrew Channelt és azonosítani a [brickelődés](bricks) okát.
 
 ::: info
 
@@ -34,9 +34,9 @@ NE állíts vissza olyan biztonsági mentést, ami nem ment át az ellenőrzési
 
 Ha csak konkrét adatokat szeretnél visszaállítani, akkor arra egy sokkal gyorsabb és biztonságosabb módszer is van, amihez valószínűleg a Dolphin emulátorra lesz szükséged.
 
-Pl.: Ha csak a Wii Üzenőfal adatait szeretnéd visszaállítani, akkor nyisd meg a Dolphin emulátort és importáld a biztonsági mentést! In Dolphin, go to `File -> Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
+Pl.: Ha csak a Wii Üzenőfal adatait szeretnéd visszaállítani, akkor nyisd meg a Dolphin emulátort és importáld a biztonsági mentést! Ezután kattints a `File -> Open User Folder` menüpontokra, majd keresd meg a `Wii/title/00000001/00000002/data/cdb.vff` fájlt, majd másold az SD kártyádra és használd a WiiXplorer](https://oscwii.org/library/app/wiixplorer)-t a megfelelő helyre történő visszaállításához.
 
-If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools > Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
+Ha egy játék mentését szeretnéd visszaállítani, importáld a Dolphinba a NAND biztonsági mentést, majd kattints az Tools > Export All Wii Saves\` menüpontokra az összes mentésed SD kártyára való másolásához! Ezután a Data Management-tel áthelyezheted őket a Wii-odra.
 
 ## Fontos előzetes megjegyzések
 
