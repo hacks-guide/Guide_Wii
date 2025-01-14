@@ -47,13 +47,13 @@ A "Brick" usually means your Wii has reached a state where its next purpose in e
 - Wii starts, and progresses to the Wii Menu.
   - 특정 채널에 접속한 후 `The system files are corrupted.`라는 메시지가 나타나면 [배너 벽돌](bricks#banner-brick)을 참조합니다.
   - Wii 설정에 접속한 후 오페라 웹 브라우저와 유사한 오류가 표시되면 [반벽돌](bricks#semibrick)을 참조합니다.
-- Wii starts, you see the health/warning screen, but upon pressing A to start, you see a black screen.
-  - If this happened after installing a theme, see [theme brick](bricks#theme-brick).
-  - If this happened after installing a WAD, see [banner brick](bricks#banner-brick).
-  - If this randomly started happening, and you can access Maintenance Mode by holding +/- on the health/warning screen, see [mail brick](bricks#mail-brick).
-- Wii starts, and you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. Maintenance mode is accessible. See [mail brick](bricks#mail-brick).
-- Wii starts, BUT you INSTANTLY see an error that resembles the Opera web browser. See [Wii Menu/Opera brick](bricks#wii-menuopera-brick).
-- Error 003. See [Korean Kii/Error 003 brick](bricks#koreankii-error-003-brick).
+- Wii를 시작하면 건강/경고 화면이 나타나지만, A 버튼을 눌러 시작하면 검은색 화면이 나타납니다.
+  - 테마를 설치한 후 이런 일이 발생한 경우 [테마 벽돌](bricks#theme-brick)을 참조합니다.
+  - WAD를 설치한 후 이런 일이 발생한 경우 [배너 벽돌](bricks#banner-brick)을 참조합니다.
+  - 이런 일이 무작위로 발생하기 시작한 경우, 건강/경고 화면에서 +/- 버튼을 길게 눌러 유지 관리 모드에 접속할 수 있습니다. [메일 벽돌](bricks#mail-brick)을 참조합니다.
+- Wii를 시작하면 건강/경고 화면이 나타나지만, A 버튼을 눌러 시작하면 화면이 검게 변하거나 멈췄다가 더 이상 진행되지 않습니다. 유지 관리 모드에 접근할 수 있습니다. [메일 벽돌](bricks#mail-brick)을 참조합니다.
+- Wii를 시작하자마자 오페라 웹 브라우저와 비슷한 오류가 표시됩니다. [Wii 메뉴/오페라 벽돌](bricks#wii-menuopera-brick)을 참조합니다.
+- Error 003. [Korean Kii/오류 003 벽돌](bricks#koreankii-error-003-brick)을 참조합니다.
 - 아무 일도 일어나지 않고 검은색 화면만 나오지만 BootMii는 boot2로 접속 가능합니다. [IOS 벽돌](bricks#ios-brick)을 참조합니다.
 - 아무 일도 일어나지 않고 검은색 화면만 나오지만 Wii 리모컨으로 Wii를 켤 수 있고 복구 모드에 접근할 수 있습니다. [Wi-Fi 벽돌](bricks#wi-fi-brick)을 참조합니다.
 - 아무 일도 일어나지 않고 검은색 화면만 나옵니다. Wii 리모컨으로 Wii를 켤 수 없고, 복구 모드를 시작할 수 없으며, BootMii를 boot2에 접근할 수 없습니다. [저수준 벽돌](bricks#low-level-brick)을 참조합니다.
@@ -66,107 +66,107 @@ A "Brick" usually means your Wii has reached a state where its next purpose in e
 
 ### 증상
 
-When navigating to Wii Settings, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` In some cases, some parts of the Wii Settings menu may still be accessible, but other parts may not (such as the Country menu).
+Wii 설정으로 이동하려고 하면 대신 오페라 웹 브라우저에서 `You tried to access the address (URL), which is currently unavailable.`라는 오류가 표시됩니다. 어떤 경우 Wii 설정 메뉴의 일부 부분은 계속 접속할 수 있지만 다른 부분 (예: 국가 메뉴)은 접속할 수 없을 수 있습니다.
 
 ### 원인
 
-A semibrick occurs when a different region Wii Menu or a different region custom theme is installed. As the Wii Settings menu is rendered using HTML pages with Opera, themes often replace these pages and put them in different directories; essentially leading to a `404 Not Found` error but in the form of a console brick.
+반벽돌은 다른 지역의 Wii 메뉴나 다른 지역의 커스텀 테마가 설치되면 발생합니다. Wii 설정 메뉴는 오페라에서 HTML 페이지를 사용하여 렌더링되므로 테마가 이러한 페이지를 대체하여 다른 디렉터리에 넣는 경우가 많습니다. 기본적으로 `404 Not Found` 오류가 발생하지만 콘솔 벽돌 형태입니다.
 
 ![](/images/bricks/semibrick.png)
 
 ### 해결책
 
-Verify in AnyRegion Changer that your console region is the same as the theme or Wii Menu that you have installed.
+AnyRegion Changer에서 콘솔 지역이 설치한 테마나 Wii 메뉴와 동일한지 확인합니다.
 
-If this was caused by a theme you installed, use csm-installer to reinstall the original theme.
+설치한 테마로 인해 문제가 발생한 경우 csm-installer를 사용하여 원래 테마를 다시 설치합니다.
 
-If this was caused by a Wii Menu WAD you installed, use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to re-obtain your original Wii Menu.
+이 문제가 설치한 Wii 메뉴 WAD로 인해 발생한 경우 [NUS 다운로더](https://wiibrew.org/wiki/NUSD)를 사용하여 원래 Wii 메뉴를 다시 얻습니다.
 
 ::: danger
 
-Be cautious when downloading the Wii Menu WAD. Make sure to pick the same version with the corrected region.
+Wii 메뉴 WAD를 다운로드할 때는 주의합니다. 수정된 지역이 포함된 동일한 버전을 선택해야 합니다.
 
 :::
 
-If you are actually in the process of a region change, use [ARC-ME](https://github.com/modmii/Any-Region-Changer-ModMii-Edition/releases) to automatically fix all your region settings to match your Wii Menu.
+실제로 지역 변경 중이라면 [ARC-ME](https://github.com/modmii/Any-Region-Changer-ModMii-Edition/releases)를 사용하면 모든 지역 설정이 Wii 메뉴와 일치하도록 자동으로 수정됩니다.
 
-## Banner brick
+## 배너 벽돌
 
 ### 증상
 
-Attempt to start the Wii - warning/press A screen shows up, and when A is pressed, the screen passes normally; however, beyond this point, nothing happens and the Wii remains on a black screen. This happened after installing a WAD and rebooting, or returning to the Wii Menu. Alternatively, the Wii Menu can still be accessed, but opening the corrupt channel results in the console freezing. In some cases, you may see the "System files are corrupted" screen.
+Wii를 시작하려고 하면 경고/A 버튼을 누르라는 화면이 나타나고, A 버튼을 누르면 화면이 정상적으로 넘어갑니다. 그러나 이 지점을 넘어서면 아무 일도 일어나지 않고 Wii는 검은색 화면만 출력합니다. 이 문제는 WAD를 설치하고 재부팅하거나 Wii 메뉴로 돌아온 후에 발생했습니다. 그렇지 않으면, Wii 메뉴에는 여전히 접근할 수 있지만 손상된 채널을 열면 콘솔이 정지됩니다. 어떤 경우에는 "System files are corrupted"라는 화면이 나타날 수 있습니다.
 
 ![](/images/bricks/sysfiles-corrupted.jpg)
 
 ### 원인
 
-Banner bricks occur if you install a WAD file that has an invalid Wii Menu banner or icon.
+잘못된 Wii 메뉴 배너나 아이콘이 있는 WAD 파일을 설치하면 배너 벽돌이 발생합니다.
 
 ### 해결책
 
-If you are somehow able to still access the Wii Menu, go into the Homebrew Channel and use [YAWM ModMii Edition](yawmme) or your current WAD manager to uninstall the corrupt channel.
+어떻게든 Wii 메뉴에 접근할 수 있다면 홈브류 채널로 가서 [YAWM ModMii Edition](yawmme) 또는 현재 WAD 매니저를 사용하여 손상된 채널을 제거합니다.
 
-If you cannot access the Wii Menu, and have [Priiloader](priiloader) installed, enter it by holding RESET while turning your Wii on. Select Homebrew Channel, then uninstall the corrupt channel.
+Wii 메뉴에 접근할 수 없고 [Priiloader](priiloader)가 설치되어 있는 경우, Wii를 켜는 동안 RESET 버튼을 눌러서 진입합니다. Select Homebrew Channel, then uninstall the corrupt channel.
 
-If you don't have or can't access Priiloader, Maintenance mode may be worth a try. Hold down `+` and `-` on the Health and Safety screen (do not press `A`!).
+If you don't have or can't access Priiloader, Maintenance mode may be worth a try. 건강과 안전 화면에서 `+`와 `-` 버튼을 누릅니다. (`A`를 누르지 마세요!)
 
-## Theme brick
+## 테마 벽돌
 
 ### 증상
 
-Attempt to start the Wii - warning/press A screen shows up, and when A is pressed, the screen passes normally; however, beyond this point, nothing happens and the Wii remains on a black screen. This happened after installing a theme.
+Wii를 시작하려고 하면 경고/A 버튼을 누르라는 화면이 나타나고, A 버튼을 누르면 화면이 정상적으로 넘어갑니다. 그러나 이 지점을 넘어서면 아무 일도 일어나지 않고 Wii는 검은색 화면만 출력합니다. 이 문제는 테마를 설치한 후에 발생했습니다.
 
 ### 원인
 
-A theme brick occurs when a wrongly formatted theme is installed.
+잘못된 형식의 테마가 설치되면 테마 벽돌이 발생합니다.
 
 ### 해결책
 
-To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. Alternatively, go into [YAWM ModMii Edition](yawmme) and install the CORRECT default Wii Menu WAD for your region and version.
+To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. 또는 [YAWM ModMii Edition](yawmme)으로 가서 해당 지역 및 버전에 맞는 기본 Wii 메뉴 WAD를 설치합니다.
 
-## Mail brick
+## 메일 벽돌
 
 ### 증상
 
-Attempt to start the Wii - warning/press A screen shows up, and when A is pressed, the screen passes normally; however, beyond this point, nothing happens and the Wii remains on a black screen. Maintenance mode is still accessible.
+Wii를 시작하려고 하면 경고/A 버튼을 누르라는 화면이 나타나고, A 버튼을 누르면 화면이 정상적으로 넘어갑니다. 그러나 이 지점을 넘어서면 아무 일도 일어나지 않고 Wii는 검은색 화면만 출력합니다. 유지 관리 모드에 여전히 접속할 수 있습니다.
 
 ### 원인
 
 A mail brick occurs when a Wii has too much mail to handle, or when malformed mail is in the Wii Message Board, causing a crash upon booting through normal means. Because the Wii Message Board is always drawn below Wii channels, this causes the Wii Menu to fail before fully loading.
 
-### Solution
+### 해결책
 
-By entering holding + and - on the warning screen, maintenance mode can be entered, where the Wii Message Board is not loaded at all. If the Homebrew Channel is not installed, follow [Bluebomb](bluebomb).
+경고 화면에서 +와 - 버튼을 누르고 있으면 유지 관리 모드로 전환되고, 이 모드에서는 Wii 메시지 보드가 전혀 로드되지 않습니다. 홈브류 채널이 설치되지 않은 경우 [Bluebomb](bluebomb)를 따릅니다.
 
-From here, the Homebrew Channel can be loaded and the brick can be fixed by deleting Wii Message Board data with [cdbackup](https://oscwii.org/library/app/cdbackup).
+여기에서 홈브류 채널을 로드하고 [cdbackup](https://oscwii.org/library/app/cdbackup)을 사용하여 Wii 메시지 보드 데이터를 삭제하면 문제가 해결됩니다.
 
 ## Wii Menu/Opera brick
 
 ### 증상
 
-When starting the Wii, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` This will happen every time you start the Wii, and cannot be bypassed by any other means.
+Wii를 시작하면 대신 오페라 웹 브라우저에서 `You tried to access the address (URL), which is currently unavailable.`라는 오류가 발생합니다. 이 오류는 Wii를 시작할 때마다 발생하며 다른 방법으로는 우회할 수 없습니다.
 
 ### 원인
 
-This brick is a more fatal version of a [Semibrick](#semibrick). If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
+이 벽돌은 [반벽돌](#semibrick)의 더 치명적인 버전입니다. SYSCONF (시스템 구성 파일)가 손상되거나 손상되면 Wii는 해당 파일을 다시 생성하고 설정 단계를 시작합니다.
 
-However, the setup pages are in a similar location to the Wii settings pages. If you have an incorrect region Wii Menu or theme, the Wii cannot find them.
+하지만, 설정 페이지의 위치는 Wii 설정 페이지와 비슷합니다. 잘못된 지역 Wii 메뉴나 테마가 있으면 Wii에서 해당 메뉴를 찾을 수 없습니다.
 
 ![](/images/bricks/sysmenu-brick.png)
 
 ### 해결책
 
-If you still have [Priiloader](priiloader), use it to enter the Homebrew Channel and re-install the original theme file/original Wii Menu.
+아직 [Priiloader](priiloader)가 있다면 이를 사용해 홈브류 채널에 들어가서 원래 테마 파일/원래 Wii 메뉴를 다시 설치합니다.
 
-In case you do not have Priiloader or your Wii is not modded, you can try [BlueBomb](bluebomb).
+Priiloader가 없거나 Wii에 개조가 적용되지 않은 경우 [BlueBomb](bluebomb)를 사용합니다.
 
-Alternatively, [Recovery Mode](recovery-mode) can be used to attempt a fix.
+또는 [복원 모드](recovery-mode)를 사용하여 수정을 시도할 수 있습니다.
 
-## KoreanKii/Error 003 Brick
+## KoreanKii/오류 003 벽돌
 
 ### 증상
 
-Screen shows up as listed below on normal boot.
+정상적으로 부팅하면 아래 나열된 화면이 나타납니다.
 
 ```
 Error:003
@@ -177,40 +177,40 @@ unauthorized device has been detected.
 
 ### 원인
 
-When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. While this failed at its intended goal, Nintendo also left a check in the System Menu versions 4.2/4.3 to determine whether or not the Korean Key is present on a system software region that is **not** Korean. If this check succeeds, the error triggers and the Wii is effectively bricked.
+닌텐도는 한국어 Wii를 출시할 때 홈브류를 막기 위한 마지막 수단으로 이들 장치의 암호화 키를 변경했습니다. 이것이 의도한 목표에는 실패했지만, 닌텐도는 시스템 메뉴 버전 4.2/4.3에 한국어 키가 한국어가 아닌 **시스템 소프트웨어 지역에 있는지 여부를 판별하는 검사를 남겨 두었습니다.** If this check succeeds, the error triggers and the Wii is effectively bricked.
 
 This is usually an immediate follow-up to a Wii System Update on an unsuspecting region-changed Korean Wii.
 
 ### 해결책
 
-Since this brick most often occurs after the Wii Menu updates, Priiloader will not be present. In the case that Priiloader is present, you can simply fix it by either installing the previous Wii System Menu or removing the key with the KoreanKii homebrew app.
+이 벽돌은 Wii 메뉴 업데이트 이후에 자주 발생하므로 Priiloader는 존재하지 않습니다. Priiloader가 존재하는 경우 이전 Wii 시스템 메뉴를 설치하거나 KoreanKii 홈브류 앱으로 키를 제거하면 간단히 해결할 수 있습니다.
 
-Korean Wiis also released with Wii Menu 3.3, around the time that Nintendo [fixed the Trucha bug in boot1](https://wiibrew.org/wiki/3.3#Changes), so BootMii as Boot2 cannot be installed to or used on any Korean Wii.
+한국어 Wii도 Wii 메뉴 3.3과 함께 출시되었는데, 이는 닌텐도가 [boot1에서 Trucha 버그를 수정한](https://wiibrew.org/wiki/3.3#Changes) 무렵이었습니다. 따라서 BootMii를 Boot2로 사용하는 것은 더 이상 한국어 Wii에 설치하거나 사용할 수 없습니다.
 
-While this leaves the Wii in a particularly dangerous situation, **it is still fixable**. This involves going into [Recovery Mode](recovery-mode), where an exploit can be triggered in order to gain access to the Homebrew Channel and revert the conditions that caused the brick. Note that you must have a drivechip in order for this method to work.
+이로 인해 Wii는 특히 위험한 상황에 처하게 되지만 **여전히 고칠 수는 있습니다.** 여기에는 [복원 모드](recovery-mode)로 전환하는 것이 포함되며, 이 모드에서는 홈브류 채널에 접속하여 벽돌을 발생시킨 조건을 되돌리기 위한 익스플로잇이 트리거될 수 있습니다. 이 방법을 사용하려면 드라이브칩이 필요합니다.
 
-## IOS brick
+## IOS 벽돌
 
 ### 증상
 
-This brick will appear identical to a low-level brick due to a Wii Menu failure via IOS; however there is not a full low-level NAND corruption, or a low-level hardware failure.
+이 벽돌은 IOS를 통한 Wii 메뉴 오류로 인해 낮은 수준 벽돌과 동일하게 보입니다. 그러나 전체적인 낮은 수준 낸드 손상이나 낮은 수준 하드웨어 오류는 없습니다.
 
 ### 원인
 
-This brick most often happens when the Wii Menu's IOS is a [stub](http://wiibrew.org/wiki/Stub_IOS), or if the wrong kind of IOS is installed to the console. A stubbed system menu IOS is usually the consequence of attempting to downgrade your Wii menu. If this error began happening after installing a normal IOS80 to a Wii mini, see [Wi-Fi brick](bricks#wi-fi-brick).
+이 문제는 Wii 메뉴의 IOS가 [스텁](http://wiibrew.org/wiki/Stub_IOS)이거나 콘솔에 잘못된 종류의 IOS가 설치된 경우 가장 자주 발생합니다. 스텁된 시스템 메뉴 IOS는 일반적으로 Wii 메뉴를 다운그레이드하려고 시도한 결과입니다. Wii 미니에 일반 IOS80을 설치한 후에 이 오류가 발생하면 [Wi-Fi 벽돌](bricks#wi-fi-brick)을 참조합니다.
 
 ### 해결책
 
-You must have BootMii as boot2 to fix this.
+이 문제를 해결하려면 BootMii를 boot2로 설정해야 합니다.
 
-You can either restore a NAND backup, or do this:
+낸드 백업을 복원하거나 다음 작업을 수행할 수 있습니다:
 
-1. Use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to pack a WAD of your original Wii Menu.
-2. Use BootMii to enter the Homebrew Channel, and use a WAD manager to install the Wii Menu WAD.
+1. [NUS 다운로더](https://wiibrew.org/wiki/NUSD)를 사용하여 원래 Wii 메뉴의 WAD를 압축합니다.
+2. BootMii를 사용하여 홈브류 채널에 들어가고, WAD 매니저를 사용하여 Wii 메뉴 WAD를 설치합니다.
 
-For vWii, See [Recover a vWii IOS/Channel](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels)
+vWii의 경우 [vWii IOS/채널 복원](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels)를 참조합니다.
 
-## Wi-Fi brick
+## Wi-Fi 벽돌
 
 ### 증상
 
@@ -218,23 +218,23 @@ This brick appears identical to a low-level brick, however you can still power o
 
 ### 원인
 
-This brick arises when your Wii's Wi-Fi (or Bluetooth) module is damaged or not inserted properly. In such cases, the Wii gets stuck on a black screen while awaiting a response from IOS.
+이 문제는 Wii의 Wi-Fi (또는 블루투스) 모듈이 손상되었거나 제대로 연결되지 않았을 때 발생합니다. 이런 경우, Wii는 IOS에서 응답을 기다리는 동안 검은색 화면만 출력합니다.
 
 This will also happen on the Wii mini if you install a normal Wii IOS, because the Wii mini doesn't have a Wi-Fi module.
 
 ### 해결책
 
-To resolve this problem, you can try to reseat or replace the Wi-Fi/Bluetooth module.
+이 문제를 해결하려면 Wi-Fi/블루투스모듈을 다시 장착하거나 교체합니다.
 
 If you are on a Wii mini, you must install a Wi-Fi module.
 
-If both fail, see [low-level brick](bricks#low-level-brick).
+두 가지 모두 실패하면 [낮은 수준 벽돌](bricks#low-level-brick)을 참조합니다.
 
-## Low-level brick
+## 낮은 수준 벽돌
 
 ### 증상
 
-Completely black screen, no response to user input. Recovery Mode cannot be booted, neither can BootMii as boot2 (or it never existed in the first place), for all intents and purposes the console appears dead.
+완전히 검은색 화면이며 사용자 입력에 대한 응답이 없습니다. 복원 모드는 부팅할 수 없고, BootMii도 boot2로 부팅할 수 없습니다. (아니면 처음부터 존재하지 않았을 수도 있음) 모든 의도와 목적상 콘솔이 죽은 것으로 보입니다.
 
 ### 원인
 
@@ -242,16 +242,16 @@ This brick occurs when boot1/boot2 is corrupt, or if there is a hardware failure
 
 ### 해결책
 
-First, troubleshooting must be done to determine if hardware is at fault. In the order listed, do the following:
+먼저, 하드웨어에 문제가 있는지 확인하기 위해 문제 해결을 수행해야 합니다. 나열된 순서대로 다음을 수행하세요:
 
-- Test to make sure that your Wii actually still functions (it accepts discs as normal, spins up correctly, Wiimotes connect) before attempting the following steps. If this is the case and only video is not being displayed, you may have a bad video cable, or an exceptionally rare failure of the video port or the GPU.
-- If on a Wii mini, and if a normal IOS80 was installed, see [Wi-Fi brick](bricks#wi-fi-brick). If steps to resolve the Wi-Fi brick failed, proceed.
-- Attempt to boot into [Recovery Mode](recovery-mode) (normal Wiis only). If the Wii boots into Recovery Mode, see [Wi-Fi brick](bricks#wi-fi-brick) or [IOS brick](bricks#ios-brick). If steps to resolve the Wi-Fi brick or IOS brick failed, proceed.
-- Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
-- At this point, either there is a low level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.
+- 다음 단계를 시도하기 전에 Wii가 실제로 여전히 작동하는지(디스크를 정상적으로 받아들이고, 올바르게 회전하고, 윈모트가 연결되는지) 테스트합니다. 이 경우 비디오만 표시되지 않으면 비디오 케이블이 불량이거나 비디오 포트 또는 GPU에 매우 드물게 오류가 발생했을 수 있습니다.
+- Wii 미니에 일반 IOS80이 설치되어 있는 경우 [Wi-Fi 벽돌](bricks#wi-fi-brick)을 참조합니다. Wi-Fi 벽돌 문제 해결 단계가 실패하면 계속 진행합니다.
+- [복원 모드](recovery-mode)로 부팅을 시도합니다. (일반 Wii에만 해당) Wii가 복원 모드로 부팅되면 [Wi-Fi 벽돌](bricks#wi-fi-brick) 또는 [IOS 벽돌](bricks#ios-brick)을 참조합니다. Wi-Fi 또는 IOS 벽돌이 발생하는 문제를 해결하는 단계가 실패하면 계속 진행합니다.
+- 디스크 드라이브를 다시 연결하고 정상적으로 부팅을 시도합니다. 여전히 실패하면 디스크 드라이브를 교체합니다. 여전히 실패하면 계속 진행합니다.
+- 이 시점에서는 낮은 수준 boot0/boot1 손상, 낸드 칩 오류 또는 더 광범위한 알려지지 않은 하드웨어 오류가 발생한 것입니다. 온라인 도움말을 참조하거나 다른 Wii를 구입하는 것을 고려합니다.
 
 ::: tip
 
-[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::
