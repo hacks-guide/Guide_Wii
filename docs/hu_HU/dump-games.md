@@ -1,8 +1,8 @@
 # Wii- és GameCube-játékok másolása
 
-Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának módjával, hogy az adatokat egy SD kártyán vagy pendrive-on tárolhasd.
+Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának módjával, hogy az adatokat egy SD kártyán vagy USB drive-on tárolhasd.
 
-## Lemez másolása SD kártyára / pendrive-ra CleanRippel
+## Lemez másolása SD kártyára / USB drive-ra CleanRippel
 
 ### Követelmények
 
