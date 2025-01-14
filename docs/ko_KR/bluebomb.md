@@ -26,13 +26,13 @@ Wii 미니 콘솔을 해킹하는데 **어떤** 비디오 가이드도 사용하
 
 ::: info
 
-이 자습서와 관련하여 도움이 필요하면 [Wii 미니 해킹 디스코드 서버](https://discord.gg/6ryxnkS)에 가입하세요 (권장)
+이 자습서와 관련하여 도움이 필요하면 [Wii 미니 해킹 디스코드 서버](https://discord.gg/6ryxnkS)에 가입하세요 (추천)
 
 :::
 
 ::: info
 
-Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에 접근하는 훨씬 더 쉬운 방법이 있으므로 [사용할 수 있는 다른 익스플로잇](시작하기)을 찾아야 할 것입니다. 그러나 벽돌 회수와 같은 상황에서는 예외도 있습니다.
+Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에 접근하는 훨씬 더 쉬운 방법이 있으므로 [사용할 수 있는 다른 익스플로잇](get-started)을 찾아야 할 것입니다. 그러나 벽돌 회수와 같은 상황에서는 예외도 있습니다.
 
 :::
 
@@ -51,7 +51,7 @@ Make sure that the console is close to the computer running the exploit, ideally
   - 리눅스가 없다면 [우분투](https://ubuntu.com/download/desktop)가 가장 사용자 친화적인 옵션이며 윈도우나 맥을 실행하는 컴퓨터에서 실행할 수 있습니다.
     - 32비트 장치에는 [우분투 16.04](http://releases.ubuntu.com/16.04/)가 필요합니다.
     - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
-  - 컴퓨터에 설치하는 대신 [USB 플래시 드라이브에 리눅스라이브 환경을 플래싱](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) 할 수 있습니다.
+  - 컴퓨터에 설치하는 대신 [USB 플래시 드라이브에 리눅스 라이브 환경을 플래싱](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) 할 수 있습니다.
 - A Bluetooth adapter.
   - An internal Bluetooth adapter will work.
   - If you do not have one, make sure to get one compatible with Linux.
@@ -64,7 +64,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 1. hackmii_installer_v1.2 `.zip`에서 `boot.elf`를 플래시 드라이브의 루트에 복사합니다.
 
    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-   - (Wii mini의 경우에도 bootmini.elf는 **작동하지 않습니다.** 그 목적은 전혀 다르고 관련이 없습니다. Use boot.elf in all cases).
+   - (Wii 미니의 경우에도 bootmini.elf는 **작동하지 않습니다.** 그 목적은 전혀 다르고 관련이 없습니다. Use boot.elf in all cases).
 
    ![](/images/exploits/bluebomb/usb-exploit.png)
 
@@ -127,13 +127,13 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 ::: info
 
-Wii를 사용하는 경우: [홈브류 채널 및 BootMii 설치 계속](hbc)
+Wii를 사용하는 경우: [홈브류 채널 및 BootMii 설치 계속하기](hbc)
 
 :::
 
 ::: info
 
-Wii 미니를 사용하는 경우: [홈브류 채널 설치 계속](hbc-mini)
+Wii 미니를 사용하는 경우: [홈브류 채널 설치 계속하기](hbc-mini)
 
 :::
 
@@ -145,7 +145,7 @@ Wii 미니를 사용하는 경우: [홈브류 채널 설치 계속](hbc-mini)
 
 :::details 기술 세부사항 (선택 사항)
 
-이 익스플로잇은 배너 벽돌 및 (일부) 테마 벽돌과 같은 특정 벽돌에서의 복구도 가능하게 합니다.
+이 익스플로잇은 배너 벽돌 및 (일부) 테마 벽돌과 같은 특정 벽돌에서의 복원도 가능하게 합니다.
 
 :::
 
@@ -163,13 +163,13 @@ Wii 미니 콘솔을 해킹하는데 **어떤** 비디오 가이드도 사용하
 
 ::: info
 
-Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에 접근하는 훨씬 더 쉬운 방법이 있으므로 [사용할 수 있는 다른 익스플로잇](시작하기)을 찾아야 할 것입니다. 그러나 벽돌 회수와 같은 상황에서는 예외도 있습니다.
+Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에 접근하는 훨씬 더 쉬운 방법이 있으므로 [사용할 수 있는 다른 익스플로잇](get-started)을 찾아야 할 것입니다. 그러나 벽돌 회수와 같은 상황에서는 예외도 있습니다.
 
 :::
 
 ::: info
 
-익스플로잇을 실행하는 컴퓨터와 마이크로컨트롤러가 가까이 있는지 확인하세요. 이상적으로는 약 60 cm 이내에 있어야 합니다.
+익스플로잇을 실행하는 컴퓨터와 마이크로 컨트롤러가 가까이 있는지 확인하세요. 이상적으로는 약 60 cm 이내에 있어야 합니다.
 
 :::
 
