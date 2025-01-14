@@ -176,7 +176,7 @@ USB Loader GX와 WiiFlow Lite는 둘 다 가장 적합한 cIOS를 자동으로 �
    - 248, 249, 250, 251을 사용해 봅니다.
 6. 확인을 누르고 게임을 로드해 봅니다.
 
-### RiiConnect24 테마 페이지
+### WiiFlow Lite
 
 1. 작동하지 않는 게임을 선택합니다.
 2. 기어 아이콘을 클릭합니다.
@@ -186,6 +186,6 @@ USB Loader GX와 WiiFlow Lite는 둘 다 가장 적합한 cIOS를 자동으로 �
 
 ::: tip
 
-[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::
