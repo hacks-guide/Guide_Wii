@@ -12,9 +12,9 @@ Preventing a brick involves many rules that range between common sense and fail-
 - \*\* SEMMILYEN KÖRÜLMÉNYEK KÖZÖTT NE HASZNÁLD a `Pimp My Wii` HOMEBREW ALKALMAZÁST. Ez VESZÉLYES, mert a program működése képes véletlenül BRICKELNI A KONZOLOD!\*\*
 - NE telepíts olyan IOS csomagokat, mint a DARKCORP, mert felülírják a legtöbb IOS-edet cIOS-ekkel. Ez a módszer VESZÉLYES és elavult.\*\*
 - **NE tölts vissza más konzolokról származó NAND biztonsági mentéseket!**
-- **Do NOT install any IOS that isn't meant for your system** (example: Wii IOS on Wii mini)
+- NE telepíts olyan IOS-eket, amelyeket nem a konzolodra terveztek!\*\* (Pl.: Wii-s IOS-eket Wii mini-re.)
 - **A Wii-re készült régióváltási módszereket NE próbáld ki vWii-n vagy Wii mini-n**
-- **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](nintendowfc)). Doing otherwise could allow a malicious actor to BRICK your Console!**
+- **NE használj Nintendo Wi-Fi Connection-szolgáltatást, kivéve ha rendelkezik távoli kódfuttatási javításokkal (mint például a [Wiimmfi](nintendowfc)). Ha mégis így tennél, az lehetővé teszi egy rosszindulatú támadó számára a konzolod BRICKELŐDÉSÉT!**
 - **Csak a saját régiódhoz tartozó frissítéseket telepíts!**.
   - Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
 - **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
