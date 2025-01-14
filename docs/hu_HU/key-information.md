@@ -50,15 +50,15 @@ Be especially cautious with IOS to avoid bricking, since they are specifically d
 
 ::::
 
-## Storage Compatibility
+## Tárhely kompatibilitás
 
-For SD cards, you will want a minimum of 128MB to run an exploit. On average, however, you will want a card that is sized 2GB or more. Format instructions are listed [here](https://wiki.hacks.guide/wiki/Formatting_an_SD_card).
+Az SD-kártyák esetében legalább 128 MB-os memóriára lesz szükséged egy exploit futtatásához. Azonban, átlagosan legalább 2 Gb méretű kártyát szeretnél használni. A formázás lépései [itt](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) találhatók.
 
-For USB devices, you will want to use a USB hard drive or solid state drive formatted as FAT32. We do not recommend using flash drives as they are prone to failure or not working as intended with a Wii.
+USB-eszközök esetében FAT32 formátumban formázott USB-merevlemezt vagy SSD meghajtót kell használnod. Nem javasoljuk a pendrive-ok használatát, mivel ezek hajlamosak meghibásodni vagy nem működnek rendeltetésszerűen a Wii-vel.
 
-2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. For Wii U and Wii mini users, you will probably want to use an externally powered USB hub or a Y cable for drives that operate off of USB power alone, due to power draw.
+A 2,5 hüvelykes meghajtók a legtöbb esetben jól működnek a Wii-n kizárólag USB-ről, de a 3,5 hüvelykes meghajtók több energiát fogyasztanak, és mindig szükség lesz külső hálózati adapterre. A Wii U és a Wii mini felhasználóknak az energiafelvétel miatt valószínűleg külső tápellátású USB-hubot vagy Y-kábelt kell használniuk a kizárólag USB-ről működő meghajtókhoz.
 
-Please consult [the storage FAQ](faq#storage-device-faq) for more information.
+További információkért tekintse meg [a tárolási GYIK](faq#storage-device-faq)-et.
 
 ## Hálózati kompatibilitás
 
