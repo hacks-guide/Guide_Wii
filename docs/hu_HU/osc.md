@@ -62,7 +62,7 @@ Ha felugrik egy Felhasználói Fiókok Felügyelete-ablak, ami megkérdezi, hogy
 
    ![](/images/osc/app-download-OSCDL.png)
 
-4. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps directory, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
+4. Ha közvetlenül került letöltésre egy párbeszéd ablak jelenik meg, érdeklődve a letöltési helyéről. Az OSCDL jelez számodra, ha olyan tárolót észlel, ahol van apps könyvtár, és ha ide töltöttél le, akkor automatikusan kicsomagolja a homebrew-ot és az készen is áll a használatra. Egyébként megadhatsz egy kézi letöltési helyet, és kicsomagolhatod magadnak.
 
    ![](/images/osc/download-prompt-OSCDL.png)
 
@@ -72,21 +72,21 @@ Ha felugrik egy Felhasználói Fiókok Felügyelete-ablak, ami megkérdezi, hogy
 
 ::: warning
 
-You will need Python 3 installed in order to use OSCDL on these platforms.
+Python 3 telepítésre van szükséged az OSCDL haszmálatához ezeken a platformokon.
 
 :::
 
-1. Download the source code for OSCDL, either the `.zip` or the `.tar.gz`.
+1. Töltsd le az OSCDL forráskódját, akár `.zip` akár `.tar.gz` formátumban.
 
    ![](/images/osc/source-code-download-OSCDL.png)
 
-2. Extract the archive to a location on your computer that you would like to use OSCDL in.
+2. Csomagold ki az állományt a számítógépedre egy olyan helyre ahonnan használnád.
 
-3. Open the location of the extracted files in a terminal and run the command `pip install -r requirements.txt`. This will download Python packages needed to run OSCDL.
+3. Nyisd meg a kicsomagolt fájlok helyét egy terminalban és futtasd a `pip install -r requirements.txt` parancsot. Ez letölti az OSCDL futtatásához szükséges csomagokat.
 
    ![](/images/osc/satisfy-requirements-OSCDL.png)
 
-4. Futtasd a `python3 oscdl.py` parancsot. This will open the program. Optionally, you can also create a desktop shortcut that runs this command for easier access.
+4. Futtasd a `python3 oscdl.py` parancsot. Ez megnyitja a programot. Opcionálisan, a kényelmesebb használathoz létrehozhatsz egy asztali parancsikont, ami ezt a parancsot futtatja.
 
    ![](/images/osc/run-OSCDL-terminal.png)
 
@@ -94,7 +94,7 @@ You will need Python 3 installed in order to use OSCDL on these platforms.
 
    ![](/images/osc/app-download-OSCDL-linux.png)
 
-6. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps directory, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
+6. Ha közvetlenül került letöltésre egy párbeszéd ablak jelenik meg, érdeklődve a letöltési helyéről. Az OSCDL jelez számodra, ha olyan tárolót észlel, ahol van apps könyvtár, és ha ide töltöttél le, akkor automatikusan kicsomagolja a homebrew-ot és az készen is áll a használatra. Egyébként megadhatsz egy kézi letöltési helyet, és kicsomagolhatod magadnak.
 
    ![](/images/osc/download-prompt-OSCDL-linux.png)
 
@@ -110,6 +110,6 @@ Ebben az útmutatóban listázzuk a szerintünk beszerezni érdemes homebrew alk
 
 ::: tip
 
-[Return to site index](site-navigation)
+[Vissza a Honlap navigációra](site-navigation)
 
 :::
