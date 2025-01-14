@@ -31,8 +31,8 @@ A szolgáltatások telepítési útmutatója a patcherrel együtt a [WiiLink] ho
 
 #### Lépések
 
-1. Töltsd le és csomagold ki az sntp .zip-fájlt az SD kártya vagy pendrive gyökerére!
-2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a Wiidhez!
+1. Töltsd le és csomagold ki az sntp. zip-fájlt az SD kártya vagy USB drive gyökerére.
+2. Csatlakoztasd az USB drive-ot vagy az SD kártyát a Wiidhez.
 3. Indítsd el a Homebrew Channelt!
 4. Indítsd el az sntp-t!
 5. Állítsd be a pontos időt a nyílgombokkal!
