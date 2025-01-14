@@ -47,9 +47,9 @@ Make sure that the console is close to the computer running the exploit, ideally
 - A Linux machine
   - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
   - If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
-  - Windows Subsystem for Linux or a Chromebook running Linux mode will _not work_ as they don't have direct access to the Bluetooth adapter or USB ports.
-  - If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
-    - 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
+  - Linuxos Windows-alrendszert vagy Linux-módban futó Chromebookot nem használhatsz, ugyanis ezek nem férnek hozzá a Bluetooth-adapterhez vagy az USB portokhoz.
+  - Ha még nem használtál Linuxot, akkor az [Ubuntu](https://ubuntu.com/download/desktop) lehet a legfelhasználóbarátabb lehetőség és ami a legtöbb Windowsos vagy MacOS-es számítógépen elfut.
+    - A 32-bites eszközök [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) verziót igényelnek.
     - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
   - You can [flash a Linux Live environment to a USB flash drive](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) instead of installing it to your computer.
 - A Bluetooth adapter.
