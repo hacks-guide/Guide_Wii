@@ -1,7 +1,7 @@
 {
     "language": "한국어",
     "title": "Wii 핵 가이드",
-    "description": "완벽한 Wii, vWii, Wii 미니 해킹 가이드.",
+    "description": "Wii, vWii, Wii 미니를 개조하는 완벽한 가이드",
     "langMenuLabel": "언어 전환",
     "darkModeSwitchLabel": "외형",
     "darkModeSwitchTitle": "어두운 테마 전환",
@@ -9,7 +9,7 @@
     "sidebarMenuLabel": "메뉴",
     "returnToTopLabel": "맨 위로 돌아가기",
     "guide": "가이드",
-    "extras": "Extras",
+    "extras": "추가 사항",
     "other": "기타",
     "pages": {
         "bootmii": "BootMii 백업",
@@ -31,7 +31,7 @@
         "hbc": "홈브류 채널과 BootMii 설치",
         "hbc-mini": "홈브류 채널 - Wii 미니 전용",
         "homebrew-dolphin": "홈브류 채널 - 돌핀 에뮬레이터",
-        "key-information": "키 정보",
+        "key-information": "중요 정보",
         "legacy-exploits": "레거시 익스플로잇",
         "letterbomb": "LetterBomb",
         "modmii": "ModMii",
