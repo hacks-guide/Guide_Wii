@@ -39,7 +39,7 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telep
 ### I. rész - Letöltés
 
 1. Kapcsold ki a konzolod.
-2. Csatlakoztasd a pendrive-ot a számítógépedbe!
+2. Csatlakoztasd az USB-driveot a számítógépedhez.
 3. Ha még nem létezik, hozz létre egy `apps` nevű mappát az USB drive gyökerén.
 4. Másold át a d2xl cIOS Installer `.zip` fájlban található `d2x-cios-installer` mappát az USB drive `apps` mappájába.
 5. Helyezd be a pendrive-ot a konzolba!
