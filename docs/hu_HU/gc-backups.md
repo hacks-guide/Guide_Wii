@@ -24,7 +24,7 @@ Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva
 ### I. rész - Letöltés
 
 1. Csomagold ki és indítsd el a GameCube Backup Manager-t.
-2. Csatlakoztasd a pendrive-ot a számítógépedbe!
+2. Csatlakoztasd az USB drive-ot a számítógépedhez.
 
 ### II. rész – Játékok átmásolása
 
