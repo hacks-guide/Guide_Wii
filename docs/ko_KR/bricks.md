@@ -15,38 +15,38 @@ A "Brick" usually means your Wii has reached a state where its next purpose in e
 - **시스템에 맞지 않는 IOS는 설치하지 마세요** (예: Wii 미니에 설치된 Wii IOS)
 - **vWii 또는 Wii 미니에서 Wii용 지역 변경 방법을 시도하지 마세요.**
 - **RCE 패치가 적용된 것으로 알려진 경우(예: [Wiimmfi](nintendowfc))를 제외하고는 닌텐도 Wi-Fi 연결 서비스를 사용하지 마십시오. 그렇지 않으면 악의적인 공격자가 여러분의 콘솔을 파괴할 수 있습니다!**
-- **Only install updates for your own region!**.
-  - Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
-- **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
-  - An example of modifying files going wrong is replacing IOS80 on Wii mini, which may result in a [Wi-Fi Brick](bricks#wi-fi-brick).
-- **Do NOT install homebrew from untrustworthy sources or if the source code is not available.**
-  - Software on the [Open Shop Channel](osc) is safe.
-  - There have been incidents of malicious software being developed for the Wii in the past, while other apps are just badly developed. Make sure that you know what you are installing, and only install what you need.
-  - Corrupted or unstable forwarders for homebrew could cause a [banner brick](#banner-brick), so try to stick with loading homebrew from the Homebrew Channel unless you really want a forwarder.
-- **Ensure that you know what you are doing when running homebrew apps - especially those with the ability to modify system files. Be ESPECIALLY careful when using applications such as:**
+- **여러분의 지역에 대한 업데이트만 설치하세요!**
+  - 다른 지역에서 업데이트를 설치해도 아무런 효과가 없을 수 있으며, 최악의 경우 [Korean Kii/오류 003](bricks#koreankii-error-003-brick) 오류가 발생할 수 있습니다. 중고 Wii를 구매한 경우 이런 일이 발생하지 않도록 하려면 [SysCheck](syscheck)를 실행하여 콘솔의 원래 지역을 확인합니다. 한국어 버전이라면 콘솔에 시스템 업데이트를 적용할 때 각별히 주의하고, 추가 지원이 필요하면 지원팀에 문의하시기 바랍니다.
+- **시스템 파일을 삭제하거나 수정하지 말고, Wii 메뉴나 IOS의 이전 버전을 설치하지 말고, 무엇을 해야 할지 모르는 경우 시스템 파일 모드를 설치하지 마세요!**
+  - 파일 수정이 잘못된 예로는 Wii 미니에서 IOS80을 교체하는 것이 있는데, 이로 인해 [Wi-Fi 벽돌](bricks#wi-fi-brick)이 발생할 수 있습니다.
+- **신뢰할 수 없는 출처에서 홈브류를 설치하지 마세요. 혹은 소스코드를 사용할 수 없는 경우에는 설치하지 마세요.**
+  - [오픈 샵 채널](osc)의 소프트웨어는 안전합니다.
+  - 과거에도 Wii용으로 악성 소프트웨어가 개발된 사례가 있었지만, 그저 형편없이 개발된 앱도 있습니다. 무엇을 설치하는지 확인하고, 필요한 것만 설치합니다.
+  - 홈브류의 손상되거나 불안정한 포워더로 인해 [배너 벽돌](#banner-brick)이 발생할 수 있으므로, 포워더가 꼭 필요한 경우가 아니면 홈브류 채널에서 홈브류를 로딩하도록 합니다.
+- \*\* 홈브류 앱을 실행할 때는 무엇을 하는지 알고 있어야 합니다. 특히 시스템 파일을 수정할 수 있는 앱의 경우 더욱 그렇습니다. 다음과 같은 애플리케이션을 사용할 때는 특히 주의합니다:\*\*
   - AnyTitle Deleter
   - AnyRegion Changer
-  - KoreanKii (secondary cause of [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brick)
-  - Firmware Downgraders
-  - Any other app that modifies critical NAND files
-- **DO NOT TOUCH THE WII'S POWER SOURCE OR POWER BUTTONS WHEN INSTALLING OR MODIFYING CRITICAL SYSTEM CONTENT**.
-  - If your electricity is unstable (e.g. storm, power outage), postpone what you are doing until you have a stable power source.
-  - This applies to dangerous processes such as BootMii NAND restoration, which could lead to a [full brick](#low-level-brick) if anything goes wrong.
+  - KoreanKii ([Korean Kii/오류 003](bricks#koreankii-error-003-brick) 벽돌의 2차 원인)
+  - 펌웨어 다운그레이더
+  - 중요한 낸드 파일을 수정하는 다른 앱
+- **중요한 시스템 콘텐츠를 설치하거나 수정할 때 WII의 전원이나 전원 버튼을 만지지 마세요.**
+  - 전기가 불안정한 경우 (예: 폭풍, 정전), 안정적인 전력 공급이 이루어질 때까지 하던 일을 연기합니다.
+  - 이는 BootMii 낸드 복구와 같은 위험한 프로세스에 적용되며, 문제가 발생하면 [완전 벽돌](#low-level-brick)이 발생할 수 있습니다.
 
-In any case, you should absolutely:
+어떤 경우에도 반드시 다음을 수행해야 합니다:
 
-- Have BootMii installed as boot2 if available, but otherwise as IOS.
-- Have Priiloader installed regardless of BootMii installation method.
-- Backup your NAND with BootMii and always have a valid spare copy on hand, but especially before attempting anything risky. Note that in some brick scenarios, BootMii is not accessible, so plan ahead.
+- 가능하다면 BootMii를 boot2로 설치하고, 그렇지 않으면 IOS로 설치합니다.
+- BootMii 설치 방법에 관계없이 Priiloader를 설치합니다.
+- BootMii로 낸드를 백업하고 항상 유효한 예비 사본을 준비해 둡니다. 특히 위험한 작업을 시도하기 전에 그렇게 합니다. 일부 벽돌 시나리오에서는 BootMii에 접속할 수 없으므로 미리 계획합니다.
 
-# Diagnosis
+# 진단
 
-This is a section intended to help you diagnose a potential brick, in order by least to most brick severity. If you seem to have a brick that isn't covered in this section or in the guide, please join the Nintendo Homebrew discord server for support.
+이 섹션은 벽돌 심각도가 가장 낮은 것부터 가장 높은 것까지 순서대로 나열되어 잠재적인 벽돌을 진단하는 데 도움을 주기 위해 마련되었습니다. 이 섹션이나 가이드에 포함되지 않은 문제가 있는 경우, 닌텐도 홈브류 디스코드 서버에 가입하여 지원을 받으세요.
 
-- Wii starts, and progresses to the Wii Menu. No app is malfunctioning, Wii settings is error free, everything is seemingly fine. No brick.
+- Wii starts, and progresses to the Wii Menu. No app is malfunctioning, Wii settings is error free, everything is seemingly fine. 벽돌은 없습니다.
 - Wii starts, and progresses to the Wii Menu.
-  - If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
-  - If after accessing the Wii settings, you see an error that resembles the Opera web browser, see [semibrick](bricks#semibrick).
+  - 특정 채널에 접속한 후 `The system files are corrupted.`라는 메시지가 나타나면 [배너 벽돌](bricks#banner-brick)을 참조합니다.
+  - Wii 설정에 접속한 후 오페라 웹 브라우저와 유사한 오류가 표시되면 [반벽돌](bricks#semibrick)을 참조합니다.
 - Wii starts, you see the health/warning screen, but upon pressing A to start, you see a black screen.
   - If this happened after installing a theme, see [theme brick](bricks#theme-brick).
   - If this happened after installing a WAD, see [banner brick](bricks#banner-brick).
