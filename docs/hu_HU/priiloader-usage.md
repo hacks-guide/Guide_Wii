@@ -18,7 +18,7 @@ A Priiloader még néhány egyéb dologra is képes, amelyek javíthatnak a Wii-
 
 A Priiloader segítségével a Wii bekapcsolásakor lehetőséged van egyből a Homebrew Channelbe, egy adott alkalmazásba vagy magába a Priiloaderbe indítani a konzolt. Ez nem kötelező.
 
-#### Egy nemhivatalos program automatikus indítása
+#### Egy homebrew program automatikus indítása
 
 ::: warning
 
