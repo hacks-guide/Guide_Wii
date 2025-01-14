@@ -1,4 +1,4 @@
-# Ajánlott nemhivatalos programok
+# Ajánlott homebrew programok
 
 Ezen az oldalon olvashatsz azokról a programokról, amelyeket a wii.hacks.guide csapata hasznosnak, érdemesnek vagy simán jónak ítél. Használd ki a Wiid újdonsült erejét!
 
@@ -19,7 +19,7 @@ A végleges módosításokra képes programok **vastagon vannak kiemelve**.
 
 ## Játékok és betöltők
 
-- [**Riivolution**](https://wiki.hacks.guide/wiki/Wii:Riivolution) - Egy on-the-fly játék patcher kereskedelmi játéklemezek patcheléséhez. Lehetővé teszi a cserefájlok SD kártyán vagy pendrive-on való tárolását, amelyeket a játék futás közben olvas be. A Riivolution lehetővé teszi az egyedi textúrák, zene, pályák, memóriamódosítások, fordítások és sok más egyszerű betöltését.
+- [**Riivolution**](https://wiki.hacks.guide/wiki/Wii:Riivolution) - Egy on-the-fly játék patcher kereskedelmi játéklemezek patcheléséhez. Lehetővé teszi a cserefájlok SD kártyán vagy USB drive-on való tárolását, amelyeket a játék futás közben olvas be. A Riivolution lehetővé teszi az egyedi textúrák, zene, pályák, memóriamódosítások, fordítások és sok más egyszerű betöltését.
 - [USB Loaderek](wii-loaders) – Általános javaslat egy USB Loader beszerzése, amellyel játékmásolatokat tölthetsz be. További információt a hivatkozott útmutatóban találsz, ami mind a Wii-, mind a GameCube-betöltőkről is beszél.
 - [CavEX](https://oscwii.org/library/app/cavex) – Egy projekt, aminek célja újrateremteni az alap túlélési élményt a kedvenc blokkos játékoddal Wii-n egészen az Beta 1.7.3-as verzióig.
 - [Sonic CD](https://oscwii.org/library/app/SonicCDWii) - A Sonic CD 2011-es újrakiadásának portja az az RSDKv3 decompiláció alapján. **A játéknak szüksége van fájlokra a hivatalos kiadásból a futáshoz**.
