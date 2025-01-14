@@ -76,7 +76,7 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
     - 어떤 경우에는 편지가 도착하려면 내일이나 어제의 메시지를 확인해야 할 수도 있습니다.
     - 녹색 글자가 보이지 않으면 `데이터 관리`의 SD 카드 섹션에 오류가 표시되었는지 확인합니다. 이 경우 SD 카드 형식 또는 Wii의 SD 카드 리더기에 문제가 있는 것일 수 있습니다.
 
-17. If the exploit was successful, your device will have loaded the HackMii Installer.
+17. 익스플로잇이 성공하면 장치에 HackMii 설치 프로그램이 로드됩니다.
     - Wii가 검은색 화면에서 멈춘 경우, POWER 버튼을 길게 눌러 전원을 끄고 다시 시도합니다.
     - 편지를 연 후 Wii 메뉴로 돌아가는 경우 SD 카드의 잠금 스위치가 잠금 해제 위치에 있는지 확인합니다.
 
@@ -164,7 +164,7 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-16. If the exploit was successful, your device will have loaded the HackMii Installer.
+16. 익스플로잇이 성공하면 장치에 HackMii 설치 프로그램이 로드됩니다.
     - Wii가 검은색 화면에서 멈춘 경우, POWER 버튼을 길게 눌러 전원을 끄고 다시 시도합니다.
     - 편지를 연 후 Wii 메뉴로 돌아가는 경우 SD 카드의 잠금 스위치가 잠금 해제 위치에 있는지 확인합니다.
 
