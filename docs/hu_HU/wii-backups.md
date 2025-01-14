@@ -20,7 +20,7 @@ Alternatívaként használhatsz egy SD kártyát is, de figyelmeztetünk, hogy a
 
 Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva. Do not format it as other types such as exFAT or extFS.
 
-NTFS-ként is formázhatod, de a legtöbb nemhivatalos alkalmazás (pl.: a Homebrew Channel és a Nintendont) ezt nem támogatja
+NTFS-ként is formázhatod, de a legtöbb homebrew alkalmazás (pl.: a Homebrew Channel és a Nintendont) ezt nem támogatja
 
 :::
 
