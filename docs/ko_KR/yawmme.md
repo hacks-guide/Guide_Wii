@@ -5,7 +5,7 @@ YAWM ModMii Edition은 WAD를 설치하고 홈브류 응용 프로그램을 실�
 
 ## 요구사항
 
-- SD 카드 및 USB 드라이브
+- SD 카드 또는 USB 드라이브
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
 ## 소개
@@ -17,7 +17,7 @@ YAWM ModMii Edition은 WAD를 설치하고 홈브류 응용 프로그램을 실�
 
 ### 섹션 II - WAD 설치
 
-1. Select the source device that has the WAD file(s) you would like to install.
+1. 설치하려는 WAD 파일이 있는 소스 장치를 선택하세요.
 
    ![](/images/homebrew/yawmME/source_device.png)
 
@@ -33,7 +33,7 @@ YAWM ModMii Edition은 WAD를 설치하고 홈브류 응용 프로그램을 실�
 
    ![](/images/homebrew/yawmME/install_wad.png)
 
-4. Press A again to install the WAD(s).
+4. 다시 A 버튼을 눌러 WAD를 설치하세요.
 
    ![](/images/homebrew/yawmME/installing_wad.png)
 
@@ -41,6 +41,6 @@ YAWM ModMii Edition은 WAD를 설치하고 홈브류 응용 프로그램을 실�
 
 ::: tip
 
-[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::
