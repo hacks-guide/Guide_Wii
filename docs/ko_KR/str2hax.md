@@ -94,7 +94,7 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
    ![](/images/hackmii/scam.png)
 
-   - 2 분이 지나도 HackMii 설치 프로그램이 로드되지 않거나 `중단` 또는 `오류!`와 같은 오류가 발생하는 경우. if_config (ret = ...)\`와 같은 오류가 표시되면 Wii를 재시작하고 다시 시도합니다.
+   - 2 분이 지나도 HackMii 설치 프로그램이 로드되지 않거나 `Hanging.` 또는 `ERROR! if_config (ret = ...)`와 같은 오류가 표시되면 Wii를 재시작하고 다시 시도합니다.
 
 ::: tip
 
