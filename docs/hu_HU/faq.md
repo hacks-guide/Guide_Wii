@@ -4,7 +4,7 @@
 
 ### Mennyire kockázatos a konzolom feltörése?
 
-A konzoltól függően nem túl kockázatos. A Wii esetében sokkal kisebb a belépési korlát, mint más konzoloknál, néhány exploithoz nem kell más, mint egy Wii és egy internetkapcsolat. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+A konzoltól függően nem túl kockázatos. A Wii esetében sokkal kisebb a belépési korlát, mint más konzoloknál, néhány exploithoz nem kell más, mint egy Wii és egy internetkapcsolat. Amíg követed az [itt](bricks#brick-prevention) leírt általános tanácsokat, telepíted a [BootMii](bootmii)-t és a [Priiloader](priiloader)-t, és használod a józan eszed, addig minden rendben lesz!
 
 ### Az XXXXXX hibakódot kapom, hogyan tudom javítani?
 
@@ -24,7 +24,7 @@ A RiiConnect24 régi DNS-kiszolgálóját használod. Kövesd [ezt](riiconnect24
 
 Az elsődleges DNS szerver vagy helytelen vagy nem működik.
 
-This can also happen if you use a proxy server and it is down.
+Ez akkor is előfordulhat, ha proxy szervert használsz és az nem elérhető.
 
 #### Error 107304
 
@@ -38,11 +38,11 @@ Ha ezt a hibát kapod, a DNS szerver amit választottá vagy az interneted telje
 
 #### FORE000006
 
-Ha a FORE000006 hibaüzenetet kapod, a Wii órája valószínűleg rosszul van beállítva. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. Ha ez sem sikerül, akkor vedd ki a Wii óraelemét (a rendszer alján található egy csavar mögött) egy órára, majd tedd vissza. Ezután reseteld Wii óráját.
+Ha a FORE000006 hibaüzenetet kapod, a Wii órája valószínűleg rosszul van beállítva. Tekintsd meg [ezt](wiiconnect24#updating-rtc-clock) a lépésekért a helyes alaphelyzetbe állításhoz. Ha ez sem sikerül, akkor vedd ki a Wii óraelemét (a rendszer alján található egy csavar mögött) egy órára, majd tedd vissza. Ezután reseteld Wii óráját.
 
 ### Hogyan távolíthatom el a szülői felügyeletet?
 
-The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
+Az [mkey generator](https://mkey.nintendohomebrew.com/) tud olyan kódotgenerálni, amivel eltávolítható a szülői felügyelet.
 
 ### Úgy gondolom, hogy a Wii-om brickelt, vagy valami komoly baja van, mit tegyek?
 
@@ -95,7 +95,7 @@ Amikor SD-kártya vagy USB-eszköz vásárlását vagy használatát fontolgatod
 
 ::: danger
 
-SD cards larger than 2TB currently do not exist, anyone attempting to sell you one is trying to rip you off.
+2 TB-os vagy nagyobb SD-kártyák jelenleg nem léteznek, bárki, aki ilyet próbál eladni neked, megpróbál átverni.
 
 :::
 
@@ -113,7 +113,7 @@ Ajánlott márkák:
 
 USB merevlemezek vásárlásakor csak három jelenlegi HDD-gyártó létezik: Western Digital, Seagate és Toshiba. Minden más merevlemezgyártó cég megszűnt, és vagy csődbe ment, vagy a fent említett három cég beolvasztotta őket. Ennek ellenére, ha van egy másik cég által gyártott merevlemezed, annak még működnie kell! A merevlemezek technológiája az elmúlt körülbelül 10 évben nagyjából változatlan maradt. Csak ellenőrizd a S.M.A.R.T. adatokat, hogy megbizonyosodj arról, hogy a meghajtó nem hibásodott meg, mielőtt az összes adatod rápakolod.
 
-For hard drive sizing, 2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. Figyelj arra, hogy meghatározd, hogy mit szeretnél csinálni a külső meghajtóval.
+A 2,5 hüvelykes meghajtók a legtöbb esetben jól működnek a Wii-n kizárólag USB-ről, de a 3,5 hüvelykes meghajtók több energiát fogyasztanak, és mindig szükség lesz külső hálózati adapterre. Figyelj arra, hogy meghatározd, hogy mit szeretnél csinálni a külső meghajtóval.
 
 For Wii U users, it is highly recommended to have a hard drive that takes external power, or to use a powered USB hub and/or Y cable for 2.5 inch drives.
 
