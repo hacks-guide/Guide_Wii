@@ -28,7 +28,7 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
 ## 요구 사항
 
-- 적어도 512MB 이상의 SD 카드
+- 최소 512MB의 여유 공간이 있는 SD 카드 (1GB 이상 권장)
 - 플래시하려는 특정 시스템의 [낸드 백업](bootmii)
 - 인터넷에 연결된 윈도우 컴퓨터
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
