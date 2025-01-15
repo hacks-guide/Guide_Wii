@@ -22,7 +22,7 @@ Letörölheted a`wiiu` mappát az SD kártyádról, ha azt szeretnéd.
 
 Most már tudod használni a Homebrew Channel-t arra, hogy Wii homebrew appokat indítsd.
 
-Megjegyzés: Ha nemhivatalos alkalmazásokat telepítesz SD kártyára vagy pendrive-ra, a könyvtárfelépítésed így kell, hogy kinézzen:
+Megjegyzés: Ha homebrew alkalmazásokat telepítesz SD kártyára vagy USB drive-ra, a könyvtárfelépítésed így kell, hogy kinézzen:
 
 ```
 💾 SD kártya
