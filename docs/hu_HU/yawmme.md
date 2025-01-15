@@ -13,7 +13,7 @@ Ez az útmutató az mutatja be, hogyan telepíthetsz WAD fájlokat.
 ### I. rész - Letöltés
 
 1. Töltsd le és csomagold ki a YAWM ModMii Edition `.zip` fájlt az SD kártya vagy az USB drive gyökerére.
-2. Csatlakoztasd az SD kártyát vagy a pendrive-ot a Wiihez, majd indítsd el a YAWM ModMii Edition-t.
+2. Csatlakoztasd az SD kártyát vagy az USB drive-ot a Wiihez, majd indítsd el a YAWM ModMii Edition-t.
 
 ### II. rész – WAD-ok telepítése
 

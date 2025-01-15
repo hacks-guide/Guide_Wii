@@ -2,12 +2,12 @@
 
 SysCheck는 Wii에 있는 모든 IOS 및 cIOS가 표시되며, 각 항목에 대한 몇 가지 정보도 함께 표시됩니다. 또한 다른 유용한 정보도 제공합니다. Wii에서 IOS 관련 문제가 발생하면 누군가 SysCheck을 요청할 수 있습니다.
 
-## Requirements
+## 요구 사항
 
 - SD 카드 및 USB 드라이브
 - [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME)
 
-## Instructions
+## 지침
 
 ### 섹션 I - 다운로드/설치하기
 
@@ -24,14 +24,14 @@ SysCheck는 Wii에 있는 모든 IOS 및 cIOS가 표시되며, 각 항목에 대
 
 3. 프로그램이 IOS에 대한 정보를 얻을 때까지 기다립니다.
 
-4. After it finishes, press the `A` Button if you want to view the log.
+4. 완료된 후 로그를 보려면 `A` 버튼을 누릅니다.
 
    ![](/images/homebrew/syscheck/syscheck_success.png)
 
-5. If you want to share the SysCheck, you can share the `syscheck.csv` file on the root of your SD card or USB drive. You can also press `A`, which will upload the report to [syscheck.rc24.xyz](http://syscheck.rc24.xyz/).
+5. SysCheck를 공유하려면 SD 카드나 USB 드라이브의 루트에 있는 `syscheck.csv` 파일을 공유하면 됩니다. `A` 버튼을 눌러 보고서를 [syscheck.rc24.xyz](http://syscheck.rc24.xyz/)에 업로드할 수도 있습니다.
 
 ::: tip
 
-[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::

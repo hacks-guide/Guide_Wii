@@ -4,19 +4,19 @@ Ez az útmutató bemutatja a Wii mentés betöltőit. Ezek elsősorban a kiskere
 
 ::: warning
 
-Ahhoz, hogy a Wii loader megfelelően működjön, a legújabb cIOS-t kell telepíteni. Please check [this](cios) guide for instructions if you are on Wii, and [this](cios-mini) guide if you are on Wii mini.
+Ahhoz, hogy a Wii loader megfelelően működjön, a legújabb cIOS-t kell telepíteni. Kérjük, nézd meg [ezt](cios) az útmutatót az utasításokért, ha Wii-t használsz, és [ezt az útmutatót, ha Wii mini-t](cios-mini).
 
 :::
 
 ::: info
 
-A játékok lejátszásához ajánlott egy nagy SD-kártyát vagy egy külső merevlemezt használni, a flash meghajtók nem ajánlottak, és nagyon szórványosan működnek. See [storage FAQ](faq).
+A játékok lejátszásához ajánlott egy nagy SD-kártyát vagy egy külső merevlemezt használni, a flash meghajtók nem ajánlottak, és nagyon szórványosan működnek. Lásd a [tárolási GYIK-et](faq).
 
 :::
 
 ::: info
 
-The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). A forwarder telepítéséhez futtasd az alkalmazást a Homebrew Channel csatornán. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme).
+A hivatalos Wii Menu forwarder telepítő WiiFlow Lite-hoz megtalálható az [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer) csatornán. A forwarder telepítéséhez futtasd az alkalmazást a Homebrew Channel csatornán. A hivatalos USB Loader GX forwarder megtalállható a [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) oldalon. A [YAWM ModMii Edition](yawmme) segítségével telepítheted.
 
 :::
 
@@ -40,7 +40,7 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 
 ## Játék könyvtár struktúra
 
-Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható. A WBFS needs to be split if it is over 4 GB and your storage device is formatted as FAT32. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game directory structure correctly.
+Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható. Egy WBFS-nek darabolni kell, ha 4 GB-nál nagyobb és a tároló eszköz FAT32-re formázott. A szoftverek, mint [Wii Backup Manager](wii-backups#using-wii-backup-manager) vagy [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) el tudják ezt végezni és automatikusan megfelelő játék-könyvtárszerkezetet állítanak be.
 
 ```
 💾SD kártya vagy USB:
@@ -57,7 +57,7 @@ Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható.
 ### Követelmények
 
 - Egy moddolt Wii
-- The latest version of [cIOS](cios)
+- A [cIOS](cios) legutolsó verziója
 - [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
 ### Telepítés
@@ -68,15 +68,15 @@ Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható.
 
 #### Általános
 
-- A WiiFlow alapértelmezés szerint csak az SD-kártyán lévő játékokat keresi. This can be changed by going to `Settings > Startup Settings` to then turn off `Mount SD Only`.
-- You can toggle the current view in WiiFlow between plugins, games, homebrew, and Wii channels by clicking the button to the left of `Home`, on the bottom right.
-- You can download game covers by going to `Settings` > `Download Covers and Banners`.
+- A WiiFlow alapértelmezés szerint csak az SD-kártyán lévő játékokat keresi. Ez megváltoztatható a `Settings > Startup Settings` menüpontban, ahol `Mount SD Only` opciót kell kikapcsolni.
+- A WiiFlow-ban az aktuális nézetet a jobb alsó sarokban, a `Home`-tól balra található gombra kattintva válthatod át a pluginok, játékok, homebrew és Wii-csatornák között.
+- A játékborítókat a `Settings` > `Download Covers and Banners` menüpontban töltheted le.
 
 #### Felhasználói felület
 
-When WiiFlow detects games, they are displayed in flow view.
+Amikor a WiiFlow játékokat észlel, azok flow nézetben jelennek meg.
 
-When you click on a game, you are given these options:
+Ha rákattintasz egy játékra a következő opciókat érheted el:
 
 - Csillag - A játék hozzáadása a kedvencekhez.
 - Könyvespolc - Hozzáadja a játékot az általad választott 6 kategória egyikéhez.
@@ -108,12 +108,12 @@ Amikor a kurzort a képernyő aljára viszed, miközben az flow nézetben vagy, 
 ### Követelmények
 
 - Egy moddolt Wii
-- The latest version of [cIOS](cios)
+- A [cIOS](cios) legutolsó verziója
 - [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
 ### Telepítés
 
-1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
+1. Győződj meg róla, hogy a Wii-den már telepítve van a cIOS 248-251 - ezt olyan alkalmazásokkal ellenőrizheted, mint a [SysChecker](syscheck) vagy a d2x cIOS telepítő.
 2. Töltsd le az USB Loader GX-et, és telepítsd az SD-kártyára vagy USB-eszközre.
 
 ### Gyorsindítási útmutató
@@ -121,8 +121,8 @@ Amikor a kurzort a képernyő aljára viszed, miközben az flow nézetben vagy, 
 #### Általános
 
 - Ha az USB Loader GX azt írja, hogy "Waiting for HDD..." 20 másodperces visszaszámlálással, akkor nagy valószínűséggel nem tudja felismerni az USB-eszközt. Próbálj meg kilépni az alkalmazásból, és győződj meg arról, hogy az USB-eszközöd az alsó portba csatlakoztattad, ha a Wii vízszintesen van elhelyezve, vagy a széléhez legközelebbi portba, ha a Wii függőlegesen van elhelyezve. Az is lehet, hogy rosszul van formázva. Győződj meg róla, hogy az USB-meghajtó FAT32 formátumban van formázva, MBR partíciós táblával és 32 kB (32768 bájt) kiosztási egységmérettel/fürtmérettel.
-- You can press the 1 Button on your Wii Remote to open up a dialog to download game covers and artwork from [GameTDB](https://gametdb.com/). A játékborítók és grafikák letöltése eltarthat egy ideig, attól függően, hogy mennyi játékod van.
-- A GameCube vagy "egyedi" Wii játékokhoz vagy van vagy lehet hogy nincs egyedi banner, amit az USB Loader GX használ. To enable this, find or write `CustomBannersURL = http://banner.rc24.xyz/` in `config/GXGlobal.cfg` on the drive you installed the app on. Then, you can use the `Custom Banner` download by pressing the 1 Button on your Wii Remote.
+- A Wii távirányító 1 gombjának megnyomásával megnyithatod a [GameTDB](https://gametdb.com/)-ből a játékborítók és grafikák letöltésére szolgáló párbeszédpanelt. A játékborítók és grafikák letöltése eltarthat egy ideig, attól függően, hogy mennyi játékod van.
+- A GameCube vagy "egyedi" Wii játékokhoz vagy van vagy lehet hogy nincs egyedi banner, amit az USB Loader GX használ. Ennek engedélyezéséhez keresd meg vagy írd be a `CustomBannersURL = http://banner.rc24.xyz/` értéket a `config/GXGlobal.cfg` fájlban azon a meghajtón, amelyre telepítetted az alkalmazást. Ezután a `Custom Banner` letöltését a Wii Remote 1 gombjának megnyomásával használhatod.
 
 #### Felhasználói felület
 
@@ -160,7 +160,7 @@ Például:
 - A Spongyabob's Boating Bash futtatása.
 - USB-dongle használata a Rock Bandben.
 
-A more comprehensive (although still incomplete) list can be found [here](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
+Egy sokkal teljesebb (de még mindig nem teljes) lista megtalálható [itt](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
 
 Mind az USB Loader GX, mind a WiiFlow Lite úgy van programozva, hogy automatikusan megtalálja a legjobb cIOS-t, és az alapértelmezett beállításokkal töltse be a játékot.  Ha azonban valamilyen oknál fogva ezek a betöltők rossz cIOS-t választanak, akkor lehetőséged van arra, hogy te magad változtasd meg.
 
@@ -170,8 +170,8 @@ Egy adott játékhoz használt cIOS megváltoztatásához kövesd az USB-töltő
 
 1. Válaszd ki a játékot, ami nem működik.
 2. Kattints a Settings-re.
-3. Select `Game Load`.
-4. Scroll down to `Game IOS`.
+3. Válaszd a `Game Load` opciót.
+4. Görgess le a `Game IOS` opcióig.
 5. Add meg a használandó IOS slot-ot.
    - Próbáld meg a 248, 249, 250 vagy 251-gyel.
 6. Nyomj OK-t és próbáld meg betölteni a játékot.

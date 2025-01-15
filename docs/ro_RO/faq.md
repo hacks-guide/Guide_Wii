@@ -95,7 +95,7 @@ Când vrei să cumperi sau să folosești un card SD sau o unitate USB, merită 
 
 ::: danger
 
-Cardurile SD de 2TB sau mai mult momentan nu există, oricine care încearcă să-ți vândă unul vrea să te păcălească.
+SD cards larger than 2TB currently do not exist, anyone attempting to sell you one is trying to rip you off.
 
 :::
 
@@ -113,7 +113,11 @@ Mărci recomandate:
 
 Când cumperi hard disk-uri USB, există în prezent numai trei producători de HDD: Western Digital, Seagate și Toshiba. Oricare și toate celelalte companii de hard disk-uri sunt desființate și ori au dat faliment, ori au fost absorbite de cele trei companii menționate anterior. Acestea fiind spuse, dacă ai la îndemână un hard disk în plus făcut de altă companie, ar trebui încă să funcționeze! Tehnologia hard disk-urilor a rămas în întregime neschimbată în ultimii circa 10 ani. Doar ține minte să verifici datele S.M.A.R.T pentru a te asigura că unitatea nu are probleme înainte să îți pui toate datele pe el.
 
-Pentru mărimea hard disk-ului, 2.5 inch ar trebui să funcționeze în regulă mergând doar pe alimentarea din USB pentru un Wii, 3.5 inch consumă mult mai multă putere și în majoritatea cazurilor va avea nevoie de un alimentator extern. Asigură-te să plănuiești acest lucru atunci când stabilești ce vrei să faci cu o unitate externă.
+For hard drive sizing, 2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. Asigură-te să plănuiești acest lucru atunci când stabilești ce vrei să faci cu o unitate externă.
+
+For Wii U users, it is highly recommended to have a hard drive that takes external power, or to use a powered USB hub and/or Y cable for 2.5 inch drives.
+
+For Wii mini users, it is recommended to have an externally powered USB hub in order to have external storage, internet adapters, and other peripherals connected simultaneously. You may also want to use a Y cable for drive power.
 
 În ceea ce privește opțiunile tale, acest lucru în mare se rezumă la trei scenarii diferite:
 
@@ -128,3 +132,24 @@ Pentru mărimea hard disk-ului, 2.5 inch ar trebui să funcționeze în regulă 
 Pentru scopurile utilizării unui dispozitiv de stocare cu un Wii, SSD-urile externe sunt de obicei mai scumpe decât hard disk-urile convenționale fără niciun câștig în viteză observabil pentru un Wii (consola suportă maxim viteze de transfer USB 2.0). Dacă vrei să cumperi unul sau deja ai unul la îndemână, este o opțiune, dar în general este recomandat pur și simplu să iei un hard disk dacă nu ai deja unul.
 
 :::
+
+## Networking FAQ
+
+The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named WiFi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points (APs):
+
+- APs enforcing WPA enterprise encryption, or WPA3 only
+- APs not backwards compatible with WiFi 3, or broadcasting only on the 5 GHz band
+
+ISPs known to provide routers incompatible with these settings:
+
+- Xfinity
+- Spectrum
+- Cox
+
+If your ISP will not let you change these settings, or your current networking hardware is not supported, you have a few options:
+
+- You can try to use a cellular hotspot. This is not recommended as it usually results in an unstable connection.
+- You can use a LAN adapter. It must have the `ASIX AX88772` chipset or say “compatible with Wii”. Here is a [recommended LAN adapter by uGreen](https://a.co/d/3OcSJDS).
+- Alternatively, you can buy a secondary router and continue to use the network you already have, like a mesh. Any cheap router meeting the above standards (such as the Linksys WRT54G) will work.
+
+For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the `Wii VC Launch` Aroma plugin.

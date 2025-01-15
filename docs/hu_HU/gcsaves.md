@@ -18,13 +18,13 @@ Bármilyen GameCube periféria a Family Edition Wii vagy Wii mini esetén forras
 
 ::: info
 
-If you are looking for 100% completion saves online, you can find them [here](https://gamefaqs.gamespot.com/).
+Ha 100% teljesítettségű mentéseket keresel, [itt](https://gamefaqs.gamespot.com/) megtalálhatod őket.
 
 :::
 
 ::: info
 
-If you are looking for save game exploits for booting into [Swiss](https://github.com/emukidid/swiss-gc/releases), you can find a list of them [here](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
+Ha játékméntés exploitokat keresel a [Swiss](https://github.com/emukidid/swiss-gc/releases)-be bootoláshoz, [itt](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits) találhatsz róluk egy listát.
 
 :::
 
@@ -32,8 +32,8 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 #### Letöltés
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
-2. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
+1. Csomagold ki a GCMM-et, és tedd az SD-kártyán vagy USB-meghajtón lévő `apps` mappába.
+2. Helyezd a `.gci` fájlt az SD-kártya vagy USB-meghajtó gyökerében lévő `MCBACKUP` nevű mappába.
 3. Csatlakoztasaz SD-kártyát vagy az USB-meghajtót a Wii-hoz, és indítsd el a GCMM-et a Homebrew Channel-ről.
 
 #### Visszaállítás
@@ -70,8 +70,8 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 #### Letöltés
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
-2. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
+1. Csomagold ki a GCMM-et, és tedd az SD-kártyán vagy USB-meghajtón lévő `apps` mappába.
+2. Helyezd a `.gci` fájlt az SD-kártya vagy USB-meghajtó gyökerében lévő `MCBACKUP` nevű mappába.
 3. Csatlakoztasaz SD-kártyát vagy az USB-meghajtót a Wii-hoz, és indítsd el a GCMM-et a Homebrew Channel-ről.
 
 #### Mentés
@@ -108,7 +108,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 #### Letöltés
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
+1. Csomagold ki a GCMM-et, és tedd az SD-kártyán vagy USB-meghajtón lévő `apps` mappába.
 2. Csatlakoztasaz SD-kártyát vagy az USB-meghajtót a Wii-hoz, és indítsd el a GCMM-et a Homebrew Channel-ről.
 
 #### A .raw dumpolása
@@ -123,7 +123,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-4. Amikor a dump megtörtént, nyomj tetszőleges gombot a folytatáshoz. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
+4. Amikor a dump megtörtént, nyomj tetszőleges gombot a folytatáshoz. Az `MCBACKUP` nevű mappában kell lennie az SD kártyád vagy az USB drive-od gyökerében.
 
 ## Egy emulált memória mentés visszaállítása egy fizikai memória kártyára
 
@@ -135,9 +135,9 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ### Lépések
 
-1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
+1. Ha egy Dolphin-ban készült mentést próbálsz helyreállítani, menj a `File` fülre a Dolphin-ba és válaszd a user mappa megnyitását, a GC mappa megnyitását, majd keresd meg a `.raw ` fájlt.
 
-2. If you are restoring a Nintendont emulated memory card save, navigate to the `saves` folder on the root of your SD card or USB.
+2. Ha egy Nintendont emulált memória kártya mentést próbálsz helyreállítani, akkor navigálj a `saves` mappába az SD kártyád vagy USB drive-od gyökerében.
 
 3. Csatlakoztasd a memória kártyádat a Slot A-hoz vagy a Slot B-hez.
 
@@ -164,7 +164,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 1. Csatlakoztasd mindkettő kártyát a Wii-hez.
 
-2. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
+2. A System menüből navigálj a `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube` opcióhoz.
 
    ![](/images/homebrew/gcsaves/sysmenu.jpg)
 
@@ -174,7 +174,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
    ![](/images/homebrew/gcsaves/save-data.jpg)
 
-3. Find the save you want, select it and select `Move or Copy`.
+3. Keresd meg a mentést amit szeretnél, válaszd ki majd válaszd a `Move or Copy` opciót.
 
 ::: tip
 

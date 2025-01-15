@@ -1,6 +1,6 @@
 # Homebrew-Kanal und BootMii-Installation
 
-:::details Technical Details (optional)
+:::details Technische Details (optional)
 
 BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. In most cases, installing BootMii as IOS should be fine, as long as you also install <a href="priiloader">Priiloader</a>. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
 

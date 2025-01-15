@@ -178,6 +178,6 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Klicke hier, um zum Seitenindex zurückzugelangen.](site-navigation)
 
 :::

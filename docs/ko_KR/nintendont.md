@@ -5,8 +5,8 @@ head:
       content: 5; URL=https://wiki.hacks.guide/wiki/Wii:Nintendont
 ---
 
-# Redirecting
+# 리디렉션
 
-You are being redirected to the Hacks Guide Wiki.
+해킹 가이드 위키로 리디렉션되고 있습니다.
 
-If the page doesn't refresh, click [here](https://wiki.hacks.guide/wiki/Wii:Nintendont).
+페이지가 새로 고쳐지지 않으면 [여기](https://wiki.hacks.guide/wiki/Wii:Nintendont)를 클릭합니다.
