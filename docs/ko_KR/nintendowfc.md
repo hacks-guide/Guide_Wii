@@ -202,6 +202,6 @@ WiiWare 게임에서 실행되는 Wiimmfi 패치 방법이지만, 스크립트�
 
 ::: tip
 
-[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::
