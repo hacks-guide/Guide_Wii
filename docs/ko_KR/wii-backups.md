@@ -156,6 +156,6 @@ Wii에서 USB 로더를 사용하려면 cIOS가 필요합니다. 이 작업이 �
 
 ::: tip
 
-[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::
