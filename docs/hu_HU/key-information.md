@@ -7,17 +7,17 @@ This page includes important disclaimers and information regarding the modding p
 When following the guide or using specific kinds of homebrew, there is a risk that you may brick your console - or put it into a state where it is partially or fully unusable. To prevent this, please follow the guide **exactly as written** and follow precautions when stated. Common risks for bricking are slated as below:
 
 - Following old modding tutorials or video guides unless explicitly recommended due to outdated or incorrect information
-- Restoring NAND backups from other consoles
+- Más konzolokról származó NAND biztonsági mentések visszatöltése
 - Installing cIOS packs like DARKCORP
-- Installing updates intended for another region, or region changing your console
-- Modifying system files
+- Más régióhoz való frissítések telepítése, vagy a konzol régiócseréje
+- Rendszer fájlok módosítása
 
-Please consult the [bricks guide](bricks) for more information.
+További információkért tekintsd meg [a brick Gyik](bricks)-et.
 
 ## Konzol kompatibilitás
 
-This guide works with all off-the-shelf retail Wiis, including the Wii U vWii and Wii mini.
-It does **NOT** work with development Wiis, including models:
+Ez az útmutató működik a polról megvehető kereskedelmi Wii-okkal, beleértve a Wii U vWii-t ás a Wii mini-t.
+**NEM** működik fejlesztői Wii-okkal, beleértve az alábbi modelleket:
 
 - RVT-001 (NDEV)
 - RVT-002 (zöld előlap)
@@ -79,6 +79,6 @@ Ran into an issue while following the guide, already have an issue on your modde
 
 ::: tip
 
-Continue to [Get Started](get-started)
+Folytatás a [Kezdeti lépésekkel](get-started)
 
 :::
