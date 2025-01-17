@@ -100,11 +100,11 @@ Make sure that the console is close to the computer running the exploit, ideally
 
    ![](/images/exploits/bluebomb/console-type.png)
 
-   - If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
+   - If you have selected a Wii mini you will be asked to provide your region. Ezt a Wii Menu verziójának utolsó betűje alapján lehet meghatározni (`U` az **USA**-ban és `E` a **PAL** modellek esetében).
 
    ![](/images/exploits/bluebomb/wii-mini-options.png)
 
-   - If you have selected a Wii you will be asked to provide your Wii Menu version (what you determined in step 4).
+   - Ha Wiit adtál meg, akkor a Wii Menü verziószámát kell megadnod (ezt a 4. lépésben tudtad meg).
 
    ![](/images/exploits/bluebomb/wii-options.png)
 
@@ -218,18 +218,18 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
    ![](/images/exploits/bluebomb/pico-download.png)
 
-2. Plug in your Pico W to your PC while holding down the `BOOTSEL` button. Your Pico should now show up as a drive on your PC.
+2. Csatlakoztasd a Pico W-t a számítógépedhez, miközben lenyomva tartod a `BOOTSEL` gombot. A Pico W-dnek mostantól meghajtóként kell megjelennie a számítógépeden.
 
    ![](/images/exploits/bluebomb/pico-button.jpg)
    ![](/images/exploits/bluebomb/pico-drive.png)
 
-3. Unzip the downloaded archive and copy the file which matches your Wii or Wii mini to the drive.
+3. Csomagoldki a letöltött archívumot, és másold a meghajtóra a Wii vagy Wii mini a Wii-nek megfelelő fájlt.
 
-   - If you have a European Wii running version 4.3, you would copy bluebomb_WII_SM4_3E.uf2, or if you have a European Wii Mini, you would copy bluebomb_MINI_SM_PAL.uf2, etc...
+   - Ha egy európai Wii 4.3-as verzióval rendelkezel, akkor a bluebomb_WII_SM4_3E.uf2 fájlt másold, vagy ha egy európai Wii Minivel rendelkezik, akkor a bluebomb_MINI_SM_PAL.uf2 fájlt, stb...
 
    ![](/images/exploits/bluebomb/pico-files.png)
 
-4. The drive should disconnect and begin to flash a green LED. This means your Pico W is ready - you may unplug the device from your PC.
+4. A meghajtónak le kell kapcsolódnia, és egy zöld LED-nek villognia kell. Ez azt jelenti, hogy a Pico W készen áll - kihúzhatod az eszközt a számítógépedből.
 
    ![](/images/exploits/bluebomb/pico-ready.jpg)
 
