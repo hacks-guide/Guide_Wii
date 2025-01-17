@@ -1,14 +1,14 @@
 # Alapvető információk
 
-This page includes important disclaimers and information regarding the modding process that you should know before starting.
+Ez az oldal fontos kizáró nyilatkozatokat és a modding folyamatra vonatkozó információkat tartalmaz, amelyeket tudnod kell, mielőtt elkezdenéd.
 
-## Bricks and Common Risks
+## Brick és gyakori kockázatok
 
-When following the guide or using specific kinds of homebrew, there is a risk that you may brick your console - or put it into a state where it is partially or fully unusable. To prevent this, please follow the guide **exactly as written** and follow precautions when stated. Common risks for bricking are slated as below:
+Ha követed az útmutatót, vagy bizonyos típusú homebrew-t használsz, fennáll a veszélye, hogy brickeled a konzolodat - vagy olyan állapotba hozod, amelyben részben vagy teljesen használhatatlanná válik. Ennek elkerülése érdekében kérjük, **pontosan kövesd az útmutatót**, és kövesd az óvintézkedéseket, amikor azok szerepelnek. Gyakori brickelési kockázatok a következők:
 
-- Following old modding tutorials or video guides unless explicitly recommended due to outdated or incorrect information
+- Régi modding oktatóanyagok vagy videós útmutatók követése, az elavult vagy helytelen információk miatt kifejezetten nem ajánlott, kivéve, ha kifejezetten ajánlott
 - Más konzolokról származó NAND biztonsági mentések visszatöltése
-- Installing cIOS packs like DARKCORP
+- A DARKCORP-hoz hasonló cIOS csomagok telepítése
 - Más régióhoz való frissítések telepítése, vagy a konzol régiócseréje
 - Rendszer fájlok módosítása
 
@@ -43,9 +43,9 @@ Be especially cautious with IOS to avoid bricking, since they are specifically d
 
 :::: details Mi van akkor, ha Wii mini-m van?
 
-Wii Mini is supported and has compatibility with the most existing homebrew.
-Missing Wii features can be restored. A LAN adapter and USB hub are recommended.
-If there are multiple versions of homebrew, make sure you are using the one designed for Wii mini.
+A Wii Mini támogatott, és kompatibilis a legtöbb létező homebrew-val.
+A hiányzó Wii funkciók helyreállíthatók. LAN adapter és USB hub ajánlott.
+Ha többféle homebrew verzió létezik, győződj meg róla, hogy a Wii minihez tervezettet használod.
 Be especially cautious with IOS to avoid bricking, since they are specifically designed for Wii mini.
 
 ::::
