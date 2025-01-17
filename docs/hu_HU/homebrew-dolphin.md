@@ -1,24 +1,24 @@
 # A Homebrew Channel telepítése Dolphin Emulátorra
 
-On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily installed through Dolphin itself. Ha ez megtörtént, a Homebrew Channel is telepíthető, bár nem ugyanúgy, mint a fizikai Wii esetében.
+A Dolphin Emulator `5.0-4588`-as vagy újabb verziójánál a Wii menü egyszerűen telepíthető a Dolphinon keresztül. Ha ez megtörtént, a Homebrew Channel is telepíthető, bár nem ugyanúgy, mint a fizikai Wii esetében.
 
 ## Követelmények
 
 - Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 - [Dolphin Emulator](https://dolphin-emu.org/download/) V`5.0-4588` vagy későbbi
-- Az[Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases) legutolsó verziója
+- Az [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases) legutolsó verziója
 
 ## Lépések
 
-1. If you have not already done so, install the Wii Menu on Dolphin Emulator by going to `Tools > Perform System Update`.
+1. Ha még nem tetted meg, telepítsd a Wii menüt a Dolphin Emulatorra a `Tools > Perform System Update` menüpont alatt.
 
    ![](/images/homebrew-dolphin/system-update.png)
 
-2. Download `Open_HBC_(version)_LULZ.wad` from the page linked above.
+2. Töltsd le az `Open_HBC_(version)_LULZ.wad`-ot a fenti linkről.
 
 3. Indítsd el a Dolphin Emulátort.
 
-4. Select `Tools > Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
+4. Válaszd a `Tools > Install WAD` opciót és válaszd ki az `Open_HBC_(version)_LULZ.wad` fájl, amit letöltöttél.
 
    ![](/images/homebrew-dolphin/ohbc-file.png)
 
