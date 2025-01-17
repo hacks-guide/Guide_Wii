@@ -169,7 +169,7 @@ Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploitot h
 
 ::: info
 
-Make sure that the microcontroller is close to the computer running the exploit, ideally it should be less than 3 feet.
+Az optimális működés érdekében ajánlott a mikrokonrollert és a telepítőt futtató számítógépet legfeljebb 1 m-es távolságban tartani.
 
 :::
 
@@ -181,7 +181,7 @@ Make sure that the microcontroller is close to the computer running the exploit,
 
 ::: info
 
-A normal Raspberry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
+Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KELL lennie. Továbbá, egy ESP32 csak BLE vezérlővel nem fog működni.
 
 :::
 
@@ -212,9 +212,9 @@ A normal Raspberry Pi Pico will not work. It MUST to be the wireless model. Addi
 
 #### Raspberry Pi Pico W
 
-1. Download the latest [Pre-Compiled Binaries](https://github.com/GaryOderNichts/bluebomb_micro/releases) from the releases page, and extract it to your PC.
+1. Töltsd le a legújabb [előre lefordított binárisokat](https://github.com/GaryOderNichts/bluebomb_micro/releases) a Release oldalról, és csomagold ki a számítógépedre.
 
-   - Select the appropriate binaries for your device. `bluebomb_micro_pico2_w_version` is for the Pico 2 W, while `bluebomb_micro_pico_w_version` is for the Pico 1 W.
+   - Válaszd ki az eszközödnek megfelelő binárisokat. `bluebomb_micro_pico2_w_version` a Pico 2 W, míg `bluebomb_micro_pico_w_version` a Pico 1 W készülékhez készült.
 
    ![](/images/exploits/bluebomb/pico-download.png)
 
@@ -235,10 +235,10 @@ A normal Raspberry Pi Pico will not work. It MUST to be the wireless model. Addi
 
 #### ESP32
 
-1. Set up the latest [ESP IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html).
-2. Build the binary [from source](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#building-from-source).
-3. [Flash the binary](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#flashing) to your ESP32.
-4. Your device is now ready. You may unplug the device from your PC.
+1. A legújabb [ESP IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html) beállítása.
+2. Fordítsd le a bináris változatot [a forrásból](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#building-from-source).
+3. [Flasheld a bináris állományt](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#flashing) az ESP32-re.
+4. Az eszközöd most már készen áll. Kihúzhatod az eszközt a PC-dből.
 
 ### Az exploit végrehajtása
 
