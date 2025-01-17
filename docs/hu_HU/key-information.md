@@ -1,4 +1,4 @@
-# Key Information
+# Alapvető információk
 
 This page includes important disclaimers and information regarding the modding process that you should know before starting.
 
