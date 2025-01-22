@@ -36,7 +36,7 @@ Exercise caution when modifying region data and follow guides carefully to avoid
 
 Wii mode on Wii U (called vWii in the homebrew community) is fully supported but it is recommended to setup an Aroma environment.
 Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew).
-Storage should be externally powered since WiiU USB ports are underpowered.
+Storage should be externally powered since Wii U USB ports are underpowered.
 If there are multiple versions of homebrew, make sure you are using the version designed for vWii.
 Be especially cautious with IOS to avoid bricking, since they are specifically designed for vWii.
 
@@ -67,7 +67,7 @@ The Wii is an aging console, and as such, may have difficulties connecting to mo
 
 Its network hardware is based on 802.11g (retroactively named WiFi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use WiFi with your Wii.
 
-For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the [Wii VC Launch](https://wii.hacks.guide/vwii-homebrew-channel.html) Aroma plugin.
+For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch) Aroma plugin.
 
 Please consult [the network FAQ](faq#networking-faq) for more information.
 
