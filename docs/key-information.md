@@ -16,7 +16,7 @@ Please consult the [bricks guide](bricks) for more information.
 
 ## Console Compatibility
 
-This guide works with all off-the-shelf retail Wiis, including the Wii U vWii and Wii mini.
+This guide works with all off-the-shelf retail Wiis, including the Wii U (vWii) and Wii mini.
 It does **NOT** work with development Wiis, including models:
 
 + RVT-001 (NDEV)
@@ -27,7 +27,7 @@ Important notes relating to specific Wiis are below.
 
 :::: details What if I own a Korean Wii?
 
-A Korean Wii is fully supported, and can also be region changed.
+A Korean Wii is fully supported, and can also be region-changed.
 Exercise caution when modifying region data and follow guides carefully to avoid a brick.
 
 ::::
@@ -35,7 +35,8 @@ Exercise caution when modifying region data and follow guides carefully to avoid
 :::: details What if I own a Wii U (vWii)?
 
 Wii mode on Wii U (called vWii in the homebrew community) is fully supported but it is recommended to setup an Aroma environment.
-Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew). A USB hub is recommended.
+Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew).
+Storage should be externally powered since WiiU USB ports are underpowered.
 If there are multiple versions of homebrew, make sure you are using the version designed for vWii.
 Be especially cautious with IOS to avoid bricking, since they are specifically designed for vWii.
 
@@ -66,13 +67,13 @@ The Wii is an aging console, and as such, may have difficulties connecting to mo
 
 Its network hardware is based on 802.11g (retroactively named WiFi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use WiFi with your Wii.
 
-For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the `Wii VC Launch` Aroma plugin.
+For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the [Wii VC Launch](https://wii.hacks.guide/vwii-homebrew-channel.html) Aroma plugin.
 
 Please consult [the network FAQ](faq#networking-faq) for more information.
 
 ## Getting Help
 
-Ran into an issue while following the guide, already have an issue on your modded Wii, or just plain need answers?
+Ran into an issue while following the guide, already have an issue on your modded Wii, or just a plain need for answers?
 
 + If your question isn't already answered on this page, it may be answered in the [FAQs](faq) section of the guide.
 + If your question still isn't answered and you need support, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel.
