@@ -134,6 +134,7 @@ The Wii's wireless networking hardware supports the maximum standard of 802.11g 
 
 + APs enforcing WPA enterprise encryption, or WPA3 only
 + APs not backwards compatible with WiFi 3, or broadcasting only on the 5 GHz band
++ APs not supporting legacy 802.11b rates
 
 ISPs known to provide routers incompatible with these settings:
 
