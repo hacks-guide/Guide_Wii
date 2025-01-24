@@ -36,7 +36,7 @@ Exercise caution when modifying region data and follow guides carefully to avoid
 
 Wii mode on Wii U (called vWii in the homebrew community) is fully supported but it is recommended to setup an Aroma environment.
 Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew).
-Storage devices will need additional power (either using a Y-cable or an external power source), as the Wii U's USB ports are underpowered.
+Storage devices will need additional power (either using a Y-cable or an external power source), as the Wii U's USB ports do not provide sufficient power on their own.
 If there are multiple versions of homebrew, make sure you are using the version designed for vWii.
 Be especially cautious with IOS to avoid bricking, since they are specifically designed for vWii.
 
