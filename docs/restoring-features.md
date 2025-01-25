@@ -24,13 +24,12 @@ System Channel Restorer is an application which allows you to (re)install system
         + Photo Channel 1.1 (Recommended)
         + Internet Channel (Optional)
     + Wii mini:
-        + Mii Channel (Recommended)
-        + EULA (Optional)
-        + Region Select (Optional)
+        + EULA (Recommended)
+        + Region Select (Recommended)
+        + Mii Channel (Optional)
         + Wii Shop Channel (Optional)
         + Photo Channel 1.1 (Optional)
         + Internet Channel (Optional)
-
 
     ![](/images/system-channel-restorer/menu.png)
 
