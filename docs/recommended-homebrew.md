@@ -46,10 +46,22 @@ Homebrew that has the ability to make permanant changes to your Wii are highligh
 + [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - A modified and updated version of WiiMC. Turns your Wii into a fully fledged media center, with the ability to listen to music, watch videos, play DVDs, and more.
 + [Schism Tracker](https://oscwii.org/library/app/schismtracker) - A editor and player for tracked music (IT, XM, S3M, MOD, etc.). You can find music to try out [here](https://modarchive.org/).
 
+## Wii: Next Steps
+
 ::: tip
 
-[Continue to WiiConnect24](wiiconnect24)
+Continue to [WiiConnect24](wiiconnect24)
 
 Although WiiConnect24 was discontinued by Nintendo in June 2013, there is a fan-hosted revival service that restores and expands its functionality.
+
+:::
+
+## vWii & Wii mini: Next Steps
+
+::: tip
+
+Continue to [Restoring Features](restoring-features)
+
+Now that your main setup is complete, you can install System Channel Restorer, an application which allows you to (re)install system channels on your console, and restore missing Wii features.
 
 :::

@@ -88,9 +88,9 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 
 ::: tip
 
-Continue to [Restoring Features](system-channel-restorer)
+Continue to [Open Shop Channel Installation](osc)
 
-Now that your main setup is complete, you can install System Channel Restorer, an application which allows you to (re)install system channels on your console.
+Now that your main setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 
 :::
 

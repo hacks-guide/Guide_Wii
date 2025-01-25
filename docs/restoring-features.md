@@ -16,15 +16,25 @@ System Channel Restorer is an application which allows you to (re)install system
 
 ### Section II - Installing Channels
 
-1. Using the D-Pad, scroll through the channels listed, and press `A` to select the channels you'd like to install.
+1. Using the D-Pad, scroll through the channels listed, and press `A` to select the channels according to your console:
 
-    ::: warning
+    + vWii:
+        + EULA
+        + Mii Channel (Recommended)
+        + Photo Channel 1.1 (Recommended)
+        + Internet Channel (Optional)
+    + Wii mini:
+        + Mii Channel (Recommended)
+        + EULA (Optional)
+        + Region Select (Optional)
+        + Wii Shop Channel (Optional)
+        + Photo Channel 1.1 (Optional)
+        + Internet Channel (Optional)
 
-    For vWii, ensure you select `EULA`, as this is needed to use WiiConnect24.
-
-    :::
 
     ![](/images/system-channel-restorer/menu.png)
+
+
 
 1. Once you have selected all the channels you wish to install, press + to begin the installation.
 
@@ -34,9 +44,9 @@ System Channel Restorer is an application which allows you to (re)install system
 
 ::: tip
 
-Continue to [Open Shop Channel Installation](osc)
+Continue to [WiiConnect24](wiiconnect24)
 
-Now that your main setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+Although WiiConnect24 was discontinued by Nintendo in June 2013, there is a fan-hosted revival service that restores and expands its functionality.
 
 :::
 
