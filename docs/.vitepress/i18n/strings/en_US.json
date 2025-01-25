@@ -10,6 +10,7 @@
     "returnToTopLabel": "Return to top",
 
     "guide": "Guide",
+    "extras": "Extras",
     "other": "Other",
     "pages": {
         "bootmii": "BootMii Backup",
@@ -31,6 +32,7 @@
         "hbc": "Homebrew Channel and BootMii Installation",
         "hbc-mini": "Homebrew Channel - for Wii mini only",
         "homebrew-dolphin": "Homebrew Channel - Dolphin Emulator",
+        "key-information": "Key Information",
         "legacy-exploits": "Legacy Exploits",
         "letterbomb": "LetterBomb",
         "modmii": "ModMii",
@@ -51,7 +53,7 @@
         "vwii-homebrew-channel-no-wiiu-mods": "Installing the Homebrew Channel",
         "wiiconnect24": "WiiConnect24",
         "wiigsc": "Creating Wii Game Shortcuts",
-        "wiimmfi": "Wiimmfi",
+        "nintendowfc": "Nintendo Wi-Fi Connection",
         "wii-backups": "Managing Wii Backups",
         "wii-loaders": "Wii Backup Loaders",
         "wii-factory-reset": "Restoring the Wii NAND to Stock",

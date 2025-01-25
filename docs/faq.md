@@ -91,7 +91,7 @@ When considering buying or using an SD card or USB device, it is worth consideri
 
 ::: danger
 
-SD cards 2TB or larger currently do not exist, anyone attempting to sell you one is trying to rip you off.
+SD cards larger than 2TB currently do not exist, anyone attempting to sell you one is trying to rip you off.
 
 :::
 
@@ -108,7 +108,11 @@ Recommended brands:
 
 When buying USB hard drives, there are only three existing present-day HDD manufacturers: Western Digital, Seagate, and Toshiba. Any and all other hard drive companies are defunct and have either went bankrupt, or were absorbed by the three aformentioned companies. With that said, if you have an extra hard drive lying around made by another company, it should still work! Hard drive technology has remained largely the same within the past 10 or so years. Just make sure to check the S.M.A.R.T data to ensure that the drive isn't failing before you throw all of your data on there.
 
-For hard drive sizing, 2.5 inch should work fine running off of USB power alone on a Wii; 3.5 inch consumes much more power and will almost always need an external power adapter. Make sure to plan for this when determining what you want to do with an external drive.
+For hard drive sizing, 2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. Make sure to plan for this when determining what you want to do with an external drive.
+
+For Wii U users, it is highly recommended to have a hard drive that takes external power, or to use a powered USB hub and/or Y cable for 2.5 inch drives.
+
+For Wii mini users, it is recommended to have an externally powered USB hub in order to have external storage, internet adapters, and other peripherals connected simultaneously. You may also want to use a Y cable for drive power.
 
 As for your choices in shopping, this largely comes down to three different scenarios:
 
@@ -123,3 +127,24 @@ As for your choices in shopping, this largely comes down to three different scen
 For the purpose of using a drive with a Wii, external SSDs are often more expensive than conventional hard drives for no visible gain in speed on a Wii (the console only supports up to USB 2.0 data speeds). If you would like to buy one or already have one lying around, it's an option, but generally it's recommended to just go for a hard drive if you don't already have one.
 
 :::
+
+## Networking FAQ
+
+The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named WiFi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points (APs):
+
++ APs enforcing WPA enterprise encryption, or WPA3 only
++ APs not backwards compatible with WiFi 3, or broadcasting only on the 5 GHz band
+
+ISPs known to provide routers incompatible with these settings:
+
++ Xfinity
++ Spectrum
++ Cox
+
+If your ISP will not let you change these settings, or your current networking hardware is not supported, you have a few options:
+
++ You can try to use a cellular hotspot. This is not recommended as it usually results in an unstable connection.
++ You can use a LAN adapter. It must have the `ASIX AX88772` chipset or say “compatible with Wii”. Here is a [recommended LAN adapter by uGreen](https://a.co/d/3OcSJDS).
++ Alternatively, you can buy a secondary router and continue to use the network you already have, like a mesh. Any cheap router meeting the above standards (such as the Linksys WRT54G) will work.
+
+For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the `Wii VC Launch` Aroma plugin.
