@@ -19,17 +19,29 @@ System Channel Restorer is an application which allows you to (re)install system
 1. Using the D-Pad, scroll through the channels listed, and press `A` to select the channels according to your console:
 
     + vWii:
-        + EULA
+        + EULA (Required)
         + Mii Channel (Recommended)
-        + Photo Channel 1.1 (Recommended)
+        + Photo Channel (Recommended)
         + Internet Channel (Optional)
     + Wii mini:
-        + EULA (Recommended)
-        + Region Select (Recommended)
-        + Mii Channel (Optional)
-        + Wii Shop Channel (Optional)
-        + Photo Channel 1.1 (Optional)
+        + EULA (Required)
+        + Region Select (Required)
+        + Wii Shop Channel (Required)
+        + Mii Channel (Recommended)
+        + Photo Channel (Optional)
         + Internet Channel (Optional)
+
+        ::: info
+
+        If your SD Card has more than 2GB of capacity, you will need to choose Photo Channel 1.1 instead of 1.0
+
+        :::
+
+        ::: warning
+
+        If you don't install the required channels, some channels and WiiWare games may bring you to a loop where the console infinitely tries to update.
+
+        :::
 
     ![](/images/system-channel-restorer/menu.png)
 
