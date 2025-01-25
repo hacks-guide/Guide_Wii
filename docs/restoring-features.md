@@ -33,7 +33,7 @@ System Channel Restorer is an application which allows you to (re)install system
 
         ::: info
 
-        If your SD Card has more than 2GB of capacity, you will need to choose Photo Channel 1.1 instead of 1.0
+        If your SD Card has more than 2GB of capacity, you will need to choose Photo Channel 1.1 instead of 1.0. Note that installation of Photo Channel 1.1 also installs IOS61 on vWii.
 
         :::
 
