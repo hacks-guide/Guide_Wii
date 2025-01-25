@@ -139,6 +139,7 @@ Wii의 무선 네트워크 하드웨어는 2.4GHz 대역에서 최대 표준인 
 
 - WPA 엔터프라이즈 암호화 또는 WPA3만 적용하는 AP
 - WiFi 3와 이전 버전과 호환되지 않거나 5GHz 대역에서만 브로드캐스팅하는 AP
+- APs not supporting legacy 802.11b or 802.11g rates (i.e. APs supporting only 802.11n)
 
 다음 설정과 호환되지 않는 라우터를 제공하는 것으로 알려진 ISP:
 
