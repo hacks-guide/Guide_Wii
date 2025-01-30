@@ -16,7 +16,7 @@
 
 ## 콘솔 호환성
 
-이 가이드는 Wii U vWii, Wii 미니를 포함한 모든 시중 판매용 Wii에 적용됩니다.
+This guide works with all off-the-shelf retail Wiis, including Wii mini and the Wii U's Wii mode.
 개발용 Wii (모델 포함)에서는 **작동하지 않습니다.**
 
 - RVT-001 (NDEV)
@@ -35,7 +35,8 @@
 :::: details Wii U (vWii)를 가지고 있다면?
 
 Wii U의 Wii 모드 (홈브류 커뮤니티에서는 vWii라고 함)는 완벽히 지원되지만 아로마 환경을 설정하는 것이 좋습니다.
-누락된 Wii 기능을 복구할 수 있습니다. 현재 거의 모든 홈브류가 지원됩니다. (게임큐브 홈브류 제외) USB 허브를 권장합니다.
+누락된 Wii 기능을 복구할 수 있습니다. 현재 거의 모든 홈브류가 지원됩니다. (게임큐브 홈브류 제외)
+Storage devices will need additional power (either using a Y-cable or an external power source), as the Wii U's USB ports do not provide sufficient power on their own.
 홈브류에 여러 버전이 있는 경우, vWii용으로 설계된 버전을 사용하고 있는지 확인합니다.
 특히 iOS는 vWii용으로 특별히 설계되었으므로, 벽돌 현상이 발생하지 않도록 주의합니다.
 
@@ -66,7 +67,7 @@ Wii는 오래된 콘솔이기 때문에 최신 무선 네트워크에 연결하�
 
 네트워크 하드웨어는 2.4GHz 대역에서 작동하는 802.11g (이전 명칭은 WiFi 3)를 기반으로 합니다. 또한 최대 WPA2-PSK (AES) 개인 네트워크 암호화도 지원합니다. Wii에서 WiFi를 사용하려면 네트워크가 이러한 표준을 지원하는지 확인해야 합니다.
 
-Wii U의 경우, vWii는 Wii U의 기본 설정에서 설정된 인터넷 설정을 사용하지만, `Wii VC 실행` 아로마 플러그인을 사용하여 선택적으로 분리할 수 있습니다.
+For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch) Aroma plugin.
 
 자세한 내용은 [네트워크 자주 묻는 질문](faq#networking-faq)를 참조합니다.
 
