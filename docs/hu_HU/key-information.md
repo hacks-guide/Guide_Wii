@@ -16,7 +16,7 @@ További információkért tekintsd meg [a brick Gyik](bricks)-et.
 
 ## Konzol kompatibilitás
 
-Ez az útmutató működik a polról megvehető kereskedelmi Wii-okkal, beleértve a Wii U vWii-t ás a Wii mini-t.
+This guide works with all off-the-shelf retail Wiis, including Wii mini and the Wii U's Wii mode.
 **NEM** működik fejlesztői Wii-okkal, beleértve az alábbi modelleket:
 
 - RVT-001 (NDEV)
@@ -35,7 +35,8 @@ Exercise caution when modifying region data and follow guides carefully to avoid
 :::: details Mi van akkor, ha Wii U-m (vWii) van?
 
 Wii mode on Wii U (called vWii in the homebrew community) is fully supported but it is recommended to setup an Aroma environment.
-Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew). A USB hub is recommended.
+Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew).
+Storage devices will need additional power (either using a Y-cable or an external power source), as the Wii U's USB ports do not provide sufficient power on their own.
 If there are multiple versions of homebrew, make sure you are using the version designed for vWii.
 Be especially cautious with IOS to avoid bricking, since they are specifically designed for vWii.
 
@@ -66,7 +67,7 @@ The Wii is an aging console, and as such, may have difficulties connecting to mo
 
 Its network hardware is based on 802.11g (retroactively named WiFi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use WiFi with your Wii.
 
-For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the `Wii VC Launch` Aroma plugin.
+For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch) Aroma plugin.
 
 Please consult [the network FAQ](faq#networking-faq) for more information.
 
