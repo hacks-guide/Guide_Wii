@@ -10,7 +10,8 @@ BootMii can be installed in two ways: directly to a part of the Wii bootloader c
 
 ::: warning
 
-If you do not have an SD card, you cannot install nor use BootMii, regardless of whether you install it as IOS or boot2.
+If you do not have an SD card, you cannot install nor use BootMii, regardless of whether you install it as IOS or boot2. This also means you cannot install bootmii on the Wii mini unless you have soldered an SD slot onto it.
+
 You can always [install it later](hackmii).
 
 :::
@@ -34,6 +35,12 @@ You can always [install it later](hackmii).
 1. Once it is completed, select `Continue`.
 
     ![](/images/hackmii/hbc_install_ok.png)
+
+    ::: info
+
+    If you are on Wii mini, skip to step 10.
+
+    :::
 
 1. Select `Back`, then select `BootMii`.
 
@@ -80,6 +87,8 @@ Note: When installing homebrew applications on your SD Card or USB drive, your f
 
 `AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
 
+### Wii: Next Steps
+
 ::: tip
 
 [Continue to making a NAND Backup using BootMii](bootmii)
@@ -91,5 +100,16 @@ Making a NAND backup at this point is highly recommended, as they can be used to
 ::: tip
 
 Tip: If a Wii has BootMii installed as boot2, your disc drive will flash very briefly after the immediate flash that happens when you press the POWER Button.
+
+:::
+
+
+### Wii mini: Next Steps
+
+::: tip
+
+[Continue to making a NAND Backup using RealWnd](wnd-mini)
+
+Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
 
 :::
