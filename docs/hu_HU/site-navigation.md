@@ -2,32 +2,32 @@
 
 ::: tip
 
-**Site**
+**Weboldal**
 
-- [Home](/)
-- [Get Started](get-started)
-- [FAQ](faq)
-- [Donations](donations)
+- [Kezdőoldal](/)
+- [Kezdeti lépések](get-started)
+- [GYIK](faq)
+- [Adományok](donations)
 
 :::
 
 ::: info
 
-**Wii Online Services**
+**Wii Online szolgáltatások**
 
-- [Nintendo Wi-Fi Connection](wiimmfi)
-- [Setting RTC Time](wiiconnect24#updating-rtc-clock)
+- [Nintendo Wi-Fi Connection](nintendowfc)
+- [Az RTC Time beállítása](wiiconnect24#updating-rtc-clock)
 - [WiiConnect24](wiiconnect24)
 
 :::
 
 ::: info
 
-**Modding 101 - Exploits**
+**Moddolás 101 - Exploit-ok**
 
 - [BlueBomb](bluebomb)
 - [FlashHax](flashhax)
-- [Legacy Exploits](legacy-exploits)
+- [Legacy Exploit-ok](legacy-exploits)
 - [LetterBomb](letterbomb)
 - [str2hax](str2hax)
 - [Wilbrand](wilbrand)
@@ -36,21 +36,21 @@
 
 ::: info
 
-**Modding 101 - Wii Essentials**
+**Moddolás 101 - Wii alapismeretek**
 
-- [BootMii Backup](bootmii)
-- [BootMii Recovery](bootmiirecover)
-- [Brick Overview](bricks)
-- [Brick Prevention](bricks#brick-prevention)
+- [BootMii mentés](bootmii)
+- [BootMii helyreállítás](bootmiirecover)
+- [Brick áttekintés](bricks)
+- [Brick megelőzés](bricks#brick-prevention)
 - [cIOS](cios)
 - [Homebrew Channel](hbc)
 - [ModMii](modmii)
 - [Open Shop Channel](osc)
 - [Priiloader](priiloader)
-- [Recovery mode](recovery-mode)
-- [Relaunching the HackMii Installer](hackmii)
-- [Restoring The Wii NAND to Stock](wii-factory-reset)
-- [Updating Wii Menu to v4.3](update)
+- [Recovery mód](recovery-mode)
+- [A HackMii Installer újraindítása](hackmii)
+- [A Wii NAND gyárira visszaállítása](wii-factory-reset)
+- [A Wii Menu frissítése v4.3-ra](update)
 - [YAWM ModMii Edition](yawmme)
 
 :::
@@ -59,18 +59,18 @@
 
 **Homebrew**
 
-- [Creating Wii Game Shortcuts](wiigsc)
-- [How to dump Channels (WADs)](dump-wads)
-- [How to dump GameCube/Wii Games](dump-games)
-- [Managing GameCube Backups](gc-backups)
-- [Managing GameCube Save Files](gcsaves)
-- [Managing Wii Backups](wii-backups)
-- [Priiloader Usage](priiloader-usage)
-- [Recommended Homebrew](recommended-homebrew)
-- [Transferring Save Games](transfer-saves)
-- [Wii Backup Loaders](wii-loaders)
-- [Using SysCheck](syscheck)
-- [Wii Themes Guide](themes)
+- [Wii játék shortcut-ok létrehozása](wiigsc)
+- [Hogyan dumpoljak Channel-eket (WAD-okat)](dump-wads)
+- [Hogyan dumpolj GameCube/Wii játékokat](dump-games)
+- [A GameCube mentések kezelése](gc-backups)
+- [GameCube mentés fájlok kezelése](gcsaves)
+- [A Wii mentések kezelése](wii-backups)
+- [Priiloader használat](priiloader-usage)
+- [Ajánlott Homebrew](recommended-homebrew)
+- [Játék mentések átvitele](transfer-saves)
+- [Wii Backup Loader-ek](wii-loaders)
+- [A SysCheck használata](syscheck)
+- [Wii témák útmutató](themes)
 
 :::
 
@@ -78,10 +78,10 @@
 
 **vWii**
 
-- [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
+- [A Homebrew Channel telepítése vWii-re](vwii-homebrew-channel)
 - [Wii U NAND Dumper](wiiu-nand-dumper)
-- [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
-- [Installing cIOS on the vWii](cios-vwii)
+- [A Homebrew Channel telepítése a vWii-re a Wii U oldal moddolása nélkül](vwii-homebrew-channel-no-wiiu-mods)
+- [A cIOS telepítése vWii-ra](cios-vwii)
 
 :::
 
@@ -89,8 +89,8 @@
 
 **Wii mini**
 
-- [Installing the Homebrew Channel on the Wii mini](hbc-mini)
-- [Installing cIOS on the Wii mini](cios-mini)
+- [A Homebrew Channel telepítése Wii mini-re](hbc-mini)
+- [A cIOS telepítése Wii mini](cios-mini)-re
 - [Wii mini NAND Dumper](wnd-mini)
 
 :::

@@ -35,7 +35,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Dieser Buchstabe entspricht deiner System-Menü-Region, die du für die nächsten Schritte kennen musst.
 
    ![](/images/wii/SystemMenuVersion.png)
 
@@ -114,7 +114,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Dieser Buchstabe entspricht deiner System-Menü-Region, die du für die nächsten Schritte kennen musst.
 
    ![](/images/wii/SystemMenuVersion.png)
 

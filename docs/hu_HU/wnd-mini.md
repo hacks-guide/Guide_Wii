@@ -1,6 +1,6 @@
 # Wii U NAND Dumper
 
-Ez az útmutató bemutatja, hogy hogyan dumpolhatod a Wii mini NAND-ját, a nélkül, hogy forrasztanod kellene rá egy SD kártya foglalatot. This was made possible by [nitr8](https://gbatemp.net/members/nitr8.72581/).
+Ez az útmutató bemutatja, hogy hogyan dumpolhatod a Wii mini NAND-ját, a nélkül, hogy forrasztanod kellene rá egy SD kártya foglalatot. Ezt [nitr8](https://gbatemp.net/members/nitr8.72581/) miatt lehetséges.
 
 ::: info
 
@@ -24,7 +24,7 @@ Nincs lehetőséged a NAND mentésed visszaálltására ezen a módon hardmod n�
 
 - Egy Wii
 - Egy USB drive
-- [Simple IOS Patcher for Wii mini](https://oscwii.org/library/app/SimpleIOSPatcher_Mini)
+- [Simple IOS Patcher for Wii mini](http://www.mediafire.com/file/7k141mu1whqzwdp/SimpleIOSPatcher_Mini.zip/file)
 - [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
 - [Xyzzy Mod](https://oscwii.org/library/app/xyzzy-mod)
 
@@ -91,7 +91,7 @@ Ha Wii játékokat online játszanál a dolphin-on belülről, a Wii mini NAND-o
 
 Folytatás az [Open Shop Channel telepítés](osc)-ével
 
-Most, hogy a konzol megfelelő védelemmel rendelkezik, telepítheted az Open Shop Channelt, ami a nemhivatalos programok megbízható tárháza és hozzáférhető mind egy Wiiről vagy egy számítógépről.
+Most, hogy a konzol megfelelő védelemmel rendelkezik, telepítheted az Open Shop Channelt, ami a homebrew programok megbízható tárháza és hozzáférhető mind egy Wiiről vagy egy számítógépről.
 
 :::
 
