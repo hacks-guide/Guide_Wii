@@ -83,7 +83,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 ### Requirements
 
 * A computer running Windows, macOS or Linux
-* An SD card formatted to FAT32/MS-DOS ([formatting guide here](https://wiki.hacks.guide/wiki/Formatting_an_SD_card))
+* An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 * A Wii on version 3.0 or newer
 * [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 * [HackMii Installer v1.2](https://bootmii.org/download/)
