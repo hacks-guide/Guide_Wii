@@ -24,7 +24,7 @@ SD 카드 슬롯이 납땜된 Wii 또는 Wii 미니가 있는 경우 [이 자습
 
 - Wii
 - USB 드라이브
-- [Wii 미니용 Simple IOS Patcher](https://oscwii.org/library/app/SimpleIOSPatcher_Mini)
+- [Simple IOS Patcher for Wii mini](http://www.mediafire.com/file/7k141mu1whqzwdp/SimpleIOSPatcher_Mini.zip/file)
 - [Wii 미니용 RealWnD](https://oscwii.org/library/app/RealWnD_Mini)
 - [Xyzzy 개조](https://oscwii.org/library/app/xyzzy-mod)
 
