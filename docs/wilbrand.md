@@ -18,7 +18,7 @@ Wilbrand Web is recommended for its ease of use.
 
 ### Requirements
 
-* An SD card formatted to FAT32/MS-DOS ([formatting guide here](https://wiki.hacks.guide/wiki/Formatting_an_SD_card))
+* An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 * A Wii on version 3.0 or newer
 
 ::: warning
