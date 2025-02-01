@@ -1,5 +1,10 @@
 # LetterBomb
 
+::: warning
+LetterBomb has been obsoleted by [Wilbrand](wilbrand).
+
+:::
+
 LetterBomb is an exploit for the Wii that is triggered using the Wii Message Board.
 
 ::: info
