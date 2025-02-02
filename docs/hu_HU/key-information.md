@@ -16,19 +16,19 @@ További információkért tekintsd meg [a brick Gyik](bricks)-et.
 
 ## Konzol kompatibilitás
 
-This guide works with all off-the-shelf retail Wiis, including Wii mini and the Wii U's Wii mode.
+Ez az útmutató működik a polcról megvehető kereskedelmi Wii-okkal, beleértve a Wii U Wii módját és a Wii mini-t.
 **NEM** működik fejlesztői Wii-okkal, beleértve az alábbi modelleket:
 
 - RVT-001 (NDEV)
 - RVT-002 (zöld előlap)
 - RVT-005 (piros előlap)
 
-Important notes relating to specific Wiis are below.
+Fontods megjegyzések a különböző Wii-okhoz alább.
 
-:::: details What if I own a Korean Wii?
+:::: details Mi van akkor, ha koreai Wii-om van?
 
-A Korean Wii is fully supported, and can also be region changed.
-Exercise caution when modifying region data and follow guides carefully to avoid a brick.
+A koreai Wii teljesen támogatott és régió is módosítható rajta.
+Óvatosan csináld, ha régió adatot módosítasz és kövesd az útmutatókat figyelmesen, hogy elkerüld a brickelődést.
 
 ::::
 
@@ -47,7 +47,8 @@ Be especially cautious with IOS to avoid bricking, since they are specifically d
 A Wii Mini támogatott, és kompatibilis a legtöbb létező homebrew-val.
 A hiányzó Wii funkciók helyreállíthatók. LAN adapter és USB hub ajánlott.
 Ha többféle homebrew verzió létezik, győződj meg róla, hogy a Wii minihez tervezettet használod.
-Be especially cautious with IOS to avoid bricking, since they are specifically designed for Wii mini.
+Legyél nagyon óvatos az IOS-sel a brickelés elkerüléséhez, mivel ezek kifejezetten
+a Wii mini-hez készültek.
 
 ::::
 
@@ -63,13 +64,13 @@ További információkért tekintse meg [a tárolási GYIK](faq#storage-device-f
 
 ## Hálózati kompatibilitás
 
-The Wii is an aging console, and as such, may have difficulties connecting to modern wireless networks.
+A Wii egy öregedő konzol, és így problémái vannak a modern vezetéknélküli hálózatokhoz csatlakozással.
 
 Its network hardware is based on 802.11g (retroactively named WiFi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use WiFi with your Wii.
 
 For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch) Aroma plugin.
 
-Please consult [the network FAQ](faq#networking-faq) for more information.
+További információkért tekintsd meg [a hálózati GYIK](faq#networking-faq)-et.
 
 ## Segítség szerzése
 
