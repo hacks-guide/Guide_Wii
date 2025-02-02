@@ -141,7 +141,7 @@ The Wii's wireless networking hardware supports the maximum standard of 802.11g 
 - APs not backwards compatible with WiFi 3, or broadcasting only on the 5 GHz band
 - APs not supporting legacy 802.11b or 802.11g rates (i.e. APs supporting only 802.11n)
 
-ISPs known to provide routers incompatible with these settings:
+Internet szolgáltatók akikről ismert, hogy olyan routert biztosítanak ami inkompatibilis ezekkel a beállításokkal:
 
 - Xfinity
 - Spectrum
