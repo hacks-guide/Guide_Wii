@@ -10,7 +10,7 @@ hero:
 
 ::: info
 
-Please thoroughly read the introductory pages before proceeding.
+Kérjük olvasd el figyelmesen a bevezető oldalakat mielőtt továbbhaladsz.
 
 :::
 
@@ -18,7 +18,7 @@ Please thoroughly read the introductory pages before proceeding.
 
 **Homebrew** refers to software that was not authorized to run on a video game console by its manufacturer. To gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
 
-Common examples of homebrew usage on the Wii include:
+Gyakori példái a homebrew használatnak a Wii-on a következők:
 
 - [Backing up](bootmii) and [restoring](bootmiirecover) your Wii's NAND (system memory)
 - [Patching game discs](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
@@ -40,6 +40,6 @@ With certain variations depending on the path you take, this guide has the end g
 
 ::: tip
 
-Continue to [Key Information](key-information)
+Folytatás az [Alapvető információkkal](key-information)
 
 :::
