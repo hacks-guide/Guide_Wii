@@ -127,13 +127,13 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 ::: info
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
+Ha Wii-t használsz: folytasd a [Homebrew Channel és a BootMii telepítésével](hbc)
 
 :::
 
 ::: info
 
-Ha Wii minivel dolgozol, folytasd a [Homebrew Channel telepítésével.](hbc-mini)
+Ha Wii mini-t használsz: folytasd a [Homebrew Channel telepítésével.](hbc-mini)
 
 :::
 
