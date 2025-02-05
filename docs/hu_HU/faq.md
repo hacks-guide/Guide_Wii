@@ -66,11 +66,11 @@ Az USB eszközökhoz is a FAT32 az ajánlott, habár érdemes figyelemünkben ta
 
 ::: warning
 
-For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.
+A 4.0-nál alacsonyabb verziószámú Wii Menu a Wii rendszer szoftverének egy korlátozása megakadályozza a 2 GB-nál nagyobb SD-kártyák használatát.
 
-For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.
+A 4.0 vagy magasabb verziószámú Wii Menu kverziók esetében ez a korlátozás megszűnt, és különböző méretű SD-kártyák használhatók.
 
-Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
+A legnagyobb esélyed arra, hogy működőképes SD-kártyát kapj bármelyik Wii-n, a 32 GB-os vagy annál kisebb méretnél van, de többször jelentettek már sikereket 256 GB-ig terjedő kártyákkal is.
 
 :::
 
@@ -115,9 +115,9 @@ USB merevlemezek vásárlásakor csak három jelenlegi HDD-gyártó létezik: We
 
 A 2,5 hüvelykes meghajtók a legtöbb esetben jól működnek a Wii-n kizárólag USB-ről, de a 3,5 hüvelykes meghajtók több energiát fogyasztanak, és mindig szükség lesz külső hálózati adapterre. Figyelj arra, hogy meghatározd, hogy mit szeretnél csinálni a külső meghajtóval.
 
-For Wii U users, it is highly recommended to have a hard drive that takes external power, or to use a powered USB hub and/or Y cable for 2.5 inch drives.
+A Wii U felhasználók számára erősen ajánlott egy külső tápellátást igénylő merevlemez, vagy a 2,5 hüvelykes meghajtókhoz egy tápellátássaln rendelkező USB hub és/vagy Y kábel használata.
 
-For Wii mini users, it is recommended to have an externally powered USB hub in order to have external storage, internet adapters, and other peripherals connected simultaneously. You may also want to use a Y cable for drive power.
+A Wii mini felhasználók számára külső tápellátású USB hub használata ajánlott, hogy egyszerre lehessen külső tárolót, internetadaptert és egyéb perifériákat csatlakoztatni. A meghajtók tápellátásához Y-kábelt is használhatsz.
 
 Ami a vásárlási lehetőségeket illeti, ez nagyrészt három különböző forgatókönyv határozható meg:
 
@@ -135,11 +135,11 @@ Ha egy meghajtót a Wii-vel akarsz használni, a külső SSD-k gyakran drágább
 
 ## Hálózati GYIK
 
-The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named WiFi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points (APs):
+A Wii vezeték nélküli hálózati hardvere a 802.11g maximális szabványt támogatja a 2,4 GHz-es sávban (visszamenőlegesen WiFi 3-ként nevezett), a maximális biztonsági szint pedig WPA2-PSK (AES). Ezért a Wii NEM képes csatlakozni a következő hozzáférési pontokhoz (AP):
 
-- APs enforcing WPA enterprise encryption, or WPA3 only
-- APs not backwards compatible with WiFi 3, or broadcasting only on the 5 GHz band
-- APs not supporting legacy 802.11b or 802.11g rates (i.e. APs supporting only 802.11n)
+- WPA enterprise titkosítást vagy csak WPA3 titkosítást kényszerítő hozzáférési pontokhoz
+- A WiFi 3-mal nem visszafelé kompatibilis vagy csak az 5 GHz-es sávban sugárzó AP-khez
+- A 802.11b vagy 802.11g sebességet nem támogató hozzáférési pontok (pl.  a csak 802.11n-t támogató AP-k)
 
 Internet szolgáltatók akikről ismert, hogy olyan routert biztosítanak ami inkompatibilis ezekkel a beállításokkal:
 
@@ -147,10 +147,10 @@ Internet szolgáltatók akikről ismert, hogy olyan routert biztosítanak ami in
 - Spectrum
 - Cox
 
-If your ISP will not let you change these settings, or your current networking hardware is not supported, you have a few options:
+Ha az internet szolgáltatód nem engedi megváltoztatni ezeket a beállításokat, vagy a jelenlegi hálózati hardvered nem támogatja, akkor van néhány lehetőséged:
 
-- You can try to use a cellular hotspot. This is not recommended as it usually results in an unstable connection.
-- You can use a LAN adapter. It must have the `ASIX AX88772` chipset or say “compatible with Wii”. Here is a [recommended LAN adapter by uGreen](https://a.co/d/3OcSJDS).
-- Alternatively, you can buy a secondary router and continue to use the network you already have, like a mesh. Any cheap router meeting the above standards (such as the Linksys WRT54G) will work.
+- Megpróbálhatsz mobil hotspotot használni. Ez nem ajánlott, mivel általában instabil kapcsolatot eredményez.
+- Használhatsz egy LAN-adaptert. Ennek az `ASIX AX88772` lapkakészlettel kell rendelkeznie, vagy azt kell mondania, hogy „kompatibilis a Wii-vel”. Itt van egy [ajánlott LAN-adapter az uGreen-től](https://a.co/d/3OcSJDS).
+- Alternatívaként vásárolhatsz egy másodlagos routert, és továbbra is használhatod a már meglévő hálózatod. Bármilyen olcsó, a fenti szabványoknak megfelelő router (például a Linksys WRT54G) működni fog.
 
-For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the `Wii VC Launch` Aroma plugin.
+A Wii U esetében a vWii a Wii U fő beállításaiban megadott internetbeállításokat használja, de opcionálisan szétválasztható a `Wii VC Launch` Aroma plugin segítségével.
