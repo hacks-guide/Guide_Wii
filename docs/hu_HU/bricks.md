@@ -1,4 +1,4 @@
-# Elrontás
+# Brickelődés
 
 A "Brick" usually means your Wii has reached a state where its next purpose in existence is likely that of a doorstop, or a display figure.
 
@@ -50,13 +50,13 @@ This is a section intended to help you diagnose a potential brick, in order by l
 - Wii starts, you see the health/warning screen, but upon pressing A to start, you see a black screen.
   - Ha ez egy téma telepítése után történt akkor tekintsd meg a [téma brick-et](bricks#theme-brick).
   - Ha ez egy WAD-fájl telepítése után történt akkor tekintsd meg a [banner brick-et](bricks#banner-brick).
-  - If this randomly started happening, and you can access Maintenance Mode by holding +/- on the health/warning screen, see [mail brick](bricks#mail-brick).
-- Wii starts, and you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. Maintenance mode is accessible. See [mail brick](bricks#mail-brick).
-- Wii starts, BUT you INSTANTLY see an error that resembles the Opera web browser. See [Wii Menu/Opera brick](bricks#wii-menuopera-brick).
-- Error 003. See [Korean Kii/Error 003 brick](bricks#koreankii-error-003-brick).
-- Nothing happens, black screen, BUT BootMii as boot2 is accessible. See [IOS brick](bricks#ios-brick).
-- Nothing happens, black screen, BUT Wii can be turned on with a Wiimote/Recovery Mode can be accessed. See [Wi-Fi brick](bricks#wi-fi-brick).
-- Nothing happens, black screen. Wii cannot be turned on with a Wiimote, Recovery Mode cannot be started, and BootMii as boot2 is not accessible. See [low-level brick](bricks#low-level-brick).
+  - Ha ez látszólag minden ok nélkül keződött el és képes vagy hozzáférni a Maintenance Mode-hoz a + és - gombok nyomvatartásával az egészségügyi figyelmeztetések képernyőn, akkor tekintsd meg a [mail brick-et](bricks#mail-brick).
+- Wii starts, and you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. Maintenance mode is accessible. Tekintsd meg a [mail brick-et](bricks#mail-brick).
+- Wii starts, BUT you INSTANTLY see an error that resembles the Opera web browser. Tekintsd meg a [Wii Menu/Opera brick-et](bricks#wii-menuopera-brick).
+- Error 003. Tekintsd meg a [Korean Kii/Error 003 brick-et](bricks#koreankii-error-003-brick).
+- Nothing happens, black screen, BUT BootMii as boot2 is accessible. Tekintsd meg az [IOS brick-et](bricks#ios-brick).
+- Nothing happens, black screen, BUT Wii can be turned on with a Wiimote/Recovery Mode can be accessed. Tekintsd meg a [Wi-Fi brick-et](bricks#wi-fi-brick).
+- Nothing happens, black screen. Wii cannot be turned on with a Wiimote, Recovery Mode cannot be started, and BootMii as boot2 is not accessible. Tekintsd meg az [alacsony-szintű brick-et](bricks#low-level-brick).
 
 # Brick Types
 
@@ -80,7 +80,7 @@ Verify in AnyRegion Changer that your console region is the same as the theme or
 
 If this was caused by a theme you installed, use csm-installer to reinstall the original theme.
 
-If this was caused by a Wii Menu WAD you installed, use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to re-obtain your original Wii Menu.
+Ha a hibát egy telepített Wii Menu WAD okozta, töltsd le és telepítsd az eredeti Wii menüt a [NUS Downloader](https://wiibrew.org/wiki/NUSD) segítségével.
 
 ::: danger
 
