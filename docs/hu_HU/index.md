@@ -16,25 +16,25 @@ Kérjük olvasd el figyelmesen a bevezető oldalakat mielőtt továbbhaladsz.
 
 ## Mi a homebrew?
 
-**Homebrew** refers to software that was not authorized to run on a video game console by its manufacturer. To gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
+A **homebrew** olyan szoftverekre utal, amelyek futtatását a gyártó nem engedélyezte egy videojáték-konzolon. Ahhoz, hogy a homebrew futtatására a Wii konzol képessé váljon, a konzolt először módosítani kell, hogy a nem aláírt kódot futtathassa.
 
 Gyakori példái a homebrew használatnak a Wii-on a következők:
 
-- [Backing up](bootmii) and [restoring](bootmiirecover) your Wii's NAND (system memory)
-- [Patching game discs](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
-- Installing [themes](themes) on the Wii Menu and in commonly used homebrew apps
-- Backing up your [discs](dump-games) and [other installed titles](dump-wads)
-- Installing a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
-- Restoring online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](nintendowfc)
-- and more!
+- A Wii NAND (rendszermemória) [biztonsági mentése](bootmii) és [visszaállítása](bootmiirecover)
+- [Játéklemezek patchelése](https://wiki.hacks.guide/wiki/Wii:Riivolution) a játék módosítások betöltéséhez
+- [Témák](themes) telepítése a Wii menüjébe és a gyakran használt homebrew alkalmazásokba
+- A [lemezek](dump-games) és [más telepített címek](dump-wads) biztonsági mentése
+- [USB loader](wii-loaders) telepítése a Wii (és más konzolok) biztonsági mentéseinek külső tárolóeszközről történő indításához
+- A [WiiConnect24](wiiconnect24) és a [Nintendo Wi-Fi Connection](nintendowfc) online funkcióinak helyreállítása
+- és még sok más!
 
 ## Mit csinál ez az útmutató?
 
-With certain variations depending on the path you take, this guide has the end goal of:
+Bizonyos eltérésekkel, attól függően, hogy milyen utat választasz, ennek az útmutatónak a végcélja a következő:
 
-- Exploiting your Wii and Installing the Homebrew Channel
-- Putting safeguards in place to help prevent bricks
-- Installing other homebrew that can enhance your experience, should you choose
+- A Wii-od exploitolása és a Homebrew Channel csatorna telepítése
+- A brickelést megelőzését segítő biztosítékok felállítása
+- Egyéb homebrew telepítése, amely növelheti az élményeidet, ha úgy döntesz
 
 ## Készen vagy a kezdésre?
 
