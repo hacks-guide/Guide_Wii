@@ -111,7 +111,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 10. Power on your console.
     - **Ne csatlakoztass** egy Wii Remote-ot sem.
 
-11. Type `yes` in the script to proceed if you have not already done so, and make sure that `Waiting to accept` is displaying.
+11. Ha még nem tetted meg, írd be a szkriptbe az `yes`-t a folytatáshoz, és győződj meg róla, hogy a `Waiting to accept` felirat jelenik meg.
 
 12. Nyomogasd a konzol Sync gombját, amíg a terminálon nem látod ezt az üzenetet: `got connection handle`.
 
@@ -119,7 +119,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
     ![](/images/exploits/bluebomb/got-connection-handle.png)
 
-13. If the exploit was successful, you should see a similar screen to the below, after which the HackMii installer should load.
+13. Ha az exploit sikeres volt, akkor az alábbi képernyőhöz hasonlót kell látnod, majd a HackMii installer-nek be kell töltődnie.
 
     - If you are not planning to use it later, you can now shut down your Linux distro.
 
@@ -242,18 +242,18 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 ### Az exploit végrehajtása
 
-1. Plug your flashed device back into your PC.
+1. Csatlakoztasd vissza a flashelt eszközöd a számítógépedhez.
 2. Power on your console.
    - **Ne csatlakoztass** egy Wii Remote-ot sem.
-3. Press the Sync button repeatedly until the Pico W LED begins to rapidly flash, at which point it will start uploading the exploit.
+3. Nyomd meg többször a Sync gombot, amíg a Pico W LED gyorsan villogni nem kezd, ekkor az megkezdi az exploit feltöltését.
    - This could take numerous attempts.
-4. If the exploit was successful, you should see a similar screen to the below, after which the HackMii installer should load.
+4. Ha az exploit sikeres volt, akkor az alábbi képernyőhöz hasonlót kell látnod, majd a HackMii installer-nek be kell töltődnie.
 
    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ::: tip
 
-If you get an error `Exception 0700 occurred!` or similar, try the exploit again. If this continues to happen, join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) for support.
+Ha `Exception 0700 occurred!` hibaüzenetet vagy hasonlót kapsz, próbálja meg újra az exploitot. Ha ez továbbra is előfordul, csatlakozz [a Wii mini Hacking Discord szerverhez](https://discord.gg/6ryxnkS) támogatásért.
 
 :::
 
