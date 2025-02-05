@@ -34,11 +34,11 @@ A koreai Wii teljesen támogatott és régió is módosítható rajta.
 
 :::: details Mi van akkor, ha Wii U-m (vWii) van?
 
-Wii mode on Wii U (called vWii in the homebrew community) is fully supported but it is recommended to setup an Aroma environment.
-Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew).
-Storage devices will need additional power (either using a Y-cable or an external power source), as the Wii U's USB ports do not provide sufficient power on their own.
-If there are multiple versions of homebrew, make sure you are using the version designed for vWii.
-Be especially cautious with IOS to avoid bricking, since they are specifically designed for vWii.
+A Wii U Wii mód (a homebrew közösségben vWii-nek hívják) teljes mértékben támogatott, de ajánlott egy Aroma környezetet beállítani.
+A hiányzó Wii funkciók helyreállíthatók. Jelenleg szinte az összes létező homebrew támogatott (kivéve a GameCube homebrew-t).
+A tárolóeszközöknek további áramellátásra lesz szükségük (akár Y-kábel, akár külső áramforrás segítségével), mivel a Wii U USB-portjai önmagukban nem biztosítanak elegendő áramot.
+Ha többféle homebrew verzió létezik, győződj meg róla, hogy a vWii-hez tervezett verziót használod. Különösen óvatosnak kell lenned az Ios-sel, hogy elkerüld a brickelést, mivel ezeket kifejezetten a vWii-re tervezték.
+Különösen óvatosnak kell lenned az IOS-sel, hogy elkerüld a brickelést, mivel ezeket kifejezetten a vWii-re tervezték.
 
 ::::
 
@@ -66,18 +66,18 @@ További információkért tekintse meg [a tárolási GYIK](faq#storage-device-f
 
 A Wii egy öregedő konzol, és így problémái vannak a modern vezetéknélküli hálózatokhoz csatlakozással.
 
-Its network hardware is based on 802.11g (retroactively named WiFi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use WiFi with your Wii.
+A hálózati hardvere a 802.11g (visszamenőlegesen WiFi 3-kén nevezett) szabványon alapul, amely a 2,4 GHz-es sávban működik. Emellett támogatja a WPA2-PSK (AES) személyes hálózati titkosítást is. Meg kell győződnöd arról, hogy a hálózatod támogatja ezeket a szabványokat, ha szeretnél WiFi-t a Wii-vel használni.
 
-For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch) Aroma plugin.
+A Wii U esetében a vWii a Wii U fő beállításaiban megadott internetbeállításokat használja, de opcionálisan szétválasztható a [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch) Aroma plugin segítségével.
 
 További információkért tekintsd meg [a hálózati GYIK](faq#networking-faq)-et.
 
 ## Segítség szerzése
 
-Ran into an issue while following the guide, already have an issue on your modded Wii, or just plain need answers?
+Problémába ütköztél az útmutató követése közben, vagy már van egy problémád a módosított Wii-ddel, vagy csak egyszerűen válaszokra van szükséged?
 
-- If your question isn't already answered on this page, it may be answered in the [FAQs](faq) section of the guide.
-- If your question still isn't answered and you need support, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel.
+- Ha a kérdésedre még nem kaptál választ ezen az oldalon, akkor az útmutató [GYIK](faq) részében találhatsz rá választ.
+- Ha a kérdésedre még mindig nincs válasz, és segítségre van szükséged, csatlakozz a [Nintendo Homebrew Discord](https://discord.gg/C29hYvh)-hoz, és lépj a `#wii-vwii-assistance` csatornára.
 
 ::: tip
 
