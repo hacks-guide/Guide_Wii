@@ -48,8 +48,8 @@ This is a section intended to help you diagnose a potential brick, in order by l
   - If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
   - If after accessing the Wii settings, you see an error that resembles the Opera web browser, see [semibrick](bricks#semibrick).
 - Wii starts, you see the health/warning screen, but upon pressing A to start, you see a black screen.
-  - If this happened after installing a theme, see [theme brick](bricks#theme-brick).
-  - If this happened after installing a WAD, see [banner brick](bricks#banner-brick).
+  - Ha ez egy téma telepítése után történt akkor tekintsd meg a [téma brick-et](bricks#theme-brick).
+  - Ha ez egy WAD-fájl telepítése után történt akkor tekintsd meg a [banner brick-et](bricks#banner-brick).
   - If this randomly started happening, and you can access Maintenance Mode by holding +/- on the health/warning screen, see [mail brick](bricks#mail-brick).
 - Wii starts, and you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. Maintenance mode is accessible. See [mail brick](bricks#mail-brick).
 - Wii starts, BUT you INSTANTLY see an error that resembles the Opera web browser. See [Wii Menu/Opera brick](bricks#wii-menuopera-brick).
