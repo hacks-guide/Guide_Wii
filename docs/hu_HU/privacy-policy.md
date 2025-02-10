@@ -12,7 +12,7 @@ Ezek a webhelyek adatokat gyűjthetnek Önről, cookie-kat használhatnak, tová
 
 ## Analitika
 
-Ez a webhely a Google Analytics szolgáltatást használja a forgalom nyomon követésére és elemzésére. Ezt a webhelyet a Github Pages üzemelteti, amely adatokat gyűjthet Önről, cookie-kat használhat, további harmadik féltől származó nyomon követést ágyazhat be, és nyomon követheti az Ön és a webhely közötti interakciókat. For more information about Github Pages as it relates to user privacy, see the [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement).
+Ez a webhely a Google Analytics szolgáltatást használja a forgalom nyomon követésére és elemzésére. Ezt a webhelyet a Github Pages üzemelteti, amely adatokat gyűjthet Önről, cookie-kat használhat, további harmadik féltől származó nyomon követést ágyazhat be, és nyomon követheti az Ön és a webhely közötti interakciókat. További információkért a Github oldalak adatvéldemi vonatkozásaihoz tekintsd meg a [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement)-jét.
 
 ## Begyűjtött információk
 

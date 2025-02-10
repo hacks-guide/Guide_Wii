@@ -1,8 +1,8 @@
 # Wii- és GameCube-játékok másolása
 
-Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának módjával, hogy az adatokat egy SD kártyán vagy pendrive-on tárolhasd.
+Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának módjával, hogy az adatokat egy SD kártyán vagy USB drive-on tárolhasd.
 
-## Lemez másolása SD kártyára / pendrive-ra CleanRippel
+## Lemez másolása SD kártyára / USB drive-ra CleanRippel
 
 ### Követelmények
 
@@ -11,21 +11,21 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 ### Előkészítés
 
-1. Power off your console.
+1. Kapcsold ki a konzolod.
 
 2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
 
-3. Copy the `apps` folder from the CleanRip `.zip` to the root of your SD card or USB drive.
+3. Másold át az `apps` mappát a CleanRip `.zip` fájlból az SD kártya vagy az USB drive gyökerébe.
 
 4. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
-5. Power on your console.
+5. Kapcsold be a konzolod.
 
 6. Indítsd el a Homebrew Channelt!
 
 7. Indítsd el a listáról a CleanRipet!
 
-8. When prompted, select `Yes` to calculate disc checksums.
+8. Amikor a program megkérdezi, hogy „Enable checksum calculations?”, válaszolj igennel (`Yes`).
 
    ![](/images/homebrew/CleanRip/checksum.png)
 
@@ -41,7 +41,7 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
     ![](/images/homebrew/CleanRip/insertdevice.png)
 
-12. When prompted, select `Yes` to download the redump.org DAT files.
+12. Amikor a program megkérdezi, válaszolj igennel ( `Yes`) a redump.org DAT-fájlok letöltésére.
 
     - A másolat készítése után ezeknek a fájloknak a segítségével lehet igazolni, hogy a másolatok tiszták/pontosak-e.
 
@@ -61,7 +61,7 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 ::: info
 
-A CleanRip a 2.1.2-es verziójától kezdve képes automatikusan felismerni, hogy kétrétegű lemezt próbálsz-e lemásolni. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
+A CleanRip a 2.1.2-es verziójától kezdve képes automatikusan felismerni, hogy kétrétegű lemezt próbálsz-e lemásolni. Ha egy korábbi verzión vagy vagy csak szeretnéd ellenőrizni, hogy a megfelelő opció kiválaszott-e, ellenőrizheted [ebben a listában](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), hogy a játékod kétrétegű lemezzel rendelkezik-e.
 
 :::
 
@@ -71,7 +71,7 @@ Ha a program hibát ír ki, ellenőrizd, hogy a másolni kívánt lemez tiszta-e
 
 :::
 
-1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e! If unsure, select `No`.
+1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e! Ha nem vagy benne biztos, válaszolj nemmel (`No`).
 
    ![](/images/homebrew/CleanRip/dateldisc.png)
 
@@ -91,7 +91,7 @@ Ha a program hibát ír ki, ellenőrizd, hogy a másolni kívánt lemez tiszta-e
 
 ::: tip
 
-Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are output, and manage your dumped games.
+A kimeneti PART fájlok összekapcsolásához és a lemásolt Wii-játékok kezeléséhez lásd. a [Wii-mentések kezelése](wii-backups) oldalt.
 
 :::
 
@@ -99,11 +99,11 @@ Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are o
 
 ::: info
 
-Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról másolatot készíteni. Egy Family Editionös Wii csak akkor képes GameCube-játékokról másolatot készíteni, ha a lemezolvasóját kicseréled egy eredeti Wiiből származóra.
+Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról másolatot készíteni. Egy Family Edition-ös Wii csak akkor képes GameCube-játékokról másolatot készíteni, ha a lemezolvasóját kicseréled egy eredeti Wiiből származóra.
 
 :::
 
-1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e! If unsure, select `No`.
+1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e! Ha nem vagy benne biztos, válaszolj nemmel (`No`).
 
    ![](/images/homebrew/CleanRip/dateldisc.png)
 
@@ -119,6 +119,6 @@ Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról másolatot ké
 
 ::: tip
 
-Proceed to [Managing GameCube Backups](gc-backups) to shrink the size of your output file, and manage your dumped games.
+A kimeneti fájl méretének csökkentéséhez és a lemásolt GameCube-játékok kezeléséhez lásd a [GameCube-másolatok kezelése](gc-backups) oldalt.
 
 :::

@@ -12,7 +12,7 @@ Ces sites web peuvent collecter des données vous concernant, utiliser des cooki
 
 ## Analyse de données
 
-Ce site utilise Google Analytics pour surveiller et analyser le trafic. Ce site est hébergé sur Github Pages, qui peut collecter des données vous concernant, utiliser des cookies, intégrer un suivi tiers supplémentaire et surveiller votre interaction avec ce site. Pour plus d'informations à propos de Github Pages en ce qui concerne la confidentialité des utilisateurs, consultez la .
+Ce site utilise Google Analytics pour surveiller et analyser le trafic. Ce site est hébergé sur Github Pages, qui peut collecter des données vous concernant, utiliser des cookies, intégrer un suivi tiers supplémentaire et surveiller votre interaction avec ce site. Pour plus d'informations à propos de Github Pages en ce qui concerne la confidentialité des utilisateurs, consultez la [](https://help.github.com/en/articles/github-privacy-statement).
 
 ## Informations collectées
 
