@@ -16,9 +16,9 @@ Preventing a brick involves many rules that range between common sense and fail-
 - **A Wii-re készült régióváltási módszereket NE próbáld ki vWii-n vagy Wii mini-n**
 - **NE használj Nintendo Wi-Fi Connection-szolgáltatást, kivéve ha rendelkezik távoli kódfuttatási javításokkal (mint például a [Wiimmfi](nintendowfc)). Ha mégis így tennél, az lehetővé teszi egy rosszindulatú támadó számára a konzolod BRICKELŐDÉSÉT!**
 - **Csak a saját régiódhoz tartozó frissítéseket telepíts!**.
-  - Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
-- **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
-  - An example of modifying files going wrong is replacing IOS80 on Wii mini, which may result in a [Wi-Fi Brick](bricks#wi-fi-brick).
+  - A más régióból származó frissítések telepítése a legjobb esetben semmit sem eredményezhet, de a legrosszabb esetben egy [Korean Kii/Error 003](bricks#koreankii-error-003-brick) bricket eredményezhet. Ha használt Wii-t vásároltál, hogy ez ne történhessen meg, futtasd le a [SysCheck](syscheck) -et, hogy ellenőrizd a konzol eredeti régióját. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
+- **NE töröld vagy módosítsd a rendszerfájlokat, NE telepítsd a Wii menü vagy IOS-ek régi verzióit és NE telepíts semmilyen rendszermenü-módosítást, hacsak nem tudod, hogy mit csinálsz!**
+  - Például ha egy Wii minin kicseréled az IOS80-at, az [Wi-Fi Brick](bricks#wi-fi-brick) brickben végződhet.
 - **Ne telepíts nem megbízható forrásokból származó homebrew programokat vagy ha a forráskód nem elérhető.**
   - Az [Open Shop Channel](osc)-en található programok biztonságosak.
   - There have been incidents of malicious software being developed for the Wii in the past, while other apps are just badly developed. Make sure that you know what you are installing, and only install what you need.
@@ -31,7 +31,7 @@ Preventing a brick involves many rules that range between common sense and fail-
   - Any other app that modifies critical NAND files
 - **NE NYÚLJ HOZZÁ A WII ÁRAMFORRÁSÁHOZ VAGY A BEKAPCSOLÓGOMBJÁHOZ, MIKÖZBEN LÉTFONTOSSÁGÚ RENDSZERFÁJLOKAT TELEPÍTESZ VAGY MÓDOSÍTASZ**.
   - If your electricity is unstable (e.g. storm, power outage), postpone what you are doing until you have a stable power source.
-  - This applies to dangerous processes such as BootMii NAND restoration, which could lead to a [full brick](#low-level-brick) if anything goes wrong.
+  - Ez főleg a kockázatos folyamatokra vonatkozik, mint pl. a BootMii biztonsági mentés visszaállítása, ami egy [teljes bricket](#low-level-brick) eredményezhet, ha valami balul sül el.
 
 In any case, you should absolutely:
 
@@ -45,8 +45,8 @@ This is a section intended to help you diagnose a potential brick, in order by l
 
 - Wii starts, and progresses to the Wii Menu. No app is malfunctioning, Wii settings is error free, everything is seemingly fine. No brick.
 - Wii starts, and progresses to the Wii Menu.
-  - If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
-  - If after accessing the Wii settings, you see an error that resembles the Opera web browser, see [semibrick](bricks#semibrick).
+  - Ha egy adott csatorna elérése után a `The system files are corrupted.` üzenet jelenik meg, lásd [banner brick](bricks#banner-brick).
+  - Ha a Wii-beállítások megnyitásával egy olyan hibát látsz, ami látszólag az Opera-internetböngészőre hasonlít, lásd a[semibrick](bricks#semibrick)-et.
 - Wii starts, you see the health/warning screen, but upon pressing A to start, you see a black screen.
   - Ha ez egy téma telepítése után történt akkor tekintsd meg a [téma brick-et](bricks#theme-brick).
   - Ha ez egy WAD-fájl telepítése után történt akkor tekintsd meg a [banner brick-et](bricks#banner-brick).
@@ -66,11 +66,11 @@ Here, the different Wii bricks will be discussed in order of severity, with symp
 
 ### Symptoms
 
-When navigating to Wii Settings, you instead get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` In some cases, some parts of the Wii Settings menu may still be accessible, but other parts may not (such as the Country menu).
+Amikor a Wii-beállításokhoz navigálsz, az Opera webböngésző hibaüzenetet kapsz a következő szöveggel: `You tried to access the address (URL), which is currently unavailable.` Bizonyos esetekben a Wii Settings menü egyes részei továbbra is elérhetőek, más részek viszont nem (például a Country menü).
 
 ### Cause
 
-A semibrick occurs when a different region Wii Menu or a different region custom theme is installed. As the Wii Settings menu is rendered using HTML pages with Opera, themes often replace these pages and put them in different directories; essentially leading to a `404 Not Found` error but in the form of a console brick.
+A semibrick occurs when a different region Wii Menu or a different region custom theme is installed. Mivel a Wii Settings menüje HTML oldalak segítségével jelenik meg az Operával, a témák gyakran kicserélik ezeket az oldalakat, és más könyvtárakba helyezik őket; ez lényegében egy `404 Not Found` hibához vezet, de egy konzol brick formájában.
 
 ![](/images/bricks/semibrick.png)
 
