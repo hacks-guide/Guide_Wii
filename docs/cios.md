@@ -20,7 +20,7 @@ If you have a Wii mini, follow [this guide](cios-mini) instead.
 
 * A Wii
 * An SD card or USB drive
-* [d2x cIOS Installer](https://gbatemp.net/attachments/d2x-v11-beta1-installer-7z.347550/)
+* [d2x cIOS Installer](/assets/files/d2x-v11-beta1-installer.7z)
 
 ## Instructions
 
