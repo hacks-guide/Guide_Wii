@@ -50,7 +50,7 @@ You will be installing `uneoboot.dol` in step 3.
 
     ![](/images/priiloader/menu_settings.png)
 
-1. Press Right to cycle through the Autoboot options until the `Installed file` is selected.
+1. Press Right to cycle through the Autoboot options until the `Installed file` option is selected.
 
     ![](/images/priiloader/autoboot_installed_file.png)
 
