@@ -18,7 +18,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 
 ### 需要
 
-- An SD card formatted to FAT32/MS-DOS
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - 版本至少为 3.0 的 Wii
 
 ::: warning
@@ -95,7 +95,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 ### 需要
 
 - 运行 Windows、MacOS 或 Linux 的 PC
-- An SD card formatted to FAT32/MS-DOS
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - 版本至少为 3.0 的 Wii
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii Installer v1.2](https://bootmii.org/download/)
