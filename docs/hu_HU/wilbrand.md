@@ -18,7 +18,7 @@ A Wilbrand Web ajánlott, a könnyebb használhatósága miatt.
 
 ### Követelmények
 
-- Egy FAT32/MS-DOS-ra formázott SD kártya
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - Egy Wii 3.0 vagy újabb verzióval
 
 ::: warning
@@ -95,7 +95,7 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 ### Követelmények
 
 - Egy Windows, macOS vagy Linux számítógép
-- Egy FAT32/MS-DOS-ra formázott SD kártya
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - Egy Wii 3.0 vagy újabb verzióval
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii Installer v1.2](https://bootmii.org/download/)
