@@ -58,9 +58,9 @@ For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploi
 
 ::: info
 
-FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.
+The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be formatted to FAT32 (**not** exFAT or NTFS). See [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.
 
-For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS era precedentemente un file system usato per backup Wii (da non confondere con file WBFS) - oggi, è obsoleto e non dovrebbe essere usato.
+For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS era precedentemente un file system usato per backup Wii (da non confondere con file WBFS) - oggi, è obsoleto e non dovrebbe essere usato.
 
 :::
 
@@ -68,9 +68,7 @@ For USB devices, FAT32 is also recommended, although users should be aware of FA
 
 For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.
 
-For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.
-
-Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
+For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of any size can be used.
 
 :::
 
