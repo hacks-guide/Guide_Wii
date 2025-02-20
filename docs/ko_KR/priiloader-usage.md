@@ -8,7 +8,7 @@ Priiloader는 Wii에 벽돌 방지 수준을 추가하는 필수 도구입니다
 
 ## 시스템 메뉴 핵
 
-Priiloader에는 다양한 옵션이 있으며, 이를 활성화하면 Wii의 동작을 사용자가 원하는 대로 변경할 수 있습니다. 각 해킹에 대한 자세한 내용은 [여기](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks)에서 확인할 수 있습니다. 또한, 시스템 메뉴 해킹에 관한 보다 관련성 있는 정보가 있는 [Priiloader 자주 묻는 질문](https://dacotaco.github.io/priiloader/docs/FAQ.html)를 방문할 수 있습니다.
+Priiloader에는 다양한 옵션이 있으며, 이를 활성화하면 Wii의 동작을 사용자가 원하는 대로 변경할 수 있습니다. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Additionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
 
 ## 추가 옵션
 
@@ -54,7 +54,7 @@ USB loader GX를 자동 부팅하려면 먼저 다음을 수행합니다.
 
    ![](/images/priiloader/menu_settings.png)
 
-7. `설치된 파일`이 선택될 때까지 자동 부팅 옵션을 순환하려면 오른쪽을 누릅니다.
+7. Press Right to cycle through the Autoboot options until the `Installed file` option is selected.
 
    ![](/images/priiloader/autoboot_installed_file.png)
 
