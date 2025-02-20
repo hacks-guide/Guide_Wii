@@ -58,9 +58,9 @@ A [BlueBomb](bluebomb), [str2hax](str2hax), vagy [FlashHax](flashhax) exploitok 
 
 ::: info
 
-FAT32 az ajánlott fájlrendszer az SD kártyákhoz, tekintsd meg [ezt az útmutatót](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) a formázási lépésekért.
+The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be formatted to FAT32 (**not** exFAT or NTFS). See [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.
 
-Az USB eszközökhoz is a FAT32 az ajánlott, habár érdemes figyelemünkben tartani a FAT32 korlátozásait, ami maximum 2TB méretű köteteket tesz lehetővé. A WBFS korábban a Wii-játékok biztonsági mentéséhez használt fájlrendszer volt (nem tévesztendő össze a WBFS fájlokkal) - ma már elavult, és nem szabad használni.
+For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size and files up to 4GB in size. A WBFS korábban a Wii-játékok biztonsági mentéséhez használt fájlrendszer volt (nem tévesztendő össze a WBFS fájlokkal) - ma már elavult, és nem szabad használni.
 
 :::
 
@@ -68,9 +68,7 @@ Az USB eszközökhoz is a FAT32 az ajánlott, habár érdemes figyelemünkben ta
 
 A 4.0-nál alacsonyabb verziószámú Wii Menu a Wii rendszer szoftverének egy korlátozása megakadályozza a 2 GB-nál nagyobb SD-kártyák használatát.
 
-A 4.0 vagy magasabb verziószámú Wii Menu kverziók esetében ez a korlátozás megszűnt, és különböző méretű SD-kártyák használhatók.
-
-A legnagyobb esélyed arra, hogy működőképes SD-kártyát kapj bármelyik Wii-n, a 32 GB-os vagy annál kisebb méretnél van, de többször jelentettek már sikereket 256 GB-ig terjedő kártyákkal is.
+For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of any size can be used.
 
 :::
 
