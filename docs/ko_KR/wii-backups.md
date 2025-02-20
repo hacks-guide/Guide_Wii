@@ -107,7 +107,7 @@ NTFS로 포맷할 수 있지만 대부분의 앱 (예: 홈브류 채널, 닌텐�
 - 맥OS 또는 리눅스를 실행하는 PC
 - A USB drive or SD card
 - Wii 게임 디스크에서 덤프된 ISO
-- [Wii 백업 퓨전](https://github.com/larsenv/Wii-Backup-Fusion)
+- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion/releases)
 - [Wiimm's ISO 도구](https://wit.wiimm.de/download.html)
 
 ### 지침
