@@ -10,7 +10,7 @@ Wii U 쪽이 이미 모드가 적용된 경우 [홈브류 채널 설치](vwii-ho
 
 ::: info
 
-SD 카드는 FAT32로 포맷해야 합니다. SD 카드가 FAT32로 포맷되지 않은 경우 [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)을 사용하여 32k(32768) 할당 단위 크기로 포맷합니다. SD 카드에 `wiiu`라는 **라벨을 붙이지 마세요.** 그렇지 않으면 홈브류에서 문제가 발생할 수 있습니다.
+SD 카드는 FAT32로 포맷해야 합니다. If your SD Card is not formatted to FAT32, follow [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) to format it. SD 카드에 `wiiu`라는 **라벨을 붙이지 마세요.** 그렇지 않으면 홈브류에서 문제가 발생할 수 있습니다.
 
 ## 요구 사항
 
