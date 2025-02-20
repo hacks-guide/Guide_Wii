@@ -2,6 +2,10 @@
 
 ::: warning
 
+Though str2hax allows you to install the Homebrew Channel on a Wii without an SD card, other vital steps later on (such as installing BootMii) still require an SD card.
+
+::: warning
+
 ISP나 네트워크 환경이 커스컴 DNS 서버를 사용하는 것을 방해하는 경우 str2hax는 작동하지 않으며 [다른 익스플로잇을 선택](get-started)해야 합니다.
 
 :::
