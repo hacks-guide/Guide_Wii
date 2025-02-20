@@ -8,7 +8,7 @@ Această pagină prezintă câteva funcții utile ale Priiloader care ar putea f
 
 ## Hack-uri pentru System Menu
 
-Priiloader are o selecție mare de opțiuni care, odată activată, schimbă modul de folosire a console Wii la una din alegerile tale. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks). Addditionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
+Priiloader are o selecție mare de opțiuni care, odată activată, schimbă modul de folosire a console Wii la una din alegerile tale. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Additionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
 
 ## Opțiuni suplimentare
 
@@ -54,7 +54,7 @@ You will be installing `uneoboot.dol` in step 3.
 
    ![](/images/priiloader/menu_settings.png)
 
-7. Press Right to cycle through the Autoboot options until `Installed file` is selected.
+7. Press Right to cycle through the Autoboot options until the `Installed file` option is selected.
 
    ![](/images/priiloader/autoboot_installed_file.png)
 
