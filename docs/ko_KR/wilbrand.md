@@ -18,7 +18,7 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
 
 ### 요구 사항
 
-- FAT32/MS-DOS로 포맷된 SD 카드
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - 버전 3.0 이상의 Wii
 
 ::: warning
@@ -95,7 +95,7 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
 ### 요구 사항
 
 - 윈도우즈, 맥OS, 리눅스를 실행하는 PC
-- FAT32/MS-DOS로 포맷된 SD 카드
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - 버전 3.0 이상의 Wii
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii 설치 프로그램 v1.2](https://bootmii.org/download/)
