@@ -53,7 +53,7 @@ Wii 미니용으로 특별히 설계된 iOS의 경우, 벽돌을 피하기 위�
 
 ## 저장소 호환성
 
-SD 카드의 경우, 익스플로잇을 실행하려면 최소 128MB가 필요합니다. 하지만, 평균적으로 2GB 이상 크기의 카드가 필요합니다. 포맷 지침은 [여기](https://wiki.hacks.guide/wiki/SD_card_포맷)에서 확인할 수 있습니다.
+SD 카드의 경우, 익스플로잇을 실행하려면 최소 128MB가 필요합니다. 하지만, 평균적으로 2GB 이상 크기의 카드가 필요합니다. The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be formatted as FAT32 (**not** exFAT or NTFS). For instructions on properly formatting your SD card, [see here](https://wiki.hacks.guide/wiki/Formatting_an_SD_card).
 
 USB 장치의 경우 FAT32로 포맷된 USB 하드 드라이브나 솔리드 스테이트 (SSD) 드라이브를 사용해야 합니다. 플래시 드라이브는 Wii에서 고장이 나거나 의도한 대로 작동하지 않을 수 있으므로 사용하지 않는 것이 좋습니다.
 
