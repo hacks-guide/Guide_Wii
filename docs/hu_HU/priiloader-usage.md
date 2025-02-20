@@ -8,7 +8,7 @@ Ez az oldal a Priiloader különböző hasznos funkcióiról nyújt magyarázato
 
 ## Rendszermenü-módosítások
 
-A Priiloader széleskörű lehetőségekkel rendelkezik a Wii viselkedésének módosítására. További információt minden egyes hackről [itt találhatsz](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks). Továbbá meglátogadthatod a [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html)-ot, ami sokkal relevánsabb információt tartalmaz a System Menu hackekről.
+A Priiloader széleskörű lehetőségekkel rendelkezik a Wii viselkedésének módosítására. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Additionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
 
 ## További lehetőségek
 
@@ -54,7 +54,7 @@ A 3. lépésben fogod telepíteni az `uneoboot.dol`-t.
 
    ![](/images/priiloader/menu_settings.png)
 
-7. Görgess végig az „Autoboot options” menün a jobb gombbal, amíg azt nem látod, hogy az `Installed file` a kiválasztott.
+7. Press Right to cycle through the Autoboot options until the `Installed file` option is selected.
 
    ![](/images/priiloader/autoboot_installed_file.png)
 
