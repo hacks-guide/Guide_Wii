@@ -58,9 +58,9 @@ RiiConnect24의 이전 DNS 서버를 사용하고 있습니다. 변경 방법에
 
 ::: info
 
-SD 카드에는 FAT32가 권장되는 파일 시스템이고, 포맷 지침은 [이 가이드](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)를 참조합니다.
+The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be formatted to FAT32 (**not** exFAT or NTFS). See [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.
 
-USB 장치의 경우 FAT32도 권장되지만, 사용자는 최대 2TB 크기의 볼륨만 허용하는 FAT32 제한 사항을 알고 있어야 합니다. WBFS는 이전에 Wii 게임 백업에 사용된 파일 시스템이었습니다 (WBFS 파일과 혼동하지 마세요) - 오늘날에는 오래되어서 사용해서는 안 됩니다.
+For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS는 이전에 Wii 게임 백업에 사용된 파일 시스템이었습니다 (WBFS 파일과 혼동하지 마세요) - 오늘날에는 오래되어서 사용해서는 안 됩니다.
 
 :::
 
@@ -68,9 +68,7 @@ USB 장치의 경우 FAT32도 권장되지만, 사용자는 최대 2TB 크기의
 
 Wii 메뉴 버전이 4.0 미만인 경우, Wii 시스템 소프트웨어의 제한으로 인해 2GB가 넘는 SD 카드를 사용할 수 없습니다.
 
-기존 Wii 메뉴 버전 4.0 이상의 경우 이러한 제한이 제거되어 다양한 크기의 SD 카드를 사용할 수 있습니다.
-
-Wii에서 작동하는 SD 카드를 얻을 수 있는 가장 큰 가능성은 크기가 32GB 이하일 때이지만, 최대 256GB 범위의 카드에서도 성공한 사례가 여러 번 보고되었습니다.
+For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of any size can be used.
 
 :::
 
