@@ -18,7 +18,7 @@ Wilbrand Web is recommended for its ease of use.
 
 ### str2hax Method
 
-- An SD card formatted to FAT32/MS-DOS
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - A Wii on version 3.0 or newer
 
 ::: warning
@@ -95,7 +95,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 ### str2hax Method
 
 - A PC running Windows, MacOS or Linux
-- An SD card formatted to FAT32/MS-DOS
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - A Wii on version 3.0 or newer
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii Installer v1.2](https://bootmii.org/download/)
