@@ -88,7 +88,7 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 
 ::: tip
 
-Continue to [Finalizing Setup](mini-finalizing-setup)
+[Continue to Priiloader Installation](priiloader)
 
 :::
 
