@@ -175,7 +175,7 @@ If you downloaded the 4 WAD files in Section I, you may now delete them from you
 
 ::: tip
 
-Continue to [Open Shop Channel Installation](osc)
+[Continue to Open Shop Channel installation](osc)
 
 Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 
@@ -286,7 +286,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ::: tip
 
-Continue to [Finalizing Setup](vwii-finalizing-setup)
+[Continue to finalizing setup](vwii-finalizing-setup)
 
 :::
 
@@ -353,7 +353,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 ::: tip
 
-[Continue to making a NAND Backup using RealWnd](wnd-mini)
+[Continue to finalizing setup](mini-finalizing-setup)
 
 :::
 
