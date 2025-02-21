@@ -225,7 +225,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
     Select cIOS slot <249>
     ```
 
-    <!-- ![](/images/cios/d2x_v11_249_vwii.png) -->
+    ![](/images/cios/d2x_v11_249_vwii.png)
 
     ::: info
 
@@ -270,7 +270,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
         Select cIOS slot <250>
         ```
 
-        <!-- ![](/images/cios/d2x_v11_250_vwii.png) -->
+        ![](/images/cios/d2x_v11_250_vwii.png)
 
     + cIOS 251 Installation
 
@@ -280,7 +280,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
         Select cIOS slot <251>
         ```
 
-        <!-- ![](/images/cios/d2x_v11_251_vwii.png) -->
+        ![](/images/cios/d2x_v11_251_vwii.png)
 
 1. Once you have finished with all 3 cIOSes, press B to return to the Homebrew Channel.
 
@@ -343,9 +343,10 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
     Select cIOS slot <249>
     ```
 
-    <!-- ![](/images/cios/d2x_v1_249_mini.png) -->
+    ![](/images/cios/d2x_v1_249_mini_NTSC.png)
+    ![](/images/cios/d2x_v1_249_mini_PAL.png)
    
-    + Take a note of the version number under notes (`IOS57-64-` ending in either `v31776` or `v31775`)
+    + Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
 1. Press A to install.
     + If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
 1. When the process is complete, exit the installer.
