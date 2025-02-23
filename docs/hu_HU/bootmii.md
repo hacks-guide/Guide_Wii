@@ -5,7 +5,7 @@ Ezen az oldalon megismerkedhetsz a biztonsági mentés készítéséről az SD k
 
 ::: warning
 
-A BootMii használatához szükséged lesz egy **SD kártyára**. A NAND biztonsági mentést is erre fogjuk másolni. Ha jelenleg nem rendelkezel egy SD kártyával, akkor kihagyhatod ezt az oldalt, de ERŐSEN AJÁNLJUK, hogy később térj vissza és készíts egy biztonsági mentést a Wiid belső tárhelyéről!
+A BootMii használatához szükséged lesz egy **SD kártyára**. A NAND biztonsági mentést is erre fogjuk másolni. Ha jelenleg nem rendelkezel egy SD kártyával, akkor kihagyhatod ezt az oldalt, de ERŐSEN AJÁNLOTT, hogy később térj vissza és készíts egy biztonsági mentést a Wii-d belső tárhelyéről.
 
 :::
 
@@ -23,9 +23,9 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
 
 1. Kapcsold be a konzolod.
 
-2. Indítsd el a Homebrew Channelt!
+2. Indítsd el a Homebrew Channelt.
 
-3. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” („A BootMii indítása”)-menüpontot!
+3. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” menüpontot.
 
    ![](/images/bootmii/BootMii_HBC.png)
 
@@ -48,16 +48,16 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
    ::: info
 
    A BootMii irányítása nem lehetséges Wii Remote-tal.
-   Vagy a konzolba épített POWER- és RESET-gombokat, vagy egy 1. csatlakozóba dugott GameCube-vezérlőt kell használnod!
-   A következő menüpontra a POWER-gombbal léphetsz át. A kiválasztáshoz nyomd meg a RESET-gombot!
+   Vagy a konzolba épített POWER- és RESET-gombokat, vagy egy 1. csatlakozóba dugott GameCube-vezérlőt kell használnod.
+   A következő menüpontra a POWER-gombbal léphetsz át. Egy opció kiválasztáshoz nyomd meg a RESET gombot.
 
    :::
 
-5. Válaszd ki az „Options” („beállítások”)-menüpontot! (Ez az, amelyiken egy fogaskerék van.)
+5. Válaszd ki az Options menüpontot (az ikon fogaskerékkel).
 
    ![](/images/bootmii/BootMii_Gears.png)
 
-6. Válaszd ki a bal szélső menüpontot!
+6. Válaszd ki a bal szélső gombot.
 
    ![](/images/bootmii/BootMii_Backup.png)
 
@@ -73,7 +73,7 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
 
    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
-9. Ha végeztél, nyomd meg a jobb szélen található vissza-gombot, majd a kilépéshez nyomd meg a Wii menü vagy a Homebrew Channel-gombot!
+9. Nyomd meg a Back gombot (a gomb egy nyíllal), majd a BootMii-ből kilépéshez nyomd meg a Wii menü vagy a Homebrew Channel gombot.
 
    ![](/images/bootmii/BootMii_Return.png)
 
@@ -101,7 +101,7 @@ Ha képes voltál boot2 alá telepíteni a BootMiit és nem szeretnéd, hogy bek
 1. Nyisd meg az `SD:/bootmii/bootmii.ini` fájlt egy szövegszerkesztővel, pl. a Jegyzettömbbel.
 2. Módosítsd az `#AUTOBOOT=SYSMENU`-t `AUTOBOOT=SYSMENU` -re a `#` törlésével.
 3. Utána módoítsd a `#BOOTDELAY=5`-öt `BOOTDELAY=1`-re törölve a `#`-et majd az `5`-öt átírva`1`-re.
-4. Ha végeztél, mentsd el a fájlt és zárd be!
+4. Mentsd el a fájlt és lépj ki.
 
 ::: info
 
