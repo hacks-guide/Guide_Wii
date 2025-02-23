@@ -107,7 +107,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 - A PC running MacOS or Linux
 - A USB drive or SD card
 - A dumped ISO from a Wii game disc
-- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
+- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion/releases)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
 ### Instructions
@@ -156,6 +156,6 @@ cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Klicke hier, um zum Seitenindex zurückzugelangen.](site-navigation)
 
 :::

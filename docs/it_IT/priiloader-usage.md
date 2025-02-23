@@ -8,7 +8,7 @@ Questa pagina elenca alcune funzioni utili di Priiloader che potrebbero interess
 
 ## Hack Menu di Sistema
 
-Priiloader ha una vasta selezione di opzioni che, una volta attivate, cambiano il comportamento del Wii con uno a tuo piacimento. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKS.html#currently-supported-hacks). Addditionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
+Priiloader ha una vasta selezione di opzioni che, una volta attivate, cambiano il comportamento del Wii con uno a tuo piacimento. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Additionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
 
 ## Opzioni aggiuntive
 
@@ -54,7 +54,7 @@ You will be installing `uneoboot.dol` in step 3.
 
    ![](/images/priiloader/menu_settings.png)
 
-7. Press Right to cycle through the Autoboot options until `Installed file` is selected.
+7. Press Right to cycle through the Autoboot options until the `Installed file` option is selected.
 
    ![](/images/priiloader/autoboot_installed_file.png)
 

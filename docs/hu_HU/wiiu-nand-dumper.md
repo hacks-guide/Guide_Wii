@@ -4,13 +4,13 @@ Ez az útmutató végig vezet a vWii moddolásán a Wii U oldal móddolása nél
 
 ::: info
 
-If your Wii U side is already modded, proceed to [Installing the Homebrew Channel](vwii-homebrew-channel)
+Ha a Wii U oldal már moddolt, folytasd a [Homebrew Channel telepítésével](vwii-homebrew-channel)
 
 :::
 
 ::: info
 
-Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32 formátumra lett formázva, használd a GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)-ot 32k (32768) allokációs egységmérettel a formázáshoz. **Ne** címkézd fel az SD kártyát `wiiu`-ként, különben problémákat okoz a homebrew-val.
+Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32-re formázott, kövesd [ezt az útmutatót](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) a formázásához. **Ne** címkézd fel az SD kártyát `wiiu`-ként, különben problémákat okoz a homebrew-val.
 
 ## Követelmények
 
@@ -31,7 +31,7 @@ Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32 formá
 
 SD kártya kiosztás
 
-::: details Click here to show the final SD Card layout.
+::: details Kattints ide végső SD kártya kiosztás megtekintéséhez.
 
 ```
 💾sd:
@@ -95,6 +95,6 @@ Ha valami rosszul sül el a későbbi folyamatban és a vWii brickelődik, a vis
 
 ::: tip
 
-[Continue to installing the Homebrew Channel](vwii-homebrew-channel-no-wiiu-mods)
+[Folytatás a Homebrew Channel telepítésével](vwii-homebrew-channel-no-wiiu-mods)
 
 :::

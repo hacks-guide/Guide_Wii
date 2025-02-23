@@ -2,204 +2,204 @@
 
 ::: warning
 
-This Program does NOT come with a warranty, so you are responsible for any potential damage done to your Wii.
+이 프로그램에는 보증이 제공되지 않으므로 Wii에 발생할 수 있는 모든 손상에 대한 책임은 여러분에게 있습니다.
 
 :::
 
 ::: warning
 
-This program is NOT intended to be used for the vWii or the Wii mini. Some tools may or may not work for these platforms.
+이 프로그램은 vWii 또는 Wii 미니에 사용하기 적합하지 않습니다. vWii 또는 Wii 미니에서의 사용은 테스트되지 않았습니다.
 
 :::
 
-ModMii is an all-in-one Wii hacking tool for Windows created by XFlak that has various helpful tools for modding. It can accomplish the following:
+ModMii는 XFlak이 만든 윈도우용 올인원 Wii 해킹 도구로, 개조에 유용한 다양한 도구를 제공합니다. 이를 통해 다음을 달성할 수 있습니다:
 
-- Hacking the console for the first time, or re-hacking it
-- Check for and update outdated softmods
-- Fix upside-down Homebrew Channel problems
-- Run homebrew without making any changes to your Wii's NAND
-- Download homebrew
-- And more!
+- 처음으로 콘솔 해킹하기 또는 다시 해킹하기
+- 오래된 소프트개조를 확인하고 업데이트
+- 거꾸로 된 홈브류 채널 문제 해결
+- Wii의 낸드를 변경하지 않고 홈브류를 실행
+- 홈브류 다운로드
+- 그리고 더 많은 것들!
 
-## ModMii Overview
+## ModMii 개요
 
-There are two different ways to use ModMii. There is ModMii Classic, which uses a command line interface, but has all of the features available to the program. ModMii Skin has a graphical user interface, on the other hand, but has less options available to the user. If you're looking to simply mod your Wii for the first time, ModMii Skin should suffice. Otherwise, we reccomend using ModMii Classic where possible.
+ModMii를 사용하는 방법에는 두 가지가 있습니다. 명령줄 인터페이스를 사용하지만 프로그램에서 사용할 수 있는 모든 기능을 갖춘 ModMii 클래식이 있습니다. 반면에 ModMii 스킨은 그래픽 사용자 인터페이스를 가지고 있지만, 사용자에게 제공되는 옵션이 적습니다. 처음으로 Wii를 간단히 개조하고 싶다면 ModMii 스킨으로 충분할 겁니다. 그렇지 않은 경우, 가능하면 ModMii 클래식을 사용하는 것이 좋습니다.
 
-The chart below will help you determine what can be done in either interface.
+아래 표는 두 인터페이스에서 무엇을 할 수 있는지 파악하는 데 도움이 됩니다.
 
-| Tools                                          | ModMii Classic | ModMii Skin |
-| ---------------------------------------------- | -------------- | ----------- |
-| ModMii Wizard                                  | ✅              | ✅           |
-| SysCheck Updater Wizard                        | ✅              | ⛔           |
-| USB Loader Setup Wizard                        | ✅              | ✅           |
-| HackMii Solutions Wizard                       | ✅              | ✅           |
-| Abstinence Wizard                              | ✅              | ✅           |
-| Region Change Wizard                           | ✅              | ✅           |
-| SNEEK/EmuNAND Installation                     | ✅              | ✅           |
-| Open File Function                             | ✅              | ⛔           |
-| Load Download Queue                            | ✅              | ✅           |
-| Download Page 1/2/3/4                          | ✅              | ⛔           |
-| Advanced Downloads                             | ✅              | ⛔           |
-| Load Download Queue                            | ✅              | ⛔           |
-| Build Config Files                             | ✅              | ⛔           |
-| File Cleanup & App Updater | ✅              | ⛔           |
+| 도구                                 | ModMii 클래식 | ModMii 스킨 |
+| ---------------------------------- | ---------- | --------- |
+| ModMii 마법사                         | ✅          | ✅         |
+| SysCheck 업데이터 마법사                  | ✅          | ⛔         |
+| USB 로더 설치 마법사                      | ✅          | ✅         |
+| HackMii 해결 마법사                     | ✅          | ✅         |
+| 절제 마법사                             | ✅          | ✅         |
+| 지역 변경 마법사                          | ✅          | ✅         |
+| SNEEK/에뮤낸드 설치                      | ✅          | ✅         |
+| 파일 열기 기능                           | ✅          | ⛔         |
+| 다운로드 대기열 로드                        | ✅          | ✅         |
+| 다운로드 페이지 1/2/3/4                   | ✅          | ⛔         |
+| 고급 다운로드                            | ✅          | ⛔         |
+| 다운로드 대기열 로드                        | ✅          | ⛔         |
+| 구성 파일 빌드                           | ✅          | ⛔         |
+| 파일 정리 & 앱 업데이터 | ✅          | ⛔         |
 
-:::details Click here for a detailed explanation of each tool.
+:::details 각 도구에 대한 자세한 설명을 보려면 여기를 클릭합니다.
 
-| Tool                                                                                                           | Description                                                                                                                                                                                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| W = ModMii Wizard <-- Start Here to Mod Your Wii!                                     | This option can be used to hack your Wii for the first time or re-hack a Wii that has been previously modded.                                                                                                                                                                                     |
-| SU = SysCheck Updater Wizard (update only your outdated softmods)                           | This option checks for and updates old modifications installed to their wii such as DarkCorp/CIOSSPAGHETTI that can potentially cause problems for the latest homebrew custom firmware.                                                                                                           |
-| U = USB-Loader Setup Wizard                                                                                    | This option will properly set up your USB loader to be able to load your disk backups from an SD or USB hard drive. This option is not necessary if using the ModMii Wizard.                                                                                                      |
-| H = HackMii Solutions Wizard (Upside-Down HBC\No Vulnerable IOS Fix)                        | This option is useful for people who are having trouble getting the HackMii Installer to work or have an upside down homebrew channel.                                                                                                                                                            |
-| AW = Abstinence Wizard (Non-permanent Wii Hacks)                                            | This option allows you to run homebrew on your Wii without making any permanent modifications to the system NAND.                                                                                                                                                                                 |
-| RC = Region Change Wizard                                                                                      | This option can be used to change the region of your Wii without bricking it, and is arguably the best region changing wizard on the internet.                                                                                                                                                    |
-| S = SNEEK Installation, EmuNAND Builder\Modifier, Game Bulk Extractor                                          | This option will help you properly set up an EmuNAND (aka neek2o) onto your SD or USB. Benefits for EmuNAND include extra storage space for save games or channels, as well as running homebrew without making any permanent modifications to the system NAND. |
-| F = open a File or Folder with ModMii for many more functions!                                                 | This option is an advanced tool especially helpful for developers.                                                                                                                                                                                                                                |
-| 1 = Download Page 1 (System Menus, IOSs, MIOSs, Channels, etc.)             | This option opens the first download page that includes most of the key parts of the Wii System Menu (downloaded from NUS).                                                                                                                                                    |
-| 2 = Download Page 2 (Apps, USB-Loader Files, CheatCodes, etc.)              | This option opens the second download page that includes exploits and useful apps for your Wii including some PC programs.                                                                                                                                                                        |
-| 3 = Download Page 3 (System Menu Themes)                                                    | This option opens the third download page that includes some system menu themes and items required to install system menu themes (base apps are downloaded from NUS).                                                                                                          |
-| 4 = Download Page 4 (cIOSs and cMIOSs)                                                      | This option opens the fourth download page that includes cIOSes and cMIOSes for use in USB loaders.                                                                                                                                                                                               |
-| A = Advanced Downloads and Forwarder DOL\ISO Builder                                                           | This option allows you to download any IOS and cIOS and build custom DOL/ISO forwarders. Intended for advanced users only.                                                                                                                                                        |
-| L = Load Download Queue                                                                                        | This option loads bundled or previously saved download queues.                                                                                                                                                                                                                                    |
-| C = Build Config Files for Bootmii, Wad Manager or Multi-Mod Manager                                           | This option allows you to build customized config files for BootMii, Wad Manager, and Multi-Mod Manager.                                                                                                                                                                                          |
-| FC = File Cleanup & App Updater: Update Apps and\or remove un-needed files | This option removes unnessecary files from your SD Card or Hard Drive after finishing softmodding your Wii.                                                                                                                                                                                       |
+| 도구                                                                           | Description                                                                                                                                                                                           |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| W = ModMii 마법사 <-- 여기서 Wii를 개조를 시작하세요!              | 이 옵션은 처음으로 Wii를 해킹하는 데 사용할 수 있습니다.                                                                                                                                                    |
+| SU = SysCheck 업데이터 마법사 (오래된 소프트개조만 업데이트)                  | 이 옵션은 최신 홈브류 커스텀 펌웨어에 문제를 일으킬 수 있는 DarkCorp/CIOSSPAGHETTI와 같이 Wii에 설치된 이전 수정 사항을 확인하고 업데이트합니다.                                                                                        |
+| U = USB 로더 설정 마법사                                                            | 이 옵션을 선택하면 SD 또는 USB 하드 드라이브에서 디스크 백업을 로드할 수 있도록 USB 로더가 올바르게 설정됩니다. ModMii 마법사를 사용하는 경우에는 이 옵션이 필요하지 않습니다.                                                           |
+| H = HackMii 해결 마법사 (거꾸로 된 HBC\취약한 IOS 없음 수정)              | 이 옵션은 HackMii 설치 프로그램을 사용하는 데 문제가 있거나 홈브류 채널이 거꾸로 되어 있는 사용자에게 유용합니다.                                                                                                                  |
+| AW = 절제 마법사 (비영구적 Wii 해킹)                                 | 이 옵션을 사용하면 시스템 낸드를 영구적으로 수정하지 않고도 Wii에서 홈브류를 실행할 수 있습니다.                                                                                                                              |
+| RC = 지역 변경 마법사                                                               | 이 옵션을 사용하면 Wii가 벽돌되지 않고도 지역 설정을 변경할 수 있으며, 인터넷 상에서 가장 뛰어난 지역 설정 마법사로 평가받고 있습니다.                                                                                                       |
+| S = SNEEK 설치, 에뮤낸드 빌더\수정기, 게임 대량 추출기                                         | 이 옵션은 에뮤낸드 (일명 neek2o)를 SD 또는 USB에 올바르게 설정하는 데 도움이 됩니다. 에뉴낸드의 장점으로는 게임이나 채널을 저장할 수 있는 추가 저장 공간이 있고, 시스템 낸드를 영구적으로 수정하지 않고도 홈브류를 실행할 수 있다는 점이 있습니다. |
+| F = ModMii로 파일이나 폴더를 열어 더 많은 기능을 사용합니다!                                      | 이 옵션은 특히 개발자에게 유용한 고급 도구입니다.                                                                                                                                                          |
+| 1 = 다운로드 페이지 1 (시스템 메뉴, IOS, MIOS, 채널 등)                  | 이 옵션을 선택하면 Wii 시스템 메뉴의 주요 부분 대부분이 포함된 첫 번째 다운로드 페이지가 열립니다. (NUS에서 다운로드)                                                                                            |
+| 2 = 다운로드 페이지 2 (앱, USB 로더 파일, 치트코드 등)                     | 이 옵션을 선택하면 Wii에 필요한 유용한 앱과 일부 PC 프로그램을 포함한 두 번째 다운로드 페이지가 열립니다.                                                                                                                       |
+| 3 = 다운로드 페이지 3 (시스템 메뉴 테마)                                | 이 옵션을 선택하면 시스템 메뉴 테마와 시스템 메뉴 테마를 설치하는 데 필요한 항목이 포함된 세 번째 다운로드 페이지가 열립니다. (기본 앱은 NUS에서 다운로드)                                                                        |
+| 4 = 다운로드 페이지 4 (cIOS 및 cMIOS)                             | 이 옵션을 선택하면 USB 로더에서 사용할 수 있는 cIOS와 cMIOS가 포함된 네 번째 다운로드 페이지가 열립니다.                                                                                                                    |
+| A = 고급 다운로드 및 포워더 DOL\ISO 빌더                                                 | 이 옵션을 사용하면 모든 IOS 및 cIOS를 다운로드하고 사용자 정의 DOL/ISO 포워더를 구축할 수 있습니다. 고급 사용자만을 대상으로 합니다.                                                                                   |
+| L = 다운로드 대기열 로드                                                              | 이 옵션은 묶음으로 저장되었거나 이전에 저장된 다운로드 대기열을 불러옵니다.                                                                                                                                            |
+| C = Bootmii, Wad Manager 또는 Multi-Mod Manager용 구성 파일 빌드                      | 이 옵션을 사용하면 BootMii, Wad Manager, Multi-Mod Manager에 대한 커스터 구성 파일을 빌드할 수 있습니다.                                                                                                         |
+| FC = 파일 정리 & 앱 업데이터: 앱 업데이트 및 불필요한 파일 제거 | 이 옵션은 Wii의 소프트개조를 마친 후 SD 카드나 하드 드라이브에서 불필요한 파일을 제거합니다.                                                                                                                               |
 
 :::
 
-When using ModMii, it is important to note that it will generate a custom guide for you depending on the options that you select. For this reason, this guide will not be focused on how to mod your Wii, as ModMii handles that function. Instead, it will be a quick start guide show you how to effectively use it with the most common options.
+ModMii를 사용할 때, 선택한 옵션에 따라 커스텀 가이드가 생성된다는 점을 알아두는 것이 중요합니다. 이러한 이유로 이 가이드에서는 Wii를 개조하는 방법에 초점을 맞추지 않습니다. ModMii가 그 기능을 처리하기 때문입니다. 대신, 가장 일반적인 옵션을 사용하여 효과적으로 사용하는 방법을 보여주는 빠른 시작 가이드를 제공하겠습니다.
 
-## Installing ModMii
+## ModMii 설치
 
-### Requirements
+### 요구 사항
 
 - Wii
 - A USB drive or SD Card
-- A Windows PC (a Virtual Machine will work)
+- 윈도우 PC (가상 머신이 작동함)
 - [ModMii](https://modmii.github.io/)
 
-### Installation
+### 설치
 
 ::: warning
 
-Your browser or antivirus software may flag ModMii as malware - this is a false positive. ModMii does NOT contain any malware.
+브라우저나 바이러스 백신 소프트웨어가 ModMii를 맬웨어로 표시할 수 있습니다. 이는 긍정 오류입니다. ModMii에는 맬웨어가 없습니다.
 
 :::
 
-1. Go to the [ModMii website](https://modmii.github.io) and scroll down to the Download section. Here, select the `Installer` option. Your browser may flag the installer as malware, but it is a **false positive**.
+1. [ModMii 웹사이트](https://modmii.github.io)로 가서 다운로드 섹션까지 아래로 스크롤합니다. 여기에서 `설치 프로그램` 옵션을 선택합니다. 브라우저가 설치 프로그램을 맬웨어로 표시할 수 있지만 이는 **긍정 오류**입니다.
 
    ![](/images/modmii/modmii-download.png)
 
-2. Open the `ModMiiInstaller.exe` file and go through the setup process.
+2. `ModMiiInstaller.exe` 파일을 열고 설치 과정을 진행합니다.
 
    ![](/images/modmii/modmii-install.png)
 
-## Using the ModMii Wizard
+## ModMii 마법사 사용
 
-The ModMii Wizard is tool that can softmod your Wii from start to finish, downloading all necessary files and then generating a guide that you can use to implement the softmod. This tool can also be used to overwrite existing softmods on a previously softmodded Wii.
+ModMii 마법사는 Wii를 처음부터 끝까지 소프트개조로 개조할 수 있는 도구로, 필요한 모든 파일을 다운로드한 다음 소프트개조를 구현하는 데 사용할 수 있는 가이드를 생성합니다. 이 도구는 이전에 소프트개조가 적용된 Wii에 기존 소프트개조를 덮어쓰는 데에도 사용할 수 있습니다.
 
-1. Open ModMii Skin or ModMii Classic and select the ModMii Wizard option at the top of the list.
+1. ModMii 스킨 또는 ModMii 클래식을 열고 목록 맨 위에 있는 ModMii 마법사 옵션을 선택합니다.
 
    ![](/images/modmii/modmii-wizard-1.png)
 
-2. Answer `Yes` to the first question, unless you have a very specific idea of what you would like to do or update to your Wii.
+2. Wii에서 무엇을 하거나 업데이트하고 싶은지에 대한 구체적인 생각이 없는 한, 첫 번째 질문에 `예`라고 대답합니다.
 
    ![](/images/modmii/modmii-wizard-2.png)
 
-3. Select your current System Menu version, followed by the System Menu Region, following the instructions in the program. If you are still confused, check the bottom option on each screen for an instructional video.
+3. 프로그램의 지시에 따라 현재 시스템 메뉴 버전을 선택한 다음 시스템 메뉴 영역을 선택합니다. 여전히 헷갈리다면, 각 화면 하단 옵션에서 교육 영상을 확인해보세요.
 
    ![](/images/modmii/modmii-wizard-3.png)
 
-4. Select the exploit you would like to use to mod your Wii. The exploits below are outlined throughout this website, but in most cases we would reccommend using Wilbrand if you have an SD card on hand.
+4. Wii를 개조하는 데 사용할 익스플로잇을 선택합니다. 아래의 익스플로잇은 이 웹사이트 전체에 걸쳐 개략적으로 설명되어 있지만, 대부분의 경우 SD 카드가 있다면 Wilbrand를 사용하는 것이 좋습니다.
 
    ![](/images/modmii/modmii-wizard-4.png)
 
-5. If you selected the Wilbrand option in the previous step, enter your Wii's MAC address. If you don't know how to check your Wii's MAC address, enter `Help` in the text box for an instructional video.
+5. 이전 단계에서 Wilbrand 옵션을 선택한 경우 Wii의 MAC 주소를 입력합니다. Wii의 MAC 주소를 확인하는 방법을 모르는 경우, 텍스트 상자에 `Help`을 입력하면 지침 비디오가 나옵니다.
 
    ![](/images/modmii/modmii-wizard-5.png)
 
-6. Select your desired System Menu version from the list.
+6. 목록에서 원하는 시스템 메뉴 버전을 선택합니다.
 
    ![](/images/modmii/modmii-wizard-6.png)
 
-7. Select whether or not you would like to install any of the listed channels - this is an optional step.
+7. 나열된 채널을 설치할지 여부를 선택합니다. 이는 선택 사항입니다.
 
    ![](/images/modmii/modmii-wizard-7.png)
 
-8. Select whether or not you would like to install a custom Wii theme, with the choice of three theme effects. Each effect deals with how much the outline when hovering over a Wii Channel spins.
+8. 세 가지 테마 효과 중에서 선택하여 커스텀 Wii 테마를 설치할지 여부를 선택합니다. 각 효과는 Wii 채널 위에 마우스를 올렸을 때 윤곽선이 얼마나 회전하는지에 대한 내용을 다룹니다.
 
    ![](/images/modmii/modmii-wizard-8.png)
 
-9. Select whether or not you would like to set up a USB Loader for use with your Wii.
+9. Wii와 함께 사용할 USB 로더를 설정할지 여부를 선택합니다.
 
    ![](/images/modmii/modmii-wizard-9.png)
 
-10. If you selected `Yes` in the USB Loader menu, select which USB Loader you would like to use. If you choose an individual one, we reccomend either USB Loader GX or WiiFlow as both are covered on this website, or you may optionally download each option.
+10. USB 로더 메뉴에서 `예`를 선택한 경우, 사용할 USB 로더를 선택합니다. 개별적으로 선택하는 경우 USB Loader GX 또는 WiiFlow를 권장합니다. 두 옵션 모두 이 웹사이트에서 다루고 있으며, 원하는 경우 두 옵션을 모두 다운로드할 수도 있습니다.
 
     ![](/images/modmii/modmii-wizard-10.png)
 
-11. If you selected `Yes` in the USB Loader menu, select where you would like to save your USB Loader files at.
+11. USB 로더 메뉴에서 `예`를 선택한 경우, USB 로더 파일을 저장할 위치를 선택합니다.
 
     ![](/images/modmii/modmii-wizard-11.png)
 
-12. Verify where you would like to save files for your SD Card and/or USB Drive.
+12. SD 카드 및/또는 USB 드라이브에 파일을 저장할 위치를 확인합니다.
 
     ![](/images/modmii/modmii-wizard-12.png)
 
-13. Confirm your settings are correct, and then press `Finish`. Once you press the button, ModMii will begin to process and download files in the background, and will automatically generate and open a guide for you. From here, you should follow the guide generated by ModMii.
+13. 설정이 올바른지 확인한 후 `마침`을 누릅니다. 버튼을 누르면 ModMii가 백그라운드에서 파일을 처리하고 다운로드하기 시작하고, 자동으로 가이드를 생성하여 열어줍니다. 여기에서는 ModMii가 생성한 가이드를 따릅니다.
 
     ![](/images/modmii/modmii-wizard-13.png)
 
-## SysCheck Updater Wizard
+## SysCheck 업데이터 마법사
 
-The SysCheck Updater Wizard is a tool that utilizes the homebrew app [SysCheck](syscheck) to analyze any modifications on your Wii, especially IOS and cIOS. It accepts a `syscheck.csv` file generated by the app, and then provides any nessecary updates as needed.
+SysCheck 업데이터 마법사는 홈브류 앱 [SysCheck](syscheck)를 활용해 Wii, 특히 IOS 및 cIOS의 모든 수정 사항을 분석하는 도구입니다. 앱에서 생성된 `syscheck.csv` 파일을 받아서 필요에 따라 필요한 업데이트를 제공합니다.
 
-1. Open ModMii Classic and enter in `SU` to open the SysCheck Updater Wizard.
+1. ModMii 클래식을 열고 `SU`를 입력하여 SysCheck 업데이타 마법사를 엽니다.
 
    ![](/images/modmii/syscheck-wizard-1.png)
 
-2. Follow the instructions in the window if you don't already have a SysCheck log, and then drag and drop the `syscheck.csv` file from Windows Explorer into the window. This will paste the location of the file, from which you can press Enter.
+2. 아직 SysCheck 로그가 없으면 창에 나오는 지시를 따른 다음, 윈도우 탐색기에서 `syscheck.csv` 파일을 창으로 끌어다 놓습니다. 이렇게 하면 Enter 키를 누를 수 있는 파일 위치가 붙여넣어집니다.
 
    ![](/images/modmii/syscheck-wizard-2.png)
 
-3. The program will analyze your SysCheck file, and will provide options for you depending on what it sees. In this example instance, the mods on the Wii were up-to-date, but there were several unnecessary IOSes that could be stubbed. If you want to make these changes to your Wii, simply enter in `Y` and press Enter. From here, you should follow the guide generated by ModMii.
+3. 이 프로그램은 SysCheck 파일을 분석하고, 분석 결과에 따라 옵션을 제공합니다. 이 예시에서 Wii의 개조는 최신 상태였지만, 스텁이 가능한 불필요한 IOS가 여러 개 있었습니다. Wii에 이러한 변경 사항을 적용하려면 `Y`를 입력하고 Enter를 누릅니다. 여기에서는 ModMii가 생성한 가이드를 따릅니다.
 
    ![](/images/modmii/syscheck-wizard-3.png)
 
-## HackMii Solutions Wizard
+## HackMii 해결 마법사
 
-The HackMii Solutions Wizard is a tool that fixes problems that may arise from things like Darkcorp/CIOSSPAGHETTI by installing clean IOSes. Examples of problems that may arise because of this are listed below:
+HackMii 해결 마법사는 깨끗한 IOS를 설치하여 Darkcorp/CIOSSPAGHETTI와 같은 문제에서 발생할 수 있는 문제를 해결하는 도구입니다. 이로 인해 발생할 수 있는 문제의 예는 다음과 같습니다:
 
-- HackMii Installer not prompting "Press (1) to continue"
-- HackMii Installer saying "no vulnerable IOS found!"
-- Homebrew Channel displaying upside-down
+- HackMii 설치 프로그램이 "계속하려면 (1) 버튼을 누르세요"라는 메시지를 표시하지 않습니다.
+- HackMii 설치 프로그램에서 "취약한 IOS를 찾을 수 없습니다!"라는 메시지가 표시됩니다.
+- 홈브류 채널이 거꾸로 표시됨
 
-1. Open ModMii Skin or ModMii Classic and select the HackMii Solutions option.
+1. ModMii 스킨 또는 ModMii 클래식을 열고 HackMii 해결 옵션을 선택합니다.
 
    ![](/images/modmii/hackmii-wizard-1.png)
 
-2. Select your current System Menu version, followed by the System Menu Region, following the instructions in the program. If you are still confused, check the bottom option on each screen for an instructional video.
+2. 프로그램의 지시에 따라 현재 시스템 메뉴 버전을 선택한 다음 시스템 메뉴 영역을 선택합니다. 여전히 헷갈리다면, 각 화면 하단 옵션에서 교육 영상을 확인해합니다.
 
    ![](/images/modmii/hackmii-wizard-2.png)
 
-3. Select the exploit you would like to use to mod your Wii. The exploits below are outlined throughout this website, but in most cases we would reccommend using Wilbrand if you have an SD card on hand.
+3. Wii를 개조하는 데 사용할 익스플로잇을 선택합니다. 아래의 익스플로잇은 이 웹사이트 전체에 걸쳐 개략적으로 설명되어 있지만, 대부분의 경우 SD 카드가 있다면 Wilbrand를 사용하는 것이 좋습니다.
 
    ![](/images/modmii/hackmii-wizard-3.png)
 
-4. If you selected the Wilbrand option in the previous step, enter your Wii's MAC address. If you don't know how to check your Wii's MAC address, enter `Help` in the text box for an instructional video.
+4. 이전 단계에서 Wilbrand 옵션을 선택한 경우 Wii의 MAC 주소를 입력합니다. Wii의 MAC 주소를 확인하는 방법을 모르는 경우, 텍스트 상자에 `Help`을 입력하면 지침 비디오가 나옵니다.
 
    ![](/images/modmii/hackmii-wizard-4.png)
 
-5. Verify where you would like to save files for your SD Card and/or USB Drive.
+5. SD 카드 및/또는 USB 드라이브에 파일을 저장할 위치를 확인합니다.
 
    ![](/images/modmii/modmii-wizard-12.png)
 
-6. Confirm your settings are correct, and then press `Finish`. Once you press the button, ModMii will begin to process and download files in the background, and will automatically generate and open a guide for you. From here, you should follow the guide generated by ModMii. After finishing this guide, it is recommended that you use the [SysCheck Updater Wizard](#syscheck-updater-wizard) to undo any other problematic modifications on your Wii.
+6. 설정이 올바른지 확인한 후 `마침`을 누릅니다. 버튼을 누르면 ModMii가 백그라운드에서 파일을 처리하고 다운로드하기 시작하고, 자동으로 가이드를 생성하여 열어줍니다. 여기에서는 ModMii가 생성한 가이드를 따릅니다. 이 가이드를 완료한 후에는 [SysCheck 업데이터 마법사](#syscheck-updater-wizard)를 사용하여 Wii에서 문제가 있는 다른 수정 사항을 실행 취소하는 것이 좋습니다.
 
    ![](/images/modmii/hackmii-wizard-5.png)
 
 ::: tip
 
-[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::
