@@ -34,9 +34,9 @@ A szolgáltatások telepítési útmutatója a patcherrel együtt a [WiiLink] ho
 1. Töltsd le és csomagold ki az sntp. zip-fájlt az SD kártya vagy USB drive gyökerére.
 2. Csatlakoztasd az USB drive-ot vagy az SD kártyát a Wiidhez.
 3. Indítsd el a Homebrew Channelt!
-4. Indítsd el az sntp-t!
-5. Állítsd be a pontos időt a nyílgombokkal!
-6. A kilépéshez nyomd meg a HOME-gombot!
+4. Indítsd el az sntp-t.
+5. Állítsd be a pontos időt a +Control Pad-del.
+6. A kilépéshez nyomd meg a HOME gombot.
 
 ### vWii
 
@@ -52,8 +52,8 @@ A szolgáltatások telepítési útmutatója a patcherrel együtt a [WiiLink] ho
 2. Kattints a „Generate” („generálás”)-gombra, majd másold ki a megjelenő információt kézileg vagy a „Copy” („másolás”)-gombbal!
 3. Helyezd be az SD kártyát a számítógépbe és nyisd meg az `SD:/apps/priiloader` mappában található `hacks_hash.ini`-fájlt egy szövegszerkesztőben, pl. a Jegyzettömbben.
 4. Illeszd be a kimásolt adatokat a `hacks_hash.ini` fájl legaljára és mentsd el a változtatásokat.
-5. Ha a régiódban van nyári időszámítás, akkor ismételd meg az 1–4. lépést a másik időzónával is!
-6. Helyezd be az SD kártyát a Wii U-ba!
+5. Ha a régiódban van nyári időszámítás, akkor ismételd meg az 1–4. lépést a másik időzónával is.
+6. Helyezd be az SD kártyát a Wii U-dba.
 7. [Bootold a Priiloader](priiloader#section-iii---entering-priiloader)-t a vWii-n.
 8. Válaszd ki a „Hacks” menüpontot és engedélyezd a „Fix NWC24iSetUniversalTime” hacket.
 9. Térj vissza a vWii menübe.
