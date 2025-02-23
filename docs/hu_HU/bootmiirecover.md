@@ -60,7 +60,7 @@ Ha egy játék mentését szeretnéd visszaállítani, importáld a Dolphinba a 
 
    ![](/images/bootmii/BootMii_Gears.png)
 
-4. Válaszd ki a RestoreMii-menüpontot!
+4. Válaszd ki a RestoreMii gombot.
 
    ![](/images/bootmii/BootMii_Restore.png)
 
@@ -76,7 +76,7 @@ Ha egy játék mentését szeretnéd visszaállítani, importáld a Dolphinba a 
 
    ![](/images/bootmii/BootMii_NAND_Restore.png)
 
-8. A folyamat befejeztével a program jelenteni fogja, hogy a visszaállítás sikerült-e (`I HAZ SUCCESS!`) vagy sem (`I HAZ FAIL`). Ezután nyomj meg egy gombot a konzolon vagy a vezérlőn!
+8. A folyamat befejeztével a program jelenteni fogja, hogy a visszaállítás sikerült-e (`I HAZ SUCCESS!`) vagy sem (`I HAZ FAIL`). Nyomj meg egy tetszőleges gombot a konzolon vagy a vezérlőn.
 
    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
