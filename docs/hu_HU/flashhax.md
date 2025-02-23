@@ -33,7 +33,7 @@ A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül
 
 1. Nyisd meg az oldalt a könyvjelzőből!
 
-2. Légy türelemmel!
+2. Várj egy picit
 
    - Eltarthat egy darabig, amíg a telepítő letöltődik.
 
@@ -41,9 +41,9 @@ A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül
 
 3. If the exploit was successful, your device will have loaded the HackMii Installer.
    - Lehetséges, hogy ez több próbálkozást is igényelni fog.
-   - Ha a HackMii-telepítő nem indul el és a konzol lefagy (ezt onnan tudod, hogy a mutató megtorpan és nem mozdul meg), akkor indítsd újra a Wiit és kezdd előről ezt a részt!
+   - Ha a HackMii Installer nem indul el és a konzol lefagy (a kurzor nem mozdul), akkor indítsd újra a Wii-t indítsd el a Internet Channel-t és kezdd újra ezt a részt.
 
-Ha több próbálkozás után sem működik, próbáld törölni a böngésző sütijeit vagy az Internet Channel játékmentését!
+Ha több próbálkozás után sem tölt be, próbáld törölni a böngésző sütijeit vagy az Internet Channel mentését.
 
 Ha további próbálkozások után sem működik a Flashhax, javasoljuk, hogy próbálj meg egy [másik exploitot](get-started) helyette.
 
