@@ -10,7 +10,7 @@ Ha a Wii U oldal már moddolt, folytasd a [Homebrew Channel telepítésével](vw
 
 ::: info
 
-Az SD kártyád FAT32 kell formázva legyen. If your SD Card is not formatted to FAT32, follow [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) to format it. **Ne** címkézd fel az SD kártyát `wiiu`-ként, különben problémákat okoz a homebrew-val.
+Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32-re formázott, kövesd [ezt az útmutatót](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) a formázásához. **Ne** címkézd fel az SD kártyát `wiiu`-ként, különben problémákat okoz a homebrew-val.
 
 ## Követelmények
 
