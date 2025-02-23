@@ -6,7 +6,7 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 ### Követelmények
 
-- Egy SD kártya vagy pendrive legalább 4,7 GB szabad hellyel (ha kétrétegű lemezt másolsz le, akkor 8,5 GB szabad hellyel)
+- Egy SD kártya vagy USB drive legalább 4,7 GB szabad hellyel (ha kétrétegű lemezt másolsz le, akkor 8,5 GB szabad hellyel).
 - [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 ### Előkészítés
@@ -21,23 +21,23 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 5. Kapcsold be a konzolod.
 
-6. Indítsd el a Homebrew Channelt!
+6. Indítsd el a Homebrew Channelt.
 
-7. Indítsd el a listáról a CleanRipet!
+7. Indítsd el a homebrew listáról a CleanRip-et.
 
 8. Amikor a program megkérdezi, hogy „Enable checksum calculations?”, válaszolj igennel (`Yes`).
 
    ![](/images/homebrew/CleanRip/checksum.png)
 
-9. Válaszd ki, hogy USB-eszközre vagy SD kártyára szeretnéd másolni a játékot!
+9. Válaszd ki, hogy USB-eszközre vagy SD kártyára szeretnéd másolni a játékot.
 
    ![](/images/homebrew/CleanRip/device.png)
 
-10. Válaszd ki az eszköz fájlrendszer-típusát – a legtöbb esetben ez FAT (FAT32)!
+10. Válaszd ki az eszköz fájlrendszer-típusát – a legtöbb esetben ez FAT (FAT32).
 
     ![](/images/homebrew/CleanRip/filesystem.png)
 
-11. Ellenőrizd, hogy az eszköz jól csatlakozik-e a Wiihez, majd a folytatáshoz nyomd meg az A-gombot!
+11. Ellenőrizd, hogy az eszköz jól csatlakozik-e a Wiihez, majd a folytatáshoz nyomd meg az A gombot.
 
     ![](/images/homebrew/CleanRip/insertdevice.png)
 
@@ -47,13 +47,13 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
     ::: warning
 
-    Lehetséges, hogy a program hibát ír ki, a letöltés megkísérlésénél. Ha ez így történik, akkor indítsd újra a konzolod és próbáld újra! Ha többször is hibát kapsz, akkor a fájlok letöltése nélkül másold le a lemezt, majd később a Dolphin emulátorral ellenőrizd a másolat tisztaságát!
+    Lehetséges, hogy a program hibát ír ki, a letöltés megkísérlésénél. Ha ez így történik, akkor indítsd újra a konzolod és próbáld újra! Ha továbbra is hibát kapsz, akkor a fájlok dumpold a lemezt, majd később a Dolphin emulátorral ellenőrizd a másolatot.
 
     :::
 
     ![](/images/homebrew/CleanRip/redump.png)
 
-13. Helyezd be a másolni kívánt lemezt, majd a folytatáshoz nyomd meg az A-gombot!
+13. Helyezd be a dumpolni kívánt lemezt, majd a folytatáshoz nyomd meg az A gombot.
 
     ![](/images/homebrew/CleanRip/insertdisc.png)
 
@@ -67,11 +67,11 @@ A CleanRip a 2.1.2-es verziójától kezdve képes automatikusan felismerni, hog
 
 ::: warning
 
-Ha a program hibát ír ki, ellenőrizd, hogy a másolni kívánt lemez tiszta-e és, hogy a konzol be tudja-e olvasni! Lehetséges, hogy ezt a hibát a program akkor is kiírja, ha egyébként tudsz játszani a játékkal. Ha a probléma fennáll, próbálj lemásolni egy másik lemezt és ellenőrizni, hogy ott is előjön a hiba!
+Ha a program hibát ír ki, ellenőrizd, hogy a másolni kívánt lemez tiszta-e és, hogy a konzol be tudja-e olvasni. Lehetséges, hogy ezt a hibát a program akkor is kiírja, ha egyébként tudsz játszani a játékkal. Ha a probléma fennáll, próbálj lemásolni egy másik lemezt és ellenőrizni, hogy ott is előjön a hiba.
 
 :::
 
-1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e! Ha nem vagy benne biztos, válaszolj nemmel (`No`).
+1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e. Ha nem vagy benne biztos, válaszolj nemmel (`No`).
 
    ![](/images/homebrew/CleanRip/dateldisc.png)
 
@@ -103,7 +103,7 @@ Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról másolatot ké
 
 :::
 
-1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e! Ha nem vagy benne biztos, válaszolj nemmel (`No`).
+1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e. Ha nem vagy benne biztos, válaszolj nemmel (`No`).
 
    ![](/images/homebrew/CleanRip/dateldisc.png)
 
