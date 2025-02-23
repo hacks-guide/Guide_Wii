@@ -26,7 +26,7 @@ A konzol **brickelésének** magas esélye miatt **erősen** ajánljuk, hogy mes
 
 ::: info
 
-Ha az útmutatóval kapcsolatban segítségre lenne szükséged (angol nyelven), kérjük csatlakozz a [Wii mini Hacking Discord server](https://discord.gg/6ryxnkS)-hez! (ajánlott)
+Ha az útmutatóval kapcsolatban segítségre lenne szükséged (angol nyelven), kérjük csatlakozz a [Wii mini Hacking Discord server](https://discord.gg/6ryxnkS)-hez. (ajánlott)
 
 :::
 
@@ -157,7 +157,7 @@ A konzol **brickelésének** magas esélye miatt **erősen** ajánljuk, hogy mes
 
 ::: info
 
-Ha az útmutatóval kapcsolatban segítségre lenne szükséged (angol nyelven), kérjük csatlakozz a [Wii mini Hacking Discord server](https://discord.gg/6ryxnkS)-hez! (ajánlott)
+Ha az útmutatóval kapcsolatban segítségre lenne szükséged (angol nyelven), kérjük csatlakozz a [Wii mini Hacking Discord server](https://discord.gg/6ryxnkS)-hez. (ajánlott)
 
 :::
 
