@@ -37,14 +37,14 @@ Először is, ellenőrizd, hogy a Wii-od képes-e _egyáltalán_ helyreállítá
 ### I. módszer – Smash Stack
 
 1. Ha rendelkezel egy Super Smash Bros. Brawl játéklemezzel, akkor a [Smash Stack](legacy-exploits#smash-stack)-módszerrel betöltheted a HackMii-telepítőt az SD kártyádról.
-2. Lépj helyreállítási módba és helyezd be a Super Smash Bros. Brawl-lemezt! Ha minden jól megy, akkor a játék elindul.
-3. A folytatáshoz kövesd a Wiibrew-on leírt lépéseket!
+2. Bootolj a Recovery Mode-ba és helyezd be a Super Smash Bros. Brawl játéklemezt. Ha minden jól megy, akkor a játék elindul.
+3. Kövesd a Wiibrew-on leírt lépéseket az exploithoz.
 
 ### II. módszer – Játékmentés
 
 1. Ha van már egy játékmentése a Wii-dhez, egy olyan exploittal, ami listázott a [Legacy Exploits](legacy-exploits)-ok között, akkor azt ismét felhasználhatod a HackMii-telepítő betöltéséhez.
-2. Lépj helyreállítási módba és helyezd be a játéklemezt! Ha minden jól megy, akkor a játék elindul.
-3. A folytatáshoz kövesd a Wiibrew-on leírt lépéseket!
+2. Bootolj Recovery Mode-ba és helyezd be a játéklemezt. Ha minden jól megy, akkor a játék elindul.
+3. Kövesd a Wiibrew-on leírt lépéseket az exploithoz.
 
 ### III. módszer – Bluebomb
 
@@ -64,6 +64,6 @@ Ezek után telepítheted a Homebrew Channelt és hozzáférhetsz az SD kártyád
 
 ::: tip
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::
