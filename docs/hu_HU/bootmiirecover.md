@@ -16,7 +16,7 @@ Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fé
 
 ::: danger
 
-A Family Edition Wiiken (ezek azok, amelyek nem rendelkeznek GameCube-csatlakozókkal) NEM LEHETSÉGES biztonsági mentéseket visszaállítani. A biztonsági mentés visszaállításához egy olyan megerősítő kódot kell megadnod, amihez egy GameCube-vezérlő szükséges. Ha további segítségre van szükséged, kérj segítséget!
+A Family Edition Wiiken (ezek azok, amelyek nem rendelkeznek GameCube-csatlakozókkal) NEM LEHETSÉGES biztonsági mentéseket visszaállítani. A biztonsági mentés visszaállításához egy olyan megerősítő kódot kell megadnod, amihez egy GameCube-vezérlő szükséges. Ha további segítségre van szükséged, kérj segítséget.
 
 :::
 
@@ -48,15 +48,15 @@ Ha egy játék mentését szeretnéd visszaállítani, importáld a Dolphinba a 
 
 ## Lépések
 
-1. Indítsd el a Homebrew Channelt!
+1. Indítsd el a Homebrew Channelt.
 
-2. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” („A BootMii indítása”)-menüpontot!
+2. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” menüpontot.
 
    - Ha a Homebrew Channel nem hozzáférhető és telepítve van a Priiloader, akkor azt is elindíthatod a konzol bekapcsolásakor, majd a `BootMii IOS` menüponttal megnyithatod a BootMiit.
 
    ![](/images/bootmii/BootMii_HBC.png)
 
-3. Válaszd ki az „Options” („beállítások”)-menüpontot! (Ez az, amelyiken egy fogaskerék van.)
+3. Válaszd ki az Options menüpontot (az ikon fogaskerékkel).
 
    ![](/images/bootmii/BootMii_Gears.png)
 
@@ -80,7 +80,7 @@ Ha egy játék mentését szeretnéd visszaállítani, importáld a Dolphinba a 
 
    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
-9. Ha végeztél, nyomd meg a jobb szélen található vissza-gombot, majd a kilépéshez nyomd meg a Wii menü vagy a Homebrew Channel-gombot!
+9. Nyomd meg a Back gombot (a gomb egy nyíllal), majd a BootMii-ből kilépéshez nyomd meg a Wii menü vagy a Homebrew Channel gombot.
 
    ![](/images/bootmii/BootMii_Return.png)
 
@@ -92,6 +92,6 @@ Ha azért állítasz vissza egy NAND biztonsági mentést, hogy javatsd a bricke
 
 ::: tip
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::
