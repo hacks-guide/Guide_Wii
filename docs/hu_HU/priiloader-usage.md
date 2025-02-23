@@ -36,13 +36,13 @@ A 3. lépésben fogod telepíteni az `uneoboot.dol`-t.
 
 1. Indítsd el a Homebrew Channelt!
 
-2. Indítsd el a listáról a „Load Priiloader”-t!
+2. Indítsd el a homebrew listáról a „Load Priiloader”-t.
 
 3. Görgess le a `Load/Install file` menüponthoz és nyomj A gombot.
 
    ![](/images/priiloader/menu_install_file.png)
 
-4. Görgess le a listán, amíg meg nem látod a kívánt programot, majd telepítsd az A-gombbal!
+4. Görgess le a listán, amíg ki nem jelölted a kívánt programot, majd telepítsd az A gombbal.
 
    ![](/images/priiloader/installing_file.png)
 
@@ -72,13 +72,13 @@ A beállítás befejeztével a Wii bekapcsoláskor automatikusan a kiválasztott
 
 1. Indítsd el a Homebrew Channelt!
 
-2. Indítsd el a listáról a „Load Priiloader”-t!
+2. Indítsd el a homebrew listáról a „Load Priiloader”-t.
 
 3. Görgess le a `Settings` menüponthoz, és nyomj 'A' gombot.
 
    ![](/images/priiloader/menu_settings.png)
 
-4. Görgess át az „Autoboot options” („automatikus indítási lehetőségek”)-menün a jobb nyílgombbal, amíg meg nem látod a kívánt menüpontot!
+4. Görgess át az „Autoboot options” menün a jobb nyílgombbal, amíg meg nem látod a kívánt menüpontot.
 
    - A „Disabled” („letiltva”)-lehetőség a Priiloader menüjébe fogja indítani a konzolt.
 
