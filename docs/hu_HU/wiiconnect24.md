@@ -55,8 +55,8 @@ A szolgáltatások telepítési útmutatója a patcherrel együtt a [WiiLink] ho
 5. Ha a régiódban van nyári időszámítás, akkor ismételd meg az 1–4. lépést a másik időzónával is!
 6. Helyezd be az SD kártyát a Wii U-ba!
 7. [Bootold a Priiloader](priiloader#section-iii---entering-priiloader)-t a vWii-n.
-8. Válaszd ki a „Hacks”-menüpontot és engedélyezd a „Fix NWC24iSetUniversalTime”-módosítást!
-9. Térj vissza a vWii menübe!
+8. Válaszd ki a „Hacks” menüpontot és engedélyezd a „Fix NWC24iSetUniversalTime” hacket.
+9. Térj vissza a vWii menübe.
 
 ## WiiConnect24 Priiloader-módosítások
 
