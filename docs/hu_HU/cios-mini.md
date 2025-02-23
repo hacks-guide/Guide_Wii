@@ -24,7 +24,7 @@ Ha egy Wii U-d (vWii) van, [ezt](cios-vwii) az útmutatót kövesd helyette.
 
 ::: warning
 
-Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telepíteni! Ha mégis így tennél, azzal [brickelheted](bricks#ios-brick) a konzolod.
+Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire telepíteni. Ha mégis így tennél, azzal [brickelheted](bricks#ios-brick) a konzolod.
 
 :::
 
@@ -44,7 +44,7 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telep
 4. Másold át a d2xl cIOS Installer `.zip` fájlban található `d2x-cios-installer` mappát az USB drive `apps` mappájába.
 5. Helyezd be a pendrive-ot a konzolba!
 6. Kapcsold be a konzolod.
-7. Indítsd el a Homebrew Channelt!
+7. Indítsd el a Homebrew Channelt.
 8. Indítsd el a listáról a „d2x cIOS Installer”-t!
 
 ### II. rész – Telepítés
@@ -59,7 +59,7 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy rendszermenüt Wii minire telep
    - Jegyezd fel a megjelenő verziószámot (`IOS57-64-`-gyel kezdődik és `v31776`-tal vagy `v31775`-tel ér véget)
 3. A telepítés indításához nyomd meg az A gombot.
    - Ha a telepítés megszakad `TMD version mismatch` hibával, akkor a Control Pad jobb- és bal nyílgombjaival állítsd át a `Select cIOS base` opciót amíg verziószám más nem lesz, mint amit korábban próbáltál. Az 57-es szám nem változik.
-4. A folyamat végén lépj ki a telepítőből!
+4. A folyamat végén lépj ki a telepítőből.
 
 ::: tip
 
@@ -79,6 +79,6 @@ A Wii és a Wii mini konzolok ismertek arról, hogy csak az AX88772 chipet haszn
 
 ::: tip
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::
