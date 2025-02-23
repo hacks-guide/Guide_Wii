@@ -63,7 +63,7 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
 
 7. Ezután el fog kezdődni a belső tárhely biztonsági mentése. A folyamatot a képernyőn figyelemmel követheted.
 
-   - Lehetséges, hogy az ábra néhány feketével jelölt sérült blokkot („Bad block”) fog mutatni. Ne aggódj – ez a gyárban történő adatosztályozás természetes mellékterméke és nem azt jelenti, hogy baj van.
+   - A „Bad Blocks”-ok nomálisak és többnyire a gyárból származnak a NAND binning miatt. Ne aggódj – ez a gyárban történő adatosztályozás természetes mellékterméke és nem azt jelenti, hogy baj van.
 
    ![](/images/bootmii/BootMii_NAND_Backup.png)
 
