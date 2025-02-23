@@ -61,7 +61,7 @@ Bármikor telepítheted később](hackmii).
 
     ![](/images/hbc/blank.png)
 
-## Olvass el!
+## Kötelező olvasnivaló
 
 Az útmutató befejezése után képes leszel homebrew alkalmazásokat futtatni – ezek között, ha sikerült telepítened, a BootMiit is, amellyel biztonsági mentéseket készíthetsz és tölthetsz vissza a Wii belső tárhelyéről.
 
