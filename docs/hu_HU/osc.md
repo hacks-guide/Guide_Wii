@@ -58,7 +58,7 @@ Ha felugrik egy Felhasználói Fiókok Felügyelete-ablak, ami megkérdezi, hogy
 
    ![](/images/osc/install-finished-OSCDL.png)
 
-3. Keress meg egy alkalmazást, amit le szeretnél tölteni, majd nyomd meg a „Download” („letöltés”)-gombot! Ha szeretnéd, akkor a „Send to Wii”-gombbal egyenesen a Wiire küldheted az alkalmazást (ehhez a Wiinek és a számítógépnek ugyanazon a hálózaton kell lennie).
+3. Keress egy alkalmazást, amit le szeretnél tölteni, majd nyomd meg a „Download” gombot. Ha szeretnéd, akkor a „Send to Wii”-gombbal egyenesen a Wiire küldheted az alkalmazást (ehhez a Wiinek és a számítógépnek ugyanazon a hálózaton kell lennie).
 
    ![](/images/osc/app-download-OSCDL.png)
 
@@ -90,7 +90,7 @@ Python 3 telepítésre van szükséged az OSCDL haszmálatához ezeken a platfor
 
    ![](/images/osc/run-OSCDL-terminal.png)
 
-5. Keress meg egy alkalmazást, amit le szeretnél tölteni, majd nyomd meg a „Download” („letöltés”)-gombot! Ha szeretnéd, akkor a „Send to Wii”-gombbal egyenesen a Wiire küldheted az alkalmazást (ehhez a Wiinek és a számítógépnek ugyanazon a hálózaton kell lennie).
+5. Keress egy alkalmazást, amit le szeretnél tölteni, majd nyomd meg a „Download” gombot. Ha szeretnéd, akkor a „Send to Wii”-gombbal egyenesen a Wiire küldheted az alkalmazást (ehhez a Wiinek és a számítógépnek ugyanazon a hálózaton kell lennie).
 
    ![](/images/osc/app-download-OSCDL-linux.png)
 
