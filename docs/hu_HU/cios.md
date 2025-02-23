@@ -44,14 +44,14 @@ Ha képes vagy csatlakoztatni a Wii-odat az internetre, átugorgathatsz a [II. r
 4. Másold ki az NUS Downloader `.zip` fájljának tartalmát egy mappába.
 5. Futtasd a `NUS Downloader.exe` fájlt.
 6. Navigálj a `Database` > `IOS` > `IOS38` opcióhoz, majd válaszd a `v4123` opciót.
-   - Pipáld ki a „Pack WAD” („WAD becsomagolása”)-lehetőséget!
+   - Pipáld ki a „Pack WAD” lehetőséget.
    - _Vedd ki a pipát_ a „Patch IOS” lehetőségtől. Ezt majd a cIOS-telepítő megteszi.
 7. Kattints a `Start NUS Download!` gombra.
 8. Ismételd meg a fenti lépéseket az `IOS56 v5661`, `IOS57 v5918` és az `IOS58 v6175` beszerzéséhez is.
 9. A folyamat végén találni fogsz egy `titles` mappát ugyanabban a mappában, mint ahol a NUS Downloader van.
 10. Nyisd meg a `titles` mappát és keresd meg az imént letöltött WAD-fájlokat.
 11. Helyezd az összes WAD-fájlt az SD kártya vagy USB drive gyökerére.
-    - Ezen az eszközön legyen a d2x cIOS-telepítő is!
+    - Ezen az eszközön legyen a d2x cIOS-telepítő is.
 
 ::: info
 
@@ -69,9 +69,9 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
 3. Kapcsold be a konzolod.
 
-4. Indítsd el a Homebrew Channelt!
+4. Indítsd el a Homebrew Channelt.
 
-5. Indítsd el a listáról a „d2x cIOS Installer”-t!
+5. Indítsd el a homebrew listáról a „d2x cIOS Installer”-t.
 
 6. Állíts be mindent az alábbiak szerint:
 
@@ -112,13 +112,13 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
    ![](/images/cios/d2x_installation.png)
 
-9. A telepítés befejezése után ismét a helykiosztást fogod látni. Ellenőrizd, hogy az imént telepített IOS helye zölden van kiemelve!
+9. A telepítés befejezése után ismét a helykiosztást fogod látni. Ellenőrizd, hogy az imént telepített IOS helye zölden van kiemelve.
 
    ![](/images/cios/d2x_log.png)
 
    ::: info
 
-   Ha pirossal van kiemelve, próbáld újra a telepítést!
+   Ha pirossal van kiemelve, telepítsd újra a cIOS-t.
 
    Ha hibát kapsz a letöltési fázisok előtt/alatt, (pl. `tcp_connect timeout`, `net_gethostbyname failed: ...`), nyomj B gombot a kilépéshez és folytasd az [I. résszel](#section-i---downloading).
 
@@ -161,7 +161,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
       ![](/images/cios/d2x_v11_251.png)
 
-12. Ha végeztél mind a négy cIOS telepítésével, nyomd meg a B-gombot a Homebrew Channelbe való visszatéréshez!
+12. Ha végeztél mind a négy cIOS telepítésével, nyomd meg a B gombot a Homebrew Channelbe való visszatéréshez.
 
 ::: info
 
