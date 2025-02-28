@@ -12,9 +12,9 @@ Ha már hackelted a Wii U-dat a múltban, akkor használhatod ugyanazt az SD ká
 
 ::: info
 
-If you haven't already, make sure you did a [NAND backup](https://wiiu.hacks.guide/#/aroma/nand-backup) and have the [Aroma Environment](https://aroma.foryour.cafe/) installed on your Wii U.
+Legyél biztos abban, hogy csináltál [egy NAND mentést](https://wiiu.hacks.guide/#/aroma/nand-backup) és telepítettél [Aroma Environment](https://aroma.foryour.cafe/)-et a Wii U-dra.
 
-Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
+Ha ez még nem történt meg, akkor folytasd az [Aroma telepítésével](https://wiiu.hacks.guide/#/aroma/getting-started) vagy [A vWii moddolása Wii U oldal nélkül](wiiu-nand-dumper) fejezetekkel
 
 :::
 
@@ -45,9 +45,9 @@ Ha az evWii Aroma plugin nem telepített, és a homebrew alkalmazás lefagy, az 
 2. Indítsd el a vWii Compat Installer-t a Wii U Menu-ből.
 3. Nyomj `A`-t a Homebrew Channel telepítéséhez és várj amíg azt nem látod, hogy `Install succeeded`. Utána nyomd meg a HOME gombot, hogy vissza térj a Wii U Menu-be.
 4. Indítsd el a vWii-t (a Wii Menu ikon).
-   - Ha a telepítés sikeres volt, látnod kell a Homebrew Channel-t a Wii Menu-dben.
+ - Ha a telepítés sikeres volt, látnod kell a Homebrew Channel-t a Wii Menu-dben.
 
-## Olvass el!
+## Kötelező olvasnivaló
 
 Most már tudod használni a Homebrew Channel-t arra, hogy Wii homebrew appokat indítsd.
 
@@ -71,6 +71,6 @@ Ne keverd össze az `apps` mappát a `wiiu` mappában és az `apps` mappával az
 
 ::: tip
 
-Continue to [Installing Priiloader](priiloader)
+Folytatás a [Priiloader telepítésével](priiloader)
 
 :::

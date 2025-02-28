@@ -10,7 +10,7 @@
 
 ## 개별 저장 (.gci 파일) 을 물리적 메모리 카드에 업로드하기
 
-### Requirements
+### 요구 사항
 
 - 게임큐브 포트가 있는 Wii
 - SD 카드 또는 USB
@@ -18,22 +18,22 @@
 
 ::: info
 
-If you are looking for 100% completion saves online, you can find them [here](https://gamefaqs.gamespot.com/).
+온라인에서 100% 완료 저장을 찾고 있다면 [여기](https://gamefaqs.gamespot.com/)에서 찾을 수 있습니다.
 
 :::
 
 ::: info
 
-If you are looking for save game exploits for booting into [Swiss](https://github.com/emukidid/swiss-gc/releases), you can find a list of them [here](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
+[Swiss](https://github.com/emukidid/swiss-gc/releases)로 부팅하여 게임 저장 익스플로잇을 찾고 있다면 [여기](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits)에서 목록을 찾을 수 있습니다.
 
 :::
 
-### Instructions
+### 지침
 
-#### 다운로드 하기
+#### 다운로드
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
-2. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
+1. GCMM을 압축 해제하여 SD 카드나 USB 드라이브의 `apps` 폴더에 넣습니다.
+2. SD 카드나 USB 드라이브의 루트에 있는 `MCBACKUP`이라는 폴더에 `.gci` 파일을 넣습니다.
 3. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 GCMM을 실행합니다.
 
 #### 복원
@@ -60,18 +60,18 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## 물리적 메모리 카드에서 저장 (.gci 파일) 을 SD 또는 USB에 백업하기
 
-### Requirements
+### 요구 사항
 
 - 게임큐브 포트가 있는 Wii
 - SD 카드 또는 USB
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instructions
+### 지침
 
-#### 다운로드 하기
+#### 다운로드
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
-2. Place the `.gci` file in a folder called `MCBACKUP` on the root of the SD card or USB drive.
+1. GCMM을 압축 해제하여 SD 카드나 USB 드라이브의 `apps` 폴더에 넣습니다.
+2. SD 카드나 USB 드라이브의 루트에 있는 `MCBACKUP`이라는 폴더에 `.gci` 파일을 넣습니다.
 3. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 GCMM을 실행합니다.
 
 #### 백업
@@ -98,20 +98,20 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## 실제 메모리 카드를 에뮬레이트된 메모리 카드 (.raw 파일) 로 백업하기
 
-### Requirements
+### 요구 사항
 
 - 게임큐브 포트가 있는 Wii
 - SD 카드 또는 USB
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instructions
+### 지침
 
-#### 다운로드 하기
+#### 다운로드
 
-1. Extract GCMM and put it in the `apps` folder on your SD card or USB drive.
+1. GCMM을 압축 해제하여 SD 카드나 USB 드라이브의 `apps` 폴더에 넣습니다.
 2. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 GCMM을 실행합니다.
 
-#### Dumping the .raw
+#### .raw 덤프하기
 
 1. 메모리 카드를 슬롯 A 또는 슬롯 B에 연결합니다.
 
@@ -123,21 +123,21 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
-4. 덤프가 완료되면 아무 버튼이나 눌러 계속합니다. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
+4. 덤프가 완료되면 아무 버튼이나 눌러 계속합니다. `MCBACKUP`이라는 SD 또는 USB 루트 폴더에 저장해야 합니다.
 
 ## 에뮬레이트된 메모리 저장을 실제 메모리 카드로 복원하기
 
-### Requirements
+### 요구 사항
 
 - 게임큐브 포트가 있는 Wii
 - SD 카드 또는 USB
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instructions
+### 지침
 
-1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
+1. 돌핀에서 저장 파일을 복원하려면 돌핀의 `파일` 탭으로 가서 사용자 폴더 열기를 선택하고, GC 폴더를 열고 `.raw` 파일을 찾습니다.
 
-2. If you are restoring a Nintendont emulated memory card save, navigate to the `saves` folder on the root of your SD card or USB.
+2. 닌텐돈트 에뮬레이션 메모리 카드 저장 데이터를 복원하려면 SD 카드나 USB 루트에 있는 `saves` 폴더로 이동합니다.
 
 3. 메모리 카드를 슬롯 A 또는 슬롯 B에 연결합니다.
 
@@ -155,16 +155,16 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## 2개의 물리적 메모리 카드 간에 저장 내용 전송
 
-### Requirements
+### 요구 사항
 
 - 게임큐브 포트가 있는 Wii
 - 최소 2개의 물리적 메모리 카드
 
-### Instructions
+### 지침
 
 1. 두 메모리 카드를 Wii에 연결합니다.
 
-2. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
+2. 시스템 메뉴에서 `Wii 옵션`, `데이터 관리`, `저장 데이터`, `닌텐도 게임큐브`로 이동합니다.
 
    ![](/images/homebrew/gcsaves/sysmenu.jpg)
 
@@ -174,10 +174,10 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
    ![](/images/homebrew/gcsaves/save-data.jpg)
 
-3. Find the save you want, select it and select `Move or Copy`.
+3. 원하는 저장 항목을 찾아 선택한 후 `이동 또는 복사`를 선택합니다.
 
 ::: tip
 
-[여기를 눌러 사이트 탐색으로 돌아갑니다](site-navigation)
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::

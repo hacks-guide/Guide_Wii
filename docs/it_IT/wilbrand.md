@@ -18,7 +18,7 @@ Wilbrand Web è consigliato per la sua facilità d'uso.
 
 ### Requirements
 
-- An SD card formatted to FAT32/MS-DOS
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - Un Wii sulla versione 3.0 o successiva
 
 ::: warning
@@ -95,7 +95,7 @@ Le schede SD di dimensioni maggiori a 2GB non funzioneranno su versioni del Menu
 ### Requirements
 
 - Un computer che esegue Windows, macOS o Linux
-- An SD card formatted to FAT32/MS-DOS
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - Un Wii sulla versione 3.0 o successiva
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii Installer v1.2](https://bootmii.org/download/)

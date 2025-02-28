@@ -5,19 +5,19 @@ This page will guide you in backing up your Wii's NAND to an SD Card, which you 
 
 ::: warning
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have one, you can skip this page, although it is highly recommended to make a NAND backup if you can.
+Du benötigst eine **SD-Karte**, um BootMii überhaupt nutzen zu können, aber besonders, wenn du ein NAND-Backup machen möchtest. If you do not have one, you can skip this page, although it is highly recommended to make a NAND backup if you can.
 
 :::
 
-## Requirements
+## Anforderungen
 
 - An SD card with at least 512MB of free space
 
-## Instructions
+## Anleitung
 
 ::: info
 
-If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Überspringe Schritt 1 und 2 in diesem Fall.
 
 :::
 
@@ -31,7 +31,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
    ::: warning
 
-   If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+   Wenn der `Launch BootMii`-Button nicht im Homebrew-Channel erscheint, [starte den HackMii-Installer nochmal](hackmii) und installiere BootMii.
 
    :::
 
@@ -49,7 +49,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
    Navigating BootMii is not possible using a Wii Remote.
    You must use the POWER and RESET buttons on your console, or a GameCube controller plugged into port 1.
-   To navigate between options, press POWER. To select an option, press RESET.
+   Um zwischen Optionen zu navigieren, drücke POWER. To select an option, press RESET.
 
    :::
 
@@ -69,7 +69,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 8. After this step, it will verify the backup. Idealerweise sollten alle Blöcke nach dem Überprüfungsprozess grün sein.
 
-   - If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long as all non-bad blocks are successfully verified, this should be fine.
+   - If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. Solange alle nicht-schlechten Blocks erfolgreich verifiziert wurden, sollte alles gut sein.
 
    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
@@ -79,7 +79,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 ::: info
 
-Note: **restoring a NAND backup is usually a last resort**. There are often better ways to unbrick your console.
+Hinweis: **ein NAND-Backup wiederherzustellen ist meistens die letzte Lösung**. Es gibt oft bessere Wege, deine Konsole zu unbricken.
 
 Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
 

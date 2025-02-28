@@ -1,61 +1,61 @@
 # cIOS
 
-:::details Technical Details (optional)
+:::details 기술 세부사항 (선택 사항)
 
-cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. 이제 <a href="usbloadergx">USB Loader GX</a> 및 <a href="wiiflow">WiiFlow</a>와 같은 홈브류를 사용할 수 있습니다. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+cIOS (커스텀 IOS)는 커스텀 기능을 허용하도록 패치된 IOS입니다. [cIOS](https://wiibrew.org/wiki/Custom_IOS)는 완전한 하드웨어 접속을 제공하는 AHBPROT로 대체되었지만 여전히 유용한 응용 프로그램을 제공합니다. 예를 들어 이를 통해 SaveGame Manager GX와 같은 홈브류 제품과 함께 USB Loader GX 및 WiiFlow와 같은 USB 로더의 기능을 사용할 수 있습니다. 원하면 이 과정을 건너뛸 수 있지만, 일반적으로 이 과정은 단점이 거의 없거나 전혀 없이 Wii의 기능을 확장해줍니다.
 
 :::
 
-## Requirements
+## 요구 사항
 
 ::: warning
 
-This guide is only intended for Wii users.
+이 가이드는 Wii 사용자를 대상으로 합니다.
 
-If you have a Wii U (vWii), follow [this guide](cios-vwii) instead.
+Wii U (vWii)가 있는 경우 대신 [이 가이드](cios-vwii)를 따릅니다.
 
-If you have a Wii mini, follow [this guide](cios-mini) instead.
+Wii 미니가 있다면 대신 [이 가이드](cios-mini)를 따릅니다.
 
 :::
 
 - Wii
 - SD 카드 및 USB 드라이브
-- [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
+- [d2x cIOS 설치 프로그램](/assets/files/d2x-cios-installer.zip)
 
-## Instructions
+## 지침
 
 ### 섹션 I - 다운로드
 
 ::: info
 
-If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
+맥OS 또는 리눅스를 사용 중이라면 [이 스크립트](/assets/files/d2x_offline_ios.zip)를 다운로드하여 실행하면 WAD 파일이 다운로드됩니다.
 
 :::
 
 ::: info
 
-If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+Wii를 인터넷에 연결할 수 있다면 [섹션 II](cios#section-ii---installing)로 건너뛸 수 있습니다.
 
 :::
 
-1. Power off your console.
+1. 콘솔의 전원을 끕니다.
 2. Extract both apps to the root of your SD card or USB drive.
-3. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
-5. Run `NUS Downloader.exe`.
-6. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
+3. 컴퓨터에서 [NUS 다운로더](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)를 다운로드합니다.
+4. NUS 다운로더 `.zip`에 있는 모든 파일을 컴퓨터의 폴더로 복사합니다.
+5. `NUS Downloader.exe`를 실행합니다.
+6. `데이터베이스` > `IOS` > `IOS38`로 이동한 다음 `v4123`을 선택합니다.
    - "Pack WAD"가 선택되어 있는지 확인합니다.
-   - _Don't_ check "Patch IOS". 이것이 바로 cIOS 설치 프로그램의 역할입니다.
-7. Click `Start NUS Download!`.
-8. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
-9. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
-10. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
+   - "IOS 패치"를 _체크하지 마세요._ 이것이 바로 cIOS 설치 프로그램의 역할입니다.
+7. `NUS 다운로드 시작!`을 클릭합니다.
+8. `IOS56 v5661`, `IOS57 v5918`, `IOS58 v6175`에 대해 위의 단계를 반복합니다.
+9. 프로세스가 완료되면 NUS 다운로더와 같은 폴더에 `titles`라는 폴더가 생성됩니다.
+10. `titles` 폴더를 열고 다운로드한 4개의 WAD 파일을 찾을 때까지 탐색합니다.
 11. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 d2x cIOS 설치 프로그램을 실행합니다.
     - 이 장치는 d2x cIOS 설치 프로그램이 포함된 동일한 장치여야 합니다.
 
 ::: info
 
-The WAD files should be on your SD card like this:
+WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
 ![](/images/cios/d2x_offline_ios.png)
 
@@ -63,116 +63,116 @@ The WAD files should be on your SD card like this:
 
 ### 섹션 II - 설치하기
 
-1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
+1. d2x-cios-installer `.zip` 파일의 `apps` 폴더를 SD 카드나 USB 드라이브의 루트에 복사합니다.
 
 2. Wii에 SD 카드를 연결하고, 홈브류 채널에서 CleanRip을 실행합니다.
 
-3. Power on your console.
+3. 콘솔의 전원을 켭니다.
 
 4. Launch the Homebrew Channel, and launch the Load Priiloader app.
 
 5. d2x cIOS 설치 프로그램
 
-6. Set everything to match the following:
+6. 다음 사항에 맞게 모든 것을 설정합니다:
 
    ```
-   Select cIOS <d2x-v11-beta1>
-   Select cIOS base <38>
-   Select cIOS slot <248>
-   Select cIOS revision <65535>
+   cIOS 선택 <d2x-v11-beta1>
+   cIOS 기반 선택 <38>
+   cIOS 슬롯 선택 <248>
+   cIOS 리비전 선택 <65535>
    ```
 
    ![](/images/cios/d2x_v11_248.png)
 
    ::: info
 
-   If you do not see `d2x-v11-beta1`, exit the installer with B, and make sure your SD card is unlocked.
+   `d2x-v11-beta1`이 보이지 않으면 B 버튼을 눌러 설치 프로그램을 종료하고 SD 카드가 잠금 해제되었는지 확인합니다.
 
    :::
 
    ::: info
 
-   The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
+   "`(c)IOS detected in slot ### will be overwritten`"라는 경고는 안전하게 무시할 수 있습니다.
 
    :::
 
    ::: info
 
-   If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
+   "`Slot ### already used in batch settings`" 또는 "`cIOS already added in batch with revision ##### and slot ###`"이라는 메시지가 표시되면 `-` 버튼을 눌러 일괄 모드를 비활성화합니다.
 
-   (If you are trying to exit the installer, the button is B, not Home.)
+   (설치 프로그램을 종료하려는 경우 버튼은 홈 버튼이 아니라 B 버튼입니다.)
 
    :::
 
-7. Press `A`. This will bring you to the slot map:
+7. `A` 버튼을 누릅니다. 이렇게 하면 슬롯 맵으로 이동합니다:
 
    ![](/images/cios/d2x_summary.png)
 
-8. Press `A` again.
+8. `A` 버튼을 다시 누릅니다.
 
    ![](/images/cios/d2x_installation.png)
 
-9. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
+9. 설치가 완료되면 슬롯 맵으로 돌아가게 됩니다. 방금 설치된 슬롯이 녹색으로 강조 표시되었는지 확인합니다.
 
    ![](/images/cios/d2x_log.png)
 
    ::: info
 
-   If the slot is highlighted red, try install the cIOS again.
+   슬롯이 빨간색으로 강조 표시되면 cIOS를 다시 설치합니다.
 
-   If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
+   다운로드 단계 전/중에 오류가 발생하는 경우 (예: `tcp_connect timeout`, `net_gethostbyname failed: ...`), B 버튼을 눌러 종료하고 [섹션 I](#section-i---downloading)부터 계속합니다.
 
    :::
 
-10. Press `A`. This will return you to the configuration screen.
+10. `A` 버튼을 누릅니다. 구성 화면으로 돌아갑니다.
 
-11. Repeat the previous 5 steps with the following configurations:
+11. 다음 구성으로 이전 5 단계를 반복합니다:
 
-    - Install cIOS 249
+    - cIOS 249 설치
 
       ```
-      Select cIOS <d2x-v11-beta1>
-      Select cIOS base <56>
-      Select cIOS slot <249>
-      Select cIOS revision <65535>
+      cIOS 선택 <d2x-v11-beta1>
+      cIOS 기반 선택 <56>
+      cIOS 슬롯 선택 <249>
+      cIOS 리비전 선택 <65535>
       ```
 
       ![](/images/cios/d2x_v11_249.png)
 
-    - Install cIOS 250
+    - cIOS 250 설치
 
       ```
-      Select cIOS <d2x-v11-beta1>
-      Select cIOS base <57>
-      Select cIOS slot <250>
-      Select cIOS revision <65535>
+      cIOS 선택 <d2x-v11-beta1>
+      cIOS 기반 선택 <57>
+      cIOS 슬롯 선택 <250>
+      cIOS 리비전 선택 <65535>
       ```
 
       ![](/images/cios/d2x_v11_250.png)
 
-    - Install cIOS 251
+    - cIOS 251 설치
 
       ```
-      Select cIOS <d2x-v11-beta1>
-      Select cIOS base <58>
-      Select cIOS slot <251>
-      Select cIOS revision <65535>
+      cIOS 선택 <d2x-v11-beta1>
+      cIOS 기반 선택 <58>
+      cIOS 슬롯 선택 <251>
+      cIOS 리비전 선택 <65535>
       ```
 
       ![](/images/cios/d2x_v11_251.png)
 
-12. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+12. 4 개의 cIOS를 모두 완료한 후 B 버튼을 눌러 홈브류 채널로 돌아갑니다.
 
 ::: info
 
-If you downloaded the 4 WAD files in Section I, you may now delete them from your SD card/USB drive.
+섹션 I에서 WAD 파일 4 개를 다운로드한 경우 이제 SD 카드/USB 드라이브에서 해당 파일을 삭제할 수 있습니다.
 
 :::
 
 ::: tip
 
-Continue to [Open Shop Channel Installation](osc)
+[오픈 샵 채널 설치](osc)를 계속하기
 
-Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+이제 Wii가 적절한 벽돌 방지 기능을 갖추었으므로 Wii에서나 외부에서 모두 접속할 수 있는 홈브류의 신뢰할 수 있는 저장소인 오픈 샵 채널을 설치할 수 있습니다.
 
 :::

@@ -26,9 +26,9 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 2. Go to `Wii Settings`.
 
-3. Take note in the top right corner of the letter next to the system version.
+3. Notiere dir den Buchstaben neben der System-Version in oberen linken Ecke.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Dieser Buchstabe entspricht deiner System-Menü-Region, die du für die nächsten Schritte kennen musst.
    - Also, ensure that you are on System Menu version 4.3.
 
    ![](/images/wii/SystemMenuVersion.png)

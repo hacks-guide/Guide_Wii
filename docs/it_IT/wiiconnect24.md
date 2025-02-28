@@ -75,7 +75,7 @@ Alcune hack di Priiloader devono essere abilitate sulla vWii e la Wii mini in mo
 
 ::: tip
 
-[Proceed to Nintendo Wi-Fi Connection](wiimmfi)
+[Proceed to Nintendo Wi-Fi Connection](nintendowfc)
 
 This guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. Seppur ci sono diversi server privati e servizi che lo permettono, il servizio trattato qui sarà Wiimmfi.
 
