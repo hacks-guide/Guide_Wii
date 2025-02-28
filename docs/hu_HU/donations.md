@@ -18,6 +18,6 @@
 
 ::: tip
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::
