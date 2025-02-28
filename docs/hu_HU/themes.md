@@ -141,7 +141,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 4. Nyomj `+` gombot a téma telepítéséhez.
 5. Indítsd újra a Wii menüt, és nézd meg, hogy a téma sikeresen települt-e. Ha minden jól ment, akkor az alábbihoz hasonló eredményt fogsz kapni!
 
-   ![](/images/themes/themed-wii-menu.png)
+    ![](/images/themes/themed-wii-menu.png)
 
 ## WiiFlow Lite témázás
 
@@ -193,25 +193,25 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 
 1. Töltsd le a téma `.zip` fájlját a fent említett weboldalról.
 
-   ![](/images/themes/homebrew-channel-example-theme.png)
+    ![](/images/themes/homebrew-channel-example-theme.png)
 
 2. Illesszd be a `.zip` fájlt az `apps` mappába a tárolóeszközödön, ahová a homebrew-okat töltöd.
 
-   ![](/images/themes/homebrew-channel-paste-zip.png)
+    ![](/images/themes/homebrew-channel-paste-zip.png)
 
 3. Csomagold ki a `.zip` tartalmát az `apps` mappába, majd töröld az archívum fájlt.
 
-   ![](/images/themes/homebrew-channel-extract-theme.png)
+    ![](/images/themes/homebrew-channel-extract-theme.png)
 
 4. Csatlakoztasd vissza a tárolóeszközt a Wii-be, és lépj be a Homebrew Channel csatornába.
 
 5. A téma amít telepítettél betölthető úgyanolyan módon, mint ahogy egy standard appot érsz el.
 
-   ![](/images/themes/homebrew-channel-load-theme.png)
+    ![](/images/themes/homebrew-channel-load-theme.png)
 
 6. A témának most már be kell töltődnie, jó szórakozást!
 
-   ![](/images/themes/homebrew-channel-theme-done.png)
+    ![](/images/themes/homebrew-channel-theme-done.png)
 
 ## App Forwarder-ek
 
@@ -219,6 +219,6 @@ Az App forwarderek egy kis extra hangulatot adhatnak a Wii menüjének - de lég
 
 ::: tip
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::
