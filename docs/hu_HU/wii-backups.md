@@ -36,33 +36,33 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 1. Másold át a `.partX.iso`-ban végződő, egyforma nevű fájlokat egy üres mappába a számítógépeden.
 
-   ![](/images/desktop-apps/WBM/dumpedpartfiles.png)
+    ![](/images/desktop-apps/WBM/dumpedpartfiles.png)
 
 2. In this folder, click the address bar in Windows Explorer and type in `cmd`, this will open a command prompt window there.
 
-   ![](/images/desktop-apps/WBM/opencmd.png)
+    ![](/images/desktop-apps/WBM/opencmd.png)
 
 3. Type `copy /b *.part?.iso game.iso` and press enter. Wait for the command to finish, your terminal output should be similar to the below.
 
-   ![](/images/desktop-apps/WBM/joinpartfiles.png)
+    ![](/images/desktop-apps/WBM/joinpartfiles.png)
 
 4. If the copy process executed correctly, the checksum from the game dump info file (located where you dumped your disc at) should match the resulting joined file.
 
-   ![](/images/desktop-apps/WBM/filemd5.png)
+    ![](/images/desktop-apps/WBM/filemd5.png)
 
 ### macOS/Linux
 
 1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
 
-   ![](/images/desktop-apps/WBM/dumpedpartfileslinux.png)
+    ![](/images/desktop-apps/WBM/dumpedpartfileslinux.png)
 
 2. Open a terminal in the directory where your files are at, or `cd [PATH]` to it.
 
-   ![](/images/desktop-apps/WBM/openterminallinux.png)
+    ![](/images/desktop-apps/WBM/openterminallinux.png)
 
 3. Use the following command as is: ``cat `ls *.part?.iso | sort` > game.iso``. Then, wait for the merging process to finish. Like in Windows, the resulting checksum should match the dump.
 
-   ![](/images/desktop-apps/WBM/mergesuccesslinux.png)
+    ![](/images/desktop-apps/WBM/mergesuccesslinux.png)
 
 ## Using Wii Backup Manager
 
@@ -84,21 +84,21 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 1. Go to the `Drive 1` tab, then select the drive that will hold your backed up Wii games.
 
-   ![](/images/desktop-apps/WBM/select_drive.png)
+    ![](/images/desktop-apps/WBM/select_drive.png)
 
 2. Go to the `Files` tab, then select `Add`.
 
-   - Select `Files` to add multiple games to the program, or select `Folder` to add a whole folder of games.
+    - Select `Files` to add multiple games to the program, or select `Folder` to add a whole folder of games.
 
-   ![](/images/desktop-apps/WBM/select_games.png)
+    ![](/images/desktop-apps/WBM/select_games.png)
 
 3. Go to `Select`, then click `Games not on drive 1`.
 
-   ![](/images/desktop-apps/WBM/select_games2.png)
+    ![](/images/desktop-apps/WBM/select_games2.png)
 
 4. Select `Transfer`, then select `Drive 1` to transfer the games over. The progress will be displayed on the right side of the window.
 
-   ![](/images/desktop-apps/WBM/transfer_todrive.png)
+    ![](/images/desktop-apps/WBM/transfer_todrive.png)
 
 ## Using Wii Backup Fusion
 
@@ -116,7 +116,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 1. Download Wiimm's ISO tools for your OS and extract the .tar.gz into a folder that you can access with the terminal. The extracted folder should have these files inside:
 
-   ![](/images/desktop-apps/WBM/witinstallfolder.png)
+    ![](/images/desktop-apps/WBM/witinstallfolder.png)
 
 2. Open a terminal in the folder that you just extracted, and run `sudo ./install.sh`.
 
@@ -126,15 +126,15 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 1. Open Wii Backup Fusion and press `Load`.
 
-   ![](/images/desktop-apps/WBM/loadwbf.png)
+    ![](/images/desktop-apps/WBM/loadwbf.png)
 
 2. Select the directory where your game ISO is at.
 
-   ![](/images/desktop-apps/WBM/opendirectorywbf.png)
+    ![](/images/desktop-apps/WBM/opendirectorywbf.png)
 
 3. Right click on the game that you want to transfer to a drive, and press `Transfer to image`. Use the following settings:
 
-   ![](/images/desktop-apps/WBM/settingswbf.png)
+    ![](/images/desktop-apps/WBM/settingswbf.png)
 
 4. If there is not already a `wbfs` directory on your game drive, make one.
 
@@ -142,7 +142,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 6. Make a game folder for your game, formatted as `game name [GAMEID]`. For the game dumped as an example in this guide, it would be named `New Super Mario Bros. Wii [SMNE01]`.
 
-   ![](/images/desktop-apps/WBM/wbfsname.png)
+    ![](/images/desktop-apps/WBM/wbfsname.png)
 
 7. Copy the game.wbfs file that was made in Step 3 to this new folder. The drive should be ready to use on a Wii.
 
