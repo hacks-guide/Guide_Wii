@@ -51,14 +51,14 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire tele
 
 1. Válaszd a `Continue`-t.
 2. Állíts be mindent az alábbiak szerint:
-   ```
-   Select cIOS <d2xl-v1-beta2>
-   Select cIOS base <57>
-   Select cIOS slot <249>
-   ```
-   - Jegyezd fel a megjelenő verziószámot (`IOS57-64-`-gyel kezdődik és `v31776`-tal vagy `v31775`-tel ér véget)
+    ```
+    Select cIOS <d2xl-v1-beta2>
+    Select cIOS base <57>
+    Select cIOS slot <249>
+    ```
+    - Jegyezd fel a megjelenő verziószámot (`IOS57-64-`-gyel kezdődik és `v31776`-tal vagy `v31775`-tel ér véget)
 3. A telepítés indításához nyomd meg az A gombot.
-   - Ha a telepítés megszakad `TMD version mismatch` hibával, akkor a Control Pad jobb- és bal nyílgombjaival állítsd át a `Select cIOS base` opciót amíg verziószám más nem lesz, mint amit korábban próbáltál. Az 57-es szám nem változik.
+    - Ha a telepítés megszakad `TMD version mismatch` hibával, akkor a Control Pad jobb- és bal nyílgombjaival állítsd át a `Select cIOS base` opciót amíg verziószám más nem lesz, mint amit korábban próbáltál. Az 57-es szám nem változik.
 4. A folyamat végén lépj ki a telepítőből.
 
 ::: tip
