@@ -56,18 +56,18 @@ A `WiiFlash_n_ECC.img` a te NAND képfájlod. A másik két fájl "hiba" adat é
 
 1. Indítsd el az xyzzy mod-t a Homebrew Channel-ről.
 2. Válaszd az `USB device` opciót
-   - El kell kezdenie összeszednie a konzol információid.
+    - El kell kezdenie összeszednie a konzol információid.
 3. Ha kész nyom tetszőleges gombot a kilépéshez.
 
-   - 5 új fájlod lesz az USB drive-odon:
+    - 5 új fájlod lesz az USB drive-odon:
 
-   ```
-   bootmii_keys.bin
-   device.cert
-   keys.txt
-   otp.bin
-   seeprom.bin
-   ```
+    ```
+    bootmii_keys.bin
+    device.cert
+    keys.txt
+    otp.bin
+    seeprom.bin
+    ```
 
 Most csak a `bootmii_keys.bin` fájl szükséges.
 
@@ -97,6 +97,6 @@ Most, hogy a konzol megfelelő védelemmel rendelkezik, telepítheted az Open Sh
 
 ::: tip
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::
