@@ -17,9 +17,9 @@ Ezt a korlátozást a Priiloaderrel ki lehet kerülni, ami lehetővé teszi bár
 
 - Egy GameCube-vezérlő
 - Ha a lemezkorlátozást korábban eltávolítottad Priiloaderrel vagy ha van kéznél lemezolvasó-chiped:
-  - Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OR
-  - Bármely más módszerhez kapcsolódó Wii-játék, aminek a sérülékenységét kihasználó játékmentése a konzolon van (ld. [Örökölt módszerek](legacy-exploits)) VAGY
-  - Bármely más játék és hozzáférés a [Bluebomb](bluebomb) exploithoz
+    - Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OR
+    - Bármely más módszerhez kapcsolódó Wii-játék, aminek a sérülékenységét kihasználó játékmentése a konzolon van (ld. [Örökölt módszerek](legacy-exploits)) VAGY
+    - Bármely más játék és hozzáférés a [Bluebomb](bluebomb) exploithoz
 - Egy eredeti kiadású Wii (a Family Edition-konzolok nem megfelelők, mert nem rendelkeznek GameCube-csatlakozókkal – hacsak nem hegeszted fel őket)
 - Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 - Egy FAT32-re formázott SD kártya
