@@ -19,28 +19,28 @@ Ez az útmutató az mutatja be, hogyan telepíthetsz WAD fájlokat.
 
 1. Válaszd ki a forrás eszközt, ahol megtalálhatók a WAD fájlok, amiket telepteni szeretnél.
 
-   ![](/images/homebrew/yawmME/source_device.png)
+    ![](/images/homebrew/yawmME/source_device.png)
 
 2. Navigálj a mappába ahol a WAD fájlok vannak.
 
-   - Ha van már `wad`, mappád, akkor automatikusan megnyílik.
+    - Ha van már `wad`, mappád, akkor automatikusan megnyílik.
 
-   ![](/images/homebrew/yawmME/file_selection.png)
+    ![](/images/homebrew/yawmME/file_selection.png)
 
 3. Navigálj a WAD fájlhoz, amit telepteni szeretnél, majd nyomj `A` gombot\`.
 
-   - Ha szeretnél több WAD fájl telepíteni egyszerre, nyomj `+`-t mindegyiken, majd nyomj `A` gombot\`.
+    - Ha szeretnél több WAD fájl telepíteni egyszerre, nyomj `+`-t mindegyiken, majd nyomj `A` gombot\`.
 
-   ![](/images/homebrew/yawmME/install_wad.png)
+    ![](/images/homebrew/yawmME/install_wad.png)
 
 4. Nyomj A gombot újra a WAD(ok) telepítéséhez.
 
-   ![](/images/homebrew/yawmME/installing_wad.png)
+    ![](/images/homebrew/yawmME/installing_wad.png)
 
-   ![](/images/homebrew/yawmME/installing_wad_ok.png)
+    ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
 ::: tip
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::
