@@ -12,7 +12,7 @@ A Dolphin Emulator `5.0-4588`-as vagy újabb verziójánál a Wii menü egyszer�
 
 1. Ha még nem tetted meg, telepítsd a Wii menüt a Dolphin Emulatorra a `Tools > Perform System Update` menüpont alatt.
 
-   ![](/images/homebrew-dolphin/system-update.png)
+    ![](/images/homebrew-dolphin/system-update.png)
 
 2. Töltsd le az `Open_HBC_(version)_LULZ.wad`-ot a fenti linkről.
 
@@ -20,11 +20,11 @@ A Dolphin Emulator `5.0-4588`-as vagy újabb verziójánál a Wii menü egyszer�
 
 4. Válaszd a `Tools > Install WAD` opciót és válaszd ki az `Open_HBC_(version)_LULZ.wad` fájl, amit letöltöttél.
 
-   ![](/images/homebrew-dolphin/ohbc-file.png)
+    ![](/images/homebrew-dolphin/ohbc-file.png)
 
 5. Válaszd a `Tools > Load Wii System Menu` opciót. A csatornának most meg kell jelennie.
 
-   ![](/images/homebrew-dolphin/hbc-installed.png)
+    ![](/images/homebrew-dolphin/hbc-installed.png)
 
 ## Telepítés utáni, Homebrew alkalmazások telepítése az Open Shop Channel-en keresztül
 
@@ -38,8 +38,8 @@ A Dolphin Emulator `5.0-4588`-as vagy újabb verziójánál a Wii menü egyszer�
 
 5. Csomagolj ki minden homebrew alkalmazást a `WiiSDSync` mappába. A végeredménynek valahogy így kell kinéznie:
 
-   ![](/images/homebrew-dolphin/apps-folder.png)
+    ![](/images/homebrew-dolphin/apps-folder.png)
 
 6. Töltsd be a Wii menüt, és nyissd meg a Homebrew csatornát. Az újonnan telepített alkalmazásoknak meg kell jelenniük!
 
-   ![](/images/homebrew-dolphin/hbc-apps.png)
+    ![](/images/homebrew-dolphin/hbc-apps.png)
