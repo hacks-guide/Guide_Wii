@@ -33,20 +33,20 @@ A Wiimmfi patchelés módszere, amely a kiskereskedelmi lemezes játékokon auto
 
 2. A Priiloader menüt kell látnod.
 
-   ![](/images/priiloader/mainmenu.png)
+    ![](/images/priiloader/mainmenu.png)
 
 3. Menj a `System Menu Hacks` menüpontra.
 
-   ::: info
+    ::: info
 
-   Ha USB drive-ot használtál a Priiloader telepítéséhez, győződj meg róla, hogy nincs-e SD kártya behelyezve ezzel egyidejűleg.
-   Ez azt okozhatja, hogy a Priiloader nem fogja tudni megtalálni a hacks_hash.ini fájlt.
+    Ha USB drive-ot használtál a Priiloader telepítéséhez, győződj meg róla, hogy nincs-e SD kártya behelyezve ezzel egyidejűleg.
+    Ez azt okozhatja, hogy a Priiloader nem fogja tudni megtalálni a hacks_hash.ini fájlt.
 
-   :::
+    :::
 
 4. Győződj meg róla, hogy a `Wiimmfi patch v4` hack engedélyezve van.
 
-   ![](/images/priiloader/hacks.png)
+    ![](/images/priiloader/hacks.png)
 
 5. Görgess a `Save Settings` menüpontra, és mentsd el a módosításokat.
 
@@ -125,7 +125,7 @@ A Wiimmfi egy patchelési módszere, amely kiskereskedelmi játéklemezeken fut,
 
 2. Menj a `Wii Settings > Internet > Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Majd `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Állítsd be elsődleges (primary) DNS-nek a `95.217.77.151` címet és másodlagos (secondary) DNS-nek az `1.1.1.1`-et.
 
-   ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
+    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
 3. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
 
@@ -189,9 +189,9 @@ A Wiimmfi patchelés egy módszere, amely játék-lemezképeken fut, de kézzel 
 
 1. Töltsd le a patchert, és csomagold ki a `.zip` fájlt.
 2. Nyisd meg a kicsomagolt mappát, és másold bele a Wii játék képeit.
-   - Ha Windows rendszeren vagy, kattints duplán a `patch-images.bat` fájlra (ez „patch-images” Batch File néven is megjelenhet). Ha Cygwin-hez kapcsolódó problémákba ütközöl, próbáld meg helyette a `patch-images-32.bat` fájlt.
-   - Ha MacOS-t használsz, nyiss parancssort az aktuális mappában és a `chmod +x *.sh` paranccsal tedd futtathatóvá a shell szkriptet, majd futtasd a `./patch-images.sh` fájlt.
-   - Ha Linuxon vagy, kattints duplán a `patch-images.desktop` fájlra (ez „Patch Images” néven is megjelenhet), vagy futtasd a `./patch-images.sh` fájlt egy terminálban, miután a `chmod +x *.sh` paranccsal futtathatóvá tetted.
+    - Ha Windows rendszeren vagy, kattints duplán a `patch-images.bat` fájlra (ez „patch-images” Batch File néven is megjelenhet). Ha Cygwin-hez kapcsolódó problémákba ütközöl, próbáld meg helyette a `patch-images-32.bat` fájlt.
+    - Ha MacOS-t használsz, nyiss parancssort az aktuális mappában és a `chmod +x *.sh` paranccsal tedd futtathatóvá a shell szkriptet, majd futtasd a `./patch-images.sh` fájlt.
+    - Ha Linuxon vagy, kattints duplán a `patch-images.desktop` fájlra (ez „Patch Images” néven is megjelenhet), vagy futtasd a `./patch-images.sh` fájlt egy terminálban, miután a `chmod +x *.sh` paranccsal futtathatóvá tetted.
 3. Ha a fentiek sikeresek voltak, akkor egy ablaknak kell felugrania, amely a patch folyamatot jeleníti meg. Ha a folyamat befejeződött, a javított képfájlokat a `wiimmfi-images` nevű mappában találod.
 
 ::: tip
@@ -202,6 +202,6 @@ Gratulálunk, hogy eljutottál a fő útmutató opcionális részének végére!
 
 ::: tip
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::
