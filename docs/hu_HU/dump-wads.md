@@ -25,11 +25,11 @@ Ez az útmutató azt mutatja be, hogy hogyan dumpolhatsz WAD-okat Wii-od rendsze
 
 8. Nyomj A-t.
 
-   ![](/images/homebrew/DumpWADS/1.png)
+    ![](/images/homebrew/DumpWADS/1.png)
 
 9. Válaszd az `Installed Channel Titles` opciót.
 
-   ![](/images/homebrew/DumpWADS/2.png)
+    ![](/images/homebrew/DumpWADS/2.png)
 
 10. Keresd meg a tartalmat amit dumpolni szeretnél és nyomd meg az 1 gombot.
 
@@ -55,6 +55,6 @@ A WAD most már dumpolt, és meg kell jelennie a megadott könyvtárában az SD 
 
 ::: tip
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::
