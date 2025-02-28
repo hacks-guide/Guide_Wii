@@ -84,3 +84,6 @@ Problémába ütköztél az útmutató követése közben, vagy már van egy pro
 Folytatás a [Kezdeti lépésekkel](get-started)
 
 :::
+
+
+
