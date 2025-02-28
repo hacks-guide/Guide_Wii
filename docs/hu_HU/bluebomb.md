@@ -45,32 +45,32 @@ Make sure that the console is close to the computer running the exploit, ideally
 ### Requirements
 
 - A Linux machine
-  - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
-  - If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
-  - Linuxos Windows-alrendszert vagy Linux-módban futó Chromebookot nem használhatsz, ugyanis ezek nem férnek hozzá a Bluetooth-adapterhez vagy az USB portokhoz.
-  - Ha még nem használtál Linuxot, akkor az [Ubuntu](https://ubuntu.com/download/desktop) lehet a legfelhasználóbarátabb lehetőség és ami a legtöbb Windowsos vagy MacOS-es számítógépen elfut.
-    - A 32-bites eszközök [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) verziót igényelnek.
-    - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
-  - [Készíthetsz egy Linux Live környezetet egy USB pendrive-ra](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) is a helyett, hogy telepítenéd a számítógépedre.
+    - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
+    - If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
+    - Linuxos Windows-alrendszert vagy Linux-módban futó Chromebookot nem használhatsz, ugyanis ezek nem férnek hozzá a Bluetooth-adapterhez vagy az USB portokhoz.
+    - Ha még nem használtál Linuxot, akkor az [Ubuntu](https://ubuntu.com/download/desktop) lehet a legfelhasználóbarátabb lehetőség és ami a legtöbb Windowsos vagy MacOS-es számítógépen elfut.
+        - A 32-bites eszközök [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) verziót igényelnek.
+        - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
+    - [Készíthetsz egy Linux Live környezetet egy USB pendrive-ra](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) is a helyett, hogy telepítenéd a számítógépedre.
 - A Bluetooth adapter.
-  - An internal Bluetooth adapter will work.
-  - If you do not have one, make sure to get one compatible with Linux.
+    - An internal Bluetooth adapter will work.
+    - If you do not have one, make sure to get one compatible with Linux.
 - A USB flash drive formatted as FAT32.
-  - This cannot be the same flash drive used for your Linux Machine.
+    - This cannot be the same flash drive used for your Linux Machine.
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
 ### Instructions
 
 1. Másold a `boot.elf` fájlt a HackMii Installer v1.2 `.zip`-ből a pendrive-od gyökerébe.
 
-   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-   - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Use boot.elf in all cases).
+    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+    - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Use boot.elf in all cases).
 
-   ![](/images/exploits/bluebomb/usb-exploit.png)
+    ![](/images/exploits/bluebomb/usb-exploit.png)
 
 2. Reinsert your flash drive into your console.
-   - For a Wii mini, the USB port is on the back.
-   - For a normal Wii, use the bottom port (or the right port if it's upright).
+    - For a Wii mini, the USB port is on the back.
+    - For a normal Wii, use the bottom port (or the right port if it's upright).
 
 3. Power on your console.
 
@@ -78,9 +78,9 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 5. Take note in the top right corner of the letter next to the system version.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
-   ![](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 6. Power off your console.
 
@@ -88,25 +88,25 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 8. Nyisd meg a Terminált és futtasd a következő parancsokat:
 
-   ```bash
-   wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
-   chmod +x bluebomb-helper.sh
-   ./bluebomb-helper.sh
-   ```
+    ```bash
+    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
+    chmod +x bluebomb-helper.sh
+    ./bluebomb-helper.sh
+    ```
 
-   ![](/images/exploits/bluebomb/run-commands.png)
+    ![](/images/exploits/bluebomb/run-commands.png)
 
 9. The helper will then download the required files, and ask for information about your console.
 
-   ![](/images/exploits/bluebomb/console-type.png)
+    ![](/images/exploits/bluebomb/console-type.png)
 
-   - If you have selected a Wii mini you will be asked to provide your region. Ezt a Wii Menu verziójának utolsó betűje alapján lehet meghatározni (`U` az **USA**-ban és `E` a **PAL** modellek esetében).
+    - If you have selected a Wii mini you will be asked to provide your region. Ezt a Wii Menu verziójának utolsó betűje alapján lehet meghatározni (`U` az **USA**-ban és `E` a **PAL** modellek esetében).
 
-   ![](/images/exploits/bluebomb/wii-mini-options.png)
+    ![](/images/exploits/bluebomb/wii-mini-options.png)
 
-   - Ha Wiit adtál meg, akkor a Wii Menü verziószámát kell megadnod (ezt a 4. lépésben tudtad meg).
+    - Ha Wiit adtál meg, akkor a Wii Menü verziószámát kell megadnod (ezt a 4. lépésben tudtad meg).
 
-   ![](/images/exploits/bluebomb/wii-options.png)
+    ![](/images/exploits/bluebomb/wii-options.png)
 
 10. Power on your console.
     - **Ne csatlakoztass** egy Wii Remote-ot sem.
@@ -189,14 +189,14 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 1. Másold a `boot.elf` fájlt a HackMii Installer v1.2 `.zip`-ből a pendrive-od gyökerébe.
 
-   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-   - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Use boot.elf in all cases).
+    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+    - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Use boot.elf in all cases).
 
-   ![](/images/exploits/bluebomb/usb-exploit.png)
+    ![](/images/exploits/bluebomb/usb-exploit.png)
 
 2. Reinsert your flash drive into your console.
-   - For a Wii mini, the USB port is on the back.
-   - For a normal Wii, use the bottom port (or the right port if it's upright).
+    - For a Wii mini, the USB port is on the back.
+    - For a normal Wii, use the bottom port (or the right port if it's upright).
 
 3. Power on your console.
 
@@ -204,9 +204,9 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 5. Take note in the top right corner of the letter next to the system version.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
-   ![](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 6. Power off your console.
 
@@ -214,24 +214,24 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 1. Töltsd le a legújabb [előre lefordított binárisokat](https://github.com/GaryOderNichts/bluebomb_micro/releases) a Release oldalról, és csomagold ki a számítógépedre.
 
-   - Válaszd ki az eszközödnek megfelelő binárisokat. `bluebomb_micro_pico2_w_version` a Pico 2 W, míg `bluebomb_micro_pico_w_version` a Pico 1 W készülékhez készült.
+    - Válaszd ki az eszközödnek megfelelő binárisokat. `bluebomb_micro_pico2_w_version` a Pico 2 W, míg `bluebomb_micro_pico_w_version` a Pico 1 W készülékhez készült.
 
-   ![](/images/exploits/bluebomb/pico-download.png)
+    ![](/images/exploits/bluebomb/pico-download.png)
 
 2. Csatlakoztasd a Pico W-t a számítógépedhez, miközben lenyomva tartod a `BOOTSEL` gombot. A Pico W-dnek mostantól meghajtóként kell megjelennie a számítógépeden.
 
-   ![](/images/exploits/bluebomb/pico-button.jpg)
-   ![](/images/exploits/bluebomb/pico-drive.png)
+    ![](/images/exploits/bluebomb/pico-button.jpg)
+    ![](/images/exploits/bluebomb/pico-drive.png)
 
 3. Csomagoldki a letöltött archívumot, és másold a meghajtóra a Wii vagy Wii mini a Wii-nek megfelelő fájlt.
 
-   - Ha egy európai Wii 4.3-as verzióval rendelkezel, akkor a bluebomb_WII_SM4_3E.uf2 fájlt másold, vagy ha egy európai Wii Minivel rendelkezik, akkor a bluebomb_MINI_SM_PAL.uf2 fájlt, stb...
+    - Ha egy európai Wii 4.3-as verzióval rendelkezel, akkor a bluebomb_WII_SM4_3E.uf2 fájlt másold, vagy ha egy európai Wii Minivel rendelkezik, akkor a bluebomb_MINI_SM_PAL.uf2 fájlt, stb...
 
-   ![](/images/exploits/bluebomb/pico-files.png)
+    ![](/images/exploits/bluebomb/pico-files.png)
 
 4. A meghajtónak le kell kapcsolódnia, és egy zöld LED-nek villognia kell. Ez azt jelenti, hogy a Pico W készen áll - kihúzhatod az eszközt a számítógépedből.
 
-   ![](/images/exploits/bluebomb/pico-ready.jpg)
+    ![](/images/exploits/bluebomb/pico-ready.jpg)
 
 #### ESP32
 
@@ -244,12 +244,12 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 1. Csatlakoztasd vissza a flashelt eszközöd a számítógépedhez.
 2. Power on your console.
-   - **Ne csatlakoztass** egy Wii Remote-ot sem.
+    - **Ne csatlakoztass** egy Wii Remote-ot sem.
 3. Nyomd meg többször a Sync gombot, amíg a Pico W LED gyorsan villogni nem kezd, ekkor az megkezdi az exploit feltöltését.
-   - This could take numerous attempts.
+    - This could take numerous attempts.
 4. Ha az exploit sikeres volt, akkor az alábbi képernyőhöz hasonlót kell látnod, majd a HackMii installer-nek be kell töltődnie.
 
-   ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
+    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ::: tip
 
