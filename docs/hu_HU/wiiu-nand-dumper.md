@@ -15,10 +15,10 @@ Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32-re for
 ## Követelmények
 
 - A legutolsó fájlok az [Aroma for your café](https://aroma.foryour.cafe/) oldalról.
-  - Olvasd el a megelőző lépéseket, majd pipáld be mind a négy dobozt.
-  - Duplán ellenőrizd, hogy a nanddumper van kiválasztva.
-  - Kattints a `Download Payloads`-ra.
-  - Kattints a `Download Base Aroma`-ra.
+ - Olvasd el a megelőző lépéseket, majd pipáld be mind a négy dobozt.
+ - Duplán ellenőrizd, hogy a nanddumper van kiválasztva.
+ - Kattints a `Download Payloads`-ra.
+ - Kattints a `Download Base Aroma`-ra.
 - A [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller) legutolsó kiadása.
 
 ## Lépések
@@ -74,19 +74,19 @@ Biztosítsd, hogy a Wii U-dnak legyen internet hozzáférése ennél a lépésn�
 1. Vedd ki az SD kártyád a számítógépedből, majd dugd vissza a Wii U konzolodba.
 2. Indítsd el az Internet Browser-t és navogált a `wiiuexploit.xyz` weboldalra.
 3. Kattints a `Run Exploit!`-ra és tartsd nyomva a B gombot, amíg az nem mondja a képernyő, hogy `Please choose your payload:`, ez szükséges lesz a következő lépésekhez.
-   - Ha a Wii U-d megál egy fehér vagy más módon lefagyott képernyőnél, várj pár másodpercet. Ha semmi nem történi, bootold újra a konzolt, [és töröld a böngésző mentés adatát](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history), majd próbáld újra.
-   - Ha az EnvironmentLoader-t látod, nem tartottad elég hosszan nyomva a B gombot. Próbáld újra.
+ - Ha a Wii U-d megál egy fehér vagy más módon lefagyott képernyőnél, várj pár másodpercet. Ha semmi nem történi, bootold újra a konzolt, [és töröld a böngésző mentés adatát](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history), majd próbáld újra.
+ - Ha az EnvironmentLoader-t látod, nem tartottad elég hosszan nyomva a B gombot. Próbáld újra.
 
 ### III. rész - NAND mentés
 
 Ha valami rosszul sül el a későbbi folyamatban és a vWii brickelődik, a visszaállítása egy korábban készített NAND mentésből megjavítja azt.
 
 1. Használd a Wii U GamePad D-Pad-jét a kövtkező konfiguráció beviteléhez:
-   - Dump SLC: **optional**
-   - Dump SLCCMPT: **yes**
-   - Dump MLC: **optional**
-   - Dump OTP: **yes**
-   - Dump SEEPROM: **optional**
+ - Dump SLC: **optional**
+ - Dump SLCCMPT: **yes**
+ - Dump MLC: **optional**
+ - Dump OTP: **yes**
+ - Dump SEEPROM: **optional**
 2. Nyomj A gombot a dumpolás elkezdéséhez.
 3. Ha a folyamat végzett, kapcsold ki a Wii U-dat, vedd ki az SD kártyád a Wii U-ból és csatlakoztasd a PC-dhez.
 4. Hogy biztosan ne veszd el a fájlokat, másold az `slccmpt.bin` és `otp.bin` fájlokat (és ha teljes mentést választottál a `seeprom.bin`, `slc.bin`, és `minden mlc.bin.part` fájlt) a számítógépedre.
