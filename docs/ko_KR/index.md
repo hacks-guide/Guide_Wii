@@ -1,78 +1,45 @@
 ---
 layout: home
-title: Wii 가이드
+title: Wii 해킹 가이드
 hero:
-  text: Wii 가이드
-  tagline: 완벽한 Wii, vWii, Wii mini 해킹 가이드.
+  text: Wii 해킹 가이드
+  tagline: 완벽한 Wii, vWii, Wii 미니 해킹 가이드.
   image:
     src: /images/main-pages/home-page-feature.jpg
 ---
 
 ::: info
 
-Since this guide has just been published, translations are a work-in-progress. Thank you for your patience!
-
-:::
-
-::: warning
-
-To get the most out of this guide, you should read this page before proceeding.
+계속하기 전에 지침 페이지를 자세히 읽어봅니다.
 
 :::
 
 ## "홈브류"가 무엇인가요?
 
-**Homebrew** refers to software that was not authorized by the original creator of a piece of hardware - in this case, Nintendo. 여기에는 게임, 유틸리티, 에뮬레이터 등이 포함될 수 있습니다!
+**홈브류**는 제조업체에서 비디오 게임 콘솔에서 실행하도록 승인하지 않은 소프트웨어를 말합니다. Wii에서 홈브류를 실행하려면 먼저 콘솔을 수정하여 서명되지 않은 코드를 실행해야 합니다.
 
-Here are some common examples of what homebrew can do for your Wii:
+Wii에서 홈브류를 사용하는 일반적인 예는 다음과 같습니다:
 
-- [Backup](bootmii) and [restore](bootmiirecover) your Wii's NAND (system memory)
-- Enhance the [brick protection](priiloader) of your Wii
-- Download new homebrew apps with the [Open Shop Channel](osc)
-- [Patch game disc contents](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
-- Install [themes](themes) on the Wii Menu and in commonly used homebrew apps
-- Back up your [discs](dump-games) and [other installed titles](dump-wads)
-- Watch [DVDs](recommended-homebrew#entertainment) and play external media files on your Wii
-- Install a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
-- Restore online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](wiimmfi)
+- Wii의 낸드 (시스템 메모리)를 [백업](bootmii)하고 [복원](bootmiirecover)합니다.
+- 게임 수정 사항을 로드하기 위한 [게임 디스크 패치](https://wiki.hacks.guide/wiki/Wii:Riivolution)
+- Wii 메뉴와 일반적으로 사용되는 홈브류 앱에 [테마](themes) 설치
+- [디스크](dump-games) 및 [기타 설치된 타이틀](dump-wads) 백업
+- 외부 저장 장치에서 Wii (및 기타 콘솔) 백업을 실행하기 위한 [USB 로더](wii-loaders) 설치
+- [WiiConnect24](wiiconnect24)와 [닌텐도 Wi-Fi 연결](nintendowfc) 모두에서 온라인 기능 복원
+- 그리고 더 많은 것들!
 
-## 이 가이드는 무엇을 설치하는 가이드입니까?
+## 이 가이드는 어떤 역할을 합니까?
 
-This guide aims to do the following, including optional sections:
+이 가이드의 최종 목표는 다음과 같습니다. 경로에 따라 약간의 차이가 있을 수 있지만, 이 가이드의 최종 목표는 다음과 같습니다:
 
-- Modify your Wii using one of many exploits, with the end goal of reaching the HackMii installer
-- Install BootMii and the Homebrew Channel
-- Make a backup of critical system files
-- Install Priiloader
-- Install the Open Shop Channel
-- Recommended homebrew to use on your Wii
-- Restore functionality to WiiConnect24 and Nintendo Wi-Fi Connection
+- Wii 활용 및 홈브류 채널 설치
+- 벽돌을 예방하기 위한 안전 장치 마련
+- 여러분의 경험을 향상시킬 수 있는 다른 홈브류 설치 (선택 사항)
 
-## What should I know before starting?
-
-- Wii 소프트웨어의 버그를 이용하면 무료로 닌텐도 Wii에서 홈브류를 실행할 수 있습니다. Anyone trying to convince you otherwise is likely attempting to [scam you](https://hbc.hackmii.com/scam).
-- This guide works on all system menu versions depending on the exploit, but **it is recommended that you update to 4.3 (the latest firmware)** if possible.
-- **This guide applies to retail/consumer Wiis ONLY!** This means that development units are not covered.
-- Depending on what you intend to do with your modded Wii, you may have to make some modifications to the system memory that have a risk of bricking (rendering the console inoperable). As long as you follow this guide exactly, you should be fine, but for general brick prevention tips see [this](bricks#brick-prevention) page.
-- The differences between the Wii and Wii mini are quite significant. This means that in some cases, something that is normally harmless to the Wii could cause a [severe brick](bricks#wi-fi-brick) to the Wii mini. Tread carefully if you are planning to mod one!
-- Be extremely careful when modifying a [Korean Wii](bricks#koreankii-error-003-brick).
-
-## 준비됐나요?
-
-The guide has nine sections in total. These are listed below:
-
-1. Choosing and using an exploit (REQUIRED)
-2. Installing the Homebrew Channel and BootMii (REQUIRED)
-3. Making a NAND backup with BootMii (REQUIRED)
-4. Installing Priiloader (REQUIRED)
-5. Installing the Open Shop Channel (RECOMMENDED)
-6. Installing cIOS (RECOMMENDED)
-7. Discovering Recommended Homebrew (RECOMMENDED)
-8. Regaining WiiConnect24 Functionality (OPTIONAL)
-9. Regaining Nintendo Wi-Fi Connection Functionality (OPTIONAL)
+## 시작할 준비가 되었나요?
 
 ::: tip
 
-[시작하기](get-started)로 계속합니다
+[중요 정보](key-information)로 계속하기
 
 :::

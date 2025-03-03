@@ -4,7 +4,7 @@ Ez az útmutató arra van, hogy ha szeretnéd újra futtatni a HackMii Installer
 
 ::: info
 
-It is also safe to [redo any exploit](get-started) to get back into the HackMii Installer.
+Továbbá az is biztonságos hogy [újra csinálj](get-started) bármilyen exploitot, hogy visszakerülj a HackMii Installer-be.
 
 :::
 
@@ -19,10 +19,10 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 ### Lépések
 
 1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
-2. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
-   - Ha a mappa nem létezik, hozd létre.
-3. Insert the SD/USB into your Wii, and launch the `hackmii_installer_v1.2` app from the Homebrew Channel.
-   - Az appnak nem lesz ikonja.
+2. Csomagold ki a HackMii Installer v1.2-t az SD kártyád/USB drive-od `apps` mappájába.
+    - Ha a mappa nem létezik, hozd létre.
+3. Helyezd be az SD kártyád/USB-d a Wii-odba, majd indítsd el a `hackmii_installer_v1.2` appot a Homebrew Channel-ből.
+    - Az appnak nem lesz ikonja.
 
 ::: tip
 
@@ -46,22 +46,22 @@ Ahhoz, hogy ellenőrizd, hogy a Wii-odon van-e Priiloader, tartsd nyomva a RESET
 
 ::: warning
 
-Preloader and older versions of Priiloader do not seem to support SDHC (>2GB) cards.
+A Preloader és Priiloader régi verziói úgy tűnik, hogy nem támogatják az SDHC (>2GB) kártyákat.
 
 :::
 
 ### Lépések
 
 1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
-2. Copy the `boot.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card or USB drive.
+2. Másold a `boot.elf` fájlt a HackMii Installer v1.2 `.zip`-ből az SD kártya vagy USB drive gyökerébe.
 3. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
 4. Lépj be a Priiloader a RESET gomb nyomva tartásával miközben bekapcsolod a Wii-t.
-5. Go to `Load/Install File`.
-6. Navigate to `boot.elf` and press `1` to load it.
+5. Menj a `Load/Install File` opcióhoz.
+6. Navigálj a `boot.elf`-hez és nyomj `1`-et a betöltéséhez.
 
 ::: info
 
-If `Press (1) to continue` does not show up after about 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
+Ha a `Press (1) to continue` nem jelenik meg kb. 30 másodperc után a [HackMii Installer v1.0](https://bootmii.org/download/) segíthet.
 
 :::
 

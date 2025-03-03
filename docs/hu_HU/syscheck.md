@@ -20,18 +20,18 @@ A SysCheck felsorolja a Wii-n található összes IOS-t és cIOS-t, valamint né
 
 2. Amikor megjelenik a "This IOS will be tested (Please select)" szöveg, nyomj A gombot.
 
-   ![](/images/homebrew/syscheck/syscheck_chooseios.png)
+    ![](/images/homebrew/syscheck/syscheck_chooseios.png)
 
 3. Várj amíg a program beszerez néhány információt a ISO-odról.
 
-4. After it finishes, press the `A` Button if you want to view the log.
+4. Miután befejezte nyomj `A` gombot, ha meg szeretnéd tekinteni a logot.
 
-   ![](/images/homebrew/syscheck/syscheck_success.png)
+    ![](/images/homebrew/syscheck/syscheck_success.png)
 
-5. If you want to share the SysCheck, you can share the `syscheck.csv` file on the root of your SD card or USB drive. You can also press `A`, which will upload the report to [syscheck.rc24.xyz](http://syscheck.rc24.xyz/).
+5. Ha meg szeretnéd osztani a SysCheck eredményt, megoszthatod a `syscheck.csv` fájlt az SD kártyád vagy az USB drive-od gyökeréből. Továbbá nyomhatsz `A` gombot is, ami feltölti a riportot a syscheck.rc24.xyz](http://syscheck.rc24.xyz oldalra/).
 
 ::: tip
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez!](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::

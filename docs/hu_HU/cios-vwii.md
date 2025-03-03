@@ -18,7 +18,7 @@ Ha egy Wii minid van, [ezt az útmutatót](cios-mini) kövesd!
 
 ::: warning
 
-Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telepíteni! Ha mégis így tennél, azzal [elronthatod](bricks#ios-brick) a konzolod!
+Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telepíteni! Ha mégis így tennél, azzal [brickelheted](bricks#ios-brick) a konzolod.
 
 :::
 
@@ -42,25 +42,25 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 2. Vedd ki az SD kártyát a PC-dből és rakd be a Wii U-ba.
 3. Kapcsold be a Wii U-t és lépj vWii módba!
 4. Indítsd el a Homebrew Channelt!
-5. Indítsd el a d2x cIOS Installert!
+5. Indítsd el a d2x cIOS Installert.
 6. Állíts be mindent az alábbiak szerint:
-   - Select cIOS: `d2x-v11-beta1-vWii`
-   - Select cIOS base: `56`
-   - Select cIOS slot: `249`
-7. A telepítés indításához nyomd meg az `A`-gombot!
+    - Select cIOS: `d2x-v11-beta1-vWii`
+    - Select cIOS base: `56`
+    - Select cIOS slot: `249`
+7. A telepítés indításához nyomd meg az `A` gombot.
 8. Állíts be mindent az alábbiak szerint:
-   - Select cIOS: `d2x-v11-beta1-vWii`
-   - Select cIOS base: `57`
-   - Select cIOS slot: `250`
-9. A telepítés indításához nyomd meg az `A`-gombot!
+    - Select cIOS: `d2x-v11-beta1-vWii`
+    - Select cIOS base: `57`
+    - Select cIOS slot: `250`
+9. A telepítés indításához nyomd meg az `A` gombot.
 10. Állíts be mindent az alábbiak szerint:
     - Select cIOS: `d2x-v11-beta1-vWii`
     - Select cIOS base: `58`
     - Select cIOS slot: `251`
-11. A telepítés indításához nyomd meg az `A`-gombot!
-12. A kilépéshez nyomd meg a `B`-gombot!
+11. A telepítés indításához nyomd meg az `A` gombot.
+12. A kilépéshez nyomd meg a `B` gombot.
 
-- Ha végeztél mind a három cIOS telepítésével, nyomd meg a B-gombot a Homebrew Channelbe való visszatéréshez!
+- Ha végeztél mind a három cIOS telepítésével, nyomd meg a B gombot a Homebrew Channelbe való visszatéréshez.
 
 ::: tip
 

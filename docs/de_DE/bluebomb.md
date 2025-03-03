@@ -10,7 +10,7 @@ outline: false
 
 ## BlueBomb Classic
 
-:::details Technical Details (optional)
+:::details Technische Details (optional)
 
 BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
@@ -26,19 +26,19 @@ It is **strongly** advised against using **any** video guide for hacking your Wi
 
 ::: info
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Wenn du Hilfe mit irgendwas aus diesem Tutorial brauchst, trete bitte [Wii mini Hacking Discord Server](https://discord.gg/6ryxnkS) bei (empfohlen)
 
 :::
 
 ::: info
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+Wenn du eine originale Wii-Version verwendest, solltest du [einen anderen Exploit](get-started) finden, da es viel einfachere Wege gibt, zum HackMii-Installer zu kommen. Exceptions however, exist in circumstances like brick recovery.
 
 :::
 
 ::: info
 
-Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+Stelle sicher, dass sich die Konsole in der Nähe vom Computer, auf dem der Exploit läuft, befindet, idealerweise weniger als 1 Meter.
 
 :::
 
@@ -47,7 +47,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 - A Linux machine
   - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
   - If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
-  - Windows Subsystem for Linux or a Chromebook running Linux mode will _not work_ as they don't have direct access to the Bluetooth adapter or USB ports.
+  - Das Windows Subsystem für Linux oder ein Chromebook im Linux-Modus werden _nicht funktionieren_, da diese keinen direkten Zugang zum Bluetooth-Adapter oder zu USB-Anschlüssen haben.
   - If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
     - 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
     - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
@@ -69,16 +69,16 @@ Make sure that the console is close to the computer running the exploit, ideally
    ![](/images/exploits/bluebomb/usb-exploit.png)
 
 2. Reinsert your flash drive into your console.
-   - For a Wii mini, the USB port is on the back.
+   - Bei der Wii mini ist der USB-Anschluss auf der Rückseite.
    - For a normal Wii, use the bottom port (or the right port if it's upright).
 
 3. Power on your console.
 
 4. Go to `Wii Settings`.
 
-5. Take note in the top right corner of the letter next to the system version.
+5. Notiere dir den Buchstaben neben der System-Version in oberen linken Ecke.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Dieser Buchstabe entspricht deiner System-Menü-Region, die du für die nächsten Schritte kennen musst.
 
    ![](/images/wii/SystemMenuVersion.png)
 
@@ -109,13 +109,13 @@ Make sure that the console is close to the computer running the exploit, ideally
    ![](/images/exploits/bluebomb/wii-options.png)
 
 10. Power on your console.
-    - **Do not** connect any Wii Remotes.
+    - Verbinde **keine** Wii-Fernbedienungen.
 
 11. Type `yes` in the script to proceed if you have not already done so, and make sure that `Waiting to accept` is displaying.
 
-12. Press the Sync button repeatedly until the terminal shows `got connection handle`.
+12. Drücke wiederholt den Sync-Knopf bis im Terminal `got connection handle` steht.
 
-    - This could take numerous attempts.
+    - Das braucht vielleicht viele Versuche.
 
     ![](/images/exploits/bluebomb/got-connection-handle.png)
 
@@ -143,7 +143,7 @@ If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
 
 ## BlueBomb Micro
 
-:::details Technical Details (optional)
+:::details Technische Details (optional)
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
@@ -157,13 +157,13 @@ It is **strongly** advised against using **any** video guide for hacking your Wi
 
 ::: info
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Wenn du Hilfe mit irgendwas aus diesem Tutorial brauchst, trete bitte [Wii mini Hacking Discord Server](https://discord.gg/6ryxnkS) bei (empfohlen)
 
 :::
 
 ::: info
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+Wenn du eine originale Wii-Version verwendest, solltest du [einen anderen Exploit](get-started) finden, da es viel einfachere Wege gibt, zum HackMii-Installer zu kommen. Exceptions however, exist in circumstances like brick recovery.
 
 :::
 
@@ -195,16 +195,16 @@ A normal Raspberry Pi Pico will not work. It MUST to be the wireless model. Addi
    ![](/images/exploits/bluebomb/usb-exploit.png)
 
 2. Reinsert your flash drive into your console.
-   - For a Wii mini, the USB port is on the back.
+   - Bei der Wii mini ist der USB-Anschluss auf der Rückseite.
    - For a normal Wii, use the bottom port (or the right port if it's upright).
 
 3. Power on your console.
 
 4. Go to `Wii Settings`.
 
-5. Take note in the top right corner of the letter next to the system version.
+5. Notiere dir den Buchstaben neben der System-Version in oberen linken Ecke.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Dieser Buchstabe entspricht deiner System-Menü-Region, die du für die nächsten Schritte kennen musst.
 
    ![](/images/wii/SystemMenuVersion.png)
 
@@ -244,9 +244,9 @@ A normal Raspberry Pi Pico will not work. It MUST to be the wireless model. Addi
 
 1. Plug your flashed device back into your PC.
 2. Power on your console.
-   - **Do not** connect any Wii Remotes.
+   - Verbinde **keine** Wii-Fernbedienungen.
 3. Press the Sync button repeatedly until the Pico W LED begins to rapidly flash, at which point it will start uploading the exploit.
-   - This could take numerous attempts.
+   - Das braucht vielleicht viele Versuche.
 4. If the exploit was successful, you should see a similar screen to the below, after which the HackMii installer should load.
 
    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)

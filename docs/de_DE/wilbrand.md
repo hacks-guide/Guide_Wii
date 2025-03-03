@@ -18,7 +18,7 @@ Wilbrand Web is recommended for its ease of use.
 
 ### Requirements
 
-- An SD card formatted to FAT32/MS-DOS
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - A Wii on version 3.0 or newer
 
 ::: warning
@@ -35,7 +35,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Dieser Buchstabe entspricht deiner System-Menü-Region, die du für die nächsten Schritte kennen musst.
 
    ![](/images/wii/SystemMenuVersion.png)
 
@@ -95,7 +95,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 ### Requirements
 
 - A PC running Windows, MacOS or Linux
-- An SD card formatted to FAT32/MS-DOS
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - A Wii on version 3.0 or newer
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii Installer v1.2](https://bootmii.org/download/)
@@ -114,7 +114,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Dieser Buchstabe entspricht deiner System-Menü-Region, die du für die nächsten Schritte kennen musst.
 
    ![](/images/wii/SystemMenuVersion.png)
 

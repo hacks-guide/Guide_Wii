@@ -4,7 +4,7 @@ A LetterBomb egy exploit a Wii-hoz ami a Wii Message Board-on keresztül kerül 
 
 ::: info
 
-For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). Erősen ajánlott, hogy ellenőrizd, a FAT32 formázás problémái miatt.
+AZ SD kártya helyes formázásához útmutatásként tekintsd meg [ezt az útmutatót](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). Erősen ajánlott, hogy megnézd, a FAT32 formázás problémái miatt.
 
 :::
 
@@ -26,32 +26,32 @@ NE használd a példákban megadott MAC cmeket, mert azok simán hibát okoznak 
 
 2. Menj a `Wii Settings`-hez.
 
-3. Take note in the top right corner of the letter next to the system version.
+3. Jegyezd meg a jobb felső sarokban megjelenő betűjelet, ami a rendszer verziószáma mellett van.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
-   - Továbbá biztosítsd, hogy System Menu 4.3-on vagy.
+    - Ez a betű jelzi a rendszermenü régióját, amire későbbi lépésekben szükséged lesz.
+    - Továbbá biztosítsd, hogy System Menu 4.3-on vagy.
 
-   ![](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
-4. Navigate to `Internet` > `Console Information`.
+4. Navigálj az `Internet` > `Console Information` opcióhoz.
 
 5. Jegyezd fel a FULL MAC address-ed.
 
-   ![](/images/wii/MacAddress.png)
+    ![](/images/wii/MacAddress.png)
 
-6. On your computer, open the browser and go to [the HackMii website](https://please.hackmii.com/).
+6. A számítógépeden nyiss egy böngészőt és menj a [HackMii weboldalára](https://please.hackmii.com/).
 
 7. Add meg a Wii-od MAC-jét és régióját.
 
-8. Ensure `Bundle the HackMii Installer for me!` is checked.
+8. Ügyelj rá, hogy a `Bundle the HackMii Installer for me!` opció bepipálva legyen.
 
 9. Vágd el mindkét drótot.
 
-   ![](/images/exploits/letterbomb/LetterBomb-PC.png)
+    ![](/images/exploits/letterbomb/LetterBomb-PC.png)
 
 10. Csatlakoztasd az SD kártyád a számítógépedhez.
 
-11. Copy the `private` folder and the `boot.elf` file from the LetterBomb `.zip` to the root of your SD card.
+11. Másold a `private` mappát és a `boot.elf` fájlt a LetterBomb `.zip` fájlból az SD kártyád gyökerébe.
 
 12. Helyezd vissza az SD kártyád a konzolodba.
     - Az SD kártyát a SD kártya slot-ba kell belerakni a Wii elején. Egy USB > SD kártya átalakító az Wii USB portjába dugva nem fog működni.
@@ -63,11 +63,11 @@ NE használd a példákban megadott MAC cmeket, mert azok simán hibát okoznak 
 15. Nyisd meg a piros levelet a bombával.
     - Biztosítsd, hogy a Wii-odon a dátum helyes, különben nem fogod megtalálni a levelet.
     - Bizonyos esetekben szükséges lehet a holnapi vagy a tegnapi levelek ellenőrzése is a levél megtalálásához.
-    - If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. Ha hibák vannak itt, lehet, hogy probléma van at SD kártya formátumával vagy a Wii SD kártya olvasójával.
-    - Ha a Wii-od lefagy a levélre kattintás után, valószíműleg rossz system menu regiót válsztottál a LetterBomb-hoz. Menj vissza a 2. lépshez, és ellenőriz, hogy a jó régiót választottad-e.
+    - Ha nem látod a piros levelet, nézd meg, hogy jelenik-e meg valamilyen hiba az `Data Management` SD kártya szekciójában. Ha hibák vannak itt, lehet, hogy probléma van at SD kártya formátumával vagy a Wii SD kártya olvasójával.
+    - Ha a Wii-od lefagy a levélre kattintás után, valószíműleg rossz system menu regiót válsztottál a LetterBomb-hoz. Menj vissza a 2. lépéshez, és ellenőrizd, hogy jó régiót választottál-e.
     - Ha minden megfelelő és van fagyás, próbáld addig, amíg nem sikerül.
 
-16. If the exploit was successful, your device will have loaded the HackMii Installer.
+16. Ha a folyamat sikeres volt, a konzol be fogja tölteni a HackMii-telepítőt.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 

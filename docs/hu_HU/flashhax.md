@@ -11,41 +11,41 @@ A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül
 
 ### I. rész – Előkészületek
 
-1. Power on your console.
+1. Kapcsold be a konzolod.
 
-2. Indítsd el az Internet Channelt!
+2. Indítsd el az Internet Channel-t.
 
-   ![](/images/exploits/flashhax/internet-channel-start.png)
+    ![](/images/exploits/flashhax/internet-channel-start.png)
 
-3. Go to `flashhax.com`.
+3. Látogasd meg a `flashhax.com` címet.
 
 4. Válaszd ki a konzolod régióját!
 
-   ![](/images/exploits/flashhax/select-region.png)
+    ![](/images/exploits/flashhax/select-region.png)
 
 5. A csillag-gombbal nyisd meg a könyvjelzőkezelőt!
 
-6. Select `Add Favorite`.
+6. Válaszd ki az `Add Favorite` opciót.
 
-   ![](/images/exploits/flashhax/bookmark-page.png)
+    ![](/images/exploits/flashhax/bookmark-page.png)
 
 ### II. rész – FlashHax
 
 1. Nyisd meg az oldalt a könyvjelzőből!
 
-2. Légy türelemmel!
+2. Várj egy picit
 
-   - Eltarthat egy darabig, amíg a telepítő letöltődik.
+    - Eltarthat egy darabig, amíg a telepítő letöltődik.
 
-   ![](/images/exploits/flashhax/wait-for-download.png)
+    ![](/images/exploits/flashhax/wait-for-download.png)
 
 3. If the exploit was successful, your device will have loaded the HackMii Installer.
-   - Lehetséges, hogy ez több próbálkozást is igényelni fog.
-   - Ha a HackMii-telepítő nem indul el és a konzol lefagy (ezt onnan tudod, hogy a mutató megtorpan és nem mozdul meg), akkor indítsd újra a Wiit és kezdd előről ezt a részt!
+    - Lehetséges, hogy ez több próbálkozást is igényelni fog.
+    - Ha a HackMii Installer nem indul el és a konzol lefagy (a kurzor nem mozdul), akkor indítsd újra a Wii-t indítsd el a Internet Channel-t és kezdd újra ezt a részt.
 
-Ha több próbálkozás után sem működik, próbáld törölni a böngésző sütijeit vagy az Internet Channel játékmentését!
+Ha több próbálkozás után sem tölt be, próbáld törölni a böngésző sütijeit vagy az Internet Channel mentését.
 
-If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
+Ha további próbálkozások után sem működik a Flashhax, javasoljuk, hogy próbálj meg egy [másik exploitot](get-started) helyette.
 
 ::: tip
 

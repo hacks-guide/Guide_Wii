@@ -2,7 +2,7 @@
 
 This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
 
-## Vá para <code>Options</code> > <code>Standard System Menu</code> > Versão do seu Menu do Wii > Região do seu Menu do Wii
+## Vá para <code>Options</code> &#062; <code>Standard System Menu</code> &#062; Versão do seu Menu do Wii &#062; Região do seu Menu do Wii
 
 ::: danger
 
