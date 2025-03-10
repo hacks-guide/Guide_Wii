@@ -44,23 +44,65 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 1. Launch The Homebrew Channel.
 1. Launch d2x cIOS Installer.
 1. Set everything to match the following:
-    + Select cIOS: `d2x-v11-beta2-vWii`
-    + Select cIOS base: `56`
-    + Select cIOS slot: `249`
-1. Press the `A` button to install.
-1. Set everything to match the following:
-    + Select cIOS: `d2x-v11-beta2-vWii`
-    + Select cIOS base: `57`
-    + Select cIOS slot: `250`
-1. Press the `A` button to install.
-1. Set everything to match the following:
-    + Select cIOS: `d2x-v11-beta2-vWii`
-    + Select cIOS base: `58`
-    + Select cIOS slot: `251`
-1. Press the `A` button to install.
-1. Press the `B` button to exit.
 
-+ Once you have finished with all 3 cIOSes, press B to return to the Homebrew Channel.
+    ```
+    Select cIOS <d2x-v11-beta2-vWii>
+    Select cIOS base <38>
+    Select cIOS slot <248>
+    Select cIOS revision <65535>
+    ```
+
+    ![](/images/cios/d2x_v11_248_vwii.png)
+
+    ::: info
+
+    If you do not see `d2x-v11-beta2-vWii`, exit the installer with B, and make sure your SD card is unlocked.
+
+    :::
+
+    ::: info
+
+    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
+
+    :::
+
+1. Press the `A` button to install.
+1. Repeat the previous 2 steps with the following configurations:
+
+    + cIOS 249 Installation
+
+        ```
+        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS base <56>
+        Select cIOS slot <249>
+        Select cIOS revision <65535>
+        ```
+
+        ![](/images/cios/d2x_v11_249_vwii.png)
+
+    + cIOS 250 Installation
+
+        ```
+        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS base <57>
+        Select cIOS slot <250>
+        Select cIOS revision <65535>
+        ```
+
+        ![](/images/cios/d2x_v11_250_vwii.png)
+
+    + cIOS 251 Installation
+
+        ```
+        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS base <58>
+        Select cIOS slot <251>
+        Select cIOS revision <65535>
+        ```
+
+        ![](/images/cios/d2x_v11_251_vwii.png)
+
+1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
 
 ::: tip
 
