@@ -76,7 +76,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 6. Állíts be mindent az alábbiak szerint:
 
     ```
-    Select cIOS <d2x-v11-beta2>
+    Select cIOS <d2x-v11-beta1>
     Select cIOS base <38>
     Select cIOS slot <248>
     Select cIOS revision <65535>
@@ -86,7 +86,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
     ::: info
 
-    Ha nem látod a `d2x-v11-beta2`-et, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
+    Ha nem látod a `d2x-v11-beta1`-et, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
 
     :::
 
@@ -131,7 +131,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
     - A cIOS 249 telepítéséhez
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta1>
         Select cIOS base <56>
         Select cIOS slot <249>
         Select cIOS revision <65535>
@@ -142,7 +142,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
     - A cIOS 250 telepítéséhez
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta1>
         Select cIOS base <57>
         Select cIOS slot <250>
         Select cIOS revision <65535>
@@ -153,7 +153,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
     - A cIOS 251 telepítéséhez
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta1>
         Select cIOS base <58>
         Select cIOS slot <251>
         Select cIOS revision <65535>

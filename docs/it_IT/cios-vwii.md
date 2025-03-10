@@ -44,17 +44,17 @@ Assicurati che, se stai usando la scheda SD, l'interruttore della proteziona scr
 4. Launch The Homebrew Channel.
 5. Launch d2x cIOS Installer.
 6. Imposta le opzioni in modo che corrispondano a quanto segue:
-   - Select cIOS: `d2x-v11-beta2-vWii`
+   - Select cIOS: `d2x-v11-beta1-vWii`
    - Select cIOS base: `56`
    - Select cIOS slot: `249`
 7. Press the `A` button to install.
 8. Imposta le opzioni in modo che corrispondano a quanto segue:
-   - Select cIOS: `d2x-v11-beta2-vWii`
+   - Select cIOS: `d2x-v11-beta1-vWii`
    - Select cIOS base: `57`
    - Select cIOS slot: `250`
 9. Press the `A` button to install.
 10. Imposta le opzioni in modo che corrispondano a quanto segue:
-    - Select cIOS: `d2x-v11-beta2-vWii`
+    - Select cIOS: `d2x-v11-beta1-vWii`
     - Select cIOS base: `58`
     - Select cIOS slot: `251`
 11. Press the `A` button to install.

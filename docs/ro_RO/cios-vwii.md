@@ -44,17 +44,17 @@ Asigură-te că dacă folosești un card SD, comutatorul de blocare este în poz
 4. Deschide Homebrew Channel.
 5. Deschide d2x cIOS Installer.
 6. Setează opțiunile astfel:
-   - Selectează ca cIOS: `d2x-v11-beta2-vWii`
+   - Selectează ca cIOS: `d2x-v11-beta1-vWii`
    - Selectează ca cIOS base: `56`
    - Selectează ca cIOS slot: `249`
 7. Apasă butonul `A` pentru a instala.
 8. Setează opțiunile astfel:
-   - Selectează ca cIOS: `d2x-v11-beta2-vWii`
+   - Selectează ca cIOS: `d2x-v11-beta1-vWii`
    - Selectează ca cIOS base: `57`
    - Selectează ca cIOS slot: `250`
 9. Apasă butonul `A` pentru a instala.
 10. Setează opțiunile astfel:
-    - Selectează ca cIOS: `d2x-v11-beta2-vWii`
+    - Selectează ca cIOS: `d2x-v11-beta1-vWii`
     - Selectează ca cIOS base: `58`
     - Selectează ca cIOS slot: `251`
 11. Apasă butonul `A` pentru a instala.

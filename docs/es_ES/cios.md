@@ -76,7 +76,7 @@ The WAD files should be on your SD card like this:
 6. Set everything to match the following:
 
    ```
-   Select cIOS <d2x-v11-beta2>
+   Select cIOS <d2x-v11-beta1>
    Select cIOS base <38>
    Select cIOS slot <248>
    Select cIOS revision <65535>
@@ -86,7 +86,7 @@ The WAD files should be on your SD card like this:
 
    ::: info
 
-   If you do not see `d2x-v11-beta2`, exit the installer with B, and make sure your SD card is unlocked.
+   If you do not see `d2x-v11-beta1`, exit the installer with B, and make sure your SD card is unlocked.
 
    :::
 
@@ -131,7 +131,7 @@ The WAD files should be on your SD card like this:
     - Instalando cIOS 249
 
       ```
-      Select cIOS <d2x-v11-beta2>
+      Select cIOS <d2x-v11-beta1>
       Select cIOS base <56>
       Select cIOS slot <249>
       Select cIOS revision <65535>
@@ -142,7 +142,7 @@ The WAD files should be on your SD card like this:
     - Instalando cIOS 250
 
       ```
-      Select cIOS <d2x-v11-beta2>
+      Select cIOS <d2x-v11-beta1>
       Select cIOS base <57>
       Select cIOS slot <250>
       Select cIOS revision <65535>
@@ -153,7 +153,7 @@ The WAD files should be on your SD card like this:
     - Instalando cIOS 251
 
       ```
-      Select cIOS <d2x-v11-beta2>
+      Select cIOS <d2x-v11-beta1>
       Select cIOS base <58>
       Select cIOS slot <251>
       Select cIOS revision <65535>
