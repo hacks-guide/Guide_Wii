@@ -44,17 +44,17 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 4. Launch The Homebrew Channel.
 5. Launch d2x cIOS Installer.
 6. Set everything to match the following:
-   - Select cIOS: `d2x-v11-beta1-vWii`
+   - Select cIOS: `d2x-v11-beta2-vWii`
    - Select cIOS base: `56`
    - Select cIOS slot: `249`
 7. Press the `A` button to install.
 8. Set everything to match the following:
-   - Select cIOS: `d2x-v11-beta1-vWii`
+   - Select cIOS: `d2x-v11-beta2-vWii`
    - Select cIOS base: `57`
    - Select cIOS slot: `250`
 9. Press the `A` button to install.
 10. Set everything to match the following:
-    - Select cIOS: `d2x-v11-beta1-vWii`
+    - Select cIOS: `d2x-v11-beta2-vWii`
     - Select cIOS base: `58`
     - Select cIOS slot: `251`
 11. Press the `A` button to install.

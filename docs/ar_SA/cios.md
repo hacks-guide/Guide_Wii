@@ -48,7 +48,7 @@ The WAD files should be on your SD card like this: ![offline IOS files](/images/
 
 #### Section II - Installing
 
-If `d2x-v11-beta1` isn't showing up, try select the cIOS base first, then check again. This can also happen if your SD card is locked.
+If `d2x-v11-beta2` isn't showing up, try select the cIOS base first, then check again. This can also happen if your SD card is locked.
 {: .notice--info}
 
 On each cIOS that you try to install, you will first be shown a grid of active IOS on the Wi. Simply press A again, and it will install. Then, you will be shown a results screen, just press A as well and go to the next cIOS.
@@ -65,7 +65,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
     + cIOS 248 Installation
 
         ```
-        Select cIOS <d2x-v11-beta1>
+        Select cIOS <d2x-v11-beta2>
         Select cIOS base <38>
         Select cIOS slot <248>
         Select cIOS version <65535>
@@ -76,7 +76,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
     + cIOS 249 Installation
 
         ```
-        Select cIOS <d2x-v11-beta1>
+        Select cIOS <d2x-v11-beta2>
         Select cIOS base <56>
         Select cIOS slot <249>
         Select cIOS version <65535>
@@ -87,7 +87,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
     + cIOS 250 Installation
 
         ```
-        Select cIOS <d2x-v11-beta1>
+        Select cIOS <d2x-v11-beta2>
         Select cIOS base <57>
         Select cIOS slot <250>
         Select cIOS version <65535>
@@ -98,7 +98,7 @@ On each cIOS that you try to install, you will first be shown a grid of active I
     + cIOS 251 Installation
 
         ```
-        Select cIOS <d2x-v11-beta1>
+        Select cIOS <d2x-v11-beta2>
         Select cIOS base <58>
         Select cIOS slot <251>
         Select cIOS version <65535>

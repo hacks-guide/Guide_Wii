@@ -44,17 +44,17 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 4. Indítsd el a Homebrew Channelt!
 5. Indítsd el a d2x cIOS Installert.
 6. Állíts be mindent az alábbiak szerint:
-    - Select cIOS: `d2x-v11-beta1-vWii`
+    - Select cIOS: `d2x-v11-beta2-vWii`
     - Select cIOS base: `56`
     - Select cIOS slot: `249`
 7. A telepítés indításához nyomd meg az `A` gombot.
 8. Állíts be mindent az alábbiak szerint:
-    - Select cIOS: `d2x-v11-beta1-vWii`
+    - Select cIOS: `d2x-v11-beta2-vWii`
     - Select cIOS base: `57`
     - Select cIOS slot: `250`
 9. A telepítés indításához nyomd meg az `A` gombot.
 10. Állíts be mindent az alábbiak szerint:
-    - Select cIOS: `d2x-v11-beta1-vWii`
+    - Select cIOS: `d2x-v11-beta2-vWii`
     - Select cIOS base: `58`
     - Select cIOS slot: `251`
 11. A telepítés indításához nyomd meg az `A` gombot.
