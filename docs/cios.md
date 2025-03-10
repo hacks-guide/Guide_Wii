@@ -167,6 +167,6 @@ If you downloaded the 4 WAD files in Section I, you may now delete them from you
 
 Continue to [Open Shop Channel Installation](osc)
 
-Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+Now that your main setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 
 :::
