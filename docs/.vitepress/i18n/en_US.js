@@ -328,6 +328,7 @@ const themeConfig = {
 				items: [
 					{ text: localeData.pages["key-information"], link:`/key-information` },
 					{ text: localeData.pages["get-started"], link: `/get-started` },
+					{ text: localeData.pages["cios"], link: `/cios` },
 					{ text: localeData.pages["multiple-options"] },
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
@@ -370,6 +371,7 @@ const themeConfig = {
 				items: [
 					{ text: localeData.pages["key-information"], link:`/key-information` },
 					{ text: localeData.pages["get-started"], link: `/get-started` },
+					{ text: localeData.pages["cios"], link: `/cios` },
 					{ text: localeData.pages["multiple-options"] },
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
@@ -504,6 +506,7 @@ const themeConfig = {
 				items: [
 					{ text: localeData.pages["key-information"], link:`/key-information` },
 					{ text: localeData.pages["get-started"], link: `/get-started` },
+					{ text: localeData.pages["cios"], link: `/cios` },
 					{ text: localeData.pages["multiple-options"] },
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
@@ -530,6 +533,7 @@ const themeConfig = {
 				items: [
 					{ text: localeData.pages["key-information"], link:`/key-information` },
 					{ text: localeData.pages["get-started"], link: `/get-started` },
+					{ text: localeData.pages["cios"], link: `/cios` },
 					{ text: localeData.pages["multiple-options"] },
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },

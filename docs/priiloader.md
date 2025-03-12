@@ -105,32 +105,12 @@ These guidelines list ways that will help avoid bricking your Wii, beyond just h
 
 :::
 
-## Wii: Next Steps
+## Next Steps
 
 ::: tip
 
 Continue to [cIOS](cios)
 
-This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
-
-:::
-
-## vWii: Next Steps
-
-::: tip
-
-Continue to [vWii cIOS](cios-vwii)
-
-This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
-
-:::
-
-## Wii mini: Next Steps
-
-::: tip
-
-Continue to [Wii mini cIOS](cios-mini)
-
-This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders.
+This guide provides steps on how to get a basic set of cIOS installed on your console, enabling functionality on apps like USB loaders.
 
 :::
