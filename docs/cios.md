@@ -210,6 +210,8 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 :::
 
+## Instructions
+
 ### Section I - Installing
 
 1. Copy the `apps` folder in the d2x-cios-installer-vwii `.zip` to the root of your SD card or USB drive.
@@ -273,7 +275,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ::: tip
 
-[Continue to finalizing setup](vwii-finalizing-setup)
+[Continue to Finalizing Setup](vwii-finalizing-setup)
 
 :::
 
