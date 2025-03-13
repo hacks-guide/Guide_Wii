@@ -45,7 +45,7 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 ### Requirements
 
 - Egy Linuxos számítógép
-    - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
+    - Lehetséges, hogy a program egy virtuális számítógépen is elfut, de ez a módszer a Bluetooth-áthidalás bonyolultsága miatt nem ajánlott. Ha lehet, az alább leírtak szerint futtasd a Linuxot egy Usb-meghajtóról.
     - Egy Raspberry Pi működhet, ugyanis arra valószínűleg már telepítve van a Linux egy verziója.
     - Linuxos Windows-alrendszert vagy Linux-módban futó Chromebookot nem használhatsz, ugyanis ezek nem férnek hozzá a Bluetooth-adapterhez vagy az USB portokhoz.
     - Ha még nem használtál Linuxot, akkor az [Ubuntu](https://ubuntu.com/download/desktop) lehet a legfelhasználóbarátabb lehetőség és ami a legtöbb Windowsos vagy MacOS-es számítógépen elfut.
@@ -59,7 +59,7 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
     - Ez nem lehet ugyanaz, amelyről a Linux-környezetet fogod futtatni.
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### Instructions
+### Lépések
 
 1. Másold a `boot.elf` fájlt a HackMii Installer v1.2 `.zip`-ből a pendrive-od gyökerébe.
 
@@ -68,23 +68,23 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 
     ![](/images/exploits/bluebomb/usb-exploit.png)
 
-2. Reinsert your flash drive into your console.
+2. Helyezd vissza az flash drive-od a konzolodba.
     - For a Wii mini, the USB port is on the back.
-    - For a normal Wii, use the bottom port (or the right port if it's upright).
+    - Egy sima Wii esetén az alsó csatlakozót használd (ha a konzol fel van állítva, akkor ez a jobb oldali).
 
 3. Kapcsold be a konzolod.
 
 4. Menj a `Wii Settings`-hez.
 
-5. Take note in the top right corner of the letter next to the system version.
+5. Jegyezd meg a jobb felső sarokban megjelenő betűjelet, ami a rendszer verziószáma mellett van.
 
-    - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    - Ez a betű jelzi a rendszermenü régióját, amire a későbbi lépésekben szükséged lesz.
 
     ![](/images/wii/SystemMenuVersion.png)
 
 6. Kapcsold ki a konzolod.
 
-7. Start your Linux distro, and ensure you are connected to the internet.
+7. Indítsd el a Linuxos számítógépedet és csatlakozz az internetre.
 
 8. Nyisd meg a Terminált és futtasd a következő parancsokat:
 
@@ -96,15 +96,15 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 
     ![](/images/exploits/bluebomb/run-commands.png)
 
-9. The helper will then download the required files, and ask for information about your console.
+9. A telepítő most letölti a szükséges fájlokat, majd a konzolodról fog érdeklődni.
 
     ![](/images/exploits/bluebomb/console-type.png)
 
-    - Ha Wii mini-tt adtál meg, akkor a régió felől fog érdeklődni. Ezt a Wii Menu verziójának utolsó betűje alapján lehet meghatározni (`U` az **USA**-ban és `E` a **PAL** modellek esetében).
+    - Ha Wii mini-t adtál meg, akkor a régió felől fog érdeklődni. Ezt a Wii Menu verziójának utolsó betűje alapján lehet meghatározni (`U` az **USA**-ban és `E` a **PAL** modellek esetében).
 
     ![](/images/exploits/bluebomb/wii-mini-options.png)
 
-    - Ha Wiit adtál meg, akkor a Wii Menü verziószámát kell megadnod (ezt a 4. lépésben tudtad meg).
+    - Ha Wii-t adtál meg, akkor a Wii Menü verziószámát kell megadnod (ezt a 4. lépésben tudtad meg).
 
     ![](/images/exploits/bluebomb/wii-options.png)
 
@@ -115,13 +115,13 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 
 12. Nyomogasd a konzol Sync gombját, amíg a terminálon nem látod ezt az üzenetet: `got connection handle`.
 
-    - This could take numerous attempts.
+    - Lehetséges, hogy ezt többször is meg kell próbálnod.
 
     ![](/images/exploits/bluebomb/got-connection-handle.png)
 
 13. Ha az exploit sikeres volt, akkor az alábbi képernyőhöz hasonlót kell látnod, majd a HackMii installer-nek be kell töltődnie.
 
-    - If you are not planning to use it later, you can now shut down your Linux distro.
+    - Ha a későbbiekben már nem tervezed használni, akkor leállíthatod a Linuxot.
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
@@ -145,7 +145,7 @@ Ha Wii mini-t használsz: folytasd a [Homebrew Channel telepítésével.](hbc-mi
 
 :::details Technikai részletek (opcionális)
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+Ez az exploit lehetővé teszi bizonyos brick-ek, mint például a banner brick és (néhány) téma brick helyreállítását is.
 
 :::
 
@@ -189,8 +189,8 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 1. Másold a `boot.elf` fájlt a HackMii Installer v1.2 `.zip`-ből a pendrive-od gyökerébe.
 
-    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-    - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Minden esetben a boot.elf-fájlt használd).
+    - (Ha egy brick-et kívánsz megjavítani, akkor másold a használni kívánt alkalmazást az /apps/ könyvtárba)
+    - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Minden esetben a boot.elf fájlt használd).
 
     ![](/images/exploits/bluebomb/usb-exploit.png)
 
