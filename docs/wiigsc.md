@@ -30,7 +30,7 @@ The Wii Menu is limited to 48 channels, not including existing system channels.
 
 ## Instructions
 
-1. Extract the WiiGSC `.zip`, find `WiiGSC.exe`, and lanunch it.
+1. Extract the WiiGSC `.zip`, find `WiiGSC.exe`, and launch it.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
