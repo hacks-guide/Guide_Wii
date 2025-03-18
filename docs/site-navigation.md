@@ -75,7 +75,6 @@
 + [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
 + [Wii U NAND Dumper](wiiu-nand-dumper)
 + [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
-+ [Installing cIOS on the vWii](cios-vwii)
 
 ::: 
 
@@ -83,7 +82,6 @@
 
 **Wii mini**
 + [Installing the Homebrew Channel on the Wii mini](hbc-mini)
-+ [Installing cIOS on the Wii mini](cios-mini)
 + [Wii mini NAND Dumper](wnd-mini)
 
 :::
