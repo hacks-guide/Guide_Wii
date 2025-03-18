@@ -17,9 +17,9 @@ This check can be bypassed using Priiloader, which allows Recovery Mode to boot 
 
 - Un controller GameCube
 - Se il Diagnostic Disc Check è stato precedentemente rimosso con Priiloader o se hai un chip dell'unità è a portata di mano:
-  - Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OR
-  - Any other exploited Wii game, with the current exploit game save on the console (see [Legacy Exploits](legacy-exploits)) OR
-  - Any retail game, and access to the [Bluebomb](bluebomb) exploit
+    - Super Smash Bros. Brawl ([Smash Stack](legacy-exploits#smash-stack)) OR
+    - Any other exploited Wii game, with the current exploit game save on the console (see [Legacy Exploits](legacy-exploits)) OR
+    - Any retail game, and access to the [Bluebomb](bluebomb) exploit
 - Una revisione di Wii originale (i modelli Family Edition di Wii non si possono usare a causa della mancanza delle porte GameCube - altrimenti le devi saldare)
 - Un PC Windows/macOS/Linux con una connessione a Internet
 - Una scheda SD formattata come FAT32
