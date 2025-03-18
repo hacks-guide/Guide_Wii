@@ -33,20 +33,20 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 2. You should see the Priiloader menu.
 
-   ![](/images/priiloader/mainmenu.png)
+    ![](/images/priiloader/mainmenu.png)
 
 3. Go to `System Menu Hacks`.
 
-   ::: info
+    ::: info
 
-   If you are using a USB drive to install Priiloader, make sure you do not have an SD card inserted at the same time. This will cause Priiloader to be unable to find the hacks_hash.ini file.
-   Go to <code>System Menu Hacks</code>. If you are using a USB drive to install Priiloader, make sure you do not have an SD card inserted at the same time. This will cause Priiloader to be unable to find the hacks_hash.ini file. This will cause Priiloader to be unable to find the hacks_hash.ini file.
+    If you are using a USB drive to install Priiloader, make sure you do not have an SD card inserted at the same time. This will cause Priiloader to be unable to find the hacks_hash.ini file.
+    Go to <code>System Menu Hacks</code>. If you are using a USB drive to install Priiloader, make sure you do not have an SD card inserted at the same time. This will cause Priiloader to be unable to find the hacks_hash.ini file. This will cause Priiloader to be unable to find the hacks_hash.ini file.
 
-   :::
+    :::
 
 4. Make sure the `Wiimmfi patch v4` hack is enabled.
 
-   ![](/images/priiloader/hacks.png)
+    ![](/images/priiloader/hacks.png)
 
 5. Scroll to `Save Settings` and save your changes.
 
@@ -125,7 +125,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 2. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
 
-   ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
+    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
 3. If you're using the Wii U, you will have to run the competitions patcher whenever you want to check for a competition, because WiiConnect24 is not enabled on the Wii U.
 
@@ -189,9 +189,9 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 
 1. Download the patcher and extract the `.zip` file.
 2. Insert your SD card or USB drive into the Wii.
-   - If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
-   - If you're on MacOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
-   - If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
+    - If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
+    - If you're on MacOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
+    - If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
 3. If the above was successful, you should see a window pop-up that displays the patching process. Once the process finishes, you will find the patched images in a folder called `wiimmfi-images`.
 
 ::: tip
