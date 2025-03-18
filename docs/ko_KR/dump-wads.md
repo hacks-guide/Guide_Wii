@@ -25,11 +25,11 @@
 
 8. A 버튼을 누릅니다.
 
-   ![](/images/homebrew/DumpWADS/1.png)
+    ![](/images/homebrew/DumpWADS/1.png)
 
 9. `설치된 채널 제목`을 선택합니다.
 
-   ![](/images/homebrew/DumpWADS/2.png)
+    ![](/images/homebrew/DumpWADS/2.png)
 
 10. 덤프하려는 콘텐츠를 찾아 1 버튼을 누릅니다.
 
