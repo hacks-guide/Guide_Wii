@@ -23,7 +23,7 @@ A ModMii egy mindenre kiterjedő Wii hacker eszköz Windowsra, amelyet XFlak ké
 
 ## ModMii áttekintés
 
-A ModMii kétféleképpen használható. Van a ModMii Classic, amely parancssori felületet használ, de a program minden funkciója rendelkezésre áll. A ModMii Skin ezzel szemben grafikus felhasználói felülettel rendelkezik, de kevesebb lehetőség áll a felhasználó rendelkezésére. Ha egyszerűen csak a Wii-od szeretnéd először módosítani, a ModMii Skin elegendő lehet. Ellenkező esetben a ModMii Classic használatát javasoljuk, ha lehetséges.
+A ModMii kétféleképpen használható. Van a ModMii Classic, amely parancssori felületet használ, de a program minden funkciója rendelkezésre áll. A ModMii Skin ezzel szemben grafikus felhasználói felülettel rendelkezik, de kevesebb lehetőség áll a felhasználó rendelkezésére. Ha egyszerűen csak a Wii-od szeretnéd először módosítani, a ModMii Skin elegendő lehet. Otherwise, we recommend using ModMii Classic where possible.
 
 Az alábbi táblázat segít meghatározni, hogy mit lehet csinálni az egyes felületeken.
 
