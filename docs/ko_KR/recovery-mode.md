@@ -17,9 +17,9 @@ Priiloader를 사용하면 이런 검사를 우회할 수 있으며, 이를 통�
 
 - 게임큐브 컨트롤러
 - 이전에 Priiloader로 진단 디스크 검사를 제거했거나 드라이브 칩이 있는 경우:
-  - 대난투 스매시 브라더스X ([Smash Stack](legacy-exploits#smash-stack)) 또는
-  - 콘솔에 현재 익스플로잇 게임이 저장된 다른 익스플로잇 된 Wii 게임 ([레거시 익스플로잇](legacy-exploits) 참조) 또는
-  - 모든 판매용 게임 및 [Bluebomb](bluebomb) 익스플로잇에 대한 접속
+    - 대난투 스매시 브라더스X ([Smash Stack](legacy-exploits#smash-stack)) 또는
+    - 콘솔에 현재 익스플로잇 게임이 저장된 다른 익스플로잇 된 Wii 게임 ([레거시 익스플로잇](legacy-exploits) 참조) 또는
+    - 모든 판매용 게임 및 [Bluebomb](bluebomb) 익스플로잇에 대한 접속
 - 오리지널 개정판 Wii(Family Edition Wii는 케임큐브 포트가 없기 때문에 작동하지 않음 - 그렇지 않으면 일부를 납땜해야 함)
 - 인터넷 연결이 가능한 윈도우/맥OS/리눅스 PC
 - FAT32로 포맷된 SD 카드
