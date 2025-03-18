@@ -25,11 +25,11 @@ Acest ghid îți va arăta cum să extragi fișiere WAD din Memoria de Sistem Wi
 
 8. Apasă A.
 
-   ![](/images/homebrew/DumpWADS/1.png)
+    ![](/images/homebrew/DumpWADS/1.png)
 
 9. Select `Installed Channel Titles`.
 
-   ![](/images/homebrew/DumpWADS/2.png)
+    ![](/images/homebrew/DumpWADS/2.png)
 
 10. Găsește conținutul pe care vrei să-l extragi și apasă Butonul 1.
 
