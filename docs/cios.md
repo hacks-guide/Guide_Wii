@@ -307,7 +307,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 * A Wii mini with the Homebrew Channel installed
 * A USB drive
-* The [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
+* The [d2xl cIOS Installer](/assets/files/d2xl-cios-installer-mini.zip)
 
 ## Instructions
 
@@ -315,8 +315,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 1. Power off your console.
 1. Insert your USB drive into your computer.
-1. Create a folder named `apps` on the root of your USB drive if it does not already exist.
-1. Copy the `d2x-cios-installer-mini` folder from the d2xl-cios-installer-mini `.zip` to the `apps` folder on your USB drive.
+1. Copy the `apps` folder from the d2xl-cios-installer-mini `.zip` to the root of your USB drive.
 1. Reinsert your USB drive into your console.
 1. Power on your console.
 1. Launch the Homebrew Channel.
@@ -332,8 +331,8 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
     Select cIOS slot <249>
     ```
 
-    ![](/images/cios/d2x_v1_249_mini_NTSC.jpg)
-    ![](/images/cios/d2x_v1_249_mini_PAL.jpg)
+    ![](/images/cios/d2x_v1_249_mini_NTSC.png)
+    ![](/images/cios/d2x_v1_249_mini_PAL.png)
    
     + Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
 1. Press A to install.
