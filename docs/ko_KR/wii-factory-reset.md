@@ -42,51 +42,51 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
 2. `Local Cache` 버튼을 누르고 NUS 캐시를 출력할 새 폴더를 만든 다음 확인을 누릅니다. 예시 폴더는 아래와 같습니다.
 
-   ![](/images/factory-reset/nuscache.png)
+    ![](/images/factory-reset/nuscache.png)
 
 3. 툴바에서 `Nand Dump`를 누른 후 `New nand`를 누릅니다. 이렇게 하면 새 낸드 덤프에 대한 매개변수를 조정할 수 있는 팝업 창이 열립니다. 큰 `Existing Nand...` 버튼을 눌러 Wii의 기존 낸드 덤프를 찾습니다.
 
-   ![](/images/factory-reset/newnand.png)
+    ![](/images/factory-reset/newnand.png)
 
 4. 이렇게 하면 키, 부트 1/2, 불량 블록 등의 정보가 자동으로 입력됩니다. 대상 상자만 `./blank and.in`으로 변경하면 낸드가 `blank and.bin`이라는 이름의 프로그램 폴더에 출력됩니다. 그런 다음, 확인을 누릅니다.
 
-   ![](/images/factory-reset/renamenand.png)
+    ![](/images/factory-reset/renamenand.png)
 
 ### 섹션 II - 빈 낸드 생성
 
 1. 이제 낸드가 프로그램에 로드되었으므로 도구 모음에서 `Content`을 선택한 다음 포맷을 누릅니다. 이렇게 하면 백업 낸드가 아닌 빈 낸드가 초기화됩니다.
 
-   ![](/images/factory-reset/formatnand.png)
+    ![](/images/factory-reset/formatnand.png)
 
 2. 프로그램의 왼쪽 상단 텍스트 상자를 선택하고 낸드에 필요한 Wii 시스템 메뉴 버전을 입력합니다. 이것은 낸드가 이전에 사용하던 버전이어야 한다는 점에 유의합니다. 이 낸드는 `4.3U`를 사용했습니다. 다른 유효한 예로는 `3.2U`, `4.3E`, `3.4J` 등이 있습니다.
 
-   ![](/images/factory-reset/sysmenu.png)
+    ![](/images/factory-reset/sysmenu.png)
 
 3. 원하는 메뉴 버전을 입력했는지 확인한 후 Enter 또는 `Get It!`을 누릅니다. 그러면 NUS 서버에서 메뉴가 다운로드되기 시작하며, 프로그램에 진행률이 표시됩니다.
 
-   ![](/images/factory-reset/menudownload.png)
+    ![](/images/factory-reset/menudownload.png)
 
 4. 메뉴 다운로드가 완료되면 낸드에 추가된 설정을 보여주는 팝업이 나타납니다. 일련 번호가 정확하지 않더라도 낸드에 무엇이 있는지에 따라 자동으로 채워집니다. 원하시면 이 항목을 편집할 수 있고, 그렇지 않으면 모든 내용을 비워두고 확인을 누릅니다.
 
-   ![](/images/factory-reset/settings.png)
+    ![](/images/factory-reset/settings.png)
 
 5. 다음으로, 작업 표시줄에서 `Content`를 누르고 `Write meta entries`를 누릅니다. 그런 다음, 메뉴로 돌아가서 `Flush`를 누릅니다. 그런 다음 창을 닫습니다.
 
-   ![](/images/factory-reset/finalsteps.png)
+    ![](/images/factory-reset/finalsteps.png)
 
 ### 섹션 III - 낸드 확인
 
 1. NAND Bin Checker가 Ohneschwanzenegger와 같은 디렉토리에 없다면 지금 복사합니다. 그런 다음, 해당 디렉토리에서 터미널을 엽니다. 다음 명령을 실행합니다: `.\nandBinCheck.exe .\blankNand.bin`. 낸드에 다른 이름을 지정한 경우 명령도 그에 맞게 조정합니다. 그러면 프로그램이 낸드의 유효성을 검사합니다.
 
-   ![](/images/factory-reset/nandcheck.png)
+    ![](/images/factory-reset/nandcheck.png)
 
 2. 모든 것이 잘 되었다면, 결과는 아래와 비슷할 것입니다. 눈에 띄는 오류가 있는 경우, 해당 낸드를 사용하지 말고 다시 시도합니다. Wii가 손상되거나 영구적으로 고장날 수 있습니다. 이후에도 이러한 오류가 계속 발생하면, 닌텐도 홈브류 디스코드 서버에 접속하여 지원을 받으세요.
 
-   ![](/images/factory-reset/nandcheckresult.png)
+    ![](/images/factory-reset/nandcheckresult.png)
 
 3. `blankNand.bin`을 Wii SD 카드로 옮기고 `nand.bin`으로 이름을 바꾸면 BootMii에서 플래시할 수 있습니다. 기존 낸드를 덮어쓰지 않도록 주의합니다!
 
-   ![](/images/factory-reset/nandname.png)
+    ![](/images/factory-reset/nandname.png)
 
 ::: tip
 
