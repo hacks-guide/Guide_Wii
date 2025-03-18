@@ -11,7 +11,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 ## 需要
 
 - a Wii with The Homebrew Channel 1.0.8 or later
-  - If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
+    - If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
 - 一张SD卡或移动硬盘/U 盘
 - 一台装有 Windows 的电脑
 - [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
@@ -41,7 +41,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 1. 关闭 Wii。 按住 RESET，然后再打开。
 2. In the Priiloader menu, select `Homebrew Channel`.
-   - If the Priiloader menu does not appear, please [install it immediately](priiloader). 本指南需要 Priiloader。
+    - If the Priiloader menu does not appear, please [install it immediately](priiloader). 本指南需要 Priiloader。
 3. 启动 YAWM ModMii Edition。
 4. 选择 SD 卡或 U 盘。
 5. Press `+` to one the IOS80 and IOS58 WADs to highlight them, then press A twice to install.
