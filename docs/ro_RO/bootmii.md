@@ -27,55 +27,55 @@ Dacă ai BootMii instalat ca boot2, va trebui să repornești consola pentru a r
 
 3. Apasă pe butonul HOME, apoi alege "Launch BootMii".
 
-   ![](/images/bootmii/BootMii_HBC.png)
+    ![](/images/bootmii/BootMii_HBC.png)
 
-   ::: warning
+    ::: warning
 
-   If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+    If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
 
-   :::
+    :::
 
-   ::: warning
+    ::: warning
 
-   Dacă ecranul rămâne negru și lumina albastră a cititorului de discuri clipește după ce ai deschis BootMii, fișierele BootMii lipsesc din cardul tău SD. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+    Dacă ecranul rămâne negru și lumina albastră a cititorului de discuri clipește după ce ai deschis BootMii, fișierele BootMii lipsesc din cardul tău SD. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 
-   :::
+    :::
 
 4. Ar trebui să vezi o imagine asemănătoare cu cea de mai jos acum pe ecranul tău:
 
-   ![](/images/bootmii/BootMii_Main.png)
+    ![](/images/bootmii/BootMii_Main.png)
 
-   ::: info
+    ::: info
 
-   Navigarea prin BootMii nu este posibilă folosind un Wii Remote.
-   Va trebui să folosești butoanele POWER și RESET de pe consola ta sau un controller GameCube conectat în portul 1.
-   Pentru a naviga printre opțiuni, apasă POWER. Pentru a alege o opțiune, apasă RESET.
+    Navigarea prin BootMii nu este posibilă folosind un Wii Remote.
+    Va trebui să folosești butoanele POWER și RESET de pe consola ta sau un controller GameCube conectat în portul 1.
+    Pentru a naviga printre opțiuni, apasă POWER. Pentru a alege o opțiune, apasă RESET.
 
-   :::
+    :::
 
 5. Alege butonul Opțiuni (iconița cu rotițele).
 
-   ![](/images/bootmii/BootMii_Gears.png)
+    ![](/images/bootmii/BootMii_Gears.png)
 
 6. Alege primul buton din stânga.
 
-   ![](/images/bootmii/BootMii_Backup.png)
+    ![](/images/bootmii/BootMii_Backup.png)
 
 7. Un backup a memoriei NAND va începe. Poți vedea progresul pe ecran.
 
-   - "Bad Blocks"-urile sunt normale și în mare parte provin din fabrică. Nu te îngrijora dacă vezi unele că apar într-un backup NAND.
+    - "Bad Blocks"-urile sunt normale și în mare parte provin din fabrică. Nu te îngrijora dacă vezi unele că apar într-un backup NAND.
 
-   ![](/images/bootmii/BootMii_NAND_Backup.png)
+    ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 8. Odată ce ultimul pas este completat, BootMii va verifica backup-ul. Ideal, toate blocurile ar trebui să fie verzi după procesul de verificare.
 
-   - Dacă ai bad block-uri cu pagini necorectabile din fabrică, aceste blocuri s-ar putea să eșueze verificarea. As long as all non-bad blocks are successfully verified, this should be fine.
+    - Dacă ai bad block-uri cu pagini necorectabile din fabrică, aceste blocuri s-ar putea să eșueze verificarea. As long as all non-bad blocks are successfully verified, this should be fine.
 
-   ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
+    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
 9. Apasă pe butonul Înapoi (cel cu săgeata) iar apoi apasă ori pe butonul Wii Menu ori pe butonul Homebrew Channel pentru a ieși din BootMii.
 
-   ![](/images/bootmii/BootMii_Return.png)
+    ![](/images/bootmii/BootMii_Return.png)
 
 ::: info
 
