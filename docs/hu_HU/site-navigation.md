@@ -81,7 +81,6 @@
 - [A Homebrew Channel telepítése vWii-re](vwii-homebrew-channel)
 - [Wii U NAND Dumper](wiiu-nand-dumper)
 - [A Homebrew Channel telepítése a vWii-re a Wii U oldal moddolása nélkül](vwii-homebrew-channel-no-wiiu-mods)
-- [A cIOS telepítése vWii-ra](cios-vwii)
 
 :::
 
@@ -90,7 +89,6 @@
 **Wii mini**
 
 - [A Homebrew Channel telepítése Wii mini-re](hbc-mini)
-- [A cIOS telepítése Wii mini](cios-mini)-re
 - [Wii mini NAND Dumper](wnd-mini)
 
 :::
