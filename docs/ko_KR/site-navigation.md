@@ -81,7 +81,6 @@
 - [vWii에 홈브류 채널 설치](vwii-homebrew-channel)
 - [Wii U 낸드 덤퍼](wiiu-nand-dumper)
 - [Wii U 측면을 개조하지 않고 vWii에 홈브류 채널 설치](vwii-homebrew-channel-no-wiiu-mods)
-- [vWii에 cIOS 설치](cios-vwii)
 
 :::
 
@@ -90,7 +89,6 @@
 **Wii mini**
 
 - [Wii 미니에 홈브류 채널 설치하기](hbc-mini)
-- [Wii 미니에 cIOS 설치하기](cios-mini)
 - [Wii 미니 낸드 덤퍼](wnd-mini)
 
 :::
