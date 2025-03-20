@@ -20,13 +20,13 @@ Un SysCheck elenca tutti gli IOS e cIOS che sono nella tua console Wii, con alcu
 
 2. Quando la scritta "This IOS will be tested (Please select)" appare sullo schermo, premi A.
 
-   ![](/images/homebrew/syscheck/syscheck_chooseios.png)
+    ![](/images/homebrew/syscheck/syscheck_chooseios.png)
 
 3. Aspetta che il programma prenda alcune informazioni sui tuoi IOS.
 
 4. After it finishes, press the `A` Button if you want to view the log.
 
-   ![](/images/homebrew/syscheck/syscheck_success.png)
+    ![](/images/homebrew/syscheck/syscheck_success.png)
 
 5. If you want to share the SysCheck, you can share the `syscheck.csv` file on the root of your SD card or USB drive. You can also press `A`, which will upload the report to [syscheck.rc24.xyz](http://syscheck.rc24.xyz/).
 

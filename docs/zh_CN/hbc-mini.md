@@ -18,13 +18,13 @@ This page is **only** intended for users of the Wii mini. If you have a regular 
 
 1. 你将看到诈骗警告屏幕。 等待30秒，直到"Press 1 to continue"出现，然后按1。
 
-   ![](/images/hackmii/scam.png)
+    ![](/images/hackmii/scam.png)
 
 2. Press `Continue`, then select `Install The Homebrew Channel`.
 
-   ![](/images/hackmii/hbc_install.png)
+    ![](/images/hackmii/hbc_install.png)
 
-   ![](/images/hackmii/hbc_install_ok.png)
+    ![](/images/hackmii/hbc_install_ok.png)
 
 3. Press `Continue` when finished.
 

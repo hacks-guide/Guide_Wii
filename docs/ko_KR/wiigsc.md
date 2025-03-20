@@ -26,23 +26,17 @@ Wii 메뉴는 기존 시스템 채널을 제외하고, 48개 채널로 제한됩
 - SD 또는 USB 드라이브
 - [YAWM ModMii Edition](yawmme)
 - 윈도우 컴퓨터
-- [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
+- [WiiGSC ModMii Edition](https://github.com/modmii/WiiGSC/releases)
 
 ## 지침
 
-1. WiiGSC를 설치한 다음 마우스 오른쪽 버튼을 클릭하고 **관리자 권한으로 실행**을 선택합니다. 이 작업을 하지 않으면 WiiGSC를 열 때 오류가 발생합니다.
+1. Extract the WiiGSC `.zip`, find `WiiGSC.exe`, and launch it.
 
-   ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
+    ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
 2. SD 또는 USB 드라이브에 있는 ISO 또는 WBFS 파일의 경로를 선택하고, 사용하는 로더를 선택합니다. 다른 옵션은 지금 그대로면 괜찮을 겁니다.
 
-   ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
-
-   ::: info
-
-   vWii를 사용하고 있다면 [Wiiforwarder2vWii](https://gbatemp.net/download/wiiforwarder2vwii-wii-forwarder-to-vwii-wii-u-forwarder-converter-beta-version.37254/) 도구를 사용하여 WAD를 vWii에서 사용할 수 있도록 변환합니다.
-
-   :::
+    ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
 3. 생성된 WAD를 [WAD manager](yawmme)로 설치하세요.
 

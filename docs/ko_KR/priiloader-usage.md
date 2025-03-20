@@ -40,27 +40,27 @@ USB loader GX를 자동 부팅하려면 먼저 다음을 수행합니다.
 
 3. 아래로 스크롤하여 `파일 로드/설치`를 선택하고 A 버튼을 누릅니다.
 
-   ![](/images/priiloader/menu_install_file.png)
+  ![](/images/priiloader/menu_install_file.png)
 
 4. 원하는 홈브류 앱이 강조 표시될 때까지 메뉴를 스크롤한 후 A 버튼을 눌러 설치합니다.
 
-   ![](/images/priiloader/installing_file.png)
+  ![](/images/priiloader/installing_file.png)
 
-   ![](/images/priiloader/installing_file_ok.png)
+  ![](/images/priiloader/installing_file_ok.png)
 
 5. 메인 메뉴로 돌아가려면 `B` 버튼을 누릅니다.
 
 6. 아래로 스크롤하여 `설정`을 선택한 후 A 버튼을 누릅니다.
 
-   ![](/images/priiloader/menu_settings.png)
+  ![](/images/priiloader/menu_settings.png)
 
 7. Press Right to cycle through the Autoboot options until the `Installed file` option is selected.
 
-   ![](/images/priiloader/autoboot_installed_file.png)
+  ![](/images/priiloader/autoboot_installed_file.png)
 
 8. 아래로 스크롤하여 `설정 저장`을 클릭하고 A 버튼을 누릅니다.
 
-   ![](/images/priiloader/settings_save.png)
+  ![](/images/priiloader/settings_save.png)
 
 9. 메인 메뉴로 돌아가려면 `B` 버튼을 누릅니다.
 
@@ -76,23 +76,23 @@ USB loader GX를 자동 부팅하려면 먼저 다음을 수행합니다.
 
 3. 아래로 스크롤하여 `설정`을 선택한 후 A 버튼을 누릅니다.
 
-   ![](/images/priiloader/menu_settings.png)
+  ![](/images/priiloader/menu_settings.png)
 
 4. 원하는 옵션이 선택될 때까지 자동 부팅 옵션을 순환하려면 오른쪽을 누릅니다.
 
-   - `비활성화`를 선택하면 Priiloader 메뉴로 자동 부팅됩니다.
+  - `비활성화`를 선택하면 Priiloader 메뉴로 자동 부팅됩니다.
 
-   ::: warning
+  ::: warning
 
-   Autoboot를 `BootMii IOS`로 설정하지 마세요. RESET 버튼을 계속 눌러 Priiloader 메뉴로 들어가기 전까지는 루프에 빠지게 됩니다.
+  Autoboot를 `BootMii IOS`로 설정하지 마세요. RESET 버튼을 계속 눌러 Priiloader 메뉴로 들어가기 전까지는 루프에 빠지게 됩니다.
 
-   :::
+  :::
 
-   ![](/images/priiloader/autoboot_disabled.png)
+  ![](/images/priiloader/autoboot_disabled.png)
 
 5. 아래로 스크롤하여 `설정 저장`을 클릭하고 A 버튼을 누릅니다.
 
-   ![](/images/priiloader/settings_save.png)
+  ![](/images/priiloader/settings_save.png)
 
 6. 메인 메뉴로 돌아가려면 `B` 버튼을 누릅니다.
 

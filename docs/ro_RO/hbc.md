@@ -17,43 +17,43 @@ You can always [install it later](hackmii).
 
 1. Consola ta ar trebui să fie pornită și să afișeze Instalatorul HackMii din partea trecută a ghidului.
 
-   - Vei vedea un ecran de avertizare pentru înșelăciune.
+    - Vei vedea un ecran de avertizare pentru înșelăciune.
 
-   ![](/images/hackmii/scam.png)
+    ![](/images/hackmii/scam.png)
 
 2. Așteaptă 30 de secunde pentru ca mesajul "Press 1 to continue" să apară, apoi apasă 1.
 
 3. Select `Continue`.
 
-   ![](/images/hackmii/test_results.png)
+    ![](/images/hackmii/test_results.png)
 
 4. Select `Install the Homebrew Channel`.
 
-   ![](/images/hackmii/hbc_install.png)
+    ![](/images/hackmii/hbc_install.png)
 
 5. Once it is completed, select `Continue`.
 
-   ![](/images/hackmii/hbc_install_ok.png)
+    ![](/images/hackmii/hbc_install_ok.png)
 
 6. Select `Back`, then select `BootMii`.
 
-   ![](/images/hackmii/bootmii_install.png)
+    ![](/images/hackmii/bootmii_install.png)
 
 7. Select `Install BootMii as IOS`.
 
-   ![](/images/hackmii/bootmii_install1.png)
+    ![](/images/hackmii/bootmii_install1.png)
 
-   ![](/images/hackmii/bootmii_install2.png)
+    ![](/images/hackmii/bootmii_install2.png)
 
-   ![](/images/hackmii/bootmii_install3.png)
+    ![](/images/hackmii/bootmii_install3.png)
 
-   ![](/images/hackmii/bootmii_install_ok.png)
+    ![](/images/hackmii/bootmii_install_ok.png)
 
 8. Once it is completed, select `Continue`.
 
 9. If you have the option to `Install BootMii as boot2`, please do so as well.
 
-   ![](/images/hackmii/bootmii_install4.png)
+    ![](/images/hackmii/bootmii_install4.png)
 
 10. Select `Exit`.
 

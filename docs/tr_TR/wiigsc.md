@@ -26,23 +26,17 @@ Wii Menüsü 48 kanal limitine sahiptir, sistem kanallarını saymazsak.
 - Bir SD card veya USB yığın depolama aygıtı
 - [YAWM ModMii Edition](yawmme)
 - Bir Windows bilgisayar.
-- [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
+- [WiiGSC ModMii Edition](https://github.com/modmii/WiiGSC/releases)
 
 ## Instructions
 
-1. Install WiiGSC, then right click on it and choose **Run as administrator**. Eğer bunu yapmazsanız, WiiGSC açmaya çalıştığınızda hata verecektir.
+1. Extract the WiiGSC `.zip`, find `WiiGSC.exe`, and launch it.
 
-   ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
+    ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
 2. SD card veya USB yığın depolama aygıtınızdaki ISO veya WBFS dosyasını seçin, ve kullandığınız USB yedekleme yöneticisini seçin. Kalan ayarlar olduğu gibi kalabilir.
 
-   ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
-
-   ::: info
-
-   If you are on vWii, use the [Wiiforwarder2vWii](https://gbatemp.net/download/wiiforwarder2vwii-wii-forwarder-to-vwii-wii-u-forwarder-converter-beta-version.37254/) tool to convert the WAD for use on the vWii.
-
-   :::
+    ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
 3. Install the generated WAD with your [WAD manager](yawmme).
 

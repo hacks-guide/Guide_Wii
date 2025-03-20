@@ -27,55 +27,55 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
 3. 按下Home按鈕，選擇『Launch BootMii』。
 
-   ![](/images/bootmii/BootMii_HBC.png)
+    ![](/images/bootmii/BootMii_HBC.png)
 
-   ::: warning
+    ::: warning
 
-   If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+    If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
 
-   :::
+    :::
 
-   ::: warning
+    ::: warning
 
-   如果螢幕保持黑屏且光碟機的指示燈閃爍，那代表您的 SD 卡中缺少 BootMii 所需的檔案。 Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+    如果螢幕保持黑屏且光碟機的指示燈閃爍，那代表您的 SD 卡中缺少 BootMii 所需的檔案。 Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 
-   :::
+    :::
 
 4. You should see an image similar to the below now on your screen:
 
-   ![](/images/bootmii/BootMii_Main.png)
+    ![](/images/bootmii/BootMii_Main.png)
 
-   ::: info
+    ::: info
 
-   您將無法使用 Wii 控制器來控制 BootMii。
-   您必須使用主機上的 POWER 和 RESET 按鈕，或者將 GameCube 控制器插入端口 1 來控制 BootMii。
-   To navigate between options, press POWER. To select an option, press RESET. To select an option, press RESET.
+    您將無法使用 Wii 控制器來控制 BootMii。
+    您必須使用主機上的 POWER 和 RESET 按鈕，或者將 GameCube 控制器插入端口 1 來控制 BootMii。
+    To navigate between options, press POWER. To select an option, press RESET. To select an option, press RESET.
 
-   :::
+    :::
 
 5. Select the Options button (the icon with the gears).
 
-   ![](/images/bootmii/BootMii_Gears.png)
+    ![](/images/bootmii/BootMii_Gears.png)
 
 6. Select the first button to the left.
 
-   ![](/images/bootmii/BootMii_Backup.png)
+    ![](/images/bootmii/BootMii_Backup.png)
 
 7. NAND 備份將開始。 您將在螢幕上看到進度。
 
-   - "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup. Don't worry when you see some on a NAND backup.
+    - "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup. Don't worry when you see some on a NAND backup.
 
-   ![](/images/bootmii/BootMii_NAND_Backup.png)
+    ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 8. 在此步驟之後，BootMii 將驗證此備份。 Ideally, all the blocks should be green after the verification process.
 
-   - If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine. As long as all non-bad blocks are successfully verified, this should be fine.
+    - If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine. As long as all non-bad blocks are successfully verified, this should be fine.
 
-   ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
+    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
 9. 若要退出 BootMii，請按返回按鈕（帶箭頭的那個），然後您可以按 Wii 選單按鈕或 Homebrew 頻道按鈕退出您想要的地方。
 
-   ![](/images/bootmii/BootMii_Return.png)
+    ![](/images/bootmii/BootMii_Return.png)
 
 ::: info
 

@@ -16,22 +16,22 @@ A "Brick" usually means your Wii has reached a state where its next purpose in e
 - **vWii 또는 Wii 미니에서 Wii용 지역 변경 방법을 시도하지 마세요.**
 - **RCE 패치가 적용된 것으로 알려진 경우(예: [Wiimmfi](nintendowfc))를 제외하고는 닌텐도 Wi-Fi 연결 서비스를 사용하지 마십시오. 그렇지 않으면 악의적인 공격자가 여러분의 콘솔을 파괴할 수 있습니다!**
 - **여러분의 지역에 대한 업데이트만 설치하세요!**
-  - 다른 지역에서 업데이트를 설치해도 아무런 효과가 없을 수 있으며, 최악의 경우 [Korean Kii/오류 003](bricks#koreankii-error-003-brick) 오류가 발생할 수 있습니다. 중고 Wii를 구매한 경우 이런 일이 발생하지 않도록 하려면 [SysCheck](syscheck)를 실행하여 콘솔의 원래 지역을 확인합니다. 한국어 버전이라면 콘솔에 시스템 업데이트를 적용할 때 각별히 주의하고, 추가 지원이 필요하면 지원팀에 문의하시기 바랍니다.
+    - 다른 지역에서 업데이트를 설치해도 아무런 효과가 없을 수 있으며, 최악의 경우 [Korean Kii/오류 003](bricks#koreankii-error-003-brick) 오류가 발생할 수 있습니다. 중고 Wii를 구매한 경우 이런 일이 발생하지 않도록 하려면 [SysCheck](syscheck)를 실행하여 콘솔의 원래 지역을 확인합니다. 한국어 버전이라면 콘솔에 시스템 업데이트를 적용할 때 각별히 주의하고, 추가 지원이 필요하면 지원팀에 문의하시기 바랍니다.
 - **시스템 파일을 삭제하거나 수정하지 말고, Wii 메뉴나 IOS의 이전 버전을 설치하지 말고, 무엇을 해야 할지 모르는 경우 시스템 파일 모드를 설치하지 마세요!**
-  - 파일 수정이 잘못된 예로는 Wii 미니에서 IOS80을 교체하는 것이 있는데, 이로 인해 [Wi-Fi 벽돌](bricks#wi-fi-brick)이 발생할 수 있습니다.
+    - 파일 수정이 잘못된 예로는 Wii 미니에서 IOS80을 교체하는 것이 있는데, 이로 인해 [Wi-Fi 벽돌](bricks#wi-fi-brick)이 발생할 수 있습니다.
 - **신뢰할 수 없는 출처에서 홈브류를 설치하지 마세요. 혹은 소스코드를 사용할 수 없는 경우에는 설치하지 마세요.**
-  - [오픈 샵 채널](osc)의 소프트웨어는 안전합니다.
-  - 과거에도 Wii용으로 악성 소프트웨어가 개발된 사례가 있었지만, 그저 형편없이 개발된 앱도 있습니다. 무엇을 설치하는지 확인하고, 필요한 것만 설치합니다.
-  - 홈브류의 손상되거나 불안정한 포워더로 인해 [배너 벽돌](#banner-brick)이 발생할 수 있으므로, 포워더가 꼭 필요한 경우가 아니면 홈브류 채널에서 홈브류를 로딩하도록 합니다.
+    - [오픈 샵 채널](osc)의 소프트웨어는 안전합니다.
+    - 과거에도 Wii용으로 악성 소프트웨어가 개발된 사례가 있었지만, 그저 형편없이 개발된 앱도 있습니다. 무엇을 설치하는지 확인하고, 필요한 것만 설치합니다.
+    - 홈브류의 손상되거나 불안정한 포워더로 인해 [배너 벽돌](#banner-brick)이 발생할 수 있으므로, 포워더가 꼭 필요한 경우가 아니면 홈브류 채널에서 홈브류를 로딩하도록 합니다.
 - \*\* 홈브류 앱을 실행할 때는 무엇을 하는지 알고 있어야 합니다. 특히 시스템 파일을 수정할 수 있는 앱의 경우 더욱 그렇습니다. 다음과 같은 애플리케이션을 사용할 때는 특히 주의합니다:\*\*
-  - AnyTitle Deleter
-  - AnyRegion Changer
-  - KoreanKii ([Korean Kii/오류 003](bricks#koreankii-error-003-brick) 벽돌의 2차 원인)
-  - 펌웨어 다운그레이더
-  - 중요한 낸드 파일을 수정하는 다른 앱
+    - AnyTitle Deleter
+    - AnyRegion Changer
+    - KoreanKii ([Korean Kii/오류 003](bricks#koreankii-error-003-brick) 벽돌의 2차 원인)
+    - 펌웨어 다운그레이더
+    - 중요한 낸드 파일을 수정하는 다른 앱
 - **중요한 시스템 콘텐츠를 설치하거나 수정할 때 WII의 전원이나 전원 버튼을 만지지 마세요.**
-  - 전기가 불안정한 경우 (예: 폭풍, 정전), 안정적인 전력 공급이 이루어질 때까지 하던 일을 연기합니다.
-  - 이는 BootMii 낸드 복구와 같은 위험한 프로세스에 적용되며, 문제가 발생하면 [완전 벽돌](#low-level-brick)이 발생할 수 있습니다.
+    - 전기가 불안정한 경우 (예: 폭풍, 정전), 안정적인 전력 공급이 이루어질 때까지 하던 일을 연기합니다.
+    - 이는 BootMii 낸드 복구와 같은 위험한 프로세스에 적용되며, 문제가 발생하면 [완전 벽돌](#low-level-brick)이 발생할 수 있습니다.
 
 어떤 경우에도 반드시 다음을 수행해야 합니다:
 
@@ -45,12 +45,12 @@ A "Brick" usually means your Wii has reached a state where its next purpose in e
 
 - Wii starts, and progresses to the Wii Menu. No app is malfunctioning, Wii settings is error free, everything is seemingly fine. 벽돌은 없습니다.
 - Wii starts, and progresses to the Wii Menu.
-  - 특정 채널에 접속한 후 `The system files are corrupted.`라는 메시지가 나타나면 [배너 벽돌](bricks#banner-brick)을 참조합니다.
-  - Wii 설정에 접속한 후 오페라 웹 브라우저와 유사한 오류가 표시되면 [반벽돌](bricks#semibrick)을 참조합니다.
+    - 특정 채널에 접속한 후 `The system files are corrupted.`라는 메시지가 나타나면 [배너 벽돌](bricks#banner-brick)을 참조합니다.
+    - Wii 설정에 접속한 후 오페라 웹 브라우저와 유사한 오류가 표시되면 [반벽돌](bricks#semibrick)을 참조합니다.
 - Wii를 시작하면 건강/경고 화면이 나타나지만, A 버튼을 눌러 시작하면 검은색 화면이 나타납니다.
-  - 테마를 설치한 후 이런 일이 발생한 경우 [테마 벽돌](bricks#theme-brick)을 참조합니다.
-  - WAD를 설치한 후 이런 일이 발생한 경우 [배너 벽돌](bricks#banner-brick)을 참조합니다.
-  - 이런 일이 무작위로 발생하기 시작한 경우, 건강/경고 화면에서 +/- 버튼을 길게 눌러 유지 관리 모드에 접속할 수 있습니다. [메일 벽돌](bricks#mail-brick)을 참조합니다.
+    - 테마를 설치한 후 이런 일이 발생한 경우 [테마 벽돌](bricks#theme-brick)을 참조합니다.
+    - WAD를 설치한 후 이런 일이 발생한 경우 [배너 벽돌](bricks#banner-brick)을 참조합니다.
+    - 이런 일이 무작위로 발생하기 시작한 경우, 건강/경고 화면에서 +/- 버튼을 길게 눌러 유지 관리 모드에 접속할 수 있습니다. [메일 벽돌](bricks#mail-brick)을 참조합니다.
 - Wii를 시작하면 건강/경고 화면이 나타나지만, A 버튼을 눌러 시작하면 화면이 검게 변하거나 멈췄다가 더 이상 진행되지 않습니다. 유지 관리 모드에 접근할 수 있습니다. [메일 벽돌](bricks#mail-brick)을 참조합니다.
 - Wii를 시작하자마자 오페라 웹 브라우저와 비슷한 오류가 표시됩니다. [Wii 메뉴/오페라 벽돌](bricks#wii-menuopera-brick)을 참조합니다.
 - Error 003. [Korean Kii/오류 003 벽돌](bricks#koreankii-error-003-brick)을 참조합니다.

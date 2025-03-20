@@ -12,7 +12,7 @@
 
 1. 아직 설치하지 않았다면 돒핀 에뮬레이터에서 `도구 > 시스템 업데이트 수행`으로 가서 Wii 메뉴를 설치합니다.
 
-   ![](/images/homebrew-dolphin/system-update.png)
+    ![](/images/homebrew-dolphin/system-update.png)
 
 2. 위에 링크된 페이지에서 `Open_HBC_(version)_LULZ.wad`를 다운로드합니다.
 
@@ -20,11 +20,11 @@
 
 4. `도구 > WAD 설치`를 선택하고 다운로드한 `Open_HBC_(version)_LULZ.wad` 파일을 선택합니다.
 
-   ![](/images/homebrew-dolphin/ohbc-file.png)
+    ![](/images/homebrew-dolphin/ohbc-file.png)
 
 5. `도구 > Wii 시스템 메뉴 불러오기`를 선택합니다. 이제 채널이 나타날 것입니다.
 
-   ![](/images/homebrew-dolphin/hbc-installed.png)
+    ![](/images/homebrew-dolphin/hbc-installed.png)
 
 ## 설치 후, 오픈 샵 채널을 통해 홈브류 앱 설치
 
@@ -38,8 +38,8 @@
 
 5. 홈브류 앱을 `WiiSDSync` 폴더로 추출합니다. 최종 결과는 다음과 같습니다:
 
-   ![](/images/homebrew-dolphin/apps-folder.png)
+    ![](/images/homebrew-dolphin/apps-folder.png)
 
 6. Wii 메뉴를 로드하고 홈브류 채널을 엽니다. 새로 설치한 앱이 나타날 겁니다!
 
-   ![](/images/homebrew-dolphin/hbc-apps.png)
+    ![](/images/homebrew-dolphin/hbc-apps.png)

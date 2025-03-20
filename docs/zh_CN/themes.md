@@ -141,7 +141,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 4. Press `+` to install the theme.
 5. 一旦您找到喜欢的主题，请点击与您的 Wii 菜单版本相对应的下载链接。 If all goes well, you will have a result similar to the below!
 
-   ![](/images/themes/themed-wii-menu.png)
+    ![](/images/themes/themed-wii-menu.png)
 
 ## RiiConnect24 主题页面
 
@@ -193,25 +193,25 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 1. Download a theme `.zip` file from the website linked above.
 
-   ![](/images/themes/homebrew-channel-example-theme.png)
+    ![](/images/themes/homebrew-channel-example-theme.png)
 
 2. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
 
-   ![](/images/themes/homebrew-channel-paste-zip.png)
+    ![](/images/themes/homebrew-channel-paste-zip.png)
 
 3. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
 
-   ![](/images/themes/homebrew-channel-extract-theme.png)
+    ![](/images/themes/homebrew-channel-extract-theme.png)
 
 4. 关闭Wii，然后按住RESET按钮并打开Wii。
 
 5. The theme you just installed can be loaded in the same way that you access a standard app.
 
-   ![](/images/themes/homebrew-channel-load-theme.png)
+    ![](/images/themes/homebrew-channel-load-theme.png)
 
 6. The theme should now be loaded, enjoy!
 
-   ![](/images/themes/homebrew-channel-theme-done.png)
+    ![](/images/themes/homebrew-channel-theme-done.png)
 
 ## App Forwarders
 

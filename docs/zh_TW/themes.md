@@ -141,7 +141,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 4. Press `+` to install the theme.
 5. Reboot into the Wii Menu, and see if the theme successfully installed. If all goes well, you will have a result similar to the below! If all goes well, you will have a result similar to the below!
 
-   ![](/images/themes/themed-wii-menu.png)
+    ![](/images/themes/themed-wii-menu.png)
 
 ## Wii Theme Team Creations v2
 
@@ -193,25 +193,25 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 1. Download a theme `.zip` file from the website linked above.
 
-   ![](/images/themes/homebrew-channel-example-theme.png)
+    ![](/images/themes/homebrew-channel-example-theme.png)
 
 2. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
 
-   ![](/images/themes/homebrew-channel-paste-zip.png)
+    ![](/images/themes/homebrew-channel-paste-zip.png)
 
 3. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
 
-   ![](/images/themes/homebrew-channel-extract-theme.png)
+    ![](/images/themes/homebrew-channel-extract-theme.png)
 
 4. If you get an error saying "The system files are corrupted" or a black screen, don't panic as long as you installed Priiloader. Turn off your Wii, then hold down the RESET button down and turn on your Wii. You should be able to boot into the Priiloader menu, where you have some options to fix your Wii Menu. One of the options is to launch the Homebrew Channel, where you can launch MyMenuify Mod and press a button to download and install the original Wii Menu theme.
 
 5. The theme you just installed can be loaded in the same way that you access a standard app.
 
-   ![](/images/themes/homebrew-channel-load-theme.png)
+    ![](/images/themes/homebrew-channel-load-theme.png)
 
 6. The theme should now be loaded, enjoy!
 
-   ![](/images/themes/homebrew-channel-theme-done.png)
+    ![](/images/themes/homebrew-channel-theme-done.png)
 
 ## App Forwarders
 

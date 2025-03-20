@@ -27,55 +27,55 @@ Si has instalado BootMii como boot2, apaga y vuelve a encender la consola para i
 
 3. Presiona el botón HOME y selecciona <code>Lanzar BootMii</code>.
 
-   ![](/images/bootmii/BootMii_HBC.png)
+    ![](/images/bootmii/BootMii_HBC.png)
 
-   ::: warning
+    ::: warning
 
-   If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+    If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
 
-   :::
+    :::
 
-   ::: warning
+    ::: warning
 
-   Si después de seguir los pasos anteriores, la pantalla se queda en negro y la luz de la ranura para discos comienza a parpadear, significa que faltan los archivos de BootMii que van en la tarjeta SD, o están dañados. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+    Si después de seguir los pasos anteriores, la pantalla se queda en negro y la luz de la ranura para discos comienza a parpadear, significa que faltan los archivos de BootMii que van en la tarjeta SD, o están dañados. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 
-   :::
+    :::
 
 4. You should see an image similar to the below now on your screen:
 
-   ![](/images/bootmii/BootMii_Main.png)
+    ![](/images/bootmii/BootMii_Main.png)
 
-   ::: info
+    ::: info
 
-   BootMii no es compatible con el Wii Remote.
-   Para controlar la interfaz, deberás usar los botones POWER y RESET de la consola, o un control de GameCube conectado en el puerto del jugador 1.
-   To navigate between options, press POWER. Para seleccionar una opción, presiona el botón RESET.
+    BootMii no es compatible con el Wii Remote.
+    Para controlar la interfaz, deberás usar los botones POWER y RESET de la consola, o un control de GameCube conectado en el puerto del jugador 1.
+    To navigate between options, press POWER. Para seleccionar una opción, presiona el botón RESET.
 
-   :::
+    :::
 
 5. Selecciona el botón de opciones (el que tiene dos engranajes).
 
-   ![](/images/bootmii/BootMii_Gears.png)
+    ![](/images/bootmii/BootMii_Gears.png)
 
 6. Selecciona el primer botón de la izquierda.
 
-   ![](/images/bootmii/BootMii_Backup.png)
+    ![](/images/bootmii/BootMii_Backup.png)
 
 7. A continuación se empezará a crear el respaldo de la NAND. Puedes ver el progreso en pantalla.
 
-   - Los "Bad Blocks" son normales, y en su mayoría vienen de fábrica debido al binning de la NAND. No te preocupes si ves algo en una copia de seguridad de la NAND.
+    - Los "Bad Blocks" son normales, y en su mayoría vienen de fábrica debido al binning de la NAND. No te preocupes si ves algo en una copia de seguridad de la NAND.
 
-   ![](/images/bootmii/BootMii_NAND_Backup.png)
+    ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 8. After the previous step completes, BootMii will verify the backup. Lo ideal sería que todos los bloques aparezcan en verde tras finalizar la verificación.
 
-   - If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long as all non-bad blocks are successfully verified, this should be fine.
+    - If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long as all non-bad blocks are successfully verified, this should be fine.
 
-   ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
+    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
 9. Para salir de BootMii, oprime el botón con la flecha negra, y después elige el que tiene el icono del menú de Wii o el Canal Homebrew para salir a donde desees.
 
-   ![](/images/bootmii/BootMii_Return.png)
+    ![](/images/bootmii/BootMii_Return.png)
 
 ::: info
 

@@ -56,18 +56,18 @@ WiiFlash.log
 
 1. 홈브류 채널에서 xyzzy 개조를 실행하세요.
 2. `USB 장치` 선택
-   - 콘솔 정보를 검색하기 시작할 것입니다.
+    - 콘솔 정보를 검색하기 시작할 것입니다.
 3. 완료되면 아무 버튼이나 눌러 종료합니다.
 
-   - USB에 5 개의 새 파일이 생성됩니다:
+    - USB에 5 개의 새 파일이 생성됩니다:
 
-   ```
-   bootmii_keys.bin
-   device.cert
-   keys.txt
-   otp.bin
-   seeprom.bin
-   ```
+    ```
+    bootmii_keys.bin
+    device.cert
+    keys.txt
+    otp.bin
+    seeprom.bin
+    ```
 
 지금은 `bootmii_keys.bin` 파일만 필요합니다.
 

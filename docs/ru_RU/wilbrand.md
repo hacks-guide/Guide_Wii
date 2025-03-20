@@ -35,15 +35,15 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
+    - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
 
-   ![](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 4. Navigate to `Internet` > `Console Information`.
 
 5. Take note of your FULL MAC address.
 
-   ![](/images/wii/MacAddress.png)
+    ![](/images/wii/MacAddress.png)
 
 6. On your computer, open the browser and go to [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/).
 
@@ -53,7 +53,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 9. Cut either wire.
 
-   ![](/images/exploits/wilbrand/web.png)
+    ![](/images/exploits/wilbrand/web.png)
 
 10. Click on "Download your .zip".
 
@@ -114,15 +114,15 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
+    - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
 
-   ![](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 4. Navigate to `Internet` > `Console Information`.
 
 5. Take note of your FULL MAC address.
 
-   ![](/images/wii/MacAddress.png)
+    ![](/images/wii/MacAddress.png)
 
 6. Copy all files from the Wilbrand `.zip` to a folder on your computer
 
@@ -132,18 +132,18 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 9. Using your Wii's version and MAC address, run the following command:
 
-   - Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
+    - Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
 
-     - `X:` is the drive letter of your SD card.
+        - `X:` is the drive letter of your SD card.
 
-     ![](/images/exploits/wilbrand/windows.png)
+        ![](/images/exploits/wilbrand/windows.png)
 
-   - Linux/macOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
+    - Linux/macOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
 
-     - If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
-     - `/media/mount_dir` is the folder your SD card is mounted in. This may vary depending on your Linux distro.
+        - If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
+        - `/media/mount_dir` is the folder your SD card is mounted in. This may vary depending on your Linux distro.
 
-     ![](/images/exploits/wilbrand/linux.png)
+        ![](/images/exploits/wilbrand/linux.png)
 
 10. Copy all files from the hackmii_installer_v1.2 `.zip` to a folder on your computer.
 

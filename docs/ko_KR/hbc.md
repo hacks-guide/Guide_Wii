@@ -17,43 +17,43 @@ SD 카드가 없으면 BootMii를 설치하거나 사용할 수 없습니다. �
 
 1. 콘솔의 전원이 켜져 있어야 하며 가이드의 이전 부분에서 설명한 HackMii 설치 프로그램이 표시되어야 합니다.
 
-   - 사기 경고 화면이 나타납니다.
+    - 사기 경고 화면이 나타납니다.
 
-   ![](/images/hackmii/scam.png)
+    ![](/images/hackmii/scam.png)
 
 2. "계속하려면 1 버튼을 누르세요"라는 텍스트가 나타날 때까지 30초간 기다린 다음, 1 버튼을 누릅니다.
 
 3. `계속`을 선택합니다.
 
-   ![](/images/hackmii/test_results.png)
+    ![](/images/hackmii/test_results.png)
 
 4. `홈브류 채널 설치`를 선택합니다.
 
-   ![](/images/hackmii/hbc_install.png)
+    ![](/images/hackmii/hbc_install.png)
 
 5. 완료되면 `계속`을 선택합니다.
 
-   ![](/images/hackmii/hbc_install_ok.png)
+    ![](/images/hackmii/hbc_install_ok.png)
 
 6. `뒤로가기`를 선택한 다음 `BootMii`를 선택합니다.
 
-   ![](/images/hackmii/bootmii_install.png)
+    ![](/images/hackmii/bootmii_install.png)
 
 7. `BootMii를 IOS로 설치`를 선택합니다.
 
-   ![](/images/hackmii/bootmii_install1.png)
+    ![](/images/hackmii/bootmii_install1.png)
 
-   ![](/images/hackmii/bootmii_install2.png)
+    ![](/images/hackmii/bootmii_install2.png)
 
-   ![](/images/hackmii/bootmii_install3.png)
+    ![](/images/hackmii/bootmii_install3.png)
 
-   ![](/images/hackmii/bootmii_install_ok.png)
+    ![](/images/hackmii/bootmii_install_ok.png)
 
 8. 완료되면 `계속`을 선택합니다.
 
 9. `BootMii를 boot2로 설치` 옵션이 있는 경우 해당 옵션도 선택합니다.
 
-   ![](/images/hackmii/bootmii_install4.png)
+    ![](/images/hackmii/bootmii_install4.png)
 
 10. `나가기`를 선택합니다.
 

@@ -45,7 +45,7 @@ Dacă plugin-ul evWii Aroma nu este instalat și aplicația homebrew se blocheaz
 2. Lansați vWii Compat Installer pe meniul Wii U.
 3. Apasă `A` pentru a instala Homebrew Channel și așteptați până când vedeți `Install succeeded`. Apoi apasă butonul HOME pentru a reveni la meniul Wii U.
 4. Lansează vWii (pictograma Wii Menu).
-   - Dacă instalarea a reușit, ar trebui să vedeți Homebrew Channel în meniul Wii.
+ - Dacă instalarea a reușit, ar trebui să vedeți Homebrew Channel în meniul Wii.
 
 ## Citire necesară
 

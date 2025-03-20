@@ -18,13 +18,13 @@ Cât timp este posibil să instalezi BootMii pe un Wii mini, va trebui să sudez
 
 1. Vei vedea un ecran de avertizare pentru înșelăciune. Așteaptă 30 de secunde pentru ca mesajul "Press 1 to continue" să apară, apoi apasă 1.
 
-   ![](/images/hackmii/scam.png)
+    ![](/images/hackmii/scam.png)
 
 2. Press `Continue`, then select `Install The Homebrew Channel`.
 
-   ![](/images/hackmii/hbc_install.png)
+    ![](/images/hackmii/hbc_install.png)
 
-   ![](/images/hackmii/hbc_install_ok.png)
+    ![](/images/hackmii/hbc_install_ok.png)
 
 3. Press `Continue` when finished.
 

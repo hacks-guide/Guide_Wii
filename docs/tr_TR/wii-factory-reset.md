@@ -42,51 +42,51 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 2. Press the `Local Cache` button, create a new folder for the NUS cache to be output in, and then press OK. An example folder is given below.
 
-   ![](/images/factory-reset/nuscache.png)
+    ![](/images/factory-reset/nuscache.png)
 
 3. Press `Nand Dump` on the toolbar, and then press `New nand`. This should open a pop-up window where you can adjust parameters for a new NAND dump. Press the large `Existing Nand...` button and find your existing NAND dump from your Wii.
 
-   ![](/images/factory-reset/newnand.png)
+    ![](/images/factory-reset/newnand.png)
 
 4. This will fill in information such as the keys, Boot 1/2, and your bad blocks automatically. ONLY change the Destination box to `./blankNand.bin`, which will output the NAND to the program folder with the name `blankNand.bin`. Then, press OK.
 
-   ![](/images/factory-reset/renamenand.png)
+    ![](/images/factory-reset/renamenand.png)
 
 ### Section II - Creating a Blank NAND
 
 1. Now that the NAND is loaded into the program, select `Content` on the toolbar and then press Format. This will initialize your BLANK NAND, not your backup NAND.
 
-   ![](/images/factory-reset/formatnand.png)
+    ![](/images/factory-reset/formatnand.png)
 
 2. Select the top left text box in the program and type in the Wii System Menu version that you need the NAND to have. Note that this should optimally be the version that your NAND was previously using. This NAND was using `4.3U`. Other valid examples are `3.2U`, `4.3E`, or `3.4J`.
 
-   ![](/images/factory-reset/sysmenu.png)
+    ![](/images/factory-reset/sysmenu.png)
 
 3. Once you have confirmed you have entered the version of the menu that you want, press enter or `Get It!`. This will begin downloading the menu from NUS servers, with the progress displayed in the program.
 
-   ![](/images/factory-reset/menudownload.png)
+    ![](/images/factory-reset/menudownload.png)
 
 4. Once the menu has finished downloading, a pop-up will display showing the settings appended to the NAND. It will be autofilled depending on what was in your NAND, although the serial number may be incorrect. You can edit this if you would like, otherwise keep everything blank and press OK.
 
-   ![](/images/factory-reset/settings.png)
+    ![](/images/factory-reset/settings.png)
 
 5. Next, press `Content` on the taskbar and press `Write meta entries`. Then, go back to the menu and press `Flush`. You may then close the window.
 
-   ![](/images/factory-reset/finalsteps.png)
+    ![](/images/factory-reset/finalsteps.png)
 
 ### Section III - Verifying the NAND
 
 1. If NAND Bin Checker is not already in the same directory as Ohneschwanzenegger, copy it there now. Then, open a terminal in that directory. Run the following command: `.\nandBinCheck.exe .\blankNand.bin`. If you named the NAND something else, adjust the command accordingly. The program will then check the validity of the NAND.
 
-   ![](/images/factory-reset/nandcheck.png)
+    ![](/images/factory-reset/nandcheck.png)
 
 2. If all is well, the result should look similar to the below. If there are ANY errors that stand out, DO NOT use this NAND and try again as it may damage or permanantly brick your Wii. If you continue to get these errors on further attempts, go to the Nintendo Homebrew discord server for support.
 
-   ![](/images/factory-reset/nandcheckresult.png)
+    ![](/images/factory-reset/nandcheckresult.png)
 
 3. Move the `blankNand.bin` to your Wii SD card and rename it to `nand.bin` so that it can be flashed by BootMii. Remember not to overwrite your existing NAND!
 
-   ![](/images/factory-reset/nandname.png)
+    ![](/images/factory-reset/nandname.png)
 
 ::: tip
 

@@ -12,7 +12,7 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
 
 1. If you have not already done so, install the Wii Menu on Dolphin Emulator by going to `Tools > Perform System Update`.
 
-   ![](/images/homebrew-dolphin/system-update.png)
+    ![](/images/homebrew-dolphin/system-update.png)
 
 2. Download `Open_HBC_(version)_LULZ.wad` from the page linked above.
 
@@ -20,11 +20,11 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
 
 4. Select `Tools > Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
 
-   ![](/images/homebrew-dolphin/ohbc-file.png)
+    ![](/images/homebrew-dolphin/ohbc-file.png)
 
 5. Select `Tools > Load Wii System Menu`. Adesso il canale dovrebbe apparire.
 
-   ![](/images/homebrew-dolphin/hbc-installed.png)
+    ![](/images/homebrew-dolphin/hbc-installed.png)
 
 ## Post-Installazione, installare Applicazioni Homebrew con l'Open Shop Channel
 
@@ -38,8 +38,8 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
 
 5. Extract any homebrew apps to the `WiiSDSync` folder. Il risultato finale dovrebbe assomigliare a questo:
 
-   ![](/images/homebrew-dolphin/apps-folder.png)
+    ![](/images/homebrew-dolphin/apps-folder.png)
 
 6. Avvia il Menu Wii e apri l'Homebrew Channel. Le tue nuove applicazioni installate dovrebbero apparire!
 
-   ![](/images/homebrew-dolphin/hbc-apps.png)
+    ![](/images/homebrew-dolphin/hbc-apps.png)

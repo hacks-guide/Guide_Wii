@@ -16,22 +16,22 @@ Preventing a brick involves many rules that range between common sense and fail-
 - **Do NOT attempt region changing methods meant for Wii on the vWii or Wii mini**
 - **Do NOT use a Nintendo Wi-Fi Connection service unless it is known to be RCE patched (such as [Wiimmfi](nintendowfc)). Doing otherwise could allow a malicious actor to BRICK your Console!**
 - **Only install updates for your own region!**.
-  - Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
+    - Installing updates from another region could have no effect at best, but result in a [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brick at worst. To prevent this from happening if you bought a pre-owned Wii, run [SysCheck](syscheck) to verify the original region of your console. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
 - **Do NOT delete or modify system files, install old versions of your Wii Menu or IOS, and do NOT install any system file mods unless you know what you are doing!**
-  - An example of modifying files going wrong is replacing IOS80 on Wii mini, which may result in a [Wi-Fi Brick](bricks#wi-fi-brick).
+    - An example of modifying files going wrong is replacing IOS80 on Wii mini, which may result in a [Wi-Fi Brick](bricks#wi-fi-brick).
 - **Do NOT install homebrew from untrustworthy sources or if the source code is not available.**
-  - Software on the [Open Shop Channel](osc) is safe.
-  - There have been incidents of malicious software being developed for the Wii in the past, while other apps are just badly developed. Make sure that you know what you are installing, and only install what you need.
-  - Corrupted or unstable forwarders for homebrew could cause a [banner brick](#banner-brick), so try to stick with loading homebrew from the Homebrew Channel unless you really want a forwarder.
+    - Software on the [Open Shop Channel](osc) is safe.
+    - There have been incidents of malicious software being developed for the Wii in the past, while other apps are just badly developed. Make sure that you know what you are installing, and only install what you need.
+    - Corrupted or unstable forwarders for homebrew could cause a [banner brick](#banner-brick), so try to stick with loading homebrew from the Homebrew Channel unless you really want a forwarder.
 - **Ensure that you know what you are doing when running homebrew apps - especially those with the ability to modify system files. Be ESPECIALLY careful when using applications such as:**
-  - AnyTitle Deleter
-  - AnyRegion Changer
-  - KoreanKii (secondary cause of [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brick)
-  - Firmware Downgraders
-  - Any other app that modifies critical NAND files
+    - AnyTitle Deleter
+    - AnyRegion Changer
+    - KoreanKii (secondary cause of [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brick)
+    - Firmware Downgraders
+    - Any other app that modifies critical NAND files
 - **DO NOT TOUCH THE WII'S POWER SOURCE OR POWER BUTTONS WHEN INSTALLING OR MODIFYING CRITICAL SYSTEM CONTENT**.
-  - If your electricity is unstable (e.g. storm, power outage), postpone what you are doing until you have a stable power source.
-  - This applies to dangerous processes such as BootMii NAND restoration, which could lead to a [full brick](#low-level-brick) if anything goes wrong.
+    - If your electricity is unstable (e.g. storm, power outage), postpone what you are doing until you have a stable power source.
+    - This applies to dangerous processes such as BootMii NAND restoration, which could lead to a [full brick](#low-level-brick) if anything goes wrong.
 
 In any case, you should absolutely:
 
@@ -45,12 +45,12 @@ This is a section intended to help you diagnose a potential brick, in order by l
 
 - Wii starts, and progresses to the Wii Menu. No app is malfunctioning, Wii settings is error free, everything is seemingly fine. No brick.
 - Wii starts, and progresses to the Wii Menu.
-  - If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
-  - If after accessing the Wii settings, you see an error that resembles the Opera web browser, see [semibrick](bricks#semibrick).
+    - If after acccessing a specific channel, you get `The system files are corrupted.`, see [banner brick](bricks#banner-brick).
+    - If after accessing the Wii settings, you see an error that resembles the Opera web browser, see [semibrick](bricks#semibrick).
 - Wii starts, you see the health/warning screen, but upon pressing A to start, you see a black screen.
-  - If this happened after installing a theme, see [theme brick](bricks#theme-brick).
-  - If this happened after installing a WAD, see [banner brick](bricks#banner-brick).
-  - If this randomly started happening, and you can access Maintenance Mode by holding +/- on the health/warning screen, see [mail brick](bricks#mail-brick).
+    - If this happened after installing a theme, see [theme brick](bricks#theme-brick).
+    - If this happened after installing a WAD, see [banner brick](bricks#banner-brick).
+    - If this randomly started happening, and you can access Maintenance Mode by holding +/- on the health/warning screen, see [mail brick](bricks#mail-brick).
 - Wii starts, and you see the health/warning screen, but upon pressing A to start, the screen goes black and/or freezes and does not continue. Maintenance mode is accessible. See [mail brick](bricks#mail-brick).
 - Wii starts, BUT you INSTANTLY see an error that resembles the Opera web browser. See [Wii Menu/Opera brick](bricks#wii-menuopera-brick).
 - Error 003. See [Korean Kii/Error 003 brick](bricks#koreankii-error-003-brick).

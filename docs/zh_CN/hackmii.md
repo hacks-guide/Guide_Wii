@@ -20,9 +20,9 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 1. 将 SD/USB 插入你的电脑。
 2. Extract the HackMii Installer v1.2 to the `apps` folder on your SD/USB.
-   - 如果文件夹不存在，请创建它。
+    - 如果文件夹不存在，请创建它。
 3. Insert the SD/USB into your Wii, and launch the `hackmii_installer_v1.2` app from the Homebrew Channel.
-   - 该应用程序将没有图标。
+    - 该应用程序将没有图标。
 
 ::: tip
 

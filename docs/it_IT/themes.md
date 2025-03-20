@@ -141,7 +141,7 @@ Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come
 4. Press `+` to install the theme.
 5. Ritorna al Menu Wii e verifica che il tema sia installato correttamente. Se tutto va bene, dovresti avere un risultato simile a quello in basso!
 
-   ![](/images/themes/themed-wii-menu.png)
+    ![](/images/themes/themed-wii-menu.png)
 
 ## Personalizzazione di WiiFlow Lite
 
@@ -193,25 +193,25 @@ Purtroppo, a causa delle differenze di codice tra il WiiFlow originale e il più
 
 1. Download a theme `.zip` file from the website linked above.
 
-   ![](/images/themes/homebrew-channel-example-theme.png)
+    ![](/images/themes/homebrew-channel-example-theme.png)
 
 2. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
 
-   ![](/images/themes/homebrew-channel-paste-zip.png)
+    ![](/images/themes/homebrew-channel-paste-zip.png)
 
 3. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
 
-   ![](/images/themes/homebrew-channel-extract-theme.png)
+    ![](/images/themes/homebrew-channel-extract-theme.png)
 
 4. Reinserisci il dispositivo di archiviazione nel tuo Wii e avvia l'Homebrew Channel.
 
 5. Il tema che hai appena installato può essere caricato nello stesso modo in cui si caricano le app standard.
 
-   ![](/images/themes/homebrew-channel-load-theme.png)
+    ![](/images/themes/homebrew-channel-load-theme.png)
 
 6. Ora il tema dovrebbe essere caricato, divertiti!
 
-   ![](/images/themes/homebrew-channel-theme-done.png)
+    ![](/images/themes/homebrew-channel-theme-done.png)
 
 ## Forwarder delle app
 

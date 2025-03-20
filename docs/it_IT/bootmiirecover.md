@@ -52,37 +52,37 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 2. Premi il pulsante HOME, poi seleziona "Launch BootMii".
 
-   - If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
+    - If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
 
-   ![](/images/bootmii/BootMii_HBC.png)
+    ![](/images/bootmii/BootMii_HBC.png)
 
 3. Seleziona il pulsante delle opzioni (con l'icona delle rotelle).
 
-   ![](/images/bootmii/BootMii_Gears.png)
+    ![](/images/bootmii/BootMii_Gears.png)
 
 4. Seleziona il pulsante di RestoreMii.
 
-   ![](/images/bootmii/BootMii_Restore.png)
+    ![](/images/bootmii/BootMii_Restore.png)
 
 5. BootMii ti informerà che farà una scan in "SIMULATION mode", puoi premere A o Reset per continuare.
 
-   ![](/images/bootmii/BootMii_NAND_Simulation.png)
+    ![](/images/bootmii/BootMii_NAND_Simulation.png)
 
 6. Se BootMii è installato come IOS, inserisci il codice Konami sul tuo controller GameCube: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 
-   ![](/images/bootmii/BootMii_NAND_Konami.png)
+    ![](/images/bootmii/BootMii_NAND_Konami.png)
 
 7. BootMii percorrerà il processo di restore attraverso una simulazione, esponendo cosa verrà cancellato e riscritto. Una volta finita la simulazione, hai un'ultima possibilità per annullare il processo di ripristino. Se vuoi continuare, premi START o il bottone Eject per iniziare.
 
-   ![](/images/bootmii/BootMii_NAND_Restore.png)
+    ![](/images/bootmii/BootMii_NAND_Restore.png)
 
 8. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Premi qualsiasi pulsante sul tuo Wii o sul tuo controller GCN.
 
-   ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
+    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
 9. Premi il pulsante Back (quello con la freccia), poi premi il bottone del Menu Wii o dell'Homebrew Channel per uscire da BootMii.
 
-   ![](/images/bootmii/BootMii_Return.png)
+    ![](/images/bootmii/BootMii_Return.png)
 
 ::: info
 

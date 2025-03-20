@@ -27,11 +27,11 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 8. When prompted, select `Yes` to calculate disc checksums.
 
-   ![](/images/homebrew/CleanRip/checksum.png)
+    ![](/images/homebrew/CleanRip/checksum.png)
 
 9. Select your device that you will be dumping the game to - a USB device or SD card.
 
-   ![](/images/homebrew/CleanRip/device.png)
+    ![](/images/homebrew/CleanRip/device.png)
 
 10. Select the filesystem type of the device - in most cases it will be FAT (FAT32).
 
@@ -73,21 +73,21 @@ If you get an unrecovered read error, ensure that the disc you are attempting to
 
 1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
 
-   ![](/images/homebrew/CleanRip/dateldisc.png)
+    ![](/images/homebrew/CleanRip/dateldisc.png)
 
 2. Set the settings as shown on the screen below, while verifying if your game disc is dual layer or not.
 
-   ![](/images/homebrew/CleanRip/wiisettings.png)
+    ![](/images/homebrew/CleanRip/wiisettings.png)
 
 3. Press A to start dumping the disc.
 
-   - This process can take quite some time, since it will dump all 4.7 GB of the DVD (8.5 GB for dual layer discs).
+    - This process can take quite some time, since it will dump all 4.7 GB of the DVD (8.5 GB for dual layer discs).
 
-   ![](/images/homebrew/CleanRip/wiiprogress.png)
+    ![](/images/homebrew/CleanRip/wiiprogress.png)
 
 4. When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.
 
-   ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
+    ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
 
 ::: tip
 
@@ -105,17 +105,17 @@ Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping 
 
 1. When prompted, select if your disc is an unlicensed Datel disc. If unsure, select `No`.
 
-   ![](/images/homebrew/CleanRip/dateldisc.png)
+    ![](/images/homebrew/CleanRip/dateldisc.png)
 
 2. Press A to start dumping the disc.
 
-   - This process can take some time, since it will dump all 1.3 GB of the Mini DVD.
+    - This process can take some time, since it will dump all 1.3 GB of the Mini DVD.
 
-   ![](/images/homebrew/CleanRip/gcprogress.png)
+    ![](/images/homebrew/CleanRip/gcprogress.png)
 
 3. When the dump finishes, you should see a screen with the MD5 checksum of your disc, compared to the Redump DAT if you enabled it.
 
-   ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
+    ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
 ::: tip
 

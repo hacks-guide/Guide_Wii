@@ -26,23 +26,17 @@ The Wii Menu is limited to 48 channels, not including existing system channels.
 - An SD or USB drive
 - [YAWM ModMii Edition](yawmme)
 - 一台Windows电脑。
-- [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
+- [WiiGSC ModMii Edition](https://github.com/modmii/WiiGSC/releases)
 
 ## 步骤
 
-1. Install WiiGSC, then right click on it and choose **Run as administrator**. 如果您不这样做，打开 WiiGSC 时会报错。
+1. Extract the WiiGSC `.zip`, find `WiiGSC.exe`, and launch it.
 
-   ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
+    ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
 2. Select the path to the ISO or WBFS file on your SD or USB drive, and select the loader you use. 其它选项应该保持默认即可。
 
-   ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
-
-   ::: info
-
-   If you are on vWii, use the [Wiiforwarder2vWii](https://gbatemp.net/download/wiiforwarder2vwii-wii-forwarder-to-vwii-wii-u-forwarder-converter-beta-version.37254/) tool to convert the WAD for use on the vWii.
-
-   :::
+    ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
 3. Install the generated WAD with your [WAD manager](yawmme).
 
