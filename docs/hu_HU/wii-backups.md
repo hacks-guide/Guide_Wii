@@ -10,150 +10,152 @@ Ha több játékot akarsz tárolni, javasoljuk egy külső háttértár beszerz�
 
 ::: info
 
-Egy pendrive használatát nem ajánljuk, mert nagyon kicsik és még ugyanannak a terméknek a különböző példányai is máshogy viselkedhetnek. <br>
-Ha szeretnéd, ehelyett használhatsz egy SD kártyát is, de figyelmeztetünk, hogy a Wii SD kártya-olvasója lassú!
+A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
+
+Alternatívaként használhatsz egy SD kártyát is, de figyelmeztetünk, hogy a Wii SD kártya-olvasója lassú.
 
 :::
 
 ::: info
 
-Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva. Ne formázd más típusokra, mint az exFAT vagy az extFS! <br>
-You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
+Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva. Do not format it as other types such as exFAT or extFS.
+
+NTFS-ként is formázhatod, de a legtöbb homebrew alkalmazás (pl.: a Homebrew Channel és a Nintendont) ezt nem támogatja
 
 :::
 
-## .PART-fájlok összekapcsolása FAT32-eszközökhöz
+## Joining PART files on a FAT32 device
 
 ::: info
 
-Ha a lemez tartalmát egy FAT32-eszközre másoltad le, akkor a program jó eséllyel legalább két fájlt adott vissza a fájlrendszer korlátozásai miatt, amelyek `.partX.iso`-ban végződnek. Ezeket a fájlokat össze kell kapcsolni (egy támogatott fájlrendszer alatt, mint pl. az NTFS), hogy helyesen be lehessen olvasni őket.
+If your disc was dumped to a FAT32 device, you should have gotten at least two files that end with `.partX.iso`, due to filesystem limitations. They need to be joined (on a supported filesystem like NTFS) so the file can be read correctly.
 
 :::
 
-### Windowson
+### Windows
 
-1. Másold át a `.partX.iso`-ban végződő, egyforma nevű fájlokat egy üres mappába a számítógépeden!
+1. Másold át a `.partX.iso`-ban végződő, egyforma nevű fájlokat egy üres mappába a számítógépeden.
 
-   ![](/images/desktop-apps/WBM/dumpedpartfiles.png)
+    ![](/images/desktop-apps/WBM/dumpedpartfiles.png)
 
-2. Kattints bele a Windows Intéző címsorába, írd be, hogy `cmd` és nyomd meg az Enter-billentyűt! Ezzel megnyithatsz egy Parancssor-ablakot a mappában.
+2. In this folder, click the address bar in Windows Explorer and type in `cmd`, this will open a command prompt window there.
 
-   ![](/images/desktop-apps/WBM/opencmd.png)
+    ![](/images/desktop-apps/WBM/opencmd.png)
 
-3. Írd be a Parancssorba, hogy `copy /b *.part?.iso game.iso`, majd nyomd meg az Enter-billentyűt! Légy türelemmel, amíg a folyamat befejeződik! A parancssor kimenete az alábbiképpen fog kinézni:
+3. Type `copy /b *.part?.iso game.iso` and press enter. Wait for the command to finish, your terminal output should be similar to the below.
 
-   ![](/images/desktop-apps/WBM/joinpartfiles.png)
+    ![](/images/desktop-apps/WBM/joinpartfiles.png)
 
-4. Ha a másolási folyamat sikeresen befejeződött, akkor a kimeneti fájl ellenőrzőértéke meg fog egyezni a játékmásolási információs fájlban találhatóval (ezt az eredeti másolási folyamat kimeneti mappájában találod meg).
+4. If the copy process executed correctly, the checksum from the game dump info file (located where you dumped your disc at) should match the resulting joined file.
 
-   ![](/images/desktop-apps/WBM/filemd5.png)
+    ![](/images/desktop-apps/WBM/filemd5.png)
 
-### macOS-en/Linuxon
+### macOS/Linux
 
-1. Másold át a `.partX.iso`-ban végződő, egyforma nevű fájlokat egy üres mappába a számítógépeden!
+1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
 
-   ![](/images/desktop-apps/WBM/dumpedpartfileslinux.png)
+    ![](/images/desktop-apps/WBM/dumpedpartfileslinux.png)
 
-2. Nyiss meg egy terminálablakot a fájlokat tartalmazó mappában vagy `cd`-zz bele!
+2. Open a terminal in the directory where your files are at, or `cd [PATH]` to it.
 
-   ![](/images/desktop-apps/WBM/openterminallinux.png)
+    ![](/images/desktop-apps/WBM/openterminallinux.png)
 
-3. Futtasd le a következő parancsot: ``cat `ls *.part?.iso | sort` > game.iso``! Légy türelemmel, amíg az összekapcsolási folyamat befejeződik! Ha a másolási folyamat sikeresen befejeződött, akkor a kimeneti fájl ellenőrzőértéke meg fog egyezni a játékmásolási információs fájlban találhatóval (ezt az eredeti másolási folyamat kimeneti mappájában találod meg).
+3. Use the following command as is: ``cat `ls *.part?.iso | sort` > game.iso``. Then, wait for the merging process to finish. Like in Windows, the resulting checksum should match the dump.
 
-   ![](/images/desktop-apps/WBM/mergesuccesslinux.png)
+    ![](/images/desktop-apps/WBM/mergesuccesslinux.png)
 
-## A Wii Backup Manager használata
-
-### Követelmények
-
-- Egy Windowsos számítógép
-- Egy SD kártya vagy pendrive
-- Egy Wii-játéklemez .iso-formátumú másolata
-- A [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
-
-### Útmutató
-
-#### I. rész – Telepítés
-
-1. Csomagold ki és indítsd el a Wii Backup Managert!
-2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedhez!
-
-#### II. rész – Játékok másolása
-
-1. Kattints az `1. lemez`-fülre és a legördülő menüből válaszd ki a Wii-játékokat tartalmazó háttértárat!
-
-   ![](/images/desktop-apps/WBM/select_drive.png)
-
-2. Válts át a `Fájlok`-fülre és kattints a `Hozzáadás`-gombra!
-
-   - Ha adott játékokat szeretnél hozzáadni a listához, kattints a `Fájlok`-menüpontra! Ha viszont egy egész mappát, akkor a `Mappa`-menüpontra!
-
-   ![](/images/desktop-apps/WBM/select_games.png)
-
-3. Nyisd meg a `Kijelölés`-menüt és kattints `Az 1. lemezen nem szereplő elemek`-menüpontra!
-
-   ![](/images/desktop-apps/WBM/select_games2.png)
-
-4. Ezek után nyisd meg az `Áthelyezés`-menüt és kattints az `1. lemez`-menüpontra a játékok áthelyezéséhez! A folyamatot az ablak jobb oldalán követheted figyelemmel.
-
-   ![](/images/desktop-apps/WBM/transfer_todrive.png)
-
-## A Wii Backup Fusion használata
+## Using Wii Backup Manager
 
 ### Követelmények
 
-- Egy macOS-es vagy Linuxos számítógép
-- Egy SD kártya vagy pendrive
-- Egy Wii-játéklemez .iso-formátumú másolata
-- A [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
-- A [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)-eszközkészlet
+- A PC running Windows
+- A USB drive or SD card
+- A dumped ISO from a Wii game disc
+- [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
-### Útmutató
+### Lépések
 
-#### I. rész – Telepítés
+#### Section I - Installation
 
-1. Töltsd le a Wiimm's ISO Tools operációs rendszerednek megfelelő változatát és csomagold ki a .tar.gz-fájlt egy olyan mappába, amelyhez a Terminálból hozzáférsz! Kicsomagolás után a mappa így fog kinézni:
+1. Extract Wii Backup Manager, and launch the program.
+2. Insert your USB drive or SD card into your computer.
 
-   ![](/images/desktop-apps/WBM/witinstallfolder.png)
+#### Section II - Copying Games
 
-2. Nyiss meg egy Terminálablakot ugyanebben a mappában és futtasd a `sudo ./install.sh`-parancsot!
+1. Go to the `Drive 1` tab, then select the drive that will hold your backed up Wii games.
 
-3. Töltsd le a Wii Backup Fusion operációs rendszerednek megfelelő változatát és telepítsd! Ha Linuxszal dolgozol, akkor futtathatóvá kell tenned az AppImage-fájlt a `chmod +x [FILE]`-parancs futtatásával.
+    ![](/images/desktop-apps/WBM/select_drive.png)
 
-#### II. rész – Játékok másolása
+2. Go to the `Files` tab, then select `Add`.
 
-1. Nyisd meg a Wii Backup Fusiont és kattints a `Load` („Megnyitás”)-gombra!
+    - Select `Files` to add multiple games to the program, or select `Folder` to add a whole folder of games.
 
-   ![](/images/desktop-apps/WBM/loadwbf.png)
+    ![](/images/desktop-apps/WBM/select_games.png)
 
-2. Add meg az .iso mappáját!
+3. Go to `Select`, then click `Games not on drive 1`.
 
-   ![](/images/desktop-apps/WBM/opendirectorywbf.png)
+    ![](/images/desktop-apps/WBM/select_games2.png)
 
-3. Kattints jobb gombbal a lemezre áthelyezendő játékra és válaszd ki a `Transfer to image` („Áthelyezés lemezképre”)-menüpontot! Add meg az alábbi beállításokat:
+4. Select `Transfer`, then select `Drive 1` to transfer the games over. The progress will be displayed on the right side of the window.
 
-   ![](/images/desktop-apps/WBM/settingswbf.png)
+    ![](/images/desktop-apps/WBM/transfer_todrive.png)
 
-4. Ha még nincs a lemezen egy `wbfs`-könyvtár, akkor hozz létre egyet!
+## Using Wii Backup Fusion
 
-5. A `wbfs`-mappán belül hozz létre egy mappát a játékmásolatnak! Ellenőrizd a Wii Backup Fusionon belül a játék azonosítóját („ID”-oszlop), mert szükséged lesz rá a mappanévhez!
+### Követelmények
 
-6. Hozz létre egy új mappát a játék számára és nevezd el az alábbi módon: `játék címe [JÁTÉKAZONOSÍTÓ]`! Pl.: Az ebben az útmutatóban lemásolt játék mappájának a neve `New Super Mario Bros. Wii [SMNE01]`.
+- A PC running MacOS or Linux
+- A USB drive or SD card
+- A dumped ISO from a Wii game disc
+- A [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion/releases)
+- [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
-   ![](/images/desktop-apps/WBM/wbfsname.png)
+### Lépések
 
-7. Másold át a 3. lépésben létrehozott game.wbfs-fájlt az imént létrehozott mappába! Ezek után a lemez használatra kész.
+#### Section I - Installation
+
+1. Download Wiimm's ISO tools for your OS and extract the .tar.gz into a folder that you can access with the terminal. The extracted folder should have these files inside:
+
+    ![](/images/desktop-apps/WBM/witinstallfolder.png)
+
+2. Open a terminal in the folder that you just extracted, and run `sudo ./install.sh`.
+
+3. Download Wii Backup Fusion for your OS and install. If on Linux, you will need to make the appimage executable by running `chmod +x [FILE]`.
+
+#### Section II - Copying Games
+
+1. Open Wii Backup Fusion and press `Load`.
+
+    ![](/images/desktop-apps/WBM/loadwbf.png)
+
+2. Select the directory where your game ISO is at.
+
+    ![](/images/desktop-apps/WBM/opendirectorywbf.png)
+
+3. Right click on the game that you want to transfer to a drive, and press `Transfer to image`. Use the following settings:
+
+    ![](/images/desktop-apps/WBM/settingswbf.png)
+
+4. If there is not already a `wbfs` directory on your game drive, make one.
+
+5. Make another directory inside of the `wbfs` folder for the game backup. Take note of the Game ID in Wii Backup Fusion as you will need this for the game folder.
+
+6. Make a game folder for your game, formatted as `game name [GAMEID]`. For the game dumped as an example in this guide, it would be named `New Super Mario Bros. Wii [SMNE01]`.
+
+    ![](/images/desktop-apps/WBM/wbfsname.png)
+
+7. Copy the game.wbfs file that was made in Step 3 to this new folder. The drive should be ready to use on a Wii.
 
 ::: tip
 
-[Continue to cIOS](cios)
+[Folytatás a cIOS-sal](cios)
 
-cIOS is needed for your Wii to use a USB Loader. Ha ezeket telepíted, készen fogsz állni az [USB Loader GX vagy WiiFlow](wii-loaders) használatára, amelyek segítségével játékokat tölthetsz be egy USB-eszközről vagy SD kártyáról.
+cIOS-ra van szüksége a Wii-odnak egy USB Loader használatához. Once this is done, you can use [USB Loader GX or WiiFlow](wii-loaders) to play games from your USB drive or SD card.
 
 :::
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::

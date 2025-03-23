@@ -14,7 +14,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 - The Homebrew Channel
 - An SD card or USB drive formatted to FAT32/MS-DOS
-- [HackMii Installer v1.2](https://bootmii.org/download/)
+- [Установщик HackMii v1.2](https://bootmii.org/download/)
 
 ### Инструкции
 
@@ -26,7 +26,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Перейти к установке Homebrew Channel и BootMii](hbc)
 
 :::
 
@@ -36,7 +36,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 - a Wii with Priiloader (or Preloader) installed
 - An SD card or USB drive formatted to FAT32/MS-DOS
-- [HackMii Installer v1.2](https://bootmii.org/download/)
+- [Установщик HackMii v1.2](https://bootmii.org/download/)
 
 ::: info
 
@@ -67,6 +67,6 @@ If `Press (1) to continue` does not show up after about 30 seconds, downloading 
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Перейти к установке Homebrew Channel и BootMii](hbc)
 
 :::

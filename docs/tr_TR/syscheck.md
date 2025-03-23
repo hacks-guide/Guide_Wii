@@ -2,12 +2,12 @@
 
 A SysCheck lists all the IOS and cIOS that are on your Wii, along with some information about each of them. It also gives you some other useful information. When you have IOS-related problems on your Wii, someone might ask you to do a SysCheck.
 
-## Gereksinimler
+## Requirements
 
 - an SD card or USB drive
 - [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME)
 
-## Talimatlar
+## Instructions
 
 ### Section I - Downloading/Installing
 
@@ -32,6 +32,6 @@ A SysCheck lists all the IOS and cIOS that are on your Wii, along with some info
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Site haritasına geri dönmek için tıklayın.](site-navigation)
 
 :::

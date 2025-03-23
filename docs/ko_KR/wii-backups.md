@@ -1,158 +1,161 @@
-# Managing Wii Backups
+# Wii 백업 관리
 
-This guide provides instructions on how to manage your Wii backups, from joining .PART files that are output through CleanRip, to shrinking game files that can be copied onto a FAT32 device. Two programs that can be used to manage your Wii backups are Wii Backup Manager (for Windows) and Wii Backup Fusion (for Linux and MacOS) and are covered below.
+이 가이드에서는 CleanRip을 통해 출력된 .PART 파일을 결합하는 방법부터 FAT32 장치에 복사할 수 있는 게임 파일을 축소하는 방법까지 Wii 백업을 ​​관리하는 방법에 대한 지침을 제공합니다. Wii 백업을 ​​관리하는 데 사용할 수 있는 두 가지 프로그램은 Wii 백업 매니저 (윈도우용)와 Wii 백업 퓨전 (리눅스 및 맥OS용)이며, 아래에서 이에 대해 설명합니다.
 
 ::: info
 
-여러 게임을 저장하려면 Wii용 외장 하드 드라이브를 권장합니다. Most of those found on the market should work fine.
+여러 게임을 저장하려면 Wii용 외장 하드 드라이브를 권장합니다. 시중에 판매되는 대부분의 제품은 잘 작동할 것입니다.
 
 :::
 
 ::: info
 
-플래시 드라이브는 크기가 작고 같은 제품 간에도 동작이 다를 수 있으므로 권장하지 않습니다. <br>
-As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
+A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
+
+또는 간단히 SD 카드를 사용할 수도 있지만, Wii의 SD 카드 슬롯은 느릴 것입니다.
 
 :::
 
 ::: info
 
-USB 드라이브의 포맷이 FAT32로 되어 있는지 확인합니다. Do not format it as other types such as exFAT or extFS. <br> NTFS로 포맷할 수 있지만 대부분의 앱 (예: 홈브류 채널, Nintendont) 에서는 작동하지 않습니다.
+USB 드라이브의 포맷이 FAT32로 되어 있는지 확인합니다. exFAT 또는 extFS 등 다른 유형으로 포맷하지 마세요.
+
+NTFS로 포맷할 수 있지만 대부분의 앱 (예: 홈브류 채널, 닌텐돈트)에서는 작동하지 않습니다.
 
 :::
 
-## Joining PART files on a FAT32 device
+## FAT32 장치에서 PART 파일 결합
 
 ::: info
 
-If your disc was dumped to a FAT32 device, you should have gotten at least two files that end with `.partX.iso`, due to filesystem limitations. They need to be joined (on a supported filesystem like NTFS) so the file can be read correctly.
+디스크를 FAT32 장치에 덤프한 경우 파일 시스템 제한으로 인해 `.partX.iso`로 끝나는 파일이 최소 두 개는 생성됩니다. 파일을 올바르게 읽을 수 있도록 하려면 지원되는 파일 시스템에 결합해야 합니다. (예: NTFS)
 
 :::
 
-### 윈도우즈
+### Windows
 
-1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
+1. `.partX.iso`로 끝나는 같은 이름을 공유하는 파일을 컴퓨터의 빈 폴더에 복사합니다.
 
    ![](/images/desktop-apps/WBM/dumpedpartfiles.png)
 
-2. In this folder, click the address bar in Windows Explorer and type in `cmd`, this will open a command prompt window there.
+2. 이 폴더에서 윈도우 탐색기의 주소창을 클릭하고 `cmd`를 입력하면 명령 프롬프트 창이 열립니다.
 
    ![](/images/desktop-apps/WBM/opencmd.png)
 
-3. Type `copy /b *.part?.iso game.iso` and press enter. Wait for the command to finish, your terminal output should be similar to the below.
+3. `copy /b *.part?.iso game.iso`를 입력하고 Enter를 누릅니다. 명령이 완료될 때까지 기다립니다. 터미널 출력은 아래와 비슷해야 합니다.
 
    ![](/images/desktop-apps/WBM/joinpartfiles.png)
 
-4. If the copy process executed correctly, the checksum from the game dump info file (located where you dumped your disc at) should match the resulting joined file.
+4. 복사 과정이 올바르게 실행되면 게임 덤프 정보 파일 (디스크를 덤프한 위치에 있음)의 체크섬이 결합된 결과 파일과 일치해야 합니다.
 
    ![](/images/desktop-apps/WBM/filemd5.png)
 
-### 맥OS/리눅스
+### macOS/Linux
 
-1. Copy the files that share the same name and end with `.partX.iso` into an empty folder on your computer.
+1. `.partX.iso`로 끝나는 같은 이름을 공유하는 파일을 컴퓨터의 빈 폴더에 복사합니다.
 
    ![](/images/desktop-apps/WBM/dumpedpartfileslinux.png)
 
-2. Open a terminal in the directory where your files are at, or `cd [PATH]` to it.
+2. 파일이 있는 디렉토리에서 터미널을 열거나, `cd [경로]`를 입력하여 해당 디렉토리로 이동합니다.
 
    ![](/images/desktop-apps/WBM/openterminallinux.png)
 
-3. Use the following command as is: ``cat `ls *.part?.iso | sort` > game.iso``. Then, wait for the merging process to finish. Like in Windows, the resulting checksum should match the dump.
+3. Use the following command as is: ``cat `ls *.part?.iso | sort` > game.iso``. 그런 다음 병합 프로세스가 완료될 때까지 기다립니다. 윈도우에서와 마찬가지로 결과 체크섬은 덤프와 일치해야 합니다.
 
    ![](/images/desktop-apps/WBM/mergesuccesslinux.png)
 
-## Using Wii Backup Manager
+## Wii 백업 매니저 사용
 
-### 필요한 것
+### 요구 사항
 
-- 윈도우즈를 실행하는 PC
-- USB 드라이브 또는 SD 카드
-- A dumped ISO from a Wii game disc
-- [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
+- A PC running Windows
+- A USB drive or SD card
+- Wii 게임 디스크에서 덤프된 ISO
+- [Wii 백업 매니저](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
-### 진행 방법
+### 지침
 
-#### Section I - Installation
+#### 섹션 I - 설치
 
-1. Wii Backup Manager를 압축 해제하고 프로그램을 실행합니다.
-2. USB 드라이브 또는 SD 카드를 컴퓨터에 연결합니다.
+1. Extract Wii Backup Manager, and launch the program.
+2. Insert your USB drive or SD card into your computer.
 
-#### Section II - Copying Games
+#### 섹션 II - 게임 복사
 
-1. Go to the `Drive 1` tab, then select the drive that will hold your backed up Wii games.
+1. `드라이브 1` 탭으로 이동한 다음, 백업된 Wii 게임을 보관할 드라이브를 선택합니다.
 
    ![](/images/desktop-apps/WBM/select_drive.png)
 
-2. Go to the `Files` tab, then select `Add`.
+2. `파일` 탭으로 이동한 다음 `추가`를 선택합니다.
 
-   - Select `Files` to add multiple games to the program, or select `Folder` to add a whole folder of games.
+   - 프로그램에 여러 게임을 추가하려면 '파일'을 선택하고, 게임 폴더 전체를 추가하려면 '폴더'를 선택합니다.
 
    ![](/images/desktop-apps/WBM/select_games.png)
 
-3. Go to `Select`, then click `Games not on drive 1`.
+3. '선택'으로 가서, '드라이브 1에 없는 게임'을 클릭합니다.
 
    ![](/images/desktop-apps/WBM/select_games2.png)
 
-4. Select `Transfer`, then select `Drive 1` to transfer the games over. The progress will be displayed on the right side of the window.
+4. `전송`을 선택한 다음 `드라이브 1`을 선택하여 게임을 전송합니다. 진행률은 창의 오른쪽에 표시됩니다.
 
    ![](/images/desktop-apps/WBM/transfer_todrive.png)
 
-## Using Wii Backup Fusion
+## Wii 백업 퓨전 사용
 
-### 필요한 것
+### 요구 사항
 
-- A PC running MacOS or Linux
-- USB 드라이브 또는 SD 카드
-- A dumped ISO from a Wii game disc
-- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
-- [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
+- 맥OS 또는 리눅스를 실행하는 PC
+- A USB drive or SD card
+- Wii 게임 디스크에서 덤프된 ISO
+- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion/releases)
+- [Wiimm's ISO 도구](https://wit.wiimm.de/download.html)
 
-### 진행 방법
+### 지침
 
-#### Section I - Installation
+#### 섹션 I - 설치
 
-1. Download Wiimm's ISO tools for your OS and extract the .tar.gz into a folder that you can access with the terminal. The extracted folder should have these files inside:
+1. OS에 맞는 Wiimm ISO 도구를 다운로드하고 터미널에서 접속할 수 있는 폴더에 .tar.gz를 추출합니다. 추출된 폴더에는 다음 파일이 들어 있어야 합니다:
 
    ![](/images/desktop-apps/WBM/witinstallfolder.png)
 
-2. Open a terminal in the folder that you just extracted, and run `sudo ./install.sh`.
+2. 방금 압축 해제한 폴더에서 터미널을 열고 `sudo ./install.sh`를 실행합니다.
 
-3. Download Wii Backup Fusion for your OS and install. If on Linux, you will need to make the appimage executable by running `chmod +x [FILE]`.
+3. OS에 맞는 Wii 백업 퓨전을 다운로드하여 설치합니다. 리눅스를 사용하는 경우, `chmod +x [파일]` 실행하여 appimage를 실행 가능한 파일로 만들어야 합니다.
 
-#### Section II - Copying Games
+#### 섹션 II - 게임 복사
 
-1. Open Wii Backup Fusion and press `Load`.
+1. Wii 백업 퓨전을 열고 `로드`를 누릅니다.
 
    ![](/images/desktop-apps/WBM/loadwbf.png)
 
-2. Select the directory where your game ISO is at.
+2. 게임 ISO가 있는 디렉터리를 선택합니다.
 
    ![](/images/desktop-apps/WBM/opendirectorywbf.png)
 
-3. Right click on the game that you want to transfer to a drive, and press `Transfer to image`. Use the following settings:
+3. 드라이브로 전송할 게임을 마우스 오른쪽 버튼으로 클릭하고 `이미지로 전송`을 누릅니다. 다음 설정을 사용합니다:
 
    ![](/images/desktop-apps/WBM/settingswbf.png)
 
-4. If there is not already a `wbfs` directory on your game drive, make one.
+4. 게임 드라이브에 `wbfs` 디렉터리가 없다면 하나 만듭니다.
 
-5. Make another directory inside of the `wbfs` folder for the game backup. Take note of the Game ID in Wii Backup Fusion as you will need this for the game folder.
+5. `wbfs` 폴더 내부에 게임 백업을 위한 또 다른 디렉터리를 만듭니다. 게임 폴더에 필요하므로 Wii 백업 퓨전의 게임 ID를 기록해 둡니다.
 
-6. Make a game folder for your game, formatted as `game name [GAMEID]`. For the game dumped as an example in this guide, it would be named `New Super Mario Bros. Wii [SMNE01]`.
+6. `게임 이름 [게임ID]` 형식의 게임 폴더를 만듭니다. 이 가이드에서 예시로 덤프한 게임의 이름은 `New Super Mario Bros. Wii [SMNE01]`입니다.
 
    ![](/images/desktop-apps/WBM/wbfsname.png)
 
-7. Copy the game.wbfs file that was made in Step 3 to this new folder. The drive should be ready to use on a Wii.
+7. 3 단계에서 만든 game.wbfs 파일을 이 새 폴더로 복사합니다. 드라이브는 Wii에서 사용할 준비가 되었습니다.
 
 ::: tip
 
-[Continue to cIOS](cios)
+[cIOS로 계속](cios)
 
-cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use [USB Loader GX or WiiFlow](wii-loaders) to play games from your USB drive or SD card.
+Wii에서 USB 로더를 사용하려면 cIOS가 필요합니다. 이 작업이 완료되면 [USB Loader GX 또는 WiiFlow](wii-loaders)를 사용하여 USB 드라이브나 SD 카드에서 게임을 플레이할 수 있습니다.
 
 :::
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::

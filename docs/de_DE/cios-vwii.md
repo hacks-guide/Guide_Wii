@@ -1,6 +1,6 @@
 # d2x cIOS for vWii
 
-:::details Technical Details (optional)
+:::details Technische Details (optional)
 
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
@@ -22,7 +22,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 
 :::
 
-## Anforderungen
+## Requirements
 
 - A Wii U with the Homebrew Channel installed on the vWii
 - Eine SD-Karte
@@ -34,7 +34,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 :::
 
-## Anleitung
+## Instructions
 
 ### Section I - Installing
 

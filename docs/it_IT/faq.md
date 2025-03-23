@@ -22,7 +22,9 @@ Stai usando il vecchio server DNS per RiiConnect24. Follow [this](riiconnect24#s
 
 ##### Per utenti senza RiiConnect24
 
-Il tuo erver DNS primario è incorretto o non funzionante.<br> Questo può anche succedere se usi un server proxy e non funziona.
+Your Primary DNS server is incorrect or not working.
+
+This can also happen if you use a proxy server and it is down.
 
 #### Errore 107304
 
@@ -40,7 +42,7 @@ Se ottieni l'errore FORE000006, il tuo orologio del Wii è probabilmente imposta
 
 ### Come si rimuove il Filtro Famiglia?
 
-The [mkey generator](https://mkey.eiphax.tech/) can generate the code required to remove parental controls.
+The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
 
 ### Penso che il mio Wii sia brickato, o che abbia qualcosa di davvero sbagliato, cosa faccio?
 
@@ -56,14 +58,17 @@ For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploi
 
 ::: info
 
-FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br>
-For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. WBFS era precedentemente un file system usato per backup Wii (da non confondere con file WBFS) - oggi, è obsoleto e non dovrebbe essere usato.
+The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be formatted to FAT32 (**not** exFAT or NTFS). See [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.
+
+For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS era precedentemente un file system usato per backup Wii (da non confondere con file WBFS) - oggi, è obsoleto e non dovrebbe essere usato.
 
 :::
 
 ::: warning
 
-For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.<br> For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of various sizes can be used.<br> Your highest chance of getting a working SD card on any Wii is at sizes 32GB or lower, but success has been reported various times on cards ranging up to 256GB.
+For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.
+
+For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of any size can be used.
 
 :::
 
@@ -88,7 +93,7 @@ Quando si considera comprare o usare una scheda SD o unità USB, ha senso tenere
 
 ::: danger
 
-Attualmente, non esistono schede SD con dimensioni maggiori o uguali a 2TB, chiunque te ne stia cercando di vendere una ti sta truffando.
+SD cards larger than 2TB currently do not exist, anyone attempting to sell you one is trying to rip you off.
 
 :::
 
@@ -106,7 +111,11 @@ Marche consigliate:
 
 Nel comprare dischi rigidi USB, ci sono solo tre produttori di HDD a oggi: Western Digital, Seagate, e Toshiba. Qualsiasi altra compagni è morta ed è andata in bancarotta, o è stata assorbita da una delle tre sopracitate. Detto ciò, se hai un disco rigido in più in giro di un'altra compagnia, dovrebbe comunque funzionare! Le tecnologie dei dischi rigidi sono rimaste le stesse dagli ultimi 10 anni circa. Assicurati solamente di controllare i dati S.M.A.R.T per assicurarti che il dispositivo non stia fallendo prima di buttarci dentro tutti i tuoi dati.
 
-Per le dimensioni dei dischi rigidi, quelli da 63.5cm dovrebbero funzionare con l'elettricità del cavo USB collegato al Wii da solo; quelli da 88.9cm consumano molta più energia e necessiteranno quasi sicuramente di un alimentatore esterno. Assicurati di tenere questo a mente nel determinare cosa vuoi fare con un dispositivo esterno.
+For hard drive sizing, 2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. Assicurati di tenere questo a mente nel determinare cosa vuoi fare con un dispositivo esterno.
+
+For Wii U users, it is highly recommended to have a hard drive that takes external power, or to use a powered USB hub and/or Y cable for 2.5 inch drives.
+
+For Wii mini users, it is recommended to have an externally powered USB hub in order to have external storage, internet adapters, and other peripherals connected simultaneously. You may also want to use a Y cable for drive power.
 
 Per quanto riguarda le tue scelte nell'acquisto, questo si riassume in tre scenari diversi:
 
@@ -121,3 +130,25 @@ Per quanto riguarda le tue scelte nell'acquisto, questo si riassume in tre scena
 Per lo scopo di un dispositivo da usare su un Wii, gli SSD esterni sono spesso più costosi dei dischi rigidi classici e non c'è un vero guadagno di velocità sul Wii (la console supporta solo velocità fino a quelle di USB 2.0). Se desideri comprarne uno o ne hai uno già in giro, è un'opzione, ma generalmente è consigliato usare un disco rigido se non ne hai già uno.
 
 :::
+
+## Networking FAQ
+
+The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named WiFi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points (APs):
+
+- APs enforcing WPA enterprise encryption, or WPA3 only
+- APs not backwards compatible with WiFi 3, or broadcasting only on the 5 GHz band
+- APs not supporting legacy 802.11b or 802.11g rates (i.e. APs supporting only 802.11n)
+
+ISPs known to provide routers incompatible with these settings:
+
+- Xfinity
+- Spectrum
+- Cox
+
+If your ISP will not let you change these settings, or your current networking hardware is not supported, you have a few options:
+
+- You can try to use a cellular hotspot. This is not recommended as it usually results in an unstable connection.
+- You can use a LAN adapter. It must have the `ASIX AX88772` chipset or say “compatible with Wii”. Here is a [recommended LAN adapter by uGreen](https://a.co/d/3OcSJDS).
+- Alternatively, you can buy a secondary router and continue to use the network you already have, like a mesh. Any cheap router meeting the above standards (such as the Linksys WRT54G) will work.
+
+For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the `Wii VC Launch` Aroma plugin.

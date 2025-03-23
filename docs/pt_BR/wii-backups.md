@@ -10,18 +10,21 @@ Para armazenar vários jogos, é recomendado o uso de um armazenamento externo p
 
 ::: info
 
-Drives de flash não são recomendados, por serem pequenos e poderem variar de comportamento mesmo entre o mesmo produto. <br>
+A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
+
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
 :::
 
 ::: info
 
-Certifique-se de que seu armazenamento USB está formatado como FAT32. Do not format it as other types such as exFAT or extFS. <br> Você pode formatá-lo para NTFS, mas não vai funcionar com a maioria dos apps (ex. Homebrew Channel, Nintendont)
+Certifique-se de que seu armazenamento USB está formatado como FAT32. Do not format it as other types such as exFAT or extFS.
+
+You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 
 :::
 
-## Juntando arquivos PART em um dispositivo FAT32
+## Joining PART files on a FAT32 device
 
 ::: info
 
@@ -63,19 +66,19 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Manager
 
-### Requisitos
+### Requirements
 
-- Um PC executando Windows
-- Um armazenamento USB ou cartão SD
+- A PC running Windows
+- A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
-### Instruções
+### Instructions
 
 #### Section I - Installation
 
-1. Extraia o Wii Backup Manager, e inicie o programa.
-2. Insira seu armazenamento USB ou cartão SD no seu computador.
+1. Extract Wii Backup Manager, and launch the program.
+2. Insert your USB drive or SD card into your computer.
 
 #### Section II - Copying Games
 
@@ -99,15 +102,15 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Fusion
 
-### Requisitos
+### Requirements
 
 - A PC running MacOS or Linux
-- Um armazenamento USB ou cartão SD
+- A USB drive or SD card
 - A dumped ISO from a Wii game disc
-- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
+- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion/releases)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
-### Instruções
+### Instructions
 
 #### Section I - Installation
 

@@ -1,189 +1,191 @@
-# Wii Backup Loaders
+# Wii 백업 로더
 
-This guide introduces Wii backup loaders. They can be primarily used to load game backups on an SD or USB that were dumped from a retail game disc. Depending on the loader, there may also be extensions to allow it to function as a frontend for non-Wii games as well. The two most commonly used loaders are USB Loader GX and WiiFlow Lite (a regularly updated mod of the original WiiFlow) - one loader may work better for you than the other, so it's worth trying both out.
+이 가이드에서는 Wii 백업 로더를 소개합니다. 이는 주로 판매용 게임 디스크에서 덤프한 SD나 USB에 게임 백업을 로드하는 데 사용될 수 있습니다. 로더에 따라서는 Wii가 아닌 게임의 프런트엔드로 작동할 수 있는 확장 기능이 있을 수도 있습니다. 가장 일반적으로 사용되는 두 가지 로더는 USB Loader GX와 WiiFlow Lite (원래 WiiFlow의 정기적 업데이트 모드) - 두 가지 로더 중 하나가 다른 하나보다 더 효과적일 수 있으므로 두 가지 모두 사용해 보는 것이 좋습니다.
 
 ::: warning
 
-In order for Wii loader to function properly, you must have the latest cIOS installed. Please check [this](cios) guide for instructions if you are on Wii, and [this](cios-mini) guide if you are on Wii mini.
+Wii 로더가 제대로 작동하려면 최신 cIOS가 설치되어 있어야 합니다. Wii를 사용하는 경우 [이](cios) 가이드에서 지침을 확인하고, Wii 미니를 사용하는 경우 [이](cios-mini) 가이드에서 지침을 확인합니다.
 
 :::
 
 ::: info
 
-To play games, you are advised to use a large SD card or an external hard drive, flash drives are not recommended and very sporadic in functionality. See [storage FAQ](faq).
+게임을 하려면 대용량 SD 카드나 외장 하드 드라이브를 사용하는 것이 좋습니다. 플래시 드라이브는 권장하지 않으며 기능도 매우 드뭅니다. [스토리지 FAQ](faq)를 참조합니다.
 
 :::
 
 ::: info
 
-The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). The official Wii Menu forwarder installer for WiiFlow Lite can be found on the <a href="https://oscwii.org/library/app/wiiflow_channel_installer">Open Shop Channel</a>. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme).
+WiiFlow Lite용 공식 Wii 메뉴 포워더 설치 프로그램은 [오픈 샵 채널](https://oscwii.org/library/app/wiiflow_channel_installer)에서 찾을 수 있습니다. The official Wii Menu forwarder installer for WiiFlow Lite can be found on the <a href="https://oscwii.org/library/app/wiiflow_channel_installer">Open Shop Channel</a>. USB Loader GX 공식 포워더는 [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) 페이지에서 찾을 수 있습니다. [YAWM ModMii Edition](yawmme)으로 설치할 수 있습니다.
 
 :::
 
-## Differences between WiiFlow Lite and USB Loader GX
+## WiiFlow Lite와 USB Loader GX의 차이점
 
-- WiiFlow Lite has a more advanced user interface in terms of animation and effects, and supports themes.
+- WiiFlow Lite는 애니메이션과 효과 측면에서 더욱 진보된 사용자 인터페이스를 제공하며 테마도 지원합니다.
 
-  - SD cards are fully supported for loading Wii games on WiiFlow Lite.
-  - WiiFlow Lite has a plugin system.
-  - While the original WiiFlow was last updated in 2014, the WiiFlow Lite fork is still recieving regular updates.
+  - WiiFlow Lite에서 Wii 게임을 로딩하려면 SD 카드가 완벽히 지원됩니다.
+  - WiiFlow Lite에는 플러그인 시스템이 있습니다.
+  - 원래 WiiFlow는 2014년에 마지막으로 업데이트되었지만, WiiFlow Lite 포크는 여전히 정기적인 업데이트를 받고 있습니다.
 
   ![](/images/usb-loaders/wiiflow-ui.png)
 
-- USB Loader GX is primarily modeled after the Wii Menu, and supports themes.
+- USB Loader GX는 주로 Wii 메뉴를 모델로 하여 만들어졌으며 테마를 지원합니다.
 
-  - While SD cards were previously unsupported for loading Wii games on USB Loader GX, recent updates have introduced support into the loader.
-  - USB Loader GX has no plugin system.
-  - USB Loader GX still receives regular updates.
+  - 이전에는 USB Loader GX에서 Wii 게임을 로딩할 때 SD 카드가 지원되지 않았지만, 최근 업데이트를 통해 로더에서 해당 지원이 추가되었습니다.
+  - USB Loader GX에는 플러그인 시스템이 없습니다.
+  - USB Loader GX는 정기적으로 업데이트를 받습니다.
 
   ![](/images/usb-loaders/usbloadergx-ui.png)
 
-## Game Directory Structure
+## 게임 디렉토리 구조
 
-Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if it is over 4 GB and your storage device is formatted as FAT32. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game directory structure correctly.
+아래는 단일 WBFS의 예와 분할된 WBFS의 예입니다. WBFS가 4GB를 넘고 저장 장치가 FAT32로 포맷된 경우 WBFS를 분할해야 합니다. [Wii 백업 매니저](wii-backups#using-wii-backup-manager) 또는 [Wii 백업 퓨전](wii-backups#using-wii-backup-fusion)과 같은 소프트웨어를 사용하면 이 작업을 대신 수행할 수 있으며, 게임 디렉토리 구조를 자동으로 올바르게 설정합니다.
 
 ```
-💾SD card or USB:
+💾SD 카드 또는 USB:
  ┗ 📂wbfs
-    ┣ 📂GameName [GameID]
-    ┃  ┗ 📜gameid.wbfs (for non-split titles)
-    ┗ 📂GameName [GameID]
+    ┣ 📂게임이름 [게임ID]
+    ┃  ┗ 📜gameid.wbfs (분할되지 않은 타이틀의 경우)
+    ┗ 📂게임이름 [게임ID]
        ┣ 📜gameid.wbfs
        ┗ 📜gameid.wbf1
 ```
 
 ## RiiConnect24 테마 페이지
 
-### 필요한 것
+### 요구 사항
 
-- Wii
-- The latest version of [cIOS](cios)
+- 개조된 Wii
+- [cIOS](cios)의 최신 버전
 - [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
-### Installation
+### 설치
 
-1. Download WiiFlow and install it on your SD Card or USB device.
+1. WiiFlow를 다운로드하여 SD 카드나 USB 장치에 설치합니다.
 
-### Quick Start Guide
+### 빠른 시작 가이드
 
-#### General
+#### 일반 사항
 
-- WiiFlow by default is set to only find games on the SD card. This can be changed by going to `Settings > Startup Settings` to then turn off `Mount SD Only`.
-- You can toggle the current view in WiiFlow between plugins, games, homebrew, and Wii channels by clicking the button to the left of `Home`, on the bottom right.
-- You can download game covers by going to `Settings` > `Download Covers and Banners`.
+- WiiFlow는 기본적으로 SD 카드에 있는 게임만 찾도록 설정되어 있습니다. `설정 > 시작 설정`으로 가서 `SD만 마운트`를 끄면 이를 변경할 수 있습니다.
+- WiiFlow의 현재 보기를 플러그인, 게임, 홈브류, Wii 채널 간에 전환하려면 오른쪽 하단의 `홈` 왼쪽에 있는 버튼을 클릭합니다.
+- `설정` > `커버 및 배너 다운로드`로 가면 게임 커버를 다운로드할 수 있습니다.
 
-#### User Interface
+#### 사용자 인터페이스
 
-When WiiFlow detects games, they are displayed in flow view.<br> When you click on a game, you are given these options:
+WiiFlow가 게임을 감지하면 플로우 뷰에 표시됩니다.
 
-- Star - Adds game to favorites.
-- Bookshelf - Adds the game to 1 of 6 categories of your choosing.
-- Gears - Opens the settings menu for that game - these settings are unique to that game and that game only.
-- X - Deletes the game from the USB drive or SD card.
+게임을 클릭하면 다음과 같은 옵션이 제공됩니다:
 
-When you bring the cursor to the bottom of the screen while in flow view, there are 6 icons:
+- 별 - 게임을 즐겨찾기에 추가합니다.
+- 책꽂이 - 게임을 선택한 6가지 카테고리 중 하나에 추가합니다.
+- 기어 - 해당 게임의 설정 메뉴를 엽니다. 이러한 설정은 해당 게임에만 고유합니다.
+- X - USB 드라이브나 SD 카드에서 게임을 삭제합니다.
 
-- Bookshelf - View the games that are sorted in the categories you chose.
-- Star - View games you favorited.
-- Gears - Opens WiiFlow Settings.
-- Game Type - Toggles between different types of apps/games. The logo changes depending on what game type you have selected.
-- Disc - Loads a game that is in the disc drive.
-- House - Opens the menu below. The menu can also be launched by pressing the home button.
+플로우 보기에서 커서를 화면 하단으로 가져가면 6개의 아이콘이 있습니다.
+
+- 책꽂이 - 선택한 카테고리에 따라 정렬된 게임을 확인합니다.
+- 별 - 즐겨찾는 게임을 확인합니다.
+- 기어 - WiiFlow 설정을 엽니다.
+- 게임 유형 - 다양한 유형의 앱/게임을 전환합니다. 로고는 선택한 게임 유형에 따라 달라집니다.
+- 디스크 - 디스크 드라이브에 있는 게임을 로드합니다.
+- 집 - 아래 메뉴를 엽니다. 홈 버튼을 눌러서 메뉴를 실행할 수도 있습니다.
 
 ![](/images/usb-loaders/wiiflow-menu.png)
 
-- Help Guide - Shows all the controls you can use in WiiFlow.
-- Reload Cache - Press this to allow WiiFlow to rescan for games on the USB device or SD card.
-- File Explorer - Allows you to explore the directory listing on your USB device or SD card and select an individual game or executable.
-- Select Plugins - Allows you to select plugins.
-- Credits - Shows the people who worked on WiiFlow.
-- Shutdown - Allows you to go into full shutdown or standby mode.
-- Exit To - Lets you exit to Wii Menu, Homebrew Channel, neek2o, Priiloader, or Bootmii.
-- Settings - Opens the global WiiFlow settings menu.
+- 도움말 가이드 - WiiFlow에서 사용할 수 있는 모든 컨트롤을 보여줍니다.
+- 캐시 다시 로드 - 이 버튼을 누르면 WiiFlow가 USB 장치나 SD 카드에 있는 게임을 다시 스캔합니다.
+- 파일 탐색기 - USB 장치나 SD 카드의 디렉토리 목록을 탐색하고 개별 게임이나 실행 파일을 선택할 수 있습니다.
+- 플러그인 선택 - 플러그인을 선택할 수 있습니다.
+- 크레딧 - WiiFlow에 참여한 사람들을 보여줍니다.
+- 종료 - 완전 종료 또는 대기 모드로 전환할 수 있습니다.
+- 다음으로 나가기 - Wii 메뉴, 홈브류 채널, neek2o, Priiloader 또는 Bootmii로 종료할 수 있습니다.
+- 설정 - WiiFlow 글로벌 설정 메뉴를 엽니다.
 
 ## USB Loader GX
 
-### 필요한 것
+### 요구 사항
 
-- Wii
-- The latest version of [cIOS](cios)
-- [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
+- 개조된 Wii
+- [cIOS](cios)의 최신 버전
+- [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
-### Installation
+### 설치
 
-1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
-2. Download USB Loader GX and install it on your SD Card or USB device.
+1. Wii에 이미 cIOS 248-251이 설치되어 있는지 확인합니다. [SysChecker](syscheck)나 d2x cIOS 설치 프로그램과 같은 애플리케이션으로 확인할 수 있습니다.
+2. USB Loader GX를 다운로드하여 SD 카드나 USB 장치에 설치합니다.
 
-### Quick Start Guide
+### 빠른 시작 가이드
 
-#### General
+#### 일반 사항
 
-- If USB Loader GX says "Waiting for HDD..." with a 20 second countdown, it is very likely that it cannot detect your USB device. Try to exit out of the app, ensure your USB device is plugged into the bottom port if Wii is placed horizontally, or the port closest to the edge when the Wii is placed vertically. It may also be formatted incorrectly. Ensure that your USB drive is formatted to FAT32, with the MBR partition table, and 32kb (32768 bytes) allocation unit size/cluster size.
-- You can press the 1 Button on your Wii Remote to open up a dialog to download game covers and artwork from [GameTDB](https://gametdb.com/). It might take a while to download the game covers and artwork, depending the amount of games you have.
-- GameCube or "custom" Wii games may or may not have a custom banner that USB Loader GX uses. To enable this, find or write `CustomBannersURL = http://banner.rc24.xyz/` in `config/GXGlobal.cfg` on the drive you installed the app on. Then, you can use the `Custom Banner` download by pressing the 1 Button on your Wii Remote.
+- USB Loader GX가 20초 카운트다운과 함께 "HDD 대기 중..."이라는 메시지를 표시하면 USB 장치를 감지하지 못할 가능성이 큽니다. 앱을 종료해 봅니다. Wii를 수평으로 놓았을 때는 USB 장치가 하단 포트에 꽂혀 있는지, Wii를 수직으로 놓았을 때는 가장자리에 가장 가까운 포트에 꽂혀 있는지 확인합니다. 형식이 잘못되었을 수도 있습니다. USB 드라이브가 FAT32로 포맷되었고, MBR 파티션 테이블과 32kb(32768바이트) 할당 단위 크기/클러스터 크기가 지정되었는지 확인합니다.
+- Wii 리모컨의 1 버튼을 누르면 대화 상자가 열리고 [GameTDB](https://gametdb.com/)에서 게임 커버와 아트워크를 다운로드할 수 있습니다. 게임 커버와 아트워크를 다운로드하는 데는 게임의 수에 따라 시간이 걸릴 수 있습니다.
+- 게임큐브 또는 "커스텀" Wii 게임에는 USB Loader GX가 사용하는 커스텀 배너가 있을 수도 있고 없을 수도 있습니다. 이 기능을 사용하려면 앱을 설치한 드라이브의 `config/GXGlobal.cfg`에 `CustomBannersURL = http://banner.rc24.xyz/`를 찾거나 입력합니다. 그런 다음, Wii 리모컨의 1 버튼을 눌러 `커스텀 배너` 다운로드를 사용할 수 있습니다.
 
-#### User Interface
+#### 사용자 인터페이스
 
-On the middle of the bottom of the screen, you can see how much space is free on your USB drive and how many games you have.
+화면 하단 중앙에서 USB 드라이브에 얼마나 많은 여유 공간이 있는지, 그리고 얼마나 많은 게임이 있는지 확인할 수 있습니다.
 
-These are the functions of the buttons found on the bar at the top of the screen, from left to right:
+화면 상단바에 있는 버튼의 기능은 왼쪽에서 오른쪽으로 다음과 같습니다:
 
-- Star - Shows games that you have marked as "favorites".
-- Search - Lets you search for games by name.
-- Sort - Cycles through sorting methods for games.
-- Platform - Sorts games by platform.
-- Category - Sorts games by category.
-- List - Shows games in a list view.
-- Multi-Cover View - Shows games in a multi-cover view.
-- Cover Carousel View - Shows games in a carousel view.
-- Wii Menu View - Shows games in a Wii Menu view.
-- Parental Control - Locks USB Loader GX.
-- Disc - Loads a game that is in the disc drive.
+- 별 - "즐겨찾기"로 표시한 게임을 보여줍니다.
+- 검색 - 이름으로 게임을 검색할 수 있습니다.
+- 정렬 - 게임의 정렬 방법을 순환합니다.
+- 플랫폼 - 플랫폼별로 게임을 정렬합니다.
+- 카테고리 - 게임을 카테고리별로 정렬합니다.
+- 목록 - 게임을 목록 보기로 표시합니다.
+- 멀티커버 보기 - 게임을 멀티커버 보기로 표시합니다.
+- 커버 회전형 보기 - 게임을 커버 회전형 보기로 표시합니다.
+- Wii 메뉴 보기 - 게임을 Wii 메뉴 보기로 표시합니다.
+- 자녀 보호 기능 - USB Loader GX를 잠금니다.
+- 디스크 - 디스크 드라이브에 있는 게임을 로드합니다.
 
-There are also other buttons at the bottom of the screen:
+화면 하단에는 다른 버튼도 있습니다:
 
-- (+) Icon - "Install" a game, i.e. loading it from disc and dumping it to your preset storage device.
-- Gears - Global settings for USB Loader GX.
-- SD card - Remount the SD card.
-- Homebrew - Load homebrew apps.
-- Wii - Open the HOME Menu.
-- Power Button - Turn off your Wii.
+- (+) 아이콘 - 게임 "설치", 즉 디스크에서 게임을 로드하여 사전 설정된 저장 장치에 덤프합니다.
+- Gears - USB Loader GX에 대한 글로벌 설정입니다.
+- SD 카드 - SD 카드를 다시 마운트합니다.
+- 홈브류 - 홈브류 앱을 로드합니다.
+- Wii - 홈 메뉴를 엽니다.
+- 전원 버튼 - Wii를 끕니다.
 
-## Troubleshooting
+## 문제 해결
 
-Some games require using a specific cIOS to function, or to utilize certain features within the game.
-Examples include:
+일부 게임은 작동하려면 특정 cIOS가 필요하거나 게임 내의 특정 기능을 활용해야 합니다.
+예를 들면 다음과 같습니다:
 
-- Using a keyboard in Animal Crossing: City Folk.
-- Running SpongeBob's Boating Bash.
-- Using a USB dongle in Rock Band.
+- 타운으로 놀러가요 동물의 숲에서 키보드를 사용합니다.
+- 스펀지 밥의 보팅 배쉬를 실행합니다.
+- 락 밴드에서 USB 동글 사용합니다.
 
-A more comprehensive (although still incomplete) list can be found [here](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
+좀 더 포괄적인 (하지만 아직 불완전한) 목록은 [여기](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List)에서 확인할 수 있습니다.
 
-Both USB Loader GX and WiiFlow Lite are programmed to automatically find the best cIOS to use and load the game with it using the default settings.  However, if for whatever reason these loaders pick the wrong cios to use, you have the option to change it yourself.
+USB Loader GX와 WiiFlow Lite는 둘 다 가장 적합한 cIOS를 자동으로 찾아 기본 설정을 사용하여 게임을 로드하도록 프로그램되어 있습니다.  하지만, 어떤 이유로든 이러한 로더가 잘못된 cIOS를 선택하면 직접 변경할 수 있는 옵션이 있습니다.
 
-To change the cIOS used for a specific game, follow the instructions specific to your USB loader:
+특정 게임에 사용되는 cIOS를 변경하려면, USB 로더에 맞는 지침을 따르세요:
 
 ### USB Loader GX
 
-1. Select the game that isn't working.
-2. Click Settings.
-3. Select `Game Load`.
-4. Scroll down to `Game IOS`.
-5. Enter the IOS slot to use.
-   - Try using 248, 249, 250 or 251.
-6. Press OK and try to load the game.
+1. 작동하지 않는 게임을 선택합니다.
+2. 설정을 클릭합니다.
+3. `게임 로드`를 선택합니다.
+4. 아래로 스크롤하여 `게임 IOS`를 찾습니다.
+5. 사용할 IOS 슬롯을 입력합니다.
+   - 248, 249, 250, 251을 사용해 봅니다.
+6. 확인을 누르고 게임을 로드해 봅니다.
 
-### RiiConnect24 테마 페이지
+### WiiFlow Lite
 
-1. Select the game that isn't working.
-2. Click the gear icon.
-3. Go to cIOS and use the arrows to select the IOS slot to use.
-   - Try using 248, 249, 250 or 251.
-4. Press Save and try to load the game.
+1. 작동하지 않는 게임을 선택합니다.
+2. 기어 아이콘을 클릭합니다.
+3. cIOS로 가서 화살표를 이용해 사용할 IOS 슬롯을 선택합니다.
+   - 248, 249, 250, 251을 사용해 봅니다.
+4. 저장을 누르고 게임을 로드해 봅니다.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::

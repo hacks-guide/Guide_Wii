@@ -44,7 +44,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
     * If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader is required for this guide.
 1. Launch YAWM ModMii Edition.
 1. Select your SD card or USB drive.
-1. Press `+` to one the IOS80 and IOS58 WADs to highlight them, then press A twice to install.
+1. Press + on the IOS80 and IOS58 WADs to highlight them, then press A twice to install.
 1. Navigate to the Wii Menu WAD and press A twice to install it.
 1. When prompted to retain Priiloader, press A to confirm.
 1. After they are successfully installed, press the HOME Button to exit back to the Homebrew Channel.

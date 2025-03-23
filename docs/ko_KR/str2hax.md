@@ -2,11 +2,15 @@
 
 ::: warning
 
-Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
+Though str2hax allows you to install the Homebrew Channel on a Wii without an SD card, other vital steps later on (such as installing BootMii) still require an SD card.
+
+::: warning
+
+ISP나 네트워크 환경이 커스컴 DNS 서버를 사용하는 것을 방해하는 경우 str2hax는 작동하지 않으며 [다른 익스플로잇을 선택](get-started)해야 합니다.
 
 :::
 
-str2hax는 Wii의 최종 사용자 라이선스 동의서를 이용해서 실행되는 Wii의 취약점입니다. 아무것도 필요하지 않으나 Wii의 DNS를 변경할 수 있게 하는 인터넷 연결이 필요합니다.
+str2hax는 Wii의 최종 사용자 라이선스 동의서를 이용해서 실행되는 Wii의 익스플로잇입니다. 아무것도 필요하지 않으나 Wii의 DNS를 변경할 수 있게 하는 인터넷 연결이 필요합니다.
 
 ::: warning
 
@@ -14,90 +18,90 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
 :::
 
-## 필요한 것
+## 요구 사항
 
 - 인터넷 연결이 있는 Wii
 
-## 진행 방법
+## 지침
 
 ### 섹션 I - 연결
 
 이 취약점 공격을 사용하려면 취약점 공격이 포함된 서버에 연결하기 위해 DNS를 설정해야 합니다.
 
-1. 콘솔의 전원을 켜 주세요.
+1. 콘솔의 전원을 켭니다.
 
-2. Go to `Wii Options`.
+2. `Wii 옵션`으로 갑니다.
 
    ![](/images/riiconnect24/Internet_1.png)
 
-3. Go to `Wii Settings`.
+3. `Wii 설정`으로 갑니다.
 
    ![](/images/riiconnect24/Internet_2.png)
 
-4. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
+4. `페이지 2` -> `인터넷` -> `연결 설정`으로 이동합니다.
 
    ![](/images/riiconnect24/Internet_3.png)
 
    ![](/images/riiconnect24/Internet_4.png)
 
-5. Click on your network connection slot and navigate to `Change Settings`.
+5. 네트워크 연결 슬롯을 클릭하고 `설정 변경`으로 이동합니다.
 
    ![](/images/riiconnect24/Internet_5.png)
 
    ![](/images/riiconnect24/Internet_6.png)
 
-6. Set `Auto-Obtain DNS` to `No`, then click `Advanced Settings`.
+6. '자동으로 DNS 받기'를 '아니요'로 설정한 후, '고급 설정'을 클릭합니다.
 
    ![](/images/riiconnect24/Internet_7.png)
 
-7. Set the Primary DNS to `3.143.163.250`.
+7. 기본 DNS를 `3.143.163.250`으로 설정합니다.
 
    ![](/images/exploits/str2hax/dns.png)
 
    ::: warning
 
-   If there are 3 fields instead of 2 (like above), go back and make sure you are on the `Auto-Obtain DNS` page.
+   위와 같이 2 개가 아닌 3 개의 필드가 있는 경우, 뒤로 돌아가서 `자동으로 DNS 얻기` 페이지에 있는지 확인합니다.
 
    :::
 
-8. Click `Confirm`, then click `Save`.
+8. `확인`을 클릭한 다음 `저장`을 클릭합니다.
 
    ![](/images/riiconnect24/Internet_10.png)
 
-9. When prompted, click `OK` to perform the connection test.
+9. 메시지가 표시되면 `확인`을 클릭하여 연결 테스트를 수행합니다.
 
    ![](/images/riiconnect24/Internet_11.png)
 
    ![](/images/riiconnect24/Internet_12.png)
 
-   - If the connection test was successful, select `No` to skip the Wii System Update.
-   - If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
-   - If it is still unsuccessful, please [use another exploit](get-started).
+   - 연결 테스트가 성공하면 `아니요`를 선택하여 Wii 시스템 업데이트를 건너뜁니다.
+   - `521xx` 오류 코드로 실패하는 경우 DNS를 올바르게 입력했는지 확인합니다.
+   - 여전히 실패하면 [다른 익스플로잇을 사용합니다](get-started).
 
 ### 섹션 II - 취약점 실행하기
 
-1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
+1. `인터넷` -> `이용자 계약` 또는 `계약/연락처`로 이동합니다.
 
-2. Select `Yes`.
+2. `예`를 선택합니다.
 
-3. Click on `Next`.
+3. `다음`을 클릭합니다.
 
    - 다음과 같은 화면이 표시됩니다:
 
    ![](/images/exploits/str2hax/EULA.png)
 
-   - 일반 사용자 동의를 받으면 ISP가 커스텀 DNS 사용을 차단합니다. Try another connection, or [use another exploit](get-started).
+   - 일반 사용자 동의를 받으면 ISP가 커스텀 DNS 사용을 차단합니다. 다른 연결을 시도하거나 [다른 익스플로잇을 사용합니다](get-started).
 
-4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
+4. 익스플로잇을 다운로드하는 데 1~2분이 걸립니다. (`동의함`/`동의하지 않음` 클릭 금지)
 
-5. 그런 다음 HackMii 설치 프로그램을 다운로드하고 로드합니다.
+5. If the exploit was successful, your device will have loaded the HackMii Installer.
 
    ![](/images/hackmii/scam.png)
 
-   - If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+   - 2 분이 지나도 HackMii 설치 프로그램이 로드되지 않거나 `Hanging.` 또는 `ERROR! if_config (ret = ...)`와 같은 오류가 표시되면 Wii를 재시작하고 다시 시도합니다.
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[홈브류 채널 및 BootMii 설치 계속](hbc)
 
 :::

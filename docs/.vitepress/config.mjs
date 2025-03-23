@@ -15,7 +15,11 @@ export default defineConfig({
   description: "The complete guide to modding your Wii, vWii, and Wii mini",
   head: [['link', { rel: 'icon', href: '/images/site-config/favicon.ico' }]],
   locales: {
-    root: i18n.en_US
+    root: i18n.en_US,
+    hu_HU: i18n.hu_HU
+  },
+  sitemap: {
+    hostname: 'https://wii.hacks.guide'
   },
   themeConfig: {
     outline: {
@@ -87,7 +91,6 @@ export default defineConfig({
     'fi_FI/**',
     'fr_FR/**',
     'he_IL/**',
-    'hu_HU/**',
     'it_IT/**',
     'ja_JP/**',
     'ko_KR/**',

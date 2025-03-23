@@ -166,11 +166,11 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 2. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
 
-   ![](/images/homebrew/gcsaves/sysmenu.jpg) <br>
+   ![](/images/homebrew/gcsaves/sysmenu.jpg)
 
-   ![](/images/homebrew/gcsaves/settings.jpg) <br>
+   ![](/images/homebrew/gcsaves/settings.jpg)
 
-   ![](/images/homebrew/gcsaves/data-management.jpg) <br>
+   ![](/images/homebrew/gcsaves/data-management.jpg)
 
    ![](/images/homebrew/gcsaves/save-data.jpg)
 
@@ -178,6 +178,6 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[点击此处返回站点索引。](site-navigation)
 
 :::

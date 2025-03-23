@@ -1,6 +1,6 @@
 # GameCube-másolatok kezelése
 
-Ebben az útmutatóban bemutatjuk, hogyan használhatod a GameCube Backup Managert a GameCube-másolataid kezelésére. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
+Ebben az útmutatóban bemutatjuk, hogyan használhatod a GameCube Backup Managert a GameCube-másolataid kezelésére. Hasonlóan működik, mint a [Wii Backup Manager](wii-backups#using-wii-backup-manager).
 
 ## Követelmények
 
@@ -19,39 +19,39 @@ Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva
 
 :::
 
-## Útmutató
+## Lépések
 
 ### I. rész - Letöltés
 
 1. Csomagold ki és indítsd el a GameCube Backup Manager-t.
-2. Csatlakoztasd a pendrive-ot a számítógépedbe!
+2. Csatlakoztasd az USB drive-ot a számítógépedhez.
 
 ### II. rész – Játékok átmásolása
 
 1. Nyisd meg az alkalmazást és keresd meg a mappa gombot a jobb alsó sarokban. Kattints rá a Fájlkezelő ablak megnyitásához.
 
-   ![](/images/desktop-apps/GCBM/folderbutton.png)
+    ![](/images/desktop-apps/GCBM/folderbutton.png)
 
 2. Keresd meg a mappa helyét, ami a játékot tartalmazza, amit át szeretnél vinni. Ez lehet a számítógéped merevlemezén vagy egy külső tároló eszközön. Ha megtaláltad a mappát, válaszd ki.
 
-   ![](/images/desktop-apps/GCBM/selectfolder.png)
+    ![](/images/desktop-apps/GCBM/selectfolder.png)
 
-3. Click on the `Files (Destination)` tab, then select the `Inactive` option from the dropdown menu. Ez lehetővé teszi, hogy kiválaszd a drive-ot. amire át szeretnéd vinni a játékot. Válaszd ki a megfelelő drive betút a listából.
+3. Kattints a `Files (Destination)` fülre, majd válaszd az `Inactive` opciót lenyíló menüből. Ez lehetővé teszi, hogy kiválaszd a drive-ot. amire át szeretnéd vinni a játékot. Válaszd ki a megfelelő drive betút a listából.
 
-   ![](/images/desktop-apps/GCBM/selectdrive.png)
+    ![](/images/desktop-apps/GCBM/selectdrive.png)
 
-4. Next, go back to the `Files (Source)` tab, select the game you want to transfer, and then click either `Install Game (1:1)` or `Install Game (Scrub)`.
+4. Utána menj vissza a `Files (Source)` fülre és válaszd ki a játékot, amit átvinnél, majd kattints vagy az `Install Game (1:1)` vagy az `Install Game (Scrub)` opcióra.
 
-   ![](/images/desktop-apps/GCBM/installgame.png)
+    ![](/images/desktop-apps/GCBM/installgame.png)
 
 ::: info
 
-Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size. Ez bizonyos játékoknál jelentős csökkené, például az Animal Crossing 1.3GB-ról 26MB-ra megy le.
+Az `Install Game (Scrub)` választása eltávolítja az összes felesleges adatot a játékból, csökkentve a játék fájlméretét. Ez bizonyos játékoknál jelentős csökken, például az Animal Crossing 1.3GB-ról 26MB-ra megy le.
 
 :::
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::

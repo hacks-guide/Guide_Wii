@@ -11,14 +11,17 @@ This guide provides instructions on how to manage your Wii backups, from joining
 
 ::: info
 
-不建议使用 U 盘，因为它们很小，即使同一款产品之间行为也可能有所不同。 不建议使用 U 盘，因为它们很小，即使同一款产品之间行为也可能有所不同。 <br>
+A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
+
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
 :::
 
 ::: info
 
-确保已将 移动硬盘/U 盘格式化为 FAT32 格式。 确保已将 移动硬盘/U 盘格式化为 FAT32 格式。 Do not format it as other types such as exFAT or extFS. <br>您可以将其格式化为 NTFS，但它不能与大多数应用程序（如 Homebrew Channel 和 Nintendont）配合使用。
+确保已将 移动硬盘/U 盘格式化为 FAT32 格式。 Do not format it as other types such as exFAT or extFS.
+
+You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 
 :::
 
@@ -64,19 +67,19 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Manager
 
-### 需要
+### Requirements
 
-- 运行 Windows 的电脑
-- 移动硬盘/U 盘或 SD 卡
+- A PC running Windows
+- A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
-### 步骤
+### Instructions
 
 #### Section I - Installation
 
-1. 解压 Wii Backup Manager 并启动程序。
-2. 将 USB 硬盘或 SD 卡插入电脑。
+1. Extract Wii Backup Manager, and launch the program.
+2. Insert your USB drive or SD card into your computer.
 
 #### Section II - Copying Games
 
@@ -100,15 +103,15 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Fusion
 
-### 需要
+### Requirements
 
 - A PC running MacOS or Linux
-- 移动硬盘/U 盘或 SD 卡
+- A USB drive or SD card
 - A dumped ISO from a Wii game disc
-- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
+- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion/releases)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
-### 步骤
+### Instructions
 
 #### Section I - Installation
 
@@ -154,6 +157,6 @@ cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[点击此处返回站点索引。](site-navigation)
 
 :::

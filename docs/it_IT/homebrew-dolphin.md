@@ -2,13 +2,13 @@
 
 On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily installed through Dolphin itself. Una volta fatto ciò, l'Homebrew Channel può essere installato, anche se non con lo stesso procedimento di un Wii fisico.
 
-## Requisiti
+## Requirements
 
 - Un computer Windows/MacOS/Linux con una connessione a internet
 - [Dolphin Emulator](https://dolphin-emu.org/download/) version `5.0-4588` or later
 - The latest version of [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
 
-## Istruzioni
+## Instructions
 
 1. If you have not already done so, install the Wii Menu on Dolphin Emulator by going to `Tools > Perform System Update`.
 

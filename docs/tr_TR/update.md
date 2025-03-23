@@ -8,7 +8,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 :::
 
-## Gereksinimler
+## Requirements
 
 - a Wii with The Homebrew Channel 1.0.8 or later
   - If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
@@ -18,7 +18,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 - [Priiloader](priiloader)
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-## Talimatlar
+## Instructions
 
 ### Section I - Downloading
 
@@ -39,7 +39,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### Section II - Installing
 
-1. Konsolunuzu kapatın. Start holding RESET, then turn it back on.
+1. Power off your console. Start holding RESET, then turn it back on.
 2. In the Priiloader menu, select `Homebrew Channel`.
    - If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader is required for this guide.
 3. Launch YAWM ModMii Edition.
@@ -51,6 +51,6 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Site haritasına geri dönmek için tıklayın.](site-navigation)
 
 :::

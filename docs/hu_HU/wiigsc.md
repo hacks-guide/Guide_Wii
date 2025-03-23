@@ -4,7 +4,7 @@ Használsz Wii backup betöltőt, és szeretnél játék parancsikonokat létreh
 
 ::: warning
 
-In the case of a brick, [installing Priiloader is a must](/priiloader). Továbbá telepítsd a BootMii-t (Boot2-ként, ha korai Wii-d van). A brickvédelem telepítése az útmutató helyes követésével együtt megóv a brickelődéstől. NE FOLYTASD, AMÍG NEM TELEPÍTETTED A PRIILOADER-T ÉS A BOOTMII-T!
+Brick esetén a [Priiloader telepítése elengedhetetlen](/priiloader). Továbbá telepítsd a BootMii-t (Boot2-ként, ha korai Wii-d van). A brickvédelem telepítése az útmutató helyes követésével együtt megóv a brickelődéstől. NE FOLYTASD, AMÍG NEM TELEPÍTETTED A PRIILOADER-T ÉS A BOOTMII-T!
 
 :::
 
@@ -28,23 +28,23 @@ A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszerc
 - Egy Windows számítógép.
 - [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
 
-## Útmutató
+## Lépések
 
-1. Install WiiGSC, then right click on it and choose **Run as administrator**. Ha ezt nem teszed meg, a WiiGSC hibát fog dobni, amikor megnyitod.
+1. Telepítsd a WiiGSC-t, majd kattints rá a jobb gombbal, és válaszd a **Futtatás rendszergazdaként** lehetőséget. Ha ezt nem teszed meg, a WiiGSC hibát fog dobni, amikor megnyitod.
 
-   ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
+    ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
 2. Válaszd ki az SD-kártyán vagy USB-meghajtón lévő ISO- vagy WBFS-fájl elérési útvonalát, és válaszd ki a használt betöltőt. A többi beállításnak úgy kell lennie, ahogy van.
 
-   ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
+    ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
-   ::: info
+    ::: info
 
-   If you are on vWii, use the [Wiiforwarder2vWii](https://gbatemp.net/download/wiiforwarder2vwii-wii-forwarder-to-vwii-wii-u-forwarder-converter-beta-version.37254/) tool to convert the WAD for use on the vWii.
+    Ha vWii-n vagy, használd a [Wiiforwarder2vWii](https://gbatemp.net/download/wiiforwarder2vwii-wii-forwarder-to-vwii-wii-u-forwarder-converter-beta-version.37254/) eszközt a WAD fájl vWii-n használhatóvá konvertálásához.
 
-   :::
+    :::
 
-3. Install the generated WAD with your [WAD manager](yawmme).
+3. Telepítsd a generált WAD-et a [WAD manager](yawmme)-eddel.
 
 ::: info
 
@@ -54,6 +54,6 @@ Ha hibaüzenetet kapsz "The system files are corrupted", ne ess pánikba, ha tel
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::

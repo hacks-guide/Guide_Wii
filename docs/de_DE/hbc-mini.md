@@ -2,7 +2,7 @@
 
 Mit dem Homebrew-Kanal kannst du Homebrew-Anwendungen ausführen.
 
-## Anleitung
+## Instructions
 
 ::: warning
 

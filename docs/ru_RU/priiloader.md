@@ -18,7 +18,7 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 ## Инструкции
 
-### Section I - Prep Work
+### Часть I - Подготовка
 
 1. Выключите вашу консоль.
 2. Вставьте вашу SD-карту или USB-накопитель в ваш компьютер.
@@ -71,7 +71,8 @@ Later on, to enter it you can:
 
    ::: warning
 
-   If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time. <br>
+   If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
+
    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
    :::

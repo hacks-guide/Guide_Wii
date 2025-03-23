@@ -10,7 +10,7 @@ Usar qualquer periférico de GameCube com um Family Edition Wii ou Wii Mini requ
 
 ## Fazendo Upload de um Save Individual (Arquivo .gci) para um Cartão de Memória Físico
 
-### Requisitos
+### Requirements
 
 - Um Wii com portas de GameCube
 - Um cartão SD ou USB
@@ -28,7 +28,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 :::
 
-### Instruções
+### Instructions
 
 #### Baixando
 
@@ -60,13 +60,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Fazendo Backup de um Save (Arquivo .gci) para um SD ou USB de um Cartão de Memória Físico
 
-### Requisitos
+### Requirements
 
 - Um Wii com portas de GameCube
 - Um cartão SD ou USB
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instruções
+### Instructions
 
 #### Baixando
 
@@ -98,13 +98,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Fazendo Backup do seu Cartão de Memória Físico em um Cartão de Memória Emulado (arquivo .raw)
 
-### Requisitos
+### Requirements
 
 - Um Wii com portas de GameCube
 - Um cartão SD ou USB
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instruções
+### Instructions
 
 #### Baixando
 
@@ -127,13 +127,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Restaurando um Save de Memória Emulada para um Cartão de Memória Físico
 
-### Requisitos
+### Requirements
 
 - Um Wii com portas de GameCube
 - Um cartão SD ou USB
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instruções
+### Instructions
 
 1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
 
@@ -155,22 +155,22 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Transferindo Saves Entre 2 Cartões de Memória Físicos
 
-### Requisitos
+### Requirements
 
 - Um Wii com portas de GameCube
 - Pelo menos 2 cartões de memória físicos
 
-### Instruções
+### Instructions
 
 1. Insira ambos cartões de memória no Wii.
 
 2. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
 
-   ![](/images/homebrew/gcsaves/sysmenu.jpg) <br>
+   ![](/images/homebrew/gcsaves/sysmenu.jpg)
 
-   ![](/images/homebrew/gcsaves/settings.jpg) <br>
+   ![](/images/homebrew/gcsaves/settings.jpg)
 
-   ![](/images/homebrew/gcsaves/data-management.jpg) <br>
+   ![](/images/homebrew/gcsaves/data-management.jpg)
 
    ![](/images/homebrew/gcsaves/save-data.jpg)
 

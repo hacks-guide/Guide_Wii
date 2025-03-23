@@ -2,7 +2,7 @@
 
 This guide is intended to be the last you will ever need when it comes to theming on the Wii, not only providing instructions for the Wii Menu through csm-installer, but also with themes on WiiFlow Lite, USB Loader GX, and The Homebrew Channel. Additionally, forwarders are covered.
 
-## Go to <code>Options</code> > <code>Standard System Menu</code> > Version of your Wii Menu > Region of your Wii Menu
+## Go to <code>Options</code> &#062; <code>Standard System Menu</code> &#062; Version of your Wii Menu &#062; Region of your Wii Menu
 
 ::: danger
 
@@ -52,7 +52,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ::::: tabs
 
-:::: tab csm-installer
+:::: tab (All) Via csm-installer
 
 1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
 2. Insert your SD card or USB device into your console, and launch the Homebrew Channel.
@@ -62,7 +62,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ::::
 
-:::: tab nus-downloader-wii
+:::: tab (Wii) Via NUS Downloader
 
 1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
 2. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
@@ -79,7 +79,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ::::
 
-:::: tab nus-downloader-vwii
+:::: tab (vWii) Via NUS Downloader
 
 1. On your computer, download [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)
 2. Copy all files from the vWii NUS Downloader `.zip` to a folder on your computer.
@@ -110,7 +110,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 ::::
 
-:::: tab thememii
+:::: tab (Wii) Via ThemeMii
 
 1. Create a `themes` folder on the root of your SD card/USB device.
 2. Extract the ThemeMii MOD `.zip` to a location on your PC.
@@ -203,7 +203,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
    ![](/images/themes/homebrew-channel-extract-theme.png)
 
-4. Go to <code>Options</code> > <code>Standard System Menu</code> > Version of your Wii Menu > Region of your Wii Menu
+4. Go to <code>Options</code> &#062; <code>Standard System Menu</code> &#062; Version of your Wii Menu &#062; Region of your Wii Menu
 
 5. The theme you just installed can be loaded in the same way that you access a standard app.
 
@@ -219,6 +219,6 @@ App forwarders can add a bit of extra flair to your Wii Menu - but be careful wi
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
 
 :::

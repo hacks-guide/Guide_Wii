@@ -28,22 +28,22 @@ Nu încerca să instalezi un IOS Wii/vWii sau System Menu pe un Wii mini. Făcâ
 
 :::
 
-## Instrumente necesare
+## Requirements
 
 - Un Wii mini cu Homebrew Channel instalat
 - O unitate USB
 - Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
-## Instrucțiuni
+## Instructions
 
 ### Secțiunea I - Descărcare
 
-1. Download the Priiloader installer and LoadPriiloader apps.
+1. Power off your console.
 2. Introdu unitatea ta USB în calculatorul tău.
 3. Create a folder named `apps` on the root of your USB drive if it does not already exist.
 4. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
 5. Reintrodu unitatea USB în consola ta.
-6. Pornește consola.
+6. Power on your console.
 7. Launch the Priiloader installer.
 8. Rulează d2xl cIOS Installer din lista de aplicații homebrew.
 

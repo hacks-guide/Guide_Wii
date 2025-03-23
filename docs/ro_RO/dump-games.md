@@ -4,14 +4,14 @@ Acest ghid acoperă extragerea discurilor de joc Wii sau Gamecube către un card
 
 ## Extragerea unui Disc în SD/USB (CleanRip)
 
-### Instrumente necesare
+### Requirements
 
 - Un card SD sau unitate USB cu cel puțin 4.7GB de spațiu liber (8.5GB dacă extragi un disc dublu strat).
 - [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 ### Preparație
 
-1. Download the Priiloader installer and LoadPriiloader apps.
+1. Power off your console.
 
 2. Extract both apps to the root of your SD card or USB drive.
 
@@ -19,7 +19,7 @@ Acest ghid acoperă extragerea discurilor de joc Wii sau Gamecube către un card
 
 4. Reintrodu cardul tău SD sau unitatea ta USB în consolă.
 
-5. Pornește consola.
+5. Power on your console.
 
 6. Launch the Priiloader installer.
 

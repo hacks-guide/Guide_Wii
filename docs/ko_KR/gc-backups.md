@@ -1,11 +1,11 @@
-# Managing GameCube Backups
+# 게임큐브 백업 관리
 
-This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
+이 가이드에서는 게임큐브 백업 매니저를 사용하여 게임ㅋ큐브 백업을 관리하는 방법에 대한 지침을 제공합니다. [Wii 백업 매니저](wii-backups#using-wii-backup-manager)와 유사한 기능을 합니다.
 
-## 필요한 것
+## 요구 사항
 
 - SD 카드 및 USB 드라이브
-- [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
+- [게임큐브 백업 매니저](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
 ::: info
 
@@ -19,7 +19,7 @@ USB 드라이브의 포맷이 FAT32로 되어 있는지 확인합니다. 후자�
 
 :::
 
-## 진행 방법
+## 지침
 
 ### 섹션 I - 다운로드
 
@@ -32,26 +32,26 @@ USB 드라이브의 포맷이 FAT32로 되어 있는지 확인합니다. 후자�
 
    ![](/images/desktop-apps/GCBM/folderbutton.png)
 
-2. Navigate to the location of the folder that contains the game file you want to transfer. 컴퓨터의 하드 드라이브나 외부 저장 장치에 저장되어 있을 수 있습니다. Once you find the folder, select it.
+2. 전송하려는 게임 파일이 있는 폴더 위치로 이동합니다. 컴퓨터의 하드 드라이브나 외부 저장 장치에 저장되어 있을 수 있습니다. 폴더를 찾으면 선택합니다.
 
    ![](/images/desktop-apps/GCBM/selectfolder.png)
 
-3. Click on the `Files (Destination)` tab, then select the `Inactive` option from the dropdown menu. 이렇게 하면 게임을 전송할 드라이브를 선택할 수 있습니다. 목록에서 적절한 드라이브 문자를 선택합니다.
+3. `파일 (대상)` 탭을 클릭한 다음 드롭다운 메뉴에서 `비활성` 옵션을 선택합니다. 이렇게 하면 게임을 전송할 드라이브를 선택할 수 있습니다. 목록에서 적절한 드라이브 문자를 선택합니다.
 
    ![](/images/desktop-apps/GCBM/selectdrive.png)
 
-4. Next, go back to the `Files (Source)` tab, select the game you want to transfer, and then click either `Install Game (1:1)` or `Install Game (Scrub)`.
+4. 다음으로, `파일 (소스)` 탭으로 돌아가서 전송하려는 게임을 선택한 다음 `게임 설치 (1:1)` 또는 `게임 설치 (스크럽)`를 클릭합니다.
 
    ![](/images/desktop-apps/GCBM/installgame.png)
 
 ::: info
 
-Selecting `Install Game (Scrub)` will remove unnecessary data from the game, reducing the game's file size. For some games this can be a major reduction, for example with Animal Crossing - going from 1.3GB to around 26MB.
+`게임 설치 (스크럽)`를 선택하면 게임에서 불필요한 데이터가 제거되어 게임 파일 크기가 줄어듭니다. 일부 게임에서는 큰 폭의 감소로 이어질 수 있습니다. 예를 들어, 동물의 숲에서는 1.3GB에서 약 26MB로 감소합니다.
 
 :::
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::

@@ -4,7 +4,7 @@ Diese Anleitung gibt Anweisungen, wie man ein Backup deines NAND mit BootMii wie
 
 ::: info
 
-If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Überspringe Schritt 1 und 2 in diesem Fall.
 
 :::
 
@@ -26,7 +26,7 @@ DO NOT restore an unverified NAND backup, or one that is not from your Wii: this
 
 :::
 
-## Anforderungen
+## Requirements
 
 - An earlier NAND Backup made by [BootMii](bootmii)
 
@@ -46,7 +46,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 - You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1. To navigate with a GameCube controller, click left/right on the +Control Pad on a GameCube controller. To select, press A.
 
-## Anleitung
+## Instructions
 
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 
@@ -92,6 +92,6 @@ If you were restoring a NAND backup in order to repair a brick and this did not 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Klicke hier, um zum Seitenindex zurückzugelangen.](site-navigation)
 
 :::

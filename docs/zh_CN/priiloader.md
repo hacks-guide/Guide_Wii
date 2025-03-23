@@ -71,7 +71,8 @@ Later on, to enter it you can:
 
    ::: warning
 
-   如果将 Priiloader installer 放在 U 盘上，请确保没有同时插入 SD 卡。 <br>
+   If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
+
    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
    :::

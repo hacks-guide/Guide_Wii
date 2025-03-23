@@ -74,7 +74,9 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 #### User Interface
 
-When WiiFlow detects games, they are displayed in flow view.<br> When you click on a game, you are given these options:
+When WiiFlow detects games, they are displayed in flow view.
+
+When you click on a game, you are given these options:
 
 - Star - Adds game to favorites.
 - Bookshelf - Adds the game to 1 of 6 categories of your choosing.
@@ -107,7 +109,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 - Some themes have different links for different regions, so pick the one corresponding to your Wii's region.
 - The latest version of [cIOS](cios)
-- [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
+- [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
 ### Installation
 

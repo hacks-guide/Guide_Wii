@@ -29,7 +29,7 @@ The guide on how to install these services, as well as the patcher, can be found
 - Una tarjeta SD o unidad USB
 - [sntp](https://oscwii.org/library/app/sntp)
 
-#### Instrucciones
+#### Instructions
 
 1. Download and extract the sntp zip to the root of your SD card or USB drive.
 2. Insert your SD card or USB drive into your Wii.
@@ -46,7 +46,7 @@ The guide on how to install these services, as well as the patcher, can be found
 - Una tarjeta SD
 - [Priiloader](priiloader)
 
-#### Instrucciones
+#### Instructions
 
 1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
 2. Select generate and copy the information.
@@ -75,7 +75,7 @@ Some Priiloader hacks need to be enabled on the vWii and the Wii mini so the Wii
 
 ::: tip
 
-[Proceed to Nintendo Wi-Fi Connection](wiimmfi)
+[Proceed to Nintendo Wi-Fi Connection](nintendowfc)
 
 This guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. While there are different private servers and services that allow this, the one covered here will be Wiimmfi.
 

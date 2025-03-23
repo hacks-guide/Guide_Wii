@@ -4,7 +4,7 @@
 
 Inoltre, può essere usato per avviare rapidamente titoli e homebrew, oppure per cambiare l'ordine di autoboot del Wii.
 
-## Requisiti
+## Requirements
 
 - Una scheda SD o dispositivo USB
 - [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
@@ -16,11 +16,11 @@ Inoltre, può essere usato per avviare rapidamente titoli e homebrew, oppure per
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
   - [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
 
-## Istruzioni
+## Instructions
 
 ### Sezione I - Preparazione
 
-1. Spegni la console.
+1. Power off your console.
 2. Inserisci la scheda SD o dispositivo USB nel tuo computer.
 3. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 4. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
@@ -29,7 +29,7 @@ Inoltre, può essere usato per avviare rapidamente titoli e homebrew, oppure per
 
 ### Sezione II - Installazione di Priiloader
 
-1. Accendi la console.
+1. Power on your console.
 
 2. Avvia l'Homebrew Channel.
 
@@ -71,7 +71,8 @@ Successivamente, per entrarci dovrai:
 
    ::: warning
 
-   Se hai inserito il Priiloader Installer sulla tua unità USB, assicurati di non avere una scheda SD inserita allo stesso tempo. <br>
+   If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
+
    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
    :::

@@ -5,8 +5,8 @@ head:
       content: 5; URL=https://wiki.hacks.guide/wiki/Wii:Transferring_Game_Saves
 ---
 
-# Redirecting
+# Перенаправляем
 
 Вы будете перенаправлены на Hacks Guide Wiki.
 
-If the page doesn't refresh, click [here](https://wiki.hacks.guide/wiki/Wii:Transferring_Game_Saves).
+Если страница не обновилась, нажмите [здесь](https://wiki.hacks.guide/wiki/Wii:Transferring_Game_Saves).

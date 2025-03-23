@@ -5,4 +5,4 @@ head:
       content: 0; URL=faq.html
 ---
 
-# Redirecting
+# 리디렉션

@@ -26,7 +26,7 @@ NU restaura un backup de memorie NAND neverificat sau unul care nu provine din c
 
 :::
 
-## Instrumente necesare
+## Requirements
 
 - An earlier NAND Backup made by [BootMii](bootmii)
 
@@ -46,7 +46,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 - Va trebui să folosești butoanele POWER (dreapta) și RESET (alege) de pe consola ta sau un controller GameCube conectat în portul 1 pentru a naviga. Pentru a naviga cu un controller GameCube, apasă stânga/dreapta pe +Control Pad pe un controller GameCube. Pentru a alege, apasă A.
 
-## Instrucțiuni
+## Instructions
 
 1. Launch the Priiloader installer.
 

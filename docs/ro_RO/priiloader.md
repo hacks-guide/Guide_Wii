@@ -4,7 +4,7 @@
 
 În plus, poate fi folosit pentru lansarea rapidă a orice Titlu sau Homebrew, sau pentru a schimba modul în care Wii autobootează.
 
-## Instrumente necesare
+## Requirements
 
 - Un card SD sau o unitate USB
 - [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
@@ -16,11 +16,11 @@
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
   - [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
 
-## Instrucțiuni
+## Instructions
 
 ### Secțiunea I - Pregătire
 
-1. Download the Priiloader installer and LoadPriiloader apps.
+1. Power off your console.
 2. Extract both apps to the root of your SD card or USB drive.
 3. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 4. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
@@ -29,7 +29,7 @@
 
 ### Secțiunea II – Instalarea Priiloader
 
-1. Pornește consola.
+1. Power on your console.
 
 2. Launch the Priiloader installer.
 
@@ -71,7 +71,8 @@
 
    ::: warning
 
-   Dacă ai pus instalatorul Priiloader pe o unitate USB, asigură-te că nu ai un card SD introdus în același timp. <br>
+   If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
+
    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
    :::

@@ -22,7 +22,7 @@ Nu încerca să instalezi un IOS Wii/Wii mini sau System Menu pe un vWii. Făcâ
 
 :::
 
-## Instrumente necesare
+## Requirements
 
 - A Wii U with the Homebrew Channel installed on the vWii
 - Un card SD
@@ -34,7 +34,7 @@ Asigură-te că dacă folosești un card SD, comutatorul de blocare este în poz
 
 :::
 
-## Instrucțiuni
+## Instructions
 
 ### Secțiunea I – Instalarea
 

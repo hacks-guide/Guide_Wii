@@ -10,14 +10,16 @@ To play multiple games, we recommend a USB-powered external hard drive for your 
 
 ::: info
 
-A flash drive is not recommended, as they are small and may vary in behavior even between the same product. <br>
+A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
+
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
 :::
 
 ::: info
 
-Make sure your USB drive is formatted as FAT32 or NTFS. Do not format it as other types such as exFAT or extFS. <br>
+Make sure your USB drive is formatted as FAT32 or NTFS. Do not format it as other types such as exFAT or extFS.
+
 You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 
 :::
@@ -64,19 +66,19 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Manager
 
-### Requisitos
+### Requirements
 
 - A PC running Windows
-- Una unidad USB
+- A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - [Wii Backup Manager](https://static.wiidatabase.de/Wii-Backup-Manager.zip)
 
-### Instrucciones
+### Instructions
 
 #### Section I - Installation
 
 1. Extract Wii Backup Manager, and launch the program.
-2. Insert your USB drive into your computer.
+2. Insert your USB drive or SD card into your computer.
 
 #### Section II - Copying Games
 
@@ -100,15 +102,15 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Fusion
 
-### Requisitos
+### Requirements
 
 - A PC running MacOS or Linux
-- Una unidad USB
+- A USB drive or SD card
 - A dumped ISO from a Wii game disc
-- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
+- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion/releases)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
-### Instrucciones
+### Instructions
 
 #### Section I - Installation
 

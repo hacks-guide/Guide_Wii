@@ -2,7 +2,7 @@
 
 This guide provides instructions on how to manage your GameCube backups, using GameCube Backup Manager. It functions similar to [Wii Backup Manager](wii-backups#using-wii-backup-manager).
 
-## Requisitos
+## Requirements
 
 - Una tarjeta SD o unidad USB
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
@@ -19,7 +19,7 @@ Asegúrate de que tu unidad USB o tarjeta SD esté formateada como FAT32. No es 
 
 :::
 
-## Instrucciones
+## Instructions
 
 ### Sección I - Descarga
 

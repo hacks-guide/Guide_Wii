@@ -2,14 +2,14 @@
 
 Este tutorial explica como extrair WADs instaladas na memória do Sistema do Wii.
 
-## Requisitos
+## Requirements
 
 - Um cartão SD ou armazenamento USB
 - [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-## Instruções
+## Instructions
 
-1. Desligue seu console.
+1. Power off your console.
 
 2. Extract both apps to the root of your SD card or USB drive.
 
@@ -17,7 +17,7 @@ Este tutorial explica como extrair WADs instaladas na memória do Sistema do Wii
 
 4. Reinsira seu cartão SD ou armazenamento USB no seu console.
 
-5. Ligue o seu console.
+5. Power on your console.
 
 6. Launch the Homebrew Channel, and launch the Load Priiloader app.
 

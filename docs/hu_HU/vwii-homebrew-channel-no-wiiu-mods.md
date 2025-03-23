@@ -2,7 +2,7 @@
 
 Ez az útmutató végig vezet a Homebrew Channel telepítésén a vWii-re a Wii U oldal módosítása nélkül.
 
-## Útmutató
+## Lépések
 
 ### I. rész - Bootolás Aromába
 
@@ -14,15 +14,15 @@ Ez az útmutató végig vezet a Homebrew Channel telepítésén a vWii-re a Wii 
 1. Indítsd el a vWii Compat Installer-t a Wii U Menu-ből.
 2. Nyomj `A`-t a Homebrew Channel telepítéséhez és várj amíg azt nem látod, hogy `Install succeeded`. Utána nyomd meg a HOME gombot, hogy vissza térj a Wii U Menu-be.
 3. Indítsd el a vWii-t (a Wii Menu ikon).
-   - Ha a telepítés sikeres volt, látnod kell a Homebrew Channel-t a Wii Menu-dben.
+ - Ha a telepítés sikeres volt, látnod kell a Homebrew Channel-t a Wii Menu-dben.
 
 Letörölheted a`wiiu` mappát az SD kártyádról, ha azt szeretnéd.
 
-## Olvass el!
+## Kötelező olvasnivaló
 
 Most már tudod használni a Homebrew Channel-t arra, hogy Wii homebrew appokat indítsd.
 
-Megjegyzés: Ha nemhivatalos alkalmazásokat telepítesz SD kártyára vagy pendrive-ra, a könyvtárfelépítésed így kell, hogy kinézzen:
+Megjegyzés: Ha homebrew alkalmazásokat telepítesz SD kártyára vagy USB drive-ra, a könyvtárfelépítésed így kell, hogy kinézzen:
 
 ```
 💾 SD kártya
@@ -42,6 +42,6 @@ Ne keverd össze az `apps` mappát a `wiiu` mappában és az `apps` mappával az
 
 ::: tip
 
-[Continue to installing Priiloader](priiloader)
+[Folytatás a Priiloader telepítésével](priiloader)
 
 :::

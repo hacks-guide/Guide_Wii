@@ -2,14 +2,14 @@
 
 Acest ghid îți va arăta cum să extragi fișiere WAD din Memoria de Sistem Wii.
 
-## Instrumente necesare
+## Requirements
 
 - An SD card or USB drive
 - [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-## Instrucțiuni
+## Instructions
 
-1. Download the Priiloader installer and LoadPriiloader apps.
+1. Power off your console.
 
 2. Extract both apps to the root of your SD card or USB drive.
 
@@ -17,7 +17,7 @@ Acest ghid îți va arăta cum să extragi fișiere WAD din Memoria de Sistem Wi
 
 4. Reintrodu cardul tău SD sau unitatea ta USB în consolă.
 
-5. Pornește consola.
+5. Power on your console.
 
 6. Launch the Priiloader installer.
 

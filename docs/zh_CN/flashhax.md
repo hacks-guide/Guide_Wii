@@ -39,7 +39,7 @@ FlashHax是一个用于 Wii 的漏洞，通过使用 Internet Channel 来触发�
 
    ![](/images/exploits/flashhax/wait-for-download.png)
 
-3. 它会下载并且加载HackMii Installer。
+3. If the exploit was successful, your device will have loaded the HackMii Installer.
    - This may take multiple tries.
    - 如果 HackMii Installer 无法加载并且卡住（无法移动光标），请重启 Wii 并重复第 3 步，直到它正常工作。
 

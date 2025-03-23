@@ -12,7 +12,7 @@
 
 ## 애널리틱스
 
-이 사이트는 모니터링과 접근 통계를 위해 Google Analytics를 이용합니다. 이 사이트는 GitHub Pages를 통해 호스팅되며, 이 서비스는 당신에 대한 정보를 수집하거나, 쿠키를 사용하거나, 추가적인 제3자 추적을 추가하거나, 사이트 내에서의 당신의 상호 작용을 모니터링할 수 있습니다. For more information about Github Pages as it relates to user privacy, see the [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement).
+이 사이트는 모니터링과 접근 통계를 위해 Google Analytics를 이용합니다. 이 사이트는 GitHub Pages를 통해 호스팅되며, 이 서비스는 당신에 대한 정보를 수집하거나, 쿠키를 사용하거나, 추가적인 제3자 추적을 추가하거나, 사이트 내에서의 당신의 상호 작용을 모니터링할 수 있습니다. 깃허브 페이지의 사용자 개인 정보에 대한 더 자세한 정보는 [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy/statement)를 확인해주세요.
 
 ## 정보 수집
 

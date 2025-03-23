@@ -28,22 +28,22 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 :::
 
-## Requisitos
+## Requirements
 
 - Um Wii Mini com Homebrew Channel instalado
 - Um armazenamento USB
 - Leseratte's [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
 
-## Instruções
+## Instructions
 
 ### Seção I - Baixando
 
-1. Desligue seu console.
+1. Power off your console.
 2. Insira seu armazenamento USB no seu computador.
 3. Create a folder named `apps` on the root of your USB drive if it does not already exist.
 4. Copy the `d2x-cios-installer` folder from the d2xl cIOS Installer `.zip` to the `apps` folder on your USB drive.
 5. Reinsira seu armazenamento USB no seu console.
-6. Ligue o seu console.
+6. Power on your console.
 7. Launch the Homebrew Channel, and launch the Load Priiloader app.
 8. Abra o d2xl cIOS Installer da lista de homebrew.
 

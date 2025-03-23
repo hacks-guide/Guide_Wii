@@ -10,7 +10,7 @@ Folosirea oricărui dispozitiv GameCube cu un Wii Family Edition sau Wii mini ne
 
 ## Încărcarea unei Salvări Individuale (Fișier .gci) pe un Card de Memorie Fizic
 
-### Instrumente necesare
+### Requirements
 
 - Un Wii cu porturi GameCube
 - Un Card SD sau USB
@@ -28,7 +28,7 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 :::
 
-### Instrucțiuni
+### Instructions
 
 #### Descărcare
 
@@ -60,13 +60,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Crearea unui Backup de Salvare (Fișier .gci) către un SD sau USB de pe un Card de Memorie Fizic
 
-### Instrumente necesare
+### Requirements
 
 - Un Wii cu porturi GameCube
 - Un Card SD sau USB
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instrucțiuni
+### Instructions
 
 #### Descărcare
 
@@ -98,13 +98,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Crearea unui Backup a Cardului tău de Memorie către un Card de Memorie Emulat (fișier .raw)
 
-### Instrumente necesare
+### Requirements
 
 - Un Wii cu porturi GameCube
 - Un Card SD sau USB
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instrucțiuni
+### Instructions
 
 #### Descărcare
 
@@ -127,13 +127,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Restaurarea unei Salvări de Memorie Emulată către un Card de Memorie Fizic
 
-### Instrumente necesare
+### Requirements
 
 - Un Wii cu porturi GameCube
 - Un Card SD sau USB
 - [GCMM](https://oscwii.org/library/app/gcmm)
 
-### Instrucțiuni
+### Instructions
 
 1. If you are trying to restore a save from Dolphin, go to the `File` tab in Dolphin, select open user folder, open the GC folder, and find the `.raw` file.
 
@@ -155,22 +155,22 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 ## Transferarea Salvărilor Între 2 Carduri de Memorie Fizice
 
-### Instrumente necesare
+### Requirements
 
 - Un Wii cu porturi GameCube
 - Cel puțin 2 carduri de memorie fizice
 
-### Instrucțiuni
+### Instructions
 
 1. Introdu ambele carduri de memorie în Wii.
 
 2. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
 
-   ![](/images/homebrew/gcsaves/sysmenu.jpg) <br>
+   ![](/images/homebrew/gcsaves/sysmenu.jpg)
 
-   ![](/images/homebrew/gcsaves/settings.jpg) <br>
+   ![](/images/homebrew/gcsaves/settings.jpg)
 
-   ![](/images/homebrew/gcsaves/data-management.jpg) <br>
+   ![](/images/homebrew/gcsaves/data-management.jpg)
 
    ![](/images/homebrew/gcsaves/save-data.jpg)
 

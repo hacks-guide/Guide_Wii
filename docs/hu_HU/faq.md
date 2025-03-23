@@ -4,32 +4,33 @@
 
 ### Mennyire kockázatos a konzolom feltörése?
 
-A konzoltól függően nem túl kockázatos. A Wii esetében sokkal kisebb a belépési korlát, mint más konzoloknál, néhány exploithoz nem kell más, mint egy Wii és egy internetkapcsolat. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+A konzoltól függően nem túl kockázatos. A Wii esetében sokkal kisebb a belépési korlát, mint más konzoloknál, néhány exploithoz nem kell más, mint egy Wii és egy internetkapcsolat. Amíg követed az [itt](bricks#brick-prevention) leírt általános tanácsokat, telepíted a [BootMii](bootmii)-t és a [Priiloader](priiloader)-t, és használod a józan eszed, addig minden rendben lesz!
 
 ### Az XXXXXX hibakódot kapom, hogyan tudom javítani?
 
-In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). A gyakoribb hibák javításai az alábbiakban vannak felsorolva:
+Ha ellenőrizni szeretnéd, hogy mit jelent a hiba, kérjük, látogass el a [Wiimmfi hiba oldalra](https://wiimmfi.de/error). A gyakoribb hibák javításai az alábbiakban vannak felsorolva:
 
 #### Error 051330/51330
 
-Run an Internet connection test by going to `Wii Settings > Internet > Connection settings > Connection > Test this connection`
+Futtass Internet kapcsolat tesztet a `Wii Settings > Internet > Connection settings > Connection > Test this connection` opciót indítva
 
 #### Error 220602
 
 ##### RiiConnect24 felhasználók számára
 
-A RiiConnect24 régi DNS-kiszolgálóját használod. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+A RiiConnect24 régi DNS-kiszolgálóját használod. Kövesd [ezt](riiconnect24#section-iv---connecting) az útmutatót a lépésekért, hogy hogyan módosíthatod.
 
 ##### Nem RiiConnect24 felhasználók számára
 
-Az elsődleges DNS-kiszolgálód hibás vagy nem működik.<br>
-Ez akkor is előfordulhat, ha proxyt használsz, és az nem működik.
+Az elsődleges DNS szerver vagy helytelen vagy nem működik.
+
+Ez akkor is előfordulhat, ha proxy szervert használsz és az nem elérhető.
 
 #### Error 107304
 
 ##### RiiConnect24 felhasználók számára
 
-Ha ezt a hibát kapod, vagy a Nintendo felhasználói megállapodását látod a RiiConnect24 logója nélkül, az azt jelenti, hogy az internet szolgáltatód vagy hálózatod blokkolja az RC24 DNS használatát. You can set `Auto-Obtain DNS` to `On` to solve this. A RiiConnect24 továbbra is működni fog nélküle. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+Ha ezt a hibát kapod, vagy a Nintendo felhasználói megállapodását látod a RiiConnect24 logója nélkül, az azt jelenti, hogy az internet szolgáltatód vagy hálózatod blokkolja az RC24 DNS használatát. Beállíthatod az `Auto-Obtain DNS`-t `On`-ra ennek megoldásához. A RiiConnect24 továbbra is működni fog nélküle. Vagy használhatod a [RiiConnect24 DNS Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) programot.
 
 ##### Nem RiiConnect24 felhasználók számára
 
@@ -37,36 +38,37 @@ Ha ezt a hibát kapod, a DNS szerver amit választottá vagy az interneted telje
 
 #### FORE000006
 
-Ha a FORE000006 hibaüzenetet kapod, a Wii órája valószínűleg rosszul van beállítva. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. Ha ez sem sikerül, akkor vedd ki a Wii óraelemét (a rendszer alján található egy csavar mögött) egy órára, majd tedd vissza. Ezután reseteld Wii óráját.
+Ha a FORE000006 hibaüzenetet kapod, a Wii órája valószínűleg rosszul van beállítva. Tekintsd meg [ezt](wiiconnect24#updating-rtc-clock) a lépésekért a helyes alaphelyzetbe állításhoz. Ha ez sem sikerül, akkor vedd ki a Wii óraelemét (a rendszer alján található egy csavar mögött) egy órára, majd tedd vissza. Ezután reseteld Wii óráját.
 
 ### Hogyan távolíthatom el a szülői felügyeletet?
 
-The [mkey generator](https://mkey.eiphax.tech/) can generate the code required to remove parental controls.
+Az [mkey generator](https://mkey.nintendohomebrew.com/) tud olyan kódotgenerálni, amivel eltávolítható a szülői felügyelet.
 
 ### Úgy gondolom, hogy a Wii-om brickelt, vagy valami komoly baja van, mit tegyek?
 
-See [this](bricks) page.
+Tekintsd meg [ezt](bricks) az oldalt.
 
 ## Tároló eszköz GYIK
 
 ::: info
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+A [BlueBomb](bluebomb), [str2hax](str2hax), vagy [FlashHax](flashhax) exploitok esetében nincs szükséged SD-kártyára a Wii feltöréséhez; a homebrew és egyéb feladatok elvégzéséhez mindenképpen ajánlott egyet beszerezni.
 
 :::
 
 ::: info
 
-FAT32 is the recommended file system for SD cards, see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.<br>
-For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size. A WBFS korábban a Wii-játékok biztonsági mentéséhez használt fájlrendszer volt (nem tévesztendő össze a WBFS fájlokkal) - ma már elavult, és nem szabad használni.
+A Wii bármilyen kapacitású SD kártyát tud olvasni (még azokt is, amik nagyobbak, mint 32GB), de a kártyát FAT32-re kell formáznod (**nem** exFAT vagy NTFS). Tekintsd meg [ezt az útmutatót](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) a formázási lépésekért.
+
+Az USB eszközökhoz is a FAT32 az ajánlott, habár érdemes figyelemünkben tartani a FAT32 korlátozásait, ami maximum 2TB méretű köteteket és 4GB méretű fájlokat tesz lehetővé. A WBFS korábban a Wii-játékok biztonsági mentéséhez használt fájlrendszer volt (nem tévesztendő össze a WBFS fájlokkal) - ma már elavult, és nem szabad használni.
 
 :::
 
 ::: warning
 
-A 4.0-nál alacsonyabb verziószámú Wii menüben a Wii rendszerszoftverének egy korlátozása megakadályozza a 2 GB-nál nagyobb SD-kártyák használatát.<br>
-A 4.0-s vagy magasabb verziószámú stock Wii Menü esetében ez a korlátozás megszűnik, és különböző méretű SD-kártyák használhatók.<br>
-A legnagyobb esélyed arra, hogy működőképes SD-kártyát kapj bármelyik Wii-n, a 32 GB-os vagy annál kisebb méretnél van, de többször jelentettek már sikereket 256 GB-ig terjedő kártyákkal is.
+A 4.0-nál alacsonyabb verziószámú Wii Menu a Wii rendszer szoftverének egy korlátozása megakadályozza a 2 GB-nál nagyobb SD-kártyák használatát.
+
+A bolti 4.0 vagy magasabb verziószámú Wii Menu verziók esetében ez a korlátozás megszűnt, és különböző méretű SD-kártyák használhatók.
 
 :::
 
@@ -91,11 +93,11 @@ Amikor SD-kártya vagy USB-eszköz vásárlását vagy használatát fontolgatod
 
 ::: danger
 
-2 TB-os vagy nagyobb SD-kártyák jelenleg nem léteznek, bárki, aki ilyet próbál eladni neked, megpróbálja átverni Önt.
+2 TB-os vagy nagyobb SD-kártyák jelenleg nem léteznek, bárki, aki ilyet próbál eladni neked, megpróbál átverni.
 
 :::
 
-SD-kártyák vásárlásakor általában ajánlott, hogy minél drágább és nagyobb kapacitású, annál inkább ragaszkodjon a jól ismert márkákhoz. Míg egy általános 2 GB-os SD-kártyát vásárolhatsz, és valószínűleg biztonságban vagy, ugyanez nem mondható el egy 512 GB-os SD-kártyáról. Az SD-kártyák általános jelenlegi árazása a 256 GB-os és az alatti kártyák esetében 10-20 USD körül van, míg az 512 GB-os kártyák ára 40 USD körül van. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Légy óvatos, ha az eBay-en vásárolsz merevlemezt.
+SD-kártyák vásárlásakor általában ajánlott, hogy minél drágább és nagyobb kapacitású, annál inkább ragaszkodjon a jól ismert márkákhoz. Míg egy általános 2 GB-os SD-kártyát vásárolhatsz, és valószínűleg biztonságban vagy, ugyanez nem mondható el egy 512 GB-os SD-kártyáról. Az SD-kártyák általános jelenlegi árazása a 256 GB-os és az alatti kártyák esetében 10-20 USD körül van, míg az 512 GB-os kártyák ára 40 USD körül van. Ha az Amazonról vásárolsz, győződj meg róla, hogy a kártya vagy `Sold by/Shipped by Amazon` vagy `Sold by [brand], Shipped by Amazon`. Légy óvatos, ha az eBay-en vásárolsz merevlemezt.
 
 Ajánlott márkák:
 
@@ -109,7 +111,11 @@ Ajánlott márkák:
 
 USB merevlemezek vásárlásakor csak három jelenlegi HDD-gyártó létezik: Western Digital, Seagate és Toshiba. Minden más merevlemezgyártó cég megszűnt, és vagy csődbe ment, vagy a fent említett három cég beolvasztotta őket. Ennek ellenére, ha van egy másik cég által gyártott merevlemezed, annak még működnie kell! A merevlemezek technológiája az elmúlt körülbelül 10 évben nagyjából változatlan maradt. Csak ellenőrizd a S.M.A.R.T. adatokat, hogy megbizonyosodj arról, hogy a meghajtó nem hibásodott meg, mielőtt az összes adatod rápakolod.
 
-A merevlemezek méretezését tekintve a 2,5 hüvelykes merevlemezeknek jól kell működniük a Wii-n, ha csak USB-ről működik; a 3,5 hüvelykes merevlemezek sokkal több energiát fogyasztanak, és szinte mindig külső tápegységre lesz szükségük. Figyelj arra, hogy meghatározd, hogy mit szeretnél csinálni a külső meghajtóval.
+A 2,5 hüvelykes meghajtók a legtöbb esetben jól működnek a Wii-n kizárólag USB-ről, de a 3,5 hüvelykes meghajtók több energiát fogyasztanak, és mindig szükség lesz külső hálózati adapterre. Figyelj arra, hogy meghatározd, hogy mit szeretnél csinálni a külső meghajtóval.
+
+A Wii U felhasználók számára erősen ajánlott egy külső tápellátást igénylő merevlemez, vagy a 2,5 hüvelykes meghajtókhoz egy tápellátássaln rendelkező USB hub és/vagy Y kábel használata.
+
+A Wii mini felhasználók számára külső tápellátású USB hub használata ajánlott, hogy egyszerre lehessen külső tárolót, internetadaptert és egyéb perifériákat csatlakoztatni. A meghajtók tápellátásához Y-kábelt is használhatsz.
 
 Ami a vásárlási lehetőségeket illeti, ez nagyrészt három különböző forgatókönyv határozható meg:
 
@@ -124,3 +130,25 @@ Ami a vásárlási lehetőségeket illeti, ez nagyrészt három különböző fo
 Ha egy meghajtót a Wii-vel akarsz használni, a külső SSD-k gyakran drágábbak, mint a hagyományos merevlemezek, de a Wii-n nem tapasztalható sebességnövekedés (a konzol csak USB 2.0 adatsebességet támogat). Ha szeretnél vásárolni egyet, vagy már van egy, akkor ez is egy lehetőség, de általában ajánlott merevlemezt választani, ha még nincs.
 
 :::
+
+## Hálózati GYIK
+
+A Wii vezeték nélküli hálózati hardvere a 802.11g maximális szabványt támogatja a 2,4 GHz-es sávban (visszamenőlegesen WiFi 3-ként nevezett), a maximális biztonsági szint pedig WPA2-PSK (AES). Ezért a Wii NEM képes csatlakozni a következő hozzáférési pontokhoz (AP):
+
+- WPA enterprise titkosítást vagy csak WPA3 titkosítást kényszerítő hozzáférési pontokhoz
+- A WiFi 3-mal nem visszafelé kompatibilis vagy csak az 5 GHz-es sávban sugárzó AP-khez
+- A 802.11b vagy 802.11g sebességet nem támogató hozzáférési pontok (pl.  a csak 802.11n-t támogató AP-k)
+
+Internet szolgáltatók akikről ismert, hogy olyan routert biztosítanak ami inkompatibilis ezekkel a beállításokkal:
+
+- Xfinity
+- Spectrum
+- Cox
+
+Ha az internet szolgáltatód nem engedi megváltoztatni ezeket a beállításokat, vagy a jelenlegi hálózati hardvered nem támogatja, akkor van néhány lehetőséged:
+
+- Megpróbálhatsz mobil hotspotot használni. Ez nem ajánlott, mivel általában instabil kapcsolatot eredményez.
+- Használhatsz egy LAN-adaptert. Ennek az `ASIX AX88772` lapkakészlettel kell rendelkeznie, vagy azt kell mondania, hogy „kompatibilis a Wii-vel”. Itt van egy [ajánlott LAN-adapter az uGreen-től](https://a.co/d/3OcSJDS).
+- Alternatívaként vásárolhatsz egy másodlagos routert, és továbbra is használhatod a már meglévő hálózatod. Bármilyen olcsó, a fenti szabványoknak megfelelő router (például a Linksys WRT54G) működni fog.
+
+A Wii U esetében a vWii a Wii U fő beállításaiban megadott internetbeállításokat használja, de opcionálisan szétválasztható a `Wii VC Launch` Aroma plugin segítségével.

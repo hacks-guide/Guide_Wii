@@ -54,13 +54,13 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ## http://www.wiithemer.org/
 
-### Requisitos
+### Requirements
 
 - Um Wii
 - The latest version of [cIOS](cios)
 - [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
-### Instalação
+### Installation
 
 1. Download WiiFlow and install it on your SD Card or USB device.
 
@@ -74,7 +74,9 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 #### User Interface
 
-When WiiFlow detects games, they are displayed in flow view.<br> When you click on a game, you are given these options:
+When WiiFlow detects games, they are displayed in flow view.
+
+When you click on a game, you are given these options:
 
 - Star - Adds game to favorites.
 - Bookshelf - Adds the game to 1 of 6 categories of your choosing.
@@ -103,13 +105,13 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ## USB Loader GX
 
-### Requisitos
+### Requirements
 
 - Um Wii
 - The latest version of [cIOS](cios)
-- [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
+- [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
-### Instalação
+### Installation
 
 1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
 2. Download USB Loader GX and install it on your SD Card or USB device.

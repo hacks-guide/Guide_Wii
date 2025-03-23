@@ -17,7 +17,7 @@
 
 **Wii Online Services**
 
-- [Connexion Wi-Fi Nintendo](wiimmfi)
+- [Nintendo Wi-Fi Connection](nintendowfc)
 - [Setting RTC Time](wiiconnect24#updating-rtc-clock)
 - RiiConnect24, WiiLink, and Wiimmfi
 

@@ -81,7 +81,7 @@ The WAD files should be on your SD card like this:
 1. Set everything to match the following:
 
     ```
-    Select cIOS <d2x-v11-beta1>
+    Select cIOS <d2x-v11-beta2>
     Select cIOS base <38>
     Select cIOS slot <248>
     Select cIOS revision <65535>
@@ -91,7 +91,7 @@ The WAD files should be on your SD card like this:
 
     ::: info
 
-    If you do not see `d2x-v11-beta1`, exit the installer with B, and make sure your SD card is unlocked.
+    If you do not see `d2x-v11-beta2`, exit the installer with B, and make sure your SD card is unlocked.
 
     :::
 
@@ -135,7 +135,7 @@ The WAD files should be on your SD card like this:
     + cIOS 249 Installation
 
         ```
-        Select cIOS <d2x-v11-beta1>
+        Select cIOS <d2x-v11-beta2>
         Select cIOS base <56>
         Select cIOS slot <249>
         Select cIOS revision <65535>
@@ -146,7 +146,7 @@ The WAD files should be on your SD card like this:
     + cIOS 250 Installation
 
         ```
-        Select cIOS <d2x-v11-beta1>
+        Select cIOS <d2x-v11-beta2>
         Select cIOS base <57>
         Select cIOS slot <250>
         Select cIOS revision <65535>
@@ -157,7 +157,7 @@ The WAD files should be on your SD card like this:
     + cIOS 251 Installation
 
         ```
-        Select cIOS <d2x-v11-beta1>
+        Select cIOS <d2x-v11-beta2>
         Select cIOS base <58>
         Select cIOS slot <251>
         Select cIOS revision <65535>
@@ -201,14 +201,16 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 ## Requirements
 
 * A Wii U with the Homebrew Channel installed on the vWii
-* An SD card
-* The [d2x cIOS Installer](/assets/files/d2x_cIOS_Installer-vWii.zip).
+* An SD card or USB drive
+* The [d2x cIOS Installer for vWii](/assets/files/d2x_cIOS_Installer-vWii.zip)
 
 ::: warning
 
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
 
 :::
+
+## Instructions
 
 ### Section I - Installing
 
@@ -220,73 +222,60 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 1. Set everything to match the following:
 
     ```
-    Select cIOS <d2x-v11-beta1-vWii>
-    Select cIOS base <56>
-    Select cIOS slot <249>
+    Select cIOS <d2x-v11-beta2-vWii>
+    Select cIOS base <38>
+    Select cIOS slot <248>
     ```
 
-    ![](/images/cios/d2x_v11_249_vwii.jpg)
+    ![](/images/cios/d2x_v11_248_vwii.png)
 
     ::: info
 
-    If you do not see `d2x-v11-beta1-vWii`, exit the installer with B, and make sure your SD card is unlocked.
+    If you do not see `d2x-v11-beta2-vWii`, exit the installer with B, and make sure your SD card is unlocked.
 
     :::
 
-    ::: info
-
-    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
-
-    (If you are trying to exit the installer, the button is B, not Home.)
-
-    :::
-
-1. Press `A`. This will bring you to the slot map:
-
-    ![](/images/cios/d2x_summary.png)
-    
-1. Press `A` again.
+1. Press `A` to install.
 
     ![](/images/cios/d2x_installation.png)
     
-1. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
+1. Repeat the previous 2 steps with the following configurations:
 
-    ![](/images/cios/d2x_log.png)
-
-    ::: info
-
-    If the slot is highlighted red, try to install the cIOS again.
-
-    :::
+    + cIOS 249 Installation
     
-1. Press `A`. This will return you to the configuration screen.
-1. Repeat the previous 5 steps with the following configurations:
+        ```
+        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS base <56>
+        Select cIOS slot <249>
+        ```
+
+    ![](/images/cios/d2x_v11_249_vwii.png)
 
     + cIOS 250 Installation
 
         ```
-        Select cIOS <d2x-v11-beta1>
+        Select cIOS <d2x-v11-beta2-vWii>
         Select cIOS base <57>
         Select cIOS slot <250>
         ```
 
-        ![](/images/cios/d2x_v11_250_vwii.jpg)
+        ![](/images/cios/d2x_v11_250_vwii.png)
 
     + cIOS 251 Installation
 
         ```
-        Select cIOS <d2x-v11-beta1>
+        Select cIOS <d2x-v11-beta2-vWii>
         Select cIOS base <58>
         Select cIOS slot <251>
         ```
 
-        ![](/images/cios/d2x_v11_251_vwii.jpg)
+        ![](/images/cios/d2x_v11_251_vwii.png)
 
-1. Once you have finished with all 3 cIOSes, press B to return to the Homebrew Channel.
+1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
 
 ::: tip
 
-[Continue to finalizing setup](vwii-finalizing-setup)
+[Continue to Finalizing Setup](vwii-finalizing-setup)
 
 :::
 
@@ -318,7 +307,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 * A Wii mini with the Homebrew Channel installed
 * A USB drive
-* The [d2xl cIOS Installer](/assets/files/d2xl_wii_mini_cIOS_installer_v1_beta2.zip)
+* The [d2xl cIOS Installer](/assets/files/d2xl-cios-installer-mini.zip)
 
 ## Instructions
 
@@ -326,8 +315,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 1. Power off your console.
 1. Insert your USB drive into your computer.
-1. Create a folder named `apps` on the root of your USB drive if it does not already exist.
-1. Copy the `d2x-cios-installer-mini` folder from the d2xl-cios-installer-mini `.zip` to the `apps` folder on your USB drive.
+1. Copy the `apps` folder from the d2xl-cios-installer-mini `.zip` to the root of your USB drive.
 1. Reinsert your USB drive into your console.
 1. Power on your console.
 1. Launch the Homebrew Channel.
@@ -343,8 +331,8 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
     Select cIOS slot <249>
     ```
 
-    ![](/images/cios/d2x_v1_249_mini_NTSC.jpg)
-    ![](/images/cios/d2x_v1_249_mini_PAL.jpg)
+    ![](/images/cios/d2x_v1_249_mini_NTSC.png)
+    ![](/images/cios/d2x_v1_249_mini_PAL.png)
    
     + Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
 1. Press A to install.
@@ -353,7 +341,23 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 ::: tip
 
-[Continue to finalizing setup](mini-finalizing-setup)
+[Continue to making a NAND Backup using RealWnd](wnd-mini)
+
+:::
+
+### Enabling Ethernet
+
+If you wish to use Wiimmfi with Ethernet on a Wii mini, you have to run the [Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) app made by Fullmetal5. To run it, just unzip it in the `apps` folder of your USB drive and run it from the Homebrew Channel.
+
+::: info
+
+The Wii and Wii mini consoles are only known to work with Ethernet adapters using the AX88772 chip. Please check that the product is compatible before you buy. This one from UGREEN is known to be compatible: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
+
+:::
+
+::: tip
+
+[Click here to go back to the site index.](site-navigation)
 
 :::
 

@@ -16,7 +16,7 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
 
 2. Download `Open_HBC_(version)_LULZ.wad` from the page linked above.
 
-3. Open Dolphin Emulator.
+3. Откройте эмулятор Dolphin.
 
 4. Select `Tools > Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
 

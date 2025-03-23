@@ -1,4 +1,8 @@
-# Credits
+---
+outline: false
+---
+
+# BlueBomb
 
 ::::: tabs
 
@@ -8,8 +12,7 @@
 
 :::details Technical Details (optional)
 
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. {% capture technical_info %}<summary line-breaks-before="1" mark="crwd-mark"><em>Technical Details (optional)</em></summary>
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries.
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
@@ -59,12 +62,15 @@ Make sure that the console is close to the computer running the exploit, ideally
 ### Instructions
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
+
    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
    - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
 
+   ![](/images/exploits/bluebomb/usb-exploit.png)
+
 2. Reinsert your flash drive into your console.
    - For a Wii mini, the USB port is on the back.
-   - For a normal Wii, use the bottom port. (or the right port if it's upright).
+   - For a normal Wii, use the bottom port (or the right port if it's upright).
 
 3. Power on your console.
 
@@ -76,13 +82,11 @@ Make sure that the console is close to the computer running the exploit, ideally
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Power off your Wii.
+6. Power off your console.
 
 7. Start your Linux distro, and ensure you are connected to the internet.
 
-8. Open the Terminal
-
-9. Run the following commands:
+8. Open the Terminal, and run the following commands:
 
    ```bash
    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -90,22 +94,40 @@ Make sure that the console is close to the computer running the exploit, ideally
    ./bluebomb-helper.sh
    ```
 
-10. The helper will then download the required files, and ask for information about your console.
-    - If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
-    - If you have selected a Wii you will be asked to provide your Wii Menu Version (What you determined in step 4)
+   ![](/images/exploits/bluebomb/run-commands.png)
 
-11. Power on your console.
+9. The helper will then download the required files, and ask for information about your console.
+
+   ![](/images/exploits/bluebomb/console-type.png)
+
+   - If you have selected a Wii mini you will be asked to provide your region. This can be determined by the last letter of the Wii Menu version (`U` for **USA** and `E` for **PAL** models).
+
+   ![](/images/exploits/bluebomb/wii-mini-options.png)
+
+   - If you have selected a Wii you will be asked to provide your Wii Menu version (what you determined in step 4).
+
+   ![](/images/exploits/bluebomb/wii-options.png)
+
+10. Power on your console.
     - **Do not** connect any Wii Remotes.
 
+11. Type `yes` in the script to proceed if you have not already done so, and make sure that `Waiting to accept` is displaying.
+
 12. Press the Sync button repeatedly until the terminal shows `got connection handle`.
+
     - This could take numerous attempts.
 
-13. It'll then proceed to download and load the HackMii Installer.
-    - You can now shut down your Linux computer if you are not planning to use it later.
+    ![](/images/exploits/bluebomb/got-connection-handle.png)
+
+13. If the exploit was successful, you should see a similar screen to the below, after which the HackMii installer should load.
+
+    - If you are not planning to use it later, you can now shut down your Linux distro.
+
+    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ::: info
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 
@@ -147,31 +169,34 @@ If you are using the original revision of the Wii, you should probably find [ano
 
 ::: info
 
-Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+Make sure that the microcontroller is close to the computer running the exploit, ideally it should be less than 3 feet.
 
 :::
 
 ### Requirements
 
-- A Rasperry Pi Pico W or an ESP32 with BR/EDR (Classic) support.
+- A Raspberry Pi Pico W 1/2 or an ESP32 with BR/EDR (Classic) support.
 - A USB flash drive formatted as FAT32.
 - [The HackMii Installer](https://bootmii.org/download/)
 
 ::: info
 
-A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
+A normal Raspberry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
 
 :::
 
 ### Instructions
 
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
+
    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
    - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
 
+   ![](/images/exploits/bluebomb/usb-exploit.png)
+
 2. Reinsert your flash drive into your console.
    - For a Wii mini, the USB port is on the back.
-   - For a normal Wii, use the bottom port. (or the right port if it's upright).
+   - For a normal Wii, use the bottom port (or the right port if it's upright).
 
 3. Power on your console.
 
@@ -183,14 +208,30 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 
    ![](/images/wii/SystemMenuVersion.png)
 
-6. Power off your Wii.
+6. Power off your console.
 
-#### Rasperry Pi Pico W
+#### Raspberry Pi Pico W
 
-1. Download [The latest Pre-Compiled Binaries](https://github.com/GaryOderNichts/bluebomb_micro/releases) from the releases page, and extract it to your PC.
+1. Download the latest [Pre-Compiled Binaries](https://github.com/GaryOderNichts/bluebomb_micro/releases) from the releases page, and extract it to your PC.
+
+   - Select the appropriate binaries for your device. `bluebomb_micro_pico2_w_version` is for the Pico 2 W, while `bluebomb_micro_pico_w_version` is for the Pico 1 W.
+
+   ![](/images/exploits/bluebomb/pico-download.png)
+
 2. Plug in your Pico W to your PC while holding down the `BOOTSEL` button. Your Pico should now show up as a drive on your PC.
-3. Unzip the downloaded file and copy the file which matches your Wii or Wii mini to the drive. For example, if you have a European Wii running version 4.3, you would copy bluebomb_WII_SM4_3E.uf2, or if you have a European Wii Mini, you would copy bluebomb_MINI_SM_PAL.uf2, etc...
-4. The drive should disconnect and your Pico is ready. You may unplug the device from your PC.
+
+   ![](/images/exploits/bluebomb/pico-button.jpg)
+   ![](/images/exploits/bluebomb/pico-drive.png)
+
+3. Unzip the downloaded archive and copy the file which matches your Wii or Wii mini to the drive.
+
+   - If you have a European Wii running version 4.3, you would copy bluebomb_WII_SM4_3E.uf2, or if you have a European Wii Mini, you would copy bluebomb_MINI_SM_PAL.uf2, etc...
+
+   ![](/images/exploits/bluebomb/pico-files.png)
+
+4. The drive should disconnect and begin to flash a green LED. This means your Pico W is ready - you may unplug the device from your PC.
+
+   ![](/images/exploits/bluebomb/pico-ready.jpg)
 
 #### ESP32
 
@@ -204,13 +245,21 @@ A normal Rasperry Pi Pico will not work. It MUST to be the wireless model. Addit
 1. Plug your flashed device back into your PC.
 2. Power on your console.
    - **Do not** connect any Wii Remotes.
-3. Press the Sync button repeatedly until the bluebomb screen shows up.
+3. Press the Sync button repeatedly until the Pico W LED begins to rapidly flash, at which point it will start uploading the exploit.
    - This could take numerous attempts.
-4. It'll then proceed to download and load the HackMii Installer.
+4. If the exploit was successful, you should see a similar screen to the below, after which the HackMii installer should load.
+
+   ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ::: tip
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)<br>
+If you get an error `Exception 0700 occurred!` or similar, try the exploit again. If this continues to happen, join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) for support.
+
+:::
+
+::: tip
+
+If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
 
 :::
 

@@ -2,7 +2,7 @@
 
 El Canal Homebrew te permite utilizar las aplicaciones homebrew que descargues.
 
-## Instrucciones
+## Instructions
 
 ::: warning
 

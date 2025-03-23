@@ -26,7 +26,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 :::
 
-## Requisitos
+## Requirements
 
 - Una tarjeta SD con al menos 512 MB de espacio libre
 - A [NAND backup](bootmii) from the specific system you are trying to flash
@@ -34,7 +34,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
 - [Nand BIN Checker](/assets/files/nandBinCheck.zip)
 
-## Instrucciones
+## Instructions
 
 ### Section I - Preparation
 

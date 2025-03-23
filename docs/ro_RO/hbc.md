@@ -13,7 +13,7 @@ You can always [install it later](hackmii).
 
 :::
 
-## Instrucțiuni
+## Instructions
 
 1. Consola ta ar trebui să fie pornită și să afișeze Instalatorul HackMii din partea trecută a ghidului.
 
@@ -84,7 +84,8 @@ Notă: Când instalezi aplicații homebrew pe cardul tău SD sau unitatea ta USB
 
 ::: tip
 
-[Continue to making a NAND Backup using BootMii](bootmii)<br>
+[Continue to making a NAND Backup using BootMii](bootmii)
+
 Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
 
 :::

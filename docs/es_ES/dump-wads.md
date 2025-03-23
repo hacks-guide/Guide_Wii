@@ -2,14 +2,14 @@
 
 En esta guía aprenderás a extraer canales instalados en la memoria de la consola en forma de archivos WAD.
 
-## Requisitos
+## Requirements
 
 - Una tarjeta SD o unidad USB
 - [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-## Instrucciones
+## Instructions
 
-1. Apaga la consola.
+1. Power off your console.
 
 2. Extract both apps to the root of your SD card or USB drive.
 
@@ -17,7 +17,7 @@ En esta guía aprenderás a extraer canales instalados en la memoria de la conso
 
 4. Elige el dispositivo de almacenamiento adonde deseas copiar el juego: unidad USB o tarjeta SD.
 
-5. Enciende la consola.
+5. Power on your console.
 
 6. Launch the Homebrew Channel, and launch the Load Priiloader app.
 

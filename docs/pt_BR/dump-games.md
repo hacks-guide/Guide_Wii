@@ -4,14 +4,14 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 ## Fazendo o backup do disco para SD/USB (CleanRip)
 
-### Requisitos
+### Requirements
 
 - Um cartão SD ou armazenamento USB com pelo menos 4.7 GB de espaço livre.
 - [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 ### Preparation
 
-1. Desligue seu console.
+1. Power off your console.
 
 2. Extract both apps to the root of your SD card or USB drive.
 
@@ -19,7 +19,7 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 4. Reinsira seu cartão SD ou armazenamento USB no seu console.
 
-5. Ligue o seu console.
+5. Power on your console.
 
 6. Launch the Homebrew Channel, and launch the Load Priiloader app.
 

@@ -5,8 +5,8 @@ head:
       content: 5; URL=https://www.wiilink24.com/guide/install/
 ---
 
-# Redirecting
+# Перенаправляем
 
-You are being redirected to the WiiLink24.
+Вы будете перенаправлены на WiiLink24.
 
-If the page doesn't refresh, click [here](https://wiki.hacks.guide/wiki/Wii:Nintendont).
+Если страница не обновилась, нажмите [здесь](https://www.wiilink24.com/guide/install/).

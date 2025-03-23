@@ -5,8 +5,8 @@ head:
       content: 5; URL=https://wiki.hacks.guide/wiki/Wii:Riivolution
 ---
 
-# Redirecting
+# Перенаправляем
 
 Вы будете перенаправлены на Hacks Guide Wiki.
 
-If the page doesn't refresh, click [here](https://wiki.hacks.guide/wiki/Wii:Riivolution).
+Если страница не обновилась, нажмите [здесь](https://wiki.hacks.guide/wiki/Wii:Riivolution).

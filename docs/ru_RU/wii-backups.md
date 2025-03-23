@@ -10,14 +10,17 @@ For storing multiple games, we recommend an external hard drive for your Wii. Mo
 
 ::: info
 
-A flash drive is not recommended, as they are small and may vary in behavior even between the same product. <br>
+A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
+
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
 :::
 
 ::: info
 
-Make sure your USB drive is formatted as FAT32. Do not format it as other types such as exFAT or extFS. <br> You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
+Make sure your USB drive is formatted as FAT32. Do not format it as other types such as exFAT or extFS.
+
+You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 
 :::
 
@@ -104,7 +107,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 - A PC running MacOS or Linux
 - A USB drive or SD card
 - A dumped ISO from a Wii game disc
-- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
+- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion/releases)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
 ### Инструкции
@@ -153,6 +156,6 @@ cIOS is needed for your Wii to use a USB Loader. Once this is done, you can use 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
 
 :::

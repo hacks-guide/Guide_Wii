@@ -2,14 +2,14 @@
 
 Bu rehber size nasıl Wii'nizin depolamasından WADları yedekleyeceğinizi öğretecektir.
 
-## Gereksinimler
+## Requirements
 
 - Bir SD card veya USB yığın depolama aygıtı
 - [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-## Talimatlar
+## Instructions
 
-1. Konsolunuzu kapatın.
+1. Power off your console.
 
 2. SD card veya USB cihazınızı bilgisayarınıza takın.
 
@@ -17,7 +17,7 @@ Bu rehber size nasıl Wii'nizin depolamasından WADları yedekleyeceğinizi öğ
 
 4. SD card veya USB cihazınızı yeniden konsolunuza takın.
 
-5. Konsolunuzu açın.
+5. Power on your console.
 
 6. Launch the Homebrew Channel, and launch the Load Priiloader app.
 
@@ -55,6 +55,6 @@ WAD şu anda yedeklenmiş ve SD card ya da USB cihazınızda olmalıdır.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Site haritasına geri dönmek için tıklayın.](site-navigation)
 
 :::

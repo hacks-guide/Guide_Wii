@@ -16,9 +16,9 @@ Wilbrand Web is recommended for its ease of use.
 
 ## Wilbrand Web
 
-### Requisitos
+### Requirements
 
-- An SD card formatted to FAT32/MS-DOS
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - Um Wii pelo menos na versão 3.0
 
 ::: warning
@@ -27,15 +27,15 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 :::
 
-### Instruções
+### Instructions
 
-1. Ligue o seu console.
+1. Power on your console.
 
 2. Go to `Wii Settings`.
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-   - Esta letra corresponde à região de menu do seu sistema, que você precisará saber para os passos correspondentes.
+   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
    ![](/images/wii/SystemMenuVersion.png)
 
@@ -76,7 +76,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
     - In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     - If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. Se quaisquer aparecerem, talvez haja um erro com o formato do seu cartão SD ou o leitor de SD do Wii.
 
-17. Ele fará o download do HackMii Installer e depois será iniciado.
+17. If the exploit was successful, your device will have loaded the HackMii Installer.
     - If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     - If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 
@@ -92,10 +92,10 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 ## Wilbrand CLI
 
-### Requisitos
+### Requirements
 
 - Um PC executando Windows, MacOS ou Linux
-- An SD card formatted to FAT32/MS-DOS
+- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - Um Wii pelo menos na versão 3.0
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii Installer v1.2](https://bootmii.org/download/)
@@ -106,15 +106,15 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 :::
 
-### Instruções
+### Instructions
 
-1. Ligue o seu console.
+1. Power on your console.
 
 2. Go to `Wii Settings`.
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-   - Esta letra corresponde à região de menu do seu sistema, que você precisará saber para os passos correspondentes.
+   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
    ![](/images/wii/SystemMenuVersion.png)
 
@@ -164,7 +164,7 @@ SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-16. Ele fará o download do HackMii Installer e depois será iniciado.
+16. If the exploit was successful, your device will have loaded the HackMii Installer.
     - If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
     - If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
 

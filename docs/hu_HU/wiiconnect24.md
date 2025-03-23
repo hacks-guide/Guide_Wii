@@ -6,15 +6,15 @@ Although not at all necessary, it is a "nice to have" feature that was originall
 These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Channel, some Japan-exclusive channels, and more.
 -->
 
-[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather and news, send messages to friends, participate in Mii contests, and more. Ez a szolgáltatás 2013. június 27-én megszűnt.
+A [WiiConnect24(https://wikipedia.org/wiki/WiiConnect24) egy olyan szolgáltatás volt, amely lehetővé tette az internetkapcsolattal rendelkező felhasználók számára az időjárás-előrejelzés megtekintését, a barátoknak való üzenetküldést, a Mii-versenyeken való részvételt és sok mást. Ez a szolgáltatás 2013. június 27-én megszűnt.
 
 ## WiiLink
 
-[WiiLink](https://www.wiilink24.com/) is a revival service for WiiConnect24 that allows you to regain and expand its functionality on your console.
+A [WiiLink](https://www.wiilink24.com/) egy olyan szolgáltatás, ami újraéleszti és kiterjeszti a WiiConnect24 funkcióit.
 2023 második felében összeolvadt a RiiConnect24-nevű újraélesztőprojekttel és most mindketten a WiiLink-név alatt futnak.
 
 A WiiLink egy csatornamódosítóval telepíthető, ami támogatja mind a nemzetközi csatornákat, mint a News Channel, mind a korábban régiókorlátos csatornákat, mint a Wii Room.
-The guide on how to install these services, as well as the patcher, can be found [on WiiLink's website.](https://www.wiilink24.com/guide/)
+A szolgáltatások telepítési útmutatója a patcherrel együtt a [WiiLink] honlapján(https://www.wiilink24.com/guide/) érhető el
 
 <!-- move this back to another page? or no -->
 
@@ -29,14 +29,14 @@ The guide on how to install these services, as well as the patcher, can be found
 - Egy SD kártya vagy pendrive
 - [sntp](https://oscwii.org/library/app/sntp)
 
-#### Útmutató
+#### Lépések
 
-1. Töltsd le és csomagold ki az sntp .zip-fájlt az SD kártya vagy pendrive gyökerére!
-2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a Wiidhez!
+1. Töltsd le és csomagold ki az sntp. zip-fájlt az SD kártya vagy USB drive gyökerére.
+2. Csatlakoztasd az USB drive-ot vagy az SD kártyát a Wiidhez.
 3. Indítsd el a Homebrew Channelt!
-4. Indítsd el az sntp-t!
-5. Állítsd be a pontos időt a nyílgombokkal!
-6. A kilépéshez nyomd meg a HOME-gombot!
+4. Indítsd el az sntp-t.
+5. Állítsd be a pontos időt a +Control Pad-del.
+6. A kilépéshez nyomd meg a HOME gombot.
 
 ### vWii
 
@@ -46,37 +46,37 @@ The guide on how to install these services, as well as the patcher, can be found
 - Egy SD kártya
 - [Priiloader](priiloader)
 
-#### Útmutató
+#### Lépések
 
-1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
+1. Látogasd meg az [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) oldalt és töltsd ki az információkat.
 2. Kattints a „Generate” („generálás”)-gombra, majd másold ki a megjelenő információt kézileg vagy a „Copy” („másolás”)-gombbal!
-3. On your SD Card, navigate to `SD:/apps/priiloader` and open `hacks_hash.ini` with a text editor such as notepad.
-4. Paste the patch at the bottom of the `hacks_hash.ini` and save the changes.
-5. Ha a régiódban van nyári időszámítás, akkor ismételd meg az 1–4. lépést a másik időzónával is!
-6. Helyezd be az SD kártyát a Wii U-ba!
-7. [Boot Priiloader](priiloader#section-iii---entering-priiloader) on the vWii.
-8. Válaszd ki a „Hacks”-menüpontot és engedélyezd a „Fix NWC24iSetUniversalTime”-módosítást!
-9. Térj vissza a vWii menübe!
+3. Helyezd be az SD kártyát a számítógépbe és nyisd meg az `SD:/apps/priiloader` mappában található `hacks_hash.ini`-fájlt egy szövegszerkesztőben, pl. a Jegyzettömbben.
+4. Illeszd be a kimásolt adatokat a `hacks_hash.ini` fájl legaljára és mentsd el a változtatásokat.
+5. Ha a régiódban van nyári időszámítás, akkor ismételd meg az 1–4. lépést a másik időzónával is.
+6. Helyezd be az SD kártyát a Wii U-dba.
+7. [Bootold a Priiloader](priiloader#section-iii---entering-priiloader)-t a vWii-n.
+8. Válaszd ki a „Hacks” menüpontot és engedélyezd a „Fix NWC24iSetUniversalTime” hacket.
+9. Térj vissza a vWii menübe.
 
 ## WiiConnect24 Priiloader-módosítások
 
 A WiiConnect24 vWiin és Wii minin való működéséhez bizonyos módosításokat engedélyezned kell. Ezekről (angol nyelven) alább olvashatsz:
 
-- [Create message via Calendar button (vWii, Mini)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)
-- [Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)
-- [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii)
-- [Fix NWC24iSetUniversalTime (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)
+- [Üzenet létrehozás a Calendar gombbal (vWii, Mini)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)
+- [Permanens vWii System beállítások (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)
+- [A WiiConnect24 engedélyezése mindig boot-nál (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii)
+- [NWC24iSetUniversalTime javítás(vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)
 
 ::: info
 
-[Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) and [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) cannot be enabled at the same time. More information on how to use Permanent vWii System Settings can be found [here](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii)
+[A permanens vWii System beállítások (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) és [A WiiConnect24 engedélyezése mindig a bootnál (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) nem bekapcsolható egy időben. További információk a permanens vWii System Settings-ről [itt találhatók](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii)
 
 :::
 
 ::: tip
 
-[Proceed to Nintendo Wi-Fi Connection](wiimmfi)
+[Folytatás a Nintendo Wi-Fi Connectionnel](wiimmfi)
 
-This guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. Ugyan több különböző privát szerver is létezik, mi a Wiimmfit fogjuk megemlíteni.
+Ez az útmutató végigvezet a Wiid ismételt internetre való csatlakoztatásának a folyamatán. Az útmutató végén újra képes leszel online játékokat játszani, mint pl. a Mario Kart Wiit. Ugyan több különböző privát szerver is létezik, mi a Wiimmfit fogjuk megemlíteni.
 
 :::

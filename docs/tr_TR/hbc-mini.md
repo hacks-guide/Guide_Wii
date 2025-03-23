@@ -2,7 +2,7 @@
 
 The Homebrew Channel is where you will go to launch homebrew applications.
 
-## Talimatlar
+## Instructions
 
 ::: warning
 

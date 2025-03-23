@@ -18,7 +18,7 @@ Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/gettin
 
 :::
 
-## Anforderungen
+## Requirements
 
 - A modded Wii U
 - The [Aroma Environment](https://aroma.foryour.cafe/)
@@ -31,7 +31,7 @@ If the evWii Aroma plugin is not installed, and a homebrew app hangs, the only w
 
 :::
 
-## Anleitung
+## Instructions
 
 ### Section I - Files
 

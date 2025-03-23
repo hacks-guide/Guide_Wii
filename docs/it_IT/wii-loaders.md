@@ -54,13 +54,13 @@ Di seguito è riportato un esempio di WBFS singolo e WBFS diviso. A WBFS needs t
 
 ## WiiFlow Lite
 
-### Requisiti
+### Requirements
 
 - Una Wii modificata
 - The latest version of [cIOS](cios)
 - [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
-### Installazione
+### Installation
 
 1. Scarica WiiFlow e installalo nella tua scheda SD o unità USB.
 
@@ -74,7 +74,9 @@ Di seguito è riportato un esempio di WBFS singolo e WBFS diviso. A WBFS needs t
 
 #### Interfaccia utente
 
-Quando WiiFlow rileva i giochi, verranno visualizzati nella vista flow.<br> Quando fai clic su un gioco, ti verranno date queste opzioni:
+When WiiFlow detects games, they are displayed in flow view.
+
+When you click on a game, you are given these options:
 
 - Stella - Aggiunge il gioco ai preferiti.
 - Libreria - Aggiunge il gioco a una di sei categorie di vostra scelta.
@@ -103,13 +105,13 @@ Quando sposti il cursore verso l'area in basso dello schermo mentre sei nella vi
 
 ## USB Loader GX
 
-### Requisiti
+### Requirements
 
 - Una Wii modificata
 - The latest version of [cIOS](cios)
-- [USB Loader GX](https://oscwii.org/library/app/usbloader_gx)
+- [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
-### Installazione
+### Installation
 
 1. Ensure that your Wii already has cIOS 248-251 installed - this can be checked with applications like [SysChecker](syscheck) or d2x cIOS installer.
 2. Scarica USB Loader GX e installalo nella tua scheda SD o unità USB.

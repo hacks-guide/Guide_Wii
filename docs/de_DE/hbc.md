@@ -1,8 +1,8 @@
 # Homebrew-Kanal und BootMii-Installation
 
-:::details Technical Details (optional)
+:::details Technische Details (optional)
 
-BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. In most cases, installing BootMii as IOS should be fine, as long as you also install <a href="priiloader">Priiloader</a>. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
+BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. In most cases, installing BootMii as IOS should be fine, as long as you also install <a href="priiloader">Priiloader</a>. In den meisten Fällen ist es in Ordnung, BootMii als IOS zu installieren, solange du auch [PriiLoader](priiloader) installierst.
 
 :::
 
@@ -13,7 +13,7 @@ You can always [install it later](hackmii).
 
 :::
 
-## Anleitung
+## Instructions
 
 1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
 
@@ -84,7 +84,8 @@ Here's a tip - when installing homebrew applications on your SD Card or USB driv
 
 ::: tip
 
-[Continue to making a NAND Backup using BootMii](bootmii)<br>
+[Continue to making a NAND Backup using BootMii](bootmii)
+
 Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
 
 :::

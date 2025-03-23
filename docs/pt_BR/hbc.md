@@ -13,7 +13,7 @@ You can always [install it later](hackmii).
 
 :::
 
-## Instruções
+## Instructions
 
 1. Seu console deve estar ligado e mostrando o HackMii Installer da parte anterior do guia.
 
@@ -84,7 +84,8 @@ Aqui está uma dica - ao instalar aplicativos homebrew em seu cartão SD ou pend
 
 ::: tip
 
-[Continue to making a NAND Backup using BootMii](bootmii)<br>
+[Continue to making a NAND Backup using BootMii](bootmii)
+
 Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
 
 :::

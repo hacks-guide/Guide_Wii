@@ -13,7 +13,7 @@ This check can be bypassed using Priiloader, which allows Recovery Mode to boot 
 
 ## Accessing and Using Recovery Mode
 
-### Gereksinimler
+### Requirements
 
 - A GameCube controller
 - If the Diagnostic Disc Check was previously removed with Priiloader, or if a drive chip is on hand:
@@ -64,6 +64,6 @@ At this point, you should be able to install the Homebrew Channel and access hom
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Site haritasına geri dönmek için tıklayın.](site-navigation)
 
 :::

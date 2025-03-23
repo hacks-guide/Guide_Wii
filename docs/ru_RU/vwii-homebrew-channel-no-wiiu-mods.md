@@ -42,6 +42,6 @@ Do not get confused with the `apps` folder inside of the `wiiu` folder and the `
 
 ::: tip
 
-[Continue to installing Priiloader](priiloader)
+[Перейти к установке Priiloader](priiloader)
 
 :::

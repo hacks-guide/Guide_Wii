@@ -1,39 +1,39 @@
 # YAWM ModMii Edition
 
-YAWM ModMii Edition is an application that can install WADs and launch homebrew applications.
-This tutorial will show you how to install WADs.
+YAWM ModMii Edition은 WAD를 설치하고 홈브류 응용 프로그램을 실행할 수 있는 앱입니다.
+이 자습서에서는 WAD를 설치하는 방법을 보여줍니다.
 
-## 필요한 것
+## 요구사항
 
-- SD 카드 및 USB 드라이브
+- SD 카드 또는 USB 드라이브
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-## 진행 방법
+## 소개
 
 ### 섹션 I - 다운로드
 
-1. Download and extract the YAWM ModMii Edition `.zip` to the root of your SD card or USB drive.
-2. Insert your SD card or USB drive into your Wii, and launch YAWM ModMii Edition from the Homebrew Channel.
+1. YAWM ModMii Edition `.zip`을 다운로드하여 SD 카드나 USB 드라이브의 루트에 압축을 풉니다.
+2. SD 카드나 USB 드라이브를 Wii에 연결하고 홈브류 채널에서 YAWM ModMii Edition을 실행합니다.
 
 ### 섹션 II - WAD 설치
 
-1. Select the source device that has the WAD file(s) you would like to install.
+1. 설치하려는 WAD 파일이 있는 소스 장치를 선택하세요.
 
    ![](/images/homebrew/yawmME/source_device.png)
 
-2. Navigate to the folder that has the WAD files.
+2. WAD 파일이 있는 폴더로 이동합니다.
 
-   - If you have a folder named `wad`, it will be opened automatically.
+   - `wad`라는 폴더가 있으면, 자동으로 열립니다.
 
    ![](/images/homebrew/yawmME/file_selection.png)
 
-3. Navigate to the WAD file you would like to install and press `A`.
+3. 설치하려는 WAD 파일로 이동한 후 `A` 버튼을 누르세요.
 
-   - If you would like to install multiple WAD files at once, press `+` on each of them, then press `A`.
+   - 한 번에 여러 개의 WAD 파일을 설치하려면 각 파일에서 `+` 버튼을 누른 다음 `A` 버튼을 누르세요.
 
    ![](/images/homebrew/yawmME/install_wad.png)
 
-4. Press A again to install the WAD(s).
+4. 다시 A 버튼을 눌러 WAD를 설치하세요.
 
    ![](/images/homebrew/yawmME/installing_wad.png)
 
@@ -41,6 +41,6 @@ This tutorial will show you how to install WADs.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::

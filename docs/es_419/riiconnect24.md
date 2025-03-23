@@ -9,4 +9,4 @@ head:
 
 You are being redirected to the WiiLink24.
 
-If the page doesn't refresh, click [here](https://wiki.hacks.guide/wiki/Wii:Nintendont).
+If the page doesn't refresh, click [here](https://www.wiilink24.com/guide/install/).

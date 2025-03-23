@@ -23,7 +23,9 @@ ModMii is an all-in-one Wii hacking tool for Windows created by XFlak that has v
 
 ## ModMii Overview
 
-There are two different ways to use ModMii. There is ModMii Classic, which uses a command line interface, but has all of the features available to the program. ModMii Skin has a graphical user interface, on the other hand, but has less options available to the user. If you're looking to simply mod your Wii for the first time, ModMii Skin should suffice. Otherwise, we reccomend using ModMii Classic where possible. <br> The chart below will help you determine what can be done in either interface.
+There are two different ways to use ModMii. There is ModMii Classic, which uses a command line interface, but has all of the features available to the program. ModMii Skin has a graphical user interface, on the other hand, but has less options available to the user. If you're looking to simply mod your Wii for the first time, ModMii Skin should suffice. Otherwise, we reccomend using ModMii Classic where possible.
+
+The chart below will help you determine what can be done in either interface.
 
 | Tools                                          | ModMii Classic | ModMii Skin |
 | ---------------------------------------------- | -------------- | ----------- |
@@ -44,7 +46,7 @@ There are two different ways to use ModMii. There is ModMii Classic, which uses 
 
 :::details Click here for a detailed explanation of each tool.
 
-| Tool                                                                                                           | Descrição                                                                                                                                                                                                                                                                                                         |
+| Tool                                                                                                           | Description                                                                                                                                                                                                                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | W = ModMii Wizard <-- Start Here to Mod Your Wii!                                     | This option can be used to hack your Wii for the first time or re-hack a Wii that has been previously modded.                                                                                                                                                                                     |
 | SU = SysCheck Updater Wizard (update only your outdated softmods)                           | This option checks for and updates old modifications installed to their wii such as DarkCorp/CIOSSPAGHETTI that can potentially cause problems for the latest homebrew custom firmware.                                                                                                           |
@@ -69,14 +71,20 @@ When using ModMii, it is important to note that it will generate a custom guide 
 
 ## Installing ModMii
 
-### Requisitos
+### Requirements
 
 - Um Wii
-- Um armazenamento USB ou cartão SD
+- A USB drive or SD Card
 - A Windows PC (a Virtual Machine will work)
 - [ModMii](https://modmii.github.io/)
 
-### Instalação
+### Installation
+
+::: warning
+
+Your browser or antivirus software may flag ModMii as malware - this is a false positive. ModMii does NOT contain any malware.
+
+:::
 
 1. Go to the [ModMii website](https://modmii.github.io) and scroll down to the Download section. Here, select the `Installer` option. Your browser may flag the installer as malware, but it is a **false positive**.
 

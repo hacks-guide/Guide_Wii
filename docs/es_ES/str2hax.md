@@ -2,6 +2,10 @@
 
 ::: warning
 
+Though str2hax allows you to install the Homebrew Channel on a Wii without an SD card, other vital steps later on (such as installing BootMii) still require an SD card.
+
+::: warning
+
 Note that if your ISP or networking environment prevents using custom DNS servers, str2hax will not work and you should [choose another exploit to use](get-started).
 
 :::
@@ -14,17 +18,17 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
 :::
 
-## Requisitos
+## Requirements
 
 - Una Wii con conexión a internet
 
-## Instrucciones
+## Instructions
 
 ### Section I - Connecting
 
 Este exploit requiere que cambies tu configuración de DNS para poder conectarte al servidor que contiene el exploit.
 
-1. Enciende la consola.
+1. Power on your console.
 
 2. Go to `Wii Options`.
 
@@ -90,7 +94,7 @@ Este exploit requiere que cambies tu configuración de DNS para poder conectarte
 
 4. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 
-5. Después de unos segundos, la consola debería de iniciar el HackMii Installer.
+5. If the exploit was successful, your device will have loaded the HackMii Installer.
 
    ![](/images/hackmii/scam.png)
 

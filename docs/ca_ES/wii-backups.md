@@ -10,14 +10,16 @@ For storing multiple games, we recommend an external hard drive for your Wii. Mo
 
 ::: info
 
-A flash drive is not recommended, as they are small and may vary in behavior even between the same product. <br>
+A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
+
 As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
 
 :::
 
 ::: info
 
-Make sure your USB drive is formatted as FAT32. Do not format it as other types such as exFAT or extFS. <br>
+Make sure your USB drive is formatted as FAT32. Do not format it as other types such as exFAT or extFS.
+
 You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
 
 :::
@@ -64,7 +66,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Manager
 
-### str2hax Method
+### Requirements
 
 - A PC running Windows
 - A USB drive or SD card
@@ -100,12 +102,12 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ## Using Wii Backup Fusion
 
-### str2hax Method
+### Requirements
 
 - A PC running MacOS or Linux
 - A USB drive or SD card
 - A dumped ISO from a Wii game disc
-- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion)
+- [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion/releases)
 - [Wiimm's ISO Tools](https://wit.wiimm.de/download.html)
 
 ### Instructions
