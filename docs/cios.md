@@ -275,7 +275,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ::: tip
 
-[Continue to Finalizing Setup](vwii-finalizing-setup)
+[Continue to finalizing setup](vwii-finalizing-setup)
 
 :::
 
