@@ -24,7 +24,7 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 
 * A Wii with the Homebrew Channel installed
 * An SD card or USB drive
-* The [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
+* The [d2x cIOS Installer](https://oscwii.org/library/app/d2x-cios-installer) (the `.zip` file)
 
 ::: warning
 
@@ -73,7 +73,7 @@ The WAD files should be on your SD card like this:
 
 ### Section II - Installing
 
-1. Copy the `apps` folder in the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
+1. Copy the `apps` folder from the d2x-cios-installer `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Power on your console.
 1. Launch the Homebrew Channel.
@@ -81,7 +81,7 @@ The WAD files should be on your SD card like this:
 1. Set everything to match the following:
 
     ```
-    Select cIOS <d2x-v11-beta2>
+    Select cIOS <d2x-v11-beta3>
     Select cIOS base <38>
     Select cIOS slot <248>
     Select cIOS revision <65535>
@@ -91,7 +91,7 @@ The WAD files should be on your SD card like this:
 
     ::: info
 
-    If you do not see `d2x-v11-beta2`, exit the installer with B, and make sure your SD card is unlocked.
+    If you do not see `d2x-v11-beta3`, exit the installer with B, and make sure your SD card is unlocked.
 
     :::
 
@@ -135,7 +135,7 @@ The WAD files should be on your SD card like this:
     + cIOS 249 Installation
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta3>
         Select cIOS base <56>
         Select cIOS slot <249>
         Select cIOS revision <65535>
@@ -146,7 +146,7 @@ The WAD files should be on your SD card like this:
     + cIOS 250 Installation
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta3>
         Select cIOS base <57>
         Select cIOS slot <250>
         Select cIOS revision <65535>
@@ -157,7 +157,7 @@ The WAD files should be on your SD card like this:
     + cIOS 251 Installation
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta3>
         Select cIOS base <58>
         Select cIOS slot <251>
         Select cIOS revision <65535>
@@ -202,7 +202,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 
 * A Wii U with the Homebrew Channel installed on the vWii
 * An SD card or USB drive
-* The [d2x cIOS Installer for vWii](/assets/files/d2x_cIOS_Installer-vWii.zip)
+* The [d2x cIOS Installer for vWii](https://oscwii.org/library/app/d2x-cios-installer-vwii)
 
 ::: warning
 
@@ -214,7 +214,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ### Section I - Installing
 
-1. Copy the `apps` folder in the d2x-cios-installer-vwii `.zip` to the root of your SD card or USB drive.
+1. Copy the `apps` folder from the d2x-cios-installer-vwii `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Power on your console.
 1. Launch the Homebrew Channel.
@@ -222,7 +222,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 1. Set everything to match the following:
 
     ```
-    Select cIOS <d2x-v11-beta2-vWii>
+    Select cIOS <d2x-v11-beta3-vWii>
     Select cIOS base <38>
     Select cIOS slot <248>
     ```
@@ -231,7 +231,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
     ::: info
 
-    If you do not see `d2x-v11-beta2-vWii`, exit the installer with B, and make sure your SD card is unlocked.
+    If you do not see the latest version, exit the installer with B, and make sure your SD card is unlocked.
 
     :::
 
@@ -244,7 +244,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
     + cIOS 249 Installation
     
         ```
-        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <56>
         Select cIOS slot <249>
         ```
@@ -254,7 +254,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
     + cIOS 250 Installation
 
         ```
-        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <57>
         Select cIOS slot <250>
         ```
@@ -264,7 +264,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
     + cIOS 251 Installation
 
         ```
-        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <58>
         Select cIOS slot <251>
         ```
@@ -354,3 +354,19 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 ::::
 
 :::::
+
+<script>
+
+import "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+
+$(document).ready(function () {
+     GetLatestCiosRelease();
+});  
+
+function GetLatestCiosRelease() { // JS to ensure latest cIOS version name is shown
+   $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
+        var releaseName = json.name;
+        document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-v11-beta3', releaseName);
+   });    
+}
+</script>
