@@ -125,15 +125,9 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
-::: info
+::: tip
 
-Ha Wii-t használsz: folytasd a [Homebrew Channel és a BootMii telepítésével](hbc)
-
-:::
-
-::: info
-
-Ha Wii mini-t használsz: folytasd a [Homebrew Channel telepítésével.](hbc-mini)
+[Continue to the Hackmii Installer](hbc)
 
 :::
 
@@ -259,13 +253,7 @@ Ha `Exception 0700 occurred!` hibaüzenetet vagy hasonlót kapsz, próbálja meg
 
 ::: tip
 
-Ha sima Wiivel dolgozol, folytasd a [Homebrew Channel és a BootMii telepítésével](hbc)
-
-:::
-
-::: tip
-
-Ha Wii minivel dolgozol, folytasd a [Homebrew Channel telepítésével.](hbc-mini)
+[Continue to the Hackmii Installer](hbc)
 
 :::
 
