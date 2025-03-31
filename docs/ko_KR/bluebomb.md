@@ -125,15 +125,9 @@ Make sure that the console is close to the computer running the exploit, ideally
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
-::: info
+::: tip
 
-Wii를 사용하는 경우: [홈브류 채널 및 BootMii 설치 계속하기](hbc)
-
-:::
-
-::: info
-
-Wii 미니를 사용하는 경우: [홈브류 채널 설치 계속하기](hbc-mini)
+[Continue to the Hackmii Installer](hbc)
 
 :::
 
@@ -259,13 +253,7 @@ Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에
 
 ::: tip
 
-Wii를 사용하는 경우: [홈브류 채널 및 BootMii 설치 계속](hbc)
-
-:::
-
-::: tip
-
-Wii 미니를 사용하는 경우: [홈브류 채널 설치 계속](hbc-mini)
+[Continue to the Hackmii Installer](hbc)
 
 :::
 
