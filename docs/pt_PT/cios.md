@@ -285,7 +285,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ::: tip
 
-[Continue to Finalizing Setup](vwii-finalizing-setup)
+[Continue to finalizing setup](vwii-finalizing-setup)
 
 :::
 
@@ -352,17 +352,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 ::: tip
 
-[Continue to making a NAND Backup using RealWnd](wnd-mini)
-
-:::
-
-### Enabling Ethernet
-
-If you wish to use Wiimmfi with Ethernet on a Wii mini, you have to run the [Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) app made by Fullmetal5. To run it, just unzip it in the `apps` folder of your USB drive and run it from the Homebrew Channel.
-
-::: info
-
-The Wii and Wii mini consoles are only known to work with Ethernet adapters using the AX88772 chip. Please check that the product is compatible before you buy. This one from UGREEN is known to be compatible: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
+[Continue to finalizing setup](mini-finalizing-setup)
 
 :::
 
