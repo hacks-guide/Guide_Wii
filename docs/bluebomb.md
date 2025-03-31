@@ -114,15 +114,9 @@ Make sure that the console is close to the computer running the exploit, ideally
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
-::: info
+::: tip
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
-
-:::
-
-::: info
-
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+[Continue to the Hackmii Installer](hbc)
 
 :::
 
