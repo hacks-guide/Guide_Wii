@@ -89,9 +89,7 @@ Ha Wii játékokat online játszanál a dolphin-on belülről, a Wii mini NAND-o
 
 ::: tip
 
-Folytatás az [Open Shop Channel telepítés](osc)-ével
-
-Most, hogy a konzol megfelelő védelemmel rendelkezik, telepítheted az Open Shop Channelt, ami a homebrew programok megbízható tárháza és hozzáférhető mind egy Wiiről vagy egy számítógépről.
+[Folytatás a Priiloader telepítésével](priiloader)
 
 :::
 
