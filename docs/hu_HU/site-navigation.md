@@ -63,7 +63,6 @@
 - [Hogyan dumpoljak Channel-eket (WAD-okat)](dump-wads)
 - [Hogyan dumpolj GameCube/Wii játékokat](dump-games)
 - [A GameCube mentések kezelése](gc-backups)
-- [GameCube mentés fájlok kezelése](gcsaves)
 - [A Wii mentések kezelése](wii-backups)
 - [Priiloader használat](priiloader-usage)
 - [Ajánlott Homebrew](recommended-homebrew)
@@ -88,7 +87,6 @@
 
 **Wii mini**
 
-- [A Homebrew Channel telepítése Wii mini-re](hbc-mini)
 - [Wii mini NAND Dumper](wnd-mini)
 
 :::
