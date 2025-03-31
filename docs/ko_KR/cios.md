@@ -285,7 +285,7 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 
 ::: tip
 
-[Continue to Finalizing Setup](vwii-finalizing-setup)
+[Continue to finalizing setup](vwii-finalizing-setup)
 
 :::
 
@@ -352,17 +352,7 @@ Wii 미니에 Wii/vWii IOS나 시스템 메뉴를 설치하려고 하지 마세�
 
 ::: tip
 
-[Real Wand를 이용한 낸드 백업 제작 계속하기](and-mini)
-
-:::
-
-### 이더넷 활성화
-
-Wii 미니에서 이더넷을 통해 Wiimmfi를 사용하려면 Fullmetal5가 만든 [Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) 앱을 실행해야 합니다. 실행하려면 USB 드라이브의 `apps` 폴더에 압축을 풀고 홈브류 채널에서 실행하면 됩니다.
-
-::: info
-
-Wii 및 Wii 미니 콘솔은 AX88772 칩을 사용하는 이더넷 어댑터에서만 작동하는 것으로 알려져 있습니다. 구매하기 전에 제품이 호환되는지 확인하세요. UGREEN의 이 제품은 호환되는 것으로 알려져 있습니다: [아마존 유럽](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
+[Continue to finalizing setup](mini-finalizing-setup)
 
 :::
 
