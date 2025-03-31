@@ -125,15 +125,9 @@ BlueBomb - это эксплойт, который использует уязв
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
-::: info
+::: tip
 
-Если используется Wii: [Перейти к установке Homebrew Channel и BootMii](hbc)
-
-:::
-
-::: info
-
-Если используется Wii mini: [Перейти к установке Homebrew Channel](hbc-mini)
+[Continue to the Hackmii Installer](hbc)
 
 :::
 
@@ -259,13 +253,7 @@ If you get an error `Exception 0700 occurred!` or similar, try the exploit again
 
 ::: tip
 
-Если используется Wii: [Перейти к установке Homebrew Channel и BootMii](hbc)
-
-:::
-
-::: tip
-
-Если используется Wii mini: [Перейти к установке Homebrew Channel](hbc-mini)
+[Continue to the Hackmii Installer](hbc)
 
 :::
 
