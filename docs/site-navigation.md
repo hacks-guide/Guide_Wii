@@ -58,7 +58,6 @@
 + [How to dump Channels (WADs)](dump-wads)
 + [How to dump GameCube/Wii Games](dump-games)
 + [Managing GameCube Backups](gc-backups)
-+ [Managing GameCube Save Files](gcsaves)
 + [Managing Wii Backups](wii-backups)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
@@ -81,7 +80,6 @@
 ::: info
 
 **Wii mini**
-+ [Installing the Homebrew Channel on the Wii mini](hbc-mini)
 + [Wii mini NAND Dumper](wnd-mini)
 
 :::
