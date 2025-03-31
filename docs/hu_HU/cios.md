@@ -285,7 +285,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 ::: tip
 
-[Continue to Finalizing Setup](vwii-finalizing-setup)
+[Continue to finalizing setup](vwii-finalizing-setup)
 
 :::
 
@@ -352,17 +352,7 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire tele
 
 ::: tip
 
-[Folytatás a NAND biztonsági mentés készítése a [RealWnd segítségével](wnd-mini) fejezettel
-
-:::
-
-### A vezetékes internet felállítása
-
-Ha a Wii minin vezetékes internettel szeretnéd használni a Wiimmfit, akkor futtatnod kell a Fullmetal5 által készített Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) alkalmazást. A futtatáshoz csak csomagold ki az USB drive-od `apps` mappájába, majd indítsd el a Homebrew Channelből.
-
-::: info
-
-A Wii és a Wii mini konzolok ismertek arról, hogy csak az AX88772 chipet használó Ethernet adapterrel működnek. Vásárlás előtt ellenőrizd, hogy a termék ilyen chippel rendelkezik. Ez a UGREEN-től ismert, hogy kompatibilis: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
+[Continue to finalizing setup](mini-finalizing-setup)
 
 :::
 
