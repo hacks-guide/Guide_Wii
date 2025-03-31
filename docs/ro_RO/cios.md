@@ -285,7 +285,7 @@ Asigură-te că dacă folosești un card SD, comutatorul de blocare este în poz
 
 ::: tip
 
-[Continue to Finalizing Setup](vwii-finalizing-setup)
+[Continue to finalizing setup](vwii-finalizing-setup)
 
 :::
 
@@ -352,17 +352,7 @@ Nu încerca să instalezi un IOS Wii/vWii sau System Menu pe un Wii mini. Făcâ
 
 ::: tip
 
-[Continue to making a NAND Backup using RealWnd](wnd-mini)
-
-:::
-
-### Activarea Ethernet
-
-If you wish to use Wiimmfi with Ethernet on a Wii mini, you have to run the [Ethernet Enabler Homebrew](/assets/files/Wii_Mini_Ethernet_Enable.zip) app made by Fullmetal5. To run it, just unzip it in the `apps` folder of your USB drive and run it from the Homebrew Channel.
-
-::: info
-
-Consolele Wii și Wii mini sunt știute să meargă numai cu adaptoarele de Ethernet care folosesc chipul AX88772. Te rugăm să verifici dacă produsul este compatibil înainte să-l cumperi. This one from UGREEN is known to be compatible: [Amazon Europe](https://www.amazon.de/dp/B00MYT481C), [Amazon US](https://a.co/d/3OcSJDS)
+[Continue to finalizing setup](mini-finalizing-setup)
 
 :::
 
