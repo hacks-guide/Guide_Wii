@@ -68,7 +68,6 @@
 - [How to dump Channels (WADs)](dump-wads)
 - [How to dump GameCube/Wii Games](dump-games)
 - [Managing GameCube Backups](gc-backups)
-- [Gestion des fichiers de sauvegarde de la GameCube](gcsaves)
 - [Managing Wii Backups](wii-backups)
 - [Priiloader Usage](priiloader-usage)
 - [Homebrew recommandés](recommended-homebrew)
@@ -94,7 +93,6 @@
 {% capture notice-7 %}
 **Wii Mini**
 
-- [Installation de la Chaîne Homebrew sur la Wii mini](hbc-mini)
 - [Wii mini NAND Dumper](wnd-mini)
   {% endcapture %}
 
