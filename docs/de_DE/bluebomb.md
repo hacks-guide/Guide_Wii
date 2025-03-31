@@ -125,15 +125,9 @@ Stelle sicher, dass sich die Konsole in der Nähe vom Computer, auf dem der Expl
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
-::: info
+::: tip
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
-
-:::
-
-::: info
-
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+[Continue to the Hackmii Installer](hbc)
 
 :::
 
@@ -259,13 +253,7 @@ If you get an error `Exception 0700 occurred!` or similar, try the exploit again
 
 ::: tip
 
-If using a Wii: [Continue to Homebrew Channel and BootMii Installation](hbc)
-
-:::
-
-::: tip
-
-If using a Wii mini: [Continue to Homebrew Channel installation](hbc-mini)
+[Continue to the Hackmii Installer](hbc)
 
 :::
 
