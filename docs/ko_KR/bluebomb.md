@@ -47,8 +47,16 @@ Make sure that the console is close to the computer running the exploit, ideally
 - A Linux machine
     - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
     - If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
+        - ARM64 Rasperry Pi's need multiarch enabled with the armhf (32bit) architecture added. The following should work on any debian based OS:
+        ```bash
+        sudo sudo dpkg --add-architecture armhf
+        sudo apt update && sudo apt install -y screen:armhf
+        file /usr/bin/screen # should say ELF 32-bit
+        screen
+        ```
     - 리눅스용 윈도우 하위 시스템이나 리눅스 모드를 실행하는 크롬북은 블루투스 어댑터나 USB 포트에 직접 접근할 수 없으므로 작동하지 않습니다.
-    - 리눅스가 없다면 [우분투](https://ubuntu.com/download/desktop)가 가장 사용자 친화적인 옵션이며 윈도우나 맥을 실행하는 컴퓨터에서 실행할 수 있습니다.
+    - If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or intel based Macs.
+        - Apple Silicon Macs will not work due to them missing the ARM32 instructions in the hardware.
         - 32비트 장치에는 [우분투 16.04](http://releases.ubuntu.com/16.04/)가 필요합니다.
         - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
     - 컴퓨터에 설치하는 대신 [USB 플래시 드라이브에 리눅스 라이브 환경을 플래싱](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) 할 수 있습니다.
