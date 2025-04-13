@@ -47,8 +47,16 @@ BlueBomb - это эксплойт, который использует уязв
 - Компьютер с Linux
     - Виртуальная машина может сработать, но её использование не рекомендуется из-за сложности с пробросом Bluetooth. По возможности, используйте LiveUSB, как описано ниже.
     - Если у вас есть Raspberry Pi, вы можете использовать её вместо вашего устройства, так как на ней, скорее всего уже установлен Linux.
+        - ARM64 Rasperry Pi's need multiarch enabled with the armhf (32bit) architecture added. The following should work on any debian based OS:
+        ```bash
+        sudo sudo dpkg --add-architecture armhf
+        sudo apt update && sudo apt install -y screen:armhf
+        file /usr/bin/screen # should say ELF 32-bit
+        screen
+        ```
     - Windows Subsystem for Linux или Chromebook запущенный в режиме Linux **не будут** работать, так как они не имеют прямого доступа к адаптеру Bluetooth или портам USB.
-    - Если у вас нет Linux, [Ubuntu](https://ubuntu.com/download/desktop) является самым простым вариантом, и он может быть запущен на компьютерах с Windows или Mac.
+    - If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or intel based Macs.
+        - Apple Silicon Macs will not work due to them missing the ARM32 instructions in the hardware.
         - На 32-битных устройствах требуется использовать [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
         - Для 64-битных устройств рекомендуется использование LTS версии из-за её стабильности, но последний выпуск так же работает.
     - Вы можете [записать Live-пространство Ubuntu на USB накопитель](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) вместо установки на ваш компьютер.
