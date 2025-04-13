@@ -47,8 +47,16 @@ Stelle sicher, dass sich die Konsole in der Nähe vom Computer, auf dem der Expl
 - A Linux machine
     - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
     - If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
+        - ARM64 Rasperry Pi's need multiarch enabled with the armhf (32bit) architecture added. The following should work on any debian based OS:
+        ```bash
+        sudo sudo dpkg --add-architecture armhf
+        sudo apt update && sudo apt install -y screen:armhf
+        file /usr/bin/screen # should say ELF 32-bit
+        screen
+        ```
     - Das Windows Subsystem für Linux oder ein Chromebook im Linux-Modus werden _nicht funktionieren_, da diese keinen direkten Zugang zum Bluetooth-Adapter oder zu USB-Anschlüssen haben.
-    - If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or Mac.
+    - If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or intel based Macs.
+        - Apple Silicon Macs will not work due to them missing the ARM32 instructions in the hardware.
         - 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
         - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
     - You can [flash a Linux Live environment to a USB flash drive](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) instead of installing it to your computer.
