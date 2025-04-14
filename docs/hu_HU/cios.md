@@ -6,7 +6,7 @@ outline: false
 
 ::::: tabs
 
-:::: tab cIOS for Wii/Family Edition
+:::: tab cIOS a Wii/Family Edition-höz
 
 :::details Technikai részletek (opcionális)
 
@@ -22,7 +22,7 @@ Ne próbálj meg vWii/Wii minire tervezett IOS-t vagy rendszermenüt Wiire telep
 
 ## Követelmények
 
-- A Wii with the Homebrew Channel installed
+- Egy Wii telepített Homebrew Channel-lel
 - Egy SD kártya vagy pendrive
 - The [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
@@ -189,7 +189,7 @@ Most, hogy a konzol megfelelő védelemmel rendelkezik, telepítheted az Open Sh
 
 ::::
 
-:::: tab cIOS for vWii (Wii U)
+:::: tab cIOS a vWii-hez (Wii U-hoz)
 
 :::details Technikai részletek (opcionális)
 
@@ -245,7 +245,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
     :::
 
-7. Press `A` to install.
+7. Nyomj `A` gombot a telepítéshez.
 
     ![](/images/cios/d2x_installation.png)
 
@@ -291,7 +291,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 ::::
 
-:::: tab cIOS for Wii mini
+:::: tab cIOS a Wii mini-hez
 
 ::: info
 
