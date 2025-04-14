@@ -47,7 +47,7 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 - Egy Linuxos számítógép
     - Lehetséges, hogy a program egy virtuális számítógépen is elfut, de ez a módszer a Bluetooth-áthidalás bonyolultsága miatt nem ajánlott. Ha lehet, az alább leírtak szerint futtasd a Linuxot egy Usb-meghajtóról.
     - Egy Raspberry Pi működhet, ugyanis arra valószínűleg már telepítve van a Linux egy verziója.
-        - ARM64 Rasperry Pi's need multiarch enabled with the armhf (32bit) architecture added. The following should work on any debian based OS:
+        - ARM64 Rasperry Pi's need multiarch enabled with the armhf (32bit) architecture added. Az alábbinak működnie kell minden debian alapú OS-en:
         ```bash
         sudo sudo dpkg --add-architecture armhf
         sudo apt update && sudo apt install -y screen:armhf
