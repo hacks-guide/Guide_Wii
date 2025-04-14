@@ -135,7 +135,7 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 
 ::: tip
 
-[Continue to the Hackmii Installer](hbc)
+[Folytatás a Hackmii Installer-rel](hbc)
 
 :::
 
@@ -261,7 +261,7 @@ Ha `Exception 0700 occurred!` hibaüzenetet vagy hasonlót kapsz, próbálja meg
 
 ::: tip
 
-[Continue to the Hackmii Installer](hbc)
+[Folytatás a Hackmii Installer-rel](hbc)
 
 :::
 
