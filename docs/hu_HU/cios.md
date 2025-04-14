@@ -128,7 +128,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
     ::: info
 
-    If the slot is highlighted red, try to install the cIOS again.
+    Ha a slot pirossal van kiemelve, próbáld újra a cIOS telepítését.
 
     Ha hibát kapsz a letöltési fázisok előtt/alatt, (pl. `tcp_connect timeout`, `net_gethostbyname failed: ...`), nyomj B gombot a kilépéshez és folytasd az [I. résszel](#section-i---downloading).
 
@@ -181,7 +181,7 @@ Ha letöltötted a 4 WAD fájlt az I. részben, most törölheted őket az SD k�
 
 ::: tip
 
-[Continue to Open Shop Channel installation](osc)
+[Folytatás az Open Shop Channel telepítésével](osc)
 
 Most, hogy a konzol megfelelő védelemmel rendelkezik, telepítheted az Open Shop Channelt, ami a homebrew programok megbízható tárháza és hozzáférhető mind egy Wiiről vagy egy számítógépről.
 
@@ -207,7 +207,7 @@ Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telep
 
 - Egy Wii U, aminek a vWii-jére telepítve van a Homebrew Channel
 - Egy SD kártya vagy pendrive
-- The [d2x cIOS Installer for vWii](/assets/files/d2x_cIOS_Installer-vWii.zip)
+- A [d2x cIOS Installer for vWii](/assets/files/d2x_cIOS_Installer-vWii.zip)
 
 ::: warning
 
@@ -219,7 +219,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 ### I. rész – Telepítés
 
-1. Copy the `apps` folder in the d2x-cios-installer-vwii `.zip` to the root of your SD card or USB drive.
+1. Másold az `apps` mappát a d2x-cios-installer-vwii `.zip` fájlból az SD kártya vagy az USB drive gyökerébe.
 
 2. Csatlakoztasd az SD kártyát vagy a pendrive-ot a konzolodba!
 
@@ -285,7 +285,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 ::: tip
 
-[Continue to finalizing setup](vwii-finalizing-setup)
+[Folytatás a telepítés befejezésével](vwii-finalizing-setup)
 
 :::
 
@@ -317,7 +317,7 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire tele
 
 - Egy Wii mini, amire telepítve van a Homebrew Channel
 - Egy USB drive
-- The [d2xl cIOS Installer](/assets/files/d2xl-cios-installer-mini.zip)
+- A [d2xl cIOS Installer](/assets/files/d2xl-cios-installer-mini.zip)
 
 ## Lépések
 
@@ -325,7 +325,7 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire tele
 
 1. Kapcsold ki a konzolod.
 2. Csatlakoztasd az USB drive-ot a számítógépedhez.
-3. Copy the `apps` folder from the d2xl-cios-installer-mini `.zip` to the root of your USB drive.
+3. Másold át az `apps` mappát a d2x-cios-installer-mini `.zip` fájlból az USB drive-od gyökerébe.
 4. Helyezd be a pendrive-ot a konzolba!
 5. Kapcsold be a konzolod.
 6. Indítsd el a Homebrew Channelt.
