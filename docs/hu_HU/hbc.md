@@ -138,7 +138,7 @@ Ugyan egy Wii minire is lehetséges telepíteni a BootMiit, de egy SD kártya-ol
 
     ![](/images/hackmii/hbc_install.png)
 
-5. Once it is completed, select `Continue`
+5. Miután befejeződött, nyomd meg a `Continue` gombot
 
     ![](/images/hackmii/hbc_install_ok.png)
 
@@ -150,9 +150,9 @@ Ugyan egy Wii minire is lehetséges telepíteni a BootMiit, de egy SD kártya-ol
 
 ## Kötelező olvasnivaló
 
-You can now use the Homebrew Channel to launch homebrew apps.
+Most már tudod használni a Homebrew Channel-t arra, hogy homebrew appokat indíts.
 
-Note: When installing homebrew applications on your USB drive, your folder structure should look like this:
+Megjegyzés: Ha homebrew alkalmazásokat telepítesz az USB drive-odra, a könyvtárfelépítésed így kell, hogy kinézzen:
 
 ```
 💾 USB Drive
