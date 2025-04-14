@@ -30,7 +30,7 @@ A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszerc
 
 ## Lépések
 
-1. Extract the WiiGSC `.zip`, find `WiiGSC.exe`, and launch it.
+1. Csomagold ki a WiiGSC `.zip`-et, keresd meg a `WiiGSC.exe` fájlt és indítsd el.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
