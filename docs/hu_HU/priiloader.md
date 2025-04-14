@@ -109,12 +109,12 @@ Ez az úmtutató segédlet segít elkerülni a Wii-od brickelését, ha több va
 
 :::
 
-## Next Steps
+## További lépések
 
 ::: tip
 
 Folytatás a [cIOS-sal](cios)
 
-This guide provides steps on how to get a basic set of cIOS installed on your console, enabling functionality on apps like USB loaders.
+Ez az útmutató végigvezet az alap cIOS-ok konzolodra telepítésén, ami további funkciókat fog elérhetővé tenni, mint például az USB Loaderek.
 
 :::
