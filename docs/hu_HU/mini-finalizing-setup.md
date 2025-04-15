@@ -10,9 +10,9 @@ Minden homebrew alkalmazást a Homebrew Channelről lehet elindítani.
 
 :::
 
-- Az Ethernet Enabler lehetővé teszi egy USB ethernet adapter használatát a Wii mini-n. Csak az ASIX AX88772 chipset-tel rendelkező adapterek támogatottak a Wii mini-n. Additionally, homebrew apps that need internet will require the use of a USB hub, preferrably one that can be externally powered.
-- System Channel Restorer is a homebrew app that allows some channels usually only available on Wii to be easily installed on the Wii mini.
-- Settings Editor GUI is an app that allows access to system settings without booting the Wii menu. On the Wii mini it can access settings that don't normally appear in the Wii mini system menu.
+- Az Ethernet Enabler lehetővé teszi egy USB ethernet adapter használatát a Wii mini-n. Csak az ASIX AX88772 chipset-tel rendelkező adapterek támogatottak a Wii mini-n. Továbbá, a homebrew appok esetén, amik internetet igényelnek szükség van egy USB hub-ra, preferáltan olyanra, aminek van külső tápja.
+- A System Channel Restorer egy homebrew app ami lehetővé teszi, hogy néhány csatorna ami általában csak Wii-on elérhető, könnyen telepíthető legyen a Wii mini-re.
+- A Settings Editor GUI egy olyan app, ami hozzáférést ad a rendszerbeállításokhoz, a Wii menu-be bootolás nélkül. A Wii mini-n el tud érni olyan beállításokat is, amik nem jelennek meg normális esetben a Wii mini system menüjében.
 
 ### További homebrew alkalmazások – Letöltések
 
@@ -30,6 +30,6 @@ Minden homebrew alkalmazást a Homebrew Channelről lehet elindítani.
 
 Folytatás az [Open Shop Channel telepítés](osc)-ével
 
-Now that your Wii mini setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii mini.
+Most, hogy a Wii mini telepítésed teljes, telepítheted az Open Shop Channel-t, ami a homebrew programok megbízható tárháza és hozzáférhető mind egy Wii mini-ről vagy egy számítógépről.
 
 :::
