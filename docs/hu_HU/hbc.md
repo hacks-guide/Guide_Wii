@@ -40,7 +40,7 @@ Bármikor telepítheted később](hackmii).
 
     ![](/images/hackmii/hbc_install_ok.png)
 
-6. Select `BootMii...`.
+6. Válaszd a `BootMii...`-t.
 
     ![](/images/hackmii/bootmii_install.png)
 
@@ -60,7 +60,7 @@ Bármikor telepítheted később](hackmii).
 
     ![](/images/hackmii/bootmii_install4.png)
 
-10. Select `Return to the main menu`, then select `Exit`.
+10. Válaszd a `Return to the main menu`-t, majd válaszd az `Exit`-et.
 
 11. Ezután a konzol el fogja indítani a Homebrew Channelt.
 
