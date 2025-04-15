@@ -345,7 +345,7 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire tele
     ![](/images/cios/d2x_v1_249_mini_NTSC.png)
     ![](/images/cios/d2x_v1_249_mini_PAL.png)
 
-    - Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
+    - A megjegyzések alatt látni fogsz egy IOS verzió számot, ami vagy `v31775`-re vagy `v31776`-ra végződik. Az `IOS57-64-v31775` az NTSC (észak-amerikai) konzolokhoz, míg az `IOS57-64-v31776` a PAL (európai) konzolokhoz. Legyél biztos abban, hogy a megfelelő verziószámot választod a konzolodhoz.
 3. A telepítés indításához nyomd meg az A gombot.
     - Ha a telepítés megszakad `TMD version mismatch` hibával, akkor a Control Pad jobb- és bal nyílgombjaival állítsd át a `Select cIOS base` opciót amíg verziószám más nem lesz, mint amit korábban próbáltál. Az 57-es szám nem változik.
 4. A folyamat végén lépj ki a telepítőből.
