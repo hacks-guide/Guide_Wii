@@ -22,9 +22,9 @@ Minden homebrew alkalmazást a Homebrew Channelről lehet elindítani.
 
 ### További homebrew alkalmazások – Fájlok kicsomagolása az SD kártyára
 
-1. Copy the contents of the Ethernet Enabler to the root of the SD.
+1. Másold át az Ethernet Enabler tartalmát az SD kártya gyökerére.
 2. Másold a system-channel-restorer fájljait az SD kártya gyökerébe.
-3. Copy the contents of the Settings Editor GUI to the root of the SD.
+3. Másold át a Settings Editor GUI tartalmát az SD kártya gyökerére.
 
 ::: tip
 
