@@ -24,7 +24,7 @@ Ne próbálj meg vWii/Wii minire tervezett IOS-t vagy rendszermenüt Wiire telep
 
 - Egy Wii telepített Homebrew Channel-lel
 - Egy SD kártya vagy pendrive
-- The [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
+- A [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
 
 ::: warning
 
@@ -96,7 +96,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
     ::: info
 
-    If you do not see `d2x-v11-beta2`, exit the installer with B, and make sure your SD card is unlocked.
+    Ha nem látod a `d2x-v11-beta2`-t, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
 
     :::
 
@@ -241,7 +241,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
     ::: info
 
-    If you do not see `d2x-v11-beta2-vWii`, exit the installer with B, and make sure your SD card is unlocked.
+    Ha nem látod a `d2x-v11-beta2-vWii`-t, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
 
     :::
 
@@ -249,7 +249,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
     ![](/images/cios/d2x_installation.png)
 
-8. Repeat the previous 2 steps with the following configurations:
+8. Ismételd meg az előző 2 lépést az alábbi beállításokkal:
 
     - A cIOS 249 telepítéséhez
 
@@ -352,7 +352,7 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire tele
 
 ::: tip
 
-[Continue to finalizing setup](mini-finalizing-setup)
+[Folytatás a telepítés befejezésével](mini-finalizing-setup)
 
 :::
 
