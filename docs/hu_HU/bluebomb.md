@@ -47,7 +47,7 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 - Egy Linuxos számítógép
     - Lehetséges, hogy a program egy virtuális számítógépen is elfut, de ez a módszer a Bluetooth-áthidalás bonyolultsága miatt nem ajánlott. Ha lehet, az alább leírtak szerint futtasd a Linuxot egy Usb-meghajtóról.
     - Egy Raspberry Pi működhet, ugyanis arra valószínűleg már telepítve van a Linux egy verziója.
-        - ARM64 Rasperry Pi's need multiarch enabled with the armhf (32bit) architecture added. Az alábbinak működnie kell minden debian alapú OS-en:
+        - Az ARM64 Rasperry Pi nak szüksége van a multiarch engedélyezésére az armhf (32bit) architektúrával. Az alábbinak működnie kell minden debian alapú OS-en:
         ```bash
         sudo sudo dpkg --add-architecture armhf
         sudo apt update && sudo apt install -y screen:armhf
@@ -55,8 +55,8 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
         screen
         ```
     - Linuxos Windows-alrendszert vagy Linux-módban futó Chromebookot nem használhatsz, ugyanis ezek nem férnek hozzá a Bluetooth-adapterhez vagy az USB portokhoz.
-    - If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or intel based Macs.
-        - Apple Silicon Macs will not work due to them missing the ARM32 instructions in the hardware.
+    - Ha nincs Linuxod, akkor az [Ubuntu](https://ubuntu.com/download/desktop) lehet a legfelhasználóbarátabb lehetőség és ami a legtöbb Windowsos vagy MacOS-es számítógépen elfut.
+        - Apple Silicon Mac-ek nem fognak működni, mivel hiányoznak az ARM32 utasítások a hardverből.
         - A 32-bites eszközök [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) verziót igényelnek.
         - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
     - [Készíthetsz egy Linux Live környezetet egy USB pendrive-ra](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) is a helyett, hogy telepítenéd a számítógépedre.
