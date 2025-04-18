@@ -89,7 +89,7 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 
 ::: tip
 
-[Continue to Priiloader Installation](priiloader)
+[Weiter zur Priiloader Installation](priiloader)
 
 :::
 
