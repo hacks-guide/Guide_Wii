@@ -28,7 +28,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 ## Requirements
 
-- An SD card with at least 512MB of free space
+- Eine SD-Karte mit mindestens 512MB freiem Speicherplatz (1GB oder mehr empfohlen)
 - A [NAND backup](bootmii) from the specific system you are trying to flash
 - A Windows computer with an Internet connection
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
