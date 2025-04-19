@@ -8,7 +8,7 @@ outline: false
 
 :::: tab cIOS for Wii/Family Edition
 
-:::details Technical Details (optional)
+:::details Detalles técnicos (opcional)
 
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Ahora puedes usar aplicaciones homebrew como <a href="usbloadergx">USB Loader GX</a> y <a href="wiiflow">WiiFlow</a>. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
@@ -191,7 +191,7 @@ Now that your Wii has adequate brick protection, you can install the Open Shop C
 
 :::: tab cIOS for vWii (Wii U)
 
-:::details Technical Details (optional)
+:::details Detalles técnicos (opcional)
 
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Ahora puedes usar aplicaciones homebrew como <a href="usbloadergx">USB Loader GX</a> y <a href="wiiflow">WiiFlow</a>. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
@@ -299,7 +299,7 @@ If you need help with anything regarding this tutorial, please join [the Wii min
 
 :::
 
-:::details Technical Details (optional)
+:::details Detalles técnicos (opcional)
 
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Ahora puedes usar aplicaciones homebrew como <a href="usbloadergx">USB Loader GX</a> y <a href="wiiflow">WiiFlow</a>. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
