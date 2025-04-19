@@ -4,7 +4,7 @@ Diese Anleitung gibt Anweisungen, wie man ein Backup deines NAND mit BootMii wie
 
 ::: info
 
-If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Überspringe Schritt 1 und 2 in diesem Fall.
+Wenn du BootMii als boot2 installiert hast, musst du die Konsole neu starten, um BootMii zu starten. Überspringe Schritt 1 und 2 in diesem Fall.
 
 :::
 
