@@ -56,18 +56,18 @@ The `WiiFlash_n_ECC.img` is your NAND image. The other two files are "error" dat
 
 1. Launch xyzzy mod from the Homebrew Channel.
 2. Select `USB device`
-   - It should start retriving your console information.
+    - It should start retriving your console information.
 3. When it is done, press any button to exit.
 
-   - You will have 5 new files on your USB:
+    - You will have 5 new files on your USB:
 
-   ```
-   bootmii_keys.bin
-   device.cert
-   keys.txt
-   otp.bin
-   seeprom.bin
-   ```
+    ```
+    bootmii_keys.bin
+    device.cert
+    keys.txt
+    otp.bin
+    seeprom.bin
+    ```
 
 For now, only the `bootmii_keys.bin` file is required.
 
@@ -89,9 +89,7 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 
 ::: tip
 
-Continue to [Open Shop Channel Installation](osc)
-
-Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+[Continue to Priiloader Installation](priiloader)
 
 :::
 

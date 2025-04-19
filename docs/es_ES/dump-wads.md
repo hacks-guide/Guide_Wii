@@ -25,11 +25,11 @@ En esta guía aprenderás a extraer canales instalados en la memoria de la conso
 
 8. Oprime el botón A.
 
-   ![](/images/homebrew/DumpWADS/1.png)
+    ![](/images/homebrew/DumpWADS/1.png)
 
 9. Select `Installed Channel Titles`.
 
-   ![](/images/homebrew/DumpWADS/2.png)
+    ![](/images/homebrew/DumpWADS/2.png)
 
 10. Pulsa arriba o abajo en el botón cruz hasta encontrar el contenido que deseas copiar, y oprime el botón 1.
 

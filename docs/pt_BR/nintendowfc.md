@@ -33,20 +33,20 @@ A method for Wiimmfi patching which runs on retail disc games automatically via 
 
 2. Você deve ver o menu do Priiloader.
 
-   ![](/images/priiloader/mainmenu.png)
+    ![](/images/priiloader/mainmenu.png)
 
 3. Go to `System Menu Hacks`.
 
-   ::: info
+    ::: info
 
-   Se você estiver usando um armazenamento USB para instalar o Priiloader, certifique-se que você não tem um cartão SD inserido no seu Wii ao mesmo tempo.
-   Isso fará com que o Priiloader não consiga encontrar o arquivo hacks_hash.ini.
+    Se você estiver usando um armazenamento USB para instalar o Priiloader, certifique-se que você não tem um cartão SD inserido no seu Wii ao mesmo tempo.
+    Isso fará com que o Priiloader não consiga encontrar o arquivo hacks_hash.ini.
 
-   :::
+    :::
 
 4. Make sure the `Wiimmfi patch v4` hack is enabled.
 
-   ![](/images/priiloader/hacks.png)
+    ![](/images/priiloader/hacks.png)
 
 5. Scroll to `Save Settings` and save your changes.
 
@@ -125,7 +125,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 2. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
 
-   ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
+    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
 3. Se você estiver usando o Wii U, você terá que executar o patcher de competições sempre que quiser checar por uma competição, pois o WiiConnect24 não está habilitado no Wii U.
 
@@ -189,9 +189,9 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 
 1. Download the patcher and extract the `.zip` file.
 2. Insira o cartão SD ou armazenamento USB no Wii.
-   - If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
-   - If you're on MacOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
-   - If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
+    - If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
+    - If you're on MacOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
+    - If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
 3. If the above was successful, you should see a window pop-up that displays the patching process. Once the process finishes, you will find the patched images in a folder called `wiimmfi-images`.
 
 ::: tip

@@ -28,16 +28,16 @@ NU folosi niciun exemplu de adrese MAC afișate în acest ghid, deoarece acestea
 
 3. Take note in the top right corner of the letter next to the system version.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
-   - Asigură-te că ești pe System Menu versiunea 4.3.
+    - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    - Asigură-te că ești pe System Menu versiunea 4.3.
 
-   ![](/images/wii/SystemMenuVersion.png)
+    ![](/images/wii/SystemMenuVersion.png)
 
 4. Navigate to `Internet` > `Console Information`.
 
 5. Notează adresa MAC completă.
 
-   ![](/images/wii/MacAddress.png)
+    ![](/images/wii/MacAddress.png)
 
 6. On your computer, open the browser and go to [the HackMii website](https://please.hackmii.com/).
 
@@ -47,7 +47,7 @@ NU folosi niciun exemplu de adrese MAC afișate în acest ghid, deoarece acestea
 
 9. Taie oricare din fire.
 
-   ![](/images/exploits/letterbomb/LetterBomb-PC.png)
+    ![](/images/exploits/letterbomb/LetterBomb-PC.png)
 
 10. Introdu cardul tău SD în calculator.
 

@@ -1,3 +1,7 @@
+::::: tabs
+
+:::: tab Wii
+
 # Installazione dell'Homebrew Channel e di BootMii
 
 :::details Technical Details (optional)
@@ -9,6 +13,7 @@ BootMii può essere installato in due modi: direttamente in una parte del bootlo
 ::: warning
 
 Se non hai una scheda SD, non potrai né installare né utilizzare BootMii, indipendentemente da che sia installato come IOS o boot2.
+
 You can always [install it later](hackmii).
 
 :::
@@ -17,45 +22,45 @@ You can always [install it later](hackmii).
 
 1. La console dovrebbe essere accesa e dovrebbe mostrare l'HackMii Installer dalla parte precedente della guida.
 
-   - Vedrai una schermata di avvertimento truffa.
+    - Vedrai una schermata di avvertimento truffa.
 
-   ![](/images/hackmii/scam.png)
+    ![](/images/hackmii/scam.png)
 
 2. Attendi 30 secondi affinché il testo "Press 1 to continue" appaia, poi premi 1.
 
 3. Select `Continue`.
 
-   ![](/images/hackmii/test_results.png)
+    ![](/images/hackmii/test_results.png)
 
 4. Select `Install the Homebrew Channel`.
 
-   ![](/images/hackmii/hbc_install.png)
+    ![](/images/hackmii/hbc_install.png)
 
 5. Once it is completed, select `Continue`.
 
-   ![](/images/hackmii/hbc_install_ok.png)
+    ![](/images/hackmii/hbc_install_ok.png)
 
-6. Select `Back`, then select `BootMii`.
+6. Select `BootMii...`.
 
-   ![](/images/hackmii/bootmii_install.png)
+    ![](/images/hackmii/bootmii_install.png)
 
 7. Select `Install BootMii as IOS`.
 
-   ![](/images/hackmii/bootmii_install1.png)
+    ![](/images/hackmii/bootmii_install1.png)
 
-   ![](/images/hackmii/bootmii_install2.png)
+    ![](/images/hackmii/bootmii_install2.png)
 
-   ![](/images/hackmii/bootmii_install3.png)
+    ![](/images/hackmii/bootmii_install3.png)
 
-   ![](/images/hackmii/bootmii_install_ok.png)
+    ![](/images/hackmii/bootmii_install_ok.png)
 
 8. Once it is completed, select `Continue`.
 
 9. If you have the option to `Install BootMii as boot2`, please do so as well.
 
-   ![](/images/hackmii/bootmii_install4.png)
+    ![](/images/hackmii/bootmii_install4.png)
 
-10. Select `Exit`.
+10. Select `Return to the main menu`, then select `Exit`.
 
 11. La tua console avvierà l'Homebrew Channel.
 
@@ -82,6 +87,8 @@ Nota: Quando installi applicazioni homebrew nella tua scheda SD o unità USB, la
 
 `AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
 
+### Wii: I passaggi successivi
+
 ::: tip
 
 [Continue to making a NAND Backup using BootMii](bootmii)
@@ -95,3 +102,82 @@ Making a NAND backup at this point is highly recommended, as they can be used to
 Suggerimento: Se un Wii ha BootMii installato come boot2, il lettore dei dischi lampeggia molto brevemente dopo il flash immediato quando premi il pulsante POWER.
 
 :::
+::::
+
+:::: tab Wii mini
+
+# Homebrew Channel
+
+:::details Technical Details (optional)
+
+L'Homebrew Channel è dove andrai ad avviare applicazioni homebrew.
+
+:::
+
+::: warning
+
+Anche se è possibile installare BootMii su un Wii mini, è necessaria la saldatura di uno slot scheda SD. Ciò richiede smontare il tuo Wii mini e utilizzare strumenti specializzati, quindi non è raccomandato.
+
+:::
+
+## Istruzioni
+
+1. La console dovrebbe essere accesa e dovrebbe mostrare l'HackMii Installer dalla parte precedente della guida.
+
+    - Vedrai una schermata di avvertimento truffa.
+
+    ![](/images/hackmii/scam.png)
+
+2. Attendi 30 secondi affinché il testo "Press 1 to continue" appaia, poi premi 1.
+
+3. Select `Continue`.
+
+    ![](/images/hackmii/test_results.png)
+
+4. Select `Install the Homebrew Channel`.
+
+    ![](/images/hackmii/hbc_install.png)
+
+5. Once it is completed, select `Continue`
+
+    ![](/images/hackmii/hbc_install_ok.png)
+
+6. Select `Exit`.
+
+7. La tua console avvierà l'Homebrew Channel.
+
+    ![](/images/hbc/blank.png)
+
+## Leggere attentamente
+
+You can now use the Homebrew Channel to launch homebrew apps.
+
+Note: When installing homebrew applications on your USB drive, your folder structure should look like this:
+
+```
+💾 USB Drive
+| ╸📁 apps
+	| ╸📁 AppName1
+		| ╸📄 boot.dol
+		| ╸📄 meta.xml
+		| ╸📄 icon.png
+	| ╸📁 AppName2
+		| ╸📄 boot.dol
+		| ╸📄 meta.xml
+		| ╸📄 icon.png
+```
+
+`AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
+
+::: tip
+
+### Wii mini: I passaggi successivi
+
+::: tip
+
+[Continue to making a NAND Backup using RealWnd](wnd-mini)
+
+Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
+
+:::
+::::

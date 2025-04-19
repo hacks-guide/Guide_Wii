@@ -24,19 +24,19 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 
 - WiiFlow Lite ha un'interfaccia utente più avanzata per quanto riguarda le animazioni e gli effetti e supporta i temi.
 
-  - Le schede SD sono interamente compatibili per il caricamento dei giochi Wii su WiiFlow Lite.
-  - WiiFlow Lite ha un sistema di plugin.
-  - Mentre il WiiFlow originale è stato aggiornato per l'ultima volta nel 2014, il fork WiiFlow Lite riceve tutt'ora aggiornamenti regolari.
+ - Le schede SD sono interamente compatibili per il caricamento dei giochi Wii su WiiFlow Lite.
+ - WiiFlow Lite ha un sistema di plugin.
+ - Mentre il WiiFlow originale è stato aggiornato per l'ultima volta nel 2014, il fork WiiFlow Lite riceve tutt'ora aggiornamenti regolari.
 
-  ![](/images/usb-loaders/wiiflow-ui.png)
+ ![](/images/usb-loaders/wiiflow-ui.png)
 
 - USB Loader GX è principalmente basato sul Menu Wii e supporta i temi.
 
-  - Anche se in passato le schede SD non erano supportate per i giochi Wii su USB Loader GX, recenti aggiornamenti hanno introdotto il loro supporto per questo loader.
-  - USB Loader GX non ha un sistema di plugin.
-  - USB Loader GX still receives regular updates.
+ - Anche se in passato le schede SD non erano supportate per i giochi Wii su USB Loader GX, recenti aggiornamenti hanno introdotto il loro supporto per questo loader.
+ - USB Loader GX non ha un sistema di plugin.
+ - USB Loader GX still receives regular updates.
 
-  ![](/images/usb-loaders/usbloadergx-ui.png)
+ ![](/images/usb-loaders/usbloadergx-ui.png)
 
 ## Struttura percorsi di gioco
 
@@ -173,7 +173,7 @@ Per cambiare il cIOS utilizzato per un gioco specifico, segui le istruzioni adat
 3. Select `Game Load`.
 4. Scroll down to `Game IOS`.
 5. Seleziona lo slot IOS da usare.
-   - Prova ad usare 248, 249, 250 o 251.
+ - Prova ad usare 248, 249, 250 o 251.
 6. Premi OK e prova a caricare il gioco.
 
 ### WiiFlow Lite
@@ -181,7 +181,7 @@ Per cambiare il cIOS utilizzato per un gioco specifico, segui le istruzioni adat
 1. Seleziona il gioco che non funziona.
 2. Clicca sull'icona degli ingranaggi.
 3. Vai su cIOS e usa le frecce per cambiare lo slot IOS da usare.
-   - Prova ad usare 248, 249, 250 o 251.
+ - Prova ad usare 248, 249, 250 o 251.
 4. Premi Salva e prova a caricare il gioco.
 
 ::: tip

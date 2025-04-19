@@ -14,7 +14,7 @@ Inoltre, può essere usato per avviare rapidamente titoli e homebrew, oppure per
 
 - Una scheda SD
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
-  - [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
+    - [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
 
 ## Instructions
 
@@ -35,13 +35,13 @@ Inoltre, può essere usato per avviare rapidamente titoli e homebrew, oppure per
 
 3. Launch Priiloader Installer from the list of homebrew.
 
-   ![](/images/hbc/priiloader-and-loadpriiloader.png)
+    ![](/images/hbc/priiloader-and-loadpriiloader.png)
 
 4. Premi il pulsante + sul telecomando Wii oppure il pulsante A su un controller GameCube.
 
-   ![](/images/priiloader/installer.png)
+    ![](/images/priiloader/installer.png)
 
-   ![](/images/priiloader/installing.png)
+    ![](/images/priiloader/installing.png)
 
 5. Premi A per tornare all'Homebrew Channel.
 
@@ -50,46 +50,46 @@ Inoltre, può essere usato per avviare rapidamente titoli e homebrew, oppure per
 1. Premi il pulsante HOME e seleziona Ritorna al Menu di Sistema per uscire dall'Homebrew Channel.
 2. La tua console quindi caricherà il menu di Priiloader.
 
-   ![](/images/priiloader/menu.png)
+    ![](/images/priiloader/menu.png)
 
 Successivamente, per entrarci dovrai:
 
 - Tenere premuto il pulsante RESET sul Wii durante l'accensione
-  - Solo Wii
+    - Solo Wii
 - Tenere premuto il tasto ESC su una tastiera USB connessa durante l'accensione della console
-  - Wii, vWii e mini
+    - Wii, vWii e mini
 - Eseguire "Load Priiloader" dall'HBC
-  - Wii, vWii e mini
+    - Wii, vWii e mini
 - Usare il "Priiloader Wii U Forwarder"
-  - Solo vWii
+    - Solo vWii
 
 ### Sezione III - Configurazione di Priiloader
 
 1. Scroll down to `System Menu Hacks` and press `A`.
 
-   ![](/images/priiloader/menu_hacks.png)
+    ![](/images/priiloader/menu_hacks.png)
 
-   ::: warning
+    ::: warning
 
-   If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
+    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
 
-   Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
+    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
-   :::
+    :::
 
 2. Per le seguenti opzioni, attiva le opzioni in base alla tua console:
-   - Wii:
-     - If you are using 480p mode: `480p graphics fix in the system menu`
-     - Block Disc Updates
-     - Block Online Updates
-     - If you are NOT using a CRT display: `Remove Deflicker`
-   - vWii:
-     - Block Online Updates
-     - Wii System Settings via Options Button
-     - If you are NOT using a CRT display: `Remove Deflicker`
-   - Wii mini:
-     - Block Disc Updates
-     - If you are NOT using a CRT display: `Remove Deflicker`
+    - Wii:
+        - If you are using 480p mode: `480p graphics fix in the system menu`
+        - Block Disc Updates
+        - Block Online Updates
+        - If you are NOT using a CRT display: `Remove Deflicker`
+    - vWii:
+        - Block Online Updates
+        - Wii System Settings via Options Button
+        - If you are NOT using a CRT display: `Remove Deflicker`
+    - Wii mini:
+        - Block Disc Updates
+        - If you are NOT using a CRT display: `Remove Deflicker`
 
 3. Scroll down to `save settings` and press A.
 
@@ -109,32 +109,12 @@ These guidelines list ways that will help avoid bricking your Wii, beyond just h
 
 :::
 
-## Wii: I passaggi successivi
+## Next Steps
 
 ::: tip
 
 Continue to [cIOS](cios)
 
-This guide provides steps on how to get a basic set of cIOS installed on your Wii, enabling functionality on apps like USB loaders.
-
-:::
-
-## vWii: Next Steps
-
-::: tip
-
-Continue to [vWii cIOS](cios-vwii)
-
-This guide provides steps on how to get a basic set of cIOS installed on the vWii, enabling functionality on apps like USB loaders.
-
-:::
-
-## Wii mini: I passaggi successivi
-
-::: tip
-
-Continue to [Wii mini cIOS](cios-mini)
-
-This guide provides steps on how to get a basic set of cIOS installed on your Wii mini, enabling functionality on apps like USB loaders.
+This guide provides steps on how to get a basic set of cIOS installed on your console, enabling functionality on apps like USB loaders.
 
 :::

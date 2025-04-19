@@ -27,11 +27,11 @@ Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda 
 
 8. When prompted, select `Yes` to calculate disc checksums.
 
-   ![](/images/homebrew/CleanRip/checksum.png)
+    ![](/images/homebrew/CleanRip/checksum.png)
 
 9. Seleziona il dispositivo su cui eseguirai il dump del gioco - unità USB o scheda SD.
 
-   ![](/images/homebrew/CleanRip/device.png)
+    ![](/images/homebrew/CleanRip/device.png)
 
 10. Selezionare il tipo di filesystem del dispositivo - nella maggior parte dei casi sarà FAT (FAT32).
 
@@ -73,21 +73,21 @@ Se ottieni un errore di lettura non recuperato, assicurati che il disco su cui s
 
 1. Quando richiesto, seleziona se il tuo disco è un disco Datel senza licenza. If unsure, select `No`.
 
-   ![](/images/homebrew/CleanRip/dateldisc.png)
+    ![](/images/homebrew/CleanRip/dateldisc.png)
 
 2. Regola le impostazioni come mostrato sotto, nel frattempo verifica se il disco è a doppio strato o no.
 
-   ![](/images/homebrew/CleanRip/wiisettings.png)
+    ![](/images/homebrew/CleanRip/wiisettings.png)
 
 3. Premi A per iniziare il dump del disco.
 
-   - Questo processo può metterci un bel po' di tempo, siccome farà il dump di tutti i 4.7 GB del disco (8.5 GB per i dischi a doppio strato).
+    - Questo processo può metterci un bel po' di tempo, siccome farà il dump di tutti i 4.7 GB del disco (8.5 GB per i dischi a doppio strato).
 
-   ![](/images/homebrew/CleanRip/wiiprogress.png)
+    ![](/images/homebrew/CleanRip/wiiprogress.png)
 
 4. Una volta finito il dump, dovresti vedere una schermata con il checksum MD5 del disco, in confronto al DAT di Redump se è stato attivato.
 
-   ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
+    ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
 
 ::: tip
 
@@ -105,17 +105,17 @@ Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping 
 
 1. Quando richiesto, seleziona se il tuo disco è un disco Datel senza licenza. If unsure, select `No`.
 
-   ![](/images/homebrew/CleanRip/dateldisc.png)
+    ![](/images/homebrew/CleanRip/dateldisc.png)
 
 2. Premi A per iniziare il dump del disco.
 
-   - Questo processo può richiedere un po' di tempo, siccome farà il dump di tutti i 1.3 GB del Mini DVD.
+    - Questo processo può richiedere un po' di tempo, siccome farà il dump di tutti i 1.3 GB del Mini DVD.
 
-   ![](/images/homebrew/CleanRip/gcprogress.png)
+    ![](/images/homebrew/CleanRip/gcprogress.png)
 
 3. Una volta finito il dump, dovresti vedere una schermata con il checksum MD5 del disco, in confronto al DAT di Redump se è stato attivato.
 
-   ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
+    ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
 ::: tip
 

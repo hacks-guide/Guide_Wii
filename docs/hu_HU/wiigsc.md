@@ -26,23 +26,17 @@ A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszerc
 - Egy SD kártya vagy USB drive
 - [YAWM ModMii Edition](yawmme)
 - Egy Windows számítógép.
-- [WiiGSC](https://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/)
+- [WiiGSC ModMii Edition](https://github.com/modmii/WiiGSC/releases)
 
 ## Lépések
 
-1. Telepítsd a WiiGSC-t, majd kattints rá a jobb gombbal, és válaszd a **Futtatás rendszergazdaként** lehetőséget. Ha ezt nem teszed meg, a WiiGSC hibát fog dobni, amikor megnyitod.
+1. Csomagold ki a WiiGSC `.zip`-et, keresd meg a `WiiGSC.exe` fájlt és indítsd el.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
 
 2. Válaszd ki az SD-kártyán vagy USB-meghajtón lévő ISO- vagy WBFS-fájl elérési útvonalát, és válaszd ki a használt betöltőt. A többi beállításnak úgy kell lennie, ahogy van.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
-
-    ::: info
-
-    Ha vWii-n vagy, használd a [Wiiforwarder2vWii](https://gbatemp.net/download/wiiforwarder2vwii-wii-forwarder-to-vwii-wii-u-forwarder-converter-beta-version.37254/) eszközt a WAD fájl vWii-n használhatóvá konvertálásához.
-
-    :::
 
 3. Telepítsd a generált WAD-et a [WAD manager](yawmme)-eddel.
 

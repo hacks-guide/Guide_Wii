@@ -25,11 +25,11 @@ This tutorial will explain you how to dump WADs from your Wii System Memory.
 
 8. Press A.
 
-   ![](/images/homebrew/DumpWADS/1.png)
+    ![](/images/homebrew/DumpWADS/1.png)
 
 9. Select `Installed Channel Titles`.
 
-   ![](/images/homebrew/DumpWADS/2.png)
+    ![](/images/homebrew/DumpWADS/2.png)
 
 10. Find the content you want to dump and press the 1 Button.
 

@@ -40,27 +40,27 @@ You will be installing `uneoboot.dol` in step 3.
 
 3. Scroll down to `Load/Install file` and press A.
 
-   ![](/images/priiloader/menu_install_file.png)
+  ![](/images/priiloader/menu_install_file.png)
 
 4. Scorri tra i menu fino a quando l'app homebrew che vuoi installare è selezionata, quindi premi A per installarla.
 
-   ![](/images/priiloader/installing_file.png)
+  ![](/images/priiloader/installing_file.png)
 
-   ![](/images/priiloader/installing_file_ok.png)
+  ![](/images/priiloader/installing_file_ok.png)
 
 5. Press `B` to return to the main menu.
 
 6. Scroll down to `Settings` and press A.
 
-   ![](/images/priiloader/menu_settings.png)
+  ![](/images/priiloader/menu_settings.png)
 
 7. Press Right to cycle through the Autoboot options until the `Installed file` option is selected.
 
-   ![](/images/priiloader/autoboot_installed_file.png)
+  ![](/images/priiloader/autoboot_installed_file.png)
 
 8. Scroll down to `save settings` and press A.
 
-   ![](/images/priiloader/settings_save.png)
+  ![](/images/priiloader/settings_save.png)
 
 9. Press `B` to return to the main menu.
 
@@ -76,23 +76,23 @@ Ora il tuo Wii dovrebbe avviare la tua app homebrew installata in automatico.
 
 3. Scroll down to `Settings` and press A.
 
-   ![](/images/priiloader/menu_settings.png)
+  ![](/images/priiloader/menu_settings.png)
 
 4. Premi a Destra per scorrere tra le opzioni di autoboot finché non viene selezionata l'opzione desiderata.
 
-   - Disabled' avvierà il menu di Priiloader in automatico.
+  - Disabled' avvierà il menu di Priiloader in automatico.
 
-   ::: warning
+  ::: warning
 
-   Please don't set Autoboot to `BootMii IOS`. Sarai bloccato in un loop finché non tieni premuto il pulsante RESET per tornare nel menu di Priiloader.
+  Please don't set Autoboot to `BootMii IOS`. Sarai bloccato in un loop finché non tieni premuto il pulsante RESET per tornare nel menu di Priiloader.
 
-   :::
+  :::
 
-   ![](/images/priiloader/autoboot_disabled.png)
+  ![](/images/priiloader/autoboot_disabled.png)
 
 5. Scroll down to `save settings` and press A.
 
-   ![](/images/priiloader/settings_save.png)
+  ![](/images/priiloader/settings_save.png)
 
 6. Press `B` to return to the main menu.
 

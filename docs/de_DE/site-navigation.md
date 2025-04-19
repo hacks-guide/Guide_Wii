@@ -63,7 +63,6 @@
 - [How to dump Channels (WADs)](dump-wads)
 - [How to dump GameCube/Wii Games](dump-games)
 - [Managing GameCube Backups](gc-backups)
-- [Managing GameCube Save Files](gcsaves)
 - [Managing Wii Backups](wii-backups)
 - [Priiloader Usage](priiloader-usage)
 - [Recommended Homebrew](recommended-homebrew)
@@ -81,7 +80,6 @@
 - [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
 - [Wii U NAND Dumper](wiiu-nand-dumper)
 - [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
-- [Installing cIOS on the vWii](cios-vwii)
 
 :::
 
@@ -89,8 +87,6 @@
 
 **Wii mini**
 
-- [Installing the Homebrew Channel on the Wii mini](hbc-mini)
-- [Installing cIOS on the Wii mini](cios-mini)
 - [Wii mini NAND Dumper](wnd-mini)
 
 :::

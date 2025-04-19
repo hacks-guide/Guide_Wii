@@ -40,27 +40,27 @@ You will be installing `uneoboot.dol` in step 3.
 
 3. Scroll down to `Load/Install file` and press A.
 
-   ![](/images/priiloader/menu_install_file.png)
+  ![](/images/priiloader/menu_install_file.png)
 
 4. Scroll through the menu until your desired homebrew app is highlighted, and press A to install it.
 
-   ![](/images/priiloader/installing_file.png)
+  ![](/images/priiloader/installing_file.png)
 
-   ![](/images/priiloader/installing_file_ok.png)
+  ![](/images/priiloader/installing_file_ok.png)
 
 5. Press `B` to return to the main menu.
 
 6. Scroll down to `Settings` and press A.
 
-   ![](/images/priiloader/menu_settings.png)
+  ![](/images/priiloader/menu_settings.png)
 
 7. Press Right to cycle through the Autoboot options until the `Installed file` option is selected.
 
-   ![](/images/priiloader/autoboot_installed_file.png)
+  ![](/images/priiloader/autoboot_installed_file.png)
 
 8. Scroll down to `save settings` and press A.
 
-   ![](/images/priiloader/settings_save.png)
+  ![](/images/priiloader/settings_save.png)
 
 9. Press `B` to return to the main menu.
 
@@ -76,23 +76,23 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 
 3. Scroll down to `Settings` and press A.
 
-   ![](/images/priiloader/menu_settings.png)
+  ![](/images/priiloader/menu_settings.png)
 
 4. Press Right to cycle through the Autoboot options until your desired option is selected.
 
-   - Disabled\` will autoboot to the Priiloader menu.
+  - Disabled\` will autoboot to the Priiloader menu.
 
-   ::: warning
+  ::: warning
 
-   Please don't set Autoboot to `BootMii IOS`. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.
+  Please don't set Autoboot to `BootMii IOS`. You will get stuck in a loop until you continuously hold the RESET button to enter the Priiloader menu.
 
-   :::
+  :::
 
-   ![](/images/priiloader/autoboot_disabled.png)
+  ![](/images/priiloader/autoboot_disabled.png)
 
 5. Scroll down to `save settings` and press A.
 
-   ![](/images/priiloader/settings_save.png)
+  ![](/images/priiloader/settings_save.png)
 
 6. Press `B` to return to the main menu.
 

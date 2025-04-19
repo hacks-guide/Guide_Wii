@@ -56,18 +56,18 @@ WiiFlash.log
 
 1. 홈브류 채널에서 xyzzy 개조를 실행하세요.
 2. `USB 장치` 선택
-   - 콘솔 정보를 검색하기 시작할 것입니다.
+    - 콘솔 정보를 검색하기 시작할 것입니다.
 3. 완료되면 아무 버튼이나 눌러 종료합니다.
 
-   - USB에 5 개의 새 파일이 생성됩니다:
+    - USB에 5 개의 새 파일이 생성됩니다:
 
-   ```
-   bootmii_keys.bin
-   device.cert
-   keys.txt
-   otp.bin
-   seeprom.bin
-   ```
+    ```
+    bootmii_keys.bin
+    device.cert
+    keys.txt
+    otp.bin
+    seeprom.bin
+    ```
 
 지금은 `bootmii_keys.bin` 파일만 필요합니다.
 
@@ -89,9 +89,7 @@ Wii 미니 낸드를 사용하여 돌핀에서 Wii 게임을 온라인으로 플
 
 ::: tip
 
-[오픈 샵 채널 설치](osc)를 계속 진행합니다.
-
-이제 Wii가 적절한 벽돌 보호 기능을 갖추었으므로 Wii에서나 외부에서 모두 접속할 수 있는 홈브류의 신뢰할 수 있는 저장소인 오픈 샵 채널을 설치할 수 있습니다.
+[Priiloader 설치 계속하기](priiloader)
 
 :::
 

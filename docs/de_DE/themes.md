@@ -141,7 +141,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 4. Press `+` to install the theme.
 5. Highlight the theme you want to install, then press A. Give it a moment to install the theme, then press any button to go to the Wii Menu. Hopefully, the theme installed correctly. If all goes well, you will have a result similar to the below!
 
-   ![](/images/themes/themed-wii-menu.png)
+    ![](/images/themes/themed-wii-menu.png)
 
 ## Wii Theme Team Creations v2
 
@@ -193,25 +193,25 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 1. Download a theme `.zip` file from the website linked above.
 
-   ![](/images/themes/homebrew-channel-example-theme.png)
+    ![](/images/themes/homebrew-channel-example-theme.png)
 
 2. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
 
-   ![](/images/themes/homebrew-channel-paste-zip.png)
+    ![](/images/themes/homebrew-channel-paste-zip.png)
 
 3. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
 
-   ![](/images/themes/homebrew-channel-extract-theme.png)
+    ![](/images/themes/homebrew-channel-extract-theme.png)
 
 4. Launch MyMenuify Mod from the Homebrew Channel.
 
 5. The theme you just installed can be loaded in the same way that you access a standard app.
 
-   ![](/images/themes/homebrew-channel-load-theme.png)
+    ![](/images/themes/homebrew-channel-load-theme.png)
 
 6. The theme should now be loaded, enjoy!
 
-   ![](/images/themes/homebrew-channel-theme-done.png)
+    ![](/images/themes/homebrew-channel-theme-done.png)
 
 ## App Forwarders
 

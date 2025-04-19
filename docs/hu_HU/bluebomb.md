@@ -47,8 +47,16 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 - Egy Linuxos számítógép
     - Lehetséges, hogy a program egy virtuális számítógépen is elfut, de ez a módszer a Bluetooth-áthidalás bonyolultsága miatt nem ajánlott. Ha lehet, az alább leírtak szerint futtasd a Linuxot egy Usb-meghajtóról.
     - Egy Raspberry Pi működhet, ugyanis arra valószínűleg már telepítve van a Linux egy verziója.
+        - Az ARM64 Rasperry Pi nak szüksége van a multiarch engedélyezésére az armhf (32bit) architektúrával. Az alábbinak működnie kell minden debian alapú OS-en:
+        ```bash
+        sudo sudo dpkg --add-architecture armhf
+        sudo apt update && sudo apt install -y screen:armhf
+        file /usr/bin/screen # should say ELF 32-bit
+        screen
+        ```
     - Linuxos Windows-alrendszert vagy Linux-módban futó Chromebookot nem használhatsz, ugyanis ezek nem férnek hozzá a Bluetooth-adapterhez vagy az USB portokhoz.
-    - Ha még nem használtál Linuxot, akkor az [Ubuntu](https://ubuntu.com/download/desktop) lehet a legfelhasználóbarátabb lehetőség és ami a legtöbb Windowsos vagy MacOS-es számítógépen elfut.
+    - Ha nincs Linuxod, akkor az [Ubuntu](https://ubuntu.com/download/desktop) lehet a legfelhasználóbarátabb lehetőség és ami a legtöbb Windowsos vagy MacOS-es számítógépen elfut.
+        - Apple Silicon Mac-ek nem fognak működni, mivel hiányoznak az ARM32 utasítások a hardverből.
         - A 32-bites eszközök [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) verziót igényelnek.
         - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
     - [Készíthetsz egy Linux Live környezetet egy USB pendrive-ra](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) is a helyett, hogy telepítenéd a számítógépedre.
@@ -125,15 +133,9 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
-::: info
+::: tip
 
-Ha Wii-t használsz: folytasd a [Homebrew Channel és a BootMii telepítésével](hbc)
-
-:::
-
-::: info
-
-Ha Wii mini-t használsz: folytasd a [Homebrew Channel telepítésével.](hbc-mini)
+[Folytatás a Hackmii Installer-rel](hbc)
 
 :::
 
@@ -259,13 +261,7 @@ Ha `Exception 0700 occurred!` hibaüzenetet vagy hasonlót kapsz, próbálja meg
 
 ::: tip
 
-Ha sima Wiivel dolgozol, folytasd a [Homebrew Channel és a BootMii telepítésével](hbc)
-
-:::
-
-::: tip
-
-Ha Wii minivel dolgozol, folytasd a [Homebrew Channel telepítésével.](hbc-mini)
+[Folytatás a Hackmii Installer-rel](hbc)
 
 :::
 

@@ -109,32 +109,12 @@ Ez az úmtutató segédlet segít elkerülni a Wii-od brickelését, ha több va
 
 :::
 
-## Wii: További lépések
+## További lépések
 
 ::: tip
 
 Folytatás a [cIOS-sal](cios)
 
-Ez az útmutató végigvezet az alap cIOS-ok Wii-ra telepítésén, ami további funkciókat fog elérhetővé tenni, mint például az USB Loaderek.
-
-:::
-
-## vWii: További lépések
-
-::: tip
-
-Folytatás a [vWii cIOS-sal](cios-vwii)
-
-Ez az útmutató végigvezet az alap cIOS-ok vWii-re telepítésén, ami további funkciókat fog elérhetővé tenni, mint például az USB Loaderek.
-
-:::
-
-## Wii mini: További lépések
-
-::: tip
-
-Folytatás a [vWii cIOS-sal](cios-vwii)
-
-Ez az útmutató végigvezet az alap cIOS-ok Wii mini-re telepítésén, ami további funkciókat fog elérhetővé tenni, mint például az USB Loaderek.
+Ez az útmutató végigvezet az alap cIOS-ok konzolodra telepítésén, ami további funkciókat fog elérhetővé tenni, mint például az USB Loaderek.
 
 :::

@@ -23,7 +23,7 @@ ModMii는 XFlak이 만든 윈도우용 올인원 Wii 해킹 도구로, 개조에
 
 ## ModMii 개요
 
-ModMii를 사용하는 방법에는 두 가지가 있습니다. 명령줄 인터페이스를 사용하지만 프로그램에서 사용할 수 있는 모든 기능을 갖춘 ModMii 클래식이 있습니다. 반면에 ModMii 스킨은 그래픽 사용자 인터페이스를 가지고 있지만, 사용자에게 제공되는 옵션이 적습니다. 처음으로 Wii를 간단히 개조하고 싶다면 ModMii 스킨으로 충분할 겁니다. 그렇지 않은 경우, 가능하면 ModMii 클래식을 사용하는 것이 좋습니다.
+ModMii를 사용하는 방법에는 두 가지가 있습니다. 명령줄 인터페이스를 사용하지만 프로그램에서 사용할 수 있는 모든 기능을 갖춘 ModMii 클래식이 있습니다. 반면에 ModMii 스킨은 그래픽 사용자 인터페이스를 가지고 있지만, 사용자에게 제공되는 옵션이 적습니다. 처음으로 Wii를 간단히 개조하고 싶다면 ModMii 스킨으로 충분할 겁니다. Otherwise, we recommend using ModMii Classic where possible.
 
 아래 표는 두 인터페이스에서 무엇을 할 수 있는지 파악하는 데 도움이 됩니다.
 
@@ -88,11 +88,11 @@ ModMii를 사용할 때, 선택한 옵션에 따라 커스텀 가이드가 생�
 
 1. [ModMii 웹사이트](https://modmii.github.io)로 가서 다운로드 섹션까지 아래로 스크롤합니다. 여기에서 `설치 프로그램` 옵션을 선택합니다. 브라우저가 설치 프로그램을 맬웨어로 표시할 수 있지만 이는 **긍정 오류**입니다.
 
-   ![](/images/modmii/modmii-download.png)
+    ![](/images/modmii/modmii-download.png)
 
 2. `ModMiiInstaller.exe` 파일을 열고 설치 과정을 진행합니다.
 
-   ![](/images/modmii/modmii-install.png)
+    ![](/images/modmii/modmii-install.png)
 
 ## ModMii 마법사 사용
 
@@ -100,39 +100,39 @@ ModMii 마법사는 Wii를 처음부터 끝까지 소프트개조로 개조할 �
 
 1. ModMii 스킨 또는 ModMii 클래식을 열고 목록 맨 위에 있는 ModMii 마법사 옵션을 선택합니다.
 
-   ![](/images/modmii/modmii-wizard-1.png)
+    ![](/images/modmii/modmii-wizard-1.png)
 
 2. Wii에서 무엇을 하거나 업데이트하고 싶은지에 대한 구체적인 생각이 없는 한, 첫 번째 질문에 `예`라고 대답합니다.
 
-   ![](/images/modmii/modmii-wizard-2.png)
+    ![](/images/modmii/modmii-wizard-2.png)
 
 3. 프로그램의 지시에 따라 현재 시스템 메뉴 버전을 선택한 다음 시스템 메뉴 영역을 선택합니다. 여전히 헷갈리다면, 각 화면 하단 옵션에서 교육 영상을 확인해보세요.
 
-   ![](/images/modmii/modmii-wizard-3.png)
+    ![](/images/modmii/modmii-wizard-3.png)
 
 4. Wii를 개조하는 데 사용할 익스플로잇을 선택합니다. 아래의 익스플로잇은 이 웹사이트 전체에 걸쳐 개략적으로 설명되어 있지만, 대부분의 경우 SD 카드가 있다면 Wilbrand를 사용하는 것이 좋습니다.
 
-   ![](/images/modmii/modmii-wizard-4.png)
+    ![](/images/modmii/modmii-wizard-4.png)
 
 5. 이전 단계에서 Wilbrand 옵션을 선택한 경우 Wii의 MAC 주소를 입력합니다. Wii의 MAC 주소를 확인하는 방법을 모르는 경우, 텍스트 상자에 `Help`을 입력하면 지침 비디오가 나옵니다.
 
-   ![](/images/modmii/modmii-wizard-5.png)
+    ![](/images/modmii/modmii-wizard-5.png)
 
 6. 목록에서 원하는 시스템 메뉴 버전을 선택합니다.
 
-   ![](/images/modmii/modmii-wizard-6.png)
+    ![](/images/modmii/modmii-wizard-6.png)
 
 7. 나열된 채널을 설치할지 여부를 선택합니다. 이는 선택 사항입니다.
 
-   ![](/images/modmii/modmii-wizard-7.png)
+    ![](/images/modmii/modmii-wizard-7.png)
 
 8. 세 가지 테마 효과 중에서 선택하여 커스텀 Wii 테마를 설치할지 여부를 선택합니다. 각 효과는 Wii 채널 위에 마우스를 올렸을 때 윤곽선이 얼마나 회전하는지에 대한 내용을 다룹니다.
 
-   ![](/images/modmii/modmii-wizard-8.png)
+    ![](/images/modmii/modmii-wizard-8.png)
 
 9. Wii와 함께 사용할 USB 로더를 설정할지 여부를 선택합니다.
 
-   ![](/images/modmii/modmii-wizard-9.png)
+    ![](/images/modmii/modmii-wizard-9.png)
 
 10. USB 로더 메뉴에서 `예`를 선택한 경우, 사용할 USB 로더를 선택합니다. 개별적으로 선택하는 경우 USB Loader GX 또는 WiiFlow를 권장합니다. 두 옵션 모두 이 웹사이트에서 다루고 있으며, 원하는 경우 두 옵션을 모두 다운로드할 수도 있습니다.
 
@@ -156,15 +156,15 @@ SysCheck 업데이터 마법사는 홈브류 앱 [SysCheck](syscheck)를 활용�
 
 1. ModMii 클래식을 열고 `SU`를 입력하여 SysCheck 업데이타 마법사를 엽니다.
 
-   ![](/images/modmii/syscheck-wizard-1.png)
+    ![](/images/modmii/syscheck-wizard-1.png)
 
 2. 아직 SysCheck 로그가 없으면 창에 나오는 지시를 따른 다음, 윈도우 탐색기에서 `syscheck.csv` 파일을 창으로 끌어다 놓습니다. 이렇게 하면 Enter 키를 누를 수 있는 파일 위치가 붙여넣어집니다.
 
-   ![](/images/modmii/syscheck-wizard-2.png)
+    ![](/images/modmii/syscheck-wizard-2.png)
 
 3. 이 프로그램은 SysCheck 파일을 분석하고, 분석 결과에 따라 옵션을 제공합니다. 이 예시에서 Wii의 개조는 최신 상태였지만, 스텁이 가능한 불필요한 IOS가 여러 개 있었습니다. Wii에 이러한 변경 사항을 적용하려면 `Y`를 입력하고 Enter를 누릅니다. 여기에서는 ModMii가 생성한 가이드를 따릅니다.
 
-   ![](/images/modmii/syscheck-wizard-3.png)
+    ![](/images/modmii/syscheck-wizard-3.png)
 
 ## HackMii 해결 마법사
 
@@ -176,27 +176,27 @@ HackMii 해결 마법사는 깨끗한 IOS를 설치하여 Darkcorp/CIOSSPAGHETTI
 
 1. ModMii 스킨 또는 ModMii 클래식을 열고 HackMii 해결 옵션을 선택합니다.
 
-   ![](/images/modmii/hackmii-wizard-1.png)
+    ![](/images/modmii/hackmii-wizard-1.png)
 
 2. 프로그램의 지시에 따라 현재 시스템 메뉴 버전을 선택한 다음 시스템 메뉴 영역을 선택합니다. 여전히 헷갈리다면, 각 화면 하단 옵션에서 교육 영상을 확인해합니다.
 
-   ![](/images/modmii/hackmii-wizard-2.png)
+    ![](/images/modmii/hackmii-wizard-2.png)
 
 3. Wii를 개조하는 데 사용할 익스플로잇을 선택합니다. 아래의 익스플로잇은 이 웹사이트 전체에 걸쳐 개략적으로 설명되어 있지만, 대부분의 경우 SD 카드가 있다면 Wilbrand를 사용하는 것이 좋습니다.
 
-   ![](/images/modmii/hackmii-wizard-3.png)
+    ![](/images/modmii/hackmii-wizard-3.png)
 
 4. 이전 단계에서 Wilbrand 옵션을 선택한 경우 Wii의 MAC 주소를 입력합니다. Wii의 MAC 주소를 확인하는 방법을 모르는 경우, 텍스트 상자에 `Help`을 입력하면 지침 비디오가 나옵니다.
 
-   ![](/images/modmii/hackmii-wizard-4.png)
+    ![](/images/modmii/hackmii-wizard-4.png)
 
 5. SD 카드 및/또는 USB 드라이브에 파일을 저장할 위치를 확인합니다.
 
-   ![](/images/modmii/modmii-wizard-12.png)
+    ![](/images/modmii/modmii-wizard-12.png)
 
 6. 설정이 올바른지 확인한 후 `마침`을 누릅니다. 버튼을 누르면 ModMii가 백그라운드에서 파일을 처리하고 다운로드하기 시작하고, 자동으로 가이드를 생성하여 열어줍니다. 여기에서는 ModMii가 생성한 가이드를 따릅니다. 이 가이드를 완료한 후에는 [SysCheck 업데이터 마법사](#syscheck-updater-wizard)를 사용하여 Wii에서 문제가 있는 다른 수정 사항을 실행 취소하는 것이 좋습니다.
 
-   ![](/images/modmii/hackmii-wizard-5.png)
+    ![](/images/modmii/hackmii-wizard-5.png)
 
 ::: tip
 
