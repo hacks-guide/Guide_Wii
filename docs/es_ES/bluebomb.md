@@ -8,13 +8,13 @@ outline: false
 
 :::: tab BlueBomb Classic
 
-## BlueBomb Classic
+## BlueBomb Clásico
 
 :::details Detalles técnicos (opcional)
 
 BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+Este exploit también hace posible recuperarse de ciertas inutilizaciones de la consola, como aquellas causadas por banners y (algunas) causadas por temas.
 
 :::
 
@@ -147,7 +147,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 :::details Detalles técnicos (opcional)
 
-This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
+Este exploit también hace posible recuperarse de ciertas inutilizaciones de la consola, como aquellas causadas por banners y (algunas) causadas por temas.
 
 :::
 
