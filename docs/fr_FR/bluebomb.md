@@ -72,7 +72,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
 
     - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-    - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
+    - (Même dans le cas d'une Wii mini, le fichier bootmini.elf **ne fonctionnera pas**, son rôle étant différent et sans rapport. Use boot.elf in all cases).
 
     ![](/images/exploits/bluebomb/usb-exploit.png)
 
@@ -94,7 +94,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 7. Start your Linux distro, and ensure you are connected to the internet.
 
-8. Open the Terminal, and run the following commands:
+8. Ouvrez le Terminal, et exécutez la commande suivante :
 
     ```bash
     wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -192,7 +192,7 @@ A normal Raspberry Pi Pico will not work. It MUST to be the wireless model. Addi
 1. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your flash drive.
 
     - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-    - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
+    - (Même dans le cas d'une Wii Mini, bootmini.elf **ne marchera pas** ; son rôle est tout à fait différent et sans rapport. Use boot.elf in all cases).
 
     ![](/images/exploits/bluebomb/usb-exploit.png)
 

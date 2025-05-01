@@ -24,7 +24,7 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. 그렇�
 
 - A Wii with the Homebrew Channel installed
 - SD 카드 및 USB 드라이브
-- The [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
+- The [d2x cIOS Installer](https://oscwii.org/library/app/d2x-cios-installer)
 
 ::: warning
 
@@ -86,7 +86,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 6. 다음 사항에 맞게 모든 것을 설정합니다:
 
     ```
-    Select cIOS <d2x-v11-beta2>
+    Select cIOS <d2x-v11-beta3>
     Select cIOS base <38>
     Select cIOS slot <248>
     Select cIOS revision <65535>
@@ -96,7 +96,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
     ::: info
 
-    If you do not see `d2x-v11-beta2`, exit the installer with B, and make sure your SD card is unlocked.
+    If you do not see `d2x-v11-beta3`, exit the installer with B, and make sure your SD card is unlocked.
 
     :::
 
@@ -141,7 +141,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
     - cIOS 249 설치
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta3>
         Select cIOS base <56>
         Select cIOS slot <249>
         Select cIOS revision <65535>
@@ -152,7 +152,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
     - cIOS 250 설치
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta3>
         Select cIOS base <57>
         Select cIOS slot <250>
         Select cIOS revision <65535>
@@ -163,7 +163,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
     - cIOS 251 설치
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta3>
         Select cIOS base <58>
         Select cIOS slot <251>
         Select cIOS revision <65535>
@@ -207,7 +207,7 @@ vWii에 Wii/Wii 미니 IOS나 시스템 메뉴를 설치하려고 하지 마세�
 
 - vWii에 홈브류 채널이 설치된 Wii U
 - SD 카드 및 USB 드라이브
-- The [d2x cIOS Installer for vWii](/assets/files/d2x_cIOS_Installer-vWii.zip)
+- The [d2x cIOS Installer for vWii](https://oscwii.org/library/app/d2x-cios-installer-vwii)
 
 ::: warning
 
@@ -232,7 +232,7 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 6. 다음 사항에 맞게 모든 것을 설정합니다:
 
     ```
-    Select cIOS <d2x-v11-beta2-vWii>
+    Select cIOS <d2x-v11-beta3-vWii>
     Select cIOS base <38>
     Select cIOS slot <248>
     ```
@@ -241,7 +241,7 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 
     ::: info
 
-    If you do not see `d2x-v11-beta2-vWii`, exit the installer with B, and make sure your SD card is unlocked.
+    If you do not see `d2x-v11-beta3-vWii`, exit the installer with B, and make sure your SD card is unlocked.
 
     :::
 
@@ -254,7 +254,7 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
     - cIOS 249 설치
 
         ```
-        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <56>
         Select cIOS slot <249>
         ```
@@ -264,7 +264,7 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
     - cIOS 250 설치
 
         ```
-        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <57>
         Select cIOS slot <250>
         ```
@@ -274,7 +274,7 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
     - cIOS 251 설치
 
         ```
-        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <58>
         Select cIOS slot <251>
         ```

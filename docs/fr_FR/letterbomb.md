@@ -16,7 +16,7 @@ N'utilisez PAS les adresses MAC d'exemple affichées dans ce guide, car elles pr
 
 ## Prérequis
 
-- An SD card formatted as FAT32 that is 32GB or less
+- Une carte SD formatée en FAT32 (de 32 GO ou moins)
 - Une Wii sur le menu système version 4.3
 - Un ordinateur Windows/MacOS/Linux avec une connexion Internet
 

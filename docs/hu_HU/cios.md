@@ -24,7 +24,7 @@ Ne próbálj meg vWii/Wii minire tervezett IOS-t vagy rendszermenüt Wiire telep
 
 - Egy Wii telepített Homebrew Channel-lel
 - Egy SD kártya vagy pendrive
-- A [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
+- A [d2x cIOS Installer](https://oscwii.org/library/app/d2x-cios-installer)
 
 ::: warning
 
@@ -86,7 +86,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 6. Állíts be mindent az alábbiak szerint:
 
     ```
-    Select cIOS <d2x-v11-beta2>
+    Select cIOS <d2x-v11-beta3>
     Select cIOS base <38>
     Select cIOS slot <248>
     Select cIOS revision <65535>
@@ -96,7 +96,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
     ::: info
 
-    Ha nem látod a `d2x-v11-beta2`-t, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
+    Ha nem látod a `d2x-v11-beta3`-at, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
 
     :::
 
@@ -141,7 +141,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
     - A cIOS 249 telepítéséhez
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta3>
         Select cIOS base <56>
         Select cIOS slot <249>
         Select cIOS revision <65535>
@@ -152,7 +152,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
     - A cIOS 250 telepítéséhez
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta3>
         Select cIOS base <57>
         Select cIOS slot <250>
         Select cIOS revision <65535>
@@ -163,7 +163,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
     - A cIOS 251 telepítéséhez
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta3>
         Select cIOS base <58>
         Select cIOS slot <251>
         Select cIOS revision <65535>
@@ -207,7 +207,7 @@ Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telep
 
 - Egy Wii U, aminek a vWii-jére telepítve van a Homebrew Channel
 - Egy SD kártya vagy pendrive
-- A [d2x cIOS Installer for vWii](/assets/files/d2x_cIOS_Installer-vWii.zip)
+- A [d2x cIOS Installer for vWii](https://oscwii.org/library/app/d2x-cios-installer-vwii)
 
 ::: warning
 
@@ -232,7 +232,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 6. Állíts be mindent az alábbiak szerint:
 
     ```
-    Select cIOS <d2x-v11-beta2-vWii>
+    Select cIOS <d2x-v11-beta3-vWii>
     Select cIOS base <38>
     Select cIOS slot <248>
     ```
@@ -241,7 +241,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
     ::: info
 
-    Ha nem látod a `d2x-v11-beta2-vWii`-t, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
+    Ha nem látod a `d2x-v11-beta3-vWii`-t, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
 
     :::
 
@@ -254,7 +254,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
     - A cIOS 249 telepítéséhez
 
         ```
-        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <56>
         Select cIOS slot <249>
         ```
@@ -264,7 +264,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
     - A cIOS 250 telepítéséhez
 
         ```
-        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <57>
         Select cIOS slot <250>
         ```
@@ -274,7 +274,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
     - A cIOS 251 telepítéséhez
 
         ```
-        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <58>
         Select cIOS slot <251>
         ```
@@ -313,7 +313,7 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire tele
 
 :::
 
-## Requirements
+## Követelmények
 
 - Egy Wii mini, amire telepítve van a Homebrew Channel
 - Egy USB drive

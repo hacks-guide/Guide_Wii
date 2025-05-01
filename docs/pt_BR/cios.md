@@ -24,7 +24,7 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 
 - A Wii with the Homebrew Channel installed
 - Um cartão SD ou armazenamento USB
-- The [d2x cIOS Installer](/assets/files/d2x-cios-installer.zip)
+- The [d2x cIOS Installer](https://oscwii.org/library/app/d2x-cios-installer)
 
 ::: warning
 
@@ -86,7 +86,7 @@ The WAD files should be on your SD card like this:
 6. Set everything to match the following:
 
     ```
-    Select cIOS <d2x-v11-beta2>
+    Select cIOS <d2x-v11-beta3>
     Select cIOS base <38>
     Select cIOS slot <248>
     Select cIOS revision <65535>
@@ -96,7 +96,7 @@ The WAD files should be on your SD card like this:
 
     ::: info
 
-    If you do not see `d2x-v11-beta2`, exit the installer with B, and make sure your SD card is unlocked.
+    If you do not see `d2x-v11-beta3`, exit the installer with B, and make sure your SD card is unlocked.
 
     :::
 
@@ -141,7 +141,7 @@ The WAD files should be on your SD card like this:
     - Install cIOS 248
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta3>
         Select cIOS base <56>
         Select cIOS slot <249>
         Select cIOS revision <65535>
@@ -152,7 +152,7 @@ The WAD files should be on your SD card like this:
     - Install cIOS 250
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta3>
         Select cIOS base <57>
         Select cIOS slot <250>
         Select cIOS revision <65535>
@@ -163,7 +163,7 @@ The WAD files should be on your SD card like this:
     - Install cIOS 251
 
         ```
-        Select cIOS <d2x-v11-beta2>
+        Select cIOS <d2x-v11-beta3>
         Select cIOS base <58>
         Select cIOS slot <251>
         Select cIOS revision <65535>
@@ -207,7 +207,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 
 - A Wii U with the Homebrew Channel installed on the vWii
 - Um cartão SD ou armazenamento USB
-- The [d2x cIOS Installer for vWii](/assets/files/d2x_cIOS_Installer-vWii.zip)
+- The [d2x cIOS Installer for vWii](https://oscwii.org/library/app/d2x-cios-installer-vwii)
 
 ::: warning
 
@@ -232,7 +232,7 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
 6. Set everything to match the following:
 
     ```
-    Select cIOS <d2x-v11-beta2-vWii>
+    Select cIOS <d2x-v11-beta3-vWii>
     Select cIOS base <38>
     Select cIOS slot <248>
     ```
@@ -241,7 +241,7 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
 
     ::: info
 
-    If you do not see `d2x-v11-beta2-vWii`, exit the installer with B, and make sure your SD card is unlocked.
+    If you do not see `d2x-v11-beta3-vWii`, exit the installer with B, and make sure your SD card is unlocked.
 
     :::
 
@@ -254,7 +254,7 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
     - Install cIOS 248
 
         ```
-        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <56>
         Select cIOS slot <249>
         ```
@@ -264,7 +264,7 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
     - Install cIOS 250
 
         ```
-        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <57>
         Select cIOS slot <250>
         ```
@@ -274,7 +274,7 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
     - Install cIOS 251
 
         ```
-        Select cIOS <d2x-v11-beta2-vWii>
+        Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <58>
         Select cIOS slot <251>
         ```
