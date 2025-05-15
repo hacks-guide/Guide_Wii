@@ -358,7 +358,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)
 
 :::
 

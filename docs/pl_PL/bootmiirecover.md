@@ -92,6 +92,6 @@ If you were restoring a NAND backup in order to repair a brick and this did not 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)
 
 :::

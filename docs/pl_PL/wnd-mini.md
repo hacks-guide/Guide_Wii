@@ -95,6 +95,6 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)
 
 :::

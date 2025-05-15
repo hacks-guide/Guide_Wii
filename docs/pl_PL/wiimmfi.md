@@ -5,4 +5,4 @@ head:
       content: 0; URL=nintendowfc.html
 ---
 
-# Redirecting
+# Przekierowanie

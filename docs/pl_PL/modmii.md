@@ -205,6 +205,6 @@ The HackMii Solutions Wizard is a tool that fixes problems that may arise from t
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)
 
 :::

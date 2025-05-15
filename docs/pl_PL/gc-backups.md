@@ -52,6 +52,6 @@ Selecting `Install Game (Scrub)` will remove unnecessary data from the game, red
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)
 
 :::

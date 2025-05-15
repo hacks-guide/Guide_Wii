@@ -64,6 +64,6 @@ At this point, you should be able to install the Homebrew Channel and access hom
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)
 
 :::

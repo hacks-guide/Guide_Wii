@@ -55,6 +55,6 @@ You have now dumped that WAD. It should appear on your SD card.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)
 
 :::

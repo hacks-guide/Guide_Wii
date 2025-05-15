@@ -5,8 +5,8 @@ head:
       content: 5; URL=https://wiki.hacks.guide/wiki/Wii:Nintendont
 ---
 
-# Redirecting
+# Przekierowanie
 
-You are being redirected to the Hacks Guide Wiki.
+Jesteś przekierowywany do Wiki Hacks Guide.
 
-If the page doesn't refresh, click [here](https://wiki.hacks.guide/wiki/Wii:Nintendont).
+Jeśli strona się nie odświeżyła, naciśnij [tutaj](https://wiki.hacks.guide/wiki/Wii:Nintendont).

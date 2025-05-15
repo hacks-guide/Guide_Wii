@@ -5,8 +5,8 @@ head:
       content: 5; URL=https://www.wiilink24.com/guide/install/
 ---
 
-# Redirecting
+# Przekierowanie
 
-You are being redirected to the WiiLink24.
+Jesteś przekierowywany do WiiLink24.
 
-If the page doesn't refresh, click [here](https://www.wiilink24.com/guide/install/).
+Jeśli strona się nie odświeżyła, naciśnij [tutaj](https://www.wiilink24.com/guide/install/).
