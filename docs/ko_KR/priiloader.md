@@ -14,7 +14,7 @@
 
 - SD 카드
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (직접 다운로드)
-    - Priiloader Wii U Forwarder가 작동하려면 콘솔에 [아로마](https://wiiu.hacks.guide/#/aroma/getting-started)가 설치되어 있어야 합니다.
+    - [Aroma](https://wiiu.hacks.guide/aroma/getting-started) must be installed on your console for the Priiloader Wii U Forwarder to function.
 
 ## 지침
 

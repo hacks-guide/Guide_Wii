@@ -208,7 +208,7 @@ This is usually an immediate follow-up to a Wii System Update on an unsuspecting
 1. [NUS 다운로더](https://wiibrew.org/wiki/NUSD)를 사용하여 원래 Wii 메뉴의 WAD를 압축합니다.
 2. BootMii를 사용하여 홈브류 채널에 들어가고, WAD 매니저를 사용하여 Wii 메뉴 WAD를 설치합니다.
 
-vWii의 경우 [vWii IOS/채널 복원](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels)를 참조합니다.
+For vWii, See [Recover a vWii IOS/Channel](https://wiiu.hacks.guide/recover-vwii-ioses-channels)
 
 ## Wi-Fi 벽돌
 

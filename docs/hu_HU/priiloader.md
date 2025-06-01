@@ -14,7 +14,7 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 
 - Egy SD kártya
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (közvetlen letöltés)
-    - Az [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started)-nak telepítve kell lennie a konzolodra, hogy a Priiloader Wii U Forwarder működjön.
+    - Az [Aroma](https://wiiu.hacks.guide/aroma/getting-started)-nak telepítve kell lennie a konzolodra, hogy a Priiloader Wii U Forwarder működjön.
 
 ## Lépések
 

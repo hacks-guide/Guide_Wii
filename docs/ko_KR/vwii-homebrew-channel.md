@@ -12,9 +12,9 @@
 
 ::: info
 
-아직 하지 않았다면 [낸드 백업](https://wiiu.hacks.guide/#/aroma/nand-backup)을 했고 Wii ​​U에 [아로마 환경](https://aroma.foryour.cafe/)이 설치되어 있는지 확인합니다.
+If you haven't already, make sure you did a [NAND backup](https://wiiu.hacks.guide/aroma/nand-backup) and have the [Aroma Environment](https://aroma.foryour.cafe/) installed on your Wii U.
 
-그렇지 않으면 [아로마 설치](https://wiiu.hacks.guide/#/aroma/getting-started) 또는 [Wii U 측을 개조하지 않고 vWii 개조](wiiu-nand-dumper)으로 진행합니다.
+Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
 
 :::
 
@@ -38,12 +38,15 @@ evWii 아로마 플러그인이 설치되지 않았고 홈브류 앱이 멈췄�
 1. Wii U의 SD 카드를 PC에 연결합니다.
 2. `CompatTitleInstaller.zip` 파일의 내용을 SD 카드의 루트에 복사합니다.
 3. `evWii.zip` 파일의 내용을 SD 카드의 루트에 복사합니다.
+4. Re-insert your SD card into the Wii U.
 
 ### 섹션 II - 홈브류 채널 설치
 
-1. [아로마](https://wiiu.hacks.guide/#/aroma/finalizing-setup)를 부팅합니다.
-2. Wii U 메뉴에서 vWii Compat 설치 프로그램을 실행합니다.
+1. Boot into [Aroma](https://wiiu.hacks.guide/aroma/finalizing-setup).
+ - If you set up [Aroma autobooting](https://wiiu.hacks.guide/aroma/autobooting), Aroma will already be running when you turn on your console.
+2. Launch the vWii Compat Installer app from the Wii U menu.
 3. `A` 버튼을 눌러 홈브류 채널을 설치하고 `설치 성공`이 나올 때까지 기다립니다. 그런 다음 홈 버튼을 눌러 Wii U 메뉴로 돌아갑니다.
+ - If the HOME button doesn't work, you can safely power off by holding down the power button on your console, and then turn it back on.
 4. vWii (Wii 메뉴 아이콘)를 실행합니다.
  - 설치가 성공적으로 완료되면 Wii 메뉴에 홈브류 채널이 표시됩니다.
 
@@ -67,7 +70,7 @@ evWii 아로마 플러그인이 설치되지 않았고 홈브류 앱이 멈췄�
 ```
 
 `AppName1`과 `AppName2`는 플레이스홀더 이름입니다. `apps` 폴더 자체 내에 여러 개의 `apps` 폴더를 중첩하지 마세요.
-`wiiu` 폴더 내의 `apps` 폴더와 SD 카드 루트의 `apps` 폴더를 혼동하지 마세요.
+Note that the `apps` folder inside of the `wiiu` folder (for Wii U homebrew apps) and the `apps` folder on the root of the SD card (for Wii homebrew apps) are distinct.
 
 ::: tip
 

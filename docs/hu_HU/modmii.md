@@ -2,17 +2,17 @@
 
 ::: warning
 
-This Program does NOT come with a warranty, so you are responsible for any potential damage done to your console.
+Erre a programra NEM vállalunk garanciát, így a konzolodat ért esetleges károkért Te felelsz.
 
 :::
 
 ::: warning
 
-Some Features may be limited for the Wii mini on ModMii.
+Néhány fukció korlátozott lehet a Wii mini-hez.
 
 :::
 
-ModMii is an all-in-one Wii and Wii U hacking tool for Windows created by XFlak that has various helpful tools for modding. A következőket tudja megvalósítani:
+A ModMii egy mindenre kiterjedő Wii és Wii Uhacker eszköz Windowsra, amelyet XFlak készített, és különböző hasznos eszközöket tartalmaz a moddinghoz. A következőket tudja megvalósítani:
 
 - A konzol első alkalommal történő feltörése vagy újbóli feltörése
 - Az elavult softmodok ellenőrzése és frissítése
@@ -49,7 +49,7 @@ Az alábbi táblázat segít meghatározni, hogy mit lehet csinálni az egyes fe
 | Tool                                                                                                                         | Description                                                                                                                                                                                                                                                                                                       |
 | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | W = ModMii Wizard <-- Kezd itt a Wii, vWii vagy WiiU-od moddolásával!                               | This option can be used to hack your Wii for the first time or re-hack a Wii that has been previously modded.                                                                                                                                                                                     |
-| SU = SysCheck Updater Wizard (update only your outdated Wii\vWii softmods)                                | This option checks for and updates old modifications installed to your console. On the Wii it can fix things such as DarkCorp/CIOSSPAGHETTI that can potentially cause problems for the latest up to date homebrew.                                                               |
+| SU = SysCheck Updater Wizard (frissítsd a régi Wii\vWii softmodjaid)                                      | This option checks for and updates old modifications installed to your console. On the Wii it can fix things such as DarkCorp/CIOSSPAGHETTI that can potentially cause problems for the latest up to date homebrew.                                                               |
 | U = USB-Loader Setup Wizard (Wii \ vWii \ Wii Mini)                                                       | This option will properly set up your USB loader to be able to load your disk backups from an SD or USB hard drive. This option is not necessary if using the ModMii Wizard.                                                                                                      |
 | H = HackMii Solutions Wizard (Wii) Upside-Down HBC/No Vulnerable IOS Fix                                  | This option is useful for people who are having trouble getting the HackMii Installer to work or have an upside down homebrew channel.                                                                                                                                                            |
 | AW = Abstinence Wizard (Non-permanent Wii Hacks)                                                          | This option allows you to run homebrew on your Wii without making any permanent modifications to the system NAND.                                                                                                                                                                                 |
@@ -64,7 +64,7 @@ Az alábbi táblázat segít meghatározni, hogy mit lehet csinálni az egyes fe
 
 :::
 
-When using ModMii, it is important to note that it will generate a custom guide for you depending on the options that you select. For this reason, this guide will not be focused on how to mod your console, as ModMii handles that function. Instead, it will be a quick start guide show you how to effectively use it with the most common options.
+When using ModMii, it is important to note that it will generate a custom guide for you depending on the options that you select. Emiatt ez az útmutató nem fog arra összpontosítani, hogy hogyan moddold a konzolod, mivel a ModMii kezeli ezt a funkciót. Instead, it will be a quick start guide show you how to effectively use it with the most common options.
 
 ## Installing ModMii
 
@@ -93,7 +93,7 @@ A böngésződ vagy a vírusírtó szoftvered elképzelhető, hogy a ModMii-t ma
 
 ## Using the ModMii Wizard
 
-The ModMii Wizard is tool that can softmod your console from start to finish, downloading all necessary files and then generating a guide that you can use to implement the softmod. This tool can also be used to overwrite existing softmods on a previously softmodded console.
+A ModMii Wizard egy olyan eszköz, amely képes a konzolod az elejétől a végéig softmodolni, letölti az összes szükséges fájlt, majd létrehoz egy útmutatót, amelyet a softmod megvalósításához használhatsz. Ez az eszköz arra is használható, hogy felülírja a már meglévő softmodokat egy korábban softmodolt konzolon.
 
 1. Open ModMii Skin or ModMii Classic and select the ModMii Wizard option at the top of the list.
 
@@ -127,11 +127,11 @@ The ModMii Wizard is tool that can softmod your console from start to finish, do
 
     ![](/images/modmii/modmii-wizard-8.png)
 
-9. Select whether or not you would like to install a custom Wii menu theme, with the choice of three theme effects. Each effect deals with how much the outline when hovering over a Wii Channel spins.
+9. Válaszd ki, hogy szeretnél-e egyéni Wii menü témát telepíteni, három témaeffektus közül választási lehetőséggel. Each effect deals with how much the outline when hovering over a Wii Channel spins.
 
     ![](/images/modmii/modmii-wizard-9.png)
 
-10. Select whether or not you would like to set up a USB Loader for use with your console.
+10. Válaszd ki, hogy szeretnél-e USB Loader-t beállítani a konzolodhoz.
 
     ![](/images/modmii/modmii-wizard-10.png)
 
@@ -163,7 +163,7 @@ A SysCheck Updater Wizard egy olyan eszköz, amely a SysCheck](syscheck) nevű h
 
     ![](/images/modmii/syscheck-wizard-2.png)
 
-3. If priiloader was detected in the syscheck, it will ask you if you want to update it. Type `Y` and press Enter to update to the latest priiloader version.
+3. Ha a priiloader-t észlelte a syscheck, meg fogja kérdezni, hogy szeretnéd-e frissíteni. Írj `Y`-t majd nyomj Entert a priiloader legutolsó verzióra frissítéséhez.
 
     ![](/images/modmii/syscheck-wizard-3.png)
 

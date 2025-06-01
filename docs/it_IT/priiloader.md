@@ -14,7 +14,7 @@ Inoltre, può essere usato per avviare rapidamente titoli e homebrew, oppure per
 
 - Una scheda SD
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
-    - [Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) must be installed on your console for Priiloader Wii U Forwarder to function.
+    - [Aroma](https://wiiu.hacks.guide/aroma/getting-started) must be installed on your console for the Priiloader Wii U Forwarder to function.
 
 ## Instructions
 

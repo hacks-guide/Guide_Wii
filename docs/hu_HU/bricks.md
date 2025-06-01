@@ -208,7 +208,7 @@ You can either restore a NAND backup, or do this:
 1. Használd a [NUS Downloader](https://wiibrew.org/wiki/NUSD)-t, hogy egy WAD-ot készts az eredeti Wii Menu-dből.
 2. Use BootMii to enter the Homebrew Channel, and use a WAD manager to install the Wii Menu WAD.
 
-vWii-hez tekintsd meg az [Egy vWii IOS/Channel helyreállítását](https://wiiu.hacks.guide/#/recover-vwii-ioses-channels)
+vWii-hez tekintsd meg az [Egy vWii IOS/Channel helyreállítását](https://wiiu.hacks.guide/recover-vwii-ioses-channels)
 
 ## Wi-Fi brick
 

@@ -12,9 +12,9 @@ Dacă ați modat Wii U în trecut, puteți folosi același card SD pentru acest 
 
 ::: info
 
-If you haven't already, make sure you did a [NAND backup](https://wiiu.hacks.guide/#/aroma/nand-backup) and have the [Aroma Environment](https://aroma.foryour.cafe/) installed on your Wii U.
+If you haven't already, make sure you did a [NAND backup](https://wiiu.hacks.guide/aroma/nand-backup) and have the [Aroma Environment](https://aroma.foryour.cafe/) installed on your Wii U.
 
-Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/#/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
+Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper)
 
 :::
 
@@ -38,12 +38,15 @@ Dacă plugin-ul evWii Aroma nu este instalat și aplicația homebrew se blocheaz
 1. Introduceți cardul SD al Wii U în PC-ul tău.
 2. Copiați conținutul fișierului `CompatTitleInstaller.zip` în directorul principal al cardului SD.
 3. Copiați conținutul fișierului `evWii.zip` în directorul principal al cardului SD.
+4. Re-insert your SD card into the Wii U.
 
 ### Secțiunea II - Instalarea Homebrew Channel
 
-1. Porniți în [Aroma](https://wiiu.hacks.guide/#/aroma/finalizing-setup).
-2. Lansați vWii Compat Installer pe meniul Wii U.
+1. Boot into [Aroma](https://wiiu.hacks.guide/aroma/finalizing-setup).
+ - If you set up [Aroma autobooting](https://wiiu.hacks.guide/aroma/autobooting), Aroma will already be running when you turn on your console.
+2. Launch the vWii Compat Installer app from the Wii U menu.
 3. Apasă `A` pentru a instala Homebrew Channel și așteptați până când vedeți `Install succeeded`. Apoi apasă butonul HOME pentru a reveni la meniul Wii U.
+ - If the HOME button doesn't work, you can safely power off by holding down the power button on your console, and then turn it back on.
 4. Lansează vWii (pictograma Wii Menu).
  - Dacă instalarea a reușit, ar trebui să vedeți Homebrew Channel în meniul Wii.
 
@@ -67,7 +70,7 @@ Notă: Când instalezi aplicații homebrew pe cardul tău SD sau unitatea ta USB
 ```
 
 `AppName1` și `AppName2` sunt nume înlocuitoare. Nu crea mai multe dosare `apps` înăuntrul dosarului `apps` în sine.
-Nu vă confundați cu folderul `apps` din folderul `wiiu` și folderul `apps` de pe directorul principal al cardului SD.
+Note that the `apps` folder inside of the `wiiu` folder (for Wii U homebrew apps) and the `apps` folder on the root of the SD card (for Wii homebrew apps) are distinct.
 
 ::: tip
 

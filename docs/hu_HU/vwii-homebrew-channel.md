@@ -12,9 +12,9 @@ Ha már hackelted a Wii U-dat a múltban, akkor használhatod ugyanazt az SD ká
 
 ::: info
 
-Legyél biztos abban, hogy csináltál [egy NAND mentést](https://wiiu.hacks.guide/#/aroma/nand-backup) és telepítettél [Aroma Environment](https://aroma.foryour.cafe/)-et a Wii U-dra.
+Legyél biztos abban, hogy csináltál [egy NAND mentést](https://wiiu.hacks.guide/aroma/nand-backup) és telepítettél [Aroma Environment](https://aroma.foryour.cafe/)-et a Wii U-dra.
 
-Ha ez még nem történt meg, akkor folytasd az [Aroma telepítésével](https://wiiu.hacks.guide/#/aroma/getting-started) vagy [A vWii moddolása Wii U oldal nélkül](wiiu-nand-dumper) fejezetekkel
+Ha ez még nem történt meg, akkor folytasd az [Aroma telepítésével](https://wiiu.hacks.guide/aroma/getting-started) vagy [A vWii moddolása Wii U oldal nélkül](wiiu-nand-dumper) fejezetekkel
 
 :::
 
@@ -38,12 +38,15 @@ Ha az evWii Aroma plugin nem telepített, és a homebrew alkalmazás lefagy, az 
 1. Helyezd be a Wii U-d SD kártyáját a PC-dbe.
 2. Másold a tartalmát a `CompatTitleInstaller.zip` fájlnak az SD kártyád gyökerébe.
 3. Másold a tartalmát a `evWii.zip` fájlnak az SD kártyád gyökerébe.
+4. Helyezd vissza az SD kártyád a Wii U-dba.
 
 ### II. rész - A Homebrew Channel telepítése
 
-1. Bootolj [Aroma](https://wiiu.hacks.guide/#/aroma/finalizing-setup)-ba.
-2. Indítsd el a vWii Compat Installer-t a Wii U Menu-ből.
+1. Bootolj [Aroma](https://wiiu.hacks.guide/aroma/finalizing-setup)-ba.
+ - Ha beállítottad az [Aromát autobootolásra](https://wiiu.hacks.guide/aroma/autobooting), akkor az Aroma már futni fog, mikor bekapcsolod a konzolod.
+2. Launch the vWii Compat Installer app from the Wii U menu.
 3. Nyomj `A`-t a Homebrew Channel telepítéséhez és várj amíg azt nem látod, hogy `Install succeeded`. Utána nyomd meg a HOME gombot, hogy vissza térj a Wii U Menu-be.
+ - Ha a HOME gomb nem működik, biztonságosan kikapcsolhatod a konzolod a power gomb nyomva tartásával, majd kapcsold be újra.
 4. Indítsd el a vWii-t (a Wii Menu ikon).
  - Ha a telepítés sikeres volt, látnod kell a Homebrew Channel-t a Wii Menu-dben.
 
@@ -67,7 +70,7 @@ Megjegyzés: Ha homebrew Wii alkalmazásokat telepítesz SD kártyára vagy USB 
 ```
 
 `AppName1` és `AppName2` helyfoglaló nevek. Az `apps` mappában ne hozz létre egy másik `apps` nevű mappát.
-Ne keverd össze az `apps` mappát a `wiiu` mappában és az `apps` mappával az SD kártya gyökerében.
+Figyelj arra, hogy `apps` mappa a `wiiu` mappán belül (Wii U homebrew appokhoz) és az `apps` mappa az SD kártya gyökerében (Wii homebrew appokhoz) nem ugyanaz.
 
 ::: tip
 
