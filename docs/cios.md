@@ -49,8 +49,8 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 :::
 
 1. Power off your console, and insert your SD card or USB drive into your computer.
-1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/download/NUSGet-Windows-x86_64-onefile-bin.zip/).
-1. Unzip the `NUSGet.exe` file and run it.
+1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should get `NUSGet-Windows-x86_64-onefile-bin.zip`.
+1. Unzip the archive and run NUSGet.
 1. Navigate to `IOS` > `IOS 38` > `World` and select `v4123`. Keep the options as-is and then click `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-4123.png)

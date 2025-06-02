@@ -64,8 +64,8 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 :::: tab (Wii) Via NUSGet
 
-1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/download/NUSGet-Windows-x86_64-onefile-bin.zip/).
-1. Unzip the `NUSGet.exe` file and run it.
+1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should get `NUSGet-Windows-x86_64-onefile-bin.zip`.
+1. Unzip the archive and run NUSGet.
 1. Navigate to `System` > `System Menu` > `Your Region` and then select the Wii menu version you are running. Check the `Create decrypted contents (*.app)` option and then press `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-wiimenu-dl.png)
@@ -82,8 +82,8 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 :::: tab (vWii) Via NUSGet
 
-1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/download/NUSGet-Windows-x86_64-onefile-bin.zip/).
-1. Unzip the `NUSGet.exe` file and run it.
+1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should get `NUSGet-Windows-x86_64-onefile-bin.zip`.
+1. Unzip the archive and run NUSGet.
 1. Select the `vWii` tab and navigate to `System` > `System Menu` > `Your Region`.
 1. Select the version that corresponds to your Wii U's region in the table below:
 

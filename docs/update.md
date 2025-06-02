@@ -14,7 +14,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
     * If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
 * An SD card or USB drive
 * A Windows/MacOS/Linux computer
-* [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/download/NUSGet-Windows-x86_64-onefile-bin.zip/)
+* [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/)
 * [Priiloader](priiloader)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
@@ -22,7 +22,8 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### Section I - Downloading
 
-1. Download and unzip the `NUSGet.exe` file, then run it.
+1. Download the archive corresponding to your operating system. For Windows users, you should get `NUSGet-Windows-x86_64-onefile-bin.zip`.
+1. Unzip the archive and run NUSGet.
 1. Go to `System` > `0000000100000002 - System Menu` > `Your Region` and then select the latest 4.3 version of the menu (e.x. `v513 4.3U` for USA). Keep the options as-is and press `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-wiimenu-dl-alt.png)
