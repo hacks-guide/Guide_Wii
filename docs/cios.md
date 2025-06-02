@@ -55,7 +55,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
     ![](/images/desktop-apps/nusget/nusget-4123.png)
 1. Repeat the above step for `IOS 56 (v5661)`, `IOS 57 (v5918)` and `IOS 58 (v6175)`.
-1. When you have finished downloading the above IOS, locate a folder named `NUSGet Downloads` in the same directory as `NUSGet.exe`. This contains your IOS files.
+1. When you have finished downloading the above IOS, locate a folder named `NUSGet Downloads` in the same directory as `NUSGet.exe`. This contains your WAD files.
 
     ![](/images/desktop-apps/nusget/nusget-folder.png)
 1. Open the `NUSGet Downloads` folder and enter each of the four directories, locating a `IOS-XX-vXXXX-Wii.wad` file.

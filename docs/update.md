@@ -13,8 +13,8 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 * a Wii with The Homebrew Channel 1.0.8 or later
     * If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
 * An SD card or USB drive
-* A computer with Windows on it
-* [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
+* A Windows/MacOS/Linux computer
+* [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/download/NUSGet-Windows-x86_64-onefile-bin.zip/)
 * [Priiloader](priiloader)
 * [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
@@ -22,20 +22,23 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ### Section I - Downloading
 
-1. Extract the .zip file for NUS Downloader Wii and open the application.
-1. Go to `Database...` > `System` > `0000000100000002 - System Menu` and select the version corresponding to your region as shown in the table below.
-1. Make sure `Pack WAD` is checked.
-1. Press `Start NUS Download!`.
-1. Open the `titles` -> `0000000100000002` -> (Wii Menu version) and copy the .wad file to a folder called `wad` on your SD Card or USB drive.
-1. Repeat steps 2-5 with `IOS` -> `000000010000003A` -> `Latest Version` and `IOS` -> `0000000100000050` -> `Latest Version`.
+1. Download and unzip the `NUSGet.exe` file, then run it.
+1. Go to `System` > `0000000100000002 - System Menu` > `Your Region` and then select the latest 4.3 version of the menu (e.x. `v513 4.3U` for USA). Keep the options as-is and press `Start Download`.
+
+    ![](/images/desktop-apps/nusget/nusget-wiimenu-dl-alt.png)
+1. Go to `System` > `000000010000003A - IOS 58` > `Latest Version`. Keep the options as-is and press `Start Download`.
+
+    ![](/images/desktop-apps/nusget/nusget-ios58-dl.png)
+1. Go to `System` > `0000000100000050 - IOS 80` > `Latest Version`. Keep the options as-is and press `Start Download`.
+
+    ![](/images/desktop-apps/nusget/nusget-ios80-dl.png)
+1. When you have finished downloading the above, locate a folder named `NUSGet Downloads` in the same directory as `NUSGet.exe`. This contains your WAD files.
+
+    ![](/images/desktop-apps/nusget/nusget-folder.png)
+1. Go into the folders corresponding to the title numbers for the above, and locate the singular WAD file in each. You will need to copy these to a folder called `wad` on your SD card or USB drive.
 1. After you have copied all 3 `.wad` files, eject your SD card/USB drive from your PC and put it back into your Wii.
 
-| Region | Wii Menu version |
-| ------ | ---------------- |
-| Japan  | v512 (4.3J)      |
-| USA    | v513 (4.3U)      |
-| Europe | v514 (4.3E)      |
-| Korea  | v518 (4.3K)      |
+
 
 ### Section II - Installing
 
