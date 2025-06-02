@@ -96,7 +96,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 1. Check the `Create decrypted contents (*.app)` box, and then press `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-vwiimenu-dl.png)
-1. Downloads are output to a `NUSGet Downloads` folder in the same directory as `NUSGet.exe`. Open this folder, and locate the `0000000700000002` folder inside it.
+1. Downloads are output to a `NUSGet Downloads` folder in the same directory as your NUSGet executable. Open this folder, and locate the `0000000700000002` folder inside it.
 
     ![](/images/desktop-apps/nusget/nusget-folder.png)
 1. Find the .app file that corresponds to your Wii U's region in the table below:

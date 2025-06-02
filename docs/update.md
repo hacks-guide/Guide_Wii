@@ -24,16 +24,16 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 1. Download the archive corresponding to your operating system. For Windows users, you should get `NUSGet-Windows-x86_64-onefile-bin.zip`.
 1. Unzip the archive and run NUSGet.
-1. Go to `System` > `0000000100000002 - System Menu` > `Your Region` and then select the latest 4.3 version of the menu (e.x. `v513 4.3U` for USA). Keep the options as-is and press `Start Download`.
+1. Go to `System` > `0000000100000002 - System Menu` > `Your Region` and then select the latest 4.3 version of the menu (e.x. `v513 4.3U` for USA). Uncheck `Keep encrypted contents` and press `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-wiimenu-dl-alt.png)
-1. Go to `System` > `000000010000003A - IOS 58` > `Latest Version`. Keep the options as-is and press `Start Download`.
+1. Go to `System` > `000000010000003A - IOS 58` > `Latest Version`. Uncheck `Keep encrypted contents` and press `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-ios58-dl.png)
-1. Go to `System` > `0000000100000050 - IOS 80` > `Latest Version`. Keep the options as-is and press `Start Download`.
+1. Go to `System` > `0000000100000050 - IOS 80` > `Latest Version`. Uncheck `Keep encrypted contents` and press `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-ios80-dl.png)
-1. When you have finished downloading the above, locate a folder named `NUSGet Downloads` in the same directory as `NUSGet.exe`. This contains your WAD files.
+1. When you have finished downloading the above IOS, locate a folder named `NUSGet Downloads` in the same directory as your NUSGet executable. This contains your WAD files.
 
     ![](/images/desktop-apps/nusget/nusget-folder.png)
 1. Go into the folders corresponding to the title numbers for the above, and locate the singular WAD file in each. You will need to copy these to a folder called `wad` on your SD card or USB drive.
