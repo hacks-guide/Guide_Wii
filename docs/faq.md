@@ -143,7 +143,8 @@ ISPs known to provide routers incompatible with these settings:
 If your ISP will not let you change these settings, or your current networking hardware is not supported, you have a few options:
 
 + You can try to use a cellular hotspot. This is not recommended as it usually results in an unstable connection.
-+ You can use a LAN adapter. It must have the `ASIX AX88772` chipset or say “compatible with Wii”. Here is a [recommended LAN adapter by uGreen](https://a.co/d/3OcSJDS).
++ You can use a LAN adapter. It must have the `ASIX AX88772` chipset or say “compatible with Wii”. Here is a [recommended LAN adapter by Plugable](https://a.co/d/g8XvMDp).
+  + Note that variants of the chipset (eg. `ASIX AX88772E`) **will not work** with the Wii.
 + Alternatively, you can buy a secondary router and continue to use the network you already have, like a mesh. Any cheap router meeting the above standards (such as the Linksys WRT54G) will work.
 
 For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the `Wii VC Launch` Aroma plugin.
