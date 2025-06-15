@@ -1,10 +1,10 @@
 # Wii játék shortcut-ok létrehozása
 
-Használsz Wii backup betöltőt, és szeretnél játék parancsikonokat létrehozni, hogy elindíthasd őket a Wii menüjében? Akkor próbáld ki a WiiGSC-t (Wii Game Shortcut Creator), korábbi nevén Crap.
+This guide provides instructions on how to create Wii game shortcuts for game backups that you have on external storage devices, using a piece of software called WiiGSC (Wii Game Shortcut Creator). By creating game shortcuts, you can launch a game backup directly from the Wii Menu as if you had inserted the game as a regular disc.
 
 ::: warning
 
-Brick esetén a [Priiloader telepítése elengedhetetlen](/priiloader). Továbbá telepítsd a BootMii-t (Boot2-ként, ha korai Wii-d van). A brickvédelem telepítése az útmutató helyes követésével együtt megóv a brickelődéstől. NE FOLYTASD, AMÍG NEM TELEPÍTETTED A PRIILOADER-T ÉS A BOOTMII-T!
+Installing [Priiloader](priiloader) and [BootMii](bootmii) are advised due to brick risk in this guide, and should keep you safe along with following the guide correctly. Do NOT continue the guide unless you have installed Priiloader or BootMii!
 
 :::
 
@@ -14,31 +14,53 @@ NE készíts parancsikont a "Mario Party 9" vagy az "A Boy and His Blob" játék
 
 :::
 
+::: warning
+
+Your browser or antivirus software may flag WiiGSC as malware - this is a false positive. WiiGSC does NOT contain any malware.
+
+:::
+
 ::: info
 
 A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszercsatornákat.
 
 :::
 
-## Követelmények
+## Requirements
 
 - Egy Wii
 - Egy SD kártya vagy USB drive
+- A Windows computer
 - [YAWM ModMii Edition](yawmme)
-- Egy Windows számítógép.
 - [WiiGSC ModMii Edition](https://github.com/modmii/WiiGSC/releases)
 
 ## Lépések
 
-1. Csomagold ki a WiiGSC `.zip`-et, keresd meg a `WiiGSC.exe` fájlt és indítsd el.
+### Section I - Creating a Channel
 
-    ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
+1. Csomagold ki a WiiGSC `.zip`-et, keresd meg a `WiiGSC.exe` fájlt és indítsd el. The first launch will prompt you about common key creation and provide a disclaimer - simply click through these windows.
 
-2. Válaszd ki az SD-kártyán vagy USB-meghajtón lévő ISO- vagy WBFS-fájl elérési útvonalát, és válaszd ki a használt betöltőt. A többi beállításnak úgy kell lennie, ahogy van.
+    ![](/images/desktop-apps/wiigsc/wiigsc-disclaimer.png)
+
+2. With WiiGSC open, select `Open WBFS Drive` and select the drive letter for the device containing your WBFS files. Alternatively, you may select an individual ISO/WBFS file.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
-3. Telepítsd a generált WAD-et a [WAD manager](yawmme)-eddel.
+3. Select the game you would like to create a channel for, and then press `Use for Channel Creation`. Select the USB loader that you will use to launch the game, and then press `Create Channel` located in the bottom left corner.
+
+    ![](/images/desktop-apps/wiigsc/wiigsc-creation.png)
+
+4. Copy the output WAD to your SD card or other device used to load homebrew.
+
+### Section II - Installing Channel
+
+1. Open your WAD manager and locate the output WAD, then install it.
+
+    ![](/images/desktop-apps/wiigsc/wiigsc-install.png)
+
+2. If successful, you should now see your game shortcut on the Wii Menu!
+
+    ![](/images/desktop-apps/wiigsc/wiigsc-success.png)
 
 ::: info
 

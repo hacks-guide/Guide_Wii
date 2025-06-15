@@ -148,7 +148,8 @@ Internet szolgáltatók akikről ismert, hogy olyan routert biztosítanak ami in
 Ha az internet szolgáltatód nem engedi megváltoztatni ezeket a beállításokat, vagy a jelenlegi hálózati hardvered nem támogatja, akkor van néhány lehetőséged:
 
 - Megpróbálhatsz mobil hotspotot használni. Ez nem ajánlott, mivel általában instabil kapcsolatot eredményez.
-- Használhatsz egy LAN-adaptert. Ennek az `ASIX AX88772` lapkakészlettel kell rendelkeznie, vagy azt kell mondania, hogy „kompatibilis a Wii-vel”. Itt van egy [ajánlott LAN-adapter az uGreen-től](https://a.co/d/3OcSJDS).
+- Használhatsz egy LAN-adaptert. Ennek az `ASIX AX88772` lapkakészlettel kell rendelkeznie, vagy azt kell mondania, hogy „kompatibilis a Wii-vel”. Here is a [recommended LAN adapter by Plugable](https://a.co/d/g8XvMDp).
+  - Note that variants of the chipset (eg. `ASIX AX88772E`) **will not work** with the Wii.
 - Alternatívaként vásárolhatsz egy másodlagos routert, és továbbra is használhatod a már meglévő hálózatod. Bármilyen olcsó, a fenti szabványoknak megfelelő router (például a Linksys WRT54G) működni fog.
 
 A Wii U esetében a vWii a Wii U fő beállításaiban megadott internetbeállításokat használja, de opcionálisan szétválasztható a `Wii VC Launch` Aroma plugin segítségével.

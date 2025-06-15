@@ -15,10 +15,10 @@ SD 카드는 FAT32로 포맷해야 합니다. If your SD Card is not formatted t
 ## 요구 사항
 
 - [카페를 위한 아로마](https://aroma.foryour.cafe/)의 최신 파일입니다.
- - 예비 단계를 검토한 다음 4 개의 확인란을 모두 선택합니다.
- - nanddumper가 선택되었는지 다시 한번 확인합니다.
- - `페이로드 다운로드`를 클릭합니다.
- - `베이스 아로마 다운로드`를 클릭합니다.
+   - 예비 단계를 검토한 다음 4 개의 확인란을 모두 선택합니다.
+   - nanddumper가 선택되었는지 다시 한번 확인합니다.
+   - `페이로드 다운로드`를 클릭합니다.
+   - `베이스 아로마 다운로드`를 클릭합니다.
 - [Compat Title 설치 프로그램](https://hb-app.store/wiiu/CompatTitleInstaller)의 최신 릴리스입니다.
 
 ## 지침
@@ -74,19 +74,19 @@ SD 카드 레이아웃
 1. 컴퓨터에서 SD 카드를 꺼내서 Wii U 콘솔에 연결합니다.
 2. 인터넷 브라우저를 실행하고 `wiiuexploit.xyz` 웹사이트로 이동합니다.
 3. `Run Exploit!`을 클릭하고 `Please choose your payload:`라는 화면이 나올 때까지 B 버튼을 누릅니다. 이는 다음 단계에 필요합니다.
- - Wii U의 화면이 흰색이나 멈춘 상태로 멈춘 경우, 몇 초간 기다려 봅니다. 아무 일도 일어나지 않으면 콘솔을 재부팅하고 [브라우저 저장 데이터를 재설정](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history)한 다음 다시 시도합니다.
- - EnvironmentLoader가 보인다면 B 버튼을 충분히 오랫동안 누르지 않은 것입니다. 다시 시도해 봅니다.
+   - Wii U의 화면이 흰색이나 멈춘 상태로 멈춘 경우, 몇 초간 기다려 봅니다. 아무 일도 일어나지 않으면 콘솔을 재부팅하고 [브라우저 저장 데이터를 재설정](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history)한 다음 다시 시도합니다.
+   - EnvironmentLoader가 보인다면 B 버튼을 충분히 오랫동안 누르지 않은 것입니다. 다시 시도해 봅니다.
 
 ### 섹션 III - 낸드 백업
 
 이후 과정에서 문제가 발생하여 vWii가 작동하지 않게 되면, 이전에 만든 낸드 백업을 복원하면 문제를 해결할 수 있습니다.
 
 1. Wii U 게임패드의 십자 패드를 사용하여 다음 구성을 입력합니다.
- - SLC 덤프: **선택 사항**
- - SLCCMPT 덤프: **예**
- - MLC 덤프: **선택 사항**
- - OTP 덤프: **예**
- - SEEPROM 덤프: **선택 사항**
+   - SLC 덤프: **선택 사항**
+   - SLCCMPT 덤프: **예**
+   - MLC 덤프: **선택 사항**
+   - OTP 덤프: **예**
+   - SEEPROM 덤프: **선택 사항**
 2. A 버튼을 눌러 덤프 과정을 시작합니다.
 3. 과정이 완료되면 Wii U의 전원을 끄고 Wii ​​U에서 SD 카드를 꺼내 PC에 연결합니다.
 4. 파일을 잃어버리지 않으려면 `slccmpt.bin` 및 `otp.bin` 파일을 컴퓨터에 복사합니다. (전체 백업을 선택한 경우에는 `seeprom.bin`, `slc.bin`, `모든 mlc.bin.part` 파일도 복사)

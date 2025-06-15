@@ -148,7 +148,8 @@ Wii의 무선 네트워크 하드웨어는 2.4GHz 대역에서 최대 표준인 
 ISP에서 이러한 설정을 변경하지 못하게 하거나 현재 네트워크 하드웨어가 지원되지 않는 경우 몇 가지 옵션이 있습니다:
 
 - 셀룰러 핫스팟을 사용해 봅니다. 이 방법은 일반적으로 연결이 불안정해지므로 권장하지 않습니다.
-- LAN 어댑터를 사용할 수 있습니다. `ASIX AX88772` 칩셋이 있어야 하거나 "Wii와 호환"되어야 합니다. [uGreen이 추천하는 LAN 어댑터](https://a.co/d/3OcSJDS)는 다음과 같습니다.
+- LAN 어댑터를 사용할 수 있습니다. `ASIX AX88772` 칩셋이 있어야 하거나 "Wii와 호환"되어야 합니다. Here is a [recommended LAN adapter by Plugable](https://a.co/d/g8XvMDp).
+  - Note that variants of the chipset (eg. `ASIX AX88772E`) **will not work** with the Wii.
 - 혹은 보조 라우터를 구매해서 메시처럼 이미 가지고 있는 네트워크를 계속 사용할 수도 있습니다. 위의 기준을 충족하는 저렴한 라우터 (예: Linksys WRT54G)라면 모두 작동합니다.
 
 Wii U의 경우, vWii는 Wii U의 기본 설정에서 설정된 인터넷 설정을 사용하지만, `Wii VC 실행` 아로마 플러그인을 사용하여 선택적으로 분리할 수 있습니다.

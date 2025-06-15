@@ -43,12 +43,12 @@ evWii 아로마 플러그인이 설치되지 않았고 홈브류 앱이 멈췄�
 ### 섹션 II - 홈브류 채널 설치
 
 1. Boot into [Aroma](https://wiiu.hacks.guide/aroma/finalizing-setup).
- - If you set up [Aroma autobooting](https://wiiu.hacks.guide/aroma/autobooting), Aroma will already be running when you turn on your console.
+   - If you set up [Aroma autobooting](https://wiiu.hacks.guide/aroma/autobooting), Aroma will already be running when you turn on your console.
 2. Launch the vWii Compat Installer app from the Wii U menu.
 3. `A` 버튼을 눌러 홈브류 채널을 설치하고 `설치 성공`이 나올 때까지 기다립니다. 그런 다음 홈 버튼을 눌러 Wii U 메뉴로 돌아갑니다.
- - If the HOME button doesn't work, you can safely power off by holding down the power button on your console, and then turn it back on.
+   - If the HOME button doesn't work, you can safely power off by holding down the power button on your console, and then turn it back on.
 4. vWii (Wii 메뉴 아이콘)를 실행합니다.
- - 설치가 성공적으로 완료되면 Wii 메뉴에 홈브류 채널이 표시됩니다.
+   - 설치가 성공적으로 완료되면 Wii 메뉴에 홈브류 채널이 표시됩니다.
 
 ## 필수 읽기
 

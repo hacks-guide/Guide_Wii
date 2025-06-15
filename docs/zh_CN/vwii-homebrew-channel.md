@@ -43,12 +43,12 @@ If the evWii Aroma plugin is not installed, and a homebrew app hangs, the only w
 ### Section II - Installing the Homebrew Channel
 
 1. Boot into [Aroma](https://wiiu.hacks.guide/aroma/finalizing-setup).
- - If you set up [Aroma autobooting](https://wiiu.hacks.guide/aroma/autobooting), Aroma will already be running when you turn on your console.
+   - If you set up [Aroma autobooting](https://wiiu.hacks.guide/aroma/autobooting), Aroma will already be running when you turn on your console.
 2. Launch the vWii Compat Installer app from the Wii U menu.
 3. Press `A` to install the Homebrew Channel and wait until you see `Install succeeded`. Then press the HOME button to return to the Wii U Menu.
- - If the HOME button doesn't work, you can safely power off by holding down the power button on your console, and then turn it back on.
+   - If the HOME button doesn't work, you can safely power off by holding down the power button on your console, and then turn it back on.
 4. Launch vWii (the Wii Menu icon).
- - If the installation has succeeded, you should see the Homebrew Channel in your Wii Menu.
+   - If the installation has succeeded, you should see the Homebrew Channel in your Wii Menu.
 
 ## 必读
 
