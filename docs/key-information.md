@@ -44,7 +44,7 @@ Be especially cautious with IOS to avoid bricking, since they are specifically d
 
 :::: details What if I own a Wii mini?
 
-Wii Mini is supported and has compatibility with the most existing homebrew.
+Wii Mini is supported and has compatibility with most existing homebrew.
 Missing Wii features can be restored. A LAN adapter and USB hub are recommended.
 If there are multiple versions of homebrew, make sure you are using the one designed for Wii mini.
 Be especially cautious with IOS to avoid bricking, since they are specifically designed for Wii mini.
@@ -57,7 +57,7 @@ For SD cards, you will want a minimum of 128MB to run an exploit. On average, ho
 
 For USB devices, you will want to use a USB hard drive or solid state drive formatted as FAT32. We do not recommend using flash drives as they are prone to failure or not working as intended with a Wii.
 
-2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. For Wii U and Wii mini users, you will probably want to use an externally powered USB hub or a Y cable for drives that operate off of USB power alone, due to power draw.
+2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. For Wii U and Wii mini users, you will probably want to use an externally powered USB hub or a Y-cable for drives that operate off of USB power alone, due to power draw.
 
 Please consult [the storage FAQ](faq#storage-device-faq) for more information.
 
@@ -65,7 +65,7 @@ Please consult [the storage FAQ](faq#storage-device-faq) for more information.
 
 The Wii is an aging console, and as such, may have difficulties connecting to modern wireless networks.
 
-Its network hardware is based on 802.11g (retroactively named WiFi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use WiFi with your Wii.
+Its network hardware is based on 802.11g (retroactively named Wi-Fi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use Wi-Fi with your Wii.
 
 For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch) Aroma plugin.
 
