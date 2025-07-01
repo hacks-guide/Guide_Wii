@@ -1,10 +1,10 @@
 # Wii játék shortcut-ok létrehozása
 
-This guide provides instructions on how to create Wii game shortcuts for game backups that you have on external storage devices, using a piece of software called WiiGSC (Wii Game Shortcut Creator). By creating game shortcuts, you can launch a game backup directly from the Wii Menu as if you had inserted the game as a regular disc.
+Ez az útmutató azt tartalmazza, hogy a WiiGSC (Wii Game Shortcut Creator) szoftver segítségével hogyan tudsz létrehozni Wii játékparancsikonokat, külső tárolóeszközökön található játékok biztonsági másolataihoz. A játékparancsikonok létrehozásával a játék biztonsági másolatát közvetlenül a Wii menüből indíthatod el, mintha a játékot normál lemezként helyezted volna be.
 
 ::: warning
 
-Installing [Priiloader](priiloader) and [BootMii](bootmii) are advised due to brick risk in this guide, and should keep you safe along with following the guide correctly. Do NOT continue the guide unless you have installed Priiloader or BootMii!
+A [Priiloader](priiloader) és a [BootMii](bootmii) telepítése ajánlott, mivel ez az útmutató brickelés kockázatot jelent és a helyes követése biztonságot nyújt. NE folytasd az útmutatót, ha még nem telepítetted a Priiloader vagy a BootMii programot!
 
 :::
 
@@ -16,7 +16,7 @@ NE készíts parancsikont a "Mario Party 9" vagy az "A Boy and His Blob" játék
 
 ::: warning
 
-Your browser or antivirus software may flag WiiGSC as malware - this is a false positive. WiiGSC does NOT contain any malware.
+A böngésződ vagy a vírusírtó szoftvered elképzelhető, hogy a WiiGSC-t malware-nek jelöli - ez hamis pozitív. A WiiGSC NEM tartalmaz malware-t.
 
 :::
 
@@ -30,35 +30,35 @@ A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszerc
 
 - Egy Wii
 - Egy SD kártya vagy USB drive
-- A Windows computer
+- Egy Windows számítógép
 - [YAWM ModMii Edition](yawmme)
 - [WiiGSC ModMii Edition](https://github.com/modmii/WiiGSC/releases)
 
 ## Lépések
 
-### Section I - Creating a Channel
+### I. rész - Egy csatorna (channel) létrehozása
 
-1. Csomagold ki a WiiGSC `.zip`-et, keresd meg a `WiiGSC.exe` fájlt és indítsd el. The first launch will prompt you about common key creation and provide a disclaimer - simply click through these windows.
+1. Csomagold ki a WiiGSC `.zip`-et, keresd meg a `WiiGSC.exe` fájlt és indítsd el. Az első indításkor a rendszer kéri a közös kulcs létrehozását és megjelenik egy nyilatkozat – egyszerűen kattints át ezeken az ablakokon.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-disclaimer.png)
 
-2. With WiiGSC open, select `Open WBFS Drive` and select the drive letter for the device containing your WBFS files. Alternatively, you may select an individual ISO/WBFS file.
+2. A WiiGSC megnyitásakor válaszd az `Open WBFS Drive` (WBFS meghajtó megnyitása) lehetőséget, majd válaszd ki a WBFS fájlokat tartalmazó eszköz meghajtóbetűjelét. Alternatív megoldásként kiválaszthatsz egy egyedi ISO/WBFS fájlt is.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
-3. Select the game you would like to create a channel for, and then press `Use for Channel Creation`. Select the USB loader that you will use to launch the game, and then press `Create Channel` located in the bottom left corner.
+3. Válaszd ki azt a játékot, amelyhez csatornát szeretnél létrehozni, majd nyomd meg a `Use for Channel Creation` (Csatorna létrehozásához használat) gombot. Válaszd ki a játék indításához használni kívánt USB-töltőt, majd nyomd meg a bal alsó sarokban található `Create Channel` (Csatorna létrehozása) gombot.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-creation.png)
 
-4. Copy the output WAD to your SD card or other device used to load homebrew.
+4. Másold a kimeneti WAD fájlod az SD kártyádra vagy más eszközödre, amiről a homebrew-okat töltöd be.
 
-### Section II - Installing Channel
+### II. rész – Egy csatorna (channel) telepítése
 
-1. Open your WAD manager and locate the output WAD, then install it.
+1. Nyisd meg a WAD manager-ed és keresd meg a kimeneti WAD-ot majd telepítsd azt.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-install.png)
 
-2. If successful, you should now see your game shortcut on the Wii Menu!
+2. Ha sikeres volt látnod kell a játékod parancsikonját a Wii Menu-ben!
 
     ![](/images/desktop-apps/wiigsc/wiigsc-success.png)
 

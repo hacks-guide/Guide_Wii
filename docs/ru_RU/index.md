@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Wii Guide
+title: "Wii Guide"
 hero:
-  text: Wii Guide
-  tagline: The complete guide to modding your Wii, vWii, and Wii mini.
+  text: "Wii Guide"
+  tagline: "The complete guide to modding your Wii, vWii, and Wii mini."
   image:
     src: /images/main-pages/home-page-feature.jpg
 ---

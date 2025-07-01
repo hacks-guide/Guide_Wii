@@ -1,34 +1,34 @@
 # Восстановление резервной копии BootMii (RestoreMii)
 
-Это руководство даст инструкцию, как восстановить NAND c помощью резервной копии и BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
+Это руководство даст инструкцию, как восстановить NAND c помощью резервной копии и BootMii. Пожалуйста, имейте в виду, что данное действие, как правило, <strong>крайная мера</strong> в попытках ремонта окирпиченной консоли, и если это не решит проблему, вам, возможно, придется обратиться за поддержкой. Если вы все ещё можете войти в BootMii, сделайте попытку войти в Homebrew Channel для того, чтобы попытаться [идентифицировать тип брика и отремонтировать консоль](bricks) другими способами.
 
 ::: info
 
-If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. В таком случае пропустите шаги 1 и 2.
+Если у вас установлен BootMii на boot2, вам нужно запустить BootMii, перезапустив консоль. В таком случае пропустите шаги 1 и 2.
 
 :::
 
 ::: warning
 
-If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Download [this zip file](https://static.hackmii.com/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Скачайте [этот zip архив](https://static.hackmii.com/bootmii_sd_files.zip) и распакуйте его в корень вашей SD карты, а затем повторите попытку.
 
 :::
 
 ::: danger
 
-Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
+Версии Wii Family Edition (Wii без портов GameCube) НЕ МОГУТ восстанавливать резервные копии NAND. Это происходит из-за отсутствия портов GameCube, которые требуется для Wii без модифицированного boo2 для ввода кода подтверждения восстановления. За дополнительной помощью обращайтесь за поддержкой.
 
 :::
 
 ::: danger
 
-DO NOT restore an unverified NAND backup, or one that is not from your Wii: this may lead to a WORSE BRICK. The same also goes for faulty SD cards.
+НЕ восстанавливайте непроверенную резервную копию NAND, или копию не из вашей Wii: это может привести к ЕЩЁ БОЛЕЕ ПЛОХОМУ БРИКУ. То же самое относится к использованию неисправных SD-карт.
 
 :::
 
 ## Требования
 
-- An earlier NAND Backup made by [BootMii](bootmii)
+- Предыдущая резервная копия NAND созданная через [BootMii](bootmii)
 
 ## Want to restore individual data from your NAND backup?
 

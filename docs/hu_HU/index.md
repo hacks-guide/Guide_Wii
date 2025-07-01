@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Wii Hack útmutató
+title: "Wii Hack útmutató"
 hero:
-  text: Wii Hack útmutató
-  tagline: A teljes útmutató a Wii, vWii és Wii mini moddingjához.
+  text: "Wii Hack útmutató"
+  tagline: "A teljes útmutató a Wii, vWii és Wii mini moddingjához."
   image:
     src: /images/main-pages/home-page-feature.jpg
 ---

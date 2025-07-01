@@ -47,17 +47,17 @@ BlueBomb - это эксплойт, который использует уязв
 - Компьютер с Linux
     - Виртуальная машина может сработать, но её использование не рекомендуется из-за сложности с пробросом Bluetooth. По возможности, используйте LiveUSB, как описано ниже.
     - Если у вас есть Raspberry Pi, вы можете использовать её вместо вашего устройства, так как на ней, скорее всего уже установлен Linux.
-        - ARM64 Rasperry Pi's need multiarch enabled with the armhf (32bit) architecture added. The following should work on any debian based OS:
+        - Raspberry Pi с архитектурой ARM64 требуют включения multiarch с добавленной архитектурой armhf (32 бит). Данные команды должны работать с любым дистрибутивом основанном на Debian:
         ```bash
-        sudo sudo dpkg --add-architecture armhf
+        sudo dpkg --add-architecture armhf
         sudo apt update && sudo apt install -y screen:armhf
-        file /usr/bin/screen # should say ELF 32-bit
+        file /usr/bin/screen # должен вывести "ELF 32-bit"
         screen
         ```
     - Windows Subsystem for Linux или Chromebook запущенный в режиме Linux **не будут** работать, так как они не имеют прямого доступа к адаптеру Bluetooth или портам USB.
-    - If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or intel based Macs.
-        - Apple Silicon Macs will not work due to them missing the ARM32 instructions in the hardware.
-        - На 32-битных устройствах требуется использовать [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
+    - Если у вас нет Linux, [Ubuntu](https://ubuntu.com/download/desktop) является самым удобным вариантом и может быть запущен на компьютерах с Windows или на Mac с процессором Intel.
+        - Apple Mac'и с процессором Silicon не будут работать из-за отсутствующих инструкций ARM32 в процессоре.
+        - Используйте [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) если у вас 32-битное устройство.
         - Для 64-битных устройств рекомендуется использование LTS версии из-за её стабильности, но последний выпуск так же работает.
     - Вы можете [записать Live-пространство Ubuntu на USB накопитель](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) вместо установки на ваш компьютер.
 - Bluetooth-адаптер.
@@ -72,7 +72,7 @@ BlueBomb - это эксплойт, который использует уязв
 1. Скопируйте `boot.elf` из backmii_installer_v1.2 `.zip` в корень вашего USB-накопителя.
 
     - (Если вы пытаетесь восстановить консоль из окирпиченного состояния, вы также должны скопировать homebrew-приложения которые вы хотите использовать в /apps/)
-    - (bootmini.elf **не** будет работать даже на Wii mini, его назначение совершенно другое и не связано с этим руководством.  Используйте boot.elf во всех случаях).
+    - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Используйте boot.elf во всех случаях).
 
     ![](/images/exploits/bluebomb/usb-exploit.png)
 
@@ -94,7 +94,7 @@ BlueBomb - это эксплойт, который использует уязв
 
 7. Запустите ваш дистрибутив Linux и убедитесь, что вы подключены к Интернету.
 
-8. Open the Terminal, and run the following commands:
+8. Откройте терминал и выполните следующие команды:
 
     ```bash
     wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -112,14 +112,14 @@ BlueBomb - это эксплойт, который использует уязв
 
     ![](/images/exploits/bluebomb/wii-mini-options.png)
 
-    - If you have selected a Wii you will be asked to provide your Wii Menu version (what you determined in step 4).
+    - Если вы выбрали обычную Wii, вас попросят предоставить версию системного меню (ту что вы определили в шаге 4).
 
     ![](/images/exploits/bluebomb/wii-options.png)
 
 10. Включите вашу консоль.
-    - **Не** подключайте никакие контроллеры Wii (Wii Remote).
+    - **Не подключайте** контроллеры Wii (Wii Remote).
 
-11. Type `yes` in the script to proceed if you have not already done so, and make sure that `Waiting to accept` is displaying.
+11. Введите `yes` в скрипт, чтобы продолжить, если вы ещё этого не сделали, и убедитесь, что скрипт выводит `Waiting to accept`.
 
 12. Нажимайте кнопку синхронизации (Sync), пока терминал не отобразит строку `got connection handle`.
 
@@ -127,7 +127,7 @@ BlueBomb - это эксплойт, который использует уязв
 
     ![](/images/exploits/bluebomb/got-connection-handle.png)
 
-13. If the exploit was successful, you should see a similar screen to the below, after which the HackMii installer should load.
+13. Если эксплойт выполнился успешно, то вы должны увидеть подобный экран, после чего загрузится установщик HackMii.
 
     - Вы можете выключить ваш компьютер с загруженным Linux, если вы не планируете дальше его использовать.
 
@@ -135,7 +135,7 @@ BlueBomb - это эксплойт, который использует уязв
 
 ::: tip
 
-[Continue to the Hackmii Installer](hbc)
+[Перейти к установщику HackMii](hbc)
 
 :::
 
@@ -171,19 +171,19 @@ BlueBomb - это эксплойт, который использует уязв
 
 ::: info
 
-Make sure that the microcontroller is close to the computer running the exploit, ideally it should be less than 3 feet.
+Убедитесь, что микроконтроллер расположен близко к компьютеру, на котором выполняется эксплойт, в идеале расстояние должно быть меньше 1 метра.
 
 :::
 
 ### Требования
 
-- A Raspberry Pi Pico W 1/2 or an ESP32 with BR/EDR (Classic) support.
+- Raspberry Pi Pico W 1/2 или ESP32 с поддержкой BR/EDR (Classic).
 - USB-накопитель отформатированный в FAT32.
 - [Установщик HackMii](https://bootmii.org/download/)
 
 ::: info
 
-A normal Raspberry Pi Pico will not work. Вам нужна беспроводная модель. Кроме того, ESP32 с контроллером только BLE тоже не будет работать.
+Обычная Raspberry Pi Pico не будет работать. Вам нужна беспроводная модель. Кроме того, ESP32 с контроллером, который поддерживает только BLE (Bluetooth Low Energy) не будет работать.
 
 :::
 
@@ -192,7 +192,7 @@ A normal Raspberry Pi Pico will not work. Вам нужна беспроводн
 1. Скопируйте `boot.elf` из backmii_installer_v1.2 `.zip` в корень вашего USB-накопителя.
 
     - (Если вы пытаетесь восстановить консоль из окирпиченного состояния, вы также должны скопировать homebrew приложения которые вы хотите использовать в /apps/)
-    - (bootmini.elf **не** будет работать даже на Wii mini, его назначение совершенно другое и не связано с этим руководством.  Используйте boot.elf во всех случаях).
+    - (bootmini.elf **не будет** работать даже на Wii mini, его назначение совершенно другое и не связано с этим руководством. Используйте boot.elf во всех случаях).
 
     ![](/images/exploits/bluebomb/usb-exploit.png)
 
@@ -214,24 +214,24 @@ A normal Raspberry Pi Pico will not work. Вам нужна беспроводн
 
 #### Raspberry Pi Pico W
 
-1. Download the latest [Pre-Compiled Binaries](https://github.com/GaryOderNichts/bluebomb_micro/releases) from the releases page, and extract it to your PC.
+1. Скачайте последние [скомпилированные библиотеки](https://github.com/GaryOderNichts/bluebomb_micro/releases) со страницы "Releases", и распакуйте их на ваш ПК.
 
-    - Select the appropriate binaries for your device. `bluebomb_micro_pico2_w_version` is for the Pico 2 W, while `bluebomb_micro_pico_w_version` is for the Pico 1 W.
+    - Выберите подходящие файлы для вашего устройства. `bluebomb_micro_pico2_w_версия` предназначен для Pico 2 W, а `bluebomb_micro_pico_w_версия` для Pico 1 W.
 
     ![](/images/exploits/bluebomb/pico-download.png)
 
-2. Подключите ваш Pico W к ПК, удерживая кнопку `BOOTSEL`. Теперь ваш Pico должен отображаться в качестве диска на вашем компьютере.
+2. Подключите вашу Pico W к ПК, удерживая кнопку `BOOTSEL`. Теперь ваш Pico должен отображаться в качестве диска на вашем компьютере.
 
     ![](/images/exploits/bluebomb/pico-button.jpg)
     ![](/images/exploits/bluebomb/pico-drive.png)
 
-3. Unzip the downloaded archive and copy the file which matches your Wii or Wii mini to the drive.
+3. Разархивируйте скачанный архив и скопируйте на диск файл, который соответствует вашей Wii или Wii mini.
 
-    - If you have a European Wii running version 4.3, you would copy bluebomb_WII_SM4_3E.uf2, or if you have a European Wii Mini, you would copy bluebomb_MINI_SM_PAL.uf2, etc...
+    - Если у вас европейская Wii с версией 4.3, вы должны скопировать `bluebomb_WII_SM4_3E.uf2`, или если у вас европейская Wii mini, вы должны скопировать `bluebomb_MINI_SM_PAL.uf2`, и так далее...
 
     ![](/images/exploits/bluebomb/pico-files.png)
 
-4. The drive should disconnect and begin to flash a green LED. This means your Pico W is ready - you may unplug the device from your PC.
+4. Диск должен отключиться и начать мигать зеленым светодиодом. Это значит что ваша Pico W готова - вы можете отсоединить устройство от компьютера.
 
     ![](/images/exploits/bluebomb/pico-ready.jpg)
 
@@ -240,28 +240,28 @@ A normal Raspberry Pi Pico will not work. Вам нужна беспроводн
 1. Установите последнюю [ESP IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html).
 2. Соберите бинарник [из исходника](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#building-from-source).
 3. [Запишите бинарник](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#flashing) на ваш ESP32.
-4. Ваше устройство готово. Вы можете отключить устройство от вашего компьютера.
+4. Ваше устройство готово. Вы можете извлечь устройство из вашего компьютера.
 
 ### Выполнение эксплоита
 
 1. Подключите устройство обратно к вашему ПК.
 2. Включите вашу консоль.
-    - **Не** подключайте никакие контроллеры Wii (Wii Remote).
-3. Press the Sync button repeatedly until the Pico W LED begins to rapidly flash, at which point it will start uploading the exploit.
+    - **Не подключайте** контроллеры Wii (Wii Remote).
+3. Нажимайте кнопку синхронизации (Sync) до тех пор, пока светодиод Pico W не начнет быстро мигать, в этот момент начнется загрузка экплойта.
     - Вам может понадобиться несколько попыток.
-4. If the exploit was successful, you should see a similar screen to the below, after which the HackMii installer should load.
+4. Если эксплойт выполнился успешно, то вы должны увидеть подобный экран, после чего загрузится установщик HackMii.
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ::: tip
 
-If you get an error `Exception 0700 occurred!` or similar, try the exploit again. If this continues to happen, join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) for support.
+Если вы получили ошибку `Exception 0700 occurred!` или что-то подобное, попробуйте запустить эксплойт снова. Если это продолжается, присоединитесь к Discord серверу [Wii mini Hacking](https://discord.gg/6ryxnkS) за помощью.
 
 :::
 
 ::: tip
 
-[Continue to the Hackmii Installer](hbc)
+[Перейти к установщику HackMii](hbc)
 
 :::
 

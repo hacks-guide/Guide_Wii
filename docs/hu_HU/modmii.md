@@ -8,7 +8,7 @@ Erre a programra NEM vállalunk garanciát, így a konzolodat ért esetleges ká
 
 ::: warning
 
-Néhány fukció korlátozott lehet a Wii mini-hez.
+Néhány funkció korlátozott lehet a Wii mini-hez.
 
 :::
 
@@ -49,17 +49,17 @@ Az alábbi táblázat segít meghatározni, hogy mit lehet csinálni az egyes fe
 | Tool                                                                                                                         | Description                                                                                                                                                                                                                                                                                                       |
 | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | W = ModMii Wizard <-- Kezd itt a Wii, vWii vagy WiiU-od moddolásával!                               | This option can be used to hack your Wii for the first time or re-hack a Wii that has been previously modded.                                                                                                                                                                                     |
-| SU = SysCheck Updater Wizard (frissítsd a régi Wii\vWii softmodjaid)                                      | This option checks for and updates old modifications installed to your console. On the Wii it can fix things such as DarkCorp/CIOSSPAGHETTI that can potentially cause problems for the latest up to date homebrew.                                                               |
+| SU = SysCheck Updater Wizard (frissítsd a régi Wii\vWii softmodjaid)                                      | Ez az opció ellenőrzi és frissíti a régi telepített módosításokat a konzolodon. Wii-n ez javítani tud olyan dolgokat, mint a DarkCorp/CIOSSPAGHETTI ami potenciális problémákat okozhat a legutolsó friss homebrew-ok esetében.                                                   |
 | U = USB-Loader Setup Wizard (Wii \ vWii \ Wii Mini)                                                       | This option will properly set up your USB loader to be able to load your disk backups from an SD or USB hard drive. This option is not necessary if using the ModMii Wizard.                                                                                                      |
-| H = HackMii Solutions Wizard (Wii) Upside-Down HBC/No Vulnerable IOS Fix                                  | This option is useful for people who are having trouble getting the HackMii Installer to work or have an upside down homebrew channel.                                                                                                                                                            |
+| H = HackMii Solutions Wizard (Wii) Fejjel lefelé HBC\No Vulnerable IOS javítás                            | This option is useful for people who are having trouble getting the HackMii Installer to work or have an upside down homebrew channel.                                                                                                                                                            |
 | AW = Abstinence Wizard (Non-permanent Wii Hacks)                                                          | This option allows you to run homebrew on your Wii without making any permanent modifications to the system NAND.                                                                                                                                                                                 |
 | RC = Region Change Wizard (Wii)                                                                           | This option can be used to change the region of your Wii without bricking it, and is arguably the best region changing wizard on the internet.                                                                                                                                                    |
-| S = SNEEK Installation, EmuNAND Builder/Modifier, Game Bulk Extractor                                                        | This option will help you properly set up an EmuNAND (aka neek2o) onto your SD or USB. Benefits for EmuNAND include extra storage space for save games or channels, as well as running homebrew without making any permanent modifications to the system NAND. |
+| S = SNEEK telepítés, EmuNAND Builder\Modifier, Game Bulk Extractor                                                           | This option will help you properly set up an EmuNAND (aka neek2o) onto your SD or USB. Benefits for EmuNAND include extra storage space for save games or channels, as well as running homebrew without making any permanent modifications to the system NAND. |
 | F = open a File or Folder with ModMii for many more functions!                                                               | This option is an advanced tool especially helpful for developers.                                                                                                                                                                                                                                |
-| # = Download Pages: 1=NUS, 2=Wii Homebrew, 3=Themes, 4=cIOSs, 5=WiiU+PC Apps                                 | This will take you to the various download pages available for things like homebrew apps, PC apps, IOSes, cIOSes, Wii Menu themes, and more.                                                                                                                                                      |
-| A = Advanced Downloads and Forwarder Builder                                                                                 | This option allows you to download any IOS and cIOS and build custom DOL/ISO forwarders. Intended for advanced users only.                                                                                                                                                        |
+| # = Letöltés oldalak: 1=NUS, 2=Wii Homebrew, 3=Témák, 4=cIOSs, 5=WiiU+PC appok                               | Ez különböző letöltési oldalakhoz viszm mint például homebrew appok, PC appok, IOS-ek, cIOS-ek, Wii Menu témák és továbbiak.                                                                                                                                                                      |
+| A = Speciális letöltések és Forwarder Builder                                                                                | This option allows you to download any IOS and cIOS and build custom DOL/ISO forwarders. Intended for advanced users only.                                                                                                                                                        |
 | L = Load Download Queue                                                                                                      | This option loads bundled or previously saved download queues.                                                                                                                                                                                                                                    |
-| C = Customize Config Files for Bootmii, Wad Manager or Multi-Mod Manager                                                     | This option allows you to build customized config files for BootMii, Wad Manager, and Multi-Mod Manager.                                                                                                                                                                                          |
+| C = Egyéni konfigurációs fájlok készítése Bootmii, Wad Manager vagy Multi-Mod Manager számára                                | This option allows you to build customized config files for BootMii, Wad Manager, and Multi-Mod Manager.                                                                                                                                                                                          |
 | FC = File Cleanup & App Updater: Appok frissítése és/vagy felesleges fájlok eltávolítása | This option removes unnessecary files from your SD Card or Hard Drive after finishing softmodding your Wii.                                                                                                                                                                                       |
 
 :::
@@ -99,11 +99,11 @@ A ModMii Wizard egy olyan eszköz, amely képes a konzolod az elejétől a vég�
 
     ![](/images/modmii/modmii-wizard-1.png)
 
-2. Choose the platform you are going to mod. If you have a Wii U, it is recommended to mod both the Wii U and vWii. If you are planning on modding both the Wii U and vWii, skip to step 9. If you are planning on modding just the vWii, skip to step 5. If you are planning on modding Just the Wii U, skip to step 13.
+2. Válaszd ki a moddolni kivánt platformot. Ha Wii U-val rendelkezel, javasoljuk, hogy moddold a Wii U-t és a vWii-t egyaránt. Ha tervezed, hogy a mind a Wii U-t mind a vWii-t fogod moddolni, ugorj a 9. lépésre. Ha azt tervezed, hogy csak a vWii-t moddolni fogod, ugorj a 5. lépésre. Ha azt tervezed, hogy csak a Wii U-t fogod moddolni, ugorj a 13. lépésre.
 
     ![](/images/modmii/modmii-wizard-2.png)
 
-3. Answer `Yes` to the first question, unless you have a very specific idea of what you would like to do or update to your console.
+3. Az első kérdésre válaszolj `Yes`-szel, hacsak nincs nagyon konkrét elképzelésed arról, hogy mit szeretnél tenni vagy frissíteni a konzolodon.
 
     ![](/images/modmii/modmii-wizard-3.png)
 
@@ -111,7 +111,7 @@ A ModMii Wizard egy olyan eszköz, amely képes a konzolod az elejétől a vég�
 
     ![](/images/modmii/modmii-wizard-4.png)
 
-5. Select the exploit you would like to use to mod your console. If you are on a Wii, we would reccommend using Wilbrand if you have an SD card on hand. For modding just the vWii, we would reccommend using the browser.
+5. Válaszd ki azt az exploitot, amellyel módosítani szeretnéd a konzolod. Ha egy Wii-n vagy, javasoljuk a Wilbrand-ot, ha van egy SD kártya kéznél. Csak a vWii moddolásához ajánljuk a böngészőt.
 
     ![](/images/modmii/modmii-wizard-5.png)
 
