@@ -63,7 +63,7 @@ Here, the different Wii bricks will be discussed in order of severity, with symp
 ## Semibrick
 
 ### Symptoms
-When navigating to Wii Settings, you get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` In some cases, some parts of the Wii Settings menu may still be accessible, but other parts may not (such as the Country menu).
+When navigating to Wii Settings, you get an error from the Opera web browser with something along the lines of `You tried to access the address (URL), which is currently unavailable.` In some cases, some parts of the Wii Settings menu may still be accessible, but other parts may not (such as the Country menu).
 
 ### Cause
 A semibrick occurs when a different region Wii Menu or a different region custom theme is installed. As the Wii Settings menu is rendered using HTML pages with Opera, themes often replace these pages and put them in different directories; essentially leading to a `404 Not Found` error but in the form of a console brick.
@@ -130,7 +130,7 @@ From here, the Homebrew Channel can be loaded and the brick can be fixed by dele
 ## Wii Menu/Opera brick
 
 ### Symptoms
-When starting the Wii, you get an error from the Opera web browser along the lines of `You tried to access the address (URL), which is currently unavailable.` This will happen every time you start the Wii, and cannot be bypassed by any other means.
+When starting the Wii, you get an error from the Opera web browser with something along the lines of `You tried to access the address (URL), which is currently unavailable.` This will happen every time you start the Wii, and cannot be bypassed by any other means.
 
 ### Cause
 This brick is a more fatal version of a [Semibrick](#semibrick). If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
