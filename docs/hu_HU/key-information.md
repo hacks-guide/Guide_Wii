@@ -66,7 +66,7 @@ További információkért tekintse meg [a tárolási GYIK](faq#storage-device-f
 
 A Wii egy öregedő konzol, és így problémái vannak a modern vezetéknélküli hálózatokhoz csatlakozással.
 
-A hálózati hardvere a 802.11g (visszamenőlegesen WiFi 3-kén nevezett) szabványon alapul, amely a 2,4 GHz-es sávban működik. Emellett támogatja a WPA2-PSK (AES) személyes hálózati titkosítást is. Meg kell győződnöd arról, hogy a hálózatod támogatja ezeket a szabványokat, ha szeretnél WiFi-t a Wii-vel használni.
+A hálózati hardvere a 802.11g (visszamenőlegesen Wi-Fi 3-kén nevezett) szabványon alapul, amely a 2,4 GHz-es sávban működik. Emellett támogatja a WPA2-PSK (AES) személyes hálózati titkosítást is. Meg kell győződnöd arról, hogy a hálózatod támogatja ezeket a szabványokat, ha szeretnél Wi-Fi-t a Wii-vel használni.
 
 A Wii U esetében a vWii a Wii U fő beállításaiban megadott internetbeállításokat használja, de opcionálisan szétválasztható a [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch) Aroma plugin segítségével.
 

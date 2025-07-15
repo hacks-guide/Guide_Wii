@@ -44,7 +44,7 @@ Wii U의 USB 포트만으로는 충분한 전력을 공급할 수 없으므로 �
 
 :::: details Wii 미니를 가지고 있다면?
 
-Wii 미니는 대부분의 기존 홈브류 게임과 호환되며 지원됩니다.
+Wii Mini is supported and has compatibility with most existing homebrew.
 누락된 Wii 기능을 복구할 수 있습니다. LAN 어댑터와 USB 허브를 권장합니다.
 홈브류에 여러 버전이 있는 경우, Wii 미니용으로 설계된 버전을 사용해야 합니다.
 Wii 미니용으로 특별히 설계된 iOS의 경우, 벽돌을 피하기 위해 특히 조심해야 합니다.
@@ -57,7 +57,7 @@ SD 카드의 경우, 익스플로잇을 실행하려면 최소 128MB가 필요�
 
 USB 장치의 경우 FAT32로 포맷된 USB 하드 드라이브나 솔리드 스테이트 (SSD) 드라이브를 사용해야 합니다. 플래시 드라이브는 Wii에서 고장이 나거나 의도한 대로 작동하지 않을 수 있으므로 사용하지 않는 것이 좋습니다.
 
-2.5인치 드라이브는 대부분의 경우 Wii에서 USB 전원만으로 작동하면 잘 작동하지만, 3.5인치는 더 많은 전력을 소모하므로 항상 외부 전원 어댑터가 필요합니다. Wii U와 Wii 미니 사용자의 경우, 전력 소모가 크기 때문에 USB 전원만으로 작동하는 드라이브의 경우 외부 전원 공급 USB 허브나 Y 케이블을 사용하는 것이 좋습니다.
+2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch drives consume more power and will always need an external power adapter. For Wii U and Wii mini users, you will probably want to use an externally powered USB hub or a Y-cable for drives that operate off of USB power alone, due to power draw.
 
 자세한 내용은 [저장소 자주 묻는 질문](faq#storage-device-faq)를 참조합니다.
 
@@ -65,7 +65,7 @@ USB 장치의 경우 FAT32로 포맷된 USB 하드 드라이브나 솔리드 스
 
 Wii는 오래된 콘솔이기 때문에 최신 무선 네트워크에 연결하는 데 어려움이 있을 수 있습니다.
 
-네트워크 하드웨어는 2.4GHz 대역에서 작동하는 802.11g (이전 명칭은 WiFi 3)를 기반으로 합니다. 또한 최대 WPA2-PSK (AES) 개인 네트워크 암호화도 지원합니다. Wii에서 WiFi를 사용하려면 네트워크가 이러한 표준을 지원하는지 확인해야 합니다.
+Its network hardware is based on 802.11g (retroactively named Wi-Fi 3), which operates on the 2.4 GHz band. 또한 최대 WPA2-PSK (AES) 개인 네트워크 암호화도 지원합니다. You must make sure your network supports these standards if you would like to use Wi-Fi with your Wii.
 
 Wii U의 경우 vWii는 Wii U 기본 설정에서 설정한 인터넷 설정을 그대로 사용하지만, [Wii VC 실행](https://hb-app.store/wiiu/WiiVCLaunch) 아로마 플러그인을 이용해 선택적으로 분리할 수 있습니다.
 

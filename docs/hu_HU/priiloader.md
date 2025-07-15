@@ -71,9 +71,9 @@ A későbbi indításhoz kövesd az alábbi lépéseket:
 
     ::: warning
 
-    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
+    Ha a Priiloader telepítőt az USB drive-odra raktad, legyél biztos abban, hogy vele egy időben nincs SD kártya bedugva.
 
-    Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a hacks_hash.ini\` fájlt.
+    Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a hacks_hash.ini\\` fájlt.
 
     :::
 

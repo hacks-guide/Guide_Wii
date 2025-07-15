@@ -10,7 +10,7 @@ Ha több játékot akarsz tárolni, javasoljuk egy külső háttértár beszerz�
 
 ::: info
 
-A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
+A flash meghajtó nem ajánlott, mivel kicsi és még ugyanazon termékek között is eltérő lehet a működése.
 
 Alternatívaként használhatsz egy SD kártyát is, de figyelmeztetünk, hogy a Wii SD kártya-olvasója lassú.
 
@@ -24,7 +24,7 @@ NTFS-ként is formázhatod, de a legtöbb homebrew alkalmazás (pl.: a Homebrew 
 
 :::
 
-## Joining PART files on a FAT32 device
+## A PART fájlok egyesítése egy FAT32 eszközön
 
 ::: info
 
@@ -64,7 +64,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
     ![](/images/desktop-apps/WBM/mergesuccesslinux.png)
 
-## Using Wii Backup Manager
+## Követelmények
 
 ### Követelmények
 
@@ -100,7 +100,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
     ![](/images/desktop-apps/WBM/transfer_todrive.png)
 
-## Using Wii Backup Fusion
+## Követelmények
 
 ### Követelmények
 

@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Wii 해킹 가이드
+title: "Wii 해킹 가이드"
 hero:
-  text: Wii 해킹 가이드
-  tagline: 완벽한 Wii, vWii, Wii 미니 해킹 가이드.
+  text: "Wii 해킹 가이드"
+  tagline: "완벽한 Wii, vWii, Wii 미니 해킹 가이드."
   image:
     src: /images/main-pages/home-page-feature.jpg
 ---
@@ -32,7 +32,7 @@ Wii에서 홈브류를 사용하는 일반적인 예는 다음과 같습니다:
 
 이 가이드의 최종 목표는 다음과 같습니다. 경로에 따라 약간의 차이가 있을 수 있지만, 이 가이드의 최종 목표는 다음과 같습니다:
 
-- Wii 활용 및 홈브류 채널 설치
+- Exploiting your Wii and installing the Homebrew Channel
 - 벽돌을 예방하기 위한 안전 장치 마련
 - 여러분의 경험을 향상시킬 수 있는 다른 홈브류 설치 (선택 사항)
 

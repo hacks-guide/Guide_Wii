@@ -44,7 +44,7 @@ Ha az evWii Aroma plugin nem telepített, és a homebrew alkalmazás lefagy, az 
 
 1. Bootolj [Aroma](https://wiiu.hacks.guide/aroma/finalizing-setup)-ba.
    - Ha beállítottad az [Aromát autobootolásra](https://wiiu.hacks.guide/aroma/autobooting), akkor az Aroma már futni fog, mikor bekapcsolod a konzolod.
-2. Launch the vWii Compat Installer app from the Wii U menu.
+2. Indítsd el a vWii Compat Installer appot a Wii U menu-ből.
 3. Nyomj `A`-t a Homebrew Channel telepítéséhez és várj amíg azt nem látod, hogy `Install succeeded`. Utána nyomd meg a HOME gombot, hogy vissza térj a Wii U Menu-be.
    - Ha a HOME gomb nem működik, biztonságosan kikapcsolhatod a konzolod a power gomb nyomva tartásával, majd kapcsold be újra.
 4. Indítsd el a vWii-t (a Wii Menu ikon).
