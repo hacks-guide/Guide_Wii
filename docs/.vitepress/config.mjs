@@ -16,7 +16,8 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/images/site-config/favicon.ico' }]],
   locales: {
     root: i18n.en_US,
-    hu_HU: i18n.hu_HU
+    hu_HU: i18n.hu_HU,
+    ko_KR: i18n.ko_KR
   },
   sitemap: {
     hostname: 'https://wii.hacks.guide'
@@ -94,7 +95,6 @@ export default defineConfig({
     'he_IL/**',
     'it_IT/**',
     'ja_JP/**',
-    'ko_KR/**',
     'nl_NL/**',
     'no_NO/**',
     'pl_PL/**',
