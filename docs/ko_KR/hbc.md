@@ -175,7 +175,7 @@ Note: When installing homebrew applications on your USB drive, your folder struc
 
 ::: tip
 
-[Real Wand를 이용한 낸드 백업 제작 계속하기](and-mini)
+[Real Wand를 이용한 낸드 백업 제작 계속하기](wnd-mini)
 
 이 시점에서 낸드 백업을 하는 것이 좋습니다. 이는 벽돌에서 복구하는 데 사용할 수 있기 때문입니다.
 
