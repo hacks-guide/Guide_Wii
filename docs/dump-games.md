@@ -55,6 +55,8 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
 
 As of v2.1.2 of CleanRip, there is an option to auto-detect whether or not the disc you have is dual layer. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
 
+As of v2.3.0 of CleanRip, the dual layer option was replaced by the Dump Size option. Just like the dual layer option in older versions, set this to Auto.
+
 :::
 
 ::: warning
