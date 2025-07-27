@@ -22,7 +22,7 @@ The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and sh
 
 ::: warning
 
-If you are trying to [update your Wii to 4.3U](update) with homebrew or update outdated homebrew/IOS, you most likely do not need to follow this guide. Instead, you can use a tool like the SysCheck Updater Wizard built into [ModMii](modmii#syscheck-updater-wizard). If you are confused about this process, consider joining the Nintendo Homebrew discord server for support.
+If you are trying to [update your Wii to 4.3U](update) with homebrew or update outdated homebrew/IOS, you most likely do not need to follow this guide. Instead, you can use a tool like the SysCheck Updater Wizard built into [ModMii](modmii#syscheck-updater-wizard). If you are confused about this process, consider joining the WiiLink Discord server for support.
 
 :::
 
@@ -80,7 +80,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
     ![](/images/factory-reset/nandcheck.png)
 
-1. If all is well, the result should look similar to the below. If there are ANY errors that stand out, DO NOT use this NAND and try again as it may damage or permanantly brick your Wii. If you continue to get these errors on further attempts, go to the Nintendo Homebrew discord server for support.
+1. If all is well, the result should look similar to the below. If there are ANY errors that stand out, DO NOT use this NAND and try again as it may damage or permanantly brick your Wii. If you continue to get these errors on further attempts, go to the WiiLink Discord server for support.
 
     ![](/images/factory-reset/nandcheckresult.png)
 

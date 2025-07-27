@@ -40,7 +40,7 @@ In any case, you should absolutely:
 
 # Diagnosis
 
-This is a section intended to help you diagnose a potential brick, in order by least to most brick severity. If you seem to have a brick that isn't covered in this section or in the guide, please join the Nintendo Homebrew Discord server for support.
+This is a section intended to help you diagnose a potential brick, in order by least to most brick severity. If you seem to have a brick that isn't covered in this section or in the guide, please join the WiiLink Discord server for support.
 
 + Wii starts, and progresses to the Wii Menu. No app is malfunctioning, Wii Settings is error free, everything is seemingly fine. No brick.
 + Wii starts, and progresses to the Wii Menu.
