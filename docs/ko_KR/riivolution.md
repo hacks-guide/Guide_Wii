@@ -2,7 +2,7 @@
 head:
   - - meta
     - http-equiv: refresh
-      content: 5; URL=https://wiki.hacks.guide/wiki/Wii:Riivolution
+      content: '5; URL=https://wiki.hacks.guide/wiki/Wii:Riivolution'
 ---
 
 # 리디렉션

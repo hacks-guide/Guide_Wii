@@ -76,7 +76,7 @@ Wii U의 경우 vWii는 Wii U 기본 설정에서 설정한 인터넷 설정을 
 가이드를 따라가는 동안 문제가 생겼나요? 이미 개조된 Wii에서 문제가 생겼나요? 아니면 그냥 답변이 필요하세요?
 
 - 이 페이지에 질문에 대한 답변이 없는 경우 가이드의 [자주 묻는 질문](faq) 섹션에서 답변을 찾아볼 수 있습니다.
-- 여전히 질문에 대한 답변을 받지 못하고 지원이 필요한 경우 [닌텐도 홈브류 디스코드](https://discord.gg/C29hYvh)에 가입하여 `#wii-vwii-assistance` 채널로 이동합니다.
+- If your question still isn't answered and you need support, join the [WiiLink Discord](https://discord.gg/wiilink) and go to the `#support-text` channel.
 
 ::: tip
 

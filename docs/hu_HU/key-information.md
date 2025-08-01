@@ -77,7 +77,7 @@ További információkért tekintsd meg [a hálózati GYIK](faq#networking-faq)-
 Problémába ütköztél az útmutató követése közben, vagy már van egy problémád a módosított Wii-ddel, vagy csak egyszerűen válaszokra van szükséged?
 
 - Ha a kérdésedre még nem kaptál választ ezen az oldalon, akkor az útmutató [GYIK](faq) részében találhatsz rá választ.
-- Ha a kérdésedre még mindig nincs válasz, és segítségre van szükséged, csatlakozz a [Nintendo Homebrew Discord](https://discord.gg/C29hYvh)-hoz, és lépj a `#wii-vwii-assistance` csatornára.
+- Ha a kérdésedre még mindig nincs válasz, és segítségre van szükséged, csatlakozz a [WiiLink Discord](https://discord.gg/wiilink)-hoz, és lépj a `#support-text` csatornára.
 
 ::: tip
 

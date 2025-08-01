@@ -41,7 +41,7 @@ Mindenesetre feltétlenül:
 
 # Diagnózis
 
-This is a section intended to help you diagnose a potential brick, in order by least to most brick severity. Ha úgy brickelődött a Wii-d, hogy az alábbi esetek egyike sem alkalmazható rá, akkor kérj segítséget (angol nyelven) a Nintendo Homebrew Discord-szerveren.
+This is a section intended to help you diagnose a potential brick, in order by least to most brick severity. If you seem to have a brick that isn't covered in this section or in the guide, please join the WiiLink Discord server for support.
 
 - Wii starts, and progresses to the Wii Menu. Minden program rendeltetésszerűen működik, a Wii Settings-ben nincsenek hibák, minden látszólag rendben van. No brick.
 - A Wii elindul, és a Wii menübe lép.

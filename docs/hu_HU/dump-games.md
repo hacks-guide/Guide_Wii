@@ -59,12 +59,6 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 ## Egy Wii-lemez lemásolása
 
-::: info
-
-A CleanRip a 2.1.2-es verziójától kezdve képes automatikusan felismerni, hogy kétrétegű lemezt próbálsz-e lemásolni. Ha egy korábbi verzión vagy vagy csak szeretnéd ellenőrizni, hogy a megfelelő opció kiválaszott-e, ellenőrizheted [ebben a listában](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games), hogy a játékod kétrétegű lemezzel rendelkezik-e.
-
-:::
-
 ::: warning
 
 Ha a program hibát ír ki, ellenőrizd, hogy a másolni kívánt lemez tiszta-e és, hogy a konzol be tudja-e olvasni. Lehetséges, hogy ezt a hibát a program akkor is kiírja, ha egyébként tudsz játszani a játékkal. Ha a probléma fennáll, próbálj lemásolni egy másik lemezt és ellenőrizni, hogy ott is előjön a hiba.
@@ -75,7 +69,7 @@ Ha a program hibát ír ki, ellenőrizd, hogy a másolni kívánt lemez tiszta-e
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
-2. Állítsd be a lehetőségeket az alábbi képernyőmentés szerint és még egyszer ellenőrizd, hogy a lemezed kétrétegű vagy sem!
+2. Set the settings as shown on the screen below.
 
     ![](/images/homebrew/CleanRip/wiisettings.png)
 

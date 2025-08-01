@@ -59,12 +59,6 @@
 
 ## Wii 디스크 덤프하기
 
-::: info
-
-CleanRip v2.1.2부터 디스크가 듀얼 레이어인지 아닌지를 자동으로 감지하는 옵션이 생겼습니다. 이전 버전을 사용하고 있거나 올바른 옵션이 선택되었는지 확인하고 싶다면 [이 목록](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games)에서 게임이 듀얼 레이어 디스크인지 확인할 수 있습니다.
-
-:::
-
 ::: warning
 
 복구할 수 없는 읽기 오류가 발생하면 덤프하려는 디스크가 깨끗하고 콘솔에서 제대로 읽을 수 있는지 확인합니다. 게임 디스크를 정상적으로 재생할 수 있더라도 여전히 이 오류가 발생할 수 있습니다. 오류가 지속되면 다른 디스크를 덤프하여 같은 오류가 발생하는지 확인합니다.
@@ -75,7 +69,7 @@ CleanRip v2.1.2부터 디스크가 듀얼 레이어인지 아닌지를 자동으
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
-2. 게임 디스크가 듀얼 레이어인지 확인하면서 아래 화면에 표시된 대로 설정을 지정합니다.
+2. Set the settings as shown on the screen below.
 
     ![](/images/homebrew/CleanRip/wiisettings.png)
 
