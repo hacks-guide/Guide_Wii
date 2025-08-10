@@ -76,7 +76,7 @@ Please consult [the network FAQ](faq#networking-faq) for more information.
 Ran into an issue while following the guide, already have an issue on your modded Wii, or just plain need answers?
 
 + If your question isn't already answered on this page, it may be answered in the [FAQs](faq) section of the guide.
-+ If your question still isn't answered and you need support, join the [WiiLink Discord](https://discord.gg/wiilink) and go to the `#support-text` channel.
++ If your question still isn't answered and you need support, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel.
 
 ::: tip
 
