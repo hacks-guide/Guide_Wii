@@ -22,7 +22,7 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
 ::: warning
 
-홈브류를 사용하여 [Wii를 4.3U로 업데이트](update)하거나 오래된 홈브류/IOS를 업데이트하려는 경우 이 가이드를 따를 필요는 없습니다. 대신 [ModMii](modmii#syscheck-updater-wizard)에 내장된 SysCheck Updater Wizard와 같은 도구를 사용할 수 있습니다. If you are confused about this process, consider joining the WiiLink Discord server for support.
+홈브류를 사용하여 [Wii를 4.3U로 업데이트](update)하거나 오래된 홈브류/IOS를 업데이트하려는 경우 이 가이드를 따를 필요는 없습니다. 대신 [ModMii](modmii#syscheck-updater-wizard)에 내장된 SysCheck Updater Wizard와 같은 도구를 사용할 수 있습니다. 이 과정이 혼란스럽다면, 닌텐도 홈브류 디스코드 서버에 가입하여 지원을 받아보세요.
 
 :::
 
@@ -80,7 +80,7 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
     ![](/images/factory-reset/nandcheck.png)
 
-2. 모든 것이 잘 되었다면, 결과는 아래와 비슷할 것입니다. 눈에 띄는 오류가 있는 경우, 해당 낸드를 사용하지 말고 다시 시도합니다. Wii가 손상되거나 영구적으로 고장날 수 있습니다. If you continue to get these errors on further attempts, go to the WiiLink Discord server for support.
+2. 모든 것이 잘 되었다면, 결과는 아래와 비슷할 것입니다. 눈에 띄는 오류가 있는 경우, 해당 낸드를 사용하지 말고 다시 시도합니다. Wii가 손상되거나 영구적으로 고장날 수 있습니다. 이후에도 이러한 오류가 계속 발생하면, 닌텐도 홈브류 디스코드 서버에 접속하여 지원을 받으세요.
 
     ![](/images/factory-reset/nandcheckresult.png)
 

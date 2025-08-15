@@ -69,7 +69,7 @@ Ha a program hibát ír ki, ellenőrizd, hogy a másolni kívánt lemez tiszta-e
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
-2. Set the settings as shown on the screen below.
+2. Állítsd be a beállításokat az alábbi képernyő szerint.
 
     ![](/images/homebrew/CleanRip/wiisettings.png)
 

@@ -22,7 +22,7 @@ Az ebben az útmutatóban részletezett utasítások TÖRÖLNI fogják a WII-od 
 
 ::: warning
 
-Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult homebrew/IOS-t frissíteni, akkor valószínűleg nem kell követned ezt az útmutatót. Ehelyett használhatsz egy olyan eszközt, mint a [ModMii](modmii#syscheck-updater-wizard)-be épített SysCheck Updater Wizard. If you are confused about this process, consider joining the WiiLink Discord server for support.
+Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult homebrew/IOS-t frissíteni, akkor valószínűleg nem kell követned ezt az útmutatót. Ehelyett használhatsz egy olyan eszközt, mint a [ModMii](modmii#syscheck-updater-wizard)-be épített SysCheck Updater Wizard. Ha zavarban vagy ezzel a folyamattal kapcsolatban, fontold meg, hogy csatlakozol a Nintendo Homebrew discord szerverhez, ahol támogatást kaphatsz.
 
 :::
 
@@ -80,7 +80,7 @@ Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult 
 
     ![](/images/factory-reset/nandcheck.png)
 
-2. Ha minden rendben van, az eredménynek az alábbihoz hasonlóan kell kinéznie. Ha BÁRMILYEN hiba feltűnik, NE HASZNÁLD ezt a NAND-ot, és ne próbáld meg újra, mert ez károsíthatja vagy brickelhet a Wii-odat. If you continue to get these errors on further attempts, go to the WiiLink Discord server for support.
+2. Ha minden rendben van, az eredménynek az alábbihoz hasonlóan kell kinéznie. Ha BÁRMILYEN hiba feltűnik, NE HASZNÁLD ezt a NAND-ot, és ne próbáld meg újra, mert ez károsíthatja vagy brickelhet a Wii-odat. Ha a további próbálkozásoknál is ilyen hibákat kapsz, menj a Nintendo Homebrew discord szerverére támogatásért.
 
     ![](/images/factory-reset/nandcheckresult.png)
 

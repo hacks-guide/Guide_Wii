@@ -41,7 +41,7 @@ A "Brick" usually means your Wii has reached a state where its next purpose in e
 
 # 진단
 
-이 섹션은 벽돌 심각도가 가장 낮은 것부터 가장 높은 것까지 순서대로 나열되어 잠재적인 벽돌을 진단하는 데 도움을 주기 위해 마련되었습니다. If you seem to have a brick that isn't covered in this section or in the guide, please join the WiiLink Discord server for support.
+이 섹션은 벽돌 심각도가 가장 낮은 것부터 가장 높은 것까지 순서대로 나열되어 잠재적인 벽돌을 진단하는 데 도움을 주기 위해 마련되었습니다. If you seem to have a brick that isn't covered in this section or in the guide, please join the Nintendo Homebrew Discord server for support.
 
 - Wii starts, and progresses to the Wii Menu. No app is malfunctioning, Wii Settings is error free, everything is seemingly fine. 벽돌은 없습니다.
 - Wii starts, and progresses to the Wii Menu.

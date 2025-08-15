@@ -8,12 +8,6 @@ hero:
     src: /images/main-pages/home-page-feature.jpg
 ---
 
-::: warning
-
-We are aware that invites are currently disabled for the Nintendo Homebrew Discord server and are working to resolve this issue. For support, please visit the [WiiLink](https://discord.gg/wiilink) Discord server.
-
-:::
-
 ::: info
 
 Kérjük olvasd el figyelmesen a bevezető oldalakat mielőtt továbbhaladsz.
