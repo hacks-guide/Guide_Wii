@@ -172,7 +172,7 @@ Make sure that the microcontroller is close to the computer running the exploit,
 
 ::: info
 
-A normal Raspberry Pi Pico will not work. It MUST to be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
+A normal Raspberry Pi Pico will not work. It MUST be the wireless model. Additionally, an ESP32 with a BLE only controller will not work.
 
 :::
 
