@@ -22,8 +22,9 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 1. Power off your console.
 1. Insert your SD card or USB drive into your computer.
-1. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
-1. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
+1. Create a folder named `apps` in the root of your SD card or USB drive.
+1. Copy the contents of the `apps` folder from the LoadPriiloader `.zip` to the `apps` folder in your SD card or USB drive.
+1. Copy the contents of the `apps` folder from the priiloader `.zip` to the `apps` folder in your SD card or USB drive.
 1. (vWii only) Copy the `wiiu` folder from the PriiloaderWiiUForwarder `.zip` to the root of your SD card.
 1. Reinsert your SD card or USB drive into your console.
 
