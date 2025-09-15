@@ -183,7 +183,7 @@ Az optimális működés érdekében ajánlott a mikrokonrollert és a telepít�
 
 ::: info
 
-Egy normál Raspberry Pi Pico nem fog működni. It MUST be the wireless model. Továbbá, egy ESP32 csak BLE vezérlővel nem fog működni.
+Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KELL lennie. Továbbá, egy ESP32 csak BLE vezérlővel nem fog működni.
 
 :::
 

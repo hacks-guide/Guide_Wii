@@ -24,19 +24,19 @@ A hivatalos Wii Menu forwarder telepítő WiiFlow Lite-hoz megtalálható az [Op
 
 - A WiiFlow Lite fejlettebb felhasználói felülettel rendelkezik az animációk és effektek tekintetében, és támogatja a témákat.
 
-    - Az SD-kártyák teljes mértékben támogatottak a Wii-játékok betöltéséhez a WiiFlow Lite-on.
-    - A WiiFlow Lite rendelkezik plugin rendszerrel.
-    - Míg az eredeti WiiFlow utoljára 2014-ben frissült, a WiiFlow Lite elágazás még mindig rendszeresen frissül.
+  - Az SD-kártyák teljes mértékben támogatottak a Wii-játékok betöltéséhez a WiiFlow Lite-on.
+  - A WiiFlow Lite rendelkezik plugin rendszerrel.
+  - Míg az eredeti WiiFlow utoljára 2014-ben frissült, a WiiFlow Lite elágazás még mindig rendszeresen frissül.
 
-    ![](/images/usb-loaders/wiiflow-ui.png)
+  ![](/images/usb-loaders/wiiflow-ui.png)
 
 - Az USB Loader GX elsősorban a Wii menüt alapján készült, és támogatja a témákat.
 
-    - Míg korábban az SD-kártyák nem támogatták a Wii-játékok betöltését az USB Loader GX-en, a legutóbbi frissítésekkel a betöltőbe is bekerült a támogatás.
-    - Az USB Loader GX nem rendelkezik plugin rendszerrel.
-    - Az USB Loader GX továbbra is rendszeres frissítéseket kap.
+  - Míg korábban az SD-kártyák nem támogatták a Wii-játékok betöltését az USB Loader GX-en, a legutóbbi frissítésekkel a betöltőbe is bekerült a támogatás.
+  - Az USB Loader GX nem rendelkezik plugin rendszerrel.
+  - Az USB Loader GX továbbra is rendszeres frissítéseket kap.
 
-    ![](/images/usb-loaders/usbloadergx-ui.png)
+  ![](/images/usb-loaders/usbloadergx-ui.png)
 
 ## Játék könyvtár struktúra
 
@@ -173,7 +173,7 @@ Egy adott játékhoz használt cIOS megváltoztatásához kövesd az USB-töltő
 3. Válaszd a `Game Load` opciót.
 4. Görgess le a `Game IOS` opcióig.
 5. Add meg a használandó IOS slot-ot.
-    - Próbáld meg a 248, 249, 250 vagy 251-gyel.
+   - Próbáld meg a 248, 249, 250 vagy 251-gyel.
 6. Nyomj OK-t és próbáld meg betölteni a játékot.
 
 ### WiiFlow Lite
@@ -181,7 +181,7 @@ Egy adott játékhoz használt cIOS megváltoztatásához kövesd az USB-töltő
 1. Válaszd ki a játékot, ami nem működik.
 2. Kattints a kerék ikonra.
 3. Menj a cIOS-hoz és használd a nyilakat, hogy kiválaszt a használandó IOS slot-ot.
-    - Próbáld meg a 248, 249, 250 vagy 251-gyel.
+   - Próbáld meg a 248, 249, 250 vagy 251-gyel.
 4. Nyomj Save-et és próbáld meg betölteni a játékot.
 
 ::: tip

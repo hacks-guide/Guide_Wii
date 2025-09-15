@@ -28,16 +28,16 @@ NE használd a példákban megadott MAC cmeket, mert azok simán hibát okoznak 
 
 3. Jegyezd meg a jobb felső sarokban megjelenő betűjelet, ami a rendszer verziószáma mellett van.
 
-    - Ez a betű jelzi a rendszermenü régióját, amire későbbi lépésekben szükséged lesz.
-    - Továbbá biztosítsd, hogy System Menu 4.3-on vagy.
+   - Ez a betű jelzi a rendszermenü régióját, amire későbbi lépésekben szükséged lesz.
+   - Továbbá biztosítsd, hogy System Menu 4.3-on vagy.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 4. Navigálj az `Internet` > `Console Information` opcióhoz.
 
 5. Jegyezd fel a FULL MAC address-ed.
 
-    ![](/images/wii/MacAddress.png)
+   ![](/images/wii/MacAddress.png)
 
 6. A számítógépeden nyiss egy böngészőt és menj a [HackMii weboldalára](https://please.hackmii.com/).
 
@@ -47,7 +47,7 @@ NE használd a példákban megadott MAC cmeket, mert azok simán hibát okoznak 
 
 9. Vágd el mindkét drótot.
 
-    ![](/images/exploits/letterbomb/LetterBomb-PC.png)
+   ![](/images/exploits/letterbomb/LetterBomb-PC.png)
 
 10. Csatlakoztasd az SD kártyád a számítógépedhez.
 

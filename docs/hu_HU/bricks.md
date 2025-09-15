@@ -16,22 +16,22 @@ Preventing a brick involves many rules that range between common sense and fail-
 - **A Wii-re készült régióváltási módszereket NE próbáld ki vWii-n vagy Wii mini-n.**
 - **NE használj Nintendo Wi-Fi Connection-szolgáltatást, kivéve ha rendelkezik távoli kódfuttatási javításokkal (mint például a [Wiimmfi](nintendowfc)). Ha mégis így tennél, az lehetővé teszi egy rosszindulatú támadó számára a konzolod BRICKELŐDÉSÉT!**
 - **Csak a saját régiódhoz tartozó frissítéseket telepíts!**
-    - A más régióból származó frissítések telepítése a legjobb esetben semmit sem eredményezhet vagy a legrosszabb esetben egy [Korean Kii/Error 003](bricks#koreankii-error-003-brick) bricket eredményezhet. Ha használt Wii-t vásároltál, hogy ez ne történhessen meg, futtasd le a [SysCheck](syscheck) -et, hogy ellenőrizd a konzol eredeti régióját. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
+  - A más régióból származó frissítések telepítése a legjobb esetben semmit sem eredményezhet vagy a legrosszabb esetben egy [Korean Kii/Error 003](bricks#koreankii-error-003-brick) bricket eredményezhet. Ha használt Wii-t vásároltál, hogy ez ne történhessen meg, futtasd le a [SysCheck](syscheck) -et, hogy ellenőrizd a konzol eredeti régióját. If it is Korean, be EXTREMELY careful with applying system updates to your console, and consider seeking support for further assistance.
 - **NE töröld vagy módosítsd a rendszerfájlokat, NE telepítsd a Wii menü vagy IOS-ek régi verzióit és NE telepíts semmilyen rendszermenü-módosítást, hacsak nem tudod, hogy mit csinálsz!**
-    - Például ha egy Wii minin kicseréled az IOS80-at, az [Wi-Fi Brick](bricks#wi-fi-brick) brickben végződhet.
+  - Például ha egy Wii minin kicseréled az IOS80-at, az [Wi-Fi Brick](bricks#wi-fi-brick) brickben végződhet.
 - **Ne telepíts nem megbízható forrásokból származó homebrew programokat vagy ha a forráskód nem elérhető.**
-    - Az [Open Shop Channel](osc)-en található programok biztonságosak.
-    - There have been incidents of malicious software being developed for the Wii in the past, while other apps are just badly developed. Make sure that you know what you are installing, and only install what you need.
-    - A sérült vagy nem-stabil forwaderek [banner brick](#banner-brick)-et eredményezhetnek, úgyhogy javasoljuk, hogy mindig a Homebrew Channelből indíts programokat, hacsak nincs nagyon szükséged a forwarder-re.
+  - Az [Open Shop Channel](osc)-en található programok biztonságosak.
+  - There have been incidents of malicious software being developed for the Wii in the past, while other apps are just badly developed. Make sure that you know what you are installing, and only install what you need.
+  - A sérült vagy nem-stabil forwaderek [banner brick](#banner-brick)-et eredményezhetnek, úgyhogy javasoljuk, hogy mindig a Homebrew Channelből indíts programokat, hacsak nincs nagyon szükséged a forwarder-re.
 - **Győződj meg róla, hogy tudod, mit csinálsz, amikor homebrew alkalmazásokat futtatsz - különösen azokat, amelyek képesek a rendszerfájlok módosítására. KÜLÖNÖSEN óvatosnak kell lenned, ha olyan alkalmazásokat használsz, mint:**
-    - AnyTitle Deleter
-    - AnyRegion Changer
-    - KoreanKii (második oka a [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brickelésnek)
-    - Firmware Downgrader-ek
-    - Bármely más alkalmazás, amely kritikus NAND fájlokat módosít
+  - AnyTitle Deleter
+  - AnyRegion Changer
+  - KoreanKii (második oka a [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brickelésnek)
+  - Firmware Downgrader-ek
+  - Bármely más alkalmazás, amely kritikus NAND fájlokat módosít
 - **NE NYÚLJ HOZZÁ A WII ÁRAMFORRÁSÁHOZ VAGY A BEKAPCSOLÓGOMBJÁHOZ, MIKÖZBEN LÉTFONTOSSÁGÚ RENDSZERFÁJLOKAT TELEPÍTESZ VAGY MÓDOSÍTASZ.**
-    - Ha az áramellátásod instabil (pl. vihar, áramkimaradás), halaszd el a tevékenységét, amíg stabil áramforrás nem áll rendelkezésedre.
-    - Ha az áramellátásod instabil (pl. vihar, áramkimaradás), halaszd el a tevékenységét, amíg stabil áramforrás nem áll rendelkezésedre.
+  - Ha az áramellátásod instabil (pl. vihar, áramkimaradás), halaszd el a tevékenységét, amíg stabil áramforrás nem áll rendelkezésedre.
+  - Ha az áramellátásod instabil (pl. vihar, áramkimaradás), halaszd el a tevékenységét, amíg stabil áramforrás nem áll rendelkezésedre.
 
 Mindenesetre feltétlenül:
 
@@ -45,12 +45,12 @@ This is a section intended to help you diagnose a potential brick, in order by l
 
 - Wii starts, and progresses to the Wii Menu. Minden program rendeltetésszerűen működik, a Wii Settings-ben nincsenek hibák, minden látszólag rendben van. No brick.
 - A Wii elindul, és a Wii menübe lép.
-    - If after acccessing a specific channel, you get `The system files are corrupted`, see [banner brick](bricks#banner-brick).
-    - If after accessing the Wii Settings, you see an error that resembles the Opera web browser, see [semibrick](bricks#semibrick).
+  - If after acccessing a specific channel, you get `The system files are corrupted`, see [banner brick](bricks#banner-brick).
+  - If after accessing the Wii Settings, you see an error that resembles the Opera web browser, see [semibrick](bricks#semibrick).
 - Ha egy adott csatorna elérését követően a `The system files are corrupted` üzenet jelenik meg, lásd [banner brick](bricks#banner-brick).
-    - Ha a Wii beállítások megnyitása után az Opera webböngészőhöz hasonló hibaüzenet jelenik meg, lásd [semibrick](bricks#semibrick).
-    - Ha ez egy WAD-fájl telepítése után történt akkor tekintsd meg a [banner brick-et](bricks#banner-brick).
-    - Ha ez látszólag minden ok nélkül keződött el és képes vagy hozzáférni a Maintenance Mode-hoz a + és - gombok nyomvatartásával az egészségügyi figyelmeztetések képernyőn, akkor tekintsd meg a [mail brick-et](bricks#mail-brick).
+  - Ha a Wii beállítások megnyitása után az Opera webböngészőhöz hasonló hibaüzenet jelenik meg, lásd [semibrick](bricks#semibrick).
+  - Ha ez egy WAD-fájl telepítése után történt akkor tekintsd meg a [banner brick-et](bricks#banner-brick).
+  - Ha ez látszólag minden ok nélkül keződött el és képes vagy hozzáférni a Maintenance Mode-hoz a + és - gombok nyomvatartásával az egészségügyi figyelmeztetések képernyőn, akkor tekintsd meg a [mail brick-et](bricks#mail-brick).
 - Wii starts, BUT you INSTANTLY see an error that resembles the Opera web browser. Tekintsd meg a [Wii Menu/Opera brick-et](bricks#wii-menuopera-brick).
 - Error 003. Tekintsd meg a [Korean Kii/Error 003 brick-et](bricks#koreankii-error-003-brick).
 - Nothing happens, black screen, BUT BootMii as boot2 is accessible. Tekintsd meg az [IOS brick-et](bricks#ios-brick).
