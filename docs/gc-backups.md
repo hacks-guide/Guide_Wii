@@ -4,6 +4,7 @@ This guide provides instructions on how to manage your GameCube backups, using G
 
 ## Requirements
 
+* A Windows PC
 * An SD card or USB drive
 * [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
