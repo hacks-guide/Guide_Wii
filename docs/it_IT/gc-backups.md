@@ -4,6 +4,7 @@ Questa guida fornisce istruzioni su come gestire i backup GameCube, utilizzando 
 
 ## Requirements
 
+- A Windows PC
 - Una scheda SD o dispositivo USB
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
@@ -30,19 +31,19 @@ Assicurati che l'unità USB sia formattata come FAT32. Non formattarlo come altr
 
 1. Apri l'applicazione e trova l'icona della cartella nell'angolo in basso a destra. Cliccala per aprire una finestra di Esplora file.
 
-    ![](/images/desktop-apps/GCBM/folderbutton.png)
+   ![](/images/desktop-apps/GCBM/folderbutton.png)
 
 2. Naviga verso il percorso della cartella che contiene il file del gioco che vuoi trasferire. Può essere nell'hard drive del tuo computer o un dispositivo di archiviazione esterno. Una volta trovata la cartella, selezionala.
 
-    ![](/images/desktop-apps/GCBM/selectfolder.png)
+   ![](/images/desktop-apps/GCBM/selectfolder.png)
 
 3. Click on the `Files (Destination)` tab, then select the `Inactive` option from the dropdown menu. Questo ti consentirà di scegliere l'unità nella quale vuoi trasferire in gioco. Seleziona la lettera di unità corretta dall'elenco.
 
-    ![](/images/desktop-apps/GCBM/selectdrive.png)
+   ![](/images/desktop-apps/GCBM/selectdrive.png)
 
 4. Next, go back to the `Files (Source)` tab, select the game you want to transfer, and then click either `Install Game (1:1)` or `Install Game (Scrub)`.
 
-    ![](/images/desktop-apps/GCBM/installgame.png)
+   ![](/images/desktop-apps/GCBM/installgame.png)
 
 ::: info
 

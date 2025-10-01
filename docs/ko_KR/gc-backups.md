@@ -4,6 +4,7 @@
 
 ## 요구 사항
 
+- A Windows PC
 - SD 카드 및 USB 드라이브
 - [게임큐브 백업 매니저](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
@@ -30,19 +31,19 @@ USB 드라이브의 포맷이 FAT32로 되어 있는지 확인합니다. 후자�
 
 1. 응용 프로그램을 열고 오른쪽 하단에 있는 폴더 버튼을 찾습니다. 클릭하면 파일 탐색기 창이 열립니다.
 
-    ![](/images/desktop-apps/GCBM/folderbutton.png)
+   ![](/images/desktop-apps/GCBM/folderbutton.png)
 
 2. 전송하려는 게임 파일이 있는 폴더 위치로 이동합니다. 컴퓨터의 하드 드라이브나 외부 저장 장치에 저장되어 있을 수 있습니다. 폴더를 찾으면 선택합니다.
 
-    ![](/images/desktop-apps/GCBM/selectfolder.png)
+   ![](/images/desktop-apps/GCBM/selectfolder.png)
 
 3. `파일 (대상)` 탭을 클릭한 다음 드롭다운 메뉴에서 `비활성` 옵션을 선택합니다. 이렇게 하면 게임을 전송할 드라이브를 선택할 수 있습니다. 목록에서 적절한 드라이브 문자를 선택합니다.
 
-    ![](/images/desktop-apps/GCBM/selectdrive.png)
+   ![](/images/desktop-apps/GCBM/selectdrive.png)
 
 4. 다음으로, `파일 (소스)` 탭으로 돌아가서 전송하려는 게임을 선택한 다음 `게임 설치 (1:1)` 또는 `게임 설치 (스크럽)`를 클릭합니다.
 
-    ![](/images/desktop-apps/GCBM/installgame.png)
+   ![](/images/desktop-apps/GCBM/installgame.png)
 
 ::: info
 
