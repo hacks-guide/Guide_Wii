@@ -67,7 +67,7 @@ A method for Wiimmfi patching which automatically patches game backups in the la
 
 ## Automatic Disc Patching via Custom DNS
 
-A method for Wiimmfi patching which runs on retail game discs automatically through the usage of a custom DNS server. While convinient, it only works with a small selection of games including Mario Kart Wii and SSBB. Due to the nature of this process, it can be run on Wiis without homebrew.
+A method for Wiimmfi patching which runs on retail game discs automatically through the usage of a custom DNS server. While convenient, it only works with a small selection of games including Mario Kart Wii and SSBB. Due to the nature of this process, it can be run on Wiis without homebrew.
 
 ::: warning
 
@@ -132,7 +132,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 ::: warning
 
-If you run into UPnP-related issues (such as the patcher getting stuch at "Init network..." or "add UPnP port forward" steps for more than 10 seconds), you can press the - button on your Wii Remote, or the Y button on your GameCube controller as soon as the patcher loads to circumvent this.
+If you run into UPnP-related issues (such as the patcher getting stuck at "Init network..." or "add UPnP port forward" steps for more than 10 seconds), you can press the - button on your Wii Remote, or the Y button on your GameCube controller as soon as the patcher loads to circumvent this.
 
 :::
 
