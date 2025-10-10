@@ -63,7 +63,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 * A Bluetooth adapter.
     * An internal Bluetooth adapter will work.
     * If you do not have one, make sure to get one compatible with Linux.
-* A USB flash drive formatted as FAT32.
+* A USB flash drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
     * The flash drive must use the MBR partitioning scheme.
 	* This cannot be the same flash drive used for your Linux Machine.
 * [HackMii Installer v1.2](https://bootmii.org/download/)
@@ -168,7 +168,7 @@ Make sure that the microcontroller is close to the computer running the exploit,
 
 ### Requirements
 * A Raspberry Pi Pico W 1/2 or an ESP32 with BR/EDR (Classic) support.
-* A USB flash drive formatted as FAT32 using the MBR partitioning scheme.
+* A USB flash drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 * [The HackMii Installer](https://bootmii.org/download/)
 
 ::: info
