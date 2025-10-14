@@ -105,7 +105,7 @@ You can also use the [BootMii Config Editor](https://oscwii.org/library/app/Boot
 
 :::
 
-## Uploading NAND Backup to Dolphin Emulator
+## Uploading NAND Backup to Dolphin Emulator (optional)
 
 Your NAND backup can be utilized in Dolphin Emulator.
 
