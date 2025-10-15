@@ -11,7 +11,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 ## Requisitos
 
 - a Wii with The Homebrew Channel 1.0.8 or later
-    - If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
+  - If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
 - Una tarjeta SD o unidad USB
 - A computer with Windows on it
 - [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
@@ -41,7 +41,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 1. Power off your console. Start holding RESET, then turn it back on.
 2. In the Priiloader menu, select `Homebrew Channel`.
-    - If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader is required for this guide.
+   - If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader is required for this guide.
 3. Launch Wii Mod Lite.
 4. Select your SD card or USB drive.
 5. Press + on the IOS80 and IOS58 WADs to highlight them, then press A twice to install.
@@ -51,6 +51,6 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Haz clic aquí para volver al índice del sitio.](site-navigation)
 
 :::

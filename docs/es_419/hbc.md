@@ -4,7 +4,7 @@
 
 # Instalación del Canal Homebrew y BootMii
 
-:::details Technical Details (optional)
+:::details Detalles técnicos (opcional)
 
 BootMii can be installed in two ways: directly to a part of the Wii bootloader called boot2, and via an IOS. Install BootMii as IOS, even if you already installed BootMii as boot2 in the previous step. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
 
@@ -22,43 +22,43 @@ You can always [install it later](hackmii).
 
 1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
 
-    - You will see a scam warning screen.
+   - You will see a scam warning screen.
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
 2. Wait 30 seconds for the text "Press 1 to continue" to appear, then press 1.
 
 3. Select `Continue`.
 
-    ![](/images/hackmii/test_results.png)
+   ![](/images/hackmii/test_results.png)
 
 4. Select `Install the Homebrew Channel`.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
 5. Once it is completed, select `Continue`.
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
 6. Select `BootMii...`.
 
-    ![](/images/hackmii/bootmii_install.png)
+   ![](/images/hackmii/bootmii_install.png)
 
 7. Select `Install BootMii as IOS`.
 
-    ![](/images/hackmii/bootmii_install1.png)
+   ![](/images/hackmii/bootmii_install1.png)
 
-    ![](/images/hackmii/bootmii_install2.png)
+   ![](/images/hackmii/bootmii_install2.png)
 
-    ![](/images/hackmii/bootmii_install3.png)
+   ![](/images/hackmii/bootmii_install3.png)
 
-    ![](/images/hackmii/bootmii_install_ok.png)
+   ![](/images/hackmii/bootmii_install_ok.png)
 
 8. Once it is completed, select `Continue`.
 
 9. If you have the option to `Install BootMii as boot2`, please do so as well.
 
-    ![](/images/hackmii/bootmii_install4.png)
+   ![](/images/hackmii/bootmii_install4.png)
 
 10. Select `Return to the main menu`, then select `Exit`.
 
@@ -108,7 +108,7 @@ Tip: You can tell if a Wii has BootMii installed as boot2 if your disc drive fla
 
 # Homebrew Channel
 
-:::details Technical Details (optional)
+:::details Detalles técnicos (opcional)
 
 The Homebrew Channel is where you will go to launch homebrew applications.
 
@@ -124,29 +124,29 @@ While it is possible to install BootMii on a Wii mini, you will need to solder a
 
 1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
 
-    - You will see a scam warning screen.
+   - You will see a scam warning screen.
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
 2. Wait 30 seconds for the text "Press 1 to continue" to appear, then press 1.
 
 3. Select `Continue`.
 
-    ![](/images/hackmii/test_results.png)
+   ![](/images/hackmii/test_results.png)
 
 4. Select `Install the Homebrew Channel`.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
 5. Once it is completed, select `Continue`
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
 6. Select `Exit`.
 
 7. Install the Homebrew Channel
 
-    ![](/images/hbc/blank.png)
+   ![](/images/hbc/blank.png)
 
 ## Required Reading
 
