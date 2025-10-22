@@ -173,8 +173,8 @@ xattr -rd com.apple.quarantine /Applications/TinyWiiBackupManager.app
 
 1. Insert your USB drive or SD card into your computer.
 1. Run TinyWiiBackupManager, a pop-up will tell you to select the drive that will hold your backed up Wii games.
-1. Click on the `➕ Add Game(s)` button to add the game(s) you want to transfer to a drive.
-1. The `➕ Add Game(s)` button can be clicked multiple times, it will hold a transfer queue.
+1. Click on the `➕` button to add the game(s) you want to transfer to a drive.
+1. The `➕` button can be clicked multiple times, it will hold a transfer queue.
 
     ![](/images/desktop-apps/TWBM/screenshot.png)
 
