@@ -145,7 +145,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ### Requirements
 
-* A device running Windows, MacOS, or Linux (either x64 or arm64)
+* A device running Windows, MacOS, or Linux
 * A USB drive or SD card
 * A dump from a Wii game disc (any format)
 * [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
@@ -154,25 +154,12 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 #### Section I - Installation
 
-- **Windows:** Download the `setup.exe` or the `win-portable.zip` file.
-- **MacOS:** Download the `.dmg` file.
-- **Linux:** Download the `.AppImage` file.
-
-::: info
-
-** macOS post-installation (the app is NOT notarized)**\
-You must allow it manually after installing by running this command in Terminal:
-
-```bash
-xattr -rd com.apple.quarantine /Applications/TinyWiiBackupManager.app
-```
-
-:::
+1. Download TinyWiiBackupManager for your OS (on Windows, you'll most likely want to download "Standalone x64")
+1. Insert your USB drive or SD card into your computer.
 
 #### Section II - Copying Games
 
-1. Insert your USB drive or SD card into your computer.
-1. Run TinyWiiBackupManager, a pop-up will tell you to select the drive that will hold your backed up Wii games.
+1. Run TinyWiiBackupManager, a text will tell you to select the drive that will hold your backed up Wii games.
 1. Click on the `➕` button to add the game(s) you want to transfer to a drive.
 1. The `➕` button can be clicked multiple times, it will hold a transfer queue.
 
