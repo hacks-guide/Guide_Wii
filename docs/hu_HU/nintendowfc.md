@@ -70,7 +70,7 @@ Egy módszer a Wiimmfi patcheléshez, amely automatikusan foltozza a játék má
 
 ## Automatikus lemezfoltozás egyéni DNS-en keresztül
 
-Egy patchelési módszer a Wiimmfi-hez f, amely a kiskereskedelmi játéklemezeken automatikusan fut egy egyéni DNS-kiszolgáló használatával. While convenient, it only works with a small selection of games including Mario Kart Wii and SSBB. A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken.
+Egy patchelési módszer a Wiimmfi-hez f, amely a kiskereskedelmi játéklemezeken automatikusan fut egy egyéni DNS-kiszolgáló használatával. Bár kényelmes, csak a játékok egy kis választékával működik, köztük a Mario Kart Wii és az SSBB játékokkal. A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken.
 
 ::: warning
 
@@ -139,7 +139,7 @@ A Wiimmfi egy patchelési módszere, amely kiskereskedelmi játéklemezeken fut,
 
 ::: warning
 
-If you run into UPnP-related issues (such as the patcher getting stuck at "Init network..." or "add UPnP port forward" steps for more than 10 seconds), you can press the - button on your Wii Remote, or the Y button on your GameCube controller as soon as the patcher loads to circumvent this.
+Ha UPnP-vel kapcsolatos problémákba ütközöl (például a patcher 10 másodpercnél tovább megáll a ""Init network..." vagy az "add UPnP port forward" lépéseknél), akkor a Wii Remote - gombját vagy a GameCube kontroller Y gombját nyomd meg, amint a patcher betöltődik, hogy ezt megkerüld.
 
 :::
 

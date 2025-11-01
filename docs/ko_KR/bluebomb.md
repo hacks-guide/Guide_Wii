@@ -63,7 +63,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 - A Bluetooth adapter.
   - An internal Bluetooth adapter will work.
   - If you do not have one, make sure to get one compatible with Linux.
-- A USB flash drive formatted as FAT32.
+- A USB flash drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
   - This cannot be the same flash drive used for your Linux Machine.
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
@@ -178,7 +178,7 @@ Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에
 ### Requirements
 
 - BR/EDR (클래식)을 지원하는 라즈베리 파이 피코 W 1/2 또는 ESP32입니다.
-- A USB flash drive formatted as FAT32.
+- A USB flash drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - [HackMii 설치 프로그램](https://bootmii.org/download/)
 
 ::: info

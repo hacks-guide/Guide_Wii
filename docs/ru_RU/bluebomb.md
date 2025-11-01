@@ -63,7 +63,7 @@ BlueBomb - это эксплойт, который использует уязв
 - Bluetooth-адаптер.
   - Внутренний Bluetooth-адаптер будет работать.
   - Если у вас его нет, убедитесь, что тот который вы будете использовать совместим с Linux.
-- USB-накопитель отформатированный в FAT32.
+- A USB flash drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
   - Это не может быть один и тот же USB-накопитель, который используется для загрузки Linux.
 - [Установщик HackMii v1.2](https://bootmii.org/download/)
 
@@ -178,7 +178,7 @@ BlueBomb - это эксплойт, который использует уязв
 ### Требования
 
 - Raspberry Pi Pico W 1/2 или ESP32 с поддержкой BR/EDR (Classic).
-- USB-накопитель отформатированный в FAT32.
+- A USB flash drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - [Установщик HackMii](https://bootmii.org/download/)
 
 ::: info

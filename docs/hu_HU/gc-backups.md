@@ -4,7 +4,7 @@ Ebben az útmutatóban bemutatjuk, hogyan használhatod a GameCube Backup Manage
 
 ## Követelmények
 
-- A Windows PC
+- Egy Windows PC
 - Egy SD kártya vagy pendrive
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
