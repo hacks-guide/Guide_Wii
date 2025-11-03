@@ -156,7 +156,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 1. Download TinyWiiBackupManager for your OS
     - on Windows, you'll most likely want to download "Standalone (x64)"
-    - on Linux, a [Flathub](https://flathub.org/apps/it.mq1.TinyWiiBackupManager) package is also available
+    - on Linux, a [Flatpak](https://flathub.org/apps/it.mq1.TinyWiiBackupManager) package is also available
 1. Insert your USB drive or SD card into your computer.
 
 #### Section II - Copying Games
