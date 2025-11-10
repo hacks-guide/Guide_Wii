@@ -1,6 +1,6 @@
 # Managing Wii Backups
 
-This guide provides instructions on how to manage your Wii backups, from joining .PART files that are output through CleanRip, to shrinking game files that can be copied onto a FAT32 device. Two programs that can be used to manage your Wii backups are Wii Backup Manager (for Windows) and Wii Backup Fusion (for Linux and MacOS) and are covered below.
+This guide provides instructions on how to manage your Wii backups, from joining .PART files that are output through CleanRip, to shrinking game files that can be copied onto a FAT32 device. Three programs that can be used to manage your Wii backups are Wii Backup Manager (for Windows), Wii Backup Fusion (for Linux and MacOS) and TinyWiiBackupManager (for Windows, Linux and MacOS) and are covered below.
 
 ::: info
 
@@ -140,6 +140,33 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
     ![](/images/desktop-apps/WBM/wbfsname.png)
 
 1. Copy the game.wbfs file that was made in Step 3 to this new folder. The drive should be ready to use on a Wii.
+
+## Using TinyWiiBackupManager
+
+### Requirements
+
+* A device running Windows, MacOS, or Linux
+* A USB drive or SD card
+* A dump from a Wii game disc (any format)
+* [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
+
+### Instructions
+
+#### Section I - Installation
+
+1. Download TinyWiiBackupManager for your OS
+    - on Windows, you'll most likely want to download "Standalone (x64)"
+    - on Linux, a [Flatpak](https://flathub.org/apps/it.mq1.TinyWiiBackupManager) package is also available
+1. Insert your USB drive or SD card into your computer.
+
+#### Section II - Copying Games
+
+1. Run TinyWiiBackupManager, a text will tell you to select the drive that will hold your backed up Wii games.
+1. Click on the `➕` button to add the game(s) you want to transfer to a drive.
+1. The `➕` button can be clicked multiple times, it will hold a transfer queue.
+
+    ![](/images/desktop-apps/TWBM/screenshot.png)
+
 
 ::: tip
 
