@@ -15,19 +15,19 @@ FlashHax является эксплоитом для Wii, который зап
 
 2. Запустите Internet Channel.
 
-    ![](/images/exploits/flashhax/internet-channel-start.png)
+   ![](/images/exploits/flashhax/internet-channel-start.png)
 
 3. Перейдите на `flashhax.com`.
 
 4. Выберите правильный регион для вашей консоли.
 
-    ![](/images/exploits/flashhax/select-region.png)
+   ![](/images/exploits/flashhax/select-region.png)
 
 5. Нажмите на кнопку в виде звезды, чтобы открыть вкладку закладок.
 
 6. Намжите `Add Favorite`.
 
-    ![](/images/exploits/flashhax/bookmark-page.png)
+   ![](/images/exploits/flashhax/bookmark-page.png)
 
 ### Часть II - FlashHax
 
@@ -35,13 +35,13 @@ FlashHax является эксплоитом для Wii, который зап
 
 2. Подождите некоторое время
 
-    - Это может занять некоторое время, так как производится скачивание установщика из Интернета.
+   - Это может занять некоторое время, так как производится скачивание установщика из Интернета.
 
-    ![](/images/exploits/flashhax/wait-for-download.png)
+   ![](/images/exploits/flashhax/wait-for-download.png)
 
 3. Если эксплоит выполнился успешно, ваше устройство загрузит установщик HackMii.
-    - Взлом может получиться не с первого раза.
-    - Если установщик HackMii не загружается и вместо этого зависает (вы не можете двигать курсором), перезагрузите вашу Wii, запустите Internet Channel, а затем повторите шаг 1.
+   - Взлом может получиться не с первого раза.
+   - Если установщик HackMii не загружается и вместо этого зависает (вы не можете двигать курсором), перезагрузите вашу Wii, запустите Internet Channel, а затем повторите шаг 1.
 
 Если эксплоит все еще не загружается, попробуйте удалить файлы cookie или данные сохранения для Internet Channel.
 

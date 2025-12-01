@@ -15,10 +15,10 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
 ## Требования
 
 - The latest files from [Aroma for your café](https://aroma.foryour.cafe/).
-   - Review the preliminal steps, then check all 4 boxes.
-   - Double check that nanddumper is selected.
-   - Click on `Download Payloads`.
-   - Click on `Download Base Aroma`.
+  - Review the preliminal steps, then check all 4 boxes.
+  - Double check that nanddumper is selected.
+  - Click on `Download Payloads`.
+  - Click on `Download Base Aroma`.
 - The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
 
 ## Инструкции

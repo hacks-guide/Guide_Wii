@@ -63,7 +63,7 @@ BlueBomb - это эксплойт, который использует уязв
 - Bluetooth-адаптер.
   - Внутренний Bluetooth-адаптер будет работать.
   - Если у вас его нет, убедитесь, что тот который вы будете использовать совместим с Linux.
-- A USB flash drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+- USB флэш-накопитель [отформатированный в FAT32](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (англ.)
   - Это не может быть один и тот же USB-накопитель, который используется для загрузки Linux.
 - [Установщик HackMii v1.2](https://bootmii.org/download/)
 
@@ -72,7 +72,7 @@ BlueBomb - это эксплойт, который использует уязв
 1. Скопируйте `boot.elf` из backmii_installer_v1.2 `.zip` в корень вашего USB-накопителя.
 
    - (Если вы пытаетесь восстановить консоль из окирпиченного состояния, вы также должны скопировать homebrew-приложения которые вы хотите использовать в /apps/)
-   - (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Используйте boot.elf во всех случаях).
+   - (bootmini.elf **не** будет работать даже на Wii Mini, данный файл предназначен для совершенно других целей и не связан с тем, что вы делаете. Используйте boot.elf во всех случаях).
 
    ![](/images/exploits/bluebomb/usb-exploit.png)
 
@@ -178,12 +178,12 @@ BlueBomb - это эксплойт, который использует уязв
 ### Требования
 
 - Raspberry Pi Pico W 1/2 или ESP32 с поддержкой BR/EDR (Classic).
-- A USB flash drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+- Флэш-накопитель [отформатированный в FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (англ.)
 - [Установщик HackMii](https://bootmii.org/download/)
 
 ::: info
 
-Обычная Raspberry Pi Pico не будет работать. It MUST be the wireless model. Кроме того, ESP32 с контроллером, который поддерживает только BLE (Bluetooth Low Energy) не будет работать.
+Обычная Raspberry Pi Pico не будет работать. Вам нужна беспроводная модель. Кроме того, ESP32 с контроллером, который поддерживает только BLE (Bluetooth Low Energy) не будет работать.
 
 :::
 
