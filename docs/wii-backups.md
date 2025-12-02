@@ -148,13 +148,13 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 * A device running Windows, MacOS, or Linux
 * A USB drive or SD card
 * A dump from a Wii game disc (any format)
-* [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager?tab=readme-ov-file#%EF%B8%8F-downloads)
+* [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager?tab=readme-ov-file)
 
 ### Instructions
 
 #### Section I - Installation
 
-1. Download TinyWiiBackupManager for your OS (follow the instructions on the download page).
+1. Download TinyWiiBackupManager for your OS (follow the instructions on the project [README](https://github.com/mq1/TinyWiiBackupManager?tab=readme-ov-file#%EF%B8%8F-downloads)).
 1. Insert your USB drive or SD card into your computer.
 
 #### Section II - Copying Games
