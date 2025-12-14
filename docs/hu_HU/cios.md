@@ -54,8 +54,8 @@ Ha képes vagy csatlakoztatni a Wii-odat az internetre, átugorgathatsz a [II. r
 4. Másold ki az NUS Downloader `.zip` fájljának tartalmát egy mappába.
 5. Futtasd a `NUS Downloader.exe` fájlt.
 6. Navigálj a `Database` > `IOS` > `IOS38` opcióhoz, majd válaszd a `v4123` opciót.
-    - Pipáld ki a „Pack WAD” lehetőséget.
-    - _Vedd ki a pipát_ a „Patch IOS” lehetőségtől. Ezt majd a cIOS-telepítő megteszi.
+   - Pipáld ki a „Pack WAD” lehetőséget.
+   - _Vedd ki a pipát_ a „Patch IOS” lehetőségtől. Ezt majd a cIOS-telepítő megteszi.
 7. Kattints a `Start NUS Download!` gombra.
 8. Ismételd meg a fenti lépéseket az `IOS56 v5661`, `IOS57 v5918` és az `IOS58 v6175` beszerzéséhez is.
 9. A folyamat végén találni fogsz egy `titles` mappát ugyanabban a mappában, mint ahol a NUS Downloader van.
@@ -85,54 +85,54 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
 6. Állíts be mindent az alábbiak szerint:
 
-    ```
-    Select cIOS <d2x-v11-beta3>
-    Select cIOS base <38>
-    Select cIOS slot <248>
-    Select cIOS revision <65535>
-    ```
+   ```
+   Select cIOS <d2x-v11-beta3>
+   Select cIOS base <38>
+   Select cIOS slot <248>
+   Select cIOS revision <65535>
+   ```
 
-    ![](/images/cios/d2x_v11_248.png)
+   ![](/images/cios/d2x_v11_248.png)
 
-    ::: info
+   ::: info
 
-    Ha nem látod a `d2x-v11-beta3`-at, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
+   Ha nem látod a `d2x-v11-beta3`-at, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
 
-    :::
+   :::
 
-    ::: info
+   ::: info
 
-    A „`(c)IOS detected in slot ### will be overwritten`” figyelmeztetést figyelmen kívül hagyhatod.
+   A „`(c)IOS detected in slot ### will be overwritten`” figyelmeztetést figyelmen kívül hagyhatod.
 
-    :::
+   :::
 
-    ::: info
+   ::: info
 
-    Ha a telepítő a "`Slot ### already used in batch settings`" vagy a "`cIOS already added in batch with revision ##### and slot ###`" figyelmeztetést írja ki, akkor nyomd meg a `-` gombot a kötegelt mód kikapcsolásához.
+   Ha a telepítő a "`Slot ### already used in batch settings`" vagy a "`cIOS already added in batch with revision ##### and slot ###`" figyelmeztetést írja ki, akkor nyomd meg a `-` gombot a kötegelt mód kikapcsolásához.
 
-    (Ha ki szeretnél lépni a telepítőből, azt a Home gomb helyett a B gombbal teheted meg.)
+   (Ha ki szeretnél lépni a telepítőből, azt a Home gomb helyett a B gombbal teheted meg.)
 
-    :::
+   :::
 
 7. Nyomj `A` gombot. Erre a program meg fogja mutatni a helykiosztást:
 
-    ![](/images/cios/d2x_summary.png)
+   ![](/images/cios/d2x_summary.png)
 
 8. Ismét nyomd meg az `A` gombot.
 
-    ![](/images/cios/d2x_installation.png)
+   ![](/images/cios/d2x_installation.png)
 
 9. A telepítés befejezése után ismét a helykiosztást fogod látni. Ellenőrizd, hogy az imént telepített IOS helye zölden van kiemelve.
 
-    ![](/images/cios/d2x_log.png)
+   ![](/images/cios/d2x_log.png)
 
-    ::: info
+   ::: info
 
-    Ha a slot pirossal van kiemelve, próbáld újra a cIOS telepítését.
+   Ha a slot pirossal van kiemelve, próbáld újra a cIOS telepítését.
 
-    Ha hibát kapsz a letöltési fázisok előtt/alatt, (pl. `tcp_connect timeout`, `net_gethostbyname failed: ...`), nyomj B gombot a kilépéshez és folytasd az [I. résszel](#section-i---downloading).
+   Ha hibát kapsz a letöltési fázisok előtt/alatt, (pl. `tcp_connect timeout`, `net_gethostbyname failed: ...`), nyomj B gombot a kilépéshez és folytasd az [I. résszel](#section-i---downloading).
 
-    :::
+   :::
 
 10. Nyomj `A` gombot. Ezzel visszajutsz a konfigurációs képernyőre.
 
@@ -140,36 +140,36 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
     - A cIOS 249 telepítéséhez
 
-        ```
-        Select cIOS <d2x-v11-beta3>
-        Select cIOS base <56>
-        Select cIOS slot <249>
-        Select cIOS revision <65535>
-        ```
+      ```
+      Select cIOS <d2x-v11-beta3>
+      Select cIOS base <56>
+      Select cIOS slot <249>
+      Select cIOS revision <65535>
+      ```
 
-        ![](/images/cios/d2x_v11_249.png)
+      ![](/images/cios/d2x_v11_249.png)
 
     - A cIOS 250 telepítéséhez
 
-        ```
-        Select cIOS <d2x-v11-beta3>
-        Select cIOS base <57>
-        Select cIOS slot <250>
-        Select cIOS revision <65535>
-        ```
+      ```
+      Select cIOS <d2x-v11-beta3>
+      Select cIOS base <57>
+      Select cIOS slot <250>
+      Select cIOS revision <65535>
+      ```
 
-        ![](/images/cios/d2x_v11_250.png)
+      ![](/images/cios/d2x_v11_250.png)
 
     - A cIOS 251 telepítéséhez
 
-        ```
-        Select cIOS <d2x-v11-beta3>
-        Select cIOS base <58>
-        Select cIOS slot <251>
-        Select cIOS revision <65535>
-        ```
+      ```
+      Select cIOS <d2x-v11-beta3>
+      Select cIOS base <58>
+      Select cIOS slot <251>
+      Select cIOS revision <65535>
+      ```
 
-        ![](/images/cios/d2x_v11_251.png)
+      ![](/images/cios/d2x_v11_251.png)
 
 12. Ha végeztél mind a négy cIOS telepítésével, nyomd meg a B gombot a Homebrew Channelbe való visszatéréshez.
 
@@ -231,55 +231,55 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 6. Állíts be mindent az alábbiak szerint:
 
-    ```
-    Select cIOS <d2x-v11-beta3-vWii>
-    Select cIOS base <38>
-    Select cIOS slot <248>
-    ```
+   ```
+   Select cIOS <d2x-v11-beta3-vWii>
+   Select cIOS base <38>
+   Select cIOS slot <248>
+   ```
 
-    ![](/images/cios/d2x_v11_248_vwii.png)
+   ![](/images/cios/d2x_v11_248_vwii.png)
 
-    ::: info
+   ::: info
 
-    Ha nem látod a `d2x-v11-beta3-vWii`-t, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
+   Ha nem látod a `d2x-v11-beta3-vWii`-t, lépj ki a telepítőből B-vel, és biztosítsd, hogy az SD kártyád írható legyen.
 
-    :::
+   :::
 
 7. Nyomj `A` gombot a telepítéshez.
 
-    ![](/images/cios/d2x_installation.png)
+   ![](/images/cios/d2x_installation.png)
 
 8. Ismételd meg az előző 2 lépést az alábbi beállításokkal:
 
-    - A cIOS 249 telepítéséhez
+   - A cIOS 249 telepítéséhez
 
-        ```
-        Select cIOS <d2x-v11-beta3-vWii>
-        Select cIOS base <56>
-        Select cIOS slot <249>
-        ```
+     ```
+     Select cIOS <d2x-v11-beta3-vWii>
+     Select cIOS base <56>
+     Select cIOS slot <249>
+     ```
 
-    ![](/images/cios/d2x_v11_249_vwii.png)
+   ![](/images/cios/d2x_v11_249_vwii.png)
 
-    - A cIOS 250 telepítéséhez
+   - A cIOS 250 telepítéséhez
 
-        ```
-        Select cIOS <d2x-v11-beta3-vWii>
-        Select cIOS base <57>
-        Select cIOS slot <250>
-        ```
+     ```
+     Select cIOS <d2x-v11-beta3-vWii>
+     Select cIOS base <57>
+     Select cIOS slot <250>
+     ```
 
-        ![](/images/cios/d2x_v11_250_vwii.png)
+     ![](/images/cios/d2x_v11_250_vwii.png)
 
-    - A cIOS 251 telepítéséhez
+   - A cIOS 251 telepítéséhez
 
-        ```
-        Select cIOS <d2x-v11-beta3-vWii>
-        Select cIOS base <58>
-        Select cIOS slot <251>
-        ```
+     ```
+     Select cIOS <d2x-v11-beta3-vWii>
+     Select cIOS base <58>
+     Select cIOS slot <251>
+     ```
 
-        ![](/images/cios/d2x_v11_251_vwii.png)
+     ![](/images/cios/d2x_v11_251_vwii.png)
 
 9. Ha végeztél mind a négy cIOS telepítésével, nyomd meg a B gombot a Homebrew Channelbe való visszatéréshez.
 
@@ -336,18 +336,18 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire tele
 1. Válaszd a `Continue`-t.
 2. Állíts be mindent az alábbiak szerint:
 
-    ```
-    Select cIOS <d2xl-v1-beta2>
-    Select cIOS base <57>
-    Select cIOS slot <249>
-    ```
+   ```
+   Select cIOS <d2xl-v1-beta2>
+   Select cIOS base <57>
+   Select cIOS slot <249>
+   ```
 
-    ![](/images/cios/d2x_v1_249_mini_NTSC.png)
-    ![](/images/cios/d2x_v1_249_mini_PAL.png)
+   ![](/images/cios/d2x_v1_249_mini_NTSC.png)
+   ![](/images/cios/d2x_v1_249_mini_PAL.png)
 
-    - A megjegyzések alatt látni fogsz egy IOS verzió számot, ami vagy `v31775`-re vagy `v31776`-ra végződik. Az `IOS57-64-v31775` az NTSC (észak-amerikai) konzolokhoz, míg az `IOS57-64-v31776` a PAL (európai) konzolokhoz. Legyél biztos abban, hogy a megfelelő verziószámot választod a konzolodhoz.
+   - A megjegyzések alatt látni fogsz egy IOS verzió számot, ami vagy `v31775`-re vagy `v31776`-ra végződik. Az `IOS57-64-v31775` az NTSC (észak-amerikai) konzolokhoz, míg az `IOS57-64-v31776` a PAL (európai) konzolokhoz. Legyél biztos abban, hogy a megfelelő verziószámot választod a konzolodhoz.
 3. A telepítés indításához nyomd meg az A gombot.
-    - Ha a telepítés megszakad `TMD version mismatch` hibával, akkor a Control Pad jobb- és bal nyílgombjaival állítsd át a `Select cIOS base` opciót amíg verziószám más nem lesz, mint amit korábban próbáltál. Az 57-es szám nem változik.
+   - Ha a telepítés megszakad `TMD version mismatch` hibával, akkor a Control Pad jobb- és bal nyílgombjaival állítsd át a `Select cIOS base` opciót amíg verziószám más nem lesz, mint amit korábban próbáltál. Az 57-es szám nem változik.
 4. A folyamat végén lépj ki a telepítőből.
 
 ::: tip

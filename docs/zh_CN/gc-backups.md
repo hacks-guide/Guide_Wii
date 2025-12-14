@@ -4,6 +4,7 @@ This guide provides instructions on how to manage your GameCube backups, using G
 
 ## 需要
 
+- A Windows PC
 - 一张SD卡或移动硬盘/U 盘
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
@@ -30,19 +31,19 @@ This guide provides instructions on how to manage your GameCube backups, using G
 
 1. 打开应用程序，找到右下角的文件夹按钮。 点击它以打开文件资源管理器。
 
-    ![](/images/desktop-apps/GCBM/folderbutton.png)
+   ![](/images/desktop-apps/GCBM/folderbutton.png)
 
 2. Navigate to the location of the folder that contains the game file you want to transfer. 位置可以是您电脑的硬盘或移动硬盘。 Once you find the folder, select it.
 
-    ![](/images/desktop-apps/GCBM/selectfolder.png)
+   ![](/images/desktop-apps/GCBM/selectfolder.png)
 
 3. Click on the `Files (Destination)` tab, then select the `Inactive` option from the dropdown menu. 这将允许您选择选择要传输游戏的驱动器。 从列表中选择相应的驱动器字母。
 
-    ![](/images/desktop-apps/GCBM/selectdrive.png)
+   ![](/images/desktop-apps/GCBM/selectdrive.png)
 
 4. Next, go back to the `Files (Source)` tab, select the game you want to transfer, and then click either `Install Game (1:1)` or `Install Game (Scrub)`.
 
-    ![](/images/desktop-apps/GCBM/installgame.png)
+   ![](/images/desktop-apps/GCBM/installgame.png)
 
 ::: info
 

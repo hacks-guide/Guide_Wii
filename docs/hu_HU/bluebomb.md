@@ -63,7 +63,7 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 - A Bluetooth adapter.
   - Egy beépített Bluetooth-adapter is megfelel.
   - Ha nincs beépített adaptered, figyelj rá, hogy olyat vegyél, ami Linuxxal kompatibilis.
-- Egy FAT32-ként formázott USB-s flash drive.
+- Egy USB flash drive [FAT32/MS-DOS-ra formatálva](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
   - Ez nem lehet ugyanaz, amelyről a Linux-környezetet fogod futtatni.
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
@@ -178,12 +178,12 @@ Az optimális működés érdekében ajánlott a mikrokonrollert és a telepít�
 ### Requirements
 
 - Egy Raspberry Pi Pico W 1/2 vagy egy ESP32 BR/EDR (Classic) támogatással.
-- Egy FAT32-ként formázott USB-s flash drive.
+- Egy USB flash drive [FAT32/MS-DOS-ra formatálva](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - [The HackMii Installer](https://bootmii.org/download/)
 
 ::: info
 
-Egy normál Raspberry Pi Pico nem fog működni. It MUST be the wireless model. Továbbá, egy ESP32 csak BLE vezérlővel nem fog működni.
+Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KELL lennie. Továbbá, egy ESP32 csak BLE vezérlővel nem fog működni.
 
 :::
 

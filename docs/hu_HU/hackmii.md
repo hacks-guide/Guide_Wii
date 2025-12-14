@@ -20,9 +20,9 @@ Továbbá az is biztonságos hogy [újra csinálj](get-started) bármilyen explo
 
 1. Csatlakoztasd az SD kártyát/USB driveot az PC-dhez.
 2. Csomagold ki a HackMii Installer v1.2-t az SD kártyád/USB drive-od `apps` mappájába.
-    - Ha a mappa nem létezik, hozd létre.
+   - Ha a mappa nem létezik, hozd létre.
 3. Helyezd be az SD kártyád/USB-d a Wii-odba, majd indítsd el a `hackmii_installer_v1.2` appot a Homebrew Channel-ből.
-    - Az appnak nem lesz ikonja.
+   - Az appnak nem lesz ikonja.
 
 ::: tip
 

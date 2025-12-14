@@ -54,8 +54,8 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
 5. Run `NUS Downloader.exe`.
 6. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
-    - Ensure that "Pack WAD" is checked.
-    - _Don't_ check "Patch IOS". That is the cIOS Installer's job.
+   - Ensure that "Pack WAD" is checked.
+   - _Don't_ check "Patch IOS". That is the cIOS Installer's job.
 7. Click `Start NUS Download!`.
 8. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
 9. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
@@ -85,54 +85,54 @@ The WAD files should be on your SD card like this:
 
 6. Set everything to match the following:
 
-    ```
-    Select cIOS <d2x-v11-beta3>
-    Select cIOS base <38>
-    Select cIOS slot <248>
-    Select cIOS revision <65535>
-    ```
+   ```
+   Select cIOS <d2x-v11-beta3>
+   Select cIOS base <38>
+   Select cIOS slot <248>
+   Select cIOS revision <65535>
+   ```
 
-    ![](/images/cios/d2x_v11_248.png)
+   ![](/images/cios/d2x_v11_248.png)
 
-    ::: info
+   ::: info
 
-    If you do not see `d2x-v11-beta3`, exit the installer with B, and make sure your SD card is unlocked.
+   If you do not see `d2x-v11-beta3`, exit the installer with B, and make sure your SD card is unlocked.
 
-    :::
+   :::
 
-    ::: info
+   ::: info
 
-    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
+   The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
 
-    :::
+   :::
 
-    ::: info
+   ::: info
 
-    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
+   If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
 
-    (If you are trying to exit the installer, the button is B, not Home.)
+   (If you are trying to exit the installer, the button is B, not Home.)
 
-    :::
+   :::
 
 7. Press `A`. This will bring you to the slot map:
 
-    ![](/images/cios/d2x_summary.png)
+   ![](/images/cios/d2x_summary.png)
 
 8. Press `A` again.
 
-    ![](/images/cios/d2x_installation.png)
+   ![](/images/cios/d2x_installation.png)
 
 9. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
 
-    ![](/images/cios/d2x_log.png)
+   ![](/images/cios/d2x_log.png)
 
-    ::: info
+   ::: info
 
-    If the slot is highlighted red, try to install the cIOS again.
+   If the slot is highlighted red, try to install the cIOS again.
 
-    If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
+   If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
 
-    :::
+   :::
 
 10. Press `A`. This will return you to the configuration screen.
 
@@ -140,36 +140,36 @@ The WAD files should be on your SD card like this:
 
     - Install cIOS 249
 
-        ```
-        Select cIOS <d2x-v11-beta3>
-        Select cIOS base <56>
-        Select cIOS slot <249>
-        Select cIOS revision <65535>
-        ```
+      ```
+      Select cIOS <d2x-v11-beta3>
+      Select cIOS base <56>
+      Select cIOS slot <249>
+      Select cIOS revision <65535>
+      ```
 
-        ![](/images/cios/d2x_v11_249.png)
+      ![](/images/cios/d2x_v11_249.png)
 
     - Install cIOS 250
 
-        ```
-        Select cIOS <d2x-v11-beta3>
-        Select cIOS base <57>
-        Select cIOS slot <250>
-        Select cIOS revision <65535>
-        ```
+      ```
+      Select cIOS <d2x-v11-beta3>
+      Select cIOS base <57>
+      Select cIOS slot <250>
+      Select cIOS revision <65535>
+      ```
 
-        ![](/images/cios/d2x_v11_250.png)
+      ![](/images/cios/d2x_v11_250.png)
 
     - Install cIOS 251
 
-        ```
-        Select cIOS <d2x-v11-beta3>
-        Select cIOS base <58>
-        Select cIOS slot <251>
-        Select cIOS revision <65535>
-        ```
+      ```
+      Select cIOS <d2x-v11-beta3>
+      Select cIOS base <58>
+      Select cIOS slot <251>
+      Select cIOS revision <65535>
+      ```
 
-        ![](/images/cios/d2x_v11_251.png)
+      ![](/images/cios/d2x_v11_251.png)
 
 12. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
 
@@ -231,55 +231,55 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 6. Set everything to match the following:
 
-    ```
-    Select cIOS <d2x-v11-beta3-vWii>
-    Select cIOS base <38>
-    Select cIOS slot <248>
-    ```
+   ```
+   Select cIOS <d2x-v11-beta3-vWii>
+   Select cIOS base <38>
+   Select cIOS slot <248>
+   ```
 
-    ![](/images/cios/d2x_v11_248_vwii.png)
+   ![](/images/cios/d2x_v11_248_vwii.png)
 
-    ::: info
+   ::: info
 
-    If you do not see `d2x-v11-beta3-vWii`, exit the installer with B, and make sure your SD card is unlocked.
+   If you do not see `d2x-v11-beta3-vWii`, exit the installer with B, and make sure your SD card is unlocked.
 
-    :::
+   :::
 
 7. Press `A` to install.
 
-    ![](/images/cios/d2x_installation.png)
+   ![](/images/cios/d2x_installation.png)
 
 8. Repeat the previous 2 steps with the following configurations:
 
-    - Install cIOS 249
+   - Install cIOS 249
 
-        ```
-        Select cIOS <d2x-v11-beta3-vWii>
-        Select cIOS base <56>
-        Select cIOS slot <249>
-        ```
+     ```
+     Select cIOS <d2x-v11-beta3-vWii>
+     Select cIOS base <56>
+     Select cIOS slot <249>
+     ```
 
-    ![](/images/cios/d2x_v11_249_vwii.png)
+   ![](/images/cios/d2x_v11_249_vwii.png)
 
-    - Install cIOS 250
+   - Install cIOS 250
 
-        ```
-        Select cIOS <d2x-v11-beta3-vWii>
-        Select cIOS base <57>
-        Select cIOS slot <250>
-        ```
+     ```
+     Select cIOS <d2x-v11-beta3-vWii>
+     Select cIOS base <57>
+     Select cIOS slot <250>
+     ```
 
-        ![](/images/cios/d2x_v11_250_vwii.png)
+     ![](/images/cios/d2x_v11_250_vwii.png)
 
-    - Install cIOS 251
+   - Install cIOS 251
 
-        ```
-        Select cIOS <d2x-v11-beta3-vWii>
-        Select cIOS base <58>
-        Select cIOS slot <251>
-        ```
+     ```
+     Select cIOS <d2x-v11-beta3-vWii>
+     Select cIOS base <58>
+     Select cIOS slot <251>
+     ```
 
-        ![](/images/cios/d2x_v11_251_vwii.png)
+     ![](/images/cios/d2x_v11_251_vwii.png)
 
 9. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
 
@@ -336,18 +336,18 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 1. Select `Continue`.
 2. Press continue, then set the options to the following:
 
-    ```
-    Select cIOS <d2xl-v1-beta2>
-    Select cIOS base <57>
-    Select cIOS slot <249>
-    ```
+   ```
+   Select cIOS <d2xl-v1-beta2>
+   Select cIOS base <57>
+   Select cIOS slot <249>
+   ```
 
-    ![](/images/cios/d2x_v1_249_mini_NTSC.png)
-    ![](/images/cios/d2x_v1_249_mini_PAL.png)
+   ![](/images/cios/d2x_v1_249_mini_NTSC.png)
+   ![](/images/cios/d2x_v1_249_mini_PAL.png)
 
-    - Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
+   - Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
 3. Once set, press A to install.
-    - If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
+   - If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
 4. Once done successfully, exit the installer.
 
 ::: tip

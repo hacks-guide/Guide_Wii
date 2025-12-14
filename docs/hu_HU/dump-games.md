@@ -27,11 +27,11 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának
 
 8. Amikor a program megkérdezi, hogy „Enable checksum calculations?”, válaszolj igennel (`Yes`).
 
-    ![](/images/homebrew/CleanRip/checksum.png)
+   ![](/images/homebrew/CleanRip/checksum.png)
 
 9. Válaszd ki, hogy USB-eszközre vagy SD kártyára szeretnéd másolni a játékot.
 
-    ![](/images/homebrew/CleanRip/device.png)
+   ![](/images/homebrew/CleanRip/device.png)
 
 10. Válaszd ki az eszköz fájlrendszer-típusát – a legtöbb esetben ez FAT (FAT32).
 
@@ -67,21 +67,21 @@ Ha a program hibát ír ki, ellenőrizd, hogy a másolni kívánt lemez tiszta-e
 
 1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e. Ha nem vagy benne biztos, válaszolj nemmel (`No`).
 
-    ![](/images/homebrew/CleanRip/dateldisc.png)
+   ![](/images/homebrew/CleanRip/dateldisc.png)
 
 2. Állítsd be a beállításokat az alábbi képernyő szerint.
 
-    ![](/images/homebrew/CleanRip/wiisettings.png)
+   ![](/images/homebrew/CleanRip/wiisettings.png)
 
 3. A másolási folyamat indításához nyomd meg az A-gombot!
 
-    - Ez a folyamat eltarthat egy darabig, mivel a program lemásolja a lemez teljes, 4,7 GB-nyi tartalmát (kétrétegű lemezeken 8,5 GB).
+   - Ez a folyamat eltarthat egy darabig, mivel a program lemásolja a lemez teljes, 4,7 GB-nyi tartalmát (kétrétegű lemezeken 8,5 GB).
 
-    ![](/images/homebrew/CleanRip/wiiprogress.png)
+   ![](/images/homebrew/CleanRip/wiiprogress.png)
 
 4. Ha korábban engedélyezted a Redump DAT-fájlok letöltését, akkor a másolás befejeztével a program megmutatja a másolat MD5-ellenőrzőösszegét, amit összehasonlíthatsz a Redumpéval.
 
-    ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
+   ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
 
 ::: tip
 
@@ -99,17 +99,17 @@ Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról másolatot ké
 
 1. Amikor a program megkérdezi, válaszold meg, hogy a lemezed egy engedély nélküli Datel lemez-e. Ha nem vagy benne biztos, válaszolj nemmel (`No`).
 
-    ![](/images/homebrew/CleanRip/dateldisc.png)
+   ![](/images/homebrew/CleanRip/dateldisc.png)
 
 2. A másolási folyamat indításához nyomd meg az A-gombot!
 
-    - Ez a folyamat eltarthat egy darabig, mivel a program lemásolja a Mini DVD teljes, 1,3 GB-nyi tartalmát.
+   - Ez a folyamat eltarthat egy darabig, mivel a program lemásolja a Mini DVD teljes, 1,3 GB-nyi tartalmát.
 
-    ![](/images/homebrew/CleanRip/gcprogress.png)
+   ![](/images/homebrew/CleanRip/gcprogress.png)
 
 3. Ha korábban engedélyezted a Redump DAT-fájlok letöltését, akkor a másolás befejeztével a program megmutatja a másolat MD5-ellenőrzőösszegét, amit összehasonlíthatsz a Redumpéval.
 
-    ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
+   ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
 ::: tip
 

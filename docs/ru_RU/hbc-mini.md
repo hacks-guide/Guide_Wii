@@ -18,13 +18,13 @@ Homebrew Channel - это место, где вы будете запускат�
 
 1. Вы увидите экран предупреждения о мошенничестве. Подождите 30 секунд, пока не появится текст "Press 1 to continue", затем нажмите 1.
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
 2. Нажмите `Continue`, затем выберите `Install The Homebrew Channel`.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
 3. Нажмите `Continue` после завершения установки.
 

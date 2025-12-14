@@ -35,15 +35,15 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 3. Jegyezd fel a betüt a system version mellett a jobb felső sarkában a képernyőnek.
 
-    - Ez a betű jelzi a rendszermenü régióját, amire későbbi lépésekben szükséged lesz.
+   - Ez a betű jelzi a rendszermenü régióját, amire későbbi lépésekben szükséged lesz.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 4. Navigálj az `Internet` > `Console Information` opcióhoz.
 
 5. Jegyezd fel a FULL MAC address-ed.
 
-    ![](/images/wii/MacAddress.png)
+   ![](/images/wii/MacAddress.png)
 
 6. A számítógépeden nyiss meg egy böngészőt és menj a [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org) oldalra.
 
@@ -53,7 +53,7 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 9. Vágd el mindkét drótot.
 
-    ![](/images/exploits/wilbrand/web.png)
+   ![](/images/exploits/wilbrand/web.png)
 
 10. Kattints a `Download your .zip`-re.
 
@@ -114,15 +114,15 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 3. Jegyezd fel a betüt a system version mellett a jobb felső sarkában a képernyőnek.
 
-    - Ez a betű jelzi a rendszermenü régióját, amire későbbi lépésekben szükséged lesz.
+   - Ez a betű jelzi a rendszermenü régióját, amire későbbi lépésekben szükséged lesz.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 4. Navigálj az `Internet` > `Console Information` opcióhoz.
 
 5. Jegyezd fel a FULL MAC address-ed.
 
-    ![](/images/wii/MacAddress.png)
+   ![](/images/wii/MacAddress.png)
 
 6. Másold ki a Wilbrand `.zip` fájl tartalmát egy mappába a számítógépeden
 
@@ -132,18 +132,18 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 9. A Wii-od verziójával és MAC címével futtasd az alábbi parancsot:
 
-    - Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
+   - Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
 
-        - `X:` az SD kártyád meghajtó betüjele.
+     - `X:` az SD kártyád meghajtó betüjele.
 
-        ![](/images/exploits/wilbrand/windows.png)
+     ![](/images/exploits/wilbrand/windows.png)
 
-    - Linux/macOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
+   - Linux/macOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
 
-        - Ha nem abban a mappában indítottad a terminált amibe a Wilbrand kicsomagolásra került használd a `cd` parancsot, hogy előbb belépj oda, pl. `cd ~/Desktop/Wilbrand`
-        - `/media/mount_dir` az a mappa ahova az SD kártyád csatolásra került. Ez változhat a Linux distro-tól függően.
+     - Ha nem abban a mappában indítottad a terminált amibe a Wilbrand kicsomagolásra került használd a `cd` parancsot, hogy előbb belépj oda, pl. `cd ~/Desktop/Wilbrand`
+     - `/media/mount_dir` az a mappa ahova az SD kártyád csatolásra került. Ez változhat a Linux distro-tól függően.
 
-        ![](/images/exploits/wilbrand/linux.png)
+     ![](/images/exploits/wilbrand/linux.png)
 
 10. Másold ki a hackmii_installer_v1.2 `.zip` fájl tartalmát egy mappába a számítógépeden.
 

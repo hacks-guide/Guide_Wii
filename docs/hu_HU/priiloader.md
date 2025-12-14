@@ -14,7 +14,7 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 
 - Egy SD kártya
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (közvetlen letöltés)
-    - Az [Aroma](https://wiiu.hacks.guide/aroma/getting-started)-nak telepítve kell lennie a konzolodra, hogy a Priiloader Wii U Forwarder működjön.
+  - Az [Aroma](https://wiiu.hacks.guide/aroma/getting-started)-nak telepítve kell lennie a konzolodra, hogy a Priiloader Wii U Forwarder működjön.
 
 ## Lépések
 
@@ -35,13 +35,13 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 
 3. Indítsd el a homebrew listáról a „Priiloader Installer”-t.
 
-    ![](/images/hbc/priiloader-and-loadpriiloader.png)
+   ![](/images/hbc/priiloader-and-loadpriiloader.png)
 
 4. Nyomd meg a +-gombot a Wii Remote-on vagy az A-gombot a GameCube-vezérlőn.
 
-    ![](/images/priiloader/installer.png)
+   ![](/images/priiloader/installer.png)
 
-    ![](/images/priiloader/installing.png)
+   ![](/images/priiloader/installing.png)
 
 5. Nyomd meg az A gombot a Homebrew Channelbe való visszatéréshez.
 
@@ -50,46 +50,46 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 1. Nyomd meg a HOME-gombot, majd válaszd ki az „Exit to System Menu”-gombot a Homebrew Channelbe való visszatéréshez!
 2. A konzol most meg fogja nyitni a Priiloader menüjét.
 
-    ![](/images/priiloader/menu.png)
+   ![](/images/priiloader/menu.png)
 
 A későbbi indításhoz kövesd az alábbi lépéseket:
 
 - A Wii bekapcsolása közben tartsd nyomva a RESET-gombot!
-    - Csak Wii-konzolokon
+  - Csak Wii-konzolokon
 - A konzol bekapcsolása közben tartsd nyomva az Esc-gombot egy csatlakoztatott USB-s billentyűzeten!
-    - Wii, Wii mini és Wii U konzolokon
+  - Wii, Wii mini és Wii U konzolokon
 - Indítsd el a „Load Priiloader”-programot a Homebrew Channelből!
-    - Wii, Wii mini és Wii U konzolokon
+  - Wii, Wii mini és Wii U konzolokon
 - Indítsd el a „Priiloader Wii U Forwarder”-programot!
-    - Csak Wii U konzolokon
+  - Csak Wii U konzolokon
 
 ### IV. rész – A Priiloader beállítása
 
 1. Görgess le a `System Menu Hacks` menüponthoz és nyomj `A` gombot.
 
-    ![](/images/priiloader/menu_hacks.png)
+   ![](/images/priiloader/menu_hacks.png)
 
-    ::: warning
+   ::: warning
 
-    Ha a Priiloader telepítőt az USB drive-odra raktad, legyél biztos abban, hogy vele egy időben nincs SD kártya bedugva.
+   Ha a Priiloader telepítőt az USB drive-odra raktad, legyél biztos abban, hogy vele egy időben nincs SD kártya bedugva.
 
-    Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a hacks_hash.ini\\` fájlt.
+   Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a hacks_hash.ini\\` fájlt.
 
-    :::
+   :::
 
 2. A konzolod típusa alapján az alábbi beállításokat kell engedélyezned:
-    - Wii:
-        - Ha 480p-s módban vagy: `480p graphics fix in the system menu`
-        - Block Disc Updates
-        - Block Online Updates (internetes frissítések letiltása)
-        - Ha NEM CRT kijelzőt használsz: `Remove Deflicker`
-    - vWii:
-        - Block Online Updates (internetes frissítések letiltása)
-        - Wii System Settings via Options Button (Wii-rendszerbeállítások megnyitása az Options-gombbal)
-        - Ha NEM CRT kijelzőt használsz: `Remove Deflicker`
-    - Wii mini:
-        - Block Disc Updates
-        - Ha NEM CRT kijelzőt használsz: `Remove Deflicker`
+   - Wii:
+     - Ha 480p-s módban vagy: `480p graphics fix in the system menu`
+     - Block Disc Updates
+     - Block Online Updates (internetes frissítések letiltása)
+     - Ha NEM CRT kijelzőt használsz: `Remove Deflicker`
+   - vWii:
+     - Block Online Updates (internetes frissítések letiltása)
+     - Wii System Settings via Options Button (Wii-rendszerbeállítások megnyitása az Options-gombbal)
+     - Ha NEM CRT kijelzőt használsz: `Remove Deflicker`
+   - Wii mini:
+     - Block Disc Updates
+     - Ha NEM CRT kijelzőt használsz: `Remove Deflicker`
 
 3. Görgess le a `save settings` menüponthoz, és nyomj 'A' gombot.
 

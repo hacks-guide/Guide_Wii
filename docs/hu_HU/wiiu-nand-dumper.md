@@ -15,10 +15,10 @@ Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32-re for
 ## Követelmények
 
 - A legutolsó fájlok az [Aroma for your café](https://aroma.foryour.cafe/) oldalról.
-   - Olvasd el a megelőző lépéseket, majd pipáld be mind a négy dobozt.
-   - Duplán ellenőrizd, hogy a nanddumper van kiválasztva.
-   - Kattints a `Download Payloads`-ra.
-   - Kattints a `Download Base Aroma`-ra.
+  - Olvasd el a megelőző lépéseket, majd pipáld be mind a négy dobozt.
+  - Duplán ellenőrizd, hogy a nanddumper van kiválasztva.
+  - Kattints a `Download Payloads`-ra.
+  - Kattints a `Download Base Aroma`-ra.
 - A [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller) legutolsó kiadása.
 
 ## Lépések

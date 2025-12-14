@@ -58,9 +58,9 @@ A [BlueBomb](bluebomb), [str2hax](str2hax), vagy [FlashHax](flashhax) exploitok 
 
 ::: info
 
-A Wii bármilyen kapacitású SD kártyát tud olvasni (még azokt is, amik nagyobbak, mint 32GB), de a kártyát FAT32-re kell formáznod (**nem** exFAT vagy NTFS). Tekintsd meg [ezt az útmutatót](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) a formázási lépésekért.
+A Wii bármilyen kapacítású SD kártyát tud olvasni (még a 32GB-nál nagyobbakat is), de a kártyának [FAT32/MS-DOS-ra kell formázva lennie](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**nem** exFAT vagy NTFS).
 
-Az USB eszközökhoz is a FAT32 az ajánlott, habár érdemes figyelemünkben tartani a FAT32 korlátozásait, ami maximum 2TB méretű köteteket és 4GB méretű fájlokat tesz lehetővé. A WBFS korábban a Wii-játékok biztonsági mentéséhez használt fájlrendszer volt (nem tévesztendő össze a WBFS fájlokkal) - ma már elavult, és nem szabad használni.
+Az USB eszközökhoz is a FAT32/MSDOS az ajánlott, habár érdemes figyelemünkben tartani a FAT32 korlátozásait, ami maximum 2TB méretű köteteket és 4GB méretű fájlokat tesz lehetővé. A WBFS korábban a Wii-játékok biztonsági mentéséhez használt fájlrendszer volt (nem tévesztendő össze a WBFS fájlokkal) - ma már elavult, és nem szabad használni.
 
 :::
 

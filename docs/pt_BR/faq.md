@@ -58,9 +58,9 @@ For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploi
 
 ::: info
 
-The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be formatted to FAT32 (**not** exFAT or NTFS). See [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.
+The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**not** exFAT or NTFS).
 
-For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS was a previously used file system for Wii game backups (not to be confused with WBFS files) - today, it is outdated and should not be used.
+For USB devices, FAT32/MS-DOS is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS was a previously used file system for Wii game backups (not to be confused with WBFS files) - today, it is outdated and should not be used.
 
 :::
 

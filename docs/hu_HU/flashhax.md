@@ -15,19 +15,19 @@ A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül
 
 2. Indítsd el az Internet Channel-t.
 
-    ![](/images/exploits/flashhax/internet-channel-start.png)
+   ![](/images/exploits/flashhax/internet-channel-start.png)
 
 3. Látogasd meg a `flashhax.com` címet.
 
 4. Válaszd ki a konzolod régióját!
 
-    ![](/images/exploits/flashhax/select-region.png)
+   ![](/images/exploits/flashhax/select-region.png)
 
 5. A csillag-gombbal nyisd meg a könyvjelzőkezelőt!
 
 6. Válaszd ki az `Add Favorite` opciót.
 
-    ![](/images/exploits/flashhax/bookmark-page.png)
+   ![](/images/exploits/flashhax/bookmark-page.png)
 
 ### II. rész – FlashHax
 
@@ -35,13 +35,13 @@ A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül
 
 2. Várj egy picit
 
-    - Eltarthat egy darabig, amíg a telepítő letöltődik.
+   - Eltarthat egy darabig, amíg a telepítő letöltődik.
 
-    ![](/images/exploits/flashhax/wait-for-download.png)
+   ![](/images/exploits/flashhax/wait-for-download.png)
 
 3. Ha az exploit sikeres volt, az eszközöd betöltötte a HackMii Installer-t.
-    - Lehetséges, hogy ez több próbálkozást is igényelni fog.
-    - Ha a HackMii Installer nem indul el és a konzol lefagy (a kurzor nem mozdul), akkor indítsd újra a Wii-t indítsd el a Internet Channel-t és kezdd újra ezt a részt.
+   - Lehetséges, hogy ez több próbálkozást is igényelni fog.
+   - Ha a HackMii Installer nem indul el és a konzol lefagy (a kurzor nem mozdul), akkor indítsd újra a Wii-t indítsd el a Internet Channel-t és kezdd újra ezt a részt.
 
 Ha több próbálkozás után sem tölt be, próbáld törölni a böngésző sütijeit vagy az Internet Channel mentését.
 

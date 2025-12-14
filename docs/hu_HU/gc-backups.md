@@ -4,6 +4,7 @@ Ebben az útmutatóban bemutatjuk, hogyan használhatod a GameCube Backup Manage
 
 ## Követelmények
 
+- Egy Windows PC
 - Egy SD kártya vagy pendrive
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
@@ -30,19 +31,19 @@ Ellenőrizd, hogy a külső háttértárad FAT32-fájlrendszerre van-e formázva
 
 1. Nyisd meg az alkalmazást és keresd meg a mappa gombot a jobb alsó sarokban. Kattints rá a Fájlkezelő ablak megnyitásához.
 
-    ![](/images/desktop-apps/GCBM/folderbutton.png)
+   ![](/images/desktop-apps/GCBM/folderbutton.png)
 
 2. Keresd meg a mappa helyét, ami a játékot tartalmazza, amit át szeretnél vinni. Ez lehet a számítógéped merevlemezén vagy egy külső tároló eszközön. Ha megtaláltad a mappát, válaszd ki.
 
-    ![](/images/desktop-apps/GCBM/selectfolder.png)
+   ![](/images/desktop-apps/GCBM/selectfolder.png)
 
 3. Kattints a `Files (Destination)` fülre, majd válaszd az `Inactive` opciót lenyíló menüből. Ez lehetővé teszi, hogy kiválaszd a drive-ot. amire át szeretnéd vinni a játékot. Válaszd ki a megfelelő drive betút a listából.
 
-    ![](/images/desktop-apps/GCBM/selectdrive.png)
+   ![](/images/desktop-apps/GCBM/selectdrive.png)
 
 4. Utána menj vissza a `Files (Source)` fülre és válaszd ki a játékot, amit átvinnél, majd kattints vagy az `Install Game (1:1)` vagy az `Install Game (Scrub)` opcióra.
 
-    ![](/images/desktop-apps/GCBM/installgame.png)
+   ![](/images/desktop-apps/GCBM/installgame.png)
 
 ::: info
 

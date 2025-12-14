@@ -18,6 +18,6 @@
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Haz clic aquí para volver al índice del sitio.](site-navigation)
 
 :::

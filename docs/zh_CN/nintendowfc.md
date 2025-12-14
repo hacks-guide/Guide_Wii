@@ -33,20 +33,20 @@ A method for Wiimmfi patching which runs on retail game discs automatically thro
 
 2. 你应该会看到 Priiloader 菜单。
 
-    ![](/images/priiloader/mainmenu.png)
+   ![](/images/priiloader/mainmenu.png)
 
 3. Go to `System Menu Hacks`.
 
-    ::: info
+   ::: info
 
-    如果您使用 U 盘安装 Priiloader，请确保没有同时插入 SD 卡。
-    这将导致 Priiloader 找不到 hacks_hash.ini 文件。
+   如果您使用 U 盘安装 Priiloader，请确保没有同时插入 SD 卡。
+   这将导致 Priiloader 找不到 hacks_hash.ini 文件。
 
-    :::
+   :::
 
 4. Make sure the `Wiimmfi patch v4` hack is enabled.
 
-    ![](/images/priiloader/hacks.png)
+   ![](/images/priiloader/hacks.png)
 
 5. Scroll to `Save Settings` and save your changes.
 
@@ -70,7 +70,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 ## Automatic Disc Patching via Custom DNS
 
-A method for Wiimmfi patching which runs on retail game discs automatically through the usage of a custom DNS server. While convinient, it only works with a small selection of games including Mario Kart Wii and SSBB. Due to the nature of this process, it can be run on Wiis without homebrew.
+A method for Wiimmfi patching which runs on retail game discs automatically through the usage of a custom DNS server. While convenient, it only works with a small selection of games including Mario Kart Wii and SSBB. Due to the nature of this process, it can be run on Wiis without homebrew.
 
 ::: warning
 
@@ -125,7 +125,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 2. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
 
-    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
+   ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
 3. 如果您使用 Wii U，每当您想检查比赛时，您将不得不运行 competitions patcher，因为 Wii U 未启用 WiiConnect24。
 
@@ -139,7 +139,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 ::: warning
 
-If you run into UPnP-related issues (such as the patcher getting stuch at "Init network..." or "add UPnP port forward" steps for more than 10 seconds), you can press the - button on your Wii Remote, or the Y button on your GameCube controller as soon as the patcher loads to circumvent this.
+If you run into UPnP-related issues (such as the patcher getting stuck at "Init network..." or "add UPnP port forward" steps for more than 10 seconds), you can press the - button on your Wii Remote, or the Y button on your GameCube controller as soon as the patcher loads to circumvent this.
 
 :::
 
@@ -189,9 +189,9 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 
 1. Download the patcher and extract the `.zip` file.
 2. 您的游戏副本（支持 WBFS、ISO、cISO 等 Wii 支持的其它格式）。
-    - If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
-    - If you're on MacOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
-    - If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
+   - If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
+   - If you're on MacOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
+   - If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
 3. If the above was successful, you should see a window pop-up that displays the patching process. Once the process finishes, you will find the patched images in a folder called `wiimmfi-images`.
 
 ::: tip
