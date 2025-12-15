@@ -58,7 +58,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
    ![](/images/factory-reset/formatnand.png)
 
-2. Select the top left text box in the program and type in the Wii System Menu version that you need the NAND to have. Note that this should optimally be the version that your NAND was previously using. This NAND was using `4.3U`. Other valid examples are `3.2U`, `4.3E`, or `3.4J`.
+2. Select the top left text box in the program and type in the Wii System Menu version that you need the NAND to have. Note that this should optimally be 4.3 (examples: `4.3E`, `4.3U`, `4.3J`, `4.3K`).
 
    ![](/images/factory-reset/sysmenu.png)
 
