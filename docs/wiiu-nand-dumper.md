@@ -20,7 +20,7 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
     * Double check that nanddumper is selected.
     * Click on `Download Payloads`.
     * Click on `Download Base Aroma`.
-* The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
+* The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest).
 
 ## Instructions
 
