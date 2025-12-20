@@ -22,8 +22,8 @@ Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/aroma/getting-
 
 * A modded Wii U
 * The [Aroma Environment](https://aroma.foryour.cafe/)
-* The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
-* (Optional) The [Enhanced vWii Aroma Plugin](https://hb-app.store/wiiu/evWii)
+* The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest).
+* (Optional) The [Enhanced vWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases/latest)
 
 ::: warning
 
