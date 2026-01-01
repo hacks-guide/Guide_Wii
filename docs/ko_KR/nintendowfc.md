@@ -70,7 +70,7 @@ USB Loader GX 또는 WiiFlow Lite의 최신 버전에서 게임 백업을 자동
 
 ## 커스텀 DNS를 통한 자동 디스크 패치
 
-커스텀 DNS 서버를 사용하여 판매용 게임 디스크에서 자동으로 실행되는 Wiimmfi 패치 방법입니다. While convenient, it only works with a small selection of games including Mario Kart Wii and SSBB. 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다.
+커스텀 DNS 서버를 사용하여 판매용 게임 디스크에서 자동으로 실행되는 Wiimmfi 패치 방법입니다. 편리하긴 하지만, 마리오 카트 Wii와 SSBB를 포함한 일부 게임에서만 작동합니다. 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다.
 
 ::: warning
 
@@ -139,7 +139,7 @@ USB Loader GX 또는 WiiFlow Lite의 최신 버전에서 게임 백업을 자동
 
 ::: warning
 
-If you run into UPnP-related issues (such as the patcher getting stuck at "Init network..." or "add UPnP port forward" steps for more than 10 seconds), you can press the - button on your Wii Remote, or the Y button on your GameCube controller as soon as the patcher loads to circumvent this.
+UPnP 관련 문제 (예: 패처가 "네트워크 초기화..." 또는 "UPnP 포트 포워딩 추가" 단계에서 10초 이상 멈추는 경우)가 발생하면 패처가 로드되는 즉시 Wii 리모컨 - 버튼이나 게임큐브 컨트롤러의 Y 버튼을 눌러 문제를 해결할 수 있습니다.
 
 :::
 

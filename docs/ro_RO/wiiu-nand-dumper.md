@@ -15,11 +15,11 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
 ## Requirements
 
 - The latest files from [Aroma for your café](https://aroma.foryour.cafe/).
-   - Review the preliminal steps, then check all 4 boxes.
-   - Double check that nanddumper is selected.
-   - Click on `Download Payloads`.
-   - Click on `Download Base Aroma`.
-- Ultima versiune a [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
+  - Review the preliminal steps, then check all 4 boxes.
+  - Double check that nanddumper is selected.
+  - Click on `Download Payloads`.
+  - Click on `Download Base Aroma`.
+- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`)
 
 ## Instructions
 
@@ -27,7 +27,7 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
 
 1. Introduceți cardul SD al Wii U în PC-ul tău.
 2. Copy the contents of the downloaded Aroma _`.zip`_ files to the root of your SD Card.
-3. Copiați conținutul fișierului `CompatTitleInstaller.zip` în directorul principal al cardului SD.
+3. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
 
 SD Card Layout
 

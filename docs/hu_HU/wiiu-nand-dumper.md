@@ -19,7 +19,7 @@ Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32-re for
   - Duplán ellenőrizd, hogy a nanddumper van kiválasztva.
   - Kattints a `Download Payloads`-ra.
   - Kattints a `Download Base Aroma`-ra.
-- A [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller) legutolsó kiadása.
+- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`)
 
 ## Lépések
 
@@ -27,7 +27,7 @@ Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32-re for
 
 1. Helyezd be a Wii U-d SD kártyáját a PC-dbe.
 2. Másold a tartalmát a letöltött Aroma _`.zip`_ fájlnak az SD kártyád gyökerébe.
-3. Másold a tartalmát a `CompatTitleInstaller.zip` fájlnak az SD kártyád gyökerébe.
+3. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
 
 SD kártya kiosztás
 

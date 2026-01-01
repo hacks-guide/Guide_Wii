@@ -22,8 +22,8 @@ Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/aroma/getting-
 
 - Un Wii U modificat
 - [Aroma Environment]](https://aroma.foryour.cafe/)
-- Ultima versiune a [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
-- (Opțional) [Plugin-ul Enhanced vWii Aroma](https://hb-app.store/wiiu/evWii)
+- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`)
+- (Optional) The [Enhanced vWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases/latest) (`evwii.wps`)
 
 ::: warning
 
@@ -36,8 +36,8 @@ Dacă plugin-ul evWii Aroma nu este instalat și aplicația homebrew se blocheaz
 ### Secțiunea I - Fișiere
 
 1. Introduceți cardul SD al Wii U în PC-ul tău.
-2. Copiați conținutul fișierului `CompatTitleInstaller.zip` în directorul principal al cardului SD.
-3. Copiați conținutul fișierului `evWii.zip` în directorul principal al cardului SD.
+2. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
+3. Copy `evwii.wps` file to `wiiu` -> `environments` -> `aroma` -> `plugins` of your SD Card.
 4. Re-insert your SD card into the Wii U.
 
 ### Secțiunea II - Instalarea Homebrew Channel

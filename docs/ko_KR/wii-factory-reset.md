@@ -58,7 +58,7 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
    ![](/images/factory-reset/formatnand.png)
 
-2. 프로그램의 왼쪽 상단 텍스트 상자를 선택하고 낸드에 필요한 Wii 시스템 메뉴 버전을 입력합니다. Note that this should optimally be 4.3 (examples: `4.3E`, `4.3U`, `4.3J`, `4.3K`).
+2. 프로그램의 왼쪽 상단 텍스트 상자를 선택하고 낸드에 필요한 Wii 시스템 메뉴 버전을 입력합니다. 최적의 값은 4.3이어야 합니다. (예: `4.3E`, `4.3U`, `4.3J`, `4.3K`).
 
    ![](/images/factory-reset/sysmenu.png)
 

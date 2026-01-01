@@ -10,16 +10,16 @@ Wii U 쪽이 이미 모드가 적용된 경우 [홈브류 채널 설치](vwii-ho
 
 ::: info
 
-SD 카드는 FAT32로 포맷해야 합니다. If your SD Card is not formatted to FAT32, follow [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) to format it. SD 카드에 `wiiu`라는 **라벨을 붙이지 마세요.** 그렇지 않으면 홈브류에서 문제가 발생할 수 있습니다.
+SD 카드는 FAT32로 포맷해야 합니다. SD 카드가 FAT32 형식으로 포맷되어 있지 않다면 [이 가이드](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)를 따라 포맷하세요. SD 카드에 `wiiu`라는 **라벨을 붙이지 마세요.** 그렇지 않으면 홈브류에서 문제가 발생할 수 있습니다.
 
 ## 요구 사항
 
 - [카페를 위한 아로마](https://aroma.foryour.cafe/)의 최신 파일입니다.
-   - 예비 단계를 검토한 다음 4 개의 확인란을 모두 선택합니다.
-   - nanddumper가 선택되었는지 다시 한번 확인합니다.
-   - `페이로드 다운로드`를 클릭합니다.
-   - `베이스 아로마 다운로드`를 클릭합니다.
-- [Compat Title 설치 프로그램](https://hb-app.store/wiiu/CompatTitleInstaller)의 최신 릴리스입니다.
+  - 예비 단계를 검토한 다음 4 개의 확인란을 모두 선택합니다.
+  - nanddumper가 선택되었는지 다시 한번 확인합니다.
+  - `페이로드 다운로드`를 클릭합니다.
+  - `베이스 아로마 다운로드`를 클릭합니다.
+- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`)
 
 ## 지침
 
@@ -27,7 +27,7 @@ SD 카드는 FAT32로 포맷해야 합니다. If your SD Card is not formatted t
 
 1. Wii U의 SD 카드를 PC에 연결합니다.
 2. 다운로드한 아로마 _`.zip`_ 파일의 내용을 SD 카드의 루트에 복사합니다.
-3. `CompatTitleInstaller.zip` 파일의 내용을 SD 카드의 루트에 복사합니다.
+3. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
 
 SD 카드 레이아웃
 
