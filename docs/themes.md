@@ -64,15 +64,15 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 :::: tab (Wii) Via NUSGet
 
-1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should get `NUSGet-Windows-x86_64-onefile-bin.zip`.
-1. Unzip the archive and run NUSGet.
-1. Navigate to `System` > `System Menu` > `Your Region` and then select the Wii menu version you are running. Check the `Create decrypted contents (*.app)` option and then press `Start Download`.
+1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
+1. Unzip the archive and run the NUSGet executable.
+1. Navigate to `System` > `System Menu` > `Your Region` and then select the Wii menu version you are running. Check the `Create decrypted contents (*.app)` option. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-wiimenu-dl.png)
-1. Downloads are output to a `NUSGet Downloads` folder in the same directory as `NUSGet.exe`. Open this folder, and locate the `0000000100000002` folder inside it.
+1. When you have finished downloading the Wii menu files, navigate to the directory where your NUSGet executable is stored. You should locate and open the `0000000100000002` folder inside it.
 
-    ![](/images/desktop-apps/nusget/nusget-folder.png)
-1. Find the **largest .app file** (usually 6~7MB) inside the folder.
+    ![](/images/desktop-apps/nusget/nusget-folder-wiimenu.png)
+1. Find the **largest .app file** (usually ~6-7MB) inside the folder.
 
     ![](/images/desktop-apps/nusget/nusget-wiimenu-output.png)
 1. Create a `themes` folder on the root of your SD card/USB device.
@@ -82,33 +82,34 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 
 :::: tab (vWii) Via NUSGet
 
-1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should get `NUSGet-Windows-x86_64-onefile-bin.zip`.
-1. Unzip the archive and run NUSGet.
+1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
+1. Unzip the archive and run the NUSGet executable.
 1. Select the `vWii` tab and navigate to `System` > `System Menu` > `Your Region`.
 1. Select the version that corresponds to your Wii U's region in the table below:
 
-| Region    | vWii Menu version           |
-| --------- | --------------------------- |
-| Japan     | v608 (4.3J - Wii U v5.2.0J) |
-| USA       | v609 (4.3U - Wii U v5.2.0U) |
-| Europe    | v610 (4.3E - Wii U v5.2.0E) |
+    | Region      | vWii Menu version             |
+    | :---------: | :---------------------------: |
+    | Japan       | v608 (4.3J - Wii U v5.2.0J)   |
+    | USA         | v609 (4.3U - Wii U v5.2.0U)   |
+    | Europe      | v610 (4.3E - Wii U v5.2.0E)   |
 
-1. Check the `Create decrypted contents (*.app)` box, and then press `Start Download`.
+1. Check the `Create decrypted contents (*.app)` box. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-vwiimenu-dl.png)
-1. Downloads are output to a `NUSGet Downloads` folder in the same directory as your NUSGet executable. Open this folder, and locate the `0000000700000002` folder inside it.
+1. When you have finished downloading the Wii menu files, navigate to the directory where your NUSGet executable is stored. You should locate and open the `0000000700000002` folder inside it.
 
-    ![](/images/desktop-apps/nusget/nusget-folder.png)
+    ![](/images/desktop-apps/nusget/nusget-folder-vwiimenu.png)
 1. Find the .app file that corresponds to your Wii U's region in the table below:
 
-| Region    | .app file     |
-| --------- | ------------- |
-| Japan     | 0000001C.app  |
-| USA       | 0000001F.app  |
-| Europe    | 00000022.app  |
+    | Region      | .app file       |
+    | :---------: | :-------------: |
+    | Japan       | 0000001C.app    |
+    | USA         | 0000001F.app    |
+    | Europe      | 00000022.app    |
 
 1. Create a `themes` folder on the root of your SD card/USB device.
 1. Copy the .app file to the newly created `themes` folder. This is the base theme you will use to build your custom theme.
+
 
 ::::
 
