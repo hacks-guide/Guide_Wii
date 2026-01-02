@@ -58,9 +58,9 @@ RiiConnect24의 이전 DNS 서버를 사용하고 있습니다. 변경 방법에
 
 ::: info
 
-The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be formatted to FAT32 (**not** exFAT or NTFS). See [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) on formatting instructions.
+Wii는 용량에 상관없이 모든 SD 카드 (32GB보다 큰 카드 포함)를 읽을 수 있지만, 카드는 [FAT32/MS-DOS 형식으로 포맷](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)(exFAT 또는 NTFS 형식은 **안 됨**)되어 있어야 합니다.
 
-For USB devices, FAT32 is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS는 이전에 Wii 게임 백업에 사용된 파일 시스템이었습니다 (WBFS 파일과 혼동하지 마세요) - 오늘날에는 오래되어서 사용해서는 안 됩니다.
+USB 장치의 경우 FAT32/MS-DOS 형식을 권장하지만, FAT32는 볼륨 크기를 최대 2TB, 파일 크기를 최대 4GB로 제한한다는 점에 유의해야 합니다. WBFS는 이전에 Wii 게임 백업에 사용된 파일 시스템이었습니다 (WBFS 파일과 혼동하지 마세요) - 오늘날에는 오래되어서 사용해서는 안 됩니다.
 
 :::
 
@@ -68,7 +68,7 @@ For USB devices, FAT32 is also recommended, although users should be aware of FA
 
 Wii 메뉴 버전이 4.0 미만인 경우, Wii 시스템 소프트웨어의 제한으로 인해 2GB가 넘는 SD 카드를 사용할 수 없습니다.
 
-For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of any size can be used.
+Wii 메뉴 버전 4.0 이상에서는 이러한 제한이 없어지며 용량에 상관없이 SD 카드를 사용할 수 있습니다.
 
 :::
 
@@ -148,7 +148,8 @@ Wii의 무선 네트워크 하드웨어는 2.4GHz 대역에서 최대 표준인 
 ISP에서 이러한 설정을 변경하지 못하게 하거나 현재 네트워크 하드웨어가 지원되지 않는 경우 몇 가지 옵션이 있습니다:
 
 - 셀룰러 핫스팟을 사용해 봅니다. 이 방법은 일반적으로 연결이 불안정해지므로 권장하지 않습니다.
-- LAN 어댑터를 사용할 수 있습니다. `ASIX AX88772` 칩셋이 있어야 하거나 "Wii와 호환"되어야 합니다. [uGreen이 추천하는 LAN 어댑터](https://a.co/d/3OcSJDS)는 다음과 같습니다.
+- LAN 어댑터를 사용할 수 있습니다. `ASIX AX88772` 칩셋이 있어야 하거나 "Wii와 호환"되어야 합니다. 다음은 [Plugable에서 추천하는 LAN 어댑터](https://a.co/d/g8XvMDp)입니다.
+  - 참고로, 칩셋의 변형 모델 (예: `ASIX AX88772E`)은 Wii와 호환되지 않습니다.
 - 혹은 보조 라우터를 구매해서 메시처럼 이미 가지고 있는 네트워크를 계속 사용할 수도 있습니다. 위의 기준을 충족하는 저렴한 라우터 (예: Linksys WRT54G)라면 모두 작동합니다.
 
 Wii U의 경우, vWii는 Wii U의 기본 설정에서 설정된 인터넷 설정을 사용하지만, `Wii VC 실행` 아로마 플러그인을 사용하여 선택적으로 분리할 수 있습니다.

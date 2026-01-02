@@ -25,11 +25,11 @@
 
 8. Нажмите кнопку A.
 
-    ![](/images/homebrew/DumpWADS/1.png)
+   ![](/images/homebrew/DumpWADS/1.png)
 
 9. Выберите `Installed Channel Titles`.
 
-    ![](/images/homebrew/DumpWADS/2.png)
+   ![](/images/homebrew/DumpWADS/2.png)
 
 10. Найдите содержимое, которое вы хотите задампить и нажмите кнопку 1.
 

@@ -22,45 +22,45 @@ SD 카드가 없으면 BootMii를 설치하거나 사용할 수 없습니다. �
 
 1. 콘솔의 전원이 켜져 있어야 하며 가이드의 이전 부분에서 설명한 HackMii 설치 프로그램이 표시되어야 합니다.
 
-    - 사기 경고 화면이 나타납니다.
+   - 사기 경고 화면이 나타납니다.
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
 2. "계속하려면 1 버튼을 누르세요"라는 텍스트가 나타날 때까지 30초간 기다린 다음, 1 버튼을 누릅니다.
 
 3. `계속`을 선택합니다.
 
-    ![](/images/hackmii/test_results.png)
+   ![](/images/hackmii/test_results.png)
 
 4. `홈브류 채널 설치`를 선택합니다.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
 5. 완료되면 `계속`을 선택합니다.
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
-6. Select `BootMii...`.
+6. `BootMii...` 선택합니다.
 
-    ![](/images/hackmii/bootmii_install.png)
+   ![](/images/hackmii/bootmii_install.png)
 
 7. `BootMii를 IOS로 설치`를 선택합니다.
 
-    ![](/images/hackmii/bootmii_install1.png)
+   ![](/images/hackmii/bootmii_install1.png)
 
-    ![](/images/hackmii/bootmii_install2.png)
+   ![](/images/hackmii/bootmii_install2.png)
 
-    ![](/images/hackmii/bootmii_install3.png)
+   ![](/images/hackmii/bootmii_install3.png)
 
-    ![](/images/hackmii/bootmii_install_ok.png)
+   ![](/images/hackmii/bootmii_install_ok.png)
 
 8. 완료되면 `계속`을 선택합니다.
 
 9. `BootMii를 boot2로 설치` 옵션이 있는 경우 해당 옵션도 선택합니다.
 
-    ![](/images/hackmii/bootmii_install4.png)
+   ![](/images/hackmii/bootmii_install4.png)
 
-10. Select `Return to the main menu`, then select `Exit`.
+10. '메인 메뉴로 돌아가기'를 선택한 다음 '나가기'를 선택하세요.
 
 11. 콘솔이 홈브류 채널로 부팅됩니다.
 
@@ -106,7 +106,7 @@ SD 카드가 없으면 BootMii를 설치하거나 사용할 수 없습니다. �
 
 :::: tab Wii mini
 
-# Homebrew Channel
+# 홈브류 채널
 
 :::details 기술 세부사항 (선택 사항)
 
@@ -124,44 +124,44 @@ Wii 미니에 BootMii를 설치하는 것은 가능하지만, SD 카드 슬롯�
 
 1. 콘솔의 전원이 켜져 있어야 하며 가이드의 이전 부분에서 설명한 HackMii 설치 프로그램이 표시되어야 합니다.
 
-    - 사기 경고 화면이 나타납니다.
+   - 사기 경고 화면이 나타납니다.
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
 2. "계속하려면 1 버튼을 누르세요"라는 텍스트가 나타날 때까지 30초간 기다린 다음 1 버튼을 누릅니다.
 
 3. `계속`을 선택합니다.
 
-    ![](/images/hackmii/test_results.png)
+   ![](/images/hackmii/test_results.png)
 
 4. `홈브류 채널 설치`를 선택합니다.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
-5. Once it is completed, select `Continue`
+5. 완료되면 '계속' 선택
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
 6. `나가기`를 선택합니다.
 
 7. 콘솔이 홈브류 채널로 부팅됩니다.
 
-    ![](/images/hbc/blank.png)
+   ![](/images/hbc/blank.png)
 
 ## 필수 읽기
 
-You can now use the Homebrew Channel to launch homebrew apps.
+이제 홈브류 채널을 사용하여 홈브류 앱을 실행할 수 있습니다.
 
-Note: When installing homebrew applications on your USB drive, your folder structure should look like this:
+참고: USB 드라이브에 홈브류 애플리케이션을 설치할 때 폴더 구조는 다음과 같아야 합니다:
 
 ```
-💾 USB Drive
+💾 USB 드라이브
 | ╸📁 apps
-	| ╸📁 AppName1
+	| ╸📁 App이름1
 		| ╸📄 boot.dol
 		| ╸📄 meta.xml
 		| ╸📄 icon.png
-	| ╸📁 AppName2
+	| ╸📁 App이름2
 		| ╸📄 boot.dol
 		| ╸📄 meta.xml
 		| ╸📄 icon.png
@@ -175,7 +175,7 @@ Note: When installing homebrew applications on your USB drive, your folder struc
 
 ::: tip
 
-[Real Wand를 이용한 낸드 백업 제작 계속하기](and-mini)
+[RealWnd를 이용한 NAND 백업 제작 계속하기](wnd-mini)
 
 이 시점에서 낸드 백업을 하는 것이 좋습니다. 이는 벽돌에서 복구하는 데 사용할 수 있기 때문입니다.
 

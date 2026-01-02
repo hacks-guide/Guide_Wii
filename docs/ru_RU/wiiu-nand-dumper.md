@@ -15,11 +15,11 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
 ## Требования
 
 - The latest files from [Aroma for your café](https://aroma.foryour.cafe/).
- - Review the preliminal steps, then check all 4 boxes.
- - Double check that nanddumper is selected.
- - Click on `Download Payloads`.
- - Click on `Download Base Aroma`.
-- The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
+  - Review the preliminal steps, then check all 4 boxes.
+  - Double check that nanddumper is selected.
+  - Click on `Download Payloads`.
+  - Click on `Download Base Aroma`.
+- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`)
 
 ## Инструкции
 
@@ -27,7 +27,7 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
 
 1. Insert your Wii U's SD Card into your PC.
 2. Copy the contents of the downloaded Aroma _`.zip`_ files to the root of your SD Card.
-3. Copy the contents of the `CompatTitleInstaller.zip` file to the root of your SD Card.
+3. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
 
 SD Card Layout
 
@@ -74,19 +74,19 @@ Make sure your Wii U has internet access for this step.
 1. Take the SD Card out of your computer and plug it into your Wii U console.
 2. Launch the Internet Browser and navigate to the website `wiiuexploit.xyz`.
 3. Click on `Run Exploit!` and hold the B button until you see a screen that says `Please choose your payload:`, this will be necessary for the next steps.
- - If your Wii U gets stuck on a white or otherwise frozen screen, wait a few seconds. If nothing happens, reboot the console, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again.
- - If you see the EnvironmentLoader, you did not hold down B long enough. Try again.
+   - If your Wii U gets stuck on a white or otherwise frozen screen, wait a few seconds. If nothing happens, reboot the console, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again.
+   - If you see the EnvironmentLoader, you did not hold down B long enough. Try again.
 
 ### Section III - NAND Backup
 
 In case anything goes wrong in the later process and your vWii ends up bricked, restoring a previously made NAND backup can fix it.
 
 1. Use the Wii U GamePad's D-Pad to enter the following configuration:
- - Dump SLC: **optional**
- - Dump SLCCMPT: **yes**
- - Dump MLC: **optional**
- - Dump OTP: **yes**
- - Dump SEEPROM: **optional**
+   - Dump SLC: **optional**
+   - Dump SLCCMPT: **yes**
+   - Dump MLC: **optional**
+   - Dump OTP: **yes**
+   - Dump SEEPROM: **optional**
 2. Press the A button to start the dumping process.
 3. When the process completed, power off your Wii U, take your SD Card out of the Wii U and plug it into your PC.
 4. To make sure you don't lose the files, copy the `slccmpt.bin` and `otp.bin` files (and if you chose to go with a full backup, `seeprom.bin`, `slc.bin`, and `every mlc.bin.part` file) to your computer.

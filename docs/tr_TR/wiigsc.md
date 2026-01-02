@@ -1,10 +1,10 @@
 # Wii Oyun Kısayolları Oluşturmak
 
-Bir Wii yedekleme yöneticisi kullanıyor ve sistem menüsünde kısayollar oluşturmak mı istiyorsunuz? Eskiden Crap olarak bilinen WiiGSC'yi (Wii Oyun Kısayolu Yaratıcısı) deneyin.
+This guide provides instructions on how to create Wii game shortcuts for game backups that you have on external storage devices, using a piece of software called WiiGSC (Wii Game Shortcut Creator). By creating game shortcuts, you can launch a game backup directly from the Wii Menu as if you had inserted the game as a regular disc.
 
 ::: warning
 
-In the case of a brick, [installing Priiloader is a must](/priiloader). Ayrıca, BootMii'yi de kurun (eğer eski bir Wiiniz varsa boot2 olarak). Brick korumanız varsa ve bu rehberi düzgün bir şekilde kullanırsanız bricklerden korunabilirsiniz. BOOTMII VE PRIILOADER'I KURMADAN DEVAM ETMEYİN!
+Installing [Priiloader](priiloader) and [BootMii](bootmii) are advised due to brick risk in this guide, and should keep you safe along with following the guide correctly. Do NOT continue the guide unless you have installed Priiloader or BootMii!
 
 :::
 
@@ -14,31 +14,53 @@ In the case of a brick, [installing Priiloader is a must](/priiloader). Ayrıca,
 
 :::
 
+::: warning
+
+Your browser or antivirus software may flag WiiGSC as malware - this is a false positive. WiiGSC does NOT contain any malware.
+
+:::
+
 ::: info
 
 Wii Menüsü 48 kanal limitine sahiptir, sistem kanallarını saymazsak.
 
 :::
 
-## Requirements
+## Gereksinimler
 
 - Bir Wii
 - Bir SD card veya USB yığın depolama aygıtı
+- A Windows computer
 - [YAWM ModMii Edition](yawmme)
-- Bir Windows bilgisayar.
 - [WiiGSC ModMii Edition](https://github.com/modmii/WiiGSC/releases)
 
-## Instructions
+## Talimatlar
 
-1. Extract the WiiGSC `.zip`, find `WiiGSC.exe`, and launch it.
+### Section I - Creating a Channel
 
-    ![](/images/desktop-apps/wiigsc/wiigsc-home.png)
+1. Extract the WiiGSC `.zip`, find `WiiGSC.exe`, and launch it. The first launch will prompt you about common key creation and provide a disclaimer - simply click through these windows.
 
-2. SD card veya USB yığın depolama aygıtınızdaki ISO veya WBFS dosyasını seçin, ve kullandığınız USB yedekleme yöneticisini seçin. Kalan ayarlar olduğu gibi kalabilir.
+    ![](/images/desktop-apps/wiigsc/wiigsc-disclaimer.png)
+
+2. With WiiGSC open, select `Open WBFS Drive` and select the drive letter for the device containing your WBFS files. Alternatively, you may select an individual ISO/WBFS file.
 
     ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
-3. Install the generated WAD with your [WAD manager](yawmme).
+3. Select the game you would like to create a channel for, and then press `Use for Channel Creation`. Select the USB loader that you will use to launch the game, and then press `Create Channel` located in the bottom left corner.
+
+    ![](/images/desktop-apps/wiigsc/wiigsc-creation.png)
+
+4. Copy the output WAD to your SD card or other device used to load homebrew.
+
+### Section II - Installing Channel
+
+1. Open your WAD manager and locate the output WAD, then install it.
+
+    ![](/images/desktop-apps/wiigsc/wiigsc-install.png)
+
+2. If successful, you should now see your game shortcut on the Wii Menu!
+
+    ![](/images/desktop-apps/wiigsc/wiigsc-success.png)
 
 ::: info
 

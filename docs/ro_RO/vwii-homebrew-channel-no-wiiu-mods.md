@@ -14,7 +14,7 @@ This page will guide you through the process of installing the Homebrew Channel 
 1. Lansați vWii Compat Installer pe meniul Wii U.
 2. Apasă `A` pentru a instala Homebrew Channel și așteptați până când vedeți `Install succeeded`. Apoi apasă butonul HOME pentru a reveni la meniul Wii U.
 3. Lansează vWii (pictograma Wii Menu).
- - Dacă instalarea a reușit, ar trebui să vedeți Homebrew Channel în meniul Wii.
+   - Dacă instalarea a reușit, ar trebui să vedeți Homebrew Channel în meniul Wii.
 
 You may delete the `wiiu` folder on your SD card if you so choose.
 

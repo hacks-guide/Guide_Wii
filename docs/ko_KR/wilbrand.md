@@ -18,7 +18,7 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
 
 ### 요구 사항
 
-- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+- [FAT32/MS-DOS 형식으로 포맷된](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) SD 카드
 - 버전 3.0 이상의 Wii
 
 ::: warning
@@ -35,15 +35,15 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
 
 3. 화면 오른쪽 상단에 있는 시스템 버전 옆에 있는 글자를 기록합니다.
 
-    - 이 문자는 여러분의 시스템 메뉴 지역에 해당하며, 해당 단계를 진행하기 위해 해당 시스템 메뉴 지역을 알아야 합니다.
+   - 이 문자는 여러분의 시스템 메뉴 지역에 해당하며, 해당 단계를 진행하기 위해 해당 시스템 메뉴 지역을 알아야 합니다.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 4. `인터넷` > `콘솔 정보`로 이동합니다.
 
 5. 전체 MAC 주소를 기록합니다.
 
-    ![](/images/wii/MacAddress.png)
+   ![](/images/wii/MacAddress.png)
 
 6. 컴퓨터에서 브라우저를 열고 [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/)로 이동합니다.
 
@@ -53,7 +53,7 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
 
 9. 두 개의 전선 중 하나를 자르세요.
 
-    ![](/images/exploits/wilbrand/web.png)
+   ![](/images/exploits/wilbrand/web.png)
 
 10. ".zip 다운로드"를 클릭하세요.
 
@@ -95,7 +95,7 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
 ### 요구 사항
 
 - 윈도우즈, 맥OS, 리눅스를 실행하는 PC
-- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+- [FAT32/MS-DOS 형식으로 포맷된] SD 카드(https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - 버전 3.0 이상의 Wii
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii 설치 프로그램 v1.2](https://bootmii.org/download/)
@@ -114,15 +114,15 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
 
 3. 화면 오른쪽 상단에 있는 시스템 버전 옆에 있는 글자를 기록합니다.
 
-    - 이 문자는 여러분의 시스템 메뉴 지역에 해당하며, 해당 단계를 진행하기 위해 해당 시스템 메뉴 지역을 알아야 합니다.
+   - 이 문자는 여러분의 시스템 메뉴 지역에 해당하며, 해당 단계를 진행하기 위해 해당 시스템 메뉴 지역을 알아야 합니다.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 4. `인터넷` > `콘솔 정보`로 이동합니다.
 
 5. 전체 MAC 주소를 기록합니다.
 
-    ![](/images/wii/MacAddress.png)
+   ![](/images/wii/MacAddress.png)
 
 6. Wilbrand `.zip`의 모든 파일을 컴퓨터의 폴더로 복사하세요.
 
@@ -132,18 +132,18 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
 
 9. Wii의 버전과 MAC 주소를 사용하여 다음 명령을 실행합니다:
 
-    - 윈도우: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
+   - 윈도우: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
 
-        - `X:`는 SD 카드의 드라이브 문자입니다.
+     - `X:`는 SD 카드의 드라이브 문자입니다.
 
-        ![](/images/exploits/wilbrand/windows.png)
+     ![](/images/exploits/wilbrand/windows.png)
 
-    - 리눅스/맥OS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
+   - 리눅스/맥OS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
 
-        - Wilbrand가 압축 해제된 폴더에서 직접 터미널을 열지 않았다면, 먼저 `cd`를 사용하여 해당 폴더로 들어갑니다. 예: `cd ~/Desktop/Wilbrand`
-        - `/media/mount_dir`은 SD 카드가 마운트된 폴더입니다. 이는 리눅스 배포판에 따라 다를 수 있습니다.
+     - Wilbrand가 압축 해제된 폴더에서 직접 터미널을 열지 않았다면, 먼저 `cd`를 사용하여 해당 폴더로 들어갑니다. 예: `cd ~/Desktop/Wilbrand`
+     - `/media/mount_dir`은 SD 카드가 마운트된 폴더입니다. 이는 리눅스 배포판에 따라 다를 수 있습니다.
 
-        ![](/images/exploits/wilbrand/linux.png)
+     ![](/images/exploits/wilbrand/linux.png)
 
 10. hackmii_installer_v1.2 `.zip`의 모든 파일을 컴퓨터의 폴더로 복사합니다.
 

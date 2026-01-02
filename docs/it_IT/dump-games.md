@@ -59,12 +59,6 @@ Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda 
 
 ## Dump di un Disco Wii
 
-::: info
-
-A partire dalla v2.1.2 di CleanRip, c'è un'opzione che rileva automaticamente se il disco è a doppio strato o meno. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
-
-:::
-
 ::: warning
 
 Se ottieni un errore di lettura non recuperato, assicurati che il disco su cui si esegue il dumping sia pulito e più essere propriamente letto dalla console. Anche se potresti avviare il disco normalmente, potresti sempre ottenere questo errore. Se l'errore persiste, prova ad eseguire il dumping su un altro disco e controlla se si ottiene lo stesso errore.
@@ -75,7 +69,7 @@ Se ottieni un errore di lettura non recuperato, assicurati che il disco su cui s
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
-2. Regola le impostazioni come mostrato sotto, nel frattempo verifica se il disco è a doppio strato o no.
+2. Set the settings as shown on the screen below.
 
     ![](/images/homebrew/CleanRip/wiisettings.png)
 

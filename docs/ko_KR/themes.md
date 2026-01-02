@@ -141,7 +141,7 @@ Wii에 해당 버전과 현재 지역에 맞게 특별히 포맷된 테마만 �
 4. `+` 버튼을 눌러 테마를 설치합니다.
 5. Wii 메뉴로 재부팅하고 테마가 성공적으로 설치되었는지 확인합니다. 모든 것이 잘된다면, 아래와 비슷한 결과를 얻을 수 있습니다!
 
-    ![](/images/themes/themed-wii-menu.png)
+   ![](/images/themes/themed-wii-menu.png)
 
 ## WiiFlow Lite 테마
 
@@ -193,25 +193,25 @@ Wii에 해당 버전과 현재 지역에 맞게 특별히 포맷된 테마만 �
 
 1. 위에 링크된 웹사이트에서 테마 `.zip` 파일을 다운로드합니다.
 
-    ![](/images/themes/homebrew-channel-example-theme.png)
+   ![](/images/themes/homebrew-channel-example-theme.png)
 
 2. `.zip` 파일을 홈브류를 로드한 저장 장치의 `apps` 폴더에 붙여넣습니다.
 
-    ![](/images/themes/homebrew-channel-paste-zip.png)
+   ![](/images/themes/homebrew-channel-paste-zip.png)
 
 3. `.zip` 파일의 내용을 `apps` 폴더로 압축 해제하고 보관 파일을 삭제합니다.
 
-    ![](/images/themes/homebrew-channel-extract-theme.png)
+   ![](/images/themes/homebrew-channel-extract-theme.png)
 
 4. 저장 장치를 Wii에 다시 연결하고 홈브류 채널에 들어갑니다.
 
 5. 방금 설치한 테마는 표준 앱에 접근하는 것과 같은 방식으로 로드할 수 있습니다.
 
-    ![](/images/themes/homebrew-channel-load-theme.png)
+   ![](/images/themes/homebrew-channel-load-theme.png)
 
 6. 이제 테마가 로드되었습니다. 즐기세요!
 
-    ![](/images/themes/homebrew-channel-theme-done.png)
+   ![](/images/themes/homebrew-channel-theme-done.png)
 
 ## 앱 포워더
 

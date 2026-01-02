@@ -59,12 +59,6 @@ Acest ghid acoperă extragerea discurilor de joc Wii sau Gamecube către un card
 
 ## Extragerea unui Disc Wii
 
-::: info
-
-Începând cu CleanRip v2.1.2 există o opțiune de a detecta automat dacă discul tău este dublu strat. If you are on an earlier version, or just want to verify that the correct option is being selected, you can check [this list](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games) to see if your game is a dual layer disc.
-
-:::
-
 ::: warning
 
 Dacă primești o eroare de citire nerecuperată, asigură-te că discul pe care încerci să-l extragi este curat și poate fi citit cum trebuie de către consolă. Poți să primești această eroare chiar dacă poți juca discul de joc normal. Dacă eroarea persistă, încearcă să extragi alt disc și vezi dacă apare aceeași eroare.
@@ -75,7 +69,7 @@ Dacă primești o eroare de citire nerecuperată, asigură-te că discul pe care
 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
-2. Modifică setările așa cum sunt pe ecranul de mai jos și verifică dacă discul tău de joc este dublu strat sau nu.
+2. Set the settings as shown on the screen below.
 
     ![](/images/homebrew/CleanRip/wiisettings.png)
 

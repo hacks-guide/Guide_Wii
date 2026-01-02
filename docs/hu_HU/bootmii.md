@@ -27,55 +27,55 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
 
 3. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” menüpontot.
 
-    ![](/images/bootmii/BootMii_HBC.png)
+   ![](/images/bootmii/BootMii_HBC.png)
 
-    ::: warning
+   ::: warning
 
-    Ha a `Launch BootMii` gomb nem jelenik meg a Homebew Channelben, [indítsd újra a HackMii-telepítőt](hackmii) és telepítsd újra a BootMiit.
+   Ha a `Launch BootMii` gomb nem jelenik meg a Homebew Channelben, [indítsd újra a HackMii-telepítőt](hackmii) és telepítsd újra a BootMiit.
 
-    :::
+   :::
 
-    ::: warning
+   ::: warning
 
-    Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Töltsd le [ezt a zip fájlt](/assets/files/bootmii_sd_files.zip) és csomagold ki az SD kártyád gyökerébe, majd próbáld újra.
+   Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Töltsd le [ezt a zip fájlt](/assets/files/bootmii_sd_files.zip) és csomagold ki az SD kártyád gyökerébe, majd próbáld újra.
 
-    :::
+   :::
 
 4. Ezek után az alábbihoz hasonló képernyőt fogsz látni a Wii képernyőjén:
 
-    ![](/images/bootmii/BootMii_Main.png)
+   ![](/images/bootmii/BootMii_Main.png)
 
-    ::: info
+   ::: info
 
-    A BootMii irányítása nem lehetséges Wii Remote-tal.
-    Vagy a konzolba épített POWER- és RESET-gombokat, vagy egy 1. csatlakozóba dugott GameCube-vezérlőt kell használnod.
-    A következő menüpontra a POWER-gombbal léphetsz át. Egy opció kiválasztáshoz nyomd meg a RESET gombot.
+   A BootMii irányítása nem lehetséges Wii Remote-tal.
+   Vagy a konzolba épített POWER- és RESET-gombokat, vagy egy 1. csatlakozóba dugott GameCube-vezérlőt kell használnod.
+   A következő menüpontra a POWER-gombbal léphetsz át. Egy opció kiválasztáshoz nyomd meg a RESET gombot.
 
-    :::
+   :::
 
 5. Válaszd ki az Options menüpontot (az ikon fogaskerékkel).
 
-    ![](/images/bootmii/BootMii_Gears.png)
+   ![](/images/bootmii/BootMii_Gears.png)
 
 6. Válaszd ki a bal szélső gombot.
 
-    ![](/images/bootmii/BootMii_Backup.png)
+   ![](/images/bootmii/BootMii_Backup.png)
 
 7. Ezután el fog kezdődni a belső tárhely biztonsági mentése. A folyamatot a képernyőn figyelemmel követheted.
 
-    - A „Bad Blocks”-ok nomálisak és többnyire a gyárból származnak a NAND binning miatt. Ne aggódj – ez a gyárban történő adatosztályozás természetes mellékterméke és nem azt jelenti, hogy baj van.
+   - A „Bad Blocks”-ok nomálisak és többnyire a gyárból származnak a NAND binning miatt. Ne aggódj – ez a gyárban történő adatosztályozás természetes mellékterméke és nem azt jelenti, hogy baj van.
 
-    ![](/images/bootmii/BootMii_NAND_Backup.png)
+   ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 8. Miután a folyamat lezáródott, a BootMii ellenőrizni fogja a biztonsági mentés minőségét. Ha minden jól sikerült, akkor az összes blokk zölden fog megjelenni az ábrán.
 
-    - Ha a mentés tartalmaz olyan gyárilag sérült blokkokat, amelyekben vannak javíthatatlan oldalak, akkor azok nem fognak átmenni az ellenőrzésen. Addig amíg a nem-hibás blokkok sikeresen ellenőrzésre kerülnek, ez nem probléma.
+   - Ha a mentés tartalmaz olyan gyárilag sérült blokkokat, amelyekben vannak javíthatatlan oldalak, akkor azok nem fognak átmenni az ellenőrzésen. Addig amíg a nem-hibás blokkok sikeresen ellenőrzésre kerülnek, ez nem probléma.
 
-    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
+   ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
 9. Nyomd meg a Back gombot (a gomb egy nyíllal), majd a BootMii-ből kilépéshez nyomd meg a Wii menü vagy a Homebrew Channel gombot.
 
-    ![](/images/bootmii/BootMii_Return.png)
+   ![](/images/bootmii/BootMii_Return.png)
 
 ::: info
 

@@ -11,7 +11,7 @@ Sokkal biztonságosabb a [ModMii](modmii) (csak Windows) segítségével frissí
 ## Követelmények
 
 - egy Wii a The Homebrew Channel 1.0.8-cal vagy későbbivel
-    - Ha nincs Homebrew Channel-ed vagy túl régi kezd [itt](get-started) az (újra)telepítéséhez.
+  - Ha nincs Homebrew Channel-ed vagy túl régi kezd [itt](get-started) az (újra)telepítéséhez.
 - Egy SD kártya vagy pendrive
 - Egy számítógép Windows-szal
 - [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
@@ -41,7 +41,7 @@ Sokkal biztonságosabb a [ModMii](modmii) (csak Windows) segítségével frissí
 
 1. Kapcsold ki a konzolod. Tartsd nyomva a RESET gombot és kapcsold be.
 2. A Priiloader menu-ben válaszd a `Homebrew Channel`-t.
-    - Ha a Priiloader menu nem jelenik meg, [telepítsd azt rögtön](priiloader). A Priiloader szükséges ehhez az útmutatóhoz.
+   - Ha a Priiloader menu nem jelenik meg, [telepítsd azt rögtön](priiloader). A Priiloader szükséges ehhez az útmutatóhoz.
 3. Idítsd el a YAWM ModMii Edition-t.
 4. Válaszd ki az SD kártyád vagy az USD drive-od.
 5. Nyomdj + jelet az IOS80-ra és az IOS58 WAD-ra, hogy kijelöld őket, majd nyomj A gombot kétszer a telepítésükhöz.

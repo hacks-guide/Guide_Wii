@@ -2,10 +2,10 @@
 head:
   - - meta
     - http-equiv: refresh
-      content: 5; URL=https://wiki.hacks.guide/wiki/Wii:Riivolution
+      content: '5; URL=https://wiki.hacks.guide/wiki/Wii:Riivolution'
 ---
 
-# Redirecting
+# Yönlendiriliyor
 
 Hacks Guide Wiki'ye yönlendiriliyorsunuz.
 

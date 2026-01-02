@@ -40,27 +40,27 @@ A 3. lépésben fogod telepíteni az `uneoboot.dol`-t.
 
 3. Görgess le a `Load/Install file` menüponthoz és nyomj A gombot.
 
-  ![](/images/priiloader/menu_install_file.png)
+   ![](/images/priiloader/menu_install_file.png)
 
 4. Görgess le a listán, amíg ki nem jelölted a kívánt programot, majd telepítsd az A gombbal.
 
-  ![](/images/priiloader/installing_file.png)
+   ![](/images/priiloader/installing_file.png)
 
-  ![](/images/priiloader/installing_file_ok.png)
+   ![](/images/priiloader/installing_file_ok.png)
 
 5. Nyomj `B` gombot a főmenübe való visszatéréshez.
 
 6. Görgess le a `Settings` menüponthoz, és nyomj 'A' gombot.
 
-  ![](/images/priiloader/menu_settings.png)
+   ![](/images/priiloader/menu_settings.png)
 
 7. Nyomj Jobb gombot, hogy végig görgess az „Autoboot options” menün, amíg azt nem látod, hogy az `Installed file` a kiválasztott.
 
-  ![](/images/priiloader/autoboot_installed_file.png)
+   ![](/images/priiloader/autoboot_installed_file.png)
 
 8. Görgess le a `save settings` menüponthoz, és nyomj 'A' gombot.
 
-  ![](/images/priiloader/settings_save.png)
+   ![](/images/priiloader/settings_save.png)
 
 9. Nyomj `B` gombot a főmenübe való visszatéréshez.
 
@@ -76,23 +76,23 @@ A beállítás befejeztével a Wii bekapcsoláskor automatikusan a kiválasztott
 
 3. Görgess le a `Settings` menüponthoz, és nyomj 'A' gombot.
 
-  ![](/images/priiloader/menu_settings.png)
+   ![](/images/priiloader/menu_settings.png)
 
 4. Görgess át az „Autoboot options” menün a jobb nyílgombbal, amíg meg nem látod a kívánt menüpontot.
 
-  - A „Disabled” („letiltva”)-lehetőség a Priiloader menüjébe fogja indítani a konzolt.
+   - A „Disabled” („letiltva”)-lehetőség a Priiloader menüjébe fogja indítani a konzolt.
 
-  ::: warning
+   ::: warning
 
-  Kérjük ne állítsd be azAutoboot-ot `BootMii IOS`-ra. Ettől egy végtelen ciklusban fogsz ragadni, amíg nyomva nem tartod a RESET-gombot a Priiloader menüjének megnyitásához.
+   Kérjük ne állítsd be azAutoboot-ot `BootMii IOS`-ra. Ettől egy végtelen ciklusban fogsz ragadni, amíg nyomva nem tartod a RESET-gombot a Priiloader menüjének megnyitásához.
 
-  :::
+   :::
 
-  ![](/images/priiloader/autoboot_disabled.png)
+   ![](/images/priiloader/autoboot_disabled.png)
 
 5. Görgess le a `save settings` menüponthoz, és nyomj 'A' gombot.
 
-  ![](/images/priiloader/settings_save.png)
+   ![](/images/priiloader/settings_save.png)
 
 6. Nyomj `B` gombot a főmenübe való visszatéréshez.
 

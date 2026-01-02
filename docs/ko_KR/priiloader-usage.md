@@ -8,7 +8,7 @@ Priiloader는 Wii에 벽돌 방지 수준을 추가하는 필수 도구입니다
 
 ## 시스템 메뉴 핵
 
-Priiloader에는 다양한 옵션이 있으며, 이를 활성화하면 Wii의 동작을 사용자가 원하는 대로 변경할 수 있습니다. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Additionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
+Priiloader에는 다양한 옵션이 있으며, 이를 활성화하면 Wii의 동작을 사용자가 원하는 대로 변경할 수 있습니다. 각 해킹에 대한 자세한 정보는 [여기](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html)에서 확인할 수 있습니다. 또한, 시스템 메뉴 해킹에 관한 더 자세한 정보는 [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html)를 참조하세요.
 
 ## 추가 옵션
 
@@ -40,27 +40,27 @@ USB loader GX를 자동 부팅하려면 먼저 다음을 수행합니다.
 
 3. 아래로 스크롤하여 `파일 로드/설치`를 선택하고 A 버튼을 누릅니다.
 
-  ![](/images/priiloader/menu_install_file.png)
+   ![](/images/priiloader/menu_install_file.png)
 
 4. 원하는 홈브류 앱이 강조 표시될 때까지 메뉴를 스크롤한 후 A 버튼을 눌러 설치합니다.
 
-  ![](/images/priiloader/installing_file.png)
+   ![](/images/priiloader/installing_file.png)
 
-  ![](/images/priiloader/installing_file_ok.png)
+   ![](/images/priiloader/installing_file_ok.png)
 
 5. 메인 메뉴로 돌아가려면 `B` 버튼을 누릅니다.
 
 6. 아래로 스크롤하여 `설정`을 선택한 후 A 버튼을 누릅니다.
 
-  ![](/images/priiloader/menu_settings.png)
+   ![](/images/priiloader/menu_settings.png)
 
-7. Press Right to cycle through the Autoboot options until the `Installed file` option is selected.
+7. 오른쪽 버튼을 눌러 자동 부팅 옵션을 순환하면서 '설치된 파일' 옵션이 선택될 때까지 이동합니다.
 
-  ![](/images/priiloader/autoboot_installed_file.png)
+   ![](/images/priiloader/autoboot_installed_file.png)
 
 8. 아래로 스크롤하여 `설정 저장`을 클릭하고 A 버튼을 누릅니다.
 
-  ![](/images/priiloader/settings_save.png)
+   ![](/images/priiloader/settings_save.png)
 
 9. 메인 메뉴로 돌아가려면 `B` 버튼을 누릅니다.
 
@@ -76,23 +76,23 @@ USB loader GX를 자동 부팅하려면 먼저 다음을 수행합니다.
 
 3. 아래로 스크롤하여 `설정`을 선택한 후 A 버튼을 누릅니다.
 
-  ![](/images/priiloader/menu_settings.png)
+   ![](/images/priiloader/menu_settings.png)
 
 4. 원하는 옵션이 선택될 때까지 자동 부팅 옵션을 순환하려면 오른쪽을 누릅니다.
 
-  - `비활성화`를 선택하면 Priiloader 메뉴로 자동 부팅됩니다.
+   - `비활성화`를 선택하면 Priiloader 메뉴로 자동 부팅됩니다.
 
-  ::: warning
+   ::: warning
 
-  Autoboot를 `BootMii IOS`로 설정하지 마세요. RESET 버튼을 계속 눌러 Priiloader 메뉴로 들어가기 전까지는 루프에 빠지게 됩니다.
+   Autoboot를 `BootMii IOS`로 설정하지 마세요. RESET 버튼을 계속 눌러 Priiloader 메뉴로 들어가기 전까지는 루프에 빠지게 됩니다.
 
-  :::
+   :::
 
-  ![](/images/priiloader/autoboot_disabled.png)
+   ![](/images/priiloader/autoboot_disabled.png)
 
 5. 아래로 스크롤하여 `설정 저장`을 클릭하고 A 버튼을 누릅니다.
 
-  ![](/images/priiloader/settings_save.png)
+   ![](/images/priiloader/settings_save.png)
 
 6. 메인 메뉴로 돌아가려면 `B` 버튼을 누릅니다.
 

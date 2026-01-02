@@ -18,13 +18,13 @@ Ugyan egy Wii minire is lehetséges telepíteni a BootMiit, de egy SD kártya-ol
 
 1. A telepítő fel fog mutatni egy átverésekre figyelmeztető üzenetet. Várj 30 másodpercet, amíg meg nem jelenik a „Press 1 to continue”-üzenet, majd nyomd meg az 1-es gombot!
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
 2. Nyomd meg a `Continue`, majd az `Install The Homebrew Channel` gombot.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
 3. A folyamat befejeztével nyomd meg a `Continue` gombot.
 

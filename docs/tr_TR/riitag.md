@@ -2,7 +2,7 @@
 head:
   - - meta
     - http-equiv: refresh
-      content: 5; URL=https://wiki.hacks.guide/wiki/RiiTag
+      content: '5; URL=https://wiki.hacks.guide/wiki/RiiTag'
 ---
 
 # Yönlendiriliyor

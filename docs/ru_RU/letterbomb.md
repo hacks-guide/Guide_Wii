@@ -28,16 +28,16 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 3. Обратите внимание на букву рядом с системной версией в правом верхнем углу.
 
-    - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
-    - Also, ensure that you are on System Menu version 4.3.
+   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
+   - Also, ensure that you are on System Menu version 4.3.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 4. Navigate to `Internet` > `Console Information`.
 
 5. Take note of your FULL MAC address.
 
-    ![](/images/wii/MacAddress.png)
+   ![](/images/wii/MacAddress.png)
 
 6. On your computer, open the browser and go to [the HackMii website](https://please.hackmii.com/).
 
@@ -47,7 +47,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 9. Cut either wire.
 
-    ![](/images/exploits/letterbomb/LetterBomb-PC.png)
+   ![](/images/exploits/letterbomb/LetterBomb-PC.png)
 
 10. Extract the contents of the downloaded ZIP to the root of your SD card.
 

@@ -54,9 +54,9 @@ a Wii mini-hez készültek.
 
 ## Tárhely kompatibilitás
 
-Az SD-kártyák esetében legalább 128 MB-os memóriára lesz szükséged egy exploit futtatásához. Azonban, átlagosan legalább 2 Gb méretű kártyát szeretnél használni. A Wii bármilyen kapacitású SD kártyát tud olvasni (még azokt is, amik nagyobbak, mint 32GB), de a kártyát FAT32-re kell formáznod (**nem** exFAT vagy NTFS). Az SD kártya helyes formázásához útmutatásként tekintsd meg [ezt az útmutatót](https://wiki.hacks.guide/wiki/Formatting_an_SD_card).
+Az SD-kártyák esetében legalább 128 MB-os memóriára lesz szükséged egy exploit futtatásához. Azonban, átlagosan legalább 2 Gb méretű kártyát szeretnél használni. A Wii bármilyen kapacítású SD kártyát tud olvasni (még a 32GB-nál nagyobbakat is), de a kártyának [FAT32/MS-DOS-ra kell formázva lennie](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**nem** exFAT vagy NTFS).
 
-USB-eszközök esetében FAT32 formátumban formázott USB-merevlemezt vagy SSD meghajtót kell használnod. Nem javasoljuk a pendrive-ok használatát, mivel ezek hajlamosak meghibásodni vagy nem működnek rendeltetésszerűen a Wii-vel.
+USB eszköznek egy USB hard drive-ot vagySSD-t akarsz majd használni [FAT32/MS-DOS-ra formázva](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). Nem javasoljuk a pendrive-ok használatát, mivel ezek hajlamosak meghibásodni vagy nem működnek rendeltetésszerűen a Wii-vel.
 
 A 2,5 hüvelykes meghajtók a legtöbb esetben jól működnek a Wii-n kizárólag USB-ről, de a 3,5 hüvelykes meghajtók több energiát fogyasztanak, és mindig szükség lesz külső hálózati adapterre. A Wii U és a Wii mini felhasználóknak az energiafelvétel miatt valószínűleg külső tápellátású USB-hubot vagy Y-kábelt kell használniuk a kizárólag USB-ről működő meghajtókhoz.
 
@@ -66,7 +66,7 @@ További információkért tekintse meg [a tárolási GYIK](faq#storage-device-f
 
 A Wii egy öregedő konzol, és így problémái vannak a modern vezetéknélküli hálózatokhoz csatlakozással.
 
-A hálózati hardvere a 802.11g (visszamenőlegesen WiFi 3-kén nevezett) szabványon alapul, amely a 2,4 GHz-es sávban működik. Emellett támogatja a WPA2-PSK (AES) személyes hálózati titkosítást is. Meg kell győződnöd arról, hogy a hálózatod támogatja ezeket a szabványokat, ha szeretnél WiFi-t a Wii-vel használni.
+A hálózati hardvere a 802.11g (visszamenőlegesen Wi-Fi 3-kén nevezett) szabványon alapul, amely a 2,4 GHz-es sávban működik. Emellett támogatja a WPA2-PSK (AES) személyes hálózati titkosítást is. Meg kell győződnöd arról, hogy a hálózatod támogatja ezeket a szabványokat, ha szeretnél Wi-Fi-t a Wii-vel használni.
 
 A Wii U esetében a vWii a Wii U fő beállításaiban megadott internetbeállításokat használja, de opcionálisan szétválasztható a [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch) Aroma plugin segítségével.
 

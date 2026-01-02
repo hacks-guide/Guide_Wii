@@ -2,7 +2,7 @@
 head:
   - - meta
     - http-equiv: refresh
-      content: 0; URL=wii-backups.html
+      content: '0; URL=wii-backups.html'
 ---
 
 # Átirányítás

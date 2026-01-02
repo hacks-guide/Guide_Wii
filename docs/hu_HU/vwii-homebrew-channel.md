@@ -22,8 +22,8 @@ Ha ez még nem történt meg, akkor folytasd az [Aroma telepítésével](https:/
 
 - Egy moddolt Wii
 - Az [Aroma környezet](https://aroma.foryour.cafe/)
-- A [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller) legutolsó kiadása.
-- (Opcionális) Az [Enhanced vWii Aroma Plugin](https://hb-app.store/wiiu/evWii)
+- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`)
+- (Optional) The [Enhanced vWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases/latest) (`evwii.wps`)
 
 ::: warning
 
@@ -36,19 +36,19 @@ Ha az evWii Aroma plugin nem telepített, és a homebrew alkalmazás lefagy, az 
 ### I. rész - Fájlok
 
 1. Helyezd be a Wii U-d SD kártyáját a PC-dbe.
-2. Másold a tartalmát a `CompatTitleInstaller.zip` fájlnak az SD kártyád gyökerébe.
-3. Másold a tartalmát a `evWii.zip` fájlnak az SD kártyád gyökerébe.
+2. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
+3. Copy `evwii.wps` file to `wiiu` -> `environments` -> `aroma` -> `plugins` of your SD Card.
 4. Helyezd vissza az SD kártyád a Wii U-dba.
 
 ### II. rész - A Homebrew Channel telepítése
 
 1. Bootolj [Aroma](https://wiiu.hacks.guide/aroma/finalizing-setup)-ba.
- - Ha beállítottad az [Aromát autobootolásra](https://wiiu.hacks.guide/aroma/autobooting), akkor az Aroma már futni fog, mikor bekapcsolod a konzolod.
-2. Launch the vWii Compat Installer app from the Wii U menu.
+   - Ha beállítottad az [Aromát autobootolásra](https://wiiu.hacks.guide/aroma/autobooting), akkor az Aroma már futni fog, mikor bekapcsolod a konzolod.
+2. Indítsd el a vWii Compat Installer appot a Wii U menu-ből.
 3. Nyomj `A`-t a Homebrew Channel telepítéséhez és várj amíg azt nem látod, hogy `Install succeeded`. Utána nyomd meg a HOME gombot, hogy vissza térj a Wii U Menu-be.
- - Ha a HOME gomb nem működik, biztonságosan kikapcsolhatod a konzolod a power gomb nyomva tartásával, majd kapcsold be újra.
+   - Ha a HOME gomb nem működik, biztonságosan kikapcsolhatod a konzolod a power gomb nyomva tartásával, majd kapcsold be újra.
 4. Indítsd el a vWii-t (a Wii Menu ikon).
- - Ha a telepítés sikeres volt, látnod kell a Homebrew Channel-t a Wii Menu-dben.
+   - Ha a telepítés sikeres volt, látnod kell a Homebrew Channel-t a Wii Menu-dben.
 
 ## Kötelező olvasnivaló
 

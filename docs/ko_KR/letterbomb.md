@@ -28,16 +28,16 @@ SD 카드를 올바르게 포맷하는 방법에 대한 지침은 [이 가이드
 
 3. 시스템 버전 옆에 있는 글자의 오른쪽 상단에 적혀 있는 내용을 참고하세요.
 
-    - 이 문자는 여러분의 시스템 메뉴 지역에 해당하며, 해당 단계를 진행하기 위해 해당 시스템 메뉴 지역을 알아야 합니다.
-    - 또한, 시스템 메뉴 버전 4.3을 사용하고 있는지 확인합니다.
+   - 이 문자는 여러분의 시스템 메뉴 지역에 해당하며, 해당 단계를 진행하기 위해 해당 시스템 메뉴 지역을 알아야 합니다.
+   - 또한, 시스템 메뉴 버전 4.3을 사용하고 있는지 확인합니다.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 4. `인터넷` > `콘솔 정보`로 이동합니다.
 
 5. 전체 MAC 주소를 기록해 봅니다.
 
-    ![](/images/wii/MacAddress.png)
+   ![](/images/wii/MacAddress.png)
 
 6. 컴퓨터에서 브라우저를 열고 [HackMii 웹사이트](https://please.hackmii.com/)로 이동합니다.
 
@@ -47,7 +47,7 @@ SD 카드를 올바르게 포맷하는 방법에 대한 지침은 [이 가이드
 
 9. 두 개의 전선 중 하나를 자릅니다.
 
-    ![](/images/exploits/letterbomb/LetterBomb-PC.png)
+   ![](/images/exploits/letterbomb/LetterBomb-PC.png)
 
 10. Extract the contents of the downloaded ZIP to the root of your SD card.
 
@@ -67,7 +67,7 @@ SD 카드를 올바르게 포맷하는 방법에 대한 지침은 [이 가이드
     - If your Wii freezes after clicking on the letter, you probably chose the wrong region when downloading the exploit. Redo Step 2 and select the correct region.
     - 모든 것이 올바르고 프리징 현상이 나타나면 작동할 때까지 계속 시도합니다.
 
-16. If the exploit was successful, your device will have loaded the HackMii Installer.
+16. 익스플로잇이 성공하면 기기에 HackMii 설치 프로그램이 로드됩니다.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 

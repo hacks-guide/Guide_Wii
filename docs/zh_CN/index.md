@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Wii 指南
+title: "Wii 指南"
 hero:
-  text: Wii 指南
-  tagline: The complete guide to modding your Wii, vWii, and Wii mini.
+  text: "Wii 指南"
+  tagline: "The complete guide to modding your Wii, vWii, and Wii mini."
   image:
     src: /images/main-pages/home-page-feature.jpg
 ---
@@ -32,7 +32,7 @@ Common examples of homebrew usage on the Wii include:
 
 With certain variations depending on the path you take, this guide has the end goal of:
 
-- Exploiting your Wii and Installing the Homebrew Channel
+- Exploiting your Wii and installing the Homebrew Channel
 - Putting safeguards in place to help prevent bricks
 - Installing other homebrew that can enhance your experience, should you choose
 

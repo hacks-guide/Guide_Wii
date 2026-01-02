@@ -27,11 +27,11 @@
 
 8. 메시지가 나타나면, `예`를 선택하여 디스크 체크섬을 계산합니다.
 
-    ![](/images/homebrew/CleanRip/checksum.png)
+   ![](/images/homebrew/CleanRip/checksum.png)
 
 9. 게임을 덤프할 장치 (USB 드라이브 또는 SD 카드) 를 선택합니다.
 
-    ![](/images/homebrew/CleanRip/device.png)
+   ![](/images/homebrew/CleanRip/device.png)
 
 10. 장치의 파일 시스템 유형을 선택하세요. 대부분의 경우 FAT (FAT32)입니다.
 
@@ -59,12 +59,6 @@
 
 ## Wii 디스크 덤프하기
 
-::: info
-
-CleanRip v2.1.2부터 디스크가 듀얼 레이어인지 아닌지를 자동으로 감지하는 옵션이 생겼습니다. 이전 버전을 사용하고 있거나 올바른 옵션이 선택되었는지 확인하고 싶다면 [이 목록](https://wiki.dolphin-emu.org/index.php?title=Category:Dual_Layer_Disc_games)에서 게임이 듀얼 레이어 디스크인지 확인할 수 있습니다.
-
-:::
-
 ::: warning
 
 복구할 수 없는 읽기 오류가 발생하면 덤프하려는 디스크가 깨끗하고 콘솔에서 제대로 읽을 수 있는지 확인합니다. 게임 디스크를 정상적으로 재생할 수 있더라도 여전히 이 오류가 발생할 수 있습니다. 오류가 지속되면 다른 디스크를 덤프하여 같은 오류가 발생하는지 확인합니다.
@@ -73,21 +67,21 @@ CleanRip v2.1.2부터 디스크가 듀얼 레이어인지 아닌지를 자동으
 
 1. 메시지가 나타나면 디스크가 라이선스가 없는 Datel 디스크인지 선택합니다. 확실하지 않으면, `아니요`를 선택합니다.
 
-    ![](/images/homebrew/CleanRip/dateldisc.png)
+   ![](/images/homebrew/CleanRip/dateldisc.png)
 
-2. 게임 디스크가 듀얼 레이어인지 확인하면서 아래 화면에 표시된 대로 설정을 지정합니다.
+2. 아래 화면에 표시된 대로 설정을 지정하세요.
 
-    ![](/images/homebrew/CleanRip/wiisettings.png)
+   ![](/images/homebrew/CleanRip/wiisettings.png)
 
 3. A 버튼을 눌러 디스크 덤프를 시작합니다.
 
-    - 이 프로세스는 DVD의 4.7 GB (듀얼 레이어 디스크의 경우 8.5 GB)를 모두 덤프하므로 상당한 시간이 걸릴 수 있습니다.
+   - 이 프로세스는 DVD의 4.7 GB (듀얼 레이어 디스크의 경우 8.5 GB)를 모두 덤프하므로 상당한 시간이 걸릴 수 있습니다.
 
-    ![](/images/homebrew/CleanRip/wiiprogress.png)
+   ![](/images/homebrew/CleanRip/wiiprogress.png)
 
 4. 덤프가 완료되면 디스크의 MD5 체크섬이 표시된 화면이 나타나고, 활성화한 경우 이를 Redump DAT와 비교한 결과가 표시됩니다.
 
-    ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
+   ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
 
 ::: tip
 
@@ -105,17 +99,17 @@ Wii 패밀리 에디션, Wii 미니, Wii U의 vWii는 게임큐브 게임을 덤
 
 1. 메시지가 나타나면 디스크가 라이선스가 없는 Datel 디스크인지 선택합니다. 확실하지 않으면, `아니요`를 선택합니다.
 
-    ![](/images/homebrew/CleanRip/dateldisc.png)
+   ![](/images/homebrew/CleanRip/dateldisc.png)
 
 2. A 버튼을 눌러 디스크 덤프를 시작합니다.
 
-    - 이 프로세스는 미니 DVD의 1.3 GB 전체를 덤프하므로 시간이 다소 걸릴 수 있습니다.
+   - 이 프로세스는 미니 DVD의 1.3 GB 전체를 덤프하므로 시간이 다소 걸릴 수 있습니다.
 
-    ![](/images/homebrew/CleanRip/gcprogress.png)
+   ![](/images/homebrew/CleanRip/gcprogress.png)
 
 3. 덤프가 완료되면 디스크의 MD5 체크섬이 표시된 화면이 나타나고, 활성화한 경우 이를 Redump DAT와 비교한 결과가 표시됩니다.
 
-    ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
+   ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
 ::: tip
 

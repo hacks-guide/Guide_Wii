@@ -4,6 +4,7 @@ This guide provides instructions on how to manage your GameCube backups, using G
 
 ## Requirements
 
+- A Windows PC
 - Um cartão SD ou armazenamento USB
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 
@@ -30,19 +31,19 @@ Certifique-se de que seu armazenamento USB está formatado como FAT32. Não form
 
 1. Abra o aplicativo e procure o botão da pasta no canto inferior direito. Clique nele para abrir a janela do explorador de arquivos.
 
-    ![](/images/desktop-apps/GCBM/folderbutton.png)
+   ![](/images/desktop-apps/GCBM/folderbutton.png)
 
 2. Navigate to the location of the folder that contains the game file you want to transfer. Isso pode estar no HD do seu computador ou em um dispositivo de armazenamento externo. Once you find the folder, select it.
 
-    ![](/images/desktop-apps/GCBM/selectfolder.png)
+   ![](/images/desktop-apps/GCBM/selectfolder.png)
 
 3. Click on the `Files (Destination)` tab, then select the `Inactive` option from the dropdown menu. Isso irá permitir que você escolha qual armazenamento você deseja transferir o jogo. Selecione a letra do armazenamento apropriada da lista.
 
-    ![](/images/desktop-apps/GCBM/selectdrive.png)
+   ![](/images/desktop-apps/GCBM/selectdrive.png)
 
 4. Next, go back to the `Files (Source)` tab, select the game you want to transfer, and then click either `Install Game (1:1)` or `Install Game (Scrub)`.
 
-    ![](/images/desktop-apps/GCBM/installgame.png)
+   ![](/images/desktop-apps/GCBM/installgame.png)
 
 ::: info
 
@@ -52,6 +53,6 @@ Selecting `Install Game (Scrub)` will remove unnecessary data from the game, red
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Clique aqui para voltar para o índice do site.](site-navigation)
 
 :::

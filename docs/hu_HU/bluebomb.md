@@ -45,40 +45,40 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 ### Requirements
 
 - Egy Linuxos számítógép
-    - Lehetséges, hogy a program egy virtuális számítógépen is elfut, de ez a módszer a Bluetooth-áthidalás bonyolultsága miatt nem ajánlott. Ha lehet, az alább leírtak szerint futtasd a Linuxot egy Usb-meghajtóról.
-    - Egy Raspberry Pi működhet, ugyanis arra valószínűleg már telepítve van a Linux egy verziója.
-        - Az ARM64 Rasperry Pi nak szüksége van a multiarch engedélyezésére az armhf (32bit) architektúrával. Az alábbinak működnie kell minden debian alapú OS-en:
-        ```bash
-        sudo sudo dpkg --add-architecture armhf
-        sudo apt update && sudo apt install -y screen:armhf
-        file /usr/bin/screen # should say ELF 32-bit
-        screen
-        ```
-    - Linuxos Windows-alrendszert vagy Linux-módban futó Chromebookot nem használhatsz, ugyanis ezek nem férnek hozzá a Bluetooth-adapterhez vagy az USB portokhoz.
-    - Ha nincs Linuxod, akkor az [Ubuntu](https://ubuntu.com/download/desktop) lehet a legfelhasználóbarátabb lehetőség és ami a legtöbb Windowsos vagy MacOS-es számítógépen elfut.
-        - Apple Silicon Mac-ek nem fognak működni, mivel hiányoznak az ARM32 utasítások a hardverből.
-        - A 32-bites eszközök [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) verziót igényelnek.
-        - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
-    - [Készíthetsz egy Linux Live környezetet egy USB pendrive-ra](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) is a helyett, hogy telepítenéd a számítógépedre.
+  - Lehetséges, hogy a program egy virtuális számítógépen is elfut, de ez a módszer a Bluetooth-áthidalás bonyolultsága miatt nem ajánlott. Ha lehet, az alább leírtak szerint futtasd a Linuxot egy Usb-meghajtóról.
+  - Egy Raspberry Pi működhet, ugyanis arra valószínűleg már telepítve van a Linux egy verziója.
+    - Az ARM64 Rasperry Pi nak szüksége van a multiarch engedélyezésére az armhf (32bit) architektúrával. Az alábbinak működnie kell minden debian alapú OS-en:
+    ```bash
+    sudo sudo dpkg --add-architecture armhf
+    sudo apt update && sudo apt install -y screen:armhf
+    file /usr/bin/screen # should say ELF 32-bit
+    screen
+    ```
+  - Linuxos Windows-alrendszert vagy Linux-módban futó Chromebookot nem használhatsz, ugyanis ezek nem férnek hozzá a Bluetooth-adapterhez vagy az USB portokhoz.
+  - Ha nincs Linuxod, akkor az [Ubuntu](https://ubuntu.com/download/desktop) lehet a legfelhasználóbarátabb lehetőség és ami a legtöbb Windowsos vagy MacOS-es számítógépen elfut.
+    - Apple Silicon Mac-ek nem fognak működni, mivel hiányoznak az ARM32 utasítások a hardverből.
+    - A 32-bites eszközök [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) verziót igényelnek.
+    - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
+  - [Készíthetsz egy Linux Live környezetet egy USB pendrive-ra](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) is a helyett, hogy telepítenéd a számítógépedre.
 - A Bluetooth adapter.
-    - Egy beépített Bluetooth-adapter is megfelel.
-    - Ha nincs beépített adaptered, figyelj rá, hogy olyat vegyél, ami Linuxxal kompatibilis.
-- Egy FAT32-ként formázott USB-s flash drive.
-    - Ez nem lehet ugyanaz, amelyről a Linux-környezetet fogod futtatni.
+  - Egy beépített Bluetooth-adapter is megfelel.
+  - Ha nincs beépített adaptered, figyelj rá, hogy olyat vegyél, ami Linuxxal kompatibilis.
+- Egy USB flash drive [FAT32/MS-DOS-ra formatálva](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+  - Ez nem lehet ugyanaz, amelyről a Linux-környezetet fogod futtatni.
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
 ### Lépések
 
 1. Másold a `boot.elf` fájlt a HackMii Installer v1.2 `.zip`-ből a pendrive-od gyökerébe.
 
-    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
-    - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Minden esetben a boot.elf-fájlt használd).
+   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+   - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Minden esetben a boot.elf-fájlt használd).
 
-    ![](/images/exploits/bluebomb/usb-exploit.png)
+   ![](/images/exploits/bluebomb/usb-exploit.png)
 
 2. Helyezd vissza az flash drive-od a konzolodba.
-    - For a Wii mini, the USB port is on the back.
-    - Egy sima Wii esetén az alsó csatlakozót használd (ha a konzol fel van állítva, akkor ez a jobb oldali).
+   - For a Wii mini, the USB port is on the back.
+   - Egy sima Wii esetén az alsó csatlakozót használd (ha a konzol fel van állítva, akkor ez a jobb oldali).
 
 3. Kapcsold be a konzolod.
 
@@ -86,9 +86,9 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 
 5. Jegyezd meg a jobb felső sarokban megjelenő betűjelet, ami a rendszer verziószáma mellett van.
 
-    - Ez a betű jelzi a rendszermenü régióját, amire a későbbi lépésekben szükséged lesz.
+   - Ez a betű jelzi a rendszermenü régióját, amire a későbbi lépésekben szükséged lesz.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 6. Kapcsold ki a konzolod.
 
@@ -96,25 +96,25 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 
 8. Nyisd meg a Terminált és futtasd a következő parancsokat:
 
-    ```bash
-    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
-    chmod +x bluebomb-helper.sh
-    ./bluebomb-helper.sh
-    ```
+   ```bash
+   wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
+   chmod +x bluebomb-helper.sh
+   ./bluebomb-helper.sh
+   ```
 
-    ![](/images/exploits/bluebomb/run-commands.png)
+   ![](/images/exploits/bluebomb/run-commands.png)
 
 9. A telepítő most letölti a szükséges fájlokat, majd a konzolodról fog érdeklődni.
 
-    ![](/images/exploits/bluebomb/console-type.png)
+   ![](/images/exploits/bluebomb/console-type.png)
 
-    - Ha Wii mini-t adtál meg, akkor a régió felől fog érdeklődni. Ezt a Wii Menu verziójának utolsó betűje alapján lehet meghatározni (`U` az **USA**-ban és `E` a **PAL** modellek esetében).
+   - Ha Wii mini-t adtál meg, akkor a régió felől fog érdeklődni. Ezt a Wii Menu verziójának utolsó betűje alapján lehet meghatározni (`U` az **USA**-ban és `E` a **PAL** modellek esetében).
 
-    ![](/images/exploits/bluebomb/wii-mini-options.png)
+   ![](/images/exploits/bluebomb/wii-mini-options.png)
 
-    - Ha Wii-t adtál meg, akkor a Wii Menü verziószámát kell megadnod (ezt a 4. lépésben tudtad meg).
+   - Ha Wii-t adtál meg, akkor a Wii Menü verziószámát kell megadnod (ezt a 4. lépésben tudtad meg).
 
-    ![](/images/exploits/bluebomb/wii-options.png)
+   ![](/images/exploits/bluebomb/wii-options.png)
 
 10. Kapcsold be a konzolod.
     - **Ne csatlakoztass** egy Wii Remote-ot sem.
@@ -178,7 +178,7 @@ Az optimális működés érdekében ajánlott a mikrokonrollert és a telepít�
 ### Requirements
 
 - Egy Raspberry Pi Pico W 1/2 vagy egy ESP32 BR/EDR (Classic) támogatással.
-- Egy FAT32-ként formázott USB-s flash drive.
+- Egy USB flash drive [FAT32/MS-DOS-ra formatálva](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - [The HackMii Installer](https://bootmii.org/download/)
 
 ::: info
@@ -191,14 +191,14 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 1. Másold a `boot.elf` fájlt a HackMii Installer v1.2 `.zip`-ből a pendrive-od gyökerébe.
 
-    - (Ha egy brick-et kívánsz megjavítani, akkor másold a használni kívánt alkalmazást az /apps/ könyvtárba)
-    - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Minden esetben a boot.elf fájlt használd).
+   - (Ha egy brick-et kívánsz megjavítani, akkor másold a használni kívánt alkalmazást az /apps/ könyvtárba)
+   - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Minden esetben a boot.elf fájlt használd).
 
-    ![](/images/exploits/bluebomb/usb-exploit.png)
+   ![](/images/exploits/bluebomb/usb-exploit.png)
 
 2. Helyezd vissza az flash drive-od a konzolodba.
-    - Ha Wii minivel dolgozol, az USB csatlakozó hátul található.
-    - Egy sima Wii esetén az alsó csatlakozót használd (ha a konzol fel van állítva, akkor ez a jobb oldali).
+   - Ha Wii minivel dolgozol, az USB csatlakozó hátul található.
+   - Egy sima Wii esetén az alsó csatlakozót használd (ha a konzol fel van állítva, akkor ez a jobb oldali).
 
 3. Kapcsold be a konzolod.
 
@@ -206,9 +206,9 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 5. Jegyezd meg a jobb felső sarokban megjelenő betűjelet, ami a rendszer verziószáma mellett van.
 
-    - Ez a betű jelzi a rendszermenü régióját, amire későbbi lépésekben szükséged lesz.
+   - Ez a betű jelzi a rendszermenü régióját, amire későbbi lépésekben szükséged lesz.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 6. Kapcsold ki a konzolod.
 
@@ -216,24 +216,24 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 1. Töltsd le a legújabb [előre lefordított binárisokat](https://github.com/GaryOderNichts/bluebomb_micro/releases) a Release oldalról, és csomagold ki a számítógépedre.
 
-    - Válaszd ki az eszközödnek megfelelő binárisokat. `bluebomb_micro_pico2_w_version` a Pico 2 W, míg `bluebomb_micro_pico_w_version` a Pico 1 W készülékhez készült.
+   - Válaszd ki az eszközödnek megfelelő binárisokat. `bluebomb_micro_pico2_w_version` a Pico 2 W, míg `bluebomb_micro_pico_w_version` a Pico 1 W készülékhez készült.
 
-    ![](/images/exploits/bluebomb/pico-download.png)
+   ![](/images/exploits/bluebomb/pico-download.png)
 
 2. Csatlakoztasd a Pico W-t a számítógépedhez, miközben lenyomva tartod a `BOOTSEL` gombot. A Pico W-dnek mostantól meghajtóként kell megjelennie a számítógépeden.
 
-    ![](/images/exploits/bluebomb/pico-button.jpg)
-    ![](/images/exploits/bluebomb/pico-drive.png)
+   ![](/images/exploits/bluebomb/pico-button.jpg)
+   ![](/images/exploits/bluebomb/pico-drive.png)
 
 3. Csomagold ki a letöltött archívumot, és másold a meghajtóra a Wii vagy Wii mini a Wii-nek megfelelő fájlt.
 
-    - Ha egy európai Wii 4.3-as verzióval rendelkezel, akkor a bluebomb_WII_SM4_3E.uf2 fájlt másold, vagy ha egy európai Wii Minivel rendelkezik, akkor a bluebomb_MINI_SM_PAL.uf2 fájlt, stb...
+   - Ha egy európai Wii 4.3-as verzióval rendelkezel, akkor a bluebomb_WII_SM4_3E.uf2 fájlt másold, vagy ha egy európai Wii Minivel rendelkezik, akkor a bluebomb_MINI_SM_PAL.uf2 fájlt, stb...
 
-    ![](/images/exploits/bluebomb/pico-files.png)
+   ![](/images/exploits/bluebomb/pico-files.png)
 
 4. A meghajtónak le kell kapcsolódnia, és egy zöld LED-nek villognia kell. Ez azt jelenti, hogy a Pico W készen áll - kihúzhatod az eszközt a számítógépedből.
 
-    ![](/images/exploits/bluebomb/pico-ready.jpg)
+   ![](/images/exploits/bluebomb/pico-ready.jpg)
 
 #### ESP32
 
@@ -246,12 +246,12 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 1. Csatlakoztasd vissza a flashelt eszközöd a számítógépedhez.
 2. Kapcsold be a konzolod.
-    - **Ne csatlakoztass** egy Wii Remote-ot sem.
+   - **Ne csatlakoztass** egy Wii Remote-ot sem.
 3. Nyomd meg többször a Sync gombot, amíg a Pico W LED gyorsan villogni nem kezd, ekkor az megkezdi az exploit feltöltését.
-    - Lehetséges, hogy ezt többször is meg kell próbálnod.
+   - Lehetséges, hogy ezt többször is meg kell próbálnod.
 4. Ha az exploit sikeres volt, akkor az alábbi képernyőhöz hasonlót kell látnod, majd a HackMii installer-nek be kell töltődnie.
 
-    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
+   ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ::: tip
 

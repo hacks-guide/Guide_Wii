@@ -22,8 +22,8 @@ Otherwise, proceed to [Installing Aroma](https://wiiu.hacks.guide/aroma/getting-
 
 * A modded Wii U
 * The [Aroma Environment](https://aroma.foryour.cafe/)
-* The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
-* (Optional) The [Enhanced vWii Aroma Plugin](https://hb-app.store/wiiu/evWii)
+* The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`)
+* (Optional) The [Enhanced vWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases/latest) (`evwii.wps`)
 
 ::: warning
 
@@ -36,8 +36,8 @@ If the evWii Aroma plugin is not installed, and a homebrew app hangs, the only w
 ### Section I - Files
 
 1. Insert your Wii U's SD Card into your PC.
-1. Copy the contents of the `CompatTitleInstaller.zip` file to the root of your SD Card.
-1. Copy the contents of the `evWii.zip` file to the root of your SD Card.
+1. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
+1. Copy `evwii.wps` file to `wiiu` -> `environments` -> `aroma` -> `plugins` of your SD Card.
 1. Re-insert your SD card into the Wii U.
 
 ### Section II - Installing the Homebrew Channel

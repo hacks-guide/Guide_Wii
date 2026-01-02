@@ -25,11 +25,11 @@ Este tutorial explica como extrair WADs instaladas na memória do Sistema do Wii
 
 8. Pressione o botão A.
 
-    ![](/images/homebrew/DumpWADS/1.png)
+   ![](/images/homebrew/DumpWADS/1.png)
 
 9. Select `Installed Channel Titles`.
 
-    ![](/images/homebrew/DumpWADS/2.png)
+   ![](/images/homebrew/DumpWADS/2.png)
 
 10. Encontre o conteúdo que deseja extrair e pressione o botão 1.
 
@@ -55,6 +55,6 @@ Você acabou de extrair o arquivo WAD. Ele deve agora aparecer no seu cartão SD
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Clique aqui para voltar para o índice do site.](site-navigation)
 
 :::

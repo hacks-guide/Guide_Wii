@@ -33,20 +33,20 @@ Wiimmfi에 다시 연결하는 데 사용하는 방법에 대한 아래 단계�
 
 2. Priiloader 메뉴가 보일 것입니다.
 
-    ![](/images/priiloader/mainmenu.png)
+   ![](/images/priiloader/mainmenu.png)
 
 3. `System Menu Hacks`으로 갑니다.
 
-    ::: info
+   ::: info
 
-    USB 드라이브를 사용하여 Priiloader를 설치하는 경우, SD 카드가 동시에 연결되어 있지 않은지 확인합니다.
-    이로 인해 Priiloader가 hacks_hash.ini 파일을 찾을 수 없게 됩니다.
+   USB 드라이브를 사용하여 Priiloader를 설치하는 경우, SD 카드가 동시에 연결되어 있지 않은지 확인합니다.
+   이로 인해 Priiloader가 hacks_hash.ini 파일을 찾을 수 없게 됩니다.
 
-    :::
+   :::
 
 4. `Wiimmfi patch v4` 해킹이 활성화되어 있는지 확인합니다.
 
-    ![](/images/priiloader/hacks.png)
+   ![](/images/priiloader/hacks.png)
 
 5. `설정 저장`으로 스크롤하여 변경 사항을 저장합니다.
 
@@ -70,7 +70,7 @@ USB Loader GX 또는 WiiFlow Lite의 최신 버전에서 게임 백업을 자동
 
 ## 커스텀 DNS를 통한 자동 디스크 패치
 
-커스텀 DNS 서버를 사용하여 판매용 게임 디스크에서 자동으로 실행되는 Wiimmfi 패치 방법입니다. 편리하지만 마리오카트 Wii, SSBB 등 일부 게임에서만 작동합니다. 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다.
+커스텀 DNS 서버를 사용하여 판매용 게임 디스크에서 자동으로 실행되는 Wiimmfi 패치 방법입니다. 편리하긴 하지만, 마리오 카트 Wii와 SSBB를 포함한 일부 게임에서만 작동합니다. 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다.
 
 ::: warning
 
@@ -125,7 +125,7 @@ USB Loader GX 또는 WiiFlow Lite의 최신 버전에서 게임 백업을 자동
 
 2. `Wii 설정 > 인터넷 > 연결 설정`으로 가서 현재 사용하고 있는 연결을 선택합니다. 그런 다음 `설정 변경 > 자동 획득 DNS 없음 > 고급 설정`을 선택합니다. 기본 DNS를 `95.217.77.151`로 설정하고 보조 DNS를 `1.1.1.1`로 설정합니다.
 
-    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
+   ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 
 3. 연결 테스트가 완료될 때까지 Wii 시스템 업데이트를 실행하지 않습니다.
 
@@ -139,7 +139,7 @@ USB Loader GX 또는 WiiFlow Lite의 최신 버전에서 게임 백업을 자동
 
 ::: warning
 
-UPnP 관련 문제 (패처가 "네트워크 초기화..." 또는 "UPnP 포트 전달 추가" 단계에서 10초 이상 멈추는 경우)가 발생하는 경우, 패처가 로드되자마자 Wii 리모컨의 - 버튼이나 게임큐브 컨트롤러의 Y 버튼을 눌러 이를 해결할 수 있습니다.
+UPnP 관련 문제 (예: 패처가 "네트워크 초기화..." 또는 "UPnP 포트 포워딩 추가" 단계에서 10초 이상 멈추는 경우)가 발생하면 패처가 로드되는 즉시 Wii 리모컨 - 버튼이나 게임큐브 컨트롤러의 Y 버튼을 눌러 문제를 해결할 수 있습니다.
 
 :::
 
@@ -189,9 +189,9 @@ WiiWare 게임에서 실행되는 Wiimmfi 패치 방법이지만, 스크립트�
 
 1. 패처를 다운로드하고 `.zip` 파일을 압축 해제합니다.
 2. 압축 해제된 폴더를 열고 Wii ​​게임 이미지를 복사합니다.
-    - 윈도우를 사용하는 경우 `patch-images.bat` 파일을 두 번 클릭합니다. (이 파일은 "patch-images" 배치 파일로 표시될 수도 있음) Cygwin 관련 문제가 발생하면 대신 `patch-images-32.bat` 파일을 사용해 봅니다.
-    - 맥OS를 사용하는 경우 현재 폴더에서 명령줄 프롬프트를 열고 `chmod +x *.sh` 명령을 통해 셸 스크립트를 실행 가능하게 만든 다음 `./patch-images.sh`를 실행합니다.
-    - 리눅스를 사용하는 경우 `patch-images.desktop` 파일을 두 번 클릭합니다. (이 파일은 "패치 이미지"로 표시될 수도 있음) 또는 `chmod +x *.sh` 명령으로 실행 가능하게 만든 후 터미널에서 `./patch-images.sh` 파일을 실행합니다.
+   - 윈도우를 사용하는 경우 `patch-images.bat` 파일을 두 번 클릭합니다. (이 파일은 "patch-images" 배치 파일로 표시될 수도 있음) Cygwin 관련 문제가 발생하면 대신 `patch-images-32.bat` 파일을 사용해 봅니다.
+   - 맥OS를 사용하는 경우 현재 폴더에서 명령줄 프롬프트를 열고 `chmod +x *.sh` 명령을 통해 셸 스크립트를 실행 가능하게 만든 다음 `./patch-images.sh`를 실행합니다.
+   - 리눅스를 사용하는 경우 `patch-images.desktop` 파일을 두 번 클릭합니다. (이 파일은 "패치 이미지"로 표시될 수도 있음) 또는 `chmod +x *.sh` 명령으로 실행 가능하게 만든 후 터미널에서 `./patch-images.sh` 파일을 실행합니다.
 3. 위의 과정이 성공적이라면 패치 과정을 표시하는 창 팝업이 나타날 것입니다. 이 과정이 완료되면 `wiimmfi-images`라는 폴더에서 패치된 이미지를 찾을 수 있습니다.
 
 ::: tip
