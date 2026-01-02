@@ -69,7 +69,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 1. Navigate to `System` > `System Menu` > `Your Region` and then select the Wii menu version you are running. Check the `Create decrypted contents (*.app)` option. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-wiimenu-dl.png)
-1. When you have finished downloading the Wii menu files, navigate to the directory where your NUSGet executable is stored. You should locate and open the `0000000100000002` folder inside it.
+1. When you have finished downloading the Wii menu files, navigate to the folder where your NUSGet executable is stored. You should locate and open the `0000000100000002` folder inside it.
 
     ![](/images/desktop-apps/nusget/nusget-folder-wiimenu.png)
 1. Find the **largest .app file** (usually ~6-7MB) inside the folder.
@@ -96,7 +96,7 @@ Before proceeding, it helps to know the difference between .MYM and .CSM as file
 1. Check the `Create decrypted contents (*.app)` box. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-vwiimenu-dl.png)
-1. When you have finished downloading the Wii menu files, navigate to the directory where your NUSGet executable is stored. You should locate and open the `0000000700000002` folder inside it.
+1. When you have finished downloading the Wii menu files, navigate to the folder where your NUSGet executable is stored. You should locate and open the `0000000700000002` folder inside it.
 
     ![](/images/desktop-apps/nusget/nusget-folder-vwiimenu.png)
 1. Find the .app file that corresponds to your Wii U's region in the table below:

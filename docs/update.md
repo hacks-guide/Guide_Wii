@@ -33,7 +33,7 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 1. Go to `IOS` > `0000000100000050 - IOS 80` > `World` > `Latest Version`. Uncheck `Keep encrypted contents`. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-ios80-dl.png)
-1. When you have finished the above steps, navigate to the directory where your NUSGet executable is stored. This should now contain three different folders with the title IDs for the downloaded IOS and Wii menu files.
+1. When you have finished the above steps, navigate to the folder where your NUSGet executable is stored. This should now contain three different folders with the title IDs for the downloaded IOS and Wii menu files.
 
     ![](/images/desktop-apps/nusget/nusget-folder-wiimenu-alt.png)
 1. Go into the folders corresponding to the title numbers for the above, and locate the singular WAD file in each. You will need to copy these to a folder called `wad` on your SD card or USB drive. The end result should include the files below in the folder:

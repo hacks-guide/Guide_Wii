@@ -55,7 +55,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
     ![](/images/desktop-apps/WBM/dumpedpartfileslinux.png)
 
-1. Open a terminal in the directory where your files are at, or `cd [PATH]` to it.
+1. Open a terminal in the folder where your files are located, or `cd [PATH]` to it.
 
     ![](/images/desktop-apps/WBM/openterminallinux.png)
 
@@ -125,7 +125,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
     ![](/images/desktop-apps/WBM/loadwbf.png)
 
-1. Select the directory where your game ISO is at.
+1. Select the folder where your game ISO is located.
 
     ![](/images/desktop-apps/WBM/opendirectorywbf.png)
 
@@ -133,8 +133,8 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
     ![](/images/desktop-apps/WBM/settingswbf.png)
 
-1. If there is not already a `wbfs` directory on your game drive, make one.
-1. Make another directory inside of the `wbfs` folder for the game backup. Take note of the Game ID in Wii Backup Fusion as you will need this for the game folder.
+1. If there is not already a `wbfs` folder on your game drive, make one.
+1. Make another folder inside of the `wbfs` folder for the game backup. Take note of the Game ID in Wii Backup Fusion as you will need this for the game folder.
 1. Make a game folder for your game, formatted as `game name [GAMEID]`. For the game dumped as an example in this guide, it would be named `New Super Mario Bros. Wii [SMNE01]`.
 
     ![](/images/desktop-apps/WBM/wbfsname.png)
