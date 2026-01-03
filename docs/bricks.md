@@ -75,7 +75,7 @@ Verify in AnyRegion Changer that your console region is the same as the theme or
 
 If this was caused by a theme you installed, use [csm-installer](themes) to reinstall the original theme.
 
-If this was caused by a Wii Menu WAD you installed, use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to re-obtain your original Wii Menu.
+If this was caused by a Wii Menu WAD you installed, use [NUSGet](https://github.com/NinjaCheetah/NUSGet) to re-obtain your original Wii Menu.
 
 ::: danger
 
@@ -184,7 +184,7 @@ You must have BootMii as boot2 to fix this.
 
 You can either restore a NAND backup, or do this:
 
-1. Use [NUS Downloader](https://wiibrew.org/wiki/NUSD) to pack a WAD of your original Wii Menu.
+1. Use [NUSGet](https://github.com/NinjaCheetah/NUSGet) to pack a WAD of your original Wii Menu.
 1. Use BootMii to enter the Homebrew Channel, and use a WAD manager to install the Wii Menu WAD.
 
 For vWii, see [Recover a vWii IOS/Channel](https://wiiu.hacks.guide/recover-vwii-ioses-channels).
