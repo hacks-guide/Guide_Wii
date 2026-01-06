@@ -90,7 +90,7 @@ You will need Python 3 installed in order to use OSCDL on these platforms. You w
 
 1. Run the command `pip install -r requirements.txt`. This will download Python packages needed to run OSCDL.
 
-    ![](/images/osc/install-dependencies.png)
+    ![](/images/osc/satisfy-requirements-OSCDL.png)
 
 1. Run the command `python3 oscdl.py`. This will open the program. If you choose to keep the terminal open, you can use `deactivate` to exit the virtual environment. Additionally note that you must run `source venv/bin/activate` in the directory where OSCDL was extracted every time you open a new terminal. This is in order to load the dependencies needed to run OSCDL.
 
