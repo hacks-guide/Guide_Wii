@@ -71,7 +71,7 @@ If you get a User Account Control pop-up that asks whether or not you would like
 
 ::: warning
 
-You will need Python 3 installed in order to use OSCDL on these platforms.
+You will need Python 3 installed in order to use OSCDL on these platforms. You will also create a virtual environment to isolate OSCDL and its dependencies from your base Python installation.
 
 :::
 
