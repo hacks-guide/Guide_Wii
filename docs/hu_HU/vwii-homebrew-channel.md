@@ -22,8 +22,9 @@ Ha ez még nem történt meg, akkor folytasd az [Aroma telepítésével](https:/
 
 - Egy moddolt Wii
 - Az [Aroma környezet](https://aroma.foryour.cafe/)
-- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`)
-- (Optional) The [Enhanced vWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases/latest) (`evwii.wps`)
+- A [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) legutolsó kiadása. (`compat_installer-Aroma.zip`)
+- (Opcionális) Az [Enhanced vWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases/latest`)
+  (`evwii.wps`)
 
 ::: warning
 
@@ -36,8 +37,8 @@ Ha az evWii Aroma plugin nem telepített, és a homebrew alkalmazás lefagy, az 
 ### I. rész - Fájlok
 
 1. Helyezd be a Wii U-d SD kártyáját a PC-dbe.
-2. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
-3. Copy `evwii.wps` file to `wiiu` -> `environments` -> `aroma` -> `plugins` of your SD Card.
+2. Másold a `compat_installer.wuhb` fájlt a `compat_installer-Aroma.zip` fájlból a `wiiu` -> `apps` útvonalra az SD kártyádra.
+3. Másold az `evwii.wps` fájlt a `wiiu` -> `environments` -> `aroma` -> `plugins` útvonalra az SD kártyádra.
 4. Helyezd vissza az SD kártyád a Wii U-dba.
 
 ### II. rész - A Homebrew Channel telepítése

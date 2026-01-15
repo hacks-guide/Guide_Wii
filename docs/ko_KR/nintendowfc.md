@@ -190,7 +190,7 @@ WiiWare 게임에서 실행되는 Wiimmfi 패치 방법이지만, 스크립트�
 1. 패처를 다운로드하고 `.zip` 파일을 압축 해제합니다.
 2. 압축 해제된 폴더를 열고 Wii ​​게임 이미지를 복사합니다.
    - 윈도우를 사용하는 경우 `patch-images.bat` 파일을 두 번 클릭합니다. (이 파일은 "patch-images" 배치 파일로 표시될 수도 있음) Cygwin 관련 문제가 발생하면 대신 `patch-images-32.bat` 파일을 사용해 봅니다.
-   - 맥OS를 사용하는 경우 현재 폴더에서 명령줄 프롬프트를 열고 `chmod +x *.sh` 명령을 통해 셸 스크립트를 실행 가능하게 만든 다음 `./patch-images.sh`를 실행합니다.
+   - If you're on macOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
    - 리눅스를 사용하는 경우 `patch-images.desktop` 파일을 두 번 클릭합니다. (이 파일은 "패치 이미지"로 표시될 수도 있음) 또는 `chmod +x *.sh` 명령으로 실행 가능하게 만든 후 터미널에서 `./patch-images.sh` 파일을 실행합니다.
 3. 위의 과정이 성공적이라면 패치 과정을 표시하는 창 팝업이 나타날 것입니다. 이 과정이 완료되면 `wiimmfi-images`라는 폴더에서 패치된 이미지를 찾을 수 있습니다.
 

@@ -18,7 +18,7 @@ SD 카드를 올바르게 포맷하는 방법에 대한 지침은 [이 가이드
 
 - 32GB 이하 FAT32로 포맷된 SD 카드
 - 시스템 메뉴 4.3의 Wii
-- 인터넷 연결이 가능한 윈도우/맥OS/리눅스 컴퓨터
+- A Windows/macOS/Linux computer with an Internet connection
 
 ## 지침
 

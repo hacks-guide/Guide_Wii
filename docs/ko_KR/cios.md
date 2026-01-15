@@ -36,9 +36,9 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 
 ### 섹션 I - 다운로드
 
-::: info
+::: warning
 
-맥OS 또는 리눅스를 사용 중이라면 [이 스크립트](/assets/files/d2x_offline_ios.zip)를 다운로드하여 실행하면 WAD 파일이 다운로드됩니다.
+Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
 
 :::
 
@@ -48,26 +48,35 @@ Wii를 인터넷에 연결할 수 있다면 [섹션 II](cios#section-ii---instal
 
 :::
 
-1. 콘솔의 전원을 끕니다.
-2. Extract both apps to the root of your SD card or USB drive.
-3. 컴퓨터에서 [NUS 다운로더](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)를 다운로드합니다.
-4. NUS 다운로더 `.zip`에 있는 모든 파일을 컴퓨터의 폴더로 복사합니다.
-5. `NUS Downloader.exe`를 실행합니다.
-6. `데이터베이스` > `IOS` > `IOS38`로 이동한 다음 `v4123`을 선택합니다.
-   - "Pack WAD"가 선택되어 있는지 확인합니다.
-   - "IOS 패치"를 _체크하지 마세요._ 이것이 바로 cIOS 설치 프로그램의 역할입니다.
-7. `NUS 다운로드 시작!`을 클릭합니다.
-8. `IOS56 v5661`, `IOS57 v5918`, `IOS58 v6175`에 대해 위의 단계를 반복합니다.
-9. 프로세스가 완료되면 NUS 다운로더와 같은 폴더에 `titles`라는 폴더가 생성됩니다.
-10. `titles` 폴더를 열고 다운로드한 4개의 WAD 파일을 찾을 때까지 탐색합니다.
-11. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 d2x cIOS 설치 프로그램을 실행합니다.
-    - 이 장치는 d2x cIOS 설치 프로그램이 포함된 동일한 장치여야 합니다.
+1. Power off your console, and insert your SD card or USB drive into your computer.
+2. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
+3. Unzip the archive and run the NUSGet executable.
+4. Navigate to `IOS` > `IOS 38` > `World` and select `v4123`. Uncheck `Keep encrypted contents`. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+
+   ![](/images/desktop-apps/nusget/nusget-4123.png)
+5. Repeat the above step for `IOS 56 (v5661)`, `IOS 57 (v5918)` and `IOS 58 (v6175)`.
+6. When you have finished downloading the above IOS, navigate to the folder where your NUSGet executable is stored. This should now contain four different folders with the title IDs for the above IOS.
+
+   ![](/images/desktop-apps/nusget/nusget-folder-ios.png)
+7. Enter the four directories, locating a `IOS-XX-vXXXX-Wii.wad` file in each.
+
+   ![](/images/desktop-apps/nusget/nusget-ios-output.png)
+8. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 d2x cIOS 설치 프로그램을 실행합니다.
+   - 이 장치는 d2x cIOS 설치 프로그램이 포함된 동일한 장치여야 합니다.
+9. Ensure that each WAD file is named as listed below for compatability purposes with d2x-cios-installer:
+
+   |   IOS  |              File Name             |
+   | :----: | :--------------------------------: |
+   | IOS 38 | IOS38-64-v4123.wad |
+   | IOS 56 | IOS56-64-v5661.wad |
+   | IOS 57 | IOS57-64-v5918.wad |
+   | IOS 58 | IOS58-64-v6175.wad |
 
 ::: info
 
 WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
-![](/images/cios/d2x_offline_ios.png)
+![](/images/desktop-apps/nusget/nusget-ios-on-sd.png)
 
 :::
 

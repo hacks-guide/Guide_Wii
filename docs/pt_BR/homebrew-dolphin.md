@@ -4,7 +4,7 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
 
 ## Requirements
 
-- Um computador Windows/macOS/Linux com conexão à internet
+- A Windows/macOS/Linux computer with an Internet connection
 - [Dolphin Emulator](https://dolphin-emu.org/download/) version `5.0-4588` or later
 - The latest version of [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
 

@@ -79,7 +79,7 @@ AnyRegion Changer에서 콘솔 지역이 설치한 테마나 Wii 메뉴와 동�
 
 이 문제가 설치한 테마로 인해 발생한 경우, [csm-installer](themes)를 사용하여 원래 테마를 다시 설치하세요.
 
-이 문제가 설치한 Wii 메뉴 WAD로 인해 발생한 경우 [NUS 다운로더](https://wiibrew.org/wiki/NUSD)를 사용하여 원래 Wii 메뉴를 다시 얻습니다.
+If this was caused by a Wii Menu WAD you installed, use [NUSGet](https://github.com/NinjaCheetah/NUSGet) to re-obtain your original Wii Menu.
 
 ::: danger
 
@@ -204,7 +204,7 @@ unauthorized device has been detected.
 
 낸드 백업을 복원하거나 다음 작업을 수행할 수 있습니다:
 
-1. [NUS 다운로더](https://wiibrew.org/wiki/NUSD)를 사용하여 원래 Wii 메뉴의 WAD를 압축합니다.
+1. Use [NUSGet](https://github.com/NinjaCheetah/NUSGet) to pack a WAD of your original Wii Menu.
 2. BootMii를 사용하여 홈브류 채널에 들어가고, WAD 매니저를 사용하여 Wii 메뉴 WAD를 설치합니다.
 
 vWii의 경우, [vWii IOS/채널 복구](https://wiiu.hacks.guide/recover-vwii-ioses-channels)를 참조하세요.

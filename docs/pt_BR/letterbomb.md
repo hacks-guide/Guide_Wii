@@ -18,7 +18,7 @@ NÃO use nenhum dos exemplos de endereços MAC mostrados neste guia, pois eles s
 
 - An SD card formatted as FAT32 that is 32GB or less
 - Um Wii no Menu do Sistema na versão 4.3
-- Um computador Windows/macOS/Linux com conexão à internet
+- A Windows/macOS/Linux computer with an Internet connection
 
 ## Instructions
 

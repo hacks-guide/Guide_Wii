@@ -76,7 +76,7 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
 ### 섹션 III - 낸드 확인
 
-1. NAND Bin Checker가 Ohneschwanzenegger와 같은 디렉토리에 없다면 지금 복사합니다. 그런 다음, 해당 디렉토리에서 터미널을 엽니다. 다음 명령을 실행합니다: `.\nandBinCheck.exe .\blankNand.bin`. 낸드에 다른 이름을 지정한 경우 명령도 그에 맞게 조정합니다. 그러면 프로그램이 낸드의 유효성을 검사합니다.
+1. If NAND Bin Checker is not already in the same folder as Ohneschwanzenegger, copy it there now. Then, open a terminal in that folder. 다음 명령을 실행합니다: `.\nandBinCheck.exe .\blankNand.bin`. 낸드에 다른 이름을 지정한 경우 명령도 그에 맞게 조정합니다. 그러면 프로그램이 낸드의 유효성을 검사합니다.
 
    ![](/images/factory-reset/nandcheck.png)
 

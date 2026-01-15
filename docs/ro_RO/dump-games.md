@@ -27,11 +27,11 @@ Acest ghid acoperă extragerea discurilor de joc Wii sau Gamecube către un card
 
 8. When prompted, select `Yes` to calculate disc checksums.
 
-    ![](/images/homebrew/CleanRip/checksum.png)
+   ![](/images/homebrew/CleanRip/checksum.png)
 
 9. Alege dispozitivul unde îți vei extrage jocul - un dispozitiv USB sau un card SD.
 
-    ![](/images/homebrew/CleanRip/device.png)
+   ![](/images/homebrew/CleanRip/device.png)
 
 10. Alege tipul sistemului de fișiere a dispozitivului - în majoritatea cazurilor va fi FAT (FAT32).
 
@@ -67,21 +67,21 @@ Dacă primești o eroare de citire nerecuperată, asigură-te că discul pe care
 
 1. Când ești întrebat, alege dacă discul tău este un disc Datel nelicențiat. If unsure, select `No`.
 
-    ![](/images/homebrew/CleanRip/dateldisc.png)
+   ![](/images/homebrew/CleanRip/dateldisc.png)
 
 2. Set the settings as shown on the screen below.
 
-    ![](/images/homebrew/CleanRip/wiisettings.png)
+   ![](/images/homebrew/CleanRip/wiisettings.png)
 
 3. Apasă A pentru a începe să extragi discul.
 
-    - Acest proces poate dura destul de mult timp pentru că extrage toți cei 4.7GB ai DVD-ului (8.5GB pentru discuri dublu strat).
+   - Acest proces poate dura destul de mult timp pentru că extrage toți cei 4.7GB ai DVD-ului (8.5GB pentru discuri dublu strat).
 
-    ![](/images/homebrew/CleanRip/wiiprogress.png)
+   ![](/images/homebrew/CleanRip/wiiprogress.png)
 
 4. Odată ce extragerea este finalizată, ar trebui să vezi un ecran cu checksum-ul MD5 al discului tău, comparat cu fișierul DAT Redump dacă l-ai activat.
 
-    ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
+   ![](/images/homebrew/CleanRip/wiidumpcomplete.png)
 
 ::: tip
 
@@ -99,17 +99,17 @@ Ediția de Familie Wii, Wii mini-uri și vWii-ul de la Wii U nu au capabilitatea
 
 1. Când ești întrebat, alege dacă discul tău este un disc Datel nelicențiat. If unsure, select `No`.
 
-    ![](/images/homebrew/CleanRip/dateldisc.png)
+   ![](/images/homebrew/CleanRip/dateldisc.png)
 
 2. Apasă A pentru a începe să extragi discul.
 
-    - Acest proces poate dura ceva timp pentru că extrage toți cei 1.3GB ai Mini DVD-ului.
+   - Acest proces poate dura ceva timp pentru că extrage toți cei 1.3GB ai Mini DVD-ului.
 
-    ![](/images/homebrew/CleanRip/gcprogress.png)
+   ![](/images/homebrew/CleanRip/gcprogress.png)
 
 3. Odată ce extragerea este finalizată, ar trebui să vezi un ecran cu checksum-ul MD5 al discului tău, comparat cu fișierul DAT Redump dacă l-ai activat.
 
-    ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
+   ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
 ::: tip
 

@@ -18,7 +18,7 @@ NE használd a példákban megadott MAC cmeket, mert azok simán hibát okoznak 
 
 - Egy 32GB vagy annál kisebb FAT32-re formázott SD kártya
 - Egy Wii System Menu 4.3 verzióval
-- Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
+- Egy Windowst/MacOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 
 ## Lépések
 

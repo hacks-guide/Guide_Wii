@@ -25,11 +25,11 @@ Bu rehber size nasıl Wii'nizin depolamasından WADları yedekleyeceğinizi öğ
 
 8. A butonuna tıklayın.
 
-    ![](/images/homebrew/DumpWADS/1.png)
+   ![](/images/homebrew/DumpWADS/1.png)
 
 9. Select `Installed Channel Titles`.
 
-    ![](/images/homebrew/DumpWADS/2.png)
+   ![](/images/homebrew/DumpWADS/2.png)
 
 10. Yedeklemek istediğiniz içeriği seçin ve 1 butonuna tıklayın.
 
@@ -49,7 +49,7 @@ Bu rehber size nasıl Wii'nizin depolamasından WADları yedekleyeceğinizi öğ
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-WAD şu anda yedeklenmiş ve SD card ya da USB cihazınızda olmalıdır.
+The WAD has now been dumped, and should appear inside the specified folder on your SD card or USB drive.
 
 ![](/images/homebrew/DumpWADS/7.png)
 

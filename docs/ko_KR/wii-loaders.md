@@ -38,9 +38,9 @@ WiiFlow Lite용 공식 Wii 메뉴 포워더 설치 프로그램은 [오픈 샵 �
 
   ![](/images/usb-loaders/usbloadergx-ui.png)
 
-## 게임 디렉토리 구조
+## Game Folder Structure
 
-아래는 단일 WBFS의 예와 분할된 WBFS의 예입니다. WBFS가 4GB를 넘고 저장 장치가 FAT32로 포맷된 경우 WBFS를 분할해야 합니다. [Wii 백업 매니저](wii-backups#using-wii-backup-manager) 또는 [Wii 백업 퓨전](wii-backups#using-wii-backup-fusion)과 같은 소프트웨어를 사용하면 이 작업을 대신 수행할 수 있으며, 게임 디렉토리 구조를 자동으로 올바르게 설정합니다.
+아래는 단일 WBFS의 예와 분할된 WBFS의 예입니다. WBFS가 4GB를 넘고 저장 장치가 FAT32로 포맷된 경우 WBFS를 분할해야 합니다. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game folder structure correctly.
 
 ```
 💾SD 카드 또는 USB:

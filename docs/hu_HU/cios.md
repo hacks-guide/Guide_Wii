@@ -36,9 +36,9 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 ### I. rész - Letöltés
 
-::: info
+::: warning
 
-Ha macOS vagy Linux rendszerel dolgozol, letöltheted és futtathatod [ezt a szkriptet](/assets/files/d2x_offline_ios.zip), ami letölti neked a WAD fájlokat.
+A böngésződ vagy a vírusírtó szoftvered elképzelhető, hogy a NUSGet-et malware-nek jelöli - ez hamis pozitív. A NUSGet NEM tartalmaz malware-t.
 
 :::
 
@@ -48,26 +48,35 @@ Ha képes vagy csatlakoztatni a Wii-odat az internetre, átugorgathatsz a [II. r
 
 :::
 
-1. Kapcsold ki a konzolod.
-2. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
-3. A számítógépeden töltsd le a [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)-t.
-4. Másold ki az NUS Downloader `.zip` fájljának tartalmát egy mappába.
-5. Futtasd a `NUS Downloader.exe` fájlt.
-6. Navigálj a `Database` > `IOS` > `IOS38` opcióhoz, majd válaszd a `v4123` opciót.
-   - Pipáld ki a „Pack WAD” lehetőséget.
-   - _Vedd ki a pipát_ a „Patch IOS” lehetőségtől. Ezt majd a cIOS-telepítő megteszi.
-7. Kattints a `Start NUS Download!` gombra.
-8. Ismételd meg a fenti lépéseket az `IOS56 v5661`, `IOS57 v5918` és az `IOS58 v6175` beszerzéséhez is.
-9. A folyamat végén találni fogsz egy `titles` mappát ugyanabban a mappában, mint ahol a NUS Downloader van.
-10. Nyisd meg a `titles` mappát és keresd meg az imént letöltött WAD-fájlokat.
-11. Helyezd az összes WAD-fájlt az SD kártya vagy USB drive gyökerére.
-    - Ezen az eszközön legyen a d2x cIOS-telepítő is.
+1. Kapcsold ki a konzolod és csatlakoztasd az SD kártyád vagy USB driveod a számítógépedhez.
+2. A számítógépeden töltsd le a [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/) rendszerednek megfelelő verzióját. A Windows felhasználók a `NUSGet-Windows-x86_64-bin.zip` fájlt kell válasszák.
+3. Csomagold ki a NUSGet futtatható állományt és indítsd el.
+4. Navigálz az `IOS` > `IOS 38` > `World`-höz és válaszd a `v4123` opciót. Vedd ki a pipát a `Keep encrypted contents` elől. Jelöld be a `Use a custom download directory` opciót és válaszd a mappát ahol a NUSGet futtatható állomány is található, majd kattints a `Start Download` opcióra.
+
+   ![](/images/desktop-apps/nusget/nusget-4123.png)
+5. Ismételd meg a fenti lépéseket az `IOS 56 (v5661)`, `IOS 57 (v5918)` és az `IOS 58 (v6175)` beszerzéséhez is.
+6. Ha befejeződött a fenti IOS fájlok letöltése, navigálj a mappába, ahol a NUSGet futtatható állomány található. Ez most négy könyvtárat kell tartalmazzon a title ID-jukkal a fenti IOS-oknak.
+
+   ![](/images/desktop-apps/nusget/nusget-folder-ios.png)
+7. Lépj be mind a négy könyvtárba és keresd meg az `IOS-XX-vXXXX-Wii.wad` fájlt mindegyikben.
+
+   ![](/images/desktop-apps/nusget/nusget-ios-output.png)
+8. Helyezd az összes WAD-fájlt az SD kártya vagy USB drive gyökerére.
+   - Ezen az eszközön legyen a d2x cIOS-telepítő is.
+9. Biztosítsd, hogy minden WAD fájl úgy nevezett mint a listában alább, a d2x-cios-installer-rel kompatiblitáshoz:
+
+   |   IOS  |               Fájlnév              |
+   | :----: | :--------------------------------: |
+   | IOS 38 | IOS38-64-v4123.wad |
+   | IOS 56 | IOS56-64-v5661.wad |
+   | IOS 57 | IOS57-64-v5918.wad |
+   | IOS 58 | IOS58-64-v6175.wad |
 
 ::: info
 
 A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
-![](/images/cios/d2x_offline_ios.png)
+![](/images/desktop-apps/nusget/nusget-ios-on-sd.png)
 
 :::
 

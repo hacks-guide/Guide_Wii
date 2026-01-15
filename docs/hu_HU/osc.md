@@ -62,7 +62,7 @@ Ha felugrik egy Felhasználói Fiókok Felügyelete-ablak, ami megkérdezi, hogy
 
    ![](/images/osc/app-download-OSCDL.png)
 
-4. Ha közvetlenül került letöltésre egy párbeszéd ablak jelenik meg, érdeklődve a letöltési helyéről. Az OSCDL jelez számodra, ha olyan tárolót észlel, ahol van apps könyvtár, és ha ide töltöttél le, akkor automatikusan kicsomagolja a homebrew-ot és az készen is áll a használatra. Egyébként megadhatsz egy kézi letöltési helyet, és kicsomagolhatod magadnak.
+4. Ha közvetlenül került letöltésre egy párbeszéd ablak jelenik meg, érdeklődve a letöltési helyéről. Az OSCDL jelez számodra, ha olyan tárolót észlel, ahol van apps mappa, és ha ide töltöttél le, akkor automatikusan kicsomagolja a homebrew-ot és az készen is áll a használatra. Egyébként megadhatsz egy kézi letöltési helyet, és kicsomagolhatod magadnak.
 
    ![](/images/osc/download-prompt-OSCDL.png)
 
@@ -94,7 +94,7 @@ Python 3 telepítésre van szükséged az OSCDL haszmálatához ezeken a platfor
 
    ![](/images/osc/app-download-OSCDL-linux.png)
 
-6. Ha közvetlenül került letöltésre egy párbeszéd ablak jelenik meg, érdeklődve a letöltési helyéről. Az OSCDL jelez számodra, ha olyan tárolót észlel, ahol van apps könyvtár, és ha ide töltöttél le, akkor automatikusan kicsomagolja a homebrew-ot és az készen is áll a használatra. Egyébként megadhatsz egy kézi letöltési helyet, és kicsomagolhatod magadnak.
+6. Ha közvetlenül került letöltésre egy párbeszéd ablak jelenik meg, érdeklődve a letöltési helyéről. Az OSCDL jelez számodra, ha olyan tárolót észlel, ahol van apps mappa, és ha ide töltöttél le, akkor automatikusan kicsomagolja a homebrew-ot és az készen is áll a használatra. Egyébként megadhatsz egy kézi letöltési helyet, és kicsomagolhatod magadnak.
 
    ![](/images/osc/download-prompt-OSCDL-linux.png)
 

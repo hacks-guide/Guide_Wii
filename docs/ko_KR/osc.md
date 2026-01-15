@@ -62,7 +62,7 @@
 
    ![](/images/osc/app-download-OSCDL.png)
 
-4. 직접 다운로드하는 경우 다운로드 위치를 묻는 대화 상자가 나타납니다. OSCDL은 앱 디렉토리가 있는 저장 장치를 감지하면 메시지를 표시하고, 거기에 다운로드한 경우 홈브류를 자동으로 압축 해제하여 사용할 수 있도록 준비합니다. 그렇지 않은 경우, 수동 다운로드 위치를 지정하여 직접 압축 해제 할 수도 있습니다.
+4. 직접 다운로드하는 경우 다운로드 위치를 묻는 대화 상자가 나타납니다. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. 그렇지 않은 경우, 수동 다운로드 위치를 지정하여 직접 압축 해제 할 수도 있습니다.
 
    ![](/images/osc/download-prompt-OSCDL.png)
 
@@ -94,7 +94,7 @@
 
    ![](/images/osc/app-download-OSCDL-linux.png)
 
-6. 직접 다운로드하는 경우 다운로드 위치를 묻는 대화 상자가 나타납니다. OSCDL은 앱 디렉토리가 있는 저장 장치를 감지하면 메시지를 표시하고, 거기에 다운로드한 경우 홈브류를 자동으로 압축 해제하여 사용할 수 있도록 준비합니다. 그렇지 않은 경우, 수동 다운로드 위치를 지정하여 직접 압축 해제 할 수도 있습니다.
+6. 직접 다운로드하는 경우 다운로드 위치를 묻는 대화 상자가 나타납니다. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. 그렇지 않은 경우, 수동 다운로드 위치를 지정하여 직접 압축 해제 할 수도 있습니다.
 
    ![](/images/osc/download-prompt-OSCDL-linux.png)
 

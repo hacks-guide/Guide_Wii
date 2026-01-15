@@ -36,9 +36,9 @@ Assicurati che, se stai usando la scheda SD, l'interruttore della proteziona scr
 
 ### Sezione I - Download
 
-::: info
+::: warning
 
-If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
+Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
 
 :::
 
@@ -48,26 +48,35 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 :::
 
-1. Power off your console.
-2. Inserisci la scheda SD o dispositivo USB nel tuo computer.
-3. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
-5. Run `NUS Downloader.exe`.
-6. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
-    - Assicurati che "Pack WAD" sia attivato.
-    - _Don't_ check "Patch IOS". Quello è il ruolo del cIOS Installer.
-7. Click `Start NUS Download!`.
-8. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
-9. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
-10. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
-11. Piazza ogni file WAD sul root della tua SD o dispositivo USB.
-    - Questo deve essere lo stesso dispositivo che contiene d2x cIOS Installer.
+1. Power off your console, and insert your SD card or USB drive into your computer.
+2. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
+3. Unzip the archive and run the NUSGet executable.
+4. Navigate to `IOS` > `IOS 38` > `World` and select `v4123`. Uncheck `Keep encrypted contents`. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+
+   ![](/images/desktop-apps/nusget/nusget-4123.png)
+5. Repeat the above step for `IOS 56 (v5661)`, `IOS 57 (v5918)` and `IOS 58 (v6175)`.
+6. When you have finished downloading the above IOS, navigate to the folder where your NUSGet executable is stored. This should now contain four different folders with the title IDs for the above IOS.
+
+   ![](/images/desktop-apps/nusget/nusget-folder-ios.png)
+7. Enter the four directories, locating a `IOS-XX-vXXXX-Wii.wad` file in each.
+
+   ![](/images/desktop-apps/nusget/nusget-ios-output.png)
+8. Piazza ogni file WAD sul root della tua SD o dispositivo USB.
+   - Questo deve essere lo stesso dispositivo che contiene d2x cIOS Installer.
+9. Ensure that each WAD file is named as listed below for compatability purposes with d2x-cios-installer:
+
+   |   IOS  |              File Name             |
+   | :----: | :--------------------------------: |
+   | IOS 38 | IOS38-64-v4123.wad |
+   | IOS 56 | IOS56-64-v5661.wad |
+   | IOS 57 | IOS57-64-v5918.wad |
+   | IOS 58 | IOS58-64-v6175.wad |
 
 ::: info
 
 The WAD files should be on your SD card like this:
 
-![](/images/cios/d2x_offline_ios.png)
+![](/images/desktop-apps/nusget/nusget-ios-on-sd.png)
 
 :::
 
@@ -85,54 +94,54 @@ The WAD files should be on your SD card like this:
 
 6. Imposta le opzioni in modo che corrispondano a quanto segue:
 
-    ```
-    Select cIOS <d2x-v11-beta3>
-    Select cIOS base <38>
-    Select cIOS slot <248>
-    Select cIOS revision <65535>
-    ```
+   ```
+   Select cIOS <d2x-v11-beta3>
+   Select cIOS base <38>
+   Select cIOS slot <248>
+   Select cIOS revision <65535>
+   ```
 
-    ![](/images/cios/d2x_v11_248.png)
+   ![](/images/cios/d2x_v11_248.png)
 
-    ::: info
+   ::: info
 
-    If you do not see `d2x-v11-beta3`, exit the installer with B, and make sure your SD card is unlocked.
+   If you do not see `d2x-v11-beta3`, exit the installer with B, and make sure your SD card is unlocked.
 
-    :::
+   :::
 
-    ::: info
+   ::: info
 
-    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
+   The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
 
-    :::
+   :::
 
-    ::: info
+   ::: info
 
-    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
+   If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
 
-    (If you are trying to exit the installer, the button is B, not Home.)
+   (If you are trying to exit the installer, the button is B, not Home.)
 
-    :::
+   :::
 
 7. Press `A`. Questo ti porterà alla mappa degli slot:
 
-    ![](/images/cios/d2x_summary.png)
+   ![](/images/cios/d2x_summary.png)
 
 8. Press `A` again.
 
-    ![](/images/cios/d2x_installation.png)
+   ![](/images/cios/d2x_installation.png)
 
 9. Appena terminata l'installazione, tornerai alla mappa degli slot. Assicurati che lo slot appena installato sia evidenziato in verde.
 
-    ![](/images/cios/d2x_log.png)
+   ![](/images/cios/d2x_log.png)
 
-    ::: info
+   ::: info
 
-    If the slot is highlighted red, try to install the cIOS again.
+   If the slot is highlighted red, try to install the cIOS again.
 
-    If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
+   If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
 
-    :::
+   :::
 
 10. Press `A`. Questo ti riporterà alla schermata di configurazione.
 
@@ -140,36 +149,36 @@ The WAD files should be on your SD card like this:
 
     - Installazione del cIOS 249
 
-        ```
-        Select cIOS <d2x-v11-beta3>
-        Select cIOS base <56>
-        Select cIOS slot <249>
-        Select cIOS revision <65535>
-        ```
+      ```
+      Select cIOS <d2x-v11-beta3>
+      Select cIOS base <56>
+      Select cIOS slot <249>
+      Select cIOS revision <65535>
+      ```
 
-        ![](/images/cios/d2x_v11_249.png)
+      ![](/images/cios/d2x_v11_249.png)
 
     - Installazione del cIOS 250
 
-        ```
-        Select cIOS <d2x-v11-beta3>
-        Select cIOS base <57>
-        Select cIOS slot <250>
-        Select cIOS revision <65535>
-        ```
+      ```
+      Select cIOS <d2x-v11-beta3>
+      Select cIOS base <57>
+      Select cIOS slot <250>
+      Select cIOS revision <65535>
+      ```
 
-        ![](/images/cios/d2x_v11_250.png)
+      ![](/images/cios/d2x_v11_250.png)
 
     - Installazione del cIOS 251
 
-        ```
-        Select cIOS <d2x-v11-beta3>
-        Select cIOS base <58>
-        Select cIOS slot <251>
-        Select cIOS revision <65535>
-        ```
+      ```
+      Select cIOS <d2x-v11-beta3>
+      Select cIOS base <58>
+      Select cIOS slot <251>
+      Select cIOS revision <65535>
+      ```
 
-        ![](/images/cios/d2x_v11_251.png)
+      ![](/images/cios/d2x_v11_251.png)
 
 12. Una volta finito con tutti i 4 cIOS, premi B per tornare all'Homebrew Channel.
 
@@ -231,55 +240,55 @@ Assicurati che, se stai usando la scheda SD, l'interruttore della proteziona scr
 
 6. Imposta le opzioni in modo che corrispondano a quanto segue:
 
-    ```
-    Select cIOS <d2x-v11-beta3-vWii>
-    Select cIOS base <38>
-    Select cIOS slot <248>
-    ```
+   ```
+   Select cIOS <d2x-v11-beta3-vWii>
+   Select cIOS base <38>
+   Select cIOS slot <248>
+   ```
 
-    ![](/images/cios/d2x_v11_248_vwii.png)
+   ![](/images/cios/d2x_v11_248_vwii.png)
 
-    ::: info
+   ::: info
 
-    If you do not see `d2x-v11-beta3-vWii`, exit the installer with B, and make sure your SD card is unlocked.
+   If you do not see `d2x-v11-beta3-vWii`, exit the installer with B, and make sure your SD card is unlocked.
 
-    :::
+   :::
 
 7. Press `A` to install.
 
-    ![](/images/cios/d2x_installation.png)
+   ![](/images/cios/d2x_installation.png)
 
 8. Repeat the previous 2 steps with the following configurations:
 
-    - Installazione del cIOS 249
+   - Installazione del cIOS 249
 
-        ```
-        Select cIOS <d2x-v11-beta3-vWii>
-        Select cIOS base <56>
-        Select cIOS slot <249>
-        ```
+     ```
+     Select cIOS <d2x-v11-beta3-vWii>
+     Select cIOS base <56>
+     Select cIOS slot <249>
+     ```
 
-    ![](/images/cios/d2x_v11_249_vwii.png)
+   ![](/images/cios/d2x_v11_249_vwii.png)
 
-    - Installazione del cIOS 250
+   - Installazione del cIOS 250
 
-        ```
-        Select cIOS <d2x-v11-beta3-vWii>
-        Select cIOS base <57>
-        Select cIOS slot <250>
-        ```
+     ```
+     Select cIOS <d2x-v11-beta3-vWii>
+     Select cIOS base <57>
+     Select cIOS slot <250>
+     ```
 
-        ![](/images/cios/d2x_v11_250_vwii.png)
+     ![](/images/cios/d2x_v11_250_vwii.png)
 
-    - Installazione del cIOS 251
+   - Installazione del cIOS 251
 
-        ```
-        Select cIOS <d2x-v11-beta3-vWii>
-        Select cIOS base <58>
-        Select cIOS slot <251>
-        ```
+     ```
+     Select cIOS <d2x-v11-beta3-vWii>
+     Select cIOS base <58>
+     Select cIOS slot <251>
+     ```
 
-        ![](/images/cios/d2x_v11_251_vwii.png)
+     ![](/images/cios/d2x_v11_251_vwii.png)
 
 9. Una volta finito con tutti i 4 cIOS, premi B per tornare all'Homebrew Channel.
 
@@ -323,7 +332,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 ### Sezione I - Download
 
-1. Spegni la console.
+1. Power off your console.
 2. Inserisci il tuo dispositivo USB nel tuo computer.
 3. Copy the `apps` folder from the d2xl-cios-installer-mini `.zip` to the root of your USB drive.
 4. Reinserisci il tuo dispositivo USB nella tua console.
@@ -336,18 +345,18 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 1. Select `Continue`.
 2. Imposta le opzioni come segue:
 
-    ```
-    Select cIOS <d2xl-v1-beta2>
-    Select cIOS base <57>
-    Select cIOS slot <249>
-    ```
+   ```
+   Select cIOS <d2xl-v1-beta2>
+   Select cIOS base <57>
+   Select cIOS slot <249>
+   ```
 
-    ![](/images/cios/d2x_v1_249_mini_NTSC.png)
-    ![](/images/cios/d2x_v1_249_mini_PAL.png)
+   ![](/images/cios/d2x_v1_249_mini_NTSC.png)
+   ![](/images/cios/d2x_v1_249_mini_PAL.png)
 
-    - Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
+   - Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
 3. Premi A per installare.
-    - If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. Il numero 57 non cambierà.
+   - If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. Il numero 57 non cambierà.
 4. Quando il processo è completato, esci dall'installer.
 
 ::: tip

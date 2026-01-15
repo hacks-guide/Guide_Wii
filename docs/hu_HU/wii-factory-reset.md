@@ -76,7 +76,7 @@ Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult 
 
 ### III. rész - A NAND ellenőrzése
 
-1. Ha a NAND Bin Checker még nincs az Ohneschwanzeneggerrel azonos könyvtárban, másold oda most. Ezután nyiss terminált ebben a könyvtárban. Futtasd a következő parancsot: `.\nandBinCheck.exe .\blankNand.bin`. Ha a NAND-ot máshogy nevezted el, a parancsot ennek megfelelően módosítsd. A program ezután ellenőrizni fogja a NAND érvényességét.
+1. Ha a NAND Bin Checker még nincs az Ohneschwanzeneggerrel azonos könyvtárban, másold oda most. Ezután nics egy terminál ablakot a mappában. Futtasd a következő parancsot: `.\nandBinCheck.exe .\blankNand.bin`. Ha a NAND-ot máshogy nevezted el, a parancsot ennek megfelelően módosítsd. A program ezután ellenőrizni fogja a NAND érvényességét.
 
    ![](/images/factory-reset/nandcheck.png)
 

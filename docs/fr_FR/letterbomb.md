@@ -18,7 +18,7 @@ N'utilisez PAS les adresses MAC d'exemple affichées dans ce guide, car elles pr
 
 - Une carte SD formatée en FAT32 (de 32 GO ou moins)
 - Une Wii sur le menu système version 4.3
-- Un ordinateur Windows/MacOS/Linux avec une connexion Internet
+- A Windows/macOS/Linux computer with an Internet connection
 
 ## Instructions
 
@@ -28,16 +28,16 @@ N'utilisez PAS les adresses MAC d'exemple affichées dans ce guide, car elles pr
 
 3. Prenez note dans le coin supérieur droit de la lettre à côté de la version du système.
 
-    - Cette lettre est la région du menu système, que vous devrez connaître pour les étapes qui en ont besoin.
-    - Assurez-vous également que vous êtes sur le menu système version 4.3.
+   - Cette lettre est la région du menu système, que vous devrez connaître pour les étapes qui en ont besoin.
+   - Assurez-vous également que vous êtes sur le menu système version 4.3.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 4. Naviguez vers `Internet` > `Informations générales`.
 
 5. Prenez note de votre adresse MAC COMPLET.
 
-    ![](/images/wii/MacAddress.png)
+   ![](/images/wii/MacAddress.png)
 
 6. Sur votre ordinateur, ouvrez le navigateur et allez sur [le site Web de HackMii](https://please.hackmii.com/).
 
@@ -47,7 +47,7 @@ N'utilisez PAS les adresses MAC d'exemple affichées dans ce guide, car elles pr
 
 9. Cliquez sur un des deux boutons.
 
-    ![](/images/exploits/letterbomb/LetterBomb-PC.png)
+   ![](/images/exploits/letterbomb/LetterBomb-PC.png)
 
 10. Insérez votre carte SD dans votre ordinateur.
 

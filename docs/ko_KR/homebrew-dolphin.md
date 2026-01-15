@@ -4,7 +4,7 @@
 
 ## 요구 사항
 
-- 인터넷 연결이 가능한 윈도우/맥OS/리눅스 컴퓨터
+- A Windows/macOS/Linux computer with an Internet connection
 - [돌핀 에뮬레이터](https://dolphin-emu.org/download/) 버전 `5.0-4588` 이상
 - [오픈 홈브류 채널](https://github.com/Wii-Mini-Hacking/hbc/releases)의 최신 버전
 

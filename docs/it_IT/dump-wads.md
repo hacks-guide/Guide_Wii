@@ -25,11 +25,11 @@ Questa guida ti mostrerà come preservare file wad dalla Memoria di Sistema dell
 
 8. Premi A.
 
-    ![](/images/homebrew/DumpWADS/1.png)
+   ![](/images/homebrew/DumpWADS/1.png)
 
 9. Select `Installed Channel Titles`.
 
-    ![](/images/homebrew/DumpWADS/2.png)
+   ![](/images/homebrew/DumpWADS/2.png)
 
 10. Trova il contenuto che vuoi scaricare e premi 1 sul telecomando Wii.
 
@@ -49,7 +49,7 @@ Questa guida ti mostrerà come preservare file wad dalla Memoria di Sistema dell
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-La WAD ora è stata dumpata, e dovrebbe apparire nella cartella specifica della tua scheda SD o dispositivo USB.
+The WAD has now been dumped, and should appear inside the specified folder on your SD card or USB drive.
 
 ![](/images/homebrew/DumpWADS/7.png)
 

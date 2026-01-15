@@ -49,7 +49,7 @@ Este tutorial explica como extrair WADs instaladas na memória do Sistema do Wii
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-Você acabou de extrair o arquivo WAD. Ele deve agora aparecer no seu cartão SD.
+The WAD has now been dumped, and should appear inside the specified folder on your SD card or USB drive.
 
 ![](/images/homebrew/DumpWADS/7.png)
 

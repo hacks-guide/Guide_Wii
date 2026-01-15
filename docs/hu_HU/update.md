@@ -13,8 +13,8 @@ Sokkal biztonságosabb a [ModMii](modmii) (csak Windows) segítségével frissí
 - egy Wii a The Homebrew Channel 1.0.8-cal vagy későbbivel
   - Ha nincs Homebrew Channel-ed vagy túl régi kezd [itt](get-started) az (újra)telepítéséhez.
 - Egy SD kártya vagy pendrive
-- Egy számítógép Windows-szal
-- [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest)
+- Egy Windows/macOS/Linux számítógép
+- [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/)
 - [Priiloader](priiloader)
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
@@ -22,20 +22,24 @@ Sokkal biztonságosabb a [ModMii](modmii) (csak Windows) segítségével frissí
 
 ### I. rész - Letöltés
 
-1. Csomagold ki a .zip fájlját a NUS Downloader Wii-nak és nyisd meg az alkalmazást.
-2. Navigálj a `Database...` > `System` > `0000000100000002 - System Menu` opcióhoz és válaszd a verziót, ami kapcsolódik a régiódhoz az alábbi táblázatból.
-3. Biztosítsd, hogy a `Pack WAD` be legyen pipálva.
-4. Nyomd meg a `Start NUS Download!`-ot.
-5. Nyisd meg a `titles` -> `0000000100000002` -> (Wii Menu verzió) könyvtárat és másold a .wad fájtl egy `wad` nevű mappába az SD kártyádon vagy USB drive-odon.
-6. Ismételd meg a 2-5 lépéseket az `IOS` -> `000000010000003A` -> `Latest Version` és az`IOS` -> `000000010000003A` -> `Latest Version` útvonalakon.
-7. Ha felmásoltad mind a 3`.wad` fájlt, add ki az SD kártyád/USB drive-od a PC-ből és tedd vissza a Wii-odba.
+1. A számítógépeden töltsd le a NUSGet rendszerednek megfelelő verzióját lenti linkekről. A Windows felhasználók a `NUSGet-Windows-x86_64-bin.zip` fájlt kell válasszák.
+2. Csomagold ki a NUSGet futtatható állományt és indítsd el.
+3. Menj az `System` > `0000000100000002 - System Menu` > `Your Region`-hoz majd válaszd a legutolsó 4.3 verzióját a menünek (pl. `v513 4.3U` USA-hoz). Vedd ki a pipát a `Keep encrypted contents` elől. Jelöld be a `Use a custom download directory` opciót és válaszd a mappát ahol a NUSGet futtatható állomány is található, majd kattints a `Start Download` opcióra.
 
-| Regió  | Wii Menu verzió                                |
-| ------ | ---------------------------------------------- |
-| Japán  | v512 (4.3J) |
-| USA    | v513 (4.3U) |
-| Európa | v514 (4.3E) |
-| Korea  | v518 (4.3K) |
+   ![](/images/desktop-apps/nusget/nusget-wiimenu-dl-alt.png)
+4. Menj az `IOS` > `000000010000003A - IOS 58` > `World` > `Latest Version`-höz. Vedd ki a pipát a `Keep encrypted contents` elől. Jelöld be a `Use a custom download directory` opciót és válaszd a mappát ahol a NUSGet futtatható állomány is található, majd kattints a `Start Download` opcióra.
+
+   ![](/images/desktop-apps/nusget/nusget-ios58-dl.png)
+5. Menj az `IOS` > `0000000100000050 - IOS 80` > `World` > `Latest Version`-höz. Vedd ki a pipát a `Keep encrypted contents` elől. Jelöld be a `Use a custom download directory` opciót és válaszd a mappát ahol a NUSGet futtatható állomány is található, majd kattints a `Start Download` opcióra.
+
+   ![](/images/desktop-apps/nusget/nusget-ios80-dl.png)
+6. Ha végeztél a fenti lépésekkel, navigálj a mappába, ahol a NUSGet futtatható állomány található. Ez most három könyvtárat kell tartalmazzon a title ID-jukkal a fenti IOS és Wii menü fájloknak.
+
+   ![](/images/desktop-apps/nusget/nusget-folder-wiimenu-alt.png)
+7. Menj azokba a könyvtárakba, ahol titleID megegyezik a fentiekkel és keresd meg mindegyikben az WAD fájlt. Ezeket ki kell másolnod egy `wad` nevű mappába az SD kártyádon vagy USB drive-odon. Az eredménynek az alábbi fájlokat kell jelentenie a mappában:
+
+   ![](/images/desktop-apps/nusget/nusget-copy-wiimenu-sd.png)
+8. Ha felmásoltad mind a 3 WAD fájlt, add ki az SD kártyád/USB drive-od a PC-ből és tedd vissza a Wii-odba.
 
 ### II. rész – Telepítés
 

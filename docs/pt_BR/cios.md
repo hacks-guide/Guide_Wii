@@ -36,9 +36,9 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
 
 ### Seção I - Baixando
 
-::: info
+::: warning
 
-If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
+Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
 
 :::
 
@@ -48,26 +48,35 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 :::
 
-1. Power off your console.
-2. Extract both apps to the root of your SD card or USB drive.
-3. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
-5. Run `NUS Downloader.exe`.
-6. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
-   - Verifique se a caixa "Pack WAD" está habilitada.
-   - _Don't_ check "Patch IOS". Esse é o trabalho do instalador de cIOS.
-7. Click `Start NUS Download!`.
-8. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
-9. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
-10. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
-11. Você agora poderá usar homebrew como o <a href="usbloadergx">USB Loader GX</a> e <a href="wiiflow">WiiFlow</a>.
-    - Esse deve ser o mesmo dispositivo contendo o d2x cIOS Installer.
+1. Power off your console, and insert your SD card or USB drive into your computer.
+2. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
+3. Unzip the archive and run the NUSGet executable.
+4. Navigate to `IOS` > `IOS 38` > `World` and select `v4123`. Uncheck `Keep encrypted contents`. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+
+   ![](/images/desktop-apps/nusget/nusget-4123.png)
+5. Repeat the above step for `IOS 56 (v5661)`, `IOS 57 (v5918)` and `IOS 58 (v6175)`.
+6. When you have finished downloading the above IOS, navigate to the folder where your NUSGet executable is stored. This should now contain four different folders with the title IDs for the above IOS.
+
+   ![](/images/desktop-apps/nusget/nusget-folder-ios.png)
+7. Enter the four directories, locating a `IOS-XX-vXXXX-Wii.wad` file in each.
+
+   ![](/images/desktop-apps/nusget/nusget-ios-output.png)
+8. Você agora poderá usar homebrew como o <a href="usbloadergx">USB Loader GX</a> e <a href="wiiflow">WiiFlow</a>.
+   - Esse deve ser o mesmo dispositivo contendo o d2x cIOS Installer.
+9. Ensure that each WAD file is named as listed below for compatability purposes with d2x-cios-installer:
+
+   |   IOS  |              File Name             |
+   | :----: | :--------------------------------: |
+   | IOS 38 | IOS38-64-v4123.wad |
+   | IOS 56 | IOS56-64-v5661.wad |
+   | IOS 57 | IOS57-64-v5918.wad |
+   | IOS 58 | IOS58-64-v6175.wad |
 
 ::: info
 
 The WAD files should be on your SD card like this:
 
-![](/images/cios/d2x_offline_ios.png)
+![](/images/desktop-apps/nusget/nusget-ios-on-sd.png)
 
 :::
 
@@ -323,7 +332,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 ### Seção I - Baixando
 
-1. Power off your Wii.
+1. Power off your console.
 2. Insira seu armazenamento USB no seu computador.
 3. Copy the `apps` folder from the d2xl-cios-installer-mini `.zip` to the root of your USB drive.
 4. Reinsira seu armazenamento USB no seu console.

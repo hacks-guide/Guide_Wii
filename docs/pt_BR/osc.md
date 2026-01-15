@@ -62,7 +62,7 @@ Se você receber um pop-up de controle de conta de usuário que pergunta se voc�
 
    ![](/images/osc/app-download-OSCDL.png)
 
-4. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps directory, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
+4. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
 
    ![](/images/osc/download-prompt-OSCDL.png)
 
@@ -94,7 +94,7 @@ You will need Python 3 installed in order to use OSCDL on these platforms.
 
    ![](/images/osc/app-download-OSCDL-linux.png)
 
-6. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps directory, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
+6. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
 
    ![](/images/osc/download-prompt-OSCDL-linux.png)
 

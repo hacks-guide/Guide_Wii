@@ -1,6 +1,6 @@
 # Wii 백업 관리
 
-이 가이드에서는 CleanRip을 통해 출력된 .PART 파일을 결합하는 방법부터 FAT32 장치에 복사할 수 있는 게임 파일을 축소하는 방법까지 Wii 백업을 ​​관리하는 방법에 대한 지침을 제공합니다. Wii 백업을 ​​관리하는 데 사용할 수 있는 두 가지 프로그램은 Wii 백업 매니저 (윈도우용)와 Wii 백업 퓨전 (리눅스 및 맥OS용)이며, 아래에서 이에 대해 설명합니다.
+이 가이드에서는 CleanRip을 통해 출력된 .PART 파일을 결합하는 방법부터 FAT32 장치에 복사할 수 있는 게임 파일을 축소하는 방법까지 Wii 백업을 ​​관리하는 방법에 대한 지침을 제공합니다. Two programs that can be used to manage your Wii backups are Wii Backup Manager (for Windows) and Wii Backup Fusion (for Linux and macOS) and are covered below.
 
 ::: info
 
@@ -56,7 +56,7 @@ NTFS로 포맷할 수 있지만 대부분의 앱 (예: 홈브류 채널, 닌텐�
 
    ![](/images/desktop-apps/WBM/dumpedpartfileslinux.png)
 
-2. 파일이 있는 디렉토리에서 터미널을 열거나, `cd [경로]`를 입력하여 해당 디렉토리로 이동합니다.
+2. Open a terminal in the folder where your files are located, or `cd [PATH]` to it.
 
    ![](/images/desktop-apps/WBM/openterminallinux.png)
 
@@ -104,7 +104,7 @@ NTFS로 포맷할 수 있지만 대부분의 앱 (예: 홈브류 채널, 닌텐�
 
 ### 요구 사항
 
-- 맥OS 또는 리눅스를 실행하는 PC
+- A PC running macOS or Linux
 - USB 드라이브 또는 SD 카드
 - Wii 게임 디스크에서 덤프된 ISO
 - [Wii 백업 퓨전](https://github.com/larsenv/Wii-Backup-Fusion/releases)
@@ -128,7 +128,7 @@ NTFS로 포맷할 수 있지만 대부분의 앱 (예: 홈브류 채널, 닌텐�
 
    ![](/images/desktop-apps/WBM/loadwbf.png)
 
-2. 게임 ISO가 있는 디렉터리를 선택합니다.
+2. Select the folder where your game ISO is located.
 
    ![](/images/desktop-apps/WBM/opendirectorywbf.png)
 
@@ -136,9 +136,9 @@ NTFS로 포맷할 수 있지만 대부분의 앱 (예: 홈브류 채널, 닌텐�
 
    ![](/images/desktop-apps/WBM/settingswbf.png)
 
-4. 게임 드라이브에 `wbfs` 디렉터리가 없다면 하나 만듭니다.
+4. If there is not already a `wbfs` folder on your game drive, make one.
 
-5. `wbfs` 폴더 내부에 게임 백업을 위한 또 다른 디렉터리를 만듭니다. 게임 폴더에 필요하므로 Wii 백업 퓨전의 게임 ID를 기록해 둡니다.
+5. Make another folder inside of the `wbfs` folder for the game backup. 게임 폴더에 필요하므로 Wii 백업 퓨전의 게임 ID를 기록해 둡니다.
 
 6. `게임 이름 [게임ID]` 형식의 게임 폴더를 만듭니다. 이 가이드에서 예시로 덤프한 게임의 이름은 `New Super Mario Bros. Wii [SMNE01]`입니다.
 

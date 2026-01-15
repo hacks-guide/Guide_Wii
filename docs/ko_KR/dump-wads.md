@@ -49,7 +49,7 @@
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-이제 WAD를 덤프했습니다. SD 카드에 표시되어야 합니다.
+The WAD has now been dumped, and should appear inside the specified folder on your SD card or USB drive.
 
 ![](/images/homebrew/DumpWADS/7.png)
 

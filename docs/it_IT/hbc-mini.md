@@ -18,13 +18,13 @@ Anche se è possibile installare BootMii su un Wii mini, è necessaria la saldat
 
 1. Vedrai una schermata di avvertimento truffa. Attendi 30 secondi affinché il testo "Press 1 to continue" appaia, poi premi 1.
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
 2. Press `Continue`, then select `Install The Homebrew Channel`.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
 3. Press `Continue` when finished.
 

@@ -56,18 +56,18 @@ The `WiiFlash_n_ECC.img` is your NAND image. Gli altri due file sono dati "errat
 
 1. Avvia xyzzy mod dall'Homebrew Channel.
 2. Select `USB device`
-    - Dovrebbe iniziare a recuperare le informazioni della tua console.
+   - Dovrebbe iniziare a recuperare le informazioni della tua console.
 3. Una volta finito, premi un pulsante qualsiasi per uscire.
 
-    - Avrai cinque nuovi file nella tua unità USB:
+   - Avrai cinque nuovi file nella tua unità USB:
 
-    ```
-    bootmii_keys.bin
-    device.cert
-    keys.txt
-    otp.bin
-    seeprom.bin
-    ```
+   ```
+   bootmii_keys.bin
+   device.cert
+   keys.txt
+   otp.bin
+   seeprom.bin
+   ```
 
 For now, only the `bootmii_keys.bin` file is required.
 

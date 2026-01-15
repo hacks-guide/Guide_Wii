@@ -76,7 +76,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 ### Section III - Verifying the NAND
 
-1. If NAND Bin Checker is not already in the same directory as Ohneschwanzenegger, copy it there now. Then, open a terminal in that directory. Run the following command: `.\nandBinCheck.exe .\blankNand.bin`. If you named the NAND something else, adjust the command accordingly. The program will then check the validity of the NAND.
+1. If NAND Bin Checker is not already in the same folder as Ohneschwanzenegger, copy it there now. Then, open a terminal in that folder. Run the following command: `.\nandBinCheck.exe .\blankNand.bin`. If you named the NAND something else, adjust the command accordingly. The program will then check the validity of the NAND.
 
    ![](/images/factory-reset/nandcheck.png)
 
