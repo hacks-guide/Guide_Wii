@@ -154,7 +154,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 #### Section I - Installation
 
-1. Download TinyWiiBackupManager for your OS (follow the instructions on the project [README](https://github.com/mq1/TinyWiiBackupManager?tab=readme-ov-file#%EF%B8%8F-downloads)).
+1. Download TinyWiiBackupManager for your OS (follow the instructions on the project [README](https://github.com/mq1/TinyWiiBackupManager?tab=readme-ov-file#arrow_down-downloads)).
 1. Insert your USB drive or SD card into your computer.
 
 #### Section II - Copying Games
