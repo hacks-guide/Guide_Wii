@@ -1,4 +1,4 @@
-# Managing Wii Backups
+# Managing Wii and GameCube Backups
 
 This guide provides instructions on how to manage your Wii and GameCube backups. There are various tools that can be used for this purpose (like Wii Backup Manager, Wii Backup Fusion, etc.); this guide covers TinyWiiBackupManager.
 
@@ -10,17 +10,17 @@ For storing multiple games, we recommend an external hard drive for your Wii. Mo
 
 ::: info
 
-A flash drive is not recommended, as they are small and may vary in behavior even between the same product.
+A flash drive is NOT recommended, as they are small and may vary in behavior even between the same product.
 
-As an alternative, you may simply use an SD card, however the Wii's SD card slot will be slow.
+As an alternative, you may use an SD card, however limitations of the Wii's SD card slot will result in slow read/write speeds.
 
 :::
 
 ::: info
 
-Make sure your USB drive is formatted as FAT32. Do not format it as other types such as exFAT or extFS.
+Make sure your USB drive is formatted using FAT32. Do not format it using other file systems such as exFAT, extFS, or WBFS.
 
-You may format it as NTFS, but it won't work with a majority of apps (eg. The Homebrew Channel, Nintendont)
+You may format it as NTFS, but it will NOT work with the majority of apps (e.g. The Homebrew Channel or Nintendont).
 
 :::
 
