@@ -18,7 +18,7 @@ NÃO use nenhum dos exemplos de endereços MAC mostrados neste guia, pois eles s
 
 - An SD card formatted as FAT32 that is 32GB or less
 - Um Wii no Menu do Sistema na versão 4.3
-- Um computador Windows/macOS/Linux com conexão à internet
+- A Windows/macOS/Linux computer with an Internet connection
 
 ## Instructions
 
@@ -28,16 +28,16 @@ NÃO use nenhum dos exemplos de endereços MAC mostrados neste guia, pois eles s
 
 3. Take note in the top right corner of the letter next to the system version.
 
-    - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
-    - Além disso, certifique-se de que você está no Menu do Sistema versão 4.3.
+   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Além disso, certifique-se de que você está no Menu do Sistema versão 4.3.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 4. Navigate to `Internet` > `Console Information`.
 
 5. Anote seu endereço MAC INTEIRO.
 
-    ![](/images/wii/MacAddress.png)
+   ![](/images/wii/MacAddress.png)
 
 6. On your computer, open the browser and go to [the HackMii website](https://please.hackmii.com/).
 
@@ -47,7 +47,7 @@ NÃO use nenhum dos exemplos de endereços MAC mostrados neste guia, pois eles s
 
 9. Corte qualquer "wire".
 
-    ![](/images/exploits/letterbomb/LetterBomb-PC.png)
+   ![](/images/exploits/letterbomb/LetterBomb-PC.png)
 
 10. 1 Insira seu cartão SD no seu computador.
 

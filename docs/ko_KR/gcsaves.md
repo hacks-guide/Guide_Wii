@@ -42,19 +42,19 @@
 
 2. 복원하려는 장치를 선택합니다.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 3. GCMM에서 게임큐브 컨트롤러의 X 버튼을 누르거나 Wii 리모컨의 + 버튼을 누릅니다.
 
-    ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
 4. 메모리 카드가 있는 슬롯을 선택합니다.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 5. 복원하려는 저장을 선택합니다. 복원할 저장이 여러 개 있는 경우, 게임큐브 컨트롤러에서 R 버튼을 누르거나 Wii 리모컨에서 1 버튼을 눌러 모든 저장을 복원할 수 있습니다.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
 6. 복원이 완료되면 아무 버튼이나 눌러 계속합니다.
 
@@ -80,19 +80,19 @@
 
 2. 백업할 장치를 선택합니다.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 3. GCMM에서 게임큐브 컨트롤러의 Y 버튼을 누르거나 Wii 리모컨의 - 버튼을 누릅니다.
 
-    ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
 4. 메모리 카드가 있는 슬롯을 선택합니다.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 5. 백업하려는 저장을 선택합니다. 백업할 저장 파일이 여러 개 있는 경우, 게임큐브 컨트롤러의 R 버튼 또는 Wii 리모컨의 1 버튼을 눌러 모든 저장 파일을 백업할 수 있습니다.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
 6. 백업이 완료되면 아무 버튼이나 눌러 계속합니다.
 
@@ -117,11 +117,11 @@
 
 2. 덤프할 장치를 선택합니다.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 3. 게임큐브 컨트롤러에서 L과 Y 버튼을 동시에 누르거나 Wii 리모컨에서 B와 - 버튼을 동시에 눌러 .raw 파일로 백업하고 메모리 카드가 있는 슬롯을 선택합니다.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 4. 덤프가 완료되면 아무 버튼이나 눌러 계속합니다. `MCBACKUP`이라는 SD 또는 USB 루트 폴더에 저장해야 합니다.
 
@@ -143,13 +143,13 @@
 
 4. 복원하려는 장치를 선택합니다.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 5. 게임큐브 컨트롤러에서 L과 X 버튼을 동시에 누르거나 Wii 리모컨에서 B와 + 버튼을 동시에 누릅니다.
 
 6. 메모리 카드가 있는 슬롯을 선택합니다.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 7. .raw 파일을 메모리 카드에 복원합니다. 복원이 완료되면 아무 버튼이나 눌러 계속합니다.
 
@@ -166,13 +166,13 @@
 
 2. 시스템 메뉴에서 `Wii 옵션`, `데이터 관리`, `저장 데이터`, `닌텐도 게임큐브`로 이동합니다.
 
-    ![](/images/homebrew/gcsaves/sysmenu.jpg)
+   ![](/images/homebrew/gcsaves/sysmenu.jpg)
 
-    ![](/images/homebrew/gcsaves/settings.jpg)
+   ![](/images/homebrew/gcsaves/settings.jpg)
 
-    ![](/images/homebrew/gcsaves/data-management.jpg)
+   ![](/images/homebrew/gcsaves/data-management.jpg)
 
-    ![](/images/homebrew/gcsaves/save-data.jpg)
+   ![](/images/homebrew/gcsaves/save-data.jpg)
 
 3. 원하는 저장 항목을 찾아 선택한 후 `이동 또는 복사`를 선택합니다.
 

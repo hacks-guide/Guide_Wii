@@ -36,9 +36,9 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ### Section I - Downloading
 
-::: info
+::: warning
 
-If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
+Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
 
 :::
 
@@ -48,26 +48,34 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 :::
 
-1. Power off your console.
-1. Insert your SD card or USB drive into your computer.
-1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-1. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
-1. Run `NUS Downloader.exe`.
-1. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
-    + Ensure that "Pack WAD" is checked.
-    + *Don't* check "Patch IOS". That is the cIOS Installer's job.
-1. Click `Start NUS Download!`.
-1. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
-1. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
-1. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
+1. Power off your console, and insert your SD card or USB drive into your computer.
+1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
+1. Unzip the archive and run the NUSGet executable.
+1. Navigate to `IOS` > `IOS 38` > `World` and select `v4123`. Uncheck `Keep encrypted contents`. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+
+    ![](/images/desktop-apps/nusget/nusget-4123.png)
+1. Repeat the above step for `IOS 56 (v5661)`, `IOS 57 (v5918)` and `IOS 58 (v6175)`.
+1. When you have finished downloading the above IOS, navigate to the folder where your NUSGet executable is stored. This should now contain four different folders with the title IDs for the above IOS.
+
+    ![](/images/desktop-apps/nusget/nusget-folder-ios.png)
+1. Enter the four directories, locating a `IOS-XX-vXXXX-Wii.wad` file in each.
+
+    ![](/images/desktop-apps/nusget/nusget-ios-output.png)
 1. Place each WAD file on the root of your SD card or USB drive.
     + This must be the same device containing the d2x cIOS Installer.
+1. Ensure that each WAD file is named as listed below for compatability purposes with d2x-cios-installer:
 
+    | IOS         | File Name               |
+    | :---------: | :---------------------: |
+    | IOS 38      | IOS38-64-v4123.wad      |
+    | IOS 56      | IOS56-64-v5661.wad      |
+    | IOS 57      | IOS57-64-v5918.wad      |
+    | IOS 58      | IOS58-64-v6175.wad      |
 ::: info
 
 The WAD files should be on your SD card like this:
 
-![](/images/cios/d2x_offline_ios.png)
+![](/images/desktop-apps/nusget/nusget-ios-on-sd.png)
 
 :::
 

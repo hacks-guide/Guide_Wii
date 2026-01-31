@@ -22,7 +22,7 @@
 
 1. 오픈 샵 채널 웹사이트에서 추천하는 `.zip` 파일을 다운로드합니다.
 
-    ![](/images/osc/zip-download-HBB.png)
+   ![](/images/osc/zip-download-HBB.png)
 
 2. 보관 파일의 `apps` 폴더를 SD 카드나 USB 드라이브의 루트에 압축 해제합니다. 선택적으로, 보관소에는 홈브류 브라우저를 사용하는 방법에 대한 가이드도 제공됩니다.
 
@@ -52,19 +52,19 @@
 
 1. `oscdl-installer.exe`를 다운로드하고 설치 프로그램을 실행합니다. 선택적으로, 설치할 필요가 없고 휴대용 실행 파일로 실행되는 `oscdl-standalone.exe`를 다운로드할 수 있습니다.
 
-    ![](/images/osc/exe-download-OSCDL.png)
+   ![](/images/osc/exe-download-OSCDL.png)
 
 2. 설치 프로그램을 실행한 후, 프로세스가 완료되면 OSCDL을 시작합니다.
 
-    ![](/images/osc/install-finished-OSCDL.png)
+   ![](/images/osc/install-finished-OSCDL.png)
 
 3. 원하는 응용 프로그램을 찾은 후 다운로드 버튼을 누릅니다. 혹은, 앱을 Wii로 직접 보낼 수도 있습니다. (이렇게 하려면 컴퓨터와 Wii가 동일한 네트워크에 있어야 함)
 
-    ![](/images/osc/app-download-OSCDL.png)
+   ![](/images/osc/app-download-OSCDL.png)
 
-4. 직접 다운로드하는 경우 다운로드 위치를 묻는 대화 상자가 나타납니다. OSCDL은 앱 디렉토리가 있는 저장 장치를 감지하면 메시지를 표시하고, 거기에 다운로드한 경우 홈브류를 자동으로 압축 해제하여 사용할 수 있도록 준비합니다. 그렇지 않은 경우, 수동 다운로드 위치를 지정하여 직접 압축 해제 할 수도 있습니다.
+4. 직접 다운로드하는 경우 다운로드 위치를 묻는 대화 상자가 나타납니다. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. 그렇지 않은 경우, 수동 다운로드 위치를 지정하여 직접 압축 해제 할 수도 있습니다.
 
-    ![](/images/osc/download-prompt-OSCDL.png)
+   ![](/images/osc/download-prompt-OSCDL.png)
 
 5. SD 카드나 USB 드라이브를 Wii에 연결하고 홈브류 채널로 이동합니다. 이제 다운로드한 홈브류가 표시될 것입니다.
 
@@ -78,25 +78,25 @@
 
 1. 이러한 플랫폼에서 OSCDL을 사용하려면 파이선 3을 설치해야 합니다.
 
-    `.zip` 또는 `.tar.gz` 형식의 OSCDL 소스 코드를 다운로드합니다.
+   `.zip` 또는 `.tar.gz` 형식의 OSCDL 소스 코드를 다운로드합니다.
 
 2. OSCDL을 사용하고 싶은 컴퓨터의 위치에 보관 파일의 압축 해제합니다.
 
 3. 터미널에서 추출된 파일의 위치를 ​​열고 `pip install -r requirements.txt` 명령을 실행합니다. 이렇게 하면 OSCDL을 실행하는 데 필요한 Python 패키지가 다운로드됩니다.
 
-    ![](/images/osc/satisfy-requirements-OSCDL.png)
+   ![](/images/osc/satisfy-requirements-OSCDL.png)
 
 4. `python3 oscdl.py` 명령을 실행합니다. 그러면 프로그램이 열립니다. 원하는 경우, 이 명령을 실행하는 바탕 화면 바로 가기를 만들어 더 쉽게 접속할 수도 있습니다.
 
-    ![](/images/osc/run-OSCDL-terminal.png)
+   ![](/images/osc/run-OSCDL-terminal.png)
 
 5. 원하는 응용 프로그램을 찾은 후 다운로드 버튼을 누릅니다. 혹은, 앱을 Wii로 직접 보낼 수도 있습니다. (이렇게 하려면 컴퓨터와 Wii가 동일한 네트워크에 있어야 함)
 
-    ![](/images/osc/app-download-OSCDL-linux.png)
+   ![](/images/osc/app-download-OSCDL-linux.png)
 
-6. 직접 다운로드하는 경우 다운로드 위치를 묻는 대화 상자가 나타납니다. OSCDL은 앱 디렉토리가 있는 저장 장치를 감지하면 메시지를 표시하고, 거기에 다운로드한 경우 홈브류를 자동으로 압축 해제하여 사용할 수 있도록 준비합니다. 그렇지 않은 경우, 수동 다운로드 위치를 지정하여 직접 압축 해제 할 수도 있습니다.
+6. 직접 다운로드하는 경우 다운로드 위치를 묻는 대화 상자가 나타납니다. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. 그렇지 않은 경우, 수동 다운로드 위치를 지정하여 직접 압축 해제 할 수도 있습니다.
 
-    ![](/images/osc/download-prompt-OSCDL-linux.png)
+   ![](/images/osc/download-prompt-OSCDL-linux.png)
 
 7. SD 카드나 USB 드라이브를 Wii에 연결하고 홈브류 채널로 이동합니다. 이제 다운로드한 홈브류가 표시될 것입니다.
 

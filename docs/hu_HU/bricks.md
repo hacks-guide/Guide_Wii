@@ -79,7 +79,7 @@ Ellenőrizd az AnyRegion Changer programban, hogy a konzol régiója megegyezik-
 
 Ha ez egy telepített téma miatt történt, használd a [csm-installer](themes) programot az eredeti téma újratelepítéséhez.
 
-Ha a hibát egy telepített Wii Menu WAD okozta, töltsd le és telepítsd az eredeti Wii menüt a [NUS Downloader](https://wiibrew.org/wiki/NUSD) segítségével.
+Ha a hibát egy telepített Wii Menu WAD okozta, töltsd le és telepítsd az eredeti Wii menüt a [NUSGet](https://github.com/NinjaCheetah/NUSGet) segítségével.
 
 ::: danger
 
@@ -204,7 +204,7 @@ Ehhez BootMii-t kell boot2-ként használnod.
 
 Visszaállíthatsz egy NAND biztonsági másolatot, vagy a következőket teheted:
 
-1. Használd a [NUS Downloader](https://wiibrew.org/wiki/NUSD)-t, hogy egy WAD-ot készíts az eredeti Wii Menu-dből.
+1. Használd a [NUSGet](https://github.com/NinjaCheetah/NUSGet)-et, hogy egy WAD-ot készíts az eredeti Wii Menu-dből.
 2. Használd a BootMii-t a Homebrew Channel-re belépéshez és használj egy WAD manager-t a Wii Menu WAD telepítéséhez.
 
 vWii-hez tekintsd meg az [Egy vWii IOS/Channel helyreállítását](https://wiiu.hacks.guide/recover-vwii-ioses-channels).

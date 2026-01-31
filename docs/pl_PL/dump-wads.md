@@ -25,11 +25,11 @@ Ten poradnik pokaże jak zgrać WADy z pamięci systemowej.
 
 8. Naciśnij A.
 
-    ![](/images/homebrew/DumpWADS/1.png)
+   ![](/images/homebrew/DumpWADS/1.png)
 
 9. Wybierz `Installed Channel Titles`.
 
-    ![](/images/homebrew/DumpWADS/2.png)
+   ![](/images/homebrew/DumpWADS/2.png)
 
 10. Znajdź kanał, którą chcesz zrzucić i naciśnij przycisk 1.
 
@@ -49,7 +49,7 @@ Ten poradnik pokaże jak zgrać WADy z pamięci systemowej.
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-WAD został zgrany i powinien pojawić się w podanym katalogu na karcie SD lub dysku USB.
+The WAD has now been dumped, and should appear inside the specified folder on your SD card or USB drive.
 
 ![](/images/homebrew/DumpWADS/7.png)
 

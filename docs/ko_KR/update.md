@@ -11,10 +11,10 @@ Wii를 4.3으로 업데이트하려면 [ModMii](modmii) (윈도우용)를 사용
 ## 요구 사항
 
 - 홈브류 채널 1.0.8 이상이 있는 Wii
-    - 홈브류 채널이 없거나 오래된 경우 먼저 [여기서 시작](get-started)하여 (다시) 설치하세요.
+  - 홈브류 채널이 없거나 오래된 경우 먼저 [여기서 시작](get-started)하여 (다시) 설치하세요.
 - SD 카드 및 USB 드라이브
-- 윈도우가 설치된 컴퓨
-- [NUS 다운로더](https://github.com/WiiDatabase/nusdownloader/releases/latest)
+- A Windows/macOS/Linux computer
+- [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/)
 - [Priiloader](priiloader)
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
@@ -22,29 +22,33 @@ Wii를 4.3으로 업데이트하려면 [ModMii](modmii) (윈도우용)를 사용
 
 ### 섹션 I - 다운로드
 
-1. NUS 다운로더 Wii용 .zip 파일을 압축 해제하고 응용 프로그램을 엽니다.
-2. `데이터베이스...` > `시스템` > `0000000100000002 - 시스템 메뉴`로 가서 아래 표에 표시된 대로 해당 지역에 해당하는 버전을 선택합니다.
-3. `WAD 포장`이 체크되어 있는지 확인합니다.
-4. `NUS 다운로드 시작!`을 누릅니다.
-5. `titles` -> `0000000100000002` -> (Wii 메뉴 버전)을 열고 .wad 파일을 SD 카드나 USB 드라이브의 `wad`라는 폴더에 복사합니다.
-6. `IOS` -> `000000010000003A` -> `최신 버전` 및 `IOS` -> `0000000100000050` -> `최신 버전`으로 2~5 단계를 반복합니다.
-7. 3 개의 `.wad` 파일을 모두 복사한 후, PC에서 SD 카드/USB 드라이브를 꺼내서 Wii에 다시 연결합니다.
+1. On your computer, download NUSGet using the link above, choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
+2. Unzip the archive and run the NUSGet executable.
+3. Go to `System` > `0000000100000002 - System Menu` > `Your Region` and then select the latest 4.3 version of the menu (e.g. `v513 4.3U` for USA). Uncheck `Keep encrypted contents`. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
 
-| 지역 | Wii 메뉴 버전                                      |
-| -- | ---------------------------------------------- |
-| 일본 | v512 (4.3J) |
-| 미국 | v513 (4.3U) |
-| 유럽 | v514 (4.3E) |
-| 한국 | v518 (4.3K) |
+   ![](/images/desktop-apps/nusget/nusget-wiimenu-dl-alt.png)
+4. Go to `IOS` > `000000010000003A - IOS 58` > `World` > `Latest Version`. Uncheck `Keep encrypted contents`. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+
+   ![](/images/desktop-apps/nusget/nusget-ios58-dl.png)
+5. Go to `IOS` > `0000000100000050 - IOS 80` > `World` > `Latest Version`. Uncheck `Keep encrypted contents`. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+
+   ![](/images/desktop-apps/nusget/nusget-ios80-dl.png)
+6. When you have finished the above steps, navigate to the folder where your NUSGet executable is stored. This should now contain three different folders with the title IDs for the downloaded IOS and Wii menu files.
+
+   ![](/images/desktop-apps/nusget/nusget-folder-wiimenu-alt.png)
+7. Go into the folders corresponding to the title numbers for the above, and locate the singular WAD file in each. You will need to copy these to a folder called `wad` on your SD card or USB drive. The end result should include the files below in the folder:
+
+   ![](/images/desktop-apps/nusget/nusget-copy-wiimenu-sd.png)
+8. After you have copied all 3 WAD files, eject your SD card/USB drive from your PC and insert it back into your Wii.
 
 ### 섹션 II - 설치
 
 1. 콘솔의 전원을 끕니다. RESET 버튼을 누른 후, 다시 켭니다.
 2. Priiloader 메뉴에서 `Homebrew Channel`을 선택합니다.
-    - Priiloader 메뉴가 나오지 않을 경우, [즉시 설치](priiloader)를 합니다. 이 가이드에는 Priiloader가 필요합니다.
+   - Priiloader 메뉴가 나오지 않을 경우, [즉시 설치](priiloader)를 합니다. 이 가이드에는 Priiloader가 필요합니다.
 3. YAWM ModMii Edition을 실행합니다.
 4. SD 카드나 USB 드라이브를 선택합니다.
-5. Press + on the IOS80 and IOS58 WADs to highlight them, then press A twice to install.
+5. IOS80 및 IOS58 WAD 파일에서 + 버튼을 눌러 선택한 다음 A 버튼을 두 번 눌러 설치하세요.
 6. Wii 메뉴 WAD로 이동한 후 A 버튼을 두 번 눌러 설치합니다.
 7. Priiloader를 유지할지 묻는 메시지가 나타나면, A 버튼을 눌러 확인합니다.
 8. 설치가 완료되면, 홈 버튼을 눌러 홈브류 채널로 돌아갑니다.

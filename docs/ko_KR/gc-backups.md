@@ -4,7 +4,7 @@
 
 ## 요구 사항
 
-- A Windows PC
+- 윈도우 PC
 - SD 카드 및 USB 드라이브
 - [게임큐브 백업 매니저](https://github.com/AxionDrak/GameCube-Backup-Manager/releases)
 

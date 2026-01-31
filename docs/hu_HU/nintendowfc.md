@@ -190,7 +190,7 @@ A Wiimmfi patchelés egy módszere, amely játék-lemezképeken fut, de kézzel 
 1. Töltsd le a patchert, és csomagold ki a `.zip` fájlt.
 2. Nyisd meg a kicsomagolt mappát, és másold bele a Wii játék képeit.
    - Ha Windows rendszeren vagy, kattints duplán a `patch-images.bat` fájlra (ez „patch-images” Batch File néven is megjelenhet). Ha Cygwin-hez kapcsolódó problémákba ütközöl, próbáld meg helyette a `patch-images-32.bat` fájlt.
-   - Ha MacOS-t használsz, nyiss parancssort az aktuális mappában és a `chmod +x *.sh` paranccsal tedd futtathatóvá a shell szkriptet, majd futtasd a `./patch-images.sh` fájlt.
+   - Ha macOS-t használsz, nyiss parancssort az aktuális mappában és a `chmod +x *.sh` paranccsal tedd futtathatóvá a shell szkriptet, majd futtasd a `./patch-images.sh` fájlt.
    - Ha Linuxon vagy, kattints duplán a `patch-images.desktop` fájlra (ez „Patch Images” néven is megjelenhet), vagy futtasd a `./patch-images.sh` fájlt egy terminálban, miután a `chmod +x *.sh` paranccsal futtathatóvá tetted.
 3. Ha a fentiek sikeresek voltak, akkor egy ablaknak kell felugrania, amely a patch folyamatot jeleníti meg. Ha a folyamat befejeződött, a javított képfájlokat a `wiimmfi-images` nevű mappában találod.
 

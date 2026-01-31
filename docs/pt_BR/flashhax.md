@@ -15,19 +15,19 @@ FlashHax é um exploit para o Wii que é ativado usando o Internet Channel. Dife
 
 2. Launch the Internet Channel.
 
-    ![](/images/exploits/flashhax/internet-channel-start.png)
+   ![](/images/exploits/flashhax/internet-channel-start.png)
 
 3. Go to `flashhax.com`.
 
 4. Select the correct region for your console.
 
-    ![](/images/exploits/flashhax/select-region.png)
+   ![](/images/exploits/flashhax/select-region.png)
 
 5. Press the star button to open the bookmark tab.
 
 6. Select `Add Favorite`.
 
-    ![](/images/exploits/flashhax/bookmark-page.png)
+   ![](/images/exploits/flashhax/bookmark-page.png)
 
 ### Section II - FlashHax
 
@@ -35,13 +35,13 @@ FlashHax é um exploit para o Wii que é ativado usando o Internet Channel. Dife
 
 2. Wait a while
 
-    - Pode levar algum tempo, pois está fazendo o download do instalador pela Internet.
+   - Pode levar algum tempo, pois está fazendo o download do instalador pela Internet.
 
-    ![](/images/exploits/flashhax/wait-for-download.png)
+   ![](/images/exploits/flashhax/wait-for-download.png)
 
 3. If the exploit was successful, your device will have loaded the HackMii Installer.
-    - This may take multiple tries.
-    - Abra o Internet Channel no seu Wii.
+   - This may take multiple tries.
+   - Abra o Internet Channel no seu Wii.
 
 Se você ainda não conseguiu carregá-lo, tente excluir seus cookies ou salvar dados no Internet Channel.
 

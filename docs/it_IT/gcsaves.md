@@ -42,19 +42,19 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 2. Seleziona il dispositivo da cui vuoi ripristinare.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 3. Su GCMM, premi X su un controller GameCube o + su un telecomando Wii.
 
-    ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
 4. Seleziona lo slot in cui la memory card è inserita.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 5. Seleziona il salvataggio che vuoi ripristinare. Se hai più salvataggi da ripristinare, puoi premere R sul controller GameCube o 1 sul telecomando Wii per ripristinare tutti i tuoi salvataggi.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
 6. Appena completato il ripristino, premi un pulsante qualsiasi per continuare.
 
@@ -80,19 +80,19 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 2. Seleziona il dispositivo su cui vuoi fare il backup.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 3. Su GCMM, premi Y su un controller GameCube o - su un telecomando Wii.
 
-    ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
 4. Seleziona lo slot in cui la memory card è inserita.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 5. Seleziona il salvataggio di cui vuoi farne il backup. Se hai più salvataggi da cui farne il backup, puoi premere R sul controller GameCube o 1 sul telecomando Wii per fare il backup di tutti i tuoi salvataggi.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
 6. Appena completato il backup, premi un pulsante qualsiasi per continuare.
 
@@ -117,11 +117,11 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 2. Seleziona il dispositivo su cui vuoi fare il dump.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 3. Premi L e Y simultaneamente sul controller GameCube oppure B e - simultaneamente sul telecomando Wii per fare il backup su file .raw e seleziona lo slot in cui la memory card è inserita.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 4. Appena completato il dump, premi un pulsante qualsiasi per continuare. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
 
@@ -143,13 +143,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 4. Seleziona il dispositivo da cui vuoi ripristinare.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 5. Premi L e X simultaneamente sul controller GameCube oppure B e + simultaneamente sul telecomando Wii.
 
 6. Seleziona lo slot in cui la memory card è inserita.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 7. Dovrebbe aver ripristinato il file .raw sulla tua memory card. Appena completato il ripristino, premi un pulsante qualsiasi per continuare. Appena completato il ripristino, premi un pulsante qualsiasi per continuare.
 
@@ -166,13 +166,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 2. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
 
-    ![](/images/homebrew/gcsaves/sysmenu.jpg)
+   ![](/images/homebrew/gcsaves/sysmenu.jpg)
 
-    ![](/images/homebrew/gcsaves/settings.jpg)
+   ![](/images/homebrew/gcsaves/settings.jpg)
 
-    ![](/images/homebrew/gcsaves/data-management.jpg)
+   ![](/images/homebrew/gcsaves/data-management.jpg)
 
-    ![](/images/homebrew/gcsaves/save-data.jpg)
+   ![](/images/homebrew/gcsaves/save-data.jpg)
 
 3. Find the save you want, select it and select `Move or Copy`.
 

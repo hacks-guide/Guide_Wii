@@ -27,55 +27,55 @@ BootMii를 boot2로 설치한 경우 콘솔을 다시 시작하여 BootMii를 �
 
 3. Press the HOME Button, then select "Launch BootMii".
 
-    ![](/images/bootmii/BootMii_HBC.png)
+   ![](/images/bootmii/BootMii_HBC.png)
 
-    ::: warning
+   ::: warning
 
-    홈브류 채널에 `BootMii 실행` 버튼이 나타나지 않으면 [HackMii 설치 프로그램을 다시 실행](hackmii)하고 BootMii를 설치합니다.
+   홈브류 채널에 `BootMii 실행` 버튼이 나타나지 않으면 [HackMii 설치 프로그램을 다시 실행](hackmii)하고 BootMii를 설치합니다.
 
-    :::
+   :::
 
-    ::: warning
+   ::: warning
 
-    화면이 검은색으로 유지되고 파란색 디스크 드라이브 표시등이 깜박이면 SD 카드에 BootMii 파일이 누락된 것입니다. [이 zip 파일](/assets/files/bootmii_sd_files.zip)을 다운로드하고 SD 카드의 루트에 압축을 푼 다음 다시 시도합니다.
+   화면이 검은색으로 유지되고 파란색 디스크 드라이브 표시등이 깜박이면 SD 카드에 BootMii 파일이 누락된 것입니다. [이 zip 파일](/assets/files/bootmii_sd_files.zip)을 다운로드하고 SD 카드의 루트에 압축을 푼 다음 다시 시도합니다.
 
-    :::
+   :::
 
 4. 이제 화면에 아래와 비슷한 이미지가 표시되어야 합니다:
 
-    ![](/images/bootmii/BootMii_Main.png)
+   ![](/images/bootmii/BootMii_Main.png)
 
-    ::: info
+   ::: info
 
-    Wii 리모컨으로는 BootMii를 탐색할 수 없습니다.
-    콘솔의 전원 및 재설정 버튼 또는 포트 1에 연결된 게임큐브 컨트롤러를 사용해야 합니다.
-    옵션 사이를 이동하려면 POWER 버튼을 누릅니다. 옵션을 선택하려면 RESET 버튼을 누릅니다.
+   Wii 리모컨으로는 BootMii를 탐색할 수 없습니다.
+   콘솔의 전원 및 재설정 버튼 또는 포트 1에 연결된 게임큐브 컨트롤러를 사용해야 합니다.
+   옵션 사이를 이동하려면 POWER 버튼을 누릅니다. 옵션을 선택하려면 RESET 버튼을 누릅니다.
 
-    :::
+   :::
 
 5. 옵션 버튼 (톱니바퀴가 있는 아이콘) 을 선택합니다.
 
-    ![](/images/bootmii/BootMii_Gears.png)
+   ![](/images/bootmii/BootMii_Gears.png)
 
 6. 왼쪽의 첫 번째 버튼을 선택합니다.
 
-    ![](/images/bootmii/BootMii_Backup.png)
+   ![](/images/bootmii/BootMii_Backup.png)
 
 7. NAND 백업이 시작됩니다. 화면에서 진행 상황을 확인할 수 있습니다.
 
-    - "배드 블록"은 정상적입니다. NAND 백업 중 일부가 보이더라도 걱정하지 마세요.
+   - "배드 블록"은 정상적입니다. NAND 백업 중 일부가 보이더라도 걱정하지 마세요.
 
-    ![](/images/bootmii/BootMii_NAND_Backup.png)
+   ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 8. 이 단계가 끝나면, 백업을 확인합니다. 이상적으로는 검증 과정 이후 모든 블록이 녹색이 ​​되어야 합니다.
 
-    - 수정할 수 없는 페이지가 포함된 공장 불량 블록이 있는 경우 이러한 블록은 검증에 실패할 수 있습니다. 모든 불량이 아닌 블록이 성공적으로 검증된다면 문제가 없을 것입니다.
+   - 수정할 수 없는 페이지가 포함된 공장 불량 블록이 있는 경우 이러한 블록은 검증에 실패할 수 있습니다. 모든 불량이 아닌 블록이 성공적으로 검증된다면 문제가 없을 것입니다.
 
-    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
+   ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
 9. BootMii를 종료하려면 뒤로 버튼 (화살표가 있는 버튼) 을 누른 다음 Wii 메뉴 버튼 또는 홈브류 채널 버튼을 눌러 원하는 위치에서 종료할 수 있습니다.
 
-    ![](/images/bootmii/BootMii_Return.png)
+   ![](/images/bootmii/BootMii_Return.png)
 
 ::: info
 

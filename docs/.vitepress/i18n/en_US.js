@@ -661,7 +661,7 @@ const themeConfig = {
 		],
 	},
 	footer: {
-		copyright: 'Copyright © 2025 Nintendo Homebrew',
+		copyright: 'Copyright © 2026 Nintendo Homebrew',
 		items: [
 			{ text: localeData.pages["donations"], link: `/donations` },
 			{ text: localeData.pages["privacy-policy"], link: `/privacy-policy` },

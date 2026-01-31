@@ -20,13 +20,13 @@ SysCheck는 Wii에 있는 모든 IOS 및 cIOS가 표시되며, 각 항목에 대
 
 2. 화면에 "이 IOS를 테스트합니다 (선택해 주세요)"가 표시되면 A 버튼을 누릅니다.
 
-    ![](/images/homebrew/syscheck/syscheck_chooseios.png)
+   ![](/images/homebrew/syscheck/syscheck_chooseios.png)
 
 3. 프로그램이 IOS에 대한 정보를 얻을 때까지 기다립니다.
 
 4. 완료된 후 로그를 보려면 `A` 버튼을 누릅니다.
 
-    ![](/images/homebrew/syscheck/syscheck_success.png)
+   ![](/images/homebrew/syscheck/syscheck_success.png)
 
 5. SysCheck를 공유하려면 SD 카드나 USB 드라이브의 루트에 있는 `syscheck.csv` 파일을 공유하면 됩니다. `A` 버튼을 눌러 보고서를 [syscheck.rc24.xyz](http://syscheck.rc24.xyz/)에 업로드할 수도 있습니다.
 

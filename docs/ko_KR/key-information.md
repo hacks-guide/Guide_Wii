@@ -44,7 +44,7 @@ Wii U의 USB 포트만으로는 충분한 전력을 공급할 수 없으므로 �
 
 :::: details Wii 미니를 가지고 있다면?
 
-Wii Mini is supported and has compatibility with most existing homebrew.
+Wii 미니는 대부분의 기존 홈브류와 호환되며 지원됩니다.
 누락된 Wii 기능을 복구할 수 있습니다. LAN 어댑터와 USB 허브를 권장합니다.
 홈브류에 여러 버전이 있는 경우, Wii 미니용으로 설계된 버전을 사용해야 합니다.
 Wii 미니용으로 특별히 설계된 iOS의 경우, 벽돌을 피하기 위해 특히 조심해야 합니다.
@@ -53,11 +53,11 @@ Wii 미니용으로 특별히 설계된 iOS의 경우, 벽돌을 피하기 위�
 
 ## 저장소 호환성
 
-SD 카드의 경우, 익스플로잇을 실행하려면 최소 128MB가 필요합니다. 하지만, 평균적으로 2GB 이상 크기의 카드가 필요합니다. The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**not** exFAT or NTFS).
+SD 카드의 경우, 익스플로잇을 실행하려면 최소 128MB가 필요합니다. 하지만, 평균적으로 2GB 이상 크기의 카드가 필요합니다. Wii는 용량에 상관없이 모든 SD 카드 (32GB보다 큰 카드 포함)를 읽을 수 있지만, 카드는 [FAT32/MS-DOS 형식으로 포맷](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)(exFAT 또는 NTFS 형식은 **안 됨**)되어 있어야 합니다.
 
-For USB devices, you will want to use a USB hard drive or solid state drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). 플래시 드라이브는 Wii에서 고장이 나거나 의도한 대로 작동하지 않을 수 있으므로 사용하지 않는 것이 좋습니다.
+USB 장치의 경우 [FAT32/MS-DOS 형식으로 포맷된](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) USB 하드 드라이브 또는 솔리드 스테이트 드라이브를 사용하는 것이 좋습니다. 플래시 드라이브는 Wii에서 고장이 나거나 의도한 대로 작동하지 않을 수 있으므로 사용하지 않는 것이 좋습니다.
 
-2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch drives consume more power and will always need an external power adapter. For Wii U and Wii mini users, you will probably want to use an externally powered USB hub or a Y-cable for drives that operate off of USB power alone, due to power draw.
+대부분의 경우 2.5인치 드라이브는 Wii에서 USB 전원만으로 문제없이 작동하지만, 3.5인치 드라이브는 전력 소모가 더 많으므로 항상 외부 전원 어댑터가 필요합니다. Wii U 및 Wii 미니 사용자의 경우, 전력 소모 때문에 USB 전원만으로 작동하는 드라이브에는 외부 전원 공급 USB 허브 또는 Y 케이블을 사용하는 것이 좋습니다.
 
 자세한 내용은 [저장소 자주 묻는 질문](faq#storage-device-faq)를 참조합니다.
 
@@ -65,7 +65,7 @@ For USB devices, you will want to use a USB hard drive or solid state drive [for
 
 Wii는 오래된 콘솔이기 때문에 최신 무선 네트워크에 연결하는 데 어려움이 있을 수 있습니다.
 
-Its network hardware is based on 802.11g (retroactively named Wi-Fi 3), which operates on the 2.4 GHz band. 또한 최대 WPA2-PSK (AES) 개인 네트워크 암호화도 지원합니다. You must make sure your network supports these standards if you would like to use Wi-Fi with your Wii.
+이 제품의 네트워크 하드웨어는 2.4 GHz 대역에서 작동하는 802.11g (이후 Wi-Fi 3으로 명칭 변경)를 기반으로 합니다. 또한 최대 WPA2-PSK (AES) 개인 네트워크 암호화도 지원합니다. Wii에서 Wi-Fi를 사용하려면 네트워크가 이러한 표준을 지원하는지 확인해야 합니다.
 
 Wii U의 경우 vWii는 Wii U 기본 설정에서 설정한 인터넷 설정을 그대로 사용하지만, [Wii VC 실행](https://hb-app.store/wiiu/WiiVCLaunch) 아로마 플러그인을 이용해 선택적으로 분리할 수 있습니다.
 

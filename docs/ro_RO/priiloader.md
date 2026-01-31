@@ -14,7 +14,7 @@
 
 - Un card SD
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
-    - [Aroma](https://wiiu.hacks.guide/aroma/getting-started) must be installed on your console for the Priiloader Wii U Forwarder to function.
+  - [Aroma](https://wiiu.hacks.guide/aroma/getting-started) must be installed on your console for the Priiloader Wii U Forwarder to function.
 
 ## Instructions
 
@@ -35,13 +35,13 @@
 
 3. Launch Priiloader Installer from the list of homebrew.
 
-    ![](/images/hbc/priiloader-and-loadpriiloader.png)
+   ![](/images/hbc/priiloader-and-loadpriiloader.png)
 
 4. Apasă butonul + pe Wii Remote sau butonul A pe un controller GameCube.
 
-    ![](/images/priiloader/installer.png)
+   ![](/images/priiloader/installer.png)
 
-    ![](/images/priiloader/installing.png)
+   ![](/images/priiloader/installing.png)
 
 5. Apasă A pentru a te întoarce în Homebrew Channel.
 
@@ -50,46 +50,46 @@
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 2. Dispozitivul tău va încărca meniul Priiloader.
 
-    ![](/images/priiloader/menu.png)
+   ![](/images/priiloader/menu.png)
 
 În viitor, pentru a intra în Priiloader vei putea:
 
 - Ține apăsat RESET pe un Wii în timp ce îl pornești
-    - Doar pentru Wii
+  - Doar pentru Wii
 - Ține apăsat tasta ESC pe o tastatură USB conectată în timp ce pornești consola
-    - Wii, vWii și Mini
+  - Wii, vWii și Mini
 - Rula unealta "Load Priiloader" din HBC
-    - Wii, vWii și Mini
+  - Wii, vWii și Mini
 - Rula unealta "Priiloader Wii U Forwarder"
-    - Doar pentru vWii
+  - Doar pentru vWii
 
 ### Secțiunea IV - Configurarea Priiloader
 
 1. Scroll down to `System Menu Hacks` and press `A`.
 
-    ![](/images/priiloader/menu_hacks.png)
+   ![](/images/priiloader/menu_hacks.png)
 
-    ::: warning
+   ::: warning
 
-    If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
+   If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
 
-    Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
+   Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
-    :::
+   :::
 
 2. Pentru următoarele opțiuni, activează opțiunile în funcție de consola ta:
-    - Wii:
-        - If you are using 480p mode: `480p graphics fix in the system menu`
-        - Block Disc Updates
-        - Block Online Updates
-        - If you are NOT using a CRT display: `Remove Deflicker`
-    - vWii:
-        - Block Online Updates
-        - Wii System Settings via Options Button
-        - If you are NOT using a CRT display: `Remove Deflicker`
-    - Wii mini:
-        - Block Disc Updates
-        - If you are NOT using a CRT display: `Remove Deflicker`
+   - Wii:
+     - If you are using 480p mode: `480p graphics fix in the system menu`
+     - Block Disc Updates
+     - Block Online Updates
+     - If you are NOT using a CRT display: `Remove Deflicker`
+   - vWii:
+     - Block Online Updates
+     - Wii System Settings via Options Button
+     - If you are NOT using a CRT display: `Remove Deflicker`
+   - Wii mini:
+     - Block Disc Updates
+     - If you are NOT using a CRT display: `Remove Deflicker`
 
 3. Scroll down to `save settings` and press A.
 

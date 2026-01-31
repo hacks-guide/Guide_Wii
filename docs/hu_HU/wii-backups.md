@@ -1,6 +1,6 @@
 # Wii mentések kezelése
 
-Ez az útmutató végigvezet a Wii mentések kezelésének különböző részletein, a CleanRip által kiadott .PART-fájlok összekapcsolásától a játékfájlok zsugorításáig, hogy ráférjenek egy FAT32-eszközre. A továbbiakban két programot fogunk kiemelni: a Wii Backup Managert (Windowsra) és a Wii Backup Fusiont (Linuxra és Mac-re).
+Ez az útmutató végigvezet a Wii mentések kezelésének különböző részletein, a CleanRip által kiadott .PART-fájlok összekapcsolásától a játékfájlok zsugorításáig, hogy ráférjenek egy FAT32-eszközre. A továbbiakban két programot fogunk kiemelni: a Wii Backup Managert (Windows-ra) és a Wii Backup Fusiont (Linux-ra és macOS-re).
 
 ::: info
 
@@ -56,7 +56,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
    ![](/images/desktop-apps/WBM/dumpedpartfileslinux.png)
 
-2. Open a terminal in the directory where your files are at, or `cd [PATH]` to it.
+2. Nyiss meg egy terminálablakot a fájlokat tartalmazó mappában vagy `cd [útvonal]`-lal lépj bele.
 
    ![](/images/desktop-apps/WBM/openterminallinux.png)
 
@@ -104,7 +104,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
 ### Követelmények
 
-- A PC running MacOS or Linux
+- A PC running macOS or Linux
 - A USB drive or SD card
 - A dumped ISO from a Wii game disc
 - A [Wii Backup Fusion](https://github.com/larsenv/Wii-Backup-Fusion/releases)
@@ -128,7 +128,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
    ![](/images/desktop-apps/WBM/loadwbf.png)
 
-2. Select the directory where your game ISO is at.
+2. Select the folder where your game ISO is located.
 
    ![](/images/desktop-apps/WBM/opendirectorywbf.png)
 
@@ -136,9 +136,9 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
 
    ![](/images/desktop-apps/WBM/settingswbf.png)
 
-4. If there is not already a `wbfs` directory on your game drive, make one.
+4. If there is not already a `wbfs` folder on your game drive, make one.
 
-5. Make another directory inside of the `wbfs` folder for the game backup. Take note of the Game ID in Wii Backup Fusion as you will need this for the game folder.
+5. Make another folder inside of the `wbfs` folder for the game backup. Take note of the Game ID in Wii Backup Fusion as you will need this for the game folder.
 
 6. Make a game folder for your game, formatted as `game name [GAMEID]`. For the game dumped as an example in this guide, it would be named `New Super Mario Bros. Wii [SMNE01]`.
 

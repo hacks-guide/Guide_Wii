@@ -25,11 +25,11 @@
 
 8. 请按 A 键。
 
-    ![](/images/homebrew/DumpWADS/1.png)
+   ![](/images/homebrew/DumpWADS/1.png)
 
 9. Select `Installed Channel Titles`.
 
-    ![](/images/homebrew/DumpWADS/2.png)
+   ![](/images/homebrew/DumpWADS/2.png)
 
 10. 找到您想要转储的内容，然后按 1。
 
@@ -49,7 +49,7 @@
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-The WAD has now been dumped, and should appear at the specified directory on your SD card or USB drive.
+The WAD has now been dumped, and should appear inside the specified folder on your SD card or USB drive.
 
 ![](/images/homebrew/DumpWADS/7.png)
 

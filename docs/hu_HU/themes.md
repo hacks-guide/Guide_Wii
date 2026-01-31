@@ -62,51 +62,59 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 ::::
 
-:::: tab (Wii) NUS Downloader-rel
+:::: tab (Wii) NUSGet-tel
 
-1. A számítógépeden töltsd le a [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)-t.
-2. Másold ki az NUS Downloader `.zip` fájljának tartalmát egy mappába.
-3. Futtasd a `NUS Downloader.exe` fájlt.
-4. Navigálja a `Database` -> `System` -> `System Menu` opcióhoz.
-5. Válaszd ki a Wii menu verziódnak megfelelő verziót.
-6. Jelöld be a`Create decrypted contents (*.app)` dobozt.
-7. Kattints a `Start NUS Download!` gombra.
-8. A letöltés végeztével találni fogsz egy `titles` mappát a NUS Downloader mappájában.
-9. Nyisd meg a `titles` mappát, majd azon belül a `0000000100000002` mappát.
-10. Keresd meg a **legnagyobb .app fájlt** (általában 6~7MB) a mappában.
-11. Hozz létre egy `themes` mappát az SD-kártya/USB-eszköz gyökerében.
-12. Másold az.app fájlt a frissen létrehozott `themes` mappába. Ez az alap téma, amit használni fogsz az egyéni témád létrehozásához.
+1. A számítógépeden töltsd le a [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/) rendszerednek megfelelő verzióját. A Windows felhasználók a `NUSGet-Windows-x86_64-bin.zip` fájlt kell válasszák.
+2. Csomagold ki a NUSGet futtatható állományt és indítsd el.
+3. Navigálj `System` > `System Menu` > `Your Region` opcióhoz, majd válaszd a Wii menü verziót amit futtatsz. Jelöld be a`Create decrypted contents (*.app)` opciót. Jelöld be a `Use a custom download directory` opciót és válaszd a mappát ahol a NUSGet futtatható állomány is található, majd kattints a `Start Download` opcióra.
+
+   ![](/images/desktop-apps/nusget/nusget-wiimenu-dl.png)
+4. Ha befejeződött a Wii menü fájlok letöltése, navigálj a mappába, ahol a NUSGet futtatható állomány található. Meg kell keresned és nyitnod benne a `0000000100000002` mappát.
+
+   ![](/images/desktop-apps/nusget/nusget-folder-wiimenu.png)
+5. Keresd meg a **legnagyobb .app fájlt** (általában ~6-7 Mb) a mappában.
+
+   ![](/images/desktop-apps/nusget/nusget-wiimenu-output.png)
+6. Hozz létre egy `themes` mappát az SD-kártya/USB-eszköz gyökerében.
+7. Másold az.app fájlt a frissen létrehozott `themes` mappába. Ez az alap téma, amit használni fogsz az egyéni témád létrehozásához.
 
 ::::
 
-:::: tab (vWii) NUS Downloader-rel
+:::: tab (vWii) NUSGet-tel
 
-1. A számítógépeden töltsd le a [NUS Downloader (vWii)](/assets/files/NUSDownloader-vwii.zip)-t
-2. Másold ki az vWii NUS Downloader `.zip` fájljának tartalmát egy mappába a számítógépeden.
-3. Futtasd a `NUS Downloader.exe` fájlt.
-4. Navigálja a `Database` -> `System` -> `System Menu` opcióhoz.
-5. Válaszd az alábbi táblázatból azt a verziót, ami megfelel a Wii U-d régiójának:
+1. A számítógépeden töltsd le a [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/) rendszerednek megfelelő verzióját. A Windows felhasználók a `NUSGet-Windows-x86_64-bin.zip` fájlt kell válasszák.
 
-| Regió  | vWii Menu verzió |
-| ------ | ---------------- |
-| Japán  | v608             |
-| USA    | v609             |
-| Európa | v610             |
+2. Csomagold ki a NUSGet futtatható állományt és indítsd el.
 
-1. Jelöld be a`Create decrypted contents (*.app)` dobozt.
-2. Kattints a `Start NUS Download!` gombra.
-3. A letöltés végeztével találni fogsz egy `titles` mappát a NUS Downloader mappájában.
-4. Nyisd meg a `titles` mappát, majd azon belül a `0000000700000002` mappát.
-5. Keresd azt az .app fájlt, ami az alábbi táblázatból megfelel a Wii U-d régiójának:
+3. Válaszd a `vWii` fület és navigálj `System` > `System Menu` > `Your Region` opcióhoz.
 
-| Regió  | .app fájl    |
-| ------ | ---------------------------- |
-| Japán  | 0000001c.app |
-| USA    | 0000001f.app |
-| Európa | 00000022.app |
+4. Válaszd az alábbi táblázatból azt a verziót, ami megfelel a Wii U-d régiójának:
 
-1. Hozz létre egy `themes` mappát az SD-kártya/USB-eszköz gyökerében.
-2. Másold az.app fájlt a frissen létrehozott `themes` mappába. Ez az alap téma, amit használni fogsz az egyéni témád létrehozásához.
+   |  Regió |                                        vWii Menu verzió                                        |
+   | :----: | :--------------------------------------------------------------------------------------------: |
+   |  Japán | v608 (4.3J - Wii U v5.2.0J) |
+   |   USA  | v609 (4.3U - Wii U v5.2.0U) |
+   | Európa | v610 (4.3E - Wii U v5.2.0E) |
+
+5. Jelöld be a`Create decrypted contents (*.app)` dobozt. Jelöld be a `Use a custom download directory` opciót és válaszd a mappát ahol a NUSGet futtatható állomány is található, majd kattints a `Start Download` opcióra.
+
+   ![](/images/desktop-apps/nusget/nusget-vwiimenu-dl.png)
+
+6. Ha befejeződött a Wii menü fájlok letöltése, navigálj a mappába, ahol a NUSGet futtatható állomány található. Meg kell keresned és nyitnod benne a `0000000700000002` mappát.
+
+   ![](/images/desktop-apps/nusget/nusget-folder-vwiimenu.png)
+
+7. Keresd azt az .app fájlt, ami az alábbi táblázatból megfelel a Wii U-d régiójának:
+
+   |  Regió |   .app fájl  |
+   | :----: | :--------------------------: |
+   |  Japán | 0000001C.app |
+   |   USA  | 0000001F.app |
+   | Európa | 00000022.app |
+
+8. Hozz létre egy `themes` mappát az SD-kártya/USB-eszköz gyökerében.
+
+9. Másold az.app fájlt a frissen létrehozott `themes` mappába. Ez az alap téma, amit használni fogsz az egyéni témád létrehozásához.
 
 ::::
 

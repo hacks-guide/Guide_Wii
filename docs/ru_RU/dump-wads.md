@@ -49,7 +49,7 @@
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-WAD был дампнут и должен появиться в указанном каталоге на SD карте или USB накопителе.
+The WAD has now been dumped, and should appear inside the specified folder on your SD card or USB drive.
 
 ![](/images/homebrew/DumpWADS/7.png)
 

@@ -10,7 +10,7 @@ outline: false
 
 ## BlueBomb Classic
 
-:::details Technical Details (optional)
+:::details Detalhes técnicos (opcional)
 
 BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
@@ -20,19 +20,19 @@ This exploit also enables recovery from certain bricks, such as banner bricks an
 
 ::: warning
 
-It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+É **fortemente** aconselhado a não usar **qualquer** guia de vídeo para hackear seu console Wii mini, pois há uma chance extremamente grande de **brickar o console**.
 
 :::
 
 ::: info
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Se você precisar de ajuda com qualquer coisa sobre este tutorial, junte-se [ao servidor de Discord do Wii mini Hacking ](https://discord.gg/6ryxnkS) (recomendado)
 
 :::
 
 ::: info
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+Se você está usando o Wii original, você provavelmente deveria encontrar outro exploit para usar pois existem maneiras mais fáceis de chegar ao Instalador do HackMii. Exceptions however, exist in circumstances like brick recovery.
 
 :::
 
@@ -145,7 +145,7 @@ Make sure that the console is close to the computer running the exploit, ideally
 
 ## BlueBomb Micro
 
-:::details Technical Details (optional)
+:::details Detalhes técnicos (opcional)
 
 This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
@@ -153,19 +153,19 @@ This exploit also enables recovery from certain bricks, such as banner bricks an
 
 ::: warning
 
-It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+É **fortemente** aconselhado a não usar **qualquer** guia de vídeo para hackear seu console Wii mini, pois há uma chance extremamente grande de **brickar o console**.
 
 :::
 
 ::: info
 
-If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+Se você precisar de ajuda com qualquer coisa sobre este tutorial, junte-se [ao servidor de Discord do Wii mini Hacking](https://discord.gg/6ryxnkS) (recomendado)
 
 :::
 
 ::: info
 
-If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+Se você está usando o Wii original, você provavelmente deveria encontrar [outro exploit para usar](get-started) pois existem maneiras mais fáceis de chegar ao Instalador do HackMii. Exceptions however, exist in circumstances like brick recovery.
 
 :::
 

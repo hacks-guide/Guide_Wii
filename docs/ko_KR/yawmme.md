@@ -19,25 +19,25 @@ YAWM ModMii Edition은 WAD를 설치하고 홈브류 응용 프로그램을 실�
 
 1. 설치하려는 WAD 파일이 있는 소스 장치를 선택하세요.
 
-    ![](/images/homebrew/yawmME/source_device.png)
+   ![](/images/homebrew/yawmME/source_device.png)
 
 2. WAD 파일이 있는 폴더로 이동합니다.
 
-    - `wad`라는 폴더가 있으면, 자동으로 열립니다.
+   - `wad`라는 폴더가 있으면, 자동으로 열립니다.
 
-    ![](/images/homebrew/yawmME/file_selection.png)
+   ![](/images/homebrew/yawmME/file_selection.png)
 
 3. 설치하려는 WAD 파일로 이동한 후 `A` 버튼을 누르세요.
 
-    - 한 번에 여러 개의 WAD 파일을 설치하려면 각 파일에서 `+` 버튼을 누른 다음 `A` 버튼을 누르세요.
+   - 한 번에 여러 개의 WAD 파일을 설치하려면 각 파일에서 `+` 버튼을 누른 다음 `A` 버튼을 누르세요.
 
-    ![](/images/homebrew/yawmME/install_wad.png)
+   ![](/images/homebrew/yawmME/install_wad.png)
 
 4. 다시 A 버튼을 눌러 WAD를 설치하세요.
 
-    ![](/images/homebrew/yawmME/installing_wad.png)
+   ![](/images/homebrew/yawmME/installing_wad.png)
 
-    ![](/images/homebrew/yawmME/installing_wad_ok.png)
+   ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
 ::: tip
 

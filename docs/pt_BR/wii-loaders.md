@@ -24,23 +24,23 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 
 - WiiFlow Lite tem uma interface de usuário mais avançada em termos de animação e efeitos, e suporta temas.
 
-    - Cartões SD são totalmente suportados para carregar jogos do Wii no WiiFlow Lite.
-    - WiiFlow Lite tem um sistema de plugins.
-    - O WiiFlow original foi atualizado pela última vez em 2014, o fork WiiFlow Lite ainda está recebendo atualizações regulares.
+  - Cartões SD são totalmente suportados para carregar jogos do Wii no WiiFlow Lite.
+  - WiiFlow Lite tem um sistema de plugins.
+  - O WiiFlow original foi atualizado pela última vez em 2014, o fork WiiFlow Lite ainda está recebendo atualizações regulares.
 
-    ![](/images/usb-loaders/wiiflow-ui.png)
+  ![](/images/usb-loaders/wiiflow-ui.png)
 
 - O USB Loader GX é principalmente modelado como o menu do Wii e suporta temas.
 
-    - Enquanto os cartões SD anteriormente não eram suportados para carregar jogos Wii no USB Loader GX, as atualizações recentes introduziram suporte ao Loader.
-    - O USB Loader GX não possui um sistema de plugins.
-    - USB Loader GX still receives regular updates.
+  - Enquanto os cartões SD anteriormente não eram suportados para carregar jogos Wii no USB Loader GX, as atualizações recentes introduziram suporte ao Loader.
+  - O USB Loader GX não possui um sistema de plugins.
+  - USB Loader GX still receives regular updates.
 
-    ![](/images/usb-loaders/usbloadergx-ui.png)
+  ![](/images/usb-loaders/usbloadergx-ui.png)
 
-## Estrutura de diretório dos jogos
+## Game Folder Structure
 
-Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if it is over 4 GB and your storage device is formatted as FAT32. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game directory structure correctly.
+Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if it is over 4 GB and your storage device is formatted as FAT32. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game folder structure correctly.
 
 ```
 💾SD card or USB:
@@ -173,7 +173,7 @@ To change the cIOS used for a specific game, follow the instructions specific to
 3. Select `Game Load`.
 4. Scroll down to `Game IOS`.
 5. Enter the IOS slot to use.
-    - Try using 248, 249, 250 or 251.
+   - Try using 248, 249, 250 or 251.
 6. Press OK and try to load the game.
 
 ### http://www.wiithemer.org/
@@ -181,11 +181,11 @@ To change the cIOS used for a specific game, follow the instructions specific to
 1. Select the game that isn't working.
 2. Click the gear icon.
 3. Go to cIOS and use the arrows to select the IOS slot to use.
-    - Try using 248, 249, 250 or 251.
+   - Try using 248, 249, 250 or 251.
 4. Press Save and try to load the game.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Clique aqui para voltar para o índice do site.](site-navigation)
 
 :::

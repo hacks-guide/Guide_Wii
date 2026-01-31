@@ -19,7 +19,7 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
   - Double check that nanddumper is selected.
   - Click on `Download Payloads`.
   - Click on `Download Base Aroma`.
-- The latest release of the [Compat Title Installer](https://hb-app.store/wiiu/CompatTitleInstaller).
+- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`)
 
 ## Instrucciones
 
@@ -27,7 +27,7 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
 
 1. Insert your Wii U's SD Card into your PC.
 2. Copy the contents of the downloaded Aroma _`.zip`_ files to the root of your SD Card.
-3. Copy the contents of the `CompatTitleInstaller.zip` file to the root of your SD Card.
+3. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
 
 SD Card Layout
 

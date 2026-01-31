@@ -70,7 +70,7 @@ USB Loader GX 또는 WiiFlow Lite의 최신 버전에서 게임 백업을 자동
 
 ## 커스텀 DNS를 통한 자동 디스크 패치
 
-커스텀 DNS 서버를 사용하여 판매용 게임 디스크에서 자동으로 실행되는 Wiimmfi 패치 방법입니다. While convenient, it only works with a small selection of games including Mario Kart Wii and SSBB. 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다.
+커스텀 DNS 서버를 사용하여 판매용 게임 디스크에서 자동으로 실행되는 Wiimmfi 패치 방법입니다. 편리하긴 하지만, 마리오 카트 Wii와 SSBB를 포함한 일부 게임에서만 작동합니다. 이 프로세스의 특성상 홈브류 없이도 Wii에서 실행할 수 있습니다.
 
 ::: warning
 
@@ -139,7 +139,7 @@ USB Loader GX 또는 WiiFlow Lite의 최신 버전에서 게임 백업을 자동
 
 ::: warning
 
-If you run into UPnP-related issues (such as the patcher getting stuck at "Init network..." or "add UPnP port forward" steps for more than 10 seconds), you can press the - button on your Wii Remote, or the Y button on your GameCube controller as soon as the patcher loads to circumvent this.
+UPnP 관련 문제 (예: 패처가 "네트워크 초기화..." 또는 "UPnP 포트 포워딩 추가" 단계에서 10초 이상 멈추는 경우)가 발생하면 패처가 로드되는 즉시 Wii 리모컨 - 버튼이나 게임큐브 컨트롤러의 Y 버튼을 눌러 문제를 해결할 수 있습니다.
 
 :::
 
@@ -190,7 +190,7 @@ WiiWare 게임에서 실행되는 Wiimmfi 패치 방법이지만, 스크립트�
 1. 패처를 다운로드하고 `.zip` 파일을 압축 해제합니다.
 2. 압축 해제된 폴더를 열고 Wii ​​게임 이미지를 복사합니다.
    - 윈도우를 사용하는 경우 `patch-images.bat` 파일을 두 번 클릭합니다. (이 파일은 "patch-images" 배치 파일로 표시될 수도 있음) Cygwin 관련 문제가 발생하면 대신 `patch-images-32.bat` 파일을 사용해 봅니다.
-   - 맥OS를 사용하는 경우 현재 폴더에서 명령줄 프롬프트를 열고 `chmod +x *.sh` 명령을 통해 셸 스크립트를 실행 가능하게 만든 다음 `./patch-images.sh`를 실행합니다.
+   - If you're on macOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
    - 리눅스를 사용하는 경우 `patch-images.desktop` 파일을 두 번 클릭합니다. (이 파일은 "패치 이미지"로 표시될 수도 있음) 또는 `chmod +x *.sh` 명령으로 실행 가능하게 만든 후 터미널에서 `./patch-images.sh` 파일을 실행합니다.
 3. 위의 과정이 성공적이라면 패치 과정을 표시하는 창 팝업이 나타날 것입니다. 이 과정이 완료되면 `wiimmfi-images`라는 폴더에서 패치된 이미지를 찾을 수 있습니다.
 

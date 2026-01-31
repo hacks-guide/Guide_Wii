@@ -190,7 +190,7 @@ Un metodo per la patch Wiimmfi che viene eseguito su immagini di giochi su disco
 1. Download the patcher and extract the `.zip` file.
 2. Apri la cartella appena estratta e copia le tue immagini di gioco Wii al suo interno.
    - If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
-   - If you're on MacOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
+   - If you're on macOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
    - If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
 3. Se i passaggi sopra sono stati terminati con successo, dovresti vedere una finestra di pop-up che mostra il processo di patching. Once the process finishes, you will find the patched images in a folder called `wiimmfi-images`.
 

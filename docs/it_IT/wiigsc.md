@@ -40,15 +40,15 @@ The Wii Menu is limited to 48 channels, not including existing system channels.
 
 1. Extract the WiiGSC `.zip`, find `WiiGSC.exe`, and launch it. The first launch will prompt you about common key creation and provide a disclaimer - simply click through these windows.
 
-    ![](/images/desktop-apps/wiigsc/wiigsc-disclaimer.png)
+   ![](/images/desktop-apps/wiigsc/wiigsc-disclaimer.png)
 
 2. With WiiGSC open, select `Open WBFS Drive` and select the drive letter for the device containing your WBFS files. Alternatively, you may select an individual ISO/WBFS file.
 
-    ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
+   ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
 3. Select the game you would like to create a channel for, and then press `Use for Channel Creation`. Select the USB loader that you will use to launch the game, and then press `Create Channel` located in the bottom left corner.
 
-    ![](/images/desktop-apps/wiigsc/wiigsc-creation.png)
+   ![](/images/desktop-apps/wiigsc/wiigsc-creation.png)
 
 4. Copy the output WAD to your SD card or other device used to load homebrew.
 
@@ -56,11 +56,11 @@ The Wii Menu is limited to 48 channels, not including existing system channels.
 
 1. Open your WAD manager and locate the output WAD, then install it.
 
-    ![](/images/desktop-apps/wiigsc/wiigsc-install.png)
+   ![](/images/desktop-apps/wiigsc/wiigsc-install.png)
 
 2. If successful, you should now see your game shortcut on the Wii Menu!
 
-    ![](/images/desktop-apps/wiigsc/wiigsc-success.png)
+   ![](/images/desktop-apps/wiigsc/wiigsc-success.png)
 
 ::: info
 

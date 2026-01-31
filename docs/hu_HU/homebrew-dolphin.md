@@ -4,7 +4,7 @@ A Dolphin Emulator `5.0-4588`-as vagy újabb verziójánál a Wii menü egyszer�
 
 ## Követelmények
 
-- Egy Windowst/macOS-t/Linuxot futtató számítógép internet-hozzáféréssel
+- Egy Windowst/MacOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 - [Dolphin Emulator](https://dolphin-emu.org/download/) V`5.0-4588` vagy későbbi
 - Az [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases) legutolsó verziója
 

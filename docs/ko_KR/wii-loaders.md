@@ -24,23 +24,23 @@ WiiFlow Lite용 공식 Wii 메뉴 포워더 설치 프로그램은 [오픈 샵 �
 
 - WiiFlow Lite는 애니메이션과 효과 측면에서 더욱 진보된 사용자 인터페이스를 제공하며 테마도 지원합니다.
 
-    - WiiFlow Lite에서 Wii 게임을 로딩하려면 SD 카드가 완벽히 지원됩니다.
-    - WiiFlow Lite에는 플러그인 시스템이 있습니다.
-    - 원래 WiiFlow는 2014년에 마지막으로 업데이트되었지만, WiiFlow Lite 포크는 여전히 정기적인 업데이트를 받고 있습니다.
+  - WiiFlow Lite에서 Wii 게임을 로딩하려면 SD 카드가 완벽히 지원됩니다.
+  - WiiFlow Lite에는 플러그인 시스템이 있습니다.
+  - 원래 WiiFlow는 2014년에 마지막으로 업데이트되었지만, WiiFlow Lite 포크는 여전히 정기적인 업데이트를 받고 있습니다.
 
-    ![](/images/usb-loaders/wiiflow-ui.png)
+  ![](/images/usb-loaders/wiiflow-ui.png)
 
 - USB Loader GX는 주로 Wii 메뉴를 모델로 하여 만들어졌으며 테마를 지원합니다.
 
-    - 이전에는 USB Loader GX에서 Wii 게임을 로딩할 때 SD 카드가 지원되지 않았지만, 최근 업데이트를 통해 로더에서 해당 지원이 추가되었습니다.
-    - USB Loader GX에는 플러그인 시스템이 없습니다.
-    - USB Loader GX는 정기적으로 업데이트를 받습니다.
+  - 이전에는 USB Loader GX에서 Wii 게임을 로딩할 때 SD 카드가 지원되지 않았지만, 최근 업데이트를 통해 로더에서 해당 지원이 추가되었습니다.
+  - USB Loader GX에는 플러그인 시스템이 없습니다.
+  - USB Loader GX는 정기적으로 업데이트를 받습니다.
 
-    ![](/images/usb-loaders/usbloadergx-ui.png)
+  ![](/images/usb-loaders/usbloadergx-ui.png)
 
-## 게임 디렉토리 구조
+## Game Folder Structure
 
-아래는 단일 WBFS의 예와 분할된 WBFS의 예입니다. WBFS가 4GB를 넘고 저장 장치가 FAT32로 포맷된 경우 WBFS를 분할해야 합니다. [Wii 백업 매니저](wii-backups#using-wii-backup-manager) 또는 [Wii 백업 퓨전](wii-backups#using-wii-backup-fusion)과 같은 소프트웨어를 사용하면 이 작업을 대신 수행할 수 있으며, 게임 디렉토리 구조를 자동으로 올바르게 설정합니다.
+아래는 단일 WBFS의 예와 분할된 WBFS의 예입니다. WBFS가 4GB를 넘고 저장 장치가 FAT32로 포맷된 경우 WBFS를 분할해야 합니다. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game folder structure correctly.
 
 ```
 💾SD 카드 또는 USB:
@@ -173,7 +173,7 @@ USB Loader GX와 WiiFlow Lite는 둘 다 가장 적합한 cIOS를 자동으로 �
 3. `게임 로드`를 선택합니다.
 4. 아래로 스크롤하여 `게임 IOS`를 찾습니다.
 5. 사용할 IOS 슬롯을 입력합니다.
-    - 248, 249, 250, 251을 사용해 봅니다.
+   - 248, 249, 250, 251을 사용해 봅니다.
 6. 확인을 누르고 게임을 로드해 봅니다.
 
 ### WiiFlow Lite
@@ -181,7 +181,7 @@ USB Loader GX와 WiiFlow Lite는 둘 다 가장 적합한 cIOS를 자동으로 �
 1. 작동하지 않는 게임을 선택합니다.
 2. 기어 아이콘을 클릭합니다.
 3. cIOS로 가서 화살표를 이용해 사용할 IOS 슬롯을 선택합니다.
-    - 248, 249, 250, 251을 사용해 봅니다.
+   - 248, 249, 250, 251을 사용해 봅니다.
 4. 저장을 누르고 게임을 로드해 봅니다.
 
 ::: tip

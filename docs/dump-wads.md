@@ -40,7 +40,7 @@ This guide will show you how to dump WADs from your Wii System Memory.
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-The WAD has now been dumped, and should appear at the specified directory on your SD card or USB drive.
+The WAD has now been dumped, and should appear inside the specified folder on your SD card or USB drive.
 
 ![](/images/homebrew/DumpWADS/7.png)
 

@@ -42,19 +42,19 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 2. Alege dispozitivul de pe care vrei să restaurezi.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 3. În GCMM, apasă X pe un controller GameCube sau + pe un Wii Remote.
 
-    ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
 4. Alege slotul în care se află cardul tău de memorie.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 5. Alege salvarea pe care vrei s-o restaurezi. Dacă ai mai multe salvări de restaurat, poți apăsa R pe un controller GameCube sau 1 pe un Wii Remote pentru a restaura toate salvările tale.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
 6. Odată ce restaurarea este completă, apasă orice buton pentru a continua.
 
@@ -80,19 +80,19 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 2. Alege dispozitivul unde vrei să creezi backup-ul.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 3. În GCMM, apasă Y pe un controller GameCube sau - pe un Wii Remote.
 
-    ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-menu.jpg)
 
 4. Alege slotul în care se află cardul tău de memorie.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 5. Alege salvarea căruia vrei să-i creați un backup. Dacă ai mai multe salvări cărora vrei sa le creezi un backup, poți apăsa R pe un controller GameCube sau 1 pe un Wii Remote pentru a crea un backup pentru toate salvările tale.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-save.jpg)
 
 6. Odată ce procesul de backup este complet, apasă orice buton pentru a continua.
 
@@ -117,11 +117,11 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 2. Alege dispozitivul unde vrei să extragi.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 3. Apasă L și Y în același timp pe un Controller GameCube sau B și - în același timp pe un Wii Remote pentru a crea un backup într-un fișier .raw și alege slotul în care se află cardul tău de memorie.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 4. Odată ce extragerea este completă, apasă orice buton pentru a continua. It should be saved in a folder on the root of your SD or USB called `MCBACKUP`.
 
@@ -143,13 +143,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 4. Alege dispozitivul de pe care vrei să restaurezi.
 
-    ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-select-device.jpg)
 
 5. Apasă L și X în același timp pe un controller GameCube sau B și + în același timp pe un Wii Remote.
 
 6. Alege slotul în care se află cardul tău de memorie.
 
-    ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
+   ![](/images/homebrew/gcsaves/gcmm-mem-select.jpg)
 
 7. Ar trebui să restaureze fișierul .raw în cardul tău de memorie. Odată ce restaurarea este completă, apasă orice buton pentru a continua.
 
@@ -166,13 +166,13 @@ If you are looking for save game exploits for booting into [Swiss](https://githu
 
 2. From the System menu, navigate into `Wii Options`, `Data Management`, `Save Data`, `Nintendo GameCube`.
 
-    ![](/images/homebrew/gcsaves/sysmenu.jpg)
+   ![](/images/homebrew/gcsaves/sysmenu.jpg)
 
-    ![](/images/homebrew/gcsaves/settings.jpg)
+   ![](/images/homebrew/gcsaves/settings.jpg)
 
-    ![](/images/homebrew/gcsaves/data-management.jpg)
+   ![](/images/homebrew/gcsaves/data-management.jpg)
 
-    ![](/images/homebrew/gcsaves/save-data.jpg)
+   ![](/images/homebrew/gcsaves/save-data.jpg)
 
 3. Find the save you want, select it and select `Move or Copy`.
 

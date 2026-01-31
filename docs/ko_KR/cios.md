@@ -6,7 +6,7 @@ outline: false
 
 ::::: tabs
 
-:::: tab cIOS for Wii/Family Edition
+:::: Wii/패밀리 에디션용 cIOS 탭
 
 :::details 기술 세부사항 (선택 사항)
 
@@ -16,15 +16,15 @@ cIOS (커스텀 IOS)는 커스텀 기능을 허용하도록 패치된 IOS입니�
 
 ::: warning
 
-Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. 그렇게 하면 콘솔이 [벽돌](bricks#ios-brick)될 가능성이 높습니다.
+Wii에 vWii/Wii 미니 IOS 또는 시스템 메뉴를 설치하려고 시도하지 마세요. 그렇게 하면 콘솔이 [벽돌](bricks#ios-brick)될 가능성이 높습니다.
 
 :::
 
 ## 요구 사항
 
-- A Wii with the Homebrew Channel installed
+- 홈브류 채널이 설치된 Wii
 - SD 카드 및 USB 드라이브
-- The [d2x cIOS Installer](https://oscwii.org/library/app/d2x-cios-installer)
+- [d2x cIOS 설치 프로그램](https://oscwii.org/library/app/d2x-cios-installer)
 
 ::: warning
 
@@ -36,9 +36,9 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 
 ### 섹션 I - 다운로드
 
-::: info
+::: warning
 
-맥OS 또는 리눅스를 사용 중이라면 [이 스크립트](/assets/files/d2x_offline_ios.zip)를 다운로드하여 실행하면 WAD 파일이 다운로드됩니다.
+Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
 
 :::
 
@@ -48,26 +48,35 @@ Wii를 인터넷에 연결할 수 있다면 [섹션 II](cios#section-ii---instal
 
 :::
 
-1. 콘솔의 전원을 끕니다.
-2. Extract both apps to the root of your SD card or USB drive.
-3. 컴퓨터에서 [NUS 다운로더](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip)를 다운로드합니다.
-4. NUS 다운로더 `.zip`에 있는 모든 파일을 컴퓨터의 폴더로 복사합니다.
-5. `NUS Downloader.exe`를 실행합니다.
-6. `데이터베이스` > `IOS` > `IOS38`로 이동한 다음 `v4123`을 선택합니다.
-    - "Pack WAD"가 선택되어 있는지 확인합니다.
-    - "IOS 패치"를 _체크하지 마세요._ 이것이 바로 cIOS 설치 프로그램의 역할입니다.
-7. `NUS 다운로드 시작!`을 클릭합니다.
-8. `IOS56 v5661`, `IOS57 v5918`, `IOS58 v6175`에 대해 위의 단계를 반복합니다.
-9. 프로세스가 완료되면 NUS 다운로더와 같은 폴더에 `titles`라는 폴더가 생성됩니다.
-10. `titles` 폴더를 열고 다운로드한 4개의 WAD 파일을 찾을 때까지 탐색합니다.
-11. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 d2x cIOS 설치 프로그램을 실행합니다.
-    - 이 장치는 d2x cIOS 설치 프로그램이 포함된 동일한 장치여야 합니다.
+1. Power off your console, and insert your SD card or USB drive into your computer.
+2. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
+3. Unzip the archive and run the NUSGet executable.
+4. Navigate to `IOS` > `IOS 38` > `World` and select `v4123`. Uncheck `Keep encrypted contents`. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+
+   ![](/images/desktop-apps/nusget/nusget-4123.png)
+5. Repeat the above step for `IOS 56 (v5661)`, `IOS 57 (v5918)` and `IOS 58 (v6175)`.
+6. When you have finished downloading the above IOS, navigate to the folder where your NUSGet executable is stored. This should now contain four different folders with the title IDs for the above IOS.
+
+   ![](/images/desktop-apps/nusget/nusget-folder-ios.png)
+7. Enter the four directories, locating a `IOS-XX-vXXXX-Wii.wad` file in each.
+
+   ![](/images/desktop-apps/nusget/nusget-ios-output.png)
+8. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 d2x cIOS 설치 프로그램을 실행합니다.
+   - 이 장치는 d2x cIOS 설치 프로그램이 포함된 동일한 장치여야 합니다.
+9. Ensure that each WAD file is named as listed below for compatability purposes with d2x-cios-installer:
+
+   |   IOS  |              File Name             |
+   | :----: | :--------------------------------: |
+   | IOS 38 | IOS38-64-v4123.wad |
+   | IOS 56 | IOS56-64-v5661.wad |
+   | IOS 57 | IOS57-64-v5918.wad |
+   | IOS 58 | IOS58-64-v6175.wad |
 
 ::: info
 
 WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
-![](/images/cios/d2x_offline_ios.png)
+![](/images/desktop-apps/nusget/nusget-ios-on-sd.png)
 
 :::
 
@@ -85,54 +94,54 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
 6. 다음 사항에 맞게 모든 것을 설정합니다:
 
-    ```
-    Select cIOS <d2x-v11-beta3>
-    Select cIOS base <38>
-    Select cIOS slot <248>
-    Select cIOS revision <65535>
-    ```
+   ```
+   cIOS <d2x-v11-beta3> 선택
+   cIOS 베이스 <38> 선택
+   cIOS 슬롯 <248> 선택
+   cIOS 리비전 <65535> 선택
+   ```
 
-    ![](/images/cios/d2x_v11_248.png)
+   ![](/images/cios/d2x_v11_248.png)
 
-    ::: info
+   ::: info
 
-    If you do not see `d2x-v11-beta3`, exit the installer with B, and make sure your SD card is unlocked.
+   `d2x-v11-beta3`이 보이지 않으면 B 버튼을 눌러 설치 프로그램을 종료하고 SD 카드가 잠금 해제되어 있는지 확인하세요.
 
-    :::
+   :::
 
-    ::: info
+   ::: info
 
-    "`(c)IOS detected in slot ### will be overwritten`"라는 경고는 안전하게 무시할 수 있습니다.
+   "`(c)IOS detected in slot ### will be overwritten`"라는 경고는 안전하게 무시할 수 있습니다.
 
-    :::
+   :::
 
-    ::: info
+   ::: info
 
-    "`Slot ### already used in batch settings`" 또는 "`cIOS already added in batch with revision ##### and slot ###`"이라는 메시지가 표시되면 `-` 버튼을 눌러 일괄 모드를 비활성화합니다.
+   "`Slot ### already used in batch settings`" 또는 "`cIOS already added in batch with revision ##### and slot ###`"이라는 메시지가 표시되면 `-` 버튼을 눌러 일괄 모드를 비활성화합니다.
 
-    (설치 프로그램을 종료하려는 경우 버튼은 홈 버튼이 아니라 B 버튼입니다.)
+   (설치 프로그램을 종료하려는 경우 버튼은 홈 버튼이 아니라 B 버튼입니다.)
 
-    :::
+   :::
 
 7. `A` 버튼을 누릅니다. 이렇게 하면 슬롯 맵으로 이동합니다:
 
-    ![](/images/cios/d2x_summary.png)
+   ![](/images/cios/d2x_summary.png)
 
 8. `A` 버튼을 다시 누릅니다.
 
-    ![](/images/cios/d2x_installation.png)
+   ![](/images/cios/d2x_installation.png)
 
 9. 설치가 완료되면 슬롯 맵으로 돌아가게 됩니다. 방금 설치된 슬롯이 녹색으로 강조 표시되었는지 확인합니다.
 
-    ![](/images/cios/d2x_log.png)
+   ![](/images/cios/d2x_log.png)
 
-    ::: info
+   ::: info
 
-    If the slot is highlighted red, try to install the cIOS again.
+   슬롯이 빨간색으로 표시되면 cIOS를 다시 설치해 보세요.
 
-    다운로드 단계 전/중에 오류가 발생하는 경우 (예: `tcp_connect timeout`, `net_gethostbyname failed: ...`), B 버튼을 눌러 종료하고 [섹션 I](#section-i---downloading)부터 계속합니다.
+   다운로드 단계 전/중에 오류가 발생하는 경우 (예: `tcp_connect timeout`, `net_gethostbyname failed: ...`), B 버튼을 눌러 종료하고 [섹션 I](#section-i---downloading)부터 계속합니다.
 
-    :::
+   :::
 
 10. `A` 버튼을 누릅니다. 구성 화면으로 돌아갑니다.
 
@@ -140,36 +149,36 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
     - cIOS 249 설치
 
-        ```
-        Select cIOS <d2x-v11-beta3>
-        Select cIOS base <56>
-        Select cIOS slot <249>
-        Select cIOS revision <65535>
-        ```
+      ```
+      cIOS <d2x-v11-beta3> 선택
+      cIOS 베이스 <57> 선택
+      cIOS 슬롯 <250> 선택
+      cIOS 리비전 <65535> 선택
+      ```
 
-        ![](/images/cios/d2x_v11_249.png)
+      ![](/images/cios/d2x_v11_249.png)
 
     - cIOS 250 설치
 
-        ```
-        Select cIOS <d2x-v11-beta3>
-        Select cIOS base <57>
-        Select cIOS slot <250>
-        Select cIOS revision <65535>
-        ```
+      ```
+      cIOS <d2x-v11-beta3> 선택
+      cIOS 베이스 <57> 선택
+      cIOS 슬롯 <250> 선택
+      cIOS 리비전 <65535> 선택
+      ```
 
-        ![](/images/cios/d2x_v11_250.png)
+      ![](/images/cios/d2x_v11_250.png)
 
     - cIOS 251 설치
 
-        ```
-        Select cIOS <d2x-v11-beta3>
-        Select cIOS base <58>
-        Select cIOS slot <251>
-        Select cIOS revision <65535>
-        ```
+      ```
+      cIOS <d2x-v11-beta3> 선택
+      cIOS 베이스 <58> 선택
+      cIOS 슬롯 <251> 선택
+      cIOS 리비전 <65535> 선택
+      ```
 
-        ![](/images/cios/d2x_v11_251.png)
+      ![](/images/cios/d2x_v11_251.png)
 
 12. 4 개의 cIOS를 모두 완료한 후 B 버튼을 눌러 홈브류 채널로 돌아갑니다.
 
@@ -181,7 +190,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
 ::: tip
 
-[Continue to Open Shop Channel installation](osc)
+[오픈샵 채널 설치를 계속 진행](osc)
 
 이제 Wii가 적절한 벽돌 방지 기능을 갖추었으므로 Wii에서나 외부에서 모두 접속할 수 있는 홈브류의 신뢰할 수 있는 저장소인 오픈 샵 채널을 설치할 수 있습니다.
 
@@ -189,7 +198,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
 ::::
 
-:::: tab cIOS for vWii (Wii U)
+:::: vWii (Wii U)용 cIOS 탭
 
 :::details 기술 세부사항 (선택 사항)
 
@@ -207,7 +216,7 @@ vWii에 Wii/Wii 미니 IOS나 시스템 메뉴를 설치하려고 하지 마세�
 
 - vWii에 홈브류 채널이 설치된 Wii U
 - SD 카드 및 USB 드라이브
-- The [d2x cIOS Installer for vWii](https://oscwii.org/library/app/d2x-cios-installer-vwii)
+- [vWii용 d2x cIOS 설치 프로그램](https://oscwii.org/library/app/d2x-cios-installer-vwii)
 
 ::: warning
 
@@ -219,7 +228,7 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 
 ### 섹션 I - 설치
 
-1. Copy the `apps` folder in the d2x-cios-installer-vwii `.zip` to the root of your SD card or USB drive.
+1. D2x-cios-installer-vwii `.zip` 파일의 `apps` 폴더를 SD 카드 또는 USB 드라이브의 루트 폴더에 복사하세요.
 
 2. Wii에 SD 카드를 연결하고, 홈브류 채널에서 CleanRip을 실행합니다.
 
@@ -231,67 +240,67 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 
 6. 다음 사항에 맞게 모든 것을 설정합니다:
 
-    ```
-    Select cIOS <d2x-v11-beta3-vWii>
-    Select cIOS base <38>
-    Select cIOS slot <248>
-    ```
+   ```
+   cIOS <d2x-v11-beta3-vWii> 선택
+   cIOS 베이스 <38> 선택
+   cIOS 슬롯 <248> 선택
+   ```
 
-    ![](/images/cios/d2x_v11_248_vwii.png)
+   ![](/images/cios/d2x_v11_248_vwii.png)
 
-    ::: info
+   ::: info
 
-    If you do not see `d2x-v11-beta3-vWii`, exit the installer with B, and make sure your SD card is unlocked.
+   `d2x-v11-beta3-vWii`가 보이지 않으면 B 버튼을 눌러 설치 프로그램을 종료하고 SD 카드가 잠금 해제되어 있는지 확인하세요.
 
-    :::
+   :::
 
-7. Press `A` to install.
+7. 'A' 버튼을 눌러 설치하세요.
 
-    ![](/images/cios/d2x_installation.png)
+   ![](/images/cios/d2x_installation.png)
 
-8. Repeat the previous 2 steps with the following configurations:
+8. 다음 설정을 사용하여 이전 2단계를 반복하세요:
 
-    - cIOS 249 설치
+   - cIOS 249 설치
 
-        ```
-        Select cIOS <d2x-v11-beta3-vWii>
-        Select cIOS base <56>
-        Select cIOS slot <249>
-        ```
+     ```
+     cIOS <d2x-v11-beta3-vWii> 선택
+     cIOS 베이스 <56> 선택
+     cIOS 슬롯 <249> 선택
+     ```
 
-    ![](/images/cios/d2x_v11_249_vwii.png)
+   ![](/images/cios/d2x_v11_249_vwii.png)
 
-    - cIOS 250 설치
+   - cIOS 250 설치
 
-        ```
-        Select cIOS <d2x-v11-beta3-vWii>
-        Select cIOS base <57>
-        Select cIOS slot <250>
-        ```
+     ```
+     cIOS <d2x-v11-beta3-vWii> 선택
+     cIOS 베이스 <57> 선택
+     cIOS 슬롯 <250> 선택
+     ```
 
-        ![](/images/cios/d2x_v11_250_vwii.png)
+     ![](/images/cios/d2x_v11_250_vwii.png)
 
-    - cIOS 251 설치
+   - cIOS 251 설치
 
-        ```
-        Select cIOS <d2x-v11-beta3-vWii>
-        Select cIOS base <58>
-        Select cIOS slot <251>
-        ```
+     ```
+     cIOS <d2x-v11-beta3-vWii> 선택
+     cIOS 베이스 <58> 선택
+     cIOS 슬롯 <251> 선택
+     ```
 
-        ![](/images/cios/d2x_v11_251_vwii.png)
+     ![](/images/cios/d2x_v11_251_vwii.png)
 
 9. 4 개의 cIOS를 모두 완료한 후 B 버튼을 눌러 홈브류 채널로 돌아갑니다.
 
 ::: tip
 
-[Continue to finalizing setup](vwii-finalizing-setup)
+[설정을 마무리하는 중](vwii-finalizing-setup)
 
 :::
 
 ::::
 
-:::: tab cIOS for Wii mini
+:::: Wii 미니용 cIOS 탭
 
 ::: info
 
@@ -317,7 +326,7 @@ Wii 미니에 Wii/vWii IOS나 시스템 메뉴를 설치하려고 하지 마세�
 
 - 홈브류 채널이 설치된 Wii 미니
 - USB 드라이브
-- The [d2xl cIOS Installer](/assets/files/d2xl-cios-installer-mini.zip)
+- [d2xl cIOS 설치 프로그램](/assets/files/d2xl-cios-installer-mini.zip)
 
 ## 지침
 
@@ -325,7 +334,7 @@ Wii 미니에 Wii/vWii IOS나 시스템 메뉴를 설치하려고 하지 마세�
 
 1. 콘솔의 전원을 끕니다.
 2. USB 드라이브를 컴퓨터에 연결하세요.
-3. Copy the `apps` folder from the d2xl-cios-installer-mini `.zip` to the root of your USB drive.
+3. d2xl-cios-installer-mini `.zip` 파일에서 `apps` 폴더를 USB 드라이브의 루트 폴더에 복사하세요.
 4. USB 드라이브를 콘솔에 다시 연결합니다.
 5. 콘솔의 전원을 켭니다.
 6. Launch the Homebrew Channel, and launch the Load Priiloader app.
@@ -336,23 +345,23 @@ Wii 미니에 Wii/vWii IOS나 시스템 메뉴를 설치하려고 하지 마세�
 1. `계속`을 선택합니다.
 2. 계속을 누르고, 다음 옵션을 다음과 같이 설정합니다:
 
-    ```
-    cIOS 선택 <d2xl-v1-beta2>
-    cIOS 기반 선택 <57>
-    cIOS 슬롯 선택 <249>
-    ```
+   ```
+   cIOS 선택 <d2xl-v1-beta2>
+   cIOS 기반 선택 <57>
+   cIOS 슬롯 선택 <249>
+   ```
 
-    ![](/images/cios/d2x_v1_249_mini_NTSC.png)
-    ![](/images/cios/d2x_v1_249_mini_PAL.png)
+   ![](/images/cios/d2x_v1_249_mini_NTSC.png)
+   ![](/images/cios/d2x_v1_249_mini_PAL.png)
 
-    - Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
+   - 메모란을 보시면 iOS 버전 번호가 `v31775` 또는 `v31776`으로 끝나는 것을 확인할 수 있습니다. `IOS57-64-v31775`는 NTSC (북미) 콘솔용이고, `IOS57-64-v31776`은 PAL (유럽) 콘솔용입니다. 사용하시는 콘솔에 맞는 버전 번호를 선택했는지 확인하세요.
 3. 설정이 완료되면 A 버튼을 눌러 설치합니다.
-    - 설치가 `TMD 버전 불일치` 오류로 실패할 경우, `cIOS 기반 선택` 옵션 위에서 +제어판의 왼쪽 또는 오른쪽을 눌러 버전 번호가 이전에 시도한 것과 다를 때까지 기다립니다. 숫자 57은 변경되지 않습니다.
+   - 설치가 `TMD 버전 불일치` 오류로 실패할 경우, `cIOS 기반 선택` 옵션 위에서 +제어판의 왼쪽 또는 오른쪽을 눌러 버전 번호가 이전에 시도한 것과 다를 때까지 기다립니다. 숫자 57은 변경되지 않습니다.
 4. 성공적으로 완료되면 설치 프로그램을 종료합니다.
 
 ::: tip
 
-[Continue to finalizing setup](mini-finalizing-setup)
+[설정을 마무리화하는 중](mini-finalizing-setup)
 
 :::
 

@@ -1,10 +1,10 @@
 # Wii 게임 바로가기 만들기
 
-This guide provides instructions on how to create Wii game shortcuts for game backups that you have on external storage devices, using a piece of software called WiiGSC (Wii Game Shortcut Creator). By creating game shortcuts, you can launch a game backup directly from the Wii Menu as if you had inserted the game as a regular disc.
+이 가이드는 WiiGSC (Wii 게임 바로가기 생성기)라는 소프트웨어를 사용하여 외장 저장 장치에 있는 게임 백업에 대한 Wii 게임 바로가기를 만드는 방법을 안내합니다. 게임 바로가기를 만들면 마치 일반 디스크처럼 게임을 넣은 것처럼 Wii 메뉴에서 바로 게임 백업을 실행할 수 있습니다.
 
 ::: warning
 
-Installing [Priiloader](priiloader) and [BootMii](bootmii) are advised due to brick risk in this guide, and should keep you safe along with following the guide correctly. Do NOT continue the guide unless you have installed Priiloader or BootMii!
+이 가이드에서는 벽돌 현상 발생 위험을 줄이기 위해 [Priiloader](priiloader)와 [BootMii](bootmii) 설치를 권장합니다. 가이드를 정확하게 따르면 안전하게 게임을 진행할 수 있습니다. Priiloader 또는 BootMii를 설치하지 않은 경우 이 가이드를 계속 진행하지 마십시오!
 
 :::
 
@@ -16,7 +16,7 @@ Installing [Priiloader](priiloader) and [BootMii](bootmii) are advised due to br
 
 ::: warning
 
-Your browser or antivirus software may flag WiiGSC as malware - this is a false positive. WiiGSC does NOT contain any malware.
+사용하시는 브라우저나 백신 소프트웨어가 WiiGSC를 악성 소프트웨어로 감지할 수 있습니다 - 이는 오탐입니다. WiiGSC는 악성 소프트웨어가 포함되어 있지 않습니다.
 
 :::
 
@@ -30,37 +30,37 @@ Wii 메뉴는 기존 시스템 채널을 제외하고, 48개 채널로 제한됩
 
 - Wii
 - SD 또는 USB 드라이브
-- A Windows computer
+- 윈도우 컴퓨터
 - [YAWM ModMii Edition](yawmme)
 - [WiiGSC ModMii Edition](https://github.com/modmii/WiiGSC/releases)
 
 ## 지침
 
-### Section I - Creating a Channel
+### 제1부 - 채널 만들기
 
-1. Extract the WiiGSC `.zip`, find `WiiGSC.exe`, and launch it. The first launch will prompt you about common key creation and provide a disclaimer - simply click through these windows.
+1. WiiGSC `.zip` 파일의 압축을 풀고 `WiiGSC.exe` 파일을 찾아 실행하세요. 처음 실행하면 일반적인 키 생성에 대한 안내와 고지 사항이 표시됩니다. 해당 창을 클릭하여 진행하시면 됩니다.
 
-    ![](/images/desktop-apps/wiigsc/wiigsc-disclaimer.png)
+   ![](/images/desktop-apps/wiigsc/wiigsc-disclaimer.png)
 
-2. With WiiGSC open, select `Open WBFS Drive` and select the drive letter for the device containing your WBFS files. Alternatively, you may select an individual ISO/WBFS file.
+2. WiiGSC를 실행한 후 'WBFS 드라이브 열기'를 선택하고 WBFS 파일이 있는 장치의 드라이브 문자를 선택합니다. 또는 개별 ISO/WBFS 파일을 선택할 수도 있습니다.
 
-    ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
+   ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
-3. Select the game you would like to create a channel for, and then press `Use for Channel Creation`. Select the USB loader that you will use to launch the game, and then press `Create Channel` located in the bottom left corner.
+3. 채널을 만들고 싶은 게임을 선택한 다음 '채널 생성에 사용'을 누르세요. 게임을 실행하는 데 사용할 USB 로더를 선택한 다음 왼쪽 하단에 있는 '채널 생성'을 누르세요.
 
-    ![](/images/desktop-apps/wiigsc/wiigsc-creation.png)
+   ![](/images/desktop-apps/wiigsc/wiigsc-creation.png)
 
-4. Copy the output WAD to your SD card or other device used to load homebrew.
+4. 출력된 WAD 파일을 SD 카드 또는 홈브루를 로드하는 데 사용하는 다른 장치에 복사하세요.
 
-### Section II - Installing Channel
+### 제2부 - 채널 설치
 
-1. Open your WAD manager and locate the output WAD, then install it.
+1. WAD 관리자를 열고 출력 WAD 파일을 찾아서 설치하세요.
 
-    ![](/images/desktop-apps/wiigsc/wiigsc-install.png)
+   ![](/images/desktop-apps/wiigsc/wiigsc-install.png)
 
-2. If successful, you should now see your game shortcut on the Wii Menu!
+2. 성공적으로 연결되었다면 이제 Wii 메뉴에서 게임 바로가기 아이콘을 볼 수 있을 것입니다!
 
-    ![](/images/desktop-apps/wiigsc/wiigsc-success.png)
+   ![](/images/desktop-apps/wiigsc/wiigsc-success.png)
 
 ::: info
 
