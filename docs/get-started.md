@@ -20,7 +20,7 @@ Select the exploit that corresponds to your console and situation the best.
 
 | Console Revision  | Recommended Exploit |
 | ----------------- | ------------------- |
-| Wii/Wii Family Edition  | <hr>"If you can use a Windows PC:<br> Automatic Setup — Proceed to [ModMii](modmii)<br><hr> If you can use an SD card:<br> Manual Setup — Proceed to [Wilbrand](wilbrand)<br><hr> If you cannot use an SD card:<br> Manual Setup — Proceed to [str2hax](str2hax)<br><hr> |
+| Wii/Wii Family Edition  | <hr>If you can use a Windows PC:<br> Automatic Setup — Proceed to [ModMii](modmii)<br><hr> If you can use an SD card:<br> Manual Setup — Proceed to [Wilbrand](wilbrand)<br><hr> If you cannot use an SD card:<br> Manual Setup — Proceed to [str2hax](str2hax)<br><hr> |
 | Wii mini | Manual Setup — Proceed to [Bluebomb](bluebomb) |
 | Wii U (vWii)  | <hr>If you can use a Windows PC:<br> Automatic Setup — Proceed to [ModMii](modmii)<br><hr> If you have not modded the Wii U, but want to:<br> Proceed to [Modding the Wii U](https://wiiu.hacks.guide)<br><hr> If you have already modded your Wii U:<br> Proceed to [Modding the vWii](vwii-homebrew-channel)<br><hr> If you do not want to mod the Wii U:<br> Proceed to [Modding the vWii Without Wii U Mods](wiiu-nand-dumper)<hr> |
 | Dolphin Emulator | Proceed to [Homebrew Channel on Dolphin](homebrew-dolphin) |
