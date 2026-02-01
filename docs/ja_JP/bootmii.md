@@ -27,55 +27,55 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 3. Press the HOME Button, then select "Launch BootMii".
 
-    ![](/images/bootmii/BootMii_HBC.png)
+   ![](/images/bootmii/BootMii_HBC.png)
 
-    ::: warning
+   ::: warning
 
-    If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+   If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
 
-    :::
+   :::
 
-    ::: warning
+   ::: warning
 
-    If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+   If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 
-    :::
+   :::
 
 4. You should see an image similar to the below now on your screen:
 
-    ![](/images/bootmii/BootMii_Main.png)
+   ![](/images/bootmii/BootMii_Main.png)
 
-    ::: info
+   ::: info
 
-    Wiiリモコンを使用してBootMiiを操作することはできません。
-    Wii本体のPOWER(電源)ボタンとRESET(リセット)ボタンか、ポート1に接続しているGCコントローラーで操作できます。
-    To navigate between options, press POWER. To select an option, press RESET.
+   Wiiリモコンを使用してBootMiiを操作することはできません。
+   Wii本体のPOWER(電源)ボタンとRESET(リセット)ボタンか、ポート1に接続しているGCコントローラーで操作できます。
+   To navigate between options, press POWER. To select an option, press RESET.
 
-    :::
+   :::
 
 5. Select the Options button (the icon with the gears).
 
-    ![](/images/bootmii/BootMii_Gears.png)
+   ![](/images/bootmii/BootMii_Gears.png)
 
 6. 一番左のアイコンを選択します。
 
-    ![](/images/bootmii/BootMii_Backup.png)
+   ![](/images/bootmii/BootMii_Backup.png)
 
 7. NANDバックアップが開始します。 進行状況は画面に表示されます。
 
-    - "Bad Blocks" are normal. NANDバックアップでいくつか表示されても問題はありません。
+   - "Bad Blocks" are normal. NANDバックアップでいくつか表示されても問題はありません。
 
-    ![](/images/bootmii/BootMii_NAND_Backup.png)
+   ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 8. After this step, it will verify the backup. 確認が終わった後に全てのブロックが緑色になっていることが望ましいです。
 
-    - If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long as all non-bad blocks are successfully verified, this should be fine.
+   - If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long as all non-bad blocks are successfully verified, this should be fine.
 
-    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
+   ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
 9. To exit BootMii, press the Back button (the one with the arrow) and then you can press either the Wii Menu button or the Homebrew Channel button to exit where you want to.
 
-    ![](/images/bootmii/BootMii_Return.png)
+   ![](/images/bootmii/BootMii_Return.png)
 
 ::: info
 
@@ -111,7 +111,7 @@ You can also use the [BootMii Config Editor](https://oscwii.org/library/app/Boot
 
 ## Uploading NAND Backup to Dolphin Emulator
 
-Your NAND backup can be utilized in Dolphin Emulator.
+Your NAND backup can be utilized in Dolphin Emulator. This is completely optional.
 
 1. Get the latest beta or development release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
 2. Open Dolphin Emulator.

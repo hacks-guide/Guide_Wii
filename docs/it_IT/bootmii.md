@@ -111,7 +111,7 @@ You can also use the [BootMii Config Editor](https://oscwii.org/library/app/Boot
 
 ## Caricare un backup della NAND su Dolphin Emulator
 
-Il tuo backup della NAND può essere usato sull'emulatore Dolphin.
+Il tuo backup della NAND può essere usato sull'emulatore Dolphin. This is completely optional.
 
 1. Get the latest beta or development release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
 2. Avvia l'Emulatore Dolphin.

@@ -111,7 +111,7 @@ Használhatod a [BootMii Config Editor](https://oscwii.org/library/app/BootMiiCo
 
 ## A NAND mentés feltöltése a Dolphin Emulátorba
 
-A NAND mentésed felhasználható a Dolphin Emulátorban.
+A NAND mentésed felhasználható a Dolphin Emulátorban. Ez teljesen opcionális.
 
 1. Töltsd le a legutolsó béta vagy fejlesztői verzióját a Dolphin Emulátornak a [Dolphin Weboldaláról](https://dolphin-emu.org/) és telepítsd az eszközödre.
 2. Indítsd el a Dolphin Emulátort.
