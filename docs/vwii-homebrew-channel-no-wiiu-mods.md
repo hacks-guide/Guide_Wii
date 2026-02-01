@@ -1,6 +1,6 @@
 # Installing the Homebrew Channel
 
-This page will guide you through the process of installing the Homebrew Channel to the vWii without modding the Wii U side.
+This page will guide you through the process of installing the Homebrew Channel to the vWii menu without modding the Wii U itself.
 
 ## Instructions
 

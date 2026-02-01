@@ -1,17 +1,20 @@
-# vWii Modding Guide
+# Modding vWii without exploiting the Wii U
 
-This page will guide you through the process of modding your vWii without modding the Wii U side. Wii U custom firmware will be used for this guide, however, nothing will actually be installed onto the Wii U side itself. You can also visit the [legacy exploits](legacy-exploits) page for more exploits that work on the vWii.
+This page will guide you through the process of modding your vWii without modding the Wii U itself. Wii U custom firmware will be used for this guide, however, nothing will actually be permanantly installed onto the Wii U firmware. You can also visit the [legacy exploits](legacy-exploits) page for more exploits that work on the vWii.
 
 ::: info
 
-If your Wii U side is already modded, proceed to [Installing the Homebrew Channel](vwii-homebrew-channel)
+If your Wii U is already modded, proceed to [Installing the Homebrew Channel](vwii-homebrew-channel)
 
 :::
 
 ::: info
 
-Your SD Card will need to be formatted as FAT32. If your SD Card is not formatted to FAT32, follow [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) to format it. **Do not** label the SD Card as `wiiu` or it will cause issues with homebrew.
+Your SD Card will need to be formatted as FAT32. If your SD Card is not formatted to FAT32, follow [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) to format it.
 
+**DO NOT** label the SD Card as `wiiu` or it will cause issues with homebrew.
+
+:::
 
 ## Requirements
 
@@ -61,8 +64,6 @@ SD Card Layout
    ┣ 📄 payload.rpx
    ┗ 📄 payload.elf
 ```
-
-:::
 
 ### Section II - Launching the Exploit
 
