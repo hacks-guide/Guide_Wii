@@ -57,6 +57,7 @@ If you dumped a Wii disc onto a FAT32 formatted device, you should have gotten a
 
     ![](/images/desktop-apps/WBM/openterminallinux.png)
 
+1. Use the following command as is: ```cat `ls *.part?.iso | sort` > game.iso```. Then, wait for the merging process to finish. Like in Windows, the resulting checksum should match the dump.
 
     ![](/images/desktop-apps/WBM/mergesuccesslinux.png)
 
