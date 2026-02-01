@@ -56,7 +56,7 @@
 **Homebrew**
 + [Creating Wii Game Shortcuts](wiigsc)
 + [How to dump Channels (WADs)](dump-wads)
-+ [How to dump GameCube/Wii Games](dump-games)
++ [How to dump Wii/GameCube Games](dump-games)
 + [Managing Wii and GameCube Backups](backups)
 + [Priiloader Usage](priiloader-usage)
 + [Recommended Homebrew](recommended-homebrew)
