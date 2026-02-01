@@ -111,7 +111,7 @@ Wii에서 [BootMii 구성 편집기](https://oscwii.org/library/app/BootMiiConfi
 
 ## 돌핀 에뮬레이터에 낸드 백업 업로드
 
-여러분의 낸드 백업은 돌핀 에뮬레이터에서 활용될 수 있습니다.
+여러분의 낸드 백업은 돌핀 에뮬레이터에서 활용될 수 있습니다. This is completely optional.
 
 1. [돌핀 웹사이트](https://dolphin-emu.org/)에서 돌핀 에뮬레이터의 최신 베타 또는 개발 릴리스를 받아서 기기에 설치합니다.
 2. 돌핀 에뮬레이터 열기

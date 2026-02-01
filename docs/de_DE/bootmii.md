@@ -27,55 +27,55 @@ Wenn du BootMii als boot2 installiert hast, musst du die Konsole neu starten, um
 
 3. Press the HOME Button, then select "Launch BootMii".
 
-    ![](/images/bootmii/BootMii_HBC.png)
+   ![](/images/bootmii/BootMii_HBC.png)
 
-    ::: warning
+   ::: warning
 
-    Wenn die `Launch BootMii`-Schaltfläche nicht im Homebrewkanal erscheint, [starte den HackMii-Installer nochmal](hackmii) und installiere BootMii.
+   Wenn die `Launch BootMii`-Schaltfläche nicht im Homebrewkanal erscheint, [starte den HackMii-Installer nochmal](hackmii) und installiere BootMii.
 
-    :::
+   :::
 
-    ::: warning
+   ::: warning
 
-    If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Lade [diese Zip-Datei](/assets/files/bootmii_sd_files.zip) herunter und extrahiere sie in das Stammverzeichnis deiner SD-Karte, dann versuche es erneut.
+   If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Lade [diese Zip-Datei](/assets/files/bootmii_sd_files.zip) herunter und extrahiere sie in das Stammverzeichnis deiner SD-Karte, dann versuche es erneut.
 
-    :::
+   :::
 
 4. Du solltest ein ähnliches Bild wie unten auf deinem Bildschirm sehen:
 
-    ![](/images/bootmii/BootMii_Main.png)
+   ![](/images/bootmii/BootMii_Main.png)
 
-    ::: info
+   ::: info
 
-    BootMii zu navigieren ist nicht möglich mit einer Wii-Fernbedienung.
-    Du musst die Tasten POWER und RESET auf deiner Konsole oder einen GameCube Controller verwenden, der an Port 1 angeschlossen ist.
-    Um zwischen Optionen zu navigieren, drücke POWER. Um eine Option auszuwählen, drücke RESET.
+   BootMii zu navigieren ist nicht möglich mit einer Wii-Fernbedienung.
+   Du musst die Tasten POWER und RESET auf deiner Konsole oder einen GameCube Controller verwenden, der an Port 1 angeschlossen ist.
+   Um zwischen Optionen zu navigieren, drücke POWER. Um eine Option auszuwählen, drücke RESET.
 
-    :::
+   :::
 
 5. Select the Options button (the icon with the gears).
 
-    ![](/images/bootmii/BootMii_Gears.png)
+   ![](/images/bootmii/BootMii_Gears.png)
 
 6. Wähle den ersten Button links.
 
-    ![](/images/bootmii/BootMii_Backup.png)
+   ![](/images/bootmii/BootMii_Backup.png)
 
 7. Ein NAND-Backup wird gestartet. Du kannst den Fortschritt am Bildschirm verfolgen.
 
-    - "Bad Blocks" are normal. Keine Sorge, wenn du einige auf einem NAND Backup siehst.
+   - "Bad Blocks" are normal. Keine Sorge, wenn du einige auf einem NAND Backup siehst.
 
-    ![](/images/bootmii/BootMii_NAND_Backup.png)
+   ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 8. After this step, it will verify the backup. Idealerweise sollten alle Blöcke nach dem Überprüfungsprozess grün sein.
 
-    - Wenn du 'Factory bad blocks' (schlechte Werkblöcke) mit 'Uncorrectable pages' (nicht korrigierbare Seiten) hast, können diese Blöcke möglicherweise nicht verifiziert werden. Solange alle nicht-schlechte Blöcke erfolgreich verifiziert wurden, sollte alles gut sein.
+   - Wenn du 'Factory bad blocks' (schlechte Werkblöcke) mit 'Uncorrectable pages' (nicht korrigierbare Seiten) hast, können diese Blöcke möglicherweise nicht verifiziert werden. Solange alle nicht-schlechte Blöcke erfolgreich verifiziert wurden, sollte alles gut sein.
 
-    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
+   ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
 9. To exit BootMii, press the Back button (the one with the arrow) and then you can press either the Wii Menu button or the Homebrew Channel button to exit where you want to.
 
-    ![](/images/bootmii/BootMii_Return.png)
+   ![](/images/bootmii/BootMii_Return.png)
 
 ::: info
 
@@ -111,7 +111,7 @@ Du kannst auch die [BootMii Config Editor](https://oscwii.org/library/app/BootMi
 
 ## NAND-Backup zu Dolphin Emulator hochladen
 
-Dein NAND-Backup kann in Dolphin Emulator verwendet werden.
+Dein NAND-Backup kann in Dolphin Emulator verwendet werden. This is completely optional.
 
 1. Hole die neueste Beta- oder Entwicklungsversion von Dolphin Emulator auf der [Dolphin Website](https://dolphin-emu.org/) und installier sie auf deinem Gerät.
 2. Öffne Dolphin Emulator.

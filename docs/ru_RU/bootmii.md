@@ -111,7 +111,7 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
 ## Загрузка резервной копии NAND в эмулятор Dolphin
 
-Ваша резервная копия NAND может быть использована в эмуляторе Dolphin.
+Ваша резервная копия NAND может быть использована в эмуляторе Dolphin. This is completely optional.
 
 1. Скачайте последний бета или dev-релиз эмулятора Dolphin с [веб-сайта Dolphin](https://dolphin-emu.org/) и установите его на ваше устройство.
 2. Откройте эмулятор Dolphin.
