@@ -70,7 +70,7 @@ If you DO NOT have [PayloadLoader installed](https://wiiu.hacks.guide/aroma/inst
 
     ![](/images/vwii/exploit/update-warning.png)
 
-1. In the Boot Selector, press `A ` to launch the Wii U Menu.
+1. In the Boot Selector, press `A` to launch the Wii U Menu.
 
     ![](/images/vwii/exploit/boot-selector.png)
 
