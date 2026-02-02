@@ -18,13 +18,13 @@ Use of any GameCube peripheral with a Family Edition Wii or Wii mini require sol
 
 ::: info
 
-If you are looking for 100% completion saves online, you can find them [here](https://gamefaqs.gamespot.com/).
+If you are looking for 100% completion saves online, you can find them [on GameFAQs](https://gamefaqs.gamespot.com/).
 
 :::
 
 ::: info
 
-If you are looking for save game exploits for booting into [Swiss](https://github.com/emukidid/swiss-gc/releases), you can find a list of them [here](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
+If you are looking for save game exploits for booting into [Swiss](https://github.com/emukidid/swiss-gc/releases), you can find a list of them [on GC Forever](https://www.gc-forever.com/wiki/index.php?title=Booting_homebrew#Game_Save_Exploits).
 
 :::
 

@@ -1,6 +1,6 @@
 # Creating a NAND dump of the Wii U
 
-This page will guide you through the process of creating a NAND dump for your Wii U. This will protect you in the event that something goes wrong and your Wii U becomes bricked, allowing you to restore a NAND backup. 
+This page will guide you through the process of creating a NAND dump for your Wii U. This will protect you in the event that something goes wrong and your Wii U becomes bricked, allowing you to restore a NAND backup.
 
 ::: tip
 
@@ -80,9 +80,9 @@ Ensure that your Wii U has Internet access for this step to ensure the exploit c
     ![](/images/vwii/exploit/browser-exploit.png)
 
 1. Click on `Run Exploit!` and hold the B button until you see a screen that says `Please choose your payload:`, this will be necessary for the next steps.
-    + If your Wii U gets stuck on a white or otherwise frozen screen, wait a few seconds. If nothing happens, reboot the console, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again.
-    + If your console is loaded into the Aroma environment, it may also result in the above result. You can remove your SD card from your Wii U before booting, which will force the Wii U to boot without Aroma, and then re-insert the SD card and try again.
-    + If you see the EnvironmentLoader, you did not hold down B long enough. Try again.
+    * If your Wii U gets stuck on a white or otherwise frozen screen, wait a few seconds. If nothing happens, reboot the console, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again.
+    * If your console is loaded into the Aroma environment, it may also result in the above result. You can remove your SD card from your Wii U before booting, which will force the Wii U to boot without Aroma, and then re-insert the SD card and try again.
+    * If you see the EnvironmentLoader, you did not hold down B long enough. Try again.
 
     ![](/images/vwii/exploit/payload-loader.png)
 

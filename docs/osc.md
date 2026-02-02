@@ -106,7 +106,6 @@ You will need Python 3 installed in order to use OSCDL on these platforms. Pleas
 
 1. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. Your downloaded piece of homebrew should now display.
 
-
 ::: tip
 
 Continue to [Recommended Homebrew](recommended-homebrew)

@@ -73,9 +73,9 @@ Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 1. Scroll down to `System Menu Hacks` and press `A`.
 
     ![](/images/priiloader/menu_hacks.png)
-    
+
 1. In `System Menu Hacks`, enable the following options according to your console:
-    
+
     | Console Type | Priiloader Options                                                                                                                                                                                              |
     | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
     | Wii          | <ul><li>If you are using 480p mode: `480p graphics fix in the system menu`</li><li>`Block Disc Updates`</li><li>`Block Online Updates`</li><li>If you are NOT using a CRT display: `Remove Deflicker`</li></ul> |

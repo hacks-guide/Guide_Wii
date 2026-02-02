@@ -9,6 +9,7 @@ These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Ch
 [WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather and news, send messages to friends, participate in Mii contests, and more. WiiConnect24 was discontinued on June 27th, 2013.
 
 ## WiiLink
+
 [WiiLink](https://www.wiilink24.com/) is a revival service for WiiConnect24 that allows you to regain and expand its functionality on your console.
 As of late 2023, the service merged with revival project RiiConnect24, and today is just operated under the name WiiLink.
 
@@ -21,14 +22,16 @@ The guide on how to install these services, as well as the patcher, can be found
 ### Wii
 
 #### What you need
+
 * A working Internet connection on your Wii
 * The Homebrew Channel
 * An SD card or USB drive
 * [sntp](https://oscwii.org/library/app/sntp)
 
 #### Instructions
+
 1. Download and extract the sntp zip to the root of your SD card or USB drive.
-1. Insert your SD card or USB drive into your Wii. 
+1. Insert your SD card or USB drive into your Wii.
 1. Launch the Homebrew Channel on your Wii.
 1. Launch sntp.
 1. Use the +Control Pad to select the current time.
@@ -37,11 +40,13 @@ The guide on how to install these services, as well as the patcher, can be found
 ### vWii
 
 #### What you need
+
 * The Homebrew Channel
 * An SD card
 * [Priiloader](priiloader)
 
 #### Instructions
+
 1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
 1. Select generate and copy the information.
 1. On your SD Card, navigate to `SD:/apps/priiloader` and open `hacks_hash.ini` with a text editor such as notepad.
@@ -56,14 +61,14 @@ The guide on how to install these services, as well as the patcher, can be found
 
 Some Priiloader hacks need to be enabled on the vWii and the Wii mini so the WiiConnect24 functions could work properly:
 
-+ [Create message via Calendar button (vWii, Mini)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)
-+ [Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)
-+ [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii)
-+ [Fix NWC24iSetUniversalTime (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)
+* [Create message via Calendar button (vWii, Mini)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)
+* [Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)
+* [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii)
+* [Fix NWC24iSetUniversalTime (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)
 
 ::: info
 
-[Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) and [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) cannot be enabled at the same time. More information on how to use Permanent vWii System Settings can be found [here](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii)
+[Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) and [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) cannot be enabled at the same time. More information on how to use Permanent vWii System Settings can be found [on the Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii)
 
 :::
 

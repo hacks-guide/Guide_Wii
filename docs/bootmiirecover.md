@@ -1,6 +1,6 @@
 # BootMii Recovery
 
-This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the <strong>last resort</strong> method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
+This guide will provide instructions on how to restore a backup of your NAND with BootMii. Please bear in mind that this is usually the **last resort** method of repairing a brick if you have one, and if it does not fix your issue, you may have to seek support. If you are still able to enter BootMii, make an attempt to enter the Homebrew Channel instead so that you may attempt to [identify and repair the brick](bricks) using other methods.
 
 ::: info
 
@@ -40,17 +40,17 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ## Important preliminary notes
 
-+ If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is probably a [Wi-Fi Brick](bricks#wi-fi-brick).
+* If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is probably a [Wi-Fi Brick](bricks#wi-fi-brick).
 
-+ If you have BootMii as IOS installed, RestoreMii will prompt you for the Konami code via a GameCube Controller.
+* If you have BootMii as IOS installed, RestoreMii will prompt you for the Konami code via a GameCube Controller.
 
-+ You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad on a GameCube controller. To select, press A.
+* You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad on a GameCube controller. To select, press A.
 
 ## Instructions
 
 1. Launch the Homebrew Channel.
 1. Press the HOME Button, then select "Launch BootMii".
-    + If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
+    * If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
 
     ![](/images/bootmii/BootMii_HBC.png)
 

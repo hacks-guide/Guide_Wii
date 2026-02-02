@@ -25,8 +25,8 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 1. Power on your console.
 1. Go to `Wii Settings`.
 1. Take note in the top right corner of the letter next to the system version.
-    + This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
-    + Also, ensure that you are on System Menu version 4.3.
+    * This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+    * Also, ensure that you are on System Menu version 4.3.
 
     ![](/images/wii/SystemMenuVersion.png)
 
@@ -45,15 +45,15 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 1. Insert your SD card into your computer.
 1. Copy the `private` folder and the `boot.elf` file from the LetterBomb `.zip` to the root of your SD card.
 1. Reinsert your SD card into your console.
-    + The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
+    * The SD card must be inserted in the SD card slot located in the front of the Wii. Using a USB to SD adapter plugged into the Wii's USB port will not work.
 1. On your Wii, return to the Wii Menu.
 1. Launch the Wii Message Board.
 1. Open the red letter with a bomb.
-    + Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
-    + In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
-    + If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
-    + If your Wii freezes after clicking on the letter, you most likely chose the wrong system menu region for LetterBomb. Go back to Step 2 and verify that you chose the right region.
-    + If all is correct and there is freezing, keep on trying until it works.
+    * Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
+    * In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
+    * If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
+    * If your Wii freezes after clicking on the letter, you most likely chose the wrong system menu region for LetterBomb. Go back to Step 2 and verify that you chose the right region.
+    * If all is correct and there is freezing, keep on trying until it works.
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)

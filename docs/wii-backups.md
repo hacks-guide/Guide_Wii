@@ -86,7 +86,7 @@ If your disc was dumped to a FAT32 device, you should have gotten at least two f
     ![](/images/desktop-apps/WBM/select_drive.png)
 
 1. Go to the `Files` tab, then select `Add`.
-    + Select `Files` to add multiple games to the program, or select `Folder` to add a whole folder of games.
+    * Select `Files` to add multiple games to the program, or select `Folder` to add a whole folder of games.
 
     ![](/images/desktop-apps/WBM/select_games.png)
 

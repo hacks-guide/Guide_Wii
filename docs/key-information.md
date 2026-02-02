@@ -6,11 +6,11 @@ This page includes important disclaimers and information regarding the modding p
 
 When following the guide or using specific kinds of homebrew, there is a risk that you may brick your console - or put it into a state where it is partially or fully unusable. To prevent this, please follow the guide **exactly as written** and follow precautions when stated. Common risks for bricking are slated as below:
 
-+ Following old modding tutorials or video guides unless explicitly recommended due to outdated or incorrect information
-+ Restoring NAND backups from other consoles
-+ Installing cIOS packs like DARKCORP
-+ Installing updates intended for another region, or region changing your console
-+ Modifying system files
+* Following old modding tutorials or video guides unless explicitly recommended due to outdated or incorrect information
+* Restoring NAND backups from other consoles
+* Installing cIOS packs like DARKCORP
+* Installing updates intended for another region, or region changing your console
+* Modifying system files
 
 Please consult the [bricks guide](bricks) for more information.
 
@@ -19,9 +19,9 @@ Please consult the [bricks guide](bricks) for more information.
 This guide works with all off-the-shelf retail Wiis, including Wii mini and the Wii U's Wii mode.
 It does **NOT** work with development Wiis, including models:
 
-+ RVT-001 (NDEV)
-+ RVT-002 (green frontplate)
-+ RVT-005 (red frontplate)
+* RVT-001 (NDEV)
+* RVT-002 (green frontplate)
+* RVT-005 (red frontplate)
 
 Important notes relating to specific Wiis are below.
 
@@ -75,14 +75,11 @@ Please consult [the network FAQ](faq#networking-faq) for more information.
 
 Ran into an issue while following the guide, already have an issue on your modded Wii, or just plain need answers?
 
-+ If your question isn't already answered on this page, it may be answered in the [FAQs](faq) section of the guide.
-+ If your question still isn't answered and you need support, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel.
+* If your question isn't already answered on this page, it may be answered in the [FAQs](faq) section of the guide.
+* If your question still isn't answered and you need support, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel.
 
 ::: tip
 
 Continue to [Get Started](get-started)
 
 :::
-
-
-
