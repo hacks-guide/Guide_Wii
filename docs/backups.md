@@ -10,15 +10,15 @@ For storing multiple games, we recommend an external hard drive for your Wii. Mo
 
 ::: warning
 
-A flash drive is NOT recommended, as they are small and may vary in behavior even between the same product.
+A flash drive is NOT recommended for usage on the Wii. Reasoning behind this is explained in the [storage FAQ](faq#storage-device-faq).
 
-As an alternative, you may use an SD card, however limitations of the Wii's SD card slot will result in slow read/write speeds.
+As an alternative, you may use an SD card, however limitations of the Wii's SD card slot will result in slow read/write speeds. It is generally recommended that you use a USB hard drive or SSD instead.
 
 :::
 
 ::: danger
 
-Make sure your USB drive is formatted using FAT32. Do not format it using other file systems such as exFAT, extFS, or WBFS.
+Make sure your device is formatted using FAT32. Do not format it using other file systems such as exFAT, extFS, or WBFS.
 
 You may format it as NTFS, but it will NOT work with the majority of apps (e.g. The Homebrew Channel or Nintendont).
 
