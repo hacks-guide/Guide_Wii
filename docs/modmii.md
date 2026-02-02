@@ -127,7 +127,7 @@ The ModMii Wizard is tool that can softmod your console from start to finish, do
 
     ![](/images/modmii/modmii-wizard-8.png)
 
-1. Select whether or not you would like to install a custom Wii menu theme, with the choice of three theme effects. Each effect deals with how much the outline when hovering over a Wii Channel spins.
+1. Select whether or not you would like to install a custom Wii Menu theme, with the choice of three theme effects. Each effect deals with how much the outline when hovering over a Wii Channel spins.
 
     ![](/images/modmii/modmii-wizard-9.png)
 

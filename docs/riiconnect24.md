@@ -7,6 +7,6 @@ head:
 
 # Redirecting
 
-You are being redirected to the WiiLink24.
+You are being redirected to WiiLink.
 
 If the page doesn't refresh, click [here](https://www.wiilink24.com/guide/install/).

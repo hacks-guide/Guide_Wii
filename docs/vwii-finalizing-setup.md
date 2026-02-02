@@ -1,4 +1,4 @@
-# Finalizing Setup
+# Finalizing Setup — vWii
 
 Now that the Homebrew Channel, Priiloader, and cIOS are installed, we are going to finalize setup for vWii by installing crucial apps to restore various missing functionalities of the vWii menu compared to a normal console. It is recommended that you download all homebrew listed below onto your storage device BEFORE starting the listed steps to save time.
 
@@ -17,12 +17,20 @@ Patched IOS 80 Installer for vWii is a homebrew app that takes the currently ins
 1. Reinsert your SD card or USB drive into your console.
 1. Launch the Homebrew Channel.
 1. Launch Patched IOS 80 Installer for vWii from the list of homebrew.
+
+    ![](/images/vwii/ios80-installer/launch-hb.png)
+
 1. The installer will launch, display a warning, and then start a 30 second timeout before installation can begin. Read this warning in detail before continuing, and then press any button to continue.
+
+    ![](/images/vwii/ios80-installer/warning.png)
+
 1. After continuing, the installer will patch and install IOS80. Once it is complete, you may press any button to return to the Homebrew Channel.
+
+    ![](/images/vwii/ios80-installer/install.png)
 
 ## System Channel Restorer
 
-System Channel Restorer is a homebrew app that restores channels missing from the vWii menu normally, such as the Mii Channel and Photo Channel.
+System Channel Restorer is a homebrew app that restores channels missing from the vWii menu normally, such as the Wii version of the Mii Channel and Photo Channel.
 
 ### Requirements
 
@@ -35,13 +43,19 @@ System Channel Restorer is a homebrew app that restores channels missing from th
 1. Reinsert your SD card or USB drive into your console.
 1. Launch the Homebrew Channel.
 1. Launch System Channel Restorer from the list of homebrew.
-1. The installer will launch. Most users will want to select the following channels with the `A` button for completeness:
+
+    ![](/images/vwii/sys-channel-restore/launch-hb.png)
+
+1. The installer will launch. Most users will want to select the following channels, unless you prefer to install additional channels:
     * EULA
     * Mii Channel
-    * Photo Channel 1.1b
-    * Wii Shop Channel
-    * Internet Channel
+
+    ![](/images/vwii/sys-channel-restore/channel-select.png)
+
 1. Once all channels are selected, press the `+` button to begin installation.
+
+    ![](/images/vwii/sys-channel-restore/install-begin.png)
+
 1. Once installation has finalized, you may return to the Homebrew Channel by pressing the HOME button.
 
 ## WiiWare 4:3 DB Patcher
@@ -59,8 +73,16 @@ WiiWare 4:3 DB Patcher is a homebrew app that patches the vWii's 4:3 aspect rati
 1. Reinsert your SD card or USB drive into your console.
 1. Launch the Homebrew Channel.
 1. Launch ww-43db-patcher from the list of homebrew.
+
+    ![](/images/vwii/43db-patcher/hb-launch.png)
+
 1. The installer will launch. Press the `1` or `X` buttons to patch the aspect ratio database.
+
+    ![](/images/vwii/43db-patcher/install-prompt.png)
+
 1. Once the aspect ratio database is patched, the installer will save a backup of the previous database. Do NOT delete this backup. You may press any button to return to the Homebrew Channel.
+
+    ![](/images/vwii/43db-patcher/install-finish.png)
 
 ::: tip
 

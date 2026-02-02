@@ -43,7 +43,7 @@
 + [ModMii](modmii)
 + [Open Shop Channel](osc)
 + [Priiloader](priiloader)
-+ [Recovery mode](recovery-mode)
++ [Recovery Mode](recovery-mode)
 + [Relaunching the HackMii Installer](hackmii)
 + [Restoring The Wii NAND to Stock](wii-factory-reset)
 + [Updating Wii Menu to v4.3](update)
@@ -71,9 +71,9 @@
 ::: info
 
 **vWii**
-+ [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
-+ [Wii U NAND Dumper](wiiu-nand-dumper)
-+ [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
++ [Creating a NAND dump of the Wii U](wiiu-nand-dumper)
++ [Installing the Homebrew Channel on vWii](vwii-homebrew-channel)
++ [Finalizing Setup — vWii](vwii-finalizing-setup)
 
 ::: 
 
@@ -81,5 +81,6 @@
 
 **Wii mini**
 + [Wii mini NAND Dumper](wnd-mini)
++ [Finalizing Setup — Wii mini](mini-finalizing-setup)
 
 :::
