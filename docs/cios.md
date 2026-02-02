@@ -69,12 +69,12 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
     * This must be the same device containing the d2x cIOS Installer.
 1. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer:
 
-    | IOS         | File Name               |
-    | :---------: | :---------------------: |
-    | IOS 38      | IOS38-64-v4123.wad      |
-    | IOS 56      | IOS56-64-v5661.wad      |
-    | IOS 57      | IOS57-64-v5918.wad      |
-    | IOS 58      | IOS58-64-v6175.wad      |
+    |  IOS   |     File Name      |
+    | :----: | :----------------: |
+    | IOS 38 | IOS38-64-v4123.wad |
+    | IOS 56 | IOS56-64-v5661.wad |
+    | IOS 57 | IOS57-64-v5918.wad |
+    | IOS 58 | IOS58-64-v6175.wad |
 
 ::: info
 
