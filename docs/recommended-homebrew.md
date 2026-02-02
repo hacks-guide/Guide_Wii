@@ -2,7 +2,7 @@
 
 This page outlines homebrew that are recommended by the wii.hacks.guide staff for being useful, nice to have, or just flat out good. Take full advantage of the power you now have with your Wii!
 
-Homebrew that has the ability to make permanant changes to your Wii are highlighted in **bold**.
+Homebrew that has the ability to make permanent changes to your Wii are highlighted in **bold**.
 
 ## Utilities
 

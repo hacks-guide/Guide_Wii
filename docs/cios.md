@@ -63,7 +63,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
     ![](/images/desktop-apps/nusget/nusget-ios-output.png)
 1. Place each WAD file on the root of your SD card or USB drive.
     + This must be the same device containing the d2x cIOS Installer.
-1. Ensure that each WAD file is named as listed below for compatability purposes with d2x-cios-installer:
+1. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer:
 
     | IOS         | File Name               |
     | :---------: | :---------------------: |

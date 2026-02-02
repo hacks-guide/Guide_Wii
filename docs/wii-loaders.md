@@ -25,7 +25,7 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 + WiiFlow Lite has a more advanced user interface in terms of animation and effects, and supports themes.
     + SD cards are fully supported for loading Wii games on WiiFlow Lite.
     + WiiFlow Lite has a plugin system.
-    + While the original WiiFlow was last updated in 2014, the WiiFlow Lite fork is still recieving regular updates.
+    + While the original WiiFlow was last updated in 2014, the WiiFlow Lite fork is still receiving regular updates.
 
     ![](/images/usb-loaders/wiiflow-ui.png)
 

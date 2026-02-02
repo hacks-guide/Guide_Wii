@@ -55,7 +55,7 @@ The `WiiFlash_n_ECC.img` is your NAND image. The other two files are "error" dat
 
 1. Launch xyzzy mod from the Homebrew Channel.
 1. Select `USB device`
-    + It should start retriving your console information.
+    + It should start retrieving your console information.
 1. When it is done, press any button to exit.
     + You will have 5 new files on your USB:
 
@@ -82,7 +82,7 @@ For now, only the `bootmii_keys.bin` file is required.
 
 ::: info
 
-If you would like to play Wii games online inside of dolphin with your Wii mini NAND, follow [this tutorial](https://dolphin-emu.org/docs/guides/wii-network-guide/) to retrive the files needed for online, even if you are already using the latest beta or development version of dolphin emulator.
+If you would like to play Wii games online inside of dolphin with your Wii mini NAND, follow [this tutorial](https://dolphin-emu.org/docs/guides/wii-network-guide/) to retrieve the files needed for online, even if you are already using the latest beta or development version of dolphin emulator.
 
 :::
 

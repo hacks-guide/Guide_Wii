@@ -25,7 +25,7 @@ If you do not have Aroma installed, proceed to [Installing Aroma](https://wiiu.h
 
 ::: danger
 
-If the evWii Aroma plugin is not installed and a homebrew app crashes/hangs, the only way to shut off the Wii U is by pulling the power cord. In some cases, pulling the power cord can cause memory corruption; therefore, it is highly recomended to have the plugin installed.
+If the evWii Aroma plugin is not installed and a homebrew app crashes/hangs, the only way to shut off the Wii U is by pulling the power cord. In some cases, pulling the power cord can cause memory corruption; therefore, it is highly recommended to have the plugin installed.
 
 :::
 
