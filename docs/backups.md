@@ -1,3 +1,7 @@
+---
+outline: false
+---
+
 # Managing Wii and GameCube Backups
 
 This guide provides instructions on how to manage your Wii and GameCube backups with TinyWiiBackupManager, in addition to joining PART files when dumping Wii games from a FAT32 device. Important notes about game management on the Wii are listed below.
