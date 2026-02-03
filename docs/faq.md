@@ -54,9 +54,9 @@ See [this](bricks) page.
 
 Flash drives are NOT recommended to be used on a Wii if possible because of their unpredicability and potential to become corrupt on the console. Using a USB flash drive may result in the following behavior:
 
-+ Game backups failing to load
-+ UI glitches in homebrew apps
-+ Data randomly becoming corrupted
+* Game backups failing to load
+* UI glitches in homebrew apps
+* Data randomly becoming corrupted
 
 If you experience the issues above, or other inexplicable issues with your flash drive, use a USB hard drive or an SD card instead.
 
@@ -108,6 +108,7 @@ SD cards larger than 2TB currently do not exist, anyone attempting to sell you o
 When buying SD cards, it is generally recommended that you stick to well-known brands the more expensive and larger capacity that you get. While you can buy a generic 2GB SD card and most likely be safe, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-35 USD for 256GB and below, whereas 512GB is around 60 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be wary when buying storage on eBay.
 
 Our recommended brands:
+
 * [Samsung](https://www.amazon.com/stores/page/99A645D0-BE70-4DF8-A0C5-CDED2FA59DE9) (EVO Select, EVO Plus, PRO Plus)
 * [SanDisk](https://www.amazon.com/stores/page/6187A5D4-11BE-4006-8AFB-6EC233258034) (Extreme, Ultra, etc)
 * [Lexar](https://www.amazon.com/stores/page/B1E6F5A7-1459-4D06-8FDA-963327D1B00C) (E-Series, Professional)
