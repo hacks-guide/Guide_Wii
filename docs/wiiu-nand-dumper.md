@@ -86,6 +86,8 @@ Ensure that your Wii U has Internet access for this step to ensure the exploit c
 
     ![](/images/vwii/exploit/payload-loader.png)
 
+    ![](/images/vwii/exploit/payload-loader.png)
+
 ### Section III - NAND Backup
 
 1. Use the Wii U GamePad's D-Pad to enter the following configuration:

@@ -17,7 +17,7 @@ További információkért tekintsd meg [a brick Gyik](bricks)-et.
 ## Konzol kompatibilitás
 
 Ez az útmutató működik a polcról megvehető kereskedelmi Wii-okkal, beleértve a Wii U Wii módját és a Wii mini-t.
-**NEM** működik fejlesztői Wii-okkal, beleértve az alábbi modelleket:
+**NEM** működik fejlesztői Wii-kel, beleértve az alábbi modelleket:
 
 - RVT-001 (NDEV)
 - RVT-002 (zöld előlap)

@@ -72,33 +72,41 @@ Se você receber um pop-up de controle de conta de usuário que pergunta se voc�
 
 ::: warning
 
-You will need Python 3 installed in order to use OSCDL on these platforms.
+You will need Python 3 installed in order to use OSCDL on these platforms. Please note that on certain distros, Python 3 may use either `python` or `python3` as an alias, please be aware of this for Step 6. You will also create a virtual environment to isolate OSCDL and its dependencies from your base Python installation.
 
 :::
 
-1. Download the source code for OSCDL, either the `.zip` or the `.tar.gz`.
+1. Download the source code for OSCDL, either the `.zip` or the `.tar.gz`. Optionally, you can instead run `git clone https://github.com/dhtdht020/osc-dl.git` in the directory you would like to use OSCDL in.
 
    ![](/images/osc/source-code-download-OSCDL.png)
 
-2. Extract the archive to a location on your computer that you would like to use OSCDL in.
+2. If you chose to download the source code, extract the archive to a location on your computer that you would like to use OSCDL in.
 
-3. Open the location of the extracted files in a terminal and run the command `pip install -r requirements.txt`. This will download Python packages needed to run OSCDL.
+3. Open the location of the extracted files in a terminal and run the command `python3 -m venv venv` to create a virtual environment. Note that, if you receive a message that `ensurepip` is not available, you must install the `python3-venv` package for your distribution. Python may provide a command for you to use to accomplish this.
+
+   ![](/images/osc/create-virtual-environment.png)
+
+4. Run the command `source venv/bin/activate` to activate the virtual environment.
+
+   ![](/images/osc/activate-virtual-environment.png)
+
+5. Run the command `pip install -r requirements.txt`. This will download Python packages needed to run OSCDL.
 
    ![](/images/osc/satisfy-requirements-OSCDL.png)
 
-4. Run the command `python3 oscdl.py`. This will open the program. Optionally, you can also create a desktop shortcut that runs this command for easier access.
+6. Run the command `python3 oscdl.py`. This will open the program. If you choose to keep the terminal open, you can use `deactivate` to exit the virtual environment. Additionally note that you must run `source venv/bin/activate` in the directory where OSCDL was extracted every time you open a new terminal. This is in order to load the dependencies needed to run OSCDL.
 
    ![](/images/osc/run-OSCDL-terminal.png)
 
-5. Encontre um aplicativo que você gostaria de obter, e pressione o botão Download. Como alternativa, você pode enviar o aplicativo diretamente para o seu Wii (requer que seu computador e Wii estejam na mesma rede).
+7. Once OSCDL is open, find an application that you would like to get, and press the Download button. Como alternativa, você pode enviar o aplicativo diretamente para o seu Wii (requer que seu computador e Wii estejam na mesma rede).
 
    ![](/images/osc/app-download-OSCDL-linux.png)
 
-6. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
+8. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
 
    ![](/images/osc/download-prompt-OSCDL-linux.png)
 
-7. Insira seu cartão SD ou drive USB no seu Wii, e vá para o Homebrew Channel. Seus homebrews baixados agora devem ser exibidos.
+9. Insira seu cartão SD ou drive USB no seu Wii, e vá para o Homebrew Channel. Seus homebrews baixados agora devem ser exibidos.
 
 ::: tip
 

@@ -9,4 +9,4 @@ head:
 
 You are being redirected to WiiLink.
 
-If the page doesn't refresh, click [here](https://www.wiilink24.com/guide/install/).
+If the page doesn't refresh, click [here](https://wiilink.ca/guide/install/).

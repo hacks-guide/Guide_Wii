@@ -27,55 +27,55 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
 3. 按 HOME 按钮，然后选择 "Launch BootMii"。
 
-    ![](/images/bootmii/BootMii_HBC.png)
+   ![](/images/bootmii/BootMii_HBC.png)
 
-    ::: warning
+   ::: warning
 
-    If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+   If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
 
-    :::
+   :::
 
-    ::: warning
+   ::: warning
 
-    如果一直黑屏且光驱的蓝灯闪烁，说明您的 SD 卡上缺少 BootMii 文件。 Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+   如果一直黑屏且光驱的蓝灯闪烁，说明您的 SD 卡上缺少 BootMii 文件。 Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 
-    :::
+   :::
 
 4. You should see an image similar to the below now on your screen:
 
-    ![](/images/bootmii/BootMii_Main.png)
+   ![](/images/bootmii/BootMii_Main.png)
 
-    ::: info
+   ::: info
 
-    无法使用 Wii 遥控器控制 BootMii。
-    您必须使用主机上的 POWER 和 RESET 按钮，或第 1 个口的 GameCube 手柄。
-    To navigate between options, press POWER. To select an option, press RESET. To select an option, press RESET.
+   无法使用 Wii 遥控器控制 BootMii。
+   您必须使用主机上的 POWER 和 RESET 按钮，或第 1 个口的 GameCube 手柄。
+   To navigate between options, press POWER. To select an option, press RESET. To select an option, press RESET.
 
-    :::
+   :::
 
 5. 选择选项按钮（带齿轮图标的按钮）。
 
-    ![](/images/bootmii/BootMii_Gears.png)
+   ![](/images/bootmii/BootMii_Gears.png)
 
 6. Select the first button to the left.
 
-    ![](/images/bootmii/BootMii_Backup.png)
+   ![](/images/bootmii/BootMii_Backup.png)
 
 7. 将启动NAND备份。 您将在屏幕上看到进度。
 
-    - "Bad Blocks(坏块)"是正常的。 当您看到时不用担心。
+   - "Bad Blocks(坏块)"是正常的。 当您看到时不用担心。
 
-    ![](/images/bootmii/BootMii_NAND_Backup.png)
+   ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 8. 在这一步后，它会验证这个备份。 理想情况下，验证过程结束后，所有区块都应为绿色。
 
-    - If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine. As long as all non-bad blocks are successfully verified, this should be fine.
+   - If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long all non-bad blocks are successfully verified, this should be fine. As long as all non-bad blocks are successfully verified, this should be fine.
 
-    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
+   ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
 9. 要退出 BootMii，按返回按钮（带箭头的那个)，然后您可以按 Wii 菜单按钮或 Homebrew Channel 按钮来退出到您想要的地方。
 
-    ![](/images/bootmii/BootMii_Return.png)
+   ![](/images/bootmii/BootMii_Return.png)
 
 ::: info
 
@@ -112,7 +112,7 @@ You can also use the [BootMii Config Editor](https://oscwii.org/library/app/Boot
 
 ## Uploading NAND Backup to Dolphin Emulator
 
-Your NAND backup can be utilized in Dolphin Emulator.
+Your NAND backup can be utilized in Dolphin Emulator. This is completely optional.
 
 1. Get the latest beta or development release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
 2. Open Dolphin Emulator.
