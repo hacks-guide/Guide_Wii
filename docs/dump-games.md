@@ -1,4 +1,4 @@
-# Dumping Wii/GameCube games
+# Dumping Wii/GameCube Games
 
 This guide covers dumping GameCube or Wii game discs to a local SD card or USB drive on your Wii.
 

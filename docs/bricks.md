@@ -44,7 +44,7 @@ This is a section intended to help you diagnose a potential brick, in order by l
 
 + Wii starts, and progresses to the Wii Menu. No app is malfunctioning, Wii Settings is error free, everything is seemingly fine. No brick.
 + Wii starts, and progresses to the Wii Menu.
-    + If after acccessing a specific channel, you get `The system files are corrupted`, see [banner brick](bricks#banner-brick).
+    + If after accessing a specific channel, you get `The system files are corrupted`, see [banner brick](bricks#banner-brick).
     + If after accessing the Wii Settings, you see an error that resembles the Opera web browser, see [semibrick](bricks#semibrick).
 + Wii starts, you see the health/warning screen, but upon pressing A to start, you see a black screen.
     + If this happened after installing a theme, see [theme brick](bricks#theme-brick).
