@@ -12,6 +12,7 @@
     "extras": "Extras",
     "other": "Other",
     "pages": {
+        "backups": "Managing Wii and GameCube Backups",
         "bootmii": "BootMii Backup",
         "bootmiirecover": "BootMii Recovery",
         "bluebomb": "Bluebomb",
@@ -25,7 +26,6 @@
         "faq": "FAQ",
         "flashhax": "FlashHax",
         "gcsaves": "GameCube Saves",
-        "gc-backups": "Managing GameCube Backups",
         "get-started": "Get Started",
         "hackmii": "Relaunching the HackMii Installer",
         "hbc": "Homebrew Channel and BootMii Installation",
@@ -53,7 +53,6 @@
         "wiiconnect24": "WiiConnect24",
         "wiigsc": "Creating Wii Game Shortcuts",
         "nintendowfc": "Nintendo Wi-Fi Connection",
-        "wii-backups": "Managing Wii Backups",
         "wii-loaders": "Wii Backup Loaders",
         "wii-factory-reset": "Restoring the Wii NAND to Stock",
         "wiiu-nand-dumper": "vWii Modding Guide",
