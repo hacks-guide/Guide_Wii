@@ -2,7 +2,12 @@
 
 The complete guide to modding your Wii, vWii, and Wii mini.
 
-<https://wii.hacks.guide/>
+[![Website Badge](https://img.shields.io/badge/website-wii.hacks.guide-21ABDE?logo=vitepress&logoColor=FFFFFF)](https://wii.hacks.guide/)
+[![Translation Badge](https://img.shields.io/badge/translation-contribute-263238?logo=crowdin&logoColor=FFFFFF)](https://hacks-guide.crowdin.com/u/projects/12)
+[![Discord Server](https://img.shields.io/badge/chat-nintendo%20homebrew-7289DA?logo=discord&logoColor=FFFFFF)](https://discord.gg/C29hYvh)
+[![Last Commit Badge](https://img.shields.io/github/last-commit/hacks-guide/Guide_Wii)](https://github.com/hacks-guide/Guide_Wii/commits/master/)
+![Language Count](https://img.shields.io/badge/languages-3-brightgreen)
+[![MIT License](https://img.shields.io/badge/license-MIT-A31F34)](https://github.com/hacks-guide/Guide_Wii/blob/master/LICENSE.txt)
 
 ## Running the site locally
 
@@ -25,6 +30,8 @@ npm run docs:dev
 ```
 
 The website should now be running on <http://127.0.0.1:5173/> (or a port shown on the terminal).
+
+If you choose to run multiple web servers at once, they will begin running at the next highest usable port (e.g. :5174, :5175, and so on).
 
 ## Markdown Styling
 
