@@ -79,7 +79,7 @@ TinyWiiBackupManager is a new, lightweight game backup manager programmed in Rus
 
 #### Requirements
 
-* A PC running 64-bit Windows 7 or later
+* A PC running Windows 7 or later
 * A USB drive or SD card
 * A dumped Wii/GameCube game disc (any format)
 * [TinyWiiBackupManagerInstaller](https://github.com/mq1/TinyWiiBackupManagerInstaller/releases/latest/)
@@ -179,7 +179,7 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
 #### Requirements
 
-* A PC running Linux which supports AppImage or Flatpak
+* A PC running Linux that supports AppImage or Flatpak
 * A USB drive or SD card
 * A dumped Wii/GameCube game disc (any format)
 * [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest) 
