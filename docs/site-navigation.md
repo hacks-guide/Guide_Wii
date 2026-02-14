@@ -8,6 +8,7 @@
 * [Get Started](get-started)
 * [FAQ](faq)
 * [Donations](donations)
+* [hacks.guide Wiki — Wii](https://wiki.hacks.guide/wiki/Wii)
 
 :::
 
