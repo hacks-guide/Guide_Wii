@@ -23,7 +23,7 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
 
 ::: warning
 
-2GB보다 큰 SD 카드는 Wii 메뉴 버전 4.0 이전에서는 작동하지 않습니다.
+SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
 
 :::
 
@@ -102,7 +102,7 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
 
 ::: warning
 
-2GB보다 큰 SD 카드는 Wii 메뉴 버전 4.0 이전에서는 작동하지 않습니다.
+SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
 
 :::
 

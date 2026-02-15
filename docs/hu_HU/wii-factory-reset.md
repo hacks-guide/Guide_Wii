@@ -44,7 +44,7 @@ Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult 
 
    ![](/images/factory-reset/nuscache.png)
 
-3. Nyomja meg az eszköztáron a `Nand Dump` gombot, majd az `New nand` gombot. Ez megnyit egy felugró ablakot, ahol beállíthaod az új NAND-dump paramétereit. Nyomja meg a nagy meglévő `Existing Nand...` gombot, és keresd meg a meglévő NAND-dumpod a Wii-dről.
+3. Nyomd meg az eszköztáron a `Nand Dump` gombot, majd az `New nand` gombot. Ez megnyit egy felugró ablakot, ahol beállíthaod az új NAND-dump paramétereit. Nyomja meg a nagy meglévő `Existing Nand...` gombot, és keresd meg a meglévő NAND-dumpod a Wii-dről.
 
    ![](/images/factory-reset/newnand.png)
 

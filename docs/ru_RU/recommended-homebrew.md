@@ -2,7 +2,7 @@
 
 Эта страница помечает Homebrew рекомендуются командой wii.hacks.guide которые полезные, приятно иметь или просто очень хороши. Возьмите всю силу которую вы получили с вашей Wii!
 
-Homebrew that has the ability to make permanant changes to your Wii are highlighted in **bold**.
+Homebrew that has the ability to make permanent changes to your Wii are highlighted in **bold**.
 
 ## Utilities
 

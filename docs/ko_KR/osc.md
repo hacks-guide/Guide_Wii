@@ -8,17 +8,50 @@
 
 [오픈 샵 채널](https://oscwii.org/)은 dhtdht020이 만든 홈브류 앱 저장소이며 현재 홈브류를 다운로드하는 가장 선호되는 방법입니다.
 
-오픈 샵 채널을 이용하는 방법에는 두 가지가 있습니다. 홈브류 브라우저를 통해 Wii에서 이용하는 방법, OSCDL을 통해 Wii 외부에서 이용하는 방법입니다.
+There are two methods to use the Open Shop Channel:
 
-## 방법 I - 홈브류 브라우저
+- On the Wii itself, utilizing one of the following homebrew apps:
+  - LibreShop (preferred)
+  - Homebrew Browser (fallback)
+- On your computer, utilizing one of the following applications:
+  - TinyWiiBackupManager (preferred)
+  - OSCDL (fallback)
 
-### 요구 사항
+## Method I - Open Shop Channel on Wii
 
-- 활성 인터넷 연결이 있는 홈브류 Wii
+### LibreShop
+
+LibreShop is a text-based app repository coded from the ground up by the LibreShop team, serving as a modern and more reliable method to download homebrew on a Wii.
+
+#### 요구 사항
+
+- A Wii with an active Internet connection
+- SD 카드 및 USB 드라이브
+- [LibreShop](https://oscwii.org/library/app/libreshop)
+
+#### Usage Instructions
+
+1. 오픈 샵 채널 웹사이트에서 추천하는 `.zip` 파일을 다운로드합니다.
+
+   ![](/images/osc/zip-download-LS.png)
+
+2. 보관 파일의 `apps` 폴더를 SD 카드나 USB 드라이브의 루트에 압축 해제합니다.
+
+3. Insert your SD card or USB drive into your Wii, and go to LibreShop. LibreShop should now display.
+
+   ![](/images/osc/libreshop.png)
+
+### Homebrew Browser
+
+The Homebrew Browser is a graphical-based app repository for the Wii originally released in June 2008, but patched by the Open Shop Channel team to support its servers. It can be unstable, but serves as an alternative to LibreShop should the former not be usable.
+
+#### 요구 사항
+
+- A Wii with an active Internet connection
 - SD 카드 및 USB 드라이브
 - [홈브류 브라우저](https://oscwii.org/library/app/homebrew_browser)
 
-### 지침
+#### Usage Instructions
 
 1. 오픈 샵 채널 웹사이트에서 추천하는 `.zip` 파일을 다운로드합니다.
 
@@ -28,15 +61,57 @@
 
 3. SD 카드나 USB 드라이브를 Wii에 연결하고 홈브류 채널로 이동합니다. 이제 홈브류 브라우저로가 표시될 것입니다.
 
-## 방법 II - OSCDL
+   ![](/images/osc/homebrew-browser.png)
 
-### 요구 사항
+## Method II - Open Shop Channel on PC
 
-- 인터넷 연결이 가능한 윈도우/맥OS/리눅스 컴퓨터
+### TinyWiiBackupManager
+
+TinyWiiBackupManager comes with a built-in app downloader for Open Shop Channel homebrew applications, and is the preferred method to download OSC apps on PC for most users due to its simplicity.
+
+#### 요구 사항
+
+- A Windows/macOS/Linux computer with an Internet connection
+- SD 카드 및 USB 드라이브
+- The latest version of [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
+
+#### 섹션 I - 설치
+
+Detailed installation instructions for TinyWiiBackupManager specific to your operating system can be found on the [Managing Backups](backups#using-tinywiibackupmanager) page. Once finished, proceed for instructions on using the application for the Open Shop Channel.
+
+#### Section II - Usage
+
+1. USB 드라이브 또는 SD 카드를 컴퓨터에 연결하세요.
+
+2. Click the hard drive icon on the bottom left of the app to select your drive. Select the root of the drive (e.g. `E:\`), not the "wbfs" or "games" folder. If you have not already done so, click the shop icon to open the Open Shop Channel frontend.
+
+   ![](/images/desktop-apps/TWBM/twbm-osc-home.png)
+
+3. Find an application that you would like to obtain, and press the `Install app` button. 혹은, 앱을 Wii로 직접 보낼 수도 있습니다. (이렇게 하려면 컴퓨터와 Wii가 동일한 네트워크에 있어야 함)
+
+   ![](/images/desktop-apps/TWBM/twbm-osc-search.png)
+
+4. A dialog box will pop-up asking you if you would like to install the application. Press `Yes`. Once the installation has finished, a message will appear in the bottom right of the application indicating that the app was installed.
+
+   ![](/images/desktop-apps/TWBM/twbm-osc-dialog.png)
+
+5. SD 카드나 USB 드라이브를 Wii에 연결하고 홈브류 채널로 이동합니다. 이제 다운로드한 홈브류가 표시될 것입니다.
+
+### OSCDL
+
+OSCDL is the application officially developed by the Open Shop Channel team for usage on PC, and may appeal to power users due to its additional features. It can be used as an alternative to TinyWiiBackupManager in cases where the former will not function.
+
+#### 요구 사항
+
+- A Windows/macOS/Linux computer with an Internet connection
 - SD 카드 및 USB 드라이브
 - [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)의 최신 버전
 
-### 윈도우용 지침
+#### 윈도우
+
+<br>
+
+##### 섹션 I - 설치
 
 ::: info
 
@@ -58,17 +133,23 @@
 
    ![](/images/osc/install-finished-OSCDL.png)
 
-3. 원하는 응용 프로그램을 찾은 후 다운로드 버튼을 누릅니다. 혹은, 앱을 Wii로 직접 보낼 수도 있습니다. (이렇게 하려면 컴퓨터와 Wii가 동일한 네트워크에 있어야 함)
+##### Section II - Usage
+
+1. Find an application that you would like to obtain, and press the Download button. 혹은, 앱을 Wii로 직접 보낼 수도 있습니다. (이렇게 하려면 컴퓨터와 Wii가 동일한 네트워크에 있어야 함)
 
    ![](/images/osc/app-download-OSCDL.png)
 
-4. 직접 다운로드하는 경우 다운로드 위치를 묻는 대화 상자가 나타납니다. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. 그렇지 않은 경우, 수동 다운로드 위치를 지정하여 직접 압축 해제 할 수도 있습니다.
+2. 직접 다운로드하는 경우 다운로드 위치를 묻는 대화 상자가 나타납니다. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. 그렇지 않은 경우, 수동 다운로드 위치를 지정하여 직접 압축 해제 할 수도 있습니다.
 
    ![](/images/osc/download-prompt-OSCDL.png)
 
-5. SD 카드나 USB 드라이브를 Wii에 연결하고 홈브류 채널로 이동합니다. 이제 다운로드한 홈브류가 표시될 것입니다.
+3. SD 카드나 USB 드라이브를 Wii에 연결하고 홈브류 채널로 이동합니다. 이제 다운로드한 홈브류가 표시될 것입니다.
 
-### 맥OS/리눅스용 지침
+#### macOS and Linux
+
+<br>
+
+##### 섹션 I - 설치
 
 ::: warning
 
@@ -98,15 +179,17 @@
 
    ![](/images/osc/run-OSCDL-terminal.png)
 
-7. Once OSCDL is open, find an application that you would like to get, and press the Download button. 혹은, 앱을 Wii로 직접 보낼 수도 있습니다. (이렇게 하려면 컴퓨터와 Wii가 동일한 네트워크에 있어야 함)
+##### Section II - Usage
+
+1. Once OSCDL is open, find an application that you would like to obtain, and press the Download button. 혹은, 앱을 Wii로 직접 보낼 수도 있습니다. (이렇게 하려면 컴퓨터와 Wii가 동일한 네트워크에 있어야 함)
 
    ![](/images/osc/app-download-OSCDL-linux.png)
 
-8. 직접 다운로드하는 경우 다운로드 위치를 묻는 대화 상자가 나타납니다. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. 그렇지 않은 경우, 수동 다운로드 위치를 지정하여 직접 압축 해제 할 수도 있습니다.
+2. 직접 다운로드하는 경우 다운로드 위치를 묻는 대화 상자가 나타납니다. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. 그렇지 않은 경우, 수동 다운로드 위치를 지정하여 직접 압축 해제 할 수도 있습니다.
 
    ![](/images/osc/download-prompt-OSCDL-linux.png)
 
-9. SD 카드나 USB 드라이브를 Wii에 연결하고 홈브류 채널로 이동합니다. 이제 다운로드한 홈브류가 표시될 것입니다.
+3. SD 카드나 USB 드라이브를 Wii에 연결하고 홈브류 채널로 이동합니다. 이제 다운로드한 홈브류가 표시될 것입니다.
 
 ::: tip
 

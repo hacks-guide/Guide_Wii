@@ -52,37 +52,37 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 2. Presiona el botón HOME y selecciona <code>Lanzar BootMii</code>.
 
-    - If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
+   - If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
 
-    ![](/images/bootmii/BootMii_HBC.png)
+   ![](/images/bootmii/BootMii_HBC.png)
 
 3. Selecciona el botón de opciones (el que tiene dos engranajes).
 
-    ![](/images/bootmii/BootMii_Gears.png)
+   ![](/images/bootmii/BootMii_Gears.png)
 
 4. Select the RestoreMii button.
 
-    ![](/images/bootmii/BootMii_Restore.png)
+   ![](/images/bootmii/BootMii_Restore.png)
 
 5. BootMii will inform you that it will run in SIMULATION mode, you can press A or Reset to continue.
 
-    ![](/images/bootmii/BootMii_NAND_Simulation.png)
+   ![](/images/bootmii/BootMii_NAND_Simulation.png)
 
 6. On your GameCube controller, input the Konami code: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 
-    ![](/images/bootmii/BootMii_NAND_Konami.png)
+   ![](/images/bootmii/BootMii_NAND_Konami.png)
 
 7. BootMii will run through the restore process as a simulation, detailing what will be erased and rewritten. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin.
 
-    ![](/images/bootmii/BootMii_NAND_Restore.png)
+   ![](/images/bootmii/BootMii_NAND_Restore.png)
 
 8. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Pulsa cualquier botón de la consola Wii o del mando de GameCube.
 
-    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
+   ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
 9. Para salir de BootMii, oprime el botón con la flecha negra, y después elige el que tiene el icono del menú de Wii o el Canal Homebrew para salir a donde desees.
 
-    ![](/images/bootmii/BootMii_Return.png)
+   ![](/images/bootmii/BootMii_Return.png)
 
 ::: info
 

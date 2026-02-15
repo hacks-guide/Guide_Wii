@@ -62,7 +62,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 15. Open the red letter with a bomb.
     - Asegúrate de que la fecha en tu Wii sea correcta, pues de lo contrario podrías ser incapaz de encontrar la carta.
-    - En algunos casos, es posible que la carta se ubique en el día anterior o posterior al actual.
+    - In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     - If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. En caso de recibir un error, es posible que haya un problema con el formato de la tarjeta SD o el lector de tarjetas SD de la consola.
     - Si el sistema se congela después de seleccionar la carta, es probable que hayas elegido la región incorrecta al momento de descargar los archivos del exploit. Repite el paso 2 al comienzo de la guía y selecciona la región correcta, luego continúa con el resto de pasos.
     - If all is correct and there is freezing, keep on trying until it works.

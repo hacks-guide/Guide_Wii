@@ -26,7 +26,7 @@ WiiFlow Lite용 공식 Wii 메뉴 포워더 설치 프로그램은 [오픈 샵 �
 
   - WiiFlow Lite에서 Wii 게임을 로딩하려면 SD 카드가 완벽히 지원됩니다.
   - WiiFlow Lite에는 플러그인 시스템이 있습니다.
-  - 원래 WiiFlow는 2014년에 마지막으로 업데이트되었지만, WiiFlow Lite 포크는 여전히 정기적인 업데이트를 받고 있습니다.
+  - While the original WiiFlow was last updated in 2014, the WiiFlow Lite fork is still receiving regular updates.
 
   ![](/images/usb-loaders/wiiflow-ui.png)
 
@@ -40,7 +40,7 @@ WiiFlow Lite용 공식 Wii 메뉴 포워더 설치 프로그램은 [오픈 샵 �
 
 ## Game Folder Structure
 
-아래는 단일 WBFS의 예와 분할된 WBFS의 예입니다. WBFS가 4GB를 넘고 저장 장치가 FAT32로 포맷된 경우 WBFS를 분할해야 합니다. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game folder structure correctly.
+아래는 단일 WBFS의 예와 분할된 WBFS의 예입니다. WBFS가 4GB를 넘고 저장 장치가 FAT32로 포맷된 경우 WBFS를 분할해야 합니다. Software such as [TinyWiiBackupManager](backups#using-tinywiibackupmanager) can do this for you, and will automatically set up the game folder structure correctly.
 
 ```
 💾SD 카드 또는 USB:

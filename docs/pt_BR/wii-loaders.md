@@ -26,7 +26,7 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 
   - Cartões SD são totalmente suportados para carregar jogos do Wii no WiiFlow Lite.
   - WiiFlow Lite tem um sistema de plugins.
-  - O WiiFlow original foi atualizado pela última vez em 2014, o fork WiiFlow Lite ainda está recebendo atualizações regulares.
+  - While the original WiiFlow was last updated in 2014, the WiiFlow Lite fork is still receiving regular updates.
 
   ![](/images/usb-loaders/wiiflow-ui.png)
 
@@ -40,7 +40,7 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 
 ## Game Folder Structure
 
-Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if it is over 4 GB and your storage device is formatted as FAT32. Software such as [Wii Backup Manager](wii-backups#using-wii-backup-manager) or [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) can do this for you, and will automatically set up the game folder structure correctly.
+Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if it is over 4 GB and your storage device is formatted as FAT32. Software such as [TinyWiiBackupManager](backups#using-tinywiibackupmanager) can do this for you, and will automatically set up the game folder structure correctly.
 
 ```
 💾SD card or USB:

@@ -23,7 +23,7 @@ A Wilbrand Web ajánlott, a könnyebb használhatósága miatt.
 
 ::: warning
 
-A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korábbi verzióival.
+A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii Menu 4.0-nál korábbi verzióival.
 
 :::
 
@@ -102,7 +102,7 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korább
 
 ::: warning
 
-A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii menu 4.0-nál korábbi verzióival.
+A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii Menu 4.0-nál korábbi verzióival.
 
 :::
 
