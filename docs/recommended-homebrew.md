@@ -10,7 +10,7 @@ Specifically, this page outlines homebrew and other projects that are recommende
 * [CDBackup](https://oscwii.org/library/app/cdbackup) - Backup, restore, and delete Wii Message Board data.
 * [FTPii](https://oscwii.org/library/app/ftpii) - An FTP server for your Wii, allowing you to transfer files across your network.
 * [NetBSD](https://www.netbsd.org/) - A distribution of BSD, with a specially maintained version for the Wii.
-* [Schism Tracker](https://oscwii.org/library/app/schismtracker) - A editor and player for tracked music (IT, XM, S3M, MOD, etc.). You can find music to try out [here](https://modarchive.org/).
+* [Schism Tracker](https://oscwii.org/library/app/schismtracker) - A editor and player for tracked music (IT, XM, S3M, MOD, etc.). You can find music to try out [on the ModArchive site](https://modarchive.org/).
 * [Wii-Linux](https://wii-linux.org/) - A distribution of Linux that is actively maintained and updated.
 * [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - A modified and updated version of WiiMC. Turns your Wii into a fully fledged media center, with the ability to listen to music, watch videos, play DVDs, and more.
 * [WiiXplorer-SS](https://oscwii.org/library/app/wiixplorer-ss) - A file manager for the Wii, allowing you to view and customize files both on an SD card, a USB device, and the internal Wii memory. This makes it a powerful tool which can cause damage to your Wii if used improperly, so be careful.

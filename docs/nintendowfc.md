@@ -116,7 +116,7 @@ A method for Wiimmfi patching which runs on retail game discs automatically thro
 
 If you get error `20100` or `20110`, the game you are trying to play is not supported by this method.
 
-If you get error `23400`, your ISP or network is blocking the use of a custom DNS. To resolve this issue, Wiimmfi has a custom DNS server that can be ran on your PC - you can read about it [here](https://wiimmfi.de/patcher/dnspatch#customdns).
+If you get error `23400`, your ISP or network is blocking the use of a custom DNS. To resolve this issue, Wiimmfi has a custom DNS server that can be ran on your PC - you can read about it [on the Wiimmfi website](https://wiimmfi.de/patcher/dnspatch#customdns).
 
 :::
 
