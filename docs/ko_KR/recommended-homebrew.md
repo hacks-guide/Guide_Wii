@@ -2,7 +2,7 @@
 
 이 페이지에서는 wii.hacks.guide 스탭이 유용하다고 추천하는 홈브류, 있으면 좋다고 추천하는 홈브류, 그저 괜찮은 홈브류를 설명합니다. Wii의 강력한 성능을 최대한 활용해 보세요!
 
-Wii를 영구적으로 변경할 수 있는 홈브류는 **굵은 글씨**로 강조 표시되어 있습니다.
+Homebrew that has the ability to make permanent changes to your Wii are highlighted in **bold**.
 
 ## 유틸리티
 

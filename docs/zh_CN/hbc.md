@@ -22,43 +22,43 @@ You can always [install it later](hackmii).
 
 1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
 
-    - 你将看到诈骗警告屏幕。
+   - 你将看到诈骗警告屏幕。
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
 2. 等待30秒，直到"Press 1 to continue"出现，然后按1。
 
 3. Select `Continue`.
 
-    ![](/images/hackmii/test_results.png)
+   ![](/images/hackmii/test_results.png)
 
 4. Select `Install the Homebrew Channel`.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
 5. Once it is completed, select `Continue`.
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
 6. Select `BootMii...`.
 
-    ![](/images/hackmii/bootmii_install.png)
+   ![](/images/hackmii/bootmii_install.png)
 
 7. Select `Install BootMii as IOS`.
 
-    ![](/images/hackmii/bootmii_install1.png)
+   ![](/images/hackmii/bootmii_install1.png)
 
-    ![](/images/hackmii/bootmii_install2.png)
+   ![](/images/hackmii/bootmii_install2.png)
 
-    ![](/images/hackmii/bootmii_install3.png)
+   ![](/images/hackmii/bootmii_install3.png)
 
-    ![](/images/hackmii/bootmii_install_ok.png)
+   ![](/images/hackmii/bootmii_install_ok.png)
 
 8. Once it is completed, select `Continue`.
 
 9. If you have the option to `Install BootMii as boot2`, please do so as well.
 
-    ![](/images/hackmii/bootmii_install4.png)
+   ![](/images/hackmii/bootmii_install4.png)
 
 10. Select `Return to the main menu`, then select `Exit`.
 
@@ -124,29 +124,29 @@ Homebrew Channel 是您启动自制应用的地方。
 
 1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
 
-    - 你将看到诈骗警告屏幕。
+   - 你将看到诈骗警告屏幕。
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
 2. 等待30秒，直到"Press 1 to continue"出现，然后按1。
 
 3. Select `Continue`.
 
-    ![](/images/hackmii/test_results.png)
+   ![](/images/hackmii/test_results.png)
 
 4. Select `Install the Homebrew Channel`.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
 5. Once it is completed, select `Continue`
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
 6. Select `Exit`.
 
 7. Homebrew Channel 安装成功
 
-    ![](/images/hbc/blank.png)
+   ![](/images/hbc/blank.png)
 
 ## 必读
 

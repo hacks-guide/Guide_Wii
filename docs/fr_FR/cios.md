@@ -65,7 +65,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
    ![](/images/desktop-apps/nusget/nusget-ios-output.png)
 8. You can now use homebrew such as <a href="usbloadergx">USB Loader GX</a> and <a href="wiiflow">WiiFlow</a>.
    - Là où vous placez les fichiers doit être sur le même périphérique contenant d2x cIOS Installer.
-9. Ensure that each WAD file is named as listed below for compatability purposes with d2x-cios-installer:
+9. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer:
 
    |   IOS  |              File Name             |
    | :----: | :--------------------------------: |
@@ -197,7 +197,7 @@ The WAD files should be on your SD card like this: ![](/images/cios/d2x_offline_
 
       {{ technical_info | markdownify }}
 
-12. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+12. Once you have finished installing all 4 cIOSes, press B to return to the Homebrew Channel.
 
 ::: info
 
@@ -320,11 +320,13 @@ Assurez-vous que, si vous utilisez une carte SD, le verrou est en position déve
 
      ![](/images/cios/d2x_v11_251_vwii.png)
 
-9. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+9. Once you have finished installing all 4 cIOSes, press B to return to the Homebrew Channel.
 
 ::: tip
 
-[Continue to finalizing setup](vwii-finalizing-setup)
+[Continue to Finalizing Setup](vwii-finalizing-setup)
+
+Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard vWii menu.
 
 :::
 
@@ -393,7 +395,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 ::: tip
 
-[Continue to finalizing setup](mini-finalizing-setup)
+[Continue to Finalizing Setup](mini-finalizing-setup)
 
 :::
 

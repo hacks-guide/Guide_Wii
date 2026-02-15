@@ -52,37 +52,37 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 2. 按 HOME 按钮，然后选择 "Launch BootMii"。
 
-    - If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
+   - If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
 
-    ![](/images/bootmii/BootMii_HBC.png)
+   ![](/images/bootmii/BootMii_HBC.png)
 
 3. 选择选项按钮（带齿轮图标的按钮）。
 
-    ![](/images/bootmii/BootMii_Gears.png)
+   ![](/images/bootmii/BootMii_Gears.png)
 
 4. 选择 RestoreMii 按钮。
 
-    ![](/images/bootmii/BootMii_Restore.png)
+   ![](/images/bootmii/BootMii_Restore.png)
 
 5. BootMii will inform you that it will run in SIMULATION mode, you can press A or Reset to continue.
 
-    ![](/images/bootmii/BootMii_NAND_Simulation.png)
+   ![](/images/bootmii/BootMii_NAND_Simulation.png)
 
 6. 在 GameCube 手柄上输入科乐美秘技：↑、↑、↓、↓、←、→、←、→、B、A、START
 
-    ![](/images/bootmii/BootMii_NAND_Konami.png)
+   ![](/images/bootmii/BootMii_NAND_Konami.png)
 
 7. BootMii will run through the restore process as a simulation, detailing what will be erased and rewritten. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin.
 
-    ![](/images/bootmii/BootMii_NAND_Restore.png)
+   ![](/images/bootmii/BootMii_NAND_Restore.png)
 
 8. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. 按 Wii 主机或 GCN 手柄上的任意按钮。
 
-    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
+   ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
 9. 要退出 BootMii，按返回按钮（带箭头的那个)，然后您可以按 Wii 菜单按钮或 Homebrew Channel 按钮来退出到您想要的地方。
 
-    ![](/images/bootmii/BootMii_Return.png)
+   ![](/images/bootmii/BootMii_Return.png)
 
 ::: info
 

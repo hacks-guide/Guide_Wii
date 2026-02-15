@@ -8,17 +8,50 @@ For support (in English) with the Open Shop Channel, join [Open Shop Channel on 
 
 The [Open Shop Channel](https://oscwii.org/) is a homebrew app repository created by dhtdht020, and is currently the preferred way to download homebrew.
 
-There are two methods to use the Open Shop Channel: on your Wii through Homebrew Browser, or outside of your Wii through OSCDL.
+There are two methods to use the Open Shop Channel:
 
-## Metodo I - Homebrew Browser
+- On the Wii itself, utilizing one of the following homebrew apps:
+  - LibreShop (preferred)
+  - Homebrew Browser (fallback)
+- On your computer, utilizing one of the following applications:
+  - TinyWiiBackupManager (preferred)
+  - OSCDL (fallback)
 
-### Requirements
+## Method I - Open Shop Channel on Wii
 
-- Un Wii modificato con una connessione Internet attiva
+### LibreShop
+
+LibreShop is a text-based app repository coded from the ground up by the LibreShop team, serving as a modern and more reliable method to download homebrew on a Wii.
+
+#### Requirements
+
+- A Wii with an active Internet connection
+- Una scheda SD o dispositivo USB
+- [LibreShop](https://oscwii.org/library/app/libreshop)
+
+#### Usage Instructions
+
+1. Download the recommended `.zip` file from the Open Shop Channel website.
+
+   ![](/images/osc/zip-download-LS.png)
+
+2. Extract the `apps` folder in the archive to the root of your SD card or USB drive.
+
+3. Insert your SD card or USB drive into your Wii, and go to LibreShop. LibreShop should now display.
+
+   ![](/images/osc/libreshop.png)
+
+### Homebrew Browser
+
+The Homebrew Browser is a graphical-based app repository for the Wii originally released in June 2008, but patched by the Open Shop Channel team to support its servers. It can be unstable, but serves as an alternative to LibreShop should the former not be usable.
+
+#### Requirements
+
+- A Wii with an active Internet connection
 - Una scheda SD o dispositivo USB
 - [Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
-### Instructions
+#### Usage Instructions
 
 1. Download the recommended `.zip` file from the Open Shop Channel website.
 
@@ -28,15 +61,57 @@ There are two methods to use the Open Shop Channel: on your Wii through Homebrew
 
 3. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia l'Homebrew Channel. Homebrew Browser should now display.
 
-## Metodo II - OSCDL
+   ![](/images/osc/homebrew-browser.png)
 
-### Requirements
+## Method II - Open Shop Channel on PC
 
-- Un computer Windows/macOS/Linux con una connessione a internet
+### TinyWiiBackupManager
+
+TinyWiiBackupManager comes with a built-in app downloader for Open Shop Channel homebrew applications, and is the preferred method to download OSC apps on PC for most users due to its simplicity.
+
+#### Requisiti
+
+- A Windows/macOS/Linux computer with an Internet connection
+- Una scheda SD o dispositivo USB
+- The latest version of [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
+
+#### Section I - Installation
+
+Detailed installation instructions for TinyWiiBackupManager specific to your operating system can be found on the [Managing Backups](backups#using-tinywiibackupmanager) page. Once finished, proceed for instructions on using the application for the Open Shop Channel.
+
+#### Section II - Usage
+
+1. Inserisci la tua unità USB o scheda SD nel tuo computer.
+
+2. Click the hard drive icon on the bottom left of the app to select your drive. Select the root of the drive (e.g. `E:\`), not the "wbfs" or "games" folder. If you have not already done so, click the shop icon to open the Open Shop Channel frontend.
+
+   ![](/images/desktop-apps/TWBM/twbm-osc-home.png)
+
+3. Find an application that you would like to obtain, and press the `Install app` button. In alternativa, è possibile inviare l'app direttamente al Wii (questo richiede che sia il computer che il Wii siano sulla stessa rete).
+
+   ![](/images/desktop-apps/TWBM/twbm-osc-search.png)
+
+4. A dialog box will pop-up asking you if you would like to install the application. Press `Yes`. Once the installation has finished, a message will appear in the bottom right of the application indicating that the app was installed.
+
+   ![](/images/desktop-apps/TWBM/twbm-osc-dialog.png)
+
+5. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia l'Homebrew Channel. Ora dovresti vedere il tuo homebrew appena scaricato.
+
+### OSCDL
+
+OSCDL is the application officially developed by the Open Shop Channel team for usage on PC, and may appeal to power users due to its additional features. It can be used as an alternative to TinyWiiBackupManager in cases where the former will not function.
+
+#### Requisiti
+
+- A Windows/macOS/Linux computer with an Internet connection
 - Una scheda SD o dispositivo USB
 - The latest version of [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)
 
-### Istruzioni per Windows
+#### Windows
+
+<br>
+
+##### Section I - Installation
 
 ::: info
 
@@ -58,17 +133,23 @@ Se vedi un pop-up per il Controllo account utente che ti chiede se vuoi che il p
 
    ![](/images/osc/install-finished-OSCDL.png)
 
-3. Trova un'applicazione che desideri ottenere e premi il pulsante Download. In alternativa, è possibile inviare l'app direttamente al Wii (questo richiede che sia il computer che il Wii siano sulla stessa rete).
+##### Section II - Usage
+
+1. Find an application that you would like to obtain, and press the Download button. In alternativa, è possibile inviare l'app direttamente al Wii (questo richiede che sia il computer che il Wii siano sulla stessa rete).
 
    ![](/images/osc/app-download-OSCDL.png)
 
-4. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
+2. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
 
    ![](/images/osc/download-prompt-OSCDL.png)
 
-5. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia l'Homebrew Channel. Ora dovresti vedere il tuo homebrew appena scaricato.
+3. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia l'Homebrew Channel. Ora dovresti vedere il tuo homebrew appena scaricato.
 
-### Istruzioni per macOS/Linux
+#### macOS and Linux
+
+<br>
+
+##### Section I - Installation
 
 ::: warning
 
@@ -98,15 +179,17 @@ You will need Python 3 installed in order to use OSCDL on these platforms. Pleas
 
    ![](/images/osc/run-OSCDL-terminal.png)
 
-7. Once OSCDL is open, find an application that you would like to get, and press the Download button. In alternativa, è possibile inviare l'app direttamente al Wii (questo richiede che sia il computer che il Wii siano sulla stessa rete).
+##### Section II - Usage
+
+1. Once OSCDL is open, find an application that you would like to obtain, and press the Download button. In alternativa, è possibile inviare l'app direttamente al Wii (questo richiede che sia il computer che il Wii siano sulla stessa rete).
 
    ![](/images/osc/app-download-OSCDL-linux.png)
 
-8. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
+2. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
 
    ![](/images/osc/download-prompt-OSCDL-linux.png)
 
-9. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia l'Homebrew Channel. Ora dovresti vedere il tuo homebrew appena scaricato.
+3. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia l'Homebrew Channel. Ora dovresti vedere il tuo homebrew appena scaricato.
 
 ::: tip
 

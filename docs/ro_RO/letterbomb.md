@@ -62,7 +62,7 @@ NU folosi niciun exemplu de adrese MAC afișate în acest ghid, deoarece acestea
 
 15. Deschide plicul roșu cu o bombă.
     - Asigură-te că data de pe Wii este corectă, altfel este posibil să nu găsești scrisoarea.
-    - În unele cazuri, trebuie să verifici mesajele pentru ziua de mâine sau ieri ca scrisoarea să apară.
+    - In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     - If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. Dacă apare o eroare, s-ar putea să existe o problemă cu formatul cardului SD sau cu cititorul de carduri SD a consolei Wii.
     - Dacă sistemul Wii îngheață după ce apeși pe scrisoare, cel mai probabil ai ales regiunea greșită a meniului de sistem pentru LetterBomb. Întoarce-te la Pasul 2 și verifică dacă ai ales regiunea corectă.
     - Dacă totul este corect și consola tot îngheață, continuă să încerci până funcționează.

@@ -19,25 +19,25 @@ En esta guía te explicaremos cómo usarla para instalar WADs.
 
 1. Elige el dispositivo de almacenamiento donde se encuentren guardados los archivos WAD que deseas instalar.
 
-    ![](/images/homebrew/yawmME/source_device.png)
+   ![](/images/homebrew/yawmME/source_device.png)
 
 2. Ingresa a la carpeta que contenga los archivos WAD.
 
-    - If you have a folder named `wad`, it will be opened automatically.
+   - If you have a folder named `wad`, it will be opened automatically.
 
-    ![](/images/homebrew/yawmME/file_selection.png)
+   ![](/images/homebrew/yawmME/file_selection.png)
 
 3. Navigate to the WAD file you would like to install and press `A`.
 
-    - If you would like to install multiple WAD files at once, press `+` on each of them, then press `A`.
+   - If you would like to install multiple WAD files at once, press `+` on each of them, then press `A`.
 
-    ![](/images/homebrew/yawmME/install_wad.png)
+   ![](/images/homebrew/yawmME/install_wad.png)
 
 4. Oprime A nuevamente para comenzar la instalación.
 
-    ![](/images/homebrew/yawmME/installing_wad.png)
+   ![](/images/homebrew/yawmME/installing_wad.png)
 
-    ![](/images/homebrew/yawmME/installing_wad_ok.png)
+   ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
 ::: tip
 

@@ -63,7 +63,7 @@ Wii를 인터넷에 연결할 수 있다면 [섹션 II](cios#section-ii---instal
    ![](/images/desktop-apps/nusget/nusget-ios-output.png)
 8. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 d2x cIOS 설치 프로그램을 실행합니다.
    - 이 장치는 d2x cIOS 설치 프로그램이 포함된 동일한 장치여야 합니다.
-9. Ensure that each WAD file is named as listed below for compatability purposes with d2x-cios-installer:
+9. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer:
 
    |   IOS  |              File Name             |
    | :----: | :--------------------------------: |
@@ -180,7 +180,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
       ![](/images/cios/d2x_v11_251.png)
 
-12. 4 개의 cIOS를 모두 완료한 후 B 버튼을 눌러 홈브류 채널로 돌아갑니다.
+12. Once you have finished installing all 4 cIOSes, press B to return to the Homebrew Channel.
 
 ::: info
 
@@ -290,11 +290,13 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 
      ![](/images/cios/d2x_v11_251_vwii.png)
 
-9. 4 개의 cIOS를 모두 완료한 후 B 버튼을 눌러 홈브류 채널로 돌아갑니다.
+9. Once you have finished installing all 4 cIOSes, press B to return to the Homebrew Channel.
 
 ::: tip
 
-[설정을 마무리하는 중](vwii-finalizing-setup)
+[Continue to Finalizing Setup](vwii-finalizing-setup)
+
+Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard vWii menu.
 
 :::
 
@@ -361,7 +363,7 @@ Wii 미니에 Wii/vWii IOS나 시스템 메뉴를 설치하려고 하지 마세�
 
 ::: tip
 
-[설정을 마무리화하는 중](mini-finalizing-setup)
+[Continue to Finalizing Setup](mini-finalizing-setup)
 
 :::
 
