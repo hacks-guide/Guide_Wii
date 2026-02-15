@@ -8,6 +8,7 @@
 - [시작하기](get-started)
 - [자주 묻는 질문](faq)
 - [기부](donations)
+- [hacks.guide Wiki — Wii](https://wiki.hacks.guide/wiki/Wii)
 
 :::
 
@@ -47,7 +48,7 @@
 - [ModMii](modmii)
 - [오픈 샵 채널](osc)
 - [Priiloader](priiloader)
-- [복원 모드](recovery-mode)
+- [Recovery Mode](recovery-mode)
 - [HackMii 설치 프로그램 재시작](hackmii)
 - [Wii 낸드를 공장초기화로 복원](wii-factory-reset)
 - [Wii 메뉴 v4.3으로 업데이트](update)
@@ -60,10 +61,9 @@
 **홈브류**
 
 - [Wii 게임 단축키 만들기](wiigsc)
-- [채널 덤프 방법 (WAD)](dump-wads)
-- [게임큐브/Wii 게임 덤프 방법](dump-games)
-- [게임큐브 백업 관리](gc-backups)
-- [Wii 백업 관리](wii-backups)
+- [How to Dump Channels (WADs)](dump-wads)
+- [How to Dump Wii/GameCube Games](dump-games)
+- [Managing Wii and GameCube Backups](backups)
 - [Priiloader 사용법](priiloader-usage)
 - [추천 홈브류](recommended-homebrew)
 - [저장 게임 전송](transfer-saves)
@@ -77,9 +77,9 @@
 
 **vWii**
 
-- [vWii에 홈브류 채널 설치](vwii-homebrew-channel)
-- [Wii U 낸드 덤퍼](wiiu-nand-dumper)
-- [Wii U 측면을 개조하지 않고 vWii에 홈브류 채널 설치](vwii-homebrew-channel-no-wiiu-mods)
+- [Creating a NAND dump of the Wii U](wiiu-nand-dumper)
+- [Installing the Homebrew Channel on vWii](vwii-homebrew-channel)
+- [Finalizing Setup — vWii](vwii-finalizing-setup)
 
 :::
 
@@ -88,5 +88,6 @@
 **Wii mini**
 
 - [Wii 미니 낸드 덤퍼](wnd-mini)
+- [Finalizing Setup — Wii mini](mini-finalizing-setup)
 
 :::

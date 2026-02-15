@@ -10,7 +10,7 @@ For support (in English) with Wii mini hacking, join [Wii mini Hacking](https://
 
 ::: info
 
-If you have a Wii or a Wii mini with an SD card slot soldered, follow [this tutorial](bootmii) to dump your NAND.
+If you have a Wii, or a Wii mini with an SD card slot soldered, follow [this tutorial](bootmii) to dump your NAND.
 
 :::
 
@@ -86,11 +86,15 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 
 :::
 
+---
+
 ::: tip
 
 [Continue to Priiloader Installation](priiloader)
 
 :::
+
+---
 
 ::: tip
 

@@ -52,44 +52,37 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
    ![](/images/priiloader/menu.png)
 
-Later on, to enter it you can:
+:::details In the future, you can use the following methods to enter Priiloader:
 
-- Hold the RESET button while turning on your Wii.
-  - Wii Only
-- Hold the ESC key on a connected USB keyboard while turning on the console
-  - Wii, vWii and Mini
-- Run the "Load Priiloader" tool from the HBC
-  - Wii, vWii and Mini
-- Removes a check in the Wii to see if an inserted game matches the title ID of the "Wii Startup Disc".
-  - vWii Only
+| Console Type | Priiloader Entry Methods                                                                                                                                                                                                                                        |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wii          | <ul><li>Holding the RESET button while turning the console ON, or while inside the Wii Menu</li><li>Holding the ESC key on a connected USB keyboard while turning the console ON</li><li>Running the `Load Priiloader` tool from the Homebrew Channel</li></ul> |
+| vWii         | <ul><li>Holding the ESC key on a connected USB keyboard while turning the console ON</li><li>Running the `Load Priiloader` tool from the Homebrew Channel</li><li>Running the Priiloader forwarder from the Wii U Menu</li></ul>                                |
+| Wii mini     | <ul><li>Holding the ESC key on a connected USB keyboard while turning the console ON</li><li>Running the `Load Priiloader` tool from the Homebrew Channel</li></ul>                                                                                             |
+
+:::
 
 ### Section I - Downloading/Installing
+
+::: warning
+
+If you copied the Priiloader installer onto a USB drive, ensure that you DO NOT have an SD card inserted at the same time.
+
+Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
+
+:::
 
 1. Scroll down to `System Menu Hacks` and press `A`.
 
    ![](/images/priiloader/menu_hacks.png)
 
-   ::: warning
+2. In `System Menu Hacks`, enable the following options according to your console:
 
-   If you have put the Priiloader installer on your USB drive, make sure you do not have an SD card inserted at the same time.
-
-   Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
-
-   :::
-
-2. For the following options, enable the options according to your console:
-   - Wii:
-     - If you are using 480p mode: `480p graphics fix in the system menu`
-     - Block Disc Updates
-     - Block Online Updates
-     - If you are NOT using a CRT display: `Remove Deflicker`
-   - vWii:
-     - Block Online Updates
-     - Wii System Settings via Options Button
-     - If you are NOT using a CRT display: `Remove Deflicker`
-   - Wii mini:
-     - Block Disc Updates
-     - If you are NOT using a CRT display: `Remove Deflicker`
+   | Console Type | Priiloader Options                                                                                                                                                                                              |
+   | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | Wii          | <ul><li>If you are using 480p mode: `480p graphics fix in the system menu`</li><li>`Block Disc Updates`</li><li>`Block Online Updates`</li><li>If you are NOT using a CRT display: `Remove Deflicker`</li></ul> |
+   | vWii         | <ul><li>`Block Online Updates`</li><li>`Wii System Settings via Options Button`</li><li>If you are NOT using a CRT display: `Remove Deflicker`</li></ul>                                                        |
+   | Wii mini     | <ul><li>`Block Disc Updates`</li><li>If you are NOT using a CRT display: `Remove Deflicker`</li></ul>                                                                                                           |
 
 3. Scroll down to `save settings` and press A.
 

@@ -1,4 +1,4 @@
-# Extrair jogos do Wii/GameCube
+# Dumping Wii/GameCube Games
 
 This guide covers dumping GameCube or Wii game discs to a local SD card or USB drive on your Wii.
 
@@ -85,7 +85,7 @@ If you get an unrecovered read error, ensure that the disc you are attempting to
 
 ::: tip
 
-Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are output, and manage your dumped games.
+Proceed to [Managing Wii and GameCube Backups](backups#joining-part-files-from-a-wii-disc-on-a-fat32-device) to join the PART files that are output, and manage your dumped games.
 
 :::
 
@@ -113,6 +113,6 @@ Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping 
 
 ::: tip
 
-Proceed to [Managing GameCube Backups](gc-backups) to shrink the size of your output file, and manage your dumped games.
+Proceed to [Managing Wii and GameCube Backups](backups#using-tinywiibackupmanager) to shrink the size of your output file, and manage your dumped games.
 
 :::

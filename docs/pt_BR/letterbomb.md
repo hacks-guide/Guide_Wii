@@ -63,7 +63,7 @@ NÃO use nenhum dos exemplos de endereços MAC mostrados neste guia, pois eles s
 
 15. Carregue a carta vermelha com um ícone de bomba.
     - - Certifique-se que a data em seu Wii está correta, caso contrário você não poderá encontrar a carta.
-    - Em alguns casos, talvez seja necessário verificar as mensagens do dia anterior ou dia seguinte para que a carta apareça.
+    - Em alguns casos, talvez seja necessário verificar as mensagens do dia anterior ou do dia seguinte para que a carta apareça.
     - If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. Se quaisquer aparecerem, talvez haja um erro com o formato do seu cartão SD ou o leitor de SD do Wii.
     - - Se o seu Wii congela após clicar na carta, você provavelmente escolheu a região errada quando baixou o exploit. Refaça o segundo passo e selecione a região correta.
     - Se tudo estiver certo e se houver congelamento, continue a tentar até que isso funcione.

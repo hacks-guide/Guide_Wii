@@ -63,7 +63,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
    ![](/images/desktop-apps/nusget/nusget-ios-output.png)
 8. 将每个 WAD 文件放在 SD 卡或 U 盘的根目录。
    - 必须与包含 d2x cIOS Installer 的设备相同。
-9. Ensure that each WAD file is named as listed below for compatability purposes with d2x-cios-installer:
+9. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer:
 
    |   IOS  |              File Name             |
    | :----: | :--------------------------------: |
@@ -180,7 +180,7 @@ The WAD files should be on your SD card like this:
 
       ![](/images/cios/d2x_v11_251.png)
 
-12. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+12. Once you have finished installing all 4 cIOSes, press B to return to the Homebrew Channel.
 
 ::: info
 
@@ -290,11 +290,13 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 
      ![](/images/cios/d2x_v11_251_vwii.png)
 
-9. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+9. Once you have finished installing all 4 cIOSes, press B to return to the Homebrew Channel.
 
 ::: tip
 
-[Continue to finalizing setup](vwii-finalizing-setup)
+[Continue to Finalizing Setup](vwii-finalizing-setup)
+
+Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard vWii menu.
 
 :::
 
@@ -361,7 +363,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 ::: tip
 
-[Continue to finalizing setup](mini-finalizing-setup)
+[Continue to Finalizing Setup](mini-finalizing-setup)
 
 :::
 

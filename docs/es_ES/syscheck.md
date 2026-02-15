@@ -20,13 +20,13 @@ Un SysCheck es un diagnóstico que proporciona información sobre todos los IOS 
 
 2. Cuando aparezca el mensaje <code>This IOS will be tested (Please select)</code>, oprime A.
 
-    ![](/images/homebrew/syscheck/syscheck_chooseios.png)
+   ![](/images/homebrew/syscheck/syscheck_chooseios.png)
 
 3. Espera a que la aplicación obtenga información sobre tus IOS.
 
 4. After it finishes, press the `A` Button if you want to view the log.
 
-    ![](/images/homebrew/syscheck/syscheck_success.png)
+   ![](/images/homebrew/syscheck/syscheck_success.png)
 
 5. If you want to share the SysCheck, you can share the `syscheck.csv` file on the root of your SD card or USB drive. You can also press `A`, which will upload the report to [syscheck.rc24.xyz](http://syscheck.rc24.xyz/).
 

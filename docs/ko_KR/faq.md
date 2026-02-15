@@ -50,17 +50,15 @@ RiiConnect24의 이전 DNS 서버를 사용하고 있습니다. 변경 방법에
 
 ## 저장 장치 자주 묻는 질문
 
-::: info
+::: danger
 
-[BlueBomb](bluebomb), [str2hax](str2hax), 또는 [FlashHax](flashhax) 익스플로잇의 경우 Wii 해킹에 SD 카드가 필요하지 않습니다. 홈브류 및 기타 작업을 위해 SD 카드를 하나 구입하는 것이 좋습니다.
+Flash drives are NOT recommended to be used on a Wii if possible because of their unpredicability and potential to become corrupt on the console. Using a USB flash drive may result in the following behavior:
 
-:::
+- Game backups failing to load
+- UI glitches in homebrew apps
+- Data randomly becoming corrupted
 
-::: info
-
-Wii는 용량에 상관없이 모든 SD 카드 (32GB보다 큰 카드 포함)를 읽을 수 있지만, 카드는 [FAT32/MS-DOS 형식으로 포맷](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)(exFAT 또는 NTFS 형식은 **안 됨**)되어 있어야 합니다.
-
-USB 장치의 경우 FAT32/MS-DOS 형식을 권장하지만, FAT32는 볼륨 크기를 최대 2TB, 파일 크기를 최대 4GB로 제한한다는 점에 유의해야 합니다. WBFS는 이전에 Wii 게임 백업에 사용된 파일 시스템이었습니다 (WBFS 파일과 혼동하지 마세요) - 오늘날에는 오래되어서 사용해서는 안 됩니다.
+If you experience the issues above, or other inexplicable issues with your flash drive, use a USB hard drive or an SD card instead.
 
 :::
 
@@ -72,22 +70,32 @@ Wii 메뉴 버전 4.0 이상에서는 이러한 제한이 없어지며 용량에
 
 :::
 
-::: warning
+::: info
 
-USB 장치의 경우, 플래시 드라이브는 Wii 콘솔에서 작동하지 않을 확률이 높습니다. 대신 USB 하드 드라이브나 솔리드 스테이트 드라이브(SSD)를 사용하는 것이 좋습니다.
+Wii는 용량에 상관없이 모든 SD 카드 (32GB보다 큰 카드 포함)를 읽을 수 있지만, 카드는 [FAT32/MS-DOS 형식으로 포맷](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)(exFAT 또는 NTFS 형식은 **안 됨**)되어 있어야 합니다.
+
+USB 장치의 경우 FAT32/MS-DOS 형식을 권장하지만, FAT32는 볼륨 크기를 최대 2TB, 파일 크기를 최대 4GB로 제한한다는 점에 유의해야 합니다. WBFS는 이전에 Wii 게임 백업에 사용된 파일 시스템이었습니다 (WBFS 파일과 혼동하지 마세요) - 오늘날에는 오래되어서 사용해서는 안 됩니다.
 
 :::
 
-### 일반 저장 지침
+::: info
 
-SD 카드나 USB 장치를 구매하거나 사용할 때, 각 저장 매체를 어떤 용도로 사용할 것인지 고려해 보는 것이 좋습니다. 다양한 용도로 인해 차지하는 공간의 양이 달라지는데, 아래에 몇 가지 일반적인 예를 보여드립니다:
+[BlueBomb](bluebomb), [str2hax](str2hax), 또는 [FlashHax](flashhax) 익스플로잇의 경우 Wii 해킹에 SD 카드가 필요하지 않습니다. 홈브류 및 기타 작업을 위해 SD 카드를 하나 구입하는 것이 좋습니다.
 
-- The average user for a Wii backup device would probably want 128GB or more of space. Wii Backups: The largest Wii games (dual-layer DVD) are up to sizes of 8.5GB, more normal games are closer to sizes of 4.7GB or lower.
-- 게임큐브 백업: 가장 큰 게임큐브 게임의 크기는 최대 1.3GB에 이릅니다. ISO 크기는 일반적으로 게임에 관계없이 이 크기이지만, 대신 NKIT를 형식으로 사용하면 상당히 작아질 수 있습니다. 게임큐브 백업 장치를 사용하는 일반 사용자는 아마도 64GB 이상의 공간을 원할 것입니다.
-- 일반 에뮬레이션: Wii에는 다양한 종류의 에뮬레이터가 있습니다. 다양한 게임 롬의 크기는 상당히 다르므로, 게임을 에뮬레이션하려는 일반 사용자는 아마도 32GB 이상의 공간이 필요할 것입니다.
-- 일반 홈브류: 홈브류의 경우 일반 사용자는 2GB 이상의 공간이 필요합니다.
-- 낸드 백업: BootMii로 낸드를 백업하려면 일반 사용자에게 최소 512MB의 여유 공간이 필요하지만, 1GB 이상의 공간이 권장됩니다.
-- 취약점 공격을 실행하려면 최소 128MB의 SD 카드가 필요합니다.
+:::
+
+### Storage Space Recommendations
+
+When considering buying or using an SD card or USB device, it is worth considering what you will be using either storage medium for. Based on your planned usage, sizing recommendations are outlined below:
+
+|   Device Usage   |                      Recommended Storage Space                      |
+| :--------------: | :-----------------------------------------------------------------: |
+|   Exploit-only   |                                128MB                                |
+|   NAND backups   | Minimum: 512MB<br>Recommended: 1GB+ |
+|  Homebrew usage  |                                 2GB+                                |
+|  Emulation usage |                                32GB+                                |
+| GameCube backups |                                64GB+                                |
+|    Wii backups   |                                128GB+                               |
 
 ### SD 카드 구매
 
@@ -97,19 +105,20 @@ SD 카드나 USB 장치를 구매하거나 사용할 때, 각 저장 매체를 �
 
 :::
 
-SD 카드를 구매할 때는 일반적으로 가격이 비싸고 용량이 클수록 잘 알려진 브랜드를 고수하는 것이 좋습니다. 일반적인 2GB SD 카드를 사면 안전할 가능성이 높지만 512GB SD 카드 등은 그렇지 않습니다. 일반적으로 SD 카드의 현재 가격은 256GB 이하일 경우 10~20 달러 정도이고, 512GB일 경우 40 달러 정도입니다. 아마존에서 구매할 경우, 카드가 `아마존에서 판매/아마존에서 배송` 또는 `[브랜드]에서 판매, 아마존에서 배송` 중 하나인지 확인합니다. 이베이에서 저장 장치를 구매할 때는 주의합니다.
+SD 카드를 구매할 때는 일반적으로 가격이 비싸고 용량이 클수록 잘 알려진 브랜드를 고수하는 것이 좋습니다. 일반적인 2GB SD 카드를 사면 안전할 가능성이 높지만 512GB SD 카드 등은 그렇지 않습니다. General current pricing for SD cards is around 10-35 USD for 256GB and below, whereas 512GB is around 60 USD. 아마존에서 구매할 경우, 카드가 `아마존에서 판매/아마존에서 배송` 또는 `[브랜드]에서 판매, 아마존에서 배송` 중 하나인지 확인합니다. 이베이에서 저장 장치를 구매할 때는 주의합니다.
 
-추천 브랜드:
+Our recommended brands:
 
-- Samsung (EVO 선택, EVO 플러스, 프로 플러스)
-- SanDisk (익스트림, 울트라 등)
-- Lexar (E-시리즈, 프로페셔널)
-- Silicon Power ("3D 낸드" 카드, 일반적으로 용량이 클수록 가치가 더 좋음)
-- PNY (엘리트, 엘리트-X, 등)
+- [Samsung](https://www.amazon.com/stores/page/99A645D0-BE70-4DF8-A0C5-CDED2FA59DE9) (EVO Select, EVO Plus, PRO Plus)
+- [SanDisk](https://www.amazon.com/stores/page/6187A5D4-11BE-4006-8AFB-6EC233258034) (Extreme, Ultra, etc)
+- [Lexar](https://www.amazon.com/stores/page/B1E6F5A7-1459-4D06-8FDA-963327D1B00C) (E-Series, Professional)
+- [Silicon Power](https://www.amazon.com/stores/page/A2CCB3CD-8C18-46EC-8497-5A3FE2E3FC1D) (3D NAND, Elite)
+- [PNY](https://www.amazon.com/stores/page/9F7889F9-FA53-4078-BA65-08F7F8104CF6) (Elite, Elite-X, etc)
+- [INLAND by Micro Center](https://www.amazon.com/stores/page/B43B257E-9D36-4368-B7E2-A4095BD5384B)
 
 ### USB 장치 구매 - 하드 드라이브
 
-USB 하드 드라이브를 구매할 때 현재 판매되는 HDD 제조업체는 Western Digital, Seagate, Toshiba의 세 곳 뿐입니다. 다른 모든 하드 드라이브 회사는 더 이상 존재하지 않거나 파산했거나 앞서 언급한 세 회사에 흡수되었습니다. 즉, 다른 회사에서 만든 추가 하드 드라이브가 있다면 여전히 작동할 것입니다! 하드 드라이브 기술은 지난 10여 년간 크게 변하지 않았습니다. 모든 데이터를 드라이브에 넣기 전에 S.M.A.R.T 데이터를 확인하여 드라이브에 오류가 없는지 확인합니다.
+USB 하드 드라이브를 구매할 때 현재 판매되는 HDD 제조업체는 Western Digital, Seagate, Toshiba의 세 곳 뿐입니다. Any and all other hard drive companies are defunct and have either went bankrupt, or were absorbed by the three aforementioned companies. 즉, 다른 회사에서 만든 추가 하드 드라이브가 있다면 여전히 작동할 것입니다! 하드 드라이브 기술은 지난 10여 년간 크게 변하지 않았습니다. 모든 데이터를 드라이브에 넣기 전에 S.M.A.R.T 데이터를 확인하여 드라이브에 오류가 없는지 확인합니다.
 
 하드 드라이브 크기의 경우, 2.5인치 드라이브는 Wii에서 USB 전원만으로 작동할 경우 대부분 잘 작동하지만, 3.5인치는 더 많은 전력을 소모하므로 항상 외부 전원 어댑터가 필요합니다. 외장 드라이브로 무엇을 할지 결정할 때 이 점도 꼭 고려합니다.
 

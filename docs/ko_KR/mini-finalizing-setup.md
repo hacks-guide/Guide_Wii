@@ -1,4 +1,4 @@
-# 설정 마무리
+# Finalizing Setup — Wii mini
 
 이제 홈브류 채널, Priiloader, cIOS가 설치되었으니 설정을 마무리합니다.
 
@@ -10,9 +10,9 @@
 
 :::
 
-- 이더넷 활성기는 Wii 미니에서 USB 이더넷 어댑터를 사용할 수 있도록 해줍니다. Wii 미니에서는 ASIX AX88772 칩셋이 탑재된 어댑터만 지원됩니다. 또한, 인터넷 연결이 필요한 홈브루 앱은 USB 허브, 특히 외부 전원 공급이 가능한 허브를 사용해야 합니다.
+- 이더넷 활성기는 Wii 미니에서 USB 이더넷 어댑터를 사용할 수 있도록 해줍니다. Wii 미니에서는 ASIX AX88772 칩셋이 탑재된 어댑터만 지원됩니다. Additionally, homebrew apps that need internet will require the use of a USB hub, preferably one that can be externally powered.
 - 시스템 채널 복구기는 Wii에서만 시청 가능한 일부 채널을 Wii 미니에 쉽게 설치할 수 있도록 해주는 홈브류 앱입니다.
-- 설정 편집기 GUI는 Wii 메뉴를 실행하지 않고도 시스템 설정에 접근할 수 있도록 해주는 앱입니다. Wii 미니에서는 일반적으로 Wii 미니 시스템 메뉴에 나타나지 않는 설정에 접근할 수 있습니다.
+- Settings Editor GUI is an app that allows access to system settings without booting the Wii Menu. Wii 미니에서는 일반적으로 Wii 미니 시스템 메뉴에 나타나지 않는 설정에 접근할 수 있습니다.
 
 ### 추가 홈브류 앱 - 필요한 것
 

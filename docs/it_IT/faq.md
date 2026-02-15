@@ -50,17 +50,15 @@ See [this](bricks) page.
 
 ## FAQ Dispositivi di Archiviazione
 
-::: info
+::: danger
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+Flash drives are NOT recommended to be used on a Wii if possible because of their unpredicability and potential to become corrupt on the console. Using a USB flash drive may result in the following behavior:
 
-:::
+- Game backups failing to load
+- UI glitches in homebrew apps
+- Data randomly becoming corrupted
 
-::: info
-
-The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**not** exFAT or NTFS).
-
-For USB devices, FAT32/MS-DOS is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS era precedentemente un file system usato per backup Wii (da non confondere con file WBFS) - oggi, è obsoleto e non dovrebbe essere usato.
+If you experience the issues above, or other inexplicable issues with your flash drive, use a USB hard drive or an SD card instead.
 
 :::
 
@@ -72,22 +70,32 @@ For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD car
 
 :::
 
-::: warning
+::: info
 
-Per i dispositivi USB, le unità flash hanno ampie probabilità di non funzionare su console Wii. È consigliato, invece, di usare un disco rigido USB o un'unità a stato solido.
+The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**not** exFAT or NTFS).
+
+For USB devices, FAT32/MS-DOS is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS era precedentemente un file system usato per backup Wii (da non confondere con file WBFS) - oggi, è obsoleto e non dovrebbe essere usato.
 
 :::
 
-### Linee Guida Generali Di Storage
+::: info
 
-Quando si considera comprare o usare una scheda SD o unità USB, ha senso tenere in considerazione le cose per cui si sta usando un tipo di memoria rispetto a un'altra. Utilizzi differenti occupane diverse quantità di spazio, alcuni esempi comuni sono mostrati di seguito:
+For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
 
-- L'utente medio per un dispositivo con backup di giochi Wii ha probabilmente bisogno di uno spazio maggiore o uguale a 128GB. Wii Backups: The largest Wii games (dual-layer DVD) are up to sizes of 8.5GB, more normal games are closer to sizes of 4.7GB or lower.
-- Backup GameCube: I backup più grandi di GameCube arrivano a occupare fino a 1.3GB di spazio. I file ISO sono normalmente di queste dimensioni indipendentemente dal gioco, ma può essere decisamente più leggero se viene invece usato il formato NKIT. L'utente medio per un dispositivo con backup di giochi GameCube ha probabilmente bisogno di uno spazio maggiore o uguale a 64GB.
-- Emulazione Generale: Ci sono una varietà di emulatori disponibili sul Wii. Poiché le dimensioni delle diverse ROM di gioco differiscono drammaticamente, l'utente medio che vuole emulare i giochi probabilmente vorrebbe 32GB o più di spazio.
-- Homebrew Generali: Per homebrew, l'utente medio ha probabilmente bisogno di uno spazio maggiore o uguale a 2GB.
-- Backup della NAND: Per eseguire backup della NAND con BootMii, l'utente medio ha probabilmente bisogno di un minimo di 512MB di spazio libero, ma più di 1GB è consigliato.
-- L'essenziale, solo l'exploit: La quantità di spazio minimo per eseguire un exploit compatibile con una scheda SD sul Wii è di 128MB.
+:::
+
+### Storage Space Recommendations
+
+When considering buying or using an SD card or USB device, it is worth considering what you will be using either storage medium for. Based on your planned usage, sizing recommendations are outlined below:
+
+|   Device Usage   |                      Recommended Storage Space                      |
+| :--------------: | :-----------------------------------------------------------------: |
+|   Exploit-only   |                                128MB                                |
+|   NAND backups   | Minimum: 512MB<br>Recommended: 1GB+ |
+|  Homebrew usage  |                                 2GB+                                |
+|  Emulation usage |                                32GB+                                |
+| GameCube backups |                                64GB+                                |
+|    Wii backups   |                                128GB+                               |
 
 ### Comprare Schede SD
 
@@ -97,19 +105,20 @@ SD cards larger than 2TB currently do not exist, anyone attempting to sell you o
 
 :::
 
-Nell'acquisto delle schede SD, è generalmente consigliato comprare dispositivi di marche ben conosciute e dal prezzo e dimensioni più alte che puoi permetterti. Mentre puoi comprarte una scheda SD generica da 2GB ed essere probabilmente al sicuro, non si può dire lo stesso per le schede SD da 512MB. I prezzi generali per schede SD si aggira attorno a €9.45-€18.91 per schede da 256GB e inferiori, mentre le schede da 512GB costano circa €37.81. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Abbi cautela nel comprare dispositivi di memoria su eBay.
+Nell'acquisto delle schede SD, è generalmente consigliato comprare dispositivi di marche ben conosciute e dal prezzo e dimensioni più alte che puoi permetterti. Mentre puoi comprarte una scheda SD generica da 2GB ed essere probabilmente al sicuro, non si può dire lo stesso per le schede SD da 512MB. General current pricing for SD cards is around 10-35 USD for 256GB and below, whereas 512GB is around 60 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Abbi cautela nel comprare dispositivi di memoria su eBay.
 
-Marche consigliate:
+Our recommended brands:
 
-- Samsung (EVO Select, EVO Plus, PRO Plus)
-- SanDisk (Extreme, Ultra, etc)
-- Lexar (E-Series, Professional)
-- Silicon Power (schede "3D NAND", normalmente maggiore è la capacità maggiore la qualità)
-- PNY (Elite, Elite-X, etc)
+- [Samsung](https://www.amazon.com/stores/page/99A645D0-BE70-4DF8-A0C5-CDED2FA59DE9) (EVO Select, EVO Plus, PRO Plus)
+- [SanDisk](https://www.amazon.com/stores/page/6187A5D4-11BE-4006-8AFB-6EC233258034) (Extreme, Ultra, etc)
+- [Lexar](https://www.amazon.com/stores/page/B1E6F5A7-1459-4D06-8FDA-963327D1B00C) (E-Series, Professional)
+- [Silicon Power](https://www.amazon.com/stores/page/A2CCB3CD-8C18-46EC-8497-5A3FE2E3FC1D) (3D NAND, Elite)
+- [PNY](https://www.amazon.com/stores/page/9F7889F9-FA53-4078-BA65-08F7F8104CF6) (Elite, Elite-X, etc)
+- [INLAND by Micro Center](https://www.amazon.com/stores/page/B43B257E-9D36-4368-B7E2-A4095BD5384B)
 
 ### Comprare dispositivi USB - Dischi Rigidi
 
-Nel comprare dischi rigidi USB, ci sono solo tre produttori di HDD a oggi: Western Digital, Seagate, e Toshiba. Qualsiasi altra compagni è morta ed è andata in bancarotta, o è stata assorbita da una delle tre sopracitate. Detto ciò, se hai un disco rigido in più in giro di un'altra compagnia, dovrebbe comunque funzionare! Le tecnologie dei dischi rigidi sono rimaste le stesse dagli ultimi 10 anni circa. Assicurati solamente di controllare i dati S.M.A.R.T per assicurarti che il dispositivo non stia fallendo prima di buttarci dentro tutti i tuoi dati.
+Nel comprare dischi rigidi USB, ci sono solo tre produttori di HDD a oggi: Western Digital, Seagate, e Toshiba. Any and all other hard drive companies are defunct and have either went bankrupt, or were absorbed by the three aforementioned companies. Detto ciò, se hai un disco rigido in più in giro di un'altra compagnia, dovrebbe comunque funzionare! Le tecnologie dei dischi rigidi sono rimaste le stesse dagli ultimi 10 anni circa. Assicurati solamente di controllare i dati S.M.A.R.T per assicurarti che il dispositivo non stia fallendo prima di buttarci dentro tutti i tuoi dati.
 
 For hard drive sizing, 2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. Assicurati di tenere questo a mente nel determinare cosa vuoi fare con un dispositivo esterno.
 
