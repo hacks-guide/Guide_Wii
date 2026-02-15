@@ -10,12 +10,12 @@ The [Open Shop Channel](https://oscwii.org/) is a homebrew app repository create
 
 There are two methods to use the Open Shop Channel:
 
-+ On the Wii itself, utilizing one of the following homebrew apps:
-    + LibreShop (preferred)
-    + Homebrew Browser (fallback)
-+ On your computer, utilizing one of the following applications:
-    + TinyWiiBackupManager (preferred)
-    + OSCDL (fallback)
+* On the Wii itself, utilizing one of the following homebrew apps:
+    * LibreShop (preferred)
+    * Homebrew Browser (fallback)
+* On your computer, utilizing one of the following applications:
+    * TinyWiiBackupManager (preferred)
+    * OSCDL (fallback)
 
 ## Method I - Open Shop Channel on Wii
 
@@ -187,7 +187,6 @@ You will need Python 3 installed in order to use OSCDL on these platforms. Pleas
     ![](/images/osc/download-prompt-OSCDL-linux.png)
 
 1. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. Your downloaded piece of homebrew should now display.
-
 
 ::: tip
 

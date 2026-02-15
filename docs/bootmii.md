@@ -29,7 +29,7 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
 
     ::: warning
 
-    If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii. 
+    If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
 
     :::
 
@@ -60,12 +60,12 @@ If you have BootMii installed as boot2, you will need to launch BootMii by resta
     ![](/images/bootmii/BootMii_Backup.png)
 
 1. A NAND backup will start. You can watch the progress on the screen.
-    + "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup.
+    * "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup.
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
 1. After the previous step completes, BootMii will verify the backup. Ideally, all the blocks should be green after the verification process.
-    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long as all non-bad blocks are successfully verified, this should be fine.
+    * If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long as all non-bad blocks are successfully verified, this should be fine.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 

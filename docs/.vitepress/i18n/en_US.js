@@ -210,6 +210,49 @@ const themeConfig = {
 			},
 			sidebar_common
 		],
+		[`/hackmii`]: [
+			{
+				text: localeData.guide,
+				items: [
+					{ text: localeData.pages["key-information"], link:`/key-information` },
+					{ text: localeData.pages["get-started"], link: `/get-started` },
+					{ text: localeData.pages["hackmii"], link: `/hackmii` },
+					{ text: localeData.pages["hbc"], link: `/hbc` },
+					{ text: localeData.pages["bootmii"], link: `/bootmii` },
+					{ text: localeData.pages["priiloader"], link: `/priiloader` },
+					{ text: localeData.pages["cios"], link: `/cios` },
+					{ text: localeData.pages["osc"], link: `/osc` },
+					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
+					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
+				]
+			},
+			sidebar_common
+		],
+		[`/hbc`]: [
+			{
+				text: localeData.guide,
+				items: [
+					{ text: localeData.pages["key-information"], link:`/key-information` },
+					{ text: localeData.pages["get-started"], link: `/get-started` },
+					{ text: localeData.pages["multiple-options"] },
+					{ text: localeData.pages["hbc"], link: `/hbc` },
+					{ text: localeData.pages["multiple-options"] },
+				]
+			},
+			sidebar_common
+		],
+		[`/homebrew-dolphin`]: [
+			{
+				text: localeData.guide,
+				items: [
+					{ text: localeData.pages["key-information"], link:`/key-information` },
+					{ text: localeData.pages["get-started"], link: `/get-started` },
+					{ text: localeData.pages["homebrew-dolphin"], link: `/homebrew-dolphin` },
+				]
+			},
+			sidebar_common
+		],
 		[`/key-information`]: [
 			{
 				text: localeData.guide,
@@ -616,7 +659,7 @@ const themeConfig = {
 
 export default {
 	lang: "en",
-	label: "English",
+	label: "🇺🇸 English",
     title: localeData.title,
     description: localeData.description,
     themeConfig: themeConfig

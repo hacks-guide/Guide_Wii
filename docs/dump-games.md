@@ -35,7 +35,7 @@ This guide covers dumping GameCube or Wii game discs to a local SD card or USB d
     ![](/images/homebrew/CleanRip/insertdevice.png)
 
 1. When prompted, select `Yes` to download the redump.org DAT files.
-    + This is required to ensure that the resulting dumps are clean/accurate.
+    * This is required to ensure that the resulting dumps are clean/accurate.
 
     ::: warning
 
@@ -66,7 +66,7 @@ If you get an unrecovered read error, ensure that the disc you are attempting to
     ![](/images/homebrew/CleanRip/wiisettings.png)
 
 1. Press A to start dumping the disc.
-    + This process can take quite some time, since it will dump all 4.7 GB of the DVD (8.5 GB for dual layer discs).
+    * This process can take quite some time, since it will dump all 4.7 GB of the DVD (8.5 GB for dual layer discs).
 
     ![](/images/homebrew/CleanRip/wiiprogress.png)
 
@@ -93,7 +93,7 @@ Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping 
     ![](/images/homebrew/CleanRip/dateldisc.png)
 
 1. Press A to start dumping the disc.
-    + This process can take some time, since it will dump all 1.3 GB of the Mini DVD.
+    * This process can take some time, since it will dump all 1.3 GB of the Mini DVD.
 
     ![](/images/homebrew/CleanRip/gcprogress.png)
 

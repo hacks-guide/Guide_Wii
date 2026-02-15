@@ -14,9 +14,9 @@ Do not attempt this tutorial on the Wii U's vWii.
 
 The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and should only be considered as a LAST RESORT or if you are trying to do any of the following:
 
-+ Restore the Wii to a state comparable to when it left the factory.
-+ Fix a brick where you do not have a functional NAND backup or access to the Homebrew Channel but can still make one using BootMii.
-+ You are unable to revert certain changes to the Wii System Memory such as all cIOS with DARKCORP.
+* Restore the Wii to a state comparable to when it left the factory.
+* Fix a brick where you do not have a functional NAND backup or access to the Homebrew Channel but can still make one using BootMii.
+* You are unable to revert certain changes to the Wii System Memory such as all cIOS with DARKCORP.
 
 :::
 

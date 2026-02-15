@@ -8,7 +8,7 @@ If you get error 23904 while connecting to Wiimmfi, then you are using an outdat
 
 Follow the steps below for the method you're using to connect to Wiimmfi again.
 
-See [this page](https://wiimmfi.de/update) for more details.
+Visit the [Wiimmfi website](https://wiimmfi.de/update) for more details.
 
 :::
 
@@ -79,7 +79,7 @@ If you get error 20100 or 20110, the game you are trying to play is not supporte
 
 If you get error 23400, your ISP or network is blocking the use of a custom DNS.
 
-To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC - you can read about it [here](https://wiimmfi.de/patcher/dnspatch#customdns).
+To solve this issue, Wiimmfi has a custom DNS server that can be ran on your PC - you can read about it at the [Wiimmfi website](https://wiimmfi.de/patcher/dnspatch#customdns).
 
 :::
 
@@ -182,9 +182,9 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 
 1. Download the patcher and extract the `.zip` file.
 1. Open the extracted folder and copy your Wii game images into it.
-    + If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
-    + If you're on macOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
-    + If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
+    * If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
+    * If you're on macOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
+    * If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
 1. If the above was successful, you should see a window pop-up that displays the patching process. Once the process finishes, you will find the patched images in a folder called `wiimmfi-images`.
 
 ::: tip

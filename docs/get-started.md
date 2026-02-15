@@ -10,7 +10,7 @@ It is recommended to at least have an SD card on hand after the initial hack pro
 
 :::
 
-## Identify your console revision:
+## Identify your console revision
 
 <!--@include: @/_include/identify-console.html -->
 
