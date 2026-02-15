@@ -1,4 +1,4 @@
-# Dumping Wii/GameCube Games
+# Extragerea jocurilor Wii/Gamecube
 
 Acest ghid acoperă extragerea discurilor de joc Wii sau Gamecube către un card SD sau o unitate USB locală pe consola ta Wii.
 
@@ -85,7 +85,7 @@ Dacă primești o eroare de citire nerecuperată, asigură-te că discul pe care
 
 ::: tip
 
-Proceed to [Managing Wii and GameCube Backups](backups#joining-part-files-from-a-wii-disc-on-a-fat32-device) to join the PART files that are output, and manage your dumped games.
+Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are output, and manage your dumped games.
 
 :::
 
@@ -113,6 +113,6 @@ Ediția de Familie Wii, Wii mini-uri și vWii-ul de la Wii U nu au capabilitatea
 
 ::: tip
 
-Proceed to [Managing Wii and GameCube Backups](backups#using-tinywiibackupmanager) to shrink the size of your output file, and manage your dumped games.
+Proceed to [Managing GameCube Backups](gc-backups) to shrink the size of your output file, and manage your dumped games.
 
 :::

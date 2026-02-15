@@ -62,7 +62,7 @@ NON usare NESSUN indirizzo MAC mostrato negli esempi di questa guida, perchè ca
 
 15. Apri la lettera rossa con all'interno una bomba.
     - Assicurate che la data del tuo Wii sia corretta, o potresti non trovare la lettera.
-    - In alcuni casi, la lettera potrebbe trovarsi nei giorni successivi o precedenti a quello corrente.
+    - In alcuni casi, la lettera potrebbe trovarsi nei messaggi per domani o ieri.
     - If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. Se appaiono, ci potrebbe essere un problema con il formato della scheda SD o con il lettore SD del Wii.
     - Se il tuo Wii si blocca dopo aver cliccato sulla lettera, hai probabilmente scelto la regione sbagliata del menu di sistema per LetterBomb. Torna al Passaggio 2 e verifica di aver scelto la regione giusta.
     - Se è tutto corretto e il blocco persiste, riprova finchè non funziona.

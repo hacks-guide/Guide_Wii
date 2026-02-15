@@ -50,23 +50,9 @@ See [this](bricks) page.
 
 ## Întrebări Frecvente despre Dispozitivele de Stocare
 
-::: danger
+::: info
 
-Flash drives are NOT recommended to be used on a Wii if possible because of their unpredicability and potential to become corrupt on the console. Using a USB flash drive may result in the following behavior:
-
-- Game backups failing to load
-- UI glitches in homebrew apps
-- Data randomly becoming corrupted
-
-If you experience the issues above, or other inexplicable issues with your flash drive, use a USB hard drive or an SD card instead.
-
-:::
-
-::: warning
-
-For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.
-
-For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of any size can be used.
+For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
 
 :::
 
@@ -78,24 +64,30 @@ For USB devices, FAT32/MS-DOS is also recommended, although users should be awar
 
 :::
 
-::: info
+::: warning
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.
+
+For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of any size can be used.
 
 :::
 
-### Storage Space Recommendations
+::: warning
 
-When considering buying or using an SD card or USB device, it is worth considering what you will be using either storage medium for. Based on your planned usage, sizing recommendations are outlined below:
+Pentru dispozitivele USB, stick-urile USB au o șansă mare să nu meargă corespunzător cu sistemele Wii. În schimb, este recomandat să folosești un hard disk USB sau o unitate SSD.
 
-|   Device Usage   |                      Recommended Storage Space                      |
-| :--------------: | :-----------------------------------------------------------------: |
-|   Exploit-only   |                                128MB                                |
-|   NAND backups   | Minimum: 512MB<br>Recommended: 1GB+ |
-|  Homebrew usage  |                                 2GB+                                |
-|  Emulation usage |                                32GB+                                |
-| GameCube backups |                                64GB+                                |
-|    Wii backups   |                                128GB+                               |
+:::
+
+### Reguli Generale de Stocare
+
+Când vrei să cumperi sau să folosești un card SD sau o unitate USB, merită să iei în considerare lucrurile pe care vei folosi oricare dintre mediile de stocare. Diferite utilizări pot ocupa variate cantități de spațiu, unele exemple comune fiind afișate mai jos:
+
+- Backup-urile Wii: Cele mai mari jocuri Wii (DVD-urile dublu strat) pot ajunge la mărimea de 8.5GB, jocurile mai normale sunt mai apropiate de mărimea de 4.7GB sau mai puțin. Utilizatorul obișnuit de un dispozitiv de backup-uri Wii probabil că ar dori 128GB sau mai mult de spațiu.
+- Backup-uri GameCube: Cele mai mari jocuri GameCube ajung la mărimea de până la 1.3GB. Mărimile ISO sunt normal această mărime indiferent de joc, dar acestea pot fi scăzute considerabil dacă formatul NKIT este folosit în schimb. Utilizatorul obișnuit de un dispozitiv de backup-uri GameCube probabil că ar dori 64GB sau mai mult de spațiu.
+- Emulare Generală: Există o mare varietate de emulatoare disponibile pentru Wii. Deoarece mărimea diferitelor ROM-uri de jocuri diferă drastic, utilizatorul obișnuit care vrea să emuleze jocuri probabil că ar dori 32GB sau mai mult de spațiu.
+- Homebrew General: Pentru aplicații homebrew, utilizatorul obișnuit ar dori 2GB sau mai mult de spațiu.
+- Backup-uri ale memoriei NAND: Pentru a crea un backup a memoriei tale NAND folosind BootMii, utilizatorul obișnuit ar avea nevoie de minim 512MB de spațiu liber, însă mărimi de 1GB sau mai mult sunt recomandate.
+- Minimul necesar, doar exploit-ul: Cantitatea minimă de spațiu necesară pentru a rula un exploit compatibil cu cardul SD este 128MB.
 
 ### Cumpărarea Cardurilor SD
 
@@ -105,20 +97,19 @@ SD cards larger than 2TB currently do not exist, anyone attempting to sell you o
 
 :::
 
-Când cumperi carduri SD, este în general recomandat să rămâi la mărci de încredere cu cât crește prețul și mărimea cardului pe care vrei să-l cumperi. În timp ce poți cumpăra un card SD de 2GB generic și cel mai probabil vei fi în regulă, același lucru nu poate fi spus și pentru lucruri precum un card SD de 512GB. General current pricing for SD cards is around 10-35 USD for 256GB and below, whereas 512GB is around 60 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Asigură-te când cumperi unități de stocare de pe eBay.
+Când cumperi carduri SD, este în general recomandat să rămâi la mărci de încredere cu cât crește prețul și mărimea cardului pe care vrei să-l cumperi. În timp ce poți cumpăra un card SD de 2GB generic și cel mai probabil vei fi în regulă, același lucru nu poate fi spus și pentru lucruri precum un card SD de 512GB. Prețul general curent pentru cardurile SD este în jur de €9-20 (45-100 RON) pentru 256GB și sub, în timp ce 512GB costă în jur de €38 (200 RON). When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Asigură-te când cumperi unități de stocare de pe eBay.
 
-Our recommended brands:
+Mărci recomandate:
 
-- [Samsung](https://www.amazon.com/stores/page/99A645D0-BE70-4DF8-A0C5-CDED2FA59DE9) (EVO Select, EVO Plus, PRO Plus)
-- [SanDisk](https://www.amazon.com/stores/page/6187A5D4-11BE-4006-8AFB-6EC233258034) (Extreme, Ultra, etc)
-- [Lexar](https://www.amazon.com/stores/page/B1E6F5A7-1459-4D06-8FDA-963327D1B00C) (E-Series, Professional)
-- [Silicon Power](https://www.amazon.com/stores/page/A2CCB3CD-8C18-46EC-8497-5A3FE2E3FC1D) (3D NAND, Elite)
-- [PNY](https://www.amazon.com/stores/page/9F7889F9-FA53-4078-BA65-08F7F8104CF6) (Elite, Elite-X, etc)
-- [INLAND by Micro Center](https://www.amazon.com/stores/page/B43B257E-9D36-4368-B7E2-A4095BD5384B)
+- Samsung (EVO Select, EVO Plus, PRO Plus)
+- SanDisk (Extreme, Ultra, etc)
+- Lexar (E-Series, Professional)
+- Silicon Power (carduri "3D NAND", capacitate mărită de obicei cu raportul calitate-preț mai bun)
+- PNY (Elite, Elite-X, etc)
 
 ### Cumpărarea Unităților USB - Hard Disk-urilor
 
-Când cumperi hard disk-uri USB, există în prezent numai trei producători de HDD: Western Digital, Seagate și Toshiba. Any and all other hard drive companies are defunct and have either went bankrupt, or were absorbed by the three aforementioned companies. Acestea fiind spuse, dacă ai la îndemână un hard disk în plus făcut de altă companie, ar trebui încă să funcționeze! Tehnologia hard disk-urilor a rămas în întregime neschimbată în ultimii circa 10 ani. Doar ține minte să verifici datele S.M.A.R.T pentru a te asigura că unitatea nu are probleme înainte să îți pui toate datele pe el.
+Când cumperi hard disk-uri USB, există în prezent numai trei producători de HDD: Western Digital, Seagate și Toshiba. Oricare și toate celelalte companii de hard disk-uri sunt desființate și ori au dat faliment, ori au fost absorbite de cele trei companii menționate anterior. Acestea fiind spuse, dacă ai la îndemână un hard disk în plus făcut de altă companie, ar trebui încă să funcționeze! Tehnologia hard disk-urilor a rămas în întregime neschimbată în ultimii circa 10 ani. Doar ține minte să verifici datele S.M.A.R.T pentru a te asigura că unitatea nu are probleme înainte să îți pui toate datele pe el.
 
 For hard drive sizing, 2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. Asigură-te să plănuiești acest lucru atunci când stabilești ce vrei să faci cu o unitate externă.
 

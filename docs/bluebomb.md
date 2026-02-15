@@ -4,29 +4,41 @@ outline: false
 
 # BlueBomb
 
-BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
-
-This exploit also enables recovery from certain bricks in the event of no other brick protection, such as banner bricks and (some) theme bricks.
-
-Please read the listed important information before proceeding.
-
 ::::: tabs
 
 :::: tab BlueBomb Classic
 
 ## BlueBomb Classic
 
-::: details Important Information
+::: details Technical Details (optional)
 
-* If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
-* If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
-* Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
+
+This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
 :::
 
-::: danger
+::: warning
 
-It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
+It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+
+:::
+
+::: info
+
+If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+
+:::
+
+::: info
+
+If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+
+:::
+
+::: info
+
+Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
 
 :::
 
@@ -110,8 +122,6 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
----
-
 ::: tip
 
 [Continue to the Hackmii Installer](hbc)
@@ -124,17 +134,34 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
 ## BlueBomb Micro
 
-::: details Important Information
+::: details Technical Details (optional)
+BlueBomb Micro is a port of Fullmetal5's BlueBomb exploit for the Raspberry Pi Pico W or ESP32, thus bypassing the need for a Linux system. It takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. This port was made possible by [GaryOderNichts](https://github.com/GaryOderNichts)
 
-* If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
-* If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
-* Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+This exploit also enables recovery from certain bricks, such as banner bricks and (some) theme bricks.
 
 :::
 
-::: danger
+::: warning
 
-It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
+It is **strongly** advised against using **any** video guide for hacking your Wii mini console, as there is an extremely large chance of **bricking** it.
+
+:::
+
+::: info
+
+If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
+
+:::
+
+::: info
+
+If you are using the original revision of the Wii, you should probably find [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
+
+:::
+
+::: info
+
+Make sure that the microcontroller is close to the computer running the exploit, ideally it should be less than 3 feet.
 
 :::
 
@@ -213,8 +240,6 @@ A normal Raspberry Pi Pico will not work. It MUST be the wireless model. Additio
 If you get an error `Exception 0700 occurred!` or similar, try the exploit again. If this continues to happen, join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) for support.
 
 :::
-
----
 
 ::: tip
 

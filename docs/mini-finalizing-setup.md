@@ -26,8 +26,6 @@ All homebrew apps are loaded from the Homebrew Channel.
 1. Copy the contents of the system-channel-restorer to the root of the SD.
 1. Copy the contents of the Settings Editor GUI to the root of the SD.
 
----
-
 ::: tip
 
 Continue to [Open Shop Channel Installation](osc)

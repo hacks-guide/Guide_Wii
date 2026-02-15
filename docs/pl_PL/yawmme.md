@@ -19,25 +19,25 @@ Ten samouczek pokaże jak zainstalować pliki WAD.
 
 1. Wybierz urządzenie źródłowe, które ma pliki WAD, które chcesz zainstalować.
 
-   ![](/images/homebrew/yawmME/source_device.png)
+    ![](/images/homebrew/yawmME/source_device.png)
 
 2. Przejdź do folderu, który posiada pliki WAD.
 
-   - Jeśli masz folder o nazwie `wad`, zostanie on automatycznie otwarty.
+    - Jeśli masz folder o nazwie `wad`, zostanie on automatycznie otwarty.
 
-   ![](/images/homebrew/yawmME/file_selection.png)
+    ![](/images/homebrew/yawmME/file_selection.png)
 
 3. Przejdź do pliku WAD, który chcesz zainstalować i naciśnij `A`.
 
-   - Jeśli chcesz zainstalować wiele plików WAD jednocześnie, naciśnij `+` na każdym z nich, a następnie naciśnij `A`.
+    - Jeśli chcesz zainstalować wiele plików WAD jednocześnie, naciśnij `+` na każdym z nich, a następnie naciśnij `A`.
 
-   ![](/images/homebrew/yawmME/install_wad.png)
+    ![](/images/homebrew/yawmME/install_wad.png)
 
 4. Naciśnij przycisk A ponownie, aby zainstalować plik WAD.
 
-   ![](/images/homebrew/yawmME/installing_wad.png)
+    ![](/images/homebrew/yawmME/installing_wad.png)
 
-   ![](/images/homebrew/yawmME/installing_wad_ok.png)
+    ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
 ::: tip
 

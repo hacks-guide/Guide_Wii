@@ -52,37 +52,44 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 
    ![](/images/priiloader/menu.png)
 
-:::details A jövőben a következő módszereket használható a Priiloader-be belépésre:
+A későbbi indításhoz kövesd az alábbi lépéseket:
 
-| Konzol típus | Priiloader belépési módszerek                                                                                                                                                                                                                                                  |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Wii esetén   | <ul><li>A RESET gomb nyomvatartásával a konzol bekapcsolása során vagy a Wii Menu-ben</li><li>Az ESC gomb nyomva tartásával a csatlakoztatott USB billentyűzeten a konzol bekapcsolása során </li><li>A `Load Priiloader` eszköz futtatásával a Homebrew Channel-ről</li></ul> |
-| vWii         | <ul><li>Az ESC gomb nyomva tartásával a csatlakoztatott USB billentyűzeten a konzol bekapcsolása során </li><li>A `Load Priiloader` eszköz futtatásával a Homebrew Channel-ről</li><li>a Priiloader forwarder futtatásával a Wii U Menu-ből</li></ul>                          |
-| Wii mini     | <ul><li>Az ESC gomb nyomva tartásával a csatlakoztatott USB billentyűzeten a konzol bekapcsolása során </li><li>A `Load Priiloader` eszköz futtatásával a Homebrew Channel-ről</li></ul>                                                                                       |
-
-:::
+- A Wii bekapcsolása közben tartsd nyomva a RESET-gombot!
+  - Csak Wii-konzolokon
+- A konzol bekapcsolása közben tartsd nyomva az Esc-gombot egy csatlakoztatott USB-s billentyűzeten!
+  - Wii, Wii mini és Wii U konzolokon
+- Indítsd el a „Load Priiloader”-programot a Homebrew Channelből!
+  - Wii, Wii mini és Wii U konzolokon
+- Indítsd el a „Priiloader Wii U Forwarder”-programot!
+  - Csak Wii U konzolokon
 
 ### IV. rész – A Priiloader beállítása
-
-::: warning
-
-Ha a Priiloader telepítőt az USB drive-odra raktad, legyél biztos abban, hogy vele egy időben NINCS SD kártya bedugva.
-
-Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a hacks_hash.ini\\` fájlt.
-
-:::
 
 1. Görgess le a `System Menu Hacks` menüponthoz és nyomj `A` gombot.
 
    ![](/images/priiloader/menu_hacks.png)
 
-2. A `System Menu Hacks`-ok között kapcsold be a konzolodnak megfelelő következő opciókat:
+   ::: warning
 
-   | Konzol típus | Priiloader opciók                                                                                                                                                                                       |
-   | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-   | Wii esetén   | <ul><li>Ha 480p módot használsz: `480p graphics fix in the system menu`</li><li>`Block Disc Updates`</li><li>`Block Online Updates`</li><li>Ha NEM CRT kijelzőt használsz: `Remove Deflicker`</li></ul> |
-   | vWii         | <ul><li>`Block Online Updates`</li><li>`Wii System Settings via Options Button`</li><li>Ha NEM CRT kijelzőt használsz: `Remove Deflicker`</li></ul>                                                     |
-   | Wii mini     | <ul><li>`Block Online Updates`</li><li>Ha NEM CRT kijelzőt használsz: `Remove Deflicker`</li></ul>                                                                                                      |
+   Ha a Priiloader telepítőt az USB drive-odra raktad, legyél biztos abban, hogy vele egy időben nincs SD kártya bedugva.
+
+   Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a hacks_hash.ini\\` fájlt.
+
+   :::
+
+2. A konzolod típusa alapján az alábbi beállításokat kell engedélyezned:
+   - Wii:
+     - Ha 480p-s módban vagy: `480p graphics fix in the system menu`
+     - Block Disc Updates
+     - Block Online Updates (internetes frissítések letiltása)
+     - Ha NEM CRT kijelzőt használsz: `Remove Deflicker`
+   - vWii:
+     - Block Online Updates (internetes frissítések letiltása)
+     - Wii System Settings via Options Button (Wii-rendszerbeállítások megnyitása az Options-gombbal)
+     - Ha NEM CRT kijelzőt használsz: `Remove Deflicker`
+   - Wii mini:
+     - Block Disc Updates
+     - Ha NEM CRT kijelzőt használsz: `Remove Deflicker`
 
 3. Görgess le a `save settings` menüponthoz, és nyomj 'A' gombot.
 

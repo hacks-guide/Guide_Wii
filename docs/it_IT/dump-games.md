@@ -1,4 +1,4 @@
-# Dumping Wii/GameCube Games
+# Dump di Giochi Wii/GameCube
 
 Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda SD locale o unità USB sul tuo Wii.
 
@@ -85,7 +85,7 @@ Se ottieni un errore di lettura non recuperato, assicurati che il disco su cui s
 
 ::: tip
 
-Proceed to [Managing Wii and GameCube Backups](backups#joining-part-files-from-a-wii-disc-on-a-fat32-device) to join the PART files that are output, and manage your dumped games.
+Proceed to [Managing Wii Backups](wii-backups) to join the PART files that are output, and manage your dumped games.
 
 :::
 
@@ -113,6 +113,6 @@ Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping 
 
 ::: tip
 
-Proceed to [Managing Wii and GameCube Backups](backups#using-tinywiibackupmanager) to shrink the size of your output file, and manage your dumped games.
+Proceed to [Managing GameCube Backups](gc-backups) to shrink the size of your output file, and manage your dumped games.
 
 :::

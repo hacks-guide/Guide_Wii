@@ -84,8 +84,6 @@ WiiWare 4:3 DB Patcher is a homebrew app that patches the vWii's 4:3 aspect rati
 
     ![](/images/vwii/43db-patcher/install-finish.png)
 
----
-
 ::: tip
 
 Continue to [Open Shop Channel Installation](osc)

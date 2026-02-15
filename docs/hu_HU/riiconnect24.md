@@ -7,6 +7,6 @@ head:
 
 # Átirányítás
 
-Átirányításra fogsz kerülni a WiiLink-re.
+Átirányításra fogsz kerülni a WiiLink24-re.
 
-Ha az oldal nem frissül automatikusan, kattints [ide](https://wiilink.ca/guide/install/).
+Ha az oldal nem jelenik meg, kattints [ide](https://www.wiilink24.com/guide/install/).

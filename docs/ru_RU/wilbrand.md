@@ -23,7 +23,7 @@ Wilbrand Web is recommended for its ease of use.
 
 ::: warning
 
-SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
+SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 :::
 
@@ -102,7 +102,7 @@ SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
 
 ::: warning
 
-SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
+SD cards larger than 2GB will not work on Wii menu versions before 4.0.
 
 :::
 

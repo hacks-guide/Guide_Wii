@@ -196,9 +196,7 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 
 ::: tip
 
-Congrats on making it to the end of the optional section of the main guide!
-
-You can go to the site index below if you would like to look for other guides. Additionally, you can read [the hacks.guide wiki](https://wiki.hacks.guide/wiki/Wii) for additional articles about Wii homebrew not included on this site.
+Congrats on making it to the end of the optional section of the main guide! You can go to the site index below if you would like to look for other guides.
 
 :::
 

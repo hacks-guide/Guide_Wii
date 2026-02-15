@@ -1,4 +1,4 @@
-# Dumping Wii/GameCube Games
+# Wii/게임큐브 게임 덤프하기
 
 이 가이드에서는 게임큐브 또는 Wii 게임 디스크를 Wii의 로컬 SD 카드나 USB 드라이브에 저장하는 방법을 설명합니다.
 
@@ -85,7 +85,7 @@
 
 ::: tip
 
-Proceed to [Managing Wii and GameCube Backups](backups#joining-part-files-from-a-wii-disc-on-a-fat32-device) to join the PART files that are output, and manage your dumped games.
+[Wii 백업 관리](wii-backups)로 진행하여 출력된 PART 파일을 결합하고 덤프된 게임을 관리합니다.
 
 :::
 
@@ -113,6 +113,6 @@ Wii 패밀리 에디션, Wii 미니, Wii U의 vWii는 게임큐브 게임을 덤
 
 ::: tip
 
-Proceed to [Managing Wii and GameCube Backups](backups#using-tinywiibackupmanager) to shrink the size of your output file, and manage your dumped games.
+[게임큐브 백업 관리](gc-backups)로 진행하여 출력 파일의 크기를 줄이고 덤프된 게임을 관리합니다.
 
 :::

@@ -47,7 +47,7 @@ Stelle sicher, dass sich die Konsole in der Nähe vom Computer, auf dem der Expl
 - A Linux machine
   - A Virtual Machine may work, but it is not recommended due to its complexity in getting Bluetooth passthrough working. If possible, please use a LiveUSB as described below.
   - If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
-    - ARM64 Raspberry Pi's need multiarch enabled with the armhf (32bit) architecture added. The following should work on any debian based OS:
+    - ARM64 Rasperry Pi's need multiarch enabled with the armhf (32bit) architecture added. The following should work on any debian based OS:
     ```bash
     sudo sudo dpkg --add-architecture armhf
     sudo apt update && sudo apt install -y screen:armhf

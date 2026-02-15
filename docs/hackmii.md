@@ -64,8 +64,6 @@ If `Press (1) to continue` does not show up after about 30 seconds, downloading 
 
 :::
 
----
-
 ::: tip
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)

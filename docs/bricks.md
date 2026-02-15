@@ -10,7 +10,7 @@ Preventing a brick involves many rules that range between common sense and fail-
 
 + **Do NOT follow old modding tutorials, use old homebrew, or use video guides on the Internet unless it is EXPLICITLY RECOMMENDED by the homebrew developer.**
 + **Do NOT, under ANY CIRCUMSTANCES, USE THE HOMEBREW APP `Pimp My Wii`. It is DANGEROUS and does things that have the ability to BRICK YOUR CONSOLE!**
-+ **Do NOT install IOS/WAD packs such as DARKCORP that overwrite most of your IOS with cIOS. It is DANGEROUS and heavily outdated.**
++ **Do NOT install IOS packs such as DARKCORP that overwrite most of your IOS with cIOS. It is DANGEROUS and heavily outdated.**
 + **Do NOT restore NAND backups from other consoles!**
 + **Do NOT install any IOS that isn't meant for your system** (example: Wii IOS on Wii mini)
 + **Do NOT attempt region changing methods meant for Wii on the vWii or Wii mini.**
@@ -101,8 +101,6 @@ If you are able to still access the Wii Menu, go into the Homebrew Channel and u
 If you cannot access the Wii Menu, and have [Priiloader](priiloader) installed, enter it by holding RESET while turning your Wii on. Select Homebrew Channel and use [YAWM ModMii Edition](yawmme) or your current WAD manager to uninstall the corrupt channel.
 
 If you don't have or can't access Priiloader, Maintenance Mode may be worth a try. Hold down `+` and `-` on the health/warning screen (do not press `A`!).
-
-As a last resort, you may use [BlueBomb](bluebomb) to boot into the Homebrew Channel while idling at the health/warning screen.
 
 ## Theme brick
 
@@ -224,8 +222,6 @@ First, troubleshooting must be done to determine if hardware is at fault. In the
 + Attempt to boot into [Recovery Mode](recovery-mode) (normal Wiis only). If the Wii boots into Recovery Mode, see [Wi-Fi brick](bricks#wi-fi-brick) or [IOS brick](bricks#ios-brick). If steps to resolve the Wi-Fi brick or IOS brick failed, proceed.
 + Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
 + At this point, either there is a low-level boot0/boot1 corruption, a NAND chip failure, or there is a wider unknown hardware failure. Consider consulting online help or buying another Wii.
-
----
 
 ::: tip
 

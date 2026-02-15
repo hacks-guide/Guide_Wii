@@ -10,7 +10,6 @@
 - [FAQ](faq)
 - [Donations](donations)
   {% endcapture %}
-- [hacks.guide Wiki — Wii](https://wiki.hacks.guide/wiki/Wii)
 
 :::
 
@@ -52,7 +51,7 @@
 - [ModMii](modmii)
 - [Chaine Open Shop](osc)
 - [Priiloader](priiloader)
-- [Recovery Mode](recovery-mode)
+- [Recovery mode](recovery-mode)
 - [Relancer l'installateur HackMii](hackmii)
 - [Restoring The Wii NAND to Stock](wii-factory-reset)
 - [Mise à jour du menu Wii vers la v4.3](update)
@@ -66,9 +65,10 @@
 **Homebrew**
 
 - [Création de raccourcis de jeux Wii](wiigsc)
-- [How to Dump Channels (WADs)](dump-wads)
-- [How to Dump Wii/GameCube Games](dump-games)
-- [Managing Wii and GameCube Backups](backups)
+- [How to dump Channels (WADs)](dump-wads)
+- [How to dump GameCube/Wii Games](dump-games)
+- [Managing GameCube Backups](gc-backups)
+- [Managing Wii Backups](wii-backups)
 - [Priiloader Usage](priiloader-usage)
 - [Homebrew recommandés](recommended-homebrew)
 - [Transferring Save Games](transfer-saves)
@@ -82,9 +82,9 @@
 
 **vWii**
 
-- [Creating a NAND dump of the Wii U](wiiu-nand-dumper)
-- [Installing the Homebrew Channel on vWii](vwii-homebrew-channel)
-- [Finalizing Setup — vWii](vwii-finalizing-setup)
+- [Installing the Homebrew Channel on the vWii](vwii-homebrew-channel)
+- [Wii U NAND Dumper](wiiu-nand-dumper)
+- [Installing the Homebrew Channel on the vWii Without Modding the Wii U Side](vwii-homebrew-channel-no-wiiu-mods)
 
 :::
 
@@ -95,6 +95,5 @@
 
 - [Wii mini NAND Dumper](wnd-mini)
   {% endcapture %}
-- [Finalizing Setup — Wii mini](mini-finalizing-setup)
 
 :::

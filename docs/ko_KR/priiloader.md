@@ -52,37 +52,44 @@
 
    ![](/images/priiloader/menu.png)
 
-:::details In the future, you can use the following methods to enter Priiloader:
+나중에 입력하려면 다음을 수행할 수 있습니다:
 
-| Console Type | Priiloader Entry Methods                                                                                                                                                                                                                                        |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wii          | <ul><li>Holding the RESET button while turning the console ON, or while inside the Wii Menu</li><li>Holding the ESC key on a connected USB keyboard while turning the console ON</li><li>Running the `Load Priiloader` tool from the Homebrew Channel</li></ul> |
-| vWii         | <ul><li>Holding the ESC key on a connected USB keyboard while turning the console ON</li><li>Running the `Load Priiloader` tool from the Homebrew Channel</li><li>Running the Priiloader forwarder from the Wii U Menu</li></ul>                                |
-| Wii 미니       | <ul><li>Holding the ESC key on a connected USB keyboard while turning the console ON</li><li>Running the `Load Priiloader` tool from the Homebrew Channel</li></ul>                                                                                             |
-
-:::
+- Holding RESET on a Wii while turning it on.
+  - Wii 전용
+- Holding the ESC key on a USB keyboard while turning on the console.
+  - Wii, vWii, 미니
+- 홈브류 채널에서 "Load Priiloader" 도구를 실행합니다.
+  - Wii, vWii, 미니
+- Wii에서 홈브류 채널을 실행합니다.
+  - vWii 전용
 
 ### Priiloader 구성
-
-::: warning
-
-If you copied the Priiloader installer onto a USB drive, ensure that you DO NOT have an SD card inserted at the same time.
-
-그렇게 하면 Priiloader가 `hacks_hash.ini` 파일을 찾지 못하게 됩니다.
-
-:::
 
 1. `System Menu Hacks`으로 스크롤하여 `A` 버튼을 누릅니다.
 
    ![](/images/priiloader/menu_hacks.png)
 
-2. In `System Menu Hacks`, enable the following options according to your console:
+   ::: warning
 
-   | Console Type | Priiloader Options                                                                                                                                                                                              |
-   | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-   | Wii          | <ul><li>If you are using 480p mode: `480p graphics fix in the system menu`</li><li>`Block Disc Updates`</li><li>`Block Online Updates`</li><li>If you are NOT using a CRT display: `Remove Deflicker`</li></ul> |
-   | vWii         | <ul><li>`Block Online Updates`</li><li>`Wii System Settings via Options Button`</li><li>If you are NOT using a CRT display: `Remove Deflicker`</li></ul>                                                        |
-   | Wii 미니       | <ul><li>`Block Disc Updates`</li><li>If you are NOT using a CRT display: `Remove Deflicker`</li></ul>                                                                                                           |
+   USB 드라이브에 Priiloader 설치 프로그램을 넣었다면 동시에 SD 카드를 연결하지 않았는지 확인합니다.
+
+   그렇게 하면 Priiloader가 `hacks_hash.ini` 파일을 찾지 못하게 됩니다.
+
+   :::
+
+2. 다음 옵션의 경우 콘솔에 따라 옵션을 활성화합니다:
+   - Wii:
+     - 480p 모드를 사용하는 경우: `시스템 메뉴에서 480p 그래픽 수정`
+     - 블록 디스크 업데이트
+     - 온라인 업데이트 차단
+     - CRT 디스플레이를 사용하지 않는 경우: `깜박임 제거`
+   - vWii:
+     - 온라인 업데이트 차단
+     - 옵션 버튼을 통한 Wii 시스템 설정
+     - CRT 디스플레이를 사용하지 않는 경우: `깜박임 제거`
+   - Wii 미니:
+     - 블록 디스크 업데이트
+     - CRT 디스플레이를 사용하지 않는 경우: `깜박임 제거`
 
 3. 아래로 스크롤하여 `설정 저장`을 클릭하고 A 버튼을 누릅니다.
 

@@ -296,8 +296,6 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 [Folytatás a telepítés befejezésével](vwii-finalizing-setup)
 
-Most, hogy már a Homebrew Channel, Priiloader, és cIOS telepítve, folytathatod azon funkcionalitás helyreállításával, ami normális esetben hiányzik a vWii menüből.
-
 :::
 
 ::::

@@ -2,7 +2,7 @@
 
 Ezen az oldalon olvashatsz azokról a programokról, amelyeket a wii.hacks.guide csapata hasznosnak, érdemesnek vagy simán jónak ítél. Használd ki a Wiid újdonsült erejét!
 
-A végleges módosításokra képes programok **vastag betűvel vannak kiemelve**.
+A végleges módosításokra képes programok **vastagon vannak kiemelve**.
 
 ## Segédeszközök
 

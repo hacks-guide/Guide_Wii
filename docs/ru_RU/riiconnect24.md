@@ -7,6 +7,6 @@ head:
 
 # Перенаправляем
 
-You are being redirected to WiiLink.
+Вы будете перенаправлены на WiiLink24.
 
-If the page doesn't refresh, click [here](https://wiilink.ca/guide/install/).
+Если страница не обновилась, нажмите [здесь](https://www.wiilink24.com/guide/install/).

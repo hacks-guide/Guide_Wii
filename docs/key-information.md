@@ -1,14 +1,14 @@
 # Key Information
 
-This page outlines important information and disclaimers that you should be aware of before starting with the modding process.
+This page includes important disclaimers and information regarding the modding process that you should know before starting.
 
 ## Bricks and Common Risks
 
 When following the guide or using specific kinds of homebrew, there is a risk that you may brick your console - or put it into a state where it is partially or fully unusable. To prevent this, please follow the guide **exactly as written** and follow precautions when stated. Common risks for bricking are slated as below:
 
-+ Following old modding tutorials or video guides unless explicitly recommended due to potentially outdated or incorrect information
++ Following old modding tutorials or video guides unless explicitly recommended due to outdated or incorrect information
 + Restoring NAND backups from other consoles
-+ Installing cIOS/WAD packs like DARKCORP
++ Installing cIOS packs like DARKCORP
 + Installing updates intended for another region, or region changing your console
 + Modifying system files
 
@@ -27,31 +27,33 @@ Important notes relating to specific Wiis are below.
 
 :::: details What if I own a Korean Wii?
 
-Korean Wiis are fully supported by the guide and can be modded using normal procedures. They can also be region changed.
-Exercise caution when modifying region data and follow the guide carefully to avoid a brick.
+A Korean Wii is fully supported, and can also be region changed.
+Exercise caution when modifying region data and follow guides carefully to avoid a brick.
 
 ::::
 
-:::: details What if I own a Wii U and want to exploit Wii mode?
+:::: details What if I own a Wii U (vWii)?
 
-Wii mode on Wii U (called vWii in the homebrew community) is fully supported by the guide, however it is recommended to setup an Aroma environment before starting.
+Wii mode on Wii U (called vWii in the homebrew community) is fully supported but it is recommended to setup an Aroma environment.
 Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew).
 Storage devices will need additional power (either using a Y-cable or an external power source), as the Wii U's USB ports do not provide sufficient power on their own.
-Make sure to use IOS and homebrew that are designed specifically for vWii in order to avoid bricking the console.
+If there are multiple versions of homebrew, make sure you are using the version designed for vWii.
+Be especially cautious with IOS to avoid bricking, since they are specifically designed for vWii.
 
 ::::
 
 :::: details What if I own a Wii mini?
 
-Wii Mini is fully supported by the guide and has compatibility with most existing homebrew.
+Wii Mini is supported and has compatibility with most existing homebrew.
 Missing Wii features can be restored. A LAN adapter and USB hub are recommended.
-Make sure to use IOS and homebrew that are designed specifically for the Wii mini in order to avoid bricking the console.
+If there are multiple versions of homebrew, make sure you are using the one designed for Wii mini.
+Be especially cautious with IOS to avoid bricking, since they are specifically designed for Wii mini.
 
 ::::
 
 ## Storage Compatibility
 
-For SD cards, you will want a minimum of 128MB to run an exploit. On average, however, you will want a card that is sized 2GB or more. The Wii can read SD cards of most capacities (even those larger than 32GB), but the card must be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**not** exFAT or NTFS).
+For SD cards, you will want a minimum of 128MB to run an exploit. On average, however, you will want a card that is sized 2GB or more. The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**not** exFAT or NTFS).
 
 For USB devices, you will want to use a USB hard drive or solid state drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). We do not recommend using flash drives as they are prone to failure or not working as intended with a Wii.
 
@@ -71,18 +73,14 @@ Please consult [the network FAQ](faq#networking-faq) for more information.
 
 ## Getting Help
 
-Ran into an issue while following the guide, already have an issue on your modded Wii, or just have a question?
+Ran into an issue while following the guide, already have an issue on your modded Wii, or just plain need answers?
 
 + If your question isn't already answered on this page, it may be answered in the [FAQs](faq) section of the guide.
-+ If your question still isn't answered by the FAQs page, or you need support, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel.
-
----
++ If your question still isn't answered and you need support, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel.
 
 ::: tip
 
 Continue to [Get Started](get-started)
-
-Once you have finished reading the above disclaimers, proceed to Get Started to select your console and initial exploit method.
 
 :::
 

@@ -103,8 +103,6 @@ Ensure that your Wii U has Internet access for this step to ensure the exploit c
 1. Delete the files from your SD card to free up space.
 1. Take the SD card out of your computer and plug it into your Wii U console.
 
----
-
 ::: tip
 
 [Continue to installing the Homebrew Channel](vwii-homebrew-channel)

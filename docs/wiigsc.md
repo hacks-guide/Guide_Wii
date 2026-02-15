@@ -2,21 +2,28 @@
 
 This guide provides instructions on how to create Wii game shortcuts for game backups that you have on external storage devices, using a piece of software called WiiGSC (Wii Game Shortcut Creator). By creating game shortcuts, you can launch a game backup directly from the Wii Menu as if you had inserted the game as a regular disc.
 
-::: details Important Information
+::: warning
 
-* Your browser or antivirus software may flag WiiGSC as malware - this is a false positive. WiiGSC does NOT contain any malware.
-* The Wii Menu is limited to 48 channels, not including existing system channels.
+Installing [Priiloader](priiloader) and [BootMii](bootmii) are advised due to brick risk in this guide, and should keep you safe along with following the guide correctly. Do NOT continue the guide unless you have installed Priiloader or BootMii!
 
 :::
 
-::: danger
+::: warning
 
-**Important Warnings**
+Do NOT make a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will brick your Wii.
 
-* DO NOT continue the guide unless you have installed [Priiloader](priiloader) or [BootMii](bootmii), as this guide carries the risk of causing a [banner brick](bricks#banner-brick) which will prevent the Wii Menu from booting.
-* DO NOT create and install a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will cause a [banner brick](bricks#banner-brick) due to the complexity of the channels making the Wii Menu crash.
-* If you get an error saying `The system files are corrupted`, you are likely dealing with a [banner brick](bricks#banner-brick). To fix it, turn off your Wii, then [boot into Priiloader](priiloader#section-iii---entering-priiloader) using one of the available methods for your console. Enter the Homebrew Channel and launch your WAD manager or [YAWM ModMii Edition](yawmme) to uninstall the WAD that caused the error. If Priiloader was not installed, proceed to [BlueBomb](bluebomb) for further resolution.
-  
+:::
+
+::: warning
+
+Your browser or antivirus software may flag WiiGSC as malware - this is a false positive. WiiGSC does NOT contain any malware.
+
+:::
+
+::: info
+
+The Wii Menu is limited to 48 channels, not including existing system channels.
+
 :::
 
 ## Requirements
@@ -55,7 +62,11 @@ This guide provides instructions on how to create Wii game shortcuts for game ba
 
     ![](/images/desktop-apps/wiigsc/wiigsc-success.png)
 
----
+::: info
+
+If you get an error saying "The system files are corrupted", don't panic as long as you installed Priiloader. Turn off your Wii, then [boot into Priiloader](priiloader#section-iii---entering-priiloader) using one of the available methods for your console. Enter the Homebrew Channel and launch your WAD manager to uninstall the WAD. If priiloader was not installed, proceed to [BlueBomb](bluebomb).
+
+:::
 
 ::: tip
 

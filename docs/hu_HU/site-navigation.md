@@ -8,7 +8,6 @@
 - [Kezdeti lépések](get-started)
 - [GYIK](faq)
 - [Adományok](donations)
-- [hacks.guide Wiki — Wii](https://wiki.hacks.guide/wiki/Wii)
 
 :::
 
@@ -62,8 +61,9 @@
 
 - [Wii játék shortcut-ok létrehozása](wiigsc)
 - [Hogyan dumpoljak Channel-eket (WAD-okat)](dump-wads)
-- [Hogyan dumpolj Wii/GameCube játékokat](dump-games)
-- [A Wii és GameCube mentések kezelése](backups)
+- [Hogyan dumpolj GameCube/Wii játékokat](dump-games)
+- [A GameCube mentések kezelése](gc-backups)
+- [A Wii mentések kezelése](wii-backups)
 - [Priiloader használat](priiloader-usage)
 - [Ajánlott Homebrew](recommended-homebrew)
 - [Játék mentések átvitele](transfer-saves)
@@ -77,9 +77,9 @@
 
 **vWii**
 
-- [Wii U NAND dump készítése](wiiu-nand-dumper)
-- [A Homebrew Channel telepítése a vWii-re](vwii-homebrew-channel)
-- [Telepítés véglegesítése — vWii](vwii-finalizing-setup)
+- [A Homebrew Channel telepítése vWii-re](vwii-homebrew-channel)
+- [Wii U NAND Dumper](wiiu-nand-dumper)
+- [A Homebrew Channel telepítése a vWii-re a Wii U oldal moddolása nélkül](vwii-homebrew-channel-no-wiiu-mods)
 
 :::
 
@@ -88,6 +88,5 @@
 **Wii mini**
 
 - [Wii mini NAND Dumper](wnd-mini)
-- [Telepítés véglegesítése — Wii mini](mini-finalizing-setup)
 
 :::

@@ -1,4 +1,4 @@
-# Telepítés véglegesítése — Wii mini
+# A telepítés befejezése
 
 Most, hogy befejeztük a Homebrew Channel, a Priiloader és a cIOS-ek telepítését, ideje pár utolsó lépéssel lezárni a folyamatot!
 

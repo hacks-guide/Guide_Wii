@@ -2,11 +2,11 @@
 head:
   - - meta
     - http-equiv: refresh
-      content: '5; URL=https://www.wiilink24.com/guide/install/'
+      content: 5; URL=https://www.wiilink24.com/guide/install/
 ---
 
 # Przekierowanie
 
-You are being redirected to WiiLink.
+Jesteś przekierowywany do WiiLink24.
 
-If the page doesn't refresh, click [here](https://wiilink.ca/guide/install/).
+Jeśli strona się nie odświeżyła, naciśnij [tutaj](https://www.wiilink24.com/guide/install/).

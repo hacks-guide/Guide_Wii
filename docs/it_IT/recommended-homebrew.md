@@ -2,7 +2,7 @@
 
 Questa pagina elenca homebrew che sono consigliati dallo staff di wii.hacks.guide per la loro utilità, piacevolezza ad avere, o semplicemente perché sono buoni. Approfitta appieno del potere che ora hai con il tuo Wii!
 
-Homebrew that has the ability to make permanent changes to your Wii are highlighted in **bold**.
+Homebrew that has the ability to make permanant changes to your Wii are highlighted in **bold**.
 
 ## Utilità
 

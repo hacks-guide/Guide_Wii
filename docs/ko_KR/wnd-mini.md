@@ -56,7 +56,7 @@ WiiFlash.log
 
 1. 홈브류 채널에서 xyzzy 개조를 실행하세요.
 2. `USB 장치` 선택
-   - It should start retrieving your console information.
+   - 콘솔 정보를 검색하기 시작할 것입니다.
 3. 완료되면 아무 버튼이나 눌러 종료합니다.
 
    - USB에 5 개의 새 파일이 생성됩니다:
@@ -83,7 +83,7 @@ WiiFlash.log
 
 ::: info
 
-If you would like to play Wii games online inside of dolphin with your Wii mini NAND, follow [this tutorial](https://dolphin-emu.org/docs/guides/wii-network-guide/) to retrieve the files needed for online, even if you are already using the latest beta or development version of dolphin emulator.
+Wii 미니 낸드를 사용하여 돌핀에서 Wii 게임을 온라인으로 플레이하려면 최신 베타 또는 돌핀 에뮬레이터 개발 버전을 사용 중이더라도 [이 자습서](https://dolphin-emu.org/docs/guides/wii-network-guide/)에 따라 온라인에 필요한 파일을 검색합니다.
 
 :::
 

@@ -4,20 +4,33 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 ## Wii Menu Theming
 
-::: details Important Information
+::: danger
 
-* csm-installer has built in safety features to prevent you from installing bad or corrupt Wii Menu themes. You are advised to use it instead of other theme installation homebrew to help prevent a brick.
-* Do not use any other version of ThemeMii than the one linked here, as ThemeMii Mod allows you to make a theme for Wii Menu version 4.3, other versions may not.
-* Before proceeding, it helps to know the difference between .MYM and .CSM as file formats when used in Wii Menu theming. While the MYM is made by the theme creator which can then be shared around, the CSM is the result from building a MYM into a system menu. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes separate.
+DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) (Wii only) AND [PRIILOADER](priiloader)!
+
+:::
+
+::: warning
+
+csm-installer has built in safety features to prevent from installing bad or corrupt Wii Menu themes, so please opt to use it instead of other theme installation homebrew.
+
+:::
+
+::: warning
+
+Do not use any other version of ThemeMii than the one linked here, as ThemeMii Mod allows you to make a theme for Wii Menu version 4.3, other versions may not.
 
 :::
 
 ::: danger
 
-**Important Warnings**
+Only install themes on your Wii that have been formatted specifically for its version and current region. Installing themes from the wrong version or region on your Wii will cause a [brick](bricks#theme-brick). This tutorial will tell you how to create a .csm file that is safe to install.
 
-* DO NOT continue with this guide unless you have adequate brick protection with [BootMii](bootmii) (Wii only) and [Priiloader](priiloader) installed.
-* Only install themes on your Wii that have been formatted specifically for its version and current region. Installing themes from the wrong version or region on your Wii will cause a [theme brick](bricks#theme-brick). This tutorial will tell you how to create a .csm file that is safe to install.
+:::
+
+::: info
+
+Before proceeding, it helps to know the difference between .MYM and .CSM as file formats when used in Wii Menu theming. While the MYM is made by the theme creator which can then be shared around, the CSM is the result from building a MYM into a system menu. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes separate.
 
 :::
 
@@ -206,7 +219,6 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 
 App forwarders can add a bit of extra flair to your Wii Menu - but be careful with them as bad forwarders can cause a [banner brick](bricks#banner-brick). Generally, you can find forwarders on places like [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) for popular apps such as emulators. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme).
 
----
 
 ::: tip
 

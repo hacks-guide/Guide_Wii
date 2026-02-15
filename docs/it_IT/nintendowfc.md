@@ -196,9 +196,7 @@ Un metodo per la patch Wiimmfi che viene eseguito su immagini di giochi su disco
 
 ::: tip
 
-Complimenti per aver raggiunto la fine della sezione facoltativa della guida principale!
-
-Puoi andare all'indice del sito qui in basso se vuoi cercare altre guide. Additionally, you can read [the hacks.guide wiki](https://wiki.hacks.guide/wiki/Wii) for additional articles about Wii homebrew not included on this site.
+Complimenti per aver raggiunto la fine della sezione facoltativa della guida principale! Puoi andare all'indice del sito qui in basso se vuoi cercare altre guide.
 
 :::
 

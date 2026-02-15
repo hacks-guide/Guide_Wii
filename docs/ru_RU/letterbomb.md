@@ -62,7 +62,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 15. Load the red letter with a bomb icon.
     - Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
-    - In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
+    - In various scenarios, you may need to look at the previous or next day to find it.
     - If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. If any do, there may be an issue with the SD card format or the Wii’s SD card reader.
     - If your Wii freezes after clicking on the letter, you probably chose the wrong region when downloading the exploit. Redo Step 2 and select the correct region.
     - If all is correct and there is freezing, keep on trying until it works.

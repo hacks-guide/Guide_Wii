@@ -49,32 +49,28 @@ The guide on how to install these services, as well as the patcher, can be found
 1. Repeat Steps 1-4 with a new time offset if your location participates in daylight savings time.
 1. Insert your SD card into your Wii U.
 1. [Boot Priiloader](priiloader#section-iii---entering-priiloader) on the vWii.
-1. Select `System Menu Hacks`, and ensure that the Fix NWC24iSetUniversalTime hack is enabled.
+1. Select hacks, and scroll down to enable the Fix NWC24iSetUniversalTime hack.
 1. Return to the vWii menu.
 
-## Wiiconnect24 Priiloader Hacks (vWii and Wii mini)
+## Wiiconnect24 Priiloader Hacks
+
+Some Priiloader hacks need to be enabled on the vWii and the Wii mini so the WiiConnect24 functions could work properly:
+
++ [Create message via Calendar button (vWii, Mini)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)
++ [Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)
++ [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii)
++ [Fix NWC24iSetUniversalTime (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)
 
 ::: info
 
-On vWii, the [Permanent vWii System Settings](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) and [Always enable WiiConnect24 on boot](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) hacks cannot be enabled at the same time. It is recommended to just enable the Permanent vWii Systems Settings hack, as you can enable WiiConnect24 there without issue. More information can be found [here](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii).
+[Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) and [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) cannot be enabled at the same time. More information on how to use Permanent vWii System Settings can be found [here](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii)
 
 :::
-
-Some Priiloader hacks need to be enabled on vWii and the Wii mini to allow proper WiiConnect24 functionality. In `System Menu Hacks`, enable the following options according to your console:
-
-| Console Type | Priiloader Options |
-| -------------| -------------------|
-| vWii         | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li><br><li>[Permanent vWii System Settings](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)</li><br><li>[Fix NWC24iSetUniversalTime](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)</li></ul> |
-| Wii mini     | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li></ul> |
-
-In addition, if you are on the Wii U, please ensure that you install [WiiVCLaunch](https://github.com/Lynx64/WiiVCLaunch/releases) to ensure that your system settings are not overwritten when you run Wii Virtual Console games in the Wii U menu.
-
----
 
 ::: tip
 
 [Proceed to Nintendo Wi-Fi Connection](nintendowfc)
 
-This guide explains how to restore Nintendo Wi-Fi Connection functionality, allowing you to play games like Mario Kart Wii online again. While there are different services that might allow this, the one covered here will be Wiimmfi.
+This guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. While there are different private servers and services that allow this, the one covered here will be Wiimmfi.
 
 :::

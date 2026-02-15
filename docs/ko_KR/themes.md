@@ -30,7 +30,7 @@ Wii에 해당 버전과 현재 지역에 맞게 특별히 포맷된 테마만 �
 
 ::: info
 
-계속하기 전에 Wii 메뉴 테마에 사용될 때 .MYM과 .CSM 파일 형식의 차이점을 아는 것이 도움이 됩니다. MYM은 테마 제작자가 만들어서 공유할 수 있는 반면, CSM은 MYM을 시스템 메뉴로 빌드한 결과입니다. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes separate.
+계속하기 전에 Wii 메뉴 테마에 사용될 때 .MYM과 .CSM 파일 형식의 차이점을 아는 것이 도움이 됩니다. MYM은 테마 제작자가 만들어서 공유할 수 있는 반면, CSM은 MYM을 시스템 메뉴로 빌드한 결과입니다. 즉, MYM은 주로 자산만 보관하며, 설치가 필요한 실제 시스템 메뉴 자체는 별도로 제공됩니다.
 
 :::
 

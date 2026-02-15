@@ -1,6 +1,6 @@
 # Wii mentés betöltők
 
-Ez az útmutató bemutatja a Wii mentés betöltőit. Ezek elsősorban a kiskereskedelmi játéklemezről dumpolt lemezképek SD-kártyáról vagy USB-lemezről történő betöltésére használhatók. A betöltőtől függően lehetnek olyan kiterjesztések is, amelyek lehetővé teszik, hogy nem Wii-s játékok frontendjeként is működjön. A két leggyakrabban használt betöltő az USB Loader GX és a WiiFlow Lite (az eredeti WiiFlow rendszeresen frissített modja) - lehet, hogy az egyik betöltő jobban működik neked, mint a másik, ezért érdemes mindkettőt kipróbálni.
+Ez az útmutató bemutatja a Wii mentés betöltőit. Ezek elsősorban a kiskereskedelmi játéklemezről lementett játéklemezek SD-kártyáról vagy USB-lemezről történő betöltésére használhatók. A betöltőtől függően lehetnek olyan kiterjesztések is, amelyek lehetővé teszik, hogy nem Wii-s játékok frontendjeként is működjön. A két leggyakrabban használt betöltő az USB Loader GX és a WiiFlow Lite (az eredeti WiiFlow rendszeresen frissített modja) - lehet, hogy az egyik betöltő jobban működik neked, mint a másik, ezért érdemes mindkettőt kipróbálni.
 
 ::: warning
 
@@ -26,7 +26,7 @@ A hivatalos Wii Menu forwarder telepítő WiiFlow Lite-hoz megtalálható az [Op
 
   - Az SD-kártyák teljes mértékben támogatottak a Wii-játékok betöltéséhez a WiiFlow Lite-on.
   - A WiiFlow Lite rendelkezik plugin rendszerrel.
-  - Míg az eredeti WiiFlow utoljára 2014-ben frissült, a WiiFlow Lite fork még mindig rendszeresen frissül.
+  - Míg az eredeti WiiFlow utoljára 2014-ben frissült, a WiiFlow Lite elágazás még mindig rendszeresen frissül.
 
   ![](/images/usb-loaders/wiiflow-ui.png)
 
@@ -40,7 +40,7 @@ A hivatalos Wii Menu forwarder telepítő WiiFlow Lite-hoz megtalálható az [Op
 
 ## Játék mappa struktúra
 
-Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható. Egy WBFS-nek darabolni kell, ha 4 GB-nál nagyobb és a tároló eszköz FAT32-re formázott. A szoftverek, mint például a [TinyWiiBackupManager](backups#using-tinywiibackupmanager) el tudják ezt végezni és automatikusan megfelelő játék mappaszerkezetet állítanak be.
+Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható. Egy WBFS-nek darabolni kell, ha 4 GB-nál nagyobb és a tároló eszköz FAT32-re formázott. A szoftverek, mint [Wii Backup Manager](wii-backups#using-wii-backup-manager) vagy [Wii Backup Fusion](wii-backups#using-wii-backup-fusion) el tudják ezt végezni és automatikusan megfelelő játék mappaszerkezetet állítanak be.
 
 ```
 💾SD kártya vagy USB:

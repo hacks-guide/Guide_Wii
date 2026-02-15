@@ -196,9 +196,7 @@ WiiWare 게임에서 실행되는 Wiimmfi 패치 방법이지만, 스크립트�
 
 ::: tip
 
-메인 가이드의 선택 섹션을 끝까지 읽은 것을 축하합니다!
-
-다른 가이드를 찾고 싶다면 아래 사이트 인덱스로 이동합니다. Additionally, you can read [the hacks.guide wiki](https://wiki.hacks.guide/wiki/Wii) for additional articles about Wii homebrew not included on this site.
+메인 가이드의 선택 섹션을 끝까지 읽은 것을 축하합니다! 다른 가이드를 찾고 싶다면 아래 사이트 인덱스로 이동합니다.
 
 :::
 

@@ -45,7 +45,7 @@
 
 - Wii가 켜지고 Wii ​​메뉴로 이동합니다. 앱에 문제가 있는 것도 아니고, Wii 설정에도 오류가 없으며, 모든 것이 정상적으로 보입니다. 벽돌은 없습니다.
 - Wii가 켜지고 Wii ​​메뉴로 이동합니다.
-  - If after accessing a specific channel, you get `The system files are corrupted`, see [banner brick](bricks#banner-brick).
+  - 특정 채널에 접속한 후 '시스템 파일이 손상되었습니다'라는 메시지가 표시되면 [배너 벽돌](bricks#banner-brick)을 참조하세요.
   - Wii 설정에 접속한 후 Opera 웹 브라우저와 유사한 오류가 표시되면 [반벽돌](bricks#semibrick)을 참조하세요.
 - Wii를 시작하면 건강/경고 화면이 나타나지만, A 버튼을 눌러 시작하면 검은색 화면이 나타납니다.
   - 테마를 설치한 후 이런 일이 발생한 경우 [테마 벽돌](bricks#theme-brick)을 참조합니다.

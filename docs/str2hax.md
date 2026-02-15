@@ -95,8 +95,6 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     + If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
 
----
-
 ::: tip
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)

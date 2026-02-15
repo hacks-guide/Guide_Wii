@@ -62,7 +62,7 @@ SD 카드를 올바르게 포맷하는 방법에 대한 지침은 [이 가이드
 
 15. Load the red letter with a bomb icon.
     - Wii에 표시된 날짜가 정확한지 확인합니다. 그렇지 않으면 편지를 찾을 수 없을 수도 있습니다.
-    - 어떤 경우에는 편지가 도착하려면 내일이나 어제의 메시지를 확인해야 할 수도 있습니다.
+    - In various scenarios, you may need to look at the previous or next day to find it.
     - 빨간색 글자가 보이지 않으면 `데이터 관리`의 SD 카드 섹션에 오류가 표시되었는지 확인합니다. 그렇다면 SD 카드 포맷이나 Wii의 SD 카드 리더에 문제가 있을 수 있습니다.
     - If your Wii freezes after clicking on the letter, you probably chose the wrong region when downloading the exploit. Redo Step 2 and select the correct region.
     - 모든 것이 올바르고 프리징 현상이 나타나면 작동할 때까지 계속 시도합니다.

@@ -1,98 +1,30 @@
-# Finalizing Setup — vWii
+# Finalizing Setup
 
-Now that the Homebrew Channel, Priiloader, and cIOS are installed, we are going to finalize setup for vWii by installing crucial apps to restore various missing functionalities of the vWii menu compared to a normal console. It is recommended that you download all homebrew listed below onto your storage device BEFORE starting the listed steps to save time.
+Now that the Homebrew Channel, Priiloader, and cIOS are installed, we are going to finalize the setup.
 
-## Patched IOS 80 Installer
+## Additional Homebrew Apps
 
-Patched IOS 80 Installer for vWii is a homebrew app that takes the currently installed version of IOS 80 and patches it to omit the signature check. This allows fakesigned channels to be used on the SD card menu.
+::: info
 
-### Gereksinimler
+All homebrew apps are loaded from the Homebrew Channel.
 
-- an SD card or USB drive
+:::
+
+- Patched IOS 80 Installer for vWii is a homebrew app that will take your current install of IOS 80 and patch it to be able to use fakesigned channels on the SD card menu.
+- System Channel Restorer is a homebrew app that allows some channels usually only available on Wii to be easily installed on vWii.
+- ww-43db-patcher is a homebrew app that will patch your WiiWare and virtual console titles to force the 16:9 aspect ratio.
+
+## Additional Homebrew Apps - What You Need
+
 - [Patched IOS 80 Installer for vWii](https://oscwii.org/library/app/Patched_IOS80_Installer_for_vWii)
+- [system-channel-restorer](https://oscwii.org/library/app/system-channel-restorer)
+- [ww-43db-patcher](https://oscwii.org/library/app/ww-43db-patcher)
 
-### Talimatlar
+## Additional Homebrew Apps - Extracting Files to the SD Card
 
-1. Copy the `apps` folder in the `Patched_IOS80_Installer_for_vWii.zip` file to the root of your SD card or USB drive.
-
-2. SD card veya USB cihazınızı yeniden konsolunuza takın.
-
-3. Launch the Homebrew Channel, and launch the Load Priiloader app.
-
-4. Launch Patched IOS 80 Installer for vWii from the list of homebrew.
-
-   ![](/images/vwii/ios80-installer/launch-hb.png)
-
-5. The installer will launch, display a warning, and then start a 30 second timeout before installation can begin. Read this warning in detail before continuing, and then press any button to continue.
-
-   ![](/images/vwii/ios80-installer/warning.png)
-
-6. After continuing, the installer will patch and install IOS80. Once it is complete, you may press any button to return to the Homebrew Channel.
-
-   ![](/images/vwii/ios80-installer/install.png)
-
-## System Channel Restorer
-
-System Channel Restorer is a homebrew app that restores channels missing from the vWii menu normally, such as the Wii version of the Mii Channel and Photo Channel.
-
-### Gereksinimler
-
-- an SD card or USB drive
-- [System Channel Restorer](https://oscwii.org/library/app/system-channel-restorer)
-
-### Talimatlar
-
-1. Copy the `apps` folder in the `system-channel-restorer.zip` file to the root of your SD card or USB drive.
-
-2. SD card veya USB cihazınızı yeniden konsolunuza takın.
-
-3. Launch the Homebrew Channel, and launch the Load Priiloader app.
-
-4. Launch System Channel Restorer from the list of homebrew.
-
-   ![](/images/vwii/sys-channel-restore/launch-hb.png)
-
-5. The installer will launch. Most users will want to select the following channels, unless you prefer to install additional channels:
-
-   - EULA
-   - Mii Channel
-
-   ![](/images/vwii/sys-channel-restore/channel-select.png)
-
-6. Once all channels are selected, press the `+` button to begin installation.
-
-   ![](/images/vwii/sys-channel-restore/install-begin.png)
-
-7. Once installation has finalized, you may return to the Homebrew Channel by pressing the HOME button.
-
-## WiiWare 4:3 DB Patcher
-
-WiiWare 4:3 DB Patcher is a homebrew app that patches the vWii's 4:3 aspect ratio database, such that WiiWare and Virtual Console titles may utilize the 16:9 aspect ratio where they normally cannot.
-
-### Gereksinimler
-
-- an SD card or USB drive
-- [WiiWare 4:3 DB Patcher](https://oscwii.org/library/app/ww-43db-patcher)
-
-### Talimatlar
-
-1. Copy the `apps` folder in the `ww-43db-patcher.zip` file to the root of your SD card or USB drive.
-
-2. SD card veya USB cihazınızı yeniden konsolunuza takın.
-
-3. Launch the Homebrew Channel, and launch the Load Priiloader app.
-
-4. Launch ww-43db-patcher from the list of homebrew.
-
-   ![](/images/vwii/43db-patcher/hb-launch.png)
-
-5. The installer will launch. Press the `1` or `X` buttons to patch the aspect ratio database.
-
-   ![](/images/vwii/43db-patcher/install-prompt.png)
-
-6. Once the aspect ratio database is patched, the installer will save a backup of the previous database. Do NOT delete this backup. You may press any button to return to the Homebrew Channel.
-
-   ![](/images/vwii/43db-patcher/install-finish.png)
+1. Copy the contents of the Patched IOS 80 Installer for vWii to the root of the SD.
+2. Copy the contents of the system-channel-restorer to the root of the SD.
+3. Copy the contents of the ww-43db-patcher to the root of the SD.
 
 ::: tip
 

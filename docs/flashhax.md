@@ -43,8 +43,6 @@ If you still can't get it to load, try deleting your cookies or save data for th
 
 If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
 
----
-
 ::: tip
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)

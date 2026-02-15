@@ -47,7 +47,7 @@ BlueBomb - это эксплойт, который использует уязв
 - Компьютер с Linux
   - Виртуальная машина может сработать, но её использование не рекомендуется из-за сложности с пробросом Bluetooth. По возможности, используйте LiveUSB, как описано ниже.
   - Если у вас есть Raspberry Pi, вы можете использовать её вместо вашего устройства, так как на ней, скорее всего уже установлен Linux.
-    - ARM64 Raspberry Pi's need multiarch enabled with the armhf (32bit) architecture added. Данные команды должны работать с любым дистрибутивом основанном на Debian:
+    - Raspberry Pi с архитектурой ARM64 требуют включения multiarch с добавленной архитектурой armhf (32 бит). Данные команды должны работать с любым дистрибутивом основанном на Debian:
     ```bash
     sudo dpkg --add-architecture armhf
     sudo apt update && sudo apt install -y screen:armhf

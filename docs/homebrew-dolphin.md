@@ -37,11 +37,3 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
 1. Load the Wii Menu and open the Homebrew Channel. Your newly installed apps should appear!
 
     ![](/images/homebrew-dolphin/hbc-apps.png)
-
----
-
-::: tip
-
-[Click here to go back to the site index.](site-navigation)
-
-:::

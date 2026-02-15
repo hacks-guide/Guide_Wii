@@ -1,12 +1,12 @@
-# Wii- és GameCube-játékok dumpolása
+# Wii- és GameCube-játékok másolása
 
-Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek dumpolásával SD kártyára vagy USB drive-ra.
+Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek lemásolásának módjával, hogy az adatokat egy SD kártyán vagy USB drive-on tárolhasd.
 
-## Lemez dumpolása SD kártyára / USB drive-ra CleanRippel
+## Lemez másolása SD kártyára / USB drive-ra CleanRippel
 
 ### Követelmények
 
-- Egy SD kártya vagy USB drive legalább 4,7 GB szabad hellyel (ha kétrétegű lemezt dumpolsz, akkor 8,5 GB szabad hellyel).
+- Egy SD kártya vagy USB drive legalább 4,7 GB szabad hellyel (ha kétrétegű lemezt másolsz le, akkor 8,5 GB szabad hellyel).
 - [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 ### Előkészítés
@@ -29,7 +29,7 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek dumpolásával S
 
    ![](/images/homebrew/CleanRip/checksum.png)
 
-9. Válaszd ki, hogy USB-eszközre vagy SD kártyára szeretnéd dumpolni a játékot.
+9. Válaszd ki, hogy USB-eszközre vagy SD kártyára szeretnéd másolni a játékot.
 
    ![](/images/homebrew/CleanRip/device.png)
 
@@ -43,11 +43,11 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek dumpolásával S
 
 12. Amikor a program megkérdezi, válaszolj igennel ( `Yes`) a redump.org DAT-fájlok letöltésére.
 
-    - A dump készítése után ezeknek a fájloknak a segítségével lehet igazolni, hogy a másolatok tiszták/pontosak-e.
+    - A másolat készítése után ezeknek a fájloknak a segítségével lehet igazolni, hogy a másolatok tiszták/pontosak-e.
 
     ::: warning
 
-    Lehetséges, hogy a program hibát ír ki, a letöltés megkísérlésénél. Ha ez így történik, akkor indítsd újra a konzolod és próbáld újra! Ha továbbra is kivétel hibákat kapsz, akkor a dumpold a lemezt, majd később a Dolphin emulátorral ellenőrizd a másolatot.
+    Lehetséges, hogy a program hibát ír ki, a letöltés megkísérlésénél. Ha ez így történik, akkor indítsd újra a konzolod és próbáld újra! Ha továbbra is hibát kapsz, akkor a fájlok dumpold a lemezt, majd később a Dolphin emulátorral ellenőrizd a másolatot.
 
     :::
 
@@ -57,11 +57,11 @@ Ezen az oldalon megismerkedhetsz a GameCube-/Wii-játéklemezek dumpolásával S
 
     ![](/images/homebrew/CleanRip/insertdisc.png)
 
-## Egy Wii-lemez dumpolása
+## Egy Wii-lemez lemásolása
 
 ::: warning
 
-Ha a program hibát ír ki, ellenőrizd, hogy a dumpolni kívánt lemez tiszta-e és, hogy a konzol be tudja-e olvasni. Lehetséges, hogy ezt a hibát a program akkor is kiírja, ha egyébként tudsz játszani a játékkal. Ha a probléma fennáll, próbálj dumpolni egy másik lemezt és ellenőrizni, hogy ott is előjön a hiba.
+Ha a program hibát ír ki, ellenőrizd, hogy a másolni kívánt lemez tiszta-e és, hogy a konzol be tudja-e olvasni. Lehetséges, hogy ezt a hibát a program akkor is kiírja, ha egyébként tudsz játszani a játékkal. Ha a probléma fennáll, próbálj lemásolni egy másik lemezt és ellenőrizni, hogy ott is előjön a hiba.
 
 :::
 
@@ -73,9 +73,9 @@ Ha a program hibát ír ki, ellenőrizd, hogy a dumpolni kívánt lemez tiszta-e
 
    ![](/images/homebrew/CleanRip/wiisettings.png)
 
-3. A dumpolás indításához nyomd meg az A-gombot.
+3. A másolási folyamat indításához nyomd meg az A-gombot!
 
-   - Ez a folyamat eltarthat egy darabig, mivel a program dumpolja a lemez teljes, 4,7 GB-nyi tartalmát (kétrétegű lemezeken 8,5 GB).
+   - Ez a folyamat eltarthat egy darabig, mivel a program lemásolja a lemez teljes, 4,7 GB-nyi tartalmát (kétrétegű lemezeken 8,5 GB).
 
    ![](/images/homebrew/CleanRip/wiiprogress.png)
 
@@ -85,7 +85,7 @@ Ha a program hibát ír ki, ellenőrizd, hogy a dumpolni kívánt lemez tiszta-e
 
 ::: tip
 
-Folytasd a [Wii és GameCube mentések kezelésével](backups#joining-part-files-from-a-wii-disc-on-a-fat32-device) a kimeneti PART fájlok összekapcsolásához és a dumpolt játékok kezeléséhez.
+A kimeneti PART fájlok összekapcsolásához és a lemásolt Wii-játékok kezeléséhez lásd. a [Wii-mentések kezelése](wii-backups) oldalt.
 
 :::
 
@@ -93,7 +93,7 @@ Folytasd a [Wii és GameCube mentések kezelésével](backups#joining-part-files
 
 ::: info
 
-Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról dumpot készíteni. Egy Family Edition-ös Wii csak akkor képes GameCube-játékokróldumpot készíteni, ha a lemezolvasóját kicseréled egy eredeti Wiiből származóra.
+Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról másolatot készíteni. Egy Family Edition-ös Wii csak akkor képes GameCube-játékokról másolatot készíteni, ha a lemezolvasóját kicseréled egy eredeti Wiiből származóra.
 
 :::
 
@@ -101,7 +101,7 @@ Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról dumpot készí
 
    ![](/images/homebrew/CleanRip/dateldisc.png)
 
-2. A dumpolás indításához nyomd meg az A-gombot.
+2. A másolási folyamat indításához nyomd meg az A-gombot!
 
    - Ez a folyamat eltarthat egy darabig, mivel a program lemásolja a Mini DVD teljes, 1,3 GB-nyi tartalmát.
 
@@ -113,6 +113,6 @@ Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról dumpot készí
 
 ::: tip
 
-Folytasd a [Wii és GameCube mentések kezelésével](backups#using-tinywiibackupmanager) a kimeneti fájlok méretének csökkentéséhez és a dumpolt játékok kezeléséhez.
+A kimeneti fájl méretének csökkentéséhez és a lemásolt GameCube-játékok kezeléséhez lásd a [GameCube-másolatok kezelése](gc-backups) oldalt.
 
 :::

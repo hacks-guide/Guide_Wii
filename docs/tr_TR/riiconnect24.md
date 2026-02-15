@@ -7,6 +7,6 @@ head:
 
 # Yönlendiriliyor
 
-You are being redirected to WiiLink.
+You are being redirected to the WiiLink24.
 
-If the page doesn't refresh, click [here](https://wiilink.ca/guide/install/).
+If the page doesn't refresh, click [here](https://www.wiilink24.com/guide/install/).
