@@ -96,7 +96,7 @@ Azért, hogy megoldja ezt a problémát a Wiimmfi tartalmaz egy egyedi DNS szerv
 2. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
 3. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
-## Kézi lemezpatchelésa Homebrew Channel csatornán keresztül
+## Manuális lemez patchelés a Homebrew Channel csatornán keresztül
 
 A Wiimmfi egy patchelési módszere, amely a kiskereskedelmi lemezes játékokon fut, de manuálisan kell elindítani a Homebrew Channel csatornán keresztül.
 
@@ -111,7 +111,7 @@ A Wiimmfi egy patchelési módszere, amely a kiskereskedelmi lemezes játékokon
 2. Helyezd be az SD-kártyád a Wii-be, és indítsd el az Auto Wiimmfi Patchert a Homebrew Channel-ről.
 3. Helyezd be a játéklemezt (ha még nem lenne), várd meg, amíg a patchelés befejeződik, és a játék elindul.
 
-## Kézi lemez patchelés az EULA felhasználói megállapodáson keresztül
+## Manuális lemez patchelés az EULA felhasználói megállapodáson keresztül
 
 A Wiimmfi egy patchelési módszere, amely kiskereskedelmi játéklemezeken fut, de manuálisan kell elindítani az EULA felhasználói megállapodáson keresztül (az [str2hax](str2hax)-ból származik). A folyamat jellegéből adódóan homebrew nélkül is futtatható Wii-ken.
 
@@ -135,7 +135,7 @@ A Wiimmfi egy patchelési módszere, amely kiskereskedelmi játéklemezeken fut,
 
 6. Várj egy kicsit, amíg a patcher betöltődik (általában kb. 1,5 percig), és a behelyezett játéknak a Wiimmfi patch-el együtt kell elindulnia.
 
-## Kézi lemezkép javítás az Internet Channel csatornán keresztül
+## Manuális lemezkép javítás az Internet Channel csatornán keresztül
 
 ::: warning
 
@@ -158,9 +158,9 @@ A Wiimmfi patchelés egy módszere, amely a kiskereskedelmi játéklemezeken fut
 4. Nyisd meg újra az Internet Channel-t, és lépj be az imént létrehozott kedvenchez.
 5. A Wiimmfi patchernek el kell indulnia. Légy türelmes, mivel a Flashhax nagyon megbízhatatlan tud lenni - több próbálkozásra is szükség lehet, hogy sikerüljön.
 
-## Kézi WiiWare patchelés PC-vel
+## Manuális WiiWare patchelés PC-vel
 
-A Wiimmfi patchelés egy módszere, amely a WiiWare játékokon fut, de kézzel kell futtatni a PC-n egy szkript segítségével.
+A Wiimmfi patchelés egy módszere, amely a WiiWare játékokon fut, de manuálisan kell futtatni a PC-n egy szkript segítségével.
 
 ### Követelmények
 
@@ -175,7 +175,7 @@ A Wiimmfi patchelés egy módszere, amely a WiiWare játékokon fut, de kézzel 
 2. Futtasd le az operációs rendszeredhez tartozó patch scriptet: Windows esetén általában `.bat`, Mac/Linux esetén `.sh` végződésű. Ha a RiiConnect24 Patchert használod, válaszd ki a készülékedet (Wii, vWii vagy Dolphin), és válaszd a WiiWare patchert.
 3. Ha sikeresen befejeződött, telepítsd a `wiiware-wads`-szel készük WAD fájl a [YAWM ModMii Edition](yawmme)-nel.
 
-## Kézi lemezkép-foltozás PC-n keresztül
+## Manuális lemezkép patchelés PC-n keresztül
 
 A Wiimmfi patchelés egy módszere, amely játék-lemezképeken fut, de kézzel kell futtatni a PC-n egy szkript segítségével.
 
@@ -196,7 +196,9 @@ A Wiimmfi patchelés egy módszere, amely játék-lemezképeken fut, de kézzel 
 
 ::: tip
 
-Gratulálunk, hogy eljutottál a fő útmutató opcionális részének végére! Az oldal indexére nézve megtekinthetsz más útmutatókat is.
+Gratulálunk, hogy eljutottál a fő útmutató opcionális részének végére!
+
+Az oldal indexére nézve megtekinthetsz más útmutatókat is. Továbbá elolvashatod [a hacks.guide wiki-t](https://wiki.hacks.guide/wiki/Wii) további információkért olyan Wii homebrew-okról, amik nem kerülltek fel erre az oldlara.
 
 :::
 

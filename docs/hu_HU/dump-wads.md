@@ -31,7 +31,7 @@ Ez az útmutató azt mutatja be, hogy hogyan dumpolhatsz WAD-okat Wii-od rendsze
 
    ![](/images/homebrew/DumpWADS/2.png)
 
-10. Keresd meg a tartalmat amit dumpolni szeretnél és nyomd meg az 1 gombot.
+10. Keresd meg a tartalmat, amit dumpolni szeretnél és nyomd meg az 1 gombot.
 
     ![](/images/homebrew/DumpWADS/3.png)
 

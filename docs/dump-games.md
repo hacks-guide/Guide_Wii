@@ -101,6 +101,8 @@ Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping 
 
     ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
+---
+
 ::: tip
 
 Proceed to [Managing Wii and GameCube Backups](backups#using-tinywiibackupmanager) to shrink the size of your output file, and manage your dumped games.

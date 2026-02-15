@@ -47,7 +47,7 @@ Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에
 - 리눅스 머신
   - 가상 머신을 사용할 수도 있지만, 블루투스 패스스루를 구현하는 과정이 복잡하기 때문에 권장하지 않습니다. 가능하면 아래 설명된 대로 LiveUSB를 사용해 주세요.
   - 라즈베리 파이가 있다면, 리눅스가 이미 설치되어 있을 가능성이 높으므로 그것을 대신 사용할 수 있습니다.
-    - ARM64 라즈베리 파이는 armhf(32비트) 아키텍처를 추가하여 멀티아키텍처 기능을 활성화해야 합니다. 다음은 모든 데비안 기반 운영체제에서 작동해야 합니다:
+    - ARM64 Raspberry Pi's need multiarch enabled with the armhf (32bit) architecture added. 다음은 모든 데비안 기반 운영체제에서 작동해야 합니다:
     ```bash
     sudo sudo dpkg --add-architecture armhf
     sudo apt update && sudo apt install -y screen:armhf

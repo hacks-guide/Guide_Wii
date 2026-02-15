@@ -62,7 +62,7 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 15. Open the red letter with a bomb.
     - 请确保 Wii 的日期正确，否则您可能找不到信。
-    - In some cases, you may need to check the messages for tommorow or yesterday for the letter to show up.
+    - In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
     - If you don't see the red letter, check if any errors appear in the SD card section of `Data Management`. 如果有任何问题，可能是由于 SD 卡格式或 Wii 的 SD 卡槽出现问题。
     - 如果 Wii 在点击信后卡住，可能是在下载时选择了错误的区域。 重新进行第 2 步，并选择正确的区域。
     - If all is correct and there is freezing, keep on trying until it works.

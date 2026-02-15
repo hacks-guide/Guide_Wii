@@ -20,13 +20,13 @@ SysCheck zawiera listę wszystkich IOS i cIOS, które znajdują się na Twojej k
 
 2. Kiedy "This IOS will be tested (Please select)" pojawi się na ekranie, naciśnij A.
 
-    ![](/images/homebrew/syscheck/syscheck_chooseios.png)
+   ![](/images/homebrew/syscheck/syscheck_chooseios.png)
 
 3. Poczekaj, aż program uzyska informacje o Twoim IOS.
 
 4. Po zakończeniu naciśnij przycisk `A` jeśli chcesz zobaczyć log.
 
-    ![](/images/homebrew/syscheck/syscheck_success.png)
+   ![](/images/homebrew/syscheck/syscheck_success.png)
 
 5. Jeśli chcesz udostępnić SysCheck, możesz udostępnić plik `syscheck.csv` w katalogu głównym karty SD lub dysku USB. Możesz również nacisnąć `A`, który prześle raport do [syscheck.rc24.xyz](http://syscheck.rc24.xyz/).
 

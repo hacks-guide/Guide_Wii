@@ -22,43 +22,43 @@ If you do not have an SD card, you cannot install nor use BootMii, and therefore
 
 1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
 
-    - Vous verrez un écran d'avertissement d'arnaque.
+   - Vous verrez un écran d'avertissement d'arnaque.
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
 2. Attendez 30 secondes pour que le texte "Press 1 to continue" apparaisse, puis appuyez sur 1.
 
 3. Select `Continue` when finished.
 
-    ![](/images/hackmii/test_results.png)
+   ![](/images/hackmii/test_results.png)
 
 4. Select `Install the Homebrew Channel`.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
 5. Select `Exit` to finally open the Homebrew Channel.
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
 6. Select `BootMii...`.
 
-    ![](/images/hackmii/bootmii_install.png)
+   ![](/images/hackmii/bootmii_install.png)
 
 7. Select `Install BootMii as IOS`.
 
-    ![](/images/hackmii/bootmii_install1.png)
+   ![](/images/hackmii/bootmii_install1.png)
 
-    ![](/images/hackmii/bootmii_install2.png)
+   ![](/images/hackmii/bootmii_install2.png)
 
-    ![](/images/hackmii/bootmii_install3.png)
+   ![](/images/hackmii/bootmii_install3.png)
 
-    ![](/images/hackmii/bootmii_install_ok.png)
+   ![](/images/hackmii/bootmii_install_ok.png)
 
 8. Once done, select `Continue`.
 
 9. If you couldn't install BootMii, continue to [installing Priiloader](priiloader).
 
-    ![](/images/hackmii/bootmii_install4.png)
+   ![](/images/hackmii/bootmii_install4.png)
 
 10. Select `Return to the main menu`, then select `Exit`.
 
@@ -124,29 +124,29 @@ Bien qu'il soit possible d'installer BootMii sur une Wii mini, vous devrez soude
 
 1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
 
-    - Vous verrez un écran d'avertissement d'arnaque.
+   - Vous verrez un écran d'avertissement d'arnaque.
 
-    ![](/images/hackmii/scam.png)
+   ![](/images/hackmii/scam.png)
 
 2. Attendez 30 secondes pour que le texte "Press 1 to continue" apparaisse, puis appuyez sur 1.
 
 3. Select `Continue` when finished.
 
-    ![](/images/hackmii/test_results.png)
+   ![](/images/hackmii/test_results.png)
 
 4. Select `Install the Homebrew Channel`.
 
-    ![](/images/hackmii/hbc_install.png)
+   ![](/images/hackmii/hbc_install.png)
 
 5. Once it is completed, select `Continue`
 
-    ![](/images/hackmii/hbc_install_ok.png)
+   ![](/images/hackmii/hbc_install_ok.png)
 
 6. {% endcapture %}
 
 7. Your console will have booted into the Homebrew Channel.
 
-    ![](/images/hbc/blank.png)
+   ![](/images/hbc/blank.png)
 
 ## Required Reading
 

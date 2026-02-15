@@ -1,4 +1,4 @@
-# Setup abschließen
+# Finalizing Setup — Wii mini
 
 Now that the Homebrew Channel, Priiloader, and cIOS are installed, we are going to finalize the setup.
 
@@ -10,9 +10,9 @@ All homebrew apps are loaded from the Homebrew Channel.
 
 :::
 
-- Ethernet Enabler enables the use of a USB ethernet adapter on the Wii mini. Only adapters with the ASIX AX88772 chipset are supported on the Wii mini. Additionally, homebrew apps that need internet will require the use of a USB hub, preferrably one that can be externally powered.
+- Ethernet Enabler enables the use of a USB ethernet adapter on the Wii mini. Only adapters with the ASIX AX88772 chipset are supported on the Wii mini. Additionally, homebrew apps that need internet will require the use of a USB hub, preferably one that can be externally powered.
 - System Channel Restorer is a homebrew app that allows some channels usually only available on Wii to be easily installed on the Wii mini.
-- Settings Editor GUI is an app that allows access to system settings without booting the Wii menu. On the Wii mini it can access settings that don't normally appear in the Wii mini system menu.
+- Settings Editor GUI is an app that allows access to system settings without booting the Wii Menu. On the Wii mini it can access settings that don't normally appear in the Wii mini system menu.
 
 ### Additional Homebrew Apps - What You Need
 

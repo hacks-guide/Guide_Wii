@@ -80,7 +80,7 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
    ![](/images/factory-reset/nandcheck.png)
 
-2. 모든 것이 잘 되었다면, 결과는 아래와 비슷할 것입니다. 눈에 띄는 오류가 있는 경우, 해당 낸드를 사용하지 말고 다시 시도합니다. Wii가 손상되거나 영구적으로 고장날 수 있습니다. 이후에도 이러한 오류가 계속 발생하면, 닌텐도 홈브류 디스코드 서버에 접속하여 지원을 받으세요.
+2. 모든 것이 잘 되었다면, 결과는 아래와 비슷할 것입니다. If there are ANY errors that stand out, DO NOT use this NAND and try again as it may damage or permanently brick your Wii. 이후에도 이러한 오류가 계속 발생하면, 닌텐도 홈브류 디스코드 서버에 접속하여 지원을 받으세요.
 
    ![](/images/factory-reset/nandcheckresult.png)
 

@@ -23,7 +23,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 
 ::: warning
 
-无法在 4.0 之前的 Wii 菜单版本中使用大于 2GB 的 SD 卡。
+SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
 
 :::
 
@@ -35,15 +35,15 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-    - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 4. Navigate to `Internet` > `Console Information`.
 
 5. Take note of your FULL MAC address.
 
-    ![](/images/wii/MacAddress.png)
+   ![](/images/wii/MacAddress.png)
 
 6. On your computer, open the browser and go to [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/).
 
@@ -53,7 +53,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 
 9. Cut either wire.
 
-    ![](/images/exploits/wilbrand/web.png)
+   ![](/images/exploits/wilbrand/web.png)
 
 10. 点击 "Download your .zip"。
 
@@ -102,7 +102,7 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 
 ::: warning
 
-无法在 4.0 之前的 Wii 菜单版本中使用大于 2GB 的 SD 卡。
+SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
 
 :::
 
@@ -114,15 +114,15 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 
 3. Take note of the letter next to the system version, in the top-right corner of the screen.
 
-    - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
 
-    ![](/images/wii/SystemMenuVersion.png)
+   ![](/images/wii/SystemMenuVersion.png)
 
 4. Navigate to `Internet` > `Console Information`.
 
 5. Take note of your FULL MAC address.
 
-    ![](/images/wii/MacAddress.png)
+   ![](/images/wii/MacAddress.png)
 
 6. Copy all files from the Wilbrand `.zip` to a folder on your computer
 
@@ -132,18 +132,18 @@ Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board
 
 9. 使用您 Wii 的版本和 MAC 地址运行以下命令：
 
-    - Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
+   - Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
 
-        - `X:` is the drive letter of your SD card.
+     - `X:` is the drive letter of your SD card.
 
-        ![](/images/exploits/wilbrand/windows.png)
+     ![](/images/exploits/wilbrand/windows.png)
 
-    - Linux/macOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
+   - Linux/macOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
 
-        - If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
-        - `/media/mount_dir` is the folder your SD card is mounted in. 这可能会因您使用的 Linux 发行版而有所不同。
+     - If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
+     - `/media/mount_dir` is the folder your SD card is mounted in. 这可能会因您使用的 Linux 发行版而有所不同。
 
-        ![](/images/exploits/wilbrand/linux.png)
+     ![](/images/exploits/wilbrand/linux.png)
 
 10. Copy all files from the hackmii_installer_v1.2 `.zip` to a folder on your computer.
 

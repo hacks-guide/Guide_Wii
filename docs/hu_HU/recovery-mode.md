@@ -1,6 +1,6 @@
 # Helyreállítási mód
 
-A helyreállítási mód egy Wii megmentésének a végső eseti módja hardveres módosításon vagy belsőmemória-programozáson kívül. Ezt a módot a konzol gyárában használták egy különleges hardverkulccsal, de a hozzáféréshez szükséges gombkombináció egy GameCube-vezérlőn is elvégezhető. A helyreállítási mód olyan helyzetbe állítja a Wii menüt, amelyben lemezről lehet programokat futtatni.
+A helyreállítási mód egy Wii megmentésének a végső módja a hard-modding előtt vagy a manuális NAND programozáson előtt. Ezt a módot a konzol gyárában használták egy különleges hardverkulccsal, de a hozzáféréshez szükséges gombkombináció egy GameCube-vezérlőn is elvégezhető. A helyreállítási mód olyan helyzetbe állítja a Wii menüt, amelyben lemezről lehet programokat futtatni.
 
 ## A karbantartási mód működése
 

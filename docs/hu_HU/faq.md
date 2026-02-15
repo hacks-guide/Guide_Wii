@@ -50,17 +50,15 @@ Tekintsd meg [ezt](bricks) az oldalt.
 
 ## Tároló eszköz GYIK
 
-::: info
+::: danger
 
-A [BlueBomb](bluebomb), [str2hax](str2hax), vagy [FlashHax](flashhax) exploitok esetében nincs szükséged SD-kártyára a Wii feltöréséhez; a homebrew és egyéb feladatok elvégzéséhez mindenképpen ajánlott egyet beszerezni.
+A flash drive-ok NEM ajánlotta a Wii-n, ha lehetséges, mert a megjósolhatatlan viselkedésük és potenciaális elromlásuk a konzolon. Egy USB flash drive használata a következőkhöz vezethet:
 
-:::
+- Játék mentések nem töltődnek be
+- UI hibák a homebrew appokban
+- Adat véletlenül elromlik
 
-::: info
-
-A Wii bármilyen kapacítású SD kártyát tud olvasni (még a 32GB-nál nagyobbakat is), de a kártyának [FAT32/MS-DOS-ra kell formázva lennie](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**nem** exFAT vagy NTFS).
-
-Az USB eszközökhoz is a FAT32/MSDOS az ajánlott, habár érdemes figyelemünkben tartani a FAT32 korlátozásait, ami maximum 2TB méretű köteteket és 4GB méretű fájlokat tesz lehetővé. A WBFS korábban a Wii-játékok biztonsági mentéséhez használt fájlrendszer volt (nem tévesztendő össze a WBFS fájlokkal) - ma már elavult, és nem szabad használni.
+Ha fenti problémákat, vagy megmagyarázhatatlan hibákat tapasztalsz a flash drive-oddal, használj USB merevlemezt vagy SD kártyát helyette.
 
 :::
 
@@ -72,22 +70,32 @@ A bolti 4.0 vagy magasabb verziószámú Wii Menu verziók esetében ez a korlá
 
 :::
 
-::: warning
+::: info
 
-Az USB-eszközök esetében a pendrive-ok nagy arányban nem működnek a Wii konzolokon. Ehelyett ajánlott USB-s merevlemezt vagy SSD-meghajtót használni.
+A Wii bármilyen kapacítású SD kártyát tud olvasni (még a 32GB-nál nagyobbakat is), de a kártyának [FAT32/MS-DOS-ra kell formázva lennie](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**nem** exFAT vagy NTFS).
+
+Az USB eszközökhoz is a FAT32/MSDOS az ajánlott, habár érdemes figyelemünkben tartani a FAT32 korlátozásait, ami maximum 2TB méretű köteteket és 4GB méretű fájlokat tesz lehetővé. A WBFS korábban a Wii-játékok biztonsági mentéséhez használt fájlrendszer volt (nem tévesztendő össze a WBFS fájlokkal) - ma már elavult, és nem szabad használni.
 
 :::
 
-### Általános tárolási irányelvek
+::: info
 
-Amikor SD-kártya vagy USB-eszköz vásárlását vagy használatát fontolgatod, érdemes átgondolnod, hogy mire fogod használni a tárolóeszközt. A különböző felhasználási módok különböző mennyiségű helyet foglalhatnak el, az alábbiakban néhány gyakori példát mutatunk be:
+A [BlueBomb](bluebomb), [str2hax](str2hax), vagy [FlashHax](flashhax) exploitok esetében nincs szükséged SD-kártyára a Wii feltöréséhez; a homebrew és egyéb feladatok elvégzéséhez mindenképpen ajánlott egyet beszerezni.
 
-- Wii biztonsági mentések: A legnagyobb Wii-játékok (kétrétegű DVD) akár 8,5 GB-os méretűek is lehetnek, a szokásosabb játékok inkább a 4,7 GB-os vagy annál kisebb mérethez állnak közelebb. Az átlagos felhasználó egy Wii biztonsági másolatot készítő eszköz esetében valószínűleg 128 Gb vagy annál nagyobb tárhelyet szeretne.
-- GameCube biztonsági mentések: A legnagyobb GameCube-játékok mérete eléri az 1,3 Gb-ot. Az ISO-méretek általában a játéktól függetlenül ekkora méretűek, de lényegesen kisebbek lehetnek, ha helyette NKIT formátumot használnak. Az átlagos felhasználó egy GameCube biztonsági mentést készítő eszköz esetében valószínűleg 64 Gb vagy annál nagyobb tárhelyet szeretne.
-- Általános emuláció: A Wii-n sokféle emulátor áll rendelkezésre. Mivel a különböző játék ROM-ok mérete drámaian eltérő, az átlagos felhasználónak, aki játékokat szeretne emulálni, valószínűleg 32 GB vagy annál nagyobb tárhelyre lenne szüksége.
-- Általános homebrew: A homebrew-hoz az átlagos felhasználónak 2 Gb vagy annál nagyobb tárhelyre van szüksége.
-- NAND biztonsági mentések: A BootMii-vel történő NAND biztonsági mentéshez az átlagos felhasználónak legalább 512 MB szabad helyre van szüksége, de 1 GB vagy annál nagyobb méret ajánlott.
-- Puszta minimum, csak exploit: Az SD-kártyával kompatibilis exploit futtatásához a Wii-n legalább 128 MB hely szükséges.
+:::
+
+### Tárhely ajánlások
+
+Amikor SD-kártya vagy USB-eszköz vásárlását vagy használatát fontolgatod, érdemes átgondolnod, hogy mire fogod használni a tárolóeszközt. A tervezet felhasználásod alapján a méret javaslatok alább láthatók:
+
+|  Eszköz használat  |                         Ajánlott tárolóhely                        |
+| :----------------: | :----------------------------------------------------------------: |
+|    Csak exploit    |                               128 MB                               |
+|    NAND mentések   | Minimum: 512 MB<br>Ajánlott: 1 GB+ |
+| Homebrew használat |                                2 GB+                               |
+| Emuláció használat |                               32 GB+                               |
+|  GameCube mentések |                               64 GB+                               |
+|    Wii mentések    |                               128 GB+                              |
 
 ### SD kártyák vásárlása
 
@@ -97,15 +105,16 @@ Amikor SD-kártya vagy USB-eszköz vásárlását vagy használatát fontolgatod
 
 :::
 
-SD-kártyák vásárlásakor általában ajánlott, hogy minél drágább és nagyobb kapacitású, annál inkább ragaszkodjon a jól ismert márkákhoz. Míg egy általános 2 GB-os SD-kártyát vásárolhatsz, és valószínűleg biztonságban vagy, ugyanez nem mondható el egy 512 GB-os SD-kártyáról. Az SD-kártyák általános jelenlegi árazása a 256 GB-os és az alatti kártyák esetében 10-20 USD körül van, míg az 512 GB-os kártyák ára 40 USD körül van. Ha az Amazonról vásárolsz, győződj meg róla, hogy a kártya vagy `Sold by/Shipped by Amazon` vagy `Sold by [brand], Shipped by Amazon`. Légy óvatos, ha az eBay-en vásárolsz merevlemezt.
+SD-kártyák vásárlásakor általában ajánlott, hogy minél drágább és nagyobb kapacitású, annál inkább ragaszkodjon a jól ismert márkákhoz. Míg egy általános 2 GB-os SD-kártyát vásárolhatsz, és valószínűleg biztonságban vagy, ugyanez nem mondható el egy 512 GB-os SD-kártyáról. Az SD-kártyák általános jelenlegi árazása a 256 GB-os és az alatti kártyák esetében 10-35 USD körül van, míg az 512 GB-os kártyák ára 60 USD körül van. Ha az Amazonról vásárolsz, győződj meg róla, hogy a kártya vagy `Sold by/Shipped by Amazon` vagy `Sold by [brand], Shipped by Amazon`. Légy óvatos, ha az eBay-en vásárolsz merevlemezt.
 
-Ajánlott márkák:
+Az általunk ajánlott márkák:
 
-- Samsung (EVO Select, EVO Plus, PRO Plus)
-- SanDisk (Extreme, Ultra, stb.)
-- Lexar (E-Series, Professional)
-- Silicon Power ("3D NAND" kártyák, a nagyobb kapacitás általában jobb érték)
-- PNY (Elite, Elite-X, stb.)
+- [Samsung](https://www.amazon.com/stores/page/99A645D0-BE70-4DF8-A0C5-CDED2FA59DE9) (EVO Select, EVO Plus, PRO Plus)
+- [SanDisk](https://www.amazon.com/stores/page/6187A5D4-11BE-4006-8AFB-6EC233258034) (Extreme, Ultra, stb.)
+- [Lexar](https://www.amazon.com/stores/page/B1E6F5A7-1459-4D06-8FDA-963327D1B00C) (E-Series, Professional)
+- [Silicon Power](https://www.amazon.com/stores/page/A2CCB3CD-8C18-46EC-8497-5A3FE2E3FC1D) (3D NAND, Elite)
+- [PNY](https://www.amazon.com/stores/page/9F7889F9-FA53-4078-BA65-08F7F8104CF6) (Elite, Elite-X, stb)
+- [INLAND a Micro Center-től](https://www.amazon.com/stores/page/B43B257E-9D36-4368-B7E2-A4095BD5384B)
 
 ### USB eszközök - merevelemezek vásárlása
 
