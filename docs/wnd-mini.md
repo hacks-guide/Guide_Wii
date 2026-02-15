@@ -55,9 +55,9 @@ The `WiiFlash_n_ECC.img` is your NAND image. The other two files are "error" dat
 
 1. Launch xyzzy mod from the Homebrew Channel.
 1. Select `USB device`
-    + It should start retrieving your console information.
+    * It should start retrieving your console information.
 1. When it is done, press any button to exit.
-    + You will have 5 new files on your USB:
+    * You will have 5 new files on your USB:
 
     ```
     bootmii_keys.bin
@@ -68,7 +68,6 @@ The `WiiFlash_n_ECC.img` is your NAND image. The other two files are "error" dat
     ```
 
 For now, only the `bootmii_keys.bin` file is required.
-
 
 ### Section IV - Optional: Upload your NAND to Dolphin Emulator
 

@@ -14,7 +14,7 @@ Wii mode on Wii U has a slightly different exploitation process, and will not la
 
 If you have a Wii or Wii mini that is already softmodded and you would like to update your setup, follow [this](hackmii) guide to launch the HackMii installer from the Homebrew Channel, or Priiloader.
 
-## Identify your console revision:
+## Identify your console revision
 
 <!--@include: @/_include/identify-console.html -->
 

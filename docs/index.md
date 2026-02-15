@@ -20,21 +20,21 @@ Please thoroughly read the introductory pages before proceeding.
 
 Common examples of homebrew usage on the Wii include:
 
-+ [Backing up](bootmii) and [restoring](bootmiirecover) your Wii's NAND (system memory)
-+ [Patching game discs](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
-+ Installing [themes](themes) on the Wii Menu and in commonly used homebrew apps
-+ Backing up your [discs](dump-games) and [other installed titles](dump-wads)
-+ Installing a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
-+ Restoring online functionality to the Wii for both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](nintendowfc)
-+ and more!
+* [Backing up](bootmii) and [restoring](bootmiirecover) your Wii's NAND (system memory)
+* [Patching game discs](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
+* Installing [themes](themes) on the Wii Menu and in commonly used homebrew apps
+* Backing up your [discs](dump-games) and [other installed titles](dump-wads)
+* Installing a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
+* Restoring online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](nintendowfc)
+* and more!
 
 ## What does this guide do?
 
 With certain variations depending on the path you take, this guide has the end goal of:
 
-+ Exploiting your Wii and installing the Homebrew Channel
-+ Putting safeguards in place to help prevent bricks
-+ Optionally installing other homebrew that can enhance your experience
+* Exploiting your Wii and installing the Homebrew Channel
+* Putting safeguards in place to help prevent bricks
+* Installing other homebrew that can enhance your experience, should you choose
 
 ## Ready to start?
 

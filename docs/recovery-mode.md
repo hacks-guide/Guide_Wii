@@ -1,13 +1,13 @@
 # Recovery Mode
 
-Recovery Mode is a last resort method for recovering your Wii console from a brick before resorting to hard-modding and manual NAND programming. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc. 
+Recovery Mode is a last resort method for recovering your Wii console from a brick before resorting to hard-modding and manual NAND programming. This mode was accessed by Nintendo employees in the factory by the usage of a special dongle, but the input needed to access it can easily be replicated with a GameCube controller. Essentially, Recovery Mode puts a Wii Menu in a state where programs can be executed from a disc.
 
 ## How Recovery Mode Works
 
 On System Menu versions 2.1 and upwards, booting into Recovery Mode will yield a version number display on the bottom right of the screen, and will idle on the screen while waiting for a disc to be inserted. By default, Recovery Mode only boots two types of discs:
 
-+ A disc whose title ID starts with a number like 0 or 1 - an autoboot disc. All retail game discs are **not** an autoboot disc and instead start with a letter. 
-+ A retail game disc that has a valid update partition whose version is higher than the one on the NAND.
+* A disc whose title ID starts with a number like 0 or 1 - an autoboot disc. All retail game discs are **not** an autoboot disc and instead start with a letter.
+* A retail game disc that has a valid update partition whose version is higher than the one on the NAND.
 
 This check can be bypassed using Priiloader, which allows Recovery Mode to boot any disc that is inserted into the Wii. Unfortunately, if you can already access Priiloader, then there is no need to use Recovery Mode in the first place as you can fix your brick by booting homebrew apps in it. With this said, if you are in a situation where the only accessible option is using Recovery Mode, you must have a drivechip on hand to bypass the disc check. If are able to bypass this check one way or another, you may follow the instructions below to start from Recovery Mode and get to the HackMii installer.
 

@@ -73,27 +73,27 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![](/images/riiconnect24/Internet_12.png)
 
-    + If the connection test was successful, select `No` to skip the Wii System Update.
-    + If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
-    + If it is still unsuccessful, please [use another exploit](get-started).
+    * If the connection test was successful, select `No` to skip the Wii System Update.
+    * If it fails with error code `521xx`, please verify that you have entered the DNS correctly.
+    * If it is still unsuccessful, please [use another exploit](get-started).
 
 ### Section II - Triggering the Exploit
 
 1. Navigate to `Internet` -> `User Agreements` or `Agreement/Contact`.
 1. Select `Yes`.
-1. Click on `Next`. 
-    + You should be greeted with the following screen:
+1. Click on `Next`.
+    * You should be greeted with the following screen:
 
     ![](/images/exploits/str2hax/EULA.png)
 
-    + If you get the normal User Agreements, your ISP blocks the use of custom DNS. Try another connection, or [use another exploit](get-started).
+    * If you get the normal User Agreements, your ISP blocks the use of custom DNS. Try another connection, or [use another exploit](get-started).
 
 1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
 
     ![](/images/hackmii/scam.png)
 
-    + If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+    * If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
 
 ---
 

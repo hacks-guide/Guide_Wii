@@ -670,7 +670,7 @@ const themeConfig = {
 
 export default {
 	lang: "ko",
-	label: "한국어",
+	label: "🇰🇷 한국어",
     title: localeData.title,
     description: localeData.description,
     themeConfig: themeConfig

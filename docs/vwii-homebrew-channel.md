@@ -61,8 +61,8 @@ If you DO NOT have [PayloadLoader installed](https://wiiu.hacks.guide/aroma/inst
     ![](/images/vwii/exploit/browser-exploit.png)
 
 1. Click on `Run Exploit!` and hold the X button until you see the EnvironmentLoader. Once you are inside the EnvironmentLoader, select `aroma` to launch the Aroma environment.
-    + If your Wii U gets stuck on a white or otherwise frozen screen, wait a few seconds. If nothing happens, reboot the console, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again.
-    + If you see a `Please choose your payload` screen, you should try again and ensure that you are holding `X` long enough. Do not hold the `B` button.
+    * If your Wii U gets stuck on a white or otherwise frozen screen, wait a few seconds. If nothing happens, reboot the console, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again.
+    * If you see a `Please choose your payload` screen, you should try again and ensure that you are holding `X` long enough. Do not hold the `B` button.
 
     ![](/images/vwii/exploit/environment-loader.png)
 
@@ -82,7 +82,7 @@ On Step 3, if the HOME button doesn't work, or causes you to freeze on a solid c
 
 :::
 
-1. Launch the vWii Compat Installer app from the Wii U Menu. 
+1. Launch the vWii Compat Installer app from the Wii U Menu.
 
     ![](/images/vwii/exploit/compat-install-launch.png)
 

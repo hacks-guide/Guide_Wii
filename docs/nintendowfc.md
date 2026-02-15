@@ -20,8 +20,8 @@ A method for WiiLink WFC patching which runs on retail disc games, but must be m
 #### Instructions
 
 1. Simply extract the `apps` folder in this archive to the root of your SD card or USB drive.
-2. Insert your SD Card into your Wii, and launch WiiLink WFC Patcher from the Homebrew Channel.
-3. Insert the game disc (if it is not already inserted), wait for the patch to complete, and the game should start.
+1. Insert your SD Card into your Wii, and launch WiiLink WFC Patcher from the Homebrew Channel.
+1. Insert the game disc (if it is not already inserted), wait for the patch to complete, and the game should start.
 
 :::
 
@@ -225,9 +225,9 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 
 1. Download the patcher and extract the `.zip` file.
 1. Open the extracted folder and copy your Wii game images into it.
-    + If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
-    + If you're on macOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
-    + If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
+    * If you're on Windows, double-click the `patch-images.bat` file (this may also be displayed as "patch-images" Batch File). If you run into Cygwin-related issues, try the `patch-images-32.bat` file instead.
+    * If you're on macOS, open a command line prompt in the current folder, make the shell script executable through the command `chmod +x *.sh` and then execute `./patch-images.sh`.
+    * If you're on Linux, double-click the `patch-images.desktop` file (this may also be displayed as "Patch Images") or execute the `./patch-images.sh` file in a terminal after making it executable through the command `chmod +x *.sh`.
 1. If the above was successful, you should see a window pop-up that displays the patching process. Once the process finishes, you will find the patched images in a folder called `wiimmfi-images`.
 
 :::

@@ -110,9 +110,9 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
     ![](/images/desktop-apps/TWBM/twbm-win-empty.png)
   
 1. Click the :heavy_plus_sign: button on the top right of the app to add one or more games.
-    + Click the :file_folder: button to add games from a specific directory.
-    + You may also drag and drop games from your file manager to add them.
-    + If a transfer is already in progress when adding new games, they will be added to a queue.
+    * Click the :file_folder: button to add games from a specific directory.
+    * You may also drag and drop games from your file manager to add them.
+    * If a transfer is already in progress when adding new games, they will be added to a queue.
 
     ![](/images/desktop-apps/TWBM/twbm-win-games.png)
 
@@ -163,9 +163,9 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
     ![](/images/desktop-apps/TWBM/twbm-mac-empty.png)
   
 1. Click the :heavy_plus_sign: button on the top right of the app to add one or more games.
-    + Click the :file_folder: button to add games from a specific directory.
-    + You may also drag and drop games from your file manager to add them.
-    + If a transfer is already in progress when adding new games, they will be added to a queue.
+    * Click the :file_folder: button to add games from a specific directory.
+    * You may also drag and drop games from your file manager to add them.
+    * If a transfer is already in progress when adding new games, they will be added to a queue.
 
     ![](/images/desktop-apps/TWBM/twbm-mac-games.png)
 
@@ -182,7 +182,7 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 * A PC running Linux that supports AppImage or Flatpak
 * A USB drive or SD card
 * A dumped Wii/GameCube game disc (any format)
-* [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest) 
+* [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
 
 #### Instructions
 
@@ -211,7 +211,6 @@ TinyWiiBackupManager can be installed from the Flathub repository as a Flatpak, 
 
 1. Launch TinyWiiBackupManager.
 
-
 ##### Section II - Copying Games
 
 ::: tip
@@ -226,9 +225,9 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
     ![](/images/desktop-apps/TWBM/twbm-linux-empty.png)
 
 1. Click the :heavy_plus_sign: button on the top right of the app to add one or more games.
-    + Click the :file_folder: button to add games from a specific directory.
-    + You may also drag and drop games from your file manager to add them. Please note that this feature is not currently available on Wayland.
-    + If a transfer is already in progress when adding new games, they will be added to a queue.
+    * Click the :file_folder: button to add games from a specific directory.
+    * You may also drag and drop games from your file manager to add them. Please note that this feature is not currently available on Wayland.
+    * If a transfer is already in progress when adding new games, they will be added to a queue.
 
     ![](/images/desktop-apps/TWBM/twbm-linux-games.png)
 

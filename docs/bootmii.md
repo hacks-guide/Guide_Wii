@@ -42,29 +42,29 @@ Please read the below information before proceeding further.
 
     ![](/images/bootmii/BootMii_HBC.png)
 
-2. You should see an image similar to the below now on your screen:
+1. You should see an image similar to the below now on your screen:
 
     ![](/images/bootmii/BootMii_Main.png)
 
-3. Select the Options button (the icon with the gears).
+1. Select the Options button (the icon with the gears).
 
     ![](/images/bootmii/BootMii_Gears.png)
 
-4. Select the first button to the left.
+1. Select the first button to the left.
 
     ![](/images/bootmii/BootMii_Backup.png)
 
-5. A NAND backup will start. You can watch the progress on the screen.
-    + "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup.
+1. A NAND backup will start. You can watch the progress on the screen.
+    * "Bad Blocks" are normal, and mostly originate from the factory due to NAND binning. Don't worry when you see some on a NAND backup.
 
     ![](/images/bootmii/BootMii_NAND_Backup.png)
 
-6. After the previous step completes, BootMii will verify the backup. Ideally, all the blocks should be green after the verification process.
-    + If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long as all non-bad blocks are successfully verified, this should be fine.
+1. After the previous step completes, BootMii will verify the backup. Ideally, all the blocks should be green after the verification process.
+    * If you have factory bad blocks with uncorrectable pages, these blocks may fail to verify. As long as all non-bad blocks are successfully verified, this should be fine.
 
     ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
-7. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
+1. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
 
     ![](/images/bootmii/BootMii_Return.png)
 

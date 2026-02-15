@@ -1,7 +1,16 @@
+---
+outline: false
+---
+
+# Homebrew Channel and BootMii Installation
+
+<br>
+
 ::::: tabs
 
 :::: tab Wii
-# Homebrew Channel and BootMii Installation
+
+## Homebrew Channel and BootMii Installation for Wii
 
 This guide instructs you on how to install the Homebrew Channel and BootMii. The Homebrew Channel is where you will go to launch homebrew applications, and BootMii allows you to create and restore backups of your Wii's NAND storage.
 
@@ -26,7 +35,7 @@ Please note that if you install Bootmii as boot2, your disc drive will flash ver
 ## Instructions
 
 1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
-    + You will see a scam warning screen.
+    * You will see a scam warning screen.
 
     ![](/images/hackmii/scam.png)
 
@@ -76,14 +85,14 @@ Note: When installing homebrew applications on your SD Card or USB drive, your f
 ```
 💾 SD Card or USB Drive
 | ╸📁 apps
-	| ╸📁 AppName1
-		| ╸📄 boot.dol
-		| ╸📄 meta.xml
-		| ╸📄 icon.png
-	| ╸📁 AppName2
-		| ╸📄 boot.dol
-		| ╸📄 meta.xml
-		| ╸📄 icon.png
+    | ╸📁 AppName1
+        | ╸📄 boot.dol
+        | ╸📄 meta.xml
+        | ╸📄 icon.png
+    | ╸📁 AppName2
+        | ╸📄 boot.dol
+        | ╸📄 meta.xml
+        | ╸📄 icon.png
 ```
 
 `AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
@@ -102,7 +111,7 @@ Making a NAND backup at this point is highly recommended, as they can be used to
 
 :::: tab Wii mini
 
-# Homebrew Channel
+## Homebrew Channel Installation for Wii mini
 
 This guide instructs you on how to install the Homebrew Channel, which is where you will go to launch homebrew applications.
 
@@ -112,10 +121,10 @@ While it is possible to install BootMii on a Wii mini, you will need to solder a
 
 :::
 
-## Instructions
+### Instructions
 
 1. Your console should be powered on and showing the HackMii Installer from the previous part of the guide.
-    + You will see a scam warning screen.
+    * You will see a scam warning screen.
 
     ![](/images/hackmii/scam.png)
 
@@ -147,14 +156,14 @@ Note: When installing homebrew applications on your USB drive, your folder struc
 ```
 💾 USB Drive
 | ╸📁 apps
-	| ╸📁 AppName1
-		| ╸📄 boot.dol
-		| ╸📄 meta.xml
-		| ╸📄 icon.png
-	| ╸📁 AppName2
-		| ╸📄 boot.dol
-		| ╸📄 meta.xml
-		| ╸📄 icon.png
+    | ╸📁 AppName1
+        | ╸📄 boot.dol
+        | ╸📄 meta.xml
+        | ╸📄 icon.png
+    | ╸📁 AppName2
+        | ╸📄 boot.dol
+        | ╸📄 meta.xml
+        | ╸📄 icon.png
 ```
 
 `AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.

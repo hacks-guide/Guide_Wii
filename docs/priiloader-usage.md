@@ -8,7 +8,7 @@ This page documents some of the useful features of Priiloader that may be of int
 
 ## System Menu Hacks
 
-Priiloader has a large selection of options that, once enabled, change the behaviour of the Wii to one of your choice. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Additionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
+Priiloader has a large selection of options that, once enabled, change the behaviour of the Wii to one of your choice. You can find more information on each hack on the [Priiloader hacks list](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Additionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
 
 ## Additional options
 
@@ -23,11 +23,12 @@ Priiloader allows you to automatically boot to the Homebrew Channel, an individu
 ::: warning
 
 If you would like to autoboot USB loader GX, do this first:
-  + Download the USB Loader GX forwarder WAD ([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
-  + Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
-  + Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
-  + Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
-  + Copy `uneoboot.dol` to the root of your SD card.
+
+* Download the USB Loader GX forwarder WAD ([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
+* Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
+* Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
+* Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
+* Copy `uneoboot.dol` to the root of your SD card.
 
 You will be installing `uneoboot.dol` in step 3.
 
@@ -72,7 +73,7 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
     ![](/images/priiloader/menu_settings.png)
 
 1. Press Right to cycle through the Autoboot options until your desired option is selected.
-    + Disabled` will autoboot to the Priiloader menu.
+    * Disabled` will autoboot to the Priiloader menu.
 
     ::: warning
 

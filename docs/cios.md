@@ -8,7 +8,7 @@ cIOS, or custom IOS, are patched and modified versions of certain IOS (or simply
 
 ::::: tabs
 
-:::: tab cIOS for Wii/Family Edition
+:::: tab Wii/Family Edition
 
 ::: danger
 
@@ -58,15 +58,16 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
     ![](/images/desktop-apps/nusget/nusget-ios-output.png)
 1. Place each WAD file on the root of your SD card or USB drive.
-    + This must be the same device containing the d2x cIOS Installer.
+    * This must be the same device containing the d2x cIOS Installer.
 1. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer:
 
-    | IOS         | File Name               |
-    | :---------: | :---------------------: |
-    | IOS 38      | IOS38-64-v4123.wad      |
-    | IOS 56      | IOS56-64-v5661.wad      |
-    | IOS 57      | IOS57-64-v5918.wad      |
-    | IOS 58      | IOS58-64-v6175.wad      |
+    |  IOS   |     File Name      |
+    | :----: | :----------------: |
+    | IOS 38 | IOS38-64-v4123.wad |
+    | IOS 56 | IOS56-64-v5661.wad |
+    | IOS 57 | IOS57-64-v5918.wad |
+    | IOS 58 | IOS58-64-v6175.wad |
+
 ::: info
 
 The WAD files should be on your SD card like this:
@@ -100,27 +101,27 @@ The WAD files should be on your SD card like this:
     :::
 
     ::: info
-    
+
     The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
 
     :::
 
     ::: info
-    
+
     If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
 
     (If you are trying to exit the installer, the button is B, not Home.)
 
     :::
-    
+
 1. Press `A`. This will bring you to the slot map:
 
     ![](/images/cios/d2x_summary.png)
-    
+
 1. Press `A` again.
 
     ![](/images/cios/d2x_installation.png)
-    
+
 1. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
 
     ![](/images/cios/d2x_log.png)
@@ -136,7 +137,7 @@ The WAD files should be on your SD card like this:
 1. Press `A`. This will return you to the configuration screen.
 1. Repeat the previous 5 steps with the following configurations:
 
-    + cIOS 249 Installation
+    * cIOS 249 Installation
 
         ```
         Select cIOS <d2x-v11-beta3>
@@ -147,7 +148,7 @@ The WAD files should be on your SD card like this:
 
         ![](/images/cios/d2x_v11_249.png)
 
-    + cIOS 250 Installation
+    * cIOS 250 Installation
 
         ```
         Select cIOS <d2x-v11-beta3>
@@ -158,7 +159,7 @@ The WAD files should be on your SD card like this:
 
         ![](/images/cios/d2x_v11_250.png)
 
-    + cIOS 251 Installation
+    * cIOS 251 Installation
 
         ```
         Select cIOS <d2x-v11-beta3>
@@ -189,7 +190,7 @@ Now that your Wii has adequate brick protection, you can install the Open Shop C
 
 ::::
 
-:::: tab cIOS for vWii (Wii U)
+:::: tab vWii (Wii U)
 
 ::: danger
 
@@ -237,11 +238,11 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 1. Press `A` to install.
 
     ![](/images/cios/d2x_installation.png)
-    
+
 1. Repeat the previous 2 steps with the following configurations:
 
-    + cIOS 249 Installation
-    
+    * cIOS 249 Installation
+
         ```
         Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <56>
@@ -250,7 +251,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
     ![](/images/cios/d2x_v11_249_vwii.png)
 
-    + cIOS 250 Installation
+    * cIOS 250 Installation
 
         ```
         Select cIOS <d2x-v11-beta3-vWii>
@@ -260,7 +261,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
         ![](/images/cios/d2x_v11_250_vwii.png)
 
-    + cIOS 251 Installation
+    * cIOS 251 Installation
 
         ```
         Select cIOS <d2x-v11-beta3-vWii>
@@ -284,7 +285,7 @@ Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proce
 
 ::::
 
-:::: tab cIOS for Wii mini
+:::: tab Wii mini
 
 ::: danger
 
@@ -326,6 +327,7 @@ If you need assistance with this tutorial, please join [the Wii mini Hacking Dis
 
 1. Select `Continue`.
 1. Set the options to the following:
+
     ```
     Select cIOS <d2xl-v1-beta2>
     Select cIOS base <57>
@@ -334,10 +336,10 @@ If you need assistance with this tutorial, please join [the Wii mini Hacking Dis
 
     ![](/images/cios/d2x_v1_249_mini_NTSC.png)
     ![](/images/cios/d2x_v1_249_mini_PAL.png)
-   
-    + Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
+
+    * Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
 1. Press A to install.
-    + If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
+    * If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
 1. When the process is complete, exit the installer.
 
 ---

@@ -8,10 +8,10 @@ This marks the end of the required section of the main guide. You do not have to
 
 Going forward, the remainder of the guide will show the following to get the most out of your Wii:
 
-+ Utilizing the Open Shop Channel to obtain homebrew applications
-+ Restoring WiiConnect24 functionality with WiiLink
-+ Restoring the ability to play online with Wiimmfi
-+ Providing a list of recommended homebrew to try out
+* Utilizing the Open Shop Channel to obtain homebrew applications
+* Restoring WiiConnect24 functionality with WiiLink
+* Restoring the ability to play online with Wiimmfi
+* Providing a list of recommended homebrew to try out
 
 :::
 
@@ -25,12 +25,12 @@ The [Open Shop Channel](https://oscwii.org/) is a homebrew app repository create
 
 There are two methods to use the Open Shop Channel:
 
-+ On the Wii itself, utilizing one of the following homebrew apps:
-    + LibreShop (preferred)
-    + Homebrew Browser (fallback)
-+ On your computer, utilizing one of the following applications:
-    + TinyWiiBackupManager (preferred)
-    + OSCDL (fallback)
+* On the Wii itself, utilizing one of the following homebrew apps:
+    * LibreShop (preferred)
+    * Homebrew Browser (fallback)
+* On your computer, utilizing one of the following applications:
+    * TinyWiiBackupManager (preferred)
+    * OSCDL (fallback)
 
 ## Method I - Open Shop Channel on Wii
 

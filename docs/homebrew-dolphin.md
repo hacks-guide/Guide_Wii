@@ -26,7 +26,7 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
 
 ## Post-Installation, installing Homebrew Apps through Open Shop Channel
 
-1. Download the Open Shop Channel [here](https://oscwii.org/library/app/homebrew_browser) for usage in Dolphin. Alternatively, you can get OSCDL and do this process manually.
+1. Download the Open Shop Channel [on the OSC website](https://oscwii.org/library/app/homebrew_browser) for usage in Dolphin. Alternatively, you can get OSCDL and do this process manually.
 1. Stop the emulation (if running), and open the `Config > Wii` window in Dolphin Emulator.
 1. Enable `Automatically Sync with Folder`. Optionally, you may also want to adjust the `SD Card File Size` to a larger parameter - however in most cases `Auto` should be fine.
 1. Open the `SD Sync Folder`. On Windows, this can easily be done by pasting the folder path into the Start Menu, Windows Explorer, or Run.
