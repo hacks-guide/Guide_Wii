@@ -29,13 +29,17 @@ npm ci
 npm run docs:dev
 ```
 
-The website should now be running on <http://127.0.0.1:5173/> (or a port shown on the terminal).
+> [!TIP]
+> If you choose to run multiple web servers at once, they will begin running at the next highest usable port (e.g. :5174, :5175, and so on).
 
-If you choose to run multiple web servers at once, they will begin running at the next highest usable port (e.g. :5174, :5175, and so on).
+The website should now be running on <http://127.0.0.1:5173/> (or whatever port is shown on the terminal).
 
 ## Markdown Styling
 
-When making contributions to the guide, it is optimal to be aware of the project's preferred Markdown formatting, so that documentation formatting can be consistent.
+> [!IMPORTANT]
+> When contributing to the project, try to keep your Markdown in line with the below described styling rules. This helps keep documentation consistent and clean.
+>
+> This is especially important if you are planning to make significant edits or create a new guide page.
 
 ### Headings
 
@@ -72,5 +76,5 @@ When making contributions to the guide, it is optimal to be aware of the project
 
 ### Tables
 
-* Tables should be created with leading and trailing pipes.
+* Tables should be created with leading and trailing pipes `|`.
 * Tables should be constructed in an aligned style whenever possible.
