@@ -33,8 +33,16 @@ In some cases, the RTC clock on your Wii may be desynced, causing errors when tr
 1. Insert your SD card or USB drive into your Wii.
 1. Launch the Homebrew Channel on your Wii.
 1. Launch sntp.
-1. Use the +Control Pad to select the current time.
+
+    ![](/images/wiiconnect24/sntp/sntp-hbc.png)
+
+1. Use the left and right arrows on the +Control Pad to select the time zone that matches your current time, then press the A button to write it to your system configuration.
+
+    ![](/images/wiiconnect24/sntp/sntp-time-select.png)
+
 1. Press the HOME Button to exit.
+
+    ![](/images/wiiconnect24/sntp/sntp-success.png)
 
 ::::
 
@@ -50,13 +58,28 @@ In some cases, the RTC clock on your Wii may be desynced, causing errors when tr
 ### Instructions
 
 1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
+
+    ![](/images/wiiconnect24/priiloader/patch-generate.png)
+
 1. Select generate and copy the information.
+
+    ![](/images/wiiconnect24/priiloader/patch-copy.png)
+
 1. On your SD Card, navigate to `SD:/apps/priiloader` and open `hacks_hash.ini` with a text editor such as notepad.
+
+    ![](/images/wiiconnect24/priiloader/hacks-ini.png)
+
 1. Paste the patch at the bottom of the `hacks_hash.ini` and save the changes.
+
+    ![](/images/wiiconnect24/priiloader/hacks-ini-edit.png)
+
 1. Repeat Steps 1-4 with a new time offset if your location participates in daylight savings time.
 1. Insert your SD card into your Wii U.
 1. [Boot Priiloader](priiloader#section-iii---entering-priiloader) on the vWii.
 1. Select `System Menu Hacks`, and ensure that the Fix NWC24iSetUniversalTime hack is enabled.
+
+    ![](/images/wiiconnect24/priiloader/select-patch.png)
+
 1. Return to the vWii menu.
 
 ::::
