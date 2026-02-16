@@ -64,7 +64,7 @@ We also have additional content on the [hacks.guide wiki](https://wiki.hacks.gui
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Click here to join the Nintendo Homebrew discord server for support and more.](https://discord.gg/C29hYvh)
 
 :::
 
@@ -72,6 +72,6 @@ We also have additional content on the [hacks.guide wiki](https://wiki.hacks.gui
 
 ::: tip
 
-[Click here to join the Nintendo Homebrew discord server for support and more.](https://discord.gg/C29hYvh)
+[Click here to go back to the site index.](site-navigation)
 
 :::
