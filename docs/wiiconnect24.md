@@ -6,29 +6,28 @@ Although not at all necessary, it is a "nice to have" feature that was originall
 These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Channel, some Japan-exclusive channels, and more.
 -->
 
-[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather and news, send messages to friends, participate in Mii contests, and more. WiiConnect24 was discontinued on June 27th, 2013.
+[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather and news, send messages to friends, participate in Mii contests, and more. WiiConnect24 was discontinued on June 27th, 2013. Although discontinued, there is a reverse-engineered service that you can connect to which restores this functionality, described below.
 
 ## WiiLink
 
-[WiiLink](https://www.wiilink24.com/) is a revival service for WiiConnect24 that allows you to regain and expand its functionality on your console.
-As of late 2023, the service merged with revival project RiiConnect24, and today is just operated under the name WiiLink.
+[WiiLink](https://www.wiilink24.com/) is a revival service for WiiConnect24 that allows you to regain and expand its functionality on your console. WiiLink hosts a patcher for the services that it provides, ranging from international channels such as the News Channel to regional exclusives such as Wii Room. The guide on how to install these services, as well as the patcher, can be found [on WiiLink's website.](https://www.wiilink24.com/guide/)
 
-WiiLink hosts a patcher for the services that it provides, ranging from international channels such as the News Channel to regional exclusives such as Wii Room.
-The guide on how to install these services, as well as the patcher, can be found [on WiiLink's website.](https://www.wiilink24.com/guide/)
-
-<!-- move this back to another page? or no -->
 ## Updating RTC Clock
 
-### Wii
+In some cases, the RTC clock on your Wii may be desynced, causing errors when trying to connect to WiiConnect24 services, or other general online services on the Wii. In the event that you are receiving connection errors like FORE000006, you may use the below instructions to re-sync your Wii's internal RTC clock with the Internet.
 
-#### What you need
+::::: tabs
 
-* A working Internet connection on your Wii
+:::: tab Wii
+
+### Requirements
+
+* A Wii with an active Internet connection
 * The Homebrew Channel
 * An SD card or USB drive
 * [sntp](https://oscwii.org/library/app/sntp)
 
-#### Instructions
+### Instructions
 
 1. Download and extract the sntp zip to the root of your SD card or USB drive.
 1. Insert your SD card or USB drive into your Wii.
@@ -37,15 +36,18 @@ The guide on how to install these services, as well as the patcher, can be found
 1. Use the +Control Pad to select the current time.
 1. Press the HOME Button to exit.
 
-### vWii
+::::
 
-#### What you need
+:::: tab Wii U (vWii)
 
+### Requirements
+
+* An exploited vWii environment
 * The Homebrew Channel
 * An SD card
 * [Priiloader](priiloader)
 
-#### Instructions
+### Instructions
 
 1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
 1. Select generate and copy the information.
@@ -57,6 +59,10 @@ The guide on how to install these services, as well as the patcher, can be found
 1. Select `System Menu Hacks`, and ensure that the Fix NWC24iSetUniversalTime hack is enabled.
 1. Return to the vWii menu.
 
+::::
+
+:::::
+
 ## Wiiconnect24 Priiloader Hacks (vWii and Wii mini)
 
 ::: info
@@ -65,7 +71,7 @@ On vWii, the [Permanent vWii System Settings](https://dacotaco.github.io/priiloa
 
 :::
 
-Some Priiloader hacks need to be enabled on vWii and the Wii mini to allow proper WiiConnect24 functionality. In `System Menu Hacks`, enable the following options according to your console:
+If you are using vWii or a Wii mini, some Priiloader hacks need to be enabled to allow proper WiiConnect24 functionality. In `System Menu Hacks`, enable the following options according to your console:
 
 | Console Type | Priiloader Options |
 | -------------| -------------------|

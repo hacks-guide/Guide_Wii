@@ -1,10 +1,10 @@
 # Nintendo Wi-Fi Connection
 
-Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. This service was discontinued in 2013, but there are reverse-engineered servers that you can connect to which restore this functionality. This guide provides details on two trusted services, WiiLink WFC and Wiimmfi.
+Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. This service was discontinued in 2013, but there are reverse-engineered servers that you can connect to which restore this functionality. This guide provides details on two trusted services, WiiLink WFC and Wiimmfi - for most users, we recommend Wiimmfi for their larger userbase (especially with Mario Kart Wii).
 
 ## WiiLink WFC
 
-WiiLink WFC is an alternative, open-source service created by WiiLink that restores online play, with less support and less players than Wiimmfi (listed below). In some cases, WiiLink WFC support may already be built into a game mod - such as with Mario Kart Retro Rewind. Instructions on how to use WiiLink WFC are listed below, or can alternatively be found [on the WiiLink WFC setup page](https://wfc.wiilink24.com/setup).
+WiiLink WFC is an open-source service created by the WiiLink team that restores online play, with less support and less players than Wiimmfi (listed below). In some cases, WiiLink WFC server code may already be utilized in a game mod - such as with Mario Kart Retro Rewind. Instructions on how to use WiiLink WFC are listed below, or can alternatively be found [on the WiiLink WFC setup page](https://wfc.wiilink24.com/setup).
 
 ### Automatic Disc Patching via Homebrew Channel
 
@@ -35,7 +35,7 @@ See [the Wiimmfi patcher update page](https://wiimmfi.de/update) for an explanat
 
 :::
 
-Wiimmfi is a service created and maintained by Wiimm and Leseratte, which restores online play to a significant amount of games that support this functionality on the Wii. A list of games with currently online players can be found on the [Wiimmfi status page](https://wiimmfi.de/stat?m=8). In some cases, Wiimmfi support may already be built into a game mod - such as with CTGP-R. Instructions on how to use Wiimmfi are listed below, or can alternatively be found [on the Wiimmfi patcher page](https://wiimmfi.de/patcher/).
+Wiimmfi is a closed-source service created and maintained by Wiimm and Leseratte, which restores online play to a significant amount of games that support this functionality on the Wii. A list of games with currently online players can be found on the [Wiimmfi status page](https://wiimmfi.de/stat?m=8). In some cases, Wiimmfi support may already be built into a game mod - such as with CTGP-R. Instructions on how to use Wiimmfi are listed below, or can alternatively be found [on the Wiimmfi patcher page](https://wiimmfi.de/patcher/).
 
 ### Automatic Disc Patching via Priiloader
 
