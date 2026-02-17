@@ -89,3 +89,19 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 
 1. Press `B` to return to the main menu.
 1. Scroll back up to `System Menu` and press A.
+
+---
+
+::: tip
+
+[Click here to return to the main Priiloader guide.](priiloader)
+
+:::
+
+---
+
+::: tip
+
+[Click here to go back to the site index.](site-navigation)
+
+:::

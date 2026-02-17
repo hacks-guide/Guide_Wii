@@ -122,6 +122,8 @@ Note: When installing Wii homebrew applications on your SD Card or USB drive, yo
 
 Please note that the `apps` folder inside of the `wiiu` folder (for Wii U homebrew apps) and the `apps` folder on the root of the SD card (for Wii homebrew apps) are distinct.
 
+---
+
 ::: tip
 
 Continue to [Installing Priiloader](priiloader)

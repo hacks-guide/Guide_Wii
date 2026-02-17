@@ -182,6 +182,8 @@ To change the cIOS used for a specific game, follow the instructions specific to
     * Try using 248, 249, 250 or 251.
 1. Press Save and try to load the game.
 
+---
+
 ::: tip
 
 [Click here to go back to the site index.](site-navigation)
