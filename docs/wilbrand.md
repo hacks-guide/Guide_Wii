@@ -73,6 +73,8 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+
 :::
 
 ::::
@@ -141,6 +143,8 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 ::: tip
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::
 

@@ -20,7 +20,7 @@ Please thoroughly read the introductory pages before proceeding.
 
 Common examples of homebrew usage on the Wii include:
 
-* [Backing up](bootmii) and [restoring](bootmiirecover) your Wii's NAND (system memory)
+* [Backing up](nand-backup) and [restoring](bootmiirecover) your Wii's NAND (system memory)
 * [Patching game discs](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
 * Installing [themes](themes) on the Wii Menu and in commonly used homebrew apps
 * Backing up your [discs](dump-games) and [other installed titles](dump-wads)
