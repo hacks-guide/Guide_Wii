@@ -10,7 +10,7 @@ These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Ch
 
 ## WiiLink
 
-[WiiLink](https://www.wiilink24.com/) is a revival service for WiiConnect24 that allows you to regain and expand its functionality on your console. WiiLink hosts a patcher for the services that it provides, ranging from international channels such as the News Channel to regional exclusives such as Wii Room. The guide on how to install these services, as well as the patcher, can be found [on WiiLink's website.](https://www.wiilink24.com/guide/)
+[WiiLink](https://www.wiilink.ca/) is a revival service for WiiConnect24 that allows you to regain and expand its functionality on your console. WiiLink hosts a patcher for the services that it provides, ranging from international channels such as the News Channel to regional exclusives such as Wii Room. The guide on how to install these services, as well as the patcher, can be found [on WiiLink's website.](https://www.wiilink.ca/guide/)
 
 ## Updating RTC Clock
 
@@ -101,7 +101,39 @@ If you are using vWii or a Wii mini, some Priiloader hacks need to be enabled to
 | vWii         | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li><br><li>[Permanent vWii System Settings](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)</li><br><li>[Fix NWC24iSetUniversalTime](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)</li></ul> |
 | Wii mini     | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li></ul> |
 
-In addition, if you are on the Wii U, please ensure that you install [WiiVCLaunch](https://github.com/Lynx64/WiiVCLaunch/releases) to ensure that your system settings are not overwritten when you run Wii Virtual Console games in the Wii U menu.
+## WiiVCLaunch (vWii)
+
+If you are on the Wii U, please ensure that you install WiiVCLaunch to ensure that your system settings are not overwritten when you run Wii Virtual Console games in the Wii U menu.
+
+### Requirements
+
+* An exploited Wii U with the Aroma Environment
+* An SD card
+* [WiiVCLaunch](https://github.com/Lynx64/WiiVCLaunch/releases)
+
+### Instructions
+
+1. Power off your console, and insert your SD card into your PC.
+1. Go to the GitHub link above, and download the `WiiVCLaunch.wps` file.
+
+    ![](/images/wiiconnect24/wiivclaunch/wps-download.png)
+
+1. Copy the `WiiVCLaunch.wps` file to your SD card in the `/wiiu/environments/aroma/plugins` directory.
+
+    ![](/images/wiiconnect24/wiivclaunch/wps-directory.png)
+
+1. Insert the SD card into your Wii U and boot it into the Aroma Environment.
+1. Hit the `L` + `+DPAD Down` + `- Minus` combination on your Gamepad/Pro Controller/Classic Controller, or the `B` + `+Control Pad Down` + `- Minus` combination on your Wii Remote to open the Wii U Plugin System Config Menu. Find the `Wii VC Launch` menu option and press `A`.
+
+    ![](/images/wiiconnect24/wiivclaunch/aroma-config-menu.png)
+
+1. Find the `Other settings` menu option and press `A`.
+
+    ![](/images/wiiconnect24/wiivclaunch/wiivc-config-menu.png)
+
+1. Ensure that the `Preserve SYSCONF on Wii VC title launch` option is set to `true`. Once this is finished, you may exit the config menu by pressing `B` until you are at the Wii U menu.
+
+    ![](/images/wiiconnect24/wiivclaunch/wiivc-sysconf-config.png)
 
 ---
 

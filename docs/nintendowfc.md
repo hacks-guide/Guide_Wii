@@ -4,7 +4,7 @@ Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, 
 
 ## WiiLink WFC
 
-WiiLink WFC is an open-source service created by the WiiLink team that restores online play, with less support and less players than Wiimmfi (listed below). In some cases, WiiLink WFC server code may already be utilized in a game mod - such as with Mario Kart Retro Rewind. Instructions on how to use WiiLink WFC are listed below, or can alternatively be found [on the WiiLink WFC setup page](https://wfc.wiilink24.com/setup).
+WiiLink WFC is an open-source service created by the WiiLink team that restores online play, with less support and less players than Wiimmfi (listed below). In some cases, WiiLink WFC server code may already be utilized in a game mod - such as with Mario Kart Retro Rewind. Instructions on how to use WiiLink WFC are listed below, or can alternatively be found [on the WiiLink WFC setup page](https://wfc.wiilink.ca/setup).
 
 ### Automatic Disc Patching via Homebrew Channel
 

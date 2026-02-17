@@ -164,7 +164,7 @@ Unfortunately, because of the codebase difference between the original WiiFlow a
 ### Instructions
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
-1. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
+1. Unpack the `.zip` file's contents into the `/apps/usbloader_gx` directory on the storage device where you installed USB Loader GX.
 1. Put the storage medium in your Wii and boot it up.
 1. Start USB Loader GX, go to the `Settings` menu, and then go to `Theme Menu`.
 1. Open the theme and install it.
