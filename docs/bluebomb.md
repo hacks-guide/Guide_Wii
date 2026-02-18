@@ -241,7 +241,7 @@ BlueMii utilizes another Wii to upload an exploit to the Wii via Bluetooth.
 ### Requirements
 
 * A secondary Wii, Wii U (vWii), or Wii mini to use to upload an exploit to the target Wii
-* A USB flash drive to load the HackMii installer onto, [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+* A USB flash drive OR SD card to load the HackMii installer onto, [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 * A second USB flash drive OR SD card to load BlueMii onto the exploiting Wii
 * [BlueMii](https://github.com/Zarithya/BlueMii/releases/tag/v1.1)
 * [The HackMii Installer](https://bootmii.org/download/)
@@ -250,13 +250,13 @@ BlueMii utilizes another Wii to upload an exploit to the Wii via Bluetooth.
 
 #### Section I - Preparing Target Console
 
-1. Copy `boot.elf` from the `hackmii_installer_v1.2.zip` to the root of the flash drive that will be used on the target console.
+1. Copy `boot.elf` from the `hackmii_installer_v1.2.zip` to the root of the USB drive or SD card that will be used on the target console.
     * (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
     * (Even for a Wii mini, bootmini.elf will **not** work, its purpose is entirely different and unrelated. Use boot.elf in all cases).
 
     ![](/images/exploits/bluebomb/usb-exploit.png)
 
-1. Reinsert your flash drive into the target console.
+1. Reinsert your USB drive or SD card into the target console.
     * For a Wii mini, the USB port is on the back.
     * For a normal Wii, use the bottom port (or the right port if it's upright).
 1. Power on the target console.
@@ -281,7 +281,7 @@ BlueMii utilizes another Wii to upload an exploit to the Wii via Bluetooth.
 
     ![](/images/exploits/bluebomb/bluemii-region.png)
 
-#### Section II - Performing the Exploit
+#### Section III - Performing the Exploit
 
 1. Power on the target console.
     * **Do not** connect any Wii Remotes.
