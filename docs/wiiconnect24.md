@@ -86,7 +86,7 @@ In some cases, the RTC clock on your Wii may be desynced, causing errors when tr
 
 :::::
 
-## Wiiconnect24 Priiloader Hacks (vWii and Wii mini)
+## WiiConnect24 Priiloader Hacks (vWii and Wii mini)
 
 ::: info
 
