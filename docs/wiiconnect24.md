@@ -6,7 +6,7 @@ Although not at all necessary, it is a "nice to have" feature that was originall
 These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Channel, some Japan-exclusive channels, and more.
 -->
 
-[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather and news, send messages to friends, participate in Mii contests, and more. WiiConnect24 was discontinued on June 27th, 2013. Although discontinued, there is a revival service that you can connect to which restores this functionality called WiiLink.
+[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather and news, send messages to friends, participate in Mii contests, and more. WiiConnect24 was discontinued on June 27th, 2013. Although discontinued, there is a third party service that you can connect to which restores this functionality known as WiiLink.
 
 ## WiiLink
 
