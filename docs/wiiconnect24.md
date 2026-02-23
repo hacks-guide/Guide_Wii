@@ -10,7 +10,7 @@ These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Ch
 
 ## WiiLink
 
-[WiiLink](https://www.wiilink.ca/) is a revival service for WiiConnect24 that allows you to regain and expand its functionality on your console. WiiLink hosts a patcher for the services that it provides. They offer international channels such as the Forecast and News Channel, as well as region exclusive channels such as Wii Room. The guide on how to install these services, as well as the patcher, can be found [on WiiLink's website.](https://www.wiilink.ca/guide/)
+[WiiLink](https://www.wiilink.ca/) is a third party service for WiiConnect24 that allows you to regain and expand its functionality on your console. WiiLink hosts a patcher for the services that it provides. They offer international channels such as the Forecast and News Channel, as well as channels that were originally region exclusives such as Wii Room. The guide on how to install these services, as well as the patcher, can be found [on WiiLink's website.](https://www.wiilink.ca/guide/)
 
 ## Updating RTC Clock
 
