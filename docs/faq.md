@@ -80,7 +80,7 @@ For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD car
 
 The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**not** exFAT or NTFS).
 
-For USB devices, FAT32/MS-DOS is also recommended. However users should be aware of FAT32 limitations which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS was a previously used filesystem type for Wii game backups (not to be confused with WBFS files). Today, it is outdated and should not be used.
+For USB devices, FAT32/MS-DOS is also recommended. However, users should be aware of FAT32 limitations, which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS was a previously used filesystem type for Wii game backups (not to be confused with WBFS files). Today, it is outdated and should not be used.
 
 :::
 
