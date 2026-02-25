@@ -13,7 +13,7 @@ The complete guide to modding your Wii, vWii, and Wii mini.
 
 This requires the following installed on your system:
 
-* node.js
+* [node.js](https://nodejs.org/en)
 
 To test the website locally, clone the source code:
 
