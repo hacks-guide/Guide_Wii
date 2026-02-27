@@ -22,7 +22,7 @@ If you own a Wii mini, most users will want to select **nanddumper@ios**. If you
 
 :::
 
-::: details Uploading NAND Backup to Dolphin Emulator
+::: details Importing NAND Backup to Dolphin Emulator
 
 Your NAND backup can be utilized in Dolphin Emulator, if you choose to do so.
 
