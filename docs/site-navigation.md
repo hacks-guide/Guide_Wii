@@ -39,11 +39,11 @@
 
 **Modding 101 - Wii Essentials**
 
-* [BootMii Backup](bootmii)
 * [BootMii Recovery](bootmiirecover)
 * [Brick Overview](bricks)
 * [Brick Prevention](bricks#brick-prevention)
 * [cIOS](cios)
+* [Creating a NAND Backup (Wii)](nand-backup)
 * [Homebrew Channel](hbc)
 * [ModMii](modmii)
 * [Open Shop Channel](osc)
@@ -78,9 +78,9 @@
 
 **vWii**
 
-* [Creating a NAND dump of the Wii U](wiiu-nand-dumper)
+* [Creating a NAND Backup (Wii U)](wiiu-nand-dumper)
+* [Finalizing Setup (Wii U)](vwii-finalizing-setup)
 * [Installing the Homebrew Channel on vWii](vwii-homebrew-channel)
-* [Finalizing Setup — vWii](vwii-finalizing-setup)
 
 :::
 
@@ -88,7 +88,6 @@
 
 **Wii mini**
 
-* [Wii mini NAND Dumper](wnd-mini)
-* [Finalizing Setup — Wii mini](mini-finalizing-setup)
+* [Finalizing Setup (Wii mini)](mini-finalizing-setup)
 
 :::

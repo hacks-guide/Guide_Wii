@@ -43,7 +43,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 ## Requirements
 
 * A Wii with BootMii as IOS or BootMii as boot2 installed
-* An earlier NAND Backup for your specific Wii made by [BootMii](bootmii)
+* An earlier NAND Backup for your specific Wii made by [BootMii OR nanddumper@ios](nand-backup)
 
 ## Instructions
 

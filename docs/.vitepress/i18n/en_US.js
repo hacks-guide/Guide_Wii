@@ -48,7 +48,15 @@ const themeConfig = {
 					{ text: localeData.pages["key-information"], link:`/key-information` },
 					{ text: localeData.pages["get-started"], link: `/get-started` },
 					{ text: localeData.pages["bluebomb" ], link: `/bluebomb` },
-					{ text: localeData.pages["multiple-options"] }
+					{ text: localeData.pages["hbc"], link: `/hbc` },
+					{ text: localeData.pages["nand-backup"], link: `/nand-backup` },
+					{ text: localeData.pages["priiloader"], link: `/priiloader` },
+					{ text: localeData.pages["cios"], link: `/cios` },
+					{ text: localeData.pages["multiple-options"] },
+					{ text: localeData.pages["osc"], link: `/osc` },
+					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` },
+					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` }
 				]
 			},
 			sidebar_common
@@ -61,27 +69,8 @@ const themeConfig = {
 					{ text: localeData.pages["get-started"], link: `/get-started` },
 					{ text: localeData.pages["multiple-options"] },
 					{ text: localeData.pages["hbc"], link: `/hbc` },
-					{ text: localeData.pages["bootmii"], link: `/bootmii` },
+					{ text: localeData.pages["nand-backup"], link: `/nand-backup` },
 					{ text: localeData.pages["bootmiirecover"], link: `/bootmiirecover` },
-				]
-			},
-			sidebar_common
-		],
-		[`/bootmii`]: [
-			{
-				text: localeData.guide,
-				items: [
-					{ text: localeData.pages["key-information"], link:`/key-information` },
-					{ text: localeData.pages["get-started"], link: `/get-started` },
-					{ text: localeData.pages["multiple-options"] },
-					{ text: localeData.pages["hbc"], link: `/hbc` },
-					{ text: localeData.pages["bootmii"], link: `/bootmii` },
-					{ text: localeData.pages["priiloader"], link: `/priiloader` },
-					{ text: localeData.pages["cios"], link: `/cios` },
-					{ text: localeData.pages["osc"], link: `/osc` },
-					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` },
-					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` }
 				]
 			},
 			sidebar_common
@@ -143,11 +132,12 @@ const themeConfig = {
 				items: [
 					{ text: localeData.pages["key-information"], link:`/key-information` },
 					{ text: localeData.pages["get-started"], link: `/get-started` },
-					{ text: localeData.pages["flashhax"], link: `/flashhax` },
+					{ text: localeData.pages["flashhax" ], link: `/flashhax` },
 					{ text: localeData.pages["hbc"], link: `/hbc` },
-					{ text: localeData.pages["bootmii"], link: `/bootmii` },
+					{ text: localeData.pages["nand-backup"], link: `/nand-backup` },
 					{ text: localeData.pages["priiloader"], link: `/priiloader` },
 					{ text: localeData.pages["cios"], link: `/cios` },
+					{ text: localeData.pages["multiple-options"] },
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
 					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` },
@@ -162,15 +152,16 @@ const themeConfig = {
 				items: [
 					{ text: localeData.pages["key-information"], link:`/key-information` },
 					{ text: localeData.pages["get-started"], link: `/get-started` },
-					{ text: localeData.pages["hackmii"], link: `/hackmii` },
+					{ text: localeData.pages["hackmii" ], link: `/hackmii` },
 					{ text: localeData.pages["hbc"], link: `/hbc` },
-					{ text: localeData.pages["bootmii"], link: `/bootmii` },
+					{ text: localeData.pages["nand-backup"], link: `/nand-backup` },
 					{ text: localeData.pages["priiloader"], link: `/priiloader` },
 					{ text: localeData.pages["cios"], link: `/cios` },
+					{ text: localeData.pages["multiple-options"] },
 					{ text: localeData.pages["osc"], link: `/osc` },
-					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` }
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` },
+					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` }
 				]
 			},
 			sidebar_common
@@ -183,7 +174,14 @@ const themeConfig = {
 					{ text: localeData.pages["get-started"], link: `/get-started` },
 					{ text: localeData.pages["multiple-options"] },
 					{ text: localeData.pages["hbc"], link: `/hbc` },
+					{ text: localeData.pages["nand-backup"], link: `/nand-backup` },
+					{ text: localeData.pages["priiloader"], link: `/priiloader` },
+					{ text: localeData.pages["cios"], link: `/cios` },
 					{ text: localeData.pages["multiple-options"] },
+					{ text: localeData.pages["osc"], link: `/osc` },
+					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` },
+					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` }
 				]
 			},
 			sidebar_common
@@ -227,11 +225,12 @@ const themeConfig = {
 				items: [
 					{ text: localeData.pages["key-information"], link:`/key-information` },
 					{ text: localeData.pages["get-started"], link: `/get-started` },
-					{ text: localeData.pages["letterbomb"], link: `/letterbomb` },
+					{ text: localeData.pages["letterbomb" ], link: `/letterbomb` },
 					{ text: localeData.pages["hbc"], link: `/hbc` },
-					{ text: localeData.pages["bootmii"], link: `/bootmii` },
+					{ text: localeData.pages["nand-backup"], link: `/nand-backup` },
 					{ text: localeData.pages["priiloader"], link: `/priiloader` },
 					{ text: localeData.pages["cios"], link: `/cios` },
+					{ text: localeData.pages["multiple-options"] },
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
 					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` },
@@ -248,7 +247,7 @@ const themeConfig = {
 					{ text: localeData.pages["get-started"], link: `/get-started` },
 					{ text: localeData.pages["bluebomb" ], link: `/bluebomb` },
 					{ text: localeData.pages["hbc" ], link: `/hbc` },
-					{ text: localeData.pages["wnd-mini"], link: `/wnd-mini` },
+					{ text: localeData.pages["nand-backup"], link: `/nand-backup` },
 					{ text: localeData.pages["priiloader"], link: `/priiloader` },
 					{ text: localeData.pages["cios"], link: `/cios` },
 					{ text: localeData.pages["mini-finalizing-setup"], link: `/mini-finalizing-setup` },
@@ -267,6 +266,26 @@ const themeConfig = {
 					{ text: localeData.pages["key-information"], link:`/key-information` },
 					{ text: localeData.pages["get-started"], link: `/get-started` },
 					{ text: localeData.pages["modmii"], link: `/modmii` },
+				]
+			},
+			sidebar_common
+		],
+		[`/nand-backup`]: [
+			{
+				text: localeData.guide,
+				items: [
+					{ text: localeData.pages["key-information"], link:`/key-information` },
+					{ text: localeData.pages["get-started"], link: `/get-started` },
+					{ text: localeData.pages["multiple-options"] },
+					{ text: localeData.pages["hbc"], link: `/hbc` },
+					{ text: localeData.pages["nand-backup"], link: `/nand-backup` },
+					{ text: localeData.pages["priiloader"], link: `/priiloader` },
+					{ text: localeData.pages["cios"], link: `/cios` },
+					{ text: localeData.pages["multiple-options"] },
+					{ text: localeData.pages["osc"], link: `/osc` },
+					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
+					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` },
+					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` }
 				]
 			},
 			sidebar_common
@@ -355,11 +374,12 @@ const themeConfig = {
 				items: [
 					{ text: localeData.pages["key-information"], link:`/key-information` },
 					{ text: localeData.pages["get-started"], link: `/get-started` },
-					{ text: localeData.pages["str2hax"], link: `/str2hax` },
+					{ text: localeData.pages["str2hax" ], link: `/str2hax` },
 					{ text: localeData.pages["hbc"], link: `/hbc` },
-					{ text: localeData.pages["bootmii"], link: `/bootmii` },
+					{ text: localeData.pages["nand-backup"], link: `/nand-backup` },
 					{ text: localeData.pages["priiloader"], link: `/priiloader` },
 					{ text: localeData.pages["cios"], link: `/cios` },
+					{ text: localeData.pages["multiple-options"] },
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
 					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` },
@@ -533,31 +553,12 @@ const themeConfig = {
 				items: [
 					{ text: localeData.pages["key-information"], link:`/key-information` },
 					{ text: localeData.pages["get-started"], link: `/get-started` },
-					{ text: localeData.pages["wilbrand"], link: `/wilbrand` },
+					{ text: localeData.pages["wilbrand" ], link: `/wilbrand` },
 					{ text: localeData.pages["hbc"], link: `/hbc` },
-					{ text: localeData.pages["bootmii"], link: `/bootmii` },
+					{ text: localeData.pages["nand-backup"], link: `/nand-backup` },
 					{ text: localeData.pages["priiloader"], link: `/priiloader` },
 					{ text: localeData.pages["cios"], link: `/cios` },
-					{ text: localeData.pages["osc"], link: `/osc` },
-					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
-					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` },
-					{ text: localeData.pages["recommended-homebrew"], link: `/recommended-homebrew` }
-				]
-			},
-			sidebar_common
-		],
-		[`/wnd-mini`]: [
-			{
-				text: localeData.guide,
-				items: [
-					{ text: localeData.pages["key-information"], link:`/key-information` },
-					{ text: localeData.pages["get-started"], link: `/get-started` },
-					{ text: localeData.pages["bluebomb" ], link: `/bluebomb` },
-					{ text: localeData.pages["hbc" ], link: `/hbc` },
-					{ text: localeData.pages["wnd-mini"], link: `/wnd-mini` },
-					{ text: localeData.pages["priiloader"], link: `/priiloader` },
-					{ text: localeData.pages["cios"], link: `/cios` },
-					{ text: localeData.pages["mini-finalizing-setup"], link: `/mini-finalizing-setup` },
+					{ text: localeData.pages["multiple-options"] },
 					{ text: localeData.pages["osc"], link: `/osc` },
 					{ text: localeData.pages["wiiconnect24"], link: `/wiiconnect24` },
 					{ text: localeData.pages["nintendowfc"], link: `/nintendowfc` },
