@@ -106,7 +106,7 @@ You can now use the Homebrew Channel to launch Wii homebrew apps.
 Note: When installing Wii homebrew applications on your SD Card or USB drive, your folder structure should look like this:
 
 ```shell
-💾 SD card
+💾 SD Card
  ┗ 📁 apps
    ┣ 📁 <AppName1>
    ┃ ┣ 📄 boot.dol
