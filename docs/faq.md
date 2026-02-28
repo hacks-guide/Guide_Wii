@@ -22,7 +22,7 @@ In order to check what the error means, please visit the [Wiimmfi error page](ht
 
 #### Error 051330/51330
 
-Run an Internet connection test by going to `Wii Settings > Internet > Connection settings > Connection > Test this connection`
+Run an Internet connection test by going to `Wii Settings` > `Internet` > `Connection settings` > `Connection` > `Test this connection`
 
 #### Error 220602
 

@@ -108,7 +108,7 @@ A method for Wiimmfi patching which runs on retail game discs automatically thro
 
 #### Instructions
 
-1. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
+1. Go to `Wii Settings` > `Internet` > `Connection Settings` and select whatever connection you are using. Then, `Change Settings` > `Auto-Obtain DNS NO` > `Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
 1. Let the connection test finish, and do not perform a Wii System Update.
 1. Launch your game through the Disc Channel - it should now be patched with Wiimmfi.
 
