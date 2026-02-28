@@ -82,7 +82,7 @@ You can now use the Homebrew Channel to launch homebrew apps, as well as BootMii
 
 Note: When installing homebrew applications on your SD Card or USB drive, your folder structure should look like this:
 
-```
+```shell
 💾 SD Card or USB Drive
 | ╸📁 apps
     | ╸📁 AppName1
@@ -153,7 +153,7 @@ You can now use the Homebrew Channel to launch homebrew apps.
 
 Note: When installing homebrew applications on your USB drive, your folder structure should look like this:
 
-```
+```shell
 💾 USB Drive
 | ╸📁 apps
     | ╸📁 AppName1

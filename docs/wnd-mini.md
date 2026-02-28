@@ -43,7 +43,7 @@ There is no way to restore your NAND backup this way without a hardmod.
 1. It should automatically detect IOS 236 on your Wii mini and apply some runtime patches to begin dumping your NAND.
 1. When it is done, you will have 3 new files on your USB:
 
-```
+```shell
 WiiFlash_n_ECC.img
 WFD_XXX_YY.img
 WiiFlash.log
@@ -59,7 +59,7 @@ The `WiiFlash_n_ECC.img` is your NAND image. The other two files are "error" dat
 1. When it is done, press any button to exit.
     * You will have 5 new files on your USB:
 
-    ```
+    ```shell
     bootmii_keys.bin
     device.cert
     keys.txt

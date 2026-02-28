@@ -17,14 +17,14 @@ This requires the following installed on your system:
 
 To test the website locally, clone the source code:
 
-```sh
+```shell
 git clone https://github.com/hacks-guide/Guide_Wii --recurse-submodules
 cd Guide_Wii
 ```
 
 Then simply run the following commands:
 
-```sh
+```shell
 npm ci
 npm run docs:dev
 ```
