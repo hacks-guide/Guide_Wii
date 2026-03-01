@@ -8,7 +8,7 @@ This page documents some of the useful features of Priiloader that may be of int
 
 ## System Menu Hacks
 
-Priiloader has a large selection of options that, once enabled, change the behaviour of the Wii to one of your choice. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Additionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
+Priiloader has a large selection of options that, once enabled, change the behaviour of the Wii to one of your choice. You can find more information on each hack on the [Priiloader hacks list](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Additionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
 
 ## Additional options
 
@@ -97,3 +97,19 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 6. Press `B` to return to the main menu.
 
 7. Scroll back up to `System Menu` and press A.
+
+---
+
+::: tip
+
+[Click here to return to the main Priiloader guide.](priiloader)
+
+:::
+
+---
+
+::: tip
+
+[Click here to go back to the site index.](site-navigation)
+
+:::

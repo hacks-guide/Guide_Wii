@@ -1,16 +1,20 @@
 # 开始
 
-If your Wii is already softmodded and you would like to update the softmods, follow [this](hackmii) guide to upgrade your setup.
-
-所有漏洞都能运行 HackMii Installer，并且有相同的最终结果。
-
 ::: info
 
-尽管您可以在没有SD卡的情况下遵循本指南， 但是您将无法使用 BootMii创建或恢复NAND 备份，并且您将无法使用一些自制程序。
+It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and take advantage of more homebrew.
 
 :::
 
-## Identify your console revision:
+The exploits listed for the Wii and Wii mini will bring you to the HackMii installer. The HackMii installer will install the Homebrew Channel (used for lauching homebrew) as well as BootMii (used for creating and restoring NAND backups), depending on your console.
+
+Wii mode on Wii U has a slightly different exploitation process, and will not launch the HackMii installer. Instead, you will exploit Wii mode through the Wii U menu and proceed as instructed.
+
+## Is your Wii already softmodded?
+
+If you have a Wii or Wii mini that is already softmodded and you would like to update your setup, follow [this](hackmii) guide to launch the HackMii installer from the Homebrew Channel, or Priiloader.
+
+## Identify your console revision
 
 <!--@include: @/_include/identify-console.html -->
 

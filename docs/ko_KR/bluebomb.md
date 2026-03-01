@@ -4,41 +4,29 @@ outline: false
 
 # BlueBomb
 
+BlueBomb은 Wii 및 Wii 미니의 블루투스 라이브러리에 있는 결함을 악용하는 익스플로잇입니다. 블루밤은 Wii 미니에서 작동하는 유일한 익스플로잇이지만, 오리지널 Wii에서도 실행할 수 있습니다.
+
+This exploit also enables recovery from certain bricks in the event of no other brick protection, such as banner bricks and (some) theme bricks.
+
+Please read the listed important information before proceeding.
+
 ::::: tabs
 
 :::: tabs BlueBomb 클래식
 
 ## BlueBomb 클래식
 
-:::details 기술 세부사항 (선택 사항)
+:::details Important Information
 
-BlueBomb은 Wii 및 Wii 미니의 블루투스 라이브러리에 있는 결함을 악용하는 익스플로잇입니다. 블루밤은 Wii 미니에서 작동하는 유일한 익스플로잇이지만, 오리지널 Wii에서도 실행할 수 있습니다.
-
-이 익스플로잇은 배너 벽돌 및 (일부) 테마 벽돌과 같은 특정 벽돌에서의 복구도 가능하게 합니다.
-
-:::
-
-::: warning
-
-Wii 미니 콘솔을 해킹하는데 **어떤** 비디오 가이드도 사용하지 말 것을 **강력히** 권장합니다. **벽돌화** 될 확률이 매우 높기 때문입니다.
+- If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
+- If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. 그러나 벽돌 회수와 같은 상황에서는 예외도 있습니다.
+- 콘솔이 익스플로잇을 실행하는 컴퓨터 가까이에 있는지 확인하세요. 이상적으로는 약 90cm 이내에 있어야 합니다.
 
 :::
 
-::: info
+::: danger
 
-이 자습서와 관련하여 도움이 필요하면 [Wii 미니 해킹 디스코드 서버](https://discord.gg/6ryxnkS)에 가입하세요 (추천)
-
-:::
-
-::: info
-
-Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에 접근하는 훨씬 더 쉬운 방법이 있으므로 [사용할 수 있는 다른 익스플로잇](get-started)을 찾아야 할 것입니다. 그러나 벽돌 회수와 같은 상황에서는 예외도 있습니다.
-
-:::
-
-::: info
-
-콘솔이 익스플로잇을 실행하는 컴퓨터 가까이에 있는지 확인하세요. 이상적으로는 약 90cm 이내에 있어야 합니다.
+It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
 
 :::
 
@@ -46,19 +34,25 @@ Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에
 
 - 리눅스 머신
   - 가상 머신을 사용할 수도 있지만, 블루투스 패스스루를 구현하는 과정이 복잡하기 때문에 권장하지 않습니다. 가능하면 아래 설명된 대로 LiveUSB를 사용해 주세요.
+
   - 라즈베리 파이가 있다면, 리눅스가 이미 설치되어 있을 가능성이 높으므로 그것을 대신 사용할 수 있습니다.
+
     - ARM64 Raspberry Pi's need multiarch enabled with the armhf (32bit) architecture added. 다음은 모든 데비안 기반 운영체제에서 작동해야 합니다:
-    ```bash
+
+    ```shell
     sudo sudo dpkg --add-architecture armhf
     sudo apt update && sudo apt install -y screen:armhf
     file /usr/bin/screen # ELF 32-bit라고 표시되어야 함
     screen
     ```
+
   - 리눅스용 윈도우 하위 시스템이나 리눅스 모드를 실행하는 크롬북은 블루투스 어댑터나 USB 포트에 직접 접근할 수 없으므로 작동하지 않습니다.
+
   - 리눅스가 없다면, [우분투](https://ubuntu.com/download/desktop)가 가장 사용하기 쉬운 옵션이며, 윈도우 또는 인텔 기반 맥에서 ​​실행할 수 있습니다.
     - 애플 실리콘 맥은 하드웨어에 ARM32 명령어 세트가 없기 때문에 작동하지 않습니다.
     - 32비트 장치에는 [우분투 16.04](http://releases.ubuntu.com/16.04/)가 필요합니다.
     - 64비트 장치의 경우 안정성 때문에 LTS 버전을 사용하는 것이 좋지만, 최신 버전도 문제없이 작동합니다.
+
   - 컴퓨터에 설치하는 대신 [USB 플래시 드라이브에 리눅스 라이브 환경을 플래싱](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) 할 수 있습니다.
 - 블루투스 어댑터
   - 내장 블루투스 어댑터가 작동합니다.
@@ -96,7 +90,7 @@ Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에
 
 8. 터미널을 열고 다음 명령을 실행합니다:
 
-   ```bash
+   ```shell
    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
    chmod +x bluebomb-helper.sh
    ./bluebomb-helper.sh
@@ -133,6 +127,8 @@ Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
+---
+
 ::: tip
 
 [Hackmii 설치 프로그램으로 계속 진행](hbc)
@@ -145,33 +141,18 @@ Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에
 
 ## BlueBomb 마이크로
 
-:::details 기술 세부사항 (선택 사항)
+:::details Important Information
 
-이 익스플로잇은 배너 벽돌 및 (일부) 테마 벽돌과 같은 특정 벽돌에서의 복원도 가능하게 합니다.
-
-:::
-
-::: warning
-
-Wii 미니 콘솔을 해킹하는데 **어떤** 비디오 가이드도 사용하지 말 것을 **강력히** 권장합니다. **벽돌화** 될 확률이 매우 높기 때문입니다.
+- If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
+- If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. 그러나 벽돌 회수와 같은 상황에서는 예외도 있습니다.
+- 콘솔이 익스플로잇을 실행하는 컴퓨터 가까이에 있는지 확인하세요. 이상적으로는 약 90cm 이내에 있어야 합니다.
+- `Exception 0700 occurred!` 또는 이와 유사한 오류가 발생하면 익스플로잇을 다시 시도하세요. 이런 문제가 지속되면 지원을 위해 [Wii 미니 해킹 디스코드 서버](https://discord.gg/6ryxnkS)에 가입하세요.
 
 :::
 
-::: info
+::: danger
 
-이 자습서와 관련하여 도움이 필요하면 [Wii 미니 해킹 디스코드 서버](https://discord.gg/6ryxnkS)에 가입하세요 (추천)
-
-:::
-
-::: info
-
-Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에 접근하는 훨씬 더 쉬운 방법이 있으므로 [사용할 수 있는 다른 익스플로잇](get-started)을 찾아야 할 것입니다. 그러나 벽돌 회수와 같은 상황에서는 예외도 있습니다.
-
-:::
-
-::: info
-
-익스플로잇을 실행하는 컴퓨터와 마이크로 컨트롤러가 가까이 있는지 확인하세요. 이상적으로는 약 60 cm 이내에 있어야 합니다.
+It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
 
 :::
 
@@ -253,11 +234,7 @@ Wii의 원래 개정판을 사용하고 있다면 HackMii 설치 프로그램에
 
    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
-::: tip
-
-`Exception 0700 occurred!` 또는 이와 유사한 오류가 발생하면 익스플로잇을 다시 시도하세요. 이런 문제가 지속되면 지원을 위해 [Wii 미니 해킹 디스코드 서버](https://discord.gg/6ryxnkS)에 가입하세요.
-
-:::
+---
 
 ::: tip
 

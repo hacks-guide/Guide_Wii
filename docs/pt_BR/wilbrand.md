@@ -1,12 +1,18 @@
 # WilBrand
 
-Wilbrand é um exploit para o Wii que é acionado usando o Wii Message Board. É compatível com as versões do menu do Wii 3.0 até 4.3 de todas as regiões.
+Wilbrand é um exploit para o Wii que é acionado usando o Wii Message Board. É compatível com as versões do menu do Wii 3.0 até 4.3 de todas as regiões. There are two methods listed on this page used to create the proper Wilbrand exploit, but Wilbrand Web is recommended for its ease of use.
 
 ::: info
 
-Existem dois métodos listados nesta página usados para criar o exploit adequado do Wilbrand
+For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). É altamente recomendável verificá-lo devido a problemas na formatação como FAT32.
 
-Wilbrand Web é recomendado pela sua facilidade de uso.
+SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
+
+:::
+
+::: warning
+
+DO NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Use o seu próprio!
 
 :::
 
@@ -20,12 +26,6 @@ Wilbrand Web é recomendado pela sua facilidade de uso.
 
 - Um cartão SD [formatado para FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - Um Wii pelo menos na versão 3.0
-
-::: warning
-
-SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
-
-:::
 
 ### Instruções
 
@@ -80,6 +80,8 @@ SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
     - Se seu Wii ficar preso em uma tela preta, desligue-o segurando o botão POWER, e então tente novamente.
     - Se você for enviado de volta para o Menu do Wii depois de abrir a carta, Certifique-se de que a trava de bloqueio do cartão SD esteja na posição desbloqueada.
 
+---
+
 ::: tip
 
 [Continue para a Instalação do Homebrew Channel e do BootMii)
@@ -99,12 +101,6 @@ SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
 - Um Wii pelo menos na versão 3.0
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii Installer v1.2](https://bootmii.org/download/)
-
-::: warning
-
-SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
-
-:::
 
 ### Instruções
 
@@ -167,6 +163,8 @@ SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
 16. If the exploit was successful, your device will have loaded the HackMii Installer.
     - Se seu Wii ficar preso em uma tela preta, desligue-o segurando o botão POWER, e então tente novamente.
     - Se você for enviado de volta para o Menu do Wii depois de abrir a carta, Certifique-se de que a trava de bloqueio do cartão SD esteja na posição desbloqueada.
+
+---
 
 ::: tip
 

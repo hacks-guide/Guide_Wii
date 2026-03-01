@@ -1,20 +1,34 @@
+---
+outline: false
+---
+
+# Installazione dell'Homebrew Channel e di BootMii
+
+<br>
+
 ::::: tabs
 
 :::: tab Wii
 
-# Installazione dell'Homebrew Channel e di BootMii
+## Homebrew Channel and BootMii Installation for Wii
 
-:::details Technical Details (optional)
-
-BootMii può essere installato in due modi: direttamente in una parte del bootloader del Wii chiamata boot2 e tramite un IOS. Nella maggior parte dei casi, l'installazione di BootMii come IOS dovrebbe andare bene purché venga anche installato <a href="priiloader">Priiloader</a>. In most cases, installing BootMii as IOS should be fine, as long as you also install [Priiloader](priiloader).
-
-:::
+This guide instructs you on how to install the Homebrew Channel and BootMii. The Homebrew Channel is where you will go to launch homebrew applications, and BootMii allows you to create and restore backups of your Wii's NAND storage.
 
 ::: warning
 
 Se non hai una scheda SD, non potrai né installare né utilizzare BootMii, indipendentemente da che sia installato come IOS o boot2.
 
 You can always [install it later](hackmii).
+
+:::
+
+:::details Disclaimer for BootMii with boot2
+
+BootMii can be installed in two ways: via IOS, or directly to a part of the Wii bootloader called boot2. If possible, it is urged to install as boot2 as it provides extended brick protection and can be loaded prior to most major brick errors, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer; all having been manufactured before 2009.
+
+In most cases, you will not be able to install BootMii under boot2. Installing BootMii as IOS will usually be good enough, as long as you also install [Priiloader](priiloader). If you DO have the option to install as boot2, you should install both boot2 and IOS as instructed below so that you can launch BootMii in ways other than starting the console.
+
+Please note that if you install Bootmii as boot2, your disc drive will flash very briefly after the immediate flash that happens when you press the POWER Button.
 
 :::
 
@@ -66,28 +80,28 @@ You can always [install it later](hackmii).
 
     ![](/images/hbc/blank.png)
 
-## Leggere attentamente
+### Leggere attentamente
 
 Ora puoi usare l'Homebrew Channel per avviare app homebrew e BootMii per fare il backup e ripristino della tua NAND se sei stato in grado di installarlo.
 
 Nota: Quando installi applicazioni homebrew nella tua scheda SD o unità USB, la struttura delle cartelle dovrebbe essere così:
 
-```
-💾 SD Card or USB Drive
+```shell
+💾 Scheda SD o unità USB
 | ╸📁 apps
-	| ╸📁 AppName1
-		| ╸📄 boot.dol
-		| ╸📄 meta.xml
-		| ╸📄 icon.png
-	| ╸📁 AppName2
-		| ╸📄 boot.dol
-		| ╸📄 meta.xml
-		| ╸📄 icon.png
+    | ╸📁 NomeApp1
+        | ╸📄 boot.dol
+        | ╸📄 meta.xml
+        | ╸📄 icon.png
+    | ╸📁 NomeApp2
+        | ╸📄 boot.dol
+        | ╸📄 meta.xml
+        | ╸📄 icon.png
 ```
 
 `AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
 
-### Wii: I passaggi successivi
+---
 
 ::: tip
 
@@ -97,22 +111,13 @@ Making a NAND backup at this point is highly recommended, as they can be used to
 
 :::
 
-::: tip
-
-Suggerimento: Se un Wii ha BootMii installato come boot2, il lettore dei dischi lampeggia molto brevemente dopo il flash immediato quando premi il pulsante POWER.
-
-:::
 ::::
 
 :::: tab Wii mini
 
-# Homebrew Channel
+## Homebrew Channel Installation for Wii mini
 
-:::details Technical Details (optional)
-
-L'Homebrew Channel è dove andrai ad avviare applicazioni homebrew.
-
-:::
+This guide instructs you on how to install the Homebrew Channel, which is where you will go to launch homebrew applications.
 
 ::: warning
 
@@ -120,7 +125,7 @@ Anche se è possibile installare BootMii su un Wii mini, è necessaria la saldat
 
 :::
 
-## Istruzioni
+### Istruzioni
 
 1. La console dovrebbe essere accesa e dovrebbe mostrare l'HackMii Installer dalla parte precedente della guida.
 
@@ -148,30 +153,28 @@ Anche se è possibile installare BootMii su un Wii mini, è necessaria la saldat
 
    ![](/images/hbc/blank.png)
 
-## Leggere attentamente
+### Leggere attentamente
 
 You can now use the Homebrew Channel to launch homebrew apps.
 
 Note: When installing homebrew applications on your USB drive, your folder structure should look like this:
 
-```
+```shell
 💾 USB Drive
 | ╸📁 apps
-	| ╸📁 AppName1
-		| ╸📄 boot.dol
-		| ╸📄 meta.xml
-		| ╸📄 icon.png
-	| ╸📁 AppName2
-		| ╸📄 boot.dol
-		| ╸📄 meta.xml
-		| ╸📄 icon.png
+    | ╸📁 AppName1
+        | ╸📄 boot.dol
+        | ╸📄 meta.xml
+        | ╸📄 icon.png
+    | ╸📁 AppName2
+        | ╸📄 boot.dol
+        | ╸📄 meta.xml
+        | ╸📄 icon.png
 ```
 
 `AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
 
-::: tip
-
-### Wii mini: I passaggi successivi
+---
 
 ::: tip
 
@@ -180,4 +183,5 @@ Note: When installing homebrew applications on your USB drive, your folder struc
 Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
 
 :::
+
 ::::

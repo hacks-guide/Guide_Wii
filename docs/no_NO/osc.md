@@ -1,5 +1,20 @@
 # Redirecting...
 
+::: tip
+
+**End of Required Section**
+
+This marks the end of the required section of the main guide. You do not have to follow the guide from this point onward if you would like a standard, functioning homebrew setup.
+
+Going forward, the remainder of the guide will show the following to get the most out of your Wii:
+
+- Utilizing the Open Shop Channel to obtain homebrew applications
+- Restoring WiiConnect24 functionality with WiiLink
+- Restoring the ability to play online with Wiimmfi
+- Providing a list of recommended homebrew to try out
+
+:::
+
 ::: info
 
 For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
@@ -191,16 +206,12 @@ You will need Python 3 installed in order to use OSCDL on these platforms. Pleas
 
 3. Insert your SD card or USB drive into your Wii, and go to the Homebrew Channel. Your downloaded piece of homebrew should now display.
 
-::: tip
-
-Continue to [Recommended Homebrew](recommended-homebrew)
-
-This guide outlines selections of homebrew that we think are useful to have; these range from utilities to emulators and more.
-
-:::
+---
 
 ::: tip
 
-[Return to site index](site-navigation)
+[Continue to WiiConnect24](wiiconnect24)
+
+WiiConnect24 was an online service ran by Nintendo, providing functionality to apps such as the Forecast and News channels. This guide outlines WiiLink, a service that restores this functionality, as well as other information to be aware of when using it.
 
 :::

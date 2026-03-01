@@ -2,27 +2,20 @@
 
 This guide provides instructions on how to create Wii game shortcuts for game backups that you have on external storage devices, using a piece of software called WiiGSC (Wii Game Shortcut Creator). By creating game shortcuts, you can launch a game backup directly from the Wii Menu as if you had inserted the game as a regular disc.
 
-::: warning
+:::details Important Information
 
-Installing [Priiloader](priiloader) and [BootMii](bootmii) are advised due to brick risk in this guide, and should keep you safe along with following the guide correctly. Do NOT continue the guide unless you have installed Priiloader or BootMii!
-
-:::
-
-::: warning
-
-"Mario Party 9" veya "A Boy and His Blob" adlı oyunlar için kısayollar YAPMAYIN. Bu Wiinizi brickleyecektir.
+- Your browser or antivirus software may flag WiiGSC as malware - this is a false positive. WiiGSC does NOT contain any malware.
+- Wii Menüsü 48 kanal limitine sahiptir, sistem kanallarını saymazsak.
 
 :::
 
-::: warning
+::: danger
 
-Your browser or antivirus software may flag WiiGSC as malware - this is a false positive. WiiGSC does NOT contain any malware.
+**Important Warnings**
 
-:::
-
-::: info
-
-Wii Menüsü 48 kanal limitine sahiptir, sistem kanallarını saymazsak.
+- DO NOT continue the guide unless you have installed [Priiloader](priiloader) or [BootMii](bootmii), as this guide carries the risk of causing a [banner brick](bricks#banner-brick) which will prevent the Wii Menu from booting.
+- DO NOT create and install a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will cause a [banner brick](bricks#banner-brick) due to the complexity of the channels making the Wii Menu crash.
+- If you get an error saying `The system files are corrupted`, you are likely dealing with a [banner brick](bricks#banner-brick). To fix it, turn off your Wii, then [boot into Priiloader](priiloader#section-iii---entering-priiloader) using one of the available methods for your console. Enter the Homebrew Channel and launch your WAD manager or [YAWM ModMii Edition](yawmme) to uninstall the WAD that caused the error. If Priiloader was not installed, proceed to [BlueBomb](bluebomb) for further resolution.
 
 :::
 
@@ -62,11 +55,7 @@ Wii Menüsü 48 kanal limitine sahiptir, sistem kanallarını saymazsak.
 
    ![](/images/desktop-apps/wiigsc/wiigsc-success.png)
 
-::: info
-
-Eğer "The system files are corrupted" (Sistem dosyaları bozulmuş) diyen bir hata alırsanız, Priiloader kurulu olduğu sürece paniklemeyin. Wii'nizi kapatın, sonra da konsolunuz için uygun olan yöntemlerden birisini kullanarak [Priiloader'ı açın.](priiloader#section-iii---entering-priiloader) Homebrew Channel'a girin ve WAD'ı kaldırmak için WAD yöneticinizi açın. Eğer Priiloader kurulu değilse, [BlueBomb](bluebomb)
-
-:::
+---
 
 ::: tip
 

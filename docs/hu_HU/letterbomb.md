@@ -71,6 +71,8 @@ NE használd a példákban megadott MAC cmeket, mert azok simán hibát okoznak 
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
+---
+
 ::: tip
 
 [Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)

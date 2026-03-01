@@ -38,7 +38,7 @@ Este exploit exige que você configure seu DNS para se conectar a um servidor qu
 
    ![](/images/riiconnect24/Internet_2.png)
 
-4. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
+4. Navigate to `Page 2` > `Internet` > `Connection Settings`.
 
    ![](/images/riiconnect24/Internet_3.png)
 
@@ -100,8 +100,10 @@ Este exploit exige que você configure seu DNS para se conectar a um servidor qu
 
    - If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
 
+---
+
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continue para a Instalação do Homebrew Channel e do BootMii](hbc)
 
 :::

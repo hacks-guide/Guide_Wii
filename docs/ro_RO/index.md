@@ -38,8 +38,14 @@ With certain variations depending on the path you take, this guide has the end g
 
 ## Ready to start?
 
+If so, please follow the link below to proceed to the main guide.
+
+---
+
 ::: tip
 
 Continue to [Key Information](key-information)
+
+This page outlines important information and disclaimers that you should be aware of before starting with the modding process.
 
 :::

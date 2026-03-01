@@ -1,50 +1,49 @@
 # BootMii Recovery (RestoreMii)
 
-Ce guide fournira des instructions sur la façon de restaurer une sauvegarde de votre NAND avec BootMii. Veuillez garder à l'esprit que c'est généralement la méthode de <strong>dernier recours</strong> pour réparer un brique si vous en avez un, et si cela ne résout pas votre problème, vous devrez peut-être demander de l'aide. If you are even able to enter BootMii, enter the Homebrew Channel instead, and try your best to [identify what caused the brick](bricks) and reverse it.
+Ce guide fournira des instructions sur la façon de restaurer une sauvegarde de votre NAND avec BootMii.
 
-::: info
+Please read the information below before proceeding further.
 
-If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Sautez les étapes 1 et 2 si c'est le cas.
+:::details Important Information
 
-:::
+- Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. Ceci est dû à l'absence de ports GameCube qui sont requis sur les Wii non-boot2 pour entrer le code de confirmation de restauration. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
-::: warning
+- If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Sautez les étapes 1 et 2 si c'est le cas.
 
-If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Téléchargez [ce fichier zip](https://static.hackmii.com/bootmii_sd_files.zip) et extrayez-le à la racine de votre carte SD, puis réessayez.
+- If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is likely a [Wi-Fi Brick](bricks#wi-fi-brick).
+
+- If you were restoring a NAND backup in order to repair a brick and this did not fix your issue, please consult [the bricks portion](bricks) of this guide to locate your issue.
+
+- You must use the buttons on your console or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad to move, and press A to select. To navigate with your console buttons, press `POWER` to move right, and press `RESET` to select.
+
+- If you do not have BootMii as boot2, RestoreMii will prompt you for the Konami code via a GameCube Controller. This is explained in Step 6.
 
 :::
 
 ::: danger
 
-Les Wii édition familiale (sans ports pour manettes GameCube) **NE PEUVENT PAS** restaurer une sauvegarde de la NAND. Ceci est dû à l'absence de ports GameCube qui sont requis sur les Wii non-boot2 pour entrer le code de confirmation de restauration. Pour obtenir de l'aide supplémentaire, veuillez demander au support.
+**Important Warnings**
+
+- This is intended to be a **last resort** method of repairing an issue on your Wii. Please verify that you can enter the Homebrew Channel before restoring a backup, as most issues can be resolved from here. Please additionally join [Nintendo Homebrew discord server](https://discord.gg/C29hYvh) for help with diagnosing and resolving your issue in conjunction with the [bricks guide](bricks).
+
+- If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Téléchargez [ce fichier zip](https://static.hackmii.com/bootmii_sd_files.zip) et extrayez-le à la racine de votre carte SD, puis réessayez.
+
+- DO NOT restore an unverified NAND backup, or a NAND backup that is not from your Wii. This may lead to a WORSE BRICK. The same goes for restoring backups off of faulty SD cards.
 
 :::
-
-::: danger
-
-NE PAS restaurer une sauvegarde de NAND non vérifiée, ou une autre qui ne provient pas de votre Wii: cela peut conduire à un BRIQUE ENCORE PIRE. The same also goes for faulty SD cards.
-
-:::
-
-## Prérequis
-
-- An earlier NAND Backup made by [BootMii](https://wii.guide/bootmii)
 
 ## Want to restore individual data from your NAND backup?
 
-There is likely a much safer and faster way to bring it back to your Wii, likely involving the use of Dolphin Emulator.
+If you would like to restore individual data from your NAND backup, a much safer and faster way to do this using Dolphin Emulator.
 
-Par exemple, si vous voulez restaurer les données de votre Wii Message Board, utilisez Dolphin pour importer votre sauvegarde de la NAND. ff\`, copiez-le sur votre carte SD et utilisez [WiiXplorer](https://oscwii.org/library/app/wiixplorer) pour le restaurer à l'emplacement correspondant.
+Par exemple, si vous voulez restaurer les données de votre Wii Message Board, utilisez Dolphin pour importer votre sauvegarde de la NAND. In Dolphin, go to `File` > `Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
 
-Si vous voulez restaurer les données de sauvegarde d'un jeu, utilisez Dolphin pour importer votre sauvegarde de la NAND, utiliser `Outils > Exporter toutes les sauvegardes Wii` pour exporter toutes vos sauvegardes sur votre carte SD, et utilisez la gestion des données pour la déplacer vers votre Wii.
+If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools` > `Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
 
-## Important notes
+## Prérequis
 
-- Si vous n'avez rien fait pour causer une brique (ou que vous démarrez votre Wii après un certain temps), alors c'est probablement un [brique Wi-Fi](bricks#wi-fi-brick).
-
-- If you do not have BootMii as boot2, RestoreMii will prompt you for the Konami code via a GameCube Controller.
-
-- You must use the POWER (right) and RESET (select) buttons on your console, or a GameCube controller plugged into port 1. Pour naviguer avec une manette de GameCube, utilisez la croix directionnelle. Pour sélectionner, appuyez sur A.
+- A Wii with BootMii as IOS or BootMii as boot2 installed
+- An earlier NAND Backup for your specific Wii made by [BootMii](bootmii)
 
 ## Instructions
 
@@ -84,11 +83,7 @@ Si vous voulez restaurer les données de sauvegarde d'un jeu, utilisez Dolphin p
 
    ![](/images/bootmii/BootMii_Return.png)
 
-::: info
-
-Si vous avez restauré une sauvegarde NAND pour réparer un brique et que cela n'a pas fonctionné, merci de regarder [la partie sur les briques](bricks) dans le guide.
-
-:::
+---
 
 ::: tip
 

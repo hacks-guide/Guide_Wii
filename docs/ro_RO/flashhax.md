@@ -47,6 +47,8 @@ Dacă tot nu poți să-l faci să ruleze, încearcă să-ți ștergi cookie-uril
 
 If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
 
+---
+
 ::: tip
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)

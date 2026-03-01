@@ -94,6 +94,8 @@ WiiWare 4:3 DB Patcher egy olyan homebrew app ami patcheli a vWii's 4:3 képerá
 
    ![](/images/vwii/43db-patcher/install-finish.png)
 
+---
+
 ::: tip
 
 Folytatás az [Open Shop Channel telepítés](osc)-ével

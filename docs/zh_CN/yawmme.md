@@ -39,6 +39,8 @@ YAWM ModMii Edition 是一款安装 WAD 和启动自制应用程序的应用程�
 
    ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
+---
+
 ::: tip
 
 [点击此处返回站点索引。](site-navigation)

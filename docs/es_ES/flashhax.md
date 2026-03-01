@@ -47,6 +47,8 @@ Si después de varios intentos no consigues ejecutar el exploit, intenta elimina
 
 If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
 
+---
+
 ::: tip
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)

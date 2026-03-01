@@ -2,7 +2,7 @@
 
 Most, hogy befejeztük a Homebrew Channel, a Priiloader és a cIOS-ek telepítését, ideje pár utolsó lépéssel lezárni a folyamatot!
 
-### További homebrew alkalmazások
+## További homebrew alkalmazások
 
 ::: info
 
@@ -14,17 +14,19 @@ Minden homebrew alkalmazást a Homebrew Channelről lehet elindítani.
 - A System Channel Restorer egy homebrew app ami lehetővé teszi, hogy néhány csatorna ami általában csak Wii-on elérhető, könnyen telepíthető legyen a Wii mini-re.
 - A Settings Editor GUI egy olyan app, ami hozzáférést ad a rendszerbeállításokhoz, a Wii menu-be bootolás nélkül. A Wii mini-n el tud érni olyan beállításokat is, amik nem jelennek meg normális esetben a Wii mini system menüjében.
 
-### További homebrew alkalmazások – Letöltések
+## További homebrew alkalmazások – Letöltések
 
 - [Ethernet Enabler](https://oscwii.org/library/app/Wii_Mini_Ethernet_Enable)
 - [system-channel-restorer](https://oscwii.org/library/app/system-channel-restorer)
 - [Settings Editor GUI](https://oscwii.org/library/app/Settings-Editor-GUI)
 
-### További homebrew alkalmazások – Fájlok kicsomagolása az SD kártyára
+## További homebrew alkalmazások – Fájlok kicsomagolása az SD kártyára
 
 1. Másold át az Ethernet Enabler tartalmát az SD kártya gyökerére.
 2. Másold a system-channel-restorer fájljait az SD kártya gyökerébe.
 3. Másold át a Settings Editor GUI tartalmát az SD kártya gyökerére.
+
+---
 
 ::: tip
 

@@ -26,7 +26,7 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continue para a Instalação do Homebrew Channel e do BootMii](hbc)
 
 :::
 
@@ -65,8 +65,10 @@ If `Press (1) to continue` does not show up after about 30 seconds, downloading 
 
 :::
 
+---
+
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continue para a Instalação do Homebrew Channel e do BootMii](hbc)
 
 :::

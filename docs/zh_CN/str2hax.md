@@ -38,7 +38,7 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
 
    ![](/images/riiconnect24/Internet_2.png)
 
-4. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
+4. Navigate to `Page 2` > `Internet` > `Connection Settings`.
 
    ![](/images/riiconnect24/Internet_3.png)
 
@@ -99,6 +99,8 @@ If you have installed a mod like CTGP Revolution or Project+, str2hax may load t
    ![](/images/hackmii/scam.png)
 
    - If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+
+---
 
 ::: tip
 

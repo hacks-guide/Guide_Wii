@@ -38,8 +38,14 @@ Bizonyos eltérésekkel, attól függően, hogy milyen utat választasz, ennek a
 
 ## Készen vagy a kezdésre?
 
+Ha igen, kövesd a linket a fő útmutató eléréséhez.
+
+---
+
 ::: tip
 
 Folytatás az [Alapvető információkkal](key-information)
+
+Ez az oldal fontos információkat és jogi nyilatkozatokat tartalmaz arról, amire figyelned kell mielőtt elkezded a moddolási folyamatot.
 
 :::

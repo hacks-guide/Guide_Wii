@@ -39,6 +39,8 @@ Ten samouczek pokaże jak zainstalować pliki WAD.
 
    ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
+---
+
 ::: tip
 
 [Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)

@@ -88,6 +88,8 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
    ![](/images/factory-reset/nandname.png)
 
+---
+
 ::: tip
 
 [BootMii 복원 계속](bootmiirecover)

@@ -1,11 +1,32 @@
 # BootMii 백업
 
-BootMii를 사용하면 Wii의 낸드 저장소를 백업하고 복원할 수 있습니다.
-이 페이지에서는 Wii의 낸드를 SD 카드에 백업하는 방법을 안내합니다. 이후 원하는 대로 사용할 수 있습니다.
+BootMii를 사용하면 Wii의 낸드 저장소를 백업하고 복원할 수 있습니다. 이 페이지에서는 Wii의 낸드를 SD 카드에 백업하는 방법을 안내합니다. 이후 원하는 대로 사용할 수 있습니다.
 
-::: warning
+Please read the below information before proceeding further.
 
-BootMii를 사용하려면 **SD ​​카드**가 필요하지만, 특히 낸드 백업을 만들려면 더욱 그렇습니다. 지금 당장 SD 카드가 없다면, 이 페이지를 건너뛸 수 있지만, 나중에 이 페이지로 돌아와서 낸드를 백업하는 것을 꼭 권장합니다.
+:::details Important Information
+
+- After the completion of this guide, two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin`은 콘솔의 내부 메모리의 백업이고, `keys.bin`은 콘솔의 키입니다.
+
+- BootMii를 boot2로 설치한 경우 콘솔을 다시 시작하여 BootMii를 실행해야 합니다. 이 경우 1 단계와 2 단계를 건너뜁니다.
+
+- You must use the buttons on your console or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad to move, and press A to select. To navigate with your console buttons, press `POWER` to move right, and press `RESET` to select.
+
+- Please note that **restoring a NAND backup is usually a last resort**. With that said, you can use the [BootMii Recovery guide](bootmiirecover) to restore your NAND backup, where more information is provided about the risks and alternatives.
+
+- Family Edition Wiis and Wii minis CANNOT restore NAND backups. 이는 boot2가 아닌 Wii에 복원 확인 코드를 입력하는 데 필요한 게임큐브 포트가 없기 때문입니다.
+
+:::
+
+::: danger
+
+**Important Warnings**
+
+- BootMii를 사용하려면 **SD ​​카드**가 필요하지만, 특히 낸드 백업을 만들려면 더욱 그렇습니다. 지금 당장 SD 카드가 없다면, 이 페이지를 건너뛸 수 있지만, 나중에 이 페이지로 돌아와서 낸드를 백업하는 것을 꼭 권장합니다.
+
+- 홈브류 채널에 `BootMii 실행` 버튼이 나타나지 않으면 [HackMii 설치 프로그램을 다시 실행](hackmii)하고 BootMii를 설치합니다.
+
+- 화면이 검은색으로 유지되고 파란색 디스크 드라이브 표시등이 깜박이면 SD 카드에 BootMii 파일이 누락된 것입니다. [이 zip 파일](/assets/files/bootmii_sd_files.zip)을 다운로드하고 SD 카드의 루트에 압축을 푼 다음 다시 시도합니다.
 
 :::
 
@@ -15,12 +36,6 @@ BootMii를 사용하려면 **SD ​​카드**가 필요하지만, 특히 낸드
 
 ## 지침
 
-::: info
-
-BootMii를 boot2로 설치한 경우 콘솔을 다시 시작하여 BootMii를 실행해야 합니다. 이 경우 1 단계와 2 단계를 건너뜁니다.
-
-:::
-
 1. 콘솔의 전원을 켭니다.
 
 2. Launch the Homebrew Channel, and launch the Load Priiloader app.
@@ -29,29 +44,9 @@ BootMii를 boot2로 설치한 경우 콘솔을 다시 시작하여 BootMii를 �
 
    ![](/images/bootmii/BootMii_HBC.png)
 
-   ::: warning
-
-   홈브류 채널에 `BootMii 실행` 버튼이 나타나지 않으면 [HackMii 설치 프로그램을 다시 실행](hackmii)하고 BootMii를 설치합니다.
-
-   :::
-
-   ::: warning
-
-   화면이 검은색으로 유지되고 파란색 디스크 드라이브 표시등이 깜박이면 SD 카드에 BootMii 파일이 누락된 것입니다. [이 zip 파일](/assets/files/bootmii_sd_files.zip)을 다운로드하고 SD 카드의 루트에 압축을 푼 다음 다시 시도합니다.
-
-   :::
-
 4. 이제 화면에 아래와 비슷한 이미지가 표시되어야 합니다:
 
    ![](/images/bootmii/BootMii_Main.png)
-
-   ::: info
-
-   Wii 리모컨으로는 BootMii를 탐색할 수 없습니다.
-   콘솔의 전원 및 재설정 버튼 또는 포트 1에 연결된 게임큐브 컨트롤러를 사용해야 합니다.
-   옵션 사이를 이동하려면 POWER 버튼을 누릅니다. 옵션을 선택하려면 RESET 버튼을 누릅니다.
-
-   :::
 
 5. 옵션 버튼 (톱니바퀴가 있는 아이콘) 을 선택합니다.
 
@@ -77,23 +72,6 @@ BootMii를 boot2로 설치한 경우 콘솔을 다시 시작하여 BootMii를 �
 
    ![](/images/bootmii/BootMii_Return.png)
 
-::: info
-
-참고: **낸드 백업을 복원하는 것은 보통 마지막 수단입니다.** 콘솔의 벽돌을 해결하는 더 나은 방법이 종종 있습니다.
-
-최선을 다해 [벽돌 상태를 식별](bricks)하고 처음에 그 상태를 일으킨 작업을 되돌립니다.
-
-SD 카드의 낸드 백업에서 복원하려면 [RestoreMii](bootmiirecover)에 대한 지침을 따릅니다.
-**패밀리 에디션 Wii (게임큐브 포트가 없는 Wii)는 하드웨어를 수정하지 않고는 낸드 백업을 복원할 수 없습니다.**
-
-:::
-
-::: info
-
-SD 카드의 루트에 `nand.bin`과 `keys.bin`이라는 두 개의 파일이 생성됩니다. `nand.bin`은 콘솔의 내부 메모리의 백업이고, `keys.bin`은 콘솔의 키입니다.
-
-:::
-
 ## 자동 부팅
 
 BootMii를 boot2로 설치할 수 있었지만 Wii를 켤 때마다 BootMii 화면을 불러오고 싶지 않다면 시스템 메뉴로 자동 부팅하도록 설정할 수 있습니다. 이렇게 하면 BootMii가 boot2로 설치되어 있다는 것을 알아차리지 못할 것입니다.
@@ -118,6 +96,8 @@ Wii에서 [BootMii 구성 편집기](https://oscwii.org/library/app/BootMiiConfi
 3. `도구` 탭을 클릭하고 `낸드 관리`까지 아래로 스크롤한 다음 `BootMii 낸드 백업 가져오기...`를 선택합니다.
 4. SD 카드의 루트에 있는 `nand.bin`을 찾아 열기를 선택합니다.
 5. `keys.bin`을 요청하는 경우 SD 카드의 루트에서 이를 찾아 열기를 선택합니다.
+
+---
 
 ::: tip
 

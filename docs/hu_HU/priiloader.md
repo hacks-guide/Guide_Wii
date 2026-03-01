@@ -1,10 +1,16 @@
 # Priiloader
 
-A [Priiloader](https://github.com/DacoTaco/priiloader) egy alapvető eszköz amit [DacoTaco](https://github.com/DacoTaco) készített, és egy brick védelmi szintet ad a Wii-odhoz. A program még a Wii rendszermenü betöltése előtt indul el. A programot arra is felhasználhatod, hogy különböző javításokat alkalmazz a rendszermenüre.
+A [Priiloader](https://github.com/DacoTaco/priiloader) egy alapvető eszköz, amit [DacoTaco](https://github.com/DacoTaco) fejlesztett és tovább szintjéd adja a Wii brick védelemének, azzal, hogy betölt a Wii System Menu előtt. A programot arra is felhasználhatod, hogy különböző javításokat alkalmazz a rendszermenüre.
 
-Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii indításának befolyásolására is használható.
+Továbbá használható a gyors indítására bármley címnek vagy homebrew appnak, illetve a Wii bootolásának módosítására.
 
-## Követelmények
+::: info
+
+A Priiloader további használati lehetőségeiről és System Menu hackekről a [Priiloader használat](priiloader-usage) oldalon találhatsz további információt.
+
+:::
+
+## Requirements
 
 - Egy SD kártya vagy pendrive
 - [Priiloader Installer](https://oscwii.org/library/app/priiloader) (a `.zip` fájl)
@@ -56,7 +62,7 @@ Ezen felül egy program vagy nemhivatalos program megnyitására, és a Wii ind�
 
 | Konzol típus | Priiloader belépési módszerek                                                                                                                                                                                                                                                  |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Wii esetén   | <ul><li>A RESET gomb nyomvatartásával a konzol bekapcsolása során vagy a Wii Menu-ben</li><li>Az ESC gomb nyomva tartásával a csatlakoztatott USB billentyűzeten a konzol bekapcsolása során </li><li>A `Load Priiloader` eszköz futtatásával a Homebrew Channel-ről</li></ul> |
+| Wii          | <ul><li>A RESET gomb nyomvatartásával a konzol bekapcsolása során vagy a Wii Menu-ben</li><li>Az ESC gomb nyomva tartásával a csatlakoztatott USB billentyűzeten a konzol bekapcsolása során </li><li>A `Load Priiloader` eszköz futtatásával a Homebrew Channel-ről</li></ul> |
 | vWii         | <ul><li>Az ESC gomb nyomva tartásával a csatlakoztatott USB billentyűzeten a konzol bekapcsolása során </li><li>A `Load Priiloader` eszköz futtatásával a Homebrew Channel-ről</li><li>a Priiloader forwarder futtatásával a Wii U Menu-ből</li></ul>                          |
 | Wii mini     | <ul><li>Az ESC gomb nyomva tartásával a csatlakoztatott USB billentyűzeten a konzol bekapcsolása során </li><li>A `Load Priiloader` eszköz futtatásával a Homebrew Channel-ről</li></ul>                                                                                       |
 
@@ -80,7 +86,7 @@ Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a hacks_hash.ini
 
    | Konzol típus | Priiloader opciók                                                                                                                                                                                       |
    | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-   | Wii esetén   | <ul><li>Ha 480p módot használsz: `480p graphics fix in the system menu`</li><li>`Block Disc Updates`</li><li>`Block Online Updates`</li><li>Ha NEM CRT kijelzőt használsz: `Remove Deflicker`</li></ul> |
+   | Wii          | <ul><li>Ha 480p módot használsz: `480p graphics fix in the system menu`</li><li>`Block Disc Updates`</li><li>`Block Online Updates`</li><li>Ha NEM CRT kijelzőt használsz: `Remove Deflicker`</li></ul> |
    | vWii         | <ul><li>`Block Online Updates`</li><li>`Wii System Settings via Options Button`</li><li>Ha NEM CRT kijelzőt használsz: `Remove Deflicker`</li></ul>                                                     |
    | Wii mini     | <ul><li>`Block Online Updates`</li><li>Ha NEM CRT kijelzőt használsz: `Remove Deflicker`</li></ul>                                                                                                      |
 
@@ -88,11 +94,7 @@ Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a hacks_hash.ini
 
 4. Nyomj `B` gombot a főmenübe való visszatéréshez.
 
-::: info
-
-A Priiloader további használati lehetőségeiről és System Menu hackekről a [Priiloader használat](priiloader-usage) oldalon találhatsz további információt.
-
-:::
+---
 
 ::: info
 
@@ -102,7 +104,7 @@ Ez az úmtutató segédlet segít elkerülni a Wii-od brickelését, ha több va
 
 :::
 
-## További lépések
+---
 
 ::: tip
 

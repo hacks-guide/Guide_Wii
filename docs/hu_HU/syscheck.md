@@ -30,6 +30,8 @@ A SysCheck felsorolja a Wii-n található összes IOS-t és cIOS-t, valamint né
 
 5. Ha meg szeretnéd osztani a SysCheck eredményt, megoszthatod a `syscheck.csv` fájlt az SD kártyád vagy az USB drive-od gyökeréből. Továbbá nyomhatsz `A` gombot is, ami feltölti a riportot a syscheck.rc24.xyz](http://syscheck.rc24.xyz oldalra/).
 
+---
+
 ::: tip
 
 [Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)

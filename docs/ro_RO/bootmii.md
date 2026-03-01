@@ -1,11 +1,32 @@
 # Backup BootMii
 
-BootMii îți permite să creezi un backup și să restaurezi memoria NAND a consolei tale Wii.
-Această pagină îți va arăta cum să salvezi un backup a memoriei NAND a consolei Wii într-un Card SD pe care îl vei putea folosi pentru orice dorești.
+BootMii îți permite să creezi un backup și să restaurezi memoria NAND a consolei tale Wii. Această pagină îți va arăta cum să salvezi un backup a memoriei NAND a consolei Wii într-un Card SD pe care îl vei putea folosi pentru orice dorești.
 
-::: warning
+Please read the below information before proceeding further.
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. Dacă nu ai un card SD la îndemână poți sări această pagină, însă este FOARTE RECOMANDAT să te întorci la această pagină mai încolo pentru a crea un backup a memoriei NAND.
+:::details Important Information
+
+- After the completion of this guide, two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+
+- Dacă ai BootMii instalat ca boot2, va trebui să repornești consola pentru a rula BootMii. Sari peste pașii 1 și 2 dacă acesta este cazul.
+
+- You must use the buttons on your console or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad to move, and press A to select. To navigate with your console buttons, press `POWER` to move right, and press `RESET` to select.
+
+- Please note that **restoring a NAND backup is usually a last resort**. With that said, you can use the [BootMii Recovery guide](bootmiirecover) to restore your NAND backup, where more information is provided about the risks and alternatives.
+
+- Family Edition Wiis and Wii minis CANNOT restore NAND backups. Acest lucru este datorat lipsei de porturi GameCube care sunt necesare pe consolele Wii non-boot2 pentru a introduce codul de confirmare a restaurării.
+
+:::
+
+::: danger
+
+**Important Warnings**
+
+- You need an **SD card** to use BootMii at all, but especially to create a NAND backup. Dacă nu ai un card SD la îndemână poți sări această pagină, însă este FOARTE RECOMANDAT să te întorci la această pagină mai încolo pentru a crea un backup a memoriei NAND.
+
+- If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+
+- Dacă ecranul rămâne negru și lumina albastră a cititorului de discuri clipește după ce ai deschis BootMii, fișierele BootMii lipsesc din cardul tău SD. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 
 :::
 
@@ -15,12 +36,6 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
 ## Instructions
 
-::: info
-
-Dacă ai BootMii instalat ca boot2, va trebui să repornești consola pentru a rula BootMii. Sari peste pașii 1 și 2 dacă acesta este cazul.
-
-:::
-
 1. Power on your console.
 
 2. Launch the Priiloader installer.
@@ -29,29 +44,9 @@ Dacă ai BootMii instalat ca boot2, va trebui să repornești consola pentru a r
 
    ![](/images/bootmii/BootMii_HBC.png)
 
-   ::: warning
-
-   If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
-
-   :::
-
-   ::: warning
-
-   Dacă ecranul rămâne negru și lumina albastră a cititorului de discuri clipește după ce ai deschis BootMii, fișierele BootMii lipsesc din cardul tău SD. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
-
-   :::
-
 4. Ar trebui să vezi o imagine asemănătoare cu cea de mai jos acum pe ecranul tău:
 
    ![](/images/bootmii/BootMii_Main.png)
-
-   ::: info
-
-   Navigarea prin BootMii nu este posibilă folosind un Wii Remote.
-   Va trebui să folosești butoanele POWER și RESET de pe consola ta sau un controller GameCube conectat în portul 1.
-   Pentru a naviga printre opțiuni, apasă POWER. Pentru a alege o opțiune, apasă RESET.
-
-   :::
 
 5. Alege butonul Opțiuni (iconița cu rotițele).
 
@@ -77,23 +72,6 @@ Dacă ai BootMii instalat ca boot2, va trebui să repornești consola pentru a r
 
    ![](/images/bootmii/BootMii_Return.png)
 
-::: info
-
-Note: **restoring a NAND backup is usually a last resort**. De multe ori există opțiuni mai bune pentru a-ți repara consola.
-
-Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
-
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover).
-**Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
-
-:::
-
-::: info
-
-Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
-
-:::
-
 ## Autobootare
 
 If you were able to install BootMii as boot2, but don't want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. Acest lucru ar trebui făcut astfel încât să nu observi că BootMii este instalat ca boot2.
@@ -118,6 +96,8 @@ Backup-ul tău NAND poate fi utilizat în Dolphin Emulator. This is completely o
 3. Click on the `Tools` tab, scroll down to `Manage NAND`, then select `Import BootMii NAND backup...`.
 4. Locate the `nand.bin` found on the root of your SD card and select Open.
 5. If it asks for a `keys.bin`, locate it on the root of your SD and select Open.
+
+---
 
 ::: tip
 

@@ -36,8 +36,8 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
 
 :::details If you followed the steps correctly, your SD card should have the following layout:
 
-```
-💾sd:
+```shell
+💾 SD Card
  ┗ 📁 wiiu
    ┣ 📁 apps
    ┃ ┣ 📄 AromaUpdater.wuhb
@@ -88,6 +88,8 @@ Ensure that your Wii U has Internet access for this step to ensure the exploit c
 
    ![](/images/vwii/exploit/payload-loader.png)
 
+   ![](/images/vwii/exploit/payload-loader.png)
+
 ### Section III - NAND Backup
 
 1. Use the Wii U GamePad's D-Pad to enter the following configuration:
@@ -109,6 +111,8 @@ Ensure that your Wii U has Internet access for this step to ensure the exploit c
 5. Delete the files from your SD card to free up space.
 
 6. Take the SD card out of your computer and plug it into your Wii U console.
+
+---
 
 ::: tip
 

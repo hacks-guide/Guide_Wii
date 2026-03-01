@@ -71,6 +71,8 @@ Do NOT use any of the MAC address examples shown in this guide, as they will sim
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
+---
+
 ::: tip
 
 [Перейти к установке Homebrew Channel и BootMii](hbc)

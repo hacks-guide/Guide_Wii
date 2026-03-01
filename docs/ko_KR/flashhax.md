@@ -47,6 +47,8 @@ FlashHax는 인터넷 채널을 사용하여 트리거되는 Wii용 취약점 �
 
 여러 번 시도해도 Flashhax가 작동하지 않으면 대신 [다른 익스플로잇](get-started)을 시도해야 합니다.
 
+---
+
 ::: tip
 
 [홈브류 채널 및 BootMii 설치 계속하기](hbc)

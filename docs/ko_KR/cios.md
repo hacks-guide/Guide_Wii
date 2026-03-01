@@ -4,19 +4,21 @@ outline: false
 
 # cIOS
 
+cIOS, or custom IOS, are patched and modified versions of certain IOS (or simply, parts of the Wii's system software) that allow homebrew apps like USB loaders to be able to function where they otherwise would not. While not required for a functioning homebrew setup, it is highly recommended to install cIOS anyway because it augments the functionality of your Wii with little to no downside.
+
 ::::: tabs
 
-:::: Wii/패밀리 에디션용 cIOS 탭
+:::: tab Wii/Family Edition
 
-:::details 기술 세부사항 (선택 사항)
+::: danger
 
-cIOS (커스텀 IOS)는 커스텀 기능을 허용하도록 패치된 IOS입니다. [cIOS](https://wiibrew.org/wiki/Custom_IOS)는 완전한 하드웨어 접속을 제공하는 AHBPROT로 대체되었지만 여전히 유용한 응용 프로그램을 제공합니다. 예를 들어 이를 통해 SaveGame Manager GX와 같은 홈브류 제품과 함께 USB Loader GX 및 WiiFlow와 같은 USB 로더의 기능을 사용할 수 있습니다. 원하면 이 과정을 건너뛸 수 있지만, 일반적으로 이 과정은 단점이 거의 없거나 전혀 없이 Wii의 기능을 확장해줍니다.
+Wii에 vWii/Wii 미니 IOS 또는 시스템 메뉴를 설치하려고 시도하지 마세요. 그렇게 하면 콘솔이 [벽돌](bricks#ios-brick)될 가능성이 높습니다.
 
 :::
 
 ::: warning
 
-Wii에 vWii/Wii 미니 IOS 또는 시스템 메뉴를 설치하려고 시도하지 마세요. 그렇게 하면 콘솔이 [벽돌](bricks#ios-brick)될 가능성이 높습니다.
+Ensure that if you are using an SD card, the lock switch is in the unlocked position. Otherwise, you will not be able to select the correct options in the installer.
 
 :::
 
@@ -26,17 +28,11 @@ Wii에 vWii/Wii 미니 IOS 또는 시스템 메뉴를 설치하려고 시도하�
 - SD 카드 및 USB 드라이브
 - [d2x cIOS 설치 프로그램](https://oscwii.org/library/app/d2x-cios-installer)
 
-::: warning
-
-SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있는지 확인합니다. 그렇지 않으면 설치 프로그램에서 올바른 옵션을 선택할 수 없습니다.
-
-:::
-
 ## 지침
 
 ### 섹션 I - 다운로드
 
-::: warning
+::: tip
 
 Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
 
@@ -44,7 +40,7 @@ Your browser or antivirus software may flag NUSGet as malware - this is a false 
 
 ::: info
 
-Wii를 인터넷에 연결할 수 있다면 [섹션 II](cios#section-ii---installing)로 건너뛸 수 있습니다.
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing).
 
 :::
 
@@ -94,7 +90,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
 6. 다음 사항에 맞게 모든 것을 설정합니다:
 
-   ```
+   ```html
    cIOS <d2x-v11-beta3> 선택
    cIOS 베이스 <38> 선택
    cIOS 슬롯 <248> 선택
@@ -149,7 +145,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
     - cIOS 249 설치
 
-      ```
+      ```html
       cIOS <d2x-v11-beta3> 선택
       cIOS 베이스 <57> 선택
       cIOS 슬롯 <250> 선택
@@ -160,7 +156,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
     - cIOS 250 설치
 
-      ```
+      ```html
       cIOS <d2x-v11-beta3> 선택
       cIOS 베이스 <57> 선택
       cIOS 슬롯 <250> 선택
@@ -171,7 +167,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
     - cIOS 251 설치
 
-      ```
+      ```html
       cIOS <d2x-v11-beta3> 선택
       cIOS 베이스 <58> 선택
       cIOS 슬롯 <251> 선택
@@ -188,6 +184,8 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
 :::
 
+---
+
 ::: tip
 
 [오픈샵 채널 설치를 계속 진행](osc)
@@ -198,17 +196,17 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
 ::::
 
-:::: vWii (Wii U)용 cIOS 탭
+:::: tab vWii (Wii U)
 
-:::details 기술 세부사항 (선택 사항)
+::: danger
 
-cIOS (커스텀 IOS)는 커스텀 기능을 허용하도록 패치된 IOS입니다. [cIOS](https://wiibrew.org/wiki/Custom_IOS)는 완전한 하드웨어 접속을 제공하는 AHBPROT로 대체되었지만 여전히 유용한 응용 프로그램을 제공합니다. 예를 들어 이를 통해 SaveGame Manager GX와 같은 홈브류 제품과 함께 USB Loader GX 및 WiiFlow와 같은 USB 로더의 기능을 사용할 수 있습니다. 원하면 이 과정을 건너뛸 수 있지만, 일반적으로 이 과정은 단점이 거의 없거나 전혀 없이 Wii의 기능을 확장해줍니다.
+vWii에 Wii/Wii 미니 IOS나 시스템 메뉴를 설치하려고 하지 마세요. 그렇게 하면 콘솔이 [벽돌](bricks#ios-brick)될 가능성이 높습니다.
 
 :::
 
 ::: warning
 
-vWii에 Wii/Wii 미니 IOS나 시스템 메뉴를 설치하려고 하지 마세요. 그렇게 하면 콘솔이 [벽돌](bricks#ios-brick)될 가능성이 높습니다.
+Ensure that if you are using an SD card, the lock switch is in the unlocked position. Otherwise, you will not be able to select the correct options in the installer.
 
 :::
 
@@ -217,12 +215,6 @@ vWii에 Wii/Wii 미니 IOS나 시스템 메뉴를 설치하려고 하지 마세�
 - vWii에 홈브류 채널이 설치된 Wii U
 - SD 카드 및 USB 드라이브
 - [vWii용 d2x cIOS 설치 프로그램](https://oscwii.org/library/app/d2x-cios-installer-vwii)
-
-::: warning
-
-SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있는지 확인합니다. 그렇지 않으면 설치 프로그램에서 올바른 옵션을 선택할 수 없습니다.
-
-:::
 
 ## 지침
 
@@ -240,7 +232,7 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 
 6. 다음 사항에 맞게 모든 것을 설정합니다:
 
-   ```
+   ```html
    cIOS <d2x-v11-beta3-vWii> 선택
    cIOS 베이스 <38> 선택
    cIOS 슬롯 <248> 선택
@@ -262,7 +254,7 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 
    - cIOS 249 설치
 
-     ```
+     ```html
      cIOS <d2x-v11-beta3-vWii> 선택
      cIOS 베이스 <56> 선택
      cIOS 슬롯 <249> 선택
@@ -272,7 +264,7 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 
    - cIOS 250 설치
 
-     ```
+     ```html
      cIOS <d2x-v11-beta3-vWii> 선택
      cIOS 베이스 <57> 선택
      cIOS 슬롯 <250> 선택
@@ -282,7 +274,7 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
 
    - cIOS 251 설치
 
-     ```
+     ```html
      cIOS <d2x-v11-beta3-vWii> 선택
      cIOS 베이스 <58> 선택
      cIOS 슬롯 <251> 선택
@@ -291,6 +283,8 @@ SD 카드를 사용하는 경우 잠금 스위치가 잠금 해제 위치에 있
      ![](/images/cios/d2x_v11_251_vwii.png)
 
 9. Once you have finished installing all 4 cIOSes, press B to return to the Homebrew Channel.
+
+---
 
 ::: tip
 
@@ -302,25 +296,23 @@ Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proce
 
 ::::
 
-:::: Wii 미니용 cIOS 탭
+:::: tab Wii mini
 
-::: info
+::: danger
 
-이 자습서와 관련하여 도움이 필요하면 [Wii 미니 해킹 디스코드 서버](https://discord.gg/6ryxnkS)에 가입하세요 (추천)
-
-:::
-
-:::details 기술 세부사항 (선택 사항)
-
-cIOS (커스텀 IOS)는 커스텀 기능을 허용하도록 패치된 IOS입니다. [cIOS](https://wiibrew.org/wiki/Custom_IOS)는 완전한 하드웨어 접속을 제공하는 AHBPROT로 대체되었지만 여전히 유용한 응용 프로그램을 제공합니다. 예를 들어 이를 통해 SaveGame Manager GX와 같은 홈브류 제품과 함께 USB Loader GX 및 WiiFlow와 같은 USB 로더의 기능을 사용할 수 있습니다. 원하면 이 과정을 건너뛸 수 있지만, 일반적으로 이 과정은 단점이 거의 없거나 전혀 없이 Wii의 기능을 확장해줍니다.
-
-이 d2x cIOS 설치 프로그램은 원래 DaveBaol이 Wii U의 vWii용으로 개발했으며, 커스텀 cIOS는 Leseratte가 Wii 미니용으로 만들었습니다. 원본 다운로드 페이지는 [여기](https://wii.leseratte10.de/d2xl-cIOS/)에서 찾을 수 있습니다. Leseratte의 깃허브 페이지는 [여기](https://github.com/Leseratte10/d2xl-cios)에서 찾을 수 있습니다. 이 cIOS는 아직 실험 단계이지만 기능에 대한 문제는 보고되지 않았습니다.
+Wii 미니에 Wii/vWii IOS나 시스템 메뉴를 설치하려고 하지 마세요. 그렇게 하면 콘솔이 [벽돌](bricks#ios-brick)될 가능성이 높습니다.
 
 :::
 
 ::: warning
 
-Wii 미니에 Wii/vWii IOS나 시스템 메뉴를 설치하려고 하지 마세요. 그렇게 하면 콘솔이 [벽돌](bricks#ios-brick)될 가능성이 높습니다.
+Ensure that if you are using an SD card, the lock switch is in the unlocked position. Otherwise, you will not be able to select the correct options in the installer.
+
+:::
+
+::: info
+
+If you need assistance with this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
 
 :::
 
@@ -347,7 +339,7 @@ Wii 미니에 Wii/vWii IOS나 시스템 메뉴를 설치하려고 하지 마세�
 1. `계속`을 선택합니다.
 2. 계속을 누르고, 다음 옵션을 다음과 같이 설정합니다:
 
-   ```
+   ```html
    cIOS 선택 <d2xl-v1-beta2>
    cIOS 기반 선택 <57>
    cIOS 슬롯 선택 <249>
@@ -361,15 +353,11 @@ Wii 미니에 Wii/vWii IOS나 시스템 메뉴를 설치하려고 하지 마세�
    - 설치가 `TMD 버전 불일치` 오류로 실패할 경우, `cIOS 기반 선택` 옵션 위에서 +제어판의 왼쪽 또는 오른쪽을 눌러 버전 번호가 이전에 시도한 것과 다를 때까지 기다립니다. 숫자 57은 변경되지 않습니다.
 4. 성공적으로 완료되면 설치 프로그램을 종료합니다.
 
+---
+
 ::: tip
 
 [Continue to Finalizing Setup](mini-finalizing-setup)
-
-:::
-
-::: tip
-
-[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
 
 :::
 

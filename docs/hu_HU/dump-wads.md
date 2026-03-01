@@ -53,6 +53,8 @@ A WAD most már dumpolt, és meg kell jelennie a megadott könyvtárában az SD 
 
 ![](/images/homebrew/DumpWADS/7.png)
 
+---
+
 ::: tip
 
 [Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)

@@ -56,6 +56,8 @@ At this point, you should be able to install the Homebrew Channel and access hom
 
 :::
 
+---
+
 ::: tip
 
 [Return to Bricks](bricks)
@@ -63,9 +65,11 @@ At this point, you should be able to install the Homebrew Channel and access hom
 
 :::
 
+---
+
 ::: tip
 
-[Cliquez ici pour revenir à l'index du site.](site-navigation)
+[Click here to go back to the site index.](site-navigation)
 {: .notice--info}
 
 :::

@@ -88,6 +88,8 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
    ![](/images/factory-reset/nandname.png)
 
+---
+
 ::: tip
 
 [Continue to BootMii Recovery](bootmiirecover)

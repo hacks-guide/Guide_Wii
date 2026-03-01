@@ -10,7 +10,7 @@ For support (in English) with Wii mini hacking, join [Wii mini Hacking](https://
 
 ::: info
 
-If you have a Wii or a Wii mini with an SD card slot soldered, follow [this tutorial](bootmii) to dump your NAND.
+If you have a Wii, or a Wii mini with an SD card slot soldered, follow [this tutorial](bootmii) to dump your NAND.
 
 :::
 
@@ -44,7 +44,7 @@ Non c'è modo di ripristinare il backup della NAND con questo metodo senza un'ha
 2. Dovrebbe rilevare IOS 236 automaticamente sul tuo Wii mini e applicare alcune patch di runtime per iniziare il dumping della NAND.
 3. Una volta fatto, avrai tre nuovi file nella tua unità USB:
 
-```
+```shell
 WiiFlash_n_ECC.img
 WFD_XXX_YY.img
 WiiFlash.log
@@ -61,7 +61,7 @@ The `WiiFlash_n_ECC.img` is your NAND image. Gli altri due file sono dati "errat
 
    - Avrai cinque nuovi file nella tua unità USB:
 
-   ```
+   ```shell
    bootmii_keys.bin
    device.cert
    keys.txt
@@ -87,11 +87,15 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 
 :::
 
+---
+
 ::: tip
 
 [Continue to Priiloader Installation](priiloader)
 
 :::
+
+---
 
 ::: tip
 

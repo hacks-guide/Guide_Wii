@@ -62,8 +62,9 @@
 
 - [Wii játék shortcut-ok létrehozása](wiigsc)
 - [Hogyan dumpoljak Channel-eket (WAD-okat)](dump-wads)
-- [Hogyan dumpolj Wii/GameCube játékokat](dump-games)
-- [A Wii és GameCube mentések kezelése](backups)
+- [Hogyan dumpolj GameCube/Wii játékokat](dump-games)
+- [A GameCube mentések kezelése](gc-backups)
+- [A Wii mentések kezelése](wii-backups)
 - [Priiloader használat](priiloader-usage)
 - [Ajánlott Homebrew](recommended-homebrew)
 - [Játék mentések átvitele](transfer-saves)

@@ -2,27 +2,20 @@
 
 Ez az útmutató azt tartalmazza, hogy a WiiGSC (Wii Game Shortcut Creator) szoftver segítségével hogyan tudsz létrehozni Wii játékparancsikonokat, külső tárolóeszközökön található játékok biztonsági másolataihoz. A játékparancsikonok létrehozásával a játék biztonsági másolatát közvetlenül a Wii menüből indíthatod el, mintha a játékot normál lemezként helyezted volna be.
 
-::: warning
+:::details Fontos információ
 
-A [Priiloader](priiloader) és a [BootMii](bootmii) telepítése ajánlott, mivel ez az útmutató brickelés kockázatot jelent és a helyes követése biztonságot nyújt. NE folytasd az útmutatót, ha még nem telepítetted a Priiloader vagy a BootMii programot!
-
-:::
-
-::: warning
-
-NE készíts parancsikont a "Mario Party 9" vagy az "A Boy and His Blob" játékokhoz. Ez brickeli a Wii-odat.
+- A böngésződ vagy a vírusírtó szoftvered elképzelhető, hogy a WiiGSC-t malware-nek jelöli - ez hamis pozitív. A WiiGSC NEM tartalmaz malware-t.
+- A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszercsatornákat.
 
 :::
 
-::: warning
+::: danger
 
-A böngésződ vagy a vírusírtó szoftvered elképzelhető, hogy a WiiGSC-t malware-nek jelöli - ez hamis pozitív. A WiiGSC NEM tartalmaz malware-t.
+**Fontos figyelmeztetések**
 
-:::
-
-::: info
-
-A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszercsatornákat.
+- NE FOLYTASD az útmutató, ha amíg nincs telepítve [Priiloader](priiloader) vagy [BootMii](bootmii), mivel ez az útmtutató magában hordozza a lehetőségét a [banner brick](bricks#banner-brick)-nek, ami meggátolja a Wii Menu bootolását.
+- NE KÉSZÍTS parancsikont a "Mario Party 9" vagy az "A Boy and His Blob" játékokhoz. Ez [banner brick](bricks#banner-brick)-et fog eredményezni a csatornák komplexitása miatt összeomlasztva a Wii Menu-t.
+- Ha egy `The system files are corrupted` hibaüzenetet kapsz, valószínűleg [banner brick](bricks#banner-brick)-ed van. A javításához kapcsold ki a Wii-t, majd [bootolj a Priiloader-be](priiloader#section-iii---entering-priiloader) a konzolodhoz rendelkezésre álló módszerek egyikével. Lépj be a Homebrew Channel-be és indítsd el a WAD manager-ed vagy a [YAWM ModMii Edition](yawmme)-t, hogy eltávolítsd a WAD-ot ami a hibát okozta. Ha a Priiloader nem volt telepítve, folytasd a [BlueBomb](bluebomb) lépéssel további megoldásért.
 
 :::
 
@@ -62,11 +55,7 @@ A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszerc
 
    ![](/images/desktop-apps/wiigsc/wiigsc-success.png)
 
-::: info
-
-Ha hibaüzenetet kapsz "The system files are corrupted", ne ess pánikba, ha telepítetted a Priiloader-t. Kapcsold ki a Wii-t, majd [bootolj a Priiloader-be](priiloader#section-iii---entering-priiloader) a konzolodhoz rendelkezésre álló módszerek egyikével. Lépj be a Homebrew Channel csatornába, és indítsd el a WAD managert a WAD eltávolításához. Ha a priiloader nem volt telepítve, folytasd a [BlueBomb](bluebomb) lépéssel.
-
-:::
+---
 
 ::: tip
 

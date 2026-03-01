@@ -1,5 +1,20 @@
 # Open Shop Channel
 
+::: tip
+
+**End of Required Section**
+
+This marks the end of the required section of the main guide. You do not have to follow the guide from this point onward if you would like a standard, functioning homebrew setup.
+
+Going forward, the remainder of the guide will show the following to get the most out of your Wii:
+
+- Utilizing the Open Shop Channel to obtain homebrew applications
+- Restoring WiiConnect24 functionality with WiiLink
+- Restoring the ability to play online with Wiimmfi
+- Providing a list of recommended homebrew to try out
+
+:::
+
 ::: info
 
 오픈 샵 채널에 대한 지원 (영어)을 원하시면 [디스코드의 오픈 샵 채널](https://discord.gg/osc)에 가입합니다.
@@ -191,16 +206,12 @@ OSCDL is the application officially developed by the Open Shop Channel team for 
 
 3. SD 카드나 USB 드라이브를 Wii에 연결하고 홈브류 채널로 이동합니다. 이제 다운로드한 홈브류가 표시될 것입니다.
 
-::: tip
-
-[추천 홈브류](recommended-homebrew)로 계속하기
-
-이 가이드에서는 유용하다고 생각되는 홈브류의 선택을 개략적으로 설명합니다. 여기에는 유틸리티부터 에뮬레이터까지 다양한 항목이 포함됩니다.
-
-:::
+---
 
 ::: tip
 
-[사이트 색인으로 돌아가기](site-navigation)
+[WiiConnect24로 계속하기](wiiconnect24)
+
+WiiConnect24 was an online service ran by Nintendo, providing functionality to apps such as the Forecast and News channels. This guide outlines WiiLink, a service that restores this functionality, as well as other information to be aware of when using it.
 
 :::

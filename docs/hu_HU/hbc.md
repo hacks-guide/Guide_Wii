@@ -1,20 +1,34 @@
+---
+outline: false
+---
+
+# A Homebrew Channel és BootMii telepítése
+
+<br>
+
 ::::: tabs
 
 :::: tab Wii
 
-# A Homebrew Channel és BootMii telepítése
+## A Homebrew Channel és BootMii telepítése a Wii-hez
 
-:::details Technikai részletek (opcionális)
-
-A BootMiit kétféle módon telepítheted: közvetlenül a Wii bootloaderének boot2-es részébe, vagy egy IOS-on keresztül. A programot javasolt a boot2-be telepíteni, ugyanis így szélesebb körű védelmet nyújthat. Ehhez egy olyan Wiivel kell rendelkezned, ami egy olyan biztonsági réssel rendelkezik a boot1-es részében, amely csak a 2009 előtt gyártott példányokon fordul elő. A legtöbb esetben elégséges a BootMii telepítés IOS-ként, egészen addig, amíg a [Priiloader](priiloader) is telepítve van.
-
-:::
+This guide instructs you on how to install the Homebrew Channel and BootMii. The Homebrew Channel is where you will go to launch homebrew applications, and BootMii allows you to create and restore backups of your Wii's NAND storage.
 
 ::: warning
 
 SD kártya nélkül nem telepítheted a BootMii-t, függetlenül attól, hogy IOS-ként vagy boot2-ként telepítetted.
 
 Bármikor telepítheted később](hackmii).
+
+:::
+
+:::details Disclaimer for BootMii with boot2
+
+A BootMiit kétféle módon telepítheted: közvetlenül a Wii bootloaderének boot2-es részébe, vagy egy IOS-on keresztül. If possible, it is urged to install as boot2 as it provides extended brick protection and can be loaded prior to most major brick errors, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer; all having been manufactured before 2009.
+
+In most cases, you will not be able to install BootMii under boot2. Installing BootMii as IOS will usually be good enough, as long as you also install [Priiloader](priiloader). If you DO have the option to install as boot2, you should install both boot2 and IOS as instructed below so that you can launch BootMii in ways other than starting the console.
+
+Please note that if you install Bootmii as boot2, your disc drive will flash very briefly after the immediate flash that happens when you press the POWER Button.
 
 :::
 
@@ -66,28 +80,28 @@ Bármikor telepítheted később](hackmii).
 
     ![](/images/hbc/blank.png)
 
-## Kötelező olvasnivaló
+### Kötelező olvasnivaló
 
 Az útmutató befejezése után képes leszel homebrew alkalmazásokat futtatni – ezek között, ha sikerült telepítened, a BootMiit is, amellyel biztonsági mentéseket készíthetsz és tölthetsz vissza a Wii belső tárhelyéről.
 
 Megjegyzés: Ha homebrew alkalmazásokat telepítesz SD kártyára vagy USB drive-ra, a könyvtárfelépítésed így kell, hogy kinézzen:
 
-```
-💾 SD kártya vagy USB Drive
+```shell
+💾 SD kártya vagy pendrive
 | ╸📁 apps
-	| ╸📁 AppName1
-		| ╸📄 boot.dol
-		| ╸📄 meta.xml
-		| ╸📄 icon.png
-	| ╸📁 AppName2
-		| ╸📄 boot.dol
-		| ╸📄 meta.xml
-		| ╸📄 icon.png
+    | ╸📁 EgyikAlkalmazás
+        | ╸📄 boot.dol
+        | ╸📄 meta.xml
+        | ╸📄 icon.png
+    | ╸📁 MásikAlkalmazás
+        | ╸📄 boot.dol
+        | ╸📄 meta.xml
+        | ╸📄 icon.png
 ```
 
 `AppName1` és `AppName2` helyfoglaló nevek. Az `apps` mappában ne hozz létre egy másik `apps` nevű mappát.
 
-### Wii: További lépések
+---
 
 ::: tip
 
@@ -97,22 +111,13 @@ A NAND biztonsági mentés ezen a ponton erősen ajánlott, mivel használható 
 
 :::
 
-::: tip
-
-Tipp: Ha egy Wii-re telepítve van a BootMii boot2 néven, akkor a lemezegység ismét felvillan a POWER gomb megnyomása utáni első villanást követően.
-
-:::
 ::::
 
 :::: tab Wii mini
 
-# Homebrew Channel
+## Homebrew Channel telepítés a Wii mini-hez
 
-:::details Technikai részletek (opcionális)
-
-A Homebrew Channelből lehet nemhivatalos alkalmazásokat futtatni.
-
-:::
+This guide instructs you on how to install the Homebrew Channel, which is where you will go to launch homebrew applications.
 
 ::: warning
 
@@ -120,7 +125,7 @@ Ugyan egy Wii minire is lehetséges telepíteni a BootMiit, de egy SD kártya-ol
 
 :::
 
-## Lépések
+### Lépések
 
 1. Ennél a lépésnél a konzolodnak már mutatnia kell az előző részben elindított HackMii-telepítőt.
 
@@ -148,30 +153,28 @@ Ugyan egy Wii minire is lehetséges telepíteni a BootMiit, de egy SD kártya-ol
 
    ![](/images/hbc/blank.png)
 
-## Kötelező olvasnivaló
+### Kötelező olvasnivaló
 
 Most már tudod használni a Homebrew Channel-t arra, hogy homebrew appokat indíts.
 
 Megjegyzés: Ha homebrew alkalmazásokat telepítesz az USB drive-odra, a könyvtárfelépítésed így kell, hogy kinézzen:
 
-```
-💾 USB Drive
+```shell
+💾 USB drive
 | ╸📁 apps
-	| ╸📁 AppName1
-		| ╸📄 boot.dol
-		| ╸📄 meta.xml
-		| ╸📄 icon.png
-	| ╸📁 AppName2
-		| ╸📄 boot.dol
-		| ╸📄 meta.xml
-		| ╸📄 icon.png
+    | ╸📁 EgyikAlkalmazás
+        | ╸📄 boot.dol
+        | ╸📄 meta.xml
+        | ╸📄 icon.png
+    | ╸📁 MásikAlkalmazás
+        | ╸📄 boot.dol
+        | ╸📄 meta.xml
+        | ╸📄 icon.png
 ```
 
 `AppName1` és `AppName2` helyfoglaló nevek. Az `apps` mappában ne hozz létre egy másik `apps` nevű mappát.
 
-::: tip
-
-### Wii mini: További lépések
+---
 
 ::: tip
 
@@ -180,4 +183,5 @@ Megjegyzés: Ha homebrew alkalmazásokat telepítesz az USB drive-odra, a könyv
 A NAND biztonsági mentés ezen a ponton erősen ajánlott, mivel használható arra, hogy helyreállitsunk vele brickelésből.
 
 :::
+
 ::::

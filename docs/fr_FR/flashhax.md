@@ -47,9 +47,11 @@ If you still can't get it to load, try deleting your cookies or save data for th
 
 Si après plusieurs essais, Flashhax ne fonctionne toujours pas, considérez d'essayer un [exploit différent](get-started) à la place.
 
+---
+
 ::: tip
 
-[Continuer vers la chaîne Homebrew et l'installation de BootMii](hbc)
+[Continuer vers l'installation de Homebrew Channel et de BootMii](hbc)
 {: .notice--info}
 
 :::

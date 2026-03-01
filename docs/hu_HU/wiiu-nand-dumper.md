@@ -36,8 +36,8 @@ Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32-re for
 
 :::details Ha megfelelően követted a lépéseket az SD kártyádon a következő elrendezésnek kell lennie:
 
-```
-💾sd:
+```shell
+💾 SD Card
  ┗ 📁 wiiu
    ┣ 📁 apps
    ┃ ┣ 📄 AromaUpdater.wuhb
@@ -88,6 +88,8 @@ Biztosítsd hogy a Wii U-nak legyen internet hozzáférése ehhez a lépéshez, 
 
    ![](/images/vwii/exploit/payload-loader.png)
 
+   ![](/images/vwii/exploit/payload-loader.png)
+
 ### III. rész - NAND mentés
 
 1. Használd a Wii U GamePad D-Pad-jét a kövtkező konfiguráció beviteléhez:
@@ -109,6 +111,8 @@ Biztosítsd hogy a Wii U-nak legyen internet hozzáférése ehhez a lépéshez, 
 5. Töröld a fájlokat az SD kártyádról hely felszabadításához.
 
 6. Vedd ki az SD kártyád a számítógépedből, majd dugd vissza a Wii U konzolodba.
+
+---
 
 ::: tip
 

@@ -1,5 +1,20 @@
 # Az Open Shop Channel telepítése
 
+::: tip
+
+**A kötelező rész vége**
+
+Ez jelzi a végét a kötelező részeknek a fő útmutatóban. Nem kell tovább követned az útmutatót e pont után, ha egy alap, működő homebrew konfigurációt szeretnél.
+
+Továbbhaladva az úmtutató maradékán, az útmutató bemutatja, hogyan hozd ki a legtöbbet a Wii-dből:
+
+- Az Open Shop Channel használata homebrew alkalmazások beszerzésére
+- A WiiConnect24 funkcionalitásának visszaállítása a WiiLink-kel
+- Az online játék lehetőségének visszaállítása a Wiimmfi-vel
+- Kipróbálásra ajánlott homebrew alkalmazások listájának bemutatása
+
+:::
+
 ::: info
 
 Az angol nyelvű Open Shop Channel-támogatáshoz csatlakozz az [Open Shop Channel Discord](https://discord.gg/osc) szerverére.
@@ -191,16 +206,12 @@ Python 3 telepítésre van szükséged az OSCDL haszmálatához ezeken a platfor
 
 3. Csatlakoztasd az SD kártyát vagy az USB drive-ot a Wiihez és nyisd meg a Homebrew Channelt. Ha minden jól ment, akkor a letöltött program meg fog jelenni a listán.
 
-::: tip
-
-Folytatás az [ajánlott Homebrew](recommended-homebrew)-okkal
-
-Ebben az útmutatóban listázzuk a szerintünk beszerezni érdemes homebrew alkalmazásokat. Ezek között vannak segédeszközök, emulátorok és még sok más.
-
-:::
+---
 
 ::: tip
 
-[Vissza a Honlap navigációra](site-navigation)
+[Folytatás a WiiConnect24-gyel](wiiconnect24)
+
+A WiiConnect24 egy a Nintendo futtatott online szolgáltatás volt, ami funkcionalitást biztosított az olyan appokhoz, mint a Forecast és News csatornák. Ez at útmutató a WiiLink szolgáltatást mutatja be, ami visszaállítja ezt a funkcionalitást és más információkat, amikre figyelni kell a használatakor.
 
 :::

@@ -36,8 +36,8 @@ SD 카드는 FAT32로 포맷해야 합니다. SD 카드가 FAT32 형식으로 �
 
 :::details If you followed the steps correctly, your SD card should have the following layout:
 
-```
-💾sd:
+```shell
+💾 SD Card
  ┗ 📁 wiiu
    ┣ 📁 apps
    ┃ ┣ 📄 AromaUpdater.wuhb
@@ -88,6 +88,8 @@ Ensure that your Wii U has Internet access for this step to ensure the exploit c
 
    ![](/images/vwii/exploit/payload-loader.png)
 
+   ![](/images/vwii/exploit/payload-loader.png)
+
 ### 섹션 III - 낸드 백업
 
 1. Wii U 게임패드의 십자 패드를 사용하여 다음 구성을 입력합니다.
@@ -109,6 +111,8 @@ Ensure that your Wii U has Internet access for this step to ensure the exploit c
 5. Delete the files from your SD card to free up space.
 
 6. Take the SD card out of your computer and plug it into your Wii U console.
+
+---
 
 ::: tip
 

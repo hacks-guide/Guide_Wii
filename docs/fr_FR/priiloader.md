@@ -1,8 +1,14 @@
 # Priiloader
 
-Priiloader adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also apply hacks that are used to enhance, unlock, and fix many System Menu features.
+[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii, by loading before the Wii System Menu. The tool can also apply hacks that are used to enhance, unlock, and fix many System Menu features.
 
-Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
+Additionally, it can be used to quickly launch any title or homebrew app, or change the way your Wii boots.
+
+::: info
+
+You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
+
+:::
 
 ## Prérequis
 
@@ -20,16 +26,16 @@ Additionally, it can be used to quickly launch any Title or Homebrew, or change 
 
 ### Section I - Préparation
 
-1. Éteignez votre console.
+1. Power off your Wii.
 2. Insérez votre carte SD ou votre clé USB dans votre ordinateur.
 3. Extract both apps to the root of your SD card or USB drive.
 4. Copy `uneoboot.dol` to the root of your SD card.
 5. Allows the Wii Menu to launch discs (this is only the Wii Backup Disc) that use IOS16.
-6. Sends Wii Menu logs to a debugging device in memory card slot B, if the Wii Menu is launched by Gecko OS.
+6. Insérez votre carte SD ou votre clé USB dans votre ordinateur.
 
 ### Section II - Installing Priiloader
 
-1. Allumez votre console.
+1. Éteignez votre console.
 
 2. Launch the Homebrew Channel, and launch the Load Priiloader app.
 
@@ -88,11 +94,7 @@ Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
 4. Press `B` to return to the main menu.
 
-::: info
-
-You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
-
-:::
+---
 
 ::: info
 
@@ -102,7 +104,7 @@ These guidelines list ways that will help avoid bricking your Wii, beyond just h
 
 :::
 
-## Next Steps
+---
 
 ::: tip
 

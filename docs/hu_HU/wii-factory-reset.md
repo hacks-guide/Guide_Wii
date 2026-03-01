@@ -88,6 +88,8 @@ Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult 
 
    ![](/images/factory-reset/nandname.png)
 
+---
+
 ::: tip
 
 [Folytatás a BootMii Recovery-vel](bootmiirecover)

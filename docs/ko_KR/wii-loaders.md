@@ -42,12 +42,12 @@ WiiFlow Lite용 공식 Wii 메뉴 포워더 설치 프로그램은 [오픈 샵 �
 
 아래는 단일 WBFS의 예와 분할된 WBFS의 예입니다. WBFS가 4GB를 넘고 저장 장치가 FAT32로 포맷된 경우 WBFS를 분할해야 합니다. Software such as [TinyWiiBackupManager](backups#using-tinywiibackupmanager) can do this for you, and will automatically set up the game folder structure correctly.
 
-```
-💾SD 카드 또는 USB:
+```shell
+💾 SD Card or USB Drive
  ┗ 📂wbfs
-    ┣ 📂게임이름 [게임ID]
-    ┃  ┗ 📜gameid.wbfs (분할되지 않은 타이틀의 경우)
-    ┗ 📂게임이름 [게임ID]
+    ┣ 📂GameName [GameID]
+    ┃  ┗ 📜gameid.wbfs (for non-split titles)
+    ┗ 📂GameName [GameID]
        ┣ 📜gameid.wbfs
        ┗ 📜gameid.wbf1
 ```
@@ -160,7 +160,7 @@ WiiFlow가 게임을 감지하면 플로우 뷰에 표시됩니다.
 - 스펀지 밥의 보팅 배쉬를 실행합니다.
 - 락 밴드에서 USB 동글 사용합니다.
 
-좀 더 포괄적인 (하지만 아직 불완전한) 목록은 [여기](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List)에서 확인할 수 있습니다.
+A more comprehensive (although still incomplete) list can be found [on GBAtemp](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
 
 USB Loader GX와 WiiFlow Lite는 둘 다 가장 적합한 cIOS를 자동으로 찾아 기본 설정을 사용하여 게임을 로드하도록 프로그램되어 있습니다.  하지만, 어떤 이유로든 이러한 로더가 잘못된 cIOS를 선택하면 직접 변경할 수 있는 옵션이 있습니다.
 
@@ -183,6 +183,8 @@ USB Loader GX와 WiiFlow Lite는 둘 다 가장 적합한 cIOS를 자동으로 �
 3. cIOS로 가서 화살표를 이용해 사용할 IOS 슬롯을 선택합니다.
    - 248, 249, 250, 251을 사용해 봅니다.
 4. 저장을 누르고 게임을 로드해 봅니다.
+
+---
 
 ::: tip
 
