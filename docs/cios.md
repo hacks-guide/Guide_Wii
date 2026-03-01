@@ -38,7 +38,7 @@ Your browser or antivirus software may flag NUSGet as malware - this is a false 
 
 :::
 
-::: info
+::: tip
 
 If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing).
 
