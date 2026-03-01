@@ -26,7 +26,7 @@ If you own a Wii mini, most users will want to select **nanddumper@ios**. If you
 
 Your NAND backup can be utilized in Dolphin Emulator, if you choose to do so.
 
-1. Get the latest beta or development release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
+1. Get the latest release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
 1. Open Dolphin Emulator.
 1. Click on the `Tools` tab, scroll down to `Manage NAND`, then select `Import BootMii NAND backup...`.
 1. Locate the `nand.bin` found on the root of your SD card and select Open.
