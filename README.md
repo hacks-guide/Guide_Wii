@@ -1,4 +1,4 @@
-# wii.hacks.guide
+# Wii Hacks Guide
 
 The complete guide to modding your Wii, vWii, and Wii mini.
 
