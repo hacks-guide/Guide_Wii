@@ -184,7 +184,7 @@ If you downloaded the 4 WAD files in Section I, you may now delete them from you
 
 [Continue to Open Shop Channel installation](osc)
 
-Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+Now that the Homebrew Channel, BootMii, Priiloader, and cIOS are all installed, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 
 :::
 
@@ -277,7 +277,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ::: tip
 
-[Continue to Finalizing Setup](vwii-finalizing-setup)
+[Continue to Finalizing Setup (Wii U)](vwii-finalizing-setup)
 
 Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard vWii menu.
 
@@ -346,7 +346,9 @@ If you need assistance with this tutorial, please join [the Wii mini Hacking Dis
 
 ::: tip
 
-[Continue to Finalizing Setup](mini-finalizing-setup)
+[Continue to Finalizing Setup (Wii mini)](mini-finalizing-setup)
+
+Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard Wii mini menu.
 
 :::
 

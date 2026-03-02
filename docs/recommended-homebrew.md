@@ -72,6 +72,14 @@ We also have additional content on the [hacks.guide wiki](https://wiki.hacks.gui
 
 ::: tip
 
+[Click here to join the the Wii mini Hacking discord server for targeted Wii mini support and more.](https://discord.gg/6ryxnkS)
+
+:::
+
+---
+
+::: tip
+
 [Click here to go back to the site index.](site-navigation)
 
 :::
