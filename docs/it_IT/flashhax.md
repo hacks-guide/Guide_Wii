@@ -47,6 +47,8 @@ Se dopo questo non riesci ancora a caricare l'installer, prova a cancellare i tu
 
 If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
 
+---
+
 ::: tip
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)

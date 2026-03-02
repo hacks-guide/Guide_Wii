@@ -1,6 +1,6 @@
 # 중요 정보
 
-이 페이지에는 개조 과정을 시작하기 전에 알아야 할 중요한 면책 조항과 정보가 포함되어 있습니다.
+This page outlines important information and disclaimers that you should be aware of before starting with the modding process.
 
 ## 벽돌과 일반적인 위험
 
@@ -27,33 +27,31 @@
 
 :::: details 한국어 Wii를 가지고 있다면?
 
-한국어 Wii는 완벽히 지원되며 지역 변경도 가능합니다.
-지역 데이터를 수정할 때는 주의하고 지침을 주의 깊게 따르면 문제가 발생하지 않습니다.
+Korean Wiis are fully supported by the guide and can be modded using normal procedures. They can also be region changed.
+Exercise caution when modifying region data and follow the guide carefully to avoid a brick.
 
 ::::
 
-:::: details Wii U (vWii)를 가지고 있다면?
+:::: details What if I own a Wii U and want to exploit Wii mode?
 
-Wii U의 Wii 모드 (홈브류 커뮤니티에서는 vWii라고 함)는 완벽히 지원되지만 아로마 환경을 설정하는 것이 좋습니다.
+Wii mode on Wii U (called vWii in the homebrew community) is fully supported by the guide, however it is recommended to setup an Aroma environment before starting.
 누락된 Wii 기능을 복구할 수 있습니다. 현재 거의 모든 홈브류가 지원됩니다. (게임큐브 홈브류 제외)
 Wii U의 USB 포트만으로는 충분한 전력을 공급할 수 없으므로 저장 장치에는 추가 전원 (Y형 케이블이나 외부 전원 공급 장치 사용)이 필요합니다.
-홈브류에 여러 버전이 있는 경우, vWii용으로 설계된 버전을 사용하고 있는지 확인합니다.
-특히 iOS는 vWii용으로 특별히 설계되었으므로, 벽돌 현상이 발생하지 않도록 주의합니다.
+Make sure to use IOS and homebrew that are designed specifically for vWii in order to avoid bricking the console.
 
 ::::
 
 :::: details Wii 미니를 가지고 있다면?
 
-Wii 미니는 대부분의 기존 홈브류와 호환되며 지원됩니다.
+Wii Mini is fully supported by the guide and has compatibility with most existing homebrew.
 누락된 Wii 기능을 복구할 수 있습니다. LAN 어댑터와 USB 허브를 권장합니다.
-홈브류에 여러 버전이 있는 경우, Wii 미니용으로 설계된 버전을 사용해야 합니다.
-Wii 미니용으로 특별히 설계된 iOS의 경우, 벽돌을 피하기 위해 특히 조심해야 합니다.
+Make sure to use IOS and homebrew that are designed specifically for the Wii mini in order to avoid bricking the console.
 
 ::::
 
 ## 저장소 호환성
 
-SD 카드의 경우, 익스플로잇을 실행하려면 최소 128MB가 필요합니다. 하지만, 평균적으로 2GB 이상 크기의 카드가 필요합니다. Wii는 용량에 상관없이 모든 SD 카드 (32GB보다 큰 카드 포함)를 읽을 수 있지만, 카드는 [FAT32/MS-DOS 형식으로 포맷](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)(exFAT 또는 NTFS 형식은 **안 됨**)되어 있어야 합니다.
+SD 카드의 경우, 익스플로잇을 실행하려면 최소 128MB가 필요합니다. 하지만, 평균적으로 2GB 이상 크기의 카드가 필요합니다. The Wii can read SD cards of most capacities (even those larger than 32GB), but the card must be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**not** exFAT or NTFS).
 
 USB 장치의 경우 [FAT32/MS-DOS 형식으로 포맷된](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) USB 하드 드라이브 또는 솔리드 스테이트 드라이브를 사용하는 것이 좋습니다. 플래시 드라이브는 Wii에서 고장이 나거나 의도한 대로 작동하지 않을 수 있으므로 사용하지 않는 것이 좋습니다.
 
@@ -73,7 +71,7 @@ Wii U의 경우 vWii는 Wii U 기본 설정에서 설정한 인터넷 설정을 
 
 ## 도움 받기
 
-가이드를 따라가는 동안 문제가 생겼나요? 이미 개조된 Wii에서 문제가 생겼나요? 아니면 그냥 답변이 필요하세요?
+Ran into an issue while following the guide, already have an issue on your modded Wii, or just have a question?
 
 - 이 페이지에 질문에 대한 답변이 없는 경우 가이드의 [자주 묻는 질문](faq) 섹션에서 답변을 찾아볼 수 있습니다.
 - 여전히 질문에 대한 답변을 받지 못하고 지원이 필요한 경우 [닌텐도 홈브류 디스코드](https://discord.gg/C29hYvh)에 가입하여 `#wii-vwii-assistance` 채널로 이동합니다.
@@ -82,7 +80,6 @@ Wii U의 경우 vWii는 Wii U 기본 설정에서 설정한 인터넷 설정을 
 
 [시작하기](get-started)로 계속하기
 
+Once you have finished reading the above disclaimers, proceed to Get Started to select your console and initial exploit method.
+
 :::
-
-
-

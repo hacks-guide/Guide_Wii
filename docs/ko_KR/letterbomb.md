@@ -71,6 +71,8 @@ SD 카드를 올바르게 포맷하는 방법에 대한 지침은 [이 가이드
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
+---
+
 ::: tip
 
 [홈브류 채널 및 BootMii 설치 계속하기](hbc)

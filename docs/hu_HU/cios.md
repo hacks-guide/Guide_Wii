@@ -4,19 +4,21 @@ outline: false
 
 # cIOS-ek telepítése
 
+A cIOS, vagy egyedi IOS, patchelt és módosított verziója bizonyos IOS-oknak (vagy egyszerűen részei a Wii rendszer szoftverének) amik lehetővé teszik a homebrew appok számára, mint például az USB loaderek, hogy működjenek ott, ahol esetleg nem tudnának. Habár ez nem szükséges a egy működő homebrew telepítéshez, erősen ajánlott a CIOS-ok telepítése, mert kierejesztik a Wii-d funkcionalitását kevés, vagy semmi hátránnyal.
+
 ::::: tabs
 
-:::: tab cIOS a Wii/Family Edition-höz
+:::: tab Wii/Family Edition
 
-:::details Technikai részletek (opcionális)
+::: danger
 
-a cIOS („custom IOS” / „egyéni IOS”)-ek egyéni rendszerfunkciók igénybevételét teszik lehetővé. Ugyan a [cIOS](https://wiibrew.org/wiki/Custom_IOS)-eket nagyrészt kiváltotta az AHBPROT, amely teljes hardveres hozzáférést biztosít, az előbbi továbbra is rendelkezik néhány hasznos képességgel. A cIOS-ek pl. lehetővé teszik az USB-betöltők, mint az USB Loader GX és a WiiFlow, és néhány más program, mint a SaveGame Manager GX működését. Az útmutató ezen része nem kötelező, de ajánlott végigcsinálni, hiszen hátrányok nélkül kiterjeszti a Wiid funkcionalitását.
+Ne próbálj meg vWii/Wii minire tervezett IOS-t vagy rendszermenüt Wiire telepíteni! Ha mégis így tennél, azzal [brickelheted](bricks#ios-brick) a konzolod.
 
 :::
 
 ::: warning
 
-Ne próbálj meg vWii/Wii minire tervezett IOS-t vagy rendszermenüt Wiire telepíteni! Ha mégis így tennél, azzal [brickelheted](bricks#ios-brick) a konzolod.
+Biztosítsd, hogy olyan SD kártyát használsz, ahol az írásvédelem a feloldott pozícióban van. Egyébként nem fogod tudni kiválasztani a szükséges opciókat a telepítőben.
 
 :::
 
@@ -26,17 +28,11 @@ Ne próbálj meg vWii/Wii minire tervezett IOS-t vagy rendszermenüt Wiire telep
 - Egy SD kártya vagy pendrive
 - A [d2x cIOS Installer](https://oscwii.org/library/app/d2x-cios-installer)
 
-::: warning
-
-Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-kapcsoló nyitott állásban legyen, különben a telepítőben nem fogod tudni kiválasztani a helyes beállításokat!
-
-:::
-
 ## Lépések
 
 ### I. rész - Letöltés
 
-::: warning
+::: tip
 
 A böngésződ vagy a vírusírtó szoftvered elképzelhető, hogy a NUSGet-et malware-nek jelöli - ez hamis pozitív. A NUSGet NEM tartalmaz malware-t.
 
@@ -44,7 +40,7 @@ A böngésződ vagy a vírusírtó szoftvered elképzelhető, hogy a NUSGet-et m
 
 ::: info
 
-Ha képes vagy csatlakoztatni a Wii-odat az internetre, átugorgathatsz a [II. részre](cios#section-ii---installing)
+Ha képes vagy csatlakoztatni a Wii-odat az internetre, átugorgathatsz a [II. részre](cios#section-ii---installing).
 
 :::
 
@@ -94,7 +90,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
 6. Állíts be mindent az alábbiak szerint:
 
-   ```
+   ```html
    Select cIOS <d2x-v11-beta3>
    Select cIOS base <38>
    Select cIOS slot <248>
@@ -149,7 +145,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
     - A cIOS 249 telepítéséhez
 
-      ```
+      ```html
       Select cIOS <d2x-v11-beta3>
       Select cIOS base <56>
       Select cIOS slot <249>
@@ -160,7 +156,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
     - A cIOS 250 telepítéséhez
 
-      ```
+      ```html
       Select cIOS <d2x-v11-beta3>
       Select cIOS base <57>
       Select cIOS slot <250>
@@ -171,7 +167,7 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
     - A cIOS 251 telepítéséhez
 
-      ```
+      ```html
       Select cIOS <d2x-v11-beta3>
       Select cIOS base <58>
       Select cIOS slot <251>
@@ -188,6 +184,8 @@ Ha letöltötted a 4 WAD fájlt az I. részben, most törölheted őket az SD k�
 
 :::
 
+---
+
 ::: tip
 
 [Folytatás az Open Shop Channel telepítésével](osc)
@@ -198,17 +196,17 @@ Most, hogy a konzol megfelelő védelemmel rendelkezik, telepítheted az Open Sh
 
 ::::
 
-:::: tab cIOS a vWii-hez (Wii U-hoz)
+:::: tab vWii (Wii U)
 
-:::details Technikai részletek (opcionális)
+::: danger
 
-a cIOS („custom IOS” / „egyéni IOS”)-ek egyéni rendszerfunkciók igénybevételét teszik lehetővé. Ugyan a [cIOS](https://wiibrew.org/wiki/Custom_IOS)-eket nagyrészt kiváltotta az AHBPROT, amely teljes hardveres hozzáférést biztosít, az előbbi továbbra is rendelkezik néhány hasznos képességgel. A cIOS-ek pl. lehetővé teszik az USB-betöltők, mint az USB Loader GX és a WiiFlow, és néhány más program, mint a SaveGame Manager GX működését. Az útmutató ezen része nem kötelező, de ajánlott végigcsinálni, hiszen hátrányok nélkül kiterjeszti a Wiid funkcionalitását.
+Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telepíteni! Ha mégis így tennél, azzal [brickelheted](bricks#ios-brick) a konzolod.
 
 :::
 
 ::: warning
 
-Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telepíteni! Ha mégis így tennél, azzal [brickelheted](bricks#ios-brick) a konzolod.
+Biztosítsd, hogy olyan SD kártyát használsz, ahol az írásvédelem a feloldott pozícióban van. Egyébként nem fogod tudni kiválasztani a szükséges opciókat a telepítőben.
 
 :::
 
@@ -217,12 +215,6 @@ Ne próbálj meg Wii/Wii minire tervezett IOS-t vagy rendszermenüt vWiire telep
 - Egy Wii U, aminek a vWii-jére telepítve van a Homebrew Channel
 - Egy SD kártya vagy pendrive
 - A [d2x cIOS Installer for vWii](https://oscwii.org/library/app/d2x-cios-installer-vwii)
-
-::: warning
-
-Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-kapcsoló nyitott állásban legyen, különben a telepítőben nem fogod tudni kiválasztani a helyes beállításokat!
-
-:::
 
 ## Lépések
 
@@ -240,7 +232,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
 6. Állíts be mindent az alábbiak szerint:
 
-   ```
+   ```html
    Select cIOS <d2x-v11-beta3-vWii>
    Select cIOS base <38>
    Select cIOS slot <248>
@@ -262,7 +254,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
    - A cIOS 249 telepítéséhez
 
-     ```
+     ```html
      Select cIOS <d2x-v11-beta3-vWii>
      Select cIOS base <56>
      Select cIOS slot <249>
@@ -272,7 +264,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
    - A cIOS 250 telepítéséhez
 
-     ```
+     ```html
      Select cIOS <d2x-v11-beta3-vWii>
      Select cIOS base <57>
      Select cIOS slot <250>
@@ -282,7 +274,7 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
 
    - A cIOS 251 telepítéséhez
 
-     ```
+     ```html
      Select cIOS <d2x-v11-beta3-vWii>
      Select cIOS base <58>
      Select cIOS slot <251>
@@ -291,6 +283,8 @@ Ha egy SD kártyát használsz, bizonyosodj meg róla, hogy a rajta lévő LOCK-
      ![](/images/cios/d2x_v11_251_vwii.png)
 
 9. Ha végeztél mind a négy cIOS telepítésével, nyomd meg a B gombot a Homebrew Channelbe való visszatéréshez.
+
+---
 
 ::: tip
 
@@ -302,25 +296,23 @@ Most, hogy már a Homebrew Channel, Priiloader, és cIOS telepítve, folytathato
 
 ::::
 
-:::: tab cIOS a Wii mini-hez
+:::: tab Wii mini
 
-::: info
+::: danger
 
-Ha az útmutatóval kapcsolatban segítségre lenne szükséged (angol nyelven), kérjük csatlakozz a [Wii mini Hacking Discord server](https://discord.gg/6ryxnkS)-hez. (ajánlott)
-
-:::
-
-:::details Technikai részletek (opcionális)
-
-a cIOS („custom IOS” / „egyéni IOS”)-ek egyéni rendszerfunkciók igénybevételét teszik lehetővé. Ugyan a [cIOS](https://wiibrew.org/wiki/Custom_IOS)-eket nagyrészt kiváltotta az AHBPROT, amely teljes hardveres hozzáférést biztosít, az előbbi továbbra is rendelkezik néhány hasznos képességgel. A cIOS-ek pl. lehetővé teszik az USB-betöltők, mint az USB Loader GX és a WiiFlow, és néhány más program, mint a SaveGame Manager GX működését. Az útmutató ezen része nem kötelező, de ajánlott végigcsinálni, hiszen hátrányok nélkül kiterjeszti a Wiid funkcionalitását.
-
-A d2x cIOS-telepítő ezen változatát eredetileg a Wii U vWiijére készítette DaveBaol, amit a Wii minire Leseratte ültetett át. Az eredeti oldal [itt](https://wii.leseratte10.de/d2xl-cIOS/) található. Leseratte GitHub oldala [itt](https://github.com/Leseratte10/d2xl-cios) található. Ugyan ez a cIOS még kísérleti fázisban áll, de még senki sem jelentett a működésével kapcsolatos hibát.
+Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire telepíteni. Ha mégis így tennél, azzal [brickelheted](bricks#ios-brick) a konzolod.
 
 :::
 
 ::: warning
 
-Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire telepíteni. Ha mégis így tennél, azzal [brickelheted](bricks#ios-brick) a konzolod.
+Biztosítsd, hogy olyan SD kártyát használsz, ahol az írásvédelem a feloldott pozícióban van. Egyébként nem fogod tudni kiválasztani a szükséges opciókat a telepítőben.
+
+:::
+
+::: info
+
+Ha az útmutatóval kapcsolatban segítségre lenne szükséged, kérjük csatlakozz a [Wii mini Hacking Discord szerver](https://discord.gg/6ryxnkS)-hez.
 
 :::
 
@@ -347,7 +339,7 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire tele
 1. Válaszd a `Continue`-t.
 2. Állíts be mindent az alábbiak szerint:
 
-   ```
+   ```html
    Select cIOS <d2xl-v1-beta2>
    Select cIOS base <57>
    Select cIOS slot <249>
@@ -361,15 +353,11 @@ Ne próbálj meg Wii/vWiire tervezett IOS-t vagy System Menu-t a Wii minire tele
    - Ha a telepítés megszakad `TMD version mismatch` hibával, akkor a Control Pad jobb- és bal nyílgombjaival állítsd át a `Select cIOS base` opciót amíg verziószám más nem lesz, mint amit korábban próbáltál. Az 57-es szám nem változik.
 4. A folyamat végén lépj ki a telepítőből.
 
+---
+
 ::: tip
 
 [Folytatás a telepítés befejezésével](mini-finalizing-setup)
-
-:::
-
-::: tip
-
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::
 

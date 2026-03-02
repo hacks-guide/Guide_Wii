@@ -38,7 +38,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
    ![](/images/riiconnect24/Internet_2.png)
 
-4. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
+4. Navigate to `Page 2` > `Internet` > `Connection Settings`.
 
    ![](/images/riiconnect24/Internet_3.png)
 
@@ -99,6 +99,8 @@ This exploit requires you to set your DNS in order to connect to a server that c
    ![](/images/hackmii/scam.png)
 
    - If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+
+---
 
 ::: tip
 

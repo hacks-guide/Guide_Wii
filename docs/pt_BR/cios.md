@@ -4,19 +4,21 @@ outline: false
 
 # cIOS
 
+cIOS, or custom IOS, are patched and modified versions of certain IOS (or simply, parts of the Wii's system software) that allow homebrew apps like USB loaders to be able to function where they otherwise would not. While not required for a functioning homebrew setup, it is highly recommended to install cIOS anyway because it augments the functionality of your Wii with little to no downside.
+
 ::::: tabs
 
-:::: tab cIOS for Wii/Family Edition
+:::: tab Wii/Family Edition
 
-:::details Detalhes técnicos (opcional)
+::: danger
 
-cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Por exemplo, isso permite a funcionalidade de Loaders USB como o USB Loader GX e WiiFlow, juntamente com outras partes de homebrew como o SaveGame Manager GX. Você pode ignorar este processo se você quiser, mas, geralmente, ele estende seu Wii com pouco ou nenhum lado negativo.
+Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely [brick](bricks#ios-brick) your console.
 
 :::
 
 ::: warning
 
-Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely [brick](bricks#ios-brick) your console.
+Ensure that if you are using an SD card, the lock switch is in the unlocked position. Otherwise, you will not be able to select the correct options in the installer.
 
 :::
 
@@ -26,17 +28,11 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 - Um cartão SD ou armazenamento USB
 - The [d2x cIOS Installer](https://oscwii.org/library/app/d2x-cios-installer)
 
-::: warning
-
-Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio está na posição desbloqueada, caso contrário, você não será capaz de selecionar as opções corretas no instalador.
-
-:::
-
 ## Instructions
 
 ### Seção I - Baixando
 
-::: warning
+::: tip
 
 Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
 
@@ -44,7 +40,7 @@ Your browser or antivirus software may flag NUSGet as malware - this is a false 
 
 ::: info
 
-If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing).
 
 :::
 
@@ -94,7 +90,7 @@ The WAD files should be on your SD card like this:
 
 6. Set everything to match the following:
 
-   ```
+   ```html
    Select cIOS <d2x-v11-beta3>
    Select cIOS base <38>
    Select cIOS slot <248>
@@ -149,7 +145,7 @@ The WAD files should be on your SD card like this:
 
     - Install cIOS 248
 
-      ```
+      ```html
       Select cIOS <d2x-v11-beta3>
       Select cIOS base <56>
       Select cIOS slot <249>
@@ -160,7 +156,7 @@ The WAD files should be on your SD card like this:
 
     - Install cIOS 250
 
-      ```
+      ```html
       Select cIOS <d2x-v11-beta3>
       Select cIOS base <57>
       Select cIOS slot <250>
@@ -171,7 +167,7 @@ The WAD files should be on your SD card like this:
 
     - Install cIOS 251
 
-      ```
+      ```html
       Select cIOS <d2x-v11-beta3>
       Select cIOS base <58>
       Select cIOS slot <251>
@@ -188,6 +184,8 @@ If you downloaded the 4 WAD files in Section I, you may now delete them from you
 
 :::
 
+---
+
 ::: tip
 
 [Continue to Open Shop Channel installation](osc)
@@ -198,17 +196,17 @@ Now that your Wii has adequate brick protection, you can install the Open Shop C
 
 ::::
 
-:::: tab cIOS for vWii (Wii U)
+:::: tab vWii (Wii U)
 
-:::details Detalhes técnicos (opcional)
+::: danger
 
-cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Por exemplo, isso permite a funcionalidade de Loaders USB como o USB Loader GX e WiiFlow, juntamente com outras partes de homebrew como o SaveGame Manager GX. Você pode ignorar este processo se você quiser, mas, geralmente, ele estende seu Wii com pouco ou nenhum lado negativo.
+Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing so will likely [brick](bricks#ios-brick) your console.
 
 :::
 
 ::: warning
 
-Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing so will likely [brick](bricks#ios-brick) your console.
+Ensure that if you are using an SD card, the lock switch is in the unlocked position. Otherwise, you will not be able to select the correct options in the installer.
 
 :::
 
@@ -217,12 +215,6 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 - A Wii U with the Homebrew Channel installed on the vWii
 - Um cartão SD ou armazenamento USB
 - The [d2x cIOS Installer for vWii](https://oscwii.org/library/app/d2x-cios-installer-vwii)
-
-::: warning
-
-Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio está na posição desbloqueada, caso contrário, você não será capaz de selecionar as opções corretas no instalador.
-
-:::
 
 ## Passos:
 
@@ -240,7 +232,7 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
 
 6. Set everything to match the following:
 
-   ```
+   ```html
    Select cIOS <d2x-v11-beta3-vWii>
    Select cIOS base <38>
    Select cIOS slot <248>
@@ -262,7 +254,7 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
 
    - Install cIOS 248
 
-     ```
+     ```html
      Select cIOS <d2x-v11-beta3-vWii>
      Select cIOS base <56>
      Select cIOS slot <249>
@@ -272,7 +264,7 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
 
    - Install cIOS 250
 
-     ```
+     ```html
      Select cIOS <d2x-v11-beta3-vWii>
      Select cIOS base <57>
      Select cIOS slot <250>
@@ -282,7 +274,7 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
 
    - Install cIOS 251
 
-     ```
+     ```html
      Select cIOS <d2x-v11-beta3-vWii>
      Select cIOS base <58>
      Select cIOS slot <251>
@@ -291,6 +283,8 @@ Certifique-se de que se você estiver usando um cartão SD, a trava de bloqueio 
      ![](/images/cios/d2x_v11_251_vwii.png)
 
 9. Once you have finished installing all 4 cIOSes, press B to return to the Homebrew Channel.
+
+---
 
 ::: tip
 
@@ -302,25 +296,23 @@ Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proce
 
 ::::
 
-:::: tab cIOS for Wii mini
+:::: tab Wii mini
 
-::: info
+::: danger
 
-Se você precisar de ajuda com qualquer coisa sobre este tutorial, junte-se [ao servidor de Discord do Wii mini Hacking ](https://discord.gg/6ryxnkS) (recomendado)
-
-:::
-
-:::details Detalhes técnicos (opcional)
-
-cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. Por exemplo, isso permite a funcionalidade de Loaders USB como o USB Loader GX e WiiFlow, juntamente com outras partes de homebrew como o SaveGame Manager GX. Você pode ignorar este processo se você quiser, mas, geralmente, ele estende seu Wii com pouco ou nenhum lado negativo.
-
-O d2x cIOS installer foi originalmente desenvolvido para o vWii do Wii U por DaveBaol, e cIOS customizadas no Wii mini foram criadas por Leseratte. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Note que esta cIOS ainda se encontra em estado experimental, embora não foram reportados problemas com a funcionalidade.
+Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing so will likely [brick](bricks#ios-brick) your console.
 
 :::
 
 ::: warning
 
-Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing so will likely [brick](bricks#ios-brick) your console.
+Ensure that if you are using an SD card, the lock switch is in the unlocked position. Otherwise, you will not be able to select the correct options in the installer.
+
+:::
+
+::: info
+
+If you need assistance with this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
 
 :::
 
@@ -347,7 +339,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 1. Select `Continue`.
 2. Defina as opções para o seguinte:
 
-   ```
+   ```html
    Select cIOS <d2xl-v1-beta2>
    Select cIOS base <57>
    Select cIOS slot <249>
@@ -361,15 +353,11 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
    - If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. O número 57 não irá mudar.
 4. Assim que terminar, saia do instalador.
 
+---
+
 ::: tip
 
 [Continue to Finalizing Setup](mini-finalizing-setup)
-
-:::
-
-::: tip
-
-[Clique aqui para voltar para o índice do site.](site-navigation)
 
 :::
 

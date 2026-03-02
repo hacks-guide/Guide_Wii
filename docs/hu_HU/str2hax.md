@@ -38,7 +38,7 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
    ![](/images/riiconnect24/Internet_2.png)
 
-4. Navigálj a Page 2`->`Internet`->`Connection Settings\\` opcióig.
+4. Navigate to `Page 2` > `Internet` > `Connection Settings`.
 
    ![](/images/riiconnect24/Internet_3.png)
 
@@ -99,6 +99,8 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
    ![](/images/hackmii/scam.png)
 
    - Ha a HackMii Installer nem tölt be 2 perc után vagy hibát kapsz, mint `Hanging.` vagy `ERROR! if_config (ret = ...)`, kérjük indítsd újra a Wii-od és próbáld újra.
+
+---
 
 ::: tip
 

@@ -36,7 +36,7 @@ Ha az evWii Aroma plugin nem telepített, és a homebrew alkalmazás összeomlik
 
 1. Helyezd be a Wii U-d SD kártyáját a PC-dbe.
 2. Másold a `compat_installer.wuhb` fájlt a `compat_installer-Aroma.zip` fájlból a `wiiu` -> `apps` útvonalra az SD kártyádra.
-3. Másold az `evwii.wps` fájlt a `wiiu` -> `environments` -> `aroma` -> `plugins` útvonalra az SD kártyádra.
+3. Copy `evwii.wps` file to `wiiu` > `environments` > `aroma` > `plugins` of your SD Card.
 4. Helyezd vissza az SD kártyád a Wii U-dba.
 
 ### II. rész - Bootolás Aromába
@@ -110,14 +110,14 @@ Most már tudod használni a Homebrew Channel-t arra, hogy Wii homebrew appokat 
 
 Megjegyzés: Ha homebrew Wii alkalmazásokat telepítesz SD kártyára vagy USB drive-ra, a könyvtár felépítésed így kell, hogy kinézzen:
 
-```
-💾 SD kártya
+```shell
+💾 SD Card
  ┗ 📁 apps
-   ┣ 📁 <AppName1>
+   ┣ 📁 AppName1
    ┃ ┣ 📄 boot.dol
    ┃ ┣ 📄 meta.xml
    ┃ ┗ 📄 icon.png
-   ┗ 📁 <AppName2>
+   ┗ 📁 AppName2
      ┣ 📄 boot.dol
      ┣ 📄 meta.xml
      ┗ 📄 icon.png
@@ -126,6 +126,8 @@ Megjegyzés: Ha homebrew Wii alkalmazásokat telepítesz SD kártyára vagy USB 
 `AppName1` és `AppName2` helyfoglaló nevek. Az `apps` mappában ne hozz létre egy másik `apps` nevű mappát.
 
 Figyelj arra, hogy `apps` mappa a `wiiu` mappán belül (Wii U homebrew appokhoz) és az `apps` mappa az SD kártya gyökerében (Wii homebrew appokhoz) nem ugyanaz.
+
+---
 
 ::: tip
 

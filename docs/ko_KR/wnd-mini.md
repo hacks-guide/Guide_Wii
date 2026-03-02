@@ -10,7 +10,7 @@ Wii 미니 해킹에 대한 (영어) 지원을 받으려면 디스코드의 [Wii
 
 ::: info
 
-SD 카드 슬롯이 납땜된 Wii 또는 Wii 미니가 있는 경우 [이 자습서](bootmii)에 따라 낸드를 덤프하세요.
+If you have a Wii, or a Wii mini with an SD card slot soldered, follow [this tutorial](bootmii) to dump your NAND.
 
 :::
 
@@ -44,7 +44,7 @@ SD 카드 슬롯이 납땜된 Wii 또는 Wii 미니가 있는 경우 [이 자습
 2. Wii 미니에서 IOS 236을 자동으로 감지하고 일부 런타임 패치를 적용하여 낸드 덤프를 시작합니다.
 3. 완료되면 USB에 3 개의 새 파일이 생성됩니다:
 
-```
+```shell
 WiiFlash_n_ECC.img
 WFD_XXX_YY.img
 WiiFlash.log
@@ -61,7 +61,7 @@ WiiFlash.log
 
    - USB에 5 개의 새 파일이 생성됩니다:
 
-   ```
+   ```shell
    bootmii_keys.bin
    device.cert
    keys.txt
@@ -87,11 +87,15 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 
 :::
 
+---
+
 ::: tip
 
 [Priiloader 설치 계속하기](priiloader)
 
 :::
+
+---
 
 ::: tip
 

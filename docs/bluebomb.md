@@ -39,7 +39,7 @@ BlueBomb Classic utilizes a Linux device or virtual machine to upload an exploit
     * If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
         * ARM64 Raspberry Pi's need multiarch enabled with the armhf (32bit) architecture added. The following should work on any debian based OS:
 
-        ```bash
+        ```shell
         sudo sudo dpkg --add-architecture armhf
         sudo apt update && sudo apt install -y screen:armhf
         file /usr/bin/screen # should say ELF 32-bit
@@ -86,7 +86,7 @@ BlueBomb Classic utilizes a Linux device or virtual machine to upload an exploit
 1. Start your Linux distro, and ensure you are connected to the internet.
 1. Open the Terminal, and run the following commands:
 
-    ```bash
+    ```shell
     wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
     chmod +x bluebomb-helper.sh
     ./bluebomb-helper.sh

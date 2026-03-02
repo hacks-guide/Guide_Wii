@@ -30,6 +30,8 @@ SysCheck는 Wii에 있는 모든 IOS 및 cIOS가 표시되며, 각 항목에 대
 
 5. SysCheck를 공유하려면 SD 카드나 USB 드라이브의 루트에 있는 `syscheck.csv` 파일을 공유하면 됩니다. `A` 버튼을 눌러 보고서를 [syscheck.rc24.xyz](http://syscheck.rc24.xyz/)에 업로드할 수도 있습니다.
 
+---
+
 ::: tip
 
 [여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)

@@ -1,8 +1,14 @@
 # Priiloader
 
-[Priiloader](https://github.com/DacoTaco/priiloader)는 [DacoTaco](https://github.com/DacoTaco)가 작성한 필수 도구로 Wii에 벽돌 보호 수준을 추가합니다. It loads before the Wii Menu does (hence the name). 이 도구는 시스템 메뉴의 많은 기능을 향상, 잠금 해제, 수정하는 데 사용되는 해킹을 적용할 수도 있습니다.
+[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii, by loading before the Wii System Menu. 이 도구는 시스템 메뉴의 많은 기능을 향상, 잠금 해제, 수정하는 데 사용되는 해킹을 적용할 수도 있습니다.
 
-또한, 이를 사용하면 타이틀이나 홈브류를 빠르게 실행하거나 Wii의 자동 부팅 방식을 변경할 수 있습니다.
+Additionally, it can be used to quickly launch any title or homebrew app, or change the way your Wii boots.
+
+::: info
+
+Priiloader의 추가 옵션과 시스템 메뉴 해킹에 대한 자세한 내용은 [Priiloader 사용법](priiloader-usage) 페이지를 참조합니다.
+
+:::
 
 ## 요구 사항
 
@@ -12,7 +18,7 @@
 
 ### vWii에 대한 선택 사항 요구 사항 (강력 추천)
 
-- SD 카드
+- 일반적으로 허용되지 않는 저장 파일을 데이터 관리에서 SD 카드로 복사할 수 있습니다.
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (직접 다운로드)
   - Priiloader Wii U 포워더를 사용하려면 콘솔에 [아로마](https://wiiu.hacks.guide/aroma/getting-started)가 설치되어 있어야 합니다.
 
@@ -20,7 +26,7 @@
 
 ### 섹션 I - 준비 작업
 
-1. 콘솔의 전원을 끕니다.
+1. 콘솔 전원을 끄세요.
 2. Extract both apps to the root of your SD card or USB drive.
 3. LoadPriiloader `.zip`에서 `apps` 폴더를 SD 카드나 USB 드라이브의 루트에 복사합니다.
 4. priiloader `.zip`에서 `apps` 폴더를 SD 카드나 USB 드라이브의 루트에 복사합니다.
@@ -29,7 +35,7 @@
 
 ### 섹션 II - Priiloader 설치하기
 
-1. 콘솔의 전원을 켭니다.
+1. 콘솔 전원을 켜세요.
 
 2. Launch the Homebrew Channel, and launch the Load Priiloader app.
 
@@ -88,11 +94,7 @@ If you copied the Priiloader installer onto a USB drive, ensure that you DO NOT 
 
 4. 메인 메뉴로 돌아가려면 `B` 버튼을 누릅니다.
 
-::: info
-
-Priiloader의 추가 옵션과 시스템 메뉴 해킹에 대한 자세한 내용은 [Priiloader 사용법](priiloader-usage) 페이지를 참조합니다.
-
-:::
+---
 
 ::: info
 
@@ -102,7 +104,7 @@ Priiloader의 추가 옵션과 시스템 메뉴 해킹에 대한 자세한 내�
 
 :::
 
-## 다음 단계
+---
 
 ::: tip
 

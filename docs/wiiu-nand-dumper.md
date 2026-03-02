@@ -36,8 +36,8 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
 
 ::: details If you followed the steps correctly, your SD card should have the following layout:
 
-```
-💾sd:
+``` shell
+💾 SD Card
  ┗ 📁 wiiu
    ┣ 📁 apps
    ┃ ┣ 📄 AromaUpdater.wuhb

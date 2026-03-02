@@ -56,11 +56,15 @@ Ezek után telepítheted a Homebrew Channelt és hozzáférhetsz az SD kártyád
 
 :::
 
+---
+
 ::: tip
 
 [Vissza a Brick-ekhez](bricks)
 
 :::
+
+---
 
 ::: tip
 

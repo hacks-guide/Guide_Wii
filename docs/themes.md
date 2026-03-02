@@ -104,7 +104,7 @@ This guide is intended to be the last you will ever need when it comes to themin
 1. Create a `themes` folder on the root of your SD card/USB device.
 1. Extract the ThemeMii MOD `.zip` to a location on your PC.
 1. Launch the ThemeMii application.
-1. Go to `Tools` -> `Download Base App` -> `Version of your Wii Menu` -> `Region of your Wii Menu`.
+1. Go to `Tools` > `Download Base App` > `Version of your Wii Menu` > `Region of your Wii Menu`.
 1. A dialog box will pop-up asking you to enter in a value to create a key. Enter what it says, and it will create a key that will be used to decrypt the Wii Menu contents from Nintendo's servers.
 1. A file selection box will ask you where to save the .app file. Save it to the `themes` folder on your SD card/USB device.
 
@@ -116,7 +116,7 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 1. Extract the ThemeMii MOD `.zip` to a location on your PC.
 1. Launch the ThemeMii application.
-1. Go to `File` -> `Open`, and select the `.mym` file for the theme you want to build.
+1. Go to `File` > `Open`, and select the `.mym` file for the theme you want to build.
 1. Press `Create csm`.
 1. When asked to select an `.app` file, select the newly downloaded base theme in the `themes` of your SD card or USB device.
 1. When asked to save the `.csm` file, save it in the `themes` folder.

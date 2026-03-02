@@ -1,11 +1,32 @@
 # BootMii biztonsági mentés
 
-A BootMii lehetővé teszi, hogy biztonsági mentést készíts a Wiid belső tárhelyéről és visszatöltsd azt.
-Ezen az oldalon megismerkedhetsz a biztonsági mentés készítéséről az SD kártyára, amivel aztán úgy cselekedhetsz, ahogy szeretnél.
+A BootMii lehetővé teszi, hogy biztonsági mentést készíts a Wiid belső tárhelyéről és visszatöltsd azt. Ezen az oldalon megismerkedhetsz a biztonsági mentés készítéséről az SD kártyára, amivel aztán úgy cselekedhetsz, ahogy szeretnél.
 
-::: warning
+Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
-A BootMii használatához szükséged lesz egy **SD kártyára**. A NAND biztonsági mentést is erre fogjuk másolni. Ha jelenleg nem rendelkezel egy SD kártyával, akkor kihagyhatod ezt az oldalt, de ERŐSEN AJÁNLOTT, hogy később térj vissza és készíts egy biztonsági mentést a Wii-d belső tárhelyéről.
+:::details Fontos információ
+
+- Az útmutató befejeztével két fájl lesz létrehozva az SD kártyád gyökerén: a `nand.bin` és a `keys.bin`. A `nand.bin` a belső tárhely másolata, míg a `keys`.bin tartalmazza a konzol biztonsági kulcsait.
+
+- Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell megnyitnod azt. Ha ez a követelmény teljesül, akkor kihagyhatod az 1. és 2. lépést.
+
+- Vagy a konzol gombokat, vagy egy az 1. csatlakozóba dugott GameCube-vezérlőt kell használnod a BootMii-ben navigáláshoz. A GameCube vezérlővel navigáláshoz, kattintsd bal/jobb gombbal a +Control Pad-on a mozgáshoz és nyomj A gombot a kiválasztáshoz. A konzol gombokkal navigáláshoz nyomd meg a `POWER`-t a jobbra mozgáshoz és a `RESET`-et a kiválasztáshoz.
+
+- Kérjük jegyezd meg **egy biztonsági mentés visszatöltése általában a legvégső megoldás**. Ennek fényében használhatod a [BootMii helyreállítási útmutató](bootmiirecover) a NAND mentésed helyreállításához, ahol további információ és nyújtott a kockázatokról és az alternatívákról.
+
+- A Family Edition Wii-ok és Wii mini-k NEM TUDNAK helyreállítani NAND mentést. A biztonsági mentés visszaállításához egy olyan megerősítő kódot kell megadnod, amihez egy GameCube-vezérlő szükséges.
+
+:::
+
+::: danger
+
+**Fontos figyelmeztetések**
+
+- A BootMii használatához szükséged lesz egy **SD kártyára**. A NAND biztonsági mentést is erre fogjuk másolni. Ha jelenleg nem rendelkezel egy SD kártyával, akkor kihagyhatod ezt az oldalt, de ERŐSEN AJÁNLOTT, hogy később térj vissza és készíts egy biztonsági mentést a Wii-d belső tárhelyéről.
+
+- Ha a `Launch BootMii` gomb nem jelenik meg a Homebew Channelben, [indítsd újra a HackMii-telepítőt](hackmii) és telepítsd újra a BootMiit.
+
+- Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Töltsd le [ezt a zip fájlt](/assets/files/bootmii_sd_files.zip) és csomagold ki az SD kártyád gyökerébe, majd próbáld újra.
 
 :::
 
@@ -15,12 +36,6 @@ A BootMii használatához szükséged lesz egy **SD kártyára**. A NAND biztons
 
 ## Lépések
 
-::: info
-
-Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell megnyitnod azt. Ha ez a követelmény teljesül, akkor kihagyhatod az 1. és 2. lépést.
-
-:::
-
 1. Kapcsold be a konzolod.
 
 2. Indítsd el a Homebrew Channelt.
@@ -29,29 +44,9 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
 
    ![](/images/bootmii/BootMii_HBC.png)
 
-   ::: warning
-
-   Ha a `Launch BootMii` gomb nem jelenik meg a Homebew Channelben, [indítsd újra a HackMii-telepítőt](hackmii) és telepítsd újra a BootMiit.
-
-   :::
-
-   ::: warning
-
-   Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Töltsd le [ezt a zip fájlt](/assets/files/bootmii_sd_files.zip) és csomagold ki az SD kártyád gyökerébe, majd próbáld újra.
-
-   :::
-
 4. Ezek után az alábbihoz hasonló képernyőt fogsz látni a Wii képernyőjén:
 
    ![](/images/bootmii/BootMii_Main.png)
-
-   ::: info
-
-   A BootMii irányítása nem lehetséges Wii Remote-tal.
-   Vagy a konzolba épített POWER- és RESET-gombokat, vagy egy 1. csatlakozóba dugott GameCube-vezérlőt kell használnod.
-   A következő menüpontra a POWER-gombbal léphetsz át. Egy opció kiválasztáshoz nyomd meg a RESET gombot.
-
-   :::
 
 5. Válaszd ki az Options menüpontot (az ikon fogaskerékkel).
 
@@ -77,23 +72,6 @@ Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell 
 
    ![](/images/bootmii/BootMii_Return.png)
 
-::: info
-
-Megjegyzés: **egy biztonsági mentés visszatöltése általában a legvégső megoldás**. Sokszor jobb módja is van a konzol megjavításának.
-
-Próbáld minél jobban a [brickelés okát](bricks) és először próbáld visszafelé végre hajtani a lépéseket, amik okozták.
-
-Egy az SD kártyádon található NAND mentésből visszaálláshoz kövesd a [RestoreMii](bootmiirecover) lépéseit.
-**A Family Edition Wii-kon (ezek azok, amelyek nem rendelkeznek GameCube-csatlakozókkal) NEM LEHETSÉGES NAND mentéseket visszaállítani hardveres módosítások nélkül.**
-
-:::
-
-::: info
-
-A mentési folyamat befejeztével két fájl lesz létrehozva az SD kártyád gyökerén: a `nand.bin` és a `keys.bin`. A `nand.bin` a belső tárhely másolata, míg a `keys`.bin tartalmazza a konzol biztonsági kulcsait.
-
-:::
-
 ## Automatikus indítás
 
 Ha képes voltál boot2 alá telepíteni a BootMiit és nem szeretnéd, hogy bekapcsoláskor a konzol mindig a BootMii-képernyőt mutassa, lehetőséged van azt automatikusan a rendszermenübe indítani. Így fel sem fog tűnni, a boot2 alá telepített BootMii.
@@ -118,6 +96,8 @@ A NAND mentésed felhasználható a Dolphin Emulátorban. Ez teljesen opcionáli
 3. Kattints a `Tools` fülre, görgess le a `Manage NAND`-ig majd válaszd az `Import BootMii NAND backup...` opciót.
 4. Keresd meg és jelöld ki a `nand.bin` fájlt, amit az SD kártyád gyökerében találtál és válaszd az Open-t.
 5. Ha egy `keys.bin` állományt kér, keresd meg az SD kártyádon és válaszd az Open-t.
+
+---
 
 ::: tip
 

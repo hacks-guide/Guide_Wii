@@ -47,8 +47,10 @@ Se você ainda não conseguiu carregá-lo, tente excluir seus cookies ou salvar 
 
 If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
 
+---
+
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continue para a Instalação do Homebrew Channel e do BootMii](hbc)
 
 :::

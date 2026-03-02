@@ -40,8 +40,8 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 
 Below is a single WBFS example, and a split WBFS example. A WBFS needs to be split if it is over 4 GB and your storage device is formatted as FAT32. Software such as [TinyWiiBackupManager](backups#using-tinywiibackupmanager) can do this for you, and will automatically set up the game folder structure correctly.
 
-```
-💾SD card or USB:
+```shell
+💾 SD Card or USB Drive
  ┗ 📂wbfs
     ┣ 📂GameName [GameID]
     ┃  ┗ 📜gameid.wbfs (for non-split titles)

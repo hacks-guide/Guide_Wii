@@ -4,33 +4,20 @@ Ez az útmutató az utolsó, amire valaha is szükséged lesz, ha a Wii témáz�
 
 ## Wii Menu témázás
 
-::: danger
+:::details Fontos információ
 
-NE FOLYTASD EZT AZ ÚTMUTATÓT, HA NINCS MEGFELELŐ BRICKELÉS VÉDELMED, KÜLÖNÖSEN [BOOTMII](bootmii) (csak Wii) ÉS [PRIILOADER](priiloader)!
-
-:::
-
-::: warning
-
-A csm-installer tartalmaz beépített biztonsági funkciókat, hogy megakadályozza, hogy hibás vagy sérült Wii Menu témákat telepíts, így javasolt, hogy ezt használd más téma telepítő homebrew helyett.
-
-:::
-
-::: warning
-
-Ne használj az itt linkeltnél régebbi ThemeMii verziót, mivel a ThemeMii Mod teszi lehetővé hogy témát készíts a Wii Menu 4.3 verziójához, míg a többi verzió lehet, hogy nem.
+- A csm-installer beépített biztonsági funkcióval rendelkezik, hogy megóvjon attól, hogy rossz vagy sérült Wii menü témát telepíts. Javasolt, hogy ezt használd a más téma telepítő megoldások helyett, hogy megelőzd a bricket.
+- Ne használj az itt linkeltnél régebbi ThemeMii verziót, mivel a ThemeMii Mod teszi lehetővé hogy témát készíts a Wii Menu 4.3 verziójához, míg a többi verzió lehet, hogy nem.
+- Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM fájlformátumok között, amikor a Wii menü témázása során használják őket. Míg a MYM-et a téma készítője készíti, amelyet aztán körbe lehet osztani, addig a CSM a MYM rendszermenübe építésének eredménye. Más szóval, a MYM elsősorban csak eszközöket tartalmaz - maga a tényleges rendszermenü, amelyet telepíteni kell, különálló.
 
 :::
 
 ::: danger
 
-Csak olyan témákat telepíts a Wii-re, amelyek kifejezetten a Wii verziójához és az aktuális régióhoz lettek formázva. Ha rossz verziójú vagy régiójú témákat telepítesz a Wii-re, az [brickelődik](bricks#theme-brick). Ez a útmutató leírja, hogyan hozhatsz létre egy .csm fájlt, amelyet aztán biztonságosan telepíthetsz.
+**Fontos figyelmeztetések**
 
-:::
-
-::: info
-
-Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM fájlformátumok között, amikor a Wii menü témázása során használják őket. Míg a MYM-et a téma készítője készíti, amelyet aztán körbe lehet osztani, addig a CSM a MYM rendszermenübe építésének eredménye. Más szóval, a MYM elsősorban csak eszközöket tartalmaz - maga a tényleges rendszermenü, amelyet telepíteni kell, különálló.
+- NE FOLYTASD ezt az útmutatót, csak akkor, ha megfelelő brick védelmed van telepítve a [BootMii](bootmii)-vel (csak Wii) és [Priiloader](priiloader)-rel.
+- Csak olyan témákat telepíts a Wii-re, amelyek kifejezetten a Wii verziójához és az aktuális régióhoz lettek formázva. Ha rossz verziójú vagy régiójú témákat telepítesz a Wii-re, az [téma bricket okoz](bricks#theme-brick). Ez a útmutató leírja, hogyan hozhatsz létre egy .csm fájlt, amelyet aztán biztonságosan telepíthetsz.
 
 :::
 
@@ -123,7 +110,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 1. Hozz létre egy `themes` mappát az SD-kártya/USB-eszköz gyökerében.
 2. Csomagold ki a ThemeMii MOD `.zip` fájlt egy helyre a számítógépeden.
 3. Indítsd el a ThemeMii alkalmazást.
-4. Navigálj a `Tools` -> `Download Base App` -> `Version of your Wii Menu` -> `Region of your Wii Menu` opcióig.
+4. Go to `Tools` > `Download Base App` > `Version of your Wii Menu` > `Region of your Wii Menu`.
 5. Egy párbeszédablak fog előugrani, hogy adj meg egy értéket egy kulcs létrehozásához. Add be neki amit kér, és létre fog hozni egy kulcsot, amit arra használunk majd, hogy decryptálja a Wii Menu tartalmakat, amik a Nintendo' szervereiről származnak.
 6. Egy fájl kiválasztó ablak meg fogja kérdezni hova mentsük az .app fájlt. Mentsd az SD kártyá/USB eszközöd `themes` mappájába.
 
@@ -135,7 +122,7 @@ Mielőtt folytatnánk, hasznos tudnod, hogy mi a különbség a .MYM és a .CSM 
 
 1. Csomagold ki a ThemeMii MOD `.zip` fájlt egy helyre a számítógépeden.
 2. Indítsd el a ThemeMii alkalmazást.
-3. Navigálj a `File` -> `Open` opcióhoz, majd válaszd ki a létrehozni kívánt téma `.mym` fájlját.
+3. Go to `File` > `Open`, and select the `.mym` file for the theme you want to build.
 4. Nyomjd meg a `Create csm` gombot.
 5. Amikor egy `.app` fájl kiválasztását kell megtenned, válaszd ki az SD-kártyád vagy USB-meghajtód `themes` mappájában lévő, újonnan letöltött alaptémát.
 6. Amikor a `.csm` fájl mentését kell megtenned, mentsd azt a `themes` mappába.
@@ -183,7 +170,7 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 ### Lépések
 
 1. Töltsd le a téma `.zip` fájlját a fentebb linkelt weboldalról, vagy bárhonnan máshonnan, ahol megfelelő témát kaphatsz.
-2. Csomagold ki a `.zip` fájl tartalmát az `apps\usbloader_gx` könyvtárba azon a tárolóeszközön, ahová az USB Loader GX-et telepítetted.
+2. Csomagold ki a `.zip` fájl tartalmát az `/apps/usbloader_gx` könyvtárba azon a tárolóeszközön, ahová az USB Loader GX-et telepítetted.
 3. Tedd a tárolóeszközt a Wii-be, és indítsd el.
 4. Indítsd el az USB Loader GX-et, lépj a `Settings` menübe, majd a `Theme Menu` opcióhoz.
 5. Nyissd meg a témát, és telepítsd azt.
@@ -224,6 +211,8 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 ## App Forwarder-ek
 
 Az App forwarderek egy kis extra hangulatot adhatnak a Wii menüjének - de légy óvatos velük, mivel a rossz forwarderek [banner brick](bricks#banner-brick)-et okozhatnak. Általában találhatsz forwardereket, olyan helyeken, mint a [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) populáris programokhoz, mint például az emulátorok. Mivel a forwarderek .WAD formátumban érkeznek, a telepítésük ugyanolyan egyszerű, mint a [YAWM ModMii Edition](yawmme) normál használata.
+
+---
 
 ::: tip
 

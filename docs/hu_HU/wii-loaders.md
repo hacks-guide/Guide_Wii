@@ -42,11 +42,11 @@ A hivatalos Wii Menu forwarder telepítő WiiFlow Lite-hoz megtalálható az [Op
 
 Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható. Egy WBFS-nek darabolni kell, ha 4 GB-nál nagyobb és a tároló eszköz FAT32-re formázott. A szoftverek, mint például a [TinyWiiBackupManager](backups#using-tinywiibackupmanager) el tudják ezt végezni és automatikusan megfelelő játék mappaszerkezetet állítanak be.
 
-```
-💾SD kártya vagy USB:
+```shell
+💾 SD Card or USB Drive
  ┗ 📂wbfs
     ┣ 📂GameName [GameID]
-    ┃  ┗ 📜gameid.wbfs (a nem feldarabolt címekhez)
+    ┃  ┗ 📜gameid.wbfs (for non-split titles)
     ┗ 📂GameName [GameID]
        ┣ 📜gameid.wbfs
        ┗ 📜gameid.wbf1
@@ -160,7 +160,7 @@ Például:
 - A Spongyabob's Boating Bash futtatása.
 - USB-dongle használata a Rock Bandben.
 
-Egy sokkal teljesebb (de még mindig nem teljes) lista megtalálható [itt](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
+Egy sokkal teljesebb (de még mindig nem teljes) lista megtalálható [a GBAtemp-en](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
 
 Mind az USB Loader GX, mind a WiiFlow Lite úgy van programozva, hogy automatikusan megtalálja a legjobb cIOS-t, és az alapértelmezett beállításokkal töltse be a játékot.  Ha azonban valamilyen oknál fogva ezek a betöltők rossz cIOS-t választanak, akkor lehetőséged van arra, hogy te magad változtasd meg.
 
@@ -183,6 +183,8 @@ Egy adott játékhoz használt cIOS megváltoztatásához kövesd az USB-töltő
 3. Menj a cIOS-hoz és használd a nyilakat, hogy kiválaszt a használandó IOS slot-ot.
    - Próbáld meg a 248, 249, 250 vagy 251-gyel.
 4. Nyomj Save-et és próbáld meg betölteni a játékot.
+
+---
 
 ::: tip
 

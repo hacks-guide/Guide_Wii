@@ -4,41 +4,29 @@ outline: false
 
 # BlueBomb
 
+BlueBomb - это эксплойт, который использует уязвимости в библиотеках Bluetooth Wii и Wii mini. Хоть это и единственный эксплойт который работает на Wii mini, BlueBomb так же может быть использован и для оригинальной Wii.
+
+This exploit also enables recovery from certain bricks in the event of no other brick protection, such as banner bricks and (some) theme bricks.
+
+Please read the listed important information before proceeding.
+
 ::::: tabs
 
 :::: tab BlueBomb Classic
 
 ## BlueBomb Classic
 
-:::details Технические детали (опционально)
+:::details Important Information
 
-BlueBomb - это эксплойт, который использует уязвимости в библиотеках Bluetooth Wii и Wii mini. Хоть это и единственный эксплойт который работает на Wii mini, BlueBomb так же может быть использован и для оригинальной Wii.
-
-Этот эксплоит также позволяет восстановить консоль после некоторых бриков, таких, как баннер брики и (некоторые) брики тем консоли.
-
-:::
-
-::: warning
-
-**Настоятельно** рекомендуется не следовать **любым** видео-руководствам по моддингу вашей консоли Wii mini, так как есть очень большой шанс ее **окирпичить**.
+- If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
+- If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Однако, существуют исключения в таких обстоятельствах как восстановление окирпиченной консоли.
+- Убедитесь, что консоль стоит рядом с компьютером на котором запущен эксплоит, в идеале расстояние должно быть меньше 1 метра.
 
 :::
 
-::: info
+::: danger
 
-Если вам нужна помощь, пожалуйста, присоединяйтесь к Discord-серверу [Wii mini Hacking](https://discord.gg/6ryxnkS) (рекомендуется)
-
-:::
-
-::: info
-
-Если вы используете оригинальную ревизию Wii, вы, вероятно, можете использовать [другой эксплойт](get-started), так как существуют более простые способы запустить установщик HackMii. Однако, существуют исключения в таких обстоятельствах как восстановление окирпиченной консоли.
-
-:::
-
-::: info
-
-Убедитесь, что консоль стоит рядом с компьютером на котором запущен эксплоит, в идеале расстояние должно быть меньше 1 метра.
+It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
 
 :::
 
@@ -46,19 +34,25 @@ BlueBomb - это эксплойт, который использует уязв
 
 - Компьютер с Linux
   - Виртуальная машина может сработать, но её использование не рекомендуется из-за сложности с пробросом Bluetooth. По возможности, используйте LiveUSB, как описано ниже.
+
   - Если у вас есть Raspberry Pi, вы можете использовать её вместо вашего устройства, так как на ней, скорее всего уже установлен Linux.
+
     - ARM64 Raspberry Pi's need multiarch enabled with the armhf (32bit) architecture added. Данные команды должны работать с любым дистрибутивом основанном на Debian:
-    ```bash
+
+    ```shell
     sudo dpkg --add-architecture armhf
     sudo apt update && sudo apt install -y screen:armhf
     file /usr/bin/screen # должен вывести "ELF 32-bit"
     screen
     ```
+
   - Windows Subsystem for Linux или Chromebook запущенный в режиме Linux **не будут** работать, так как они не имеют прямого доступа к адаптеру Bluetooth или портам USB.
+
   - Если у вас нет Linux, [Ubuntu](https://ubuntu.com/download/desktop) является самым удобным вариантом и может быть запущен на компьютерах с Windows или на Mac с процессором Intel.
     - Apple Mac'и с процессором Silicon не будут работать из-за отсутствующих инструкций ARM32 в процессоре.
     - Используйте [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) если у вас 32-битное устройство.
     - Для 64-битных устройств рекомендуется использование LTS версии из-за её стабильности, но последний выпуск так же работает.
+
   - Вы можете [записать Live-пространство Ubuntu на USB накопитель](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) вместо установки на ваш компьютер.
 - Bluetooth-адаптер.
   - Внутренний Bluetooth-адаптер будет работать.
@@ -96,7 +90,7 @@ BlueBomb - это эксплойт, который использует уязв
 
 8. Откройте терминал и выполните следующие команды:
 
-   ```bash
+   ```shell
    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
    chmod +x bluebomb-helper.sh
    ./bluebomb-helper.sh
@@ -133,6 +127,8 @@ BlueBomb - это эксплойт, который использует уязв
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
+---
+
 ::: tip
 
 [Перейти к установщику HackMii](hbc)
@@ -145,33 +141,18 @@ BlueBomb - это эксплойт, который использует уязв
 
 ## BlueBomb Micro
 
-:::details Технические детали (опционально)
+:::details Important Information
 
-Этот эксплоит также позволяет восстановить консоль после некоторых бриков, таких, как баннер брики и (некоторые) брики тем консоли.
-
-:::
-
-::: warning
-
-**Настоятельно** рекомендуется не следовать **любым** видео-руководствам по моддингу вашей консоли Wii mini, так как есть очень большой шанс ее **окирпичить**.
+- If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
+- If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Однако, существуют исключения в таких обстоятельствах как восстановление окирпиченной консоли.
+- Убедитесь, что консоль стоит рядом с компьютером на котором запущен эксплоит, в идеале расстояние должно быть меньше 1 метра.
+- Если вы получили ошибку `Exception 0700 occurred!` или что-то подобное, попробуйте запустить эксплойт снова. Если это продолжается, присоединитесь к Discord серверу [Wii mini Hacking](https://discord.gg/6ryxnkS) за помощью.
 
 :::
 
-::: info
+::: danger
 
-Если вам нужна помощь, пожалуйста, присоединяйтесь к Discord-серверу [Wii mini Hacking](https://discord.gg/6ryxnkS) (рекомендуется)
-
-:::
-
-::: info
-
-Если вы используете оригинальную ревизию Wii, вы, вероятно, можете использовать [другой эксплойт](get-started), так как существуют более простые способы запустить установщик HackMii. Однако, существуют исключения в таких обстоятельствах как восстановление окирпиченной консоли.
-
-:::
-
-::: info
-
-Убедитесь, что микроконтроллер расположен близко к компьютеру, на котором выполняется эксплойт, в идеале расстояние должно быть меньше 1 метра.
+It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
 
 :::
 
@@ -253,11 +234,7 @@ BlueBomb - это эксплойт, который использует уязв
 
    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
-::: tip
-
-Если вы получили ошибку `Exception 0700 occurred!` или что-то подобное, попробуйте запустить эксплойт снова. Если это продолжается, присоединитесь к Discord серверу [Wii mini Hacking](https://discord.gg/6ryxnkS) за помощью.
-
-:::
+---
 
 ::: tip
 

@@ -1,10 +1,20 @@
 # GYIK és hibaelhárítás
 
-## Fő GYIK
+## Elsődleges GYIK
 
 ### Mennyire kockázatos a konzolom feltörése?
 
-A konzoltól függően nem túl kockázatos. A Wii esetében sokkal kisebb a belépési korlát, mint más konzoloknál, néhány exploithoz nem kell más, mint egy Wii és egy internetkapcsolat. Amíg követed az [itt](bricks#brick-prevention) leírt általános tanácsokat, telepíted a [BootMii](bootmii)-t és a [Priiloader](priiloader)-t, és használod a józan eszed, addig minden rendben lesz!
+A konzoltól függően nem túl kockázatos. A Wii esetében sokkal kisebb a belépési korlát, mint más konzoloknál, néhány exploithoz nem kell más, mint egy Wii és egy internetkapcsolat. Amíg követed az általános tanácsokat a [brick áttekintő oldalon](bricks#brick-prevention), telepíted a [BootMii](bootmii)-t és a [Priiloader](priiloader)-t, és használod a józan eszed, addig minden rendben lesz!
+
+### Hogyan távolíthatom el a szülői felügyeletet?
+
+Az [mkey generator](https://mkey.nintendohomebrew.com/) tud olyan kódotgenerálni, amivel eltávolítható a szülői felügyelet.
+
+### Úgy gondolom, hogy a Wii-om brickelt, vagy valami komoly baja van, mit tegyek?
+
+Tekintsd meg [ezt](bricks) az oldalt.
+
+## Hibakód GYIK
 
 ### Az XXXXXX hibakódot kapom, hogyan tudom javítani?
 
@@ -12,9 +22,11 @@ Ha ellenőrizni szeretnéd, hogy mit jelent a hiba, kérjük, látogass el a [Wi
 
 #### Error 051330/51330
 
-Futtass Internet kapcsolat tesztet a `Wii Settings > Internet > Connection settings > Connection > Test this connection` opciót indítva
+Run an Internet connection test by going to `Wii Settings` > `Internet` > `Connection settings` > `Connection` > `Test this connection`
 
 #### Error 220602
+
+<br>
 
 ##### RiiConnect24 felhasználók számára
 
@@ -28,6 +40,8 @@ Ez akkor is előfordulhat, ha proxy szervert használsz és az nem elérhető.
 
 #### Error 107304
 
+<br>
+
 ##### RiiConnect24 felhasználók számára
 
 Ha ezt a hibát kapod, vagy a Nintendo felhasználói megállapodását látod a RiiConnect24 logója nélkül, az azt jelenti, hogy az internet szolgáltatód vagy hálózatod blokkolja az RC24 DNS használatát. Beállíthatod az `Auto-Obtain DNS`-t `On`-ra ennek megoldásához. A RiiConnect24 továbbra is működni fog nélküle. Vagy használhatod a [RiiConnect24 DNS Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) programot.
@@ -39,14 +53,6 @@ Ha ezt a hibát kapod, a DNS szerver amit választottá vagy az interneted telje
 #### FORE000006
 
 Ha a FORE000006 hibaüzenetet kapod, a Wii órája valószínűleg rosszul van beállítva. Tekintsd meg [ezt](wiiconnect24#updating-rtc-clock) a lépésekért a helyes alaphelyzetbe állításhoz. Ha ez sem sikerül, akkor vedd ki a Wii óraelemét (a rendszer alján található egy csavar mögött) egy órára, majd tedd vissza. Ezután reseteld Wii óráját.
-
-### Hogyan távolíthatom el a szülői felügyeletet?
-
-Az [mkey generator](https://mkey.nintendohomebrew.com/) tud olyan kódotgenerálni, amivel eltávolítható a szülői felügyelet.
-
-### Úgy gondolom, hogy a Wii-om brickelt, vagy valami komoly baja van, mit tegyek?
-
-Tekintsd meg [ezt](bricks) az oldalt.
 
 ## Tároló eszköz GYIK
 
@@ -142,7 +148,7 @@ Ha egy meghajtót a Wii-vel akarsz használni, a külső SSD-k gyakran drágább
 
 ## Hálózati GYIK
 
-A Wii vezeték nélküli hálózati hardvere a 802.11g maximális szabványt támogatja a 2,4 GHz-es sávban (visszamenőlegesen WiFi 3-ként nevezett), a maximális biztonsági szint pedig WPA2-PSK (AES). Ezért a Wii NEM képes csatlakozni a következő hozzáférési pontokhoz (AP):
+A Wii vezeték nélküli hálózati hardvere a 802.11g maximális szabványt támogatja a 2,4 GHz-es sávban (visszamenőlegesen Wi-Fi 3-ként nevezett), a maximális biztonsági szint pedig WPA2-PSK (AES). Ezért a Wii NEM képes csatlakozni a következő hozzáférési pontokhoz (AP):
 
 - WPA enterprise titkosítást vagy csak WPA3 titkosítást kényszerítő hozzáférési pontokhoz
 - A WiFi 3-mal nem visszafelé kompatibilis vagy csak az 5 GHz-es sávban sugárzó AP-khez
@@ -162,3 +168,11 @@ Ha az internet szolgáltatód nem engedi megváltoztatni ezeket a beállítások
 - Alternatívaként vásárolhatsz egy másodlagos routert, és továbbra is használhatod a már meglévő hálózatod. Bármilyen olcsó, a fenti szabványoknak megfelelő router (például a Linksys WRT54G) működni fog.
 
 A Wii U esetében a vWii a Wii U fő beállításaiban megadott internetbeállításokat használja, de opcionálisan szétválasztható a `Wii VC Launch` Aroma plugin segítségével.
+
+---
+
+::: tip
+
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
+
+:::

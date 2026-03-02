@@ -53,6 +53,8 @@ Sokkal biztonságosabb a [ModMii](modmii) (csak Windows) segítségével frissí
 7. Amikor a Priiloader megtartására kér, nyomd meg az A gombot a megerősítéshez.
 8. A sikeres telepítést követően a nyomd meg a HOME gombot, hogy kilépj a Homebrew Channel-hez.
 
+---
+
 ::: tip
 
 [Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)

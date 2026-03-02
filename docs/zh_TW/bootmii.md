@@ -1,11 +1,32 @@
 # 進行 BootMii 備份
 
-您需要一張 <strong x-id="1">SD 卡</strong> 才能使用 BootMii 建立 NAND 備份。
-如果您沒有任何可用的 SD 卡，您可以跳過此頁面，但強烈建議您盡快進行 NAND 備份。
+您需要一張 <strong x-id="1">SD 卡</strong> 才能使用 BootMii 建立 NAND 備份。 如果您沒有任何可用的 SD 卡，您可以跳過此頁面，但強烈建議您盡快進行 NAND 備份。
 
-::: warning
+Please read the below information before proceeding further.
 
-You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
+:::details Important Information
+
+- After the completion of this guide, two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+
+- 如果您的 BootMii 安裝於 boot2 當中，則需要通過重新啟動主機來啟動 BootMii。 如果是這種情況，請跳過步驟1和2。
+
+- You must use the buttons on your console or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad to move, and press A to select. To navigate with your console buttons, press `POWER` to move right, and press `RESET` to select.
+
+- Please note that **restoring a NAND backup is usually a last resort**. With that said, you can use the [BootMii Recovery guide](bootmiirecover) to restore your NAND backup, where more information is provided about the risks and alternatives.
+
+- Family Edition Wiis and Wii minis CANNOT restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support.
+
+:::
+
+::: danger
+
+**Important Warnings**
+
+- You need an **SD card** to use BootMii at all, but especially to create a NAND backup. If you do not have an SD card on hand right now, you can skip this page, but it is HIGHLY RECOMMENDED to return to this page later to back up your NAND.
+
+- If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+
+- 如果螢幕保持黑屏且光碟機的指示燈閃爍，那代表您的 SD 卡中缺少 BootMii 所需的檔案。 Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 
 :::
 
@@ -15,12 +36,6 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
 ## Instructions
 
-::: info
-
-如果您的 BootMii 安裝於 boot2 當中，則需要通過重新啟動主機來啟動 BootMii。 如果是這種情況，請跳過步驟1和2。
-
-:::
-
 1. Power on your console.
 
 2. Launch the Homebrew Channel, and launch the Load Priiloader app.
@@ -29,29 +44,9 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
    ![](/images/bootmii/BootMii_HBC.png)
 
-   ::: warning
-
-   If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
-
-   :::
-
-   ::: warning
-
-   如果螢幕保持黑屏且光碟機的指示燈閃爍，那代表您的 SD 卡中缺少 BootMii 所需的檔案。 Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
-
-   :::
-
 4. You should see an image similar to the below now on your screen:
 
    ![](/images/bootmii/BootMii_Main.png)
-
-   ::: info
-
-   您將無法使用 Wii 控制器來控制 BootMii。
-   您必須使用主機上的 POWER 和 RESET 按鈕，或者將 GameCube 控制器插入端口 1 來控制 BootMii。
-   To navigate between options, press POWER. To select an option, press RESET. To select an option, press RESET.
-
-   :::
 
 5. Select the Options button (the icon with the gears).
 
@@ -77,24 +72,6 @@ You need an **SD card** to use BootMii at all, but especially to create a NAND b
 
    ![](/images/bootmii/BootMii_Return.png)
 
-::: info
-
-Note: **restoring a NAND backup is usually a last resort**. There are often better ways to unbrick your console.
-盡可能的<a href="bricks">確定您的變磚的問題所在</a>，並試著還原您先前的操作。
-
-Try your best to [identify your brick condition](bricks) and reverse the action that caused it in the first place.
-
-To restore from a NAND backup on your SD card, you can follow the instructions for [RestoreMii](bootmiirecover).
-**Family edition Wiis (Wiis without GameCube ports) CANNOT restore NAND backups without hardware modification.**
-
-:::
-
-::: info
-
-Two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
-
-:::
-
 ## Autobooting
 
 If you were able to install BootMii as boot2, but don't want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
@@ -119,6 +96,8 @@ Your NAND backup can be utilized in Dolphin Emulator. This is completely optiona
 3. Click on the `Tools` tab, scroll down to `Manage NAND`, then select `Import BootMii NAND backup...`.
 4. Locate the `nand.bin` found on the root of your SD card and select Open.
 5. If it asks for a `keys.bin`, locate it on the root of your SD and select Open.
+
+---
 
 ::: tip
 

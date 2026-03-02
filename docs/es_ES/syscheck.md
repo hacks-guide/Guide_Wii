@@ -30,6 +30,8 @@ Un SysCheck es un diagnóstico que proporciona información sobre todos los IOS 
 
 5. If you want to share the SysCheck, you can share the `syscheck.csv` file on the root of your SD card or USB drive. You can also press `A`, which will upload the report to [syscheck.rc24.xyz](http://syscheck.rc24.xyz/).
 
+---
+
 ::: tip
 
 [Click here to go back to the site index.](site-navigation)

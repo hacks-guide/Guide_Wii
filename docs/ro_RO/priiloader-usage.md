@@ -8,7 +8,7 @@ Această pagină prezintă câteva funcții utile ale Priiloader care ar putea f
 
 ## Hack-uri pentru System Menu
 
-Priiloader are o selecție mare de opțiuni care, odată activată, schimbă modul de folosire a console Wii la una din alegerile tale. You can find more information on each hack [here](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Additionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
+Priiloader are o selecție mare de opțiuni care, odată activată, schimbă modul de folosire a console Wii la una din alegerile tale. You can find more information on each hack on the [Priiloader hacks list](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Additionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
 
 ## Opțiuni suplimentare
 
@@ -97,3 +97,19 @@ Wii-ul tău ar trebui să pornească automat în oricare aplicație de homebrew 
 6. Press `B` to return to the main menu.
 
 7. Scroll back up to `System Menu` and press A.
+
+---
+
+::: tip
+
+[Click here to return to the main Priiloader guide.](priiloader)
+
+:::
+
+---
+
+::: tip
+
+[Click here to go back to the site index.](site-navigation)
+
+:::

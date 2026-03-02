@@ -30,6 +30,8 @@ SysCheck zawiera listę wszystkich IOS i cIOS, które znajdują się na Twojej k
 
 5. Jeśli chcesz udostępnić SysCheck, możesz udostępnić plik `syscheck.csv` w katalogu głównym karty SD lub dysku USB. Możesz również nacisnąć `A`, który prześle raport do [syscheck.rc24.xyz](http://syscheck.rc24.xyz/).
 
+---
+
 ::: tip
 
 [Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)

@@ -38,8 +38,14 @@ Wii에서 홈브류를 사용하는 일반적인 예는 다음과 같습니다:
 
 ## 시작할 준비가 되었나요?
 
+If so, please follow the link below to proceed to the main guide.
+
+---
+
 ::: tip
 
 [중요 정보](key-information)로 계속하기
+
+This page outlines important information and disclaimers that you should be aware of before starting with the modding process.
 
 :::

@@ -111,6 +111,8 @@ Ediția de Familie Wii, Wii mini-uri și vWii-ul de la Wii U nu au capabilitatea
 
    ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
+---
+
 ::: tip
 
 Proceed to [Managing Wii and GameCube Backups](backups#using-tinywiibackupmanager) to shrink the size of your output file, and manage your dumped games.

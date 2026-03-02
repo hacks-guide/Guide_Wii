@@ -47,6 +47,8 @@ FlashHax是一个用于 Wii 的漏洞，通过使用 Internet Channel 来触发�
 
 If after several tries Flashhax still does not work, you should try a [different exploit](get-started) instead.
 
+---
+
 ::: tip
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)

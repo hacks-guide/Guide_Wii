@@ -39,6 +39,8 @@ This tutorial will show you how to install WADs.
 
    ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
+---
+
 ::: tip
 
 [Site haritasına geri dönmek için tıklayın.](site-navigation)

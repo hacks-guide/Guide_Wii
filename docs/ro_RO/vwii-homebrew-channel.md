@@ -35,7 +35,7 @@ If the evWii Aroma plugin is not installed and a homebrew app crashes/hangs, the
 
 1. Introduceți cardul SD al Wii U în PC-ul tău.
 2. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
-3. Copy `evwii.wps` file to `wiiu` -> `environments` -> `aroma` -> `plugins` of your SD Card.
+3. Copy `evwii.wps` file to `wiiu` > `environments` > `aroma` > `plugins` of your SD Card.
 4. Re-insert your SD card into the Wii U.
 
 ### Section II - Booting into Aroma
@@ -109,14 +109,14 @@ Acum puteți folosi Homebrew Channel pentru a porni aplicațiile homebrew Wii.
 
 Notă: Când instalezi aplicații homebrew pe cardul tău SD sau unitatea ta USB, structura dosarului tău ar trebui să arate astfel:
 
-```
+```shell
 💾 SD Card
  ┗ 📁 apps
-   ┣ 📁 <AppName1>
+   ┣ 📁 AppName1
    ┃ ┣ 📄 boot.dol
    ┃ ┣ 📄 meta.xml
    ┃ ┗ 📄 icon.png
-   ┗ 📁 <AppName2>
+   ┗ 📁 AppName2
      ┣ 📄 boot.dol
      ┣ 📄 meta.xml
      ┗ 📄 icon.png
@@ -125,6 +125,8 @@ Notă: Când instalezi aplicații homebrew pe cardul tău SD sau unitatea ta USB
 `AppName1` și `AppName2` sunt nume înlocuitoare. Nu crea mai multe dosare `apps` înăuntrul dosarului `apps` în sine.
 
 Please note that the `apps` folder inside of the `wiiu` folder (for Wii U homebrew apps) and the `apps` folder on the root of the SD card (for Wii homebrew apps) are distinct.
+
+---
 
 ::: tip
 

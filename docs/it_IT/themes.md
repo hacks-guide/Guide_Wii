@@ -4,33 +4,20 @@ Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installar
 
 ## Applicare temi sul Menu Wii
 
-::: danger
+:::details Important Information
 
-DO NOT CONTINUE WITH THIS GUIDE UNLESS YOU HAVE ADEQUATE BRICK PROTECTION, SPECIFICALLY [BOOTMII](bootmii) (Wii only) AND [PRIILOADER](priiloader)!
-
-:::
-
-::: warning
-
-csm-installer ha delle funzioni di sicurezza incorporate per evitare l'installazione di temi per il menu Wii corrotti, quindi si prega di utilizzare quello invece di altre applicazioni homebrew per installare i temi sul menu Wii.
-
-:::
-
-::: warning
-
-Non usare nessun'altra versione di ThemeMii oltre a quella fornita da qui, poiché ThemeMii Mod ti permette di creare un tema per il Menu Wii versione 4.3, le altre versioni non possono.
+- csm-installer has built in safety features to prevent you from installing bad or corrupt Wii Menu themes. You are advised to use it instead of other theme installation homebrew to help prevent a brick.
+- Non usare nessun'altra versione di ThemeMii oltre a quella fornita da qui, poiché ThemeMii Mod ti permette di creare un tema per il Menu Wii versione 4.3, le altre versioni non possono.
+- Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come formati di file utilizzati nella personalizzazione del Menu Wii. Mentre il MYM è creato dal tuo creatore di temi che puoi condividere in giro, il CSM è il risultato della compilazione di un MYM in un Menu di sistema. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes separate.
 
 :::
 
 ::: danger
 
-Sul tuo Wii, installa solo i temi che sono creati appositamente per la sua versione e regione attuali. Installing themes from the wrong version or region on your Wii will cause a [brick](bricks#theme-brick). Questo tutorial ti dirà come creare un file .csm che è sicuro da installare.
+**Important Warnings**
 
-:::
-
-::: info
-
-Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come formati di file utilizzati nella personalizzazione del Menu Wii. Mentre il MYM è creato dal tuo creatore di temi che puoi condividere in giro, il CSM è il risultato della compilazione di un MYM in un Menu di sistema. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes separate.
+- DO NOT continue with this guide unless you have adequate brick protection with [BootMii](bootmii) (Wii only) and [Priiloader](priiloader) installed.
+- Sul tuo Wii, installa solo i temi che sono creati appositamente per la sua versione e regione attuali. Installing themes from the wrong version or region on your Wii will cause a [theme brick](bricks#theme-brick). Questo tutorial ti dirà come creare un file .csm che è sicuro da installare.
 
 :::
 
@@ -123,7 +110,7 @@ Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come
 1. Create a `themes` folder on the root of your SD card/USB device.
 2. Extract the ThemeMii MOD `.zip` to a location on your PC.
 3. Launch the ThemeMii application.
-4. Go to `Tools` -> `Download Base App` -> `Version of your Wii Menu` -> `Region of your Wii Menu`.
+4. Go to `Tools` > `Download Base App` > `Version of your Wii Menu` > `Region of your Wii Menu`.
 5. Una finestra di dialogo si aprirà chiedendoti di inserire un valore per creare una chiave. Inserisci quello che ti dice e creerà una chiave che sarà utilizzare per decifrare i contenuti del Menu Wii dai server di Nintendo.
 6. A file selection box will ask you where to save the .app file. Save it to the `themes` folder on your SD card/USB device.
 
@@ -135,7 +122,7 @@ Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come
 
 1. Extract the ThemeMii MOD `.zip` to a location on your PC.
 2. Launch the ThemeMii application.
-3. Go to `File` -> `Open`, and select the `.mym` file for the theme you want to build.
+3. Go to `File` > `Open`, and select the `.mym` file for the theme you want to build.
 4. Press `Create csm`.
 5. When asked to select an `.app` file, select the newly downloaded base theme in the `themes` of your SD card or USB device.
 6. When asked to save the `.csm` file, save it in the `themes` folder.
@@ -183,7 +170,7 @@ Purtroppo, a causa delle differenze di codice tra il WiiFlow originale e il più
 ### Instructions
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
-2. Unpack the `.zip` file's contents into the `apps\usbloader_gx` directory on the storage device where you installed USB Loader GX.
+2. Unpack the `.zip` file's contents into the `/apps/usbloader_gx` directory on the storage device where you installed USB Loader GX.
 3. Inserisci il supporto di archiviazione nel tuo Wii e avvialo.
 4. Start USB Loader GX, go to the `Settings` menu, and then go to `Theme Menu`.
 5. Apri il tema e installalo.
@@ -224,6 +211,8 @@ Purtroppo, a causa delle differenze di codice tra il WiiFlow originale e il più
 ## Forwarder delle app
 
 App forwarders can add a bit of extra flair to your Wii Menu - but be careful with them as bad forwarders can cause a [banner brick](bricks#banner-brick). Generally, you can find forwarders on places like [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) for popular apps such as emulators. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme).
+
+---
 
 ::: tip
 

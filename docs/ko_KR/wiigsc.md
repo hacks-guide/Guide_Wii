@@ -2,27 +2,20 @@
 
 이 가이드는 WiiGSC (Wii 게임 바로가기 생성기)라는 소프트웨어를 사용하여 외장 저장 장치에 있는 게임 백업에 대한 Wii 게임 바로가기를 만드는 방법을 안내합니다. 게임 바로가기를 만들면 마치 일반 디스크처럼 게임을 넣은 것처럼 Wii 메뉴에서 바로 게임 백업을 실행할 수 있습니다.
 
-::: warning
+:::details Important Information
 
-이 가이드에서는 벽돌 현상 발생 위험을 줄이기 위해 [Priiloader](priiloader)와 [BootMii](bootmii) 설치를 권장합니다. 가이드를 정확하게 따르면 안전하게 게임을 진행할 수 있습니다. Priiloader 또는 BootMii를 설치하지 않은 경우 이 가이드를 계속 진행하지 마십시오!
-
-:::
-
-::: warning
-
-"마리오 파티 9" 또는 "A Boy and His Blob" 게임에 대한 바로 가기를 만들지 마세요. Wii가 벽돌이 됩니다.
+- 사용하시는 브라우저나 백신 소프트웨어가 WiiGSC를 악성 소프트웨어로 감지할 수 있습니다 - 이는 오탐입니다. WiiGSC는 악성 소프트웨어가 포함되어 있지 않습니다.
+- Wii 메뉴는 기존 시스템 채널을 제외하고, 48개 채널로 제한됩니다.
 
 :::
 
-::: warning
+::: danger
 
-사용하시는 브라우저나 백신 소프트웨어가 WiiGSC를 악성 소프트웨어로 감지할 수 있습니다 - 이는 오탐입니다. WiiGSC는 악성 소프트웨어가 포함되어 있지 않습니다.
+**Important Warnings**
 
-:::
-
-::: info
-
-Wii 메뉴는 기존 시스템 채널을 제외하고, 48개 채널로 제한됩니다.
+- DO NOT continue the guide unless you have installed [Priiloader](priiloader) or [BootMii](bootmii), as this guide carries the risk of causing a [banner brick](bricks#banner-brick) which will prevent the Wii Menu from booting.
+- DO NOT create and install a shortcut for the games "Mario Party 9" or "A Boy and His Blob". It will cause a [banner brick](bricks#banner-brick) due to the complexity of the channels making the Wii Menu crash.
+- If you get an error saying `The system files are corrupted`, you are likely dealing with a [banner brick](bricks#banner-brick). To fix it, turn off your Wii, then [boot into Priiloader](priiloader#section-iii---entering-priiloader) using one of the available methods for your console. Enter the Homebrew Channel and launch your WAD manager or [YAWM ModMii Edition](yawmme) to uninstall the WAD that caused the error. If Priiloader was not installed, proceed to [BlueBomb](bluebomb) for further resolution.
 
 :::
 
@@ -62,11 +55,7 @@ Wii 메뉴는 기존 시스템 채널을 제외하고, 48개 채널로 제한됩
 
    ![](/images/desktop-apps/wiigsc/wiigsc-success.png)
 
-::: info
-
-"The system files are corrupted"라는 오류가 표시되더라도 Priiloader를 설치했다면 당황하지 않습니다. Wii를 끄고, 콘솔에 사용 가능한 방법 중 하나를 사용하여 [Priiloader로 부팅](priiloader#section-iii---entering-priiloader)하세요. 홈브류 채널에 들어가서 WAD manager를 실행하여 WAD를 제거합니다. priiloader가 설치되지 않았다면 [BlueBomb](bluebomb)로 진행하세요.
-
-:::
+---
 
 ::: tip
 

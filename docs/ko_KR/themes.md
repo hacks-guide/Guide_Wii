@@ -4,33 +4,20 @@
 
 ## Wii 메뉴 테마
 
-::: danger
+:::details Important Information
 
-적절한 벽돌 보호 장치, 특히 [BOOTMII](bootmii) (Wii용) 및 [PRIILOADER](priiloader)가 없다면 이 가이드를 계속 진행하지 마세요!
-
-:::
-
-::: warning
-
-csm-installer에는 잘못된 테마나 손상된 Wii 메뉴 테마가 설치되는 것을 방지하는 안전 기능이 내장되어 있으므로 다른 테마 설치 홈브류 대신 이 테마를 사용하시기 바랍니다.
-
-:::
-
-::: warning
-
-여기에 링크된 것 외의 다른 ThemeMii 버전을 사용하지 마세요. ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3에 맞는 테마를 만들 수 있지만 다른 버전은 그렇지 않을 수 있습니다.
+- csm-installer has built in safety features to prevent you from installing bad or corrupt Wii Menu themes. You are advised to use it instead of other theme installation homebrew to help prevent a brick.
+- 여기에 링크된 것 외의 다른 ThemeMii 버전을 사용하지 마세요. ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3에 맞는 테마를 만들 수 있지만 다른 버전은 그렇지 않을 수 있습니다.
+- 계속하기 전에 Wii 메뉴 테마에 사용될 때 .MYM과 .CSM 파일 형식의 차이점을 아는 것이 도움이 됩니다. MYM은 테마 제작자가 만들어서 공유할 수 있는 반면, CSM은 MYM을 시스템 메뉴로 빌드한 결과입니다. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes separate.
 
 :::
 
 ::: danger
 
-Wii에 해당 버전과 현재 지역에 맞게 특별히 포맷된 테마만 설치합니다. Wii에 잘못된 버전이나 지역의 테마를 설치하면 [벽돌](bricks#theme-brick)이 발생합니다. 이 자습서에서는 설치하기 안전한 .csm 파일을 만드는 방법을 알려드립니다.
+**Important Warnings**
 
-:::
-
-::: info
-
-계속하기 전에 Wii 메뉴 테마에 사용될 때 .MYM과 .CSM 파일 형식의 차이점을 아는 것이 도움이 됩니다. MYM은 테마 제작자가 만들어서 공유할 수 있는 반면, CSM은 MYM을 시스템 메뉴로 빌드한 결과입니다. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes separate.
+- DO NOT continue with this guide unless you have adequate brick protection with [BootMii](bootmii) (Wii only) and [Priiloader](priiloader) installed.
+- Wii에 해당 버전과 현재 지역에 맞게 특별히 포맷된 테마만 설치합니다. Installing themes from the wrong version or region on your Wii will cause a [theme brick](bricks#theme-brick). 이 자습서에서는 설치하기 안전한 .csm 파일을 만드는 방법을 알려드립니다.
 
 :::
 
@@ -123,7 +110,7 @@ Wii에 해당 버전과 현재 지역에 맞게 특별히 포맷된 테마만 �
 1. SD 카드/USB 장치의 루트에 `themes` 폴더를 만듭니다.
 2. ThemeMii MOD `.zip` 파일을 PC의 원하는 위치에 압축 해제합니다.
 3. ThemeMii 응용 프로그램을 실행합니다.
-4. `도구` -> `기본 앱 다운로드` -> `Wii 메뉴 버전` -> `Wii 메뉴 지역`으로 갑니다.
+4. Go to `Tools` > `Download Base App` > `Version of your Wii Menu` > `Region of your Wii Menu`.
 5. 키를 생성하기 위해 값을 입력하라는 대화 상자가 나타납니다. 여기에 적힌 내용을 입력하면 닌텐도 서버에서 Wii 메뉴 콘텐츠를 해독하는 데 사용되는 키가 생성됩니다.
 6. 파일 선택 상자가 나타나 .app 파일을 저장할 위치를 묻습니다. SD 카드/USB 장치의 `themes` 폴더에 저장합니다.
 
@@ -135,7 +122,7 @@ Wii에 해당 버전과 현재 지역에 맞게 특별히 포맷된 테마만 �
 
 1. ThemeMii MOD `.zip` 파일을 PC의 원하는 위치에 압축 해제합니다.
 2. ThemeMii 응용 프로그램을 실행합니다.
-3. `파일` -> `열기`로 가서 빌드하려는 테마의 `.mym` 파일을 선택합니다.
+3. Go to `File` > `Open`, and select the `.mym` file for the theme you want to build.
 4. `csm 만들기`를 누릅니다.
 5. `.app` 파일을 선택하라는 메시지가 표시되면 SD 카드나 USB 장치의 `themes`에서 새로 다운로드한 기본 테마를 선택합니다.
 6. `.csm` 파일을 저장하라는 메시지가 표시되면 `themes` 폴더에 저장합니다.
@@ -183,7 +170,7 @@ Wii에 해당 버전과 현재 지역에 맞게 특별히 포맷된 테마만 �
 ### 지침
 
 1. 위에 링크된 웹사이트에서 테마 `.zip` 파일을 다운로드하거나, 적절한 테마를 구할 수 있는 다른 곳에서 다운로드합니다.
-2. USB Loader GX를 설치한 저장 장치의 `apps\usbloader_gx` 디렉토리에 `.zip` 파일의 내용을 압축 해제합니다.
+2. Unpack the `.zip` file's contents into the `/apps/usbloader_gx` directory on the storage device where you installed USB Loader GX.
 3. 저장 매체를 Wii에 넣고 부팅합니다.
 4. USB Loader GX를 시작하고 `설정` 메뉴로 이동한 다음 `테마 메뉴`로 이동합니다.
 5. 테마를 열고 설치합니다.
@@ -224,6 +211,8 @@ Wii에 해당 버전과 현재 지역에 맞게 특별히 포맷된 테마만 �
 ## 앱 포워더
 
 앱 포워더는 Wii 메뉴에 특별한 멋을 더해줄 수 있지만, 잘못된 포워더를 사용하면 [배너 벽돌](bricks#banner-brick)이 발생할 수 있으므로 주의합니다. 일반적으로 에뮬레이터 등 인기 있는 앱의 경우 [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/)와 같은 곳에서 포워더를 찾을 수 있습니다. 포워더는 .WAD 형식으로 제공되므로 포워더를 설치하는 과정은 [YAWM ModMii Edition](yawmme)을 사용하는 일반적인 사용과 마찬가지로 간단합니다.
+
+---
 
 ::: tip
 

@@ -39,6 +39,8 @@ Questa guida ti mostrerà come installare file WAD.
 
    ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
+---
+
 ::: tip
 
 [Click here to go back to the site index.](site-navigation)

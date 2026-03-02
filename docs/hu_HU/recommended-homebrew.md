@@ -1,51 +1,77 @@
 # Ajánlott homebrew programok
 
-Ezen az oldalon olvashatsz azokról a programokról, amelyeket a wii.hacks.guide csapata hasznosnak, érdemesnek vagy simán jónak ítél. Használd ki a Wiid újdonsült erejét!
+Ez az oldal bemutat érdekes dolgokat, amit letölthetsz és használhatsz, most, hogy kilockoltad a Wii-od teljes potenciálját.
 
-A végleges módosításokra képes programok **vastag betűvel vannak kiemelve**.
+Ezen az oldalon olvashatsz azokról a programokról, amelyeket az útmutató csapata hasznosnak, érdemesnek vagy simán jónak ítél. Használd ki a Wiid újdonsült erejét! További homebrew található az [Open Shop Channel app könyvtárában](https://oscwii.org/library).
 
-## Segédeszközök
+## Eszközök és szórakozás
 
-- [**YAWM ModMii Edition**](https://oscwii.org/library/app/yawmME) - Egy széles körben támogatott WAD manager további funkciókkal. Ezt minden WAD managernél jobban javasoljuk, mert széleskörű védelmet is nyújt.
-- [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME) – Ez az alkalmazás képes információt gyűjteni a Wii-odról és visszaadni azt olvasható és megosztható formátumban. Olyan, mint egy „rendszerinformációs” alkalmazás, csak Wiire.
-- [**CDBackup**](https://oscwii.org/library/app/cdbackup) - Wii Message Board adat mentése, visszaállítása és törlése.
-- [**AnyRegion Changer ME**](https://oscwii.org/library/app/ARCME) - ModMii verziója az AnyRegion Changer-nek. Habár ez egy sokoldalú régióváltó alkalmazás, de többféle brikeléshez is vezethet, mint például a Korean Kii/Error 003](bricks#koreankii-error-003-brick) így \*\* csak akkor használd ezt a programot, ha tudod, hogy mit csinálsz\*\*.
-- [\*\*WiiMC-SS](https://oscwii.org/library/app/wiixplorer-ss) - A WiiXplorer módosított és frissített verziója. Ez egy Wii-os fájlkezelő, ami lehetővé teszi a fájlok megtekintését és módosítását az SD kártyán, egy USB-eszközön vagy akár a Wii belső memóriájában is. Ezért ez egy nagyon erős, de veszélyes eszköz – a belső tárhelyen található fájlokat ne módosítsd, hacsak nem tudod, hogy mit csinálsz, különben [brickelheted](bricks) a konzolodat.
-- [**SaveGame Manager GX**](https://oscwii.org/library/app/SaveGame_Manager_GX) - Egy játékmentés/Mii kiszedő Wii-ra. GameCube-memóriakártyákat (fizikai és virtuális), emuNAND-okat, sima- és védett játékmentéseket, témákat és még sok mást is támogat.
-- [**csm-installer**](https://oscwii.org/library/app/csm-installer) - Egy alkalmazás ami lehetővé teszi a Wii Menu témázását. Nagyon hasznos a Wii-od személyre szabására, de [minor brick](bricks#theme-brick)-hez vezethet, szóval javasoljuk a [téma útmutató](themes) átolvasását, a biztonságos felhasználáshoz.
-- [CleanRip](https://oscwii.org/library/app/CleanRip) - GameCube és Wii lemezek mentéséhez használható eszköz. További információt a [lemezdumpolási útmutatóban](dump-games) olvashatsz.
-- [**d2x cIOS installer**](https://oscwii.org/library/app/d2x-cios-installer) – Egy Wii IOS-telepítő, amire szükséged van bizonyos funkcionális IOS-ek telepítéséhez, pl. azokhoz, amelyek lehetővé teszik az USB-betöltők használatát. Az útmutatót [itt](cios) találod.
-- [FTPii](https://oscwii.org/library/app/ftpii) - Egy FTP szerver a Wii-odhoz, ami lehetővé teszi a fájlok átvitelét a hálózaton keresztül.
+- [AnyRegion Changer ME](https://oscwii.org/library/app/ARCME) - Egy eszköz, amii segít a Wii-ofd régiójának módosításában. Ez egy sokoldalú régióváltó alkalmazás, de ha rosszul használják, negatív hatása is lehet, így csak akkor használd ezt a programot, ha tudod, hogy mit csinálsz.
+- [CDBackup](https://oscwii.org/library/app/cdbackup) - Wii Message Board adat mentése, visszaállítása és törlése.
+- [FTPii](https://oscwii.org/library/app/ftpii) - Egy FTP szerver a Wii-odhoz, ami lehetővé teszi a fájlok átvitelét a hálózatodon keresztül.
+- [NetBSD](https://www.netbsd.org/) - Egy BSD disztibúció, kifejezetten a karbantartvott verzióval a Wii-hoz.
+- [Schism Tracker](https://oscwii.org/library/app/schismtracker) - Szerkesztő és lejátszó program tracker zenei formátumokhoz (IT, XM, S3M, MOD, stb.). Kipróbálni való zenét a [Modarchive](https://modarchive.org/) oldalon találhatsz.
+- [Wii-Linux](https://wii-linux.org/) - Egy aktívan karbantartott és frissített Linux disztribúció.
+- [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - A WiiMC módosított és frissített verziója. Egy teljes médiaközponttá képes változtatni a Wiidet, ami képes zenét-, videókat-, DVD-ket és sok mást lejátszani.
+- [WiiXplorer-SS](https://oscwii.org/library/app/wiixplorer-ss) - Fájlkezelő a Wii-hoz, ami lehetővé teszi, hogy megtekintsd és szerkeszf fájljaidat az SD kártyán, az USB eszközön és a Wii belső memóriájában. Ez egy erőteljes eszközzé teszi, ami sérülést okozhat a Wii-odban, ha nem megfelelően használod, szóval légy óvatos.
 
-## Játékok és betöltők
+## Játék portok és mod-ok
 
-- [**Riivolution**](https://wiki.hacks.guide/wiki/Wii:Riivolution) - Egy on-the-fly játék patcher kereskedelmi játéklemezek patcheléséhez. Lehetővé teszi a cserefájlok SD kártyán vagy USB drive-on való tárolását, amelyeket a játék futás közben olvas be. A Riivolution lehetővé teszi az egyedi textúrák, zene, pályák, memóriamódosítások, fordítások és sok más egyszerű betöltését.
-- [USB Loaderek](wii-loaders) – Általános javaslat egy USB Loader beszerzése, amellyel játékmásolatokat tölthetsz be. További információt a hivatkozott útmutatóban találsz, ami mind a Wii-, mind a GameCube-betöltőkről is beszél.
-- [CavEX](https://oscwii.org/library/app/cavex) – Egy projekt, aminek célja újrateremteni az alap túlélési élményt a kedvenc blokkos játékoddal Wii-n egészen az Beta 1.7.3-as verzióig.
-- [Sonic CD](https://oscwii.org/library/app/SonicCDWii) - A Sonic CD 2011-es újrakiadásának portja az az RSDKv3 decompiláció alapján. **A játéknak szüksége van fájlokra a hivatalos kiadásból a futáshoz**.
-- [CTGP-R](https://www.chadsoft.co.uk/download/) - Egy izmos mod-ja a Mario Kart Wii-nak, amit **200** új pályát ad a játékhoz. A Riivolutiontől független. A futtatáshoz szükséged lesz a játéklemezre. Magyar nyelven is játszható.
-- [Newer Super Mario Bros. Wii](https://newerteam.com/wii/download.html) – A New Super Mario Bros. Wii modja, ami hozzáad **128** teljesen új pályát a játékhoz. A futtatáshoz szükséged lesz a Riivolutionre és egy New Super Mario Bros. Wii-lemezre.
+- [ACCF Deluxe](https://aurumsmods.com/accfdeluxe/) - Egy Animal Crossing City Folk mod, ami új tartalmaz ad hozzá, valamint néhány változást a játékmenetben.
+- [CavEX](https://oscwii.org/library/app/cavex) - A Minecraft Beta 1.7.3 egy implmentációja Wii-ra bizonyos korlátozott szolgáltatásokkal.
+- [Cave Story](https://oscwii.org/library/app/cavestory) - A Cave Story (freeware verzió) portja a Wii-ra.
+- [CTGP-R](https://www.chadsoft.co.uk/) - A Mario Kart Wii egy moddja, ami 200 új pályát ad a játékhoz és számos extra funkciót.
+- [Mario Kart Retro Rewind](https://rwfc.net/) - Egy Mario Kart Wii mod, ami minden retró pálytá hozáad a Super Mario Kart-tól a Mario Kart 7-ig, és még többet.
+- [Newer Super Mario Bros. Wii](https://newerteam.com/wii/) – A New Super Mario Bros. Wii modja, ami hozzáad **128** teljesen új pályát a játékhoz.
+- [OpenTTD](https://oscwii.org/library/app/openttd) - Az OpenTTD, nyílt forráskódú verziója a Transport Tycoon Deluxe-nak a Wii-ra.
+- [Project+](https://projectplusgame.com/) - A Super Smash Bros. Brawl egy modja, amely átalakítja a játékot új térképekkel, karakter kiegyensúlyozással és egyebekkel.
+- [Sonic CD](https://oscwii.org/library/app/SonicCDWii) - A Sonic CD 2011-es kiadásának portja a Wii-hez.
 
 ## Emulátorok
 
-- [FCE Ultra RX](https://oscwii.org/library/app/fceurx) – Az FCE Ultra GX forkja, egy NES/Famicom-emulátor, ami extra funkciókkal és teljesítményjavításokkal rendelkezik.
-- [Snex9x RX](https://oscwii.org/library/app/Snes9xRX) – Az Snes9x GX SNES / Super Famicom-emulátor forkja, ami extra funkciókkal és teljesítményjavításokkal rendelkezik.
-- [Not64](https://oscwii.org/library/app/not64) - A Mupen64 0.5 portja, egy Nintendo 64 emulator a Wii-re.
-- [Genesis Plus GX](https://oscwii.org/library/app/genplus-gx) - Emulátor a Sega SG-1000, Sega Master System, Sega Genesis/Mega Drive, Sega Game Gear és Sega/Mega CD konzolokhoz.
-- [mGBA](https://oscwii.org/library/app/mgba) - Az mGBA egy portja, egy Game Boy/Game Boy Color/Game Boy Advance emulátor, Wii-ra.
-- [WiiMednafen](https://oscwii.org/library/app/wiimednafen) - A Mednafen, egy több rendszeres emulátor, egy portja a Wii-ra. Ez a verzió több ritkább konzolt is támogat, mint a Neo Geo Pocket, TurboGrafx 16/PC Engine (CD) és a Bandai Wonderswan.
-- [WiiSX](https://oscwii.org/library/app/wiiSX) - A PCSX-ReARMed, egy Sony PlayStation emulátor, portja Wii-ra.
-- [DOSBox Wii](https://oscwii.org/library/app/dosbox-wii) – A DOSBox MS-DOS emulátor Wiis átültetése.
+- [DOSBox Wii (MS-DOS)](https://oscwii.org/library/app/dosbox-wii) – A DOSBox MS-DOS emulátor Wiis átültetése.
+- [FCE Ultra RX (NES/Famicom)](https://oscwii.org/library/app/fceurx) – Az FCE Ultra GX forkja, egy NES/Famicom-emulátor, ami extra funkciókkal és teljesítményjavításokkal rendelkezik.
+- [Genesis Plus GX (Genesis/Mega Drive)](https://oscwii.org/library/app/genplus-gx) - Egy emulátor, ami a Sega SG-1000, Sega Master System, Sega Genesis/Mega Drive, Sega Game Gear, és a Sega/Mega CD konzolokat támogatja.
+- [MAME-Wii (Arcade)](https://oscwii.org/library/app/sdlmame-wii) - A MAME, egy arcade játékgép emulátor sok különböző gép támogatással, a Wii-hoz.
+- [mGBA (GB/GBC/GBA)](https://oscwii.org/library/app/mgba) - Az mGBA egy portja, egy Game Boy/Game Boy Color/Game Boy Advance emulátor, Wii-ra.
+- [Not64 (N64)](https://oscwii.org/library/app/not64) - A Mupen64 0.5 portja, egy Nintendo 64 emulator a Wii-re.
+- [Snex9x RX (SNES)](https://oscwii.org/library/app/Snes9xRX) – Az Snes9x GX SNES / Super Famicom-emulátor forkja, ami extra funkciókkal és teljesítményjavításokkal rendelkezik.
+- [WiiMednafen (több rendszer)](https://oscwii.org/library/app/wiimednafen) - A Mednafen, egy több rendszeres emulátor, egy portja a Wii-ra. Ez a verzió több ritkább konzolt is támogat, mint a Neo Geo Pocket, TurboGrafx 16/PC Engine (CD) és a Bandai Wonderswan.
+- [WiiSX (PS1)](https://oscwii.org/library/app/wiiSX) - A PCSX-ReARMed, egy Sony PlayStation emulátor, portja Wii-ra.
 
-## Szórakozás
-
-- [WiiMC-SS](https://oscwii.org/library/app/WiiMC-SS) - A WiiMC módosított és frissített verziója. Egy teljes médiaközponttá képes változtatni a Wiidet, ami képes zenét-, videókat-, DVD-ket és sok mást lejátszani.
-- [Schism Tracker](https://oscwii.org/library/app/schismtracker) - Szerkesztő és lejátszó program tracker zenei formátumokhoz (IT, XM, S3M, MOD, stb.). Kipróbálni való zenét[itt](https://modarchive.org/) találhatsz.
+---
 
 ::: tip
 
-[Folytatás a WiiConnect24-gyel](wiiconnect24)
+**A fő útmutató vége**
 
-Habár a WiiConnect24-et leállította a Nintendo 2013 júniusában, létezik egy rajongók által üzemeltetett túlélő szolgáltatás, ami helyreállítja és kibővíti a funkcionalitást.
+Gratulálunk, hogy eljutottál a fő útmutató opcionális részének végére!
+
+Ez az oldal tartalmaz további útmutatókatm amik segíthetnek neked a moddolási utazásodban attól függően, hogy mit szeretnél elérni a Wii-oddal. Az útmutatók, amik érdekelhetnek a követekzőket tartalmazzák:
+
+- [WAD-ok telepítése a YAWMME](yawmme)-val
+- [Játék lemezek dumpolása játék mentések létrehozásához](dump-games)
+- [A játék mentéseid kezelése](backups)
+- [Wii játék mentések betöltése](wii-loaders)
+- [Wii játék parancsikon létrehozása a játék mentéseidhez](wiigsc)
+- [A Wii módosítása témákkal](themes)
+
+További olyan tartalom található a [hacks.guide wiki](https://wiki.hacks.guide/wiki/Wii:Things_to_do) oldalon, ami érdekelhet.
+
+:::
+
+---
+
+::: tip
+
+[Kattints ide a Nintendo Homebrew discord szerverhez csatlakozáshoz támogatásért és továbbiakért.](https://discord.gg/C29hYvh)
+
+:::
+
+---
+
+::: tip
+
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::

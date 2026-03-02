@@ -56,11 +56,15 @@ At this point, you should be able to install the Homebrew Channel and access hom
 
 :::
 
+---
+
 ::: tip
 
 [Return to Bricks](bricks)
 
 :::
+
+---
 
 ::: tip
 

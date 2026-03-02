@@ -82,7 +82,7 @@ A TinyWiiBackupManager egy új, könnyű játék mentés manager alkalmazás, am
 
 - Egy PC Windows 7-tel vagy későbbivel
 - Egy SD kártya vagy USB drive
-- Egy dumpolt Wii/GameCube játák lemez (bármilyen formátum)
+- Egy dumpolt Wii/GameCube játék lemez (bármilyen formátum)
 - [TinyWiiBackupManagerInstaller](https://github.com/mq1/TinyWiiBackupManagerInstaller/releases/latest/)
 
 #### Lépések
@@ -131,14 +131,14 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
 - Egy macOS 10.13 vagy későbbi oprendszerű számítógép
 - Egy SD kártya vagy USB drive
-- Egy dumpolt Wii/GameCube játák lemez (bármilyen formátum)
+- Egy dumpolt Wii/GameCube játék lemez (bármilyen formátum)
 - [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
 
 #### Lépések
 
 ##### I. rész – Telepítés
 
-1. Download the universal .DMG binary for macOS.
+1. Töltsd le az univerzális .DMG binárist a macOS-hez.
 
    ![](/images/desktop-apps/TWBM/twbm-mac-download.png)
 
@@ -150,7 +150,7 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
    ![](/images/desktop-apps/TWBM/twbm-mac-security.png)
 
-4. Launch TinyWiiBackupManager.
+4. Indítsd el a TinyWiiBackupManager-t.
 
 ##### Section II - Copying Games
 
@@ -184,9 +184,9 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
 #### Követelmények
 
-- A PC running Linux that supports AppImage or Flatpak
+- Egy Linuxot futattó PC AppImage vagy Flatpak támogatással
 - Egy SD kártya vagy USB drive
-- Egy dumpolt Wii/GameCube játák lemez (bármilyen formátum)
+- Egy dumpolt Wii/GameCube játék lemez (bármilyen formátum)
 - [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
 
 #### Lépések
@@ -215,7 +215,7 @@ TinyWiiBackupManager can be installed from the Flathub repository as a Flatpak, 
 
    ![](/images/desktop-apps/TWBM/twbm-linux-appimage-exec.png)
 
-3. Launch TinyWiiBackupManager.
+3. Indítsd el a TinyWiiBackupManager-t.
 
 ##### Section II - Copying Games
 
@@ -245,6 +245,8 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
 :::::
 
+---
+
 ::: tip
 
 [Folytatás a cIOS-sal](cios)
@@ -254,6 +256,8 @@ A dumpolt Wii játékok külső eszközről lejátszásához a cIOS-t konfigurá
 You can also use [Nintendont](nintendont) to play GameCube games from your USB drive or SD card.
 
 :::
+
+---
 
 ::: tip
 

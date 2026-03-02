@@ -1,5 +1,7 @@
 # Faire un don
 
+---
+
 ::: tip
 
 [![Paypal]({{ base_path }}/images/main-pages/donations/paypal_white.png){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://paypal.me/NintendoHomebrew){: .align-center}
@@ -10,6 +12,8 @@
 [https://paypal.me/NintendoHomebrew](https://paypal.me/NintendoHomebrew){style="display: block;text-align: center"}
 
 :::
+
+---
 
 ::: tip
 
@@ -22,9 +26,11 @@
 
 :::
 
+---
+
 ::: tip
 
-[Cliquez ici pour revenir à l'index du site.](site-navigation)
+[Click here to go back to the site index.](site-navigation)
 {: .notice--info}
 
 :::

@@ -47,6 +47,8 @@ Ha több próbálkozás után sem tölt be, próbáld törölni a böngésző s�
 
 Ha további próbálkozások után sem működik a Flashhax, javasoljuk, hogy próbálj meg egy [másik exploitot](get-started) helyette.
 
+---
+
 ::: tip
 
 [Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)

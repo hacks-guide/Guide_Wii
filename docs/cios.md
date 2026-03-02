@@ -85,7 +85,7 @@ The WAD files should be on your SD card like this:
 1. Launch d2x cIOS Installer from the list of homebrew.
 1. Set everything to match the following:
 
-    ```
+    ```html
     Select cIOS <d2x-v11-beta3>
     Select cIOS base <38>
     Select cIOS slot <248>
@@ -139,7 +139,7 @@ The WAD files should be on your SD card like this:
 
     * cIOS 249 Installation
 
-        ```
+        ```html
         Select cIOS <d2x-v11-beta3>
         Select cIOS base <56>
         Select cIOS slot <249>
@@ -150,7 +150,7 @@ The WAD files should be on your SD card like this:
 
     * cIOS 250 Installation
 
-        ```
+        ```html
         Select cIOS <d2x-v11-beta3>
         Select cIOS base <57>
         Select cIOS slot <250>
@@ -161,7 +161,7 @@ The WAD files should be on your SD card like this:
 
     * cIOS 251 Installation
 
-        ```
+        ```html
         Select cIOS <d2x-v11-beta3>
         Select cIOS base <58>
         Select cIOS slot <251>
@@ -221,7 +221,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 1. Launch d2x cIOS Installer from the list of homebrew.
 1. Set everything to match the following:
 
-    ```
+    ```html
     Select cIOS <d2x-v11-beta3-vWii>
     Select cIOS base <38>
     Select cIOS slot <248>
@@ -243,7 +243,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
     * cIOS 249 Installation
 
-        ```
+        ```html
         Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <56>
         Select cIOS slot <249>
@@ -253,7 +253,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
     * cIOS 250 Installation
 
-        ```
+        ```html
         Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <57>
         Select cIOS slot <250>
@@ -263,7 +263,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
     * cIOS 251 Installation
 
-        ```
+        ```html
         Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <58>
         Select cIOS slot <251>
@@ -328,7 +328,7 @@ If you need assistance with this tutorial, please join [the Wii mini Hacking Dis
 1. Select `Continue`.
 1. Set the options to the following:
 
-    ```
+    ```html
     Select cIOS <d2xl-v1-beta2>
     Select cIOS base <57>
     Select cIOS slot <249>

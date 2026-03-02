@@ -42,12 +42,12 @@ The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [
 
 Di seguito è riportato un esempio di WBFS singolo e WBFS diviso. A WBFS needs to be split if it is over 4 GB and your storage device is formatted as FAT32. Software such as [TinyWiiBackupManager](backups#using-tinywiibackupmanager) can do this for you, and will automatically set up the game folder structure correctly.
 
-```
-💾Scheda SD o USB:
+```shell
+💾 SD Card or USB Drive
  ┗ 📂wbfs
-    ┣ 📂NomeGioco [GameID]
-    ┃  ┗ 📜gameid.wbfs (per titoli non divisi)
-    ┗ 📂NomeGioco [GameID]
+    ┣ 📂GameName [GameID]
+    ┃  ┗ 📜gameid.wbfs (for non-split titles)
+    ┗ 📂GameName [GameID]
        ┣ 📜gameid.wbfs
        ┗ 📜gameid.wbf1
 ```
@@ -160,7 +160,7 @@ Alcuni esempio includono:
 - Avviare SpongeBob's Boating Bash.
 - Usare un dongle USB in Rock Band.
 
-A more comprehensive (although still incomplete) list can be found [here](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
+A more comprehensive (although still incomplete) list can be found [on GBAtemp](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
 
 Both USB Loader GX and WiiFlow Lite are programmed to automatically find the best cIOS to use and load the game with it using the default settings.  Tuttavia, se per qualche motivo questi loader scelgonoo il cIOS da usare sbagliato, hai l'opzione per cambiarlo manualmente.
 
@@ -183,6 +183,8 @@ Per cambiare il cIOS utilizzato per un gioco specifico, segui le istruzioni adat
 3. Vai su cIOS e usa le frecce per cambiare lo slot IOS da usare.
    - Prova ad usare 248, 249, 250 o 251.
 4. Premi Salva e prova a caricare il gioco.
+
+---
 
 ::: tip
 

@@ -1,10 +1,20 @@
 # 常見問題
 
-## Main FAQ
+## Primary FAQ
 
 ### How risky is hacking my console?
 
-Not very risky depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+Not very risky depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid on the [brick overview page](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+
+### How can I remove parental controls?
+
+The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
+
+### Bricks (a state where either some parts of your Wii software are not working, or your Wii is not working at all) are extremely rare unless you ignore/circumvent all safety checks, or do something risky or naive like installing an older version of the Wii Menu. Make sure you install <a href="bootmii">BootMii</a> and <a href="priiloader">Priiloader</a> to protect yourself from bricks!
+
+See [this](bricks) page.
+
+## Error Code FAQ
 
 ### I got error code XXXXXX, how to fix it?
 
@@ -12,9 +22,11 @@ In order to check what the error means, please visit the [Wiimmfi error page](ht
 
 #### Error 051330/51330
 
-Run an Internet connection test by going to `Wii Settings > Internet > Connection settings > Connection > Test this connection`
+Run an Internet connection test by going to `Wii Settings` > `Internet` > `Connection settings` > `Connection` > `Test this connection`
 
 #### Error 220602
+
+<br>
 
 ##### For RiiConnect24 Users
 
@@ -28,6 +40,8 @@ This can also happen if you use a proxy server and it is down.
 
 #### Error 107304
 
+<br>
+
 ##### For RiiConnect24 Users
 
 If you get this error or you see Nintendo's User Agreement without RiiConnect24's logo, that means your ISP (Internet Service Provider) or network is blocking the use of RC24 DNS. You can set <code>Auto-Obtain DNS</code> to <code>On</code> to solve this. RiiConnect24 will still work without it. You can join <a href="https://discord.gg/rc24">the RiiConnect24 Discord server</a> (recommended) or <a href="mailto:support@riiconnect24.net">e-mail us at support@riiconnect24.net</a> for assistance. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 will still work without it. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
@@ -39,14 +53,6 @@ If you get this error, the DNS server you chose or your internet as a whole is h
 #### FORE000006
 
 If you get error FORE000006, your Wii's clock is probably set incorrectly. See <a href="wiiconnect24#updating-rtc-clock">this</a> on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, reset the Wii's clock.
-
-### How can I remove parental controls?
-
-The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
-
-### Bricks (a state where either some parts of your Wii software are not working, or your Wii is not working at all) are extremely rare unless you ignore/circumvent all safety checks, or do something risky or naive like installing an older version of the Wii Menu. Make sure you install <a href="bootmii">BootMii</a> and <a href="priiloader">Priiloader</a> to protect yourself from bricks!
-
-See [this](bricks) page.
 
 ## Storage Device FAQ
 
@@ -142,7 +148,7 @@ For the purpose of using a drive with a Wii, external SSDs are often more expens
 
 ## Networking FAQ
 
-The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named WiFi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points (APs):
+The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named Wi-Fi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points (APs):
 
 - APs enforcing WPA enterprise encryption, or WPA3 only
 - APs not backwards compatible with WiFi 3, or broadcasting only on the 5 GHz band
@@ -162,3 +168,11 @@ If your ISP will not let you change these settings, or your current networking h
 - Alternatively, you can buy a secondary router and continue to use the network you already have, like a mesh. Any cheap router meeting the above standards (such as the Linksys WRT54G) will work.
 
 For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the `Wii VC Launch` Aroma plugin.
+
+---
+
+::: tip
+
+[Click here to go back to the site index.](site-navigation)
+
+:::

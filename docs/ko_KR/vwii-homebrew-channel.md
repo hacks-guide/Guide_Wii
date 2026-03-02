@@ -35,7 +35,7 @@ If the evWii Aroma plugin is not installed and a homebrew app crashes/hangs, the
 
 1. Wii U의 SD 카드를 PC에 연결합니다.
 2. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
-3. Copy `evwii.wps` file to `wiiu` -> `environments` -> `aroma` -> `plugins` of your SD Card.
+3. Copy `evwii.wps` file to `wiiu` > `environments` > `aroma` > `plugins` of your SD Card.
 4. SD 카드를 Wii U에 다시 연결하세요.
 
 ### Section II - Booting into Aroma
@@ -109,14 +109,14 @@ On Step 3, if the HOME button doesn't work, or causes you to freeze on a solid c
 
 참고: SD 카드나 USB 드라이브에 Wii 홈브류 응용 프로그램을 설치할 때 폴더 구조는 다음과 같아야 합니다:
 
-```
-💾 SD 카드
+```shell
+💾 SD Card
  ┗ 📁 apps
-   ┣ 📁 <AppName1>
+   ┣ 📁 AppName1
    ┃ ┣ 📄 boot.dol
    ┃ ┣ 📄 meta.xml
    ┃ ┗ 📄 icon.png
-   ┗ 📁 <AppName2>
+   ┗ 📁 AppName2
      ┣ 📄 boot.dol
      ┣ 📄 meta.xml
      ┗ 📄 icon.png
@@ -125,6 +125,8 @@ On Step 3, if the HOME button doesn't work, or causes you to freeze on a solid c
 `AppName1`과 `AppName2`는 플레이스홀더 이름입니다. `apps` 폴더 자체 내에 여러 개의 `apps` 폴더를 중첩하지 마세요.
 
 Please note that the `apps` folder inside of the `wiiu` folder (for Wii U homebrew apps) and the `apps` folder on the root of the SD card (for Wii homebrew apps) are distinct.
+
+---
 
 ::: tip
 

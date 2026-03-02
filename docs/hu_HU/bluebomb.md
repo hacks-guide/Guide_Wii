@@ -4,41 +4,29 @@ outline: false
 
 # BlueBomb
 
+A BlueBomb egy exploit, ami a Wii és a Wii mini Bluetooth-könyvtárainak egy biztonsági rését használja ki. Ugyan ez az egyetlen Wii minivel kompatibilis módszer, de az eredeti Wiin is lehet használni.
+
+Ez az exploit lehetővé teszi bizonyos brick-ek, mint például a banner brick és (néhány) téma brick helyreállítását is, abban az esetben, ha nincs brick védelem.
+
+Kérjük olvasd el a listába gyűjtött fontos információkat mielőtt tovább haladsz.
+
 ::::: tabs
 
 :::: tab BlueBomb Classic
 
 ## BlueBomb Classic
 
-:::details Technikai részletek (opcionális)
+:::details Fontos információ
 
-A BlueBomb egy exploit, ami a Wii és a Wii mini Bluetooth-könyvtárainak egy biztonsági rését használja ki. Ugyan ez az egyetlen Wii minivel kompatibilis módszer, de az eredeti Wiin is lehet használni.
-
-Ez az exploit lehetővé teszi bizonyos brick-ek, mint például a banner brick és (néhány) téma brick helyreállítását is.
-
-:::
-
-::: warning
-
-A konzol **brickelésének** magas esélye miatt **erősen** ajánljuk, hogy messze kerülj el **bármilyen** Wii mini hackeléssel kapcsolatos oktatóvideót.
+- Ha ezt az útmutatót Wii mini hackeléséhez használod és segítségre an szükséged, csatlakozz a [Wii mini Hacking Discord szerverhez](https://discord.gg/6ryxnkS).
+- Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploitot használj](get-started), mert a HackMii telepítő előkészítésének sokkal egyszerűbb módjai is vannak. Ha egy elromlott konzol megjavításáról van szó, akkor viszont vannak kivételek.
+- Győződj meg róla, hogy a konzol közel van az exploitot futtató számítógéphez, ideális esetben kevesebb mint 1 méternyire.
 
 :::
 
-::: info
+::: danger
 
-Ha az útmutatóval kapcsolatban segítségre lenne szükséged (angol nyelven), kérjük csatlakozz a [Wii mini Hacking Discord server](https://discord.gg/6ryxnkS)-hez. (ajánlott)
-
-:::
-
-::: info
-
-Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploitot használj](get-started), mert a HackMii telepítő előkészítésének sokkal egyszerűbb módjai is vannak. Ha egy elromlott konzol megjavításáról van szó, akkor viszont vannak kivételek.
-
-:::
-
-::: info
-
-Győződj meg róla, hogy a konzol közel van az exploitot futtató számítógéphez, ideális esetben kevesebb mint 1 méternyire.
+**Erősen nem ajánlott** **bármilyen** videós útmutató használata, de kifejezetten nem akkor, ha Wii mini konzolt hackelsz. A hibás útmutatók jelentősen nagyobb eséllyel vezetnek a konzolod **brickelődéséhez**, mint normális esetben.
 
 :::
 
@@ -46,19 +34,25 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 
 - Egy Linuxos számítógép
   - Lehetséges, hogy a program egy virtuális számítógépen is elfut, de ez a módszer a Bluetooth-áthidalás bonyolultsága miatt nem ajánlott. Ha lehet, az alább leírtak szerint futtasd a Linuxot egy Usb-meghajtóról.
+
   - Egy Raspberry Pi működhet, ugyanis arra valószínűleg már telepítve van a Linux egy verziója.
+
     - Az ARM64 Raspberry Pi nak szüksége van a multiarch engedélyezésére az armhf (32bit) architektúrával. Az alábbinak működnie kell minden debian alapú OS-en:
-    ```bash
+
+    ```shell
     sudo sudo dpkg --add-architecture armhf
     sudo apt update && sudo apt install -y screen:armhf
     file /usr/bin/screen # should say ELF 32-bit
     screen
     ```
+
   - Linuxos Windows-alrendszert vagy Linux-módban futó Chromebookot nem használhatsz, ugyanis ezek nem férnek hozzá a Bluetooth-adapterhez vagy az USB portokhoz.
+
   - Ha nincs Linuxod, akkor az [Ubuntu](https://ubuntu.com/download/desktop) lehet a legfelhasználóbarátabb lehetőség és ami a legtöbb Windowsos vagy MacOS-es számítógépen elfut.
     - Apple Silicon Mac-ek nem fognak működni, mivel hiányoznak az ARM32 utasítások a hardverből.
     - A 32-bites eszközök [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) verziót igényelnek.
     - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
+
   - [Készíthetsz egy Linux Live környezetet egy USB pendrive-ra](https://ubuntu.com/tutorials/tutorial-create-a-usb-stick-on-windows#1-overview) is a helyett, hogy telepítenéd a számítógépedre.
 - A Bluetooth adapter.
   - Egy beépített Bluetooth-adapter is megfelel.
@@ -96,7 +90,7 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 
 8. Nyisd meg a Terminált és futtasd a következő parancsokat:
 
-   ```bash
+   ```shell
    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
    chmod +x bluebomb-helper.sh
    ./bluebomb-helper.sh
@@ -133,6 +127,8 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
+---
+
 ::: tip
 
 [Folytatás a Hackmii Installer-rel](hbc)
@@ -145,33 +141,18 @@ Győződj meg róla, hogy a konzol közel van az exploitot futtató számítóg�
 
 ## BlueBomb Micro
 
-:::details Technikai részletek (opcionális)
+:::details Fontos információ
 
-Ez az exploit lehetővé teszi bizonyos brick-ek, mint például a banner brick és (néhány) téma brick helyreállítását is.
-
-:::
-
-::: warning
-
-A konzol **brickelésének** magas esélye miatt **erősen** ajánljuk, hogy messze kerülj el **bármilyen** Wii mini hackeléssel kapcsolatos oktatóvideót.
+- Ha ezt az útmutatót Wii mini hackeléséhez használod és segítségre an szükséged, csatlakozz a [Wii mini Hacking Discord szerverhez](https://discord.gg/6ryxnkS).
+- Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploitot használj](get-started), mert a HackMii telepítő előkészítésének sokkal egyszerűbb módjai is vannak. Ha egy elromlott konzol megjavításáról van szó, akkor viszont vannak kivételek.
+- Győződj meg róla, hogy a konzol közel van az exploitot futtató számítógéphez, ideális esetben kevesebb mint 1 méternyire.
+- Ha `Exception 0700 occurred!` hibaüzenetet vagy hasonlót kapsz, próbálja meg újra az exploitot. Ha ez továbbra is előfordul, csatlakozz [a Wii mini Hacking Discord szerverhez](https://discord.gg/6ryxnkS) támogatásért.
 
 :::
 
-::: info
+::: danger
 
-Ha az útmutatóval kapcsolatban segítségre lenne szükséged (angol nyelven), kérjük csatlakozz a [Wii mini Hacking Discord server](https://discord.gg/6ryxnkS)-hez. (ajánlott)
-
-:::
-
-::: info
-
-Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploitot használj](get-started), mert a HackMii telepítő előkészítésének sokkal egyszerűbb módjai is vannak. Ha egy elromlott konzol megjavításáról van szó, akkor viszont vannak kivételek.
-
-:::
-
-::: info
-
-Az optimális működés érdekében ajánlott a mikrokonrollert és a telepítőt futtató számítógépet legfeljebb 1 m-es távolságban tartani.
+**Erősen nem ajánlott** **bármilyen** videós útmutató használata, de kifejezetten nem akkor, ha Wii mini konzolt hackelsz. A hibás útmutatók jelentősen nagyobb eséllyel vezetnek a konzolod **brickelődéséhez**, mint normális esetben.
 
 :::
 
@@ -253,11 +234,7 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
-::: tip
-
-Ha `Exception 0700 occurred!` hibaüzenetet vagy hasonlót kapsz, próbálja meg újra az exploitot. Ha ez továbbra is előfordul, csatlakozz [a Wii mini Hacking Discord szerverhez](https://discord.gg/6ryxnkS) támogatásért.
-
-:::
+---
 
 ::: tip
 

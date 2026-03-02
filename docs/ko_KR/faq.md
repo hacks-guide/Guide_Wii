@@ -1,10 +1,20 @@
 # 자주 묻는 질문 및 문제 해결
 
-## 주요 자주 묻는 질문
+## Primary FAQ
 
 ### 콘솔 해킹은 얼마나 위험한가요?
 
-콘솔에 따라 크게 위험하지는 않습니다. Wii는 다른 콘솔에 비해 진입 장벽이 훨씬 낮으며, 일부 게임을 플레이하는 데는 Wii와 인터넷 연결만 있으면 됩니다. [여기](bricks#brick-prevention)에 나와 있는 일반적인 조언을 따르고 [BootMii](bootmii)와 [Priiloader](priiloader)를 설치하고 상식에 따라 행동한다면 아무런 문제가 없을 겁니다!
+콘솔에 따라 크게 위험하지는 않습니다. Wii는 다른 콘솔에 비해 진입 장벽이 훨씬 낮으며, 일부 게임을 플레이하는 데는 Wii와 인터넷 연결만 있으면 됩니다. As long as you follow the general advice laid on the [brick overview page](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+
+### 자녀 보호는 어떻게 해제하나요?
+
+[mkey 생성기](https://mkey.nintendohomebrew.com/)를 사용하면 보호자 통제 기능을 제거하는 데 필요한 코드를 생성할 수 있습니다.
+
+### 내 Wii가 고장난 것 같거나 심각한 문제가 있는 경우 어떻게 해야 하나요?
+
+[이](bricks) 페이지를 참조합니다.
+
+## Error Code FAQ
 
 ### I got error code XXXXXX, how to fix it?
 
@@ -12,9 +22,11 @@
 
 #### 오류 051330/51330
 
-`Wii 설정 > 인터넷 > 연결 설정 > 연결 > 이 연결 테스트`로 이동하여 인터넷 연결 테스트를 실행합니다.
+Run an Internet connection test by going to `Wii Settings` > `Internet` > `Connection settings` > `Connection` > `Test this connection`
 
 #### 오류 220602
+
+<br>
 
 ##### RiiConnect24 사용자용
 
@@ -28,6 +40,8 @@ RiiConnect24의 이전 DNS 서버를 사용하고 있습니다. 변경 방법에
 
 #### 오류 107304
 
+<br>
+
 ##### RiiConnect24 사용자용
 
 이러한 오류가 발생하거나 RiiConnect24 로고 없이 닌텐도 사용자 계약이 표시되는 경우, 여러분의 ISP (인터넷 서비스 제공업체) 또는 네트워크가 RC24 DNS 사용을 차단하고 있다는 의미입니다. 이 문제를 해결하려면 '자동으로 DNS 가져오기'를 '켜기'로 설정하면 됩니다. RiiConnect24는 이것 없이도 작동합니다. 또는 [RiiConnect24 DNS 서버](https://github.com/RiiConnect24/DNS-Server/releases/latest) 프로그램을 사용할 수 있습니다.
@@ -39,14 +53,6 @@ RiiConnect24의 이전 DNS 서버를 사용하고 있습니다. 변경 방법에
 #### FORE000006
 
 오류 FORE000006이 발생하면 Wii의 시계가 잘못 설정되었을 가능성이 큽니다. 올바르게 재설정하는 방법에 대한 지침은 [이것](wiiconnect24#updating-rtc-clock)을 참조합니다. 그래도 문제가 해결되지 않으면 Wii 시계 배터리(시스템 하단의 나사 뒤에 있음)를 한 시간 동안 제거한 다음 다시 넣습니다. 그런 다음 Wii의 시계를 재설정합니다.
-
-### 자녀 보호는 어떻게 해제하나요?
-
-[mkey 생성기](https://mkey.nintendohomebrew.com/)를 사용하면 보호자 통제 기능을 제거하는 데 필요한 코드를 생성할 수 있습니다.
-
-### 내 Wii가 고장난 것 같거나 심각한 문제가 있는 경우 어떻게 해야 하나요?
-
-[이](bricks) 페이지를 참조합니다.
 
 ## 저장 장치 자주 묻는 질문
 
@@ -142,7 +148,7 @@ Wii에서 드라이브를 사용하려면 외장형 SSD가 기존 하드 드라�
 
 ## 네트워킹 자주 묻는 질문
 
-Wii의 무선 네트워크 하드웨어는 2.4GHz 대역에서 최대 표준인 802.11g (이전 명칭은 WiFi 3)를 지원하며, 최대 보안 수준은 WPA2-PSK (AES)입니다. 따라서 Wii는 다음 액세스 포인트 (AP)에 연결할 수 없습니다.
+The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named Wi-Fi 3), with a maximum security level of WPA2-PSK (AES). 따라서 Wii는 다음 액세스 포인트 (AP)에 연결할 수 없습니다.
 
 - WPA 엔터프라이즈 암호화 또는 WPA3만 적용하는 AP
 - WiFi 3와 이전 버전과 호환되지 않거나 5GHz 대역에서만 브로드캐스팅하는 AP
@@ -162,3 +168,11 @@ ISP에서 이러한 설정을 변경하지 못하게 하거나 현재 네트워�
 - 혹은 보조 라우터를 구매해서 메시처럼 이미 가지고 있는 네트워크를 계속 사용할 수도 있습니다. 위의 기준을 충족하는 저렴한 라우터 (예: Linksys WRT54G)라면 모두 작동합니다.
 
 Wii U의 경우, vWii는 Wii U의 기본 설정에서 설정된 인터넷 설정을 사용하지만, `Wii VC 실행` 아로마 플러그인을 사용하여 선택적으로 분리할 수 있습니다.
+
+---
+
+::: tip
+
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
+
+:::

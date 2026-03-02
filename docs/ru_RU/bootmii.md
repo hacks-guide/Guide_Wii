@@ -1,11 +1,32 @@
 # Резервная копия через BootMii
 
-BootMii позволяет создавать и восстанавливать резервные копии памяти NAND.
-Эта страница поможет вам создать резервную копию NAND вашей Wii и переместить её на SD-карту, которую вы можете использовать в дальнейшем.
+BootMii позволяет создавать и восстанавливать резервные копии памяти NAND. Эта страница поможет вам создать резервную копию NAND вашей Wii и переместить её на SD-карту, которую вы можете использовать в дальнейшем.
 
-::: warning
+Please read the below information before proceeding further.
 
-Вам нужна **SD-карта** для использования BootMii, но особенно для создания резервной копии NAND. Если у вас сейчас нет SD-карты, вы можете пропустить эту страницу, но НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ вернуться к этой странице позже для создания резервной копии.
+:::details Important Information
+
+- After the completion of this guide, two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` — это резервная копия внутренней памяти консоли, а `keys.bin` — ключи вашей консоли.
+
+- If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. В таком случае пропустите шаги 1 и 2.
+
+- You must use the buttons on your console or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad to move, and press A to select. To navigate with your console buttons, press `POWER` to move right, and press `RESET` to select.
+
+- Please note that **restoring a NAND backup is usually a last resort**. With that said, you can use the [BootMii Recovery guide](bootmiirecover) to restore your NAND backup, where more information is provided about the risks and alternatives.
+
+- Family Edition Wiis and Wii minis CANNOT restore NAND backups. Это происходит из-за отсутствия портов GameCube, которые требуется для Wii без модифицированного boo2 для ввода кода подтверждения восстановления.
+
+:::
+
+::: danger
+
+**Important Warnings**
+
+- Вам нужна **SD-карта** для использования BootMii, но особенно для создания резервной копии NAND. Если у вас сейчас нет SD-карты, вы можете пропустить эту страницу, но НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ вернуться к этой странице позже для создания резервной копии.
+
+- Если кнопка `Launch BootMii` не появляется в Homebrew Channel, [перезапустите установщик HackMii](hackmii) и установите BootMii.
+
+- If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Скачайте [этот zip архив](/assets/files/bootmii_sd_files.zip) и распакуйте его в корень SD карты, а затем повторите попытку.
 
 :::
 
@@ -15,12 +36,6 @@ BootMii позволяет создавать и восстанавливать 
 
 ## Инструкции
 
-::: info
-
-If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. В таком случае пропустите шаги 1 и 2.
-
-:::
-
 1. Включите вашу консоль.
 
 2. Launch the Homebrew Channel, and launch the Load Priiloader app.
@@ -29,29 +44,9 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
    ![](/images/bootmii/BootMii_HBC.png)
 
-   ::: warning
-
-   Если кнопка `Launch BootMii` не появляется в Homebrew Channel, [перезапустите установщик HackMii](hackmii) и установите BootMii.
-
-   :::
-
-   ::: warning
-
-   If the screen stays black and the blue disc drive light is blinking, you are missing the BootMii files on your SD card. Скачайте [этот zip архив](/assets/files/bootmii_sd_files.zip) и распакуйте его в корень SD карты, а затем повторите попытку.
-
-   :::
-
 4. Вы должны увидеть изображение, похожее на приведенное ниже на вашем экране:
 
    ![](/images/bootmii/BootMii_Main.png)
-
-   ::: info
-
-   Управление BootMii не возможно через Wii Remote.
-   Вы должны использовать кнопки POWER и RESET на вашей консоли, или контроллер GameCube подключенный к порту 1.
-   Чтобы перемещаться между параметрами, нажмите POWER. Чтобы выбрать опцию, нажмите RESET.
-
-   :::
 
 5. Select the Options button (the icon with the gears).
 
@@ -77,23 +72,6 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 
    ![](/images/bootmii/BootMii_Return.png)
 
-::: info
-
-Примечание: **восстановление резервной копии NAND, как правило, является крайней мерой**. Обычно существуют способы лучше для восстановления вашей консоли после окирпичивания.
-
-Постарайтесь [определить степень окирпичивания](bricks) и отменить действие, которое его вызвало.
-
-Чтобы восстановить резервную копию NAND с SD-карты, следуйте инструкциям для [RestoreMii](bootmiirecover).
-**Версии Wii Family Edition (Wii без портов GameCube) НЕ МОГУТ восстанавливать резервные копии NAND без аппаратных модификаций.**
-
-:::
-
-::: info
-
-Два файла будет созданы в корне вашей SD-карты: `nand.bin` и `keys.bin`. `nand.bin` — это резервная копия внутренней памяти консоли, а `keys.bin` — ключи вашей консоли.
-
-:::
-
 ## Автозагрузка
 
 Если вы смогли установить BootMii в качестве boot2, но не хотите загружать BootMii при каждом включении Wii, у вас есть возможность настроить автозагрузку в системное меню. Должно получиться так, что вы даже не заметите что BootMii установлен в boot2.
@@ -118,6 +96,8 @@ If you have BootMii installed as boot2 you will need to launch BootMii by restar
 3. Нажмите на вкладку `Tools`, прокрутите вниз до `Manage NAND`, затем выберите `Import BootMii NAND backup...`.
 4. Найдите `nand.bin` в корне вашей SD-карты и нажмите Open.
 5. Если эмулятор требует файл `keys.bin`, найдите его в корне вашей SD-карты и нажмите Open.
+
+---
 
 ::: tip
 

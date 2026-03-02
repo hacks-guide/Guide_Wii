@@ -1,4 +1,4 @@
-# wii.hacks.guide
+# Wii Hacks Guide
 
 The complete guide to modding your Wii, vWii, and Wii mini.
 
@@ -13,18 +13,18 @@ The complete guide to modding your Wii, vWii, and Wii mini.
 
 This requires the following installed on your system:
 
-* node.js
+* [node.js](https://nodejs.org/en)
 
 To test the website locally, clone the source code:
 
-```sh
+```shell
 git clone https://github.com/hacks-guide/Guide_Wii --recurse-submodules
 cd Guide_Wii
 ```
 
 Then simply run the following commands:
 
-```sh
+```shell
 npm ci
 npm run docs:dev
 ```

@@ -111,6 +111,8 @@ Wii 패밀리 에디션, Wii 미니, Wii U의 vWii는 게임큐브 게임을 덤
 
    ![](/images/homebrew/CleanRip/gcdumpcomplete.png)
 
+---
+
 ::: tip
 
 Proceed to [Managing Wii and GameCube Backups](backups#using-tinywiibackupmanager) to shrink the size of your output file, and manage your dumped games.

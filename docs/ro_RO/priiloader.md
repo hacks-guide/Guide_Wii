@@ -1,10 +1,16 @@
 # Priiloader
 
-[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii. Acesta se încarcă înaintea lui Wii System Menu. Această unealtă poate de asemenea să aplice modificări care sunt folosite pentru a îmbunătății, debloca și repara multe funcții ale Meniului de Sistem.
+[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii, by loading before the Wii System Menu. Această unealtă poate de asemenea să aplice modificări care sunt folosite pentru a îmbunătății, debloca și repara multe funcții ale Meniului de Sistem.
 
-În plus, poate fi folosit pentru lansarea rapidă a orice Titlu sau Homebrew, sau pentru a schimba modul în care Wii autobootează.
+Additionally, it can be used to quickly launch any title or homebrew app, or change the way your Wii boots.
 
-## Requirements
+::: info
+
+You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
+
+:::
+
+## Instrumente necesare
 
 - Un card SD sau o unitate USB
 - [Priiloader Installer](https://oscwii.org/library/app/priiloader) (the `.zip` file)
@@ -16,11 +22,11 @@
 - [Priiloader Wii U Forwarder](https://github.com/DacoTaco/priiloader/releases/download/0.10.0/PriiloaderWiiUForwarder.zip) (direct download)
   - [Aroma](https://wiiu.hacks.guide/aroma/getting-started) must be installed on your console for the Priiloader Wii U Forwarder to function.
 
-## Instructions
+## Instrucțiuni
 
 ### Secțiunea I - Pregătire
 
-1. Power off your console.
+1. Oprește-ți consola.
 2. Extract both apps to the root of your SD card or USB drive.
 3. Copy the `apps` folder from the LoadPriiloader `.zip` to the root of your SD card or USB drive.
 4. Copy the `apps` folder from the priiloader `.zip` to the root of your SD card or USB drive.
@@ -29,7 +35,7 @@
 
 ### Secțiunea II – Instalarea Priiloader
 
-1. Power on your console.
+1. Pornește consola.
 
 2. Launch the Priiloader installer.
 
@@ -88,11 +94,7 @@ Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
 4. Press `B` to return to the main menu.
 
-::: info
-
-You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
-
-:::
+---
 
 ::: info
 
@@ -102,7 +104,7 @@ These guidelines list ways that will help avoid bricking your Wii, beyond just h
 
 :::
 
-## Next Steps
+---
 
 ::: tip
 
