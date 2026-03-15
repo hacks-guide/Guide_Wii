@@ -38,7 +38,7 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
    ![](/images/riiconnect24/Internet_2.png)
 
-4. Navigate to `Page 2` > `Internet` > `Connection Settings`.
+4. Navigálj a `Page 2` >`Internet` > `Connection Settings` opcióig.
 
    ![](/images/riiconnect24/Internet_3.png)
 

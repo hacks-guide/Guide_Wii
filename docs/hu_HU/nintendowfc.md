@@ -111,7 +111,7 @@ Egy patchelési módszer a Wiimmfi-hez f, amely a kiskereskedelmi játéklemezek
 
 #### Lépések
 
-1. Go to `Wii Settings` > `Internet` > `Connection Settings` and select whatever connection you are using. Then, `Change Settings` > `Auto-Obtain DNS NO` > `Advanced Settings`. Állítsd be elsődleges (primary) DNS-nek a `95.217.77.181` címet és másodlagos (secondary) DNS-nek az `1.1.1.1`-et.
+1. Menj a `Wii Settings` > `Internet` > `Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Majd `Change Settings` > `Auto-Obtain DNS NO` > `Advanced Settings`. Állítsd be elsődleges (primary) DNS-nek a `95.217.77.181` címet és másodlagos (secondary) DNS-nek az `1.1.1.1`-et.
 2. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
 3. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 

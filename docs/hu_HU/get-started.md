@@ -2,17 +2,17 @@
 
 ::: info
 
-It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and take advantage of more homebrew.
+Javasoljuk, hogy a kezdeti hackelési folyamat után legalább egy SD-kártya legyen kéznél, mivel ez lehetővé teszi, hogy a BootMii segítségével NAND biztonsági mentést készíts, és sokféle homebrew előnyeit vehesd igénybe.
 
 :::
 
-The exploits listed for the Wii and Wii mini will bring you to the HackMii installer. The HackMii installer will install the Homebrew Channel (used for lauching homebrew) as well as BootMii (used for creating and restoring NAND backups), depending on your console.
+Ez a Wii-hoz és a Wii mini-hez listázott exploit a HackMii telepítőhöz fog vinni. A HackMii telepítő telepíteni fogja a Homebrew Channel-t (ami homebrew-ok indítására szolgál) valamint a BootMii-t (NAND mentések készítéséhez, helyreállításához használt), függően a konzolodtól.
 
-Wii mode on Wii U has a slightly different exploitation process, and will not launch the HackMii installer. Instead, you will exploit Wii mode through the Wii U menu and proceed as instructed.
+A Wii mód a Wii U-n kicsit más exploitálási folyamattal rendelkezik, és nem fogja elindítani a HackMii telepítőt. E helyett a Wii módot támadod majd a Wii U menün keresztül a leírt folyamattal.
 
-## Is your Wii already softmodded?
+## Szoftmoddolt már a Wii-od?
 
-If you have a Wii or Wii mini that is already softmodded and you would like to update your setup, follow [this](hackmii) guide to launch the HackMii installer from the Homebrew Channel, or Priiloader.
+Ha van egy Wii-od vagy egy Wii mini-d ami már szoftmoddoltés szeretnéd frissíteni a konfigurációt, kövesd [ezt](hackmii) az útmutatót a HackMii telepítő indításához a Homebrew Channel-ből, or Priiloader-ből.
 
 ## Azonosítsd a konzol verziód
 

@@ -101,7 +101,7 @@ A TinyWiiBackupManager egy új, könnyű játék mentés manager alkalmazás, am
 
 ::: tip
 
-If you already have games on your drive and TinyWiiBackupManager prompts you to normalize paths, go to the Toolbox and perform this action to ensure that your drive directories are listed correctly.
+Ha már vannak játékok a meghajtón, és a TinyWiiBackupManager kéri az útvonalak normalizálását, lépj a Toolbox-ba, és hajtsd végre ezt a műveletet, úgy hogy a meghajtó könyvtárai helyesen legyenek felsorolva.
 
 :::
 
@@ -111,11 +111,11 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
    ![](/images/desktop-apps/TWBM/twbm-win-empty.png)
 
-3. Click the :heavy_plus_sign: button on the top right of the app to add one or more games.
+3. Kattints a :heavy_plus_sign: gombra a jobb felső részén az appnak tovább játékok hozzáadásához.
 
-   - Click the :file_folder: button to add games from a specific directory.
-   - You may also drag and drop games from your file manager to add them.
-   - If a transfer is already in progress when adding new games, they will be added to a queue.
+   - Kattints a :file_folder: gombra a játékok adott könyvtárból hozzáadására.
+   - Rá is mozgathatod a játékokat a fájlkezelődből a hozzáadásukhoz.
+   - Ha átvitel van folyamatban az új játékok hozzáadásakor, azok a várósorhoz kerülnek hozzáadásra.
 
    ![](/images/desktop-apps/TWBM/twbm-win-games.png)
 
@@ -142,11 +142,11 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
    ![](/images/desktop-apps/TWBM/twbm-mac-download.png)
 
-2. Drag TinyWiiBackupManager to the applications folder.
+2. Húzd a TinyWiiBackupManager-t az alkalmazások mappába.
 
    ![](/images/desktop-apps/TWBM/twbm-mac-install.png)
 
-3. Run the following command in the Terminal app after installation: `xattr -rd com.apple.quarantine /Applications/TinyWiiBackupManager.app`. This will allow the app to run, as it will otherwise be blocked by macOS security settings.
+3. Futtas a következő parancsot a Terminal appban a telepítést követően: `xattr -rd com.apple.quarantine /Applications/TinyWiiBackupManager.app`. Ez lehetővé teszi az alkalmazás futtatását, egyébként blokkolásra kerül a macOS biztonsági beállításai miatt.
 
    ![](/images/desktop-apps/TWBM/twbm-mac-security.png)
 
@@ -156,7 +156,7 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
 ::: tip
 
-If you already have games on your drive and TinyWiiBackupManager prompts you to normalize paths, go to the Toolbox and perform this action to ensure that your drive directories are listed correctly.
+Ha már vannak játékok a meghajtón, és a TinyWiiBackupManager kéri az útvonalak normalizálását, lépj a Toolbox-ba, és hajtsd végre ezt a műveletet, úgy hogy a meghajtó könyvtárai helyesen legyenek felsorolva.
 
 :::
 
@@ -166,11 +166,11 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
    ![](/images/desktop-apps/TWBM/twbm-mac-empty.png)
 
-3. Click the :heavy_plus_sign: button on the top right of the app to add one or more games.
+3. Kattints a :heavy_plus_sign: gombra a jobb felső részén az appnak tovább játékok hozzáadásához.
 
-   - Click the :file_folder: button to add games from a specific directory.
-   - You may also drag and drop games from your file manager to add them.
-   - If a transfer is already in progress when adding new games, they will be added to a queue.
+   - Kattints a :file_folder: gombra a játékok adott könyvtárból hozzáadására.
+   - Rá is mozgathatod a játékokat a fájlkezelődből a hozzáadásukhoz.
+   - Ha átvitel van folyamatban az új játékok hozzáadásakor, azok a várósorhoz kerülnek hozzáadásra.
 
    ![](/images/desktop-apps/TWBM/twbm-mac-games.png)
 
@@ -193,25 +193,25 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
 ##### I. rész – Telepítés
 
-TinyWiiBackupManager can be installed from the Flathub repository as a Flatpak, or ran directly from an AppImage file. Instructions for both options are outlined below.
+TinyWiiBackupManager ctelepíthető a Flathub repository-ból, mint Flatpak vagy futtatható közvetlenül egy AppImage fájlból. A lépések mindkét opcióhoz alább kerülnek ismertetésre.
 
 ###### Flatpak
 
-1. Ensure that FlatPak is [installed on your system](https://flathub.org/en/setup).
+1. Biztosítsd, hogy a FlatPak [legyen telepítve a rendszeredre](https://flathub.org/en/setup).
 
-2. Navigate to the [Flathub repository for TWBM](https://flathub.org/en/apps/it.mq1.TinyWiiBackupManager) and press the Install button. If nothing happens, download the `.flatpakref` file and open it to find the program in your distro's app store. If nothing happens again, run `flatpak install flathub it.mq1.TinyWiiBackupManager` in your terminal.
+2. Navigálj a [Flathub repository for TWBM](https://flathub.org/en/apps/it.mq1.TinyWiiBackupManager) -hez majd nyomd meg az Install gombot. Ha semmi nem történik, töltsd le a `.flatpakref` fájlt és nyisd meg, hogy megtaláld a programod a disztribúciód app store-jában. Ha továbbra sem történik semmi, futtasd a `flatpak install flathub it.mq1.TinyWiiBackupManager` parnacsot a terminálodban.
 
    ![](/images/desktop-apps/TWBM/twbm-linux-flatpak-dl.png)
 
-3. Ensure that TinyWiiBackupManager is installed on your system, and then launch the app.
+3. Biztosítsd, hogy a TinyWiiBackupManager telepítve legyen, majd indítsd el azt.
 
 ###### AppImage
 
-1. Download the AppImage binary for your system and architecture. Most users should download `TinyWiiBackupManager-vX.X.X-linux-x86_64.AppImage`.
+1. Töltsd le a rendszerednek és architektúrádnak megfelelő AppImage binárist. A legtöbb felhasználónak a `TinyWiiBackupManager-vX.X.X-linux-x86_64.AppImage`-t kell letölteniük.
 
    ![](/images/desktop-apps/TWBM/twbm-linux-appimage-dl.png)
 
-2. Ensure that the AppImage binary is executable by running `chmod +x [binary location]`.
+2. Biztosítsd, hogy az AppImage bináris futtatható legyen a `chmod +x [binaris állomány helye]` parancs lefuttatásával.
 
    ![](/images/desktop-apps/TWBM/twbm-linux-appimage-exec.png)
 
@@ -221,21 +221,21 @@ TinyWiiBackupManager can be installed from the Flathub repository as a Flatpak, 
 
 ::: tip
 
-If you already have games on your drive and TinyWiiBackupManager prompts you to normalize paths, go to the Toolbox and perform this action to ensure that your drive directories are listed correctly.
+Ha már vannak játékok a meghajtón, és a TinyWiiBackupManager kéri az útvonalak normalizálását, lépj a Toolbox-ba, és hajtsd végre ezt a műveletet, úgy hogy a meghajtó könyvtárai helyesen legyenek felsorolva.
 
 :::
 
 1. Csatlakoztasd az USB drive-od vagy az SD kártyátd a számítógépedhez.
 
-2. Click on the Drive icon in the bottom left of the app to select your drive. Select the root of the drive (e.g. `E:`), not the "wbfs" or "games" folder.
+2. Kattints a drive ikonon baloldalt alul az appban a meghajtód kiválasztásához. Válaszd a meghatjó gyökerét (pl. `E:`), ne a "wbfs" vagy a "games" mappát.
 
    ![](/images/desktop-apps/TWBM/twbm-linux-empty.png)
 
-3. Click the :heavy_plus_sign: button on the top right of the app to add one or more games.
+3. Kattints a :heavy_plus_sign: gombra a jobb felső részén az appnak tovább játékok hozzáadásához.
 
-   - Click the :file_folder: button to add games from a specific directory.
-   - You may also drag and drop games from your file manager to add them. Please note that this feature is not currently available on Wayland.
-   - If a transfer is already in progress when adding new games, they will be added to a queue.
+   - Kattints a :file_folder: gombra a játékok adott könyvtárból hozzáadására.
+   - Rá is mozgathatod a játékokat a fájlkezelődből a hozzáadásukhoz. Ne felejtsd el, hogy ez a funkció jelenleg nem érhető el a Wayland-en.
+   - Ha átvitel van folyamatban az új játékok hozzáadásakor, azok a várósorhoz kerülnek hozzáadásra.
 
    ![](/images/desktop-apps/TWBM/twbm-linux-games.png)
 
@@ -251,9 +251,9 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
 [Folytatás a cIOS-sal](cios)
 
-A dumpolt Wii játékok külső eszközről lejátszásához a cIOS-t konfigurálnod kell. Once cIOS is configured, you can use [USB Loader GX or WiiFlow](wii-loaders) to play Wii games from your USB drive or SD card.
+A dumpolt Wii játékok külső eszközről lejátszásához a cIOS-t konfigurálnod kell. Ha a cIOS beállított, akkor használhatod az [USB Loader GX-t vagy WiiFlow-t](wii-loaders), amelyek segítségével Wii játékokat tölthetsz be USB drive-odról vagy SD kártyádról.
 
-You can also use [Nintendont](nintendont) to play GameCube games from your USB drive or SD card.
+Továbbá használhatod a [Nintendont](nintendont)-ot a GameCube játékokkal az USB drive-odról vagy az SD kártyádról.
 
 :::
 
