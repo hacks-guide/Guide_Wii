@@ -92,7 +92,7 @@ For the [BlueBomb](bluebomb), [str2hax](str2hax), and [FlashHax](flashhax) explo
 
 ### Storage Space Recommendations
 
-When considering buying or using an SD card or USB device, it is worth considering what you will be using each storage medium for. Based on your planned usage, sizing recommendations are outlined below:
+When considering, buying, or using an SD card or USB storage device, it is worth considering what you will be using it for. Based on your planned usage, sizing recommendations are outlined below:
 
   | Device Usage     | Recommended Storage Space           |
   | :--------------: | :---------------------------------: |
