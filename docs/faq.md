@@ -135,7 +135,7 @@ For Wii mini users, it is recommended to have an externally powered USB hub in o
 As for your choices in shopping, this largely comes down to three different scenarios:
 
 * Buying a new external hard drive from scratch: New external drives come brand new around 60 USD for 2TB, 50 USD for 1TB, around 30 USD for sizes lower than 1TB. Try to stick within the three present manufacturing brands listed above, but bear in mind that offerings are sparse for drive sizes lower than 1TB.
-* Buying a new hard drive, and a new enclosure: New hard drives are usually more reliable than buying a secondhand hard drive, and you can buy an enclosure to house this new hard drive. 2.5 inch enclosures are normally powerable off of USB alone, while 3.5 inch enclosures almost always need an external adapter for power. An example price is buying a 500GB Western Digital drive and a 2.5 inch drive enclosure off of Amazon will cost about 30 USD.
+* Buying a new hard drive, and a new enclosure: New hard drives are decently cheaper than pre-assembled hard drives, and you can buy an enclosure to house this new hard drive. 2.5 inch enclosures are normally powerable off of USB alone, while 3.5 inch enclosures almost always come with an external adapter for power. An example price is buying a 500GB Western Digital drive and a 2.5 inch drive enclosure off of Amazon, which will cost about 30 USD.
 * Buying an enclosure for an already existing hard drive: If you already have a hard drive, you can put it in an enclosure and use it for your Wii. Enclosures can be found for prices ranging between 10 to 20 USD off of Amazon, as long as you have a hard drive to supply it with.
 
 ### Buying USB Devices - Solid State Drives
