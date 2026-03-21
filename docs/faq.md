@@ -52,7 +52,7 @@ If you get this error, the DNS server you chose or your internet as a whole is h
 
 #### FORE000006
 
-If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, set the Wii's clock to the correct time.
+If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this page](wiiconnect24#updating-rtc-clock) for instructions on how to properly sync it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, set the Wii's clock to the correct time.
 
 ## Storage Device FAQ
 
