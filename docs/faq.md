@@ -128,7 +128,7 @@ When buying USB hard drives, there are only three existing present-day HDD manuf
 
 For hard drive sizing, 2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch drives consume more power and will always need an external power adapter. Make sure to plan for this when determining what you want to do with an external drive.
 
-For Wii U users, it is highly recommended to have a hard drive that takes external power, or to use a powered USB hub and/or Y cable for 2.5 inch drives. This is because the Wii U does not provide enough power in the USB slots as the Wii does.
+For Wii U users, it is highly recommended to have a hard drive that takes external power, or to use a powered USB hub and/or Y cable for 2.5 inch drives. The Wii U does not provide as much USB power as the Wii.
 
 For Wii mini users, it is recommended to have an externally powered USB hub in order to have external storage, internet adapters, and other peripherals connected simultaneously. You may also want to use a Y cable for drive power.
 
