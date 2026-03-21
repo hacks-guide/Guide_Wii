@@ -44,7 +44,7 @@ This can also happen if you use a proxy server and it is down.
 
 ##### For WiiLink Users
 
-If you get this error or you see Nintendo's User Agreement without WiiLink's logo, that means your ISP (Internet Service Provider) or network is blocking the use of WiiLink DNS. You can set `Auto-Obtain DNS` to `On` to solve this. WiiLink will still work without it. Or, you can use the [WiiLink DNS-Server](https://github.com/WiiLink24/DNS-Server/releases/latest) program.
+If you get this error or you see Nintendo's User Agreement without WiiLink's logo, that means your ISP (Internet Service Provider) or network is blocking the use of WiiLink DNS. You can set `Auto-Obtain DNS` to `On` to solve this. WiiLink will still work without it. You can also use the [WiiLink DNS Server](https://github.com/WiiLink24/DNS-Server/releases/latest) program.
 
 ##### For non-WiiLink Users
 
