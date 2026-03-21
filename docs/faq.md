@@ -111,7 +111,7 @@ SD cards larger than 2TB currently do not exist, any listings for a higher capac
 
 :::
 
-When buying SD cards, it is generally recommended that you stick to well-known brands, especially with the more expensive and larger capacity that you get. You can buy a generic 2GB SD card and most likely it will work fine. However, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-35 USD for 256GB and below, whereas 512GB is around 60 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be careful when buying storage on eBay.
+When buying SD cards, it is generally recommended that you stick to well-known brands, especially with more expensive and larger capacity ones. You can buy a generic 2GB SD card and it will most likely work fine. However, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-35 USD for 256GB and below, whereas 512GB is around 60 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be careful when buying storage on eBay.
 
 Our recommended brands:
 
