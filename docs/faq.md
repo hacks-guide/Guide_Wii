@@ -48,7 +48,7 @@ If you get this error or you see Nintendo's User Agreement without WiiLink's log
 
 ##### For non-WiiLink Users
 
-If you get this error, the DNS server you chose or your internet as a whole is having issues. Try again later.
+If you get this error, the DNS server you chose (or your internet as a whole) is having issues. Try again later.
 
 #### FORE000006
 
