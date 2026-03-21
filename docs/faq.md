@@ -86,7 +86,7 @@ For USB devices, FAT32/MS-DOS is also recommended. However, users should be awar
 
 ::: info
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii. However, it is highly recommended to utilize one for homebrew and other tasks.
+For the [BlueBomb](bluebomb), [str2hax](str2hax), and [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii. However, it is highly recommended to use one anyway for homebrew and other tasks.
 
 :::
 
