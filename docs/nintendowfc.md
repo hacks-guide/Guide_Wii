@@ -1,6 +1,6 @@
 # Nintendo Wi-Fi Connection
 
-Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. This service was discontinued in 2014, but there are reverse-engineered servers that you can connect to which restore this functionality. This guide provides details on two trusted services, WiiLink WFC and Wiimmfi. For most users, we recommend Wiimmfi for their larger userbase (especially with Mario Kart Wii).
+Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. This service was discontinued in 2014, but there are reverse-engineered servers that you can connect to which restore this functionality. This guide provides details on two trusted services, WiiLink WFC and Wiimmfi. For most users, we recommend Wiimmfi because of their larger userbase (especially with _Mario Kart Wii_).
 
 ## WiiLink WFC
 
