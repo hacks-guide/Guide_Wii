@@ -32,7 +32,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ### Section I - Downloading
 
-::: tip
+::: info
 
 Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
 
