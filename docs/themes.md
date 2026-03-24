@@ -83,7 +83,7 @@ This guide is intended to be the last you will ever need when it comes to themin
     | USA         | v609 (4.3U - Wii U v5.2.0U)   |
     | Europe      | v610 (4.3E - Wii U v5.2.0E)   |
 
-1. Check the `Create decrypted contents (*.app)` box. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+1. Check the `Create decrypted contents (*.app)` option, uncheck the `Keep encrypted contents` option, and then click `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-vwiimenu-dl.png)
 1. When you have finished downloading the Wii menu files, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
