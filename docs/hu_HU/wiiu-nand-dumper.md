@@ -37,7 +37,7 @@ Az SD kártyád FAT32 kell formázva legyen. Ha az SD kártyád nem FAT32-re for
 :::details Ha megfelelően követted a lépéseket az SD kártyádon a következő elrendezésnek kell lennie:
 
 ```shell
-💾 SD Card
+💾 SD kártya
  ┗ 📁 wiiu
    ┣ 📁 apps
    ┃ ┣ 📄 AromaUpdater.wuhb

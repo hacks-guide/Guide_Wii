@@ -6,7 +6,7 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 :::details Fontos információ
 
-- A Family Edition Wii-ok és Wii mini-k **NEM TUDNAK** helyreállítani NAND mentést. A biztonsági mentés visszaállításához egy olyan megerősítő kódot kell megadnod, amihez egy GameCube-vezérlő szükséges. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
+- A Family Edition Wii-ok és Wii mini-k **NEM TUDNAK** helyreállítani NAND mentést. A biztonsági mentés visszaállításához egy olyan megerősítő kódot kell megadnod, amihez egy GameCube-vezérlő szükséges. További támogatásért kérj segítséget a [Nintendo Homebrew discord szerveren](https://discord.gg/C29hYvh).
 
 - Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell megnyitnod azt. Ha ez a követelmény teljesül, akkor kihagyhatod az 1. és 2. lépést.
 
@@ -24,26 +24,26 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 **Fontos figyelmeztetések**
 
-- This is intended to be a **last resort** method of repairing an issue on your Wii. Please verify that you can enter the Homebrew Channel before restoring a backup, as most issues can be resolved from here. Please additionally join [Nintendo Homebrew discord server](https://discord.gg/C29hYvh) for help with diagnosing and resolving your issue in conjunction with the [bricks guide](bricks).
+- Ez szándékosan a **végső lehetőség** metódus egy Wii probléma javítására. Kárjük ellenőrizd, hogy be tudsz e lépni a Homebrew Channelre- mielőtt visszaállítod a mentést, mivel a legtöbb probléma innen megoldható. Továbbá kérjük csatlakozz a [Nintendo Homebrew discord szerverhez](https://discord.gg/C29hYvh) segítéségért és probléma diagnosztikáért a [bricks útmutatóval](bricks) kapcsolatosan.
 
 - Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Töltsd le [ezt a zip fájlt](https://static.hackmii.com/bootmii_sd_files.zip) és csomagold ki az SD kártyád gyökerébe, majd próbáld újra.
 
-- DO NOT restore an unverified NAND backup, or a NAND backup that is not from your Wii. Ez egy WORSE BRICK-hez vezethet. The same goes for restoring backups off of faulty SD cards.
+- NE állíts vissza ellenőrizetlen NAND mentést, vagy olyan mentést, ami nem a Wii-odról származik. Ez egy WORSE BRICK-hez vezethet. Ugyan ez vonatkozik a hibás SD kártyák mentésének helyreállítására.
 
 :::
 
 ## Konkrét adatok visszaállítása egy biztonsági mentésből
 
-If you would like to restore individual data from your NAND backup, a much safer and faster way to do this using Dolphin Emulator.
+Ha csak egyedi adatot szeretnél helyreállítani a NAND mentésedből, sokkal biztonságosabb és gyorsabb módja annak a Doplhin emulátor használata.
 
-Pl.: Ha csak a Wii Üzenőfal adatait szeretnéd visszaállítani, akkor nyisd meg a Dolphin emulátort és importáld a biztonsági mentést! In Dolphin, go to `File` > `Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
+Például, ha csak a Wii Üzenőfal adatait szeretnéd visszaállítani, akkor nyisd meg a Dolphin emulátort és importáld a NAND mentést. A Dolphinban ezután kattints a `File` > `Open User Folder` menüpontokra, majd keresd meg a `Wii/title/00000001/00000002/data/cdb.vff` fájlt, majd másold az SD kártyádra és használd a WiiXplorer](https://oscwii.org/library/app/wiixplorer)-t a megfelelő helyre történő visszaállításához.
 
-If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools` > `Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
+Ha egy játék játékmentését szeretnéd visszaállítani, importáld a Dolphinba a NAND biztonsági mentést, majd kattints az `Tools` > `Export All Wii Saves` menüpontokra az összes mentésed SD kártyára való másolásához. Ezután a Data Management-tel áthelyezheted őket a Wii-odra.
 
 ## Követelmények
 
-- A Wii with BootMii as IOS or BootMii as boot2 installed
-- An earlier NAND Backup for your specific Wii made by [BootMii](bootmii)
+- Egy Wii IOS-ként telepített BootMii-vel vagy boot2-re telepített BootMii-vel
+- Egy korábbi NAND mentése a Wii-odnak amit a [BootMii](bootmii)-vel készült
 
 ## Lépések
 

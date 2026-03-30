@@ -96,20 +96,20 @@ Bizonyos esetekben az RTC óra a Wii-odon deszinkronizált lehet, problémákat 
 
 ::: info
 
-On vWii, the [Permanent vWii System Settings](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) and [Always enable WiiConnect24 on boot](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) hacks cannot be enabled at the same time. It is recommended to just enable the Permanent vWii Systems Settings hack, as you can enable WiiConnect24 there without issue. More information can be found [on the Priiloader FAQ page](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii).
+A vWii-n a [Permanens vWii rendszer beállítások](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) és a [Mindig engedélyezze a WiiConnect24-et bootoláskor](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) hackek nem lehetnek engedélyezve egy időben. Ajánlott, hogy csak a Permanens vWii rendszer beállítások hack legyen engedélyezve, mivel onnan probléma nélkül engedélyezhető a WiiConnect24. További információk a [Priiloader GYIK oldalon találhatók](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii).
 
 :::
 
-If you are using vWii or a Wii mini, some Priiloader hacks need to be enabled to allow proper WiiConnect24 functionality. A `System Menu Hacks`-ok között kapcsold be a konzolodnak megfelelő következő opciókat:
+Ha vWii-t vagy Wii mini-t használsz, néhány Priiloader hacket engedélyezni kell, hogy lehetővé tegyed a megfelelő WiiConnect24 funkcionalitást. A `System Menu Hacks`-ok között kapcsold be a konzolodnak megfelelő következő opciókat:
 
-| Konzol típus | Priiloader opciók                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| vWii         | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li><br><li>[Permanent vWii System Settings](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)</li><br><li>[Fix NWC24iSetUniversalTime](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)</li></ul> |
-| Wii mini     | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li></ul>                                                                                                                                                                                                                                                                                 |
+| Konzol típus | Priiloader opciók                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| vWii         | <ul><li>[Üzenet létrehozása a Naptár gombbal](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li><br><li>[Permanent vWii rendszer beállítások](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)</li><br><li>[A NWC24iSetUniversalTime javítása](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)</li></ul> |
+| Wii mini     | <ul><li>[Üzenet létrehozása a Naptár gombbal](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li></ul>                                                                                                                                                                                                                                                                                             |
 
 ## WiiVCLaunch (vWii)
 
-If you are on the Wii U, please ensure that you install WiiVCLaunch to ensure that your system settings are not overwritten when you run Wii Virtual Console games in the Wii U menu.
+Ha Wii U-n vagy, legyél biztos benne, hogy telepítetted a WiiVCLaunch-ot, ami biztosítja, hogy a rendszerbeállításaidat ne írja felül, ha egy Wii Virtual Console játékot futtatsz a Wii U menüből.
 
 ### Requirements
 
@@ -125,21 +125,21 @@ If you are on the Wii U, please ensure that you install WiiVCLaunch to ensure th
 
    ![](/images/wiiconnect24/wiivclaunch/wps-download.png)
 
-3. Copy the `WiiVCLaunch.wps` file to your SD card in the `/wiiu/environments/aroma/plugins` directory.
+3. Másold a `WiiVCLaunch.wps` fájtl az SD kártyádra a `/wiiu/environments/aroma/plugins` könyvtárba.
 
    ![](/images/wiiconnect24/wiivclaunch/wps-directory.png)
 
-4. Insert the SD card into your Wii U and boot it into the Aroma Environment.
+4. Helyezd be az SD kártyát a Wii U-dba és bootlj be az Aroma környezetbe.
 
-5. Hit the `L` + `+DPAD Down` + `- Minus` combination on your Gamepad/Pro Controller/Classic Controller, or the `B` + `+Control Pad Down` + `- Minus` combination on your Wii Remote to open the Wii U Plugin System Config Menu. Find the `Wii VC Launch` menu option and press `A`.
+5. Nyomd meg az `L` + `+DPAD Down` + `- Minus` gomb kombinációt a Gamepad/Pro Controller/Classic Controller-eden vagy a `B` + `+Control Pad Down` + `- Minus` gomb kombinációt a Wii Remote-odon a Wii U Plugin System Config Menu megnyitásához. Keresd meg a `Wii VC Launch` opciót és nyomj `A` gombot.
 
    ![](/images/wiiconnect24/wiivclaunch/aroma-config-menu.png)
 
-6. Find the `Other settings` menu option and press `A`.
+6. Keresd meg a `Other settings` opciót és nyomj `A` gombot.
 
    ![](/images/wiiconnect24/wiivclaunch/wiivc-config-menu.png)
 
-7. Ensure that the `Preserve SYSCONF on Wii VC title launch` option is set to `true`. Once this is finished, you may exit the config menu by pressing `B` until you are at the Wii U menu.
+7. Ellenőrizd, hogy a `Preserve SYSCONF on Wii VC title launch` opció `true`-ra állított. Ha ez végzett, kiléphetsz a konfigurációs menüből a `B` gomb megnyomásval addig, amíg ki nem jutsz a Wii U menübe.
 
    ![](/images/wiiconnect24/wiivclaunch/wiivc-sysconf-config.png)
 
@@ -149,6 +149,6 @@ If you are on the Wii U, please ensure that you install WiiVCLaunch to ensure th
 
 [Folytatás a Nintendo Wi-Fi Connectionnel](wiimmfi)
 
-This guide explains how to restore Nintendo Wi-Fi Connection functionality, allowing you to play games like Mario Kart Wii online again. While there are different services that might allow this, the one covered here will be Wiimmfi.
+Ez az útmutató elmagyarázza, hogyan állíthatod helyre a Nintendo Wi-Fi Connection funkcionalitást, lehetővé téve, hogy online játszhass újra olyan játékokkal, mint például Mario Kart Wii. Ugyan több különböző szolgáltatás teszi lehetővé ezt, mi a Wiimmfi-t fogjuk bemutatni.
 
 :::

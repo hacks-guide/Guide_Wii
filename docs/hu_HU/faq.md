@@ -22,7 +22,7 @@ Ha ellenőrizni szeretnéd, hogy mit jelent a hiba, kérjük, látogass el a [Wi
 
 #### Error 051330/51330
 
-Run an Internet connection test by going to `Wii Settings` > `Internet` > `Connection settings` > `Connection` > `Test this connection`
+Futtass Internet kapcsolat tesztet a `Wii Settings` > `Internet` > `Connection settings` > `Connection` > `Test this connection` opciót indítva
 
 #### Error 220602
 

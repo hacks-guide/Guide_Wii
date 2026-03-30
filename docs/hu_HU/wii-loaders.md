@@ -43,10 +43,10 @@ A hivatalos Wii Menu forwarder telepítő WiiFlow Lite-hoz megtalálható az [Op
 Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható. Egy WBFS-nek darabolni kell, ha 4 GB-nál nagyobb és a tároló eszköz FAT32-re formázott. A szoftverek, mint például a [TinyWiiBackupManager](backups#using-tinywiibackupmanager) el tudják ezt végezni és automatikusan megfelelő játék mappaszerkezetet állítanak be.
 
 ```shell
-💾 SD Card or USB Drive
+💾SD kártya vagy USB drive:
  ┗ 📂wbfs
     ┣ 📂GameName [GameID]
-    ┃  ┗ 📜gameid.wbfs (for non-split titles)
+    ┃  ┗ 📜gameid.wbfs (a nem feldarabolt címekhez)
     ┗ 📂GameName [GameID]
        ┣ 📜gameid.wbfs
        ┗ 📜gameid.wbf1

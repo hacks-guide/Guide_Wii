@@ -12,7 +12,7 @@ outline: false
 
 ## A Homebrew Channel és BootMii telepítése a Wii-hez
 
-This guide instructs you on how to install the Homebrew Channel and BootMii. The Homebrew Channel is where you will go to launch homebrew applications, and BootMii allows you to create and restore backups of your Wii's NAND storage.
+Ez az útmutató végig vezet a Homebrew Channeé és a BootMii telepítésén. A Homebrew Channel az ahova mész a homebrew alkalmazásaid indításához; a BootMii lehetővé teszi a Wii NAND tárolójának mentését és helyreállítását.
 
 ::: warning
 
@@ -22,13 +22,13 @@ Bármikor telepítheted később](hackmii).
 
 :::
 
-:::details Disclaimer for BootMii with boot2
+:::details Nyilatkozat a boot2-vel használt BootMii-ről
 
-A BootMiit kétféle módon telepítheted: közvetlenül a Wii bootloaderének boot2-es részébe, vagy egy IOS-on keresztül. If possible, it is urged to install as boot2 as it provides extended brick protection and can be loaded prior to most major brick errors, but Wiis with a vulnerable boot1 that allows this installation are considerably rarer; all having been manufactured before 2009.
+A BootMiit kétféle módon telepítheted: közvetlenül a Wii bootloaderének boot2-es részébe, vagy egy IOS-on keresztül. Ha lehetésges, akkor boot2-ként javasolt telepíteni, mert bővített brick védelmet ad és korábban tölthető be más brick lehetőségeknék, azonban az ilyen a sérülékeny boot1-gyel rendelkező Wii-ok egyre ritkábbak; mindegyik 2009 előtt gyártott.
 
-In most cases, you will not be able to install BootMii under boot2. Installing BootMii as IOS will usually be good enough, as long as you also install [Priiloader](priiloader). If you DO have the option to install as boot2, you should install both boot2 and IOS as instructed below so that you can launch BootMii in ways other than starting the console.
+A legtöbb esetben nem tudod telepíteni a BootMii-t a boot2 alá. A BootMii telepítése IOS-ként általában elég jó akkor, ha a [Priiloader](priiloader)-t is telepíted. Ha VAN boot2-re telepítés opciód, akkor boot2-ként és IOS-ként os telepíteni kellene, ahogy alább leírt, így el tudod indítani a BootMii-t más módon is, mint a konzol indításával.
 
-Please note that if you install Bootmii as boot2, your disc drive will flash very briefly after the immediate flash that happens when you press the POWER Button.
+Ne felejtsd el, ha telepítve van a BootMii boot2-ként, akkor a lemezegység ismét felvillan a POWER gomb megnyomása utáni első villanást követően.
 
 :::
 
@@ -117,7 +117,7 @@ A NAND biztonsági mentés ezen a ponton erősen ajánlott, mivel használható 
 
 ## Homebrew Channel telepítés a Wii mini-hez
 
-This guide instructs you on how to install the Homebrew Channel, which is where you will go to launch homebrew applications.
+Ez az útmutató bemutatja, hogyan telepíthed a Homebrew Channel-t, ahova menned kell, ha homebrew alkalmazásokat indítanál.
 
 ::: warning
 
@@ -162,11 +162,11 @@ Megjegyzés: Ha homebrew alkalmazásokat telepítesz az USB drive-odra, a könyv
 ```shell
 💾 USB drive
 | ╸📁 apps
-    | ╸📁 EgyikAlkalmazás
+    | ╸📁 AppName1
         | ╸📄 boot.dol
         | ╸📄 meta.xml
         | ╸📄 icon.png
-    | ╸📁 MásikAlkalmazás
+    | ╸📁 AppName2
         | ╸📄 boot.dol
         | ╸📄 meta.xml
         | ╸📄 icon.png
