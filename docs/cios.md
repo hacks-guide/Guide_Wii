@@ -232,11 +232,14 @@ If you are able to connect your vWii to the internet, you may skip to [Section I
 1. Power off your console, and insert your SD card or USB drive into your computer.
 1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
 1. Unzip the archive and run the NUSGet executable.
-1. Select the `vWii` platform, navigate to `IOS` > `IOS 38` > `World` and select `v4380`. Uncheck `Keep encrypted contents`. Check `Re-encrypt title using the Wii Common Key`. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+1. Select the `vWii` platform, navigate to `IOS` > `IOS 38` > `World` and select `v4380`. Uncheck `Keep encrypted contents`. Check `Re-encrypt title using the Wii Common Key`, then click `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-4380.png)
 1. Repeat the above step for `IOS 56 (v5918)`, `IOS 57 (v6175)` and `IOS 58 (v6432)`.
-1. When you have finished downloading the above IOS, navigate to the folder where your NUSGet executable is stored. This should now contain four different folders with the title IDs for the above IOS.
+1. When you have finished downloading the above IOS, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
+    ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
+
+1. This folder should contain four different folders with the title IDs of the above IOS, as shown here.
 
     ![](/images/desktop-apps/nusget/nusget-folder-vios.png)
 1. Enter the four directories, locating a `IOS-XX-vXXXX-vWii.wad` file in each.
