@@ -45,28 +45,39 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 :::
 
 1. Power off your console, and insert your SD card or USB drive into your computer.
+
 2. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
+
 3. Unzip the archive and run the NUSGet executable.
-4. Navigate to `IOS` > `IOS 38` > `World` and select `v4123`. Uncheck `Keep encrypted contents`. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+
+4. Navigate to `IOS` > `IOS 38` > `World` and select `v4123`. Uncheck `Keep encrypted contents`, then click `Start Download`.
 
    ![](/images/desktop-apps/nusget/nusget-4123.png)
+
 5. Repeat the above step for `IOS 56 (v5661)`, `IOS 57 (v5918)` and `IOS 58 (v6175)`.
-6. When you have finished downloading the above IOS, navigate to the folder where your NUSGet executable is stored. This should now contain four different folders with the title IDs for the above IOS.
+
+6. When you have finished downloading the above IOS, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
+   ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
+
+7. This folder should contain four different folders with the title IDs of the above IOS, as shown here.
 
    ![](/images/desktop-apps/nusget/nusget-folder-ios.png)
-7. Enter the four directories, locating a `IOS-XX-vXXXX-Wii.wad` file in each.
+
+8. Enter the four directories, locating a `IOS-XX-vXXXX-Wii.wad` file in each.
 
    ![](/images/desktop-apps/nusget/nusget-ios-output.png)
-8. Place each of WAD files on the root of your SD card or USB drive.
-   - This must be the same device containing the d2x cIOS Installer.
-9. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer:
 
-   |   IOS  |              File Name             |
-   | :----: | :--------------------------------: |
-   | IOS 38 | IOS38-64-v4123.wad |
-   | IOS 56 | IOS56-64-v5661.wad |
-   | IOS 57 | IOS57-64-v5918.wad |
-   | IOS 58 | IOS58-64-v6175.wad |
+9. Place each of WAD files on the root of your SD card or USB drive.
+   - This must be the same device containing the d2x cIOS Installer.
+
+10. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer:
+
+    |   IOS  |              File Name             |
+    | :----: | :--------------------------------: |
+    | IOS 38 | IOS38-64-v4123.wad |
+    | IOS 56 | IOS56-64-v5661.wad |
+    | IOS 57 | IOS57-64-v5918.wad |
+    | IOS 58 | IOS58-64-v6175.wad |
 
 ::: info
 

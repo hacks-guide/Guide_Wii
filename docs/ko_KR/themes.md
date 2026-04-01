@@ -53,17 +53,20 @@
 
 1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
 2. Unzip the archive and run the NUSGet executable.
-3. Navigate to `System` > `System Menu` > `Your Region` and then select the Wii menu version you are running. Check the `Create decrypted contents (*.app)` option. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+3. Navigate to `System` > `System Menu` > `Your Region` and then select the Wii menu version you are running. Check the `Create decrypted contents (*.app)` option, uncheck the `Keep encrypted contents` option, and then click `Start Download`.
 
    ![](/images/desktop-apps/nusget/nusget-wiimenu-dl.png)
-4. When you have finished downloading the Wii menu files, navigate to the folder where your NUSGet executable is stored. You should locate and open the `0000000100000002` folder inside it.
+4. When you have finished downloading the Wii menu files, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
+
+   ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
+5. You should locate and open the `0000000100000002` folder inside it.
 
    ![](/images/desktop-apps/nusget/nusget-folder-wiimenu.png)
-5. Find the **largest .app file** (usually ~6-7MB) inside the folder.
+6. Find the **largest .app file** (usually ~6-7MB) inside the folder.
 
    ![](/images/desktop-apps/nusget/nusget-wiimenu-output.png)
-6. SD 카드/USB 장치의 루트에 `themes` 폴더를 만듭니다.
-7. .app 파일을 새로 만든 `themes` 폴더에 복사합니다. 이는 커스텀 테마를 구축하는 데 사용할 기본 테마입니다.
+7. SD 카드/USB 장치의 루트에 `themes` 폴더를 만듭니다.
+8. .app 파일을 새로 만든 `themes` 폴더에 복사합니다. 이는 커스텀 테마를 구축하는 데 사용할 기본 테마입니다.
 
 ::::
 
@@ -83,15 +86,19 @@
    |  미국 | v609 (4.3U - Wii U v5.2.0U) |
    |  유럽 | v610 (4.3E - Wii U v5.2.0E) |
 
-5. `복호화된 콘텐츠 (*.app) 만들기` 상자를 체크합니다. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+5. Check the `Create decrypted contents (*.app)` option, uncheck the `Keep encrypted contents` option, and then click `Start Download`.
 
    ![](/images/desktop-apps/nusget/nusget-vwiimenu-dl.png)
 
-6. When you have finished downloading the Wii menu files, navigate to the folder where your NUSGet executable is stored. You should locate and open the `0000000700000002` folder inside it.
+6. When you have finished downloading the Wii menu files, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
+
+   ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
+
+7. You should locate and open the `0000000700000002` folder inside it.
 
    ![](/images/desktop-apps/nusget/nusget-folder-vwiimenu.png)
 
-7. 아래 표에서 여러분의 Wii U 지역에 해당하는 .app 파일을 찾습니다:
+8. 아래 표에서 여러분의 Wii U 지역에 해당하는 .app 파일을 찾습니다:
 
    |  지역 |    .app 파일   |
    | :-: | :--------------------------: |
@@ -99,9 +106,9 @@
    |  미국 | 0000001F.app |
    |  유럽 | 00000022.app |
 
-8. SD 카드/USB 장치의 루트에 `themes` 폴더를 만듭니다.
+9. SD 카드/USB 장치의 루트에 `themes` 폴더를 만듭니다.
 
-9. .app 파일을 새로 만든 `themes` 폴더에 복사합니다. 이는 커스텀 테마를 구축하는 데 사용할 기본 테마입니다.
+10. .app 파일을 새로 만든 `themes` 폴더에 복사합니다. 이는 커스텀 테마를 구축하는 데 사용할 기본 테마입니다.
 
 ::::
 

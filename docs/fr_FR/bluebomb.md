@@ -6,9 +6,9 @@ outline: false
 
 BlueBomb is an exploit that takes advantage of a flaw in the Wii and Wii mini's Bluetooth libraries. Although it is the only exploit that works for the Wii mini, BlueBomb can run on the original Wii as well.
 
-This exploit also enables recovery from certain bricks in the event of no other brick protection, such as banner bricks and (some) theme bricks.
+Cet exploit permet aussi la récupération de certaines briques au cas où il n'y a pas d'autre protection contre les briques, comme les briques de bannière et (certaines) briques de changement de style.
 
-Please read the listed important information before proceeding.
+Veuillez lire les informations importantes mentionnées avant de continuer.
 
 ::::: tabs
 
@@ -16,17 +16,17 @@ Please read the listed important information before proceeding.
 
 ## BlueBomb Classic
 
-:::details Important Information
+:::details Informations Importantes
 
-- If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
-- If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Toutefois, des exceptions existent dans des circonstances telles que la récupération de bricks.
+- Si vous utilisez ce guide pour hacker une Wii Mini et que vous avez besoin d'aide, veuillez rejoindre [le serveur Discord pour hacker la Wii Mini](https://discord.gg/6ryxnkS).
+- Si vous utilisez la version originale de la Wii, il faut considérer [un autre moyen pour la hacker](get-started) car il existe des manières beaucoup plus faciles pour obtenir le programme d'installation HackMii. Toutefois, des exceptions existent dans des circonstances telles que la récupération de bricks.
 - Assurez-vous que la console est proche de l'ordinateur qui exécute l'exploit, idéalement à moins de 1 mètre.
 
 :::
 
 ::: danger
 
-It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
+Il est **fortement** conseillé de ne pas utiliser un tutoriel vidéo en général, mais surtout si vous voulez hacker une console Wii Mini. Des instructions incorrectes ont une plus grande chance de **bricker** votre console par rapport à ce guide.
 
 :::
 
@@ -37,19 +37,19 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
   - If you have a Raspberry Pi, you can use that instead as it most likely has Linux installed already.
 
-    - ARM64 Raspberry Pi's need multiarch enabled with the armhf (32bit) architecture added. The following should work on any debian based OS:
+    - Des Raspberrry Pi ARM64 nécessitent l'activation de multiarch avec l'architecture armhf (32bit) ajoutée. Sur un système d'exploitation basé sur Debian, les commandes ci-dessous devraient fonctionner :
 
     ```shell
     sudo sudo dpkg --add-architecture armhf
     sudo apt update && sudo apt install -y screen:armhf
-    file /usr/bin/screen # should say ELF 32-bit
-    screen
+    file /usr/bin/screen # devrait produire "ELF 32-bit
+    screen"
     ```
 
   - Windows Subsystem for Linux or a Chromebook running Linux mode will _not work_ as they don't have direct access to the Bluetooth adapter or USB ports.
 
-  - If you do not have Linux, [Ubuntu](https://ubuntu.com/download/desktop) is the most user-friendly option and can be ran on computers running Windows or intel based Macs.
-    - Apple Silicon Macs will not work due to them missing the ARM32 instructions in the hardware.
+  - Si vous ne possédez pas Linux, [Ubuntu](https://ubuntu.com/download/desktop) est l'option la plus conviviale et peut tourner sur un ordinateur Windows ainsi qu'un Mac basé sur Intel.
+    - Les Mac basés sur Apple Silicon ne marcheront pas à force de manquer les instructions ARM32 dans le matériel.
     - 32-bit devices will require [Ubuntu 16.04](http://releases.ubuntu.com/16.04/).
     - For 64-bit devices it is recommended to use the LTS edition due to its stability, but the latest release works as well.
 
@@ -143,8 +143,8 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
 :::details Important Information
 
-- If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
-- If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Toutefois, des exceptions existent dans des circonstances telles que la récupération de bricks.
+- Si vous utilisez ce guide pour hacker une Wii Mini et que vous avez besoin d'aide, veuillez rejoindre [le serveur Discord pour hacker la Wii Mini](https://discord.gg/6ryxnkS).
+- Si vous utilisez la version originale de la Wii, il faut considérer [un autre moyen pour la hacker](get-started) car il existe des manières beaucoup plus faciles pour obtenir le programme d'installation HackMii. Toutefois, des exceptions existent dans des circonstances telles que la récupération de bricks.
 - Assurez-vous que la console est proche de l'ordinateur qui exécute l'exploit, idéalement à moins de 1 mètre.
 - If you get an error `Exception 0700 occurred!` or similar, try the exploit again. If this continues to happen, join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) for support.
 
@@ -152,7 +152,7 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
 ::: danger
 
-It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
+Il est **fortement** conseillé de ne pas utiliser un tutoriel vidéo en général, mais surtout si vous voulez hacker une console Wii Mini. Des instructions incorrectes ont une plus grande chance de **bricker** votre console par rapport à ce guide.
 
 :::
 
