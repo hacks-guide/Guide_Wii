@@ -1,28 +1,28 @@
-# FAQ e Risoluzione dei problemi
+# FAQ e Risoluzione dei Problemi
 
-## Primary FAQ
+## Domande frequenti
 
 ### Quanto è rischioso modificare la mia console?
 
-Non molto rischioso, dipende dalla tua console. Il Wii ha molte meno barriere da oltrepassare rispetto ad altre console, con exploit che richiedono solamente un Wii e una connessione a internet. As long as you follow the general advice laid on the [brick overview page](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+Non molto, dipende dalla tua console. La console Wii ha molte meno barriere da oltrepassare rispetto ad altre console, con exploit che richiedono solamente la console e una connessione a Internet. Finché segui gli avvisi generali descritti nella [panoramica sui brick](bricks#brick-prevention), installi [BootMii](bootmii) e [Priiloader](priiloader), e fai uso del senso comune, dovresti stare a posto!
 
-### Come si rimuove il Filtro Famiglia?
+### Come si rimuove il filtro famiglia?
 
-The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
+Il [generatore di chiavi master](https://mkey.nintendohomebrew.com/) può generare il codice richiesto per rimuovere il filtro famiglia.
 
-### Penso che il mio Wii sia brickato, o che abbia qualcosa di davvero sbagliato, cosa faccio?
+### Penso che la mia console sia brickata o che abbia qualcosa di strano, cosa faccio?
 
-See [this](bricks) page.
+Vedi [questa](bricks) pagina.
 
-## Error Code FAQ
+## Domande frequenti sui codici di errore
 
 ### Ricevo un errore XXXXXX, come lo sistemo?
 
-In order to check what the error means, please visit the [Wiimmfi error page](https://wiimmfi.de/error). Gli errori più comuni hanno le correzioni elencate sotto:
+Per verificare il significato dell'errore, visita la pagina relativa sul [sito di Wiimmfi](https://wiimmfi.de/error). Gli errori più comuni hanno le correzioni elencate sotto:
 
 #### Errore 051330/51330
 
-Run an Internet connection test by going to `Wii Settings` > `Internet` > `Connection settings` > `Connection` > `Test this connection`
+Esegui un test della connessione andando su `Impostazioni console Wii` > `Internet` > `Impostazioni di collegamento` > `Connessione` > `Prova di connessione`
 
 #### Errore 220602
 
@@ -30,13 +30,13 @@ Run an Internet connection test by going to `Wii Settings` > `Internet` > `Conne
 
 ##### Per utenti di RiiConnect24
 
-Stai usando il vecchio server DNS per RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+Stai usando il vecchio server DNS per RiiConnect24. Segui [questa](riiconnect24#section-iv---connecting) quida per istruzioni su come cambiarlo.
 
 ##### Per utenti senza RiiConnect24
 
-Your Primary DNS server is incorrect or not working.
+Il tuo server DNS primario non è corretto o non funziona.
 
-This can also happen if you use a proxy server and it is down.
+Questo può accadere anche se si utilizza un server proxy e non è attivo.
 
 #### Errore 107304
 
@@ -44,99 +44,99 @@ This can also happen if you use a proxy server and it is down.
 
 ##### Per utenti di RiiConnect24
 
-Se ottieni questo errore o vedi l'Accordo Utente di Nintendo senza il logo di RiiConnect24, significa che il tuo ISP (Internet Service Provider) o la rete sta bloccando l'utilizzo del DNS di RC24. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 funzionerà anche senza di esso. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+Se ottieni questo errore o vedi l'Accordo/Contatto di Nintendo senza il logo di RiiConnect24, significa che il tuo ISP (Internet Service Provider) o la rete sta bloccando l'utilizzo del DNS di RC24. Puoi impostare `Ottieni automaticamente DNS` su `Sì` per risolvere. RiiConnect24 funzionerà anche senza di esso. Altrimenti, puoi usare il programma [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest).
 
 ##### Per utenti senza RiiConnect24
 
-Se ottieni questo errore, il server DNS che hai scelto o il tuo internet nella sua interezza sta avendo problemi. Riprova più tardi.
+Se ottieni questo errore, il server DNS che hai scelto o il tuo Internet nella sua interezza sta avendo problemi. Riprova più tardi.
 
 #### FORE000006
 
-Se ottieni l'errore FORE000006, il tuo orologio del Wii è probabilmente impostato incorrettamente. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. Se il problema persiste, rimuovi la batteria dell'orologio del Wii (si trova nella parte inferiore del sistema dietro a una vite) per un'ora e reinseriscila. Poi, resetta l'orologio del Wii.
+Se ottieni l'errore FORE000006, l'orologio della console Wii è probabilmente impostata incorrettamente. Vedi [qui](wiiconnect24#updating-rtc-clock) per istruzioni so come reimpostarlo correttamente. Se il problema persiste, rimuovi la batteria dell'orologio della console Wii (si trova nella parte inferiore del sistema, dietro a una vite) per un'ora e reinseriscila. Poi, reimposta l'orologio della console.
 
-## FAQ Dispositivi di Archiviazione
+## Domande frequenti sui dispositivi di archiviazione
 
 ::: danger
 
-Flash drives are NOT recommended to be used on a Wii if possible because of their unpredicability and potential to become corrupt on the console. Using a USB flash drive may result in the following behavior:
+Le chiavette USB NON sono consigliate per l'uso su Wii se possibile per via della loro imprevedibilità e potenziale di corrompersi sulla console. Usarne una potrebbe comportare nei seguenti comportamenti:
 
-- Game backups failing to load
-- UI glitches in homebrew apps
-- Data randomly becoming corrupted
+- I backup dei giochi non riescono a caricarsi
+- Glitch nell'interfaccia delle applicazioni homebrew
+- Corruzione casuale di dati
 
-If you experience the issues above, or other inexplicable issues with your flash drive, use a USB hard drive or an SD card instead.
+Se riscontri uno dei problemi descritti sopra, o altri non elencati, usa un disco rigido o una scheda SD.
 
 :::
 
 ::: warning
 
-For stock Wii Menu versions lower than 4.0, a limitation in the Wii system software prevents SD cards bigger than 2GB from being used.
+Per versioni del menu Wii minori di 4.0, un limite nel software di Wii previene l'utilizzo di schede SD più grandi di 2GB.
 
-For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD cards of any size can be used.
-
-:::
-
-::: info
-
-The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**not** exFAT or NTFS).
-
-For USB devices, FAT32/MS-DOS is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS era precedentemente un file system usato per backup Wii (da non confondere con file WBFS) - oggi, è obsoleto e non dovrebbe essere usato.
+Per le versioni del menu Wii 4.0 o maggiori, questo limite è rimosso e possono venir usate schede SD di qualsiasi dimensione.
 
 :::
 
 ::: info
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+La console Wii può leggere schede SD di qualsiasi capienza (anche quelle più larghe di 32GB), ma devono essere [formattate in FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**non** exFAT o NTFS).
+
+Questo vale anche per le unità USB, anche se gli utenti dovrebbero essere consapevoli dei limiti di FAT32, che consente solo volumi fino a 2TB e file fino a 4GB ognuno. WBFS era precedentemente un file system usato per backup Wii (da non confondere con file WBFS) - oggi, è obsoleto e non dovrebbe essere usato.
 
 :::
 
-### Storage Space Recommendations
+::: info
 
-When considering buying or using an SD card or USB device, it is worth considering what you will be using either storage medium for. Based on your planned usage, sizing recommendations are outlined below:
+Per gli exploit [BlueBomb](bluebomb), [str2hax](str2hax) o [FlashHax](flashhax), non hai bisogno di una scheda SD per modificare la console Wii; È comunque consigliato prenderne una per gli homebrew e altri compiti.
 
-|   Device Usage   |                      Recommended Storage Space                      |
-| :--------------: | :-----------------------------------------------------------------: |
-|   Exploit-only   |                                128MB                                |
-|   NAND backups   | Minimum: 512MB<br>Recommended: 1GB+ |
-|  Homebrew usage  |                                 2GB+                                |
-|  Emulation usage |                                32GB+                                |
-| GameCube backups |                                64GB+                                |
-|    Wii backups   |                                128GB+                               |
+:::
+
+### Raccomandazioni sullo spazio di archiviazione
+
+Quando si considera comprare o usare una scheda SD o unità USB, ha senso tenere in considerazione le cose per cui si sta usando un tipo di memoria rispetto a un'altra. Basandoti su quel che vorresti farci, le raccomandazioni sono elencate sotto:
+
+| Uso del dispositivo |                 Spazio di archiviazione consigliato                |
+| :-----------------: | :----------------------------------------------------------------: |
+|  Solo per l'exploit |                                128MB                               |
+|  Backup della NAND  | Minimo: 512MB<br>Consigliati: 1GB+ |
+|   Uso di homebrew   |                                2GB+                                |
+|   Uso di emulatori  |                                32GB+                               |
+|   Backup GameCube   |                                64GB+                               |
+|      Backup Wii     |                               128GB+                               |
 
 ### Comprare Schede SD
 
 ::: danger
 
-SD cards larger than 2TB currently do not exist, anyone attempting to sell you one is trying to rip you off.
+Attualmente le schede SD più grandi di 2TB non esistono, chiunque stia cercando di vendertele ti sta truffando.
 
 :::
 
-Nell'acquisto delle schede SD, è generalmente consigliato comprare dispositivi di marche ben conosciute e dal prezzo e dimensioni più alte che puoi permetterti. Mentre puoi comprarte una scheda SD generica da 2GB ed essere probabilmente al sicuro, non si può dire lo stesso per le schede SD da 512MB. General current pricing for SD cards is around 10-35 USD for 256GB and below, whereas 512GB is around 60 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Abbi cautela nel comprare dispositivi di memoria su eBay.
+Nell'acquisto delle schede SD, è generalmente consigliato comprare dispositivi di marche ben conosciute e dal prezzo e dimensioni più alte che puoi permetterti. Mentre puoi comprarte una scheda SD generica da 2GB ed essere probabilmente al sicuro, non si può dire lo stesso per le schede SD da 512MB. I prezzi generali per schede SD si aggirano intorno ai 10-35 euro per schede da 256GB e inferiori, mentre le schede da 512GB costano sui €60 o oltre. Quando compri su Amazon, assicurati che la scheda sia `Venduta/Spedita da Amazon` o `Venduta da [marca], spedita da Amazon`. Abbi cautela nel comprare dispositivi di memoria su eBay.
 
-Our recommended brands:
+Le marche che consigliamo:
 
 - [Samsung](https://www.amazon.com/stores/page/99A645D0-BE70-4DF8-A0C5-CDED2FA59DE9) (EVO Select, EVO Plus, PRO Plus)
-- [SanDisk](https://www.amazon.com/stores/page/6187A5D4-11BE-4006-8AFB-6EC233258034) (Extreme, Ultra, etc)
+- [SanDisk](https://www.amazon.com/stores/page/6187A5D4-11BE-4006-8AFB-6EC233258034) (Extreme, Ultra, ecc)
 - [Lexar](https://www.amazon.com/stores/page/B1E6F5A7-1459-4D06-8FDA-963327D1B00C) (E-Series, Professional)
 - [Silicon Power](https://www.amazon.com/stores/page/A2CCB3CD-8C18-46EC-8497-5A3FE2E3FC1D) (3D NAND, Elite)
-- [PNY](https://www.amazon.com/stores/page/9F7889F9-FA53-4078-BA65-08F7F8104CF6) (Elite, Elite-X, etc)
-- [INLAND by Micro Center](https://www.amazon.com/stores/page/B43B257E-9D36-4368-B7E2-A4095BD5384B)
+- [PNY](https://www.amazon.com/stores/page/9F7889F9-FA53-4078-BA65-08F7F8104CF6) (Elite, Elite-X, ecc)
+- [INLAND da Micro Center](https://www.amazon.com/stores/page/B43B257E-9D36-4368-B7E2-A4095BD5384B)
 
 ### Comprare dispositivi USB - Dischi Rigidi
 
-Nel comprare dischi rigidi USB, ci sono solo tre produttori di HDD a oggi: Western Digital, Seagate, e Toshiba. Any and all other hard drive companies are defunct and have either went bankrupt, or were absorbed by the three aforementioned companies. Detto ciò, se hai un disco rigido in più in giro di un'altra compagnia, dovrebbe comunque funzionare! Le tecnologie dei dischi rigidi sono rimaste le stesse dagli ultimi 10 anni circa. Assicurati solamente di controllare i dati S.M.A.R.T per assicurarti che il dispositivo non stia fallendo prima di buttarci dentro tutti i tuoi dati.
+Nel comprare dischi rigidi USB, ci sono solo tre produttori di HDD a oggi: Western Digital, Seagate, e Toshiba. Qualsiasi altra compagnia è morta ed è andata o in bancarotta, o è stata assorbita da una delle tre sopracitate. Detto ciò, se hai un disco rigido in più in giro di un'altra compagnia, dovrebbe comunque funzionare! Le tecnologie dei dischi rigidi sono rimaste le stesse dagli ultimi 10 anni circa. Assicurati solamente di controllare i dati S.M.A.R.T per assicurarti che il dispositivo non stia fallendo prima di buttarci dentro tutti i tuoi dati.
 
-For hard drive sizing, 2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. Assicurati di tenere questo a mente nel determinare cosa vuoi fare con un dispositivo esterno.
+Per le dimensioni dei dischi rigidi, quelli da 2,5 pollici dovrebbero funzionare con l'elettricità data dalla porta USB della console Wii stessa; quelli da 3,5 pollici consumano più energia e necessiteranno quasi sicuramente di un alimentatore esterno. Assicurati di tenere questo a mente nel determinare cosa vuoi fare con un dispositivo esterno.
 
-For Wii U users, it is highly recommended to have a hard drive that takes external power, or to use a powered USB hub and/or Y cable for 2.5 inch drives.
+Per gli utenti Wii U, è altamente consigliato avere un disco rigido che prende alimentazione esterna, o usare un hub USB e/o un cavo a Y per i dischi da 2,5 pollici.
 
-For Wii mini users, it is recommended to have an externally powered USB hub in order to have external storage, internet adapters, and other peripherals connected simultaneously. You may also want to use a Y cable for drive power.
+Per gli utenti Wii mini, è consigliato avere un hub USB alimentato esternamente per avere spazio di archiviazione aggiuntivo, adattatori internet e altre periferiche connesse contemporaneamente. Potresti anche voler utilizzare un cavo a Y per l'alimentazione dell'unità.
 
 Per quanto riguarda le tue scelte nell'acquisto, questo si riassume in tre scenari diversi:
 
 - Comprare un disco rigido esterno da zero: dispositivi nuovi di zecca costano circa €56.72 per 2TB, €47.26 per 1TB, e intorno ai €28.36 per dimensioni inferiori a 1TB. Indipendentemente da cosa faccia, prova a comprare da una delle tre marche sopracitate, ma tieni a mente che le offerte sono scarse per dimensioni inferiori a 1TB.
 - Comprare un nuovo disco rigido, e un nuovo involucro: I dischi rigidi nuovi sono meno costosi dei dischi prefabbricati, e puoi comprare un involucro per chiudere il nuovo disco rigido. Gli involucri da 63.5cm sono di solito dovrebbero funzionare con l'elettricità del solo cavo USB, mentre quelli da 88.9cm richiedono quasi sempre un alimentatore esterno. Un prezzo di esempio è per comprare un disco rigido da 500GB e un involucro di 63.5cm da Amazon - in tutto, circa €28.36.
-- Buying an enclosure for an already existing hard drive: If you already have a hard drive laying around, you can put it in an enclosure and use it for your Wii. Gli involucri possono essere trovati per prezzi che spaziano da €9.45 a €18.91 su Amazon, se hai un disco rigido con cui fornirlo.
+- Comprare un involucro per un disco rigido già esistente: se hai già un disco rigido in giro, puoi metterlo in un involucro e usarlo sulla tua console Wii. Gli involucri possono essere trovati per prezzi che spaziano da €9.45 a €18.91 su Amazon, se hai un disco rigido con cui fornirlo.
 
 ### Comprare dispositivi USB - Unità a Stato Solido
 
@@ -146,33 +146,33 @@ Per lo scopo di un dispositivo da usare su un Wii, gli SSD esterni sono spesso p
 
 :::
 
-## Networking FAQ
+## Domande frequenti di rete
 
-The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named Wi-Fi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points (APs):
+L'hardware di rete wireless di Wii supporta lo standard massimo di 802.11g su banda 2.4 GHz (chiamata retroattivamente Wi-Fi 3), con un livello di sicurezza massimo di WPA2-PSK (AES). Pertanto, la console Wii NON sarà in grado di connettersi ai seguenti punti di accesso (AP):
 
-- APs enforcing WPA enterprise encryption, or WPA3 only
-- APs not backwards compatible with WiFi 3, or broadcasting only on the 5 GHz band
-- APs not supporting legacy 802.11b or 802.11g rates (i.e. APs supporting only 802.11n)
+- AP che forzano la crittograzia WPA enterprise o WPA3
+- AP non retrocompatibili con WiFi 3, o trasmissione solo sulla banda 5 GHz
+- AP che non supportano 802.11b o 802.11g (es. le AP che supportano solo 802.11n)
 
-ISPs known to provide routers incompatible with these settings:
+ISP noti a fornire router incompatibili con queste impostazioni:
 
 - Xfinity
 - Spectrum
 - Cox
 
-If your ISP will not let you change these settings, or your current networking hardware is not supported, you have a few options:
+Se il tuo ISP non ti permette di modificare queste impostazioni, o il tuo hardware di rete attuale non è supportato, hai alcune opzioni:
 
-- You can try to use a cellular hotspot. This is not recommended as it usually results in an unstable connection.
-- You can use a LAN adapter. It must have the `ASIX AX88772` chipset or say “compatible with Wii”. Here is a [recommended LAN adapter by Plugable](https://a.co/d/g8XvMDp).
-  - Note that variants of the chipset (eg. `ASIX AX88772E`) **will not work** with the Wii.
-- Alternatively, you can buy a secondary router and continue to use the network you already have, like a mesh. Any cheap router meeting the above standards (such as the Linksys WRT54G) will work.
+- Puoi provare a usare un hotspot cellulare. Questo non è consigliato in quanto di solito si traduce in una connessione instabile.
+- Puoi usare un adattatore LAN. Deve avere il chipset `ASIX AX88772` o dire “compatibile con Wii”. Ecco un [adattatore LAN consigliato da Plugable](https://a.co/d/g8XvMDp).
+  - Nota che le varianti del chipset (ad esempio `ASIX AX88772E`) **non funzioneranno** con Wii.
+- In alternativa, puoi acquistare un router secondario e continuare a utilizzare la rete che hai già. Qualsiasi router a buon mercato che soddisfi gli standard sopracitati (come il Linksys WRT54G) funzionerà.
 
-For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the `Wii VC Launch` Aroma plugin.
+Per Wii U, la vWii utilizza le impostazioni Internet impostate nelle impostazioni di Wii U, ma può essere opzionalmente separato con il plugin Aroma `Wii VC Launch`.
 
 ---
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Clicca qui per tornare all'indice.](site-navigation)
 
 :::

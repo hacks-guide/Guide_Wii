@@ -1,65 +1,65 @@
-# Aggiornamento del Menu Wii alla versione 4.3
+# Aggiornare il Menu Wii alla 4.3
 
-Questa guida spiegherà come aggiornare il tuo Menu Wii alla versione 4.3, se hai una Wii già softmoddata.
+Questa guida spiegherà come aggiornare il tuo menu Wii alla versione 4.3, se hai una console Wii già softmoddata.
 
 ::: warning
 
-It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.3.
+È molto più sicuro usare [ModMii](modmii) (solo su Windows) per aggiornare la tua console Wii alla versione 4.3.
 
 :::
 
-## Requirements
+## Requisiti
 
-- a Wii with The Homebrew Channel 1.0.8 or later
-  - If you do not have the Homebrew Channel or it is out of date, please [start here](get-started) to (re)install it first.
-- Una scheda SD o dispositivo USB
-- A Windows/macOS/Linux computer
+- una console Wii con l'Homebrew Channel versione 1.0.8 o successive
+  - Se non hai l'Homebrew Channel o è datato, [inizia da qui](get-started) prima per (re)installarlo.
+- Una scheda SD o unità USB
+- Un computer Windows/macOS/Linux
 - [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/)
 - [Priiloader](priiloader)
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-## Instructions
+## Istruzioni
 
 ### Sezione I - Download
 
-1. On your computer, download NUSGet using the link above, choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
-2. Unzip the archive and run the NUSGet executable.
-3. Go to `System` > `0000000100000002 - System Menu` > `Your Region` and then select the latest 4.3 version of the menu (e.g. `v513 4.3U` for USA). Uncheck `Keep encrypted contents`, then click `Start Download`.
+1. Sul tuo computer, scarica NUSGet dal link sopracitato, scegliendo l'archivio corrispondente al tuo sistema operativo. Per utenti Windows, dovreste scegliere il file `NUSGet-Windows-x86_64-bin.zip`.
+2. Estrai l'archivio ed esegui NUSGet.
+3. Vai su `Sistema` > `0000000100000002 - System Menu` > `La tua regione` e poi seleziona l'ultima versione per la versione 4.3 del menu (es. `v513 4.3E` per PAL). Deseleziona `Mantieni contenuti criptati`, poi clicca `Avvia download`.
 
    ![](/images/desktop-apps/nusget/nusget-wiimenu-dl-update.png)
-4. Go to `IOS` > `000000010000003A - IOS 58` > `World` > `Latest Version`. Uncheck `Keep encrypted contents`, then click `Start Download`.
+4. Vai su `IOS` > `000000010000003A - IOS 58` > `World` > `Ultima versione`. Deseleziona `Mantieni contenuti criptati`, poi clicca `Avvia download`.
 
    ![](/images/desktop-apps/nusget/nusget-ios58-dl.png)
-5. Go to `IOS` > `0000000100000050 - IOS 80` > `World` > `Latest Version`. Uncheck `Keep encrypted contents`, then click `Start Download`.
+5. Vai su `IOS` > `0000000100000050 - IOS 80` > `World` > `Ultima versione`. Deseleziona `Mantieni contenuti criptati`, poi clicca `Avvia download`.
 
    ![](/images/desktop-apps/nusget/nusget-ios80-dl.png)
-6. When you have finished the above steps, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
+6. Quando hai finito, clicca la cartella vicino`Avvia download`. Questo aprirà il tuo gestore file alla cartella download di NUSGet.
 
    ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
-7. This folder should now contain three different folders with the title IDs for the downloaded IOS and Wii menu files.
+7. Questa cartella ora dovrebbe contenerne altre tre con gli ID degli IOS e file del menu Wii scaricati.
 
    ![](/images/desktop-apps/nusget/nusget-folder-update.png)
-8. Go into the folders corresponding to the title numbers for the above, and locate the singular WAD file in each. You will need to copy these to a folder called `wad` on your SD card or USB drive. The end result should include the files below in the folder:
+8. Vai in ognuna cartella e trova il file WAD per ciascuna. Dovrai copiare questi file su una cartella chiamata `wad` sulla tua scheda SD o unità USB. Il risultato finale dovrebbe includere i file qui sotto nella cartella:
 
    ![](/images/desktop-apps/nusget/nusget-copy-wiimenu-sd.png)
-9. After you have copied all 3 WAD files, eject your SD card/USB drive from your PC and insert it back into your Wii.
+9. Dopo aver copiato tutti e 3 i file WAD, rimuovi la scheda SD/unità USB dal tuo PC e mettila dentro la console Wii.
 
 ### Sezione II - Installazione
 
-1. Power off your console. Tieni premuto RESET, poi accendila di nuovo.
-2. In the Priiloader menu, select `Homebrew Channel`.
-   - If the Priiloader menu does not appear, please [install it immediately](priiloader). Priiloader è obbligatorio per questa guida.
+1. Spegni la console. Tieni premuto RESET, poi accendila di nuovo.
+2. Nel menu di Priiloader, seleziona `Homebrew Channel`.
+   - Se il menu di Priiloader non compare, [installalo immediatamente](priiloader). Priiloader è obbligatorio per questa guida.
 3. Avvia YAWM ModMii Edition.
 4. Seleziona la tua scheda SD o dispositivo USB.
-5. Press + on the IOS80 and IOS58 WADs to highlight them, then press A twice to install.
-6. Naviga sulla WAD del Menu Wii e premi A due volte per installarla.
-7. Quando viene richieste di mantenere Priiloader installato, premere A per confermare.
-8. Dopo aver installato tutti i file, premi il bottone HOME per ritornare all'Homebrew Channel.
+5. Premi + sui WAD IOS80 e IOS58 per evidenziarli, poi premi A due volte per installarli.
+6. Naviga sul WAD del menu Wii e premi A due volte per installarlo.
+7. Quando ti viene chiesto se tenere Priiloader, premere A per confermare.
+8. Dopo aver installato tutti i file, premi il pulsante HOME per ritornare all'Homebrew Channel.
 
 ---
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Clicca qui per tornare all'indice.](site-navigation)
 
 :::

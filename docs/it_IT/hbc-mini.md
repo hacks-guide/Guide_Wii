@@ -5,4 +5,4 @@ head:
       content: '0; URL=hbc.html?tab=wii-mini'
 ---
 
-# Redirecting
+# Reindirizzamento

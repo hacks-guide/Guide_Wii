@@ -5,4 +5,4 @@ head:
       content: '0; URL=wiiconnect24.html'
 ---
 
-# Redirecting
+# Reindirizzamento

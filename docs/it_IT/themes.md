@@ -1,147 +1,147 @@
 # Temi Wii
 
-Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installare temi su Wii, contenendo non solo istruzioni per il menu Wii con csm-installer, ma anche per l'installazione di temi su WiiFlow Lite, USB Loader GX, e il Canale Homebrew. Inoltre, tratteremo anche di forwarder.
+Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installare temi su Wii, contenendo non solo istruzioni per il menu Wii con csm-installer, ma anche per l'installazione di temi su WiiFlow Lite, USB Loader GX e il l'Homebrew Channel. Inoltre, tratteremo anche di forwarder.
 
-## Applicare temi sul Menu Wii
+## Applicare temi sul menu Wii
 
-:::details Important Information
+:::details Informazioni importanti
 
-- csm-installer has built in safety features to prevent you from installing bad or corrupt Wii Menu themes. You are advised to use it instead of other theme installation homebrew to help prevent a brick.
-- Non usare nessun'altra versione di ThemeMii oltre a quella fornita da qui, poiché ThemeMii Mod ti permette di creare un tema per il Menu Wii versione 4.3, le altre versioni non possono.
-- Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come formati di file utilizzati nella personalizzazione del Menu Wii. Mentre il MYM è creato dal tuo creatore di temi che puoi condividere in giro, il CSM è il risultato della compilazione di un MYM in un Menu di sistema. In other words, MYM mainly just holds assets - the actual system menu itself that needs to be installed comes separate.
+- csm-installer ha misure di sicurezza integrate per bloccare l'installazione di temi corrotti o malformati. Usa questo homebrew per prevenire brick.
+- Non usare nessun'altra versione di ThemeMii oltre a quella fornita qui, poiché ThemeMii Mod ti permette di creare un tema per il menu Wii versione 4.3, le altre non possono.
+- Prima di procedere, è fondamentale conoscere la differenza tra .MYM e .CSM come formati di file utilizzati nella personalizzazione del menu Wii. Mentre MYM è creato dal tuo creatore di temi che puoi condividere in giro, il CSM è il risultato della compilazione di un MYM in un menu di sistema. In altre parole, MYM sono i contenuti - CMS è il risultato da installare.
 
 :::
 
 ::: danger
 
-**Important Warnings**
+**Avvertenze**
 
-- DO NOT continue with this guide unless you have adequate brick protection with [BootMii](bootmii) (Wii only) and [Priiloader](priiloader) installed.
-- Sul tuo Wii, installa solo i temi che sono creati appositamente per la sua versione e regione attuali. Installing themes from the wrong version or region on your Wii will cause a [theme brick](bricks#theme-brick). Questo tutorial ti dirà come creare un file .csm che è sicuro da installare.
+- NON continuare con questa guida affinché non hai una protezione adeguata dai brick con [BootMii](bootmii) (solo Wii) e [Priiloader](priiloader) installati.
+- Installa solo i temi che sono stati creati appositamente per la versione e la regione della tua console Wii. Installare temi di versioni o regioni diverse potrebbe comportare a un [brick dal tema](bricks#theme-brick). Questo tutorial ti dirà come creare un file .csm che sia sicuro da installare.
 
 :::
 
-### Sorgenti di Temi
+### Fonti dove trovare temi
 
-- [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (.mym file distribution)
-- [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (.mym file distribution)
-- [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (.mym file distribution)
-- [Wii Themer](http://www.wiithemer.org/) (This site can build a .csm ready to install for Wii and vWii only, but for Wii mini you may download the .mym files from their [Theme Database](http://wiithemer.org/mym/))
+- [Wii Theme Team Creations](https://gbatemp.net/threads/wii-theme-team-creations.260327/) (distrubuzione di file .mym)
+- [Wii Theme Google Drive](https://drive.google.com/drive/folders/1H8bKkZa5Nwy7tBmDvKEVXhoZStucpUr3) (distribuzione di file .mym)
+- [GBAtemp Other Files for Wii](https://gbatemp.net/download/categories/other-files.166/) (distribuzione di gile .mym)
+- [Wii Themer](http://www.wiithemer.org/) (Questo sito può costruire un file .csm pronto all'installazione per Wii e vWii, ma per Wii mini dovresti scaricare i file .mym dal loro [database](http://wiithemer.org/mym/))
 
-### Requirements
+### Requisiti
 
-- Una scheda SD o dispositivo USB
-- Un computer Windows con una connessione ad internet
+- Una scheda SD o un'unità USB
+- Un computer Windows con una connessione a Internet
 - [csm-installer](https://oscwii.org/library/app/csm-installer)
 - [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
-### Downloading the Base Theme
+### Scaricare il tema base
 
 ::::: tabs
 
-:::: tab (All) Via csm-installer
+:::: tab (Tutti) tramite csm-installer
 
-1. Extract the csm-installer `.zip` file to the root of your SD card or USB device.
-2. Inserisci la tua scheda SD o il tuo dispositivo USB nella console, e avvia il Canale Homebrew.
-3. Launch csm-installer, then select `Download original Wii theme (Base theme)`
+1. Estrai il file `.zip` di csm-installer nella root della tua scheda SD o unità USB.
+2. Inserisci la tua scheda SD o unità USB nella console, poi avvia l'Homebrew Channel.
+3. Avvia csm-installer, poi seleziona `Download original Wii theme (Base theme)`
 4. Quando il tema base finisce di scaricarsi, premi HOME per uscire dall'applicazione.
-5. Inserisci di nuovo la scheda SD/dispositivo USB nel tuo PC. The base app will be saved to a folder named `themes`.
+5. Inserisci di nuovo la scheda SD o l'unità USB nel tuo PC. Il tema sarà salvato in una cartella chiamata `themes`.
 
 ::::
 
-:::: tab (Wii) Via NUSGet
+:::: tab (Wii) tramite NUSGet
 
-1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
-2. Unzip the archive and run the NUSGet executable.
-3. Navigate to `System` > `System Menu` > `Your Region` and then select the Wii menu version you are running. Check the `Create decrypted contents (*.app)` option, uncheck the `Keep encrypted contents` option, and then click `Start Download`.
+1. Sul tuo computer, scarica [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/) scegliendo l'archivio corrispondente al tuo sistema operativo. Per utenti Windows, dovreste scegliere il file `NUSGet-Windows-x86_64-bin.zip`.
+2. Estrai l'archivio ed esegui NUSGet.
+3. Naviga fino `Sistema` > `Menu di sistema` > `La tua regione` e seleziona la versione del menu Wii che hai. Attiva l'opzione `Crea contenuto decriptato (*.app)`, disattiva `Mantieni contenuti criptati` e poi clicca `Avvia download`.
 
    ![](/images/desktop-apps/nusget/nusget-wiimenu-dl.png)
-4. When you have finished downloading the Wii menu files, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
+4. Quando hai finito di scaricare i file del menu Wii, clicca la cartella vinico `Avvia download`. Questo aprirà il tuo gestore file alla cartella download di NUSGet.
 
    ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
-5. You should locate and open the `0000000100000002` folder inside it.
+5. Apri la cartella `0000000100000002`.
 
    ![](/images/desktop-apps/nusget/nusget-folder-wiimenu.png)
-6. Find the **largest .app file** (usually ~6-7MB) inside the folder.
+6. Trova il **file .app più pesante** (intorno ai ~6-7MB) dentro la cartella.
 
    ![](/images/desktop-apps/nusget/nusget-wiimenu-output.png)
-7. Create a `themes` folder on the root of your SD card/USB device.
-8. Copy the .app file to the newly created `themes` folder. This is the base theme you will use to build your custom theme.
+7. Crea la cartella `themes` nella root della tua scheda SD o unità USB.
+8. Copia il file .app appena creato nella cartella `themes`. Questo tema è la base per iniziare a costruire il tuo.
 
 ::::
 
-:::: tab (vWii) Via NUSGet
+:::: tab (vWii) tramite NUSGet
 
-1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
+1. Sul tuo computer, scarica [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/) scegliendo l'archivio corrispondente al tuo sistema operativo. Per utenti Windows, dovreste scegliere il file `NUSGet-Windows-x86_64-bin.zip`.
 
-2. Unzip the archive and run the NUSGet executable.
+2. Estrai l'archivio ed esegui NUSGet.
 
-3. Select the `vWii` tab and navigate to `System` > `System Menu` > `Your Region`.
+3. Seleziona `vWii` e naviga in `Sistema` > `Menu di sistema` > `La tua regione`.
 
-4. Select the version that corresponds to your Wii U's region in the table below:
+4. Seleziona la versione corrispondente alla regione della tua console Wii U dalla tabella sotto:
 
-   |  Regione |                                        vWii Menu version                                       |
+   |  Regione |                                       Versione menu vWii                                       |
    | :------: | :--------------------------------------------------------------------------------------------: |
    | Giappone | v608 (4.3J - Wii U v5.2.0J) |
    |    USA   | v609 (4.3U - Wii U v5.2.0U) |
    |  Europa  | v610 (4.3E - Wii U v5.2.0E) |
 
-5. Check the `Create decrypted contents (*.app)` option, uncheck the `Keep encrypted contents` option, and then click `Start Download`.
+5. Attiva l'opzione `Crea contenuto decriptato (*.app)`, disattiva `Mantieni contenuti criptati` e poi clicca `Avvia download`.
 
    ![](/images/desktop-apps/nusget/nusget-vwiimenu-dl.png)
 
-6. When you have finished downloading the Wii menu files, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
+6. Quando hai finito di scaricare i file del menu Wii, clicca la cartella vinico `Avvia download`. Questo aprirà il tuo gestore file alla cartella download di NUSGet.
 
    ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
 
-7. You should locate and open the `0000000700000002` folder inside it.
+7. Apri la cartella `0000000700000002`.
 
    ![](/images/desktop-apps/nusget/nusget-folder-vwiimenu.png)
 
-8. Find the .app file that corresponds to your Wii U's region in the table below:
+8. Trova il file .app corrispondente alla regione della tua console Wii U dalla tabella sotto:
 
-   |  Regione |   .app file  |
+   |  Regione |   file .app  |
    | :------: | :--------------------------: |
    | Giappone | 0000001C.app |
    |    USA   | 0000001F.app |
    |  Europa  | 00000022.app |
 
-9. Create a `themes` folder on the root of your SD card/USB device.
+9. Crea la cartella `themes` nella root della tua scheda SD o unità USB.
 
-10. Copy the .app file to the newly created `themes` folder. This is the base theme you will use to build your custom theme.
+10. Copia il file .app nella cartella `themes`. Questo tema è la base per iniziare a costruire il tuo.
 
 ::::
 
-:::: tab (Wii) Via ThemeMii
+:::: tab (Wii) tramite ThemeMii
 
-1. Create a `themes` folder on the root of your SD card/USB device.
-2. Extract the ThemeMii MOD `.zip` to a location on your PC.
-3. Launch the ThemeMii application.
-4. Go to `Tools` > `Download Base App` > `Version of your Wii Menu` > `Region of your Wii Menu`.
-5. Una finestra di dialogo si aprirà chiedendoti di inserire un valore per creare una chiave. Inserisci quello che ti dice e creerà una chiave che sarà utilizzare per decifrare i contenuti del Menu Wii dai server di Nintendo.
-6. A file selection box will ask you where to save the .app file. Save it to the `themes` folder on your SD card/USB device.
+1. Crea la cartella `themes` nella root della tua scheda SD o unità USB.
+2. Estrai il file `.zip` di ThemeMii MOD sul tuo PC.
+3. Apri l'applicazione ThemeMii.
+4. Vai su `Tools` > `Download Base App` > `Version of your Wii Menu` > `Region of your Wii Menu`.
+5. Una finestra di dialogo si aprirà chiedendoti di inserire un valore per creare una chiave. Inserisci quello che ti dice e creerà una chiave che sarà utilizzata per decifrare i contenuti del menu Wii dai server di Nintendo.
+6. Quando ti chiede dove salvare il file .app, seleziona la cartella `themes` nella tua scheda SD o unità USB.
 
 ::::
 
 :::::
 
-### Creazione di un tema
+### Creare un tema
 
-1. Extract the ThemeMii MOD `.zip` to a location on your PC.
-2. Launch the ThemeMii application.
-3. Go to `File` > `Open`, and select the `.mym` file for the theme you want to build.
-4. Press `Create csm`.
-5. When asked to select an `.app` file, select the newly downloaded base theme in the `themes` of your SD card or USB device.
-6. When asked to save the `.csm` file, save it in the `themes` folder.
-7. Dopo che il tema finisce di crearsi, sarà chiesto di salvare il file .mym. Press `No`.
+1. Estrai il file `.zip` di ThemeMii MOD sul tuo PC.
+2. Apri l'applicazione ThemeMii.
+3. Vai su `File` > `Open` e seleziona il file `.mym` del tema che vuoi costruire.
+4. Premi `Create csm`.
+5. Quando ti chiede il file `.app`, seleziona il tema base dalla cartella `themes` della tua scheda SD o unità USB.
+6. Quando ti chiede dove salvare il file `.csm`, salvala nella cartella `themes`.
+7. Dopo che il tema è stato creato, sarà chiesto se salvare il file `.mym`. Premi `No`.
 
 ### Installazione del tema
 
-1. Inserisci la tua scheda SD o il tuo dispositivo USB nella console, e avvia il Canale Homebrew.
-2. Avvia csm-installer, e attendi che si carichi.
-3. Select the theme you would like to install with `A`. A questo punto, devi essere assolutamente sicuro che hai scaricato il tema corretto per la tua versione del Menu di sistema e regione.
-4. Press `+` to install the theme.
-5. Ritorna al Menu Wii e verifica che il tema sia installato correttamente. Se tutto va bene, dovresti avere un risultato simile a quello in basso!
+1. Inserisci la tua scheda SD o la tua unità USB nella console e avvia l'Homebrew Channel.
+2. Avvia csm-installer e attendi che carichi.
+3. Seleziona il tema che vuoi installare con `A`. A questo punto, devi essere assolutamente sicuro che hai scaricato il tema corretto per la tua versione del menu di sistema e regione.
+4. Premi `+` per installare il tema.
+5. Ritorna al menu Wii e verifica che il tema sia stato installato correttamente. Se tutto va bene, dovresti avere un risultato simile a quello in basso!
 
    ![](/images/themes/themed-wii-menu.png)
 
@@ -149,63 +149,63 @@ Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installar
 
 Purtroppo, a causa delle differenze di codice tra il WiiFlow originale e il più recente WiiFlow Lite, i temi sono sparsi - infatti, potresti trovare solo un tema che funzionerà a dovere con la versione più recente. Le istruzioni per installare quel tema sono qui in basso.
 
-### Requirements
+### Requisiti
 
-- Una Wii modificata
-- Una scheda SD o dispositivo USB
+- Una console Wii modificata
+- Una scheda SD o un'unità USB
 - [WiiFlow Lite](wii-loaders#wiiflow-lite)
-- Un PC Windows/macOS/Linux con una connessione a internet
+- Un PC Windows/macOS/Linux con una connessione a Internet
 - [Rhapsodii Shima](https://gbatemp.net/threads/rhapsodii-shima-5-4.555062/)
 
-### Instructions
+### Istruzioni
 
-1. Inserisci il dispositivo di archiviazione che contiene WiiFlow Lite nel tuo PC.
+1. Inserisci il dispositivo di archiviazione contenente WiiFlow Lite nel tuo PC.
 2. Scarica l'archivio Rhapsodii Shima, una delle due versioni del tema funziona e possono essere installate affiancate senza problemi.
-3. Extract and copy the `wiiflow` folder to the root of your storage device, merge all folders and overwrite all files when requested.
-4. Follow the theme setup and theme configuration instructions in `installation.txt`. Goditi il tema!
+3. Estrai e copia la cartella `wiiflow` nella root del tuo dispositivo di archiviazione, unisci tutte le cartelle e socrascrivi i file se richiesto.
+4. Segui le istruzioni sulla configurazione del tema dentro `installation.txt`. Goditi il tema!
 
 ## Personalizzazione di USB Loader GX
 
-### Requirements
+### Requisiti
 
-- Una Wii modificata
-- Una scheda SD o dispositivo USB
+- Una console Wii modificata
+- Una scheda SD o un'unità USB
 - [USB Loader GX](wii-loaders#usb-loader-gx)
-- Un PC Windows/macOS/Linux con una connessione a internet
-- A [theme](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), this link contains an assortment of dark themes
+- Un PC Windows/macOS/Linux con una connessione a Internet
+- Un [tema](https://gbatemp.net/threads/dark-wii-usb-loader-gx-themes.584493/), questo link contiene un paio di temi scuri
 
-### Instructions
+### Istruzioni
 
-1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
-2. Unpack the `.zip` file's contents into the `/apps/usbloader_gx` directory on the storage device where you installed USB Loader GX.
-3. Inserisci il supporto di archiviazione nel tuo Wii e avvialo.
-4. Start USB Loader GX, go to the `Settings` menu, and then go to `Theme Menu`.
+1. Scarica il file `.zip` di un tema dal sito sopracitato, o in qualsiasi altro posto dove puoi trovarne uno.
+2. Estrai i contenuti del file `.zip` dentro la cartella `/apps/usbloader_gx` nel dispositivo di archiviazione dove hai installato USB Loader GX.
+3. Inserisci il dispositivo di archiviazione nella tua console Wii e accendila.
+4. Avvia USB Loader GX, vai in `Impostazioni`, poi su `Menu Tema`.
 5. Apri il tema e installalo.
 
 ## Personalizzazione dell'Homebrew Channel
 
-### Requirements
+### Requisiti
 
-- Una Wii modificata
-- Una scheda SD o dispositivo USB
-- Un PC Windows/macOS/Linux con una connessione a internet
-- A [theme](https://wiibrew.org/wiki/Homebrew_Channel/Themes) from WiiBrew
+- Una console Wii modificata
+- Una scheda SD o un'unità USB
+- Un PC Windows/macOS/Linux con una connessione a Internet
+- Un [tema](https://wiibrew.org/wiki/Homebrew_Channel/Themes) da WiiBrew
 
-### Instructions
+### Istruzioni
 
-1. Download a theme `.zip` file from the website linked above.
+1. Scarica il file `.zip` di un tema dal sito sopracitato.
 
    ![](/images/themes/homebrew-channel-example-theme.png)
 
-2. Paste the `.zip` into the `apps` folder on your storage device where you load homebrew.
+2. Incolla il file `.zip` nella cartella `apps` nel dispositivo di archiviazione dove carichi gli homebrew.
 
    ![](/images/themes/homebrew-channel-paste-zip.png)
 
-3. Extract the contents of the `.zip` into the `apps` folder, and delete the archive.
+3. Estrai i contenuti del file `.zip` nella cartella `apps`, poi cancella l'archivio.
 
    ![](/images/themes/homebrew-channel-extract-theme.png)
 
-4. Reinserisci il dispositivo di archiviazione nel tuo Wii e avvia l'Homebrew Channel.
+4. Reinserisci il dispositivo di archiviazione nella tua console Wii e avvia l'Homebrew Channel.
 
 5. Il tema che hai appena installato può essere caricato nello stesso modo in cui si caricano le app standard.
 
@@ -217,12 +217,12 @@ Purtroppo, a causa delle differenze di codice tra il WiiFlow originale e il più
 
 ## Forwarder delle app
 
-App forwarders can add a bit of extra flair to your Wii Menu - but be careful with them as bad forwarders can cause a [banner brick](bricks#banner-brick). Generally, you can find forwarders on places like [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) for popular apps such as emulators. Since forwarders come in a .WAD format, the process of installing them is as simple as normal usage with [YAWM ModMii Edition](yawmme).
+I forwarder possono aggiungere quel tocco extra al menu Wii - ma fai attenzione in quanto potrebbero causare un [brick dal banner](bricks#banner-brick). Generalmente, puoi trovare i forwarder in posti come [GBAtemp](https://gbatemp.net/threads/wii-forwarder-repository.588781/) per app popolari e emulatori. Dato che vengono nel formato .WAD, il processo d'installazione è semplice tramite [YAWM ModMii Edition](yawmme).
 
 ---
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Clicca qui per tornare all'indice.](site-navigation)
 
 :::

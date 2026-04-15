@@ -2,216 +2,216 @@
 
 ::: tip
 
-**End of Required Section**
+**Fine della sezione richiesta**
 
-This marks the end of the required section of the main guide. You do not have to follow the guide from this point onward if you would like a standard, functioning homebrew setup.
+Questo segna la fine della sezione richiesta della guida principale. Non è necessario seguire la guida da questo punto in poi se desideri una configurazione homebrew base e funzionante.
 
-Going forward, the remainder of the guide will show the following to get the most out of your Wii:
+Andando avanti, il resto della guida mostrerà quanto segue per ottenere il massimo dalla tua console Wii:
 
-- Utilizing the Open Shop Channel to obtain homebrew applications
-- Restoring WiiConnect24 functionality with WiiLink
-- Restoring the ability to play online with Wiimmfi
-- Providing a list of recommended homebrew to try out
+- Utilizzare l'Open Shop Channel per ottenere applicazioni homebrew
+- Ripristinare la funzionalità di WiiConnect24 con WiiLink
+- Ripristinare la capacità di giocare online con Wiimmfi
+- Fornire una lista di homebrew consigliati da provare
 
 :::
 
 ::: info
 
-For support (in English) with the Open Shop Channel, join [Open Shop Channel on Discord](https://discord.gg/osc).
+Per ricevere supporto (in inglese) con Open Shop Channel, entra nel [server Discord di Open Shop Channel](https://discord.gg/osc).
 
 :::
 
-The [Open Shop Channel](https://oscwii.org/) is a homebrew app repository created by dhtdht020, and is currently the preferred way to download homebrew.
+L'[Open Shop Channel](https://oscwii.org/) è un repository di applicazioni homebrew creato da dhtdht020 ed è attualmente il modo preferito per scaricare homebrew.
 
-There are two methods to use the Open Shop Channel:
+Ci sono due metodi per utilizzarlo:
 
-- On the Wii itself, utilizing one of the following homebrew apps:
-  - LibreShop (preferred)
-  - Homebrew Browser (fallback)
-- On your computer, utilizing one of the following applications:
-  - TinyWiiBackupManager (preferred)
-  - OSCDL (fallback)
+- Sulla console Wii stessa, usando una delle seguenti applicazioni homebrew:
+  - LibreShop (preferito)
+  - Homebrew Browser (alternativa)
+- Sul tuo computer, usando una delle seguenti applicazioni:
+  - TinyWiiBackupManager (preferito)
+  - OSCDL (alternativa)
 
-## Method I - Open Shop Channel on Wii
+## Metodo I - Open Shop Channel su Wii
 
 ### LibreShop
 
-LibreShop is a text-based app repository coded from the ground up by the LibreShop team, serving as a modern and more reliable method to download homebrew on a Wii.
+LibreShop è un repository creata dal team LibreShop, servendo come un metodo moderno e più affidabile per scaricare homebrew su Wii.
 
-#### Requirements
+#### Requisiti
 
-- A Wii with an active Internet connection
-- Una scheda SD o dispositivo USB
+- Una console Wii con connessione a Internet
+- Una scheda SD o unità USB
 - [LibreShop](https://oscwii.org/library/app/libreshop)
 
-#### Usage Instructions
+#### Istruzioni d'uso
 
-1. Download the recommended `.zip` file from the Open Shop Channel website.
+1. Scarica il file `.zip` consigliato dal sito di Open Shop Channel.
 
    ![](/images/osc/zip-download-LS.png)
 
-2. Extract the `apps` folder in the archive to the root of your SD card or USB drive.
+2. Estrai la cartella `apps` dall'archivio nella root della tua scheda SD o unità USB.
 
-3. Insert your SD card or USB drive into your Wii, and go to LibreShop. LibreShop should now display.
+3. Inserisci la scheda SD o unità USB nella console Wii e avvia LibreShop. Ora dovresti vedere LibreShop.
 
    ![](/images/osc/libreshop.png)
 
 ### Homebrew Browser
 
-The Homebrew Browser is a graphical-based app repository for the Wii originally released in June 2008, but patched by the Open Shop Channel team to support its servers. It can be unstable, but serves as an alternative to LibreShop should the former not be usable.
+Homebrew Browser è un repository originariamente rilasciata nel giugno 2008, ma patchata dal team di Open Shop Channel per supportare i loro suoi server. Può essere instabile, ma serve come alternativa a LibreShop se non è utilizzabile.
 
-#### Requirements
+#### Requisiti
 
-- A Wii with an active Internet connection
-- Una scheda SD o dispositivo USB
+- Una console Wii con connessione a Internet
+- Una scheda SD o unità USB
 - [Homebrew Browser](https://oscwii.org/library/app/homebrew_browser)
 
-#### Usage Instructions
+#### Istruzioni d'uso
 
-1. Download the recommended `.zip` file from the Open Shop Channel website.
+1. Scarica il file `.zip` consigliato dal sito di Open Shop Channel.
 
    ![](/images/osc/zip-download-HBB.png)
 
-2. Extract the `apps` folder in the archive to the root of your SD card or USB drive. Facoltativamente, l'archivio fornisce una guida su come utilizzare l'Homebrew Browser.
+2. Estrai la cartella `apps` dall'archivio nella root della tua scheda SD o unità USB. Facoltativamente, l'archivio fornisce una guida su come utilizzare l'Homebrew Browser.
 
-3. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia l'Homebrew Channel. Homebrew Browser should now display.
+3. Inserisci la scheda SD o unità USB nella console Wii e avvia l'Homebrew Channel. Ora dovresti vedere l'Homebrew Browser.
 
    ![](/images/osc/homebrew-browser.png)
 
-## Method II - Open Shop Channel on PC
+## Metodo II - Open Shop Channel su PC
 
 ### TinyWiiBackupManager
 
-TinyWiiBackupManager comes with a built-in app downloader for Open Shop Channel homebrew applications, and is the preferred method to download OSC apps on PC for most users due to its simplicity.
+TinyWiiBackupManager è dotato di un installatore di app integrato per applicazioni homebrew da Open Shop Channel. È il metodo preferito per scaricare le app da OSC su PC per la maggior parte degli utenti grazie alla sua semplicità.
 
 #### Requisiti
 
-- A Windows/macOS/Linux computer with an Internet connection
-- Una scheda SD o dispositivo USB
-- The latest version of [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
+- Un computer Windows/macOS/Linux con connessione a Internet
+- Una scheda SD o unità USB
+- L'ultima versione di [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
 
-#### Section I - Installation
+#### Sezione I - Installazione
 
-Detailed installation instructions for TinyWiiBackupManager specific to your operating system can be found on the [Managing Backups](backups#using-tinywiibackupmanager) page. Once finished, proceed for instructions on using the application for the Open Shop Channel.
+Istruzioni di installazione dettagliate per TinyWiiBackupManager specifiche per il tuo sistema operativo possono essere trovate nella pagina [Gestire i backup](backups#using-tinywiibackupmanager). Una volta terminato, procedi per le istruzioni su come usare l'applicazione per l'Open Shop Channel.
 
-#### Section II - Usage
+#### Sezione II - Utilizzo
 
 1. Inserisci la tua unità USB o scheda SD nel tuo computer.
 
-2. Click the hard drive icon on the bottom left of the app to select your drive. Select the root of the drive (e.g. `E:\`), not the "wbfs" or "games" folder. If you have not already done so, click the shop icon to open the Open Shop Channel frontend.
+2. Clicca l'icona del disco rigido in basso a sinistra dell'app e seleziona la tua unità. Seleziona la root (es. `E:\`), non la cartella "wbfs" o "games". Se non l'hai ancora fatto, clicca sull'icona del negozio per aprire il frontend di Open Shop Channel.
 
    ![](/images/desktop-apps/TWBM/twbm-osc-home.png)
 
-3. Find an application that you would like to obtain, and press the `Install app` button. In alternativa, è possibile inviare l'app direttamente al Wii (questo richiede che sia il computer che il Wii siano sulla stessa rete).
+3. Trova un'applicazione che desideri ottenere e premi il pulsante `Install app`. In alternativa, è possibile inviare l'app direttamente a Wii (questo richiede che sia il computer che la console siano sulla stessa rete).
 
    ![](/images/desktop-apps/TWBM/twbm-osc-search.png)
 
-4. A dialog box will pop-up asking you if you would like to install the application. Press `Yes`. Once the installation has finished, a message will appear in the bottom right of the application indicating that the app was installed.
+4. Una finestra ti chiederà se vuoi installare l'applicazione. Premi `Yes`. A installazione terminata, apparirà un messaggio in basso a destra con la conferma.
 
    ![](/images/desktop-apps/TWBM/twbm-osc-dialog.png)
 
-5. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia l'Homebrew Channel. Ora dovresti vedere il tuo homebrew appena scaricato.
+5. Inserisci la scheda SD o unità USB nella console Wii e avvia l'Homebrew Channel. Ora dovresti vedere il tuo homebrew appena scaricato.
 
 ### OSCDL
 
-OSCDL is the application officially developed by the Open Shop Channel team for usage on PC, and may appeal to power users due to its additional features. It can be used as an alternative to TinyWiiBackupManager in cases where the former will not function.
+OSCDL è l'applicazione ufficialmente sviluppata dal team di Open Shop Channel per l'utilizzo su PC, avendo anche caratteristiche aggiuntive. Può essere utilizzato come alternativa a TinyWiiBackupManager nei casi in cui non funziona.
 
 #### Requisiti
 
-- A Windows/macOS/Linux computer with an Internet connection
-- Una scheda SD o dispositivo USB
-- The latest version of [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)
+- Un computer Windows/macOS/Linux con connessione a Internet
+- Una scheda SD o unità USB
+- L'ultima versione di [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)
 
 #### Windows
 
 <br>
 
-##### Section I - Installation
+##### Sezione I - Installazione
 
 ::: info
 
-You may get a Microsoft SmartScreen window. This is a false positive, ignore and run anyway.
+Potresti ricevere una finestra di Microsoft Smartscreen. Questo è un falso positivo, ignora ed esegui comunque.
 
 :::
 
 ::: info
 
-Se vedi un pop-up per il Controllo account utente che ti chiede se vuoi che il programma esegua cambiamenti o meno sul tuo PC, seleziona Sì. L'Open Shop Channel, è un'applicazione sicura.
+Se vedi una che ti chiede se vuoi che il programma faccia dei cambiamenti al tuo PC, seleziona Sì. L'Open Shop Channel è un'applicazione sicura.
 
 :::
 
-1. Download `oscdl-installer.exe` and run the installer. Optionally, you may instead download `oscdl-standalone.exe`, which does not have to be installed and instead runs as a portable executable.
+1. Scarica `oscdl-installer.exe` ed esegui il programma di installazione. Facoltativamente, è possibile invece scaricare `oscdl-standalone.exe` che non deve essere installato e viene invece eseguito come eseguibile portatile.
 
    ![](/images/osc/exe-download-OSCDL.png)
 
-2. Lasciate che l'installazione prosegua e poi avvia OSCDL una volta che il processo è terminato.
+2. Lascia che l'installazione prosegua e poi avvia OSCDL una volta che il processo è terminato.
 
    ![](/images/osc/install-finished-OSCDL.png)
 
-##### Section II - Usage
+##### Sezione II - Utilizzo
 
-1. Find an application that you would like to obtain, and press the Download button. In alternativa, è possibile inviare l'app direttamente al Wii (questo richiede che sia il computer che il Wii siano sulla stessa rete).
+1. Trova un'applicazione che desideri avere e premi il pulsante Download. In alternativa, è possibile inviare l'app direttamente a Wii (questo richiede che sia il computer che la console siano sulla stessa rete).
 
    ![](/images/osc/app-download-OSCDL.png)
 
-2. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
+2. Se scaricato direttamente, verrà visualizzata una finestra di dialogo che ti chiederà una posizione per il download. OSCDL rileverà un dispositivo di archiviazione con una cartella app e, se scaricato lì, verrà automaticamente decompresso l'homebrew per essere pronto per l'uso. In caso contrario, puoi specificare una posizione e estrarlo da solo.
 
    ![](/images/osc/download-prompt-OSCDL.png)
 
-3. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia l'Homebrew Channel. Ora dovresti vedere il tuo homebrew appena scaricato.
+3. Inserisci la scheda SD o unità USB nella console Wii e avvia l'Homebrew Channel. Ora dovresti vedere il tuo homebrew appena scaricato.
 
-#### macOS and Linux
+#### macOS e Linux
 
 <br>
 
-##### Section I - Installation
+##### Sezione I - Installazione
 
 ::: warning
 
-You will need Python 3 installed in order to use OSCDL on these platforms. Please note that on certain distros, Python 3 may use either `python` or `python3` as an alias, please be aware of this for Step 6. You will also create a virtual environment to isolate OSCDL and its dependencies from your base Python installation.
+Dovrai avere Python 3 installato per utilizzare OSCDL su queste piattaforme. Notare che, in alcune distribuzioni, Python 3 può avere `python` o `python3` come alias, prendi nota di ciò per il passaggio 6. Creerai anche un ambiente virtuale per isolare OSCDL e le sue dipendenze dall'installazione Python di base.
 
 :::
 
-1. Download the source code for OSCDL, either the `.zip` or the `.tar.gz`. Optionally, you can instead run `git clone https://github.com/dhtdht020/osc-dl.git` in the directory you would like to use OSCDL in.
+1. Scarica il codice sorgente di OSCDL, il file `.zip` o il file `.tar.gz`. Facoltativamente, puoi usare `git clone https://github.com/dhtdht020/osc-dl.git` nella cartella in cui desideri utilizzare OSCDL.
 
    ![](/images/osc/source-code-download-OSCDL.png)
 
-2. If you chose to download the source code, extract the archive to a location on your computer that you would like to use OSCDL in.
+2. Se scegli di scaricare il codice sorgente, estrai l'archivio in una posizione sul computer in cui desideri utilizzare OSCDL.
 
-3. Open the location of the extracted files in a terminal and run the command `python3 -m venv venv` to create a virtual environment. Note that, if you receive a message that `ensurepip` is not available, you must install the `python3-venv` package for your distribution. Python may provide a command for you to use to accomplish this.
+3. Aprire la posizione dei file estratti in un terminale ed esegui il comando `python3 -m venv venv` per creare un ambiente virtuale. Nota che, se ricevi un messaggio che `ensurepip` non è disponibile, devi installare il pacchetto `python3-venv` per la tua distribuzione. Python può fornire un comando da usare per farlo.
 
    ![](/images/osc/create-virtual-environment.png)
 
-4. Run the command `source venv/bin/activate` to activate the virtual environment.
+4. Esegui il comando `source venv/bin/activate` per attivare l'ambiente virtuale.
 
    ![](/images/osc/activate-virtual-environment.png)
 
-5. Run the command `pip install -r requirements.txt`. This will download Python packages needed to run OSCDL.
+5. Esegui il comando `pip install -r requirements.txt`. Questo scaricherà i pacchetti Python necessari per eseguire OSCDL.
 
    ![](/images/osc/satisfy-requirements-OSCDL.png)
 
-6. Run the command `python3 oscdl.py`. This will open the program. If you choose to keep the terminal open, you can use `deactivate` to exit the virtual environment. Additionally note that you must run `source venv/bin/activate` in the directory where OSCDL was extracted every time you open a new terminal. This is in order to load the dependencies needed to run OSCDL.
+6. Esegui il comando `python3 oscdl.py`. Questo aprirà il programma. Se scegli di mantenere aperto il terminale, puoi usare `deactivate` per uscire dall'ambiente virtuale. Nota inoltre che è necessario eseguire `source venv/bin/activate` nella cartella dove OSCDL è stato estratto ogni volta che apri un nuovo terminale. Questo è al fine di caricare le dipendenze necessarie per eseguire OSCDL.
 
    ![](/images/osc/run-OSCDL-terminal.png)
 
-##### Section II - Usage
+##### Sezione II - Utilizzo
 
-1. Once OSCDL is open, find an application that you would like to obtain, and press the Download button. In alternativa, è possibile inviare l'app direttamente al Wii (questo richiede che sia il computer che il Wii siano sulla stessa rete).
+1. A OSCDL aperto, trova un'applicazione che desideri ottenere, poi premeri il pulsante Download. In alternativa, è possibile inviare l'app direttamente a Wii (questo richiede che sia il computer che la console siano sulla stessa rete).
 
    ![](/images/osc/app-download-OSCDL-linux.png)
 
-2. If downloaded directly, a dialog box will pop up asking you for a download location. OSCDL will prompt you if it detects a storage device with an apps folder, and if downloaded there, it will automatically unzip the homebrew and be ready to use. Otherwise, you may specify a manual download location and unzip it yourself.
+2. Se scaricato direttamente, verrà visualizzata una finestra di dialogo che ti chiederà una posizione per il download. OSCDL rileverà un dispositivo di archiviazione con una cartella app e, se scaricato lì, verrà automaticamente decompresso l'homebrew per essere pronto per l'uso. In caso contrario, puoi specificare una posizione e estrarlo da solo.
 
    ![](/images/osc/download-prompt-OSCDL-linux.png)
 
-3. Inserisci la tua scheda SD o dispositivo USB nel tuo Wii e avvia l'Homebrew Channel. Ora dovresti vedere il tuo homebrew appena scaricato.
+3. Inserisci la scheda SD o unità USB nella console Wii e avvia l'Homebrew Channel. Ora dovresti vedere il tuo homebrew appena scaricato.
 
 ---
 
 ::: tip
 
-[Continue to WiiConnect24](wiiconnect24)
+[Continua con WiiConnect24](wiiconnect24)
 
-WiiConnect24 was an online service ran by Nintendo, providing functionality to apps such as the Forecast and News channels. This guide outlines WiiLink, a service that restores this functionality, as well as other information to be aware of when using it.
+WiiConnect24 è stato un servizio online gestito da Nintendo, che forniva funzionalità ad applicazioni come il Canale Meteo e il Canale Notizie. Questa guida delinea WiiLink, un servizio che ripristina questa funzionalità, così come altre informazioni di cui essere a conoscenza durante l'utilizzo.
 
 :::

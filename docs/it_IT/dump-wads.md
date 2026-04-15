@@ -1,23 +1,23 @@
-# Come eseguire backup digitali di file WAD
+# Dumpare WAD
 
-Questa guida ti mostrerà come preservare file wad dalla Memoria di Sistema della console Wii.
+Questa guida ti mostrerà come preservare file wad dalla memoria di sistema della console Wii.
 
-## Requirements
+## Requisiti
 
-- Una scheda SD o Dispositivo USB
+- Una scheda SD o unità USB
 - [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
-## Instructions
+## Istruzioni
 
-1. Power off your console.
+1. Spegni la console.
 
-2. Inserisci la scheda SD o dispositivo USB nel tuo computer.
+2. Inserisci la scheda SD o unità USB nel tuo computer.
 
-3. Copy the `apps` folder from the Yet Another BlueDump MOD `.zip` to the root of your SD card or USB drive.
+3. Copia la cartella `apps` nel `.zip` di Yet Another BlueDump MOD nella root della tua scheda SD o unità USB.
 
-4. Reinserisci la tua scheda SD o dispositivo USB nella tua console.
+4. Reinserisci la scheda SD o unità USB nella console.
 
-5. Power on your console.
+5. Accendi la console.
 
 6. Avvia l'Homebrew Channel.
 
@@ -27,7 +27,7 @@ Questa guida ti mostrerà come preservare file wad dalla Memoria di Sistema dell
 
    ![](/images/homebrew/DumpWADS/1.png)
 
-9. Select `Installed Channel Titles`.
+9. Seleziona `Installed Channel Titles`.
 
    ![](/images/homebrew/DumpWADS/2.png)
 
@@ -35,21 +35,21 @@ Questa guida ti mostrerà come preservare file wad dalla Memoria di Sistema dell
 
     ![](/images/homebrew/DumpWADS/3.png)
 
-11. Select `Backup to WAD`.
+11. Seleziona `Backup to WAD`.
 
     ![](/images/homebrew/DumpWADS/4.png)
 
-12. At the prompt to `Fakesign the ticket`, select `Yes`.
+12. Alla richiesta `Fakesign the ticket`, seleziona `Yes`.
 
-13. At the prompt to `Fakesign the TMD`, select `No`.
+13. Alla richiesta `Fakesign the TMD`, seleziona `No`.
 
-14. At the prompt to `Change the output WAD region`, select `No`.
+14. Alla richiesta `Change the output WAD region`, seleziona `No`.
 
     ![](/images/homebrew/DumpWADS/5.png)
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-The WAD has now been dumped, and should appear inside the specified folder on your SD card or USB drive.
+Il WAD è stato ora dumpato e dovrebbe apparire interno la cartella specificata sulla tua scheda SD o unità USB.
 
 ![](/images/homebrew/DumpWADS/7.png)
 
@@ -57,6 +57,6 @@ The WAD has now been dumped, and should appear inside the specified folder on yo
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Clicca qui per tornare all'indice.](site-navigation)
 
 :::

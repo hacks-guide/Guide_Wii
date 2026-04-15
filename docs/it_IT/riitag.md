@@ -5,8 +5,8 @@ head:
       content: '5; URL=https://wiki.hacks.guide/wiki/RiiTag'
 ---
 
-# Redirecting
+# Reindirizzamento
 
 Stai per essere reindirizzato alla Hacks Guide Wiki.
 
-If the page doesn't refresh, click [here](https://wiki.hacks.guide/wiki/RiiTag).
+Se la pagina non ricarica, clicca [qui](https://wiki.hacks.guide/wiki/RiiTag).

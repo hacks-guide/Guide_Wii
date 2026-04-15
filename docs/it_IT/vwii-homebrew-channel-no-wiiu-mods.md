@@ -5,4 +5,4 @@ head:
       content: '0; URL=wiiu-nand-dumper.html'
 ---
 
-# Redirecting
+# Reindirizzamento

@@ -1,16 +1,16 @@
 # Wii mini NAND Dumper
 
-Questo tutorial ti mostrerà come effettuare il dump della NAND del tuo Wii mini senza saldare uno slot scheda SD. This was made possible by [nitr8](https://gbatemp.net/members/nitr8.72581/).
+Questo tutorial ti mostrerà come effettuare il dump della NAND della tua console Wii mini senza saldare uno slot scheda SD. Questo è stato reso possibile da [nitr8](https://gbatemp.net/members/nitr8.72581/).
 
 ::: info
 
-For support (in English) with Wii mini hacking, join [Wii mini Hacking](https://discord.gg/6ryxnkS) on Discord.
+Per supporto (in inglese) con l'hacking di Wii mini, entra nel server discord di [Wii mini Hacking](https://discord.gg/6ryxnkS).
 
 :::
 
 ::: info
 
-If you have a Wii, or a Wii mini with an SD card slot soldered, follow [this tutorial](bootmii) to dump your NAND.
+Se hai una console Wii, o Wii mini con slot SD saldato, segui [questo tutorial](bootmii) per dumpare la tua NAND.
 
 :::
 
@@ -20,19 +20,19 @@ Non c'è modo di ripristinare il backup della NAND con questo metodo senza un'ha
 
 :::
 
-## Requirements
+## Requisiti
 
-- Un Wii
-- Un dispositivo USB
+- Una console Wii
+- Un'unità USB
 - [Simple IOS Patcher for Wii mini](http://www.mediafire.com/file/7k141mu1whqzwdp/SimpleIOSPatcher_Mini.zip/file)
 - [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
 - [Xyzzy Mod](https://oscwii.org/library/app/xyzzy-mod)
 
-## Instructions
+## Istruzioni
 
 ### Sezione I - Dumping e Patching di IOS 36
 
-1. Scarica sia il Simple IOS Patcher per Wii mini che RealWnD per Wii mini ed estrai entrambi i file zip nel root della tua unità USB.
+1. Scarica Simple IOS Patcher for Wii mini e RealWnD per Wii mini ed estrai entrambi i file zip nella root della tua unità USB.
 
 2. Inserisci l'unità USB nel tuo Wii mini ed avvia il Simple IOS Patcher per Wii mini dall'Homebrew Channel.
 
@@ -41,7 +41,7 @@ Non c'è modo di ripristinare il backup della NAND con questo metodo senza un'ha
 ### Sezione II - Dumping della NAND
 
 1. Avvia RealWnD per Wii mini dall'Homebrew Channel.
-2. Dovrebbe rilevare IOS 236 automaticamente sul tuo Wii mini e applicare alcune patch di runtime per iniziare il dumping della NAND.
+2. Dovrebbe rilevare IOS 236 automaticamente sulla console e applicare alcune patch di runtime per iniziare il dumping della NAND.
 3. Una volta fatto, avrai tre nuovi file nella tua unità USB:
 
 ```shell
@@ -50,13 +50,13 @@ WFD_XXX_YY.img
 WiiFlash.log
 ```
 
-The `WiiFlash_n_ECC.img` is your NAND image. Gli altri due file sono dati "errati" e sono inutili.
+Il file `WiiFlash_n_ECC.img` è la tua immagine NAND. Gli altri due file sono dati "errati" e sono inutili.
 
 ### Sezione III - Dumping delle chiavi del Wii mini
 
 1. Avvia xyzzy mod dall'Homebrew Channel.
-2. Select `USB device`
-   - It should start retrieving your console information.
+2. Seleziona `USB device`
+   - Dovrebbe iniziare a recuperare le informazioni della tua console.
 3. Una volta finito, premi un pulsante qualsiasi per uscire.
 
    - Avrai cinque nuovi file nella tua unità USB:
@@ -69,21 +69,21 @@ The `WiiFlash_n_ECC.img` is your NAND image. Gli altri due file sono dati "errat
    seeprom.bin
    ```
 
-For now, only the `bootmii_keys.bin` file is required.
+Per ora, solo il file `bootmii_keys.bin` è richiesto.
 
-### Sezione IV - Facoltativo: Carica la tua NAND nell'Emulatore Dolphin
+### Sezione IV - Facoltativo: carica la NAND nell'emulatore Dolphin
 
 1. Collega l'USB al tuo PC.
-2. Find the `bootmii_keys.bin` on your USB and rename it to `keys.bin`
-3. Apri l'Emulatore Dolphin sul tuo PC.
+2. Trova il file `bootmii_keys.bin` sulla tua USB e rinominalo in `keys.bin`
+3. Apri l'emulatore Dolphin sul tuo PC.
 4. Seleziona la scheda Strumenti, e nel menu a discesa, vai su Gestisci NAND e seleziona "Importa Backup NAND BootMii".
 5. Seleziona il menu a discesa a destr accanto alla barra del nome file e quindi scegli l'opzione "Tutti i file".
-6. Locate your `WiiFlash_n_ECC.img` file and select "open".
-7. Un'altra finestra che chiedera le chiavi si aprirà. Locate `keys.bin` and select "open".
+6. Trova il file `WiiFlash_n_ECC.img` e seleziona "apri".
+7. Un'altra finestra che chiedera le chiavi si aprirà. Trova il file `keys.bin` e seleziona "apri".
 
 ::: info
 
-If you would like to play Wii games online inside of dolphin with your Wii mini NAND, follow [this tutorial](https://dolphin-emu.org/docs/guides/wii-network-guide/) to retrieve the files needed for online, even if you are already using the latest beta or development version of dolphin emulator.
+Se vuoi giocare giochi Wii online su Dolphin con la NAND di Wii mini, segui [questo tutorial](https://dolphin-emu.org/docs/guides/wii-network-guide/) per estrarre i file richiesti per l'online, anche se stai già usando l'ultima versione beta o di rilascio dell'emulatore.
 
 :::
 
@@ -91,7 +91,7 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 
 ::: tip
 
-[Continue to Priiloader Installation](priiloader)
+[Continua con l'installazione di Priiloader](priiloader)
 
 :::
 
@@ -99,6 +99,6 @@ If you would like to play Wii games online inside of dolphin with your Wii mini 
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Clicca qui per tornare all'indice.](site-navigation)
 
 :::

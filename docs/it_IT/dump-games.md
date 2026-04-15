@@ -1,35 +1,35 @@
-# Dumping Wii/GameCube Games
+# Dumpare giochi Wii/GameCube
 
 Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda SD locale o unità USB sul tuo Wii.
 
 ## Dump di un Disco su SD/USB (CleanRip)
 
-### Requirements
+### Requisiti
 
 - Una scheda SD o unità USB con almeno 4.7 GB di spazio disponibile (8.5 GB per il dump di un disco a doppio strato).
 - [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 ### Preparazione
 
-1. Power off your console.
+1. Spegni la console.
 
-2. Inserisci la scheda SD o dispositivo USB nel tuo computer.
+2. Inserisci la scheda SD o unità USB nel tuo computer.
 
-3. Copy the `apps` folder from the CleanRip `.zip` to the root of your SD card or USB drive.
+3. Copia la cartella `apps` dal `.zip` di CleanRip nella root della tua scheda SD o unità USB.
 
-4. Reinserisci la tua scheda SD o dispositivo USB nella tua console.
+4. Reinserisci la scheda SD o unità USB nella console.
 
-5. Power on your console.
+5. Accendi la console.
 
 6. Avvia l'Homebrew Channel.
 
 7. Avvia CleanRip dalla lista degli homebrew.
 
-8. When prompted, select `Yes` to calculate disc checksums.
+8. Quando richiesto, seleziona `Yes` per calcolare i checksum del disco.
 
    ![](/images/homebrew/CleanRip/checksum.png)
 
-9. Seleziona il dispositivo su cui eseguirai il dump del gioco - unità USB o scheda SD.
+9. Seleziona il dispositivo su cui eseguirai il dump del gioco - un'unità USB o scheda SD.
 
    ![](/images/homebrew/CleanRip/device.png)
 
@@ -41,13 +41,13 @@ Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda 
 
     ![](/images/homebrew/CleanRip/insertdevice.png)
 
-12. When prompted, select `Yes` to download the redump.org DAT files.
+12. Quando richiesto, seleziona `Yes` per scaricare i file DAT da redump.org.
 
     - Questo è richiesto per assicurarsi che i dump siano puliti/accurati.
 
     ::: warning
 
-    Potresti ottenere un errore se lo fai. In tal caso, riavvia il Wii e riprova - ma se gli errori di errore di eccezzione persistono, effettua il dump del disco e verifica il checksum su Dolphin se necessario.
+    Potresti ottenere un errore se lo fai. In tal caso, riavvia la console Wii e riprova - ma se gli errori persistono, effettua il dump del disco e verifica il checksum su Dolphin se necessario.
 
     :::
 
@@ -57,19 +57,19 @@ Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda 
 
     ![](/images/homebrew/CleanRip/insertdisc.png)
 
-## Dump di un Disco Wii
+## Dump di un disco Wii
 
 ::: warning
 
-Se ottieni un errore di lettura non recuperato, assicurati che il disco su cui si esegue il dumping sia pulito e più essere propriamente letto dalla console. Anche se potresti avviare il disco normalmente, potresti sempre ottenere questo errore. Se l'errore persiste, prova ad eseguire il dumping su un altro disco e controlla se si ottiene lo stesso errore.
+Se ottieni un errore di lettura non recuperato, assicurati che il disco su cui si esegue il dump sia pulito e più essere propriamente letto dalla console. Anche se potresti avviare il disco normalmente, potresti sempre ottenere questo errore. Se l'errore persiste, prova a eseguire il dump su un altro disco e controlla se ottieni lo stesso errore.
 
 :::
 
-1. Quando richiesto, seleziona se il tuo disco è un disco Datel senza licenza. If unsure, select `No`.
+1. Quando richiesto, seleziona se il tuo disco è un disco Datel senza licenza. Se non sei sicuro, seleziona `No`.
 
    ![](/images/homebrew/CleanRip/dateldisc.png)
 
-2. Set the settings as shown on the screen below.
+2. Imposta le impostazioni come mostrate nella schermata sotto.
 
    ![](/images/homebrew/CleanRip/wiisettings.png)
 
@@ -85,19 +85,19 @@ Se ottieni un errore di lettura non recuperato, assicurati che il disco su cui s
 
 ::: tip
 
-Proceed to [Managing Wii and GameCube Backups](backups#joining-part-files-from-a-wii-disc-on-a-fat32-device) to join the PART files that are output, and manage your dumped games.
+Procedi a [gestire i backup di Wii e GameCube](backups#joining-part-files-from-a-wii-disc-on-a-fat32-device) per unire i file PART ottenuti e gestire i tuoi giochi dumpati.
 
 :::
 
-## Dump di un Disco GameCube
+## Dump di un disco GameCube
 
 ::: info
 
-Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping GameCube games. The Wii Family Edition can dump GameCube games if the disk drive is swapped with one made for an original model Wii.
+Wii Family Edition, Wii mini e vWii di Wii U sono incapaci di dumpare giochi GameCube. La versione Family Edition può dumpare giochi GameCube se il lettore dischi è sostituito con uno di una console Wii originale.
 
 :::
 
-1. Quando richiesto, seleziona se il tuo disco è un disco Datel senza licenza. If unsure, select `No`.
+1. Quando richiesto, seleziona se il tuo disco è un disco Datel senza licenza. Se non sei sicuro, seleziona `No`.
 
    ![](/images/homebrew/CleanRip/dateldisc.png)
 
@@ -115,6 +115,6 @@ Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping 
 
 ::: tip
 
-Proceed to [Managing Wii and GameCube Backups](backups#using-tinywiibackupmanager) to shrink the size of your output file, and manage your dumped games.
+Procedi a [gestire i backup di Wii e GameCube](backups#using-tinywiibackupmanager) per ridurre le dimensioni del file ottenuto e gestire i tuoi giochi dumpati.
 
 :::

@@ -2,35 +2,35 @@
 
 ::: info
 
-It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and take advantage of more homebrew.
+È consigliato avere almeno una scheda SD a portata di mano dopo aver modificato la console, in quanto questo ti permetterà di effettuare un backup della NAND usando BootMii e trarre vantaggio da varie tipologie di homebrew.
 
 :::
 
-The exploits listed for the Wii and Wii mini will bring you to the HackMii installer. The HackMii installer will install the Homebrew Channel (used for lauching homebrew) as well as BootMii (used for creating and restoring NAND backups), depending on your console.
+Gli exploit elencati per Wii e Wii mini ti porteranno all'installer di HackMii. L'installer installerà l'Homebrew Channel (usato per eseguire homebrew) e BootMii (usato per creare e ripristinare i backup della NAND), dipendentemente dalla tua console.
 
-Wii mode on Wii U has a slightly different exploitation process, and will not launch the HackMii installer. Instead, you will exploit Wii mode through the Wii U menu and proceed as instructed.
+La modalità Wii di Wii U ha un exploit leggermente diverso e non farà partire l'installer di HackMii. Invece, farai l'exploit della modalità Wii attraverso il menu Wii U e procederai come indicato.
 
-## Is your Wii already softmodded?
+## La tua console Wii è già softmoddata?
 
-If you have a Wii or Wii mini that is already softmodded and you would like to update your setup, follow [this](hackmii) guide to launch the HackMii installer from the Homebrew Channel, or Priiloader.
+Se hai una console Wii o Wii mini che è già stata softmoddata e vorresti aggiornare la tua configurazione, segui [questa](hackmii) guida per accedere all'installer di HackMii dall'Homebrew Channel o da Priiloader.
 
-## Identify your console revision
+## Identifica la revisione della console
 
 <!--@include: @/_include/identify-console.html -->
 
-## Seleziona il tuo exploit
+## Seleziona l'exploit
 
 Seleziona l'exploit che corrisponde alla tua console e situazione migliore.
 
-| Revisione console               | Exploit Consigliato                                                                                                                                                                                                                                                                                                                                 |
-| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wii/Wii Family Edition          | <hr>If you can use a Windows PC:<br> Automatic Setup — [Exploit with ModMii](modmii)<br><hr> If you can use an SD card:<br> Manual Setup — [Exploit with Wilbrand](wilbrand)<br><hr> If you cannot use an SD card:<br> Manual Setup — [Exploit with str2hax](str2hax)<br><hr>                                                                       |
-| Wii mini                        | <hr>Manual Setup — [Exploit with Bluebomb](bluebomb)<hr>                                                                                                                                                                                                                                                                                            |
-| Wii U (vWii) | <hr>If you can use a Windows PC:<br> Automatic Setup — [Exploit with ModMii](modmii)<br><hr> If you have not modded the Wii U, but want to:<br> Manual Setup — [Exploiting the Wii U](https://wiiu.hacks.guide)<br><hr> If you have already modded your Wii U, or don't want to:<br> Manual Setup — [Exploiting the vWii](wiiu-nand-dumper)<br><hr> |
-| Emulatore Dolphin               | <hr>Manual Setup — [Utilizing Homebrew Channel on Dolphin](homebrew-dolphin)<hr>                                                                                                                                                                                                                                                                    |
+| Revisione console               | Exploit Consigliato                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wii/Wii Family Edition          | <hr>Se puoi usare un PC Windows:<br> Configurazione automatica — [Exploit con ModMii](modmii)<br><hr> Se puoi usare una scheda SD:<br> Configurazione manuale — [Exploit con Wilbrand](wilbrand)<br><hr> Se non puoi usare una scheda SD:<br> Configurazione manuale — [Exploit con str2hax](str2hax)<br><hr>                                   |
+| Wii mini                        | <hr>Configurazione manuale — [Exploit con Bluebomb](bluebomb)<hr>                                                                                                                                                                                                                                                                               |
+| Wii U (vWii) | <hr>Se puoi usare un PC Windows:<br> Configurazione automatica — [Exploit con ModMii](modmii)<br><hr> Se non hai modificato Wii U, ma vuoi:<br> Configurazione manuale — [Exploitare Wii U](https://wiiu.hacks.guide)<br><hr> Se hai già modificato Wii U, o non vuoi:<br> Configurazione manuale — [Exploitare vWii](wiiu-nand-dumper)<br><hr> |
+| Emulatore Dolphin               | <hr>Configurazione manuale — [Usare l'Homebrew Channel su Dolphin](homebrew-dolphin)<hr>                                                                                                                                                                                                                                                        |
 
-## Alternate Methods
+## Metodi alternativi
 
-If possible, you should follow the methods given above.
+Se possibile, dovresti seguire uno dei metodi elencati sopra.
 
-If the recommended option does not work for you, or if you are curious about other exploits, check out [Legacy Exploits](legacy-exploits).
+Se l'opzione consigliata non funziona per te, o sei curioso sugli altri exploit, dai un'occhiata agli [exploit legacy](legacy-exploits).

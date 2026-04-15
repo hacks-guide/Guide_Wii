@@ -1,37 +1,37 @@
-# Finalizing Setup — Wii mini
+# Completare l'installazione — Wii mini
 
-Now that the Homebrew Channel, Priiloader, and cIOS are installed, we are going to finalize the setup.
+Ora che l'Homebrew Channel, Priiloader, e i cIOS sono installati, finalizzeremo l'installazione.
 
-## Additional Homebrew Apps
+## App homebrew aggiuntive
 
 ::: info
 
-All homebrew apps are loaded from the Homebrew Channel.
+Tutte le applicazioni homebrew sono caricate dall'Homebrew Channel.
 
 :::
 
-- Ethernet Enabler enables the use of a USB ethernet adapter on the Wii mini. Only adapters with the ASIX AX88772 chipset are supported on the Wii mini. Additionally, homebrew apps that need internet will require the use of a USB hub, preferably one that can be externally powered.
-- System Channel Restorer is a homebrew app that allows some channels usually only available on Wii to be easily installed on the Wii mini.
-- Settings Editor GUI is an app that allows access to system settings without booting the Wii Menu. On the Wii mini it can access settings that don't normally appear in the Wii mini system menu.
+- Ethernet Enabler abilita l'uso di un adattatore ethernet USB su Wii mini. Solo gli adattatori col chipset ASIX AX88772 sono supportati dalla console. Inoltre, le applicazioni homebrew che hanno bisogno di accesso a Internet richiederanno di un hub USB, preferibilmente una alimentata esternamente.
+- System Channel Restorer è un homebrew che permette ad alcuni canali che normalmente sono disponibili solo su Wii di essere installati anche su Wii mini.
+- Settings Editor GUI è un'app che permette di accedere alle impostazioni di sistema senza avviare il menu Wii. Su Wii mini, può accedere a impostazioni che non appaiono normalmente nelle impostazioni della console.
 
-## Additional Homebrew Apps - What You Need
+## App homebrew aggiuntive - Di cosa hai bisogno
 
 - [Ethernet Enabler](https://oscwii.org/library/app/Wii_Mini_Ethernet_Enable)
 - [system-channel-restorer](https://oscwii.org/library/app/system-channel-restorer)
 - [Settings Editor GUI](https://oscwii.org/library/app/Settings-Editor-GUI)
 
-## Additional Homebrew Apps - Extracting Files to the SD Card
+## App homebrew aggiuntive - Estrarre i file sulla scheda SD
 
-1. Copy the contents of the Ethernet Enabler to the root of the SD.
-2. Copy the contents of the system-channel-restorer to the root of the SD.
-3. Copy the contents of the Settings Editor GUI to the root of the SD.
+1. Copia i contenuti di Ethernet Enabler nella root della SD.
+2. Copia i contenuti di system-channel-restorer nella root della SD.
+3. Copia i contenuti di Settings Editor GUI nella root della SD.
 
 ---
 
 ::: tip
 
-Continue to [Open Shop Channel Installation](osc)
+Continua con l'[installazione di Open Shop Channel](osc)
 
-Now that your Wii mini setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii mini.
+Ora che la configurazione della tua Wii mini è terminata, puoi installare l'Open Shop Channel, una repository affidabile per app homebrew che può essere navigata con o senza Wii mini.
 
 :::

@@ -101,7 +101,7 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 - An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - A Wii on version 3.0 or newer
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
-- [HackMii Installer v1.2](https://bootmii.org/download/)
+- [Installateur HackMii v1.2](https://bootmii.org/download/)
 
 ### Instructions
 

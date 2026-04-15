@@ -1,19 +1,19 @@
 # YAWM ModMii Edition
 
-YAWM ModMii Edition è un'applicazione che permette d'installare file WAD e lanciare applicazioni homebrew.
+YAWM ModMii Edition è un'applicazione che permette di installare file WAD e caricare applicazioni homebrew.
 Questa guida ti mostrerà come installare file WAD.
 
-## Requirements
+## Requisiti
 
-- Una scheda SD o dispositivo USB
+- Una scheda SD o unità USB
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)
 
-## Instructions
+## Istruzioni
 
 ### Sezione I - Download
 
-1. Download and extract the YAWM ModMii Edition `.zip` to the root of your SD card or USB drive.
-2. Inserisci la tua scheda SD o dispositivo USB dentro la tua console Wii, e lancia YAWM ModMii Edition dall'Homebrew Channel.
+1. Scarica ed estrai il `.zip` di YAWM ModMii Edition nella root della tu ascheda SD o unità USB.
+2. Inserisci la scheda SD o unità USB dentro la console Wii, avvia poi YAWM ModMii Edition dall'Homebrew Channel.
 
 ### Sezione II - Installazione dei file WAD
 
@@ -23,17 +23,17 @@ Questa guida ti mostrerà come installare file WAD.
 
 2. Naviga fino alla cartella che contiene i file WAD.
 
-   - If you have a folder named `wad`, it will be opened automatically.
+   - Se hai una cartella chiamata `wad`, verrà aperta automaticamente.
 
    ![](/images/homebrew/yawmME/file_selection.png)
 
-3. Navigate to the WAD file you would like to install and press `A`.
+3. Naviga fino al file WAD che vuoi installare e premi `A`.
 
-   - If you would like to install multiple WAD files at once, press `+` on each of them, then press `A`.
+   - Se vuoi installare più file WAD alla volta, premi `+` su ciascuno di esse, poi premi `A`.
 
    ![](/images/homebrew/yawmME/install_wad.png)
 
-4. Premi ancora A per installare i(l) file WAD.
+4. Premi ancora A per installare il o i file WAD.
 
    ![](/images/homebrew/yawmME/installing_wad.png)
 
@@ -43,6 +43,6 @@ Questa guida ti mostrerà come installare file WAD.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Clicca qui per tornare all'indice.](site-navigation)
 
 :::

@@ -2,19 +2,19 @@
 
 Un SysCheck elenca tutti gli IOS e cIOS che sono nella tua console Wii, con alcune informazioni riguardanti ciascuno di loro. Oltre a ciò, aggiunge anche altre informazioni utili. Quando hai problemi relativi agli IOS con la tua console Wii, qualcuno potrebbe chiederti di eseguire un SysCheck.
 
-## Requirements
+## Requisiti
 
-- Una scheda SD o dispositivo USB
+- Una scheda SD o unità USB
 - [SysCheck ModMii Edition](https://oscwii.org/library/app/SysCheckME)
 
-## Instructions
+## Istruzioni
 
 ### Sezione I - Download/Installazione
 
-1. Estrai SysCheck ModMii Edition dentro la tua scheda SD o dispositivo USB.
-2. Inserisci la tua scheda SD o dispositivo USB dentro la tua console Wii, e lancia SysCheck ModMii Edition dall'Homebrew Channel.
+1. Estrai SysCheck ModMii Edition dentro la tua scheda SD o unità USB.
+2. Inserisci la tua scheda SD o unità USB dentro la console Wii, e avvia SysCheck ModMii Edition dall'Homebrew Channel.
 
-### Sezione II - Esecuzione del Syscheck
+### Sezione II - Esecuzione del SysCheck
 
 1. Aspetta che il programma prenda alcune informazioni sulla tua console.
 
@@ -24,16 +24,16 @@ Un SysCheck elenca tutti gli IOS e cIOS che sono nella tua console Wii, con alcu
 
 3. Aspetta che il programma prenda alcune informazioni sui tuoi IOS.
 
-4. After it finishes, press the `A` Button if you want to view the log.
+4. Quando ha finito, premi il pulsante `A` se vuoi vedere cosa ha riportato.
 
    ![](/images/homebrew/syscheck/syscheck_success.png)
 
-5. If you want to share the SysCheck, you can share the `syscheck.csv` file on the root of your SD card or USB drive. You can also press `A`, which will upload the report to [syscheck.rc24.xyz](http://syscheck.rc24.xyz/).
+5. Se vuoi condividere il SysCheck, puoi mandare il file `syscheck.csv` che si trova nella root della tua scheda SD o unità USB. Puoi anche premere `A`, che invierà il report al sito [syscheck.rc24.xyz](http://syscheck.rc24.xyz).
 
 ---
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Clicca qui per tornare all'indice.](site-navigation)
 
 :::

@@ -12,7 +12,7 @@ Questi siti web potrebbero raccogliere dati su di te, utilizzare cookie, incorpo
 
 ## Analytics
 
-Questo sito usa Google Analytics per monitorare e analizzare il traffico. Questo sito è ospitato da GitHub Pages, che potrebbe raccogliere dati su di te, utilizzare i cookie, incorporare tracking di terze parti e monitorare le tue interazioni con questo sito. For more information about Github Pages as it relates to user privacy, see the [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement).
+Questo sito usa Google Analytics per monitorare e analizzare il traffico. Questo sito è ospitato da GitHub Pages, che potrebbe raccogliere dati su di te, utilizzare i cookie, incorporare tracking di terze parti e monitorare le tue interazioni con questo sito. Per ulteriori informazioni su Github Pages per quanto riguarda la privacy degli utenti, consulta la [Informativa sulla privacy di GitHub](https://help.github.com/en/articles/github-privacy-statement).
 
 ## Dati raccolti
 

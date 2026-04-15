@@ -1,18 +1,18 @@
 # Wilbrand
 
-Wilbrand is an exploit for the Wii that is triggered using the Wii Message Board. It is compatible with Wii menu versions 3.0 through 4.3 in all regions. There are two methods listed on this page used to create the proper Wilbrand exploit, but Wilbrand Web is recommended for its ease of use.
+Wilbrand è un exploit per la console Wii che viene attivato usando la Bacheca Wii. È compatibile con le versioni del menu Wii da 3.0 a 4.3 in tutte le regioni. Ci sono due metodi elencati in questa pagina utilizzati per creare il corretto exploit Wilbrand, ma Wilbrand Web è consigliato per la sua facilità di utilizzo.
 
 ::: info
 
-For instructions on how to format your SD card correctly, please see [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). È altamente consigliato controllare a causa dei problemi di formattare in FAT32.
+Per istruzioni su come formattare la tua scheda SD correttamente, vedi [questa guida](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). È altamente consigliato controllare a causa dei problemi di formattare in FAT32.
 
-SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
+Le schede SD di dimensioni maggiori a 2GB non funzioneranno su versioni del menu Wii precedenti alla 4.0.
 
 :::
 
 ::: warning
 
-DO NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Usa il tuo!
+NON usare alcun indirizzo MAC mostrato negli esempi di questa guida, perché daranno errore nel sito di HackMii. Usa il tuo!
 
 :::
 
@@ -22,36 +22,36 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
 ## Wilbrand Web
 
-### Requirements
+### Requisiti
 
-- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
-- Un Wii sulla versione 3.0 o successiva
+- Una scheda SD [formattata in FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+- Una console Wii versione 3.0 o successiva
 
-### Instructions
+### Istruzioni
 
-1. Power on your console.
+1. Accendi la console.
 
-2. Go to `Wii Settings`.
+2. Vai su `Impostazioni console Wii`.
 
 3. Prendi nota della lettera accanto alla versione di sistema, nell'angolo in alto a destra dello schermo.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Questa lettera corrisponde alla regione del menu di sistema, che dovrai sapere per i passaggi corrispondenti.
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. Navigate to `Internet` > `Console Information`.
+4. Naviga su `Internet` > `Informazioni console Wii`.
 
-5. Prendi nota del tuo indirizzo MAC COMPLETO.
+5. Prendi nota del tuo indirizzo MAC.
 
    ![](/images/wii/MacAddress.png)
 
-6. On your computer, open the browser and go to [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/).
+6. Sul tuo computer, apri il browser e vai su [wilbrand.donut.eu.org](https://wilbrand.donut.eu.org/).
 
-7. Inserisci l'indirizzo MAC, versione e la regione del tuo Wii.
+7. Inserisci l'indirizzo MAC, versione e la regione della console Wii.
 
-8. Ensure `Bundle the HackMii Installer for me!` is checked.
+8. Assicurati che `Bundle the HackMii Installer for me!` sia selezionato.
 
-9. Taglia entrambi i cavi.
+9. Taglia uno dei cavi.
 
    ![](/images/exploits/wilbrand/web.png)
 
@@ -59,32 +59,32 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
 11. Inserisci la scheda SD nel tuo computer.
 
-12. Copy the `private` folder and the `boot.elf` file from the downloaded `.zip` file to the root of your SD card.
+12. Copia la cartella `private` e il file `boot.elf` dal file `.zip` scaricato nella root della tua scheda SD.
 
 13. Reinserisci la scheda SD nella tua console.
-    - La scheda SD deve essere inserita nello slot SD posizionato nella parte anteriore del Wii. Usare un adattatore da USB a SD inserito nella porta USB del Wii non funzionerà.
+    - La scheda SD deve essere inserita nello slot SD posizionato nella parte anteriore della console Wii. Usare un adattatore da USB a SD inserito nella porta USB della console Wii non funzionerà.
 
-14. Sul tuo Wii, ritorna al Menu Wii.
+14. Sulla console Wii, ritorna al Menu Wii.
 
-15. Open the Wii Message Board.
+15. Avvia la Bacheca Wii.
 
 16. Apri la lettera verde con all'interno una bomba.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-    - Assicurati che la data del tuo Wii sia corretta, o potresti non trovare la lettera.
-    - In alcuni casi, la lettera potrebbe trovarsi nei giorni successivi o precedenti a quello corrente.
-    - If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. Se appaiono, ci potrebbe essere un problema con il formato della scheda SD o con il lettore SD del Wii.
+    - Assicurati che la data di Wii sia corretta, o potresti non trovare la lettera.
+    - In alcuni casi, la lettera potrebbe trovarsi nei giorni successivi o precedenti a quello attuale.
+    - Se non vedi la lettera verde, controlla se appaiono degli errori nella sezione della scheda SD della `Gestione dati`. Se appaiono, ci potrebbe essere un problema con il formato della scheda SD o con il lettore SD del Wii.
 
-17. If the exploit was successful, your device will have loaded the HackMii Installer.
-    - If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
-    - If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
+17. Se l'exploit è avvenuto con successo, il tuo dispositivo avrà caricato l'installer di HackMii.
+    - Se la Wii rimane bloccata su uno schermo nero, spegnila tenendo premuto il pulsante POWER, poi riprova.
+    - Se vieni riportato al menu Wii dopo aver aperto la lettera, assicurati che la levetta lock sulla tua scheda SD sia nella posizione sbloccata.
 
 ---
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continua con l'installazione di Homebrew Channel e di BootMii](hbc)
 
 :::
 
@@ -94,81 +94,81 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
 ## Wilbrand CLI
 
-### Requirements
+### Requisiti
 
 - Un computer che esegue Windows, macOS o Linux
-- An SD card [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
-- Un Wii sulla versione 3.0 o successiva
+- Una scheda SD [formattata in FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+- Una console Wii versione 3.0 o successiva
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
-### Instructions
+### Istruzioni
 
-1. Power on your console.
+1. Accendi la console.
 
-2. Go to `Wii Settings`.
+2. Vai su `Impostazioni console Wii`.
 
 3. Prendi nota della lettera accanto alla versione di sistema, nell'angolo in alto a destra dello schermo.
 
-   - This letter corresponds to your system menu region, which you will need to know for the corresponding steps.
+   - Questa lettera corrisponde alla regione del menu di sistema, che dovrai sapere per i passaggi corrispondenti.
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. Navigate to `Internet` > `Console Information`.
+4. Naviga su `Internet` > `Informazioni console Wii`.
 
-5. Prendi nota del tuo indirizzo MAC COMPLETO.
+5. Prendi nota del tuo indirizzo MAC.
 
    ![](/images/wii/MacAddress.png)
 
-6. Copy all files from the Wilbrand `.zip` to a folder on your computer
+6. Copia tutti i file dal `.zip` di Wilbrand in una cartella sul tuo computer
 
 7. Inserisci la scheda SD nel tuo computer.
 
 8. Apri un terminale all'interno della cartella in cui è stato estratto Wilbrand.
 
-9. Utilizzando la versione e l'indirizzo MAC del tuo Wii, esegui questo comando:
+9. Utilizzando la versione e l'indirizzo MAC della console Wii, esegui questo comando:
 
-   - Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION X:`
+   - Windows: `.\Wilbrand.exe AA-BB-CC-DD-EE-FF MM/GG/YYYY VERSION X:`
 
-     - `X:` is the drive letter of your SD card.
+     - `X:` è la lettera dell'unità della tua scheda SD.
 
      ![](/images/exploits/wilbrand/windows.png)
 
-   - Linux/macOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/DD/YYYY VERSION /media/mount_dir`
+   - Linux/macOS: `./Wilbrand AA-BB-CC-DD-EE-FF MM/GG/YYYY VERSION /media/mount_dir`
 
-     - If you have not opened your terminal directly in the folder Wilbrand was extracted to, use `cd` to enter it first, eg. `cd ~/Desktop/Wilbrand`
-     - `/media/mount_dir` is the folder your SD card is mounted in. Può variare a seconda della tua distro di Linux.
+     - Se non hai aperto il tuo terminale direttamente nella cartella nella quale è stato estratto Wilbrand, prima usa `cd` per entraci, es. `cd ~/Scrivania/Wilbrand`
+     - `/media/mount_dir` è la cartella in cui è montata la tua scheda SD. Può variare a seconda della tua distro di Linux.
 
      ![](/images/exploits/wilbrand/linux.png)
 
-10. Copy all files from the hackmii_installer_v1.2 `.zip` to a folder on your computer.
+10. Copia tutti i file dal `.zip` di hackmii_installer_v1.2 in una cartella sul tuo computer.
 
-11. Copy `boot.elf` from the hackmii_installer_v1.2 `.zip` to the root of your SD card.
+11. Copia il file `boot.elf` dal `.zip` di hackmii_installer_v1.2 nella root della tua scheda SD.
 
 12. Reinserisci la scheda SD nella tua console.
-    - La scheda SD deve essere inserita nello slot SD posizionato nella parte anteriore del Wii. Usare un adattatore da USB a SD inserito nella porta USB del Wii non funzionerà.
+    - La scheda SD deve essere inserita nello slot SD posizionato nella parte anteriore della console Wii. Usare un adattatore da USB a SD inserito nella porta USB della console Wii non funzionerà.
 
-13. Sul tuo Wii, ritorna al Menu Wii.
+13. Sulla console Wii, ritorna al Menu Wii.
 
-14. Open the Wii Message Board.
+14. Avvia la Bacheca Wii.
 
 15. Apri la lettera verde con all'interno una bomba.
 
-    - Assicurati che la data del tuo Wii sia corretta, o potresti non trovare la lettera.
-    - In alcuni casi, la lettera potrebbe trovarsi nei giorni successivi o precedenti a quello corrente.
-    - If you don't see the green letter, check if any errors appear in the SD card section of `Data Management`. Se appaiono, ci potrebbe essere un problema con il formato della scheda SD o con il lettore SD del Wii.
+    - Assicurati che la data di Wii sia corretta, o potresti non trovare la lettera.
+    - In alcuni casi, la lettera potrebbe trovarsi nei giorni successivi o precedenti a quello attuale.
+    - Se non vedi la lettera verde, controlla se appaiono degli errori nella sezione della scheda SD della `Gestione dati`. Se appaiono, ci potrebbe essere un problema con il formato della scheda SD o con il lettore SD del Wii.
 
     ![](/images/exploits/wilbrand/msgboard.png)
 
-16. If the exploit was successful, your device will have loaded the HackMii Installer.
-    - If your Wii gets stuck on a black screen, power it off by holding the POWER button, then try again.
-    - If you get sent back to the Wii Menu after opening the letter, ensure that the lock switch on your SD card is in the unlocked position.
+16. Se l'exploit è avvenuto con successo, il tuo dispositivo avrà caricato l'installer di HackMii.
+    - Se la Wii rimane bloccata su uno schermo nero, spegnila tenendo premuto il pulsante POWER, poi riprova.
+    - Se vieni riportato al menu Wii dopo aver aperto la lettera, assicurati che la levetta lock sulla tua scheda SD sia nella posizione sbloccata.
 
 ---
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+[Continua con l'installazione di Homebrew Channel e di BootMii](hbc)
 
 :::
 

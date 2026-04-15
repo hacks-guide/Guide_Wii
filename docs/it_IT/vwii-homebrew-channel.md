@@ -1,137 +1,137 @@
-# Installing the Homebrew Channel on vWii
+# Installare l'Homebrew Channel su vWii
 
-This page will guide you through the process of installing the Homebrew Channel onto the vWii menu.
+Questa pagina ti guiderà attraverso il processo di installazione dell'Homebrew Channel nel menu vWii.
 
 ::: info
 
-You can use the same SD Card that you initially used to mod your Wii U for this process.
+È possibile utilizzare la stessa scheda SD utilizzata inizialmente per modificare la console Wii U per questo processo.
 
 :::
 
 ::: warning
 
-If you haven't already, make sure you created a [NAND backup](https://wiiu.hacks.guide/aroma/nand-backup) and have the [Aroma Environment](https://aroma.foryour.cafe/) installed on your Wii U.
+Se non l'hai già fatto, assicurati di aver creato un [backup della NAND](https://wiiu.hacks.guide/aroma/nand-backup) e avere l'[ambiente di Aroma](https://aroma.foryour.cafe/) installato su Wii U.
 
-If you do not have Aroma installed, proceed to [Installing Aroma](https://wiiu.hacks.guide/aroma/getting-started) or [Modding the vWii without modding the Wii U side](wiiu-nand-dumper).
+Se non hai Aroma installato, procedi con [installare Aroma](https://wiiu.hacks.guide/aroma/getting-started) o [modificare vWii senza modificare Wii U](wiiu-nand-dumper).
 
 :::
 
-## Requirements
+## Requisiti
 
-- A Wii U
-- The [Aroma Environment](https://aroma.foryour.cafe/) (should be installed from previous step)
-- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`) (should be installed from preivious step)
-- The [Enhanced vWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases/latest) (`evwii.wps`) (optional)
+- Una console Wii U
+- L'[ambiente Aroma](https://aroma.foryour.cafe/) (dovrebbe essere installato dal passaggio precedente)
+- L'ultima versione di [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`) (dovrebbe essere installato dal passaggio precedente)
+- Il plugin di Aroma [Enhanced vWii](https://github.com/GaryOderNichts/evwii/releases/latest) (`evwii.wps`) (opzionale)
 
 ::: danger
 
-If the evWii Aroma plugin is not installed and a homebrew app crashes/hangs, the only way to shut off the Wii U is by pulling the power cord. In some cases, pulling the power cord can cause memory corruption; therefore, it is highly recommended to have the plugin installed.
+Se il plugin evWii non è installato e un'applicazione homebrew crasha o si blocca, l'unico modo per spegnere la console è staccando il cavo di alimentazione. In alcuni casi, staccare il cavo di alimentazione può causare la corruzione della memoria; pertanto, è altamente raccomandato di avere il plugin installato.
 
 :::
 
-## Instructions
+## Istruzioni
 
-### Section I - Files
+### Sezione I - File
 
-1. Insert your Wii U's SD Card into your PC.
-2. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
-3. Copy `evwii.wps` file to `wiiu` > `environments` > `aroma` > `plugins` of your SD Card.
-4. Re-insert your SD card into the Wii U.
+1. Inserisci la scheda SD della tua console Wii U nel tuo PC.
+2. Copia il file `compat_installer.wuhb` da `compat_installer-Aroma.zip` in `wiiu` -> `apps` della tua scheda SD.
+3. Copia il file `evwii.wps` in `wiiu` > `environments` > `aroma` > `plugins` della tua scheda SD.
+4. Reinserisci la tua scheda SD nella console Wii U.
 
-### Section II - Booting into Aroma
+### Sezione II - Avviare in Aroma
 
-Next steps will differ based on whether or not your Wii U is configured to [autoboot into Aroma](https://wiiu.hacks.guide/aroma/autobooting). If you can see the vWii Compat Installer upon booting your Wii U, you are in the Aroma environment and should [proceed to Section III](#section-iii---installing-the-homebrew-channel). Otherwise, use the below two methods to boot into Aroma.
+I prossimi passi saranno diversi in base se la console Wii U è configurata in [autoboot di Aroma](https://wiiu.hacks.guide/aroma/autobooting). Se vedi il vWii Compat Installer all'avvio di Wii U, sei nell'ambiente Aroma e dovresti [procedere alla Sezione III](#section-iii---installing-the-homebrew-channel). Altrimenti, usa i due metodi seguenti per avviare in Aroma.
 
-#### Procedure for Wii Us with PayloadLoader
+#### Procedura per Wii U con PayloadLoader
 
-If you have previously modded your Wii U and have [PayloadLoader installed](https://wiiu.hacks.guide/aroma/installing-payloadloader.html), you should be able to launch the Health and Safety Information App to load into the Aroma environment.
+Se hai modificato la tua console Wii U in precedenza e hai [PayloadLoader](https://wiiu.hacks.guide/aroma/installing-payloadloader.html) installato, dovresti poter riuscire ad avviare l'app Salute e sicurezza per caricare l'ambiente di Aroma.
 
-#### Procedure for Wii Us without PayloadLoader
+#### Procedura per Wii U senza PayloadLoader
 
 ::: warning
 
-If you get any errors like FSOpenfile failed, FSGetMountSource failed, or SD Mount failed, refer to the browser errors in [Common Issues and Fixes](https://wiiu.hacks.guide/common-issues-fixes.html).
+Se ricevi errori come FSOpenfile failed, FSGetMountSource failed, o SD Mount failer, fai riferimento agli errori del browser in [Problemi comuni e soluzioni](https://wiiu.hacks.guide/common-issues-fixes.html).
 
 :::
 
-If you DO NOT have [PayloadLoader installed](https://wiiu.hacks.guide/aroma/installing-payloadloader.html), you will need to utilize the browser exploit to launch into the Aroma environment. For users that would like to forego fully modding their Wii U, follow these steps.
+Se NON HAI [PayloadLoader](https://wiiu.hacks.guide/aroma/installing-payloadloader.html) installato, dovrai usare l'exploit del browser per avviare l'ambiente di Aroma. Per gli utenti che non vogliono modificare completamente la loro Wii U, seguite questi passaggi.
 
-1. Launch the Internet Browser and navigate to the website `wiiuexploit.xyz`.
+1. Avvia il Browser Internet e naviga sul sito `wiiuexploit.xyz`.
 
    ![](/images/vwii/exploit/browser-exploit.png)
 
-2. Click on `Run Exploit!` and hold the X button until you see the EnvironmentLoader. Once you are inside the EnvironmentLoader, select `aroma` to launch the Aroma environment.
+2. Clicca su `Run Exploit!` e tieni premuto il pulsante X finché vedi l'EnvironmentLoader. Una volta che sei all'interno dell'EnvironmentLoader, seleziona `aroma` per avviare l'ambiente Aroma.
 
-   - If your Wii U gets stuck on a white or otherwise frozen screen, wait a few seconds. If nothing happens, reboot the console, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again.
-   - If you see a `Please choose your payload` screen, you should try again and ensure that you are holding `X` long enough. Do not hold the `B` button.
+   - Se la tua Wii U rimane bloccata su uno schermo bianco o congelato, attendi alcuni secondi. Se non succede nulla, riavvia la console, [ripristina i dati di salvataggio del browser](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) e riprova.
+   - Se vedi una schermata `Please choose your payload`, dovresti riprovare e assicurarti di tenere `X` abbastanza a lungo. Non tenere premuto il pulsante `B`.
 
    ![](/images/vwii/exploit/environment-loader.png)
 
-3. If you get a warning message about the update folder existing, press the `X` button to block updates and proceed.
+3. Se ricevi un messaggio di avviso sulla cartella di aggiornamento esistente, premi il pulsante `X` per bloccare gli aggiornamenti e prosegui.
 
    ![](/images/vwii/exploit/update-warning.png)
 
-4. In the Boot Selector, press `A` to launch the Wii U Menu.
+4. Nel Boot Selector, premi `A` per avviare il menu Wii U.
 
    ![](/images/vwii/exploit/boot-selector.png)
 
-### Section III - Installing the Homebrew Channel
+### Sezione III - Installare l'Homebrew Channel
 
 ::: tip
 
-On Step 3, if the HOME button doesn't work, or causes you to freeze on a solid color screen, you can safely power off the console by holding down the power button on your console. Then, turn the console back on and proceed as normal.
+Nel passaggio 3, se il pulsante HOME non funziona o ti rimane fermo su uno schermo colorati, puoi spegnere in modo sicuro la console tenendo premuto il pulsante di accensione sulla console. Poi, riaccendila procedi normalmente.
 
 :::
 
-1. Launch the vWii Compat Installer app from the Wii U Menu.
+1. Avviare l'app vWii Compat Installer dal menu Wii U.
 
    ![](/images/vwii/exploit/compat-install-launch.png)
 
-2. Press `A` to install the Homebrew Channel.
+2. Premi `A` per installare l'Homebrew Channel.
 
    ![](/images/vwii/exploit/compat-install-pending.png)
 
-3. Allow the Homebrew Channel to install, until you see `Install succeeded!`. Once installation has finished, press the HOME button to return to the Wii U Menu.
+3. Aspetta che finisca finché non vedi `Install succeeded!`. Una volta terminato, premi il pulsante HOME per tornare al menu Wii U.
 
    ![](/images/vwii/exploit/compat-install-success.png)
 
-4. Launch vWii (the Wii Menu icon).
+4. Avvia la vWii (l'icona del menu Wii).
 
    ![](/images/vwii/launch-vwii.png)
 
-5. If the installation has succeeded, you should now see the Homebrew Channel in your Wii Menu.
+5. Se l'installazione è avvenuta con successo, ora dovresti vedere l'Homebrew Channel nel tuo menu Wii.
 
    ![](/images/vwii/exploit/vwii-hbc-installed.png)
 
-## Required Reading for Homebrew Management
+## Lettura richiesta per la gestione degli Homebrew
 
-You can now use the Homebrew Channel to launch Wii homebrew apps.
+Ora puoi usare l'Homebrew Channel per avviare app homebrew Wii.
 
-Note: When installing Wii homebrew applications on your SD Card or USB drive, your folder structure should look like this:
+Nota: quando installi applicazioni homebrew Wii sulla scheda SD o unità USB, la struttura delle cartelle dovrebbe essere così:
 
 ```shell
-💾 SD Card
+💾 Scheda SD
  ┗ 📁 apps
-   ┣ 📁 AppName1
+   ┣ 📁 NomeApp1
    ┃ ┣ 📄 boot.dol
    ┃ ┣ 📄 meta.xml
    ┃ ┗ 📄 icon.png
-   ┗ 📁 AppName2
+   ┗ 📁 NomeApp2
      ┣ 📄 boot.dol
      ┣ 📄 meta.xml
      ┗ 📄 icon.png
 ```
 
-`AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
+`NomeApp1` e `NomeApp2` sono nomi provvisori. Non inserire più cartelle `apps` dentro la cartella `apps` stessa.
 
-Please note that the `apps` folder inside of the `wiiu` folder (for Wii U homebrew apps) and the `apps` folder on the root of the SD card (for Wii homebrew apps) are distinct.
+Nota che la cartella `apps` all'interno della cartella `wiiu` (per le app homebrew Wii U) e la cartella `apps` nella root della scheda SD (per le app homebrew Wii) sono diverse.
 
 ---
 
 ::: tip
 
-Continue to [Installing Priiloader](priiloader)
+Continua con [installare Priiloader](priiloader)
 
-Although BootMii cannot be installed on vWii, Priiloader adds a crucial level of brick protection, and is highly recommended to install.
+Anche se BootMii non può essere installato su vWii, Priiloader aggiunge un livello cruciale di protezione dai brick e la sua installazione è altamente consigliata.
 
 :::

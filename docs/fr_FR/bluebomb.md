@@ -57,9 +57,9 @@ Il est **fortement** conseillé de ne pas utiliser un tutoriel vidéo en génér
 - A Bluetooth adapter.
   - An internal Bluetooth adapter will work.
   - If you do not have one, make sure to get one compatible with Linux.
-- A USB flash drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+- Une clef USB [formatée en FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
   - This cannot be the same flash drive used for your Linux Machine.
-- [HackMii Installer v1.2](https://bootmii.org/download/)
+- [Installateur HackMii v1.2](https://bootmii.org/download/)
 
 ### Instructions
 
@@ -106,7 +106,7 @@ Il est **fortement** conseillé de ne pas utiliser un tutoriel vidéo en génér
 
    ![](/images/exploits/bluebomb/wii-mini-options.png)
 
-   - If you have selected a Wii you will be asked to provide your Wii Menu version (what you determined in step 4).
+   - Si vous avez sélectionné une Wii, il vous sera demandé de fournir la version du Menu Wii (ce que vous avez déterminé à l'étape 4).
 
    ![](/images/exploits/bluebomb/wii-options.png)
 
@@ -159,7 +159,7 @@ Il est **fortement** conseillé de ne pas utiliser un tutoriel vidéo en génér
 ### Requirements
 
 - A Raspberry Pi Pico W 1/2 or an ESP32 with BR/EDR (Classic) support.
-- A USB flash drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+- Une clef USB [formatée en FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - [The HackMii Installer](https://bootmii.org/download/)
 
 ::: info

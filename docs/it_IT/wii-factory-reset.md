@@ -1,90 +1,90 @@
-# Ripristinare la NAND della Wii all'originale (stock)
+# Ripristinare la NAND di Wii all'originale (stock)
 
-Questa guida spiega come creare una NAND stock per il tuo sistema Wii utilizzando un programma chiamato Ohneschwanzenegger. Unlike the `Format Wii System Memory` option in the Wii settings, this will completely wipe any changes to the NAND by downloading a stock Wii System Menu from NUS servers. If followed correctly, the Wii should have no homebrew left on the system, stock IOSes, and boot up to a factory setup screen when the NAND is flashed.
+Questa guida spiega come creare una NAND stock per il tuo sistema Wii utilizzando un programma chiamato Ohneschwanzenegger. Contrariamente all'opzione `Formattazione console Wii` nelle Impostazioni console Wii, questo cancellerà qualsiasi cambiamento applicato alla NAND scaricando un menu di sistema Wii originale dai server NUS. Se seguito correttamente e una volta finito il processo, la tua console Wii verrà lasciata con nessun homebrew, ISO originali, e verrà avviata la schermata di configurazione iniziale.
 
-Please note that this program **needs** an existing (even bricked!) NAND backup to function, as it needs to have a copy of the first 8 blocks of NAND, a bad blocks list, and AES/HMAC keys.
+Nota che il programma **necessita** di una NAND (anche brickata!) per funzionare, in quanto ha bisogno di una copia dei suoi primi 8 blocchi, una lista dei blocchi non buoni, e le chiavi AES/HMAC.
 
 ::: info
 
-Non eseguire le istruzioni di questo tutorial sulla vWii della Wii U.
+Non eseguire le istruzioni di questo tutorial su vWii della Wii U.
 
 :::
 
 ::: danger
 
-The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and should only be considered as a LAST RESORT or if you are trying to do any of the following:
+Le istruzioni dettagliate in questa guida CANCELLERANNO LA MEMORIA DI SISTEMA DELLA TUA CONSOLE WII e dovrebbe essere vista come ULTIMA RISORSA o se stai cercando di fare i seguenti:
 
-- Restore the Wii to a state comparable to when it left the factory.
-- Fix a brick where you do not have a functional NAND backup or access to the Homebrew Channel but can still make one using BootMii.
-- You are unable to revert certain changes to the Wii System Memory such as all cIOS with DARKCORP.
+- Ripristinare la Wii in uno stato paragonabile a quando ha lasciato la fabbrica.
+- Sistemare un brick dove non hai un backup della NAND funzionante o l'accesso a Homebrew Channel, ma ne puoi ancora creare uno usando BootMii.
+- Non puoi annullare alcune modifiche applicate alla memoria di sistema di Wii, come i cIOS DARKCORP.
 
 :::
 
 ::: warning
 
-If you are trying to [update your Wii to 4.3U](update) with homebrew or update outdated homebrew/IOS, you most likely do not need to follow this guide. Instead, you can use a tool like the SysCheck Updater Wizard built into [ModMii](modmii#syscheck-updater-wizard). If you are confused about this process, consider joining the Nintendo Homebrew discord server for support.
+Se stai cercando di [aggiornare la tua console Wii alla 4.3E](update) con homebrew o aggiornare homebrew/IOS datati, molto probabilmente non avrai bisogno di seguire questa guida. Invece, puoi usare uno strumento come SysCheck Updater Wizard, integrato in [ModMii](modmii#syscheck-updater-wizard). Se sei confuso su questo processo, considera entrare nel server Discord di Nintendo Homebrew (in inglese) per ricevere assistenza.
 
 :::
 
-## Requirements
+## Requisiti
 
 - Una scheda SD con un spazio disponibile minimo di 512MB (1GB o più sono consigliati)
-- A [NAND backup](bootmii) from the specific system you are trying to flash
-- A Windows computer with an Internet connection
+- Un [backup della NAND](bootmii) proveniente dalla tua console
+- Un computer Windows con una connessione a Internet
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
 - [Nand BIN Checker](/assets/files/nandBinCheck.zip)
 
-## Instructions
+## Istruzioni
 
-### Section I - Preparation
+### Sezione I - Preparazione
 
-1. Start Ohneschwanzenegger. You may get a Windows SmartScreen prompt, this is a false positive and you can run the program anyway by pressing `More info` and `Run anyway`.
+1. Avvia Ohneschwanzenegger. Potresti ricevere un avviso di Windows Smartscreen, è un falso positivo e puoi eseguire il programma comunque premendo `Maggiori informazioni` e `Esegui comunque`.
 
-2. Press the `Local Cache` button, create a new folder for the NUS cache to be output in, and then press OK. An example folder is given below.
+2. Premi il pulsante `Local Cache`, crea una nuova cartella per la cache di NUS. poi premi OK. Una cartella di esempio è riportata sotto.
 
    ![](/images/factory-reset/nuscache.png)
 
-3. Press `Nand Dump` on the toolbar, and then press `New nand`. This should open a pop-up window where you can adjust parameters for a new NAND dump. Press the large `Existing Nand...` button and find your existing NAND dump from your Wii.
+3. Premi `Nand Dump` sulla barra degli strumenti, poi premi `New nand`. Questo dovrebbe aprire una nuova finestra dove puoi regolare dei parametri per un nuovo dump della NAND. Premi il pulsante `Existing Nand...` grande e trova il backup della NAND della tua console Wii.
 
    ![](/images/factory-reset/newnand.png)
 
-4. This will fill in information such as the keys, Boot 1/2, and your bad blocks automatically. ONLY change the Destination box to `./blankNand.bin`, which will output the NAND to the program folder with the name `blankNand.bin`. Then, press OK.
+4. Questo riempirà automaticamente le informazioni come le chiavi, Boot 1/2, e i blocchi non buoni. Cambia SOLO la casella `Destination` con `./blankNand.bin`, che creerà un nuovo file NAND col nome indicato. Poi, premi OK.
 
    ![](/images/factory-reset/renamenand.png)
 
-### Section II - Creating a Blank NAND
+### Sezione II - Creare una NAND vuota
 
-1. Now that the NAND is loaded into the program, select `Content` on the toolbar and then press Format. This will initialize your BLANK NAND, not your backup NAND.
+1. Ora che la NAND è caricata nel programma, seleziona `Content` nella barra degli strumenti, poi premi `Format`. Questo inizializzerà la tua NAND VUOTA, non la tua attuale.
 
    ![](/images/factory-reset/formatnand.png)
 
-2. Select the top left text box in the program and type in the Wii System Menu version that you need the NAND to have. Note that this should optimally be 4.3 (examples: `4.3E`, `4.3U`, `4.3J`, `4.3K`).
+2. Seleziona la casella in alto a sinistra e digita la versione di sistema di Wii che la tua NAND necessiterà. Nota che questo dovrebbe essere ottimalmente 4.3 (esempi: `4.3E`, `4.3U`, `4.3J`, `4.3K`).
 
    ![](/images/factory-reset/sysmenu.png)
 
-3. Once you have confirmed you have entered the version of the menu that you want, press enter or `Get It!`. This will begin downloading the menu from NUS servers, with the progress displayed in the program.
+3. Una volta confermata la versione che desideri, premi Invio sulla tastiera o `Get It!`. Questo inizierà a scaricare il menu dai server NUS, con l'avanzamento mostrato sul programma.
 
    ![](/images/factory-reset/menudownload.png)
 
-4. Once the menu has finished downloading, a pop-up will display showing the settings appended to the NAND. It will be autofilled depending on what was in your NAND, although the serial number may be incorrect. You can edit this if you would like, otherwise keep everything blank and press OK.
+4. Una volta che ha finito di scaricare, apparirà un messaggio con le impostazioni aggiunte alla NAND. Sarà riempito automaticamente in base a cosa era nella tua NAND, anche se il numero seriale potrebbe essere errato. Puoi modificarlo se vuoi, altrimenti lascialo vuoto e premi OK.
 
    ![](/images/factory-reset/settings.png)
 
-5. Next, press `Content` on the taskbar and press `Write meta entries`. Then, go back to the menu and press `Flush`. You may then close the window.
+5. Successivamente, premi `Content` sulla barra degli strumenti e premi `Write meta entries`. Poi, torna indietro e premi `Flush`. Ora puoi chiudere la finestra.
 
    ![](/images/factory-reset/finalsteps.png)
 
-### Section III - Verifying the NAND
+### Sezione III - Verifica della NAND
 
-1. If NAND Bin Checker is not already in the same folder as Ohneschwanzenegger, copy it there now. Then, open a terminal in that folder. Run the following command: `.\nandBinCheck.exe .\blankNand.bin`. If you named the NAND something else, adjust the command accordingly. The program will then check the validity of the NAND.
+1. Se NAND Bin Checker non è già nella stessa cartella di Ohneschwanzenegger, copialo ora. Poi, apri un terminale in quella cartella. Esegui il seguente comando: `.\nandBinCheck.exe .\blankNand.bin`. Se hai nominato la NAND qualcos'altro, aggiusta il comando di conseguenza. Il programma quindi verificherà la validità della NAND.
 
    ![](/images/factory-reset/nandcheck.png)
 
-2. If all is well, the result should look similar to the below. If there are ANY errors that stand out, DO NOT use this NAND and try again as it may damage or permanently brick your Wii. If you continue to get these errors on further attempts, go to the Nintendo Homebrew discord server for support.
+2. Se va tutto bene. il risultato dovrebbe essere simile a quello mostrato sotto. Se c'è anche SOLO un errore, NON USARE questa NAND e riprova; perché potrebbe danneggiare o brickare permanentemente la tua console. Se continui a ricevere errori dopo vari tentativi, vai nel server Discord di Nintendo Homebrew (in inglese) per ricevere assistenza.
 
    ![](/images/factory-reset/nandcheckresult.png)
 
-3. Move the `blankNand.bin` to your Wii SD card and rename it to `nand.bin` so that it can be flashed by BootMii. Remember not to overwrite your existing NAND!
+3. Sposta il file `blankNand.bin` sulla tua scheda SD e rinominala `nand.bin`, così che possa essere ripristinata da BootMii. Ricordati di non sovrascrivere la tua NAND esistente!
 
    ![](/images/factory-reset/nandname.png)
 
@@ -92,8 +92,8 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 ::: tip
 
-[Continue to BootMii Recovery](bootmiirecover)
+[Continua con ripristinare da BootMii](bootmiirecover)
 
-Now that you have a blank NAND, you can restore it on your Wii using BootMii.
+Ora che hai una NAND vuota, puoi ripristinarla sulla tua console Wii usando BootMii.
 
 :::

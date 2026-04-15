@@ -1,42 +1,42 @@
 # Backup della Nand con BootMii
 
-BootMii permette di eseguire il backup e il ripristino della memoria NAND del tuo Wii. Questa pagina ti guiderà su come eseguire il backup della NAND del tuo Wii su una scheda SD, che potrai usare come vuoi.
+BootMii permette di eseguire il backup e il ripristino della memoria NAND della console Wii. Questa pagina ti guiderà su come eseguire il backup della NAND della console Wii su una scheda SD, che potrai usare come vuoi.
 
-Please read the below information before proceeding further.
+Leggi la nota sotto prima di procedere oltre.
 
-:::details Important Information
+:::details Informazioni importanti
 
-- After the completion of this guide, two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
+- Dopo il termine della guida, due file saranno creati nella root della sua scheda SD: `nand.bin` e `keys.bin`. `nand.bin` è un backup della memoria interna della console, mentre `keys.bin` ne sono le chiavi.
 
 - Se hai BootMii installato come boot2, dovrai riavviare la console per eseguirlo. Salta i passaggi 1 e 2 se è questo il caso.
 
-- You must use the buttons on your console or a GameCube controller plugged into port 1 to navigate BootMii. To navigate with a GameCube controller, click left/right on the +Control Pad to move, and press A to select. To navigate with your console buttons, press `POWER` to move right, and press `RESET` to select.
+- Dovrai usare i pulsanti sulla tua console o un controller GameCube collegato alla porta 1 per navigare in BootMii. Per navigare con un controller GameCube, clicca sinistra/destra sulla pulsantiera + per spostarti e premi A per selezionare. Per navigare coi pulsanti della console, premi `POWER` per spostarti a destra e `RESET` per selezionare.
 
-- Please note that **restoring a NAND backup is usually a last resort**. With that said, you can use the [BootMii Recovery guide](bootmiirecover) to restore your NAND backup, where more information is provided about the risks and alternatives.
+- Nota che **ripristinare un backup della NAND dev'essere la tua ultima risorsa**. Detto questo, puoi usare la [guida di ripristino da BootMii](bootmiirecover) per ripristinare il tuo backup, dove sono fornite più informazioni a proposito sui rischi e sulle alternative.
 
-- Family Edition Wiis and Wii minis CANNOT restore NAND backups. Questo è dovuto alla mancanza di porte GameCube che servono su Wii non-boot2 per inserire il codice di conferma per il ripristino.
+- Wii Family Edition e Wii mini NON POSSONO ripristinare backup della NAND. Questo è dovuto alla mancanza di porte GameCube che servono su Wii non-boot2 per inserire il codice di conferma per il ripristino.
 
 :::
 
 ::: danger
 
-**Important Warnings**
+**Avvertenze**
 
-- You need an **SD card** to use BootMii at all, but especially to create a NAND backup. Se non hai una scheda SD a portata di mano in questo momento, puoi saltare questa pagina, ma è FORTEMENTE CONSIGLIATO di tornare su questa pagina dopo per eseguire il backup della tua NAND.
+- Hai bisogno di una **scheda SD** per usare BootMii, soprattutto per creare un backup della NAND. Se non hai una scheda SD a portata di mano in questo momento, puoi saltare questa pagina. Ma è FORTEMENTE CONSIGLIATO ritornarci in seguito.
 
-- If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
+- Se il pulsante `Launch BootMii` non appare nell'Homebrew Channel, [fai ripartire l'installer di HackMii](hackmii) e installa BootMii.
 
-- Se lo schermo rimane nero e l'unità del disco blu lampeggia mentre provi ad avviare BootMii, ti mandano i file di BootMii sulla scheda SD. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
+- Se lo schermo rimane nero e l'unità del disco blu lampeggia mentre provi ad avviare BootMii, ti mandano i file di BootMii sulla scheda SD. Scarica [questo file zip](/assets/files/bootmii_sd_files.zip) ed estrailo nella root della tua scheda SD, poi riprova.
 
 :::
 
-## Requirements
+## Requisiti
 
 - Una scheda SD con un spazio disponibile minimo di 512MB (1GB o più sono consigliati)
 
-## Instructions
+## Istruzioni
 
-1. Power on your console.
+1. Accendi la console.
 
 2. Avvia l'Homebrew Channel.
 
@@ -72,37 +72,37 @@ Please read the below information before proceeding further.
 
    ![](/images/bootmii/BootMii_Return.png)
 
-## Autobooting
+## Avvio automatico
 
-Se sei riuscito a installare BootMii come boot2, ma non vuoi che appaia la schermata di BootMii ogni volta che accendi la Wii, puoi impostarlo ad avviarsi automaticamente al Menu di sistema. Questo dovrebbe fare in modo che non ti accorgi nemmeno di avere BootMii installato come boot2.
+Se sei riuscito a installare BootMii come boot2, ma non vuoi che appaia la schermata di BootMii ogni volta che accendi la console Wii, puoi impostarlo ad avviarsi automaticamente al Menu di sistema. Questo dovrebbe fare in modo che non ti accorgi nemmeno di avere BootMii installato come boot2.
 
-1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
-2. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
-3. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
+1. Apri `SD:/bootmii/bootmii.ini` in un editor di testo, come il blocco note.
+2. Cambia `#AUTOBOOT=SYSMENU` in `AUTOBOOT=SYSMENU`, cancellando `#`.
+3. Poi cambia `#BOOTDELAY=5` in `BOOTDELAY=1`, cancellando `#` e cambiando il `5` in un `1`.
 4. Salva il file ed esci.
 
 ::: info
 
-You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
+Puoi anche usare l'app [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) su Wii per cambiare queste impostazioni.
 
 :::
 
-## Caricare un backup della NAND su Dolphin Emulator
+## Caricare un backup della NAND sull'emulatore Dolphin
 
-Il tuo backup della NAND può essere usato sull'emulatore Dolphin. This is completely optional.
+Il tuo backup della NAND può essere usato sull'emulatore Dolphin. Ciò è completamente opzionale.
 
-1. Get the latest beta or development release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
-2. Avvia l'Emulatore Dolphin.
-3. Click on the `Tools` tab, scroll down to `Manage NAND`, then select `Import BootMii NAND backup...`.
-4. Locate the `nand.bin` found on the root of your SD card and select Open.
-5. If it asks for a `keys.bin`, locate it on the root of your SD and select Open.
+1. Ottieni l'ultima versione beta o di sviluppo dell'emulatore Dolphin dal [sito di Dolphin](https://dolphin-emu.org/) e installalo sul tuo dispositivo.
+2. Avvia l'emulatore Dolphin.
+3. Clicca sulla scheda `Strumenti`, scendi fino a `Gestisci NAND`, poi seleziona `Importa backup NAND BootMii...`.
+4. Trova il file `nand.bin` che si trova nella root della tua scheda SD e premi Apri.
+5. Se chiede per un `keys.bin`, fai lo stesso procedimento del passaggio prima con questo file.
 
 ---
 
 ::: tip
 
-[Continue to Priiloader Installation](priiloader)
+[Continua con l'installazione di Priiloader](priiloader)
 
-Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. È specialmente importante per gli utenti di BootMii su IOS.
+Priiloader aggiunge un secondo strato di protezione dai brick, ed è fortemente consigliato anche se BootMii è stato installato su boot2. È specialmente importante per gli utenti di BootMii su IOS.
 
 :::

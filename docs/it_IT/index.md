@@ -1,51 +1,51 @@
 ---
 layout: home
-title: "Guida per l'Hacking del Wii"
+title: "Guida per l'hacking Wii"
 hero:
-  text: "Guida per l'Hacking del Wii"
-  tagline: "La guida completa per moddare la tua Wii, vWii e Wii Mini."
+  text: "Guida per l'hacking Wii"
+  tagline: "La guida completa per moddare Wii, vWii e Wii Mini."
   image:
     src: /images/main-pages/home-page-feature.jpg
 ---
 
 ::: info
 
-Please thoroughly read the introductory pages before proceeding.
+Leggi attentamente la pagina introduttiva prima di procedere.
 
 :::
 
 ## Cos'è l'homebrew?
 
-**Homebrew** refers to software that was not authorized to run on a video game console by its manufacturer. To gain the ability to run homebrew on the Wii, the console must first be modified to run unsigned code.
+Con **homebrew** ci si riferisce ai software che non sono autorizzati a essere eseguiti su una console di videogiochi dal suo produttore. Per poterli avviare su Wii, la console deve prima essere modificata con codice non firmato.
 
-Common examples of homebrew usage on the Wii include:
+Esempi comuni di utilizzo degli homebrew su Wii includono:
 
-- [Backing up](bootmii) and [restoring](bootmiirecover) your Wii's NAND (system memory)
-- [Patching game discs](https://wiki.hacks.guide/wiki/Wii:Riivolution) to load game modifications
-- Installing [themes](themes) on the Wii Menu and in commonly used homebrew apps
-- Backing up your [discs](dump-games) and [other installed titles](dump-wads)
-- Installing a [USB loader](wii-loaders) to launch Wii (and other console) backups from an external storage device
-- Restoring online functionality to both [WiiConnect24](wiiconnect24) and [Nintendo Wi-Fi Connection](nintendowfc)
-- and more!
+- Fare un [backup](bootmii) o un [ripristino](bootmiirecover) della NAND (memoria interna) di Wii
+- [Patchare i dischi di gioco](https://wiki.hacks.guide/wiki/Wii:Riivolution) per caricargli modifiche o mod
+- Installare [temi](themes) nel menu Wii e in app homebrew comuni
+- Fare il backup dei tuoi [dischi](dump-games) e [altri titoli installati](dump-wads)
+- Installare un [USB loader](wii-loaders) per eseguire backup Wii (e di altre console) da un'archiviazione esterna
+- Ripristinare le funzionalità online di [WiiConnect24](wiiconnect24) e [Nintendo Wi-Fi Connection](nintendowfc)
+- e altro!
 
-## What does this guide do?
+## Cosa fa questa guida?
 
-With certain variations depending on the path you take, this guide has the end goal of:
+Con alcune variazioni dipendentemente dal percorso che scegli, questa guida ha il compito finale di:
 
-- Exploiting your Wii and installing the Homebrew Channel
-- Putting safeguards in place to help prevent bricks
-- Installing other homebrew that can enhance your experience, should you choose
+- Installare l'Homebrew Channel sulla tua console Wii
+- Mettere in atto misure di salvaguardia per prevenire brick
+- Installare altri homebrew che possono migliorare la tua esperienza, se desideri
 
-## Ready to start?
+## Pronto per cominciare?
 
-If so, please follow the link below to proceed to the main guide.
+In caso affermativo, segui il link sotto per procedere con la guida principale.
 
 ---
 
 ::: tip
 
-Continue to [Key Information](key-information)
+Continua con le [informazioni chiave](key-information)
 
-This page outlines important information and disclaimers that you should be aware of before starting with the modding process.
+Questa pagina delinea informazioni importanti e sottolinea aspetti di cui dovresti essere a conoscenza prima di iniziare col processo di modifica.
 
 :::
