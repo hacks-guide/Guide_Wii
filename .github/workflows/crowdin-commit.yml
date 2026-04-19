@@ -45,7 +45,7 @@ jobs:
         continue-on-error: true
         run: |
           git config user.name 'Faris NyanNyan'
-          git config user.email 'nnfaris@flashcarts.net'
+          git config user.email 'nnfaris@nintendohomebrew.com'
 
           git checkout master
           git stage .
