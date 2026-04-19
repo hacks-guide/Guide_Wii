@@ -101,7 +101,7 @@ Note: When installing homebrew applications on your SD Card or USB drive, your f
 
 ::: tip
 
-[Continue to making a NAND Backup using BootMii](bootmii)
+[Continue to making a NAND Backup](nand-backup)
 
 Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
 
@@ -172,10 +172,12 @@ Note: When installing homebrew applications on your USB drive, your folder struc
 
 ::: tip
 
-[Continue to making a NAND Backup using RealWnd](wnd-mini)
+[Continue to making a NAND Backup](nand-backup)
 
 Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
 
 :::
 
 ::::
+
+:::::

@@ -4,7 +4,7 @@
 
 ### How risky is hacking my console?
 
-Not very risky depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid on the [brick overview page](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+Not very risky depending on your console. The Wii requires much less barrier to entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid on the [brick overview page](bricks#brick-prevention), install [BootMii](hbc) and [Priiloader](priiloader), and use common sense, you should be completely fine!
 
 ### How can I remove parental controls?
 
