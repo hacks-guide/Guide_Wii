@@ -79,19 +79,16 @@ TinyWiiBackupManager is a new, lightweight game backup manager programmed in Rus
 
 #### Requirements
 
-* A PC running Windows 7 or later
+* A PC running Windows XP or later
 * A USB drive or SD card
 * A dumped Wii/GameCube game disc (any format)
-* [TinyWiiBackupManagerInstaller](https://github.com/mq1/TinyWiiBackupManagerInstaller/releases/latest/)
+* [TinyWiiBackupManagerInstaller](https://github.com/mq1/TinyWiiBackupManagerInstaller/releases/latest/download/TinyWiiBackupManagerInstaller.exe) (or alternatively [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest))
 
 #### Instructions
 
 ##### Section I - Installation
 
 1. Download `TinyWiiBackupManagerInstaller.exe` and run the installer. If you get a Windows SmartScreen message, simply run anyway as this is a false positive.
-
-    ![](/images/desktop-apps/TWBM/twbmi-download.png)
-
 1. Let the installer run, and then launch TinyWiiBackupManager once the process is finished.
 
     ![](/images/desktop-apps/TWBM/twbmi-install.png)
