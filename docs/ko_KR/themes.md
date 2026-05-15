@@ -4,7 +4,7 @@
 
 ## Wii 메뉴 테마
 
-:::details Important Information
+:::info Important Information
 
 - csm-installer has built in safety features to prevent you from installing bad or corrupt Wii Menu themes. You are advised to use it instead of other theme installation homebrew to help prevent a brick.
 - 여기에 링크된 것 외의 다른 ThemeMii 버전을 사용하지 마세요. ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3에 맞는 테마를 만들 수 있지만 다른 버전은 그렇지 않을 수 있습니다.

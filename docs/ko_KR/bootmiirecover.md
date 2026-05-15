@@ -4,7 +4,7 @@
 
 Please read the information below before proceeding further.
 
-:::details Important Information
+:::info Important Information
 
 - Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. 이는 boot2가 아닌 Wii에 복원 확인 코드를 입력하는 데 필요한 게임큐브 포트가 없기 때문입니다. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 

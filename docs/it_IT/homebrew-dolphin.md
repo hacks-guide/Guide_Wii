@@ -4,7 +4,7 @@ Sull'emulatore Dolphin versione `5.0-4588` o successive, il menu Wii può essere
 
 ## Requisiti
 
-- Un computer Windows/macOS/Linux con connessione a Internet
+- Un PC Windows/macOS/Linux con una connessione a Internet
 - [Emulatore Dolphin](https://dolphin-emu.org/download/) versione `5.0-4588` o successive
 - L'ultima versione di [Open Homebrew Channel](https://github.com/Wii-Mini-Hacking/hbc/releases)
 
@@ -40,7 +40,7 @@ Sull'emulatore Dolphin versione `5.0-4588` o successive, il menu Wii può essere
 
    ![](/images/homebrew-dolphin/apps-folder.png)
 
-6. Avvia il Menu Wii e apri l'Homebrew Channel. Le nuove applicazioni installate dovrebbero apparire!
+6. Avvia il menu Wii e apri l'Homebrew Channel. Le nuove applicazioni installate dovrebbero apparire!
 
    ![](/images/homebrew-dolphin/hbc-apps.png)
 

@@ -30,7 +30,7 @@ L'installer del forwarder per WiiFlow Lite può essere trovato su [Open Shop Cha
 
   ![](/images/usb-loaders/wiiflow-ui.png)
 
-- USB Loader GX è principalmente basato sul Menu Wii e supporta i temi.
+- USB Loader GX è principalmente basato sul menu Wii e supporta i temi.
 
   - Anche se in passato le schede SD non erano supportate per i giochi Wii su USB Loader GX, recenti aggiornamenti hanno introdotto il loro supporto per questo loader.
   - USB Loader GX non ha un sistema di plugin.
@@ -100,7 +100,7 @@ Quando sposti il cursore verso l'area in basso dello schermo mentre sei nella vi
 - Seleziona plugin - Ti consente di selezionare i plugin.
 - Crediti - Mostra un elenco delle persone che hanno lavorato su WiiFlow.
 - Spegni - Ti consente di effettuare uno spegnimento completo o di entrare in modalità standby.
-- Esci a - Ti consente di uscire al Menu Wii, Homebrew Channel, neek2o, Priiloader o BootMii.
+- Esci a - Ti consente di uscire al menu Wii, Homebrew Channel, neek2o, Priiloader o BootMii.
 - Impostazioni - Apre il menu delle impostazioni globali di WiiFlow.
 
 ## USB Loader GX
@@ -111,7 +111,7 @@ Quando sposti il cursore verso l'area in basso dello schermo mentre sei nella vi
 - L'ultima versione dei [cIOS](cios)
 - [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 
-### Installation
+### Installazione
 
 1. Assicurati che la tua console Wii abbia già i cIOS 248-251 installati - puoi controllarli con applicazioni tipo [SysChecker](syscheck) o d2x cIOS installer.
 2. Scarica USB Loader GX e installalo nella tua scheda SD o unità USB.
@@ -138,7 +138,7 @@ Queste sono le funzioni dei pulsanti che vedi nella barra nella parte alta dello
 - Elenco - Mostra i giochi in una visuale elenco.
 - Visuale più copertine - Mostra i giochi in una visuale con più copertine.
 - Visuale carosello - Mostra i giochi in una visuale a carosello.
-- Visuale Menu Wii - Mostra i giochi in una visuale tipo Menu Wii.
+- Visuale menu Wii - Mostra i giochi in una visuale tipo menu Wii.
 - Controllo Genitori - Blocca USB Loader GX.
 - Disco - Carica un gioco inserito nello slot disco.
 

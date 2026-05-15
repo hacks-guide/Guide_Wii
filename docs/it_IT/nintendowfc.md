@@ -14,7 +14,7 @@ Un metodo per la patch WiiLink WFC che viene eseguito sui giochi su disco, ma de
 
 #### Requisiti
 
-- Una console Wii con connessione a Internet
+- Una console Wii con una connessione a Internet
 - [WiiLink WFC Patcher](https://oscwii.org/library/app/WiiLink-WFC-Patcher)
 
 #### Istruzioni
@@ -35,7 +35,7 @@ Vedi [la pagina di aggiornamento del patcher Wiimmfi](https://wiimmfi.de/update)
 
 :::
 
-Wiimmfi è un servizio a sorgente chiusa creato e mantenuto da Wiimm e Leseratte, che ripristina il gioco online su una quantità significativa di giochi che supportano questa funzionalità sulla console Wii. Un elenco di giochi con i giocatori attualmente online può essere trovato sulla [pagina di stato di Wiimmfi](https://wiimmfi.de/stat?m=8). In alcuni casi, il supporto Wiimmfi può già essere integrato in una mod del gioco - come con CTGP-R. Le istruzioni su come utilizzare Wiimmfi sono elencate qui sotto, oppure possono essere trovate [sulla pagina del patcher Wiimmfi](https://wiimmfi.de/patcher/).
+Wiimmfi è un servizio a sorgente chiusa creato e mantenuto da Wiimm e Leseratte, che ripristina il gioco online su una quantità significativa di giochi che supportano questa funzionalità su Wii. Un elenco di giochi con i giocatori attualmente online può essere trovato sulla [pagina di stato di Wiimmfi](https://wiimmfi.de/stat?m=8). In alcuni casi, il supporto Wiimmfi può già essere integrato in una mod del gioco - come con CTGP-R. Le istruzioni su come utilizzare Wiimmfi sono elencate qui sotto, oppure possono essere trovate [sulla pagina del patcher Wiimmfi](https://wiimmfi.de/patcher/).
 
 ### Patch automatico del disco tramite Priiloader
 
@@ -50,7 +50,7 @@ Un metodo per la patch Wiimmfi che viene eseguito automaticamente sui giochi su 
 
 #### Istruzioni
 
-1. Tieni premuto il pulsante RESET mentre accendi il tuo Wii. Se stai usando un Wii mini, connetti una tastiera USB e tieni il tasto Esc mentre lo accendi.
+1. Tieni premuto il pulsante RESET mentre accendi il tuo Wii. Se stai usando una console Wii mini, connetti una tastiera USB e tieni il tasto Esc mentre lo accendi.
 
 2. Dovresti vedere il menu di Priiloader.
 
@@ -89,7 +89,7 @@ Un metodo per la patch Wiimmfi che applica la patch automaticamente su backup di
 
 #### Requisiti
 
-- Un Wii con connessione a Internet
+- Una console Wii con connessione a Internet
 - [USB Loader GX o WiiFlow Lite](wii-loaders)
 
 #### Istruzioni
@@ -150,7 +150,7 @@ Un metodo per la patch Wiimmfi che viene eseguito sui giochi su disco, ma deve e
 
 #### Requisiti
 
-- Un Wii con connessione a Internet
+- Una console Wii con connessione a Internet
 
 #### Istruzioni
 
@@ -185,7 +185,7 @@ Un metodo per la patch Wiimmfi che viene eseguito sui giochi su disco, ma deve e
 
 1. Apri la seguente pagina web nel Canale Internet: `http://chadsoft.co.uk/wimmfi`
 2. Aggiungi la pagina ai preferiti cliccando l'icona della stella, poi clicca il pulsante `Aggiungi pagina attuale`.
-3. Ritorna al Menu Wii.
+3. Ritorna al menu Wii.
 4. Apri nuovamente il Canale Internet e apri il sito che hai appena aggiunto dai preferiti.
 5. Il patcher di Wiimmfi dovrebbe avviarsi. Sii paziente, poiché Flashhax può essere molto instabile - potrebbero volerci diversi tentativi purché funzioni.
 

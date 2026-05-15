@@ -18,8 +18,8 @@
         "bricks": "Brick",
         "cios": "cIOS",
         "donations": "Donazioni",
-        "dump-wads": "Dumpare WAD",
-        "dump-games": "Dumpare giochi Wii/GameCube",
+        "dump-wads": "Dumpare i WAD",
+        "dump-games": "Dumpare i giochi Wii/GameCube",
         "faq": "FAQ",
         "flashhax": "FlashHax",
         "gcsaves": "Salvataggi GameCube",
@@ -51,9 +51,9 @@
         "wiigsc": "Creare Collegamenti per Giochi Wii",
         "wii-loaders": "Loader di backup Wii",
         "wii-factory-reset": "Ripristinare la NAND di Wii all'originale (stock)",
-        "wiiu-nand-dumper": "Dumpare la NAND Wii U",
+        "wiiu-nand-dumper": "Dumpare la NAND di Wii U",
         "wilbrand": "Wilbrand",
-        "wnd-mini": "Dumpare la NAND Wii mini",
+        "wnd-mini": "Dumpare la NAND di Wii mini",
         "yawmme": "YAWM ModMii Edition"
     }
 }

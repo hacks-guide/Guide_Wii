@@ -16,7 +16,7 @@ Kérjük olvasd el a listába gyűjtött fontos információkat mielőtt tovább
 
 ## BlueBomb Classic
 
-:::details Fontos információ
+:::info Fontos információ
 
 - Ha ezt az útmutatót Wii mini hackeléséhez használod és segítségre an szükséged, csatlakozz a [Wii mini Hacking Discord szerverhez](https://discord.gg/6ryxnkS).
 - Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploitot használj](get-started), mert a HackMii telepítő előkészítésének sokkal egyszerűbb módjai is vannak. Ha egy elromlott konzol megjavításáról van szó, akkor viszont vannak kivételek.
@@ -141,7 +141,7 @@ Kérjük olvasd el a listába gyűjtött fontos információkat mielőtt tovább
 
 ## BlueBomb Micro
 
-:::details Fontos információ
+:::info Fontos információ
 
 - Ha ezt az útmutatót Wii mini hackeléséhez használod és segítségre an szükséged, csatlakozz a [Wii mini Hacking Discord szerverhez](https://discord.gg/6ryxnkS).
 - Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploitot használj](get-started), mert a HackMii telepítő előkészítésének sokkal egyszerűbb módjai is vannak. Ha egy elromlott konzol megjavításáról van szó, akkor viszont vannak kivételek.

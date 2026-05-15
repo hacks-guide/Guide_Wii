@@ -1,4 +1,4 @@
-# Navigazione del Sito
+# Navigazione del sito
 
 ::: tip
 

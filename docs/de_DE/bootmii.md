@@ -4,7 +4,7 @@ BootMii ermöglicht das Sichern und Wiederherstellen des NAND-Speichers von dein
 
 Please read the below information before proceeding further.
 
-:::details Important Information
+:::info Important Information
 
 - After the completion of this guide, two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` ist der interne Speicher deiner Wii, während `keys.bin` die Schlüssel deiner Konsole sind.
 

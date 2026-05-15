@@ -4,7 +4,7 @@ Este guia fornecerá instruções sobre como restaurar um backup da sua NAND com
 
 Please read the information below before proceeding further.
 
-:::details Important Information
+:::info Important Information
 
 - Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. Isso ocorre devido à falta de portas GameCube que são necessárias em Wiis sem boot2 para entrar no código de confirmação de restauração. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 

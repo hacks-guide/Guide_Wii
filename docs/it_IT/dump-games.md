@@ -6,7 +6,7 @@ Questa guida tratta il dumping dei dischi di gioco GameCube o Wii su una scheda 
 
 ### Requisiti
 
-- Una scheda SD o unità USB con almeno 4.7 GB di spazio disponibile (8.5 GB per il dump di un disco a doppio strato).
+- Una scheda SD o un'unità USB con almeno 4,7 GB di spazio disponibile (8,5 GB per il dump di un disco a doppio strato).
 - [CleanRip](https://oscwii.org/library/app/cleanrip)
 
 ### Preparazione

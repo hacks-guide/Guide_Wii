@@ -1,6 +1,6 @@
 # LetterBomb
 
-LetterBomb è un exploit per la console Wii che viene attivato usando la Bacheca Wii.
+LetterBomb è un exploit per Wii che viene attivato usando la bacheca Wii.
 
 ::: info
 
@@ -18,7 +18,7 @@ NON usare alcun indirizzo MAC mostrato negli esempi di questa guida, perché dar
 
 - Una scheda SD formattata in FAT32 che sia di 32GB o meno
 - Una console Wii con versione di sistema 4.3
-- Un computer Windows/macOS/Linux con connessione a Internet
+- Un PC Windows/macOS/Linux con una connessione a Internet
 
 ## Istruzioni
 
@@ -56,9 +56,9 @@ NON usare alcun indirizzo MAC mostrato negli esempi di questa guida, perché dar
 12. Reinserisci la scheda SD nella tua console.
     - La scheda SD deve essere inserita nello slot SD posizionato nella parte anteriore della console Wii. Usare un adattatore da SD a USB nella porta USB non funzionerà.
 
-13. Sulla console Wii, ritorna al Menu Wii.
+13. Sulla console Wii, ritorna al menu Wii.
 
-14. Avvia la Bacheca Wii.
+14. Avvia la bacheca Wii.
 
 15. Apri la lettera rossa con all'interno una bomba.
     - Assicurati che la data della console Wii sia corretta, o potresti non trovare la lettera.

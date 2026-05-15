@@ -4,7 +4,7 @@ Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installar
 
 ## Applicare temi sul menu Wii
 
-:::details Informazioni importanti
+:::info Informazioni importanti
 
 - csm-installer ha misure di sicurezza integrate per bloccare l'installazione di temi corrotti o malformati. Usa questo homebrew per prevenire brick.
 - Non usare nessun'altra versione di ThemeMii oltre a quella fornita qui, poiché ThemeMii Mod ti permette di creare un tema per il menu Wii versione 4.3, le altre non possono.
@@ -14,7 +14,7 @@ Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installar
 
 ::: danger
 
-**Avvertenze**
+**Avvertenze importanti**
 
 - NON continuare con questa guida affinché non hai una protezione adeguata dai brick con [BootMii](bootmii) (solo Wii) e [Priiloader](priiloader) installati.
 - Installa solo i temi che sono stati creati appositamente per la versione e la regione della tua console Wii. Installare temi di versioni o regioni diverse potrebbe comportare a un [brick dal tema](bricks#theme-brick). Questo tutorial ti dirà come creare un file .csm che sia sicuro da installare.
@@ -31,7 +31,7 @@ Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installar
 ### Requisiti
 
 - Una scheda SD o un'unità USB
-- Un computer Windows con una connessione a Internet
+- Un PC Windows con una connessione a Internet
 - [csm-installer](https://oscwii.org/library/app/csm-installer)
 - [ThemeMii Mod](/assets/files/New_ThemeMii_MOD.zip)
 
@@ -39,7 +39,7 @@ Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installar
 
 ::::: tabs
 
-:::: tab (Tutti) tramite csm-installer
+:::: tab (Tutti) Tramite csm-installer
 
 1. Estrai il file `.zip` di csm-installer nella root della tua scheda SD o unità USB.
 2. Inserisci la tua scheda SD o unità USB nella console, poi avvia l'Homebrew Channel.
@@ -49,7 +49,7 @@ Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installar
 
 ::::
 
-:::: tab (Wii) tramite NUSGet
+:::: tab (Wii) Tramite NUSGet
 
 1. Sul tuo computer, scarica [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/) scegliendo l'archivio corrispondente al tuo sistema operativo. Per utenti Windows, dovreste scegliere il file `NUSGet-Windows-x86_64-bin.zip`.
 2. Estrai l'archivio ed esegui NUSGet.
@@ -70,7 +70,7 @@ Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installar
 
 ::::
 
-:::: tab (vWii) tramite NUSGet
+:::: tab (vWii) Tramite NUSGet
 
 1. Sul tuo computer, scarica [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/) scegliendo l'archivio corrispondente al tuo sistema operativo. Per utenti Windows, dovreste scegliere il file `NUSGet-Windows-x86_64-bin.zip`.
 
@@ -100,7 +100,7 @@ Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installar
 
 8. Trova il file .app corrispondente alla regione della tua console Wii U dalla tabella sotto:
 
-   |  Regione |   file .app  |
+   |  Regione |   File .app  |
    | :------: | :--------------------------: |
    | Giappone | 0000001C.app |
    |    USA   | 0000001F.app |
@@ -112,7 +112,7 @@ Questa guida è destinata ad essere l'ultima di cui avrete bisogno per installar
 
 ::::
 
-:::: tab (Wii) tramite ThemeMii
+:::: tab (Wii) Tramite ThemeMii
 
 1. Crea la cartella `themes` nella root della tua scheda SD o unità USB.
 2. Estrai il file `.zip` di ThemeMii MOD sul tuo PC.

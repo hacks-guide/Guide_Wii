@@ -86,7 +86,7 @@ TinyWiiBackupManager è dotato di un installatore di app integrato per applicazi
 
 #### Requisiti
 
-- Un computer Windows/macOS/Linux con connessione a Internet
+- Un PC Windows/macOS/Linux con una connessione a Internet
 - Una scheda SD o unità USB
 - L'ultima versione di [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
 
@@ -118,7 +118,7 @@ OSCDL è l'applicazione ufficialmente sviluppata dal team di Open Shop Channel p
 
 #### Requisiti
 
-- Un computer Windows/macOS/Linux con connessione a Internet
+- Un PC Windows/macOS/Linux con una connessione a Internet
 - Una scheda SD o unità USB
 - L'ultima versione di [OSCDL](https://github.com/dhtdht020/osc-dl/releases/latest)
 

@@ -1,10 +1,10 @@
 # FlashHax
 
-FlashHax è un exploit per la console Wii che viene eseguito utilizzando il Canale Internet. A differenza di altri exploit, questo non richiede una scheda SD.
+FlashHax è un exploit per Wii che viene eseguito utilizzando il Canale Internet. A differenza di altri exploit, questo non richiede una scheda SD.
 
 ## Requisiti
 
-- Una console Wii con connessione a Internet
+- Una console Wii con una connessione a Internet
 - Il Canale Internet
 
 ## Istruzioni
@@ -23,7 +23,7 @@ FlashHax è un exploit per la console Wii che viene eseguito utilizzando il Cana
 
    ![](/images/exploits/flashhax/select-region.png)
 
-5. Premi il bottone con la stella per aprire la pagina dei preferiti.
+5. Premi il pulsante con la stella per aprire la pagina dei preferiti.
 
 6. Seleziona `Aggiungi pagina attuale`.
 

@@ -22,7 +22,7 @@ In alcuni casi, l'orologio RTC sulla tua console Wii potrebbe essere desincroniz
 
 ### Requisiti
 
-- Una console Wii con connessione a Internet
+- Una console Wii con una connessione a Internet
 - L'Homebrew Channel
 - Una scheda SD o unità USB
 - [sntp](https://oscwii.org/library/app/sntp)
@@ -102,7 +102,7 @@ Sulla vWii, le opzioni [Permanent vWii System Settings](https://dacotaco.github.
 
 Se stai usando una console Wii mini o vWii, alcune opzioni da Priiloader devono essere abilitate per consentire una corretta funzionalità di WiiConnect24. In `System Menu Hacks`, abilita le seguenti opzioni dipendentemente dalla tua console:
 
-| Console  | Opzioni di Priiloader                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Console  | Opzioni                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | vWii     | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li><br><li>[Permanent vWii System Settings](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)</li><br><li>[Fix NWC24iSetUniversalTime](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)</li></ul> |
 | Wii mini | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li></ul>                                                                                                                                                                                                                                                                                 |

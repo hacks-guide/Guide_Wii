@@ -92,7 +92,7 @@ Per gli exploit [BlueBomb](bluebomb), [str2hax](str2hax) o [FlashHax](flashhax),
 
 ### Raccomandazioni sullo spazio di archiviazione
 
-Quando si considera comprare o usare una scheda SD o unità USB, ha senso tenere in considerazione le cose per cui si sta usando un tipo di memoria rispetto a un'altra. Basandoti su quel che vorresti farci, le raccomandazioni sono elencate sotto:
+Quando si considera comprare o usare una scheda SD o un'unità USB, ha senso tenere in considerazione le cose per cui si sta usando un tipo di memoria rispetto a un'altra. Basandoti su quel che vorresti farci, le raccomandazioni sono elencate sotto:
 
 | Uso del dispositivo |                 Spazio di archiviazione consigliato                |
 | :-----------------: | :----------------------------------------------------------------: |

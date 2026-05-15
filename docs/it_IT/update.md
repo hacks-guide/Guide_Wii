@@ -1,4 +1,4 @@
-# Aggiornare il Menu Wii alla 4.3
+# Aggiornare il menu Wii alla 4.3
 
 Questa guida spiegherà come aggiornare il tuo menu Wii alla versione 4.3, se hai una console Wii già softmoddata.
 
@@ -10,10 +10,10 @@ Questa guida spiegherà come aggiornare il tuo menu Wii alla versione 4.3, se ha
 
 ## Requisiti
 
-- una console Wii con l'Homebrew Channel versione 1.0.8 o successive
+- Una console Wii con l'Homebrew Channel versione 1.0.8 o successive
   - Se non hai l'Homebrew Channel o è datato, [inizia da qui](get-started) prima per (re)installarlo.
 - Una scheda SD o unità USB
-- Un computer Windows/macOS/Linux
+- Un PC Windows/macOS/Linux
 - [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/)
 - [Priiloader](priiloader)
 - [YAWM ModMii Edition](https://oscwii.org/library/app/yawmme)

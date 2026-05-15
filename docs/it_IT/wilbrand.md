@@ -1,6 +1,6 @@
 # Wilbrand
 
-Wilbrand è un exploit per la console Wii che viene attivato usando la Bacheca Wii. È compatibile con le versioni del menu Wii da 3.0 a 4.3 in tutte le regioni. Ci sono due metodi elencati in questa pagina utilizzati per creare il corretto exploit Wilbrand, ma Wilbrand Web è consigliato per la sua facilità di utilizzo.
+Wilbrand è un exploit per Wii che viene attivato usando la Bacheca Wii. È compatibile con le versioni del menu Wii da 3.0 a 4.3 in tutte le regioni. Ci sono due metodi elencati in questa pagina utilizzati per creare il corretto exploit Wilbrand, ma Wilbrand Web è consigliato per la sua facilità di utilizzo.
 
 ::: info
 
@@ -25,7 +25,7 @@ NON usare alcun indirizzo MAC mostrato negli esempi di questa guida, perché dar
 ### Requisiti
 
 - Una scheda SD [formattata in FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
-- Una console Wii versione 3.0 o successiva
+- Una console Wii versione 3.0 o successive
 
 ### Istruzioni
 
@@ -64,7 +64,7 @@ NON usare alcun indirizzo MAC mostrato negli esempi di questa guida, perché dar
 13. Reinserisci la scheda SD nella tua console.
     - La scheda SD deve essere inserita nello slot SD posizionato nella parte anteriore della console Wii. Usare un adattatore da USB a SD inserito nella porta USB della console Wii non funzionerà.
 
-14. Sulla console Wii, ritorna al Menu Wii.
+14. Sulla console Wii, ritorna al menu Wii.
 
 15. Avvia la Bacheca Wii.
 
@@ -98,7 +98,7 @@ NON usare alcun indirizzo MAC mostrato negli esempi di questa guida, perché dar
 
 - Un computer che esegue Windows, macOS o Linux
 - Una scheda SD [formattata in FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
-- Una console Wii versione 3.0 o successiva
+- Una console Wii versione 3.0 o successive
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii Installer v1.2](https://bootmii.org/download/)
 
@@ -148,7 +148,7 @@ NON usare alcun indirizzo MAC mostrato negli esempi di questa guida, perché dar
 12. Reinserisci la scheda SD nella tua console.
     - La scheda SD deve essere inserita nello slot SD posizionato nella parte anteriore della console Wii. Usare un adattatore da USB a SD inserito nella porta USB della console Wii non funzionerà.
 
-13. Sulla console Wii, ritorna al Menu Wii.
+13. Sulla console Wii, ritorna al menu Wii.
 
 14. Avvia la Bacheca Wii.
 

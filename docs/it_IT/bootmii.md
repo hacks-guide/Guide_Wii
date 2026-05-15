@@ -4,7 +4,7 @@ BootMii permette di eseguire il backup e il ripristino della memoria NAND della 
 
 Leggi la nota sotto prima di procedere oltre.
 
-:::details Informazioni importanti
+:::info Informazioni importanti
 
 - Dopo il termine della guida, due file saranno creati nella root della sua scheda SD: `nand.bin` e `keys.bin`. `nand.bin` è un backup della memoria interna della console, mentre `keys.bin` ne sono le chiavi.
 
@@ -20,7 +20,7 @@ Leggi la nota sotto prima di procedere oltre.
 
 ::: danger
 
-**Avvertenze**
+**Avvertenze importanti**
 
 - Hai bisogno di una **scheda SD** per usare BootMii, soprattutto per creare un backup della NAND. Se non hai una scheda SD a portata di mano in questo momento, puoi saltare questa pagina. Ma è FORTEMENTE CONSIGLIATO ritornarci in seguito.
 
@@ -68,7 +68,7 @@ Leggi la nota sotto prima di procedere oltre.
 
    ![](/images/bootmii/BootMii_NAND_Backup_Verify.png)
 
-9. Premi il pulsante Back (quello con la freccia), poi premi il bottone del Menu Wii o dell'Homebrew Channel per uscire da BootMii.
+9. Premi il pulsante Back (quello con la freccia), poi premi il bottone del menu Wii o dell'Homebrew Channel per uscire da BootMii.
 
    ![](/images/bootmii/BootMii_Return.png)
 

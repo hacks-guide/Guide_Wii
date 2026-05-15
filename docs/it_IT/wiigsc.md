@@ -2,7 +2,7 @@
 
 Questa guida provvede di istruzioni su come creare collegamenti per giochi Wii dai backup che hai sull'archivio esterno, usando un programma chiamato WiiGSC (Wii Game Shortcut Creator). Creando un collegamento per un gioco, puoi avviarlo direttamente dal menu Wii come se ne avessi inserito il disco.
 
-:::details Informazioni importanti
+:::info Informazioni importanti
 
 - Il tuo browser o antivirus potrebbero segnalare WiiGSC come malware - questo è un falso positivo. WiiGSC non contiene ALCUN malware.
 - Il menu Wii è limitato a 48 canali, non includendo i canali già esistendi di sistema.
@@ -11,7 +11,7 @@ Questa guida provvede di istruzioni su come creare collegamenti per giochi Wii d
 
 ::: danger
 
-**Avvertenze**
+**Avvertenze importanti**
 
 - NON continuare con questa guida se non hai installato [Priiloader](priiloader) o [BootMii](bootmii), in quanto c'è il pericolo di causare un [brick dal banner](bricks#banner-brick) che impedirà al menu Wii di avviarsi.
 - NON creare o installare collegamenti dei giochi "Mario Party 9" o "A Boy and His Blob". Causeranno [brick dal banner](bricks#banner-brick) data la complessità dei loro canali, facendo andare in crash il menu Wii.
@@ -22,8 +22,8 @@ Questa guida provvede di istruzioni su come creare collegamenti per giochi Wii d
 ## Requisiti
 
 - Una console Wii
-- Una scheda SD o unità USB
-- Un computer Windows
+- Una scheda SD o un'unità USB
+- Un PC Windows
 - [YAWM ModMii Edition](yawmme)
 - [WiiGSC ModMii Edition](https://github.com/modmii/WiiGSC/releases)
 

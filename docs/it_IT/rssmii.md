@@ -7,6 +7,6 @@ head:
 
 # Reindirizzamento
 
-Stai per essere reindirizzato alla Hacks Guide Wiki.
+Stai per essere reindirizzato a Hacks Guide Wiki.
 
 Se la pagina non ricarica, clicca [qui](https://wiki.hacks.guide/wiki/Wii:RSSMii).

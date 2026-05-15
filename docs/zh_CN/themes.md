@@ -4,7 +4,7 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 ## 转到 <code>Options</code> &#062; <code>Standard System Menu</code> &#062; Wii 菜单版本 &#062; Wii 菜单区域
 
-:::details Important Information
+:::info Important Information
 
 - csm-installer has built in safety features to prevent you from installing bad or corrupt Wii Menu themes. You are advised to use it instead of other theme installation homebrew to help prevent a brick.
 - 请仅使用这里提供的 ThemeMii 版本，因为 ThemeMii Mod 允许您制作适用于 Wii 菜单版本 4.3 的主题，其他版本可能不兼容。

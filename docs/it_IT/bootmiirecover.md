@@ -4,7 +4,7 @@ Questa guida fornirà istruzioni su come ripristinare un backup della NAND con B
 
 Leggi la nota sotto prima di procedere oltre.
 
-:::details Informazioni importanti
+:::info Informazioni importanti
 
 - Wii Family Edition e Wii mini **NON POSSONO** ripristinare backup della NAND. Questo è dovuto alla mancanza di porte GameCube che servono su Wii non-boot2 per inserire il codice di conferma per il ripristino. Per cercare aiuto, cerca supporto nel server discord di [Nintendo Homebrew](https://discord.gg/C29hYvh) (in inglese).
 
@@ -22,7 +22,7 @@ Leggi la nota sotto prima di procedere oltre.
 
 ::: danger
 
-**Avvertenze**
+**Avvertenze importanti**
 
 - Questa dev'essere la tua **ultima risorsa** per riparare un problema alla tua console Wii. Verifica che puoi avviare l'Homebrew Channel prima di ripristinare un backup, perché molti dei problemi possono essere risolti da lì. Inoltre, entra nel [server Discord di Nintendo Homebrew](https://discord.gg/C29hYvh) (in inglese) per una mano a diagnosticare e risolvere il tuo problema in combinazione con la [guida sui brick](bricks).
 
@@ -79,7 +79,7 @@ Se vuoi ripristinare i dati di salvataggio di un gioco, usa Dolphin per importar
 
    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
-9. Premi il pulsante Back (quello con la freccia), poi premi il bottone del Menu Wii o dell'Homebrew Channel per uscire da BootMii.
+9. Premi il pulsante Back (quello con la freccia), poi premi il bottone del menu Wii o dell'Homebrew Channel per uscire da BootMii.
 
    ![](/images/bootmii/BootMii_Return.png)
 

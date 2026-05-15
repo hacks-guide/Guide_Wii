@@ -2,7 +2,7 @@
 
 Ez az útmutató azt tartalmazza, hogy a WiiGSC (Wii Game Shortcut Creator) szoftver segítségével hogyan tudsz létrehozni Wii játékparancsikonokat, külső tárolóeszközökön található játékok biztonsági másolataihoz. A játékparancsikonok létrehozásával a játék biztonsági másolatát közvetlenül a Wii menüből indíthatod el, mintha a játékot normál lemezként helyezted volna be.
 
-:::details Fontos információ
+:::info Fontos információ
 
 - A böngésződ vagy a vírusírtó szoftvered elképzelhető, hogy a WiiGSC-t malware-nek jelöli - ez hamis pozitív. A WiiGSC NEM tartalmaz malware-t.
 - A Wii menü 48 csatornára van korlátozva, nem számítva a meglévő rendszercsatornákat.

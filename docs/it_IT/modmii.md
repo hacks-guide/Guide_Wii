@@ -71,7 +71,7 @@ Quando usi ModMii, è importante far notare che genererà una guida personalizza
 ### Requisiti
 
 - Una console Wii o Wii U
-- Una scheda SD o unità USB
+- Una scheda SD o un'unità USB
 - Un PC Windows (anche una VM)
 - [ModMii](https://modmii.github.io/)
 

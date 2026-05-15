@@ -16,7 +16,7 @@ Leggi le informazioni importanti elencate sotto prima di procedere.
 
 ## BlueBomb Classic
 
-:::details Informazioni importanti
+:::info Informazioni importanti
 
 - Se stai utilizzando questa guida per modificare Wii mini e hai bisogno di aiuto, unisciti al [server Discord di Wii mini Hacking](https://discord.gg/6ryxnkS).
 - Se stai usando la revisione originale di Wii, dovresti considerare di trovare [un altro exploit](get-started) in quanto ci sono modi più semplici per avviare l'installer di HackMii. Esistono, tuttavia, delle eccezioni in situazioni come il ripristino dai brick.
@@ -32,7 +32,7 @@ Leggi le informazioni importanti elencate sotto prima di procedere.
 
 ### Requisiti
 
-- Un computer Linux
+- Un PC Linux
   - Una VM (macchina virtuale) potrebbe funzionare, ma non è consigliata data la complessità nel farci passare il Bluetooth. Se possibile, usa una LiveUSB come descritto sotto.
 
   - Se hai un Raspberry Pi, puoi usare quello in quanto è probabile che abbia Linux già installato.
@@ -110,7 +110,7 @@ Leggi le informazioni importanti elencate sotto prima di procedere.
 
    ![](/images/exploits/bluebomb/wii-options.png)
 
-10. Accendi la console
+10. Accendi la console.
     - **Non** collegare alcun telecomando Wii.
 
 11. Se non l'hai già fatto, scrivi `yes` nello script per procedere. Assicurati che `Waiting to accept` sia a schermo.
@@ -141,7 +141,7 @@ Leggi le informazioni importanti elencate sotto prima di procedere.
 
 ## BlueBomb Micro
 
-:::details Informazioni importanti
+:::info Informazioni importanti
 
 - Se stai utilizzando questa guida per modificare Wii mini e hai bisogno di aiuto, unisciti al [server Discord di Wii mini Hacking](https://discord.gg/6ryxnkS).
 - Se stai usando la revisione originale di Wii, dovresti considerare di trovare [un altro exploit](get-started) in quanto ci sono modi più semplici per avviare l'installer di HackMii. Esistono, tuttavia, delle eccezioni in situazioni come il ripristino dai brick.
@@ -160,7 +160,7 @@ Leggi le informazioni importanti elencate sotto prima di procedere.
 
 - Un Raspberry Pi Pico W 1/2 o un ESP32 con supporto BR/EDR (classico).
 - Una chiavetta USB [formattata in FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
-- [The HackMii Installer](https://bootmii.org/download/)
+- L'[HackMii Installer](https://bootmii.org/download/)
 
 ::: info
 
@@ -226,7 +226,7 @@ Un Raspberry Pi Pico normale non funzionerà. DEVE essere il modello wireless. I
 ### Esecuzione dell'exploit
 
 1. Collega nuovamente il dispositivo al PC.
-2. Accendi la console
+2. Accendi la console.
    - **Non** collegare alcun telecomando Wii.
 3. Sulla console, premi il pulsante Sync ripetutamente finché il LED del Pico W inizia a lampeggiare rapidamente, a questo punto inizierà a caricare l'exploit.
    - Potrebbe richiedere più tentativi.

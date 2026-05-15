@@ -4,7 +4,7 @@ BootMii позволяет создавать и восстанавливать 
 
 Please read the below information before proceeding further.
 
-:::details Important Information
+:::info Important Information
 
 - After the completion of this guide, two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` — это резервная копия внутренней памяти консоли, а `keys.bin` — ключи вашей консоли.
 

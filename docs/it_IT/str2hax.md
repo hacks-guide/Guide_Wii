@@ -20,7 +20,7 @@ Se hai installato una mod come CTGP Revolution o Project+, str2hax potrebbe cari
 
 ## Requisiti
 
-- Una console Wii con connessione a Internet
+- Una console Wii con una connessione a Internet
 
 ## Istruzioni
 

@@ -24,8 +24,8 @@ Non c'è modo di ripristinare il backup della NAND con questo metodo senza un'ha
 
 - Una console Wii
 - Un'unità USB
-- [Simple IOS Patcher for Wii mini](http://www.mediafire.com/file/7k141mu1whqzwdp/SimpleIOSPatcher_Mini.zip/file)
-- [RealWnD for Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
+- [Simple IOS Patcher per Wii mini](http://www.mediafire.com/file/7k141mu1whqzwdp/SimpleIOSPatcher_Mini.zip/file)
+- [RealWnD per Wii mini](https://oscwii.org/library/app/RealWnD_Mini)
 - [Xyzzy Mod](https://oscwii.org/library/app/xyzzy-mod)
 
 ## Istruzioni

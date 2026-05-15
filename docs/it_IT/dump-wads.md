@@ -4,7 +4,7 @@ Questa guida ti mostrerà come preservare file wad dalla memoria di sistema dell
 
 ## Requisiti
 
-- Una scheda SD o unità USB
+- Una scheda SD o un'unità USB
 - [Yet Another BlueDump MOD](https://oscwii.org/library/app/Yet-Another-BlueDump-Mod)
 
 ## Istruzioni

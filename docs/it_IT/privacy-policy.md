@@ -1,6 +1,6 @@
 # Informativa sulla Privacy
 
-## Cookies
+## Cookie
 
 Questo sito utilizza i cookie al fine di facilitare l'indirizzamento degli utenti attraverso le istruzioni della guida. I cookie consentono alla barra laterale della pagina di visualizzare i progressi attuali attraverso il sito per aiutare gli utenti a navigare le istruzioni più facilmente.
 
@@ -10,7 +10,7 @@ Questo sito può includere contenuti incorporati (ad esempio video, immagini, ar
 
 Questi siti web potrebbero raccogliere dati su di te, utilizzare cookie, incorporare ulteriore monitoraggio di terze parti e monitorare la vostra interazione con quel contenuto incorporato, compreso il monitoraggio della tua interazione con il contenuto incorporato se hai un account e sei connesso a quel sito web.
 
-## Analytics
+## Analitiche
 
 Questo sito usa Google Analytics per monitorare e analizzare il traffico. Questo sito è ospitato da GitHub Pages, che potrebbe raccogliere dati su di te, utilizzare i cookie, incorporare tracking di terze parti e monitorare le tue interazioni con questo sito. Per ulteriori informazioni su Github Pages per quanto riguarda la privacy degli utenti, consulta la [Informativa sulla privacy di GitHub](https://help.github.com/en/articles/github-privacy-statement).
 

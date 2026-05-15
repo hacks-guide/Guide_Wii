@@ -21,13 +21,13 @@ Prevenire un brick comporta molte regole che variano da senso comune a backup di
   - Un esempio di modifica dei file errata è rimpiazzare l'IOS80 sul Wii mini, che potrebbe portare a un [brick dal Wi-Fi](bricks#wi-fi-brick).
 - **NON installare homebrew da fonti inaffidabili o se il codice sorgente non è disponibile.**
   - I software dall'[Open Shop Channel](osc) sono sicuri.
-  - Ci sono stati incidenti di software malevoli sviluppati per la console Wii in passato, mentre alcune app sono semplicemente sviluppate male. Assicurati di sapere ciò che stai installando, e installare solo quel che ti serve.
+  - Ci sono stati incidenti di software malevoli sviluppati per Wii in passato, mentre alcune app sono semplicemente sviluppate male. Assicurati di sapere ciò che stai installando, e installare solo quel che ti serve.
   - I forwarder per homebrew corrotti o non stabili potrebbero causare un [brick dal banner](#banner-brick), quindi continua a caricare gli homebrew dall'Homebrew Channel se non hai veramente bisogno di un forwarder.
 - **Assicurati di sapere quello che stai facendo quando esegui applicazioni homebrew - soprattutto quelli in grado di modificare i file di sistema. Sii PARTICOLARMENTE attento quando usi applicazioni come:**
   - AnyTitle Deleter
   - AnyRegion Changer
   - KoreanKii (causa secondaria del brick da [Korean Kii/Errore 003](bricks#koreankii-error-003-brick))
-  - Firmware Downgraders
+  - Downgrader del firmware
   - Qualsiasi altra app che modifica file di NAND critici o che consentono di portarli a versioni precedenti
 - **NON TOCCARE L'ALIMENTAZIONE O IL PULSANTE POWER QUANDO INSTALLI O MODIFICHI FILE DESTINATI AL SISTEMA.**
   - Se la tua elettricità è instabile (es. tempesta, blackout), interrompi quello che stavi facendo finché hai un'alimentazione stabile.
@@ -141,7 +141,7 @@ Tenendo premuti i tasti + e - sulla schermata di avviso, puoi entrare nella moda
 
 Da qui, l'Homebrew Channel pu\\`o essere caricato e il brick può essere risolto cancellando i dati della Bacheca Wii tramite [cdbackup](https://oscwii.org/library/app/cdbackup).
 
-### brick dal menu Wii o Opera
+### Brick dal menu Wii o Opera
 
 #### Sintomi
 
@@ -167,7 +167,7 @@ Alternativamente, puoi provare con la [modalità di recupero](recovery-mode).
 
 #### Sintomi
 
-Screen shows up as listed below on normal boot.
+Compare una schermata come la sottostante all'avvio.
 
 ```
 Error:003
@@ -211,7 +211,7 @@ Puoi ripristinare un backup della NAND, o puoi fare questo:
 
 Per vWii, vedi: [recuperare un canale/IOS vWii](https://wiiu.hacks.guide/recover-vwii-ioses-channels).
 
-### brick dal Wi-Fi
+### Brick dal Wi-Fi
 
 #### Sintomi
 

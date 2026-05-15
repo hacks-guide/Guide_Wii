@@ -4,7 +4,7 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 ## Vá para <code>Options</code> &#062; <code>Standard System Menu</code> &#062; Versão do seu Menu do Wii &#062; Região do seu Menu do Wii
 
-:::details Important Information
+:::info Important Information
 
 - csm-installer has built in safety features to prevent you from installing bad or corrupt Wii Menu themes. You are advised to use it instead of other theme installation homebrew to help prevent a brick.
 - Abaixo estão alguns links para temas.

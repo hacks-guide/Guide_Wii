@@ -30,7 +30,7 @@ Se stai cercando di [aggiornare la tua console Wii alla 4.3E](update) con homebr
 
 - Una scheda SD con un spazio disponibile minimo di 512MB (1GB o più sono consigliati)
 - Un [backup della NAND](bootmii) proveniente dalla tua console
-- Un computer Windows con una connessione a Internet
+- Un PC Windows con una connessione a Internet
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
 - [Nand BIN Checker](/assets/files/nandBinCheck.zip)
 

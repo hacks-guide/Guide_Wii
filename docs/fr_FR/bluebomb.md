@@ -16,7 +16,7 @@ Veuillez lire les informations importantes mentionnées avant de continuer.
 
 ## BlueBomb Classic
 
-:::details Informations Importantes
+:::info Informations Importantes
 
 - Si vous utilisez ce guide pour hacker une Wii Mini et que vous avez besoin d'aide, veuillez rejoindre [le serveur Discord pour hacker la Wii Mini](https://discord.gg/6ryxnkS).
 - Si vous utilisez la version originale de la Wii, il faut considérer [un autre moyen pour la hacker](get-started) car il existe des manières beaucoup plus faciles pour obtenir le programme d'installation HackMii. Toutefois, des exceptions existent dans des circonstances telles que la récupération de bricks.
@@ -141,7 +141,7 @@ Il est **fortement** conseillé de ne pas utiliser un tutoriel vidéo en génér
 
 ## BlueBomb Micro
 
-:::details Important Information
+:::info Important Information
 
 - Si vous utilisez ce guide pour hacker une Wii Mini et que vous avez besoin d'aide, veuillez rejoindre [le serveur Discord pour hacker la Wii Mini](https://discord.gg/6ryxnkS).
 - Si vous utilisez la version originale de la Wii, il faut considérer [un autre moyen pour la hacker](get-started) car il existe des manières beaucoup plus faciles pour obtenir le programme d'installation HackMii. Toutefois, des exceptions existent dans des circonstances telles que la récupération de bricks.

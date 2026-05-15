@@ -2,7 +2,7 @@
 
 This guide provides instructions on how to create Wii game shortcuts for game backups that you have on external storage devices, using a piece of software called WiiGSC (Wii Game Shortcut Creator). By creating game shortcuts, you can launch a game backup directly from the Wii Menu as if you had inserted the game as a regular disc.
 
-:::details Important Information
+:::info Important Information
 
 - Your browser or antivirus software may flag WiiGSC as malware - this is a false positive. WiiGSC does NOT contain any malware.
 - Wii Menüsü 48 kanal limitine sahiptir, sistem kanallarını saymazsak.

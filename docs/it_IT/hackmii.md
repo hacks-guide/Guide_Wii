@@ -32,7 +32,7 @@ Puoi anche rieseguire qualsiasi exploit per ritornare nell'HackMii Installer.
 
 ## Rieseguire tramite Priiloader
 
-### Requirements
+### Requisiti
 
 - una console Wii con Priiloader (o Preloader) installato
 - Una scheda SD o un'unità USB formattata in FAT32/MS-DOS
@@ -50,7 +50,7 @@ Preloader e versioni più vecchie di Priiloader non sembrano supportare le sched
 
 :::
 
-### Instructions
+### Istruzioni
 
 1. Inserisci la tua SD/USB nel tuo PC.
 2. Copia il file `boot.elf` dal `.zip` di HackMii Installer v1.2 nella root della tua scheda SD o unità USB.
