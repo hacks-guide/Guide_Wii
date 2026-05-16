@@ -79,10 +79,10 @@ TinyWiiBackupManager is a new, lightweight game backup manager programmed in Rus
 
 #### Requirements
 
-* A PC running Windows XP or later
+* A PC running Windows 7 or later
 * A USB drive or SD card
 * A dumped Wii/GameCube game disc (any format)
-* [TinyWiiBackupManagerInstaller](https://github.com/mq1/TinyWiiBackupManagerInstaller/releases/latest/download/TinyWiiBackupManagerInstaller.exe) (or alternatively [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest))
+* [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
 
 #### Instructions
 
@@ -123,7 +123,7 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
 #### Requirements
 
-* A PC running macOS 10.13 or later
+* A PC running macOS 10.12 or later
 * A USB drive or SD card
 * A dumped Wii/GameCube game disc (any format)
 * [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
@@ -189,7 +189,7 @@ TinyWiiBackupManager can be installed from the Flathub repository as a Flatpak, 
 
 ###### Flatpak
 
-1. Ensure that FlatPak is [installed on your system](https://flathub.org/en/setup).
+1. Ensure that Flatpak is [installed on your system](https://flathub.org/en/setup).
 1. Navigate to the [Flathub repository for TWBM](https://flathub.org/en/apps/it.mq1.TinyWiiBackupManager) and press the Install button. If nothing happens, download the `.flatpakref` file and open it to find the program in your distro's app store. If nothing happens again, run `flatpak install flathub it.mq1.TinyWiiBackupManager` in your terminal.
 
     ![](/images/desktop-apps/TWBM/twbm-linux-flatpak-dl.png)
