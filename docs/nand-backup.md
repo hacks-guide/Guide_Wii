@@ -28,7 +28,7 @@ On Wii consoles with a usable USB port or SD card slot, nanddumper@ios allows fo
 
 Please read the below information before proceeding further.
 
-::: tip
+::: info
 
 **Important Information**
 
@@ -93,7 +93,7 @@ On Wii consoles with an SD card slot, BootMii allows for backing up and restorin
 
 Please read the below information before proceeding further.
 
-::: tip
+::: info
 
 **Important Information**
 
