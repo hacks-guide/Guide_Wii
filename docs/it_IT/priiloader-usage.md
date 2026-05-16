@@ -1,36 +1,36 @@
 # Usare Priiloader
 
-Priiloader è un'utilità essenziale che aggiunge un livello di protezione da brick sul tuo Wii. Si carica prime se si carichi il Menu di Sistema Wii. Può anche applicare hack che possono essere utilizzate per migliorare, sbloccare e/o correggere molte funzioni del Menu di sistema.
+Priiloader è un'utilità essenziale che aggiunge un livello di protezione da brick sulla tua console Wii. Si carica prima del menu di sistema. Può anche applicare hack che possono essere utilizzate per migliorare, sbloccare e/o correggere molte funzioni della console.
 
-Inoltre, può essere usato per avviare rapidamente titoli e homebrew, oppure per cambiare l'ordine di autoboot del Wii.
+Inoltre, può essere usato per avviare rapidamente titoli e homebrew, oppure per cambiare l'ordine di avvio di Wii.
 
 Questa pagina elenca alcune funzioni utili di Priiloader che potrebbero interessarti.
 
-## Hack Menu di Sistema
+## Menu Hack di sistema
 
-Priiloader ha una vasta selezione di opzioni che, una volta attivate, cambiano il comportamento del Wii con uno a tuo piacimento. You can find more information on each hack on the [Priiloader hacks list](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Additionally, you can visit the [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html) which has more relevant information regarding System Menu hacks.
+Priiloader ha una vasta selezione di opzioni che, una volta attivate, cambiano il comportamento di Wii con uno a tuo piacimento. Inoltre, puoi visitare le [domande frequenti su Priiloader](https://dacotaco.github.io/priiloader/docs/FAQ.html), che ha informazioni più rilevanti che riguardano queste hack. Puoi trovare più informazioni su ogni opzione [in questa lista](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html).
 
 ## Opzioni aggiuntive
 
-Queste sono alcune cose extra che puoi fare con Priiloader per migliorare la tua esperienza homebrew. Questo è facoltativo.
+Queste sono alcune cose extra che puoi fare con Priiloader per migliorare la tua esperienza homebrew. Ciò è facoltativo.
 
-### Autoboot con Priiloader
+### Avvio automatico con Priiloader
 
-Priiloader ti permette l'avvio automatico dell'Homebrew Channel, un'individuale app homebrew, o Priiloader stesso. Questo è facoltativo.
+Priiloader ti permette l'avvio automatico dell'Homebrew Channel, un'app homebrew a piacimento, o Priiloader stesso. Ciò è facoltativo.
 
-#### Autoboot a un applicazione homebrew
+#### Avvio automatico su un homebrew
 
 ::: warning
 
-Se si desidera fare l'autoboot a USB Loader GX, inizia con quanto segue:
+Se desideri avviare automaticamente su USB Loader GX, inizia con quanto segue:
 
-- Download the USB Loader GX forwarder WAD ([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
-- Download the [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
-- Install the forwarder WAD with a WAD manager like [YAWM ModMii Edition](yawmme).
-- Extract the `UNEO Channel Booter for Priiloader.zip` file anywhere.
-- Copy `uneoboot.dol` to the root of your SD card.
+- Scarica il WAD del forwarder di USB Loader GX([Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad), [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad)).
+- Scarica [UNEO Channel Booter for Priiloader](https://sourceforge.net/projects/usbloadergx/files/Releases/Forwarders%20dols/UNEO%20Channel%20Booter%20for%20Priiloader.zip/download).
+- Installa il WAD del forwarder con un gestore WAD come [YAWM ModMii Edition](yawmme).
+- Estrai il file `UNEO Channel Booter for Priiloader.zip` dove vuoi.
+- Copia il file `uneoboot.dol` nella root della tua scheda SD.
 
-You will be installing `uneoboot.dol` in step 3.
+Installerai il `uneoboot.dol` nel passaggio 3.
 
 :::
 
@@ -38,7 +38,7 @@ You will be installing `uneoboot.dol` in step 3.
 
 2. Avvia Load Priiloader dalla lista degli homebrew.
 
-3. Scroll down to `Load/Install file` and press A.
+3. Scendi fino `Load/Install file` e premi A.
 
    ![](/images/priiloader/menu_install_file.png)
 
@@ -48,61 +48,61 @@ You will be installing `uneoboot.dol` in step 3.
 
    ![](/images/priiloader/installing_file_ok.png)
 
-5. Press `B` to return to the main menu.
+5. Premi `B` per tornare al menu principale.
 
-6. Scroll down to `Settings` and press A.
+6. Scendi fino `Settings` e premi A.
 
    ![](/images/priiloader/menu_settings.png)
 
-7. Press Right to cycle through the Autoboot options until the `Installed file` option is selected.
+7. Premi a Destra per scorrere le opzioni di avvio automatico finchè `Installed file` è selezionato.
 
    ![](/images/priiloader/autoboot_installed_file.png)
 
-8. Scroll down to `save settings` and press A.
+8. Scendi fino `save settings` e premi A.
 
    ![](/images/priiloader/settings_save.png)
 
-9. Press `B` to return to the main menu.
+9. Premi `B` per tornare al menu principale.
 
-10. Scroll back up to `System Menu` and press A.
+10. Sali fino `System Menu` e premi A.
 
-Ora il tuo Wii dovrebbe avviare la tua app homebrew installata in automatico.
+Ora la tua console Wii dovrebbe automaticamente avviare l'app homebrew installata.
 
-#### Autoboot all'Homebrew Channel o Priiloader
+#### Avvio automatico dell'Homebrew Channel o Priiloader
 
 1. Avvia l'Homebrew Channel
 
 2. Avvia Load Priiloader dalla lista degli homebrew.
 
-3. Scroll down to `Settings` and press A.
+3. Scendi fino `Settings` e premi A.
 
    ![](/images/priiloader/menu_settings.png)
 
-4. Premi a Destra per scorrere tra le opzioni di autoboot finché non viene selezionata l'opzione desiderata.
+4. Premi a Destra per scorrere tra le opzioni di avvio automatico finché non viene selezionata l'opzione desiderata.
 
-   - Disabled' avvierà il menu di Priiloader in automatico.
+   - `Disabled` avvierà il menu di Priiloader in automatico.
 
    ::: warning
 
-   Please don't set Autoboot to `BootMii IOS`. Sarai bloccato in un loop finché non tieni premuto il pulsante RESET per tornare nel menu di Priiloader.
+   Non impostare l'avvio automatico su `BootMii IOS`. Sarai bloccato in un loop finché non tieni premuto il pulsante RESET per tornare nel menu di Priiloader.
 
    :::
 
    ![](/images/priiloader/autoboot_disabled.png)
 
-5. Scroll down to `save settings` and press A.
+5. Scendi fino `save settings` e premi A.
 
    ![](/images/priiloader/settings_save.png)
 
-6. Press `B` to return to the main menu.
+6. Premi `B` per tornare al menu principale.
 
-7. Scroll back up to `System Menu` and press A.
+7. Sali fino `System Menu` e premi A.
 
 ---
 
 ::: tip
 
-[Click here to return to the main Priiloader guide.](priiloader)
+[Clicca qui per tornare alla guida principale di Priiloader.](priiloader)
 
 :::
 
@@ -110,6 +110,6 @@ Ora il tuo Wii dovrebbe avviare la tua app homebrew installata in automatico.
 
 ::: tip
 
-[Click here to go back to the site index.](site-navigation)
+[Clicca qui per tornare all'indice.](site-navigation)
 
 :::

@@ -45,28 +45,39 @@ Ha képes vagy csatlakoztatni a Wii-odat az internetre, átugorgathatsz a [II. r
 :::
 
 1. Kapcsold ki a konzolod és csatlakoztasd az SD kártyád vagy USB driveod a számítógépedhez.
+
 2. A számítógépeden töltsd le a [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/) rendszerednek megfelelő verzióját. A Windows felhasználók a `NUSGet-Windows-x86_64-bin.zip` fájlt kell válasszák.
+
 3. Csomagold ki a NUSGet futtatható állományt és indítsd el.
-4. Navigálz az `IOS` > `IOS 38` > `World`-höz és válaszd a `v4123` opciót. Vedd ki a pipát a `Keep encrypted contents` elől. Jelöld be a `Use a custom download directory` opciót és válaszd a mappát ahol a NUSGet futtatható állomány is található, majd kattints a `Start Download` opcióra.
+
+4. Navigálj az `IOS` > `IOS 38` > `World`-höz és válaszd a `v4123` opciót. Vedd ki a pipát a `Keep encrypted contents` mellől majd kattints a `Start Download`-ra.
 
    ![](/images/desktop-apps/nusget/nusget-4123.png)
+
 5. Ismételd meg a fenti lépéseket az `IOS 56 (v5661)`, `IOS 57 (v5918)` és az `IOS 58 (v6175)` beszerzéséhez is.
-6. Ha befejeződött a fenti IOS fájlok letöltése, navigálj a mappába, ahol a NUSGet futtatható állomány található. Ez most négy könyvtárat kell tartalmazzon a title ID-jukkal a fenti IOS-oknak.
+
+6. Ha befejezted a a fenti IOS letöltését, kattints mappára a `Start Download` mellett. Ez meg fogja nyitni a fájlkezelődet a NUSGet letöltési mappájába.
+   ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
+
+7. Ez most négy könyvtárat kell tartalmazzon a title ID-jukkal a fenti IOS-oknak, ahogy alább látható.
 
    ![](/images/desktop-apps/nusget/nusget-folder-ios.png)
-7. Lépj be mind a négy könyvtárba és keresd meg az `IOS-XX-vXXXX-Wii.wad` fájlt mindegyikben.
+
+8. Lépj be mind a négy könyvtárba és keresd meg az `IOS-XX-vXXXX-Wii.wad` fájlt mindegyikben.
 
    ![](/images/desktop-apps/nusget/nusget-ios-output.png)
-8. Helyezd az összes WAD-fájlt az SD kártya vagy USB drive gyökerére.
-   - Ezen az eszközön legyen a d2x cIOS-telepítő is.
-9. Biztosítsd, hogy minden WAD fájl úgy nevezett mint a listában alább, a d2x-cios-installer-rel kompatiblitáshoz:
 
-   |   IOS  |               Fájlnév              |
-   | :----: | :--------------------------------: |
-   | IOS 38 | IOS38-64-v4123.wad |
-   | IOS 56 | IOS56-64-v5661.wad |
-   | IOS 57 | IOS57-64-v5918.wad |
-   | IOS 58 | IOS58-64-v6175.wad |
+9. Helyezd az összes WAD-fájlt az SD kártya vagy USB drive gyökerére.
+   - Ezen az eszközön legyen a d2x cIOS-telepítő is.
+
+10. Biztosítsd, hogy minden WAD fájl úgy nevezett mint a listában alább, a d2x-cios-installer-rel kompatiblitáshoz:
+
+    |   IOS  |               Fájlnév              |
+    | :----: | :--------------------------------: |
+    | IOS 38 | IOS38-64-v4123.wad |
+    | IOS 56 | IOS56-64-v5661.wad |
+    | IOS 57 | IOS57-64-v5918.wad |
+    | IOS 58 | IOS58-64-v6175.wad |
 
 ::: info
 

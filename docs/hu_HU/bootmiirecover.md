@@ -4,7 +4,7 @@ Ez az útmutató végigvezet egy biztonsági mentés visszatöltésén a BootMii
 
 Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
-:::details Fontos információ
+:::info Fontos információ
 
 - A Family Edition Wii-ok és Wii mini-k **NEM TUDNAK** helyreállítani NAND mentést. A biztonsági mentés visszaállításához egy olyan megerősítő kódot kell megadnod, amihez egy GameCube-vezérlő szükséges. További támogatásért kérj segítséget a [Nintendo Homebrew discord szerveren](https://discord.gg/C29hYvh).
 

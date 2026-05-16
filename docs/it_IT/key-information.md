@@ -1,85 +1,85 @@
-# Key Information
+# Informazioni Chiave
 
-This page outlines important information and disclaimers that you should be aware of before starting with the modding process.
+Questa pagina delinea informazioni importanti e sottolinea aspetti di cui dovresti essere a conoscenza prima di iniziare col processo di modifica.
 
-## Bricks and Common Risks
+## Brick e rischi comuni
 
-When following the guide or using specific kinds of homebrew, there is a risk that you may brick your console - or put it into a state where it is partially or fully unusable. To prevent this, please follow the guide **exactly as written** and follow precautions when stated. Common risks for bricking are slated as below:
+Seguendo la guida o usando qualsiasi tipo di homebrew, c'è il rischio di poter brickare la tua console - o metterla in uno stato dove è parzialmente o totalmente inusabile. Per prevenire ciò, segui questa guida **esattamente come è stata scritta** e segui le precauzioni quando indicato. I richi comuni dei brick sono elencati sotto:
 
-- Following old modding tutorials or video guides unless explicitly recommended due to outdated or incorrect information
-- Restoring NAND backups from other consoles
-- Installing cIOS packs like DARKCORP
-- Installing updates intended for another region, or region changing your console
-- Modifying system files
+- Seguire tutorial sulla modifica vecchio o videoguide a causa di informazioni obsolete o non corrette, a meno che non siano esplicitamente raccomandati
+- Ripristinare backup della NAND da altre console
+- Installare pacchetti di cIOS come DARKCORP
+- Installare aggiornamenti intesi per altre regioni, o cambiare quella della tua console
+- Modificare i file di sistema
 
-Please consult the [bricks guide](bricks) for more information.
+Consulta la [guida sui brick](bricks) per maggiori informazioni.
 
-## Console Compatibility
+## Compatibilià con console
 
-This guide works with all off-the-shelf retail Wiis, including Wii mini and the Wii U's Wii mode.
-It does **NOT** work with development Wiis, including models:
+Questa guida funzionerà con tutte le console Wii sul mercato, incluse Wii mini e la modalità Wii di Wii U.
+**NON** funzionerà con kit di sviluppo, come:
 
 - RVT-001 (NDEV)
-- RVT-002 (green frontplate)
-- RVT-005 (red frontplate)
+- RVT-002 (facciata verde)
+- RVT-005 (facciata rossa)
 
-Important notes relating to specific Wiis are below.
+Note importanti su Wii specifiche sono elencate sotto.
 
-:::: details What if I own a Korean Wii?
+:::: details E se sono in possesso di una console WIi coreana?
 
-Korean Wiis are fully supported by the guide and can be modded using normal procedures. They can also be region changed.
-Exercise caution when modifying region data and follow the guide carefully to avoid a brick.
-
-::::
-
-:::: details What if I own a Wii U and want to exploit Wii mode?
-
-Wii mode on Wii U (called vWii in the homebrew community) is fully supported by the guide, however it is recommended to setup an Aroma environment before starting.
-Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew).
-Storage devices will need additional power (either using a Y-cable or an external power source), as the Wii U's USB ports do not provide sufficient power on their own.
-Make sure to use IOS and homebrew that are designed specifically for vWii in order to avoid bricking the console.
+Le console Wii coreane sono completamente supportate da questa guida e possono essere modificate usando le procedure normali. Possono anche essere cambiate di regione.
+Fai attenzione quando modifichi la regione e segui la guida attentamente per evitare brick.
 
 ::::
 
-:::: details What if I own a Wii mini?
+:::: details E se sono in possesso di una console Wii U e voglio modificare la modalità Wii?
 
-Wii Mini is fully supported by the guide and has compatibility with most existing homebrew.
-Missing Wii features can be restored. A LAN adapter and USB hub are recommended.
-Make sure to use IOS and homebrew that are designed specifically for the Wii mini in order to avoid bricking the console.
+La modalità Wii su Wii U (chiamata vWii nella comunità homebrew) è completamente supportata da questa guida, anche se è consigliato configurare l'ambiente Aroma prima di iniziare.
+Le funzioni Wii mancanti possono essere ripristinate. Quasi tutti gli homebrew esistenti sono al momento supportati (eccetto per gli homebrew GameCube).
+I dispositivi di archiviazione necessiteranno di energia aggiuntiva (tramite un cavo a Y o alimentazione esterna), poiché le porte USB di Wii U non ne forniscono a sufficienza da sole.
+Assicurati di usare gli IOS e gli homebrew progettati specificamente per la vWii al fine di evitare brick.
 
 ::::
 
-## Storage Compatibility
+:::: details E se sono in possesso di una console WIi mini?
 
-For SD cards, you will want a minimum of 128MB to run an exploit. On average, however, you will want a card that is sized 2GB or more. The Wii can read SD cards of most capacities (even those larger than 32GB), but the card must be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**not** exFAT or NTFS).
+Le console Wii mini sono completamente supportate da questa guida e hanno compatibilità con la maggior parte degli homebrew esistenti.
+Le funzioni Wii mancanti possono essere ripristinate. Un adattatore LAN e un hub USB sono consigliati.
+Assicurati di usare gli IOS e gli homebrew progettati specificamente per Wii mini al fine di evitare brick.
 
-For USB devices, you will want to use a USB hard drive or solid state drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). We do not recommend using flash drives as they are prone to failure or not working as intended with a Wii.
+::::
 
-2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch drives consume more power and will always need an external power adapter. For Wii U and Wii mini users, you will probably want to use an externally powered USB hub or a Y-cable for drives that operate off of USB power alone, due to power draw.
+## Compatibilità con unità di archiviazione
 
-Please consult [the storage FAQ](faq#storage-device-faq) for more information.
+Per schede SD, è sufficiente una da 128MB per eseguire un exploit. In media, tuttavia, si desidera una SD di dimensioni pari o superiori a 2GB. La console Wii può leggere schede SD di molte capienze (anche quelle più larghe di 32GB), ma devono essere [formattate in FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**non** exFAT o NTFS).
 
-## Network Compatibility
+Per dispositivi USB, dovresti usare un disco rigido USB o un disco solido [formattato in FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). Non consigliamo l'uso di chiavette USB in quando sono proni a fallire o non funzionare correttamente con la console Wii.
 
-The Wii is an aging console, and as such, may have difficulties connecting to modern wireless networks.
+I dischi da 2,5 pollici dovrebbero funzionare con l'elettricità data dalla porta USB della console Wii stessa; quelli da 3,5 pollici consumano più energia e necessiteranno quasi sicuramente di un alimentatore esterno. Per utenti Wii U e Wii mini, dovreste usare un hub USB alimentato esternamente o un cavo a Y per unità che richiedono più energia di quel che le porte USB della console possono fornire.
 
-Its network hardware is based on 802.11g (retroactively named Wi-Fi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use Wi-Fi with your Wii.
+Consulta le [domande frequenti sull'archiviazione](faq#storage-device-faq) per maggiori informazioni.
 
-For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch) Aroma plugin.
+## Compatibilità di rete
 
-Please consult [the network FAQ](faq#networking-faq) for more information.
+La console Wii è abbastanza vecchia e, in quanto tale, potrebbe avere difficoltà a connettersi alle reti wireless moderne.
 
-## Getting Help
+Il suo hardware di rete si basa su 802.11g (retroattivamente chiamato Wi-Fi 3), che opera sulla banda 2.4 GHz. Supporta anche un massimo di crittografia di rete personale WPA2-PSK (AES). Assicurati che la tua rete supporti questi standard se desideri usare il Wi-Fi con la tua console Wii.
 
-Ran into an issue while following the guide, already have an issue on your modded Wii, or just have a question?
+Per Wii U, la vWii utilizza le impostazioni Internet impostate nelle impostazioni di Wii U, ma può essere opzionalmente separato con il plugin Aroma [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch).
 
-- If your question isn't already answered on this page, it may be answered in the [FAQs](faq) section of the guide.
-- If your question still isn't answered and you need support, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel.
+Consulta le [domande frequenti di rete](faq#networking-faq) per maggiori informazioni.
+
+## Ottenere assistenza
+
+Hai riscontrato un problema sequendo la guida, ne avevi già una con la tua Wii modificata, o hai una domanda?
+
+- Se la tua domanda non è già stata risposta in questa pagina, potrebbe esserlo nella sezione [domande frequenti](faq) della guida.
+- Se la tua domanda non è ancora soddisfatta e hai bisogno di supporto, unisciti al server Discord di [Nintendo Homebrew](https://discord.gg/C29hYvh) (in inglese) e vai al canale `#wii-vwii-assistance`.
 
 ::: tip
 
-Continue to [Get Started](get-started)
+Continua con [Cominciamo](get-started)
 
-Once you have finished reading the above disclaimers, proceed to Get Started to select your console and initial exploit method.
+Una volta finito di leggere le note sopra, procedi con Cominciamo e seleziona la tua console e l'exploit da usare.
 
 :::

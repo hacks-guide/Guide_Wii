@@ -10,7 +10,9 @@ This exploit also enables recovery from certain bricks in the event of no other 
 
 Please read the listed important information before proceeding.
 
-::: details Important Information
+::: info
+
+**Important Information**
 
 * If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking discord server](https://discord.gg/6ryxnkS).
 * If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
@@ -19,6 +21,8 @@ Please read the listed important information before proceeding.
 :::
 
 ::: danger
+
+**Important Warning**
 
 It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
 
@@ -133,11 +137,17 @@ Now that you are in the HackMii Installer, you will be able to install the Homeb
 
 ::::
 
-:::: tab BlueBomb Micro (RPi or ESP32)
+:::: tab BlueBomb Micro (RPi/ESP32)
 
 ## BlueBomb Micro
 
 BlueBomb Micro utilizes a Raspberry Pi Pico or ESP32 to upload an exploit to the Wii via Bluetooth.
+
+::: warning
+
+If you get an error `Exception 0700 occurred!` or similar, try the exploit again. If this continues to happen, join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) for support.
+
+:::
 
 ### Requirements
 

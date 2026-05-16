@@ -4,7 +4,7 @@ You need an <strong x-id="1">SD card</strong> to use BootMii at all, but especia
 
 Please read the below information before proceeding further.
 
-:::details Important Information
+:::info Important Information
 
 - After the completion of this guide, two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
 

@@ -16,7 +16,7 @@ Please read the listed important information before proceeding.
 
 ## BlueBomb 클래식
 
-:::details Important Information
+:::info Important Information
 
 - If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
 - If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. 그러나 벽돌 회수와 같은 상황에서는 예외도 있습니다.
@@ -141,7 +141,7 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
 ## BlueBomb 마이크로
 
-:::details Important Information
+:::info Important Information
 
 - If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
 - If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. 그러나 벽돌 회수와 같은 상황에서는 예외도 있습니다.

@@ -67,7 +67,7 @@ System Channel Restorer is a homebrew app that restores channels missing from th
 
 ## WiiWare 4:3 DB Patcher
 
-WiiWare 4:3 DB Patcher is a homebrew app that patches the vWii's 4:3 aspect ratio database, such that WiiWare and Virtual Console titles may utilize the 16:9 aspect ratio where they normally cannot.
+WiiWare 4:3 DB Patcher is a homebrew app that patches the vWii's 4:3 aspect ratio database, allowing the use of the 16:9 aspect ratio in the Everybody Votes and Mii Contest/Check Mii Out Channels.
 
 ### 操作說明
 
