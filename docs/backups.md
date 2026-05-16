@@ -88,10 +88,9 @@ TinyWiiBackupManager is a new, lightweight game backup manager programmed in Rus
 
 ##### Section I - Installation
 
-1. Download `TinyWiiBackupManagerInstaller.exe` and run the installer. If you get a Windows SmartScreen message, simply run anyway as this is a false positive.
-1. Let the installer run, and then launch TinyWiiBackupManager once the process is finished.
+1. Download the windows binary for your architecture. Most users should download `TinyWiiBackupManager-vX.X.X-windows-x64.exe`.
 
-    ![](/images/desktop-apps/TWBM/twbmi-install.png)
+1. Run the downloaded `.exe`. If you get a Windows SmartScreen message, simply run anyway as this is a false positive.
 
 ##### Section II - Copying Games
 
@@ -198,7 +197,7 @@ TinyWiiBackupManager can be installed from the Flathub repository as a Flatpak, 
 
 ###### AppImage
 
-1. Download the AppImage binary for your system and architecture. Most users should download `TinyWiiBackupManager-vX.X.X-linux-x86_64.AppImage`.
+1. Download the AppImage binary for your architecture. Most users should download `TinyWiiBackupManager-vX.X.X-linux-x86_64.AppImage`.
 
     ![](/images/desktop-apps/TWBM/twbm-linux-appimage-dl.png)
 
