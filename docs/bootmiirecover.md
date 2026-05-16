@@ -4,7 +4,9 @@ This guide will provide instructions on how to restore a backup of your NAND wit
 
 Please read the information below before proceeding further.
 
-::: info Important Information
+::: info
+
+**Important Information**
 
 * Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
@@ -43,7 +45,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 ## Requirements
 
 * A Wii with BootMii as IOS or BootMii as boot2 installed
-* An earlier NAND Backup for your specific Wii made by [BootMii](bootmii)
+* An earlier NAND Backup for your specific Wii made by [BootMii OR nanddumper@ios](nand-backup)
 
 ## Instructions
 
