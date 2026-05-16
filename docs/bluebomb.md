@@ -217,6 +217,7 @@ A normal Raspberry Pi Pico will not work. It MUST be the wireless model. Additio
 1. Press the Sync button repeatedly until the Pico W LED begins to rapidly flash, at which point it will start uploading the exploit.
     * This could take numerous attempts.
 1. If the exploit was successful, you should see a similar screen to the below, after which the HackMii installer should load.
+    * You may now unplug your microcontroller at this point.
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
@@ -295,7 +296,6 @@ BlueMii utilizes another Wii to upload an exploit to the Wii via Bluetooth.
     ![](/images/exploits/bluebomb/bluemii-handle.png)
 
 1. If the exploit was successful, you should see a similar screen to the below, after which the HackMii installer should load.
-    * If you are not planning to use it later, you can now shut down your Linux distro.
 
     ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
