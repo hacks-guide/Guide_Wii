@@ -16,6 +16,8 @@ Your NAND backup can be utilized in Dolphin Emulator, if you choose to do so.
 1. Locate the `nand.bin` found on the root of your SD card and select Open.
 1. If it asks for a `keys.bin`, locate it on the root of your SD and select Open.
 
+Note that you will need to rename your NAND dump to the files above if you used **nanddumper@ios**, as described in the below section.
+
 :::
 
 ::::: tabs
