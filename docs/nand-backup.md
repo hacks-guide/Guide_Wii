@@ -4,23 +4,7 @@ outline: false
 
 # Creating a NAND Backup (Wii)
 
-In order to protect your Wii from permanant bricks, this guide will instruct you on how to create a NAND backup.
-
-::: tip
-
-**For standard Wii consoles**
-
-If you own a standard Wii console, you will want to select **BootMii**, unless you do NOT have an SD card on hand, in which case you will want to select **nanddumper@ios**.
-
-:::
-
-::: tip
-
-**For Wii minis**
-
-If you own a Wii mini, most users will want to select **nanddumper@ios**. If you have soldered an SD card slot to your console, you can select **BootMii**.
-
-:::
+In order to protect your Wii from permanant bricks, this guide will instruct you on how to create a NAND backup. Most users will want to select **nanddumper@ios**, with **BootMii** as a backup option for users that can use an SD card.
 
 ::: details Importing NAND Backup to Dolphin Emulator
 
@@ -38,23 +22,26 @@ Your NAND backup can be utilized in Dolphin Emulator, if you choose to do so.
 
 :::: tab nanddumper@ios (dump to USB drive or SD card)
 
-On Wii consoles with a usable USB port or SD card slot, nanddumper@ios allows for backing up your Wii's NAND storage. nanddumper@ios is recommended over BootMii due to its faster speed in creating a NAND backup. This section will guide you through the process to back up your Wii's NAND, which you can then use however you like.
+On Wii consoles with a usable USB port or SD card slot, nanddumper@ios allows for backing up your Wii's NAND storage. nanddumper@ios is recommended over BootMii due to its quicker speed in creating a NAND backup. This section will guide you through the process to back up your Wii's NAND, which you can then use however you like.
 
 Please read the below information before proceeding further.
 
-::: details Important Information
+::: tip
+
+**Important Information**
 
 * After the completion of this guide, four files will have been created in the directory `/wii/backups` on your USB drive. `DATE_SERIAL_nand_XX.bin` is your NAND backup, and `SERIAL_keys.bin` is the file containing your console keys. `DATE_SERIAL_nand_XX.bin.sha1` and `sha1sums.txt` respectively are files containing checksums to verify the integrity of your backups, and will not be used in an actual NAND restoration.
 
 * Please note that **restoring a NAND backup is usually a last resort**. With that said, you can use the [BootMii Recovery guide](bootmiirecover) to restore your NAND backup, where more information is provided about the risks and alternatives. You can ONLY use BootMii to restore a NAND backup if you have a usable SD card slot, as described below.
 
-* If you are a Wii mini user or DO NOT have a usable SD card slot, you will be UNABLE to restore your NAND backup without hardware modification. This is because [BootMii Restore](bootmiirecover) requires an SD card slot to read the NAND from, as well as a GameCube controller to enter the Konami code with to confirm IOS restorations.
+* If you are a Wii mini user or DO NOT have a usable SD card slot, you will be UNABLE to restore your NAND backup without hardware modification. This is because [BootMii Restore](bootmiirecover) requires an SD card slot to read the NAND from.
+
+* If you DO NOT have a usable GameCube controller port, you will also be UNABLE to restore your NAND backup without hardware modification. This is because [BootMii Restore](bootmiirecover) requires a GameCube controller port to enter the Konami code with for consoles that do not have BootMii as boot2.
 
 :::
 
 ## Requirements
 
-* A Wii
 * A USB drive or SD card formatted as FAT32, with a minimum 512MB of free space (1GB or more recommended)
 * [nanddumper@ios](https://oscwii.org/library/app/nanddumper_ios)
 
@@ -92,7 +79,7 @@ Please read the below information before proceeding further.
 
 Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.
 
-If you are on Wii mini, this is your primary level of brick protection.
+If you are on Wii mini, this is your primary means of brick protection.
 
 :::
 
@@ -104,7 +91,9 @@ On Wii consoles with an SD card slot, BootMii allows for backing up and restorin
 
 Please read the below information before proceeding further.
 
-::: details Important Information
+::: tip
+
+**Important Information**
 
 * After the completion of this guide, two files will have been created on the root of your SD Card: `nand.bin` and `keys.bin`. `nand.bin` is a backup of your console's internal memory, while `keys.bin` are your console's keys.
 
@@ -128,11 +117,14 @@ Please read the below information before proceeding further.
 
 * If the screen stays black and the blue disc drive light is blinking upon launching BootMii, you are missing the BootMii files on your SD card. Download [this zip file](/assets/files/bootmii_sd_files.zip) and extract it to the root of your SD card, then try again.
 
+* BootMii cannot be used on the Wii mini without hardware modification. Use **nanddumper@ios** if you are a Wii mini user.
+
 :::
 
 ## Requirements
 
 * An SD card with a minimum 512MB of free space (1GB or more recommended)
+* [BootMii](hbc)
 
 ## Instructions
 
@@ -167,21 +159,6 @@ Please read the below information before proceeding further.
 1. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
 
     ![](/images/bootmii/BootMii_Return.png)
-
-## Autobooting
-
-If you were able to install BootMii as boot2, but don't want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This should make it so you don't even notice you have BootMii installed as boot2.
-
-1. Open `SD:/bootmii/bootmii.ini` with a text editor, such as notepad.
-1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
-1. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
-1. Save the file and exit.
-
-::: info
-
-You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
-
-:::
 
 ---
 

@@ -76,7 +76,7 @@ Please note that if you install Bootmii as boot2, your disc drive will flash ver
 
     ![](/images/hbc/blank.png)
 
-### Required Reading
+### Post-Installation Info
 
 You can now use the Homebrew Channel to launch homebrew apps, as well as BootMii for backing up and restoring your NAND if you were able to install it.
 
@@ -96,6 +96,21 @@ Note: When installing homebrew applications on your SD Card or USB drive, your f
 ```
 
 `AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
+
+### Autobooting
+
+If you were able to install BootMii as boot2, but don't want to load the BootMii screen every time you turn on the Wii, you have the option of setting it to autoboot to the system menu. This will restore your console behavior to booting to the system menu instaed of to BootMii.
+
+1. Open `SD:/bootmii/bootmii.ini` with a text editor.
+1. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
+1. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
+1. Save the file and exit.
+
+::: info
+
+You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
+
+:::
 
 ---
 
