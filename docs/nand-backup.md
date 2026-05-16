@@ -36,7 +36,69 @@ Your NAND backup can be utilized in Dolphin Emulator, if you choose to do so.
 
 ::::: tabs
 
-:::: tab BootMii (dump to SD card)
+:::: tab nanddumper@ios (dump to USB drive or SD card)
+
+On Wii consoles with a usable USB port or SD card slot, nanddumper@ios allows for backing up your Wii's NAND storage. nanddumper@ios is recommended over BootMii due to its faster speed in creating a NAND backup. This section will guide you through the process to back up your Wii's NAND, which you can then use however you like.
+
+Please read the below information before proceeding further.
+
+::: details Important Information
+
+* After the completion of this guide, four files will have been created in the directory `/wii/backups` on your USB drive. `DATE_SERIAL_nand_XX.bin` is your NAND backup, and `SERIAL_keys.bin` is the file containing your console keys. `DATE_SERIAL_nand_XX.bin.sha1` and `sha1sums.txt` respectively are files containing checksums to verify the integrity of your backups, and will not be used in an actual NAND restoration.
+
+* Please note that **restoring a NAND backup is usually a last resort**. With that said, you can use the [BootMii Recovery guide](bootmiirecover) to restore your NAND backup, where more information is provided about the risks and alternatives. You can ONLY use BootMii to restore a NAND backup if you have a usable SD card slot, as described below.
+
+* If you are a Wii mini user or DO NOT have a usable SD card slot, you will be UNABLE to restore your NAND backup without hardware modification. This is because [BootMii Restore](bootmiirecover) requires an SD card slot to read the NAND from, as well as a GameCube controller to enter the Konami code with to confirm IOS restorations.
+
+:::
+
+## Requirements
+
+* A Wii
+* A USB drive or SD card formatted as FAT32, with a minimum 512MB of free space (1GB or more recommended)
+* [nanddumper@ios](https://oscwii.org/library/app/nanddumper_ios)
+
+## Instructions
+
+1. Download the recommended `.zip` file from the Open Shop Channel website.
+1. Extract the `apps` folder in the archive to the root of your SD card or USB drive.
+1. Insert the SD card or USB drive into your Wii, and start the Homebrew Channel. Press `1` and ensure that the device you are using is selected, and then open nanddumper@ios.
+    * If you get an **Exception IOS occurred!** error, simply restart your Wii and try again.
+
+    ![](/images/nanddumper@ios/select-hbc.png)
+
+1. nanddumper@ios will start and dump your console keys upon opening, if they are not already on your drive. Press any button that is NOT the `HOME`, `START`, or `EJECT` buttons to begin dumping your console's NAND storage.
+    * If you get a **No storage devices are attached** error, ensure that your SD card or USB drive is directly connected to your Wii. If using a USB drive, it should NOT be connected to a USB hub.
+  
+    ![](/images/nanddumper@ios/dump-startup.png)
+
+1. Your console's NAND will now begin dumping. Please wait for the NAND dump to finish before proceeding.
+
+    ![](/images/nanddumper@ios/dump-in-progress.png)
+
+1. Once the NAND backup has concluded, press any button to exit nanddumper@ios. Your NAND backup and console keys will be output to your USB drive in directory `/wii/backups/`.
+
+    ![](/images/nanddumper@ios/dump-complete.png)
+
+1. On your computer, ensure that you rename `DATE_SERIAL_nand_XX.bin` to `nand.bin`, and `SERIAL_keys.bin` to `keys.bin`. This ensures that BootMii can properly parse your NAND backup in the event that it needs to be restored.
+
+    ![](/images/nanddumper@ios/rename-files.png)
+
+---
+
+::: tip
+
+[Continue to Priiloader Installation](priiloader)
+
+Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.
+
+If you are on Wii mini, this is your primary level of brick protection.
+
+:::
+
+::::
+
+:::: tab BootMii (backup method)
 
 On Wii consoles with an SD card slot, BootMii allows for backing up and restoring your Wii's NAND storage. This section will guide you in backing up your Wii's NAND to an SD Card, which you can then use however you like.
 
@@ -60,7 +122,7 @@ Please read the below information before proceeding further.
 
 **Important Warnings**
 
-* You need an **SD card** to use BootMii. If you do not have an SD card on hand right now, but instead have a usable USB drive, you can use the **nanddumper@ios** guide instead.
+* This is intended to be a backup option, as BootMii is slower than nanddumper@ios. You need an **SD card** to use BootMii. If you do not have an SD card on hand right now, but instead have a usable USB drive, you can use the nanddumper@ios guide instead.
 
 * If the `Launch BootMii` button does not appear in the Homebrew Channel, [re-launch the HackMii Installer](hackmii) and install BootMii.
 
@@ -132,69 +194,5 @@ Priiloader adds a secondary level of brick protection, and is highly recommended
 :::
 
 ::::
-
-:::: tab nanddumper@ios (dump to USB drive)
-
-On Wii consoles with a usable USB slot, nanddumper@ios allows for backing up your Wii's NAND storage. This section will guide you in backing up your Wii's NAND to an USB drive, which you can then use however you like.
-
-Please read the below information before proceeding further.
-
-::: details Important Information
-
-* After the completion of this guide, four files will have been created in the directory `/wii/backups` on your USB drive. `DATE_SERIAL_nand_XX.bin` is your NAND backup, and `SERIAL_keys.bin` is the file containing your console keys. `DATE_SERIAL_nand_XX.bin.sha1` and `sha1sums.txt` respectively are files containing checksums to verify the integrity of your backups, and will not be used in an actual NAND restoration.
-
-* Please note that **restoring a NAND backup is usually a last resort**. With that said, you can use the [BootMii Recovery guide](bootmiirecover) to restore your NAND backup, where more information is provided about the risks and alternatives. You can ONLY use BootMii to restore a NAND backup if you have a usable SD card slot, as described below.
-
-* If you are a Wii mini user or DO NOT have a usable SD card slot, you will be UNABLE to restore your NAND backup without hardware modification. This is because [BootMii Restore](bootmiirecover) requires an SD card slot to read the NAND from, as well as a GameCube controller to enter the Konami code with to confirm IOS restorations.
-
-:::
-
-::: danger
-
-**Important Warnings**
-
-* You need a **USB storage device** formatted to FAT32 to use nanddumper@ios. If you do not have an USB drive on hand right now, but instead have an SD card slot on your Wii with a usable SD card, you can use the **BootMii** guide instead.
-
-:::
-
-## Requirements
-
-* A Wii
-* A USB drive
-* [nanddumper@ios](https://oscwii.org/library/app/nanddumper_ios)
-
-## Instructions
-
-1. Download the recommended `.zip` file from the Open Shop Channel website.
-1. Extract the `apps` folder in the archive to the root of your SD card or USB drive.
-1. Insert the USB drive into your Wii, and start the Homebrew Channel. Press `1` and ensure that `USB device` is selected, and then open nanddumper@ios.
-    * If you get an **Exception IOS occurred!** error, simply restart your Wii and try again.
-
-    ![](/images/nanddumper@ios/select-hbc.png)
-
-1. nanddumper@ios will start and dump your console keys upon opening, if they are not already on your drive. Press any button that is NOT the `HOME`, `START`, or `EJECT` buttons to begin dumping your console's NAND storage.
-    * If you get a **No storage devices are attached** error, ensure that your USB device is directly connected to your Wii and NOT to a USB hub.
-  
-    ![](/images/nanddumper@ios/dump-startup.png)
-
-1. Your console's NAND will now begin dumping. Please wait for the NAND dump to finish before proceeding.
-
-    ![](/images/nanddumper@ios/dump-in-progress.png)
-
-1. Once the NAND backup has concluded, press any button to exit nanddumper@ios. Your NAND backup and console keys will be output to your USB drive in directory `/wii/backups/`.
-
-    ![](/images/nanddumper@ios/dump-complete.png)
-
----
-
-::: tip
-
-[Continue to Priiloader Installation](priiloader)
-
-Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.
-
-If you are on Wii mini, this is your primary level of brick protection.
-
-:::
 
 :::::
