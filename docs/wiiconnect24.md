@@ -1,10 +1,10 @@
 # WiiConnect24
 
-[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather and news, send messages to friends, participate in Mii contests, and more. WiiConnect24 was discontinued on June 27th, 2013. Although discontinued, there is a third party service called WiiLink that you can connect to which restores this functionality.
+[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather and news, send messages to friends, participate in Mii contests, and more. WiiConnect24 was discontinued on June 27th, 2013. Although discontinued, there is a third party service known as WiiLink which restores this functionality.
 
 ## WiiLink
 
-[WiiLink](https://www.wiilink.ca/) is a third party service for WiiConnect24 that allows you to regain and expand its functionality on your console. WiiLink hosts a patcher for enabling the services that it provides. It offers international channels (such as the Forecast and News Channels), as well as channels that were originally region-exclusive (such as Wii Room). The guide on how to install these services, as well as the patcher, can be found [on WiiLink's website.](https://www.wiilink.ca/guide/)
+[WiiLink](https://www.wiilink.ca/) is a third party service for WiiConnect24 that allows you to regain and expand its functionality on your console. WiiLink hosts a patcher for the services that it provides. They offer international channels such as the Forecast and News Channel, as well as region exclusive channels such as Wii Room. The guide to install WiiLink on your console can be found [on their website.](https://www.wiilink.ca/guide/)
 
 ## Updating RTC Clock
 

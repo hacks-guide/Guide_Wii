@@ -36,7 +36,7 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Navigate to `Internet` > `Console Information`.
+1. Navigate to `Internet` -> `Console Information`.
 1. Take note of your FULL MAC address.
 
     ![](/images/wii/MacAddress.png)
@@ -100,7 +100,7 @@ Now that you are in the HackMii Installer, you will be able to install the Homeb
 
     ![](/images/wii/SystemMenuVersion.png)
 
-1. Navigate to `Internet` > `Console Information`.
+1. Navigate to `Internet` -> `Console Information`.
 1. Take note of your FULL MAC address.
 
     ![](/images/wii/MacAddress.png)
