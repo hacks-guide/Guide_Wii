@@ -8,7 +8,7 @@ Ez az oldal a Priiloader különböző hasznos funkcióiról nyújt magyarázato
 
 ## Rendszermenü-módosítások
 
-A Priiloader széleskörű lehetőségekkel rendelkezik a Wii viselkedésének módosítására. További információkat találhatsz minde egyes hack-ről [itt](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Továbbá, meglátogadthatod a [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html)-ot, ami sokkal relevánsabb információt tartalmaz a System Menu hackekről.
+A Priiloader széleskörű lehetőségekkel rendelkezik a Wii viselkedésének módosítására. További információkat találhatsz minden egyes hack-ről [Priiloader hacks listán](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html). Továbbá, meglátogadthatod a [Priiloader FAQ](https://dacotaco.github.io/priiloader/docs/FAQ.html)-ot, ami sokkal relevánsabb információt tartalmaz a System Menu hackekről.
 
 ## További lehetőségek
 
@@ -97,3 +97,19 @@ A beállítás befejeztével a Wii bekapcsoláskor automatikusan a kiválasztott
 6. Nyomj `B` gombot a főmenübe való visszatéréshez.
 
 7. Görgess vissza a `System Menu` menüponthoz és nyomj A gombot.
+
+---
+
+::: tip
+
+[Kattints ide a visszatéréshez a fő Priiloader útmutatóhoz.](priiloader)
+
+:::
+
+---
+
+::: tip
+
+[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
+
+:::

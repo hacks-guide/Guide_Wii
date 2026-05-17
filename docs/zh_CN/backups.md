@@ -246,6 +246,8 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
 :::::
 
+---
+
 ::: tip
 
 [Continue to cIOS](cios)
@@ -255,6 +257,8 @@ In order to play dumped Wii games from your external device, you must have cIOS 
 You can also use [Nintendont](nintendont) to play GameCube games from your USB drive or SD card.
 
 :::
+
+---
 
 ::: tip
 

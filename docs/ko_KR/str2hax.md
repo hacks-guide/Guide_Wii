@@ -38,7 +38,7 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
    ![](/images/riiconnect24/Internet_2.png)
 
-4. `페이지 2` -> `인터넷` -> `연결 설정`으로 이동합니다.
+4. Navigate to `Page 2` > `Internet` > `Connection Settings`.
 
    ![](/images/riiconnect24/Internet_3.png)
 
@@ -100,8 +100,10 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
    - 2 분이 지나도 HackMii 설치 프로그램이 로드되지 않거나 `Hanging.` 또는 `ERROR! if_config (ret = ...)`와 같은 오류가 표시되면 Wii를 재시작하고 다시 시도합니다.
 
+---
+
 ::: tip
 
-[홈브류 채널 및 BootMii 설치 계속](hbc)
+[홈브류 채널 및 BootMii 설치 계속하기](hbc)
 
 :::

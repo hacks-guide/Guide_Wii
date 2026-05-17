@@ -39,6 +39,8 @@ YAWM ModMii Edition은 WAD를 설치하고 홈브류 응용 프로그램을 실�
 
    ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
+---
+
 ::: tip
 
 [여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)

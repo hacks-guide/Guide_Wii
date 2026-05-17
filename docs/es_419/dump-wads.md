@@ -53,6 +53,8 @@ The WAD has now been dumped, and should appear inside the specified folder on yo
 
 ![](/images/homebrew/DumpWADS/7.png)
 
+---
+
 ::: tip
 
 [Haz clic aquí para volver al índice del sitio.](site-navigation)

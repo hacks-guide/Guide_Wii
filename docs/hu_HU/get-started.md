@@ -1,16 +1,20 @@
 # Kezdés
 
-Ha a Wii-d már rendelkezik softmoddal, és szeretnéd frissíteni a softmodokat, kövesd [ezt](hackmii) az útmutatót a frissítéshez.
-
-Az itt felsorolt exploitok mindegyike különböző módszer ugyanannak a végeredménynek az elérésére (a HackMii telepítőjéhez való eljutás).
-
 ::: info
 
-Javasoljuk, hogy a kezdeti hackelési folyamat után legalább egy SD-kártya legyen kéznél, mivel ez lehetővé teszi, hogy a BootMii segítségével NAND biztonsági mentést készíts, és sokféle homebrew-t telepíts.
+Javasoljuk, hogy a kezdeti hackelési folyamat után legalább egy SD-kártya legyen kéznél, mivel ez lehetővé teszi, hogy a BootMii segítségével NAND biztonsági mentést készíts, és sokféle homebrew előnyeit vehesd igénybe.
 
 :::
 
-## Azonosítsd a konzol verziód:
+Ez a Wii-hoz és a Wii mini-hez listázott exploit a HackMii telepítőhöz fog vinni. A HackMii telepítő telepíteni fogja a Homebrew Channel-t (ami homebrew-ok indítására szolgál) valamint a BootMii-t (NAND mentések készítéséhez, helyreállításához használt), függően a konzolodtól.
+
+A Wii mód a Wii U-n kicsit más exploitálási folyamattal rendelkezik, és nem fogja elindítani a HackMii telepítőt. E helyett a Wii módot támadod majd a Wii U menün keresztül a leírt folyamattal.
+
+## Szoftmoddolt már a Wii-od?
+
+Ha van egy Wii-od vagy egy Wii mini-d ami már szoftmoddoltés szeretnéd frissíteni a konfigurációt, kövesd [ezt](hackmii) az útmutatót a HackMii telepítő indításához a Homebrew Channel-ből, or Priiloader-ből.
+
+## Azonosítsd a konzol verziód
 
 <!--@include: @/_include/identify-console.html -->
 

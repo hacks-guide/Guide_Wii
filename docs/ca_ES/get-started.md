@@ -1,16 +1,20 @@
 # Start Here
 
-If your Wii is already softmodded and you would like to update the softmods, follow [this](hackmii) guide to upgrade your setup.
-
-Even if your Wii has already been softmodded in the past, following these steps can still ensure that your softmod is up to date.
-
 ::: info
 
-If you need help for anything regarding this tutorial, please join <a href="https://discord.gg/rc24">the RiiConnect24 Discord server</a> (recommended) or <a href="mailto:support@riiconnect24.net">e-mail us at support@riiconnect24.net</a>.
+It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and take advantage of more homebrew.
 
 :::
 
-## Identify your console revision:
+The exploits listed for the Wii and Wii mini will bring you to the HackMii installer. The HackMii installer will install the Homebrew Channel (used for lauching homebrew) as well as BootMii (used for creating and restoring NAND backups), depending on your console.
+
+Wii mode on Wii U has a slightly different exploitation process, and will not launch the HackMii installer. Instead, you will exploit Wii mode through the Wii U menu and proceed as instructed.
+
+## Is your Wii already softmodded?
+
+If you have a Wii or Wii mini that is already softmodded and you would like to update your setup, follow [this](hackmii) guide to launch the HackMii installer from the Homebrew Channel, or Priiloader.
+
+## Identify your console revision
 
 <!--@include: @/_include/identify-console.html -->
 

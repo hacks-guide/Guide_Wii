@@ -30,6 +30,8 @@ Uma SysCheck lista todos os IOS e cIOS que estão no seu Wii, juntamente com alg
 
 5. If you want to share the SysCheck, you can share the `syscheck.csv` file on the root of your SD card or USB drive. You can also press `A`, which will upload the report to [syscheck.rc24.xyz](http://syscheck.rc24.xyz/).
 
+---
+
 ::: tip
 
 [Clique aqui para voltar para o índice do site.](site-navigation)

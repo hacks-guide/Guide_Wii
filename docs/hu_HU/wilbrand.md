@@ -1,12 +1,18 @@
 # Wilbrand
 
-A Wilbrand egy exploit a Wii-hoz ami a Wii Message Board-on keresztül kerül kiváltásra. Kompatibilis a Wii menu 3.0-4.3 verziókkal minden régióban.
+A Wilbrand egy exploit a Wii-hoz ami a Wii Message Board-on keresztül kerül kiváltásra. Kompatibilis a Wii menu 3.0-4.3 verziókkal minden régióban. Két módszer kerül ismertetésre ezen az oldalon egy megfelelő Wilbrand exploit létrehozásához, de a Wilbrand Web ajánlott a könnyű használata miatt.
 
 ::: info
 
-Két féle metódusa kerül ismertetésre ezen az oldalon egy helyes Wilbrand exploit létrehozásának.
+AZ SD kártya helyes formázásához útmutatásként tekintsd meg [ezt az útmutatót](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). Erősen ajánlott, hogy megnézd, a FAT32 formázás problémái miatt.
 
-A Wilbrand Web ajánlott, a könnyebb használhatósága miatt.
+A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii Menu 4.0-nál korábbi verzióival.
+
+:::
+
+::: warning
+
+NE használd a példákban megadott MAC címeket, mert azok simán hibát okoznak a HackMii weboldalon. Használd a sajátod!
 
 :::
 
@@ -20,12 +26,6 @@ A Wilbrand Web ajánlott, a könnyebb használhatósága miatt.
 
 - Egy SD kártya [FAT32/MS-DOS-ra formatálva](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - Egy Wii 3.0 vagy újabb verzióval
-
-::: warning
-
-A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii Menu 4.0-nál korábbi verzióival.
-
-:::
 
 ### Lépések
 
@@ -80,6 +80,8 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii Menu 4.0-nál korább
     - Ha a Wii egy fekete képernyőn ragad, kapcsold ki a PWER gomb nyomva tartásával, majd próbáld újra.
     - Ha visszakerültél a Wii Menu-be a levél megnyitását követően. biztosítsd, hogy az írásvédelem az SD kártyádon kikapcsolt pozícióban van.
 
+---
+
 ::: tip
 
 [Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
@@ -99,12 +101,6 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii Menu 4.0-nál korább
 - Egy Wii 3.0 vagy újabb verzióval
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii Installer v1.2](https://bootmii.org/download/)
-
-::: warning
-
-A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii Menu 4.0-nál korábbi verzióival.
-
-:::
 
 ### Lépések
 
@@ -167,6 +163,8 @@ A 2GB-nál nagyobb SD kártyák nem fognak működni a Wii Menu 4.0-nál korább
 16. Ha az exploit sikeres volt, az eszközöd betöltötte a HackMii Installer-t.
     - Ha a Wii egy fekete képernyőn ragad, kapcsold ki a PWER gomb nyomva tartásával, majd próbáld újra.
     - Ha visszakerültél a Wii Menu-be a levél megnyitását követően. biztosítsd, hogy az írásvédelem az SD kártyádon kikapcsolt pozícióban van.
+
+---
 
 ::: tip
 

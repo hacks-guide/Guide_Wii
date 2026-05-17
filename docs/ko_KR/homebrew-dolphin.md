@@ -18,19 +18,19 @@
 
 3. 돌핀 에뮬레이터 열기
 
-4. `도구 > WAD 설치`를 선택하고 다운로드한 `Open_HBC_(version)_LULZ.wad` 파일을 선택합니다.
+4. Select `Tools` > `Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
 
    ![](/images/homebrew-dolphin/ohbc-file.png)
 
-5. `도구 > Wii 시스템 메뉴 불러오기`를 선택합니다. 이제 채널이 나타날 것입니다.
+5. Select `Tools` > `Load Wii System Menu`. 이제 채널이 나타날 것입니다.
 
    ![](/images/homebrew-dolphin/hbc-installed.png)
 
 ## 설치 후, 오픈 샵 채널을 통해 홈브류 앱 설치
 
-1. 돌핀에서 사용하려면 오픈 샵 채널을 [여기](https://oscwii.org/library/app/homebrew_browser)에서 다운로드합니다. 혹은 OSCDL을 설치하여 수동으로 이 과정을 진행할 수 있습니다.
+1. Download the Open Shop Channel [on the OSC website](https://oscwii.org/library/app/homebrew_browser) for usage in Dolphin. 혹은 OSCDL을 설치하여 수동으로 이 과정을 진행할 수 있습니다.
 
-2. 에뮬레이션을 중지하고 (실행 중인 경우) 돌핀 에뮬레이터에서 `구성 > Wii` 창을 엽니다.
+2. Stop the emulation (if running), and open the `Config` > `Wii` window in Dolphin Emulator.
 
 3. `폴더와 자동으로 동기화`를 활성화합니다. 선택적으로 `SD 카드 파일 크기`를 더 큰 매개변수로 조정할 수도 있습니다. 그러나 대부분의 경우 `자동`으로 충분합니다.
 
@@ -43,3 +43,11 @@
 6. Wii 메뉴를 로드하고 홈브류 채널을 엽니다. 새로 설치한 앱이 나타날 겁니다!
 
    ![](/images/homebrew-dolphin/hbc-apps.png)
+
+---
+
+::: tip
+
+[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
+
+:::

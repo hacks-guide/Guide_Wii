@@ -1,6 +1,6 @@
 # Alapvető információk
 
-Ez az oldal fontos kizáró nyilatkozatokat és a modding folyamatra vonatkozó információkat tartalmaz, amelyeket tudnod kell, mielőtt elkezdenéd.
+Ez az oldal fontos információkat és jogi nyilatkozatokat tartalmaz arról, amire figyelned kell mielőtt elkezded a moddolási folyamatot.
 
 ## Brick és gyakori kockázatok
 
@@ -27,34 +27,31 @@ Fontods megjegyzések a különböző Wii-okhoz alább.
 
 :::: details Mi van akkor, ha koreai Wii-om van?
 
-A koreai Wii teljesen támogatott és régió is módosítható rajta.
+A koreai Wii-ok teljesen támogatottak az útmutató által és moddolhatók a normál folyamatokkal. Régió is módosítható rajtuk.
 Óvatosan csináld, ha régió adatot módosítasz és kövesd az útmutatókat figyelmesen, hogy elkerüld a brickelődést.
 
 ::::
 
-:::: details Mi van akkor, ha Wii U-m (vWii) van?
+:::: details Mi van akkor ha van egy Wii U-m és szeretném exploitolni a Wii módot?
 
-A Wii U Wii mód (a homebrew közösségben vWii-nek hívják) teljes mértékben támogatott, de ajánlott egy Aroma környezetet beállítani.
+A Wii U Wii mód (a homebrew közösségben vWii-nek hívják) teljes mértékben támogatott az útmtutató által, de ajánlott egy Aroma környezetet telepíteni a kezdés előtt.
 A hiányzó Wii funkciók helyreállíthatók. Jelenleg szinte az összes létező homebrew támogatott (kivéve a GameCube homebrew-t).
 A tárolóeszközöknek további áramellátásra lesz szükségük (akár Y-kábel, akár külső áramforrás segítségével), mivel a Wii U USB-portjai önmagukban nem biztosítanak elegendő áramot.
-Ha többféle homebrew verzió létezik, győződj meg róla, hogy a vWii-hez tervezett verziót használod. Különösen óvatosnak kell lenned az Ios-sel, hogy elkerüld a brickelést, mivel ezeket kifejezetten a vWii-re tervezték.
-Különösen óvatosnak kell lenned az IOS-sel, hogy elkerüld a brickelést, mivel ezeket kifejezetten a vWii-re tervezték.
+Legyél biztos abban olyan IOS-t és homebrew-ot használsz, ami kifejezetten a vWii-hez készült, megelőzendő a konzol brickelését.
 
 ::::
 
 :::: details Mi van akkor, ha Wii mini-m van?
 
-A Wii Mini támogatott, és kompatibilis a legtöbb létező homebrew-val.
+A Wii Mini az útmutató által teljesen támogatott, és kompatibilis a legtöbb létező homebrew-val.
 A hiányzó Wii funkciók helyreállíthatók. LAN adapter és USB hub ajánlott.
-Ha többféle homebrew verzió létezik, győződj meg róla, hogy a Wii minihez tervezettet használod.
-Legyél nagyon óvatos az IOS-sel a brickelés elkerüléséhez, mivel ezek kifejezetten
-a Wii mini-hez készültek.
+Legyél biztos abban olyan IOS-t és homebrew-ot használsz, ami kifejezetten a Wii minihez készült, megelőzendő a konzol brickelését.
 
 ::::
 
 ## Tárhely kompatibilitás
 
-Az SD-kártyák esetében legalább 128 MB-os memóriára lesz szükséged egy exploit futtatásához. Azonban, átlagosan legalább 2 Gb méretű kártyát szeretnél használni. A Wii bármilyen kapacítású SD kártyát tud olvasni (még a 32GB-nál nagyobbakat is), de a kártyának [FAT32/MS-DOS-ra kell formázva lennie](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**nem** exFAT vagy NTFS).
+Az SD-kártyák esetében legalább 128 MB-os memóriára lesz szükséged egy exploit futtatásához. Azonban, átlagosan legalább 2 Gb méretű kártyát szeretnél használni. A Wii bármilyen a legtöbb kapacítású SD kártyát tud olvasni (még a 32 GB-nál nagyobbakat is), de a kártyának [FAT32/MS-DOS-ra kell formázva lennie](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**nem** exFAT vagy NTFS).
 
 USB eszköznek egy USB hard drive-ot vagySSD-t akarsz majd használni [FAT32/MS-DOS-ra formázva](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). Nem javasoljuk a pendrive-ok használatát, mivel ezek hajlamosak meghibásodni vagy nem működnek rendeltetésszerűen a Wii-vel.
 
@@ -74,7 +71,7 @@ További információkért tekintsd meg [a hálózati GYIK](faq#networking-faq)-
 
 ## Segítség szerzése
 
-Problémába ütköztél az útmutató követése közben, vagy már van egy problémád a módosított Wii-ddel, vagy csak egyszerűen válaszokra van szükséged?
+Problémába ütköztél az útmutató követése közben, vagy már van egy problémád a módosított Wii-ddel, vagy csak egyszerűen kérdésed van?
 
 - Ha a kérdésedre még nem kaptál választ ezen az oldalon, akkor az útmutató [GYIK](faq) részében találhatsz rá választ.
 - Ha a kérdésedre még mindig nincs válasz, és segítségre van szükséged, csatlakozz a [Nintendo Homebrew Discord](https://discord.gg/C29hYvh)-hoz, és lépj a `#wii-vwii-assistance` csatornára.
@@ -83,7 +80,6 @@ Problémába ütköztél az útmutató követése közben, vagy már van egy pro
 
 Folytatás a [Kezdeti lépésekkel](get-started)
 
+Ha bejezted az olvasását a fenti nyilatkozatoknak folytasd a Kezdeti lépésekkel a konzolod és kezdeti exploit kiválasztásához.
+
 :::
-
-
-

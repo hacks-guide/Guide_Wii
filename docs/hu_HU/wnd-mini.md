@@ -44,7 +44,7 @@ Nincs lehetőséged a NAND mentésed visszaálltására ezen a módon hardmod n�
 2. Automatikusan detektálnia kell az IOS 236 verzióját a Wii mini-dnek, és végrehajt néhány futásidejű patchet a NAND-od dumpolásának elkezdéséhez.
 3. Ha elkészült, 3 új fájlod lesz az USB drive-odon:
 
-```
+```shell
 WiiFlash_n_ECC.img
 WFD_XXX_YY.img
 WiiFlash.log
@@ -61,7 +61,7 @@ A `WiiFlash_n_ECC.img` a te NAND képfájlod. A másik két fájl "hiba" adat é
 
    - 5 új fájlod lesz az USB drive-odon:
 
-   ```
+   ```shell
    bootmii_keys.bin
    device.cert
    keys.txt
@@ -87,11 +87,15 @@ Ha Wii játékokat online játszanál a dolphin-on belülről, a Wii mini NAND-o
 
 :::
 
+---
+
 ::: tip
 
 [Folytatás a Priiloader telepítésével](priiloader)
 
 :::
+
+---
 
 ::: tip
 

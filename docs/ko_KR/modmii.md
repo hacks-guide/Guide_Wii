@@ -221,6 +221,8 @@ HackMii 해결 마법사는 깨끗한 IOS를 설치하여 Darkcorp/CIOSSPAGHETTI
 
 :::
 
+---
+
 ::: tip
 
 [여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)

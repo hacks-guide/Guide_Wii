@@ -1,12 +1,18 @@
 # Wilbrand
 
-Wilbrand는 Wii 메시지 보드를 사용해 작동하는 Wii용 익스플로잇입니다. 모든 지역의 Wii 메뉴 버전 3.0~4.3과 호환됩니다.
+Wilbrand는 Wii 메시지 보드를 사용해 작동하는 Wii용 익스플로잇입니다. 모든 지역의 Wii 메뉴 버전 3.0~4.3과 호환됩니다. There are two methods listed on this page used to create the proper Wilbrand exploit, but Wilbrand Web is recommended for its ease of use.
 
 ::: info
 
-이 페이지에는 적절한 Wilbrand 익스플로잇을 만드는 데 사용되는 두 가지 방법이 나열되어 있습니다.
+SD 카드를 올바르게 포맷하는 방법에 대한 지침은 [이 가이드](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)를 참조합니다. FAT32로 포맷하면 문제가 발생할 수 있으므로 확인하는 것이 좋습니다.
 
-Wilbrand Web은 사용하기 편리해서 추천됩니다.
+SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
+
+:::
+
+::: warning
+
+DO NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. 여러분의 것을 사용하세요!
 
 :::
 
@@ -20,12 +26,6 @@ Wilbrand Web은 사용하기 편리해서 추천됩니다.
 
 - [FAT32/MS-DOS 형식으로 포맷된](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) SD 카드
 - 버전 3.0 이상의 Wii
-
-::: warning
-
-SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
-
-:::
 
 ### 지침
 
@@ -80,6 +80,8 @@ SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
     - Wii가 검은색 화면에서 멈춘 경우, POWER 버튼을 길게 눌러 전원을 끄고 다시 시도합니다.
     - 편지를 연 후 Wii 메뉴로 돌아가는 경우 SD 카드의 잠금 스위치가 잠금 해제 위치에 있는지 확인합니다.
 
+---
+
 ::: tip
 
 [홈브류 채널 및 BootMii 설치 계속](hbc)
@@ -99,12 +101,6 @@ SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
 - 버전 3.0 이상의 Wii
 - [Wilbrand](https://static.wiidatabase.de/Wilbrand.zip)
 - [HackMii 설치 프로그램 v1.2](https://bootmii.org/download/)
-
-::: warning
-
-SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
-
-:::
 
 ### 지침
 
@@ -167,6 +163,8 @@ SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
 16. 익스플로잇이 성공하면 장치에 HackMii 설치 프로그램이 로드됩니다.
     - Wii가 검은색 화면에서 멈춘 경우, POWER 버튼을 길게 눌러 전원을 끄고 다시 시도합니다.
     - 편지를 연 후 Wii 메뉴로 돌아가는 경우 SD 카드의 잠금 스위치가 잠금 해제 위치에 있는지 확인합니다.
+
+---
 
 ::: tip
 

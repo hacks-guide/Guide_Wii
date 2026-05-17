@@ -67,7 +67,7 @@ System Channel Restorer egyhomebrew app, ami visszaállítja a vWii menüből no
 
 ## WiiWare 4:3 DB Patcher
 
-WiiWare 4:3 DB Patcher egy olyan homebrew app ami patcheli a vWii's 4:3 képerány adatbázisát, így a WiiWare és a Virtual Console címek használhatják a 16:9 képarányt ott is, ahol normálisan nem lehet.
+A WiiWare 4:3 DB Patcher egy homebrew app ami patcheli a vWii 4:3 képarány adatbázisát, lehetővé téve a 16:9 képarányt az Everybody Votes és a Mii Contest/Check Mii Out csatornákon.
 
 ### Requirements
 
@@ -93,6 +93,8 @@ WiiWare 4:3 DB Patcher egy olyan homebrew app ami patcheli a vWii's 4:3 képerá
 6. Amint a képerány adatbázis patchelt, az telepítő menteni fog egy példányt az előző adatbázisból. NE töröld le ezt a mentést. Megnyomhatsz bármilyen gombot a Homebrew Channel-hez visszatéréshez.
 
    ![](/images/vwii/43db-patcher/install-finish.png)
+
+---
 
 ::: tip
 

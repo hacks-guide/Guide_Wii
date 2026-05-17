@@ -66,9 +66,10 @@
 **Homebrew**
 
 - [Création de raccourcis de jeux Wii](wiigsc)
-- [How to Dump Channels (WADs)](dump-wads)
-- [How to Dump Wii/GameCube Games](dump-games)
-- [Managing Wii and GameCube Backups](backups)
+- [How to dump Channels (WADs)](dump-wads)
+- [How to dump GameCube/Wii Games](dump-games)
+- [Managing GameCube Backups](gc-backups)
+- [Managing Wii Backups](wii-backups)
 - [Priiloader Usage](priiloader-usage)
 - [Homebrew recommandés](recommended-homebrew)
 - [Transferring Save Games](transfer-saves)
@@ -88,7 +89,7 @@
 
 :::
 
-{: .notice--info}
+::: info
 
 {% capture notice-7 %}
 **Wii Mini**

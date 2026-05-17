@@ -6,77 +6,149 @@ Although not at all necessary, it is a "nice to have" feature that was originall
 These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Channel, some Japan-exclusive channels, and more.
 -->
 
-[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24) was a service that allowed users with Internet connected Wiis to view the weather and news, send messages to friends, participate in Mii contests, and more. WiiConnect24 è stato disattivato il 27 giugno 2013.
+[WiiConnect24](https://it.wikipedia.org/wiki/WiiConnect24) era un servizio che permetteva agli utenti con console connesse a Internet di vedere il meteo e le notizie, inviare messaggi ad amici, partecipare a concorsi Mii, e altro. WiiConnect24 è stato discontinuato il 27 giugno 2013. Nonostante ciò, esiste un servizio che può ripristinare queste funzionalità, descritto sotto.
 
 ## WiiLink
 
-[WiiLink](https://www.wiilink24.com/) is a revival service for WiiConnect24 that allows you to regain and expand its functionality on your console.
-Nel tardo 2023, il servizio si è fuso con il progetto revival RiiConnect24, e a oggi è gestito solo con il nome WiiLink.
-
-WiiLink ospita una patcher per i servizi fornisce, dai canali internazionali come il Canale Notizie a delle esclusive regionali come Wii Room.
-The guide on how to install these services, as well as the patcher, can be found [on WiiLink's website.](https://www.wiilink24.com/guide/)
-
-<!-- move this back to another page? or no -->
+[WiiLink](https://www.wiilink.ca/) è un sostituto di WiiConnect24 che ti permette di riottenere ed espandere le funzionalità della tua console. WiiLink ospita una patcher per i servizi che offre, dai canali internazionali come il Canale Notizie a delle esclusive regionali come Wii Room (Stanza Wii). Una guida su come installare questi servizi, insieme al patcher, può essere trovata sul [sito di WiiLink.](https://wiilink.ca/it/guide/)
 
 ## Aggiornare l'orologio RTC
 
-### Wii
+In alcuni casi, l'orologio RTC sulla tua console Wii potrebbe essere desincronizzata, causando errori nel cercare di connettersi ai servizi di WiiConnect24, o altri. Nel caso che stai ricevendo errori come FORE000006, potresti voler usare le istruzioni sotto per risincronizzare l'orologio RTC interno della console attraverso Internet.
 
-#### Di cosa hai bisogno
+::::: tabs
 
-- Una connessione Internet funzionante sul tuo Wii
+:::: tab Wii
+
+### Requisiti
+
+- Una console Wii con una connessione a Internet
 - L'Homebrew Channel
-- Una scheda SD o dispositivo USB
+- Una scheda SD o unità USB
 - [sntp](https://oscwii.org/library/app/sntp)
 
-#### Instructions
+### Istruzioni
 
 1. Scarica ed estrai l'archivio zip di sntp nella root della tua scheda SD o dispositivo USB.
-2. Inserisci la scheda SD o dispositivo USB nel tuo Wii.
-3. Avvia il Canale Homebrew sul tuo Wii.
+
+2. Inserisci la scheda SD o unità USB nella console Wii.
+
+3. Avvia il Canale Homebrew.
+
 4. Avvia sntp.
-5. Usa la +Croce Direzionale per selezionare l'ora attuale.
+
+   ![](/images/wiiconnect24/sntp/sntp-hbc.png)
+
+5. Usa le frecce destra/sinistra sulla pulsantiera + per selezionare il fuso orario che corrisponde alla tua ora attuale, poi premi il pulsante A per impostare la configurazione.
+
+   ![](/images/wiiconnect24/sntp/sntp-time-select.png)
+
 6. Premi il pulsante HOME per uscire.
 
-### vWii
+   ![](/images/wiiconnect24/sntp/sntp-success.png)
 
-#### Di cosa hai bisogno
+::::
 
+:::: tab Wii U (vWii)
+
+### Requisiti
+
+- Un ambiente vWii moddato
 - L'Homebrew Channel
 - Una scheda SD
 - [Priiloader](priiloader)
 
-#### Instructions
+### Istruzioni
 
-1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
+1. Visita il sito [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) e riempi le informazioni.
+
+   ![](/images/wiiconnect24/priiloader/patch-generate.png)
+
 2. Seleziona "Generate" e copia le informazioni.
-3. On your SD Card, navigate to `SD:/apps/priiloader` and open `hacks_hash.ini` with a text editor such as notepad.
-4. Paste the patch at the bottom of the `hacks_hash.ini` and save the changes.
-5. Ripeti i passaggi 1-4 con un nuovo offset di tempo se la tua posizione partecipa al risparmio di tempo legale.
-6. Inserisci la tua scheda SD nella tua Wii U.
-7. [Boot Priiloader](priiloader#section-iii---entering-priiloader) on the vWii.
-8. Seleziona hacks e scorri in basso per abilitare l'hack Fix NWC24iSetUniversalTime.
-9. Ritorna al Menu vWii.
 
-## Hack di WiiConnect24 su Priiloader
+   ![](/images/wiiconnect24/priiloader/patch-copy.png)
 
-Alcune hack di Priiloader devono essere abilitate sulla vWii e la Wii mini in modo che le funzioni di WiiConnect24 possano funzionare correttamente:
+3. Sulla tua scheda SD, vai su `SD:/apps/prilloader` e apri `hacks_hash.ini` con un editor di testo come il blocco note.
 
-- [Create message via Calendar button (vWii, Mini)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)
-- [Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)
-- [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii)
-- [Fix NWC24iSetUniversalTime (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)
+   ![](/images/wiiconnect24/priiloader/hacks-ini.png)
+
+4. Incolla la patch in fondo al `hacks_hash.ini` e salva le modifiche.
+
+   ![](/images/wiiconnect24/priiloader/hacks-ini-edit.png)
+
+5. Ripeti i passaggi da 1 a 4 se la nazione in cui ti trovi partecipa all'ora legale.
+
+6. Inserisci la tua scheda SD nella console Wii U.
+
+7. [Avvia Priiloader](priiloader#section-iii---entering-priiloader) sulla vWii.
+
+8. Seleziona `System Menu Hacks`, e assicurati che `Fix NWC24iSetUniversalTime` sia abilitato.
+
+   ![](/images/wiiconnect24/priiloader/select-patch.png)
+
+9. Ritorna al menu vWii.
+
+::::
+
+:::::
+
+## Wiiconnect24 da Priiloader (vWii e Wii mini)
 
 ::: info
 
-[Permanent vWii System Settings (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) and [Always enable WiiConnect24 on boot (vWii)](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) cannot be enabled at the same time. More information on how to use Permanent vWii System Settings can be found [here](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii)
+Sulla vWii, le opzioni [Permanent vWii System Settings](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) (Impostazioni di sistema vWii permanenti) e [Always enable WiiConnect24 on boot](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) (Abilita sempre WiiConnect24 all'avvio) non possono essere abilitate contemporaneamente. È consigliabile tenere abilitato solo il primo, dato che lì puoi abilitare WiiConnect24 senza problemi. Maggiori informazioni possono essere trovate nelle [domande frequenti su Priiloader](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii).
 
 :::
 
+Se stai usando una console Wii mini o vWii, alcune opzioni da Priiloader devono essere abilitate per consentire una corretta funzionalità di WiiConnect24. In `System Menu Hacks`, abilita le seguenti opzioni dipendentemente dalla tua console:
+
+| Console  | Opzioni                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| vWii     | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li><br><li>[Permanent vWii System Settings](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)</li><br><li>[Fix NWC24iSetUniversalTime](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)</li></ul> |
+| Wii mini | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li></ul>                                                                                                                                                                                                                                                                                 |
+
+## WiiVCLaunch (vWii)
+
+Se sei su Wii U, assicurati di installare WiiVCLaunch per assicurarti che le impostazioni di sistema non vengano sovrascritte quando esegui giochi Wii da Virtual Console dal menu Wii U.
+
+### Requisiti
+
+- Una console Wii U modificata con l'ambiente Aroma
+- Una scheda SD
+- [WiiVCLaunch](https://github.com/Lynx64/WiiVCLaunch/releases)
+
+### Istruzioni
+
+1. Spegni la console e inserisci la tua scheda SD nel PC.
+
+2. Vai nel link GitHub citato sopra e scarica il file `WiiVCLaunch.wps`.
+
+   ![](/images/wiiconnect24/wiivclaunch/wps-download.png)
+
+3. Copia il file `WiiVCLaunch.wps` nella tua scheda SD nella cartella `/wiiu/environments/aroma/plugins`.
+
+   ![](/images/wiiconnect24/wiivclaunch/wps-directory.png)
+
+4. Inserisci la scheda SD nella console Wii U e avviala nell'ambiente Aroma.
+
+5. Premi la combinazione `L` + `+ Giù` + `- Meno` contemporaneamente sul tuo Gamepad/Pro Controller/Classic Controller, o i pulsanti `B` + `+ Giù` + `- Meno` sul tuo telecomando Wii per aprire il menu di configurazione dei plugin di Wii U. Naviga fino a `Wii VC Launch` e premi `A`.
+
+   ![](/images/wiiconnect24/wiivclaunch/aroma-config-menu.png)
+
+6. Naviga fino a `Other settings` e premi `A`.
+
+   ![](/images/wiiconnect24/wiivclaunch/wiivc-config-menu.png)
+
+7. Assicurati che l'opzione `Preserve SYSCONF on Wii VC title launch` sia impostata su `true`. Una volta finito, puoi uscire dal menu di configurazione premendo `B` finché non sei nel menu Wii U.
+
+   ![](/images/wiiconnect24/wiivclaunch/wiivc-sysconf-config.png)
+
+---
+
 ::: tip
 
-[Proceed to Nintendo Wi-Fi Connection](nintendowfc)
+[Procedi con Nintendo Wi-Fi Connection](nintendowfc)
 
-This guide takes the process of regaining online functionality to your Wii a step further - by allowing the Nintendo Wi-Fi Connection services to function yet again on certain games like Mario Kart Wii. Seppur ci sono diversi server privati e servizi che lo permettono, il servizio trattato qui sarà Wiimmfi.
+Questa guida spiega come ripristinare le funzionalità di Nintendo Wi-Fi Connection, permettendoti di giocare di nuovo online ai giochi come Mario Kart Wii. Mentre ci sono alcuni altri servizi che fanno la stessa cosa, quella ricoperta qui sarà Wiimmfi.
 
 :::

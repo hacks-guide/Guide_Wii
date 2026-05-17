@@ -39,6 +39,8 @@ Ez az útmutató az mutatja be, hogyan telepíthetsz WAD fájlokat.
 
    ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
+---
+
 ::: tip
 
 [Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)

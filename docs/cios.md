@@ -47,11 +47,14 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 1. Power off your console, and insert your SD card or USB drive into your computer.
 1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
 1. Unzip the archive and run the NUSGet executable.
-1. Navigate to `IOS` > `IOS 38` > `World` and select `v4123`. Uncheck `Keep encrypted contents`. Check `Use a custom download directory` and select the folder that your NUSGet executable is in, then click `Start Download`.
+1. Navigate to `IOS` > `IOS 38` > `World` and select `v4123`. Uncheck `Keep encrypted contents`, then click `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-4123.png)
 1. Repeat the above step for `IOS 56 (v5661)`, `IOS 57 (v5918)` and `IOS 58 (v6175)`.
-1. When you have finished downloading the above IOS, navigate to the folder where your NUSGet executable is stored. This should now contain four different folders with the title IDs for the above IOS.
+1. When you have finished downloading the above IOS, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
+    ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
+
+1. This folder should contain four different folders with the title IDs of the above IOS, as shown here.
 
     ![](/images/desktop-apps/nusget/nusget-folder-ios.png)
 1. Enter the four directories, locating a `IOS-XX-vXXXX-Wii.wad` file in each.
@@ -85,7 +88,7 @@ The WAD files should be on your SD card like this:
 1. Launch d2x cIOS Installer from the list of homebrew.
 1. Set everything to match the following:
 
-    ```
+    ```html
     Select cIOS <d2x-v11-beta3>
     Select cIOS base <38>
     Select cIOS slot <248>
@@ -139,7 +142,7 @@ The WAD files should be on your SD card like this:
 
     * cIOS 249 Installation
 
-        ```
+        ```html
         Select cIOS <d2x-v11-beta3>
         Select cIOS base <56>
         Select cIOS slot <249>
@@ -150,7 +153,7 @@ The WAD files should be on your SD card like this:
 
     * cIOS 250 Installation
 
-        ```
+        ```html
         Select cIOS <d2x-v11-beta3>
         Select cIOS base <57>
         Select cIOS slot <250>
@@ -161,7 +164,7 @@ The WAD files should be on your SD card like this:
 
     * cIOS 251 Installation
 
-        ```
+        ```html
         Select cIOS <d2x-v11-beta3>
         Select cIOS base <58>
         Select cIOS slot <251>
@@ -184,7 +187,7 @@ If you downloaded the 4 WAD files in Section I, you may now delete them from you
 
 [Continue to Open Shop Channel installation](osc)
 
-Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+Now that the Homebrew Channel, BootMii, Priiloader, and cIOS are all installed, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 
 :::
 
@@ -212,7 +215,56 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ## Instructions
 
-### Section I - Installing
+### Section I - Downloading
+
+::: tip
+
+Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
+
+:::
+
+::: info
+
+If you are able to connect your vWii to the internet, you may skip to [Section II](cios#section-ii---installing-1).
+
+:::
+
+1. Power off your console, and insert your SD card or USB drive into your computer.
+1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
+1. Unzip the archive and run the NUSGet executable.
+1. Select the `vWii` platform, navigate to `IOS` > `IOS 38` > `World` and select `v4380`. Uncheck `Keep encrypted contents`. Check `Re-encrypt title using the Wii Common Key`, then click `Start Download`.
+
+    ![](/images/desktop-apps/nusget/nusget-4380.png)
+1. Repeat the above step for `IOS 56 (v5918)`, `IOS 57 (v6175)` and `IOS 58 (v6432)`.
+1. When you have finished downloading the above IOS, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
+    ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
+
+1. This folder should contain four different folders with the title IDs of the above IOS, as shown here.
+
+    ![](/images/desktop-apps/nusget/nusget-folder-vios.png)
+1. Enter the four directories, locating a `IOS-XX-vXXXX-vWii.wad` file in each.
+
+    ![](/images/desktop-apps/nusget/nusget-vios-output.png)
+1. Place each WAD file on the root of your SD card or USB drive.
+    * This must be the same device containing the d2x cIOS Installer.
+1. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer-vwii:
+
+    |  IOS   |     File Name      |
+    | :----: | :----------------: |
+    | IOS 38 | IOS38-64-v4380.wad |
+    | IOS 56 | IOS56-64-v5918.wad |
+    | IOS 57 | IOS57-64-v6175.wad |
+    | IOS 58 | IOS58-64-v6432.wad |
+
+::: info
+
+The WAD files should be on your SD card like this:
+
+![](/images/desktop-apps/nusget/nusget-vios-on-sd.png)
+
+:::
+
+### Section II - Installing
 
 1. Copy the `apps` folder in the d2x-cios-installer-vwii `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
@@ -221,7 +273,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 1. Launch d2x cIOS Installer from the list of homebrew.
 1. Set everything to match the following:
 
-    ```
+    ```html
     Select cIOS <d2x-v11-beta3-vWii>
     Select cIOS base <38>
     Select cIOS slot <248>
@@ -243,7 +295,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
     * cIOS 249 Installation
 
-        ```
+        ```html
         Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <56>
         Select cIOS slot <249>
@@ -253,7 +305,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
     * cIOS 250 Installation
 
-        ```
+        ```html
         Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <57>
         Select cIOS slot <250>
@@ -263,7 +315,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
     * cIOS 251 Installation
 
-        ```
+        ```html
         Select cIOS <d2x-v11-beta3-vWii>
         Select cIOS base <58>
         Select cIOS slot <251>
@@ -277,7 +329,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ::: tip
 
-[Continue to Finalizing Setup](vwii-finalizing-setup)
+[Continue to Finalizing Setup (Wii U)](vwii-finalizing-setup)
 
 Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard vWii menu.
 
@@ -328,7 +380,7 @@ If you need assistance with this tutorial, please join [the Wii mini Hacking Dis
 1. Select `Continue`.
 1. Set the options to the following:
 
-    ```
+    ```html
     Select cIOS <d2xl-v1-beta2>
     Select cIOS base <57>
     Select cIOS slot <249>
@@ -346,7 +398,9 @@ If you need assistance with this tutorial, please join [the Wii mini Hacking Dis
 
 ::: tip
 
-[Continue to Finalizing Setup](mini-finalizing-setup)
+[Continue to Finalizing Setup (Wii mini)](mini-finalizing-setup)
+
+Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard Wii mini menu.
 
 :::
 

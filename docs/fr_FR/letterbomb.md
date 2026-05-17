@@ -71,6 +71,8 @@ N'utilisez PAS les adresses MAC d'exemple affichées dans ce guide, car elles pr
 
 ![](/images/exploits/letterbomb/LetterBomb-Wii.png)
 
+---
+
 ::: tip
 
 [Continuer vers l'installation de Homebrew Channel et de BootMii](hbc)

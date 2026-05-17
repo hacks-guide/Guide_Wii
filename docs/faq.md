@@ -4,7 +4,7 @@
 
 ### How risky is hacking my console?
 
-Not very risky. The Wii has a much lower barrier for entry than other consoles, with some exploits requiring nothing more than a Wii and an internet connection. As long as you follow the general advice laid on the [brick overview page](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+There is very low risk to hacking your console. The Wii requires very little equipment to hack and can be done entirely through software. As long as you follow the general advice laid on the [brick overview page](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and apply instructions as written, you should be OK.
 
 ### How can I remove parental controls?
 
@@ -22,7 +22,7 @@ In order to check what the error means, please visit the [Wiimmfi error page](ht
 
 #### Error 051330/51330
 
-Run an Internet connection test by going to `Wii Settings > Internet > Connection settings > Connection > Test this connection`
+Run an Internet connection test by going to `Wii Settings` > `Internet` > `Connection settings` > `Connection` > `Test this connection`
 
 #### Error 220602
 

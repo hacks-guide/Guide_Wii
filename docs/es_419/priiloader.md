@@ -1,8 +1,14 @@
 # Priiloader
 
-[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii. It loads before the Wii Menu does (hence the name). The tool can also apply hacks that are used to enhance, unlock, and fix many System Menu features.
+[Priiloader](https://github.com/DacoTaco/priiloader) is an essential tool authored by [DacoTaco](https://github.com/DacoTaco) that adds a level of brick protection to your Wii, by loading before the Wii System Menu. The tool can also apply hacks that are used to enhance, unlock, and fix many System Menu features.
 
-Additionally, it can be used to quickly launch any Title or Homebrew, or change the way Wii autoboots.
+Additionally, it can be used to quickly launch any title or homebrew app, or change the way your Wii boots.
+
+::: info
+
+You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
+
+:::
 
 ## Requisitos
 
@@ -88,11 +94,7 @@ Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
 4. Press `B` to return to the main menu.
 
-::: info
-
-You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
-
-:::
+---
 
 ::: info
 
@@ -102,7 +104,7 @@ These guidelines list ways that will help avoid bricking your Wii, beyond just h
 
 :::
 
-## Next Steps
+---
 
 ::: tip
 

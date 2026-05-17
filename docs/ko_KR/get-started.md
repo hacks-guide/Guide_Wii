@@ -1,16 +1,20 @@
 # 시작하기
 
-Wii에 이미 소프트개조가 적용되어 있고 소프트개조를 업데이트하고 싶다면 [이](hackmii) 가이드에 따라 설정을 업그레이드합니다.
-
-여기에 나열된 모든 익스플로잇은 동일한 최종 결과 (HackMii 설치 프로그램 얻기)를 달성하기 위한 다양한 방법입니다.
-
 ::: info
 
-초기 해킹 과정 이후에는 최소한 SD 카드를 준비하는 것이 좋습니다. 이를 통해 BootMii를 사용하여 낸드 백업을 만들고 다양한 유형의 홈브류를 설치할 수 있습니다.
+It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and take advantage of more homebrew.
 
 :::
 
-## 콘솔 버전을 확인합니다:
+The exploits listed for the Wii and Wii mini will bring you to the HackMii installer. The HackMii installer will install the Homebrew Channel (used for lauching homebrew) as well as BootMii (used for creating and restoring NAND backups), depending on your console.
+
+Wii mode on Wii U has a slightly different exploitation process, and will not launch the HackMii installer. Instead, you will exploit Wii mode through the Wii U menu and proceed as instructed.
+
+## Is your Wii already softmodded?
+
+If you have a Wii or Wii mini that is already softmodded and you would like to update your setup, follow [this](hackmii) guide to launch the HackMii installer from the Homebrew Channel, or Priiloader.
+
+## Identify your console revision
 
 <!--@include: @/_include/identify-console.html -->
 

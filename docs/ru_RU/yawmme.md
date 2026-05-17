@@ -39,6 +39,8 @@ YAWM ModMii Edition - это приложение, которое позволя
 
    ![](/images/homebrew/yawmME/installing_wad_ok.png)
 
+---
+
 ::: tip
 
 [Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)

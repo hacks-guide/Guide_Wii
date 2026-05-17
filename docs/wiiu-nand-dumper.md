@@ -1,6 +1,6 @@
-# Creating a NAND dump of the Wii U
+# Creating a NAND Backup (Wii U)
 
-This page will guide you through the process of creating a NAND dump for your Wii U. This will protect you in the event that something goes wrong and your Wii U becomes bricked, allowing you to restore a NAND backup.
+In order to protect your Wii U from permanant bricks, this guide will instruct you on how to create a NAND backup.
 
 ::: tip
 
@@ -36,8 +36,8 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
 
 ::: details If you followed the steps correctly, your SD card should have the following layout:
 
-```
-💾sd:
+``` shell
+💾 SD Card
  ┗ 📁 wiiu
    ┣ 📁 apps
    ┃ ┣ 📄 AromaUpdater.wuhb

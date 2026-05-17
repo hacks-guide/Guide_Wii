@@ -61,9 +61,10 @@
 **홈브류**
 
 - [Wii 게임 단축키 만들기](wiigsc)
-- [How to Dump Channels (WADs)](dump-wads)
-- [How to Dump Wii/GameCube Games](dump-games)
-- [Managing Wii and GameCube Backups](backups)
+- [채널 덤프 방법 (WAD)](dump-wads)
+- [게임큐브/Wii 게임 덤프 방법](dump-games)
+- [게임큐브 백업 관리](gc-backups)
+- [Wii 백업 관리](wii-backups)
 - [Priiloader 사용법](priiloader-usage)
 - [추천 홈브류](recommended-homebrew)
 - [저장 게임 전송](transfer-saves)

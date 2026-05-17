@@ -1,10 +1,20 @@
 # Întrebări Frecvente și Rezolvarea unor probleme
 
-## Întrebări Principale
+## Primary FAQ
 
 ### Cât de riscant este să-mi modific consola?
 
-Nu prea riscant, în funcție de consola ta. Consola Wii are o barieră de intrare mult mai joasă decât alte console, unele exploit-uri necesitând nu mai mult decât un Wii și o conexiune la Internet. As long as you follow the general advice laid out [here](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+Nu prea riscant, în funcție de consola ta. Consola Wii are o barieră de intrare mult mai joasă decât alte console, unele exploit-uri necesitând nu mai mult decât un Wii și o conexiune la Internet. As long as you follow the general advice laid on the [brick overview page](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+
+### Cum pot elimina controlul parental?
+
+The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
+
+### Cred că sistemul meu Wii are un brick sau ceva este foarte în neregulă, ce ar trebui să fac?
+
+See [this](bricks) page.
+
+## Error Code FAQ
 
 ### Am primit codul de eroare XXXXXX, cum îl rezolv?
 
@@ -12,9 +22,11 @@ In order to check what the error means, please visit the [Wiimmfi error page](ht
 
 #### Eroarea 051330/51330
 
-Run an Internet connection test by going to `Wii Settings > Internet > Connection settings > Connection > Test this connection`
+Run an Internet connection test by going to `Wii Settings` > `Internet` > `Connection settings` > `Connection` > `Test this connection`
 
 #### Eroarea 220602
+
+<br>
 
 ##### Pentru Utilizatorii RiiConnect24
 
@@ -28,6 +40,8 @@ This can also happen if you use a proxy server and it is down.
 
 #### Eroarea 107304
 
+<br>
+
 ##### Pentru Utilizatorii RiiConnect24
 
 Dacă primești această eroare sau dacă vezi Acordului Utilizatorului Nintendo fără logoul RiiConnect24, asta înseamnă că ISP-ul tău (Furnizorul de Internet) sau rețeaua blochează folosirea DNS-ului RC24. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 va funcționa și fără aceasta. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
@@ -39,14 +53,6 @@ Dacă primești această eroare, serverul DNS pe care l-ai ales sau internetul t
 #### FORE000006
 
 Dacă primești eroarea FORE000006, ceasul consolei tale Wii este probabil setat incorect. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. Dacă acest lucru tot eșuează, scoate bateria ceas a consolei (aflată pe fundul consolei sub un șurub) pentru o oră și apoi reintroduce-l. Apoi, resetează ceasul consolei Wii.
-
-### Cum pot elimina controlul parental?
-
-The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code required to remove parental controls.
-
-### Cred că sistemul meu Wii are un brick sau ceva este foarte în neregulă, ce ar trebui să fac?
-
-See [this](bricks) page.
 
 ## Întrebări Frecvente despre Dispozitivele de Stocare
 
@@ -142,7 +148,7 @@ Pentru scopurile utilizării unui dispozitiv de stocare cu un Wii, SSD-urile ext
 
 ## Networking FAQ
 
-The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named WiFi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points (APs):
+The Wii's wireless networking hardware supports the maximum standard of 802.11g on the 2.4 GHz band (retroactively named Wi-Fi 3), with a maximum security level of WPA2-PSK (AES). Therefore, the Wii will NOT be able to connect to the following access points (APs):
 
 - APs enforcing WPA enterprise encryption, or WPA3 only
 - APs not backwards compatible with WiFi 3, or broadcasting only on the 5 GHz band
@@ -162,3 +168,11 @@ If your ISP will not let you change these settings, or your current networking h
 - Alternatively, you can buy a secondary router and continue to use the network you already have, like a mesh. Any cheap router meeting the above standards (such as the Linksys WRT54G) will work.
 
 For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the `Wii VC Launch` Aroma plugin.
+
+---
+
+::: tip
+
+[Click here to go back to the site index.](site-navigation)
+
+:::
