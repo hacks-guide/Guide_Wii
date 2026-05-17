@@ -32,13 +32,13 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ### Section I - Downloading
 
-::: tip
+::: warning
 
 Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
 
 :::
 
-::: info
+::: tip
 
 If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing).
 
@@ -47,7 +47,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 1. Power off your console, and insert your SD card or USB drive into your computer.
 1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
 1. Unzip the archive and run the NUSGet executable.
-1. Navigate to `IOS` > `IOS 38` > `World` and select `v4123`. Uncheck `Keep encrypted contents`, then click `Start Download`.
+1. Navigate to `IOS` -> `IOS 38` -> `World` and select `v4123`. Uncheck `Keep encrypted contents`, then click `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-4123.png)
 1. Repeat the above step for `IOS 56 (v5661)`, `IOS 57 (v5918)` and `IOS 58 (v6175)`.
@@ -217,13 +217,13 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ### Section I - Downloading
 
-::: tip
+::: warning
 
 Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
 
 :::
 
-::: info
+::: tip
 
 If you are able to connect your vWii to the internet, you may skip to [Section II](cios#section-ii---installing-1).
 
@@ -232,7 +232,7 @@ If you are able to connect your vWii to the internet, you may skip to [Section I
 1. Power off your console, and insert your SD card or USB drive into your computer.
 1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
 1. Unzip the archive and run the NUSGet executable.
-1. Select the `vWii` platform, navigate to `IOS` > `IOS 38` > `World` and select `v4380`. Uncheck `Keep encrypted contents`. Check `Re-encrypt title using the Wii Common Key`, then click `Start Download`.
+1. Select the `vWii` platform, navigate to `IOS` -> `IOS 38` -> `World` and select `v4380`. Uncheck `Keep encrypted contents`. Check `Re-encrypt title using the Wii Common Key`, then click `Start Download`.
 
     ![](/images/desktop-apps/nusget/nusget-4380.png)
 1. Repeat the above step for `IOS 56 (v5918)`, `IOS 57 (v6175)` and `IOS 58 (v6432)`.
