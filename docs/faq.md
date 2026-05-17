@@ -4,7 +4,7 @@
 
 ### How risky is hacking my console?
 
-There is very low risk to hacking your console. The Wii requires very little equipment to hack and can be done entirely through software. As long as you follow the general advice laid on the [brick overview page](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and apply instructions as written, you should be OK.
+There is very low risk to hacking your console. The Wii requires very little equipment to hack and can usually be done entirely through software. As long as you follow the general advice laid on the [brick overview page](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and apply instructions as written, you should be OK.
 
 ### How can I remove parental controls?
 
