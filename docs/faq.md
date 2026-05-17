@@ -30,7 +30,7 @@ Run an Internet connection test by going to `Wii Settings` > `Internet` > `Conne
 
 ##### For WiiLink Users
 
-You are using the old DNS server for WiiLink. The primary DNS should be set to `167.235.229.36`.
+You are using an old DNS server for WiiLink. You should set your DNS to what is specified [on the WiiLink website](https://wiilink.ca/guide/dns/).
 
 ##### For non-WiiLink Users
 
@@ -44,15 +44,15 @@ This can also happen if you use a proxy server and it is down.
 
 ##### For WiiLink Users
 
-If you get this error or you see Nintendo's User Agreement without WiiLink's logo, that means your ISP (Internet Service Provider) or network is blocking the use of WiiLink DNS. You can set `Auto-Obtain DNS` to `On` to solve this. WiiLink will still work without it. You can also use the [WiiLink DNS Server](https://github.com/WiiLink24/DNS-Server/releases/latest) program.
+If you receive the above error or you see Nintendo's User Agreement without WiiLink's logo, that means your ISP (Internet Service Provider) or network is blocking the use of WiiLink DNS. You can set the `Auto-Obtain DNS` option to `On` to resolve this. You can also use the [WiiLink DNS Server](https://github.com/WiiLink24/DNS-Server/releases/latest) as an alternative.
 
 ##### For non-WiiLink Users
 
-If you get this error, the DNS server you chose (or your internet as a whole) is having issues. Try again later.
+If you receive this error, your Internet or DNS server is having issues. Try again later.
 
 #### FORE000006
 
-If you get error FORE000006, your Wii's clock is probably set incorrectly. See [this page](wiiconnect24#updating-rtc-clock) for instructions on how to properly sync it. If this still fails, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and put it back in. Then, set the Wii's clock to the correct time.
+If you receive error FORE000006, your Wii's clock is likely set incorrectly. See [the RTC clock update guide](wiiconnect24#updating-rtc-clock) for instructions on how to properly sync it. If you continue to recieve this error, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and reinsert it. Then, set the Wii's clock to the correct time.
 
 ## Storage Device FAQ
 
@@ -107,11 +107,11 @@ When considering, buying, or using an SD card or USB storage device, it is worth
 
 ::: danger
 
-SD cards larger than 2TB currently do not exist, any listings for a higher capacity are scams.
+Listings for SD cards larger than 2TB are almost certainly scams, and would not work on a Wii anyway as it is not compatible with the SDUC standard.
 
 :::
 
-When buying SD cards, it is generally recommended that you stick to well-known brands, especially with more expensive and larger capacity ones. You can buy a generic 2GB SD card and it will most likely work fine. However, the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-35 USD for 256GB and below, whereas 512GB is around 60 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be careful when buying storage on eBay.
+When buying SD cards, it is generally recommended that you stick to well-known brands, especially with higher capacity cards. You can buy a generic 2GB SD card and it will most likely work as intended, but the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-35 USD for 256GB and below, whereas 512GB is around 60 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be careful when buying storage on eBay.
 
 Our recommended brands:
 
@@ -134,9 +134,9 @@ For Wii mini users, it is recommended to have an externally powered USB hub in o
 
 As for your choices in shopping, this largely comes down to three different scenarios:
 
-* Buying a new external hard drive from scratch: New external drives come brand new around 60 USD for 2TB, 50 USD for 1TB, around 30 USD for sizes lower than 1TB. Try to stick within the three present manufacturing brands listed above, but bear in mind that offerings are sparse for drive sizes lower than 1TB.
+* Buying a new external hard drive: New external drives can be bought presently around 90 USD for 2TB, 70 USD for 1TB, and around 30 USD for sizes lower than 1TB. Try to buy drives from the three present manufacturing brands listed above, keeping in mind that external drives with sizes lower than 1TB typically come from third parties.
 * Buying a new hard drive, and a new enclosure: New hard drives are decently cheaper than pre-assembled hard drives, and you can buy an enclosure to house this new hard drive. 2.5 inch enclosures are normally powerable off of USB alone, while 3.5 inch enclosures almost always come with an external adapter for power. An example price is buying a 500GB Western Digital drive and a 2.5 inch drive enclosure off of Amazon, which will cost about 30 USD.
-* Buying an enclosure for an already existing hard drive: If you already have a hard drive, you can put it in an enclosure and use it for your Wii. Enclosures can be found for prices ranging between 10 to 20 USD off of Amazon, as long as you have a hard drive to supply it with.
+* Buying an enclosure for an already existing hard drive: If you already have a usable drive, you can slot it into an enclosure and use it with your Wii. Enclosures can be found for prices ranging between 10 to 20 USD on Amazon.
 
 ### Buying USB Devices - Solid State Drives
 
@@ -162,7 +162,7 @@ ISPs known to provide routers incompatible with these settings:
 
 If your ISP will not let you change these settings, or your current networking hardware is not supported, you have a few options:
 
-* You can try to use a cellular hotspot. This is not recommended as it often results in an unstable connection.
+* You can try to use a cellular hotspot. This is not recommended as a first choice as it often results in an unstable connection.
 * You can use a LAN adapter. It must have the `ASIX AX88772` chipset or say “compatible with Wii”. Here is a [recommended LAN adapter by Plugable](https://a.co/d/g8XvMDp).
     * Note that variants of the chipset (eg. `ASIX AX88772E`) **will not work** with the Wii.
 * Alternatively, you can buy a secondary router and continue to use the network you already have, like a mesh. Any cheap router meeting the above standards (such as the Linksys WRT54G) will work.
