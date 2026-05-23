@@ -17,7 +17,8 @@ export default defineConfig({
   locales: {
     root: i18n.en_US,
     hu_HU: i18n.hu_HU,
-    ko_KR: i18n.ko_KR
+    ko_KR: i18n.ko_KR,
+    it_IT: i18n.it_IT
   },
   sitemap: {
     hostname: 'https://wii.hacks.guide'
@@ -93,7 +94,6 @@ export default defineConfig({
     'fi_FI/**',
     'fr_FR/**',
     'he_IL/**',
-    'it_IT/**',
     'ja_JP/**',
     'nl_NL/**',
     'no_NO/**',
