@@ -6,7 +6,7 @@ The complete guide to modding your Wii, vWii, and Wii mini.
 [![Translation Badge](https://img.shields.io/badge/translation-contribute-263238?logo=crowdin&logoColor=FFFFFF)](https://hacks-guide.crowdin.com/u/projects/12)
 [![Discord Server](https://img.shields.io/badge/chat-nintendo%20homebrew-7289DA?logo=discord&logoColor=FFFFFF)](https://discord.gg/C29hYvh)
 [![Last Commit Badge](https://img.shields.io/github/last-commit/hacks-guide/Guide_Wii)](https://github.com/hacks-guide/Guide_Wii/commits/master/)
-![Language Count](https://img.shields.io/badge/languages-3-brightgreen)
+![Language Count](https://img.shields.io/badge/languages-4-brightgreen)
 [![MIT License](https://img.shields.io/badge/license-MIT-A31F34)](https://github.com/hacks-guide/Guide_Wii/blob/master/LICENSE.txt)
 
 ## Running the site locally
