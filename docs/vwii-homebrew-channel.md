@@ -20,7 +20,7 @@ If you do not have Aroma installed, proceed to [Installing Aroma](https://wiiu.h
 
 * A Wii U
 * The [Aroma Environment](https://aroma.foryour.cafe/) (should be installed from previous step)
-* The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`) (should be installed from preivious step)
+* The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`) (should be installed from previous step)
 * The [Enhanced vWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases/latest) (`evwii.wps`) (optional)
 
 ::: danger
