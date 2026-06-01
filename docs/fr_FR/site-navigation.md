@@ -43,11 +43,11 @@
 {% capture notice-4 %}
 **Playing Wii Game Mods**
 
-- [Sauvegarde avec Bootmii](bootmii)
 - [BootMii Recovery (RestoreMii)](bootmiirecover)
 - [Types of Bricks](bricks)
 - [Brick Prevention](bricks#brick-prevention)
 - [cIOS](cios)
+- [Creating a NAND Backup (Wii)](nand-backup)
 - [Chaîne Homebrew](hbc)
 - [ModMii](modmii)
 - [Chaine Open Shop](osc)
@@ -83,9 +83,9 @@
 
 **vWii**
 
-- [Creating a NAND dump of the Wii U](wiiu-nand-dumper)
+- [Creating a NAND Backup (Wii U)](wiiu-nand-dumper)
+- [Finalizing Setup (Wii U)](vwii-finalizing-setup)
 - [Installing the Homebrew Channel on vWii](vwii-homebrew-channel)
-- [Finalizing Setup — vWii](vwii-finalizing-setup)
 
 :::
 
@@ -94,8 +94,6 @@
 {% capture notice-7 %}
 **Wii Mini**
 
-- [Wii mini NAND Dumper](wnd-mini)
-  {% endcapture %}
-- [Finalizing Setup — Wii mini](mini-finalizing-setup)
+- [Finalizing Setup (Wii mini)](mini-finalizing-setup)
 
 :::

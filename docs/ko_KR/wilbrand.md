@@ -39,7 +39,7 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. `인터넷` > `콘솔 정보`로 이동합니다.
+4. Navigate to `Internet` -> `Console Information`.
 
 5. 전체 MAC 주소를 기록합니다.
 
@@ -86,6 +86,8 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
 [홈브류 채널 및 BootMii 설치 계속](hbc)
 
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+
 :::
 
 ::::
@@ -114,7 +116,7 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. `인터넷` > `콘솔 정보`로 이동합니다.
+4. Navigate to `Internet` -> `Console Information`.
 
 5. 전체 MAC 주소를 기록합니다.
 
@@ -169,6 +171,8 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 ::: tip
 
 [홈브류 채널 및 BootMii 설치 계속](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::
 

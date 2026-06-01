@@ -4,7 +4,7 @@
 
 ### Cât de riscant este să-mi modific consola?
 
-Nu prea riscant, în funcție de consola ta. Consola Wii are o barieră de intrare mult mai joasă decât alte console, unele exploit-uri necesitând nu mai mult decât un Wii și o conexiune la Internet. As long as you follow the general advice laid on the [brick overview page](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and use common sense, you should be completely fine!
+There is very low risk to hacking your console. The Wii requires very little equipment to hack and can usually be done entirely through software. As long as you follow the general advice laid on the [brick overview page](bricks#brick-prevention), install [BootMii](bootmii) and [Priiloader](priiloader), and apply instructions as written, you should be OK. If you have specific concerns about the hacking process, feel free to join the Nintendo Homebrew discord at the bottom of the page.
 
 ### Cum pot elimina controlul parental?
 
@@ -22,17 +22,17 @@ In order to check what the error means, please visit the [Wiimmfi error page](ht
 
 #### Eroarea 051330/51330
 
-Run an Internet connection test by going to `Wii Settings` > `Internet` > `Connection settings` > `Connection` > `Test this connection`
+Run an Internet connection test by going to `Wii Settings` -> `Internet` -> `Connection settings` -> `Connection` -> `Test this connection`
 
 #### Eroarea 220602
 
 <br>
 
-##### Pentru Utilizatorii RiiConnect24
+##### For WiiLink Users
 
-Folosești serverul DNS vechi pentru RiiConnect24. Follow [this](riiconnect24#section-iv---connecting) guide for instructions on how to change it.
+You are using an old DNS server for WiiLink. You should set your DNS to what is specified [on the WiiLink website](https://wiilink.ca/guide/dns/).
 
-##### Pentru cei care nu folosesc RiiConnect24
+##### For non-WiiLink Users
 
 Your Primary DNS server is incorrect or not working.
 
@@ -42,17 +42,17 @@ This can also happen if you use a proxy server and it is down.
 
 <br>
 
-##### Pentru Utilizatorii RiiConnect24
+##### For WiiLink Users
 
-Dacă primești această eroare sau dacă vezi Acordului Utilizatorului Nintendo fără logoul RiiConnect24, asta înseamnă că ISP-ul tău (Furnizorul de Internet) sau rețeaua blochează folosirea DNS-ului RC24. You can set `Auto-Obtain DNS` to `On` to solve this. RiiConnect24 va funcționa și fără aceasta. Or, you can use the [RiiConnect24 DNS-Server](https://github.com/RiiConnect24/DNS-Server/releases/latest) program.
+If you receive the above error or you see Nintendo's User Agreement without WiiLink's logo, that means your ISP (Internet Service Provider) or network is blocking the use of WiiLink DNS. You can set the `Auto-Obtain DNS` option to `On` to resolve this. You can also use the [WiiLink DNS Server](https://github.com/WiiLink24/DNS-Server/releases/latest) as an alternative.
 
-##### Pentru cei care nu folosesc RiiConnect24
+##### For non-WiiLink Users
 
-Dacă primești această eroare, serverul DNS pe care l-ai ales sau internetul tău în general are probleme. Reîncearcă mai încolo.
+If you receive this error, your Internet or DNS server is having issues. Reîncearcă mai încolo.
 
 #### FORE000006
 
-Dacă primești eroarea FORE000006, ceasul consolei tale Wii este probabil setat incorect. See [this](wiiconnect24#updating-rtc-clock) on instructions for how to properly reset it. Dacă acest lucru tot eșuează, scoate bateria ceas a consolei (aflată pe fundul consolei sub un șurub) pentru o oră și apoi reintroduce-l. Apoi, resetează ceasul consolei Wii.
+If you receive error FORE000006, your Wii's clock is likely set incorrectly. See [the RTC clock update guide](wiiconnect24#updating-rtc-clock) for instructions on how to properly sync it. If you continue to recieve this error, remove the Wii's clock battery (located on the bottom of the system behind a screw) for an hour and reinsert it. Then, set the Wii's clock to the correct time.
 
 ## Întrebări Frecvente despre Dispozitivele de Stocare
 
@@ -80,19 +80,19 @@ For stock Wii Menu versions 4.0 or higher, this limitation is removed and SD car
 
 The Wii can read SD cards of any capacity (even those larger than 32GB), but the card must be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**not** exFAT or NTFS).
 
-For USB devices, FAT32/MS-DOS is also recommended, although users should be aware of FAT32 limitations which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS a fost un sistem de fișiere folosit anterior pentru backup-uri de jocuri Wii (nu de a fi confundate cu fișierele WBFS) - astăzi, este învechit și nu ar trebui să fie folosit.
+For USB devices, FAT32/MS-DOS is also recommended. However, users should be aware of FAT32 limitations, which only allow volumes up to 2TB in size and files up to 4GB in size. WBFS is another file system used for Wii game backups (not to be confused with WBFS files) commonly used in the past, but it is now outdated and should not be used.
 
 :::
 
 ::: info
 
-For the [BlueBomb](bluebomb), [str2hax](str2hax), or [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii; it is highly recommended to grab one anyway for homebrew and other tasks.
+For the [BlueBomb](bluebomb), [str2hax](str2hax), and [FlashHax](flashhax) exploits, you do not need an SD card to hack your Wii. However, it is highly recommended to use one anyway for homebrew and other tasks.
 
 :::
 
 ### Storage Space Recommendations
 
-When considering buying or using an SD card or USB device, it is worth considering what you will be using either storage medium for. Based on your planned usage, sizing recommendations are outlined below:
+When considering, buying, or using an SD card or USB storage device, it is worth considering what you will be using it for. Based on your planned usage, sizing recommendations are outlined below:
 
 |   Device Usage   |                      Recommended Storage Space                      |
 | :--------------: | :-----------------------------------------------------------------: |
@@ -107,11 +107,11 @@ When considering buying or using an SD card or USB device, it is worth consideri
 
 ::: danger
 
-SD cards larger than 2TB currently do not exist, anyone attempting to sell you one is trying to rip you off.
+Listings for SD cards larger than 2TB are almost certainly scams, and would not work on a Wii anyway as it is not compatible with the SDUC standard.
 
 :::
 
-Când cumperi carduri SD, este în general recomandat să rămâi la mărci de încredere cu cât crește prețul și mărimea cardului pe care vrei să-l cumperi. În timp ce poți cumpăra un card SD de 2GB generic și cel mai probabil vei fi în regulă, același lucru nu poate fi spus și pentru lucruri precum un card SD de 512GB. General current pricing for SD cards is around 10-35 USD for 256GB and below, whereas 512GB is around 60 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Asigură-te când cumperi unități de stocare de pe eBay.
+When buying SD cards, it is generally recommended that you stick to well-known brands, especially with higher capacity cards. You can buy a generic 2GB SD card and it will most likely work as intended, but the same cannot be said for something like a 512GB SD card. General current pricing for SD cards is around 10-35 USD for 256GB and below, whereas 512GB is around 60 USD. When buying off of Amazon, make sure that your card is either `Sold by/Shipped by Amazon` or `Sold by [brand], Shipped by Amazon`. Be careful when buying storage on eBay.
 
 Our recommended brands:
 
@@ -126,17 +126,17 @@ Our recommended brands:
 
 Când cumperi hard disk-uri USB, există în prezent numai trei producători de HDD: Western Digital, Seagate și Toshiba. Any and all other hard drive companies are defunct and have either went bankrupt, or were absorbed by the three aforementioned companies. Acestea fiind spuse, dacă ai la îndemână un hard disk în plus făcut de altă companie, ar trebui încă să funcționeze! Tehnologia hard disk-urilor a rămas în întregime neschimbată în ultimii circa 10 ani. Doar ține minte să verifici datele S.M.A.R.T pentru a te asigura că unitatea nu are probleme înainte să îți pui toate datele pe el.
 
-For hard drive sizing, 2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch consumes more power and will always need an external power adapter. Asigură-te să plănuiești acest lucru atunci când stabilești ce vrei să faci cu o unitate externă.
+For hard drive sizing, 2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch drives consume more power and will always need an external power adapter. Asigură-te să plănuiești acest lucru atunci când stabilești ce vrei să faci cu o unitate externă.
 
-For Wii U users, it is highly recommended to have a hard drive that takes external power, or to use a powered USB hub and/or Y cable for 2.5 inch drives.
+For Wii U users, it is highly recommended to have a hard drive that uses external power, or to use a powered USB hub and/or Y cable for 2.5 inch drives. This is due to the Wii U not providing enough power over its USB ports, unlike the Wii.
 
 For Wii mini users, it is recommended to have an externally powered USB hub in order to have external storage, internet adapters, and other peripherals connected simultaneously. You may also want to use a Y cable for drive power.
 
 În ceea ce privește opțiunile tale, acest lucru în mare se rezumă la trei scenarii diferite:
 
-- Cumpărarea unui hard disk extern nou de la zero: Unitățiile externe noi costă în jur de €56 (300 RON) pentru 2TB, €46 (250 RON) pentru 1TB și în jur de €28 (150 RON) pentru mărimi mai scăzute de 1TB. Orice ai face, încearcă să rămâi cu cele trei mărci prezente listate mai sus, dar ține minte că ofertele sunt destul de rare pentru mărimile de mai puțin de 1TB.
-- Cumpărarea unui hard disk nou și o carcasă nouă: Hard disk-urile noi sunt mai ieftine decât hard disk-urile preconstruite în fabrică și poți cumpăra o carcasă pentru a acoperi acest hard disk nou. Carcasele de 2.5 inch normal pot fi alimentate numai din USB, în timp ce carcasele de 3.5 inch aproape mereu vin cu un adaptor extern pentru alimentare. Un exemplu de preț ar fi cumpărarea unui hard disk Western Digital de 500GB și o carcasă de 2.5 inch de pe Amazon - în total, în jur de €28 (150 RON).
-- Cumpărarea unei carcase pentru un hard disk deja existent: Dacă ai un hard drive la îndemână, ai putea pune într-o carcasă și o poți folosi pentru Wii-ul tău. Carcasele pot fi găsite pentru prețuri cuprinse între €9-19 (45-100 RON) de pe Amazon, cât timp ai o unitate cu care s-o folosești.
+- Cumpărarea unui hard disk extern nou de la zero: Unitățiile externe noi costă în jur de €56 (300 RON) pentru 2TB, €46 (250 RON) pentru 1TB și în jur de €28 (150 RON) pentru mărimi mai scăzute de 1TB. Try to stick within the three present manufacturing brands listed above, but bear in mind that offerings are sparse for drive sizes lower than 1TB.
+- Buying a new hard drive, and a new enclosure: You can buy a hard drive, as well as an enclosure to store this hard drive, with the added benefit that the drive can be swapped as desired. 2.5 inch enclosures can normally be powered off of USB alone, while 3.5 inch enclosures almost always need externally provided power. An example is buying a 1TB 2.5 inch hard drive as well as 2.5 inch drive enclosure, which may cost around 80 USD.
+- Buying an enclosure for an already existing hard drive: If you already have a usable drive, you can slot it into an enclosure and use it with your Wii. Enclosures can be found for prices ranging between 10 to 20 USD on Amazon.
 
 ### Cumpărarea Dispozitivelor USB - Unitățile SSD
 
@@ -162,7 +162,7 @@ ISPs known to provide routers incompatible with these settings:
 
 If your ISP will not let you change these settings, or your current networking hardware is not supported, you have a few options:
 
-- You can try to use a cellular hotspot. This is not recommended as it usually results in an unstable connection.
+- You can try to use a cellular hotspot. This is not recommended as a first choice as it often results in an unstable connection.
 - You can use a LAN adapter. It must have the `ASIX AX88772` chipset or say “compatible with Wii”. Here is a [recommended LAN adapter by Plugable](https://a.co/d/g8XvMDp).
   - Note that variants of the chipset (eg. `ASIX AX88772E`) **will not work** with the Wii.
 - Alternatively, you can buy a secondary router and continue to use the network you already have, like a mesh. Any cheap router meeting the above standards (such as the Linksys WRT54G) will work.

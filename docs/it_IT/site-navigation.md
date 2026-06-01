@@ -5,7 +5,7 @@
 **Sito**
 
 - [Home](/)
-- [Iniziamo](get-started)
+- [Cominciamo!](get-started)
 - [Domande frequenti (FAQ)](faq)
 - [Donazioni](donations)
 - [Wiki di hacks.guide — Wii](https://wiki.hacks.guide/wiki/Wii)
@@ -14,10 +14,10 @@
 
 ::: info
 
-**Servizi Wii online**
+**Servizi online per Wii**
 
 - [Nintendo Wi-Fi Connection](nintendowfc)
-- [Impostare il RTC](wiiconnect24#updating-rtc-clock)
+- [Impostare l'RTC](wiiconnect24#updating-rtc-clock)
 - [WiiConnect24](wiiconnect24)
 
 :::
@@ -37,20 +37,20 @@
 
 ::: info
 
-**Link Wii essenziali**
+**Introduzione agli essenziali**
 
-- [Backup da BootMii](bootmii)
 - [Ripristinare da BootMii](bootmiirecover)
 - [Panoramica sui brick](bricks)
 - [Prevenzione dai brick](bricks#brick-prevention)
 - [cIOS](cios)
+- [Creare un backup della NAND (Wii)](nand-backup)
 - [Homebrew Channel](hbc)
 - [ModMii](modmii)
 - [Open Shop Channel](osc)
 - [Priiloader](priiloader)
-- [Modalità di recupero](recovery-mode)
+- [Recovery Mode](recovery-mode)
 - [Rieseguire l'HackMii Installer](hackmii)
-- [Riportare la NAND Wii all'originale](wii-factory-reset)
+- [Riportare la NAND all'originale](wii-factory-reset)
 - [Aggiornare il menu Wii alla v4.3](update)
 - [YAWM ModMii Edition](yawmme)
 
@@ -60,16 +60,16 @@
 
 **Homebrew**
 
-- [Creare collegamenti per giochi Wii](wiigsc)
-- [Come dumpare i canali (WAD)](dump-wads)
-- [Come dumpare i giochi GameCube e Wii](dump-games)
+- [Creare collegamenti di giochi Wii](wiigsc)
+- [Come effettuare il dump dei canali (WAD)](dump-wads)
+- [Come effettuare il dump dei giochi GameCube/Wii](dump-games)
 - [Gestire i backup GameCube](gc-backups)
 - [Gestire i backup Wii](wii-backups)
-- [Uso di Priiloader](priiloader-usage)
+- [Come usare Priiloader](priiloader-usage)
 - [Homebrew consigliati](recommended-homebrew)
-- [Trasferire dati di salvataggio](transfer-saves)
+- [Trasferire i dati di salvataggio](transfer-saves)
 - [Loader dei backup Wii](wii-loaders)
-- [Usare SysCheck](syscheck)
+- [Come usare SysCheck](syscheck)
 - [Guida ai temi Wii](themes)
 
 :::
@@ -78,9 +78,9 @@
 
 **vWii**
 
-- [Dumpare la NAND di Wii U](wiiu-nand-dumper)
+- [Creare un backup della NAND (Wii U)](wiiu-nand-dumper)
+- [Completamento dell'installazione (Wii U)](vwii-finalizing-setup)
 - [Installare l'Homebrew Channel su vWii](vwii-homebrew-channel)
-- [Completare l'installazione — vWii](vwii-finalizing-setup)
 
 :::
 
@@ -88,7 +88,6 @@
 
 **Wii mini**
 
-- [Dumpare la NAND di Wii mini](wnd-mini)
-- [Completare l'installazione — Wii mini](mini-finalizing-setup)
+- [Completamento dell'installazione (Wii mini)](mini-finalizing-setup)
 
 :::

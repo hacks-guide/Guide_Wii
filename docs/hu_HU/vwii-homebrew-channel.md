@@ -20,7 +20,7 @@ Ha nincs Aromád telepítve, folytasd [Az Aroma telepítésével](https://wiiu.h
 
 - Egy Wii U
 - Az [Aroma környezet](https://aroma.foryour.cafe/) (az előző lépésben telepítésre kellett kerüljön)
-- A [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) legutolsó kiadása. (`compat_installer-Aroma.zip`) (telepítésre kellett kerüljön az előző lépésben)
+- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`) (should be installed from previous step)
 - Az [Enhanced vWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases/latest`)
   (`evwii.wps`) (opcionális)
 
@@ -36,7 +36,7 @@ Ha az evWii Aroma plugin nem telepített, és a homebrew alkalmazás összeomlik
 
 1. Helyezd be a Wii U-d SD kártyáját a PC-dbe.
 2. Másold a `compat_installer.wuhb` fájlt a `compat_installer-Aroma.zip` fájlból a `wiiu` -> `apps` útvonalra az SD kártyádra.
-3. Másold az `evwii.wps` fájlt a `wiiu` > `environments` > `aroma` > `plugins` útvonalra az SD kártyádra.
+3. Másold az `evwii.wps` fájlt a `wiiu` -> `environments` -> `aroma` -> `plugins` útvonalra az SD kártyádra.
 4. Helyezd vissza az SD kártyád a Wii U-dba.
 
 ### II. rész - Bootolás Aromába

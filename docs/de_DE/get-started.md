@@ -12,7 +12,13 @@ Wii mode on Wii U has a slightly different exploitation process, and will not la
 
 ## Is your Wii already softmodded?
 
-If you have a Wii or Wii mini that is already softmodded and you would like to update your setup, follow [this](hackmii) guide to launch the HackMii installer from the Homebrew Channel, or Priiloader.
+If you have a Wii or Wii mini that is already softmodded and you would like to update your setup, follow [this](hackmii) guide to launch the HackMii installer from the Homebrew Channel, or Priiloader. Possible signs that your console is already softmodded include:
+
+- The Homebrew Channel is visible on the Wii menu
+- Other homebrew, including USB loaders or emulators are visible on the Wii menu
+- You are able to open [Priiloader](priiloader#section-iii---entering-priiloader) when attempting to do so
+- BootMii is visible when starting the console
+- There is already an SD card in your Wii that contains folders like `apps`
 
 ## Identify your console revision
 

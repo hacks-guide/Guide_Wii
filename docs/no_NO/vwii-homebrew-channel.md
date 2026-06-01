@@ -20,7 +20,7 @@ If you do not have Aroma installed, proceed to [Installing Aroma](https://wiiu.h
 
 - A Wii U
 - The [Aroma Environment](https://aroma.foryour.cafe/) (should be installed from previous step)
-- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`) (should be installed from preivious step)
+- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`) (should be installed from previous step)
 - The [Enhanced vWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases/latest) (`evwii.wps`) (optional)
 
 ::: danger
@@ -35,7 +35,7 @@ If the evWii Aroma plugin is not installed and a homebrew app crashes/hangs, the
 
 1. Insert your Wii U's SD Card into your PC.
 2. Copy `compat_installer.wuhb` file from `compat_installer-Aroma.zip` to `wiiu` -> `apps` of your SD Card.
-3. Copy `evwii.wps` file to `wiiu` > `environments` > `aroma` > `plugins` of your SD Card.
+3. Copy `evwii.wps` file to `wiiu` -> `environments` -> `aroma` -> `plugins` of your SD Card.
 4. Re-insert your SD card into the Wii U.
 
 ### Section II - Booting into Aroma

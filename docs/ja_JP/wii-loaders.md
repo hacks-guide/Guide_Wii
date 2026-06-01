@@ -68,9 +68,9 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 #### 基本
 
-- WiiFlowは自動的にSDカードに載っているゲームだけ読み取るようになってます。 This can be changed by going to `Settings > Startup Settings` to then turn off `Mount SD Only`.
+- WiiFlowは自動的にSDカードに載っているゲームだけ読み取るようになってます。 This can be changed by going to `Settings` -> `Startup Settings` to then turn off `Mount SD Only`.
 - You can toggle the current view in WiiFlow between plugins, games, homebrew, and Wii channels by clicking the button to the left of `Home`, on the bottom right.
-- You can download game covers by going to `Settings` > `Download Covers and Banners`.
+- You can download game covers by going to `Settings` -> `Download Covers and Banners`.
 
 #### User Interface
 

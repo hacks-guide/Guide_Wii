@@ -10,15 +10,11 @@ This exploit also enables recovery from certain bricks in the event of no other 
 
 Please read the listed important information before proceeding.
 
-::::: tabs
+::: info
 
-:::: tabs BlueBomb 클래식
+**Important Information**
 
-## BlueBomb 클래식
-
-:::info Important Information
-
-- If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
+- If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking discord server](https://discord.gg/6ryxnkS).
 - If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. 그러나 벽돌 회수와 같은 상황에서는 예외도 있습니다.
 - 콘솔이 익스플로잇을 실행하는 컴퓨터 가까이에 있는지 확인하세요. 이상적으로는 약 90cm 이내에 있어야 합니다.
 
@@ -26,9 +22,19 @@ Please read the listed important information before proceeding.
 
 ::: danger
 
+**Important Warning**
+
 It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
 
 :::
+
+::::: tabs
+
+:::: tab BlueBomb Classic (Linux)
+
+## BlueBomb 클래식
+
+BlueBomb Classic utilizes a Linux device or virtual machine to upload an exploit to the Wii via Bluetooth.
 
 ### 요구 사항
 
@@ -59,11 +65,13 @@ It is **strongly** advised against using **any** video guide in general, but esp
   - 만약 없다면, 리눅스와 호환되는 제품을 구입하세요.
 - [FAT32/MS-DOS 형식으로 포맷된](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) USB 플래시 드라이브
   - 이 플래시 드라이브는 리눅스 컴퓨터에 사용하는 것과 동일한 드라이브가 아닙니다.
-- [HackMii 설치 프로그램 v1.2](https://bootmii.org/download/)
+- [HackMii 설치 프로그램](https://bootmii.org/download/)
 
 ### 지침
 
-1. hackmii_installer_v1.2 `.zip`에서 `boot.elf`를 플래시 드라이브의 루트에 복사합니다.
+#### Section I - Initial Preparation
+
+1. Copy `boot.elf` from the `hackmii_installer_v1.2.zip` to the root of your flash drive.
 
    - (벽돌 현상을 해결하려는 경우, 사용하려는 홈브류 앱을 /apps/ 폴더에 복사해야 함)
    - (Wii 미니의 경우에도 bootmini.elf는 **작동하지 않습니다.** 그 목적은 전혀 다르고 관련이 없습니다. 모든 경우에 boot.elf를 사용하세요.)
@@ -86,9 +94,11 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
 6. 콘솔 전원을 끄세요.
 
-7. 리눅스 배포판을 시작하고 인터넷에 연결되어 있는지 확인합니다.
+#### Section II - Configuring Exploit
 
-8. 터미널을 열고 다음 명령을 실행합니다:
+1. 리눅스 배포판을 시작하고 인터넷에 연결되어 있는지 확인합니다.
+
+2. 터미널을 열고 다음 명령을 실행합니다:
 
    ```shell
    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -98,7 +108,7 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
    ![](/images/exploits/bluebomb/run-commands.png)
 
-9. 그러면 도우미가 필요한 파일을 다운로드하고 콘솔에 대한 정보를 요청합니다.
+3. 그러면 도우미가 필요한 파일을 다운로드하고 콘솔에 대한 정보를 요청합니다.
 
    ![](/images/exploits/bluebomb/console-type.png)
 
@@ -110,49 +120,46 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
    ![](/images/exploits/bluebomb/wii-options.png)
 
-10. 콘솔 전원을 켜세요.
-    - Wii 리모컨을 **연결하지 마세요.**
+#### Section III - Performing the Exploit
 
-11. 아직 진행하지 않았다면 스크립트에 `yes`를 입력하여 계속 진행하고, `Waiting to accept`이 표시되는지 확인합니다.
+1. 콘솔 전원을 켜세요.
+   - Wii 리모컨을 **연결하지 마세요.**
 
-12. 터미널에 \`got connection handle'라는 메시지가 표시될 때까지 동기화 버튼을 반복해서 누릅니다.
+2. 아직 진행하지 않았다면 스크립트에 `yes`를 입력하여 계속 진행하고, `Waiting to accept`이 표시되는지 확인합니다.
 
-    - 이를 위해서는 여러 번의 시도가 필요할 수 있습니다.
+3. 터미널에 \`got connection handle'라는 메시지가 표시될 때까지 동기화 버튼을 반복해서 누릅니다. Wait for the exploit to finish uploading.
 
-    ![](/images/exploits/bluebomb/got-connection-handle.png)
+   - 이를 위해서는 여러 번의 시도가 필요할 수 있습니다.
 
-13. 익스플로잇이 성공적이면 아래와 비슷한 화면이 나타나고 그 후에 HackMii 설치 프로그램이 로드됩니다.
+   ![](/images/exploits/bluebomb/got-connection-handle.png)
 
-    - 나중에 다시 사용할 계획이 없다면 지금 리눅스 배포판을 종료해도 됩니다.
+4. 익스플로잇이 성공적이면 아래와 비슷한 화면이 나타나고 그 후에 HackMii 설치 프로그램이 로드됩니다.
 
-    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
+   - 나중에 다시 사용할 계획이 없다면 지금 리눅스 배포판을 종료해도 됩니다.
+
+   ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ---
 
 ::: tip
 
-[Hackmii 설치 프로그램으로 계속 진행](hbc)
+[홈브류 채널 및 BootMii 설치 계속하기](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::
 
 ::::
 
-:::: tabs BlueBomb 마이크로
+:::: tab BlueBomb Micro (RPi/ESP32)
 
 ## BlueBomb 마이크로
 
-:::info Important Information
+BlueBomb Micro utilizes a Raspberry Pi Pico or ESP32 to upload an exploit to the Wii via Bluetooth.
 
-- If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
-- If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. 그러나 벽돌 회수와 같은 상황에서는 예외도 있습니다.
-- 콘솔이 익스플로잇을 실행하는 컴퓨터 가까이에 있는지 확인하세요. 이상적으로는 약 90cm 이내에 있어야 합니다.
-- `Exception 0700 occurred!` 또는 이와 유사한 오류가 발생하면 익스플로잇을 다시 시도하세요. 이런 문제가 지속되면 지원을 위해 [Wii 미니 해킹 디스코드 서버](https://discord.gg/6ryxnkS)에 가입하세요.
+::: warning
 
-:::
-
-::: danger
-
-It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
+`Exception 0700 occurred!` 또는 이와 유사한 오류가 발생하면 익스플로잇을 다시 시도하세요. 이런 문제가 지속되면 지원을 위해 [Wii 미니 해킹 디스코드 서버](https://discord.gg/6ryxnkS)에 가입하세요.
 
 :::
 
@@ -170,7 +177,9 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
 ### 지침
 
-1. hackmii_installer_v1.2 `.zip`에서 `boot.elf`를 플래시 드라이브의 루트에 복사합니다.
+#### Section I - Initial Preparation
+
+1. Copy `boot.elf` from the `hackmii_installer_v1.2.zip` to the root of your flash drive.
 
    - (벽돌 현상을 해결하려는 경우, 사용하려는 홈브류 앱을 /apps/ 폴더에 복사해야 함)
    - (Wii 미니의 경우에도 bootmini.elf는 **작동하지 않습니다.** 그 목적은 전혀 다르고 관련이 없습니다. 모든 경우에 boot.elf를 사용하세요.)
@@ -193,7 +202,9 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
 6. 콘솔 전원을 끄세요.
 
-#### 라즈베리 파이 피코 W
+#### Section II.a - Raspberry Pi Pico W
+
+:::details Preparation Instructions
 
 1. 릴리스 페이지에서 최신 [사전 컴파일된 바이너리](https://github.com/GaryOderNichts/bluebomb_micro/releases)를 다운로드하여 PC에 압축을 풉니다.
 
@@ -216,14 +227,20 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
    ![](/images/exploits/bluebomb/pico-ready.jpg)
 
-#### ESP32
+:::
+
+#### Section II.b - ESP32
+
+:::details Preparation Instructions
 
 1. 최신 [ESP IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html)를 설정합니다.
 2. [소스에서](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#building-from-source)바이너리를 빌드합니다.
 3. ESP32에 [바이너리 플래시](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#flashing)합니다.
 4. 이제 장치가 준비되었습니다. PC에서 장치를 분리할 수 있습니다.
 
-### 익스플로잇 수행
+:::
+
+#### Section III - Performing the Exploit
 
 1. 플래시된 장치를 다시 PC에 연결합니다.
 2. 콘솔 전원을 켜세요.
@@ -232,16 +249,110 @@ It is **strongly** advised against using **any** video guide in general, but esp
    - 이를 위해서는 여러 번의 시도가 필요할 수 있습니다.
 4. 익스플로잇이 성공적이면 아래와 비슷한 화면이 나타나고 그 후에 HackMii 설치 프로그램이 로드됩니다.
 
+   - You may now unplug your microcontroller at this point.
+
    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ---
 
 ::: tip
 
-[Hackmii 설치 프로그램으로 계속 진행](hbc)
+[홈브류 채널 및 BootMii 설치 계속하기](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::
 
 ::::
+
+:::: tab BlueMii (Wii to Wii)
+
+## BlueMii
+
+BlueMii utilizes another Wii to upload an exploit to the Wii via Bluetooth.
+
+### 요구 사항
+
+- A secondary Wii, Wii U (vWii), or Wii mini to use to upload an exploit to the target Wii
+- A USB flash drive OR SD card to load the HackMii installer onto, [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+- A second USB flash drive OR SD card to load BlueMii onto the exploiting Wii
+- [BlueMii](https://github.com/Zarithya/BlueMii/releases/tag/v1.1)
+- [HackMii 설치 프로그램](https://bootmii.org/download/)
+
+### 지침
+
+#### Section I - Preparing Target Console
+
+1. Copy `boot.elf` from the `hackmii_installer_v1.2.zip` to the root of the USB drive or SD card that will be used on the target console.
+
+   - (벽돌 현상을 해결하려는 경우, 사용하려는 홈브류 앱을 /apps/ 폴더에 복사해야 함)
+   - (Wii 미니의 경우에도 bootmini.elf는 **작동하지 않습니다.** 그 목적은 전혀 다르고 관련이 없습니다. 모든 경우에 boot.elf를 사용하세요.)
+
+   ![](/images/exploits/bluebomb/usb-exploit.png)
+
+2. Reinsert your USB drive or SD card into the target console.
+   - Wii 미니의 USB 포트는 뒷면에 있습니다.
+   - 일반 Wii의 경우, 아래쪽 포트 (또는 Wii가 세워져 있는 경우 오른쪽 포트)를 사용하세요.
+
+3. Power on the target console.
+
+4. `Wii 설정`으로 갑니다.
+
+5. 시스템 버전 옆에 있는 글자의 오른쪽 상단에 적혀 있는 내용을 참고하세요.
+
+   - 이 문자는 여러분의 시스템 메뉴 지역에 해당하며, 해당 단계를 진행하기 위해 해당 시스템 메뉴 지역을 알아야 합니다.
+
+   ![](/images/wii/SystemMenuVersion.png)
+
+6. Power off the target console.
+
+#### Section II - Configuring Exploit
+
+1. Copy the `apps` folder in the `BlueMii.vX.X.zip` file to the root of your USB drive or SD card that will be used on the exploiting console.
+
+2. Reinsert your USB drive or SD card into the exploiting console.
+
+3. Power on the exploiting console.
+
+4. On the exploiting console, open the Homebrew Channel and load the BlueMii app.
+
+   ![](/images/exploits/bluebomb/load-bluemii.png)
+
+5. On the BlueMii app, select the region that corresponds to your target console.
+
+   ![](/images/exploits/bluebomb/bluemii-region.png)
+
+#### Section III - Performing the Exploit
+
+1. Power on the target console.
+   - Wii 리모컨을 **연결하지 마세요.**
+
+2. On the exploiting console, press the `A` button to prepare to upload the exploit to the target console.
+
+   ![](/images/exploits/bluebomb/bluemii-ready.png)
+
+3. Press the Sync button repeatedly until the exploiting console shows `got connection handle`. Wait for the exploit to finish uploading.
+
+   - 이를 위해서는 여러 번의 시도가 필요할 수 있습니다.
+
+   ![](/images/exploits/bluebomb/bluemii-handle.png)
+
+4. 익스플로잇이 성공적이면 아래와 비슷한 화면이 나타나고 그 후에 HackMii 설치 프로그램이 로드됩니다.
+
+   ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
+
+5. On the exploiting console, you may now press `A` to either retry the exploit, or `HOME/START` to return to the Homebrew Channel.
+
+   ![](/images/exploits/bluebomb/bluemii-success.png)
+
+---
+
+::: tip
+
+[홈브류 채널 및 BootMii 설치 계속하기](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+
+:::
 
 :::::

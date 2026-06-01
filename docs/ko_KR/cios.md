@@ -32,13 +32,13 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ### 섹션 I - 다운로드
 
-::: tip
+::: warning
 
 Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
 
 :::
 
-::: info
+::: tip
 
 If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing).
 
@@ -50,7 +50,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 3. Unzip the archive and run the NUSGet executable.
 
-4. Navigate to `IOS` > `IOS 38` > `World` and select `v4123`. Uncheck `Keep encrypted contents`, then click `Start Download`.
+4. Navigate to `IOS` -> `IOS 38` -> `World` and select `v4123`. Uncheck `Keep encrypted contents`, then click `Start Download`.
 
    ![](/images/desktop-apps/nusget/nusget-4123.png)
 
@@ -201,7 +201,7 @@ WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
 
 [오픈샵 채널 설치를 계속 진행](osc)
 
-이제 Wii가 적절한 벽돌 방지 기능을 갖추었으므로 Wii에서나 외부에서 모두 접속할 수 있는 홈브류의 신뢰할 수 있는 저장소인 오픈 샵 채널을 설치할 수 있습니다.
+Now that the Homebrew Channel, BootMii, Priiloader, and cIOS are all installed, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
 
 :::
 
@@ -229,7 +229,64 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ## 지침
 
-### 섹션 I - 설치
+### 섹션 I - 다운로드
+
+::: warning
+
+Your browser or antivirus software may flag NUSGet as malware - this is a false positive. NUSGet does NOT contain any malware.
+
+:::
+
+::: tip
+
+If you are able to connect your vWii to the internet, you may skip to [Section II](cios#section-ii---installing-1).
+
+:::
+
+1. Power off your console, and insert your SD card or USB drive into your computer.
+
+2. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
+
+3. Unzip the archive and run the NUSGet executable.
+
+4. Select the `vWii` platform, navigate to `IOS` -> `IOS 38` -> `World` and select `v4380`. Uncheck `Keep encrypted contents`. Check `Re-encrypt title using the Wii Common Key`, then click `Start Download`.
+
+   ![](/images/desktop-apps/nusget/nusget-4380.png)
+
+5. Repeat the above step for `IOS 56 (v5918)`, `IOS 57 (v6175)` and `IOS 58 (v6432)`.
+
+6. When you have finished downloading the above IOS, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
+   ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
+
+7. This folder should contain four different folders with the title IDs of the above IOS, as shown here.
+
+   ![](/images/desktop-apps/nusget/nusget-folder-vios.png)
+
+8. Enter the four directories, locating a `IOS-XX-vXXXX-vWii.wad` file in each.
+
+   ![](/images/desktop-apps/nusget/nusget-vios-output.png)
+
+9. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 d2x cIOS 설치 프로그램을 실행합니다.
+   - 이 장치는 d2x cIOS 설치 프로그램이 포함된 동일한 장치여야 합니다.
+
+10. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer-vwii:
+
+    |   IOS  |              File Name             |
+    | :----: | :--------------------------------: |
+    | IOS 38 | IOS38-64-v4380.wad |
+    | IOS 56 | IOS56-64-v5918.wad |
+    | IOS 57 | IOS57-64-v6175.wad |
+    | IOS 58 | IOS58-64-v6432.wad |
+
+::: info
+
+WAD 파일은 다음과 같이 SD 카드에 있어야 합니다:
+
+![](/images/desktop-apps/nusget/nusget-vios-on-sd.png)
+
+:::
+
+### 섹션 II - 설치하기
 
 1. D2x-cios-installer-vwii `.zip` 파일의 `apps` 폴더를 SD 카드 또는 USB 드라이브의 루트 폴더에 복사하세요.
 
@@ -299,7 +356,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ::: tip
 
-[Continue to Finalizing Setup](vwii-finalizing-setup)
+[Continue to Finalizing Setup (Wii U)](vwii-finalizing-setup)
 
 Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard vWii menu.
 
@@ -368,7 +425,9 @@ If you need assistance with this tutorial, please join [the Wii mini Hacking Dis
 
 ::: tip
 
-[Continue to Finalizing Setup](mini-finalizing-setup)
+[Continue to Finalizing Setup (Wii mini)](mini-finalizing-setup)
+
+Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard Wii mini menu.
 
 :::
 

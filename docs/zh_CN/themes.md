@@ -4,7 +4,9 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 ## 转到 <code>Options</code> &#062; <code>Standard System Menu</code> &#062; Wii 菜单版本 &#062; Wii 菜单区域
 
-:::info Important Information
+::: info
+
+**Important Information**
 
 - csm-installer has built in safety features to prevent you from installing bad or corrupt Wii Menu themes. You are advised to use it instead of other theme installation homebrew to help prevent a brick.
 - 请仅使用这里提供的 ThemeMii 版本，因为 ThemeMii Mod 允许您制作适用于 Wii 菜单版本 4.3 的主题，其他版本可能不兼容。
@@ -16,7 +18,7 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 **Important Warnings**
 
-- DO NOT continue with this guide unless you have adequate brick protection with [BootMii](bootmii) (Wii only) and [Priiloader](priiloader) installed.
+- DO NOT continue with this guide unless you have adequate brick protection with [BootMii](hbc) (Wii only) and [Priiloader](priiloader) installed.
 - 请仅安装针对您的 Wii 和其当前区域专门设计过的主题。 Installing themes from the wrong version or region on your Wii will cause a [theme brick](bricks#theme-brick). 本教程将告诉您如何创建一个安全可安装的 .csm 文件。
 
 :::
@@ -53,7 +55,7 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
 2. Unzip the archive and run the NUSGet executable.
-3. Navigate to `System` > `System Menu` > `Your Region` and then select the Wii menu version you are running. Check the `Create decrypted contents (*.app)` option, uncheck the `Keep encrypted contents` option, and then click `Start Download`.
+3. Navigate to `System` -> `System Menu` -> `Your Region` and then select the Wii menu version you are running. Check the `Create decrypted contents (*.app)` option, uncheck the `Keep encrypted contents` option, and then click `Start Download`.
 
    ![](/images/desktop-apps/nusget/nusget-wiimenu-dl.png)
 4. When you have finished downloading the Wii menu files, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
@@ -76,7 +78,7 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 2. Unzip the archive and run the NUSGet executable.
 
-3. Select the `vWii` tab and navigate to `System` > `System Menu` > `Your Region`.
+3. Select the `vWii` tab and navigate to `System` -> `System Menu` -> `Your Region`.
 
 4. Select the version that corresponds to your Wii U's region in the table below:
 
@@ -117,7 +119,7 @@ This guide is intended to be the last you will ever need when it comes to themin
 1. Create a `themes` folder on the root of your SD card/USB device.
 2. Extract the ThemeMii MOD `.zip` to a location on your PC.
 3. Launch the ThemeMii application.
-4. Go to `Tools` > `Download Base App` > `Version of your Wii Menu` > `Region of your Wii Menu`.
+4. Go to `Tools` -> `Download Base App` -> `Version of your Wii Menu` -> `Region of your Wii Menu`.
 5. 将弹出对话框，要求您输入一个值来创建密钥。 根据提示输入相应的内容，它将创建用于解密从任天堂服务器上下载 Wii 菜单内容的密钥。
 6. A file selection box will ask you where to save the .app file. Save it to the `themes` folder on your SD card/USB device.
 
@@ -129,7 +131,7 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 1. Extract the ThemeMii MOD `.zip` to a location on your PC.
 2. Launch the ThemeMii application.
-3. Go to `File` > `Open`, and select the `.mym` file for the theme you want to build.
+3. Go to `File` -> `Open`, and select the `.mym` file for the theme you want to build.
 4. Press `Create csm`.
 5. When asked to select an `.app` file, select the newly downloaded base theme in the `themes` of your SD card or USB device.
 6. When asked to save the `.csm` file, save it in the `themes` folder.
@@ -178,7 +180,7 @@ This guide is intended to be the last you will ever need when it comes to themin
 
 1. Download a theme `.zip` file from the website linked above, or anywhere else you can get a proper theme.
 2. Unpack the `.zip` file's contents into the `/apps/usbloader_gx` directory on the storage device where you installed USB Loader GX.
-3. 将 SD 卡或 U 盘插入 Wii。
+3. 一些主题针对不同区域提供不同的下载链接，因此请选择与您的 Wii 区域对应的链接。
 4. Start USB Loader GX, go to the `Settings` menu, and then go to `Theme Menu`.
 5. Open the theme and install it.
 

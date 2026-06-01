@@ -39,11 +39,11 @@
 
 **개조 101 - Wii 필수품**
 
-- [BootMii 백업](bootmii)
 - [BootMii 복원](bootmiirecover)
 - [벽돌 개요](bricks)
 - [벽돌 방지](bricks#brick-prevention)
 - [cIOS](cios)
+- [Creating a NAND Backup (Wii)](nand-backup)
 - [홈브류 채널](hbc)
 - [ModMii](modmii)
 - [오픈 샵 채널](osc)
@@ -78,9 +78,9 @@
 
 **vWii**
 
-- [Creating a NAND dump of the Wii U](wiiu-nand-dumper)
+- [Creating a NAND Backup (Wii U)](wiiu-nand-dumper)
+- [Finalizing Setup (Wii U)](vwii-finalizing-setup)
 - [Installing the Homebrew Channel on vWii](vwii-homebrew-channel)
-- [Finalizing Setup — vWii](vwii-finalizing-setup)
 
 :::
 
@@ -88,7 +88,6 @@
 
 **Wii mini**
 
-- [Wii 미니 낸드 덤퍼](wnd-mini)
-- [Finalizing Setup — Wii mini](mini-finalizing-setup)
+- [Finalizing Setup (Wii mini)](mini-finalizing-setup)
 
 :::

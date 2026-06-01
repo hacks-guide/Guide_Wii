@@ -38,7 +38,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
    ![](/images/riiconnect24/Internet_2.png)
 
-4. Navigate to `Page 2` > `Internet` > `Connection Settings`.
+4. Go to `Connection Settings`.
 
    ![](/images/riiconnect24/Internet_3.png)
 
@@ -106,5 +106,7 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
 [Continuer vers l'installation de Homebrew Channel et de BootMii](hbc)
 {: .notice--info}
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::

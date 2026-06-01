@@ -1,6 +1,6 @@
-# A Wii U NAND dumpolása
+# NAND mentés készítése (Wii U)
 
-Ez az oldal végig vezet a NAND dump készítésén a Wii U-dról. Ez megvéd attól, hogy ha valami elromlik és a Wii U-d brickelődik, lehetővé téve a NAND visszaállítását mentésből.
+Annak érdekében, hogy megvédjök a Wii U-dat egy permanens brikctől az az útmutató arra fog kérni, hogy készíts egy NAND mentést.
 
 ::: tip
 

@@ -4,7 +4,9 @@
 
 Please read the information below before proceeding further.
 
-:::info Important Information
+::: info
+
+**Important Information**
 
 - Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. 이는 boot2가 아닌 Wii에 복원 확인 코드를 입력하는 데 필요한 게임큐브 포트가 없기 때문입니다. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
@@ -36,14 +38,14 @@ Please read the information below before proceeding further.
 
 If you would like to restore individual data from your NAND backup, a much safer and faster way to do this using Dolphin Emulator.
 
-예를 들어, Wii 메시지 보드 데이터를 복원하려면 돌핀을 사용하여 낸드 백업을 가져옵니다. In Dolphin, go to `File` > `Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
+예를 들어, Wii 메시지 보드 데이터를 복원하려면 돌핀을 사용하여 낸드 백업을 가져옵니다. In Dolphin, go to `File` -> `Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
 
-If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools` > `Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
+If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools` -> `Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
 
 ## 요구 사항
 
 - A Wii with BootMii as IOS or BootMii as boot2 installed
-- An earlier NAND Backup for your specific Wii made by [BootMii](bootmii)
+- An earlier NAND Backup for your specific Wii made by [BootMii OR nanddumper@ios](nand-backup)
 
 ## 지침
 

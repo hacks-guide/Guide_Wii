@@ -4,7 +4,9 @@ Ez az útmutató végigvezet egy biztonsági mentés visszatöltésén a BootMii
 
 Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
-:::info Fontos információ
+::: info
+
+**Fontos információ**
 
 - A Family Edition Wii-ok és Wii mini-k **NEM TUDNAK** helyreállítani NAND mentést. A biztonsági mentés visszaállításához egy olyan megerősítő kódot kell megadnod, amihez egy GameCube-vezérlő szükséges. További támogatásért kérj segítséget a [Nintendo Homebrew discord szerveren](https://discord.gg/C29hYvh).
 
@@ -36,14 +38,14 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 Ha csak egyedi adatot szeretnél helyreállítani a NAND mentésedből, sokkal biztonságosabb és gyorsabb módja annak a Doplhin emulátor használata.
 
-Például, ha csak a Wii Üzenőfal adatait szeretnéd visszaállítani, akkor nyisd meg a Dolphin emulátort és importáld a NAND mentést. A Dolphinban ezután kattints a `File` > `Open User Folder` menüpontokra, majd keresd meg a `Wii/title/00000001/00000002/data/cdb.vff` fájlt, majd másold az SD kártyádra és használd a WiiXplorer](https://oscwii.org/library/app/wiixplorer)-t a megfelelő helyre történő visszaállításához.
+Például, ha csak a Wii Üzenőfal adatait szeretnéd visszaállítani, akkor nyisd meg a Dolphin emulátort és importáld a NAND mentést. A Dolphinban ezután kattints a `File` -> `Open User Folder` menüpontokra, majd keresd meg a `Wii/title/00000001/00000002/data/cdb.vff` fájlt, majd másold az SD kártyádra és használd a WiiXplorer](https://oscwii.org/library/app/wiixplorer)-t a megfelelő helyre történő visszaállításához.
 
-Ha egy játék játékmentését szeretnéd visszaállítani, importáld a Dolphinba a NAND biztonsági mentést, majd kattints az `Tools` > `Export All Wii Saves` menüpontokra az összes mentésed SD kártyára való másolásához. Ezután a Data Management-tel áthelyezheted őket a Wii-odra.
+Ha egy játék játékmentését szeretnéd visszaállítani, importáld a Dolphinba a NAND biztonsági mentést, majd kattints az `Tools` -> `Export All Wii Saves` menüpontokra az összes mentésed SD kártyára való másolásához. Ezután a Data Management-tel áthelyezheted őket a Wii-odra.
 
-## Követelmények
+## Requirements
 
 - Egy Wii IOS-ként telepített BootMii-vel vagy boot2-re telepített BootMii-vel
-- Egy korábbi NAND mentése a Wii-odnak amit a [BootMii](bootmii)-vel készült
+- Egy korábbi NAND mentése a Wii-odnak amit a [BootMii-val VAGY nanddumper@ios-szal](nand-backup) készült
 
 ## Lépések
 

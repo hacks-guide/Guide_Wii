@@ -1,20 +1,14 @@
 # WiiConnect24
 
-<!--
-This guide provides the means of regaining WiiConnect24 functionality on your console via RiiConnect24.
-Although not at all necessary, it is a "nice to have" feature that was originally used for online connectivity in certain applications on the console.
-These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Channel, some Japan-exclusive channels, and more.
--->
-
-A [WiiConnect24(https://wikipedia.org/wiki/WiiConnect24) egy olyan szolgáltatás volt, amely lehetővé tette az internetkapcsolattal rendelkező felhasználók számára az időjárás-előrejelzés megtekintését, a barátoknak való üzenetküldést, a Mii-versenyeken való részvételt és sok mást. Ez a szolgáltatás 2013. június 27-én megszűnt. Habár megszűnt, létezik egy kód visszafejtés alap szolgáltatás, amihez csatlakozhatsz, és ami helyreállítja ez a szolgáltatást és alább kerül leírásra.
+A [WiiConnect24(https://wikipedia.org/wiki/WiiConnect24) egy olyan szolgáltatás volt, amely lehetővé tette az internetkapcsolattal rendelkező felhasználók számára az időjárás-előrejelzés megtekintését, a barátoknak való üzenetküldést, a Mii-versenyeken való részvételt és sok mást. Ez a szolgáltatás 2013. június 27-én megszűnt. Although discontinued, there is a third party service known as WiiLink which restores this functionality.
 
 ## WiiLink
 
-A [WiiLink](https://www.wiilink.ca/) egy olyan szolgáltatás, ami újraéleszti és kiterjeszti a WiiConnect24 funkcióit. A WiiLink egy csatornamódosítóval telepíthető, ami támogatja mind a nemzetközi csatornákat, mint a News Channel, mind a korábban régiókorlátos csatornákat, mint a Wii Room. A szolgáltatások telepítési útmutatója a patcherrel együtt a [WiiLink] honlapján(https://www.wiilink.ca/guide/) érhető el
+A [WiiLink](https://www.wiilink.ca/) egy olyan harmadik feles szolgáltatás, ami újraéleszti és kiterjeszti a WiiConnect24 funkcióit. WiiLink hosts a patcher for the services that it provides. They offer international channels such as the Forecast and News Channel, as well as region exclusive channels such as Wii Room. The guide to install WiiLink on your console can be found [on their website.](https://www.wiilink.ca/guide/)
 
 ## A valós idejű óra átállítása
 
-Bizonyos esetekben az RTC óra a Wii-odon deszinkronizált lehet, problémákat okozva a WiiConnect24 szolgáltatások csatlakozáshoz vagy más általán online szolgáltatáshoz a Wii-n. Ha csatlakozási hibákat kapsz, mint pl. FORE000006, elképzelhető, hogy használnod kell a lenti lépéseket, hogy újraszinkronizáld a Wii belső RTC óráját az internethez.
+In some cases, the RTC clock on your Wii may not be synchronized with the current time. This will likely cause errors when trying to connect to WiiConnect24 services, or other general online services on the Wii. Ha csatlakozási hibákat kapsz, mint pl. FORE000006, elképzelhető, hogy használnod kell a lenti lépéseket, hogy újraszinkronizáld a Wii belső RTC óráját az internethez.
 
 ::::: tabs
 
@@ -92,7 +86,7 @@ Bizonyos esetekben az RTC óra a Wii-odon deszinkronizált lehet, problémákat 
 
 :::::
 
-## Wiiconnect24 Priiloader hackek (vWii és Wii mini)
+## WiiConnect24 Priiloader hackek (vWii és Wii mini)
 
 ::: info
 

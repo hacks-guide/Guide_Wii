@@ -24,13 +24,13 @@ Wii를 4.3으로 업데이트하려면 [ModMii](modmii) (윈도우용)를 사용
 
 1. On your computer, download NUSGet using the link above, choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
 2. Unzip the archive and run the NUSGet executable.
-3. Go to `System` > `0000000100000002 - System Menu` > `Your Region` and then select the latest 4.3 version of the menu (e.g. `v513 4.3U` for USA). Uncheck `Keep encrypted contents`, then click `Start Download`.
+3. Go to `System` -> `0000000100000002 - System Menu` -> `Your Region` and then select the latest 4.3 version of the menu (e.g. `v513 4.3U` for USA). Uncheck `Keep encrypted contents`, then click `Start Download`.
 
    ![](/images/desktop-apps/nusget/nusget-wiimenu-dl-update.png)
-4. Go to `IOS` > `000000010000003A - IOS 58` > `World` > `Latest Version`. Uncheck `Keep encrypted contents`, then click `Start Download`.
+4. Go to `IOS` -> `000000010000003A - IOS 58` -> `World` -> `Latest Version`. Uncheck `Keep encrypted contents`, then click `Start Download`.
 
    ![](/images/desktop-apps/nusget/nusget-ios58-dl.png)
-5. Go to `IOS` > `0000000100000050 - IOS 80` > `World` > `Latest Version`. Uncheck `Keep encrypted contents`, then click `Start Download`.
+5. Go to `IOS` -> `0000000100000050 - IOS 80` -> `World` -> `Latest Version`. Uncheck `Keep encrypted contents`, then click `Start Download`.
 
    ![](/images/desktop-apps/nusget/nusget-ios80-dl.png)
 6. When you have finished the above steps, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.

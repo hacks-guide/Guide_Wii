@@ -1,10 +1,10 @@
 # FlashHax
 
-FlashHax è un exploit per Wii che viene eseguito utilizzando il Canale Internet. A differenza di altri exploit, questo non richiede una scheda SD.
+FlashHax è un exploit per Wii che viene eseguito tramite il Canale Internet. A differenza di altri exploit, questo non richiede una scheda SD.
 
 ## Requisiti
 
-- Una console Wii con una connessione a Internet
+- Una console Wii connessa a Internet
 - Il Canale Internet
 
 ## Istruzioni
@@ -35,22 +35,24 @@ FlashHax è un exploit per Wii che viene eseguito utilizzando il Canale Internet
 
 2. Aspetta qualche istante
 
-   - Potrebbe impiegarci un po' di tempo dato che sta scaricando l'installer da Internet.
+   - Potrebbe volerci del tempo, dato che sta scaricando l'installer da Internet.
 
    ![](/images/exploits/flashhax/wait-for-download.png)
 
-3. Se l'exploit è avvenuto con successo, il tuo dispositivo avrà caricato l'installer di HackMii.
+3. Se l'exploit ha avuto successo, la console avrà caricato l'HackMii Installer.
    - Potrebbero volerci più tentativi.
-   - Se l'HackMii Installer non viene caricato e invece si blocca (non puoi muovere il tuo cursore), riavvia la console Wii, avvia di nuovo il Canale Internet, e riprova questa sezione.
+   - Se non viene caricato e invece si blocca (non puoi muovere il cursore), riavvia la console, avvia di nuovo il Canale Internet e riprova questa sezione.
 
-Se dopo questo non riesci ancora a caricare l'installer, prova a cancellare i tuoi cookie o i dati di salvataggio del Canale Internet dalla memoria della console Wii.
+Se ancora non riesci a caricare l'installer, prova a cancellare i cookie o i dati di salvataggio del Canale Internet dalla memoria della console.
 
-Se dopo diversi tentativi FlashHax ancora non funziona, dovresti provare un [exploit diverso](get-started).
+Se FlashHax non funziona nonostante i diversi tentativi, prova un [exploit diverso](get-started).
 
 ---
 
 ::: tip
 
 [Continua con l'installazione di Homebrew Channel e di BootMii](hbc)
+
+Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.
 
 :::

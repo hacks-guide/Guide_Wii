@@ -53,4 +53,6 @@ Ha további próbálkozások után sem működik a Flashhax, javasoljuk, hogy pr
 
 [Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 
+Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
+
 :::

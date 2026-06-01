@@ -10,15 +10,11 @@ This exploit also enables recovery from certain bricks in the event of no other 
 
 Please read the listed important information before proceeding.
 
-::::: tabs
+::: info
 
-:::: tab BlueBomb Classic
+**Important Information**
 
-## BlueBomb Classic
-
-:::info Important Information
-
-- If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
+- If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking discord server](https://discord.gg/6ryxnkS).
 - If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Однако, существуют исключения в таких обстоятельствах как восстановление окирпиченной консоли.
 - Убедитесь, что консоль стоит рядом с компьютером на котором запущен эксплоит, в идеале расстояние должно быть меньше 1 метра.
 
@@ -26,9 +22,19 @@ Please read the listed important information before proceeding.
 
 ::: danger
 
+**Important Warning**
+
 It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
 
 :::
+
+::::: tabs
+
+:::: tab BlueBomb Classic (Linux)
+
+## BlueBomb Classic
+
+BlueBomb Classic utilizes a Linux device or virtual machine to upload an exploit to the Wii via Bluetooth.
 
 ### Требования
 
@@ -59,11 +65,13 @@ It is **strongly** advised against using **any** video guide in general, but esp
   - Если у вас его нет, убедитесь, что тот который вы будете использовать совместим с Linux.
 - USB флэш-накопитель [отформатированный в FAT32](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (англ.)
   - Это не может быть один и тот же USB-накопитель, который используется для загрузки Linux.
-- [Установщик HackMii v1.2](https://bootmii.org/download/)
+- [Установщик HackMii](https://bootmii.org/download/)
 
 ### Инструкции
 
-1. Скопируйте `boot.elf` из backmii_installer_v1.2 `.zip` в корень вашего USB-накопителя.
+#### Section I - Initial Preparation
+
+1. Copy `boot.elf` from the `hackmii_installer_v1.2.zip` to the root of your flash drive.
 
    - (Если вы пытаетесь восстановить консоль из окирпиченного состояния, вы также должны скопировать homebrew-приложения которые вы хотите использовать в /apps/)
    - (bootmini.elf **не** будет работать даже на Wii Mini, данный файл предназначен для совершенно других целей и не связан с тем, что вы делаете. Используйте boot.elf во всех случаях).
@@ -86,9 +94,11 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
 6. Выключите вашу консоль.
 
-7. Запустите ваш дистрибутив Linux и убедитесь, что вы подключены к Интернету.
+#### Section II - Configuring Exploit
 
-8. Откройте терминал и выполните следующие команды:
+1. Запустите ваш дистрибутив Linux и убедитесь, что вы подключены к Интернету.
+
+2. Откройте терминал и выполните следующие команды:
 
    ```shell
    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -98,7 +108,7 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
    ![](/images/exploits/bluebomb/run-commands.png)
 
-9. После этого помощник загрузит необходимые файлы и запросит информацию о вашей консоли.
+3. После этого помощник загрузит необходимые файлы и запросит информацию о вашей консоли.
 
    ![](/images/exploits/bluebomb/console-type.png)
 
@@ -110,49 +120,46 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
    ![](/images/exploits/bluebomb/wii-options.png)
 
-10. Включите вашу консоль.
-    - **Не подключайте** контроллеры Wii (Wii Remote).
+#### Section III - Performing the Exploit
 
-11. Введите `yes` в скрипт, чтобы продолжить, если вы ещё этого не сделали, и убедитесь, что скрипт выводит `Waiting to accept`.
+1. Включите вашу консоль.
+   - **Не подключайте** контроллеры Wii (Wii Remote).
 
-12. Нажимайте кнопку синхронизации (Sync), пока терминал не отобразит строку `got connection handle`.
+2. Введите `yes` в скрипт, чтобы продолжить, если вы ещё этого не сделали, и убедитесь, что скрипт выводит `Waiting to accept`.
 
-    - Вам может понадобиться несколько попыток.
+3. Нажимайте кнопку синхронизации (Sync), пока терминал не отобразит строку `got connection handle`. Wait for the exploit to finish uploading.
 
-    ![](/images/exploits/bluebomb/got-connection-handle.png)
+   - Вам может понадобиться несколько попыток.
 
-13. Если эксплойт выполнился успешно, то вы должны увидеть подобный экран, после чего загрузится установщик HackMii.
+   ![](/images/exploits/bluebomb/got-connection-handle.png)
 
-    - Вы можете выключить ваш компьютер с загруженным Linux, если вы не планируете дальше его использовать.
+4. Если эксплойт выполнился успешно, то вы должны увидеть подобный экран, после чего загрузится установщик HackMii.
 
-    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
+   - Вы можете выключить ваш компьютер с загруженным Linux, если вы не планируете дальше его использовать.
+
+   ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ---
 
 ::: tip
 
-[Перейти к установщику HackMii](hbc)
+[Перейти к установке Homebrew Channel и BootMii](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::
 
 ::::
 
-:::: tab BlueBomb Micro
+:::: tab BlueBomb Micro (RPi/ESP32)
 
 ## BlueBomb Micro
 
-:::info Important Information
+BlueBomb Micro utilizes a Raspberry Pi Pico or ESP32 to upload an exploit to the Wii via Bluetooth.
 
-- If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS).
-- If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Однако, существуют исключения в таких обстоятельствах как восстановление окирпиченной консоли.
-- Убедитесь, что консоль стоит рядом с компьютером на котором запущен эксплоит, в идеале расстояние должно быть меньше 1 метра.
-- Если вы получили ошибку `Exception 0700 occurred!` или что-то подобное, попробуйте запустить эксплойт снова. Если это продолжается, присоединитесь к Discord серверу [Wii mini Hacking](https://discord.gg/6ryxnkS) за помощью.
+::: warning
 
-:::
-
-::: danger
-
-It is **strongly** advised against using **any** video guide in general, but especially if you are hacking a Wii mini console. Incorrect instructions have a much larger chance of **bricking** your console compared to normal.
+Если вы получили ошибку `Exception 0700 occurred!` или что-то подобное, попробуйте запустить эксплойт снова. Если это продолжается, присоединитесь к Discord серверу [Wii mini Hacking](https://discord.gg/6ryxnkS) за помощью.
 
 :::
 
@@ -170,7 +177,9 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
 ### Инструкции
 
-1. Скопируйте `boot.elf` из backmii_installer_v1.2 `.zip` в корень вашего USB-накопителя.
+#### Section I - Initial Preparation
+
+1. Copy `boot.elf` from the `hackmii_installer_v1.2.zip` to the root of your flash drive.
 
    - (Если вы пытаетесь восстановить консоль из окирпиченного состояния, вы также должны скопировать homebrew приложения которые вы хотите использовать в /apps/)
    - (bootmini.elf **не будет** работать даже на Wii mini, его назначение совершенно другое и не связано с этим руководством. Используйте boot.elf во всех случаях).
@@ -193,7 +202,9 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
 6. Выключите вашу консоль.
 
-#### Raspberry Pi Pico W
+#### Section II.a - Raspberry Pi Pico W
+
+:::details Preparation Instructions
 
 1. Скачайте последние [скомпилированные библиотеки](https://github.com/GaryOderNichts/bluebomb_micro/releases) со страницы "Releases", и распакуйте их на ваш ПК.
 
@@ -216,14 +227,20 @@ It is **strongly** advised against using **any** video guide in general, but esp
 
    ![](/images/exploits/bluebomb/pico-ready.jpg)
 
-#### ESP32
+:::
+
+#### Section II.b - ESP32
+
+:::details Preparation Instructions
 
 1. Установите последнюю [ESP IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html).
 2. Соберите бинарник [из исходника](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#building-from-source).
 3. [Запишите бинарник](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#flashing) на ваш ESP32.
 4. Ваше устройство готово. Вы можете извлечь устройство из вашего компьютера.
 
-### Выполнение эксплоита
+:::
+
+#### Section III - Performing the Exploit
 
 1. Подключите устройство обратно к вашему ПК.
 2. Включите вашу консоль.
@@ -232,16 +249,110 @@ It is **strongly** advised against using **any** video guide in general, but esp
    - Вам может понадобиться несколько попыток.
 4. Если эксплойт выполнился успешно, то вы должны увидеть подобный экран, после чего загрузится установщик HackMii.
 
+   - You may now unplug your microcontroller at this point.
+
    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ---
 
 ::: tip
 
-[Перейти к установщику HackMii](hbc)
+[Перейти к установке Homebrew Channel и BootMii](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::
 
 ::::
+
+:::: tab BlueMii (Wii to Wii)
+
+## BlueMii
+
+BlueMii utilizes another Wii to upload an exploit to the Wii via Bluetooth.
+
+### Требования
+
+- A secondary Wii, Wii U (vWii), or Wii mini to use to upload an exploit to the target Wii
+- A USB flash drive OR SD card to load the HackMii installer onto, [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+- A second USB flash drive OR SD card to load BlueMii onto the exploiting Wii
+- [BlueMii](https://github.com/Zarithya/BlueMii/releases/tag/v1.1)
+- [Установщик HackMii](https://bootmii.org/download/)
+
+### Инструкции
+
+#### Section I - Preparing Target Console
+
+1. Copy `boot.elf` from the `hackmii_installer_v1.2.zip` to the root of the USB drive or SD card that will be used on the target console.
+
+   - (Если вы пытаетесь восстановить консоль из окирпиченного состояния, вы также должны скопировать homebrew-приложения которые вы хотите использовать в /apps/)
+   - (bootmini.elf **не** будет работать даже на Wii Mini, данный файл предназначен для совершенно других целей и не связан с тем, что вы делаете. Используйте boot.elf во всех случаях).
+
+   ![](/images/exploits/bluebomb/usb-exploit.png)
+
+2. Reinsert your USB drive or SD card into the target console.
+   - У Wii mini USB-порт находится на задней стороне.
+   - Для обычной Wii, используйте нижний порт (или правый порт, если она стоит в вертикальном состоянии).
+
+3. Power on the target console.
+
+4. Перейдите в `Wii Settings` (Параметры Wii).
+
+5. Обратите внимание на букву рядом с системной версией в правом верхнем углу.
+
+   - Этот символ соответствует региону вашего системного меню, который вам нужно знать для выполнения соответствующих инструкций.
+
+   ![](/images/wii/SystemMenuVersion.png)
+
+6. Power off the target console.
+
+#### Section II - Configuring Exploit
+
+1. Copy the `apps` folder in the `BlueMii.vX.X.zip` file to the root of your USB drive or SD card that will be used on the exploiting console.
+
+2. Reinsert your USB drive or SD card into the exploiting console.
+
+3. Power on the exploiting console.
+
+4. On the exploiting console, open the Homebrew Channel and load the BlueMii app.
+
+   ![](/images/exploits/bluebomb/load-bluemii.png)
+
+5. On the BlueMii app, select the region that corresponds to your target console.
+
+   ![](/images/exploits/bluebomb/bluemii-region.png)
+
+#### Section III - Performing the Exploit
+
+1. Power on the target console.
+   - **Не подключайте** контроллеры Wii (Wii Remote).
+
+2. On the exploiting console, press the `A` button to prepare to upload the exploit to the target console.
+
+   ![](/images/exploits/bluebomb/bluemii-ready.png)
+
+3. Press the Sync button repeatedly until the exploiting console shows `got connection handle`. Wait for the exploit to finish uploading.
+
+   - Вам может понадобиться несколько попыток.
+
+   ![](/images/exploits/bluebomb/bluemii-handle.png)
+
+4. Если эксплойт выполнился успешно, то вы должны увидеть подобный экран, после чего загрузится установщик HackMii.
+
+   ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
+
+5. On the exploiting console, you may now press `A` to either retry the exploit, or `HOME/START` to return to the Homebrew Channel.
+
+   ![](/images/exploits/bluebomb/bluemii-success.png)
+
+---
+
+::: tip
+
+[Перейти к установке Homebrew Channel и BootMii](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+
+:::
 
 :::::

@@ -39,7 +39,7 @@ NE használd a példákban megadott MAC címeket, mert azok simán hibát okozna
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. Navigálj az `Internet` > `Console Information` opcióhoz.
+4. Navigálj az `Internet` -> `Console Information` opcióhoz.
 
 5. Jegyezd fel a FULL MAC address-ed.
 
@@ -86,6 +86,8 @@ NE használd a példákban megadott MAC címeket, mert azok simán hibát okozna
 
 [Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 
+Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
+
 :::
 
 ::::
@@ -114,7 +116,7 @@ NE használd a példákban megadott MAC címeket, mert azok simán hibát okozna
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. Navigálj az `Internet` > `Console Information` opcióhoz.
+4. Navigálj az `Internet` -> `Console Information` opcióhoz.
 
 5. Jegyezd fel a FULL MAC address-ed.
 
@@ -169,6 +171,8 @@ NE használd a példákban megadott MAC címeket, mert azok simán hibát okozna
 ::: tip
 
 [Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+
+Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
 
 :::
 

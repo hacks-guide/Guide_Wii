@@ -4,7 +4,9 @@
 
 ## Wii 메뉴 테마
 
-:::info Important Information
+::: info
+
+**Important Information**
 
 - csm-installer has built in safety features to prevent you from installing bad or corrupt Wii Menu themes. You are advised to use it instead of other theme installation homebrew to help prevent a brick.
 - 여기에 링크된 것 외의 다른 ThemeMii 버전을 사용하지 마세요. ThemeMii Mod를 사용하면 Wii 메뉴 버전 4.3에 맞는 테마를 만들 수 있지만 다른 버전은 그렇지 않을 수 있습니다.
@@ -16,7 +18,7 @@
 
 **Important Warnings**
 
-- DO NOT continue with this guide unless you have adequate brick protection with [BootMii](bootmii) (Wii only) and [Priiloader](priiloader) installed.
+- DO NOT continue with this guide unless you have adequate brick protection with [BootMii](hbc) (Wii only) and [Priiloader](priiloader) installed.
 - Wii에 해당 버전과 현재 지역에 맞게 특별히 포맷된 테마만 설치합니다. Installing themes from the wrong version or region on your Wii will cause a [theme brick](bricks#theme-brick). 이 자습서에서는 설치하기 안전한 .csm 파일을 만드는 방법을 알려드립니다.
 
 :::
@@ -53,7 +55,7 @@
 
 1. On your computer, download [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/), choosing the archive corresponding to your operating system. For Windows users, you should choose the `NUSGet-Windows-x86_64-bin.zip` file.
 2. Unzip the archive and run the NUSGet executable.
-3. Navigate to `System` > `System Menu` > `Your Region` and then select the Wii menu version you are running. Check the `Create decrypted contents (*.app)` option, uncheck the `Keep encrypted contents` option, and then click `Start Download`.
+3. Navigate to `System` -> `System Menu` -> `Your Region` and then select the Wii menu version you are running. Check the `Create decrypted contents (*.app)` option, uncheck the `Keep encrypted contents` option, and then click `Start Download`.
 
    ![](/images/desktop-apps/nusget/nusget-wiimenu-dl.png)
 4. When you have finished downloading the Wii menu files, click the folder next to `Start Download`. This will open your file manager to NUSGet's download folder.
@@ -76,7 +78,7 @@
 
 2. Unzip the archive and run the NUSGet executable.
 
-3. Select the `vWii` tab and navigate to `System` > `System Menu` > `Your Region`.
+3. Select the `vWii` tab and navigate to `System` -> `System Menu` -> `Your Region`.
 
 4. 아래 표에서 여러분의 Wii U 지역에 해당하는 버전을 선택합니다.
 
@@ -117,7 +119,7 @@
 1. SD 카드/USB 장치의 루트에 `themes` 폴더를 만듭니다.
 2. ThemeMii MOD `.zip` 파일을 PC의 원하는 위치에 압축 해제합니다.
 3. ThemeMii 응용 프로그램을 실행합니다.
-4. Go to `Tools` > `Download Base App` > `Version of your Wii Menu` > `Region of your Wii Menu`.
+4. `도구` -> `기본 앱 다운로드` -> `Wii 메뉴 버전` -> `Wii 메뉴 지역`으로 갑니다.
 5. 키를 생성하기 위해 값을 입력하라는 대화 상자가 나타납니다. 여기에 적힌 내용을 입력하면 닌텐도 서버에서 Wii 메뉴 콘텐츠를 해독하는 데 사용되는 키가 생성됩니다.
 6. 파일 선택 상자가 나타나 .app 파일을 저장할 위치를 묻습니다. SD 카드/USB 장치의 `themes` 폴더에 저장합니다.
 
@@ -129,7 +131,7 @@
 
 1. ThemeMii MOD `.zip` 파일을 PC의 원하는 위치에 압축 해제합니다.
 2. ThemeMii 응용 프로그램을 실행합니다.
-3. Go to `File` > `Open`, and select the `.mym` file for the theme you want to build.
+3. `파일` -> `열기`로 가서 빌드하려는 테마의 `.mym` 파일을 선택합니다.
 4. `csm 만들기`를 누릅니다.
 5. `.app` 파일을 선택하라는 메시지가 표시되면 SD 카드나 USB 장치의 `themes`에서 새로 다운로드한 기본 테마를 선택합니다.
 6. `.csm` 파일을 저장하라는 메시지가 표시되면 `themes` 폴더에 저장합니다.

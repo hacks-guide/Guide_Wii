@@ -4,11 +4,11 @@ outline: false
 
 # Gestire i backup Wii e GameCube
 
-Questa guida fornirà istruzioni su come gestire i backup Wii e GameCube con TinyWiiBackupManager, insieme a unire i file PART quando effettui il dump dei giochi Wii su un'unità in FAT32. Note importanti sulla gestione dei giochi wii sono elencati sotto.
+Questa guida fornirà istruzioni su come gestire i backup di Wii e GameCube con TinyWiiBackupManager e su come unire i file PART quando si effettua il dump dei giochi Wii su un'unità in FAT32. Di seguito saranno elencate delle note importanti sulla gestione dei giochi Wii.
 
 ::: tip
 
-Per memorizzare più giochi, si consiglia di utilizzare un disco rigido esterno. La maggior che trovi sul mercato dovrebbero funzionare.
+Per memorizzare più giochi, si consiglia di utilizzare un disco rigido esterno. La maggior parte di quelle che trovi sul mercato dovrebbero andare.
 
 :::
 
@@ -16,53 +16,53 @@ Per memorizzare più giochi, si consiglia di utilizzare un disco rigido esterno.
 
 Usare una chiavetta USB NON è consigliato. Il motivo è spiegato nelle [domande frequenti sull'archiviazione](faq#storage-device-faq).
 
-Come alternativa, puoi usare una scheda SD, anche se i limiti applicati allo slot SD di Wii risulteranno in velocità di lettura/scrittura lente. È generalmente consigliato di usare un disco rigido USB o una SSD.
+In alternativa, puoi usare una scheda SD, anche se i limiti dello slot SD di Wii ridurranno la velocità di lettura/scrittura. È generalmente consigliato l'uso di un disco rigido USB o di una SSD.
 
 :::
 
 ::: danger
 
-Assicurati che il tuo dispositivo sia stato formattato in FAT32. Non formattarlo in qualsiasi altro formato come exFAT, extFS o WBFS.
+Assicurati che l'unità di archiviazione sia formattata in FAT32. Non formattarla in qualsiasi altro formato come exFAT, extFS o WBFS.
 
-Potresti formattarlo come NTFS, ma NON funzionerà con la maggior parte delle app (es. l'Homebrew Channel o Nintendont).
+Potresti formattarla in NTFS, ma NON funzionerà con la maggior parte delle app (es. Homebrew Channel o Nintendont).
 
 :::
 
-## Unire file PART da un disco Wii su un'unità FAT32
+## Unire i file PART da un disco su un'unità FAT32
 
-Se hai fatto il dump di un disco Wii su un dispositivo formattato in FAT32, dovresti aver ricevuto almeno due file che finiscono in `.partX.iso`, a causa delle limitazioni del filesystem. Devono essere uniti (su un filesystem che li supporta, come NTFS) così che il file possa venir letto correttamente.
+Se hai effettuato il dump di un disco Wii su un'unità formattata in FAT32, dovresti trovarti con due file che terminano in `.partX.iso`, a causa delle limitazioni del filesystem. Devono essere uniti (su un filesystem supportato, come NTFS) affinché il file possa essere letto correttamente.
 
 :::details Istruzioni
 
 ### Windows
 
-1. Copia i file che condividono lo stesso come che finisce in `.partX.iso` in una cartella vuota sul tuo computer.
+1. Copia i file che condividono lo stesso nome e che terminano in `.partX.iso` in una cartella vuota sul tuo computer.
 
    ![](/images/desktop-apps/WBM/dumpedpartfiles.png)
 
-2. In questa cartella, clicca sulla barra degli indirizzi in Windows Explorer e scrivi `cmd`, questo aprirà una finestra del terminale in quel percorso.
+2. In questa cartella, clicca sulla barra degli indirizzi in Windows Explorer e scrivi `cmd`, questo aprirà una finestra del terminale in quella cartella.
 
    ![](/images/desktop-apps/WBM/opencmd.png)
 
-3. Scrivi `copy /b *.part?.iso game.iso` e premi invio. Aspetta che il comando finisca, quello che riceverai dal terminale dovrebbe essere simile a quello mostrato sotto.
+3. Digita `copy /b *.part?.iso game.iso` e premi invio. Aspetta che l'operazione termini, poi quello che il terminale mostrerà dovrebbe essere simile a questo sotto.
 
    ![](/images/desktop-apps/WBM/joinpartfiles.png)
 
-4. Se la copia è avvenuta con successo, il checksum del dump del gioco (localizzato dove hai fatto il dump del disco) dovrebbe corrispondere a quello del file unito.
+4. Se la copia è avvenuta con successo, il checksum situato nel file info del dump del gioco (localizzato dove hai effettuato il dump del disco) dovrebbe corrispondere a quello del file unito.
 
    ![](/images/desktop-apps/WBM/filemd5.png)
 
 ### macOS/Linux
 
-1. Copia i file che condividono lo stesso come che finisce in `.partX.iso` in una cartella vuota sul tuo computer.
+1. Copia i file che condividono lo stesso nome e che terminano in `.partX.iso` in una cartella vuota sul tuo computer.
 
    ![](/images/desktop-apps/WBM/dumpedpartfileslinux.png)
 
-2. Apri un terminale nella cartella dove sono situati i tuoi file, o navigaci con `cd [PERCORSO]`.
+2. Apri un terminale nella cartella dove sono situati i file, o navigaci con `cd [PERCORSO]`.
 
    ![](/images/desktop-apps/WBM/openterminallinux.png)
 
-3. Usa il seguente comando: ``cat `ls *.part?.iso | sort` > game.iso``. Poi aspetta che finisca. Come su Windows, il checksum dovrebbe combaciare al dump.
+3. Incolla il seguente comando: ``cat `ls *.part?.iso | sort` > game.iso``. Aspetta che l'operazione termini. Come su Windows, il checksum dovrebbe corrispondere al dump.
 
    ![](/images/desktop-apps/WBM/mergesuccesslinux.png)
 
@@ -70,52 +70,48 @@ Se hai fatto il dump di un disco Wii su un dispositivo formattato in FAT32, dovr
 
 ## Usando TinyWiiBackupManager
 
-TinyWiiBackupManager è un nuovo e leggero gestore dei backup dei giochi programmato in Rust che sostituisce i programmi consigliati precedentemente da questa guida: WiiBackupManager e WiiBackupFusion. Istruzioni su come usare l'app sono elencate per sezioni per qualsiasi piattaforma dove TWBM può essere installato.
+TinyWiiBackupManager è un nuovo e leggero gestore dei backup di giochi programmato in Rust che sostituisce i programmi consigliati in precedenza da questa guida: WiiBackupManager e WiiBackupFusion. Le istruzioni su come usare l'app sono elencate per sezioni su qualsiasi piattaforma dove TWBM può essere installato.
 
 ::::: tabs
 
 :::: tab Windows
 
-### Usare TWBM su Windows
+### Come usare TWBM su Windows
 
 #### Requisiti
 
-- Un PC con Windows 7 o superiori
+- Un PC con Windows 7 o versioni successive
 - Una scheda SD o un'unità USB
-- Un gioco Wii/GameCube dumpato (in qualsiasi formato)
-- [TinyWiiBackupManagerInstaller](https://github.com/mq1/TinyWiiBackupManagerInstaller/releases/latest/)
+- Un backup di un gioco Wii/GameCube (in qualsiasi formato)
+- [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
 
 #### Istruzioni
 
 ##### Sezione I - Installazione
 
-1. Scarica `TinyWiiBackupManagerInstaller.exe` e avvia l'installer. Se ti appare un messaggio da Windows SmartScreen, seleziona di eseguire comunque dato che è un falso positivo.
+1. Scarica il file per la tua architettura di Windows. Se non sai quale scaricare, prova `TinyWiiBackupManager-vX.X.X-windows-x64.exe`.
 
-   ![](/images/desktop-apps/TWBM/twbmi-download.png)
-
-2. Attendi che l'installer finisca, poi esegui TinyWiiBackupManager.
-
-   ![](/images/desktop-apps/TWBM/twbmi-install.png)
+2. Esegui il file `.exe` scaricato. Se appare un messaggio di Windows SmartScreen, clicca `Esegui comunque` dato che si tratta di un falso positivo.
 
 ##### Sezione II - Copiare i giochi
 
 ::: tip
 
-Se hai già giochi sul tuo disco e TinyWiiBackupManager ti chiede di normalizzare i percorsi, vai negli strumenti e effettua questa azione per assicurarti che le cartelle della tua unità siano elencati correttamente.
+Se hai già dei giochi nella tua unità e TinyWiiBackupManager ti chiede di normalizzare i percorsi, vai su Strumenti ed effettua questa operazione per assicurarti che le cartelle dell'unità siano elencate correttamente.
 
 :::
 
-1. Inserisci la tua unità USB o scheda SD nel tuo computer.
+1. Inserisci l'unità USB o la scheda SD nel computer.
 
-2. Clicca l'icona del disco rigido in basso a sinistra dell'app e seleziona la tua unità. Seleziona la root (es. `E:\`), non la cartella "wbfs" o "games".
+2. Clicca l'icona del disco rigido in basso a sinistra dell'app e seleziona l'unità. Seleziona la root dell'unità (es. `E:\`), non la cartella "wbfs" o "games".
 
    ![](/images/desktop-apps/TWBM/twbm-win-empty.png)
 
-3. Clicca il pulsante :heavy_plus_sign: nella parte in alto a destra dell'app per aggiungere uno o più giochi.
+3. Clicca il pulsante :heavy_plus_sign: in alto a destra dell'app per aggiungere uno o più giochi.
 
-   - Clicca il pulsante :file_folder: per aggiungere giochi da una cartella specifica.
+   - Clicca il pulsante :file_folder: per aggiungere più giochi da una cartella specifica.
    - Puoi anche trascinarli direttamente sulla finestra.
-   - Se è già in corso un trasferimento, saranno aggiunti in coda.
+   - Se è già in corso un trasferimento, verranno aggiunti in coda.
 
    ![](/images/desktop-apps/TWBM/twbm-win-games.png)
 
@@ -125,20 +121,20 @@ Se hai già giochi sul tuo disco e TinyWiiBackupManager ti chiede di normalizzar
 
 :::: tab macOS
 
-### Usare TWBM su macOS
+### Come usare TWBM su macOS
 
 #### Requisiti
 
-- Un PC con macOS 10.13 o successive
+- Un PC con macOS 10.12 o versioni successive
 - Una scheda SD o un'unità USB
-- Un gioco Wii/GameCube dumpato (in qualsiasi formato)
+- Un backup di un gioco Wii/GameCube (in qualsiasi formato)
 - [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
 
 #### Istruzioni
 
 ##### Sezione I - Installazione
 
-1. Scarica i binari universali .DMG per macOS.
+1. Scarica il file binaro .DMG universale per macOS.
 
    ![](/images/desktop-apps/TWBM/twbm-mac-download.png)
 
@@ -146,7 +142,7 @@ Se hai già giochi sul tuo disco e TinyWiiBackupManager ti chiede di normalizzar
 
    ![](/images/desktop-apps/TWBM/twbm-mac-install.png)
 
-3. Esegui il seguente comando nel Terminale dopo l'installazione: `xattr -rd com.apple.quarantine /Applications/TinyWiiBackupManager.app`. Questo permetterà all'app di essere eseguita, altrimenti verrà bloccata dalle impostazioni di sicurezza di macOS.
+3. Esegui il seguente comando nel Terminale dopo l'installazione: `xattr -rd com.apple.quarantine /Applicazioni/TinyWiiBackupManager.app`. Questo permetterà all'app di essere eseguita, altrimenti verrà bloccata dalle impostazioni di sicurezza di macOS.
 
    ![](/images/desktop-apps/TWBM/twbm-mac-security.png)
 
@@ -156,21 +152,21 @@ Se hai già giochi sul tuo disco e TinyWiiBackupManager ti chiede di normalizzar
 
 ::: tip
 
-Se hai già giochi sul tuo disco e TinyWiiBackupManager ti chiede di normalizzare i percorsi, vai negli strumenti e effettua questa azione per assicurarti che le cartelle della tua unità siano elencati correttamente.
+Se hai già dei giochi nella tua unità e TinyWiiBackupManager ti chiede di normalizzare i percorsi, vai su Strumenti ed effettua questa operazione per assicurarti che le cartelle dell'unità siano elencate correttamente.
 
 :::
 
-1. Inserisci la tua unità USB o scheda SD nel tuo computer.
+1. Inserisci l'unità USB o la scheda SD nel computer.
 
-2. Clicca l'icona del disco rigido in basso a sinistra dell'app e seleziona la tua unità. Seleziona la root (es. `E:\`), non la cartella "wbfs" o "games".
+2. Clicca l'icona del disco rigido in basso a sinistra dell'app e seleziona l'unità. Seleziona la root dell'unità (es. `E:\`), non la cartella "wbfs" o "games".
 
    ![](/images/desktop-apps/TWBM/twbm-mac-empty.png)
 
-3. Clicca il pulsante :heavy_plus_sign: nella parte in alto a destra dell'app per aggiungere uno o più giochi.
+3. Clicca il pulsante :heavy_plus_sign: in alto a destra dell'app per aggiungere uno o più giochi.
 
-   - Clicca il pulsante :file_folder: per aggiungere giochi da una cartella specifica.
+   - Clicca il pulsante :file_folder: per aggiungere più giochi da una cartella specifica.
    - Puoi anche trascinarli direttamente sulla finestra.
-   - Se è già in corso un trasferimento, saranno aggiunti in coda.
+   - Se è già in corso un trasferimento, verranno aggiunti in coda.
 
    ![](/images/desktop-apps/TWBM/twbm-mac-games.png)
 
@@ -180,13 +176,13 @@ Se hai già giochi sul tuo disco e TinyWiiBackupManager ti chiede di normalizzar
 
 :::: tab Linux
 
-### Usare TWBM su Linux
+### Come usare TWBM su Linux
 
 #### Requisiti
 
 - Un PC con Linux che supporta file AppImage o Flatpak
 - Una scheda SD o un'unità USB
-- Un gioco Wii/GameCube dumpato (in qualsiasi formato)
+- Un backup di un gioco Wii/GameCube (in qualsiasi formato)
 - [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
 
 #### Istruzioni
@@ -197,21 +193,21 @@ TinyWiiBackupManager può essere installato dalla repository di Flathub come un 
 
 ###### Flatpak
 
-1. Assicurati che FlatPak sia [installato sul tuo sistema](https://flathub.org/it/setup).
+1. Assicurati che Flatpak sia [installato sul tuo sistema](https://flathub.org/it/setup).
 
-2. Naviga alla [repository Flathub di TWBM](https://flathub.org/it/apps/it.mq1.TinyWiiBackupManager) e premi il pulsante Installa. Se non accade nulla, scarica il file `.flatpakref` e aprilo per trovare il programma sull'app store della tua distro. Se non accade nulla di nuovo, esegui `flatpak install flathub it.mq1.TinyWiiBackupManager` nel tuo terminale.
+2. Naviga alla [repository Flathub di TWBM](https://flathub.org/it/apps/it.mq1.TinyWiiBackupManager) e premi il pulsante Installa. Se non accade nulla, scarica il file `.flatpakref` e aprilo per trovare il programma sull'app store della tua distro. Se non accade nulla di nuovo, esegui `flatpak install flathub it.mq1.TinyWiiBackupManager` nel terminale.
 
    ![](/images/desktop-apps/TWBM/twbm-linux-flatpak-dl.png)
 
-3. Assicurati che TinyWiiBackupManager sia installato sul tuo sistema, poi esegui l'app.
+3. Assicurati che TinyWiiBackupManager si sia installato, poi esegui l'app.
 
 ###### AppImage
 
-1. Scarica i binari AppImage per l'architettura del tuo sistema. Per la maggior parte degli utenti è `TinyWiiBackupManager-vX.X.X-linux-x86_64.AppImage`.
+1. Scarica il file AppImage per la tua architettura. Se non sai quale scaricare, prova `TinyWiiBackupManager-vX.X.X-linux-x86_64.AppImage`.
 
    ![](/images/desktop-apps/TWBM/twbm-linux-appimage-dl.png)
 
-2. Assicurati che l'AppImage sia eseguibile eseguendo `chmod +x [percorso dell'AppImage]`.
+2. Assicurati che l'AppImage sia eseguibile, eseguendo nel terminale `chmod +x [percorso dell'AppImage]`.
 
    ![](/images/desktop-apps/TWBM/twbm-linux-appimage-exec.png)
 
@@ -221,21 +217,21 @@ TinyWiiBackupManager può essere installato dalla repository di Flathub come un 
 
 ::: tip
 
-Se hai già giochi sul tuo disco e TinyWiiBackupManager ti chiede di normalizzare i percorsi, vai negli strumenti e effettua questa azione per assicurarti che le cartelle della tua unità siano elencati correttamente.
+Se hai già dei giochi nella tua unità e TinyWiiBackupManager ti chiede di normalizzare i percorsi, vai su Strumenti ed effettua questa operazione per assicurarti che le cartelle dell'unità siano elencate correttamente.
 
 :::
 
-1. Inserisci la tua unità USB o scheda SD nel tuo computer.
+1. Inserisci l'unità USB o la scheda SD nel computer.
 
-2. Clicca l'icona del disco rigido in basso a sinistra dell'app e seleziona la tua unità. Seleziona la root (es. `E:\`), non la cartella "wbfs" o "games".
+2. Clicca l'icona del disco rigido in basso a sinistra dell'app e seleziona l'unità. Seleziona la root dell'unità (es. `E:\`), non la cartella "wbfs" o "games".
 
    ![](/images/desktop-apps/TWBM/twbm-linux-empty.png)
 
-3. Clicca il pulsante :heavy_plus_sign: nella parte in alto a destra dell'app per aggiungere uno o più giochi.
+3. Clicca il pulsante :heavy_plus_sign: in alto a destra dell'app per aggiungere uno o più giochi.
 
-   - Clicca il pulsante :file_folder: per aggiungere giochi da una cartella specifica.
+   - Clicca il pulsante :file_folder: per aggiungere più giochi da una cartella specifica.
    - Puoi anche trascinarli direttamente sulla finestra. Nota che questa funzione non è ancora disponibile su Wayland.
-   - Se è già in corso un trasferimento, saranno aggiunti in coda.
+   - Se è già in corso un trasferimento, verranno aggiunti in coda.
 
    ![](/images/desktop-apps/TWBM/twbm-linux-games.png)
 
@@ -251,9 +247,9 @@ Se hai già giochi sul tuo disco e TinyWiiBackupManager ti chiede di normalizzar
 
 [Continua coi cIOS](cios)
 
-Per giocare ai giochi Wii dumpati sulla tua unità esterna, devi avere configurato i cIOS. Una volta configurati, puoi usare [USB Loader GX oo WiiFlow](wii-loaders) per giocare ai giochi Wii direttamente dalla tua unità USB o scheda SD.
+Per poter giocare con i backup dei giochi Wii dall'unità USB esterna o dalla scheda SD, devi aver configurato i cIOS. Una volta configurati, potrai poi usare [USB Loader GX o WiiFlow](wii-loaders).
 
-Puoi anche usare [Nintendont](nintendont) per giocare ai giochi GameCube direttamente dalla tua unità USB o scheda SD.
+Potrai anche usare [Nintendont](nintendont) per giocare ai backup GameCube.
 
 :::
 

@@ -2,7 +2,7 @@
 head:
   - - meta
     - http-equiv: refresh
-      content: '{% include redirect.html redirect_to="faq.html" %}'
+      content: '0; URL=faq'
 ---
 
 # Redirecting...

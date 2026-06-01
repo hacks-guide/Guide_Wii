@@ -80,7 +80,7 @@ Ne felejtsd el, ha telepítve van a BootMii boot2-ként, akkor a lemezegység is
 
     ![](/images/hbc/blank.png)
 
-### Kötelező olvasnivaló
+### Telepítés utáni információ
 
 Az útmutató befejezése után képes leszel homebrew alkalmazásokat futtatni – ezek között, ha sikerült telepítened, a BootMiit is, amellyel biztonsági mentéseket készíthetsz és tölthetsz vissza a Wii belső tárhelyéről.
 
@@ -101,11 +101,26 @@ Megjegyzés: Ha homebrew alkalmazásokat telepítesz SD kártyára vagy USB driv
 
 `AppName1` és `AppName2` helyfoglaló nevek. Az `apps` mappában ne hozz létre egy másik `apps` nevű mappát.
 
+### Automatikus indítás
+
+Ha képes voltál boot2 alá telepíteni a BootMiit és nem szeretnéd, hogy bekapcsoláskor a konzol mindig a BootMii-képernyőt mutassa, lehetőséged van azt automatikusan a rendszermenübe indítani. Ez visszaállítja a konzolod azon tulajdonságát, hogy a rendszer menübe bootoljon a BootMii helyett.
+
+1. Nyisd meg az `SD:/bootmii/bootmii.ini` fájlt egy szövegeditorral.
+2. Módosítsd az `#AUTOBOOT=SYSMENU`-t `AUTOBOOT=SYSMENU` -re a `#` törlésével.
+3. Utána módoítsd a `#BOOTDELAY=5`-öt `BOOTDELAY=1`-re törölve a `#`-et majd az `5`-öt átírva`1`-re.
+4. Mentsd el a fájlt és lépj ki.
+
+::: info
+
+Használhatod a [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) appot is Wii-n ezen beállítások módosításához.
+
+:::
+
 ---
 
 ::: tip
 
-[Folytatás a NAND biztonsági mentés készítése a BootMii segítségével](bootmii) fejezettel
+[Folytatás a NAND mentés készítésével](nand-backup)
 
 A NAND biztonsági mentés ezen a ponton erősen ajánlott, mivel használható arra, hogy helyreállitsunk vele brickelésből.
 
@@ -178,10 +193,12 @@ Megjegyzés: Ha homebrew alkalmazásokat telepítesz az USB drive-odra, a könyv
 
 ::: tip
 
-[Folytatás a NAND biztonsági mentés készítése a [RealWnd segítségével](wnd-mini) fejezettel
+[Folytatás a NAND mentés készítésével](nand-backup)
 
 A NAND biztonsági mentés ezen a ponton erősen ajánlott, mivel használható arra, hogy helyreállitsunk vele brickelésből.
 
 :::
 
 ::::
+
+:::::

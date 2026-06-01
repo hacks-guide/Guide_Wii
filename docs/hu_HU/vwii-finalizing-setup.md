@@ -1,4 +1,4 @@
-# Telepítés véglegesítése — vWii
+# Telepítés véglegesítése (Wii U)
 
 Most, hogy a Homebrew Channel, Priiloader és cIOS telepítésre került, véglegesíteni fogjuk a vWii telepítést alapvető appok telepítésével, amik visszaállítják a vWii menünek normál konzolhoz képest hiányzó funkcionalitását. Ajánlott, hogy letöltsd az összes homebrew-ot a tárolódra, ami itt listázott, az ELŐTT mielőtt végrehajtod a listázott lépéseket.
 
@@ -38,6 +38,7 @@ System Channel Restorer egyhomebrew app, ami visszaállítja a vWii menüből no
 ### Követelmények
 
 - Egy SD kártya vagy pendrive
+- Egy internet kapcsolat
 - [System Channel Restorer](https://oscwii.org/library/app/system-channel-restorer)
 
 ### Lépések
@@ -52,7 +53,7 @@ System Channel Restorer egyhomebrew app, ami visszaállítja a vWii menüből no
 
    ![](/images/vwii/sys-channel-restore/launch-hb.png)
 
-5. A telepítő elindul. A legtöbb felhasználó a következő csatornákat szeretné kiválasztani, kivéve, ha szeretnél további csatornákat:
+5. A telepítő elindul.  Ha a **-3 Failed to initialize network** hibát kapod, ellenőrizd, hogy a vWii-od csatlakozott-e az internethez. A legtöbb felhasználó a következő csatornákat szeretné kiválasztani, kivéve, ha szeretnél további csatornákat:
 
    - EULA
    - Mii Channel

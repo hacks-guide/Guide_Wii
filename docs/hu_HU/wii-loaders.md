@@ -68,9 +68,9 @@ Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható.
 
 #### Általános
 
-- A WiiFlow alapértelmezés szerint csak az SD-kártyán lévő játékokat keresi. Ez megváltoztatható a `Settings > Startup Settings` menüpontban, ahol `Mount SD Only` opciót kell kikapcsolni.
+- A WiiFlow alapértelmezés szerint csak az SD-kártyán lévő játékokat keresi. Ez megváltoztatható a `Settings` -> `Startup Settings` menüpontban, ahol `Mount SD Only` opciót kell kikapcsolni.
 - A WiiFlow-ban az aktuális nézetet a jobb alsó sarokban, a `Home`-tól balra található gombra kattintva válthatod át a pluginok, játékok, homebrew és Wii-csatornák között.
-- A játékborítókat a `Settings` > `Download Covers and Banners` menüpontban töltheted le.
+- A játékborítókat a `Settings` -> `Download Covers and Banners` menüpontban töltheted le.
 
 #### Felhasználói felület
 

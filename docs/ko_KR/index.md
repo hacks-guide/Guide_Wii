@@ -20,7 +20,7 @@ hero:
 
 Wii에서 홈브류를 사용하는 일반적인 예는 다음과 같습니다:
 
-- Wii의 낸드 (시스템 메모리)를 [백업](bootmii)하고 [복원](bootmiirecover)합니다.
+- [Backing up](nand-backup) and [restoring](bootmiirecover) your Wii's NAND (system memory)
 - 게임 수정 사항을 로드하기 위한 [게임 디스크 패치](https://wiki.hacks.guide/wiki/Wii:Riivolution)
 - Wii 메뉴와 일반적으로 사용되는 홈브류 앱에 [테마](themes) 설치
 - [디스크](dump-games) 및 [기타 설치된 타이틀](dump-wads) 백업

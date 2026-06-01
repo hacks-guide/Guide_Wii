@@ -4,7 +4,9 @@ This guide will provide instructions on how to restore a backup of your NAND wit
 
 Please read the information below before proceeding further.
 
-:::info Important Information
+::: info
+
+**Important Information**
 
 - Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
@@ -36,14 +38,14 @@ Please read the information below before proceeding further.
 
 If you would like to restore individual data from your NAND backup, a much safer and faster way to do this using Dolphin Emulator.
 
-For example, if you want to restore your Wii Message Board data, use Dolphin to import your NAND backup. In Dolphin, go to `File` > `Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
+For example, if you want to restore your Wii Message Board data, use Dolphin to import your NAND backup. In Dolphin, go to `File` -> `Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
 
-If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools` > `Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
+If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools` -> `Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
 
 ## 需要
 
 - A Wii with BootMii as IOS or BootMii as boot2 installed
-- An earlier NAND Backup for your specific Wii made by [BootMii](bootmii)
+- An earlier NAND Backup for your specific Wii made by [BootMii OR nanddumper@ios](nand-backup)
 
 ## 步骤
 

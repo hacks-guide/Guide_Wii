@@ -24,13 +24,13 @@ Sokkal biztonságosabb a [ModMii](modmii) (csak Windows) segítségével frissí
 
 1. A számítógépeden töltsd le a NUSGet rendszerednek megfelelő verzióját lenti linkekről. A Windows felhasználók a `NUSGet-Windows-x86_64-bin.zip` fájlt kell válasszák.
 2. Csomagold ki a NUSGet futtatható állományt és indítsd el.
-3. Menj az `System` > `0000000100000002 - System Menu` > `Your Region`-hoz majd válaszd a legutolsó 4.3 verzióját a menünek (pl. `v513 4.3U` USA-hoz). Vedd ki a pipát a `Keep encrypted contents` mellől majd kattints a `Start Download`-ra.
+3. Menj az `System` -> `0000000100000002 - System Menu` -> `Your Region`-hoz majd válaszd a legutolsó 4.3 verzióját a menünek (pl. `v513 4.3U` USA-hoz). Vedd ki a pipát a `Keep encrypted contents` mellől majd kattints a `Start Download`-ra.
 
    ![](/images/desktop-apps/nusget/nusget-wiimenu-dl-update.png)
-4. Menj az `IOS` > `000000010000003A - IOS 58` > `World` > `Latest Version`-höz. Vedd ki a pipát a `Keep encrypted contents` mellől majd kattints a `Start Download`-ra.
+4. Menj az `IOS` -> `000000010000003A - IOS 58` > `World` -> `Latest Version`-höz. Vedd ki a pipát a `Keep encrypted contents` mellől majd kattints a `Start Download`-ra.
 
    ![](/images/desktop-apps/nusget/nusget-ios58-dl.png)
-5. Menj az `IOS` > `0000000100000050 - IOS 80` > `World` > `Latest Version`-höz. Vedd ki a pipát a `Keep encrypted contents` mellől majd kattints a `Start Download`-ra.
+5. Menj az `IOS` -> `0000000100000050 - IOS 80` -> `World` -> `Latest Version`-höz. Vedd ki a pipát a `Keep encrypted contents` mellől majd kattints a `Start Download`-ra.
 
    ![](/images/desktop-apps/nusget/nusget-ios80-dl.png)
 6. Ha befejezted a a fenti lépéseket, kattints mappára a `Start Download` mellett. Ez meg fogja nyitni a fájlkezelődet a NUSGet letöltési mappájába.

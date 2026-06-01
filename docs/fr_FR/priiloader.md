@@ -37,7 +37,7 @@ You can see the [Priiloader Usage](priiloader-usage) page for more information a
 
 1. Éteignez votre console.
 
-2. Launch the Homebrew Channel, and launch the Load Priiloader app.
+2. Lancez la Chaîne Homebrew.
 
 3. Launch Priiloader Installer from the list of homebrew.
 

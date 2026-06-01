@@ -10,7 +10,7 @@ A Dolphin Emulator `5.0-4588`-as vagy újabb verziójánál a Wii menü egyszer�
 
 ## Lépések
 
-1. Ha még nem tetted meg, telepítsd a Wii menüt a Dolphin Emulatorra a `Tools > Perform System Update` menüpont alatt.
+1. Ha még nem tetted meg, telepítsd a Wii menüt a Dolphin Emulatorra a `Tools` -> `Perform System Update` menüpont alatt.
 
    ![](/images/homebrew-dolphin/system-update.png)
 
@@ -18,11 +18,11 @@ A Dolphin Emulator `5.0-4588`-as vagy újabb verziójánál a Wii menü egyszer�
 
 3. Indítsd el a Dolphin Emulátort.
 
-4. Válaszd a `Tools` > `Install WAD` opciót és válaszd ki az `Open_HBC_(version)_LULZ.wad` fájl, amit letöltöttél.
+4. Válaszd a `Tools` -> `Install WAD` opciót és válaszd ki az `Open_HBC_(version)_LULZ.wad` fájl, amit letöltöttél.
 
    ![](/images/homebrew-dolphin/ohbc-file.png)
 
-5. Válaszd a `Tools` > `Load Wii System Menu` opciót. A csatornának most meg kell jelennie.
+5. Válaszd a `Tools` -> `Load Wii System Menu` opciót. A csatornának most meg kell jelennie.
 
    ![](/images/homebrew-dolphin/hbc-installed.png)
 
@@ -30,7 +30,7 @@ A Dolphin Emulator `5.0-4588`-as vagy újabb verziójánál a Wii menü egyszer�
 
 1. Töltsd le az Open Shop Channel-t [az OSC weboldaláról](https://oscwii.org/library/app/homebrew_browser) a Dolphin-ban használhatóságért. Alternatívaként beszerezheted az OSCDL-t, és elvégezheted ezt a folyamatot manuálisan.
 
-2. Állítsd le az emulációt (ha fut), és nyisd meg a Dolphin Emulatorban a `Config` > `Wii` ablakot.
+2. Állítsd le az emulációt (ha fut), és nyisd meg a Dolphin Emulatorban a `Config` -> `Wii` ablakot.
 
 3. Engedélyezd az `Automatically Sync with Folder` opciót. Opcionálisan az `SD Card File Size` (SD kártya fájlmérete) paramétert is nagyobbra állíthatod - a legtöbb esetben azonban az `Auto` is jó lesz.
 

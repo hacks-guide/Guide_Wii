@@ -1,6 +1,6 @@
 # 转到 NDS Wi-Fi 设置。
 
-Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. While different games were supported for longer than others, all games are no longer able to play through conventional means as of August 2023. To regain Nintendo WFC functionality, this guide provides instructions on installing Wiimmfi. 有许多不同的方法可以连接到 Wiimmfi。 This service was discontinued in 2013, but there are reverse-engineered servers that you can connect to which restore this functionality. This guide provides details on two trusted services, WiiLink WFC and Wiimmfi - for most users, we recommend Wiimmfi for their larger userbase (especially with Mario Kart Wii).
+Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. While different games were supported for longer than others, all games are no longer able to play through conventional means as of August 2023. To regain Nintendo WFC functionality, this guide provides instructions on installing Wiimmfi. 有许多不同的方法可以连接到 Wiimmfi。 This service was discontinued in 2014, but there are reverse-engineered servers that you can connect to which restore this functionality. This guide provides details on two trusted services, WiiLink WFC and Wiimmfi. For most users, we recommend Wiimmfi because of its larger userbase (especially for Mario Kart Wii).
 
 ## WiiLink WFC
 
@@ -111,7 +111,7 @@ A method for Wiimmfi patching which runs on retail game discs automatically thro
 
 #### 步骤
 
-1. Go to `Wii Settings` > `Internet` > `Connection Settings` and select whatever connection you are using. Then, `Change Settings` > `Auto-Obtain DNS NO` > `Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
+1. Go to `Wii Settings` -> `Internet` -> `Connection Settings` and select whatever connection you are using. Then, `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
 2. 如果您使用 Wii U，每当您想检查比赛时，您将不得不运行 competitions patcher，因为 Wii U 未启用 WiiConnect24。
 3. A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the EULA User Agreement (derives from <a href="str2hax">str2hax</a>). Due to the nature of this process, it can be ran on Wiis without homebrew.
 
@@ -156,7 +156,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 1. 插入您的游戏光盘。
 
-2. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
+2. Go to `Wii Settings` -> `Internet` -> `Connection Settings` and select whatever connection you are using. Then, `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
 
    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 

@@ -1,6 +1,6 @@
 # Nintendo Wi-Fi Connection
 
-A Nintendo Wi-Fi Connection egy online multiplayer játékszolgáltatás volt a Wii számára, amely ingyenes online játékot tett lehetővé. Ez a szolgáltatás 2013-ban leállításra került, de léteznek visszafejtett szerver, amikhez csatlakozhatdz, hogy helyreállítsd ezt a funkcionalitást. Ez az útmutató két megbizható szolgáltatáshoz szolgál részletekkel; a WiiLink WFC és a Wiimmfi - a legtöbb felhasználó számára a Wiimmfi-t ajánljuk a nagyobb felhasználószám miatt (különösen a Mario Kart Wii esetén).
+A Nintendo Wi-Fi Connection egy online multiplayer játékszolgáltatás volt a Wii számára, amely ingyenes online játékot tett lehetővé. Ez a szolgáltatás 2014-ban leállításra került, de léteznek visszafejtett szerver, amikhez csatlakozhatsz, hogy helyreállítsd ezt a funkcionalitást. Ez az útmutató a két megbizható szolgáltatáshoz tartalmaz részleteket, a WiiLink WFC-hez és a Wiimmfi-hez. A legtöbb felhasználó számára a Wiimmfi-t ajánljuka nagyobb felhasználóbázisa miatt (különösen a Mario Kart Wii-hoz).
 
 ## WiiLink WFC
 
@@ -111,7 +111,7 @@ Egy patchelési módszer a Wiimmfi-hez f, amely a kiskereskedelmi játéklemezek
 
 #### Lépések
 
-1. Menj a `Wii Settings` > `Internet` > `Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Majd `Change Settings` > `Auto-Obtain DNS NO` > `Advanced Settings`. Állítsd be elsődleges (primary) DNS-nek a `95.217.77.181` címet és másodlagos (secondary) DNS-nek az `1.1.1.1`-et.
+1. Menj a `Wii Settings` -> `Internet` -> `Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Majd `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. Állítsd be elsődleges (primary) DNS-nek a `95.217.77.181` címet és másodlagos (secondary) DNS-nek az `1.1.1.1`-et.
 2. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
 3. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
@@ -156,7 +156,7 @@ A Wiimmfi egy patchelési módszere, amely kiskereskedelmi játéklemezeken fut,
 
 1. Helyezd be a játék lemezed.
 
-2. Menj a `Wii Settings > Internet > Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Majd `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Állítsd be elsődleges (primary) DNS-nek a `95.217.77.151` címet és másodlagos (secondary) DNS-nek az `1.1.1.1`-et.
+2. Menj a `Wii Settings` -> `Internet` -> `Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Majd `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. Állítsd be elsődleges (primary) DNS-nek a `95.217.77.151` címet és másodlagos (secondary) DNS-nek az `1.1.1.1`-et.
 
    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 

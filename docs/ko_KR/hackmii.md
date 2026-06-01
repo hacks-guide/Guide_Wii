@@ -71,4 +71,6 @@ Preloader 및 이전 버전의 Priiloader는 SDHC (>2GB) 카드를 지원하지 
 
 [홈브류 채널 및 BootMii 설치 계속하기](hbc)
 
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+
 :::

@@ -1,6 +1,6 @@
 # RiiConnect24
 
-Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. This service was discontinued in 2013, but there are reverse-engineered servers that you can connect to which restore this functionality. This guide provides details on two trusted services, WiiLink WFC and Wiimmfi - for most users, we recommend Wiimmfi for their larger userbase (especially with Mario Kart Wii).
+Nintendo Wi-Fi Connection was an online multiplayer gaming service for the Wii, allowing free online play. This service was discontinued in 2014, but there are reverse-engineered servers that you can connect to which restore this functionality. This guide provides details on two trusted services, WiiLink WFC and Wiimmfi. For most users, we recommend Wiimmfi because of its larger userbase (especially for Mario Kart Wii).
 
 ## WiiLink WFC
 
@@ -111,7 +111,7 @@ A method for Wiimmfi patching which runs on retail game discs automatically thro
 
 #### Instructions
 
-1. Go to `Wii Settings` > `Internet` > `Connection Settings` and select whatever connection you are using. Then, `Change Settings` > `Auto-Obtain DNS NO` > `Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
+1. Go to `Wii Settings` -> `Internet` -> `Connection Settings` and select whatever connection you are using. Then, `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
 2. Scroll down to <code>save settings</code> and press A, then press B to go back to the main menu of Priiloader.
 3. Scroll to <code>System Menu</code> and press A to launch it.
 
@@ -156,7 +156,7 @@ A method for Wiimmfi patching which runs on retail game discs, but must be manua
 
 1. Insert your game disc.
 
-2. Go to `Wii Settings > Internet > Connection Settings` and select whatever connection you are using. Then, `Change Settings > Auto-Obtain DNS NO > Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
+2. Go to `Wii Settings` -> `Internet` -> `Connection Settings` and select whatever connection you are using. Then, `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. Set your primary DNS to `95.217.77.151`, and your secondary DNS to `1.1.1.1`.
 
    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 

@@ -39,7 +39,7 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. Navegue para `Internet` > `Console Information`.
+4. Navigate to `Internet` -> `Console Information`.
 
 5. Anote seu endereço MAC INTEIRO.
 
@@ -86,6 +86,8 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
 [Continue para a Instalação do Homebrew Channel e do BootMii)
 
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+
 :::
 
 ::::
@@ -114,7 +116,7 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. Navegue para `Internet` > `Console Information`.
+4. Navigate to `Internet` -> `Console Information`.
 
 5. Anote seu endereço MAC INTEIRO.
 
@@ -169,6 +171,8 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 ::: tip
 
 [Continue para a Instalação do Homebrew Channel e do BootMii](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::
 

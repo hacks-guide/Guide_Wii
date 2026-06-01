@@ -1,20 +1,14 @@
 # WiiConnect24
 
-<!--
-This guide provides the means of regaining WiiConnect24 functionality on your console via RiiConnect24.
-Although not at all necessary, it is a "nice to have" feature that was originally used for online connectivity in certain applications on the console.
-These apps include the Forecast/News Channel, Nintendo Channel, Check Mii Out Channel, some Japan-exclusive channels, and more.
--->
-
-[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24)는 인터넷에 연결된 Wii를 사용하는 사용자가 날씨와 뉴스를 보고, 친구에게 메시지를 보내고, Mii 콘테스트에 참여하는 등의 기능을 제공하는 서비스였습니다. WiiConnect24는 2013년 6월 27일에 중단되었습니다. Although discontinued, there is a reverse-engineered service that you can connect to which restores this functionality, described below.
+[WiiConnect24](https://wikipedia.org/wiki/WiiConnect24)는 인터넷에 연결된 Wii를 사용하는 사용자가 날씨와 뉴스를 보고, 친구에게 메시지를 보내고, Mii 콘테스트에 참여하는 등의 기능을 제공하는 서비스였습니다. WiiConnect24는 2013년 6월 27일에 중단되었습니다. Although discontinued, there is a third party service known as WiiLink which restores this functionality.
 
 ## WiiLink
 
-[WiiLink](https://www.wiilink.ca/) is a revival service for WiiConnect24 that allows you to regain and expand its functionality on your console. WiiLink는 뉴스 채널과 같은 국제 채널부터 Wii Room과 같은 지역별 독점 채널에 이르기까지 제공하는 서비스에 대한 패처를 호스팅합니다. The guide on how to install these services, as well as the patcher, can be found [on WiiLink's website.](https://www.wiilink.ca/guide/)
+[WiiLink](https://www.wiilink.ca/) is a third party service for WiiConnect24 that allows you to regain and expand its functionality on your console. WiiLink hosts a patcher for the services that it provides. They offer international channels such as the Forecast and News Channel, as well as region exclusive channels such as Wii Room. The guide to install WiiLink on your console can be found [on their website.](https://www.wiilink.ca/guide/)
 
 ## RTC 시계 업데이트
 
-In some cases, the RTC clock on your Wii may be desynced, causing errors when trying to connect to WiiConnect24 services, or other general online services on the Wii. In the event that you are receiving connection errors like FORE000006, you may use the below instructions to re-sync your Wii's internal RTC clock with the Internet.
+In some cases, the RTC clock on your Wii may not be synchronized with the current time. This will likely cause errors when trying to connect to WiiConnect24 services, or other general online services on the Wii. In the event that you are receiving connection errors like FORE000006, you may use the below instructions to re-sync your Wii's internal RTC clock with the Internet.
 
 ::::: tabs
 
@@ -92,7 +86,7 @@ In some cases, the RTC clock on your Wii may be desynced, causing errors when tr
 
 :::::
 
-## Wiiconnect24 Priiloader Hacks (vWii and Wii mini)
+## WiiConnect24 Priiloader Hacks (vWii and Wii mini)
 
 ::: info
 

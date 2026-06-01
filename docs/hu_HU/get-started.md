@@ -12,7 +12,13 @@ A Wii mód a Wii U-n kicsit más exploitálási folyamattal rendelkezik, és nem
 
 ## Szoftmoddolt már a Wii-od?
 
-Ha van egy Wii-od vagy egy Wii mini-d ami már szoftmoddoltés szeretnéd frissíteni a konfigurációt, kövesd [ezt](hackmii) az útmutatót a HackMii telepítő indításához a Homebrew Channel-ből, or Priiloader-ből.
+Ha van egy Wii-od vagy egy Wii mini-d ami már szoftmoddoltés szeretnéd frissíteni a konfigurációt, kövesd [ezt](hackmii) az útmutatót a HackMii telepítő indításához a Homebrew Channel-ből, or Priiloader-ből. Possible signs that your console is already softmodded include:
+
+- The Homebrew Channel is visible on the Wii menu
+- Other homebrew, including USB loaders or emulators are visible on the Wii menu
+- You are able to open [Priiloader](priiloader#section-iii---entering-priiloader) when attempting to do so
+- BootMii is visible when starting the console
+- There is already an SD card in your Wii that contains folders like `apps`
 
 ## Azonosítsd a konzol verziód
 

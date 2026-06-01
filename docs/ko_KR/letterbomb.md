@@ -33,7 +33,7 @@ SD 카드를 올바르게 포맷하는 방법에 대한 지침은 [이 가이드
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. `인터넷` > `콘솔 정보`로 이동합니다.
+4. Navigate to `Internet` -> `Console Information`.
 
 5. 전체 MAC 주소를 기록해 봅니다.
 
@@ -76,5 +76,7 @@ SD 카드를 올바르게 포맷하는 방법에 대한 지침은 [이 가이드
 ::: tip
 
 [홈브류 채널 및 BootMii 설치 계속하기](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::

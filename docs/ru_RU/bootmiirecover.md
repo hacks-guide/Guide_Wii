@@ -4,11 +4,13 @@
 
 Please read the information below before proceeding further.
 
-:::info Important Information
+::: info
+
+**Important Information**
 
 - Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. Это происходит из-за отсутствия портов GameCube, которые требуется для Wii без модифицированного boo2 для ввода кода подтверждения восстановления. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
-- Если у вас установлен BootMii на boot2, вам нужно запустить BootMii, перезапустив консоль. В таком случае пропустите шаги 1 и 2.
+- If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. В таком случае пропустите шаги 1 и 2.
 
 - If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is likely a [Wi-Fi Brick](bricks#wi-fi-brick).
 
@@ -36,14 +38,14 @@ Please read the information below before proceeding further.
 
 If you would like to restore individual data from your NAND backup, a much safer and faster way to do this using Dolphin Emulator.
 
-Например, если вам нужно восстановить данные из доски сообщений Wii, используйте Dolphin для импорта вашего NAND-бэкапа. In Dolphin, go to `File` > `Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
+Например, если вам нужно восстановить данные из доски сообщений Wii, используйте Dolphin для импорта вашего NAND-бэкапа. In Dolphin, go to `File` -> `Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
 
-If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools` > `Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
+If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools` -> `Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
 
 ## Требования
 
 - A Wii with BootMii as IOS or BootMii as boot2 installed
-- An earlier NAND Backup for your specific Wii made by [BootMii](bootmii)
+- An earlier NAND Backup for your specific Wii made by [BootMii OR nanddumper@ios](nand-backup)
 
 ## Инструкции
 

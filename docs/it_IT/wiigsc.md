@@ -1,21 +1,23 @@
-# Creare Collegamenti per Giochi Wii
+# Creare collegamenti di giochi Wii
 
-Questa guida provvede di istruzioni su come creare collegamenti per giochi Wii dai backup che hai sull'archivio esterno, usando un programma chiamato WiiGSC (Wii Game Shortcut Creator). Creando un collegamento per un gioco, puoi avviarlo direttamente dal menu Wii come se ne avessi inserito il disco.
+Questa guida fornirà di istruzioni su come creare collegamenti per i giochi Wii dai backup che hai sull'archivio esterno, usando un programma chiamato WiiGSC (Wii Game Shortcut Creator). Poi, potrai avviarli direttamente dal menu Wii come se ne avessi inserito il disco di gioco.
 
-:::info Informazioni importanti
+::: info
 
-- Il tuo browser o antivirus potrebbero segnalare WiiGSC come malware - questo è un falso positivo. WiiGSC non contiene ALCUN malware.
-- Il menu Wii è limitato a 48 canali, non includendo i canali già esistendi di sistema.
+**Informazioni importanti**
+
+- Il tuo browser o antivirus potrebbe segnalare WiiGSC come malware, ma è un falso positivo. WiiGSC NON contiene malware.
+- Il menu Wii è limitato a 48 canali, escludendo i canali di sistema già esistenti.
 
 :::
 
 ::: danger
 
-**Avvertenze importanti**
+**Leggere attentamente**
 
-- NON continuare con questa guida se non hai installato [Priiloader](priiloader) o [BootMii](bootmii), in quanto c'è il pericolo di causare un [brick dal banner](bricks#banner-brick) che impedirà al menu Wii di avviarsi.
-- NON creare o installare collegamenti dei giochi "Mario Party 9" o "A Boy and His Blob". Causeranno [brick dal banner](bricks#banner-brick) data la complessità dei loro canali, facendo andare in crash il menu Wii.
-- Se ricevi un errore del tipo `The system files are corrupted` (I file di sistema sono corroti), probabilmente ti stai vedendo con un [brick dal banner](bricks#banner-brick). Per sistemarlo, spegni la console, poi [avvia in Priiloader](priiloader#section-iii---entering-priiloader) con uno dei metodi disponibili per la tua console. Entra nell'Homebrew Channel e avvia il tuo gestore WAD o [YAWM ModMii Edition](yawmme) per disinstallare il WAD che ha causato questo errore. Se Priiloader non è stato installato, procedi con [BlueBomb](bluebomb) per risolvere.
+- NON proseguire con questa guida se non hai installato ENTRAMBI [Priiloader](priiloader) E [BootMii](hbc), in quanto c'è il rischio di causare un [brick dal banner](bricks#banner-brick) che impedirà l'avvio del menu Wii.
+- NON creare e installare i collegamenti per i giochi "Mario Party 9" e "A Boy and His Blob". Causeranno un [brick dal banner](bricks#banner-brick) a causa della complessità dei loro canali, facendo andare in crash il menu Wii.
+- Se ricevi un errore del tipo `I file di sistema sono danneggiati`, probabilmente ti stai vedendo con un [brick dal banner](bricks#banner-brick). Per sistemarlo, spegni la console e [avvia Priiloader](priiloader#section-iii---entering-priiloader) con uno dei metodi disponibili. Entra nell'Homebrew Channel e avvia un gestore di WAD o [YAWM ModMii Edition](yawmme) per disinstallare il WAD che ha causato questo errore. Se Priiloader non è installato, procedi con [BlueBomb](bluebomb) per risolvere.
 
 :::
 
@@ -23,35 +25,35 @@ Questa guida provvede di istruzioni su come creare collegamenti per giochi Wii d
 
 - Una console Wii
 - Una scheda SD o un'unità USB
-- Un PC Windows
+- Un PC con Windows
 - [YAWM ModMii Edition](yawmme)
 - [WiiGSC ModMii Edition](https://github.com/modmii/WiiGSC/releases)
 
 ## Istruzioni
 
-### Section I - Creare un canale
+### Sezione I - Creare un canale
 
-1. Estrai il file `.zip` di WiiGSC, trova `WiiGSC.exe` e avvialo. Il primo avvio ti chiederà di creare la tua chiave comune e fornirà un avviso - procedi normalmente.
+1. Estrai il file `.zip` di WiiGSC, trova `WiiGSC.exe` e avvialo. Al primo avvio, ti verrà chiesto di creare una chiave comune e ti verrà fornito un avviso; procedi normalmente.
 
    ![](/images/desktop-apps/wiigsc/wiigsc-disclaimer.png)
 
-2. Con WiiGSC aperto, clicca `Open WBFS Drive` e seleziona la lettera dell'unità contenente i tuoi file WBFS. In alternativa, puoi selezionare un file ISO/WBFS singolo.
+2. Con WiiGSC aperto, clicca `Open WBFS Drive` e seleziona la lettera dell'unità contenente i file WBFS. In alternativa, puoi selezionare un file ISO/WBFS singolo.
 
    ![](/images/desktop-apps/wiigsc/wiigsc-selection.png)
 
-3. Seleziona il gioco di cui vuoi creare un canale, poi premi `Use for Channel Creation`. Seleziona l'USB loader che userai per avviare il gioco, poi premi `Create Channel` situato in basso a sinistra.
+3. Seleziona il gioco di cui vuoi creare il canale, poi premi `Use for Channel Creation`. Seleziona l'USB loader che userai per avviare il gioco, poi premi `Create Channel` in basso a sinistra.
 
    ![](/images/desktop-apps/wiigsc/wiigsc-creation.png)
 
-4. Copia il WAD appena creato nella tua scheda SD o unità USB.
+4. Copia il WAD appena creato nella scheda SD o nell'unità USB.
 
-### Section II - Installare il canale
+### Sezione II - Installare il canale
 
-1. Apri il tuo gestore WAD e trova il WAD messo in precedenza, poi installalo.
+1. Apri un gestore di WAD e trova il file messo in precedenza, poi installalo.
 
    ![](/images/desktop-apps/wiigsc/wiigsc-install.png)
 
-2. Se ha avuto successo, ora dovresti vedere il tuo gioco sul menu Wii!!
+2. Se ha avuto successo, ora dovresti vedere il gioco sul menu Wii!
 
    ![](/images/desktop-apps/wiigsc/wiigsc-success.png)
 

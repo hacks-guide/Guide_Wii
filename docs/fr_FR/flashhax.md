@@ -54,4 +54,6 @@ Si après plusieurs essais, Flashhax ne fonctionne toujours pas, considérez d'e
 [Continuer vers l'installation de Homebrew Channel et de BootMii](hbc)
 {: .notice--info}
 
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+
 :::

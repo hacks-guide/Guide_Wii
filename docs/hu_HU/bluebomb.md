@@ -10,15 +10,11 @@ Ez az exploit lehetővé teszi bizonyos brick-ek, mint például a banner brick 
 
 Kérjük olvasd el a listába gyűjtött fontos információkat mielőtt tovább haladsz.
 
-::::: tabs
+::: info
 
-:::: tab BlueBomb Classic
+**Fontos információ**
 
-## BlueBomb Classic
-
-:::info Fontos információ
-
-- Ha ezt az útmutatót Wii mini hackeléséhez használod és segítségre an szükséged, csatlakozz a [Wii mini Hacking Discord szerverhez](https://discord.gg/6ryxnkS).
+- Ha ezt az útmutatót Wii mini hackeléséhez használod és segítségre an szükséged, csatlakozz a [Wii mini Hacking discord szerverhez](https://discord.gg/6ryxnkS).
 - Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploitot használj](get-started), mert a HackMii telepítő előkészítésének sokkal egyszerűbb módjai is vannak. Ha egy elromlott konzol megjavításáról van szó, akkor viszont vannak kivételek.
 - Győződj meg róla, hogy a konzol közel van az exploitot futtató számítógéphez, ideális esetben kevesebb mint 1 méternyire.
 
@@ -26,9 +22,19 @@ Kérjük olvasd el a listába gyűjtött fontos információkat mielőtt tovább
 
 ::: danger
 
+**Fontos figyelmeztetés**
+
 **Erősen nem ajánlott** **bármilyen** videós útmutató használata, de kifejezetten nem akkor, ha Wii mini konzolt hackelsz. A hibás útmutatók jelentősen nagyobb eséllyel vezetnek a konzolod **brickelődéséhez**, mint normális esetben.
 
 :::
+
+::::: tabs
+
+:::: tab BlueBomb Classic (Linux)
+
+## BlueBomb Classic
+
+BlueBomb Classic utilizes a Linux device or virtual machine to upload an exploit to the Wii via Bluetooth.
 
 ### Requirements
 
@@ -59,11 +65,13 @@ Kérjük olvasd el a listába gyűjtött fontos információkat mielőtt tovább
   - Ha nincs beépített adaptered, figyelj rá, hogy olyat vegyél, ami Linuxxal kompatibilis.
 - Egy USB flash drive [FAT32/MS-DOS-ra formatálva](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
   - Ez nem lehet ugyanaz, amelyről a Linux-környezetet fogod futtatni.
-- [HackMii Installer v1.2](https://bootmii.org/download/)
+- [The HackMii Installer](https://bootmii.org/download/)
 
 ### Lépések
 
-1. Másold a `boot.elf` fájlt a HackMii Installer v1.2 `.zip`-ből a pendrive-od gyökerébe.
+#### I. rész - Kezdeti előkészületek
+
+1. Másold a `boot.elf` fájlt a`hackmii_installer_v1.2.zip`-ből a pendrive-od gyökerébe.
 
    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
    - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Minden esetben a boot.elf-fájlt használd).
@@ -86,9 +94,11 @@ Kérjük olvasd el a listába gyűjtött fontos információkat mielőtt tovább
 
 6. Kapcsold ki a konzolod.
 
-7. Indítsd el a Linuxos számítógépedet és csatlakozz az internetre.
+#### II. rész - Az exploit beállítása
 
-8. Nyisd meg a Terminált és futtasd a következő parancsokat:
+1. Indítsd el a Linuxos számítógépedet és csatlakozz az internetre.
+
+2. Nyisd meg a Terminált és futtasd a következő parancsokat:
 
    ```shell
    wget https://wii.hacks.guide/assets/files/bluebomb-helper.sh
@@ -98,7 +108,7 @@ Kérjük olvasd el a listába gyűjtött fontos információkat mielőtt tovább
 
    ![](/images/exploits/bluebomb/run-commands.png)
 
-9. A telepítő most letölti a szükséges fájlokat, majd a konzolodról fog érdeklődni.
+3. A telepítő most letölti a szükséges fájlokat, majd a konzolodról fog érdeklődni.
 
    ![](/images/exploits/bluebomb/console-type.png)
 
@@ -110,49 +120,46 @@ Kérjük olvasd el a listába gyűjtött fontos információkat mielőtt tovább
 
    ![](/images/exploits/bluebomb/wii-options.png)
 
-10. Kapcsold be a konzolod.
-    - **Ne csatlakoztass** egy Wii Remote-ot sem.
+#### III. rész - Az exploit végrehajtása
 
-11. Ha még nem tetted meg, írd be a szkriptbe az `yes`-t a folytatáshoz, és győződj meg róla, hogy a `Waiting to accept` felirat jelenik meg.
+1. Kapcsold be a konzolod.
+   - **Ne csatlakoztass** egy Wii Remote-ot sem.
 
-12. Nyomogasd a konzol Sync gombját, amíg a terminálon nem látod ezt az üzenetet: `got connection handle`.
+2. Ha még nem tetted meg, írd be a szkriptbe az `yes`-t a folytatáshoz, és győződj meg róla, hogy a `Waiting to accept` felirat jelenik meg.
 
-    - Lehetséges, hogy ezt többször is meg kell próbálnod.
+3. Nyomogasd a konzol Sync gombját, amíg a terminálon nem látod ezt az üzenetet: `got connection handle`. Várd meg az exploitot míg végez a feltöltéssel.
 
-    ![](/images/exploits/bluebomb/got-connection-handle.png)
+   - Lehetséges, hogy ezt többször is meg kell próbálnod.
 
-13. Ha az exploit sikeres volt, akkor az alábbi képernyőhöz hasonlót kell látnod, majd a HackMii installer-nek be kell töltődnie.
+   ![](/images/exploits/bluebomb/got-connection-handle.png)
 
-    - Ha a későbbiekben már nem tervezed használni, akkor leállíthatod a Linuxot.
+4. Ha az exploit sikeres volt, akkor az alábbi képernyőhöz hasonlót kell látnod, majd a HackMii installer-nek be kell töltődnie.
 
-    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
+   - Ha a későbbiekben már nem tervezed használni, akkor leállíthatod a Linuxot.
+
+   ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ---
 
 ::: tip
 
-[Folytatás a Hackmii Installer-rel](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+
+Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
 
 :::
 
 ::::
 
-:::: tab BlueBomb Micro
+:::: tab BlueBomb Micro (RPi/ESP32)
 
 ## BlueBomb Micro
 
-:::info Fontos információ
+BlueBomb Micro utilizes a Raspberry Pi Pico or ESP32 to upload an exploit to the Wii via Bluetooth.
 
-- Ha ezt az útmutatót Wii mini hackeléséhez használod és segítségre an szükséged, csatlakozz a [Wii mini Hacking Discord szerverhez](https://discord.gg/6ryxnkS).
-- Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploitot használj](get-started), mert a HackMii telepítő előkészítésének sokkal egyszerűbb módjai is vannak. Ha egy elromlott konzol megjavításáról van szó, akkor viszont vannak kivételek.
-- Győződj meg róla, hogy a konzol közel van az exploitot futtató számítógéphez, ideális esetben kevesebb mint 1 méternyire.
-- Ha `Exception 0700 occurred!` hibaüzenetet vagy hasonlót kapsz, próbálja meg újra az exploitot. Ha ez továbbra is előfordul, csatlakozz [a Wii mini Hacking Discord szerverhez](https://discord.gg/6ryxnkS) támogatásért.
+::: warning
 
-:::
-
-::: danger
-
-**Erősen nem ajánlott** **bármilyen** videós útmutató használata, de kifejezetten nem akkor, ha Wii mini konzolt hackelsz. A hibás útmutatók jelentősen nagyobb eséllyel vezetnek a konzolod **brickelődéséhez**, mint normális esetben.
+Ha `Exception 0700 occurred!` hibaüzenetet vagy hasonlót kapsz, próbálja meg újra az exploitot. Ha ez továbbra is előfordul, csatlakozz [a Wii mini Hacking Discord szerverhez](https://discord.gg/6ryxnkS) támogatásért.
 
 :::
 
@@ -170,7 +177,9 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 ### Instructions
 
-1. Másold a `boot.elf` fájlt a HackMii Installer v1.2 `.zip`-ből a pendrive-od gyökerébe.
+#### I. rész - Kezdeti előkészületek
+
+1. Másold a `boot.elf` fájlt a`hackmii_installer_v1.2.zip`-ből a pendrive-od gyökerébe.
 
    - (Ha egy brick-et kívánsz megjavítani, akkor másold a használni kívánt alkalmazást az /apps/ könyvtárba)
    - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Minden esetben a boot.elf fájlt használd).
@@ -193,7 +202,9 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 6. Kapcsold ki a konzolod.
 
-#### Raspberry Pi Pico W
+#### II.a. rész - Raspberry Pi Pico W
+
+:::details Előkészületi lépések
 
 1. Töltsd le a legújabb [előre lefordított binárisokat](https://github.com/GaryOderNichts/bluebomb_micro/releases) a Release oldalról, és csomagold ki a számítógépedre.
 
@@ -216,14 +227,20 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
    ![](/images/exploits/bluebomb/pico-ready.jpg)
 
-#### ESP32
+:::
+
+#### II.b rész - ESP32
+
+:::details Előkészületi lépések
 
 1. A legújabb [ESP IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html) beállítása.
 2. Fordítsd le a bináris változatot [a forrásból](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#building-from-source).
 3. [Flasheld a bináris állományt](https://github.com/GaryOderNichts/bluebomb_micro/tree/main/ports/esp32#flashing) az ESP32-re.
 4. Az eszközöd most már készen áll. Kihúzhatod az eszközt a PC-dből.
 
-### Az exploit végrehajtása
+:::
+
+#### III. rész - Az exploit végrehajtása
 
 1. Csatlakoztasd vissza a flashelt eszközöd a számítógépedhez.
 2. Kapcsold be a konzolod.
@@ -232,16 +249,110 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
    - Lehetséges, hogy ezt többször is meg kell próbálnod.
 4. Ha az exploit sikeres volt, akkor az alábbi képernyőhöz hasonlót kell látnod, majd a HackMii installer-nek be kell töltődnie.
 
+   - You may now unplug your microcontroller at this point.
+
    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
 ---
 
 ::: tip
 
-[Folytatás a Hackmii Installer-rel](hbc)
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+
+Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
 
 :::
 
 ::::
+
+:::: tab BlueMii (Wii to Wii)
+
+## BlueMii
+
+BlueMii utilizes another Wii to upload an exploit to the Wii via Bluetooth.
+
+### Requirements
+
+- A secondary Wii, Wii U (vWii), or Wii mini to use to upload an exploit to the target Wii
+- A USB flash drive OR SD card to load the HackMii installer onto, [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+- A second USB flash drive OR SD card to load BlueMii onto the exploiting Wii
+- [BlueMii](https://github.com/Zarithya/BlueMii/releases/tag/v1.1)
+- [The HackMii Installer](https://bootmii.org/download/)
+
+### Lépések
+
+#### I. rész - A cél konzol előkészítése
+
+1. Copy `boot.elf` from the `hackmii_installer_v1.2.zip` to the root of the USB drive or SD card that will be used on the target console.
+
+   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+   - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Minden esetben a boot.elf-fájlt használd).
+
+   ![](/images/exploits/bluebomb/usb-exploit.png)
+
+2. Reinsert your USB drive or SD card into the target console.
+   - For a Wii mini, the USB port is on the back.
+   - Egy sima Wii esetén az alsó csatlakozót használd (ha a konzol fel van állítva, akkor ez a jobb oldali).
+
+3. Kapcsold be a cél konzolt.
+
+4. Menj a `Wii Settings`-hez.
+
+5. Jegyezd meg a jobb felső sarokban megjelenő betűjelet, ami a rendszer verziószáma mellett van.
+
+   - Ez a betű jelzi a rendszermenü régióját, amire a későbbi lépésekben szükséged lesz.
+
+   ![](/images/wii/SystemMenuVersion.png)
+
+6. Kapcsold ki a cél konzolt.
+
+#### II. rész - Az exploit beállítása
+
+1. Copy the `apps` folder in the `BlueMii.vX.X.zip` file to the root of your USB drive or SD card that will be used on the exploiting console.
+
+2. Reinsert your USB drive or SD card into the exploiting console.
+
+3. Kapcsold be az exploitáló konzolt.
+
+4. On the exploiting console, open the Homebrew Channel and load the BlueMii app.
+
+   ![](/images/exploits/bluebomb/load-bluemii.png)
+
+5. On the BlueMii app, select the region that corresponds to your target console.
+
+   ![](/images/exploits/bluebomb/bluemii-region.png)
+
+#### III. rész - Az exploit végrehajtása
+
+1. Kapcsold be a cél konzolt.
+   - **Ne csatlakoztass** egy Wii Remote-ot sem.
+
+2. On the exploiting console, press the `A` button to prepare to upload the exploit to the target console.
+
+   ![](/images/exploits/bluebomb/bluemii-ready.png)
+
+3. Press the Sync button repeatedly until the exploiting console shows `got connection handle`. Várd meg az exploitot míg végez a feltöltéssel.
+
+   - Lehetséges, hogy ezt többször is meg kell próbálnod.
+
+   ![](/images/exploits/bluebomb/bluemii-handle.png)
+
+4. Ha az exploit sikeres volt, akkor az alábbi képernyőhöz hasonlót kell látnod, majd a HackMii installer-nek be kell töltődnie.
+
+   ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
+
+5. On the exploiting console, you may now press `A` to either retry the exploit, or `HOME/START` to return to the Homebrew Channel.
+
+   ![](/images/exploits/bluebomb/bluemii-success.png)
+
+---
+
+::: tip
+
+[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+
+Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
+
+:::
 
 :::::

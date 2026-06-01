@@ -80,7 +80,7 @@ Please note that if you install Bootmii as boot2, your disc drive will flash ver
 
     ![](/images/hbc/blank.png)
 
-### Required Reading
+### Post-Installation Info
 
 You can now use the Homebrew Channel to launch homebrew apps.
 
@@ -101,11 +101,26 @@ Here's a tip - when installing homebrew applications on your SD Card or USB driv
 
 `AppName1` and `AppName2` are placeholder names. Do not nest multiple `apps` folders inside the `apps` folder itself.
 
+### Otomatik önyükleme
+
+Eğer BootMii'yi boot2 olarak kurabilmişseniz, ancak Wiinizi her açtığınızda BootMii ekranını görmek istemiyorsanız, otomatik olarak sistem menüsünü açma seçeneğiniz vardır. This will restore your console behavior to booting to the system menu instaed of to BootMii.
+
+1. Open `SD:/bootmii/bootmii.ini` with a text editor.
+2. Change `#AUTOBOOT=SYSMENU` to `AUTOBOOT=SYSMENU` by deleting the `#`.
+3. Then change `#BOOTDELAY=5` to `BOOTDELAY=1` by deleting the `#` and turning the `5` into a `1`.
+4. Dosyayı kaydedin ve çıkın.
+
+::: info
+
+You can also use the [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) app on the Wii to change these settings.
+
+:::
+
 ---
 
 ::: tip
 
-[Continue to making a NAND Backup using BootMii](bootmii)
+[Continue to making a NAND Backup](nand-backup)
 
 Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
 
@@ -178,10 +193,12 @@ Note: When installing homebrew applications on your USB drive, your folder struc
 
 ::: tip
 
-[Continue to making a NAND Backup using RealWnd](wnd-mini)
+[Continue to making a NAND Backup](nand-backup)
 
 Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
 
 :::
 
 ::::
+
+:::::

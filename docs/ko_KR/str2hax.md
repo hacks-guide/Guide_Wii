@@ -38,7 +38,7 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
    ![](/images/riiconnect24/Internet_2.png)
 
-4. Navigate to `Page 2` > `Internet` > `Connection Settings`.
+4. `페이지 2` -> `인터넷` -> `연결 설정`으로 이동합니다.
 
    ![](/images/riiconnect24/Internet_3.png)
 
@@ -105,5 +105,7 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 ::: tip
 
 [홈브류 채널 및 BootMii 설치 계속하기](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::

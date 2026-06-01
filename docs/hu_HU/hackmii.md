@@ -71,4 +71,6 @@ Ha a `Press (1) to continue` nem jelenik meg kb. 30 másodperc után a [HackMii 
 
 [Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
 
+Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
+
 :::

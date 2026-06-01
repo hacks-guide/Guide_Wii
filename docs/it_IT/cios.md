@@ -4,7 +4,7 @@ outline: false
 
 # cIOS
 
-cIOS, o custom IOS, sono versioni patchate e modificate di certi IOS (ovvero parti del sistema del software Wii) che consentono a homebrew come gli USB loader di funzionare dove prima non potevano. Sebbene non siano richiesti, la loro installazione è altamente consigliata in quanto aumenta le funzionalità della console Wii con quasi nessuna conseguenza.
+I cIOS, o custom IOS, sono versioni modificate di determinati IOS (ovvero parti del sistema del software di Wii) che permettono a homebrew come gli USB loader di funzionare dove prima non era possibile. Sebbene non siano obbligatori, la loro installazione è altamente consigliata, in quanto aumentano le funzionalità della console senza quasi nessuna conseguenza.
 
 ::::: tabs
 
@@ -12,65 +12,65 @@ cIOS, o custom IOS, sono versioni patchate e modificate di certi IOS (ovvero par
 
 ::: danger
 
-Non provare a installare IOS di vWii o Wii mini o i loro menu di sistema su Wii. Cosi facendo rischierai di [brickare](bricks#ios-brick) la console.
+Non installare gli IOS o il menu di sistema di vWii o Wii mini su Wii. Così facendo rischierai di [brickare](bricks#ios-brick) la console.
 
 :::
 
 ::: warning
 
-Se stai usando una scheda SD, assicurati che la levetta "Lock" sia nella posizione sbloccata. Altrimenti, non sarà disponibile selezionare le opzioni corrette nell'installer.
+Se stai usando una scheda SD, assicurati che la levetta "Lock" sia nella posizione sbloccata. Altrimenti, non sarà possibile selezionare le opzioni corrette nell'installer.
 
 :::
 
 ## Requisiti
 
 - Una console Wii con l'Homebrew Channel installato
-- Una scheda SD o unità USB
-- Il [d2x cIOS Installer](https://oscwii.org/library/app/d2x-cios-installer)
+- Una scheda SD o un'unità USB
+- [d2x cIOS Installer](https://oscwii.org/library/app/d2x-cios-installer)
 
 ## Istruzioni
 
-### Sezione I - Download
+### Sezione I - Scaricamento
 
-::: tip
+::: warning
 
-Il tuo browser o antivirus potrebbe segnalare NUSGet come malware - è un falso positivo. NUSGet NON contiene alcun malware.
+Il tuo browser o antivirus potrebbe segnalare NUSGet come malware, ma è un falso positivo. NUSGet NON contiene malware.
 
 :::
 
-::: info
+::: tip
 
 Se riesci a connettere Wii a Internet, puoi saltare alla [Sezione II](cios#section-ii---installing).
 
 :::
 
-1. Spegni la console e inserisci la scheda SD o unità USB nel tuo computer.
+1. Spegni la console, poi inserisci la scheda SD o l'unità USB nel computer.
 
-2. Sul tuo computer, scarica [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/) scegliendo l'archivio corrispondente al tuo sistema operativo. Per utenti Windows, dovreste scegliere il file `NUSGet-Windows-x86_64-bin.zip`.
+2. Sul computer, scarica [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/) scegliendo l'archivio corrispondente al tuo sistema operativo. Per gli utenti Windows, provate `NUSGet-Windows-x86_64-bin.zip`.
 
 3. Estrai l'archivio ed esegui NUSGet.
 
-4. Naviga su `IOS` > `IOS 38` > `World` e seleziona `v4123`. Deseleziona `Mantieni contenuti criptati`, poi clicca `Avvia download`.
+4. Naviga su `IOS` -> `IOS 38` -> `World` e seleziona `v4123`. Deseleziona `Mantieni contenuti criptati`, poi clicca `Avvia download`.
 
    ![](/images/desktop-apps/nusget/nusget-4123.png)
 
-5. Ripeti i passaggi sopra per `IOS 56 (v5661)`, `IOS 57 (v5918)` e `IOS 58 (v6175)`.
+5. Ripeti il passaggio sopra per `IOS 56 (v5661)`, `IOS 57 (v5918)` e `IOS 58 (v6175)`.
 
-6. Quando hai finito di scaricare gli IOS sovracitati, clicca la cartella vicino`Avvia download`. Questo aprirà il tuo gestore file alla cartella download di NUSGet.
+6. Una volta scaricati gli IOS sopraccitati, clicca sulla cartella accanto ad `Avvia download`. Questo aprirà il gestore file alla cartella download di NUSGet.
    ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
 
 7. Questa cartella dovrebbe contenerne altre quattro con gli ID degli IOS, come mostrato qui.
 
    ![](/images/desktop-apps/nusget/nusget-folder-ios.png)
 
-8. Entra nelle quattro cartelle, troverai un file `IOS-XX-vXXXX-Wii.wad` in ognuna.
+8. Entra in ciascuna cartella, troverai un file `IOS-XX-vXXXX-Wii.wad` in ognuna.
 
    ![](/images/desktop-apps/nusget/nusget-ios-output.png)
 
-9. Piazza ogni file WAD nella root della scheda SD o unità USB.
-   - Questo deve essere lo stesso dispositivo che contiene d2x cIOS Installer.
+9. Posiziona ogni file WAD nella root della scheda SD o dell'unità USB.
+   - Questa deve essere la stessa unità che contiene d2x cIOS Installer.
 
-10. Assicurati che ogni WAD sia nominato come sotto per compatibilità col d2x-cios-installer:
+10. Assicurati che ogni WAD sia nominato come sotto per compatibilità con d2x-cios-installer:
 
     |   IOS  |            Nome del file           |
     | :----: | :--------------------------------: |
@@ -81,7 +81,7 @@ Se riesci a connettere Wii a Internet, puoi saltare alla [Sezione II](cios#secti
 
 ::: info
 
-I file WAD dovrebbero essere sulla tua scheda SD in questo modo:
+I file WAD dovrebbero trovarsi sulla scheda SD in questo modo:
 
 ![](/images/desktop-apps/nusget/nusget-ios-on-sd.png)
 
@@ -89,9 +89,9 @@ I file WAD dovrebbero essere sulla tua scheda SD in questo modo:
 
 ### Sezione II - Installazione
 
-1. Copia la cartella `apps` nel `.zip` di d2x-cios-installer nella root della tua scheda SD o unità USB.
+1. Copia la cartella `apps` dal `.zip` di d2x-cios-installer nella root della scheda SD o dell'unità USB.
 
-2. Reinserisci la scheda SD o unità USB nella console.
+2. Reinserisci la scheda SD o l'unità USB nella console.
 
 3. Accendi la console.
 
@@ -118,7 +118,7 @@ I file WAD dovrebbero essere sulla tua scheda SD in questo modo:
 
    ::: info
 
-   L'avviso "`(c)IOS detected in slot ### will be overwritten`" può essere ignorato in sicurezza.
+   L'avviso "`(c)IOS detected in slot ### will be overwritten`" può essere ignorato tranquillamente.
 
    :::
 
@@ -126,7 +126,7 @@ I file WAD dovrebbero essere sulla tua scheda SD in questo modo:
 
    Se vedi "`Slot ### already used in batch settings`" o "`cIOS already added in batch with revision ##### and slot ###`", premi `-`.
 
-   (Se stai cercando di uscire dall'installer, il pulsante è B, non Home.)
+   (Se stai cercando di uscire dall'installer, il pulsante da premere è B, non Home.)
 
    :::
 
@@ -138,7 +138,7 @@ I file WAD dovrebbero essere sulla tua scheda SD in questo modo:
 
    ![](/images/cios/d2x_installation.png)
 
-9. Appena terminata l'installazione, tornerai alla mappa degli slot. Assicurati che lo slot appena installato sia evidenziato in verde.
+9. Al termine dell'installazione, tornerai alla mappa degli slot. Assicurati che lo slot appena installato sia evidenziato in verde.
 
    ![](/images/cios/d2x_log.png)
 
@@ -146,7 +146,7 @@ I file WAD dovrebbero essere sulla tua scheda SD in questo modo:
 
    Se è evidenziato in rosso, prova a reinstallare il cIOS.
 
-   Se ricevi un errore prima o durante la fase di download (es. `tcp_connect timeout`, `net_gethostbyname failed: ...`), premi B per uscire e ritorna alla [Sezione I](#section-i---downloading).
+   Se durante la fase di download ricevi un errore (es. `tcp_connect timeout`, `net_gethostbyname failed: ...`), premi B per uscire e torna alla [Sezione I](#section-i---downloading).
 
    :::
 
@@ -187,11 +187,11 @@ I file WAD dovrebbero essere sulla tua scheda SD in questo modo:
 
       ![](/images/cios/d2x_v11_251.png)
 
-12. Una volta finito di installare tutti e 4 i cIOS, premi B per ritornare all'Homebrew Channel.
+12. Una volta installati tutti e 4 i cIOS, premi B per tornare all'Homebrew Channel.
 
 ::: info
 
-Se hai scaricato i 4 file WAD nella Sezione I, ora puoi rimuoverli dalla tua scheda SD/unità USB.
+Se hai scaricato i file WAD nella Sezione I, puoi ora rimuoverli dalla scheda SD/unità USB.
 
 :::
 
@@ -201,7 +201,7 @@ Se hai scaricato i 4 file WAD nella Sezione I, ora puoi rimuoverli dalla tua sch
 
 [Continua con l'installazione di Open Shop Channel](osc)
 
-Ora che la tua console Wii ha una protezione dai brick adeguata, puoi installare l'Open Shop Channel, una repository affidabile per app homebrew che può essere navigata con o senza Wii.
+Ora che l'Homebrew Channel, BootMii, Priiloader e i cIOS sono installati, puoi installare l'Open Shop Channel: una repository affidabile per le app homebrew che può essere navigata con o senza Wii.
 
 :::
 
@@ -211,29 +211,86 @@ Ora che la tua console Wii ha una protezione dai brick adeguata, puoi installare
 
 ::: danger
 
-Non provare a installare IOS di Wii o Wii mini o i loro menu di sistema su vWii. Cosi facendo rischierai di [brickare](bricks#ios-brick) la console.
+Non installare gli IOS o il menu di sistema di Wii o Wii mini su vWii. Così facendo rischierai di [brickare](bricks#ios-brick) la console.
 
 :::
 
 ::: warning
 
-Se stai usando una scheda SD, assicurati che la levetta "Lock" sia nella posizione sbloccata. Altrimenti, non sarà disponibile selezionare le opzioni corrette nell'installer.
+Se stai usando una scheda SD, assicurati che la levetta "Lock" sia nella posizione sbloccata. Altrimenti, non sarà possibile selezionare le opzioni corrette nell'installer.
 
 :::
 
 ## Requisiti
 
-- Una console Wii U con l'Homebrew Channel installato sulla vWii
-- Una scheda SD o unità USB
-- Il [d2x cIOS Installer per vWii](https://oscwii.org/library/app/d2x-cios-installer-vwii)
+- Una console Wii U con l'Homebrew Channel installato su vWii
+- Una scheda SD o un'unità USB
+- [d2x cIOS Installer per vWii](https://oscwii.org/library/app/d2x-cios-installer-vwii)
 
 ## Istruzioni
 
-### Sezione I - Installazione
+### Sezione I - Scaricamento
 
-1. Copia la cartella `apps` nel `.zip` di d2x-cios-installer-vwii nella root della tua scheda SD o unità USB.
+::: warning
 
-2. Reinserisci la scheda SD o unità USB nella console.
+Il tuo browser o antivirus potrebbe segnalare NUSGet come malware, ma è un falso positivo. NUSGet NON contiene malware.
+
+:::
+
+::: tip
+
+Se riesci a connettere vWii a Internet, puoi saltare alla [Sezione II](cios#section-ii---installing-1).
+
+:::
+
+1. Spegni la console, poi inserisci la scheda SD o l'unità USB nel computer.
+
+2. Sul computer, scarica [NUSGet](https://github.com/NinjaCheetah/NUSGet/releases/latest/) scegliendo l'archivio corrispondente al tuo sistema operativo. Per gli utenti Windows, provate `NUSGet-Windows-x86_64-bin.zip`.
+
+3. Estrai l'archivio ed esegui NUSGet.
+
+4. Seleziona la piattaforma `vWii`, poi naviga su `IOS` -> `IOS 38` -> `World` e seleziona `v4380`. Deseleziona `Mantieni contenuti criptati`. Spunta `Cripta titolo usando la Chiave Comune Wii`, poi clicca `Avvia download`.
+
+   ![](/images/desktop-apps/nusget/nusget-4380.png)
+
+5. Ripeti il passaggio sopra per `IOS 56 (v5918)`, `IOS 57 (v6175)` e `IOS 58 (v6432)`.
+
+6. Una volta scaricati gli IOS sopraccitati, clicca sulla cartella accanto ad `Avvia download`. Questo aprirà il gestore file alla cartella download di NUSGet.
+   ![](/images/desktop-apps/nusget/nusget-open-downloads.png)
+
+7. Questa cartella dovrebbe contenerne altre quattro con gli ID degli IOS, come mostrato qui.
+
+   ![](/images/desktop-apps/nusget/nusget-folder-vios.png)
+
+8. Entra in ciascuna cartella, troverai un file `IOS-XX-vXXXX-vWii.wad` in ognuna.
+
+   ![](/images/desktop-apps/nusget/nusget-vios-output.png)
+
+9. Posiziona ogni file WAD nella root della scheda SD o dell'unità USB.
+   - Questa deve essere la stessa unità che contiene d2x cIOS Installer.
+
+10. Assicurati che ogni WAD sia nominato come sotto per compatibilità con d2x-cios-installer-vwii:
+
+    |   IOS  |            Nome del file           |
+    | :----: | :--------------------------------: |
+    | IOS 38 | IOS38-64-v4380.wad |
+    | IOS 56 | IOS56-64-v5918.wad |
+    | IOS 57 | IOS57-64-v6175.wad |
+    | IOS 58 | IOS58-64-v6432.wad |
+
+::: info
+
+I file WAD dovrebbero trovarsi sulla scheda SD in questo modo:
+
+![](/images/desktop-apps/nusget/nusget-vios-on-sd.png)
+
+:::
+
+### Sezione II - Installazione
+
+1. Copia la cartella `apps` dal `.zip` di d2x-cios-installer-vwii nella root della scheda SD o dell'unità USB.
+
+2. Reinserisci la scheda SD o l'unità USB nella console.
 
 3. Accendi la console.
 
@@ -293,13 +350,13 @@ Se stai usando una scheda SD, assicurati che la levetta "Lock" sia nella posizio
 
      ![](/images/cios/d2x_v11_251_vwii.png)
 
-9. Una volta finito di installare tutti e 4 i cIOS, premi B per ritornare all'Homebrew Channel.
+9. Una volta installati tutti e 4 i cIOS, premi B per tornare all'Homebrew Channel.
 
 ---
 
 ::: tip
 
-[Continua con completare l'installazione](vwii-finalizing-setup)
+[Continua col completamento dell'installazione (Wii U)](vwii-finalizing-setup)
 
 Ora che l'Homebrew Channel, Priiloader e i cIOS sono installati, puoi procedere a ripristinare le funzionalità che normalmente sono assenti da un menu vWii standard.
 
@@ -311,36 +368,36 @@ Ora che l'Homebrew Channel, Priiloader e i cIOS sono installati, puoi procedere 
 
 ::: danger
 
-Non provare a installare IOS di Wii o vWii o i loro menu di sistema su Wii mini. Cosi facendo rischierai di [brickare](bricks#ios-brick) la console.
+Non installare gli IOS o il menu di sistema di Wii o vWii su Wii mini. Così facendo rischierai di [brickare](bricks#ios-brick) la console.
 
 :::
 
 ::: warning
 
-Se stai usando una scheda SD, assicurati che la levetta "Lock" sia nella posizione sbloccata. Altrimenti, non sarà disponibile selezionare le opzioni corrette nell'installer.
+Se stai usando una scheda SD, assicurati che la levetta "Lock" sia nella posizione sbloccata. Altrimenti, non sarà possibile selezionare le opzioni corrette nell'installer.
 
 :::
 
 ::: info
 
-Se hai bisogno di assistenza con questo tutorial, unisciti al server Discord [Wii mini Hacking](https://discord.gg/6ryxnkS) (in inglese).
+Se hai bisogno di assistenza con questo tutorial, unisciti al [server Discord di Wii mini Hacking](https://discord.gg/6ryxnkS) (in inglese).
 
 :::
 
 ## Requisiti
 
-- Un Wii mini con l'Homebrew Channel installato
+- Una console Wii mini con l'Homebrew Channel installato
 - Un'unità USB
-- Il [d2xl cIOS Installer](/assets/files/d2xl-cios-installer-mini.zip)
+- [d2xl cIOS Installer](/assets/files/d2xl-cios-installer-mini.zip)
 
 ## Istruzioni
 
-### Sezione I - Download
+### Sezione I - Scaricamento
 
 1. Spegni la console.
-2. Inserisci l'unità USB nel tuo computer.
-3. Copia la cartella `apps` nel `.zip` di d2xl-cios-installer-mini nella root dell'unità USB.
-4. Reinserisci il tuo dispositivo USB nella tua console.
+2. Inserisci l'unità USB nel computer.
+3. Copia la cartella `apps` dal `.zip` di d2xl-cios-installer-mini nella root della scheda SD o dell'unità USB.
+4. Reinserisci l'unità USB nella console.
 5. Accendi la console.
 6. Avvia l'Homebrew Channel.
 7. Avvia dx2l cIOS Installer dalla lista di homebrew.
@@ -359,16 +416,18 @@ Se hai bisogno di assistenza con questo tutorial, unisciti al server Discord [Wi
    ![](/images/cios/d2x_v1_249_mini_NTSC.png)
    ![](/images/cios/d2x_v1_249_mini_PAL.png)
 
-   - Sotto le note, vedrai un numero di versione di IOS che termina in `v31775` o `v31776`. `IOS57-64-v31776` è per console PAL (europee), mentre `IOS57-64-v31775` è per console NTSC (Nord America). Assicurati di star selezionando la versione corretta per la tua console.
+   - Vedrai un numero di versione dell'IOS che termina in `v31775` o `v31776`. `IOS57-64-v31776` è per leconsole PAL (europee), mentre `IOS57-64-v31775` è per le console NTSC (nordamericane). Assicurati di selezionare la versione corretta per la tua console.
 3. Premi A per installare.
-   - Se l'installazione fallisce con un errore `TMD version mismatch`, premi sinistra o destra sulla pulsantiera + sull'opzione `Select cIOS base` finché il numero di versione non sia diverso da quello che hai provato prima. Il numero 57 non cambierà.
-4. Quando il processo è completato, esci dall'installer.
+   - Se l'installazione fallisce con l'errore `TMD version mismatch`, premi sinistra o destra sulla pulsantiera + sull'opzione `Select cIOS base` finché il numero di versione non sarà diverso da quello provato in precedenza. Il numero 57 non cambierà.
+4. Al termine dell'operazione, esci dall'installer.
 
 ---
 
 ::: tip
 
-[Continua con completare l'installazione](mini-finalizing-setup)
+[Continua col completamento dell'installazione (Wii mini)](mini-finalizing-setup)
+
+Ora che l'Homebrew Channel, Priiloader e i cIOS sono installati, puoi procedere a ripristinare le funzionalità che normalmente sono assenti da un menu Wii mini standard.
 
 :::
 

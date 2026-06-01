@@ -33,7 +33,7 @@ NÃO use nenhum dos exemplos de endereços MAC mostrados neste guia, pois eles s
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. Navigate to `Internet` > `Console Information`.
+4. Navigate to `Internet` -> `Console Information`.
 
 5. Anote seu endereço MAC INTEIRO.
 
@@ -77,5 +77,7 @@ NÃO use nenhum dos exemplos de endereços MAC mostrados neste guia, pois eles s
 ::: tip
 
 [Continue para a Instalação do Homebrew Channel e do BootMii](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::

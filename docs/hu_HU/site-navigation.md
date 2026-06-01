@@ -39,11 +39,11 @@
 
 **Moddolás 101 - Wii alapismeretek**
 
-- [BootMii mentés](bootmii)
 - [BootMii helyreállítás](bootmiirecover)
 - [Brick áttekintés](bricks)
 - [Brick megelőzés](bricks#brick-prevention)
 - [cIOS](cios)
+- [NAND mentés készítése (Wii)](nand-backup)
 - [Homebrew Channel](hbc)
 - [ModMii](modmii)
 - [Open Shop Channel](osc)
@@ -78,9 +78,9 @@
 
 **vWii**
 
-- [Wii U NAND dump készítése](wiiu-nand-dumper)
+- [NAND mentés készítése (Wii U)](wiiu-nand-dumper)
+- [Telepítés véglegesítése (Wii U)](vwii-finalizing-setup)
 - [A Homebrew Channel telepítése a vWii-re](vwii-homebrew-channel)
-- [Telepítés véglegesítése — vWii](vwii-finalizing-setup)
 
 :::
 
@@ -88,7 +88,6 @@
 
 **Wii mini**
 
-- [Wii mini NAND Dumper](wnd-mini)
-- [Telepítés véglegesítése — Wii mini](mini-finalizing-setup)
+- [Telepítés véglegesítése (Wii mini)](mini-finalizing-setup)
 
 :::

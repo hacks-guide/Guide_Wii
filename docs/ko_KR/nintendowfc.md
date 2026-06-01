@@ -1,6 +1,6 @@
 # 닌텐도 DS Wi-Fi 설정으로 이동합니 온라인에서 플레이하려는 게임 내에서 접속할 수 있습니다.
 
-<a href="https://wiimmfi.de">Wiimmfi</a>는 현재 사용되지 않는 닌텐도 Wi-Fi 연결을 대체하는 서비스입니다. Wiimm과 Leseratte가 개발했습니다. This service was discontinued in 2013, but there are reverse-engineered servers that you can connect to which restore this functionality. This guide provides details on two trusted services, WiiLink WFC and Wiimmfi - for most users, we recommend Wiimmfi for their larger userbase (especially with Mario Kart Wii).
+<a href="https://wiimmfi.de">Wiimmfi</a>는 현재 사용되지 않는 닌텐도 Wi-Fi 연결을 대체하는 서비스입니다. Wiimm과 Leseratte가 개발했습니다. This service was discontinued in 2014, but there are reverse-engineered servers that you can connect to which restore this functionality. This guide provides details on two trusted services, WiiLink WFC and Wiimmfi. For most users, we recommend Wiimmfi because of its larger userbase (especially for Mario Kart Wii).
 
 ## WiiLink WFC
 
@@ -111,7 +111,7 @@ USB Loader GX 또는 WiiFlow Lite의 최신 버전에서 게임 백업을 자동
 
 #### 지침
 
-1. Go to `Wii Settings` > `Internet` > `Connection Settings` and select whatever connection you are using. Then, `Change Settings` > `Auto-Obtain DNS NO` > `Advanced Settings`. 기본 DNS를 `95.217.77.181`로 설정하고 보조 DNS를 `1.1.1.1`로 설정합니다.
+1. Go to `Wii Settings` -> `Internet` -> `Connection Settings` and select whatever connection you are using. Then, `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. 기본 DNS를 `95.217.77.181`로 설정하고 보조 DNS를 `1.1.1.1`로 설정합니다.
 2. 연결 테스트가 완료될 때까지 Wii 시스템 업데이트를 실행하지 않습니다.
 3. 디스크 채널을 통해 게임을 실행합니다. 이제 Wiimmfi 패치가 적용되었을 것입니다.
 
@@ -156,7 +156,7 @@ If you get error `23400`, your ISP or network is blocking the use of a custom DN
 
 1. 게임 디스크를 넣습니다.
 
-2. `Wii 설정 > 인터넷 > 연결 설정`으로 가서 현재 사용하고 있는 연결을 선택합니다. 그런 다음 `설정 변경 > 자동 획득 DNS 없음 > 고급 설정`을 선택합니다. 기본 DNS를 `95.217.77.151`로 설정하고 보조 DNS를 `1.1.1.1`로 설정합니다.
+2. Go to `Wii Settings` -> `Internet` -> `Connection Settings` and select whatever connection you are using. Then, `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. 기본 DNS를 `95.217.77.151`로 설정하고 보조 DNS를 `1.1.1.1`로 설정합니다.
 
    ![](/images/wiimmfi/dns-str2hax-wiimmfi.png)
 

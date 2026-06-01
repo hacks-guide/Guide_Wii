@@ -1,52 +1,52 @@
 # Loader di backup Wii
 
-Questa guida introduce i loader di backup Wii. Il loro utilizzo principale è quello di caricare i backup di giochi da SD o USB che sono stati dumpati da un disco di gioco. A seconda del loader, potrebbero anche esserci estensioni che consente al suo utilizzo come frontend per giochi diversi da Wii. I due loader più comunamente utilizzati sono USB Loader GX e WiiFlow Lite (una mod di WiiFlow aggiornata regolarmente) - un loader potrebbe funzionare meglio dell'altro per te, quindi vale la pena di provarli entrambi.
+Questa guida introdurrà sui loader di backup per Wii. Il loro uso principale è quello di caricare i backup dei giochi di cui erano stati effettuati il dump sulla scheda SD o sull'unità USB da un disco di gioco. In base al loader, potrebbero esserci delle estensioni che gli permettono di funzionare anche con giochi diversi da quelli per Wii. I due loader più comunemente usati sono USB Loader GX e WiiFlow Lite (una versione modificata di WiiFlow, aggiornata regolarmente). Un loader potrebbe funzionare meglio dell'altro per te, quindi vale la pena provarli entrambi.
 
 ::: warning
 
-Per far in modo che il loader Wii funzioni correttamente, è necessario aver installato gli ultimi cIOS. Controlla [questa](cios) per istruzioni se sei su Wii, e [questa](cios-mini) guida se sei su Wii mini.
+Per far funzionare correttamente i loader, è necessario installare gli ultimi cIOS. Controlla [questa](cios) guida per le istruzioni se sei su Wii, e [questa](cios-mini) se sei su Wii mini.
 
 :::
 
 ::: info
 
-Per giocare ai giochi, si consiglia di utilizzare una scheda SD di grandi dimensioni o un hard drive esterno, poiché le unità flash non sono consigliate e sono molto sporadiche in funzionalità. Vedi le [domande frequenti sull'archiviazione](faq).
+Si consiglia di utilizzare una scheda SD di grandi dimensioni o un disco rigido esterno, in quanto le chiavette USB non sono consigliate e sono molto sporadiche in funzionalità. Vedi le [domande frequenti sull'archiviazione](faq).
 
 :::
 
 ::: info
 
-L'installer del forwarder per WiiFlow Lite può essere trovato su [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Avvia l'app dal canale Homebrew per installare il forwarder. Il forwarder ufficiale di USB Loader GX può essere trovato su [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad). Puoi installarlo con [YAWM ModMii Edition](yawmme).
+L'installer ufficiale del forwarder di WiiFlow Lite può essere trovato su [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Per installarlo, avvia l'app dal'Homebrew Channel. Il forwarder ufficiale di USB Loader GX può essere trovato su [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad). Usa [YAWM ModMii Edition](yawmme) per installarlo.
 
 :::
 
 ## Differenze tra WiiFlow Lite e USB Loader GX
 
-- WiiFlow Lite ha un'interfaccia utente più avanzata per quanto riguarda le animazioni e gli effetti e supporta i temi.
+- WiiFlow Lite ha un'interfaccia più avanzata dal punto di vista delle animazioni e degli effetti, e supporta anche i temi.
 
-  - Le schede SD sono interamente compatibili per il caricamento dei giochi Wii su WiiFlow Lite.
-  - WiiFlow Lite ha un sistema di plugin.
-  - Mentre il WiiFlow originale è stato aggiornato per l'ultima volta nel 2014, il fork WiiFlow Lite riceve tutt'ora aggiornamenti regolari.
+  - Le schede SD sono supportate per il caricamento dei giochi.
+  - Dispone di un sistema di plugin.
+  - Mentre il WiiFlow originale non viene aggiornato dal 2014, il fork WiiFlow Lite riceve tuttora aggiornamenti regolari.
 
   ![](/images/usb-loaders/wiiflow-ui.png)
 
-- USB Loader GX è principalmente basato sul menu Wii e supporta i temi.
+- USB Loader GX ha un'interfaccia più simile al menu Wii, e supporta anche i temi.
 
-  - Anche se in passato le schede SD non erano supportate per i giochi Wii su USB Loader GX, recenti aggiornamenti hanno introdotto il loro supporto per questo loader.
-  - USB Loader GX non ha un sistema di plugin.
-  - USB Loader GX riceve ancora aggiornamenti regolari.
+  - Anche se in passato le schede SD non erano supportate, gli aggiornamenti recenti hanno introdotto il loro supporto.
+  - Non dispone di un sistema di plugin.
+  - Riceve tuttora aggiornamenti regolari.
 
   ![](/images/usb-loaders/usbloadergx-ui.png)
 
 ## Struttura della cartella dei giochi
 
-Di seguito è riportato un esempio di WBFS singolo e WBFS diviso. Un WBFS deve essere separato se supera i 4GB e il tuo dispositivo di archiviazione è formattato in FAT32. Software come [TinyWiiBackupManager](backups#using-tinywiibackupmanager) possono farlo al posto tuo, importando automaticamente la struttura delle cartelle corretta.
+Di seguito, un esempio di un WBFS singolo e di un WBFS diviso. Un WBFS deve essere diviso se supera i 4GB e il dispositivo di archiviazione è formattato in FAT32. Software come [TinyWiiBackupManager](backups#using-tinywiibackupmanager) possono farlo al posto tuo, impostando automaticamente la struttura delle cartelle corretta.
 
 ```shell
 💾 Scheda SD o Unità USB
  ┗ 📂wbfs
     ┣ 📂NomeGioco [IdGioco]
-    ┃  ┗ 📜idgioco.wbfs (per titoli non separati)
+    ┃  ┗ 📜idgioco.wbfs (per titoli non divisi)
     ┗ 📂NomeGioco [IdGioco]
        ┣ 📜idgioco.wbfs
        ┗ 📜idgioco.wbf1
@@ -62,46 +62,46 @@ Di seguito è riportato un esempio di WBFS singolo e WBFS diviso. Un WBFS deve e
 
 ### Installazione
 
-1. Scarica WiiFlow e installalo nella tua scheda SD o unità USB.
+1. Scarica WiiFlow e installalo nella scheda SD o nell'unità USB.
 
 ### Guida rapida
 
 #### Generale
 
-- Per impostazione predefinita, WiiFlow cerca solo per i giochi su scheda SD. Questo può essere cambiato andando su `Settings > Startup Settings` e disattivando `Mount SD Only`.
-- Puoi cambiare la visuale attuale su WiiFlow tra plugin, giochi, homebrew e canali Wii cliccando il pulsante alla destra di `Home`, in basso a destra.
-- Puoi scaricare le copertine dei giochi andando su `Settings` > `Download Covers and Banners`.
+- Per impostazione predefinita, WiiFlow cerca i giochi solo sulla scheda SD. Per modificarla, vai  su `Impostazioni` -> `Impostazioni d'avvio` e disattiva `Monta solo SD`.
+- Per cambiare la visualizzazione attuale tra plugin, giochi, homebrew e canali Wii, clicca sul pulsante alla destra di `Home`, in basso a destra.
+- Puoi scaricare le copertine dei giochi andando su `Impostazioni` -> `Scarica copertine e banner`.
 
 #### Interfaccia utente
 
-Quando WiiFlow rileva i giochi, vengono visualizzati in una vista a flusso.
+Quando WiiFlow rileva i giochi, questi vengono visualizzati in una vista a flusso.
 
-Quando clicchi su un gioco, ti vengono date queste opzioni:
+Quando clicchi su un gioco, ti vengono date le seguenti opzioni:
 
-- Stella - Aggiunge il gioco ai preferiti.
-- Libreria - Aggiunge il gioco a una di sei categorie di vostra scelta.
-- Ingranaggi - Apre il menu impostazione per il gioco - queste impostazioni sono uniche per quel gioco e solo quel gioco.
-- X - Elimina il gioco dall'unita USB o scheda SD.
+- Stella: aggiunge il gioco ai preferiti.
+- Archivio: aggiunge il gioco a una delle sei categorie a tua scelta.
+- Ingranaggio: apre il menu delle impostazioni del loader per il gioco specifico.
+- X: elimina il gioco dalla scheda SD o dall'unita USB.
 
-Quando sposti il cursore verso l'area in basso dello schermo mentre sei nella vista flow, ci sono sei icone:
+Quando sposti il cursore verso l'area in basso senza aver cliccato su un gioco, vedrai sei icone:
 
-- Libreria - Visualizza i giochi che sono stati aggiunti nelle categorie che hai scelto.
-- Stella - Visualizza i giochi preferiti.
-- Ingranaggi - Apre le impostazioni di WiiFlow.
-- Tipo di gioco - Cambia tra i diversi tipi di app/giochi. Il logo cambia in base a quale tipo di gioco hai selezionato.
-- Disco - Carica un gioco inserito nello slot disco.
-- Casa - Apre il menu mostrato di seguito. Il menu può anche essere aperto premendo il pulsante HOME.
+- Archivio: mostra i giochi ordinati in base alle categorie che hai scelto.
+- Stella: mostra i giochi che hai aggiunto ai preferiti.
+- Ingranaggi: apre le impostazioni di WiiFlow.
+- Piattaforma: mostra i giochi della piattaforma indicata dal logo. Il logo cambia in base alla piattaforma selezionata.
+- Disco: carica il gioco inserito nel lettore disco.
+- Casa: apre il menu mostrato di seguito. Può anche essere avviato premendo il pulsante HOME.
 
 ![](/images/usb-loaders/wiiflow-menu.png)
 
-- Comandi - Mostra tutti i comandi che puoi usare su WiiFlow.
-- Ricarica Cache - Premi questo pulsante per consentire a WiiFlow di rilevare giochi nell'unità USB o scheda SD.
-- Esplora File - Ti consente di esplorare i percorsi nell'unità USB o scheda SD e selezionare un gioco o eseguibile.
-- Seleziona plugin - Ti consente di selezionare i plugin.
-- Crediti - Mostra un elenco delle persone che hanno lavorato su WiiFlow.
-- Spegni - Ti consente di effettuare uno spegnimento completo o di entrare in modalità standby.
-- Esci a - Ti consente di uscire al menu Wii, Homebrew Channel, neek2o, Priiloader o BootMii.
-- Impostazioni - Apre il menu delle impostazioni globali di WiiFlow.
+- Guida: mostra tutti i comandi disponibili su WiiFlow.
+- Ricarica: aggiorna la lista dei giochi dall'unità USB o dalla scheda SD.
+- Esplora: apre un menu dal quale è possibile selezionare il gioco o l'eseguibile direttamente dall'unità USB o dalla scheda SD.
+- Plugin: apre il menu dei plugin, potendoli selezionare.
+- Crediti: mostra un elenco di tutte le persone che hanno lavorato a WiiFlow.
+- Pulsante di spegnimento: apre un menu dal quale è possibile spegnere la console o metterla in standby.
+- Esci: apre un menu dal quale è possibile tornare al menu Wii, all'Homebrew Channel, a neek2o, a Priiloader o a BootMii.
+- Ingranaggi: apre le impostazioni globali di WiiFlow.
 
 ## USB Loader GX
 
@@ -113,76 +113,76 @@ Quando sposti il cursore verso l'area in basso dello schermo mentre sei nella vi
 
 ### Installazione
 
-1. Assicurati che la tua console Wii abbia già i cIOS 248-251 installati - puoi controllarli con applicazioni tipo [SysChecker](syscheck) o d2x cIOS installer.
-2. Scarica USB Loader GX e installalo nella tua scheda SD o unità USB.
+1. Assicurati che la console abbia già installati i cIOS da 248 a 251; puoi verificarlo con applicazioni come [SysChecker](syscheck) o d2x cIOS installer.
+2. Scarica USB Loader GX e installalo nella scheda SD o nell'unità USB.
 
 ### Guida rapida
 
 #### Generale
 
-- Se USB Loader GX dice "Waiting for HDD..." con un conto alla rovescia di 20 secondi, è molto probabile che non riesce a rilevare l'unità USB. Prova a chiudere l'app, assicurati che l'unità USB sia connessa nella porta inferiore se la console è posta orizzontalmente o la porta più vicina al bordo è posta verticalmente. Può ache essere che l'unità sia formattata incorrettamente. Assicurati che la tua unità USB sia formattata in FAT32 con la tabella di partizione MBR e un'allocazione unità/dimensione cluster di 32kb (32768 byte).
-- Puoi premere il pulsante 1 sul tuo telecomando Wii per aprire una finestra di dialogo che ti permette di scaricare le copertine e gli artwork da [GameTDB](https://gametdb.com/). In base alla quantità di giochi in tuo possesso, potrebbe volerci un po' di tempo purché le copertine e artwork si scarichino.
-- I giochi GameCube o giochi Wii "custom" potrebbero o meno avere banner personalizzati che USB Loader GX utilizzerà. Per attivarli, trova o scrivi `CustomBannersURL = http://banner.rc24.xyz/` nel file `config/GXGlobal.cfg` sull'unità in cui l'app è installata. Poi puoi utilizzare `Custom Banner` premendo 1 sul tuo telecomando Wii.
+- Se USB Loader GX riporta "Waiting for HDD..." con un conto alla rovescia di 20 secondi, è probabile che non riesca a rilevare l'unità USB. Prova a chiudere l'app e assicurati che l'unità USB sia connessa alla porta inferiore (se la console è posta orizzontalmente) o alla porta più vicina al bordo (se è posta verticalmente). Potrebbe anche essere che l'unità sia formattata in modo errato. Assicurati che l'unità USB sia formattata in FAT32 con la tabella di partizione MBR e un'unità di allocazione o dimensione del cluster di 32kb (32768 byte).
+- Puoi premere il pulsante `1` sul telecomando Wii per aprire una finestra di dialogo dalla quale è possibile scaricare le copertine e gli artwork da [GameTDB](https://gametdb.com/). Potrebbe volerci molto tempo, in base al numero di giochi che hai.
+- I giochi GameCube o quelli "non ufficiali" per Wii potrebbero avere o meno dei banner personalizzati che USB Loader GX utilizzerà. Per attivarli, cerca o scrivi `CustomBannersURL = http://banner.rc24.xyz/` nel file `config/GXGlobal.cfg` sull'unità in cui è installata l'app. Poi, puoi scaricare i `Banner personalizzati` premendo `1` sul telecomando Wii.
 
 #### Interfaccia utente
 
-Al centro della parte inferiore dello schermo, puoi vedere quanto spazio è libero nella tua unità USB e la quantità di giochi installati.
+Al centro della parte inferiore dello schermo, puoi vedere lo spazio libero sull'unità USB e il numero di giochi installati.
 
-Queste sono le funzioni dei pulsanti che vedi nella barra nella parte alta dello schermo, da sinistra a destra:
+Queste sono le funzioni dei pulsanti che vedi nella barra nella parte alta dello schermo, da sinistra verso destra:
 
-- Stella - Mostra i giochi che hai contrassegnato come "preferiti".
-- Cerca - Ti consente di cercare i giochi per nome.
-- Ordina - Cambia tra i metodi di ordinamento per i giochi.
-- Piattaforma - Ordina i giochi in base alla piattaforma.
-- Categoria - Ordina i giochi per categoria.
-- Elenco - Mostra i giochi in una visuale elenco.
-- Visuale più copertine - Mostra i giochi in una visuale con più copertine.
-- Visuale carosello - Mostra i giochi in una visuale a carosello.
-- Visuale menu Wii - Mostra i giochi in una visuale tipo menu Wii.
-- Controllo Genitori - Blocca USB Loader GX.
-- Disco - Carica un gioco inserito nello slot disco.
+- Stella: mostra i giochi che hai aggiunto ai preferiti.
+- Lente: consente di cercare i giochi in base al nome.
+- Ordina: cambia l'ordine dei giochi.
+- Piattaforma: ordina i giochi in base alla piattaforma.
+- Archivio: ordina i giochi in base alla categoria.
+- Elenco: visualizza i giochi in un elenco.
+- Copertine: visualizza i giochi in più copertine.
+- Carosello: visualizza i giochi in un carosello.
+- Canali: visualizza i giochi come nel menu Wii.
+- Lucchetto: blocca USB Loader GX.
+- Disco: carica il gioco inserito nel lettore disco.
 
-Ci sono anche altri pulsanti nella parte inferiore dello schermo:
+Ci sono anche altri pulsanti presenti nella parte inferiore dello schermo:
 
-- Icona (+) "Installa" un gioco, cioè caricarlo dal disco e dumparlo sull'unità di archiviazione predefinita.
-- Ingranaggi - Impostazioni globali di USB Loader GX.
-- Scheda SD - Rimonta la scheda SD.
-- Homebrew - Carica app homebrew.
-- Wii - Apri il Menu HOME.
-- Pulsante Power - Spegni il tuo Wii.
+- +: "installa" un gioco, ovvero lo carica dal disco e ne effettua il dump sull'archiviazione predefinita.
+- Ingranaggi: apre le impostazioni globali di USB Loader GX.
+- Scheda SD: rimonta la scheda SD.
+- Homebrew: carica le app homebrew.
+- Wii: apre il menu HOME.
+- Pulsante di spegnimento: spegne la console
 
 ## Risoluzione dei problemi
 
-Alcuni giochi richiedono specifici cIOS per funzionare oppure per utilizzare certe funzioni nel gioco.
-Alcuni esempio includono:
+Alcuni giochi richiedono specifici cIOS per funzionare o per utilizzare determinate funzioni.
+Alcuni esempi includono:
 
-- Usare una tastiera in Animal Crossing: Let's Go To The City.
+- Usare una tastiera in Animal Crossing: Let's Go to the City.
 - Avviare SpongeBob's Boating Bash.
 - Usare un dongle USB in Rock Band.
 
 Una lista più comprensiva (anche se ancora incompleta) può essere trovata [su GBAtemp](https://wiki.gbatemp.net/wiki/Wii_cIOS_base_Compatibility_List).
 
-Sia USB Loader GX che WiiFlow Lite sono programmati per trovare in automatico il miglior cIOS da usare e usarlo per caricare il gioco con le impostazioni predefinite.  Tuttavia, se per qualche motivo questi loader scelgonoo il cIOS da usare sbagliato, hai l'opzione per cambiarlo manualmente.
+Sia USB Loader GX che WiiFlow Lite sono programmati per individuare automaticamente il miglior cIOS da utilizzare e caricare il gioco con le impostazioni predefinite.  Tuttavia, se per qualche motivo questi loader scegliessero il cIOS sbagliato, hai l'opzione di cambiarlo manualmente.
 
-Per cambiare il cIOS utilizzato per un gioco specifico, segui le istruzioni adatte al tuo loader USB:
+Per cambiarlo per un gioco specifico, segui le istruzioni relative all'USB loader che usi:
 
 ### USB Loader GX
 
 1. Seleziona il gioco che non funziona.
 2. Clicca su Impostazioni.
-3. Seleziona `Game Load`.
-4. Scendi fino a `Game IOS`.
+3. Seleziona `Caricamento gioco`.
+4. Scendi fino a `IOS gioco`.
 5. Seleziona lo slot IOS da usare.
-   - Prova ad usare 248, 249, 250 o 251.
-6. Premi OK e prova a caricare il gioco.
+   - Prova con 248, 249, 250 o 251.
+6. Premi `OK` e prova a caricare il gioco.
 
 ### WiiFlow Lite
 
 1. Seleziona il gioco che non funziona.
-2. Clicca sull'icona degli ingranaggi.
-3. Vai su cIOS e usa le frecce per cambiare lo slot IOS da usare.
-   - Prova ad usare 248, 249, 250 o 251.
-4. Premi Salva e prova a caricare il gioco.
+2. Clicca sull'icona dell'ingranaggio.
+3. Vai su `cIOS` e usa le frecce per cambiare lo slot da usare.
+   - Prova con 248, 249, 250 o 251.
+4. Premi `Salva` e prova a caricare il gioco.
 
 ---
 

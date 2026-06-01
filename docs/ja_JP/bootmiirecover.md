@@ -4,7 +4,9 @@
 
 Please read the information below before proceeding further.
 
-:::info Important Information
+::: info
+
+**Important Information**
 
 - Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. Wii Family EditionではIOS版のBootMiiでNANDをリストアするときに必要となるGCコントローラー挿入口が削除されているからです。 For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
@@ -36,16 +38,16 @@ Please read the information below before proceeding further.
 
 If you would like to restore individual data from your NAND backup, a much safer and faster way to do this using Dolphin Emulator.
 
-ゲームのセーブデータを復元したい場合は、DolphinでNANDバックアップを読み込み、ツール→全てのWiiセーブデータをエクスポートで書き出し、SDカードにコピーします。 In Dolphin, go to `File` > `Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
+ゲームのセーブデータを復元したい場合は、DolphinでNANDバックアップを読み込み、ツール→全てのWiiセーブデータをエクスポートで書き出し、SDカードにコピーします。 In Dolphin, go to `File` -> `Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
 
-If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools` > `Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
+If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools` -> `Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
 
-## Requirements
+## 必要なもの
 
 - A Wii with BootMii as IOS or BootMii as boot2 installed
-- An earlier NAND Backup for your specific Wii made by [BootMii](bootmii)
+- An earlier NAND Backup for your specific Wii made by [BootMii OR nanddumper@ios](nand-backup)
 
-## Instructions
+## 実行方法
 
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 

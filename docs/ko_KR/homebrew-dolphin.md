@@ -10,7 +10,7 @@
 
 ## 지침
 
-1. 아직 설치하지 않았다면 돒핀 에뮬레이터에서 `도구 > 시스템 업데이트 수행`으로 가서 Wii 메뉴를 설치합니다.
+1. If you have not already done so, install the Wii Menu on Dolphin Emulator by going to `Tools` -> `Perform System Update`.
 
    ![](/images/homebrew-dolphin/system-update.png)
 
@@ -18,11 +18,11 @@
 
 3. 돌핀 에뮬레이터 열기
 
-4. Select `Tools` > `Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
+4. Select `Tools` -> `Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
 
    ![](/images/homebrew-dolphin/ohbc-file.png)
 
-5. Select `Tools` > `Load Wii System Menu`. 이제 채널이 나타날 것입니다.
+5. Select `Tools` -> `Load Wii System Menu`. 이제 채널이 나타날 것입니다.
 
    ![](/images/homebrew-dolphin/hbc-installed.png)
 
@@ -30,7 +30,7 @@
 
 1. Download the Open Shop Channel [on the OSC website](https://oscwii.org/library/app/homebrew_browser) for usage in Dolphin. 혹은 OSCDL을 설치하여 수동으로 이 과정을 진행할 수 있습니다.
 
-2. Stop the emulation (if running), and open the `Config` > `Wii` window in Dolphin Emulator.
+2. Stop the emulation (if running), and open the `Config` -> `Wii` window in Dolphin Emulator.
 
 3. `폴더와 자동으로 동기화`를 활성화합니다. 선택적으로 `SD 카드 파일 크기`를 더 큰 매개변수로 조정할 수도 있습니다. 그러나 대부분의 경우 `자동`으로 충분합니다.
 

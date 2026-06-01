@@ -1,30 +1,96 @@
-# Finalizing Setup — Wii mini
+# Finalizing Setup (Wii mini)
 
-이제 홈브류 채널, Priiloader, cIOS가 설치되었으니 설정을 마무리합니다.
+Now that the Homebrew Channel, Priiloader, and cIOS are installed, we are going to finalize setup for your Wii mini by installing crucial apps to restore various missing functionalities of the Wii mini menu compared to a normal console. It is recommended that you download all homebrew listed below onto your storage device BEFORE starting the listed steps to save time.
 
-## 추가 홈브류 앱
+## Wii mini Ethernet Enable
 
-::: info
+Wii mini Ethernet Enable is a homebrew app that patches your Wii mini to support wired Ethernet adapters, allowing your console to connect to the internet where previously impossible. Only adapters with the `ASIX AX88772` chipset are supported on the Wii mini. Additionally, homebrew apps that need internet will require the use of a USB hub, as the console only has a singular USB port.
 
-모든 홈브류 앱은 홈브류 채널에서 로드됩니다.
+### 요구 사항
 
-:::
+- USB 드라이브
+- [Wii mini Ethernet Enable](https://oscwii.org/library/app/Wii_Mini_Ethernet_Enable)
 
-- 이더넷 활성기는 Wii 미니에서 USB 이더넷 어댑터를 사용할 수 있도록 해줍니다. Wii 미니에서는 ASIX AX88772 칩셋이 탑재된 어댑터만 지원됩니다. Additionally, homebrew apps that need internet will require the use of a USB hub, preferably one that can be externally powered.
-- 시스템 채널 복구기는 Wii에서만 시청 가능한 일부 채널을 Wii 미니에 쉽게 설치할 수 있도록 해주는 홈브류 앱입니다.
-- Settings Editor GUI is an app that allows access to system settings without booting the Wii Menu. Wii 미니에서는 일반적으로 Wii 미니 시스템 메뉴에 나타나지 않는 설정에 접근할 수 있습니다.
+### 지침
 
-## 추가 홈브류 앱 - 필요한 것
+1. Copy the `apps` folder in the `Wii_Mini_Ethernet_Enable.zip` file to the root of your USB drive.
 
-- [이더넷 활성기](https://oscwii.org/library/app/Wii_Mini_Ethernet_Enable)
-- [system-channel-restorer](https://oscwii.org/library/app/system-channel-restorer)
-- [설정 편집기 GUI](https://oscwii.org/library/app/Settings-Editor-GUI)
+2. Reinsert USB drive into your console.
 
-## 추가 홈브류 앱 - SD 카드로 파일 추출
+3. Launch the Homebrew Channel, and launch the Load Priiloader app.
 
-1. 이더넷 활성기의 내용을 SD 카드 루트 폴더에 복사하세요.
-2. system-channel-restorer의 내용을 SD 루트에 복사합니다.
-3. 설정 편집기 GUI의 내용을 SD 카드 루트 폴더에 복사하세요.
+4. Launch Wii Mini Ethernet Enable from the list of homebrew.
+
+   ![](/images/wii-mini/ethernet-enabler/launch-hb.png)
+
+5. The application will launch and should output `OK.` after attempting to enable Ethernet usage on your Wii mini. After this, press the `HOME` button on your Wii remote to exit the app.
+
+   ![](/images/wii-mini/ethernet-enabler/success.png)
+
+## System Channel Restorer
+
+System Channel Restorer is a homebrew app that restores channels missing from the Wii mini menu normally, such as the Wii version of the Mii Channel and Photo Channel.
+
+### 요구 사항
+
+- SD 카드 및 USB 드라이브
+- An Internet connection
+- [System Channel Restorer](https://oscwii.org/library/app/system-channel-restorer)
+
+### 지침
+
+1. Copy the `apps` folder in the `system-channel-restorer.zip` file to the root of your USB drive.
+
+2. Wii에 SD 카드를 연결하고, 홈브류 채널에서 CleanRip을 실행합니다.
+
+3. Launch the Homebrew Channel, and launch the Load Priiloader app.
+
+4. Launch System Channel Restorer from the list of homebrew.
+
+   ![](/images/wii-mini/sys-channel-restore/launch-hb.png)
+
+5. The installer will launch. If you receive **-3 Failed to initialize network**, ensure that your Ethernet adapter is connected properly. Most users will want to select the following channels, unless you prefer to install additional channels:
+
+   - EULA
+   - Mii Channel
+
+   ![](/images/wii-mini/sys-channel-restore/channel-select.png)
+
+6. Once all channels are selected, press the `+` button to begin installation.
+
+   ![](/images/wii-mini/sys-channel-restore/install.png)
+
+7. Once installation has finalized, you may return to the Homebrew Channel by pressing the HOME button.
+
+## Accepting the EULA
+
+In order to use features like WiiConnect24, you must accept the Wii User Agreement (EULA). This can normally only be done through the Wii Settings app or the Wii Shop Channel, however you can download a forwarder to launch the EULA from the Homebrew Channel.
+
+### 요구 사항
+
+- USB 드라이브
+- [EULA Loader NTSC](/assets/files/EULA_Loader_NTSC.zip)
+- [EULA Loader PAL](/assets/files/EULA_Loader_PAL.zip)
+
+### 지침
+
+1. Download the forwarder above that matches the region of your Wii mini console. The forwarder will not work if you download the incorrect region.
+
+2. Copy the `apps` folder in the `EULA_Loader_XXX.zip` file to the root of your USB drive.
+
+3. Launch the Homebrew Channel, and launch the Load Priiloader app.
+
+4. Launch EULA Loader (your region) from the list of homebrew.
+
+   ![](/images/wii-mini/eula-forwarder/launch-hb.png)
+
+5. The EULA will launch. Press the Next button to proceed.
+
+   ![](/images/wii-mini/eula-forwarder/eula-start.png)
+
+6. Press I ACCEPT to accept the EULA. You will be returned to the Wii Menu afterwards.
+
+   ![](/images/wii-mini/eula-forwarder/eula-accept.png)
 
 ---
 

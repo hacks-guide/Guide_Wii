@@ -10,7 +10,7 @@ Sur Dolphin Emulator version `5.0-4588` ou ultérieur, le Menu Wii peut être fa
 
 ## Instructions
 
-1. Si vous ne l'avez pas déjà fait, installez le Menu Wii sur Dolphin Emulator en allant dans `Outils > Effectuer une mise à jour en ligne`.
+1. If you have not already done so, install the Wii Menu on Dolphin Emulator by going to `Tools` -> `Perform System Update`.
 
    ![](/images/homebrew-dolphin/system-update.png)
 
@@ -18,11 +18,11 @@ Sur Dolphin Emulator version `5.0-4588` ou ultérieur, le Menu Wii peut être fa
 
 3. Ouvrez Dolphin Emulator.
 
-4. Select `Tools` > `Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
+4. Select `Tools` -> `Install WAD` and select the `Open_HBC_(version)_LULZ.wad` file that was downloaded.
 
    ![](/images/homebrew-dolphin/ohbc-file.png)
 
-5. Select `Tools` > `Load Wii System Menu`. La chaîne devrait maintenant apparaître.
+5. Select `Tools` -> `Load Wii System Menu`. La chaîne devrait maintenant apparaître.
 
    ![](/images/homebrew-dolphin/hbc-installed.png)
 
@@ -30,7 +30,7 @@ Sur Dolphin Emulator version `5.0-4588` ou ultérieur, le Menu Wii peut être fa
 
 1. Download the Open Shop Channel [on the OSC website](https://oscwii.org/library/app/homebrew_browser) for usage in Dolphin. Vous pouvez également télécharger OSCDL et faire ce processus manuellement.
 
-2. Stop the emulation (if running), and open the `Config` > `Wii` window in Dolphin Emulator.
+2. Stop the emulation (if running), and open the `Config` -> `Wii` window in Dolphin Emulator.
 
 3. Activez `Synchroniser automatiquement avec le dossier`. Vous pouvez également ajuster la `taille du fichier de carte SD` à un paramètre plus grand - cependant, dans la plupart des cas, `Auto` devrait suffire.
 

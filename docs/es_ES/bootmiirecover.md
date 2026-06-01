@@ -4,7 +4,9 @@ Esta guía te proporcionará instrucciones sobre cómo restaurar una copia de se
 
 Please read the information below before proceeding further.
 
-:::info Important Information
+::: info
+
+**Important Information**
 
 - Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. Esto se debe a la falta de puertos de GameCube que son necesarios en las consolas Wii sin compatibilidad Boot2 para introducir el código de confirmación. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
@@ -36,16 +38,16 @@ Please read the information below before proceeding further.
 
 If you would like to restore individual data from your NAND backup, a much safer and faster way to do this using Dolphin Emulator.
 
-Por ejemplo, si quieres restaurar los datos del tablón de Wii, utiliza Dolphin para importar la copia de seguridad de la NAND. In Dolphin, go to `File` > `Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
+Por ejemplo, si quieres restaurar los datos del tablón de Wii, utiliza Dolphin para importar la copia de seguridad de la NAND. In Dolphin, go to `File` -> `Open User Folder`, and find `Wii/title/00000001/00000002/data/cdb.vff`, copy it to your SD card, and use [WiiXplorer](https://oscwii.org/library/app/wiixplorer) to restore it in the corresponding location.
 
-If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools` > `Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
+If you want to restore a game's save data, use Dolphin to import your NAND backup, use `Tools` -> `Export All Wii Saves` to export all your saves to your SD card, and use Data Management to move it to your Wii.
 
-## Requirements
+## Otras cosas
 
 - A Wii with BootMii as IOS or BootMii as boot2 installed
-- An earlier NAND Backup for your specific Wii made by [BootMii](bootmii)
+- An earlier NAND Backup for your specific Wii made by [BootMii OR nanddumper@ios](nand-backup)
 
-## Instructions
+## Instrucciones (para Wii)
 
 1. Launch the Homebrew Channel, and launch the Load Priiloader app.
 

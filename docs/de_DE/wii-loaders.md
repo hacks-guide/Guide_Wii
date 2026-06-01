@@ -56,7 +56,7 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ### Requirements
 
-- Eine Wii
+- Wii Themer
 - The latest version of [cIOS](cios)
 - [WiiFlow](https://oscwii.org/library/app/wiiflow)
 
@@ -68,9 +68,9 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 #### General
 
-- WiiFlow by default is set to only find games on the SD card. This can be changed by going to `Settings > Startup Settings` to then turn off `Mount SD Only`.
+- WiiFlow by default is set to only find games on the SD card. This can be changed by going to `Settings` -> `Startup Settings` to then turn off `Mount SD Only`.
 - You can toggle the current view in WiiFlow between plugins, games, homebrew, and Wii channels by clicking the button to the left of `Home`, on the bottom right.
-- You can download game covers by going to `Settings` > `Download Covers and Banners`.
+- You can download game covers by going to `Settings` -> `Download Covers and Banners`.
 
 #### User Interface
 
@@ -107,7 +107,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ### Requirements
 
-- Eine Wii
+- Wii Themer
 - The latest version of [cIOS](cios)
 - [USB Loader GX](https://github.com/wiidev/usbloadergx/releases)
 

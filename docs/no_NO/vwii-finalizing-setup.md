@@ -1,4 +1,4 @@
-# Finalizing Setup — vWii
+# Finalizing Setup (Wii U)
 
 Now that the Homebrew Channel, Priiloader, and cIOS are installed, we are going to finalize setup for vWii by installing crucial apps to restore various missing functionalities of the vWii menu compared to a normal console. It is recommended that you download all homebrew listed below onto your storage device BEFORE starting the listed steps to save time.
 
@@ -38,6 +38,7 @@ System Channel Restorer is a homebrew app that restores channels missing from th
 ### str2hax Method
 
 - an SD card or USB drive
+- An Internet connection
 - [System Channel Restorer](https://oscwii.org/library/app/system-channel-restorer)
 
 ### Instructions
@@ -52,7 +53,7 @@ System Channel Restorer is a homebrew app that restores channels missing from th
 
    ![](/images/vwii/sys-channel-restore/launch-hb.png)
 
-5. The installer will launch. Most users will want to select the following channels, unless you prefer to install additional channels:
+5. The installer will launch.  If you receive **-3 Failed to initialize network**, ensure that your vWii is connected to the Internet. Most users will want to select the following channels, unless you prefer to install additional channels:
 
    - EULA
    - Mii Channel

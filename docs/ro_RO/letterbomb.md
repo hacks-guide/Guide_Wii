@@ -33,7 +33,7 @@ NU folosi niciun exemplu de adrese MAC afișate în acest ghid, deoarece acestea
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. Navigate to `Internet` > `Console Information`.
+4. Navigate to `Internet` -> `Console Information`.
 
 5. Notează adresa MAC completă.
 
@@ -76,5 +76,7 @@ NU folosi niciun exemplu de adrese MAC afișate în acest ghid, deoarece acestea
 ::: tip
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::

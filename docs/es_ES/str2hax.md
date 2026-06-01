@@ -38,7 +38,7 @@ Este exploit requiere que cambies tu configuración de DNS para poder conectarte
 
    ![](/images/riiconnect24/Internet_2.png)
 
-4. Navigate to `Page 2` > `Internet` > `Connection Settings`.
+4. Navigate to `Page 2` -> `Internet` -> `Connection Settings`.
 
    ![](/images/riiconnect24/Internet_3.png)
 
@@ -105,5 +105,7 @@ Este exploit requiere que cambies tu configuración de DNS para poder conectarte
 ::: tip
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::

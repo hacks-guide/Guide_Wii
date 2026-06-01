@@ -72,6 +72,14 @@ További olyan tartalom található a [hacks.guide wiki](https://wiki.hacks.guid
 
 ::: tip
 
+[Kattints ide a Wii mini Hacking discord szerverhez csatlakozáshoz a célzott Wii mini támogatásért és másokért.](https://discord.gg/6ryxnkS)
+
+:::
+
+---
+
+::: tip
+
 [Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
 
 :::

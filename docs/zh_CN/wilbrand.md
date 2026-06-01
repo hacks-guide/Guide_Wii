@@ -39,7 +39,7 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. Navigate to `Internet` > `Console Information`.
+4. Navigate to `Internet` -> `Console Information`.
 
 5. Take note of your FULL MAC address.
 
@@ -86,6 +86,8 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
 
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+
 :::
 
 ::::
@@ -114,7 +116,7 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 
    ![](/images/wii/SystemMenuVersion.png)
 
-4. Navigate to `Internet` > `Console Information`.
+4. Navigate to `Internet` -> `Console Information`.
 
 5. Take note of your FULL MAC address.
 
@@ -169,6 +171,8 @@ DO NOT use any of the MAC address examples shown in this guide, as they will sim
 ::: tip
 
 [Continue to Homebrew Channel and BootMii Installation](hbc)
+
+Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::
 

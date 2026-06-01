@@ -1,6 +1,6 @@
-# Dumpare WAD
+# Effettuare il dump dei WAD
 
-Questa guida ti mostrerà come preservare file wad dalla memoria di sistema della console Wii.
+Questa guida ti mostrerà come preservare i file WAD dalla memoria di sistema della console Wii.
 
 ## Requisiti
 
@@ -11,17 +11,17 @@ Questa guida ti mostrerà come preservare file wad dalla memoria di sistema dell
 
 1. Spegni la console.
 
-2. Inserisci la scheda SD o unità USB nel tuo computer.
+2. Inserisci la scheda SD o l'unità USB nel computer.
 
-3. Copia la cartella `apps` nel `.zip` di Yet Another BlueDump MOD nella root della tua scheda SD o unità USB.
+3. Copia la cartella `apps` dal `.zip` di Yet Another BlueDump MOD nella root della scheda SD o dell'unità USB.
 
-4. Reinserisci la scheda SD o unità USB nella console.
+4. Reinserisci la scheda SD o l'unità USB nella console.
 
 5. Accendi la console.
 
 6. Avvia l'Homebrew Channel.
 
-7. Avvia l'app Yet Another BlueDump MOD.
+7. Avvia l'app Yet Another BlueDump MOD dalla lista degli homebrew.
 
 8. Premi A.
 
@@ -31,7 +31,7 @@ Questa guida ti mostrerà come preservare file wad dalla memoria di sistema dell
 
    ![](/images/homebrew/DumpWADS/2.png)
 
-10. Trova il contenuto che vuoi scaricare e premi 1 sul telecomando Wii.
+10. Trova quello di cui vuoi eseguire il dump e premi 1 sul telecomando Wii.
 
     ![](/images/homebrew/DumpWADS/3.png)
 
@@ -49,7 +49,7 @@ Questa guida ti mostrerà come preservare file wad dalla memoria di sistema dell
 
 ![](/images/homebrew/DumpWADS/6.png)
 
-Il WAD è stato ora dumpato e dovrebbe apparire interno la cartella specificata sulla tua scheda SD o unità USB.
+Ora il dump del WAD dovrebbe essere visibile all'interno della cartella specificata sulla scheda SD o sull'unità USB.
 
 ![](/images/homebrew/DumpWADS/7.png)
 

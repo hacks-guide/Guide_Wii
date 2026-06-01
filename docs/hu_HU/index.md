@@ -20,7 +20,7 @@ A **homebrew** olyan szoftverekre utal, amelyek futtatását a gyártó nem enge
 
 Gyakori példái a homebrew használatnak a Wii-on a következők:
 
-- A Wii NAND (rendszermemória) [biztonsági mentése](bootmii) és [visszaállítása](bootmiirecover)
+- A Wii NAND (rendszermemória) [biztonsági mentése](nand-backup) és [visszaállítása](bootmiirecover)
 - [Játéklemezek patchelése](https://wiki.hacks.guide/wiki/Wii:Riivolution) a játék módosítások betöltéséhez
 - [Témák](themes) telepítése a Wii menüjébe és a gyakran használt homebrew alkalmazásokba
 - A [lemezek](dump-games) és [más telepített címek](dump-wads) biztonsági mentése

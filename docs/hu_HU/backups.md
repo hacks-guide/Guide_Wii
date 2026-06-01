@@ -83,19 +83,15 @@ A TinyWiiBackupManager egy új, könnyű játék mentés manager alkalmazás, am
 - Egy PC Windows 7-tel vagy későbbivel
 - Egy SD kártya vagy USB drive
 - Egy dumpolt Wii/GameCube játék lemez (bármilyen formátum)
-- [TinyWiiBackupManagerInstaller](https://github.com/mq1/TinyWiiBackupManagerInstaller/releases/latest/)
+- [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
 
 #### Lépések
 
 ##### I. rész – Telepítés
 
-1. Töltsd le az `TinyWiiBackupManagerInstaller.exe` fájlt és futtasd a telepítőt. Ha Windows SmartScreen üzenetet kapsz, futtas mindeképpen, mert ez egy fals pozitív.
+1. Töltsd le az architektúrádnak megfelelő windows binárist. A legtöbb felhasználónak a `TinyWiiBackupManager-vX.X.X-windows-x64.exe`-t kell letölteniük.
 
-   ![](/images/desktop-apps/TWBM/twbmi-download.png)
-
-2. Hagyd a telepítőt futni, majd ha végzett indítsd el a TinyWiiBackupManager-t.
-
-   ![](/images/desktop-apps/TWBM/twbmi-install.png)
+2. Futtas a letöltött `.exe` fájlt. Ha Windows SmartScreen üzenetet kapsz, futtas mindeképpen, mert ez egy fals pozitív.
 
 ##### Section II - Copying Games
 
@@ -129,7 +125,7 @@ Ha már vannak játékok a meghajtón, és a TinyWiiBackupManager kéri az útvo
 
 #### Követelmények
 
-- Egy macOS 10.13 vagy későbbi oprendszerű számítógép
+- Egy macOS 10.12 vagy későbbi oprendszerű számítógép
 - Egy SD kártya vagy USB drive
 - Egy dumpolt Wii/GameCube játék lemez (bármilyen formátum)
 - [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
@@ -197,7 +193,7 @@ TinyWiiBackupManager ctelepíthető a Flathub repository-ból, mint Flatpak vagy
 
 ###### Flatpak
 
-1. Biztosítsd, hogy a FlatPak [legyen telepítve a rendszeredre](https://flathub.org/en/setup).
+1. Biztosítsd, hogy a Flatpak [legyen telepítve a rendszeredre](https://flathub.org/en/setup).
 
 2. Navigálj a [Flathub repository for TWBM](https://flathub.org/en/apps/it.mq1.TinyWiiBackupManager) -hez majd nyomd meg az Install gombot. Ha semmi nem történik, töltsd le a `.flatpakref` fájlt és nyisd meg, hogy megtaláld a programod a disztribúciód app store-jában. Ha továbbra sem történik semmi, futtasd a `flatpak install flathub it.mq1.TinyWiiBackupManager` parnacsot a terminálodban.
 
@@ -207,7 +203,7 @@ TinyWiiBackupManager ctelepíthető a Flathub repository-ból, mint Flatpak vagy
 
 ###### AppImage
 
-1. Töltsd le a rendszerednek és architektúrádnak megfelelő AppImage binárist. A legtöbb felhasználónak a `TinyWiiBackupManager-vX.X.X-linux-x86_64.AppImage`-t kell letölteniük.
+1. Töltsd le az architektúrádnak megfelelő AppImage binárist. A legtöbb felhasználónak a `TinyWiiBackupManager-vX.X.X-linux-x86_64.AppImage`-t kell letölteniük.
 
    ![](/images/desktop-apps/TWBM/twbm-linux-appimage-dl.png)
 
