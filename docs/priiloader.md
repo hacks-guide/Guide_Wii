@@ -90,6 +90,7 @@ Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
 1. Scroll down to `save settings` and press A.
 1. Press `B` to return to the main menu.
+1. Select "System Menu" to go back to the Wii Menu.
 
 ---
 
