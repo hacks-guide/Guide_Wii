@@ -50,7 +50,7 @@ Se riesci a connettere Wii a Internet, puoi saltare alla [Sezione II](cios#secti
 
 3. Estrai l'archivio ed esegui NUSGet.
 
-4. Naviga su `IOS` -> `IOS 38` -> `World` e seleziona `v4123`. Deseleziona `Mantieni contenuti criptati`, poi clicca `Avvia download`.
+4. Naviga su `IOS` -> `IOS 38` -> `World` e clicca due volte su `v4123`. Deseleziona `Mantieni contenuti criptati`, poi clicca `Avvia download`.
 
    ![](/images/desktop-apps/nusget/nusget-4123.png)
 
@@ -249,7 +249,7 @@ Se riesci a connettere vWii a Internet, puoi saltare alla [Sezione II](cios#sect
 
 3. Estrai l'archivio ed esegui NUSGet.
 
-4. Seleziona la piattaforma `vWii`, poi naviga su `IOS` -> `IOS 38` -> `World` e seleziona `v4380`. Deseleziona `Mantieni contenuti criptati`. Spunta `Cripta titolo usando la Chiave Comune Wii`, poi clicca `Avvia download`.
+4. Seleziona la piattaforma `vWii`, poi naviga su `IOS` -> `IOS 38` -> `World` e clicca due volte su `v4380`. Deseleziona `Mantieni contenuti criptati`. Spunta `Cripta titolo usando la Chiave Comune Wii`, poi clicca `Avvia download`.
 
    ![](/images/desktop-apps/nusget/nusget-4380.png)
 

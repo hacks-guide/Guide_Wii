@@ -50,7 +50,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 
 3. Unzip the archive and run the NUSGet executable.
 
-4. Navigate to `IOS` -> `IOS 38` -> `World` and select `v4123`. Uncheck `Keep encrypted contents`, then click `Start Download`.
+4. Navigate to `IOS` -> `IOS 38` -> `World` and double click on `v4123`. Uncheck `Keep encrypted contents`, then click `Start Download`.
 
    ![](/images/desktop-apps/nusget/nusget-4123.png)
 
@@ -264,7 +264,7 @@ If you are able to connect your vWii to the internet, you may skip to [Section I
 
 3. Unzip the archive and run the NUSGet executable.
 
-4. Select the `vWii` platform, navigate to `IOS` -> `IOS 38` -> `World` and select `v4380`. Uncheck `Keep encrypted contents`. Check `Re-encrypt title using the Wii Common Key`, then click `Start Download`.
+4. Select the `vWii` platform, navigate to `IOS` -> `IOS 38` -> `World` and double click on `v4380`. Uncheck `Keep encrypted contents`. Check `Re-encrypt title using the Wii Common Key`, then click `Start Download`.
 
    ![](/images/desktop-apps/nusget/nusget-4380.png)
 

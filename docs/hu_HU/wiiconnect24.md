@@ -1,14 +1,14 @@
 # WiiConnect24
 
-A [WiiConnect24(https://wikipedia.org/wiki/WiiConnect24) egy olyan szolgáltatás volt, amely lehetővé tette az internetkapcsolattal rendelkező felhasználók számára az időjárás-előrejelzés megtekintését, a barátoknak való üzenetküldést, a Mii-versenyeken való részvételt és sok mást. Ez a szolgáltatás 2013. június 27-én megszűnt. Although discontinued, there is a third party service known as WiiLink which restores this functionality.
+A [WiiConnect24(https://wikipedia.org/wiki/WiiConnect24) egy olyan szolgáltatás volt, amely lehetővé tette az internetkapcsolattal rendelkező felhasználók számára az időjárás-előrejelzés megtekintését, a barátoknak való üzenetküldést, a Mii-versenyeken való részvételt és sok mást. Ez a szolgáltatás 2013. június 27-én megszűnt. Habár megszűnt, van egy harmadik feles szolgáltatás WiiLink néven, ami helyreállítja ezt a funkcionalitást.
 
 ## WiiLink
 
-A [WiiLink](https://www.wiilink.ca/) egy olyan harmadik feles szolgáltatás, ami újraéleszti és kiterjeszti a WiiConnect24 funkcióit. WiiLink hosts a patcher for the services that it provides. They offer international channels such as the Forecast and News Channel, as well as region exclusive channels such as Wii Room. The guide to install WiiLink on your console can be found [on their website.](https://www.wiilink.ca/guide/)
+A [WiiLink](https://www.wiilink.ca/) egy olyan harmadik feles szolgáltatás, ami újraéleszti és kiterjeszti a WiiConnect24 funkcióit. A WiiLink biztosít egy patchert a szolgáltatásokhoz, amit biztosít. Nyújtanak nemzetközi csatornáka, mint a Forecast és a News Channel, de régió exklúzív csatornákat is, mint a Wii Room. A WiiLink telepítésének útmutatója megtalálható [a weboldalukon.](https://www.wiilink.ca/guide/)
 
 ## A valós idejű óra átállítása
 
-In some cases, the RTC clock on your Wii may not be synchronized with the current time. This will likely cause errors when trying to connect to WiiConnect24 services, or other general online services on the Wii. Ha csatlakozási hibákat kapsz, mint pl. FORE000006, elképzelhető, hogy használnod kell a lenti lépéseket, hogy újraszinkronizáld a Wii belső RTC óráját az internethez.
+Néhány esetben az RTC óra a Wii-odon késik az aktuális időhöz képest. Ez problémát okozhat a WiiConnect24 szolgáltatáshoz csatlakozáskor vagy más általános online szolgáltatás esetében a Wii-on. Ha csatlakozási hibákat kapsz, mint pl. FORE000006, elképzelhető, hogy használnod kell a lenti lépéseket, hogy újraszinkronizáld a Wii belső RTC óráját az internethez.
 
 ::::: tabs
 

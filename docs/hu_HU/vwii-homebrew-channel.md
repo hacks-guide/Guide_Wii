@@ -20,7 +20,7 @@ Ha nincs Aromád telepítve, folytasd [Az Aroma telepítésével](https://wiiu.h
 
 - Egy Wii U
 - Az [Aroma környezet](https://aroma.foryour.cafe/) (az előző lépésben telepítésre kellett kerüljön)
-- The latest release of the [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) (`compat_installer-Aroma.zip`) (should be installed from previous step)
+- A [Compat Title Installer](https://github.com/Xpl0itU/vwii-compat-installer/releases/latest) legutolsó kiadása. (`compat_installer-Aroma.zip`) (telepítésre kellett kerüljön az előző lépésben)
 - Az [Enhanced vWii Aroma Plugin](https://github.com/GaryOderNichts/evwii/releases/latest`)
   (`evwii.wps`) (opcionális)
 

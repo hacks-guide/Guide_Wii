@@ -94,6 +94,8 @@ Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a hacks_hash.ini
 
 4. Nyomj `B` gombot a főmenübe való visszatéréshez.
 
+5. Válaszd a "System Menu"-t a Wii Menu-höz visszatéréshez.
+
 ---
 
 ::: info

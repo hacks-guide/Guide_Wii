@@ -34,7 +34,7 @@ Kérjük olvasd el a listába gyűjtött fontos információkat mielőtt tovább
 
 ## BlueBomb Classic
 
-BlueBomb Classic utilizes a Linux device or virtual machine to upload an exploit to the Wii via Bluetooth.
+A BlueBomb Classic egy Linux eszközt vagy virtuális gépet használ az exploit feltöltésére a Wii-ra Bluetooth-on keresztül.
 
 ### Requirements
 
@@ -155,7 +155,7 @@ Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a
 
 ## BlueBomb Micro
 
-BlueBomb Micro utilizes a Raspberry Pi Pico or ESP32 to upload an exploit to the Wii via Bluetooth.
+A BlueBomb Micro egy Raspberry Pi Pico-t vagy egy ESP32-t használ az exploit feltöltésére Wii-ra Bluetooth-on keresztül.
 
 ::: warning
 
@@ -249,7 +249,7 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
    - Lehetséges, hogy ezt többször is meg kell próbálnod.
 4. Ha az exploit sikeres volt, akkor az alábbi képernyőhöz hasonlót kell látnod, majd a HackMii installer-nek be kell töltődnie.
 
-   - You may now unplug your microcontroller at this point.
+   - Ezen a ponton kihúzhatod a microcontroller-ed.
 
    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
@@ -269,29 +269,29 @@ Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a
 
 ## BlueMii
 
-BlueMii utilizes another Wii to upload an exploit to the Wii via Bluetooth.
+A BlueMii egy másik Wii-t használ az exploit feltöltésére a Wii-ra Bluetooth-on keresztül.
 
-### Requirements
+### Követelmények
 
-- A secondary Wii, Wii U (vWii), or Wii mini to use to upload an exploit to the target Wii
-- A USB flash drive OR SD card to load the HackMii installer onto, [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
-- A second USB flash drive OR SD card to load BlueMii onto the exploiting Wii
+- Egy második Wii, Wii U (vWii), vagy Wii mini, hogy arra használd, hogy feltöltsd az exploitot a cél Wii-ra
+- Egy USB flash drive VAGY egy SD kártya a HackMii installer rámásolásához, [FAT32/MS-DOS-ra formázva](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+- Egy második USB flash drive VAGY SD kártya hogy betöltsd a BlueMii-t az exploit-ot végző Wii-ba
 - [BlueMii](https://github.com/Zarithya/BlueMii/releases/tag/v1.1)
-- [The HackMii Installer](https://bootmii.org/download/)
+- [A HackMii Installer](https://bootmii.org/download/)
 
 ### Lépések
 
 #### I. rész - A cél konzol előkészítése
 
-1. Copy `boot.elf` from the `hackmii_installer_v1.2.zip` to the root of the USB drive or SD card that will be used on the target console.
+1. Másold a `boot.elf` fájtl a `hackmii_installer_v1.2.zip`-ből az USB drive vagy SD kártya gyökerébe, ami a cél konzolon lesz használva.
 
    - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
    - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Minden esetben a boot.elf-fájlt használd).
 
    ![](/images/exploits/bluebomb/usb-exploit.png)
 
-2. Reinsert your USB drive or SD card into the target console.
-   - For a Wii mini, the USB port is on the back.
+2. Csatlakoztasd újra az USB drive-od vagy az SD kártyád a cél konzolhoz.
+   - A Wii mini-nek az USB csatlakozó a hátoldalán van.
    - Egy sima Wii esetén az alsó csatlakozót használd (ha a konzol fel van állítva, akkor ez a jobb oldali).
 
 3. Kapcsold be a cél konzolt.
@@ -308,17 +308,17 @@ BlueMii utilizes another Wii to upload an exploit to the Wii via Bluetooth.
 
 #### II. rész - Az exploit beállítása
 
-1. Copy the `apps` folder in the `BlueMii.vX.X.zip` file to the root of your USB drive or SD card that will be used on the exploiting console.
+1. Másold az `apps` mappát a `BlueMii.vX.X.zip` fájlból azon USB drive-od vagy SD kártyád gyökerébe amot a támadó konzol fog használni.
 
-2. Reinsert your USB drive or SD card into the exploiting console.
+2. Csatlakoztasd újra az USB drive-od vagy az SD kártyád a támadó konzolhoz.
 
 3. Kapcsold be az exploitáló konzolt.
 
-4. On the exploiting console, open the Homebrew Channel and load the BlueMii app.
+4. A támadó konzolon nyisd meg a Homebrew Channel-t és töltsd be a BlueMii appot.
 
    ![](/images/exploits/bluebomb/load-bluemii.png)
 
-5. On the BlueMii app, select the region that corresponds to your target console.
+5. A BlueMii appban válaszd a cél konzolhoz tartozó régiót.
 
    ![](/images/exploits/bluebomb/bluemii-region.png)
 
@@ -327,11 +327,11 @@ BlueMii utilizes another Wii to upload an exploit to the Wii via Bluetooth.
 1. Kapcsold be a cél konzolt.
    - **Ne csatlakoztass** egy Wii Remote-ot sem.
 
-2. On the exploiting console, press the `A` button to prepare to upload the exploit to the target console.
+2. A támadó konzolon nyomd meg az `A` gombot, hogy előkészüljön a exploit cél konzolra küldésére.
 
    ![](/images/exploits/bluebomb/bluemii-ready.png)
 
-3. Press the Sync button repeatedly until the exploiting console shows `got connection handle`. Várd meg az exploitot míg végez a feltöltéssel.
+3. Nyomogasd a konzol Sync gombját, amíg a támadó konzolon nem látod ezt az üzenetet: `got connection handle`. Várd meg az exploitot míg végez a feltöltéssel.
 
    - Lehetséges, hogy ezt többször is meg kell próbálnod.
 
@@ -341,7 +341,7 @@ BlueMii utilizes another Wii to upload an exploit to the Wii via Bluetooth.
 
    ![](/images/exploits/bluebomb/thanks-fullmetal5.png)
 
-5. On the exploiting console, you may now press `A` to either retry the exploit, or `HOME/START` to return to the Homebrew Channel.
+5. A támadó konzolon most már nyomhatsz vagy `A` gombot, hogy újra megpróbáld az exploitot vagy a `HOME/START` gommbal visszatérhetsz a Homebrew Channel-hez.
 
    ![](/images/exploits/bluebomb/bluemii-success.png)
 

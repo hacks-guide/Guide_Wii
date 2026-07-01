@@ -94,6 +94,8 @@ Altrimenti, Priiloader non riuscirà a trovare il file `hacks_hash.ini`.
 
 4. Premi `B` per tornare al menu principale.
 
+5. Seleziona "System Menu" per tornare al menu Wii.
+
 ---
 
 ::: info

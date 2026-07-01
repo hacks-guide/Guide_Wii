@@ -94,6 +94,8 @@ If you copied the Priiloader installer onto a USB drive, ensure that you DO NOT 
 
 4. 메인 메뉴로 돌아가려면 `B` 버튼을 누릅니다.
 
+5. Select "System Menu" to go back to the Wii Menu.
+
 ---
 
 ::: info

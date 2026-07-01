@@ -60,7 +60,9 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
    ![](/images/nanddumper@ios/select-hbc.png)
 
 4. nanddumper@ios will start and dump your console keys upon opening, if they are not already on your drive. Press any button that is NOT the `HOME`, `START`, or `EJECT` buttons to begin dumping your console's NAND storage.
+
    - If you get a **No storage devices are attached** error, ensure that your SD card or USB drive is directly connected to your Wii. If using a USB drive, it should NOT be connected to a USB hub.
+
    ![](/images/nanddumper@ios/dump-startup.png)
 
 5. Your console's NAND will now begin dumping. Please wait for the NAND dump to finish before proceeding.

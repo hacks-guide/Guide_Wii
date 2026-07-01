@@ -50,7 +50,7 @@ Ha képes vagy csatlakoztatni a Wii-odat az internetre, átugorgathatsz a [II. r
 
 3. Csomagold ki a NUSGet futtatható állományt és indítsd el.
 
-4. Navigálj az `IOS` -> `IOS 38` -> `World`-höz és válaszd a `v4123` opciót. Vedd ki a pipát a `Keep encrypted contents` mellől majd kattints a `Start Download`-ra.
+4. Navigálj az `IOS` -> `IOS 38` -> `World`-höz és kattints duplán a `v4123` opción. Vedd ki a pipát a `Keep encrypted contents` mellől majd kattints a `Start Download`-ra.
 
    ![](/images/desktop-apps/nusget/nusget-4123.png)
 
@@ -249,7 +249,7 @@ Ha képes vagy csatlakoztatni a vWii-odat az internetre, átugorgathatsz a [II. 
 
 3. Csomagold ki a NUSGet futtatható állományt és indítsd el.
 
-4. Válaszd a `vWii` platformot, navigálj az `IOS` -> `IOS 38` -> `World` -be és válaszd a `v4380`-at. Vedd ki a pipát a `Keep encrypted contents` elől. Válaszd a `Re-encrypt title using the Wii Common Key` opciót majd kattints a `Start Download`-ra.
+4. Válaszd a `vWii` platformot, navigálj az `IOS` -> `IOS 38` -> `World` -be és kattints duplán a `v4380`-ra. Vedd ki a pipát a `Keep encrypted contents` elől. Válaszd a `Re-encrypt title using the Wii Common Key` opciót majd kattints a `Start Download`-ra.
 
    ![](/images/desktop-apps/nusget/nusget-4380.png)
 

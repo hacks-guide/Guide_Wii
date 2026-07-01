@@ -1,4 +1,4 @@
-# Finalizing Setup (Wii mini)
+# Telepítés véglegesítése (Wii mini)
 
 Now that the Homebrew Channel, Priiloader, and cIOS are installed, we are going to finalize setup for your Wii mini by installing crucial apps to restore various missing functionalities of the Wii mini menu compared to a normal console. Ajánlott, hogy letöltsd az összes homebrew-ot a tárolódra, ami itt listázott, az ELŐTT mielőtt végrehajtod a listázott lépéseket.
 
@@ -66,7 +66,7 @@ System Channel Restorer is a homebrew app that restores channels missing from th
 
 In order to use features like WiiConnect24, you must accept the Wii User Agreement (EULA). This can normally only be done through the Wii Settings app or the Wii Shop Channel, however you can download a forwarder to launch the EULA from the Homebrew Channel.
 
-### Requirements
+### Követelmények
 
 - Egy USB drive
 - [EULA Loader NTSC](/assets/files/EULA_Loader_NTSC.zip)

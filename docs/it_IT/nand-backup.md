@@ -60,7 +60,9 @@ Leggi la nota sotto prima di procedere oltre.
    ![](/images/nanddumper@ios/select-hbc.png)
 
 4. nanddumper@ios inizierà a eseguire il dump delle chiavi della console all'avvio, se non sono già presenti nell'archivio. Premi un pulsante che NON sia `HOME`, `START` o `EJECT` per iniziare il dump della NAND della console.
+
    - Se ricevi l'errore **No storage devices are attached**, assicurati che la scheda SD o l'unità USB siano connessi direttamente alla console. Se stai utilizzando un'unità USB, collegala direttamente alla console e NON in un hub.
+
    ![](/images/nanddumper@ios/dump-startup.png)
 
 5. Ora inizierà il processo di dump della NAND. Attendi che finisca prima di procedere.
