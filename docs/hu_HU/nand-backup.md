@@ -2,11 +2,11 @@
 outline: false
 ---
 
-# Creating a NAND Backup (Wii)
+# NAND mentés készítése (Wii)
 
-In order to protect your Wii from permanant bricks, this guide will instruct you on how to create a NAND backup. Most users will want to select **nanddumper@ios**, with **BootMii** as a backup option for users that can use an SD card.
+Annak érdekében, hogy megvédjük a Wii-odat egy permanens bricktől az az útmutató arra fog kérni, hogy készíts egy NAND mentést. Most users will want to select **nanddumper@ios**, with **BootMii** as a backup option for users that can use an SD card.
 
-:::details Importing NAND Backup to Dolphin Emulator
+:::details A NAND mentés importálása a Dolphin Emulátorba
 
 Your NAND backup can be utilized in Dolphin Emulator, if you choose to do so.
 
