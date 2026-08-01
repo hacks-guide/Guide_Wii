@@ -54,8 +54,8 @@ Ez a rész a lehetséges elrontások diagnózisában segít és súlyosság szer
 - A Wii elindul, de RÖGTÖN egy olyan hibát látsz, ami látszólag az Opera web böngészőre hasonlít. Tekintsd meg a [Wii Menu/Opera brick-et](bricks#wii-menuopera-brick).
 - Error 003. Tekintsd meg a [Korean Kii/Error 003 brick-et](bricks#koreankii-error-003-brick).
 - Semmi sem történik, fekete a képernyő, DE a boot2 alá telepített BootMii hozzáférhető. Tekintsd meg az [IOS brick-et](bricks#ios-brick).
-- Nothing happens, black screen, BUT Wii can be turned on with a Wiimote/Recovery Mode can be accessed. Tekintsd meg a [Wi-Fi brick-et](bricks#wi-fi-brick).
-- Nothing happens, black screen. A Wii nem kapcsolható be egy Wii Remote-tal, és a [Recovery Mode](recovery-mode) és a boot2 alá telepített BootMii nem hozzáférhető. Tekintsd meg az [alacsony-szintű brick-et](bricks#low-level-brick).
+- Semmi sem történik, fekete a képernyő, DE a Wii bekapcsolható egy Wii Remote-tal és a helyreállítási mód hozzáférhető. Tekintsd meg a [Wi-Fi brick-et](bricks#wi-fi-brick).
+- Semmi sem történik, fekete a képernyő. A Wii nem kapcsolható be egy Wii Remote-tal, és a [Recovery Mode](recovery-mode) és a boot2 alá telepített BootMii nem hozzáférhető. Tekintsd meg az [alacsony-szintű brick-et](bricks#low-level-brick).
 
 ## Brick típusok
 
@@ -123,7 +123,7 @@ A téma brick akkor jelenik meg, ha helytelenül formázott téma kerül telepí
 
 #### Megoldások
 
-To resolve this issue, open HBC through Priiloader or BootMii as boot2 and access csm-installer to install a default theme such as the base Wii Menu theme. A javításhoz egy másik módszer a [YAWM ModMii Edition](yawmme) elindítása és a régiódnak és verziódnak MEGFELELŐ alap Wii menü WAD újratelepítése.
+Ennek a problémának a megoldásához nyisd meg a Homebrew Channel-t a Priiloaderen vagy a boot2 alá telepített BootMii-n keresztül, majd a csm-installer használatával telepíts egy alapértelmezett témát, pl. az alap Wii menü témát. A javításhoz egy másik módszer a [YAWM ModMii Edition](yawmme) elindítása és a régiódnak és verziódnak MEGFELELŐ alap Wii menü WAD újratelepítése.
 
 ### Mail brick
 
@@ -133,7 +133,7 @@ A Wii bekapcsolásakor megjelennek az egészségügyi figyelmeztetések, majd am
 
 #### Ok
 
-A mail brick occurs when a Wii has too much mail to handle, or when malformed mail is in the Wii Message Board, causing a crash upon booting through normal means. Because the Wii Message Board is always drawn below Wii channels, this causes the Wii Menu to fail before fully loading.
+Mail brick akkor következik be, ha a Wiinek túl sok üzenetet kell feldolgoznia, vagy ha nem megfelelő üzenetek érkeztek a Wii Üzenőfalra. Ez megakadályozza a normális indítást. Mivel a Wii Üzenőfal a csatornák alatt jelenik meg, ez a Wii menü betöltésének meghiúsulását eredményezi.
 
 #### Megoldás
 
@@ -149,9 +149,9 @@ A Wii indításakor egy Opera-internetböngészőben megjelenített hibaüzenete
 
 #### Ok
 
-Ez a brick sokkal végzetesebb, mint a [Semibrick](#semibrick). If your SYSCONF (system configuration file) gets corrupt or damaged, the Wii will regenerate it and start the setup phase.
+Ez a brick sokkal végzetesebb, mint a [Semibrick](#semibrick). Ha s SYSCONF (rendszerkonfigurációs) fájl megsérül, akkor a Wii törli és újra létrehozza azt, majd elindítja az első beállítási folyamatot.
 
-Viszont ez a fájl a Wii Settings oldalaihoz hasonló helyen van tárolva. If you have an incorrect region Wii Menu or theme, the Wii cannot find them.
+Viszont ez a fájl a Wii Settings oldalaihoz hasonló helyen van tárolva. Ha a régiódnak nem megfelelő Wii menü vagy téma van telepítve, akkor a rendszer nem fogja megtalálni.
 
 ![](/images/bricks/sysmenu-brick.png)
 
@@ -178,13 +178,13 @@ unauthorized device has been detected.
 
 #### Ok
 
-When releasing the Korean Wiis, Nintendo changed the encryption key for these units specifically as a last ditch attempt at preventing homebrew. Ugyan ez nem sikerült, de később, de a Nintendo bennhagyott egy ellenőrzést a System Menu 4.2/4.3-as verziójában, ami ellenőrzi, hogy a **nem**-koreai gépeken megjelenik-e a koreai titkosítási kulcs. If this check succeeds, the error triggers and the Wii is effectively bricked.
+A később megjelent koreai Wiik forgalmazásánál a Nintendo megváltoztatta a rendszer titkosítási kulcsát a a homebrew programok futtatásának kiküszöbölése érdekében. Ugyan ez nem sikerült, de később, de a Nintendo bennhagyott egy ellenőrzést a System Menu 4.2/4.3-as verziójában, ami ellenőrzi, hogy a **nem**-koreai gépeken megjelenik-e a koreai titkosítási kulcs. Ha ez a teszt sikeres, a hiba kiváltódik és a Wii gyakorlatilag brickelt.
 
 Ez általában egy Wii rendszerfrissítés közvetlen következménye egy gyanútlan, régióváltott koreai Wii-n.
 
 #### Megoldások
 
-Since this brick most often occurs after the Wii Menu updates, Priiloader will not be present. In the case that Priiloader is present, you can simply fix it by either installing the previous Wii System Menu or removing the key with the KoreanKii homebrew app.
+Mivel ez a brick leggyakrabban a Wii Menu frissítése után jelenik meg, ilyenkor a Priiloader nincs telepítve. Ha a Priiloader hozzáférhető, akkor egyszerűen meg tudod javítani az előző Wii System Menu újratelepítésével vagy a KoreanKii homebrew app megnyitásával és a koreai kulcs törlésével.
 
 A koreai Wii konzolok Wii Menu 3.3 verzióval kerültek forgalomba, körülbelül abban az időben, amikor a Nintendo [kijavította a Trucha hibát a boot1-ben](https://wiibrew.org/wiki/3.3#Changes), így a BootMii boot2-ként nem telepíthető és nem használható egyetlen koreai Wii konzolon sem.
 
@@ -243,13 +243,13 @@ Ez a hiba akkor jelentkezik, ha a boot1/boot2 sérült, vagy ha hardverhiba lép
 
 #### Megoldások
 
-First, troubleshooting must be done to determine if hardware is at fault. In the order listed, do the following:
+Először is, meg kell állapítanod, hogy hardveres hiba okozza-e a problémát. A felsorolás sorrendjében csináld a következőket:
 
-- Test to make sure that your Wii actually still functions (it accepts discs as normal, spins up correctly, Wiimotes connect) before attempting the following steps. If this is the case and only video is not being displayed, you may have a bad video cable, or an exceptionally rare failure of the video port or the GPU.
-- Ha Wii mini-n vagy és egy normál IOS80-at telepítettél, tekintsd meg a [Wi-Fi brick](bricks#wi-fi-brick)-et. If steps to resolve the Wi-Fi brick failed, proceed.
-- Próbálkozás a [Recovery Mode](recovery-mode)-ba bootoláshoz (normál Wii-ok csak). Ha a Wii Recovery Mode-ba bootol, tekintsd meg a [Wi-Fi brick](bricks#wi-fi-brick)-et vagy az [IOS brick](bricks#ios-brick)-et. If steps to resolve the Wi-Fi brick or IOS brick failed, proceed.
-- Reseat the disc drive and attempt to boot normally. If still unsuccessful, replace the disc drive. If still unsuccessful, proceed.
-- Ha idáig eljutottál, akkor vagy egy alacsony szintű boot0/boot1-sérülésről, a NAND chip hibájáról, vagy egy ismeretlen hardverhibáról van szó. Consider consulting online help or buying another Wii.
+- Először is, bizonyosodj meg róla, hogy a Wii-od még mindig működik-e (befogad egy lemezt, helyesen felpörgeti, Wiimote-ok csatlakoznak) mielőtt belefognál a következő lépésekbe. Ha igen, akkor ez azt jelenti, hogy a képi jel nem éri el a kijelzőt. Ebben az esetben lehetséges, hogy rossz a videókábeled, vagy egy nagyon ritka probléma kelezkezett a GPU videó portjával.
+- Ha Wii mini-n vagy és egy normál IOS80-at telepítettél, tekintsd meg a [Wi-Fi brick](bricks#wi-fi-brick)-et. Ha nem sikerült feloldani a Wi-Fi brick-et, folytasd tovább.
+- Próbálkozás a [Recovery Mode](recovery-mode)-ba bootoláshoz (normál Wii-ok csak). Ha a Wii Recovery Mode-ba bootol, tekintsd meg a [Wi-Fi brick](bricks#wi-fi-brick)-et vagy az [IOS brick](bricks#ios-brick)-et. Ha nem sikerült feloldani a Wi-Fi brick-et vagy az IOS brick-et, folytasd tovább.
+- Húzd ki és dugd vissza a lemezolvasót, majd próbálj meg nomrálisan bootolni. Ha ez még mindig nem sikerült, cseréld ki a lemezolvasót. Ha a probléma továbbra is fennáll, olvass tovább.
+- Ha idáig eljutottál, akkor vagy egy alacsony szintű boot0/boot1-sérülésről, a NAND chip hibájáról, vagy egy ismeretlen hardverhibáról van szó. Próbálj internetes segítséget kérni vagy fontold meg egy új Wii megvásárlását.
 
 ---
 

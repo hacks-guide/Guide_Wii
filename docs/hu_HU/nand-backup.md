@@ -4,27 +4,27 @@ outline: false
 
 # NAND mentés készítése (Wii)
 
-Annak érdekében, hogy megvédjük a Wii-odat egy permanens bricktől az az útmutató arra fog kérni, hogy készíts egy NAND mentést. Most users will want to select **nanddumper@ios**, with **BootMii** as a backup option for users that can use an SD card.
+Annak érdekében, hogy megvédjük a Wii-odat egy permanens bricktől az az útmutató arra fog kérni, hogy készíts egy NAND mentést. A legtöbb felhasználó a **nanddumper@ios** válassza, a **BootMii**-vel mint pót opcióval, ha a felhasználó SD kártyát használ.
 
 :::details A NAND mentés importálása a Dolphin Emulátorba
 
-Your NAND backup can be utilized in Dolphin Emulator, if you choose to do so.
+A NAND mentésed használható a Dolphin Emulátorban, ha úgy döntenél.
 
-1. Get the latest release of Dolphin Emulator from the [Dolphin Website](https://dolphin-emu.org/) and install it to your device.
+1. Töltsd le a legutolsó verzióját a Dolphin Emulátornak a [Dolphin Weboldaláról](https://dolphin-emu.org/) és telepítsd az eszközödre.
 2. Indítsd el a Dolphin Emulátort.
 3. Kattints a `Tools` fülre, görgess le a `Manage NAND`-ig majd válaszd az `Import BootMii NAND backup...` opciót.
 4. Keresd meg és jelöld ki a `nand.bin` fájlt, amit az SD kártyád gyökerében találtál és válaszd az Open-t.
 5. Ha egy `keys.bin` állományt kér, keresd meg az SD kártyádon és válaszd az Open-t.
 
-Note that you will need to rename your NAND dump to the files above if you used **nanddumper@ios**, as described in the below section.
+Ne felejtsd, hogy át kell nevezen a NAND dumpodat a fenti fájlnevekre ha a **nanddumper@ios** használtad, ahogy leírásra került a követekező szakaszban.
 
 :::
 
 ::::: tabs
 
-::::tab nanddumper@ios (dump to USB drive or SD card)
+::::tab nanddumper@ios (dumpolás USB drive-ra vagy SD kártyára)
 
-On Wii consoles with a usable USB port or SD card slot, nanddumper@ios allows for backing up your Wii's NAND storage. nanddumper@ios is recommended over BootMii due to its quicker speed in creating a NAND backup. This section will guide you through the process to back up your Wii's NAND, which you can then use however you like.
+A használható USB portú vagy SD kártya slotos Wii konzolokon a nanddumper@ios lehetővé teszi a Wii-od NAND-jának mentését. A nanddumper@ios ajánlott a BootMii helyett, mert gyorsabban készíti a NAND mentést. Ez a rész végig vezet a Wii NAND menétésének folyamatán, amit utána úgy használsz, ahogy szeretnél.
 
 Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
@@ -32,19 +32,19 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 **Fontos információ**
 
-- After the completion of this guide, four files will have been created in the directory `/wii/backups` on your USB drive. `DATE_SERIAL_nand_XX.bin` is your NAND backup, and `SERIAL_keys.bin` is the file containing your console keys. `DATE_SERIAL_nand_XX.bin.sha1` and `sha1sums.txt` respectively are files containing checksums to verify the integrity of your backups, and will not be used in an actual NAND restoration.
+- Az útmutató befejeztéve 4 fájl jön létre a `/wii/backups` mappában az USB drive-odon. A `DATE_SERIAL_nand_XX.bin` a NAND mentésed és a `SERIAL_keys.bin` fájl tartalmazza a konzolod kulcsait. `DATE_SERIAL_nand_XX.bin.sha1` és `sha1sums.txt` fájlok ellenőrző összeget tartalmaznak a mentések integritásának ellenőrzéséhez és nem használt egy NAND helyreállításnál.
 
-- Kérjük jegyezd meg **egy biztonsági mentés visszatöltése általában a legvégső megoldás**. Ennek fényében használhatod a [BootMii helyreállítási útmutató](bootmiirecover) a NAND mentésed helyreállításához, ahol további információ és nyújtott a kockázatokról és az alternatívákról. You can ONLY use BootMii to restore a NAND backup if you have a usable SD card slot, as described below.
+- Kérjük jegyezd meg **egy biztonsági mentés visszatöltése általában a legvégső megoldás**. Ennek fényében használhatod a [BootMii helyreállítási útmutató](bootmiirecover) a NAND mentésed helyreállításához, ahol további információ és nyújtott a kockázatokról és az alternatívákról. CSAK a BootMii-t tudod használni NAND helyreállításra, ha van egy használható SD kártya slotod, ahogy alább leírt.
 
-- If you are a Wii mini user or DO NOT have a usable SD card slot, you will be UNABLE to restore your NAND backup without hardware modification. This is because [BootMii Restore](bootmiirecover) requires an SD card slot to read the NAND from.
+- Ha Wii mini felhasználó vagy vagy NINCS használható SD kártya slotod, NEM TUDOD HELYREÁLLÍTANI a NAND mentésedet hardver módosítás nélkül. Ez azért van, mert a [BootMii Restore](bootmiirecover) egy SD kártya slotot igényel a NAND olvasásához forrásként.
 
-- If you DO NOT have a usable GameCube controller port, you will also be UNABLE to restore your NAND backup without hardware modification. This is because [BootMii Restore](bootmiirecover) requires a GameCube controller port to enter the Konami code with for consoles that do not have BootMii as boot2.
+- Ha NINCS használható GameCube controller portod, akkor NEM vagy képes visszaállítani a NAND mentésed hardver módosítás nélkül. Ez azért, mert a [BootMii Restore](bootmiirecover)-nak szüksége van egy GameCube controller portra, hogy beírja a Konami kódot azokhoz a konzolokhoz, amiknél nincs BootMii, mint boot2.
 
 :::
 
-## Requirements
+## Követelmények
 
-- A USB drive or SD card formatted as FAT32, with a minimum 512MB of free space (1GB or more recommended)
+- Egy USB drive vagy SD kártya FAT32-re formázva legalább 512 MB szabad hellyel (1 GB vagy több ajánlott)
 - [nanddumper@ios](https://oscwii.org/library/app/nanddumper_ios)
 
 ## Lépések
@@ -53,27 +53,27 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 2. Csomagold ki az `apps` mappát a tömörített fájlból az SD kártyád vagy USB drive-od gyökerébe.
 
-3. Insert the SD card or USB drive into your Wii, and start the Homebrew Channel. Press `1` and ensure that the device you are using is selected, and then open nanddumper@ios.
+3. Csatlakoztasd az SD kártyád vagy az USB drive-od a Wiihez és indítsd el a Homebrew Channelt. Nyomj `1`-est és biztosítsd, hogy a használt eszköz legyen kiválasztva, majd nyisd meg a nanddumper@ios-t.
 
-   - If you get an **Exception IOS occurred!** error, simply restart your Wii and try again.
+   - Ha **Exception IOS occurred!** hibát kapsz, indítsd újra a Wii-od és próbáld újra.
 
    ![](/images/nanddumper@ios/select-hbc.png)
 
-4. nanddumper@ios will start and dump your console keys upon opening, if they are not already on your drive. Press any button that is NOT the `HOME`, `START`, or `EJECT` buttons to begin dumping your console's NAND storage.
+4. A nanddumper@ios el fog indulni és dumpolni fogja a konzolod kulcsait a megnyitásakor, ha még nem lennének a meghajtódon. Nyomj bármilyen gombot, ami NEM `HOME`, `START`, vagy `EJECT` gomb a konzolod NAND tárolójának dumpolásához.
 
-   - If you get a **No storage devices are attached** error, ensure that your SD card or USB drive is directly connected to your Wii. If using a USB drive, it should NOT be connected to a USB hub.
+   - Ha **No storage devices are attached** hibát kapsz, biztosítsd, hogy az SD kártyád vagy az USB drive-ot közvetelnül csatlakozzon a Wii-odhoz. Ha egy USB drive-ot használsz, NEM ajánlott, hogy egy USB hubhoz legyen kötve.
 
    ![](/images/nanddumper@ios/dump-startup.png)
 
-5. Your console's NAND will now begin dumping. Please wait for the NAND dump to finish before proceeding.
+5. A konzolod NAND-ja most dumpolásra fog kerülni. Kérjük várj, amíg a NAND dump befejeződik, mielőtt folytatnád.
 
    ![](/images/nanddumper@ios/dump-in-progress.png)
 
-6. Once the NAND backup has concluded, press any button to exit nanddumper@ios. Your NAND backup and console keys will be output to your USB drive in directory `/wii/backups/`.
+6. Ha a NAND mentés megtörtént, nyomj tetszőleges gombot a nanddumper@ios-ból kilépéshez. A NAND mentésed és a konzol kulcsok az USB drive `/wii/backups/` könyvtárába fog kerülni.
 
    ![](/images/nanddumper@ios/dump-complete.png)
 
-7. On your computer, ensure that you rename `DATE_SERIAL_nand_XX.bin` to `nand.bin`, and `SERIAL_keys.bin` to `keys.bin`. This ensures that BootMii can properly parse your NAND backup in the event that it needs to be restored.
+7. A számítógépeden nevedz át a `DATE_SERIAL_nand_XX.bin` fájlt `nand.bin` fájlra, és a `SERIAL_keys.bin`-t `keys.bin`-né. Ez biztosítja, hogy a BootMii megfelelően értelmezi-e a NAND mentésed arra az esetre, ha vissza kellene állítani.
 
    ![](/images/nanddumper@ios/rename-files.png)
 
@@ -85,15 +85,15 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 A Priiloader egy második réteg védelemmel látja el a Wiit és erősen javasolt a beállítása, még ha boot2 alá is telepítetted a BootMiit. A BootMii IOS-es felhasználóinak számára kiemelten fontos.
 
-If you are on Wii mini, this is your primary means of brick protection.
+Ha Wii mini-n vagy ez az elsődleges brick védelmed.
 
 :::
 
 ::::
 
-::::tab BootMii (backup method)
+::::tab BootMii (alternatív metódus)
 
-On Wii consoles with an SD card slot, BootMii allows for backing up and restoring your Wii's NAND storage. This section will guide you in backing up your Wii's NAND to an SD Card, which you can then use however you like.
+Az SD kártya slottal rendelkező Wii konzolokon a BootMii lehetővé teszi a Wii-on NAND tárolójának mentését. Ez a rész végigvezet az SD kártyára biztonsági mentés készítésén, amivel aztán úgy cselekedhetsz, ahogy szeretnél.
 
 Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
@@ -109,7 +109,7 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 - Kérjük jegyezd meg **egy biztonsági mentés visszatöltése általában a legvégső megoldás**. Ennek fényében használhatod a [BootMii helyreállítási útmutató](bootmiirecover) a NAND mentésed helyreállításához, ahol további információ és nyújtott a kockázatokról és az alternatívákról.
 
-- Family Edition Wiis CANNOT restore NAND backups without hardware modification. A biztonsági mentés visszaállításához egy olyan megerősítő kódot kell megadnod, amihez egy GameCube-vezérlő szükséges.
+- A Family Edition Wii-kon NEM LEHETSÉGES NAND mentéseket visszaállítani hardveres módosítások nélkül. A biztonsági mentés visszaállításához egy olyan megerősítő kódot kell megadnod, amihez egy GameCube-vezérlő szükséges.
 
 :::
 
@@ -117,13 +117,13 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 **Fontos figyelmeztetések**
 
-- This is intended to be a backup option, as BootMii is slower than nanddumper@ios. You need an **SD card** to use BootMii. If you do not have an SD card on hand right now, but instead have a usable USB drive, you can use the nanddumper@ios guide instead.
+- Ez egy pótmegoldás, mivel a BootMii lassabb, mint a nanddumper@ios. Szükséged van egy **SD kártyára** a BootMii használatához. Ha nincs nálad SD kártya épp most, de van használható USB drive-od használhatod a nanddumper@ios útmutató helyette.
 
 - Ha a `Launch BootMii` gomb nem jelenik meg a Homebew Channelben, [indítsd újra a HackMii-telepítőt](hackmii) és telepítsd újra a BootMiit.
 
 - Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Töltsd le [ezt a zip fájlt](/assets/files/bootmii_sd_files.zip) és csomagold ki az SD kártyád gyökerébe, majd próbáld újra.
 
-- BootMii cannot be used on the Wii mini without hardware modification. Use **nanddumper@ios** if you are a Wii mini user.
+- A BootMii nem használható a Wii mini-n hardver módosítás nélkül. Használd a **nanddumper@ios**-t ha egy Wii mini felhasználó vagy.
 
 :::
 

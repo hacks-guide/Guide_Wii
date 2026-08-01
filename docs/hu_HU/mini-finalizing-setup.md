@@ -23,7 +23,7 @@ A Wii mini Ethernet Enable egy homebrew app ami úgy patcheli a Wii mini-det, ho
 
    ![](/images/wii-mini/ethernet-enabler/launch-hb.png)
 
-5. The application will launch and should output `OK.` after attempting to enable Ethernet usage on your Wii mini. After this, press the `HOME` button on your Wii remote to exit the app.
+5. Az alkalmazás el fog indulni és ki fog írni egy `OK.`-t, miután megpróbálta bekapcsolni az Ethernet használatot a Wii mini-den. Ezt követően nyomd meg a `HOME` gombot a Wii remote-odon az appból kilépéshez.
 
    ![](/images/wii-mini/ethernet-enabler/success.png)
 
@@ -64,7 +64,7 @@ A System Channel Restorer egy homebrew app, ami visszaállítja a Wii mini menü
 
 ## EULA elfogadása
 
-In order to use features like WiiConnect24, you must accept the Wii User Agreement (EULA). This can normally only be done through the Wii Settings app or the Wii Shop Channel, however you can download a forwarder to launch the EULA from the Homebrew Channel.
+Ahhoy, hogy használni tudj olyan szolgáltatásokat, mint a WiiConnect24 el kell fogadnod a Wii felhasználási szerződést (EULA). Ez normál esetben a Wii Setting appal történik, vagy a Wii Shop Channel-el, azonban elindíthasz egy forwardert, hogy betöltsd az EULA-t a Homebrew Channel csatornáról.
 
 ### Követelmények
 
@@ -74,21 +74,21 @@ In order to use features like WiiConnect24, you must accept the Wii User Agreeme
 
 ### Lépések
 
-1. Download the forwarder above that matches the region of your Wii mini console. The forwarder will not work if you download the incorrect region.
+1. Töltsd le a fenti forwarderek közül azt, ami a Wii mini konzolod régiójának megfelel. A forwarder nem fog működni, ha a rossz régiós verziót töltesz le.
 
-2. Copy the `apps` folder in the `EULA_Loader_XXX.zip` file to the root of your USB drive.
+2. Másold az `apps` mappát az `EULA_Loader_XXX.zip` fájlból az USB drive-od gyökerébe.
 
 3. Indítsd el a Homebrew Channelt.
 
-4. Launch EULA Loader (your region) from the list of homebrew.
+4. Indítsd el az EULA Loader (régiód) szoftvert a homebrew-ok listájáról.
 
    ![](/images/wii-mini/eula-forwarder/launch-hb.png)
 
-5. The EULA will launch. Press the Next button to proceed.
+5. Az EULA el fog indulni. Nyomd meg a Next gombot a folytatáshoz.
 
    ![](/images/wii-mini/eula-forwarder/eula-start.png)
 
-6. Press I ACCEPT to accept the EULA. You will be returned to the Wii Menu afterwards.
+6. Nyomj I ACCEPT-et az EULA elfogadásához. Vissza fogsz térni a Wii Menube ezt követően.
 
    ![](/images/wii-mini/eula-forwarder/eula-accept.png)
 
