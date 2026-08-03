@@ -69,8 +69,8 @@ If `Press (1) to continue` does not show up after about 30 seconds, downloading 
 
 ### Requirements
 
-* a Wii with Priiloader (or Preloader) installed
-* An SD card or USB drive formatted to FAT32/MS-DOS
+* a Wii with BootMii installed
+* An SD card formatted to FAT32/MS-DOS
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
 
@@ -81,7 +81,8 @@ If `Press (1) to continue` does not show up after about 30 seconds, downloading 
 3. Enter BootMii
 ::: info
 If you have BootMii installed as boot2, you can access it by restarting the console.
-If you have BootMii installed as an IOS only, you can access it by Priiloader or The Homebrew Channel, however if you can access those it's easier to follow the guides above.
+
+If you have BootMii installed as an IOS only, you can access it via Priiloader or The Homebrew Channel, however if you can access those it's easier to follow the guides above.
 :::
 5. Navigate to the SD card icon and press `RESET` to select it.
 ::: info
