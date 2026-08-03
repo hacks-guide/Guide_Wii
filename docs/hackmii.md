@@ -69,7 +69,7 @@ If `Press (1) to continue` does not show up after about 30 seconds, downloading 
 
 ### Requirements
 
-* a Wii with BootMii installed
+* A Wii with BootMii installed
 * An SD card formatted to FAT32/MS-DOS
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
