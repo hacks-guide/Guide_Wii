@@ -76,7 +76,7 @@ If `Press (1) to continue` does not show up after about 30 seconds, downloading 
 
 ### Instructions
 
-1. Copy the `bootmini.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card drive.
+1. Copy the `bootmini.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card.
 1. Insert your SD into your Wii.
 1. Enter BootMii
 ::: info
