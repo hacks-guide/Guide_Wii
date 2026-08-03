@@ -65,6 +65,42 @@ If `Press (1) to continue` does not show up after about 30 seconds, downloading 
 
 :::
 
+:::
+
+## Relaunching via BootMii
+
+### Requirements
+
+* a Wii with Priiloader (or Preloader) installed
+* An SD card or USB drive formatted to FAT32/MS-DOS
+* [HackMii Installer v1.2](https://bootmii.org/download/)
+
+::: info
+
+To check if your Wii has Priiloader, hold the RESET button while turning it on.
+
+:::
+
+### Instructions
+
+1. Copy the `bootmini.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card or USB drive.
+2. Insert your SD/USB into your Wii.
+3. Enter BootMii
+::: tip
+If you have BootMii installed as boot2, you can access it by restarting the console.
+If you have BootMii installed as an IOS only, you can access it by Priiloader or The Homebrew Channel, however if you can access those it's easier to follow the guides above.
+:::
+5. Navigate to the SD card icon and press `RESET` to select it.
+::: tip
+Your Wii remote does not work in BootMii, instead you have to use POWER to move the cursour and RESET to select an icon.
+:::
+6. Navigate to `bootmini.elf` and press `RESET` to load it.
+
+::: info
+
+If `Press (1) to continue` does not show up after about 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
+
+:::
 ---
 
 ::: tip
