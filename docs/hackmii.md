@@ -86,7 +86,7 @@ If you have BootMii installed as an IOS only, you can access it via Priiloader o
 :::
 4. Navigate to the SD card icon and press `RESET` to select it.
 ::: info
-Your Wii remote does not work in BootMii, instead you have to use `POWER` to move the cursour and `RESET` to select an icon or use a GameCube controller plugged into port 1 to control BootMii.
+Your Wii remote does not work in BootMii, instead you have to use `POWER` to move the cursor and `RESET` to select an icon, or, alternatively use a GameCube controller plugged into port 1 to control BootMii.
 :::
 5. Navigate to `bootmini.elf` and press `RESET` to load it.
 
