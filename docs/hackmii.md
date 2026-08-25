@@ -111,13 +111,3 @@ If `Press (1) to continue` does not show up after around 30 seconds, downloading
 Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
 
 :::
-
----
-
-::: tip
-
-[Continue to Homebrew Channel and BootMii Installation](hbc)
-
-Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
-
-:::
