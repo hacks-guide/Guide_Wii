@@ -65,7 +65,7 @@ Please read the below information before proceeding further.
 
     ![](/images/nanddumper@ios/dump-in-progress.png)
 
-1. Once the NAND backup has concluded, press any button to exit nanddumper@ios. Your NAND backup and console keys will be output to your USB drive in directory `/wii/backups/`.
+1. Once the NAND backup has concluded, press any button to exit nanddumper@ios. Your NAND backup and console keys will be output to your USB drive or SD card in the directory `/wii/backups/`.
 
     ![](/images/nanddumper@ios/dump-complete.png)
 
@@ -73,7 +73,10 @@ Please read the below information before proceeding further.
 
     ![](/images/nanddumper@ios/rename-files.png)
 
----
+1. Copy `nand.bin`, `keys.bin`, and the two sha files to a safe location on your computer, then you may delete them from your **SD card or USB drive**.
+    * Ideally, these backup files should be stored in an area where they are on your hard drive and in a cloud location, such as OneDrive or iCloud Drive.
+
+    ![](/images/nanddumper@ios/PC-Copy.png)
 
 ::: tip
 
@@ -161,6 +164,11 @@ Please read the below information before proceeding further.
 1. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
 
     ![](/images/bootmii/BootMii_Return.png)
+
+1. Copy `nand.bin` and `keys.bin` to a safe location on your computer, then you may delete them from your **SD card**.
+    * Ideally, these backup files should be stored in an area where they are on your hard drive and in a cloud location, such as OneDrive or iCloud Drive.
+
+    ![](/images/bootmii/PC-Copy.png)
 
 ---
 
