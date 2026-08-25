@@ -73,28 +73,35 @@ If `Press (1) to continue` does not show up after about 30 seconds, downloading 
 * An SD card formatted to FAT32/MS-DOS
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
+::: info
+
+Your Wii remote will not work in BootMii. Instead, you must use the `POWER` button to move the cursor, as well as the `RESET` button to select an icon. Alternatively, use a GameCube Controller connected to Port 1 to control BootMii.
+
+:::
+
+::: warning
+
+If you can already access BootMii via IOS, it is generally easier to follow the sections above.
+
+:::
 
 ### Instructions
 
+1. Insert your SD card into your PC.
 1. Copy the `bootmini.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card.
-1. Insert your SD into your Wii.
-1. Enter BootMii
-::: info
-If you have BootMii installed as boot2, you can access it by restarting the console.
+1. Insert your SD card into your Wii.
+1. Enter BootMii via one of the following means:
+    * If installed as boot2, restart the console.
+    * If installed as IOS or if BootMii cannot be accessed via a restart, launch via Priiloader or the Homebrew Channel.
+1. Navigate to the SD card icon and press `RESET` to enter the SD card navigation menu.
+1. Navigate to `bootmini.elf` and press `RESET` to load the HackMii installer.
 
-If you have BootMii installed as an IOS only, you can access it via Priiloader or The Homebrew Channel, however if you can access those it's easier to follow the guides above.
-:::
-4. Navigate to the SD card icon and press `RESET` to select it.
-::: info
-Your Wii remote does not work in BootMii, instead you have to use `POWER` to move the cursor and `RESET` to select an icon, or, alternatively use a GameCube controller plugged into port 1 to control BootMii.
-:::
-5. Navigate to `bootmini.elf` and press `RESET` to load it.
+::: tip
 
-::: info
-
-If `Press (1) to continue` does not show up after about 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
+If `Press (1) to continue` does not show up after around 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
 
 :::
+
 ---
 
 ::: tip
