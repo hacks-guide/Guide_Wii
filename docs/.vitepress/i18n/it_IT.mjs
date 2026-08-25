@@ -1,6 +1,6 @@
-import { ko_KR as localeData } from './strings'
+import { it_IT as localeData } from './strings/index.mjs'
 
-const locale = "ko_KR";
+const locale = "it_IT";
 
 const sidebar_common = {
 	text: localeData.other,
@@ -669,8 +669,8 @@ const themeConfig = {
 };
 
 export default {
-	lang: "ko",
-	label: "🇰🇷 한국어",
+	lang: "it",
+	label: "🇮🇹 Italiano",
     title: localeData.title,
     description: localeData.description,
     themeConfig: themeConfig
