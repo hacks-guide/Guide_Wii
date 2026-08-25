@@ -87,9 +87,9 @@ If you can already access BootMii via IOS, it is generally easier to follow the 
 
 ### Instructions
 
-1. Insert your SD/USB into your PC.
+1. Insert your SD card into your PC.
 1. Copy the `bootmini.elf` file inside the HackMii Installer v1.2 `.zip` to the root of your SD card.
-1. Insert your SD into your Wii.
+1. Insert your SD card into your Wii.
 1. Enter BootMii via one of the following means:
     * If installed as boot2, restart the console.
     * If installed as IOS or if BootMii cannot be accessed via a restart, launch via Priiloader or the Homebrew Channel.
