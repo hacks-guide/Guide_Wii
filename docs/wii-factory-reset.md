@@ -80,7 +80,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
     ![](/images/factory-reset/nandcheck.png)
 
-1. If all is well, the result should look similar to the below. If there are *any* errors that stand out, **DO NOT** use this NAND and try again, as it may damage or permanently brick your Wii if used. If you continue to get errors on further attempts, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel for assistance.
+1. If all is well, the result should look similar to the below. If there are *any* errors that stand out, **DO NOT** use this NAND, as it may damage or permanently brick your Wii. If you continue to get errors on further attempts, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel for assistance.
 
     ![](/images/factory-reset/nandcheckresult.png)
 
