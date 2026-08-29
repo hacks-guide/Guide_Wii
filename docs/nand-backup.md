@@ -75,7 +75,7 @@ Please read the below information before proceeding further.
 
     ![](/images/nanddumper@ios/rename-files.png)
 
-1. Copy `nand.bin`, `keys.bin`, and the two sha files from the `/wii/backups` directory on your SD card or USB drive to a safe location on your computer, then you may delete them from your **SD card or USB drive**.
+1. Copy `nand.bin`, `keys.bin`, `sha1sums.txt1, and the .SHA1 hash file from the `/wii/backups` directory on your SD card or USB drive to a safe location. You may then optionally delete the files from your SD card or USB drive if you desire.
     * Ideally, these backup files should be stored in an area where they are on your hard drive and in a cloud location, such as OneDrive or iCloud Drive.
 
     ![](/images/nanddumper@ios/PC-Copy.png)
