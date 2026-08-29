@@ -1,52 +1,78 @@
-<div class="revisiontable auto-grid-width">
-    <div align="center" class="r1 c1 console-model">
-        Wii
+<div class="console-selector-grid">
+  <!-- Console Card 1: Wii -->
+  <div class="console-card">
+    <div class="console-header">Wii / Family Edition</div>
+    <div class="console-image-wrapper">
+      <img src="/images/get-started/wii.png" alt="Wii Console" class="console-img">
     </div>
-    <div align="center" class="r1 c2 console-model">
-        Wii Mini
+  </div>
+
+  <!-- Console Card 2: Wii mini -->
+  <div class="console-card">
+    <div class="console-header">Wii mini</div>
+    <div class="console-image-wrapper">
+      <img src="/images/get-started/wii-mini.png" alt="Wii Mini Console" class="console-img">
     </div>
-    <div align="center" class="r1 c3 console-model">
-        Wii U
+  </div>
+
+  <!-- Console Card 3: Wii U -->
+  <div class="console-card">
+    <div class="console-header">Wii U (vWii)</div>
+    <div class="console-image-wrapper">
+      <img src="/images/get-started/wii-u.png" alt="Wii U Console" class="console-img">
     </div>
-    <div class="r2 c1 console-img auto-grid-height">
-        <img src="/images/get-started/wii.png" alt="Wii Console">
-    </div>
-    <div class="r2 c2 console-img auto-grid-height">
-        <img src="/images/get-started/wii-mini.png" alt="Wii Mini Console">
-    </div>
-    <div class="r2 c3 console-img auto-grid-height">
-        <img src="/images/get-started/wii-u.png" alt="Wii U Console">
-    </div>
+  </div>
 </div>
 
-<style>
-.revisiontable {
+<style scoped>
+
+/* Main grid system */
+.console-selector-grid {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+  width: 100%;
 }
 
-.auto-grid-width {
-  grid-auto-columns: minmax(0, 1fr);
+/* Individual card Styling */
+.console-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--vp-c-bg-soft);
+  transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
-.auto-grid-height {
-  grid-template-rows: 0fr;
+/* Header text formatting */
+.console-header {
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-bg-mute);
+  border-bottom: 1px solid var(--vp-c-divider);
 }
 
-.revisiontable div {
-  border: 1px solid;
-}
-
-.console-img {
+/* Image Container with explicit aspect ratios to prevent layout shifts */
+.console-image-wrapper {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  background-color: var(--vp-c-bg-alt);
 }
 
-.r1 { grid-row: 1; }
-.r2 { grid-row: 2; }
-.c1 { grid-column: 1; }
-.c2 { grid-column: 2; }
-.c3 { grid-column: 3; }
-.c4 { grid-column: 4; }
+/* Image scaling restriction logic */
+.console-img {
+  max-width: 100%;
+  max-height: 140px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));
+}
 
 </style>
