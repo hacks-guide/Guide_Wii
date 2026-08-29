@@ -50,7 +50,7 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 ## Instructions
 
 1. Insert your SD card into your PC.
-1. Copy the `nand.bin` and `keys.bin` files from the place you stored your NAND backup on your computer to the root of your SD card.
+1. Determine if your NAND files are already on your SD card. If not, you must copy a backup of your `nand.bin` and `keys.bin` files to the SD card.
 1. Insert your SD card into your Wii.
 1. Launch the Homebrew Channel.
 1. Press the HOME Button, then select "Launch BootMii".
