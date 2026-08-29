@@ -16,7 +16,7 @@ Bricks can best be prevented by educating yourself on the common risks that lead
 | Restoring NAND backups from another console | This will immediately and likely **irreversibly** brick your Wii. Your NAND has unique AES/HMAC keys that are hardcoded to your console. By installing another console's NAND backup, the Wii's hardware will be unable to verify the authenticity of your NAND. As a result, it will halt and refuse to start up. If you have a NAND backup for your console that is nonfunctional, use the [factory reset](wii-factory-reset) guide to create a functional, blank NAND. |
 | Installing IOS designed for another system | This will result in a brick in the worst case scenario and is best avoided. The best example is installing a Wii IOS on a Wii mini; the Wii mini was designed without a Wi-Fi card. If you install a Wii IOS on the console, it will check for the presence of a Wi-Fi card and find none. As a result, it will hang and create the aformentioned [Wi-Fi brick](#wi-fi-brick). |
 | Changing console region erroneously | Region locks can be easily bypassed via software like [Priiloader](priiloader), as such, there is often no reason to region change your console. If you choose to, you must exercise **extreme caution** as the process can render your Wii unusable if you do not know what you are doing; especially if you use region changers for the Wii on a vWii or Wii mini, or vice versa. |
-| Installing updates for another region | Going in-hand with console region changes, there is often no reason to do this. In the worst case, it can result in a [Korean Kii/Error 003](bricks#koreankiierror-003-brick) brick, which will likely render your console unusable. You are highly advised to run [SysCheck](syscheck) on your console if you plan to make any version changes, such that you can determine its original region. Seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh) if you are attempting to apply updates to a Korean console. |
+| Installing updates for another region | Going in-hand with console region changes, there is often no reason to do this. In the worst case, it can result in a [Korean Kii/Error 003](bricks#koreankiierror-003-brick) brick, which will likely render your console unusable. You are highly advised to run [SysCheck](syscheck) on your console if you plan to make any version changes, such that you can determine its original region. Seek support using instructions at the bottom of the page if you are attempting to apply updates to a Korean console. |
 | Using non-RCE patched Nintendo WFC services | We only recommend using the WFC services provided in the [Nintendo WFC](nintendowfc) guide as they are known to be patched against RCE (remote code execution) exploits for the Wii. Other services are not patched against RCE, which could allow bad actors on their servers to brick your Wii. |
 | Modifying system files, or installing old Wii Menu versions | This is almost always unnecessary. We highly recommend doing these tasks in Dolphin if you are curious, instead of attempting it on a real console. Attempting to do this will likely render your console unusable via an [IOS brick](#ios-brick) if you are not aware of what you are doing. |
 | Installing unknown homebrew | Homebrew is created by real people for many different reasons. There have been previous incidents of malicious homebrew created for the Wii, although it is highly unlikely you would find this software. We advise that you source homebrew from the [Open Shop Channel](osc) as submitted homebrew is vetted for safety and held to a baseline standard of quality. |
@@ -32,7 +32,7 @@ In any case, you should absolutely:
 
 ## Diagnosis
 
-This is a section intended to help you diagnose a potential brick, in order by least to highest console functionality. If you seem to have a brick that isn't covered in this section or in the guide, please join the Nintendo Homebrew Discord server for support.
+This is a section intended to help you diagnose a potential brick, in order by least to highest console functionality. If you seem to have a brick that isn't covered in this section or in the guide, please scroll to the bottom of the page for support instructions.
 
 ### Wii Boot Process
 
@@ -95,7 +95,10 @@ When navigating to Wii Settings, you get an error from the Opera web browser wit
 
 #### Cause
 
-A semibrick occurs when a different region Wii Menu or a different region custom theme is installed. As the Wii Settings menu is rendered using HTML pages with Opera, themes often replace these pages and put them in different directories; essentially leading to a `404 Not Found` error but in the form of a console brick.
+A semibrick occurs when a different region Wii Menu or a different region custom theme is installed. As the Wii Settings menu is rendered using HTML pages with Opera, themes often replace these pages and put them in different directories; essentially leading to a `404 Not Found` error but in the form of a con**Description**
+
+<!--What does this pull request do? Why is it needed?-->
+sole brick.
 
 ![](/images/bricks/semibrick.png)
 
