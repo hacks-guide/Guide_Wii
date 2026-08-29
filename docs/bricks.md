@@ -317,6 +317,7 @@ First, troubleshooting must be done to determine if hardware is at fault. In the
 Need more assistance? Join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel, while noting that you came from this page and are trying to resolve a brick or other issue. Please provide the following information:
 
 1. The exact error message or console state that you see, with a photo if applicable
+1. The exact steps you took prior to the issue, as far as you remember
 1. A [SysCheck](syscheck) log if possible to obtain
 1. Whether or not you have a NAND backup available
 1. Whether or not you installed Priiloader, BootMii as IOS, or BootMii as boot2
