@@ -65,7 +65,7 @@ Please read the below information before proceeding further.
 
     ![](/images/nanddumper@ios/dump-in-progress.png)
 
-1. Once the NAND backup has concluded, press any button to exit nanddumper@ios. Your NAND backup and console keys will be output to your USB drive or SD card in the directory `/wii/backups/`.
+1. Once the NAND backup has concluded, press any button to exit nanddumper@ios. Your NAND backup and console keys will be output to your SD card or USB drive in the directory `/wii/backups/`.
 
     ![](/images/nanddumper@ios/dump-complete.png)
 
