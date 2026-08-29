@@ -10,7 +10,7 @@ Please read the information below before proceeding further.
 
 * Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
-* If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+* If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 4 and 5 if this is the case.
 
 * If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is likely a [Wi-Fi Brick](bricks#wi-fi-brick).
 
