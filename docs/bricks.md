@@ -323,6 +323,8 @@ Need more assistance? Join the [Nintendo Homebrew Discord](https://discord.gg/C2
 1. Whether or not you installed Priiloader, BootMii as IOS, or BootMii as boot2
 1. The specific model of console you are working with (Original Wii, Family Edition Wii, Wii mini, vWii on Wii U)
 
+If your English isn't the best, use a translator such as [Google Translate](https://translate.google.com/) to submit your questions so that we can assist.
+
 :::
 
 ---
