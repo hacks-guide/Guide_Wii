@@ -41,7 +41,7 @@ Specifically, this page outlines homebrew and other projects that are recommende
 
 ---
 
-::: tip
+::: success
 
 **End of Main Guide**
 
