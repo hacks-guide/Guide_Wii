@@ -235,7 +235,7 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
 ---
 
-::: tip 
+::: tip
 
 **If cIOS is configured, you can use USB Loader GX or WiiFlow to play Wii games from your USB drive or SD card. You can also use Nintendont to play GameCube games from your USB drive or SD card.**
 
