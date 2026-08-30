@@ -247,8 +247,4 @@ You can also use [Nintendont](nintendont) to play GameCube games from your USB d
 
 ---
 
-::: tip
-
-[Click here to go back to the site index.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

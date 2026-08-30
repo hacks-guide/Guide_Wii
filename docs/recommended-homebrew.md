@@ -62,24 +62,24 @@ We also have additional content on the [hacks.guide wiki](https://wiki.hacks.gui
 
 ---
 
-::: tip
+::: info
 
-[Click here to join the Nintendo Homebrew discord server for support and more.](https://discord.gg/C29hYvh)
+**Click the button below to join the Nintendo Homebrew discord server for support and more.**
 
-:::
-
----
-
-::: tip
-
-[Click here to join the the Wii mini Hacking discord server for targeted Wii mini support and more.](https://discord.gg/6ryxnkS)
+[Nintendo Homebrew Discord Server](https://discord.gg/C29hYvh){.btn .btn-solid}
 
 :::
 
 ---
 
-::: tip
+::: info
 
-[Click here to go back to the site index.](site-navigation)
+**Click the button below to join the the Wii mini Hacking discord server for targeted Wii mini support and more.**
+
+[Wii mini Hacking Discord Server](https://discord.gg/6ryxnkS){.btn .btn-solid}
 
 :::
+
+---
+
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

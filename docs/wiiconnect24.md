@@ -133,8 +133,8 @@ If you are on the Wii U, please ensure that you install WiiVCLaunch to ensure th
 
 ::: tip
 
-[Proceed to Nintendo Wi-Fi Connection](nintendowfc)
+**This guide explains how to restore Nintendo Wi-Fi Connection functionality, allowing you to play games like Mario Kart Wii online again.**
 
-This guide explains how to restore Nintendo Wi-Fi Connection functionality, allowing you to play games like Mario Kart Wii online again. While there are different services that might allow this, the one covered here will be Wiimmfi.
+[Continue to Nintendo Wi-Fi Connection →](nintendowfc){.btn .btn-solid}
 
 :::

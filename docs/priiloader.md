@@ -4,12 +4,6 @@
 
 Additionally, it can be used to quickly launch any title or homebrew app, or change the way your Wii boots.
 
-::: info
-
-You can see the [Priiloader Usage](priiloader-usage) page for more information about Priiloader's additional options and System Menu Hacks.
-
-:::
-
 ## Requirements
 
 * An SD card or USB drive
@@ -96,9 +90,19 @@ Doing so will cause Priiloader to fail to find the `hacks_hash.ini` file.
 
 ::: info
 
-[View the Brick Prevention Guidelines](bricks#brick-prevention)
+**The below link provides guidelines that will assist you in preventing bricks, beyond just having BootMii and Priiloader installed.**
 
-These guidelines list ways that will help avoid bricking your Wii, beyond just having BootMii and Priiloader installed.
+[View the Brick Prevention Guidelines](bricks#brick-prevention){.btn .btn-solid}
+
+:::
+
+---
+
+::: info
+
+**You can see the Priiloader Usage page for more information about Priiloader's additional options and System Menu Hacks.**
+
+[View the Priiloader Usage Guide](priiloader-usage){.btn .btn-solid}
 
 :::
 
@@ -106,8 +110,8 @@ These guidelines list ways that will help avoid bricking your Wii, beyond just h
 
 ::: tip
 
-Continue to [cIOS](cios)
+**The next guide provides steps on how to get a basic set of cIOS installed on your console, enabling functionality on apps like USB loaders.**
 
-This guide provides steps on how to get a basic set of cIOS installed on your console, enabling functionality on apps like USB loaders.
+[Continue to cIOS Installation →](cios){.btn .btn-solid}
 
 :::

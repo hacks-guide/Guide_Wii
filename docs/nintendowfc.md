@@ -240,8 +240,8 @@ A method for Wiimmfi patching which runs on game disc images, but must be manual
 
 ::: tip
 
-Continue to [Recommended Homebrew](recommended-homebrew)
+The below guide provides a selection of homebrew that highlights some of the things you can now do with your Wii. These include emulators, game hacks, and more.
 
-This guide provides a selection of homebrew that highlights some of the things you can now do with your Wii. These include emulators, game hacks, and more.
+[Continue to Recommended Homebrew →](recommended-homebrew){.btn .btn-solid}
 
 :::

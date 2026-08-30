@@ -253,8 +253,4 @@ First, troubleshooting must be done to determine if hardware is at fault. In the
 
 ---
 
-::: tip
-
-[Click here to go back to the site index.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}
