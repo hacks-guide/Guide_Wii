@@ -14,6 +14,8 @@ hero:
 
 Beyond this estimate, we recommend allocating more time as needed to allow yourself to read and fully understand the guide material. This ensures you can properly execute guide instructions and keep your Wii, vWii, or Wii mini safe and functional.
 
+We also highly advise you to read this introduction page in detail; although it is information dense, it is designed to provide you with important information to streamline your modding process.
+
 Required device backups typically take 5 to 10 minutes to complete. This may vary based on your backup method, SD card specifications, and console choice.
 
 :::
@@ -82,9 +84,11 @@ It is recommended that you check the links above during or after the standard co
 
 ## What do I need to follow this guide?
 
-You will need **different equipment** depending on whether you are trying to mod a Wii, vWii, or Wii mini. This equipment will be outlined on a later guide page when you are asked to choose an exploit method to mod your console.
+You will need **different equipment** depending on whether you are trying to mod a Wii, vWii, or Wii mini. This equipment will be outlined on the next guide page when you are asked to choose an exploit method to mod your console. Other important information about the equipment you may need is also outlined in the following section.
 
 ## What else should I know before proceeding?
+
+### Important Prerequisites
 
 ::: danger
 
@@ -101,7 +105,7 @@ Other things you should avoid to help prevent bricking your console are:
 * Installing updates intended for another region, modifying system files, or region changing your console unless you know **exactly** what you are doing
 * Installing IOS intended for a specific console onto another; this will also result in an **immediate** brick in the worst case scenarios
 
-More information about bricks can be found on the [bricks page](bricks).
+More information about bricks, alongside tips to prevent them, can be found on the [bricks page](bricks).
 
 :::
 
@@ -124,11 +128,39 @@ If your English isn't the best, use a translator such as [Google Translate](http
 
 :::
 
+### Hardware Compatibility
+
 ::: tip
 
-**Compatibility**
+**Storage Compatibility**
 
-This guide will work on first-generation (V1) and modchipped Switch consoles in all regions on any firmware version.
+For SD cards, you will want a minimum of 128MB to run an exploit. On average, however, you will want a card that is sized 2GB or more. The Wii can read SD cards of most capacities (even those larger than 32GB), but the card must be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) (**not** exFAT or NTFS).
+
+For USB devices, you will want to use a USB hard drive or solid state drive [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card). We do not recommend using flash drives as they are prone to failure or not working as intended with a Wii.
+
+2.5 inch drives should work fine in most cases running off of USB power alone on a Wii, but 3.5 inch drives consume more power and will always need an external power adapter. For Wii U and Wii mini users, you will probably want to use an externally powered USB hub or a Y-cable for drives that operate off of USB power alone, due to power draw.
+
+Please consult [the storage FAQ](faq#storage-device-faq) for more information.
+
+:::
+
+::: tip
+
+**Network Compatibility**
+
+The Wii is an aging console, and as such, may have difficulties connecting to modern wireless networks.
+
+Its network hardware is based on 802.11g (retroactively named Wi-Fi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use Wi-Fi with your Wii.
+
+For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch) Aroma plugin.
+
+Please consult [the network FAQ](faq#networking-faq) for more information.
+
+:::
+
+::: tip
+
+**Base Console Compatibility**
 
 This guide works with all off-the-shelf retail Wiis, including Wii mini and the Wii U's Wii mode (or vWii).
 It does **NOT** work with development Wiis, including models:
@@ -137,16 +169,42 @@ It does **NOT** work with development Wiis, including models:
 * RVT-002 (green frontplate)
 * RVT-005 (red frontplate)
 
+More information about compatability for specific supported consoles is below.
+
+:::
+
+::: details Compatability with Korean Wiis
+
+Korean Wiis are fully supported by the guide and can be modded via normal procedures. Korean Wiis can also be region changed; for example, changed from `4.3K` to `4.3U` so that the console behaves like a North American unit.
+
+Exercise heavy caution when modifying region data and follow the guide carefully to avoid a brick, as Korean Wiis are particularly susceptible to the [Error 003](bricks#koreankiierror-003-brick) brick.
+
+:::
+
+::: details Compatability with vWii (Wii U Wii Mode)
+
+Wii mode on Wii U (called vWii in the homebrew community) is fully supported by the guide, however we recommend that you set up Aroma beforehand if it has not already been done. Visit [wiiu.hacks.guide](https://wiiu.hacks.guide) to learn more.
+
+Missing Wii features can be restored. Almost all existing homebrew is currently supported (except for GameCube homebrew).
+
+Storage devices will need additional power (either using a Y-cable or an external power source), as the Wii U's USB ports do not provide sufficient power on their own.
+
+Make sure to use IOS and homebrew that are designed specifically for vWii in order to avoid bricking the console.
+
+:::
+
+::: details Compatability with Wii mini
+
+Wii Mini is fully supported by the guide and has compatibility with most existing homebrew.
+
+Missing Wii features can be restored. A LAN adapter and USB hub are recommended.
+
+Make sure to use IOS and homebrew that are designed specifically for the Wii mini in order to avoid bricking the console.
+
 :::
 
 ## Ready to start?
 
-If so, please click the button below to proceed to the main guide.
+If so, please click the button below to begin the modding process.
 
-::: tip
-
-[Continue to Key Information →](key-information){.btn .btn-solid}
-
-This page outlines important information and disclaimers that you should be aware of before starting with the modding process.
-
-:::
+[Continue to Get Started →](get-started){.btn .btn-solid}

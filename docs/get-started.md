@@ -1,14 +1,22 @@
 # Get Started
 
-::: info
-
-It is recommended to at least have an SD card on hand after the initial hack process, as this will enable you to make a NAND backup using BootMii and take advantage of more homebrew.
-
-:::
-
 The exploits listed for the Wii and Wii mini will bring you to the HackMii installer. The HackMii installer will install the Homebrew Channel (used for lauching homebrew) as well as BootMii (used for creating and restoring NAND backups), depending on your console.
 
 Wii mode on Wii U has a slightly different exploitation process, and will not launch the HackMii installer. Instead, you will exploit Wii mode through the Wii U menu and proceed as instructed.
+
+::: danger
+
+**NAND Backup Disclaimer**
+
+You are highly advised to hold a usable SD card or USB drive on hand in order to create a NAND backup. The table below illustrates what you may use according to your console:
+
+|       CONSOLE        | USB DRIVE | SD CARD |
+| :------------------: | :-------: | :-----: |
+| Wii / Family Edition |     ✅    |    ✅   |
+|     Wii U (vWii)     |     ⛔    |    ✅   |
+|       Wii mini       |     ✅    |    ⛔   |
+
+:::
 
 ## Is your Wii already softmodded?
 
@@ -29,9 +37,3 @@ If you have a Wii or Wii mini that is already softmodded and you would like to u
 Select the exploit that corresponds to your console and situation the best.
 
 <!--@include: @/_include/exploit-select.html -->
-
-## Alternate Methods
-
-If possible, you should follow the methods given above.
-
-If the recommended option does not work for you, or if you are curious about other exploits, check out [Legacy Exploits](legacy-exploits).
