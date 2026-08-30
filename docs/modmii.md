@@ -67,8 +67,8 @@ There are two different ways to use ModMii: ModMii Classic, a fully-featured com
 
 * A Wii or Wii U
 * A USB drive or SD card
-   * The drive should be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
-   * See the [Storage Device FAQ](faq#storage-device-faq) for more info
+    * The drive should be [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+    * See the [Storage Device FAQ](faq#storage-device-faq) for more info
 * A Windows PC (a Virtual Machine will work)
 * [ModMii](https://modmii.github.io/)
 
