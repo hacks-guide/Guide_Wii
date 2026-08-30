@@ -10,7 +10,7 @@ Please read the information below before proceeding further.
 
 * Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
-* If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 1 and 2 if this is the case.
+* If you have BootMii installed as boot2, you will need to launch BootMii by restarting the console. Skip steps 4 and 5 if this is the case.
 
 * If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is likely a [Wi-Fi Brick](bricks#wi-fi-brick).
 
@@ -49,6 +49,9 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ## Instructions
 
+1. Insert your SD card into your PC.
+1. Determine if your NAND files are already on your SD card. If not, you must copy a backup of your `nand.bin` and `keys.bin` files to the SD card.
+1. Insert your SD card into your Wii.
 1. Launch the Homebrew Channel.
 1. Press the HOME Button, then select "Launch BootMii".
     * If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.

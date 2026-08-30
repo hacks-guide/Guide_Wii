@@ -65,15 +65,20 @@ Please read the below information before proceeding further.
 
     ![](/images/nanddumper@ios/dump-in-progress.png)
 
-1. Once the NAND backup has concluded, press any button to exit nanddumper@ios. Your NAND backup and console keys will be output to your USB drive in directory `/wii/backups/`.
+1. Once the NAND backup has concluded, press any button to exit nanddumper@ios. Your NAND backup and console keys will be output to your SD card or USB drive in the directory `/wii/backups/`.
 
     ![](/images/nanddumper@ios/dump-complete.png)
+
+1. Insert your SD card or USB drive into your computer.
 
 1. On your computer, ensure that you rename `DATE_SERIAL_nand_XX.bin` to `nand.bin`, and `SERIAL_keys.bin` to `keys.bin`. This ensures that BootMii can properly parse your NAND backup in the event that it needs to be restored.
 
     ![](/images/nanddumper@ios/rename-files.png)
 
----
+1. Copy `nand.bin`, `keys.bin`, `sha1sums.txt`, and the .SHA1 hash file from the `/wii/backups` directory on your SD card or USB drive to a safe location. You may then optionally delete the files from your SD card or USB drive if you desire.
+    * Ideally, these backup files should be stored in at least two locations; preferably a local drive you have control over like your computer's hard drive, and in a cloud location, such as OneDrive or iCloud Drive.
+
+    ![](/images/nanddumper@ios/PC-Copy.png)
 
 ::: tip
 
@@ -161,6 +166,13 @@ Please read the below information before proceeding further.
 1. Press the Back button (the one with an arrow), then press either the Wii Menu button or the Homebrew Channel button to exit BootMii.
 
     ![](/images/bootmii/BootMii_Return.png)
+
+1. Insert your SD card into your computer.
+
+1. Copy `nand.bin` and `keys.bin` from the root of your SD card to a safe location. You may then optionally delete the files from your SD card or USB drive if you desire.
+    * Ideally, these backup files should be stored in at least two locations; preferably a local drive you have control over like your computer's hard drive, and in a cloud location, such as OneDrive or iCloud Drive.
+
+    ![](/images/bootmii/PC-Copy.png)
 
 ---
 
