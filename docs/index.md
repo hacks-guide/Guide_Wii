@@ -68,7 +68,7 @@ cIOS is a custom-engineered type of IOS that is based off of an ideal IOS versio
 
 This guide has the end-goal of taking a completely unmodified Wii, vWii, or Wii mini and putting it into a state where homebrew can be ran. You will not lose any data so long as you follow guide instructions as written; your saves and games will not be lost and the functionality of your console will only be enhanced.
 
-Your console will be modded through the usage of the **HackMii Installer**. This will install the Homebrew Channel, your primary entry point for running homebrew, as well as ModMii, a crucial protection tool for your console. After this, the guide will provide additional protection via a tool called Priiloader, and provide instructions on how to install other recommended tools and software, if you so choose.
+Your console will be modded through the usage of the **HackMii Installer**. This will install the Homebrew Channel, your primary entry point for running homebrew, as well as BootMii, a crucial protection tool for your console. After this, the guide will provide additional protection via a tool called Priiloader, and provide instructions on how to install other recommended tools and software, if you so choose.
 
 ## What can I do with homebrew?
 
