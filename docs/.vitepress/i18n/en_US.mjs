@@ -17,8 +17,9 @@ const themeConfig = {
 	returnToTopLabel: localeData.returnToTopLabel,
 
 	nav: [
-		{ text: localeData.pages["site-navigation"], link: `/site-navigation` },
 		{ text: localeData.pages["faq"], link: `/faq` },
+		{ text: localeData.pages["glossary"], link: `/glossary` },
+		{ text: localeData.pages["site-navigation"], link: `/site-navigation` },
 		{
 			text: localeData.extras,
 			items: [
