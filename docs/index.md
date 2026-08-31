@@ -113,7 +113,7 @@ More information about bricks, alongside tips to prevent them, can be found on t
 
 **Getting Assistance**
 
-Need more assistance? Join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel. Please provide the following information:
+Need more assistance? Join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and ask for help in English on the `#wii-vwii-assistance` channel. Please provide the following information:
 
 1. The exact error message or console state that you see, with a photo if applicable
 1. The exact steps you took prior to the issue, as far as you remember
@@ -150,7 +150,7 @@ Please consult [the storage FAQ](faq#storage-device-faq) for more information.
 
 The Wii is an aging console, and as such, may have difficulties connecting to modern wireless networks.
 
-Its network hardware is based on 802.11g (retroactively named Wi-Fi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use Wi-Fi with your Wii.
+Its network hardware is based on 802.11g (retroactively named Wi-Fi 3), which operates on the 2.4 GHz band. It also supports a maximum of WPA2-PSK (AES) personal network encryption. You must make sure your network supports these standards if you would like to use Wi-Fi with your Wii; please note that routers from Xfinity and Spectrum are known to be incompatible with these settings.
 
 For the Wii U, vWii uses the internet settings set in the Wii U's main settings, but can be optionally separated with the [Wii VC Launch](https://hb-app.store/wiiu/WiiVCLaunch) Aroma plugin.
 
@@ -178,6 +178,8 @@ More information about compatability for specific supported consoles is below.
 Korean Wiis are fully supported by the guide and can be modded via normal procedures. Korean Wiis can also be region changed; for example, changed from `4.3K` to `4.3U` so that the console behaves like a North American unit.
 
 Exercise heavy caution when modifying region data and follow the guide carefully to avoid a brick, as Korean Wiis are particularly susceptible to the [Error 003](bricks#koreankiierror-003-brick) brick.
+
+If you are attempting to region change a Korean Wii and are unsure of the exact process to do so, please join the Nintendo Homebrew Discord by referencing the information above.
 
 :::
 
