@@ -177,4 +177,4 @@ This glossary provides the foundational terms used on this guide and in the Wii 
 
 ---
 
-[← Return to Home Page](site-navigation){.btn .btn-solid}
+[← Return to Home Page](index){.btn .btn-solid}
