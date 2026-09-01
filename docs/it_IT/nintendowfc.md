@@ -111,7 +111,9 @@ Un metodo per la patch di Wiimmfi che viene eseguito automaticamente sui giochi 
 
 #### Istruzioni
 
-1. Vai su `Impostazioni console Wii` -> `Internet` -> `Impostazioni di collegamento` e seleziona la connessione che stai utilizzando. Poi, `Modifica` -> `Ottieni automaticamente DNS NO` -> `Impostazioni avanzate`. Imposta il DNS primario su `95.217.77.181` e quello secondario su `1.1.1.1`.
+1. Vai su `Impostazioni console Wii` -> `Internet` -> `Impostazioni di collegamento` e seleziona la connessione che stai utilizzando. Poi, `Modifica` -> `Ottieni automaticamente DNS NO` -> `Impostazioni avanzate`. Imposta i DNS come segue:
+   - DNS primario: `95.217.77.181`
+   - DNS secondario: `1.1.1.1` (Cloudflare)
 2. Lascia che si completi la prova di connessione e non effettuare un aggiornamento di sistema.
 3. Avvia il gioco tramite il Canale Disco; ora la patch Wiimmfi dovrebbe funzionare.
 
@@ -120,6 +122,8 @@ Un metodo per la patch di Wiimmfi che viene eseguito automaticamente sui giochi 
 Se ricevi l'errore `20100` o `20110`, il gioco non è supportato da questo metodo.
 
 Se ricevi l'errore `23400`, il tuo ISP o la rete sta bloccando l'uso del DNS personalizzato. Per risolvere questo problema, Wiimmfi consente di eseguire un server DNS personalizzato su un PC. Per saperne di più, consulta [il sito di Wiimmfi](https://wiimmfi.de/patcher/dnspatch#customdns).
+
+Se scopri di star riscontrando problemi col DNS secondario, puoi provare a usare un altro provider. Consigliamo di usare o `8.8.8.8` (Google) o `9.9.9.9` (Quad9).
 
 :::
 

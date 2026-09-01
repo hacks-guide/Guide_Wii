@@ -4,19 +4,21 @@ Ez az útmutató bemutatja a Wii mentés betöltőit. Ezek elsősorban a kiskere
 
 ::: warning
 
-Ahhoz, hogy a Wii loader megfelelően működjön, a legújabb cIOS-t kell telepíteni. Kérjük, nézd meg [ezt](cios) az útmutatót az utasításokért, ha Wii-t használsz, és [ezt az útmutatót, ha Wii mini-t](cios-mini).
+Ahhoz, hogy a Wii mentés betöltők megfelelően működjenek, a legújabb cIOS-t kell telepítve legyen. Kérjük tekintsd meg a [Wii cIOS](cios) útmutatót vagy a [Wii mini cIOS](cios-mini) útmutató a cIOS telepítési lépésekért.
+
+:::
+
+::: warning
+
+A játékokhoz ajánlott, hogy nagy SD kártyát vagy külső drive-ot használj. A flash drive-ok nagyon változók funkcionalitásban, ezét nem ajánlottak. Lásd a [tárolási GYIK-et](faq).
 
 :::
 
 ::: info
 
-A játékok lejátszásához ajánlott egy nagy SD-kártyát vagy egy külső merevlemezt használni, a flash meghajtók nem ajánlottak, és nagyon szórványosan működnek. Lásd a [tárolási GYIK-et](faq).
+A hivatalos USB Loader GX forwarder letölthető közvetlenül a [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) oldalról. A [YAWM ModMii Edition](yawmme) segítségével telepítheted.
 
-:::
-
-::: info
-
-A hivatalos Wii Menu forwarder telepítő WiiFlow Lite-hoz megtalálható az [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer) csatornán. A forwarder telepítéséhez futtasd az alkalmazást a Homebrew Channel csatornán. A hivatalos USB Loader GX forwarder megtalállható a [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) oldalon. A [YAWM ModMii Edition](yawmme) segítségével telepítheted.
+Információ a WiiFlow Lite forwarderekről elérhető a [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii:Forwarders/WiiFlow)-ban.
 
 :::
 
@@ -54,7 +56,7 @@ Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható.
 
 ## WiiFlow Lite
 
-### Követelmények
+### Requirements
 
 - Egy moddolt Wii
 - A [cIOS](cios) legutolsó verziója
@@ -105,7 +107,7 @@ Amikor a kurzort a képernyő aljára viszed, miközben az flow nézetben vagy, 
 
 ## USB Loader GX
 
-### Követelmények
+### Requirements
 
 - Egy moddolt Wii
 - A [cIOS](cios) legutolsó verziója

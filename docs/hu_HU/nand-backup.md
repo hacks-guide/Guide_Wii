@@ -69,15 +69,21 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
    ![](/images/nanddumper@ios/dump-in-progress.png)
 
-6. Ha a NAND mentés megtörtént, nyomj tetszőleges gombot a nanddumper@ios-ból kilépéshez. A NAND mentésed és a konzol kulcsok az USB drive `/wii/backups/` könyvtárába fog kerülni.
+6. Ha a NAND mentés megtörtént, nyomj tetszőleges gombot a nanddumper@ios-ból kilépéshez. Your NAND backup and console keys will be output to your SD card or USB drive in the directory `/wii/backups/`.
 
    ![](/images/nanddumper@ios/dump-complete.png)
 
-7. A számítógépeden nevedz át a `DATE_SERIAL_nand_XX.bin` fájlt `nand.bin` fájlra, és a `SERIAL_keys.bin`-t `keys.bin`-né. Ez biztosítja, hogy a BootMii megfelelően értelmezi-e a NAND mentésed arra az esetre, ha vissza kellene állítani.
+7. Csatlakoztasd a pendrive-ot vagy az SD kártyát a számítógépedbe!
+
+8. A számítógépeden nevedz át a `DATE_SERIAL_nand_XX.bin` fájlt `nand.bin` fájlra, és a `SERIAL_keys.bin`-t `keys.bin`-né. Ez biztosítja, hogy a BootMii megfelelően értelmezi-e a NAND mentésed arra az esetre, ha vissza kellene állítani.
 
    ![](/images/nanddumper@ios/rename-files.png)
 
----
+9. Copy `nand.bin`, `keys.bin`, `sha1sums.txt`, and the .SHA1 hash file from the `/wii/backups` directory on your SD card or USB drive to a safe location. You may then optionally delete the files from your SD card or USB drive if you desire.
+
+   - Ideally, these backup files should be stored in at least two locations; preferably a local drive you have control over like your computer's hard drive, and in a cloud location, such as OneDrive or iCloud Drive.
+
+   ![](/images/nanddumper@ios/PC-Copy.png)
 
 ::: tip
 
@@ -169,6 +175,14 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 9. Nyomd meg a Back gombot (a gomb egy nyíllal), majd a BootMii-ből kilépéshez nyomd meg a Wii menü vagy a Homebrew Channel gombot.
 
    ![](/images/bootmii/BootMii_Return.png)
+
+10. Csatlakoztasd az SD kártyád a számítógépedhez.
+
+11. Copy `nand.bin` and `keys.bin` from the root of your SD card to a safe location. You may then optionally delete the files from your SD card or USB drive if you desire.
+
+    - Ideally, these backup files should be stored in at least two locations; preferably a local drive you have control over like your computer's hard drive, and in a cloud location, such as OneDrive or iCloud Drive.
+
+    ![](/images/bootmii/PC-Copy.png)
 
 ---
 

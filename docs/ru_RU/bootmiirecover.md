@@ -10,7 +10,7 @@ Please read the information below before proceeding further.
 
 - Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. Это происходит из-за отсутствия портов GameCube, которые требуется для Wii без модифицированного boo2 для ввода кода подтверждения восстановления. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
-- If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. В таком случае пропустите шаги 1 и 2.
+- If you have BootMii installed as boot2 you will need to launch BootMii by restarting the console. Skip steps 4 and 5 if this is the case.
 
 - If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is likely a [Wi-Fi Brick](bricks#wi-fi-brick).
 
@@ -49,41 +49,47 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ## Инструкции
 
-1. Launch the Homebrew Channel, and launch the Load Priiloader app.
+1. Insert your SD card into your PC.
 
-2. Нажмите кнопку HOME, затем выберите "Launch BootMii".
+2. Determine if your NAND files are already on your SD card. If not, you must copy a backup of your `nand.bin` and `keys.bin` files to the SD card.
+
+3. Insert your SD card into your Wii.
+
+4. Launch the Homebrew Channel, and launch the Load Priiloader app.
+
+5. Нажмите кнопку HOME, затем выберите "Launch BootMii".
 
    - Если к Homebrew Channel нет доступа, но у вас установлен Priiloader, вы можете перейти в Priiloader при старте вашей консоли и выбрать `BootMii IOS` для загрузки BootMii.
 
    ![](/images/bootmii/BootMii_HBC.png)
 
-3. Select the Options button (the icon with the gears).
+6. Select the Options button (the icon with the gears).
 
    ![](/images/bootmii/BootMii_Gears.png)
 
-4. Select the RestoreMii button.
+7. Select the RestoreMii button.
 
    ![](/images/bootmii/BootMii_Restore.png)
 
-5. `BootMii` проинформирует вас о том, что он работает в режиме симулятора (SIMULATION mode), вы можете нажать A или Reset чтобы продолжить.
+8. `BootMii` проинформирует вас о том, что он работает в режиме симулятора (SIMULATION mode), вы можете нажать A или Reset чтобы продолжить.
 
    ![](/images/bootmii/BootMii_NAND_Simulation.png)
 
-6. On your GameCube controller, input the Konami code: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
+9. On your GameCube controller, input the Konami code: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 
    ![](/images/bootmii/BootMii_NAND_Konami.png)
 
-7. BootMii начнет процесс восстановления в режиме симулятора, подробно выводя что будет стерто и перезаписано. Как только процесс закончится, у вас есть последний шанс выйти из режима восстановления. Для начала процесса нажмите START или кнопку открытия дисковода (Eject).
+10. BootMii начнет процесс восстановления в режиме симулятора, подробно выводя что будет стерто и перезаписано. Как только процесс закончится, у вас есть последний шанс выйти из режима восстановления. Для начала процесса нажмите START или кнопку открытия дисковода (Eject).
 
-   ![](/images/bootmii/BootMii_NAND_Restore.png)
+    ![](/images/bootmii/BootMii_NAND_Restore.png)
 
-8. После того как процесс восстановления окончится, вы должны увидеть текст `I HAZ SUCCESS!` в случае успешного восстановления, или `I HAZ FAIL` в случае неудачи. Нажмите на любую кнопку на консоли Wii или контролере GameCube.
+11. После того как процесс восстановления окончится, вы должны увидеть текст `I HAZ SUCCESS!` в случае успешного восстановления, или `I HAZ FAIL` в случае неудачи. Нажмите на любую кнопку на консоли Wii или контролере GameCube.
 
-   ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
+    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
-9. To exit BootMii, press the Back button (the one with the arrow) and then you can press either the Wii Menu button or the Homebrew Channel button to exit where you want to.
+12. To exit BootMii, press the Back button (the one with the arrow) and then you can press either the Wii Menu button or the Homebrew Channel button to exit where you want to.
 
-   ![](/images/bootmii/BootMii_Return.png)
+    ![](/images/bootmii/BootMii_Return.png)
 
 ---
 

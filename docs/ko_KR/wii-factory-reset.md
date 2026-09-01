@@ -22,13 +22,13 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
 ::: warning
 
-홈브류를 사용하여 [Wii를 4.3U로 업데이트](update)하거나 오래된 홈브류/IOS를 업데이트하려는 경우 이 가이드를 따를 필요는 없습니다. 대신 [ModMii](modmii#syscheck-updater-wizard)에 내장된 SysCheck Updater Wizard와 같은 도구를 사용할 수 있습니다. 이 과정이 혼란스럽다면, 닌텐도 홈브류 디스코드 서버에 가입하여 지원을 받아보세요.
+홈브류를 사용하여 [Wii를 4.3U로 업데이트](update)하거나 오래된 홈브류/IOS를 업데이트하려는 경우 이 가이드를 따를 필요는 없습니다. 대신 [ModMii](modmii#syscheck-updater-wizard)에 내장된 SysCheck Updater Wizard와 같은 도구를 사용할 수 있습니다. If you are confused about this process, consider joining the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and going to the `#wii-vwii-assistance` channel.
 
 :::
 
 ## 요구 사항
 
-- 최소 512MB의 여유 공간이 있는 SD 카드 (1GB 이상 권장)
+- An SD card with a minimum 512MB of free space (1GB or more recommended), [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - A [NAND backup](nand-backup) from the specific system you are trying to flash
 - 인터넷에 연결된 윈도우 컴퓨터
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
@@ -48,13 +48,13 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
    ![](/images/factory-reset/newnand.png)
 
-4. 이렇게 하면 키, 부트 1/2, 불량 블록 등의 정보가 자동으로 입력됩니다. 대상 상자만 `./blank and.in`으로 변경하면 낸드가 `blank and.bin`이라는 이름의 프로그램 폴더에 출력됩니다. 그런 다음, 확인을 누릅니다.
+4. 이렇게 하면 키, 부트 1/2, 불량 블록 등의 정보가 자동으로 입력됩니다. Change _only_ the Destination box to `./blankNand.bin`, which will output the NAND to the program folder with the name `blankNand.bin`. 그런 다음, 확인을 누릅니다.
 
    ![](/images/factory-reset/renamenand.png)
 
 ### 섹션 II - 빈 낸드 생성
 
-1. 이제 낸드가 프로그램에 로드되었으므로 도구 모음에서 `Content`을 선택한 다음 포맷을 누릅니다. 이렇게 하면 백업 낸드가 아닌 빈 낸드가 초기화됩니다.
+1. 이제 낸드가 프로그램에 로드되었으므로 도구 모음에서 `Content`을 선택한 다음 포맷을 누릅니다. This will initialize your _blank_ NAND, not your backup NAND.
 
    ![](/images/factory-reset/formatnand.png)
 
@@ -66,7 +66,7 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
    ![](/images/factory-reset/menudownload.png)
 
-4. 메뉴 다운로드가 완료되면 낸드에 추가된 설정을 보여주는 팝업이 나타납니다. 일련 번호가 정확하지 않더라도 낸드에 무엇이 있는지에 따라 자동으로 채워집니다. 원하시면 이 항목을 편집할 수 있고, 그렇지 않으면 모든 내용을 비워두고 확인을 누릅니다.
+4. 메뉴 다운로드가 완료되면 낸드에 추가된 설정을 보여주는 팝업이 나타납니다. It will be autofilled with what was in your NAND, although the serial number may be incorrect. You can edit this if you would like, otherwise leave everything as-is and press OK.
 
    ![](/images/factory-reset/settings.png)
 
@@ -80,7 +80,7 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
    ![](/images/factory-reset/nandcheck.png)
 
-2. 모든 것이 잘 되었다면, 결과는 아래와 비슷할 것입니다. If there are ANY errors that stand out, DO NOT use this NAND and try again as it may damage or permanently brick your Wii. 이후에도 이러한 오류가 계속 발생하면, 닌텐도 홈브류 디스코드 서버에 접속하여 지원을 받으세요.
+2. 모든 것이 잘 되었다면, 결과는 아래와 비슷할 것입니다. If there are _any_ errors that stand out, **DO NOT** use this NAND, as it may damage or permanently brick your Wii. If you continue to get errors on further attempts, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel for assistance.
 
    ![](/images/factory-reset/nandcheckresult.png)
 

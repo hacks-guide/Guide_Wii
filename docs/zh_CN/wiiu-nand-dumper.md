@@ -1,6 +1,6 @@
 # Creating a NAND Backup (Wii U)
 
-In order to protect your Wii U from permanant bricks, this guide will instruct you on how to create a NAND backup.
+In order to protect your Wii U from permanent bricks, this guide will instruct you on how to create a NAND backup.
 
 ::: tip
 

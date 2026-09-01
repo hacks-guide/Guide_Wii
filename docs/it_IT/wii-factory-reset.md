@@ -22,13 +22,13 @@ Le istruzioni elencate in questa guida CANCELLERANNO LA MEMORIA DI SISTEMA DELLA
 
 ::: warning
 
-Se stai cercando di [aggiornare la console alla 4.3E](update) tramite homebrew o di aggiornare homebrew/IOS datati, molto probabilmente non avrai bisogno di seguire questa guida. Invece, puoi usare uno strumento come SysCheck Updater Wizard, integrato in [ModMii](modmii#syscheck-updater-wizard). Se hai dei dubbi, considera di entrare nel server Discord di Nintendo Homebrew (in inglese) per ricevere assistenza.
+Se stai cercando di [aggiornare la console alla 4.3E](update) tramite homebrew o di aggiornare homebrew/IOS datati, molto probabilmente non avrai bisogno di seguire questa guida. Invece, puoi usare uno strumento come SysCheck Updater Wizard, integrato in [ModMii](modmii#syscheck-updater-wizard). Se non sai come proseguire, puoi entrare nel [server Discord di Nintendo Homebrew](https://discord.gg/C29hYvh) nel canale `#wii-vwii-assistance` per assistenza (in inglese).
 
 :::
 
 ## Requisiti
 
-- Una scheda SD con almeno 512MB di spazio libero (si consiglia 1GB o più)
+- Una scheda SD con un spazio disponibile minimo di 512MB (1GB o più sono consigliati), [formattata in FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - Un [backup della NAND](nand-backup) proveniente dalla console di cui stai tentando il ripristino
 - Un PC Windows con una connessione a Internet
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
@@ -48,13 +48,13 @@ Se stai cercando di [aggiornare la console alla 4.3E](update) tramite homebrew o
 
    ![](/images/factory-reset/newnand.png)
 
-4. Questo compilerà automaticamente i campi delle chiavi, del boot 1/2 e dei blocchi difettosi. Cambia SOLO la casella `Destination` in `./nandVuota.bin`, così da creare la NAND con il nome indicato. Poi, premi OK.
+4. Questo compilerà automaticamente i campi delle chiavi, del boot 1/2 e dei blocchi difettosi. Cambia _solo_ la casella `Destination` in `./nandVuota.bin`, così da creare la NAND con il nome indicato. Poi, premi OK.
 
    ![](/images/factory-reset/renamenand.png)
 
 ### Sezione II - Creazione di una NAND vuota
 
-1. Ora che la NAND è caricata nel programma, seleziona `Content` nella barra degli strumenti, poi `Format`. Questo inizializzerà la NAND VUOTA, non quella attuale.
+1. Ora che la NAND è caricata nel programma, seleziona `Content` nella barra degli strumenti, poi `Format`. Questo inizializzerà la NAND _vuota_, non il backup.
 
    ![](/images/factory-reset/formatnand.png)
 
@@ -66,7 +66,7 @@ Se stai cercando di [aggiornare la console alla 4.3E](update) tramite homebrew o
 
    ![](/images/factory-reset/menudownload.png)
 
-4. Al termine, apparirà un messaggio con le impostazioni aggiunte alla NAND. Verrà riempito automaticamente in base a quanto presente nella NAND, anche se il numero seriale potrebbe essere errato. Puoi modificarlo se vuoi, altrimenti lascialo vuoto e premi OK.
+4. Al termine, apparirà un messaggio con le impostazioni aggiunte alla NAND. Verrà riempito automaticamente in base a quanto presente nella NAND, anche se il numero seriale potrebbe essere errato. Puoi modificarlo se vuoi, altrimenti lascia tutto com'è e premi OK.
 
    ![](/images/factory-reset/settings.png)
 
@@ -80,7 +80,7 @@ Se stai cercando di [aggiornare la console alla 4.3E](update) tramite homebrew o
 
    ![](/images/factory-reset/nandcheck.png)
 
-2. Se tutto va bene, il risultato dovrebbe essere simile a quello mostrato di seguito. Se c'è anche SOLO un errore, NON USARE questa NAND e riprova, perché ripristinarla sulla console potrebbe danneggiarla o brickarla permanentemente. Se continui a ricevere errori dopo vari tentativi, vai nel server Discord di Nintendo Homebrew (in inglese) per ricevere assistenza.
+2. Se tutto va bene, il risultato dovrebbe essere simile a quello mostrato di seguito. Se c'è anche _solo_ un errore, **NON USARE** questa NAND, perché ripristinarla potrebbe danneggiare o brickare la console permanentemente. Se continui a ricevere errori dopo vari tentativi, entra nel [server Discord di Nintendo Homebrew](https://discord.gg/C29hYvh) nel canale `#wii-vwii-assistance` per ricevere assistenza (in inglese).
 
    ![](/images/factory-reset/nandcheckresult.png)
 

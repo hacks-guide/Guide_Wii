@@ -10,7 +10,7 @@ Please read the information below before proceeding further.
 
 - Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. Isso ocorre devido à falta de portas GameCube que são necessárias em Wiis sem boot2 para entrar no código de confirmação de restauração. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
-- Se você instalou o BootMii como Boot2 na última etapa, será necessário iniciar o BootMii reiniciando o console. Pule as etapas 1-2 se esse for o caso.
+- Se você instalou o BootMii como Boot2 na última etapa, será necessário iniciar o BootMii reiniciando o console. Skip steps 4 and 5 if this is the case.
 
 - If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is likely a [Wi-Fi Brick](bricks#wi-fi-brick).
 
@@ -49,41 +49,47 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ## Passos:
 
-1. Launch the Homebrew Channel, and launch the Load Priiloader app.
+1. Insert your SD card into your PC.
 
-2. Pressione o botão HOME, depois selecione "Launch BootMii".
+2. Determine if your NAND files are already on your SD card. If not, you must copy a backup of your `nand.bin` and `keys.bin` files to the SD card.
+
+3. Insert your SD card into your Wii.
+
+4. Launch the Homebrew Channel, and launch the Load Priiloader app.
+
+5. Pressione o botão HOME, depois selecione "Launch BootMii".
 
    - If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
 
    ![](/images/bootmii/BootMii_HBC.png)
 
-3. Selecione o botão Options (o ícone com as engrenagens).
+6. Selecione o botão Options (o ícone com as engrenagens).
 
    ![](/images/bootmii/BootMii_Gears.png)
 
-4. Selecione o botão RestoreMii.
+7. Selecione o botão RestoreMii.
 
    ![](/images/bootmii/BootMii_Restore.png)
 
-5. O BootMii informará que ele será executado no modo SIMULATION, você pode pressionar A ou Reset para continuar.
+8. O BootMii informará que ele será executado no modo SIMULATION, você pode pressionar A ou Reset para continuar.
 
    ![](/images/bootmii/BootMii_NAND_Simulation.png)
 
-6. Se o BootMii estiver instalado como IOS, entre com o Konami Code no seu controle de GameCube: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
+9. Se o BootMii estiver instalado como IOS, entre com o Konami Code no seu controle de GameCube: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 
    ![](/images/bootmii/BootMii_NAND_Konami.png)
 
-7. O BootMii será executado através do processo de restauração como uma simulação, detalhando o que será apagado e reescrito. Assim que isso for feito, você tem uma última chance de se afastar do processo de restauração. Caso contrário, pressione o botão INICIAR ou Eject para começar.
+10. O BootMii será executado através do processo de restauração como uma simulação, detalhando o que será apagado e reescrito. Assim que isso for feito, você tem uma última chance de se afastar do processo de restauração. Caso contrário, pressione o botão INICIAR ou Eject para começar.
 
-   ![](/images/bootmii/BootMii_NAND_Restore.png)
+    ![](/images/bootmii/BootMii_NAND_Restore.png)
 
-8. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Aperte qualquer botão no seu console Wii ou no controle de GCN.
+11. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. Aperte qualquer botão no seu console Wii ou no controle de GCN.
 
-   ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
+    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
-9. Pressione o botão Voltar (o botão com uma seta), então pressione o botão de Menu do Wii ou o botão do Homebrew Channel para sair do BootMii.
+12. Pressione o botão Voltar (o botão com uma seta), então pressione o botão de Menu do Wii ou o botão do Homebrew Channel para sair do BootMii.
 
-   ![](/images/bootmii/BootMii_Return.png)
+    ![](/images/bootmii/BootMii_Return.png)
 
 ---
 

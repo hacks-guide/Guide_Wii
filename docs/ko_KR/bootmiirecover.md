@@ -10,7 +10,7 @@ Please read the information below before proceeding further.
 
 - Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. 이는 boot2가 아닌 Wii에 복원 확인 코드를 입력하는 데 필요한 게임큐브 포트가 없기 때문입니다. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
-- BootMii를 boot2로 설치한 경우 콘솔을 다시 시작하여 BootMii를 실행해야 합니다. 이 경우 1 단계와 2 단계를 건너뜁니다.
+- BootMii를 boot2로 설치한 경우 콘솔을 다시 시작하여 BootMii를 실행해야 합니다. Skip steps 4 and 5 if this is the case.
 
 - If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is likely a [Wi-Fi Brick](bricks#wi-fi-brick).
 
@@ -49,41 +49,47 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ## 지침
 
-1. Launch the Homebrew Channel, and launch the Load Priiloader app.
+1. Insert your SD card into your PC.
 
-2. Press the HOME Button, then select "Launch BootMii".
+2. Determine if your NAND files are already on your SD card. If not, you must copy a backup of your `nand.bin` and `keys.bin` files to the SD card.
+
+3. Insert your SD card into your Wii.
+
+4. Launch the Homebrew Channel, and launch the Load Priiloader app.
+
+5. Press the HOME Button, then select "Launch BootMii".
 
    - 홈브류 채널에 접근할 수 없고 Priiloader가 설치된 경우 부팅 시 홈브류 채널에 접근하여 `BootMii IOS`를 선택하여 BootMii를 로드할 수 있습니다.
 
    ![](/images/bootmii/BootMii_HBC.png)
 
-3. 옵션 버튼 (톱니바퀴가 있는 아이콘) 을 선택합니다.
+6. 옵션 버튼 (톱니바퀴가 있는 아이콘) 을 선택합니다.
 
    ![](/images/bootmii/BootMii_Gears.png)
 
-4. RestoreMii 버튼을 선택합니다.
+7. RestoreMii 버튼을 선택합니다.
 
    ![](/images/bootmii/BootMii_Restore.png)
 
-5. BootMii는 시뮬레이션 모드에서 실행될 것이라고 알려주며, 계속하려면 A 또는 Reset 버튼을 누르세요.
+8. BootMii는 시뮬레이션 모드에서 실행될 것이라고 알려주며, 계속하려면 A 또는 Reset 버튼을 누르세요.
 
    ![](/images/bootmii/BootMii_NAND_Simulation.png)
 
-6. BootMii가 IOS로 설치된 경우 게임큐브 컨트롤러에 코나미 코드를 입력하세요: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
+9. BootMii가 IOS로 설치된 경우 게임큐브 컨트롤러에 코나미 코드를 입력하세요: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 
    ![](/images/bootmii/BootMii_NAND_Konami.png)
 
-7. BootMii는 복원 프로세스를 시뮬레이션으로 실행하여 무엇이 지워지고 다시 쓰여질지 자세히 설명합니다. 이 작업이 완료되면 복원 과정에서 빠져나올 수 있는 마지막 기회가 주어집니다. 그렇지 않은 경우 START 또는 Eject 버튼을 눌러 시작합니다.
+10. BootMii는 복원 프로세스를 시뮬레이션으로 실행하여 무엇이 지워지고 다시 쓰여질지 자세히 설명합니다. 이 작업이 완료되면 복원 과정에서 빠져나올 수 있는 마지막 기회가 주어집니다. 그렇지 않은 경우 START 또는 Eject 버튼을 눌러 시작합니다.
 
-   ![](/images/bootmii/BootMii_NAND_Restore.png)
+    ![](/images/bootmii/BootMii_NAND_Restore.png)
 
-8. 복구가 끝나면 `I HAZ SUCCESS!`라는 텍스트가 표시되고, 그렇지 않으면 `I HAZ FAIL`라는 텍스트가 표시됩니다. Wii 콘솔이나 게임큐브 컨트롤러에서 아무 버튼이나 누릅니다.
+11. 복구가 끝나면 `I HAZ SUCCESS!`라는 텍스트가 표시되고, 그렇지 않으면 `I HAZ FAIL`라는 텍스트가 표시됩니다. Wii 콘솔이나 게임큐브 컨트롤러에서 아무 버튼이나 누릅니다.
 
-   ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
+    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
-9. BootMii를 종료하려면 뒤로 버튼 (화살표가 있는 버튼) 을 누른 다음 Wii 메뉴 버튼 또는 홈브류 채널 버튼을 눌러 원하는 위치에서 종료할 수 있습니다.
+12. BootMii를 종료하려면 뒤로 버튼 (화살표가 있는 버튼) 을 누른 다음 Wii 메뉴 버튼 또는 홈브류 채널 버튼을 눌러 원하는 위치에서 종료할 수 있습니다.
 
-   ![](/images/bootmii/BootMii_Return.png)
+    ![](/images/bootmii/BootMii_Return.png)
 
 ---
 
