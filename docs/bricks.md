@@ -47,7 +47,7 @@ This is a section intended to help you diagnose a potential brick, in order by l
        ▼
 [    boot1    ]  ──► Initializes memory. Reads, decrypts, and verifies
        │             boot2 hash. Rejects boot2 and does not boot if
-       │             data does not match. Exploitable on original Wiis.
+       │             data does not match. Exploitable on early Wiis.
        │             (Stage 2 bootloader)
        ▼
 [    boot2    ]  ──► Loads System Menu and IOS data, also loads
