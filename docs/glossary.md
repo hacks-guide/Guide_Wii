@@ -29,7 +29,7 @@ This glossary provides the foundational terms used on this guide and in the Wii 
 
 | Term | Definition |
 | ---- | ---------- |
-| cIOS | A custom-engineered type of IOS that provides ideal functionality to a homebrew program. |
+| cIOS | A patched IOS that provides additional functionality to support homebrew applications. |
 | cIOSSPAGHETTI | A specific error condition, also shown as cIOS INFECTED, that arises when overwriting vast assortments of IOS with cIOS (often through a pack like DARKCORP). Can cause trouble with The Homebrew Channel and Priiloader among other things. |
 | CISO | |
 | CleanRip | |
