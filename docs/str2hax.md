@@ -99,8 +99,8 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+**Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.**
 
-Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+[Continue to HBC/BootMii Installation →](hbc){.btn .btn-solid}
 
 :::

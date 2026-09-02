@@ -185,9 +185,9 @@ If you downloaded the 4 WAD files in Section I, you may now delete them from you
 
 ::: tip
 
-[Continue to Open Shop Channel installation](osc)
+**Now that the Homebrew Channel, BootMii, Priiloader, and cIOS are all installed, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.**
 
-Now that the Homebrew Channel, BootMii, Priiloader, and cIOS are all installed, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+[Continue to Open Shop Channel Installation →](osc){.btn .btn-solid}
 
 :::
 
@@ -329,9 +329,9 @@ The WAD files should be on your SD card like this:
 
 ::: tip
 
-[Continue to Finalizing Setup (Wii U)](vwii-finalizing-setup)
+**Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is missing from a standard vWii menu.**
 
-Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard vWii menu.
+[Continue to Finalizing Wii U Setup →](vwii-finalizing-setup){.btn .btn-solid}
 
 :::
 
@@ -398,9 +398,9 @@ If you need assistance with this tutorial, please join [the Wii mini Hacking Dis
 
 ::: tip
 
-[Continue to Finalizing Setup (Wii mini)](mini-finalizing-setup)
+**Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is missing from a standard Wii mini menu.**
 
-Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard Wii mini menu.
+[Continue to Finalizing Wii mini Setup →](mini-finalizing-setup){.btn .btn-solid}
 
 :::
 

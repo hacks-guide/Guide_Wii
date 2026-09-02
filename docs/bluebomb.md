@@ -129,9 +129,9 @@ BlueBomb Classic utilizes a Linux device or virtual machine to upload an exploit
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+**Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.**
 
-Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+[Continue to HBC/BootMii Installation →](hbc){.btn .btn-solid}
 
 :::
 
@@ -235,9 +235,9 @@ A normal Raspberry Pi Pico will not work. It MUST be the wireless model. Additio
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+**Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.**
 
-Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+[Continue to HBC/BootMii Installation →](hbc){.btn .btn-solid}
 
 :::
 
@@ -317,9 +317,9 @@ BlueMii utilizes another Wii to upload an exploit to the Wii via Bluetooth.
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+**Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.**
 
-Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+[Continue to HBC/BootMii Installation →](hbc){.btn .btn-solid}
 
 :::
 
