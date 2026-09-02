@@ -87,7 +87,7 @@ This glossary provides the foundational terms used on this guide and in the Wii 
 | Term | Definition |
 | ---- | ---------- |
 | KOR  | |
-| Korean Key | A specific key used to encrypt games and software on Korean Wiis. It is programmed into the Wii's SEEPROM. On Wii's version 4.2 or higher, the Wii system software checks for two conditions to be true - either a non-Korean Wii without the Korean Key, or a Korean Wii with the Korean Key. If neither of these conditions are true, it causes [Error 003](bricks#koreankiierror-003-brick) to populate. |
+| Korean Key | A specific key used to encrypt games and software on Korean Wiis. It is programmed into the Wii's SEEPROM. On Wii's version 4.2 or higher, the Wii system software checks for two conditions to be true - either a non-Korean Wii without the Korean Key, or a Korean Wii with the Korean Key. If neither of these conditions are true, it causes [Error 003](bricks#koreankiierror-003-brick). |
 
 ## L
 
