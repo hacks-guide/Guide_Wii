@@ -161,7 +161,7 @@ This glossary provides the foundational terms used on this guide and in the Wii 
 | Term | Definition |
 | ---- | ---------- |
 | WAD  | The primary file format used for packaging software on the Wii. |
-| WBFS (File Extension) | A compressed file format used for storing Wii disc backups. |
+| WBFS (File Extension) | A file format used for storing Wii disc backups. |
 | WBFS (File System) | Stands for **W**ii **B**ackup **F**ile **S**ystem. It is an antiquated file system developed by Waninkoko during the earlier ages of the Wii modding scene. It is no longer recommended for use. |
 | Wii | |
 | Wii mini | |
