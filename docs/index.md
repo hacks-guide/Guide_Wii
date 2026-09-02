@@ -113,18 +113,18 @@ More information about bricks, alongside tips to prevent them, can be found on t
 
 **Getting Assistance**
 
-Need more assistance? Join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and ask for help in English on the `#wii-vwii-assistance` channel. Please provide the following information:
+Need more assistance? Join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and ask for help in English on the `#wii-vwii-assistance` channel. Please provide this information:
 
-1. The exact error message or console state that you see, with a photo if applicable
-1. The exact steps you took prior to the issue, as far as you remember
-1. A [SysCheck](syscheck) log if possible to obtain
-1. Whether or not you have a NAND backup available
-1. Whether or not you installed Priiloader, BootMii as IOS, or BootMii as boot2
-1. The specific model of console you are working with (Original Wii, Family Edition Wii, Wii mini, vWii on Wii U)
+1. The exact error message, or what you see on the screen (include a photo if possible)
+1. The exact steps you took before the problem started
+1. A [SysCheck](syscheck) log if you can get one
+1. Do you have a NAND backup? (yes or no)
+1. Did you install Priiloader, BootMii as IOS, or BootMii as boot2? (yes or no to each)
+1. Your specific console model (Original Wii, Family Edition Wii, Wii mini, vWii on Wii U)
 
-We also advise you to join the server and ask for assistance or clarification if you are having trouble understanding the content of the guide, even after reading it in advance.
+We also suggest joining the server to ask questions if you have trouble understanding the guide.
 
-If your English isn't the best, use a translator such as [Google Translate](https://translate.google.com/) to submit your questions so that we can assist.
+If you do not speak English well, please use a translator like [Google Translate](https://translate.google.com/) to write your question. We are happy to help you. Please explain your problem clearly!
 
 :::
 
