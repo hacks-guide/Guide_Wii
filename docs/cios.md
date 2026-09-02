@@ -329,7 +329,7 @@ The WAD files should be on your SD card like this:
 
 ::: tip
 
-**Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard vWii menu.**
+**Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is missing from a standard vWii menu.**
 
 [Continue to Finalizing Wii U Setup →](vwii-finalizing-setup){.btn .btn-solid}
 
