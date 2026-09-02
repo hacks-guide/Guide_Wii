@@ -398,7 +398,7 @@ If you need assistance with this tutorial, please join [the Wii mini Hacking Dis
 
 ::: tip
 
-**Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is normally missing from a standard Wii mini menu.**
+**Now that the Homebrew Channel, Priiloader, and cIOS are installed, you can proceed to restore functionality that is missing from a standard Wii mini menu.**
 
 [Continue to Finalizing Wii mini Setup →](mini-finalizing-setup){.btn .btn-solid}
 
