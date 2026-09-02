@@ -28,7 +28,7 @@ In any case, you should absolutely:
 
 * Have BootMii installed as boot2 if available, but otherwise as IOS.
 * Have Priiloader installed regardless of BootMii installation method.
-* Backup your NAND with BootMii and always have a valid spare copy on hand, but **especially** before attempting anything risky. Note that in some brick scenarios, and on some consoles, BootMii is not accessible; plan ahead accordingly.
+* Backup your NAND with BootMii or nanddumper@ios and always have a valid spare copy on hand, but **especially** before attempting anything risky. Note that in some brick scenarios, and on some consoles, BootMii is not accessible; plan ahead accordingly.
 
 ## Diagnosis
 
