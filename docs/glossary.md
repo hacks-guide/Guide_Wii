@@ -114,7 +114,7 @@ This glossary provides the foundational terms used on this guide and in the Wii 
 
 | Term | Definition |
 | ---- | ---------- |
-| OSC  | An acronym for the **O**pen **S**hop **C**hannel, the recommended application storefront for obtaining Homebrew today. |
+| OSC  | An acronym for the **O**pen **S**hop **C**hannel, the recommended application storefront for obtaining Homebrew. |
 
 ## P
 
