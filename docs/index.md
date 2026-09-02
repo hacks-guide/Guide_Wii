@@ -58,7 +58,7 @@ Unlike some other consoles, the Wii, vWii, and Wii mini can be modded purely thr
 
 IOS (IOP-OS, not associated with Apple or Cisco IOS) is the underlying operating system that the Nintendo Wii runs on (with the exception of being in GameCube mode). The implementation of this OS software on the Wii is unique in that instead of one dedicated set of software, there are instead many different "slots" or "branches" that the Wii can pull from. Simply, when you use your Wii, the currently running software chooses a specific IOS slot to function under; this provides different functionality on-demand. More information about IOS can be found on [WiiBrew](https://wiibrew.org/wiki/IOS).
 
-cIOS is a custom-engineered type of IOS that is based off of an ideal IOS version; for example, using the right base can provide USB 2.0 support among other things. Once installed, these cIOS can then be used in homebrew software. This guide will allow you to install cIOS in a later section such that USB loaders can function, which allows the usage of game backups.
+cIOSes are patched IOSes based off IOS versions with desirable functionality; for example, using the right base can provide USB 2.0 support among other things. Once installed, these cIOSes can then be used in homebrew software. This guide will allow you to install d2x cIOS in a later section such that USB loaders can function, which allows the usage of game backups.
 
 ### What is NAND?
 
