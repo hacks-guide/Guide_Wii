@@ -2,6 +2,8 @@
 
 This glossary provides the foundational terms used on this guide and in the Wii modding scene in general, alongside definitions. Sections are sorted alphabetically. Many terms have articles, wiki or otherwise, linked for further reading.
 
+This glossary is a **work in progress** and is not completely finished. We will continue to update it as time progresses.
+
 ## A
 
 | Term | Definition |
