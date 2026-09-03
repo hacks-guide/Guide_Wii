@@ -26,7 +26,8 @@ If you do not speak English well, please use a translator like [Google Translate
 :::
 
 ::: details After opening the hacked letter, I get sent back to the Wii Menu.
-Ensure that your SD card's write lock switch is disabled. The switch should be pushed up.
+Ensure that your SD card's write lock switch is disabled. The switch should be pushed up so it matches the image below.
+![](/images/troubleshooting/sdlock.png)
 :::
 
 ::: details My Wii freezes after opening the hacked letter.
@@ -65,7 +66,8 @@ Ensure your SD card is inserted into the front SD slot.
 :::
 
 ::: details FAILED (-2) when installing BootMii.
-Ensure that your SD card's write lock switch is disabled. The switch should be pushed up. If this does not fix your issue, ensure that your SD card has at least 400 KB of space available on your SD card.
+Ensure that your SD card's write lock switch is disabled. The switch should be pushed up so it matches the image below. If this does not fix your issue, ensure that your SD card has at least 400 KB of space available on your SD card.
+![](/images/troubleshooting/sdlock.png) 
 :::
 
 ## Priiloader
@@ -75,7 +77,8 @@ Your Wii was modified in the past and the installed softmod is outdated, follow 
 
 ## cIOS
 ::: details `d2x-v11-beta3` doesn't show up as an install option.
-Ensure that your SD card's write lock switch is disabled. The switch should be pushed up. 
+Ensure that your SD card's write lock switch is disabled. The switch should be pushed up so it matches the image below.
+![](/images/troubleshooting/sdlock.png)
 :::
 
 ::: details Install failed during the download stage.
