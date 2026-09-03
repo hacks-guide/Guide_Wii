@@ -42,6 +42,7 @@
 * [BootMii Recovery](bootmiirecover)
 * [Brick Overview](bricks)
 * [Brick Prevention](bricks#brick-prevention)
+* [Troubleshooting](troubleshooting)
 * [cIOS](cios)
 * [Creating a NAND Backup (Wii)](nand-backup)
 * [Homebrew Channel](hbc)
