@@ -71,13 +71,20 @@ Ensure that your SD card's write lock switch is disabled. The switch should be p
 :::
 
 ## NAND backup (nanddumper@ios)
-placeholder
+::: details Not enough space available.
+Try deleting some unnesecary files to regain storage space. Keep in mind you need at least 560 MB available to perform a NAND backup.
+:::
+
+::: details fssek: I/O error
+Ensure that your SD card's write lock switch is disabled. The switch should be pushed up so it matches the image below.
+![](/images/troubleshooting/sdlock.png) 
+:::
 
 ## NAND backup (BootMii)
-::: details Backup failed: -1 or wtf wrote 0 bytes, ret = 2
-This error indicates that your SD card may potentially be out of storage space.
+::: details Backup failed: -1 or wtf wrote 0 bytes, ret - 2.
+This error indicates that BackupMii was unable to write to your SD card.
 * Try deleting some unnesecary files to regain storage space. Keep in mind you need at least 560 MB available to perform a NAND backup.
-* If that does not work, your SD card may be illegitimate and lying about it's capacity.
+* If that does not work, your SD card may be illegitimate and should be replaced immediately, see [this page](faq#storage-device-faq).
 
 ## Priiloader
 ::: details Installer crashes with an error stating "cIOS Infected".
