@@ -66,7 +66,7 @@ const themeConfig = {
 				items: [
 					{ text: localeData.pages["get-started"], link: `/get-started` },
 					{ text: localeData.pages["multiple-options" ] },
-					{ text: localeData.pages["troubleshooting"], link: `/hbc` },
+					{ text: localeData.pages["troubleshooting"], link: `/troubleshooting` },
 				]
 			},
 			sidebar_common
