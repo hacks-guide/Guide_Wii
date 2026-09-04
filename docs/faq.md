@@ -31,9 +31,9 @@ If you do not speak English well, please use a translator like [Google Translate
 
 :::
 
-::: details Wilbrand or Letterbomb
+### Wilbrand or Letterbomb
 
-:: details The hacked letter does not appear in the Wii Message Board.
+::: details The hacked letter does not appear in the Wii Message Board.
 * Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
 
 * In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
@@ -56,9 +56,7 @@ Ensure that your SD card's write lock switch is disabled. The switch should be p
 Ensure you also copied over `boot.elf` from the Wilbrand/Letterbomb `.zip` file. 
 :::
 
-:::
-
-::: details str2hax
+### str2hax
 
 ::: details Connection test fails with an error code.
 * Please verify that you have entered the DNS correctly.
@@ -74,14 +72,11 @@ Your ISP blocks the use of custom DNS. Try another connection, or use [another e
 * If it is still unsuccessful, try another connection, or use [another exploit](get-started#select-your-exploit).
 :::
 
-:::
-
-::: details Homebrew Channel and BootMii installation
+### Homebrew Channel and BootMii installation
 
 ::: details The installed boot1 version prevents a boot2 install. (-2)
 This is normal as BootMii can only be installed into boot2 on early Wiis. You may proceed with the guide as normal. 
 :::
-
 
 ::: details FAILED (-1) when installing BootMii.
 Ensure your SD card is inserted into the front SD slot. 
@@ -92,9 +87,7 @@ Ensure that your SD card's write lock switch is disabled. The switch should be p
 ![](/images/troubleshooting/sdlock.png) 
 :::
 
-:::
-
-::: details NAND backup (nanddumper@ios)
+### NAND backup (nanddumper@ios)
 
 ::: details Not enough space available.
 Try deleting some unnesecary files to regain storage space. Keep in mind you need at least 560 MB available to perform a NAND backup.
@@ -105,9 +98,7 @@ Ensure that your SD card's write lock switch is disabled. The switch should be p
 ![](/images/troubleshooting/sdlock.png) 
 :::
 
-:::
-
-::: details NAND backup (BootMii)
+### NAND backup (BootMii)
 
 ::: details Backup failed: -1 or wtf wrote 0 bytes, ret - 2.
 This error indicates that BackupMii was unable to write to your SD card.
@@ -115,17 +106,13 @@ This error indicates that BackupMii was unable to write to your SD card.
 * If that does not work, your SD card may be illegitimate and should be replaced immediately, see [this page](faq#storage-device-faq).
 :::
 
-:::
-
-::: details Priiloader
+### Priiloader
 
 ::: details Installer crashes with an error stating "cIOS Infected".
 Your Wii was modified in the past and the installed softmod is outdated, follow [ModMii SysCheck Updater Wizard](https://wii.hacks.guide/modmii#syscheck-updater-wizard) to resolve this.
 :::
 
-:::
-
-::: details cIOS
+### cIOS
 
 ::: details `d2x-v11-beta3` doesn't show up as an install option.
 Ensure that your SD card's write lock switch is disabled. The switch should be pushed up so it matches the image below.
@@ -136,7 +123,6 @@ Ensure that your SD card's write lock switch is disabled. The switch should be p
 Ensure that you followed Section I on the cIOS guide and you renamed the four `.wad` files to match **EXACTLY** what is stated by Section I as any deviation will cause an error.
 :::
 
-:::
 
 ## Error Code FAQ
 
