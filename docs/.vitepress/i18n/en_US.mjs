@@ -60,17 +60,6 @@ const themeConfig = {
 			},
 			sidebar_common
 		],
-		[`/troubleshooting`]: [
-			{
-				text: localeData.guide,
-				items: [
-					{ text: localeData.pages["get-started"], link: `/get-started` },
-					{ text: localeData.pages["multiple-options" ] },
-					{ text: localeData.pages["troubleshooting"], link: `/troubleshooting` },
-				]
-			},
-			sidebar_common
-		],
 		[`/bootmiirecover`]: [
 			{
 				text: localeData.guide,
