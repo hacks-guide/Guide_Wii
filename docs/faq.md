@@ -14,6 +14,122 @@ The [mkey generator](https://mkey.nintendohomebrew.com/) can generate the code r
 
 See [this](bricks) page.
 
+## Main Guide Troubleshooting
+
+This section contains various troubleshooting guides for issues that may arise during the modding process.
+
+::: info
+
+**Getting Assistance**
+
+If you have attempted the solutions suggested by this page and your issue is still occouring, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and ask for help in English on the `#wii-vwii-assistance` channel. Please provide this information:
+
+1. The exact error message, or what you see on the screen (include a photo if possible)
+1. Your specific console model (Original Wii, Family Edition Wii, Wii mini, vWii on Wii U)
+
+If you do not speak English well, please use a translator like [Google Translate](https://translate.google.com/) to write your question. We are happy to help you. Please explain your problem clearly!
+
+:::
+
+### Wilbrand or Letterbomb
+
+::: details The hacked letter does not appear in the Wii Message Board.
+* Ensure the date on your Wii is correct, otherwise you might be unable to find the letter.
+
+* In some cases, you may need to check the messages for tomorrow or yesterday for the letter to show up.
+
+* If you are still experiencing this issue, [reformat your SD card](https://wiki.hacks.guide/wiki/Formatting_an_SD_card) and try again.
+:::
+
+::: details After opening the hacked letter, I get sent back to the Wii Menu.
+Ensure your SD card's write-lock switch is disabled. The switch should be facing upwards, so it matches the image below.
+![](/images/troubleshooting/sdlock.png)
+:::
+
+::: details My Wii freezes after opening the hacked letter.
+* If your Wii freezes after opening the letter, you most likely chose the wrong system menu region for Wilbrand/Letterbomb. Recreate the exploit files, ensuring you select the correct version.
+
+* If all is correct and your Wii is still freezing after opening the letter, keep on trying until the exploit is successful or attempt [another exploit](get-started#select-your-exploit).
+:::
+
+::: details The screen goes black and the disc drive light begins to flash when I opened the hacked letter.
+Ensure you also copied `boot.elf` from the Wilbrand/Letterbomb `.zip` file to the root of your SD card. 
+:::
+
+### str2hax
+
+::: details Connection test fails with an error code.
+* Please verify that you have entered the DNS correctly.
+* If it is still unsuccessful, try another connection, or attempt [another exploit](get-started#select-your-exploit).
+:::
+
+::: details The normal User Agreements appears instead of the exploit page.
+Your ISP blocks the use of custom DNS. Try another connection, or attempt [another exploit](get-started#select-your-exploit).
+:::
+
+::: details The HackMii installer never loads, or an error like `Hanging.` or `ERROR! if_config (ret = ...)` appears
+* Please restart your Wii and try again.
+* If the exploit is still unsuccessful, try another connection, or attempt [another exploit](get-started#select-your-exploit).
+:::
+
+### FlashHax
+
+::: details My Wii freezes whenever I attempt the exploit
+FlashHax is known to be very inconsistent, outdated and unreliable. If after 5-10 tries you are unable to successfully perform the exploit, you should attempt [another exploit](get-started#select-your-exploit).
+:::
+
+### Homebrew Channel and BootMii installation
+
+::: details The installed boot1 version prevents a boot2 install. (-2)
+This is normal as BootMii can only be installed into boot2 on early Wiis. You may proceed with the guide as normal. 
+:::
+
+::: details FAILED (-1) when installing BootMii.
+Ensure your SD card is inserted into the front SD slot. 
+:::
+
+::: details FAILED (-2) when installing BootMii.
+Ensure your SD card's write-lock switch is disabled. The switch should be facing upwards, so it matches the image below. If this does not fix your issue, ensure that your SD card has at least 400 KB of space available.
+![](/images/troubleshooting/sdlock.png) 
+:::
+
+### NAND backup (nanddumper@ios)
+
+::: details Not enough space available.
+Try deleting some unnesecary files to regain storage space. Keep in mind you need at least 560 MB available to perform a NAND backup.
+:::
+
+::: details fseek: I/O error
+Ensure your SD card's write-lock switch is disabled. The switch should be facing upwards, so it matches the image below.
+![](/images/troubleshooting/sdlock.png) 
+:::
+
+### NAND backup (BootMii)
+
+::: details Backup failed: -1 or wtf wrote 0 bytes, ret - 2.
+This error indicates that BackupMii was unable to write to your SD card.
+* Try deleting some unnesecary files to regain storage space. Keep in mind you need at least 560 MB available to perform a NAND backup.
+* If you have attempted the above solution and you are still experiencing this issue, your SD card may be illegitimate and should be replaced immediately, see [this page](faq#storage-device-faq).
+:::
+
+### Priiloader
+
+::: details Installer crashes with an error stating "cIOS Infected".
+Your Wii was modified in the past and the installed softmod is outdated, follow [ModMii SysCheck Updater Wizard](https://wii.hacks.guide/modmii#syscheck-updater-wizard) to resolve this.
+:::
+
+### cIOS
+
+::: details `d2x-v11-beta3` does not show up as an option when attempting to install cIOS.
+Ensure your SD card's write-lock switch is disabled. The switch should be facing upwards, so it matches the image below.
+![](/images/troubleshooting/sdlock.png)
+:::
+
+::: details The cIOS installation failed during the download stage.
+Ensure that you have followed Section I on the cIOS guide and you have renamed the four `.wad` files to match **EXACTLY** what is stated by Section I, as any deviation will cause an error.
+:::
+
+
 ## Error Code FAQ
 
 ### I got error code XXXXXX, how do I fix it?
