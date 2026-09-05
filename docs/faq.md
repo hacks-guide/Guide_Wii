@@ -78,6 +78,18 @@ Your ISP blocks the use of custom DNS. Try another connection, or attempt [anoth
 FlashHax is known to be very inconsistent, outdated and unreliable. If after 5-10 tries you are unable to successfully perform the exploit, you should attempt [another exploit](get-started#select-your-exploit).
 :::
 
+### Bluebomb
+
+::: details The bluebomb script is waiting to accept.
+Ensure you have not paired any Wii remotes and ensure you are also repeatedly pressing sync.
+:::
+
+::: details The bluebomb script is stuck awaiting response from stage0.
+This can indicate one of two things
+* You either selected the wrong console type, region or system menu version, or
+* Your Wii is [error 003 bricked](bricks#koreankiierror-003-brick).
+:::
+
 ### Homebrew Channel and BootMii installation
 
 ::: details The installed boot1 version prevents a boot2 install. (-2)
