@@ -109,7 +109,7 @@ Ensure your SD card's write-lock switch is disabled. The switch should be facing
 ::: details Backup failed: -1 or wtf wrote 0 bytes, ret - 2.
 This error indicates that BackupMii was unable to write to your SD card.
 * Try deleting some unnesecary files to regain storage space. Keep in mind you need at least 560 MB available to perform a NAND backup.
-* If you have attempted the above fix and you are still experiencing this issue, your SD card may be illegitimate and should be replaced immediately, see [this page](faq#storage-device-faq).
+* If you have attempted the above solution and you are still experiencing this issue, your SD card may be illegitimate and should be replaced immediately, see [this page](faq#storage-device-faq).
 :::
 
 ### Priiloader
@@ -120,12 +120,12 @@ Your Wii was modified in the past and the installed softmod is outdated, follow 
 
 ### cIOS
 
-::: details `d2x-v11-beta3` doesn't show up as an install option.
+::: details `d2x-v11-beta3` does not show up as an option when attempting to install cIOS.
 Ensure your SD card's write-lock switch is disabled. The switch should be facing upwards, so it matches the image below.
 ![](/images/troubleshooting/sdlock.png)
 :::
 
-::: details Install failed during the download stage.
+::: details The cIOS installation failed during the download stage.
 Ensure that you have followed Section I on the cIOS guide and you have renamed the four `.wad` files to match **EXACTLY** what is stated by Section I, as any deviation will cause an error.
 :::
 
