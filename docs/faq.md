@@ -80,7 +80,7 @@ FlashHax is known to be very inconsistent, outdated and unreliable. If after 5-1
 
 ### Bluebomb
 
-::: details The bluebomb script is waiting to accept.
+::: details The bluebomb script is stuck on waiting to accept.
 Ensure you have not paired any Wii remotes and ensure you are also repeatedly pressing sync.
 :::
 
