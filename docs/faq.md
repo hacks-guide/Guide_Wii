@@ -72,6 +72,12 @@ Your ISP blocks the use of custom DNS. Try another connection, or attempt [anoth
 * If the exploit is still unsuccessful, try another connection, or attempt [another exploit](get-started#select-your-exploit).
 :::
 
+### FlashHax
+
+::: details My Wii freezes whenever I attempt the exploit
+FlashHax is known to be very inconsistent, outdated and unreliable. If after 5-10 tries you are unable to successfully perform the exploit, you should attempt [another exploit](get-started#select-your-exploit).
+:::
+
 ### Homebrew Channel and BootMii installation
 
 ::: details The installed boot1 version prevents a boot2 install. (-2)
