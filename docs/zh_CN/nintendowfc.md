@@ -111,7 +111,9 @@ A method for Wiimmfi patching which runs on retail game discs automatically thro
 
 #### 步骤
 
-1. Go to `Wii Settings` -> `Internet` -> `Connection Settings` and select whatever connection you are using. Then, `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
+1. Go to `Wii Settings` -> `Internet` -> `Connection Settings` and select whatever connection you are using. Then, `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. Set your DNS to the following:
+   - Primary DNS: `95.217.77.181`
+   - Secondary DNS: `1.1.1.1` (Cloudflare)
 2. 如果您使用 Wii U，每当您想检查比赛时，您将不得不运行 competitions patcher，因为 Wii U 未启用 WiiConnect24。
 3. A method for Wiimmfi patching which runs on retail game discs, but must be manually launched via the EULA User Agreement (derives from <a href="str2hax">str2hax</a>). Due to the nature of this process, it can be ran on Wiis without homebrew.
 
@@ -120,6 +122,8 @@ A method for Wiimmfi patching which runs on retail game discs automatically thro
 If you get error `20100` or `20110`, the game you are trying to play is not supported by this method.
 
 If you get error `23400`, your ISP or network is blocking the use of a custom DNS. To resolve this issue, Wiimmfi has a custom DNS server that can be ran on your PC - you can read about it [on the Wiimmfi website](https://wiimmfi.de/patcher/dnspatch#customdns).
+
+If you find that you are having odd issues with the Secondary DNS, you could try changing to another provider. We recommend either `8.8.8.8` (Google) OR `9.9.9.9` (Quad9).
 
 :::
 

@@ -105,6 +105,8 @@ Wii Family Editions, Wii minis, and the Wii U's vWii are not capable of dumping 
 
 ::: tip
 
-Proceed to [Managing Wii and GameCube Backups](backups#using-tinywiibackupmanager) to shrink the size of your output file, and manage your dumped games.
+**Return to the site index, or continue to Managing Wii and GameCube Backups to shrink your output dump and manage your games.**
+
+[← Return to Site Navigation](site-navigation){.btn .btn-solid} [Continue to Managing Wii and GameCube Backups →](backups#using-tinywiibackupmanager){.btn .btn-solid}
 
 :::

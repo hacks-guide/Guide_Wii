@@ -4,19 +4,21 @@
 
 ::: warning
 
-Wii 로더가 제대로 작동하려면 최신 cIOS가 설치되어 있어야 합니다. Wii를 사용하는 경우 [이](cios) 가이드에서 지침을 확인하고, Wii 미니를 사용하는 경우 [이](cios-mini) 가이드에서 지침을 확인합니다.
+In order for Wii backup loaders to function properly, you must have the latest cIOS installed. Please check the [Wii cIOS](cios) guide or the [Wii mini cIOS](cios-mini) guide for instructions on installing cIOS.
+
+:::
+
+::: warning
+
+To play games, you are advised to use a large SD card or an external hard drive. Flash drives are very sporadic in functionality and thus, not recommended. [스토리지 FAQ](faq)를 참조합니다.
 
 :::
 
 ::: info
 
-게임을 하려면 대용량 SD 카드나 외장 하드 드라이브를 사용하는 것이 좋습니다. 플래시 드라이브는 권장하지 않으며 기능도 매우 드뭅니다. [스토리지 FAQ](faq)를 참조합니다.
+The official USB Loader GX forwarder can be downloaded directly from [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad). [YAWM ModMii Edition](yawmme)으로 설치할 수 있습니다.
 
-:::
-
-::: info
-
-WiiFlow Lite용 공식 Wii 메뉴 포워더 설치 프로그램은 [오픈 샵 채널](https://oscwii.org/library/app/wiiflow_channel_installer)에서 찾을 수 있습니다. The official Wii Menu forwarder installer for WiiFlow Lite can be found on the <a href="https://oscwii.org/library/app/wiiflow_channel_installer">Open Shop Channel</a>. USB Loader GX 공식 포워더는 [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) 페이지에서 찾을 수 있습니다. [YAWM ModMii Edition](yawmme)으로 설치할 수 있습니다.
+Information on WiiFlow Lite forwarders can be found on [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii:Forwarders/WiiFlow).
 
 :::
 
@@ -52,7 +54,7 @@ WiiFlow Lite용 공식 Wii 메뉴 포워더 설치 프로그램은 [오픈 샵 �
        ┗ 📜gameid.wbf1
 ```
 
-## RiiConnect24 테마 페이지
+## WiiFlow Lite
 
 ### 요구 사항
 

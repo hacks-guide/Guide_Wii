@@ -186,8 +186,4 @@ To change the cIOS used for a specific game, follow the instructions specific to
 
 ---
 
-::: tip
-
-[Click here to go back to the site index.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

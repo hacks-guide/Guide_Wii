@@ -65,6 +65,43 @@ Se dopo circa 30 secondi non compare `Press (1) to continue`, prova a scaricare 
 
 :::
 
+## Rieseguire tramite BootMii
+
+### Requisiti
+
+- Una console Wii con BootMii installato
+- Una scheda SD formattata in FAT32/MS-DOS
+- [HackMii Installer v1.2](https://bootmii.org/download/)
+
+::: info
+
+Il telecomando Wii non funzionerà su BootMii. Dovrai usare il pulsante `POWER` per spostare il cursore e `RESET` per selezionare un'icona. In alternativa, usa un controller GameCube inserito nella porta 1.
+
+:::
+
+::: warning
+
+Se riesci già ad avviare BootMii tramite IOS, le sezioni precedenti sono più semplici da seguire.
+
+:::
+
+### Istruzioni
+
+1. Inserisci la scheda SD nel PC.
+2. Copia il file `bootmini.elf` dal `.zip` di HackMii Installer v1.2 nella root della scheda SD.
+3. Inserisci la scheda SD nella console.
+4. Avvia BootMii tramite uno dei seguenti metodi:
+   - Se installato come boot2, riavvia la console.
+   - Se installato come IOS o BootMii non si apre al riavvio, avvialo tramite Priiloader o l'Homebrew Channel.
+5. Naviga sull'icona della scheda SD e premi `RESET` per accedere al menu di navigazione.
+6. Naviga su `bootmini.elf` e premi `RESET` per avviare l'HackMii Installer.
+
+::: tip
+
+Se dopo circa 30 secondi non compare `Press (1) to continue`, prova a scaricare l'[HackMii Installer v1.0](https://bootmii.org/download/).
+
+:::
+
 ---
 
 ::: tip

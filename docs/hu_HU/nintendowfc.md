@@ -111,7 +111,9 @@ Egy patchelési módszer a Wiimmfi-hez f, amely a kiskereskedelmi játéklemezek
 
 #### Lépések
 
-1. Menj a `Wii Settings` -> `Internet` -> `Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Majd `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. Állítsd be elsődleges (primary) DNS-nek a `95.217.77.181` címet és másodlagos (secondary) DNS-nek az `1.1.1.1`-et.
+1. Menj a `Wii Settings` -> `Internet` -> `Connection Settings` opcióhoz és válaszd ki a kapcsolatot amit használsz. Majd `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. Állítsd a DNS-ed a következőre:
+   - Primary DNS: `95.217.77.181`
+   - Secondary DNS: `1.1.1.1` (Cloudflare)
 2. Hagyd, hogy a kapcsolat teszt végezzen, és ne futtass Wii System Update-et.
 3. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
@@ -120,6 +122,8 @@ Egy patchelési módszer a Wiimmfi-hez f, amely a kiskereskedelmi játéklemezek
 Ha a `20100` vagy `20110` hibát kapod, akkor a játék, amellyel játszani próbálsz, nem támogatott ezzel a módszerrel.
 
 Ha a `23400` hibát kapod, akkor az internet szolgáltatód vagy a hálózatod blokkolja az egyéni DNS használatát. Ahhoz, hogy megoldja ezt a problémát a Wiimmfi tartalmaz egy egyedi DNS szervert, ami futtatható a PC-den - erről [a Wiimmfi weboldalán](https://wiimmfi.de/patcher/dnspatch#customdns) olvashatsz.
+
+Ha mindenféle problémád an Secondary DNS-sel, megpróbálhatod kicserélni egy másik szolgáltatóra. Egyaránt ajánljuk `8.8.8.8` (Google) VAGY `9.9.9.9` (Quad9) értékeket.
 
 :::
 

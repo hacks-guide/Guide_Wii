@@ -111,7 +111,9 @@ A method for Wiimmfi patching which runs on retail game discs automatically thro
 
 #### Инструкции
 
-1. Go to `Wii Settings` -> `Internet` -> `Connection Settings` and select whatever connection you are using. Then, `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. Set your primary DNS to `95.217.77.181`, and your secondary DNS to `1.1.1.1`.
+1. Go to `Wii Settings` -> `Internet` -> `Connection Settings` and select whatever connection you are using. Then, `Change Settings` -> `Auto-Obtain DNS NO` -> `Advanced Settings`. Set your DNS to the following:
+   - Primary DNS: `95.217.77.181`
+   - Secondary DNS: `1.1.1.1` (Cloudflare)
 2. If you're using the Wii U, you will have to run the competitions patcher whenever you want to check for a competition, because WiiConnect24 is not enabled on the Wii U.
 3. MrBean35000vr (creator of CTGP-R, a Mario Kart Wii content pack) created a Wiimmfi Disc Patcher that allows you to insert a disc and patch the game on-the-fly for Wiimmfi use, though this must be run every time you start the disc.
 
@@ -120,6 +122,8 @@ A method for Wiimmfi patching which runs on retail game discs automatically thro
 If you get error `20100` or `20110`, the game you are trying to play is not supported by this method.
 
 If you get error `23400`, your ISP or network is blocking the use of a custom DNS. To resolve this issue, Wiimmfi has a custom DNS server that can be ran on your PC - you can read about it [on the Wiimmfi website](https://wiimmfi.de/patcher/dnspatch#customdns).
+
+If you find that you are having odd issues with the Secondary DNS, you could try changing to another provider. We recommend either `8.8.8.8` (Google) OR `9.9.9.9` (Quad9).
 
 :::
 

@@ -22,13 +22,13 @@ The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and sh
 
 ::: warning
 
-If you are trying to [update your Wii to 4.3U](update) with homebrew or update outdated homebrew/IOS, you most likely do not need to follow this guide. Instead, you can use a tool like the SysCheck Updater Wizard built into [ModMii](modmii#syscheck-updater-wizard). If you are confused about this process, consider joining the Nintendo Homebrew discord server for support.
+If you are trying to [update your Wii to 4.3U](update) with homebrew or update outdated homebrew/IOS, you most likely do not need to follow this guide. Instead, you can use a tool like the SysCheck Updater Wizard built into [ModMii](modmii#syscheck-updater-wizard). If you are confused about this process, consider joining the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and going to the `#wii-vwii-assistance` channel.
 
 :::
 
 ## Requisitos
 
-- An SD card with at least 512MB of free space
+- An SD card with a minimum 512MB of free space (1GB or more recommended), [formatted to FAT32/MS-DOS](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - A [NAND backup](nand-backup) from the specific system you are trying to flash
 - A Windows computer with an Internet connection
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
@@ -48,13 +48,13 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
    ![](/images/factory-reset/newnand.png)
 
-4. This will fill in information such as the keys, Boot 1/2, and your bad blocks automatically. ONLY change the Destination box to `./blankNand.bin`, which will output the NAND to the program folder with the name `blankNand.bin`. Then, press OK.
+4. This will fill in information such as the keys, Boot 1/2, and your bad blocks automatically. Change _only_ the Destination box to `./blankNand.bin`, which will output the NAND to the program folder with the name `blankNand.bin`. Then, press OK.
 
    ![](/images/factory-reset/renamenand.png)
 
 ### Section II - Creating a Blank NAND
 
-1. Now that the NAND is loaded into the program, select `Content` on the toolbar and then press Format. This will initialize your BLANK NAND, not your backup NAND.
+1. Now that the NAND is loaded into the program, select `Content` on the toolbar and then press Format. This will initialize your _blank_ NAND, not your backup NAND.
 
    ![](/images/factory-reset/formatnand.png)
 
@@ -66,7 +66,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
    ![](/images/factory-reset/menudownload.png)
 
-4. Once the menu has finished downloading, a pop-up will display showing the settings appended to the NAND. It will be autofilled depending on what was in your NAND, although the serial number may be incorrect. You can edit this if you would like, otherwise keep everything blank and press OK.
+4. Once the menu has finished downloading, a pop-up will display showing the settings appended to the NAND. It will be autofilled with what was in your NAND, although the serial number may be incorrect. You can edit this if you would like, otherwise leave everything as-is and press OK.
 
    ![](/images/factory-reset/settings.png)
 
@@ -80,7 +80,7 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
    ![](/images/factory-reset/nandcheck.png)
 
-2. If all is well, the result should look similar to the below. If there are ANY errors that stand out, DO NOT use this NAND and try again as it may damage or permanently brick your Wii. If you continue to get these errors on further attempts, go to the Nintendo Homebrew discord server for support.
+2. If all is well, the result should look similar to the below. If there are _any_ errors that stand out, **DO NOT** use this NAND, as it may damage or permanently brick your Wii. If you continue to get errors on further attempts, join the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and go to the `#wii-vwii-assistance` channel for assistance.
 
    ![](/images/factory-reset/nandcheckresult.png)
 

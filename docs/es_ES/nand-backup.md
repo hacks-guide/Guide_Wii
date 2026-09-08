@@ -60,22 +60,30 @@ Please read the below information before proceeding further.
    ![](/images/nanddumper@ios/select-hbc.png)
 
 4. nanddumper@ios will start and dump your console keys upon opening, if they are not already on your drive. Press any button that is NOT the `HOME`, `START`, or `EJECT` buttons to begin dumping your console's NAND storage.
+
    - If you get a **No storage devices are attached** error, ensure that your SD card or USB drive is directly connected to your Wii. If using a USB drive, it should NOT be connected to a USB hub.
+
    ![](/images/nanddumper@ios/dump-startup.png)
 
 5. Your console's NAND will now begin dumping. Please wait for the NAND dump to finish before proceeding.
 
    ![](/images/nanddumper@ios/dump-in-progress.png)
 
-6. Once the NAND backup has concluded, press any button to exit nanddumper@ios. Your NAND backup and console keys will be output to your USB drive in directory `/wii/backups/`.
+6. Once the NAND backup has concluded, press any button to exit nanddumper@ios. Your NAND backup and console keys will be output to your SD card or USB drive in the directory `/wii/backups/`.
 
    ![](/images/nanddumper@ios/dump-complete.png)
 
-7. On your computer, ensure that you rename `DATE_SERIAL_nand_XX.bin` to `nand.bin`, and `SERIAL_keys.bin` to `keys.bin`. This ensures that BootMii can properly parse your NAND backup in the event that it needs to be restored.
+7. Extract both apps to the root of your SD card or USB drive.
+
+8. On your computer, ensure that you rename `DATE_SERIAL_nand_XX.bin` to `nand.bin`, and `SERIAL_keys.bin` to `keys.bin`. This ensures that BootMii can properly parse your NAND backup in the event that it needs to be restored.
 
    ![](/images/nanddumper@ios/rename-files.png)
 
----
+9. Copy `nand.bin`, `keys.bin`, `sha1sums.txt`, and the .SHA1 hash file from the `/wii/backups` directory on your SD card or USB drive to a safe location. You may then optionally delete the files from your SD card or USB drive if you desire.
+
+   - Ideally, these backup files should be stored in at least two locations; preferably a local drive you have control over like your computer's hard drive, and in a cloud location, such as OneDrive or iCloud Drive.
+
+   ![](/images/nanddumper@ios/PC-Copy.png)
 
 ::: tip
 
@@ -167,6 +175,14 @@ Please read the below information before proceeding further.
 9. Para salir de BootMii, oprime el botón con la flecha negra, y después elige el que tiene el icono del menú de Wii o el Canal Homebrew para salir a donde desees.
 
    ![](/images/bootmii/BootMii_Return.png)
+
+10. Inserta tu tarjeta SD en tu ordenador.
+
+11. Copy `nand.bin` and `keys.bin` from the root of your SD card to a safe location. You may then optionally delete the files from your SD card or USB drive if you desire.
+
+    - Ideally, these backup files should be stored in at least two locations; preferably a local drive you have control over like your computer's hard drive, and in a cloud location, such as OneDrive or iCloud Drive.
+
+    ![](/images/bootmii/PC-Copy.png)
 
 ---
 

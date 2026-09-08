@@ -25,3 +25,7 @@ This site may link to other sites for users to use or reference. This site is no
 ## Changes to Privacy Policy
 
 The contents of this Privacy Policy may be altered at any time and for any reason.
+
+---
+
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

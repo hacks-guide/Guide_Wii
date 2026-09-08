@@ -207,8 +207,8 @@ You will need Python 3 installed in order to use OSCDL on these platforms. Pleas
 
 ::: tip
 
-[Continue to WiiConnect24](wiiconnect24)
+**WiiConnect24 was an online service ran by Nintendo, providing functionality to apps such as the Forecast and News channels. The below guide outlines information on restoring functionality to this service.**
 
-WiiConnect24 was an online service ran by Nintendo, providing functionality to apps such as the Forecast and News channels. This guide outlines WiiLink, a service that restores this functionality, as well as other information to be aware of when using it.
+[Continue to WiiConnect24 →](wiiconnect24){.btn .btn-solid}
 
 :::

@@ -86,8 +86,8 @@ In order to use features like WiiConnect24, you must accept the Wii User Agreeme
 
 ::: tip
 
-Continue to [Open Shop Channel Installation](osc)
+**Now that your Wii mini setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii mini.**
 
-Now that your Wii mini setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii mini.
+[Continue to Open Shop Channel Installation →](priiloader){.btn .btn-solid}
 
 :::

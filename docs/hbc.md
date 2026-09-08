@@ -116,9 +116,9 @@ You can also use the [BootMii Config Editor](https://oscwii.org/library/app/Boot
 
 ::: tip
 
-[Continue to making a NAND Backup](nand-backup)
+**Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.**
 
-Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
+[Continue to NAND Backup Creation →](nand-backup){.btn .btn-solid}
 
 :::
 
@@ -187,9 +187,9 @@ Note: When installing homebrew applications on your USB drive, your folder struc
 
 ::: tip
 
-[Continue to making a NAND Backup](nand-backup)
+**Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.**
 
-Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.
+[Continue to NAND Backup Creation →](nand-backup){.btn .btn-solid}
 
 :::
 

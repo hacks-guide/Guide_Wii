@@ -4,19 +4,21 @@ This guide introduces Wii backup loaders. They can be primarily used to load gam
 
 ::: warning
 
-In order for Wii loader to function properly, you must have the latest cIOS installed. Please check [this](cios) guide for instructions if you are on Wii, and [this](cios-mini) guide if you are on Wii mini.
+In order for Wii backup loaders to function properly, you must have the latest cIOS installed. Please check the [Wii cIOS](cios) guide or the [Wii mini cIOS](cios-mini) guide for instructions on installing cIOS.
+
+:::
+
+::: warning
+
+To play games, you are advised to use a large SD card or an external hard drive. Flash drives are very sporadic in functionality and thus, not recommended. See [storage FAQ](faq).
 
 :::
 
 ::: info
 
-To play games, you are advised to use a large SD card or an external hard drive, flash drives are not recommended and very sporadic in functionality. See [storage FAQ](faq).
+The official USB Loader GX forwarder can be downloaded directly from [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad). You can install it with [YAWM ModMii Edition](yawmme).
 
-:::
-
-::: info
-
-The official Wii Menu forwarder installer for WiiFlow Lite can be found on the [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). The official Wii Menu forwarder installer for WiiFlow Lite can be found on the <a href="https://oscwii.org/library/app/wiiflow_channel_installer">Open Shop Channel</a>. The USB Loader GX official forwarder can be found on the [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) page. You can install it with [YAWM ModMii Edition](yawmme).
+Information on WiiFlow Lite forwarders can be found on [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii:Forwarders/WiiFlow).
 
 :::
 
@@ -54,7 +56,7 @@ Below is a single WBFS example, and a split WBFS example. A WBFS needs to be spl
 
 ## http://www.wiithemer.org/
 
-### Requirements
+### Prérequis
 
 - Go to `Options` > `Standard System Menu` > Version of your Wii Menu > Region of your Wii Menu
 - The latest version of [cIOS](cios)
@@ -105,7 +107,7 @@ When you bring the cursor to the bottom of the screen while in flow view, there 
 
 ## USB Loader GX
 
-### Requirements
+### Prérequis
 
 - Go to `Options` > `Standard System Menu` > Version of your Wii Menu > Region of your Wii Menu
 - The latest version of [cIOS](cios)

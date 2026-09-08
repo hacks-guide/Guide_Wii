@@ -109,8 +109,8 @@ Ensure that your Wii U has Internet access for this step to ensure the exploit c
 
 ::: tip
 
-[Continue to installing the Homebrew Channel](vwii-homebrew-channel)
+**Now that you have a NAND backup saved, you can begin installing the Homebrew Channel onto the vWii Menu.**
 
-Now that you have a NAND backup saved, you can begin installing the Homebrew Channel onto the vWii Menu.
+[Continue to HBC Installation →](vwii-homebrew-channel){.btn .btn-solid}
 
 :::

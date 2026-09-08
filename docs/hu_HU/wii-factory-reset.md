@@ -22,13 +22,13 @@ Az ebben az útmutatóban részletezett utasítások TÖRÖLNI fogják a WII-od 
 
 ::: warning
 
-Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult homebrew/IOS-t frissíteni, akkor valószínűleg nem kell követned ezt az útmutatót. Ehelyett használhatsz egy olyan eszközt, mint a [ModMii](modmii#syscheck-updater-wizard)-be épített SysCheck Updater Wizard. Ha zavarban vagy ezzel a folyamattal kapcsolatban, fontold meg, hogy csatlakozol a Nintendo Homebrew discord szerverhez, ahol támogatást kaphatsz.
+Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult homebrew/IOS-t frissíteni, akkor valószínűleg nem kell követned ezt az útmutatót. Ehelyett használhatsz egy olyan eszközt, mint a [ModMii](modmii#syscheck-updater-wizard)-be épített SysCheck Updater Wizard. Ha össze vagy zavarodva ezzel a folyamattal, csatlakozz a [Nintendo Homebrew Discord](https://discord.gg/C29hYvh)-hoz, és lépj a `#wii-vwii-assistance` csatornára.
 
 :::
 
 ## Követelmények
 
-- Egy SD kártya legalább 512 MB szabad hellyel (1 GB vagy több ajánlott)
+- Egy SD kártya minimum 512 MB szabad területtel (1 GB vagy több ajánlott) [FAT32/MS-DOS-ra formatálva](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 - Egy [NAND mentés](nand-backup) arról az eszközről, amit flash-elni próbálsz
 - Egy internetkapcsolattal rendelkező Windows PC
 - [Ohneschwanzenegger](https://raw.githubusercontent.com/modmii/modmii.github.io/master/temp/ohneschwanzenegger.zip)
@@ -48,13 +48,13 @@ Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult 
 
    ![](/images/factory-reset/newnand.png)
 
-4. Ez automatikusan kitölti az olyan információkat, mint a kulcsok, a Boot 1/2 és a rossz blokkok. CSAK a Destination mezőt változtasd meg `./blankNand.bin`-re, ami a NAND-ot a program mappájába fogja kiadni `blankNand.bin` néven. Aztán nyomj OK-t.
+4. Ez automatikusan kitölti az olyan információkat, mint a kulcsok, a Boot 1/2 és a rossz blokkok. **Csak** a Destination mezőt változtasd meg `./blankNand.bin`-re, ami a NAND-ot a program mappájába fogja kiadni `blankNand.bin` néven. Aztán nyomj OK-t.
 
    ![](/images/factory-reset/renamenand.png)
 
 ### II. rész - Üres NAND készítése
 
-1. Most, hogy a NAND be van töltve a programba, válaszd a `Content` lehetőséget az eszköztáron, majd nyomd meg a Format gombot. Ez a BLANK NAND-od inicializálja, nem pedig a NAND mentésed.
+1. Most, hogy a NAND be van töltve a programba, válaszd a `Content` lehetőséget az eszköztáron, majd nyomd meg a Format gombot. Ez a **üres** NAND-od inicializálja, nem pedig a NAND mentésed.
 
    ![](/images/factory-reset/formatnand.png)
 
@@ -80,7 +80,7 @@ Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult 
 
    ![](/images/factory-reset/nandcheck.png)
 
-2. Ha minden rendben van, az eredménynek az alábbihoz hasonlóan kell kinéznie. Ha BÁRMILYEN hiba feltűnik, NE HASZNÁLD ezt a NAND-ot, és ne próbáld meg újra, mert ez károsíthatja vagy brickelhet a Wii-odat. Ha a további próbálkozásoknál is ilyen hibákat kapsz, menj a Nintendo Homebrew discord szerverére támogatásért.
+2. Ha minden rendben van, az eredménynek az alábbihoz hasonlóan kell kinéznie. Ha **bármilyen** hiba feltűnik, **NE HASZNÁLD** ezt a NAND-ot, és ne próbáld meg újra, mert ez károsíthatja vagy brickelheti a Wii-odat. Ha későbbi próbálkozásoknál is hibákat kapsz, csatlakozz a [Nintendo Homebrew Discord](https://discord.gg/C29hYvh)-hoz és menj a `#wii-vwii-assistance` csatornához segítségért.
 
    ![](/images/factory-reset/nandcheckresult.png)
 

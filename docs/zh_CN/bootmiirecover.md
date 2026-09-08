@@ -10,7 +10,7 @@ Please read the information below before proceeding further.
 
 - Family Edition Wiis and Wii minis **CANNOT** restore NAND backups. This is because of the lack of GameCube ports which are required on non-boot2 Wiis to enter the restoration confirmation code. For additional help, please seek support. For additional help, please seek support on the [Nintendo Homebrew discord server](https://discord.gg/C29hYvh).
 
-- 如果您已将 BootMii 安装为 boot2，则需要重启主机来启动 BootMii。 如果是这种情况，请跳过步骤1和2。
+- 如果您已将 BootMii 安装为 boot2，则需要重启主机来启动 BootMii。 Skip steps 4 and 5 if this is the case.
 
 - If you have not done anything to cause a brick (or you're starting up your Wii after a long time), then it is likely a [Wi-Fi Brick](bricks#wi-fi-brick).
 
@@ -49,41 +49,47 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ## 步骤
 
-1. 启动 Wii 上的 Homebrew Channel。
+1. Insert your SD card into your PC.
 
-2. 按 HOME 按钮，然后选择 "Launch BootMii"。
+2. Determine if your NAND files are already on your SD card. If not, you must copy a backup of your `nand.bin` and `keys.bin` files to the SD card.
+
+3. Insert your SD card into your Wii.
+
+4. 启动 Wii 上的 Homebrew Channel。
+
+5. 按 HOME 按钮，然后选择 "Launch BootMii"。
 
    - If the Homebrew Channel is inaccessible and you have Priiloader installed, you may also access it on boot and select `BootMii IOS` to load BootMii.
 
    ![](/images/bootmii/BootMii_HBC.png)
 
-3. 选择选项按钮（带齿轮图标的按钮）。
+6. 选择选项按钮（带齿轮图标的按钮）。
 
    ![](/images/bootmii/BootMii_Gears.png)
 
-4. 选择 RestoreMii 按钮。
+7. 选择 RestoreMii 按钮。
 
    ![](/images/bootmii/BootMii_Restore.png)
 
-5. BootMii will inform you that it will run in SIMULATION mode, you can press A or Reset to continue.
+8. BootMii will inform you that it will run in SIMULATION mode, you can press A or Reset to continue.
 
    ![](/images/bootmii/BootMii_NAND_Simulation.png)
 
-6. 在 GameCube 手柄上输入科乐美秘技：↑、↑、↓、↓、←、→、←、→、B、A、START
+9. 在 GameCube 手柄上输入科乐美秘技：↑、↑、↓、↓、←、→、←、→、B、A、START
 
    ![](/images/bootmii/BootMii_NAND_Konami.png)
 
-7. BootMii will run through the restore process as a simulation, detailing what will be erased and rewritten. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin.
+10. BootMii will run through the restore process as a simulation, detailing what will be erased and rewritten. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin. Once this is done, you have one final chance to back out of the restoration process. Otherwise, press START or the Eject button to begin.
 
-   ![](/images/bootmii/BootMii_NAND_Restore.png)
+    ![](/images/bootmii/BootMii_NAND_Restore.png)
 
-8. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. 按 Wii 主机或 GCN 手柄上的任意按钮。
+11. After the recovery ended, you should see a text say `I HAZ SUCCESS!`, otherwise `I HAZ FAIL`. 按 Wii 主机或 GCN 手柄上的任意按钮。
 
-   ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
+    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
-9. 要退出 BootMii，按返回按钮（带箭头的那个)，然后您可以按 Wii 菜单按钮或 Homebrew Channel 按钮来退出到您想要的地方。
+12. 要退出 BootMii，按返回按钮（带箭头的那个)，然后您可以按 Wii 菜单按钮或 Homebrew Channel 按钮来退出到您想要的地方。
 
-   ![](/images/bootmii/BootMii_Return.png)
+    ![](/images/bootmii/BootMii_Return.png)
 
 ---
 

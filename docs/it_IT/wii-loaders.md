@@ -4,19 +4,21 @@ Questa guida introdurrà sui loader di backup per Wii. Il loro uso principale è
 
 ::: warning
 
-Per far funzionare correttamente i loader, è necessario installare gli ultimi cIOS. Controlla [questa](cios) guida per le istruzioni se sei su Wii, e [questa](cios-mini) se sei su Wii mini.
+Per far funzionare correttamente i loader, è necessario installare gli ultimi cIOS. Controlla la guida sui [cIOS per Wii](cios) o [cIO per Wii Mini](cios-mini) per istruzioni sull'installazione dei cIOS.
+
+:::
+
+::: warning
+
+Per i giochi, è consigliato usare una scheda SD capiente o un disco rigido esterno. Le chiavette USB non sono consigliate e sono molto sporadiche in funzionalità. Vedi le [domande frequenti sull'archiviazione](faq).
 
 :::
 
 ::: info
 
-Si consiglia di utilizzare una scheda SD di grandi dimensioni o un disco rigido esterno, in quanto le chiavette USB non sono consigliate e sono molto sporadiche in funzionalità. Vedi le [domande frequenti sull'archiviazione](faq).
+Il forwarder ufficiale di USB Loader GX può essere scaricato direttamente da [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad). Usa [YAWM ModMii Edition](yawmme) per installarlo.
 
-:::
-
-::: info
-
-L'installer ufficiale del forwarder di WiiFlow Lite può essere trovato su [Open Shop Channel](https://oscwii.org/library/app/wiiflow_channel_installer). Per installarlo, avvia l'app dal'Homebrew Channel. Il forwarder ufficiale di USB Loader GX può essere trovato su [GitHub](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad). Usa [YAWM ModMii Edition](yawmme) per installarlo.
+Informazioni sui forwarder di WiiFlow Lite possono essere trovati su [wiki.hacks.guide](https://wiki.hacks.guide/wiki/Wii:Forwarders/WiiFlow).
 
 :::
 

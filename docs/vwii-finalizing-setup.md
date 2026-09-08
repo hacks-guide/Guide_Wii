@@ -89,8 +89,8 @@ WiiWare 4:3 DB Patcher is a homebrew app that patches the vWii's 4:3 aspect rati
 
 ::: tip
 
-Continue to [Open Shop Channel Installation](osc)
+**Now that your main vWii setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.**
 
-Now that your main vWii setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
+[Continue to Open Shop Channel Installation →](osc){.btn .btn-solid}
 
 :::

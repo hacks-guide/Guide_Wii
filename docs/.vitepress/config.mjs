@@ -56,6 +56,11 @@ export default defineConfig({
     }
   },
   markdown: {
+    container: {
+      customContainers: {
+        success: 'SUCCESS'
+      }
+    },
     config: (md) => {
       md.use(container, "tabs", {
         render: (tokens, idx) => {

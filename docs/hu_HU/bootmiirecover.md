@@ -10,7 +10,7 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 - A Family Edition Wii-ok és Wii mini-k **NEM TUDNAK** helyreállítani NAND mentést. A biztonsági mentés visszaállításához egy olyan megerősítő kódot kell megadnod, amihez egy GameCube-vezérlő szükséges. További támogatásért kérj segítséget a [Nintendo Homebrew discord szerveren](https://discord.gg/C29hYvh).
 
-- Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell megnyitnod azt. Ha ez a követelmény teljesül, akkor kihagyhatod az 1. és 2. lépést.
+- Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell megnyitnod azt. Skip steps 4 and 5 if this is the case.
 
 - Ha nem csináltál semmit, ami brickeléshez vezetne (vagy hosszú idő óta először kapcsolod be a konzolod), akkor valószínűleg [Wi-Fi Brick](bricks#wi-fi-brick)-ről van szó.
 
@@ -49,41 +49,47 @@ Ha egy játék játékmentését szeretnéd visszaállítani, importáld a Dolph
 
 ## Lépések
 
-1. Indítsd el a Homebrew Channelt.
+1. Csatlakoztasd az SD kártyád a PC-dhez.
 
-2. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” menüpontot.
+2. Determine if your NAND files are already on your SD card. If not, you must copy a backup of your `nand.bin` and `keys.bin` files to the SD card.
+
+3. Helyezd be az SD kártyád a Wii-odba.
+
+4. Indítsd el a Homebrew Channelt.
+
+5. Nyomd meg a HOME-gombot, majd válaszd ki a „Launch BootMii” menüpontot.
 
    - Ha a Homebrew Channel nem hozzáférhető és telepítve van a Priiloader, akkor azt is elindíthatod a konzol bekapcsolásakor, majd a `BootMii IOS` menüponttal megnyithatod a BootMiit.
 
    ![](/images/bootmii/BootMii_HBC.png)
 
-3. Válaszd ki az Options menüpontot (az ikon fogaskerékkel).
+6. Válaszd ki az Options menüpontot (az ikon fogaskerékkel).
 
    ![](/images/bootmii/BootMii_Gears.png)
 
-4. Válaszd ki a RestoreMii gombot.
+7. Válaszd ki a RestoreMii gombot.
 
    ![](/images/bootmii/BootMii_Restore.png)
 
-5. A BootMii jelenteni fogja, hogy először szimulációs módban fogja kipróbálni a visszatöltést. Az A- vagy Reset-gombbal elindíthatod a folyamatot.
+8. A BootMii jelenteni fogja, hogy először szimulációs módban fogja kipróbálni a visszatöltést. Az A- vagy Reset-gombbal elindíthatod a folyamatot.
 
    ![](/images/bootmii/BootMii_NAND_Simulation.png)
 
-6. Ha a BootMii IOS-ként van telepítve, meg kell adnod a Konami kódot egy GameCube-vezérlő használatával: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
+9. Ha a BootMii IOS-ként van telepítve, meg kell adnod a Konami kódot egy GameCube-vezérlő használatával: ↑, ↑, ↓, ↓, ←, →, ←, →, B, A, START
 
    ![](/images/bootmii/BootMii_NAND_Konami.png)
 
-7. A BootMii először szimulációs módban végigmegy a visszatöltési folyamaton és jelenti, hogy mit fog törölni és felülírni. Miután ez befejeződött, még egy utolsó lehetőséged lesz a folyamat megszakítására. A START- vagy Eject-gomb megnyomásával elindul a folyamat – bármely másik gomb megnyomásával megszakad.
+10. A BootMii először szimulációs módban végigmegy a visszatöltési folyamaton és jelenti, hogy mit fog törölni és felülírni. Miután ez befejeződött, még egy utolsó lehetőséged lesz a folyamat megszakítására. A START- vagy Eject-gomb megnyomásával elindul a folyamat – bármely másik gomb megnyomásával megszakad.
 
-   ![](/images/bootmii/BootMii_NAND_Restore.png)
+    ![](/images/bootmii/BootMii_NAND_Restore.png)
 
-8. A folyamat befejeztével a program jelenteni fogja, hogy a visszaállítás sikerült-e (`I HAZ SUCCESS!`) vagy sem (`I HAZ FAIL`). Nyomj meg egy tetszőleges gombot a konzolon vagy a vezérlőn.
+11. A folyamat befejeztével a program jelenteni fogja, hogy a visszaállítás sikerült-e (`I HAZ SUCCESS!`) vagy sem (`I HAZ FAIL`). Nyomj meg egy tetszőleges gombot a konzolon vagy a vezérlőn.
 
-   ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
+    ![](/images/bootmii/BootMii_NAND_Restore_Success.png)
 
-9. Nyomd meg a Back gombot (a gomb egy nyíllal), majd a BootMii-ből kilépéshez nyomd meg a Wii menü vagy a Homebrew Channel gombot.
+12. Nyomd meg a Back gombot (a gomb egy nyíllal), majd a BootMii-ből kilépéshez nyomd meg a Wii menü vagy a Homebrew Channel gombot.
 
-   ![](/images/bootmii/BootMii_Return.png)
+    ![](/images/bootmii/BootMii_Return.png)
 
 ---
 

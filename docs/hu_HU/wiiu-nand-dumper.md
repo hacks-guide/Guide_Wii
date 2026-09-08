@@ -1,6 +1,6 @@
 # NAND mentés készítése (Wii U)
 
-Annak érdekében, hogy megvédjök a Wii U-dat egy permanens brikctől az az útmutató arra fog kérni, hogy készíts egy NAND mentést.
+Annak érdekében, hogy megvédjük a Wii-odat egy permanens bricktől, ez az útmutató arra fog kérni, hogy készíts egy NAND mentést.
 
 ::: tip
 

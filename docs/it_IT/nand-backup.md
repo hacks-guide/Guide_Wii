@@ -69,15 +69,21 @@ Leggi la nota sotto prima di procedere oltre.
 
    ![](/images/nanddumper@ios/dump-in-progress.png)
 
-6. Una volta terminato, premi un pulsante qualsiasi per uscire da nanddumper@ios. Troverai il backup e le chiavi della console nella cartella `/wii/backups/` dell'unità che hai usato.
+6. Una volta terminato, premi un pulsante qualsiasi per uscire da nanddumper@ios. Troverai il backup e le chiavi della console nella cartella `/wii/backups/` del dispositivo di archiviazione che hai usato.
 
    ![](/images/nanddumper@ios/dump-complete.png)
 
-7. Sul computer, rinomina `DATA_SERIALE_nand_XX.bin` in `nand.bin` e `SERIALE_keys.bin` in `keys.bin`. In questo modo, BootMii riconoscerà il backup della NAND nel caso in cui dovessi ripristinarla.
+7. Inserisci la scheda SD o l'unità USB nel computer.
+
+8. Sul computer, rinomina `DATA_SERIALE_nand_XX.bin` in `nand.bin` e `SERIALE_keys.bin` in `keys.bin`. In questo modo, BootMii riconoscerà il backup della NAND nel caso in cui dovessi ripristinarla.
 
    ![](/images/nanddumper@ios/rename-files.png)
 
----
+9. Copia i file `nand.bin`, `keys.bin`, `sha1sums.txt` e l'hash.SHA1 dalla cartella `/wii/backups` in un luogo sicuro. In seguito potrai eliminare i file appena elencati dall'archiviazione originale per risparmiare spazio.
+
+   - Idealmente questi backup dovrebbero essere memorizzati in almeno due luoghi; preferibilmente un'unità locale di cui hai controllo, come il disco rigido del tuo computer, e nel cloud, come in OneDrive o iCloud Drive.
+
+   ![](/images/nanddumper@ios/PC-Copy.png)
 
 ::: tip
 
@@ -169,6 +175,14 @@ Leggi la nota sotto prima di procedere oltre.
 9. Premi il pulsante Back (quello con la freccia) e poi Wii Menu o Homebrew Channel per uscire da BootMii.
 
    ![](/images/bootmii/BootMii_Return.png)
+
+10. Inserisci la scheda SD nel computer.
+
+11. Copia `nand.bin` e `keys.bin` dalla root della scheda SD in un luogo sicuro. In seguito potrai eliminare i file appena elencati dall'archiviazione originale per risparmiare spazio.
+
+    - Idealmente questi backup dovrebbero essere memorizzati in almeno due luoghi; preferibilmente un'unità locale di cui hai controllo, come il disco rigido del tuo computer, e nel cloud, come in OneDrive o iCloud Drive.
+
+    ![](/images/bootmii/PC-Copy.png)
 
 ---
 
