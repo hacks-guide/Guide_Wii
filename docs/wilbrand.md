@@ -10,6 +10,12 @@ SD cards larger than 2GB will not work on Wii Menu versions before 4.0.
 
 :::
 
+::: info
+
+If you encounter any issues when following this guide or it's subsequent pages, please refer to our [troubleshooting guide](faq.md#wilbrand-or-letterbomb).
+
+:::
+
 ::: warning
 
 DO NOT use any of the MAC address examples shown in this guide, as they will simply cause an error on the HackMii website. Use your own!
