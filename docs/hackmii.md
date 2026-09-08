@@ -26,14 +26,15 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 
 ::: info
 
-If `Press (1) to continue` does not show up after around 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
+If `Press (1) to continue` does not show up after around 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/hackmii_installer_v1.0.zip/) may help.
 
 :::
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
-Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+**Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.**
+
+[Continue to HBC/BootMii Installation →](hbc){.btn .btn-solid}
 
 :::
 
@@ -68,15 +69,15 @@ Preloader and older versions of Priiloader do not seem to support SDHC (>2GB) ca
 
 ::: info
 
-If `Press (1) to continue` does not show up after about 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
+If `Press (1) to continue` does not show up after about 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/hackmii_installer_v1.0.zip) may help.
 
 :::
 
 ::: tip
 
-[Continue to Homebrew Channel and BootMii Installation](hbc)
+**Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.**
 
-Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+[Continue to HBC/BootMii Installation →](hbc){.btn .btn-solid}
 
 :::
 
@@ -113,7 +114,7 @@ If you can already access BootMii via IOS, it is generally easier to follow the 
 
 ::: info
 
-If `Press (1) to continue` does not show up after around 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
+If `Press (1) to continue` does not show up after around 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/hackmii_installer_v1.0.zip) may help.
 
 :::
 
