@@ -33,6 +33,7 @@ If you are formatting your Wii because:
 * You want to update your System Menu version
 
 <u>**STOP!!!**</u> Formatting your Wii is an unnecessary risk that will at best waste your time and at worst [**BRICK**](bricks#low-level-brick) your console!
+
 :::
 
 ::: warning
