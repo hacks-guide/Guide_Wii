@@ -12,12 +12,27 @@ Do not attempt this tutorial on the Wii U's vWii.
 
 ::: danger
 
-The instructions detailed in this guide WILL ERASE YOUR WII SYSTEM MEMORY and should only be considered as a LAST RESORT or if you are trying to do any of the following:
+The instructions detailed in this guide **WILL ERASE YOUR WII SYSTEM MEMORY** and should only be considered as a **LAST RESORT** or if you are trying to do any of the following:
 
 * Restore the Wii to a state comparable to when it left the factory.
 * Fix a brick where you do not have a functional NAND backup or access to the Homebrew Channel but can still make one using BootMii.
 * You are unable to revert certain changes to the Wii System Memory such as all cIOS with DARKCORP.
 
+:::
+
+::: danger
+
+If you are formatting your Wii because:
+* You want to re-mod it
+* You want to update outdated homebrew and/or cIOS
+* You want to change SD cards
+* Your SD card was lost or corrupted
+* One of your games is broken
+* One of your homebrew applications is broken
+* Your console is unable to boot to System Menu
+* You want to update your System Menu version
+
+<u>**STOP!!!**</u> Formatting your Wii is an unnecessary risk that will at best waste your time and at worst [**BRICK**](bricks#low-level-brick) your console!
 :::
 
 ::: warning
