@@ -18,6 +18,9 @@ The instructions detailed in this guide **WILL ERASE YOUR WII SYSTEM MEMORY** an
 * Fix a brick where you do not have a functional NAND backup or access to the Homebrew Channel but can still make one using BootMii.
 * You are unable to revert certain changes to the Wii System Memory such as all cIOS with DARKCORP.
 
+:::
+
+::: danger
 If you are formatting your Wii because:
 * You want to re-mod it
 * You want to update outdated homebrew and/or cIOS
@@ -29,10 +32,6 @@ If you are formatting your Wii because:
 * You want to update your System Menu version
 
 <u>**STOP!!!**</u> Formatting your Wii is an unnecessary risk that will at best waste your time and at worst [**BRICK**](bricks#low-level-brick) your console!
-
-:::
-
-::: warning
 
 If you are trying to [update your Wii to 4.3U](update) with homebrew or update outdated homebrew/IOS, you most likely do not need to follow this guide. Instead, you can use a tool like the SysCheck Updater Wizard built into [ModMii](modmii#syscheck-updater-wizard). If you are confused about this process, consider joining the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh) and going to the `#wii-vwii-assistance` channel.
 
