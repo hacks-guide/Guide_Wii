@@ -21,6 +21,7 @@ The instructions detailed in this guide **WILL ERASE YOUR WII SYSTEM MEMORY** an
 :::
 
 ::: danger
+
 If you are formatting your Wii because:
 * You want to re-mod it
 * You want to update outdated homebrew and/or cIOS
