@@ -171,8 +171,4 @@ A Wii U esetében a vWii a Wii U fő beállításaiban megadott internetbeállí
 
 ---
 
-::: tip
-
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
-
-:::
+[← Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid}

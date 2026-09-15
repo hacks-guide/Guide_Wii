@@ -102,14 +102,8 @@ Your Wii should now automatically boot to whichever homebrew app you installed.
 
 ::: tip
 
-[Click here to return to the main Priiloader guide.](priiloader)
+**Return to the main Priiloader guide, or return to the site index.**
 
-:::
-
----
-
-::: tip
-
-[Klicke hier, um zum Seitenindex zurückzugelangen.](site-navigation)
+[← Return to Priiloader](priiloader){.btn .btn-solid} [← Return to Site Navigation](site-navigation){.btn .btn-solid}
 
 :::

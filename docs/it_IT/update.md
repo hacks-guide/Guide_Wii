@@ -58,8 +58,4 @@ Questa guida spiegherà come aggiornare il menu Wii alla versione 4.3, se hai la
 
 ---
 
-::: tip
-
-[Clicca qui per tornare all'indice.](site-navigation)
-
-:::
+[← Ritorna all'indice](site-navigation){.btn .btn-solid}

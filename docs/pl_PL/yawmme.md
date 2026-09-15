@@ -41,8 +41,4 @@ Ten samouczek pokaże jak zainstalować pliki WAD.
 
 ---
 
-::: tip
-
-[Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

@@ -120,9 +120,9 @@ Wii에서 [BootMii 구성 편집기](https://oscwii.org/library/app/BootMiiConfi
 
 ::: tip
 
-[Continue to making a NAND Backup](nand-backup)
+**Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.**
 
-이 시점에서 낸드 백업을 하는 것이 좋습니다. 이는 벽돌에서 복구하는 데 사용할 수 있기 때문입니다.
+[Continue to NAND Backup Creation →](nand-backup){.btn .btn-solid}
 
 :::
 
@@ -193,9 +193,9 @@ Wii 미니에 BootMii를 설치하는 것은 가능하지만, SD 카드 슬롯�
 
 ::: tip
 
-[Continue to making a NAND Backup](nand-backup)
+**Making a NAND backup at this point is highly recommended, as they can be used to recover from bricks.**
 
-이 시점에서 낸드 백업을 하는 것이 좋습니다. 이는 벽돌에서 복구하는 데 사용할 수 있기 때문입니다.
+[Continue to NAND Backup Creation →](nand-backup){.btn .btn-solid}
 
 :::
 

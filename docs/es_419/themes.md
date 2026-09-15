@@ -223,8 +223,4 @@ App forwarders can add a bit of extra flair to your Wii Menu - but be careful wi
 
 ---
 
-::: tip
-
-[Haz clic aquí para volver al índice del sitio.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

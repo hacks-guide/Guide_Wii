@@ -96,8 +96,8 @@ In order to use features like WiiConnect24, you must accept the Wii User Agreeme
 
 ::: tip
 
-[오픈 샵 채널 설치](osc)를 계속하기
+**Now that your Wii mini setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii mini.**
 
-이제 Wii 미니 설정이 완료되었으므로 Wii 미니 안팎에서 모두 액세스할 수 있는 신뢰할 수 있는 홈브루 저장소인 오픈샵 채널을 설치할 수 있습니다.
+[Continue to Open Shop Channel Installation →](priiloader){.btn .btn-solid}
 
 :::

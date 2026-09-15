@@ -247,8 +247,8 @@ WiiWare 게임에서 실행되는 Wiimmfi 패치 방법이지만, 스크립트�
 
 ::: tip
 
-[추천 홈브류](recommended-homebrew)로 계속하기
+The below guide provides a selection of homebrew that highlights some of the things you can now do with your Wii. These include emulators, game hacks, and more.
 
-This guide provides a selection of homebrew that highlights some of the things you can now do with your Wii. These include emulators, game hacks, and more.
+[Continue to Recommended Homebrew →](recommended-homebrew){.btn .btn-solid}
 
 :::

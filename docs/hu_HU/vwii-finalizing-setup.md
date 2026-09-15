@@ -6,7 +6,7 @@ Most, hogy a Homebrew Channel, Priiloader és cIOS telepítésre került, végle
 
 Patched IOS 80 Installer for vWii egy homebrew app ami veszi a az aktuálisan telepített IOS 80-at és patcheli, hogy kikapcsolja az aláírás ellenőrzést. Ez lehetővé teszi, hogy a fake aláírású csatornák használhatókal egyenek az SD kártya menüben.
 
-### Requirements
+### Követelmények
 
 - Egy SD kártya vagy pendrive
 - [Patched IOS 80 Installer for vWii](https://oscwii.org/library/app/Patched_IOS80_Installer_for_vWii)
@@ -27,7 +27,7 @@ Patched IOS 80 Installer for vWii egy homebrew app ami veszi a az aktuálisan te
 
    ![](/images/vwii/ios80-installer/warning.png)
 
-6. A folytatás után a telepítő patchelni és telepíteni fogja az IOS80-at. Ha végzett, nyomj tetdzőleges gombot a Homebrew Channel-hez visszatéréshez.
+6. A folytatás után a telepítő patchelni és telepíteni fogja az IOS80-at. Ha végzett, nyomj tetszőleges gombot a Homebrew Channel-hez visszatéréshez.
 
    ![](/images/vwii/ios80-installer/install.png)
 
@@ -70,7 +70,7 @@ System Channel Restorer egyhomebrew app, ami visszaállítja a vWii menüből no
 
 A WiiWare 4:3 DB Patcher egy homebrew app ami patcheli a vWii 4:3 képarány adatbázisát, lehetővé téve a 16:9 képarányt az Everybody Votes és a Mii Contest/Check Mii Out csatornákon.
 
-### Requirements
+### Követelmények
 
 - Egy SD kártya vagy pendrive
 - [WiiWare 4:3 DB Patcher](https://oscwii.org/library/app/ww-43db-patcher)
@@ -99,8 +99,8 @@ A WiiWare 4:3 DB Patcher egy homebrew app ami patcheli a vWii 4:3 képarány ada
 
 ::: tip
 
-Folytatás az [Open Shop Channel telepítés](osc)-ével
+**Most, hogy a fő vWii telepítés teljes, telepítheted az Open Shop Channel-t, ami a homebrew programok megbízható tárháza és hozzáférhető mind egy Wii-ről vagy egy számítógépről.**
 
-Most, hogy a fő vWii telepítés teljes, telepítheted az Open Shop Channel-t, ami a homebrew programok megbízható tárháza és hozzáférhető mind egy Wii-ről vagy egy számítógépről.
+[Folytatás az Open Shop Channel telepítésével →](osc){.btn .btn-solid}
 
 :::

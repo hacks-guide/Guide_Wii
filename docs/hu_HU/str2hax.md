@@ -104,8 +104,8 @@ Az exploitnak szüksége van arra, hogy beállítsd a DNS-ed annak érdekében, 
 
 ::: tip
 
-[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+**Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzolodtól függően a BootMii-t.**
 
-Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
+[Folytatás a HBC/BootMii telepítésével →](hbc){.btn .btn-solid}
 
 :::

@@ -92,8 +92,8 @@ Ha a Wii-od [próbálod 4.3U-ra frissíteni](update) homebrew-vel, vagy elavult 
 
 ::: tip
 
-[Folytatás a BootMii Recovery-vel](bootmiirecover)
+**Most, hogy van egy üres NAND-od, helyre állíthatod azt a Wii-odon a BootMii segítségével.**
 
-Mostz, hogy van egy üres NAND-od, helyre állíthatod azt a Wii-odon a BootMii segítségével.
+[Folytatás a BootMii Recovery-vel →](bootmiirecover){.btn .btn-solid}
 
 :::

@@ -46,8 +46,4 @@ On Dolphin Emulator version `5.0-4588` or later, the Wii Menu can be easily inst
 
 ---
 
-::: tip
-
-[Klicke hier, um zum Seitenindex zurückzugelangen.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

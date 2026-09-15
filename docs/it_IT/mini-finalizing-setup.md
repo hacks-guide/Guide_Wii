@@ -96,8 +96,8 @@ Per poter utilizzare funzioni come WiiConnect24, è necessario accettare l'`Acco
 
 ::: tip
 
-Continua con l'[installazione di Open Shop Channel](osc)
+**Ora che la configurazione di Wii mini è terminata, puoi installare l'Open Shop Channel: una repository affidabile per le app homebrew che può essere navigata con o senza Wii mini.**
 
-Ora che la configurazione di Wii mini è terminata, puoi installare l'Open Shop Channel: una repository affidabile per le app homebrew che può essere navigata con o senza Wii mini.
+[Continua con l'installazione di Open Shop Channel →](priiloader){.btn .btn-solid}
 
 :::

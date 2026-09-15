@@ -199,9 +199,9 @@ Se hai scaricato i file WAD nella Sezione I, puoi ora rimuoverli dalla scheda SD
 
 ::: tip
 
-[Continua con l'installazione di Open Shop Channel](osc)
+**Ora che l'Homebrew Channel, BootMii, Priiloader e i cIOS sono installati, puoi installare l'Open Shop Channel: una repository affidabile per le app homebrew che può essere navigata con o senza Wii.**
 
-Ora che l'Homebrew Channel, BootMii, Priiloader e i cIOS sono installati, puoi installare l'Open Shop Channel: una repository affidabile per le app homebrew che può essere navigata con o senza Wii.
+[Continua con l'installazione di Open Shop Channel →](osc){.btn .btn-solid}
 
 :::
 
@@ -356,9 +356,9 @@ I file WAD dovrebbero trovarsi sulla scheda SD in questo modo:
 
 ::: tip
 
-[Continua col completamento dell'installazione (Wii U)](vwii-finalizing-setup)
+**Ora che l'Homebrew Channel, Priiloader e i cIOS sono installati, puoi procedere a ripristinare le funzionalità che sono assenti da un menu vWii standard.**
 
-Ora che l'Homebrew Channel, Priiloader e i cIOS sono installati, puoi procedere a ripristinare le funzionalità che normalmente sono assenti da un menu vWii standard.
+[Continua col completare l'istallazione di Wii U →](vwii-finalizing-setup){.btn .btn-solid}
 
 :::
 
@@ -425,9 +425,9 @@ Se hai bisogno di assistenza con questo tutorial, unisciti al [server Discord di
 
 ::: tip
 
-[Continua col completamento dell'installazione (Wii mini)](mini-finalizing-setup)
+**Ora che l'Homebrew Channel, Priiloader e i cIOS sono installati, puoi procedere a ripristinare le funzionalità che sono assenti da un menu Wii mini standard.**
 
-Ora che l'Homebrew Channel, Priiloader e i cIOS sono installati, puoi procedere a ripristinare le funzionalità che normalmente sono assenti da un menu Wii mini standard.
+[Continua col completare l'istallazione di Wii mini →](mini-finalizing-setup){.btn .btn-solid}
 
 :::
 

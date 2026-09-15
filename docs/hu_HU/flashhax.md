@@ -41,7 +41,7 @@ A FlashHax egy olyan feltörési módszer, amit az Internet Channelen keresztül
 
 3. Ha az exploit sikeres volt, az eszközöd betöltötte a HackMii Installer-t.
    - Lehetséges, hogy ez több próbálkozást is igényelni fog.
-   - Ha a HackMii Installer nem indul el és a konzol lefagy (a kurzor nem mozdul), akkor indítsd újra a Wii-t indítsd el a Internet Channel-t és kezdd újra ezt a részt.
+   - Ha a HackMii Installer nem indul el és a konzol lefagy (a kurzor nem mozdul), akkor indítsd újra a Wii-t indítsd el a Internet Channel-t és kezd újra ezt a részt.
 
 Ha több próbálkozás után sem tölt be, próbáld törölni a böngésző sütijeit vagy az Internet Channel mentését.
 
@@ -51,8 +51,8 @@ Ha további próbálkozások után sem működik a Flashhax, javasoljuk, hogy pr
 
 ::: tip
 
-[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+**Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzolodtól függően a BootMii-t.**
 
-Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
+[Folytatás a HBC/BootMii telepítésével →](hbc){.btn .btn-solid}
 
 :::

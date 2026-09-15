@@ -188,8 +188,4 @@ USB Loader GX와 WiiFlow Lite는 둘 다 가장 적합한 cIOS를 자동으로 �
 
 ---
 
-::: tip
-
-[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

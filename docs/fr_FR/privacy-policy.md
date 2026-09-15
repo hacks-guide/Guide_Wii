@@ -25,3 +25,7 @@ Ce site peut contenir des liens vers d'autres sites que les utilisateurs peuvent
 ## Changements de la politique de confidentialité
 
 Le contenu de la présente politique de confidentialité peut être modifié à tout moment et pour quelque raison que ce soit.
+
+---
+
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

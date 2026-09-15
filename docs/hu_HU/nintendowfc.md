@@ -71,7 +71,7 @@ A Wiimmfi patchelés módszere, amely a kiskereskedelmi lemezes játékokon auto
 
 5. Görgess a `Save Settings` menüpontra, és mentsd el a módosításokat.
 
-6. Térjvissza a főmenübe, és nyomd meg a `System Menu`-t a Wii menübe való visszatéréshez.
+6. Térj vissza a főmenübe, és nyomd meg a `System Menu`-t a Wii menübe való visszatéréshez.
 
 7. Indítsd el a játékodat a Disc Channel-en keresztül - most már Wiimmfi patcheltnek kell lennie.
 
@@ -226,7 +226,7 @@ A Wiimmfi patchelés egy módszere, amely a WiiWare játékokon fut, de manuáli
 
 A Wiimmfi patchelés egy módszere, amely játék-lemezképeken fut, de kézzel kell futtatni a PC-n egy szkript segítségével.
 
-#### Requirements
+#### Követelmények
 
 - Egy Windows/macOS/Linux számítógép internet kapcsolattal
 - A patchelni kívánt játék egy példánya - támogatott formátumok: `ISO`, `WDF`, `WIA`, `CISO (=WBI)`, `WBFS`, `GCZ` és `FST` - az `NKIT` NEM támogatott
@@ -247,8 +247,8 @@ A Wiimmfi patchelés egy módszere, amely játék-lemezképeken fut, de kézzel 
 
 ::: tip
 
-Folytatás az [ajánlott Homebrew](recommended-homebrew)-okkal
+Az alábbi útmutató tartalmaz egy homebrew válogatást, ami kiemel néhány dolgot, amit most már tudsz csinálni a Wii-oddal. Ez tartalmaz emulátorokat, játék hackeket és egyebeket.
 
-Ez az útmutató tartalmaz egy homebrew válogatást, ami kiemel néhány dolgot, amit most már tudsz csinálni a Wii-oddal. Ez tartalmaz emulátorokat, játék hackeket és egyebeket.
+[Folytatás az ajánlott Homebrew-okkal →](recommended-homebrew){.btn .btn-solid}
 
 :::

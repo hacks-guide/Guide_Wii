@@ -224,6 +224,8 @@ The HackMii Solutions Wizard fixes issues caused by things like Darkcorp/CIOSSPA
 
 ::: tip
 
-[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
+**Return to Get Started for more exploits/modding methods, or return to the site index.**
+
+[← Return to Get Started](get-started){.btn .btn-solid} [← Return to Site Navigation](site-navigation){.btn .btn-solid}
 
 :::

@@ -116,8 +116,8 @@ Per far funzionare l'exploit, assicurati che la console sia connessa a Internet.
 
 ::: tip
 
-[Continua con installare l'Homebrew Channel](vwii-homebrew-channel)
+**Ora che hai un backup della NAND salvato, puoi iniziare a installare l'Homebrew Channel sul menu di vWii.**
 
-Ora che hai un backup della NAND salvato, puoi iniziare a installare l'Homebrew Channel sul menu di vWii.
+[Continua con l'installazione di HBC →](vwii-homebrew-channel){.btn .btn-solid}
 
 :::

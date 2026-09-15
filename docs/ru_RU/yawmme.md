@@ -41,8 +41,4 @@ YAWM ModMii Edition - это приложение, которое позволя
 
 ---
 
-::: tip
-
-[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

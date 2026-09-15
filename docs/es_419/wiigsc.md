@@ -59,8 +59,4 @@ This guide provides instructions on how to create Wii game shortcuts for game ba
 
 ---
 
-::: tip
-
-[Haz clic aquí para volver al índice del sitio.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

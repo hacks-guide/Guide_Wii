@@ -210,8 +210,8 @@ Per utilizzare OSCDL su queste piattaforme, devi avere Python 3 installato. In a
 
 ::: tip
 
-[Continua con WiiConnect24](wiiconnect24)
+**WiiConnect24 era un servizio online gestito da Nintendo che forniva funzionalità a varie applicazioni, come il Canale Meteo e il Canale Notizie. La seguente guida delinea le informazioni sul ripristino delle funzionalità di questo servizio.**
 
-WiiConnect24 era un servizio online gestito da Nintendo che forniva funzionalità a varie applicazioni, come il Canale Meteo e il Canale Notizie. Questa guida illustra WiiLink, un servizio che ripristina questa funzionalità e fornisce altre informazioni utili per l'utilizzo.
+[Continua con WiiConnect24 →](wiiconnect24){.btn .btn-solid}
 
 :::

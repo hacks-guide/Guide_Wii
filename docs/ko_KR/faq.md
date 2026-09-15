@@ -171,8 +171,4 @@ Wii U의 경우, vWii는 Wii U의 기본 설정에서 설정된 인터넷 설정
 
 ---
 
-::: tip
-
-[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

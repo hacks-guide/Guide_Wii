@@ -92,8 +92,8 @@ Se stai cercando di [aggiornare la console alla 4.3E](update) tramite homebrew o
 
 ::: tip
 
-[Continua con il ripristino tramite BootMii](bootmiirecover)
+**Ora che hai una NAND vuota, puoi ripristinarla sulla console utilizzando BootMii.**
 
-Ora che hai una NAND vuota, puoi ripristinarla sulla console utilizzando BootMii.
+[Continua col ripristino tramite BootMii →](bootmiirecover){.btn .btn-solid}
 
 :::

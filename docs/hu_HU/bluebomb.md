@@ -4,7 +4,7 @@ outline: false
 
 # BlueBomb
 
-A BlueBomb egy exploit, ami a Wii és a Wii mini Bluetooth-könyvtárainak egy biztonsági rését használja ki. Ugyan ez az egyetlen Wii minivel kompatibilis módszer, de az eredeti Wiin is lehet használni.
+A BlueBomb egy exploit, ami a Wii és a Wii mini Bluetooth-könyvtárainak egy biztonsági rését használja ki. Ugyan ez az egyetlen Wii minivel kompatibilis módszer, de az eredeti Wii-n is lehet használni.
 
 Ez az exploit lehetővé teszi bizonyos brick-ek, mint például a banner brick és (néhány) téma brick helyreállítását is, abban az esetben, ha nincs brick védelem.
 
@@ -15,7 +15,7 @@ Kérjük olvasd el a listába gyűjtött fontos információkat mielőtt tovább
 **Fontos információ**
 
 - Ha ezt az útmutatót Wii mini hackeléséhez használod és segítségre an szükséged, csatlakozz a [Wii mini Hacking discord szerverhez](https://discord.gg/6ryxnkS).
-- Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploitot használj](get-started), mert a HackMii telepítő előkészítésének sokkal egyszerűbb módjai is vannak. Ha egy elromlott konzol megjavításáról van szó, akkor viszont vannak kivételek.
+- Ha a Wii eredeti kiadását használod, javasoljuk, hogy egy [másik exploit-ot használj](get-started), mert a HackMii telepítő előkészítésének sokkal egyszerűbb módjai is vannak. Ha egy elromlott konzol megjavításáról van szó, akkor viszont vannak kivételek.
 - Győződj meg róla, hogy a konzol közel van az exploitot futtató számítógéphez, ideális esetben kevesebb mint 1 méternyire.
 
 :::
@@ -36,7 +36,7 @@ Kérjük olvasd el a listába gyűjtött fontos információkat mielőtt tovább
 
 A BlueBomb Classic egy Linux eszközt vagy virtuális gépet használ az exploit feltöltésére a Wii-ra Bluetooth-on keresztül.
 
-### Requirements
+### Követelmények
 
 - Egy Linuxos számítógép
   - Lehetséges, hogy a program egy virtuális számítógépen is elfut, de ez a módszer a Bluetooth-áthidalás bonyolultsága miatt nem ajánlott. Ha lehet, az alább leírtak szerint futtasd a Linuxot egy Usb-meghajtóról.
@@ -52,7 +52,7 @@ A BlueBomb Classic egy Linux eszközt vagy virtuális gépet használ az exploit
     screen
     ```
 
-  - Linuxos Windows-alrendszert vagy Linux-módban futó Chromebookot nem használhatsz, ugyanis ezek nem férnek hozzá a Bluetooth-adapterhez vagy az USB portokhoz.
+  - Linuxos Windows-alrendszert vagy Linux-módban futó Chromebook-ot nem használhatsz, ugyanis ezek nem férnek hozzá a Bluetooth-adapterhez vagy az USB portokhoz.
 
   - Ha nincs Linuxod, akkor az [Ubuntu](https://ubuntu.com/download/desktop) lehet a legfelhasználóbarátabb lehetőség és ami a legtöbb Windowsos vagy MacOS-es számítógépen elfut.
     - Apple Silicon Mac-ek nem fognak működni, mivel hiányoznak az ARM32 utasítások a hardverből.
@@ -73,7 +73,7 @@ A BlueBomb Classic egy Linux eszközt vagy virtuális gépet használ az exploit
 
 1. Másold a `boot.elf` fájlt a`hackmii_installer_v1.2.zip`-ből a pendrive-od gyökerébe.
 
-   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+   - (Ha javítani próbálsz egy brick-et, akkor az /apps/ mappába kell másoldnod a homebrew appokat is amit használni szeretnél.)
    - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Minden esetben a boot.elf-fájlt használd).
 
    ![](/images/exploits/bluebomb/usb-exploit.png)
@@ -143,9 +143,9 @@ A BlueBomb Classic egy Linux eszközt vagy virtuális gépet használ az exploit
 
 ::: tip
 
-[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+**Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzolodtól függően a BootMii-t.**
 
-Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
+[Folytatás a HBC/BootMii telepítésével →](hbc){.btn .btn-solid}
 
 :::
 
@@ -163,7 +163,7 @@ Ha `Exception 0700 occurred!` hibaüzenetet vagy hasonlót kapsz, próbálja meg
 
 :::
 
-### Requirements
+### Követelmények
 
 - Egy Raspberry Pi Pico W 1/2 vagy egy ESP32 BR/EDR (Classic) támogatással.
 - Egy USB flash drive [FAT32/MS-DOS-ra formatálva](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
@@ -257,9 +257,9 @@ Egy normál Raspberry Pi Pico nem fog működni. Vezeték nélküli modellnek KE
 
 ::: tip
 
-[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+**Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzolodtól függően a BootMii-t.**
 
-Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
+[Folytatás a HBC/BootMii telepítésével →](hbc){.btn .btn-solid}
 
 :::
 
@@ -285,7 +285,7 @@ A BlueMii egy másik Wii-t használ az exploit feltöltésére a Wii-ra Bluetoot
 
 1. Másold a `boot.elf` fájtl a `hackmii_installer_v1.2.zip`-ből az USB drive vagy SD kártya gyökerébe, ami a cél konzolon lesz használva.
 
-   - (If attempting to fix a brick, you should also copy the homebrew app you wish to use to /apps/)
+   - (Ha javítani próbálsz egy brick-et, akkor az /apps/ mappába kell másoldnod a homebrew appokat is amit használni szeretnél.)
    - (Még a Wii mini számára **sem** fog a bootmini.elf működni, ennek a fájlnak teljesen más szerepe van és itt nem releváns. Minden esetben a boot.elf-fájlt használd).
 
    ![](/images/exploits/bluebomb/usb-exploit.png)
@@ -349,9 +349,9 @@ A BlueMii egy másik Wii-t használ az exploit feltöltésére a Wii-ra Bluetoot
 
 ::: tip
 
-[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+**Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzolodtól függően a BootMii-t.**
 
-Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
+[Folytatás a HBC/BootMii telepítésével →](hbc){.btn .btn-solid}
 
 :::
 

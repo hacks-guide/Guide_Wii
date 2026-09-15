@@ -4,12 +4,6 @@
 
 Additionally, it can be used to quickly launch any title or homebrew app, or change the way your Wii boots.
 
-::: info
-
-Priiloader의 추가 옵션과 시스템 메뉴 해킹에 대한 자세한 내용은 [Priiloader 사용법](priiloader-usage) 페이지를 참조합니다.
-
-:::
-
 ## 요구 사항
 
 - SD 카드 및 USB 드라이브
@@ -100,9 +94,19 @@ If you copied the Priiloader installer onto a USB drive, ensure that you DO NOT 
 
 ::: info
 
-[벽돌 방지 지침 보기](bricks#brick-prevention)
+**The below link provides guidelines that will assist you in preventing bricks, beyond just having BootMii and Priiloader installed.**
 
-이 가이드라인은 BootMii와 Priiloader를 설치하는 것 외에도 Wii가 벽돌되는 것을 방지하는 데 도움이 되는 방법을 나열합니다.
+[View the Brick Prevention Guidelines](bricks#brick-prevention){.btn .btn-solid}
+
+:::
+
+---
+
+::: info
+
+**You can see the Priiloader Usage page for more information about Priiloader's additional options and System Menu Hacks.**
+
+[View the Priiloader Usage Guide](priiloader-usage){.btn .btn-solid}
 
 :::
 
@@ -110,8 +114,8 @@ If you copied the Priiloader installer onto a USB drive, ensure that you DO NOT 
 
 ::: tip
 
-[cIOS](cios)로 계속하기
+**The next guide provides steps on how to get a basic set of cIOS installed on your console, enabling functionality on apps like USB loaders.**
 
-이 가이드는 콘솔에 cIOS 기본 구성 요소를 설치하여 USB 로더와 같은 앱의 기능을 활성화하는 방법을 단계별로 설명합니다.
+[Continue to cIOS Installation →](cios){.btn .btn-solid}
 
 :::

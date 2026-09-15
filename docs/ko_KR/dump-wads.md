@@ -55,8 +55,4 @@ The WAD has now been dumped, and should appear inside the specified folder on yo
 
 ---
 
-::: tip
-
-[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

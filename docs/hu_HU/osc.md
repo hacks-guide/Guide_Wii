@@ -84,7 +84,7 @@ A Homebrew Browser egy grafikus app repository a Wii-hoz, amit eredetileg 2008 j
 
 A TinyWiiBackupManager egy beépített app letöltővel rendelkezik az Open Shop Channel homebrew alkalmazásokhoz és ez a preferált módja OSC appok letöltésének PC-ről a legtöbb felhasználónak, egyszerűsége miatt.
 
-#### Requirements
+#### Követelmények
 
 - Egy Windowst/MacOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 - Egy SD kártya vagy pendrive
@@ -116,7 +116,7 @@ Részletes telepítési lépések a TinyWiiBackupManager-hez az operációs rend
 
 Az OSCDL egy az Open Shop Channel csapat által fejlesztett alkalmazás PC-re, és vonzó lehet a power felhasználók számára a további szolgáltatásai miatt. A TinyWiiBackupManager alternatívája lehet, ha az nem működik.
 
-#### Requirements
+#### Követelmények
 
 - Egy Windowst/MacOS-t/Linuxot futtató számítógép internet-hozzáféréssel
 - Egy SD kártya vagy pendrive
@@ -196,7 +196,7 @@ Python 3 telepítésre van szükséged az OSCDL haszmálatához ezeken a platfor
 
 ##### II. rész - Használat
 
-1. Ha az OSCDL már meg van nyitva, akkor keress egy alkalmazást, amit le szeretnél tölteni, majd nyomd meg a Download gombot. Ha szeretnéd, akkor a „Send to Wii”-gombbal egyenesen a Wiire küldheted az alkalmazást (ehhez a Wiinek és a számítógépnek ugyanazon a hálózaton kell lennie).
+1. Ha az OSCDL már meg van nyitva, akkor keress egy alkalmazást, amit le szeretnél tölteni, majd nyomd meg a Download gombot. Ha szeretnéd, akkor a „Send to Wii”-gombbal egyenesen a Wii-ra küldheted az alkalmazást (ehhez a Wii-nak és a számítógépnek ugyanazon a hálózaton kell lennie).
 
    ![](/images/osc/app-download-OSCDL-linux.png)
 
@@ -210,8 +210,8 @@ Python 3 telepítésre van szükséged az OSCDL haszmálatához ezeken a platfor
 
 ::: tip
 
-[Folytatás a WiiConnect24-gyel](wiiconnect24)
+**A WiiConnect24 egy a Nintendo futtatott online szolgáltatás volt, ami funkcionalitást biztosított az olyan appokhoz, mint a Forecast és News csatornák. Az alábbi útmutató információt ad a szolgáltatás funkcionalitásának helyreállításához.**
 
-A WiiConnect24 egy a Nintendo futtatott online szolgáltatás volt, ami funkcionalitást biztosított az olyan appokhoz, mint a Forecast és News csatornák. Ez at útmutató a WiiLink szolgáltatást mutatja be, ami visszaállítja ezt a funkcionalitást és más információkat, amikre figyelni kell a használatakor.
+[Folytatás a WiiConnect24-gyel →](wiiconnect24){.btn .btn-solid}
 
 :::

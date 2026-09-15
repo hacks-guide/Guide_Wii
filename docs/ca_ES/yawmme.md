@@ -41,8 +41,4 @@ This tutorial will show you how to install WADs.
 
 ---
 
-::: tip
-
-[Click here to go back to the site index.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

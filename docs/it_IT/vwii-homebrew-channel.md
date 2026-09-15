@@ -131,8 +131,8 @@ Nota che la cartella `apps` all'interno della cartella `wiiu` (per le app homebr
 
 ::: tip
 
-Continua con l'[installazione di Priiloader](priiloader)
+**Anche se BootMii non può essere installato su vWii, Priiloader aggiunge un livello cruciale di protezione dai brick e la sua installazione è altamente consigliata.**
 
-Anche se BootMii non può essere installato su vWii, Priiloader aggiunge un livello cruciale di protezione dai brick e la sua installazione è altamente consigliata.
+[Continua con l'installazione di Priiloader →](priiloader){.btn .btn-solid}
 
 :::

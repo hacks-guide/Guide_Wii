@@ -60,14 +60,8 @@ A questo punto, dovresti essere in grado di installare l'Homebrew Channel e acce
 
 ::: tip
 
-[Ritorna a I brick](bricks)
+**Ritorna ai brick per ulteriori informazioni, oppure ritorna all'indice del sito.**
 
-:::
-
----
-
-::: tip
-
-[Clicca qui per tornare all'indice.](site-navigation)
+[← Ritorna ai brick](bricks){.btn .btn-solid} [← Ritorna all'indice](site-navigation){.btn .btn-solid}
 
 :::

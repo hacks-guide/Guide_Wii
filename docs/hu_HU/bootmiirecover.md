@@ -10,7 +10,7 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 - A Family Edition Wii-ok és Wii mini-k **NEM TUDNAK** helyreállítani NAND mentést. A biztonsági mentés visszaállításához egy olyan megerősítő kódot kell megadnod, amihez egy GameCube-vezérlő szükséges. További támogatásért kérj segítséget a [Nintendo Homebrew discord szerveren](https://discord.gg/C29hYvh).
 
-- Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell megnyitnod azt. Skip steps 4 and 5 if this is the case.
+- Ha boot2 alá telepítetted a BootMiit, akkor a konzol újraindításával kell megnyitnod azt. Ha ez a követelmény teljesül, akkor ugord át a 4. és 5. lépést.
 
 - Ha nem csináltál semmit, ami brickeléshez vezetne (vagy hosszú idő óta először kapcsolod be a konzolod), akkor valószínűleg [Wi-Fi Brick](bricks#wi-fi-brick)-ről van szó.
 
@@ -42,7 +42,7 @@ Például, ha csak a Wii Üzenőfal adatait szeretnéd visszaállítani, akkor n
 
 Ha egy játék játékmentését szeretnéd visszaállítani, importáld a Dolphinba a NAND biztonsági mentést, majd kattints az `Tools` -> `Export All Wii Saves` menüpontokra az összes mentésed SD kártyára való másolásához. Ezután a Data Management-tel áthelyezheted őket a Wii-odra.
 
-## Requirements
+## Követelmények
 
 - Egy Wii IOS-ként telepített BootMii-vel vagy boot2-re telepített BootMii-vel
 - Egy korábbi NAND mentése a Wii-odnak amit a [BootMii-val VAGY nanddumper@ios-szal](nand-backup) készült
@@ -51,7 +51,7 @@ Ha egy játék játékmentését szeretnéd visszaállítani, importáld a Dolph
 
 1. Csatlakoztasd az SD kártyád a PC-dhez.
 
-2. Determine if your NAND files are already on your SD card. If not, you must copy a backup of your `nand.bin` and `keys.bin` files to the SD card.
+2. Határozd meg, hogy a NAND fájlok már rajta vannak-e az SD kártyádon. Ha nem, rá kell másolnod a `nand.bin` és `keys.bin` fájlokat az SD kártyádra.
 
 3. Helyezd be az SD kártyád a Wii-odba.
 
@@ -93,8 +93,4 @@ Ha egy játék játékmentését szeretnéd visszaállítani, importáld a Dolph
 
 ---
 
-::: tip
-
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
-
-:::
+[← Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid}

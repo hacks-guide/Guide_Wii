@@ -51,8 +51,8 @@ FlashHax является эксплоитом для Wii, который зап
 
 ::: tip
 
-[Перейти к установке Homebrew Channel и BootMii](hbc)
+**Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.**
 
-Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+[Continue to HBC/BootMii Installation →](hbc){.btn .btn-solid}
 
 :::

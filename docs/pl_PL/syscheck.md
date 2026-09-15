@@ -32,8 +32,4 @@ SysCheck zawiera listę wszystkich IOS i cIOS, które znajdują się na Twojej k
 
 ---
 
-::: tip
-
-[Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

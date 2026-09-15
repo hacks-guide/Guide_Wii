@@ -1,67 +1,93 @@
 # Brickelődés
 
-A „Brick” általában azt jelenti, hogy a Wii olyan állapotba került, hogy a továbbiakban valószínűleg csak ajtótámasztóként vagy kiállítási tárgyként használható.
+A brick-elt eszköz egy sérült eszköz, ami többé nem működik, vagy más szavakkal "hasznos mint egy tégla (brick)".
 
 Egy Wii számos okból kifolyólag brickelődhet, de ez általában sérült programok vagy rosszul elvégzett homebrew módosítások okozzák.
 
 ## Brickelődés megelőzés
 
-A brickelődés megelőzésének több módja van, amelyek a józan paraszti észtől a biztonsági mentésig terjednek. Az általánosan elkerülendő dolgokat alább olvashatod:
+A brickelődés legkönyebben úgy előzhető meg, ha megismered a leggyakoribb kockázatokat, amik hozzájuk vezetnek. Alább találhatók az általános ajánlások a leggyakoribb kockázatokhoz és hogy miért kell elkerülnöd őket:
 
-- **NE kövess régi útmutatókat, NE használj régi homebrew programokat és NE kövess videós utmutatókat az interneten, hacsak a program fejlesztője KÜLÖN NEM KÉRI!**
-- \*\* SEMMILYEN KÖRÜLMÉNYEK KÖZÖTT NE HASZNÁLD a `Pimp My Wii` HOMEBREW ALKALMAZÁST. Ez VESZÉLYES, mert a program működése képes véletlenül BRICKELNI A KONZOLOD!\*\*
-- NE telepíts olyan IOS csomagokat, mint a DARKCORP, mert felülírják a legtöbb IOS-edet cIOS-ekkel. Ez a módszer VESZÉLYES és elavult.\*\*
-- **NE tölts vissza más konzolokról származó NAND biztonsági mentéseket!**
-- NE telepíts olyan IOS-eket, amelyeket nem a konzolodra terveztek!\*\* (Pl.: Wii-s IOS-eket Wii mini-re.)
-- **A Wii-re készült régióváltási módszereket NE próbáld ki vWii-n vagy Wii mini-n.**
-- **NE használj Nintendo Wi-Fi Connection-szolgáltatást, kivéve ha rendelkezik távoli kódfuttatási javításokkal (mint például a [Wiimmfi](nintendowfc)). Ha mégis így tennél, az lehetővé teszi egy rosszindulatú támadó számára a konzolod BRICKELŐDÉSÉT!**
-- **Csak a saját régiódhoz tartozó frissítéseket telepíts!**
-  - A más régióból származó frissítések telepítése a legjobb esetben semmit sem eredményezhet vagy a legrosszabb esetben egy [Korean Kii/Error 003](bricks#koreankii-error-003-brick) bricket eredményezhet. Ha használt Wii-t vásároltál, hogy ez ne történhessen meg, futtasd le a [SysCheck](syscheck) -et, hogy ellenőrizd a konzol eredeti régióját. Ha a Wii régiód koreai, légy KIEMELTEN óvatos, amikor rendszerfrissítéseket telepítesz és fontold meg a segítségkérést.
-- **NE töröld vagy módosítsd a rendszerfájlokat, NE telepítsd a Wii menü vagy IOS-ek régi verzióit és NE telepíts semmilyen rendszermenü-módosítást, hacsak nem tudod, hogy mit csinálsz!**
-  - Például ha egy Wii minin kicseréled az IOS80-at, az [Wi-Fi Brick](bricks#wi-fi-brick) brickben végződhet.
-- **Ne telepíts nem megbízható forrásokból származó homebrew programokat vagy ha a forráskód nem elérhető.**
-  - Az [Open Shop Channel](osc)-en található programok biztonságosak.
-  - Előfordult már, hogy valaki szándékosan rosszindulatú programokat fejlesztett a Wii-re, de az is meglehet, hogy egy programot csak rosszul fejlesztettek. Mindig bizonyosodj meg róla, hogy mit telepítesz és csak olyan programokat telepíts, amire szükséged is van.
-  - A sérült vagy nem-stabil forwaderek [banner brick](#banner-brick)-et eredményezhetnek, úgyhogy javasoljuk, hogy mindig a Homebrew Channelből indíts programokat, hacsak nincs nagyon szükséged a forwarder-re.
-- **Győződj meg róla, hogy tudod, mit csinálsz, amikor homebrew alkalmazásokat futtatsz - különösen azokat, amelyek képesek a rendszerfájlok módosítására. KÜLÖNÖSEN óvatosnak kell lenned, ha olyan alkalmazásokat használsz, mint:**
-  - AnyTitle Deleter
-  - AnyRegion Changer
-  - KoreanKii (második oka a [Korean Kii/Error 003](bricks#koreankii-error-003-brick) brickelésnek)
-  - Firmware Downgrader-ek
-  - Bármely más alkalmazás, amely kritikus NAND fájlokat módosít
-- **NE NYÚLJ HOZZÁ A WII ÁRAMFORRÁSÁHOZ VAGY A BEKAPCSOLÓGOMBJÁHOZ, MIKÖZBEN LÉTFONTOSSÁGÚ RENDSZERFÁJLOKAT TELEPÍTESZ VAGY MÓDOSÍTASZ.**
-  - Ha az áramellátásod instabil (pl. vihar, áramkimaradás), halaszd el a tevékenységét, amíg stabil áramforrás nem áll rendelkezésedre.
-  - Ha az áramellátásod instabil (pl. vihar, áramkimaradás), halaszd el a tevékenységét, amíg stabil áramforrás nem áll rendelkezésedre.
+|                            Brick kockázat                           |                                                                                                                                                                                                                                                                                                            Magyarázat                                                                                                                                                                                                                                                                                                           |
+| :-----------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          Videó útmutatók vagy régi oktatóanyagok használata         |                                                                                              Ahogy a weboldal kezdőlapján is szerepel, ez kockázatos, mivel a videós útmutatók általában nem frissülnek feltöltés után, és több hónappal vagy évvel is elavultak lehetnek a kortárs ajánlásokkal szemben. A régi oktatóanyagokban kisebb mértékben ugyanez a probléma jelentkezik; ezek általában elavultak. Ne kövesd egyiket sem, kivéve, ha egy fejlesztő kifejezetten ajánlja.                                                                                              |
+| Kényelmes modding szoftver, mint például a `Pimp My Wii` használata |                                                                           Az olyan modder szoftverek, mint a `Pimp My Wii`, a konzol módosításának megkönnyítését célozzák, de végső soron veszélyes fekete dobozok. Gyakran szükségtelen, hibás módosításokat hajtanak végre a konzolon egy egyszerű cél elérése érdekében, és használhatatlanná tehetik azt. Úgy véljük, hogy a ModMii **kivétel** ez alól, mivel nyílt forráskódú, tesztelt és végső soron az útmutató készítői által ellenőrzött.                                                                           |
+|           A `DARKCORP`-hoz hasonló IOS csomagok telepítése          |                                                                         Az IOS-csomagok már évek óta elavult koncepciók, mivel a konzolodon található fontos IOS-okat cIOS-okkal írják felül. Ezeket egyáltalán nem támogatjuk, és nem kompatibilisek ezzel az útmutatóval, mivel számos megmagyarázhatatlan problémát okozhatnak, például azt, hogy a Homebrew Channel fejjel lefelé jelenik meg. Ha IOS-csomaggal ellátott konzolt kell javítanod, lásd a [ModMii](modmii#hackmii-solutions-wizard)-t.                                                                        |
+|     Más konzolról származó NAND biztonsági mentés visszatöltése     |       Ez azonnal és valószínűleg **visszafordíthatatlanul tönkreteszi** a Wii-det. A NAND-od egyedi AES/HMAC-kulcsokkal rendelkezik, amelyek a konzolodba vannak beépítve. Ha egy másik konzol NAND-mentését telepíted, a Wii hardvere nem fogja tudni ellenőrizni a NAND-od hitelességét. Ennek következtében leáll, és nem fog elindulni. Ha van egy működésképtelen NAND-mentésed a konzolodról, használd [a gyári beállítások visszaállítására](wii-factory-reset) vonatkozó útmutatót, hogy létrehozz egy működőképes, üres NAND-ot.       |
+|                Más rendszerhez készül IOS telepítése                |                                                                                                     Ez a legrosszabb esetben egy „brick”-et eredményez, és ezt jobb elkerülni. A legjobb példa erre egy Wii IOS telepítése egy Wii minire; a Wii minit Wi-Fi kártya nélkül tervezték. Ha Wii IOS-t telepítesz a konzolra, az ellenőrzi a Wi-Fi kártya meglétét, de nem talál ilyet. Ennek eredményeként lefagy, és létrehozza a fent említett Wi-Fi bricket.                                                                                                    |
+|                     Téves konzol régió módosítás                    |                                                                                                      A régiózárak könnyen megkerülhetők olyan szoftverekkel, mint a [Priiloader](priiloader), így gyakran nincs ok a konzol régióváltására. Ha mégis ezt választod, **rendkívül óvatosnak** kell lenned, mivel a folyamat használhatatlanná teheti a Wii-det, ha nem tudod, mit csinálsz; különösen akkor, ha régióváltókat használsz a Wii-hez egy vWii-n vagy Wii mini-n, vagy fordítva.                                                                                                      |
+|                 Más régió frissítéseinek telepítése                 | A konzol régiójának megváltoztatásával összefüggésben gyakran nincs értelme ezt megtenni. A legrosszabb esetben ez a [koreai Kii/Error 003](bricks#koreankiierror-003-brick) hibához vezethet, ami valószínűleg használhatatlanná teszi a konzolodat. Erősen javasoljuk, hogy futtasd le a [SysCheck](syscheck) programot a konzolodon, ha bármilyen verzióváltoztatást tervezel, hogy így meg tudd állapítani az eredeti régióját. Ha frissítéseket próbálsz telepíteni egy koreai konzolra, kérj segítséget az oldal alján található utasítások segítségével. |
+|     Nem RCE-vel javított Nintendo WFC-szolgáltatások használata     |                                                                                                               Kizárólag a [Nintendo WFC](nintendowfc)-útmutatóban szereplő WFC-szolgáltatások használatát javasoljuk, mivel ezekről ismert, hogy javításokkal védik őket a Wii RCE-sebezhetőségei (távoli kódfutás) ellen. Más szolgáltatások esetében nincs ilyen védelem, ami miatt a szervereiken működő rosszindulatú felhasználók tönkretehetik a Wii-od.                                                                                                               |
+|   Rendszer fájlok módosítása vagy régi Wii menu verzió telepítése   |                                                                                                                               Ez szinte mindig felesleges. Ha kíváncsi vagy, azt javasoljuk, hogy ezeket a feladatokat a Dolphinban hajtsd végre, ahelyett, hogy egy valódi konzolon próbálkoznál vele. Ha nem tudod pontosan, mit csinálsz, a kísérlet valószínűleg az [IOS brick](#ios-brick)-hez vezet, és a konzolod használhatatlanná válik.                                                                                                                               |
+|                    Ismeretlen homebrew telepítése                   |                                          A homebrew-alkalmazásokat valódi emberek készítik, számos különböző okból. Korábban már előfordultak olyan esetek, amikor rosszindulatú homebrew-alkalmazásokat hoztak létre a Wii-hez, bár rendkívül valószínűtlen, hogy ilyen szoftverre bukkannál. Azt javasoljuk, hogy a homebrew-alkalmazásokat az [Open Shop Channel](osc)-ről szerezd be, mivel a beküldött homebrew-alkalmazásokat biztonsági szempontból ellenőrzik, és azoknak meg kell felelniük egy alapvető minőségi szabványnak.                                         |
+|                  Veszélyes homebrew appok futtatása                 |                                                                                                   A homebrew szoftverek nem csupán azért lehetnek veszélyesek, mert rosszindulatú célból készültek, hanem azért is, mert veszélyes módosításokat hajtanak végre a Wii-n; az ilyen típusú szoftvereket kizárólag jól tájékozott felhasználóknak szabad használniuk. Ide tartoznak olyan homebrew szoftverek, mint az **AnyTitle Deleter**, az **AnyRegion Changer**, a **KoreanKii** és mások.                                                                                                   |
+|                      Téves forwarder telepítés                      |                                                                                                                                                                                 A forwarder-ek [banner brick](#banner-brick)-et okozhatnak, ha hibásak. Legyél figyelmes azzal, mit telepítesz és mindig legyen [Priiloader](priiloader) telepítve, hogy megfelelően tudd javítani a briceklődést ha szükséges.                                                                                                                                                                                 |
+|                       Téves konzol kikapcsolás                      |                                                                       Ne kapcsold ki a konzolodat bizonyos folyamatok alatt, mint például a BootMii NAND mentés visszaállítása. Azt javasoljuk, hogy halaszd el a Wii-n végrehajtandó veszélyes módosításokra vonatkozó terveid, ha az áramellátás instabil (pl. vihar miatt vagy tervezett áramszünetek idején). Az áramkimaradások a legrosszabb esetben a készülék [full brick](#low-level-brick)-jéhez vezethetnek.                                                                      |
 
 Mindenesetre feltétlenül:
 
 - Telepítsd a BootMii-t boot2-ként, ha lehetséges, egyébként pedig IOS-ként.
 - Telepítsd a Priiloader-t, függetlenül a BootMii telepítési módjától.
-- Készíts a BootMii-vel NAND biztonsági mentést és mindig legyen kéznél egy érvényes másolat, különösen mielőtt bármilyen kockázatos műveletet végeznél. Jegyezd meg, hogy vannak olyan brick esetek, amikor a BootMii nem hozzáférhető, úgyhogy tervezz előre.
+- Készíts a BootMii-vel vagy a nanddumper@ios-sel NAND biztonsági mentést és mindig legyen kéznél egy érvényes másolat, de **különösen** mielőtt bármilyen kockázatos műveletet végeznél. Ne feledd, hogy bizonyos „brick” helyzetekben és egyes konzolokon a BootMii nem érhető el; ennek megfelelően készülj fel előre.
 
 ## Diagnózis
 
-Ez a rész a lehetséges elrontások diagnózisában segít és súlyosság szerint van növekvő sorba rendezve. Ha úgy brickelődött a Wii-d, hogy az alábbi esetek egyike sem alkalmazható rá, akkor kérj segítséget (angol nyelven) a Nintendo Homebrew Discord-szerveren.
+Ez a szakasz segít felismerni, hogy a konzol esetleg „brick” állapotba került-e, a konzol működőképességének alacsonyabb szintjétől a magasabb felé haladva. Ha úgy tűnik, hogy a konzolod olyan „brick” állapotban van, amelyre sem ebben a szakaszban, sem az útmutatóban nem találsz megoldást, kérjük, görgess le az oldal aljára a támogatási utasításokért.
 
-- A Wii elindul, és a Wii menübe lép. Minden program rendeltetésszerűen működik, a Wii Settings-ben nincsenek hibák, minden látszólag rendben van. Nincs brick, a konzol rendben.
-- A Wii elindul, és a Wii menübe lép.
-  - Ha egy adott csatornát elérve a `The system files are corrupted` üzenetet kapod, lásd a [banner brick](bricks#banner-brick)-et.
-  - Ha a Wii Settings használatát követően látsz egy hibaüzenetet, ami az Opera web böngészőre hasonlít, lásd a [semibrick](bricks#semibrick)-et.
-- Ha egy adott csatorna elérését követően a `The system files are corrupted` üzenet jelenik meg, lásd [banner brick](bricks#banner-brick).
-  - Ha a Wii beállítások megnyitása után az Opera webböngészőhöz hasonló hibaüzenet jelenik meg, lásd [semibrick](bricks#semibrick).
-  - Ha ez egy WAD-fájl telepítése után történt akkor tekintsd meg a [banner brick-et](bricks#banner-brick).
-  - Ha ez látszólag minden ok nélkül keződött el és képes vagy hozzáférni a Maintenance Mode-hoz a + és - gombok nyomvatartásával az egészségügyi figyelmeztetések képernyőn, akkor tekintsd meg a [mail brick-et](bricks#mail-brick).
-- A Wii elindul, de RÖGTÖN egy olyan hibát látsz, ami látszólag az Opera web böngészőre hasonlít. Tekintsd meg a [Wii Menu/Opera brick-et](bricks#wii-menuopera-brick).
-- Error 003. Tekintsd meg a [Korean Kii/Error 003 brick-et](bricks#koreankii-error-003-brick).
-- Semmi sem történik, fekete a képernyő, DE a boot2 alá telepített BootMii hozzáférhető. Tekintsd meg az [IOS brick-et](bricks#ios-brick).
-- Semmi sem történik, fekete a képernyő, DE a Wii bekapcsolható egy Wii Remote-tal és a helyreállítási mód hozzáférhető. Tekintsd meg a [Wi-Fi brick-et](bricks#wi-fi-brick).
-- Semmi sem történik, fekete a képernyő. A Wii nem kapcsolható be egy Wii Remote-tal, és a [Recovery Mode](recovery-mode) és a boot2 alá telepített BootMii nem hozzáférhető. Tekintsd meg az [alacsony-szintű brick-et](bricks#low-level-brick).
+### Wii Boot folyamat
+
+```ini
+[   POWERON   ] 
+       │
+       │
+       ▼
+[    boot0    ]  ──► Olvassa, dekriptálja és ellenőrzi a boot1 hash-t. Elutasítja 
+       │             a boot1-et és nem bootol, ha az adat nem egyezik.
+       │             (Stage 1 bootloader)
+       ▼
+[    boot1    ]  ──► Inicializálja a memóriát. Olvassa, dekriptálja és ellenőrzi 
+       │             boot2 hash-t. Elutasítja a boot2-t és nem bootol, ha 
+       │             az adat nem egyezik. Exploitolható a régebb Wii-okon.
+       │             (Stage 2 bootloader)
+       ▼
+[    boot2    ]  ──► Betölti a System Menu-t és az IOS adatot, továbbá betölti a 
+       │             GameCube (MIOS) módot. Tartalmazhatja a BootMii-t, ha
+       │             a boot1 egy exploitolható hash algoritmussal rendelkezik.
+       │             (Stage 3 bootloader)
+       ▼
+[ IOS/SysMenu ]
+```
+
+### Brickelődés osztályozás
+
+Az alábbi tábla a következő szinkódolást használja a lehetséges megoldásokhoz:
+
+🟩 - javítható és nem rendelkezik brick megelőző szoftverrel<br>
+🟦 - javítható Priiloader-rel és/vagy IOS-ként használt BootMii-vel<br>
+🟨 - javítható boot2-ként használt BootMii-vel<br>
+🟥 - javítható hardver módosítással
+
+|                                        Brick típus                                       |                                                                                                                                               Funkcionalitás                                                                                                                                              |
+| :--------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                     ⬛<br>Nincs brick                                     |                                                                            A Wii elindul, és a Wii menübe lép. Nincs rosszul működő app, Wii beállítások hibamentes, és nincs látható probléma.                                                                           |
+|                               🟩<br>[Semibrick](#semibrick)                              |                                                                                                Egy hibaüzenetet kapsz, ami Opera böngészőnek tűnik, amikor hozzáférsz a Wii beállításokhoz.                                                                                               |
+|       🟩<br>[Banner brick (elérhető a Wii menu)](#banner-brick)       |                                                                                                      A `The system files are corrupted` üzenetet kapod egy adott csatornát megnyitva.                                                                                                     |
+| 🟩 VAGY 🟦<br>[Banner brick (nem elérhető a Wii menu)](#banner-brick) |                                                                              Egy fekete képernyőt látsz a Health and Safety képernyőn `A` gombot nyomva. Ez egy WAD telepítése után történt.                                                                              |
+|                          🟩 VAGY 🟦<br>[Mail brick](#mail-brick)                         |               Egy fekete képernyőt látsz a Health and Safety képernyőn `A` gombot nyomva. Ez véletlenül történik, DE hozzá tudsz férni a Maintenance Mode-hoz a `+` és a `-` nyomva tartásával a Health and Safety képernyőn, ami utána automatikusan indul.              |
+|                             🟦<br>[Téma brick](#theme-brick)                             |                                                                              Egy fekete képernyőt látsz a Health and Safety képernyőn `A` gombot nyomva. Ez egy téma telepítése után történt.                                                                             |
+|                    🟦<br>[Wii Menu/Opera brick](#wii-menuopera-brick)                    |                                                                                                   A Wii elindul, de rögtön egy olyan hibát látsz, ami az Opera web böngészőre hasonlít.                                                                                                   |
+|                       🟨<br>[Error 003](#koreankiierror-003-brick)                       |                                                                                                        Wii elindul és a következő üzenetet látod `Error:003 unauthorized device has been detected.`                                                                                                       |
+|                               🟨<br>[IOS brick](#ios-brick)                              |                                                                                   A Wii elindul és semmi nem történik; a konzol marad fekete képernyőnél. A BootMii elérhető boot2-ként.                                                                                  |
+|                             🟥<br>[Wi-Fi brick](#wi-fi-brick)                            | A Wii elindul és semmi nem történik; a konzol marad fekete képernyőnél. A Wii bekapcsolható egy Wiimote-tal és a Recovery Mode elérhető. A BootMii boot2-ként nem elérhető. **Gyakori a Wii mini-n miután rossz IOS került telepítésre**. |
+|                      🟥<br>[Alacson szintű brick](#low-level-brick)                      |                           A Wii elindul és semmi nem történik; a konzol marad fekete képernyőnél. A konzol nem kapcsolható be egy Wiimote-tal. A Recovery mode nem elérhető. A BootMii boot2-ként nem elérhető.                           |
 
 ## Brick típusok
 
 Itt a különböző Wii brick-eket súlyosságuk szerint, tüneteikkel, okaikkal és megoldásaikkal együtt ismertetjük.
 
 ### Semibrick
+
+::: details
 
 #### Tünetek
 
@@ -71,6 +97,10 @@ Amikor a Wii-beállításokhoz navigálsz, az Opera webböngésző hibaüzenetet
 
 A semibrick akkor következik be, ha a konzol régiójától éltérő Wii menüt vagy témát telepítesz. Mivel a Wii Settings menüje HTML oldalak segítségével jelenik meg az Operával, a témák gyakran kicserélik ezeket az oldalakat, és más könyvtárakba helyezik őket; ez lényegében egy `404 Not Found` hibához vezet, de egy konzol brick formájában.
 
+<!--What does this pull request do? Why is it needed?-->
+
+konzol brick.
+
 ![](/images/bricks/semibrick.png)
 
 #### Megoldások
@@ -79,21 +109,19 @@ Ellenőrizd az AnyRegion Changer programban, hogy a konzol régiója megegyezik-
 
 Ha ez egy telepített téma miatt történt, használd a [csm-installer](themes) programot az eredeti téma újratelepítéséhez.
 
-Ha a hibát egy telepített Wii Menu WAD okozta, töltsd le és telepítsd az eredeti Wii menüt a [NUSGet](https://github.com/NinjaCheetah/NUSGet) segítségével.
-
-::: danger
-
-A Wii Menu WAD letöltésekor légy óvatos. Ellenőrizd, hogy a konzolodnak megfelelő verziót a megfelelő régióval töltötted le.
-
-:::
+Ha a hibát egy telepített Wii Menu WAD okozta, töltsd le és telepítsd az eredeti Wii menüt a [NUSGet](https://github.com/NinjaCheetah/NUSGet) segítségével. **A Wii Menu WAD letöltésekor légy óvatos**. Ellenőrizd, hogy a konzolodnak megfelelő verziót a megfelelő régióval töltötted le.
 
 Ha éppen egy régió csere folyamatában vagy, használd az [ARC-ME](https://github.com/modmii/Any-Region-Changer-ModMii-Edition/releases)-t, hogy automatikusan javítsa a régió beállításaidat, hogy passzoljon a Wii Menu-dhöz.
 
+:::
+
 ### Banner brick
+
+::: details
 
 #### Tünetek
 
-A Wii bekapcsolásakor megjelennek az egészségügyi figyelmeztetések, majd amikor megnyomod az A-gombot, a képernyő elsötétül és nem történik semmi. Ez egy WAD telepítése után történt, amit követően visszatértél a Wii menübe vagy újraindítottad a konzolt. Az is lehetséges, hogy a Wii menü még hozzáférhető, de egy adott csatorna megnyitásakor a konzol lefagy. Bizonyos esetekben a konzol „System files are corrupted” („A rendszerfájlok sérültek”) hibaüzenetet mutat.
+A Wii bekapcsolásakor megjelennek az egészségügyi figyelmeztetések, majd amikor megnyomod az A-gombot, a képernyő elsötétül és ezt követően nem történik semmi a Wii sötét képernyőn marad. Ez egy WAD telepítése után történt, amit követően visszatértél a Wii menübe vagy újraindítottad a konzolt. Az is lehetséges, hogy a Wii menü még hozzáférhető, de egy adott csatorna megnyitásakor a konzol lefagy. Bizonyos esetekben a konzol „System files are corrupted” („A rendszerfájlok sérültek”) hibaüzenetet mutat.
 
 ![](/images/bricks/sysfiles-corrupted.jpg)
 
@@ -109,13 +137,37 @@ Ha nem vagy képes hozzáférni a Wii menühöz, de telepítve van a konzolodra 
 
 Ha nincs, vagy nem férsz hozzá a Priiloaderhez, egy próbát megérhet a karbantartási mód. A Health and Safety képernyő megjelenése közben tartsd nyomva a `+` és `-` gombokat (az `A` megnyomása nélkül!).
 
-Végső megoldásként használhatod a [BlueBomb](bluebomb)-ot a Homebrew Channel-be bootoláshoz amíg a health/warning képernyőn tartózkodsz.
+Végső megoldásként használhatod a [BlueBomb](bluebomb)-ot a Homebrew Channel-be bootoláshoz amíg a Health and Safety képernyőn tartózkodsz.
 
-### Téma brick
+:::
+
+### Mail brick
+
+::: details
 
 #### Tünetek
 
-A Wii bekapcsolásakor megjelennek az egészségügyi figyelmeztetések, majd amikor megnyomod az A-gombot, a képernyő elsötétül és nem történik semmi. Ez egy téma telepítése után történt.
+A Wii bekapcsolásakor megjelennek az egészségügyi figyelmeztetések, majd amikor megnyomod az A-gombot, a képernyő elsötétül és ezt követően nem történik semmi a Wii sötét képernyőn marad. A karbantartási mód továbbra is hozzáférhető.
+
+#### Ok
+
+Mail brick akkor következik be, ha a Wiinek túl sok üzenetet kell feldolgoznia, vagy ha nem megfelelő üzenetek érkeztek a Wii Üzenőfalra. Ez megakadályozza a normális indítást. Mivel a Wii Üzenőfal a csatornák alatt jelenik meg, ez a Wii menü betöltésének meghiúsulását eredményezi.
+
+#### Megoldások
+
+A + és - gombokat nyomva tartva az egészségügyi figyelmeztetések képernyőjén a karbantartási módba léphetsz, ahol a Wii Message Board nem kerül betöltésre. Ha a Homebrew Channel nem telepített, kövesd a [Bluebomb](bluebomb) útmutatót.
+
+Mostantól a Homebrew Channel betölthető és a brickelés javítható a Wii Message board [cdbackup](https://oscwii.org/library/app/cdbackup) segítségével történő törlésével.
+
+:::
+
+### Téma brick
+
+::: details
+
+#### Tünetek
+
+A Wii bekapcsolásakor megjelennek az egészségügyi figyelmeztetések, majd amikor megnyomod az A-gombot, a képernyő elsötétül és ezt követően nem történik semmi a Wii sötét képernyőn marad. Ez egy téma telepítése után történt.
 
 #### Ok
 
@@ -125,23 +177,11 @@ A téma brick akkor jelenik meg, ha helytelenül formázott téma kerül telepí
 
 Ennek a problémának a megoldásához nyisd meg a Homebrew Channel-t a Priiloaderen vagy a boot2 alá telepített BootMii-n keresztül, majd a csm-installer használatával telepíts egy alapértelmezett témát, pl. az alap Wii menü témát. A javításhoz egy másik módszer a [YAWM ModMii Edition](yawmme) elindítása és a régiódnak és verziódnak MEGFELELŐ alap Wii menü WAD újratelepítése.
 
-### Mail brick
-
-#### Tünetek
-
-A Wii bekapcsolásakor megjelennek az egészségügyi figyelmeztetések, majd amikor megnyomod az A-gombot, a képernyő elsötétül és nem történik semmi. A karbantartási mód továbbra is hozzáférhető.
-
-#### Ok
-
-Mail brick akkor következik be, ha a Wiinek túl sok üzenetet kell feldolgoznia, vagy ha nem megfelelő üzenetek érkeztek a Wii Üzenőfalra. Ez megakadályozza a normális indítást. Mivel a Wii Üzenőfal a csatornák alatt jelenik meg, ez a Wii menü betöltésének meghiúsulását eredményezi.
-
-#### Megoldás
-
-A + és - gombokat nyomva tartva az egészségügyi figyelmeztetések képernyőjén a karbantartási módba léphetsz, ahol a Wii Message Board nem kerül betöltésre. Ha a Homebrew Channel nem telepített, kövesd a [Bluebomb](bluebomb) útmutatót.
-
-Mostantól a Homebrew Channel betölthető és a brickelés javítható a Wii Message board [cdbackup](https://oscwii.org/library/app/cdbackup) segítségével történő törlésével.
+:::
 
 ### Wii Menu/Opera brick
+
+::: details
 
 #### Tünetek
 
@@ -163,7 +203,11 @@ Ha nem férsz hozzá a Priiloaderhez vagy a Wiid nincs modolva, akkor próbáld 
 
 Alternatívaként a [Recovery Mode](recovery-mode) is használható a helyreállítás megpróbálásához.
 
+:::
+
 ### KoreanKii/Error 003 Brick
+
+::: details
 
 #### Tünetek
 
@@ -190,7 +234,11 @@ A koreai Wii konzolok Wii Menu 3.3 verzióval kerültek forgalomba, körülbelü
 
 Ugyan ez az állapot különösen veszélyes helyzetben hagyja a konzolt, \*\* de még javítható\*\*. Ehhez a [Recovery Mode](recovery-mode)-ba kell lépned, ahol egy program futtatásával hozzáférhetsz a Homebrew Channelhez és visszafordíthatod a feltételeket, amik a bricket eredményezték. Megjegyzés: Ehhez a módszerhez egy drivechip-pel kell rendelkezned.
 
+:::
+
 ### IOS brick
+
+::: details
 
 #### Tünetek
 
@@ -211,7 +259,11 @@ Visszaállíthatsz egy NAND biztonsági másolatot, vagy a következőket tehete
 
 vWii-hez tekintsd meg az [Egy vWii IOS/Channel helyreállítását](https://wiiu.hacks.guide/recover-vwii-ioses-channels).
 
+:::
+
 ### Wi-Fi brick
+
+::: details
 
 #### Tünetek
 
@@ -231,7 +283,11 @@ Ha Wii mini készüléket használsz, akkor Wi-Fi modult kell telepítened.
 
 Ha mindkettő sikertelen, tekintsd meg az [alacsony-szintű brick-et](bricks#low-level-brick).
 
+:::
+
 ### Low-level brick
+
+::: details
 
 #### Tünetek
 
@@ -251,10 +307,27 @@ Először is, meg kell állapítanod, hogy hardveres hiba okozza-e a problémát
 - Húzd ki és dugd vissza a lemezolvasót, majd próbálj meg nomrálisan bootolni. Ha ez még mindig nem sikerült, cseréld ki a lemezolvasót. Ha a probléma továbbra is fennáll, olvass tovább.
 - Ha idáig eljutottál, akkor vagy egy alacsony szintű boot0/boot1-sérülésről, a NAND chip hibájáról, vagy egy ismeretlen hardverhibáról van szó. Próbálj internetes segítséget kérni vagy fontold meg egy új Wii megvásárlását.
 
+:::
+
 ---
 
-::: tip
+::: info
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
+**További segítség**
+
+További segítségre van szükséged? Csatlakozz a [Nintendo Homebrew Discord](https://discord.gg/C29hYvh)-csatornához, és kérj segítséget angol nyelven a #wii-vwii-assistance csatornán, jelezve, hogy erről az oldalról érkeztél és egy brick vagy egyéb problémát szeretnél megoldani. Kérjük, add meg az alábbi információkat:
+
+1. A pontos hibaüzenetet, vagy azt, amit a képernyőn látsz, ha lehetséges, csatolj egy fotót is
+2. A probléma megjelenése előtt végzett pontos lépéseket
+3. Egy[SysCheck](syscheck)-naplót, ha tudsz ilyet készíteni
+4. Van-e NAND-biztonsági másolatod vagy sem
+5. Telepítetted a Priiloadert, a BootMii-t IOS-ként vagy a BootMii-t boot2-ként
+6. A konzolod pontos modellje (eredeti Wii, Family Edition Wii, Wii mini, vWii a Wii U-n)
+
+Ha nem beszélsz jól angolul, kérjük, használd a [Google Translate](https://translate.google.com/)-hez hasonló fordítót a kérdésed megfogalmazásához.
 
 :::
+
+---
+
+[← Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid}

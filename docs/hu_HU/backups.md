@@ -245,11 +245,9 @@ Ha már vannak játékok a meghajtón, és a TinyWiiBackupManager kéri az útvo
 
 ::: tip
 
-[Folytatás a cIOS-sal](cios)
+Ha a cIOS beállított, akkor használhatod az USB Loader GX-et vagy WiiFlow-t, hogy játsz Wii játékokat az USB drive-odról vagy SD kártyádról. Továbbá használhatod a Nintendont-ot arra, hogy GameCube játékokkal játsz az USB drive-odról vagy az SD kártyádról.\*\*
 
-A dumpolt Wii játékok külső eszközről lejátszásához a cIOS-t konfigurálnod kell. Ha a cIOS beállított, akkor használhatod az [USB Loader GX-t vagy WiiFlow-t](wii-loaders), amelyek segítségével Wii játékokat tölthetsz be USB drive-odról vagy SD kártyádról.
-
-Továbbá használhatod a [Nintendont](nintendont)-ot a GameCube játékokkal az USB drive-odról vagy az SD kártyádról.
+[A Nintendont útmutató megtekintése](nintendont){.btn .btn-solid} [Wii Loaderek útmutató megtekintése](wii-loaders){.btn .btn-solid}
 
 :::
 
@@ -257,6 +255,8 @@ Továbbá használhatod a [Nintendont](nintendont)-ot a GameCube játékokkal az
 
 ::: tip
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
+**Ha még nincs cIOS beállítva, akkor be kell állítanod annak érdekében, hogy tudd használni bármelyik USB loader alkalmazást. Folytathatod a a cIOS telepítésével, vagy visszatérhetsz a tartalomjegyzékre.**
+
+[Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid} [Folytatás a cIOS-ok telepítésével →](cios){.btn .btn-solid}
 
 :::

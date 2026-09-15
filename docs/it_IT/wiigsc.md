@@ -59,8 +59,4 @@ Questa guida fornirà di istruzioni su come creare collegamenti per i giochi Wii
 
 ---
 
-::: tip
-
-[Clicca qui per tornare all'indice.](site-navigation)
-
-:::
+[← Ritorna all'indice](site-navigation){.btn .btn-solid}

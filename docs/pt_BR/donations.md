@@ -22,8 +22,4 @@
 
 ---
 
-::: tip
-
-[Clique aqui para voltar para o índice do site.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

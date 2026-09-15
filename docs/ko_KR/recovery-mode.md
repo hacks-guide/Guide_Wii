@@ -60,14 +60,8 @@ Bluebomb을 복원 수단으로 사용할 수도 있습니다. 현재 우리는 
 
 ::: tip
 
-[벽돌로 돌아가기](bricks)
+**Return to Bricks for more console bricking information, or return to the site index.**
 
-:::
-
----
-
-::: tip
-
-[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
+[← Return to Bricks](bricks){.btn .btn-solid} [← Return to Site Navigation](site-navigation){.btn .btn-solid}
 
 :::

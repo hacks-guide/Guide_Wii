@@ -87,11 +87,11 @@ Please read the below information before proceeding further.
 
 ::: tip
 
-[Priiloader 설치 계속하기](priiloader)
+**Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.**
 
-Priiloader는 2차 수준의 벽돌 방지 기능을 추가하며, BootMii가 boot2로 설치된 경우에도 적극 권장됩니다. 이 기능은 특히 IOS에서 BootMii를 사용하는 사용자에게 중요합니다.
+**If you are on Wii mini, this is your primary means of brick protection.**
 
-If you are on Wii mini, this is your primary means of brick protection.
+[Continue to Priiloader Installation →](priiloader){.btn .btn-solid}
 
 :::
 
@@ -188,9 +188,9 @@ Please read the below information before proceeding further.
 
 ::: tip
 
-[Priiloader 설치 계속하기](priiloader)
+**Priiloader adds a secondary level of brick protection, and is highly recommended even if BootMii was installed as boot2. It is especially important for users of BootMii on IOS.**
 
-Priiloader는 2차 수준의 벽돌 방지 기능을 추가하며, BootMii가 boot2로 설치된 경우에도 적극 권장됩니다. 이 기능은 특히 IOS에서 BootMii를 사용하는 사용자에게 중요합니다.
+[Continue to Priiloader Installation →](priiloader){.btn .btn-solid}
 
 :::
 

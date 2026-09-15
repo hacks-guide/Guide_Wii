@@ -55,8 +55,4 @@ The WAD has now been dumped, and should appear inside the specified folder on yo
 
 ---
 
-::: tip
-
-[Klicke hier, um zum Seitenindex zurückzugelangen.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

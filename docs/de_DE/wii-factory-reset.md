@@ -92,8 +92,8 @@ If you are trying to [update your Wii to 4.3U](update) with homebrew or update o
 
 ::: tip
 
-[Continue to BootMii Recovery](bootmiirecover)
+**Now that you have a blank NAND, you can restore it on your Wii using BootMii.**
 
-Now that you have a blank NAND, you can restore it on your Wii using BootMii.
+[Continue to BootMii Recovery →](bootmiirecover){.btn .btn-solid}
 
 :::

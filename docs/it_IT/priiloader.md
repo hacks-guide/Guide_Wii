@@ -4,12 +4,6 @@
 
 Inoltre, può essere usato per avviare rapidamente qualsiasi titolo o applicazione homebrew o per modificare il modo in cui la console si avvia.
 
-::: info
-
-Per maggiori informazioni sulle opzioni e sugli hack, vedi la pagina su [come usare Priiloader](priiloader-usage).
-
-:::
-
 ## Requisiti
 
 - Una scheda SD o un'unità USB
@@ -100,9 +94,19 @@ Altrimenti, Priiloader non riuscirà a trovare il file `hacks_hash.ini`.
 
 ::: info
 
-[Vedi le linee guida sulla prevenzione dei brick](bricks#brick-prevention)
+**Il seguente link fornirà delle linee guida che ti aiuteranno a prevenire i brick, oltre ad avere BootMii e Priiloader installati.**
 
-Queste linee guida elencano le risorse che ti aiuteranno a evitare di brickare la console, oltre ad avere BootMii e Priiloader installati.
+[Vedi le linee guida sulla prevenzione dei brick](bricks#brick-prevention){.btn .btn-solid}
+
+:::
+
+---
+
+::: info
+
+**Per maggiori informazioni sulle opzioni e sugli hack, vedi la pagina su come usare Priiloader.**
+
+[Vedi la guida sull'uso di Priiloader](priiloader-usage){.btn .btn-solid}
 
 :::
 
@@ -110,8 +114,8 @@ Queste linee guida elencano le risorse che ti aiuteranno a evitare di brickare l
 
 ::: tip
 
-Continua con [i cIOS](cios)
+**La prossima guida fornirà istruzioni su come avere una lista base di cIOS installati sulla console, abilitando alcune funzionalità aggiuntive in applicazioni come gli USB loader.**
 
-Questa guida fornirà istruzioni su come avere una lista base di cIOS installati sulla console, abilitando alcune funzionalità aggiuntive in applicazioni come gli USB loader.
+[Continua con l'installazione dei cIOS →](cios){.btn .btn-solid}
 
 :::

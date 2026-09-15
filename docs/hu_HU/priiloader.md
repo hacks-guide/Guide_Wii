@@ -4,13 +4,7 @@ A [Priiloader](https://github.com/DacoTaco/priiloader) egy alapvető eszköz, am
 
 Továbbá használható a gyors indítására bármley címnek vagy homebrew appnak, illetve a Wii bootolásának módosítására.
 
-::: info
-
-A Priiloader további használati lehetőségeiről és System Menu hackekről a [Priiloader használat](priiloader-usage) oldalon találhatsz további információt.
-
-:::
-
-## Requirements
+## Követelmények
 
 - Egy SD kártya vagy pendrive
 - [Priiloader Installer](https://oscwii.org/library/app/priiloader) (a `.zip` fájl)
@@ -100,9 +94,19 @@ Ha ez mégis így van, akkor a Priiloader nem fogja megtalálni a hacks_hash.ini
 
 ::: info
 
-[Olvasd el a brick megelőzési útmutatást](bricks#brick-prevention)
+**Az alábbi link útmutatást biztosít arra, hogy előzheted meg a brickelődést, többet téve a BootMii és a Priiloader telepítésénél.**
 
-Ez az úmtutató segédlet segít elkerülni a Wii-od brickelését, ha több van rajta, mint egy BootMii és egy Priiloader telepítés.
+[Tekintds meg a brick megelőzési útmutatást](bricks#brick-prevention){.btn .btn-solid}
+
+:::
+
+---
+
+::: info
+
+**A Priiloader további használati lehetőségeiről és System Menu hackekről a Priiloader használat oldalon találhatsz további információt.**
+
+[A Priiloader használati útmtató megtekintése](priiloader-usage){.btn .btn-solid}
 
 :::
 
@@ -110,8 +114,8 @@ Ez az úmtutató segédlet segít elkerülni a Wii-od brickelését, ha több va
 
 ::: tip
 
-Folytatás a [cIOS-sal](cios)
+**A következő útmutató végigvezet az alap cIOS-ok konzolodra telepítésén, ami további funkciókat fog elérhetővé tenni, mint például az USB Loaderek.**
 
-Ez az útmutató végigvezet az alap cIOS-ok konzolodra telepítésén, ami további funkciókat fog elérhetővé tenni, mint például az USB Loaderek.
+[Folytatás a cIOS telepítésével →](cios){.btn .btn-solid}
 
 :::

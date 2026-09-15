@@ -69,7 +69,7 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
    ![](/images/nanddumper@ios/dump-in-progress.png)
 
-6. Ha a NAND mentés megtörtént, nyomj tetszőleges gombot a nanddumper@ios-ból kilépéshez. Your NAND backup and console keys will be output to your SD card or USB drive in the directory `/wii/backups/`.
+6. Ha a NAND mentés megtörtént, nyomj tetszőleges gombot a nanddumper@ios-ból kilépéshez. A NAND mentésed és a konzol kulcsok az SD kártyád vagy az USB drive-ok `/wii/backups/` könyvtárába fog kerülni.
 
    ![](/images/nanddumper@ios/dump-complete.png)
 
@@ -79,19 +79,20 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
    ![](/images/nanddumper@ios/rename-files.png)
 
-9. Copy `nand.bin`, `keys.bin`, `sha1sums.txt`, and the .SHA1 hash file from the `/wii/backups` directory on your SD card or USB drive to a safe location. You may then optionally delete the files from your SD card or USB drive if you desire.
+9. Másold a `nand.bin`, `keys.bin`, `sha1sums.txt`, és .SHA1 hash fájlt a `/wii/backups` könyvtárból az SD kártyádról vagy USB drive-odról egy biztonságos helyre.
+   . Opcionálisan letörölhted ezeket a fájlokat az SD kártyádról vagy az USB drive-odról, ha akarod.
 
-   - Ideally, these backup files should be stored in at least two locations; preferably a local drive you have control over like your computer's hard drive, and in a cloud location, such as OneDrive or iCloud Drive.
+   - Ideálisa esetben ezek a mentés fájlok legalább két helyen kerülnek tárolásra; preferáltan egy helyi meghajtón, amihez hozzáférsz, mint például a számítógéped merevlemeze és egy felhős tárolás mint a OneDrive vagy az iCloud Drive.
 
    ![](/images/nanddumper@ios/PC-Copy.png)
 
 ::: tip
 
-[Folytatás a Priiloader telepítésével](priiloader)
+**A Priiloader egy második réteg védelemmel látja el a Wii-t és erősen javasolt a beállítása, még ha boot2 alá is telepítetted a BootMiit. A BootMii IOS-es felhasználóinak számára kiemelten fontos.**
 
-A Priiloader egy második réteg védelemmel látja el a Wiit és erősen javasolt a beállítása, még ha boot2 alá is telepítetted a BootMiit. A BootMii IOS-es felhasználóinak számára kiemelten fontos.
+**Ha Wii mini-n vagy ez az elsődleges brick védelmed.**
 
-Ha Wii mini-n vagy ez az elsődleges brick védelmed.
+[Folytatás a Priiloader telepítésével →](priiloader){.btn .btn-solid}
 
 :::
 
@@ -125,7 +126,7 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 - Ez egy pótmegoldás, mivel a BootMii lassabb, mint a nanddumper@ios. Szükséged van egy **SD kártyára** a BootMii használatához. Ha nincs nálad SD kártya épp most, de van használható USB drive-od használhatod a nanddumper@ios útmutató helyette.
 
-- Ha a `Launch BootMii` gomb nem jelenik meg a Homebew Channelben, [indítsd újra a HackMii-telepítőt](hackmii) és telepítsd újra a BootMiit.
+- Ha a `Launch BootMii` gomb nem jelenik meg a Homebew Channelben, [indítsd újra a HackMii-telepítőt](hackmii) és telepítsd újra a BootMii-t.
 
 - Ha a BootMii elindítása után a képernyő fekete marad és a lemezolvasó fénye kéken villog, az azt jelenti, hogy hiányoznak a BootMii-fájlok az SD kártyáról. Töltsd le [ezt a zip fájlt](/assets/files/bootmii_sd_files.zip) és csomagold ki az SD kártyád gyökerébe, majd próbáld újra.
 
@@ -133,7 +134,7 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 :::
 
-## Requirements
+## Követelmények
 
 - Egy SD kártya legalább 512 MB szabad hellyel (1 GB vagy több ajánlott)
 - [BootMii](hbc)
@@ -178,9 +179,9 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 10. Csatlakoztasd az SD kártyád a számítógépedhez.
 
-11. Copy `nand.bin` and `keys.bin` from the root of your SD card to a safe location. You may then optionally delete the files from your SD card or USB drive if you desire.
+11. Másold a `nand.bin`, `keys.bin` fájlokat az SD kártyádról vagy USB drive-odról egy biztonságos helyre. Opcionálisan letörölheted ezeket a fájlokat az SD kártyádról vagy az USB drive-odról, ha akarod.
 
-    - Ideally, these backup files should be stored in at least two locations; preferably a local drive you have control over like your computer's hard drive, and in a cloud location, such as OneDrive or iCloud Drive.
+    - Ideálisa esetben ezek a mentés fájlok legalább két helyen kerülnek tárolásra; preferáltan egy helyi meghajtón, amihez hozzáférsz, mint például a számítógéped merevlemeze és egy felhős tárolás mint a OneDrive vagy az iCloud Drive.
 
     ![](/images/bootmii/PC-Copy.png)
 
@@ -188,9 +189,9 @@ Kérjük olvasd el az alábbi információkat mielőtt tovább haladsz.
 
 ::: tip
 
-[Folytatás a Priiloader telepítésével](priiloader)
+**A Priiloader egy második réteg védelemmel látja el a Wii-t és erősen javasolt a beállítása, még ha boot2 alá is telepítetted a BootMii-t. A BootMii IOS-es felhasználóinak számára kiemelten fontos.**
 
-A Priiloader egy második réteg védelemmel látja el a Wiit és erősen javasolt a beállítása, még ha boot2 alá is telepítetted a BootMiit. A BootMii IOS-es felhasználóinak számára kiemelten fontos.
+[Folytatás a Priiloader telepítésével →](priiloader){.btn .btn-solid}
 
 :::
 

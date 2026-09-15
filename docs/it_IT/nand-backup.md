@@ -87,11 +87,11 @@ Leggi la nota sotto prima di procedere oltre.
 
 ::: tip
 
-[Continua con l'installazione di Priiloader](priiloader)
+**Priiloader aggiunge un secondo livello di protezione dai brick ed è vivamente consigliato, anche se BootMii è stato installato come boot2. È specialmente importante per gli utenti di BootMii su IOS.**
 
-Priiloader aggiunge un secondo livello di protezione dai brick ed è vivamente consigliato, anche se BootMii è stato installato come boot2. È particolarmente importante per chi usa BootMii come IOS.
+**Se hai Wii mini, questo è il principale strumento di protezione dai brick.**
 
-Se hai Wii mini, questo è il principale strumento di protezione dai brick.
+[Continua con l'installazione di Priiloader →](priiloader){.btn .btn-solid}
 
 :::
 
@@ -188,9 +188,9 @@ Leggi la nota sotto prima di procedere oltre.
 
 ::: tip
 
-[Continua con l'installazione di Priiloader](priiloader)
+**Priiloader aggiunge un secondo livello di protezione dai brick ed è vivamente consigliato, anche se BootMii è stato installato come boot2. È specialmente importante per gli utenti di BootMii su IOS.**
 
-Priiloader aggiunge un secondo livello di protezione dai brick ed è vivamente consigliato, anche se BootMii è stato installato come boot2. È particolarmente importante per chi usa BootMii come IOS.
+[Continua con l'installazione di Priiloader →](priiloader){.btn .btn-solid}
 
 :::
 

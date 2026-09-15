@@ -24,9 +24,17 @@ HackMii 설치 프로그램을 다시 시작하려면 [모든 익스플로잇을
 3. SD/USB를 Wii에 연결하고 홈브류 채널에서 `hackmii_installer_v1.2` 앱을 실행합니다.
    - 앱에 아이콘이 표시되지 않습니다.
 
+::: info
+
+If `Press (1) to continue` does not show up after around 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/hackmii_installer_v1.0.zip/) may help.
+
+:::
+
 ::: tip
 
-[홈브류 채널 및 BootMii 설치 계속하기](hbc)
+**Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.**
+
+[Continue to HBC/BootMii Installation →](hbc){.btn .btn-solid}
 
 :::
 
@@ -61,7 +69,15 @@ Preloader 및 이전 버전의 Priiloader는 SDHC (>2GB) 카드를 지원하지 
 
 ::: info
 
-약 30 초 후에도 `계속하려면 (1) 버튼을 누르세요`라는 메시지가 나타나지 않으면 [HackMii 설치 프로그램 v1.0](https://bootmii.org/download/)을 다운로드하면 도움이 될 수 있습니다.
+If `Press (1) to continue` does not show up after about 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/hackmii_installer_v1.0.zip) may help.
+
+:::
+
+::: tip
+
+**Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.**
+
+[Continue to HBC/BootMii Installation →](hbc){.btn .btn-solid}
 
 :::
 
@@ -96,18 +112,16 @@ If you can already access BootMii via IOS, it is generally easier to follow the 
 5. Navigate to the SD card icon and press `RESET` to enter the SD card navigation menu.
 6. Navigate to `bootmini.elf` and press `RESET` to load the HackMii installer.
 
-::: tip
+::: info
 
-If `Press (1) to continue` does not show up after around 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/download/) may help.
+If `Press (1) to continue` does not show up after around 30 seconds, downloading [HackMii Installer v1.0](https://bootmii.org/hackmii_installer_v1.0.zip) may help.
 
 :::
 
----
-
 ::: tip
 
-[홈브류 채널 및 BootMii 설치 계속하기](hbc)
+**Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.**
 
-Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+[Continue to HBC/BootMii Installation →](hbc){.btn .btn-solid}
 
 :::

@@ -93,8 +93,4 @@ Se vuoi ripristinare i dati di salvataggio di un gioco, usa Dolphin per importar
 
 ---
 
-::: tip
-
-[Clicca qui per tornare all'indice.](site-navigation)
-
-:::
+[← Ritorna all'indice](site-navigation){.btn .btn-solid}

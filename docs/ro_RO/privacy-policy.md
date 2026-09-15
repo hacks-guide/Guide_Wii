@@ -25,3 +25,7 @@ Acest site se poate conecta la alte site-uri pentru ca utilizatorii să le utili
 ## Modificări ale Politicii de confidenţialitate
 
 Conținutul acestei Politici de Confidențialitate poate fi modificat oricând și din orice motiv.
+
+---
+
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

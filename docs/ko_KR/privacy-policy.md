@@ -25,3 +25,7 @@
 ## 이 개인 정보 정책의 변경
 
 이 개인정보 보호 정책 내용은 언제나 어떤 이유로 변경될 수 있습니다.
+
+---
+
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

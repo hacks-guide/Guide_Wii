@@ -55,8 +55,4 @@ A WAD most már dumpolt, és meg kell jelennie a megadott könyvtárában az SD 
 
 ---
 
-::: tip
-
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
-
-:::
+[← Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid}

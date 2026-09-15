@@ -24,9 +24,17 @@ Továbbá az is biztonságos hogy [újra csinálj](get-started) bármilyen explo
 3. Helyezd be az SD kártyád/USB-d a Wii-odba, majd indítsd el a `hackmii_installer_v1.2` appot a Homebrew Channel-ből.
    - Az appnak nem lesz ikonja.
 
+::: info
+
+Ha a `Press (1) to continue` nem jelenik meg kb. 30 másodperc után a [HackMii Installer v1.0](https://bootmii.org/hackmii_installer_v1.0.zip/) segíthet.
+
+:::
+
 ::: tip
 
-[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+**Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzolodtól függően a BootMii-t.**
+
+[Folytatás a HBC/BootMii telepítésével →](hbc){.btn .btn-solid}
 
 :::
 
@@ -61,7 +69,15 @@ A Preloader és Priiloader régi verziói úgy tűnik, hogy nem támogatják az 
 
 ::: info
 
-Ha a `Press (1) to continue` nem jelenik meg kb. 30 másodperc után a [HackMii Installer v1.0](https://bootmii.org/download/) segíthet.
+Ha a `Press (1) to continue` nem jelenik meg kb. 30 másodperc után a [HackMii Installer v1.0](https://bootmii.org/hackmii_installer_v1.0.zip) segíthet.
+
+:::
+
+::: tip
+
+**Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzolodtól függően a BootMii-t.**
+
+[Folytatás a HBC/BootMii telepítésével →](hbc){.btn .btn-solid}
 
 :::
 
@@ -96,18 +112,16 @@ Ha már el tudod érni a BootMii-t IOS-en keresztül, általában könnyebb a fe
 5. Navigálj az SD kártya ikonhoz és nyomj `RESET` gombot hogy belépj az SD kártya navigáció menübe.
 6. Navigálj a `bootmini.elf`-hez és nyomj `RESET` gombot a HackMii installer betöltéséhez.
 
-::: tip
+::: info
 
-Ha a `Press (1) to continue` nem jelenik meg kb. 30 másodperc után a [HackMii Installer v1.0](https://bootmii.org/download/) segíthet.
+Ha a `Press (1) to continue` nem jelenik meg kb. 30 másodperc után a [HackMii Installer v1.0](https://bootmii.org/hackmii_installer_v1.0.zip) segíthet.
 
 :::
 
----
-
 ::: tip
 
-[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+**Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzolodtól függően a BootMii-t.**
 
-Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzolodtól függően a BootMii-t.
+[Folytatás a HBC/BootMii telepítésével →](hbc){.btn .btn-solid}
 
 :::

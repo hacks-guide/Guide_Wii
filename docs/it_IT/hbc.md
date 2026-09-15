@@ -120,9 +120,9 @@ Puoi anche usare l'app [BootMii Config Editor](https://oscwii.org/library/app/Bo
 
 ::: tip
 
-[Continua col fare un backup della NAND](nand-backup)
+**Fare un backup della NAND a questo punto è altamente consigliato, in quanto possono essere usati per recuperarsi da un brick.**
 
-Fare un backup della NAND a questo punto è altamente consigliato, in quanto possono essere usati per recuperarsi da un brick.
+[Continua col creare un backup della NAND →](nand-backup){.btn .btn-solid}
 
 :::
 
@@ -193,9 +193,9 @@ Nota: quando installi applicazioni homebrew sull'unità USB, la struttura delle 
 
 ::: tip
 
-[Continua col fare un backup della NAND](nand-backup)
+**Fare un backup della NAND a questo punto è altamente consigliato, in quanto possono essere usati per recuperarsi da un brick.**
 
-Fare un backup della NAND a questo punto è altamente consigliato, in quanto possono essere usati per recuperarsi da un brick.
+[Continua col creare un backup della NAND →](nand-backup){.btn .btn-solid}
 
 :::
 

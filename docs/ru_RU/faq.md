@@ -171,8 +171,4 @@ For the Wii U, vWii uses the internet settings set in the Wii U's main settings,
 
 ---
 
-::: tip
-
-[Нажмите здесь, что бы вернуться к домашней странице.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

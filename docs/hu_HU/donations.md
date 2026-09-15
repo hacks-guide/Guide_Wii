@@ -22,8 +22,4 @@
 
 ---
 
-::: tip
-
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
-
-:::
+[← Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid}

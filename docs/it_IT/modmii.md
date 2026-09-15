@@ -224,6 +224,8 @@ A questo punto, dovresti seguire la guida generata da ModMii. Non è necessario 
 
 ::: tip
 
-[Clicca qui per tornare all'indice.](site-navigation)
+**Ritorna a Cominciamo! per ulteriori exploit, oppure ritorna all'indice del sito.**
+
+[← Ritorna a Cominciamo!](get-started){.btn .btn-solid} [← Ritorna all'indice](site-navigation){.btn .btn-solid}
 
 :::

@@ -247,8 +247,8 @@ Un metodo per la patch di Wiimmfi che viene eseguito sulle immagini dei giochi s
 
 ::: tip
 
-Continua con gli [homebrew consigliati](recommended-homebrew)
+La seguente guida presenta una selezione di homebrew che mostra alcune delle cose che puoi fare con la tua console. Questi includono emulatori, cheat, hack e altro ancora.
 
-Questa guida presenta una selezione di homebrew che mostra alcune delle cose che puoi fare con la tua console. Questi includono emulatori, cheat, hack e altro ancora.
+[Continua con gli Homebrew consigliati →](recommended-homebrew){.btn .btn-solid}
 
 :::

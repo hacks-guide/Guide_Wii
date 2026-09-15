@@ -120,9 +120,9 @@ Használhatod a [BootMii Config Editor](https://oscwii.org/library/app/BootMiiCo
 
 ::: tip
 
-[Folytatás a NAND mentés készítésével](nand-backup)
+**A NAND biztonsági mentés készítése ezen a ponton erősen ajánlott, mivel használható arra, hogy helyreállitsunk vele brickelésből.**
 
-A NAND biztonsági mentés ezen a ponton erősen ajánlott, mivel használható arra, hogy helyreállitsunk vele brickelésből.
+[Folytatás a NAND mentés készítésével →](nand-backup){.btn .btn-solid}
 
 :::
 
@@ -193,9 +193,9 @@ Megjegyzés: Ha homebrew alkalmazásokat telepítesz az USB drive-odra, a könyv
 
 ::: tip
 
-[Folytatás a NAND mentés készítésével](nand-backup)
+**A NAND biztonsági mentés készítése ezen a ponton erősen ajánlott, mivel használható arra, hogy helyreállitsunk vele brickelésből.**
 
-A NAND biztonsági mentés ezen a ponton erősen ajánlott, mivel használható arra, hogy helyreállitsunk vele brickelésből.
+[Folytatás a NAND mentés készítésével →](nand-backup){.btn .btn-solid}
 
 :::
 

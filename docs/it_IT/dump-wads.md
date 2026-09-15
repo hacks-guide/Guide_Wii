@@ -55,8 +55,4 @@ Ora il dump del WAD dovrebbe essere visibile all'interno della cartella specific
 
 ---
 
-::: tip
-
-[Clicca qui per tornare all'indice.](site-navigation)
-
-:::
+[← Ritorna all'indice](site-navigation){.btn .btn-solid}

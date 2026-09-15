@@ -84,9 +84,9 @@ NON usare alcun indirizzo MAC mostrato negli esempi di questa guida, perché dar
 
 ::: tip
 
-[Continua con l'installazione di Homebrew Channel e di BootMii](hbc)
+**Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.**
 
-Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.
+[Continua con l'installazione di HBC/BootMii →](hbc){.btn .btn-solid}
 
 :::
 
@@ -170,9 +170,9 @@ Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootM
 
 ::: tip
 
-[Continua con l'installazione di Homebrew Channel e di BootMii](hbc)
+**Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.**
 
-Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.
+[Continua con l'installazione di HBC/BootMii →](hbc){.btn .btn-solid}
 
 :::
 

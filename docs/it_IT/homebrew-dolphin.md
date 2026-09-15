@@ -46,8 +46,4 @@ Sull'emulatore Dolphin versione `5.0-4588` o successive, il menu Wii può essere
 
 ---
 
-::: tip
-
-[Clicca qui per tornare all'indice.](site-navigation)
-
-:::
+[← Ritorna all'indice](site-navigation){.btn .btn-solid}

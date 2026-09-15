@@ -223,8 +223,4 @@ I forwarder possono aggiungere un tocco in più al menu Wii, ma fai attenzione p
 
 ---
 
-::: tip
-
-[Clicca qui per tornare all'indice.](site-navigation)
-
-:::
+[← Ritorna all'indice](site-navigation){.btn .btn-solid}

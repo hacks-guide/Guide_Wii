@@ -60,14 +60,8 @@ At this point, you should be able to install the Homebrew Channel and access hom
 
 ::: tip
 
-[Return to Bricks](bricks)
+**Return to Bricks for more console bricking information, or return to the site index.**
 
-:::
-
----
-
-::: tip
-
-[Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)
+[← Return to Bricks](bricks){.btn .btn-solid} [← Return to Site Navigation](site-navigation){.btn .btn-solid}
 
 :::

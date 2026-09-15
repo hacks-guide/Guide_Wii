@@ -32,8 +32,4 @@ Un SysCheck elenca tutti gli IOS e i cIOS che sono nella console Wii, fornendo a
 
 ---
 
-::: tip
-
-[Clicca qui per tornare all'indice.](site-navigation)
-
-:::
+[← Ritorna all'indice](site-navigation){.btn .btn-solid}

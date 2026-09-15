@@ -41,8 +41,4 @@ Questa guida mostrerà come installare i file WAD.
 
 ---
 
-::: tip
-
-[Clicca qui per tornare all'indice.](site-navigation)
-
-:::
+[← Ritorna all'indice](site-navigation){.btn .btn-solid}

@@ -102,14 +102,8 @@ Wii-ul tău ar trebui să pornească automat în oricare aplicație de homebrew 
 
 ::: tip
 
-[Click here to return to the main Priiloader guide.](priiloader)
+**Return to the main Priiloader guide, or return to the site index.**
 
-:::
-
----
-
-::: tip
-
-[Click here to go back to the site index.](site-navigation)
+[← Return to Priiloader](priiloader){.btn .btn-solid} [← Return to Site Navigation](site-navigation){.btn .btn-solid}
 
 :::

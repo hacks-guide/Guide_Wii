@@ -84,9 +84,9 @@ NE használd a példákban megadott MAC címeket, mert azok simán hibát okozna
 
 ::: tip
 
-[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+**Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzolodtól függően a BootMii-t.**
 
-Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
+[Folytatás a HBC/BootMii telepítésével →](hbc){.btn .btn-solid}
 
 :::
 
@@ -170,9 +170,9 @@ Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a
 
 ::: tip
 
-[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+**Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzolodtól függően a BootMii-t.**
 
-Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
+[Folytatás a HBC/BootMii telepítésével →](hbc){.btn .btn-solid}
 
 :::
 

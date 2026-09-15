@@ -58,8 +58,4 @@ It is much safer to use [ModMii](modmii) (Windows only) to update your Wii to 4.
 
 ---
 
-::: tip
-
-[Kliknij tutaj, aby wrócić do indeksu witryny.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

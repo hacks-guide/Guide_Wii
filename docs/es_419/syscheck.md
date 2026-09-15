@@ -32,8 +32,4 @@ A SysCheck lists all the IOS and cIOS that are on your Wii, along with some info
 
 ---
 
-::: tip
-
-[Haz clic aquí para volver al índice del sitio.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

@@ -32,8 +32,4 @@ SysCheck 列出了 Wii 上的所有 IOS 和 cIOS，以及关于它们各自的�
 
 ---
 
-::: tip
-
-[点击此处返回站点索引。](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

@@ -25,3 +25,7 @@ Ez a webhely más webhelyekre hivatkozhat, amelyeket a felhasználók használha
 ## Az adatvédelmi irányelvek változásai
 
 A jelen Adatvédelmi szabályzat tartalma bármikor és bármilyen okból módosítható.
+
+---
+
+[← Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid}

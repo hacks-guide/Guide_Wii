@@ -56,7 +56,7 @@ Az alábbiakban egy egyszerű WBFS-példa és egy osztott WBFS-példa látható.
 
 ## WiiFlow Lite
 
-### Requirements
+### Követelmények
 
 - Egy moddolt Wii
 - A [cIOS](cios) legutolsó verziója
@@ -107,7 +107,7 @@ Amikor a kurzort a képernyő aljára viszed, miközben az flow nézetben vagy, 
 
 ## USB Loader GX
 
-### Requirements
+### Követelmények
 
 - Egy moddolt Wii
 - A [cIOS](cios) legutolsó verziója
@@ -188,8 +188,4 @@ Egy adott játékhoz használt cIOS megváltoztatásához kövesd az USB-töltő
 
 ---
 
-::: tip
-
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
-
-:::
+[← Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid}

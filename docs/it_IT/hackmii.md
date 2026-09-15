@@ -24,9 +24,17 @@ Puoi anche [rieseguire un exploit](get-started) per tornare su HackMii Installer
 3. Inserisci la scheda SD o l'unità USB nella console e avvia l'app `hackmii_installer_v1.2` dall'Homebrew Channel.
    - L'app non avrà un'icona.
 
+::: info
+
+Se dopo circa 30 secondi non compare `Press (1) to continue`, prova a scaricare l'[HackMii Installer v1.0](https://bootmii.org/hackmii_installer_v1.0.zip/).
+
+:::
+
 ::: tip
 
-[Continua con l'installazione di Homebrew Channel e di BootMii](hbc)
+**Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.**
+
+[Continua con l'installazione di HBC/BootMii →](hbc){.btn .btn-solid}
 
 :::
 
@@ -61,7 +69,15 @@ Preloader e le versioni più datate di Priiloader non sembrano supportare le sch
 
 ::: info
 
-Se dopo circa 30 secondi non compare `Press (1) to continue`, prova a scaricare l'[HackMii Installer v1.0](https://bootmii.org/download/).
+Se dopo circa 30 secondi non compare `Press (1) to continue`, prova a scaricare l'[HackMii Installer v1.0](https://bootmii.org/hackmii_installer_v1.0.zip).
+
+:::
+
+::: tip
+
+**Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.**
+
+[Continua con l'installazione di HBC/BootMii →](hbc){.btn .btn-solid}
 
 :::
 
@@ -96,18 +112,16 @@ Se riesci già ad avviare BootMii tramite IOS, le sezioni precedenti sono più s
 5. Naviga sull'icona della scheda SD e premi `RESET` per accedere al menu di navigazione.
 6. Naviga su `bootmini.elf` e premi `RESET` per avviare l'HackMii Installer.
 
-::: tip
+::: info
 
-Se dopo circa 30 secondi non compare `Press (1) to continue`, prova a scaricare l'[HackMii Installer v1.0](https://bootmii.org/download/).
+Se dopo circa 30 secondi non compare `Press (1) to continue`, prova a scaricare l'[HackMii Installer v1.0](https://bootmii.org/hackmii_installer_v1.0.zip).
 
 :::
 
----
-
 ::: tip
 
-[Continua con l'installazione di Homebrew Channel e di BootMii](hbc)
+**Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.**
 
-Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.
+[Continua con l'installazione di HBC/BootMii →](hbc){.btn .btn-solid}
 
 :::

@@ -130,8 +130,8 @@ Please note that the `apps` folder inside of the `wiiu` folder (for Wii U homebr
 
 ::: tip
 
-[Priiloader 설치](priiloader)를 계속합니다.
+**Although BootMii cannot be installed on vWii, Priiloader adds a crucial level of brick protection, and is highly recommended to install.**
 
-Although BootMii cannot be installed on vWii, Priiloader adds a crucial level of brick protection, and is highly recommended to install.
+[Continue to Priiloader Installation →](priiloader){.btn .btn-solid}
 
 :::

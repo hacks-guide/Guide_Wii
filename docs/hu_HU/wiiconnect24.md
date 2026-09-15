@@ -6,7 +6,70 @@ A [WiiConnect24(https://wikipedia.org/wiki/WiiConnect24) egy olyan szolgáltatá
 
 A [WiiLink](https://www.wiilink.ca/) egy olyan harmadik feles szolgáltatás, ami újraéleszti és kiterjeszti a WiiConnect24 funkcióit. A WiiLink biztosít egy patchert a szolgáltatásokhoz, amit biztosít. Nyújtanak nemzetközi csatornáka, mint a Forecast és a News Channel, de régió exklúzív csatornákat is, mint a Wii Room. A WiiLink telepítésének útmutatója megtalálható [a weboldalukon.](https://www.wiilink.ca/guide/)
 
-## A valós idejű óra átállítása
+## Telepítés és hibalehárítás
+
+Az alábbi része további hibaelhárítási ás telepítési információt biztosítanak a konzolodhoz. Ez biztosítja, hogy a WiiConnect24 úgy működjön, ahogy kell.
+
+### WiiConnect24 Priiloader hackek (vWii és Wii mini)
+
+::: info
+
+A vWii-n a [Permanens vWii rendszer beállítások](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) és a [Mindig engedélyezze a WiiConnect24-et bootoláskor](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) hackek nem lehetnek engedélyezve egy időben. Ajánlott, hogy csak a Permanens vWii rendszer beállítások hack legyen engedélyezve, mivel onnan probléma nélkül engedélyezhető a WiiConnect24. További információk a [Priiloader GYIK oldalon találhatók](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii).
+
+:::
+
+Ha vWii-t vagy Wii mini-t használsz, néhány Priiloader hacket engedélyezni kell, hogy lehetővé tegyed a megfelelő WiiConnect24 funkcionalitást. A `System Menu Hacks`-ok között kapcsold be a konzolodnak megfelelő következő opciókat:
+
+| Konzol típus | Priiloader opciók                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| vWii         | <ul><li>[Üzenet létrehozása a Naptár gombbal](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li><br><li>[Permanent vWii rendszer beállítások](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)</li><br><li>[A NWC24iSetUniversalTime javítása](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)</li></ul> |
+| Wii mini     | <ul><li>[Üzenet létrehozása a Naptár gombbal](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li></ul>                                                                                                                                                                                                                                                                                             |
+
+---
+
+### WiiVCLaunch (vWii)
+
+Ha Wii U-n vagy, legyél biztos benne, hogy telepítetted a WiiVCLaunch-ot, ami biztosítja, hogy a rendszerbeállításaidat ne írja felül, ha egy Wii Virtual Console játékot futtatsz a Wii U menüből.
+
+#### Követelmények
+
+- Egy exploitolt Wii U Aroma környezettel
+- Egy SD kártya
+- [WiiVCLaunch](https://github.com/Lynx64/WiiVCLaunch/releases)
+
+#### Lépések
+
+:::details Nyisd meg a lépésekért
+
+1. Kapcsold ki a konzolod és csatlakoztasd az SD kártyád a számítógépedhez.
+
+2. Menj a fenti GitHub linkre és töltsd le a `WiiVCLaunch.wps` fájlt.
+
+   ![](/images/wiiconnect24/wiivclaunch/wps-download.png)
+
+3. Másold a `WiiVCLaunch.wps` fájtl az SD kártyádra a `/wiiu/environments/aroma/plugins` könyvtárba.
+
+   ![](/images/wiiconnect24/wiivclaunch/wps-directory.png)
+
+4. Helyezd be az SD kártyát a Wii U-dba és bootlj be az Aroma környezetbe.
+
+5. Nyomd meg az `L` + `+DPAD Down` + `- Minus` gomb kombinációt a Gamepad/Pro Controller/Classic Controller-eden vagy a `B` + `+Control Pad Down` + `- Minus` gomb kombinációt a Wii Remote-odon a Wii U Plugin System Config Menu megnyitásához. Keresd meg a `Wii VC Launch` opciót és nyomj `A` gombot.
+
+   ![](/images/wiiconnect24/wiivclaunch/aroma-config-menu.png)
+
+6. Keresd meg a `Other settings` opciót és nyomj `A` gombot.
+
+   ![](/images/wiiconnect24/wiivclaunch/wiivc-config-menu.png)
+
+7. Ellenőrizd, hogy a `Preserve SYSCONF on Wii VC title launch` opció `true`-ra állított. Ha ez végzett, kiléphetsz a konfigurációs menüből a `B` gomb megnyomásval addig, amíg ki nem jutsz a Wii U menübe.
+
+   ![](/images/wiiconnect24/wiivclaunch/wiivc-sysconf-config.png)
+
+:::
+
+---
+
+### Az RTC óra frissítése (Wii és vWii)
 
 Néhány esetben az RTC óra a Wii-odon késik az aktuális időhöz képest. Ez problémát okozhat a WiiConnect24 szolgáltatáshoz csatlakozáskor vagy más általános online szolgáltatás esetében a Wii-on. Ha csatlakozási hibákat kapsz, mint pl. FORE000006, elképzelhető, hogy használnod kell a lenti lépéseket, hogy újraszinkronizáld a Wii belső RTC óráját az internethez.
 
@@ -14,14 +77,14 @@ Néhány esetben az RTC óra a Wii-odon késik az aktuális időhöz képest. Ez
 
 :::: tab Wii
 
-### Requirements
+#### Követelmények
 
 - Egy internetkapcsolattal rendelkező Wii
 - A Homebrew Channel
 - Egy SD kártya vagy pendrive
 - [sntp](https://oscwii.org/library/app/sntp)
 
-### Lépések
+#### Lépések
 
 1. Töltsd le és csomagold ki az sntp. zip-fájlt az SD kártya vagy USB drive gyökerére.
 
@@ -45,14 +108,14 @@ Néhány esetben az RTC óra a Wii-odon késik az aktuális időhöz képest. Ez
 
 :::: tab Wii U (vWii)
 
-### Requirements
+#### Követelmények
 
 - Egy exploitolt vWii környezet
 - A Homebrew Channel
 - Egy SD kártya
 - [Priiloader](priiloader)
 
-### Lépések
+#### Lépések
 
 1. Látogasd meg az [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) oldalt és töltsd ki az információkat.
 
@@ -86,63 +149,12 @@ Néhány esetben az RTC óra a Wii-odon késik az aktuális időhöz képest. Ez
 
 :::::
 
-## WiiConnect24 Priiloader hackek (vWii és Wii mini)
-
-::: info
-
-A vWii-n a [Permanens vWii rendszer beállítások](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) és a [Mindig engedélyezze a WiiConnect24-et bootoláskor](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) hackek nem lehetnek engedélyezve egy időben. Ajánlott, hogy csak a Permanens vWii rendszer beállítások hack legyen engedélyezve, mivel onnan probléma nélkül engedélyezhető a WiiConnect24. További információk a [Priiloader GYIK oldalon találhatók](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii).
-
-:::
-
-Ha vWii-t vagy Wii mini-t használsz, néhány Priiloader hacket engedélyezni kell, hogy lehetővé tegyed a megfelelő WiiConnect24 funkcionalitást. A `System Menu Hacks`-ok között kapcsold be a konzolodnak megfelelő következő opciókat:
-
-| Konzol típus | Priiloader opciók                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| vWii         | <ul><li>[Üzenet létrehozása a Naptár gombbal](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li><br><li>[Permanent vWii rendszer beállítások](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)</li><br><li>[A NWC24iSetUniversalTime javítása](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)</li></ul> |
-| Wii mini     | <ul><li>[Üzenet létrehozása a Naptár gombbal](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li></ul>                                                                                                                                                                                                                                                                                             |
-
-## WiiVCLaunch (vWii)
-
-Ha Wii U-n vagy, legyél biztos benne, hogy telepítetted a WiiVCLaunch-ot, ami biztosítja, hogy a rendszerbeállításaidat ne írja felül, ha egy Wii Virtual Console játékot futtatsz a Wii U menüből.
-
-### Requirements
-
-- Egy exploitolt Wii U Aroma környezettel
-- Egy SD kártya
-- [WiiVCLaunch](https://github.com/Lynx64/WiiVCLaunch/releases)
-
-### Lépések
-
-1. Kapcsold ki a konzolod és csatlakoztasd az SD kártyád a számítógépedhez.
-
-2. Menj a fenti GitHub linkre és töltsd le a `WiiVCLaunch.wps` fájlt.
-
-   ![](/images/wiiconnect24/wiivclaunch/wps-download.png)
-
-3. Másold a `WiiVCLaunch.wps` fájtl az SD kártyádra a `/wiiu/environments/aroma/plugins` könyvtárba.
-
-   ![](/images/wiiconnect24/wiivclaunch/wps-directory.png)
-
-4. Helyezd be az SD kártyát a Wii U-dba és bootlj be az Aroma környezetbe.
-
-5. Nyomd meg az `L` + `+DPAD Down` + `- Minus` gomb kombinációt a Gamepad/Pro Controller/Classic Controller-eden vagy a `B` + `+Control Pad Down` + `- Minus` gomb kombinációt a Wii Remote-odon a Wii U Plugin System Config Menu megnyitásához. Keresd meg a `Wii VC Launch` opciót és nyomj `A` gombot.
-
-   ![](/images/wiiconnect24/wiivclaunch/aroma-config-menu.png)
-
-6. Keresd meg a `Other settings` opciót és nyomj `A` gombot.
-
-   ![](/images/wiiconnect24/wiivclaunch/wiivc-config-menu.png)
-
-7. Ellenőrizd, hogy a `Preserve SYSCONF on Wii VC title launch` opció `true`-ra állított. Ha ez végzett, kiléphetsz a konfigurációs menüből a `B` gomb megnyomásval addig, amíg ki nem jutsz a Wii U menübe.
-
-   ![](/images/wiiconnect24/wiivclaunch/wiivc-sysconf-config.png)
-
 ---
 
 ::: tip
 
-[Folytatás a Nintendo Wi-Fi Connectionnel](wiimmfi)
+**Ez az útmutató elmagyarázza, hogyan állíthatod helyre a Nintendo Wi-Fi Connection funkcionalitást, lehetővé téve, hogy online játszhass újra olyan játékokkal, mint például Mario Kart Wii.**
 
-Ez az útmutató elmagyarázza, hogyan állíthatod helyre a Nintendo Wi-Fi Connection funkcionalitást, lehetővé téve, hogy online játszhass újra olyan játékokkal, mint például Mario Kart Wii. Ugyan több különböző szolgáltatás teszi lehetővé ezt, mi a Wiimmfi-t fogjuk bemutatni.
+[Folytatás a Nintendo Wi-Fi Connection-nel →](nintendowfc){.btn .btn-solid}
 
 :::

@@ -6,7 +6,70 @@
 
 [WiiLink](https://www.wiilink.ca/) is a third party service for WiiConnect24 that allows you to regain and expand its functionality on your console. WiiLink hosts a patcher for the services that it provides. They offer international channels such as the Forecast and News Channel, as well as region exclusive channels such as Wii Room. The guide to install WiiLink on your console can be found [on their website.](https://www.wiilink.ca/guide/)
 
-## Updating RTC Clock
+## Troubleshooting and Setup
+
+The below sections will provide additional troubleshooting and setup as needed for your console. This will ensure WiiConnect24 can function as needed.
+
+### WiiConnect24 Priiloader Hacks (vWii and Wii mini)
+
+::: info
+
+On vWii, the [Permanent vWii System Settings](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) and [Always enable WiiConnect24 on boot](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) hacks cannot be enabled at the same time. It is recommended to just enable the Permanent vWii Systems Settings hack, as you can enable WiiConnect24 there without issue. More information can be found [on the Priiloader FAQ page](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii).
+
+:::
+
+If you are using vWii or a Wii mini, some Priiloader hacks need to be enabled to allow proper WiiConnect24 functionality. In `System Menu Hacks`, enable the following options according to your console:
+
+| Console Type | Priiloader Options                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| vWii         | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li><br><li>[Permanent vWii System Settings](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)</li><br><li>[Fix NWC24iSetUniversalTime](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)</li></ul> |
+| Wii Mini     | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li></ul>                                                                                                                                                                                                                                                                                 |
+
+---
+
+### WiiVCLaunch (vWii)
+
+If you are on the Wii U, please ensure that you install WiiVCLaunch to ensure that your system settings are not overwritten when you run Wii Virtual Console games in the Wii U menu.
+
+#### Prérequis
+
+- An exploited Wii U with the Aroma Environment
+- An SD card
+- [WiiVCLaunch](https://github.com/Lynx64/WiiVCLaunch/releases)
+
+#### Instructions
+
+:::details Open for Instructions
+
+1. Power off your console, and insert your SD card into your PC.
+
+2. Go to the GitHub link above, and download the `WiiVCLaunch.wps` file.
+
+   ![](/images/wiiconnect24/wiivclaunch/wps-download.png)
+
+3. Copy the `WiiVCLaunch.wps` file to your SD card in the `/wiiu/environments/aroma/plugins` directory.
+
+   ![](/images/wiiconnect24/wiivclaunch/wps-directory.png)
+
+4. Insert the SD card into your Wii U and boot it into the Aroma Environment.
+
+5. Hit the `L` + `+DPAD Down` + `- Minus` combination on your Gamepad/Pro Controller/Classic Controller, or the `B` + `+Control Pad Down` + `- Minus` combination on your Wii Remote to open the Wii U Plugin System Config Menu. Find the `Wii VC Launch` menu option and press `A`.
+
+   ![](/images/wiiconnect24/wiivclaunch/aroma-config-menu.png)
+
+6. Find the `Other settings` menu option and press `A`.
+
+   ![](/images/wiiconnect24/wiivclaunch/wiivc-config-menu.png)
+
+7. Ensure that the `Preserve SYSCONF on Wii VC title launch` option is set to `true`. Once this is finished, you may exit the config menu by pressing `B` until you are at the Wii U menu.
+
+   ![](/images/wiiconnect24/wiivclaunch/wiivc-sysconf-config.png)
+
+:::
+
+---
+
+### Updating RTC Clock (Wii and vWii)
 
 In some cases, the RTC clock on your Wii may not be synchronized with the current time. This will likely cause errors when trying to connect to WiiConnect24 services, or other general online services on the Wii. In the event that you are receiving connection errors like FORE000006, you may use the below instructions to re-sync your Wii's internal RTC clock with the Internet.
 
@@ -14,14 +77,14 @@ In some cases, the RTC clock on your Wii may not be synchronized with the curren
 
 :::: tab Wii
 
-### Prérequis
+#### Prérequis
 
 - A Wii with an active Internet connection
 - La Chaîne Homebrew
 - Une carte SD ou une clé USB
 - [sntp](https://oscwii.org/library/app/sntp)
 
-### Instructions
+#### Instructions
 
 1. Download and extract the sntp zip to the root of your SD card or USB drive.
 
@@ -45,14 +108,14 @@ In some cases, the RTC clock on your Wii may not be synchronized with the curren
 
 :::: tab Wii U (vWii)
 
-### Prérequis
+#### Prérequis
 
 - An exploited vWii environment
 - La Chaîne Homebrew
 - An SD card
 - [Priiloader](priiloader)
 
-### Instructions
+#### Instructions
 
 1. Visit the [UTC Patch Generator](https://garyodernichts.github.io/priiloader-patch-gen/) website and fill out the information.
 
@@ -86,63 +149,12 @@ In some cases, the RTC clock on your Wii may not be synchronized with the curren
 
 :::::
 
-## WiiConnect24 Priiloader Hacks (vWii and Wii mini)
-
-::: info
-
-On vWii, the [Permanent vWii System Settings](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii) and [Always enable WiiConnect24 on boot](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#always-enable-wiiconnect24-on-boot-vwii) hacks cannot be enabled at the same time. It is recommended to just enable the Permanent vWii Systems Settings hack, as you can enable WiiConnect24 there without issue. More information can be found [on the Priiloader FAQ page](https://dacotaco.github.io/priiloader/docs/FAQ.html#how-to-use-permanent-wii-system-settings-on-vwii).
-
-:::
-
-If you are using vWii or a Wii mini, some Priiloader hacks need to be enabled to allow proper WiiConnect24 functionality. In `System Menu Hacks`, enable the following options according to your console:
-
-| Console Type | Priiloader Options                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| vWii         | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li><br><li>[Permanent vWii System Settings](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#permanent-vwii-system-settings-vwii)</li><br><li>[Fix NWC24iSetUniversalTime](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#fix-nwc24isetuniversaltime-vwii)</li></ul> |
-| Wii Mini     | <ul><li>[Create message via Calendar button](https://dacotaco.github.io/priiloader/docs/HACKSLIST.html#create-message-via-calendar-button-vwii-mini)</li></ul>                                                                                                                                                                                                                                                                                 |
-
-## WiiVCLaunch (vWii)
-
-If you are on the Wii U, please ensure that you install WiiVCLaunch to ensure that your system settings are not overwritten when you run Wii Virtual Console games in the Wii U menu.
-
-### Prérequis
-
-- An exploited Wii U with the Aroma Environment
-- An SD card
-- [WiiVCLaunch](https://github.com/Lynx64/WiiVCLaunch/releases)
-
-### Instructions
-
-1. Power off your console, and insert your SD card into your PC.
-
-2. Go to the GitHub link above, and download the `WiiVCLaunch.wps` file.
-
-   ![](/images/wiiconnect24/wiivclaunch/wps-download.png)
-
-3. Copy the `WiiVCLaunch.wps` file to your SD card in the `/wiiu/environments/aroma/plugins` directory.
-
-   ![](/images/wiiconnect24/wiivclaunch/wps-directory.png)
-
-4. Insert the SD card into your Wii U and boot it into the Aroma Environment.
-
-5. Hit the `L` + `+DPAD Down` + `- Minus` combination on your Gamepad/Pro Controller/Classic Controller, or the `B` + `+Control Pad Down` + `- Minus` combination on your Wii Remote to open the Wii U Plugin System Config Menu. Find the `Wii VC Launch` menu option and press `A`.
-
-   ![](/images/wiiconnect24/wiivclaunch/aroma-config-menu.png)
-
-6. Find the `Other settings` menu option and press `A`.
-
-   ![](/images/wiiconnect24/wiivclaunch/wiivc-config-menu.png)
-
-7. Ensure that the `Preserve SYSCONF on Wii VC title launch` option is set to `true`. Once this is finished, you may exit the config menu by pressing `B` until you are at the Wii U menu.
-
-   ![](/images/wiiconnect24/wiivclaunch/wiivc-sysconf-config.png)
-
 ---
 
 ::: tip
 
-[Proceed to Nintendo Wi-Fi Connection](nintendowfc)
+**This guide explains how to restore Nintendo Wi-Fi Connection functionality, allowing you to play games like Mario Kart Wii online again.**
 
-This guide explains how to restore Nintendo Wi-Fi Connection functionality, allowing you to play games like Mario Kart Wii online again. While there are different services that might allow this, the one covered here will be Wiimmfi.
+[Continue to Nintendo Wi-Fi Connection →](nintendowfc){.btn .btn-solid}
 
 :::

@@ -102,14 +102,8 @@ A beállítás befejeztével a Wii bekapcsoláskor automatikusan a kiválasztott
 
 ::: tip
 
-[Kattints ide a visszatéréshez a fő Priiloader útmutatóhoz.](priiloader)
+**Visszatérhetsz a Priiloader útmutatóhoz, vagy visszatérhetsz a tartalomjegyzékhez.**
 
-:::
-
----
-
-::: tip
-
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
+[← Vissza a Priiloaderhez](priiloader){.btn .btn-solid} [← Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid}
 
 :::

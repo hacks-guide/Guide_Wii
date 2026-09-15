@@ -224,6 +224,8 @@ Innentől kezdve kövesd a ModMii által generált útmutatót. Nem kell követn
 
 ::: tip
 
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
+**Visszatérhetsz a Kezdeti lépésekhez további exploitokért/moddolási módokért, vagy visszatérhetsz a tartalomjegyzékhez.**
+
+[← Vissza a Kezdeti lépésekhez](get-started){.btn .btn-solid} [← Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid}
 
 :::

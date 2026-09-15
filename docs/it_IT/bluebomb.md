@@ -143,9 +143,9 @@ BlueBomb Classic usa un dispositivo Linux o una macchina virtuale per caricare u
 
 ::: tip
 
-[Continua con l'installazione di Homebrew Channel e di BootMii](hbc)
+**Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.**
 
-Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.
+[Continua con l'installazione di HBC/BootMii →](hbc){.btn .btn-solid}
 
 :::
 
@@ -257,9 +257,9 @@ Un Raspberry Pi Pico normale non funzionerà. DEVE essere il modello wireless. I
 
 ::: tip
 
-[Continua con l'installazione di Homebrew Channel e di BootMii](hbc)
+**Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.**
 
-Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.
+[Continua con l'installazione di HBC/BootMii →](hbc){.btn .btn-solid}
 
 :::
 
@@ -349,9 +349,9 @@ BlueMii utilizza un'altra console Wii per caricare l'exploit su Wii tramite Blue
 
 ::: tip
 
-[Continua con l'installazione di Homebrew Channel e di BootMii](hbc)
+**Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.**
 
-Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.
+[Continua con l'installazione di HBC/BootMii →](hbc){.btn .btn-solid}
 
 :::
 

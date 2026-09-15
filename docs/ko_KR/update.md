@@ -58,8 +58,4 @@ Wii를 4.3으로 업데이트하려면 [ModMii](modmii) (윈도우용)를 사용
 
 ---
 
-::: tip
-
-[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

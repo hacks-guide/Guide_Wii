@@ -199,9 +199,9 @@ Ha letöltötted a 4 WAD fájlt az I. részben, most törölheted őket az SD k�
 
 ::: tip
 
-[Folytatás az Open Shop Channel telepítésével](osc)
+**Most, hogy a Homebrew Channel, a BootMii, a Priiloader, és a cIOS mind telepítve, telepítheted az Open Shop Channel-t, ami a homebrew programok megbízható tárháza és hozzáférhető mind egy Wii-ről vagy egy számítógépről.**
 
-Most, hogy a Homebrew Channel, a BootMii, a Priiloader, és a cIOS mind telepítve, telepítheted az Open Shop Channel-t, ami a homebrew programok megbízható tárháza és hozzáférhető mind egy Wii-ről vagy egy számítógépről.
+[Folytatás az Open Shop Channel telepítésével →](osc){.btn .btn-solid}
 
 :::
 
@@ -221,7 +221,7 @@ Biztosítsd, hogy olyan SD kártyát használsz, ahol az írásvédelem a felold
 
 :::
 
-## Requirements
+## Követelmények
 
 - Egy Wii U, aminek a vWii-jére telepítve van a Homebrew Channel
 - Egy SD kártya vagy pendrive
@@ -356,9 +356,9 @@ A WAD fájlok az SD kártyád gyökerében így fognak kinézni:
 
 ::: tip
 
-[Folytasd a telepítés véglegesítésével (Wii U)](vwii-finalizing-setup)
+**Most, hogy már a Homebrew Channel, Priiloader, és cIOS telepítve, folytathatod azon funkcionalitás helyreállításával, ami hiányzik a vWii menüből.**
 
-Most, hogy már a Homebrew Channel, Priiloader, és cIOS telepítve, folytathatod azon funkcionalitás helyreállításával, ami normális esetben hiányzik a vWii menüből.
+[Folytatás a Wii U telepítés véglegesítésével →](vwii-finalizing-setup){.btn .btn-solid}
 
 :::
 
@@ -425,9 +425,9 @@ Ha az útmutatóval kapcsolatban segítségre lenne szükséged, kérjük csatla
 
 ::: tip
 
-[Folytasd a telepítés véglegesítésével (Wii mini)](mini-finalizing-setup)
+**Most, hogy már a Homebrew Channel, Priiloader, és cIOS telepítve, folytathatod azon funkcionalitás helyreállításával, ami hiányzik a Wii minim menüből.**
 
-Most, hogy már a Homebrew Channel, Priiloader, és cIOS telepítve, folytathatod azon funkcionalitás helyreállításával, ami normális esetben hiányzik a Wii mini menüből.
+[Folytatás a Wii mini telepítés véglegesítésével →](mini-finalizing-setup){.btn .btn-solid}
 
 :::
 

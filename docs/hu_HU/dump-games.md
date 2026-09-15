@@ -115,6 +115,8 @@ Egy Wii mini és a Wii U vWiije nem képes GameCube-játékokról dumpot készí
 
 ::: tip
 
-Folytasd a [Wii és GameCube mentések kezelésével](backups#using-tinywiibackupmanager) a kimeneti fájlok méretének csökkentéséhez és a dumpolt játékok kezeléséhez.
+**Visszatérhetsz a tartalomjegyzékhez vagy folytathatod a Wii és GameCube mentések kezelésével, hogy csökkentsd a dumpok méretét és kezeld a játékaid.**
+
+[Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid} [Folytatás a Wii és GameCube mentések kezelésével →](backups#using-tinywiibackupmanager){.btn .btn-solid}
 
 :::

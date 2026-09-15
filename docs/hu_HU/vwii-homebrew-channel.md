@@ -131,8 +131,8 @@ Figyelj arra, hogy `apps` mappa a `wiiu` mappán belül (Wii U homebrew appokhoz
 
 ::: tip
 
-Folytatás a [Priiloader telepítésével](priiloader)
+**Habár a BootMii nem telepíthető a vWii-re, a Priiloader fontos brick védelmet ad és telepítése nagyon ajánlott.**
 
-Habár a BootMii nem telepíthető a vWii-re, a Priiloader fontos brcik védelmet ad és telepítése nagyon ajánlott.
+[Folytatás a Priiloader telepítésével →](priiloader){.btn .btn-solid}
 
 :::

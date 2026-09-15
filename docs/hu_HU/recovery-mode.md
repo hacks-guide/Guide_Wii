@@ -60,14 +60,8 @@ Ezek után telepítheted a Homebrew Channelt és hozzáférhetsz az SD kártyád
 
 ::: tip
 
-[Vissza a Brick-ekhez](bricks)
+\*\* Visszatérhetsz a Brickelésekhez további brick infóért vagy visszatérhetsz a Tartalomjegyzékhez.\*\*
 
-:::
-
----
-
-::: tip
-
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
+[← Vissza a Brickekhez](bricks){.btn .btn-solid} [← Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid}
 
 :::

@@ -188,8 +188,4 @@ Per cambiarlo per un gioco specifico, segui le istruzioni relative all'USB loade
 
 ---
 
-::: tip
-
-[Clicca qui per tornare all'indice.](site-navigation)
-
-:::
+[← Ritorna all'indice](site-navigation){.btn .btn-solid}

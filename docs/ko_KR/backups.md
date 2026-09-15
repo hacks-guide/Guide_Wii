@@ -245,11 +245,9 @@ If you already have games on your drive and TinyWiiBackupManager prompts you to 
 
 ::: tip
 
-[cIOS로 계속](cios)
+**If cIOS is configured, you can use USB Loader GX or WiiFlow to play Wii games from your USB drive or SD card. You can also use Nintendont to play GameCube games from your USB drive or SD card.**
 
-In order to play dumped Wii games from your external device, you must have cIOS configured. Once cIOS is configured, you can use [USB Loader GX or WiiFlow](wii-loaders) to play Wii games from your USB drive or SD card.
-
-You can also use [Nintendont](nintendont) to play GameCube games from your USB drive or SD card.
+[View the Nintendont Guide](nintendont){.btn .btn-solid} [View the Wii Loaders Guide](wii-loaders){.btn .btn-solid}
 
 :::
 
@@ -257,6 +255,8 @@ You can also use [Nintendont](nintendont) to play GameCube games from your USB d
 
 ::: tip
 
-[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
+**If you do not already have cIOS configured, you must configure it in order to utilize any USB loader applications. You may proceed to cIOS installation or return to the site index.**
+
+[← Return to Site Navigation](site-navigation){.btn .btn-solid} [Continue to cIOS Installation →](cios){.btn .btn-solid}
 
 :::

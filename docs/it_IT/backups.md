@@ -245,11 +245,9 @@ Se hai già dei giochi nella tua unità e TinyWiiBackupManager ti chiede di norm
 
 ::: tip
 
-[Continua coi cIOS](cios)
+Una volta configurati i cIOS, potrai poi usare USB Loader GX o WiiFlow per avviare i giochi dalla tua scheda SD o unità USB. Potrai anche usare Nintendont per avviare i giochi GameCube.\*\*
 
-Per poter giocare con i backup dei giochi Wii dall'unità USB esterna o dalla scheda SD, devi aver configurato i cIOS. Una volta configurati, potrai poi usare [USB Loader GX o WiiFlow](wii-loaders).
-
-Potrai anche usare [Nintendont](nintendont) per giocare ai backup GameCube.
+[Guida su Nintendont](nintendont){.btn .btn-solid} [Guida sui USB loader](wii-loaders){.btn .btn-solid}
 
 :::
 
@@ -257,6 +255,8 @@ Potrai anche usare [Nintendont](nintendont) per giocare ai backup GameCube.
 
 ::: tip
 
-[Clicca qui per tornare all'indice.](site-navigation)
+**Se non hai i cIOS, dovrai installarli per utilizzare gli USB loader. Puoi continuare con l'installazione dei cIOS o ritornare all'indice.**
+
+[← Ritorna all'indice](site-navigation){.btn .btn-solid} [Continua con l'installazione dei cIOS →](cios){.btn .btn-solid}
 
 :::

@@ -102,14 +102,8 @@ USB loader GX를 자동 부팅하려면 먼저 다음을 수행합니다.
 
 ::: tip
 
-[Click here to return to the main Priiloader guide.](priiloader)
+**Return to the main Priiloader guide, or return to the site index.**
 
-:::
-
----
-
-::: tip
-
-[여기를 눌러 사이트 색인으로 돌아갑니다.](site-navigation)
+[← Return to Priiloader](priiloader){.btn .btn-solid} [← Return to Site Navigation](site-navigation){.btn .btn-solid}
 
 :::

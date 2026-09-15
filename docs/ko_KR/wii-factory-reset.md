@@ -92,8 +92,8 @@ Wii U의 vWii에서 이 자습서를 시도하지 마세요.
 
 ::: tip
 
-[BootMii 복원 계속](bootmiirecover)
+**Now that you have a blank NAND, you can restore it on your Wii using BootMii.**
 
-이제 빈 낸드가 있으므로 BootMii를 사용하여 Wii에 복원할 수 있습니다.
+[Continue to BootMii Recovery →](bootmiirecover){.btn .btn-solid}
 
 :::

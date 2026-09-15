@@ -151,7 +151,7 @@ Ez az útmutató az utolsó, amire valaha is szükséged lesz, ha a Wii témáz�
 
 Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli különbség miatt a témák ritkák - valójában csak egyetlen olyan témát találtunk, amely biztosan működik az újabb verzióval. A téma telepítésének utasításai alább találhatók.
 
-### Requirements
+### Követelmények
 
 - Egy moddolt Wii
 - Egy SD kártya vagy USB drive
@@ -168,7 +168,7 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 
 ## USB Loader GX témázás
 
-### Requirements
+### Követelmények
 
 - Egy moddolt Wii
 - Egy SD kártya vagy USB drive
@@ -186,7 +186,7 @@ Sajnos az eredeti WiiFlow és az újabb WiiFlow Lite közötti kódbázisbeli k�
 
 ## Homebrew Channel témázás
 
-### Requirements
+### Követelmények
 
 - Egy moddolt Wii
 - Egy SD kártya vagy USB drive
@@ -223,8 +223,4 @@ Az App forwarderek egy kis extra hangulatot adhatnak a Wii menüjének - de lég
 
 ---
 
-::: tip
-
-[Kattints ide az oldal tartalomjegyzékhez való visszatéréshez.](site-navigation)
-
-:::
+[← Vissza a tartalomjegyzékhez](site-navigation){.btn .btn-solid}

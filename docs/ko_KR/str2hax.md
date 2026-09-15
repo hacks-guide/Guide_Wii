@@ -104,8 +104,8 @@ CTGP Revolution 또는 Project+와 같은 모드를 설치한 경우, str2hax가
 
 ::: tip
 
-[홈브류 채널 및 BootMii 설치 계속하기](hbc)
+**Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.**
 
-Now that you are in the HackMii Installer, you will be able to install the Homebrew Channel, as well as BootMii depending on your console.
+[Continue to HBC/BootMii Installation →](hbc){.btn .btn-solid}
 
 :::

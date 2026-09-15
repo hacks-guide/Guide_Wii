@@ -93,8 +93,4 @@ If you want to restore a game's save data, use Dolphin to import your NAND backu
 
 ---
 
-::: tip
-
-[Haz clic aquí para volver al índice del sitio.](site-navigation)
-
-:::
+[← Return to Site Navigation](site-navigation){.btn .btn-solid}

@@ -96,8 +96,8 @@ Ahhoy, hogy használni tudj olyan szolgáltatásokat, mint a WiiConnect24 el kel
 
 ::: tip
 
-Folytatás az [Open Shop Channel telepítés](osc)-ével
+**Most, hogy a Wii mini telepítésed teljes, telepítheted az Open Shop Channel-t, ami a homebrew programok megbízható tárháza és hozzáférhető mind egy Wii mini-ről vagy egy számítógépről.**
 
-Most, hogy a Wii mini telepítésed teljes, telepítheted az Open Shop Channel-t, ami a homebrew programok megbízható tárháza és hozzáférhető mind egy Wii mini-ről vagy egy számítógépről.
+[Folytatás az Open Shop Channel telepítésével →](priiloader){.btn .btn-solid}
 
 :::

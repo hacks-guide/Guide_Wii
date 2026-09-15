@@ -99,8 +99,8 @@ WiiWare 4:3 DB Patcher è un homebrew che modifica il database di canali in riso
 
 ::: tip
 
-Continua con l'[installazione di Open Shop Channel](osc)
+**Ora che la configurazione di vWii è terminata, puoi installare l'Open Shop Channel, una repository affidabile per le app homebrew che può essere navigata con o senza Wii.**
 
-Ora che la configurazione di vWii è terminata, puoi installare l'Open Shop Channel, una repository affidabile per le app homebrew che può essere navigata con o senza Wii.
+[Continua con l'installazione di Open Shop Channel →](osc){.btn .btn-solid}
 
 :::

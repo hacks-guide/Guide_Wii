@@ -171,8 +171,4 @@ Per Wii U, vWii utilizza le impostazioni Internet impostate nelle impostazioni d
 
 ---
 
-::: tip
-
-[Clicca qui per tornare all'indice.](site-navigation)
-
-:::
+[← Ritorna all'indice](site-navigation){.btn .btn-solid}

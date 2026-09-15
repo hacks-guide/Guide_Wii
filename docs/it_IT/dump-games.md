@@ -115,6 +115,8 @@ Wii Family Edition, Wii mini e la vWii di Wii U non possono effettuare dump di g
 
 ::: tip
 
-Procedi a [gestire i backup Wii e GameCube](backups#using-tinywiibackupmanager) per ridurre le dimensioni del file ottenuto e gestire i dump.
+**Ritorna all'indice del sito, o continua con Gestire i backup Wii e GameCube per ridurne la dimensione e poterli avviare.**
+
+[← Ritorna all'indice](site-navigation){.btn .btn-solid} [Continua con la gestione dei backup Wii e GameCube →](backups#using-tinywiibackupmanager){.btn .btn-solid}
 
 :::

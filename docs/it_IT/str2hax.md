@@ -104,8 +104,8 @@ Questo exploit richiede di reimpostare il DNS in modo da connettersi a un server
 
 ::: tip
 
-[Continua con l'installazione di Homebrew Channel e di BootMii](hbc)
+**Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.**
 
-Ora che sei nell'HackMii Installer, potrai installare l'Homebrew Channel e BootMii, a seconda della tua console.
+[Continua con l'installazione di HBC/BootMii →](hbc){.btn .btn-solid}
 
 :::

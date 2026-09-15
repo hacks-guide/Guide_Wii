@@ -116,8 +116,8 @@ Biztosítsd hogy a Wii U-nak legyen internet hozzáférése ehhez a lépéshez, 
 
 ::: tip
 
-[Folytatás a Homebrew Channel telepítésével](vwii-homebrew-channel)
+**Most, hogy már van egy NAND mentésed, elkezdheted a Homebrew Channel telepítését a vWii Menu-be.**
 
-Most, hogy már van egy NAND mentése, elkezdheted a Homebrew Channel telepítését a vWii Menu-be.
+[Folytatás a HBC telepítésével →](vwii-homebrew-channel){.btn .btn-solid}
 
 :::

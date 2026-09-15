@@ -10,7 +10,7 @@ AZ SD kártya helyes formázásához útmutatásként tekintsd meg [ezt az útmu
 
 ::: warning
 
-NE használd a példákban megadott MAC cmeket, mert azok simán hibát okoznak a HackMii weboldalon. Használd a sajátod!
+NE használd a példákban megadott MAC címeket, mert azok simán hibát okoznak a HackMii weboldalon. Használd a sajátod!
 
 :::
 
@@ -75,8 +75,8 @@ NE használd a példákban megadott MAC cmeket, mert azok simán hibát okoznak 
 
 ::: tip
 
-[Tovább a Homebrew Channel és BootMii telepítéséhez](hbc)
+**Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzolodtól függően a BootMii-t.**
 
-Most, hogy a HackMii Installer-ben vagy telepítheted a Homebrew Channel-t és a konzoldotl függően a BootMii-t.
+[Folytatás a HBC/BootMii telepítésével →](hbc){.btn .btn-solid}
 
 :::

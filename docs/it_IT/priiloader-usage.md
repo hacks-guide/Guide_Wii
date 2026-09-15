@@ -102,14 +102,8 @@ Ora la console dovrebbe avviare automaticamente l'app homebrew installata.
 
 ::: tip
 
-[Clicca qui per tornare alla guida principale di Priiloader.](priiloader)
+**Ritorna alla guida principale di Priiloader, oppure ritorna all'indice del sito.**
 
-:::
-
----
-
-::: tip
-
-[Clicca qui per tornare all'indice.](site-navigation)
+[← Ritorna a Priiloader](priiloader){.btn .btn-solid} [← Ritorna all'indice](site-navigation){.btn .btn-solid}
 
 :::

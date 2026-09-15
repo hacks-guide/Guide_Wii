@@ -25,3 +25,7 @@ Questo sito può includere link ad altri siti purché gli utenti possano utilizz
 ## Modifiche all'informativa sulla privacy
 
 I contenuti della presente informativa sulla privacy possono essere modificati in qualsiasi momento e per qualsiasi motivo.
+
+---
+
+[← Ritorna all'indice](site-navigation){.btn .btn-solid}
