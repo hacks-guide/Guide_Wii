@@ -247,7 +247,7 @@ If you are able to connect your vWii to the internet, you may skip to [Section I
     ![](/images/desktop-apps/nusget/nusget-vios-output.png)
 1. Place each WAD file on the root of your SD card or USB drive.
     * This must be the same device containing the d2x cIOS Installer.
-1. Rename the four `.wad` files to match the names listed below for compatibility purposes with d2x-cios-installer:
+1. Rename the four `.wad` files to match the names listed below for compatibility purposes with d2x-cIOS-installer-vwii:
 
     |  IOS   |     File Name      |
     | :----: | :----------------: |
