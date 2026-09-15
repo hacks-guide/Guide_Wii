@@ -17,6 +17,7 @@ Please read the listed important information before proceeding.
 * If you are utilizing this guide to hack a Wii mini and need assistance, please join [the Wii mini Hacking discord server](https://discord.gg/6ryxnkS).
 * If you are using the original revision of the Wii, you should consider finding [another exploit to use](get-started) as there are much easier ways to get to the HackMii installer. Exceptions however, exist in circumstances like brick recovery.
 * Make sure that the console is close to the computer running the exploit, ideally it should be less than 3 feet.
+* If you encounter any issues when following this guide or it's subsequent pages, please refer to our [troubleshooting guide](faq.md#bluebomb).
 
 :::
 
