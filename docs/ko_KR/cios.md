@@ -70,7 +70,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 9. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 d2x cIOS 설치 프로그램을 실행합니다.
    - 이 장치는 d2x cIOS 설치 프로그램이 포함된 동일한 장치여야 합니다.
 
-10. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer:
+10. Rename the four `.wad` files to match the names listed below for compatibility purposes with d2x-cios-installer:
 
     |   IOS  |              File Name             |
     | :----: | :--------------------------------: |
@@ -269,7 +269,7 @@ If you are able to connect your vWii to the internet, you may skip to [Section I
 9. Wii에 SD 카드 또는 USB 드라이브를 연결하고 홈브류 채널에서 d2x cIOS 설치 프로그램을 실행합니다.
    - 이 장치는 d2x cIOS 설치 프로그램이 포함된 동일한 장치여야 합니다.
 
-10. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer-vwii:
+10. Rename the four `.wad` files to match the names listed below for compatibility purposes with d2x-cios-installer-vwii:
 
     |   IOS  |              File Name             |
     | :----: | :--------------------------------: |

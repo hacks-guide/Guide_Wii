@@ -70,7 +70,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 9. Você agora poderá usar homebrew como o <a href="usbloadergx">USB Loader GX</a> e <a href="wiiflow">WiiFlow</a>.
    - Esse deve ser o mesmo dispositivo contendo o d2x cIOS Installer.
 
-10. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer:
+10. Rename the four `.wad` files to match the names listed below for compatibility purposes with d2x-cios-installer:
 
     |   IOS  |              File Name             |
     | :----: | :--------------------------------: |
@@ -269,7 +269,7 @@ If you are able to connect your vWii to the internet, you may skip to [Section I
 9. Você agora poderá usar homebrew como o <a href="usbloadergx">USB Loader GX</a> e <a href="wiiflow">WiiFlow</a>.
    - Esse deve ser o mesmo dispositivo contendo o d2x cIOS Installer.
 
-10. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer-vwii:
+10. Rename the four `.wad` files to match the names listed below for compatibility purposes with d2x-cios-installer-vwii:
 
     |   IOS  |              File Name             |
     | :----: | :--------------------------------: |

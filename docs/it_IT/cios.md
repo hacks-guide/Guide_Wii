@@ -70,7 +70,7 @@ Se riesci a connettere Wii a Internet, puoi saltare alla [Sezione II](cios#secti
 9. Posiziona ogni file WAD nella root della scheda SD o dell'unità USB.
    - Questa deve essere la stessa unità che contiene d2x cIOS Installer.
 
-10. Assicurati che ogni WAD sia nominato come sotto per compatibilità con d2x-cios-installer:
+10. Rinomina i quattro file `.wad ` come sotto per compatibilità con d2x-cios-installer:
 
     |   IOS  |            Nome del file           |
     | :----: | :--------------------------------: |
@@ -269,7 +269,7 @@ Se riesci a connettere vWii a Internet, puoi saltare alla [Sezione II](cios#sect
 9. Posiziona ogni file WAD nella root della scheda SD o dell'unità USB.
    - Questa deve essere la stessa unità che contiene d2x cIOS Installer.
 
-10. Assicurati che ogni WAD sia nominato come sotto per compatibilità con d2x-cios-installer-vwii:
+10. Rinomina i quattro file `.wad ` come sotto per compatibilità con d2x-cios-installer-vwii:
 
     |   IOS  |            Nome del file           |
     | :----: | :--------------------------------: |

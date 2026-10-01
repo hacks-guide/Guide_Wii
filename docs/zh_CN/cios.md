@@ -70,7 +70,7 @@ If you are able to connect your Wii to the internet, you may skip to [Section II
 9. 将每个 WAD 文件放在 SD 卡或 U 盘的根目录。
    - 必须与包含 d2x cIOS Installer 的设备相同。
 
-10. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer:
+10. Rename the four `.wad` files to match the names listed below for compatibility purposes with d2x-cios-installer:
 
     |   IOS  |              File Name             |
     | :----: | :--------------------------------: |
@@ -269,7 +269,7 @@ If you are able to connect your vWii to the internet, you may skip to [Section I
 9. 将每个 WAD 文件放在 SD 卡或 U 盘的根目录。
    - 必须与包含 d2x cIOS Installer 的设备相同。
 
-10. Ensure that each WAD file is named as listed below for compatibility purposes with d2x-cios-installer-vwii:
+10. Rename the four `.wad` files to match the names listed below for compatibility purposes with d2x-cios-installer-vwii:
 
     |   IOS  |              File Name             |
     | :----: | :--------------------------------: |

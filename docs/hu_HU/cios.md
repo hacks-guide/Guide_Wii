@@ -70,7 +70,7 @@ Ha képes vagy csatlakoztatni a Wii-odat az internetre, átugorgathatsz a [II. r
 9. Helyezd az összes WAD-fájlt az SD kártya vagy USB drive gyökerére.
    - Ezen az eszközön legyen a d2x cIOS-telepítő is.
 
-10. Biztosítsd, hogy minden WAD fájl úgy nevezett mint a listában alább, a d2x-cios-installer-rel kompatiblitáshoz:
+10. Nevezd át mind a négy `.wad` fájl úgy, mint a listában látható alább, a d2x-cios-installer-rel kompatiblitáshoz:
 
     |   IOS  |               Fájlnév              |
     | :----: | :--------------------------------: |
@@ -269,7 +269,7 @@ Ha képes vagy csatlakoztatni a vWii-odat az internetre, átugorgathatsz a [II. 
 9. Helyezd az összes WAD-fájlt az SD kártya vagy USB drive gyökerére.
    - Ezen az eszközön legyen a d2x cIOS-telepítő is.
 
-10. Biztosítsd, hogy minden WAD fájl úgy nevezett mint a listában alább, a d2x-cios-installer-vwii-jal kompatiblitáshoz:
+10. Nevezd át mind a négy `.wad` fájl úgy, mint a listában látható alább, a d2x-cios-installer-vwii-jal kompatiblitáshoz:
 
     |   IOS  |               Fájlnév              |
     | :----: | :--------------------------------: |
