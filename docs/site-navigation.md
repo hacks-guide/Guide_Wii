@@ -50,7 +50,7 @@
 * [Priiloader](priiloader)
 * [Recovery Mode](recovery-mode)
 * [Relaunching the HackMii Installer](hackmii)
-* [Restoring The Wii NAND to Stock](wii-factory-reset)
+* [Restoring The Wii NAND to Stock](factory-reset)
 * [Updating Wii Menu to v4.3](update)
 * [YAWM ModMii Edition](yawmme)
 
@@ -68,7 +68,7 @@
 * [Priiloader Usage](priiloader-usage)
 * [Recommended Homebrew](recommended-homebrew)
 * [Transferring Save Games](transfer-saves)
-* [Wii Backup Loaders](wii-loaders)
+* [Wii Backup Loaders](loaders)
 * [Using SysCheck](syscheck)
 * [Wii Themes Guide](themes)
 

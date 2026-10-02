@@ -2,7 +2,7 @@
 head:
   - - meta
     - http-equiv: refresh
-      content: '0; URL=wii-loaders'
+      content: '0; URL=loaders'
 ---
 
 # Redirecting

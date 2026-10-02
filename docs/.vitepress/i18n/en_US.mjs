@@ -466,22 +466,22 @@ const themeConfig = {
 			},
 			sidebar_common
 		],
-		[`/wii-loaders`]: [
+		[`/loaders`]: [
 			{
 				text: localeData.guide,
 				items: [
 					{ text: localeData.pages["get-started"], link: `/get-started` },
-					{ text: localeData.pages["wii-loaders"], link: `/wii-loaders` },
+					{ text: localeData.pages["loaders"], link: `/loaders` },
 				]
 			},
 			sidebar_common
 		],
-		[`/wii-factory-reset`]: [
+		[`/factory-reset`]: [
 			{
 				text: localeData.guide,
 				items: [
 					{ text: localeData.pages["get-started"], link: `/get-started` },
-					{ text: localeData.pages["wii-factory-reset"], link: `/wii-factory-reset` },
+					{ text: localeData.pages["factory-reset"], link: `/factory-reset` },
 				]
 			},
 			sidebar_common

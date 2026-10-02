@@ -58,7 +58,7 @@ This site hosts additional guides that will help you in your modding journey, de
 * [Installing WADs with YAWMME](yawmme)
 * [Dumping game discs to create game backups](dump-games)
 * [Managing your game backups](backups)
-* [Loading Wii game backups](wii-loaders)
+* [Loading Wii game backups](loaders)
 * [Creating Wii game shortcuts for your game backups](wiigsc)
 * [Modifying your Wii with themes](themes)
 
