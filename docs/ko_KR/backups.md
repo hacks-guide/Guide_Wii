@@ -80,7 +80,7 @@ TinyWiiBackupManager is a new, lightweight game backup manager programmed in Rus
 
 #### 요구 사항
 
-- A PC running Windows 7 or later
+- A PC running Windows XP or later
 - USB 드라이브 또는 SD 카드
 - A dumped Wii/GameCube game disc (any format)
 - [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)

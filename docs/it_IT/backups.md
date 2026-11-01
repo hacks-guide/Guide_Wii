@@ -80,7 +80,7 @@ TinyWiiBackupManager è un nuovo e leggero gestore dei backup di giochi programm
 
 #### Requisiti
 
-- Un PC con Windows 7 o versioni successive
+- Un PC con Windows XP o versioni successive
 - Una scheda SD o un'unità USB
 - Un backup di un gioco Wii/GameCube (in qualsiasi formato)
 - [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)

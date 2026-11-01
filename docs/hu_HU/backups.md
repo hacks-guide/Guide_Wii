@@ -80,7 +80,7 @@ A TinyWiiBackupManager egy új, könnyű játék mentés manager alkalmazás, am
 
 #### Követelmények
 
-- Egy PC Windows 7-tel vagy későbbivel
+- Egy PC Windows XP-tel vagy későbbivel
 - Egy SD kártya vagy USB drive
 - Egy dumpolt Wii/GameCube játék lemez (bármilyen formátum)
 - [TinyWiiBackupManager](https://github.com/mq1/TinyWiiBackupManager/releases/latest)
