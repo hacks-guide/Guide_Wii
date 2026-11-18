@@ -30,14 +30,14 @@ System Channel Restorer is a homebrew app that restores channels missing from th
 
 ### Requirements
 
-* An SD card or USB drive
+* A USB drive
 * An Internet connection
 * [System Channel Restorer](https://oscwii.org/library/app/system-channel-restorer)
 
 ### Instructions
 
 1. Copy the `apps` folder in the `system-channel-restorer.zip` file to the root of your USB drive.
-1. Reinsert your SD card or USB drive into your console.
+1. Reinsert your USB drive into your console.
 1. Launch the Homebrew Channel.
 1. Launch System Channel Restorer from the list of homebrew.
 
@@ -88,6 +88,6 @@ In order to use features like WiiConnect24, you must accept the Wii User Agreeme
 
 **Now that your Wii mini setup is complete, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii mini.**
 
-[Continue to Open Shop Channel Installation →](priiloader){.btn .btn-solid}
+[Continue to Open Shop Channel Installation →](osc){.btn .btn-solid}
 
 :::

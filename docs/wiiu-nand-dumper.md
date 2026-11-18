@@ -57,7 +57,7 @@ Your SD Card will need to be formatted as FAT32. If your SD Card is not formatte
    ┃   ┗ 📄 root.rpx
    ┣ 📁 payloads
    ┃ ┣ 📁 default
-   ┃ ┃ ┗ 📁 payload.elf
+   ┃ ┃ ┗ 📄 payload.elf
    ┃ ┗ 📁 nanddumper
    ┃   ┗ 📄 payload.elf
    ┣ 📄 payload.rpx
