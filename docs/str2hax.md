@@ -86,14 +86,14 @@ This exploit requires you to set your DNS in order to connect to a server that c
 
     ![](/images/exploits/str2hax/EULA.png)
 
-    * If you get the normal User Agreements, your ISP blocks the use of custom DNS. Try another connection, or [use another exploit](get-started).
+    * If you get the normal User Agreements, check your connection settings first: a previous str2hax attempt changes the Primary DNS to `8.8.8.8` and the Secondary DNS to `8.8.4.4`, so set the Primary DNS back to `3.143.163.250`. If the DNS is correct and you still get the normal User Agreements, your ISP blocks the use of custom DNS. Try another connection, or [use another exploit](get-started).
 
 1. Give the exploit 1-2 minutes to download (and don't press `I ACCEPT`/`I DO NOT ACCEPT`).
 1. If the exploit was successful, your device will have loaded the HackMii Installer.
 
     ![](/images/hackmii/scam.png)
 
-    * If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR! if_config (ret = ...)`, please restart your Wii and try again.
+    * If the HackMii Installer doesn't load after more than 2 minutes, or you receive an error like `Hanging.` or `ERROR: if_config: ...`, please restart your Wii, check that the Primary DNS is still `3.143.163.250`, and try again.
 
 ---
 
