@@ -111,7 +111,9 @@ The WAD files should be on your SD card like this:
 
     ::: info
 
-    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
+    Do not press Home on this screen. Home adds the current settings to a batch, and while a batch is active, pressing `A` installs only the batched cIOS, not the settings shown on screen.
+
+    If the bottom line of the screen shows "`Batch mode: # cIOS`", or you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
 
     (If you are trying to exit the installer, the button is B, not Home.)
 
