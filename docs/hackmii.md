@@ -16,6 +16,12 @@ It is also safe to [redo any exploit](get-started) to get back into the HackMii 
 * An SD card or USB drive formatted to FAT32/MS-DOS
 * [HackMii Installer v1.2](https://bootmii.org/download/)
 
+::: warning
+
+Homebrew Channel versions older than Beta 9 cannot read SDHC (>2GB) cards, and versions older than 1.0.2 cannot load apps from USB. If your Homebrew Channel is this old, use an SD card that is 2GB or smaller, or [redo an exploit](get-started) to update it first ([str2hax](str2hax) does not need an SD card).
+
+:::
+
 ### Instructions
 
 1. Insert your SD/USB into your PC.
